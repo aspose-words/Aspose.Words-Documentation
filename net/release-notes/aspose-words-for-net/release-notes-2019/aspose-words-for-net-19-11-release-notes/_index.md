@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 19.11 Release Notes
+description: "Aspose.Words for .NET 19.11 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /net/aspose-words-for-net-19-11-release-notes/
@@ -137,7 +138,7 @@ public class TaskPane
     /// </summary>
     public bool IsLocked { get; set; }
     /// <summary>
-    /// Specifies whether the task pane demonstrates as visible by default when the document opens.
+    /// Specifies whether the task pane shows as visible by default when the document opens.
     /// </summary>
     public bool IsVisible { get; set; }
     /// <summary>
@@ -446,7 +447,7 @@ public HorizontalRuleFormat HorizontalRuleFormat
 {{< /highlight >}}
 
 **Added new public class HorizontalRuleFormat** 
-HorizontalRuleFormat class enables to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
+HorizontalRuleFormat class allows to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
 
 {{< highlight csharp >}}
 /// <summary>

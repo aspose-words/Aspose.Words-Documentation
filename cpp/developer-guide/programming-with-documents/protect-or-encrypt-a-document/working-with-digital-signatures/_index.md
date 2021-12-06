@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Digital Signatures
 description: "Aspose.Words for C++ allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
@@ -8,7 +8,7 @@ url: /cpp/working-with-digital-signatures/
 
 A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.
 
-Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util/) class to work with digital signatures.
+Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util) class to work with digital signatures.
 
 This article explains how to do all of the above to validate the authenticity and integrity of a digital document.
 
@@ -37,7 +37,7 @@ The table below describes a few limitations that you may face while working with
 
 Aspose.Words allows you to detect digital signature in a document using the the [DetectFileFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_util#detectfileformat_stream) method and the [HasDigitalSignature](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info#get_hasdigitalsignature_const) property. It is worth noting that such a check will only detect the fact of the signature, but not its validity.
 
-A document can be signed more than once, and this can be done by different users. To check the validity of digital signatures, you need to load them from the document using the [LoadSignatures](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#loadsignatures_stream) method and use the [IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_isvalid) property. Also Aspose.Words allows you to count a set of all digital signatures within a document using the [Count](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_count) property.
+A document can be signed more than once, and this can be done by various users. To check the validity of digital signatures, you need to load them from the document using the [LoadSignatures](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#loadsignatures_stream) method and use the [IsValid](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_isvalid) property. Also Aspose.Words allows you to count a set of all digital signatures within a document using the [Count](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_count) property.
 
 All of this provides an efficient and safe way to check a document for signatures before processing it.
 
@@ -64,7 +64,7 @@ ASSERT_TRUE(info->get_HasDigitalSignature());
 ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(u"File.DetectDigitalSignatures.docx")->get_Count(), 1);
 {{< /highlight >}}
 
-## Create a Digital Signature
+## Create a Digital Signature {#create-a-digital-signature}
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
@@ -74,7 +74,7 @@ The next sections explain how to add a digital signature, signature line, and ho
 
 ### Sign a Document
 
-Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#sign_stream_stream_certificateholder) method and [SignOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.sign_options/) properties.
+Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#sign_stream_stream_certificateholder) method and [SignOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.digital_signatures.sign_options) properties.
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
@@ -100,9 +100,9 @@ signOptions->set_SignTime(System::DateTime::get_Now());
         auto digitalSignatures = DigitalSignatureUtil::LoadSignatures(stream);
 
         ASSERT_EQ(1, digitalSignatures->get_Count());
-
+    
         auto signature = digitalSignatures->idx_get(0);
-
+    
         ASSERT_TRUE(signature->get_IsValid());
         ASSERT_EQ(DigitalSignatureType::XmlDsig, signature->get_SignatureType());
         ASSERT_EQ(signOptions->get_SignTime(), signature->get_SignTime());
@@ -112,7 +112,7 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 
 ### Add a Signature Line
 
-A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertsignatureline_signaturelineoptions) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.signature_line_options/) class.
+A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertsignatureline_signaturelineoptions) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.signature_line_options) class.
 
 For example, the picture below shows how valid and invalid signatures can be displayed.
 
@@ -184,7 +184,7 @@ ASSERT_EQ(signatures->idx_get(0)->get_IssuerName(), u"CN=Morzal.Me");
 ASSERT_EQ(DigitalSignatureType::XmlDsig, signatures->idx_get(0)->get_SignatureType());
 {{< /highlight >}}
 
-### Sign a Generated PDF Document
+### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
 Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_digital_signature_details) properties.
 
@@ -196,7 +196,7 @@ auto builder = System::MakeObject<DocumentBuilder>(doc);
 builder->Writeln(u"Signed PDF contents.");
 
 // Load the certificate from disk.
-// The other constructor overloads can be used to load certificates from different locations.
+// The other constructor overloads can be used to load certificates from various locations.
 auto certificateHolder = CertificateHolder::Create(u"morzal.pfx", u"aw");
 
 // Pass the certificate and details to the save options class to sign with.
@@ -204,7 +204,7 @@ auto options = System::MakeObject<PdfSaveOptions>();
 auto signingTime = DateTime::get_Now();
 options->set_DigitalSignatureDetails(System::MakeObject<PdfDigitalSignatureDetails>(certificateHolder, u"Test Signing", u"Aspose Office", signingTime));
 
-// We can use this attribute to set a different hash algorithm.
+// We can use this attribute to set a various hash algorithm.
 options->get_DigitalSignatureDetails()->set_HashAlgorithm(PdfDigitalSignatureHashAlgorithm::Sha256);
 
 doc->Save(u"PdfSaveOptions.PdfDigitalSignature.pdf", options);

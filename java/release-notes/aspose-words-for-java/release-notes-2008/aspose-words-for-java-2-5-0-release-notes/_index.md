@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 2.5.0 Release Notes
+description: "Aspose.Words for Java 2.5.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /java/aspose-words-for-java-2-5-0-release-notes/
@@ -42,7 +43,7 @@ Since the previous release we have added support for the following features:
 
 Although the degree of Aspose.Words conformance to OOXML is high, not all OOXML features are yet supported. For example ActiveX controls, Structured Document Tags (Content Controls) and Custom XML are not yet supported. These will be supported in the following months.
 
-The changes are not likely to affect multiple users. Even if you cannot recompile your project because of a change, it is very easy to update your code because all changes are cosmetic, although they had to be done.
+The changes are not likely to affect many users. Even if you cannot recompile your project because of a change, it is very easy to update your code because all changes are cosmetic, although they had to be done.
 
 The breaking changes in Aspose.Words for Java 2.5.0 are:
 

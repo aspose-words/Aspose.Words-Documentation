@@ -1,5 +1,6 @@
 ---
 title: Display Documents in Print Preview
+description: "Aspose.Words for .NET allows you to display documents in print preview easily and fast instead of using VSTO."
 type: docs
 weight: 110
 url: /net/display-documents-in-print-preview/
@@ -44,10 +45,8 @@ previewDlg.ShowDialog();
 
 ## Download Running Code Example
 
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
 ## Sample Code
 
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto#Aspose.Words%20Vs%20VSTO%20Words/Display%20Documents%20in%20Print%20Preview/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Code%20Comparison%20of%20Common%20Features/Display%20Documents%20in%20Print%20Preview)

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Numbering Features Supported on DOC Import
+description: "Aspose.Words for Java allows you to work with numbering features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 80
 url: /java/numbering-features-supported-on-doc-import/
@@ -7,7 +8,7 @@ url: /java/numbering-features-supported-on-doc-import/
 
 {{% alert color="primary" %}} 
 
-A list used in a document is actually made up of numerous complex parts. List and their properties are fully supported by Aspose.Words.
+A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words.
 
 There are two main types of lists:
 

@@ -1,5 +1,6 @@
 ---
 title: Get Document Properties in NPOI
+description: "Aspose.Words for .NET allows you to get document properties easily and fast instead of using NPOI."
 type: docs
 weight: 50
 url: /net/get-document-properties-in-npoi/
@@ -45,7 +46,6 @@ You can use document properties in your document automation project to store som
 
 Download **Get Document Properties** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposenpoi#Aspose.Words_NPOI.HWPF%20and%20XWPF/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Get%20Document%20Properties/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Get%20Document%20Properties)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
 
@@ -53,6 +53,5 @@ Download **Get Document Properties** from any of the below mentioned social codi
 
 Download **Get Document Properties** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/releases/view/617696)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsNPOIHWPFandXWPF1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 19.3 Release Notes
+description: "Aspose.Words for Java 19.3 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 100
 url: /java/aspose-words-for-java-19-3-release-notes/
@@ -195,13 +196,13 @@ public class TxtListIndentation
 
 
 
-It has two public properties for specifying how numerous and which character to use for indentation of list levels:
+It has two public properties for specifying how many and which character to use for indentation of list levels:
 
 
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets or sets how a few <see cref="Character"/> to use as indentation per one list level.
+/// Gets or sets how many <see cref="Character"/> to use as indentation per one list level.
 /// The default value is 0, that means no indentation.
 /// </summary>
 public int Count
@@ -328,7 +329,7 @@ public ParagraphAlignment TickLabelAlignment
 
 
 
-When axis tick labels are multi-line, MS Word aligns them to the center by default. The property enables for changing this behaviour.
+When axis tick labels are multi-line, MS Word aligns them to the center by default. The property allows for changing this behaviour.
 
 #### UseCase:
 

@@ -1,5 +1,6 @@
 ---
 title: Export to Word Plugin for dotCMS
+description: "Export to Word Plugin for dotCMS."
 type: docs
 weight: 10
 url: /java/export-to-word-plugin-for-dotcms/
@@ -21,7 +22,6 @@ Please feel free to contact us if you wish to install this plugin on older versi
 
 You can download Export to Word plugin from one of the following locations
 
-- [CodePlex ](https://archive.codeplex.com/?p=asposewordsdotcms)
 - [dotCMS Plugins Repository ](http://dotcms.com/plugins/export-to-word)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose-dotCMS-Export-To-Word-v1.0.0)
 
@@ -73,7 +73,7 @@ License license = new License();
 license.setLicense("Aspose.Words.Java.lic");
 {{< /highlight >}}
 
-Please check this [article](https://docs.aspose.com/words/java/license-aspose-words/#applying-a-license) for further details.
+Please check this [article](/words/java/license-aspose-words/#applying-a-license) for further details.
 
 ## Support, Extend and Contribute
 
@@ -85,7 +85,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Export to Word dotCMS plugin using any of the following platforms
 
-- [CodePlex ](https://archive.codeplex.com/?p=asposewordsdotcms)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ### Extend and Contribute
@@ -96,7 +95,6 @@ Export to Word plugin for dotCMS is open source and its source code is available
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://archive.codeplex.com/?p=asposewordsdotcms)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words%20Java%20for%20dotCMS/AsposeDotCMSExportToWord.servlet)
 
 #### How to configure the source code

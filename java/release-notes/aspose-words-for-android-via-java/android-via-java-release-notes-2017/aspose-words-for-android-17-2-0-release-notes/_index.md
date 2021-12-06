@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Android 17.2.0 Release Notes
+description: "Aspose.Words for Android 17.2.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 110
 url: /java/aspose-words-for-android-17-2-0-release-notes/
@@ -59,7 +60,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.2.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Working with HtmlSaveOptions Properties](https://docs.aspose.com/display/wordsandroid/Converting+a+Microsoft+Word+document+using+save+Method#ConvertingaMicrosoftWorddocumentusingsaveMethod-WorkingwithHtmlSaveOptionsProperties)
+Check the detailed article on [Working with HtmlSaveOptions Properties](/display/wordsandroid/Converting+a+Microsoft+Word+document+using+save+Method#ConvertingaMicrosoftWorddocumentusingsaveMethod-WorkingwithHtmlSaveOptionsProperties)
 
 {{% /alert %}} 
 
@@ -345,7 +346,7 @@ C:\Resouces\MyStyleSheet.css
 
 ### WORDSNET-14762 - Added Public Property HtmlSaveOptions.ExportFontsAsBase64.
 
-Check the detailed article on [Export Fonts to HTML in Base64 Encoding](https://docs.aspose.com/display/wordsandroid/Converting+a+Microsoft+Word+document+using+save+Method#ConvertingaMicrosoftWorddocumentusingsaveMethod-ExportFontstoHTMLinBase64Encoding)
+Check the detailed article on [Export Fonts to HTML in Base64 Encoding](/display/wordsandroid/Converting+a+Microsoft+Word+document+using+save+Method#ConvertingaMicrosoftWorddocumentusingsaveMethod-ExportFontstoHTMLinBase64Encoding)
 
 New public property ExportFontsAsBase64 is added into the HtmlSaveOptions class:
 

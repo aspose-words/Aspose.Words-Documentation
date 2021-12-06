@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 19.3 Release Notes
+description: "Aspose.Words for .NET 19.3 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 100
 url: /net/aspose-words-for-net-19-3-release-notes/
@@ -187,7 +188,7 @@ public class TxtListIndentation
 
 
 
-It has two public properties for specifying how several and which character to use for indentation of list levels:
+It has two public properties for specifying how many and which character to use for indentation of list levels:
 
 
 
@@ -214,7 +215,7 @@ At last, a new option is added to the TxtSaveOptions class:
 
 {{< highlight csharp >}}
 /// <summary>
-/// Gets a ListIndentation object that specifies how a few and which character to use for indentation of list levels.
+/// Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels.
 /// By default it is zero count of character '\0', that means no indentation.
 /// </summary>
 public TxtListIndentation ListIndentation
@@ -279,7 +280,7 @@ public ParagraphAlignment TickLabelAlignment
 
 
 
-When axis tick labels are multi-line, MS Word aligns them to the center by default. The property enables for changing this behaviour.
+When axis tick labels are multi-line, MS Word aligns them to the center by default. The property allows for changing this behaviour.
 
 #### UseCase:
 

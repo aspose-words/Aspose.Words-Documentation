@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Digital Signatures
 description: "Aspose.Words for .NET allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
@@ -32,7 +32,7 @@ Aspose.Words allows you to work with digital signatures on DOC, OOXML, and ODT d
 
 ## Limitations of Digital Signatures
 
-The table below describes numerous limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
+The table below describes a few limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
 
 | Limitation                                                   | Alternative Option                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -73,7 +73,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
-Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://apireference.aspose.com/words/net/aspose.words/certificateholder/methods/create/index) method within the [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words/certificateholder) class.
+Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/methods/create/index) method within the [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder) class.
 
 The next sections explain how to add a digital signature, signature line, and how to sign a generated PDF document.
 
@@ -118,7 +118,7 @@ using (Stream stream = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignD
 
 A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertsignatureline) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/net/aspose.words/signaturelineoptions) class.
 
-For example, the picture below demonstrates how valid and invalid signatures can be displayed.
+For example, the picture below shows how valid and invalid signatures can be displayed.
 
 <img src="Valid.png" alt="drawing" style="width:300px"/>
 
@@ -224,9 +224,9 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 ## Remove Digital Signatures
 
-Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/net/aspose.words/digitalsignatureutil/methods/removeallsignatures/index) method.
+Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/methods/removeallsignatures/index) method.
 
-The following code example demonstrates how to load and remove digital signatures from a document:
+The following code example shows how to load and remove digital signatures from a document:
 
 {{< highlight csharp >}}
 // Load digital signatures via filename string to verify that the document is signed.

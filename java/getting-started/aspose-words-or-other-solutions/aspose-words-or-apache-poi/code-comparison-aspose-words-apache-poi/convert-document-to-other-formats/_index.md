@@ -1,5 +1,6 @@
 ---
 title: Convert Document to Other Formats
+description: "Aspose.Words for Java allows you to convert a document from one format to another and fast instead of using Apache POI."
 type: docs
 weight: 30
 url: /java/convert-document-to-other-formats/
@@ -21,10 +22,10 @@ The following code example demonstrates how to convert a whole document from DOC
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(AsposeConvertToFormats.class);
- 
+
 // Load the document from disk.
 Document doc = new Document(dataDir + "document.doc");
- 
+
 doc.save(dataDir + "Aspose_DocToHTML.html",SaveFormat.HTML); //Save the document in HTML format.
 doc.save(dataDir + "Aspose_DocToPDF.pdf",SaveFormat.PDF); //Save the document in PDF format.
 doc.save(dataDir + "Aspose_DocToTxt.txt",SaveFormat.TEXT); //Save the document in TXT format.
@@ -41,9 +42,9 @@ Apache POI also allows to covert in FO and text format.
 {{< highlight csharp >}}
 // The path to the documents directory.
 String dataDir = Utils.getDataDir(ApacheConvertToFormats.class);
- 
+
 HWPFDocumentCore wordDocument = WordToHtmlUtils.loadDoc(new FileInputStream(dataDir + "document.doc"));
- 
+
 WordToHtmlConverter wordToHtmlConverter = new WordToHtmlConverter(
         DocumentBuilderFactory.newInstance().newDocumentBuilder()
                 .newDocument());
@@ -52,7 +53,7 @@ Document htmlDocument = wordToHtmlConverter.getDocument();
 ByteArrayOutputStream out = new ByteArrayOutputStream();
 DOMSource domSource = new DOMSource(htmlDocument);
 StreamResult streamResult = new StreamResult(out);
- 
+
 TransformerFactory tf = TransformerFactory.newInstance();
 Transformer serializer = tf.newTransformer();
 serializer.setOutputProperty(OutputKeys.ENCODING, "UTF-8");
@@ -60,7 +61,7 @@ serializer.setOutputProperty(OutputKeys.INDENT, "yes");
 serializer.setOutputProperty(OutputKeys.METHOD, "html");
 serializer.transform(domSource, streamResult);
 out.close();
- 
+
 FileOutputStream outputStream = new FileOutputStream(dataDir + "Apache_DocToHTML.html");
 outputStream.write(out.toByteArray());
 outputStream.close();
@@ -68,16 +69,14 @@ outputStream.close();
 
 ## Download Running Code
 
-- [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/converter/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/converter)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Convert a Document to PDF](https://docs.aspose.com/words/java/converting-a-microsoft-word-document-using-save-method/#convert-a-document-to-pdf).
+For more details, visit [How to Convert a Document to PDF](/words/java/converting-a-microsoft-word-document-using-save-method/#convert-a-document-to-pdf).
 
 {{% /alert %}}

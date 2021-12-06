@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 17.12 Release Notes
+description: "Aspose.Words for .NET 17.12 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /net/aspose-words-for-net-17-12-release-notes/
@@ -263,7 +264,7 @@ public class ChartAxis
     /// </remarks>
     public AxisTimeUnit BaseTimeUnit { get; set; }
     /// <summary>
-    /// Returns a ChartNumberFormat object that enables defining number formats for the axis.
+    /// Returns a ChartNumberFormat object that allows defining number formats for the axis.
     /// </summary>
     public ChartNumberFormat NumberFormat { get; }
     /// <summary>

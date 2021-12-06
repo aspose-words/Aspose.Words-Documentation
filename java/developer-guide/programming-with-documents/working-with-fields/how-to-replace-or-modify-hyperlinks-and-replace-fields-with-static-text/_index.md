@@ -15,7 +15,7 @@ This example shows how to create a simple class that represents a hyperlink in t
 
 The following code example finds all hyperlinks in a Word document and changes their URL and display name.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.java" >}}
 
 ## Replace Fields with Static Text
 
@@ -33,26 +33,26 @@ The structure can also be seen below in hierarchical form using the demo project
 
 |![fields-aspose-words-java-2](http://i.imgur.com/Mn0nxv0.png)|
 | :- |
-As described in the process above, to convert the field to static text all nodes between the **FieldStart** and **FieldSeparator** inclusive, and also the **FieldEnd** node must be removed. Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across many pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
+As described in the process above, to convert the field to static text all nodes between the **FieldStart** and **FieldSeparator** inclusive, and also the **FieldEnd** node must be removed. Please note that this technique cannot be used properly on some fields in the header or footer. For example attempting to convert a PAGE field in a header or footer to static text will cause the same value to appear across all pages. This is because headers and footers are repeated across multiple pages and when they remain as fields they are handled especially so they display the correct result for each page. However upon conversion, the field in the header is transformed into a static run of text. This run of text will be evaluated as if it is the last page in the section which will cause any of PAGE field in the header to display the last page over all pages.
 
 ### The Code
 
 The implementation which converts fields to static text is described below. The ConvertFieldsToStaticText method can be called at any time within your application. After invoking this method, all of the fields of the specified field type that are contained within the composite node will be transformed into static text. Below class provides a static method convert fields of a particular type to static text.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-FieldsHelper.java" >}}
 
-The method accepts two parameters, A CompositeNode and a FieldType enumeration. Being able to pass any composite node to this method enables you to convert fields to static text in specific parts of your document only. For example you can pass a Document object and convert the fields of the specified type from the entire document to static text, or you could pass the [Body](http://www.aspose.com/api/java/words/com.aspose.words/classes/Body) object of a section and convert only fields found within that body.
+The method accepts two parameters, A CompositeNode and a FieldType enumeration. Being able to pass any composite node to this method allows you to convert fields to static text in specific parts of your document only. For example you can pass a Document object and convert the fields of the specified type from the entire document to static text, or you could pass the [Body](http://www.aspose.com/api/java/words/com.aspose.words/classes/Body) object of a section and convert only fields found within that body.
 
-When passing a block level node such as a [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph) , be aware that in some cases fields can span across numerous paragraphs. For instance the **FieldCode** of a field can contain several paragraphs which will cause the **FieldEnd** to appear in a separate paragraph from the corresponding **FieldStart**. In this case you will find that a portion of the field code may still remain after the process has finished. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
+When passing a block level node such as a [Paragraph](http://www.aspose.com/api/java/words/com.aspose.words/classes/Paragraph) , be aware that in some cases fields can span across multiple paragraphs. For instance the **FieldCode** of a field can contain multiple paragraphs which will cause the **FieldEnd** to appear in a separate paragraph from the corresponding **FieldStart**. In this case you will find that a portion of the field code may still remain after the process has finished. If this happens then it is recommended to instead pass the parent of the composite to avoid this.
 
-The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. The code example given below demonstrates how to convert all fields of a specified type in a document to static text. You can download the template file of the below examples from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInDocument/TestFile.doc).
+The **FieldType** enumeration passed to the method specifies what type of field should be convert to static text. A field of any other type encountered in the document will be left unchanged. The code example given below shows how to convert all fields of a specified type in a document to static text. You can download the template file of the below examples from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/ConvertFieldsInDocument/TestFile.doc).
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-ConvertFieldsInDocument.java" >}}
 
-The following code example demonstrates how to convert all fields of a specified type in a body of a document to static text.
+The following code example shows how to convert all fields of a specified type in a body of a document to static text.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInBody-ConvertFieldsInBody.java" >}}
 
 The following code example shows how to convert all fields of a specified type in a paragraph to static text.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.java" >}}

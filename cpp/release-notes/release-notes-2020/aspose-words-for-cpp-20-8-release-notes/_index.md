@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 20.8 Release Notes
+description: "Aspose.Words for C++ 20.8 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 9
 url: /cpp/aspose-words-for-cpp-20-8-release-notes/
@@ -127,7 +128,7 @@ This section lists public API changes that were introduced in Aspose.Words 20.8.
 ### Added new FontNameSubstitutionRule
 
 Related issue: WORDSNET-20199
-Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. at [Font Availability and Substitution](https://docs.aspose.com/words/cpp/manipulate-and-substitute-truetype-fonts/#font-availability-and-substitution). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
+Added new font substitution rule for font name processing. It will be checked at the step 4 before item a. at [Font Availability and Substitution](/words/cpp/manipulate-and-substitute-truetype-fonts/#font-availability-and-substitution). If this substitution rule will take place the warning with text "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: font name substitution." will be issued.
 
 {{< highlight csharp >}}
 /// <summary>

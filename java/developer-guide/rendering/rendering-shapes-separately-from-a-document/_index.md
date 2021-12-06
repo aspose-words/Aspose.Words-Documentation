@@ -14,11 +14,11 @@ Aspose.Words provides functionality for extracting this type of content in the s
 
 All the content in a document drawing layer is represented by the [Shape](https://apireference.aspose.com/words/java/com.aspose.words/Shape) or [GroupShape](https://apireference.aspose.com/words/java/com.aspose.words/GroupShape) node in the Aspose.Words Document Object Module (DOM). Such contents can be text boxes, images, AutoShapes, OLE objects, etc. Some fields are also imported as shapes, for example, the INCLUDEPICTURE field.
 
-A simple image is represented by a **Shape** node of [ShapeType.Image](https://apireference.aspose.com/words/java/com.aspose.words/shapetype#IMAGE). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.ImageData](https://apireference.aspose.com/words/java/com.aspose.words/shape#ImageData) property. On the other hand, a shape can also be made up of several child nodes. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://apireference.aspose.com/words/java/com.aspose.words/shapetype#TEXT_BOX) property, can be made up of numerous nodes, such as [Paragraph](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph) and [Table](https://apireference.aspose.com/words/java/com.aspose.words/Table). Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
+A simple image is represented by a **Shape** node of [ShapeType.Image](https://apireference.aspose.com/words/java/com.aspose.words/shapetype#IMAGE). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.ImageData](https://apireference.aspose.com/words/java/com.aspose.words/shape#ImageData) property. On the other hand, a shape can also be made up of many child nodes. For instance, a text box shape, which is represented by the [ShapeType.TextBox](https://apireference.aspose.com/words/java/com.aspose.words/shapetype#TEXT_BOX) property, can be made up of many nodes, such as [Paragraph](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph) and [Table](https://apireference.aspose.com/words/java/com.aspose.words/Table). Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-1](rendering-shapes-separately-from-a-document_1.png)
 
-A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting a few objects and clicking “Group” in the right-click menu.
+A document can also contain shapes which are grouped together. Grouping can be enabled in Microsoft Word by selecting multiple objects and clicking “Group” in the right-click menu.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-java-2](rendering-shapes-separately-from-a-document_2.png)
 
@@ -54,11 +54,11 @@ The code example below illustrates rendering a shape to a JPEG image separately
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-RenderShapes-RenderShapeToStream.java" >}}
 
-The **ImageSaveOptions** class enables you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
+The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
 ## Rendering to a Graphics Object
 
-Rendering directly to a **Graphics** object enables you to define your own settings and the state for the **Graphics** object. A common scenario involves rendering a shape directly into a **Graphics** object retrieved from a Windows Form or a Bitmap. When the **Shape** node is rendered, the settings will affect the shape appearance. For example, you can rotate or scale the shape by using the **RotateTransform** or **ScaleTransform** methods for the **Graphics** object.
+Rendering directly to a **Graphics** object allows you to define your own settings and the state for the **Graphics** object. A common scenario involves rendering a shape directly into a **Graphics** object retrieved from a Windows Form or a Bitmap. When the **Shape** node is rendered, the settings will affect the shape appearance. For example, you can rotate or scale the shape by using the **RotateTransform** or **ScaleTransform** methods for the **Graphics** object.
 
 The example below shows how to render a shape to a **Graphics** object separately from the document and apply rotation to the rendered image:
 

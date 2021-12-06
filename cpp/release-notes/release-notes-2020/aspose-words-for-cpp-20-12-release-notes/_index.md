@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 20.12 Release Notes
+description: "Aspose.Words for C++ 20.12 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 1
 url: /cpp/aspose-words-for-cpp-20-12-release-notes/
@@ -106,7 +107,7 @@ The missing features will be added in future releases.
 | WORDSNET-21255 | System.ArgumentOutOfRangeException: 'Index was out of range.' is shown   during UpdatePageLayout() | Bug |
 | WORDSNET-20897 | HtmlSaveOptions.ScaleImageToShapeSize has no effect | Bug |
 | WORDSNET-20515 | Spell Check Disabled after Aspose.Words' Find and Replace Operation | Bug |
-| WORDSNET-20910 | A long paragraph with shape near the bottom occupies numerous pages | Bug |
+| WORDSNET-20910 | A long paragraph with shape near the bottom occupies many pages | Bug |
 | WORDSNET-19275 | Numbering chapters disappear during appending documents | Bug |
 | WORDSNET-21119 | Incorrect rendering of series data label of PieChart. | Bug |
 | WORDSNET-20937 | System.InvalidCastException is thrown while saving DOCX to HTML | Bug |
@@ -128,7 +129,7 @@ The missing features will be added in future releases.
 | WORDSNET-21308 | Empty extracted page | Bug |
 | WORDSNET-21303 | Text from chevron list&nbsp; (SmartArt   Shape) rendered upside down in Html Fixed | Bug |
 | WORDSNET-20760 | Issue rendering quote characters   that appear inside of p, div or blockquote tags | Bug |
-| WORDSNET-9499 | A DrawingML in Cell is pushed numerous inches to the right in PDF | Bug |
+| WORDSNET-9499 | A DrawingML in Cell is pushed a few inches to the right in PDF | Bug |
 | WORDSNET-9833 | Document.PageCount returns wrong value | Bug |
 | WORDSNET-10251 | Text renders outside the right page edge in PDF | Bug |
 | WORDSNET-10180 | DOCX to PDF conversion issue with content position | Bug |

@@ -3,7 +3,8 @@ title: Rendering Shapes Separately from a Document
 description: "Aspose.Words for Python via .NET provides the ability to extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location."
 type: docs
 weight: 40
-url: /python/rendering-shapes-separately-from-a-document/
+url: /python-net/rendering-shapes-separately-from-a-document/
+aliases: [/python/rendering-shapes-separately-from-a-document/]
 ---
 
 When processing documents, a common task is to extract all images found in the document and export them to an external location. This task becomes simple with the Aspose.Words API, which already provides the functionality for extracting and saving image data. However, sometimes you may want to similarly extract other types of graphic content that is represented by a different type of drawing object, for example, a text box containing paragraphs, arrow shapes, and a small image. There is no straightforward way of rendering this object since it is a combination of individual content elements. You may also encounter a case when the contents have been grouped together into the object that looks like a single image.

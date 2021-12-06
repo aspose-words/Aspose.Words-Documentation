@@ -3,7 +3,8 @@ title: Clean Up a Document
 description: "Aspose.Words for Python via .NET allows you to remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
 type: docs
 weight: 25
-url: /python/clean-up-a-document/
+url: /python-net/clean-up-a-document/
+aliases: [/python/clean-up-a-document/]
 ---
 
 Sometimes you may need to remove unused or duplicate information to reduce the size of the output document and processing time.

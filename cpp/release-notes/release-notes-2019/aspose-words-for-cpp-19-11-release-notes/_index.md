@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for CPP 19.11 Release Notes
+description: "Aspose.Words for CPP 19.11 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30
 url: /cpp/aspose-words-for-cpp-19-11-release-notes/
@@ -457,7 +458,7 @@ public HorizontalRuleFormat HorizontalRuleFormat
 {{< /highlight >}}
 
 **Added new public class HorizontalRuleFormat** 
-HorizontalRuleFormat class enables to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
+HorizontalRuleFormat class allows to fully customize the formatting of the horizontal rule. This class can only be obtained through the Shape.HorizontRuleFormat property.
 
 {{< highlight csharp >}}
 /// <summary>

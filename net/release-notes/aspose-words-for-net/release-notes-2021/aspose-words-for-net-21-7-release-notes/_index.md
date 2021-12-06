@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 21.7 Release Notes
+description: "Aspose.Words for .NET 21.7 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 35
 url: /net/aspose-words-for-net-21-7-release-notes/
@@ -19,7 +20,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 - Added an ability to work with Framesets.
 - Introduced a new overload of DocumentBuilder.InsertHtml and a new enumeration HtmlInsertOptions.
 - Provided new API for working with Fill patterns.
-- Supported a few exact date-time parse formats while loading JSON for LINQ Reporting Engine.
+- Supported several exact date-time parse formats while loading JSON for LINQ Reporting Engine.
 
 ## Full List of Issues Covering all Changes in this Release
 
@@ -29,7 +30,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-17557 | Provide way to get URL from Target attribute inside webSettings.xml.rels   file | New Feature |
 | WORDSNET-21750 | Highlighted Content is not visible after exporting to PDF | New Feature |
 | WORDSNET-15400 | Implement maskPen rasterOp mode in InkML rendering | New Feature |
-| WORDSNET-22370 | Support numerous exact date-time parse formats while loading JSON | New Feature |
+| WORDSNET-22370 | Support several exact date-time parse formats while loading JSON | New Feature |
 | WORDSNET-15984 | Ink annotations are not aligned in PDF output | New Feature |
 | WORDSNET-21781 | Support using of arrays with data bands and LINQ extension methods for   Java | New Feature |
 | WORDSNET-22159 | Implement rendering of brushes with maskPen rasterOp mode | New Feature |
@@ -64,7 +65,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21988 | Incorrect page size during conversion of HTML with landscape orientation   to DOCX | Bug |
 | WORDSNET-22228 | Text is pushed down to next pages after DOCX to PDF conversion | Bug |
 | WORDSNET-22357 | System.NullReferenceException occurs upon DOC to PDF conversion | Bug |
-| WORDSNET-22311 | Duplicate list item created when inserting several paragraph breaks   using Range.Replace() | Bug |
+| WORDSNET-22311 | Duplicate list item created when inserting multiple paragraph breaks   using Range.Replace() | Bug |
 | WORDSNET-22321 | Replacing text containing a paragraph break is poorly represented with   TrackRevisions in enabled | Bug |
 | WORDSNET-21500 | Image displays as red cross in converted documents | Bug |
 | WORDSNET-22387 | Content are lost after PDF to DOCX conversion | Bug |

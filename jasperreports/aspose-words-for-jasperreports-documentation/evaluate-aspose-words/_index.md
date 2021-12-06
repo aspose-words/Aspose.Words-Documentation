@@ -1,5 +1,6 @@
 ---
 title: Evaluate Aspose.Words
+description: "The evaluation version of Aspose.Words for JasperReports (without a license specified) inserts an evaluation watermark at the top of the document on save."
 type: docs
 weight: 120
 url: /jasperreports/evaluate-aspose-words/

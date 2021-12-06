@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on HTML Export
+description: "Aspose.Words for Java allows you to work with text features supported when saving to HTML-based format."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-html-export/
@@ -11,7 +12,7 @@ Text in different languages is fully supported and can be rendered to formats su
 
 Exported to HTML as &lt;span&gt; elements.
 
-Each Run node in the model is exported as a separate span to retain formatting properly. Some documents can contain several runs that are unrequired and can be joined. In the resulting HTML document, this can result in many extra span elements.
+Each Run node in the model is exported as a separate span to retain formatting properly. Some documents can contain many runs that are unrequired and can be joined. In the resulting HTML document, this can result in many extra span elements.
 
 There is a method Document.JoinRunsWithSameFormatting to avoid this situation. It can be called before exporting to HTML.
 
@@ -77,7 +78,7 @@ Bold and italics are exported as font-weight:bold and font-style:italics on styl
 
 There are plans to make an option to export these as simple &lt;b&gt;, &lt;i&gt; tags.
 
-There is an option to control how size is exported. Font can be exported as points or as em units. This enables fonts to be resized automatically by browsers by increasing or decreasing the font size.
+There is an option to control how size is exported. Font can be exported as points or as em units. This allows fonts to be resized automatically by browsers by increasing or decreasing the font size.
 
 Currently, images are not exported in the same relative way. This means that images will not resize when the "Increase Text/Decrease Text" buttons are pressed. These buttons are common in browsers and eReaders.
 

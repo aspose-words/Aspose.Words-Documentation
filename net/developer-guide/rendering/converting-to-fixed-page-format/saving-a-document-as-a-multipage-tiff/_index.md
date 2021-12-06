@@ -1,4 +1,4 @@
-﻿---
+---
 title: Saving a Document as a Multipage TIFF
 description: "Aspose.Words for .NET enables you to convert a document to a multi-page TIFF. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
@@ -20,7 +20,7 @@ You often need to specify additional options, which affect the rendering result.
 
 - Save format to determine the list of available options ([SaveFormat](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/saveformat))
 - Resolution ([HorizontalResolution](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/horizontalresolution), [VerticalResolution](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/verticalresolution), [Resolution](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/resolution))
-- Number of pages ([PageIndex](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/pageindex), [PageCount](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/pagecount))
+- Number of pages ([PageIndex](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions), [PageCount](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions))
 - Color and lighting settings ([PaperColor](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/papercolor), [ImageColorMode](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/imagecolormode), [ImageBrightness](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/imagebrightness), [ImageContrast](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/imagecontrast))
 - Image quality ([JpegQuality](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/jpegquality), [Scale](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/scale), [TiffCompression](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/tiffcompression), [GraphicsQualityOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/graphicsqualityoptions))
 - Method used to binarize the image ([TiffBinarizationMethod](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/tiffbinarizationmethod), [ThresholdForFloydSteinbergDithering](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/thresholdforfloydsteinbergdithering))
@@ -28,7 +28,7 @@ You often need to specify additional options, which affect the rendering result.
 - Windows metafiles handling by Aspose.Words ([MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/metafilerenderingoptions), [UseGdiEmfRenderer](https://apireference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/usegdiemfrenderer))
 - Additional options that you can see in the **ImageSaveOptions** class
 
-The following example demonstrates how to convert DOC to TIFF with configured options:
+The following example shows how to convert DOC to TIFF with configured options:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFFUsingImageSaveOptions.cs" >}}
 

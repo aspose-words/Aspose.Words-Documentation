@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 20.6 Release Notes
+description: "Aspose.Words for Java 20.6 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 15
 url: /java/aspose-words-for-java-20-6-release-notes/
@@ -31,7 +32,7 @@ This page contains release notes for [Aspose.Words for Java 20.6](https://reposi
 |WORDSNET-20492|PDF to Word conversion, some times repeating lines on a new page|Enhancement|
 |WORDSJAVA-2399|StackOverflow while loading HTML with very deep nesting levels (more than 7000).|Bug|
 |WORDSJAVA-2403|WarningCallback does not log "Not supported Gradient effects applied to CFF font text" warning.|Bug|
-|WORDSJAVA-2382|JSON data source many nodes issue when building LINQ report|Bug|
+|WORDSJAVA-2382|JSON data source multiple nodes issue when building LINQ report|Bug|
 |WORDSJAVA-2373|XPS does not conform to Schema.|Bug|
 |WORDSNET-20354|Chart X-Axis with superscript value|Bug|
 |WORDSNET-20376|Font style (Name, Size, etc) of header/footer content gets lost after appending two documents|Bug|

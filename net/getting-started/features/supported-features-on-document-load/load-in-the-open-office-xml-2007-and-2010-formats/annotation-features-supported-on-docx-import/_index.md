@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on DOCX Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-docx-import/
@@ -39,14 +40,14 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Bookmark Start |Yes | |- [BookmarkStart](https://apireference.aspose.com/words/net/aspose.words/bookmarkstart)|
 |Bookmark End |Yes | |- [BookmarkEnd](https://apireference.aspose.com/words/net/aspose.words/bookmarkend)|
-|Bookmark Name |Yes | |- [Bookmark.Name](https://apireference.aspose.com/words/net/aspose.words/bookmark.name)|
+|Bookmark Name |Yes | |- [Bookmark.Name](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
 |Bookmark Table Columns |Yes | | |
 
 ## Comments
 
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
 
-The range of a comment can span over various parts of the document text, including over multiple paragraphs and tables.
+The range of a comment can span over various parts of the document text, including over many paragraphs and tables.
 
 In Aspose.Words this range is represented by the following nodes:
 
@@ -60,14 +61,14 @@ All three comment nodes are related through the use of the ID properties on each
 
 See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/#how-to-extract-or-remove-comments)
-- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment/)
+- [How to Extract or Remove Comments](/words/net/working-with-comments/#how-to-extract-or-remove-comments)
+- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
 - [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Comment |Yes | |- [Comment.ToTxt](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/gettext)|
-|Comment Range |Yes | |<p>- [CommentRangeStart](https://apireference.aspose.com/words/net/aspose.words/comment/properties/rangestart) </p><p>- [CommentRangeEnd](https://apireference.aspose.com/words/net/aspose.words/comment/properties/rangeend)</p>|
+|Comment Range |Yes | |<p>- [CommentRangeStart](https://apireference.aspose.com/words/net/aspose.words/commentrangestart) </p><p>- [CommentRangeEnd](https://apireference.aspose.com/words/net/aspose.words/commentrangeend)</p>|
 |Author |Yes | |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date |Yes | |- **Comment.Date**|
 |Initial |Yes | |- **Comment.Inital**|
@@ -91,7 +92,7 @@ See the following links in the documentation for further information:
 - [Manage Tracking Changes](/words/net/track-changes-in-a-document/)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

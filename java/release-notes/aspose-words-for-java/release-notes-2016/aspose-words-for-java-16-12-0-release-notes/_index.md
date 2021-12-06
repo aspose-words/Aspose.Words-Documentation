@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 16.12.0 Release Notes
+description: "Aspose.Words for Java 16.12.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /java/aspose-words-for-java-16-12-0-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-16-12-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 16.12.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.12.0/)
+This page contains release notes for [Aspose.Words for Java 16.12.0](https://repository.aspose.com/repo/com/aspose/aspose-words/16.12.0/)
 
 {{% /alert %}} 
 

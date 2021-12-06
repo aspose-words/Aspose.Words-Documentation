@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on Print Export
+description: "Aspose.Words for .NET allows you to work with annotation features supported when saving to printing device."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-print-export/
@@ -18,7 +19,7 @@ url: /net/annotation-features-supported-on-print-export/
 
 Comments are exported to rendered formats.
 
-In version 1.0 of comments rendering long or a few comments are not truncated.
+In version 1.0 of comments rendering long or many comments are not truncated.
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

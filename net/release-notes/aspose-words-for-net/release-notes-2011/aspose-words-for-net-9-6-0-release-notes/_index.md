@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 9.6.0 Release Notes
+description: "Aspose.Words for .NET 9.6.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 110
 url: /net/aspose-words-for-net-9-6-0-release-notes/
@@ -33,9 +34,9 @@ Aspose.Words can render any document into SWF format. The resulting SWF contains
 
 ## Footnotes with Custom Reference Marks Supported
 
-This was requested by many customers. Footnotes with custom reference marks are now fully supported in DOC, DOCX, WML, ODT. Partially supported in RTF (only first character of the custom reference mark). Not yet supported in rendering - will render with auto numbering.
+This was requested by a few customers. Footnotes with custom reference marks are now fully supported in DOC, DOCX, WML, ODT. Partially supported in RTF (only first character of the custom reference mark). Not yet supported in rendering - will render with auto numbering.
 
 ## New Documentation Articles
 
-Updated class and composition diagrams for the Aspose.Words object model, a new topic about document digital signatures, updated the article about joining and appending documents and multiple more.
+Updated class and composition diagrams for the Aspose.Words object model, a new topic about document digital signatures, updated the article about joining and appending documents and a few more.
 ## All Fixes and New Features

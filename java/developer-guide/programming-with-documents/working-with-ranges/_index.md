@@ -13,12 +13,12 @@ Aspose.Words also has the [Range](https://apireference.aspose.com/words/java/com
 
 ## Retrieving Plain Text
 
-Use the Range.Text property to retrieve the plain, unformatted text of the range. The code example given below demonstrates how to get a plain, unformatted text of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/Ranges/RangesGetText/Document.doc).
+Use the Range.Text property to retrieve the plain, unformatted text of the range. The code example given below shows how to get a plain, unformatted text of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/Ranges/RangesGetText/Document.doc).
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesGetText-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesGetText-RangesGetText.java" >}}
 
 ## Deleting Text
 
-The Range class enables the deletion of all characters of the range by calling [Range.delete](https://apireference.aspose.com/words/java/com.aspose.words/range#delete()). The code example given below demonstrates how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/Ranges/RangesDeleteText/Document.doc).
+The Range class allows the deletion of all characters of the range by calling [Range.delete](https://apireference.aspose.com/words/java/com.aspose.words/range#delete()). The code example given below shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/Ranges/RangesDeleteText/Document.doc).
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesDeleteText-1.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesDeleteText-RangesDeleteText.java" >}}

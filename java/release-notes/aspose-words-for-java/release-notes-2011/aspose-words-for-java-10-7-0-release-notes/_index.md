@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 10.7.0 Release Notes
+description: "Aspose.Words for Java 10.7.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /java/aspose-words-for-java-10-7-0-release-notes/
@@ -59,7 +60,7 @@ Indexed 1bpp bitmap with alpha is corrupted while saving to
 PDF
 
 WORDSNET-1675
-Allow several paragraphs in endnote text in layout
+Allow multiple paragraphs in endnote text in layout
 
 WORDSNET-2030
 Support rendering of all MS Word gradient fills in PDF.
@@ -269,7 +270,7 @@ WordArt looks incorrect after converting RTF document to other
 flow formats.
 
 WORDSNET-5237
-Export many authors as a separate tags in ePub
+Export multiple authors as a separate tags in ePub
 
 WORDSNET-5254
 Word Pad on Windows XP shows some characters improperly.

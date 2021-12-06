@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with field features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-wordprocessingml-import/
@@ -7,7 +8,7 @@ url: /net/field-features-supported-on-wordprocessingml-import/
 
 {{% alert color="primary" %}} 
 
-Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first enables you to merge data into a document, the latter displays the current page number of the page where the field appears on.
+Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
 Aspose.Words supports almost all common field types and can peform field update on most field types, even ones with complex content. This includes the TOC (Table of Contents) field. With one call to Document.UpdateFields the TOC field or any other supported field is fully updated. New or existing fields are fully updated by the Aspose.Words field engine. There is a document option to control the culture/locale used during field update. This can be the language setting of the field in the document or the current culture/locale used by the application.
 
@@ -16,10 +17,10 @@ A field is represented in the document model as:
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across a few different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
 - FieldEnd node.
 
-We provide the Field facade for working with this structure more easily. This enables you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document.
+We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document.
 
 Using Aspose.Words you can insert new fields, as well as find and modify existing fields. You can also remove fields. You can also find the field code and field result of any field.
 
@@ -33,9 +34,9 @@ Fields with custom field codes or field results (modified manually in the docume
 
 See the following links in the documentation for further information:
 
-- [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/)
-- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertfield)
-- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatefields)
+- [Working with Fields](/words/net/working-with-fields/)
+- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index)
+- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
 - [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -108,7 +109,7 @@ Form fields are fully supported by Aspose.Words.
 
 See the following links in the documentation for further information:
 
-- [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/)
+- [Working with Form Fields](/words/net/working-with-form-fields/)
 - [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
 - [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
 - [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
@@ -158,7 +159,7 @@ See the following links in the documentation for further information:
 |PageRef |Yes |This field is supported during field update. <br><br>By default in Microsoft Word references re updated as letters. Currently in Aspose.Words these references are updated as digits. <br><br>Hyperlinking, numeric format and paragraph position options are all supported during update. | |
 |Quote |Yes |This field is updated and the appropriate symbol is inserted during field update. | |
 |Ref |Yes |This field is supported during field update. <br><br>Only some switches such as hyperlink and relative position are supported during field update. Support for the other options will be added in future versions. | |
-|StyleRef |Yes |This field is supported during field update. <br><br>Only numerous switches are supported during field update. Support for the other options will be added in future versions. | |
+|StyleRef |Yes |This field is supported during field update. <br><br>Only a few switches are supported during field update. Support for the other options will be added in future versions. | |
 
 ## Mail Merge
 
@@ -175,9 +176,9 @@ These fields will be supported in a later version of Aspose.Words. All other fie
 
 See the following links in the documentation for further information:
 
-- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting)
+- [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
 - [Document.MailMerge](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
-- [How to Use Advanced Mail Merge Features](/words/net/how-to-execute-mail-merge)
+- [How to Use Advanced Mail Merge Features](/words/net/how-to-execute-mail-merge/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -188,7 +189,7 @@ See the following links in the documentation for further information:
 |Fill-in |Yes | | |
 |GreetingLine |Yes | | |
 |If |Yes | | |
-|MergeField |Yes | |- [How to Rename Merge Fields](https://docs.aspose.com/words/net/fields-overview/#how-to-rename-merge-fields)|
+|MergeField |Yes | |- [How to Rename Merge Fields](/words/net/fields-overview/#how-to-rename-merge-fields)|
 |MergeRec |Yes | | |
 |MergeSeq |Yes | | |
 |Next |Yes | | |
@@ -238,8 +239,8 @@ You can create new hyperlinks by using the DocumentBuilder class. You can also f
 
 See the following links in the documentation for further information:
 
-- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/inserthyperlink)
-- [How to Replace or Modify Hyperlinks](https://docs.aspose.com/words/net/working-with-hyperlinks-and-html/)
+- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
+- [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

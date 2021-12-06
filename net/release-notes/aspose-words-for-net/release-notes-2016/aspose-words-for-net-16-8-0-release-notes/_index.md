@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 16.8.0 Release Notes
+description: "Aspose.Words for .NET 16.8.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 40
 url: /net/aspose-words-for-net-16-8-0-release-notes/
@@ -19,7 +20,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 - Performance optimization of Fonts catch.
 - Support loading of Mobi (Mobipocket) documents (MOBI is an eBook format used by the MobiPocket and Amazon Kindle Readers).
 - Shapes with the translucent fill rendering implemented in PDF and other fixed-page formats. Opacity parameter is now taken into account.
-- New base class FixedPageSaveOptions added for all fixed page formats e.g. PNG, PDF, HTML and a few others.
+- New base class FixedPageSaveOptions added for all fixed page formats e.g. PNG, PDF, HTML and many others.
 - Over a dozen of fixes and improvements over model and flow formats.
 - Hijri/Lunar, Hebrew Calendar Date Field option supported.
 - The analogue of NEXT fields is added to LINQ Reporting Engine.
@@ -38,7 +39,7 @@ There are 68 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13764|Space after paragraph disappears in AW pdf, docx output.|Bug|
 |WORDSNET-13787|Problems in arabic language direction during HTML to DOCX conversion|Bug|
 |WORDSNET-13792|Doc to Pdf conversion issue with GroupShape rendering|Bug|
-|WORDSNET-13795|The rule "Allow hanging punctuation" is processed improperly if a line ends by multiple spaces.|Bug|
+|WORDSNET-13795|The rule "Allow hanging punctuation" is processed improperly if a line ends by several spaces.|Bug|
 |WORDSNET-13797|Mismatch in table styles when the docx converted to pdf|Bug|
 |WORDSNET-13823|The ROUND function works incorrectly with negative arguments|Bug|
 |WORDSNET-13832|Unnecessary text appears after re-saving mhtml|Bug|
@@ -166,7 +167,7 @@ public new int WebRequestTimeout
 }
 {{< /highlight >}}
 
-Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in numerous releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
+Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in several releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
 
 Use case:
 
@@ -212,4 +213,4 @@ Jpeg quality was 100 for the XAML and XPS formats in the previous version. Now i
 
 ### The analogue of NEXT fields is added to LINQ Reporting Engine
 
-The "[Forcing Movement to Next Item within Data Band](https://docs.aspose.com/words/net/template-syntax/#forcing-movement-to-next-item-within-data-band)" section of the engine's documentation was added to describe the change
+The "[Forcing Movement to Next Item within Data Band](/words/net/template-syntax/#forcing-movement-to-next-item-within-data-band)" section of the engine's documentation was added to describe the change

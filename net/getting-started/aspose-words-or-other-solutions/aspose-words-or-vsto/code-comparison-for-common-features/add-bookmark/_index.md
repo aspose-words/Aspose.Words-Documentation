@@ -1,5 +1,6 @@
 ---
 title: Add Bookmark
+description: "Aspose.Words for .NET allows you to add a bookmark into a document easily and fast instead of using VSTO."
 type: docs
 weight: 70
 url: /net/add-bookmark/
@@ -28,6 +29,5 @@ doc.Save("Adding Bookmark.doc");
 
 ## Download Sample Code
 
-- [Codeplex](http://goo.gl/6ohLvD)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Bookmark.Aspose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Bookmark%20\(Aspoe.Words\).zip)

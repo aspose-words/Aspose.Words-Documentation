@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Java 19.10 Release Notes
+description: "Aspose.Words for Java 19.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30
 url: /java/aspose-words-for-java-19-10-release-notes/
@@ -157,4 +158,4 @@ Console.WriteLine(paragraph.ParagraphFormat.Bidi);
 
 Issue: WORDSNET-18920
 
-The "[Inserting Hyperlinks Dynamically](/words/java/inserting-hyperlinks-dynamically/)" section of the engine's documentation was updated to describe the change.
+The "[Inserting Hyperlinks Dynamically](/words/java/working-with-fields/)" section of the engine's documentation was updated to describe the change.

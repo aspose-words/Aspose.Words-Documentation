@@ -18,11 +18,11 @@ This section lists the environment and system requirements.
 
 ### Supported Operating Systems
 
-You can find the information on supported operating systems in the "Supported Operating Systems" section of the ["System Requirements"](https://docs.aspose.com/words/java/system-requirements/) article.
+You can find the information on supported operating systems in the "Supported Operating Systems" section of the ["System Requirements"](/words/java/system-requirements/) article.
 
 ### Supported Frameworks
 
-You can find the information on supported operating systems in the "Supported Frameworks, Specifications, and Implementations" section of the ["System Requirements"](https://docs.aspose.com/words/java/system-requirements/) article.
+You can find the information on supported operating systems in the "Supported Frameworks, Specifications, and Implementations" section of the ["System Requirements"](/words/java/system-requirements/) article.
 
 ## Download and Install the Latest Aspose.Words
 
@@ -38,15 +38,15 @@ You can download the latest Aspose.Words at:
 
 ### Installing
 
-You can find the information on how to install Aspose.Words for Java on the[ "Installation"](https://docs.aspose.com/words/java/installation/) page.
+You can find the information on how to install Aspose.Words for Java on the[ "Installation"](/words/java/installation/) page.
 
 ## Get Started with Aspose.Words
 
-After learning the ["Installation"](https://docs.aspose.com/words/java/installation/) page and completing the required steps, you are ready to start working with Aspose.Words.
+After learning the ["Installation"](/words/java/installation/) page and completing the required steps, you are ready to start working with Aspose.Words.
 
-Explore the ["Getting Started"](https://docs.aspose.com/words/java/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](https://docs.aspose.com/words/java/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
+Explore the ["Getting Started"](/words/java/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](/words/java/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
-Some simple use cases can be implemented using the free Open XML SDK, but much more complex use cases are easier and faster to implement using Aspose.Words. There are multiple use cases where Open XML SDK implementation is complex or requires strong file format knowledge.
+Some simple use cases can be implemented using the free Open XML SDK, but much more complex use cases are easier and faster to implement using Aspose.Words. There are several use cases where Open XML SDK implementation is complex or requires strong file format knowledge.
 
 ## Technical Support
 
@@ -59,6 +59,6 @@ You can log any issues or suggestions related to Aspose.Words using any of the f
 
 {{% alert color="primary" %}}
 
-For more information on Aspose.Words technical support, take a look at the [support page](https://docs.aspose.com/words/java/technical-support/).
+For more information on Aspose.Words technical support, take a look at the [support page](/words/java/technical-support/).
 
 {{% /alert %}}

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Paragraph Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with paragraph features supported on OpenDocument Text import."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-opendocument-import/

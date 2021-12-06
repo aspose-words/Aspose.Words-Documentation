@@ -1,5 +1,6 @@
-﻿---
+---
 title: Document Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with document features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-wordprocessingml-import/
@@ -14,8 +15,8 @@ Aspose.Words provides extensive support for loading, saving and converting Wordp
 See the following links in the documentation for further information:
 
 - [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
-- [Working with Document](https://docs.aspose.com/words/net/working-with-document/)
-- [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model)
+- [Working with Document](/words/net/working-with-document/)
+- [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
 {{% /alert %}} 
@@ -25,7 +26,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template|Yes|Attached template is used to reference styles and other settings through the use of a separate document template. <br><br>The link to this template is imported from the source document and can be found in the API as the Document.AttachedTemplate property.|- [Document.AttachedTemplate](https://apireference.aspose.com/words/net/aspose.words/document/properties/attachedtemplate)|
-|Built-In Properties|Yes|All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated.|<p>- [Document.BuiltInDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties)</p><p>- [Document.UpdatePageLayout](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatepagelayout)</p><p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/properties/updatewordcount)</p>|
+|Built-In Properties|Yes|All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated.|<p>- [Document.BuiltInDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties)</p><p>- [Document.UpdatePageLayout](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatepagelayout)</p><p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)</p>|
 |Custom Properties|Yes|Custom Document Properties can be created, accessed and modified through the API.|- [Document.CustomDocumentProperties](https://apireference.aspose.com/words/net/aspose.words/document/properties/customdocumentproperties)|
 |Custom Payload Part|N/A| | |
 |Custom XML Data Storage|Planned|Custom XML Parts can be accessed and modified in the DOM. <br><br>You can remove schemas linked to a part, however you cannot schemas in the document that are not referenced. <br><br>This feature will be supported in a future version.|- [Document.CustomXmlParts](https://apireference.aspose.com/words/net/aspose.words/document/properties/customxmlparts)|
@@ -41,7 +42,7 @@ See the following links in the documentation for further information:
 |Themes|N/A|Only OOXML documents have native support for themes. <br><br>During export, theme formatting is applied as direct formatting to WordML <br><br>During round-trip back to DOCX this formatting is retained but the theme information is lost.| |
 |Toolbar Customizations|Yes| | |
 |Variables|Yes|Variables allow you to store additional information in the document which is "hidden" from the main document. <br><br>This can be used to embed custom tracking data in the document itself.|- [Document.Variables](https://apireference.aspose.com/words/net/aspose.words/document/properties/variables)|
-|VBA Project (Macro)|Yes|VBA Projects are preserved during open and save to different formats that support them. This means you can load an existing template/document and add content to it and the VBA Projects will remain properly. <br><br>There is no API to access the code behind or execute any of the macros. There is a method provided to remove all macros from a document.|- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/properties/removemacros)|
+|VBA Project (Macro)|Yes|VBA Projects are preserved during open and save to different formats that support them. This means you can load an existing template/document and add content to it and the VBA Projects will remain properly. <br><br>There is no API to access the code behind or execute any of the macros. There is a method provided to remove all macros from a document.|- [Document.RemoveMacros](https://apireference.aspose.com/words/net/aspose.words/document/methods/removemacros)|
 |VBA Project Digital Signature|Yes|The digital signature on a VBA Project is preserved during open and save even if the document content is modified.| |
 |Background|Yes|A background of a Word document can be a solid color or an image.|- [Document.BackgroundShape](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
 |Thumbnail|Planned| |- [BuiltInDocumentProperties.Thumbnail](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/thumbnail)|
@@ -85,7 +86,7 @@ See the following links in the documentation for further information:
 |Protection Password (OOXML)|N/A| | |
 |Protected Sections|Yes| |- [Section.ProtectedForForms](https://apireference.aspose.com/words/net/aspose.words/section/properties/protectedforforms)|
 |Protection Ranges|Planned|Currently protected ranges are lost upon import.| |
-|Read Only|Yes| |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words/document/properties/writeprotection)</p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/writeprotection.iswriteprotected)</p>|
+|Read Only|Yes| |<p>- [Document.WriteProtection](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/setpassword)</p><p>- [WriteProtection.IsWriteProtected](https://apireference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/iswriteprotected)</p>|
 
 ## Settings
 

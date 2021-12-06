@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 17.3.0 Release Notes
+description: "Aspose.Words for .NET 17.3.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 100
 url: /net/aspose-words-for-net-17-3-0-release-notes/
@@ -85,18 +86,18 @@ There are 67 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14859|Documnte.RemoveUnusedResources throws System.ArgumentOutOfRangeException|Exception|
 |WORDSNET-14895|Aspose.Words.FileCorruptedException is thrown while loading Doc|Exception|
 |WORDSNET-14896|System.ArgumentOutOfRangeException is thrown while saving Doc to Html|Exception|
-|WORDSNET-12412|Add MailMergeCleanupOptions option to remove empty row|[Feature](/words/net/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/)|
+|WORDSNET-12412|Add MailMergeCleanupOptions option to remove empty row|[Feature](/words/net/clean-up-before-or-during-mail-merge/)|
 |WORDSNET-12487|Cell's content are warped incorrectly in output Pdf|Feature|
 |WORDSNET-14389|PDF output is incorrect for 2 text columns|Feature|
 |WORDSNET-14489|Add feature to set background color of table row using Linq Reporting Engine|Feature|
 |WORDSNET-14600|Insert image dynamically using Linq without change size of textbox|Feature|
-|WORDSNET-14602|Justification of OfficeMath object|[Feature](https://docs.aspose.com/words/net/working-with-officemath/)|
+|WORDSNET-14602|Justification of OfficeMath object|[Feature](/words/net/working-with-officemath/)|
 |WORDSNET-14611|Obtain type of the MathObject|Feature|
 |WORDSNET-14627|Add feature to define variables in LINQ Reporting template|Feature|
 |WORDSNET-14745|Provide ability to specify locale at Field level|Feature|
 |WORDSNET-14956|Implement reading of themes for RTF format.|Feature|
 |WORDSNET-8969|Support of MS Word 2013 documents (WORDSNET-7741 and WORDSNET-7964)|Feature|
-|WORDSNET-9943|/table grid/ Cell's content is rendering numerous inches to the right in PDF|Feature|
+|WORDSNET-9943|/table grid/ Cell's content is rendering a few inches to the right in PDF|Feature|
 |WORDSNET-14454|LeftIndent and FirstLineIndent are lost in output Docx|Regression|
 Public API and Backward Incompatible Changes
 
@@ -216,7 +217,7 @@ Mimic MS Word VBA behavior:
 
 ### WORDSNET-14745 - Provided Ability to Specify Locale at Field Level
 
-As per customer's request, we have added a property that enables to get/set field's locale:
+As per customer's request, we have added a property that allows to get/set field's locale:
 
 {{< highlight csharp >}}
 /// <summary>

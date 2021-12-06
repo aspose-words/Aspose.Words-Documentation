@@ -1,5 +1,6 @@
-﻿---
+---
 title: Style Features Supported on DOCX Import
+description: "Aspose.Words for .NET allows you to work with style features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-docx-import/
@@ -7,7 +8,7 @@ url: /net/style-features-supported-on-docx-import/
 
 {{% alert color="primary" %}} 
 
-A style enables you to define a set of formatting that can be reused on many elements in a document. This saves time and enables for a more consistent formatting throughout your document.
+A style allows you to define a set of formatting that can be reused on many elements in a document. This saves time and allows for a more consistent formatting throughout your document.
 
 A style loaded into a document is represented in the Aspose.Words DOM by the Style class. You can access or modify any type of style (both in-built or custom) in a document.
 
@@ -24,15 +25,15 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 See the following links in the documentation for further information:
 
 - [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
-- [Style](https://apireference.aspose.com/words/net/aspose.words/style/)
+- [Style](https://apireference.aspose.com/words/net/aspose.words/style)
 - [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/styletype/)|
-|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/styletype/)|
-|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/styletype/)|
-|Table Style |Yes | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/styletype/)</p>|
+|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/styletype)|
+|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/styletype)|
+|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/styletype)|
+|Table Style |Yes | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/styletype)</p>|
 
 ## General
 
@@ -63,6 +64,6 @@ See the following links in the documentation for further information:
 |Apply Formatting to |Yes | |- **Table.StyleOptions**|
 |Table Properties |Yes | |- **TableStyle**|
 |Banding |Yes | |- **Table.StyleOptions**|
-|Paragraph Properties |Yes | |- [TableStyle.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/tablestyle/properties/paragraphformat)|
-|Run Properties |Yes | |- [TableStyle.Font](https://apireference.aspose.com/words/net/aspose.words/tablestyle/properties/font)|
+|Paragraph Properties |Yes | |- [TableStyle.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
+|Run Properties |Yes | |- [TableStyle.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
 

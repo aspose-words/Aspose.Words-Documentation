@@ -16,7 +16,7 @@ The following sections describe the logical levels of nodes in Aspose.Words and 
 
 A Word document consists of one or more sections, represented by the [Section](https://apireference.aspose.com/words/java/com.aspose.words/section) class and separated by section breaks. A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
 
-[Document](https://apireference.aspose.com/words/java/com.aspose.words/document) and [Section](http://www.aspose.com/api/words/java/com.aspose.words/section) level nodes have the structure as shown in the following diagram.
+[Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) and [Section](http://www.aspose.com/api/words/java/com.aspose.words/section) level nodes have the structure as shown in the following diagram.
 
 <img src="document-and-section-level.png" alt="document-and-section-level-aspose-words-java" style="width:700px"/>
 
@@ -44,11 +44,11 @@ Block-level nodes represent containers for content and content controls, and can
 
 Block-level nodes are represented by the following classes:
 
-- [Tables](https://apireference.aspose.com/words/java/com.aspose.words/Table) and [Paragraphs](https://apireference.aspose.com/words/java/com.aspose.words/paragraph), which are the most important block-level nodes
+- [Tables](https://apireference.aspose.com/words/java/com.aspose.words/Table) and [Paragraphs](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph), which are the most important block-level nodes
 - Bookmarks, which occurs both at the block-level and at the inline-level
 - [StructuredDocumentTag](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag), which represent custom markup and can contain both content and content controls
 
-The following diagram demonstrates the block-level elements.
+The following diagram shows the block-level elements.
 
 <img src="block-level.png" alt="block-level-aspose-words-java" style="width:550px"/>
 
@@ -70,7 +70,7 @@ Inline-level elements are represented by the following classes:
 - [Shape](https://apireference.aspose.com/words/java/com.aspose.words/Shape) and [GroupShape](https://apireference.aspose.com/words/java/com.aspose.words/GroupShape) represent shapes, drawings, images, etc.
 - SmartTag and StructuredDocumentTag represent custom markup
 
-The following diagram demonstrates the inline-level nodes structure.
+The following diagram shows the inline-level nodes structure.
 
 <img src="inline-level.png" alt="inline-level-aspose-words-java" style="width:785px"/>
 
@@ -96,6 +96,6 @@ The table consists of nodes of rows and cells. Table elements are represented by
 - [Cell](https://apireference.aspose.com/words/java/com.aspose.words/Cell) represents a table cell
 - StructuredDocumentTag represent custom markup
 
-The following diagram demonstrates the node structures of the Table, Row, and Cell levels.
+The following diagram shows the node structures of the Table, Row, and Cell levels.
 
 <img src="table-row-cell.png" alt="table-row-cell-aspose-words-java" style="width:910px"/>

@@ -1,12 +1,12 @@
 ﻿---
 title: Printing a Document Programmatically or Using Dialogs
-description: "Aspose.Words for .NET allows you to print a document on a Server using the unmanaged XpsPrint API or via a selected printer with Settings and Print Preview Dialogs."
+description: "Aspose.Words for .NET enables you to print a document on a Server using the unmanaged XpsPrint API or via a selected printer with Settings and Print Preview Dialogs."
 type: docs
 weight: 55
 url: /net/print-a-document-programmatically-or-using-dialogs/
 ---
 
-This article describes how to print a word processing document from an ASP.NET or Windows Service application using Aspose.Words and the XpsPrint API. It also shows the methods of printing a document with Settings, Print preview, and Print progress dialogs, and explains how to reduce the time of the first call to print a document.
+This article describes how to print a word processing document from an ASP.NET or Windows Service application using Aspose.Words and the XpsPrint API. It also demonstrates the methods of printing a document with Settings, Print preview, and Print progress dialogs, and explains how to reduce the time of the first call to print a document.
 
 ## Printing a Document on a Server via the XpsPrint API
 
@@ -26,7 +26,7 @@ The proper way to print documents according to Microsoft is by using the unmanag
 
 Since Aspose.Words can easily convert any document to XPS, you only need to write the code that passes an XPS document to the XpsPrint API. The only problem is that the XpsPrint API is unmanaged and requires some knowledge of the Platform Invoke technology.
 
-To print a document, Aspose.Words provides an **XpsPrintHelper** class contains a simple Print method, where you just need to specify the following parameters (see more details in the article ["Print Document via XPS API"](https://docs.aspose.com/words/net/missing-features-in-openxml/)):
+To print a document, Aspose.Words provides an **XpsPrintHelper** class contains a simple Print method, where you just need to specify the following parameters (see more details in the article ["Print Document via XPS API"](/words/net/missing-features-in-openxml/)):
 
 - Document you want to print.
 - Printer name.
@@ -35,7 +35,7 @@ To print a document, Aspose.Words provides an **XpsPrintHelper** class contain
 
 Upon encountering any problems submitting or printing the document, the method will throw an exception.
 
-The code example below demonstrates how to print a document using the **XpsPrintHelper** class:
+The code example below shows how to print a document using the **XpsPrintHelper** class:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintDocViaXpsPrint-PrintDocViaXpsPrint.cs" >}}
 
@@ -61,7 +61,7 @@ When working with documents, it is often required to print them to a selected pr
 
 The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](https://apireference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument) class, based on the .NET **PrintDocument** class. An instance of this class can be passed to the **PrintPreviewDialog** form to preview and print the document. Also, the [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) class defines the output to transmit to a printer.
 
-The following example demonstrates how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
+The following example shows how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintPreviewSettingsDialog-PrintPreviewSettingsDialog.cs" >}}
 

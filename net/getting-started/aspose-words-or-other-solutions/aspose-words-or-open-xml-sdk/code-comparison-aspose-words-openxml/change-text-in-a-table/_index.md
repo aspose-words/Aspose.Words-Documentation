@@ -1,6 +1,6 @@
 ﻿---
 title: Change Text in a Table
-description: "Aspose.Words for .NET enables you to change text in a table easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET allows you to change text in a table easily and fast instead of using Open XML SDK."
 type: docs
 weight: 110
 url: /net/change-text-in-a-table/
@@ -50,7 +50,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example demonstrates how to change text in a table:
+The following code example shows how to change text in a table:
 
 {{< highlight csharp >}}
 public void ChangeTextInATableFeature()
@@ -92,6 +92,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/).
+For more information about Aspose.Words features please visit [Working with Tables](/words/net/working-with-tables/).
 
 {{% /alert %}}

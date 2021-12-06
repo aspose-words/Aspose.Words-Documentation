@@ -1,5 +1,6 @@
-﻿---
+---
 title: Section Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with section features supported on Rich Text import."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-rich-text-import/
@@ -7,7 +8,7 @@ url: /net/section-features-supported-on-rich-text-import/
 
 {{% alert color="primary" %}} 
 
-Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This enables for example different parts of the document to completley different page sizes or page orientations.
+Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This allows for example different parts of the document to completley different page sizes or page orientations.
 
 A section is represented as a Section node in the Aspose.Words model.
 
@@ -57,7 +58,7 @@ See the following links in the documentation for further information:
 See the following links in the documentation for further information:
 
 - [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/insertbreak)
+- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -81,7 +82,7 @@ See the following link in the documentation for further information:
 
 See the following links in the documentation for further information:
 
-- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/html)
+- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup)
 - [PageSetup.LeftMargin](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
 - [PageSetup.FooterDistance](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
 - [PageSetup.Gutter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)

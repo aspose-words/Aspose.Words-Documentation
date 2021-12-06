@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 11.9.0 Release Notes
+description: "Aspose.Words for Java 11.9.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /java/aspose-words-for-java-11-9-0-release-notes/
@@ -142,7 +143,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-7042 |Exception throws while converting Docx to PDF conversion |Exception |
 |WORDSNET-7047 |Aspose.Words.FileCorruptedException occurs when loading ODT file |Exception |
 |WORDSNET-7071 |InvalidOperationException occurs during exporting to ePub |Exception |
-|WORDSNET-7091 |System.ArgumentException occurs when processing document in a few threads |Exception |
+|WORDSNET-7091 |System.ArgumentException occurs when processing document in multiple threads |Exception |
 |WORDSNET-7100 |UnsupportedFileFormatException occurs when loading a TEXT file into DOM |Exception |
 |WORDSNET-7107 |Exception on saving Doc file to Doc/Docx |Exception |
 |WORDSNET-7108 |InvalidOperationException occurs during rendering DOC to PNG |Exception |

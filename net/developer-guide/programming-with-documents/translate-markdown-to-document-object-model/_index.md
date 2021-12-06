@@ -8,7 +8,7 @@ url: /net/translate-markdown-to-document-object-model/
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).
 
-In contrast to Word documents, Markdown does not conform to the DOM described in the ["Aspose.Words Document Object Model (DOM)"](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article. However, Aspose.Words provides its own mechanism for translating Markdown documents to DOM and back, so that we can successfully work with their elements such as text formatting, tables, headers, and others.
+In contrast to Word documents, Markdown does not conform to the DOM described in the ["Aspose.Words Document Object Model (DOM)"](/words/net/aspose-words-document-object-model/) article. However, Aspose.Words provides its own mechanism for translating Markdown documents to DOM and back, so that we can successfully work with their elements such as text formatting, tables, headers, and others.
 
 This article explains how the various markdown features can be translated into Aspose.Words DOM and back to Markdown format.
 
@@ -63,7 +63,7 @@ A document is a sequence of container blocks such as headings, paragraphs, lists
 
 ### Leaf Blocks
 
-The table below demonstrates examples of using Markdown Leaf blocks in Aspose.Words:
+The table below shows examples of using Markdown Leaf blocks in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -111,7 +111,7 @@ else
 
 ### Complex Containers
 
-The table below demonstrates examples of using Markdown Complex Containers in Aspose.Words:
+The table below shows examples of using Markdown Complex Containers in Aspose.Words:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -148,7 +148,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |                                 
 
 ### Tables
 
-Aspose.Words also enables to translate tables into DOM, as shown below:
+Aspose.Words also allows to translate tables into DOM, as shown below:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -170,5 +170,5 @@ builder.Writeln("d");{{< /highlight >}} |                                       
 
 ## See Also
 
-* ["Working with Markdown Features"](https://docs.aspose.com/words/net/working-with-markdown-features/)
+* ["Working with Markdown Features"](/words/net/working-with-markdown-features/)
 

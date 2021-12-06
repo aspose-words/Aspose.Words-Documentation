@@ -1,5 +1,6 @@
 ---
 title: Extend and Contribute to CRM AutoMerge
+description: "How to defined a custom workflow using Aspose AutoMerge add-on that can be used with Workflows and Dialogs in CRM."
 type: docs
 weight: 10
 url: /net/extend-and-contribute-to-crm-automerge/
@@ -13,7 +14,7 @@ You can download the latest source code at:
 - [SourceForge](http://sourceforge.net/p/asposenetcrm/code/ci/master/tree/Aspose%20.Net%20AutoMerge/Source%20Code/Aspose%20.NET%20AutoMerge%202.0.0/).
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-AutoMerge-v2-9b2c3d62/view/SourceCode#content).
 
-In this scenario we have used Aspose.Words.dll to generate document from a template. we have defined a custom workflow assembly that can be used with Workflows and Dialogs in CRM.
+In this scenario we have used Aspose.Words.dll to generate document from a template. We have defined a custom workflow assembly that can be used with Workflows and Dialogs in CRM.
 
 - Please Notice the Input and Output parameters that would be used by the 'Generate Document Class': 
 

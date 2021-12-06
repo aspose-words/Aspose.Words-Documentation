@@ -1,5 +1,6 @@
----
+﻿---
 title: Merge Regions
+description: "This guide describes merge regions feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 30
 url: /sharepoint/merge-regions/

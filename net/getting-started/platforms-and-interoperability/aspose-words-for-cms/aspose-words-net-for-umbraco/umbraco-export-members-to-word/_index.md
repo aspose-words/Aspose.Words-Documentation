@@ -1,5 +1,6 @@
 ---
 title: Umbraco Export Members to Word
+description: "Export members from your Umbraco CMS to a Word Document using Aspose.Words Umbraco Export Members Module."
 type: docs
 weight: 40
 url: /net/umbraco-export-members-to-word/
@@ -46,8 +47,7 @@ The module is supported on all versions of
 
 You can download Export Members to Word Add-on from one of the following locations
 
-- [CodePlex ](https://aspose-wordsumbraco.codeplex.com/releases/)
-- [Github ](https://github.com/asposeWords/Aspose.Words-for-.NET/releases/)
+- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 - [Umbraco Projects ](https://our.umbraco.org/projects/backoffice-extensions/export-umbraco-members-to-word-documents-opendocument-pdf-and-image-formats-using-aspose-words/)
 
 ## Installing
@@ -98,7 +98,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [CodePlex ](https://aspose-wordsumbraco.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Export-Umbraco-Members-to-bd3b00f1)
 
@@ -110,7 +109,6 @@ Export Members to Word is an open source Add-on and its source code is available
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://aspose-wordsumbraco.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Umbraco)
 - [Code.MSDN](https://code.msdn.microsoft.com/Export-Umbraco-Members-to-bd3b00f1)
 

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 16.8.0 Release Notes
+description: "Aspose.Words for Java 16.8.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 40
 url: /java/aspose-words-for-java-16-8-0-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-16-8-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 16.8.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.8.0/)
+This page contains release notes for [Aspose.Words for Java 16.8.0](https://repository.aspose.com/repo/com/aspose/aspose-words/16.8.0/)
 
 {{% /alert %}} 
 
@@ -20,7 +21,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 - Pdf performance optimization.
 - Performance optimization of Fonts catch.
 - Shapes with the translucent fill rendering implemented in PDF and other fixed-page formats. Opacity parameter is now taken into account.
-- New base class FixedPageSaveOptions added for all fixed page formats e.g. PNG, PDF, HTML and a few others.
+- New base class FixedPageSaveOptions added for all fixed page formats e.g. PNG, PDF, HTML and many others.
 - Over a dozen of fixes and improvements over model and flow formats.
 - The analogue of NEXT fields is added to LINQ Reporting Engine.
 
@@ -45,7 +46,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-13764|Space after paragraph disappears in AW pdf, docx output.|Bug|
 |WORDSNET-13787|Problems in arabic language direction during HTML to DOCX conversion|Bug|
 |WORDSNET-13792|Doc to Pdf conversion issue with GroupShape rendering|Bug|
-|WORDSNET-13795|The rule "Allow hanging punctuation" is processed improperly if a line ends by numerous spaces.|Bug|
+|WORDSNET-13795|The rule "Allow hanging punctuation" is processed improperly if a line ends by several spaces.|Bug|
 |WORDSNET-13797|Mismatch in table styles when the docx converted to pdf|Bug|
 |WORDSNET-13823|The ROUND function works incorrectly with negative arguments|Bug|
 |WORDSNET-13832|Unnecessary text appears after re-saving mhtml|Bug|
@@ -69,7 +70,7 @@ There are 73 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-6933|/vml/ Shapes are laid out incorrectly in DOC on HTML import|Bug|
 |WORDSNET-8441|RTL text of HTML Fixed Page document is reordered when copied to Clipboard|Bug|
 |WORDSNET-9658|Formula (Equation.DSMT4) background color is lost after conversion from Docx to HTML|Bug|
-|WORDSNET-13188|Extract multiple duplicate options from Fixed-page based save formats to one abstract class.|Enhancement|
+|WORDSNET-13188|Extract many duplicate options from Fixed-page based save formats to one abstract class.|Enhancement|
 |WORDSNET-13952|Index is loosing style(italic) information.when convert rtf to docx|Enhancement|
 |WORDSNET-10055|Throw a meaningful exception during Range.Replace callback|Exception|
 |WORDSNET-13555|Exception is thrown in VmlShapeReader while reading VML shape|Exception|
@@ -171,7 +172,7 @@ public new int WebRequestTimeout
 }
 {{< /highlight >}}
 
-Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in a few releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
+Base property LoadOptions.WebRequestTimeout is marked as obsolete and will be removed in several releases. If you need to specify web request timeout use HtmlLoadOptions.WebRequestTimeout property.
 
 Use case:
 
@@ -217,4 +218,4 @@ Jpeg quality was 100 for the XAML and XPS formats in the previous version. Now i
 
 ### The analogue of NEXT fields is added to LINQ Reporting Engine
 
-The "[Forcing Movement to Next Item within Data Band](https://docs.aspose.com/words/java/forcing-movement-to-next-item-within-data-band/)" section of the engine's documentation was added to describe the change
+The "[Forcing Movement to Next Item within Data Band](/words/java/forcing-movement-to-next-item-within-data-band/)" section of the engine's documentation was added to describe the change

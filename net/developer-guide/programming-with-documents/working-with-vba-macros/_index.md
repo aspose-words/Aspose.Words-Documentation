@@ -16,7 +16,7 @@ Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful 
 
 ## Creating a VBA Project
 
-Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/words/net/aspose.words/document/properties/vbaproject) property to get or set VbaProject in the document. The following code example shows how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
+Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/words/net/aspose.words/document/properties/vbaproject) property to get or set VbaProject in the document. The following code example demonstrates how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-CreateVbaProject.cs" >}}
 
@@ -28,7 +28,7 @@ The following code example demonstrates how to read VBA Macros from the document
 
 ## Write or Modify Macros
 
-The following code example shows how to modify VBA Macros using the VbaModule.SourceCode property.
+The following code example demonstrates how to modify VBA Macros using the VbaModule.SourceCode property.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithVbaMacros-ModifyVbaMacros.cs" >}}
 

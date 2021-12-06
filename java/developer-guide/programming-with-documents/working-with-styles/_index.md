@@ -26,7 +26,7 @@ Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph
 
 ![working-with-styles-aspose-words-java-1](working-with-styles_1.png)
 
-In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the numerous instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
+In this sample document, the text formatted with the ‘Heading 1’ paragraph style is ‘Insert Tab’, ‘Quick Styles’ and ‘Theme’, and the text formatted with the ‘Intense emphasis’ character style is the several instances of blue, italicized, bold text such as ‘galleries’ and ‘overall look’.
 
 The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution:
 
@@ -35,7 +35,7 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of ParagraphsByStyleName shown in the code example given below to find all paragraphs formatted with the specified style.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-paragraphsByStyleName.java" >}}
 
 This implementation also uses the [Document.getChildNodes()](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method of the Document class, which returns a collection of all immediate child nodes.
 
@@ -45,7 +45,7 @@ The implementation of RunsByStyleName is almost the same, although we’re obvio
 
 The following code example finds all runs formatted with the specified style.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-RunsByStyleName.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-runsByStyleName.java" >}}
 
 {{% alert color="primary" %}} 
 
@@ -55,7 +55,7 @@ When both queries are implemented, all you need to do is to pass a document obje
 
 The following code example run queries and display results.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-ExtractContentBasedOnStyles.java" >}}
 
 When everything is done, running the sample will display the following output:
 
@@ -65,11 +65,11 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## Insert Style Separator to Put Different Paragraph Styles
 
-The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature enables for two different paragraph styles used in one logical printed paragraph. If you want some text from the beginning of a particular heading to appear in a Table of Contents but do not want the entire heading in the Table of Contents, you can use this feature. 
+The style separator can be added to the end of a paragraph using the Ctrl + Alt + Enter Keyboard Shortcut into MS Word. This feature allows for two different paragraph styles used in one logical printed paragraph. If you want some text from the beginning of a particular heading to appear in a Table of Contents but do not want the entire heading in the Table of Contents, you can use this feature. 
 
 The following code example shows how to insert a style separator to put different paragraph styles. 
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-WorkingWithStyle-ParagraphInsertStyleSeparator.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithParagraphs-ParagraphInsertStyleSeparator.java" >}}
 
 ## Copy All Styles from Template
 
@@ -77,5 +77,5 @@ There are cases when you want to copy all styles from one document into another.
 
 The following code example shows how to copy styles from one document into another.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-WorkingWithStyle-CopyStylesFromDocument.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CopyStylesFromDocument.java" >}}
 

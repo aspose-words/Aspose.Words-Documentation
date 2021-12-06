@@ -70,7 +70,7 @@ Inline-level elements are represented by the following classes:
 - [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) and [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) represent shapes, drawings, images, etc.
 - SmartTag and StructuredDocumentTag represent custom markup
 
-The following diagram demonstrates the inline-level nodes structure.
+The following diagram shows the inline-level nodes structure.
 
 <img src="inline-level.png" alt="inline-level-aspose-words" style="width:785px"/>
 

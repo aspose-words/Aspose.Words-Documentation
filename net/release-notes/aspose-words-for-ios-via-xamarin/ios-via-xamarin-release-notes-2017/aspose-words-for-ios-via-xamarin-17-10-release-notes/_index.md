@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for iOS via Xamarin 17.10 Release Notes
+description: "Aspose.Words for iOS via Xamarin 17.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /net/aspose-words-for-ios-via-xamarin-17-10-release-notes/

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on HTML Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on HTML-based format import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-html-import/
@@ -28,7 +29,7 @@ This normally causes no problems but some bookmarks on tables can appear differe
 
 ### Comments
 
-A comment in a document is imported as a Comment node in the Aspose.Words DOM. The range of a comment can span over various parts of the document text, including over several paragraphs and tables. In Aspose.Words this range is represented by the following nodes:
+A comment in a document is imported as a Comment node in the Aspose.Words DOM. The range of a comment can span over various parts of the document text, including over many paragraphs and tables. In Aspose.Words this range is represented by the following nodes:
 
 - Comment
 - CommentRangeStart
@@ -37,13 +38,13 @@ A comment in a document is imported as a Comment node in the Aspose.Words DOM. 
 The CommentRangeStart and CommentRangeEnd nodes define the area of the document that the comment is applied to. The Comment node defines the actual content of the comment and provides members to access the comment properties such as Author and Time. All three comment nodes are related through the use of the ID properties on each node. There are plans to import comments from the HTML footnote element. This is how Microsoft Word exports comments so this will allow import of comments in documents saved using Microsoft Word. See the following links in the documentation for further information:
 
 - [How to Extract or Remove Comments](/words/net/working-with-comments/)
-- [Comment](http://www.aspose.com/api/net/words/aspose.words/comment)
+- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
 - [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Comment|Planned| |- Comment.ToTxt|
-|Comment Range|Planned| |<p>- [CommentRangeStart](http://www.aspose.com/api/net/words/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](http://www.aspose.com/api/net/words/aspose.words/commentrangeend)</p>|
+|Comment Range|Planned| |<p>- [CommentRangeStart](https://apireference.aspose.com/words/net/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](https://apireference.aspose.com/words/net/aspose.words/commentrangeend)</p>|
 |Author|Planned| |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date|Planned| |- **Comment.Date**|
 |Initial|Planned| |- **Comment.Inital**|
@@ -57,7 +58,7 @@ Most revision types properly round-tripped to the appropriate formats. Currently
 - [Manage Tracking Changes](/words/net/working-with-document/#workingwithdocument-managetrackingchanges)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

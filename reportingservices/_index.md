@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Reporting Services
+description: "Aspose.Words for Reporting Services is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs
 weight: 10
 url: /reportingservices/
@@ -23,7 +24,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Words for Reporting Services Online Documentation](/words/reportingservices/)
 - [Aspose.Words for Reporting Services Features](/words/reportingservices/feature-tour/)
 - [Aspose.Words for Reporting Services Release Notes](/words/reportingservices/release-notes/)
-- [Aspose.Words for Reporting Services Product Page](https://products.aspose.com/words/reporting-services)
+- [Aspose.Words for Reporting Services Product Page](https://products.aspose.com/words/reporting-services/)
 - [Download Aspose.Words for Reporting Services](https://downloads.aspose.com/words/reportingservices)
 - [Aspose.Words for Reporting Services Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for Reporting Services Paid Support Helpdesk](https://helpdesk.aspose.com/)

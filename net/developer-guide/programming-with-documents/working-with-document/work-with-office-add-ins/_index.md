@@ -24,9 +24,9 @@ For example, using Aspose.Words API, you can add a task pane add-in and customiz
 
 Web Extensions are tools that expand the capabilities of Office applications and interact with Office document content. Web Extensions provide additional functionality to Office clients for improving user experience.
 
-Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://apireference.aspose.com/words/net/aspose.words.webextensions/webextension) and [TaskPane](https://apireference.aspose.com/words/net/aspose.words.webextensions/taskpane) classes, and also enables you to customize the pane and extension properties.
+Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://apireference.aspose.com/words/net/aspose.words.webextensions/webextension) and [TaskPane](https://apireference.aspose.com/words/net/aspose.words.webextensions/taskpane) classes, and also allows you to customize the pane and extension properties.
 
-The following code example demonstrates how to create task panes and add to web extension task panes with basic properties: 
+The following code example shows how to create task panes and add to web extension task panes with basic properties: 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 

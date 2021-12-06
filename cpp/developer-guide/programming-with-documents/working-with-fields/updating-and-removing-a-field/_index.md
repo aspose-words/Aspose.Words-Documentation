@@ -31,6 +31,6 @@ Aspose.Words provides API for custom formatting of the field's result. You can i
 
 ## How to Apply Custom Formatting to Time Field
 
-By default Aspose.Words updates the TIME field with current culture short time format. We figured out that there is a difference between MS Word formatting and .NET/Windows formatting and also between different .NET Framework versions. If you want to format the Time field according to your requirement, you can achieve this by implementing the IFieldUpdateCultureProvider interface. Below code example demonstrates how to apply custom formatting to the Time field.
+By default Aspose.Words updates the TIME field with current culture short time format. We figured out that there is a difference between MS Word formatting and .NET/Windows formatting and also between different .NET Framework versions. If you want to format the Time field according to your requirement, you can achieve this by implementing the IFieldUpdateCultureProvider interface. Below code example shows how to apply custom formatting to the Time field.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldUpdateCulture-FieldUpdateCultureProvider.cpp" >}}

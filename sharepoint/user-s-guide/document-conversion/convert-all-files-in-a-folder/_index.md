@@ -1,5 +1,6 @@
 ﻿---
 title: Convert All Files in a Folder
+description: "This page describes how to convert all files in a file from SharePoint UI using the Aspose.Words for SharePoint."
 type: docs
 weight: 20
 url: /sharepoint/convert-all-files-in-a-folder/
@@ -40,7 +41,7 @@ When you select multiple items in a document library view, you can convert or co
 
 If you select no items in a document library view, the **Convert via Aspose.Words** option is disabled.
 
-**Conversion Settings screen for many files conversion.** 
+**Conversion Settings screen for multiple files conversion.** 
 
 ![todo:image_alt_text](convert-all-files-in-a-folder_6.png)
 

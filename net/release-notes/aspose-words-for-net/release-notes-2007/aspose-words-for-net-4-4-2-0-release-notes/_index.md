@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 4.4.2.0 Release Notes
+description: "Aspose.Words for .NET 4.4.2.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /net/aspose-words-for-net-4-4-2-0-release-notes/
@@ -11,7 +12,7 @@ This page contains release notes for [Aspose.Words for .NET 4.4.2.0](http://www.
 
 {{% /alert %}} 
 
-This maintenance release contains improvements and fixes to DOCX import (which is still in Beta) as well as a few other fixes.
+This maintenance release contains improvements and fixes to DOCX import (which is still in Beta) as well as many other fixes.
 
 |Issue ID |Component |Summary |
 | :- | :- | :- |

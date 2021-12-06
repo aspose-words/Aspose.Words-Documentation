@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for CPP 19.12 Release Notes
+description: "Aspose.Words for CPP 19.12 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /cpp/aspose-words-for-cpp-19-12-release-notes/
@@ -378,7 +379,7 @@ Issue: WORDSNET-19238
 
 The following sections of the engine's documentation were updated to describe the change:
 
-- "[Working with DataRow and DataRowView Objects](https://docs.aspose.com/display/wordsnet/Template+Syntax#TemplateSyntax-WorkingwithDataRowandDataRowViewObjects)"
+- "[Working with DataRow and DataRowView Objects](/display/wordsnet/Template+Syntax#TemplateSyntax-WorkingwithDataRowandDataRowViewObjects)"
 
 ### User-installed fonts are now supported upon using SystemFontSource on Windows10
 

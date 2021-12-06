@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Reporting Services 21.02 Release Notes
+description: "Aspose.Words for Reporting Services 21.02 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /reportingservices/aspose-words-for-reporting-services-21-02-release-notes/
@@ -15,5 +16,5 @@ This page contains release notes for [Aspose.Words for Reporting Services 21.02]
 
 |Key |Summary |Category |
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for .NET (21.02)](https://docs.aspose.com/words/net/aspose-words-for-net-21-2-release-notes/)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for .NET (21.02)](/words/net/aspose-words-for-net-21-2-release-notes/)|New feature|
 |WORDSRS-152|Footer line does not render correctly after conversion from RDL to RTF/Doc/Docx|Bug|

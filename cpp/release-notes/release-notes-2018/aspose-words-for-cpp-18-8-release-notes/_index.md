@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for CPP 18.8 Release Notes
+description: "Aspose.Words for CPP 18.8 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /cpp/aspose-words-for-cpp-18-8-release-notes/
@@ -17,10 +18,10 @@ We are pleased to announce the first public release of Aspose.Words for C++. As
 
 ## Major Features
 
-The initial launch of Aspose.Words for C++ includes a number of features supported by [Aspose.Words for .NET](https://products.aspose.com/words/net). The API supports following features:
+The initial launch of Aspose.Words for C++ includes a number of features supported by [Aspose.Words for .NET](https://products.aspose.com/words/net/). The API supports following features:
 
 - Read, write and manipulate existing DOC documents without using Microsoft Word®
-- Document Object Model: Programmatic access through a rich API to all document elements and formatting enables to create, modify, extract, copy, split, join, and replace document content
+- Document Object Model: Programmatic access through a rich API to all document elements and formatting allows to create, modify, extract, copy, split, join, and replace document content
 
 For full list of features, please, see the [documentation](/words/cpp/product-overview/).
 

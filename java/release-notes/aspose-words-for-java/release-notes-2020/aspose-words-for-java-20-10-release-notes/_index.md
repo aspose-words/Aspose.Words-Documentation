@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 20.10 Release Notes
+description: "Aspose.Words for Java 20.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 7
 url: /java/aspose-words-for-java-20-10-release-notes/
@@ -244,7 +245,7 @@ This new LoadOption allows reducing memory usage.
 /// </summary>
 /// <remarks>
 /// Metafiles (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) is an uncompressed image format and sometimes requires to much RAM to hold and process document.
-/// This option enables to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
+/// This option allows to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
 /// Please note - conversion vector graphics to raster decreases quality of the images.
 /// </remarks>
 public bool ConvertMetafilesToPng
@@ -748,4 +749,4 @@ The indexer of VbaReferenceCollection is exposed publicly for reading:
 public VbaReference this[int index]
 {{< /highlight >}}
 
-Please find usage examples here [https://docs.aspose.com/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
+Please find usage examples here [https://docs.aspose.com/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](/words/java/aspose-words-for-java-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)

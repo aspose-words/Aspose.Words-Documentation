@@ -1,5 +1,6 @@
 ---
 title: Working with Footers in NPOI
+description: "Aspose.Words for .NET allows you to work with footers in a document easily and fast instead of using NPOI."
 type: docs
 weight: 10
 url: /net/working-with-footers-in-npoi/
@@ -41,7 +42,6 @@ Below is the code to demonstrate how to insert footer in word document using NPO
 
 Download **Working with Footers** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposenpoi#Aspose.Words_NPOI.HWPF%20and%20XWPF/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Working%20with%20Footers/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Working%20with%20Footers)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
 
@@ -49,6 +49,5 @@ Download **Working with Footers** from any of the below mentioned social coding 
 
 Download **Working with Footers** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/releases/view/617696)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsNPOIHWPFandXWPF1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)

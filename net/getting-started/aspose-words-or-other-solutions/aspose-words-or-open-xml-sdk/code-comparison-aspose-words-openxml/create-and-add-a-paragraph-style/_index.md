@@ -1,6 +1,6 @@
 ﻿---
 title: Create and Add a Paragraph Style
-description: "Aspose.Words for .NET enables you to create and add a paragraph style easily and fast instead of using Open XML SDK."
+description: "Aspose.Words for .NET allows you to create and add a paragraph style easily and fast instead of using Open XML SDK."
 type: docs
 weight: 120
 url: /net/create-and-add-a-paragraph-style/
@@ -55,7 +55,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example demonstrates how to create and add a paragraph style:
+The following code example shows how to create and add a paragraph style:
 
 {{< highlight csharp >}}
 public void CreateAndAddAParagraphStyleFeature()
@@ -184,6 +184,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/).
+For more information about Aspose.Words features please visit [Working with Paragraphs](/words/net/working-with-paragraphs/).
 
 {{% /alert %}}

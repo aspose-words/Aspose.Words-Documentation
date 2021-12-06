@@ -8,13 +8,13 @@ weight: 10
 url: /cpp/create-or-load-a-document/
 ---
 
-Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has numerous overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration.
+Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration.
 
-## Create a New Document
+## Create a New Document {#create-a-new-document}
 
-We will call the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document/) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder/) class to add document contents.
+We will call the [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder) class to add document contents.
 
-The following code example demonstrates how to create a document using the document builder:
+The following code example shows how to create a document using the document builder:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-CreateDocument-CreateDocument.cpp" >}}
 
@@ -23,7 +23,7 @@ The following code example demonstrates how to create a document using the docum
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
-- The document paper size is [PaperSize](https://apireference.aspose.com/words/cpp/namespace/aspose.words/#papersize).**Letter**.
+- The document paper size is [PaperSize](https://apireference.aspose.com/words/cpp/namespace/aspose.words#papersize).**Letter**.
 
 {{% /alert %}} 
 
@@ -31,7 +31,7 @@ Note the default values:
 
 To load an existing document in any of the LoadFormat formats, pass the file name or the stream into one of the Document constructors. The format of the loaded document is automatically determined by its extension.
 
-### Load from a File
+### Load from a File {#load-from-a-file}
 
 Pass a file name as a string to the Document constructor to open an existing document from a file.
 
@@ -41,7 +41,7 @@ The following code example shows how to open a document from a file:
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Loading-and-Saving/Document.doc).
 
-### Load from a Stream
+### Load from a Stream {#load-from-a-stream}
 
 To open a document from a stream, simply pass a stream object that contains the document into the Document constructor.
 

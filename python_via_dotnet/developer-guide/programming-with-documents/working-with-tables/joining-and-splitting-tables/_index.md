@@ -1,8 +1,10 @@
 ---
 title: Joining and Splitting Tables
+description: "Join and split tables in a document using python."
 type: docs
 weight: 50
-url: /python/joining-and-splitting-tables/
+url: /python-net/joining-and-splitting-tables/
+aliases: [/python/joining-and-splitting-tables/]
 ---
 
 A table which is represented in the Aspose.Words Document Object Model is made up of independent rows and cells which makes joining or splitting tables easy. In order to manipulate a table to split or join with another table we simply need to move the rows from one table to another.

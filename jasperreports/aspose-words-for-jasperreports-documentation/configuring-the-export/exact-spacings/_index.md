@@ -1,5 +1,6 @@
 ﻿---
 title: Exact Spacings
+description: "Aspose Words for JasperReports will try to optimize adding of white spaces before or after paragraphs."
 type: docs
 weight: 100
 url: /jasperreports/exact-spacings/

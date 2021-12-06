@@ -1,5 +1,6 @@
-﻿---
+---
 title: Table Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with table features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-wordprocessingml-import/
@@ -23,7 +24,7 @@ Note that some elements of a table may be wrapped with Markup nodes such as Cust
 
 See the following links in the documentation for further information:
 
-- [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/)
+- [Working with Tables](/words/net/working-with-tables/)
 - [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
 {{% /alert %}} 
@@ -42,7 +43,7 @@ See the following links in the documentation for further information:
 |Default Cell Margins |Yes | |<p>- [Table.LeftPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/leftpadding) </p><p>- [Table.RightPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/rightpadding) </p><p>- [Table.BottomPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/bottompadding) </p><p>- [Table.TopPadding](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/toppadding)</p>|
 |Default Cell Spacing |Yes | |- [Table.CellSpacing](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/cellspacing)|
 |Preferred Table Width |Yes |Preferred width on table can be set to absolute (points), relative (percent) or auto setting. |- [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth)|
-|Table Shading |Yes | |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setshading)|
+|Table Shading |Yes | |- [Table.SetShading](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/setshading)|
 |Hidden |Yes |There is currently no API to access or modify this property on Table or Row. | |
 
 ## Floating Tables
@@ -61,8 +62,8 @@ If you try to set borders or shading on a table without any rows then an excepti
 
 See the following links in the documentation for further information:
 
-- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/setborders)
-- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/clearborders)
+- [Table.SetBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/setborders)
+- [Table.ClearBorders](https://apireference.aspose.com/words/net/aspose.words.tables/table/methods/clearborders)
 - [RowFormat.Borders](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/borders)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -73,8 +74,8 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Allow Break Across Pages |Yes | |<p>- [Keeping Tables and Rows from Breaking across Pages](https://docs.aspose.com/words/net/working-with-columns-and-rows/#keeping-tables-and-rows-from-breaking-across-pages) </p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/allowbreakacrosspages)</p>|
-|Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](https://docs.aspose.com/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/headingformat)</p>|
+|Allow Break Across Pages |Yes | |<p>- [Keeping Tables and Rows from Breaking across Pages](/words/net/working-with-columns-and-rows/#keeping-tables-and-rows-from-breaking-across-pages) </p><p>- [RowFormat.AllowBreakAcrossPages](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/allowbreakacrosspages)</p>|
+|Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](/words/net/working-with-columns-and-rows/#specifying-rows-to-repeat-on-subsequent-pages-as-header-rows) </p><p>- [RowFormat.HeadingFormat](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/headingformat)</p>|
 |Height |Yes | |- [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/height)|
 |Height Rule |Yes | |- [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/RowFormat/properties/heightrule)|
 

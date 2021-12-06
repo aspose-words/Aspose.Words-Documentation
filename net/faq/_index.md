@@ -8,7 +8,7 @@ url: /net/faq/
 
 This page contains answers to the most frequently asked questions. Please learn the current page – perhaps this will allow you to solve your problem quickly.
 
-If you have not found the answer to your question, you can ask on the support forum. For information on how to properly report your question or problem, see the ["Technical Support"](https://docs.aspose.com/words/net/technical-support/) page.
+If you have not found the answer to your question, you can ask on the support forum. For information on how to properly report your question or problem, see the ["Technical Support"](/words/net/technical-support/) page.
 
 {{% alert color="primary" %}}
 
@@ -28,7 +28,7 @@ Details can be found in our documentation.
 
 **Q: What does it mean "Aspose.Words does not require third-party applications"?**
 
-Aspose.Words for .NET does not need to install any third-party applications or additional software packages to work. Just download and install Aspose.Words as described in the [”Installation”](https://docs.aspose.com/words/net/installation/) article and get started.
+Aspose.Words for .NET does not need to install any third-party applications or additional software packages to work. Just download and install Aspose.Words as described in the [”Installation”](/words/net/installation/) article and get started.
 
 ------
 
@@ -36,7 +36,7 @@ Aspose.Words for .NET does not need to install any third-party applications or a
 
 Aspose.Words for .NET covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems such as Windows, Linux, and Mac OS, and various platforms.
 
-For details, see the ["Product Overview"](https://docs.aspose.com/words/net/product-overview/) page and the ["Platforms and Interoperability"](https://docs.aspose.com/words/net/platforms-and-interoperability/) section.
+For details, see the ["Product Overview"](/words/net/product-overview/) page and the ["Platforms and Interoperability"](/words/net/platforms-and-interoperability/) section.
 
 ------
 
@@ -44,15 +44,15 @@ For details, see the ["Product Overview"](https://docs.aspose.com/words/net/prod
 
 Aspose.Words for .NET supports most of the popular document formats such as DOC, DOCX, HTML, Markdown, PDF, XML, and others.
 
-You can see the complete list of supported formats on the ["Supported Document Formats"](https://docs.aspose.com/words/net/supported-document-formats/) page.
+You can see the complete list of supported formats on the ["Supported Document Formats"](/words/net/supported-document-formats/) page.
 
 ------
 
 **Q: How can I try Aspose.Words free?**
 
-You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to multiple hundred paragraphs. A Temporary License enables you to test Aspose.Words without Trial restrictions for 30 days.
+You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to a few hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
 
-See the ["Licensing and Subscription"](https://docs.aspose.com/words/net/licensing/) page for more information.
+See the ["Licensing and Subscription"](/words/net/licensing/) page for more information.
 
 {{% alert color="primary" %}}
 
@@ -66,31 +66,31 @@ You can also try some of the most popular Aspose.Words features through the [Asp
 
 To buy an Aspose.Words license, you need to go to the [Purchase](https://purchase.aspose.com/buy) page, select the "Aspose.Words" product and the type of license that suits you. Then add the license to your cart and follow the Shopping Cart instructions.
 
-After purchasing, apply for the license as described in the ["Purchased License"](https://docs.aspose.com/words/net/licensing/#purchased-license) section.
+After purchasing, apply for the license as described in the ["Purchased License"](/words/net/licensing/#purchased-license) section.
 
-Details on how to install Aspose.Words can be read on the ["Installation"](https://docs.aspose.com/words/net/installation/) page.
+Details on how to install Aspose.Words can be read on the ["Installation"](/words/net/installation/) page.
 
 ------
 
 **Q: How can I get support?**
 
-Use the free technical support forum. For details on how to properly report a problem and what needs to be done before contacting the forum, see the ["Technical Support"](https://docs.aspose.com/words/net/technical-support/) page.
+Use the free technical support forum. For details on how to properly report a problem and what needs to be done before contacting the forum, see the ["Technical Support"](/words/net/technical-support/) page.
 
 ## Rendering a Document
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about rendering in the [“Rendering”](https://docs.aspose.com/words/net/rendering/) documentation section.
+You can find more detailed information about rendering in the [“Rendering”](/words/net/rendering/) documentation section.
 
 {{% /alert %}}
 
 **Q: Why are the layout and fonts in the output document different from the original?**
 
-The font may not be available, or the font format is supported by Microsoft Word but not supported by Aspose.Words. Aspose.Words will perform [font substitution](https://docs.aspose.com/words/net/manipulating-and-substitution-truetype-fonts/).
+The font may not be available, or the font format is supported by Microsoft Word but not supported by Aspose.Words. Aspose.Words will perform [font substitution](/words/net/manipulating-and-substitution-truetype-fonts/).
 
 To check if the font is missing:
 
-* In Aspose.Words use the Font substitution warnings (for details, see the “How to Recognize That the Font Was Replaced” section of the [“Manipulate and Substitute TrueType Fonts”](https://docs.aspose.com/words/net/manipulating-and-substitution-truetype-fonts/) article).
+* In Aspose.Words use the Font substitution warnings (for details, see the “How to Recognize That the Font Was Replaced” section of the [“Manipulate and Substitute TrueType Fonts”](/words/net/manipulating-and-substitution-truetype-fonts/) article).
 * In Microsoft Word open the “Font Substitution” dialog box (File → Options → Advanced → Font Substitution).
 
 ------
@@ -123,7 +123,7 @@ Yes, you do. Therefore, when copying fonts, keep in mind that most fonts are cop
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about mail merge in the [“Mail Merge and Reporting”](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation section.
+You can find more detailed information about mail merge in the [“Mail Merge and Reporting”](/words/net/mail-merge-and-reporting/) documentation section.
 
 {{% /alert %}}
 
@@ -147,7 +147,7 @@ This is because the merge regions in the template are not correctly formed, whic
 This is because the relationship between the parent and child tables are not set up or they are incorrectly set up. It is necessary to:
 
 * Ensure data integrity within your **DataSet** and use the **DataRelation** object to represent the parent-child relationship between related data tables.
-* Check the section “How to Set Up Data Relations in Nested Mail Merge with Regions” in the article [“Nested Mail Merge with Regions”](https://docs.aspose.com/words/net/nested-mail-merge-with-regions/).
+* Check the section “How to Set Up Data Relations in Nested Mail Merge with Regions” in the article [“Nested Mail Merge with Regions”](/words/net/nested-mail-merge-with-regions/).
 
 ------
 
@@ -161,7 +161,7 @@ Disable foreign key constraints when you create a **DataRelation**.
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about programming with documents in the [“Programming with Documents”](https://docs.aspose.com/words/net/programming-with-documents/) documentation section.
+You can find more detailed information about programming with documents in the [“Programming with Documents”](/words/net/programming-with-documents/) documentation section.
 
 {{% /alert %}}
 
@@ -173,7 +173,7 @@ The append result appears on a separate page because of a difference in [PageSet
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about converting a document in the [“Convert a Document”](https://docs.aspose.com/words/net/convert-a-document/) documentation section.
+You can find more detailed information about converting a document in the [“Convert a Document”](/words/net/convert-a-document/) documentation section.
 
 {{% /alert %}}
 
@@ -181,7 +181,7 @@ You can find more detailed information about converting a document in the [“Co
 
 It is very easy, just load a document to the model and save it to any supported format.
 
-The following code example demonstrates the process of converting a PDF file to DOC:
+The following code example shows the process of converting a PDF file to DOC:
 
 {{< highlight csharp >}}
 // Open the source PDF document
@@ -197,7 +197,7 @@ pdfDocument.Save(_dataDir + "PDFToDOC_out.doc", SaveFormat.Doc); // .Docx, .Rtf,
 
 It is very easy as well, just load a document to the model and save it to any supported format.
 
-The following code example demonstrates the process of converting a DOCX file to PDF:
+The following code example shows the process of converting a DOCX file to PDF:
 
 {{< highlight csharp >}}
 // Open the source DOCX document.
@@ -211,7 +211,7 @@ doc.Save(_dataDir + "ouput.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about programming with documents in the [“Programming with Documents”](https://docs.aspose.com/words/net/programming-with-documents/) documentation section.
+You can find more detailed information about programming with documents in the [“Programming with Documents”](/words/net/programming-with-documents/) documentation section.
 
 {{% /alert %}}
 
@@ -219,7 +219,7 @@ You can find more detailed information about programming with documents in the [
 
 Aspose.Words enables you to split a multi-page document page by page.
 
-The following code example demonstrates how to divide a document and save each page as a separate document:
+The following code example shows how to divide a document and save each page as a separate document:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Big document.docx");
@@ -267,7 +267,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 Just two lines of code.
 
-The following code example demonstrates how to print a document in two ways:
+The following code example shows how to print a document in two ways:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "PrintMe.docx");
@@ -288,7 +288,7 @@ doc.Print(myPrinter);
 
 Just load PDF to the Aspose.Words document model and make changes.
 
-The following code example demonstrates how to edit a document:
+The following code example shows how to edit a document:
 
 {{< highlight csharp >}}
 // Open the source PDF document
@@ -305,4 +305,4 @@ pdfDocument.Save(_dataDir + "out.pdf", SaveFormat.Pdf);
 
 **Q: How to use Aspose.Words in Docker?**
 
-For a detailed answer, learn the article ["How to Run Aspose.Words in Docker"](https://docs.aspose.com/words/net/how-to-run-aspose-words-in-docker/).
+For a detailed answer, learn the article ["How to Run Aspose.Words in Docker"](/words/net/how-to-run-aspose-words-in-docker/).

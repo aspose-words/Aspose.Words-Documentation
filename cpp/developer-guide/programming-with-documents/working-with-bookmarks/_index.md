@@ -13,7 +13,7 @@ With Aspose.Words, you can use bookmarks in reports or documents to insert some 
 
 ## Bookmarks in Microsoft Word
 
-In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of many letters and digits.
+In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of several letters and digits.
 
 ### Inserting a Bookmark in Microsoft Word
 
@@ -47,7 +47,7 @@ The actions that can be performed with bookmarks using Aspose.Words are the same
 
 Use DocumentBuilder.StartBookmark and DocumentBuilder.EndBookmark to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
-The below code example demonstrates how to create a new bookmark.
+The below code example shows how to create a new bookmark.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-CreateBookmark-CreateBookmark.cpp" >}}
 
@@ -59,7 +59,7 @@ The below code example shows how to obtain bookmarks from a bookmark collection.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-AccessBookmarks-AccessBookmarks.cpp" >}}
 
-The below code example demonstrates how to get or set bookmark name and text. You can download the template file of this example from here.
+The below code example shows how to get or set bookmark name and text. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cpp" >}}
 

@@ -11,7 +11,7 @@ is_root: true
 
 **Welcome to Aspose.Words for C++!**
 
-Aspose.Words for C++ is a  class library that allows your application  to perform a great range of document processing tasks.
+Aspose.Words for C++ is a  class library that enables your application  to perform a great range of document processing tasks.
 
 Aspose.Words supports most of the popular document formats such as DOC, DOCX, RTF, HTML, Markdown, PDF, XPS, EPUB, and others.
 

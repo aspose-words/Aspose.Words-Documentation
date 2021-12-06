@@ -1,5 +1,6 @@
-﻿---
+---
 title: Insert Footer
+description: "Aspose.Words for Java allows you to insert a footer into a document easily and fast instead of using docx4j."
 type: docs
 weight: 10
 url: /java/insert-footer/
@@ -35,7 +36,7 @@ builder.write("(C) 2001 Aspose Pty Ltd. All rights reserved.");
 
 ## docx4j - Insert Footer
 
-The following sample code shows how to create headers/footers using docx4j.
+The following sample code demonstrates how to create headers/footers using docx4j.
 
 **Java**
 
@@ -52,19 +53,19 @@ public static void main(String[] args) throws Exception {
 	MainDocumentPart mdp = wordMLPackage.getMainDocumentPart();
 	Relationship styleRel = mdp.getStyleDefinitionsPart().getSourceRelationships().get(0);
 	mdp.getRelationshipsPart().removeRelationship(styleRel);
-
+	
 	// OK, the guts of this sample:
 	// The 2 things you need:
 	// 1. the Header part
 	Relationship relationship = createFooterPart(wordMLPackage);
-
+	
 	// 2. an entry in SectPr
 	createFooterReference(wordMLPackage, relationship);
-
+	
 	// Display the result as Flat OPC XML
 	FlatOpcXmlCreator worker = new FlatOpcXmlCreator(wordMLPackage);
 	worker.marshal(System.out);
-
+	
 	// Now save it
 	wordMLPackage.save(new java.io.File(dataDir + "OUT_Footer.docx") );
 }
@@ -123,25 +124,23 @@ public static org.docx4j.wml.P newImage( WordprocessingMLPackage wordMLPackage,
 			id1, id2, false);
 
     // Now add the inline in w:p/w:r/w:drawing
-	org.docx4j.wml.ObjectFactory factory = Context.getWmlObjectFactory();
-	org.docx4j.wml.P  p = factory.createP();
-	org.docx4j.wml.R  run = factory.createR();
-	p.getContent().add(run);
-	org.docx4j.wml.Drawing drawing = factory.createDrawing();
-	run.getContent().add(drawing);
-	drawing.getAnchorOrInline().add(inline);
-	return p;
+    org.docx4j.wml.ObjectFactory factory = Context.getWmlObjectFactory();
+    org.docx4j.wml.P  p = factory.createP();
+    org.docx4j.wml.R  run = factory.createR();
+    p.getContent().add(run);
+    org.docx4j.wml.Drawing drawing = factory.createDrawing();
+    run.getContent().add(drawing);
+    drawing.getAnchorOrInline().add(inline);
+    return p;
 }
 {{< /highlight >}}
 
 ## Download Running Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/addfooter/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/addfooter)
 
 {{% alert color="primary" %}} 

@@ -23,7 +23,7 @@ The Markdown feature implementation mostly follows the CommonMark specification
 
 {{% alert color="primary" %}}
 
-There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article ["Translate Markdown to Document Object Model (DOM)"](https://docs.aspose.com/words/java/translate-markdown-to-document-object-model/).
+There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article ["Translate Markdown to Document Object Model (DOM)"](/words/java/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 
@@ -45,7 +45,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Markdown Document with Headings
 
-This section shows you how to produce a markdown document with headings as given below:
+This section demonstrates you how to produce a markdown document with headings as given below:
 
 {{< highlight csharp >}}
 The following produces headings:

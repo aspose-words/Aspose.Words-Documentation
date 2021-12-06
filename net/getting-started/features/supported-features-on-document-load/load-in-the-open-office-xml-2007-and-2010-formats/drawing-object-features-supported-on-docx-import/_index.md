@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on DOCX Import
+description: "Aspose.Words for .NET allows you to work with drawing features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-docx-import/
@@ -7,7 +8,7 @@ url: /net/drawing-object-features-supported-on-docx-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports multiple types of drawing entities on document load.
+Aspose.Words supports many types of drawing entities on document load.
 
 Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior.
 
@@ -46,10 +47,10 @@ If you are using Aspose.Words for Java you may need to ensure that you have the 
 See the following links in the documentation for further information:
 
 - [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isimage)
-- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/baseuri)
 - **Shape.ImageData**
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
-- [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil/)
+- [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -108,7 +109,7 @@ See the following links in the documentation for further information:
 |Draw Aspect |Yes | | |
 |Auto Update |Yes | |- [OleFormat.AutoUpdate](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/autoupdate)|
 |Lock |Yes | |- [OleFormat.IsLocked](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/islocked)|
-|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/getoleentry) </p><p>- **OleFormat.Save**</p>|
+|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/methods/getoleentry) </p><p>- **OleFormat.Save**</p>|
 |Ole Object Picture |Yes | |- [OleFormat.OleIcon](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/oleicon)|
 |Source Range |Yes | |- [OleFormat.SourceItem](https://apireference.aspose.com/words/net/aspose.words.drawing/OleFormat/properties/sourceitem)|
 
@@ -138,7 +139,7 @@ Shapes which are linked to external resources such as images on the internet can
 
 See the following links in the documentation for further information:
 
-- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/html)
+- [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/index)
 - [Shape.ShapeType](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/shapetype)
 - [Shape.IsTopLevel](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/istoplevel)
 
@@ -150,7 +151,7 @@ See the following links in the documentation for further information:
 |Flowcharts |Yes | | |
 |Callouts |Yes | | |
 |Stars and Banners |Yes | | |
-|Group Shape |Yes | |<p>- [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape/) </p><p>- [Shape.IsGroup](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isgroup)</p>|
+|Group Shape |Yes | |<p>- [GroupShape](https://apireference.aspose.com/words/net/aspose.words.drawing/groupshape) </p><p>- [Shape.IsGroup](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isgroup)</p>|
 |Drawing Canvas |Yes | | |
 |Signature Line |Planned |Signature line content is currently preserved in image form only. You cannot access or validate the digital signature attached to a signature line yet or extract the signature as plain text. <br><br>Creating new signature lines is currently unsupported. <br><br>These features will be included as soon as possible. |- **Shape.ImageData**|
 |Ink Annotation |Yes | | |
@@ -160,7 +161,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/href)|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs.aspose.com/words/net/working-with-watermark/)|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](/words/net/working-with-watermark/)|
 
 ## WordArt
 
@@ -249,7 +250,7 @@ Using Aspose.Words you can access, modify and remove most fill properties of a s
 
 See the following link in the documentation for further information:
 
-- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fill)
+- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/fill)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

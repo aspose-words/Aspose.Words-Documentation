@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Java 18.6 Release Notes
+description: "Aspose.Words for Java 18.6 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /java/aspose-words-for-java-18-6-release-notes/
@@ -115,7 +116,7 @@ This section lists public API changes that were introduced in Aspose.Words 18.6.
 
 ### Supported Dynamic Insertion of Hyperlinks for LINQ Reporting Engine
 
-The "[Inserting Hyperlinks Dynamically](/words/java/inserting-hyperlinks-dynamically/)" section of the LINQ Reporting Engine's documentation was added to describe the change.
+The "[Inserting Hyperlinks Dynamically](/words/java/working-with-fields/)" section of the LINQ Reporting Engine's documentation was added to describe the change.
 
 ### Added Title and Description Properties into Table Class
 

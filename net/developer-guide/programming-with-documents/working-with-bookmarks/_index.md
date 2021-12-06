@@ -11,7 +11,7 @@ With Aspose.Words, you can use bookmarks in reports or documents to insert some 
 
 ## Bookmarks in Microsoft Word
 
-In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of multiple letters and digits.
+In Microsoft Word, you can place bookmarks anywhere in the document when needed, or delete them if they are of no use anymore. The bookmarks can be assigned to text fragments, graphic objects, paragraphs, etc. Every bookmark has a unique name consisting of several letters and digits.
 
 ### Inserting a Bookmark in Microsoft Word
 
@@ -43,7 +43,7 @@ The actions that can be performed with bookmarks using Aspose.Words are the same
 
 ### Inserting a Bookmark
 
-Use [DocumentBuilder.StartBookmark](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/startbookmark) and [DocumentBuilder.EndBookmark](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/endbookmark) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved. The following example adds some text into the document and encloses the text in a bookmark.
+Use [DocumentBuilder.StartBookmark](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/startbookmark) and [DocumentBuilder.EndBookmark](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endbookmark) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved. The following example adds some text into the document and encloses the text in a bookmark.
 
 {{% alert color="primary" %}} 
 
@@ -57,7 +57,7 @@ The following code example shows how to create a new bookmark.
 
 ### Obtaining Bookmarks
 
-Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.Range](http://www.aspose.com/api/net/words/aspose.words/node/properties/range) property exposed by any document node that returns a [Range](http://www.aspose.com/api/net/words/aspose.words/range) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](http://www.aspose.com/api/net/words/aspose.words/BookmarkCollection) and then use the collection indexer to get a specific bookmark.
+Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.Range](https://apireference.aspose.com/words/net/aspose.words/node/properties/range) property exposed by any document node that returns a [Range](https://apireference.aspose.com/words/net/aspose.words/range) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](https://apireference.aspose.com/words/net/aspose.words/BookmarkCollection) and then use the collection indexer to get a specific bookmark.
 
 The following code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Bookmarks.docx).
 
@@ -69,7 +69,7 @@ The following code example shows how to get or set a bookmark name and text. You
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
 
 
-The following code example demonstrates how to bookmark a table.
+The following code example shows how to bookmark a table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTable.cs" >}}
 
@@ -77,17 +77,17 @@ If you change the name of a bookmark to a name that already exists in the docume
 
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
-The following code example shows how to access columns of the bookmarked table.
+The following code example demonstrates how to access columns of the bookmarked table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkTable-BookmarkTableColumns.cs" >}}
 
 ### Moving to a Bookmark
 
-If you need to insert rich content (not just plain text) into a bookmark, you should use [DocumentBuilder.MoveToBookmark](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/movetobookmark/index) to move the cursor to the bookmark and then use [DocumentBuilder](http://www.aspose.com/api/net/words/aspose.words/documentbuilder) methods and properties to insert content.
+If you need to insert rich content (not just plain text) into a bookmark, you should use [DocumentBuilder.MoveToBookmark](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetobookmark/index) to move the cursor to the bookmark and then use [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) methods and properties to insert content.
 
 ### Show Hide Bookmark Content
 
-The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field shows or hides the content of Bookmark in Word Document. The following code example shows how to show/ hide bookmarks.
+The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field shows or hides the content of Bookmark in Word Document. The following code example demonstrates how to show/ hide bookmarks.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.cs" >}}
 

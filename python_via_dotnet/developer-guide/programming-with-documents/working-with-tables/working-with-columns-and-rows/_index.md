@@ -1,8 +1,10 @@
 ---
 title: Working with Columns and Rows
+description: "Work with table columns and rows in a document using python."
 type: docs
 weight: 40
-url: /python/working-with-columns-and-rows/
+url: /python-net/working-with-columns-and-rows/
+aliases: [/python/working-with-columns-and-rows/]
 ---
 
 ## Finding the Index of Table Elements

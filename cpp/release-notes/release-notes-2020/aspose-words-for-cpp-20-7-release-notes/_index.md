@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 20.7 Release Notes
+description: "Aspose.Words for C++ 20.7 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /cpp/aspose-words-for-cpp-20-7-release-notes/
@@ -124,7 +125,7 @@ The missing features will be added in future releases.
 |WORDSNET-16933	|Content of text boxes missing in PDF|Bug|
 |WORDSNET-20529	|Image is rotated after DOCX to HtmlFixed conversion|Bug|
 |WORDSNET-16771	|DOCX to PDF conversion issue with image position|Bug|
-|WORDSNET-19403	|After conversion to PDF, an image is moved many inches down|Bug|
+|WORDSNET-19403	|After conversion to PDF, an image is moved a few inches down|Bug|
 |WORDSNET-20533	|Multi-Threaded Errors with mail merge|Bug|
 |WORDSNET-16907	|Incorrect line breaks push some content to the next page in PDF|Bug|
 

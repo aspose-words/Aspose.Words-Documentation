@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on DOCX Import
+description: "Aspose.Words for .NET allows you to work with text features supported on Open Office XML 2007 an 2010 Format import."
 type: docs
 weight: 130
 url: /net/text-features-supported-on-docx-import/
@@ -15,11 +16,11 @@ All formatting of a run is contained within a linked classed called Font.
 
 See the following links in the documentation for further information:
 
-- [Run](https://apireference.aspose.com/words/net/aspose.words/node/properties/html)
+- [Run](https://apireference.aspose.com/words/net/aspose.words/node/properties/index)
 - [Run.Font](https://apireference.aspose.com/words/net/aspose.words/inline/properties/font)
-- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/node/properties/text)
+- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/run/properties/text)
 
-[Jump to this location in the export section](https://docs.aspose.com/words/net/save-in-the-flatopc-ooxml-document-xml-format/)
+[Jump to this location in the export section](/words/net/save-in-the-flatopc-ooxml-document-xml-format/)
 
 {{% /alert %}} 
 
@@ -88,7 +89,7 @@ See the following link in the documentation for further information:
 
 See the following link in the documentation for further information:
 
-- [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/html)
+- [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/index)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

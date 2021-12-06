@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 17.6 Release Notes
+description: "Aspose.Words for Java 17.6 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /java/aspose-words-for-java-17-6-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-17-6-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 17.6](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.6/)
+This page contains release notes for [Aspose.Words for Java 17.6](https://repository.aspose.com/repo/com/aspose/aspose-words/17.6/)
 
 {{% /alert %}}
 
@@ -193,4 +194,4 @@ Document doc = new Document("test.html", lo);
 
 ### WORDSNET-15326 - SVG Multithread Processing Issue Resolved
 
-Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in several threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI\+ used earlier.
+Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in multiple threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI\+ used earlier.

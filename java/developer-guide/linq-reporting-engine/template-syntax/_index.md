@@ -5,7 +5,7 @@ weight: 30
 url: /java/template-syntax/
 ---
 
-A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template’s structure and data bindings. You can form these tags using just running text that can occupy a few paragraphs to be more descriptive. 
+A typical template for LINQ Reporting Engine is composed of common document contents and tags that describe the template’s structure and data bindings. You can form these tags using just running text that can occupy multiple paragraphs to be more descriptive. 
 
 A tag body must meet the following requirements:
 
@@ -45,7 +45,7 @@ During runtime, after a template syntax tag is processed by the engine, it is ty
 - [Inserting Documents Dynamically](/words/java/inserting-documents-dynamically/)
 - [Inserting Images Dynamically](/words/java/inserting-images-dynamically/)
 - [Inserting Bookmarks Dynamically](/words/java/inserting-bookmarks-dynamically/)
-- [Inserting Hyperlinks Dynamically](/words/java/inserting-hyperlinks-dynamically/)
+- [Inserting Hyperlinks Dynamically](/words/java/working-with-fields/)
 - [Setting Background Color Dynamically](/words/java/setting-background-color-dynamically/)
 - [Merging Table Cells Dynamically](/words/java/merging-table-cells-dynamically/)
 - [Restarting List Numbering Dynamically](/words/java/restarting-list-numbering-dynamically/)

@@ -20,7 +20,7 @@ This screenshot of Microsoft Word shows a template document with the merge field
 
 ![insert-checkboxes-or-images-mail-merge-aspose-words](insert-checkboxes-html-or-images-during-mail-merge_1.png)
 
-This screenshot of Microsoft Word demonstrates the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
+This screenshot of Microsoft Word shows the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
 
 ![insert-checkboxes-html-or-images-mail-merge-aspose-words](insert-checkboxes-html-or-images-during-mail-merge_2.png)
 
@@ -44,7 +44,7 @@ The **MailMerge.FieldMergingCallback** property accepts a class implementing the
 
 While merging an image merge field, you may sometimes require controlling various image properties, in particular, **WrapType**. Currently, using **ImageFieldMergingArgs** you can only set image width or height properties, respectively. To overcome this issue, Aspose.Words provides **ImageFieldMergingArgs.Shape** property which facilitates to get full control over the image (or any other shape) being inserted.
 
-The following code example shows how to set various image properties. 
+The following code example demonstrates how to set various image properties. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7"  "Examples-CSharp-Mail-Merge-MailMergeImageField-MailMergeImageField.cs" >}}
 

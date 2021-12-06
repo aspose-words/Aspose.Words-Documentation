@@ -1,5 +1,6 @@
-﻿---
+---
 title: Custom Markup Features Supported on PDF Export
+description: "Aspose.Words for .NET allows you to work with custom markup features supported when saving to PDF format."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-pdf-export/

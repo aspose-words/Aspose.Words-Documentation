@@ -1,5 +1,6 @@
 ---
 title: Delete Bookmarks
+description: "Aspose.Words for Java allows you to delete bookmarks from a document easily and fast instead of using docx4j."
 type: docs
 weight: 20
 url: /java/delete-bookmarks/
@@ -45,12 +46,10 @@ wordMLPackage.save(new java.io.File(dataDir + "Docx4jBookmarkDeleted.docx"));
 
 ## Download Running Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/bookmarks/addbookmark/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/bookmarks/addbookmark)
 
 {{% alert color="primary" %}} 

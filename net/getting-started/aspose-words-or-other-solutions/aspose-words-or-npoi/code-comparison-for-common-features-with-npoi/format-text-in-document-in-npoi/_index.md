@@ -1,5 +1,6 @@
 ---
 title: Format Text in Document in NPOI
+description: "Aspose.Words for .NET allows you to fformat text in a document easily and fast instead of using NPOI."
 type: docs
 weight: 40
 url: /net/format-text-in-document-in-npoi/
@@ -159,11 +160,10 @@ out1.Close();
 
 Download **Format Text in Document** form any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467696)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Format.Text.in.Document.Aspose.Words.zip)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Specifying Formatting](https://docs.aspose.com/words/net/working-with-styles-and-themes/).
+For more details, visit [Specifying Formatting](/words/net/working-with-styles-and-themes/).
 
 {{% /alert %}}

@@ -1,5 +1,6 @@
 ---
 title: Inserting Table
+description: "Aspose.Words for .NET allows you to insert a table into a document and modiffy it easily and fast instead of using VSTO."
 type: docs
 weight: 80
 url: /net/inserting-table/
@@ -83,6 +84,5 @@ doc.Save("Inserting Table.doc");
 
 ## Download Sample Code
 
-- [Codeplex](https://archive.codeplex.com/?p=asposevsto)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Inserting.Table.Aspose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20Table%20\(Aspose.Words\).zip)

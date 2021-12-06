@@ -2,13 +2,13 @@
 title: "Save a Document"
 aliases: [/net/saving-a-document/]
 type: docs
-description: "Aspose.Words for .NET allows you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
+description: "Aspose.Words for .NET enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
 keywords: "save a document c#, save a document to file c#, save a document to stream c#, save a document Aspose .NET, save formats supported by Aspose.Words .NET"
 weight: 20
 url: /net/save-a-document/
 ---
 
-Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method of the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class. There are overloads that allow saving a document to a file, stream, or ASP .NET HttpResponse object for sending to a client browser. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](http://www.aspose.com/api/net/words/aspose.words/saveformat) enumeration.
+Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method of the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class. There are overloads that allow saving a document to a file, stream, or ASP.NET HttpResponse object for sending to a client browser. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://apireference.aspose.com/words/net/aspose.words/saveformat) enumeration.
 
 ## Save to a File {#save-a-document-to-a-file}
 
@@ -16,11 +16,11 @@ Simply use the [Save](https://apireference.aspose.com/words/net/aspose.words.do
 
 The following code example shows how to load and save a document to a file:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cs" >}}
+{{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "load-save.cs" >}}
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.doc).
 
 {{% /alert %}} 
 
@@ -28,19 +28,23 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 Pass a stream object to the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save) method. It's necessary to specify the save format explicitly when saving to a stream.
 
-The following code example demonstrates how to load and save a document to a stream:
+The following code example shows how to load and save a document to a stream:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToStream-LoadAndSaveToStream.cs" >}}
+{{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "load-save-stream.cs" >}}
+
+{{% alert color="primary" %}} 
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
-## Sending a Document to a Browser {#sending-a-document-to-a-client-browser}
+{{% /alert %}} 
 
-In order to send a document to a client browser, use a special overload that takes four parameters: file name, save format, save type, and an ASP .NET HttpResponse object. The way the document will be presented to the user is represented by the [ContentDisposition](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) enumeration, which determines whether the document sent to the browser will provide an option to open itself directly in the browser or in the application associated with the file extension.
+## Send a Document to a Client Browser {#sending-a-document-to-a-client-browser}
 
-The following code example demonstrates how to send a document to the client browser from an ASP.NET code:
+In order to send a document to a client browser, use a special overload that takes four parameters: file name, save format, save type, and an ASP.NET HttpResponse object. The way the document will be presented to the user is represented by the [ContentDisposition](https://apireference.aspose.com/words/net/aspose.words/contentdisposition) enumeration, which determines whether the document sent to the browser will provide an option to open itself directly in the browser or in the application associated with the file extension.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SendToClientBrowser-SendToClientBrowser.cs" >}}
+The following code example shows how to send a document to the client browser from an ASP.NET code:
+
+{{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "send-to-client-browser.cs" >}}
 
 {{% alert color="primary" %}} 
 
@@ -62,8 +66,8 @@ Aspose.Words supports saving a document into PCL (Printer Command Language). Asp
 
 The following code example shows how to save a document to PCL using save options:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToPCL-ConvertDocumentToPCL.cs" >}}
+{{< gist "aspose-words-gists" "b5a3c7ccb6e79a15c8d9d65e050a881b" "docx-to-pcl.cs" >}}
 
 ## See Also
 
-- Information about ASP .NET [HttpResponse](http://msdn.microsoft.com/en-us/library/system.web.httpresponse.aspx) object
+- Information about ASP.NET [HttpResponse](http://msdn.microsoft.com/en-us/library/system.web.httpresponse.aspx) object

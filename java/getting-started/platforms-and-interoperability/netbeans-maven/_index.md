@@ -1,5 +1,6 @@
-﻿---
+---
 title: NetBeans - Maven
+description: "Aspose.Words Java for NetBeans (Maven) Plugin."
 type: docs
 weight: 90
 url: /java/aspose-words-java-for-netbeans-maven/
@@ -87,11 +88,11 @@ Download only Java EE / SE supported NetBeans download bundle of the current lat
 
 ## Installing
 
-[Installing Aspose.Words for NetBeans - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-netbeans-maven/)
+[Installing Aspose.Words for NetBeans - Maven](/words/java/installing-and-using-aspose-words-for-netbeans-maven/)
 
 ## Using the Plugin
 
-[Using Aspose.Words for NetBeans - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-netbeans-maven/#using)
+[Using Aspose.Words for NetBeans - Maven](/words/java/installing-and-using-aspose-words-for-netbeans-maven/#using)
 
 ## Support, Extend and Contribute
 
@@ -108,8 +109,6 @@ Please follow [**GitHub Issues Tracker**](https://github.com/aspose-words/Aspos
 Aspose.Words Java for NetBeans (Maven) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it. Developers can also learn from it to make their own plugins.
 
 - [GitHub](https://goo.gl/X3QIEm)
-- [CodePlex](https://goo.gl/TG5tpC)
-
 #### How to configure source code of Aspose.Words Java for NetBeans (Maven)
 
 Below simple steps will smoothly lead to successful configuration of  **"Aspose.Words Java for NetBeans (Maven)"** plugin  source code in NetBeans IDE

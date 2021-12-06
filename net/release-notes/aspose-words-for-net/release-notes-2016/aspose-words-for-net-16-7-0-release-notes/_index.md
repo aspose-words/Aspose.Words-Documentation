@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 16.7.0 Release Notes
+description: "Aspose.Words for .NET 16.7.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /net/aspose-words-for-net-16-7-0-release-notes/
@@ -241,7 +242,7 @@ doc.Save("mydocument.gif", saveOptions);
 
 ### Exposed more String and Number Formats for Expression Results in LINQ Reporting Engine
 
-The ["Outputting Expression Results"](https://docs.aspose.com/words/net/template-syntax/#outputting-expression-results) section of the engine's documentation was updated to describe the change.
+The ["Outputting Expression Results"](/words/net/template-syntax/#outputting-expression-results) section of the engine's documentation was updated to describe the change.
 
 ### MsWordVersion Enum Moved to Aspose.Words.Settings
 
@@ -437,7 +438,7 @@ Added following properties to FontInfoCollection class:
 /// Default value for this property is <b>false</b>.
 /// </summary>
 /// <remarks>
-/// <para>Embedding TrueType fonts enables others to view the document with the same fonts that were used to create it,
+/// <para>Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it,
 /// but may substantially increase the document size.</para>
 /// <para>This option works for DOC, DOCX and RTF formats only.</para>
 /// </remarks>

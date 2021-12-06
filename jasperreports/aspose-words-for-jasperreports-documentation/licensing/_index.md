@@ -1,5 +1,6 @@
 ﻿---
 title: Licensing
+description: "The evaluation and licensed versions of Aspose.Words for JasperReports is the same download."
 type: docs
 weight: 70
 url: /jasperreports/licensing/
@@ -15,7 +16,7 @@ When you are happy with the evaluation version, [purchase a license](http://www.
 
 The license is available for download from the order page after the order was paid. The license is a clear text, digitally signed XML file. The license contains information such as the client name, the purchased product and the type of the license. Do not modify the content of the license file: it invalidates the license.
 
-There are many ways to activate a license:
+There are several ways to activate a license:
 
 - [Call setLicense](/words/jasperreports/licensing/).
 - [Set an exporter parameter in the code](/words/jasperreports/licensing/).

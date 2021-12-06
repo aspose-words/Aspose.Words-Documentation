@@ -6,7 +6,7 @@ url: /net/composing-expressions/
 aliases: [/net/template-syntax/#composing-expressions]
 ---
 
-Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with multiple restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
+Expression is a central concept of the template syntax. Every tag is bound with an expression that is evaluated during runtime, and its result is used by LINQ Reporting Engine according to the tag's role. Expressions are composed of operands and operators according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) with several restrictions. See the following sections for more information. The complexity of expressions in templates is not restricted in any way. However, to keep your templates less cumbersome and to satisfy [Separation of Concerns](http://en.wikipedia.org/wiki/Separation_of_concerns) and [Single Responsibility](http://en.wikipedia.org/wiki/Single_responsibility_principle) principles, locate any complex logic at the This section includes the following topics: 
 
 ## Using Lexical Tokens
 
@@ -34,7 +34,7 @@ The feature of the omitting of an object identifier while accessing the object�
 
 ## Working with Types
 
-LINQ Reporting Engine allows you to use externally visible types in template expressions. A *visible type* is a public type with outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
+LINQ Reporting Engine enables you to use externally visible types in template expressions. A *visible type* is a public type with outer types (if any) are public as well. You can use a data source object of any visible type to pass it to the engine.
 
 However, you can use the identifier of a visible type in template expressions only if the following additional requirements are met:
 
@@ -44,7 +44,7 @@ However, you can use the identifier of a visible type in template expressions on
 
 **Note –** Whereas using generic types' identifiers is forbidden in template expressions, you can use identifiers of nullable types in the shorthand "`T?`" form.
 
-Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by many keys. See "Appendix A. Enumeration Extension Methods" for the examples.
+Also, the engine enables you to use anonymous types in template expressions. Such types are useful while composing expressions with grouping by multiple keys. See "Appendix A. Enumeration Extension Methods" for the examples.
 
 ## Accessing Type Members
 
@@ -86,7 +86,7 @@ LINQ Reporting Engine enables you to use the following built-in extension method
 
 ## Using Operators
 
-The following table contains predefined and user-defined operators that LINQ Reporting Engine allows you to use in template expressions.
+The following table contains predefined and user-defined operators that LINQ Reporting Engine enables you to use in template expressions.
 
 <table class="using operators">
 	<tbody>
@@ -115,7 +115,7 @@ The engine follows operator precedence, associativity, and overload resolution r
 - The indexing of multi-dimensional arrays is not supported.
 - Whereas the object initializer syntax is supported (including objects of anonymous types), the collection initializer syntax is not.
 
-Also, the engine allows you to use lifted operators in template expressions. 
+Also, the engine enables you to use lifted operators in template expressions. 
 
 ## Using Lambda Functions
 
@@ -141,7 +141,7 @@ LINQ Reporting Engine enables you to access `DataTable` objects contained within
 
 ### Working with DataTable and DataView Objects
 
-LINQ Reporting Engine allows you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
+LINQ Reporting Engine enables you to treat `DataTable` and `DataView` objects in template expressions as enumerations of their rows. That is, you can use template expressions evaluated to such objects in `foreach` tags (see "Outputting Sequential Data" for more information).
 
 Also, you can normally apply enumeration extension methods (see "Appendix A. Enumeration Extension Methods" for more information) to `DataTable` and `DataView` objects in template expressions. For example, given that persons are a `DataTable` or `DataView` instance, you can count its rows using the following syntax.
 
@@ -173,7 +173,7 @@ However, you can not use `IDataReader` implementors in template expressions in c
 
 ### Working with IDataRecord Implementors
 
-LINQ Reporting Engine allows you to access the field values of a particular `IDataRecord` implementor by field names using the "." operator in template expressions. To use this feature, one of the following conditions must be met:
+LINQ Reporting Engine enables you to access the field values of a particular `IDataRecord` implementor by field names using the "." operator in template expressions. To use this feature, one of the following conditions must be met:
 
 - The `IDataRecord` implementor represents an iteration variable upon enumerating an `IDataReader` implementor (see "Outputting Sequential Data" for more information).
 - The `IDataRecord` implementor does not implement the `IDataReader` interface.

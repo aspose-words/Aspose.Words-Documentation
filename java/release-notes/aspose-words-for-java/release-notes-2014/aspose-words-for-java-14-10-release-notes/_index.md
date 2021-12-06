@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 14.10 Release Notes
+description: "Aspose.Words for Java 14.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /java/aspose-words-for-java-14-10-release-notes/
@@ -74,7 +75,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
 |WORDSNET-9923 |Chinese letter is changed after conversion form RTF to Pdf |Bug |
 |WORDSNET-10064 |Tables are truncated from the end of PDF pages |Enhancement |
 |WORDSNET-10125 |Logos are misplaced after MHTML to PDF or any other format |Enhancement |
-|WORDSNET-10274 |A Table moves down to the page which causes many more layout issues in PDF |Enhancement |
+|WORDSNET-10274 |A Table moves down to the page which causes a few more layout issues in PDF |Enhancement |
 |WORDSNET-10436 |A Page Break is not preserved during open/save a DOCX |Enhancement |
 |WORDSNET-10509 |A table is rendered at the end of previous page in PDF |Enhancement |
 |WORDSNET-10592 |ParagraphFormat.KeepWithNext = true does not work |Enhancement |

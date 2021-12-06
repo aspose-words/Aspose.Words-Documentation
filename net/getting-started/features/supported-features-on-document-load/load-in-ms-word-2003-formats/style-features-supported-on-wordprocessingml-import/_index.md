@@ -1,5 +1,6 @@
-﻿---
+---
 title: Style Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with style features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-wordprocessingml-import/
@@ -7,7 +8,7 @@ url: /net/style-features-supported-on-wordprocessingml-import/
 
 {{% alert color="primary" %}} 
 
-A style enables you to define a set of formatting that can be reused on several elements in a document. This saves time and enables for a more consistent formatting throughout your document.
+A style allows you to define a set of formatting that can be reused on many elements in a document. This saves time and allows for a more consistent formatting throughout your document.
 
 A style loaded into a document is represented in the Aspose.Words DOM by the Style class. You can access or modify any type of style (both in-built or custom) in a document.
 
@@ -21,8 +22,8 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 
 See the following links in the documentation for further information:
 
-- [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/Document/properties/styles)
-- [Style](https://apireference.aspose.com/words/net/aspose.words/style/)
+- [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
+- [Style](https://apireference.aspose.com/words/net/aspose.words/style)
 - [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -44,7 +45,7 @@ See the following links in the documentation for further information:
 |Style Name |Yes | |- **Style.Name**|
 |Next Style |Yes | |- [Style.NextParagraphStyleName](https://apireference.aspose.com/words/net/aspose.words/style/properties/nextparagraphstylename)|
 |Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
-|Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
+|Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
 |Bullets and Numbering |Yes | |<p>- [Style.List](https://apireference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
 
 ## Document Defaults

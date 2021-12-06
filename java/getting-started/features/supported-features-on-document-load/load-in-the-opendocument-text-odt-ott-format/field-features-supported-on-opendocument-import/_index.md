@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on OpenDocument Import
+description: "Aspose.Words for Java allows you to work with field features supported on OpenDocument Text import."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-opendocument-import/
@@ -7,7 +8,7 @@ url: /java/field-features-supported-on-opendocument-import/
 
 {{% alert color="primary" %}} 
 
-Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first enables you to merge data into a document, the latter displays the current page number of the page where the field appears on.
+Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
 Aspose.Words supports almost all common field types and can perform field update on most field types, even ones with complex content. This includes the TOC (Table of Contents) field. With one call to Document.UpdateFields the TOC field or any other supported field is fully updated. New or existing fields are fully updated by the Aspose.Words field engine. There is a document option to control the culture/locale used during field update. This can be the language setting of the field in the document or the current culture/locale used by the application.
 
@@ -160,7 +161,7 @@ See the following links in the documentation for further information:
 
 ## Mail Merge
 
-The mail merge engine enables you to quickly merge a variety of data into a document. You can merge simple data using simple mail merge as well as complex relational data from a database using merge regions. Both are easy to achieve using Aspose.Words. 
+The mail merge engine allows you to quickly merge a variety of data into a document. You can merge simple data using simple mail merge as well as complex relational data from a database using merge regions. Both are easy to achieve using Aspose.Words. 
 
 Aspose.Words fully supports all of the mail merge features and fields with the exception of the following fields:
 
@@ -243,7 +244,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Text |Yes | | |
 |Hyperlinked Shape or Image |Yes | | |
-|Hyperlink across Multiple Paragraphs |N/A |ODT doesn't support having hyperlinks across a few paragraphs. | |
+|Hyperlink across Multiple Paragraphs |N/A |ODT doesn't support having hyperlinks across multiple paragraphs. | |
 |Hyperlink to a Local Bookmark |Yes | | |
 |Hyperlink to an External Resource |Yes | | |
 |Screen Tip |N/A | | |

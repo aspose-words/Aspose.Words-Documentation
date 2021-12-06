@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 15.1.0 Release Notes
+description: "Aspose.Words for .NET 15.1.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 120
 url: /net/aspose-words-for-net-15-1-0-release-notes/
@@ -44,7 +45,7 @@ Comment numbering in rendering
 |WORDSNET-11195|UpdateFields does not function on CardText switch for larger numbers|Bug|
 |WORDSNET-11202|Paragraph SpaceBefore is imported incorrectly in Aspose.Words DOM|Bug|
 |WORDSNET-11215|Content moving to the next line in merged document|Bug|
-|WORDSNET-11216|Table cell content splitting to many lines after merge|Bug|
+|WORDSNET-11216|Table cell content splitting to multiple lines after merge|Bug|
 |WORDSNET-11217|Content moving to the next line in merged document|Bug|
 |WORDSNET-11218|Text splitting to 2 lines after merge|Bug|
 |WORDSNET-11219|Page break issue on merged document|Bug|

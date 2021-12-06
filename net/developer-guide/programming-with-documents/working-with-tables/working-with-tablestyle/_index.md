@@ -15,6 +15,6 @@ A table style can be created using the StyleCollection.Add method. The code exam
 
 ## Defining Conditional Formatting
 
-Conditional formatting can be defined for all possible table area defined under ConditionalStyleType enumeration type. The following code example demonstrates how to define conditional formatting for header row of the table.
+Conditional formatting can be defined for all possible table area defined under ConditionalStyleType enumeration type. The following code example shows how to define conditional formatting for header row of the table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-DefineConditionalFormatting.cs" >}}

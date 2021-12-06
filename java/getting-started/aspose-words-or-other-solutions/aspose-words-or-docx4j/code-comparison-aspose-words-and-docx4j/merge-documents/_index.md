@@ -1,5 +1,6 @@
 ---
 title: Merge Documents
+description: "Aspose.Words for Java allows you to merge documents easily and fast instead of using docx4j."
 type: docs
 weight: 90
 url: /java/merge-documents/
@@ -96,12 +97,10 @@ public static void main(String[] args) throws Docx4JException {
 
 ## Download Running Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/mergedocs/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/mergedocs)
 
-For more details, visit [Appending Documents](/words/java/appending-documents/).
+For more details, visit [Appending Documents](/words/java/insert-and-append-documents/).

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words Java 2.0.0.0 New Release Release Notes
+description: "Aspose.Words Java 2.0.0.0 New Release Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 60
 url: /java/aspose-words-java-2-0-0-0-new-release-release-notes/
@@ -16,7 +17,7 @@ This page contains release notes for [Aspose.Words Java 2.0.0.0 New Release](htt
   Mail merge with images.
   Added methods to detect if a particular node is insert or delete revision in a document. 
 
-This Aspose.Words for Java release, long awaited by numerous customers, includes full support for drawing objects in documents. The level of support for drawing objects matches functionality available in Aspose.Words for .NET 4.0.
+This Aspose.Words for Java release, long awaited by many customers, includes full support for drawing objects in documents. The level of support for drawing objects matches functionality available in Aspose.Words for .NET 4.0.
 
 was updated. was updated.
 

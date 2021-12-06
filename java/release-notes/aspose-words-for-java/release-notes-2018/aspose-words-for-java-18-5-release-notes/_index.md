@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 18.5 Release Notes
+description: "Aspose.Words for Java 18.5 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 80
 url: /java/aspose-words-for-java-18-5-release-notes/
@@ -120,7 +121,7 @@ This section lists public API changes that were introduced in Aspose.Words 18.5.
 
 ### Added Public Property StructuredDocumentTag.Color
 
-This property enables to control the ***Color*** of a content control.
+This property allows to control the ***Color*** of a content control.
 
 {{< highlight csharp >}}
 /// <summary>

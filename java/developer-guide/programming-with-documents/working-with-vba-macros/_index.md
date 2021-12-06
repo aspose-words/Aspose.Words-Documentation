@@ -13,13 +13,13 @@ Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful 
 
 ## Creating a VBA Project
 
-Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/words/java/com.aspose.words/document#VbaProject) property to get or set VbaProject in the document. The following code example shows how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
+Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/words/java/com.aspose.words/document#VbaProject) property to get or set VbaProject in the document. The following code example demonstrates how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CreateVbaProject.java" >}}
 
 ## Read Macros
 
-The following code example shows how to read VBA Macros from the document.
+The following code example demonstrates how to read VBA Macros from the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-ReadVbaMacros.java" >}}
 
@@ -37,6 +37,6 @@ The following code example demonstrates how to modify VBA Macros from the docume
 
 ## Clone VBA Module
 
-` `The following code example shows how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/java/com.aspose.words/vbaproject#deepClone()) property which creates a copy of the existing project. 
+` `The following code example demonstrates how to clone the VBA Module using the [VbaModule.Clone](https://apireference.aspose.com/words/java/com.aspose.words/vbaproject#deepClone()) property which creates a copy of the existing project. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CloneVbaModule.java" >}}

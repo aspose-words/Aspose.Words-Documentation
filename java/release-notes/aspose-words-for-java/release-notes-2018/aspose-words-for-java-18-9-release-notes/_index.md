@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 18.9 Release Notes
+description: "Aspose.Words for Java 18.9 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 40
 url: /java/aspose-words-for-java-18-9-release-notes/
@@ -27,7 +28,7 @@ There are 85 improvements and fixes in this regular monthly release. The most no
 - Improved output image quality when rendering metafiles with raster operations set
 - Fixed handling of glyphs without outlines when parsing glyph data while rendering
 - Fixed a bug with a glow effect, if the specified glow size is less than 10
-- Fixed many problems in DrawingML Charts rendering: incorrect default axis color, bug with the date format for axis values, bug with rendering of the trend line with unsorted x-values
+- Fixed several problems in DrawingML Charts rendering: incorrect default axis color, bug with the date format for axis values, bug with rendering of the trend line with unsorted x-values
 - Improved rendering of the mathematical element "Apostrophe" of the MathML object 
 - Improved justification of Asian texts
 - Improved rendering of revisions in balloons

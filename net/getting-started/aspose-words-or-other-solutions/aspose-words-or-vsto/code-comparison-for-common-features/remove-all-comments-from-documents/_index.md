@@ -1,5 +1,6 @@
 ---
 title: Remove All Comments from Documents
+description: "Aspose.Words for .NET allows you to remove all comments from a document easily and fast instead of using VSTO."
 type: docs
 weight: 130
 url: /net/remove-all-comments-from-documents/
@@ -28,14 +29,12 @@ NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
 comments.Clear();
 {{< /highlight >}}
 
-For more details you can go [here](https://docs.aspose.com/words/net/working-with-comments/#how-to-extract-or-remove-comments)
+For more details you can go [here](/words/net/working-with-comments/#how-to-extract-or-remove-comments)
 
 ## Download Running Code Example
 
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
 ## Sample Code
 
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto#Aspose.Words%20Vs%20VSTO%20Words/Remove%20All%20Comments%20from%20Documents/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Code%20Comparison%20of%20Common%20Features/Remove%20All%20Comments%20from%20Documents)

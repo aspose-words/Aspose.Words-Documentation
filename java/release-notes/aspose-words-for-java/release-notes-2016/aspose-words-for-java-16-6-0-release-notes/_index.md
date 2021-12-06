@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Java 16.6.0 Release Notes
+description: "Aspose.Words for Java 16.6.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 60
 url: /java/aspose-words-for-java-16-6-0-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-16-6-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 16.6.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.6.0/)
+This page contains release notes for [Aspose.Words for Java 16.6.0](https://repository.aspose.com/repo/com/aspose/aspose-words/16.6.0/)
 
 {{% /alert %}} 
 
@@ -157,7 +158,7 @@ This section lists public API changes that were introduced in Aspose.Words 16.6.
 
 ### Added Support for Outer Document Insertion to LINQ Reporting Engine
 
-WORDSNET-13329 has been resolved. The [Inserting Documents Dynamically](https://docs.aspose.com/words/java/inserting-documents-dynamically/) section was added to the LINQ Reporting Engine's documentation.
+WORDSNET-13329 has been resolved. The [Inserting Documents Dynamically](/words/java/inserting-documents-dynamically/) section was added to the LINQ Reporting Engine's documentation.
 
 ### Fast Extraction from DOC Format via PlainTextDocument Class is Faster by a Factor of Ten (at a cost)
 

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Numbering Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with numbering features supported on OpenDocument Text import."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-opendocument-import/
@@ -7,7 +8,7 @@ url: /net/numbering-features-supported-on-opendocument-import/
 
 {{% alert color="primary" %}} 
 
-A list used in a document is actually made up of numerous complex parts. List and their properties are fully supported by Aspose.Words.
+A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words.
 
 There are two main types of lists:
 
@@ -22,9 +23,9 @@ You can find what paragraphs a list is applied to and work with them manually. T
 
 See the following links in the documentation for further information:
 
-- [Paragraph.IsListItem](https://apireference.aspose.com/words/net/aspose.words/node/properties/islistitem)
-- [Paragraph.ListFormat](https://apireference.aspose.com/words/net/aspose.words/node/properties/listformat)
-- [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/node/properties/listlabel)
+- [Paragraph.IsListItem](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/islistitem)
+- [Paragraph.ListFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listformat)
+- [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words.lists/listlabel)
 - [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
 
 [Jump to this location in the export section](/words/net/numbering-features-supported-on-opendocument-export/)

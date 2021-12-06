@@ -34,13 +34,13 @@ The following code demonstrates how to achieve this in Aspose.Words. The **Impor
 
 The following code example provides a method to import data from the DataTable and insert it into a new table using the DocumentBuilder.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-ImportTableFromDataTable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-importTableFromDataTable.java" >}}
 
 The method can then be easily called using your **DocumentBuilder** and data.
 
-The following code example demonstrates how to import the data from a DataTable and insert it into a new table in the document.
+The following code example shows how to import the data from a DataTable and insert it into a new table in the document.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-BuildTableFromDataTable.java" >}}
 
 The following table is produced by running the code above:
 

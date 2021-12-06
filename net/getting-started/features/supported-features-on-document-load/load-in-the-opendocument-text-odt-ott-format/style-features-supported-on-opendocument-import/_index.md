@@ -1,5 +1,6 @@
-﻿---
+---
 title: Style Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with style features supported on OpenDocument Text import."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-opendocument-import/
@@ -7,7 +8,7 @@ url: /net/style-features-supported-on-opendocument-import/
 
 {{% alert color="primary" %}} 
 
-A style allows you to define a set of formatting that can be reused on multiple elements in a document. This saves time and enables for a more consistent formatting throughout your document.
+A style allows you to define a set of formatting that can be reused on many elements in a document. This saves time and allows for a more consistent formatting throughout your document.
 
 A style loaded into a document is represented in the Aspose.Words DOM by the Style class. You can access or modify any type of style (both in-built or custom) in a document.
 
@@ -24,14 +25,14 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 See the following links in the documentation for further information:
 
 - [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
-- [Style](https://apireference.aspose.com/words/net/aspose.words/style/)
+- [Style](https://apireference.aspose.com/words/net/aspose.words/style)
 - [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/StyleType/)|
-|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType/)|
-|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType/)|
+|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
+|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
+|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/StyleType)|
 |Table Style |N/A | | |
 
 ## General

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Remove Header and Footer from Documents
+description: "Aspose.Words for Java allows you to remove headers or footers in a document easily and fast instead of using docx4j."
 type: docs
 weight: 30
 url: /java/remove-header-and-footer-from-documents/
@@ -44,7 +45,7 @@ for (Section section : doc.getSections())
 
 ## Docx4j - Remove Header Footer from Documents
 
-Examples demonstrates how header and footer can be removed using docx4j library.
+Examples shows how header and footer can be removed using docx4j library.
 
 **Java**
 
@@ -83,7 +84,7 @@ public static void removeHFFromFile(File f) throws Exception {
 	for (SectPr sectPr : finder.getSectPrList()) {
 		sectPr.getEGHdrFtrReferences().clear();
 	}
-
+	
 	// Remove rels
 	List<Relationship> hfRels = new ArrayList<Relationship>();
 	for (Relationship rel : mdp.getRelationshipsPart().getRelationships().getRelationship() ) {
@@ -101,12 +102,10 @@ public static void removeHFFromFile(File f) throws Exception {
 
 ## Download Running Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/removeheaderfooter/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/removeheaderfooter)
 
 {{% alert color="primary" %}} 

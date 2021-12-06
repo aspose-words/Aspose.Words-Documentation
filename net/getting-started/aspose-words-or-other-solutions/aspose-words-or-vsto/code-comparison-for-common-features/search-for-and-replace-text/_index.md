@@ -1,5 +1,6 @@
 ---
-title: Search for and Replace text
+title: Find and Replace Text
+description: "Aspose.Words for .NET allows you to find and replace text from a document part easily and fast instead of using VSTO."
 type: docs
 weight: 90
 url: /net/search-for-and-replace-text/
@@ -31,6 +32,5 @@ doc.Save("Search and Replace.doc");
 
 ## Download Sample Code
 
-- [Codeplex](http://goo.gl/D3Jmkl)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Search.for.and.Replace.text.Asose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Search%20for%20and%20Replace%20text%20\(Asose.Words\).zip)

@@ -53,19 +53,19 @@ The following code example demonstrates how to modify content controls of type 
 
 Microsoft Word documents may contain various characters that have a special meaning. Normally they are used for formatting purposes and are not drawn in the normal mode. You can make them visible if you click the Show/Hide Formatting Marks button located on the Standard toolbar. Sometimes you may need to add or remove characters to/from the text. For instance, when obtaining text programmatically from the document, Aspose.Words preserves most of the control characters, so if you need to work with this text you should probably remove or replace the characters.
 
-The [ControlChar](http://www.aspose.com/api/net/words/aspose.words/controlchar) class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string [ControlChar.LineBreak](http://www.aspose.com/api/net/words/aspose.words/controlchar/fields/linebreak) and char [ControlChar.LineBreakChar](http://www.aspose.com/api/net/words/aspose.words/controlchar/fields/linebreakchar) has the same value. The following code example demonstrates how to use control characters.
+The [ControlChar](https://apireference.aspose.com/words/net/aspose.words/controlchar) class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string [ControlChar.LineBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/linebreak) and char [ControlChar.LineBreakChar](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/linebreakchar) has the same value. The following code example demonstrates how to use control characters.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-ConvertUtil-UtilityClasses-UseControlCharacters.cs" >}}
 
 ## Binding Content Control to Custom XML Parts
 
-You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example shows how to bind content control to custom XML parts. 
+You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example demonstrates how to bind content control to custom XML parts. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-BindSDTtoCustomXmlPart.cs" >}}
 
 ## XMLMapping of Structured Document Tag Range
 
-You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the StructuredDocumentTagRangeStart.XmlMapping property. However, the [SetMapping](https://apireference.aspose.com/words/net/aspose.words.markup/xmlmapping/methods/setmapping) method can be used to map a structured document tag range to XML data. The following code example shows how to set XML mapping. 
+You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the StructuredDocumentTagRangeStart.XmlMapping property. However, the [SetMapping](https://apireference.aspose.com/words/net/aspose.words.markup/xmlmapping/methods/setmapping) method can be used to map a structured document tag range to XML data. The following code example demonstrates how to set XML mapping. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-StructuredDocumentTagRangeStartXmlMapping.cs" >}}
 
@@ -100,6 +100,6 @@ Note that only Linked and Character styles can be applied to content control. An
 
 ## Working with Repeating Section Content Control
 
-The repeating section content control enables repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://apireference.aspose.com/words/net/aspose.words.markup/sdttype) provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
+The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://apireference.aspose.com/words/net/aspose.words.markup/sdttype) provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-CreatingTableRepeatingSectionMappedToCustomXmlPart.cs" >}}

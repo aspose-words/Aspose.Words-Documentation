@@ -1,6 +1,6 @@
 ﻿---
 title: FIPS Mode
-description: "Aspose.Words for Java uses numerous cryptography and hash algorithms when processing documents to comply with FIPS standards."
+description: "Aspose.Words for Java uses several cryptography and hash algorithms when processing documents to comply with FIPS standards."
 type: docs
 weight: 80
 url: /java/fips-mode/

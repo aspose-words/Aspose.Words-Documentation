@@ -1,11 +1,12 @@
 ---
 title: Umbraco Word Import Module
+description: "Read contents of any Word processing document using Aspose.Words Umbraco Word Import Module."
 type: docs
 weight: 20
 url: /net/umbraco-word-import-module/
 ---
 
-Umbraco Word Import is an open source module from [Aspose](http://www.aspose.com/) that allow developers to get/read contents of any Word processing document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by [Aspose.Word](http://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control and **Import from Word** button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.
+Umbraco Word Import is an open source module from [Aspose](https://www.aspose.com/) that allow developers to get/read contents of any Word processing document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by [Aspose.Word](http://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control and **Import from Word** button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.
 
 ## System Requirements and Supported Platforms
 
@@ -27,7 +28,6 @@ The module is supported on all versions of
 
 You can download Aspose .NET Word Import for Umbraco module from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/releases)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposeumbraco/files/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
@@ -74,7 +74,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/issues)
 - [Sourceforge ](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
@@ -91,7 +90,6 @@ Import from Word macro ia an open source and their source code is available on t
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco)
 - [Sourceforge ](https://sourceforge.net/p/asposeumbraco/code/ci/master/tree/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/src)

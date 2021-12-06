@@ -1,5 +1,6 @@
-﻿---
+---
 title: Table Features Supported on HTML Export
+description: "Aspose.Words for Java allows you to work with table features supported when saving to HTML-based format."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-html-export/
@@ -82,7 +83,7 @@ Currently, borders are output on each cell as style attribute border-XXX-style, 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Cell Margins|Yes|Exported as padding-XXX on each cell.| |
-|Borders|Yes|<p>Supported except for diagonal borders.<br><br>Exported as &lt;td&gt; style attribute border-XXX-style, border-XXX-width etc.</p><p>Not all line types are exported. For reference, multiple line types supported by Aspose.Words are mentioned below.</p><p>CSS - LineStyle</p><p>'solid' - LineStyle.Single</p><p>'dashed' - LineStyle.DashSmallGap</p><p>'dotted' - LineStyle.Dot</p><p>'double' - LineStyle.Double</p><p>'groove' - LineStyle.Emboss3D</p><p>'ridge' - LineStyle.Engrave3D</p><p>'none' - LineStyle.None</p>| |
+|Borders|Yes|<p>Supported except for diagonal borders.<br><br>Exported as &lt;td&gt; style attribute border-XXX-style, border-XXX-width etc.</p><p>Not all line types are exported. For reference, a few line types supported by Aspose.Words are mentioned below.</p><p>CSS - LineStyle</p><p>'solid' - LineStyle.Single</p><p>'dashed' - LineStyle.DashSmallGap</p><p>'dotted' - LineStyle.Dot</p><p>'double' - LineStyle.Double</p><p>'groove' - LineStyle.Emboss3D</p><p>'ridge' - LineStyle.Engrave3D</p><p>'none' - LineStyle.None</p>| |
 |Shading|Yes|Only solid fill is supported. <br><br>Exported as "background-color" style attribute on &lt;td&gt;.| |
 |Wrap Text|Planned| | |
 |Fit Text|Planned| | |

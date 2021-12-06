@@ -1,5 +1,6 @@
-﻿---
+---
 title: Joining Tables in Jython
+description: "Jython: Joining Tables using Aspose.Words for Java."
 type: docs
 weight: 65
 url: /java/joining-tables-in-jython/
@@ -44,5 +45,4 @@ if __name__ == '__main__':
 
 Download running code from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

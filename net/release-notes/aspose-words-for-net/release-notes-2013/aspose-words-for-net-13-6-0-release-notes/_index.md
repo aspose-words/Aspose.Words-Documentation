@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 13.6.0 Release Notes
+description: "Aspose.Words for .NET 13.6.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /net/aspose-words-for-net-13-6-0-release-notes/
@@ -128,7 +129,7 @@ There are 132 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-8209|AcceptAllRevisions throws NullReferenceException|Exception|
 |WORDSNET-8277|Aspose.Words.FileCorruptedException occurs when loading RTF file|Exception|
 |WORDSNET-8341|Aspose.Words.FileCorruptedException while loading Docx|Exception|
-|WORDSNET-8351|System.InvalidCastException occurs when rendering a DOCX a few times in a loop|Exception|
+|WORDSNET-8351|System.InvalidCastException occurs when rendering a DOCX many times in a loop|Exception|
 |WORDSNET-8394|Aspose.Words.FileCorruptedException occurs when loading DOC file|Exception|
 |WORDSNET-8395|System.ArgumentException is thrown when rendering a DrawingML to PNG/TIFF|Exception|
 |WORDSNET-8422|System.ArgumentOutOfRangeException occurs during saving to XAML|Exception|

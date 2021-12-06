@@ -1,5 +1,6 @@
 ---
 title: Document Features Supported on OpenDocument Export
+description: "Aspose.Words for Java allows you to work with document features supported when saving to OpenDocument Text format."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-opendocument-export/
@@ -15,7 +16,7 @@ Note that there may appear to be more styles in the output ODT document than in 
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/words/java/saving-a-document/)
+- [Save a Document](/words/java/save-a-document/)
 - [OdtSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/odtsaveoptions)
 
 [Jump to this location in the import section](/words/java/document-features-supported-on-opendocument-import/)

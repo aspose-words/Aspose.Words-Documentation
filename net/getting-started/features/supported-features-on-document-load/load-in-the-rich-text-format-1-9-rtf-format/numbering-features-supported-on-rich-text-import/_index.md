@@ -1,5 +1,6 @@
-﻿---
+---
 title: Numbering Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with numbering features supported on Rich Text import."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-rich-text-import/
@@ -27,7 +28,7 @@ See the following links in the documentation for further information:
 - [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/listlabel)
 - [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
 
-[Jump to this location in the export section](https://docs.aspose.com/words/net/numbering-features-supported-on-rich-text-export/)
+[Jump to this location in the export section](/words/net/numbering-features-supported-on-rich-text-export/)
 
 {{% /alert %}} 
 
@@ -43,14 +44,14 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Label Alignment |Yes | |- [ListLevel.Alignment](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlevel.alignment)|
+|Label Alignment |Yes | |- [ListLevel.Alignment](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/alignment)|
 |Picture Bullet |Yes |Picture bullets are supported, however there is currently no way to set a new picture bullet for a list item. <br><br>Consider creating a list with the picture bullet first in the document using Microsoft Word and then apply this list to the required paragraphs. | |
-|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlevel.restartafterlevel)|
+|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/restartafterlevel)|
 |Bullet Character |Yes | | |
-|Label/Format String |Yes | |- [ListLabel.LabelString](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlabel.labelstring)|
-|Number Format |Yes | |- [ListLevel.NumberFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlevel.numberformat)|
+|Label/Format String |Yes | |- [ListLabel.LabelString](https://apireference.aspose.com/words/net/aspose.words.lists/listlabel/properties/labelstring)|
+|Number Format |Yes | |- [ListLevel.NumberFormat](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/numberformat)|
 |Paragraph Properties |Yes | | |
-|Font Properties |Yes | |- [ListLevel.Font](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlevel.font)|
-|Linked Paragraph Style |Yes | |- [ListLevel.LinkedStyle](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlevel.linkedstyle)|
-|Starting Value |Yes | |- [ListLevel.StartAt](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlevel.startat)|
-|Text After |Yes | |- [ListLevel.TrailingCharacter](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/listlevel.trailingcharacter)|
+|Font Properties |Yes | |- [ListLevel.Font](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/font)|
+|Linked Paragraph Style |Yes | |- [ListLevel.LinkedStyle](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/linkedstyle)|
+|Starting Value |Yes | |- [ListLevel.StartAt](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/startat)|
+|Text After |Yes | |- [ListLevel.TrailingCharacter](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel/properties/trailingcharacter)|

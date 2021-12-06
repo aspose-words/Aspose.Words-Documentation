@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Android via Java 20.6 Release Notes
+description: "Aspose.Words for Android via Java 20.6 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /java/aspose-words-for-android-via-java-20-6-release-notes/
@@ -22,7 +23,7 @@ There are 100+ improvements and fixes in this regular monthly release. The most 
 - MarkdownSaveOptions class is introduced.
 - Provided options to control JSON simple values’ recognition for LINQ Reporting Engine.
 
-Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the [Aspose.Words for .NET 20.6](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.6+Release+Notes) and [Aspose.Words for Java 20.6](/words/java/aspose-words-for-java-20-6-release-notes/) are also included in this 'Aspose.Words for Android via Java' 20.6.
+Since the code base of 'Aspose.Words for Android via Java' matches the code of relevant .NET and Java versions, most of the changes, enhancements, and fixes included in the [Aspose.Words for .NET 20.6](/words/net/aspose-words-for-net-20-6-release-notes/) and [Aspose.Words for Java 20.6](/words/java/aspose-words-for-java-20-6-release-notes/) are also included in this 'Aspose.Words for Android via Java' 20.6.
 
 ## All Changes
 

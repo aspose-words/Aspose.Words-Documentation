@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 17.3.0 Release Notes
+description: "Aspose.Words for Java 17.3.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 100
 url: /java/aspose-words-for-java-17-3-0-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-17-3-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 17.3.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.3.0/)
+This page contains release notes for [Aspose.Words for Java 17.3.0](https://repository.aspose.com/repo/com/aspose/aspose-words/17.3.0/)
 
 {{% /alert %}}
 
@@ -92,12 +93,12 @@ There are 72 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14859|Documnte.RemoveUnusedResources throws System.ArgumentOutOfRangeException|Exception|
 |WORDSNET-14895|Aspose.Words.FileCorruptedException is thrown while loading Doc|Exception|
 |WORDSNET-14896|System.ArgumentOutOfRangeException is thrown while saving Doc to Html|Exception|
-|WORDSNET-12412|Add MailMergeCleanupOptions option to remove empty row|[Feature](https://docs.aspose.com/words/java/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/)|
+|WORDSNET-12412|Add MailMergeCleanupOptions option to remove empty row|[Feature](/words/java/clean-up-before-or-during-mail-merge/)|
 |WORDSNET-12487|Cell's content are warped incorrectly in output Pdf|Feature|
 |WORDSNET-14389|PDF output is incorrect for 2 text columns|Feature|
 |WORDSNET-14489|Add feature to set background color of table row using Linq Reporting Engine|Feature|
 |WORDSNET-14600|Insert image dynamically using Linq without change size of textbox|Feature|
-|WORDSNET-14602|Justification of OfficeMath object|[Feature](https://docs.aspose.com/words/java/working-with-officemath/)|
+|WORDSNET-14602|Justification of OfficeMath object|[Feature](/words/java/working-with-officemath/)|
 |WORDSNET-14611|Obtain type of the MathObject|Feature|
 |WORDSNET-14627|Add feature to define variables in LINQ Reporting template|Feature|
 |WORDSNET-14745|Provide ability to specify locale at Field level|[Feature]()|
@@ -145,7 +146,7 @@ The following sections of the engine's documentation were added/updated to descr
 
 - [Working with DataRow and DataRowView Objects](/words/java/working-with-datatable-row-objects/)
 - [Inserting Images Dynamically](/words/java/inserting-images-dynamically/)
-- [Setting Text Background Color Dynamically](https://docs.aspose.com/words/java/setting-background-color-dynamically/)
+- [Setting Text Background Color Dynamically](/words/java/setting-background-color-dynamically/)
 - [Using Variables](/words/java/using-variables/)
 - [In-Table List Template with Running (Progressive) Total](https://docs.asposeptyltd.com/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-InTableListTemplatewithRunningProgressiveTotal) (see In-Table List Template with Running (Progressive) Total).
 
@@ -218,7 +219,7 @@ Mimic MS Word VBA behavior:
 
 ### WORDSNET-14745 - Provided Ability to Specify Locale at Field Level
 
-As per customer's request, we have added a property that enables to get/set field's locale:
+As per customer's request, we have added a property that allows to get/set field's locale:
 
 {{< highlight csharp >}}
 /**

@@ -1,5 +1,6 @@
 ﻿---
 title: Document to PDF Conversion in PHP
+description: "Converting documents using Aspose.Words for .NET in PHP using COM."
 type: docs
 weight: 20
 url: /net/document-to-pdf-conversion-in-php/
@@ -12,13 +13,13 @@ Document to PDF Conversion Example
 **PHP Code**
 
 {{< highlight php >}}
-        $dataDir = '.';
-         $comHelper = new \COM("Aspose.Words.ComHelper");
-        $doc = $comHelper->Open($dataDir."/Template.doc");
+$dataDir = '.';
+$comHelper = new \COM("Aspose.Words.ComHelper");
+$doc = $comHelper->Open($dataDir."/Template.doc");
 
-        // Save the document in PDF format.
-        $doc->Save($dataDir . "/Doc2PdfSave Out.pdf");
-        print "Document converted to PDF successfully.\nFile saved at " . $dataDir . "Doc2PdfSave Out.pdf" . PHP_EOL;
+// Save the document in PDF format.
+$doc->Save($dataDir . "/Doc2PdfSave Out.pdf");
+print "Document converted to PDF successfully.\nFile saved at " . $dataDir . "Doc2PdfSave Out.pdf" . PHP_EOL;
 {{< /highlight >}}
 
 ## Download Running Code
@@ -26,4 +27,3 @@ Document to PDF Conversion Example
 Download **Document to PDF Conversion Example (Aspose.Words)** from any of the below mentioned social coding sites:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Plugins/Aspose_Words_NET_for_PHP/src/aspose/words/quickstart/Doc2Pdf.php)
-- [CodePlex](https://asposenetphp.codeplex.com/SourceControl/latest#Aspose.Words-for-.NET_for_PHP/src/aspose/words/quickstart/Doc2Pdf.php)

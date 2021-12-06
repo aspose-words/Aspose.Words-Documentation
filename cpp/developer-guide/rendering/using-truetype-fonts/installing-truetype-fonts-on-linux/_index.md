@@ -1,6 +1,6 @@
 ﻿---
 title: Install TrueType Fonts on Linux
-description: "Aspose.Words for C++ enables rendering a document created using Microsoft Word on a Linux machine with the best accuracy. To accomplish this, copy font files from a Windows machine or Install a TrueType font package onto your Linux machine."
+description: "Aspose.Words for C++ allows rendering a document created using Microsoft Word on a Linux machine with the best accuracy. To accomplish this, copy font files from a Windows machine or Install a TrueType font package onto your Linux machine."
 type: docs
 weight: 20
 aliases: [/cpp/installing-truetype-fonts-on-linux/]
@@ -9,7 +9,7 @@ url: /cpp/install-truetype-fonts-on-linux/
 
 Most often, you will use Aspose.Words to convert DOC or DOCX documents to PDF format. If you need to do this on a Linux machine, this topic will help you to learn how to ensure Aspose.Words is rendering your documents with the best accuracy.
 
-Most frequently, the DOC and DOCX documents, which need to be converted were created using Microsoft Word, on a Windows or Mac OS operating system. Therefore, most fonts used in DOC and DOCX documents are "Windows fonts" or "Office fonts", that are the fonts installed with Microsoft Windows or Microsoft Office. These fonts include Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings, and numerous others.
+Most frequently, the DOC and DOCX documents, which need to be converted were created using Microsoft Word, on a Windows or Mac OS operating system. Therefore, most fonts used in DOC and DOCX documents are "Windows fonts" or "Office fonts", that are the fonts installed with Microsoft Windows or Microsoft Office. These fonts include Arial, Calibri, Cambria, Century Gothic, Courier New, Garamond, Tahoma, Verdana, Wingdings, and many others.
 
 The problem is that the TrueType fonts listed above are not installed by default on Linux distributions. If you take a typical DOCX document that is formatted with the Cambria font and try to convert it to PDF format on Linux, Aspose.Words will use a different font because Cambria is not available. As a result, the PDF document will look different, in comparison to the original DOCX document. To make sure that documents converted by Aspose.Words appear as close as possible to the original, you need to install "Windows fonts" on your Linux system.
 
@@ -20,7 +20,7 @@ There are two main ways to get TrueType fonts on a Linux system:
 
 ## Copy Fonts from a Windows Machine
 
-An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the C:\Windows\Fonts directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings/) class in Aspose.Words.
+An easy and quick way to get TrueType fonts on a Linux system is to copy .TTF and .TTC files from the C:\Windows\Fonts directory on a Windows machine to some directory on your Linux machine. You do not need to install or register these fonts on Linux in any way; you just need to specify the location of the fonts using the [FontSettings](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_settings) class in Aspose.Words.
 
 {{% alert color="primary" %}} 
 

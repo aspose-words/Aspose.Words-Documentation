@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 20.10 Release Notes
+description: "Aspose.Words for C++ 20.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 7
 url: /cpp/aspose-words-for-cpp-20-10-release-notes/
@@ -236,7 +237,7 @@ docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 
 Related issue: WORDSNET-20809
 
-This new LoadOption enables reducing memory usage.
+This new LoadOption allows reducing memory usage.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets whether to convert metafile (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) images to <see cref="FileFormat.Png" /> image format.
@@ -748,4 +749,4 @@ The indexer of VbaReferenceCollection is exposed publicly for reading:
 public VbaReference this[int index]
 {{< /highlight >}}
 
-Please find usage examples here [https://docs.aspose.com/words/cpp/aspose-words-for-cpp-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/cpp/aspose-words-for-cpp-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
+Please find usage examples here [https://docs.aspose.com/words/cpp/aspose-words-for-cpp-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](/words/cpp/aspose-words-for-cpp-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)

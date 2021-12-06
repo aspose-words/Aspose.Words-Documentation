@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 13.3.0 Release Notes
+description: "Aspose.Words for Java 13.3.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 90
 url: /java/aspose-words-for-java-13-3-0-release-notes/
@@ -62,8 +63,8 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSNET-7796 |Image do not preserve in output doc/docx |Bug |
 |WORDSNET-7801 |Unable to Open RTF Document |Bug |
 |WORDSNET-7824 |Font size of Hebrew content do not preserve in output document. |Bug |
-|WORDSNET-7826 |Link between several grouped textboxes breaks when save to Docx |Bug |
-|WORDSNET-7827 |Link between a few grouped textboxes breaks after merging many document |Bug |
+|WORDSNET-7826 |Link between multiple grouped textboxes breaks when save to Docx |Bug |
+|WORDSNET-7827 |Link between multiple grouped textboxes breaks after merging multiple document |Bug |
 |WORDSNET-7836 |Document.HasRevisions returns false but document contain revisions |Bug |
 |WORDSNET-7837 |Document.AcceptAllRevisions do not work with Paragraph formatting changes |Bug |
 |WORDSNET-7851 |Table is not preserved during open/save RTF |Bug |

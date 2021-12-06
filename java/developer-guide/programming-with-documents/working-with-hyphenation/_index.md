@@ -1,6 +1,6 @@
 ﻿---
 title: Working with Hyphenation
-description: "Aspose.Words for Java enables to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
+description: "Aspose.Words for Java allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 85
 url: /java/working-with-hyphenation/
@@ -10,13 +10,13 @@ Sometimes it is necessary to use hyphenation for a more compact arrangement of t
 
 At the present time, hyphenation is not used as often as it used to be, especially in English texts. Nevertheless, the use of this feature can have a serious impact on user documents – hyphenation affects the layout and, as a result, the appearance of the output files, for example, in PDF format.
 
-For correct splitting of words, language-specific hyphenation dictionaries are used. Aspose.Words uses advanced algorithms to work with such dictionaries and enables you to get the same hyphenation as in Microsoft Word.
+For correct splitting of words, language-specific hyphenation dictionaries are used. Aspose.Words uses advanced algorithms to work with such dictionaries and allows you to get the same hyphenation as in Microsoft Word.
 
 ## Hyphenation Dictionaries
 
 Since different languages use different norms and rules for word hyphenation, the optimal solution for correct hyphenation is to use special dictionaries. Aspose.Words uses OpenOffice dictionaries.
 
-For spell checking, OpenOffice uses the [Hunspell library](http://hunspell.github.io/), which is a generalization of TeX’s hyphenation algorithm. This algorithm enables for automatic non-standard hyphenation using competing standard and custom hyphenation patterns. Hunspell uses the [Hyphen](https://github.com/hunspell/hyphen) for hyphenation.
+For spell checking, OpenOffice uses the [Hunspell library](http://hunspell.github.io/), which is a generalization of TeX’s hyphenation algorithm. This algorithm allows for automatic non-standard hyphenation using competing standard and custom hyphenation patterns. Hunspell uses the [Hyphen](https://github.com/hunspell/hyphen) for hyphenation.
 
 {{% alert color="primary" %}}
 
@@ -43,7 +43,7 @@ The following features of Aspose.Words algorithms should be taken into account:
 
 ## Loading Hyphenation Dictionaries
 
-To use the hyphenation feature, first register a hyphenation dictionary.The following code example demonstrates how to load hyphenation dictionaries for the specified languages from a file:
+To use the hyphenation feature, first register a hyphenation dictionary.The following code example shows how to load hyphenation dictionaries for the specified languages from a file:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromFile.java" >}}
 
@@ -53,7 +53,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-The following code example demonstrates how to load hyphenation dictionaries for the specified language from a stream:
+The following code example shows how to load hyphenation dictionaries for the specified language from a stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-HyphenateWords-LoadHyphenationDictionaryFromStream.java" >}}
 

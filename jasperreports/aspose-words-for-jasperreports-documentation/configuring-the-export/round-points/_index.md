@@ -1,5 +1,6 @@
 ---
 title: Round Points
+description: "Aspose Words for JasperReports can try to round all the coordinates of objects in a report."
 type: docs
 weight: 120
 url: /jasperreports/round-points/

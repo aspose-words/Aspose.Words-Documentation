@@ -1,17 +1,18 @@
 ﻿---
 title: License Aspose.Words for Reporting Services
+description: "This page describes licensing details of the Aspose.Words for Reporting Services."
 type: docs
 weight: 50
 url: /reportingservices/license-aspose-words-for-reporting-services/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Once you are happy with the evaluation, [buy a license](http://www.aspose.com/purchase/default.aspx). Before purchasing make sure you understand and agree to the license subscription terms.
 
 The license emailed to you when the order has been paid. The license is a clear text, digitally signed XML file and contains information such as the client name, the purchased product and the type of the license. Do not modify the content of the license file as it will invalidate the license.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Licensing a Server
 
@@ -56,7 +57,7 @@ Dim license As Aspose.Words.ReportingServices.License = New Aspose.Words.Reporti
 license.SetLicense("Aspose.Words.Reporting.Services.lic")
 {{< /highlight >}}
 
-The following example demonstrates how to set a license from a stream:
+The following example shows how to set a license from a stream:
 
 **C#**
 
@@ -84,10 +85,10 @@ Download the license file and copy it to C:\Program Files\Microsoft Visual Studi
 
 To test that a license has been installed correctly, export any report as a Microsoft Word document. If the document contains no watermark at the top, the license was activated successfully.
 
-**When a valid Aspose.Words.ReportingServices.lic is present in the ReportServer\bin folder, no evaluation watermark is added to the file** 
+**When a valid Aspose.Words.ReportingServices.lic is present in the ReportServer\bin folder, no evaluation watermark is added to the file**
 
 ![todo:image_alt_text](license-aspose-words-for-reporting-services_1.png)
 
-**If there is a problem with the license, the error message will be output into the report** 
+**If there is a problem with the license, the error message will be output into the report**
 
 ![todo:image_alt_text](license-aspose-words-for-reporting-services_2.png)

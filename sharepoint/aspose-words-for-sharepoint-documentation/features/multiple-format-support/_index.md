@@ -1,5 +1,6 @@
 ﻿---
 title: Multiple Format Support
+description: "This page describes list of supported formats by the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/multiple-format-support/
@@ -7,7 +8,7 @@ url: /sharepoint/multiple-format-support/
 
 ## Multiple Format Support
 
-With Aspose.Words for SharePoint installed you can convert documents right from your SharePoint document library between multiple popular office document formats. Most of the conversions are done with high fidelity. Currently Aspose.Words for SharePoint supports the following input formats:
+With Aspose.Words for SharePoint installed you can convert documents right from your SharePoint document library between many popular office document formats. Most of the conversions are done with high fidelity. Currently Aspose.Words for SharePoint supports the following input formats:
 
 - DOCX - Office Open XML
 - DOTX - Office Open XML WordprocessingML Template (macro-free)
@@ -19,8 +20,9 @@ With Aspose.Words for SharePoint installed you can convert documents right from 
 - XML - Microsoft Word 2003 WordprocessingML
 - XML - Flat OPC
 - ODT - OpenDocument
+- MD - Markdown
 
-To generate documents, Aspose.Words for SharePoint relies on a built-in version of [Aspose.Words for .NET](https://products.aspose.com/words/net), the market leading document-processing component from Aspose. Microsoft Word is not used to generate documents. DOC, OOXML, RTF and WordprocessingML copies of the same document look identical to each other, thanks to the high degree of support for the underlying file formats provided by Aspose.Words. The full list of output formats supported by Aspose.Words for SharePoint is:
+To generate documents, Aspose.Words for SharePoint relies on a built-in version of [Aspose.Words for .NET](https://products.aspose.com/words/net/), the market leading document-processing component from Aspose. Microsoft Word is not used to generate documents. DOC, OOXML, RTF and WordprocessingML copies of the same document look identical to each other, thanks to the high degree of support for the underlying file formats provided by Aspose.Words. The full list of output formats supported by Aspose.Words for SharePoint is:
 
 - PDF - Adobe Portable Document
 - PdfA1a - Adobe PDF/A-1a format
@@ -37,6 +39,7 @@ To generate documents, Aspose.Words for SharePoint relies on a built-in version 
 - ODT - OpenDocument
 - EPUB - IDPF Digital Book
 - XPS - XML Paper Specification
+- MD - Markdown
 
 ## Output Examples
 

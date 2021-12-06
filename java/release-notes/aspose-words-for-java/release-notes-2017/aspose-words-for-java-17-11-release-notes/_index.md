@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 17.11 Release Notes
+description: "Aspose.Words for Java 17.11 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /java/aspose-words-for-java-17-11-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-17-11-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 17.11](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.11/)
+This page contains release notes for [Aspose.Words for Java 17.11](https://repository.aspose.com/repo/com/aspose/aspose-words/17.11/)
 
 {{% /alert %}} 
 
@@ -56,7 +57,7 @@ Full List of Issues Covering all Changes in this Release
 |WORDSNET-15108|DOCX to PDF conversion losing pages|Bug|
 |WORDSNET-15137|Incorrect table/page layout // DOCX to PDFA: some text is missing in resultant PDFA document|Bug|
 |WORDSNET-15147|TOC paragraph spacing difference in Aspose.Words and MS Word|Bug|
-|WORDSNET-15205|MS Word 2016 demonstrates page number incorrectly in status bar after saving RTF To DOCX|Bug|
+|WORDSNET-15205|MS Word 2016 shows page number incorrectly in status bar after saving RTF To DOCX|Bug|
 |WORDSNET-15414|Formatting issue in PDF printing|Bug|
 |WORDSNET-15551|Process hangs during rendering DOCX to PDF|Bug|
 |WORDSNET-15660|/character spacing control/ Position of line break changes in rendered document|Bug|

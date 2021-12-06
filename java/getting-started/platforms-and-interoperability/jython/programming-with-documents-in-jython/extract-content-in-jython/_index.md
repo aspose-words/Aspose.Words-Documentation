@@ -1,5 +1,6 @@
-﻿---
+---
 title: Extract Content in Jython
+description: "Jython: Extract Content from document using Aspose.Words for Java."
 type: docs
 weight: 33
 url: /java/extract-content-in-jython/
@@ -55,5 +56,4 @@ def extract_content_between_block_level_nodes(self, doc):
 
 Download running code from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

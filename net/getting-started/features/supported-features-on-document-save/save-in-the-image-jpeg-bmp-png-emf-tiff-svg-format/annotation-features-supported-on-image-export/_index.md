@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on Image Export
+description: "Aspose.Words for .NET allows you to work with annotation features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-image-export/
@@ -18,7 +19,7 @@ url: /net/annotation-features-supported-on-image-export/
 
 Comments are exported to rendered formats.
 
-In version 1.0 of comments rendering long or numerous comments are not truncated.
+In version 1.0 of comments rendering long or many comments are not truncated.
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

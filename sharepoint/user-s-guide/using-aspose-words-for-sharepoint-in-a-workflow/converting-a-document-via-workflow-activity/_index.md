@@ -1,5 +1,6 @@
 ﻿---
 title: Converting a Document via Workflow Activity
+description: "This article explains how to use SharePoint Designer to create a workflow for converting documents while using Aspose.Words for SharePoint."
 type: docs
 weight: 20
 url: /sharepoint/converting-a-document-via-workflow-activity/
@@ -42,14 +43,14 @@ The parameters of the workflow action are similar to the conversion settings ava
 - **Destination file name**. Specify this parameter to give the converted file a different name. If this parameter is not set, the converted file will have the same name as a source file. An extension is added according to the specified destination format.
 - Whether the existing files in the destination library should be overwritten by the conversion result. By default, conversion does not overwrite existing files.
 
-**Selecting destination format.** 
+**Selecting destination format.**
 
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_3.png)
 
 1. For this example, type in the server-relative URL of the destination document library folder.
 1. Leave the destination file name parameter at the default (“the same file name”).
-1. Select **Do overwrite existing files** to overwrite existing files in the destination folder with the conversion result. 
-   **Setting other workflow action parameters.** 
+1. Select **Do overwrite existing files** to overwrite existing files in the destination folder with the conversion result.
+   **Setting other workflow action parameters.**
 ![todo:image_alt_text](converting-a-document-via-workflow-activity_4.png)
 
 ## Use Action Output Parameters in Other Actions
@@ -76,7 +77,7 @@ Now let us see how it works.
 
 1. Start a browser and go to the “Incoming Documents” library to which our new workflow is attached.
 1. Upload a new document.
-   Make sure that document type is supported by Aspose.Words (DOCX, DOC, RTF, MHT, XML, Microsoft Word 2003 WordprocessingML or Flat OPC). 
+   Make sure that document type is supported by Aspose.Words (DOCX, DOC, RTF, MHT, XML, Microsoft Word 2003 WordprocessingML or Flat OPC).
    The workflow should start automatically.
 1. Refresh the browser window. A new column with the workflow status should appear:<br>
    **Workflow status column displayed in a document library.**<br>

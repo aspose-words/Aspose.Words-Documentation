@@ -1,5 +1,6 @@
 ---
 title: Extend and Contribute to CRM Quote Generator
+description: "How to defined a custom workflow using Aspose.Words to convert HTML to word and Attach Generated Quotation with Quote."
 type: docs
 weight: 10
 url: /net/extend-and-contribute-to-crm-quote-generator/
@@ -51,6 +52,6 @@ if (NewNoteId != Guid.Empty)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Convert a Document to HTML with roundtrip information](https://docs.aspose.com/words/net/convert-a-document-to-html-mhtml-or-epub/#convert-a-document-with-round-trip-information).
+For more details, visit [Convert a Document to HTML with roundtrip information](/words/net/convert-a-document-to-html-mhtml-or-epub/#convert-a-document-with-round-trip-information).
 
 {{% /alert %}}

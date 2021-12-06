@@ -1,5 +1,6 @@
 ---
 title: Simple and Affordable Licensing
+description: "Aspose.Words for JasperReports evaluation and full versions are the same download."
 type: docs
 weight: 50
 url: /jasperreports/simple-and-affordable-licensing/

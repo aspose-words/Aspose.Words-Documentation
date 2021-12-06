@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with drawing object features supported on Rich Text import."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-rich-text-import/
@@ -7,7 +8,7 @@ url: /net/drawing-object-features-supported-on-rich-text-import/
 
 {{% alert color="primary" %}} 
 
-Aspose.Words supports multiple types of drawing entities on document load.
+Aspose.Words supports many types of drawing entities on document load.
 
 Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior.
 
@@ -23,7 +24,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
-All of the following image types listed in the table below this overview are supported. When a document contains several references to the same image from an from an external address (e.g the internet) then the image is only downloaded once.
+All of the following image types listed in the table below this overview are supported. When a document contains multiple references to the same image from an from an external address (e.g the internet) then the image is only downloaded once.
 
 It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of image from the Aspose.Words point-of-view.
 
@@ -46,7 +47,7 @@ If you are using Aspose.Words for Java you may need to ensure that you have the 
 See the following links in the documentation for further information:
 
 - [Shape.IsImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/isimage)
-- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words/loadoptions/properties/baseuri)
+- [LoadOptions.BaseUri](https://apireference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/baseuri)
 - **Shape.ImageData**
 - [ImageData.ImageType](https://apireference.aspose.com/words/net/aspose.words.drawing/imagedata/properties/imagetype)
 - [ConvertUtil](https://apireference.aspose.com/words/net/aspose.words/convertutil)
@@ -108,7 +109,7 @@ See the following links in the documentation for further information:
 |Draw Aspect |Yes | | |
 |Auto Update |Yes | |- [OleFormat.AutoUpdate](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/autoupdate)|
 |Lock |Yes | |- [OleFormat.IsLocked](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/islocked)|
-|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/getoleentry) </p><p>- **OleFormat.Save**</p>|
+|Ole Object Data |Yes | |<p>- [OleFormat.GetOleEntry](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/methods/getoleentry) </p><p>- **OleFormat.Save**</p>|
 |Ole Object Picture |Yes | |- [OleFormat.OleIcon](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/oleicon)|
 |Source Range |Yes | |- [OleFormat.SourceItem](https://apireference.aspose.com/words/net/aspose.words.drawing/oleformat/properties/sourceitem)|
 
@@ -160,7 +161,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- [Shape.HRef](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/href)|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](https://docs.aspose.com/words/net/working-with-watermark/)|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](/words/net/working-with-watermark/)|
 
 ## WordArt
 
@@ -249,7 +250,7 @@ Using Aspose.Words you can access, modify and remove most fill properties of a s
 
 See the following link in the documentation for further information:
 
-- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fill)
+- [Shape.Fill](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/fill)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

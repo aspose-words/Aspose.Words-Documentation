@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on XPS Export
+description: "Aspose.Words for Java allows you to work with drawing features supported when saving to XPS format."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-xps-export/
@@ -93,7 +94,7 @@ Ouptut as a regular image.
 |Charts (VML) |Yes | | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes |Hyperlink exported when saving to XPS format. | |
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded. | |
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
 
 ## WordArt
 

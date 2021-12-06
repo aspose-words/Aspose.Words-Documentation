@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on DOCX Export
+description: "Aspose.Words for .NET allows you to work with field features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-docx-export/
@@ -15,7 +16,7 @@ Fields with custom field codes (a field code modified to represent something dif
 
 When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of page layout.
 
-[Jump to this location in the import section](/words//net/field-features-supported-on-docx-import/)
+[Jump to this location in the import section](/words/net/field-features-supported-on-docx-import/)
 
 {{% /alert %}} 
 

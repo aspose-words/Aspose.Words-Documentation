@@ -33,7 +33,7 @@ The Aspose.Words DOM also contains the non-node classes, such as [Style](https:/
 
 {{% /alert %}}
 
-Let's look at an example. The following image demonstrates a Microsoft Word document with different types of content.
+Let's look at an example. The following image shows a Microsoft Word document with different types of content.
 
 <img src="document-example.png" alt="document-example-aspose-words" style="width:700px"/>
 
@@ -43,7 +43,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](https://apireference.aspose.com/words/net/aspose.words/document), [Section](https://apireference.aspose.com/words/net/aspose.words/section), [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph), [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape), [Run](https://apireference.aspose.com/words/net/aspose.words/run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a Type of Nodes {#get-a-node-type}
+### Get a Node Type {#get-a-node-type}
 
 Although the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://apireference.aspose.com/words/net/aspose.words/node/properties/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
@@ -67,7 +67,7 @@ You can learn the sample project "Document Explorer" on the [Aspose.Words GitHub
 
 {{% /alert %}}
 
-### Document Nodes Relationships {#document-nodes-relationships}
+### Document Node Relationships {#document-nodes-relationships}
 
 The nodes in the tree have relationships between them:
 
@@ -77,7 +77,7 @@ The nodes in the tree have relationships between them:
 
 The nodes that can contain other nodes derive from the [CompositeNode](https://apireference.aspose.com/words/net/aspose.words/compositenode) class, and all nodes ultimately derive from the [Node](https://apireference.aspose.com/words/net/aspose.words/node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 
-The following UML object diagram demonstrates many nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
+The following UML object diagram shows several nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
 <img src="document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words" style="width:370px"/>
 
@@ -93,7 +93,7 @@ The [Node.Document](https://apireference.aspose.com/words/net/aspose.words/node/
 
 When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/document) property.
 
-The following code example demonstrates that when creating any node, a document that will own the node is always defined:
+The following code example shows that when creating any node, a document that will own the node is always defined:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-OwnerDocument.cs" >}}
 
@@ -105,7 +105,7 @@ Each node has a parent specified by the [ParentNode](https://apireference.aspose
 - The node has been removed from the tree.
 - This is the root **Document** node which always has a null parent node.
 
-You can remove a node from its parent by calling the [Remove](https://apireference.aspose.com/words/net/aspose.words/node/methods/remove) method.The following code example demonstrates how to access the parent node:
+You can remove a node from its parent by calling the [Remove](https://apireference.aspose.com/words/net/aspose.words/node/methods/remove) method.The following code example shows how to access the parent node:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-GetParentNode.cs" >}}
 
@@ -121,7 +121,7 @@ The following code example shows how to enumerate immediate child nodes of a Com
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cs" >}}
 
-The following code example demonstrates how to enumerate immediate child nodes of a CompositeNode using indexed access:
+The following code example shows how to enumerate immediate child nodes of a CompositeNode using indexed access:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-IndexChildNodes.cs" >}}
 
@@ -133,7 +133,7 @@ The following code example shows how to efficiently visit all direct and indirec
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-RecurseAllNodes.cs" >}}
 
-### Typed Access to Parent and Child Nodes {#typed-access-to-child-and-parent-nodes}
+### Typed Access to Child and Parent Nodes {#typed-access-to-child-and-parent-nodes}
 
 So far, we have discussed the properties that return one of the base types – **Node** or **CompositeNode**. But sometimes there are situations where you might need to cast values to a specific node class, such as **Run** or **Paragraph**. That is, you cannot completely get away from casting when working with the Aspose.Words DOM, which is composite.
 
@@ -145,6 +145,6 @@ To reduce the need for casting, most Aspose.Words classes provide properties and
 
 Typed properties are merely useful shortcuts that sometimes provide easier access than generic properties inherited from [Node.ParentNode](https://apireference.aspose.com/words/net/aspose.words/node/properties/parentnode) and [CompositeNode.FirstChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/properties/firstchild).
 
-The following code example demonstrates how to use typed properties to access nodes of the document tree:
+The following code example shows how to use typed properties to access nodes of the document tree:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-TypedAccess.cs" >}}

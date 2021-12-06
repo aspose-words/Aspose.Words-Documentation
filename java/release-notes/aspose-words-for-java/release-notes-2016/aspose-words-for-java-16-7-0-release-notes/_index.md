@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 16.7.0 Release Notes
+description: "Aspose.Words for Java 16.7.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /java/aspose-words-for-java-16-7-0-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-16-7-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 16.7.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/16.7.0/)
+This page contains release notes for [Aspose.Words for Java 16.7.0](https://repository.aspose.com/repo/com/aspose/aspose-words/16.7.0/)
 
 {{% /alert %}} 
 
@@ -249,7 +250,7 @@ doc.save("mydocument.gif", saveOptions);
 
 ### Exposed more String and Number Formats for Expression Results in LINQ Reporting Engine
 
-The ["Outputting Expression Results"](https://docs.aspose.com/words/java/outputting-expression-results/) section of the engine's documentation was updated to describe the change.
+The ["Outputting Expression Results"](/words/java/outputting-expression-results/) section of the engine's documentation was updated to describe the change.
 
 ### MsWordVersion Enum Moved to Aspose.Words.Settings
 

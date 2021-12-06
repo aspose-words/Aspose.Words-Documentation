@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 19.9 Release Notes
+description: "Aspose.Words for Java 19.9 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 40
 url: /java/aspose-words-for-java-19-9-release-notes/
@@ -62,7 +63,7 @@ This page contains release notes for [Aspose.Words for Java 19.9](https://reposi
 |WORDSNET-18795|Problem with pie charts format in PDF|Bug|
 |WORDSNET-19056|The document is broken when setting ShowDataLabelsRange to true|Bug|
 |WORDSNET-18943|After merging documents and updating the fields the TOC formatting changes to Normal style|Bug|
-|WORDSNET-11652|Frame text overlapped by another frame's inline shape demonstrates in AW output|Bug|
+|WORDSNET-11652|Frame text overlapped by another frame's inline shape shows in AW output|Bug|
 |WORDSNET-18560|Chart's text is overlapped after conversion from DOCX to PDF|Bug|
 |WORDSNET-19092|DOCX with graphic to PDF conversion issue|Bug|
 |WORDSNET-18697|Improve API to write and modify VBA macros|Bug|

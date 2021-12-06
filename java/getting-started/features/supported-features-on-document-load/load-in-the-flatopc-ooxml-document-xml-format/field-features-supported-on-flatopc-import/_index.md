@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on FlatOPC Import
+description: "Aspose.Words for Java allows you to work with field features supported on FlatOPC format import."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-flatopc-import/
@@ -16,10 +17,10 @@ A field is represented in the document model as:
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across multiple different types of content. A field result can consist of other block-level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block-level nodes such as Table or Paragraph.
 - FieldEnd node.
 
-We provide the Field facade for working with this structure more easily. This enables you to easily find the field code and field result of a field. Currently, you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which enables you to get this facade from any field the document.
+We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently, you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document.
 
 Using Aspose.Words you can insert new fields, as well as find and modify existing fields. You can also remove fields. You can also find the field code and field result of any field.
 
@@ -160,7 +161,7 @@ See the following links in the documentation for further information:
 |PageRef|Yes|This field is supported during field update. <br><br>By default in Microsoft Word references re-updated as letters. Currently in Aspose.Words these references are updated as digits. <br><br>Hyperlinking, numeric format and paragraph position options are all supported during the update.| |
 |Quote|Yes|This field is updated and the appropriate symbol is inserted during field update.| |
 |Ref|Yes|This field is supported during field update. <br><br>Only some switches such as hyperlink and relative position are supported during field update. Support for the other options will be added in future versions.| |
-|StyleRef|Yes|This field is supported during field update. <br><br>Only numerous switches are supported during field update. Support for the other options will be added in future versions.| |
+|StyleRef|Yes|This field is supported during field update. <br><br>Only a few switches are supported during field update. Support for the other options will be added in future versions.| |
 
 ## Mail Merge
 
@@ -179,7 +180,7 @@ See the following links in the documentation for further information:
 
 - [Mail Merge and Reporting](/words/java/mail-merge-and-reporting/)
 - **Document.MailMerge**
-- [How to Use Advanced Mail Merge Features](/words/java/how-to-use-advanced-mail-merge-features/)
+- [How to Use Advanced Mail Merge Features](/words/java/advanced-mail-merge-features/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

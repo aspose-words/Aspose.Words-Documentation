@@ -3,7 +3,8 @@ title: Convert Between Measurement Units
 description: "Aspose.Words for Python via .NET can help you with how to convert between measurement units, for example, inches to points and points to inches, pixels to points, points to pixels."
 type: docs
 weight: 110
-url: /python/convert-between-measurement-units/
+url: /python-net/convert-between-measurement-units/
+aliases: [/python/convert-between-measurement-units/]
 ---
 
 Most of the object properties provided in the Aspose.Words API that represent some measurement, such as width or height, margins, and various distances, accept values in points, where 1 inch equals 72 points. Sometimes this is not convenient and points need to be converted to other units.

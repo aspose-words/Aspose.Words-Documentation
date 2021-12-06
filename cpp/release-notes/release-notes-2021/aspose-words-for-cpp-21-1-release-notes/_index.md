@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 21.1 Release Notes
+description: "Aspose.Words for C++ 21.1 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /cpp/aspose-words-for-cpp-21-1-release-notes/
@@ -314,7 +315,7 @@ void HandleDocument()
     // We can use an appropriate SaveOptions subclass to customize the conversion process.
     auto options = MakeObject<MarkdownSaveOptions>();
  
-    // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to many images.
+    // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
     // Each image will be in the form of a file in the local file system.
     // There is also a callback that can customize the name and file system location of each image.
     options->set_ImageSavingCallback(MakeObject<SavedImageRename>(outFileName));
@@ -350,7 +351,7 @@ private:
 
 ### PdfSaveOptions::EscapeUri is marked as obsolete
 
-We made a few improvements in export of hyperlinks to PDF per WORDSNET-21443. Now the cases when setting PdfSaveOptions:;EscapeUri to false was required (improper unescaping of explicitly escaped URI delimiter chars) are handled well by default. Thus we do not see a reason to keep this option longer and marked it as obsolete.
+We made several improvements in export of hyperlinks to PDF per WORDSNET-21443. Now the cases when setting PdfSaveOptions:;EscapeUri to false was required (improper unescaping of explicitly escaped URI delimiter chars) are handled well by default. Thus we do not see a reason to keep this option longer and marked it as obsolete.
 
 {{< highlight cpp >}}
 /// <summary>

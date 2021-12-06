@@ -1,6 +1,6 @@
 ﻿---
 title: Work with Options and Appearance of Word Documents
-description: "Aspose.Words for .NET enables you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
+description: "Aspose.Words for .NET allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 120
 url: /net/work-with-word-document-options-and-appearance/
@@ -55,7 +55,7 @@ If your Aspose.Words generated document does not look as expected, check the **L
 
 {{% /alert %}}
 
-The following code example demonstrates how to add Japanese to editing languages:
+The following code example shows how to add Japanese to editing languages:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cs" >}}
 
@@ -67,6 +67,6 @@ The following code example shows how to set Russian as the default editing langu
 
 The [OptimizeFor](https://apireference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/methods/optimizefor) method allows optimizing document content, as well as default Aspose.Words behaviour for a particular version of Microsoft Word. You can use this method to prevent Microsoft Word from displaying the “Compatibility mode” ribbon upon document loading. Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.
 
-The following code example demonstrates how to optimize document content for Microsoft Word 2016:
+The following code example shows how to optimize document content for Microsoft Word 2016:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cs" >}}

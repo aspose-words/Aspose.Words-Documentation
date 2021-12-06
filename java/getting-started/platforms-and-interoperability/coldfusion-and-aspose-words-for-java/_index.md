@@ -1,5 +1,6 @@
-﻿---
+---
 title: ColdFusion and Aspose.Words for Java
+description: "Using Aspose.Words for Java in ColdFusion applications."
 type: docs
 weight: 20
 url: /java/coldfusion-and-aspose-words-for-java/
@@ -102,7 +103,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 <html>
 <head><title>Save or Convert a Document</title></head>
 <body>
-    <b>This example demonstrates how to convert a document to various formats using Aspose.Words</b>
+    <b>This example shows how to convert a document to various formats using Aspose.Words</b>
     <cfset doc=CreateObject("java", "com.aspose.words.Document").init("C:\Temp\in.doc")>
     <cfset saveFormat=CreateObject("java", "com.aspose.words.SaveFormat")>
     <cfset doc.save("C:\Temp\out.doc", saveFormat.DOC)>

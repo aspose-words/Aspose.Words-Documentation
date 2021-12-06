@@ -1,6 +1,6 @@
 ﻿---
 title: Clean Up a Document
-description: "Aspose.Words for C++ enables you to remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
+description: "Aspose.Words for C++ allows you to remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
 type: docs
 weight: 15
 url: /cpp/clean-up-a-document/

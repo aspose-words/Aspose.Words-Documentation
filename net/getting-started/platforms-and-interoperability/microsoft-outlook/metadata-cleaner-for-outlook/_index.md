@@ -1,5 +1,6 @@
 ---
 title: Metadata Cleaner for Outlook
+description: "Aspose.Words Metadata Cleaner for Outlook is a metadata removal tool which protects organizations from accidental information and metadata leaks."
 type: docs
 weight: 10
 url: /net/metadata-cleaner-for-outlook/
@@ -41,7 +42,6 @@ This add-on will work with all version of:
 
 You can download the latest solution at:
 
-- [Codeplex](https://archive.codeplex.com/?p=asposewordsoutlook)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MetadataCleanerOutlook)
 
 ## Installing or Uninstalling
@@ -87,7 +87,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to this add-on using any of the following platforms:
 
-- [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
 ### Extend and Contribute

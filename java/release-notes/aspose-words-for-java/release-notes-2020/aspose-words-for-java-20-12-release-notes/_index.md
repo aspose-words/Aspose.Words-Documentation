@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 20.12 Release Notes
+description: "Aspose.Words for Java 20.12 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 1
 url: /java/aspose-words-for-java-20-12-release-notes/
@@ -104,7 +105,7 @@ There are 116 improvements and fixes in this regular monthly release. The most n
 | WORDSNET-21255 | System.ArgumentOutOfRangeException: 'Index was out of range.' is shown   during UpdatePageLayout() | Bug |
 | WORDSNET-20897 | HtmlSaveOptions.ScaleImageToShapeSize has no effect | Bug |
 | WORDSNET-20515 | Spell Check Disabled after Aspose.Words' Find and Replace Operation | Bug |
-| WORDSNET-20910 | A long paragraph with shape near the bottom occupies a few pages | Bug |
+| WORDSNET-20910 | A long paragraph with shape near the bottom occupies many pages | Bug |
 | WORDSNET-19275 | Numbering chapters disappear during appending documents | Bug |
 | WORDSNET-21119 | Incorrect rendering of series data label of PieChart. | Bug |
 | WORDSNET-20937 | System.InvalidCastException is thrown while saving DOCX to HTML | Bug |
@@ -302,7 +303,7 @@ public sealed class ComparisonEvaluationResult
 }
 
 /// <summary>
-/// When implemented enables to override default comparison expressions evaluation for the <see cref="FieldIf"/> and <see cref="FieldCompare"/> fields.
+/// When implemented allows to override default comparison expressions evaluation for the <see cref="FieldIf"/> and <see cref="FieldCompare"/> fields.
 /// </summary>
 /// <seealso cref="FieldOptions.ComparisonExpressionEvaluator"/>
 public interface IComparisonExpressionEvaluator

@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Android via Xamarin 17.9 Release Notes
+description: "Aspose.Words for Android via Xamarin 17.9 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /net/aspose-words-for-android-via-xamarin-17-9-release-notes/
@@ -9,7 +10,7 @@ url: /net/aspose-words-for-android-via-xamarin-17-9-release-notes/
 
 This page contains release notes for [Aspose.Words for Android via Xamarin 17.9](https://downloads.aspose.com/words/androidxamarin/new-releases/aspose.words-for-android-via-xamarin-17.9/).
 
-This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has full functionality of Aspose.Words for .NET with [few limitations, minor API changes and additional requirements](https://docs.aspose.com/words/net/xamarin-and-net-standard-2-0-limitations-and-api-differences/).
+This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has full functionality of Aspose.Words for .NET with [few limitations, minor API changes and additional requirements](/words/net/xamarin-and-net-standard-2-0-limitations-and-api-differences/).
 
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.9, see [Aspose.Words for .NET 17.9 release notes](/words/net/aspose-words-for-net-17-9-release-notes/) for more information.
 

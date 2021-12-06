@@ -1,8 +1,10 @@
 ---
 title: Working with Graphic Elements
+description: "Work with different graphic objects such as images, shapes, watermarks, and others in a document using python."
 type: docs
 weight: 150
-url: /python/working-with-graphic-elements/
+url: /python-net/working-with-graphic-elements/
+aliases: [/python/working-with-graphic-elements/]
 ---
 
 Articles in this section describe manipulation with various document graphic elements, such as shapes, text boxes, charts, images, and so on. 

@@ -5,7 +5,7 @@ weight: 40
 url: /java/working-with-images/
 ---
 
-## How to Extract Images from a Document
+## How to Extract Images from a Document {#how-to-extract-images-from-a-document}
 
 All images are stored inside Shape nodes in a Document. To extract all images or images having a specific type from the document, follow these steps:
 
@@ -15,9 +15,9 @@ All images are stored inside Shape nodes in a Document. To extract all images o
 - Extract image data using the [Shape.ImageData](https://apireference.aspose.com/words/java/com.aspose.words/shape#ImageData) property.
 - Save image data to a file.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-ExtractImagesToFiles.java" >}}
 
-## How to Insert Barcode on each Page of a Document
+## How to Insert Barcode on each Document Page {#how-to-insert-barcode-on-each-documen-page}
 
 This example lets you add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use [DocumentBuilder.moveToSection](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToSection(int)), [DocumentBuilder.moveToHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToHeaderFooter(int)) and DocumentBuilder.insertImage (https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertImage(byte[])) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code. 
 
@@ -27,13 +27,13 @@ The code example given below Inserts a barcode image on each page of a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-InsertBarcodeImage-InsertBarcodeIntoFooter.java" >}}
 
-## Lock Aspect Ratio of Image
+## Lock Aspect Ratio of Image {#lock-aspect-ratio-of-image}
 
 The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of an image using Shape.AspectRatioLocked. The default value of the shape's aspect ratio depends on the ShapeType. It is true for ShapeType.Image and false for other shape types.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetImageAspectRatioLocked-DocumentBuilderSetImageAspectRatioLocked.java" >}}
 
-## How to Get Actual Bounds of Shape in Points
+## How to Get Actual Bounds of Shape in Points {#how-to-get-actual-bounds-of-shape-in-points}
 
 If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using NodeRendererBase.BoundsInPoints property. The following code example shows how to use this property.
 
@@ -49,6 +49,6 @@ The cropping of an image usually refers to the removal of the unwanted outer p
 
 ## Saving Images as WMF
 
-Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example shows how to save images as WMF with RTF save options.
+Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://wiki.fileformat.com/image/wmf/)format while converting DOCX to RTF. The following code example demonstrates how to save images as WMF with RTF save options.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithRtfSaveOptions-SavingImagesAsWmf.java" >}}

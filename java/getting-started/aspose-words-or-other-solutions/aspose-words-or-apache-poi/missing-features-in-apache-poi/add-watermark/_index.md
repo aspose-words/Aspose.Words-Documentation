@@ -16,7 +16,7 @@ You can add a watermark online by using the [Watermark Maker](https://products.a
 
 {{% alert color="primary" %}}
 
-See more details in the ["Working with Watermark"](https://docs.aspose.com/words/java/working-with-watermark/) article.
+See more details in the ["Working with Watermark"](/words/java/working-with-watermark/) article.
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ In Microsoft Word, you can quickly insert a watermark using the Insert Watermark
 
 While in Aspose.Words there is no single “Insert Watermark” command like in Microsoft Word, it is very easy to insert any shape or image into a header or footer and thus create a watermark of any imaginable type.
 
-The following code example demonstrates how to work with watermarks using Aspose.Words:
+The following code example shows how to work with watermarks using Aspose.Words:
 
 {{< highlight java >}}
 private static void insertWatermarkText(Document doc, String watermarkText) throws Exception

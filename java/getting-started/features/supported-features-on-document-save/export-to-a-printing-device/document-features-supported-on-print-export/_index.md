@@ -1,5 +1,6 @@
-﻿---
+---
 title: Document Features Supported on Print Export
+description: "Aspose.Words for Java allows you to work with document features supported when saving to printing device."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-print-export/
@@ -7,7 +8,7 @@ url: /java/document-features-supported-on-print-export/
 
 {{% alert color="primary" %}} 
 
-The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into a few different rendered formats.
+The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into many different rendered formats.
 
 These formats are:
 

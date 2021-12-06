@@ -11,7 +11,7 @@ Aspose.Words provides the InsertChart method which was added into the Document
 
 ### How to Insert Column chart
 
-The code example given below demonstrates how to insert a column chart.
+The code example given below shows how to insert a column chart.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-CreateColumnChart-InsertSimpleColumnChart.cpp" >}}
 

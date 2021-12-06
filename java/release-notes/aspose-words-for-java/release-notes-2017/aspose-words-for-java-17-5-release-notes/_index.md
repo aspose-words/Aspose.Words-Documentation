@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 17.5 Release Notes
+description: "Aspose.Words for Java 17.5 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 80
 url: /java/aspose-words-for-java-17-5-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-17-5-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 17.5](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.5/)
+This page contains release notes for [Aspose.Words for Java 17.5](https://repository.aspose.com/repo/com/aspose/aspose-words/17.5/)
 
 {{% /alert %}} 
 
@@ -22,7 +23,7 @@ There are 93 improvements and fixes in this regular monthly release. The most no
 - API to bind SDT to CustomXML properties is provided.
 - Implemented support for ShapeLayoutLikeWW8 compatibility option.
 - Improved calculation of width of spaces in Asian text.
-- Improved text wrapping for lines consisting of several tabs.
+- Improved text wrapping for lines consisting of many tabs.
 - Improved layout of multi-column sections when column ends with page break followed by paragraph break.
 - A low resolution text rendering to images improved.
 - HtmlFixed output file rendering improved (removing zero-sized text boxes).

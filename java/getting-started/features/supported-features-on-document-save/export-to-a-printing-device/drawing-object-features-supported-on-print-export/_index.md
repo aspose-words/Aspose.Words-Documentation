@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on Print Export
+description: "Aspose.Words for Java allows you to work with drawing features supported when saving to printing device."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-print-export/
@@ -98,7 +99,7 @@ Output as a regular image.
 |Charts (VML) |Yes | | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | | |
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded. | |
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
 
 ## WordArt
 

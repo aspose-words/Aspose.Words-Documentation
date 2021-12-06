@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working With Tables in PHP
+description: "PHP: Working With Tables using Aspose.Words for Java."
 type: docs
 weight: 80
 url: /java/working-withtables-in-php/
@@ -87,7 +88,7 @@ public static function autoFitTableToFixedColumnWidths($dataDir) {
 //ExFor:Table.AutoFit
 //ExFor:AutoFitBehavior
 //ExId:DisableAutoFitAndUseFixedWidths
-//ExSummary:Disables autofitting and allows fixed widths for the specified table.
+//ExSummary:Disables autofitting and enables fixed widths for the specified table.
 
 // Open the document
 $doc = new Java("com.aspose.words.Document", $dataDir . "TestFile.doc");

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on Rich Text Export
+description: "Aspose.Words for Java allows you to work with drawing features supported when saving to Rich Text format."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-rich-text-export/

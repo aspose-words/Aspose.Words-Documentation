@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 17.6 Release Notes
+description: "Aspose.Words for .NET 17.6 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /net/aspose-words-for-net-17-6-release-notes/
@@ -178,4 +179,4 @@ Document doc = new Document(@"test.html", lo);
 
 ### WORDSNET-15326 - SVG Multithread Processing Issue Resolved
 
-Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in a few threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI+ used earlier.
+Upon inserting SVG image into the document, it is converted to meta-file (EMF).When do this in multiple threads exception might occur in GDI+. To prevent problems with multi-threading, we switched to our own EMF renderer instead of GDI+ used earlier.

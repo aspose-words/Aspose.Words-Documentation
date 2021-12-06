@@ -3,7 +3,8 @@ title: Protect or Encrypt a Document
 description: "Aspose.Words for Python via .NET provides Read-Only, Encrypt a Documen, Restrict Editing, and Digital Signatures for document protection. Aspose.Words supports most Word protection options."
 type: docs
 weight: 35
-url: /python/protect-or-encrypt-a-document/
+url: /python-net/protect-or-encrypt-a-document/
+aliases: [/python/protect-or-encrypt-a-document/]
 ---
 
 The main reason to protect or encrypt a document is to apply more control over who can access the document or who can edit it. Applying protection to your documents, you avoid common risks such as copying or modifying documents without permission, as well as data leakage.

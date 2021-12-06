@@ -3,7 +3,8 @@ title: Specify Save Options
 description: "Aspose.Words for Python via .NET enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs
 weight: 10
-url: /python/specify-save-options/
+url: /python-net/specify-save-options/
+aliases: [/python/specify-save-options/]
 ---
 
 When saving a document, you can set some advanced properties. Aspose.Words provides you with the **SaveOptions** class, which allows more precise control of the save process. There are overloads of the **save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is **PdfSaveOptions** for saving to PDF format or **ImageSaveOptions** for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
@@ -44,7 +45,7 @@ Aspose.Words provides an ability to use the **created_time** property to get or 
 
 The following code example shows how to update the document creation time:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-UpdateIfLastPrinted.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-UpdateIfLastPrinted.py" >}}
 
 ## Update Last Saved Property
 

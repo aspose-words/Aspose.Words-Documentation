@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 13.7.0 Release Notes
+description: "Aspose.Words for Java 13.7.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /java/aspose-words-for-java-13-7-0-release-notes/
@@ -98,7 +99,7 @@ For a list of changes to the public API in this release refer to the in the docu
 |WORDSNET-8559 |Docx to SVG conversion issue with RTL text |Bug |
 |WORDSNET-8560 |Doc to Pdf conversion issue with Font Courier New |Bug |
 |WORDSNET-8579 |Hidden text becomes visible in XamlFlowPack |Bug |
-|WORDSNET-8582 |Extensive use of Frames in DOCX causes numerous formatting issues in EPUB |Bug |
+|WORDSNET-8582 |Extensive use of Frames in DOCX causes many formatting issues in EPUB |Bug |
 |WORDSNET-8591 |Shape.OleFormat.IconCaption return incorrect value |Bug |
 |WORDSNET-2098 |Line spacing is different when appending one document to another |Enhancement |
 |WORDSNET-2968 |Paragraph indentation is incorrect during rendering. |Enhancement |
@@ -153,7 +154,7 @@ For a list of changes to the public API in this release refer to the in the docu
 |WORDSNET-8167 |/cell border diagonal/ Diagonal borders in table cells are missing from fixed page formats |Feature |
 |WORDSNET-8271 |Export document logical structure to PdfRenderer along with APS model |Feature |
 |WORDSNET-8272 |Write logical structure to PDF |Feature |
-|WORDSNET-8275 |Text inside FORMDROPDOWN is not wrapping to a few lines in PDF |Feature |
+|WORDSNET-8275 |Text inside FORMDROPDOWN is not wrapping to multiple lines in PDF |Feature |
 |WORDSNET-8303 |Implement 'volume line' building for line with different Dash Style. |Feature |
 |WORDSNET-8390 |Preserve protection of selected ranges upon RTF round-trip. |Feature |
 |WORDSNET-8426 |Render DrawingML picture as ApsImage |Feature |

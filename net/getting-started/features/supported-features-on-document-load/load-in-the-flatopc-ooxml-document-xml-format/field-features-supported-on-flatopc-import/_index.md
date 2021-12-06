@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on FlatOPC Import
+description: "Aspose.Words for .NET allows you to work with field features supported on FlatOPC format import."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-flatopc-import/
@@ -14,10 +15,10 @@ Aspose.Words supports almost all common field types and can peform field update 
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across a few different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
 - FieldEnd node.
 
-We provide the Field facade for working with this structure more easily. This enables you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which enables you to get this facade from any field the document. Using Aspose.Words you can insert new fields, as well as find and modify existing fields. You can also remove fields. You can also find the field code and field result of any field. Currently to work with a field you need to iterate through the different field nodes above. Sometime soon we will release the Field API which will provide an API to achieve such operations much more easily. Fields with custom field codes or field results (modified manually in the document to appear different) are retained during import and export. However if you invoke field update, these might be replaced with the proper field content.
+We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document. Using Aspose.Words you can insert new fields, as well as find and modify existing fields. You can also remove fields. You can also find the field code and field result of any field. Currently to work with a field you need to iterate through the different field nodes above. Sometime soon we will release the Field API which will provide an API to achieve such operations much more easily. Fields with custom field codes or field results (modified manually in the document to appear different) are retained during import and export. However if you invoke field update, these might be replaced with the proper field content.
 
 {{% /alert %}} 
 
@@ -25,7 +26,7 @@ We provide the Field facade for working with this structure more easily. This en
 
 See the following links in the documentation for further information:
 
-- [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/)
+- [Working with Fields](/words/net/working-with-fields/)
 - [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1)
 - [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
 - [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldchar/properties/fieldtype)
@@ -94,7 +95,7 @@ All Document Automation fields are supported and can be updated by Aspose.Words 
 
 Form fields are fully supported by Aspose.Words. See the following links in the documentation for further information:
 
-- [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/)
+- [Working with Form Fields](/words/net/working-with-form-fields/)
 - [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
 - [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
 - [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
@@ -144,7 +145,7 @@ Form fields are fully supported by Aspose.Words. See the following links in the
 |PageRef|Yes|This field is supported during field update. <br><br>By default in Microsoft Word references re updated as letters. Currently in Aspose.Words these references are updated as digits. <br><br>Hyperlinking, numeric format and paragraph position options are all supported during update.| |
 |Quote|Yes|This field is updated and the appropriate symbol is inserted during field update.| |
 |Ref|Yes|This field is supported during field update. <br><br>Only some switches such as hyperlink and relative position are supported during field update. Support for the other options will be added in future versions.| |
-|StyleRef|Yes|This field is supported during field update. <br><br>Only several switches are supported during field update. Support for the other options will be added in future versions.| |
+|StyleRef|Yes|This field is supported during field update. <br><br>Only a few switches are supported during field update. Support for the other options will be added in future versions.| |
 
 ## Mail Merge
 
@@ -159,7 +160,7 @@ These fields will be supported in a later version of Aspose.Words. All other fie
 
 - [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
 - [Document.MailMerge](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
-- [How to Use Advanced Mail Merge Features](/words/net/how-to-use-advanced-mail-merge-features/)
+- [How to Use Advanced Mail Merge Features](/words/net/advanced-mail-merge-features/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

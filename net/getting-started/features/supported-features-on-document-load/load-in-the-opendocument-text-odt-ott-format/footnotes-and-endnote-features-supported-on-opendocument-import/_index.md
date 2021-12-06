@@ -1,5 +1,6 @@
-﻿---
+---
 title: Footnotes and Endnote Features Supported on OpenDocument Import
+description: "Aspose.Words for .NET allows you to work with footnotes and endnote features supported on OpenDocument Text import."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-opendocument-import/
@@ -20,7 +21,7 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 
 See the following links in the documentation for further information:
 
-- [Footnote](https://apireference.aspose.com/words/net/aspose.words/footnote)
+- [Footnote](https://apireference.aspose.com/words/net/aspose.words.notes/footnote)
 - **Document.FootnoteOptions**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -34,7 +35,7 @@ See the following links in the documentation for further information:
 |Number Format |Yes | | |
 |Restart Location |N/A | | |
 |Starting Value |Yes | | |
-|Placement |Yes | |- [FootnoteOptions.Location](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/location)|
+|Placement |Yes | |- [FootnoteOptions.Location](https://apireference.aspose.com/words/net/aspose.words.notes/footnoteoptions)|
 
 ## Endnotes
 
@@ -46,7 +47,7 @@ See the following links in the documentation for further information:
 |Continuation Separator Mark |N/A | | |
 |Document Wide Properties |Yes | | |
 |Section Wide Properties |N/A | | |
-|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/numberstyle)|
+|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/numberstyle)|
 |Restart Location |N/A | | |
-|Starting Value |Yes | |- [FootnoteOptions.StartNumber](https://apireference.aspose.com/words/net/aspose.words/footnoteoptions/properties/startnumber)|
+|Starting Value |Yes | |- [FootnoteOptions.StartNumber](https://apireference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/startnumber)|
 |Placement |Yes | | |

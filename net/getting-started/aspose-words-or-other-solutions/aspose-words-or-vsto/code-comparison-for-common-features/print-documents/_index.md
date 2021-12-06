@@ -1,5 +1,6 @@
-﻿---
+---
 title: Print Documents
+description: "Aspose.Words for .NET allows you to print a document easily and fast instead of using VSTO."
 type: docs
 weight: 100
 url: /net/print-documents/
@@ -44,14 +45,12 @@ PrinterSettings.ToPage = doc.PageCount;
 doc.Print(PrinterSettings);
 {{< /highlight >}}
 
-For more details of this feature you can go [here](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/#printing-a-document-with-settings-and-print-preview-dialogs)
+For more details of this feature you can go [here](/words/net/print-a-document-programmatically-or-using-dialogs/#printing-a-document-with-settings-and-print-preview-dialogs)
 
 ## Download Running Code Example
 
-- [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
 ## Sample Code
 
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto#Aspose.Words%20Vs%20VSTO%20Words/Print%20Documents)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Code%20Comparison%20of%20Common%20Features/Print%20Documents)

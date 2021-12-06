@@ -1,5 +1,6 @@
-﻿---
+---
 title: Document Features Supported on FlatOPC Export
+description: "Aspose.Words for .NET allows you to work with document field supported when saving to FlatOPC – XML format."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-flatopc-export/
@@ -9,7 +10,7 @@ url: /net/document-features-supported-on-flatopc-export/
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/words/net/saving-a-document/)
+- [Save a Document](/words/net/save-a-document/)
 - [OoxmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions)
 - [OoxmlSaveOptions.TempFolder](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/tempfolder)
 - [OoxmlSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/properties/compliance)

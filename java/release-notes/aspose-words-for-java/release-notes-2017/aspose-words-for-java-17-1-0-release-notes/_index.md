@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 17.1.0 Release Notes
+description: "Aspose.Words for Java 17.1.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 120
 url: /java/aspose-words-for-java-17-1-0-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-17-1-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 17.1.0](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/17.1.0/)
+This page contains release notes for [Aspose.Words for Java 17.1.0](https://repository.aspose.com/repo/com/aspose/aspose-words/17.1.0/)
 
 {{% /alert %}} 
 
@@ -18,7 +19,7 @@ There are 80 improvements and fixes in this regular monthly release. The most no
 - TxtSaveOptions.ForcePageBreaks public property
 - SaveOptions.MemoryOptimization public property
 - New public API class FrameFormat available in Paragraph.FrameFormat
-- Support for DOCX roundtrip of a few MS Word 2013 native document options added
+- Support for DOCX roundtrip of multiple MS Word 2013 native document options added
 - Supported DOCX roundtrip of Effect Container element 
 - DOCX Roundtrip of Extension lists suppororted for Charts and other graphics
 - Shape texture brush with EMF image rendering implemented

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Eclipse - Maven
+description: "Aspose.Words Java for Eclipse."
 type: docs
 weight: 100
 url: /java/aspose-words-java-for-eclipse-maven/
@@ -76,11 +77,11 @@ Following are three recommended methods for the successful downloading and insta
 
 ## Installing
 
-[Installing Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/)
+[Installing Aspose.Words Java for Eclipse - Maven](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/)
 
 ## Using the Plugin
 
-[Using Aspose.Words Java for Eclipse - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#using)
+[Using Aspose.Words Java for Eclipse - Maven](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#using)
 
 ### How to apply Aspose License?
 
@@ -111,8 +112,6 @@ Please follow [**GitHub Issues Tracker**](https://github.com/aspose-words/Aspos
 Aspose.Words Java for Eclipse (Maven) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it. Developers can also learn from it to make their own plugins.
 
 - [GitHub](https://goo.gl/xoJHH0)
-- [CodePlex](https://goo.gl/k2hz4B)
-
 #### How to configure source code of Aspose.Words Java for Eclipse (Maven)
 
 Below simple steps will smoothly lead to successful configuration of  **"Aspose.Words Java for Eclipse (Maven)"** plugin source code in Eclipse IDE

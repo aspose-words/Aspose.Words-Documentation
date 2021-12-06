@@ -1,5 +1,6 @@
-﻿---
+---
 title: Create New Document
+description: "Aspose.Words for Java allows you to create a new document easily and fast instead of using docx4j."
 type: docs
 weight: 50
 url: /java/create-new-document/
@@ -24,13 +25,13 @@ builder.writeln("Aspose Sample Content for Word file.");
 
 // Save the document in DOCX format. The format to save as is inferred from the extension of the file name.
 
-// Aspose.Words supports saving any document in a few more formats.
+// Aspose.Words supports saving any document in many more formats.
 doc.save("Aspose_NewDoc.docx",SaveFormat.DOCX);
 {{< /highlight >}}
 
 ## docx4j - Create New Document
 
-Creates a WordprocessingML document from scratch and show many different ways of adding basic content.
+Creates a WordprocessingML document from scratch and show several different ways of adding basic content.
 
 **Java**
 
@@ -119,16 +120,14 @@ if (save) {
 
 ## Download Running Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/createnewdoc/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/createnewdoc)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Creating a New Document](/words/java/creating-or-loading-a-document/).
+For more details, visit [Creating a New Document](/words/java/create-or-load-a-document/).
 
 {{% /alert %}}

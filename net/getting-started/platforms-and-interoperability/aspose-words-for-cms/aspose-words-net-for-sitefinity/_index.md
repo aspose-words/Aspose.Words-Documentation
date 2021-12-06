@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words .NET for Sitefinity
+description: "Integrating Aspose.Words for .NET with Sitefinity content management systems."
 type: docs
 weight: 110
 url: /net/aspose-words-net-for-sitefinity/
@@ -15,4 +16,4 @@ Aspose.Words for .NET is an advanced class library for .NET that enables you to 
 
 With Aspose.Words you can generate, modify, convert, render and print word documents without using Microsoft Word.
 
-Aspose.Words for .NET supports DOC, DOCX, OpenOffice and numerous other formats.
+Aspose.Words for .NET supports DOC, DOCX, OpenOffice and many other formats.

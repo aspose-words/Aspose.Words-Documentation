@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on FlatOPC Import
+description: "Aspose.Words for .NET allows you to work with text features supported on FlatOPC format import."
 type: docs
 weight: 130
 url: /net/text-features-supported-on-flatopc-import/
@@ -11,7 +12,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 
 - [Run](https://apireference.aspose.com/words/net/aspose.words/run)
 - [Run.Font](https://apireference.aspose.com/words/net/aspose.words/inline/properties/font)
-- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline/properties/text)
+- [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline)
 
 {{% /alert %}} 
 
@@ -80,7 +81,7 @@ See the following link in the documentation for further information:
 
 See the following link in the documentation for further information:
 
-- [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/html)
+- [Font](https://apireference.aspose.com/words/net/aspose.words/font/properties/index)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

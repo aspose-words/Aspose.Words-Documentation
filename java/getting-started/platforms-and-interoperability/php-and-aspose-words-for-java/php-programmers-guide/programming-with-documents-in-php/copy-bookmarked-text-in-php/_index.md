@@ -1,5 +1,6 @@
-﻿---
+---
 title: Copy Bookmarked Text in PHP
+description: "PHP: Copy Bookmarked Text using Aspose.Words for Java."
 type: docs
 weight: 23
 url: /java/copy-bookmarked-text-in-php/
@@ -27,9 +28,9 @@ $dstDoc = new Java("com.aspose.words.Document");
 // Let's say we will be appending to the end of the body of the last section.
 $dstNode = $dstDoc->getLastSection()->getBody();
 
-// It is a good idea to use this import context object because a few nodes are being imported.
+// It is a good idea to use this import context object because multiple nodes are being imported.
 
-// If you import a few times without a single context, it will result in numerous styles created.
+// If you import multiple times without a single context, it will result in many styles created.
 $importFormatMode = java('com.aspose.words.ImportFormatMode');
 $importer = new Java("com.aspose.words.NodeImporter", $srcDoc, $dstDoc, $importFormatMode->KEEP_SOURCE_FORMATTING);
 

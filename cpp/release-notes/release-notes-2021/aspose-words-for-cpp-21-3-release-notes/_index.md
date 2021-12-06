@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 21.3 Release Notes
+description: "Aspose.Words for C++ 21.3 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 55
 url: /cpp/aspose-words-for-cpp-21-3-release-notes/
@@ -377,7 +378,7 @@ The following public method have been added to the StructuredDocumentTagRangeSta
 System::SharedPtr<NodeCollection> GetChildNodes(NodeType nodeType, bool isDeep)
 {{< /highlight >}}
 
-These changes enables to enumerate child nodes of ranged structured document tag. 
+These changes allows to enumerate child nodes of ranged structured document tag. 
 For customer convenience feature follows CompositeNode pattern and returns live collection.
 
 Use Case: Explains how to work with child nodes of StructuredDocumentTagRangeStart

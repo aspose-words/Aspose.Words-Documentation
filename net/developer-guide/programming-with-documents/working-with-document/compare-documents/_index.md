@@ -1,6 +1,6 @@
 ﻿---
 title: Compare Documents
-description: "Aspose.Words for .NET enables you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
+description: "Aspose.Words for .NET allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 type: docs
 weight: 50
 url: /net/compare-documents/
@@ -32,11 +32,11 @@ The general limitation for two documents being compared is that they must not ha
 
 {{% alert color="primary" %}}
 
-Note that you can compare any two documents within the [supported file formats](https://docs.aspose.com/words/net/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
+Note that you can compare any two documents within the [supported file formats](/words/net/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
 
 {{% /alert %}}
 
-## How to Compare Documents {#compare-two-documents}
+## Compare Two Documents {#compare-two-documents}
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
@@ -44,7 +44,7 @@ Aspose.Words allows you to identify documents differences using the [Compare](ht
 
 As a result of comparison, documents can be determined as equal or not equal. The term “equal” documents means that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
-The following code example demonstrates how to check if two documents are equal or not:
+The following code example shows how to check if two documents are equal or not:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CompareDocument-CompareForEqual.cs" >}}
 
@@ -62,6 +62,6 @@ In addition, Aspose.Words provides the [Granularity](https://apireference.aspose
 
 Another common property is a choice in which document to show comparison changes. For example, the “Compare documents dialogue box” in Microsoft Word has the option “Show changes in” – this also affects the comparison results. Aspose.Words provides the [Target](https://apireference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/target) property that serves this purpose.
 
-The following code example demonstrates how to set the advanced comparing properties:
+The following code example shows how to set the advanced comparing properties:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-CompareDocument-SetAdvancedComparingProperties.cs" >}}

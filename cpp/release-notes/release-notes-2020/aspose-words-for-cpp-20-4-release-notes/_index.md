@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 20.4 Release Notes
+description: "Aspose.Words for C++ 20.4 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30
 url: /cpp/aspose-words-for-cpp-20-4-release-notes/
@@ -351,7 +352,7 @@ Added image interpolation option for PDF rendering which can be specified by Pdf
 /// <remarks>
 /// <para>
 /// When the resolution of a source image is significantly lower than that of the output device,
-/// each source sample covers multiple device pixels. As a result, images can appear jaggy or blocky.
+/// each source sample covers many device pixels. As a result, images can appear jaggy or blocky.
 /// These visual artifacts can be reduced by applying an image interpolation algorithm during rendering.
 /// Instead of painting all pixels covered by a source sample with the same color, image interpolation
 /// attempts to produce a smooth transition between adjacent sample values.

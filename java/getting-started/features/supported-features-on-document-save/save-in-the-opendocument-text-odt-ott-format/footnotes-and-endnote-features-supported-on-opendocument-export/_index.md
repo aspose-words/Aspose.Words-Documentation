@@ -1,5 +1,6 @@
 ---
-title: Footnotes an Endnote Features Supported on OpenDocument Export
+title: Footnotes and Endnote Features Supported on OpenDocument Export
+description: "Aspose.Words for Java allows you to work with footnote and endnote features supported when saving to OpenDocument Text format."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-opendocument-export/
@@ -8,7 +9,7 @@ aliases: [/java/footnotes-an-endnote-features-supported-on-opendocument-export/]
 
 {{% alert color="primary" %}}
 
-[Jump to this location in the import section](https://docs.aspose.com/words/java/footnotes-and-endnote-features-supported-on-opendocument-import/)
+[Jump to this location in the import section](/words/java/footnotes-and-endnote-features-supported-on-opendocument-import/)
 
 {{% /alert %}}
 

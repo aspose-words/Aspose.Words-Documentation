@@ -38,7 +38,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example demonstrates how to get and set bokmark text in a document:
+The following code example shows how to get and set bokmark text in a document:
 
 {{< highlight csharp >}}
 public void GetAndSetBookmarkTextFeature()
@@ -74,6 +74,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words feature please visit [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/).
+For more information about Aspose.Words feature please visit [Working with Bookmarks](/words/net/working-with-bookmarks/).
 
 {{% /alert %}}

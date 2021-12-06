@@ -1,5 +1,6 @@
-﻿---
+---
 title: Field Features Supported on HTML Import
+description: "Aspose.Words for .NET allows you to work with field features supported on HTML-based format import."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-html-import/
@@ -7,7 +8,7 @@ url: /net/field-features-supported-on-html-import/
 
 {{% alert color="primary" %}} 
 
-Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first enables you to merge data into a document, the latter displays the current page number of the page where the field appears on.
+Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
 Aspose.Words supports almost all common field types and can peform field update on most field types, even ones with complex content. This includes the TOC (Table of Contents) field. With one call to Document.UpdateFields the TOC field or any other supported field is fully updated. New or existing fields are fully updated by the Aspose.Words field engine. There is a document option to control the culture/locale used during field update. This can be the language setting of the field in the document or the current culture/locale used by the application.
 
@@ -16,10 +17,10 @@ A field is represented in the document model as:
 - FieldStart node.
 - Run node(s) (represents the field code).
 - FieldSeparator node.
-- Other nodes (represents the field result) such as runs, shapes. A field can span across several different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
+- Other nodes (represents the field result) such as runs, shapes. A field can span across many different types of content. A field result can consist of other block level nodes such as Table or Paragraph.
 - FieldEnd node.
 
-We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which enables you to get this facade from any field the document.
+We provide the Field facade for working with this structure more easily. This allows you to easily find the field code and field result of a field. Currently you can only retrieve this facade while inserting a new field into the document, there are plans to introduce a new field API which allows you to get this facade from any field the document.
 
 Using Aspose.Words you can insert new fields, as well as find and modify existing fields. You can also remove fields. You can also find the field code and field result of any field. Currently to work with a field you need to iterate through the different field nodes above. Sometime soon we will release the Field API which will provide an API to achieve such operations much more easily. 
 
@@ -195,7 +196,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. Imported from &lt;a&gt; element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink. If the &lt;a&gt; element has image as a child then the hyperlink is imported on Shape node. See the following links in the documentation for further information:
 
 - [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
-- [How to Replace or Modify Hyperlinks](https://docs.aspose.com/words/net/working-with-hyperlinks-and-html/)
+- [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |

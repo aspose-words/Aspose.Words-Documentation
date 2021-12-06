@@ -39,7 +39,7 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. The code example given below demonstrates how to insert a combobox form field into a document.
+Use DocumentBuilder.InsertTextInput**,** DocumentBuilder.InsertCheckBox or DocumentBuilder.InsertComboBox to insert form fields into a document. The code example given below shows how to insert a combobox form field into a document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cpp" >}}
 

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words Project Wizard for IntelliJ IDEA - Maven
+description: "Aspose.Words Project Wizard for IntelliJ IDEA."
 type: docs
 weight: 10
 url: /java/aspose-words-project-wizard-for-intellij-idea-maven/
@@ -13,7 +14,7 @@ In a 2010 **Infoworld** report, IntelliJ received the highest test center score 
 
 ## Aspose.Words for Java
 
-[Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that allows you to perform a great range of document processing tasks directly within your Java applications.
+[Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java applications.
 
 [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.
@@ -86,11 +87,11 @@ To download IntelliJ IDEA
 
 ## Installing
 
-[Installing Aspose.Words for IntelliJ IDEA - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/)
+[Installing Aspose.Words for IntelliJ IDEA - Maven](/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/)
 
 ## Using
 
-[Using Aspose.Words for IntelliJ IDEA - Maven](https://docs.aspose.com/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/#using-asposeword-maven-project-wizard)
+[Using Aspose.Words for IntelliJ IDEA - Maven](/words/java/installing-and-using-aspose-words-for-intellij-idea-maven/#using-asposeword-maven-project-wizard)
 
 ## Video Demo
 
@@ -106,7 +107,6 @@ Please check [the video](https://youtu.be/7AzHu20I0ro) below to see [Aspose.Word
 
 **Please use any of the following project's issues tracker:**
 
-- [CodePlex](https://aspose-wordsforintellij.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ### Extend and Contribute
@@ -117,5 +117,4 @@ Please check [the video](https://youtu.be/7AzHu20I0ro) below to see [Aspose.Word
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex](https://aspose-wordsforintellij.codeplex.com)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_IntelliJ%28Maven%29)

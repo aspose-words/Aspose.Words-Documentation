@@ -1,6 +1,6 @@
 ﻿---
 title: Split a Document
-description: "Aspose.Words for Java provides you with an efficient way to split one document into many documents by headings or sections, as well as pages or page ranges."
+description: "Aspose.Words for Java provides you with an efficient way to split one document into multiple documents by headings or sections, as well as pages or page ranges."
 type: docs
 weight: 80
 url: /java/split-a-document/
@@ -26,7 +26,7 @@ You can try this functionality with our [Free online document splitter](https://
 
 {{% /alert %}}
 
-## Split a Document Using Different Criteria
+## Split a Document Using Different Criteria {#split-a-document-using-different-criteria}
 
 Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
 
@@ -37,7 +37,7 @@ You can specify criteria using the [DocumentSplitCriteria](https://apireference
 - column break,
 - page break.
 
-When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into a few HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
+When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
 
 {{% alert color="primary" %}} 
 
@@ -47,21 +47,21 @@ You cannot split a document using the [DocumentSplitCriteria](https://apireferen
 
 In this section, we consider only some of the possible split criteria.
 
-### Split a Document by Headings
+### Split a Document by Headings {#split-a-document-by-headings}
 
 To split a document into chapters by headings, use the **HeadingParagraph** value of the **DocumentSplitCriteria** property.
 
 If you need to split a document by a specific level of heading paragraphs, such as headings 1, 2, and 3, use also the [DocumentSplitHeadingLevel](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#DocumentSplitHeadingLevel) property. The output will be divided by paragraphs formatted with the specified heading level.
 
-The following code example demonstrates how to split a document into smaller parts by heading:
+The following code example shows how to split a document into smaller parts by heading:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-SplitDocumentByHeadingsHTML.java" >}}
 
 Please note that for this criteria, Aspose.Words only supports saving to HTML format when splitting.
 
-When saving to EPUB, the document is not split into a few files, and there will be only one output file.
+When saving to EPUB, the document is not split into several files, and there will be only one output file.
 
-### Split a Document by Sections
+### Split a Document by Sections {#split-a-document-by-sections}
 
 Aspose.Words also enables you to use section breaks to split documents and save them to HTML. For this purpose, use **SectionBreak** as the **DocumentSplitCriteria**:
 
@@ -73,15 +73,15 @@ The following code example shows how to split a document into smaller parts by 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
 
-## Splitting by Pages
+## Split by Pages {#splitting-by-pages}
 
 You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/java/com.aspose.words/document#extractPages(int,int)) method can do the job.
 
-This section describes a few use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class and the **ExtractPages** method.
+This section describes several use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class and the **ExtractPages** method.
 
 {{% alert color="primary" %}} 
 
-You can use any [output format supported by Aspose.Words](https://docs.aspose.com/words/java/supported-document-formats/).
+You can use any [output format supported by Aspose.Words](/words/java/supported-document-formats/).
 
 {{% /alert %}} 
 
@@ -91,7 +91,7 @@ Due to the many nuances appearing while reducing the number of pages, a full mat
 
 {{% /alert %}}
 
-### Split a Document Page by Page
+### Split a Document Page by Page {#split-a-document-page-by-page}
 
 Aspose.Words enables you to split a multi-page document page by page.
 
@@ -99,23 +99,23 @@ The following code example shows how to divide a document and save each page a
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentPageByPage.java" >}}
 
-### Split a Document by Page Ranges
+### Split a Document by Page Ranges {#split-a-document-by-page-ranges}
 
-Aspose.Words enables splitting a multi-page document by page ranges. You can split one file into a few files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
+Aspose.Words allows splitting a multi-page document by page ranges. You can split one file into multiple files with various page ranges or just select one range and save only this part of the source document. Note that you can choose the page range according to the maximum and minimum page number of a document.
 
 The following code example shows how to split a document into smaller parts by page range with specific start and end indexes:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentByPageRange.java" >}}
 
-## Callback Option for Saving a Document
+## Callback Option to Save a Document {#callback-option-for-saving-a-document}
 
-You can use the [DocumentPartSavingCallback](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#DocumentPartSavingCallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property enables you to rename output files or even to redirect them into custom streams.
+You can use the [DocumentPartSavingCallback](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#DocumentPartSavingCallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
 
 Please note that this callback is not useful when saving to EPUB because all output parts must be saved into a single container – the .epub file. So, stream redirection is not supported, and the effect of renaming is not visible since files are renamed inside the container.
 
-## Merge the Split Document with Another File
+## Merge the Split Document with Another Document {#merge-the-split-document-with-another-file}
 
-Aspose.Words allows you to merge the output split document with another document to form a new document. This can be called document merging.
+Aspose.Words enables you to merge the output split document with another document to form a new document. This can be called document merging.
 
 The following code example shows how to merge a split document with another document:
 

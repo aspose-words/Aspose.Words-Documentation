@@ -1,5 +1,6 @@
-﻿---
+---
 title: Paragraph Features Supported on FlatOPC Import
+description: "Aspose.Words for .NET allows you to work with paragraph features supported on FlatOPC format import."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-flatopc-import/
@@ -107,7 +108,7 @@ Drop Caps are partially supported and preserved during document conversion. A dr
 
 See the following link in the documentation for further information:
 
-- [ParagraphFormat.Shading](https://apireference.aspose.com/words/net/aspose.words/border/properties/shading)
+- [ParagraphFormat.Shading](https://apireference.aspose.com/words/net/aspose.words/border/properties/shadow)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

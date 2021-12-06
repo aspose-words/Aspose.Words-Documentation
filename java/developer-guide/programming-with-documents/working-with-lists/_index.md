@@ -29,7 +29,7 @@ You can also use the [ListFormat.ListLevelNumber](https://apireference.aspose.co
 
 {{% /alert %}} 
 
-The code example given below demonstrates how to build a multilevel list.
+The code example given below shows how to build a multilevel list.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetMultilevelListFormatting-DocumentBuilderSetMultilevelListFormatting.java" >}}
 

@@ -13,7 +13,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 
 Modern document formats and standards are complex, and when you require document conversion or other document processing features in your project, the only practical solution is often to rely on a third-party component that implements the desired functionality. But using a third-party component always carries some risk. One of the unique risks in document processing is the question about how completely and correctly the library implements a particular document format or standard.
 
-Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team shows their commitment to interoperability by providing detailed implementation notes for supported document formats across a few platforms.
+Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across multiple platforms.
 
 The tables below summarize and compare the availability of Aspose.Words for .NET features and provide links to detailed feature descriptions.
 
@@ -23,14 +23,14 @@ The platforms Aspose.Words for .NET can be used with are listed below. If you ne
 
 |Feature|Description|
 | :- | :- |
-|[.NET Framework](https://docs.aspose.com/words/net/supported-platforms/#net-framework)|Use Aspose.Words for .NET to build ASP.NET, Web Services, WinForms or any other type of application for any .NET Framework versions 2.0 or later including Client Profile versions. Full support for 32-bit and 64-bit.|
-|[.NET Standard 2.0](https://docs.aspose.com/words/net/supported-platforms/#net-standard-20)|The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0.|
-|[Xamarin.Android](https://docs.aspose.com/words/net/supported-platforms/#xamarinandroid)|Use Aspose.Words for .NET in your native Android applications.|
-|[Xamarin.iOS](https://docs.aspose.com/words/net/supported-platforms/#xamarinios)|Use Aspose.Words for .NET in your native iOS applications.|
-|[Xamarin.Mac](https://docs.aspose.com/words/net/supported-platforms/#xamarinmac)|Use Aspose.Words for .NET in your native Mac applications.|
-|[COM](https://docs.aspose.com/words/net/supported-platforms/#com)|Can be a lifesaver if you have to develop using pre- .NET technologies.|
-|[Mono](https://docs.aspose.com/words/net/supported-platforms/#mono)|You can use Aspose.Words for .NET to build applications with Mono.|
-|[Windows Azure](https://docs.aspose.com/words/net/supported-platforms/#windows-azure)|Yes, Aspose.Words for .NET runs on Windows Azure.|
+|[.NET Framework](/words/net/supported-platforms/#net-framework)|Use Aspose.Words for .NET to build ASP.NET, Web Services, WinForms or any other type of application for any .NET Framework versions 2.0 or later including Client Profile versions. Full support for 32-bit and 64-bit.|
+|[.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20)|The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0.|
+|[Xamarin.Android](/words/net/supported-platforms/#xamarinandroid)|Use Aspose.Words for .NET in your native Android applications.|
+|[Xamarin.iOS](/words/net/supported-platforms/#xamarinios)|Use Aspose.Words for .NET in your native iOS applications.|
+|[Xamarin.Mac](/words/net/supported-platforms/#xamarinmac)|Use Aspose.Words for .NET in your native Mac applications.|
+|[COM](/words/net/supported-platforms/#com)|Can be a lifesaver if you have to develop using pre- .NET technologies.|
+|[Mono](/words/net/supported-platforms/#mono)|You can use Aspose.Words for .NET to build applications with Mono.|
+|[Windows Azure](/words/net/supported-platforms/#windows-azure)|Yes, Aspose.Words for .NET runs on Windows Azure.|
 
 ## File Formats and Conversions
 
@@ -38,16 +38,16 @@ Many customers worldwide rely on the thorough document import and export feature
 
 |Feature|Description|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- | :- |
-|[Microsoft Word - DOC](/words/net/microsoft-word-doc/)|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[WordprocessingML - DOCX and XML](/words/net/wordprocessingml-docx-and-xml/)|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Rich Text Format - RTF](/words/net/rich-text-format-rtf/)|Comprehensive support of the RTF format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[HTML, XHTML and MHTML](/words/net/html-xhtml-and-mhtml/)|Load and save HTML/XHTML for even greater interoperability. Save as MHTML is also available.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[OpenDocument - ODT](/words/net/opendocument-odt/)|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Adobe Portable Document Format - PDF](/words/net/adobe-portable-document-format-pdf/)|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[XML Paper Specification - XPS](/words/net/xml-paper-specification-xps/)|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Plain Text - TXT](/words/net/plain-text-txt/)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Digital Publishing EPUB](/words/net/digital-publishing-epub/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|[Printer Command Language (PCL)](/words/net/printer-command-language-pcl/)|Aspose.Words for .NET provides support to save document to PCL format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Microsoft Word - DOC](/words/net/file-formats-and-conversions/)|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[WordprocessingML - DOCX and XML](/words/net/file-formats-and-conversions/)|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Rich Text Format - RTF](/words/net/file-formats-and-conversions/)|Comprehensive support of the RTF format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[HTML, XHTML and MHTML](/words/net/file-formats-and-conversions/)|Load and save HTML/XHTML for even greater interoperability. Save as MHTML is also available.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[OpenDocument - ODT](/words/net/file-formats-and-conversions/)|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Adobe Portable Document Format - PDF](/words/net/file-formats-and-conversions/)|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[XML Paper Specification - XPS](/words/net/file-formats-and-conversions/)|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Plain Text - TXT](/words/net/file-formats-and-conversions/)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Digital Publishing EPUB](/words/net/file-formats-and-conversions/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|[Printer Command Language (PCL)](/words/net/file-formats-and-conversions/)|Aspose.Words for .NET provides support to save document to PCL format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 ## Rendering and Printing
 

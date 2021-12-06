@@ -1,5 +1,6 @@
 ---
 title: AutoMerge for Dynamics CRM
+description: "The Aspose AutoMerge is an open source add-on to be used with Microsoft Dynamics CRM. It allows easily configure a workflow and generate documents from templates."
 type: docs
 weight: 10
 url: /net/automerge-for-dynamics-crm/
@@ -45,7 +46,6 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
-- [Codeplex](http://goo.gl/2iiWDp)
 - [Github](http://goo.gl/Rtz2bB)
 - [Sourceforge](http://goo.gl/eM7eLD)
 - [Bitbucket](http://goo.gl/G6I63s)
@@ -53,7 +53,6 @@ You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
 You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
-- [Codeplex](http://goo.gl/klLk9A)
 - [Github](http://goo.gl/OQCXKW)
 - [Sourceforge](http://goo.gl/hT6rBJ)
 - [Bitbucket](http://goo.gl/3RtHTR)
@@ -90,7 +89,7 @@ It is simple to install Aspose .NET AutoMerge. Please follow below Instructions:
 
 ## Using
 
-Easily configure and Use Aspose .NET AutoMerge for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-automerge/).
+Easily configure and Use Aspose .NET AutoMerge for Dynamics CRM by following the instructions [here](/words/net/using-and-configuring-crm-automerge/).
 
 ## Video Demo
 
@@ -102,7 +101,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET AutoMerge using any of the following platforms:
 
-- [Codeplex](http://goo.gl/Lgma6E)
 - [Github](http://goo.gl/7QOJlI)
 - [Sourceforge](http://goo.gl/2rEubq)
 - [Bitbucket](http://goo.gl/blUMuZ)
@@ -111,4 +109,4 @@ You can log any issues or suggestions related to Aspose .NET AutoMerge using any
 ## Extend and Contribute
 
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
-Please find the latest Source Code and Code Example [here](https://docs.aspose.com/words/net/extend-and-contribute-to-crm-automerge/).
+Please find the latest Source Code and Code Example [here](/words/net/extend-and-contribute-to-crm-automerge/).

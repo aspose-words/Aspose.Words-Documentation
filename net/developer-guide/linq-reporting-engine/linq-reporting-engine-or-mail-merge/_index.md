@@ -27,11 +27,11 @@ Overall, Mail Merge is a good way to go if you are never going to use features b
 
 ## LINQ Reporting Engine Features
 
-In contrast to Mail Merge, the concept of LINQ Reporting Engine was born within Aspose.Words and is not tied with any Microsoft Word legacy. The engine uses its own [template syntax](https://docs.aspose.com/words/net/template-syntax/) based on plain-text tags, which can be one of the reasons to switch to its usage if working with Microsoft Word fields is too complex for you or your users creating templates. For example, an alternative LINQ Reporting Engine template for an order looks as follows.
+In contrast to Mail Merge, the concept of LINQ Reporting Engine was born within Aspose.Words and is not tied with any Microsoft Word legacy. The engine uses its own [template syntax](/words/net/template-syntax/) based on plain-text tags, which can be one of the reasons to switch to its usage if working with Microsoft Word fields is too complex for you or your users creating templates. For example, an alternative LINQ Reporting Engine template for an order looks as follows.
 
 <img src="linq-features.jpg" alt="linq-features-aspose-words-net" style="width:850px"/>
 
-However, the major advantage of the engine is its out-of-the-box support of numerous features missing in Mail Merge. The following are the key ones:
+However, the major advantage of the engine is its out-of-the-box support of many features missing in Mail Merge. The following are the key ones:
 
 - Support of multiple data sources (including of different types)
 - Built-in support of more data source types: Custom .NET objects, ADO.NET objects, JSON, XML, CSV

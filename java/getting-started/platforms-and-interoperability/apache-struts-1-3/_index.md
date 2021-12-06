@@ -1,5 +1,6 @@
-﻿---
+---
 title: Apache Struts 1.3
+description: "Using Aspose.Words for Java on Apache Struts."
 type: docs
 weight: 80
 url: /java/aspose-words-java-for-struts-1-3/
@@ -17,7 +18,7 @@ One way to separate concerns in a software application is to use a Model-View-Co
 
 ## Aspose.Words for Java
 
-Aspose.Words for Java is an advanced class library for Java that allows you to perform a great range of document processing tasks directly within your Java
+Aspose.Words for Java is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
 
 Aspose.Words for Java supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
@@ -33,7 +34,7 @@ Aspose.Words Java for Struts 1.3 is simple book store web based application writ
 
 {{% alert color="primary" %}} 
 
-[Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) is very rich in features, however this demo web application demonstrates just a fraction of it!For the complete features list of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx), you are strongly recommended to check the API documentation at:
+[Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) is very rich in features, however this demo web application shows just a fraction of it!For the complete features list of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx), you are strongly recommended to check the API documentation at:
 <http://www.aspose.com/java/word-component.aspx>
 
 {{% /alert %}} 
@@ -53,5 +54,5 @@ Aspose.Words Java for Struts 1.3 is simple book store web based application writ
 
 - Aspose.Words 14.10.0 or above.
 - Java IDE (Eclipse, NetBeans, IntelliJ, ...).
-- [Downloads and Configure Aspose.Words in Struts 1.3](https://docs.aspose.com/words/java/downloads-and-configure-aspose-words-in-struts-1-3/)
-- [Support, Extend and Contribute Aspose.Words in Struts 1.3](https://docs.aspose.com/words/java/support-extend-and-contribute-aspose-words-in-struts-1-3/)
+- [Downloads and Configure Aspose.Words in Struts 1.3](/words/java/downloads-and-configure-aspose-words-in-struts-1-3/)
+- [Support, Extend and Contribute Aspose.Words in Struts 1.3](/words/java/support-extend-and-contribute-aspose-words-in-struts-1-3/)

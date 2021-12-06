@@ -1,11 +1,12 @@
 ﻿---
 title: Metadata Cleaner for Word
+description: "Aspose.Words Metadata Cleaner for Word is a metadata removal tool which protects organizations from accidental information and metadata leaks."
 type: docs
 weight: 10
 url: /net/metadata-cleaner-for-word/
 ---
 
-Aspose.Words Metadata Cleaner is a metadata removal tool which protects organizations from accidental information and metadata leaks. Unintentional leaks have the potential to embarrass or negatively impact a company’s financial well-being. Aspose.Words Metadata Cleaner that will allow you to select the document and clean it. It will allow you to clean all Built-in and Custom properties from these files. You can select a few files and clean them simultaneously in one click. Extract it on your machine and run it directly without installing.
+Aspose.Words Metadata Cleaner is a metadata removal tool which protects organizations from accidental information and metadata leaks. Unintentional leaks have the potential to embarrass or negatively impact a company’s financial well-being. Aspose.Words Metadata Cleaner that will allow you to select the document and clean it. It will allow you to clean all Built-in and Custom properties from these files. You can select multiple files and clean them simultaneously in one click. Extract it on your machine and run it directly without installing.
 
 Major features of this tool are:
 
@@ -31,7 +32,6 @@ This tool will work with all version of windows.
 
 You can download the latest solution at:
 
-- [Codeplex](https://asposewordsoffice.codeplex.com/releases/view/620032)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/metadataCleanerWord)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-5445a838)
 
@@ -52,7 +52,7 @@ You can download the latest solution at:
 
 - Click on Browse Files to select Word Documents.
 - It will allow you to select doc, docx, dot, docm, dotx, dotm, rtf, odt, ott and you can select any **.** file.
-- You can select a few files as well.
+- You can select multiple files as well.
 - Once the files are selected the files count will be changed.
 - Click the Clean button to clean metadata from these files.
 - Once the processing is complete, it will show a statistics of total cleaned files.
@@ -70,7 +70,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to this add-on using any of the following platforms:
 
-- [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-5445a838/view/Discussions)
 
@@ -78,7 +77,6 @@ You can log any issues or suggestions related to this add-on using any of the fo
 
 You can download the latest source code at:
 
-- [Codeplex](https://archive.codeplex.com/?p=asposewordsoffice#Aspose.Words%20Metadata%20Cleaner%20for%20Word%20Processing%20Documents/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Word/Aspose.Words%20Metadata%20Cleaner%20for%20Word%20Processing%20Documents)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Metadata-5445a838/view/SourceCode)
 

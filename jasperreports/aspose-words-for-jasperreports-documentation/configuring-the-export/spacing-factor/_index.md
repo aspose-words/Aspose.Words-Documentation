@@ -1,5 +1,6 @@
 ﻿---
 title: Spacing Factor
+description: "Aspose Words for JasperReports can reduce spacing between page elements proportionally."
 type: docs
 weight: 20
 url: /jasperreports/spacing-factor/
@@ -7,7 +8,7 @@ url: /jasperreports/spacing-factor/
 
 {{% alert color="primary" %}} 
 
-Sometimes you may notice that page contents in the exported documents do not fit a particular page and therefore are pushed to the next page, causing an etra page. This is a trade-off of the flow layout mode which enables to compose documents from “normal” inline paragraphs and tables and which is the default in Aspose.Words for JasperReports. 
+Sometimes you may notice that page contents in the exported documents do not fit a particular page and therefore are pushed to the next page, causing an etra page. This is a trade-off of the flow layout mode which allows to compose documents from “normal” inline paragraphs and tables and which is the default in Aspose.Words for JasperReports. 
 
 {{% /alert %}} 
 

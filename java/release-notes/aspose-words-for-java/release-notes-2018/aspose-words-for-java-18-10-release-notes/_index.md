@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 18.10 Release Notes
+description: "Aspose.Words for Java 18.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30
 url: /java/aspose-words-for-java-18-10-release-notes/
@@ -255,7 +256,7 @@ This property is added for convenience in addition to *SizeInPoints* property an
 
 ### Added API for Font Fallback Settings
 
-We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](https://docs.aspose.com/words/java/manipulate-and-substitute-truetype-fonts/#font-fallback-settings-from-xml).
+We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](/words/java/manipulate-and-substitute-truetype-fonts/#font-fallback-settings-from-xml).
 
 {{< highlight csharp >}}
 public class FontSettings
@@ -306,7 +307,7 @@ public class FontFallbackSettings
 	/// <remarks>
 	/// This method may produce non-optimal fallback settings. Fonts are checked by <a href="https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur">
 	/// Unicode Character Range</a> fields and not by the actual glyphs presence. Also Unicode ranges are checked individually
-	/// and many ranges related to single language/script may use different fallback fonts.
+	/// and several ranges related to single language/script may use different fallback fonts.
 	/// </remarks>
 	public void BuildAutomatic();
 }
@@ -477,7 +478,7 @@ New public property ***AllowCellSpacing*** was added into the Table class:
 public boolean AllowCellSpacing
 {{< /highlight >}}
 
-This property enables to control spacing between cells.
+This property allows to control spacing between cells.
 Setting this property to ***false*** will completely remove spacing between cells
 
 UC:

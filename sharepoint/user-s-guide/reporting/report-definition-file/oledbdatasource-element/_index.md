@@ -1,5 +1,6 @@
----
+﻿---
 title: OleDbDataSource Element
+description: "This page describes OleDbDataSource element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 70
 url: /sharepoint/oledbdatasource-element/
@@ -10,4 +11,3 @@ This element contains information about a connection to a relational database vi
 |Name|Cardinality|Has Children|Description|
 | :- | :- | :- | :- |
 |ConnectionString|1|No|Data source connection string. It must not be empty.|
-

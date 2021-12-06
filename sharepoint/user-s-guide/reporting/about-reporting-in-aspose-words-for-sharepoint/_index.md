@@ -1,5 +1,6 @@
 ﻿---
 title: About Reporting in Aspose.Words for SharePoint
+description: "This page describes basic principles of the Reporting in the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/about-reporting-in-aspose-words-for-sharepoint/
@@ -40,4 +41,4 @@ A report designer does not need to write the code to get data from a data source
 - Describe [relationships between query results](/words/sharepoint/relations-element/).
 - Describe [report parameters](/words/sharepoint/parameters-element/).
 
-You can also build reports from templates programmatically with numerous lines of code using Aspose.Words.SharePoint.Reporting namespace.
+You can also build reports from templates programmatically with a few lines of code using Aspose.Words.SharePoint.Reporting namespace.

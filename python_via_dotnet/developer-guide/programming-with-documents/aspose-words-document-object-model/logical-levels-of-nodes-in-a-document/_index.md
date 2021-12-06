@@ -3,7 +3,8 @@ title: Logical Levels of Nodes in a Document
 type: docs
 description: "In Aspose.Words for Python via .NET documentation mentioned logical levels of nodes – block level, inline level, or row level. The node level is used to describe the location in the document tree where the node is typically occur."
 weight: 10
-url: /python/logical-levels-of-nodes-in-a-document/
+url: /python-net/logical-levels-of-nodes-in-a-document/
+aliases: [/python/logical-levels-of-nodes-in-a-document/]
 ---
 
 This documentation sometimes refers to a group of node classes as belonging to a "level" in a document, such as "block-level", "inline-level" (also known as "inline"), or “row-level” nodes. These levels in a document are differentiated purely logically and are not explicitly expressed by inheritance or other Aspose.Words DOM means. The node level is used to describe the place in the document tree where the node would typically occur.

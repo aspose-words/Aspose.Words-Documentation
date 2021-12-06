@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on Print Export
+description: "Aspose.Words for .NET allows you to work with drawing features supported when saving to printing device."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-print-export/
@@ -22,7 +23,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |PNG |Yes | | |
 |JPG |Yes | | |
-|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/metafilerenderingoptions)|
+|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/metafilerenderingoptions)|
 |EMF |Yes | | |
 |EMF+ |Yes | | |
 |BMP |Yes | | |
@@ -98,7 +99,7 @@ Output as a regular image.
 |Charts (VML) |Yes | | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | | |
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This enables the watermark to appear behind all content and as faded. | |
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. | |
 
 ## WordArt
 

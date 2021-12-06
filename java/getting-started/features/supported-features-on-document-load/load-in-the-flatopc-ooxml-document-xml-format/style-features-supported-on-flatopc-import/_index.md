@@ -1,5 +1,6 @@
-﻿---
+---
 title: Style Features Supported on FlatOPC Import
+description: "Aspose.Words for Java allows you to work with style features supported on FlatOPC format import."
 type: docs
 weight: 100
 url: /java/style-features-supported-on-flatopc-import/
@@ -7,7 +8,7 @@ url: /java/style-features-supported-on-flatopc-import/
 
 {{% alert color="primary" %}} 
 
-A style enables you to define a set of formatting that can be reused on numerous elements in a document. This saves time and allows for more consistent formatting throughout your document.
+A style allows you to define a set of formatting that can be reused on many elements in a document. This saves time and allows for more consistent formatting throughout your document.
 
 A style loaded into a document is represented in the Aspose.Words DOM by the Style class. You can access or modify any type of style (both in-built or custom) in a document.
 

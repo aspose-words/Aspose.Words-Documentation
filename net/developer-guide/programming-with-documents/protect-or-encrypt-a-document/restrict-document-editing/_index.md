@@ -8,7 +8,7 @@ url: /net/restrict-document-editing/
 
 Sometimes you may need to limit the ability to edit a document and only allow certain actions with it. This can be useful to prevent other people from editing sensitive and confidential information in your document.
 
-Aspose.Words enables you to restrict editing a document by setting a restriction type. In addition, Aspose.Words also allows you to specify write protection settings for a document.
+Aspose.Words allows you to restrict editing a document by setting a restriction type. In addition, Aspose.Words also enables you to specify write protection settings for a document.
 
 This article explains how to use Aspose.Words to select a restriction type, how to add or remove protection, and how to make unrestricted editable regions.
 
@@ -36,7 +36,7 @@ Note that the password being set is just a property in a document that can be re
 
 Adding protection to your document is a simple process, as all you need to do is apply one of the protection methods detailed in this section.
 
-Aspose.Words enables you to protect your documents from changes using the [Protect](https://apireference.aspose.com/words/net/aspose.words/document/methods/protect/index) method. This method is not a security feature and does not encrypt a document.
+Aspose.Words allows you to protect your documents from changes using the [Protect](https://apireference.aspose.com/words/net/aspose.words/document/methods/protect/index) method. This method is not a security feature and does not encrypt a document.
 
 {{% alert color="primary" %}}
 
@@ -47,11 +47,11 @@ In Microsoft Word, you can restrict editing in a similar way using both:
 
 {{% /alert %}}
 
-The following code example demonstrates how to add password protection to your document:
+The following code example shows how to add password protection to your document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-PasswordProtection.cs" >}}
 
-The following code example demonstrates how to restrict editing in a document so only editing in form fields is possible:
+The following code example shows how to restrict editing in a document so only editing in form fields is possible:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-Document protection-AllowOnlyFormFieldsProtect.cs" >}}
 
@@ -67,7 +67,7 @@ The following code example shows how to remove protection from your document:
 
 You can restrict editing of your document and at the same time allow changes to selected parts of it. So, anyone who opens your document will be able to access these unrestricted parts and make changes to the content.
 
-Aspose.Words enables you to mark the parts that can be changed in your document using the [StartEditableRange](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/starteditablerange) and [EndEditableRange](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endeditablerange/index) methods.
+Aspose.Words allows you to mark the parts that can be changed in your document using the [StartEditableRange](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/starteditablerange) and [EndEditableRange](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endeditablerange/index) methods.
 
 The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 

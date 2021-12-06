@@ -1,5 +1,6 @@
-﻿---
+---
 title: Add Watermark in Document
+description: "Aspose.Words for Java allows you to add a watermark into a document easily and fast instead of using docx4j."
 type: docs
 weight: 20
 url: /java/add-watermark-in-document/
@@ -24,16 +25,16 @@ public static void main(String[] args) throws Exception
 	// Create a watermark shape. This will be a WordArt shape.
 	// You are free to try other shape types as watermarks.
 	Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
-
+	
 	// Set up the text of the watermark.
 	watermark.getTextPath().setText(watermarkText);
 	watermark.getTextPath().setFontFamily("Arial");
 	watermark.setWidth(500);
 	watermark.setHeight(100);
-
+	
 	// Text will be directed from the bottom-left to the top-right corner.
 	watermark.setRotation(-40);
-
+	
 	// Remove the following two lines if you need a solid black text.
 	watermark.getFill().setColor(Color.GRAY);
  // Try LightGray to get more Word-style watermark
@@ -49,7 +50,7 @@ public static void main(String[] args) throws Exception
 	// Create a new paragraph and append the watermark to this paragraph.
 	Paragraph watermarkPara = new Paragraph(doc);
 	watermarkPara.appendChild(watermark);
-
+	
 	// Insert the watermark into all headers of each document section.
 	for (Section sect : doc.getSections())
 	{
@@ -79,7 +80,7 @@ private static void insertWatermarkIntoHeader(Paragraph watermarkPara, Section s
 
 ## Docx4j - Add Watermark in Document
 
-Below example demonstrates how a watermark can be added to document using docx4j library.
+Below example shows how a watermark can be added to document using docx4j library.
 
 **Java**
 
@@ -195,7 +196,7 @@ private byte[] getImage() throws IOException {
 		   && (numRead=is.read(bytes, offset, bytes.length-offset)) >= 0) {
 		offset += numRead;
 	}
-
+	
 	// Ensure all the bytes have been read in
 	if (offset < bytes.length) {
 		System.out.println("Could not completely read file "+imageFile.getName());
@@ -207,16 +208,14 @@ private byte[] getImage() throws IOException {
 
 ## Download Running Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/releases/view/618874)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Docx4j-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://aspose-wordsjavadocx4j.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/documents/addwatermark/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/addwatermark)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Add a Watermark to a Document](https://docs.aspose.com/words/java/how-to-add-a-watermark-to-a-document/).
+For more details, visit [How to Add a Watermark to a Document](/words/java/how-to-add-a-watermark-to-a-document/).
 
 {{% /alert %}}

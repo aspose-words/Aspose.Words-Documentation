@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 21.2 Release Notes
+description: "Aspose.Words for Java 21.2 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 11
 url: /java/aspose-words-for-java-21-2-release-notes/
@@ -90,7 +91,7 @@ There are 97 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21006 | ReportingEngine.BuildReport could not create the bitmap - lack of system   resources - FileFormat=0 | Bug |
 | WORDSNET-21473 | DOCX to PDF conversion issue with accessibility check for alternative   text | Bug |
 | WORDSNET-20982 | Artifact issue while converting DOCX to PDF | Bug |
-| WORDSNET-21305 | IChar solution allocates too several class instances | Bug |
+| WORDSNET-21305 | IChar solution allocates too many class instances | Bug |
 | WORDSNET-21306 | DOCX to PDF conversion: a part of first page is pushed to second page   after conversion | Bug |
 | WORDSNET-21307 | Messed up headers after extract page | Bug |
 | WORDSNET-21617 | Track changes - Bookmarks not being generated for Headings during Word to   PDF conversion | Bug |
@@ -254,7 +255,7 @@ Also added corresponding public enums:
 /// <remarks>
 /// Specifies a theme font type which can be referenced as a theme font within the parent object properties.
 /// This theme font is a reference to one of the predefined theme fonts, located in the document's
-/// Theme part, which enables for font information to be set centrally in the document.
+/// Theme part, which allows for font information to be set centrally in the document.
 /// </remarks>
 public enum ThemeFont
 {{< /highlight >}}
@@ -617,7 +618,7 @@ Added a new public property to FindReplaceOptions object:
 /// <para>The default value is <c>false</c>.</para>
 /// </summary>
 /// <remarks>
-/// This option enables to replace paragraph break when there is no next sibling paragraph to which all child
+/// This option allows to replace paragraph break when there is no next sibling paragraph to which all child
 /// nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
 /// </remarks>
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -750,7 +751,7 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex);
 /// <param name="rowIndex">The index of the row in the table.</param>
 /// <param name="columnIndex">The index of the column in the table.</param>
 /// <param name="characterIndex">The index of the character inside the cell.
-/// A negative value enables you to specify a position from the end of the cell. Use -1 to move to the end of
+/// A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of
 /// the cell.</param>
 public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
 {{< /highlight >}}

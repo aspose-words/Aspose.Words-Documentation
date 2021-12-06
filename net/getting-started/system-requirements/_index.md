@@ -77,7 +77,7 @@ Aspose.Words for .NET also supports .NET Standard 2.0 specification and its impl
 		</tr>
   <tr>
 			<td>.NET Standard 2.0</td>
-			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 3.0</li><li>.NET 5.0</li></ul></td>
+			<td><ul><li>.NET Core 2.0</li><li>.NET Core 2.1</li><li>.NET Core 3.0</li><li>.NET 5.0</li><li>.NET 6.0</li></ul></td>
 			</tr>
 </table>
 

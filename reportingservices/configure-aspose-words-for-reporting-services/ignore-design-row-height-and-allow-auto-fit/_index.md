@@ -1,15 +1,16 @@
 ---
 title: Ignore Design Row Height and Allow Auto Fit
+description: "This page describes Ignore Design Row Height and Allow Auto Fit settings of the Aspose.Words for Reporting Services."
 type: docs
 weight: 120
 url: /reportingservices/ignore-design-row-height-and-allow-auto-fit/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following configuration setting only applies to the Flow Layout.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 These two settings are applied to row heights inside tables. By default these settings are both disabled, that is set to False. When enabled (set to True), IgnoreDesignRowHeight allows row height to increase if content does not fit original row height. And when enabled (set to True), AllowAutoFit allows row height to decrease if content height is less than original row height
 

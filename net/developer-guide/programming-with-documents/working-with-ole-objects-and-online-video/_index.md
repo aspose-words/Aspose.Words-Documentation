@@ -33,7 +33,7 @@ The following code example demonstrates how to inserts an embedded OLE object as
 
 ## Inserting Online Video
 
-Online video can be inserted in MS Word from Insert tab > Online Video. You can insert online video into the document at the current location by calling [DocumentBuilder.InsertOnlineVideo](http://www.aspose.com/api/net/words/aspose.words/documentbuilder/methods/insertonlinevideo/index) method. Four overloads of this method have introduced in DocumentBuilder class. The first one works with the most popular video resources and takes the URL to the video as a parameter. 
+Online video can be inserted in MS Word from Insert tab > Online Video. You can insert online video into the document at the current location by calling [DocumentBuilder.InsertOnlineVideo](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertonlinevideo/index) method. Four overloads of this method have introduced in DocumentBuilder class. The first one works with the most popular video resources and takes the URL to the video as a parameter. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Video-InsertOnlineVideo-InsertOnlineVideo.cs" >}}
 

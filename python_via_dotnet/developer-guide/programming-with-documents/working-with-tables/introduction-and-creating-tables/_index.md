@@ -1,8 +1,10 @@
 ---
 title: Introduction and Creating Tables
+description: "Create and manage tables in a document using python."
 type: docs
 weight: 10
-url: /python/introduction-and-creating-tables/
+url: /python-net/introduction-and-creating-tables/
+aliases: [/python/introduction-and-creating-tables/]
 ---
 
 ## Tables in Microsoft Word

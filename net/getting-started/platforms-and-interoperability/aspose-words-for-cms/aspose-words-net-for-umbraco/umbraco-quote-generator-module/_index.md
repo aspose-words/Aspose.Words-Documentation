@@ -1,5 +1,6 @@
 ﻿---
 title: Umbraco Quote Generator Module
+description: "Generate Quotes in your Umbraco site using Aspose.Words Umbraco Quote Generator Module."
 type: docs
 weight: 30
 url: /net/umbraco-quote-generator-module/
@@ -62,7 +63,6 @@ The module is supported on all versions of
 
 You can download Quote Generator modules from one of the following locations
 
-- [CodePlex](https://goo.gl/sdTOKK)
 - [Github](https://goo.gl/qh0Rlw)
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)
@@ -82,11 +82,11 @@ Once downloaded, please follow these steps to install this package into your Umb
 
 ## Using
 
-- [Using Umbraco Quote Generator ](https://docs.aspose.com/words/net/using-and-video-demo-for-umbraco-quote-generator/#using)
+- [Using Umbraco Quote Generator ](/words/net/using-and-video-demo-for-umbraco-quote-generator/#using)
 
 ## Video Demo
 
-- [Video Demo Umbraco Quote Generator ](https://docs.aspose.com/words/net/using-and-video-demo-for-umbraco-quote-generator/#video-demo)
+- [Video Demo Umbraco Quote Generator ](/words/net/using-and-video-demo-for-umbraco-quote-generator/#video-demo)
 
 ## Support, Extend and Contribute
 
@@ -98,7 +98,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [CodePlex](https://goo.gl/sdTOKK)
 - [Github](https://goo.gl/qh0Rlw)
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)
@@ -109,7 +108,6 @@ Umbraco quote generator module is an open source and their source code is availa
 
 #### Source Code
 
-- [CodePlex](https://goo.gl/sdTOKK)
 - [Github](https://goo.gl/qh0Rlw)
 - [Umbraco Projects](https://goo.gl/xajFGc)
 - [Code.MSDN](https://goo.gl/1PB9eW)

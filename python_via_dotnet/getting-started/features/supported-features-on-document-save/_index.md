@@ -1,9 +1,12 @@
 ---
 title: Supported Features on Document Save
+description: "Save your document to any supported format using python. Convert and export a document of any size."
 type: docs
 weight: 30
-url: /python/supported-features-on-document-save/
-aliases: [/python/document-saving-overview/]
+url: /python-net/supported-features-on-document-save/
+aliases: 
+  - /python/document-saving-overview/
+  - /python/supported-features-on-document-save/
 ---
 
 Aspose.Words has some of the most advanced conversion support of the common word processing formats.
@@ -14,6 +17,6 @@ Aspose.Words can convert a document of any size as long as there is sufficient w
 
 {{% alert color="primary" %}}
 
-For more information and a description of the features available for the different formats, see the ["Supported Features on Document Save"](https://docs.aspose.com/words/net/supported-features-on-document-save/) section in the Aspose.Words for .NET documentation.
+For more information and a description of the features available for the different formats, see the ["Supported Features on Document Save"](/words/net/supported-features-on-document-save/) section in the Aspose.Words for .NET documentation.
 
 {{% /alert %}}

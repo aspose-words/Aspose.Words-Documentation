@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on EPUB Export
+description: "Aspose.Words for .NET allows you to work with text features supported when saving to EPUB format."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-epub-export/
@@ -11,7 +12,7 @@ Text in different languages is fully supported and can be rendered to formats su
 
 Exported to HTML as &lt;span&gt; elements.
 
-Each Run node in the model is exported as a separate span to retain formatting properly. Some documents can contain several runs that are unrequired and can be joined. In the resulting HTML document this can result in several extra span elements.
+Each Run node in the model is exported as a separate span to retain formatting properly. Some documents can contain many runs that are unrequired and can be joined. In the resulting HTML document this can result in many extra span elements.
 
 There is a method Document.JoinRunsWithSameFormatting to avoid this situation. It can be called before exporting to HTML.
 

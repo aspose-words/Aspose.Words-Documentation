@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Java 18.1 Release Notes
+description: "Aspose.Words for Java 18.1 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 120
 url: /java/aspose-words-for-java-18-1-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-java-18-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 18.1](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/18.1/)
+This page contains release notes for [Aspose.Words for Java 18.1](https://repository.aspose.com/repo/com/aspose/aspose-words/18.1/)
 
 {{% /alert %}} 
 
@@ -27,7 +28,7 @@ There are 63 improvements and fixes in this regular monthly release. The most no
 - Vertical axis of 3DArea Chart scaling fixed.
 - MS Word 2016 approach for rendering of DrawingML Charts axis labels implemented; (Labels are rotated to fit the chart).
 - Fixed rendering of Legend markers for 3D-LineChart.
-- Improved rendering of composite (with a few series) charts.
+- Improved rendering of composite (with multiple series) charts.
 - Chart title with ManualLayout rendering fixed.
 
 ## Full List of Issues Covering all Changes in this Release
@@ -96,7 +97,7 @@ There are 63 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-15801|Add feature to show/hide axis of chart|Feature|
 |WORDSNET-16042|API to get geometric position of element in Word Doc|Feature|
 |WORDSNET-16060|Add feature to get w:storeItemID of StructuredDocumentTag|Feature|
-|WORDSNET-16092|Add feature to add many replies to comment using Comment.AddReply|Feature|
+|WORDSNET-16092|Add feature to add multiple replies to comment using Comment.AddReply|Feature|
 
 ## Public API and Backward Incompatible Changes
 
@@ -137,7 +138,7 @@ public boolean Hidden
 }
 {{< /highlight >}}
 
-The property enables hiding/showing and getting visibility state of an axis of a chart.
+The property allows hiding/showing and getting visibility state of an axis of a chart.
 
 #### UC to create a chart and hide its Y axis
 

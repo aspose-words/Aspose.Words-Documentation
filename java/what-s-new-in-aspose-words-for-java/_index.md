@@ -23,25 +23,39 @@ import Aspose.Words.Notes;
 import Aspose.Words.Loading;
 {{< /highlight >}}
 
-For more information on these changes, see the [Aspose.Words for Java 21.3 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-3-release-notes/) and [Aspose.Words for Java 21.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-4-release-notes/) pages.
+For more information on these changes, see the [Aspose.Words for Java 21.3 Release Notes](/words/java/aspose-words-for-java-21-3-release-notes/) and [Aspose.Words for Java 21.4 Release Notes](/words/java/aspose-words-for-java-21-4-release-notes/) pages.
 
 {{% /alert %}}
 
-## Aspose.Words for Java 21.9, 21.10
+## Aspose.Words for Java 21.9, 21.10, 21.11
 
 Aspose.Words 21.9 expands the list-level formatting control.
 
 Aspose.Words 21.10 enhances rendering options, improves find and replace options, and expands Mail Merge and Structure Document Tag functionality.
 
+Aspose.Words 21.11 expands loadings and saving functionality, improves find and replace option and working with PDF.
+
 The API is enhanced for more flexible and convenient development.
 
 ### Rendering
 
+#### Working with gradient fills and gradient stops
+
 New public methods and properties to work with gradient fills and gradient stops have been added to satisfy the brightest ideas when developing your documents.
+
+#### Attachment Pane in Output PDF Documents
+
+A new option [UseAttachments](https://apireference.aspose.com/words/java/com.aspose.words/PdfPageMode) has been implemented to display the attachment pane in output PDF documents.
 
 ### Search and Compare
 
-A new option to ignore footnotes during the find and replace operation has been added.
+* A new option [IgnoreFootnotes](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreFootnotes) to ignore footnotes during the find and replace operation has been added.
+
+* A new option [IgnoreFieldCodes](https://apireference.aspose.com/words/java/com.aspose.words/findreplaceoptions#IgnoreFieldCodes) to ignore field codes during find and replace operation has been added.
+
+### Conversion
+
+A simple way to save images as Base64 string into Markdown format has been provided through the [ExportImagesAsBase64](https://apireference.aspose.com/words/java/com.aspose.words/markdownsaveoptions#ExportImagesAsBase64) property.
 
 ### Mail Merge and Reporting
 
@@ -52,12 +66,15 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/java/com
 - An ability to get the [CustomNumberStyleFormat](https://apireference.aspose.com/words/java/com.aspose.words/listlevel#CustomNumberStyleFormat) property of the [ListLevel](https://apireference.aspose.com/words/java/com.aspose.words/ListLevel) object has been added.
 - A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/java/com.aspose.words/ListLevel) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/java/com.aspose.words/listlevel#getEffectiveValue(int,int,java.lang.String)) method has been added.
 - An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
+- A new class [ChmLoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/ChmLoadOptions) has been added to get more control over CHM loading.
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 21.9 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-9-release-notes/).
+Learn more about [Aspose.Words for Java 21.9 Release Notes](/words/java/aspose-words-for-java-21-9-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.10 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-10-release-notes/).
+Learn more about [Aspose.Words for Java 21.10 Release Notes](/words/java/aspose-words-for-java-21-10-release-notes/).
+
+Learn more about [Aspose.Words for Java 21.11 Release Notes](/words/java/aspose-words-for-java-21-11-release-notes/).
 
 {{% /alert %}}
 
@@ -119,18 +136,18 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 - The equations created with EQ fields are now supported upon converting to all HTML-based formats.
 - A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/java/com.aspose.words/layoutoptions#ContinuousSectionPageNumberingRestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 - An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
-- A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#ExportLanguageToSpanTag) has been added. This option enables users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
+- A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#ExportLanguageToSpanTag) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
 - A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 21.5 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-5-release-notes/).
+Learn more about [Aspose.Words for Java 21.5 Release Notes](/words/java/aspose-words-for-java-21-5-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.6 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-6-release-notes/).
+Learn more about [Aspose.Words for Java 21.6 Release Notes](/words/java/aspose-words-for-java-21-6-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.7 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-7-release-notes/).
+Learn more about [Aspose.Words for Java 21.7 Release Notes](/words/java/aspose-words-for-java-21-7-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.8 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-8-release-notes/).
+Learn more about [Aspose.Words for Java 21.8 Release Notes](/words/java/aspose-words-for-java-21-8-release-notes/).
 
 {{% /alert %}}
 
@@ -200,12 +217,12 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 21.1 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-1-release-notes/).
+Learn more about [Aspose.Words for Java 21.1 Release Notes](/words/java/aspose-words-for-java-21-1-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.2 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-2-release-notes/).
+Learn more about [Aspose.Words for Java 21.2 Release Notes](/words/java/aspose-words-for-java-21-2-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.3 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-3-release-notes/).
+Learn more about [Aspose.Words for Java 21.3 Release Notes](/words/java/aspose-words-for-java-21-3-release-notes/).
 
-Learn more about [Aspose.Words for Java 21.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-21-4-release-notes/).
+Learn more about [Aspose.Words for Java 21.4 Release Notes](/words/java/aspose-words-for-java-21-4-release-notes/).
 
 {{% /alert %}}

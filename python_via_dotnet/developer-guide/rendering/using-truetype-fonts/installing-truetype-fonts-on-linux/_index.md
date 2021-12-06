@@ -3,7 +3,8 @@ title: Install TrueType Fonts on Linux
 description: "Aspose.Words for Python via .NET allows rendering a document created using Microsoft Word on a Linux machine with the best accuracy. To accomplish this, copy font files from a Windows machine or Install a TrueType font package onto your Linux machine."
 type: docs
 weight: 20
-url: /python/installing-truetype-fonts-on-linux/
+url: /python-net/installing-truetype-fonts-on-linux/
+aliases: [/python/installing-truetype-fonts-on-linux/]
 ---
 
 Most often, you will use Aspose.Words to convert DOC or DOCX documents to PDF format. If you need to do this on a Linux machine, this topic will help you to learn how to ensure Aspose.Words is rendering your documents with the best accuracy.

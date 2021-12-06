@@ -7,7 +7,7 @@ url: /net/working-with-charts/
 
 ## Creating OOXML Charts from Scratch using Aspose.Words
 
-New [InsertChart](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertchart/methods/1) method was added into the [DocumentBuilder](http://www.aspose.com/api/net/words/aspose.words/documentbuilder) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.InsertChart](http://www.aspose.com/api/net/words/aspose.words.documentbuilder/insertchart/methods/1) method:
+New [InsertChart](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertchart/methods/1) method was added into the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.InsertChart](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertchart/methods/1) method:
 
 ### How to Insert Column chart
 
@@ -40,7 +40,7 @@ The code produces the following result:
 
 ### How to Insert Area Chart
 
-Below example demonstrates how to insert an area chart.
+Below example shows how to insert an area chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertAreaChart-InsertAreaChart.cs" >}}
 
@@ -50,7 +50,7 @@ The code produces the following result:
 
 ### How to Insert Bubble Chart
 
-Below example demonstrates how to insert a bubble chart.
+Below example shows how to insert a bubble chart.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertBubbleChart-InsertBubbleChart.cs" >}}
 
@@ -155,13 +155,13 @@ The AxisBound class represents a minimum or maximum bound of axis values. Bound 
 
 ### How to Set Interval Unit Between Labels
 
-The following code example demonstrates how to set the interval unit between labels on an axis.
+The following code example shows how to set the interval unit between labels on an axis.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.cs" >}}
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example demonstrates how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example shows how to hide the Y-axis of the chart. 
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-HideChartAxis.cs" >}}
 

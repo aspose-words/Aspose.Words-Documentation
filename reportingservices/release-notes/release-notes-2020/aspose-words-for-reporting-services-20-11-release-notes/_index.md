@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for Reporting Services 20.11 Release Notes
+description: "Aspose.Words for Reporting Services 20.11 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /reportingservices/aspose-words-for-reporting-services-20-11-release-notes/
@@ -24,7 +25,7 @@ Note: Starting from "Aspose.Words for Reporting Services 20.11" obsolete version
 
 |Key |Summary |Category |
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for .NET (20.11)](https://docs.aspose.com/words/net/aspose-words-for-net-20-11-release-notes/)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for .NET (20.11)](/words/net/aspose-words-for-net-20-11-release-notes/)|New feature|
 |WORDSRS-266|Word for SSRS - Rectangle with Image not exporting correctly|Bug|
 |WORDSRS-267|Word for SSRS - Header/Footer not working correctly|Bug|
 |WORDSRS-289|Export using RV assembly produces blacked output|Bug|

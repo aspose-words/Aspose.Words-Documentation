@@ -19,11 +19,11 @@ If all you have to do is a fairly simple programming operation on a DOCX documen
 
 It is worth noting that some tasks can be achieved with the Open XML SDK, but cannot be accomplished with Aspose.Words. For example, if you need direct access to the XML elements and attributes of an OOXML XML document, you should use the Open XML SDK. However, if you need to perform complex operations on documents such as some of the following tasks, then using Aspose.Words is your best option:
 
-- Support document formats other than DOCX – DOC, RTF, HTML, [and others](https://docs.aspose.com/words/java/supported-document-formats/)
-- Create documents by [copying or joining fragments of one or more documents](https://docs.aspose.com/words/java/insert-and-append-documents/) with automatically merging per-document structures such as styles and lists
-- Provide access to complex operations such as [find and replace](https://docs.aspose.com/words/java/find-and-replace/), insert and update a table of contents, formula or fields, and others
+- Support document formats other than DOCX – DOC, RTF, HTML, [and others](/words/java/supported-document-formats/)
+- Create documents by [copying or joining fragments of one or more documents](/words/java/insert-and-append-documents/) with automatically merging per-document structures such as styles and lists
+- Provide access to complex operations such as [find and replace](/words/java/find-and-replace/), insert and update a table of contents, formula or fields, and others
 - Generate business documents such as orders or reports populated with data from various data source
-- Convert documents between a few popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
+- Convert documents between many popular document formats, including converting to PDF, XPS, and printing, to make it look exactly like Microsoft Word would convert it
 - And others
 
 In the following sections, we will take a closer look at some of the features and abilities provided by Aspose.Words.
@@ -40,7 +40,7 @@ Aspose components are thoroughly tested.Since Aspose components are packaged int
 
 Being XML-based, Office Open XML is heralded as an enabling technology. It is true that Office Open XML makes it possible to build document processing and generating applications using only XML classes, without relying on third-party libraries such as Aspose.Words. OOXML documents are essentially zipped XML files, and the Open XML SDK is a collection of classes that allows you to work with the content of OOXML documents in a strongly typed way. That is, instead of unzipping a file to extract XML, loading that XML into the DOM tree, and working with the XML elements and attributes directly, Open XML SDK provides classes to do this.
 
-However, the OOXML specification is multiple thousand pages long. Being open and standard does not mean being simple. To properly process or generate OOXML documents one must invest in learning the format well. Thus, working with the Open XML SDK requires at least a basic knowledge of the Open XML Specification, which can take a long time to learn.
+However, the OOXML specification is several thousand pages long. Being open and standard does not mean being simple. To properly process or generate OOXML documents one must invest in learning the format well. Thus, working with the Open XML SDK requires at least a basic knowledge of the Open XML Specification, which can take a long time to learn.
 
 At the same time, the learning curve for working with Aspose.Words is minimal because its API has been carefully thought out and designed with the Java design guidelines in mind. This helps ensure ease of use and manipulation of document elements.
 
@@ -48,9 +48,9 @@ At the same time, the learning curve for working with Aspose.Words is minimal be
 
 We strongly believe that using Aspose.Words is still very beneficial when dealing with OOXML documents rather than working with XML or other libraries. In addition to making it easier to properly process and generate valid documents, Aspose.Words provides the following important features that you would not have when working with OOXML files directly via XML or other third-party libraries:
 
-- Quality [conversion between multiple popular document formats](https://docs.aspose.com/words/java/convert-a-document/) and [printing](https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/)
+- Quality [conversion between many popular document formats](/words/java/convert-a-document/) and [printing](/words/java/print-a-document-programmatically-or-using-dialogs/)
 - The ability to create documents from fragments of one or more documents, as well as the ability to fill documents with data from various sources
-- Programmatic access to the document properties that provide users with features such as, for example, [splitting a document into parts](https://docs.aspose.com/words/java/split-a-document/) or [comparing two documents](https://docs.aspose.com/words/java/compare-documents/)
+- Programmatic access to the document properties that provide users with features such as, for example, [splitting a document into parts](/words/java/split-a-document/) or [comparing two documents](/words/java/compare-documents/)
 - And others
 
 ## OOXML is Open, Why Use Aspose.Words?
@@ -81,4 +81,4 @@ The following is a fragment of an Office Open XML document:
 
 Have you ever wondered why standard XML classes such as XmlDocument do not offer to find and replace functionality? Implementing even a simple find and replace operation over an Office Open XML document yourself is far from easy. It might be that your boss will enjoy you code it yourself, but maybe not.
 
-Our advice: remember that open and standard does not mean simple and use Aspose.Words for such cases. As an example, you can study our article ["Find and Replace"](https://docs.aspose.com/words/java/find-and-replace/).
+Our advice: remember that open and standard does not mean simple and use Aspose.Words for such cases. As an example, you can study our article ["Find and Replace"](/words/java/find-and-replace/).

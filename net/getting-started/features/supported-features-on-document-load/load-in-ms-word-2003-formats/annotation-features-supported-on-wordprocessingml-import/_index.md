@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-wordprocessingml-import/
@@ -27,7 +28,7 @@ The Aspose.Words model is based on Word document formats. In these formats bookm
 
 See the following links in the documentation for further information:
 
-- [Working with Bookmarks old](https://docs.aspose.com/words/net/working-with-bookmarks/)
+- [Working with Bookmarks old](/words/net/working-with-bookmarks/)
 - [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
 - [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark)
 
@@ -42,7 +43,7 @@ See the following links in the documentation for further information:
 
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
 
-The range of a comment can span over various parts of the document text, including over numerous paragraphs and tables.
+The range of a comment can span over various parts of the document text, including over many paragraphs and tables.
 
 In Aspose.Words this range is represented by the following nodes:
 
@@ -56,14 +57,14 @@ All three comment nodes are related through the use of the ID properties on each
 
 See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/)
-- [Comment](http://www.aspose.com/api/net/words/aspose.words/comment)
-- [Comment.Id](http://www.aspose.com/api/net/words/aspose.words/comment/properties/id)
+- [How to Extract or Remove Comments](/words/net/working-with-comments/)
+- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
+- [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Comment|Yes| |- [Comment.SetTxt](https://apireference.aspose.com/words/net/aspose.words/comment/methods/settext)|
-|Comment Range|Yes| |<p>- [CommentRangeStart](http://www.aspose.com/api/net/words/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](http://www.aspose.com/api/net/words/aspose.words/commentrangeend)</p>|
+|Comment Range|Yes| |<p>- [CommentRangeStart](https://apireference.aspose.com/words/net/aspose.words/commentrangestart)</p><p>- [CommentRangeEnd](https://apireference.aspose.com/words/net/aspose.words/commentrangeend)</p>|
 |Author|Yes| |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date|Yes| |- **Comment.Date**|
 |Initial|Yes| |- **Comment.Inital**|
@@ -87,7 +88,7 @@ See the following links in the documentation for further information:
 - [Manage Tracking Changes](/words/net/working-with-document/#workingwithdocument-managetrackingchanges)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -95,10 +96,10 @@ See the following links in the documentation for further information:
 |Table Cell Deletion|Planned| | |
 |Table Cell Insertion|Planned| | |
 |Cell Merge or Split|Planned| | |
-|Run Deletion|Yes| |- [Run.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/node/properties/isdeleterevision)|
-|Run Insertion|Yes| |- [Run.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/node/properties/isinsertrevision)|
-|Paragraph Deletion|Yes| |- [Paragraph.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/isdeleterevision)|
-|Paragraph Insertion|Yes| |- [Paragraph.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/isinsertrevision)|
+|Run Deletion|Yes| |- [Run.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Run Insertion|Yes| |- [Run.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Paragraph Deletion|Yes| |- [Paragraph.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Paragraph Insertion|Yes| |- [Paragraph.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
 |Table Row Deletion|Yes| | |
 |Table Row Insertion|Yes| | |
 |Numbering Insertion|Yes| | |

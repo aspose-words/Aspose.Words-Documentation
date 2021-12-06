@@ -8,11 +8,11 @@ url: /java/repeat-table-header-rows-on-pages/
 
 {{% alert color="primary" %}}
 
-See more details in the [“Working with Columns and Rows”](https://docs.aspose.com/words/java/working-with-columns-and-rows/) article of the [“Working with Tables”](https://docs.aspose.com/words/java/working-with-tables/) documentation section.
+See more details in the [“Working with Columns and Rows”](/words/java/working-with-columns-and-rows/) article of the [“Working with Tables”](/words/java/working-with-tables/) documentation section.
 
 {{% /alert %}}
 
-A table can specify certain starting table rows to be used as header rows. This means that if the table spans over multiple pages, these rows will be repeated at the top of the table for each page. In Aspose.Words, you can apply this setting by using the [HeadingFormat](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeadingFormat) property.
+A table can specify certain starting table rows to be used as header rows. This means that if the table spans over many pages, these rows will be repeated at the top of the table for each page. In Aspose.Words, you can apply this setting by using the [HeadingFormat](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeadingFormat) property.
 
 The following code example shows how to build a table with rows that repeat on every page:
 

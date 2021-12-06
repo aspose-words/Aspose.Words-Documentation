@@ -14,9 +14,9 @@ On this page we will look at how to load a document from a stream using Aspose.W
 
 {{< tab tabNum="1" >}}
 
-Simply pass a stream object that contains the document into the [Document](https://apireference.aspose.com/net/words/aspose.words/document/constructors/main) constructor.
+Simply pass a stream object that contains the document into the [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/main) constructor.
 
-The following code example demonstrates how to open a document from a stream:
+The following code example shows how to open a document from a stream:
 
 {{< highlight csharp >}}
 Stream stream = File.Open(MyDir + "Document.docx", FileMode.Open);
@@ -67,6 +67,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Create or Load a Document](https://docs.aspose.com/words/net/create-or-load-a-document/#load-from-a-stream).
+For more information about Aspose.Words features please visit [Create or Load a Document](/words/net/create-or-load-a-document/#load-from-a-stream).
 
 {{% /alert %}}

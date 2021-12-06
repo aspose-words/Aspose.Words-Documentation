@@ -3,7 +3,8 @@ title: Encrypt a Document
 description: "Aspose.Words for Python via .NET allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
-url: /python/encrypt-a-document/
+url: /python-net/encrypt-a-document/
+aliases: [/python/encrypt-a-document/]
 ---
 
 Encryption is the process that translates readable text to meaningless sequences of bytes so it can only be read by the person who has the decryption key or the secret code. This process plays an important role in securing your content. It helps to encode the content, verify the origin of a document, prove that the content has not been modified after it was sent, and ensure that the data from the document is safe.

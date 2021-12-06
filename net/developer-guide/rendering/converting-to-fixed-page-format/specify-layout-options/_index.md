@@ -12,7 +12,7 @@ For a complete list of parameters such as [ContinuousSectionPageNumberingRestart
 
 ## Formatting Marks
 
-Aspose.Words enables to manage formatting marks using the following properties:
+Aspose.Words allows to manage formatting marks using the following properties:
 
 - [ShowHiddenText](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/showhiddentext) – a Boolean value, which specifies whether the hidden text is rendered.
 - [ShowParagraphMarks](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/showparagraphmarks) – a Boolean value, which specifies whether paragraph mark characters are rendered.

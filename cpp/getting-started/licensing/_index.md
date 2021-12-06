@@ -81,7 +81,7 @@ The following code example shows how to initialize a license from a folder:
 
 ##### Load a License from a Stream Object
 
-The following code example demonstrates how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method:
+The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/cpp/class/aspose.words.license#setlicense_stream) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-ApplyLicenseFromStream.h" >}}
 
@@ -141,7 +141,7 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 
 ## Using Multiple Aspose Products
 
-If you use several Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are multiple useful tips:
+If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are a few useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
 * Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://apireference.aspose.com/words/cpp/class/aspose.words.license) and Aspose.Cells has Aspose.Cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

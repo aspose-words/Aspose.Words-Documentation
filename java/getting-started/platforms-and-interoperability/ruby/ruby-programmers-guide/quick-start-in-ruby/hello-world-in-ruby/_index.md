@@ -1,5 +1,6 @@
-﻿---
+---
 title: Hello World in Ruby
+description: "Ruby: Write 'Hello' to a Word Document using Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/hello-world-in-ruby/
@@ -26,7 +27,7 @@ builder = Rjb::import('com.aspose.words.DocumentBuilder').new(document)
 
 builder.writeln("Hello World!")
 \# Save the document in DOCX format. The format to save as is inferred from the extension of the file name.
-\# Aspose.Words supports saving any document in a few more formats.
+\# Aspose.Words supports saving any document in many more formats.
 document.save(data_dir + "HelloWorld.docx")
 {{< /highlight >}}
 

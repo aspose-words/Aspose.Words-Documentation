@@ -1,5 +1,6 @@
 ---
 title: Save in the IDPF EPUB Document (.EPUB) Format
+description: "Aspose.Words for .NET allows you to work with various features supported when saving to EPUB format."
 type: docs
 weight: 60
 url: /net/save-in-the-idpf-epub-document-epub-format/

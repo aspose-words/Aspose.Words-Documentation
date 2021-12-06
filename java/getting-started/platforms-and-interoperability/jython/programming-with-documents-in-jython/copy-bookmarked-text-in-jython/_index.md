@@ -1,5 +1,6 @@
-﻿---
+---
 title: Copy Bookmarked Text in Jython
+description: "Jython: Copy Bookmarked Text using Aspose.Words for Java."
 type: docs
 weight: 12
 url: /java/copy-bookmarked-text-in-jython/
@@ -27,7 +28,7 @@ To Copy Bookmarked Text using **Aspose.Words Java for Jython**. Here you can see
         dstNode = dstDoc.getLastSection().getBody()
     
         # It is a good idea to use this import context object because multiple nodes are being imported.
-        # If you import several times without a single context, it will result in numerous styles created.
+        # If you import multiple times without a single context, it will result in many styles created.
         importer = NodeImporter(srcDoc, dstDoc, ImportFormatMode.KEEP_SOURCE_FORMATTING)
     
         # Do it once.
@@ -73,5 +74,4 @@ To Copy Bookmarked Text using **Aspose.Words Java for Jython**. Here you can see
 
 Download running code from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposewordsjavajython.codeplex.com/releases/view/619260)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Jython-v1.0.0)

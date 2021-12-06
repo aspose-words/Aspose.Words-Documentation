@@ -12,7 +12,7 @@ url: /cpp/document-builder-overview/
 
 ## Document Builder or Aspose.Words DOM
 
-**DocumentBuilder** complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The DocumentBuilder is a "facade" for the complex **Document** structure that enables you to quickly and easily insert content and formatting.
+**DocumentBuilder** complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The DocumentBuilder is a "facade" for the complex **Document** structure that allows you to quickly and easily insert content and formatting.
 
 Operations that are possible with **DocumentBuilder** are also possible when using the classes of the Aspose.Words DOM directly. However, using Aspose.Words DOM classes directly usually requires more lines of code than using **DocumentBuilder**.
 
@@ -38,7 +38,7 @@ To start, you need to create a **DocumentBuilder** and associate it with a **Doc
 
 To insert a text, pass the string of text you need to insert into the document to the **Write** method.
 
-The following code example demonstrates how to create a simple document using a document builder.
+The following code example shows how to create a simple document using a document builder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Quick-Start-HelloWorld-HelloWorld.cpp" >}}
 

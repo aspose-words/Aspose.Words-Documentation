@@ -1,5 +1,6 @@
 ---
 title: SPXmlQuery Element
+description: "This page describes SPListQueryelement element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 150
 url: /sharepoint/spxmlquery-element/
@@ -12,4 +13,3 @@ The [TableNames](/words/sharepoint/tablenames-element/) element is allowed insid
 |Name|Cardinality|Has Children|Description|
 | :- | :- | :- | :- |
 |ServerRelativeXmlFileUrl|1|No|Server relative URL of an XML data file.|
-

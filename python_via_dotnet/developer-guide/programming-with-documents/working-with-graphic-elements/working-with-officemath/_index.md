@@ -1,8 +1,10 @@
 ---
 title: Working with OfficeMath
+description: "Create and manage OfficeMath Type Objects in a document using python."
 type: docs
 weight: 30
-url: /python/working-with-officemath/
+url: /python-net/working-with-officemath/
+aliases: [/python/working-with-officemath/]
 ---
 
 Now it is even more convenient to work with OfficeMath Type Objects. In Aspose.Words, the customer can easily Justify and can also manage whether an equation is displayed inline or in a separate line. More so, with the availability of **MathObjectType**; useful controls can be implemented by use this matrix object. The examples below illustrates how to make use of these properties.

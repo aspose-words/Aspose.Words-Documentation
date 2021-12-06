@@ -1,4 +1,4 @@
----
+﻿---
 title: Installation
 description: "Install Aspose.Words for C++ using Manage NuGet Packages or Package Manager Console, as well as manual installer."
 type: docs
@@ -6,11 +6,11 @@ weight: 40
 url: /cpp/installation/
 ---
 
-Make sure your machine meets the [system requirements](https://docs.aspose.com/words/cpp/system-requirements/) before you begin.
+Make sure your machine meets the [system requirements](/words/cpp/system-requirements/) before you begin.
 
 This article explains how to install Aspose.Words for C++ on your computer.
 
-## Install or Update Aspose.Words for C++ using Manage NuGet Packages
+## Install or Update Aspose.Words for C++ using Manage NuGet Packages {#install-or-update-aspose-words-for-cpp-using-nuget}
 
 NuGet is the easiest way to download and install [Aspose.Words for C++](https://www.nuget.org/packages/Aspose.Words.Cpp) APIs. To do this, follow these steps:
 
@@ -34,6 +34,11 @@ You can also install or update Aspose.Words for .NET APIs using the *Package Man
 4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you
 
 In *Package Manager Console*, you can also use the `Update-Package Aspose.Words.Cpp` command to check for updates to the Aspose.Words package and install them if present.
+
+## Install or Update Aspose.Words using vcpkg
+
+[vcpkg](https://vcpkg.io/en/index.html) is a free C/C++ package manager for acquiring and managing libraries.
+Please follow [Configure Aspose.Words for C++ with vcpkg](/words/cpp/configure-aspose-words-for-cpp-with-vcpkg/)
 
 ## Install Aspose.Words for C++ Manually
 

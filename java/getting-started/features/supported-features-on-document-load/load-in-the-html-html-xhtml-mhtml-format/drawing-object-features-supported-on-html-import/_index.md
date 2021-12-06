@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on HTML Import
+description: "Aspose.Words for Java allows you to work with drawing features supported on HTML-based format import."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-html-import/
@@ -31,7 +32,7 @@ You can also set the BaseUri path of the document being loaded so relative resou
 
 You can insert new images of any type into a document by using the DocumentBuilder.InsertImage method or by setting the image of an existing shape using the Shape.ImageData property.
 
-All of the following image types listed in the table below this overview are supported. When a document contains numerous references to the same image from an external address (e.g the internet) then the image is only downloaded once.
+All of the following image types listed in the table below this overview are supported. When a document contains multiple references to the same image from an external address (e.g the internet) then the image is only downloaded once.
 
 It is useful to know how images are stored in the model when you insert a new image using Aspose.Words There are three classes of image from the Aspose.Words point-of-view.
 

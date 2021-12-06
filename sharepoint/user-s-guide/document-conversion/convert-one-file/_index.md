@@ -1,5 +1,6 @@
 ﻿---
 title: Convert One File
+description: "This page describes how to convert a file from SharePoint UI using the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/convert-one-file/

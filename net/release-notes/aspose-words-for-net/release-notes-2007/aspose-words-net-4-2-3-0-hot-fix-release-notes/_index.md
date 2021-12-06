@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words .Net 4.2.3.0 Hot Fix Release Notes
+description: "Aspose.Words .Net 4.2.3.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 240
 url: /net/aspose-words-net-4-2-3-0-hot-fix-release-notes/
@@ -16,7 +17,7 @@ This is a maintenance release, here is what's been done:
 - API documentation now shows values of enumerations. This is helpful for customers who use Aspose.Words from classical ASP.
   Vertical text in table cells and textboxes is now exported to PDF. 
   Footnotes and endnotes are now exported to PDF. 
-  The size of generated files is optimized - if the same image occurs numerous times in the document it is written to DOC, HTML and PDF files only once. 
+  The size of generated files is optimized - if the same image occurs multiple times in the document it is written to DOC, HTML and PDF files only once. 
   All CSS border properties (including shorthand) are now supported in HTML import. 
 - 2072 - Generated PDF 16 times too large.
   1591 - Export vertical text to PDF. 

@@ -26,9 +26,9 @@ The following code example shows how to make your document read-only:
 
 You can also do the same using the Open XML SDK. At the same time, note that it looks somewhat more complicated and more cumbersome.
 
-The code sample below demonstrates how you can add some text and attempt to save the changes to show that access is read-only. Once you have access to the body of the main document part, you add text by adding instances of the **Paragraph, Run, and Text** classes. This generates the required **WordprocessingML** markup.
+The code sample below shows how you can add some text and attempt to save the changes to show that access is read-only. Once you have access to the body of the main document part, you add text by adding instances of the **Paragraph, Run, and Text** classes. This generates the required **WordprocessingML** markup.
 
-The following code example demonstrates how to make your document read-only:
+The following code example shows how to make your document read-only:
 
 {{< highlight csharp >}}
 public void OpenReadOnlyAccessFeature()
@@ -65,6 +65,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}} 
 
-For more information about Aspose.Words features please visit [Open a Document Read-Only](https://docs.aspose.com/words/net/open-a-document-read-only/).
+For more information about Aspose.Words features please visit [Open a Document Read-Only](/words/net/open-a-document-read-only/).
 
 {{% /alert %}}

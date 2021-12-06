@@ -1,15 +1,16 @@
 ---
 title: Stretching Factor
+description: "This page describes Stretching Factor setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 140
 url: /reportingservices/stretching-factor/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following configuration setting only applies to the TXT output.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 When generating TXT documents with tables in flow mode, sometimes table cells may appear too narrow and text elements inside cells are splitted and partially pushed to the next line(s).
 

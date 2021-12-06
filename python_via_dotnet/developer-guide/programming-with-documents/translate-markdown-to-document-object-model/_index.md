@@ -3,12 +3,13 @@ title: Translate Markdown to Document Object Model (DOM)
 type: docs
 description: "Aspose.Words for Python via .NET allows to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
 weight: 13
-url: /python/translate-markdown-to-document-object-model/
+url: /python-net/translate-markdown-to-document-object-model/
+aliases: [/python/translate-markdown-to-document-object-model/]
 ---
 
 To programmatically read, manipulate, and modify the content and formatting of a document, you need to translate it to the Aspose.Words Document Object Model (DOM).
 
-In contrast to Word documents, Markdown does not conform to the DOM described in the ["Aspose.Words Document Object Model (DOM)"](https://docs.aspose.com/words/python/aspose-words-document-object-model/) article. However, Aspose.Words provides its own mechanism for translating Markdown documents to DOM and back, so that we can successfully work with their elements such as text formatting, tables, headers, and others.
+In contrast to Word documents, Markdown does not conform to the DOM described in the ["Aspose.Words Document Object Model (DOM)"](/words/python/aspose-words-document-object-model/) article. However, Aspose.Words provides its own mechanism for translating Markdown documents to DOM and back, so that we can successfully work with their elements such as text formatting, tables, headers, and others.
 
 This article explains how the various markdown features can be translated into Aspose.Words DOM and back to Markdown format.
 

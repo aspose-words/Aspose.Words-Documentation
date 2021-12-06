@@ -1,5 +1,6 @@
 ---
 title: Document Features Supported on OpenDocument Export
+description: "Aspose.Words for .NET allows you to work with document features supported when saving to OpenDocument Text format."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-opendocument-export/
@@ -15,7 +16,7 @@ Note that there may appear to be more styles in the output ODT document than in 
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/words/net/saving-a-document/)
+- [Save a Document](/words/net/save-a-document/)
 - [OdtSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/OdtSaveOptions)
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-opendocument-import/)

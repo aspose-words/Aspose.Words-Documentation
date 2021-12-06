@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Android via Java 18.1 Release Notes
+description: "Aspose.Words for Android via Java 18.1 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 80
 url: /java/aspose-words-for-android-via-java-18-1-release-notes/
@@ -7,7 +8,7 @@ url: /java/aspose-words-for-android-via-java-18-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Android via Java 18.1](http://maven.aspose.com/repository/simple/ext-release-local/com/aspose/aspose-words/18.1/).
+This page contains release notes for [Aspose.Words for Android via Java 18.1](https://repository.aspose.com/repo/com/aspose/aspose-words/18.1/).
 
 {{% /alert %}} 
 
@@ -28,7 +29,7 @@ There are 60+ improvements and fixes in this regular monthly release. The most n
 - Vertical axis of 3DArea Chart scaling fixed.
 - MS Word 2016 approach for rendering of DrawingML Charts axis labels implemented; (Labels are rotated to fit the chart).
 - Fixed rendering of Legend markers for 3D-LineChart.
-- Improved rendering of composite (with several series) charts.
+- Improved rendering of composite (with multiple series) charts.
 - Chart title with ManualLayout rendering fixed.
 
 'Aspose.Words for Android via Java' 18.1 also includes the current 'Aspose.Words for Java' features. See the full list of changes in [Aspose.Words for Java 18.1 Release Notes](/words/java/aspose-words-for-java-18-1-release-notes/).

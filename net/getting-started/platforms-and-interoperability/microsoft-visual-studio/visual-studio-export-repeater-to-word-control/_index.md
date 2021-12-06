@@ -1,5 +1,6 @@
 ﻿---
 title: Visual Studio Export Repeater To Word Control
+description: "Learn how to export contents of Repeater into Word Processing document using Aspose.Words."
 type: docs
 weight: 30
 url: /net/visual-studio-export-repeater-to-word-control/
@@ -57,8 +58,6 @@ Export Repeater To Word Control for Visual Studio is supported of all version of
 
 You can download Export Repeater To Word Control from one of the following locations
 
-- [CodePlex ](https://aspose-wordsnet.codeplex.com/releases/view/618154)
-- [CodePlex ](https://asposevs.codeplex.com/releases/view/618153)
 - [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsRepeaterExport)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Export-Repeater-To-912a92ee#content)
@@ -189,7 +188,6 @@ This is why we offer free support. Anyone who uses our product, whether they pur
 
 You can log any issues or suggestions related to this control using any of the following platforms
 
-- [CodePlex ](https://asposevs.codeplex.com/workitem/list/basic)
 - [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Aspose-Export-Repeater-To-912a92ee/view/Discussions#content)
@@ -202,8 +200,6 @@ Aspose .NET Export Repeater To Word Control for Visual Studio is open source and
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposevs.codeplex.com/SourceControl/latest#Aspose.Words.RepeaterExport/)
-- [CodePlex ](https://asposewordsnet.codeplex.com/SourceControl/latest#Plugins/Aspose.Words.RepeaterExport/)
 - [Code.MSDN ](https://code.msdn.microsoft.com/Aspose-Export-Repeater-To-912a92ee/view/SourceCode#content)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.RepeaterExport)
 - [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)

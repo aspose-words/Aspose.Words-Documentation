@@ -1,5 +1,6 @@
 ---
 title: Save in the HTML (.HTML, .XHTML, .MHTML) Format
+description: "Aspose.Words for .NET allows you to work with various features supported when saving to HTML-based format."
 type: docs
 weight: 50
 url: /net/save-in-html-xhtml-mhtml-formats/

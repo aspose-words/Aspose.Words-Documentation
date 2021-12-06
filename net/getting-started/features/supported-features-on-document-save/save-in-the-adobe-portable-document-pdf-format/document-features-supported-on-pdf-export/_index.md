@@ -1,5 +1,6 @@
 ---
 title: Document Features Supported on PDF Export
+description: "Aspose.Words for .NET allows you to work with document features supported when saving to PDF format."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-pdf-export/
@@ -25,8 +26,8 @@ Both TrueType and OpenFont font formats are supported and can be subsetted durin
 
 See the following links in the documentation for further information:
 
-- [Save a Document](https://docs.aspose.com/words/net/saving-a-document/)
-- [Rendering and Printing](https://docs.aspose.com/words/net/rendering/)
+- [Save a Document](/words/net/save-a-document/)
+- [Rendering and Printing](/words/net/rendering/)
 - [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions)
 - [PdfSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/compliance)
 

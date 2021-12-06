@@ -29,7 +29,7 @@ You can control the way of handling leading and trailing spaces during loading T
 
 Aspose.Words provides [DocumentDirection ](https://apireference.aspose.com/words/net/aspose.words.loading/txtloadoptions/properties/documentdirection)property in TxtLoadOptions class to detect the text direction (RTL / LTR) in the document. This property sets or gets document text directions provided in [DocumentDirection](https://apireference.aspose.com/words/net/aspose.words.loading/documentdirection) enumeration. The default value is left to right.
 
-The following code example shows how to detect text direction of the document while importing TXT file.
+The following code example demonstrates how to detect text direction of the document while importing TXT file.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingwithTxt-DocumentTextDirection.cs" >}}
 
@@ -41,7 +41,7 @@ If you want to export header and footer in output TXT document, you can use TxtS
 
 ## Export List Indentation in Output TXT
 
-Aspose.Words introduced TxtListIndentation class that allows specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how a few characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
+Aspose.Words introduced TxtListIndentation class that allows specifying how list levels are indented while exporting to a plain text format. While working with TxtSaveOption, the ListIndentation property is provided to specify the character to be used for indenting list levels and count specifying how many characters to use as indentation per one list level. The default value for character property is '\0' indicating that there is no indentation. For count property, the default value is 0 which means no indentation.
 
 ### Using Tab Character
 

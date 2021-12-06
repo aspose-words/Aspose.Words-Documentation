@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 18.10 Release Notes
+description: "Aspose.Words for .NET 18.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30
 url: /net/aspose-words-for-net-18-10-release-notes/
@@ -228,7 +229,7 @@ This property is added for convenience in addition to *SizeInPoints* property an
 
 ### Added API for Font Fallback Settings
 
-We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](https://docs.aspose.com/words/net/manipulating-and-substitution-truetype-fonts/#font-fallback-settings-from-xml).
+We have added new API to set up font fallback mechanism. The font fallback mechanism is described in [documentation](/words/net/manipulating-and-substitution-truetype-fonts/#font-fallback-settings-from-xml).
 
 {{< highlight csharp >}}
 public class FontSettings

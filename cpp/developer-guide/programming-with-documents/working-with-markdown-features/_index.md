@@ -23,13 +23,13 @@ The Markdown feature implementation mostly follows the CommonMark specification
 
 {{% alert color="primary" %}}
 
-There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article ["Translate Markdown to Document Object Model (DOM)"](https://docs.aspose.com/words/cpp/translate-markdown-to-document-object-model/).
+There are nuances of translating Markdown to the Aspose.Words Document Object Model (DOM), described in the article ["Translate Markdown to Document Object Model (DOM)"](/words/cpp/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 
 ## Markdown Document with Emphases
 
-This section shows you how to produce a markdown document with emphases as given below:
+This section demonstrates you how to produce a markdown document with emphases as given below:
 
 {{< highlight csharp >}}
 Markdown treats asterisks (*) and underscores (_) as indicators of emphasis.
@@ -84,7 +84,7 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Markdown Document with Horizontal Rule
 
-This section shows you how to produce a markdown document with Horizontal Rule as given below:
+This section demonstrates you how to produce a markdown document with Horizontal Rule as given below:
 
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
@@ -97,13 +97,13 @@ The following code snippet can be used to produce the above-given markdown docum
 
 ## Reading a Markdown Document
 
-The following code snippet demonstrates you how to read a markdown document.
+The following code snippet shows you how to read a markdown document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-WorkingWithMarkdownFeatures-ReadMarkdownDocument.cpp" >}}
 
 ## Specify Markdown Save Options
 
-Aspose.Words API provides [MarkdownSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.markdown_save_options/) class to specify additional options while saving a document into the Markdown format.
+Aspose.Words API provides [MarkdownSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.markdown_save_options) class to specify additional options while saving a document into the Markdown format.
 
 The following code example demonstrated how to specify various Markdown save options.
 

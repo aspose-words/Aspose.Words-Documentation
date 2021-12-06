@@ -1,5 +1,6 @@
-﻿---
+---
 title: Format Table in Document
+description: "Aspose.Words for Java allows you to format table inside a document easily and fast instead of using Apache POI."
 type: docs
 weight: 20
 url: /java/format-table-in-document/
@@ -101,19 +102,19 @@ for (XWPFTableRow row : rows) {
         // set row height; units = twentieth of a point, 360 = 0.25"
         CTHeight ht = trPr.addNewTrHeight();
         ht.setVal(BigInteger.valueOf(360));
-
+    
         // get the cells in this row
         List<XWPFTableCell> cells = row.getTableCells();
-
+    
     // add content to each cell
         for (XWPFTableCell cell : cells) {
                 // get a table cell properties element (tcPr)
                 CTTcPr tcpr = cell.getCTTc().addNewTcPr();
-
+    
                 // set vertical alignment to "center"
                 CTVerticalJc va = tcpr.addNewVAlign();
                 va.setVal(STVerticalJc.CENTER);
-
+    
                 // create cell color element
                 CTShd ctshd = tcpr.addNewShd();
         ctshd.setColor("auto");
@@ -130,13 +131,13 @@ for (XWPFTableRow row : rows) {
                 // odd row
                 ctshd.setFill("EDF2F8");
         }
-
+    
         // get 1st paragraph in cell's paragraph list
         XWPFParagraph para = cell.getParagraphs().get(0);
-
+    
         // create a run to contain the content
         XWPFRun rh = para.createRun();
-
+    
         // style cell as desired
         if (colCt == nCols - 1) {
                 // last column is 10pt Courier
@@ -175,12 +176,10 @@ out.close();
 
 ## Download Running Code
 
-- [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/tables/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/tables)
 
 For more details, visit [Applying Formatting to Table, Row and Cell](/words/java/applying-formatting-to-table-row-and-cell/).

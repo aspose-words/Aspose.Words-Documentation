@@ -1,5 +1,6 @@
-﻿---
+---
 title: Protect Documents and Parts of Documents
+description: "Aspose.Words for .NET allows you to protect a document or parts of a document easily and fast instead of using VSTO."
 type: docs
 weight: 120
 url: /net/protect-documents-and-parts-of-documents/
@@ -36,10 +37,8 @@ doc.Protect(ProtectionType.AllowOnlyFormFields, "password");
 
 ## Download Running Code Example
 
-- [CodePlex](https://asposevsto.codeplex.com/releases/view/616042)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsForVSTOv1.1)
 
 ## Sample Code
 
-- [CodePlex](https://archive.codeplex.com/?p=asposevsto#Aspose.Words%20Vs%20VSTO%20Words/Protect%20Documents/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Aspose.Words%20Vs%20VSTO%20Word/Code%20Comparison%20of%20Common%20Features/Protect%20Documents)

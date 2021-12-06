@@ -1,5 +1,6 @@
 ---
 title: How to use the Examples
+description: "How to run Aspose.Words for Android via Java examples."
 type: docs
 weight: 30
 url: /java/how-to-use-the-examples/

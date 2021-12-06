@@ -1,5 +1,6 @@
 ---
 title: Create Empty Document in NPOI
+description: "Aspose.Words for .NET allows you to create an empty document easily and fast instead of using NPOI."
 type: docs
 weight: 30
 url: /net/create-empty-document-in-npoi/
@@ -39,11 +40,10 @@ using (FileStream sw = File.Create("blank.docx"))
 
 Download **Create Empty Document** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/downloads/get/1467694)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Create.Empty.Document.Aspose.Words.zip)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Create a New Document](https://docs.aspose.com/words/net/creating-or-loading-a-document/#create-a-new-document).
+For more details, visit [Create a New Document](/words/net/creating-or-loading-a-document/#create-a-new-document).
 
 {{% /alert %}}

@@ -1,5 +1,6 @@
 ﻿---
 title: DNN Users and Roles Export Module
+description: "Export DNN Users along with their roles into Microsoft Word using Aspose.Words DNN Users and Roles Export Module."
 type: docs
 weight: 40
 url: /net/dnn-users-and-roles-export-module/
@@ -35,7 +36,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 You can download Aspose .NET Export Users and Roles to Word for DNN Module from one of the following locations
 
-- [CodePlex ](https://asposewordsdnn.codeplex.com/releases)
 - [DNN Store ](http://store.dnnsoftware.com/home/product-details/aspose-net-export-users-and-roles-to-word-for-dnn)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 
@@ -86,7 +86,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
-- [CodePlex ](https://asposednn.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
 - [Sourceforge ](https://sourceforge.net/p/asposednn/tickets/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
@@ -99,7 +98,6 @@ Aspose .NET Word Processing and PDF Document Exporter for DNN and Aspose .NET Wo
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposednn.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_DNN)
 - [Sourceforge ](https://sourceforge.net/p/asposednn/code/ci/master/tree/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/src)

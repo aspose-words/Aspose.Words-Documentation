@@ -1,5 +1,6 @@
 ---
 title: Convert Word Doc to Other Formats in NPOI
+description: "Aspose.Words for .NET allows you to convert DOC to other document formats easily and fast instead of using NPOI."
 type: docs
 weight: 20
 url: /net/convert-word-doc-to-other-formats-in-npoi/
@@ -48,7 +49,6 @@ Converts a whole document from DOC to other formats using default options.
 
 Download **Convert Word Doc to Other Formats** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposenpoi#Aspose.Words_NPOI.HWPF%20and%20XWPF/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Convert%20Word%20Doc%20to%20Other%20Formats/)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI/Aspose.Words%20Vs%20NPOI%20HWPF%20and%20XWPF%20v1.1/Convert%20Word%20Doc%20to%20Other%20Formats)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)
 
@@ -56,6 +56,5 @@ Download **Convert Word Doc to Other Formats** from any of the below mentioned s
 
 Download **Convert Word Doc to Other Formats** from any of the below mentioned social coding sites:
 
-- [CodePlex](https://asposenpoi.codeplex.com/releases/view/617696)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsVsNPOIHWPFandXWPF1.1)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-vs-NPOI-HWPF-1ac73164/view/SourceCode#content)

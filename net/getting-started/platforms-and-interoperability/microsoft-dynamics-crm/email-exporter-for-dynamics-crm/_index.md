@@ -1,18 +1,19 @@
 ﻿---
 title: Email Exporter for Dynamics CRM
+description: "The Aspose.Words Email Exporter is an open source add-on for Dynamics CRM. It allows exporting email body to a word document."
 type: docs
 weight: 50
 url: /net/email-exporter-for-dynamics-crm/
 ---
 
-The Aspose.Words Email Exporter is an open source add-on for Dynamics CRM. It is capable of exporting email body (in HTML) to a word document. It also provides feature to retrieve embedded images inside the emails tracked from Outlook. You can download the generated file instantly and you can choose to attach the generated file with the same email under notes. In addition, it enables you to save the document in numerous formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT. Aspose.Words Email Exporter can be used with all versions of CRM 2013 on-premises, CRM 2015 on-premises and CRM Online.
+The Aspose.Words Email Exporter is an open source add-on for Dynamics CRM. It is capable of exporting email body (in HTML) to a word document. It also provides feature to retrieve embedded images inside the emails tracked from Outlook. You can download the generated file instantly and you can choose to attach the generated file with the same email under notes. In addition, it allows you to save the document in multiple formats like DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT. Aspose.Words Email Exporter can be used with all versions of CRM 2013 on-premises, CRM 2015 on-premises and CRM Online.
 
 Major features of this Addon are:
 
 - Ribbon Button on Email Entity.
-- A Popup where you can select numerous options.
+- A Popup where you can select multiple options.
 - This plugin can download the exported document.
-- This plugin enables to attach the generated document with the same email.
+- This plugin allows to attach the generated document with the same email.
 - Support a number of formats like: DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
 - Allows you to enter the name of generated output file.
 
@@ -32,7 +33,6 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 You can download the latest solution at:
 
-- [Codeplex](http://goo.gl/Xun3VM)
 - [Github](https://goo.gl/2rGmgd)
 - [Code.MSDN](https://goo.gl/ZTW336)
 
@@ -98,7 +98,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose.Words Email Exporter using any of the following platforms:
 
-- [Codeplex](https://asposewordsmscrm.codeplex.com/discussions)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Email-Exporter-26eb623e/view/Discussions#content)
 
@@ -129,6 +128,6 @@ Please follow these simple steps to get started
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Loading, Saving and Converting](https://docs.aspose.com/words/net/loading-saving-and-converting/)
+For more details, visit [Loading, Saving and Converting](/words/net/loading-saving-and-converting/)
 
 {{% /alert %}}

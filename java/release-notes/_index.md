@@ -10,5 +10,5 @@ This documentation section describes the updates and improvements for each new r
 
 To learn about specific releases, go to the respective platform, year, and definite release version in the navigation tree or using the list below:
 
-- [Aspose.Words for Java](https://docs.aspose.com/words/java/aspose-words-for-java/)
-- [Aspose.Words for Android via Java](https://docs.aspose.com/words/java/aspose-words-for-android-via-java/)
+- [Aspose.Words for Java](/words/java/aspose-words-for-java/)
+- [Aspose.Words for Android via Java](/words/java/aspose-words-for-android-via-java/)

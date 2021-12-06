@@ -1,8 +1,10 @@
 ---
 title: Working with Images
+description: "Create and manage images of various formats in a document using python."
 type: docs
 weight: 40
-url: /python/working-with-images/
+url: /python-net/working-with-images/
+aliases: [/python/working-with-images/]
 ---
 
 ## Inserting an Image
@@ -120,33 +122,33 @@ def crop_image(inPath : str, outPath : str, left : int, top : int, width : int, 
     
     doc = aw.Document();
     builder = aw.DocumentBuilder(doc)
-
+    
     croppedImage = builder.insert_image(inPath)
-
+    
     src_width_points = croppedImage.width
     src_height_points = croppedImage.height
-
+    
     croppedImage.width = aw.ConvertUtil.pixel_to_point(width)
     croppedImage.height = aw.ConvertUtil.pixel_to_point(height)
-
+    
     widthRatio = croppedImage.width / src_width_points
     heightRatio = croppedImage.height / src_height_points
-
+    
     if (widthRatio< 1) :
         croppedImage.image_data.crop_right = 1 - widthRatio
-
+    
     if (heightRatio< 1) :
         croppedImage.image_data.crop_bottom = 1 - heightRatio
-
+    
     leftToWidth = aw.ConvertUtil.pixel_to_point(left) / src_width_points
     topToHeight = aw.ConvertUtil.pixel_to_point(top) / src_height_points
-
+    
     croppedImage.image_data.crop_left = leftToWidth
     croppedImage.image_data.crop_right = croppedImage.image_data.crop_right - leftToWidth
-
+    
     croppedImage.image_data.crop_top = topToHeight
     croppedImage.image_data.crop_bottom = croppedImage.image_data.crop_bottom - topToHeight
-
+    
     croppedImage.get_shape_renderer().save(outPath, aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG))
 {{< /highlight >}}
 

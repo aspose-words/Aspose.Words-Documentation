@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Digital Signatures
 description: "Aspose.Words for Java allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
@@ -71,7 +71,7 @@ Assert.assertTrue(info.hasDigitalSignature());
 Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
 {{< /highlight >}}
 
-## Add a Digital Signature {#create-a-digital-signature}
+## Create a Digital Signature {#create-a-digital-signature}
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
@@ -194,7 +194,7 @@ Assert.assertEquals(DigitalSignatureType.XML_DSIG, signatures.get(0).getSignatur
 
 Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://apireference.aspose.com/words/java/com.aspose.words/PdfDigitalSignatureDetails) properties.
 
-The following code example demonstrates how to sign a generated PDF:
+The following code example shows how to sign a generated PDF:
 
 {{< highlight java >}}
 Document doc = new Document();

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Numbering Features Supported on WordprocessingML Import
+description: "Aspose.Words for .NET allows you to work with numbering features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-wordprocessingml-import/
@@ -7,7 +8,7 @@ url: /net/numbering-features-supported-on-wordprocessingml-import/
 
 {{% alert color="primary" %}} 
 
-A list used in a document is actually made up of a few complex parts. List and their properties are fully supported by Aspose.Words.
+A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words.
 
 There are two main types of lists:
 

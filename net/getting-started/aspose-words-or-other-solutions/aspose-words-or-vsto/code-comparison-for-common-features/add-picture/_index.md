@@ -1,5 +1,6 @@
 ---
 title: Add Picture
+description: "Aspose.Words for .NET allows you to add an image into a document easily and fast instead of using VSTO."
 type: docs
 weight: 50
 url: /net/add-picture/
@@ -26,6 +27,5 @@ doc.Save("Adding Picture.doc");
 
 ## Download Sample Code
 
-- [Codeplex](https://asposevsto.codeplex.com/downloads/get/787339)
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Picture.Aspose.Words.zip)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Picture%20and%20WordArt%20\(Aspose.Words\).zip)

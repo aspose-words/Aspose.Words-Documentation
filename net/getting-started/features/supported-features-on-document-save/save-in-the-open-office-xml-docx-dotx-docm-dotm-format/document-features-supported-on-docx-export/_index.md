@@ -1,5 +1,6 @@
-﻿---
+---
 title: Document Features Supported on DOCX Export
+description: "Aspose.Words for .NET allows you to work with document features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-docx-export/
@@ -9,7 +10,7 @@ url: /net/document-features-supported-on-docx-export/
 
 See the following links in the documentation for further information:
 
-- [Save a Document](/words/net/saving-a-document/)
+- [Save a Document](/words/net/save-a-document/)
 - [OoxmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/OoxmlSaveOptions)
 - [OoxmlSaveOptions.TempFolder](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/tempfolder)
 - [OoxmlSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/properties/compliance)

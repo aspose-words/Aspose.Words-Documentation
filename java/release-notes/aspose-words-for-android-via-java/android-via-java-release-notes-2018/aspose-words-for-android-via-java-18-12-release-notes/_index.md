@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for Android via Java 18.12 Release Notes
+description: "Aspose.Words for Android via Java 18.12 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /java/aspose-words-for-android-via-java-18-12-release-notes/
@@ -30,7 +31,7 @@ There are 108 improvements and fixes in this regular monthly release. The most n
 - Improved page numbering for sections starting in new columns.
 - Improved table row alignment.
 - Improved tab stop calculations with paragraph indents.
-- Improved table breaking logic for several complex cases.
+- Improved table breaking logic for numerous complex cases.
 - Improved handling of character compression within mixed ltr/rtl text.
 - Fixed exception in rare case when field update causes line to contain only zero length spans.
 - Fixed exception in rare case when floating object is pushed beyond empty column.

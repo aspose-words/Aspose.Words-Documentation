@@ -1,5 +1,6 @@
-﻿---
+---
 title: Supported Features on Document Save
+description: "Aspose.Words for .NET allows to save a document in most of popular formats and supports lots of Microsoft Word features."
 type: docs
 weight: 30
 url: /net/supported-features-on-document-save/
@@ -10,7 +11,7 @@ Aspose.Words has some of the most advanced conversion support of the common word
 
 All imported documents loaded into Aspose.Words can be exported to any other supported format. Features are preserved during conversion. Conversion between formats gives some of the best conversion results out there. 
 
-Aspose.Words can convert a document of any size as long as there is sufficient working memory to complete the operation. Additionally, if available memory is low, you can choose a temporary folder during export to DOC or DOCX format. This enables resources during conversion to be stored temporarily to disk. These files are removed after conversion is complete. This enables large documents to be saved even when there is not much memory available.
+Aspose.Words can convert a document of any size as long as there is sufficient working memory to complete the operation. Additionally, if available memory is low, you can choose a temporary folder during export to DOC or DOCX format. This allows resources during conversion to be stored temporarily to disk. These files are removed after conversion is complete. This allows large documents to be saved even when there is not much memory available.
 
 The following pages describe how each Microsoft Word feature is handled and the current level of support during the saving of a document to the chosen format.
 

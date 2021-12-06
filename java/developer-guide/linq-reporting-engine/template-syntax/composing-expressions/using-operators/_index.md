@@ -5,7 +5,7 @@ weight: 50
 url: /java/using-operators/
 ---
 
-The following table contains predefined operators that LINQ Reporting Engine allows you to use in template expressions.
+The following table contains predefined operators that LINQ Reporting Engine enables you to use in template expressions.
 
 <table class="using operators">
 	<tbody>

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 15.11.0 Release Notes
+description: "Aspose.Words for .NET 15.11.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /net/aspose-words-for-net-15-11-0-release-notes/
@@ -146,7 +147,7 @@ There are 127 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-12661|Add an option in PdfSaveOptions not to update fields|Feature|
 |WORDSNET-2095|Outline level headings are imported incorrectly|Feature|
 |WORDSNET-3400|ODF Plugfest 20100415. Numbering is lost during ODT to ODT conversion.|Feature|
-|WORDSNET-4102|STYLEREF field demonstrates error “Error! No text of specified style in document.” in the output PDF document.|Feature|
+|WORDSNET-4102|STYLEREF field shows error “Error! No text of specified style in document.” in the output PDF document.|Feature|
 |WORDSNET-4292|Consider adding properties to retrieve the document defaults|Feature|
 |WORDSNET-5560|Support style autoupdate|Feature|
 |WORDSNET-7140|/margins rotated text box/ Wrong textbox size is calculated|Feature|

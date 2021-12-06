@@ -14,7 +14,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 
 Modern document formats and standards are complex, and when you require document conversion or other document processing features in your project, the only practical solution is often to rely on a third-party component that implements the desired functionality. But using a third-party component always carries some risk. One of the unique risks in document processing is the question about how completely and correctly the library implements a particular document format or standard.
 
-Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across many platforms.
+Aspose is committed to delivering the most complete and accurate implementations of document formats and standards. The Aspose.Words team demonstrates their commitment to interoperability by providing detailed implementation notes for supported document formats across multiple platforms.
 
 The tables below summarize Aspose.Words for Java features and provide links to detailed feature descriptions.
 
@@ -42,15 +42,15 @@ Many customers worldwide rely on the thorough document import and export feature
 
 |Feature|Description|
 | :- | :- |
-|Microsoft Word (DOC) ([load](https://docs.aspose.com/words/java/load-in-the-microsoft-word-document-97-2003-document-doc-dot-format/) and [save](https://docs.aspose.com/words/java/save-in-the-microsoft-word-document-97-2003-document-doc-dot-format/))|The fastest and most complete DOC format implementation you can find.|
-|WordprocessingML (DOCX, XML) ([load](https://docs.aspose.com/words/java/load-in-the-open-office-xml-2007-an-2010-docx-dotx-docm-dotm-format/) and [save](https://docs.aspose.com/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/))|Aspose.Words provides exhaustive support OOXML, Flat OPC, and also Word 2003 XML.|
-|Rich Text Format (RTF) ([load](https://docs.aspose.com/words/java/load-in-the-rich-text-format-1-9-rtf-format/) and [save](https://docs.aspose.com/words/java/save-in-the-rich-text-format-1-9-rtf-format/))|Comprehensive support of the RTF format to interact with a variety of applications.|
-|HTML, XHTML and MHTML|[Load](https://docs.aspose.com/words/java/load-in-the-html-html-xhtml-mhtml-format/) and [save](https://docs.aspose.com/words/java/save-in-the-html-html-xhtml-mhtml-format/) HTML/XHTML for even greater interoperability. Save as MHTML is also available.|
-|OpenDocument (ODT)|Aspose.Words can [load](https://docs.aspose.com/words/java/load-in-the-opendocument-text-odt-ott-format/) and [save](https://docs.aspose.com/words/java/save-in-the-opendocument-text-odt-ott-format/) documents in the OpenDocument Text (.odt) format.|
-|[Adobe Portable Document Format (PDF)](https://docs.aspose.com/words/java/save-in-the-adobe-portable-document-pdf-format/)|Convert any document to PDF with high fidelity. PDF/A is supported.|
-|XML Paper Specification (XPS) ([load](https://docs.aspose.com/words/java/load-in-the-microsoft-word-2003-wordprocessingml-xml-format/) and [save](https://docs.aspose.com/words/java/save-in-the-flatopc-ooxml-document-xml-format/))|Convert any document to XPS with high fidelity.|
-|Plain Text (TXT) ([load](https://docs.aspose.com/words/java/load-in-the-plain-text-txt-format/) and [save](https://docs.aspose.com/words/java/save-in-the-plain-text-txt-format/))|Easily extract text by saving in plain text format.|
-|[Digital Publishing (EPUB)](https://docs.aspose.com/words/java/save-in-the-idpf-epub-document-epub-format/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|
+|Microsoft Word (DOC) ([load](/words/java/load-in-ms-word-97-2003-formats/) and [save](/words/java/save-in-ms-word-97-2003-formats/))|The fastest and most complete DOC format implementation you can find.|
+|WordprocessingML (DOCX, XML) ([load](/words/java/load-in-the-open-office-xml-2007-and-2010-formats/) and [save](/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/))|Aspose.Words provides exhaustive support OOXML, Flat OPC, and also Word 2003 XML.|
+|Rich Text Format (RTF) ([load](/words/java/load-in-the-rich-text-format-1-9-rtf-format/) and [save](/words/java/save-in-the-rich-text-format-1-9-rtf-format/))|Comprehensive support of the RTF format to interact with a variety of applications.|
+|HTML, XHTML and MHTML|[Load](/words/java/load-in-the-html-html-xhtml-mhtml-format/) and [save](/words/java/save-in-the-html-html-xhtml-mhtml-format/) HTML/XHTML for even greater interoperability. Save as MHTML is also available.|
+|OpenDocument (ODT)|Aspose.Words can [load](/words/java/load-in-the-opendocument-text-odt-ott-format/) and [save](/words/java/save-in-the-opendocument-text-odt-ott-format/) documents in the OpenDocument Text (.odt) format.|
+|[Adobe Portable Document Format (PDF)](/words/java/save-in-the-adobe-portable-document-pdf-format/)|Convert any document to PDF with high fidelity. PDF/A is supported.|
+|XML Paper Specification (XPS) ([load](/words/java/load-in-ms-word-2003-formats/) and [save](/words/java/save-in-the-flatopc-ooxml-document-xml-format/))|Convert any document to XPS with high fidelity.|
+|Plain Text (TXT) ([load](/words/java/load-in-the-plain-text-txt-format/) and [save](/words/java/save-in-the-plain-text-txt-format/))|Easily extract text by saving in plain text format.|
+|[Digital Publishing (EPUB)](/words/java/save-in-the-idpf-epub-document-epub-format/)|EPUB is a popular format for eBooks. You can convert any document from Aspose.Words to the IDPF EPUB format.|
 
 ## Rendering and Printing
 
@@ -143,7 +143,7 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
 |Support of repeatable and conditional document blocks (loops and conditions) for tables, lists, and common content|
 |Support of dynamically generated charts and images|
 |Support of insertion of outer documents and HTML blocks into a document|
-|Support of many data sources (including of different types) for the generation of a single document|
+|Support of multiple data sources (including of different types) for the generation of a single document|
 |Built-in support of data relations (master-detail)|
 |Comprehensive support of various data manipulations such as grouping, sorting, filtering, and others directly in templates|
 |WYSIWYG: A generated document retains the same formatting of its elements as a corresponding template has|

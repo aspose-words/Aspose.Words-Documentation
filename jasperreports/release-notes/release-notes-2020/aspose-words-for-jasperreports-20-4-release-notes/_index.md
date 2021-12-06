@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for JasperReports 20.4 Release Notes
+description: "Aspose.Words for JasperReports 20.4 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /jasperreports/aspose-words-for-jasperreports-20-4-release-notes/
@@ -29,5 +30,5 @@ Please copy **ONLY ONE** jar library according to the version of installed Jas
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| |Upgrade to the latest version of [Aspose.Words for Java (20.4)](https://docs.aspose.com/display/wordsjava/Aspose.Words+for+Java+20.4+Release+Notes)|New feature|
+| |Upgrade to the latest version of [Aspose.Words for Java (20.4)](/words/java/aspose-words-for-java-20-4-release-notes/)|New feature|
 

@@ -11,11 +11,11 @@ url: /java/advanced-mail-merge-features/
 
 Aspose.Words provides some additional mail merge properties and methods that allow you to perform further customization of the mail merge process either in simple mail merge or mail merge with regions.
 
-Advanced mail merge features include, but are not limited to, obtaining information about template structure before performing a mail merge operation, setting rules for a mail merge operation, and cleaning up during a mail merge operation. This article will cover only numerous properties and examples to show you how to use advanced features.
+Advanced mail merge features include, but are not limited to, obtaining information about template structure before performing a mail merge operation, setting rules for a mail merge operation, and cleaning up during a mail merge operation. This article will cover only a few properties and examples to show you how to use advanced features.
 
 ## Set Rules for Mail Merge Operations
 
-Adding rules to your template enables you to make the workflow process more effective and flexible. Using mail merge rules, you can set up content that can be changed quickly and avoid the need to generate numerous documents.
+Adding rules to your template allows you to make the workflow process more effective and flexible. Using mail merge rules, you can set up content that can be changed quickly and avoid the need to generate multiple documents.
 
 Aspose.Words allows you to customize the mail merge based on rules that run when you perform the mail merge operation and control merging information. For example, when you create an email or a letter to send to all of your customers. You can set up a rule so that the letter could contain various data based on the different values in certain fields of your data source.
 
@@ -23,13 +23,13 @@ Take a look at some mail merge rules that you can implement.
 
 ### Implement Next field to Merge Data Records in Current Document
 
-You can implement the [Next](https://apireference.aspose.com/words/java/com.aspose.words/FieldNext) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display several records in one document.
+You can implement the [Next](https://apireference.aspose.com/words/java/com.aspose.words/FieldNext) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display multiple records in one document.
 
 ### Implement NextIf and SkipIf Fields to Compare Two Expressions
 
 You can use either [NextIf](https://apireference.aspose.com/words/java/com.aspose.words/FieldNextIf) field or [SkipIf](https://apireference.aspose.com/words/java/com.aspose.words/FieldSkipIf) field if you want to compare two expressions ([right](https://apireference.aspose.com/words/java/com.aspose.words/fieldif#RightExpression) and [left](https://apireference.aspose.com/words/java/com.aspose.words/fieldif#LeftExpression) expressions) by some [operator](https://apireference.aspose.com/words/java/com.aspose.words/fieldskipif#ComparisonOperator).
 
-**NextIf** field has the same functionality as **Next** field, but it skips to the next row only if the condition is met. You can add **SkipIf** field to your template to exclude records that meet a certain criterion from a mail merge. The following table demonstrates the main difference between NextIf and SkipIf:
+**NextIf** field has the same functionality as **Next** field, but it skips to the next row only if the condition is met. You can add **SkipIf** field to your template to exclude records that meet a certain criterion from a mail merge. The following table shows the main difference between NextIf and SkipIf:
 
 | **Field Name** | **Comparison Result “True”**                                 | **Comparison Result “False”**                                |
 | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -42,7 +42,7 @@ The following code example shows how to compare two expressions with **NextIf** 
 
 ## Obtain Information About Template Structure
 
-Aspose.Words allows you to gather different information in your template through numerous methods. For example, you may need to get the names of some merge fields or the hierarchy of regions in your template. Now we will explain the possible variants to obtain some specific information from your template.
+Aspose.Words allows you to gather different information in your template through many methods. For example, you may need to get the names of some merge fields or the hierarchy of regions in your template. Now we will explain the possible variants to obtain some specific information from your template.
 
 ### Get Merge Field Names
 
@@ -54,7 +54,7 @@ The following code example shows how to get names of all merge fields in the tem
 
 ### Get Information About Merge Regions
 
-You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getRegionsHierarchy()) method. You can use the properties and methods of the [MailMergeRegionInfo](https://apireference.aspose.com/words/java/com.aspose.words/MailMergeRegionInfo) class.The following code example demonstrates how to get merge regions hierarchy:
+You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getRegionsHierarchy()) method. You can use the properties and methods of the [MailMergeRegionInfo](https://apireference.aspose.com/words/java/com.aspose.words/MailMergeRegionInfo) class.The following code example shows how to get merge regions hierarchy:
 
 **Java**
 {{< highlight java >}}
@@ -63,7 +63,7 @@ MailMergeRegionInfo regionInfo = doc.getMailMerge().getRegionsHierarchy();
 
 {{< /highlight >}}
 
-The following code example demonstrates how to get specific merge regions inside your template based on their names:
+The following code example shows how to get specific merge regions inside your template based on their names:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ExecuteMailMergeWithRegions-GetRegionsByName.java" >}}
 
@@ -75,7 +75,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Add Mapped Fields
 
-Aspose.Words allows you to automatically map names of fields in your data source and names of mail merge fields in the template using the [MappedDataFields](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#MappedDataFields) property. For example, if you have a field name called "Last Name" in your template, and in your data source you have the field name "Last Name" or another variation such as "Last_Name" or "LastName", then the field in the data source will automatically map to the corresponding mapped field. If a merge template is to be merged with several data sources, mapped fields make it unnecessary to reenter the fields into the template to agree with the field names in the database.
+Aspose.Words allows you to automatically map names of fields in your data source and names of mail merge fields in the template using the [MappedDataFields](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#MappedDataFields) property. For example, if you have a field name called "Last Name" in your template, and in your data source you have the field name "Last Name" or another variation such as "Last_Name" or "LastName", then the field in the data source will automatically map to the corresponding mapped field. If a merge template is to be merged with many data sources, mapped fields make it unnecessary to reenter the fields into the template to agree with the field names in the database.
 
 The following code example shows how to add a mapped field using the [Add](https://apireference.aspose.com/words/java/com.aspose.words/mappeddatafieldcollection#add(java.lang.String,java.lang.String)) method when a merge field in a template and a data field in a data source have different names:
 

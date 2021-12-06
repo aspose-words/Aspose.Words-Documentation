@@ -1,5 +1,6 @@
 ﻿---
 title: Duplicate Detection for Dynamics CRM
+description: "The Aspose Duplicate Detection is an open source add-on to be used with Microsoft Dynamics CRM. It allows automatically remove duplicate documents."
 type: docs
 weight: 40
 url: /net/duplicate-detection-for-dynamics-crm/
@@ -7,13 +8,13 @@ url: /net/duplicate-detection-for-dynamics-crm/
 
 It is necessary to maintain the integrity of your data, duplication of data is always an issue. In Dynamic CRM usually when a document is sent via an email or attached to a letter from a main record, its duplicate is created allocating unnecessary space in the database.In order to resolve this issue we use one of the very interesting feature of Aspose.Words comparison between documents and create an add-on in CRM to remove duplicate documents between records of same entity, between different entities and all records of all entities.
 
-The Aspose Duplicate Detection is an open source add-on to be used with Microsoft Dynamics CRM. This add-on in Dynamic CRM usually use when a document is sent via an email or attached to a letter from a main record, its duplicate is created allocating unnecessary space in the database.In order to resolve this issue we use one of the very interesting feature of Aspose.Words comparison between documents and create an add-on in CRM to remove duplicate documents between records of same entity,between different entities and all records of all entities.
+The Aspose Duplicate Detection is an open source add-on to be used with Microsoft Dynamics CRM. This add-on in Dynamic CRM usually use when a document is sent via an email or attached to a letter from a main record, its duplicate is created allocating unnecessary space in the database. In order to resolve this issue we use one of the very interesting feature of Aspose.Words comparison between documents and create an add-on in CRM to remove duplicate documents between records of same entity, between different entities and all records of all entities.
 
 This release supports the following features:
 
 - Remove duplicates of attachments in single record.
-- Remove duplicates of attachments in several records of single entity.
-- Remove duplicates of attachments in a few entities.
+- Remove duplicates of attachments in multiple records of single entity.
+- Remove duplicates of attachments in multiple entities.
 
 ## System Requirements and Supported Platforms
 
@@ -37,13 +38,11 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/releases/view/615744)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNetDuplicateDetection2013)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Duplicate-9e6aaba6)
 
 You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/releases/view/615746)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNetDuplicateDetection2015)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Duplicate-9e6aaba6)
 
@@ -78,7 +77,7 @@ It is simple to install Aspose .NET Duplicate Detection. Please follow below Ins
 
 ## Using
 
-Easily configure and Use Aspose .NET Duplicate Detection for Dynamics CRM by following the instructions [here](https://docs.aspose.com/words/net/using-and-configuring-crm-duplicate-detection/).
+Easily configure and Use Aspose .NET Duplicate Detection for Dynamics CRM by following the instructions [here](/words/net/using-and-configuring-crm-duplicate-detection/).
 
 ## Video Demo
 
@@ -90,11 +89,10 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET Duplicate Detection using any of the following platforms:
 
-- [Codeplex](https://asposenetcrm.codeplex.com/workitem/list/basic)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Duplicate-9e6aaba6/view/Discussions#content)
 
 ## Extend and Contribute
 
 This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
-Please find the latest Source Code and Code Example [here](https://docs.aspose.com/words/net/extend-and-contribute-to-crm-duplicate-detection/).
+Please find the latest Source Code and Code Example [here](/words/net/extend-and-contribute-to-crm-duplicate-detection/).

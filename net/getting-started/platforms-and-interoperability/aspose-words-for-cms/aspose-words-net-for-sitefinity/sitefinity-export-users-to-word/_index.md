@@ -1,11 +1,12 @@
 ﻿---
 title: Sitefinity Export Users to Word
+description: "Export Sitefinity users into Microsoft Word or OpenOffice document using Aspose.Words Sitefinity Export Users to Word."
 type: docs
 weight: 20
 url: /net/sitefinity-export-users-to-word/
 ---
 
-Aspose .NET Export Users to Word for SiteFinity Module enables developers to export SiteFinity Users into Microsoft Word or OpenOffice Document. This module demonstrates the powerful document building feature provided by Aspose.Words.
+Aspose .NET Export Users to Word for SiteFinity Module allows developers to export SiteFinity Users into Microsoft Word or OpenOffice Document. This module demonstrates the powerful document building feature provided by Aspose.Words.
 
 ## System Requirements and Supported Platforms
 
@@ -27,7 +28,6 @@ The Add-on is supported on all versions of
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposewordsnetmvc.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToWord)
 
 ### How to configure the source code
@@ -48,7 +48,6 @@ Please follow these simple steps to get started
 
 You can download Aspose .NET Export Users to Word for Sitefinity module from one of the following locations
 
-- [CodePlex ](https://asposewordsnetmvc.codeplex.com/releases)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 - [Code.MSDN ](https://code.msdn.microsoft.com/Aspose-NET-Export-Users-to-12cf32ef)
 
@@ -111,7 +110,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Sitefinity Modules using any of the following platforms
 
-- [CodePlex ](https://asposewordsnetmvc.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
 ## Extend and Contribute

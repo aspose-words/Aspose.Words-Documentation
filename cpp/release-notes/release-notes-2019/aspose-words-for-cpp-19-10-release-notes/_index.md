@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for CPP 19.10 Release Notes
+description: "Aspose.Words for CPP 19.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 40
 url: /cpp/aspose-words-for-cpp-19-10-release-notes/
@@ -15,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 19.10](https://www.nu
 
 This is a regular monthly release, we continue to add features from Aspose.Words for .Net.
 
-- We have moved common C++ dependencies into a separate package. It makes possible to use multiple Aspose products in the same project.
+- We have moved common C++ dependencies into a separate package. It makes possible to use several Aspose products in the same project.
 - We have reworked rendering engine, it should improve the quality and stability of rendering. Now Aspose.Words for C++ uses the same Skia-based rendering engine as Aspose.Words for .Net Standard.
 
 ## Limitations and API Differences

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for C++ 20.5 Release Notes
+description: "Aspose.Words for C++ 20.5 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /cpp/aspose-words-for-cpp-20-5-release-notes/
@@ -58,7 +59,7 @@ The missing features will be added in future releases.
 |WORDSNET-18923|Paragraph shading is stretched up to TextBox bottom|Bug|
 |WORDSNET-20211|DOCX is corrupted after re-saving it|Bug|
 |WORDSNET-20212|Range.Replace does not replace the numbers|Bug|
-|WORDSNET-20353|ArgumentOutOfRangeException is thrown while exporting document with a few numbered paragraphs inside a cell into Markdown|Bug|
+|WORDSNET-20353|ArgumentOutOfRangeException is thrown while exporting document with multiple numbered paragraphs inside a cell into Markdown|Bug|
 |WORDSNET-19920|Document.UpdateFields does not update Index entries under the Swedish language|Bug|
 |WORDSNET-13133|TXT to PDF conversion issue with Thai Characters|Bug|
 |WORDSNET-20219|Extra data points appear in the chart in the output PDF|Bug|
@@ -299,7 +300,7 @@ public enum PageLayoutEvent
     ReflowFinished,
     /// <summary>
     /// Reflow of the page has started.
-    /// Note that page may reflow many times and that reflow may restart before it is finished.
+    /// Note that page may reflow multiple times and that reflow may restart before it is finished.
     /// <seealso cref="PageLayoutCallbackArgs.PageIndex"/>
     /// </summary>
     PartReflowStarted,

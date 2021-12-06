@@ -1,5 +1,6 @@
-﻿---
+---
 title: Drawing Object Features Supported on HTML Export
+description: "Aspose.Words for .NET allows you to work with drawing features supported when saving to HTML-based format."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-html-export/
@@ -52,7 +53,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |PNG|Yes| | |
 |JPG|Yes| | |
-|WMF|Yes|Metafiles such as WMF, EMF and EMF+ are normally converted to PNG when exporting to HTML. There is an option to export metafiles as vector images. <br><br>Note that not all browsers can display metafiles properly.|- [HtmlSaveOptions.ExportMetafileAsRaster](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportmetafileasraster)|
+|WMF|Yes|Metafiles such as WMF, EMF and EMF+ are normally converted to PNG when exporting to HTML. There is an option to export metafiles as vector images. <br><br>Note that not all browsers can display metafiles properly.| |
 |EMF|Yes| | |
 |EMF+|Yes| | |
 |BMP|Yes| | |

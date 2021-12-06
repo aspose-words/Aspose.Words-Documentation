@@ -1,5 +1,6 @@
-﻿---
+---
 title: Text Features Supported on Rich Text Export
+description: "Aspose.Words for .NET allows you to work with text features supported when saving to Rich Text format."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-rich-text-export/
@@ -9,7 +10,7 @@ url: /net/text-features-supported-on-rich-text-export/
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
-[Jump to this location in the import section](/words//net/text-features-supported-on-rich-text-import/)
+[Jump to this location in the import section](/words/net/text-features-supported-on-rich-text-import/)
 
 {{% /alert %}} 
 

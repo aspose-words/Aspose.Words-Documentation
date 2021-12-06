@@ -1,11 +1,12 @@
----
+﻿---
 title: SPListQuery Element
+description: "This page describes SPListQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 140
 url: /sharepoint/splistquery-element/
 ---
 
-The SPListQuery element contains information about CAML query for retrieving report data from a SharePoint list. Use it with [SPDataSource](/words/sharepoint/spdatasource-element/). Use the ListName element to set the name of the list to query. Use the SiteUrl element of the data source to specify sub-site if needed. Set CAML query via the [Query](https://docs.aspose.com/words/sharepoint/queries-element/) element. It is best to wrap the element contents in ![CDATA[]] for readability as CAML query is in XML. The same is true for the ViewFields element. In a CAML query, parameters are substituted by name. An entire element inside the query must match a parameter name listed in the [Parameters](/words/sharepoint/parameters-element/) element. A parameter name must start with “@”.
+The SPListQuery element contains information about CAML query for retrieving report data from a SharePoint list. Use it with [SPDataSource](/words/sharepoint/spdatasource-element/). Use the ListName element to set the name of the list to query. Use the SiteUrl element of the data source to specify sub-site if needed. Set CAML query via the [Query](/words/sharepoint/queries-element/) element. It is best to wrap the element contents in ![CDATA[]] for readability as CAML query is in XML. The same is true for the ViewFields element. In a CAML query, parameters are substituted by name. An entire element inside the query must match a parameter name listed in the [Parameters](/words/sharepoint/parameters-element/) element. A parameter name must start with “@”.
 
 If CAML query is not specified, all elements in the list are retrieved. CAML queries are executed via Lists.asmx web service so the returned field names are often prefixed with “ows_”. See CAML query schema description on [MSDN](http://msdn.microsoft.com/en-us/library/ms467521.aspx). The queries are executed recursively, traversing sub-folders of the list. Please note that a bunch of fields is always returned regardless of the ViewFields element. This is the behavior of the SharePoint Lists web service.
 
@@ -51,7 +52,7 @@ Here is an example of the report with the SPListQuery element:
 </Report>
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that internal field names like FileLeafRef are used inside the query. However, Lists web service returns, FileLeafRef field as ows_FileLeafRef. And it returns about 15 fields instead of just the two mentioned in the ViewFields element.
 

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 14.4 Release Notes Release Notes
+description: "Aspose.Words for .NET 14.4 Release Notes Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /net/aspose-words-for-net-14-4-release-notes-release-notes/
@@ -53,7 +54,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-9885|STYLEREF fields in Header/Footer display error messages when saving to PDF|Bug|
 |WORDSNET-9892|Arabic character {{< emoticons/cross >}} is missing from word ??????? in PDF|Bug|
 |WORDSNET-9895|Objects filled with pattern disapear after transparent Glyphs in PDF.|Bug|
-|WORDSNET-9896|Document is rendered in numerous pages when use special font character|Bug|
+|WORDSNET-9896|Document is rendered in multiple pages when use special font character|Bug|
 |WORDSNET-9898|An HTML part of an MHTML document is imported using the Windows-1252 encoding instead of UTF-8|Bug|
 |WORDSNET-9911|Opening and saving word document causes a bullet list to become a number list|Bug|
 |WORDSNET-9948|Table header does not render correctly in Pdf file|Bug|

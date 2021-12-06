@@ -1,5 +1,6 @@
 ---
 title: Umbraco Content Exporter Module
+description: "Export online content into Word Processing or PDF document using Aspose.Words Umbraco Content Exporter Module."
 type: docs
 weight: 10
 url: /net/umbraco-content-exporter-module/
@@ -33,7 +34,6 @@ The module is supported on all versions of
 
 You can download Export to Word and Export to PDF modules from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/releases)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposeumbraco/files/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
@@ -106,7 +106,6 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/workitem/list/basic)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/issues)
 - [Sourceforge ](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
@@ -127,7 +126,6 @@ Export to Word, Export to Pdf and Import from Word macros are open source and th
 
 You can get the latest source code from one of the following locations
 
-- [CodePlex ](https://asposeumbraco.codeplex.com/SourceControl/latest)
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco)
 - [Sourceforge ](https://sourceforge.net/p/asposeumbraco/code/ci/master/tree/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/src)

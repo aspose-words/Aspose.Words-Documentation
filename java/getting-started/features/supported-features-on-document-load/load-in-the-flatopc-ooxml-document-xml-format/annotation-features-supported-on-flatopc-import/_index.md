@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on FlatOPC Import
+description: "Aspose.Words for Java allows you to work with annotation features supported on FlatOPC format import."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-flatopc-import/
@@ -46,7 +47,7 @@ See the following links in the documentation for further information:
 
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
 
-The range of a comment can span over various parts of the document text, including over multiple paragraphs and tables.
+The range of a comment can span over various parts of the document text, including over many paragraphs and tables.
 
 In Aspose.Words this range is represented by the following nodes:
 

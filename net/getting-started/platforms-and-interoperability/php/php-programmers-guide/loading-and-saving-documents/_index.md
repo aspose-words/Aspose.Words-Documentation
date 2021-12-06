@@ -1,5 +1,6 @@
 ---
 title: Loading and Saving Documents
+description: "Loading and saving documents using Aspose.Words for .NET in PHP projects."
 type: docs
 weight: 10
 url: /net/loading-and-saving-documents/
@@ -7,4 +8,4 @@ url: /net/loading-and-saving-documents/
 
 This section contains the following
 
-- [Load Text File in PHP](https://docs.aspose.com/words/net/load-text-file-in-php/)
+- [Load Text File in PHP](/words/net/load-text-file-in-php/)

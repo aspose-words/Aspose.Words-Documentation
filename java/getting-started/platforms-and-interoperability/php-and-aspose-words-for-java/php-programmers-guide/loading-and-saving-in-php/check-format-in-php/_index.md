@@ -1,5 +1,6 @@
 ---
 title: Check Format in PHP
+description: "PHP: Check Document Format using Aspose.Words for Java."
 type: docs
 weight: 10
 url: /java/check-format-in-php/

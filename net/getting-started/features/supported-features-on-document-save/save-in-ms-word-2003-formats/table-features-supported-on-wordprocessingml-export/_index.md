@@ -1,5 +1,6 @@
 ---
 title: Table Features Supported on WordprocessingML Export
+description: "Aspose.Words for .NET allows you to work with table features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-wordprocessingml-export/

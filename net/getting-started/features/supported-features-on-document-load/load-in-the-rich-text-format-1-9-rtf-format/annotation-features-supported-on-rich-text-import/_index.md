@@ -1,5 +1,6 @@
-﻿---
+---
 title: Annotation Features Supported on Rich Text Import
+description: "Aspose.Words for .NET allows you to work with annotation features supported on Rich Text import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-rich-text-import/
@@ -46,7 +47,7 @@ See the following links in the documentation for further information:
 
 A comment in a document is imported as a Comment node in the Aspose.Words DOM.
 
-The range of a comment can span over various parts of the document text, including over multiple paragraphs and tables.
+The range of a comment can span over various parts of the document text, including over many paragraphs and tables.
 
 In Aspose.Words this range is represented by the following nodes:
 
@@ -60,7 +61,7 @@ All three comment nodes are related through the use of the ID properties on each
 
 See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments](https://docs.aspose.com/words/net/working-with-comments/#how-to-extract-or-remove-comments)
+- [How to Extract or Remove Comments](/words/net/working-with-comments/#how-to-extract-or-remove-comments)
 - [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
 - [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
 
@@ -88,10 +89,10 @@ These additonal features will be included in a future version as well as an API 
 
 See the following links in the documentation for further information:
 
-- [Manage Tracking Changes](https://docs.aspose.com/words/net/track-changes-in-a-document/)
+- [Manage Tracking Changes](/words/net/track-changes-in-a-document/)
 - [Document.HasRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/hasrevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/trackrevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/properties/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -100,9 +101,9 @@ See the following links in the documentation for further information:
 |Table Cell Insertion |Planned | | |
 |Cell Merge or Split |Planned | | |
 |Run Deletion |Yes | |- [Run.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
-|Run Insertion |Yes | |- [Run.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isinsertrevision)|
-|Paragraph Deletion |Yes | |- [Paragraph.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/node/properties/isdeleterevision)|
-|Paragraph Insertion |Yes | |- [Paragraph.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/node/properties/isinsertrevision)|
+|Run Insertion |Yes | |- [Run.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Paragraph Deletion |Yes | |- [Paragraph.IsDeleteRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Paragraph Insertion |Yes | |- [Paragraph.IsInsertRevision](https://apireference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
 |Table Row Deletion |Yes | | |
 |Table Row Insertion |Yes | | |
 |Numbering Insertion |Yes | | |

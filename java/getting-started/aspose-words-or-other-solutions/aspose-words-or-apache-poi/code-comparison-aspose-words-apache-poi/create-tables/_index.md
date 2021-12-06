@@ -1,5 +1,6 @@
 ---
 title: Create Tables
+description: "Aspose.Words for Java allows you to create tables inside a document easily and fast instead of using Apache POI."
 type: docs
 weight: 10
 url: /java/create-tables/
@@ -97,12 +98,10 @@ outStream.close();
 
 ## Download Running Code
 
-- [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/releases/view/618321)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose.Words_Java_for_Apache_POI_WP-v1.0.0)
 
 ## Download Sample Code
 
-- [CodePlex](https://asposewordsjavaapachepoi.codeplex.com/SourceControl/latest#src/main/java/com/aspose/words/examples/featurescomparison/tables/)
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/tables)
 
 {{% alert color="primary" %}} 

@@ -1,5 +1,6 @@
 ---
 title: Extend and Contribute to CRM OneClick Word Document Generator
+description: "How to defined a custom workflow using Aspose.Words to generate document from template."
 type: docs
 weight: 10
 url: /net/extend-and-contribute-oneclick-generator/
@@ -82,6 +83,6 @@ if (Note.Contains("documentbody"))
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Execute Simple Mail Merge](https://docs.aspose.com/words/net/how-to-execute-mail-merge/#how-to-execute-simple-mail-merge).
+For more details, visit [How to Execute Simple Mail Merge](/words/net/how-to-execute-mail-merge/#how-to-execute-simple-mail-merge).
 
 {{% /alert %}}

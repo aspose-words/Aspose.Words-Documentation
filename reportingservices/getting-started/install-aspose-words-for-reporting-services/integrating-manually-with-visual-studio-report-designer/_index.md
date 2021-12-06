@@ -1,15 +1,16 @@
 ---
 title: Integrating Manually with Visual Studio Report Designer
+description: "This page describes manual installation process of the Aspose.Words for Reporting Services to a Business Intelligence Development Studio."
 type: docs
 weight: 40
 url: /reportingservices/integrating-manually-with-visual-studio-report-designer/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **You only need to follow this procedure if you want install Aspose.Words for Reporting Services manually without the MSI installer. We recommend you use the MSI installer because it performs all necessary installation and configuration automatically.**
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This section describes how to install Aspose.Words for Reporting Services on a computer with Business Intelligence Development Studio. This will enable you to export reports to Microsoft Word documents at design time from the Microsoft Visual Studio 2008, 2010, 2012, 2015, 2017, or 2019 Report Designer.
 
@@ -108,6 +109,6 @@ PublicKeyBlob="00240000048000009400000006020000002400005253413100040000010001005
 
 Run or restart Microsoft Visual Studio 2008, 2010, 2012, 2015, 2017, or 2019 Report Designer. You should notice new formats available in the list of export formats.
 
-**New export formats appear in Report Designer.** 
+**New export formats appear in Report Designer.**
 
 ![todo:image_alt_text](integrating-manually-with-visual-studio-report-designer_1.png)

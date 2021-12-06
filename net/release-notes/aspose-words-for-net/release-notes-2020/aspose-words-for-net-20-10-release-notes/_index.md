@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 20.10 Release Notes
+description: "Aspose.Words for .NET 20.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 3
 url: /net/aspose-words-for-net-20-10-release-notes/
@@ -224,14 +225,14 @@ docA.Compare(docB, "vs", DateTime.Now, compareOptions);
 
 Related issue: WORDSNET-20809
 
-This new LoadOption enables reducing memory usage.
+This new LoadOption allows reducing memory usage.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets whether to convert metafile (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) images to <see cref="FileFormat.Png" /> image format.
 /// </summary>
 /// <remarks>
 /// Metafiles (<see cref="FileFormat.Wmf"/> or <see cref="FileFormat.Emf"/>) is an uncompressed image format and sometimes requires to much RAM to hold and process document.
-/// This option enables to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
+/// This option allows to convert all metafile images to <see cref="FileFormat.Png" /> on document loading.
 /// Please note - conversion vector graphics to raster decreases quality of the images.
 /// </remarks>
 public bool ConvertMetafilesToPng
@@ -735,4 +736,4 @@ The indexer of VbaReferenceCollection is exposed publicly for reading:
 public VbaReference this[int index]
 {{< /highlight >}}
 
-Please find usage examples here [https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)
+Please find usage examples here [https://docs.aspose.com/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly](/words/net/aspose-words-for-net-20-9-release-notes/#vbareferencecollection-and-related-types-are-exposed-publicly)

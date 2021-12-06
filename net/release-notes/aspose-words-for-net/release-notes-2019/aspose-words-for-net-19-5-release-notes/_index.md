@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words for .NET 19.5 Release Notes
+description: "Aspose.Words for .NET 19.5 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 80
 url: /net/aspose-words-for-net-19-5-release-notes/
@@ -140,7 +141,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode, I
 
 
 
-It enables to specify an additional options that affect the formatting of a result document.
+It allows to specify an additional options that affect the formatting of a result document.
 
 See additional information under added a new ImportFormatOptions class for more flexible control over importing tasks at [Aspose.Words for .NET 19.4 Release Notes](/words/net/aspose-words-for-net-19-4-release-notes/).
 
@@ -176,7 +177,7 @@ public bool BreakIsStyleSeparator
 
 
 
-It enables to identify Style Separator Paragraph.
+It allows to identify Style Separator Paragraph.
 
 **UseCase:**
 
@@ -254,7 +255,7 @@ Assert.AreEqual("1)", fields[5].DisplayResult);
 
 Related issue: WORDSNET-16739
 
-Added new StreamFontSource class which enables loading fonts from the stream:
+Added new StreamFontSource class which allows loading fonts from the stream:
 
 
 
@@ -270,7 +271,7 @@ Added new StreamFontSource class which enables loading fonts from the stream:
     /// when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the
     /// font is used in the document to parse the font data and to embed the font data to some output formats.</para>
     /// 
-    /// <para><see cref="StreamFontSource"/> may be useful because it enables to load the font data only when it is required
+    /// <para><see cref="StreamFontSource"/> may be useful because it allows to load the font data only when it is required
     /// and not to store it in the memory for the <see cref="FontSettings"/> lifetime.</para>
     /// </remarks>
     public abstract class StreamFontSource : FontSourceBase, IFontData
