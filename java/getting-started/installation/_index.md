@@ -8,7 +8,7 @@ url: /java/installation/
 
 Make sure your machine meets the [system requirements](https://docs.aspose.com/words/java/system-requirements/) before you begin.
 
-This article explains how to instal Aspose.Words for Java on your computer.
+This article explains how to install Aspose.Words for Java on your computer.
 
 ## Install Aspose.Words for Java from Maven Repository
 

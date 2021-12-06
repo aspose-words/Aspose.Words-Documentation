@@ -23,7 +23,7 @@ The mail merge region is called nested if you have two or more mail merge region
 
 The most common example of a nested mail merge is an order that contains a few items where you need to link many data tables and present the information in a template.
 
-The picture below demonstrates two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
+The picture below shows two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 
 <img src="nested_mail_merge_with_regions_1.png" alt="nested_mail_merge_with_regions" style="width:650px"/>
 
@@ -57,36 +57,36 @@ public:
 
     String get_TableName() override
     {
-	    return u"Order";
+        return u"Order";
     }
-
+    
     bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
     {
-
+    
         if (fieldName == u"Name")
         {
             fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(0).getString()));
             return true;
         }
-
+    
         if (fieldName == u"Quantity")
         {
             fieldValue = ObjectExt::Box<int32_t>(mQuery.getColumn(1).getInt());
             return true;
         }
-
+    
         fieldValue.reset();
         return false;
     }
-
+    
     bool MoveNext() override
     {
     	return mQuery.executeStep();
     }
-
+    
     SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
     {
-	    return nullptr;
+        return nullptr;
     }
 
 private:
@@ -105,9 +105,9 @@ public:
 
     String get_TableName() override
     {
-	    return u"Customer";
+        return u"Customer";
     }
-
+    
     bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
     {
         if (fieldName == u"FullName")
@@ -115,28 +115,28 @@ public:
             fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(1).getString()));
             return true;
         }
-
+    
         if (fieldName == u"Address")
         {
             fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(2).getString()));
             return true;
         }
-
+    
         fieldValue.reset();
         return false;
     }
-
+    
     bool MoveNext() override
     {
         return mQuery.executeStep();
     }
-
+    
     SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
     {
-	    if (tableName == u"Order")
-	    {
-		    return MakeObject<OrdersDataSource>(mDatabase, mQuery.getColumn(0).getInt());
-	    }
+        if (tableName == u"Order")
+        {
+    	    return MakeObject<OrdersDataSource>(mDatabase, mQuery.getColumn(0).getInt());
+        }
         return nullptr;
     }
 private:
@@ -156,26 +156,26 @@ void CustomMailMerge()
     builder->Write(u"\nAddress:\t");
     builder->InsertField(u" MERGEFIELD Address ");
     builder->Write(u"\nOrders:\n");
-
+    
     builder->InsertField(u" MERGEFIELD TableStart:Order");
-
+    
     builder->Write(u"\tItem name:\t");
     builder->InsertField(u" MERGEFIELD Name ");
     builder->Write(u"\n\tQuantity:\t");
     builder->InsertField(u" MERGEFIELD Quantity ");
     builder->InsertParagraph();
-
+    
     builder->InsertField(u" MERGEFIELD TableEnd:Order");
-
+    
     builder->InsertField(u" MERGEFIELD TableEnd:Customer");
-
+    
     SQLite::Database database{"customers.db3"};
     // To be able to mail merge from your data source,
     // it must be wrapped into an object that implements the IMailMergeDataSource interface.
     auto customersDataSource = MakeObject<NestedMailMerge::CustomersDataSource>(database);
-
+    
     doc->get_MailMerge()->ExecuteWithRegions(customersDataSource);
-
+    
     doc->Save(u"NestedMailMergeCustom.CustomMailMerge.docx");
 }
 {{< /highlight >}}

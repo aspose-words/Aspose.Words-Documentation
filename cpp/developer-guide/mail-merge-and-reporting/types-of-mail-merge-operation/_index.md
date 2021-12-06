@@ -71,7 +71,7 @@ And after executing simple mail merge:
 
 In Aspose.Words, the standard mail merge operation fills only a single document with content from your data source. So, you will need to execute the mail merge operation many times to create a few merged documents as an output.
 
-The following code example demonstrates how to generate a few merged documents during a mail merge operation with [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
+The following code example shows how to generate a few merged documents during a mail merge operation with [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
 
 {{< highlight cpp >}}
 class CustomersRowMailMergeDataSource : public MailMerging::IMailMergeDataSource
@@ -80,55 +80,55 @@ public:
     CustomersRowMailMergeDataSource(SQLite::Statement& query) : mQuery(query) {}
 
 	  String get_TableName() override
-    {
+	{
 	    return u"customers";
-    }
-
-    bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
-    {
-        auto boxHelper = [](const std::string& value) { return ObjectExt::Box<String>(String::FromUtf8(value)); };
-
-        if (fieldName == u"CustomerName")
-        {
-            fieldValue = boxHelper(mQuery.getColumn(0).getString());
-            return true;
-        }
-
-        if (fieldName == u"Item")
-        {
-            fieldValue = boxHelper(mQuery.getColumn(1).getString());
-            return true;
-        }
-
-        if (fieldName == u"Quantity")
-        {
-            fieldValue = ObjectExt::Box<int32_t>(mQuery.getColumn(2).getInt());
-            return true;
-        }
-
-        fieldValue.reset();
-        return false;
-    }
-
-    bool MoveNext() override
-    {
-        if (!isInitialized)
-        {
+	}
+	
+	bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
+	{
+	    auto boxHelper = [](const std::string& value) { return ObjectExt::Box<String>(String::FromUtf8(value)); };
+	
+	    if (fieldName == u"CustomerName")
+	    {
+	        fieldValue = boxHelper(mQuery.getColumn(0).getString());
+	        return true;
+	    }
+	
+	    if (fieldName == u"Item")
+	    {
+	        fieldValue = boxHelper(mQuery.getColumn(1).getString());
+	        return true;
+	    }
+	
+	    if (fieldName == u"Quantity")
+	    {
+	        fieldValue = ObjectExt::Box<int32_t>(mQuery.getColumn(2).getInt());
+	        return true;
+	    }
+	
+	    fieldValue.reset();
+	    return false;
+	}
+	
+	bool MoveNext() override
+	{
+	    if (!isInitialized)
+	    {
 	        isInitialized = true;
-            return true;
-        }
-        return false;
-    }
-
-    SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
-    {
+	        return true;
+	    }
+	    return false;
+	}
+	
+	SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
+	{
 	    return nullptr;
-    }
-
+	}
+	
 	void Reset()
-    {
+	{
 	    isInitialized = false;
-    }
+	}
 
 private:
     SQLite::Statement& mQuery;
@@ -147,16 +147,16 @@ void MultipleDocumentsMailMerge()
     builder->InsertField(u" MERGEFIELD Item ");
     builder->InsertParagraph();
     builder->InsertField(u" MERGEFIELD Quantity ");
-
+    
     // Fill the fields in the document with user data.
     SQLite::Database db{"customers.db3"};
     SQLite::Statement query{db, "SELECT * FROM customers"};
     auto dataSource = MakeObject<CustomersRowMailMergeDataSource>(query);
-
+    
     int32_t counter = 1;
     while (query.executeStep())
     {
-	      auto dstDoc = doc->Clone();
+          auto dstDoc = doc->Clone();
         dataSource->Reset();
         dstDoc->get_MailMerge()->Execute(dataSource);
         dstDoc->Save(String{u"TestFile_out"} + Convert::ToString(counter++) + u".docx");
@@ -180,7 +180,7 @@ Information about a mail merge region can be obtained using the [MailMergeRegion
 
 A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
 
-Aspose.Words enables you to execute mail merge with regions using one of the [ExecuteWithRegions](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#executewithregions_imailmergedatasource) methods that accept [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) custom data source.
+Aspose.Words allows you to execute mail merge with regions using one of the [ExecuteWithRegions](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#executewithregions_imailmergedatasource) methods that accept [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) custom data source.
 
 The following code example shows how to execute mail merge with regions from sqlite database with [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
 
@@ -197,36 +197,36 @@ public:
 
     String get_TableName() override
     {
-	    return u"Orders";
+        return u"Orders";
     }
-
+    
     bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
     {
-
+    
         if (fieldName == u"ItemName")
         {
             fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(0).getString()));
             return true;
         }
-
+    
         if (fieldName == u"Quantity")
         {
             fieldValue = ObjectExt::Box<int32_t>(mQuery.getColumn(1).getInt());
             return true;
         }
-
+    
         fieldValue.reset();
         return false;
     }
-
+    
     bool MoveNext() override
     {
     	return mQuery.executeStep();
     }
-
+    
     SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
     {
-	    return nullptr;
+        return nullptr;
     }
 
 private:
@@ -246,9 +246,9 @@ public:
 
     String get_TableName() override
     {
-	    return u"Customers";
+        return u"Customers";
     }
-
+    
     bool GetValue(String fieldName, SharedPtr<Object>& fieldValue) override
     {
         if (fieldName == u"CustomerName")
@@ -256,22 +256,22 @@ public:
             fieldValue = ObjectExt::Box<String>(String::FromUtf8(mQuery.getColumn(1).getString()));
             return true;
         }
-
+    
         fieldValue.reset();
         return false;
     }
-
+    
     bool MoveNext() override
     {
         return mQuery.executeStep();
     }
-
+    
     SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
     {
-	    if (tableName == u"Orders")
-	    {
-		    return MakeObject<OrdersDataSourceSQLite>(mDatabase, mQuery.getColumn(0).getInt());
-	    }
+        if (tableName == u"Orders")
+        {
+    	    return MakeObject<OrdersDataSourceSQLite>(mDatabase, mQuery.getColumn(0).getInt());
+        }
         return nullptr;
     }
 private:
@@ -290,7 +290,7 @@ void MailMergeWithRegionsSQLite()
     builder->Write(u"Orders for ");
     builder->InsertField(u" MERGEFIELD CustomerName");
     builder->Write(u":");
-
+    
     // Create column headers
     builder->StartTable();
     builder->InsertCell();
@@ -298,7 +298,7 @@ void MailMergeWithRegionsSQLite()
     builder->InsertCell();
     builder->Write(u"Quantity");
     builder->EndRow();
-
+    
     // We have a second data table called "Orders", which has a many-to-one relationship with "Customers"
     // picking up rows with the same CustomerID value.
     builder->InsertCell();
@@ -308,15 +308,15 @@ void MailMergeWithRegionsSQLite()
     builder->InsertField(u" MERGEFIELD Quantity");
     builder->InsertField(u" MERGEFIELD TableEnd:Orders");
     builder->EndTable();
-
+    
     // The end point of mail merge with regions.
     builder->InsertField(u" MERGEFIELD TableEnd:Customers");
-
+    
     // Pass our dataset to perform mail merge with regions.
     SQLite::Database database{"customers.db3"};
     auto dataSource = System::MakeObject<CustomersDataSourceSQLite>(database);
     doc->get_MailMerge()->ExecuteWithRegions(dataSource);
-
+    
     // Save the result
     doc->Save(u"MailMerge.ExecuteWithRegions.docx");
 }
@@ -335,8 +335,8 @@ And after executing mail merge with regions:
 There are some important points that you need to consider when performing a mail merge with regions:
 
 * The start point *TableStart:Orders* and the end point *TableEnd:Orders* both need to be in the same row or cell. For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
-  The merge field name must match the column’s name in your DataTable. Unless you have specified mapped fields, the mail merge with regions will not be successful for any merge field that has a different name than the column’s name.
-* Aspose.Words for C++ only supports [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) and [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) based data sources. Unlike .Net and Java, C++ doesn't have generally accepted cross-platform API for working with databases (like ADODB, ODBC or JDBC). In order to work with a specific data source, you have to implement [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) or [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) interface
+  The merge field name must match the column name in your DataTable. Unless you specify mapped fields, mail merge with regions will not succeed for any merge field that has a name other than the column name.
+* Aspose.Words for C++ only supports [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) and [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) based data sources. Unlike .Net and Java, C++ does not have a generally accepted cross-platform API for working with databases (like ADODB, ODBC, or JDBC). In order to work with a specific data source, you have to implement [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) or [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) interface.
 
 If one of these rules is broken, you will get unexpected results or an exception may be thrown.
 
