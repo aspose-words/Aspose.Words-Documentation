@@ -148,8 +148,8 @@ public class FontSettings
     /// For the fonts in the <see cref="SystemFontSource"/> and <see cref="FolderFontSource"/> cache key is the path
     /// to the font file. For <see cref="MemoryFontSource"/> and <see cref="StreamFontSource"/> cache key is defined
     /// in the <see cref="MemoryFontSource.CacheKey"/> and <see cref="StreamFontSource.CacheKey"/> properties
-    /// respectively. For the <see cref="FileFontSource"/> cache key is either <see cref="MemoryFontSource.CacheKey"/>
-    /// property or a file path if the <see cref="MemoryFontSource.CacheKey"/> is <b>null</b>.</para>
+    /// respectively. For the <see cref="FileFontSource"/> cache key is either <see cref="FileFontSource.CacheKey"/>
+    /// property or a file path if the <see cref="FileFontSource.CacheKey"/> is <b>null</b>.</para>
     ///
     /// <para>It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved.
     /// Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the
