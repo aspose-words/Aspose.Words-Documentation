@@ -1,5 +1,6 @@
 ---
 title: Working with TextBoxes
+description: "Introduction to linked textboxes feature."
 type: docs
 weight: 130
 url: /net/working-with-textboxes/

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Shapes
+description: "Introduction to shape markup language, creating shapes of different types using Aspose.Words." 
 type: docs
 weight: 10
 url: /net/working-with-shapes/

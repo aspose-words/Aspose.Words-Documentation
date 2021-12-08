@@ -1,5 +1,6 @@
 ---
 title: Working with Lists
+description: "Introduction to numbering formatting feature."
 type: docs
 weight: 100
 url: /net/working-with-lists/

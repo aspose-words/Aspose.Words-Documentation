@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Ranges
+description: "Introduction to Aspose.Words Range feature."
 type: docs
 weight: 65
 url: /net/working-with-ranges/

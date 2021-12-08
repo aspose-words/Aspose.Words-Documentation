@@ -1,5 +1,6 @@
 ---
 title: Working with Sections
+description: "Understanding document section concepts and mostly used manipulation practices."
 type: docs
 weight: 60
 url: /net/working-with-sections/

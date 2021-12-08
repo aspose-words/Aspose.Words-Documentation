@@ -1,5 +1,6 @@
 ﻿---
 title: Working with TableStyle
+description: "Introduction to advanced table formatting using Table styles."
 type: docs
 weight: 30
 url: /net/working-with-tablestyle/

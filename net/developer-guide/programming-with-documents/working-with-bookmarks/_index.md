@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Bookmarks
+description: "Understanding bookmark concepts and how bookmark can be used in your program."
 type: docs
 weight: 86
 url: /net/working-with-bookmarks/

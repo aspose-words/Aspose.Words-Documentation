@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Images
+description: "Image shapes in details and advanced features provided by Aspose.Words."
 type: docs
 weight: 40
 url: /net/working-with-images/

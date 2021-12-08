@@ -1,5 +1,6 @@
 ---
 title: Working with Tables
+description: "Introducing Table node concepts."
 type: docs
 weight: 90
 url: /net/working-with-tables/

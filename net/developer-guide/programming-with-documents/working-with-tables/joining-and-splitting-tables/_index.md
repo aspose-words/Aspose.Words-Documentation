@@ -1,5 +1,6 @@
 ---
 title: Joining and Splitting Tables
+description: "Advanced table node manipulation, join and split."
 type: docs
 weight: 50
 url: /net/joining-and-splitting-tables/

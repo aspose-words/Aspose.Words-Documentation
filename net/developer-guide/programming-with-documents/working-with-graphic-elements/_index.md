@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Graphic Elements
+description: "Introduction to Shape node, basic graphic element."
 type: docs
 weight: 150
 url: /net/working-with-graphic-elements/

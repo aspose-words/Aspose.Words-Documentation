@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Headers and Footers
+description: "How to manipulate with headers/footers using Aspose.Words."
 type: docs
 weight: 70
 url: /net/working-with-headers-and-footers/

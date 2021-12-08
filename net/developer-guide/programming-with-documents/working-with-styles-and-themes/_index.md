@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Styles and Themes
+description: "Working with enhanced Microsoft Word formatting features, styles and themes."
 type: docs
 weight: 40
 url: /net/working-with-styles-and-themes/

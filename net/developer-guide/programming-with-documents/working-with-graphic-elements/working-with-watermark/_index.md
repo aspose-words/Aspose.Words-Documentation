@@ -1,5 +1,6 @@
 ---
 title: Working with Watermark
+description: "Document watermark manipulation using Aspose.Words."
 type: docs
 weight: 60
 url: /net/working-with-watermark/

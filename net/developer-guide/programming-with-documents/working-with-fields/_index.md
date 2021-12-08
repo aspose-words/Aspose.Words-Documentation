@@ -1,5 +1,6 @@
 ---
 title: Working with Fields
+description: "Introduction to field feature."
 type: docs
 weight: 170
 url: /net/working-with-fields/
