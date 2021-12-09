@@ -118,3 +118,217 @@ There are 83 improvements and fixes in this regular monthly release. The most no
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 21.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
+
+### Added new feature to save and load font search cache
+
+Related issue: WORDSNET-22278
+
+Loading previously saved font search cache will speed up the font cache initialization process. It is especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
+
+To provide this feature following methods and properties has been added:
+{{< highlight csharp >}}
+public class FontSettings
+{
+    /// <summary>
+    /// Saves the font search cache to the stream.
+    /// </summary>
+    /// <param name="outputStream">Output stream.</param>
+    /// <remarks>
+    /// See <see cref="SetFontsSources(FontSourceBase[], Stream)"/> method description for more info.
+    /// </remarks>
+    public void SaveSearchCache(Stream outputStream);
+ 
+    /// <summary>
+    /// Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved
+    /// font search cache.
+    /// </summary>
+    /// <param name="sources">An array of sources that contain TrueType fonts.</param>
+    /// <param name="cacheInputStream">Input stream with saved font search cache.</param>
+    /// <remarks>
+    /// <para>Loading previously saved font search cache will speed up the font cache initialization process. It is
+    /// especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).</para>
+    ///
+    /// <para>When saving and loading font search cache, fonts in the provided sources are identified via cache key.
+    /// For the fonts in the <see cref="SystemFontSource"/> and <see cref="FolderFontSource"/> cache key is the path
+    /// to the font file. For <see cref="MemoryFontSource"/> and <see cref="StreamFontSource"/> cache key is defined
+    /// in the <see cref="MemoryFontSource.CacheKey"/> and <see cref="StreamFontSource.CacheKey"/> properties
+    /// respectively. For the <see cref="FileFontSource"/> cache key is either <see cref="FileFontSource.CacheKey"/>
+    /// property or a file path if the <see cref="FileFontSource.CacheKey"/> is <b>null</b>.</para>
+    ///
+    /// <para>It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved.
+    /// Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the
+    /// inaccurate font resolving by Aspose.Words.</para>
+    /// </remarks>
+    public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream);
+}
+ 
+public class FileFontSource
+{
+    /// <summary>
+    /// Ctor.
+    /// </summary>
+    /// <param name="filePath">Path to font file.</param>
+    /// <param name="priority">Font source priority. See the <see cref="FontSourceBase.Priority"/> property description for more information.</param>
+    /// <param name="cacheKey">The key of this source in the cache. See <see cref="CacheKey"/> property description for more information.</param>
+    public FileFontSource(string filePath, int priority, string cacheKey);
+ 
+    /// <summary>
+    /// The key of this source in the cache.
+    /// </summary>
+    /// <remarks>
+    /// <para>This key is used to identify cache item when saving/loading font search cache with
+    /// <see cref="FontSettings.SaveSearchCache"/> and
+    /// <see cref="FontSettings.SetFontsSources(FontSourceBase[], Stream)"/> methods.</para>
+    ///
+    /// <para>If key is not specified then <see cref="FilePath"/> will be used as a key instead.</para>
+    /// </remarks>
+    public string CacheKey { get; }
+}
+ 
+public class MemoryFontSource
+{
+    /// <summary>
+    /// Ctor.
+    /// </summary>
+    /// <param name="fontData">Binary font data.</param>
+    /// <param name="priority">Font source priority. See the <see cref="FontSourceBase.Priority"/> property description for more information.</param>
+    /// <param name="cacheKey">The key of this source in the cache. See <see cref="CacheKey"/> property description for more information.</param>
+    public MemoryFontSource(byte[] fontData, int priority, string cacheKey);
+ 
+    /// <summary>
+    /// The key of this source in the cache.
+    /// </summary>
+    /// <remarks>
+    /// This key is used to identify cache item when saving/loading font search cache with
+    /// <see cref="FontSettings.SaveSearchCache"/> and <see cref="FontSettings.SetFontsSources(FontSourceBase[], Stream)"/> methods.
+    /// </remarks>
+    public string CacheKey { get; }
+}
+ 
+public abstract class StreamFontSource
+{
+    /// <summary>
+    /// Ctor.
+    /// </summary>
+    /// <param name="priority">Font source priority. See the <see cref="FontSourceBase.Priority"/> property description for more information.</param>
+    /// <param name="cacheKey">The key of this source in the cache. See <see cref="CacheKey"/> property description for more information.</param>
+    protected StreamFontSource(int priority, string cacheKey);
+ 
+    /// <summary>
+    /// The key of this source in the cache.
+    /// </summary>
+    /// <remarks>
+    /// This key is used to identify cache item when saving/loading font search cache with
+    /// <see cref="FontSettings.SaveSearchCache"/> and <see cref="FontSettings.SetFontsSources(FontSourceBase[], Stream)"/> methods.
+    /// </remarks>
+    public string CacheKey { get; }
+}
+{{< /highlight >}}
+
+Use Case:
+{{< highlight csharp >}}
+// Prepare font sources and generate font search cache beforehand.
+FileFontSource fileSource = new FileFontSource(filePath, fileSourcePriority, fileSourceKey);
+MemoryFontSource memorySource = new MemoryFontSource(fontData, memorySourcePriority, memorySourceKey);
+StreamFontSource streamSource = new SteamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
+FontSettings settings = new FontSettings();
+settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, streamSource });
+settings.SaveSearchCache(cacheOutputStream);
+ 
+// Set font sources and load search cache before processing documents. Note that sources should be the same as when saving font search cache.
+FileFontSource fileSource = new FileFontSource(filePath, fileSourcePriority, fileSourceKey);
+MemoryFontSource memorySource = new MemoryFontSource(fontData, memorySourcePriority, memorySourceKey);
+StreamFontSource streamSource = new SteamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
+FontSettings settings = new FontSettings();
+settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, streamSource }, cacheInputStream);
+{{< /highlight >}}
+
+### Added new public methods Fill.SetImage
+
+Related issue: WORDSNET-22811
+
+Added the following methods to Fill class:
+{{< highlight csharp >}}
+/// <summary>
+/// Changes the fill type to single image.
+/// </summary>
+/// <param name="fileName">The path to the image file.</param>
+public void SetImage(string fileName)
+ 
+/// <summary>
+/// Changes the fill type to single image.
+/// </summary>
+/// <param name="stream">The stream that contains the image bytes.</param>
+public void SetImage(Stream stream)
+ 
+/// <summary>
+/// Changes the fill type to single image.
+/// </summary>
+/// <param name="imageBytes">The image bytes array.</param>
+public void SetImage(byte[] imageBytes)
+{{< /highlight >}}
+
+Use Case: Explains how to work with Fill.SetImage.
+{{< highlight csharp >}}
+DocumentBuilder builder = new DocumentBuilder();
+ 
+// Add new rectangle shape.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// Apply one single image to the shape.
+shape.Fill.SetImage("ShapeBackground.jpg");
+ 
+builder.Document.Save("SingleImageDocument.docx");
+{{< /highlight >}}
+
+### Added WordOpenXML property for content control nodes
+
+Related issue: WORDSNET-22409
+
+The following member has been added to the StructuredDocumentTag and StructuredDocumentTagRangeStart nodes:
+{{< highlight csharp >}}
+/// <summary>
+/// Gets a string that represents the XML contained within the node in the <see cref="SaveFormat.FlatOpc"/> format.
+/// </summary>
+public string WordOpenXML { get; }
+{{< /highlight >}}
+
+Use Case: 
+{{< highlight csharp >}}
+Document doc = new Document("Test.docx");
+StructuredDocumentTag sdt = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 0, true);
+string fopcContent = sdt.WordOpenXML;
+{{< /highlight >}}
+
+### Added the ReportBuildOptions.UseLegacyHeaderFooterVisiting enum member
+
+Related issue: WORDSNET-22967
+
+The following member has been added to the ReportBuildOptions enum:
+{{< highlight csharp >}}
+/// <summary>
+/// Specifies that the engine should visit section child nodes (headers, footers, bodies) in an order
+/// compatible with Aspose.Words versions prior 21.9.
+/// </summary>
+/// <remarks>
+/// <para>
+/// By default, the engine treats headers and footers as if they were linked to section breaks. That is,
+/// when visiting section child nodes, a body is visited first and only then, headers and footers are visited.
+/// This agrees with Microsoft Word behavior when copy-pasting or removing multi-section contents and produces
+/// more correct results in most scenarios.
+/// </para>
+/// <para>
+/// Prior to Aspose.Words 21.9, the engine used another visiting order: Section child nodes were visited in
+/// an order they appear in a document. Apply this value to <see cref="ReportingEngine.Options"/> if
+/// compatibility with older versions of Aspose.Words is required.
+/// </para>
+/// </remarks>
+UseLegacyHeaderFooterVisiting
+{{< /highlight >}}
+
+The option can be applied while building a report in the following way:
+
+{{< highlight csharp >}}
+ReportingEngine engine = new ReportingEngine();
+engine.Options |= ReportBuildOptions.UseLegacyHeaderFooterVisiting;
+engine.BuildReport(...);
+{{< /highlight >}}
