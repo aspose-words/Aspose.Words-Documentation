@@ -6,12 +6,6 @@ weight: 70
 url: /java/numbering-features-supported-on-opendocument-export/
 ---
 
-{{% alert color="primary" %}} 
-
-[Jump to this location in the import section]()
-
-{{% /alert %}} 
-
 ## Numbering Definition
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

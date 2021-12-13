@@ -16,12 +16,10 @@ Almost all keywords are supported by Aspose.Words. These are not listed here in 
 
 See the following links in the documentation for further information:
 
-- [Loading, Saving and Converting]()
-- [Working with Document]()
-- [Aspose.Words Document Object Model]()
+- Loading, Saving and Converting
+- Working with Document
+- Aspose.Words Document Object Model
 - **Document**
-
-[Jump to this location in the export section]()
 
 {{% /alert %}} 
 
@@ -76,7 +74,7 @@ Once loaded you can remove any protection from a document.
 
 See the following links in the documentation for further information:
 
-- [Protecting Documents]()
+- Protecting Documents
 - **Document.Protect**
 - **Document.Unprotect**
 

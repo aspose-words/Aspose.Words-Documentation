@@ -16,11 +16,9 @@ Paragraph formatting is contained within the ParagraphFormat class which is link
 
 See the following links in the documentation for further information:
 
-- [Inserting Document Elements]()
+- Inserting Document Elements
 - **Paragraph**
 - **Paragraph.ParagraphFormat**
-
-[Jump to this location in the export section]()
 
 {{% /alert %}} 
 

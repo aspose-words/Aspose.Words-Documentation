@@ -28,8 +28,6 @@ See the following links in the documentation for further information:
 - **Paragraph.ListLabel**
 - **List.ListLevels**
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Numbering Definition

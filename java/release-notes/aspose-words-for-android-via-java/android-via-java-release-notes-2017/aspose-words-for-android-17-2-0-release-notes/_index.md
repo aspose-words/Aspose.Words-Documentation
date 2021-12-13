@@ -23,7 +23,7 @@ There are 22 improvements and fixes in this regular monthly release. The most no
 - Performance improvements
 - Support of Metered License
 
-Aspose.Words for Android also includes the current Aspose.Words for Java features. See the full list of changes [Aspose.Words for Java 17.2.0 Release Notes]() 
+Aspose.Words for Android also includes the current Aspose.Words for Java features. See the full list of changes [Aspose.Words for Java 17.2.0 Release Notes](/words/java/aspose-words-for-java-17-2-0-release-notes/) 
 
 ## Full List of Issues Covering all Changes in this Release
 
