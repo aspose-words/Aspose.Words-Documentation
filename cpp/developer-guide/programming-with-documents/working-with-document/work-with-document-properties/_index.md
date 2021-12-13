@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Document Properties
 description: "Aspose.Words for C++ allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
@@ -39,7 +39,7 @@ The following code example shows how to enumerate all built-in and custom proper
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Document/Properties.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Properties.docx).
 
 {{% /alert %}}
 

@@ -16,8 +16,6 @@ Using Aspose.Words you can create and modify different types of graphic objects.
 
 Almost all properties that deal with object positioning use points as a unit of measurement. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to the inch.
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Images
@@ -161,7 +159,7 @@ See the following links in the documentation for further information:
 |Charts (VML) |Yes |Currently there is no API for accessing or modifying the content of a chart. <br><br>You cannot retrieve the text of a chart. | |
 |Shape Customizations |Yes | | |
 |Hyperlink on Shape |Yes | |- **Shape.HRef**|
-|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document]()|
+|Watermark |Yes |A watermark in a Microsoft Word document is actually a text shape or image centered in the middle of the page but in the header or footer. This allows the watermark to appear behind all content and as faded. |- [How to Add a Watermark to a Document](/words/java/working-with-watermark/)|
 
 ## WordArt
 

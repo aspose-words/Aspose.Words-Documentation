@@ -16,8 +16,6 @@ You can also create a new style from scratch (with the exception of a table styl
 
 You currently cannot rename a style name or remove an existing style from a document. Copying styles from one document to another is also unsupported, however for the time being you can achieve this by copying a node with a style to another document. This will copy the source style along with it.
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Style Type

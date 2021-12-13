@@ -28,15 +28,13 @@ Currently to work with a field you need to iterate through the different field n
 
 Fields with custom field codes or field results (modified manually in the document to appear different) are retained during import and export. However, if you invoke field update, these might be replaced with the proper field content.
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Field Codes
 
 See the following links in the documentation for further information:
 
-- [Working with Fields]()
+- Working with Fields
 - **DocumentBuilder.InsertField**
 - **Document.UpdateFields**
 - **FieldType**
@@ -111,7 +109,7 @@ Form fields are fully supported by Aspose.Words.
 
 See the following links in the documentation for further information:
 
-- [Working with Form Fields]()
+- Working with Form Fields
 - **FormField**
 - **FormField.Type**
 - **FormField.Result**
@@ -178,9 +176,9 @@ These fields will be supported in a later version of Aspose.Words. All other fie
 
 See the following links in the documentation for further information:
 
-- [Mail Merge and Reporting]()
+- Mail Merge and Reporting
 - **Document.MailMerge**
-- [How to Use Advanced Mail Merge Features]()
+- How to Use Advanced Mail Merge Features
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -191,7 +189,7 @@ See the following links in the documentation for further information:
 |Fill-in |Yes | | |
 |GreetingLine |Yes | | |
 |If |Yes | | |
-|MergeField |Yes | |- [How to Rename Merge Fields]()|
+|MergeField |Yes | |- [How to Rename Merge Fields](/words/java/working-with-fields/)|
 |MergeRec |Yes | | |
 |MergeSeq |Yes | | |
 |Next |Yes | | |
@@ -242,7 +240,7 @@ You can create new hyperlinks by using the DocumentBuilder class. You can also f
 See the following links in the documentation for further information:
 
 - **DocumentBuilder.InsertHyperlink**
-- [How to Replace or Modify Hyperlinks]()
+- How to Replace or Modify Hyperlinks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -34,8 +34,8 @@ During printing you can specify the document name which appears in any print dia
 
 See the following links in the documentation for further information:
 
-- [Save a Document]()
-- [Rendering and Printing]()
+- Save a Document
+- Rendering and Printing
 - [ImageSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/ImageSaveOptions)
 - [SvgSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/SvgSaveOptions)
 
