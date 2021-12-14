@@ -1,5 +1,6 @@
 ---
 title: Inserting Images Dynamically
+description: "Insert images into your document dynamically when building a report Java."
 type: docs
 weight: 60
 url: /java/inserting-images-dynamically/

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Outputting Sequential Data
+description: "Output a sequence of elements with the same type when building a report C#."
 type: docs
 weight: 30
 url: /net/outputting-sequential-data/

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Using Conditional Blocks
+description: "Use conditional blocks to represent the same data depending on a condition C#."
 type: docs
 weight: 40
 url: /net/using-conditional-blocks/

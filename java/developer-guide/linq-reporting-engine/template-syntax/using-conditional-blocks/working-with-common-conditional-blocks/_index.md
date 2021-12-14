@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working with Common Conditional Blocks
+description: "Use common conditional blocks within paragraphs to represent the same data depending on a condition Java."
 type: docs
 weight: 10
 url: /java/working-with-common-conditional-blocks/

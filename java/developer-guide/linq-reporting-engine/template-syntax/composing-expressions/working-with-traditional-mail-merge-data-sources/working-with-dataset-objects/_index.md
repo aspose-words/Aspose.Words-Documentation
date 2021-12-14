@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working with DataSet objects
+description: "Access DataTable row objects using template expressions when building a report Java."
 type: docs
 weight: 10
 url: /java/working-with-dataset-objects/

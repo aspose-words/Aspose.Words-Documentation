@@ -1,5 +1,6 @@
 ---
 title: Hello World Example
+description: "Create Hello world example to start working with LINQ Reporting Engine to build a report C#."
 type: docs
 weight: 30
 url: /net/hello-world-example/
