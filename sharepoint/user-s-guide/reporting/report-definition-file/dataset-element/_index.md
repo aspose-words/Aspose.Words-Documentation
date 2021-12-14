@@ -1,5 +1,6 @@
 ﻿---
 title: DataSet Element
+description: "This page describes DataSet element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 40
 url: /sharepoint/dataset-element/
@@ -12,4 +13,3 @@ The DataSet element contains information about a connection to a data source and
 |DataSource|0-1|Yes|Describes a connection to a data source. Either this element or DataSourceFileUrl must be present.|
 |DataSourceFileUrl|0-1|No|Data source description file URL. Either this element or DataSource must be present.|
 |Queries|1|Yes|Queries to get the report data from the specified data source.|
-

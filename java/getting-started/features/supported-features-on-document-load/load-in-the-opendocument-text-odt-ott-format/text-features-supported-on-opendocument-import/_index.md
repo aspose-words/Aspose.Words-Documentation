@@ -20,8 +20,6 @@ See the following links in the documentation for further information:
 - **Run.Font**
 - **Run.Text**
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Characters

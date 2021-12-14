@@ -1,5 +1,6 @@
-﻿---
+---
 title: Aspose.Words Java For PHP in More Details
+description: "PHP: using Aspose.Words for Java on PHP in Details."
 type: docs
 weight: 5
 url: /java/aspose-words-java-for-php/
@@ -112,7 +113,7 @@ Clone, PHP examples by issuing the following commands inside webapps/JavaBridge 
 
 {{< highlight actionscript3 >}}
 $ git init&nbsp;
-$ git clone [https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_PHP] 
+$ git clone [https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_Java_for_PHP] 
 {{< /highlight >}}
 
 ## How to configure the source code on Windows Platform

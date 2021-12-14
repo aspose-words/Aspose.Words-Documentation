@@ -1,5 +1,6 @@
 ---
 title: Relations Element
+description: "This page describes Relations element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 160
 url: /sharepoint/relations-element/
@@ -10,4 +11,3 @@ The Relations element contains information about table relations in the report d
 |Name|Cardinality|Has Children|Description|
 | :- | :- | :- | :- |
 |TableRelation|1-N|Yes|Describes a relation between two tables in the report data set.|
-

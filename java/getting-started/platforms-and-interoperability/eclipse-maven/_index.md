@@ -1,5 +1,6 @@
-﻿---
+---
 title: Eclipse - Maven
+description: "Aspose.Words Java for Eclipse."
 type: docs
 weight: 100
 url: /java/aspose-words-java-for-eclipse-maven/
@@ -68,7 +69,7 @@ To download Eclipse IDE
 
 Following are three recommended methods for the successful downloading and installation of Aspose.Words Java for Eclipse (Maven) plugin:
 
-- Drag and drop installation from [Eclipse Marketplace](http://marketplace.eclipse.org/content/asposewords-java-eclipse-maven) to your Eclipse workspace.
+- Drag and drop installation from Eclipse Marketplace to your Eclipse workspace.
 - Or download the plugin jar from [Downloads](https://archive.codeplex.com/?p=asposewordsjavamaveneclipse) and copy it into /**dropins** folder of Eclipse installation and restart the IDE.
 - Or goto **Help** > **Install New Software...** > Enter following update site url in **Work with**:
   [http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords](http://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords/)

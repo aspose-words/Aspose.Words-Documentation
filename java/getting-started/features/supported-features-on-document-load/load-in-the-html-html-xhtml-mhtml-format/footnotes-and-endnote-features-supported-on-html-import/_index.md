@@ -17,8 +17,6 @@ Footnotes and endnote markers are imported as hyperlinks. The content of these i
 
 There is a sample project which demonstrates how to convert this type of footnote import into proper footnotes again.
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Footnotes

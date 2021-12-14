@@ -1,5 +1,6 @@
 ---
 title: Quick Start in PHP
+description: "PHP: Quick Start Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/quick-start-in-php/

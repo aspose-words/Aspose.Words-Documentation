@@ -1,5 +1,6 @@
----
+﻿---
 title: Credentials Element
+description: "This page describes Credentials element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 90
 url: /sharepoint/credentials-element/
@@ -11,4 +12,3 @@ The Credentials element contains information about user name and password to use
 | :- | :- | :- | :- |
 |UserName|1|No|User name for connecting to a SharePoint server.|
 |Password|1|No|Password for connecting to a SharePoint server.|
-

@@ -1,5 +1,6 @@
 ---
 title: Quick Start in Ruby
+description: "Quick Start Aspose.Words for Java on Ruby."
 type: docs
 weight: 10
 url: /java/quick-start-in-ruby/

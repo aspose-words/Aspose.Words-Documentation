@@ -1,5 +1,6 @@
-﻿---
+---
 title: Update Fields in Ruby
+description: "Ruby: update fields of MS Word Document using Aspose.Words for Java."
 type: docs
 weight: 80
 url: /java/update-fields-in-ruby/

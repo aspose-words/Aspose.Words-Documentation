@@ -1,5 +1,6 @@
 ---
 title: Find And Replace in Jython
+description: "Jython: Find And Replace text in a Document using Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/find-and-replace-in-jython/

@@ -1,5 +1,6 @@
----
+﻿---
 title: Merge Fields for Inserting Images
+description: "This guide describes inserting Images from a data source feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 50
 url: /sharepoint/merge-fields-for-inserting-images/

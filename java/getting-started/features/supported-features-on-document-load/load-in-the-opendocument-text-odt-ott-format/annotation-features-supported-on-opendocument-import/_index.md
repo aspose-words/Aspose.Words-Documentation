@@ -12,8 +12,6 @@ Annotations allow the user to add extra information to the document normally for
 
 These features are supported by Aspose.Words.
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Bookmarks
@@ -32,7 +30,7 @@ The Aspose.Words model is based on Word document formats. In these formats bookm
 
 See the following links in the documentation for further information:
 
-- [Working with Bookmarks]()
+- Working with Bookmarks
 - **Range.Bookmarks**
 - **Bookmark**
 
@@ -61,7 +59,7 @@ All three comment nodes are related through the use of the ID properties on each
 
 See the following links in the documentation for further information:
 
-- [How to Extract or Remove Comments]()
+- How to Extract or Remove Comments
 - **Comment**
 - **Comment.Id**
 

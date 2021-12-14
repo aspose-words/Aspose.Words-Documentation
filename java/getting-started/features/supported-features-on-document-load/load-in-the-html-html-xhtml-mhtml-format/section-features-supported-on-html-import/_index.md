@@ -21,8 +21,6 @@ See the following links in the documentation for further information:
 - **Section**
 - **Document.Sections**
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Headers and Footers

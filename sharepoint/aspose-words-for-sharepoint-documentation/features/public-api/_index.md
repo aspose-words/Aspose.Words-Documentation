@@ -1,5 +1,6 @@
 ﻿---
 title: Public API
+description: "This page describes public API feature of the Aspose.Words for SharePoint."
 type: docs
 weight: 50
 url: /sharepoint/public-api/

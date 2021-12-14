@@ -28,10 +28,8 @@ Currently CSS styles are not imported from table, tr and td elements on import. 
 
 See the following links in the documentation for further information:
 
-- [Working with Tables]()
+- **Working with Tables**
 - **Table**
-
-[Jump to this location in the export section]()
 
 {{% /alert %}} 
 
@@ -41,7 +39,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Yes | |- **Table.Bidi**|
-|Table Style |Planned |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. <br><br>There are plans to import CSS style on table as a Table Style. |<p>- [Working with Table Styles]() </p><p>- **Table.Style** </p><p>- **Table.StyleIdentifier**</p>|
+|Table Style |Planned |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. <br><br>There are plans to import CSS style on table as a Table Style. |<p>- Working with Table Styles </p><p>- **Table.Style** </p><p>- **Table.StyleIdentifier**</p>|
 |Conditional Formatting Style |N/A | | |
 |Table Alignment |Yes |Imported as a table wrapped inside a &lt;div&gt; formatted with text-align. |- **Table.Alignment**|
 |Table Indent |Planned |Will be imported from margin-left:XXX on table. <br><br>Currently this property is skipped. |- **Table.LeftIndent**|
@@ -84,8 +82,8 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Allow Break Across Pages |Planned | |<p>- [Keeping Tables and Rows from Breaking across Pages]() </p><p>- **RowFormat.AllowBreakAcrossPages**</p>|
-|Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows]() </p><p>- **RowFormat.HeadingFormat**</p>|
+|Allow Break Across Pages |Planned | |<p>- Keeping Tables and Rows from Breaking across Pages </p><p>- **RowFormat.AllowBreakAcrossPages**</p>|
+|Repeat as Header Row |Planned |Will be imported from &lt;thead&gt; and &lt;th&gt; elements. <br><br>Currently content from such elements are still imported properly but not as header rows. |<p>- Specifying Rows to Repeat on Subsequent Pages as Header Rows </p><p>- **RowFormat.HeadingFormat**</p>|
 |Height |Yes |Imported from "height" of style attribute on &lt;tr&gt;. Row height is only from &lt;tr&gt; and not from &lt;td&gt; cells. |- **RowFormat.Height**|
 |Height Rule |Planned |A row without any height is imported as "Auto" height rule. <br><br>A row with height defined is imported as "At Least". |- **RowFormat.HeightRule**|
 
@@ -99,7 +97,7 @@ See the following links in the documentation for further information:
 |Wrap Text |Planned | |- **CellFormat.WrapText**|
 |Fit Text |Planned | |- **CellFormat.FitText**|
 |Preferred Width |Yes |Imported from style attribute width from cells as either relative (percent) or fixed (points). |- **CellFormat.PreferredWidth**|
-|Merged Horizontally |Yes |Imported from "row-span" attribute on &lt;td&gt;. |<p>- [Working with Merged Cells]() </p><p>- **CellFormat.HorizontalMerge**</p>|
+|Merged Horizontally |Yes |Imported from "row-span" attribute on &lt;td&gt;. |<p>- Working with Merged Cells </p><p>- **CellFormat.HorizontalMerge**</p>|
 |Merged Vertically |Yes |Imported from "col-span" attribute on &lt;td&gt;. |- **CellFormat.VerticalMerge**|
 |Vertical Alignment |Yes |Imported from the vertical-align attribute on cell. |- **CellFormat.VerticalAlignment**|
 |Text Direction |Yes |Imported from "writing-mode" style attribute. |- **CellFormat.Orientation**|

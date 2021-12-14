@@ -1,11 +1,12 @@
 ---
 title: Feature Tour
+description: "This guide describes features of the Aspose.Words for Reporting Services."
 type: docs
 weight: 30
 url: /reportingservices/feature-tour/
 ---
 
-This section includes the following topics: 
+This section includes the following topics:
 
 - [Feature Overview](/words/reportingservices/feature-overview/)
 - [DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export](/words/reportingservices/doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export/)

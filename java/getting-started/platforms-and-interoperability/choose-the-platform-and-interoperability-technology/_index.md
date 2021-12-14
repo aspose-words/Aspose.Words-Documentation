@@ -1,5 +1,6 @@
-﻿---
+---
 title: Choose the Platform and Interoperability Technology
+description: "Choose the Platform for Aspose.Words."
 type: docs
 weight: 10
 url: /java/choose-the-platform-and-interoperability-technology/

@@ -1,11 +1,12 @@
 ---
 title: Easy and Lightweight Deployment
+description: "This page describes deployment steps of the Aspose.Words for Reporting Services."
 type: docs
 weight: 60
 url: /reportingservices/easy-and-lightweight-deployment/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for Reporting Services is available for download as an MSI installer and as a ZIP archive.
 
@@ -28,7 +29,7 @@ The MSI installer and the ZIP download include several versions of Aspose.Words 
 - **Bin\ReportViewer2012\Aspose.Words.ReportingServices.dll** – built for use with Microsoft Report Viewer 2012.
 - **Bin\ReportViewer2015\Aspose.Words.ReportingServices.dll** – built for use with Microsoft Report Viewer 2015.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **The MSI installer copies Aspose.Words.ReportingServices.dll to the ReportServer\bin directory and registers it in relevant configuration files.**
 

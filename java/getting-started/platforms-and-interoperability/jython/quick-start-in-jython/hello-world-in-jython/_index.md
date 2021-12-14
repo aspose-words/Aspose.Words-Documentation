@@ -1,5 +1,6 @@
 ---
 title: Hello World in Jython
+description: "Jython: create Hello World document using Aspose.Words for Java."
 type: docs
 weight: 50
 url: /java/hello-world-in-jython/
