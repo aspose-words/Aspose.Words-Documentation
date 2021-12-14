@@ -1,5 +1,6 @@
 ---
 title: Inserting Bookmarks Dynamically
+description: "Insert bookmarks into your document dynamically when building a report C#."
 type: docs
 weight: 70
 url: /net/inserting-bookmarks-dynamically/

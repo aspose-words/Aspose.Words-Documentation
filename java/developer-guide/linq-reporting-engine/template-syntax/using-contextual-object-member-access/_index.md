@@ -1,5 +1,6 @@
-﻿---
+---
 title: Using Contextual Object Member Access
+description: "Use contextual object member to access some objects without specifying the objects id in template expressions Java."
 type: docs
 weight: 120
 url: /java/using-contextual-object-member-access/

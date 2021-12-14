@@ -1,5 +1,6 @@
-﻿---
+---
 title: Outputting Expression Results
+description: "Output expression results using placeholder within a template when building a report Java."
 type: docs
 weight: 20
 url: /java/outputting-expression-results/

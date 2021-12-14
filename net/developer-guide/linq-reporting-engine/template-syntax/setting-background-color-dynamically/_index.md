@@ -1,5 +1,6 @@
-﻿---
+---
 title: Setting Background Color Dynamically
+description: "Set text background color for document contents dynamically when building a report C#."
 type: docs
 weight: 90
 url: /net/setting-background-color-dynamically/

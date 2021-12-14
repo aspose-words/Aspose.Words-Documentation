@@ -1,5 +1,6 @@
-﻿---
+---
 title: Composing Expressions
+description: "Compose expressions when building a report C#. The complexity of expressions in templates is not restricted."
 type: docs
 weight: 10
 url: /net/composing-expressions/

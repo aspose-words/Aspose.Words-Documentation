@@ -1,5 +1,6 @@
-﻿---
+---
 title: LINQ Reporting Engine API
+description: "Learn LINQ Reporting Engine API to build a report Java."
 type: docs
 weight: 50
 url: /java/linq-reporting-engine-api/

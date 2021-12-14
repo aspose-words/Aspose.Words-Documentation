@@ -1,5 +1,6 @@
 ---
 title: Using Lexical Tokens
+description: "Use lexical tokens in template expressions when building a report Java."
 type: docs
 weight: 10
 url: /java/using-lexical-tokens/
