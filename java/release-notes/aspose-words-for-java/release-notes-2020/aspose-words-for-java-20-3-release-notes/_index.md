@@ -320,7 +320,7 @@ Console.WriteLine(doc.GetText());
 
 Related issue: WORDSNET-19999.
 
-The following obsolete property of [DigitalSignature](https://apireference.aspose.com/net/words/aspose.words/digitalsignature) class was removed:
+The following obsolete property of [DigitalSignature](https://apireference.aspose.com/words/java/com.aspose.words/DigitalSignature) class was removed:
 
 **.NET**
 
@@ -334,10 +334,10 @@ public X509CertificateSystem Certificate
 
 
 
-Please use the following property instead: [CertificateHolder.Certificate](https://apireference.aspose.com/net/words/aspose.words/certificateholder/properties/certificate)
+Please use the following property instead: [CertificateHolder.Certificate](https://apireference.aspose.com/words/java/com.aspose.words/certificateholder#Certificate)
 
 -----
-The following obsolete method of [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words/certificateholder) class was removed:
+The following obsolete method of [CertificateHolder](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder) class was removed:
 
 **.NET**
 
@@ -356,10 +356,9 @@ public static CertificateHolder Create(X509Certificate2 certificate)
 
 
 Please use the following methods instead:
-[CertificateHolder.Create(Byte\[\], SecureString)](https://apireference.aspose.com/net/words/aspose.words/certificateholder/methods/create)
-[CertificateHolder.Create(Byte\[\], String)](https://apireference.aspose.com/net/words/aspose.words.certificateholder/create/methods/1)
-[CertificateHolder.Create(String, String)](https://apireference.aspose.com/net/words/aspose.words.certificateholder/create/methods/3)
-[CertificateHolder.Create(String, String, String)](https://apireference.aspose.com/net/words/aspose.words.certificateholder/create/methods/4)
+[CertificateHolder.Create(Byte\[\], String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
+[CertificateHolder.Create(String, String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
+[CertificateHolder.Create(String, String, String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
 
 
 ### Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for LINQ Reporting Engine

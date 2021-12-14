@@ -22,7 +22,7 @@ Each paragraph in a document is represented in Aspose.Words as a Paragraph node.
 | :- | :- | :- | :- |
 |Paragraph Style|Yes| |<p>- [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat)</p><p>- [ParagraphFormat.Style](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/style)</p>|
 |Alignment|Yes|The special "Thai Distributed" alignment is also supported during conversion. There is currently no API to access or modify this alignment.|- [ParagraphFormat.Alignment](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/alignment)|
-|Right to Left Paragraph|Yes| |- [ParagraphFormat.Bidi](hhttps://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/bidi)|
+|Right to Left Paragraph|Yes| |- [ParagraphFormat.Bidi](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/bidi)|
 |Bullets and Numbers|Yes| |<p>- **ParagraphFormat.ListFormat**</p><p>- **ParagraphFormat.ListLabel**</p>|
 |Outline Level|Yes| |- [ParagraphFormat.OutlineLevel](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/outlinelevel)|
 |Run Properties for the Paragraph Mark|Yes| |- **ParagraphFormat.ParagraphBreakFont**|

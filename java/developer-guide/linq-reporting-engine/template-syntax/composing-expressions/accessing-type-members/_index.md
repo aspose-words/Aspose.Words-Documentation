@@ -1,4 +1,4 @@
-﻿---
+---
 title: Accessing Type Members
 type: docs
 weight: 30
@@ -20,7 +20,7 @@ A function type member can be used in a template expression only if the followin
 
 The engine supports the following features when dealing with function members:
 
-- Overload resolution according to [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029)
+- Overload resolution according to [C# Language Specification 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=7029)
 - Using of parameters taking a variable number of arguments
 
 In addition to C# Language features, the engine provides the following extra features to simplify type member access:

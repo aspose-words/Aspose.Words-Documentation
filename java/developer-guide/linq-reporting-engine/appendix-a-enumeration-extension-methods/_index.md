@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appendix A. Enumeration Extension Methods
 type: docs
 weight: 60
@@ -10,7 +10,7 @@ LINQ Reporting Engine enables you to perform common manipulations on a sequentia
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
 
 - `Selector` stands for a lambda function returning a value and taking an enumeration item as its single argument. See “Using Lambda Functions” for more information.
-- `ComparableSelector` stands for `Selector` returning [Comparable](http://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html).
+- `ComparableSelector` stands for `Selector` returning [Comparable](https://docs.oracle.com/javase/7/docs/api/java/lang/Comparable.html).
 - `EnumerationSelector` stands for `Selector` returning `Iterable`.
 - `Predicate` stands for `Selector` returning a Boolean value.
 

@@ -65,6 +65,6 @@ The missing features will be added in the future releases.
 |WORDSCPP-683|Unexpected exception suffix message for NotSupportedException exception|Bug|
 |WORDSCPP-682|Cannot find resource Aspose.Resources.MsOfficeFallbackSetting.xml|Bug|
 |WORDSCPP-677|Move to the public includes any structs used as class fields (even private)|Bug|
-|WORDSCPP-673|System::Array<System::String>::Sort does not work the same as in .NET|Bug|
+|WORDSCPP-673|System::Array&lt;System::String&gt;::Sort does not work the same as in .NET|Bug|
 |WORDSCPP-672|bool vs String ambiguity detector doesn't work with params arguments|Bug|
 

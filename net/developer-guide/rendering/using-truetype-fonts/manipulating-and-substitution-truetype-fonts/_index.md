@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for .NET can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately. If a font or a specific character is not available, Aspose.Words searches for a suitable font replacement or uses the Font fallback mechanism."
 type: docs
@@ -220,4 +220,4 @@ There are some differences in processing of font formats in Aspose.Words and Mic
 
 ## See Also
 
-- [Google Noto Fonts](https://www.google.com/get/noto/) to download free fonts
+- [Google Noto Fonts](https://fonts.google.com/noto) to download free fonts

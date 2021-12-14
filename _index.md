@@ -69,7 +69,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Words for C++ Product Page](https://products.aspose.com/words/cpp/)
 - [Download Aspose.Words for C++](https://downloads.aspose.com/words/cpp/)
 - [Install Aspose.Words for C++ NuGet Package](https://www.nuget.org/packages/Aspose.Words.Cpp/)
-- [Aspose.Words for C++ API Reference Guide](https://apireference.aspose.com/cpp/words/)
+- [Aspose.Words for C++ API Reference Guide](https://apireference.aspose.com/words/cpp)
 - [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.words-for-C/)
 - [Aspose.Words for C++ Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
@@ -80,14 +80,14 @@ The following are the links to some useful resources you may need to accomplish 
 
 ![Aspose.Words for .NET Product Logo](home_1)
 
-Aspose.Words for Python via .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words for Python supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and [other formats](/words/python/supported-document-formats/). With Aspose.Words you can generate, modify, convert, and render documents without using Microsoft Word®.
+Aspose.Words for Python via .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words for Python supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and [other formats](/words/python-net/supported-document-formats/). With Aspose.Words you can generate, modify, convert, and render documents without using Microsoft Word®.
 
 {{% /alert %}} 
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 
-- [Aspose.Words for Python via .NET Features](/words/python/features/)
-- [Aspose.Words for Python via .NET Product Page](https://products.aspose.com/words/python/)
+- [Aspose.Words for Python via .NET Features](/words/python-net/features/)
+- [Aspose.Words for Python via .NET Product Page](https://products.aspose.com/words/python-net/)
 - [Download Aspose.Words for Python via .NET](https://downloads.aspose.com/words/python)
 - [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET)
 - [Aspose.Words for Python via .NET Free Support Forum](https://forum.aspose.com/c/words/8)

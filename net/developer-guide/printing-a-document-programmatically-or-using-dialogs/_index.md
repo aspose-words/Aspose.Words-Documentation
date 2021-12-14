@@ -1,4 +1,4 @@
-﻿---
+---
 title: Printing a Document Programmatically or Using Dialogs
 description: "Aspose.Words for .NET enables you to print a document on a Server using the unmanaged XpsPrint API or via a selected printer with Settings and Print Preview Dialogs."
 type: docs
@@ -18,7 +18,7 @@ When developing a .NET application that produces some printed output, you can ty
 
 The classes within the *System.Drawing.Printing* namespace are not supported for use within a Windows service or an ASP.NET application or service, and attempting their use may produce decreased service performance, run-time exceptions, and other issues. The use of WPF to build Windows services is likewise not supported. Since WPF is a presentation technology, the Windows service requires appropriate permissions to perform visual operations involving user interaction. If the Windows service does not have such permissions, there may be unexpected results.
 
-The Aspose.Words [Document](https://apireference.aspose.com/words/net/aspose.words/document) object provides a family of [Print](ttps://apireference.aspose.com/words/net/aspose.words/document/methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
+The Aspose.Words [Document](https://apireference.aspose.com/words/net/aspose.words/document) object provides a family of [Print](https://apireference.aspose.com/words/net/aspose.words/document/methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
 
 ### Methods to Print a Document on a Server
 

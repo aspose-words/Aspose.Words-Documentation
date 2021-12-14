@@ -16,34 +16,34 @@ The NetBeans Team actively support the product and seek feature suggestions from
 
 ## Aspose.Words for Java
 
-[Aspose.Words for Java ](http://www.aspose.com/java/word-component.aspx)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
+[Aspose.Words for Java ](https://products.aspose.com/words/java/)is an advanced class library for Java that enables you to perform a great range of document processing tasks directly within your Java
 applications.
 
-[Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
+[Aspose.Words for Java](https://products.aspose.com/words/java/) supports processing word (DOC, DOCX, OOXML, RTF) HTML, OpenDocument, PDF, EPUB, XPS, and all image formats. With Aspose.Words you can
 generate, modify, and convert documents without using Microsoft Word.
 
 ## Aspose.Words Java for NetBeans (Maven)
 
-- Aspose.Words Java for NetBeans (Maven) is a Plugin for **NetBeans IDE** by **Aspose.** The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Words for Java](http://goo.gl/Eg359W) in their projects. The Plugin lets you create maven projects for using [Aspose.Words for Java API](http://goo.gl/Eg359W) and also download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of the API. 
-- The plugin provides following features to work with [Aspose.Words for Java API](http://goo.gl/Eg359W) within **NetBeans IDE** comfortably:<br>
-![aspose-words-java-for-netbeans-1](http://i.imgur.com/KWKGljg.png)<br>
+- Aspose.Words Java for NetBeans (Maven) is a Plugin for **NetBeans IDE** by **Aspose.** The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Words for Java](https://products.aspose.com/words/java/) in their projects. The Plugin lets you create maven projects for using [Aspose.Words for Java API](https://products.aspose.com/words/java/) and also download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of the API. 
+- The plugin provides following features to work with [Aspose.Words for Java API](https://products.aspose.com/words/java/) within **NetBeans IDE** comfortably:<br>
+![aspose-words-java-for-netbeans-1](https://i.imgur.com/KWKGljg.png)<br>
 **WIZARDS**:<br>
 The plugin contains two wizards
 
 **Aspose.Words Maven Project (wizard)**
 
-- This New Project wizard lets developers to create **Maven** project for using [Aspose.Words for Java](http://goo.gl/Eg359W) from **New Project -> Maven-> Aspose.Words Maven Project.**
-- The reference of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and gets added in the pom.xml.
+- This New Project wizard lets developers to create **Maven** project for using [Aspose.Words for Java](https://products.aspose.com/words/java/) from **New Project -> Maven-> Aspose.Words Maven Project.**
+- The reference of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/) and gets added in the pom.xml.
 - The created project will always contain most recent available version **Maven** Dependency for [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
 - The wizard steps also presents with the option for downloading [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
 
 **Aspose.Words Code Example (wizard)**
 
-- This New File wizard lets you copy the downloaded [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) into your project for using [Aspose.Words for Java](http://goo.gl/Eg359W) from **New File -> Java -> Aspose.Words Code Example.** 
+- This New File wizard lets you copy the downloaded [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) into your project for using [Aspose.Words for Java](https://products.aspose.com/words/java/) from **New File -> Java -> Aspose.Words Code Example.** 
 - Available samples are displayed in tree format from where the user can select them categorically.
 - All the examples within the selected category will get copied to the project's "**com.aspose.words.examples**" package folder along with the required resources within "**src/main/resources**" folder needed to run the examples.
 - [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) are meant for demonstrating the various of the API.
-- The wizard will also look for and updates for newly available [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) from [Aspose.Words for Java examples repository.](https://goo.gl/Qx9Hp9)
+- The wizard will also look for and updates for newly available [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) from [Aspose.Words for Java examples repository.](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 
 ## System Requirements and Supported Platforms
 
@@ -68,7 +68,7 @@ You should definitely have NetBeans IDE preinstalled before you download **Aspos
 
 To download NetBeans IDE,
 
-1. Navigate to: <https://netbeans.org/downloads>
+1. Navigate to: [netbeans.apache.org](https://netbeans.apache.org//downloads)
 1. Click Download to download NetBeans IDE appropriate bundle. 
 
 Download only Java EE / SE supported NetBeans download bundle of the current latest release i.e. **NetBeans IDE 8.1**.
@@ -108,7 +108,7 @@ Please follow [**GitHub Issues Tracker**](https://github.com/aspose-words/Aspos
 
 Aspose.Words Java for NetBeans (Maven) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it. Developers can also learn from it to make their own plugins.
 
-- [GitHub](https://goo.gl/X3QIEm)
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose-Words-Java-for-NetBeans(Maven))
 #### How to configure source code of Aspose.Words Java for NetBeans (Maven)
 
 Below simple steps will smoothly lead to successful configuration of  **"Aspose.Words Java for NetBeans (Maven)"** plugin  source code in NetBeans IDE
