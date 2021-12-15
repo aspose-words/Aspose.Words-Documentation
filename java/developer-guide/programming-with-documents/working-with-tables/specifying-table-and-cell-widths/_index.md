@@ -1,5 +1,6 @@
 ﻿---
 title: Specifying Table and Cell Widths
+description: "Introduction to table/cell width related properties in Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/specifying-table-and-cell-widths/

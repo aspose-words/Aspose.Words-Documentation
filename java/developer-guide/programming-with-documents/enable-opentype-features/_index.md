@@ -1,5 +1,6 @@
 ﻿---
 title: Enable OpenType Features
+description: "Advanced typography features in Aspose.Words for Java."
 type: docs
 weight: 95
 url: /java/enable-opentype-features/

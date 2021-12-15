@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Hyperlinks and HTML
+description: "How to insert hyperlink or HTML document into your document using Aspose.Word for C++."
 type: docs
 aliases:
     - /cpp/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/

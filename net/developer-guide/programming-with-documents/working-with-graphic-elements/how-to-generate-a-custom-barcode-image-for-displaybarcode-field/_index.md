@@ -1,6 +1,6 @@
 ---
 title: How to Generate a Custom BarCode Image for DISPLAYBARCODE Field
-description: "Example of barcode shape generation using Aspose.Words."
+description: "Example of barcode shape generation using Aspose.Words for .Net."
 type: docs
 weight: 70
 url: /net/how-to-generate-a-custom-barcode-image-for-displaybarcode-field/

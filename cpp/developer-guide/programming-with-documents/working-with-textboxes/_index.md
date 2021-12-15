@@ -1,5 +1,6 @@
 ﻿---
 title: Working with TextBoxes
+description: "Introduction to linked textboxes feature in Aspose.Words for C++."
 type: docs
 aliases:
  - /cpp/working-with-linked-textboxes/

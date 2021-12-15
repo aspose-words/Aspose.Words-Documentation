@@ -1,6 +1,6 @@
 ﻿---
 title: Working with TableStyle
-description: "Introduction to advanced table formatting using Table styles."
+description: "Introduction to advanced table formatting, Table styles, using Aspose.Words for .Net."
 type: docs
 weight: 30
 url: /net/working-with-tablestyle/

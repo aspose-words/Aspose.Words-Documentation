@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Paragraphs
+description: "Paragraph node manipulation practices using Aspose.Words for C++."
 type: docs
 weight: 60
 url: /cpp/working-with-paragraphs/

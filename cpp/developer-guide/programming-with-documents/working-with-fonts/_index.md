@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Fonts
+description: "Font formatting in details using Aspose.Words for C++."
 type: docs
 weight: 70
 url: /cpp/working-with-fonts/

@@ -1,5 +1,6 @@
 ﻿---
 title: Insert Checkboxes, HTML or Images During Mail Merge
+description: "Mail merge practices using Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/insert-checkboxes-html-or-images-during-mail-merge/

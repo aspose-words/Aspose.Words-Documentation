@@ -1,5 +1,6 @@
 ﻿---
 title: Applying Formatting
+description: "Table formatting in details. Using Aspose.Words for Java to format every part of table."
 type: docs
 aliases:
  - /java/applying-formatting-to-table-row-and-cell/

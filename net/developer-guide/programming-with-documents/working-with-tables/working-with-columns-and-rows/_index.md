@@ -1,6 +1,6 @@
 ﻿---
 title: Working with Columns and Rows
-description: "Working with parts of table, row and cells."
+description: "Working with parts of table, row and cells using Aspose.Words for .Net."
 type: docs
 weight: 40
 url: /net/working-with-columns-and-rows/

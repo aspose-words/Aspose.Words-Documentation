@@ -1,5 +1,6 @@
 ﻿---
 title: Fields Overview
+description: "Fields feature in details, field codes and field results explained in Aspose.Words for C++."
 type: docs
 weight: 10
 url: /cpp/fields-overview/

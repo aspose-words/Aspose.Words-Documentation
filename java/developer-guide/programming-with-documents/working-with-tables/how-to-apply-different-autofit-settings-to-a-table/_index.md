@@ -1,5 +1,6 @@
 ﻿---
 title: How to  Apply Different AutoFit Settings to a Table
+description: "Table AutoFit feature using Aspose.Words for Java."
 type: docs
 weight: 120
 url: /java/how-to-apply-different-autofit-settings-to-a-table/

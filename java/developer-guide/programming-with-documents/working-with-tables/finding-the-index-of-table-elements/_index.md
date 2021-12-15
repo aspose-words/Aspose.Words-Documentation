@@ -1,5 +1,6 @@
 ﻿---
 title: Finding the Index of Table Elements
+description: "How to find index of table using Aspose.Words for Java."
 type: docs
 weight: 60
 url: /java/finding-the-index-of-table-elements/

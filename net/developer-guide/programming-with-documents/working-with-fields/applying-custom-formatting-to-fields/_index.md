@@ -1,6 +1,6 @@
 ﻿---
 title: Applying Custom Formatting to Fields
-description: "Format and evaluate fields result."
+description: "Format and evaluate fields result using Aspose.Words for .Net."
 type: docs
 weight: 40
 url: /net/applying-custom-formatting-to-fields/

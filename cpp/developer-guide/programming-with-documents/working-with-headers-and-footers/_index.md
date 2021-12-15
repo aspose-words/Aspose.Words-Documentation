@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Headers and Footers
+description: "How to manipulate with headers/footers using Aspose.Words for C++."
 type: docs
 aliases:
  - /cpp/how-to-remove-footers-but-leave-headers-intact/

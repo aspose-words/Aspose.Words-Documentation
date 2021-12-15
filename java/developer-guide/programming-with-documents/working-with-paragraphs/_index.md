@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Paragraphs
+description: "Paragraph node manipulation practices using Aspose.Words for Java."
 type: docs
 weight: 80
 url: /java/working-with-paragraphs/

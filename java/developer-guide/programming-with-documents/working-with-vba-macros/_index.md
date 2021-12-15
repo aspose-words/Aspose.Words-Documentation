@@ -1,5 +1,6 @@
 ﻿---
 title: Working with VBA Macros
+description: "Working with document VBA projects using Aspose.Words for Java."
 type: docs
 weight: 160
 url: /java/working-with-vba-macros/

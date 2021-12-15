@@ -1,6 +1,6 @@
 ---
 title: Working with Lists
-description: "Introduction to numbering formatting feature."
+description: "Introduction to numbering formatting feature in Aspose.Words for .Net."
 type: docs
 weight: 100
 url: /net/working-with-lists/

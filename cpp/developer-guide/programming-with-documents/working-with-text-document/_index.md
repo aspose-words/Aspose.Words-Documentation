@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Text Document
+description: "Advanced TXT document processing, lists, BiDi, headers/footer, using Aspose.Words for C++."
 type: docs
 weight: 180
 url: /cpp/working-with-text-document/

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Form Fields
+description: "Understanding Form Fields feature, working with Form Fields using Aspose.Words for C++."
 type: docs
 weight: 130
 url: /cpp/working-with-form-fields/

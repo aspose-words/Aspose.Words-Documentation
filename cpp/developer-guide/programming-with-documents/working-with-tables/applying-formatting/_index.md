@@ -1,5 +1,6 @@
 ﻿---
 title: Applying Formatting
+description: "Table formatting in details. Using Aspose.Words for C++ to format every part of table."
 type: docs
 weight: 20
 url: /cpp/applying-formatting/

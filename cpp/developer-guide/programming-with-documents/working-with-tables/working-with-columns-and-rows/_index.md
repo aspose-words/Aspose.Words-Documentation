@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Columns and Rows
+description: "Working with parts of table, row and cells using Aspose.Words for C++."
 type: docs
 weight: 27
 url: /cpp/working-with-columns-and-rows/

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Table Styles
+description: "Introduction to advanced table formatting, Table styles, using Aspose.Words for Java."
 type: docs
 aliases:
  - /java/working-with-table-styles/

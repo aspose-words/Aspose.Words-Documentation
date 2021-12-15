@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Graphic Elements
+description: "Introduction to Shape node, basic graphic element in Aspose.Words for C++."
 type: docs
 weight: 100
 url: /cpp/working-with-graphic-elements/

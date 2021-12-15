@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Bookmarks
+description: "Understanding bookmark concepts and how bookmark can be used in your program using Aspose.Words for C++."
 type: docs
 weight: 39
 url: /cpp/working-with-bookmarks/

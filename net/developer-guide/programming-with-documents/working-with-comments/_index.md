@@ -1,6 +1,6 @@
 ﻿---
 title: Working with Comments
-description: "Working with comments in your code using Aspose.Words."
+description: "Working with comments in your code using Aspose.Words for .Net."
 type: docs
 weight: 140
 url: /net/working-with-comments/

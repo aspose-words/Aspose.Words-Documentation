@@ -1,6 +1,6 @@
 ---
 title: Working with Fonts
-description: "Font formatting in details."
+description: "Font formatting in details using Aspose.Words for .Net."
 type: docs
 weight: 120
 url: /net/working-with-fonts/

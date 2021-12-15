@@ -1,5 +1,6 @@
 ﻿---
 title: Joining and Splitting Tables
+description: "Advanced table manipulations, join and split using Aspose.Words for C++."
 type: docs
 weight: 30
 url: /cpp/joining-and-splitting-tables/
