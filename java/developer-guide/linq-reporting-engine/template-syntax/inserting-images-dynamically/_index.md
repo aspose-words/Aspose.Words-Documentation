@@ -18,8 +18,8 @@ You can insert images to your reports dynamically using `image` tags. To declare
 The expression declared within an `image` tag is used by the engine to build an image to be inserted. The expression must return a value of one of the following types:
 
 - A byte array containing an image data
-- An [InputStream](http://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html) instance able to read an image data
-- A [BufferedImage](http://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html) object
+- An [InputStream](https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html) instance able to read an image data
+- A [BufferedImage](https://docs.oracle.com/javase/7/docs/api/java/awt/image/BufferedImage.html) object
 - A string containing an image URI, path, or Base64-encoded image data
 
 While building a report, the following procedure is applied to an `image` tag:

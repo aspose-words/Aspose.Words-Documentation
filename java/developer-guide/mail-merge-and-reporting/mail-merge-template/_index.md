@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Template
 type: docs
 description: "Aspose.Words for Java provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
@@ -25,7 +25,7 @@ In addition, you can add a mail merge region in your template by inserting two m
 
 You can create a template and add specific merge fields to it, that will be replaced by the values from the data source either manually, for example, using Microsoft Word, or programmatically using Aspose.Words. In this article, we will look at the programmatic way of creating a template.
 
-Use the [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)), [InsertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)), and [InsertParagraph](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertParagraph()) methods.
+Use the [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)), [InsertField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)), and [InsertParagraph](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertParagraph()) methods.
 
 The following code example shows how to create a mail merge template:
 

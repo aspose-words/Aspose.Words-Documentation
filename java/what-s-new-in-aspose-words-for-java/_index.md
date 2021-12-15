@@ -134,11 +134,11 @@ A simple way to get and apply a pattern to the fill of any fillable objects in a
 
 #### Insert GIF into the Document Model
 
-The ability to insert a GIF image into the document model using the [InsertImage](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertImage(byte[])) method has been introduced. Please note that saving a document to a format different from DOCX, DOTX, DOCM, DOTM, FOPC causes the conversion of GIF images to PNG.
+The ability to insert a GIF image into the document model using the [InsertImage](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) method has been introduced. Please note that saving a document to a format different from DOCX, DOTX, DOCM, DOTM, FOPC causes the conversion of GIF images to PNG.
 
 ### Conversion
 
-A new overload of the [InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String,int)) method with extended options has been implemented to make this operation more flexible.
+A new overload of the [InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertHtml(java.lang.String,int)) method with extended options has been implemented to make this operation more flexible.
 
 ### Mail Merge and Reporting
 
@@ -146,7 +146,7 @@ A new property [RestartListsAtEachSection](https://apireference.aspose.com/words
 
 ### Other
 
-- New methods [SetCheckedSymbol](https://apireference.aspose.com/words/java/com.aspose.words/structureddocumenttag#setCheckedSymbol(int,java.lang.String)) and [SetUncheckedSymbol](https://apireference.aspose.com/words/java/com.aspose.words/structureddocumenttag#setUncheckedSymbol(int,java.lang.String)) have been added to set checked and unchecked symbols for your favorite structured document tags.
+- New methods [SetCheckedSymbol](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag#setCheckedSymbol(int,java.lang.String)) and [SetUncheckedSymbol](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag#setUncheckedSymbol(int,java.lang.String)) have been added to set checked and unchecked symbols for your favorite structured document tags.
 - The equations created with EQ fields are now supported upon converting to all HTML-based formats.
 - A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/java/com.aspose.words/layoutoptions#ContinuousSectionPageNumberingRestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 - An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
@@ -221,7 +221,7 @@ A new public property [SmartParagraphBreakReplacement](https://apireference.aspo
 
 ### Other
 
-* New public methods [StartColumnBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startColumnBookmark(java.lang.String)) and [EndColumnBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endColumnBookmark(java.lang.String)) have been introduced in the [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
+* New public methods [StartColumnBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startColumnBookmark(java.lang.String)) and [EndColumnBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endColumnBookmark(java.lang.String)) have been introduced in the [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
 * A new public option [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateCreatedTimeProperty) has been added to update the [CreatedTime](https://apireference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#CreatedTime) property of a document upon saving.
 * A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://apireference.aspose.com/words/java/com.aspose.words/SdtType) structured document tag is updated from custom XML.
 * A new public method **OpenIStream** has been added to the **ComHelper** class to load documents from IStream objects in COM applications.

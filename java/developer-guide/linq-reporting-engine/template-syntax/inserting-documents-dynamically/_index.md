@@ -18,7 +18,7 @@ Syntax of a `doc` tag is defined as follows.
 An expression declared within a `doc` tag is used by the engine to load a document to be inserted during runtime. The expression must return a value of one of the following types:
 
 - A byte array containing document data
-- An [InputStream](http://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html) instance able to read document data
+- An [InputStream](https://docs.oracle.com/javase/7/docs/api/java/io/InputStream.html) instance able to read document data
 - An instance of the Document class
 - A string containing a document URI, path, or Base64-encoded document data
 

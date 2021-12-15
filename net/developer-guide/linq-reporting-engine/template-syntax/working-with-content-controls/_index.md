@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Content Controls
 type: docs
 weight: 140
@@ -8,7 +8,7 @@ aliases: [/net/template-syntax/#working-with-content-controls]
 
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
 
-**Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).
+**Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon?view=vs-2022).
 
 ## Setting Checkbox Values Dynamically
 

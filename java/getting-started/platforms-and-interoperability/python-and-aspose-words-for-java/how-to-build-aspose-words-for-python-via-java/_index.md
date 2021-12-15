@@ -10,9 +10,9 @@ To create "Aspose Words for Python via Java" package we use [JCC](http://lucene
 
 ## How to build JCC on Windows
 
-Download and install [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) (it is not necessary because you can use %JDK_HOME%\jre)
+Download and install [JRE](https://www.oracle.com/java/technologies/downloads/#java8) (it is not necessary because you can use %JDK_HOME%\jre)
 
-JCC requires [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) so download and install it.
+JCC requires [JDK](https://www.oracle.com/java/technologies/downloads/#java8) so download and install it.
 
 Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi)
 
@@ -28,7 +28,7 @@ Install wheel
 
 Download and install [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266)
 
-Download and unzip [JCC](https://pypi.python.org/pypi/JCC/)
+Download and unzip [JCC](https://pypi.org/project/JCC/)
 
 Run following command in JCC directory
 
@@ -79,7 +79,7 @@ Check out JCC's sources
 > svn co http://svn.apache.org/repos/asf/lucene/pylucene/trunk/jcc jcc
 {{< /highlight >}}
 
-Make sure that [setuptools](https://pypi.python.org/pypi/setuptools) is installed
+Make sure that [setuptools](https://pypi.org/project/setuptools/) is installed
 
 {{< highlight csharp >}}
 > pip install setuptools
@@ -118,7 +118,7 @@ Result *.whl* file will be saved in *.\dist* directory
 
 ## How to install "Aspose Words for Python via Java" on Windows
 
-1. Download and install [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). We use JRE x64 version because our .whl was built for Windows x64;
+1. Download and install [JRE](https://www.oracle.com/java/technologies/downloads/#java8). We use JRE x64 version because our .whl was built for Windows x64;
 1. Download and install [Python](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi). At the moment 2.7 version is used;
 1. Add following path variables to the environment variables list:<br>
 ![how-to-build-aspose-words-for-python-via-java-2](how-to-build-aspose-words-for-python-via-java_2.png)

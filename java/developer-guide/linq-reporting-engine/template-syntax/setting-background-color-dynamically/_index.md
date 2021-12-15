@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setting Background Color Dynamically
 type: docs
 weight: 90
@@ -25,7 +25,7 @@ An expression declared within an opening `backColor` tag defines a text backgrou
 {{< highlight csharp >}}
 <<backColor [0xFFFF00]>>text with yellow background<</backColor>>
 {{< /highlight >}}
-- A value of the [Color](http://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
+- A value of the [Color](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
 
 While building a report, an expression declared within an opening `backColor` tag is evaluated and document content between the tag and its corresponding closing tag is colored accordingly. The opening and closing `backColor` tags are removed then.
 

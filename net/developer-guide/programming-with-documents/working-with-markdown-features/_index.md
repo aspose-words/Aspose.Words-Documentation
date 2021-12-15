@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Markdown Features
 description: "Learn how to implement Markdown features using Aspose.Words for .NET. All the features are represented as corresponding styles or direct formatting."
 type: docs
@@ -110,6 +110,6 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides [TableContentAlignment](http://docs.aspose.com) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides [TableContentAlignment](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/tablecontentalignment) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}
