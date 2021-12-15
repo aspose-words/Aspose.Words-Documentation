@@ -1,5 +1,6 @@
 ---
 title: Appendix B. Technical FAQ
+description: "Learn the LINQ Reporting Engine FAQ to build a report Java."
 type: docs
 weight: 70
 url: /java/appendix-b-technical-faq/

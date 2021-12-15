@@ -1,5 +1,6 @@
-﻿---
+---
 title: Using Extension Methods
+description: "Use extension methods in template expressions when building a report Java."
 type: docs
 weight: 40
 url: /java/using-extension-methods/

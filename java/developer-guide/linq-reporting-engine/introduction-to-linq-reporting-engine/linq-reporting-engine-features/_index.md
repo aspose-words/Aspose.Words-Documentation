@@ -1,5 +1,6 @@
-﻿---
+---
 title: LINQ Reporting Engine Features
+description: "Learn the powerful LINQ Reporting Engine features to build a report Java."
 type: docs
 weight: 20
 url: /java/linq-reporting-engine-features/

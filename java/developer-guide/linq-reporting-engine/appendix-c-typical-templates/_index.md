@@ -1,5 +1,6 @@
 ---
 title: Appendix C. Typical Templates
+description: "Learn the typical templates of LINQ Reporting Engine to build a report Java."
 type: docs
 weight: 80
 url: /java/appendix-c-typical-templates/

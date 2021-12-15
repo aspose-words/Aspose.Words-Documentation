@@ -1,5 +1,6 @@
-﻿---
+---
 title: LINQ Reporting Engine Features
+description: "Learn the powerful LINQ Reporting Engine features to build a report C#."
 type: docs
 weight: 20
 url: /net/linq-reporting-engine-features/

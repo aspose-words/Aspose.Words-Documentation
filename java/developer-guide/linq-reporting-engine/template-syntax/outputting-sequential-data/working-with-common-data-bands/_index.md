@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working with Common Data Bands
+description: "Output a common data band withing a paragraph when building a report Java."
 type: docs
 weight: 10
 url: /java/working-with-common-data-bands/

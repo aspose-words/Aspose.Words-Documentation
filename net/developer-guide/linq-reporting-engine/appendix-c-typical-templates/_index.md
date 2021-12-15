@@ -1,5 +1,6 @@
 ---
 title: Appendix C. Typical Templates
+description: "Learn the typical templates of LINQ Reporting Engine to build a report C#."
 type: docs
 weight: 70
 url: /net/typical-templates/

@@ -1,5 +1,6 @@
-﻿---
+---
 title: Restarting List Numbering Dynamically
+description: "Restart list numbering within your documents dynamically when building a report Java."
 type: docs
 weight: 110
 url: /java/restarting-list-numbering-dynamically/
