@@ -1,5 +1,6 @@
 ---
 title: Working with Form Fields
+description: "Understanding Form Fields feature, working with Form Fields using Apose.Words for .Net."
 type: docs
 weight: 180
 url: /net/working-with-form-fields/

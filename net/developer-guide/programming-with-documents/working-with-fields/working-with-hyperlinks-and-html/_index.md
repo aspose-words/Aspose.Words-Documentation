@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Hyperlinks and HTML
+description: "How to insert hyperlink or HTML document into your document using Aspose.Word for .Net."
 type: docs
 weight: 50
 url: /net/working-with-hyperlinks-and-html/

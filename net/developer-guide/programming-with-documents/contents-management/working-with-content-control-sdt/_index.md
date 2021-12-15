@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Content Control SDT
+description: "Advanced document content management, how to create and manipulate content controls (Structured Document Tags) using Aspose.Words for .Net. "
 type: docs
 weight: 60
 url: /net/working-with-content-control-sdt/

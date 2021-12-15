@@ -1,5 +1,6 @@
 ---
 title: Contents Management
+description" "Introduction to document content management classes in Aspose.Words for .Net."
 type: docs
 weight: 190
 url: /net/contents-management/
