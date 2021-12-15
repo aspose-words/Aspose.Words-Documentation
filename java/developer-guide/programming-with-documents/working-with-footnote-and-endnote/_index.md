@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Footnote and Endnote
+description: "How to manipulate with footnotes and endnotes using Aspose.Words for Java."
 type: docs
 weight: 45
 url: /java/working-with-footnote-and-endnote/

@@ -1,5 +1,6 @@
 ﻿---
 title: Introduction and Creating Tables
+description: "Different ways to create tables in your document using Aspose.Words for .Net."
 type: docs
 weight: 10
 url: /net/introduction-and-creating-tables/

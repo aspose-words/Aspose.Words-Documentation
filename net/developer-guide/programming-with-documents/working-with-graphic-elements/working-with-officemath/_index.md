@@ -1,5 +1,6 @@
 ﻿---
 title: Working with OfficeMath
+description: "Introduction to Office Math feature."
 type: docs
 weight: 30
 url: /net/working-with-officemath/

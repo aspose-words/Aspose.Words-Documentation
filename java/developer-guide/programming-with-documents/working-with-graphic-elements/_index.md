@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Graphic Elements
+description: "Introduction to Shape node, basic graphic element in Aspose.Words for Java."
 type: docs
 weight: 120
 url: /java/working-with-graphic-elements/

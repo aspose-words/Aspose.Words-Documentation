@@ -1,5 +1,6 @@
 ---
 title: Working with TextBoxes
+description: "Introduction to linked textboxes feature in Aspose.Words for .Net."
 type: docs
 weight: 130
 url: /net/working-with-textboxes/

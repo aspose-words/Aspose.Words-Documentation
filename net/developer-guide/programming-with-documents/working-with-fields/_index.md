@@ -1,5 +1,6 @@
 ---
 title: Working with Fields
+description: "Introduction to field feature in Aspose.Words for .Net."
 type: docs
 weight: 170
 url: /net/working-with-fields/

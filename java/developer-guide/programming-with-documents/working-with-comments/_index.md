@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Comments
+description: "Working with comments in your code using Aspose.Words for Java."
 type: docs
 weight: 110
 url: /java/working-with-comments/

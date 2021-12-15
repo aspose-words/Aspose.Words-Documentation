@@ -1,5 +1,6 @@
 ﻿---
 title: How to Extract Selected Content Between Nodes in a Document
+description: "Extracting document content in different using Aspose.Words for .Net."
 type: docs
 weight: 40
 url: /net/how-to-extract-selected-content-between-nodes-in-a-document/

@@ -1,5 +1,6 @@
 ﻿---
 title: How to Add Group Shape into a Word Document
+description: "Grouping and ungrouping shapes using Aspose.Words for .Net."
 type: docs
 weight: 20
 url: /net/how-to-add-group-shape-into-a-word-document/

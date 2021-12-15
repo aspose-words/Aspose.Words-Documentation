@@ -1,5 +1,6 @@
 ﻿---
 title: Updating and Removing a Field
+description: "Field updating in details using Aspose.Words for .Net." 
 type: docs
 weight: 30
 url: /net/updating-and-removing-a-field/

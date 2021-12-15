@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Headers and Footers
+description: "How to manipulate with headers/footers using Aspose.Words for Java."
 type: docs
 weight: 40
 url: /java/working-with-headers-and-footers/

@@ -1,5 +1,6 @@
 ﻿---
 title: Update Field
+description: "Fields updating in details using Aspose.Words for Java."
 type: docs
 weight: 20
 url: /java/update-field/

@@ -1,5 +1,6 @@
 ---
 title: Working with Footnote and Endnote
+description: "How to manipulate with footnotes and endnotes using Aspose.Words for .Net."
 type: docs
 weight: 80
 url: /net/working-with-footnote-and-endnote/

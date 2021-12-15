@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Chart Data Label
+description: "Chart data label tuning using Aspose.Words for C++."
 type: docs
 weight: 30
 url: /cpp/working-with-chart-data-label/

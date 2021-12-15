@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Sections
+description: "Understanding document section concepts and manipulation practices using Aspose.Words for C++."
 type: docs
 weight: 30
 url: /cpp/working-with-sections/

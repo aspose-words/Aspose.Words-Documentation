@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Footnote and Endnote
+description: "How to manipulate with footnotes and endnotes using Aspose.Words for C++."
 type: docs
 weight: 37
 url: /cpp/working-with-footnote-and-endnote/

@@ -1,5 +1,6 @@
 ---
 title: Contents Management
+description: "Introduction to document content management classes in Aspose.Words for Java."
 type: docs
 weight: 150
 url: /java/contents-management/

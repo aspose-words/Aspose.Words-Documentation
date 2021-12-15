@@ -1,5 +1,6 @@
 ---
 title: Working with Tables
+description: "Introducing to Table node concepts in Aspose.Words for .Net."
 type: docs
 weight: 90
 url: /net/working-with-tables/

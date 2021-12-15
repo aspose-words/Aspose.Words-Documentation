@@ -1,5 +1,6 @@
 ---
 title: Working with Comments
+description: "Working with comments in your code using Aspose.Words for C++."
 type: docs
 weight: 90
 url: /cpp/working-with-comments/

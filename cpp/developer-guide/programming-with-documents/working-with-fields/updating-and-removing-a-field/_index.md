@@ -1,5 +1,6 @@
 ﻿---
 title: Updating and Removing a Field
+description: "Fields updating in details using Aspose.Words for C++."
 type: docs
 weight: 30
 url: /cpp/updating-and-removing-a-field/

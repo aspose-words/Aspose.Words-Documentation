@@ -1,5 +1,6 @@
 ﻿---
 title: How to Add Group Shape into a Word Document
+description: "Grouping and ungrouping shapes using Aspose.Words for C++."
 type: docs
 weight: 250
 url: /cpp/how-to-add-group-shape-into-a-word-document/

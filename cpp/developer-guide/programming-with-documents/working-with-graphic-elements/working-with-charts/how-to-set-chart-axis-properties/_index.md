@@ -1,5 +1,6 @@
 ﻿---
 title: How to Set Chart Axis Properties
+description: "Chart axis tuning using Aspose.Words for C++."
 type: docs
 weight: 20
 url: /cpp/how-to-set-chart-axis-properties/

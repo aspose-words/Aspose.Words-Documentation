@@ -1,5 +1,6 @@
 ﻿---
 title: Working with ChartSeries
+description: "Chart series tuning using Aspose.Words for C++."
 type: docs
 weight: 40
 url: /cpp/working-with-chartseries/

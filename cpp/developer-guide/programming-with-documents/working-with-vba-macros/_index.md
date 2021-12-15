@@ -1,5 +1,6 @@
 ﻿---
 title: Working with VBA Macros
+description: "Working with document VBA projects using Aspose.Words for C++."
 type: docs
 weight: 150
 url: /cpp/working-with-vba-macros/

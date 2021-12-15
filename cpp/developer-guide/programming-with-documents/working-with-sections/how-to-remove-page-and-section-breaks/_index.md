@@ -1,5 +1,6 @@
 ﻿---
 title: How to Remove Page and Section Breaks
+description: "Page or section breaks explanation and how to remove it using Aspose.Words for C++."
 type: docs
 weight: 210
 url: /cpp/how-to-remove-page-and-section-breaks/

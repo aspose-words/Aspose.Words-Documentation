@@ -1,5 +1,6 @@
 ﻿---
 title: Creating OOXML Charts from Scratch using Aspose.Words
+description: "How to create different charts in your document using Aspose.Words for C++."
 type: docs
 weight: 10
 url: /cpp/creating-ooxml-charts-from-scratch-using-aspose-words/

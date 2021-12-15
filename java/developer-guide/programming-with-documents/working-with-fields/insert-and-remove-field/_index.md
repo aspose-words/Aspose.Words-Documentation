@@ -1,5 +1,6 @@
 ﻿---
 title: Insert and Remove Field
+description: "Different ways to insert fields into your document using Aspose.Words for Java."
 type: docs
 weight: 30
 url: /java/insert-and-remove-field/

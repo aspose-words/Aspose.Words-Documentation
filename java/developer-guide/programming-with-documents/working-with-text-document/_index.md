@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Text Document
+description: "Advanced TXT document processing, lists, BiDi, headers/footer, using Aspose.Words for Java."
 type: docs
 weight: 190
 url: /java/working-with-text-document/

@@ -1,5 +1,6 @@
 ---
 title: Working with SmartArt Cold Rendering
+description: "Introduction to SmartArt shapes."
 type: docs
 description: "Aspose.Words for .NET performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect."
 weight: 55

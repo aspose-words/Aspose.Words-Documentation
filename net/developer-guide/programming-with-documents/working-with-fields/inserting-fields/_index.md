@@ -1,5 +1,6 @@
 ---
 title: Inserting Fields
+description: "Different ways to insert fields into your document using Aspose.Words for .Net."
 type: docs
 weight: 20
 url: /net/inserting-fields/
