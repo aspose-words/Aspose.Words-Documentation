@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document
 type: docs
 weight: 30

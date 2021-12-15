@@ -6,7 +6,7 @@ weight: 90
 url: /cpp/configure-aspose-words-for-cpp-in-visual-studio-2019/
 ---
 
-Aspose.Words for C++ API works with Visual Studio 2017 or later. To work with Visual Studio 2017 or 2019, you may need to install Visual C++ Redistributable available on [Microsoft official website](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
+Aspose.Words for C++ API works with Visual Studio 2017 or later. To work with Visual Studio 2017 or 2019, you may need to install Visual C++ Redistributable available on [Microsoft official website](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
 Follow these steps to manually configure Aspose.Words for C++ in Visual Studio 2019.
 

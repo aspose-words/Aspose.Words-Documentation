@@ -1,4 +1,4 @@
-﻿---
+---
 title: Serialize and Work with a Document in a Database
 description: "Aspose.Words for Java allows you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."
 aliases:
@@ -18,7 +18,7 @@ To store a document in a database or to prepare a document for transmission acro
 
 To serialize a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object in Aspose.Words:
 
-1. Save it to a **MemoryStream** using the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.io.OutputStream,int\)) method overload of the **Document** class.
+1. Save it to a **MemoryStream** using the [Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save\(java.io.OutputStream,int\)) method overload of the **Document** class.
 1. Call the **ToArray** method, which returns an array of bytes representing the document in byte form.
 
 The steps above then can be reversed to load the bytes back into a **Document** object.

@@ -47,7 +47,7 @@ Ruby developers who want to utilize Aspose.Words for Java in their Ruby Projects
 
 Download required libraries mentioned below. These are the required for executing Aspose.Words Java for Ruby examples.
 
-- [Aspose.Words for Java Component](http://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx)
+- [Aspose.Words for Java Component](https://downloads.aspose.com/)
 
 ### Download Examples from Social Coding Sites
 
@@ -120,10 +120,10 @@ Let's understand the above code.
 
 If you want to create your own Ruby gem Aspose.Total Java APIs, please follow these simple steps:
 
-- Install Ruby from <https://www.ruby-lang.org/en/downloads/> or from <http://rubyinstaller.org> (for windows)
+- Install Ruby from <https://www.ruby-lang.org/en/downloads/> or from <https://rubyinstaller.org/> (for windows)
 - Install Ruby Dev-Kit / Dev Tools (for Windows from <https://www.ruby-lang.org/en/downloads/>)
 - Follow this guide for installing Dev-Kit: <https://github.com/oneclick/rubyinstaller/wiki/Development-Kit>
 - Install RJB Gem from <https://rubygems.org/gems/rjb>
 - Download the template and start developing Aspose.Total for Java APIs based project/gem in Ruby. You can download template from <https://github.com/asposemarketplace/Aspose_Java_for_Ruby>
-- Download relevant Aspose.Total Java Component from <http://www.aspose.com/java/total-component.aspx> and place it in your project "jars" folder
-- Upload the created gem to <http://www.rubygems.org> for distribution to the world
+- Download relevant Aspose.Total Java Component from <https://products.aspose.com/total/java/> and place it in your project "jars" folder
+- Upload the created gem to <https://rubyinstaller.org/> for distribution to the world

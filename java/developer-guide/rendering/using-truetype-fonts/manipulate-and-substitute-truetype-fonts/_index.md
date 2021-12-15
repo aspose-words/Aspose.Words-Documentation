@@ -1,4 +1,4 @@
-﻿---
+---
 title: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for Java can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately, or search for a suitable font replacement, or uses the Font fallback mechanism."
 type: docs
@@ -231,6 +231,6 @@ There are some differences in the processing of font formats in Aspose.Words and
 
 ## See Also
 
-- [Google Noto Fonts](https://www.google.com/get/noto/) to download free fonts
+- [Google Noto Fonts](https://fonts.google.com/noto) to download free fonts
 
 

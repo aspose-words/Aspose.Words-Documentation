@@ -92,7 +92,7 @@ The missing features will be added in future releases.
 |WORDSNET-19177	|Border of PieChart pieces is changed in output PNG|Bug|
 |WORDSNET-19164	|SmartArt to PNG conversion issue with fill color|Bug|
 |WORDSNET-18954	|Watermarks are black and doubled when converting EMF to PDF|Bug|
-|WORDSNET-20106	|Problem in ODT format with field Fill-In containing <text:line-break> tag or carriage return character.|Bug|
+|WORDSNET-20106	|Problem in ODT format with field Fill-In containing &lt;text:line-break&gt; tag or carriage return character.|Bug|
 |WORDSNET-20528	|Conversion from RTF to PDF - Paragraph borders not imported correctly|Bug|
 |WORDSNET-20117	|Table of Contents does use the wrong style|Bug|
 |WORDSNET-20108	|Language of SDTs is changed from Hebrew to Arabic after DOCX>HTML>DOCX|Bug|
@@ -192,7 +192,7 @@ Use Case. Explains how to use WarningSource.Markdown enumeration value:
  WarningInfoCollection warnings = new WarningInfoCollection();
  doc.WarningCallback = warnings;
  doc.Save("output.md");
- 
+
  foreach (WarningInfo warningInfo in warnings)
  {
      if (warningInfo.Source == WarningSource.Markdown)
@@ -239,12 +239,12 @@ Also, a new public enumeration has been added:
      /// Centimeters.
      /// </summary>
      Centimeters = 1,
-
+    
      /// <summary>
      /// Millimeters.
      /// </summary>
      Millimeters = 2,
-
+    
      /// <summary>
      /// Points.
      /// </summary>
@@ -295,7 +295,7 @@ Use Case:
 {{< highlight csharp >}}
 
  Document doc = new Document(myDir +"Input.docx");
- 
+
  //Renders revision bars on the right side of a page.
  doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
  doc.Save(myDir +"Output.pdf");
@@ -324,43 +324,43 @@ The following classes have been added:
     /// Gets the level at which this <b>SDT range start</b> occurs in the document tree.
     /// </summary>
     public MarkupLevel Level { get; }
-
+    
     /// <summary>
     /// Gets type of this <b>Structured document tag</b>.
     /// </summary>
     public SdtType SdtType { get; }
-
+    
     /// <summary>
     /// <para>Specifies a unique read-only persistent numerical Id for this <b>SDT</b>.</para>
     /// </summary>
     public int Id { get; }
-
+    
     /// <summary>
     /// When set to true, this property will prohibit a user from deleting this <b>SDT</b>.
     /// </summary>
     public bool LockContentControl { get; }
-
+    
     /// <summary>
     /// When set to true, this property will prohibit a user from editing the contents of this <b>SDT</b>.
     /// </summary>
     public bool LockContents { get; }
-
+    
     /// <summary>
     /// Specifies whether the content of this <b>SDT</b> shall be interpreted to contain placeholder text
     /// (as opposed to regular text contents within the SDT).
     /// </summary>
     public bool IsShowingPlaceholderText { get; }
-
+    
     /// <summary>
     /// Specifies a tag associated with the current SDT node.
     /// </summary>
     public string Tag { get; }
-
+    
     /// <summary>
     /// Specifies the friendly name associated with this <b>SDT</b>.
     /// </summary>
     public string Title { get; }
-
+    
     /// <summary>
     /// Specifies end of range if the StructuredDocumentTag is a ranged structured document tag.
     /// </summary>

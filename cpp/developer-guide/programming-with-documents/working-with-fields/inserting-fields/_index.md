@@ -80,7 +80,7 @@ ASK field is used to prompt the user for text to assign to a Bookmark in Word do
 - Specify whether the user response should be received once per a mail merge operation
 - Specify the prompt text (the title of the prompt window).
 
-For more details, please refer to [FieldAsk Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAsk+Class). The code example given below shows how to Add an ASK Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAsk Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_ask/). The code example given below shows how to Add an ASK Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertASKFieldWithoutDocumentBuilder-InsertASKFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -92,7 +92,7 @@ AUTHOR field is used to specify the name of the Document's author from the Docum
 
 - Specify the document author's name.
 
-For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/docs/display/wordsnet/Aspose.Words.Fields.FieldAuthor+Class). The code example given below shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAuthor Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_author/). The code example given below shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cpp" >}}
 
@@ -105,7 +105,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of the included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/net/aspose.words.fields/fieldincludetext). The code example given below shows how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_include_text/). The code example given below shows how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertFieldIncludeTextWithoutDocumentBuilder.h" >}}
 

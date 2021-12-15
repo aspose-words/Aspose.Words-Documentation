@@ -26,7 +26,7 @@ If `html` switch is present, the expression result is considered to be a HTML bl
 <<["<b>Bold</b> and <i>italic</i> text"] -html>>
 {{< /highlight >}}
 
-To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [DecimalFormat](http://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html) or [SimpleDateFormat](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) constructors. That is, for example, given that `d` is a `Date` value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
+To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [DecimalFormat](https://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html) or [SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) constructors. That is, for example, given that `d` is a `Date` value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
 
 {{< highlight xml >}}
 <<[d]:"yyyy.MM.dd">>
