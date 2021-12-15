@@ -1,5 +1,6 @@
-﻿---
+---
 title: Forcing Movement to Next Item within Data Band
+description: "Force movement to the next item within a data band when building a report Java."
 type: docs
 weight: 50
 url: /java/forcing-movement-to-next-item-within-data-band/

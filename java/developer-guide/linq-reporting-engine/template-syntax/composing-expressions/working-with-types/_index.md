@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working with Types
+description: "Use external visible types in template expressions when building a report Java."
 type: docs
 weight: 20
 url: /java/working-with-types/

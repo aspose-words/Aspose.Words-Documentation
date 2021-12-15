@@ -27,7 +27,7 @@ For more information on these changes, see the [Aspose.Words for Java 21.3 Relea
 
 {{% /alert %}}
 
-## Aspose.Words for Java 21.9, 21.10, 21.11
+## Aspose.Words for Java 21.9, 21.10, 21.11, 21.12
 
 Aspose.Words 21.9 expands the list-level formatting control.
 
@@ -35,7 +35,13 @@ Aspose.Words 21.10 enhances rendering options, improves find and replace options
 
 Aspose.Words 21.11 expands loadings and saving functionality, improves find and replace option and working with PDF.
 
+Aspose.Words 21.12 introduces additional options for working with Latin text and fonts to improve appearance and performance, and expands the ability to work with content control and footnotes. 
+
 The API is enhanced for more flexible and convenient development.
+
+### Performance Improvements
+
+Loading a previously saved font search cache to speed up the font cache initialization process upon rendering has been implemented. Now your solutions will work even faster.
 
 ### Rendering
 
@@ -46,6 +52,10 @@ New public methods and properties to work with gradient fills and gradient stops
 #### Attachment Pane in Output PDF Documents
 
 A new option [UseAttachments](https://apireference.aspose.com/words/java/com.aspose.words/PdfPageMode) has been implemented to display the attachment pane in output PDF documents.
+
+#### Allow Latin Text to Wrap in the Middle of a Word
+
+Support for the "Allow Latin text to wrap in the middle of a word" feature has been implemented to make our Latin support even better upon rendering.
 
 ### Search and Compare
 
@@ -67,6 +77,8 @@ The ability to get [ParentRegion](https://apireference.aspose.com/words/java/com
 - A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/java/com.aspose.words/ListLevel) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/java/com.aspose.words/listlevel#getEffectiveValue(int,int,java.lang.String)) method has been added.
 - An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
 - A new class [ChmLoadOptions](https://apireference.aspose.com/words/java/com.aspose.words/ChmLoadOptions) has been added to get more control over CHM loading.
+- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag) and [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTagRangeStart) classes.
+- Recognition of non-standard footnotes in PDF documents on import has been added.
 
 {{% alert color="primary" %}}
 
@@ -75,6 +87,8 @@ Learn more about [Aspose.Words for Java 21.9 Release Notes](/words/java/aspose-w
 Learn more about [Aspose.Words for Java 21.10 Release Notes](/words/java/aspose-words-for-java-21-10-release-notes/).
 
 Learn more about [Aspose.Words for Java 21.11 Release Notes](/words/java/aspose-words-for-java-21-11-release-notes/).
+
+Learn more about [Aspose.Words for Java 21.12 Release Notes](/words/java/aspose-words-for-java-21-12-release-notes/).
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Fields
 description: "Different ways to insert fields into your document using Aspose.Words for C++."
 type: docs
@@ -40,7 +40,7 @@ For more details, please refer to FieldMergeField Class API reference. The code
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Fields/in.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Field%20sample%20-%20ADDIN.docx).
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 

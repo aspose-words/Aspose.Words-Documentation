@@ -1,5 +1,6 @@
 ---
 title: Getting Started 
+description: "This guide describes features, installation, licensing and limitations of the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/getting-started/
@@ -16,4 +17,3 @@ This section includes the following topics:
 - [Evaluation Version Limitations](/words/reportingservices/evaluation-version-limitations/)
 - [Install Aspose.Words for Reporting Services](/words/reportingservices/install-aspose-words-for-reporting-services/)
 - [Sample Gallery](/words/reportingservices/sample-gallery/)
-

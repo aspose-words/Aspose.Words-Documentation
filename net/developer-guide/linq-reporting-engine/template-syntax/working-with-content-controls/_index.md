@@ -1,5 +1,6 @@
-﻿---
+---
 title: Working with Content Controls
+description: "Perform certain operations on content controls dynamically while building a report C#."
 type: docs
 weight: 140
 url: /net/working-with-content-controls/

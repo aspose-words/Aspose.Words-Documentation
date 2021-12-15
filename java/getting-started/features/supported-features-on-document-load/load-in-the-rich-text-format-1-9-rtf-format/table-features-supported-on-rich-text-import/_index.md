@@ -24,10 +24,8 @@ Note that some elements of a table may be wrapped with Markup nodes such as Cust
 
 See the following links in the documentation for further information:
 
-- [Working with Tables]()
+- **Working with Tables**
 - **Table**
-
-[Jump to this location in the export section]()
 
 {{% /alert %}} 
 
@@ -37,7 +35,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Yes | |- **Table.Bidi**|
-|Table Style |Planned |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. <br><br>Table style is lost on import. |<p>- [Working with Table Styles]() </p><p>- **Table.Style** </p><p>- **Table.StyleIdentifier**</p>|
+|Table Style |Planned |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. <br><br>Table style is lost on import. |<p>- Working with Table Styles </p><p>- **Table.Style** </p><p>- **Table.StyleIdentifier**</p>|
 |Conditional Formatting Style |Yes | |- **Table.StyleOptions**|
 |Table Alignment |Yes | |- **Table.Alignment**|
 |Table Indent |Yes | |- **Table.LeftIndent**|
@@ -76,8 +74,8 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Allow Break Across Pages |Yes | |<p>- [Keeping Tables and Rows from Breaking across Pages]() </p><p>- **RowFormat.AllowBreakAcrossPages**</p>|
-|Repeat as Header Row |Yes | |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows]() </p><p>- **RowFormat.HeadingFormat**</p>|
+|Allow Break Across Pages |Yes | |<p>- Keeping Tables and Rows from Breaking across Pages </p><p>- **RowFormat.AllowBreakAcrossPages**</p>|
+|Repeat as Header Row |Yes | |<p>- Specifying Rows to Repeat on Subsequent Pages as Header Rows </p><p>- **RowFormat.HeadingFormat**</p>|
 |Height |Yes | |- **RowFormat.Height**|
 |Height Rule |Yes | |- **RowFormat.HeightRule**|
 
@@ -91,7 +89,7 @@ See the following links in the documentation for further information:
 |Wrap Text |Yes | |- **CellFormat.WrapText**|
 |Fit Text |Yes | |- **CellFormat.FitText**|
 |Preferred Width |Yes | |- **CellFormat.PreferredWidth**|
-|Merged Horizontally |Yes | |<p>- [Working with Merged Cells]() </p><p>- **CellFormat.HorizontalMerge**</p>|
+|Merged Horizontally |Yes | |<p>- Working with Merged Cells </p><p>- **CellFormat.HorizontalMerge**</p>|
 |Merged Vertically |Yes | |- **CellFormat.VerticalMerge**|
 |Vertical Alignment |Yes | |- **CellFormat.VerticalAlignment**|
 |Text Direction |Yes | |- **CellFormat.Orientation**|

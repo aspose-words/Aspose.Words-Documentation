@@ -13,8 +13,6 @@ An endnote or footnote is a note that appears at the bottom of a page that is co
 
 Using Aspose.Words you can interact with footnotes and endnotes and access or modify footnote related properties such as the location of the footnotes and when they restart.
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Footnotes

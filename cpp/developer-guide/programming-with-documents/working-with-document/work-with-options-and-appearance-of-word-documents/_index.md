@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for C++ allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
@@ -19,7 +19,7 @@ The following code example shows how to ensure that a document is displayed at 5
 
 {{% alert color="primary" %}}
 
-You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Document/TestFile.doc).
+You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 

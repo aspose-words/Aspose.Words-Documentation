@@ -1,5 +1,6 @@
 ﻿---
 title: SqlQuery Element
+description: "This page describes SqlQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 110
 url: /sharepoint/sqlquery-element/
@@ -14,4 +15,3 @@ For OleDbDataSource, use “ ? ” as a parameter placeholder. Parameters are su
 |TableNames|0-1|Yes|Describes table names to assign to the tables returned by the query.|
 |QueryParameters|0-1|Yes|Sets the order of report parameters used in the query.|
 |Command|1|No|SQL command to get report data from the data source. It must not be empty.|
-

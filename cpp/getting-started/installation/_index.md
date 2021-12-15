@@ -8,7 +8,7 @@ url: /cpp/installation/
 
 Make sure your machine meets the [system requirements](/words/cpp/system-requirements/) before you begin.
 
-This article explains how to instal Aspose.Words for C++ on your computer.
+This article explains how to install Aspose.Words for C++ on your computer.
 
 ## Install or Update Aspose.Words for C++ using Manage NuGet Packages {#install-or-update-aspose-words-for-cpp-using-nuget}
 

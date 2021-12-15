@@ -22,8 +22,6 @@ Style type is calculated based on the elements that the style is applied to. The
 
 The logic used when a external style sheet is enctounered on ocument load can be controlled using IResourceLoadingCallback. Using this callback you can choose to download the external style sheet, skip loading and avoid applying the styles from the sheet or specify your own style sheet to use instead.
 
-[Jump to this location in the export section]()
-
 {{% /alert %}} 
 
 ## Style Type

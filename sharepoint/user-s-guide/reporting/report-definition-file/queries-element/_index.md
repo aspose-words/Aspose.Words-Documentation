@@ -1,5 +1,6 @@
 ---
 title: Queries Element
+description: "This page describes Queries element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 100
 url: /sharepoint/queries-element/
@@ -12,4 +13,3 @@ The Queries element contains information about queries for retrieving report dat
 |SqlQuery|0-N|Yes|Describes an SQL query to a relational database.|
 |SPListQuery|0-N|Yes|Describes a CAML query to a SharePoint list.|
 |SPXmlQuery|0-N|Yes|Describes XML data file location in a SharePoint document library.|
-

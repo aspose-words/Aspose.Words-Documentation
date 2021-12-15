@@ -1,5 +1,6 @@
----
+﻿---
 title: SPListQuery Element
+description: "This page describes SPListQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 140
 url: /sharepoint/splistquery-element/
@@ -51,7 +52,7 @@ Here is an example of the report with the SPListQuery element:
 </Report>
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that internal field names like FileLeafRef are used inside the query. However, Lists web service returns, FileLeafRef field as ows_FileLeafRef. And it returns about 15 fields instead of just the two mentioned in the ViewFields element.
 

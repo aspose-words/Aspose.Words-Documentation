@@ -1,5 +1,6 @@
----
+﻿---
 title: Installing Aspose.Words for SharePoint manually
+description: "This page describes how to install manually the Aspose.Words for SharePoint."
 type: docs
 weight: 60
 url: /sharepoint/installing-aspose-words-for-sharepoint-manually/

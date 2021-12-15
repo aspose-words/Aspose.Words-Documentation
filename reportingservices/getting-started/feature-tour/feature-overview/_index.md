@@ -1,15 +1,16 @@
 ---
 title: Feature Overview
+description: "This page describes feature overview of the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/feature-overview/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-This section provides detailed descriptions of the Aspose.Words for Reporting Services features. Click on the links in the table to learn more about the features. 
+This section provides detailed descriptions of the Aspose.Words for Reporting Services features. Click on the links in the table to learn more about the features.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |Feature |Description |
 | :- | :- |
@@ -19,4 +20,3 @@ This section provides detailed descriptions of the Aspose.Words for Reporting Se
 |[High Fidelity to the Report Design](/words/reportingservices/high-fidelity-to-the-report-design/)|DOC, DOCX, RTF and WordprocessingML reports have the same layout and appearance as PDF and other formats. |
 |[Easy and Lightweight Deployment](/words/reportingservices/easy-and-lightweight-deployment/)|Automatic or manual installation. Simple configuration, and only one assembly to deploy. |
 |[World Class Free Technical Support](/words/reportingservices/world-class-free-technical-support/)|Unlimited technical support is provided directly by developers of the product. |
-

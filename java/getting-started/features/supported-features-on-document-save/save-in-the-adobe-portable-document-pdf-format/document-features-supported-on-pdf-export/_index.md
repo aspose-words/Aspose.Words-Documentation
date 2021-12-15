@@ -30,8 +30,8 @@ Both TrueType and OpenFont font formats are supported and can be subsetted durin
 
 See the following links in the documentation for further information:
 
-- [Save a Document]()
-- [Rendering and Printing]()
+- Save a Document
+- Rendering and Printing
 - [PdfSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
 - [PdfSaveOptions.Compliance](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
 

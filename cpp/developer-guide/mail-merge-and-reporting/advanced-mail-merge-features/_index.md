@@ -1,4 +1,4 @@
-﻿---
+---
 title: Advanced Mail Merge Features
 aliases:
   - /cpp/how-to-use-advanced-mail-merge-features/
@@ -61,7 +61,7 @@ System::SharedPtr<MailMergeRegionInfo> regionInfo = doc->get_MailMerge()->GetReg
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Mail-Merge/Mail%20merge%20regions.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Mail%20merge%20regions.docx).
 
 {{% /alert %}}
 

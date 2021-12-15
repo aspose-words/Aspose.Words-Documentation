@@ -1,4 +1,4 @@
-﻿---
+---
 title: Installation
 description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set."
 type: docs
@@ -8,7 +8,7 @@ url: /net/installation/
 
 Make sure your machine meets the [system requirements](/words/net/system-requirements/) before you begin.
 
-This article explains how to instal Aspose.Words for .NET on your computer.
+This article explains how to install Aspose.Words for .NET on your computer.
 
 ## Install or Update Aspose.Words for .NET using Manage NuGet Packages {#install-or-update-aspose-words-for-net-using-nuget}
 

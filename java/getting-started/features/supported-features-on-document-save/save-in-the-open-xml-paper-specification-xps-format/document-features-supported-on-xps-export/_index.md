@@ -22,8 +22,8 @@ Both TrueType and OpenFont font formats are supported and can be subsetted durin
 
 See the following links in the documentation for further information:
 
-- [Save a Document]()
-- [Rendering and Printing]()
+- Save a Document
+- Rendering and Printing
 - **XpsSaveOptions**
 
 {{% /alert %}} 
