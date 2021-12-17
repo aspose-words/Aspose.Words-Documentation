@@ -22,8 +22,8 @@ Aspose.Words for C++ supports the following 64-bit or 32-bit operating system an
 			<td><ul><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
 		</tr>
   <tr>
-			<td>Linux</td>
-			<td><ul><li>Ubuntu 16.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
+			<td>Linux x86_x64 with GLIBC >= 2.27 and GLIBCXX >= 3.4.22 (GCC >= 6.1.0) </td>
+			<td><ul><li>Ubuntu 18.04 or later</li><li>Fedora</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
 		</tr>
 
   <tr>
@@ -51,14 +51,14 @@ Aspose.Words for C++ can be used to develop applications in any development envi
 
 ### Linux
 
-Aspose.Words for C++ can be used to develop application in any development environment which support [C++14 language standard](https://en.cppreference.com/w/cpp/compiler_support), but the following compilers are explicitly supported:
+Aspose.Words for C++ can be used to develop application in the development environment linked against GLIBC >=2.27 and GLIBCXX >= 3.4.22 (GCC >= 6.1.0) which support [C++14 language standard](https://en.cppreference.com/w/cpp/compiler_support), but the following compilers are explicitly supported:
 
 <table>  
 	<tr>
 			<td style="font-weight: bold; width:800px">Compilers</td>
 		</tr>
   <tr>
-			<td><ul><li>GCC 6.3.0 or later</li><li>Clang 3.9.1 or later</li></ul></td>
+			<td><ul><li>GCC 6.1.0 or later</li><li>Clang 3.9.1 or later</li></ul></td>
 			</tr>
 </table>
 
