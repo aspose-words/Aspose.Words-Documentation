@@ -142,6 +142,14 @@ FontSettings settings = new FontSettings();
 settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, streamSource }, cacheInputStream);
 {{< /highlight >}}
 
+{{% alert color="primary" %}}
+
+Font search cache is great for Aspose.Words integration in AWS Lambda due to a number of limitations. For example, on the main container size and, as a result, on the number of fonts.
+
+The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a FontSettings instance with a loaded cache.
+
+{{% /alert %}}
+
 ## Get a List of Available Fonts {#get-a-list-of-available-fonts}
 
 If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the [GetAvailableFonts](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/methods/getavailablefonts) method, as shown in the following code example. The [PhysicalFontInfo](https://apireference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo) class specifies information about the physical font available to Aspose.Words font engine:

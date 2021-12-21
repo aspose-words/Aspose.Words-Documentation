@@ -192,6 +192,12 @@ Use the same **SaveSearchCache** method to update the cache.
 
 {{% /alert %}}
 
+{{% alert color="primary" %}}
+
+The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a FontSettings instance with a loaded cache.
+
+{{% /alert %}}
+
 ## Get a List of Available Fonts {#get-a-list-of-available-fonts}
 
 If you want to get the list of available fonts, which, for example, can be used to render a PDF document, you can use the [GetAvailableFonts](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.font_source_base#getavailablefonts) method, as shown in the following code example. The [PhysicalFontInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.fonts.physical_font_info) class specifies information about the physical font available to Aspose.Words font engine:
