@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Styles
 description: "Enhanced Microsoft Word formatting features, working with styles using Aspose.Words for Java."
 type: docs
@@ -38,7 +38,7 @@ Both these methods are very similar, the only differences being the node types a
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-paragraphsByStyleName.java" >}}
 
-This implementation also uses the [Document.getChildNodes()](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method of the Document class, which returns a collection of all immediate child nodes.
+This implementation also uses the [Document.getChildNodes()](https://apireference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method of the Document class, which returns a collection of all immediate child nodes.
 
 It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them.Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.getName()](https://apireference.aspose.com/words/java/com.aspose.words/style#Name) property of the [Paragraph.getParagraphFormat()](https://apireference.aspose.com/words/java/com.aspose.words/style#ParagraphFormat) object.
 

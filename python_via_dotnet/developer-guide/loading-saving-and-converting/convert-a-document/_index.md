@@ -37,14 +37,14 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-4">
 		<h2>Convert Word to PDF</h2>
 			<ul>
-				<li><a href="/words/python/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
-				<li><a href="/words/python/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOC to PDF</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">Convert DOCX to PDF</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert Image to PDF</h2>
 			<ul>
-				<li><a href="/words/python/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
-				<li><a href="/words/python/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert JPG to PDF</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-pdf/#convert-an-image-to-pdf">Convert TIFF to PDF</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert Web Formats to PDF</h2>
@@ -66,13 +66,13 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-4">
 		<h2>Convert PDF to Word</h2>
 			<ul>
-				<li><a href="/words/python/convert-pdf-to-other-document-formats/">Convert PDF to DOCX</a></li>
+				<li><a href="/words/python-net/convert-pdf-to-other-document-formats/">Convert PDF to DOCX</a></li>
         <li>Convert PDF to DOC</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert PDF to Image</h2>
 			<ul>
-				<li><a href="/words/python/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
         <li>Convert PDF to SVG</li>
 				<li>and others</li>
 			</ul>
@@ -93,19 +93,19 @@ Please note that below are the most popular conversion combinations, and not eve
 	<div class="col-md-4">
 		<h2>Convert a Document to an Image</h2>
 			<ul>
-				<li><a href="/words/python/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
-				<li><a href="/words/python/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-an-image/">Convert PDF to JPG</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-an-image/">Convert DOCX to JPG</a></li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert a Document to Markdown</h2>
 			<ul>
-				<li><a href="/words/python/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-markdown/">Convert a Document to Markdown</a></li>
 				<li>Convert HTML to Markdown</li>
 				<li>and others</li>
 			</ul>
 		<h2>Convert a Document to HTML</h2>
 			<ul>
-				<li><a href="/words/python/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
+				<li><a href="/words/python-net/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">Convert Word to HTML</a></li>
 				<li>Convert Markdown to HTML</li>
 				<li>Convert Mobi to EPUB</li>
 				<li>and others</li>

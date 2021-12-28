@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document to PDF
 description: "Aspose.Words for Java allows you to convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms."
 aliases: 
@@ -27,7 +27,7 @@ Note that the number of pages in a document affects the conversion time.
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
 1. Load your document into a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object using one of its constructors by specifying the document name with its format extension.
-1. Invoke one of the [Document.Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,int\)) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
+1. Invoke one of the [Document.Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save\(java.lang.String,int\)) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
 The following code example shows how to convert a document from DOCX into PDF using the Save method:
 

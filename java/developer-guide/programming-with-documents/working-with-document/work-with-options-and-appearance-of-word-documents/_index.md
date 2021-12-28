@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for Java allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
@@ -31,7 +31,7 @@ Microsoft Word 2013 does not write any zoom factor to a document and no longer s
 
 ## Set Page Display Options
 
-If you want to set the number of characters per line, use the [CharactersPerLine](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#CharactersPerLine) property. You can also set the number of lines per page for a Word document – use the [LinesPerPage](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#LinesPerPage) property to get or set the number of lines per page in the document grid.
+If you want to set the number of characters per line, use the [CharactersPerLine](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup#CharactersPerLine) property. You can also set the number of lines per page for a Word document – use the [LinesPerPage](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup#LinesPerPage) property to get or set the number of lines per page in the document grid.
 
 {{% alert color="primary" %}}
 

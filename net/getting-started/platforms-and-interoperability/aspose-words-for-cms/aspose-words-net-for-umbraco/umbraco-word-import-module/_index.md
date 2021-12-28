@@ -31,7 +31,6 @@ You can download Aspose .NET Word Import for Umbraco module from one of the foll
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposeumbraco/files/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
-- [Umbraco ](https://our.umbraco.org/projects/developer-tools/import-from-word-using-aspose-words)
 
 ## Installing
 

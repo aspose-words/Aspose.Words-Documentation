@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with VBA Macros
 description: "Working with document VBA projects using Aspose.Words for Java."
 type: docs
@@ -14,7 +14,7 @@ Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful 
 
 ## Creating a VBA Project
 
-Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/words/java/com.aspose.words/document#VbaProject) property to get or set VbaProject in the document. The following code example demonstrates how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
+Aspose.Words API provides the [Dcoument.VbaProject](https://apireference.aspose.com/words/java/com.aspose.words/Document#VbaProject) property to get or set VbaProject in the document. The following code example demonstrates how to create a VBA project and VBA Module along with basic properties e.g. Name and Type. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithVbaMacros-CreateVbaProject.java" >}}
 

@@ -240,7 +240,7 @@ doc.Save(myDir + "document1.docx");
 
 Related issue: WORDSNET-15054
 
-Public property added to the List class to support backward compatibility upon Mail Merge, please see [WORDSNET-15054](http://auckland.dynabic.com/jira/browse/WORDSNET-15054).
+Public property added to the List class to support backward compatibility upon Mail Merge, please see [WORDSNET-15054](https://issue.auckland.dynabic.com/issues/WORDSNET-15054).
 
 {{< highlight csharp >}}
 /// <summary>

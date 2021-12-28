@@ -12,7 +12,7 @@ See more details in the ["Working with Images"](/words/java/working-with-images/
 
 {{% /alert %}} 
 
-The [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) provides several overloads of the [InsertImage](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertImage(byte[])) method that allow you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be saved in PNG format.
+The [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) provides several overloads of the [InsertImage](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) method that allow you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be saved in PNG format.
 
 The following code example shows how to insert an image info a document:
 

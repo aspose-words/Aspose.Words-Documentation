@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document to HTML, MHTML or EPUB
 description: "Use Aspose.Words for Java to convert documents from Word or any other supported formats to HTML, MHTML, or EPUB."
 type: docs
@@ -12,7 +12,7 @@ EPUB (short for "Electronic Publication") is an HTML-based format commonly used 
 
 ## Convert a Document
 
-For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,int\)) method overloads is used. You can save the document to a file or stream and explicitly set the output document save format or define it from the file name extension.
+For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save\(java.lang.String,int\)) method overloads is used. You can save the document to a file or stream and explicitly set the output document save format or define it from the file name extension.
 
 The following example shows how to convert DOCX to HTML with specifying a save format:
 
@@ -72,7 +72,7 @@ The following code example shows how to export Base64-encoded fonts to HTML:
 
 ## Specify Save Options when Conversion to EPUB
 
-Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
+Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
 
 The following code example shows how to converts a Word document to EPUB with specifying some custom save options:
 

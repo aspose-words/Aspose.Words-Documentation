@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use DocumentBuilder to Insert Document Elements
 type: docs
 weight: 10
@@ -9,7 +9,7 @@ The [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.word
 
 ## Inserting a String of Text
 
-Simply pass the string of text you need to insert into the document to the [DocumentBuilder.write](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#write(java.lang.String)) method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) properties to allow you to access them directly. These are Boolean properties [Font.getBold](https://apireference.aspose.com/words/java/com.aspose.words/font#Bold), [Font.getItalic](https://apireference.aspose.com/words/java/com.aspose.words/font#Italic), and [Font.getUnderline](https://apireference.aspose.com/words/java/com.aspose.words/font#Underline).
+Simply pass the string of text you need to insert into the document to the [DocumentBuilder.write](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#write(java.lang.String)) method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) properties to allow you to access them directly. These are Boolean properties [Font.getBold](https://apireference.aspose.com/words/java/com.aspose.words/font#Bold), [Font.getItalic](https://apireference.aspose.com/words/java/com.aspose.words/font#Italic), and [Font.getUnderline](https://apireference.aspose.com/words/java/com.aspose.words/font#Underline).
 
 {{% alert color="primary" %}} 
 
@@ -33,13 +33,13 @@ The following code example shows how to insert a paragraph into the document.
 
 The basic algorithm to create a table using DocumentBuilder is simple:
 
-1. Start the table using [DocumentBuilder.startTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startTable()).
-1. Insert a cell using [DocumentBuilder.insertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell()). This automatically starts a new row. If needed, use the [DocumentBuilder.getCellFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#CellFormat) property to specify cell formatting.
+1. Start the table using [DocumentBuilder.startTable](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startTable()).
+1. Insert a cell using [DocumentBuilder.insertCell](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCell()). This automatically starts a new row. If needed, use the [DocumentBuilder.getCellFormat](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CellFormat) property to specify cell formatting.
 1. Insert cell contents using the DocumentBuilder methods.
 1. Repeat steps 2 and 3 until the row is complete.
-1. Call [DocumentBuilder.endRow](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endRow()) to end the current row. If needed, use [DocumentBuilder.RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#RowFormat) property to specify row formatting.
+1. Call [DocumentBuilder.endRow](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endRow()) to end the current row. If needed, use [DocumentBuilder.RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#RowFormat) property to specify row formatting.
 1. Repeat steps 2 - 5 until the table is complete.
-1. Call [DocumentBuilder.endTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endTable()) to finish the table building. The appropriate DocumentBuilder table creation methods are described below.
+1. Call [DocumentBuilder.endTable](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endTable()) to finish the table building. The appropriate DocumentBuilder table creation methods are described below.
 
 ### Starting a Table
 
@@ -68,7 +68,7 @@ The following code example shows how to insert page breaks into a document.
 
 ## Inserting an Image
 
-DocumentBuilder provides several overloads of the [DocumentBuilder.insertImage](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertImage(byte[])) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.insertImage method can use images from different sources:
+DocumentBuilder provides several overloads of the [DocumentBuilder.insertImage](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.insertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter
 - From a stream by passing a Stream parameter
@@ -99,9 +99,9 @@ This example inserts a floating image from a file or URL at a specified position
 
 To insert a bookmark into the document, you should do the following:
 
-1. Call [DocumentBuilder.startBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startBookmark(java.lang.String)) passing it the desired name of the bookmark.
+1. Call [DocumentBuilder.startBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startBookmark(java.lang.String)) passing it the desired name of the bookmark.
 1. Insert the bookmark text using DocumentBuilder methods.
-1. Call [DocumentBuilder.endBookmark](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endBookmark(java.lang.String)) passing it the same name that you used with DocumentBuilder.startBookmark.
+1. Call [DocumentBuilder.endBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endBookmark(java.lang.String)) passing it the same name that you used with DocumentBuilder.startBookmark.
 
 Bookmarks can overlap and span any range. To create a valid bookmark you need to call both DocumentBuilder.startBookmark and DocumentBuilder.endBookmark with the same bookmark name.
 
@@ -113,14 +113,14 @@ The following code example shows how to insert a bookmark into a document using 
 
 ## Inserting a Field
 
-Fields in Microsoft Word documents consist of a field code and a field result. The field code is like a formula and the field result is the value that the formula produces. The field code may also contain field switches that are additional instructions to perform a specific action. You can switch between displaying field codes and results in your document in Microsoft Word using the keyboard shortcut Alt+F9. Field codes appear between curly braces ( { } ).Use [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) to create fields in the document. You need to specify a field type, field code and field value. If you are not sure about the particular field code syntax, create the field in Microsoft Word first and switch to see its field code. 
+Fields in Microsoft Word documents consist of a field code and a field result. The field code is like a formula and the field result is the value that the formula produces. The field code may also contain field switches that are additional instructions to perform a specific action. You can switch between displaying field codes and results in your document in Microsoft Word using the keyboard shortcut Alt+F9. Field codes appear between curly braces ( { } ).Use [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) to create fields in the document. You need to specify a field type, field code and field value. If you are not sure about the particular field code syntax, create the field in Microsoft Word first and switch to see its field code. 
 The following code example inserts a merge field into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-DocumentBuilderInsertField.java" >}}
 
 ## Inserting a Form Field
 
-Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, Combobox and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)) , [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCheckBox(java.lang.String,boolean,boolean,int)), and [DocumentBuilder.insertComboBox](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertComboBox(java.lang.String,java.lang.String[],int)). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
+Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, Combobox and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.insertTextInput](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)) , [DocumentBuilder.insertCheckBox](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCheckBox(java.lang.String,boolean,boolean,int)), and [DocumentBuilder.insertComboBox](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertComboBox(java.lang.String,java.lang.String[],int)). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ### Inserting a Text Input
 
@@ -160,13 +160,13 @@ Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. Thi
 
 ## Inserting a Table of Contents
 
-You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method. The DocumentBuilder.insertTableOfContents method will only insert a TOC field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
+You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertTableOfContents(java.lang.String)) method. The DocumentBuilder.insertTableOfContents method will only insert a TOC field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-DocumentBuilderInsertTableOfContents.java" >}}
 
 ## Inserting Ole Object
 
-If you want Ole Object call [DocumentBuilder.insertOleObjectAsIcon](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertOleObjectAsIcon(java.lang.String,boolean,java.lang.String,java.lang.String)).
+If you want Ole Object call [DocumentBuilder.insertOleObjectAsIcon](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertOleObjectAsIcon(java.lang.String,boolean,java.lang.String,java.lang.String)).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertOleObject-DocumentBuilderInsertOleObject.java" >}}
 

@@ -12,8 +12,8 @@ Tables are a common element found in word documents. They allow for large amount
 A table is comprised of elements such as **Cell**, **Row** and **Column**. These are concepts which are common to all tables in general whether they come from a Microsoft Word document or an HTML document. Tables in Aspose.Words are fully supported. You are able to freely edit, change, add and remove tables. Rendering of tables with high fidelity is also supported.
 
 **This section includes the following topics:**
-- [Introduction and Creating Tables](/words/python/introduction-and-creating-tables/)
-- [Applying Formatting](/words/python/applying-formatting/)
-- [Working with TableStyle](/words/python/working-with-tablestyle/)
-- [Working with Columns and Rows](/words/python/working-with-columns-and-rows/)
-- [Joining and Splitting Tables](/words/python/joining-and-splitting-tables/)
+- [Introduction and Creating Tables](/words/python-net/introduction-and-creating-tables/)
+- [Applying Formatting](/words/python-net/applying-formatting/)
+- [Working with TableStyle](/words/python-net/working-with-tablestyle/)
+- [Working with Columns and Rows](/words/python-net/working-with-columns-and-rows/)
+- [Joining and Splitting Tables](/words/python-net/joining-and-splitting-tables/)

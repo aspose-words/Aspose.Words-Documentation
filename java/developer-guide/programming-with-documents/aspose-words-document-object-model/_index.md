@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Document Object Model (DOM)
 type: docs
 description: "Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. By using the Aspose.Words DOM classes, you can programmatically read, manipulate, and modify the content and formatting of a Word document with Java."
@@ -91,7 +91,7 @@ The [Node.Document](https://apireference.aspose.com/words/java/com.aspose.words/
 
 {{% /alert %}}
 
-When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#Document) property.
+When creating a new paragraph using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#Document) property.
 
 The following code example shows that when creating any node, a document that will own the node is always defined:
 
@@ -139,7 +139,7 @@ So far, we have discussed the properties that return one of the base types – *
 
 To reduce the need for casting, most Aspose.Words classes provide properties and collections that provide strongly-typed access. There are three basic patterns of typed access:
 
-- A parent node exposes typed **FirstXXX** and **LastXXX** properties. For example, the **Document** has [FirstSection](https://apireference.aspose.com/words/java/com.aspose.words/document#FirstSection) and [LastSection](https://apireference.aspose.com/words/java/com.aspose.words/document#LastSection) properties. Similarly, **Table** has properties such as [FirstRow](https://apireference.aspose.com/words/java/com.aspose.words/table#FirstRow), [LastRow](https://apireference.aspose.com/words/java/com.aspose.words/table#LastRow), and others.
+- A parent node exposes typed **FirstXXX** and **LastXXX** properties. For example, the **Document** has [FirstSection](https://apireference.aspose.com/words/java/com.aspose.words/Document#FirstSection) and [LastSection](https://apireference.aspose.com/words/java/com.aspose.words/Document#LastSection) properties. Similarly, **Table** has properties such as [FirstRow](https://apireference.aspose.com/words/java/com.aspose.words/table#FirstRow), [LastRow](https://apireference.aspose.com/words/java/com.aspose.words/table#LastRow), and others.
 - A parent node exposes a typed collection of child nodes, such as [Document.Sections](https://apireference.aspose.com/words/java/com.aspose.words/Document#sections), [Body.Paragraphs](https://apireference.aspose.com/words/java/com.aspose.words/story#paragraphs), and others.
 - A child node provides typed access to its parent, such as [Run.ParentParagraph](https://apireference.aspose.com/words/java/com.aspose.words/inline#parentparagraph), [Paragraph.ParentSection](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph#parentsection), and others.
 

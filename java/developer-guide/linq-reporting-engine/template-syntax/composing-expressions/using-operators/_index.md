@@ -29,7 +29,7 @@ The following table contains predefined operators that LINQ Reporting Engine ena
 	</tbody>
 </table>
 
-The engine follows operator precedence, associativity, and overload resolution rules declared at [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029) while evaluating template expressions. This behavior normally conforms to Java. But be aware of the following limitations and differences in the behavior comparing with the specification and Java behavior:
+The engine follows operator precedence, associativity, and overload resolution rules declared at [C# Language Specification 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=7029) while evaluating template expressions. This behavior normally conforms to Java. But be aware of the following limitations and differences in the behavior comparing with the specification and Java behavior:
 
 - String equality and inequality check operators test string contents, rather than string references.
 - Whereas the object initializer syntax is supported (including objects of anonymous types), the collection initializer syntax is not.

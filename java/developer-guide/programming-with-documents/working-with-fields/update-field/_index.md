@@ -1,4 +1,4 @@
-﻿---
+---
 title: Update Field
 description: "Fields updating in details using Aspose.Words for Java."
 type: docs
@@ -61,7 +61,7 @@ These changes in field evaluation may potentially cause results that differ from
 
 ### Calling UpdatePageLayout Now Only Updates Page-Layout Related Fields in Headers and Footers
 
-In previous versions, a call to [Document.updatePageLayout](https://apireference.aspose.com/words/java/com.aspose.words/document#updatePageLayout()) was required in order to update fields in the document like PAGE and PAGEREF. In the current version, this functionality is handled by [Document.updateFields](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields()) which updates all types of fields as discussed above.
+In previous versions, a call to [Document.updatePageLayout](https://apireference.aspose.com/words/java/com.aspose.words/Document#updatePageLayout()) was required in order to update fields in the document like PAGE and PAGEREF. In the current version, this functionality is handled by [Document.updateFields](https://apireference.aspose.com/words/java/com.aspose.words/Document#updateFields()) which updates all types of fields as discussed above.
 
 [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/Document) is still used to build or rebuild the document layout when a document is to be rendered. When this method is called or a document is rendered (i.e. saved to PDF, XPS, printed etc.) the document layout is built. In previous versions, this process would update all page-layout related fields, however, in the current version these fields are automatically updated only in the headers and footers of the document.
 

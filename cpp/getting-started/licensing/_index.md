@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licensing and Subscription
 description: "Aspose.Words for С++ provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
@@ -119,7 +119,7 @@ There is a similar way to embed resources on Linux in an executable.
 
 {{% alert color="primary" %}}
 
-For more information, see [”Embedding resources in executable using GCC”](https://stackoverflow.com/a/4158997).
+For more information, see [”Embedding resources in executable using GCC”](https://stackoverflow.com/questions/4158900/embedding-resources-in-executable-using-gcc/4158997#4158997).
 
 {{% /alert %}}
 

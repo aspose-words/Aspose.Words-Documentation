@@ -1,4 +1,4 @@
-﻿---
+---
 title: DNN Users and Roles Export Module
 description: "Export DNN Users along with their roles into Microsoft Word using Aspose.Words DNN Users and Roles Export Module."
 type: docs
@@ -34,9 +34,8 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 ## Downloading
 
-You can download Aspose .NET Export Users and Roles to Word for DNN Module from one of the following locations
+You can download Aspose .NET Export Users and Roles to Word for DNN Module from one of the following locations:
 
-- [DNN Store ](http://store.dnnsoftware.com/home/product-details/aspose-net-export-users-and-roles-to-word-for-dnn)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 
 ## Installing

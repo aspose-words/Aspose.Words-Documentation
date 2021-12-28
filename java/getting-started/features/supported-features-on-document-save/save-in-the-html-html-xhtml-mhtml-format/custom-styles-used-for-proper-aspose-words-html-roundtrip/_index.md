@@ -17,9 +17,9 @@ Please find below a list of custom styles that Aspose.Words uses to save extra i
 
 Comment's content is exported as div container. -aw-comment-author, -aw-comment-datetime and -aw-comment-initial CSS properties can be applied to this div.
 
-**-aw-comment-author** stores author name for the comment. Corresponds to [Aspose.Words.Comment.Author](https://apireference.aspose.com/words/java/com.aspose.words/comment#Author) property.
-**-aw-comment-datetime** stores date and time the comment was made. Corresponds to [Aspose.Words.Comment.DateTime](https://apireference.aspose.com/words/java/com.aspose.words/comment#DateTime) property.
-**-aw-comment-initial** stores initials of the user associated with the comment. Corresponds to [Aspose.Words.Comment.Initial](https://apireference.aspose.com/words/java/com.aspose.words/comment#Initial) property.
+**-aw-comment-author** stores author name for the comment. Corresponds to [Aspose.Words.Comment.Author](https://apireference.aspose.com/words/java/com.aspose.words/Comment#Author) property.
+**-aw-comment-datetime** stores date and time the comment was made. Corresponds to [Aspose.Words.Comment.DateTime](https://apireference.aspose.com/words/java/com.aspose.words/Comment#DateTime) property.
+**-aw-comment-initial** stores initials of the user associated with the comment. Corresponds to [Aspose.Words.Comment.Initial](https://apireference.aspose.com/words/java/com.aspose.words/Comment#Initial) property.
 
 Example:
 
@@ -85,9 +85,9 @@ Example:
 
 All footnotes (endnotes) in a document share formatting. When exported to HTML footnotes (endnotes) are separated from other document’s content with horizontal rule element. –aw-footnote-numberstyle, -aw-footnote-startnumber and –aw-footnote-type CSS properties can be applied to this horizontal rule.
 
-**-aw-footnote-numberstyle** stores the number format for automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/java/com.aspose.words/footnoteoptions#NumberStyle) property of Document.FootnoteOptions ([Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/document#EndnoteOptions)) object.
+**-aw-footnote-numberstyle** stores the number format for automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.NumberStyle](https://apireference.aspose.com/words/java/com.aspose.words/footnoteoptions#NumberStyle) property of Document.FootnoteOptions ([Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/Document#EndnoteOptions)) object.
 
-**-aw-footnote-startnumber** stores the starting number or character for the first automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.StartNumber](https://apireference.aspose.com/words/java/com.aspose.words/footnoteoptions#StartNumber) property of [Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/document#EndnoteOptions) ([Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/document#EndnoteOptions)) object.
+**-aw-footnote-startnumber** stores the starting number or character for the first automatically numbered footnotes (endnotes). Corresponds to [Aspose.Words.FootnoteOptions.StartNumber](https://apireference.aspose.com/words/java/com.aspose.words/footnoteoptions#StartNumber) property of [Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/Document#EndnoteOptions) ([Document.EndnoteOptions](https://apireference.aspose.com/words/java/com.aspose.words/Document#EndnoteOptions)) object.
 
 **-aw-footnote-type** stores value indicating whether this is footnote or endnote.
 
@@ -123,7 +123,7 @@ Header (footer) is exported as div container. –aw-different-first-page and –
 - If value of this property is “footer-first” than this is footer for the first page of a section.
 - If value of this property is “linked” than this header (footer) is linked to the previous section’s header (footer).
 
-**-aw-different-first-page** stores value indicating whether different header (footer) is used on the first page. One possible value for this property is “true”. Corresponds to [Aspose.Words.PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#DifferentFirstPageHeaderFooter) property of [Aspose.Words.Section.PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/section#PageSetup) object.
+**-aw-different-first-page** stores value indicating whether different header (footer) is used on the first page. One possible value for this property is “true”. Corresponds to [Aspose.Words.PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup#DifferentFirstPageHeaderFooter) property of [Aspose.Words.Section.PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/section#PageSetup) object.
 
 Example:
 

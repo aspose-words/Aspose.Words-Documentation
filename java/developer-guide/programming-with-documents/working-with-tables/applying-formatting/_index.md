@@ -1,4 +1,4 @@
-﻿---
+---
 title: Applying Formatting
 description: "Table formatting in details. Using Aspose.Words for Java to format every part of table."
 type: docs
@@ -34,7 +34,7 @@ The following code example shows how to build a table with all borders enabled (
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-buildATableWithAllBordersEnabled.java" >}}
 
-Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
+Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
 
 ## Applying Formatting on the Row Level
 

@@ -132,7 +132,7 @@ A color expression must return a value of one of the following types:
 
 - A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration such as “red”.
 - An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
-- A value of the [Color](http://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
+- A value of the [Color](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
 
 During runtime, expressions declared within `pointColor` tags are evaluated and corresponding chart series points are colored accordingly. The `pointColor` tags are removed then.
 

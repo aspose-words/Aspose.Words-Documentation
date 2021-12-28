@@ -1,4 +1,4 @@
-﻿---
+---
 title: DNN Quote Generator Module
 description: "Generate Quotations in your DNN website using Aspose.Words DNN Quote Generator Module."
 type: docs
@@ -110,7 +110,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-DNN-Quote-110ad750/view/Discussions#content)
+- [Microsoft Developer Network](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 ### Extend and Contribute
 
