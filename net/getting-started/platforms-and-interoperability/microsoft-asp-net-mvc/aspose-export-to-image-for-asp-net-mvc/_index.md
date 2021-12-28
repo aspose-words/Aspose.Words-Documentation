@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose Export to Image for ASP.NET MVC
 description: "Using Aspose.Words for .NET to export the entire content of the web page into an image in Microsoft ASP.NET MVC."
 type: docs
@@ -41,7 +41,7 @@ You can download Export web page contents to an image for ASP.NET MVC from one o
 ### Downloading
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.MVC.ExportContentToImagesv1.0/Aspose.MVC.ExportContentToImages-v1.0.zip)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Export-to-Image-for-538cb0ea)
+- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
 ### Installing
 
@@ -64,7 +64,7 @@ e.g @{ Html.RenderPartial("~/Views/Shared/AsposeContentToImage.cshtml"); }
 {{< /highlight >}}
 
 - Step 6 – To resolve “References” by taking the following the steps 
-  - Step 6.1 – Make sure “Package Restore” during build option is [enabled](https://docs.nuget.org/images/consume/allow-package-restore-configuration.png)
+  - Step 6.1 – Make sure “Package Restore” during build option is [enabled](https://docs.microsoft.com/en-us/nuget/)
   - Step 6.2 – In Solution Explorer , Right click on “References” then select “Manage NuGet Packages” 
     - Step 6.2.1 – Type “Aspose.Words” in the search box at the top right of the dialog box.
     - Step 6.2.2 – Select “Aspose.Words for .NET” and then click install.
@@ -107,7 +107,7 @@ You can log any issues or suggestions related to Aspose.Words.NET for ASP.NET MV
 You can download the latest source code at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Export-to-Image-for-538cb0ea/view/SourceCode#content)
+- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 #### How to configure source code
 

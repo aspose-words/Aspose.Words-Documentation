@@ -1,4 +1,4 @@
-﻿---
+---
 title: Split a Document
 description: "Aspose.Words for Java provides you with an efficient way to split one document into multiple documents by headings or sections, as well as pages or page ranges."
 type: docs
@@ -75,7 +75,7 @@ The following code example shows how to split a document into smaller parts by 
 
 ## Split by Pages {#splitting-by-pages}
 
-You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/java/com.aspose.words/document#extractPages(int,int)) method can do the job.
+You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/java/com.aspose.words/Document#extractPages(int,int)) method can do the job.
 
 This section describes several use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class and the **ExtractPages** method.
 

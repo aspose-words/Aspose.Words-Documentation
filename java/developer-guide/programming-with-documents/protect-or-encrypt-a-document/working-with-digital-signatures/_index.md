@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Digital Signatures
 description: "Aspose.Words for Java allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
@@ -118,7 +118,7 @@ try (FileInputStream stream = new FileInputStream(getArtifactsDir()+"DigitalSign
 
 ### Add a Signature Line
 
-A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertSignatureLine(com.aspose.words.SignatureLineOptions)) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/java/com.aspose.words/SignatureLineOptions) class.
+A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertSignatureLine(com.aspose.words.SignatureLineOptions)) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://apireference.aspose.com/words/java/com.aspose.words/SignatureLineOptions) class.
 
 For example, the picture below shows how valid and invalid signatures can be displayed.
 
@@ -222,7 +222,7 @@ doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 The picture below demonstrates that the generated PDF document is opened in Adobe Acrobat and the digital signature is verified as present and valid.
 
-![create-digital-signed-pdf-aspose-words-java](http://i.imgur.com/ThH0zHa.png)
+![create-digital-signed-pdf-aspose-words-java](signed-pdf-aspose-words-java.png)
 
 ## Remove Digital Signatures
 

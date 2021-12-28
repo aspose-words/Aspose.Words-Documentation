@@ -46,17 +46,15 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
-- [Github](http://goo.gl/Rtz2bB)
-- [Sourceforge](http://goo.gl/eM7eLD)
-- [Bitbucket](http://goo.gl/G6I63s)
-- [Code.MSDN](http://goo.gl/3pzLBd)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/releases/tag/AutoMerge-2.0.0.2013)
+- [Sourceforge](https://sourceforge.net/projects/asposenetcrm/)
+- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
 You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
-- [Github](http://goo.gl/OQCXKW)
-- [Sourceforge](http://goo.gl/hT6rBJ)
-- [Bitbucket](http://goo.gl/3RtHTR)
-- [Code.MSDN](http://goo.gl/rulWjp)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/releases/tag/AutoMerge-2.0.0.2015)
+- [Sourceforge](https://sourceforge.net/projects/asposenetcrm/files/Aspose%20.NET%20AutoMerge/Aspose%20.NET%20AutoMerge%20(2.0.0.2015).zip/download)
+- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
 ## Installing or Uninstalling
 
@@ -101,10 +99,8 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET AutoMerge using any of the following platforms:
 
-- [Github](http://goo.gl/7QOJlI)
-- [Sourceforge](http://goo.gl/2rEubq)
-- [Bitbucket](http://goo.gl/blUMuZ)
-- [Code.MSDN](http://goo.gl/p0QEnp)
+- [Github](https://github.com/asposemarketplace/asposecloudcrm/wiki/Aspose-Cloud-AutoMerge)
+- [Support forum](https://forum.aspose.com/c/words/8)
 
 ## Extend and Contribute
 

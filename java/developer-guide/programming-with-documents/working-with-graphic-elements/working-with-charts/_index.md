@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Charts
 description: "Introduction to Chart feature, how to create and manipulate charts using Aspose.Words for Java."
 type: docs
@@ -19,7 +19,7 @@ The new insertChart method was added into the [DocumentBuilder](https://apirefe
 
 The code produces the following result:
 
-|![column-chart-aspose-words-java-1](http://i.imgur.com/nWkr86s.png)|
+|![column-chart-aspose-words-java-1](working-with-charts-7.png)|
 | :- |
 There are four different overloads for the series Add method, which were exposed to cover all possible variants of data sources for all chart types:
 
@@ -27,7 +27,7 @@ There are four different overloads for the series Add method, which were exposed
 
 The code produces the following result:
 
-|![column-chart-aspose-words-java-2](http://i.imgur.com/U7ylb6t.png)|
+|![column-chart-aspose-words-java-2](working-with-charts-8.png)|
 | :- |
 
 ### How to insert Scatter chart
@@ -36,7 +36,7 @@ The code produces the following result:
 
 The code produces the following result:
 
-|![scutter-chart-aspose-words-java](http://i.imgur.com/35LAqIe.png)|
+|![scutter-chart-aspose-words-java](working-with-charts-9.png)|
 | :- |
 
 ### How to insert Area chart
@@ -45,7 +45,7 @@ The code produces the following result:
 
 The code produces the following result:
 
-|![area-chart-aspose-words-java](http://i.imgur.com/wUxVamC.png)|
+|![area-chart-aspose-words-java](working-with-charts-10.png)|
 | :- |
 
 ### How to insert Bubble chart
@@ -54,7 +54,7 @@ The code produces the following result:
 
 The code produces the following result:
 
-|![bubble-chart-aspose-words-java](http://i.imgur.com/fZTtwpH.png)|
+|![bubble-chart-aspose-words-java](working-with-charts-11.png)|
 | :- |
 
 ## Working with Charts through Shape.Chart Object

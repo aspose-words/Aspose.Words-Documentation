@@ -14,7 +14,7 @@ In contrast to Aspose.Words Mail Merge, LINQ Reporting Engine works with templat
 1. The results of the expressions are processed by the engine according to their roles.
 1. The corresponding tags are replaced with appropriate content.
 
-While composing expressions, you can use a subset of C# language that satisfies [C# Language Specification 5.0](http://www.microsoft.com/en-us/download/details.aspx?id=7029).
+While composing expressions, you can use a subset of C# language that satisfies [C# Language Specification 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=7029).
 
 **Note –** In general, the subset corresponds to Java language with few exceptions.
 

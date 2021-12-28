@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert and Remove Field
 description: "Different ways to insert fields into your document using Aspose.Words for Java."
 type: docs
@@ -8,7 +8,7 @@ url: /java/insert-and-remove-field/
 
 ## Inserting Fields into a Document
 
-In Aspose.Words the [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
+In Aspose.Words the [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
 {{% alert color="primary" %}} 
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compare Documents
 type: docs
 description: "Aspose.Words for Java allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
@@ -41,7 +41,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
-Aspose.Words allows you to identify documents differences using the [Compare](https://apireference.aspose.com/words/java/com.aspose.words/document#compare(com.aspose.words.Document,java.lang.String,java.util.Date)) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
+Aspose.Words allows you to identify documents differences using the [Compare](https://apireference.aspose.com/words/java/com.aspose.words/Document#compare(com.aspose.words.Document,java.lang.String,java.util.Date)) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
 
 As a result of the comparison, documents can be determined as equal or not equal. The term “equal” documents mean that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 

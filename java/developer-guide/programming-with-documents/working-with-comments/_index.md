@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Comments
 description: "Working with comments in your code using Aspose.Words for Java."
 type: docs
@@ -46,15 +46,15 @@ To illustrate how to extract and remove comments from a document, we will go thr
 
 We’re going to use the following Word document for this exercise:
 
-|![extract-remove-comments-aspose-words-java-1](http://i.imgur.com/Tp1usVp.png)|
+|![extract-remove-comments-aspose-words-java-1](extract-remove-comments-aspose-words-java-1.png)|
 | :- |
 As you can see, it contains several Comments from two authors with the initials “pm” and “ks”.
 
 ### The Code
 
-The code in this sample is quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method is set to true: this forces the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) to select from all child nodes recursively, rather than only collecting the immediate children.
+The code in this sample is quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method is set to true: this forces the [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) to select from all child nodes recursively, rather than only collecting the immediate children.
 
-The [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/document#ChildNodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. The code example given below extracts the author name, date&time and text of all comments in the document.
+The [Document.getChildNodes](https://apireference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. The code example given below extracts the author name, date&time and text of all comments in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments.java" >}}
 
@@ -76,11 +76,11 @@ The main point to highlight here is the use of the for operator. Unlike the simp
 
 When launched, the sample displays the following results. First, it lists all comments by all authors, then it lists comments by the selected author only. Finally, the code removing all comments.
 
-|![extract-remove-comments-aspose-words-java-2](http://i.imgur.com/3q61fa2.png)|
+|![extract-remove-comments-aspose-words-java-2](extract-remove-comments-aspose-words-java-2.png)|
 | :- |
 The output Word document has now comments removed from it:
 
-|![extract-remove-comments-aspose-words-java-3](http://i.imgur.com/2pvC9jC.png)|
+|![extract-remove-comments-aspose-words-java-3](extract-remove-comments-aspose-words-java-3.png)|
 | :- |
 
 ## How to Add a Comment

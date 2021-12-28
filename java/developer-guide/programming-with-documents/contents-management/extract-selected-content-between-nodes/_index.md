@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extract Selected Content Between Nodes
 type: docs
 weight: 50
@@ -35,7 +35,7 @@ The general outline of this technique involves:
 
 We will work with the document below in this article. As you can see it contains a variety of content. Also note, the document contains a second section beginning in the middle of the first page. A bookmark and comment are also present in the document but are not visible in the screenshot below.
 
-|![extract-content-aspose-words-java](http://i.imgur.com/boTK4uH.png)|
+|![extract-content-aspose-words-java](extract-content-from-comment-aspose-words-java-1.png)|
 | :- |
 
 To extract the content from your document you need to call the ExtractContent method below and pass the appropriate parameters.
@@ -86,7 +86,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 **The Result** 
 The output document contains the two paragraphs that were extracted.
 
-|![extract-content-result-aspose-words-java](http://i.imgur.com/UJwL3dy.png)|
+|![extract-content-result-aspose-words-java](extract-content-from-comment-aspose-words-java-2.png)|
 | :- |
 
 ## Extract Content Between Different Types of Nodes
@@ -98,7 +98,7 @@ We can extract content between any combinations of block-level or inline nodes. 
 **The Result** 
 The content between the paragraph and table has been duplicated below is the result.
 
-|![extract-content-between-paragraphs-aspose-words-java](http://i.imgur.com/5XZeaRn.png)|
+|![extract-content-between-paragraphs-aspose-words-java](extract-content-from-comment-aspose-words-java-3.png)|
 | :- |
 
 ## Extract Content Between Paragraphs Based on Style
@@ -115,7 +115,7 @@ In a proper implementation, this should be run in a loop to extract content betw
 
 Below is the result of the previous operation.
 
-|![extract-content-between-paragraph-style-aspose-words-java](http://i.imgur.com/9hxAA2D.png)|
+|![extract-content-between-paragraph-style-aspose-words-java](extract-content-from-comment-aspose-words-java-4.png)|
 | :- |
 
 ## Extract Content Between Specific Runs
@@ -127,11 +127,11 @@ You can extract content between inline nodes such as a Run as well. Runs from di
 **The Result** 
 The extracted text is displayed on the console. 
 
-![extract-content-between-runs-aspose-words-java](http://i.imgur.com/Gxqz8vr.png)
+![extract-content-between-runs-aspose-words-java](extract-content-from-comment-aspose-words-java-5.png)
 
 ## Extract Content using a Field
 
-To use a field as a marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. This will return the **FieldStart** node from the name of the merge field passed to it. We will then
+To use a field as a marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. This will return the **FieldStart** node from the name of the merge field passed to it. We will then
 
 In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF. The code example given below shows how to extract content between a specific field and paragraph in the document using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentUsingField/TestFile.doc).
 
@@ -140,7 +140,7 @@ In our case let’s set the last parameter passed to the **ExtractContent** meth
 **The Result** 
 The extracted content between the field and paragraph, without the field and paragraph marker nodes rendered to PDF.
 
-![extract-content-using-field-aspose-words-java](http://i.imgur.com/tr0SVcs.png)
+![extract-content-using-field-aspose-words-java](extract-content-from-comment-aspose-words-java-6.png)
 
 ## Extract Content from a Bookmark
 
@@ -148,7 +148,7 @@ In a document, the content that is defined within a bookmark is encapsulated by 
 
 In our sample document, we have one bookmark, named “Bookmark1”. The content of this bookmark is highlighted content in our document:
 
-|![extract-content-from-bookmark-aspose-words-java-1](http://i.imgur.com/gUuhhgi.png)|
+|![extract-content-from-bookmark-aspose-words-java-1](extract-content-from-comment-aspose-words-java-7.png)|
 | :- |
 
 
@@ -160,12 +160,12 @@ We will extract this content into a new document using the code below. The **IsI
 
 The extracted output with the IsInclusive parameter set to true. The copy will retain the bookmark as well.
 
-|![extract-content-from-bookmark-aspose-words-java-2](http://i.imgur.com/i9D3ei3.png)|
+|![extract-content-from-bookmark-aspose-words-java-2](extract-content-from-comment-aspose-words-java-8.png)|
 | :- |
 
 The extracted output with the **IsInclusive** parameter set to false. The copy contains the content but without the bookmark.
 
-|![extract-content-from-bookmark-aspose-words-java-3](http://i.imgur.com/BhAC3DL.png)|
+|![extract-content-from-bookmark-aspose-words-java-3](extract-content-from-comment-aspose-words-java-9.png)|
 | :- |
 
 ## Extract Content from a Comment
@@ -176,7 +176,7 @@ The **Comment** node itself is an [InlineStory](https://apireference.aspose.com/
 
 In our document we have one comment. Let’s display it by showing markup in the Review tab:
 
-|![extract-content-from-comment-aspose-words-java-1](http://i.imgur.com/GlvTiwJ.png)| |
+|![extract-content-from-comment-aspose-words-java-1](extract-content-from-comment-aspose-words-java-10.png)| |
 | :- | :- |
 The comment encapsulates the heading, first paragraph and the table in the second section. Let’s extract this comment into a new document. The **IsInclusive** option dictates if the comment itself is kept or discarded. The code to do this is below. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/ExtractContentBetweenCommentRange/TestFile.doc).
 
@@ -187,13 +187,11 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 Firstly the extracted output with the IsInclusive parameter set to true. The copy will contain the comment as well.
 
-![extract-content-from-comment-aspose-words-java-2](http://i.imgur.com/1co8C2k.png)
-
-
+![extract-content-from-comment-aspose-words-java-2](extract-content-from-comment-aspose-words-java-11.png)
 
 Secondly the extracted output with **isInclusive** set to false. The copy contains the content but without the comment.
 
-|![todo:image_alt_text](http://i.imgur.com/pHljL8Z.png)|
+|![todo:image_alt_text](extract-content-from-comment-aspose-words-java-12.png)|
 | :- |
 
 ## Extract Content using DocumentVisitor
@@ -210,7 +208,7 @@ These are the steps you should follow to programmatically determine and extract 
 
 - Create a class derived from [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor).
 - Override and provide implementations for some or all of the **DocumentVisitor.VisitXXX** methods to perform some custom operations.
-- Call [Node.accept](https://apireference.aspose.com/words/java/com.aspose.words/node#accept(com.aspose.words.DocumentVisitor)) on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use [Document.accept(DocumentVisitor)](https://apireference.aspose.com/words/java/com.aspose.words/document#accept(com.aspose.words.DocumentVisitor)).
+- Call [Node.accept](https://apireference.aspose.com/words/java/com.aspose.words/node#accept(com.aspose.words.DocumentVisitor)) on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use [Document.accept(DocumentVisitor)](https://apireference.aspose.com/words/java/com.aspose.words/Document#accept(com.aspose.words.DocumentVisitor)).
 
 [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
@@ -222,7 +220,7 @@ This example shows how to use the Visitor pattern to add new operations to the A
 
 The ways to retrieve text from the document are:
 
-- Use [Document.save](https://apireference.aspose.com/words/java/com.aspose.words/document#save(java.io.OutputStream,com.aspose.words.SaveOptions)) with [SaveFormat](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat) to save as plain text into a file or stream.
+- Use [Document.save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save(java.io.OutputStream,com.aspose.words.SaveOptions)) with [SaveFormat](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat) to save as plain text into a file or stream.
 - Use [Node.toString](https://apireference.aspose.com/words/java/com.aspose.words/node#toString(com.aspose.words.SaveOptions)) and pass the SaveFormat.Text parameter. Internally, this invokes save as text into a memory stream and returns the resulting string.
 - Use [Node.getText](https://apireference.aspose.com/words/java/com.aspose.words/node#getText()) to retrieve text with all Microsoft Word control characters including field codes.
 - Implement a custom [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) to perform customized extraction.

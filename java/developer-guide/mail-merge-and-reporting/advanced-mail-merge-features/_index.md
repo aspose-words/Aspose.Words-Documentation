@@ -1,4 +1,4 @@
-﻿---
+---
 title: Advanced Mail Merge Features
 aliases:
   - /java/how-to-use-advanced-mail-merge-features/
@@ -69,7 +69,7 @@ The following code example shows how to get specific merge regions inside your t
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/resources/MailMerge).
 
 {{% /alert %}}
 

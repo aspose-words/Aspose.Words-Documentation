@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Table of Contents
 description: "Table of Content field in details. How to create and modify TOC field using Aspose.Words for Java."
 type: docs
@@ -21,7 +21,7 @@ This article outlines how to work with the table of contents field and demonstra
 
 ### Insert a Table of Contents Programmatically
 
-The [DocumentBuilder.insertTableOfContents(java.lang.String)](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertTableOfContents(java.lang.String)) method is called to insert a TOC field into the document at the current position of the DocumentBuilder.
+The [DocumentBuilder.insertTableOfContents(java.lang.String)](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertTableOfContents(java.lang.String)) method is called to insert a TOC field into the document at the current position of the DocumentBuilder.
 
 A table of contents in a Word document can be built in several ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
 
@@ -47,8 +47,8 @@ Aspose.Words allows you to completely update a TOC with only a few lines of code
 
 The following two methods must be used to update the TOC fields in the document:
 
-1. [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields())
-1. [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/document#updatePageLayout())
+1. [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document#updateFields())
+1. [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/Document#updatePageLayout())
 
 Please note that these two update methods are required to be called in that order. If reversed the table of contents will be populated but no page numbers will be displayed. Any number of different TOCs can be updated. These methods will automatically update all TOCs found in the document.
 
@@ -56,9 +56,9 @@ The following code example shows how to completely rebuild TOC fields in the do
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsField-UpdateTableOfContents.java" >}}
 
-The first call to [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/document#updateFields()) will build the TOC, all text entries are populated and the TOC appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”.
+The first call to [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document#updateFields()) will build the TOC, all text entries are populated and the TOC appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”.
 
-The second call to [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/document#updatePageLayout()) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
+The second call to [Document.updatePageLayout()](https://apireference.aspose.com/words/java/com.aspose.words/Document#updatePageLayout()) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
 
 ### Using Switches to Control the Behavior of the Table of Contents
 

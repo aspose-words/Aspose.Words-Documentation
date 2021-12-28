@@ -92,7 +92,7 @@ See the following links in the documentation for further information:
 - [Manage Track Changes](/words/java/working-with-document/#workingwithdocument-managetrackingchanges)
 - [Document.HasRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#HasRevisions)
 - [Document.TrackRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#TrackRevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/document#acceptAllRevisions())
+- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#acceptAllRevisions())
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

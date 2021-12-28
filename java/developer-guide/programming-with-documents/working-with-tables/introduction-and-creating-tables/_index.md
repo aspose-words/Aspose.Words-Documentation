@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction and Creating Tables
 description: "Different ways to create tables in your document using Aspose.Words for Java."
 type: docs
@@ -57,11 +57,11 @@ A table can be inline where it is tightly positioned or can be floating where it
 
 In Aspose.Words a table is normally inserted using DocumentBuilder. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
-- [DocumentBuilder.StartTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startTable())
-- [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell())
-- [DocumentBuilder.EndRow](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endRow())
-- [DocumentBuilder.EndTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endTable())
-- [DocumentBuilder.Writeln](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#writeln())
+- [DocumentBuilder.StartTable](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startTable())
+- [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCell())
+- [DocumentBuilder.EndRow](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endRow())
+- [DocumentBuilder.EndTable](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endTable())
+- [DocumentBuilder.Writeln](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#writeln())
 
 |Operation|Description|Table State|
 | :- | :- | :- |
@@ -79,13 +79,13 @@ In Aspose.Words a table is normally inserted using DocumentBuilder. The followin
 
 The basic algorithm for creating a table using DocumentBuilder is simple:
 
-1. Start the table using [DocumentBuilder.StartTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startTable()).
-1. Insert a cell using [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertCell()). This automatically starts a new row. If needed, use the [DocumentBuilder.CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#CellFormat) property to specify cell formatting.
+1. Start the table using [DocumentBuilder.StartTable](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startTable()).
+1. Insert a cell using [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCell()). This automatically starts a new row. If needed, use the [DocumentBuilder.CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CellFormat) property to specify cell formatting.
 1. Insert cell contents using the DocumentBuilder methods.
 1. Repeat steps 2 and 3 until the row is complete.
-1. Call [DocumentBuilder.EndRow](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endRow()) to end the current row. If needed, use [DocumentBuilder.RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#RowFormat) property to specify row formatting.
+1. Call [DocumentBuilder.EndRow](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endRow()) to end the current row. If needed, use [DocumentBuilder.RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#RowFormat) property to specify row formatting.
 1. Repeat steps 2 - 5 until the table is complete.
-1. Call [DocumentBuilder.EndTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#endTable()) to finish the table building. The appropriate DocumentBuilder table creation methods are described below.
+1. Call [DocumentBuilder.EndTable](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endTable()) to finish the table building. The appropriate DocumentBuilder table creation methods are described below.
 
 #### Starting a Table
 
@@ -93,13 +93,13 @@ Calling DocumentBuilder.StartTable is the first step in building a table. It c
 
 #### Inserting a Cell
 
-After you call DocumentBuilder.InsertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.InsertCell again. Use the DocumentBuilder.CellFormat property to specify cell formatting. It returns a [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#CellFormat) object that represents all formatting for a table cell.
+After you call DocumentBuilder.InsertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.InsertCell again. Use the DocumentBuilder.CellFormat property to specify cell formatting. It returns a [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CellFormat) object that represents all formatting for a table cell.
 
 #### Ending a Row
 
 Call DocumentBuilder.EndRow to finish the current row. If you call DocumentBuilder.InsertCell immediately after that, then the table continues on a new row.
 
-Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a [RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#RowFormat) object that represents all formatting for a table row.
+Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a [RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#RowFormat) object that represents all formatting for a table row.
 
 #### Ending a Table
 
@@ -150,7 +150,7 @@ Instead, the desired output is achieved more easily by using Mail Merge with Reg
 
 ### Inserting a Table from HTML
 
-Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String)) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
+Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertHtml(java.lang.String)) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertTableFromHtml-InsertTableFromHtml.java" >}}
 
@@ -160,10 +160,10 @@ As described in previous articles, Aspose.Words provides several methods for ins
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder ([DocumentBuilder.StartTable](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#startTable())|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
+|DocumentBuilder ([DocumentBuilder.StartTable](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startTable())|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
 |Table( [Table](https://apireference.aspose.com/words/java/com.aspose.words/Table) | Fits in better with surrounding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
 |Cloning ([Table.Clone](https://apireference.aspose.com/words/java/com.aspose.words/table#deepClone(boolean))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
-|From an HTML source. ([DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/documentbuilder#insertHtml(java.lang.String))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
+|From an HTML source. ([DocumentBuilder.InsertHtml](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertHtml(java.lang.String))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
 
 ## Extracting Plain Text from a Table
 

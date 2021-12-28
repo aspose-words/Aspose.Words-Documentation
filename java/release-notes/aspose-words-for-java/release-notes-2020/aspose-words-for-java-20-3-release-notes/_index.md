@@ -353,13 +353,10 @@ The following obsolete method of [CertificateHolder](https://apireference.aspos
 public static CertificateHolder Create(X509Certificate2 certificate)
 {{< /highlight >}}
 
-
-
 Please use the following methods instead:
 [CertificateHolder.Create(Byte\[\], String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
 [CertificateHolder.Create(String, String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
 [CertificateHolder.Create(String, String, String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
-
 
 ### Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for LINQ Reporting Engine
 

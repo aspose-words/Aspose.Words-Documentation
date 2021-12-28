@@ -1,4 +1,4 @@
-﻿---
+---
 title: Creating OOXML Charts from Scratch using Aspose.Words
 description: "How to create different charts in your document using Aspose.Words for C++."
 type: docs
@@ -18,7 +18,7 @@ The code example given below shows how to insert a column chart.
 
 The code produces the following result:
 
-![insert-column-chart-aspose-words-cpp-1](http://i.imgur.com/nWkr86s.png)
+![insert-column-chart-aspose-words-cpp-1](creating-ooxml-charts-using-aspose-words-2.png)
 
 There are four different overloads for series Add method, which was exposed to cover all possible variants of data sources for all chart types:
 
@@ -26,7 +26,7 @@ There are four different overloads for series Add method, which was exposed to c
 
 The code produces the following result:
 
-![insert-column-chart-aspose-words-cpp-2](http://i.imgur.com/U7ylb6t.png)
+![insert-column-chart-aspose-words-cpp-2](creating-ooxml-charts-using-aspose-words-3.png)
 
 
 ### How to InsertScatterChart
@@ -37,7 +37,7 @@ The code example given below shows how to insert a scatter chart.
 
 The code produces the following result:
 
-![insert-scatter-chart-aspose-words-cpp-1](http://i.imgur.com/35LAqIe.png)
+![insert-scatter-chart-aspose-words-cpp-1](creating-ooxml-charts-using-aspose-words-4.png)
 
 
 ### How to Insert Area Chart
@@ -48,7 +48,7 @@ The code example given below shows how to insert an area chart.
 
 The code produces the following result:
 
-![insert-area-chart-aspose-words-cpp-1](http://i.imgur.com/wUxVamC.png)
+![insert-area-chart-aspose-words-cpp-1](creating-ooxml-charts-using-aspose-words-5.png)
 
 
 ### How to Insert Bubble Chart

@@ -110,5 +110,5 @@ The following picture shows the Web Role project running in the Microsoft Azure 
 ## See Also
 
 - Active [Microsoft Azure subscription](https://docs.microsoft.com/en-us/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing)
-- Create a [free account](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure
+- Create a [free account](https://azure.microsoft.com/en-us/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio) in Microsoft Azure
 - Modify the [ServiceDefinition.csdef](https://docs.microsoft.com/en-us/azure/cloud-services/schema-csdef-webrole#WebRole) configuration file

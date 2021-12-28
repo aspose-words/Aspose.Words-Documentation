@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using the Demos
 description: "Aspose.Words for JasperReports includes a number of demo projects to help you get started exporting reports to Microsoft Word document formats from your application."
 type: docs
@@ -12,7 +12,7 @@ Aspose.Words for JasperReports includes a number of demo projects to help you ge
 
 To run Aspose.Words for JasperReports demos: 
 
-1. Download JasperReports from <http://sourceforge.net/projects/jasperreports/files/archive/jasperreports/>. Make sure to download the entire archived project with the source code and demos, not just a single JAR.
+1. Download JasperReports from <https://sourceforge.net/projects/jasperreports/files/archive/jasperreports/>. Make sure to download the entire archived project with the source code and demos, not just a single JAR.
 1. Unpack the archived project to some location on your hard disk, for example C:\.
 1. Copy all demo folders from the \demo folder of **aspose.words.jasperreports.zip** to <InstallDir>\jasperreports\demo\samples, where <InstallDir> is the location you have unpacked JasperReports to. This step is required because demo build scripts rely on JasperReports' folder structure, otherwise you need to modify build scripts.
 1. Copy **aspose.words.jasperreports.jar** from the \lib folder in **aspose.words.jasperreports.zip** to <InstallDir>\jasperreports\lib.
