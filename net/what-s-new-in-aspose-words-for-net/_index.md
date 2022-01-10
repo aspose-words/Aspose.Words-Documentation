@@ -27,6 +27,38 @@ For more information on these changes, see the [Aspose.Words for .NET 21.3 Relea
 
 {{% /alert %}}
 
+## Aspose.Words for .NET 22.1
+
+Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.
+
+The API is enhanced for more flexible and convenient development.
+
+### Rendering
+
+#### Rendering to PDF with PDF/UA-1 Compliance
+
+Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) enumeration – **PdfUa1**. This option assumes compliance with special requirements for document accessibility.
+
+#### Rendering MathML Formulas
+
+The rendering of operators in MathML formulas has been improved.
+
+### Loading and Saving Documents
+
+#### Controlling Style Behavior When Loading a Document
+
+A new option [ForceCopyStyles](https://apireference.aspose.com/words/net/aspose.words/importformatoptions/properties/forcecopystyles) has been introduced to control the behavior of conflicting styles upon document import.
+
+#### Document Saving Progress Notifications
+
+An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/progresscallback) property.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 22.1 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-1-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 21.9, 21.10, 21.11, 21.12
 
 Aspose.Words 21.9 expands the list-level formatting control.

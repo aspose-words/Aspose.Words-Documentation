@@ -99,7 +99,6 @@ For a chart with dynamic data, you can set colors of chart series dynamically ba
 
 1. Declare a chart with dynamic data in the usual way.
 1. For chart series to be colored dynamically, define corresponding color expressions in names of these series using `seriesColor` tags having the following syntax.
-
 {{< highlight csharp >}}
 <<seriesColor [color_expression]>>
 {{< /highlight >}}
@@ -107,6 +106,7 @@ For a chart with dynamic data, you can set colors of chart series dynamically ba
 A color expression must return a value of one of the following types:
 
 - A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration such as “red”.
+- A string containing an HTML color code such as “#F08080” (light coral).
 - An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
 - A value of the [Color](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
 
@@ -131,6 +131,7 @@ For a chart with dynamic data, you can set colors of individual chart series poi
 A color expression must return a value of one of the following types:
 
 - A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration such as “red”.
+- A string containing an HTML color code such as “#F08080” (light coral).
 - An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
 - A value of the [Color](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
 
@@ -141,10 +142,10 @@ Consider the following example. Assume that you have the `ColoredItem` class def
 {{< highlight csharp >}}
 public class ColoredItem
 {
-   public String getName() { ... }
-   public float getPrice() { ... }
-   public Color getColor() { ... }
-   ...
+	public String getName() { ... }
+	public float getPrice() { ... }
+	public Color getColor() { ... }
+	...
 }
 {{< /highlight >}}
 

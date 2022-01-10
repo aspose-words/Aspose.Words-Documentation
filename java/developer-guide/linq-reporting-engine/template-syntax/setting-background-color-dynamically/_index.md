@@ -22,6 +22,9 @@ An expression declared within an opening `backColor` tag defines a text backgrou
 {{< highlight csharp >}}
 <<backColor [“red”]>>text with red background<</backColor>>
 {{< /highlight >}}
+- A string containing an HTML color code like in the following example.{{< highlight csharp >}}
+<<backColor [“#F08080”]>>text with light coral background<</backColor>>
+{{< /highlight >}}
 - An integer value defining RGB (red, green, blue) components of the color like in the following example.
 {{< highlight csharp >}}
 <<backColor [0xFFFF00]>>text with yellow background<</backColor>>
@@ -39,11 +42,10 @@ Assume that you have the `ColoredItem` class defined in your application as foll
 {{< highlight csharp >}}
 public class ColoredItem
 {
-public String  REF getName getName()  REF getterBody { ... }
-public String  REF getDescription getDescription()  REF getterBody { ... }
-public Color  REF getColor getColor()  REF getterBody { ... }
-
-...
+	public String getName() { ... }
+	public String getDescription() { ... }
+	public Color getColor() { ... }
+	...
 }
 {{< /highlight >}}
 
