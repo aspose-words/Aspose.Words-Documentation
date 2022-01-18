@@ -88,7 +88,7 @@ For example, shapes could be marked as decorative in Microsoft Word, so they wil
 
 You can mark shape as an artifact in the output PDF:
 
-<img src="AcrobatMarkAsArtifactDeleteEmptyTag.png" alt="AcrobatMarkAsArtifactDeleteEmptyTag" style="width:800px"/>
+![todo:image_alt_text](AcrobatMarkAsArtifactDeleteEmptyTag.png)
 
 Also, you can switch text in a header from the artifact to real content in the output PDF:
 
