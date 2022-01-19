@@ -8,25 +8,6 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-{{% alert color="primary" %}}
-
-Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures, Aspose.Words.Vba, Aspose.Words.Comparing, and Aspose.Words.Notes namespaces were introduced and the Aspose.Words.Lists and Aspose.Words.Loading namespaces were modified.
-
-In case of a compilation error, please add the appropriate line of code:
-
-{{< highlight csharp >}}
-using Aspose.Words.DigitalSignatures;
-using Aspose.Words.Vba;
-using Aspose.Words.Lists;
-using Aspose.Words.Comparing;
-using Aspose.Words.Notes;
-using Aspose.Words.Loading;
-{{< /highlight >}}
-
-For more information on these changes, see the [Aspose.Words for .NET 21.3 Release Notes](/words/net/aspose-words-for-net-21-3-release-notes/)  and [Aspose.Words for .NET 21.4 Release Notes](/words/net/aspose-words-for-net-21-4-release-notes/) pages.
-
-{{% /alert %}}
-
 ## Aspose.Words for .NET 22.1
 
 Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.

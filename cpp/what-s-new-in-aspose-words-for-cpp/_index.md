@@ -8,22 +8,35 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for C++ 22.1
+
+Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.
+
+The API is enhanced for more flexible and convenient development.
+
+### Rendering
+
+#### Rendering to PDF with PDF/UA-1 Compliance
+
+Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration – **PdfUa1**. This option assumes compliance with special requirements for document accessibility.
+
+#### Rendering MathML Formulas
+
+The rendering of operators in MathML formulas has been improved.
+
+### Loading and Saving Documents
+
+#### Controlling Style Behavior When Loading a Document
+
+A new option [ForceCopyStyles](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_forcecopystyles_const) has been introduced to control the behavior of conflicting styles upon document import.
+
+#### Document Saving Progress Notifications
+
+An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_progresscallback_const) property.
+
 {{% alert color="primary" %}}
 
-Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures, Aspose.Words.Vba, Aspose.Words.Comparing, and Aspose.Words.Notes namespaces were introduced and the Aspose.Words.Lists and Aspose.Words.Loading namespaces were modified.
-
-In case of a compilation error, please add the appropriate line of code:
-
-{{< highlight csharp >}}
-#include <Aspose.Words.Cpp/Model/Model/Document/DigitalSignatures/CertificateHolder.h>
-#include <Aspose.Words.Cpp/Model/Model/Document/Vba/CertificateHolder.h>
-#include <Aspose.Words.Cpp/Model/Model/Document/Lists/CertificateHolder.h>
-#include <Aspose.Words.Cpp/Model/Model/Document/Comparing/CertificateHolder.h>
-#include <Aspose.Words.Cpp/Model/Model/Document/Notes/CertificateHolder.h>
-#include <Aspose.Words.Cpp/Model/Model/Document/Loading/CertificateHolder.h>
-{{< /highlight >}}
-
-For more information on these changes, see the [Aspose.Words for C++ 21.3 Release Notes](/words/cpp/aspose-words-for-cpp-21-3-release-notes/) and [Aspose.Words for C++ 21.4 Release Notes](/words/cpp/aspose-words-for-cpp-21-4-release-notes/) pages.
+Learn more about [Aspose.Words for C++ 22.1 Release Notes](/words/cpp/aspose-words-for-cpp-22-1-release-notes/).
 
 {{% /alert %}}
 
