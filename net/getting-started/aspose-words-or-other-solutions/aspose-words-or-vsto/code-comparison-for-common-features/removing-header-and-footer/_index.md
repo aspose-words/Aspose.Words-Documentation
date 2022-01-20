@@ -34,4 +34,4 @@ doc.Save("Remove Headers and Footers.doc");
 ## Download Sample Code
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Removing.Header.and.Footer.Aspose.Words.zip)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Removing%20Header%20and%20Footer%20\(Aspose.Words\).zip)
+- [Bitbucket](https://bbuseruploads.s3.amazonaws.com/asposemarketplace/aspose-for-vsto/downloads/Removing%20Header%20and%20Footer%20%28Aspose.Words%29.zip?Signature=ChAN40h0P9GusvOcCk%2F7KRsHz8o%3D&Expires=1642707856&AWSAccessKeyId=AKIA6KOSE3BNA7WTAGHW&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22Removing%2520Header%2520and%2520Footer%2520%2528Aspose.Words%2529.zip%22)

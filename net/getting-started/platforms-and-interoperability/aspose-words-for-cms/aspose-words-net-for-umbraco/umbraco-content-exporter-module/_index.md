@@ -110,14 +110,6 @@ You can log any issues or suggestions related to Aspose.Words .NET for Umbraco M
 - [Sourceforge ](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
 
-**Export to Word**
-
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Umbraco-Export-to-Word-5851c9bd/view/Discussions#content)
-
-**Export to Pdf**
-
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Umbraco-Export-to-PDF-ff5acc99/view/Discussions#content)
-
 ### Extend and Contribute
 
 Export to Word, Export to Pdf and Import from Word macros are open source and their source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and extend the functionality as per their own requirements.

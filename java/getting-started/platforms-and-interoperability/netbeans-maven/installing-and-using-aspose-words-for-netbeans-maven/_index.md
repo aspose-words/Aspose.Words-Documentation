@@ -30,7 +30,7 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 ![aspose-words-java-for-netbeans-3](http://i.imgur.com/P8ZRsD8.jpg)
 1. Provide **Project Name, Location, GroupId, ArtifactId** and **Version** for your Maven Project and click **Finish.**<br>
 ![aspose-words-java-for-netbeans-4](http://i.imgur.com/ymk88Mk.jpg)
-1. This will retrieve the [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) latest [Maven Dependency](http://goo.gl/OK9LAs) reference from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Words for Java API Examples Repository. ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
+1. This will retrieve the [Aspose.Words for Java](http://www.aspose.com/java/word-component.aspx) latest [Maven Dependency](http://goo.gl/OK9LAs) reference from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Words for Java API Examples Repository. ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 1. Following **Maven** Project will be created on your **NetBeans IDE** on completion of the wizard:<br>
 ![aspose-words-java-for-netbeans-5](http://i.imgur.com/2rQWgDT.jpg)
 1. The created **Maven Project** is configured to use **Aspose.Words for Java API** and ready to be enhanced as per your Project requirements.<br>
