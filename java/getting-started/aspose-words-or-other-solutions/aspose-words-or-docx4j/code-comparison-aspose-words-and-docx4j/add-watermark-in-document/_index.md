@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Watermark in Document
 description: "Aspose.Words for Java allows you to add a watermark into a document easily and fast instead of using docx4j."
 type: docs

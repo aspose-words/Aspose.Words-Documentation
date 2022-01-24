@@ -1,4 +1,4 @@
----
+﻿---
 title: Text Features Supported on OpenDocument Import
 description: "Aspose.Words for .NET allows you to work with text features supported on OpenDocument Text import."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on Image Export
 description: "Aspose.Words for Java allows you to work with document features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs

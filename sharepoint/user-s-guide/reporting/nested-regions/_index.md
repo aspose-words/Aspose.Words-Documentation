@@ -10,13 +10,13 @@ You can use nested regions when there is a relationship between data tables in t
 
 **Nested regions defined** 
 
-![todo:image_alt_text](nested-regions_1.png)
+![todo:image_alt_text](nested-regions-1.png)
 
 
 
 The result is products grouped by categories: 
 **Nested regions in the final report** 
 
-![todo:image_alt_text](nested-regions_2.png)
+![todo:image_alt_text](nested-regions-2.png)
 
 See how to define related tables in a report data source in the [TableRelation](/words/sharepoint/tablerelation-element/) element description.

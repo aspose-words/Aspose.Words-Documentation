@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for SharePoint Documentation
 description: "This guide describes installation, licensing, limitations and feature details of the Aspose.Words for SharePoint."
 type: docs

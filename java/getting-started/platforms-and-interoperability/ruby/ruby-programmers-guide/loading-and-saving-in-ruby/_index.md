@@ -1,4 +1,4 @@
----
+﻿---
 title: Loading And Saving in Ruby
 description: "Ruby: Loading And Saving Documents using Aspose.Words for Java."
 type: docs

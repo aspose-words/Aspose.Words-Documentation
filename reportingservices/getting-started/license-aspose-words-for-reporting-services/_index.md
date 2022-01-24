@@ -87,8 +87,8 @@ To test that a license has been installed correctly, export any report as a Micr
 
 **When a valid Aspose.Words.ReportingServices.lic is present in the ReportServer\bin folder, no evaluation watermark is added to the file**
 
-![todo:image_alt_text](license-aspose-words-for-reporting-services_1.png)
+![todo:image_alt_text](license-aspose-words-for-reporting-services-1.png)
 
 **If there is a problem with the license, the error message will be output into the report**
 
-![todo:image_alt_text](license-aspose-words-for-reporting-services_2.png)
+![todo:image_alt_text](license-aspose-words-for-reporting-services-2.png)

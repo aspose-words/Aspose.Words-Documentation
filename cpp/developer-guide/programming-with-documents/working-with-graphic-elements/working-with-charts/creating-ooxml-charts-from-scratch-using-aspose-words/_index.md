@@ -1,4 +1,4 @@
----
+﻿---
 title: Creating OOXML Charts from Scratch using Aspose.Words
 description: "How to create different charts in your document using Aspose.Words for C++."
 type: docs
@@ -59,7 +59,7 @@ The code example given below shows how to insert a bubble chart.
 
 The code produces the following result:
 
-![insert-bubble-chart-aspose-words-cpp-1](creating-ooxml-charts-from-scratch-using-aspose-words_1.png)
+![insert-bubble-chart-aspose-words-cpp-1](creating-ooxml-charts-from-scratch-using-aspose-words-1.png)
 
 
 

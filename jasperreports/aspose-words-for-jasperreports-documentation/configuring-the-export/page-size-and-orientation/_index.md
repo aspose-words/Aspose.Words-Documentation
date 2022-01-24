@@ -1,4 +1,4 @@
----
+﻿---
 title: Page Size and Orientation
 description: "Aspose.Words for JasperReports use page size and orientation from the input provided for export."
 type: docs

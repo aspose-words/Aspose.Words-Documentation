@@ -1,4 +1,4 @@
----
+﻿---
 title: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export
 description: "This page contains list of supported formats and export examples produced by the Aspose.Words for Reporting Services."
 type: docs
@@ -27,25 +27,25 @@ To generate reports, Aspose.Words for Reporting Services relies on a built-in ve
 
 **A report exported by Aspose.Words for Reporting Services to a Microsoft Word (DOC) document.**
 
-![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export_1.png)
+![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export-1.png)
 
 
 
 
 **A report exported by Aspose.Words for Reporting Services to a Rich Text Format (RTF) document.**
 
-![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export_2.png)
+![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export-2.png)
 
 
 
 
 **A report exported by Aspose.Words for Reporting Services to a WordprocessingML (XML) document.**
 
-![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export_3.png)
+![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export-3.png)
 
 
 
 
 **A report exported by Aspose.Words for Reporting Services to an Office Open XML (DOCX) document.**
 
-![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export_4.png)
+![todo:image_alt_text](doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export-4.png)

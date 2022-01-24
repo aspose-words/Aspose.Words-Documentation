@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Columns and Rows
 description: "Work with table columns and rows in a document using python."
 type: docs

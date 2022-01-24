@@ -34,4 +34,4 @@ Corporate sites can consist of dozens of document libraries with complex URLs so
 
 **Different options will help to adjust the conversion process.** 
 
-![todo:image_alt_text](conversion-options_1.png)
+![todo:image_alt_text](conversion-options-1.png)

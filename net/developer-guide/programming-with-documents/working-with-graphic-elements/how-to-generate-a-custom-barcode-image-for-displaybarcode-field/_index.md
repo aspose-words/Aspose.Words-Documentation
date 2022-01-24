@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Generate a Custom BarCode Image for DISPLAYBARCODE Field
 description: "Example of barcode shape generation using Aspose.Words for .Net."
 type: docs

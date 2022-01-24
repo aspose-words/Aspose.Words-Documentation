@@ -1,4 +1,4 @@
----
+﻿---
 title: Footnotes and Endnote Features Supported on HTML Import
 description: "Aspose.Words for .NET allows you to work with footnote and endnote features supported on HTML-based format import."
 type: docs

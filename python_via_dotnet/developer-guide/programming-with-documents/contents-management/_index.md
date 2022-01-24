@@ -1,4 +1,4 @@
----
+﻿---
 title: Contents Management
 description: "How to extract and manage document contents programmatically using python."
 type: docs

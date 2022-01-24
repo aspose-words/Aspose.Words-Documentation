@@ -1,4 +1,4 @@
----
+﻿---
 title: Spacing Factor and Scaling Factor
 description: "This page describes Spacing Factor and Scaling Factor settings of the Aspose.Words for Reporting Services."
 type: docs

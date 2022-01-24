@@ -1,4 +1,4 @@
----
+﻿---
 title: Section Features Supported on DOC Export
 description: "Aspose.Words for .NET allows you to work with section features supported when saving to DOC – Word 97-2003 format."
 type: docs

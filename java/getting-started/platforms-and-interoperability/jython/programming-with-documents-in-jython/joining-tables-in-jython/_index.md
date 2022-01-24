@@ -1,4 +1,4 @@
----
+﻿---
 title: Joining Tables in Jython
 description: "Jython: Joining Tables using Aspose.Words for Java."
 type: docs

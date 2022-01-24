@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Tables in Python
 description: "Python: Working With Tables using Aspose.Words for Java."
 type: docs

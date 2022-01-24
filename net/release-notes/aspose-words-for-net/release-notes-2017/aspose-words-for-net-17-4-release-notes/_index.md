@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 17.4 Release Notes
 description: "Aspose.Words for .NET 17.4 Release Notes – learn about the latest updates and fixes."
 type: docs

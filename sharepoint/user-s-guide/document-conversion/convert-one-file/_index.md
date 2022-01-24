@@ -11,7 +11,7 @@ To convert a particular document in a document library please choose **Convert v
 **Selecting Convert via Aspose.Words in the document's ECB.** 
 
 
-![todo:image_alt_text](convert-one-file_1.png)
+![todo:image_alt_text](convert-one-file-1.png)
 
 
 
@@ -29,10 +29,10 @@ This opens the conversion settings screen where with the following options:
 
 **Conversion Settings screen for one file conversion.** 
 
-![todo:image_alt_text](convert-one-file_2.png)
+![todo:image_alt_text](convert-one-file-2.png)
 
 
 
 **Selecting destination folder using graphical view via Browse button** 
 
-![todo:image_alt_text](convert-one-file_3.png)
+![todo:image_alt_text](convert-one-file-3.png)

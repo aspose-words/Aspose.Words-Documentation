@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Layout Options
 description: "Aspose.Words for Python via .NET provides the ability to specify Layout Options for various document layouts."
 type: docs
@@ -20,11 +20,11 @@ Aspose.Words allows to manage formatting marks using the following properties:
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the **show_hidden_text** option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the **show_paragraph_marks** property is set to render it.
 
-![specify-layout-options_1](specify-layout-options_1.png)
+![specify-layout-options_1](specify-layout-options-1.png)
 
 In Microsoft Word, these parameters are set using the "File → Options → Display" dialog box as follows:
 
-![specify-layout-options_2](specify-layout-options_2.jpg)
+![specify-layout-options_2](specify-layout-options-2.jpg)
 
 ## Comments and Revisions
 
@@ -32,7 +32,7 @@ With Aspose.Words, you can render document comments that will look the same as i
 
 In Microsoft Word, this parameter is set using the "Track Changes Options" dialog box, as shown below:
 
-![specify-layout-options_3](specify-layout-options_3.jpg)
+![specify-layout-options_3](specify-layout-options-3.jpg)
 
 Also, Aspose.Words allows you to display revisions in a document. Use the **revision_options** property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the **RevisonOptions** class.
 
@@ -44,4 +44,4 @@ The following code example shows how to customize revisions display:
 
 The image below shows how Aspose.Words renders comments and the Delete revisions:
 
-<img src="specify-layout-options_4.png" alt="comments_and_revisions_example_aspose_words_net" style="width:800px"/>
+<img src="specify-layout-options-4.png" alt="comments_and_revisions_example_aspose_words_net" style="width:800px"/>

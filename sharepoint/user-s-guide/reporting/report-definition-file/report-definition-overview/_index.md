@@ -23,7 +23,7 @@ When designing a report for Aspose.Words for SharePoint, you need to create a re
 
 **Report definition schema diagram.**
 
-![todo:image_alt_text](report-definition-overview_1.png)
+![todo:image_alt_text](report-definition-overview-1.png)
 
 
 

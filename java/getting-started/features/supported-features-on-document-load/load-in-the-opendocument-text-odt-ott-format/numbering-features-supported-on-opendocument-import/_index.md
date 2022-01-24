@@ -1,4 +1,4 @@
----
+﻿---
 title: Numbering Features Supported on OpenDocument Import
 description: "Aspose.Words for Java allows you to work with numbering features supported on OpenDocument Text import."
 type: docs

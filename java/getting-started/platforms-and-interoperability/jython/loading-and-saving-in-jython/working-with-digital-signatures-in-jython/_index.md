@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Digital Signatures in Jython
 description: "Jython: Working with Digital Signatures using Aspose.Words for Java."
 type: docs

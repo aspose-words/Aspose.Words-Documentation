@@ -1,4 +1,4 @@
----
+﻿---
 title: Extract Images from Word Document in NPOI
 description: "Aspose.Words for .NET allows you to extarct images from Word document easily and fast instead of using NPOI."
 type: docs

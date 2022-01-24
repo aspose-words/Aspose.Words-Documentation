@@ -10,6 +10,6 @@ To uninstall Aspose.Words for SharePoint, just run the appropriate version of se
 
 **Choose the Remove option to uninstall the feature.** 
 
-![todo:image_alt_text](uninstalling-aspose-words-for-sharepoint_1.png)
+![todo:image_alt_text](uninstalling-aspose-words-for-sharepoint-1.png)
 
 During the uninstallation, the setup program deactivates Aspose.Words for SharePoint for all web applications and retracts the solution from the server farm.

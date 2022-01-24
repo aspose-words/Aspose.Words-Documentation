@@ -1,4 +1,4 @@
----
+﻿---
 title: Download and Configure Aspose.Words in Python
 description: "Python: Download and Configure Aspose.Words for Java."
 type: docs

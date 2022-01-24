@@ -1,4 +1,4 @@
----
+﻿---
 title: Break Table Rows
 description: "Aspose Words for JasperReports will allow breaking table rows when a row does not fit on the current page."
 type: docs

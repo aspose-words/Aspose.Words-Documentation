@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Nodes in Ruby
 description: "Ruby: working With Document Nodes using Aspose.Words for Java."
 type: docs

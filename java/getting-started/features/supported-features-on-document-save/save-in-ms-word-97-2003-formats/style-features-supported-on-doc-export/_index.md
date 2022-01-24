@@ -1,4 +1,4 @@
----
+﻿---
 title: Style Features Supported on DOC Export
 description: "Aspose.Words for Java allows you to work with style features supported when saving to DOC – Word 97-2003 format."
 type: docs

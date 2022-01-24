@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words .Net 4.0.4.0 Hot Fix Release Notes
 description: "Aspose.Words .Net 4.0.4.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs

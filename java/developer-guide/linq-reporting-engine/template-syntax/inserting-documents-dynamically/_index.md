@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserting Documents Dynamically
 description: "Insert contents of outer documents into your document dynamically when building a report Java."
 type: docs

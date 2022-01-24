@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Comparison by Aspose.Words for .NET
 description: "Investigate a showcase for Comparing Documents with Aspose.Words for .NET."
 type: docs

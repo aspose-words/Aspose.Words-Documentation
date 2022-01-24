@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert Picture in Jython
 description: "Jython: insert picture in document using Aspose.Words for Java."
 type: docs

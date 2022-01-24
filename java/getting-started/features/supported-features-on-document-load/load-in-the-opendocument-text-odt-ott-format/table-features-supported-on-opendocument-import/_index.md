@@ -1,4 +1,4 @@
----
+﻿---
 title: Table Features Supported on OpenDocument Import
 description: "Aspose.Words for Java allows you to work with table features supported on OpenDocument Text import."
 type: docs

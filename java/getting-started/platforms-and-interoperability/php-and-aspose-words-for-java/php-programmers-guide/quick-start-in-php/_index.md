@@ -1,4 +1,4 @@
----
+﻿---
 title: Quick Start in PHP
 description: "PHP: Quick Start Aspose.Words for Java."
 type: docs

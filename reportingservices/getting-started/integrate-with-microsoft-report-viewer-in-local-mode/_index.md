@@ -36,7 +36,7 @@ Please note that Aspose.Words.ReportingServices.dll for ReportViewer 2015 should
 
 **Adding a Reference to Aspose.Words.ReportingServices.dll to your project.**
 
-![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_1.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode-1.png)
 
 ## Step 2a. Add all Aspose extensions to Report Viewer.
 
@@ -136,4 +136,4 @@ Run your application and you should notice a number of new export formats availa
 
 **New export formats appear in Report Viewer running in local mode.**
 
-![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode_2.png)
+![todo:image_alt_text](integrate-with-microsoft-report-viewer-in-local-mode-2.png)

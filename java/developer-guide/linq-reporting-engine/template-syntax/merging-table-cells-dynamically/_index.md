@@ -1,4 +1,4 @@
----
+﻿---
 title: Merging Table Cells Dynamically
 description: "Merge table cells with equal textual contents when building a report Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Stretching Factor
 description: "This page describes Stretching Factor setting of the Aspose.Words for Reporting Services."
 type: docs

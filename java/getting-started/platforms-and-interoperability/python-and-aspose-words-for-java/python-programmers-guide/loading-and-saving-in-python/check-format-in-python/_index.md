@@ -1,4 +1,4 @@
----
+﻿---
 title: Check Format in Python
 description: "Python: Check Document Format using Aspose.Words for Java."
 type: docs

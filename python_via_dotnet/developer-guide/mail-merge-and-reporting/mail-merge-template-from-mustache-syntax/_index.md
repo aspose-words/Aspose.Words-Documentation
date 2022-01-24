@@ -1,4 +1,4 @@
----
+﻿---
 title: Mail Merge Template from Mustache Syntax
 type: docs
 description: "Aspose.Words for Python via .NET allows you to create templates with mustache syntax – an alternative variant of syntax that consists of tag names enclosed by {{ }}. Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax."
@@ -16,7 +16,7 @@ The Mustache syntax supports *foreach* tag, which is an alternative for using ma
 
 You can also combine mail merge fields with some additional fields using the *foreach* tag as shown in the picture below.
 
-<img src="mustache_syntax.png" alt="mustache_syntax" style="width:800px"/>
+<img src="mustache-syntax.png" alt="mustache_syntax" style="width:800px"/>
 
 ## Create a Mustache Template
 
@@ -30,7 +30,7 @@ Let's suppose that you need to send the same email to 50 recipients to personali
 
 The question here: how you can create 50 emails from 1 single Mustache template? To answer that, you need to perform a mail merge with regions to fill the curly braces for placeholders in the template with actual data and generate an output document.
 
-<img src="mustache_template.png" alt="mustache_template" style="width:650px"/>
+<img src="mustache-template.png" alt="mustache_template" style="width:650px"/>
 
 {{% alert color="primary" %}}
 
@@ -64,8 +64,8 @@ The following code example shows how to perform a mail merge operation with Must
 
 You can notice the difference between the document before applying the **use_non_merge_fields** property:
 
-<img src="mustache_if_field_1.png" alt="mustache_if_field" style="width:800px"/>
+<img src="mustache-if-field-1.png" alt="mustache_if_field" style="width:800px"/>
 
 And after applying the **use_non_merge_fields** property:
 
-<img src="mustache_if_field_2.png" alt="mustache_if_field_2.png" style="width:800px"/>
+<img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>

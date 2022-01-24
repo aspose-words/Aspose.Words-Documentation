@@ -23,7 +23,7 @@ Aspose.Words supports applying a table style to a table and also reading propert
 - Table styles are preserved when loading and saving in the DOC format (but not to any other format).
 - When exporting to other formats, rendering or printing, table styles are expanded to direct formatting on the table so all formatting is preserved.
 
-![table-style-aspose-words-java](working-with-table-styles_1.png)
+![table-style-aspose-words-java](working-with-table-styles-1.png)
 
 ### Applying a Table Style
 

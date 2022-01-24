@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 21.12 Release Notes
 description: "Aspose.Words for Java 21.12 Release Notes – learn about the latest updates and fixes."
 type: docs

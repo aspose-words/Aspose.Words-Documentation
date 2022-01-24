@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Tables
 description: "Work with tables in a document using python."
 type: docs

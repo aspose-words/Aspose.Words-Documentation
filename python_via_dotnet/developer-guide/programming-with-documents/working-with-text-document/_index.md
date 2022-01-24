@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Text Document
 description: "Work with a text document and modiffy its objects using python."
 type: docs

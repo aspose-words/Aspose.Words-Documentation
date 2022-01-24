@@ -1,4 +1,4 @@
----
+﻿---
 title: Section Features Supported on Rich Text Import
 description: "Aspose.Words for .NET allows you to work with section features supported on Rich Text import."
 type: docs

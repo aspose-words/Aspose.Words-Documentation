@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Java For PHP in More Details
 description: "PHP: using Aspose.Words for Java on PHP in Details."
 type: docs

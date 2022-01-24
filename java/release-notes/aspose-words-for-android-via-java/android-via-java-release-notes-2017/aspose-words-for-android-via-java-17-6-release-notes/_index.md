@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Android via Java 17.6 Release Notes
 description: "Aspose.Words for Android via Java 17.6 Release Notes – learn about the latest updates and fixes."
 type: docs

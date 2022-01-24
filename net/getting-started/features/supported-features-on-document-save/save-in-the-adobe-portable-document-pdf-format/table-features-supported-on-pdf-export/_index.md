@@ -1,4 +1,4 @@
----
+﻿---
 title: Table Features Supported on PDF Export
 description: "Aspose.Words for .NET allows you to work with table features supported when saving to PDF format."
 type: docs

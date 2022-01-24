@@ -1,4 +1,4 @@
----
+﻿---
 title: Update Field
 description: "Fields updating in details using Aspose.Words for Java."
 type: docs

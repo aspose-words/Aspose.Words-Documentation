@@ -1,4 +1,4 @@
----
+﻿---
 title: Extract Content in Ruby
 description: "Ruby: extract contents from Word document using Aspose.Words for Java."
 type: docs

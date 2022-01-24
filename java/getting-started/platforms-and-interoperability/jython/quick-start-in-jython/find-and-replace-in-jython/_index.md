@@ -1,4 +1,4 @@
----
+﻿---
 title: Find And Replace in Jython
 description: "Jython: Find And Replace text in a Document using Aspose.Words for Java."
 type: docs

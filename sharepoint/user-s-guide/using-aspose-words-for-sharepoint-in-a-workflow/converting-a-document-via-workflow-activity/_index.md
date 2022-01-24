@@ -23,7 +23,7 @@ To create a new workflow:
 1. Select **Automatically start this workflow when a new item is created**.
 1. Clear the other options to run this workflow for new documents only.<br>
    **Creating a new workflow.**<br>
-![todo:image_alt_text](converting-a-document-via-workflow-activity_1.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-1.png)
 
 1. Give the new workflow a descriptive name.<br>
    **Add the Convert via Aspose.Words action to your workflow**
@@ -32,7 +32,7 @@ To create a new workflow:
 1. Add an action that tries to convert every new document without any conditions.
 1. Click **Actions** and select **Convert via Aspose.Words** from the list. You may need to select **More Actions** to produce the complete action list.<br>
    **Selecting conversion action.**<br>
-![todo:image_alt_text](converting-a-document-via-workflow-activity_2.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-2.png)
 
 ## Configure Action Parameters
 
@@ -45,13 +45,13 @@ The parameters of the workflow action are similar to the conversion settings ava
 
 **Selecting destination format.**
 
-![todo:image_alt_text](converting-a-document-via-workflow-activity_3.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-3.png)
 
 1. For this example, type in the server-relative URL of the destination document library folder.
 1. Leave the destination file name parameter at the default (“the same file name”).
 1. Select **Do overwrite existing files** to overwrite existing files in the destination folder with the conversion result.
    **Setting other workflow action parameters.**
-![todo:image_alt_text](converting-a-document-via-workflow-activity_4.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-4.png)
 
 ## Use Action Output Parameters in Other Actions
 
@@ -67,7 +67,7 @@ Add another action using one of the conversion output parameters as an argument.
 1. Click **this message** in the action sentence and the ***fx*** button next to it to set the message to the conversion output.
 1. Select **Workflow Data** as a source and **Variable: Conversion output data** as a field.<br>
    **Using action output as a parameter for another action.**<br>
-![todo:image_alt_text](converting-a-document-via-workflow-activity_5.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-5.png)
 
 1. Click **Finish** in the workflow designer window to save the new workflow.<br>
 
@@ -81,11 +81,11 @@ Now let us see how it works.
    The workflow should start automatically.
 1. Refresh the browser window. A new column with the workflow status should appear:<br>
    **Workflow status column displayed in a document library.**<br>
-![todo:image_alt_text](converting-a-document-via-workflow-activity_6.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-6.png)
 
 1. Click **Completed** in the workflow status column to see that a conversion outcome message was logged to the workflow history.<br>
    **A workflow history entry.**<br>
-![todo:image_alt_text](converting-a-document-via-workflow-activity_7.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-7.png)
 
 1. Go to the destination library and find the converted document there.
 
@@ -93,4 +93,4 @@ If a user with insufficient permissions to update the destination library has st
 
 ## Unsuccessful Conversion Logged in the Workflow History
 
-![todo:image_alt_text](converting-a-document-via-workflow-activity_8.png)
+![todo:image_alt_text](converting-a-document-via-workflow-activity-8.png)

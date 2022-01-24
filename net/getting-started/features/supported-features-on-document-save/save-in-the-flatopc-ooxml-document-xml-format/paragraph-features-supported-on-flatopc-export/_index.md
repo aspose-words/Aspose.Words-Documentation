@@ -1,4 +1,4 @@
----
+﻿---
 title: Paragraph Features Supported on FlatOPC Export
 description: "Aspose.Words for .NET allows you to work with paragraph features supported when saving to FlatOPC – XML format."
 type: docs

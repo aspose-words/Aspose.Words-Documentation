@@ -1,4 +1,4 @@
----
+﻿---
 title: Custom Markup Features Supported on DOC Export
 description: "Aspose.Words for .NET allows you to work with custom markup features supported when saving to DOC – Word 97-2003 format."
 type: docs

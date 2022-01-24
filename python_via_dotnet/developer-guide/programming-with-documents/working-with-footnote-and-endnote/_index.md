@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Footnote and Endnote
 description: "Aspose.Words for Python allows to insert ffotnotes or endnotes into a document and specify its options."
 type: docs

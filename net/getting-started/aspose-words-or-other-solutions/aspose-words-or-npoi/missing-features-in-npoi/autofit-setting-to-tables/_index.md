@@ -1,4 +1,4 @@
----
+﻿---
 title: Autofit Setting to Tables
 description: "Aspose.Words for .NET allows to autofit settings to tables. NPOI does not provide an opportunity to autofit settings to tables."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Apply License in Python
 description: "Python: Apply License to Aspose.Words for Java."
 type: docs

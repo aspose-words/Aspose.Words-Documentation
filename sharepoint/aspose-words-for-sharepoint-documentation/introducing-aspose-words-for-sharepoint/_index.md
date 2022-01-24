@@ -48,25 +48,25 @@ Use Aspose.Words for SharePoint right from a SharePoint document library to conv
 
 
 
-![todo:image_alt_text](introducing-aspose-words-for-sharepoint_2.png)
+![todo:image_alt_text](introducing-aspose-words-for-sharepoint-2.png)
 
 
 Or convert all files in the current folder.
 
 **Converting all documents in a library**
 
-![todo:image_alt_text](introducing-aspose-words-for-sharepoint_3.png)
+![todo:image_alt_text](introducing-aspose-words-for-sharepoint-3.png)
 
 
 Start a report from a report template.
 
 **Making a report**
 
-![todo:image_alt_text](introducing-aspose-words-for-sharepoint_4.png)
+![todo:image_alt_text](introducing-aspose-words-for-sharepoint-4.png)
 
 
 Aspose.Words for SharePoint lets you enter report parameters and chose destination format and location.
 
 **Report settings** 
 
-![todo:image_alt_text](introducing-aspose-words-for-sharepoint_5.png)
+![todo:image_alt_text](introducing-aspose-words-for-sharepoint-5.png)

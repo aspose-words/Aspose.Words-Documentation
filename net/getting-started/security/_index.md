@@ -1,4 +1,4 @@
----
+﻿---
 title: Security Notes
 type: docs
 description: "Aspose.Words for .NET recognizes and adheres to common security standards to ensure a high level of data security. Look at possible security issues and recommendations on how to avoid them."

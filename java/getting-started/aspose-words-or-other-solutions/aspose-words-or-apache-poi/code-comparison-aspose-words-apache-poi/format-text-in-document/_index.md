@@ -1,4 +1,4 @@
----
+﻿---
 title: Format Text in Document
 description: "Aspose.Words for Java allows you to format text within a document easily and fast instead of using Apache POI."
 type: docs

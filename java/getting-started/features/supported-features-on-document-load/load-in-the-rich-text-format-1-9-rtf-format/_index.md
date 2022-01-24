@@ -1,4 +1,4 @@
----
+﻿---
 title: Load in the Rich Text Format 1.9 (.RTF) Format
 type: docs
 weight: 90

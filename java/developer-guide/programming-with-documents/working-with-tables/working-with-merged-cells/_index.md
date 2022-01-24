@@ -16,7 +16,7 @@ The values of these properties are what define the merge behavior of cells.
 - Any subsequently merged cells have CellMerge.Previous.
 - A cell which is not merged has CellMerge.None. 
 
-![work-with-merged-cells-aspose-words-java](working-with-merged-cells_1.png)
+![work-with-merged-cells-aspose-words-java](working-with-merged-cells-1.png)
 
 {{% alert color="primary" %}} 
 

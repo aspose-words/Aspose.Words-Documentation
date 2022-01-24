@@ -14,7 +14,7 @@ Usually a field, when inserted in Microsoft Word, already contains an up to date
 
 A field consists of:
 
-![fields-overview-aspose-words-cpp-1](fields_overview_1.png)
+![fields-overview-aspose-words-cpp-1](fields-overview-1.png)
 
 - The field start and separator nodes are used to encompass the content which makes up the field code (normally as plain text)
 - The field separator and field end encompass the field result. This can be made up of various types of content ranging from runs of text to paragraphs to tables.
@@ -24,7 +24,7 @@ A field consists of:
 
 Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on Github.
 
-![fields-overview-aspose-words-cpp-2](fields-overview_2.png)
+![fields-overview-aspose-words-cpp-2](fields-overview-2.png)
 
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
@@ -37,7 +37,7 @@ Fields in Microsoft Word documents are complex. There are over 50 field types (e
 
 |Field Code|Field Result|
 | :- | :- |
-|![fields-overview-aspose-words-cpp-3](fields-overview_3.png)|![fields-overview-aspose-words-cpp-4](fields-overview_3.png)|
+|![fields-overview-aspose-words-cpp-3](fields-overview-3.png)|![fields-overview-aspose-words-cpp-4](fields-overview-3.png)|
 
 ### Inserting Fields in Microsoft Word
 
@@ -48,20 +48,20 @@ To insert a field in Microsoft Word:
 1. Select **Field**
 1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.
 
-![fields-overview-aspose-words-cpp-5](fields-overview_5.png)
+![fields-overview-aspose-words-cpp-5](fields-overview-5.png)
 
 1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code.
 
-![fields-overview-aspose-words-cpp-6](fields-overview_6.png)
+![fields-overview-aspose-words-cpp-6](fields-overview-6.png)
 
 1. Switches can also be inserted by using the **Options** button
 
-![fields-overview-aspose-words-cpp-7](fields-overview_7.png)
+![fields-overview-aspose-words-cpp-7](fields-overview-7.png)
 
 1. Using either method, fill in the desired fields with the appropriate information then press **Ok**.
 1. The field is inserted into the document at the current cursor position.
 
-![fields-overview-aspose-words-cpp-8](fields-overview_8.png)
+![fields-overview-aspose-words-cpp-8](fields-overview-8.png)
 
 ### Updating Fields in Microsoft Word
 

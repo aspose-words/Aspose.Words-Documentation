@@ -1,4 +1,4 @@
----
+﻿---
 title: Lines and Rectangles
 description: "Lines and rectangles are not exported by default. Aspose.Words for JasperReports exports reports to Microsoft Word documents in flow layout mode."
 type: docs

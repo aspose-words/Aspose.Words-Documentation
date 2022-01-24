@@ -1,4 +1,4 @@
----
+﻿---
 title: Installing and Using Aspose.Words for IntelliJ IDEA - Maven
 description: "IntelliJ IDEA: Installing and Using Aspose.Words for Java."
 type: docs
@@ -23,7 +23,7 @@ The plugin is listed on IntelliJ IDEA’s CE [official plugin website](https://p
 
 Installing this plugin will introduce a new project type – 
 
-![aspose-words-java-for-intellij-idea-2](maven_project_wizard_1.png)
+![aspose-words-java-for-intellij-idea-2](maven-project-wizard-1.png)
 
 **Aspose.Words Maven Project** – into IntelliJ IDEA, which will enable you to create Aspose.Words Maven-based project for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx). 
 
@@ -33,7 +33,7 @@ Installing this plugin will introduce a new project type –
 
 An option for creating [Source Code Examples of using Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) inside the project, will also appear after the installation under "New" menu (using Right Click -> New **OR** File menu->New) – 
 
-![aspose-words-java-for-intellij-idea-4](examples_wizard_1.png)
+![aspose-words-java-for-intellij-idea-4](examples-wizard-1.png)
 
 **Aspose.Words Examples**
 

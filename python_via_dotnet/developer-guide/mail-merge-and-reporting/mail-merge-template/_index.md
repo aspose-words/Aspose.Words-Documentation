@@ -1,4 +1,4 @@
----
+﻿---
 title: Mail Merge Template
 type: docs
 description: "Aspose.Words for Python via .NET provides the ability to create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
@@ -79,7 +79,7 @@ def create_mail_merge_template() :
 
 The picture below shows the created template:
 
-<img src="mail_merge_template_1.png" alt="mail_merge_template" style="width:650px"/>
+<img src="mail-merge-template-1.png" alt="mail_merge_template" style="width:650px"/>
 
 ## Customize a Mail Merge Template Properties
 

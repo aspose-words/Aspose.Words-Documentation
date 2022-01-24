@@ -1,4 +1,4 @@
----
+﻿---
 title: Clean Up a Document
 description: "Aspose.Words for .NET allows you to remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."
 type: docs

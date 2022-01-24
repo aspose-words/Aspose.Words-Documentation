@@ -1,4 +1,4 @@
----
+﻿---
 title: Quick Start in Ruby
 description: "Quick Start Aspose.Words for Java on Ruby."
 type: docs

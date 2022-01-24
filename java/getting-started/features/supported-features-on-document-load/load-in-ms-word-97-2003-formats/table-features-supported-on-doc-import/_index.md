@@ -1,4 +1,4 @@
----
+﻿---
 title: Table Features Supported on DOC Import
 description: "Aspose.Words for Java allows you to work with table features supported on DOC – Word 97-2003 format import."
 type: docs

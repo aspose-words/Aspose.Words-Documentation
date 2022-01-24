@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for .NET 11.7.0 Release Notes
 description: "Aspose.Words for .NET 11.7.0 Release Notes – learn about the latest updates and fixes."
 type: docs

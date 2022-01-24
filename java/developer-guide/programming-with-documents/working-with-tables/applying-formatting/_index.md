@@ -1,4 +1,4 @@
----
+﻿---
 title: Applying Formatting
 description: "Table formatting in details. Using Aspose.Words for Java to format every part of table."
 type: docs
@@ -22,9 +22,9 @@ Aspose.Words provides a rich API to retrieve and apply formatting to a table. Yo
 
 To apply formatting to a table you can use the properties available on the corresponding [Table](https://apireference.aspose.com/words//java/com.aspose.words/table) node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below.
 
-![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell_1.png)
+![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell-1.png)
 
-![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell_2.png)
+![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell-2.png)
 
 The following code example shows how to apply an outline border to a table.
 
@@ -40,7 +40,7 @@ Note that before you apply table properties there must be at least one row prese
 
 Formatting on the row level can be controlled using the [RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/rowformat) property of the [Row](https://apireference.aspose.com/words/java/com.aspose.words/row).
 
-![apply-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell_3.png)
+![apply-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell-3.png)
 
 The following code example shows how to modify the formatting of a table row.
 
@@ -50,9 +50,9 @@ The following code example shows how to modify the formatting of a table row.
 
 Formatting on the cell level is controlled using the [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat) property of the [Cell](https://apireference.aspose.com/words/java/com.aspose.words/Cell).
 
-![apply-formatting-to-cell-level-aspose-words-java](applying-formatting-to-table-row-and-cell_4.png)
+![apply-formatting-to-cell-level-aspose-words-java](applying-formatting-to-table-row-and-cell-4.png)
 
-![apply-auto-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell_5.png)
+![apply-auto-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell-5.png)
 
 The following code example shows how to modify the formatting of a table cell.
 
@@ -85,10 +85,10 @@ The following code example shows how to create a table that contains a single ce
 
 Borders and shading can be applied either table wide using [Table.setBorder(int,int,double,java.awt.Color,boolean)](https://apireference.aspose.com/words/java/com.aspose.words/table#setBorder(int,int,double,java.awt.Color,boolean)), [Table.setBorders(int,double,java.awt.Color)](https://apireference.aspose.com/words/java/com.aspose.words/table#setBorders(int,double,java.awt.Color)) and [Table.setShading(int,java.awt.Color,java.awt.Color)](https://apireference.aspose.com/words/java/com.aspose.words/table#setShading(int,java.awt.Color,java.awt.Color)) or to particular cells only by using [CellFormat.getBorders()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#Borders) and [CellFormat.getShading()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#Shading). Additionally borders can be set on a row by using [RowFormat.getBorders()](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Borders), however shading cannot be applied in this way.
 
-![apply-borders-shading-aspose-words-java-1](applying-formatting-to-table-row-and-cell_6.png)
+![apply-borders-shading-aspose-words-java-1](applying-formatting-to-table-row-and-cell-6.png)
 
 
-![apply-borders-shading-aspose-words-java-2](applying-formatting-to-table-row-and-cell_7.png)
+![apply-borders-shading-aspose-words-java-2](applying-formatting-to-table-row-and-cell-7.png)
 
 
 The following code example shows how to format a table and cell with different borders and shadings.

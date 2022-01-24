@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserting Images Dynamically
 description: "Insert images into your document dynamically when building a report C#."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Watermark in PHP
 description: "PHP: Add Watermark to Document using Aspose.Words for Java."
 type: docs

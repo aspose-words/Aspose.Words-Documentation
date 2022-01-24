@@ -1,4 +1,4 @@
----
+﻿---
 title: Evaluate Aspose.Words for SharePoint
 description: "This page describes evaluation period details for the Aspose.Words for SharePoint."
 type: docs
@@ -14,4 +14,4 @@ When you have purchased a license, simply install the license solution over the 
 
 **Aspose.Words for SharePoint injects a watermark when working in evaluation mode.** 
 
-![todo:image_alt_text](evaluate-aspose-words-for-sharepoint_1.png)
+![todo:image_alt_text](evaluate-aspose-words-for-sharepoint-1.png)

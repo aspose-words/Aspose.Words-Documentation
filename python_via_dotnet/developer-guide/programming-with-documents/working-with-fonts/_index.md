@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Fonts
 description: "Aspose.Words for Python allows to customize font settings."
 type: docs

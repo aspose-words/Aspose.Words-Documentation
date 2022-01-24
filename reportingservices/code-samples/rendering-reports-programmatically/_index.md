@@ -1,4 +1,4 @@
----
+﻿---
 title: Rendering Reports Programmatically
 description: "This page describes how to render report without report viewer and report manager interfaces using the Aspose.Words for Reporting Services."
 type: docs
@@ -22,7 +22,7 @@ Open your project in Visual Studio, right click on the **References** folder and
 
 **Adding a reference to the ReportingService2005 Web service in Visual Studio.**
 
-![todo:image_alt_text](rendering-reports-programmatically_1.png)
+![todo:image_alt_text](rendering-reports-programmatically-1.png)
 
 ### Step 2. Add a reference to the ReportExecutionService Web service.
 
@@ -30,7 +30,7 @@ Repeat Step 1 for the **ReportExecutionService** ( ReportExecution2005.asmx) Web
 
 **Adding a reference to the ReportExecutionService Web service in Visual Studio.**
 
-![todo:image_alt_text](rendering-reports-programmatically_2.png)
+![todo:image_alt_text](rendering-reports-programmatically-2.png)
 
 ### Step 3. Implement the rendering method.
 

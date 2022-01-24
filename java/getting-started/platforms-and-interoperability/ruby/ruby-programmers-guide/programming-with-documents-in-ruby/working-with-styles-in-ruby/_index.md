@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Styles in Ruby
 description: "Ruby: working with Document Styles using Aspose.Words for Java."
 type: docs

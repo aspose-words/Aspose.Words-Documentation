@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Build a Table from a DataTable
 description: "Example of filling document table from external database using Aspose.Words for Java."
 type: docs
@@ -29,7 +29,7 @@ To build a table in a document from the data found in a DataTable:
 1. Finally, we can set the desired table style using one of the appropriate table properties such as [Table.getStyleIdentifier()](https://apireference.aspose.com/words/java/com.aspose.words/tablestyle#StyleIdentifier) to automatically apply formatting to the entire table.
    The following data in our **DataTable** is used in this example: 
 
-![build-a-table-from-a-datatable-aspose-words-java-1](how-to-build-a-table-from-a-datatable_1.png)
+![build-a-table-from-a-datatable-aspose-words-java-1](how-to-build-a-table-from-a-datatable-1.png)
 
 The following code demonstrates how to achieve this in Aspose.Words. The **ImportTableFromDataTable** method accepts a **DocumentBuilder** object, the **DataTable** containing the data and a flag which specifies if the column heading from the **DataTable** are included at the top of the table. This method builds a table from these parameters using the builder’s current position and formatting. 
 
@@ -45,4 +45,4 @@ The following code example shows how to import the data from a DataTable and ins
 
 The following table is produced by running the code above:
 
-![build-a-table-from-a-datatable-aspose-words-java-2](how-to-build-a-table-from-a-datatable_2.png)
+![build-a-table-from-a-datatable-aspose-words-java-2](how-to-build-a-table-from-a-datatable-2.png)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for Java can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately, or search for a suitable font replacement, or uses the Font fallback mechanism."
 type: docs

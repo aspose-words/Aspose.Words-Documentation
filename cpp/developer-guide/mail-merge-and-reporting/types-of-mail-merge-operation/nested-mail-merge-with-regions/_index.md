@@ -1,4 +1,4 @@
----
+﻿---
 title: Nested Mail Merge with Regions
 type: docs
 description: "Aspose.Words for C++ allows you to perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
@@ -25,7 +25,7 @@ The most common example of a nested mail merge is an order that contains a few i
 
 The picture below shows two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 
-<img src="nested_mail_merge_with_regions_1.png" alt="nested_mail_merge_with_regions" style="width:650px"/>
+<img src="nested-mail-merge-with-regions-1.png" alt="nested_mail_merge_with_regions" style="width:650px"/>
 
 ## How to Process Mail Merge with Nested Regions
 
@@ -33,7 +33,7 @@ The data to be merged into a template can come from various sources, mainly rela
 
 The image below demonstrates how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
 
-<img src="nested_mail_merge_with_regions_2.png" alt="mail_merge_with_nested_regions" style="width:650px"/>
+<img src="nested-mail-merge-with-regions-2.png" alt="mail_merge_with_nested_regions" style="width:650px"/>
 
 As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting mail merge with regions in the template must match the data relationships between the tables in the data source.
 

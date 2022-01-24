@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Java 1.0.5.0 Hot Fix Release Notes
 description: "Aspose.Words Java 1.0.5.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs

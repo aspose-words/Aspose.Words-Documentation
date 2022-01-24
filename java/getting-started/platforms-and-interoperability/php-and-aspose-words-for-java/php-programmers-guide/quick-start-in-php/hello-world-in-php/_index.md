@@ -1,4 +1,4 @@
----
+﻿---
 title: Hello World in PHP
 description: "PHP: Write 'hello' to a Word Document using Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Headers in NPOI
 description: "Aspose.Words for .NET allows you to work with headers in a document easily and fast instead of using NPOI."
 type: docs

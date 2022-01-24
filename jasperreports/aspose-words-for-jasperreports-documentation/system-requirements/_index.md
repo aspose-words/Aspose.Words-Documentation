@@ -1,4 +1,4 @@
----
+﻿---
 title: System Requirements
 description: "System Requirements of Aspose.Words for JasperReports."
 type: docs

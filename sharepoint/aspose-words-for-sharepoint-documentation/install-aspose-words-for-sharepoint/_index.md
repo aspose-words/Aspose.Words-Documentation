@@ -1,4 +1,4 @@
----
+﻿---
 title: Install Aspose.Words for SharePoint
 description: "This guide describes how to install Aspose.Words for SharePoint."
 type: docs

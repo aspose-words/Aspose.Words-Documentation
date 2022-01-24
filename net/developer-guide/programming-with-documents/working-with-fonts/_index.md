@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Fonts
 description: "Font formatting in details using Aspose.Words for .Net."
 type: docs

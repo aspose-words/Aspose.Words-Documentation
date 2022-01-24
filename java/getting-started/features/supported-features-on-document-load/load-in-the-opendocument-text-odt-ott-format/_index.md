@@ -1,4 +1,4 @@
----
+﻿---
 title: Load in the OpenDocument Text (.ODT, .OTT) Format
 description: "Aspose.Words for Java allows you to work with various features supported on OpenDocument Text import."
 type: docs

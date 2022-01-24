@@ -1,4 +1,4 @@
----
+﻿---
 title: Programming With Documents in Ruby
 description: "Ruby: Working With Documents using Aspose.Words for Java."
 type: docs

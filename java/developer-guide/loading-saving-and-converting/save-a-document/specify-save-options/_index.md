@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Save Options
 description: "Set advanced properties when saving a document using Aspose.Words for Java to provide more precise control over the process."
 aliases:

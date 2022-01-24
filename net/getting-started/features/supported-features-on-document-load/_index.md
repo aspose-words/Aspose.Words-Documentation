@@ -1,4 +1,4 @@
----
+﻿---
 title: Supported Features on Document Load
 description: "Aspose.Words for .NET allows to load and convert a document in most of popular formats and supports lots of Microsoft Word features."
 type: docs

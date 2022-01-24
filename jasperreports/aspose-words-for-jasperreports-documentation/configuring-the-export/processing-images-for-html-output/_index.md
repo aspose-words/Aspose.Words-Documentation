@@ -1,4 +1,4 @@
----
+﻿---
 title: Processing Images for HTML output
 description: "Aspose Words for JasperReports has 3 parameters for configuring how to process images when exporting to HTML format."
 type: docs

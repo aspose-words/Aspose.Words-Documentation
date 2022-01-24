@@ -1,4 +1,4 @@
----
+﻿---
 title: Optimize Footers
 description: "Aspose.Word for JasperReports tries to optimize footer contents for better fitting footer on the page."
 type: docs

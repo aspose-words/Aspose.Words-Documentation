@@ -1,4 +1,4 @@
----
+﻿---
 title: Converting Documents in Windows Azure
 type: docs
 description: "Use Aspose.Words for .NET in Windows Azure to load, convert, and save documents. To do this, you can create a WebRole application that can be run in the Development Fabric or deployed to Windows Azure."
@@ -100,12 +100,12 @@ To test and run the example project, perform the following steps:
    In Visual Studio, right-click on your CloudService project and select Publish. If necessary, log in with your Microsoft Azure account and select a subscription.
    To test, select the Staging Environment and click Publish. After that, in the Azure Activity Log, you will receive a URL to the deployed application.
 
-![converting-documents-in-windows-azure-aspose-words-net-1](converting-documents-in-windows-azure_1.png)
+![converting-documents-in-windows-azure-aspose-words-net-1](converting-documents-in-windows-azure-1.png)
 
 
 The following picture shows the Web Role project running in the Microsoft Azure cloud:
 
-![converting-documents-in-windows-azure-aspose-words-net-2](converting-documents-in-windows-azure_2.png)
+![converting-documents-in-windows-azure-aspose-words-net-2](converting-documents-in-windows-azure-2.png)
 
 ## See Also
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Table Features Supported on Rich Text Import
 description: "Aspose.Words for .NET allows you to work with table features supported on Rich Text import."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Appendix C. Typical Templates
 description: "Learn the typical templates of LINQ Reporting Engine to build a report Java."
 type: docs
@@ -45,12 +45,12 @@ public class Client
 
 ### Template Example
 
-|![Single_Row_Template_Example_aspose_words_java](Single-Row-Template-Example1.png) | Name: <<[manager.getName()]>> <br> Age: <<[manager.getAge()]>> |
+|![Single_Row_Template_Example_aspose_words_java](single-row-template-example1.png) | Name: <<[manager.getName()]>> <br> Age: <<[manager.getAge()]>> |
 | :- | :- |
 
 ### Report Example
 
-|![Single_Row_Report_Example_aspose_words_java](Single-Row-Report-Example1.png)|Name: John Smith <br> Age: 37 |
+|![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png)|Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 ## In-Paragraph List Template
@@ -154,12 +154,12 @@ We provide support for the following clients:
 
 ### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example_aspose_words_java](Common-List-Template-Example.png) <br> <<[getName()]>> <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> <<[getName()]>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
 
-|![Single_Row_Report_Example_aspose_words_java](Single-Row-Report-Example1.png) <br> John Smith <br> ![Single_Row_Report_Example_aspose_words_java](Single-Row-Report-Example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example_aspose_words_java](Single-Row-Report-Example1.png) <br> July James|
+|![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> John Smith <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> July James|
 | :- |
 
 ## In-Table List Template
@@ -265,12 +265,12 @@ We provide support for the following clients:
 
 ### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example_aspose_words_java](Common-List-Template-Example.png) <br> <<[getName()]>> <br> Clients: <<foreach [in getContracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[getClient().getName()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> <<[getName()]>> <br> Clients: <<foreach [in getContracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[getClient().getName()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
 
-|![Single_Row_Report_Example_aspose_words_java](Single-Row-Report-Example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example_aspose_words_java](Single-Row-Report-Example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example_aspose_words_java](Single-Row-Report-Example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
+|![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
 ## In-Table Master-Detail Template
@@ -306,43 +306,43 @@ We provide support for the following clients:
 
 **Template Example**
 
-![Pie_Chart_Template_Example_aspose_words_java](Pie-Chart-Template-Example.png)
+![Pie_Chart_Template_Example_aspose_words_java](Pie-chart-template-example.png)
 
 **Initial Chart Series Data**
 
-![Pie_Chart_Series_Data_aspose_words_java](Pie-Chart-Series-Data.png)
+![Pie_Chart_Series_Data_aspose_words_java](pie-chart-series-data.png)
 
 **Report Example**
 
-![Pie_Chart_Report_Example_aspose_words_java](Pie-Chart-Report-Example.png)
+![Pie_Chart_Report_Example_aspose_words_java](Pie-chart-report-example.png)
 
 ## Scatter Chart Template
 
 **Template Example**
 
-![Scatter_Chart_Template_Example_aspose_words_java](Scatter-Chart-Template-Example.png)
+![Scatter_Chart_Template_Example_aspose_words_java](Scatter-chart-template-example.png)
 
 **Initial Chart Series Data**
 
-![Scatter_Chart_Series_Data_aspose_words_java](Scatter-Chart-Chart-Series-Data.png)
+![Scatter_Chart_Series_Data_aspose_words_java](scatter-chart-chart-series-data.png)
 
 **Report Example**
 
-![Scatter_Chart_Report_Example_aspose_words_java](Scatter-Chart-Report-Example.png)
+![Scatter_Chart_Report_Example_aspose_words_java](Scatter-chart-report-example.png)
 
 ## Bubble Chart Template
 
 **Template Example**
 
-![Bubble_Chart_Template_Example_aspose_words_java](Bubble-Chart-Template-Example.png)
+![Bubble_Chart_Template_Example_aspose_words_java](bubble-chart-template-example.png)
 
 **Initial Chart Series Data**
 
-![Bubble_Chart_Series_Data_aspose_words_java](Bubble-Chart-Series-Data.png)
+![Bubble_Chart_Series_Data_aspose_words_java](bubble-chart-series-data.png)
 
 **Report Example**
 
-![Bubble_Chart_Report_Example_aspose_words_java](Bubble-Chart-Report-Example.png)
+![Bubble_Chart_Report_Example_aspose_words_java](bubble-chart-report-example.png)
 
 ## In-Table Template with Filtering, Grouping, and Ordering
 
@@ -369,8 +369,8 @@ We provide support for the following clients:
 
 **Template Example**
 
-![Chart_Template_Example_aspose_words_java](Chart-Template-Example.png)
+![Chart_Template_Example_aspose_words_java](chart-template-example.png)
 
 **Report Example**
 
-![Chart_Report_Example_aspose_words_java](Chart-Report-Example.png)
+![Chart_Report_Example_aspose_words_java](chart-report-example.png)

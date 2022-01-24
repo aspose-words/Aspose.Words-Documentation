@@ -35,7 +35,7 @@ Using Aspose.Words for Java in your project gives you the following benefits:
 
 The following diagram shows the main features of Aspose.Words for Java and how they relate to each other.
 
-<img src="aspose_words-product-features-overview.png" alt="aspose_words-java-product-features-overview" style="width:800px"/>
+<img src="aspose-words-product-features-overview.png" alt="aspose_words-java-product-features-overview" style="width:800px"/>
 
 ### Rich Set of Features
 

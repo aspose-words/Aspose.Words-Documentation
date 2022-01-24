@@ -1,4 +1,4 @@
----
+﻿---
 title: Save in the Rich Text Format 1.9 (.RTF) Format
 description: "Aspose.Words for .NET allows you to work with various features supported when saving to Rich Text format."
 type: docs

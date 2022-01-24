@@ -1,4 +1,4 @@
----
+﻿---
 title: Format Text in Document in NPOI
 description: "Aspose.Words for .NET allows you to fformat text in a document easily and fast instead of using NPOI."
 type: docs

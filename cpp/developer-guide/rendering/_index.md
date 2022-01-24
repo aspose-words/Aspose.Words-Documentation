@@ -8,7 +8,7 @@ url: /cpp/rendering/
 
 We use the term "rendering" in Aspose.Words to describe the process of converting a document into a file format or a medium that is paginated or has the concept of pages. We are talking about the rendering of a document into pages. The following diagram shows what rendering is in Aspose.Words.
 
-![rendering-aspose-words-cpp](rendering_1.png)
+![rendering-aspose-words-cpp](rendering-1.png)
 
 The rendering features of Aspose.Words enable you to perform the following:
 

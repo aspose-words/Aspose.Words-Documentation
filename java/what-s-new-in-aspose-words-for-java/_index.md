@@ -1,4 +1,4 @@
----
+﻿---
 title: What's new in Aspose.Words for Java
 type: docs
 description: "Aspose.Words for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."

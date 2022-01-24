@@ -1,4 +1,4 @@
----
+﻿---
 title: Hello World in Python
 description: "Python: Write 'hello' to the Word Document using Aspose.Words for Java."
 type: docs

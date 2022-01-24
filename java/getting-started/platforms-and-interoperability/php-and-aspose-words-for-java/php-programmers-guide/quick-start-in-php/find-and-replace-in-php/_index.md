@@ -1,4 +1,4 @@
----
+﻿---
 title: Find And Replace in PHP
 description: "PHP: Find And Replace text in Document using Aspose.Words for Java."
 type: docs

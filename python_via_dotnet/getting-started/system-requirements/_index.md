@@ -1,4 +1,4 @@
----
+﻿---
 title: System Requirements
 description: "Before you start working with Aspose.Words for Python via .NET, ensure that you meet the operating system, platform and environment requirements so the activities on your devices are properly accounted for."
 type: docs

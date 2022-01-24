@@ -44,4 +44,4 @@ The following example shows how to perform TIFF binarization with a specified t
 
 Below you can compare images on which TIFF binarization was performed at various threshold values:
 
-![save-a-document-as-a-multipage-tiff-aspose-words-cpp](saving-a-document-as-a-multipage-tiff_1.jpg)
+![save-a-document-as-a-multipage-tiff-aspose-words-cpp](saving-a-document-as-a-multipage-tiff-1.jpg)
