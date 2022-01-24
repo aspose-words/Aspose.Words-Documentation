@@ -1,4 +1,4 @@
----
+﻿---
 title: Autofit Setting to Tables in Jython
 description: "Jython: Autofit Setting to Tables using Aspose.Words for Java."
 type: docs

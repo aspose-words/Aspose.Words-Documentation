@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Charts
 description: "Introduction to Chart feature, how to create and manipulate charts using Aspose.Words for Java."
 type: docs
@@ -65,7 +65,7 @@ Once the chart was inserted and filled with data, you are able to change its app
 
 The code generates the followings results:
 
-![line-chart-aspose-words-java-1](working-with-charts_1.png)
+![line-chart-aspose-words-java-1](working-with-charts-1.png)
 
 ## How to Work with ChartSeriesCollection of Chart
 
@@ -83,13 +83,13 @@ Here is how to work with a particular series.
 
 Please see the result below:
 
-![line-chart-aspose-words-java-2](working-with-charts_2.png)
+![line-chart-aspose-words-java-2](working-with-charts-2.png)
 
 All single [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) have default [ChartDataPoint](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartDataPoint) options, please try using the following code to change them:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 
-![line-chart-aspose-words-java3](working-with-charts_3.png)
+![line-chart-aspose-words-java3](working-with-charts-3.png)
 
 ## How to Work with Single ChartDataPoint of a ChartSeries
 
@@ -99,7 +99,7 @@ Using ChartDataPoint you are able to customize the formatting of a single data p
 
 Please see the result below:
 
-![line-chart-aspose-words-java-4](working-with-charts_4.png)
+![line-chart-aspose-words-java-4](working-with-charts-4.png)
 
 ## How to Work with ChartDataLabel of a Single ChartSeries
 
@@ -109,7 +109,7 @@ Using ChartDataLabel you are able to specify the formatting of a single data lab
 
 Please see the result below:
 
-![bar-chart-aspose-words-java](working-with-charts_5.png)
+![bar-chart-aspose-words-java](working-with-charts-5.png)
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
@@ -119,7 +119,7 @@ The ChartDataLabelCollection class defines properties which can be used to set 
 
 Please see the result below:
 
-![pie-chart-aspose-words-java](working-with-charts_6.png)
+![pie-chart-aspose-words-java](working-with-charts-6.png)
 
 ## How to Format Number of Chart Data Label
 

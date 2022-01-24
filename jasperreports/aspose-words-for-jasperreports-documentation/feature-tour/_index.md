@@ -1,4 +1,4 @@
----
+﻿---
 title: Feature Tour
 description: "This section provides a page with a list of features."
 type: docs

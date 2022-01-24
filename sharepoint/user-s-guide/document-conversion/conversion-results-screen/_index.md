@@ -1,4 +1,4 @@
----
+﻿---
 title: Conversion Results Screen
 description: "This page describes how to interpret conversion results in the SharePoint UI using the Aspose.Words for SharePoint."
 type: docs
@@ -16,4 +16,4 @@ After getting familiar with the results, return either to the source or to the d
 
 **Conversion Results screen.**
 
-**![todo:image_alt_text](conversion-results-screen_1.png)**
+**![todo:image_alt_text](conversion-results-screen-1.png)**

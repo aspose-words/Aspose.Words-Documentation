@@ -1,4 +1,4 @@
----
+﻿---
 title: Section Features Supported on OpenDocument Import
 description: "Aspose.Words for Java allows you to work with section features supported on OpenDocument Text import."
 type: docs

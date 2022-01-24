@@ -1,4 +1,4 @@
----
+﻿---
 title: License Aspose.Words for SharePoint
 description: "This guide describes how to work with the Aspose.Words for SharePoint licences."
 type: docs

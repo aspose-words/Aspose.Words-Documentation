@@ -1,4 +1,4 @@
----
+﻿---
 title: Split Tables in Jython
 description: "Jython: Split Tables using Aspose.Words for Java."
 type: docs

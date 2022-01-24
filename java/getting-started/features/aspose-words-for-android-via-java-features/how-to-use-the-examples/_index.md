@@ -1,4 +1,4 @@
----
+﻿---
 title: How to use the Examples
 description: "How to run Aspose.Words for Android via Java examples."
 type: docs

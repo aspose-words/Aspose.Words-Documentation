@@ -1,4 +1,4 @@
----
+﻿---
 title: Restrict Document Editing
 description: "Aspose.Words for Python via .NET allows to restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."
 type: docs

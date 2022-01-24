@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Android via Java Supported Platforms
 description: "Aspose.Words for Android via Java Supported Platforms."
 type: docs

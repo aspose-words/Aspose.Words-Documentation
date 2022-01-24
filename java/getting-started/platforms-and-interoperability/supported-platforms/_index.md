@@ -1,4 +1,4 @@
----
+﻿---
 title: Supported Platforms
 description: "Aspose.Words for Java can be used by any Java application on any platform supported by Java."
 type: docs
@@ -22,4 +22,4 @@ Aspose.Words for Java is provided as a ZIP download and contains the following:
 - Demo projects
 - Aspose.Words Documentation in HTML format
 
-![supported-platforms-aspose-words-java](java_1.png)
+![supported-platforms-aspose-words-java](java-1.png)

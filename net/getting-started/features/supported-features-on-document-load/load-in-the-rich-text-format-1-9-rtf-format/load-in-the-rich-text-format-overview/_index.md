@@ -1,4 +1,4 @@
----
+﻿---
 title: Load in the Rich Text Format Overview
 description: "Aspose.Words for .NET allows you to work with various features supported on Rich Text import."
 type: docs

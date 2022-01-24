@@ -1,4 +1,4 @@
----
+﻿---
 title: Apply License in Ruby
 description: "Ruby: apply License to Aspose.Words for Java."
 type: docs

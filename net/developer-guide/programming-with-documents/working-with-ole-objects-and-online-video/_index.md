@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Ole Objects and Online Video
 description: "Create and modify OLE embedding in your document using Aspose.Words for .Net."
 type: docs

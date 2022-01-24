@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Content Control SDT
 description: "Using python you can embed customer-defined semantics as well as its behaviour and appearance into a document."
 type: docs

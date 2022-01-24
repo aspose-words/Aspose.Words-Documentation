@@ -21,7 +21,7 @@ To create a new workflow:
    <img src="select-source-library.jpg" alt="select-source-library" style="width:400px"/>
 
 3. Give the new workflow a name and click "Ok".</br>
-   <img src="A-new-name-workflow.jpg" alt="A-new-name-workflow" style="width:500px"/></br>
+   <img src="a-new-name-workflow.jpg" alt="A-new-name-workflow" style="width:500px"/></br>
    You should see a tab with widget "Step 1".</br>
    <img src="open-step-1.jpg" alt="open-step-1" style="width:600px"/>
 

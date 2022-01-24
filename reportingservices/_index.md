@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Reporting Services
 description: "Aspose.Words for Reporting Services is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs
@@ -9,7 +9,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-**![todo:image_alt_text](aspose-Words-for-SSRS.png)**
+**![todo:image_alt_text](aspose-words-for-s-s-r-s.png)**
 
 **Welcome to Aspose.Words for Reporting Services**
 

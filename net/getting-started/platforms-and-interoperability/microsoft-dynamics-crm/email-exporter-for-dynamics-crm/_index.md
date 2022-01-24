@@ -17,7 +17,7 @@ Major features of this Addon are:
 - Support a number of formats like: DOC, DOCX, BMP, HTML, JPEG, PDF, PNG, RTF and TXT.
 - Allows you to enter the name of generated output file.
 
-![email-exporter-for-dynamics-crm_1](email-exporter-for-dynamics-crm_1.png)
+![email-exporter-for-dynamics-crm_1](email-exporter-for-dynamics-crm-1.png)
 
 ## System Requirements and Supported Platforms
 
@@ -73,20 +73,20 @@ Easily configure and Use Aspose.Words Email Exporter for Dynamics CRM by followi
 - Open Outlook and Create an Email.
 - Track email in CRM using the top Ribbon Button. 
 
-![email-exporter-for-dynamics-crm_3](email-exporter-for-dynamics-crm_3.png)
+![email-exporter-for-dynamics-crm_3](email-exporter-for-dynamics-crm-3.png)
 
 ### Export Email and download
 
 - Open email and Click on "Export Email" from the top. 
 
-<img src="email-exporter-for-dynamics-crm_4.png" alt="email-exporter-for-dynamics-crm_4" style="width:650px"/>
+<img src="email-exporter-for-dynamics-crm-4.png" alt="email-exporter-for-dynamics-crm_4" style="width:650px"/>
 
 - Select the Options from the Popup, and Provide filename to be generated.
 - Filename is default to Email Subject.
 - Click Generate button below and view the results.
 - The output file contains all embedded images in the document. 
 
-<img src="email-exporter-for-dynamics-crm_5.png" alt="email-exporter-for-dynamics-crm_5" style="width:650px"/>
+<img src="email-exporter-for-dynamics-crm-5.png" alt="email-exporter-for-dynamics-crm_5" style="width:650px"/>
 
 ## Video Demo
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Product Overview
 description: "With Aspose.Words for Python via .NET you can create, modify, convert, render, and print documents without relying on third-party applications. Aspose.Words is a cross-platform class library."
 type: docs
@@ -29,7 +29,7 @@ Using Aspose.Words for Python via .NET in your project gives you the following b
 
 The following diagram shows the main features of Aspose.Words for Python via .NET and how they relate to each other.
 
-<img src="aspose_words-product-features-overview.png" alt="aspose_words-product-features-overview" style="width:800px"/>
+<img src="aspose-words-product-features-overview.png" alt="aspose_words-product-features-overview" style="width:800px"/>
 
 ### Rich Set of Features
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Styles in Python
 description: "Python: Working With Styles using Aspose.Words for Java."
 type: docs

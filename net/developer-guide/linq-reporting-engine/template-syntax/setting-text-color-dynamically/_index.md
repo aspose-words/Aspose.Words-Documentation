@@ -1,4 +1,4 @@
----
+﻿---
 title: Setting Text Color Dynamically
 description: "Set font text color for document contents dynamically when building a report C#."
 type: docs

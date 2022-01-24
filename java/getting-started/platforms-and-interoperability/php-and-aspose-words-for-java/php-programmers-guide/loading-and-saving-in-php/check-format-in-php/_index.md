@@ -1,4 +1,4 @@
----
+﻿---
 title: Check Format in PHP
 description: "PHP: Check Document Format using Aspose.Words for Java."
 type: docs

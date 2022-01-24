@@ -1,4 +1,4 @@
----
+﻿---
 title: Apache Struts 1.3
 description: "Using Aspose.Words for Java on Apache Struts."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Programming With Documents in Python
 description: "Python: Programming Documents using Aspose.Words for Java."
 type: docs

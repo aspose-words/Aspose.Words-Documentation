@@ -10,4 +10,4 @@ Customers developing their own SharePoint solution can access our conversion and
 
 **Usage of each class member is accompanied with C# and VB samples.** 
 
-![todo:image_alt_text](public-api_1.png)
+![todo:image_alt_text](public-api-1.png)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Paragraphs
 description: "Insert paragraph and speciffy its formatting in a document using python."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Process Comments in PHP
 description: "PHP: Process Comments using Aspose.Words for Java."
 type: docs

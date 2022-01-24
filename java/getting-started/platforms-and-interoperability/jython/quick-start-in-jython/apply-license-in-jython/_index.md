@@ -1,4 +1,4 @@
----
+﻿---
 title: Apply License in Jython
 description: "Jython: Apply License to Aspose.Words for Java."
 type: docs

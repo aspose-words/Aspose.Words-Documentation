@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with DataTable Row Objects
 description: "Use simplified syntax in template expressions to work with DataTable row objects when building a report Java."
 type: docs

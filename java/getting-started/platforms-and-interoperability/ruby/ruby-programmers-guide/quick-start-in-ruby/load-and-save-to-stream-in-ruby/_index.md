@@ -1,4 +1,4 @@
----
+﻿---
 title: Load And Save To Stream in Ruby
 description: "Ruby: load and save MS Word document to stream using Aspose.Words for Java."
 type: docs

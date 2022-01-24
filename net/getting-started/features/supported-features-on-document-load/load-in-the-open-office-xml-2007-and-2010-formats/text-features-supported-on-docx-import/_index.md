@@ -1,4 +1,4 @@
----
+﻿---
 title: Text Features Supported on DOCX Import
 description: "Aspose.Words for .NET allows you to work with text features supported on Open Office XML 2007 an 2010 Format import."
 type: docs

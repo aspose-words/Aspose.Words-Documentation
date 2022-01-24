@@ -1,4 +1,4 @@
----
+﻿---
 title: Joining Word Documents Together
 description: "Aspose.Words for .NET allows you to join a few document together or append them easily and fast instead of using VSTO."
 type: docs

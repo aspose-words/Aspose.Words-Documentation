@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for JasperReports
 description: "Aspose.Words for JasperReports is the solution that makes it possible to export reports from JasperReports and JasperServer to Microsoft Word document formats."
 type: docs
@@ -9,7 +9,7 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-**<img src="aspose_words-for-jasperreports.png" alt="todo:image_alt_text" style="zoom:50%;" />**
+**<img src="aspose-words-for-jasperreports.png" alt="todo:image_alt_text" style="zoom:50%;" />**
 
 **Welcome to Aspose.Words for JasperReports**
 

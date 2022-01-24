@@ -1,4 +1,4 @@
----
+﻿---
 title: Style Features Supported on XPS Export
 description: "Aspose.Words for .NET allows you to work with style features supported when saving to XPS format."
 type: docs

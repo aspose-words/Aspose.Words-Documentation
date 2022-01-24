@@ -39,11 +39,11 @@ The following code example shows how to execute a simple mail merge operation us
 
 You can notice the difference between the document before executing simple mail merge:
 
-<img src="execute_simple_mail_merge_1.png" alt="simple_mail_merge_template_aspose_words_java" style="width:300px"/>
+<img src="execute-simple-mail-merge-1.png" alt="simple_mail_merge_template_aspose_words_java" style="width:300px"/>
 
 And after executing simple mail merge:
 
-<img src="execute_simple_mail_merge_2.png" alt="execute_simple_mail_merge_aspose_words_java" style="width:300px"/>
+<img src="execute-simple-mail-merge-2.png" alt="execute_simple_mail_merge_aspose_words_java" style="width:300px"/>
 
 ### How to Create Multiple Merged Documents
 
@@ -87,11 +87,11 @@ The following code example shows how to execute mail merge with regions using th
 
 You can notice the difference between the document before executing mail merge with regions:
 
-<img src="execute_mail_merge_with_regions_1.png" alt="mail_merge_with_regions_template_aspose_words_java" style="width:850px"/>
+<img src="execute-mail-merge-with-regions-1.png" alt="mail_merge_with_regions_template_aspose_words_java" style="width:850px"/>
 
 And after executing mail merge with regions:
 
-<img src="execute_mail_merge_with_regions_2.png" alt="mail_merge_with_regions_execute_aspose_words_java" style="width:850px"/>
+<img src="execute-mail-merge-with-regions-2.png" alt="mail_merge_with_regions_execute_aspose_words_java" style="width:850px"/>
 
 ### Limitations of Mail Merge with Regions
 

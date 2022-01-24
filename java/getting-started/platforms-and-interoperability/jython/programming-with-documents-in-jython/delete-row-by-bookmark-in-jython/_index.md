@@ -1,4 +1,4 @@
----
+﻿---
 title: Delete Row By Bookmark in Jython
 description: "Jython: Delete Row By Bookmark using Aspose.Words for Java."
 type: docs

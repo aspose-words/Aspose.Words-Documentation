@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Columns and Rows
 description: "Working with parts of table, row and cells using Aspose.Words for Java."
 type: docs
@@ -14,7 +14,7 @@ In both Word documents and in the Aspose.Words Document Object Model, there is n
 - Vertically, the cells of each row can have different widths.
 - It is possible to join tables with differing row formats and cell counts. 
 
-![work-with-columns-aspose-words-java](working-with-columns-and-rows_1.png)
+![work-with-columns-aspose-words-java](working-with-columns-and-rows-1.png)
 
 Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells is represented in the same way that tables are represented in Aspose.Words. In the Aspose.Words Document Object Model a [Table](https://apireference.aspose.com/words/java/com.aspose.words/table) node is made up of [Row](https://apireference.aspose.com/words/java/com.aspose.words/row) and then [Cell](https://apireference.aspose.com/words/java/com.aspose.words/cell) nodes. There is also no native support for columns.
 

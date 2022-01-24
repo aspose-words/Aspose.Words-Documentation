@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserting Fields
 description: "Aspose.Words for Python allows to insert fields into a document in different ways: using DocumentBuilder or DOM (Document Object Model)."
 type: docs

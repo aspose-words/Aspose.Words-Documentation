@@ -1,4 +1,4 @@
----
+﻿---
 title: Comprehensive RDL Support
 description: "This page describes list of supported RDL elements by the Aspose.Words for Reporting Services."
 type: docs
@@ -32,6 +32,6 @@ Aspose.Words for Reporting Services supports the following RDL elements:
 
 **A complex report with headers, footers, images, subreports, tables, textboxes, rectangles and lines exported as a Microsoft Word (DOC) document.**
 
-![todo:image_alt_text](comprehensive-rdl-support_1.png)
+![todo:image_alt_text](comprehensive-rdl-support-1.png)
 
 For more sample reports, see the [Sample Reports Gallery](/words/reportingservices/sample-gallery/).

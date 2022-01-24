@@ -1,4 +1,4 @@
----
+﻿---
 title: Inserting Hyperlinks Dynamically
 description: "Insert hyperlinks into your document dynamically when building a report C#."
 type: docs

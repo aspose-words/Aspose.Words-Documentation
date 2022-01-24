@@ -1,4 +1,4 @@
----
+﻿---
 title: Integrating Manually with Visual Studio Report Designer
 description: "This page describes manual installation process of the Aspose.Words for Reporting Services to a Business Intelligence Development Studio."
 type: docs
@@ -111,4 +111,4 @@ Run or restart Microsoft Visual Studio 2008, 2010, 2012, 2015, 2017, or 2019 Rep
 
 **New export formats appear in Report Designer.**
 
-![todo:image_alt_text](integrating-manually-with-visual-studio-report-designer_1.png)
+![todo:image_alt_text](integrating-manually-with-visual-studio-report-designer-1.png)

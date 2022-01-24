@@ -1,4 +1,4 @@
----
+﻿---
 title: Platforms and Interoperability
 description: "Use Aspose.Words when building applications for .NET, Java, and C++, PHP, Python, and other languages."
 type: docs

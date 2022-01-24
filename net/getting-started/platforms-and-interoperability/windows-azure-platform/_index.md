@@ -1,4 +1,4 @@
----
+﻿---
 title: Windows Azure Platform
 type: docs
 description: "Use Aspose.Words for .NET when building applications for the Windows Azure Platform. Learn how Aspose.Words works well in the cloud."

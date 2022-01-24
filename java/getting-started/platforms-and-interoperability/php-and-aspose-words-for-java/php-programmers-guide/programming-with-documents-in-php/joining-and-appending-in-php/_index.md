@@ -1,4 +1,4 @@
----
+﻿---
 title: Joining And Appending in PHP
 description: "PHP: Joining And Appending Documents using Aspose.Words for Java."
 type: docs

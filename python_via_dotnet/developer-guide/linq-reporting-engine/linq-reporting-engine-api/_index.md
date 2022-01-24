@@ -1,4 +1,4 @@
----
+﻿---
 title: LINQ Reporting Engine API
 description: "LINQ Reporting Engine allows you to build a report from a template is assembled within the class using python."
 type: docs

@@ -1,4 +1,4 @@
-This repository contains Aspose.Words Product Family documentation.
+﻿This repository contains Aspose.Words Product Family documentation.
 
 [Aspose.Words for .NET Documentation](net)
 

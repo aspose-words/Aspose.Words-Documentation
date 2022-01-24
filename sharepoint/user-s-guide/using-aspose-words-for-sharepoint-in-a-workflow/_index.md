@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Aspose.Words for SharePoint in a Workflow
 description: "This guide describes available workflow scenarios with the Aspose.Words for SharePoint."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Lists
 description: "Introduction to numbering formatting feature in Aspose.Words for .Net."
 type: docs

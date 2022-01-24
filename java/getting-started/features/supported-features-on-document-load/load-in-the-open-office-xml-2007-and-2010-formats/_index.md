@@ -1,4 +1,4 @@
----
+﻿---
 title: Load in the Open Office XML 2007 an 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
 description: "Aspose.Words for Java allows you to work with various features supported on Open Office XML 2007 an 2010 Format import."
 type: docs

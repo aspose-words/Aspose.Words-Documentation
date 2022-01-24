@@ -1,4 +1,4 @@
----
+﻿---
 title: Mail Merge And Reporting in Ruby
 description: "Ruby: Mail Merge And Reporting using Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Installation
 description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set."
 type: docs
@@ -16,7 +16,7 @@ NuGet is the easiest way to download and install [Aspose.Words for .NET](https:/
 
 1. Open *Microsoft Visual Studio* and *Manage NuGet Packages* from the menu to open package manager
 2. Search for "aspose" or "aspose.words" to find the desired Aspose API<br>
-   <img src="aspose-words-nuget.PNG" alt="aspose-words-nuget" style="width:800px"/>
+   <img src="aspose-words-nuget.png" alt="aspose-words-nuget" style="width:800px"/>
 3. Select the desired Aspose API and click "Install"
 
 The selected API will be downloaded and referenced in your project.
@@ -28,7 +28,7 @@ You can also update Aspose.Words for .NET to the desired version using *Manage N
 You can also install or update Aspose.Words for .NET APIs using the *Package Manager Console*. To do this, follow these steps:
 
 1. Open *Microsoft Visual Studio* and *Package Manager Console* from the menu to open package manager console<br>
-   <img src="aspose-words-nuget-update.PNG" alt="aspose-words-nuget-update" style="width:600px"/>
+   <img src="aspose-words-nuget-update.png" alt="aspose-words-nuget-update" style="width:600px"/>
 2. Type the command `Install-Package Aspose.Words` and press Enter to install the latest full release into your application<br>
    <img src="aspose-words-nuget-update-2.png" alt="aspose-words-nuget-update-2" style="width:600px"/><br>
    {{% alert color="primary" %}}In addition, you can add the `-prerelease` suffix to the command to specify that the latest release, including hotfixes, should also be installed.{{% /alert %}}

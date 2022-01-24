@@ -15,13 +15,13 @@ The logic to be applied to each region is defined inside a class that implements
 
 In this sample, we will be using the document displayed below. It contains nested regions and a region contained within a table. 
 
-![apply-custom-logic-to-unmerged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions_1.png)
+![apply-custom-logic-to-unmerged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions-1.png)
 
 As a quick demonstration, we can execute a sample database on the sample document with the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](https://apireference.aspose.com/words//java/com.aspose.words/mailmergecleanupoptions) flag enabled. This property will automatically remove unmerged regions from the document during a mail merge.
 
 The data source includes two records for the **StoreDetails** region but purposely does have any data for the child **ContactDetails** regions for one of the records. Furthermore, the **Suppliers** region does not have any data rows either. This will cause unused regions to remain in the document. The result after merging the document with this data source is below. 
 
-![merged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions_2.png)
+![merged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions-2.png)
 
 As noted on the image you can see that the **ContactDetails** region for the second record and **Suppliers** regions have been automatically removed by the mail merge engine as they have no data. However, there are a few issues that make this output document look incomplete:
 
@@ -106,7 +106,7 @@ Shows how to define custom logic in a handler implementing IFieldMergingCallback
 
 The result of the above code is shown below. The unmerged fields within the first region are replaced with informative text and the removal of the table and heading allows the document to look complete.
 
-![apply-custom-logic-to-unmerged-regions-aspose-words-java-2](how-to-apply-custom-logic-to-unmerged-regions_3.png)
+![apply-custom-logic-to-unmerged-regions-aspose-words-java-2](how-to-apply-custom-logic-to-unmerged-regions-3.png)
 
 
 The code which removes the parent table could also be made to run on every unused region instead of just a specific region by removing the check for the table name. In this case, if any region inside a table was not merged with any data, both the region and the container table will be automatically removed as well.
@@ -125,7 +125,7 @@ Shows how to replace an unused region with a message and remove extra paragraphs
 
 The resulting document after the code above has been executed is shown below. The unused region is replaced with a message stating that there are no records to display.
 
-![apply-custom-logic-to-unmerged-regions-aspose-words-java-3](how-to-apply-custom-logic-to-unmerged-regions_4.png)
+![apply-custom-logic-to-unmerged-regions-aspose-words-java-3](how-to-apply-custom-logic-to-unmerged-regions-4.png)
 
 
 As another example, we can insert the code below in place of the code originally handling the **SuppliersRegion** . This will display a message within the table and merge the cells instead of removing the table from the document. Since the region resides within a table with multiple cells, it looks nicer to have the cells of the table merged together and the message centered.
@@ -138,7 +138,7 @@ Shows how to merge all the parent cells of an unused region and display a messag
 
 The resulting document after the code above has been executed is shown below.
 
-![apply-custom-logic-to-unmerged-regions-aspose-words-java-4](how-to-apply-custom-logic-to-unmerged-regions_5.png)
+![apply-custom-logic-to-unmerged-regions-aspose-words-java-4](how-to-apply-custom-logic-to-unmerged-regions-5.png)
 
 
 Finally, we can call the **ExecuteCustomLogicOnEmptyRegions** method and specify the table names that should be handled within our handler method, while specifying others to be automatically removed.
@@ -151,4 +151,4 @@ Shows how to specify only the ContactDetails region to be handled through the ha
 
 Calling this overload with the specified ArrayList will create the data source which only contains data rows for the specified regions. Regions other than the ContactDetails region will not be handled and will be removed automatically by the mail merge engine instead. The result of the above call using the code in our original handler is shown below. 
 
-![apply-custom-logic-to-unmerged-regions-aspose-words-java-5](how-to-apply-custom-logic-to-unmerged-regions_6.png)
+![apply-custom-logic-to-unmerged-regions-aspose-words-java-5](how-to-apply-custom-logic-to-unmerged-regions-6.png)

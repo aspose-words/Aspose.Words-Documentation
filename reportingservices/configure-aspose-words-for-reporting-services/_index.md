@@ -1,4 +1,4 @@
----
+﻿---
 title: Configure Aspose.Words for Reporting Services
 description: "This guide describes configuration options for the Aspose.Words for Reporting Services."
 type: docs

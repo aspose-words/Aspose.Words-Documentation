@@ -23,7 +23,7 @@ This screenshot of Microsoft Word shows a template document with the merge field
 
 This screenshot of Microsoft Word shows the generated document. Note some fields were replaced with simple text, some fields were replaced with checkbox form fields and the Subject field was replaced with a text input form field.
 
-![insert-checkboxes-html-or-images-during-mail-merge-aspose-words-java-2](insert-checkboxes-html-or-images-during-mail-merge_2.png)
+![insert-checkboxes-html-or-images-during-mail-merge-aspose-words-java-2](insert-checkboxes-html-or-images-during-mail-merge-2.png)
 
 Complete source code of a program that inserts checkboxes and text input form fields into a document during a mail merge.
 

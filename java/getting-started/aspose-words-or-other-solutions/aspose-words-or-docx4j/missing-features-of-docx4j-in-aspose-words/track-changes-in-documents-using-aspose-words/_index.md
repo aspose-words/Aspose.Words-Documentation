@@ -1,4 +1,4 @@
----
+﻿---
 title: Track Changes in Documents
 description: "Aspose.Words for Java allows to track changes in documents. Docx4j does not provide an opportunity to track changes in a document."
 type: docs

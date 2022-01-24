@@ -15,11 +15,11 @@ To make a report:
 1. Select a report template in a SharePoint document library.
 1. Click **Make Report via Aspose.Words** in the template’s Edit Control Block.<br>
    **Selecting Make Reports vie Aspose.Words**<br>
-![todo:image_alt_text](user-interface-for-creating-reports_1.png)
+![todo:image_alt_text](user-interface-for-creating-reports-1.png)
 
 1. In SharePoint 2010/2013/2016, you can find **Make Report via Aspose.Words** button on the ribbon. The button is active when you select a single file.<br>
    **Selecting Make Report via Aspose.Words from the ribbon**<br>
-![todo:image_alt_text](user-interface-for-creating-reports_2.png)<br>
+![todo:image_alt_text](user-interface-for-creating-reports-2.png)<br>
 The report settings screen is displayed. The following options are available:
 
 1. If the report has parameters, the **Parameters** section is present. Enter the required parameter values of the appropriate type.
@@ -38,10 +38,10 @@ After saving the report, another screen is presented. It lists the options and p
 
 **Report properties**
 
-![todo:image_alt_text](user-interface-for-creating-reports_3.png)
+![todo:image_alt_text](user-interface-for-creating-reports-3.png)
 
 
 
 **Open the saved report** 
 
-![todo:image_alt_text](user-interface-for-creating-reports_4.png)
+![todo:image_alt_text](user-interface-for-creating-reports-4.png)

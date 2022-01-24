@@ -1,4 +1,4 @@
----
+﻿---
 title: Load And Save To Stream in PHP
 description: "PHP: Load And Save Document To Stream using Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Joining and Splitting Tables
 description: "Join and split tables in a document using python."
 type: docs

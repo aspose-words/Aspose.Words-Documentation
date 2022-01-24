@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Build a Table from a DataTable
 description: "Example of filling document table from external database using Aspose.Words for .Net."
 type: docs
@@ -31,7 +31,7 @@ Note that the preferred way of inserting data from a **DataTable** into a docume
 
 The following data in our **DataTable** is used in this example: 
 
-![how-to-build-a-table-from-a-datatable-aspose-words-net](how-to-build-a-table-from-a-datatable_1.png)
+![how-to-build-a-table-from-a-datatable-aspose-words-net](how-to-build-a-table-from-a-datatable-1.png)
 
 ## The Code
 

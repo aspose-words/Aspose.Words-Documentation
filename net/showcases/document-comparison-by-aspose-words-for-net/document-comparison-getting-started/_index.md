@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Comparison Getting Started
 description: "To get started with Document Comparison by Aspose.Words for .NET learn the information on System Requirements, Technical Support, Download, and Installation."
 type: docs

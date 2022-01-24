@@ -1,4 +1,4 @@
----
+﻿---
 title: Hello World Example
 description: "Create Hello world example to start working with LINQ Reporting Engine to build a report Java."
 type: docs

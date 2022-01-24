@@ -11,14 +11,14 @@ You can insert images from a data source in the report. Image merge fields must 
 **A report template with an Image: merge field** 
 
 
-![todo:image_alt_text](merge-fields-for-inserting-images_1.png)
+![todo:image_alt_text](merge-fields-for-inserting-images-1.png)
 
 
 
 **An employee photo is inserted in the report instead of the Image: merge field** 
 
 
-![todo:image_alt_text](merge-fields-for-inserting-images_2.png)
+![todo:image_alt_text](merge-fields-for-inserting-images-2.png)
 
 
 ## Related Articles

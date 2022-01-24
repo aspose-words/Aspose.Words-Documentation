@@ -1,4 +1,4 @@
----
+﻿---
 title: Style Features Supported on Rich Text Export
 description: "Aspose.Words for Java allows you to work with style features supported when saving to Rich Text format."
 type: docs

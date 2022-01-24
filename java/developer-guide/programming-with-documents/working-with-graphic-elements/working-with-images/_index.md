@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Images
 type: docs
 weight: 40

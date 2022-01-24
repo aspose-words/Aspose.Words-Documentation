@@ -1,4 +1,4 @@
----
+﻿---
 title: Support, Extend and Contribute to Aspose.Words in Python
 description: "Python: how to Support, Extend and Contribute to Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Web Applications Security When Loading External Resources
 type: docs
 description: "Aspose.Words for Java allows you to load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."

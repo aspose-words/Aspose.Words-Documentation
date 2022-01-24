@@ -1,4 +1,4 @@
----
+﻿---
 title: Workflow support
 description: "This page describes workflow features of the Aspose.Words for SharePoint."
 type: docs
@@ -16,4 +16,4 @@ Use them in workflows to convert documents or build reports.
 
 **An entry for the conversion activity logged in the workflow history.** 
 
-![todo:image_alt_text](workflow-support_1.png)
+![todo:image_alt_text](workflow-support-1.png)

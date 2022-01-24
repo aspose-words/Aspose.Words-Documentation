@@ -33,7 +33,7 @@ The following code example shows how to create a mail merge template:
 
 The picture below shows the created template:
 
-<img src="mail_merge_template_1.png" alt="mail_merge_template-aspose-words-cpp" style="width:650px"/>
+<img src="mail-merge-template-1.png" alt="mail_merge_template-aspose-words-cpp" style="width:650px"/>
 
 ## Customize a Mail Merge Template Properties
 

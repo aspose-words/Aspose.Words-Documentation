@@ -1,4 +1,4 @@
----
+﻿---
 title: Parameter Elements
 description: "This page describes Parameter element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs

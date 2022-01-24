@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Product Family
 description: "Aspose.Words is a class library that can be used by developers for various platforms for a variety of document processing tasks."
 type: docs

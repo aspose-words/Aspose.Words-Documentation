@@ -1,4 +1,4 @@
----
+﻿---
 title: Easy and Lightweight Deployment
 description: "This page describes deployment steps of the Aspose.Words for Reporting Services."
 type: docs
@@ -33,4 +33,4 @@ The MSI installer and the ZIP download include several versions of Aspose.Words 
 
 **The MSI installer copies Aspose.Words.ReportingServices.dll to the ReportServer\bin directory and registers it in relevant configuration files.**
 
-![todo:image_alt_text](easy-and-lightweight-deployment_1.png)
+![todo:image_alt_text](easy-and-lightweight-deployment-1.png)

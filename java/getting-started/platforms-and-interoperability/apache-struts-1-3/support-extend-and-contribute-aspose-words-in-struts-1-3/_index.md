@@ -1,4 +1,4 @@
----
+﻿---
 title: Support, Extend and Contribute Aspose.Words in Struts 1.3
 description: "Support, Extend and Contribute Aspose.Words for Struts."
 type: docs

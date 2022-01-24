@@ -1,4 +1,4 @@
----
+﻿---
 title: Shrink Space
 description: "This page describes Shrink Space setting of the Aspose.Words for Reporting Services."
 type: docs

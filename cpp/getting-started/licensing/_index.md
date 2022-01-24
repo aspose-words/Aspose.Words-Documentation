@@ -1,4 +1,4 @@
----
+﻿---
 title: Licensing and Subscription
 description: "Aspose.Words for С++ provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs

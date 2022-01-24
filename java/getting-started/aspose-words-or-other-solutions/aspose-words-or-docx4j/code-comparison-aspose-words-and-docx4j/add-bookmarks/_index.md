@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Bookmarks
 description: "Aspose.Words for Java allows you to add bocmarks to a document easily and fast instead of using docx4j."
 type: docs

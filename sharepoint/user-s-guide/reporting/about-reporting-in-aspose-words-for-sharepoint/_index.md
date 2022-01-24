@@ -20,7 +20,7 @@ Changing the visual report layout is very simple. Just use Microsoft Word to cha
 
 **Change the report template layout in Microsoft Word.** 
 
-![todo:image_alt_text](about-reporting-in-aspose-words-for-sharepoint_1.png)
+![todo:image_alt_text](about-reporting-in-aspose-words-for-sharepoint-1.png)
 
 The report template also specifies where to find the [data source definition](/words/sharepoint/linking-report-template-with-report-definition/). In Aspose.Words for SharePoint, the data source definition is a separate XML file, which describes database connections and queries to retrieve data. Currently the following data sources are supported:
 

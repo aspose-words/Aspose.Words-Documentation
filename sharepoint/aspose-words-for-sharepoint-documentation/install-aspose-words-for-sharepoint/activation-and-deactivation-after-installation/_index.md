@@ -1,4 +1,4 @@
----
+﻿---
 title: Activation and Deactivation After Installation
 description: "This page describes how to deactivate the Aspose.Words for SharePoint after installation."
 type: docs
@@ -10,4 +10,4 @@ During installation, Aspose.Words for SharePoint is activated for all selected w
 
 **Activating Aspose.Words for SharePoint on a web application.**
 
-**![todo:image_alt_text](activation-and-deactivation-after-installation_1.png)**
+**![todo:image_alt_text](activation-and-deactivation-after-installation-1.png)**

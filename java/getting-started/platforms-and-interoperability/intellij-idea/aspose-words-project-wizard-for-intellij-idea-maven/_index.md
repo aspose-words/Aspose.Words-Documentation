@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words Project Wizard for IntelliJ IDEA - Maven
 description: "Aspose.Words Project Wizard for IntelliJ IDEA."
 type: docs

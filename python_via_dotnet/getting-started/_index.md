@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting Started
 type: docs
 description: "Use this introduction to Aspose.Words for Python via .NET fundamentals to start realizing the value of Aspose.Words for your business."

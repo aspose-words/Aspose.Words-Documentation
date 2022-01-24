@@ -1,4 +1,4 @@
----
+﻿---
 title: Using and Configuring CRM OneClick Word Document Generator
 description: "How to use and configure Aspose OneClick Word Document Generator add-on."
 type: docs

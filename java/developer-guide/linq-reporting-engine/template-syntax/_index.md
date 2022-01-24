@@ -1,4 +1,4 @@
----
+﻿---
 title: Template Syntax
 description: "Learn how to create a template for LINQ Reporting Engine to build a report Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Support, Extend and Contribute to Aspose.Words in PHP
 description: "PHP: Support, Extend and Contribute to Aspose.Words for Java."
 type: docs

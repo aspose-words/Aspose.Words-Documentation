@@ -1,4 +1,4 @@
----
+﻿---
 title: Overlapping Items
 description: "This page describes Overlapping Items setting of the Aspose.Words for Reporting Services."
 type: docs

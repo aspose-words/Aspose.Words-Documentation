@@ -1,4 +1,4 @@
----
+﻿---
 title: Changing Page Setup for Whole Document using Aspose.Words
 description: "Aspose.Words for .NET allows you to change page setup for a whole document easily and fast instead of using VSTO."
 type: docs

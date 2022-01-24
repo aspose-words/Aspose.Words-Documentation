@@ -1,4 +1,4 @@
----
+﻿---
 title: Moving the Cursor in Jython
 description: "Jython: Moving the Cursor using Aspose.Words for Java."
 type: docs

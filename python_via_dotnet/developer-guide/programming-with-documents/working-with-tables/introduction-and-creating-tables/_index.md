@@ -1,4 +1,4 @@
----
+﻿---
 title: Introduction and Creating Tables
 description: "Create and manage tables in a document using python."
 type: docs
@@ -103,15 +103,15 @@ In Aspose.Words a table is normally inserted using **DocumentBuilder**. The foll
 
 |Operation|Description|Table State|
 | :- | :- | :- |
-|**DocumentBuilder.start_table**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![create-table-aspose-words-net](introduction-and-creating-tables_1.png)|
-|**DocumentBuilder.insert_cell**|Inserts a new row and cell into the table.|![insert-cell-table-aspose-words-net](introduction-and-creating-tables_2.png)|
-|**DocumentBuilder.writeln**|Writes some text into the current cell.|![fill-in-table-cell-aspose-words-net](introduction-and-creating-tables_3.png)|
-|**DocumentBuilder.insert_cell**|Appends a new cell at the end of the current row.|![append-cell-table-aspose-words-net](introduction-and-creating-tables_4.png)|
-|**DocumentBuilder.writeln**|Writes some text into the current cell (now the second cell).|![fill-in-cell-aspose-words-net](introduction-and-creating-tables_5.png)|
-|**DocumentBuilder.end_row**|Instructs the builder to end the current row and to begin a new row with the next call to **DocumentBuilder.insert_cell** .|![modify-table-aspose-words-net](introduction-and-creating-tables_6.png)|
-|**DocumentBuilder.insert_cell**|Creates a new row and inserts a new cell.|![create-row-table-aspose-words-net](introduction-and-creating-tables_7.png)|
-|**DocumentBuilder.writeln**|Inserts some text into the first cell of the second row.|![fill-in-row-table-aspose-words-net](introduction-and-creating-tables_8.png)|
-|**DocumentBuilder.end_table**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![finish-creating-table-aspose-words-net](introduction-and-creating-tables_9.png)|
+|**DocumentBuilder.start_table**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![create-table-aspose-words-net](introduction-and-creating-tables-1.png)|
+|**DocumentBuilder.insert_cell**|Inserts a new row and cell into the table.|![insert-cell-table-aspose-words-net](introduction-and-creating-tables-2.png)|
+|**DocumentBuilder.writeln**|Writes some text into the current cell.|![fill-in-table-cell-aspose-words-net](introduction-and-creating-tables-3.png)|
+|**DocumentBuilder.insert_cell**|Appends a new cell at the end of the current row.|![append-cell-table-aspose-words-net](introduction-and-creating-tables-4.png)|
+|**DocumentBuilder.writeln**|Writes some text into the current cell (now the second cell).|![fill-in-cell-aspose-words-net](introduction-and-creating-tables-5.png)|
+|**DocumentBuilder.end_row**|Instructs the builder to end the current row and to begin a new row with the next call to **DocumentBuilder.insert_cell** .|![modify-table-aspose-words-net](introduction-and-creating-tables-6.png)|
+|**DocumentBuilder.insert_cell**|Creates a new row and inserts a new cell.|![create-row-table-aspose-words-net](introduction-and-creating-tables-7.png)|
+|**DocumentBuilder.writeln**|Inserts some text into the first cell of the second row.|![fill-in-row-table-aspose-words-net](introduction-and-creating-tables-8.png)|
+|**DocumentBuilder.end_table**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![finish-creating-table-aspose-words-net](introduction-and-creating-tables-9.png)|
 
 ### Algorithm for Creating a Table
 

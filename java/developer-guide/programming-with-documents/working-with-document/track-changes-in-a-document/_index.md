@@ -1,4 +1,4 @@
----
+﻿---
 title: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them using Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: PHP Programmers Guide
 description: "PHP + Aspose.Words for Java: Programmers Guide."
 type: docs

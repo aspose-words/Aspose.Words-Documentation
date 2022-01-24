@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Lambda Functions
 description: "Use lambda functions in template expressions when building a report Java."
 type: docs

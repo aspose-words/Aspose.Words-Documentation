@@ -28,7 +28,7 @@ The most common example of a nested mail merge is an order that contains multipl
 
 The picture below shows two nested regions where the *Order* mail merge region is the parent of the *Item* mail merge region.
 
-<img src="nested_mail_merge_with_regions_1.png" alt="nested_mail_merge_with_regions_aspose_words_java" style="width:650px"/>
+<img src="nested-mail-merge-with-regions-1.png" alt="nested_mail_merge_with_regions_aspose_words_java" style="width:650px"/>
 
 ## How to Process Mail Merge with Nested Regions
 
@@ -38,7 +38,7 @@ Aspose.Words allows you to process mail merge with nested regions using the data
 
 The image below shows how the data from the *Order* table passed to the nested merge regions will be linked to the *Item* table, as well as the output generated during the merge operation.
 
-<img src="nested_mail_merge_with_regions_2.png" alt="mail_merge_with_nested_regions_aspose_words_java" style="width:650px"/>
+<img src="nested-mail-merge-with-regions-2.png" alt="mail_merge_with_nested_regions_aspose_words_java" style="width:650px"/>
 
 As you can see from the output document, each order from the **Order** table is inserted into the merge template with all order’s related items from the **Item** table. The next order will be inserted along with their items until all the orders and items are listed. The order of nesting mail merge with regions in the template must match the data relationships between the tables in the data source.
 

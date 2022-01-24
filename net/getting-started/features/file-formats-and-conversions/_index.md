@@ -65,51 +65,51 @@ Below are examples of conversions between some popular formats. You can evaluate
 
 *DOC to RTF – high-fidelity conversion:*
 
-<img src="high-quality-conversions_1.png" alt="doc-to-rtf-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_2.png" alt="doc-to-rtf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions-1.png" alt="doc-to-rtf-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions-2.png" alt="doc-to-rtf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
 *DOC to PDF – high-fidelity conversion:*
 
-<img src="high-quality-conversions_1.png" alt="doc-to-pdf-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_3.png" alt="doc-to-pdf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions-1.png" alt="doc-to-pdf-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions-3.png" alt="doc-to-pdf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
-<img src="adobe-portable-document-format-pdf_2.png" alt="doc-to-pdf-aspose-words-net-3" style="width:500px; vertical-align: top"/> <img src="adobe-portable-document-format-pdf_3.png" alt="doc-to-pdf-aspose-words-net-4" style="width:500px; vertical-align: top"/>
+<img src="adobe-portable-document-format-pdf-2.png" alt="doc-to-pdf-aspose-words-net-3" style="width:500px; vertical-align: top"/> <img src="adobe-portable-document-format-pdf-3.png" alt="doc-to-pdf-aspose-words-net-4" style="width:500px; vertical-align: top"/>
 
 ---
 
 *DOC to ODT – high-fidelity conversion:*
 
-<img src="high-quality-conversions_1.png" alt="doc-to-odt-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_4.png" alt="doc-to-odt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions-1.png" alt="doc-to-odt-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions-4.png" alt="doc-to-odt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
 *DOC to XPS – high-fidelity conversion:*
 
-<img src="xml-paper-specification-xps_2.png" alt="doc-to-xps-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="xml-paper-specification-xps_3.png" alt="doc-to-xps-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="xml-paper-specification-xps-2.png" alt="doc-to-xps-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="xml-paper-specification-xps-3.png" alt="doc-to-xps-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
 *DOC to PostScript – high-fidelity conversion:*
 
-<img src="postscript_2.png" alt="doc-to-postscript-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="postscript_3.png" alt="doc-to-postscript-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="postscript-2.png" alt="doc-to-postscript-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="postscript-3.png" alt="doc-to-postscript-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
 *DOC to JPEG – high-fidelity conversion:*
 
-<img src="image-formats-tiff-png-bmp-emf-jpeg-gif_9.png" alt="doc-to-jpeg-aspose-words-net-1" style="width:1000px; vertical-align: top"/>
+<img src="image-formats-tiff-png-bmp-emf-jpeg-gif-9.png" alt="doc-to-jpeg-aspose-words-net-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
 *DOC to GIF – high-fidelity conversion:*
 
-<img src="image-formats-tiff-png-bmp-emf-jpeg-gif_11.png" alt="doc-to-gif-aspose-words-net-1" style="width:1000px; vertical-align: top"/>
+<img src="image-formats-tiff-png-bmp-emf-jpeg-gif-11.png" alt="doc-to-gif-aspose-words-net-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
 *RTF to TXT – high-fidelity conversion:*
 
-<img src="plain-text-txt_2.png" alt="rtf-to-txt-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="plain-text-txt_3.png" alt="rtf-to-txt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="plain-text-txt-2.png" alt="rtf-to-txt-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="plain-text-txt-3.png" alt="rtf-to-txt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
@@ -129,9 +129,9 @@ Below is an example of conversions from DOC to HTML.
 
 DOC to HTML – high-fidelity conversion:
 
-<img src="high-quality-conversions_1.png" alt="doc-to-html-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions_5.png" alt="doc-to-html-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="high-quality-conversions-1.png" alt="doc-to-html-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="high-quality-conversions-5.png" alt="doc-to-html-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
-<img src="html-xhtml-and-mhtml_4.png" alt="doc-to-html-aspose-words-net-3" style="width:500px; vertical-align: top"/> <img src="html-xhtml-and-mhtml_5.png" alt="doc-to-html-aspose-words-net-4" style="width:500px; vertical-align: top"/>
+<img src="html-xhtml-and-mhtml-4.png" alt="doc-to-html-aspose-words-net-3" style="width:500px; vertical-align: top"/> <img src="html-xhtml-and-mhtml-5.png" alt="doc-to-html-aspose-words-net-4" style="width:500px; vertical-align: top"/>
 
 ---
 

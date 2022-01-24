@@ -1,4 +1,4 @@
----
+﻿---
 title: Footnotes and Endnote Features Supported on Rich Text Import
 description: "Aspose.Words for Java allows you to work with footnotes and endnote features supported on Rich Text import."
 type: docs

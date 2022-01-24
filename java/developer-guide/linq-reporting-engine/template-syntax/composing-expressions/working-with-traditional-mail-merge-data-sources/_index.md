@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Traditional Mail Merge Data Sources
 description: "Use simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects when building a report Java."
 type: docs

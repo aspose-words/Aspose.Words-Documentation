@@ -1,4 +1,4 @@
----
+﻿---
 title: Create New Document
 description: "Aspose.Words for Java allows you to create a new document easily and fast instead of using docx4j."
 type: docs

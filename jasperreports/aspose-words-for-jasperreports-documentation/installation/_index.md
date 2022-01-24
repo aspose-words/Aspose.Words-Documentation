@@ -341,14 +341,14 @@ Restart JasperReports Server and open any report to view. If the previous steps 
 
 For JasperReports Server 3.x and 4.x -
 
-![todo:image_alt_text](installation_1.png)
+![todo:image_alt_text](installation-1.png)
 
 For JasperReports Server 5.x -
 
-![todo:image_alt_text](installation_2.png)
+![todo:image_alt_text](installation-2.png)
 
 For JasperReports Server 6.x and 7.x -
 
-![todo:image_alt_text](installation_3.png)
+![todo:image_alt_text](installation-3.png)
 
 If you do not see additional formats (icons or choices), please check log files in **<InstallDir>**\apache-tomcat\logs directory.

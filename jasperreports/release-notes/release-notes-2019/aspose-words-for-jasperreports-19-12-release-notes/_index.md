@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for JasperReports 19.12 Release Notes
 description: "Aspose.Words for JasperReports 19.12 Release Notes – learn about the latest updates and fixes."
 type: docs

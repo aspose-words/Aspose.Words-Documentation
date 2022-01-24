@@ -1,4 +1,4 @@
----
+﻿---
 title: Extend and Contribute to CRM AutoMerge
 description: "How to defined a custom workflow using Aspose AutoMerge add-on that can be used with Workflows and Dialogs in CRM."
 type: docs

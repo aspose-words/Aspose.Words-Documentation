@@ -1,4 +1,4 @@
----
+﻿---
 title: Mac via Xamarin Release Notes - 2017
 description: "Mac via Xamarin Release Notes - 2017 – learn about the latest updates and fixes."
 type: docs

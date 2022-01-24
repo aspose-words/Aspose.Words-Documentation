@@ -1,4 +1,4 @@
----
+﻿---
 title: Generator or Producer Name Included in Output Documents
 description: "Aspose.Words for Java add to the document the generator name and version number that was used to create it. This data can be found in the document in ways that depend on the output file format."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Python Programmers Guide
 description: "Examples of Aspose.Words.Java API in Python using JPype."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: System Requirements
 description: "This page describes system requirements for the Aspose.Words for SharePoint."
 type: docs

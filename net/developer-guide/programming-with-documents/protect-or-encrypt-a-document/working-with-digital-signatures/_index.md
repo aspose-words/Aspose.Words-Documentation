@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Digital Signatures
 description: "Aspose.Words for .NET allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
@@ -120,9 +120,9 @@ A signature line is a visual representation of a digital signature in a document
 
 For example, the picture below shows how valid and invalid signatures can be displayed.
 
-<img src="Valid.png" alt="drawing" style="width:300px"/>
+<img src="valid.png" alt="drawing" style="width:300px"/>
 
-<img src="Invalid.png" alt="drawing" style="width:300px"/>
+<img src="invalid.png" alt="drawing" style="width:300px"/>
 
 Also, if a document contains a signature line and no digital signature, there is a feature to ask the user to add a signature.
 

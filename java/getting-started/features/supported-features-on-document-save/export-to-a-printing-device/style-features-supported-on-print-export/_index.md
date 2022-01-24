@@ -1,4 +1,4 @@
----
+﻿---
 title: Style Features Supported on Print Export
 description: "Aspose.Words for Java allows you to work with style features supported when saving to printing device."
 type: docs

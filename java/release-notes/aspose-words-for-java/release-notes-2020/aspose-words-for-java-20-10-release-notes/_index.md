@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Java 20.10 Release Notes
 description: "Aspose.Words for Java 20.10 Release Notes – learn about the latest updates and fixes."
 type: docs
@@ -671,10 +671,10 @@ Here are example pictures of Aspose.Words Cold Rendering of some standard layout
 
 ||Aspose.Words|Microsoft Word|
 | :- | :- | :- |
-|Basic Process	|<img src="BasicProcess Aspose.png" alt="BasicProcess Aspose"/>|<img src="BasicProcess Word.png" alt="BasicProcess Word"/>|
-|Circular Bending Process	|<img src="CircularBendingProcess Aspose.png" alt="CircularBendingProcess Aspose"/>|<img src="CircularBendingProcess Word.png" alt="CircularBendingProcess Word"/>|
-|Repeating Bending Process	|<img src="RepeatingBendingProcess Aspose.png" alt="RepeatingBendingProcess Aspose"/>|<img src="RepeatingBendingProcess Word.png" alt="RepeatingBendingProcess Word"/>|
-|Trapezoid List	|<img src="TrapezoidList Aspose.png" alt="TrapezoidList Aspose"/>|<img src="TrapezoidList Word.png" alt="TrapezoidList Word"/>|
+|Basic Process	|<img src="basic-process-aspose.png" alt="BasicProcess Aspose"/>|<img src="basic-process-word.png" alt="BasicProcess Word"/>|
+|Circular Bending Process	|<img src="circular-bending-process-aspose.png" alt="CircularBendingProcess Aspose"/>|<img src="circular-bending-process-word.png" alt="CircularBendingProcess Word"/>|
+|Repeating Bending Process	|<img src="repeating-bending-process-aspose.png" alt="RepeatingBendingProcess Aspose"/>|<img src="repeating-bending-process-word.png" alt="RepeatingBendingProcess Word"/>|
+|Trapezoid List	|<img src="trapezoid-list-aspose.png" alt="TrapezoidList Aspose"/>|<img src="trapezoid-list-word.png" alt="TrapezoidList Word"/>|
 
 
 ### Signatures of DocumentBuilder.InsertOleObject methods changed to accept Syste.IO.Stream instead of System.Drawing.Image

@@ -1,4 +1,4 @@
----
+﻿---
 title: Download and Configure Aspose.Words in PHP
 description: "PHP: Download and Configure Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Appendix B. Technical FAQ
 description: "Learn the LINQ Reporting Engine FAQ to build a report Java."
 type: docs

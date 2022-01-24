@@ -1,4 +1,4 @@
----
+﻿---
 title: Deployment and Activation
 description: "This page describes deployment and activation processes details for the Aspose.Words for SharePoint."
 type: docs

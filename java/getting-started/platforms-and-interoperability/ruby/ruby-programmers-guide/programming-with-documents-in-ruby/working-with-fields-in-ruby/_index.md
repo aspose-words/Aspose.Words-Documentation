@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Fields in Ruby
 description: "Ruby: working with Documnet's Fields using Aspose.Words for Java."
 type: docs

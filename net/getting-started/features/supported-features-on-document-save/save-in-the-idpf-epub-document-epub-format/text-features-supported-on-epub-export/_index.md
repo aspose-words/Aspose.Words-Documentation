@@ -1,4 +1,4 @@
----
+﻿---
 title: Text Features Supported on EPUB Export
 description: "Aspose.Words for .NET allows you to work with text features supported when saving to EPUB format."
 type: docs

@@ -30,11 +30,11 @@ There are binary and ternary raster operations:
 
 - Binary raster operations are applied to pen drawing commands, such as drawing lines and curves. When drawing a line, the pen color is combined with the destination bitmap color (the color of the corresponding pixel on the device surface) by using specified bitwise logical operations with hex color values. The image example below illustrates the effect of all 16 binary raster operations applied to 20 different color bars. The vertical color bars are drawn first, the horizontal bars are drawn after each binary raster operation is applied. For the simple cases, R2_BLACK draws black, R2_NOT inverses the color, R2_NOP does not change the background, and R2_WHITE draws white.
 
-<img src="handling-windows-metafiles_1.png" alt="handling-windows-metafiles-aspose-words-java-1" style="width:650px"/>
+<img src="handling-windows-metafiles-1.png" alt="handling-windows-metafiles-aspose-words-java-1" style="width:650px"/>
 
 - Ternary raster operations are applied when drawing bitmap images. They combine colors of corresponding bitmap image pixels, the brush, and the destination bitmap by using bitwise logical operations with specified hex color values. One of the most common purposes of using ternary raster operations is the emulation of transparency. The image provided in the example below demonstrates how icon transparency can be emulated. There are two types of bitmaps: the b/w mask bitmap and the color bitmap. First, the mask bitmap is drawn with the SRCAND raster operation. It changes the opaque icon region to black and white, leaving the transparent region unchanged. Then the second bitmap is drawn with the SRCINVERT raster operation. It displays the color pixels on the black region, leaving the transparent region unchanged.
 
-<img src="handling-windows-metafiles_2.png" alt="handling-windows-metafiles-aspose-words-java-2" style="width:650px"/>
+<img src="handling-windows-metafiles-2.png" alt="handling-windows-metafiles-aspose-words-java-2" style="width:650px"/>
 
 Raster operations can not be converted to vector graphics directly. Aspose.Words emulates raster operations by partially rasterizing the device surface affected by raster operations. For this purpose, the [EmulateRasterOperations](https://apireference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions#EmulateRasterOperations) property is used.
 

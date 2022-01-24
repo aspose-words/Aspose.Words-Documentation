@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for SharePoint 2.5.0 Release Notes
 description: "Aspose.Words for SharePoint 2.5.0 Release Notes – learn about the latest updates and fixes."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Remove Breaks in PHP
 description: "PHP: Remove Breaks using Aspose.Words for Java."
 type: docs

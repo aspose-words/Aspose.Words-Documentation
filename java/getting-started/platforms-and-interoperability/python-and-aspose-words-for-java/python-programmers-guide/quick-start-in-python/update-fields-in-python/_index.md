@@ -1,4 +1,4 @@
----
+﻿---
 title: Update Fields in Python
 description: "Python: update fields of Word Document using Aspose.Words for Java."
 type: docs
