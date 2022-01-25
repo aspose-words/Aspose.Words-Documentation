@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visual Studio Export GridView To Word Control
 description: "Learn how to export contents of GridView into Word Processing document using Aspose.Words."
 type: docs
@@ -103,7 +103,6 @@ Once installed, it is very easy to start using this control in your ASP.NET appl
 |For .NET framework 4.0 and above |For .NET framework 2.0 and above | |
 | :- | :- | :- |
 |For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportGridViewToWord** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. |In order you use this control in applications running in .NET 2.0 in any visual studio version make sure that you have added ExportGridViewToWord to your toolbox as per instructions on ﻿[8.1.2.1 Downloading and Installing]() under heading **For Visual Studio 2005, 2008 and Express editions** <br>You should see **ExportGridViewToWord** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. | |
-|![todo:image_alt_text](/download/thumbnails/2590054/1158480187)|![todo:image_alt_text](/download/thumbnails/2590054/1902680530)| |
 
 ### Manually adding ExportGridViewToWord control
 
