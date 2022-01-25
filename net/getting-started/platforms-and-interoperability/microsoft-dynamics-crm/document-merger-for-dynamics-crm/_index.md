@@ -33,10 +33,9 @@ This addon will work with all version of:
 
 You can download the latest solution at:
 
-- [Github](http://goo.gl/QHL5V6)
-- [Sourceforge](http://goo.gl/vKdnuX)
-- [Bitbucket](http://goo.gl/EHLHBr)
-- [Code.MSDN](http://goo.gl/Vlaj4q)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-Document-Merger)
+- [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20Document%20Merger/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20Document%20Merger)
 
 ## Installing or Uninstalling
 
@@ -90,10 +89,9 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET Document Merger using any of the following platforms:
 
-- [Github](http://goo.gl/QHL5V6)
-- [Sourceforge](http://goo.gl/vKdnuX)
-- [Bitbucket](http://goo.gl/EHLHBr)
-- [Code.MSDN](http://goo.gl/Vlaj4q)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-Document-Merger)
+- [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20Document%20Merger/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20Document%20Merger)
 
 ### Extend and Contribute
 

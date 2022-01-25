@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using DocumentBuilder to Modify a Document
 type: docs
 weight: 20
@@ -11,7 +11,7 @@ url: /java/using-documentbuilder-to-modify-a-document/
 
 Current font formatting is represented by a Font object returned by the DocumentBuilder.Font property. The Font class contains a wide variety of font properties possible in Microsoft Word.
 
-|![font-formatting-aspose-words-java](http://i.imgur.com/rptZz44.png)|
+|![font-formatting-aspose-words-java](documentbuilder-to-modify-document-1.png)|
 | :- |
 The following code example shows how to set font formatting.
 
@@ -22,7 +22,7 @@ The following code example shows how to set font formatting.
 
 Cell formatting is used during the building of a table. It is represented by a CellFormat object returned by the DocumentBuilder.CellFormat property. CellFormat encapsulates various table cell properties like width or vertical alignment.
 
-|![cell-formatting-aspose-words-java](http://i.imgur.com/s3GsAzX.png)|
+|![cell-formatting-aspose-words-java](documentbuilder-to-modify-document-2.png)|
 | :- |
 The following code example shows how to create a table that contains a single formatted cell.
 
@@ -32,7 +32,7 @@ The following code example shows how to create a table that contains a single fo
 
 Current row formatting is determined by a RowFormat object that is returned by the DocumentBuilder.RowFormat property. The object encapsulates information about all table row formatting.
 
-|![row-formatting-aspose-words-java](http://i.imgur.com/b9kTobS.png)|
+|![row-formatting-aspose-words-java](documentbuilder-to-modify-document-3.png)|
 | :- |
 The below code example shows how to create a table that contains a single cell and apply row formatting.
 
@@ -42,7 +42,7 @@ The below code example shows how to create a table that contains a single cell a
 
 Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the DocumentBuilder.ListFormat property that returns a ListFormat object. This object has several methods to start and end a list and to increase/decrease the indent.
 
-|![list-fformatting-aspose-words-java](http://i.imgur.com/FQderGo.png)|
+|![list-fformatting-aspose-words-java](documentbuilder-to-modify-document-4.png)|
 | :- |
 There are two general types of lists in Microsoft Word: bulleted and numbered.
 
@@ -72,7 +72,7 @@ The following code example shows how to build a multilevel list.
 
 Page setup and section properties are encapsulated in the PageSetup object that is returned by the DocumentBuilder.PageSetup property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
-|![section-formatting-aspose-words-java](http://i.imgur.com/toUNnPO.png)|
+|![section-formatting-aspose-words-java](documentbuilder-to-modify-document-5.png)|
 | :- |
 The following code example shows how to set such properties as page size and orientation for the current section.
 
@@ -84,7 +84,7 @@ Some formatting objects like Font or ParagraphFormat support styles. A single bu
 
 Furthermore, a **Style** object provides the [Style.getStyleIdentifier](http://www.aspose.com/api/java/words/com.aspose.words/classes/style/methods/getStyleIdentifier\(\)/) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**.
 
-|![apply-style-aspose-words-java](http://i.imgur.com/OwWl1Uz.png)|
+|![apply-style-aspose-words-java](documentbuilder-to-modify-document-6.png)|
 | :- |
 The following code example shows how to apply a paragraph style.
 
@@ -96,13 +96,13 @@ Borders are represented by the BorderCollection. This is a collection of Border 
 
 Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.clearFormatting](http://www.aspose.com/api/java/words/com.aspose.words/classes/border/methods/clearFormatting\(\)/) method. Note that when border properties are reset to default values, the border is invisible.
 
-|![set-borders-shading-aspose-words-java](http://i.imgur.com/4nNcT7K.png)|
+|![set-borders-shading-aspose-words-java](documentbuilder-to-modify-document-7.png)|
 | :- |
 The [Shading](http://www.aspose.com/api/java/words/com.aspose.words/classes/Shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
 The shading texture is set with a [TextureIndex](http://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](http://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) value and set the foreground shading color as appropriate.
 
-|![borders-and-shading-aspose-words-java](http://i.imgur.com/RDPc5fw.png)|
+|![borders-and-shading-aspose-words-java](documentbuilder-to-modify-document-8.png)|
 | :- |
 The below example shows how to apply borders and shading to a paragraph.
 
