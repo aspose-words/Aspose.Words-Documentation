@@ -6,7 +6,7 @@ weight: 5
 url: /java/how-to-build-aspose-words-for-python-via-java/
 ---
 
-To create "Aspose Words for Python via Java" package we use [JCC](http://lucene.apache.org/pylucene/jcc/index.html)
+To create "Aspose Words for Python via Java" package we use [JCC](https://lucene.apache.org/pylucene/jcc/index.html)
 
 ## How to build JCC on Windows
 
@@ -26,7 +26,7 @@ Install wheel
 >  pip install wheel
 {{< /highlight >}}
 
-Download and install [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/details.aspx?id=44266)
+Download and install [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/404Error.aspx)
 
 Download and unzip [JCC](https://pypi.org/project/JCC/)
 

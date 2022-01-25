@@ -10,7 +10,7 @@ aliases: [/net/extend-and-contribute-to-crm-oneclick-word-document-generator/]
 You can download the latest source code at:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose%20OneClick%20Word%20Document%20Generator).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-OneClick-Word-bebd8272/view/SourceCode#content).
+- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples/view/SourceCode#content).
 
 Below code demonstrate the functionality to generate document from template.
 

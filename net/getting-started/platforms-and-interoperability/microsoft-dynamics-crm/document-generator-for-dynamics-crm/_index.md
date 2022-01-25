@@ -38,10 +38,10 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download Aspose .NET Document Generator for CRM from one of the following locations:
 
-- [Github](http://goo.gl/rrLOLu)
-- [Sourceforge](http://goo.gl/mua233)
-- [Bitbucket](http://goo.gl/ngjuJg)
-- [Code.MSDN](http://goo.gl/bqPhfr)
+- [Github](https://goo.gl/rrLOLu)
+- [Sourceforge](https://goo.gl/mua233)
+- [Bitbucket](https://goo.gl/ngjuJg)
+- [Code.MSDN](https://goo.gl/bqPhfr)
 
 ## Installing or Uninstalling
 
@@ -106,20 +106,20 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET Document Generator using any of the following platforms:
 
-- [Github](http://goo.gl/rrLOLu)
-- [Sourceforge](http://goo.gl/mua233)
-- [Bitbucket](http://goo.gl/ngjuJg)
-- [Code.MSDN](http://goo.gl/bqPhfr)
+- [Github](https://goo.gl/rrLOLu)
+- [Sourceforge](https://goo.gl/mua233)
+- [Bitbucket](https://goo.gl/ngjuJg)
+- [Code.MSDN](https://goo.gl/bqPhfr)
 
 ### Extend and Contribute
 
 You can download the latest source code at:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposenetcrm#Aspose%20.NET%20Document%20Generator/).
+- [CodePlex](https://www.microsoft.com/?p=asposenetcrm#Aspose%20.NET%20Document%20Generator/).
 - [GitHub](https://github.com/asposemarketplace/asposenetcrm/tree/AsposeDocumentGenerator-1.0.0.2011/Aspose%20.NET%20Document%20Generator/Source%20Code).
 - [BitBucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/src/7ce93ebc181bba2b22539bfe183c68872f812070/Aspose%20.NET%20Document%20Generator/Source%20Code/?at=master).
 - [SourceForge](http://sourceforge.net/p/asposenetcrm/code/ci/master/tree/Aspose%20.NET%20Document%20Generator/Source%20Code/).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Document-1b4405dd/view/SourceCode#content).
+- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content).
 
 Retrieve Note and Read in FileStream. Then read the list of Fields from CRM
 

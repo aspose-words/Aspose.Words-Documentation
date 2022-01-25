@@ -39,7 +39,7 @@ Please feel free to contact us if you wish to install these modules on other ver
 You can download Quote Generator modules from one of the following locations
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AdvanceDNNContentExporter)
-- [DNN Store](http://store.dnnsoftware.com/home/product-details/aspose-net-advance-dnn-content-exporter)
+- [DNN Store](https://store.dnnsoftware.com/home/product-details/aspose-net-advance-dnn-content-exporter)
 
 ## Installing
 
@@ -51,7 +51,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 1. As directed browse to the location of the downloaded zip file, select it then click **Open**.
 1. Click **Next**, accept the license, continue through the install. When finished click the **Return** button.
 
-Please check [this module installation video](http://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
+Please check [this module installation video](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details.
 
 ## Using
 
@@ -104,7 +104,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-Advance-DNN-9d95e936/view/Discussions#content)
+- [Microsoft Developer Network](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples/view/Discussions#content)
 
 ### Extend and Contribute
 
@@ -115,7 +115,7 @@ Aspose .NET Advance DNN Content Exporter module is open source and their source 
 You can get the latest source code from one of the following locations
 
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Microsoft Developer Network](https://code.msdn.microsoft.com/Aspose-NET-Advance-DNN-9d95e936)
+- [Microsoft Developer Network](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 #### How to configure the source code
 

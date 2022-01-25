@@ -221,7 +221,7 @@ Removed obsolete public API method 'SetAsDefault' from LoadOptions.LanguagePrefe
 public void SetAsDefault(EditingLanguage language)
 {{< /highlight >}}
 
-Please use *LanguagePreferences.DefaultEditingLanguage* property instead: <https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+18.6+Release+Notes>
+Please use *LanguagePreferences.DefaultEditingLanguage* property instead: <https://docs.aspose.com/words/net/aspose-words-for-net-18-6-release-notes/>
 
 ### Added a Public Property HtmlSaveOptions.ResolveFontNames
 

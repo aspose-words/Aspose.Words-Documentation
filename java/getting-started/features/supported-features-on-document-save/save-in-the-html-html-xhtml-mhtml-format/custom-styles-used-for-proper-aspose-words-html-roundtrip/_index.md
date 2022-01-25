@@ -147,8 +147,8 @@ In simple case when bookmark is located within one paragraph, in output HTML thi
 
 In more complex case when bookmark is overlapped with other bookmark or bookmark’s boundaries are spread over multiple paragraphs additional span element is used to preserve bookmark’s boundaries (HTML doesn’t allow anchor tags to overlap each other or spread over multiple paragraphs). –aw-bookmark-start and –aw-bookmark-end CSS properties can be applied to this span.
 
-**-aw-bookmark-start** stores name of bookmark which it starts. Corresponds to [Aspose.Words.Bookmark.Name](https://apireference.aspose.com/words/java/com.aspose.words/bookmark#Name) property.
-**-aw-bookmark-end** stores name of bookmark which it ends. Corresponds to [Aspose.Words.Bookmark.Name](https://apireference.aspose.com/words/java/com.aspose.words/bookmark#Name) property.
+**-aw-bookmark-start** stores name of bookmark which it starts. Corresponds to [Aspose.Words.Bookmark.Name](https://apireference.aspose.com/words/java/com.aspose.words/Bookmark#Name) property.
+**-aw-bookmark-end** stores name of bookmark which it ends. Corresponds to [Aspose.Words.Bookmark.Name](https://apireference.aspose.com/words/java/com.aspose.words/Bookmark#Name) property.
 
 In the following example first bookmark’s boundaries are marked as bookmark with “bm1” name and span which –aw-bookmark-end property’s value is set to “bm1”.
 
@@ -165,11 +165,11 @@ In the following example first bookmark’s boundaries are marked as bookmark wi
 
 Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader and –aw-tabstop-pos CSS properties can be applied to this span.
 
-**-aw-tabstop-align** stores value which specifies the alignment/type of a tab stop. Possible values are “left”, “center”, “right” and partially correspond to values of Aspose.Words.TabAlignment enum (other tab stop types can’t be emulated by means of HTML and are exported as span elements with "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\x20" content). Property corresponds to [Aspose.Words.TabStop.Alignment](https://apireference.aspose.com/words/java/com.aspose.words/tabstop#Alignment) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat#TabStops) collection object.
+**-aw-tabstop-align** stores value which specifies the alignment/type of a tab stop. Possible values are “left”, “center”, “right” and partially correspond to values of Aspose.Words.TabAlignment enum (other tab stop types can’t be emulated by means of HTML and are exported as span elements with "\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\x20" content). Property corresponds to [Aspose.Words.TabStop.Alignment](https://apireference.aspose.com/words/java/com.aspose.words/tabstop#Alignment) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/Paragraphformat#TabStops) collection object.
 
-**-aw-tabstop-pos** stores position of the tab stop. Corresponds to Aspose.Words.TabStop.Position property of Corresponds to [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat#TabStops) collection object.
+**-aw-tabstop-pos** stores position of the tab stop. Corresponds to Aspose.Words.TabStop.Position property of Corresponds to [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/Paragraphformat#TabStops) collection object.
 
-**-aw-tabstop-leader** stores stores value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of [Aspose.Words.TabLeader](https://apireference.aspose.com/words/java/com.aspose.words/TabLeader) enum. Property corresponds to [Aspose.Words.TabStop.Leader](https://apireference.aspose.com/words/java/com.aspose.words/tabstop#Leader) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/paragraphformat#TabStops) collection object.
+**-aw-tabstop-leader** stores stores value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of [Aspose.Words.TabLeader](https://apireference.aspose.com/words/java/com.aspose.words/TabLeader) enum. Property corresponds to [Aspose.Words.TabStop.Leader](https://apireference.aspose.com/words/java/com.aspose.words/tabstop#Leader) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://apireference.aspose.com/words/java/com.aspose.words/Paragraphformat#TabStops) collection object.
 
 Example:
 
@@ -186,7 +186,7 @@ Example:
 
 Usually PAGE field is represented as one span element in HTML output, but can be represented with several spans. We enclose these span elements with one span container. –aw-field-code CSS property can be applied to this span.
 
-**-aw-field-code** stores text between field start and field separator (or field end if there is no separator). Corresponds to [Aspose.Words.Fields.Field.GetFieldCode()](https://apireference.aspose.com/words/java/com.aspose.words/field#getFieldCode()) function’s return value.
+**-aw-field-code** stores text between field start and field separator (or field end if there is no separator). Corresponds to [Aspose.Words.Fields.Field.GetFieldCode()](https://apireference.aspose.com/words/java/com.aspose.words/Field#getFieldCode()) function’s return value.
 
 Example:
 
@@ -242,8 +242,8 @@ Example:
 
 Every document element which is content control can be marked in output HTML with special CSS properties –aw-sdt-title and –aw-sdt-tag (p and span elements).
 
-**-aw-sdt-title** stores friendly name associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Title](https://apireference.aspose.com/words/java/com.aspose.words/structureddocumenttag#Title) property.
-**-aw-sdt-tag** stores tag associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Tag](https://apireference.aspose.com/words/java/com.aspose.words/structureddocumenttag#Tag) property.
+**-aw-sdt-title** stores friendly name associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Title](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag#Title) property.
+**-aw-sdt-tag** stores tag associated with structured document tag. Corresponds to [Aspose.Words.Markup.StructuredDocumentTag.Tag](https://apireference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag#Tag) property.
 
 Example:
 

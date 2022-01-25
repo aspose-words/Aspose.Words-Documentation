@@ -42,11 +42,11 @@ You can log any issues or suggestions related to Aspose.Words .NET for Sitefinit
 
 **Sitefinity Export to Word and PDF**
 
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Sitefinity-Export-to-Word-6d8f41d0/view/Discussions#content)
+- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 **Aspose .NET Word Import for Sitefinity**
 
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Import-Word-Documents-to-f0358271/view/Discussions#content)
+- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 #### Extend and Contribute
 
@@ -82,7 +82,7 @@ You can download Aspose .NET Content Exporter for Sitefinity module from one of 
 
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Sitefinity/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposesitefinity/files/)
-- [Bitbucket  ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads)
+- [Bitbucket  ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads/)
 
 #### Installing
 

@@ -50,7 +50,7 @@ You can log any issues or suggestions related to Aspose.Words .NET for Kentico M
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico/issues)
 - [Sourceforge ](https://sourceforge.net/p/asposekentico/tickets/)
 - [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/issues?status=new&status=open)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Aspose-NET-Word-Processing-5248fcd7/view/Discussions#content)
+- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 #### Extend and Contribute
 
@@ -84,7 +84,7 @@ You can download Aspose .NET Content Exporter for Kentico module from one of the
 
 - [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico/releases)
 - [Sourceforge ](https://sourceforge.net/projects/asposekentico/files/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/downloads)
+- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/downloads/)
 
 ### Installing
 
@@ -119,7 +119,7 @@ After you have installed the Aspose .NET Word Processing and PDF Document Export
 1. In the web part configuration dialog, you can set the value of the **Export to Word** and **Export to Pdf** button text.
 1. Click **OK**.
 
-Please check [Using and configuring web parts](https://docs.kentico.com/display/K8/Using+and+configuring+web+parts) for more details. 
+Please check [Using and configuring web parts](https://docs.xperience.io/display/K8/Using+and+configuring+web+parts) for more details. 
 
 |![kentico-content-exporter-module_1](kentico-content-exporter-module_1)|![kentico-content-exporter-module_2](kentico-content-exporter-module_2)|![kentico-content-exporter-module_3](kentico-content-exporter-module_3)|
 | :- | :- | :- |

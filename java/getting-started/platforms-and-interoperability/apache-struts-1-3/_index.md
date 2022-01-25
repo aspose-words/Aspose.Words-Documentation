@@ -14,7 +14,7 @@ Web applications differ from conventional websites in that web applications can 
 
 One way to separate concerns in a software application is to use a Model-View-Controller (MVC) architecture. The Model represents the business or database code, the View represents the page design code, and the Controller represents the navigational code. The Struts framework is designed to help developers create web applications that utilize a MVC architecture.
 
-[Learn more](http://struts.apache.org/birdseye.html)
+[Learn more](https://struts.apache.org/birdseye.html)
 
 ## Aspose.Words for Java
 

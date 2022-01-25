@@ -10,7 +10,7 @@ url: /java/installing-and-using-aspose-words-for-intellij-idea-maven/
 
 Steps below demonstrate how to install **Aspose.Words Java for IntelliJ IDEA (Maven)** plugin.
 
-The plugin is listed on IntelliJ IDEA’s CE [official plugin website](https://plugins.jetbrains.com/plugin/7922) - plugin repository as **Aspose Words Java for IntelliJ IDEA Maven**, so you don’t need to download it manually and install it from disk, but this extra option still exists in IntelliJ IDEA.
+The plugin is listed on IntelliJ IDEA’s CE [official plugin website](https://plugins.jetbrains.com/plugin/7922-aspose-words-java-for-intellij-idea-maven/) - plugin repository as **Aspose Words Java for IntelliJ IDEA Maven**, so you don’t need to download it manually and install it from disk, but this extra option still exists in IntelliJ IDEA.
 
 **Aspose.Words Java for IntelliJ IDEA (Maven)** plugin can be easily installed (without manual downloading) from within IntelliJ IDEA. To do it:
 

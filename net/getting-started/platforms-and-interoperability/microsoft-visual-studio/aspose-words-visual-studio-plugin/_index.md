@@ -44,8 +44,8 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 You can download Aspose Visual Studio Plugin from one of the following locations
 
-- [Code.MSDN ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32)
-- [Visual Studio Gallery ](https://visualstudiogallery.msdn.microsoft.com/4b07ac86-1ca8-456e-992e-ba80cfd562da)
+- [Code.MSDN ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
+- [Visual Studio Gallery ](https://marketplace.visualstudio.com/vsgallery/4b07ac86-1ca8-456e-992e-ba80cfd562da)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 
 ## Installing
@@ -96,9 +96,9 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose Visual Studio Plugin using any of the following platforms
 
-- [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/4b07ac86-1ca8-456e-992e-ba80cfd562da)
+- [Visual Studio Gallery - Q and A](https://marketplace.visualstudio.com/vsgallery/4b07ac86-1ca8-456e-992e-ba80cfd562da)
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32/view/Discussions#content)
+- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples/view/Discussions#content)
 
 ### Extend and Contribute
 
@@ -109,7 +109,7 @@ You can log any issues or suggestions related to Aspose Visual Studio Plugin usi
 You can get the latest source code from one of the following locations
 
 - [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Microsoft Developer Network ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32)
+- [Microsoft Developer Network ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 #### How to configure the source code
 
