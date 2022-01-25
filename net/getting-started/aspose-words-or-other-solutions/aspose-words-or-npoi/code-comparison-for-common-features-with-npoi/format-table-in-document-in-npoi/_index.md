@@ -1,4 +1,4 @@
----
+﻿---
 title: Format Table in Document in NPOI
 description: "Aspose.Words for .NET allows you to format table in a document easily and fast instead of using NPOI."
 type: docs

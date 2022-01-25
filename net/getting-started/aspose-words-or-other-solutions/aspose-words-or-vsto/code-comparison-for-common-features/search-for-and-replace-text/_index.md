@@ -1,4 +1,4 @@
----
+﻿---
 title: Find and Replace Text
 description: "Aspose.Words for .NET allows you to find and replace text from a document part easily and fast instead of using VSTO."
 type: docs

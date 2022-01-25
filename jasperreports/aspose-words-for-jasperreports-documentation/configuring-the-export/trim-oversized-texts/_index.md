@@ -1,4 +1,4 @@
----
+﻿---
 title: Trim Oversized Texts
 description: "Aspose Words for JasperReports will never trim oversized texts by default."
 type: docs

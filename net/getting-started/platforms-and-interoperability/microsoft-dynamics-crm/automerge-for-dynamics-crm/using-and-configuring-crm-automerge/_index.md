@@ -1,4 +1,4 @@
----
+﻿---
 title: Using and Configuring CRM AutoMerge
 description: "How to use and configure Aspose AutoMerge add-on."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Appendix A. Enumeration Extension Methods
 description: "Use built-in extension methods to perform common manipulations on a sequential data when building a report Java."
 type: docs

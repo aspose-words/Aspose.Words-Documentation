@@ -1,4 +1,4 @@
----
+﻿---
 title: Learn Features of Conversion to PDF/A
 description: "Aspose.Words for Python via .NET allows users to convert to PDF/A-1 and PDF/A-2. There are a few problems when converting to PDF/A documents, and Aspose.Words for Python via .NET solves them."
 type: docs
@@ -61,15 +61,15 @@ To ensure correct output, users have to ensure that the source document content 
 
 In Microsoft Word default "Heading X" styles could be used to set the outline level:
 
-<img src="MWHeading1-2.png" alt="MWHeading1-2" style="width:800px"/>
+<img src="m-w-heading1-2.png" alt="MWHeading1-2" style="width:800px"/>
 
 In addition, the outline level could be checked or changed in the "Paragraph" window:
 
-<img src="MWOutlineLevel.png" alt="MWOutlineLevel" style="width:800px"/>
+<img src="m-w-outline-level.png" alt="MWOutlineLevel" style="width:800px"/>
 
 In Acrobat the document structure could be checked or changed in the "Tags" pane:
 
-<img src="AcrobatTagsPane.png" alt="AcrobatTagsPane" style="width:800px"/>
+<img src="acrobat-tags-pane.png" alt="AcrobatTagsPane" style="width:800px"/>
 
 ### Marking the Content as an Artifact
 
@@ -85,15 +85,15 @@ If a document contains any other content that should be marked as an artifact, o
 
 For example, shapes could be marked as decorative in Microsoft Word, so they will be exported to PDF as an artifact:
 
-<img src="MWDecorativeShape.png" alt="MWDecorativeShape" style="width:800px"/>
+<img src="m-w-decorative-shape.png" alt="MWDecorativeShape" style="width:800px"/>
 
 You can mark shape as an artifact in the output PDF:
 
-<img src="AcrobatMarkAsArtifactDeleteEmptyTag.png" alt="AcrobatMarkAsArtifactDeleteEmptyTag" style="width:800px"/>
+<img src="acrobat-mark-as-artifact-delete-empty-tag.png" alt="AcrobatMarkAsArtifactDeleteEmptyTag" style="width:800px"/>
 
 Also, you can switch text in a header from the artifact to real content in the output PDF:
 
-<img src="AcrobatSwitchTextInHeader.png" alt="AcrobatSwitchTextInHeader" style="width:800px"/>
+<img src="acrobat-switch-text-in-header.png" alt="AcrobatSwitchTextInHeader" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -111,12 +111,12 @@ Users should ensure that the language is specified correctly in either:
 
 * The source Word document:
 
-  <img src="MWLanguage.png" alt="MWLanguage" style="width:800px"/>
+  <img src="m-w-language.png" alt="MWLanguage" style="width:800px"/>
 
   OR
 * The output PDF document:
 
-  <img src="AcrobatCheckChangeLanguage.png" alt="AcrobatCheckChangeLanguage" style="width:800px"/>
+  <img src="acrobat-check-change-language.png" alt="AcrobatCheckChangeLanguage" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -132,17 +132,17 @@ Users should ensure that all elements have an alternate text in either:
 
 * The source Word document:
 
-  <img src="MWTableAltText.png" alt="MWTableAltText" style="width:800px"/>
+  <img src="m-w-table-alt-text.png" alt="MWTableAltText" style="width:800px"/>
 
-  <img src="MWShapeAltText.png" alt="MWShapeAltText" style="width:800px"/>
+  <img src="m-w-shape-alt-text.png" alt="MWShapeAltText" style="width:800px"/>
   
   OR
 
 * The output PDF document:
 
-  <img src="AcrobatTableAltText.png" alt="AcrobatTableAltText" style="width:800px"/>
+  <img src="acrobat-table-alt-text.png" alt="AcrobatTableAltText" style="width:800px"/>
 
-  <img src="AcrobatShapeAltText.png" alt="AcrobatShapeAltText" style="width:800px"/>
+  <img src="acrobat-shape-alt-text.png" alt="AcrobatShapeAltText" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -154,7 +154,7 @@ The specification tells us the following:
 
 Microsoft Word document does not allow users to set replacement text. So this needs to be verified and fixed in the output PDF:
 
-<img src="AcrobatReplacementText.png" alt="AcrobatReplacementText" style="width:800px"/>
+<img src="acrobat-replacement-text.png" alt="AcrobatReplacementText" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -164,7 +164,7 @@ The specification tells us the following:
 
 Microsoft Word document does not allow users to set abbreviations and acronyms expansions. So this needs to be verified and fixed in the output PDF:
 
-<img src="AcrobatSplitAddExpansionText.png" alt="AcrobatSplitAddExpansionText" style="width:800px"/>
+<img src="acrobat-split-add-expansion-text.png" alt="AcrobatSplitAddExpansionText" style="width:800px"/>
 
 The specification tells us the following:
 
@@ -198,13 +198,13 @@ Users should remove or replace these characters in either:
 
 * The source Word document:
 
-  <img src="MWNotdefGlyph.png" alt="MWNotdefGlyph" style="width:800px"/>
+  <img src="m-w-notdef-glyph.png" alt="MWNotdefGlyph" style="width:800px"/>
 
   OR
 
 * The output PDF document using the "Edit PDF" tool:
 
-  <img src="AcrobatRemoveNotdefGlyph-EditPdfTool.png" alt="AcrobatRemoveNotdefGlyph-EditPdfTool" style="width:800px"/>
+  <img src="acrobat-remove-notdef-glyph-edit-pdf-tool.png" alt="AcrobatRemoveNotdefGlyph-EditPdfTool" style="width:800px"/>
 
 {{% alert color="primary" %}}
 
@@ -226,13 +226,13 @@ Users should:
 
 * Replace the symbolic font with a Unicode one in the source Word document:
 
-  <img src="MWInsertSymbol.png" alt="MWInsertSymbol" style="width:800px"/>
+  <img src="m-w-insert-symbol.png" alt="MWInsertSymbol" style="width:800px"/>
 
   OR
 
 * Add an ActualText entry to the problematic characters in the output PDF document:
 
-  <img src="AcrobatSpanTagActualText.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
+  <img src="acrobat-span-tag-actual-text.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
 
 {{% alert color="primary" %}}
 

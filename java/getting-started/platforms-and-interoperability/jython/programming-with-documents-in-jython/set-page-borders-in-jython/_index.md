@@ -1,4 +1,4 @@
----
+﻿---
 title: Set Page Borders in Jython
 description: "Jython: Set Page Borders using Aspose.Words for Java."
 type: docs

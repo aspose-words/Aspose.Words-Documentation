@@ -1,4 +1,4 @@
----
+﻿---
 title: Field Features Supported on DOCX Import
 description: "Aspose.Words for .NET allows you to work with field features supported on Open Office XML 2007 and 2010 Format import."
 type: docs

@@ -85,10 +85,10 @@ Export any report to DOC or DOCX format and check if the report contains an eval
 
 **Aspose.Words for JasperReports injects a watermark when working in the evaluation mode.** 
 
-![todo:image_alt_text](licensing_1.png)
+![todo:image_alt_text](licensing-1.png)
 
 
 
 **When a valid license is activated, there will be no evaluation watermark.** 
 
-![todo:image_alt_text](licensing_2.png)
+![todo:image_alt_text](licensing-2.png)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Clone Documents in Jython
 description: "Jython: Clone Documents using Aspose.Words for Java."
 type: docs

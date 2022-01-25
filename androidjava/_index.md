@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Android via Java
 description: "Aspose.Words for Android via Java is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Types
 description: "Use external visible types in template expressions when building a report Java."
 type: docs

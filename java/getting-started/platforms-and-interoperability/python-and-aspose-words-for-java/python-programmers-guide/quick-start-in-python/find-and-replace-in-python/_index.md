@@ -1,4 +1,4 @@
----
+﻿---
 title: Find And Replace in Python
 description: "Python: Find And Replace inside MS Word Document using Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Section Features Supported on EPUB Export
 description: "Aspose.Words for Java allows you to work with section features supported when saving to EPUB format."
 type: docs

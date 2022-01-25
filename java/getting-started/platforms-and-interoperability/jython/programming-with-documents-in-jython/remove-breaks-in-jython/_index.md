@@ -1,4 +1,4 @@
----
+﻿---
 title: Remove Breaks in Jython
 description: "Jython: Remove Breaks using Aspose.Words for Java."
 type: docs

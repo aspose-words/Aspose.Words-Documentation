@@ -1,4 +1,4 @@
----
+﻿---
 title: Open Existing Documents in Apache POI and Aspose.Words
 description: "Aspose.Words for Java allows you to open an existing document easily and fast instead of using Apache POI."
 type: docs

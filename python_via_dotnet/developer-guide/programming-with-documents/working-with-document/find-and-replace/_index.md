@@ -1,4 +1,4 @@
----
+﻿---
 title: Find and Replace
 type: docs
 description: "Aspose.Words for Python via .NET allows you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."

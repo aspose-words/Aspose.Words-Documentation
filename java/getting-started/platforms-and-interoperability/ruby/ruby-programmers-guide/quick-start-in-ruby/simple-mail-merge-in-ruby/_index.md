@@ -1,4 +1,4 @@
----
+﻿---
 title: Simple Mail Merge in Ruby
 type: docs
 weight: 70

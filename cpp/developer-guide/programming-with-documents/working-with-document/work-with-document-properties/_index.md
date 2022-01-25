@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with Document Properties
 description: "Aspose.Words for C++ allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
@@ -45,7 +45,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 In Microsoft Word, you can access document properties using the “File → Properties” menu.
 
-<img src="work-with-document-properties_1.png" alt="work-with-document-properties-aspose-words-cpp_1.png" style="width:400px"/>
+<img src="work-with-document-properties-1.png" alt="work-with-document-properties-aspose-words-cpp_1.png" style="width:400px"/>
 
 ## Add or Remove Document Properties
 

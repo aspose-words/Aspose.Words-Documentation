@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Watermark in Python
 description: "Python: Add Watermark using Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: IntelliJ IDEA
 description: "IntelliJ IDEA: using Aspose.Words for Java."
 type: docs

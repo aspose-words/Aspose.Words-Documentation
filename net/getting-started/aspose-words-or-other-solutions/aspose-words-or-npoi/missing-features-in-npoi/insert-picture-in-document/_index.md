@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert Picture into a Document
 description: "Aspose.Words for .NET allows to insert picture into a document. NPOI does not provide an opportunity to insert picture into a document."
 type: docs

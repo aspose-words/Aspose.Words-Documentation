@@ -1,4 +1,4 @@
----
+﻿---
 title: Extend and Contribute to CRM OneClick Word Document Generator
 description: "How to defined a custom workflow using Aspose.Words to generate document from template."
 type: docs

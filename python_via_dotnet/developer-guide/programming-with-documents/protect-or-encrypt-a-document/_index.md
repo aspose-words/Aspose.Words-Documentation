@@ -1,4 +1,4 @@
----
+﻿---
 title: Protect or Encrypt a Document
 description: "Aspose.Words for Python via .NET provides Read-Only, Encrypt a Documen, Restrict Editing, and Digital Signatures for document protection. Aspose.Words supports most Word protection options."
 type: docs

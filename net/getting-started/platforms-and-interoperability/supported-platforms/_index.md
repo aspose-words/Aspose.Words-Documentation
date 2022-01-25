@@ -1,4 +1,4 @@
----
+﻿---
 title: Supported Platforms
 description: "Aspose.Words for .NET supports a wide range of platforms to work with documents."
 type: docs
@@ -36,7 +36,7 @@ Aspose.Words for .NET can be used as a COM object to develop applications in pre
 
 **Developing an ASP or VBScript application with Aspose.Words for .NET** 
 
-![supported-platforms-aspose-words-net-1](supported-platforms_1.png)
+![supported-platforms-aspose-words-net-1](supported-platforms-1.png)
 
 ## Mono
 
@@ -44,7 +44,7 @@ How about creating an application that generates DOC files, or maybe converts DO
 
 **Developing an application with Aspose.Words on Mono** 
 
-![supported-platforms-aspose-words-net-2](supported-platforms_2.png)
+![supported-platforms-aspose-words-net-2](supported-platforms-2.png)
 
 ## Windows Azure
 

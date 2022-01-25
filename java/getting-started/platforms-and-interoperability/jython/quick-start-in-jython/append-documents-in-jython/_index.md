@@ -1,4 +1,4 @@
----
+﻿---
 title: Append Documents in Jython
 description: "Jython: Append Documents using Aspose.Words for Java."
 type: docs

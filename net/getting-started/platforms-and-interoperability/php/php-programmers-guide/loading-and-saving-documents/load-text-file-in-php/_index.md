@@ -1,4 +1,4 @@
----
+﻿---
 title: Load Text File in PHP
 description: "Loading text document using Aspose.Words for .NET in PHP using COM."
 type: docs

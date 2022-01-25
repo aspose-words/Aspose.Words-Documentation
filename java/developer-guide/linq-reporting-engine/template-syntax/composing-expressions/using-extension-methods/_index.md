@@ -1,4 +1,4 @@
----
+﻿---
 title: Using Extension Methods
 description: "Use extension methods in template expressions when building a report Java."
 type: docs

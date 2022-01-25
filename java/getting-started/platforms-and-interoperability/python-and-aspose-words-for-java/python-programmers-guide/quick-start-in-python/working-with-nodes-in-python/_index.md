@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Nodes in Python
 description: "Python: Working With Nodes using Aspose.Words for Java."
 type: docs

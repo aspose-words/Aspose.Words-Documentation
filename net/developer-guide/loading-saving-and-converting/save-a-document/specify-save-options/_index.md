@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Save Options
 description: "Aspose.Words for .NET enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Check File Format in Jython
 description: "Jython: Check File Format using Aspose.Words for Java."
 type: docs

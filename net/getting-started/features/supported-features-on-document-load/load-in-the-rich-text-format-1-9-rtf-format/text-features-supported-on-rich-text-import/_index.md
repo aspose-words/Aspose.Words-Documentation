@@ -1,4 +1,4 @@
----
+﻿---
 title: Text Features Supported on Rich Text Import
 description: "Aspose.Words for .NET allows you to work with text features supported on Rich Text import."
 type: docs

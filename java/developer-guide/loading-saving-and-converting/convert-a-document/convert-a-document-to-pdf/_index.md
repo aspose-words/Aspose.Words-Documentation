@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to PDF
 description: "Aspose.Words for Java allows you to convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms."
 aliases: 

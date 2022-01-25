@@ -1,4 +1,4 @@
----
+﻿---
 title: Appendix C. Typical Templates
 description: "Learn the typical templates of LINQ Reporting Engine to build a report C#."
 type: docs
@@ -29,14 +29,14 @@ The `Manager`, `Contract`, and `Client` classes are defined as follows.
 
 #### Template Example
 
-|![Single_Row_Template_Example-aspose-words-net](Single-Row-Template-Example2.png) | Name: <<[manager.Name]>> <br> Age: <<[manager.Age]>> |
+|![Single_Row_Template_Example-aspose-words-net](single-row-template-example2.png) | Name: <<[manager.Name]>> <br> Age: <<[manager.Age]>> |
 | :- | :- |
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Table%20row.docx).
 
 #### Report Example
 
-|![Single_Row_Report_Example-aspose-words-net](Single-Row-Report-Example1.png)|Name: John Smith <br> Age: 37 |
+|![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png)|Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-SingleRow-SingleRow.cs" >}}
@@ -158,14 +158,14 @@ We provide support for the following clients:
 
 #### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](Common-List-Template-Example2.png) <br> <<[Name()]>> <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> <<[Name()]>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Common%20master%20detail.docx).
 
 #### Report Example
 
-|![Single_Row_Report_Example1-aspose-words-net](Single-Row-Report-Example1.png) <br> John Smith <br> ![Single_Row_Report_Example-aspose-words-net](Single-Row-Report-Example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example-aspose-words-net](Single-Row-Report-Example1.png) <br> July James|
+|![Single_Row_Report_Example1-aspose-words-net](single-row-report-example1.png) <br> John Smith <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> July James|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonList-CommonList.cs" >}}
@@ -280,14 +280,14 @@ You can download the template file of this example from [here](https://github.co
 
 #### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](Common-List-Template-Example2.png) <br> <<[Name()]>> <br> Clients: <<foreach [in Contracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[Client().Name()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
+|<<foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> <<[Name()]>> <br> Clients: <<foreach [in Contracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[Client().Name()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Common%20master%20detail.docx).
 
 #### Report Example
 
-|![Single_Row_Report_Example-aspose-words-net](Single-Row-Report-Example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example-aspose-words-net](Single-Row-Report-Example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example-aspose-words-net](Single-Row-Report-Example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
+|![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonMasterDetail-CommonMasterDetail.cs" >}}
@@ -330,15 +330,15 @@ You can download the template file of this example from [here](https://github.co
 
 **Template Example**
 
-![Pie_Chart_Template_Example2-aspose-words-net](Pie-Chart-Template-Example2.png)
+![Pie_Chart_Template_Example2-aspose-words-net](pie-chart-template-example2.png)
 
 **Initial Chart Series Data**
 
-![Pie_Chart_Series_Data2-aspose-words-net](Pie-Chart-Series-Data2.png)
+![Pie_Chart_Series_Data2-aspose-words-net](pie-chart-series-data2.png)
 
 **Report Example**
 
-![Pie_Chart_Report_Example-aspose-words-net](Pie-Chart-Report-Example.png)
+![Pie_Chart_Report_Example-aspose-words-net](pie-chart-report-example.png)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-PieChart-PieChart.cs" >}}
 
@@ -348,15 +348,15 @@ You can download the template file of this example from [here](https://github.co
 
 **Template Example**
 
-![Scatter_Chart_Template_Example2-aspose-words-net](Scatter-Chart-Template-Example2.png)
+![Scatter_Chart_Template_Example2-aspose-words-net](scatter-chart-template-example2.png)
 
 **Initial Chart Series Data**
 
-![Scatter_Chart_Series_Data2-aspose-words-net](Scatter-Chart-Chart-Series-Data2.png)
+![Scatter_Chart_Series_Data2-aspose-words-net](scatter-chart-chart-series-data2.png)
 
 **Report Example**
 
-![Scatter_Chart_Report_Example-aspose-words-net](Scatter-Chart-Report-Example.png)
+![Scatter_Chart_Report_Example-aspose-words-net](scatter-chart-report-example.png)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-ScatterChart-ScatterChart.cs" >}}
 
@@ -366,15 +366,15 @@ You can download the template file of this example from [here](https://github.co
 
 **Template Example**
 
-![Bubble_Chart_Template_Example2-aspose-words-net](Bubble-Chart-Template-Example2.png)
+![Bubble_Chart_Template_Example2-aspose-words-net](bubble-chart-template-example2.png)
 
 **Initial Chart Series Data**
 
-![Bubble_Chart_Series_Data2-aspose-words-net](Bubble-Chart-Series-Data2.png)
+![Bubble_Chart_Series_Data2-aspose-words-net](bubble-chart-series-data2.png)
 
 **Report Example**
 
-![Bubble_Chart_Report_Example-aspose-words-net](Bubble-Chart-Report-Example.png)
+![Bubble_Chart_Report_Example-aspose-words-net](bubble-chart-report-example.png)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-BubbleChart-BubbleChart.cs" >}}
 
@@ -408,10 +408,10 @@ You can download the template file of this example from [here](https://github.co
 
 **Template Example**
 
-![Chart_Template_Example2-aspose-words-net](Chart-Template-Example2.png)
+![Chart_Template_Example2-aspose-words-net](chart-template-example2.png)
 
 **Report Example**
 
-![Chart_Report_Example-aspose-words-net](Chart-Report-Example.png)
+![Chart_Report_Example-aspose-words-net](chart-report-example.png)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-ChartWithFilteringGroupingOrdering-ChartWithFilteringGroupingOrdering.cs" >}}

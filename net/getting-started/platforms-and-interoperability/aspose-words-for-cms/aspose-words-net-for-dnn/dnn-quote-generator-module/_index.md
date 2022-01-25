@@ -1,4 +1,4 @@
----
+﻿---
 title: DNN Quote Generator Module
 description: "Generate Quotations in your DNN website using Aspose.Words DNN Quote Generator Module."
 type: docs
@@ -38,7 +38,7 @@ This initial version of the module is enriched with the following features to ma
 - Save document to *.Pdf, *.Doc, *.Docx, *.Odt, *.Tiff, *.Jpeg, *.Png File Format
 - License Verification & Embed     
 
-![dnn-quote-generator-module_1](dnn-quote-generator-module_1.png)
+![dnn-quote-generator-module_1](dnn-quote-generator-module-1.png)
 
 ## System Requirements and Supported Platforms
 

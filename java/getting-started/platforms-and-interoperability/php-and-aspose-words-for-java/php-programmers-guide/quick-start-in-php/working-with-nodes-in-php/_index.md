@@ -1,4 +1,4 @@
----
+﻿---
 title: Working With Nodes in PHP
 description: "PHP: Working With Document Nodes using Aspose.Words for Java."
 type: docs

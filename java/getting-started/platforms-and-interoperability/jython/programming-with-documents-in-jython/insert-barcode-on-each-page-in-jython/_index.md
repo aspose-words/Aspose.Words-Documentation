@@ -1,4 +1,4 @@
----
+﻿---
 title: Insert Barcode on Each Page in Jython
 description: "Jython: Insert Barcode on Each Page using Aspose.Words for Java."
 type: docs

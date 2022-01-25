@@ -1,4 +1,4 @@
----
+﻿---
 title: How to Extract Selected Content Between Nodes in a Document
 description: "Learn how to extract specific content from a range within the document easily using python."
 type: docs

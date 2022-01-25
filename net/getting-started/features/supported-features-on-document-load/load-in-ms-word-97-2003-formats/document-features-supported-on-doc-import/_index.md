@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Features Supported on DOC Import
 description: "Aspose.Words for .NET allows you to work with document features supported on DOC – Word 97-2003 format import."
 type: docs

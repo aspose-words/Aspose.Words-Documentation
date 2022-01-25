@@ -1,4 +1,4 @@
----
+﻿---
 title: Compress Images in Ruby
 description: "Ruby: compress images using Aspose.Words for Java."
 type: docs

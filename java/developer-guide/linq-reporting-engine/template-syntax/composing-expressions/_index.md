@@ -1,4 +1,4 @@
----
+﻿---
 title: Composing Expressions
 description: "Compose expressions when building a report Java. The complexity of expressions in templates is not restricted."
 type: docs

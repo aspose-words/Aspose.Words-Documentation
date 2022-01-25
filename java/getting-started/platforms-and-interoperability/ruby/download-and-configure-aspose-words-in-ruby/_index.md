@@ -1,4 +1,4 @@
----
+﻿---
 title: Download and Configure Aspose.Words in Ruby
 description: "Ruby: download and configure Aspose.Words for Java."
 type: docs

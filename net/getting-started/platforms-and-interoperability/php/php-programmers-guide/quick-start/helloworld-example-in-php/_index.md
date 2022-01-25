@@ -1,4 +1,4 @@
----
+﻿---
 title: HelloWorld Example in PHP
 description: "Building documents from scratch using Aspose.Words for .NET in PHP via COM."
 type: docs

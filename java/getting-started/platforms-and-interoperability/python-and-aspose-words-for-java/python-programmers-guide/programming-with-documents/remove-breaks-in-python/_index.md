@@ -1,4 +1,4 @@
----
+﻿---
 title: Remove Breaks in Python
 description: "Python: Remove Breaks using Aspose.Words for Java."
 type: docs

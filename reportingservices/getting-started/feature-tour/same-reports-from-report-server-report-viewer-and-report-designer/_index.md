@@ -1,4 +1,4 @@
----
+﻿---
 title: Same Reports from Report Server, Report Viewer and Report Designer
 description: "This page describes technologies which may be used to export reports using the Aspose.Words for Reporting Services."
 type: docs
@@ -51,12 +51,12 @@ Aspose.Words for Reporting Services supports Microsoft Visual Studio 2005/ 2008/
 
 **New export formats are available in Microsoft SQL Server Reporting Services.**
 
-![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer_1.png)
+![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer-1.png)
 
 **New export formats are available in Microsoft Report Viewer running in the local mode.**
 
-![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer_2.png)
+![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer-2.png)
 
 **New export formats are available in the Microsoft Visual Studio Report Designer.**
 
-![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer_3.png)
+![todo:image_alt_text](same-reports-from-report-server-report-viewer-and-report-designer-3.png)

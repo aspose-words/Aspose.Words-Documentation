@@ -1,4 +1,4 @@
----
+﻿---
 title: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
 description: "Aspose.Words for .NET allows you to work with different features supported on Open Office XML 2007 and 2010 Format import."
 type: docs

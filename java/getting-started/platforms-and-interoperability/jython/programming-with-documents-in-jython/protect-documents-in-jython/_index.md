@@ -1,4 +1,4 @@
----
+﻿---
 title: Protect Documents in Jython
 description: "Jython: Protect Documents using Aspose.Words for Java."
 type: docs

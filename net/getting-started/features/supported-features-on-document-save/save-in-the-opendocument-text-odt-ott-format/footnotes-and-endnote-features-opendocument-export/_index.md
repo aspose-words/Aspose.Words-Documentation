@@ -1,4 +1,4 @@
----
+﻿---
 title: Footnotes an Endnote Features Supported on OpenDocument Export
 description: "Aspose.Words for .NET allows you to work with footnote an endnote features supported when saving to OpenDocument Text format."
 type: docs

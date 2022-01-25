@@ -1,4 +1,4 @@
----
+﻿---
 title: Downloads and Configure Aspose.Words in Struts 1.3
 description: "Downloads and Configure Aspose.Words for Java on Apache Struts."
 type: docs

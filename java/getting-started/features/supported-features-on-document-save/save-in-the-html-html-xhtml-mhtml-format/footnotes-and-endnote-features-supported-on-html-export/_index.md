@@ -1,4 +1,4 @@
----
+﻿---
 title: Footnotes and Endnote Features Supported on HTML Export
 description: "Aspose.Words for Java allows you to work with footnote and endnote features supported when saving to HTML-based format."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Choose the Platform and Interoperability Technology
 description: "Choose the Platform for Aspose.Words."
 type: docs

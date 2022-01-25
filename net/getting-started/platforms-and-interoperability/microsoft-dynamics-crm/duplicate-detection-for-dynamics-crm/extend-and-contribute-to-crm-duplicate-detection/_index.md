@@ -1,4 +1,4 @@
----
+﻿---
 title: Extend and Contribute to CRM Duplicate Detection
 description: "How to defined a custom workflow using Aspose.Words to detect duplicated documents."
 type: docs

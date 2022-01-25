@@ -53,7 +53,7 @@ The setup program performs the following actions:
 
 **Deployment target selection dialog**
 
-**![todo:image_alt_text](installing-aspose-words-for-sharepoint_1.png)**
+**![todo:image_alt_text](installing-aspose-words-for-sharepoint-1.png)**
 
 ## Deployment
 

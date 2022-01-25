@@ -1,4 +1,4 @@
----
+﻿---
 title: Supported Document Formats
 description: "The following table indicates the file formats in which the JasperReports can be saved by using Aspose.Words for JasperReports."
 type: docs

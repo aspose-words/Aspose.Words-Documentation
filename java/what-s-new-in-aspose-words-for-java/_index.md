@@ -1,4 +1,4 @@
----
+﻿---
 title: What's new in Aspose.Words for Java
 type: docs
 description: "Aspose.Words for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
@@ -7,25 +7,6 @@ url: /java/what-s-new-in-aspose-words-for-java/
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
-
-{{% alert color="primary" %}}
-
-Due to refactoring work on Aspose.Words namespaces, the Aspose.Words.DigitalSignatures, Aspose.Words.Vba, Aspose.Words.Comparing, and Aspose.Words.Notes namespaces were introduced and the Aspose.Words.Lists and Aspose.Words.Loading namespaces were modified.
-
-In case of a compilation error, please add the appropriate line of code:
-
-{{< highlight java >}}
-import Aspose.Words.DigitalSignatures;
-import Aspose.Words.Vba;
-import Aspose.Words.Lists;
-import Aspose.Words.Comparing;
-import Aspose.Words.Notes;
-import Aspose.Words.Loading;
-{{< /highlight >}}
-
-For more information on these changes, see the [Aspose.Words for Java 21.3 Release Notes](/words/java/aspose-words-for-java-21-3-release-notes/) and [Aspose.Words for Java 21.4 Release Notes](/words/java/aspose-words-for-java-21-4-release-notes/) pages.
-
-{{% /alert %}}
 
 ## Aspose.Words for Java 22.1
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Features
 description: "This guide describes features details of the Aspose.Words for SharePoint."
 type: docs

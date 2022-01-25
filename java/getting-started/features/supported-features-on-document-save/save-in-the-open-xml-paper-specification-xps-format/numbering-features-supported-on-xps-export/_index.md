@@ -1,4 +1,4 @@
----
+﻿---
 title: Numbering Features Supported on XPS Export
 description: "Aspose.Words for Java allows you to work with numbering features supported when saving to XPS format."
 type: docs

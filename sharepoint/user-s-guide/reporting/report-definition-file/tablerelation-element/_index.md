@@ -1,4 +1,4 @@
----
+﻿---
 title: TableRelation Element
 description: "This page describes TableRelation element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs

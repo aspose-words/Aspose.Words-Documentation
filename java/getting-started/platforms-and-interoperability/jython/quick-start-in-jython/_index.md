@@ -1,4 +1,4 @@
----
+﻿---
 title: Quick Start in Jython
 description: "Jython: Quick Start Aspose.Words for Java."
 type: docs

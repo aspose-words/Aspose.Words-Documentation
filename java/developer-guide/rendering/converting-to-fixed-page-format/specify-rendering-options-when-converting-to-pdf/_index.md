@@ -58,7 +58,7 @@ The code example below shows how to export bookmarks from the first header/foote
 
 The output PDF of this example is shown below:
 
-![rendering-options-when-converting-to-pdf-aspose-words-java-1](specify-rendering-options-when-converting-to-pdf_1.png)
+![rendering-options-when-converting-to-pdf-aspose-words-java-1](specify-rendering-options-when-converting-to-pdf-1.png)
 
 When **HeaderFooterBookmarksExportMode** is set to [First](https://apireference.aspose.com/words/java/com.aspose.words/headerfooterbookmarksexportmode#FIRST) and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
@@ -70,7 +70,7 @@ The code example below shows how to export headings with three levels:
 
 The output PDF of this example is depicted below:
 
-![rendering-options-when-converting-to-pdf-aspose-words-java-2](specify-rendering-options-when-converting-to-pdf_2.png)
+![rendering-options-when-converting-to-pdf-aspose-words-java-2](specify-rendering-options-when-converting-to-pdf-2.png)
 
 {{% alert color="primary" %}} 
 

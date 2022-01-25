@@ -1,4 +1,4 @@
----
+﻿---
 title: Translate Markdown to Document Object Model (DOM)
 type: docs
 description: "Aspose.Words for Python via .NET allows to tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."

@@ -1,4 +1,4 @@
----
+﻿---
 title: Outputting Sequential Data
 description: "Output a sequence of elements with the same type when building a report Java."
 type: docs

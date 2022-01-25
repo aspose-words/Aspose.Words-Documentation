@@ -75,13 +75,9 @@ It is simple to install Aspose .NET Document Merger. Please follow below Instruc
 
 ## Using
 
-- Open any contact record and click on "Document Merger" from the top ribbon. 
+- Open any contact record and click on "Document Merger" from the top ribbon.
 
-![todo:image_alt_text](/download/thumbnails/2589724/693935211)
-
-- Select the First and Second document to merge and select the output option: 
-
-![todo:image_alt_text](/download/thumbnails/2589724/1045759710)
+- Select the First and Second document to merge and select the output option.
 
 - Merged document will be attached to same contact record, based on the output selected.
 

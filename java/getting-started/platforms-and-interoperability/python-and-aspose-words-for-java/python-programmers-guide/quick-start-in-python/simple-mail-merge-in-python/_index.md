@@ -1,4 +1,4 @@
----
+﻿---
 title: Simple Mail Merge in Python
 description: "Python: simple Mail Merge using Aspose.Words for Java."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Rendering Options When Converting to PDF
 description: "Aspose.Words for Python via .NET provides the ability to convert DOC or DOCX to PDF. To change the result of saving a document to PDF format, you need to specify additional options for the PdfSaveOptions class."
 type: docs
@@ -59,7 +59,7 @@ The code example below shows how to export bookmarks from the first header/foote
 
 The output PDF of this example is shown below:
 
-![specify-rendering-options-when-converting-to-pdf_1](specify-rendering-options-when-converting-to-pdf_1.png)
+![specify-rendering-options-when-converting-to-pdf_1](specify-rendering-options-when-converting-to-pdf-1.png)
 
 When **header_footer_bookmarks_export_mode** is set to **HeaderFooterBookmarksExportMode.FIRST** and the document has even and odd headers/footers or a different first-page header/footer, bookmarks are exported for the first unique headers/footers in a section.
 
@@ -71,7 +71,7 @@ The code example below shows how to export headings with three levels:
 
 The output PDF of this example is depicted below:
 
-![specify-rendering-options-when-converting-to-pdf_2](specify-rendering-options-when-converting-to-pdf_2.png)
+![specify-rendering-options-when-converting-to-pdf_2](specify-rendering-options-when-converting-to-pdf-2.png)
 
 {{% alert color="primary" %}} 
 

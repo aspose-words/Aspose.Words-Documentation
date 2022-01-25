@@ -1,4 +1,4 @@
----
+﻿---
 title: Joining And Appending in Jython
 description: "Jython: Join And Append documents using Aspose.Words for Java."
 type: docs

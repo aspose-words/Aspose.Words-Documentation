@@ -1,4 +1,4 @@
----
+﻿---
 title: Android via Java Release Notes - 2017
 description: "Android via Java Release Notes - 2017 – learn about the latest updates and fixes."
 type: docs

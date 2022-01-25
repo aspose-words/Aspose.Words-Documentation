@@ -1,4 +1,4 @@
----
+﻿---
 title: Saving a Document as a Multipage TIFF
 description: "Aspose.Words for Python via .NET enables you to convert a document to a multi-page TIFF. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
@@ -45,4 +45,4 @@ The following example shows how to perform TIFF binarization with a specified t
 
 Below you can compare images on which TIFF binarization was performed at various threshold values:
 
-<img src="saving-a-document-as-a-multipage-tiff_1.jpg" alt="saving-a-document-as-a-multipage-tiff-aspose-words-net" style="width:800px"/>
+<img src="saving-a-document-as-a-multipage-tiff-1.jpg" alt="saving-a-document-as-a-multipage-tiff-aspose-words-net" style="width:800px"/>

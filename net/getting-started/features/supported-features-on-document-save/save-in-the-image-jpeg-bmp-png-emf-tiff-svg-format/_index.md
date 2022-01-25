@@ -1,4 +1,4 @@
----
+﻿---
 title: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
 description: "Aspose.Words for .NET allows you to work with various features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs

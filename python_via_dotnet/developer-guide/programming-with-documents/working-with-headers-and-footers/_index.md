@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Headers and Footers
 description: "Create, manage, and remove headers and footers in a document using python."
 type: docs

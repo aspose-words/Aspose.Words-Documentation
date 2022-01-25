@@ -1,4 +1,4 @@
----
+﻿---
 title: Joining and Splitting Tables
 description: "Advanced table manipulations, join and split using Aspose.Words for .Net."
 type: docs

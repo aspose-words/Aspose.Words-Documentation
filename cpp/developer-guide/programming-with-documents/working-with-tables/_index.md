@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Tables
 description: "Introducing to Table node concepts in Aspose.Words for C++."
 type: docs

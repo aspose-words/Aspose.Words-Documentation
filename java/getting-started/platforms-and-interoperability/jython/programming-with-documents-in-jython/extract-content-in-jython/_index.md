@@ -1,4 +1,4 @@
----
+﻿---
 title: Extract Content in Jython
 description: "Jython: Extract Content from document using Aspose.Words for Java."
 type: docs

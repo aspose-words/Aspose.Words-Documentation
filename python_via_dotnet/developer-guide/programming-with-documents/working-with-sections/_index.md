@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Sections
 description: "Create and manage sections and section breaks in a document using python."
 type: docs
@@ -20,9 +20,9 @@ In Microsoft Word, you can easily split the document into sections by adding a s
 A Section break is a mark you insert to show the end of a section. A section break stores the section formatting elements, such as the margins, page orientation, headers and footers, and sequence of page numbers. Just insert section breaks to divide the document into sections, and then format each section the way you want. For example, format a section as a single column for the introduction of a report, and then format the following section as two columns for the report’s body text. To insert a section break, do the following:
 1. Click where you want to insert a section break.
 1. On the Insert menu, click **Break**.<br>
-![insert-section-break-aspose-words-net](working-with-sections_1.png)
+![insert-section-break-aspose-words-net](working-with-sections-1.png)
 1. Under **Section break types** , click the option that describes where you want the new section to begin.<br>
-![section-break-type-aspose-words-net](working-with-sections_2.png)
+![section-break-type-aspose-words-net](working-with-sections-2.png)
 
 The following types of section breaks can be inserted:
 

@@ -25,10 +25,10 @@ Here is an example of a region in a report template:
 
 **Merge regions in a document** 
 
-![todo:image_alt_text](merge-regions_1.png)
+![todo:image_alt_text](merge-regions-1.png)
 
 You can see a merge region defined for populating with data from the Products table. Note that both the marking fields **TableStart:Products** and **TableEnd:Products** are placed inside the same row of the Word table. After the report is filled with data, here is the result: 
 
 **A report with data** 
 
-![todo:image_alt_text](merge-regions_2.png)
+![todo:image_alt_text](merge-regions-2.png)

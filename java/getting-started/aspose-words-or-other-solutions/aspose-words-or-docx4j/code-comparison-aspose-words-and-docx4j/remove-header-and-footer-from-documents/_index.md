@@ -1,4 +1,4 @@
----
+﻿---
 title: Remove Header and Footer from Documents
 description: "Aspose.Words for Java allows you to remove headers or footers in a document easily and fast instead of using docx4j."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Convert a Document to MHTML and Send It by Email
 description: "Aspose.Words for .NET allows you to convert a document from almost any format to the MHTML format and send the result document by e-mail."
 type: docs
@@ -10,4 +10,4 @@ Aspose.Words can convert any document to the MHTML (Web Archive) format. This ma
 
 The following code example shows how to convert any document to MHTML and send it by email:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMhtmlAndEmail-ConvertDocumentToMhtmlAndEmail.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "DocxToMhtmlAndSendingEmail.cs" >}}

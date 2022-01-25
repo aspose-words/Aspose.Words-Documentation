@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Picture
 description: "Aspose.Words for .NET allows you to add an image into a document easily and fast instead of using VSTO."
 type: docs

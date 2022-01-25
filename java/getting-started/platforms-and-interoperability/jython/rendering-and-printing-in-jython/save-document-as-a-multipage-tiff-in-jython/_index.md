@@ -1,4 +1,4 @@
----
+﻿---
 title: Save Document as a Multipage TIFF in Jython
 description: "Jython: Save Document as a Multipage TIFF using Aspose.Words for Java."
 type: docs

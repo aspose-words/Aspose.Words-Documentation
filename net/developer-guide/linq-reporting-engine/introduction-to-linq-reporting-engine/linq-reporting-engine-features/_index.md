@@ -1,4 +1,4 @@
----
+﻿---
 title: LINQ Reporting Engine Features
 description: "Learn the powerful LINQ Reporting Engine features to build a report C#."
 type: docs

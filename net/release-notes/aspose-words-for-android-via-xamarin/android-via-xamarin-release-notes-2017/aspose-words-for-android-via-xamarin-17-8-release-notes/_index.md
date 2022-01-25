@@ -1,4 +1,4 @@
----
+﻿---
 title: Aspose.Words for Android via Xamarin 17.8 Release Notes
 description: "Aspose.Words for Android via Xamarin 17.8 Release Notes – learn about the latest updates and fixes."
 type: docs

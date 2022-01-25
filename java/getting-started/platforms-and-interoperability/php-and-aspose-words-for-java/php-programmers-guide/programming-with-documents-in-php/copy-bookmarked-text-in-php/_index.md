@@ -1,4 +1,4 @@
----
+﻿---
 title: Copy Bookmarked Text in PHP
 description: "PHP: Copy Bookmarked Text using Aspose.Words for Java."
 type: docs

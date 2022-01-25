@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visual Studio Export GridView To Word Control
 description: "Learn how to export contents of GridView into Word Processing document using Aspose.Words."
 type: docs
@@ -23,7 +23,7 @@ This initial version of the control provides the following features:
 - Option to save each exported document on server at configurable disk path
 - Option to export current page or all pages when paging is enabled 
 
-![visual-studio-export-gridview-to-word-control-aspose-words-net-2](visual-studio-export-gridview-to-word-control_1.png)
+![visual-studio-export-gridview-to-word-control-aspose-words-net-2](visual-studio-export-gridview-to-word-control-1.png)
 
 This control allows you to export GridView in the following different file formats.
 
@@ -94,7 +94,7 @@ On the Tools menu, click Choose Toolbox Items.
 
 When you open an aspx or ascx control in the left side Toolbox you will see ExportGridViewToWord under General Tab
 
-![visual-studio-export-gridview-to-word-contro-aspose-words-net-3](visual-studio-export-gridview-to-word-control_2.png)
+![visual-studio-export-gridview-to-word-contro-aspose-words-net-3](visual-studio-export-gridview-to-word-control-2.png)
 
 ## Using
 
@@ -103,7 +103,6 @@ Once installed, it is very easy to start using this control in your ASP.NET appl
 |For .NET framework 4.0 and above |For .NET framework 2.0 and above | |
 | :- | :- | :- |
 |For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportGridViewToWord** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. |In order you use this control in applications running in .NET 2.0 in any visual studio version make sure that you have added ExportGridViewToWord to your toolbox as per instructions on ﻿[8.1.2.1 Downloading and Installing]() under heading **For Visual Studio 2005, 2008 and Express editions** <br>You should see **ExportGridViewToWord** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. | |
-|![todo:image_alt_text](/download/thumbnails/2590054/1158480187)|![todo:image_alt_text](/download/thumbnails/2590054/1902680530)| |
 
 ### Manually adding ExportGridViewToWord control
 

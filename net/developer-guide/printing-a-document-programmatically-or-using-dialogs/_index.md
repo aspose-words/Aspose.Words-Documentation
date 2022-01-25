@@ -1,4 +1,4 @@
----
+﻿---
 title: Printing a Document Programmatically or Using Dialogs
 description: "Aspose.Words for .NET enables you to print a document on a Server using the unmanaged XpsPrint API or via a selected printer with Settings and Print Preview Dialogs."
 type: docs
@@ -85,7 +85,7 @@ As in the previous section, Aspose.Words implements the **MultipagePrintDocumen
 
 The result of this code example is shown below:
 
-![print-a-document-programmatically-or-using-dialogs-aspose-words-net](print-a-document-programmatically-or-using-dialogs_1.png)
+![print-a-document-programmatically-or-using-dialogs-aspose-words-net](print-a-document-programmatically-or-using-dialogs-1.png)
 
 ## Hiding the Print Progress Dialog When Printing a Document
 

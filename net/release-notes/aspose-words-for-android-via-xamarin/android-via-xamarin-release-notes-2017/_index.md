@@ -1,4 +1,4 @@
----
+﻿---
 title: Android via Xamarin Release Notes - 2017
 description: "Android via Xamarin Release Notes - 2017 – learn about the latest updates and fixes."
 type: docs

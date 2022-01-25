@@ -1,4 +1,4 @@
----
+﻿---
 title: Ruby
 description: "How to use Aspose.Words for Java from Ruby."
 type: docs

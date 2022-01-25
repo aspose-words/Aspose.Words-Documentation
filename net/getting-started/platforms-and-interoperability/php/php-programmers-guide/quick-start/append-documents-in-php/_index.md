@@ -1,4 +1,4 @@
----
+﻿---
 title: Append Documents in PHP
 description: "Appending documents using Aspose.Words for .NET in PHP using COM."
 type: docs

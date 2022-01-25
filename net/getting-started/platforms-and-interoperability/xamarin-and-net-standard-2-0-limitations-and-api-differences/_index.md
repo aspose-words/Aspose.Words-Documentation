@@ -1,4 +1,4 @@
----
+﻿---
 title: Xamarin and .NET Standard 2.0 Limitations and API Differences
 description: "Aspose.Words for .NET Standard 2.0 API differences comparing to regular .NET version."
 type: docs

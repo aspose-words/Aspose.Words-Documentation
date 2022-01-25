@@ -15,7 +15,7 @@ The Mustache syntax supports *foreach* tag, which is an alternative for using ma
 
 You can also combine mail merge fields with some additional fields using the *foreach* tag as shown in the picture below.
 
-<img src="mustache_syntax.png" alt="mustache_syntax" style="width:800px"/>
+<img src="mustache-syntax.png" alt="mustache_syntax" style="width:800px"/>
 
 ## Create a Mustache Template
 
@@ -29,7 +29,7 @@ Let's suppose that you need to send the same email to 50 recipients to personali
 
 The question here: how you can create 50 emails from 1 single Mustache template? To answer that, you need to perform a mail merge with regions to fill the curly braces for placeholders in the template with actual data and generate an output document.
 
-<img src="mustache_template.png" alt="mustache_template" style="width:650px"/>
+<img src="mustache-template.png" alt="mustache_template" style="width:650px"/>
 
 {{% alert color="primary" %}}
 
@@ -47,7 +47,7 @@ The following code example shows how to replace the Mustache tags with specific 
 
 You can notice the difference between the document before executing the mail merge with regions along with applying the **UseNonMergeFields** property:
 
-<img src="mustache_syntax_1.png" alt="mustache_syntax" style="width:400px"/>
+<img src="mustache-syntax-1.png" alt="mustache_syntax" style="width:400px"/>
 
 {{% alert color="primary" %}}
 
@@ -57,7 +57,7 @@ A section begins with a pound and ends with a slash. That is, {{#foreach list}} 
 
 And after applying the mail merge with regions:
 
-<img src="mustache_syntax_2.png" alt="mustache_syntax_result" style="width:300px"/>
+<img src="mustache-syntax-2.png" alt="mustache_syntax_result" style="width:300px"/>
 
 ## Use IF Fields to Make a Mail Merge Intelligent
 
@@ -81,8 +81,8 @@ The following code example shows how to perform a mail merge operation with Must
 
 You can notice the difference between the document before applying the **UseNonMergeFields** property:
 
-<img src="mustache_if_field_1.png" alt="mustache_if_field" style="width:800px"/>
+<img src="mustache-if-field-1.png" alt="mustache_if_field" style="width:800px"/>
 
 And after applying the **UseNonMergeFields** property:
 
-<img src="mustache_if_field_2.png" alt="mustache_if_field_2.png" style="width:800px"/>
+<img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>

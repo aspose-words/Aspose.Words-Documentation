@@ -1,4 +1,4 @@
----
+﻿---
 title: Export to Word Plugin for dotCMS
 description: "Export to Word Plugin for dotCMS."
 type: docs

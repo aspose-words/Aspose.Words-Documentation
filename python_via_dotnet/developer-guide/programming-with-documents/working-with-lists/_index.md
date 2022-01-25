@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with Lists
 description: "Create, specify formatting and restart lists in a document using python."
 type: docs

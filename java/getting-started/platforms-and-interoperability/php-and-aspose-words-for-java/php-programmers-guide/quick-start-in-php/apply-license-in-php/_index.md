@@ -1,4 +1,4 @@
----
+﻿---
 title: Apply License in PHP
 description: "PHP: Apply License to Aspose.Words for Java."
 type: docs

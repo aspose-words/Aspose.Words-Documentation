@@ -1,4 +1,4 @@
----
+﻿---
 title: Installing and Using Aspose.Words for NetBeans - Maven
 description: "Installing and Using Aspose.Words Java for NetBeans (Maven) Plugin."
 type: docs

@@ -1,4 +1,4 @@
----
+﻿---
 title: Working with TableStyle
 description: "Manage table style in a document using python."
 type: docs
