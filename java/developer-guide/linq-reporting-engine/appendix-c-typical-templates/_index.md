@@ -306,7 +306,7 @@ We provide support for the following clients:
 
 **Template Example**
 
-![Pie_Chart_Template_Example_aspose_words_java](Pie-chart-template-example.png)
+![Pie_Chart_Template_Example_aspose_words_java](pie-chart-template-example.png)
 
 **Initial Chart Series Data**
 
@@ -314,13 +314,13 @@ We provide support for the following clients:
 
 **Report Example**
 
-![Pie_Chart_Report_Example_aspose_words_java](Pie-chart-report-example.png)
+![Pie_Chart_Report_Example_aspose_words_java](pie-chart-report-example.png)
 
 ## Scatter Chart Template
 
 **Template Example**
 
-![Scatter_Chart_Template_Example_aspose_words_java](Scatter-chart-template-example.png)
+![Scatter_Chart_Template_Example_aspose_words_java](scatter-chart-template-example.png)
 
 **Initial Chart Series Data**
 
@@ -328,7 +328,7 @@ We provide support for the following clients:
 
 **Report Example**
 
-![Scatter_Chart_Report_Example_aspose_words_java](Scatter-chart-report-example.png)
+![Scatter_Chart_Report_Example_aspose_words_java](scatter-chart-report-example.png)
 
 ## Bubble Chart Template
 

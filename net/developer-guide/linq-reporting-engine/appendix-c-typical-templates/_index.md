@@ -330,7 +330,7 @@ You can download the template file of this example from [here](https://github.co
 
 **Template Example**
 
-![Pie_Chart_Template_Example2-aspose-words-net](Pie-chart-template-example2.png)
+![Pie_Chart_Template_Example2-aspose-words-net](pie-chart-template-example2.png)
 
 **Initial Chart Series Data**
 
@@ -338,7 +338,7 @@ You can download the template file of this example from [here](https://github.co
 
 **Report Example**
 
-![Pie_Chart_Report_Example-aspose-words-net](Pie-chart-report-example.png)
+![Pie_Chart_Report_Example-aspose-words-net](pie-chart-report-example.png)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-PieChart-PieChart.cs" >}}
 
@@ -348,7 +348,7 @@ You can download the template file of this example from [here](https://github.co
 
 **Template Example**
 
-![Scatter_Chart_Template_Example2-aspose-words-net](Scatter-chart-template-example2.png)
+![Scatter_Chart_Template_Example2-aspose-words-net](scatter-chart-template-example2.png)
 
 **Initial Chart Series Data**
 
@@ -356,7 +356,7 @@ You can download the template file of this example from [here](https://github.co
 
 **Report Example**
 
-![Scatter_Chart_Report_Example-aspose-words-net](Scatter-chart-report-example.png)
+![Scatter_Chart_Report_Example-aspose-words-net](scatter-chart-report-example.png)
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-ScatterChart-ScatterChart.cs" >}}
 
