@@ -113,4 +113,4 @@ You can fork the repository, edit the source code, and create a pull request to 
 
 ## See Also
 
-- [Details on how to install NuGet Package Manager](http://docs.nuget.org/ndocs/guides/install-nuget)
+- [Details on how to install NuGet Package Manager](https://docs.nuget.org/ndocs/guides/install-nuget)

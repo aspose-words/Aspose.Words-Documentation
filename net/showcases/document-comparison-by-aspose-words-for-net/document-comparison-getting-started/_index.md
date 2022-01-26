@@ -40,7 +40,7 @@ Document Comparison by Aspose.Words for .NET is provided as a Visual Studio proj
 1. Download the ZIP file from any of the following publicly sources:
    - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET)
    - [CodePlex](https://worddocumentcomparison.codeplex.com/)
-   - [Code.MSDN](https://code.msdn.microsoft.com/Document-Comparison-by-b4c49161)
+   - [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 2. Unzip to any folder.
 3. Open the solution file in Microsoft Visual Studio.

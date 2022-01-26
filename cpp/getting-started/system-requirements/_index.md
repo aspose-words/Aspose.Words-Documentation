@@ -64,7 +64,7 @@ Aspose.Words for C++ can be used to develop application in the development envir
 
 ### Additional Dependency on Linux
 
-Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) binaries both dynamic library and tool. Please install it before using:
+Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig//) binaries both dynamic library and tool. Please install it before using:
 
 1. Installing fontconfig on Ubuntu or Debian</br>
 `sudo apt install libfontconfig fontconfig`
@@ -86,7 +86,7 @@ Aspose.Words for C++ can be used to develop application in the flowwing developm
 
 ### Additional Dependency on macOS
 
-Aspose.Words for C++ on macOS depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig) binaries both dynamic library and tool. Please install it before using:
+Aspose.Words for C++ on macOS depends on [fontconfig](https://www.freedesktop.org/wiki/Software/fontconfig/) binaries both dynamic library and tool. Please install it before using:
 
 Installing fontconfig on macOS with [homebrew](https://brew.sh)</br>
 `brew install fontconfig`

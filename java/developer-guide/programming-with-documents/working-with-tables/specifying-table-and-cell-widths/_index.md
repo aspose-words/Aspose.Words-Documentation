@@ -53,7 +53,7 @@ The cells in the above table can be described as such:
 - The third cell is defined as auto or “width not defined”. This means the width of the cell is calculated using the other size information of the table. Normally such a cell will take up the remaining space in the table. 
   In Aspose.Words the sizing modes described above can be found under the [PreferredWidthType](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidthType) enumeration and are set using the [Table.PreferredWidth](https://apireference.aspose.com/words/java/com.aspose.words/Table#PreferredWidth) property and [CellFormat.PreferredWidth](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#PreferredWidth) property.
 
-  The appropriate preferred width type and value is set by using the methods of the [PreferredWidth](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth) class. For instance, to specify a width from points you would use the [PreferredWidth.FromPoints](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#fromPoints(double)) method. To specify a percentage width you would use [PreferredWidth.FromPercent](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#fromPercent(double)). Finally to specify auto or “no preferred width” you would use [PreferredWidth.Auto](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth).
+  The appropriate preferred width type and value is set by using the methods of the [PreferredWidth](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth) class. For instance, to specify a width from points you would use the [PreferredWidth.FromPoints](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth#fromPoints(double)) method. To specify a percentage width you would use [PreferredWidth.FromPercent](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth#fromPercent(double)). Finally to specify auto or “no preferred width” you would use [PreferredWidth.Auto](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth).
 
 #### Specifying a Preferred Width on a Table in Aspose.Words
 
@@ -77,7 +77,7 @@ Using the [CellFormat.setPreferredWidth(com.aspose.words.PreferredWidth)](https:
 
 #### Finding Preferred Width Type and Value of a Table or Cell
 
-You can use the [PreferredWidth.getType()](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#Type) and [PreferredWidth.getValue()](https://apireference.aspose.com/words/java/com.aspose.words/preferredwidth#Value) properties to find the preferred width details of the desired table or cell. Below example shows how to retrieves the preferred width type of a table cell.
+You can use the [PreferredWidth.getType()](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth#Type) and [PreferredWidth.getValue()](https://apireference.aspose.com/words/java/com.aspose.words/PreferredWidth#Value) properties to find the preferred width details of the desired table or cell. Below example shows how to retrieves the preferred width type of a table cell.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyPreferredWidthOnACell-findPreferredWidthTypeAndValueOfATableOrCell.java" >}}
 
@@ -93,9 +93,9 @@ The following code example shows how to set a table to shrink or grow each cell 
 
 In Aspose.Words the [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat) object also provides a width property. This property is mainly left over from previous versions, however it is still useful as a way to simplify setting a cell’s width. This property now acts differently depending on which of the other width properties already exist on the table:
 
-- If a cell has a preferred width of PreferredWidthType.Auto type (no preferred width set) then the value from the [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#Width) is copied over and becomes the preferred width of the cell (in points).
-- If a cell has a cell preferred width of PreferredWidthType.Percent then any changes to [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#Width) is ignored.
-- If a cell already has a preferred width of type PreferredWidthType.Points then any changes to [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#Width) is ignored. That is, any changes to the width property are not updated in the preferred width and should be applied to the preferred width instead.
+- If a cell has a preferred width of PreferredWidthType.Auto type (no preferred width set) then the value from the [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) is copied over and becomes the preferred width of the cell (in points).
+- If a cell has a cell preferred width of PreferredWidthType.Percent then any changes to [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) is ignored.
+- If a cell already has a preferred width of type PreferredWidthType.Points then any changes to [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) is ignored. That is, any changes to the width property are not updated in the preferred width and should be applied to the preferred width instead.
 - If the table has [Table.getAllowAutoFit()](https://apireference.aspose.com/words/java/com.aspose.words/table#AllowAutoFit) enabled then any change in CellFormat.Width value is ignored and the cell is fitted to its contents instead.
 
 #### The Order of Precedence during Cell Width Calculations

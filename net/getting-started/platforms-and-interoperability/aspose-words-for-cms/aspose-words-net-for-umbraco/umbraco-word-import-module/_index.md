@@ -79,7 +79,7 @@ You can log any issues or suggestions related to Aspose.Words .NET for Umbraco M
 
 **Import from Word**
 
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Umbraco-Import-from-Word-e2470273/view/Discussions#content)
+- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 ### Extend and Contribute
 

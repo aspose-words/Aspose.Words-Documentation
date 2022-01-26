@@ -56,7 +56,7 @@ We offer free support. Anyone who uses our product, whether they have bought it 
 You can log any issues or suggestions related to Aspose.Words using any of the following platforms:
 
 - [Aspose.Words support forum](https://forum.aspose.com/c/words/8) – the main avenue for getting support
-- [Stack Overflow](http://stackoverflow.com/) – set the aspose.words tag when posting your question
+- [Stack Overflow](https://stackoverflow.com/) – set the aspose.words tag when posting your question
 
 For more information on Aspose.Words technical support, take a look at the [support page](/words/java/technical-support/).
 

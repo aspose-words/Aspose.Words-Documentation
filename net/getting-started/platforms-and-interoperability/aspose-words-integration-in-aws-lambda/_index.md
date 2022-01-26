@@ -262,5 +262,5 @@ To use fonts from the S3 storage, follow the steps below:
 
 - [AWS Free Tier](https://aws.amazon.com/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc)
 
-- [Noto Fonts](https://www.google.com/get/noto/)
+- [Noto Fonts](https://fonts.google.com/noto)
 

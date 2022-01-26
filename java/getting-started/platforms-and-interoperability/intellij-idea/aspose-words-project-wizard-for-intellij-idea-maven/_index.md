@@ -24,7 +24,7 @@ generate, modify, and convert documents without using Microsoft Word.
 - Aspose.Words Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i,e created project contains Aspose.Words for Java API maven dependency) and download source code examples of the API  for using [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
 - This plugin helps you to work with [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) inside your favourite IntelliJ IDEA. 
 
-![aspose-words-java-for-intellij-idea](http://i.imgur.com/KWKGljg.png)
+![aspose-words-java-for-intellij-idea](https://i.imgur.com/KWKGljg.png)
 
 **WIZARDS**:
 The plugin contains two wizards-----
@@ -32,7 +32,7 @@ The plugin contains two wizards-----
 `       `**Wizard 1:** Aspose.Words Maven Project
 
 - Plugin's **Aspose Maven Project Wizard** lets developers create [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) Maven project.
-- The reference of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](http://maven.aspose.com/artifactory/webapp/home.html?0) and gets added in the pom.xml.
+- The reference of [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/) and gets added in the pom.xml.
 - The created project will always contain the most recent available version Maven Dependency for [Aspose.Words for Java API](http://www.aspose.com/java/word-component.aspx).
 - The wizard steps also present with the option for downloading [Source Code Examples for using Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 
@@ -75,7 +75,7 @@ To download IntelliJ IDEA
 
 ### Downloading Aspose.Words Java for IntelliJ IDEA plugin - Maven
 
-- The plugin can be directly downloaded from the [JetBrains plugin hosting URL](https://plugins.jetbrains.com/plugin/7922) - on IntelliJ IDEA Plugin Repository
+- The plugin can be directly downloaded from the [JetBrains plugin hosting URL](https://plugins.jetbrains.com/plugin/7922-aspose-words-java-for-intellij-idea-maven/) - on IntelliJ IDEA Plugin Repository
   and later can be installed using the IDE option:
   - Goto **File** > **Settings**...>**Plugins**
   - Select "**Install plugin from Disk"**

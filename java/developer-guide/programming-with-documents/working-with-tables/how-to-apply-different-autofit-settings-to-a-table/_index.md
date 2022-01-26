@@ -75,10 +75,10 @@ When a table has auto fit disabled and fixed column widths used instead the foll
 1. The Table.AllowAutoFit property is disabled so columns do not grow or shrink to their contents.
 1. The table-wide preferred width is removed from the Table.PreferredWidth.
 1. The CellFormat.PreferredWidth is removed from all cells in the table.
-   The end result is a table whose column widths are defined using the [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#Width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
+   The end result is a table whose column widths are defined using the [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
 
 {{% alert color="primary" %}} 
 
-Note that if no width is defined for [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#Width) then a default value of one inch (72 points) is used.
+Note that if no width is defined for [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) then a default value of one inch (72 points) is used.
 
 {{% /alert %}}

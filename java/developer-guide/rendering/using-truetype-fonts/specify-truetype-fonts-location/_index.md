@@ -24,7 +24,7 @@ There is a special [SystemFontSource](https://apireference.aspose.com/words/jav
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetFontsFolder.java" >}}
 
-A single instance of the **SystemFontSource** class is defined by default in [FontSettings](https://apireference.aspose.com/words/java/com.aspose.words/FontSettings). On different operating systems, fonts may be located in different places. However, using a **FontSettings** instance for each document is not an optimal solution. In the majority of cases, using [DefaultInstance](https://apireference.aspose.com/words/java/com.aspose.words/fontsettings#DefaultInstance) should be enough.
+A single instance of the **SystemFontSource** class is defined by default in [FontSettings](https://apireference.aspose.com/words/java/com.aspose.words/FontSettings). On different operating systems, fonts may be located in different places. However, using a **FontSettings** instance for each document is not an optimal solution. In the majority of cases, using [DefaultInstance](https://apireference.aspose.com/words/java/com.aspose.words/Fontsettings#DefaultInstance) should be enough.
 
 Per-document instances are needed only if it is required to use different font sources for different documents, which is a rare case. Using several **FontSettings** instances decreases performance because they do not share the cache.
 
@@ -126,7 +126,7 @@ If the document being processed contains links to fonts that are not on the syst
 
 ### Specify One or Multiple Font Folders
 
-The [SetFontsFolder](https://apireference.aspose.com/words/java/com.aspose.words/fontsettings#setFontsFolder\(java.lang.String,boolean\)) and SetFontsFolders methods are shortcuts to the **SetFontSources** method with one or several [FolderFontSource](https://apireference.aspose.com/words/java/com.aspose.words/FolderFontSource) instances. These methods are used to indicate where Aspose.Words should look for fonts. If a folder does not exist or is not accessible, Aspose.Words just ignores this folder. If all folders, including sources for the font substitution, were ignored, Aspose.Words will use Fanwood font as a default.
+The [SetFontsFolder](https://apireference.aspose.com/words/java/com.aspose.words/Fontsettings#setFontsFolder\(java.lang.String,boolean\)) and SetFontsFolders methods are shortcuts to the **SetFontSources** method with one or several [FolderFontSource](https://apireference.aspose.com/words/java/com.aspose.words/FolderFontSource) instances. These methods are used to indicate where Aspose.Words should look for fonts. If a folder does not exist or is not accessible, Aspose.Words just ignores this folder. If all folders, including sources for the font substitution, were ignored, Aspose.Words will use Fanwood font as a default.
 
 The following example demonstrates how to set the folder or source, which Aspose.Words will subsequently use to look for TrueType fonts during rendering or embedding of fonts:
 
