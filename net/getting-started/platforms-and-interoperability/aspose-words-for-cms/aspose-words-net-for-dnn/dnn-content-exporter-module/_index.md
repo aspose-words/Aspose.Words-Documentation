@@ -6,7 +6,7 @@ weight: 20
 url: /net/dnn-content-exporter-module/
 ---
 
-Advance DNN Content Exporter Module using [Aspose.Words for .NET](http://www.aspose.com/word-component-suite.aspx) allow users to export online contents into a Word Document, OpenDocument, PDF and Image formats (Jpeg, Png, Tiff) from selected DNN Skin Pane or Full Page using Aspose.Words and send output file to browser for Open/Download to local system.
+Advance DNN Content Exporter Module using [Aspose.Words for .NET](https://www.aspose.com/word-component-suite.aspx) allow users to export online contents into a Word Document, OpenDocument, PDF and Image formats (Jpeg, Png, Tiff) from selected DNN Skin Pane or Full Page using Aspose.Words and send output file to browser for Open/Download to local system.
 
 ![dnn-content-exporter-module-aspose-words-net-1](dnn-content-exporter-module-1.png)
 
@@ -30,7 +30,7 @@ Based on customer feedback we have added much requested Selected Content Pane an
 In order to setup Aspose.Words .NET for DNN modules you need to have the following requirements met:
 
 - DNN 7.0 +
-- [Aspose.Words for .NET](http://www.aspose.com/.NET/word-component.aspx)
+- [Aspose.Words for .NET](https://www.aspose.com/.NET/word-component.aspx)
 
 Please feel free to contact us if you wish to install these modules on other versions of DNN.
 
@@ -83,7 +83,7 @@ This module allow to apply CSS Class name for DropDowns and Export Button.
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.lic**
@@ -120,7 +120,7 @@ You can get the latest source code from one of the following locations
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](http://www.aspose.com/docs/display/totalnet/Aspose+DNN+Module+Development+Template)
+- [DNN Development Template](https://www.aspose.com/docs/display/totalnet/Aspose+DNN+Module+Development+Template)
 
 Please follow these simple steps to get started
 

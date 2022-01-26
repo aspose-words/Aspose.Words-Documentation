@@ -10,7 +10,7 @@ url: /net/kentico-content-exporter-module/
 
 ### Content Exporter Module
 
-Aspose .NET Word Processing and PDF Document Exporter for Kentico allow users to export online content into Word Processing or PDF document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking a button dynamically exports the content of the page to a Word Processing or PDF document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.
+Aspose .NET Word Processing and PDF Document Exporter for Kentico allow users to export online content into Word Processing or PDF document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking a button dynamically exports the content of the page to a Word Processing or PDF document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.
 
 This initial version of the web part provides a number of great features, including:
 

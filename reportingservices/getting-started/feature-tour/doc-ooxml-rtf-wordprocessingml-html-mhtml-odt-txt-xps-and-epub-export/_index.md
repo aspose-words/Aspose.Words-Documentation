@@ -21,7 +21,7 @@ Aspose.Words for Reporting Services is a rendering extension for Microsoft SQL S
 - XPS – XML Paper Specification
 - EPUB – Electronic Publications
 
-To generate reports, Aspose.Words for Reporting Services relies on a built-in version of [Aspose.Words for .NET](http://www.aspose.com/categories/.net-components/aspose.words-for-.net/default.aspx) , the market leading document-processing component from Aspose. DOC, OOXML, RTF and WordprocessingML copies of the same report will look identical to each other, thanks to the high degree of support for the underlying file formats, provided by Aspose.Words. Microsoft Word is not used to generate documents.
+To generate reports, Aspose.Words for Reporting Services relies on a built-in version of [Aspose.Words for .NET](https://www.aspose.com/categories/.net-components/aspose.words-for-.net/default.aspx) , the market leading document-processing component from Aspose. DOC, OOXML, RTF and WordprocessingML copies of the same report will look identical to each other, thanks to the high degree of support for the underlying file formats, provided by Aspose.Words. Microsoft Word is not used to generate documents.
 
 {{% /alert %}}
 

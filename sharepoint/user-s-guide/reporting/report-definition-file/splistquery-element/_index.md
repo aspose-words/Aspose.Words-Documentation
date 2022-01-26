@@ -19,7 +19,7 @@ If CAML query is not specified, all elements in the list are retrieved. CAML que
 Here is an example of the report with the SPListQuery element:
 
 {{< highlight csharp >}}
-<Report xmlns="http://www.aspose.com/Words/SharePoint/Reporting" >
+<Report xmlns="https://www.aspose.com/Words/SharePoint/Reporting" >
   <DataSets>
     <DataSet>
       <DataSource>
