@@ -68,14 +68,14 @@ There are 51 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-11771|Support the dir and the bdo elements|Enhancement|
 |WORDSNET-14579|Date Field with mixed bidi/non-bidi formatting.|Enhancement|
 |WORDSNET-14589|Add CssFolder property to HtmlSaveOptions|Enhancement|
-|WORDSNET-14590|Discrepancy between HtmlSaveOptions and HtmlFixedSaveOptions regarding ImagesFolder and FontsFolder properties.|[Enhancement](/words/java/converting-a-microsoft-word-document-using-save-method/#convertingamicrosoftworddocumentusingsavemethod-workingwithhtmlsaveoptionsproperties)|
+|WORDSNET-14590|Discrepancy between HtmlSaveOptions and HtmlFixedSaveOptions regarding ImagesFolder and FontsFolder properties.|[Enhancement](/words/java/convert-a-document-to-pdf/#convertingamicrosoftworddocumentusingsavemethod-workingwithhtmlsaveoptionsproperties)|
 |WORDSNET-14713|More horizontal spacing between paragraphs of the same style when exporting to HTML|Enhancement|
 |WORDSNET-14741|Review when Word ignores strokes with weight less that 1 pt|Enhancement|
 |WORDSNET-14636|Aspose.Words.FileCorruptedException occurs upon loading a DOCX|Exception|
 |WORDSNET-14642|Document.Save method throws System.InvalidOperationException whend document is re-saved|Exception|
 |WORDSNET-14702|FileCorruptedException caused by charts|Exception|
 |WORDSNET-14746|NullReferenceException while mailmerge|Exception|
-|WORDSNET-14762|Export fonts to HTML in Base64 encoding|[Feature](/words/java/converting-a-microsoft-word-document-using-save-method/#convertingamicrosoftworddocumentusingsavemethod-exportfontstohtmlinbase64encoding)|
+|WORDSNET-14762|Export fonts to HTML in Base64 encoding|[Feature](/words/java/convert-a-document-to-pdf/#convertingamicrosoftworddocumentusingsavemethod-exportfontstohtmlinbase64encoding)|
 |WORDSNET-5645|Expose (Height/Width) access to Text Frames|Feature|
 |WORDSNET-6833|OutOfMemoryException occurs during rendering DOCX to PDF|Performance|
 

@@ -65,7 +65,7 @@ You have successfully added Aspose .NET Export Users and Roles to Word module to
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.lic**
@@ -106,7 +106,7 @@ You can get the latest source code from one of the following locations
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](http://www.aspose.com/docs/display/totalnet/1.2.1+Downloading)
+- [DNN Development Template](https://www.aspose.com/docs/display/totalnet/1.2.1+Downloading)
 
 Please follow these simple steps to get started
 

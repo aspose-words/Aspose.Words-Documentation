@@ -18,7 +18,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.write("Please make sure to visit ");
 
 // Insert the link.
-builder.insertHyperlink("Aspose Website", "http://www.aspose.com", false);
+builder.insertHyperlink("Aspose Website", "https://www.aspose.com", false);
 doc.save(dataDir + "AsposeAddHyperlinks.doc");
 {{< /highlight >}}
 

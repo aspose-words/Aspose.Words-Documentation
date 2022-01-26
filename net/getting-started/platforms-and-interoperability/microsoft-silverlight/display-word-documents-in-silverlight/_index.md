@@ -8,7 +8,7 @@ url: /net/display-word-documents-in-silverlight/
 
 {{% alert color="primary" %}} 
 
-You can download the complete source code of the SilverlightViewer sample [here](http://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1177.aspx).
+You can download the complete source code of the SilverlightViewer sample [here](https://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1177.aspx).
 
 {{% /alert %}} 
 
@@ -22,7 +22,7 @@ You can download the complete source code of the SilverlightViewer sample [here]
 
 Aspose.Words for .NET and Document Toolkit for Silverlight together provide an easy, powerful and seamless document viewing experience in Silverlight as is demonstrated in the online demo application. Run the application and view your own Word, Open Office, RTF and HTML documents right in Silverlight.
 
-[Launch the demo application](http://www.aspose.com/demos/.net-components/aspose.words/csharp/silverlight/demo.aspx) (requires [Silverlight 3](http://www.microsoft.com/silverlight/) ). 
+[Launch the demo application](https://www.aspose.com/demos/.net-components/aspose.words/csharp/silverlight/demo.aspx) (requires [Silverlight 3](http://www.microsoft.com/silverlight/) ). 
 
 ### How it Works
 

@@ -8,7 +8,7 @@ url: /reportingservices/license-aspose-words-for-reporting-services/
 
 {{% alert color="primary" %}}
 
-Once you are happy with the evaluation, [buy a license](http://www.aspose.com/purchase/default.aspx). Before purchasing make sure you understand and agree to the license subscription terms.
+Once you are happy with the evaluation, [buy a license](https://www.aspose.com/purchase/default.aspx). Before purchasing make sure you understand and agree to the license subscription terms.
 
 The license emailed to you when the order has been paid. The license is a clear text, digitally signed XML file and contains information such as the client name, the purchased product and the type of the license. Do not modify the content of the license file as it will invalidate the license.
 

@@ -53,5 +53,5 @@ The following code example demonstrates how to convert a document to PDF 1.7 usi
 ## See Also
 
 - The article [“Rendering"](/words/python-net/rendering/) for more information on the fixed-page and flow-layout formats
-- The article ["Converting to Fixed-page Format"](/words/python/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article ["Converting to Fixed-page Format"](/words/python-net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
 - The article ["Specify Rendering Options When Converting to PDF"](/words/python-net/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class

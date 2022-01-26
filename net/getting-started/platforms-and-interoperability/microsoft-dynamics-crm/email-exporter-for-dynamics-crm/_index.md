@@ -120,7 +120,7 @@ Please follow these simple steps to get started
 
 - Download/Clone the source code.
 - Open Visual Studio 2010 and Open the project from source code.
-- Make sure to download the latest version of [Aspose.Words for .NET](http://www.aspose.com/.net/word-component.aspx) and add its reference in the project.
+- Make sure to download the latest version of [Aspose.Words for .NET](https://www.aspose.com/.net/word-component.aspx) and add its reference in the project.
 
 **Please Note:** This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
 

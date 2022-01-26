@@ -31,7 +31,7 @@ Following are the system requirements to use Document Comparison by Aspose.Words
 
 If you find any issues, please report on [GitHub](https://github.com/AsposeShowcase/Document_Comparison_by_Aspose_Words_for_NET/issues).
 
-This project is built using Aspose.Words for .NET, which is a commercial component. To get a license, please contact our [sales representatives](http://www.aspose.com/community/forums/aspose.purchase/220/showforum.aspx).
+This project is built using Aspose.Words for .NET, which is a commercial component. To get a license, please contact our [sales representatives](https://www.aspose.com/community/forums/aspose.purchase/220/showforum.aspx).
 
 ## Download and Installation
 

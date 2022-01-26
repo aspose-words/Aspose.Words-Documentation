@@ -14,8 +14,8 @@ Note that there are two products in the Aspose.Words family that can be used wit
 
 |Product |Purpose |
 | :- | :- |
-|[Aspose.Words for SharePoint](http://www.aspose.com/categories/sharepoint-components/aspose.words-for-sharepoint/default.aspx)|Easily add user interface to a SharePoint site for converting documents from one format to another (including to PDF) and joining documents together. Provides limited API for these tasks. Mostly a product for end-users. |
-|[Aspose.Words for .NET](http://www.aspose.com/categories/.net-components/aspose.words-for-.net/default.aspx) |A very powerful .NET class library with a rich API for converting, programming and rendering documents in different formats. Use if you need to code things and need the API. |
+|[Aspose.Words for SharePoint](https://www.aspose.com/categories/sharepoint-components/aspose.words-for-sharepoint/default.aspx)|Easily add user interface to a SharePoint site for converting documents from one format to another (including to PDF) and joining documents together. Provides limited API for these tasks. Mostly a product for end-users. |
+|[Aspose.Words for .NET](https://www.aspose.com/categories/.net-components/aspose.words-for-.net/default.aspx) |A very powerful .NET class library with a rich API for converting, programming and rendering documents in different formats. Use if you need to code things and need the API. |
 This section discusses possible scenarios for using Aspose.Words for .NET in a Microsoft SharePoint environment.
 
 SharePoint is often used to automate business processes that require storing or producing documents, such as invoices, contracts, plans or agendas. These tasks often require writing code to work with documents. 
