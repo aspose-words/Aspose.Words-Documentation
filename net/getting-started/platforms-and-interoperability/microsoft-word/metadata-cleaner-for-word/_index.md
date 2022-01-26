@@ -59,7 +59,7 @@ You can download the latest solution at:
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/eK0i8RKmCDM) below to see the plugin in action.
+Please check [the video](https://www.youtube.com/watch?v=eK0i8RKmCDM) below to see the plugin in action.
 
 ## Support, Extend and Contribute
 

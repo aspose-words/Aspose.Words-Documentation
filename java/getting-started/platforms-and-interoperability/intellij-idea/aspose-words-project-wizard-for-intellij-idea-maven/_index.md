@@ -95,7 +95,7 @@ To download IntelliJ IDEA
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/7AzHu20I0ro) below to see [Aspose.Words Maven Project Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard) and [Aspose.Words Example Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordscodeexample-wizard) in action.
+Please check [the video](https://www.youtube.com/watch?v=7AzHu20I0ro) below to see [Aspose.Words Maven Project Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard) and [Aspose.Words Example Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordscodeexample-wizard) in action.
 
 ## Support, Extend and Contribute
 

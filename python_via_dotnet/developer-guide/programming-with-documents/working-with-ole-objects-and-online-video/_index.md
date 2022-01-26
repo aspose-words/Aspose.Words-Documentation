@@ -42,7 +42,7 @@ doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 
 # Pass direct url from youtu.be.
-url = "https://youtu.be/t_1LYZ102RA"
+url = "https://www.youtube.com/watch?v=t_1LYZ102RA"
 
 width = 360
 height = 270

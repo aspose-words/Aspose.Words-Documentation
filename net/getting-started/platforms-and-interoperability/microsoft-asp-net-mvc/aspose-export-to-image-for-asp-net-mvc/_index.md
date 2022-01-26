@@ -87,7 +87,7 @@ To remove evaluation message and feature limitations, product license should be 
 
 ### Video Demo
 
-Please check [the video](https://youtu.be/CCC96GvkD0M) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=CCC96GvkD0M) below to see the module in action.
 
 ## Support, Extend and Contribute
 
