@@ -8,7 +8,7 @@ url: /java/aspose-words-for-java-16-3-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 16.3.0](https://repository.aspose.com/repo/com/aspose/aspose-words/16.3.0/)
+This page contains release notes for [Aspose.Words for Java 16.3.0](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/16.3.0/)
 
 {{% /alert %}} 
 
