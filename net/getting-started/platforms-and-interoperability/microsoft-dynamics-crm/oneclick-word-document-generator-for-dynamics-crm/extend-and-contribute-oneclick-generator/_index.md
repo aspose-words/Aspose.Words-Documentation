@@ -82,6 +82,6 @@ if (Note.Contains("documentbody"))
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Execute Simple Mail Merge](/words/net/how-to-execute-mail-merge/#how-to-execute-simple-mail-merge).
+For more details, visit [How to Execute Simple Mail Merge](/words/net/types-of-mail-merge-operations/#how-to-execute-simple-mail-merge).
 
 {{% /alert %}}

@@ -110,7 +110,7 @@ This section lists public API changes that were introduced in Aspose.Words 18.3.
 
 Related issue: WORDSNET-15007
 
-The "[Using Charts to Represent Sequential Data](https://docs.dynabic.com/display/wordsnet/Template+Syntax#TemplateSyntax-UsingChartstoRepresentSequentialData)" section and its subsections in the engine's documentation were updated to describe the change.
+The "[Using Charts to Represent Sequential Data](https://docs.dynabic.com/words/net/template-syntax/#TemplateSyntax-UsingChartstoRepresentSequentialData)" section and its subsections in the engine's documentation were updated to describe the change.
 
 ### PdfSaveOptions.EscapeUri Property Added
 

@@ -73,7 +73,7 @@ License license = new License();
 license.setLicense("Aspose.Words.Java.lic");
 {{< /highlight >}}
 
-Please check this [article](/words/java/license-aspose-words/#applying-a-license) for further details.
+Please check this [article](/words/java/licensing/#applying-a-license) for further details.
 
 ## Support, Extend and Contribute
 

@@ -89,6 +89,6 @@ System.out.println("Saved: " + inputfilepath + ".html ");
 
 {{% alert color="primary" %}} 
 
-For more details, visit [Convert a Document to HTML with roundtrip information](/words/java/converting-a-document-using-advance-features/#convertingadocumentusingadvancefeatures-convertadocumenttohtmlwithroundtripinformation).
+For more details, visit [Convert a Document to HTML with roundtrip information](/words/java/serialize-and-work-with-a-document-in-a-database/#convertingadocumentusingadvancefeatures-convertadocumenttohtmlwithroundtripinformation).
 
 {{% /alert %}}
