@@ -33,7 +33,6 @@ This tool will work with all version of windows.
 You can download the latest solution at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/metadataCleanerWord)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 ## Installing and Applying License
 
@@ -71,14 +70,12 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to this add-on using any of the following platforms:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 ### Extend and Contribute
 
 You can download the latest source code at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Word/Aspose.Words%20Metadata%20Cleaner%20for%20Word%20Processing%20Documents)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples/view/SourceCode)
 
 To Extend, Open the Project in Visual Studio. It contains both the source code and setup project.
 Here is some sample code to help you extend the code according to your own need:

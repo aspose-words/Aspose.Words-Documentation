@@ -82,7 +82,7 @@ This section describes several use cases of dividing documents by paged using th
 
 {{% alert color="primary" %}}
 
-You can use any [output format supported by Aspose.Words](/words/python/supported-document-formats/).
+You can use any [output format supported by Aspose.Words](/words/python-net/supported-document-formats/).
 
 {{% /alert %}}
 

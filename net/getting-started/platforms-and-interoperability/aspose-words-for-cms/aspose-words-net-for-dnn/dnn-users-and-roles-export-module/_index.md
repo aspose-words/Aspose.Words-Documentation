@@ -36,7 +36,7 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 You can download Aspose .NET Export Users and Roles to Word for DNN Module from one of the following locations:
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 
 ## Installing
 
@@ -85,9 +85,9 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
-- [Sourceforge ](https://sourceforge.net/p/asposednn/tickets/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
+- [Github](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
+- [Sourceforge](https://sourceforge.net/p/asposednn/tickets/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
 
 ### Extend and Contribute
 
@@ -97,9 +97,9 @@ Aspose .NET Word Processing and PDF Document Exporter for DNN and Aspose .NET Wo
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_DNN)
-- [Sourceforge ](https://sourceforge.net/p/asposednn/code/ci/master/tree/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/src)
+- [Github](https://github.com/asposemarketplace/Aspose_for_DNN)
+- [Sourceforge](https://sourceforge.net/p/asposednn/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-dnn/src)
 
 #### How to configure the source code
 

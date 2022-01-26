@@ -47,10 +47,9 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Kentico Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico/issues)
-- [Sourceforge ](https://sourceforge.net/p/asposekentico/tickets/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/issues?status=new&status=open)
-- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Kentico/issues)
+- [Sourceforge](https://sourceforge.net/p/asposekentico/tickets/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-kentico/issues?status=new&status=open)
 
 #### Extend and Contribute
 
@@ -60,9 +59,9 @@ Aspose .NET Word Processing and PDF Document Exporter for Kentico is open source
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico)
-- [Sourceforge ](https://sourceforge.net/p/asposekentico/code/ci/master/tree/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/src)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Kentico)
+- [Sourceforge](https://sourceforge.net/p/asposekentico/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-kentico/src)
 
 #### How to configure the source code
 
@@ -82,9 +81,9 @@ Please follow these simple steps to get started
 
 You can download Aspose .NET Content Exporter for Kentico module from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Kentico/releases)
-- [Sourceforge ](https://sourceforge.net/projects/asposekentico/files/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-kentico/downloads/)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Kentico/releases)
+- [Sourceforge](https://sourceforge.net/projects/asposekentico/files/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-kentico/downloads/)
 
 ### Installing
 

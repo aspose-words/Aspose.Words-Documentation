@@ -34,9 +34,9 @@ The module is supported on all versions of
 
 You can download Export to Word and Export to PDF modules from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
-- [Sourceforge ](https://sourceforge.net/projects/asposeumbraco/files/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
+- [Sourceforge](https://sourceforge.net/projects/asposeumbraco/files/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
 - [Umbraco - Word Export ](https://our.umbraco.com/projects/developer-tools/export-to-word-using-aspose-words)
 - [Umbraco - PDF Export ](https://our.umbraco.com/projects/developer-tools/export-to-pdf-using-aspose-words)
 
@@ -106,9 +106,9 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/issues)
-- [Sourceforge ](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco/issues)
+- [Sourceforge](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
 
 ### Extend and Contribute
 
@@ -118,9 +118,9 @@ Export to Word, Export to Pdf and Import from Word macros are open source and th
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco)
-- [Sourceforge ](https://sourceforge.net/p/asposeumbraco/code/ci/master/tree/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/src)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco)
+- [Sourceforge](https://sourceforge.net/p/asposeumbraco/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/src)
 
 #### How to configure the source code
 

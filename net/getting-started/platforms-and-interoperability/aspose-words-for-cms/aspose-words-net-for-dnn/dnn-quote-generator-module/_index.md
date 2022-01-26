@@ -109,7 +109,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 ### Extend and Contribute
@@ -120,8 +120,7 @@ Aspose .NET Quote Generator for DNN module is an open source and their source co
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Microsoft Developer Network](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET)
 
 #### How to configure the source code
 

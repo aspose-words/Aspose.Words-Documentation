@@ -47,7 +47,6 @@ This add-on will work with all version of Microsoft Dynamics CRM:
 You can download the latest solution at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeOneClickWordGenerator)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 ## Installing or Uninstalling
 
@@ -92,7 +91,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to Aspose .Net Quote Generator using any of the following platforms:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples/view/Discussions#content)
 
 ## Extend and Contribute
 

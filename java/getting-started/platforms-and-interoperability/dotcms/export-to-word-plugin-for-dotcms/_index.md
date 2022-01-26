@@ -85,7 +85,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Export to Word dotCMS plugin using any of the following platforms
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-Java/issues)
 
 ### Extend and Contribute
 
@@ -95,7 +95,7 @@ Export to Word plugin for dotCMS is open source and its source code is available
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words%20Java%20for%20dotCMS/AsposeDotCMSExportToWord.servlet)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words%20Java%20for%20dotCMS/AsposeDotCMSExportToWord.servlet)
 
 #### How to configure the source code
 

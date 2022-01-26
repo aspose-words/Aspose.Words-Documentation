@@ -99,7 +99,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to Aspose.Words Email Exporter using any of the following platforms:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 ## Extend and Contribute
 
@@ -109,7 +108,6 @@ You can download the latest source code at:
 
 - [CodePlex](http://asposewordsmscrm.codeplex.com/SourceControl/latest#Aspose.Words%20Email%20Exporter/).
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Words%20Email%20Exporter).
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content).
 
 ### How to configure source code
 

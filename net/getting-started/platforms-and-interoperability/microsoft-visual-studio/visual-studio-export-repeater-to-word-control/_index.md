@@ -60,7 +60,6 @@ You can download Export Repeater To Word Control from one of the following locat
 
 - [Visual Studio Gallery](https://marketplace.visualstudio.com/vsgallery/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsRepeaterExport)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 ## Installing
 
@@ -189,7 +188,7 @@ This is why we offer free support. Anyone who uses our product, whether they pur
 You can log any issues or suggestions related to this control using any of the following platforms
 
 - [Visual Studio Gallery - Q and A](https://marketplace.visualstudio.com/vsgallery/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 - [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 ### Extend and Contribute
@@ -200,8 +199,7 @@ Aspose .NET Export Repeater To Word Control for Visual Studio is open source and
 
 You can get the latest source code from one of the following locations
 
-- [Code.MSDN ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples/view/SourceCode#content)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.RepeaterExport)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.RepeaterExport)
 - [Visual Studio Gallery](https://marketplace.visualstudio.com/vsgallery/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
 
 #### How to configure the source code
