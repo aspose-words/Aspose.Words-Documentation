@@ -8,7 +8,7 @@ url: /sharepoint/aspose-words-for-sharepoint-2-0-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for SharePoint 2.0.0](http://www.aspose.com/downloads/words/sharepoint/new-releases/aspose.words-for-sharepoint-2.0.0/)
+This page contains release notes for [Aspose.Words for SharePoint 2.0.0](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-2.0.0/)
 
 {{% /alert %}} 
 
