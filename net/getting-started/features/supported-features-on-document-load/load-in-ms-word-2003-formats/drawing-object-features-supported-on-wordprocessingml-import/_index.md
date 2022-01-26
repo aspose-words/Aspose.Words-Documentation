@@ -190,7 +190,7 @@ See the following link in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Width |Yes |Width appears in the API only as absoloute points and not as percent as what Horizontal Line widths are normally calcuated in.The percent value can be calculated by using the width of the page. |- [Shape.Width](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/width)|
+|Width |Yes |Width appears in the API only as absoloute points and not as percent as what Horizontal Line widths are normally calcuated in.The percent value can be calculated by using the width of the page. |- [Shape.Width](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/width)|
 |Height |Yes | |- [Shape.Height](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/height)|
 |Color |Yes | |- [Shape.FillColor](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fillcolor)|
 |Alignment |Yes | |- [Shape.HorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/horizontalalignment)|
