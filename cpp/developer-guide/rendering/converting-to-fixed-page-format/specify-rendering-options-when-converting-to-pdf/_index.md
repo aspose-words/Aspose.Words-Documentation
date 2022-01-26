@@ -120,7 +120,7 @@ The following example demonstrates how to set Aspose.Words to subset fonts in t
 
 {{% alert color="primary" %}} 
 
-You can download the template file for these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Rendering-Printing/Rendering.doc).
+You can download the template file for these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples/Data/Rendering-Printing/Rendering.doc).
 
 {{% /alert %}} 
 

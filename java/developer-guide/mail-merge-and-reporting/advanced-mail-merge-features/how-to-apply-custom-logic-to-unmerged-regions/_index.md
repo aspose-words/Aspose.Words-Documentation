@@ -53,7 +53,7 @@ This sample project demonstrates this technique. It involves the following steps
 
 The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts several parameters:
 
-1. The [Document](http://www.aspose.com/api/java/words/com.aspose.words/classes/Document) object containing unmerged regions which are to be handled by the passed handler.
+1. The [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object containing unmerged regions which are to be handled by the passed handler.
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](http://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
 1. Through the use of the appropriate overload, the method can also accept a third parameter – a list of region names as strings. If this is specified then only region names remaining the document specified in the list will be manually handled. Other regions which are encountered will not be called by the handler and removed automatically. When the overload with only two parameters is specified, every remaining region in the document is included by the method to be handled manually.
 
