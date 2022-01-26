@@ -33,7 +33,7 @@ The plugin contains two wizards
 **Aspose.Words Maven Project (wizard)**
 
 - This New Project wizard lets developers to create **Maven** project for using [Aspose.Words for Java](https://products.aspose.com/words/java/) from **New Project -> Maven-> Aspose.Words Maven Project.**
-- The reference of [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/) and gets added in the pom.xml.
+- The reference of [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repowebapp/#/) and gets added in the pom.xml.
 - The created project will always contain most recent available version **Maven** Dependency for [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx).
 - The wizard steps also presents with the option for downloading [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) for using [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx).
 

@@ -69,7 +69,7 @@ That is, the engine makes an eager call before applying its built-in extension m
 
 ## Have I do something special to merge the Aspose.Words assembly with another assembly?
 
-You can normally use a tool like [ILMerge](https://www.microsoft.com/en-us/research/people/mbarnett/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fpeople%2Fmbarnett%2Filmerge.aspx) to merge the Aspose.Words assembly with another assembly. However, if you use a functionality of the LINQ Reporting Engine, add the following attribute to the target assembly.
+You can normally use a tool like [ILMerge](https://www.microsoft.com/en-us/research/people/) to merge the Aspose.Words assembly with another assembly. However, if you use a functionality of the LINQ Reporting Engine, add the following attribute to the target assembly.
 
 {{< highlight csharp >}}
 [assembly: InternalsVisibleTo(

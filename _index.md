@@ -45,7 +45,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Words for Java Limitations](/words/java/features/)
 - [Aspose.Words for Java Release Notes](/words/java/aspose-words-for-java/)
 - [Aspose.Words for Java Product Page](https://products.aspose.com/words/java/)
-- [Download Aspose.Words for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words)
+- [Download Aspose.Words for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repowebapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words)
 - [Install Aspose.Words for Java from Maven Repository](/words/java/installation/)
 - [Aspose.Words for Java API Reference Guide](https://apireference.aspose.com/words/java)
 - [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-Java)

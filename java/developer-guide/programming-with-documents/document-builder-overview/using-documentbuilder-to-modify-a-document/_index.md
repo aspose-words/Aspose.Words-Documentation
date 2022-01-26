@@ -46,21 +46,21 @@ Aspose.Words allows the easy creation of lists by applying list formatting. Docu
 | :- |
 There are two general types of lists in Microsoft Word: bulleted and numbered.
 
-- To start a bulleted list, call [ListFormat.applyBulletDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat/methods/applyBulletDefault\(\)/) .
-- To start a numbered list, call [ListFormat.applyNumberDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat/methods/applyNumberDefault\(\)/) .
+- To start a bulleted list, call [ListFormat.applyBulletDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat#applyBulletDefault\(\)) .
+- To start a numbered list, call [ListFormat.applyNumberDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat#applyNumberDefault\(\)) .
 
-The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [ListFormat.removeNumbers](https://apireference.aspose.com/words/java/com.aspose.words/listformat/methods/removeNumbers\(\)/) is called to stop bulleted list formatting.
+The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [ListFormat.removeNumbers](https://apireference.aspose.com/words/java/com.aspose.words/listformat#removeNumbers\(\)) is called to stop bulleted list formatting.
 
 In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
-- To increase the list level of the current paragraph by one level, call [ListFormat.listIndent](https://apireference.aspose.com/words/java/com.aspose.words/listformat/methods/listIndent\(\)/).
-- To decrease the list level of the current paragraph by one level, call [ListFormat.listOutdent](https://apireference.aspose.com/words/java/com.aspose.words/listformat/methods/listOutdent\(\)/).
+- To increase the list level of the current paragraph by one level, call [ListFormat.listIndent](https://apireference.aspose.com/words/java/com.aspose.words/listformat#listIndent\(\)).
+- To decrease the list level of the current paragraph by one level, call [ListFormat.listOutdent](https://apireference.aspose.com/words/java/com.aspose.words/listformat#listOutdent\(\)).
 
 The methods change the list level and apply the formatting properties of the new level.
 
 {{% alert color="primary" %}} 
 
-You can also use the [ListFormat.listLevelNumber](https://apireference.aspose.com/words/java/com.aspose.words/listformat/methods/setListLevelNumber\(int\)/) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
+You can also use the [ListFormat.listLevelNumber](https://apireference.aspose.com/words/java/com.aspose.words/listformat#setListLevelNumber\(int\)) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
 
 {{% /alert %}} 
 
@@ -82,7 +82,7 @@ The following code example shows how to set such properties as page size and ori
 
 Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
-Furthermore, a **Style** object provides the [Style.getStyleIdentifier](https://apireference.aspose.com/words/java/com.aspose.words/style/methods/getStyleIdentifier\(\)/) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**.
+Furthermore, a **Style** object provides the [Style.getStyleIdentifier](https://apireference.aspose.com/words/java/com.aspose.words/Style#getStyleIdentifier\(\)) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**.
 
 |![apply-style-aspose-words-java](documentbuilder-to-modify-document-6.png)|
 | :- |
@@ -94,7 +94,7 @@ The following code example shows how to apply a paragraph style.
 
 Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to several or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
 
-Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.clearFormatting](https://apireference.aspose.com/words/java/com.aspose.words/border/methods/clearFormatting\(\)/) method. Note that when border properties are reset to default values, the border is invisible.
+Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.clearFormatting](https://apireference.aspose.com/words/java/com.aspose.words/border#clearFormatting\(\)) method. Note that when border properties are reset to default values, the border is invisible.
 
 |![set-borders-shading-aspose-words-java](documentbuilder-to-modify-document-7.png)|
 | :- |
@@ -147,9 +147,9 @@ If you are working with a document that contains multiple sections, you can move
 
 When you need to place some data into a header or footer, you should move there first using [DocumentBuilder.moveToHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToHeaderFooter\(int\)/).The method accepts a HeaderFooterType enumeration value that identifies the type of header or footer to where the cursor should be moved.
 
-If you want to create headers and footers that are different for the first page, you need to set the [PageSetup.getDifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup/methods/getDifferentFirstPageHeaderFooter\(\)/) property to **true**. If you want to create headers and footers that are different for even and odd pages, you need to set [PageSetup.getOddAndEvenPagesHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup/methods/getOddAndEvenPagesHeaderFooter\(\)/) to **true**.
+If you want to create headers and footers that are different for the first page, you need to set the [PageSetup.getDifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/pagesetup#getDifferentFirstPageHeaderFooter\(\)) property to **true**. If you want to create headers and footers that are different for even and odd pages, you need to set [PageSetup.getOddAndEvenPagesHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup#getOddAndEvenPagesHeaderFooter\(\)) to **true**.
 
-If you need to get back to the main story, use[DocumentBuilder.moveToSection](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)/) to move out of the header or footer. Below example creates headers and footers in a document using DocumentBuilder.
+If you need to get back to the main story, use[DocumentBuilder.moveToSection](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)) to move out of the header or footer. Below example creates headers and footers in a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 

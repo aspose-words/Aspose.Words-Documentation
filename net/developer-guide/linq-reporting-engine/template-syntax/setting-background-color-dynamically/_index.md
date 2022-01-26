@@ -19,7 +19,7 @@ content_to_be_colored
 
 An expression declared within an opening `backColor` tag defines a text background color to be applied during runtime. The expression must return a value of one of the following types:
 
-- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor) enumeration like in the following example.
+- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor?view=net-6.0) enumeration like in the following example.
   {{< highlight csharp >}}
   <<backColor [“red”]>>text with red background<</backColor>>
   {{< /highlight >}}
@@ -34,7 +34,7 @@ An expression declared within an opening `backColor` tag defines a text backgrou
   <<backColor [0xFFFF00]>>text with yellow background<</backColor>>
   {{< /highlight >}}
 
-- A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) type.
+- A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-6.0) type.
 
 While building a report, an expression declared within an opening `backColor` tag is evaluated and document content between the tag and its corresponding closing tag is colored accordingly. The opening and closing `backColor` tags are removed then.
 

@@ -162,7 +162,7 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 
 **Note –** Field and table names are case-insensitive.
 
-To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](https://docs.microsoft.com/en-us/dotnet/api/system.data.datarelation) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
+To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](https://docs.microsoft.com/en-us/dotnet/api/system.data.datarelation?view=net-6.0) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
 
 **Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
 

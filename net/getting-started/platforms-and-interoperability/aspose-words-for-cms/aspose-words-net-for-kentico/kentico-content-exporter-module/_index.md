@@ -118,7 +118,7 @@ After you have installed the Aspose .NET Word Processing and PDF Document Export
 1. In the web part configuration dialog, you can set the value of the **Export to Word** and **Export to Pdf** button text.
 1. Click **OK**.
 
-Please check [Using and configuring web parts](https://docs.xperience.io/display/K8/Using+and+configuring+web+parts) for more details. 
+Please check [Using and configuring web parts](https://docs.xperience.io/k8/developing-websites/developing-websites-using-the-portal-engine/using-and-configuring-web-parts) for more details. 
 
 |![kentico-content-exporter-module_1](kentico-content-exporter-module_1)|![kentico-content-exporter-module_2](kentico-content-exporter-module_2)|![kentico-content-exporter-module_3](kentico-content-exporter-module_3)|
 | :- | :- | :- |

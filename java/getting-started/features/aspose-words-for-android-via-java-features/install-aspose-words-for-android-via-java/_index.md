@@ -130,7 +130,7 @@ public void onStart() {
 // 1. Add maven repository into your build.gradle 
 repositories {
     mavenCentral()
-    maven { url "https://repository.aspose.com/repo/" }
+    maven { url "https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/" }
 }
 
 // 2. Add 'Aspose.Words for Android via Java' JAR as a dependency

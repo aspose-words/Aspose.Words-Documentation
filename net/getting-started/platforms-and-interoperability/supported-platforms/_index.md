@@ -40,7 +40,7 @@ Aspose.Words for .NET can be used as a COM object to develop applications in pre
 
 ## Mono
 
-How about creating an application that generates DOC files, or maybe converts DOC and DOCX to PDF and much more, all on openSUSE or Ubuntu? Yes, you can run Aspose.Words for .NET with Mono. [Mono](https://www.mono-project.com/Main_Page) is a project led by Novell (formerly by Ximian) to create an ECMA standard compliant .NET compatible set of tools, including among others a C# compiler and a Common Language Runtime. Mono can be run on Linux, FreeBSD, UNIX, Mac OS X, Solaris and Windows operating systems (for more info see [http://en.wikipedia.org/wiki/Mono(software)](http://en.wikipedia.org/wiki/Mono_\(software\)). Aspose.Words for .NET can be used with Mono 2.4 and higher.
+How about creating an application that generates DOC files, or maybe converts DOC and DOCX to PDF and much more, all on openSUSE or Ubuntu? Yes, you can run Aspose.Words for .NET with Mono. [Mono](https://www.mono-project.com/Main_Page/) is a project led by Novell (formerly by Ximian) to create an ECMA standard compliant .NET compatible set of tools, including among others a C# compiler and a Common Language Runtime. Mono can be run on Linux, FreeBSD, UNIX, Mac OS X, Solaris and Windows operating systems (for more info see [http://en.wikipedia.org/wiki/Mono(software)](http://en.wikipedia.org/wiki/Mono_\(software\)). Aspose.Words for .NET can be used with Mono 2.4 and higher.
 
 **Developing an application with Aspose.Words on Mono** 
 

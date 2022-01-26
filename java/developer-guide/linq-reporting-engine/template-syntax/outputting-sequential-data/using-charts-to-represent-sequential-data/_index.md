@@ -105,7 +105,7 @@ For a chart with dynamic data, you can set colors of chart series dynamically ba
 
 A color expression must return a value of one of the following types:
 
-- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor) enumeration such as “red”.
+- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor?view=net-6.0) enumeration such as “red”.
 - A string containing an HTML color code such as “#F08080” (light coral).
 - An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
 - A value of the [Color](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.
@@ -130,7 +130,7 @@ For a chart with dynamic data, you can set colors of individual chart series poi
 
 A color expression must return a value of one of the following types:
 
-- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor) enumeration such as “red”.
+- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor?view=net-6.0) enumeration such as “red”.
 - A string containing an HTML color code such as “#F08080” (light coral).
 - An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
 - A value of the [Color](https://docs.oracle.com/javase/7/docs/api/java/awt/Color.html) type.

@@ -27,7 +27,7 @@ If `html` switch is present, the expression result is considered to be a HTML bl
 <<["<b>Bold</b> and <i>italic</i> text"] -html>>
 {{< /highlight >}}
 
-To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [IFormattable.ToString](https://docs.microsoft.com/en-us/dotnet/api/system.iformattable.tostring) method implementors. That is, for example, given that d is a `DateTime` value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
+To format a numeric or date-time expression result, you can specify a format string as an element of the corresponding expression tag. Such format strings are the same as the ones that you pass to [IFormattable.ToString](https://docs.microsoft.com/en-us/dotnet/api/system.iformattable.tostring?view=net-6.0) method implementors. That is, for example, given that d is a `DateTime` value, you can use the following template to format the value using the "yyyy.MM.dd" pattern.
 
 {{< highlight xml >}}
 <<[d]:"yyyy.MM.dd">>
