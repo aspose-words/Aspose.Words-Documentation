@@ -19,7 +19,7 @@ The following pages provide implementation details about how Aspose.Words load a
 - [Document Features Supported on OpenDocument Import](/words/java/document-features-supported-on-opendocument-import/)
 - [Drawing Object Features Supported on OpenDocument Import](/words/java/drawing-object-features-supported-on-opendocument-import/)
 - [Field Features Supported on OpenDocument Import](/words/java/field-features-supported-on-opendocument-import/)
-- [Footnotes an Endnote Features Supported on OpenDocument Import](/words/java/footnotes-an-endnote-features-supported-on-opendocument-import/)
+- [Footnotes an Endnote Features Supported on OpenDocument Import](/words/java/footnotes-and-endnote-features-supported-on-opendocument-import/)
 - [Numbering Features Supported on OpenDocument Import](/words/java/numbering-features-supported-on-opendocument-import/)
 - [Paragraph Features Supported on OpenDocument Import](/words/java/paragraph-features-supported-on-opendocument-import/)
 - [Section Features Supported on OpenDocument Import](/words/java/section-features-supported-on-opendocument-import/)

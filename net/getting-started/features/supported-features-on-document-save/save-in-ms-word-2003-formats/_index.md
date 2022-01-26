@@ -20,7 +20,7 @@ The following tables provide implementation details about how Aspose.Words saves
 - [Document Features Supported on WordprocessingML Export](/words/net/document-features-supported-on-wordprocessingml-export/)
 - [Drawing Object Features Supported on WordprocessingML Export](/words/net/drawing-object-features-supported-on-wordprocessingml-export/)
 - [Field Features Supported on WordprocessingML Export](/words/net/field-features-supported-on-wordprocessingml-export/)
-- [Footnotes an Endnote Features Supported on WordprocessingML Export](/words/net/footnotes-an-endnote-features-supported-on-wordprocessingml-export/)
+- [Footnotes an Endnote Features Supported on WordprocessingML Export](/words/net/footnotes-and-endnote-features-supported-on-wordprocessingml-export/)
 - [Numbering Features Supported on WordprocessingML Export](/words/net/numbering-features-supported-on-wordprocessingml-export/)
 - [Paragraph Features Supported on WordprocessingML Export](/words/net/paragraph-features-supported-on-wordprocessingml-export/)
 - [Section Features Supported on WordprocessingML Export](/words/net/section-features-supported-on-wordprocessingml-export/)

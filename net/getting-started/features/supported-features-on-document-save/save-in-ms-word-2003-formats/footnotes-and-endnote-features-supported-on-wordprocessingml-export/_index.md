@@ -9,7 +9,7 @@ aliases: [/net/footnotes-an-endnote-features-supported-on-wordprocessingml-expor
 
 {{% alert color="primary" %}} 
 
-[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-wordprocessingml-import/)
+[Jump to this location in the import section](/words/net/footnotes-and-endnote-features-supported-on-wordprocessingml-import/)
 
 {{% /alert %}} 
 

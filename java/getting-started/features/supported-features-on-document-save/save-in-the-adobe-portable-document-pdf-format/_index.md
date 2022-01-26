@@ -13,7 +13,7 @@ url: /java/save-in-the-adobe-portable-document-pdf-format/
 - [Document Features Supported on PDF Export](/words/java/document-features-supported-on-pdf-export/)
 - [Drawing Object Features Supported on PDF Export](/words/java/drawing-object-features-supported-on-pdf-export/)
 - [Field Features Supported on PDF Export](/words/java/field-features-supported-on-pdf-export/)
-- [Footnotes an Endnote Features Supported on PDF Export](/words/java/footnotes-an-endnote-features-supported-on-pdf-export/)
+- [Footnotes an Endnote Features Supported on PDF Export](/words/java/footnotes-and-endnote-features-supported-on-pdf-export/)
 - [Numbering Features Supported on PDF Export](/words/java/numbering-features-supported-on-pdf-export/)
 - [Paragraph Features Supported on PDF Export](/words/java/paragraph-features-supported-on-pdf-export/)
 - [Save in the Adobe Portable Document Format Overview](/words/java/save-in-the-adobe-portable-document-format-overview/)

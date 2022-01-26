@@ -14,7 +14,7 @@ aliases: [/java/save-in-the-microsoft-word-2003-wordprocessingml-xml-format/]
 - [Document Features Supported on WordprocessingML Export](/words/java/document-features-supported-on-wordprocessingml-export/)
 - [Drawing Object Features Supported on WordprocessingML Export](/words/java/drawing-object-features-supported-on-wordprocessingml-export/)
 - [Field Features Supported on WordprocessingML Export](/words/java/field-features-supported-on-wordprocessingml-export/)
-- [Footnotes an Endnote Features Supported on WordprocessingML Export](/words/java/footnotes-an-endnote-features-supported-on-wordprocessingml-export/)
+- [Footnotes an Endnote Features Supported on WordprocessingML Export](/words/java/footnotes-and-endnote-features-supported-on-wordprocessingml-export/)
 - [Numbering Features Supported on WordprocessingML Export](/words/java/numbering-features-supported-on-wordprocessingml-export/)
 - [Paragraph Features Supported on WordprocessingML Export](/words/java/paragraph-features-supported-on-wordprocessingml-export/)
 - [Save in the Microsoft Word 2003 WordprocessingML Format Overview](/words/java/save-in-the-microsoft-word-2003-wordprocessingml-format-overview/)

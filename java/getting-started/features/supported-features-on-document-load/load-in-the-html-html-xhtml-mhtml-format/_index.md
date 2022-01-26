@@ -19,7 +19,7 @@ The following pages provide implementation details about how Aspose.Words loads 
 - [Document Features Supported on HTML Import](/words/java/document-features-supported-on-html-import/)
 - [Drawing Object Features Supported on HTML Import](/words/java/drawing-object-features-supported-on-html-import/)
 - [Field Features Supported on HTML Import](/words/java/field-features-supported-on-html-import/)
-- [Footnotes an Endnote Features Supported on HTML Import](/words/java/footnotes-an-endnote-features-supported-on-html-import/)
+- [Footnotes an Endnote Features Supported on HTML Import](/words/java/footnotes-and-endnote-features-supported-on-html-import/)
 - [Numbering Features Supported on HTML Import](/words/java/numbering-features-supported-on-html-import/)
 - [Paragraph Features Supported on HTML Import](/words/java/paragraph-features-supported-on-html-import/)
 - [Section Features Supported on HTML Import](/words/java/section-features-supported-on-html-import/)

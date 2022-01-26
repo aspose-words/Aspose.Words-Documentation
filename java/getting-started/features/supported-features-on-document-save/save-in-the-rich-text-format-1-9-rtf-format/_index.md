@@ -13,7 +13,7 @@ url: /java/save-in-the-rich-text-format-1-9-rtf-format/
 - [Document Features Supported on Rich Text Export](/words/java/document-features-supported-on-rich-text-export/)
 - [Drawing Object Features Supported on Rich Text Export](/words/java/drawing-object-features-supported-on-rich-text-export/)
 - [Field Features Supported on Rich Text Export](/words/java/field-features-supported-on-rich-text-export/)
-- [Footnotes an Endnote Features Supported on Rich Text Export](/words/java/footnotes-an-endnote-features-supported-on-rich-text-export/)
+- [Footnotes an Endnote Features Supported on Rich Text Export](/words/java/footnotes-and-endnote-features-supported-on-rich-text-export/)
 - [Numbering Features Supported on Rich Text Export](/words/java/numbering-features-supported-on-rich-text-export/)
 - [Paragraph Features Supported on Rich Text Export](/words/java/paragraph-features-supported-on-rich-text-export/)
 - [Save in the Rich Text Format Overview](/words/java/save-in-the-rich-text-format-overview/)

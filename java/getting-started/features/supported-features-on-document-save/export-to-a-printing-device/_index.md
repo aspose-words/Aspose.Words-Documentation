@@ -14,7 +14,7 @@ url: /java/export-to-a-printing-device/
 - [Drawing Object Features Supported on Print Export](/words/java/drawing-object-features-supported-on-print-export/)
 - [Exporting to a Printer Overview](/words/java/exporting-to-a-printer-overview/)
 - [Field Features Supported on Print Export](/words/java/field-features-supported-on-print-export/)
-- [Footnotes an Endnote Features Supported on Print Export](/words/java/footnotes-an-endnote-features-supported-on-print-export/)
+- [Footnotes an Endnote Features Supported on Print Export](/words/java/footnotes-and-endnote-features-supported-on-print-export/)
 - [Numbering Features Supported on Print Export](/words/java/numbering-features-supported-on-print-export/)
 - [Paragraph Features Supported on Print Export](/words/java/paragraph-features-supported-on-print-export/)
 - [Section Features Supported on Print Export](/words/java/section-features-supported-on-print-export/)

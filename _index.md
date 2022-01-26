@@ -19,7 +19,7 @@ Aspose.Words for .NET is a class library that enables your applications to perfo
 The following are the links to some useful resources you may need to accomplish your tasks:
 
 - [Aspose.Words for .NET Features](/words/net/features/)
-- [Aspose.Words for .NET Limitations](/words/net/what-document-features-are-supported/)
+- [Aspose.Words for .NET Limitations](/words/net/features/)
 - [Aspose.Words for .NET Release Notes](/words/net/release-notes/)
 - [Aspose.Words for .NET Product Page](https://products.aspose.com/words/net/)
 - [Download Aspose.Words for .NET](https://downloads.aspose.com/words/net/)
@@ -42,7 +42,7 @@ Aspose.Words for Java is a class library that enables your applications to perfo
 The following are the links to some useful resources you may need to accomplish your tasks:
 
 - [Aspose.Words for Java Features](/words/java/features/)
-- [Aspose.Words for Java Limitations](/words/java/what-document-features-are-supported/)
+- [Aspose.Words for Java Limitations](/words/java/features/)
 - [Aspose.Words for Java Release Notes](/words/java/aspose-words-for-java/)
 - [Aspose.Words for Java Product Page](https://products.aspose.com/words/java/)
 - [Download Aspose.Words for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words)

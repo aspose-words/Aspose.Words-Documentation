@@ -19,7 +19,7 @@ The following pages provide implementation details about how Aspose.Words loads 
 - [Document Features Supported on FlatOPC Import](/words/java/document-features-supported-on-flatopc-import/)
 - [Drawing Object Features Supported on FlatOPC Import](/words/java/drawing-object-features-supported-on-flatopc-import/)
 - [Field Features Supported on FlatOPC Import](/words/java/field-features-supported-on-flatopc-import/)
-- [Footnotes an Endnote Features Supported on FlatOPC Import](/words/java/footnotes-an-endnote-features-supported-on-flatopc-import/)
+- [Footnotes an Endnote Features Supported on FlatOPC Import](/words/java/footnotes-and-endnote-features-supported-on-flatopc-import/)
 - [Numbering Features Supported on FlatOPC Import](/words/java/numbering-features-supported-on-flatopc-import/)
 - [Paragraph Features Supported on FlatOPC Import](/words/java/paragraph-features-supported-on-flatopc-import/)
 - [Section Features Supported on FlatOPC Import](/words/java/section-features-supported-on-flatopc-import/)

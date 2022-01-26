@@ -19,7 +19,7 @@ The following tables provide implementation details about how Aspose.Words saves
 - [Document Features Supported on FlatOPC Export](/words/net/document-features-supported-on-flatopc-export/)
 - [Drawing Object Features Supported on FlatOPC Export](/words/net/drawing-object-features-supported-on-flatopc-export/)
 - [Field Features Supported on FlatOPC Export](/words/net/field-features-supported-on-flatopc-export/)
-- [Footnotes an Endnote Features Supported on FlatOPC Export](/words/net/footnotes-an-endnote-features-supported-on-flatopc-export/)
+- [Footnotes an Endnote Features Supported on FlatOPC Export](/words/net/footnotes-and-endnote-features-supported-on-flatopc-export/)
 - [Numbering Features Supported on FlatOPC Export](/words/net/numbering-features-supported-on-flatopc-export/)
 - [Paragraph Features Supported on FlatOPC Export](/words/net/paragraph-features-supported-on-flatopc-export/)
 - [Section Features Supported on FlatOPC Export](/words/net/section-features-supported-on-flatopc-export/)
