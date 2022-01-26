@@ -47,7 +47,7 @@ The module is supported on all versions of
 
 You can download Export Members to Word Add-on from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 - [Umbraco Projects ](https://our.umbraco.com/projects/backoffice-extensions/export-umbraco-members-to-word-documents-opendocument-pdf-and-image-formats-using-aspose-words/)
 
 ## Installing
@@ -98,7 +98,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
 ### Extend and Contribute
 
@@ -108,7 +108,7 @@ Export Members to Word is an open source Add-on and its source code is available
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Umbraco)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Umbraco)
 
 #### How to configure the source code
 

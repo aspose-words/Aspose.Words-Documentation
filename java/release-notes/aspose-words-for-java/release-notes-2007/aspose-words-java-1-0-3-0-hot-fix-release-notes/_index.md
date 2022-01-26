@@ -8,7 +8,7 @@ url: /java/aspose-words-java-1-0-3-0-hot-fix-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words Java 1.0.3.0 Hot Fix](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-java-1.0.3.0-hot-fix/)
+This page contains release notes for [Aspose.Words Java 1.0.3.0 Hot Fix](https://downloads.aspose.com/words/java/new-releases/aspose.words-java-1.0.3.0-hot-fix/)
 
 {{% /alert %}} 
 

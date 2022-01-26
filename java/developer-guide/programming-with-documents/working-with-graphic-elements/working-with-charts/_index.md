@@ -59,7 +59,7 @@ The code produces the following result:
 
 ## Working with Charts through Shape.Chart Object
 
-Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](http://www.aspose.com/api/java/words/com.aspose.words/classes/Shape/properties/getChart\(\)/) property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
+Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](https://apireference.aspose.com/words/java/com.aspose.words/Shape/properties/getChart\(\)/) property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
@@ -69,7 +69,7 @@ The code generates the followings results:
 
 ## How to Work with ChartSeriesCollection of Chart
 
-Let’s look into [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) collection. All chart series are available through the chart.getSeries()collection, which is Iterable:
+Let’s look into [ChartSeries](https://apireference.aspose.com/words/java/com.aspose.words/ChartSeries) collection. All chart series are available through the chart.getSeries()collection, which is Iterable:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
@@ -85,7 +85,7 @@ Please see the result below:
 
 ![line-chart-aspose-words-java-2](working-with-charts-2.png)
 
-All single [ChartSeries](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartSeries) have default [ChartDataPoint](http://www.aspose.com/api/java/words/com.aspose.words/classes/ChartDataPoint) options, please try using the following code to change them:
+All single [ChartSeries](https://apireference.aspose.com/words/java/com.aspose.words/ChartSeries) have default [ChartDataPoint](https://apireference.aspose.com/words/java/com.aspose.words/ChartDataPoint) options, please try using the following code to change them:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 

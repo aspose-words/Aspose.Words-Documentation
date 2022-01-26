@@ -12,7 +12,6 @@ You can download the latest source code at:
 - [GitHub](https://github.com/asposemarketplace/asposenetcrm/tree/master/Aspose%20.Net%20AutoMerge/Source%20Code/Aspose%20.NET%20AutoMerge%202.0.0).
 - [BitBucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/src/7ce93ebc181bba2b22539bfe183c68872f812070/Aspose%20.Net%20AutoMerge/Source%20Code/Aspose%20.NET%20AutoMerge%202.0.0/?at=master).
 - [SourceForge](http://sourceforge.net/p/asposenetcrm/code/ci/master/tree/Aspose%20.Net%20AutoMerge/Source%20Code/Aspose%20.NET%20AutoMerge%202.0.0/).
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content).
 
 In this scenario we have used Aspose.Words.dll to generate document from a template. We have defined a custom workflow assembly that can be used with Workflows and Dialogs in CRM.
 

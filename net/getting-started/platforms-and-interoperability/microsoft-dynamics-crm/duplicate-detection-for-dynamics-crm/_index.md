@@ -39,12 +39,10 @@ This addon will work with all version of Microsoft Dynamics CRM:
 You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNetDuplicateDetection2013)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNetDuplicateDetection2015)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
 
 ## Installing or Uninstalling
 
@@ -90,7 +88,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to Aspose .NET Duplicate Detection using any of the following platforms:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Code.MSDN](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples/view/Discussions#content)
 
 ## Extend and Contribute
 

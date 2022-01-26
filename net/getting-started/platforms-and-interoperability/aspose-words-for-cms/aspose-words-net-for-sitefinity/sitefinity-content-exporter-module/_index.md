@@ -36,17 +36,15 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Sitefinity Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Sitefinity/issues)
-- [Sourceforge ](https://sourceforge.net/p/asposesitefinity/tickets/?source=navbar)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/issues?status=new&status=open)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity/issues)
+- [Sourceforge](https://sourceforge.net/p/asposesitefinity/tickets/?source=navbar)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/issues?status=new&status=open)
 
 **Sitefinity Export to Word and PDF**
 
-- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 **Aspose .NET Word Import for Sitefinity**
 
-- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples#content)
 
 #### Extend and Contribute
 
@@ -56,9 +54,9 @@ Sitefinity Export to Word and PDF and Aspose .NET Word Import for Sitefinity are
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Sitefinity)
-- [Sourceforge ](https://sourceforge.net/p/asposesitefinity/code/ci/master/tree/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/src)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity)
+- [Sourceforge](https://sourceforge.net/p/asposesitefinity/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/src)
 
 #### How to configure the source code
 
@@ -80,8 +78,8 @@ Please follow these simple steps to get started
 
 You can download Aspose .NET Content Exporter for Sitefinity module from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Sitefinity/releases)
-- [Sourceforge ](https://sourceforge.net/projects/asposesitefinity/files/)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity/releases)
+- [Sourceforge](https://sourceforge.net/projects/asposesitefinity/files/)
 - [Bitbucket  ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads/)
 
 #### Installing

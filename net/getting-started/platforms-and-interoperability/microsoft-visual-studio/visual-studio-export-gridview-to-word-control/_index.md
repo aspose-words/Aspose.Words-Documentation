@@ -60,7 +60,7 @@ Export GridView To Word Control for Visual Studio is supported of all version of
 You can download Export GridView To Word Control from one of the following locations
 
 - [Visual Studio Gallery ](https://marketplace.visualstudio.com/vsgallery/fb8b9944-cfe5-44a9-8aa7-c785d32d1066)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
 
 ## Installing
 
@@ -173,7 +173,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to this control using any of the following platforms
 
 - [Visual Studio Gallery - Q and A](https://marketplace.visualstudio.com/vsgallery/fb8b9944-cfe5-44a9-8aa7-c785d32d1066)
-- [Github ](https://github.com/asposemarketplace/Aspose_for_VisualStudio/issues)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VisualStudio/issues)
 
 ### Extend and Contribute
 
@@ -183,7 +183,7 @@ Aspose .NET Export GridView To Word Control for Visual Studio is open source and
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
 
 #### How to configure the source code
 

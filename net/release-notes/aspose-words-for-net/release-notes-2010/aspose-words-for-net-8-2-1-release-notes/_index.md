@@ -8,7 +8,7 @@ url: /net/aspose-words-for-net-8-2-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for .NET 8.2.1](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-for-.net-8.2.1/)
+This page contains release notes for [Aspose.Words for .NET 8.2.1](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-8.2.1/)
 
 {{% /alert %}} 
 

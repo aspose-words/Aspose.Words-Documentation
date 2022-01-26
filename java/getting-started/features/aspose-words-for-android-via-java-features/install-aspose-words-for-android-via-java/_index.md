@@ -117,7 +117,7 @@ public void onStart() {
 
 ## How to Use Aspose.Words for Android via Java from 17.2.0 Onward
 
-1. Download the newest version of [Aspose.Words for Android via Java](https://repository.aspose.com/repo/com/aspose/aspose-words/)
+1. Download the newest version of [Aspose.Words for Android via Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/)
 1. Copy aspose-words-18.3-android.via.java.jar into your project’s *libs/*folder
 ![install-aspose-words-for-android-via-java-2](install-aspose-words-for-android-via-java-2.jpg)
 
@@ -200,4 +200,4 @@ The full code should look like this:<br>
 
 Since 2017 the versioning of Aspose.Words for Android via Java complies with Aspose.Words for Java. 
 
-[aspose-words-20.2-android.via.java.jar](https://repository.aspose.com/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
+[aspose-words-20.2-android.via.java.jar](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)

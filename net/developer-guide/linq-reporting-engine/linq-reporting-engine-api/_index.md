@@ -715,7 +715,7 @@ Also, you can use `CsvDataLoadOptions` to customize the following characters pla
 
 ## Setting up Known External Types
 
-LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the `ReportingEngine.KnownTypes` property. The property represents an unordered set (that is, a collection of unique items) of [Type](http://msdn.microsoft.com/en-us/library/system.type\(v=vs.110\).aspx) objects. Every type in the set must meet requirements declared at “Working with Types”.
+LINQ Reporting Engine must be aware of custom external types that you reference in your template before the engine processes the template. You can set up external types known by the engine through the `ReportingEngine.KnownTypes` property. The property represents an unordered set (that is, a collection of unique items) of [Type](https://docs.microsoft.com/en-us/dotnet/api/system.type) objects. Every type in the set must meet requirements declared at “Working with Types”.
 
 **Note –** Aliases of simple types like `int`, `string`, and others are known by the engine by default.
 

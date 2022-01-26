@@ -33,7 +33,7 @@ The general limitation for two documents being compared is that they must not ha
 
 {{% alert color="primary" %}}
 
-Note that you can compare any two documents within the [supported file formats](/words/python/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
+Note that you can compare any two documents within the [supported file formats](/words/python-net/supported-document-formats/). Basically, you can compare document objects and even you can create those objects from scratch without having any specific format.
 
 {{% /alert %}}
 

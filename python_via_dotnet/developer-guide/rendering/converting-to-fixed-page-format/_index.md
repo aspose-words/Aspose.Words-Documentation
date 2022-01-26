@@ -71,7 +71,7 @@ After the page layout is built and the geometry of objects and their position on
 
 - The number and range of pages contained in the output document (**page_index**, **page_count**).
 - A set of characters that are used to numbers rendering (**numeral_format**).
-- A metafile player (**metafile_rendering_options**). For more details, see the ["Handling Windows Metafiles"](/words/python/handling-windows-metafiles/) article.
+- A metafile player (**metafile_rendering_options**). For more details, see the ["Handling Windows Metafiles"](/words/python-net/handling-windows-metafiles/) article.
 - A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format (**jpeg_quality**).
 - Optimization of vector graphics in Aspose.Words output (**optimize_output**).
 - Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats (**use_anti_aliasing**, **use_high_quality_rendering**).

@@ -8,7 +8,7 @@ url: /java/aspose-words-for-java-14-9-release-notes-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 14.9 Release Notes](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-14.9-release-notes/)
+This page contains release notes for [Aspose.Words for Java 14.9 Release Notes](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-14.9-release-notes/)
 
 {{% /alert %}} 
 

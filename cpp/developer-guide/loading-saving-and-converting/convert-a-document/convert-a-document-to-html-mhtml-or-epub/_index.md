@@ -35,7 +35,7 @@ The following code example shows how to export round-trip information when conve
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Loading-and-Saving/Test%20File%20\(doc\).doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples/Data/Loading-and-Saving/Test%20File%20\(doc\).doc).
 
 {{% /alert %}} 
 
@@ -80,6 +80,6 @@ The following code example shows how to converts a Word document to EPUB with sp
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Loading-and-Saving/Document.EpubConversion.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples/Data/Loading-and-Saving/Document.EpubConversion.doc).
 
 {{% /alert %}} 
