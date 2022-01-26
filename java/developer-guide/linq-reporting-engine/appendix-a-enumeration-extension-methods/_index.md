@@ -6,7 +6,7 @@ weight: 60
 url: /java/appendix-a-enumeration-extension-methods/
 ---
 
-LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for `Iterable`. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a common way.
+LINQ Reporting Engine enables you to perform common manipulations on a sequential data through the engine's built-in extension methods for `Iterable`. These extension methods mimic some extension methods of [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0) providing the same signatures and behavior features. Thus, you can group, sort, and perform other sequential data manipulations in template expressions in a common way.
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
 

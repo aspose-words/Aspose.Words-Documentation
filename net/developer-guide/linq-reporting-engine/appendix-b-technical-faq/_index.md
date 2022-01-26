@@ -25,7 +25,7 @@ If you do not specify the type of an enumeration item in a `foreach` statement o
 
 ## Does the engine cooperate with LINQ providers?
 
-The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640). To be aware of the consequences of this feature, consider the following example. Assume, that you have the `City` and `Person` classes defined in your application as follows.
+The engine does not cooperate with [LINQ providers](https://docs.microsoft.com/en-us/previous-versions/bb882640\(v=vs.140\)). To be aware of the consequences of this feature, consider the following example. Assume, that you have the `City` and `Person` classes defined in your application as follows.
 
 {{< highlight csharp >}}
 public class City
