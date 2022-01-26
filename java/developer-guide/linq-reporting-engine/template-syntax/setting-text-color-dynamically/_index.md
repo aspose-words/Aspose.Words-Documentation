@@ -18,7 +18,7 @@ content_to_be_colored
 
 An expression declared within an opening `textColor` tag defines a text font color to be applied during runtime. The expression must return a value of one of the following types:
 
-- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor(v=vs.110).aspx) enumeration like in the following example.
+- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor) enumeration like in the following example.
   {{< highlight csharp >}}
   <<textColor [“red”]>>text with red font<</textColor>>
   {{< /highlight >}}
@@ -30,7 +30,7 @@ An expression declared within an opening `textColor` tag defines a text font col
   {{< highlight csharp >}}
   <<textColor [0xFFFF00]>>text with yellow font<</textColor>>
   {{< /highlight >}}
-- A value of the [Color](http://msdn.microsoft.com/en-us/library/system.drawing.color\(v=vs.110\).aspx) type.
+- A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) type.
 
 While building a report, an expression declared within an opening `textColor` tag is evaluated and text content between the tag and its corresponding closing tag is colored accordingly. The opening and closing `textColor` tags are removed then.
 

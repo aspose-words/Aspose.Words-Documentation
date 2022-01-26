@@ -20,8 +20,8 @@ You can insert images to your reports dynamically using `image` tags. To declare
 The expression declared within an `image` tag is used by the engine to build an image to be inserted. The expression must return a value of one of the following types:
 
 - A byte array containing an image data
-- A [Stream](http://msdn.microsoft.com/en-us/library/system.io.stream\(v=vs.110\).aspx) instance able to read an image data
-- An [Image](http://msdn.microsoft.com/en-us/library/system.drawing.image\(v=vs.110\).aspx) object
+- A [Stream](https://docs.microsoft.com/en-us/dotnet/api/system.io.stream) instance able to read an image data
+- An [Image](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.image) object
 - A string containing an image URI, path, or Base64-encoded image data
 
 While building a report, the following procedure is applied to an `image` tag:

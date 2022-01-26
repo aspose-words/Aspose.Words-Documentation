@@ -18,7 +18,7 @@ content_to_be_colored
 
 An expression declared within an opening `backColor` tag defines a text background color to be applied during runtime. The expression must return a value of one of the following types:
 
-- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration like in the following example.
+- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor) enumeration like in the following example.
 {{< highlight csharp >}}
 <<backColor [“red”]>>text with red background<</backColor>>
 {{< /highlight >}}

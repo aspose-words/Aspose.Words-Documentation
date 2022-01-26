@@ -20,7 +20,7 @@ Syntax of a `doc` tag is defined as follows.
 An expression declared within a `doc` tag is used by the engine to load a document to be inserted during runtime. The expression must return a value of one of the following types:
 
 - A byte array containing document data
-- A [Stream](http://msdn.microsoft.com/en-us/library/system.io.stream\(v=vs.110\).aspx) instance able to read document data
+- A [Stream](https://docs.microsoft.com/en-us/dotnet/api/system.io.stream) instance able to read document data
 - An instance of the Document class
 - A string containing a document URI, path, or Base64-encoded document data
 

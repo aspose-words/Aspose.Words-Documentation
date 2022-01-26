@@ -31,7 +31,7 @@ An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The
 |**Iteration Variable Type**|Yes|You can specify the type of an iteration variable explicitly. This type must be known by the engine (see "Setting up Known External Types" for more information).<br>If you do not specify the type explicitly, it is determined implicitly by the engine depending on the type of the corresponding sequence.|
 |**Iteration Variable Name**|Yes|You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding `foreach` tag.<br>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see "Using Contextual Object Member Access" for more information).|
 |**"in" Keyword**|No| |
-|**Sequence Expression**|No|A sequence expression must return an [IEnumerable](http://msdn.microsoft.com/en-us/library/system.collections.ienumerable\(v=vs.110\).aspx) implementor.|
+|**Sequence Expression**|No|A sequence expression must return an [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable) implementor.|
 The complete syntax of a `foreach` tag (including optional elements) is as follows.
 
 {{< highlight csharp >}}
@@ -295,10 +295,10 @@ For a chart with dynamic data, you can set colors of chart series dynamically ba
 <<seriesColor [color_expression]>>
 {{< /highlight >}}
 	A color expression must return a value of one of the following types:
-	- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration such as “red”.
+	- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor) enumeration such as “red”.
 	- A string containing an HTML color code such as “#F08080” (light coral).
 	- An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
-	- A value of the [Color](http://msdn.microsoft.com/en-us/library/system.drawing.color\(v=vs.110\).aspx) type.
+	- A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) type.
 
 During runtime, expressions declared within `seriesColor` tags are evaluated and corresponding chart series are colored accordingly. The `seriesColor` tags are removed then.
 
@@ -320,10 +320,10 @@ For a chart with dynamic data, you can set colors of individual chart series poi
 <<pointColor [color_expression]>>
 {{< /highlight >}}
 	A color expression must return a value of one of the following types:
-	- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://msdn.microsoft.com/en-us/library/system.drawing.knowncolor\(v=vs.110\).aspx) enumeration such as “red”.
+	- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor) enumeration such as “red”.
 	- A string containing an HTML color code such as “#F08080” (light coral).
 	- An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
-	- A value of the [Color](http://msdn.microsoft.com/en-us/library/system.drawing.color\(v=vs.110\).aspx) type.
+	- A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) type.
 
 During runtime, expressions declared within `pointColor` tags are evaluated and corresponding chart series points are colored accordingly. The `pointColor` tags are removed then.
 
