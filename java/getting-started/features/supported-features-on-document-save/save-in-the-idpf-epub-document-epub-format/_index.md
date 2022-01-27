@@ -13,7 +13,7 @@ url: /java/save-in-the-idpf-epub-document-epub-format/
 - [Document Features Supported on EPUB Export](/words/java/document-features-supported-on-epub-export/)
 - [Drawing Object Features Supported on EPUB Export](/words/java/drawing-object-features-supported-on-epub-export/)
 - [Field Features Supported on EPUB Export](/words/java/field-features-supported-on-epub-export/)
-- [Footnotes an Endnote Features Supported on EPUB Export](/words/java/footnotes-an-endnote-features-supported-on-epub-export/)
+- [Footnotes an Endnote Features Supported on EPUB Export](/words/java/footnotes-and-endnote-features-supported-on-epub-export/)
 - [Numbering Features Supported on EPUB Export](/words/java/numbering-features-supported-on-epub-export/)
 - [Paragraph Features Supported on EPUB Export](/words/java/paragraph-features-supported-on-epub-export/)
 - [Save in the IDPF EPUB Document Format Overview](/words/java/save-in-the-idpf-epub-document-format-overview/)

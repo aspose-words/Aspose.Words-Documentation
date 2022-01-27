@@ -13,7 +13,7 @@ url: /java/save-in-the-html-html-xhtml-mhtml-format/
 - [Document Features Supported on HTML Export](/words/java/document-features-supported-on-html-export/)
 - [Drawing Object Features Supported on HTML Export](/words/java/drawing-object-features-supported-on-html-export/)
 - [Field Features Supported on HTML Export](/words/java/field-features-supported-on-html-export/)
-- [Footnotes and Endnote Features Supported on HTML Export](/words/java/footnotes-an-endnote-features-supported-on-html-export/)
+- [Footnotes and Endnote Features Supported on HTML Export](/words/java/footnotes-and-endnote-features-supported-on-html-export/)
 - [Numbering Features Supported on HTML Export](/words/java/numbering-features-supported-on-html-export/)
 - [Paragraph Features Supported on HTML Export](/words/java/paragraph-features-supported-on-html-export/)
 - [Save in the HTML Format Overview](/words/java/save-in-the-html-format-overview/)

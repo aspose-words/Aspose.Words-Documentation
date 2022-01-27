@@ -19,7 +19,7 @@ The following tables provide details about how Aspose.Words saves document in th
 - [Document Features Supported on EPUB Export](/words/net/document-features-supported-on-epub-export/)
 - [Drawing Object Features Supported on EPUB Export](/words/net/drawing-object-features-supported-on-epub-export/)
 - [Field Features Supported on EPUB Export](/words/net/field-features-supported-on-epub-export/)
-- [Footnotes an Endnote Features Supported on EPUB Export](/words/net/footnotes-an-endnote-features-supported-on-epub-export/)
+- [Footnotes an Endnote Features Supported on EPUB Export](/words/net/footnotes-and-endnote-features-supported-on-epub-export/)
 - [Numbering Features Supported on EPUB Export](/words/net/numbering-features-supported-on-epub-export/)
 - [Paragraph Features Supported on EPUB Export](/words/net/paragraph-features-supported-on-epub-export/)
 - [Section Features Supported on EPUB Export](/words/net/section-features-supported-on-epub-export/)

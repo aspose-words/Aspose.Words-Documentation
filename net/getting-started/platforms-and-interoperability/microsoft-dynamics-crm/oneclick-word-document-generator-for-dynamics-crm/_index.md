@@ -82,7 +82,7 @@ Easily configure and Use Aspose .NET OneClick Word Document Generator for Dynami
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/FY3z8JBY18k) below to see the plugin in action.
+Please check [the video](https://www.youtube.com/watch?v=FY3z8JBY18k) below to see the plugin in action.
 
 ## Support
 

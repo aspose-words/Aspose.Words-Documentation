@@ -13,7 +13,7 @@ url: /java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/
 - [Document Features Supported on DOCX Export](/words/java/document-features-supported-on-docx-export/)
 - [Drawing Object Features Supported on DOCX Export](/words/java/drawing-object-features-supported-on-docx-export/)
 - [Field Features Supported on DOCX Export](/words/java/field-features-supported-on-docx-export/)
-- [Footnotes an Endnote Features Supported on DOCX Export](/words/java/footnotes-an-endnote-features-supported-on-docx-export/)
+- [Footnotes an Endnote Features Supported on DOCX Export](/words/java/footnotes-and-endnote-features-supported-on-docx-export/)
 - [Numbering Features Supported on DOCX Export](/words/java/numbering-features-supported-on-docx-export/)
 - [Paragraph Features Supported on DOCX Export](/words/java/paragraph-features-supported-on-docx-export/)
 - [Save in the Open Office XML Format Overview](/words/java/save-in-the-open-office-xml-format-overview/)

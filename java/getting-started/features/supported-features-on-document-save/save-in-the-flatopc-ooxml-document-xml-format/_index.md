@@ -13,7 +13,7 @@ url: /java/save-in-the-flatopc-ooxml-document-xml-format/
 - [Document Features Supported on FlatOPC Export](/words/java/document-features-supported-on-flatopc-export/)
 - [Drawing Object Features Supported on FlatOPC Export](/words/java/drawing-object-features-supported-on-flatopc-export/)
 - [Field Features Supported on FlatOPC Export](/words/java/field-features-supported-on-flatopc-export/)
-- [Footnotes an Endnote Features Supported on FlatOPC Export](/words/java/footnotes-an-endnote-features-supported-on-flatopc-export/)
+- [Footnotes an Endnote Features Supported on FlatOPC Export](/words/java/footnotes-and-endnote-features-supported-on-flatopc-export/)
 - [Numbering Features Supported on FlatOPC Export](/words/java/numbering-features-supported-on-flatopc-export/)
 - [Paragraph Features Supported on FlatOPC Export](/words/java/paragraph-features-supported-on-flatopc-export/)
 - [Save in the FlatOPC OOXML Document Format Overview](/words/java/save-in-the-flatopc-ooxml-document-format-overview/)

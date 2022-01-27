@@ -153,7 +153,7 @@ Horizontal Line Objects are represented as a Shape node in Aspose.Words. Since a
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Width|Yes|Width appears in the API only as absoloute points and not as percent as what Horizontal Line widths are normally calcuated in.The percent value can be calculated by using the width of the page. <br><br>Imported from width:XXX% on style attribute.|- [Shape.Width](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/width)|
+|Width|Yes|Width appears in the API only as absoloute points and not as percent as what Horizontal Line widths are normally calcuated in.The percent value can be calculated by using the width of the page. <br><br>Imported from width:XXX% on style attribute.|- [Shape.Width](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/width)|
 |Height|Yes|Imported from height:XXpt on style attribute.|- [Shape.Height](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/height)|
 |Color|Yes|Imported from color on style attribute. Note that border:none must be present on the style attribute for the color to be imported correctly.|- [Shape.FillColor](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/fillcolor)|
 |Alignment|Yes|Imported from "text-align:XXX" on style attribute.|- [Shape.HorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.drawing/shapebase/properties/horizontalalignment)|

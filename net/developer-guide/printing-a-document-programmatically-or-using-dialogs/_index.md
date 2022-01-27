@@ -103,4 +103,4 @@ Aspose.Words reads and caches some fields of **PrinterSettings** to reduce pri
 
 ## See Also
 
-- [Platform Update for Windows Vista](http://msdn.microsoft.com/en-us/library/ee663866\(v=vs.85\).aspx)
+- [Platform Update for Windows Vista](https://docs.microsoft.com/en-us/windows/win32/win7ip/platform-update-for-windows-vista-overview)

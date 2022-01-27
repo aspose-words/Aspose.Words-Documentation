@@ -32,7 +32,7 @@ The plugin contains two wizards-----
 `       `**Wizard 1:** Aspose.Words Maven Project
 
 - Plugin's **Aspose Maven Project Wizard** lets developers create [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) Maven project.
-- The reference of [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/) and gets added in the pom.xml.
+- The reference of [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo) and gets added in the pom.xml.
 - The created project will always contain the most recent available version Maven Dependency for [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx).
 - The wizard steps also present with the option for downloading [Source Code Examples for using Aspose.Words for Java API](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 
@@ -95,7 +95,7 @@ To download IntelliJ IDEA
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/7AzHu20I0ro) below to see [Aspose.Words Maven Project Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard) and [Aspose.Words Example Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordscodeexample-wizard) in action.
+Please check [the video](https://www.youtube.com/watch?v=7AzHu20I0ro) below to see [Aspose.Words Maven Project Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard) and [Aspose.Words Example Wizard](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordscodeexample-wizard) in action.
 
 ## Support, Extend and Contribute
 

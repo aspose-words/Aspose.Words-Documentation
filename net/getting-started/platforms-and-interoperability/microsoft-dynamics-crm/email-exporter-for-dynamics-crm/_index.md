@@ -90,7 +90,7 @@ Easily configure and Use Aspose.Words Email Exporter for Dynamics CRM by followi
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/HATaDzOMgo4) below to see the plugin in action.
+Please check [the video](https://www.youtube.com/watch?v=HATaDzOMgo4) below to see the plugin in action.
 
 ## Support
 

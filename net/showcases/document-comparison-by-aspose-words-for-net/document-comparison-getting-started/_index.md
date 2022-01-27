@@ -44,7 +44,7 @@ Document Comparison by Aspose.Words for .NET is provided as a Visual Studio proj
 2. Unzip to any folder.
 3. Open the solution file in Microsoft Visual Studio.
 
-Also, you can watch [a demo video on Youtube]( https://youtu.be/B29kQimqgVI).
+Also, you can watch [a demo video on Youtube]( https://www.youtube.com/watch?v=B29kQimqgVI).
 
 ## Contribution
 

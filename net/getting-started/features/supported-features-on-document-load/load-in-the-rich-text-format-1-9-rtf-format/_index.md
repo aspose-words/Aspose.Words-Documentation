@@ -12,7 +12,7 @@ url: /net/load-in-the-rich-text-format-1-9-rtf-format/
 - [Document Features Supported on Rich Text Import](/words/net/document-features-supported-on-rich-text-import/)
 - [Drawing Object Features Supported on Rich Text Import](/words/net/drawing-object-features-supported-on-rich-text-import/)
 - [Field Features Supported on Rich Text Import](/words/net/field-features-supported-on-rich-text-import/)
-- [Footnotes an Endnote Features Supported on Rich Text Import](/words/net/footnotes-an-endnote-features-supported-on-rich-text-import/)
+- [Footnotes an Endnote Features Supported on Rich Text Import](/words/net/footnotes-and-endnote-features-supported-on-rich-text-import/)
 - [Load in the Rich Text Format Overview](/words/net/load-in-the-rich-text-format-overview/)
 - [Numbering Features Supported on Rich Text Import](/words/net/numbering-features-supported-on-rich-text-import/)
 - [Paragraph Features Supported on Rich Text Import](/words/net/paragraph-features-supported-on-rich-text-import/)

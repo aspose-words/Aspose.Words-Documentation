@@ -18,7 +18,7 @@ While composing expressions, you can use a subset of C# language that satisfies 
 
 **Note –** In general, the subset corresponds to Java language with few exceptions.
 
-Common reporting data manipulations such as grouping, sorting, and others are included to the expression syntax in the form of [IEnumerable&lt;T&gt;](http://msdn.microsoft.com/en-us/library/9eekhta0) extension methods. LINQ Reporting Engine gained its name because of this feature.
+Common reporting data manipulations such as grouping, sorting, and others are included to the expression syntax in the form of [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0) extension methods. LINQ Reporting Engine gained its name because of this feature.
 
 You can use common Aspose.Words Mail Merge data source objects such as `DataSet`, `DataTable`, and others while working with LINQ Reporting Engine as well. The engine provides a simplified expression syntax to work with such objects. For example, a data table is treated as a collection of its rows. That is, you can normally apply `IEnumerable<T>` extension methods to it. A single data row, in turn, is treated as if it was an object that has the same set of fields that the row has.
 

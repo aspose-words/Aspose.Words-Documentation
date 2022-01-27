@@ -59,7 +59,7 @@ The code produces the following result:
 
 ## Working with Charts through Shape.Chart Object
 
-Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](https://apireference.aspose.com/words/java/com.aspose.words/Shape/properties/getChart\(\)/) property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
+Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](https://apireference.aspose.com/words/java/com.aspose.words/Shape#getChart\(\)) property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 

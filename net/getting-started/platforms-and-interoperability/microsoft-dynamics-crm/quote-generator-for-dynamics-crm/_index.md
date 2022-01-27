@@ -85,7 +85,7 @@ Easily configure and Use Aspose .NET Quote Generator for Dynamics CRM by followi
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/mngscvhHWHw) below to see the plugin in action.
+Please check [the video](https://www.youtube.com/watch?v=mngscvhHWHw) below to see the plugin in action.
 
 ## Support
 

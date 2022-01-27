@@ -25,7 +25,7 @@ If you do not specify the type of an enumeration item in a `foreach` statement o
 
 ## Does the engine cooperate with LINQ providers?
 
-The engine does not cooperate with [LINQ providers](http://msdn.microsoft.com/en-us/library/vstudio/bb882640). To be aware of the consequences of this feature, consider the following example. Assume, that you have the `City` and `Person` classes defined in your application as follows.
+The engine does not cooperate with [LINQ providers](https://docs.microsoft.com/en-us/previous-versions/bb882640\(v=vs.140\)). To be aware of the consequences of this feature, consider the following example. Assume, that you have the `City` and `Person` classes defined in your application as follows.
 
 {{< highlight csharp >}}
 public class City
@@ -69,7 +69,7 @@ That is, the engine makes an eager call before applying its built-in extension m
 
 ## Have I do something special to merge the Aspose.Words assembly with another assembly?
 
-You can normally use a tool like [ILMerge](https://www.microsoft.com/en-us/research/people/mbarnett/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fpeople%2Fmbarnett%2Filmerge.aspx) to merge the Aspose.Words assembly with another assembly. However, if you use a functionality of the LINQ Reporting Engine, add the following attribute to the target assembly.
+You can normally use a tool like [ILMerge](https://www.microsoft.com/en-us/research/people/) to merge the Aspose.Words assembly with another assembly. However, if you use a functionality of the LINQ Reporting Engine, add the following attribute to the target assembly.
 
 {{< highlight csharp >}}
 [assembly: InternalsVisibleTo(

@@ -19,7 +19,7 @@ The following tables provide implementation details about how Aspose.Words saves
 - [Document Features Supported on PDF Export](/words/net/document-features-supported-on-pdf-export/)
 - [Drawing Object Features Supported on PDF Export](/words/net/drawing-object-features-supported-on-pdf-export/)
 - [Field Features Supported on PDF Export](/words/net/field-features-supported-on-pdf-export/)
-- [Footnotes an Endnote Features Supported on PDF Export](/words/net/footnotes-an-endnote-features-supported-on-pdf-export/)
+- [Footnotes an Endnote Features Supported on PDF Export](/words/net/footnotes-and-endnote-features-supported-on-pdf-export/)
 - [Numbering Features Supported on PDF Export](/words/net/numbering-features-supported-on-pdf-export/)
 - [Paragraph Features Supported on PDF Export](/words/net/paragraph-features-supported-on-pdf-export/)
 - [Section Features Supported on PDF Export](/words/net/section-features-supported-on-pdf-export/)

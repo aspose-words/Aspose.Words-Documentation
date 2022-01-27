@@ -32,7 +32,7 @@ This sample demonstrates how the MergeDocx utility can be used to merge docx do
 
 The MergeDocx utility is a paid extension to docx4j. Purchases of this extension support the docx4j project. 
 
-@see <https://www.docx4java.org/blog/2010/11/merging-word-documents> for more info, or @see <http://www.plutext.com>.
+@see <https://www.docx4java.org/blog/2010/11/merging-word-documents/> for more info, or @see <http://www.plutext.com>.
 
 To run the utility, you simply pass it a list of the docx you want to merge; it returns a new pkg containing the merged documents.
 
