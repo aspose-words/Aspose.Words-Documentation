@@ -62,7 +62,7 @@ You will need to first install Eclipse IDE before downloading the Aspose.Words J
 
 To download Eclipse IDE
 
-1. Goto [eclipse.org](https://eclipse.org/).
+1. Goto [eclipse.org](https://www.eclipse.org/).
 1. Download and install the recommended Eclipse IDE for Java SE / EE developers.
 
 ### Download Aspose.Words Java for Eclipse (Maven)

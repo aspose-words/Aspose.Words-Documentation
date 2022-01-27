@@ -248,7 +248,7 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.CssStyleSheetType = CssStyleSheetType.External;
 saveOptions.ExportFontResources = true;
 saveOptions.ResourceFolder = @"C:\Resources";
-saveOptions.ResourceFolderAlias = "https://example.com/resources";
+saveOptions.ResourceFolderAlias = "https://www.example.com/resources";
 doc.Save(@"C:\Test.html", saveOptions);
 {{< /highlight >}}
 
@@ -261,7 +261,7 @@ C:\Resources\Test.calibril.ttf
 C:\Resources\Test.css
 {{< /highlight >}}
 
-In this scenario https://example.com/resources alias is used to construct URIs of all resources.
+In this scenario https://www.example.com/resources alias is used to construct URIs of all resources.
 
 5.
 
@@ -270,7 +270,7 @@ Document doc = new Document(@"C:\Test.docx");
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.CssStyleSheetType = CssStyleSheetType.External;
 saveOptions.ExportFontResources = true;
-saveOptions.ResourceFolderAlias = "https://example.com/resources";
+saveOptions.ResourceFolderAlias = "https://www.example.com/resources";
 doc.Save(@"C:\Test.html", saveOptions);
 {{< /highlight >}}
 
@@ -283,7 +283,7 @@ C:\Test.calibril.ttf
 C:\Test.css
 {{< /highlight >}}
 
-In this scenario https://example.com/resources alias is used to construct URIs of all resources.
+In this scenario https://www.example.com/resources alias is used to construct URIs of all resources.
 
 6.
 
