@@ -122,7 +122,7 @@ If you want to create your own Ruby gem Aspose.Total Java APIs, please follow th
 
 - Install Ruby from <https://www.ruby-lang.org/en/downloads/> or from <https://rubyinstaller.org/> (for windows)
 - Install Ruby Dev-Kit / Dev Tools (for Windows from <https://www.ruby-lang.org/en/downloads/>)
-- Follow this guide for installing Dev-Kit: <https://github.com/oneclick/rubyinstaller/wiki/Development-Kit>
+- Follow this guide for installing Dev-Kit: <https://github.com/oneclick/rubyinstaller/wiki/>
 - Install RJB Gem from <https://rubygems.org/gems/rjb>
 - Download the template and start developing Aspose.Total for Java APIs based project/gem in Ruby. You can download template from <https://github.com/asposemarketplace/Aspose_Java_for_Ruby>
 - Download relevant Aspose.Total Java Component from <https://products.aspose.com/total/java/> and place it in your project "jars" folder

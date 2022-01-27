@@ -8,7 +8,7 @@ url: /java/downloads-and-configure-aspose-words-in-struts-1-3/
 
 ## Downloading Aspose.Words Java for Struts 1.3
 
-You can download the pre-built (binary) .war file from the latest releases hosted on [codeplex](http://aspose-wordsforstruts.codeplex.com/releases/view/615997).
+You can download the pre-built (binary) .war file from the latest releases hosted on [codeplex](https://aspose-wordsforstruts.codeplex.com/releases/view/615997).
 
 -OR-
 

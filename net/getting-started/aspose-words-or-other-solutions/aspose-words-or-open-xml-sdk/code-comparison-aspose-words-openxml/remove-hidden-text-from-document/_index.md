@@ -52,7 +52,7 @@ The following code example shows how to remove hidden text from a Word document:
 {{< highlight csharp >}}
 public void RemoveHiddenTextFeature()
 {
-	const string wordmlNamespace = "http://schemas.openxmlformats.org/wordprocessingml/2006/main";
+	const string wordmlNamespace = "https://schemas.openxmlformats.org/wordprocessingml/2006/main";
 	using (WordprocessingDocument wdDoc = WordprocessingDocument.Open(MyDir + "Remove hidden text.docx", true))
 	{
 		// Manage namespaces to perform XPath queries.

@@ -11,7 +11,7 @@ url: /java/php-and-aspose-words-for-java/
 {{% alert color="primary" %}}
 Install and configure the PHP/Java Bridge to make use of Java from PHP. For more details about installing and configuring the PHP see <https://www.php.net/manual/en/install.php>.
 
-Also, you can download PHP/Java Bridge that doesn’t require a java extension from <http://php-java-bridge.sourceforge.net/pjb/>. The installation instruction for installing PHP/ Java Bridge can be found here <http://php-java-bridge.sourceforge.net/pjb/installation.php>. 
+Also, you can download PHP/Java Bridge that doesn’t require a java extension from <https://php-java-bridge.sourceforge.net/pjb/>. The installation instruction for installing PHP/ Java Bridge can be found here <https://php-java-bridge.sourceforge.net/pjb/installation.php>. 
 
 Download [the latest version of Aspose.Words for Java](https://downloads.aspose.com/words/java). Extract files and copy the lib folder with jar files to the root folder of your project. 
 
@@ -25,7 +25,7 @@ This is a simple application that creates an empty document, inserts some conten
 
 {{< highlight csharp >}}
 <?php 
-require_once("http://localhost:8080/JavaBridge/java/Java.inc"); 
+require_once("https://localhost:8080/JavaBridge/java/Java.inc"); 
 java_require("lib\\Aspose.Words.jdk15.jar;lib\\jaxen-1.1.jar");
 $doc = new Java("com.aspose.words.Document");
 $builder = new Java("com.aspose.words.DocumentBuilder");
@@ -43,7 +43,7 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Word�
 
 {{< highlight csharp >}}
 <?php 
-require_once("http://localhost:8080/JavaBridge/java/Java.inc"); 
+require_once("https://localhost:8080/JavaBridge/java/Java.inc"); 
 java_require("lib\\Aspose.Words.jdk15.jar;lib\\jaxen-1.1.jar");
 
 // Open template file
@@ -69,7 +69,7 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 
 {{< highlight csharp >}}
 <?php 
-require_once("http://localhost:8080/JavaBridge/java/Java.inc"); 
+require_once("https://localhost:8080/JavaBridge/java/Java.inc"); 
 java_require("lib\Aspose.Words.jdk15.jar;lib\jaxen-1.1.jar");
 $loadFormat = new Java("com.aspose.words.LoadFormat");
 
@@ -156,7 +156,7 @@ Next, write your PHP code.
 
 {{< highlight csharp >}}
 <?php 
-require_once("http://localhost:8080/JavaBridge/java/Java.inc"); 
+require_once("https://localhost:8080/JavaBridge/java/Java.inc"); 
 //Load libraries
 java_require("lib\Aspose.Words.jdk15.jar;lib\jaxen-1.1.jar;lib\RelationSet.jar");
 //Open document

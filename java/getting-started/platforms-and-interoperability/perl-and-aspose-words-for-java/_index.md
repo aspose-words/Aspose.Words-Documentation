@@ -9,11 +9,11 @@ url: /java/perl-and-aspose-words-for-java/
 
 {{% alert color="primary" %}} 
 
-The **Inline::Java** module allows you to put Java source code directly "inline" in a Perl script or module. A Java compiler is launched and the Java code is compiled. Then Perl asks the Java classes what public methods have been defined. These classes and methods are available to the Perl program as if they had been written in Perl. See [search.cpan.org](https://metacpan.org/dist/Inline-Java/source/Java.pod) to learn more about Inline::Java.
+The **Inline::Java** module allows you to put Java source code directly "inline" in a Perl script or module. A Java compiler is launched and the Java code is compiled. Then Perl asks the Java classes what public methods have been defined. These classes and methods are available to the Perl program as if they had been written in Perl. See [search.cpan.org](https://metacpan.org/dist/Inline-Java) to learn more about Inline::Java.
 
 Here are the steps to install the Inline::Java module: 
 
-1. Add theoryx5 ppm repo using the following command: C:\Perl\bin> ppm repo add <http://theoryx5.uwinnipeg.ca/ppms/> 
+1. Add theoryx5 ppm repo using the following command: C:\Perl\bin> ppm repo add <https://theoryx5.uwinnipeg.ca/ppms/> 
 1. Install the Inline::Java module: **C:\Perl\bin> ppm install inline::Java** 
 1. Set path to your JDK: **C:\Perl\bin> set** **PERL** **_INLINE_JAVA_J2SDK=C:\Program Files\Java\jdk1.6.0_03** 
 

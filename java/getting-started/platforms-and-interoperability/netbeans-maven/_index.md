@@ -68,14 +68,14 @@ You should definitely have NetBeans IDE preinstalled before you download **Aspos
 
 To download NetBeans IDE,
 
-1. Navigate to: [netbeans.apache.org](https://netbeans.apache.org//downloads)
+1. Navigate to: [netbeans.apache.org](https://netbeans.apache.org/downloads)
 1. Click Download to download NetBeans IDE appropriate bundle. 
 
 Download only Java EE / SE supported NetBeans download bundle of the current latest release i.e. **NetBeans IDE 8.1**.
 
 ### Download Aspose.Words Java for NetBeans (Maven)
 
-- The plugin can be directly downloaded from the NetBeans plugin hosting URL: <http://plugins.netbeans.org/plugin/62090>
+- The plugin can be directly downloaded from the NetBeans plugin hosting URL: <https://plugins.netbeans.org/plugin/62090>
   and later can be installed using the IDE option:
   - Goto **Tools** > **Plugins** > **Downloaded**
   - Click "**Add Plugins..."** and browse for downloaded .nbm extension plugin file for **Aspose.Words Java for NetBeans (Maven)**.

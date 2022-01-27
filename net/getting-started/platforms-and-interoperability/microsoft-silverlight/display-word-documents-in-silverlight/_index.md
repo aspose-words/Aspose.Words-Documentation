@@ -22,7 +22,7 @@ You can download the complete source code of the SilverlightViewer sample [here]
 
 Aspose.Words for .NET and Document Toolkit for Silverlight together provide an easy, powerful and seamless document viewing experience in Silverlight as is demonstrated in the online demo application. Run the application and view your own Word, Open Office, RTF and HTML documents right in Silverlight.
 
-[Launch the demo application](https://www.aspose.com/demos/.net-components/aspose.words/csharp/silverlight/demo.aspx) (requires [Silverlight 3](http://www.microsoft.com/silverlight/) ). 
+[Launch the demo application](https://www.aspose.com/demos/.net-components/aspose.words/csharp/silverlight/demo.aspx) (requires [Silverlight 3](https://www.microsoft.com/silverlight/) ). 
 
 ### How it Works
 
@@ -38,4 +38,4 @@ More information about Aspose can be found at <https://www.aspose.com/> .
 
 First Floor Software, based in The Hague, The Netherlands, is an Independent Software Vendor focusing entirely on the Silverlight technology. The company was founded late 2008 by Koen Zwikstra.
 
-More information about First Floor Software can be found at <http://firstfloorsoftware.com> . 
+More information about First Floor Software can be found at <https://firstfloorsoftware.com> . 

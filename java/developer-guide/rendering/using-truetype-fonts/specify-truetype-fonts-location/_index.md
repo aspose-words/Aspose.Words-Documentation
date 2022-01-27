@@ -64,7 +64,7 @@ There are five types of typefaces, each typeface represents a group of similar f
 - SANS_SERIF
 - SERIF
 
-For instance, according to Android’s [fonts.xml](http://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config file, “times” belongs to “serif” family so NotoSerif-Regular.ttf will be used when “times” is requested:
+For instance, according to Android’s [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config file, “times” belongs to “serif” family so NotoSerif-Regular.ttf will be used when “times” is requested:
 
 **Fonts.xml**
 
@@ -134,7 +134,7 @@ The following example demonstrates how to set the folder or source, which Aspose
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering-Printing/Rendering.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/RenderingAndPrinting/Rendering.doc).
 
 {{% /alert %}} 
 
@@ -142,7 +142,7 @@ An extra Boolean parameter controls whether fonts are scanned recursively throug
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetMultipleFontsFolder.java" >}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering-Printing/Rendering.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/RenderingAndPrinting/Rendering.doc).
 
 {{% alert color="primary" %}} 
 

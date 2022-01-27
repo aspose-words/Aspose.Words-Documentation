@@ -12,7 +12,7 @@ aliases:
 
 {{% alert color="primary" %}} 
 
-Python developers need to install JPype to make use of Java from Python. You can download JPype from here <http://jpype.sourceforge.net/>
+Python developers need to install JPype to make use of Java from Python. You can download JPype from here <https://jpype.sourceforge.net/>
 
 Download [the latest version of Aspose.Words for Java](https://downloads.aspose.com/words/java). Extract files and copy the lib folder with jar files to the root folder of your project. 
 

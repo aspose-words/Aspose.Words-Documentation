@@ -34,7 +34,6 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 You can download Aspose .NET Word Import for DNN Module from one of the following locations
 
-- [DNN Store ](https://store.dnnsoftware.com/home/product-details/aspose-net-word-import-for-dnn-module)
 - [Github](https://github.com/asposemarketplace/Aspose_for_DNN/releases)
 - [Sourceforge](https://sourceforge.net/projects/asposednn/files/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-dnn/downloads/)

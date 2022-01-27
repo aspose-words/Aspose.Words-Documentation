@@ -24,7 +24,7 @@ Here is an example of the report with the SPListQuery element:
     <DataSet>
       <DataSource>
         <SPDataSource>
-          <SiteUrl>http://localhost</SiteUrl>
+          <SiteUrl>https://localhost</SiteUrl>
         </SPDataSource>
       </DataSource>
       <Queries>

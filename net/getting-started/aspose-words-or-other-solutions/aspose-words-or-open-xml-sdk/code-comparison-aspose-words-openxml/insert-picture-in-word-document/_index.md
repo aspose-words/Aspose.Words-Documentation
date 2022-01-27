@@ -115,7 +115,7 @@ private static void AddImageToBody(WordprocessingDocument wordDoc, string relati
 											new A.PresetGeometry(
 												new A.AdjustValueList()
 											) { Preset = A.ShapeTypeValues.Rectangle }))
-					) { Uri = "http://schemas.openxmlformats.org/drawingml/2006/picture" })
+					) { Uri = "https://schemas.openxmlformats.org/drawingml/2006/picture" })
 		)
 		{
 			DistanceFromTop = 0U,

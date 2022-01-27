@@ -44,8 +44,9 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 You can download Aspose Visual Studio Plugin from one of the following locations
 
-- [Visual Studio Gallery ](https://marketplace.visualstudio.com/vsgallery/4b07ac86-1ca8-456e-992e-ba80cfd562da)
+- [Visual Studio Gallery ](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
+
 
 ## Installing
 
@@ -93,10 +94,7 @@ From the very first days of Aspose, we knew that just giving our customers good 
 
 This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to Aspose Visual Studio Plugin using any of the following platforms
-
-- [Visual Studio Gallery - Q and A](https://marketplace.visualstudio.com/vsgallery/4b07ac86-1ca8-456e-992e-ba80cfd562da)
-- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
+You can log any issues or suggestions related to Aspose Visual Studio Plugin using [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues).
 
 ### Extend and Contribute
 

@@ -362,7 +362,7 @@ Use Case:
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>(u"input.docx");
 
-doc->get_Frameset()->get_ChildFramesets->idx_get(0)->set_FrameDefaultUrl(u"http://aspose.com");
+doc->get_Frameset()->get_ChildFramesets->idx_get(0)->set_FrameDefaultUrl(u"https://aspose.com");
 doc->get_Frameset()->get_ChildFramesets->idx_get(0)->set_IsFrameLinkToFile(true);
 
 doc->Save(u"output.docx");

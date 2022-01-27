@@ -319,7 +319,7 @@ Use Case:
 {{< highlight csharp >}}
 Document doc = new Document("input.docx");
 
-doc.Frameset.ChildFramesets[0].FrameDefaultUrl = "http://aspose.com";
+doc.Frameset.ChildFramesets[0].FrameDefaultUrl = "https://aspose.com";
 doc.Frameset.ChildFramesets[0].IsFrameLinkToFile = true;
 
 doc.Save("output.docx");

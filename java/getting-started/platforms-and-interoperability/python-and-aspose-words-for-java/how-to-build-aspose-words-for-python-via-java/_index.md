@@ -76,7 +76,7 @@ Install svn
 Check out JCC's sources
 
 {{< highlight csharp >}}
-> svn co http://svn.apache.org/repos/asf/lucene/pylucene/trunk/jcc jcc
+> svn co https://svn.apache.org/repos/asf/lucene/pylucene/trunk/jcc jcc
 {{< /highlight >}}
 
 Make sure that [setuptools](https://pypi.org/project/setuptools/) is installed

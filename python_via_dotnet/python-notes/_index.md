@@ -103,7 +103,7 @@ for field in doc.range.fields :
         if hyperlink.sub_address != None :
             continue
     
-        hyperlink.address = "http:#www.aspose.com"
+        hyperlink.address = "https:#www.aspose.com"
         hyperlink.result = "Aspose - The .net & Java Component Publisher"
 
 doc.save(docs_base.artifacts_dir + "WorkingWithFields.replace_hyperlinks.docx")

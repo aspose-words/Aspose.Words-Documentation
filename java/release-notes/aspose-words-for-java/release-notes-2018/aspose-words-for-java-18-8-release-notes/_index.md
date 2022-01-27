@@ -213,7 +213,7 @@ doc.save("TopCornersSnipped.docx", so);
 WORDSNET-16985 has been resolved.
 
 By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
-Now was added a new option to HtmlSaveOptions. This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "[cid:image.png](http://cidimage.png)") and are matched against "Content-ID" headers.
+Now was added a new option to HtmlSaveOptions. This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "[cid:image.png](https://cidimage.png)") and are matched against "Content-ID" headers.
 
 {{< highlight csharp >}}
 public boolean ExportCidUrlsForMhtmlResources { get; set; }

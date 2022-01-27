@@ -70,7 +70,7 @@ There are five types of typefaces, each typeface represents a group of similar f
 - SANS_SERIF
 - SERIF
 
-For instance, according to Android’s [fonts.xml](http://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config file, “times” belongs to “serif” family so NotoSerif-Regular.ttf will be used when “times” is requested:
+For instance, according to Android’s [fonts.xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) config file, “times” belongs to “serif” family so NotoSerif-Regular.ttf will be used when “times” is requested:
 
 **Fonts.xml**
 

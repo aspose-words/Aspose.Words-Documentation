@@ -54,7 +54,7 @@ You can download Export Members to Word Add-on from one of the following locatio
 
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
-1. Log in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco/`
+1. Log in to the Umbraco **Developer** section, see `https://umbraco.com/umbraco-for-developers/` for details
 1. From the tree, expand the **Packages** folder.
 1. From here there are two ways to install a package: select **Install local package** or browse the **Umbraco Package Respository.**
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
@@ -70,7 +70,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 
 After you have installed the macro it is really simple to start using it on your website:
 
-1. Make sure you are logged in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco/`
+1. Make sure you are logged in to the Umbraco **Developer** section, see `https://umbraco.com/umbraco-for-developers/` for details
 1. Click **Members** in the list of sections at the bottom left of the screen.
 1. At the end of the tree, you will see a node titled **Export Members To Word** click on it to launch the Export to Word add-on.
 1. Select your desired output document format and select Members to export. If you wish you Export all members leave member selection or click the check-box in header row.

@@ -8,7 +8,7 @@ url: /net/aspose-words-for-net-9-4-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [INTERIM BUILD: Aspose.Words for .NET 9.4.1](https://downloads.aspose.com/words/net/new-releases/interim-build:-aspose.words-for-.net-9.4.1/)
+This page contains release notes for Aspose.Words for .NET 9.4.1' INTERIM BUILD
 
 {{% /alert %}} 
 

@@ -423,5 +423,5 @@ The specification tells us the following:
 * [How to add alternative text to a shape, picture, chart, SmartArt graphic, or other object in Microsoft Word](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
 * [How to add alternate text and supplementary information to tags](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html) (or read the same information in the [“Adobe Acrobat User Guide”](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags))
 * [How to set up ActualText entry for text](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html), the “Add Actual Text for an Abbreviated Term, Forumla, or Non-Unicode Symbol” section
-* [Unicode mapping for common Windows symbolic fonts](http://www.alanwood.net/demos/webdings.html)
+* [Unicode mapping for common Windows symbolic fonts](https://www.alanwood.net/demos/webdings.html)
 
