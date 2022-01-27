@@ -15,7 +15,7 @@ Aspose .NET Quote Generator for Umbraco is an open source module from Aspose tha
 
 After you have installed Aspose .NET Quote Generator for Umbraco module it is really simple to start using it on your website. Please follow these simple steps to get started
 
-1. Make sure you are logged in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco/`
+1. Make sure you are logged in to the Umbraco **Developer** section, see `https://umbraco.com/umbraco-for-developers/` for details
 1. Click **Settings** in the list of sections in the bottom left of the screen.
 1. Expand the **Templates** node and select the template that you want to add to, for example Textpage.
 1. Select the position in the selected template where you want to export button to be added. Usually you may want to add it to the top right of the page, or the bottom of the page.

@@ -405,7 +405,7 @@ Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutput
 Sample output for simple OfficeMath equation exported using HtmlOfficeMathOutputMode.MathML value:
 
 {{< highlight csharp >}}
-<math xmlns="http://www.w3.org/1998/Math/MathML">
+<math xmlns="https://www.w3.org/1998/Math/MathML">
 	<mi>A</mi>
 	<mo>=</mo>
 	<mi>π</mi>

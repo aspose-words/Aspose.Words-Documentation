@@ -12,7 +12,7 @@ To find and modify hyperlinks it would be nice to have some sort of Hyperlink ob
 
 While Aspose.Words does not have a high-level abstraction to represent fields and hyperlink fields in particular, all of the necessary low-level document elements and their properties are exposed and with a bit of coding you can implement quite sophisticated document manipulation features.
 
-This example shows how to create a simple class that represents a hyperlink in the document. Its constructor accepts a **FieldStart** object that must have [FieldType.FieldHyperlink](https://apireference.aspose.com/words/java/com.aspose.words/FieldHyperlink) type. After you use the **Hyperlink** class, you can get or set its **Target** , **Name** , and **IsLocal** properties. Now it is easy to change the targets and names of the hyperlinks throughout the document. In the example, all of the hyperlinks are changed to “<http://aspose.com>”. 
+This example shows how to create a simple class that represents a hyperlink in the document. Its constructor accepts a **FieldStart** object that must have [FieldType.FieldHyperlink](https://apireference.aspose.com/words/java/com.aspose.words/FieldHyperlink) type. After you use the **Hyperlink** class, you can get or set its **Target** , **Name** , and **IsLocal** properties. Now it is easy to change the targets and names of the hyperlinks throughout the document. In the example, all of the hyperlinks are changed to “<https://aspose.com>”. 
 
 The following code example finds all hyperlinks in a Word document and changes their URL and display name.
 

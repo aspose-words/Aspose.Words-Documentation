@@ -35,7 +35,7 @@ public static void main(String[] args) throws Exception
 	MainDocumentPart mdp = wordMLPackage.getMainDocumentPart();
 
 	// Create hyperlink
-	Hyperlink link = createHyperlink(mdp, "http://slashdot.org");
+	Hyperlink link = createHyperlink(mdp, "https://slashdot.org");
 	// Add it to a paragraph
 	org.docx4j.wml.P paragraph = Context.getWmlObjectFactory().createP();
 	paragraph.getContent().add( link );
@@ -63,8 +63,8 @@ public static Hyperlink createHyperlink(MainDocumentPart mdp, String url) {
 		mdp.getRelationshipsPart().addRelationship(rel);
 
 		// addRelationship sets the rel's @Id
-		String hpl = "<w:hyperlink r:id=\"" + rel.getId() + "\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" " +
-		"xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" >" +
+		String hpl = "<w:hyperlink r:id=\"" + rel.getId() + "\" xmlns:w=\"https://schemas.openxmlformats.org/wordprocessingml/2006/main\" " +
+		"xmlns:r=\"https://schemas.openxmlformats.org/officeDocument/2006/relationships\" >" +
 		"<w:r>" +
 		"<w:rPr>" +
 		"<w:rStyle w:val=\"Hyperlink\" />" +

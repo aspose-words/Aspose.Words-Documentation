@@ -126,7 +126,7 @@ After completing all the necessary steps to obtain this type of license, you wil
 
 The following code example shows how to set metered public and private keys:
 
-{{< gist "" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-quickstart-ApplyMeteredLicense-ApplyMeteredLicense.java" >}}
+{{< gist "aspose-words" "b37032675133885c4c91814fb3d51a25" "Examples-src-main-java-com-aspose-words-examples-quickstart-ApplyMeteredLicense-ApplyMeteredLicense.java" >}}
 
 {{% alert color="primary" %}}
 

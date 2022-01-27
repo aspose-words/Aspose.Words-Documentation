@@ -70,7 +70,7 @@ You can download Quote Generator modules from one of the following locations
 
 Once downloaded, please follow these steps to install this package into your Umbraco website:
 
-1. Log in to the Umbraco **Developer** section, for example `http://www.myblog.com/umbraco/`
+1. Log in to the Umbraco **Developer** section, see `https://umbraco.com/umbraco-for-developers/` for details
 1. From the tree, expand the **Packages** folder.
 1. From here there are two ways to install a package: select **Install local package** or browse the **Umbraco Package Respository.**
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.

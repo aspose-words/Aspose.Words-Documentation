@@ -93,7 +93,7 @@ R r3b = (R)p3b.getContent().get(0);
 r3b.setRPr(rpr);
 
 // Example 4: Here is an easier way:
-String str = "<w:p xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" ><w:r><w:rPr><w:b /></w:rPr><w:t>Example 4</w:t></w:r></w:p>";
+String str = "<w:p xmlns:w=\"https://schemas.openxmlformats.org/wordprocessingml/2006/main\" ><w:r><w:rPr><w:b /></w:rPr><w:t>Example 4</w:t></w:r></w:p>";
 mdp.addObject(
 			org.docx4j.XmlUtils.unmarshalString(str) );
 

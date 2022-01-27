@@ -26,7 +26,7 @@ In JasperReports:
    import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
    exporter.setParameter(AWExporterParameter.IMAGES_FOLDER, "c:/temp/images");
-   exporter.setParameter(AWExporterParameter.IMAGES_FOLDER_ALIAS, "http://localhost/images");
+   exporter.setParameter(AWExporterParameter.IMAGES_FOLDER_ALIAS, "https://localhost/images");
    exporter.setParameter(AWExporterParameter.IMAGE_NAME_TEMPLATE, "image");
    exporter.exportReport();
 {{< /highlight >}}
@@ -38,7 +38,7 @@ In JasperServer:
 {{< highlight csharp >}}
 <bean id="aw_exportParameters" class="com.aspose.words.jasperreports.AWExportParametersBean">
     <property name="imagesFolder" value="c:/temp/images"/>
-    <property name="imagesFolderAlias" value="http://localhost/images "/>
+    <property name="imagesFolderAlias" value="https://localhost/images "/>
     <property name="imageNameTemplate" value="c:/temp/images"/>
 </bean>
 {{< /highlight >}}

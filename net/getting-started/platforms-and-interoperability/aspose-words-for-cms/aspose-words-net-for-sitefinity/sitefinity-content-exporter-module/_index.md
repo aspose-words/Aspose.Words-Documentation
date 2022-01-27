@@ -95,7 +95,7 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
 
 **Step 2: Register the Aspose Sitefinity Content Export add-on in Sitefinity**
 
-1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <http://www.mywebsite.com/sitefinity>
+1. Log into your Sitefinity CMS with an ‘**Administrator**’ account. The login page can be reached by <https://www.mywebsite.com/sitefinity>
 1. Click **Administration** and then **Settings**.
    The Basic Settings page appears.
 1. Click the **Advanced** link.

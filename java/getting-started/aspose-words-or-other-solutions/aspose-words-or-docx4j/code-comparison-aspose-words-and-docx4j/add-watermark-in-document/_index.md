@@ -112,7 +112,7 @@ public void addWaterMark() throws Exception
 	wordMLPackage.save(f);
 }
 private SectPr createSectPr() throws Exception {
-	String openXML = "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">"
+	String openXML = "<w:sectPr xmlns:w=\"https://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:r=\"https://schemas.openxmlformats.org/officeDocument/2006/relationships\">"
 			// Word adds the background image in each of 3 header parts
 			+ "<w:headerReference r:id=\"" + createHeaderPart("even").getId() + "\" w:type=\"even\"/>"
 			+ "<w:headerReference r:id=\"" + createHeaderPart("default").getId() + "\" w:type=\"default\"/>"
@@ -140,7 +140,7 @@ private void setHdr(HeaderPart headerPart) throws Exception  {
 	imagePart.setBinaryData(image);
 	Relationship rel = headerPart.addTargetPart(imagePart, AddPartBehaviour.REUSE_EXISTING);
  // the one image is shared by the 3 header parts
-	String openXML = "<w:hdr mc:Ignorable=\"w14 wp14\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\">"
+	String openXML = "<w:hdr mc:Ignorable=\"w14 wp14\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:w=\"https://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:mc=\"https://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:r=\"https://schemas.openxmlformats.org/officeDocument/2006/relationships\">"
 			+ "<w:p>"
 				+ "<w:pPr>"
 					+ "<w:pStyle w:val=\"Header\"/>"

@@ -404,7 +404,7 @@ public string ImagesFolder
 
 Use Case: Explains how to use 'MarkdownSaveOptions.ImagesFolder' when saving a document to markdown format:
 {{< highlight csharp >}}
-Document doc = new Document("http://google.com");
+Document doc = new Document("https://google.com");
 MarkdownSaveOptions so = new MarkdownSaveOptions();
 so.ImagesFolder = "C:\\Images";
 using (MemoryStream stream = new MemoryStream())

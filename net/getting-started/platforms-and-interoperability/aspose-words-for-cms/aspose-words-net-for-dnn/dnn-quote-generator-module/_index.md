@@ -51,10 +51,8 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 ## Downloading
 
-You can download Quote Generator modules from one of the following locations
+You can download Quote Generator modules from [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/DNNQuoteGeneratorModule).
 
-- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/DNNQuoteGeneratorModule)
-- [DNN Store](https://store.dnnsoftware.com/home/product-details/aspose-net-dnn-quote-generator-module-using-aspose-words-for-net)
 
 ## Installing
 
