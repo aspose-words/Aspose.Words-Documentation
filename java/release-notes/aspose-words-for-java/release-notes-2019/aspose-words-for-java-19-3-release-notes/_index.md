@@ -137,7 +137,7 @@ doc.Save("document.docx", so);
 
 Related issue:WORDSNET-17329 has now been resolved:
 
-Added predefined font fallback settings for Google Noto fonts. These are free fonts licensed under [SIL OFL](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL). They can be downloaded [from here](https://fonts.google.com/noto).
+Added predefined font fallback settings for Google Noto fonts. These are free fonts licensed under [SIL OFL](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL&_sc=1). They can be downloaded [from here](https://fonts.google.com/noto).
 
 
 

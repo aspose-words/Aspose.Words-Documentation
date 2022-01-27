@@ -68,7 +68,7 @@ You should definitely have NetBeans IDE preinstalled before you download **Aspos
 
 To download NetBeans IDE,
 
-1. Navigate to: [netbeans.apache.org](https://netbeans.apache.org/downloads)
+1. Navigate to: [netbeans.apache.org](https://netbeans.apache.org/download/)
 1. Click Download to download NetBeans IDE appropriate bundle. 
 
 Download only Java EE / SE supported NetBeans download bundle of the current latest release i.e. **NetBeans IDE 8.1**.
