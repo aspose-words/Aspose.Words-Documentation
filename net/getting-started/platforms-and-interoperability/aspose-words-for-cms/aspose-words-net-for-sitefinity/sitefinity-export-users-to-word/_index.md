@@ -46,10 +46,7 @@ Please follow these simple steps to get started
 
 ### Downloading
 
-You can download Aspose .NET Export Users to Word for Sitefinity module from one of the following locations
-
-- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
-- [Code.MSDN ](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
+You can download Aspose .NET Export Users to Word for Sitefinity module from [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases).
 
 ### Installing
 

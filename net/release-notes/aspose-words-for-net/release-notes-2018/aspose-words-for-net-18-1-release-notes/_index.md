@@ -234,7 +234,7 @@ public string StoreItemId
 
 {{< /highlight >}}
 
-More info about storeItemID property: <https://msdn.microsoft.com/en-us/library/documentformat.openxml.wordprocessing.databinding(v=office.14).aspx>
+More info about storeItemID property: <https://docs.microsoft.com/en-us/previous-versions/office/developer/office-2010/cc844281(v=office.14)>
 
 Sample usage:
 

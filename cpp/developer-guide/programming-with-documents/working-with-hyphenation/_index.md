@@ -49,7 +49,7 @@ To use the hyphenation feature, first register a hyphenation dictionary.The foll
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/German%20text.docx)
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples)
 
 {{% /alert %}}
 
@@ -59,7 +59,7 @@ The following code example shows how to load hyphenation dictionaries for the sp
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/German%20text.docx)
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples)
 
 {{% /alert %}}
 

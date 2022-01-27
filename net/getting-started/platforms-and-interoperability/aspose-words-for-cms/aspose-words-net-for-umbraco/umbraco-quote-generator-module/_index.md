@@ -64,7 +64,7 @@ The module is supported on all versions of
 You can download Quote Generator modules from one of the following locations
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNETQuoteGeneratorUmbraco)
-- [Umbraco Projects](https://our.umbraco.com/packages/developer-tools/aspose-net-quote-generator-for-umbraco)
+- [Umbraco Projects](https://our.umbraco.com/search?q=Aspose.Words&cat=project)
 
 ## Installing
 
@@ -98,7 +98,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNETQuoteGeneratorUmbraco)
-- [Umbraco Projects](https://our.umbraco.com/packages/developer-tools/aspose-net-quote-generator-for-umbraco)
+- [Umbraco Projects](https://our.umbraco.com/search?q=Aspose.Words&cat=project)
 
 ### Extend and Contribute
 
@@ -107,7 +107,7 @@ Umbraco quote generator module is an open source and their source code is availa
 #### Source Code
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeNETQuoteGeneratorUmbraco)
-- [Umbraco Projects](https://our.umbraco.com/packages/developer-tools/aspose-net-quote-generator-for-umbraco)
+- [Umbraco Projects](https://our.umbraco.com/search?q=Aspose.Words&cat=project)
 
 #### How to configure the source code
 

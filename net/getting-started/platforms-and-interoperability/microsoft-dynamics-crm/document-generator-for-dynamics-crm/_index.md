@@ -38,10 +38,9 @@ This addon will work with all version of Microsoft Dynamics CRM:
 
 You can download Aspose .NET Document Generator for CRM from one of the following locations:
 
-- [Github](https://goo.gl/rrLOLu)
-- [Sourceforge](https://goo.gl/mua233)
-- [Bitbucket](https://goo.gl/ngjuJg)
-- [Code.MSDN](https://goo.gl/bqPhfr)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-Document-Generator)
+- [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20Document%20Generator/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20Document%20Generator)
 
 ## Installing or Uninstalling
 
@@ -106,10 +105,9 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET Document Generator using any of the following platforms:
 
-- [Github](https://goo.gl/rrLOLu)
-- [Sourceforge](https://goo.gl/mua233)
-- [Bitbucket](https://goo.gl/ngjuJg)
-- [Code.MSDN](https://goo.gl/bqPhfr)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-Document-Generator)
+- [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20Document%20Generator/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20Document%20Generator)
 
 ### Extend and Contribute
 

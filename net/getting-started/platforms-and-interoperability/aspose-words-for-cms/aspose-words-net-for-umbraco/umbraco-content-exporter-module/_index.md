@@ -37,8 +37,7 @@ You can download Export to Word and Export to PDF modules from one of the follow
 - [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
 - [Sourceforge](https://sourceforge.net/projects/asposeumbraco/files/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
-- [Umbraco - Word Export ](https://our.umbraco.com/packages/developer-tools/export-to-word-using-aspose-words)
-- [Umbraco - PDF Export ](https://our.umbraco.com/packages/developer-tools/export-to-pdf-using-aspose-words)
+- [Umbraco](https://our.umbraco.com/search?q=Aspose.Words&cat=project)
 
 ## Installing
 
