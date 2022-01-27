@@ -6,7 +6,7 @@ weight: 20
 url: /net/visual-studio-export-listview-to-word-control/
 ---
 
-Export ListView To Word Control is an ASP.NET server control which allows exporting contents of ListView into Word Processing document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the ListView control. Clicking the button dynamically exports the content of the ListView control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
+Export ListView To Word Control is an ASP.NET server control which allows exporting contents of ListView into Word Processing document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the ListView control. Clicking the button dynamically exports the content of the ListView control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
 
 ## Module Features
 
@@ -59,8 +59,8 @@ Export ListView To Word Control for Visual Studio is supported of all version of
 
 You can download Export ListView To Word Control from one of the following locations
 
-- [Visual Studio Gallery ](https://visualstudiogallery.msdn.microsoft.com/3b2ccacc-7e5d-4952-b76b-37c5a84cf308)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsListViewExport)
+- [Visual Studio Gallery](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsListViewExport)
 
 ## Installing
 
@@ -218,11 +218,7 @@ From the very first days of Aspose, we knew that just giving our customers good 
 
 This is why we offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to this control using any of the following platforms
-
-- [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/3b2ccacc-7e5d-4952-b76b-37c5a84cf308)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Aspose-NET-Export-ListView-90f2229f/view/Discussions#content)
+You can log any issues or suggestions related to this control using [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues).
 
 ### Extend and Contribute
 
@@ -232,8 +228,7 @@ Aspose .NET Export ListView To Word Control for Visual Studio is open source and
 
 You can get the latest source code from one of the following locations
 
-- [Code.MSDN ](https://code.msdn.microsoft.com/Aspose-NET-Export-ListView-90f2229f)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.ListViewExport)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.ListViewExport)
 
 #### How to configure the source code
 

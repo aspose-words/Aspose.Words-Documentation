@@ -13,7 +13,7 @@ url: /java/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/
 - [Document Features Supported on Image Export](/words/java/document-features-supported-on-image-export/)
 - [Drawing Object Features Supported on Image Export](/words/java/drawing-object-features-supported-on-image-export/)
 - [Field Features Supported on Image Export](/words/java/field-features-supported-on-image-export/)
-- [Footnotes an Endnote Features Supported on Image Export](/words/java/footnotes-an-endnote-features-supported-on-image-export/)
+- [Footnotes an Endnote Features Supported on Image Export](/words/java/footnotes-and-endnote-features-supported-on-image-export/)
 - [Numbering Features Supported on Image Export](/words/java/numbering-features-supported-on-image-export/)
 - [Paragraph Features Supported on Image Export](/words/java/paragraph-features-supported-on-image-export/)
 - [Save in Image Format Overview](/words/java/save-in-image-format-overview/)

@@ -18,7 +18,7 @@ You can use form fields in your project to "communicate" with your users. For ex
 
 Use the **Forms** toolbar to insert form fields. To display the **Forms** toolbar, point to **Toolbars** on the **View** menu, and then click **Forms**. 
 
-|![form-field-aspose-words-java-1](http://i.imgur.com/9ggObES.png)|
+|![form-field-aspose-words-java-1](https://i.imgur.com/9ggObES.png)|
 | :- |
 
 
@@ -28,7 +28,7 @@ Use the **Forms** toolbar to insert form fields. To display the **Forms** toolba
    1. **To insert a check box that the user can select or clear** , click **Check Box Form Field** .
    1. **To insert a drop-down list box that restricts available choices to those you specify** , click **Drop-Down Form Field** . If needed, a user can scroll through the list to view additional choices. 
 
-![form-field-aspose-words-java-2](http://i.imgur.com/QvsQC5W.png)
+![form-field-aspose-words-java-2](https://i.imgur.com/QvsQC5W.png)
 
 {{% alert color="primary" %}} 
 

@@ -8,7 +8,7 @@ url: /java/aspose-words-for-java-4-0-2-beta-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 4.0.2 BETA](http://www.aspose.com/downloads/words/java/new-releases/aspose.words-for-java-4.0.2-beta/)
+This page contains release notes for [Aspose.Words for Java 4.0.2 BETA](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-4.0.2-beta/)
 
 {{% /alert %}} 
 

@@ -8,7 +8,7 @@ url: /java/aspose-words-for-java-18-1-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 18.1](https://repository.aspose.com/repo/com/aspose/aspose-words/18.1/)
+This page contains release notes for [Aspose.Words for Java 18.1](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.1/)
 
 {{% /alert %}} 
 
@@ -233,7 +233,7 @@ As per customer's request, we have made public get property StoreItemId of class
 public String StoreItemId
 {{< /highlight >}}
 
-More info about storeItemID property: <https://msdn.microsoft.com/en-us/library/documentformat.openxml.wordprocessing.databinding(v=office.14).aspx>
+More info about storeItemID property: <https://docs.microsoft.com/en-us/previous-versions/office/developer/office-2010/cc844281(v=office.14)>
 
 Sample usage:
 

@@ -8,11 +8,11 @@ url: /net/umbraco-content-exporter-module/
 
 ## Export to Word
 
-Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.
+Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.
 
 ## Export to PDF
 
-The Umbraco **Export to Pdf** macro allows users to export online content to a PDF document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). This macro makes it very easy and simple to have an offline copy of your favorite online content for sharing and printing etc. in the popular PDF format. It adds a simple **Export to Pdf** button at any desired location on the page and clicking it exports the content of the page to a PDF document and automatically downloads the file to the location selected by the user in just couple of seconds.
+The Umbraco **Export to Pdf** macro allows users to export online content to a PDF document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). This macro makes it very easy and simple to have an offline copy of your favorite online content for sharing and printing etc. in the popular PDF format. It adds a simple **Export to Pdf** button at any desired location on the page and clicking it exports the content of the page to a PDF document and automatically downloads the file to the location selected by the user in just couple of seconds.
 
 ## System Requirements and Supported Platforms
 
@@ -34,11 +34,10 @@ The module is supported on all versions of
 
 You can download Export to Word and Export to PDF modules from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
-- [Sourceforge ](https://sourceforge.net/projects/asposeumbraco/files/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
-- [Umbraco - Word Export ](https://our.umbraco.org/projects/developer-tools/export-to-word-using-aspose-words)
-- [Umbraco - PDF Export ](https://our.umbraco.org/projects/developer-tools/export-to-pdf-using-aspose-words)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco/releases)
+- [Sourceforge](https://sourceforge.net/projects/asposeumbraco/files/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/downloads/)
+- [Umbraco](https://our.umbraco.com/search?q=Aspose.Words&cat=project)
 
 ## Installing
 
@@ -106,17 +105,9 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco/issues)
-- [Sourceforge ](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
-
-**Export to Word**
-
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Umbraco-Export-to-Word-5851c9bd/view/Discussions#content)
-
-**Export to Pdf**
-
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Umbraco-Export-to-PDF-ff5acc99/view/Discussions#content)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco/issues)
+- [Sourceforge](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
 
 ### Extend and Contribute
 
@@ -126,9 +117,9 @@ Export to Word, Export to Pdf and Import from Word macros are open source and th
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Umbraco)
-- [Sourceforge ](https://sourceforge.net/p/asposeumbraco/code/ci/master/tree/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/src)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco)
+- [Sourceforge](https://sourceforge.net/p/asposeumbraco/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/src)
 
 #### How to configure the source code
 

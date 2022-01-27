@@ -8,7 +8,7 @@ url: /jasperreports/aspose-words-for-jasperreports-2-8-0-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for JasperReports 2.8.0](http://www.aspose.com/downloads/words/jasperreports/new-releases/aspose.words-for-jasperreports-2.8.0/).
+This page contains release notes for [Aspose.Words for JasperReports 2.8.0](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-2.8.0/).
 
 {{% /alert %}} 
 

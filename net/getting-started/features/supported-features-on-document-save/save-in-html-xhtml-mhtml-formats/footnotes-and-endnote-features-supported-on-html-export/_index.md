@@ -13,7 +13,7 @@ Exported as a hyperlink with footnote number inline of text.
 
 Footnote text is exported at the bottom of the document separated by a horizontal ruler. The hyperlink links to here.
 
-[Jump to this location in the import section](/words/net/footnotes-an-endnote-features-supported-on-html-import/)
+[Jump to this location in the import section](/words/net/footnotes-and-endnote-features-supported-on-html-import/)
 
 {{% /alert %}} 
 

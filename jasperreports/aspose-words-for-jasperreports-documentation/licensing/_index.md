@@ -10,7 +10,7 @@ url: /jasperreports/licensing/
 
 Aspose.Words for JasperReports is available for download from the [downloads page](https://downloads.aspose.com/words/jasperreports). The evaluation and licensed versions of the product is the same download.
 
-When you are happy with the evaluation version, [purchase a license](http://www.aspose.com/purchase/default.aspx). Make sure you understand and agree to the license terms.
+When you are happy with the evaluation version, [purchase a license](https://www.aspose.com/purchase/default.aspx). Make sure you understand and agree to the license terms.
 
 {{% /alert %}} 
 

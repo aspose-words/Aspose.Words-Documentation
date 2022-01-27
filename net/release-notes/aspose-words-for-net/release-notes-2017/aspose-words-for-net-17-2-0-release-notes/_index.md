@@ -61,15 +61,15 @@ There are 46 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-14792|Document.Compare does not work for CheckBox (FormField)|Bug|
 |WORDSNET-11771|Support the dir and the bdo elements|Enhancement|
 |WORDSNET-14579|Date Field with mixed bidi/non-bidi formatting.|Enhancement|
-|WORDSNET-14589|Add CssFolder property to HtmlSaveOptions|[Enhancement](/words/net/converting-a-document/#convertingadocument-workingwithhtmlsaveoptionsproperties)|
-|WORDSNET-14590|Discrepancy between HtmlSaveOptions and HtmlFixedSaveOptions regarding ImagesFolder and FontsFolder properties.|[Enhancement](/words/net/converting-a-document/#convertingadocument-workingwithhtmlsaveoptionsproperties)|
+|WORDSNET-14589|Add CssFolder property to HtmlSaveOptions|[Enhancement](/words/net/convert-a-document/#convertingadocument-workingwithhtmlsaveoptionsproperties)|
+|WORDSNET-14590|Discrepancy between HtmlSaveOptions and HtmlFixedSaveOptions regarding ImagesFolder and FontsFolder properties.|[Enhancement](/words/net/convert-a-document/#convertingadocument-workingwithhtmlsaveoptionsproperties)|
 |WORDSNET-14713|More horizontal spacing between paragraphs of the same style when exporting to HTML|Enhancement|
 |WORDSNET-14741|Review when Word ignores strokes with weight less that 1 pt|Enhancement|
 |WORDSNET-14636|Aspose.Words.FileCorruptedException occurs upon loading a DOCX|Exception|
 |WORDSNET-14642|Document.Save method throws System.InvalidOperationException whend document is re-saved|Exception|
 |WORDSNET-14702|FileCorruptedException caused by charts|Exception|
 |WORDSNET-14746|NullReferenceException while mailmerge|Exception|
-|WORDSNET-14762|Export fonts to HTML in Base64 encoding|[Feature](/words/net/converting-a-document/#convertingadocument-exportfontstohtmlinbase64encoding)|
+|WORDSNET-14762|Export fonts to HTML in Base64 encoding|[Feature](/words/net/convert-a-document/#convertingadocument-exportfontstohtmlinbase64encoding)|
 |WORDSNET-5645|Expose (Height/Width) access to Text Frames|Feature|
 |WORDSNET-6833|OutOfMemoryException occurs during rendering DOCX to PDF|Performance|
 
@@ -81,7 +81,7 @@ This section lists public API changes that were introduced in Aspose.Words 17.2.
 
 {{% alert color="primary" %}} 
 
-Check the detailed article on [Working with HtmlSaveOptions Properties](/words/net/converting-a-document/#convertingadocument-workingwithhtmlsaveoptionsproperties)
+Check the detailed article on [Working with HtmlSaveOptions Properties](/words/net/convert-a-document/#convertingadocument-workingwithhtmlsaveoptionsproperties)
 
 {{% /alert %}} 
 
@@ -371,7 +371,7 @@ C:\Resouces\MyStyleSheet.css
 
 ### WORDSNET-14762 - Added Public Property HtmlSaveOptions.ExportFontsAsBase64.
 
-Check the detailed article on [Export fonts to HTML in Base64 encoding](/words/net/converting-a-document/#convertingadocument-exportfontstohtmlinbase64encoding)
+Check the detailed article on [Export fonts to HTML in Base64 encoding](/words/net/convert-a-document/#convertingadocument-exportfontstohtmlinbase64encoding)
 
 New public property ExportFontsAsBase64 is added into the HtmlSaveOptions class:
 

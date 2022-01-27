@@ -20,7 +20,7 @@ The following pages provide implementation details about how Aspose.Words loads 
 - [Document Features Supported on WordprocessingML Import](/words/java/document-features-supported-on-wordprocessingml-import/)
 - [Drawing Object Features Supported on WordprocessingML Import](/words/java/drawing-object-features-supported-on-wordprocessingml-import/)
 - [Field Features Supported on WordprocessingML Import](/words/java/field-features-supported-on-wordprocessingml-import/)
-- [Footnotes an Endnote Features Supported on WordprocessingML Import](/words/java/footnotes-an-endnote-features-supported-on-wordprocessingml-import/)
+- [Footnotes an Endnote Features Supported on WordprocessingML Import](/words/java/footnotes-and-endnote-features-supported-on-wordprocessingml-import/)
 - [Numbering Features Supported on WordprocessingML Import](/words/java/numbering-features-supported-on-wordprocessingml-import/)
 - [Paragraph Features Supported on WordprocessingML Import](/words/java/paragraph-features-supported-on-wordprocessingml-import/)
 - [Section Features Supported on WordprocessingML Import](/words/java/section-features-supported-on-wordprocessingml-import/)

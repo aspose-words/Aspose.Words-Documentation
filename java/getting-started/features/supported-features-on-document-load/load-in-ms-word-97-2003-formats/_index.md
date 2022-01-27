@@ -20,7 +20,7 @@ The following pages provide implementation details about how Aspose.Words loads 
 - [Document Features Supported on DOC Import](/words/java/document-features-supported-on-doc-import/)
 - [Drawing Object Features Supported on DOC Import](/words/java/drawing-object-features-supported-on-doc-import/)
 - [Field Features Supported on DOC Import](/words/java/field-features-supported-on-doc-import/)
-- [Footnotes an Endnote Features Supported on DOC Import](/words/java/footnotes-an-endnote-features-supported-on-doc-import/)
+- [Footnotes an Endnote Features Supported on DOC Import](/words/java/footnotes-and-endnote-features-supported-on-doc-import/)
 - [Load in the Microsoft Word Document 97-2003 Document Format Overview](/words/java/load-in-the-microsoft-word-document-97-2003-document-format-overview/)
 - [Numbering Features Supported on DOC Import](/words/java/numbering-features-supported-on-doc-import/)
 - [Paragraph Features Supported on DOC Import](/words/java/paragraph-features-supported-on-doc-import/)

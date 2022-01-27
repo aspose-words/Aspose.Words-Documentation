@@ -19,7 +19,7 @@ The following tables provide implementation details about how Aspose.Words saves
 - [Document Features Supported on XPS Export](/words/net/document-features-supported-on-xps-export/)
 - [Drawing Object Features Supported on XPS Export](/words/net/drawing-object-features-supported-on-xps-export/)
 - [Field Features Supported on XPS Export](/words/net/field-features-supported-on-xps-export/)
-- [Footnotes an Endnote Features Supported on XPS Export](/words/net/footnotes-an-endnote-features-supported-on-xps-export/)
+- [Footnotes an Endnote Features Supported on XPS Export](/words/net/footnotes-and-endnote-features-supported-on-xps-export/)
 - [Numbering Features Supported on XPS Export](/words/net/numbering-features-supported-on-xps-export/)
 - [Paragraph Features Supported on XPS Export](/words/net/paragraph-features-supported-on-xps-export/)
 - [Section Features Supported on XPS Export](/words/net/section-features-supported-on-xps-export/)

@@ -14,7 +14,7 @@ Aspose.Words for .NET is an advanced component and class library for .NET that e
 
 Aspose.Words for .NET supports DOC, OOXML, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words you can view, generate, modify, convert, render and print documents without using Microsoft Word.
 
-For more details about [Aspose.Words for .NET API](http://www.aspose.com/.net/word-component.aspx)
+For more details about [Aspose.Words for .NET API](https://www.aspose.com/.net/word-component.aspx)
 
 ## Explore Aspose.Words for .NET Examples using Visual Studio
 
@@ -44,9 +44,8 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 You can download Aspose Visual Studio Plugin from one of the following locations
 
-- [Code.MSDN ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32)
-- [Visual Studio Gallery ](https://visualstudiogallery.msdn.microsoft.com/4b07ac86-1ca8-456e-992e-ba80cfd562da)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
+- [Visual Studio Gallery ](https://marketplace.visualstudio.com/vsgallery/4b07ac86-1ca8-456e-992e-ba80cfd562da)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 
 ## Installing
 
@@ -96,9 +95,8 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose Visual Studio Plugin using any of the following platforms
 
-- [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/4b07ac86-1ca8-456e-992e-ba80cfd562da)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32/view/Discussions#content)
+- [Visual Studio Gallery - Q and A](https://marketplace.visualstudio.com/vsgallery/4b07ac86-1ca8-456e-992e-ba80cfd562da)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
 ### Extend and Contribute
 
@@ -108,8 +106,7 @@ You can log any issues or suggestions related to Aspose Visual Studio Plugin usi
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Microsoft Developer Network ](https://code.msdn.microsoft.com/Explore-AsposeWords-for-0d411d32)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET)
 
 #### How to configure the source code
 

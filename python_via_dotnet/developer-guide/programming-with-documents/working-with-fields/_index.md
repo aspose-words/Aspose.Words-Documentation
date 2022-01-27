@@ -12,7 +12,7 @@ Fields in a document are like placeholders where useful data can be inserted. Fo
 Articles in this section explain how to use Aspose.Words classes to manipulate document fields programmatically.
 
 **This section includes the following topics:**
-- [Fields Overview](/words/python/fields-overview/)
-- [Inserting Fields](/words/python/inserting-fields/)
-- [Updating and Removing a Field](/words/python/updating-and-removing-a-field/)
-- [Working with Hyperlinks and HTML](/words/python/working-with-hyperlinks-and-html/)
+- [Fields Overview](/words/python-net/fields-overview/)
+- [Inserting Fields](/words/python-net/inserting-fields/)
+- [Updating and Removing a Field](/words/python-net/updating-and-removing-a-field/)
+- [Working with Hyperlinks and HTML](/words/python-net/working-with-hyperlinks-and-html/)

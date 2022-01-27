@@ -89,8 +89,8 @@ A simple way to save images as Base64 string into Markdown format has been provi
 - An ability to get the [CustomNumberStyleFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level#get_customnumberstyleformat) property of the [ListLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object has been added.
 - A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level#geteffectivevalue_int_numberstyle_string) method has been added.
 - An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
-- A new class [ChmLoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.chm_load_options/) has been added to get more control over CHM loading.
-- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag/) and [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start/) classes.
+- A new class [ChmLoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.chm_load_options) has been added to get more control over CHM loading.
+- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag) and [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start) classes.
 
 {{% alert color="primary" %}}
 

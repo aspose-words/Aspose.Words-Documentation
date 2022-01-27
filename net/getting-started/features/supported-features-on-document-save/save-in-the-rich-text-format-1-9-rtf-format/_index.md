@@ -19,7 +19,7 @@ The following tables provide implementation details about how Aspose.Words saves
 - [Document Features Supported on Rich Text Export](/words/net/document-features-supported-on-rich-text-export/)
 - [Drawing Object Features Supported on Rich Text Export](/words/net/drawing-object-features-supported-on-rich-text-export/)
 - [Field Features Supported on Rich Text Export](/words/net/field-features-supported-on-rich-text-export/)
-- [Footnotes an Endnote Features Supported on Rich Text Export](/words/net/footnotes-an-endnote-features-supported-on-rich-text-export/)
+- [Footnotes an Endnote Features Supported on Rich Text Export](/words/net/footnotes-and-endnote-features-supported-on-rich-text-export/)
 - [Numbering Features Supported on Rich Text Export](/words/net/numbering-features-supported-on-rich-text-export/)
 - [Paragraph Features Supported on Rich Text Export](/words/net/paragraph-features-supported-on-rich-text-export/)
 - [Section Features Supported on Rich Text Export](/words/net/section-features-supported-on-rich-text-export/)

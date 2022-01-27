@@ -10,7 +10,6 @@ aliases: [/net/extend-and-contribute-to-crm-oneclick-word-document-generator/]
 You can download the latest source code at:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose%20OneClick%20Word%20Document%20Generator).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-OneClick-Word-bebd8272/view/SourceCode#content).
 
 Below code demonstrate the functionality to generate document from template.
 
@@ -83,6 +82,6 @@ if (Note.Contains("documentbody"))
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Execute Simple Mail Merge](/words/net/how-to-execute-mail-merge/#how-to-execute-simple-mail-merge).
+For more details, visit [How to Execute Simple Mail Merge](/words/net/types-of-mail-merge-operations/#how-to-execute-simple-mail-merge).
 
 {{% /alert %}}

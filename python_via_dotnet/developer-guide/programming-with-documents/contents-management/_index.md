@@ -11,5 +11,5 @@ Articles in this section describe how to use Aspose.Words classes to extract and
 
 This section includes the following topics:
 
-- [How to Extract Selected Content Between Nodes in a Document](/words/python/how-to-extract-selected-content-between-nodes-in-a-document/)
-- [Working with Content Control SDT](/words/python/working-with-content-control-sdt/)
+- [How to Extract Selected Content Between Nodes in a Document](/words/python-net/how-to-extract-selected-content-between-nodes-in-a-document/)
+- [Working with Content Control SDT](/words/python-net/working-with-content-control-sdt/)

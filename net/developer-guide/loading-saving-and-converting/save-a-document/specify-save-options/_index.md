@@ -48,7 +48,7 @@ The following code example shows how to update the document creation time:
 
 ## Update Last Saved Property
 
-Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastsavedtimeproperty) property to get or set a value determining whether the [LastSavedTime](https://apireference.aspose.com/net/words/aspose.words.properties/builtindocumentproperties/properties/lastsavedtime) property is updated before saving.
+Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastsavedtimeproperty) property to get or set a value determining whether the [LastSavedTime](https://apireference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/lastsavedtime) property is updated before saving.
 
 The following code example shows how to set this property and save the document:
 

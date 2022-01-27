@@ -16,7 +16,7 @@ To run Aspose.Words for JasperReports demos:
 1. Unpack the archived project to some location on your hard disk, for example C:\.
 1. Copy all demo folders from the \demo folder of **aspose.words.jasperreports.zip** to <InstallDir>\jasperreports\demo\samples, where <InstallDir> is the location you have unpacked JasperReports to. This step is required because demo build scripts rely on JasperReports' folder structure, otherwise you need to modify build scripts.
 1. Copy **aspose.words.jasperreports.jar** from the \lib folder in **aspose.words.jasperreports.zip** to <InstallDir>\jasperreports\lib.
-1. Download the ANT tool from <http://ant.apache.org/bindownload.cgi>.
+1. Download the ANT tool from <https://ant.apache.org/bindownload.cgi>.
 1. Unpack the ANT tool and set up environment variables as described in the tool's manual.
 1. Change the current directory to <InstallDir>\demo\hsqldb and run the following command line:
    ant runServer

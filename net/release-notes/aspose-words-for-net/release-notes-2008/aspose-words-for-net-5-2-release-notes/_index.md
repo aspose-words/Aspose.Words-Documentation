@@ -8,7 +8,7 @@ url: /net/aspose-words-for-net-5-2-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for .NET 5.2](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-for-.net-5.2/)
+This page contains release notes for [Aspose.Words for .NET 5.2](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-5.2/)
 
 {{% /alert %}} 
 
@@ -34,7 +34,7 @@ We have over 50 fixes this time. Thank you all who waited for your patience.
 |3602 |DOC |“This property is only allowed for list styles” exception occurs during saving document. |
 |3622 |DOC |Paragraph indents are lost in styles. |
 |3633 |DOC |Document.RemoveMacros() method does not remove all macros from document. |
-|3914 |DOC |<p>“Aspose.Words.FileCorruptedException” exception occurs during opening document.</p><p><http://www.aspose.com/Community/Forums/thread/99058.aspx> </p>|
+|3914 |DOC |<p>“Aspose.Words.FileCorruptedException” exception occurs during opening document.</p><p><https://www.aspose.com/Community/Forums/thread/99058.aspx> </p>|
 |4210 |DOC |“Aspose.Words.FileCorruptedException” exception occurs during opening document. |
 |4212 |DOC |Aspose.Words.FileCorruptedException” exception occurs during opening document. |
 |4254 |DOC |“NullReferenceException” occurs when try to save document with empty section. |

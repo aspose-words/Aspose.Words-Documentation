@@ -6,7 +6,7 @@ weight: 30
 url: /net/visual-studio-export-repeater-to-word-control/
 ---
 
-Export Repeater To Word Control is an ASP.NET server control which helps in exporting contents of Repeater to Word Processing Document using ﻿[Aspose.Words](http://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the Repeater control. Clicking the button dynamically exports the content of the Repeater control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
+Export Repeater To Word Control is an ASP.NET server control which helps in exporting contents of Repeater to Word Processing Document using ﻿[Aspose.Words](https://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the Repeater control. Clicking the button dynamically exports the content of the Repeater control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
 
 ## Module Features
 
@@ -58,9 +58,8 @@ Export Repeater To Word Control for Visual Studio is supported of all version of
 
 You can download Export Repeater To Word Control from one of the following locations
 
-- [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
+- [Visual Studio Gallery](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsRepeaterExport)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-Export-Repeater-To-912a92ee#content)
 
 ## Installing
 
@@ -186,11 +185,7 @@ From the very first days of Aspose, we knew that just giving our customers good 
 
 This is why we offer free support. Anyone who uses our product, whether they purchase them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to this control using any of the following platforms
-
-- [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
+You can log any issues or suggestions related to this control using [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues).
 
 ### Extend and Contribute
 
@@ -200,9 +195,8 @@ Aspose .NET Export Repeater To Word Control for Visual Studio is open source and
 
 You can get the latest source code from one of the following locations
 
-- [Code.MSDN ](https://code.msdn.microsoft.com/Aspose-Export-Repeater-To-912a92ee/view/SourceCode#content)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.RepeaterExport)
-- [Visual Studio Gallery](https://visualstudiogallery.msdn.microsoft.com/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.RepeaterExport)
+- [Visual Studio Gallery](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
 
 #### How to configure the source code
 

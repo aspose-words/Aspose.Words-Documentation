@@ -28,7 +28,7 @@ The Add-on is supported on all versions of
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToWord)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToWord)
 
 ### How to configure the source code
 
@@ -46,10 +46,7 @@ Please follow these simple steps to get started
 
 ### Downloading
 
-You can download Aspose .NET Export Users to Word for Sitefinity module from one of the following locations
-
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
-- [Code.MSDN ](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
+You can download Aspose .NET Export Users to Word for Sitefinity module from [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases).
 
 ### Installing
 
@@ -110,7 +107,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Sitefinity Modules using any of the following platforms
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
 
 ## Extend and Contribute
 

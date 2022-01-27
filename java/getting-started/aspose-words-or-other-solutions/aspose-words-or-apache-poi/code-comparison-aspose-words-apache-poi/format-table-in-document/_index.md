@@ -182,4 +182,4 @@ out.close();
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/tables)
 
-For more details, visit [Applying Formatting to Table, Row and Cell](/words/java/applying-formatting-to-table-row-and-cell/).
+For more details, visit [Applying Formatting to Table, Row and Cell](/words/java/working-with-tables/).

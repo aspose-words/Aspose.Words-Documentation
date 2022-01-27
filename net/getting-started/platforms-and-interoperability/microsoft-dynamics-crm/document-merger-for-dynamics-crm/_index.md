@@ -33,10 +33,9 @@ This addon will work with all version of:
 
 You can download the latest solution at:
 
-- [Github](http://goo.gl/QHL5V6)
-- [Sourceforge](http://goo.gl/vKdnuX)
-- [Bitbucket](http://goo.gl/EHLHBr)
-- [Code.MSDN](http://goo.gl/Vlaj4q)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-Document-Merger)
+- [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20Document%20Merger/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20Document%20Merger)
 
 ## Installing or Uninstalling
 
@@ -76,13 +75,9 @@ It is simple to install Aspose .NET Document Merger. Please follow below Instruc
 
 ## Using
 
-- Open any contact record and click on "Document Merger" from the top ribbon. 
+- Open any contact record and click on "Document Merger" from the top ribbon.
 
-![todo:image_alt_text](/download/thumbnails/2589724/693935211)
-
-- Select the First and Second document to merge and select the output option: 
-
-![todo:image_alt_text](/download/thumbnails/2589724/1045759710)
+- Select the First and Second document to merge and select the output option.
 
 - Merged document will be attached to same contact record, based on the output selected.
 
@@ -94,20 +89,18 @@ We offer free support. Anyone who uses our product, whether they have bought the
 
 You can log any issues or suggestions related to Aspose .NET Document Merger using any of the following platforms:
 
-- [Github](http://goo.gl/QHL5V6)
-- [Sourceforge](http://goo.gl/vKdnuX)
-- [Bitbucket](http://goo.gl/EHLHBr)
-- [Code.MSDN](http://goo.gl/Vlaj4q)
+- [Github](https://github.com/asposemarketplace/asposenetcrm/wiki/Aspose-.NET-Document-Merger)
+- [Sourceforge](https://sourceforge.net/p/asposenetcrm/wiki/Aspose%20.NET%20Document%20Merger/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/wiki/Aspose%20.NET%20Document%20Merger)
 
 ### Extend and Contribute
 
 You can download the latest source code at:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposenetcrm#Aspose%20.NET%20Document%20Merger/).
+- [CodePlex](https://www.microsoft.com/?p=asposenetcrm#Aspose%20.NET%20Document%20Merger/).
 - [GitHub](https://github.com/asposemarketplace/asposenetcrm/tree/AsposeDocumentGenerator-1.0.0.2011/Aspose%20.NET%20Document%20Merger/Source%20Code).
 - [BitBucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/src/7ce93ebc181bba2b22539bfe183c68872f812070/Aspose%20.NET%20Document%20Merger/Source%20Code/?at=master).
 - [SourceForge](http://sourceforge.net/p/asposenetcrm/code/ci/master/tree/Aspose%20.NET%20Document%20Merger/Source%20Code/).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Document-Merger-f3f7822d/view/SourceCode#content).
 
 Simply merge two documents here:
 

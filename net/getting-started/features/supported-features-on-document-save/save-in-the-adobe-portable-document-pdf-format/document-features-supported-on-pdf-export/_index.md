@@ -64,7 +64,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embedding Fonts |Yes |There is an option to embed full fonts or a subset only of the glyphs used in the document to PDF. There are plans to introduce an option to control whether fonts are embedded at alll. <br><br>TrueType and PostScript fonts can be subsetted. PostScript fonts are embedded fully. <br><br>Fonts that are embedded in the original DOCX are used during rendering and exported to PDF. |<p>- [PdfSaveOptions.EmbedFullFonts](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/embedfullfonts) </p><p>- [PdfSaveOptions.UseCoreFonts](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/usecorefonts) </p><p>- **PdfSaveOptions.UseWindowsFont**</p>|
-|Embed Only Non-Standard Fonts |Yes |There is an option to embed only non-standard fonts. |- [PdfSaveOptions.EmbedStandardWindowsFonts](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)|
+|Embed Only Non-Standard Fonts |Yes |There is an option to embed only non-standard fonts. |- [PdfSaveOptions.EmbedStandardWindowsFonts](https://apireference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode)|
 
 ## Bibliography
 

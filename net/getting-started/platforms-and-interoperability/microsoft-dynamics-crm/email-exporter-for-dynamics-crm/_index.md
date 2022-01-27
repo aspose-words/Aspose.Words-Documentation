@@ -31,10 +31,8 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 ## Downloading
 
-You can download the latest solution at:
+You can download the latest solution at [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeEmailExporterCRM).
 
-- [Github](https://goo.gl/2rGmgd)
-- [Code.MSDN](https://goo.gl/ZTW336)
 
 ## Installing or Uninstalling
 
@@ -90,7 +88,7 @@ Easily configure and Use Aspose.Words Email Exporter for Dynamics CRM by followi
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/HATaDzOMgo4) below to see the plugin in action.
+Please check [the video](https://www.youtube.com/watch?v=HATaDzOMgo4) below to see the plugin in action.
 
 ## Support
 
@@ -99,7 +97,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to Aspose.Words Email Exporter using any of the following platforms:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Email-Exporter-26eb623e/view/Discussions#content)
 
 ## Extend and Contribute
 
@@ -109,7 +106,6 @@ You can download the latest source code at:
 
 - [CodePlex](http://asposewordsmscrm.codeplex.com/SourceControl/latest#Aspose.Words%20Email%20Exporter/).
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Words%20Email%20Exporter).
-- [Code.MSDN](https://code.msdn.microsoft.com/AsposeWords-Email-Exporter-26eb623e/view/SourceCode#content).
 
 ### How to configure source code
 
@@ -122,7 +118,7 @@ Please follow these simple steps to get started
 
 - Download/Clone the source code.
 - Open Visual Studio 2010 and Open the project from source code.
-- Make sure to download the latest version of [Aspose.Words for .NET](http://www.aspose.com/.net/word-component.aspx) and add its reference in the project.
+- Make sure to download the latest version of [Aspose.Words for .NET](https://www.aspose.com/.net/word-component.aspx) and add its reference in the project.
 
 **Please Note:** This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
 

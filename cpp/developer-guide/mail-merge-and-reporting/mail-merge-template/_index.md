@@ -57,9 +57,9 @@ The following code example shows how to insert Check Boxes or HTML during mail m
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Mail%20merge%20destinations%20-%20Complex%20template.docx).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
-You can also check the implementation of the HandleMergeField class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/DocsExamples/source/Mail%20Merge%20and%20Reporting/Working%20with%20Fields.cpp).
+You can also check the implementation of the HandleMergeField class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}}
 

@@ -20,7 +20,7 @@ The following tables provide implementation details about how Aspose.Words saves
 - [Document Features Supported on HTML Export](/words/net/document-features-supported-on-html-export/)
 - [Drawing Object Features Supported on HTML Export](/words/net/drawing-object-features-supported-on-html-export/)
 - [Field Features Supported on HTML Export](/words/net/field-features-supported-on-html-export/)
-- [Footnotes an Endnote Features Supported on HTML Export](/words/net/footnotes-an-endnote-features-supported-on-html-export/)
+- [Footnotes an Endnote Features Supported on HTML Export](/words/net/footnotes-and-endnote-features-supported-on-html-export/)
 - [Numbering Features Supported on HTML Export](/words/net/numbering-features-supported-on-html-export/)
 - [Paragraph Features Supported on HTML Export](/words/net/paragraph-features-supported-on-html-export/)
 - [Section Features Supported on HTML Export](/words/net/section-features-supported-on-html-export/)

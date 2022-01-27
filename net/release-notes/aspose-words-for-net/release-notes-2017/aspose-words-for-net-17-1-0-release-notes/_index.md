@@ -174,7 +174,7 @@ Please see the following example:
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Pass direct url from youtu.be.
-string url = "https://youtu.be/t_1LYZ102RA";
+string url = "https://www.youtube.com/watch?v=t_1LYZ102RA";
 double width = 360;
 double height = 270;
 Shape shape = builder.InsertOnlineVideo(url, width, height);

@@ -27,7 +27,7 @@ You can implement the [Next](https://apireference.aspose.com/words/java/com.aspo
 
 ### Implement NextIf and SkipIf Fields to Compare Two Expressions
 
-You can use either [NextIf](https://apireference.aspose.com/words/java/com.aspose.words/FieldNextIf) field or [SkipIf](https://apireference.aspose.com/words/java/com.aspose.words/FieldSkipIf) field if you want to compare two expressions ([right](https://apireference.aspose.com/words/java/com.aspose.words/fieldif#RightExpression) and [left](https://apireference.aspose.com/words/java/com.aspose.words/fieldif#LeftExpression) expressions) by some [operator](https://apireference.aspose.com/words/java/com.aspose.words/fieldskipif#ComparisonOperator).
+You can use either [NextIf](https://apireference.aspose.com/words/java/com.aspose.words/FieldNextIf) field or [SkipIf](https://apireference.aspose.com/words/java/com.aspose.words/FieldSkipIf) field if you want to compare two expressions ([right](https://apireference.aspose.com/words/java/com.aspose.words/Fieldif#RightExpression) and [left](https://apireference.aspose.com/words/java/com.aspose.words/Fieldif#LeftExpression) expressions) by some [operator](https://apireference.aspose.com/words/java/com.aspose.words/Fieldskipif#ComparisonOperator).
 
 **NextIf** field has the same functionality as **Next** field, but it skips to the next row only if the condition is met. You can add **SkipIf** field to your template to exclude records that meet a certain criterion from a mail merge. The following table shows the main difference between NextIf and SkipIf:
 

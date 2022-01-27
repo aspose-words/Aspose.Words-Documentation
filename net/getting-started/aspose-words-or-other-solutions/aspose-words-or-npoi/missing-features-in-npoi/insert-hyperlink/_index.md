@@ -24,7 +24,7 @@ builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 
 // Insert the link.
-builder.InsertHyperlink("Aspose Website", "http://www.aspose.com", false);
+builder.InsertHyperlink("Aspose Website", "https://www.aspose.com", false);
 
 // Revert to default formatting.
 builder.Font.ClearFormatting();

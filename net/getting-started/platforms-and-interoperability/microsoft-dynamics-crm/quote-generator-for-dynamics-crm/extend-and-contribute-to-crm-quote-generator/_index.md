@@ -8,9 +8,8 @@ url: /net/extend-and-contribute-to-crm-quote-generator/
 
 You can download the latest source code at:
 
-- [CodePlex](https://archive.codeplex.com/?p=asposenetcrm).
+- [CodePlex](https://www.microsoft.com/?p=asposenetcrm).
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose%20.NET%20Quote%20Generator).
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Quote-Generator-1e73e2a9).
 
 Below code demonstrate the functionality to convert HTML to word and Attach Generated Quotation with Quote.
 

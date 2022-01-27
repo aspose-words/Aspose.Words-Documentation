@@ -52,4 +52,4 @@ Aspose components provide many powerful time-saving functions. For example, [Asp
 
 ## See Also
 
-- [More about Apache POI](http://poi.apache.org/)
+- [More about Apache POI](https://poi.apache.org/)

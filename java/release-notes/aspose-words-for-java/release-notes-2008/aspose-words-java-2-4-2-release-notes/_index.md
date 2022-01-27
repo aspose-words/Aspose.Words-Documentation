@@ -8,7 +8,7 @@ url: /java/aspose-words-java-2-4-2-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words.Java.2.4.2](http://www.aspose.com/downloads/words/java/new-releases/aspose.words.java.2.4.2/)
+This page contains release notes for [Aspose.Words.Java.2.4.2](https://downloads.aspose.com/words/java/new-releases/aspose.words.java.2.4.2/)
 
 {{% /alert %}} 
 

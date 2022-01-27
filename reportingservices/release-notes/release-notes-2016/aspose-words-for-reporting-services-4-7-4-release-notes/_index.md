@@ -8,7 +8,7 @@ url: /reportingservices/aspose-words-for-reporting-services-4-7-4-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Reporting Services from 4.7.0 to 4.7.4](http://www.aspose.com/downloads/words/reportingservices/new-releases/aspose.words-for-reporting-services-4.7.4-\(msi\)/).
+This page contains release notes for [Aspose.Words for Reporting Services from 4.7.0 to 4.7.4](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-4.7.4-\(msi\)/).
 
 {{% /alert %}} 
 

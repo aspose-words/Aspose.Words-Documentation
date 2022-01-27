@@ -37,7 +37,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Nested Tables|Yes| | |
 |Right To Left Tables|Yes| |- **Table.Bidi**|
-|Table Style|Yes|Table styles are supported in the model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles.|<p>- [Working with Table Styles](/words/java/working-with-table-styles/)</p><p>- **Table.Style**</p><p>- **Table.StyleIdentifier**</p>|
+|Table Style|Yes|Table styles are supported in the model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles.|<p>- [Working with Table Styles](/words/java/working-with-tablestyle/)</p><p>- **Table.Style**</p><p>- **Table.StyleIdentifier**</p>|
 |Conditional Formatting Style|Yes| |- **Table.StyleOptions**|
 |Table Alignment|Yes| |- **Table.Alignment**|
 |Table Indent|Yes| |- **Table.LeftIndent**|

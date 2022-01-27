@@ -159,7 +159,7 @@ Related issue: WORDSNET-19635 SaveOptions.ColorMode public property moved to Fix
 
 ### Supported dynamic bookmark insertion for LINQ Reporting Engine
 
-Issue: WORDSNET-19648 The "[Inserting Bookmarks Dynamically](/display/wordsnet/Template+Syntax#TemplateSyntax-InsertingBookmarksDynamically)" section of the engine's documentation was added to describe the change.
+Issue: WORDSNET-19648 The "[Inserting Bookmarks Dynamically](/words/net/template-syntax/#TemplateSyntax-InsertingBookmarksDynamically)" section of the engine's documentation was added to describe the change.
 
 ### WORDSNET-18928 - Add feature to insert IconCaption and correct icon while using InsertOleObject
 

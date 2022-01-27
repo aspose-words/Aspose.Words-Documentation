@@ -35,7 +35,7 @@ The following code example shows how to export round-trip information when conve
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Loading-and-Saving/Test%20File%20\(doc\).doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).doc).
 
 {{% /alert %}} 
 
@@ -64,7 +64,7 @@ However, there is no individual property for CSS. The behavior of the **FontsFo
 
 ### Export Base64 Encoding Fonts Resources
 
-Aspose.Words provides an ability to specify whether font resources should be embedded into HTML in Base64 encodings. To perform this, use the [ExportFontsAsBase64](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options/#get_exportfontsasbase64_const) property – this is an extension of the [ExportFontResources](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options#get_exportfontresources_const) property. By default, its value is **false**, and fonts are written into separate files. But if this option is set to **true**, fonts will be embedded into the document's CSS in Base64 encoding. The **ExportFontsAsBase64** property only affects HTML format and does not affect EPUB and MHTML.
+Aspose.Words provides an ability to specify whether font resources should be embedded into HTML in Base64 encodings. To perform this, use the [ExportFontsAsBase64](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options#get_exportfontsasbase64_const) property – this is an extension of the [ExportFontResources](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options#get_exportfontresources_const) property. By default, its value is **false**, and fonts are written into separate files. But if this option is set to **true**, fonts will be embedded into the document's CSS in Base64 encoding. The **ExportFontsAsBase64** property only affects HTML format and does not affect EPUB and MHTML.
 
 The following code example shows how to export Base64-encoded fonts to HTML:
 
@@ -80,6 +80,6 @@ The following code example shows how to converts a Word document to EPUB with sp
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Loading-and-Saving/Document.EpubConversion.doc).
+You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}} 

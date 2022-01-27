@@ -32,4 +32,4 @@ foreach (Table table in doc.GetChildNodes(NodeType.Table, true))
 ## Download Sample Code
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Fitting.all.Tables.to.the.Page.Width.Aspose.Words.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Words%20Vs%20VSTO%20Words/Fitting%20all%20Tables%20to%20the%20Page%20Width%20\(Aspose.Words\).zip/download)
+- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/)

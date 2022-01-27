@@ -12,7 +12,7 @@ Using Aspose.Words this task is very simple to achieve. The code presented in th
 
 {{% alert color="primary" %}} 
 
-Note that the preferred way of inserting data from a **DataTable** into a document table is by using [Mail Merge with Regions](/words/java/about-mail-merge/#aboutmailmerge-mailmergewithregionsexplained). The technique presented in this article is only suggested if you are unable to create a suitable template beforehand to merge data with, in other words, if you require everything to happen programmatically.
+Note that the preferred way of inserting data from a **DataTable** into a document table is by using [Mail Merge with Regions](/words/java/mail-merge-and-reporting/#aboutmailmerge-mailmergewithregionsexplained). The technique presented in this article is only suggested if you are unable to create a suitable template beforehand to merge data with, in other words, if you require everything to happen programmatically.
 
 {{% /alert %}} 
 

@@ -19,7 +19,7 @@ Aspose.Words saves documents in ODT, OTT format according to the OASIS ODF 1.1 s
 - [Document Features Supported on OpenDocument Export](/words/net/document-features-supported-on-opendocument-export/)
 - [Drawing Object Features Supported on OpenDocument Export](/words/net/drawing-object-features-supported-on-opendocument-export/)
 - [Field Features Supported on OpenDocument Export](/words/net/field-features-supported-on-opendocument-export/)
-- [Footnotes an Endnote Features Supported on OpenDocument Export](/words/net/footnotes-an-endnote-features-supported-on-opendocument-export/)
+- [Footnotes an Endnote Features Supported on OpenDocument Export](/words/net/footnotes-and-endnote-features-opendocument-export/)
 - [Numbering Features Supported on OpenDocument Export](/words/net/numbering-features-supported-on-opendocument-export/)
 - [Paragraph Features Supported on OpenDocument Export](/words/net/paragraph-features-supported-on-opendocument-export/)
 - [Section Features Supported on OpenDocument Export](/words/net/section-features-supported-on-opendocument-export/)

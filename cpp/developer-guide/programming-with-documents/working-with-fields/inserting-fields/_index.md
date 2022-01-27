@@ -40,7 +40,7 @@ For more details, please refer to FieldMergeField Class API reference. The code
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Field%20sample%20-%20ADDIN.docx).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 
@@ -56,7 +56,7 @@ For more details, please refer to FieldAddressBlock Class API reference. The co
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Fields/in.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 ### Inserting Advance field into a Document without using DocumentBuilder
 
@@ -70,7 +70,7 @@ For more details, please refer to FieldAdvance Class API reference. The code ex
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAdvanceFieldWithoutDocumentBuilder-InsertAdvanceFieldWithoutDocumentBuilder.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Fields/in.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 ### Inserting ASK field into a Document without using DocumentBuilder
 
@@ -81,11 +81,11 @@ ASK field is used to prompt the user for text to assign to a Bookmark in Word do
 - Specify whether the user response should be received once per a mail merge operation
 - Specify the prompt text (the title of the prompt window).
 
-For more details, please refer to [FieldAsk Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_ask/). The code example given below shows how to Add an ASK Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAsk Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_ask). The code example given below shows how to Add an ASK Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertASKFieldWithoutDocumentBuilder-InsertASKFieldWithoutDocumentBuilder.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Fields/in.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
@@ -93,11 +93,11 @@ AUTHOR field is used to specify the name of the Document's author from the Docum
 
 - Specify the document author's name.
 
-For more details, please refer to [FieldAuthor Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_author/). The code example given below shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
+For more details, please refer to [FieldAuthor Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_author). The code example given below shows how to Add an AUTHOR Field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cpp" >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Data/Programming-Documents/Fields/in.doc).
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 ### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
 
@@ -106,7 +106,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of the included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_include_text/). The code example given below shows how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/cpp/class/aspose.words.fields.field_include_text). The code example given below shows how to Add an INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertFieldIncludeTextWithoutDocumentBuilder.h" >}}
 

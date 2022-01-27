@@ -36,7 +36,7 @@ Please feel free to contact us if you wish to install these modules on other ver
 
 You can download Aspose .NET Export Users and Roles to Word for DNN Module from one of the following locations:
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 
 ## Installing
 
@@ -48,7 +48,7 @@ Once downloaded, please follow these steps to install the module into your DNN w
 1. As directed browse to the location of the downloaded zip file, select it then click **Open**.
 1. Click **Next**, accept the license, continue through the install. When finished click on the **Return** button.
 
-Please check [this module installation video](http://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details
+Please check [this module installation video](https://www.dnnsoftware.com/community/learn/video-library/view-video/video/542/view/details/how-to-install-a-module-in-dotnetnuke-7) from DNN for more details
 
 **Note:** If you get an error while uploading the module this is due to the maxRequestLength limit in your DNN installation’s web.config. Open web.config and update maxRequestLength to 20MB by setting **maxRequestLength=”20480″** and try to upload the module again.
 
@@ -65,7 +65,7 @@ You have successfully added Aspose .NET Export Users and Roles to Word module to
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.lic**
@@ -73,7 +73,7 @@ To remove evaluation message and feature limitations, product license should be 
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/3z-ffnrvLRs) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=3z-ffnrvLRs) below to see the module in action.
 
 ## Support, Extend and Contribute
 
@@ -85,9 +85,9 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
-- [Sourceforge ](https://sourceforge.net/p/asposednn/tickets/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
+- [Github](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
+- [Sourceforge](https://sourceforge.net/p/asposednn/tickets/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
 
 ### Extend and Contribute
 
@@ -97,16 +97,16 @@ Aspose .NET Word Processing and PDF Document Exporter for DNN and Aspose .NET Wo
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_DNN)
-- [Sourceforge ](https://sourceforge.net/p/asposednn/code/ci/master/tree/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-dnn/src)
+- [Github](https://github.com/asposemarketplace/Aspose_for_DNN)
+- [Sourceforge](https://sourceforge.net/p/asposednn/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-dnn/src)
 
 #### How to configure the source code
 
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](http://www.aspose.com/docs/display/totalnet/1.2.1+Downloading)
+- [DNN Development Template](https://www.aspose.com/docs/display/totalnet/1.2.1+Downloading)
 
 Please follow these simple steps to get started
 

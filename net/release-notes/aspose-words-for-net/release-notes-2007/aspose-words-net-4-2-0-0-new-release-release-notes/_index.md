@@ -8,7 +8,7 @@ url: /net/aspose-words-net-4-2-0-0-new-release-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words .Net 4.2.0.0 New Release](http://www.aspose.com/downloads/words/net/new-releases/aspose.words-.net-4.2.0.0-new-release/)
+This page contains release notes for [Aspose.Words .Net 4.2.0.0 New Release](https://downloads.aspose.com/words/net/new-releases/aspose.words-.net-4.2.0.0-new-release/)
 
 {{% /alert %}} 
 

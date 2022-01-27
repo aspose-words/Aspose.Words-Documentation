@@ -47,7 +47,6 @@ This add-on will work with all version of Microsoft Dynamics CRM:
 You can download the latest solution at:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeOneClickWordGenerator)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-OneClick-Word-bebd8272)
 
 ## Installing or Uninstalling
 
@@ -83,7 +82,7 @@ Easily configure and Use Aspose .NET OneClick Word Document Generator for Dynami
 
 ## Video Demo
 
-Please check [the video](https://youtu.be/FY3z8JBY18k) below to see the plugin in action.
+Please check [the video](https://www.youtube.com/watch?v=FY3z8JBY18k) below to see the plugin in action.
 
 ## Support
 
@@ -92,7 +91,6 @@ We offer free support. Anyone who uses our product, whether they have bought the
 You can log any issues or suggestions related to Aspose .Net Quote Generator using any of the following platforms:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-OneClick-Word-bebd8272/view/Discussions#content)
 
 ## Extend and Contribute
 

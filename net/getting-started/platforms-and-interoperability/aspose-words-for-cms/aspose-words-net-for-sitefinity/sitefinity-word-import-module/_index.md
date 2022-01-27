@@ -8,7 +8,7 @@ url: /net/sitefinity-word-import-module/
 
 ## Getting Started
 
-Sitefinity Word Import is an open source add-on from [Aspose](https://www.aspose.com/) that allow developers to get/read contents of any Word processing document without requiring any other software such as Microsoft Word or OpenOffice. This add-on demonstrates the powerful import feature provided by [Aspose.Word](http://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control and **Import from Word** button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.
+Sitefinity Word Import is an open source add-on from [Aspose](https://www.aspose.com/) that allow developers to get/read contents of any Word processing document without requiring any other software such as Microsoft Word or OpenOffice. This add-on demonstrates the powerful import feature provided by [Aspose.Word](https://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control and **Import from Word** button on the page where the add-on is added. When clicking on the button, the document contents are fetched from the file and displayed on the screen immediately.
 
 ### System Requirements and Supported Platforms
 
@@ -36,17 +36,15 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to Aspose.Words .NET for Sitefinity Modules using any of the following platforms
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Sitefinity/issues)
-- [Sourceforge ](https://sourceforge.net/p/asposesitefinity/tickets/?source=navbar)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/issues?status=new&status=open)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity/issues)
+- [Sourceforge](https://sourceforge.net/p/asposesitefinity/tickets/?source=navbar)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/issues?status=new&status=open)
 
 **Sitefinity Export to Word and PDF**
 
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Sitefinity-Export-to-Word-6d8f41d0/view/Discussions#content)
 
 **Aspose .NET Word Import for Sitefinity**
 
-- [Microsoft Developer Network - Q and A ](https://code.msdn.microsoft.com/Import-Word-Documents-to-f0358271/view/Discussions#content)
 
 #### Extend and Contribute
 
@@ -56,9 +54,9 @@ Sitefinity Export to Word and PDF and Aspose .NET Word Import for Sitefinity are
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Sitefinity)
-- [Sourceforge ](https://sourceforge.net/p/asposesitefinity/code/ci/master/tree/)
-- [Bitbucket ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/src)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity)
+- [Sourceforge](https://sourceforge.net/p/asposesitefinity/code/ci/master/tree/)
+- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/src)
 
 #### How to configure the source code
 
@@ -80,9 +78,9 @@ Please follow these simple steps to get started
 
 You can download Aspose .NET Word Import for Sitefinity module from one of the following locations
 
-- [Github ](https://github.com/asposemarketplace/Aspose_for_Sitefinity/releases)
-- [Sourceforge ](https://sourceforge.net/projects/asposesitefinity/files/)
-- [Bitbucket  ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads)
+- [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity/releases)
+- [Sourceforge](https://sourceforge.net/projects/asposesitefinity/files/)
+- [Bitbucket  ](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/downloads/)
 
 #### Installing
 

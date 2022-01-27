@@ -8,7 +8,7 @@ url: /java/working-with-merged-cells/
 
 Several cells in a table can be merged together into a single cell. This is useful when certain rows require a title or large blocks of text which span across the width of the table. This can only be achieved by merging cells in the table into a single cell. Aspose.Words supports merged cells when working with all input formats including when importing HTML content.
 
-In Aspose.Words, merged cells are represented by [CellFormat.setHorizontalMerge(int)](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#HorizontalMerge) and [CellFormat.setVerticalMerge(int)](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#VerticalMerge). The [CellFormat.getHorizontalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#HorizontalMerge) property describes if the cell is part of a horizontal merge of cells. Likewise the [CellFormat.getVerticalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#VerticalMerge) property describes if the cell is a part of a vertical merge of cells.
+In Aspose.Words, merged cells are represented by [CellFormat.setHorizontalMerge(int)](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#HorizontalMerge) and [CellFormat.setVerticalMerge(int)](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#VerticalMerge). The [CellFormat.getHorizontalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#HorizontalMerge) property describes if the cell is part of a horizontal merge of cells. Likewise the [CellFormat.getVerticalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#VerticalMerge) property describes if the cell is a part of a vertical merge of cells.
 
 The values of these properties are what define the merge behavior of cells.
 
@@ -26,7 +26,7 @@ Sometimes when you load existing document cells in a table will appear merged. H
 
 ## Checking if a Cell is Merged
 
-To check if a cell is part of a sequence of merged cells, we simply check the [CellFormat.getHorizontalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#HorizontalMerge) and [CellFormat.getVerticalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/cellformat#VerticalMerge) properties.
+To check if a cell is part of a sequence of merged cells, we simply check the [CellFormat.getHorizontalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#HorizontalMerge) and [CellFormat.getVerticalMerge()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#VerticalMerge) properties.
 
 ### Example: Getting the Merge Type
 
@@ -52,7 +52,7 @@ Creates a table with two columns with cells merged vertically in the first colum
 
 There are different ways to start a table. In the code snippets above builder.insertCell(); is used. Another method is to use builder.startTable(). Either approach starts a new table.
 
-Read more: [Inserting a Table using DocumentBuilder](/words/java/creating-tables/#inserting-a-table-using-documentbuilder).
+Read more: [Inserting a Table using DocumentBuilder](/words/java/introduction-and-creating-tables/#inserting-a-table-using-documentbuilder).
 
 In other situations where a builder is not used, such as in an existing table, merging cells in this way may not be as simple. Instead, we can wrap the base operations which are involved in apply merge properties to cells into a method which makes the task much easier. This method is similar to the automation Merge method which is called to merge a range of cells in a table. The code below will merge the range of cells in the table starting from the given cell, to the end cell. This range can span over many rows or columns.
 

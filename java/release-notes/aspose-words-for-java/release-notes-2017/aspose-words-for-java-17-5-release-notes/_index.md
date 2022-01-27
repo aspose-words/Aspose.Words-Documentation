@@ -8,7 +8,7 @@ url: /java/aspose-words-for-java-17-5-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.Words for Java 17.5](https://repository.aspose.com/repo/com/aspose/aspose-words/17.5/)
+This page contains release notes for [Aspose.Words for Java 17.5](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/17.5/)
 
 {{% /alert %}} 
 

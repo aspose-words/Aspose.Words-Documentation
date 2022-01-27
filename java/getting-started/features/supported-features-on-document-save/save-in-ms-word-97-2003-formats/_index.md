@@ -14,7 +14,7 @@ aliases: [/java/save-in-the-microsoft-word-document-97-2003-document-doc-dot-for
 - [Document Features Supported on DOC Export](/words/java/document-features-supported-on-doc-export/)
 - [Drawing Object Features Supported on DOC Export](/words/java/drawing-object-features-supported-on-doc-export/)
 - [Field Features Supported on DOC Export](/words/java/field-features-supported-on-doc-export/)
-- [Footnotes an Endnote Features Supported on DOC Export](/words/java/footnotes-an-endnote-features-supported-on-doc-export/)
+- [Footnotes an Endnote Features Supported on DOC Export](/words/java/footnotes-and-endnote-features-supported-on-doc-export/)
 - [Numbering Features Supported on DOC Export](/words/java/numbering-features-supported-on-doc-export/)
 - [Paragraph Features Supported on DOC Export](/words/java/paragraph-features-supported-on-doc-export/)
 - [Save Microsoft Word Document 97-2003 Document Format Overview](/words/java/save-microsoft-word-document-97-2003-document-format-overview/)

@@ -17,7 +17,7 @@ The main difference between both merge operations is that simple mail merge (wit
 
 {{% alert color="primary" %}}
 
-The [MailMerge](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge/) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
+The [MailMerge](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
 
 {{% /alert %}}
 
@@ -172,7 +172,7 @@ You can create nested (child) regions as well as merge regions. The main advanta
 
 {{% alert color="primary" %}}
 
-Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info/) class.
+Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info) class.
 
 {{% /alert %}}
 

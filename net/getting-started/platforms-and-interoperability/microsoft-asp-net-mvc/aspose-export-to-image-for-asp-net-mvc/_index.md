@@ -6,7 +6,7 @@ weight: 10
 url: /net/aspose-export-to-image-for-asp-net-mvc/
 ---
 
-Are you facing problems in converting a lengthy web page into single/multiple images (PNG, JPEG,TIFF, or BMP). Here is how [Apose.Words for .NET](http://www.aspose.com/.net/word-component.aspx) will help you achieve this. Aspose.Words for .NET exports the entire content of the web page into a single image or multiple images, as per user choice , in any image format (options available are PNG, JPEG,TIFF,BMP). Users can easily download the exported image(s) and use it as desired. Developers can add this feature of Aspose.Words for .NET to their MVC website projects by performing few simple steps.
+Are you facing problems in converting a lengthy web page into single/multiple images (PNG, JPEG,TIFF, or BMP). Here is how [Apose.Words for .NET](https://www.aspose.com/.net/word-component.aspx) will help you achieve this. Aspose.Words for .NET exports the entire content of the web page into a single image or multiple images, as per user choice , in any image format (options available are PNG, JPEG,TIFF,BMP). Users can easily download the exported image(s) and use it as desired. Developers can add this feature of Aspose.Words for .NET to their MVC website projects by performing few simple steps.
 
 This initial version of the module contains following features:
 
@@ -41,7 +41,6 @@ You can download Export web page contents to an image for ASP.NET MVC from one o
 ### Downloading
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.MVC.ExportContentToImagesv1.0/Aspose.MVC.ExportContentToImages-v1.0.zip)
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
 ### Installing
 
@@ -79,7 +78,7 @@ e.g @{ Html.RenderPartial("~/Views/Shared/AsposeContentToImage.cshtml"); }
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](http://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license.
 
 - Make sure the license file is named as **Aspose.Words.lic.**
@@ -87,7 +86,7 @@ To remove evaluation message and feature limitations, product license should be 
 
 ### Video Demo
 
-Please check [the video](https://youtu.be/CCC96GvkD0M) below to see the module in action.
+Please check [the video](https://www.youtube.com/watch?v=CCC96GvkD0M) below to see the module in action.
 
 ## Support, Extend and Contribute
 
@@ -104,10 +103,7 @@ You can log any issues or suggestions related to Aspose.Words.NET for ASP.NET MV
 
 #### Source Code
 
-You can download the latest source code at:
-
-- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
+You can download the latest source code at [Github](https://github.com/aspose-words/Aspose.Words-for-.NET).
 
 #### How to configure source code
 

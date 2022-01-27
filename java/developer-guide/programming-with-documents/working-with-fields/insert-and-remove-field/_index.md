@@ -94,7 +94,7 @@ ASK field is used to prompt the user for text to assign to a Bookmark in Word do
 AUTHOR field is used to specify the name of Document's author from the Document properties. AUTHOR field in Word document can be represented by the FieldAuthor class. You can use FieldAuthor class to perform following operations:
 
 - Specify the document author's name.
-  For more details, please refer to [FieldAuthor Class API reference](http://www.aspose.com/api/java/words/com.aspose.words/classes/FieldAuthor).
+  For more details, please refer to [FieldAuthor Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldAuthor).
 
 Below example shows how to Add a AUTHOR Field using DOM to a Paragraph in Document.
 

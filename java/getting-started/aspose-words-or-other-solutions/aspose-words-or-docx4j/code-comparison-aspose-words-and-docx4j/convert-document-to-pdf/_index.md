@@ -150,6 +150,6 @@ public static void main(String[] args)
 
 {{% alert color="primary" %}} 
 
-For more details, visit [How to Convert a Document to PDF](/words/java/converting-a-microsoft-word-document-using-save-method/#convertingamicrosoftworddocumentusingsavemethod-convertadocumenttopdf).
+For more details, visit [How to Convert a Document to PDF](/words/java/convert-a-document-to-pdf/#convertingamicrosoftworddocumentusingsavemethod-convertadocumenttopdf).
 
 {{% /alert %}}

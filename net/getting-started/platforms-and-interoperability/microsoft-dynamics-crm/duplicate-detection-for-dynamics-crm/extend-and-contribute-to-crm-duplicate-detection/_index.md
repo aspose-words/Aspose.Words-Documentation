@@ -9,7 +9,6 @@ url: /net/extend-and-contribute-to-crm-duplicate-detection/
 You can download the latest source code at:
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.DuplicateDocument)
-- [Code.MSDN](https://code.msdn.microsoft.com/Aspose-NET-Duplicate-9e6aaba6/view/SourceCode)
 
 In this scenario we have used Aspose.Words.dll to generate document from a template. We have defined a custom workflow assembly that can be used with Workflows and Dialogs in CRM.
 

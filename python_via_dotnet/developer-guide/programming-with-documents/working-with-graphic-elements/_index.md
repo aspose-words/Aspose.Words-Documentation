@@ -10,9 +10,9 @@ aliases: [/python/working-with-graphic-elements/]
 Articles in this section describe manipulation with various document graphic elements, such as shapes, text boxes, charts, images, and so on. 
 
 **This section includes the following topics:**
-- [Working with Shapes](/words/python/working-with-shapes/)
-- [How to Add Group Shape into a Word Document](/words/python/how-to-add-group-shape-into-a-word-document/)
-- [Working with OfficeMath](/words/python/working-with-officemath/)
-- [Working with Images](/words/python/working-with-images/)
-- [Working with Charts](/words/python/working-with-charts/)
-- [Working with Watermark](/words/python/working-with-watermark/)
+- [Working with Shapes](/words/python-net/working-with-shapes/)
+- [How to Add Group Shape into a Word Document](/words/python-net/how-to-add-group-shape-into-a-word-document/)
+- [Working with OfficeMath](/words/python-net/working-with-officemath/)
+- [Working with Images](/words/python-net/working-with-images/)
+- [Working with Charts](/words/python-net/working-with-charts/)
+- [Working with Watermark](/words/python-net/working-with-watermark/)

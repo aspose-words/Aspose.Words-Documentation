@@ -20,7 +20,7 @@ Aspose hosts all Java APIs in [Maven repository](https://repository.aspose.com/w
 		<repository>
 			<id>AsposeJavaAPI</id>
 			<name>Aspose Java API</name>
-			<url>https://repository.aspose.com/repo/</url>
+			<url>https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/</url>
 		</repository>
 	</repositories>
 	{{< /highlight >}}

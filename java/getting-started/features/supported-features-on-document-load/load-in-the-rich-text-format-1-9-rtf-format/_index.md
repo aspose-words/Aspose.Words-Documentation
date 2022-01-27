@@ -18,7 +18,7 @@ The following pages provide implementation details about how Aspose.Words loads 
 - [Document Features Supported on Rich Text Import](/words/java/document-features-supported-on-rich-text-import/)
 - [Drawing Object Features Supported on Rich Text Import](/words/java/drawing-object-features-supported-on-rich-text-import/)
 - [Field Features Supported on Rich Text Import](/words/java/field-features-supported-on-rich-text-import/)
-- [Footnotes an Endnote Features Supported on Rich Text Import](/words/java/footnotes-an-endnote-features-supported-on-rich-text-import/)
+- [Footnotes an Endnote Features Supported on Rich Text Import](/words/java/footnotes-and-endnote-features-supported-on-rich-text-import/)
 - [Numbering Features Supported on Rich Text Import](/words/java/numbering-features-supported-on-rich-text-import/)
 - [Paragraph Features Supported on Rich Text Import](/words/java/paragraph-features-supported-on-rich-text-import/)
 - [Section Features Supported on Rich Text Import](/words/java/section-features-supported-on-rich-text-import/)

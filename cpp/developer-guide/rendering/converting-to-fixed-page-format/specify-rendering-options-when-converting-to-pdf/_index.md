@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Rendering Options When Converting to PDF
 description: "Aspose.Words for C++ provides the ability to convert DOC or DOCX to PDF. To change the result of saving a document to PDF format, you need to specify additional options for the PdfSaveOptions class."
 type: docs
@@ -120,7 +120,7 @@ The following example demonstrates how to set Aspose.Words to subset fonts in t
 
 {{% alert color="primary" %}} 
 
-You can download the template file for these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Data/Rendering-Printing/Rendering.doc).
+You can download the template file for these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}} 
 
@@ -150,7 +150,7 @@ The example provided below shows how to set Aspose.Words to avoid embedding core
 
 {{% alert color="primary" %}} 
 
-You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/Data/Rendering.docx).
+You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 {{% /alert %}} 
 
@@ -164,7 +164,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 ### Embedding System Fonts
 
-This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#get_fontembeddingmode_const)[ ](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/embedstandardwindowsfonts)property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), Aspose.Words do not embed any fonts.
+This option can be enabled or disabled by using the [FontEmbeddingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#get_fontembeddingmode_const) property. When this property is set to [EmbedNonstandard](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdffontembeddingmode95embedall), Aspose.Words do not embed any fonts.
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 

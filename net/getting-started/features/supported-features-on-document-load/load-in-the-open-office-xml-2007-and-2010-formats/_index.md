@@ -14,7 +14,7 @@ aliases: [/net/load-in-the-open-office-xml-2007-and-2010-docx-dotx-docm-dotm-for
 - [Document Features Supported on DOCX Import](/words/net/document-features-supported-on-docx-import/)
 - [Drawing Object Features Supported on DOCX Import](/words/net/drawing-object-features-supported-on-docx-import/)
 - [Field Features Supported on DOCX Import](/words/net/field-features-supported-on-docx-import/)
-- [Footnotes an Endnote Features Supported on DOCX Import](/words/net/footnotes-an-endnote-features-supported-on-docx-import/)
+- [Footnotes an Endnote Features Supported on DOCX Import](/words/net/footnotes-and-endnote-features-supported-on-docx-import/)
 - [Load in the Open Office XML 2007 an 2010 Format Overview](/words/net/load-in-the-open-office-xml-2007-an-2010-format-overview/)
 - [Numbering Features Supported on DOCX Import](/words/net/numbering-features-supported-on-docx-import/)
 - [Paragraph Features Supported on DOCX Import](/words/net/paragraph-features-supported-on-docx-import/)

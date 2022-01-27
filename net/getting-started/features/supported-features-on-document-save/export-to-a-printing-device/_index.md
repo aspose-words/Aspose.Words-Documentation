@@ -19,7 +19,7 @@ The following tables provide implementation details about how Aspose.Words print
 - [Document Features Supported on Print Export](/words/net/document-features-supported-on-print-export/)
 - [Drawing Object Features Supported on Print Export](/words/net/drawing-object-features-supported-on-print-export/)
 - [Field Features Supported on Print Export](/words/net/field-features-supported-on-print-export/)
-- [Footnotes an Endnote Features Supported on Print Export](/words/net/footnotes-an-endnote-features-supported-on-print-export/)
+- [Footnotes an Endnote Features Supported on Print Export](/words/net/footnotes-and-endnote-features-supported-on-print-export/)
 - [Numbering Features Supported on Print Export](/words/net/numbering-features-supported-on-print-export/)
 - [Paragraph Features Supported on Print Export](/words/net/paragraph-features-supported-on-print-export/)
 - [Section Features Supported on Print Export](/words/net/section-features-supported-on-print-export/)

@@ -6,7 +6,7 @@ weight: 10
 url: /net/visual-studio-export-gridview-to-word-control/
 ---
 
-Export GridView To Word Control is an ASP.NET server control which allows exporting contents of GridView into Word Processing document using [Aspose.Words](http://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the GridView control. Clicking the button dynamically exports the content of the GridView control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
+Export GridView To Word Control is an ASP.NET server control which allows exporting contents of GridView into Word Processing document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** button on top of the GridView control. Clicking the button dynamically exports the content of the GridView control to a Word Processing document and then automatically downloads the exported file to the disk location selected by the user in just couple of seconds.
 
 ## Module Features
 
@@ -59,8 +59,8 @@ Export GridView To Word Control for Visual Studio is supported of all version of
 
 You can download Export GridView To Word Control from one of the following locations
 
-- [Visual Studio Gallery ](https://visualstudiogallery.msdn.microsoft.com/fb8b9944-cfe5-44a9-8aa7-c785d32d1066)
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
+- [Visual Studio Gallery ](https://marketplace.visualstudio.com/vsgallery/fb8b9944-cfe5-44a9-8aa7-c785d32d1066)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
 
 ## Installing
 
@@ -103,7 +103,6 @@ Once installed, it is very easy to start using this control in your ASP.NET appl
 |For .NET framework 4.0 and above |For .NET framework 2.0 and above | |
 | :- | :- | :- |
 |For applications running in .NET framework 4.0 and above in Visual Studio 2010 and above, you should see **ExportGridViewToWord** control in **Aspose** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. |In order you use this control in applications running in .NET 2.0 in any visual studio version make sure that you have added ExportGridViewToWord to your toolbox as per instructions on ﻿[8.1.2.1 Downloading and Installing]() under heading **For Visual Studio 2005, 2008 and Express editions** <br>You should see **ExportGridViewToWord** control in **General** Tab in Toolbar as shown below. You can simply drag drop this control onto your ASP.NET page, control or master page just like any other .NET control and get started. | |
-|![todo:image_alt_text](/download/thumbnails/2590054/1158480187)|![todo:image_alt_text](/download/thumbnails/2590054/1902680530)| |
 
 ### Manually adding ExportGridViewToWord control
 
@@ -173,8 +172,8 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 
 You can log any issues or suggestions related to this control using any of the following platforms
 
-- [Visual Studio Gallery - Q and A](https://visualstudiogallery.msdn.microsoft.com/fb8b9944-cfe5-44a9-8aa7-c785d32d1066)
-- [Github ](https://github.com/asposemarketplace/Aspose_for_VisualStudio/issues)
+- [Visual Studio Gallery - Q and A](https://marketplace.visualstudio.com/vsgallery/fb8b9944-cfe5-44a9-8aa7-c785d32d1066)
+- [Github](https://github.com/asposemarketplace/Aspose_for_VisualStudio/issues)
 
 ### Extend and Contribute
 
@@ -184,7 +183,7 @@ Aspose .NET Export GridView To Word Control for Visual Studio is open source and
 
 You can get the latest source code from one of the following locations
 
-- [Github ](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
+- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.GridViewExport)
 
 #### How to configure the source code
 

@@ -48,13 +48,11 @@ You can download the latest solution for Microsoft Dynamics CRM 2013 at:
 
 - [Github](https://github.com/asposemarketplace/asposenetcrm/releases/tag/AutoMerge-2.0.0.2013)
 - [Sourceforge](https://sourceforge.net/projects/asposenetcrm/)
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
 You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 
 - [Github](https://github.com/asposemarketplace/asposenetcrm/releases/tag/AutoMerge-2.0.0.2015)
 - [Sourceforge](https://sourceforge.net/projects/asposenetcrm/files/Aspose%20.NET%20AutoMerge/Aspose%20.NET%20AutoMerge%20(2.0.0.2015).zip/download)
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
 ## Installing or Uninstalling
 

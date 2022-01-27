@@ -13,7 +13,7 @@ url: /java/save-in-the-open-xml-paper-specification-xps-format/
 - [Document Features Supported on XPS Export](/words/java/document-features-supported-on-xps-export/)
 - [Drawing Object Features Supported on XPS Export](/words/java/drawing-object-features-supported-on-xps-export/)
 - [Field Features Supported on XPS Export](/words/java/field-features-supported-on-xps-export/)
-- [Footnotes an Endnote Features Supported on XPS Export](/words/java/footnotes-an-endnote-features-supported-on-xps-export/)
+- [Footnotes an Endnote Features Supported on XPS Export](/words/java/footnotes-and-endnote-features-supported-on-xps-export/)
 - [Numbering Features Supported on XPS Export](/words/java/numbering-features-supported-on-xps-export/)
 - [Paragraph Features Supported on XPS Export](/words/java/paragraph-features-supported-on-xps-export/)
 - [Save in the Open XML Paper Specification Overview](/words/java/save-in-the-open-xml-paper-specification-overview/)
