@@ -31,10 +31,8 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 ## Downloading
 
-You can download the latest solution at:
+You can download the latest solution at [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeEmailExporterCRM).
 
-- [Github](https://goo.gl/2rGmgd)
-- [Code.MSDN](https://goo.gl/ZTW336)
 
 ## Installing or Uninstalling
 

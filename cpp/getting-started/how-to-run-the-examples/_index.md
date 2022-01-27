@@ -23,7 +23,7 @@ Please make sure you meet the following requirements before downloading and runn
 
 ### Download and Run the Examples
 
-All Aspose.Words for C++ examples are hosted on [GitHub](https://github.com/aspose-words/Aspose.Words-for-C). You can either clone the repository using your favorite GitHub client or download [the ZIP file](https://github.com/aspose-words/Aspose.Words-for-C/archive/master.zip).
+All Aspose.Words for C++ examples are hosted on [GitHub](https://github.com/aspose-words/Aspose.Words-for-C). You can either clone the repository using your favorite GitHub client or download [the ZIP file](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 After getting a copy of the repository, you may find that:
 
@@ -49,7 +49,7 @@ Please make sure you meet the following requirements before downloading and runn
 
 ### Download and Run the Examples
 
-All Aspose.Words for C++ examples are hosted on [GitHub](https://github.com/aspose-words/Aspose.Words-for-C). You can either clone the repository using your favorite GitHub client or download [the ZIP file](https://github.com/aspose-words/Aspose.Words-for-C/archive/master.zip).
+All Aspose.Words for C++ examples are hosted on [GitHub](https://github.com/aspose-words/Aspose.Words-for-C). You can either clone the repository using your favorite GitHub client or download [the ZIP file](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 Place folders `Aspose.Words.Cpp` and `CodePorting.Native.Cs2Cpp_*`  in the root of a copy of the repository.
 
@@ -81,7 +81,7 @@ Please make sure you meet the following requirements before downloading and runn
 
 ### Download and Run the Examples
 
-All Aspose.Words for C++ examples are hosted on [GitHub](https://github.com/aspose-words/Aspose.Words-for-C). You can either clone the repository using your favorite GitHub client or download [the ZIP file](https://github.com/aspose-words/Aspose.Words-for-C/archive/master.zip).
+All Aspose.Words for C++ examples are hosted on [GitHub](https://github.com/aspose-words/Aspose.Words-for-C). You can either clone the repository using your favorite GitHub client or download [the ZIP file](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
 Place folders `Aspose.Words.Cpp` and `CodePorting.Native.Cs2Cpp_*`  in the root of a copy of the repository.
 

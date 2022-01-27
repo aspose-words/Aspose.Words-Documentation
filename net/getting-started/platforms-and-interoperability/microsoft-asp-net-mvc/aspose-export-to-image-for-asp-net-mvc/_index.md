@@ -41,7 +41,6 @@ You can download Export web page contents to an image for ASP.NET MVC from one o
 ### Downloading
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.MVC.ExportContentToImagesv1.0/Aspose.MVC.ExportContentToImages-v1.0.zip)
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples)
 
 ### Installing
 
@@ -104,10 +103,7 @@ You can log any issues or suggestions related to Aspose.Words.NET for ASP.NET MV
 
 #### Source Code
 
-You can download the latest source code at:
-
-- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET)
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
+You can download the latest source code at [Github](https://github.com/aspose-words/Aspose.Words-for-.NET).
 
 #### How to configure source code
 

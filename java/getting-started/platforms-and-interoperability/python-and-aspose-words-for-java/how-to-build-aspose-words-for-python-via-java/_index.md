@@ -26,7 +26,7 @@ Install wheel
 >  pip install wheel
 {{< /highlight >}}
 
-Download and install [Microsoft Visual C++ Compiler for Python 2.7](https://www.microsoft.com/en-us/download/404Error.aspx)
+Download and install [Microsoft Visual C++ Compiler for Python 2.7](https://wiki.python.org/moin/WindowsCompilers)
 
 Download and unzip [JCC](https://pypi.org/project/JCC/)
 

@@ -58,7 +58,7 @@ Export Repeater To Word Control for Visual Studio is supported of all version of
 
 You can download Export Repeater To Word Control from one of the following locations
 
-- [Visual Studio Gallery](https://marketplace.visualstudio.com/vsgallery/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
+- [Visual Studio Gallery](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/AsposeWordsRepeaterExport)
 
 ## Installing
@@ -185,11 +185,7 @@ From the very first days of Aspose, we knew that just giving our customers good 
 
 This is why we offer free support. Anyone who uses our product, whether they purchase them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to this control using any of the following platforms
-
-- [Visual Studio Gallery - Q and A](https://marketplace.visualstudio.com/vsgallery/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
-- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues)
-- [Microsoft Developer Network - Q and A ](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples#content)
+You can log any issues or suggestions related to this control using [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/issues).
 
 ### Extend and Contribute
 
@@ -200,7 +196,7 @@ Aspose .NET Export Repeater To Word Control for Visual Studio is open source and
 You can get the latest source code from one of the following locations
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Visual%20Studio/Aspose.Words.RepeaterExport)
-- [Visual Studio Gallery](https://marketplace.visualstudio.com/vsgallery/874e2b3b-f8fe-4f4b-b613-d41ec9e77c73)
+- [Visual Studio Gallery](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
 
 #### How to configure the source code
 

@@ -110,7 +110,8 @@ Please follow [**GitHub Issues Tracker**](https://github.com/aspose-words/Aspos
 
 Aspose.Words Java for Eclipse (Maven) is open source and its source code is available on the major social coding websites listed below. Developers are encouraged to download the source code and contribute by suggesting or adding new feature or improving the existing ones, so that others could also benefit from it. Developers can also learn from it to make their own plugins.
 
-- [GitHub](https://goo.gl/xoJHH0)
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_Java_for_Eclipse_Maven)
+
 #### How to configure source code of Aspose.Words Java for Eclipse (Maven)
 
 Below simple steps will smoothly lead to successful configuration of  **"Aspose.Words Java for Eclipse (Maven)"** plugin source code in Eclipse IDE

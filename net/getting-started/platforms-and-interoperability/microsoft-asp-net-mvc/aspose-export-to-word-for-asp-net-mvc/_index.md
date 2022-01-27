@@ -34,10 +34,7 @@ This addon will work with ASP.NET MVC 4+:
 
 ## Downloading
 
-You can download the latest solution for Microsoft Visual Studio at:
-
-- [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.MVC.ExportToWord-v1.0)
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples).
+You can download the latest solution for Microsoft Visual Studio at [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.MVC.ExportToWord-v1.0).
 
 ## Installation and Usage
 
@@ -75,9 +72,8 @@ You can log any issues or suggestions related to Aspose Export to Word for ASP.N
 
 You can download the latest source code at:
 
-- [CodePlex](https://asposewordsnetmvc.codeplex.com/SourceControl/latest).
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToWord).
-- [Code.MSDN](https://docs.microsoft.com/en-us/samples/browse/?redirectedfrom=MSDN-samples).
+- [CodePlex](https://asposewordsnetmvc.codeplex.com/SourceControl/latest)
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToWord)
 
 #### How to configure source code
 

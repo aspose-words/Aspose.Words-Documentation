@@ -31,7 +31,7 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 {{% alert color="primary" %}} 
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples/Data/Images/TestFile.Watermark.doc). 
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples). 
 
 {{% /alert %}} 
 
