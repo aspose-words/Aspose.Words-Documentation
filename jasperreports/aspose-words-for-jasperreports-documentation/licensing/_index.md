@@ -26,14 +26,18 @@ The first two are used with JasperReports, the last with JasperServer. Each meth
 
 ## Call setLicense
 
-This method is used with JasperReports.
+{{% alert color="primary" %}} 
+
+This is the first way used with JasperReports. 
+
+{{% /alert %}}
 
 1. Download the license to your computer and copy it to the appropriate folder (for example your application's folder or JasperReports\lib).
 1. Add the following code to your project: 
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java>}}
    import com.aspose.words.jasperreports.*;
 
    // Create a stream object containing the license file
@@ -44,11 +48,11 @@ This method is used with JasperReports.
    license.setLicense(fstream);
 {{< /highlight >}}
 
-### Set the licenseFile Exporter Parameter in Code
+## Set the licenseFile Exporter Parameter in Code
 
 {{% alert color="primary" %}} 
 
-This method is used with JasperReports.
+This is the second way used with JasperReports.
 
 {{% /alert %}} 
 
@@ -57,16 +61,20 @@ This method is used with JasperReports.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java>}}
    import com.aspose.words.jasperreports.*;
    AWDocExporter exporter = new AWDocExporter();
    exporter.setParameter(AWExporterParameter.LICENSE, "Aspose.Words.JasperReports.lic");
    exporter.exportReport();
 {{< /highlight >}}
 
-#### Set the licenseFile Exporter Parameter in applicationContext.xml
+## Set the licenseFile Exporter Parameter in applicationContext.xml
+
+{{% alert color="primary" %}} 
 
 This method is used with JasperServer.
+
+{{% alert color="primary" %}} 
 
 1. Download the license to your computer and copy it to the <InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF folder, where <InstallDir> stands for the JasperServer installation directory.
 1. Locate the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file and add the following lines: 
@@ -79,7 +87,7 @@ This method is used with JasperServer.
 </bean>
 {{< /highlight >}}
 
-#### Verify that the License Works
+## Verify that the License Works
 
 Export any report to DOC or DOCX format and check if the report contains an evaluation message. If there is no evaluation message, then the license is working properly.
 
