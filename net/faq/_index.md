@@ -1,6 +1,7 @@
 ---
 title: FAQ – Aspose.Words for .NET
 articleTitle: FAQ
+linktitle: FAQ
 type: docs
 description: "Aspose.Words for .NET answers the most frequently asked questions. Learn this page to quickly solve your problem on general questions or specific topics."
 weight: 75
