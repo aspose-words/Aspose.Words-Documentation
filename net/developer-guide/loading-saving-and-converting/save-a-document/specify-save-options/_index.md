@@ -54,7 +54,7 @@ The following code example shows how to set this property and save the document
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithOoxml-UpdateLastSavedTimeProperty.cs" >}}
 
-## Control External Resources When Saving a Document into HTML or SWG
+## Control External Resources When Saving a Document into HTML or SVG
 
 To convert HTML or SVG into PDF, simply invoke the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method and specify a file name with the “.PDF” extension. If you want to load images, CSS, etc. from external sources, you can use [IResourceSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/iresourcesavingcallback).
 
