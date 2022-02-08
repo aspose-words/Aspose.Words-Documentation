@@ -32,6 +32,7 @@ The following table indicates the input and output file formats supported by Asp
 |[HTML](https://docs.fileformat.com/web/html/)|HTML or XHTML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML (Web archive) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MOBI](https://docs.fileformat.com/ebook/mobi/)|MOBI is an eBook format used by the MobiPocket Reader and Amazon Kindle Readers.|{{< emoticons/tick >}}| | |
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW3 is an eBook format used by Amazon Kindle readers.|{{< emoticons/tick >}}| | |
 |[CHM](https://docs.fileformat.com/web/chm/)|CHM (Compiled HTML Help) format.|{{< emoticons/tick >}}| | |
 |[ODT](https://docs.fileformat.com/word-processing/odt/)|ODF Text Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[OTT](https://docs.fileformat.com/word-processing/ott/)|ODF Text Document Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
@@ -46,8 +47,8 @@ The following table indicates the input and output file formats supported by Asp
 |[PS](https://docs.fileformat.com/page-description-language/ps/)|Saves the document in the PS (PostScript) format.| |{{< emoticons/tick >}}| |
 |[PCL](https://docs.fileformat.com/page-description-language/pcl/)|Saves the document in the PCL (Printer Control Language) format.| |{{< emoticons/tick >}}| |
 |[EPUB](https://docs.fileformat.com/ebook/epub/)|Saves the document in the IDPF EPUB format.| |{{< emoticons/tick >}}| |
-|XamlFlow|**Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document.| |{{< emoticons/tick >}}| |
-|XamlFlowPack|**Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document.| |{{< emoticons/tick >}}| |
+|XamlFlow| Saves the document in the Extensible Application Markup Language (XAML) format as a flow document.| |{{< emoticons/tick >}}| |
+|XamlFlowPack| Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document.| |{{< emoticons/tick >}}| |
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Renders a page or pages of the document and saves them into a single or multipage TIFF file.| |{{< emoticons/tick >}}| |
 |[PNG](https://docs.fileformat.com/image/png/)|Renders a page of the document and saves it as a PNG file.| |{{< emoticons/tick >}}| |
 |[BMP](https://docs.fileformat.com/image/bmp/)|Renders a page of the document and saves it as a BMP file.| |{{< emoticons/tick >}}| |
