@@ -1,4 +1,4 @@
-﻿---
+---
 title: What's new in Aspose.Words for Java
 type: docs
 description: "Aspose.Words for Java expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
@@ -8,11 +8,17 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 22.1
+## Aspose.Words for Java 22.1, 22.2
 
 Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.
 
+Aspose.Words 22.2 introduces a new load format and new options for exporting documents. It also contains a major update for tables and some changes for working with fields.
+
 The API is enhanced for more flexible and convenient development.
+
+### Supported Formats
+
+Loading a document in AZW3 format (KF8 is another name for the format) has been added. Now you can load an AZW3 document and convert it to any other supported formats.
 
 ### Rendering
 
@@ -32,11 +38,28 @@ A new option [ForceCopyStyles](https://apireference.aspose.com/words/java/com.as
 
 #### Document Saving Progress Notifications
 
-An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#ProgressCallback) property.
+An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://apireference.aspose.com/words/java/com.aspose.words/saveoptions#ProgressCallback) property in 22.1.
+
+In 22.2, saving progress notifications have been extended for HTML and XAML based flow formats: HTML, MHTML, Epub, XamlFlow, and XamlFlowPack.
+
+#### Convert Shapes to SVG When Exporting
+
+The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the [ExportShapesAsSvg](https://apireference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#ExportShapesAsSvg) property.
+
+#### Export of List Numbering to PDF Logical Structure
+
+List numbering export to PDF logical structure has been implemented.
+
+### Other
+
+* An ability to get custom field data that is associated with the field has been added.
+* The latest version of Aspose.Words also included a major update that handles tables with incorrect or missing column width data in the source document.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 22.1 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-22-1-release-notes/).
+
+Learn more about [Aspose.Words for Java 22.2 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-22-2-release-notes/).
 
 {{% /alert %}}
 
