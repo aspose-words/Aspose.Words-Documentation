@@ -50,7 +50,7 @@ The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EP
 
 List numbering export to PDF logical structure has been implemented.
 
-Other
+### Other
 
 * An ability to get custom field data that is associated with the field has been added.
 * The latest version of Aspose.Words also included a major update that handles tables with incorrect or missing column width data in the source document.
