@@ -1,5 +1,7 @@
 ﻿---
-title: Using Variables
+title: Using Variables – Aspose.Words for .NET
+articleTitle: Using Variables
+linktitle: Using Variables
 description: "Use variables to calculate an expensive value just once and access it multiple times in template documents C#."
 type: docs
 weight: 130

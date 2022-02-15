@@ -1,5 +1,7 @@
 ﻿---
-title: Windows Azure Platform
+title: Windows Azure Platform – Aspose.Words for .NET
+articleTitle: Windows Azure Platform
+linktitle: Windows Azure Platform
 type: docs
 description: "Use Aspose.Words for .NET when building applications for the Windows Azure Platform. Learn how Aspose.Words works well in the cloud."
 weight: 10

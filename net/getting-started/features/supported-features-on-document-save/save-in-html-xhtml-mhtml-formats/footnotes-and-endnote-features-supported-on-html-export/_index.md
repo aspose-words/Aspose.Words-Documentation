@@ -1,5 +1,7 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on HTML Export
+title: Footnotes and Endnote Features Supported on HTML Export – Aspose.Words for .NET
+articleTitle: Footnotes and Endnote Features Supported on HTML Export
+linktitle: Footnotes and Endnote Features Supported on HTML Export
 description: "Aspose.Words for .NET allows you to work with footnote and endnote features supported when saving to HTML-based format."
 type: docs
 weight: 60

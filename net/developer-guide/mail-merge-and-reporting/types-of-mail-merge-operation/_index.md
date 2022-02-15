@@ -1,5 +1,7 @@
 ﻿---
-title: Types of Mail Merge Operation
+title: Types of Mail Merge Operation – Aspose.Words for .NET
+articleTitle: Types of Mail Merge Operation
+linktitle: Types of Mail Merge Operation
 aliases:
   - /net/how-to-execute-mail-merge/
 type: docs

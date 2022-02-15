@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Fields
+title: Working with Fields – Aspose.Words for Python via .NET
+articleTitle: Working with Fields
+linktitle: Working with Fields
 description: "Learn how to work with fields in a documents using python."
 type: docs
 weight: 170

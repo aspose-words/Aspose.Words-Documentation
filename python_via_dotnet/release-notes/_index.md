@@ -1,5 +1,7 @@
 ﻿---
-title: Release Notes
+title: Release Notes – Aspose.Words for Python via .NET
+articleTitle: Release Notes
+linktitle: Release Notes
 type: docs
 description: "Learn more about updates including improvments and fixes for the latest release of Aspose.Words for Python via .NET. Navigate to a definite release note page to find a description of a specific release."
 weight: 70

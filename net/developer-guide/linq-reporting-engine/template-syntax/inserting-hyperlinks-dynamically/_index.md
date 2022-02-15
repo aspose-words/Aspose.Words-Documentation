@@ -1,5 +1,7 @@
 ﻿---
-title: Inserting Hyperlinks Dynamically
+title: Inserting Hyperlinks Dynamically – Aspose.Words for .NET
+articleTitle: Inserting Hyperlinks Dynamically
+linktitle: Inserting Hyperlinks Dynamically
 description: "Insert hyperlinks into your document dynamically when building a report C#."
 type: docs
 weight: 80

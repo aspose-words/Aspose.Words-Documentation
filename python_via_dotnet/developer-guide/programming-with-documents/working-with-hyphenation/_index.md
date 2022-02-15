@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Hyphenation
+title: Working with Hyphenation – Aspose.Words for Python via .NET
+articleTitle: Working with Hyphenation
+linktitle: Working with Hyphenation
 description: "Aspose.Words for Python via .NET allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 115

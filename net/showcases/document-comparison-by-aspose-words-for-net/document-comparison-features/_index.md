@@ -1,5 +1,7 @@
 ﻿---
-title: Document Comparison Features
+title: Document Comparison Features – Aspose.Words for .NET
+articleTitle: Document Comparison Features
+linktitle: Document Comparison Features
 description: "Aspose.Words allows you to compare two Word documents using files or URLs to these files and show the differences. You can also view your document in a browser."
 type: docs
 weight: 20

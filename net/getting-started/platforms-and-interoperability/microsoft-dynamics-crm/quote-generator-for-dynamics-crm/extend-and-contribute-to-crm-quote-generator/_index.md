@@ -1,5 +1,7 @@
 ﻿---
-title: Extend and Contribute to CRM Quote Generator
+title: Extend and Contribute to CRM Quote Generator – Aspose.Words for .NET
+articleTitle: Extend and Contribute to CRM Quote Generator
+linktitle: Extend and Contribute to CRM Quote Generator
 description: "How to defined a custom workflow using Aspose.Words to convert HTML to word and Attach Generated Quotation with Quote."
 type: docs
 weight: 10

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Bookmarks
+title: Working with Bookmarks – Aspose.Words for .NET
+articleTitle: Working with Bookmarks
+linktitle: Working with Bookmarks
 description: "Understanding bookmark concepts and how bookmark can be used in your program using Aspose.Words for .Net."
 type: docs
 weight: 86

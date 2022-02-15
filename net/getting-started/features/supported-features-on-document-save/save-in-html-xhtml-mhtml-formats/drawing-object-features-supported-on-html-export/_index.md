@@ -1,5 +1,7 @@
 ﻿---
-title: Drawing Object Features Supported on HTML Export
+title: Drawing Object Features Supported on HTML Export – Aspose.Words for .NET
+articleTitle: Drawing Object Features Supported on HTML Export
+linktitle: Drawing Object Features Supported on HTML Export
 description: "Aspose.Words for .NET allows you to work with drawing features supported when saving to HTML-based format."
 type: docs
 weight: 40

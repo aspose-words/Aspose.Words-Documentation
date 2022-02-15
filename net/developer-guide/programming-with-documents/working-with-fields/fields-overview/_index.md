@@ -1,5 +1,7 @@
 ﻿---
-title: Fields Overview
+title: Fields Overview – Aspose.Words for .NET
+articleTitle: Fields Overview
+linktitle: Fields Overview
 description: "Fields feature in details, field codes and field results explained in Aspose.Words for .Net."
 type: docs
 weight: 10

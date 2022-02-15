@@ -1,5 +1,7 @@
 ﻿---
-title: Technical Support
+title: Technical Support – Aspose.Words for Python via .NET
+articleTitle: Technical Support
+linktitle: Technical Support
 type: docs
 description: "Aspose.Words for Python via .NET provides free technical support available to all users. Please report your question, issue, or feature request using Aspose Free Support Forum."
 weight: 80

@@ -1,5 +1,7 @@
 ﻿---
-title: Field Features Supported on XPS Export
+title: Field Features Supported on XPS Export – Aspose.Words for .NET
+articleTitle: Field Features Supported on XPS Export
+linktitle: Field Features Supported on XPS Export
 description: "Aspose.Words for .NET allows you to work with field features supported when saving to XPS format."
 type: docs
 weight: 50

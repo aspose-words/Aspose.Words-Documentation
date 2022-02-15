@@ -1,5 +1,7 @@
 ﻿---
-title: "Convert a Document"
+title: "Convert a Document" – Aspose.Words for Python via .NET
+articleTitle: "Convert a Document"
+linktitle: "Convert a Document"
 type: docs
 url: /python-net/convert-a-document/
 weight: 30

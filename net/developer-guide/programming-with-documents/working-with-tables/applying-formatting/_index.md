@@ -1,5 +1,7 @@
 ﻿---
-title: Applying Formatting
+title: Applying Formatting – Aspose.Words for .NET
+articleTitle: Applying Formatting
+linktitle: Applying Formatting
 description: "Table formatting in details. Using Aspose.Words for .Net to format every part of table."
 type: docs
 weight: 20

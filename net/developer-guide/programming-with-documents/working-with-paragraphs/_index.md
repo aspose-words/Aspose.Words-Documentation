@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Paragraphs
+title: Working with Paragraphs – Aspose.Words for .NET
+articleTitle: Working with Paragraphs
+linktitle: Working with Paragraphs
 description: "Paragraph node manipulation practices using Aspose.Words for .Net."
 type: docs
 weight: 110

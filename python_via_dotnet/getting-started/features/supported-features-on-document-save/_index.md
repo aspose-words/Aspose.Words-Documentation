@@ -1,5 +1,7 @@
 ﻿---
-title: Supported Features on Document Save
+title: Supported Features on Document Save – Aspose.Words for Python via .NET
+articleTitle: Supported Features on Document Save
+linktitle: Supported Features on Document Save
 description: "Save your document to any supported format using python. Convert and export a document of any size."
 type: docs
 weight: 30

@@ -1,5 +1,7 @@
 ﻿---
-title: Fields Overview
+title: Fields Overview – Aspose.Words for Python via .NET
+articleTitle: Fields Overview
+linktitle: Fields Overview
 description: "You can access field modifying using python. Fields of the document are loaded into the Aspose.Words Document Object Model (DOM)."
 type: docs
 weight: 10

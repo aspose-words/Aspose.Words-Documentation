@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words 8.1.0 Release Notes
+title: Aspose.Words 8.1.0 Release Notes – Aspose.Words for .NET
+articleTitle: Aspose.Words 8.1.0 Release Notes
+linktitle: Aspose.Words 8.1.0 Release Notes
 description: "Aspose.Words 8.1.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 90

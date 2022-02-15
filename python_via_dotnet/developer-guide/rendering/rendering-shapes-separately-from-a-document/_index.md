@@ -1,5 +1,7 @@
 ﻿---
-title: Rendering Shapes Separately from a Document
+title: Rendering Shapes Separately from a Document – Aspose.Words for Python via .NET
+articleTitle: Rendering Shapes Separately from a Document
+linktitle: Rendering Shapes Separately from a Document
 description: "Aspose.Words for Python via .NET provides the ability to extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location."
 type: docs
 weight: 40

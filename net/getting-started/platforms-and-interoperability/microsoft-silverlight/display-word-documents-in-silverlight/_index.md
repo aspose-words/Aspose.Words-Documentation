@@ -1,5 +1,7 @@
 ﻿---
-title: Display Word Documents in Silverlight
+title: Display Word Documents in Silverlight – Aspose.Words for .NET
+articleTitle: Display Word Documents in Silverlight
+linktitle: Display Word Documents in Silverlight
 description: "Using Aspose.Words for .NET in a Microsoft Silverlight to display Word documents."
 type: docs
 weight: 10

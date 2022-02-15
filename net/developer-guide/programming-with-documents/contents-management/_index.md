@@ -1,5 +1,7 @@
 ﻿---
-title: Contents Management
+title: Contents Management – Aspose.Words for .NET
+articleTitle: Contents Management
+linktitle: Contents Management
 description: "Introduction to document content management classes in Aspose.Words for .Net."
 type: docs
 weight: 190

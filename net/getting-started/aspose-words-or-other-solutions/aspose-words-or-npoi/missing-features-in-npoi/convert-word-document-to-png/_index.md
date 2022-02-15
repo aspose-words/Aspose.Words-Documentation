@@ -1,5 +1,7 @@
 ﻿---
-title: Convert Word Document to PNG
+title: Convert Word Document to PNG – Aspose.Words for .NET
+articleTitle: Convert Word Document to PNG
+linktitle: Convert Word Document to PNG
 description: "Aspose.Words for .NET allows to convert Word document to PNG. NPOI does not provide an opportunity to work with formats other than Word."
 type: docs
 weight: 10

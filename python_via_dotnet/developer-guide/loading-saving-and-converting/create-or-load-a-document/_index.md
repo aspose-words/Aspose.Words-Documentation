@@ -1,5 +1,7 @@
 ﻿---
-title: "Create or Load a Document"
+title: "Create or Load a Document" – Aspose.Words for Python via .NET
+articleTitle: "Create or Load a Document"
+linktitle: "Create or Load a Document"
 type: docs
 url: /python-net/create-or-load-a-document/
 aliases:

@@ -1,5 +1,7 @@
 ﻿---
-title: Text Features Supported on XPS Export
+title: Text Features Supported on XPS Export – Aspose.Words for .NET
+articleTitle: Text Features Supported on XPS Export
+linktitle: Text Features Supported on XPS Export
 description: "Aspose.Words for .NET allows you to work with text features supported when saving to XPS format."
 type: docs
 weight: 120

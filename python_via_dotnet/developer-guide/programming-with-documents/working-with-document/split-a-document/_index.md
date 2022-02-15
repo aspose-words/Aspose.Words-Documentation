@@ -1,5 +1,7 @@
 ﻿---
-title: Split a Document
+title: Split a Document – Aspose.Words for Python via .NET
+articleTitle: Split a Document
+linktitle: Split a Document
 description: "Aspose.Words for Python via .NET allows you to split a document into several files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
 type: docs
 weight: 80

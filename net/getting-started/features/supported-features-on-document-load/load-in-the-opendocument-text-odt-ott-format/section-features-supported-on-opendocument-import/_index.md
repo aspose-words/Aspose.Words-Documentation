@@ -1,5 +1,7 @@
 ﻿---
-title: Section Features Supported on OpenDocument Import
+title: Section Features Supported on OpenDocument Import – Aspose.Words for .NET
+articleTitle: Section Features Supported on OpenDocument Import
+linktitle: Section Features Supported on OpenDocument Import
 description: "Aspose.Words for .NET allows you to work with section features supported on OpenDocument Text import."
 type: docs
 weight: 100

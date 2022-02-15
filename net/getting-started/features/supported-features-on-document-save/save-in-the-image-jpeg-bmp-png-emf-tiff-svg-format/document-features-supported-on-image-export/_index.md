@@ -1,5 +1,7 @@
 ﻿---
-title: Document Features Supported on Image Export
+title: Document Features Supported on Image Export – Aspose.Words for .NET
+articleTitle: Document Features Supported on Image Export
+linktitle: Document Features Supported on Image Export
 description: "Aspose.Words for .NET allows you to work with document features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 30

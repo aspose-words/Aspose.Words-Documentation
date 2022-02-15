@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Ranges
+title: Working with Ranges – Aspose.Words for Python via .NET
+articleTitle: Working with Ranges
+linktitle: Working with Ranges
 description: "Work with ranges in a document using python."
 type: docs
 weight: 65

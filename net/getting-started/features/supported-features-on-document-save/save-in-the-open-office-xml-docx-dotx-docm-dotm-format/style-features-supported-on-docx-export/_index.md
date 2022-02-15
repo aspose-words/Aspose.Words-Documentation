@@ -1,5 +1,7 @@
 ﻿---
-title: Style Features Supported on DOCX Export
+title: Style Features Supported on DOCX Export – Aspose.Words for .NET
+articleTitle: Style Features Supported on DOCX Export
+linktitle: Style Features Supported on DOCX Export
 description: "Aspose.Words for .NET allows you to work with style features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 100

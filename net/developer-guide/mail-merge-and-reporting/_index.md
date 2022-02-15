@@ -1,5 +1,7 @@
 ﻿---
-title: Mail Merge and Reporting
+title: Mail Merge and Reporting – Aspose.Words for .NET
+articleTitle: Mail Merge and Reporting
+linktitle: Mail Merge and Reporting
 aliases:
   - /net/about-mail-merge/
 type: docs

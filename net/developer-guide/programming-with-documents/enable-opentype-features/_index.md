@@ -1,5 +1,7 @@
 ﻿---
-title: Enable OpenType Features
+title: Enable OpenType Features – Aspose.Words for .NET
+articleTitle: Enable OpenType Features
+linktitle: Enable OpenType Features
 description: "Advanced typography features using Aspose.Words for .Net."
 type: docs
 weight: 125

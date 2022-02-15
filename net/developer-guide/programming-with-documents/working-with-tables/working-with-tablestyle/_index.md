@@ -1,5 +1,7 @@
 ﻿---
-title: Working with TableStyle
+title: Working with TableStyle – Aspose.Words for .NET
+articleTitle: Working with TableStyle
+linktitle: Working with TableStyle
 description: "Introduction to advanced table formatting, Table styles, using Aspose.Words for .Net."
 type: docs
 weight: 30

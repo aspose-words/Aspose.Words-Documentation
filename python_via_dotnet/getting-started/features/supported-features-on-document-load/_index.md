@@ -1,5 +1,7 @@
 ﻿---
-title: Supported Features on Document Load
+title: Supported Features on Document Load – Aspose.Words for Python via .NET
+articleTitle: Supported Features on Document Load
+linktitle: Supported Features on Document Load
 description: "Load your document in any supported format using python. Import and convert a document of any size."
 type: docs
 weight: 20

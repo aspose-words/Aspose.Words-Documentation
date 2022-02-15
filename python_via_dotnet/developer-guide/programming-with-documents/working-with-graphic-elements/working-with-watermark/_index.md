@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Watermark
+title: Working with Watermark – Aspose.Words for Python via .NET
+articleTitle: Working with Watermark
+linktitle: Working with Watermark
 description: "Create and manage watermarks in a document using python."
 type: docs
 weight: 60

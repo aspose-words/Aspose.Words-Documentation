@@ -1,5 +1,7 @@
 ﻿---
-title: Developer Guide
+title: Developer Guide – Aspose.Words for .NET
+articleTitle: Developer Guide
+linktitle: Developer Guide
 description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Words for .NET features, achieve a certain document appearance, or make a use case possible."
 type: docs
 weight: 30

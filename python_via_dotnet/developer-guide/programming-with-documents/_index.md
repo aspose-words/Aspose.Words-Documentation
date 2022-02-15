@@ -1,5 +1,7 @@
 ﻿---
-title: Programming with Documents
+title: Programming with Documents – Aspose.Words for Python via .NET
+articleTitle: Programming with Documents
+linktitle: Programming with Documents
 type: docs
 description: "Use the Aspose.Words Document Object Model classes to programmatically create, modify, and manage documents with python-net. Work with document properties, settings, and content, as well as with document appearence through the management of colors, shapes, fonts and other graphics."
 weight: 60

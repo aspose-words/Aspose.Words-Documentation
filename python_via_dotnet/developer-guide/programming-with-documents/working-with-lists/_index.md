@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Lists
+title: Working with Lists – Aspose.Words for Python via .NET
+articleTitle: Working with Lists
+linktitle: Working with Lists
 description: "Create, specify formatting and restart lists in a document using python."
 type: docs
 weight: 100

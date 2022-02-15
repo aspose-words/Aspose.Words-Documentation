@@ -1,5 +1,7 @@
 ﻿---
-title: Applying Formatting
+title: Applying Formatting – Aspose.Words for Python via .NET
+articleTitle: Applying Formatting
+linktitle: Applying Formatting
 description: "Apply table and its row, column and cell formatting in a document using python."
 type: docs
 weight: 20

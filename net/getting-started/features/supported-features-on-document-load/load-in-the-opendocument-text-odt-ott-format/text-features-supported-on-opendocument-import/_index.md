@@ -1,5 +1,7 @@
 ﻿---
-title: Text Features Supported on OpenDocument Import
+title: Text Features Supported on OpenDocument Import – Aspose.Words for .NET
+articleTitle: Text Features Supported on OpenDocument Import
+linktitle: Text Features Supported on OpenDocument Import
 description: "Aspose.Words for .NET allows you to work with text features supported on OpenDocument Text import."
 type: docs
 weight: 130

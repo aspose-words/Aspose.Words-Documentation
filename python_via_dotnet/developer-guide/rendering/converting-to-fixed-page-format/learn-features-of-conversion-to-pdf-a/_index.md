@@ -1,5 +1,7 @@
 ﻿---
-title: Learn Features of Conversion to PDF/A
+title: Learn Features of Conversion to PDF/A – Aspose.Words for Python via .NET
+articleTitle: Learn Features of Conversion to PDF/A
+linktitle: Learn Features of Conversion to PDF/A
 description: "Aspose.Words for Python via .NET allows users to convert to PDF/A-1 and PDF/A-2. There are a few problems when converting to PDF/A documents, and Aspose.Words for Python via .NET solves them."
 type: docs
 weight: 25

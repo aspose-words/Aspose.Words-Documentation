@@ -1,5 +1,7 @@
 ﻿---
-title: Kentico Content Exporter Module
+title: Kentico Content Exporter Module – Aspose.Words for .NET
+articleTitle: Kentico Content Exporter Module
+linktitle: Kentico Content Exporter Module
 description: "Export online content into Word Processing or PDF document using Aspose.Words Kentico Content Exporter Module."
 type: docs
 weight: 10

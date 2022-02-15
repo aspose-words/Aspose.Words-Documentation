@@ -1,5 +1,7 @@
 ﻿---
-title: Annotation Features Supported on Rich Text Export
+title: Annotation Features Supported on Rich Text Export – Aspose.Words for .NET
+articleTitle: Annotation Features Supported on Rich Text Export
+linktitle: Annotation Features Supported on Rich Text Export
 description: "Aspose.Words for .NET allows you to work with annotation features supported when saving to Rich Text format."
 type: docs
 weight: 10

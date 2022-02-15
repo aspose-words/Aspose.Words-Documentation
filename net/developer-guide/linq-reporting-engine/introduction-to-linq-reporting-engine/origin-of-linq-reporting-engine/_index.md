@@ -1,5 +1,7 @@
 ﻿---
-title: Origin of LINQ Reporting Engine
+title: Origin of LINQ Reporting Engine – Aspose.Words for .NET
+articleTitle: Origin of LINQ Reporting Engine
+linktitle: Origin of LINQ Reporting Engine
 description: "Learn the concept of LINQ Reporting Engine to build a report C#."
 type: docs
 weight: 10

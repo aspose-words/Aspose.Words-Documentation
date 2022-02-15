@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Tables
+title: Working with Tables – Aspose.Words for Python via .NET
+articleTitle: Working with Tables
+linktitle: Working with Tables
 description: "Work with tables in a document using python."
 type: docs
 weight: 90

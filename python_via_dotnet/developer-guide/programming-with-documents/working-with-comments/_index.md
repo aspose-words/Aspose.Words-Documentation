@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Comments
+title: Working with Comments – Aspose.Words for Python via .NET
+articleTitle: Working with Comments
+linktitle: Working with Comments
 description: "Learn how to add, remove, or manipulate comments in a document using python."
 type: docs
 weight: 140

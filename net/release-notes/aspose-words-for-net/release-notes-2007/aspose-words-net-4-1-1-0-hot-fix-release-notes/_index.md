@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words .Net 4.1.1.0 Hot Fix Release Notes
+title: Aspose.Words .Net 4.1.1.0 Hot Fix Release Notes – Aspose.Words for .NET
+articleTitle: Aspose.Words .Net 4.1.1.0 Hot Fix Release Notes
+linktitle: Aspose.Words .Net 4.1.1.0 Hot Fix Release Notes
 description: "Aspose.Words .Net 4.1.1.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 200

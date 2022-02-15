@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the Adobe Portable Document (.PDF) Format
+title: Save in the Adobe Portable Document (.PDF) Format – Aspose.Words for .NET
+articleTitle: Save in the Adobe Portable Document (.PDF) Format
+linktitle: Save in the Adobe Portable Document (.PDF) Format
 description: "Aspose.Words for .NET allows you to work with various features supported when saving to PDF format."
 type: docs
 weight: 30

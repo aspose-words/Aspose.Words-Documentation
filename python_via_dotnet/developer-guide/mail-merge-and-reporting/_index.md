@@ -1,5 +1,7 @@
 ﻿---
-title: Mail Merge and Reporting
+title: Mail Merge and Reporting – Aspose.Words for Python via .NET
+articleTitle: Mail Merge and Reporting
+linktitle: Mail Merge and Reporting
 aliases:
   - /python/about-mail-merge/
   - /python/mail-merge-and-reporting/

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Footnote and Endnote
+title: Working with Footnote and Endnote – Aspose.Words for Python via .NET
+articleTitle: Working with Footnote and Endnote
+linktitle: Working with Footnote and Endnote
 description: "Aspose.Words for Python allows to insert ffotnotes or endnotes into a document and specify its options."
 type: docs
 weight: 80
