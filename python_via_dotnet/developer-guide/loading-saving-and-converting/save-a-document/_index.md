@@ -1,7 +1,7 @@
-﻿---
-title: "Save a Document" in Python
-articleTitle: "Save a Document"
-linktitle: "Save a Document"
+---
+title: Save a Document in Python
+articleTitle: Save a Document
+linktitle: Save a Document
 aliases: [/python/saving-a-document/]
 type: docs
 description: "Aspose.Words for Python via .NET enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."

@@ -1,7 +1,7 @@
-﻿---
-title: "Save a Document" in C#
-articleTitle: "Save a Document"
-linktitle: "Save a Document"
+---
+title: Save a Document in C#
+articleTitle: Save a Document
+linktitle: Save a Document
 aliases: [/net/saving-a-document/]
 type: docs
 description: "Aspose.Words for .NET enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
