@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words Java 1.0.2.0 Hot Fix Release Notes
+title: Aspose.Words Java 1.0.2.0 Hot Fix Release Notes – Aspose.Words for Java
+articleTitle: Aspose.Words Java 1.0.2.0 Hot Fix Release Notes
+linktitle: Aspose.Words Java 1.0.2.0 Hot Fix Release Notes
 description: "Aspose.Words Java 1.0.2.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70

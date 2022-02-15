@@ -1,5 +1,7 @@
 ﻿---
-title: Custom Markup Features Supported on Print Export
+title: Custom Markup Features Supported on Print Export – Aspose.Words for .NET
+articleTitle: Custom Markup Features Supported on Print Export
+linktitle: Custom Markup Features Supported on Print Export
 description: "Aspose.Words for .NET allows you to work with custom markup features supported when saving to printing device."
 type: docs
 weight: 20

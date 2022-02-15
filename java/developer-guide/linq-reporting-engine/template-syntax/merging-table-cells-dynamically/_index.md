@@ -1,5 +1,7 @@
 ﻿---
-title: Merging Table Cells Dynamically
+title: Merging Table Cells Dynamically in Java
+articleTitle: Merging Table Cells Dynamically
+linktitle: Merging Table Cells Dynamically
 description: "Merge table cells with equal textual contents when building a report Java."
 type: docs
 weight: 100

@@ -1,5 +1,7 @@
 ﻿---
-title: Field Features Supported on WordprocessingML Import
+title: Field Features Supported on WordprocessingML Import – Aspose.Words for .NET
+articleTitle: Field Features Supported on WordprocessingML Import
+linktitle: Field Features Supported on WordprocessingML Import
 description: "Aspose.Words for .NET allows you to work with field features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 50

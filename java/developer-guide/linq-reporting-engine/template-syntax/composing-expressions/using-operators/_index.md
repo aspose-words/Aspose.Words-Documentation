@@ -1,5 +1,7 @@
 ﻿---
-title: Using Operators
+title: Using Operators in Java
+articleTitle: Using Operators
+linktitle: Using Operators
 description: "Use predefined operators in template expressions when building a report Java."
 type: docs
 weight: 50

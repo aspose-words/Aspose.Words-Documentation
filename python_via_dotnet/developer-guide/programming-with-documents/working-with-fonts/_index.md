@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Fonts
+title: Working with Fonts in Python
+articleTitle: Working with Fonts
+linktitle: Working with Fonts
 description: "Aspose.Words for Python allows to customize font settings."
 type: docs
 weight: 120

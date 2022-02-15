@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words Integration in AWS Lambda
+title: Aspose.Words Integration in AWS Lambda – Aspose.Words for .NET
+articleTitle: Aspose.Words Integration in AWS Lambda
+linktitle: Aspose.Words Integration in AWS Lambda
 type: docs
 description: "You might be interested in using Aspose.Words in AWS Lambda if you are targeting to create an application in the cloud, need Aspose.Words functionality, and probably integration with other Amazon services. Learn more about using Aspose.Words for .NET when building applications for Amazon Web Services."
 keywords: "use Aspose.Words in AWS Lambda c#"

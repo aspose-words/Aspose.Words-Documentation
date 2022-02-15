@@ -1,5 +1,7 @@
 ﻿---
-title: Change or Replace Header and Footer
+title: Change or Replace Header and Footer – Aspose.Words for .NET
+articleTitle: Change or Replace Header and Footer
+linktitle: Change or Replace Header and Footer
 description: "Aspose.Words for .NET allows you to change or replace header or footer easily and fast instead of using Open XML SDK."
 type: docs
 weight: 60

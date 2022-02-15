@@ -1,5 +1,7 @@
 ﻿---
-title: LINQ Reporting Engine or Mail Merge
+title: LINQ Reporting Engine or Mail Merge in Java
+articleTitle: LINQ Reporting Engine or Mail Merge
+linktitle: LINQ Reporting Engine or Mail Merge
 type: docs
 description: "What is the difference between Mail Merge and LINQ Reporting Engine in Aspose.Words for Java and which solution is better to choose?"
 weight: 40

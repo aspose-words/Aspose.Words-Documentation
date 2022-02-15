@@ -1,5 +1,7 @@
 ﻿---
-title: Add Watermark in Python
+title: Add Watermark in Python – Aspose.Words for Java
+articleTitle: Add Watermark in Python
+linktitle: Add Watermark in Python
 description: "Python: Add Watermark using Aspose.Words for Java."
 type: docs
 weight: 80

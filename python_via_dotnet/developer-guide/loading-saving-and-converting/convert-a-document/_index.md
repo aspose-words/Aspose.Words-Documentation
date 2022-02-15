@@ -1,5 +1,7 @@
-﻿---
-title: "Convert a Document"
+---
+title: Convert a Document in Python
+articleTitle: Convert a Document
+linktitle: Convert a Document
 type: docs
 url: /python-net/convert-a-document/
 weight: 30

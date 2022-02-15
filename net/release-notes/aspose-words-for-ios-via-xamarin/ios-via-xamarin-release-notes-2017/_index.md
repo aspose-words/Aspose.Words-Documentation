@@ -1,5 +1,7 @@
 ﻿---
-title: iOS via Xamarin Release Notes - 2017
+title: iOS via Xamarin Release Notes - 2017 – Aspose.Words for .NET
+articleTitle: iOS via Xamarin Release Notes - 2017
+linktitle: iOS via Xamarin Release Notes - 2017
 description: "iOS via Xamarin Release Notes - 2017 – learn about the latest updates and fixes."
 type: docs
 weight: 10

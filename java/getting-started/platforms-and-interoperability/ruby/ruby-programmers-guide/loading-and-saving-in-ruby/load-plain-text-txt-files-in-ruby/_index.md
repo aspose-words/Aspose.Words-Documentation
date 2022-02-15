@@ -1,5 +1,7 @@
 ﻿---
-title: Load Plain Text (TXT) Files in Ruby
+title: Load Plain Text (TXT) Files in Ruby – Aspose.Words for Java
+articleTitle: Load Plain Text (TXT) Files in Ruby
+linktitle: Load Plain Text (TXT) Files in Ruby
 description: "Ruby: load TXT file and save as Word document using Aspose.Words for Java."
 type: docs
 weight: 30

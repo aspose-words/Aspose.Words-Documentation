@@ -1,5 +1,7 @@
 ﻿---
-title: Joining and Splitting Tables
+title: Joining and Splitting Tables in Java
+articleTitle: Joining and Splitting Tables
+linktitle: Joining and Splitting Tables
 description: "Advanced table manipulations, join and split using Aspose.Words for Java."
 type: docs
 weight: 90

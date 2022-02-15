@@ -1,5 +1,7 @@
 ﻿---
-title: Field Features Supported on HTML Export
+title: Field Features Supported on HTML Export – Aspose.Words for .NET
+articleTitle: Field Features Supported on HTML Export
+linktitle: Field Features Supported on HTML Export
 description: "Aspose.Words for .NET allows you to work with field features supported when saving to HTML-based format."
 type: docs
 weight: 50

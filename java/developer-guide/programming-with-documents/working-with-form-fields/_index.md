@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Form Fields
+title: Working with Form Fields in Java
+articleTitle: Working with Form Fields
+linktitle: Working with Form Fields
 description: "Understanding Form Fields feature, working with Form Fields using Aspose.Words for Java."
 type: docs
 weight: 140

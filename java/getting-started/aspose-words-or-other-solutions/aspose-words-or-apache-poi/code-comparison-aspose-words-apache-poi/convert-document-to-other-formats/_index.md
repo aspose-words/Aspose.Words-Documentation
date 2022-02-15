@@ -1,5 +1,7 @@
 ﻿---
-title: Convert Document to Other Formats
+title: Convert Document to Other Formats – Aspose.Words for Java
+articleTitle: Convert Document to Other Formats
+linktitle: Convert Document to Other Formats
 description: "Aspose.Words for Java allows you to convert a document from one format to another and fast instead of using Apache POI."
 type: docs
 weight: 30

@@ -1,5 +1,7 @@
 ﻿---
-title: Loading and Saving Documents
+title: Loading and Saving Documents – Aspose.Words for .NET
+articleTitle: Loading and Saving Documents
+linktitle: Loading and Saving Documents
 description: "Loading and saving documents using Aspose.Words for .NET in PHP projects."
 type: docs
 weight: 10

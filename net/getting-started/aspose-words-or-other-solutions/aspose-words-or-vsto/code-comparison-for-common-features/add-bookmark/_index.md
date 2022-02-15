@@ -1,5 +1,7 @@
 ﻿---
-title: Add Bookmark
+title: Add Bookmark – Aspose.Words for .NET
+articleTitle: Add Bookmark
+linktitle: Add Bookmark
 description: "Aspose.Words for .NET allows you to add a bookmark into a document easily and fast instead of using VSTO."
 type: docs
 weight: 70

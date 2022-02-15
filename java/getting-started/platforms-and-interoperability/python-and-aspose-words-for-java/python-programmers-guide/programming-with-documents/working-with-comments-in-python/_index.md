@@ -1,5 +1,7 @@
 ﻿---
-title: Working With Comments in Python
+title: Working With Comments in Python – Aspose.Words for Java
+articleTitle: Working With Comments in Python
+linktitle: Working With Comments in Python
 description: "Python: Working With Comments using Aspose.Words for Java."
 type: docs
 weight: 35

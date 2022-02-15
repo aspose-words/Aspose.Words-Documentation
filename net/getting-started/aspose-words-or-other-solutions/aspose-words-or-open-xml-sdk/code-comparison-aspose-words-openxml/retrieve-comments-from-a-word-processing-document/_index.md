@@ -1,5 +1,7 @@
 ﻿---
-title: Retrieve Comments from a Document
+title: Retrieve Comments from a Document – Aspose.Words for .NET
+articleTitle: Retrieve Comments from a Document
+linktitle: Retrieve Comments from a Document
 description: "Aspose.Words for .NET allows you to retrieve comments from a word processing  document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 190

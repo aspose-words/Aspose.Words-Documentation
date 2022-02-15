@@ -1,5 +1,7 @@
 ﻿---
-title: Using DocumentBuilder to Modify a Document Easily
+title: Using DocumentBuilder to Modify a Document Easily in C++
+articleTitle: Using DocumentBuilder to Modify a Document Easily
+linktitle: Using DocumentBuilder to Modify a Document Easily
 type: docs
 weight: 190
 url: /cpp/using-documentbuilder-to-modify-a-document-easily/

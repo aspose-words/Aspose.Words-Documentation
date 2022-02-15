@@ -1,5 +1,7 @@
 ﻿---
-title: Introduction to LINQ Reporting Engine
+title: Introduction to LINQ Reporting Engine in C#
+articleTitle: Introduction to LINQ Reporting Engine
+linktitle: Introduction to LINQ Reporting Engine
 description: "Overview LINQ Reporting Engine to build a report C#."
 type: docs
 weight: 10

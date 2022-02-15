@@ -1,5 +1,7 @@
 ﻿---
 title: Document Comparison by Aspose.Words for .NET
+articleTitle: Document Comparison by Aspose.Words for .NET
+linktitle: Document Comparison by Aspose.Words for .NET
 description: "Investigate a showcase for Comparing Documents with Aspose.Words for .NET."
 type: docs
 weight: 10

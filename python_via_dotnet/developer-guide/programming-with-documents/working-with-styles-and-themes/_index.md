@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Styles and Themes
+title: Working with Styles and Themes in Python
+articleTitle: Working with Styles and Themes
+linktitle: Working with Styles and Themes
 description: "Access and manage styles and themes in a document using python."
 type: docs
 weight: 40

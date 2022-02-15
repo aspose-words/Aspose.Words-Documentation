@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Lists
+title: Working with Lists in C#
+articleTitle: Working with Lists
+linktitle: Working with Lists
 description: "Introduction to numbering formatting feature in Aspose.Words for .Net."
 type: docs
 weight: 100

@@ -1,5 +1,7 @@
 ﻿---
-title: Installing and Using Aspose.Words for IntelliJ IDEA - Maven
+title: Installing and Using Aspose.Words for IntelliJ IDEA - Maven – Aspose.Words for Java
+articleTitle: Installing and Using Aspose.Words for IntelliJ IDEA - Maven
+linktitle: Installing and Using Aspose.Words for IntelliJ IDEA - Maven
 description: "IntelliJ IDEA: Installing and Using Aspose.Words for Java."
 type: docs
 weight: 20

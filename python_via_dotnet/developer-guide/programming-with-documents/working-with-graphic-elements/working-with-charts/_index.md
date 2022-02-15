@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Charts
+title: Working with Charts in Python
+articleTitle: Working with Charts
+linktitle: Working with Charts
 description: "Create and modify charts of various types in a document using python."
 type: docs
 weight: 50

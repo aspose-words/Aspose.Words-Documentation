@@ -1,5 +1,7 @@
 ﻿---
-title: Appendix A. Enumeration Extension Methods
+title: Appendix A. Enumeration Extension Methods in C#
+articleTitle: Appendix A. Enumeration Extension Methods
+linktitle: Appendix A. Enumeration Extension Methods
 description: "Use built-in extension methods to perform common manipulations on a sequential data when building a report C#."
 type: docs
 weight: 50

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Table of Contents
+title: Working with Table of Contents in C#
+articleTitle: Working with Table of Contents
+linktitle: Working with Table of Contents
 description: "Table of Content field in details. How to create and modify TOC field using Aspose.Words for .Net."
 type: docs
 weight: 83

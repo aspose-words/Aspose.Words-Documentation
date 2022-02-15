@@ -1,5 +1,7 @@
 ﻿---
-title: How to Use Aspose.Words Instead of Apache POI
+title: How to Use Aspose.Words Instead of Apache POI – Aspose.Words for Java
+articleTitle: How to Use Aspose.Words Instead of Apache POI
+linktitle: How to Use Aspose.Words Instead of Apache POI
 description: "Learn how to download and install Aspose.Words for Java and what prerequisites have to be met to work with Aspose.Words instead of Apache POI."
 type: docs
 weight: 5

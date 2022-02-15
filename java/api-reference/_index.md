@@ -1,5 +1,7 @@
 ﻿---
-title: API Reference
+title: API Reference – Aspose.Words for Java
+articleTitle: API Reference
+linktitle: API Reference
 type: docs
 weight: 30
 description: "Learn an explanation and examples of Aspose.Words for Java classes and methods to generate, convert, modify, render, and print documents without using Microsoft Word."

@@ -1,5 +1,7 @@
-﻿---
-title: "Create or Load a Document"
+---
+title: Create or Load a Document in C#
+articleTitle: Create or Load a Document
+linktitle: Create or Load a Document
 type: docs
 url: /net/create-or-load-a-document/
 aliases: [/net/creating-or-loading-a-document/]

@@ -1,5 +1,7 @@
 ﻿---
-title: Eclipse - Maven
+title: Eclipse - Maven – Aspose.Words for Java
+articleTitle: Eclipse - Maven
+linktitle: Eclipse - Maven
 description: "Aspose.Words Java for Eclipse."
 type: docs
 weight: 100

@@ -1,5 +1,7 @@
 ﻿---
-title: Converting to Fixed-page Format
+title: Converting to Fixed-page Format in Python
+articleTitle: Converting to Fixed-page Format
+linktitle: Converting to Fixed-page Format
 description: "Aspose.Words for Python via .NET implements its own page layout engine to describe the geometry and position of objects on document pages. This allows you to save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."
 type: docs
 weight: 10

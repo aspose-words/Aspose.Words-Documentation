@@ -1,5 +1,7 @@
 ﻿---
-title: Numbering Features Supported on Rich Text Import
+title: Numbering Features Supported on Rich Text Import – Aspose.Words for Java
+articleTitle: Numbering Features Supported on Rich Text Import
+linktitle: Numbering Features Supported on Rich Text Import
 description: "Aspose.Words for Java allows you to work with numbering features supported on Rich Text import."
 type: docs
 weight: 70

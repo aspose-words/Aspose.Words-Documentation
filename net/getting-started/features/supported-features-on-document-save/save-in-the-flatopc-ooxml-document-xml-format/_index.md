@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the FlatOPC OOXML Document (.XML) Format
+title: Save in the FlatOPC OOXML Document (.XML) Format – Aspose.Words for .NET
+articleTitle: Save in the FlatOPC OOXML Document (.XML) Format
+linktitle: Save in the FlatOPC OOXML Document (.XML) Format
 description: "Aspose.Words for .NET allows you to work with various features supported when saving to FlatOPC – XML format."
 type: docs
 weight: 40

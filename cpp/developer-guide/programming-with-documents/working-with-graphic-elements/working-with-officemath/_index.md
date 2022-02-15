@@ -1,5 +1,7 @@
 ﻿---
-title: Working with OfficeMath
+title: Working with OfficeMath in C++
+articleTitle: Working with OfficeMath
+linktitle: Working with OfficeMath
 type: docs
 weight: 30
 url: /cpp/working-with-officemath/

@@ -1,5 +1,7 @@
 ﻿---
-title: Annotation Features Supported on Print Export
+title: Annotation Features Supported on Print Export – Aspose.Words for Java
+articleTitle: Annotation Features Supported on Print Export
+linktitle: Annotation Features Supported on Print Export
 description: "Aspose.Words for Java allows you to work with annotation features supported when saving to printing device."
 type: docs
 weight: 10

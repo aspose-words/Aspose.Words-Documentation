@@ -1,5 +1,7 @@
 ﻿---
-title: Contents Management
+title: Contents Management in Python
+articleTitle: Contents Management
+linktitle: Contents Management
 description: "How to extract and manage document contents programmatically using python."
 type: docs
 weight: 190

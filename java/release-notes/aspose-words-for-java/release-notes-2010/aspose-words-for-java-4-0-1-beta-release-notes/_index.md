@@ -1,5 +1,7 @@
 ﻿---
 title: Aspose.Words for Java 4.0.1 BETA Release Notes
+articleTitle: Aspose.Words for Java 4.0.1 BETA Release Notes
+linktitle: Aspose.Words for Java 4.0.1 BETA Release Notes
 description: "Aspose.Words for Java 4.0.1 BETA Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20

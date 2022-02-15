@@ -1,5 +1,7 @@
 ﻿---
-title: Use DocumentBuilder to Insert Document Elements
+title: Use DocumentBuilder to Insert Document Elements in C++
+articleTitle: Use DocumentBuilder to Insert Document Elements
+linktitle: Use DocumentBuilder to Insert Document Elements
 type: docs
 weight: 80
 url: /cpp/use-documentbuilder-to-insert-document-elements/

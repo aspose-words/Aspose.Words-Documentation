@@ -1,5 +1,7 @@
 ﻿---
-title: Printing a Document Programmatically or Using Dialogs
+title: Printing a Document Programmatically or Using Dialogs in C#
+articleTitle: Printing a Document Programmatically or Using Dialogs
+linktitle: Printing a Document Programmatically or Using Dialogs
 description: "Aspose.Words for .NET enables you to print a document on a Server using the unmanaged XpsPrint API or via a selected printer with Settings and Print Preview Dialogs."
 type: docs
 weight: 55

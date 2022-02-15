@@ -1,5 +1,7 @@
 ﻿---
-title: Nested Mail Merge with Regions
+title: Nested Mail Merge with Regions in Java
+articleTitle: Nested Mail Merge with Regions
+linktitle: Nested Mail Merge with Regions
 aliases:
   - /java/nested-mail-merge-regions//
   - /java/how-to-set-up-relations-for-use-in-nested-mail-merge-with-regions/

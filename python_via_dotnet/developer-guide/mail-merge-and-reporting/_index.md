@@ -1,5 +1,7 @@
 ﻿---
-title: Mail Merge and Reporting
+title: Mail Merge and Reporting in Python
+articleTitle: Mail Merge and Reporting
+linktitle: Mail Merge and Reporting
 aliases:
   - /python/about-mail-merge/
   - /python/mail-merge-and-reporting/

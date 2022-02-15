@@ -1,5 +1,7 @@
 ﻿---
-title: Specify Save Options
+title: Specify Save Options in Python
+articleTitle: Specify Save Options
+linktitle: Specify Save Options
 description: "Aspose.Words for Python via .NET enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."
 type: docs
 weight: 10

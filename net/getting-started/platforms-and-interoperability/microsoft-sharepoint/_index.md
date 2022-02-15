@@ -1,5 +1,7 @@
 ﻿---
-title: Microsoft SharePoint
+title: Microsoft SharePoint – Aspose.Words for .NET
+articleTitle: Microsoft SharePoint
+linktitle: Microsoft SharePoint
 description: "How to use Aspose.Words with Microsoft SharePoint."
 type: docs
 weight: 60

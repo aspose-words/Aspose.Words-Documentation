@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words or NPOI
+title: Aspose.Words or NPOI – Aspose.Words for .NET
+articleTitle: Aspose.Words or NPOI
+linktitle: Aspose.Words or NPOI
 description: "Aspose.Words for .NET is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than NPOI."
 type: docs
 weight: 40

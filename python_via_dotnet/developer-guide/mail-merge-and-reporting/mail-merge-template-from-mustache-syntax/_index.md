@@ -1,5 +1,7 @@
 ﻿---
-title: Mail Merge Template from Mustache Syntax
+title: Mail Merge Template from Mustache Syntax in Python
+articleTitle: Mail Merge Template from Mustache Syntax
+linktitle: Mail Merge Template from Mustache Syntax
 type: docs
 description: "Aspose.Words for Python via .NET allows you to create templates with mustache syntax – an alternative variant of syntax that consists of tag names enclosed by {{ }}. Mustache syntax is the only option to use with templates that do not contain fields (HTML or TXT). With Word templates, you have two options: fields or Mustache syntax."
 keywords: "mail merge template mustache syntax python"

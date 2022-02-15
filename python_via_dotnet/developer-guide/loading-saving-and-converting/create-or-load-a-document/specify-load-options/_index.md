@@ -1,5 +1,7 @@
 ﻿---
-title: Specify Load Options
+title: Specify Load Options in Python
+articleTitle: Specify Load Options
+linktitle: Specify Load Options
 description: "Aspose.Words for Python via .NET enables you to set advanced properties when loading a document. This allows you to more accurately control the load process."
 type: docs
 weight: 10

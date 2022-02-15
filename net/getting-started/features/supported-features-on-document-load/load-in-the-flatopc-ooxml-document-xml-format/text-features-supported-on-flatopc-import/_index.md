@@ -1,5 +1,7 @@
 ﻿---
-title: Text Features Supported on FlatOPC Import
+title: Text Features Supported on FlatOPC Import – Aspose.Words for .NET
+articleTitle: Text Features Supported on FlatOPC Import
+linktitle: Text Features Supported on FlatOPC Import
 description: "Aspose.Words for .NET allows you to work with text features supported on FlatOPC format import."
 type: docs
 weight: 130

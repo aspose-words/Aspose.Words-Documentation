@@ -1,5 +1,7 @@
 ﻿---
-title: Nested Mail Merge with Regions
+title: Nested Mail Merge with Regions in C#
+articleTitle: Nested Mail Merge with Regions
+linktitle: Nested Mail Merge with Regions
 aliases:
   - /net/how-to-use-nested-mail-merge-regions/
   - /net/how-to-set-up-relations-for-use-in-nested-mail-merge-with-regions/

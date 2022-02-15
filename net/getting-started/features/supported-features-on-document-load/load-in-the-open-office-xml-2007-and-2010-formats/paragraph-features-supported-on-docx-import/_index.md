@@ -1,5 +1,7 @@
 ﻿---
-title: Paragraph Features Supported on DOCX Import
+title: Paragraph Features Supported on DOCX Import – Aspose.Words for .NET
+articleTitle: Paragraph Features Supported on DOCX Import
+linktitle: Paragraph Features Supported on DOCX Import
 description: "Aspose.Words for .NET allows you to work with paragraph features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 90

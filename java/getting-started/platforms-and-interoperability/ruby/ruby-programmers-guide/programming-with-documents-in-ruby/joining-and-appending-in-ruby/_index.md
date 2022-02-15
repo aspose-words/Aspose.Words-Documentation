@@ -1,5 +1,7 @@
 ﻿---
-title: Joining And Appending in Ruby
+title: Joining And Appending in Ruby – Aspose.Words for Java
+articleTitle: Joining And Appending in Ruby
+linktitle: Joining And Appending in Ruby
 description: "Ruby: joining and appending Documents using Aspose.Words for Java."
 type: docs
 weight: 10

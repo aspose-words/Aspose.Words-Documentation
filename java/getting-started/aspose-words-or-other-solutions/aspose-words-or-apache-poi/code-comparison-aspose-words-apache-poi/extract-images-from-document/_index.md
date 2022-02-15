@@ -1,5 +1,7 @@
 ﻿---
-title: Extract Images from Document
+title: Extract Images from Document – Aspose.Words for Java
+articleTitle: Extract Images from Document
+linktitle: Extract Images from Document
 description: "Aspose.Words for Java allows you to extract images from a document easily and fast instead of using Apache POI."
 type: docs
 weight: 30

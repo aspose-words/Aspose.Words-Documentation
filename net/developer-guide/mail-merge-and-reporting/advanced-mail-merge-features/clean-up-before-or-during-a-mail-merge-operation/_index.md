@@ -1,5 +1,7 @@
 ﻿---
-title: Clean Up Before or During a Mail Merge Operation
+title: Clean Up Before or During a Mail Merge Operation in C#
+articleTitle: Clean Up Before or During a Mail Merge Operation
+linktitle: Clean Up Before or During a Mail Merge Operation
 aliases:
   - /net/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/
 type: docs

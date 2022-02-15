@@ -1,5 +1,7 @@
 ﻿---
-title: Working with OfficeMath
+title: Working with OfficeMath in Python
+articleTitle: Working with OfficeMath
+linktitle: Working with OfficeMath
 description: "Create and manage OfficeMath Type Objects in a document using python."
 type: docs
 weight: 30

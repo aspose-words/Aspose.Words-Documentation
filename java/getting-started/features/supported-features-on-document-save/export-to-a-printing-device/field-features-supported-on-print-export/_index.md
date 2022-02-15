@@ -1,5 +1,7 @@
 ﻿---
-title: Field Features Supported on Print Export
+title: Field Features Supported on Print Export – Aspose.Words for Java
+articleTitle: Field Features Supported on Print Export
+linktitle: Field Features Supported on Print Export
 description: "Aspose.Words for Java allows you to work with field features supported when saving to printing device."
 type: docs
 weight: 60

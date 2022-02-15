@@ -1,5 +1,7 @@
 ﻿---
-title: Compare Documents
+title: Compare Documents in C++
+articleTitle: Compare Documents
+linktitle: Compare Documents
 type: docs
 description: "Aspose.Words for C++ allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 weight: 50

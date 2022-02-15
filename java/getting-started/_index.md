@@ -1,5 +1,7 @@
 ﻿---
-title: Getting Started
+title: Getting Started – Aspose.Words for Java
+articleTitle: Getting Started
+linktitle: Getting Started
 type: docs
 description: "Use this introduction to Aspose.Words for Java fundamentals to start realizing the value of Aspose.Words for your business."
 weight: 10

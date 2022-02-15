@@ -1,5 +1,7 @@
 ﻿---
-title: Print Documents
+title: Print Documents – Aspose.Words for .NET
+articleTitle: Print Documents
+linktitle: Print Documents
 description: "Aspose.Words for .NET allows you to print a document easily and fast instead of using VSTO."
 type: docs
 weight: 100

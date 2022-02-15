@@ -1,5 +1,7 @@
 ﻿---
-title: Extract Content in Ruby
+title: Extract Content in Ruby – Aspose.Words for Java
+articleTitle: Extract Content in Ruby
+linktitle: Extract Content in Ruby
 description: "Ruby: extract contents from Word document using Aspose.Words for Java."
 type: docs
 weight: 10

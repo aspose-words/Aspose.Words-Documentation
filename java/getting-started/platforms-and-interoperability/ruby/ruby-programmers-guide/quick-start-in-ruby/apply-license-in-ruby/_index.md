@@ -1,5 +1,7 @@
 ﻿---
-title: Apply License in Ruby
+title: Apply License in Ruby – Aspose.Words for Java
+articleTitle: Apply License in Ruby
+linktitle: Apply License in Ruby
 description: "Ruby: apply License to Aspose.Words for Java."
 type: docs
 weight: 20

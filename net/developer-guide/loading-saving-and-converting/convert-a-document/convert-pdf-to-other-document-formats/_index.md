@@ -1,5 +1,7 @@
 ﻿---
-title: Convert PDF to Other Document Formats
+title: Convert PDF to Other Document Formats in C#
+articleTitle: Convert PDF to Other Document Formats
+linktitle: Convert PDF to Other Document Formats
 type: docs
 description: “Aspose.Words for .NET allows you to convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose.Words.”
 keywords: convert pdf to other formats c#

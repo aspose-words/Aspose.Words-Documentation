@@ -1,5 +1,7 @@
 ﻿---
-title: PHP Programmers Guide
+title: PHP Programmers Guide – Aspose.Words for Java
+articleTitle: PHP Programmers Guide
+linktitle: PHP Programmers Guide
 description: "PHP + Aspose.Words for Java: Programmers Guide."
 type: docs
 weight: 20

@@ -1,5 +1,7 @@
 ﻿---
-title: Custom Markup Features Supported on DOCX Import
+title: Custom Markup Features Supported on DOCX Import – Aspose.Words for .NET
+articleTitle: Custom Markup Features Supported on DOCX Import
+linktitle: Custom Markup Features Supported on DOCX Import
 description: "Aspose.Words for .NET allows you to work with custom markup features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 20

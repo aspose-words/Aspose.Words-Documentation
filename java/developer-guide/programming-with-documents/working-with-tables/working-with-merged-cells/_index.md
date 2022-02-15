@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Merged Cells
+title: Working with Merged Cells in Java
+articleTitle: Working with Merged Cells
+linktitle: Working with Merged Cells
 description: "Introduction to Merged Cells feature in Aspose.Words for Java."
 type: docs
 weight: 70

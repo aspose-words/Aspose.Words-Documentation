@@ -1,5 +1,7 @@
 ﻿---
-title: Working With Images in Ruby
+title: Working With Images in Ruby – Aspose.Words for Java
+articleTitle: Working With Images in Ruby
+linktitle: Working With Images in Ruby
 description: "Ruby: working with Document's Images using Aspose.Words for Java."
 type: docs
 weight: 60

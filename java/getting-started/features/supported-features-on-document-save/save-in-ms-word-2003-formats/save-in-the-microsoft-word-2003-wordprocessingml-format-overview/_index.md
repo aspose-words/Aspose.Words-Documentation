@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the Microsoft Word 2003 WordprocessingML Format Overview
+title: Save in the Microsoft Word 2003 WordprocessingML Format Overview – Aspose.Words for Java
+articleTitle: Save in the Microsoft Word 2003 WordprocessingML Format Overview
+linktitle: Save in the Microsoft Word 2003 WordprocessingML Format Overview
 description: "Aspose.Words for Java allows you to work with different features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 90

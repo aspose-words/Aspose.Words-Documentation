@@ -1,5 +1,7 @@
 ﻿---
-title: Paragraph Features Supported on OpenDocument Export
+title: Paragraph Features Supported on OpenDocument Export – Aspose.Words for Java
+articleTitle: Paragraph Features Supported on OpenDocument Export
+linktitle: Paragraph Features Supported on OpenDocument Export
 description: "Aspose.Words for Java allows you to work with paragraph features supported when saving to OpenDocument Text format."
 type: docs
 weight: 80

@@ -1,5 +1,7 @@
 ﻿---
-title: Inserting Fields
+title: Inserting Fields in C++
+articleTitle: Inserting Fields
+linktitle: Inserting Fields
 description: "Different ways to insert fields into your document using Aspose.Words for C++."
 type: docs
 weight: 20

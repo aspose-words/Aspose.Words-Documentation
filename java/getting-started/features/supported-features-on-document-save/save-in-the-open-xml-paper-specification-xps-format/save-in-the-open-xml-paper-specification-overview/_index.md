@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the Open XML Paper Specification Overview
+title: Save in the Open XML Paper Specification Overview – Aspose.Words for Java
+articleTitle: Save in the Open XML Paper Specification Overview
+linktitle: Save in the Open XML Paper Specification Overview
 description: "Aspose.Words for Java allows you to work with different features supported when saving to XPS format."
 type: docs
 weight: 90

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Headers and Footers
+title: Working with Headers and Footers in C++
+articleTitle: Working with Headers and Footers
+linktitle: Working with Headers and Footers
 description: "How to manipulate with headers/footers using Aspose.Words for C++."
 type: docs
 aliases:

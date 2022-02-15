@@ -1,5 +1,7 @@
 ﻿---
-title: Outputting Expression Results
+title: Outputting Expression Results in C#
+articleTitle: Outputting Expression Results
+linktitle: Outputting Expression Results
 description: "Output expression results using placeholder within a template when building a report C#."
 type: docs
 weight: 20

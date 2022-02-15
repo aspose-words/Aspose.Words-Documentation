@@ -1,5 +1,7 @@
 ﻿---
-title: Mail Merge and Reporting
+title: Mail Merge and Reporting in Java
+articleTitle: Mail Merge and Reporting
+linktitle: Mail Merge and Reporting
 aliases:
     - /java/about-mail-merge/
 type: docs

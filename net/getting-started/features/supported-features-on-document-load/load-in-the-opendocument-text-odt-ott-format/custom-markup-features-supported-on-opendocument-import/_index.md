@@ -1,5 +1,7 @@
 ﻿---
-title: Custom Markup Features Supported on OpenDocument Import
+title: Custom Markup Features Supported on OpenDocument Import – Aspose.Words for .NET
+articleTitle: Custom Markup Features Supported on OpenDocument Import
+linktitle: Custom Markup Features Supported on OpenDocument Import
 description: "Aspose.Words for .NET allows you to work with custom markup features supported on OpenDocument Text import."
 type: docs
 weight: 20

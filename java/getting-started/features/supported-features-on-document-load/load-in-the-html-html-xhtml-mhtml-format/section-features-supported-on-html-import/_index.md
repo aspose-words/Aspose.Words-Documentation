@@ -1,5 +1,7 @@
 ﻿---
-title: Section Features Supported on HTML Import
+title: Section Features Supported on HTML Import – Aspose.Words for Java
+articleTitle: Section Features Supported on HTML Import
+linktitle: Section Features Supported on HTML Import
 description: "Aspose.Words for Java allows you to work with section features supported on HTML-based format import."
 type: docs
 weight: 90

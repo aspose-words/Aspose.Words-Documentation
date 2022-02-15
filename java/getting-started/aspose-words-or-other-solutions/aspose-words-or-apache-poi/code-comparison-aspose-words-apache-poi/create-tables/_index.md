@@ -1,5 +1,7 @@
 ﻿---
-title: Create Tables
+title: Create Tables – Aspose.Words for Java
+articleTitle: Create Tables
+linktitle: Create Tables
 description: "Aspose.Words for Java allows you to create tables inside a document easily and fast instead of using Apache POI."
 type: docs
 weight: 10

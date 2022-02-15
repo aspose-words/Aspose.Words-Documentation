@@ -1,5 +1,7 @@
 ﻿---
-title: Installation
+title: Installation – Aspose.Words for Python via .NET
+articleTitle: Installation
+linktitle: Installation
 description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set."
 type: docs
 weight: 90

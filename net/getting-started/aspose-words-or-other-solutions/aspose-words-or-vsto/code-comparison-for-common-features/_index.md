@@ -1,5 +1,7 @@
 ﻿---
-title: Code Comparison for Common Features
+title: Code Comparison for Common Features – Aspose.Words for .NET
+articleTitle: Code Comparison for Common Features
+linktitle: Code Comparison for Common Features
 description: "Take a look at code comparison of some features implemented in Aspose.Words for .NET and VSTO."
 type: docs
 weight: 10

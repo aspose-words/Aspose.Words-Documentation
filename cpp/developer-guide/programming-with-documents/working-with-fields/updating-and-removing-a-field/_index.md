@@ -1,5 +1,7 @@
 ﻿---
-title: Updating and Removing a Field
+title: Updating and Removing a Field in C++
+articleTitle: Updating and Removing a Field
+linktitle: Updating and Removing a Field
 description: "Fields updating in details using Aspose.Words for C++."
 type: docs
 weight: 30

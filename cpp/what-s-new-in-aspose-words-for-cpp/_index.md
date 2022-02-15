@@ -1,5 +1,7 @@
 ﻿---
 title: What's new in Aspose.Words for C++
+articleTitle: What's new in Aspose.Words for C++
+linktitle: What's new in Aspose.Words for C++
 type: docs
 description: "Aspose.Words for C++ expands and enhances daily. On this page, you can learn about the huge and most interesting features of the product."
 weight: 2

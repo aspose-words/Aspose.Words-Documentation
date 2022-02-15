@@ -1,5 +1,7 @@
 ﻿---
-title: Introduction to Fields
+title: Introduction to Fields in Java
+articleTitle: Introduction to Fields
+linktitle: Introduction to Fields
 description: "Fields feature in details, field codes and field results explained in Aspose.Words for Java."
 type: docs
 weight: 10

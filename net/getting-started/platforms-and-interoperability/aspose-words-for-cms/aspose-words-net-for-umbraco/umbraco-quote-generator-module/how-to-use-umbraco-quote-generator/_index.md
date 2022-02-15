@@ -1,5 +1,7 @@
 ﻿---
-title: Using and Video Demo for Umbraco Quote Generator
+title: Using and Video Demo for Umbraco Quote Generator – Aspose.Words for .NET
+articleTitle: Using and Video Demo for Umbraco Quote Generator
+linktitle: Using and Video Demo for Umbraco Quote Generator
 description: "Generate Quotes in your Umbraco site using the powerful features of Aspose.Words for .NET."
 type: docs
 weight: 10

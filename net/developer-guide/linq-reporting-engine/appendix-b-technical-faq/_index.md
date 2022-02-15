@@ -1,5 +1,7 @@
 ﻿---
-title: Appendix B. Technical FAQ
+title: Appendix B. Technical FAQ in C#
+articleTitle: Appendix B. Technical FAQ
+linktitle: Appendix B. Technical FAQ
 description: "Learn the LINQ Reporting Engine FAQ to build a report C#."
 type: docs
 weight: 60

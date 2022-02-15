@@ -1,5 +1,7 @@
 ﻿---
-title: Load in the HTML Format Overview
+title: Load in the HTML Format Overview – Aspose.Words for .NET
+articleTitle: Load in the HTML Format Overview
+linktitle: Load in the HTML Format Overview
 description: "Aspose.Words for .NET allows you to work with various features supported on HTML-based format import."
 type: docs
 weight: 70

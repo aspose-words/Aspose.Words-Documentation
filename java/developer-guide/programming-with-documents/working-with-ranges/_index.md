@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Ranges
+title: Working with Ranges in Java
+articleTitle: Working with Ranges
+linktitle: Working with Ranges
 description: "Introduction to Range feature in Aspose.Words for Java."
 type: docs
 weight: 35

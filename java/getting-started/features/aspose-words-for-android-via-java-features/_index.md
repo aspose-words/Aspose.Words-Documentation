@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words for Android via Java Features
+title: Aspose.Words for Android via Java Features – Aspose.Words for Java
+articleTitle: Aspose.Words for Android via Java Features
+linktitle: Aspose.Words for Android via Java Features
 description: "This section provides a comparison of availability of features between Aspose.Words for Java and Aspose.Words for Android via Java."
 type: docs
 weight: 90

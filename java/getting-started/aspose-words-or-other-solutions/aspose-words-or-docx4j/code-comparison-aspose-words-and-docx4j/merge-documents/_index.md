@@ -1,5 +1,7 @@
 ﻿---
-title: Merge Documents
+title: Merge Documents – Aspose.Words for Java
+articleTitle: Merge Documents
+linktitle: Merge Documents
 description: "Aspose.Words for Java allows you to merge documents easily and fast instead of using docx4j."
 type: docs
 weight: 90

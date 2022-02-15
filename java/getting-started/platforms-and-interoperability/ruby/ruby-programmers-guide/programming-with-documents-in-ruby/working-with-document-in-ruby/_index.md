@@ -1,5 +1,7 @@
 ﻿---
-title: Working With Document in Ruby
+title: Working With Document in Ruby – Aspose.Words for Java
+articleTitle: Working With Document in Ruby
+linktitle: Working With Document in Ruby
 description: "Ruby: working with Document using Aspose.Words for Java."
 type: docs
 weight: 40

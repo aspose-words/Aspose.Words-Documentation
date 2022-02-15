@@ -1,5 +1,7 @@
 ﻿---
-title: How to use the Examples
+title: How to use the Examples – Aspose.Words for Java
+articleTitle: How to use the Examples
+linktitle: How to use the Examples
 description: "How to run Aspose.Words for Android via Java examples."
 type: docs
 weight: 30

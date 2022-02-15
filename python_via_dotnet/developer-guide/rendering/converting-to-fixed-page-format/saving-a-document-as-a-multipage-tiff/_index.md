@@ -1,5 +1,7 @@
 ﻿---
-title: Saving a Document as a Multipage TIFF
+title: Saving a Document as a Multipage TIFF in Python
+articleTitle: Saving a Document as a Multipage TIFF
+linktitle: Saving a Document as a Multipage TIFF
 description: "Aspose.Words for Python via .NET enables you to convert a document to a multi-page TIFF. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
 weight: 30

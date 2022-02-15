@@ -1,5 +1,7 @@
 ﻿---
-title: Encrypt a Document
+title: Encrypt a Document in C++
+articleTitle: Encrypt a Document
+linktitle: Encrypt a Document
 description: "Aspose.Words for C++ allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20

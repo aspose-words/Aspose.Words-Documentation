@@ -1,5 +1,7 @@
 ﻿---
-title: Annotation Features Supported on Rich Text Import
+title: Annotation Features Supported on Rich Text Import – Aspose.Words for Java
+articleTitle: Annotation Features Supported on Rich Text Import
+linktitle: Annotation Features Supported on Rich Text Import
 description: "Aspose.Words for Java allows you to work with annotation features supported on Rich Text import."
 type: docs
 weight: 10

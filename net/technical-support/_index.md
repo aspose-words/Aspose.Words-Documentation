@@ -1,5 +1,7 @@
 ---
 title: Technical Support – Aspose.Words for .NET
+articleTitle: Technical Support – Aspose.Words for .NET
+linktitle: Technical Support – Aspose.Words for .NET
 articleTitle: Technical Support
 linktitle: Technical Support
 type: docs

@@ -1,5 +1,7 @@
 ﻿---
-title: Section Features Supported on Print Export
+title: Section Features Supported on Print Export – Aspose.Words for .NET
+articleTitle: Section Features Supported on Print Export
+linktitle: Section Features Supported on Print Export
 description: "Aspose.Words for .NET allows you to work with section features supported when saving to printing device."
 type: docs
 weight: 90

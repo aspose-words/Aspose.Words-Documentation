@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the IDPF EPUB Document Format Overview
+title: Save in the IDPF EPUB Document Format Overview – Aspose.Words for Java
+articleTitle: Save in the IDPF EPUB Document Format Overview
+linktitle: Save in the IDPF EPUB Document Format Overview
 description: "Aspose.Words for Java allows you to work with different features supported when saving to EPUB format."
 type: docs
 weight: 90

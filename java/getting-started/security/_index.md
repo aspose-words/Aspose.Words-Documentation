@@ -1,5 +1,7 @@
 ﻿---
-title: Security Notes
+title: Security Notes – Aspose.Words for Java
+articleTitle: Security Notes
+linktitle: Security Notes
 type: docs
 description: "Aspose.Words for Java recognizes and adheres to common security standards to ensure a high level of data security. Look at possible security issues and recommendations on how to avoid them."
 weight: 120
