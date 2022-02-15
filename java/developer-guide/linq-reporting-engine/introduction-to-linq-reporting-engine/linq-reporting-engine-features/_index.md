@@ -1,5 +1,7 @@
 ﻿---
-title: LINQ Reporting Engine Features
+title: LINQ Reporting Engine Features – Aspose.Words for Java
+articleTitle: LINQ Reporting Engine Features
+linktitle: LINQ Reporting Engine Features
 description: "Learn the powerful LINQ Reporting Engine features to build a report Java."
 type: docs
 weight: 20

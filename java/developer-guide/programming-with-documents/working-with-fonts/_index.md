@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Fonts
+title: Working with Fonts – Aspose.Words for Java
+articleTitle: Working with Fonts
+linktitle: Working with Fonts
 description: "Font formatting in details using Aspose.Words for Java."
 type: docs
 weight: 90

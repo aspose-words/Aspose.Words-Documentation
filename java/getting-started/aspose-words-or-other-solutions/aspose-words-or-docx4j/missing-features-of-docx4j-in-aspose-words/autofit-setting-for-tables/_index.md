@@ -1,5 +1,7 @@
 ﻿---
-title: Autofit Setting for Tables
+title: Autofit Setting for Tables – Aspose.Words for Java
+articleTitle: Autofit Setting for Tables
+linktitle: Autofit Setting for Tables
 description: "Aspose.Words for Java allows to autofit settings to tables. Docx4j does not provide an opportunity to autofit settings to tables."
 type: docs
 weight: 20

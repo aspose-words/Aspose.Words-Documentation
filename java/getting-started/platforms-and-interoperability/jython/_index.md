@@ -1,5 +1,7 @@
 ﻿---
-title: Jython
+title: Jython – Aspose.Words for Java
+articleTitle: Jython
+linktitle: Jython
 description: "Using Aspose.Words for Java from Jython."
 type: docs
 weight: 55

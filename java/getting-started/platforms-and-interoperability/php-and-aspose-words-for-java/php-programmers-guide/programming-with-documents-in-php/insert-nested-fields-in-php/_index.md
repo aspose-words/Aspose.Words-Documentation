@@ -1,5 +1,7 @@
 ﻿---
-title: Insert Nested Fields in PHP
+title: Insert Nested Fields in PHP – Aspose.Words for Java
+articleTitle: Insert Nested Fields in PHP
+linktitle: Insert Nested Fields in PHP
 description: "PHP: Insert Nested Fields using Aspose.Words for Java."
 type: docs
 weight: 40

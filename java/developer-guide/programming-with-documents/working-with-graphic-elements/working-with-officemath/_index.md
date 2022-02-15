@@ -1,5 +1,7 @@
 ﻿---
-title: Working with OfficeMath
+title: Working with OfficeMath – Aspose.Words for Java
+articleTitle: Working with OfficeMath
+linktitle: Working with OfficeMath
 type: docs
 weight: 30
 url: /java/working-with-officemath/

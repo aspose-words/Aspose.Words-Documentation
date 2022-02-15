@@ -1,5 +1,7 @@
 ﻿---
-title: Ruby
+title: Ruby – Aspose.Words for Java
+articleTitle: Ruby
+linktitle: Ruby
 description: "How to use Aspose.Words for Java from Ruby."
 type: docs
 weight: 60

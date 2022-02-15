@@ -1,5 +1,7 @@
 ﻿---
-title: Specify Layout Options
+title: Specify Layout Options – Aspose.Words for Java
+articleTitle: Specify Layout Options
+linktitle: Specify Layout Options
 description: "Aspose.Words for Java allows you to create output documents with various layouts, depending on the parameters specified in the Document."
 type: docs
 weight: 10

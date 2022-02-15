@@ -1,5 +1,7 @@
 ﻿---
-title: Hello World in Ruby
+title: Hello World in Ruby – Aspose.Words for Java
+articleTitle: Hello World in Ruby
+linktitle: Hello World in Ruby
 description: "Ruby: Write 'Hello' to a Word Document using Aspose.Words for Java."
 type: docs
 weight: 40

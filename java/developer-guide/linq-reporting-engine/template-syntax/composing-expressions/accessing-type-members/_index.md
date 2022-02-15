@@ -1,5 +1,7 @@
 ﻿---
-title: Accessing Type Members
+title: Accessing Type Members – Aspose.Words for Java
+articleTitle: Accessing Type Members
+linktitle: Accessing Type Members
 description: "Access public (static and instance) members of accessible types in template expressions when building a report Java."
 type: docs
 weight: 30

@@ -1,5 +1,7 @@
 ﻿---
-title: Work with Options and Appearance of Word Documents
+title: Work with Options and Appearance of Word Documents – Aspose.Words for Java
+articleTitle: Work with Options and Appearance of Word Documents
+linktitle: Work with Options and Appearance of Word Documents
 description: "Aspose.Words for Java allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 120

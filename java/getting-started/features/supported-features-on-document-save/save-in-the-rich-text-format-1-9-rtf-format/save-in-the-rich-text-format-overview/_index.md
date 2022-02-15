@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the Rich Text Format Overview
+title: Save in the Rich Text Format Overview – Aspose.Words for Java
+articleTitle: Save in the Rich Text Format Overview
+linktitle: Save in the Rich Text Format Overview
 description: "Aspose.Words for Java allows you to work with different features supported when saving to Rich Text format."
 type: docs
 weight: 90

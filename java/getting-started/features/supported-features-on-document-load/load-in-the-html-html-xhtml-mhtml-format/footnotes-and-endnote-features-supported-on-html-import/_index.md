@@ -1,5 +1,7 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on HTML Import
+title: Footnotes and Endnote Features Supported on HTML Import – Aspose.Words for Java
+articleTitle: Footnotes and Endnote Features Supported on HTML Import
+linktitle: Footnotes and Endnote Features Supported on HTML Import
 description: "Aspose.Words for Java allows you to work with footnotes and endnote features supported on HTML-based format import."
 type: docs
 weight: 60

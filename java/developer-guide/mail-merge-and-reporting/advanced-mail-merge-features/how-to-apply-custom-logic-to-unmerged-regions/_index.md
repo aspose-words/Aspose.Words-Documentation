@@ -1,5 +1,7 @@
 ﻿---
-title: How to  Apply Custom Logic to Unmerged Regions
+title: How to  Apply Custom Logic to Unmerged Regions – Aspose.Words for Java
+articleTitle: How to  Apply Custom Logic to Unmerged Regions
+linktitle: How to  Apply Custom Logic to Unmerged Regions
 type: docs
 weight: 70
 url: /java/how-to-apply-custom-logic-to-unmerged-regions/

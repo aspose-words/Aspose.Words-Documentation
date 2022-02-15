@@ -1,5 +1,7 @@
 ﻿---
-title: Hello World Example
+title: Hello World Example – Aspose.Words for Java
+articleTitle: Hello World Example
+linktitle: Hello World Example
 description: "Create Hello world example to start working with LINQ Reporting Engine to build a report Java."
 type: docs
 weight: 30

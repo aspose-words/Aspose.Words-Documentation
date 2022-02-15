@@ -1,5 +1,7 @@
 ﻿---
-title: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
+title: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format – Aspose.Words for Java
+articleTitle: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
+linktitle: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
 description: "Aspose.Words for Java allows you to work with different features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 50

@@ -1,5 +1,7 @@
 ﻿---
-title: Annotation Features Supported on HTML Import
+title: Annotation Features Supported on HTML Import – Aspose.Words for Java
+articleTitle: Annotation Features Supported on HTML Import
+linktitle: Annotation Features Supported on HTML Import
 description: "Aspose.Words for Java allows you to work with annotation features supported on HTML-based format import."
 type: docs
 weight: 10

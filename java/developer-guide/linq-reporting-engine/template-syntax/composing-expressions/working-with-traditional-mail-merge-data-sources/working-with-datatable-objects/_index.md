@@ -1,5 +1,7 @@
 ﻿---
-title: Working with DataTable Objects
+title: Working with DataTable Objects – Aspose.Words for Java
+articleTitle: Working with DataTable Objects
+linktitle: Working with DataTable Objects
 description: "Treat DataTable row objects in template expressions as enumerations of their rows when building a report Java."
 type: docs
 weight: 20

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Images
+title: Working with Images – Aspose.Words for Java
+articleTitle: Working with Images
+linktitle: Working with Images
 type: docs
 weight: 40
 url: /java/working-with-images/

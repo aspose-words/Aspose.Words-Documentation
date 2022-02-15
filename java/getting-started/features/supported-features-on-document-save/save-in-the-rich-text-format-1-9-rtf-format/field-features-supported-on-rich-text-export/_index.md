@@ -1,5 +1,7 @@
 ﻿---
-title: Field Features Supported on Rich Text Export
+title: Field Features Supported on Rich Text Export – Aspose.Words for Java
+articleTitle: Field Features Supported on Rich Text Export
+linktitle: Field Features Supported on Rich Text Export
 description: "Aspose.Words for Java allows you to work with field features supported when saving to Rich Text format."
 type: docs
 weight: 50

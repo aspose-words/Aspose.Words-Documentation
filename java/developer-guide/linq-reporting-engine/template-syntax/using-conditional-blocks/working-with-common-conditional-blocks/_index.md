@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Common Conditional Blocks
+title: Working with Common Conditional Blocks – Aspose.Words for Java
+articleTitle: Working with Common Conditional Blocks
+linktitle: Working with Common Conditional Blocks
 description: "Use common conditional blocks within paragraphs to represent the same data depending on a condition Java."
 type: docs
 weight: 10

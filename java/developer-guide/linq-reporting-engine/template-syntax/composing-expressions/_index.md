@@ -1,5 +1,7 @@
 ﻿---
-title: Composing Expressions
+title: Composing Expressions – Aspose.Words for Java
+articleTitle: Composing Expressions
+linktitle: Composing Expressions
 description: "Compose expressions when building a report Java. The complexity of expressions in templates is not restricted."
 type: docs
 weight: 10

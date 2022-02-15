@@ -1,5 +1,7 @@
 ﻿---
-title: Insert Footer
+title: Insert Footer – Aspose.Words for Java
+articleTitle: Insert Footer
+linktitle: Insert Footer
 description: "Aspose.Words for Java allows you to insert a footer into a document easily and fast instead of using docx4j."
 type: docs
 weight: 10

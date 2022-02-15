@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Linked TextBoxes
+title: Working with Linked TextBoxes – Aspose.Words for Java
+articleTitle: Working with Linked TextBoxes
+linktitle: Working with Linked TextBoxes
 description: "Introduction to linked textboxes feature in Aspose.Words for Java."
 type: docs
 aliases:

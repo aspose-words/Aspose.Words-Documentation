@@ -1,5 +1,7 @@
 ﻿---
-title: Working With Bookmarks in Ruby
+title: Working With Bookmarks in Ruby – Aspose.Words for Java
+articleTitle: Working With Bookmarks in Ruby
+linktitle: Working With Bookmarks in Ruby
 description: "Ruby: working with Bookmarks using Aspose.Words for Java."
 type: docs
 weight: 20

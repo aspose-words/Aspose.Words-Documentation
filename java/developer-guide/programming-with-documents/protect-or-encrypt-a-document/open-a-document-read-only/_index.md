@@ -1,5 +1,7 @@
 ﻿---
-title: Open a Document Read-Only
+title: Open a Document Read-Only – Aspose.Words for Java
+articleTitle: Open a Document Read-Only
+linktitle: Open a Document Read-Only
 description: "Aspose.Words for Java allows you to make your document read-only so that the content can be copied or read, but not modified."
 type: docs
 weight: 10

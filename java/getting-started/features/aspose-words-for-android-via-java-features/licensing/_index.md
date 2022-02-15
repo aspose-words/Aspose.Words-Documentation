@@ -1,5 +1,7 @@
 ﻿---
-title: Licensing
+title: Licensing – Aspose.Words for Java
+articleTitle: Licensing
+linktitle: Licensing
 description: "Licensing Aspose.Words for Android via Java."
 type: docs
 weight: 50

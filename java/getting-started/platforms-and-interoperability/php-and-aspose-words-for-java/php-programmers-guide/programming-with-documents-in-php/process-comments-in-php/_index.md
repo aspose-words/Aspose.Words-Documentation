@@ -1,5 +1,7 @@
 ﻿---
-title: Process Comments in PHP
+title: Process Comments in PHP – Aspose.Words for Java
+articleTitle: Process Comments in PHP
+linktitle: Process Comments in PHP
 description: "PHP: Process Comments using Aspose.Words for Java."
 type: docs
 weight: 20

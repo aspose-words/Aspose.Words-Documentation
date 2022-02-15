@@ -1,5 +1,7 @@
 ﻿---
-title: Introduction to LINQ Reporting Engine
+title: Introduction to LINQ Reporting Engine – Aspose.Words for Java
+articleTitle: Introduction to LINQ Reporting Engine
+linktitle: Introduction to LINQ Reporting Engine
 description: "Overview LINQ Reporting Engine to build a report Java."
 type: docs
 weight: 20

@@ -1,5 +1,7 @@
 ﻿---
-title: Using Lexical Tokens
+title: Using Lexical Tokens – Aspose.Words for Java
+articleTitle: Using Lexical Tokens
+linktitle: Using Lexical Tokens
 description: "Use lexical tokens in template expressions when building a report Java."
 type: docs
 weight: 10

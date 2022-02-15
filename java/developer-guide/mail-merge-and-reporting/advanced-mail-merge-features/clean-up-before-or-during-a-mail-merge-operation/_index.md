@@ -1,5 +1,7 @@
 ﻿---
-title: Clean Up Before or During a Mail Merge Operation
+title: Clean Up Before or During a Mail Merge Operation – Aspose.Words for Java
+articleTitle: Clean Up Before or During a Mail Merge Operation
+linktitle: Clean Up Before or During a Mail Merge Operation
 aliases:
   - /java/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/
 type: docs

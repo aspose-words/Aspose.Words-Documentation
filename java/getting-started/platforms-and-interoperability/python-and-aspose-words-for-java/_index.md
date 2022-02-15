@@ -1,5 +1,7 @@
 ﻿---
 title: Python and Aspose.Words for Java
+articleTitle: Python and Aspose.Words for Java
+linktitle: Python and Aspose.Words for Java
 description: "Python: how to use Aspose.Words for Java."
 type: docs
 weight: 50

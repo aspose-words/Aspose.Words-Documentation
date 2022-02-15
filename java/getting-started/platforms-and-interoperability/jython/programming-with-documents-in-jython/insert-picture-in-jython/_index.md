@@ -1,5 +1,7 @@
 ﻿---
-title: Insert Picture in Jython
+title: Insert Picture in Jython – Aspose.Words for Java
+articleTitle: Insert Picture in Jython
+linktitle: Insert Picture in Jython
 description: "Jython: insert picture in document using Aspose.Words for Java."
 type: docs
 weight: 35

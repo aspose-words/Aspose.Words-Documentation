@@ -1,5 +1,7 @@
 ﻿---
-title: Load in the FlatOPC OOXML Document (.XML) Format
+title: Load in the FlatOPC OOXML Document (.XML) Format – Aspose.Words for Java
+articleTitle: Load in the FlatOPC OOXML Document (.XML) Format
+linktitle: Load in the FlatOPC OOXML Document (.XML) Format
 description: "Aspose.Words for Java allows you to work with different features supported on FlatOPC format import."
 type: docs
 weight: 20

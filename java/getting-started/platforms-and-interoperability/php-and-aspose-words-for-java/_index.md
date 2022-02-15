@@ -1,5 +1,7 @@
 ﻿---
 title: PHP and Aspose.Words for Java
+articleTitle: PHP and Aspose.Words for Java
+linktitle: PHP and Aspose.Words for Java
 description: "PHP: how to use Aspose.Words for Java."
 type: docs
 weight: 40

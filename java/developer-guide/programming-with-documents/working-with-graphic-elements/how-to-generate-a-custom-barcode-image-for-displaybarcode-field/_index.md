@@ -1,5 +1,7 @@
 ﻿---
-title: How to Generate a Custom BarCode Image for DISPLAYBARCODE Field
+title: How to Generate a Custom BarCode Image for DISPLAYBARCODE Field – Aspose.Words for Java
+articleTitle: How to Generate a Custom BarCode Image for DISPLAYBARCODE Field
+linktitle: How to Generate a Custom BarCode Image for DISPLAYBARCODE Field
 description: "Example of barcode shape generation using Aspose.Words for Java."
 type: docs
 weight: 80

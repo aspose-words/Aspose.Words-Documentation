@@ -1,5 +1,7 @@
 ﻿---
-title: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip
+title: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip – Aspose.Words for Java
+articleTitle: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip
+linktitle: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip
 description: "Aspose.Words for Java allows you to work with custom styles for roundtrip supported when saving to HTML-based format."
 type: docs
 weight: 140

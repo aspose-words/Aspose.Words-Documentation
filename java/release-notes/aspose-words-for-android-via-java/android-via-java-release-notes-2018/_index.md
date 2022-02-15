@@ -1,5 +1,7 @@
 ﻿---
-title: Android via Java Release Notes - 2018
+title: Android via Java Release Notes - 2018 – Aspose.Words for Java
+articleTitle: Android via Java Release Notes - 2018
+linktitle: Android via Java Release Notes - 2018
 description: "Android via Java Release Notes - 2018 – learn about the latest updates and fixes."
 type: docs
 weight: 30

@@ -1,5 +1,7 @@
 ﻿---
-title: Download and Configure Aspose.Words in PHP
+title: Download and Configure Aspose.Words in PHP – Aspose.Words for Java
+articleTitle: Download and Configure Aspose.Words in PHP
+linktitle: Download and Configure Aspose.Words in PHP
 description: "PHP: Download and Configure Aspose.Words for Java."
 type: docs
 weight: 10

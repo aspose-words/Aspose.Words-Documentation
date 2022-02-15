@@ -1,5 +1,7 @@
 ﻿---
-title: Export to Word Plugin for dotCMS
+title: Export to Word Plugin for dotCMS – Aspose.Words for Java
+articleTitle: Export to Word Plugin for dotCMS
+linktitle: Export to Word Plugin for dotCMS
 description: "Export to Word Plugin for dotCMS."
 type: docs
 weight: 10

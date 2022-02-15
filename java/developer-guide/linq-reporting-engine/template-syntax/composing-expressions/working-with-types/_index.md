@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Types
+title: Working with Types – Aspose.Words for Java
+articleTitle: Working with Types
+linktitle: Working with Types
 description: "Use external visible types in template expressions when building a report Java."
 type: docs
 weight: 20

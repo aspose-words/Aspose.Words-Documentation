@@ -1,5 +1,7 @@
 ﻿---
-title: Android via Java Release Notes - 2021
+title: Android via Java Release Notes - 2021 – Aspose.Words for Java
+articleTitle: Android via Java Release Notes - 2021
+linktitle: Android via Java Release Notes - 2021
 description: "Android via Java Release Notes - 2021 – learn about the latest updates and fixes."
 type: docs
 weight: 9

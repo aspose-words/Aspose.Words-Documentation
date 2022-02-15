@@ -1,5 +1,7 @@
 ﻿---
-title: Style Features Supported on EPUB Export
+title: Style Features Supported on EPUB Export – Aspose.Words for Java
+articleTitle: Style Features Supported on EPUB Export
+linktitle: Style Features Supported on EPUB Export
 description: "Aspose.Words for Java allows you to work with style features supported when saving to EPUB format."
 type: docs
 weight: 110

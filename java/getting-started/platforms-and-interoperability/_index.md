@@ -1,5 +1,7 @@
 ﻿---
-title: Platforms and Interoperability
+title: Platforms and Interoperability – Aspose.Words for Java
+articleTitle: Platforms and Interoperability
+linktitle: Platforms and Interoperability
 description: "Use Aspose.Words when building applications for .NET, Java, and C++, PHP, Python, and other languages."
 type: docs
 weight: 45

@@ -1,5 +1,7 @@
 ﻿---
-title: LINQ Reporting Engine API
+title: LINQ Reporting Engine API – Aspose.Words for Java
+articleTitle: LINQ Reporting Engine API
+linktitle: LINQ Reporting Engine API
 description: "Learn LINQ Reporting Engine API to build a report Java."
 type: docs
 weight: 50

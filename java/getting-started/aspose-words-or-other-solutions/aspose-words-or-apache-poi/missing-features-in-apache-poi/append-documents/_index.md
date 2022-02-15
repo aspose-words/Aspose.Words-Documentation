@@ -1,5 +1,7 @@
 ﻿---
-title: Append Documents
+title: Append Documents – Aspose.Words for Java
+articleTitle: Append Documents
+linktitle: Append Documents
 description: "Aspose.Words for Java allows to combine documents and append one document to another. Apache POI does not provide an opportunity to merge or append documents."
 type: docs
 weight: 40

@@ -1,5 +1,7 @@
 ﻿---
-title: Style Features Supported on PDF Export
+title: Style Features Supported on PDF Export – Aspose.Words for Java
+articleTitle: Style Features Supported on PDF Export
+linktitle: Style Features Supported on PDF Export
 description: "Aspose.Words for Java allows you to work with style features supported when saving to PDF format."
 type: docs
 weight: 110

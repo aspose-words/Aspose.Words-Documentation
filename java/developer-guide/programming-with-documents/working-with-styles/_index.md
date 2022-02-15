@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Styles
+title: Working with Styles – Aspose.Words for Java
+articleTitle: Working with Styles
+linktitle: Working with Styles
 description: "Enhanced Microsoft Word formatting features, working with styles using Aspose.Words for Java."
 type: docs
 weight: 23

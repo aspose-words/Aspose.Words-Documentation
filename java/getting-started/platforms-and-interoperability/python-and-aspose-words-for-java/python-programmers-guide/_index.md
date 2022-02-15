@@ -1,5 +1,7 @@
 ﻿---
-title: Python Programmers Guide
+title: Python Programmers Guide – Aspose.Words for Java
+articleTitle: Python Programmers Guide
+linktitle: Python Programmers Guide
 description: "Examples of Aspose.Words.Java API in Python using JPype."
 type: docs
 weight: 20

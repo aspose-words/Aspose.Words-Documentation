@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Charts
+title: Working with Charts – Aspose.Words for Java
+articleTitle: Working with Charts
+linktitle: Working with Charts
 description: "Introduction to Chart feature, how to create and manipulate charts using Aspose.Words for Java."
 type: docs
 weight: 50

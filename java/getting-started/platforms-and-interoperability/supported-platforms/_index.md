@@ -1,5 +1,7 @@
 ﻿---
-title: Supported Platforms
+title: Supported Platforms – Aspose.Words for Java
+articleTitle: Supported Platforms
+linktitle: Supported Platforms
 description: "Aspose.Words for Java can be used by any Java application on any platform supported by Java."
 type: docs
 weight: 5

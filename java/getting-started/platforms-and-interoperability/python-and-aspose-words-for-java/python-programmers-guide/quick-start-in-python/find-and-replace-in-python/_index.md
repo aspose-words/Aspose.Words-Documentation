@@ -1,5 +1,7 @@
 ﻿---
-title: Find And Replace in Python
+title: Find And Replace in Python – Aspose.Words for Java
+articleTitle: Find And Replace in Python
+linktitle: Find And Replace in Python
 description: "Python: Find And Replace inside MS Word Document using Aspose.Words for Java."
 type: docs
 weight: 30

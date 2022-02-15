@@ -1,5 +1,7 @@
 ﻿---
-title: Loading And Saving in Ruby
+title: Loading And Saving in Ruby – Aspose.Words for Java
+articleTitle: Loading And Saving in Ruby
+linktitle: Loading And Saving in Ruby
 description: "Ruby: Loading And Saving Documents using Aspose.Words for Java."
 type: docs
 weight: 30

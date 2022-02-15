@@ -1,5 +1,7 @@
 ﻿---
-title: Convert a Document
+title: Convert a Document – Aspose.Words for Java
+articleTitle: Convert a Document
+linktitle: Convert a Document
 type: docs
 weight: 30
 url: /java/convert-a-document/

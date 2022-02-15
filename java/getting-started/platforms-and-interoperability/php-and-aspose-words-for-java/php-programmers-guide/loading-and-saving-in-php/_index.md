@@ -1,5 +1,7 @@
 ﻿---
-title: Loading And Saving in PHP
+title: Loading And Saving in PHP – Aspose.Words for Java
+articleTitle: Loading And Saving in PHP
+linktitle: Loading And Saving in PHP
 description: "PHP: Loading And Saving Documents using Aspose.Words for Java."
 type: docs
 weight: 10

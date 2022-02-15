@@ -1,5 +1,7 @@
 ﻿---
-title: Loading And Saving in Jython
+title: Loading And Saving in Jython – Aspose.Words for Java
+articleTitle: Loading And Saving in Jython
+linktitle: Loading And Saving in Jython
 description: "Jython: Loading And Saving Documents using Aspose.Words for Java."
 type: docs
 weight: 10

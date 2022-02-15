@@ -1,5 +1,7 @@
 ﻿---
-title: Remove Breaks in PHP
+title: Remove Breaks in PHP – Aspose.Words for Java
+articleTitle: Remove Breaks in PHP
+linktitle: Remove Breaks in PHP
 description: "PHP: Remove Breaks using Aspose.Words for Java."
 type: docs
 weight: 35

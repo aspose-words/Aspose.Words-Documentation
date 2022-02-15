@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Footers
+title: Working with Footers – Aspose.Words for Java
+articleTitle: Working with Footers
+linktitle: Working with Footers
 description: "Aspose.Words for Java allows you to remove footers from a document easily and fast instead of using Apache POI."
 type: docs
 weight: 30
