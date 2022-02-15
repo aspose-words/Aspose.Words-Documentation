@@ -1,5 +1,5 @@
 ﻿---
-title: Insert Checkboxes, HTML or Images During Mail Merge – Aspose.Words for Java
+title: Insert Checkboxes, HTML or Images During Mail Merge in Java
 articleTitle: Insert Checkboxes, HTML or Images During Mail Merge
 linktitle: Insert Checkboxes, HTML or Images During Mail Merge
 description: "Mail merge practices using Aspose.Words for Java."

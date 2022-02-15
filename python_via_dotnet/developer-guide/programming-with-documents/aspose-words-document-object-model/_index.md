@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Words Document Object Model (DOM) – Aspose.Words for Python via .NET
+title: Aspose.Words Document Object Model (DOM) in Python
 articleTitle: Aspose.Words Document Object Model (DOM)
 linktitle: Aspose.Words Document Object Model (DOM)
 type: docs

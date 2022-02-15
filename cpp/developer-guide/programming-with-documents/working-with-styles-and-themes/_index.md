@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Styles – Aspose.Words for С++
+title: Working with Styles in C++
 articleTitle: Working with Styles
 linktitle: Working with Styles
 description: "Enhanced Microsoft Word formatting features, working with styles and themes using Aspose.Words for C++."

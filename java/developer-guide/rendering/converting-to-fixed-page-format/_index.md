@@ -1,5 +1,5 @@
 ﻿---
-title: Converting to Fixed-page Format – Aspose.Words for Java
+title: Converting to Fixed-page Format in Java
 articleTitle: Converting to Fixed-page Format
 linktitle: Converting to Fixed-page Format
 description: "Aspose.Words for Java implements its own page layout engine enabling it to produce all of the fixed page formats, such as PDF, XPS, and various image formats."

@@ -1,5 +1,5 @@
 ﻿---
-title: Clone a Document – Aspose.Words for Python via .NET
+title: Clone a Document in Python
 articleTitle: Clone a Document
 linktitle: Clone a Document
 type: docs

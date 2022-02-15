@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Paragraphs – Aspose.Words for Java
+title: Working with Paragraphs in Java
 articleTitle: Working with Paragraphs
 linktitle: Working with Paragraphs
 description: "Paragraph node manipulation practices using Aspose.Words for Java."

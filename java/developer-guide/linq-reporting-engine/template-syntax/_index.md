@@ -1,5 +1,5 @@
 ﻿---
-title: Template Syntax – Aspose.Words for Java
+title: Template Syntax in Java
 articleTitle: Template Syntax
 linktitle: Template Syntax
 description: "Learn how to create a template for LINQ Reporting Engine to build a report Java."

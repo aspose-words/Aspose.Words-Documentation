@@ -1,5 +1,5 @@
 ﻿---
-title: "Convert a Document" – Aspose.Words for .NET
+title: "Convert a Document" in C#
 articleTitle: "Convert a Document"
 linktitle: "Convert a Document"
 type: docs

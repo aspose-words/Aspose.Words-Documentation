@@ -1,5 +1,5 @@
 ﻿---
-title: Working with VBA Macros – Aspose.Words for .NET
+title: Working with VBA Macros in C#
 articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
 description: "Working with document VBA projects using Aspose.Words for .Net."

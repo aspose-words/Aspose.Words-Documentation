@@ -1,5 +1,5 @@
 ﻿---
-title: Using Operators – Aspose.Words for Java
+title: Using Operators in Java
 articleTitle: Using Operators
 linktitle: Using Operators
 description: "Use predefined operators in template expressions when building a report Java."

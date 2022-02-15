@@ -1,5 +1,5 @@
 ﻿---
-title: Document Builder Overview – Aspose.Words for Java
+title: Document Builder Overview in Java
 articleTitle: Document Builder Overview
 linktitle: Document Builder Overview
 type: docs

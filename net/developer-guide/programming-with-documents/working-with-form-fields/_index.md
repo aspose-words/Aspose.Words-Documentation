@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Form Fields – Aspose.Words for .NET
+title: Working with Form Fields in C#
 articleTitle: Working with Form Fields
 linktitle: Working with Form Fields
 description: "Understanding Form Fields feature, working with Form Fields using Aspose.Words for .Net."

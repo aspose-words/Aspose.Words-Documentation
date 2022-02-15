@@ -1,5 +1,5 @@
 ﻿---
-title: Convert PDF to Other Document Formats – Aspose.Words for .NET
+title: Convert PDF to Other Document Formats in C#
 articleTitle: Convert PDF to Other Document Formats
 linktitle: Convert PDF to Other Document Formats
 type: docs

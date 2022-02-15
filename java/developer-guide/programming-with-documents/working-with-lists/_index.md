@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Lists – Aspose.Words for Java
+title: Working with Lists in Java
 articleTitle: Working with Lists
 linktitle: Working with Lists
 description: "Introduction to numbering formatting feature in Aspose.Words for Java."

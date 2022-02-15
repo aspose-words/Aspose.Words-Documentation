@@ -1,5 +1,5 @@
 ﻿---
-title: Printing a Document Programmatically or Using Dialogs – Aspose.Words for Java
+title: Printing a Document Programmatically or Using Dialogs in Java
 articleTitle: Printing a Document Programmatically or Using Dialogs
 linktitle: Printing a Document Programmatically or Using Dialogs
 description: "Print a document using Aspose.Words for Java API through Settings, Print Preview, and Print progress dialogs."

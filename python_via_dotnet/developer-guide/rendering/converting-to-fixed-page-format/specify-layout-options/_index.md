@@ -1,5 +1,5 @@
 ﻿---
-title: Specify Layout Options – Aspose.Words for Python via .NET
+title: Specify Layout Options in Python
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
 description: "Aspose.Words for Python via .NET provides the ability to specify Layout Options for various document layouts."

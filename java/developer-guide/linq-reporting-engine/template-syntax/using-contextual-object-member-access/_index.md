@@ -1,5 +1,5 @@
 ﻿---
-title: Using Contextual Object Member Access – Aspose.Words for Java
+title: Using Contextual Object Member Access in Java
 articleTitle: Using Contextual Object Member Access
 linktitle: Using Contextual Object Member Access
 description: "Use contextual object member to access some objects without specifying the objects id in template expressions Java."

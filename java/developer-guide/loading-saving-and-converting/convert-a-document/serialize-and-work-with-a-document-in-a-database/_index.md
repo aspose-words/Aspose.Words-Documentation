@@ -1,5 +1,5 @@
 ﻿---
-title: Serialize and Work with a Document in a Database – Aspose.Words for Java
+title: Serialize and Work with a Document in a Database in Java
 articleTitle: Serialize and Work with a Document in a Database
 linktitle: Serialize and Work with a Document in a Database
 description: "Aspose.Words for Java allows you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."

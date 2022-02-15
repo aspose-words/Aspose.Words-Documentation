@@ -1,5 +1,5 @@
 ﻿---
-title: Specify Save Options – Aspose.Words for Java
+title: Specify Save Options in Java
 articleTitle: Specify Save Options
 linktitle: Specify Save Options
 description: "Set advanced properties when saving a document using Aspose.Words for Java to provide more precise control over the process."

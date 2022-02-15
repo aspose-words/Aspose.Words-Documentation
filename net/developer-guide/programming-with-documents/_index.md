@@ -1,5 +1,5 @@
 ﻿---
-title: Programming with Documents – Aspose.Words for .NET
+title: Programming with Documents in C#
 articleTitle: Programming with Documents
 linktitle: Programming with Documents
 type: docs

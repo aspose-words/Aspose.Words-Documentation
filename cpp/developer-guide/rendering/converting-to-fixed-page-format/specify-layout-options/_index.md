@@ -1,5 +1,5 @@
 ﻿---
-title: Specify Layout Options – Aspose.Words for С++
+title: Specify Layout Options in C++
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
 description: "Aspose.Words for C++ provides the ability to specify Layout Options for various document layouts."

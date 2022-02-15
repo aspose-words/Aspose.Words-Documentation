@@ -1,5 +1,5 @@
 ﻿---
-title: Outputting Sequential Data – Aspose.Words for Java
+title: Outputting Sequential Data in Java
 articleTitle: Outputting Sequential Data
 linktitle: Outputting Sequential Data
 description: "Output a sequence of elements with the same type when building a report Java."

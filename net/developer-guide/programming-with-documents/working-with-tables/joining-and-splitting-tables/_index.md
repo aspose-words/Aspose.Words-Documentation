@@ -1,5 +1,5 @@
 ﻿---
-title: Joining and Splitting Tables – Aspose.Words for .NET
+title: Joining and Splitting Tables in C#
 articleTitle: Joining and Splitting Tables
 linktitle: Joining and Splitting Tables
 description: "Advanced table manipulations, join and split using Aspose.Words for .Net."

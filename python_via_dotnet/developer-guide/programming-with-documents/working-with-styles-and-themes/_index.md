@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Styles and Themes – Aspose.Words for Python via .NET
+title: Working with Styles and Themes in Python
 articleTitle: Working with Styles and Themes
 linktitle: Working with Styles and Themes
 description: "Access and manage styles and themes in a document using python."

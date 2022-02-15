@@ -1,5 +1,5 @@
 ﻿---
-title: Detect File Format and Check Format Compatibility – Aspose.Words for Python via .NET
+title: Detect File Format and Check Format Compatibility in Python
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility
 description: "Aspose.Words for Python via .NET enables you to determine the file format if you are not sure what the actual content of the file is, or to check the format compatibility. This allows to avoid possible exceptions."

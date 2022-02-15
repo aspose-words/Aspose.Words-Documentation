@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Text Document – Aspose.Words for Java
+title: Working with Text Document in Java
 articleTitle: Working with Text Document
 linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using Aspose.Words for Java."

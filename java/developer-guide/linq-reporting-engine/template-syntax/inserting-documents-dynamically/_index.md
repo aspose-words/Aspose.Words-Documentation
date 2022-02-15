@@ -1,5 +1,5 @@
 ﻿---
-title: Inserting Documents Dynamically – Aspose.Words for Java
+title: Inserting Documents Dynamically in Java
 articleTitle: Inserting Documents Dynamically
 linktitle: Inserting Documents Dynamically
 description: "Insert contents of outer documents into your document dynamically when building a report Java."

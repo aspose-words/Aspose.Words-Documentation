@@ -1,5 +1,5 @@
 ﻿---
-title: Nested Mail Merge with Regions – Aspose.Words for Java
+title: Nested Mail Merge with Regions in Java
 articleTitle: Nested Mail Merge with Regions
 linktitle: Nested Mail Merge with Regions
 aliases:

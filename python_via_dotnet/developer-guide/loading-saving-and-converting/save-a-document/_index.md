@@ -1,5 +1,5 @@
 ﻿---
-title: "Save a Document" – Aspose.Words for Python via .NET
+title: "Save a Document" in Python
 articleTitle: "Save a Document"
 linktitle: "Save a Document"
 aliases: [/python/saving-a-document/]

@@ -1,5 +1,5 @@
 ﻿---
-title: Find and Replace – Aspose.Words for .NET
+title: Find and Replace in C#
 articleTitle: Find and Replace
 linktitle: Find and Replace
 type: docs

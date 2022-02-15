@@ -1,5 +1,5 @@
 ﻿---
-title: Navigation with Cursor – Aspose.Words for Java
+title: Navigation with Cursor in Java
 articleTitle: Navigation with Cursor
 linktitle: Navigation with Cursor
 description: "Aspsoe.Words for Java allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."

@@ -1,5 +1,5 @@
 ﻿---
-title: LINQ Reporting Engine or Mail Merge – Aspose.Words for Java
+title: LINQ Reporting Engine or Mail Merge in Java
 articleTitle: LINQ Reporting Engine or Mail Merge
 linktitle: LINQ Reporting Engine or Mail Merge
 type: docs

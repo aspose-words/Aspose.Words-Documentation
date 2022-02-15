@@ -1,5 +1,5 @@
 ﻿---
-title: Learn Features of Conversion to PDF/A – Aspose.Words for С++
+title: Learn Features of Conversion to PDF/A in C++
 articleTitle: Learn Features of Conversion to PDF/A
 linktitle: Learn Features of Conversion to PDF/A
 description: "Aspose.Words for С++ allows users to convert to PDF/A-1 and PDF/A-2. There are a few problems when converting to PDF/A documents, and Aspose.Words for С++ solves them."

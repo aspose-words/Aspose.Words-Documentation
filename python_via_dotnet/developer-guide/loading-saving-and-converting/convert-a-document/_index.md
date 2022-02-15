@@ -1,5 +1,5 @@
 ﻿---
-title: "Convert a Document" – Aspose.Words for Python via .NET
+title: "Convert a Document" in Python
 articleTitle: "Convert a Document"
 linktitle: "Convert a Document"
 type: docs

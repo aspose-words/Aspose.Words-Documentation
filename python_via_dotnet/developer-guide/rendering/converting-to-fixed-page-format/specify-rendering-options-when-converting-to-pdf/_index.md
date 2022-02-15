@@ -1,5 +1,5 @@
 ﻿---
-title: Specify Rendering Options When Converting to PDF – Aspose.Words for Python via .NET
+title: Specify Rendering Options When Converting to PDF in Python
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF
 description: "Aspose.Words for Python via .NET provides the ability to convert DOC or DOCX to PDF. To change the result of saving a document to PDF format, you need to specify additional options for the PdfSaveOptions class."

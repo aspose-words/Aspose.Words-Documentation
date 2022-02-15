@@ -1,5 +1,5 @@
 ﻿---
-title: Encrypt a Document – Aspose.Words for Python via .NET
+title: Encrypt a Document in Python
 articleTitle: Encrypt a Document
 linktitle: Encrypt a Document
 description: "Aspose.Words for Python via .NET allows you to encrypt your document using appropriate encryption algorithms for specific document formats."

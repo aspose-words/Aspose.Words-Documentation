@@ -1,5 +1,5 @@
 ﻿---
-title: Advanced Mail Merge Features – Aspose.Words for .NET
+title: Advanced Mail Merge Features in C#
 articleTitle: Advanced Mail Merge Features
 linktitle: Advanced Mail Merge Features
 aliases:

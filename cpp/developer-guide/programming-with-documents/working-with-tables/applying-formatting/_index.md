@@ -1,5 +1,5 @@
 ﻿---
-title: Applying Formatting – Aspose.Words for С++
+title: Applying Formatting in C++
 articleTitle: Applying Formatting
 linktitle: Applying Formatting
 description: "Table formatting in details. Using Aspose.Words for C++ to format every part of table."

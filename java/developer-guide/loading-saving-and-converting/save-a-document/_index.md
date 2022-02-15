@@ -1,5 +1,5 @@
 ﻿---
-title: Save a Document – Aspose.Words for Java
+title: Save a Document in Java
 articleTitle: Save a Document
 linktitle: Save a Document
 aliases: [/java/saving-a-document/]

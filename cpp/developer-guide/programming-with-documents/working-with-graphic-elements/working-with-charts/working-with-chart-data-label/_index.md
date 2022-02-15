@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Chart Data Label – Aspose.Words for С++
+title: Working with Chart Data Label in C++
 articleTitle: Working with Chart Data Label
 linktitle: Working with Chart Data Label
 description: "Chart data label tuning using Aspose.Words for C++."

@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Shapes – Aspose.Words for Python via .NET
+title: Working with Shapes in Python
 articleTitle: Working with Shapes
 linktitle: Working with Shapes
 description: "Create and manage shapes, ole objects in a document using python."

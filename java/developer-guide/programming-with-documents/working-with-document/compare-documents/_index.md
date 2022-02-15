@@ -1,5 +1,5 @@
 ﻿---
-title: Compare Documents – Aspose.Words for Java
+title: Compare Documents in Java
 articleTitle: Compare Documents
 linktitle: Compare Documents
 type: docs

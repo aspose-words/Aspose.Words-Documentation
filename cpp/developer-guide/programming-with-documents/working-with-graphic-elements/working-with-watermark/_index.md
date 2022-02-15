@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Watermark – Aspose.Words for С++
+title: Working with Watermark in C++
 articleTitle: Working with Watermark
 linktitle: Working with Watermark
 type: docs

@@ -1,5 +1,5 @@
 ﻿---
-title: Convert a Document to Markdown – Aspose.Words for Java
+title: Convert a Document to Markdown in Java
 articleTitle: Convert a Document to Markdown
 linktitle: Convert a Document to Markdown
 type: docs

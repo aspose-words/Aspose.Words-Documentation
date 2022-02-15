@@ -1,5 +1,5 @@
 ﻿---
-title: Work with Digital Signatures – Aspose.Words for Java
+title: Work with Digital Signatures in Java
 articleTitle: Work with Digital Signatures
 linktitle: Work with Digital Signatures
 description: "Aspose.Words for Java allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."

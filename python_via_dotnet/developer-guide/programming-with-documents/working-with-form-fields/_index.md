@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Form Fields – Aspose.Words for Python via .NET
+title: Working with Form Fields in Python
 articleTitle: Working with Form Fields
 linktitle: Working with Form Fields
 description: "Aspose.Words for Python allows to insert, obtain, or format a form field in a document."

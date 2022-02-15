@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Headers and Footers – Aspose.Words for Python via .NET
+title: Working with Headers and Footers in Python
 articleTitle: Working with Headers and Footers
 linktitle: Working with Headers and Footers
 description: "Create, manage, and remove headers and footers in a document using python."

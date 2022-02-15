@@ -1,5 +1,5 @@
 ﻿---
-title: Compare Documents – Aspose.Words for .NET
+title: Compare Documents in C#
 articleTitle: Compare Documents
 linktitle: Compare Documents
 description: "Aspose.Words for .NET allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."

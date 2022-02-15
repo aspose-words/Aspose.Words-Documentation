@@ -1,5 +1,5 @@
 ﻿---
-title: Inserting Fields – Aspose.Words for Python via .NET
+title: Inserting Fields in Python
 articleTitle: Inserting Fields
 linktitle: Inserting Fields
 description: "Aspose.Words for Python allows to insert fields into a document in different ways: using DocumentBuilder or DOM (Document Object Model)."

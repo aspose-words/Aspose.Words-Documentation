@@ -1,5 +1,5 @@
 ﻿---
-title: Working with SmartArt Cold Rendering – Aspose.Words for С++
+title: Working with SmartArt Cold Rendering in C++
 articleTitle: Working with SmartArt Cold Rendering
 linktitle: Working with SmartArt Cold Rendering
 type: docs

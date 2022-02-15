@@ -1,5 +1,5 @@
 ﻿---
-title: Introduction to LINQ Reporting Engine – Aspose.Words for .NET
+title: Introduction to LINQ Reporting Engine in C#
 articleTitle: Introduction to LINQ Reporting Engine
 linktitle: Introduction to LINQ Reporting Engine
 description: "Overview LINQ Reporting Engine to build a report C#."

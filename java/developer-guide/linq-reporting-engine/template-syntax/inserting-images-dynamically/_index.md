@@ -1,5 +1,5 @@
 ﻿---
-title: Inserting Images Dynamically – Aspose.Words for Java
+title: Inserting Images Dynamically in Java
 articleTitle: Inserting Images Dynamically
 linktitle: Inserting Images Dynamically
 description: "Insert images into your document dynamically when building a report Java."

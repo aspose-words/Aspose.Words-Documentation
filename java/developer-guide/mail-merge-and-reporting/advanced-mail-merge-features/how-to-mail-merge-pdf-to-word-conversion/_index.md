@@ -1,5 +1,5 @@
 ﻿---
-title: How to Mail Merge PDF to Word Conversion – Aspose.Words for Java
+title: How to Mail Merge PDF to Word Conversion in Java
 articleTitle: How to Mail Merge PDF to Word Conversion
 linktitle: How to Mail Merge PDF to Word Conversion
 type: docs

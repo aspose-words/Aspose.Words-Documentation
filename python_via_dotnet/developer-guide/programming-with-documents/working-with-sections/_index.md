@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Sections – Aspose.Words for Python via .NET
+title: Working with Sections in Python
 articleTitle: Working with Sections
 linktitle: Working with Sections
 description: "Create and manage sections and section breaks in a document using python."

@@ -1,5 +1,5 @@
 ﻿---
-title: Inserting Images Dynamically – Aspose.Words for .NET
+title: Inserting Images Dynamically in C#
 articleTitle: Inserting Images Dynamically
 linktitle: Inserting Images Dynamically
 description: "Insert images into your document dynamically when building a report C#."

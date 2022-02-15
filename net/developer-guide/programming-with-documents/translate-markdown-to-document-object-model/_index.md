@@ -1,5 +1,5 @@
 ﻿---
-title: Translate Markdown to Document Object Model (DOM) – Aspose.Words for .NET
+title: Translate Markdown to Document Object Model (DOM) in C#
 articleTitle: Translate Markdown to Document Object Model (DOM)
 linktitle: Translate Markdown to Document Object Model (DOM)
 type: docs

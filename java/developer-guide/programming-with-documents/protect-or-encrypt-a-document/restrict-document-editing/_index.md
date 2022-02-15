@@ -1,5 +1,5 @@
 ﻿---
-title: Restrict Document Editing – Aspose.Words for Java
+title: Restrict Document Editing in Java
 articleTitle: Restrict Document Editing
 linktitle: Restrict Document Editing
 description: "Aspose.Words for Java allows to restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."

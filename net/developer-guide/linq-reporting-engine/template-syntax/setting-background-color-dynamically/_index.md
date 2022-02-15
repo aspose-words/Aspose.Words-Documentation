@@ -1,5 +1,5 @@
 ﻿---
-title: Setting Background Color Dynamically – Aspose.Words for .NET
+title: Setting Background Color Dynamically in C#
 articleTitle: Setting Background Color Dynamically
 linktitle: Setting Background Color Dynamically
 description: "Set text background color for document contents dynamically when building a report C#."

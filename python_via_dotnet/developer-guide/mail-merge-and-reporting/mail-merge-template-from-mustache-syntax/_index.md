@@ -1,5 +1,5 @@
 ﻿---
-title: Mail Merge Template from Mustache Syntax – Aspose.Words for Python via .NET
+title: Mail Merge Template from Mustache Syntax in Python
 articleTitle: Mail Merge Template from Mustache Syntax
 linktitle: Mail Merge Template from Mustache Syntax
 type: docs

@@ -1,5 +1,5 @@
 ﻿---
-title: Clone a Document – Aspose.Words for Java
+title: Clone a Document in Java
 articleTitle: Clone a Document
 linktitle: Clone a Document
 type: docs

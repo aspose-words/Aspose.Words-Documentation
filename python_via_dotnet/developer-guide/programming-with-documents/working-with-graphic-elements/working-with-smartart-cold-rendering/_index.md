@@ -1,5 +1,5 @@
 ﻿---
-title: Working with SmartArt Cold Rendering – Aspose.Words for Python via .NET
+title: Working with SmartArt Cold Rendering in Python
 articleTitle: Working with SmartArt Cold Rendering
 linktitle: Working with SmartArt Cold Rendering
 type: docs

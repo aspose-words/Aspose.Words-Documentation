@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Hyperlinks and HTML – Aspose.Words for Python via .NET
+title: Working with Hyperlinks and HTML in Python
 articleTitle: Working with Hyperlinks and HTML
 linktitle: Working with Hyperlinks and HTML
 description: "Aspose.Words for Python allows to insert, replace, or modify a hyperlink into the document."

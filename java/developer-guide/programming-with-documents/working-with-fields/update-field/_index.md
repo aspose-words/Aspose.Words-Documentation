@@ -1,5 +1,5 @@
 ﻿---
-title: Update Field – Aspose.Words for Java
+title: Update Field in Java
 articleTitle: Update Field
 linktitle: Update Field
 description: "Fields updating in details using Aspose.Words for Java."

@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Fonts – Aspose.Words for Java
+title: Working with Fonts in Java
 articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Font formatting in details using Aspose.Words for Java."

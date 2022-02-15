@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Table-Row Conditional Blocks – Aspose.Words for Java
+title: Working with Table-Row Conditional Blocks in Java
 articleTitle: Working with Table-Row Conditional Blocks
 linktitle: Working with Table-Row Conditional Blocks
 description: "Use table-row conditional blocks within single document table to represent the same data depending on a condition Java."

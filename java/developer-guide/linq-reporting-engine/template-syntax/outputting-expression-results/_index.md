@@ -1,5 +1,5 @@
 ﻿---
-title: Outputting Expression Results – Aspose.Words for Java
+title: Outputting Expression Results in Java
 articleTitle: Outputting Expression Results
 linktitle: Outputting Expression Results
 description: "Output expression results using placeholder within a template when building a report Java."

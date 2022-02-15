@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Common Data Bands – Aspose.Words for Java
+title: Working with Common Data Bands in Java
 articleTitle: Working with Common Data Bands
 linktitle: Working with Common Data Bands
 description: "Output a common data band withing a paragraph when building a report Java."

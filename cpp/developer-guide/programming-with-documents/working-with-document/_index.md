@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Document – Aspose.Words for С++
+title: Working with Document in C++
 articleTitle: Working with Document
 linktitle: Working with Document
 type: docs

@@ -1,5 +1,5 @@
 ﻿---
-title: Encrypt a Document – Aspose.Words for .NET
+title: Encrypt a Document in C#
 articleTitle: Encrypt a Document
 linktitle: Encrypt a Document
 description: "Aspose.Words for .NET allows you to encrypt your document using appropriate encryption algorithms for specific document formats."

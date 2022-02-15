@@ -1,5 +1,5 @@
 ﻿---
-title: Programming with Documents – Aspose.Words for Python via .NET
+title: Programming with Documents in Python
 articleTitle: Programming with Documents
 linktitle: Programming with Documents
 type: docs

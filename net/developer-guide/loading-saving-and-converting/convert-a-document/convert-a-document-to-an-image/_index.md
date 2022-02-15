@@ -1,5 +1,5 @@
 ﻿---
-title: Convert a Document to an Image – Aspose.Words for .NET
+title: Convert a Document to an Image in C#
 articleTitle: Convert a Document to an Image
 linktitle: Convert a Document to an Image
 type: docs

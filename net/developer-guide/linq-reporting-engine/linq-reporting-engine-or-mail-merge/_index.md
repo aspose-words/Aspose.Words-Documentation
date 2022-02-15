@@ -1,5 +1,5 @@
 ﻿---
-title: LINQ Reporting Engine or Mail Merge – Aspose.Words for .NET
+title: LINQ Reporting Engine or Mail Merge in C#
 articleTitle: LINQ Reporting Engine or Mail Merge
 linktitle: LINQ Reporting Engine or Mail Merge
 type: docs

@@ -1,5 +1,5 @@
 ﻿---
-title: Serialize and Work with a Document in a Database – Aspose.Words for .NET
+title: Serialize and Work with a Document in a Database in C#
 articleTitle: Serialize and Work with a Document in a Database
 linktitle: Serialize and Work with a Document in a Database
 description: "Aspose.Words for .NET allows you to convert a document into a byte array for work with this document in a database. You can store and retrieve a document to and from the database."

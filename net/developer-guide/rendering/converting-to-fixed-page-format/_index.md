@@ -1,5 +1,5 @@
 ﻿---
-title: Converting to Fixed-page Format – Aspose.Words for .NET
+title: Converting to Fixed-page Format in C#
 articleTitle: Converting to Fixed-page Format
 linktitle: Converting to Fixed-page Format
 description: "Aspose.Words for .NET implements its own page layout engine to describe the geometry and position of objects on document pages. This allows you to save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."

@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Document – Aspose.Words for Python via .NET
+title: Working with Document in Python
 articleTitle: Working with Document
 linktitle: Working with Document
 type: docs

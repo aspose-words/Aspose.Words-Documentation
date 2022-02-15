@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Footnote and Endnote – Aspose.Words for Java
+title: Working with Footnote and Endnote in Java
 articleTitle: Working with Footnote and Endnote
 linktitle: Working with Footnote and Endnote
 description: "How to manipulate with footnotes and endnotes using Aspose.Words for Java."

@@ -1,5 +1,5 @@
 ﻿---
-title: Mail Merge Template – Aspose.Words for Python via .NET
+title: Mail Merge Template in Python
 articleTitle: Mail Merge Template
 linktitle: Mail Merge Template
 type: docs

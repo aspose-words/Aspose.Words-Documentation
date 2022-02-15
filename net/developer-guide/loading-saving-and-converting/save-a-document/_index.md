@@ -1,5 +1,5 @@
 ﻿---
-title: "Save a Document" – Aspose.Words for .NET
+title: "Save a Document" in C#
 articleTitle: "Save a Document"
 linktitle: "Save a Document"
 aliases: [/net/saving-a-document/]

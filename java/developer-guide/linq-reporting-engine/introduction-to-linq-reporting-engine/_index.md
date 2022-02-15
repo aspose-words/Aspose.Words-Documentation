@@ -1,5 +1,5 @@
 ﻿---
-title: Introduction to LINQ Reporting Engine – Aspose.Words for Java
+title: Introduction to LINQ Reporting Engine in Java
 articleTitle: Introduction to LINQ Reporting Engine
 linktitle: Introduction to LINQ Reporting Engine
 description: "Overview LINQ Reporting Engine to build a report Java."

@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Hyphenation – Aspose.Words for .NET
+title: Working with Hyphenation in C#
 articleTitle: Working with Hyphenation
 linktitle: Working with Hyphenation
 description: "Aspose.Words for .NET allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."

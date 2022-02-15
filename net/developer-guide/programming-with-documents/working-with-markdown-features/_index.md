@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Markdown Features – Aspose.Words for .NET
+title: Working with Markdown Features in C#
 articleTitle: Working with Markdown Features
 linktitle: Working with Markdown Features
 description: "Learn how to implement Markdown features using Aspose.Words for .NET. All the features are represented as corresponding styles or direct formatting."

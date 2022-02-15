@@ -1,5 +1,5 @@
 ﻿---
-title: Convert a Document to Markdown – Aspose.Words for Python via .NET
+title: Convert a Document to Markdown in Python
 articleTitle: Convert a Document to Markdown
 linktitle: Convert a Document to Markdown
 type: docs

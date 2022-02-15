@@ -1,5 +1,5 @@
 ﻿---
-title: Mail Merge with XML Data Source – Aspose.Words for .NET
+title: Mail Merge with XML Data Source in C#
 articleTitle: Mail Merge with XML Data Source
 linktitle: Mail Merge with XML Data Source
 type: docs

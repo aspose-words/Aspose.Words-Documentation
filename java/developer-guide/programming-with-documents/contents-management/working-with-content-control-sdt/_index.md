@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Content Control SDT – Aspose.Words for Java
+title: Working with Content Control SDT in Java
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
 type: docs

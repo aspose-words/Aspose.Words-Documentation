@@ -1,5 +1,5 @@
 ﻿---
-title: Mail Merge with XML Data Source – Aspose.Words for Java
+title: Mail Merge with XML Data Source in Java
 articleTitle: Mail Merge with XML Data Source
 linktitle: Mail Merge with XML Data Source
 aliases:

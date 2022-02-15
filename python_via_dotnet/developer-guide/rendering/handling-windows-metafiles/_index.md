@@ -1,5 +1,5 @@
 ﻿---
-title: Handling Windows Metafiles – Aspose.Words for Python via .NET
+title: Handling Windows Metafiles in Python
 articleTitle: Handling Windows Metafiles
 linktitle: Handling Windows Metafiles
 description: "Aspose.Words for Python via .NET implements its own Windows Metafile player to play Metafile format on all platforms and supports the handling of the basic metafile features and can perform fallback to a different type of metafile player."

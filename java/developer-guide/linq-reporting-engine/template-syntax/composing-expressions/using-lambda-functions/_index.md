@@ -1,5 +1,5 @@
 ﻿---
-title: Using Lambda Functions – Aspose.Words for Java
+title: Using Lambda Functions in Java
 articleTitle: Using Lambda Functions
 linktitle: Using Lambda Functions
 description: "Use lambda functions in template expressions when building a report Java."

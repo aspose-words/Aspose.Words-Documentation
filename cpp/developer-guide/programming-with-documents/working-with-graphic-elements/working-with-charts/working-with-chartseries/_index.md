@@ -1,5 +1,5 @@
 ﻿---
-title: Working with ChartSeries – Aspose.Words for С++
+title: Working with ChartSeries in C++
 articleTitle: Working with ChartSeries
 linktitle: Working with ChartSeries
 description: "Chart series tuning using Aspose.Words for C++."

@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Tables – Aspose.Words for Python via .NET
+title: Working with Tables in Python
 articleTitle: Working with Tables
 linktitle: Working with Tables
 description: "Work with tables in a document using python."

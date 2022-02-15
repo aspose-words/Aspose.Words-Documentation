@@ -1,5 +1,5 @@
 ﻿---
-title: Convert a Document to PDF – Aspose.Words for Python via .NET
+title: Convert a Document to PDF in Python
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
 description: "Aspose.Words for Python via .NET allows you to convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."

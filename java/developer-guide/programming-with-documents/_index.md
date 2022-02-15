@@ -1,5 +1,5 @@
 ﻿---
-title: Programming with Documents – Aspose.Words for Java
+title: Programming with Documents in Java
 articleTitle: Programming with Documents
 linktitle: Programming with Documents
 type: docs

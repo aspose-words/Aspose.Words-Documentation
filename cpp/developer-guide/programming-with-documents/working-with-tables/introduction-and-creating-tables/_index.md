@@ -1,5 +1,5 @@
 ﻿---
-title: Introduction and Creating Tables – Aspose.Words for С++
+title: Introduction and Creating Tables in C++
 articleTitle: Introduction and Creating Tables
 linktitle: Introduction and Creating Tables
 description: "Different ways to create tables in your document using Aspose.Words for Java."

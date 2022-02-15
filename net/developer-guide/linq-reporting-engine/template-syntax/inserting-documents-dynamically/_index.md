@@ -1,5 +1,5 @@
 ﻿---
-title: Inserting Documents Dynamically – Aspose.Words for .NET
+title: Inserting Documents Dynamically in C#
 articleTitle: Inserting Documents Dynamically
 linktitle: Inserting Documents Dynamically
 description: "Insert contents of outer documents into your document dynamically when building a report C#."

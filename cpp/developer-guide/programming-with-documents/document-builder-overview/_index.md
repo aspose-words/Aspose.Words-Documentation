@@ -1,5 +1,5 @@
 ﻿---
-title: Document Builder Overview – Aspose.Words for С++
+title: Document Builder Overview in C++
 articleTitle: Document Builder Overview
 linktitle: Document Builder Overview
 type: docs

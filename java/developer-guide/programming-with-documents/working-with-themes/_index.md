@@ -1,5 +1,5 @@
 ﻿---
-title: Working With Themes – Aspose.Words for Java
+title: Working With Themes in Java
 articleTitle: Working With Themes
 linktitle: Working With Themes
 description: "Enhanced Microsoft Word formatting features, working with themes using Aspose.Words for Java."

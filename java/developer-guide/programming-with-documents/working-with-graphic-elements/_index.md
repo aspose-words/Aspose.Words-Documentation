@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Graphic Elements – Aspose.Words for Java
+title: Working with Graphic Elements in Java
 articleTitle: Working with Graphic Elements
 linktitle: Working with Graphic Elements
 description: "Introduction to Shape node, basic graphic element in Aspose.Words for Java."

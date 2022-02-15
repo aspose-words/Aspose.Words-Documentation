@@ -1,5 +1,5 @@
 ﻿---
-title: Specify Load Options – Aspose.Words for .NET
+title: Specify Load Options in C#
 articleTitle: Specify Load Options
 linktitle: Specify Load Options
 description: "Aspose.Words for .NET enables you to set advanced properties when loading a document. This allows you to more accurately control the load process."

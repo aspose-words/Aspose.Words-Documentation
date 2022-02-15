@@ -1,5 +1,5 @@
 ﻿---
-title: Mail Merge Template – Aspose.Words for .NET
+title: Mail Merge Template in C#
 articleTitle: Mail Merge Template
 linktitle: Mail Merge Template
 type: docs

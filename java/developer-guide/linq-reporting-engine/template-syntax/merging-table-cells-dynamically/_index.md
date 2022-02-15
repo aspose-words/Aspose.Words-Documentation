@@ -1,5 +1,5 @@
 ﻿---
-title: Merging Table Cells Dynamically – Aspose.Words for Java
+title: Merging Table Cells Dynamically in Java
 articleTitle: Merging Table Cells Dynamically
 linktitle: Merging Table Cells Dynamically
 description: "Merge table cells with equal textual contents when building a report Java."

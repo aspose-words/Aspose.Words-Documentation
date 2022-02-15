@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Words Document Object Model (DOM) – Aspose.Words for .NET
+title: Aspose.Words Document Object Model (DOM) in C#
 articleTitle: Aspose.Words Document Object Model (DOM)
 linktitle: Aspose.Words Document Object Model (DOM)
 type: docs

@@ -1,5 +1,5 @@
 ﻿---
-title: Convert a Document to HTML, MHTML or EPUB – Aspose.Words for Java
+title: Convert a Document to HTML, MHTML or EPUB in Java
 articleTitle: Convert a Document to HTML, MHTML or EPUB
 linktitle: Convert a Document to HTML, MHTML or EPUB
 description: "Use Aspose.Words for Java to convert documents from Word or any other supported formats to HTML, MHTML, or EPUB."

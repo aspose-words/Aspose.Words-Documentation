@@ -1,5 +1,5 @@
 ﻿---
-title: Mail Merge and Reporting – Aspose.Words for Java
+title: Mail Merge and Reporting in Java
 articleTitle: Mail Merge and Reporting
 linktitle: Mail Merge and Reporting
 aliases:

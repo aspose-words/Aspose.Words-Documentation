@@ -1,5 +1,5 @@
 ﻿---
-title: How to Build a Table from a DataTable – Aspose.Words for .NET
+title: How to Build a Table from a DataTable in C#
 articleTitle: How to Build a Table from a DataTable
 linktitle: How to Build a Table from a DataTable
 description: "Example of filling document table from external database using Aspose.Words for .Net."

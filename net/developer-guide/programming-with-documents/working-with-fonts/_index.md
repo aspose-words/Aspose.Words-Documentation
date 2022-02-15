@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Fonts – Aspose.Words for .NET
+title: Working with Fonts in C#
 articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Font formatting in details using Aspose.Words for .Net."

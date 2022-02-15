@@ -1,5 +1,5 @@
 ﻿---
-title: Inserting Bookmarks Dynamically – Aspose.Words for Java
+title: Inserting Bookmarks Dynamically in Java
 articleTitle: Inserting Bookmarks Dynamically
 linktitle: Inserting Bookmarks Dynamically
 description: "Insert bookmarks into your document dynamically when building a report Java."

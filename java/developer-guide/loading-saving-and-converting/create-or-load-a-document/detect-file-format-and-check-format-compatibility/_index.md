@@ -1,5 +1,5 @@
 ﻿---
-title: Detect File Format and Check Format Compatibility – Aspose.Words for Java
+title: Detect File Format and Check Format Compatibility in Java
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility
 description: "Aspose.Words for Java allows you to obtain information about the document format before opening it to avoid an exception if you are not sure what the actual content of the file is."

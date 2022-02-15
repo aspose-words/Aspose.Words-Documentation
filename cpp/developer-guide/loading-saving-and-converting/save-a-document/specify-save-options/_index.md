@@ -1,5 +1,5 @@
 ﻿---
-title: Specify Save Options – Aspose.Words for С++
+title: Specify Save Options in C++
 articleTitle: Specify Save Options
 linktitle: Specify Save Options
 description: "Aspose.Words for C++ enables you to set advanced properties when saving a document. This allows you to more accurately control the save process."

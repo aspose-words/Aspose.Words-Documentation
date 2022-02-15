@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Watermark – Aspose.Words for Java
+title: Working with Watermark in Java
 articleTitle: Working with Watermark
 linktitle: Working with Watermark
 type: docs

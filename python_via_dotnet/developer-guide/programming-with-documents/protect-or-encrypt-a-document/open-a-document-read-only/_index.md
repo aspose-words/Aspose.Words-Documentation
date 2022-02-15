@@ -1,5 +1,5 @@
 ﻿---
-title: Open a Document Read-Only – Aspose.Words for Python via .NET
+title: Open a Document Read-Only in Python
 articleTitle: Open a Document Read-Only
 linktitle: Open a Document Read-Only
 description: "Aspose.Words for Python via .NET allows you to make your document read-only so that the content can be copied or read, but not modified."

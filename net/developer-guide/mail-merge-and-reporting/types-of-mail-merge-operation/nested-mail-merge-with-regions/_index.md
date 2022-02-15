@@ -1,5 +1,5 @@
 ﻿---
-title: Nested Mail Merge with Regions – Aspose.Words for .NET
+title: Nested Mail Merge with Regions in C#
 articleTitle: Nested Mail Merge with Regions
 linktitle: Nested Mail Merge with Regions
 aliases:

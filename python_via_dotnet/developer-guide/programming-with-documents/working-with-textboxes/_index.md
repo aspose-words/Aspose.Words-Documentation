@@ -1,5 +1,5 @@
 ﻿---
-title: Working with TextBoxes – Aspose.Words for Python via .NET
+title: Working with TextBoxes in Python
 articleTitle: Working with TextBoxes
 linktitle: Working with TextBoxes
 description: "Work with textboxes in a document using python."

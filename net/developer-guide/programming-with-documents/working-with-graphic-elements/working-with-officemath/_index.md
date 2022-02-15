@@ -1,5 +1,5 @@
 ﻿---
-title: Working with OfficeMath – Aspose.Words for .NET
+title: Working with OfficeMath in C#
 articleTitle: Working with OfficeMath
 linktitle: Working with OfficeMath
 description: "Introduction to Office Math feature."

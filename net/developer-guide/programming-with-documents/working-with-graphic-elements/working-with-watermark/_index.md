@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Watermark – Aspose.Words for .NET
+title: Working with Watermark in C#
 articleTitle: Working with Watermark
 linktitle: Working with Watermark
 description: "Document watermark manipulation using Aspose.Words."

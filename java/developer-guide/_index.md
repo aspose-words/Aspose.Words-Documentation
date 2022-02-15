@@ -1,5 +1,5 @@
 ﻿---
-title: Developer Guide – Aspose.Words for Java
+title: Developer Guide in Java
 articleTitle: Developer Guide
 linktitle: Developer Guide
 description: "Learn Aspose.Words for Java Developer Guide to get more use cases, tips, and technical details."

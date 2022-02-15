@@ -1,5 +1,5 @@
 ﻿---
-title: Specify Layout Options – Aspose.Words for .NET
+title: Specify Layout Options in C#
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
 description: "Aspose.Words for .NET provides the ability to specify Layout Options for various document layouts."

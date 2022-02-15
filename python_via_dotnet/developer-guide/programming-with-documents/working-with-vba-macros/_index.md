@@ -1,5 +1,5 @@
 ﻿---
-title: Working with VBA Macros – Aspose.Words for Python via .NET
+title: Working with VBA Macros in Python
 articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
 description: "Create, read, write, clone, and manage VBA macros in a document using python."

@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Images – Aspose.Words for С++
+title: Working with Images in C++
 articleTitle: Working with Images
 linktitle: Working with Images
 type: docs

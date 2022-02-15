@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Paragraphs – Aspose.Words for С++
+title: Working with Paragraphs in C++
 articleTitle: Working with Paragraphs
 linktitle: Working with Paragraphs
 description: "Paragraph node manipulation practices using Aspose.Words for C++."

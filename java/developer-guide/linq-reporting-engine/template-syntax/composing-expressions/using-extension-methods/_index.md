@@ -1,5 +1,5 @@
 ﻿---
-title: Using Extension Methods – Aspose.Words for Java
+title: Using Extension Methods in Java
 articleTitle: Using Extension Methods
 linktitle: Using Extension Methods
 description: "Use extension methods in template expressions when building a report Java."

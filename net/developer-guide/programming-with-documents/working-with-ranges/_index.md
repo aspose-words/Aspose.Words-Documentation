@@ -1,5 +1,5 @@
 ﻿---
-title: Working with Ranges – Aspose.Words for .NET
+title: Working with Ranges in C#
 articleTitle: Working with Ranges
 linktitle: Working with Ranges
 description: "Introduction to Range feature in Aspose.Words for .Net."

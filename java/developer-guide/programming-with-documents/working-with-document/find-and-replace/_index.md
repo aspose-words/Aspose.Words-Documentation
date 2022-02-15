@@ -1,5 +1,5 @@
 ﻿---
-title: Find and Replace – Aspose.Words for Java
+title: Find and Replace in Java
 articleTitle: Find and Replace
 linktitle: Find and Replace
 type: docs

@@ -1,5 +1,5 @@
 ﻿---
-title: How to Extract Selected Content Between Nodes in a Document – Aspose.Words for .NET
+title: How to Extract Selected Content Between Nodes in a Document in C#
 articleTitle: How to Extract Selected Content Between Nodes in a Document
 linktitle: How to Extract Selected Content Between Nodes in a Document
 description: "Extracting document content in different using Aspose.Words for .Net."

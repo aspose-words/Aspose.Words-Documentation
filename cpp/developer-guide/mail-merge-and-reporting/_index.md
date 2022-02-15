@@ -1,5 +1,5 @@
 ﻿---
-title: Mail Merge and Reporting – Aspose.Words for С++
+title: Mail Merge and Reporting in C++
 articleTitle: Mail Merge and Reporting
 linktitle: Mail Merge and Reporting
 type: docs
