@@ -1,5 +1,7 @@
 ﻿---
-title: How to Extract Selected Content Between Nodes in a Document
+title: How to Extract Selected Content Between Nodes in a Document – Aspose.Words for С++
+articleTitle: How to Extract Selected Content Between Nodes in a Document
+linktitle: How to Extract Selected Content Between Nodes in a Document
 type: docs
 weight: 140
 url: /cpp/how-to-extract-selected-content-between-nodes-in-a-document/

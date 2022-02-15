@@ -1,5 +1,7 @@
 ﻿---
-title: Configure Aspose.Words for C++ With vcpkg
+title: Configure Aspose.Words for C++ With vcpkg – Aspose.Words for С++
+articleTitle: Configure Aspose.Words for C++ With vcpkg
+linktitle: Configure Aspose.Words for C++ With vcpkg
 description: "Configure Aspose.Words for C++ with vcpkg"
 type: docs
 weight: 90

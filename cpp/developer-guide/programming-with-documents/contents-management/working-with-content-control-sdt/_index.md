@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Content Control SDT
+title: Working with Content Control SDT – Aspose.Words for С++
+articleTitle: Working with Content Control SDT
+linktitle: Working with Content Control SDT
 type: docs
 weight: 130
 url: /cpp/working-with-content-control-sdt/

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Hyphenation
+title: Working with Hyphenation – Aspose.Words for С++
+articleTitle: Working with Hyphenation
+linktitle: Working with Hyphenation
 description: "Aspose.Words for C++ allows to use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 65

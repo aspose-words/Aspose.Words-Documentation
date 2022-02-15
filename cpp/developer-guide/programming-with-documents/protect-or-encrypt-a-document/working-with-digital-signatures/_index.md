@@ -1,5 +1,7 @@
 ﻿---
-title: Work with Digital Signatures
+title: Work with Digital Signatures – Aspose.Words for С++
+articleTitle: Work with Digital Signatures
+linktitle: Work with Digital Signatures
 description: "Aspose.Words for C++ allows you to digitally sign documents and detect, count, verify, and remove existing digital signatures."
 type: docs
 weight: 160

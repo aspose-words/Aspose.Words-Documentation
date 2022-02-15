@@ -1,5 +1,7 @@
 ﻿---
-title: File Formats and Conversions
+title: File Formats and Conversions – Aspose.Words for С++
+articleTitle: File Formats and Conversions
+linktitle: File Formats and Conversions
 description: "With Aspose.Words for C++, you can quickly and reliably convert documents from any supported load to save format with just two lines of code. It provides high-quality conversions."
 type: docs
 weight: 20

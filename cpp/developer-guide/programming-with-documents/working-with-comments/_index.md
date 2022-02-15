@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Comments
+title: Working with Comments – Aspose.Words for С++
+articleTitle: Working with Comments
+linktitle: Working with Comments
 description: "Working with comments in your code using Aspose.Words for C++."
 type: docs
 weight: 90

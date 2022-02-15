@@ -1,5 +1,7 @@
 ﻿---
-title: Convert a Document
+title: Convert a Document – Aspose.Words for С++
+articleTitle: Convert a Document
+linktitle: Convert a Document
 type: docs
 aliases: [/cpp/converting-a-document/]
 description: "Aspose.Words for C++ allows you to easily convert documents from one format to another. You can work with all the most popular formats like Microsoft Word formats such as DOCX or DOC, OpenDocument formats such as ODT or OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others."

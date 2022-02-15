@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Hyperlinks and HTML
+title: Working with Hyperlinks and HTML – Aspose.Words for С++
+articleTitle: Working with Hyperlinks and HTML
+linktitle: Working with Hyperlinks and HTML
 description: "How to insert hyperlink or HTML document into your document using Aspose.Word for C++."
 type: docs
 aliases:

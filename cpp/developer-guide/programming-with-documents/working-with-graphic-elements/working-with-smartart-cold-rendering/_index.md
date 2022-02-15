@@ -1,5 +1,7 @@
 ﻿---
-title: Working with SmartArt Cold Rendering
+title: Working with SmartArt Cold Rendering – Aspose.Words for С++
+articleTitle: Working with SmartArt Cold Rendering
+linktitle: Working with SmartArt Cold Rendering
 type: docs
 description: "Aspose.Words for C++ performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect."
 weight: 55

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Shapes
+title: Working with Shapes – Aspose.Words for С++
+articleTitle: Working with Shapes
+linktitle: Working with Shapes
 type: docs
 weight: 280
 url: /cpp/working-with-shapes/

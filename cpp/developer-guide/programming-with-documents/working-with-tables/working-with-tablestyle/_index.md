@@ -1,5 +1,7 @@
 ﻿---
-title: Working with TableStyle
+title: Working with TableStyle – Aspose.Words for С++
+articleTitle: Working with TableStyle
+linktitle: Working with TableStyle
 description: "Introduction to advanced table formatting, Table styles, using Aspose.Words for Java."
 type: docs
 weight: 25

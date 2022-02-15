@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Images
+title: Working with Images – Aspose.Words for С++
+articleTitle: Working with Images
+linktitle: Working with Images
 type: docs
 weight: 150
 url: /cpp/working-with-images/

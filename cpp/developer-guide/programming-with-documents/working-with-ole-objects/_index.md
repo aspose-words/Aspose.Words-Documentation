@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Ole Objects
+title: Working with Ole Objects – Aspose.Words for С++
+articleTitle: Working with Ole Objects
+linktitle: Working with Ole Objects
 description: "Create and modify OLE embedding in your document using Aspose.Words for C++."
 type: docs
 aliases:

@@ -1,5 +1,7 @@
 ﻿---
-title: Configure Aspose.Words for C++ in CMake Project
+title: Configure Aspose.Words for C++ in CMake Project – Aspose.Words for С++
+articleTitle: Configure Aspose.Words for C++ in CMake Project
+linktitle: Configure Aspose.Words for C++ in CMake Project
 description: "Configure Aspose.Words for C++ in your CMake and build you application."
 type: docs
 weight: 90

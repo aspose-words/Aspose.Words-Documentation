@@ -1,5 +1,7 @@
 ﻿---
-title: Create or Load a Document
+title: Create or Load a Document – Aspose.Words for С++
+articleTitle: Create or Load a Document
+linktitle: Create or Load a Document
 type: docs
 aliases: [/cpp/creating-or-loading-a-document/]
 description: "Aspose.Words for C++ enables you to create a blank document or to load it from a file or stream. This is useful for almost any task performed using Aspose.Words."

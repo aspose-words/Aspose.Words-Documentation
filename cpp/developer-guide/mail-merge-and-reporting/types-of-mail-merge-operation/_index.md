@@ -1,5 +1,7 @@
 ﻿---
-title: Types of Mail Merge Operation
+title: Types of Mail Merge Operation – Aspose.Words for С++
+articleTitle: Types of Mail Merge Operation
+linktitle: Types of Mail Merge Operation
 type: docs
 aliases:
  - /cpp/how-to-execute-mail-merge/
