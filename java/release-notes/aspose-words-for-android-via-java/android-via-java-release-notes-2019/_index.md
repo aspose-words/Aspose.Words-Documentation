@@ -1,5 +1,5 @@
 ﻿---
-title: Android via Java Release Notes - 2019 – Aspose.Words for Java
+title: Android via Java Release Notes - 2019
 articleTitle: Android via Java Release Notes - 2019
 linktitle: Android via Java Release Notes - 2019
 description: "Android via Java Release Notes - 2019 – learn about the latest updates and fixes."
