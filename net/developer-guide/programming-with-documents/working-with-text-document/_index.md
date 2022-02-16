@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Text Document
+title: Working with Text Document in C#
+articleTitle: Working with Text Document
+linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using Aspose.Words for .Net."
 type: docs
 weight: 220

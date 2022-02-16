@@ -1,5 +1,7 @@
 ﻿---
-title: Section Features Supported on WordprocessingML Import
+title: Section Features Supported on WordprocessingML Import – Aspose.Words for Java
+articleTitle: Section Features Supported on WordprocessingML Import
+linktitle: Section Features Supported on WordprocessingML Import
 description: "Aspose.Words for Java allows you to work with section features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 90

@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words or Microsoft Office Automation
+title: Aspose.Words or Microsoft Office Automation – Aspose.Words for Java
+articleTitle: Aspose.Words or Microsoft Office Automation
+linktitle: Aspose.Words or Microsoft Office Automation
 description: "When choosing between Aspose.Words for Java and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in many ways."
 type: docs
 weight: 10

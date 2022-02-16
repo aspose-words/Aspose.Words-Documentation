@@ -1,5 +1,7 @@
 ﻿---
-title: NetBeans - Maven
+title: NetBeans - Maven – Aspose.Words for Java
+articleTitle: NetBeans - Maven
+linktitle: NetBeans - Maven
 description: "Aspose.Words Java for NetBeans (Maven) Plugin."
 type: docs
 weight: 90

@@ -1,5 +1,7 @@
 ﻿---
-title: Drawing Object Features Supported on Image Export
+title: Drawing Object Features Supported on Image Export – Aspose.Words for .NET
+articleTitle: Drawing Object Features Supported on Image Export
+linktitle: Drawing Object Features Supported on Image Export
 description: "Aspose.Words for .NET allows you to work with drawing features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 40

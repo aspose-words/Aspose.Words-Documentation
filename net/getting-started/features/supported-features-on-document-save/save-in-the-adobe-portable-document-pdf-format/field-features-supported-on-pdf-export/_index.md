@@ -1,5 +1,7 @@
 ﻿---
-title: Field Features Supported on PDF Export
+title: Field Features Supported on PDF Export – Aspose.Words for .NET
+articleTitle: Field Features Supported on PDF Export
+linktitle: Field Features Supported on PDF Export
 description: "Aspose.Words for .NET allows you to work with field features supported when saving to PDF format."
 type: docs
 weight: 50

@@ -1,5 +1,7 @@
 ﻿---
-title: Mono Framework
+title: Mono Framework – Aspose.Words for .NET
+articleTitle: Mono Framework
+linktitle: Mono Framework
 description: "Using Aspose.Words for .NET with Mono Framework."
 type: docs
 weight: 90

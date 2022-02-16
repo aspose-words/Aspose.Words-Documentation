@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Styles and Themes
+title: Working with Styles and Themes in C#
+articleTitle: Working with Styles and Themes
+linktitle: Working with Styles and Themes
 description: "Advanced Microsoft Word formatting features, working with styles and themes using Aspose.Words for .Net."
 type: docs
 weight: 40

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Table-Row Data Bands
+title: Working with Table-Row Data Bands in Java
+articleTitle: Working with Table-Row Data Bands
+linktitle: Working with Table-Row Data Bands
 description: "Output a sequence of table-row data when building a report Java."
 type: docs
 weight: 20

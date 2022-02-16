@@ -1,5 +1,7 @@
 ﻿---
-title: Drawing Object Features Supported on Print Export
+title: Drawing Object Features Supported on Print Export – Aspose.Words for .NET
+articleTitle: Drawing Object Features Supported on Print Export
+linktitle: Drawing Object Features Supported on Print Export
 description: "Aspose.Words for .NET allows you to work with drawing features supported when saving to printing device."
 type: docs
 weight: 40

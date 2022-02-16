@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Sections
+title: Working with Sections in Python
+articleTitle: Working with Sections
+linktitle: Working with Sections
 description: "Create and manage sections and section breaks in a document using python."
 type: docs
 weight: 60

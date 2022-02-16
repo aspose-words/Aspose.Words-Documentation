@@ -1,5 +1,7 @@
 ﻿---
-title: Simple Mail Merge in Ruby
+title: Simple Mail Merge in Ruby – Aspose.Words for Java
+articleTitle: Simple Mail Merge in Ruby
+linktitle: Simple Mail Merge in Ruby
 type: docs
 weight: 70
 url: /java/simple-mail-merge-in-ruby/

@@ -1,5 +1,7 @@
 ﻿---
-title: Manipulate and Substitute TrueType Fonts
+title: Manipulate and Substitute TrueType Fonts in C#
+articleTitle: Manipulate and Substitute TrueType Fonts
+linktitle: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for .NET can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately. If a font or a specific character is not available, Aspose.Words searches for a suitable font replacement or uses the Font fallback mechanism."
 type: docs
 weight: 10

@@ -1,5 +1,7 @@
 ﻿---
-title: Drawing Object Features Supported on PDF Export
+title: Drawing Object Features Supported on PDF Export – Aspose.Words for Java
+articleTitle: Drawing Object Features Supported on PDF Export
+linktitle: Drawing Object Features Supported on PDF Export
 description: "Aspose.Words for Java allows you to work with drawing features supported when saving to PDF format."
 type: docs
 weight: 40

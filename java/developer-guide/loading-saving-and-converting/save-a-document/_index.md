@@ -1,5 +1,7 @@
 ﻿---
-title: Save a Document
+title: Save a Document in Java
+articleTitle: Save a Document
+linktitle: Save a Document
 aliases: [/java/saving-a-document/]
 type: docs
 description: "Aspose.Words for Java enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."

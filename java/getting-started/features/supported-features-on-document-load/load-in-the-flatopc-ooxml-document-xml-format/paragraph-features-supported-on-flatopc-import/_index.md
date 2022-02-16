@@ -1,5 +1,7 @@
 ﻿---
-title: Paragraph Features Supported on FlatOPC Import
+title: Paragraph Features Supported on FlatOPC Import – Aspose.Words for Java
+articleTitle: Paragraph Features Supported on FlatOPC Import
+linktitle: Paragraph Features Supported on FlatOPC Import
 description: "Aspose.Words for Java allows you to work with paragraph features supported on FlatOPC format import."
 type: docs
 weight: 80

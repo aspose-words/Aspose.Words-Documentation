@@ -1,5 +1,7 @@
 ﻿---
-title: Working With Tables in Python
+title: Working With Tables in Python – Aspose.Words for Java
+articleTitle: Working With Tables in Python
+linktitle: Working With Tables in Python
 description: "Python: Working With Tables using Aspose.Words for Java."
 type: docs
 weight: 100

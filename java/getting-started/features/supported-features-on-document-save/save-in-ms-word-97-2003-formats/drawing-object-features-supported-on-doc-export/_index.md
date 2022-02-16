@@ -1,5 +1,7 @@
 ﻿---
-title: Drawing Object Features Supported on DOC Export
+title: Drawing Object Features Supported on DOC Export – Aspose.Words for Java
+articleTitle: Drawing Object Features Supported on DOC Export
+linktitle: Drawing Object Features Supported on DOC Export
 description: "Aspose.Words for Java allows you to work with drawing features supported when saving to DOC – Word 97-2003 format."
 type: docs
 weight: 40

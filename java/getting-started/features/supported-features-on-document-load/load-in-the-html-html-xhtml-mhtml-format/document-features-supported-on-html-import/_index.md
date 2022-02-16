@@ -1,5 +1,7 @@
 ﻿---
-title: Document Features Supported on HTML Import
+title: Document Features Supported on HTML Import – Aspose.Words for Java
+articleTitle: Document Features Supported on HTML Import
+linktitle: Document Features Supported on HTML Import
 description: "Aspose.Words for Java allows you to work with document features supported on HTML-based format import."
 type: docs
 weight: 30

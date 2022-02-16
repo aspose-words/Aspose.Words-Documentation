@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose Export to Word for ASP.NET MVC
+title: Aspose Export to Word for ASP.NET MVC – Aspose.Words for .NET
+articleTitle: Aspose Export to Word for ASP.NET MVC
+linktitle: Aspose Export to Word for ASP.NET MVC
 description: "Using Aspose Export to Word for ASP.NET MVC addon."
 type: docs
 weight: 30

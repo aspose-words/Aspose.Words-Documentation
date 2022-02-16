@@ -1,5 +1,7 @@
 ﻿---
-title: Using Charts to Represent Sequential Data
+title: Using Charts to Represent Sequential Data in Java
+articleTitle: Using Charts to Represent Sequential Data
+linktitle: Using Charts to Represent Sequential Data
 description: "Use charts to represent your sequential data when building a report Java."
 type: docs
 weight: 40

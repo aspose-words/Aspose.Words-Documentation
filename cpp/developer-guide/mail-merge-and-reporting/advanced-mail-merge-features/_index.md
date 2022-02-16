@@ -1,5 +1,7 @@
 ﻿---
-title: Advanced Mail Merge Features
+title: Advanced Mail Merge Features in C++
+articleTitle: Advanced Mail Merge Features
+linktitle: Advanced Mail Merge Features
 aliases:
   - /cpp/how-to-use-advanced-mail-merge-features/
 type: docs

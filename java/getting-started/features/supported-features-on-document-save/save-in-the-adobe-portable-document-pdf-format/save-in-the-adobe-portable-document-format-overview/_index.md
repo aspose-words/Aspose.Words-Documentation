@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the Adobe Portable Document Format Overview
+title: Save in the Adobe Portable Document Format Overview – Aspose.Words for Java
+articleTitle: Save in the Adobe Portable Document Format Overview
+linktitle: Save in the Adobe Portable Document Format Overview
 description: "Aspose.Words for Java allows you to work with different features supported when saving to PDF format."
 type: docs
 weight: 90

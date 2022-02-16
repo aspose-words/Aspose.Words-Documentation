@@ -1,5 +1,7 @@
 ﻿---
-title: Convert Between Measurement Units
+title: Convert Between Measurement Units in Java
+articleTitle: Convert Between Measurement Units
+linktitle: Convert Between Measurement Units
 description: "Aspose.Words for Java can help you with how to convert between measurement units, for example, inches to points and points to inches, pixels to points, points to pixels."
 type: docs
 weight: 110

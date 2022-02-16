@@ -1,5 +1,7 @@
 ﻿---
-title: Untangle Row Bookmarks in Python
+title: Untangle Row Bookmarks in Python – Aspose.Words for Java
+articleTitle: Untangle Row Bookmarks in Python
+linktitle: Untangle Row Bookmarks in Python
 description: "Python: Untangle Row Bookmarks using Aspose.Words for Java."
 type: docs
 weight: 20

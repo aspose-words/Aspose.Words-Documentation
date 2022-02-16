@@ -1,5 +1,7 @@
 ﻿---
-title: Numbering Features Supported on FlatOPC Import
+title: Numbering Features Supported on FlatOPC Import – Aspose.Words for Java
+articleTitle: Numbering Features Supported on FlatOPC Import
+linktitle: Numbering Features Supported on FlatOPC Import
 description: "Aspose.Words for Java allows you to work with numbering features supported on FlatOPC format import."
 type: docs
 weight: 70

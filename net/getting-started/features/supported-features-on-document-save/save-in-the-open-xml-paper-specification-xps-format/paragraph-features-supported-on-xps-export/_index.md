@@ -1,5 +1,7 @@
 ﻿---
-title: Paragraph Features Supported on XPS Export
+title: Paragraph Features Supported on XPS Export – Aspose.Words for .NET
+articleTitle: Paragraph Features Supported on XPS Export
+linktitle: Paragraph Features Supported on XPS Export
 description: "Aspose.Words for .NET allows you to work with paragraph features supported when saving to XPS format."
 type: docs
 weight: 80

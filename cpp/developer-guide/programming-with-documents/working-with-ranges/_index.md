@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Ranges
+title: Working with Ranges in C++
+articleTitle: Working with Ranges
+linktitle: Working with Ranges
 description: "Introduction to Range feature in Aspose.Words for C++."
 type: docs
 weight: 32

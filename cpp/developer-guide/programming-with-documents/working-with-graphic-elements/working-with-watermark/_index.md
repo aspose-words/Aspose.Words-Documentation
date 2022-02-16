@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Watermark
+title: Working with Watermark in C++
+articleTitle: Working with Watermark
+linktitle: Working with Watermark
 type: docs
 aliases:
  - /cpp/how-to-add-a-watermark-to-a-document/

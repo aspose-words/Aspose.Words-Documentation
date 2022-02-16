@@ -1,5 +1,7 @@
 ﻿---
-title: Sitefinity Word Import Module
+title: Sitefinity Word Import Module – Aspose.Words for .NET
+articleTitle: Sitefinity Word Import Module
+linktitle: Sitefinity Word Import Module
 description: "Read contents of any Word processing document using Aspose.Words Sitefinity Word Import Module."
 type: docs
 weight: 30

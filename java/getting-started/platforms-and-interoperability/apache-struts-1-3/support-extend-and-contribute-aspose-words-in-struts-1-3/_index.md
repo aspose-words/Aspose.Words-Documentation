@@ -1,5 +1,7 @@
 ﻿---
-title: Support, Extend and Contribute Aspose.Words in Struts 1.3
+title: Support, Extend and Contribute Aspose.Words in Struts 1.3 – Aspose.Words for Java
+articleTitle: Support, Extend and Contribute Aspose.Words in Struts 1.3
+linktitle: Support, Extend and Contribute Aspose.Words in Struts 1.3
 description: "Support, Extend and Contribute Aspose.Words for Struts."
 type: docs
 weight: 20

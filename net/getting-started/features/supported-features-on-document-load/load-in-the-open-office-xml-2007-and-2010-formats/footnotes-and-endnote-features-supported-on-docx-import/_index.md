@@ -1,5 +1,7 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on DOCX Import
+title: Footnotes and Endnote Features Supported on DOCX Import – Aspose.Words for .NET
+articleTitle: Footnotes and Endnote Features Supported on DOCX Import
+linktitle: Footnotes and Endnote Features Supported on DOCX Import
 description: "Aspose.Words for .NET allows you to work with footnotes and endnote features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 60

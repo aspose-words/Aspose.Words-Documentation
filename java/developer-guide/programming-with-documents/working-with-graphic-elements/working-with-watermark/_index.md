@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Watermark
+title: Working with Watermark in Java
+articleTitle: Working with Watermark
+linktitle: Working with Watermark
 type: docs
 weight: 70
 url: /java/working-with-watermark/

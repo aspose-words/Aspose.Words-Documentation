@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Shapes
+title: Working with Shapes in Java
+articleTitle: Working with Shapes
+linktitle: Working with Shapes
 type: docs
 weight: 10
 url: /java/working-with-shapes/

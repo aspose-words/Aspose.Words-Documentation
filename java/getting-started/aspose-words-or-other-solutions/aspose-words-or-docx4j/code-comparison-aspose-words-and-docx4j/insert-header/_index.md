@@ -1,5 +1,7 @@
 ﻿---
-title: Insert Header
+title: Insert Header – Aspose.Words for Java
+articleTitle: Insert Header
+linktitle: Insert Header
 description: "Aspose.Words for Java allows you to insert a header into a document easily and fast instead of using docx4j."
 type: docs
 weight: 20

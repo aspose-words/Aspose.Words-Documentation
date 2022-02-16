@@ -1,5 +1,7 @@
 ﻿---
-title: Joining Word Documents Together
+title: Joining Word Documents Together – Aspose.Words for .NET
+articleTitle: Joining Word Documents Together
+linktitle: Joining Word Documents Together
 description: "Aspose.Words for .NET allows you to join a few document together or append them easily and fast instead of using VSTO."
 type: docs
 weight: 20

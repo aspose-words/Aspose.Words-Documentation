@@ -1,5 +1,7 @@
 ﻿---
 title: Aspose.Words for CMS
+articleTitle: Aspose.Words for CMS
+linktitle: Aspose.Words for CMS
 description: "Integrating Aspose.Words for .NET with content management systems."
 type: docs
 weight: 110

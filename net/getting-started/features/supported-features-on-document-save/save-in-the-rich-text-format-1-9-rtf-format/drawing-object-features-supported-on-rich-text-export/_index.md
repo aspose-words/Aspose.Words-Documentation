@@ -1,5 +1,7 @@
 ﻿---
-title: Drawing Object Features Supported on Rich Text Export
+title: Drawing Object Features Supported on Rich Text Export – Aspose.Words for .NET
+articleTitle: Drawing Object Features Supported on Rich Text Export
+linktitle: Drawing Object Features Supported on Rich Text Export
 description: "Aspose.Words for .NET allows you to work with drawing features supported when saving to Rich Text format."
 type: docs
 weight: 40

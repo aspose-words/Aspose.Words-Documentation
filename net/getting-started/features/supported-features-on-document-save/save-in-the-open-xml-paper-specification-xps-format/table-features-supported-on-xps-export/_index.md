@@ -1,5 +1,7 @@
 ﻿---
-title: Table Features Supported on XPS Export
+title: Table Features Supported on XPS Export – Aspose.Words for .NET
+articleTitle: Table Features Supported on XPS Export
+linktitle: Table Features Supported on XPS Export
 description: "Aspose.Words for .NET allows you to work with table features supported when saving to XPS format."
 type: docs
 weight: 110

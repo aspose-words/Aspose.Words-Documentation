@@ -1,5 +1,7 @@
 ﻿---
-title: Table Features Supported on EPUB Export
+title: Table Features Supported on EPUB Export – Aspose.Words for Java
+articleTitle: Table Features Supported on EPUB Export
+linktitle: Table Features Supported on EPUB Export
 description: "Aspose.Words for Java allows you to work with table features supported when saving to EPUB format."
 type: docs
 weight: 120

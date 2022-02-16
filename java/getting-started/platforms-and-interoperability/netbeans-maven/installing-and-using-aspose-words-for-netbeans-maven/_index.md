@@ -1,5 +1,7 @@
 ﻿---
-title: Installing and Using Aspose.Words for NetBeans - Maven
+title: Installing and Using Aspose.Words for NetBeans - Maven – Aspose.Words for Java
+articleTitle: Installing and Using Aspose.Words for NetBeans - Maven
+linktitle: Installing and Using Aspose.Words for NetBeans - Maven
 description: "Installing and Using Aspose.Words Java for NetBeans (Maven) Plugin."
 type: docs
 weight: 10

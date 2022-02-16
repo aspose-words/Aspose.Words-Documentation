@@ -1,5 +1,7 @@
 ﻿---
-title: Insert Image in NPOI
+title: Insert Image in NPOI – Aspose.Words for .NET
+articleTitle: Insert Image in NPOI
+linktitle: Insert Image in NPOI
 description: "Aspose.Words for .NET allows you to add an image into a document easily and fast instead of using NPOI."
 type: docs
 weight: 20

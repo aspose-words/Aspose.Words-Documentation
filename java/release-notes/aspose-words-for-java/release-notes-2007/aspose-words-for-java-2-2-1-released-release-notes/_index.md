@@ -1,5 +1,7 @@
 ﻿---
 title: Aspose.Words for Java 2.2.1 Released Release Notes
+articleTitle: Aspose.Words for Java 2.2.1 Released Release Notes
+linktitle: Aspose.Words for Java 2.2.1 Released Release Notes
 description: "Aspose.Words for Java 2.2.1 Released Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20

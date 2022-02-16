@@ -1,5 +1,7 @@
 ﻿---
-title: Find and Replace Text in Documents
+title: Find and Replace Text in Documents – Aspose.Words for Java
+articleTitle: Find and Replace Text in Documents
+linktitle: Find and Replace Text in Documents
 description: "Aspose.Words for Java allows to find and replace text or strings. Apache POI does not provide an opportunity to find and replace."
 type: docs
 weight: 30

@@ -1,5 +1,7 @@
 ﻿---
 title: Android via Java Release Notes - 2020
+articleTitle: Android via Java Release Notes - 2020
+linktitle: Android via Java Release Notes - 2020
 description: "Android via Java Release Notes - 2020 – learn about the latest updates and fixes."
 type: docs
 weight: 10

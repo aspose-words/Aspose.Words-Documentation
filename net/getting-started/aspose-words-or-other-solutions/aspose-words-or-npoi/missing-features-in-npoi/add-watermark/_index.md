@@ -1,5 +1,7 @@
 ﻿---
-title: Add a Watermark
+title: Add a Watermark – Aspose.Words for .NET
+articleTitle: Add a Watermark
+linktitle: Add a Watermark
 description: "Aspose.Words for .NET allows to add a watermark into a document. NPOI does not provide an opportunity to add a watermark."
 type: docs
 weight: 90

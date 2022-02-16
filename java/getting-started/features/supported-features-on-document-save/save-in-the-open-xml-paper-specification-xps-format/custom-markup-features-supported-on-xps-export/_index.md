@@ -1,5 +1,7 @@
 ﻿---
-title: Custom Markup Features Supported on XPS Export
+title: Custom Markup Features Supported on XPS Export – Aspose.Words for Java
+articleTitle: Custom Markup Features Supported on XPS Export
+linktitle: Custom Markup Features Supported on XPS Export
 description: "Aspose.Words for Java allows you to work with custom markup features supported when saving to XPS format."
 type: docs
 weight: 20

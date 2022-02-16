@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words Java 2.2.0.0 New Release Release Notes
+title: Aspose.Words Java 2.2.0.0 New Release Release Notes – Aspose.Words for Java
+articleTitle: Aspose.Words Java 2.2.0.0 New Release Release Notes
+linktitle: Aspose.Words Java 2.2.0.0 New Release Release Notes
 description: "Aspose.Words Java 2.2.0.0 New Release Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30

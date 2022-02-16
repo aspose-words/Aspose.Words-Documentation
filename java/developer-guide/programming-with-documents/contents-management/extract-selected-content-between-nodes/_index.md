@@ -1,5 +1,7 @@
 ﻿---
-title: Extract Selected Content Between Nodes
+title: Extract Selected Content Between Nodes in Java
+articleTitle: Extract Selected Content Between Nodes
+linktitle: Extract Selected Content Between Nodes
 type: docs
 weight: 50
 url: /java/extract-selected-content-between-nodes/

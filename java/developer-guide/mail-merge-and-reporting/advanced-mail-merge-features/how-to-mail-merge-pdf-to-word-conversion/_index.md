@@ -1,5 +1,7 @@
 ﻿---
-title: How to Mail Merge PDF to Word Conversion
+title: How to Mail Merge PDF to Word Conversion in Java
+articleTitle: How to Mail Merge PDF to Word Conversion
+linktitle: How to Mail Merge PDF to Word Conversion
 type: docs
 weight: 100
 url: /java/how-to-mail-merge-pdf-to-word-conversion/

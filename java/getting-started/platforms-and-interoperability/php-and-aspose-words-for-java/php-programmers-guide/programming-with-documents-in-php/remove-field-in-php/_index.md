@@ -1,5 +1,7 @@
 ﻿---
-title: Remove Field in PHP
+title: Remove Field in PHP – Aspose.Words for Java
+articleTitle: Remove Field in PHP
+linktitle: Remove Field in PHP
 description: "PHP: Remove Field using Aspose.Words for Java."
 type: docs
 weight: 45

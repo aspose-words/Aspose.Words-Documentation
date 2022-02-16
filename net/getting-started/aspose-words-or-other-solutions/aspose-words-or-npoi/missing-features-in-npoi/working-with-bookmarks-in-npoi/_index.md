@@ -1,5 +1,7 @@
 ﻿---
-title: Work with Bookmarks
+title: Work with Bookmarks – Aspose.Words for .NET
+articleTitle: Work with Bookmarks
+linktitle: Work with Bookmarks
 description: "Aspose.Words for .NET allows to add a bookmark into a document. NPOI does not provide an opportunity to work with bookmarks."
 type: docs
 weight: 80

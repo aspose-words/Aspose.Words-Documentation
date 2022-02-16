@@ -1,5 +1,7 @@
 ﻿---
-title: Custom Markup Features Supported on EPUB Export
+title: Custom Markup Features Supported on EPUB Export – Aspose.Words for Java
+articleTitle: Custom Markup Features Supported on EPUB Export
+linktitle: Custom Markup Features Supported on EPUB Export
 description: "Aspose.Words for Java allows you to work with custom markup features supported when saving to EPUB format."
 type: docs
 weight: 20

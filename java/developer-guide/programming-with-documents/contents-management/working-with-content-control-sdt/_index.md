@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Content Control SDT
+title: Working with Content Control SDT in Java
+articleTitle: Working with Content Control SDT
+linktitle: Working with Content Control SDT
 type: docs
 weight: 70
 url: /java/working-with-content-control-sdt/

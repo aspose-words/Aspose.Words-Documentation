@@ -1,5 +1,7 @@
 ﻿---
-title: Insert Checkboxes, HTML or Images During Mail Merge
+title: Insert Checkboxes, HTML or Images During Mail Merge in C#
+articleTitle: Insert Checkboxes, HTML or Images During Mail Merge
+linktitle: Insert Checkboxes, HTML or Images During Mail Merge
 description: "Mail merge practices using Aspose.Words for .Net."
 type: docs
 weight: 40

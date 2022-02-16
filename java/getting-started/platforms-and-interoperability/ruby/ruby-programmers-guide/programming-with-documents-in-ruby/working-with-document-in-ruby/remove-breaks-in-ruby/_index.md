@@ -1,5 +1,7 @@
 ﻿---
-title: Remove Breaks in Ruby
+title: Remove Breaks in Ruby – Aspose.Words for Java
+articleTitle: Remove Breaks in Ruby
+linktitle: Remove Breaks in Ruby
 description: "Ruby: remove breaks using Aspose.Words for Java."
 type: docs
 weight: 20

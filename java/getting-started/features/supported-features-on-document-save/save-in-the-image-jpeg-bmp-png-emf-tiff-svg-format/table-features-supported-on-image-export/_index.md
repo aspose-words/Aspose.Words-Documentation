@@ -1,5 +1,7 @@
 ﻿---
-title: Table Features Supported on Image Export
+title: Table Features Supported on Image Export – Aspose.Words for Java
+articleTitle: Table Features Supported on Image Export
+linktitle: Table Features Supported on Image Export
 description: "Aspose.Words for Java allows you to work with table features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 120

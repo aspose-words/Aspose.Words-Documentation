@@ -1,5 +1,7 @@
 ﻿---
-title: IntelliJ IDEA
+title: IntelliJ IDEA – Aspose.Words for Java
+articleTitle: IntelliJ IDEA
+linktitle: IntelliJ IDEA
 description: "IntelliJ IDEA: using Aspose.Words for Java."
 type: docs
 weight: 70

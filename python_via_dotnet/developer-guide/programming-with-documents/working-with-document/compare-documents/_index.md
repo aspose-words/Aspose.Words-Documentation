@@ -1,5 +1,7 @@
 ﻿---
-title: Compare Documents
+title: Compare Documents in Python
+articleTitle: Compare Documents
+linktitle: Compare Documents
 description: "Aspose.Words for Python via .NET allows you to compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
 type: docs
 weight: 50

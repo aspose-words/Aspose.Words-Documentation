@@ -1,5 +1,7 @@
 ﻿---
-title: Save a Document
+title: Save a Document in C++
+articleTitle: Save a Document
+linktitle: Save a Document
 type: docs
 description: "Aspose.Words for C++ enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
 keywords: "save a document c++, save a document to file c++, save a document to stream c++, save a document Aspose C++, save formats supported by Aspose.Words C++"

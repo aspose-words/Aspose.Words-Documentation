@@ -1,5 +1,7 @@
 ﻿---
-title: Create or Load a Document
+title: Create or Load a Document in Java
+articleTitle: Create or Load a Document
+linktitle: Create or Load a Document
 type: docs
 weight: 10
 url: /java/create-or-load-a-document/

@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Text Document
+title: Working with Text Document in Python
+articleTitle: Working with Text Document
+linktitle: Working with Text Document
 description: "Work with a text document and modiffy its objects using python."
 type: docs
 weight: 220

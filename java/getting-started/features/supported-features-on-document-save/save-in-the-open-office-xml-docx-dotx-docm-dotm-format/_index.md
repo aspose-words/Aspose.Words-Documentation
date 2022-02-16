@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
+title: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format – Aspose.Words for Java
+articleTitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
+linktitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
 description: "Aspose.Words for Java allows you to work with various features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 110

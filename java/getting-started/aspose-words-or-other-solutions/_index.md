@@ -1,5 +1,7 @@
 ﻿---
-title: Aspose.Words or Other Solutions
+title: Aspose.Words or Other Solutions – Aspose.Words for Java
+articleTitle: Aspose.Words or Other Solutions
+linktitle: Aspose.Words or Other Solutions
 type: docs
 weight: 50
 url: /java/aspose-words-or-other-solutions/

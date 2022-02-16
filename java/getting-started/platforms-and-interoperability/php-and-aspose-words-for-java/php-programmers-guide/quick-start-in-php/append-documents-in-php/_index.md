@@ -1,5 +1,7 @@
 ﻿---
-title: Append Documents in PHP
+title: Append Documents in PHP – Aspose.Words for Java
+articleTitle: Append Documents in PHP
+linktitle: Append Documents in PHP
 description: "PHP: append Documents using Aspose.Words Java."
 type: docs
 weight: 10

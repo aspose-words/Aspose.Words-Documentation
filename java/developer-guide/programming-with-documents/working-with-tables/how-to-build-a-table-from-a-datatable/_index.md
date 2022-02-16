@@ -1,5 +1,7 @@
 ﻿---
-title: How to Build a Table from a DataTable
+title: How to Build a Table from a DataTable in Java
+articleTitle: How to Build a Table from a DataTable
+linktitle: How to Build a Table from a DataTable
 description: "Example of filling document table from external database using Aspose.Words for Java."
 type: docs
 weight: 130

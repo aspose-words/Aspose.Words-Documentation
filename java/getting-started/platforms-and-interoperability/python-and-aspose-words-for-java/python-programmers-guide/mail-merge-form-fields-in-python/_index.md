@@ -1,5 +1,7 @@
 ﻿---
-title: Mail Merge Form Fields in Python
+title: Mail Merge Form Fields in Python – Aspose.Words for Java
+articleTitle: Mail Merge Form Fields in Python
+linktitle: Mail Merge Form Fields in Python
 description: "Python: Mail Merge Form Fields using Aspose.Words for Java."
 type: docs
 weight: 30

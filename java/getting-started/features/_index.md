@@ -1,5 +1,7 @@
 ﻿---
-title: Features
+title: Features – Aspose.Words for Java
+articleTitle: Features
+linktitle: Features
 description: "Aspose.Words for Java provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
 weight: 40

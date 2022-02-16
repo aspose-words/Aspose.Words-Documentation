@@ -1,5 +1,7 @@
 ﻿---
-title: Metadata Cleaner for Outlook
+title: Metadata Cleaner for Outlook – Aspose.Words for .NET
+articleTitle: Metadata Cleaner for Outlook
+linktitle: Metadata Cleaner for Outlook
 description: "Aspose.Words Metadata Cleaner for Outlook is a metadata removal tool which protects organizations from accidental information and metadata leaks."
 type: docs
 weight: 10

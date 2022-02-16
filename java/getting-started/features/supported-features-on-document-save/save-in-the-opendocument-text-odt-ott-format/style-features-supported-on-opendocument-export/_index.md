@@ -1,5 +1,7 @@
 ﻿---
-title: Style Features Supported on OpenDocument Export
+title: Style Features Supported on OpenDocument Export – Aspose.Words for Java
+articleTitle: Style Features Supported on OpenDocument Export
+linktitle: Style Features Supported on OpenDocument Export
 description: "Aspose.Words for Java allows you to work with style features supported when saving to OpenDocument Text format."
 type: docs
 weight: 110

@@ -1,5 +1,7 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on EPUB Export
+title: Footnotes and Endnote Features Supported on EPUB Export – Aspose.Words for Java
+articleTitle: Footnotes and Endnote Features Supported on EPUB Export
+linktitle: Footnotes and Endnote Features Supported on EPUB Export
 description: "Aspose.Words for Java allows you to work with footnote and endnote features supported when saving to EPUB format."
 type: docs
 weight: 60

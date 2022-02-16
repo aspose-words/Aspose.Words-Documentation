@@ -1,5 +1,7 @@
 ﻿---
-title: Support, Extend and Contribute to Aspose.Words in PHP
+title: Support, Extend and Contribute to Aspose.Words in PHP – Aspose.Words for Java
+articleTitle: Support, Extend and Contribute to Aspose.Words in PHP
+linktitle: Support, Extend and Contribute to Aspose.Words in PHP
 description: "PHP: Support, Extend and Contribute to Aspose.Words for Java."
 type: docs
 weight: 30

@@ -1,5 +1,7 @@
 ﻿---
-title: Working With Fields in Ruby
+title: Working With Fields in Ruby – Aspose.Words for Java
+articleTitle: Working With Fields in Ruby
+linktitle: Working With Fields in Ruby
 description: "Ruby: working with Documnet's Fields using Aspose.Words for Java."
 type: docs
 weight: 50

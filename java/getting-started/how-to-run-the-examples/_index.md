@@ -1,5 +1,7 @@
 ﻿---
-title: How to Run the Examples
+title: How to Run the Examples – Aspose.Words for Java
+articleTitle: How to Run the Examples
+linktitle: How to Run the Examples
 type: docs
 weight: 130
 url: /java/how-to-run-the-examples/

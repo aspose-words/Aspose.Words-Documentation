@@ -1,5 +1,7 @@
 ﻿---
-title: Append Documents in PHP
+title: Append Documents in PHP – Aspose.Words for .NET
+articleTitle: Append Documents in PHP
+linktitle: Append Documents in PHP
 description: "Appending documents using Aspose.Words for .NET in PHP using COM."
 type: docs
 weight: 10

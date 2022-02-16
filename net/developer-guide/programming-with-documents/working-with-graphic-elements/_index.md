@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Graphic Elements
+title: Working with Graphic Elements in C#
+articleTitle: Working with Graphic Elements
+linktitle: Working with Graphic Elements
 description: "Introduction to Shape node, basic graphic element in Aspose.Words for .Net."
 type: docs
 weight: 150

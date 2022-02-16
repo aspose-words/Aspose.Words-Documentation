@@ -1,5 +1,7 @@
 ﻿---
-title: Insert a Hyperlink
+title: Insert a Hyperlink – Aspose.Words for .NET
+articleTitle: Insert a Hyperlink
+linktitle: Insert a Hyperlink
 description: "Aspose.Words for .NET allows to insert a hyperlink into a document. NPOI does not provide an opportunity to insert a hyperlink."
 type: docs
 weight: 110

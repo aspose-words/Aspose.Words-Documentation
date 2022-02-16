@@ -1,5 +1,7 @@
 ﻿---
-title: Detect File Format and Check Format Compatibility
+title: Detect File Format and Check Format Compatibility in C++
+articleTitle: Detect File Format and Check Format Compatibility
+linktitle: Detect File Format and Check Format Compatibility
 description: "Aspose.Words for C++ enables you to determine the file format if you are not sure what the actual content of the file is, or to check the format compatibility. This allows to avoid possible exceptions."
 type: docs
 weight: 20

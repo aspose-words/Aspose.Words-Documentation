@@ -1,5 +1,7 @@
 ﻿---
-title: Insert Nested Fields in Ruby
+title: Insert Nested Fields in Ruby – Aspose.Words for Java
+articleTitle: Insert Nested Fields in Ruby
+linktitle: Insert Nested Fields in Ruby
 description: "Ruby: insert Nested Fields using Aspose.Words for Java."
 type: docs
 weight: 10

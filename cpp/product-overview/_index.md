@@ -1,5 +1,7 @@
 ﻿---
-title: Product Overview
+title: Product Overview – Aspose.Words for С++
+articleTitle: Product Overview
+linktitle: Product Overview
 description: "With Aspose.Words for C++ you can create, modify, convert, render, and print documents without relying on third-party applications. Aspose.Words is a cross-platform class library."
 type: docs
 weight: 5

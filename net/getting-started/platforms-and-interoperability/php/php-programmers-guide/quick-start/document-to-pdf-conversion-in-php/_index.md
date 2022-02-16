@@ -1,5 +1,7 @@
 ﻿---
-title: Document to PDF Conversion in PHP
+title: Document to PDF Conversion in PHP – Aspose.Words for .NET
+articleTitle: Document to PDF Conversion in PHP
+linktitle: Document to PDF Conversion in PHP
 description: "Converting documents using Aspose.Words for .NET in PHP using COM."
 type: docs
 weight: 20

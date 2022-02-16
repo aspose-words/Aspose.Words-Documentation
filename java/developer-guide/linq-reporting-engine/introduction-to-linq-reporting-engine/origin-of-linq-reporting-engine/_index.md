@@ -1,5 +1,7 @@
 ﻿---
-title: Origin of LINQ Reporting Engine
+title: Origin of LINQ Reporting Engine in Java
+articleTitle: Origin of LINQ Reporting Engine
+linktitle: Origin of LINQ Reporting Engine
 description: "Learn the concept of LINQ Reporting Engine to build a report Java."
 type: docs
 weight: 10

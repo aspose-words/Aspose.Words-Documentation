@@ -1,5 +1,7 @@
 ﻿---
-title: Custom Markup Features Supported on WordprocessingML Import
+title: Custom Markup Features Supported on WordprocessingML Import – Aspose.Words for Java
+articleTitle: Custom Markup Features Supported on WordprocessingML Import
+linktitle: Custom Markup Features Supported on WordprocessingML Import
 description: "Aspose.Words for Java allows you to work with custom markup features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 20

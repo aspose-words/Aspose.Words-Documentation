@@ -1,5 +1,7 @@
 ﻿---
-title: LINQ Reporting Engine API
+title: LINQ Reporting Engine API in C#
+articleTitle: LINQ Reporting Engine API
+linktitle: LINQ Reporting Engine API
 description: "Learn LINQ Reporting Engine API to build a report C#."
 type: docs
 weight: 40

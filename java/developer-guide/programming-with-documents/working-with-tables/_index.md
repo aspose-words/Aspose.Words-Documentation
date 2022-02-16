@@ -1,5 +1,7 @@
 ﻿---
-title: Working with Tables
+title: Working with Tables in Java
+articleTitle: Working with Tables
+linktitle: Working with Tables
 description: "Introducing to Table node concepts in Aspose.Words for .Net."
 type: docs
 weight: 60

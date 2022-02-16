@@ -1,5 +1,7 @@
 ﻿---
-title: Autofit Setting to Tables
+title: Autofit Setting to Tables – Aspose.Words for Java
+articleTitle: Autofit Setting to Tables
+linktitle: Autofit Setting to Tables
 description: "Aspose.Words for Java allows to autofit settings to tables. Apache POI does not provide an opportunity to autofit settings to tables."
 type: docs
 weight: 60

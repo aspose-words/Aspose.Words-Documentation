@@ -1,5 +1,7 @@
 ﻿---
-title: Save in the Rich Text Format 1.9 (.RTF) Format
+title: Save in the Rich Text Format 1.9 (.RTF) Format – Aspose.Words for Java
+articleTitle: Save in the Rich Text Format 1.9 (.RTF) Format
+linktitle: Save in the Rich Text Format 1.9 (.RTF) Format
 description: "Aspose.Words for Java allows you to work with various features supported when saving to Rich Text format."
 type: docs
 weight: 150

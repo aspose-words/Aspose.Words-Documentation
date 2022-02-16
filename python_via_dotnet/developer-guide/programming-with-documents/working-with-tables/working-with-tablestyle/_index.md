@@ -1,5 +1,7 @@
 ﻿---
-title: Working with TableStyle
+title: Working with TableStyle in Python
+articleTitle: Working with TableStyle
+linktitle: Working with TableStyle
 description: "Manage table style in a document using python."
 type: docs
 weight: 30

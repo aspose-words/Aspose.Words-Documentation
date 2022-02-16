@@ -1,5 +1,7 @@
 ﻿---
-title: Loading And Saving in Python
+title: Loading And Saving in Python – Aspose.Words for Java
+articleTitle: Loading And Saving in Python
+linktitle: Loading And Saving in Python
 description: "Python: Loading And Saving Documents using Aspose.Words for Java."
 type: docs
 weight: 40

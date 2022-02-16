@@ -1,5 +1,7 @@
 ---
-title: Using DocumentBuilder to Modify a Document
+title: Using DocumentBuilder to Modify a Document in Java
+articleTitle: Using DocumentBuilder to Modify a Document
+linktitle: Using DocumentBuilder to Modify a Document
 type: docs
 weight: 20
 url: /java/using-documentbuilder-to-modify-a-document/

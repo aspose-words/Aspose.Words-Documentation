@@ -1,5 +1,7 @@
 ﻿---
-title: PHP Programmers Guide
+title: PHP Programmers Guide – Aspose.Words for .NET
+articleTitle: PHP Programmers Guide
+linktitle: PHP Programmers Guide
 description: "Aspose.Words for .NET PHP Programmers Guide."
 type: docs
 weight: 10

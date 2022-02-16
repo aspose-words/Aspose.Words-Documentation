@@ -1,5 +1,7 @@
 ﻿---
-title: Document Features Supported on WordprocessingML Export
+title: Document Features Supported on WordprocessingML Export – Aspose.Words for .NET
+articleTitle: Document Features Supported on WordprocessingML Export
+linktitle: Document Features Supported on WordprocessingML Export
 description: "Aspose.Words for .NET allows you to work with document features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 30
