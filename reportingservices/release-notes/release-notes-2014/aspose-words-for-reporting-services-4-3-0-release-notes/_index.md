@@ -8,11 +8,11 @@ weight: 10
 url: /reportingservices/aspose-words-for-reporting-services-4-3-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 4.3.0 (Msi)](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-4.3.0-\(msi\)/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome a major release of Aspose.Words for Reporting Services with full support of SQL Server 2014.
 

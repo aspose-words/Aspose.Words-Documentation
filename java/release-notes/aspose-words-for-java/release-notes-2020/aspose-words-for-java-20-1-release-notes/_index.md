@@ -8,11 +8,11 @@ weight: 60
 url: /java/aspose-words-for-java-20-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 20.1](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.1).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 
@@ -133,11 +133,11 @@ WORDSNET-12204. Added setters for following table properties: RelativeHorizontal
 
 These properties allow setting floating table position.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that this is combined property, i.e setting RelativeHorizontalAlignment will reset AbsoluteHorizontalDistance to the default value and vice versa. The same is for vertical positioning.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 

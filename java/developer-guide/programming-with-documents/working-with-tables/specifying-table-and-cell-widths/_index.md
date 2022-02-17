@@ -8,13 +8,13 @@ weight: 40
 url: /java/specifying-table-and-cell-widths/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table in a Microsoft word document provides several different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table.
 
 This article gives an in-depth look into how the different width calculation properties of tables work and provides information which will allow you gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Different Widths on Table
 
@@ -65,11 +65,11 @@ The following code example shows how to set a table to auto fit to 50% of the pa
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyAPreferredWidthOnATable-SpecifyAPreferredWidthOnATable.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Before you can use preferred widths on a table you must make sure that the table contains at least one row. This is because such table formatting in a Microsoft Word document is stored in the rows of a table.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 #### Specifying Preferred Width on a Cell
 

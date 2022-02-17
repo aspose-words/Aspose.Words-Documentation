@@ -50,11 +50,11 @@ The following code example finds all runs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-runsByStyleName.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When both queries are implemented, all you need to do is to pass a document object and specify the style names of the content you want to retrieve:
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example run queries and display results.
 

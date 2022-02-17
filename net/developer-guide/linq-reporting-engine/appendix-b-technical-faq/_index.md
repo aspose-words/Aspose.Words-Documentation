@@ -8,11 +8,11 @@ weight: 60
 url: /net/appendix-b-technical-faq/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This section reveals some technical aspects and implementation details related to LINQ Reporting Engine. This information can be useful for you while making design decisions for your applications. The information is provided in a question-answer form.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## How is the type of an enumeration item implicitly determined by the engine in template expressions?
 

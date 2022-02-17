@@ -8,11 +8,11 @@ weight: 140
 url: /jasperreports/using-rest-api/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports (from v2.6.0) can be used with JasperServer REST API (v2).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Use Aspose exporters using REST API
 

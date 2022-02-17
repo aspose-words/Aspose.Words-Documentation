@@ -8,7 +8,7 @@ weight: 40
 url: /net/drawing-object-features-supported-on-opendocument-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports many types of drawing entities on document load.
 
@@ -20,7 +20,7 @@ Almost all properties that deal with object positioning use points as a unit of 
 
 [Jump to this location in the export section](/words/net/drawing-object-features-supported-on-opendocument-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Images
 

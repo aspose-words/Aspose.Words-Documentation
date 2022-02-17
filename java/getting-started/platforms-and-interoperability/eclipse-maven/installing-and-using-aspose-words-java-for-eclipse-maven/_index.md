@@ -42,11 +42,11 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 
 **Aspose.Words Code Example wizard** allows you to try out many samples provided for [Aspose.Words for Java](https://products.aspose.com/words/java/) API.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 To be able to use **Aspose.Words Code Example wizard** comfortably: it is recommended to always select **Also Download Code Examples** while creating **Maven Project** on **Aspose.Words Maven Project** **wizard**, 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 To use examples, just:
 

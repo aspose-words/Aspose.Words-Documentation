@@ -8,11 +8,11 @@ weight: 90
 url: /net/aspose-words-net-3-6-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 3.6.0.0 New Release](https://downloads.aspose.com/words/net/new-releases/aspose.words-.net-3.6.0.0-new-release/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Added a lot of new code examples to the API. Both in C# and VB.NET. The work on code examples continues, we will eventually have examples for all members.
 - Added IMailMergeDataSource interface. Now a mail merge is possible from any custom data source.

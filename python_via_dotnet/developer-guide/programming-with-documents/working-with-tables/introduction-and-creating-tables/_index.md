@@ -87,11 +87,11 @@ Aspose.Words provides several different methods to create new tables in a docume
 |Left and Right Padding|5.4 pts|
 |AutoFit Mode|AutoFit to Window|
 |Allow AutoFit|True|
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table can be inline where it is tightly positioned or can be floating where it can be positioned anywhere on the page. By default, Aspose.Words always creates inline tables.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Inserting a Table using DocumentBuilder
 
@@ -175,11 +175,11 @@ Often there are times when you have an existing table in a document and would li
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneCompleteTable.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The same technique can be used to add copies of an existing row to a table.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
@@ -211,11 +211,11 @@ A **Table** like any other node in Aspose.Words has access to a **Range** object
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractText.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The same technique is used to extract the content from individual cells of a table only.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Below example shows how to print the text range of row and table elements.
 

@@ -8,7 +8,7 @@ weight: 50
 url: /net/field-features-supported-on-html-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
@@ -30,7 +30,7 @@ Using Aspose.Words you can insert new fields, as well as find and modify existin
 
 ` `There are plans to try make some fields round-trip capable back to Word document formats by adding extra markup to the output HTML. There are also plans to import of fields from HTML by allowing the user to define a custom syntax that is imported into the model as a working field.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Field Codes
 

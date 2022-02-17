@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-pdf-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Any document loaded into Aspose.Words can be converted to PDF that conforms to one of the following compliance levels.
 
@@ -37,7 +37,7 @@ See the following links in the documentation for further information:
 - [PdfSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
 - [PdfSaveOptions.Compliance](https://apireference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

@@ -8,13 +8,13 @@ weight: 130
 url: /java/text-features-supported-on-rich-text-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Characters
 

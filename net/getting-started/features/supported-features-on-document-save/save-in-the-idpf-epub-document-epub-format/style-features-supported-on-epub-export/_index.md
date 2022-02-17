@@ -8,7 +8,7 @@ weight: 100
 url: /net/style-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Style type itself is not exported to CSS but it is implied by the specific attributes exported to that style.
 
@@ -16,7 +16,7 @@ There is a setting to export paragraph and character styles as inline CSS (style
 
 Character styles often are saved with .span prefix.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Style Type
 

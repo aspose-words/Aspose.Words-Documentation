@@ -19,11 +19,11 @@ When you are dealing with multiple documents in various file formats, you may ne
 
 If you attempt to load a file into a **Document** object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the **detect_file_format** method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a **FileFormatInfo** object that contains the detected information about the file type.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **detect_file_format** only checks the file format but does not validate the file format. There is no guarantee that the file will be opened successfully, even if **detect_file_format** returns that it is one of the supported formats. This is because of **detect_file_format** method reads only partial file format data, sufficient for checking the file format, but not enough for complete validation.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Check Files Format Compatibility
 

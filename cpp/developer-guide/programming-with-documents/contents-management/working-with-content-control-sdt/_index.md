@@ -29,11 +29,11 @@ The ControlChar class is a repository for the constants that represent control
 
 If you want to set the style of content control, you can use StructuredDocumentTag.Style or StructuredDocumentTag.StyleName properties.The below code example shows how to set the style of content control. When you type the text into content control in the output document, the typed text will have style "Quote".
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that only Linked and Character styles can be applied to content control. An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlStyle.cpp" >}}
 

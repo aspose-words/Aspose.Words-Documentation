@@ -8,11 +8,11 @@ weight: 20
 url: /java/custom-markup-features-supported-on-image-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When converting to a document format that does not support custom markup features, the markup is stripped but content is preserved. The non-Microsoft Word document formats do not support custom markup and only text is exported.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## CustomXML
 

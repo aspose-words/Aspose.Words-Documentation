@@ -8,11 +8,11 @@ weight: 40
 url: /java/aspose-words-for-java-3-1-1-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 3.1.1.1](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-3.1.1.1/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This special build has two small fixes in HTML load for one of our customers. If you do not have these problems, you do not need to use this build. Wait for next release.
 

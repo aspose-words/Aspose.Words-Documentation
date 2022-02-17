@@ -8,7 +8,7 @@ weight: 50
 url: /java/field-features-supported-on-html-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are place holders in the document which can be dynamically updated to display new information. The most common type of fields is MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
@@ -40,7 +40,7 @@ There are also plans to import fields from HTML by allowing the user to define a
 
 [Jump to this location in the export section](/words/java/field-features-supported-on-html-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Field Codes
 

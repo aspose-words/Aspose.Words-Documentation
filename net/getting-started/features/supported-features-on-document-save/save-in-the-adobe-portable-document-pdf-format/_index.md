@@ -8,11 +8,11 @@ weight: 30
 url: /net/save-in-the-adobe-portable-document-pdf-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in PDF format.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

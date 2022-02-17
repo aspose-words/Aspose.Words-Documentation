@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-image-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into many different rendered formats.
 
@@ -41,7 +41,7 @@ See the following links in the documentation for further information:
 - **ImageSaveOptions**
 - **SvgSaveOptions**
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

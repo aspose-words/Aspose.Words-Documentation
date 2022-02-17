@@ -17,11 +17,11 @@ The following code example shows how to set the save options before saving the d
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifySaveOption-SpecifySaveOption.java" >}}
 
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/LoadingSavingAndConverting/TestFile%20RenderShape.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The article describes a few properties you can control when saving a document.
 

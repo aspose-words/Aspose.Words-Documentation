@@ -10,7 +10,7 @@ url: /java/drawing-object-features-supported-on-image-export/
 
 ## Images
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 All images are exported as the same format that they were originally loaded as.
 
@@ -19,7 +19,7 @@ See the following links in the documentation for further information:
 - **SvgSaveOptions.ExportEmbeddedImages**
 - **SvgSaveOptions.ResourcesFolder**
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -45,11 +45,11 @@ When you run the project, it prints a sample document on the specified printer a
 
 You can also set some print settings using the [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup) class. For example, in Microsoft Word, printer trays are defined for each section and are printer-specific. Therefore, you can programmatically change these values for each section via the [FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) and [OtherPagesTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/otherpagestray) properties.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In some cases, you may need to use this sample without Aspose.Words. For example, when you already have an XPS document and just want to print it from an ASP.NET or Windows Service application. Then, you can just delete the Print method.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 There are two overloads of the **XpsPrintHelper**.**Print** method. The first overload takes a [Document](https://apireference.aspose.com/words/net/aspose.words/document) object and saves it into a MemoryStream in the XPS format. The second overload accepts a Stream object. The stream must contain a document in the XPS format.
 
@@ -69,11 +69,11 @@ The following example shows how to use these classes to print a document from As
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintPreviewSettingsDialog-PrintPreviewSettingsDialogEvent.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The **AllowSomePages** property enables you to select a range of pages for printing if the value of this property is True. By default, all pages in the range are selected for printing.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 To optimize the appearance of Print Preview dialog settings, specify properties of the **PrintPreviewDialog** class.
 
@@ -83,7 +83,7 @@ It is always beneficial to have more flexibility when printing documents. Using 
 
 As in the previous section, Aspose.Words implements the **MultipagePrintDocument** class, which is based on the .NET **PrintDocument** class. This means that the existing .NET printing infrastructure can be used in such a way that the print and print preview dialogs would enable visualizing of the document before printing. The **MultipagePrintDocument** class provides the ability to print several pages on one sheet of paper.
 
-{{% alert color="primary" %}} You can download an example of using the **MultipagePrintDocument** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MultipagePrintDocumentExample). {{% /alert %}} 
+{{% alert color="primary" %}} You can download an example of using the **MultipagePrintDocument** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MultipagePrintDocumentExample). {{% /alert %}}
 
 The result of this code example is shown below:
 

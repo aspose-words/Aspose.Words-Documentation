@@ -8,11 +8,11 @@ weight: 30
 url: /jasperreports/aspose-words-for-jasperreports-1-1-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for JasperReports 1.1.0](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-1.1.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome a new release of Aspose.Words for JasperReports. In this release, you will find the support for two additional export formats - RTF and ODT, as well as exporting of lines and rectangles and other great features.
 

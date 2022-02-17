@@ -25,7 +25,7 @@ You can compare two documents online by using the [Document comparison online](h
 
 Note that the comparison method, described below, is used in this tool to ensure getting equal results. So you will get the same results even by using the online comparison tool or by using the comparison method in Aspose.Words.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Limitations and Supported File Formats {#limitations-and-supported-file-formats}
 

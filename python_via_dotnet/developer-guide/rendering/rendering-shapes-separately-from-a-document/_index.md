@@ -36,11 +36,11 @@ The shape types described above provide a special method to render the shapes th
 - File on the disk
 - Stream
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When rendering a **Shape**, it must be a part of the document hierarchy. If the **Shape** is not a part of the document tree then the rendered output will be blank after invoking **ShapeRenderer** methods.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Rendering to File or Stream
 

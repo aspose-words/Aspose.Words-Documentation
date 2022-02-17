@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-pdf-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Any document loaded into Aspose.Words can be converted to PDF that conforms to the PDF 1.5 or PDF/A-1b specification. Support for PDF/A-1a specification is planned.
 
@@ -33,7 +33,7 @@ See the following links in the documentation for further information:
 - [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions)
 - [PdfSaveOptions.Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/compliance)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

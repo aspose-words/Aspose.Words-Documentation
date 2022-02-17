@@ -41,11 +41,11 @@ You can specify criteria using the [DocumentSplitCriteria](https://apireference
 
 When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You cannot split a document using the [DocumentSplitCriteria](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentsplitcriteria) property when saving to MHTML format.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In this section, we consider only some of the possible split criteria.
 

@@ -8,11 +8,11 @@ weight: 10
 url: /reportingservices/aspose-words-for-reporting-services-2-3-0-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 2.3.0.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-2.3.0.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This release introduces an amazing feature never offered before. Now the installation package includes two assemblies that allow you to add Microsoft Word formats to the Microsoft Report Viewer control working in local mode! Just add a reference to an appropriate assembly (depending on the version of the control - 2005 or 2008) and implement a short method as described in the documentation - and you will notice additional export format appeared on the dropdown list.
 

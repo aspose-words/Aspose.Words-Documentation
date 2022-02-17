@@ -8,7 +8,7 @@ weight: 110
 url: /java/table-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table is comprised of rows and cells and is used to display data in a grid-like layout.
 
@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section](/words/java/table-features-supported-on-flatopc-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

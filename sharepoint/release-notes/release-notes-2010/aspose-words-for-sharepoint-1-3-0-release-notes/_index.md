@@ -8,11 +8,11 @@ weight: 30
 url: /sharepoint/aspose-words-for-sharepoint-1-3-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for SharePoint 1.3.0](https://downloads.aspose.com/words/sharepoint)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Aspose.Words for SharePoint v.1.3 has been released.
 

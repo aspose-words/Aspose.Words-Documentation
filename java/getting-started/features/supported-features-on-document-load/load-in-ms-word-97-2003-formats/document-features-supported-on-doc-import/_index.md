@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-doc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports most DOC document features and can read DOC files created by the software listed below. When Aspose.Words writes a DOC file, the same set of software can read it:
 
@@ -29,7 +29,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

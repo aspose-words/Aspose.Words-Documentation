@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that not all Microsoft Word document features are avlaible in HTML format and some features may be lost or converted to image.
 
@@ -42,7 +42,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

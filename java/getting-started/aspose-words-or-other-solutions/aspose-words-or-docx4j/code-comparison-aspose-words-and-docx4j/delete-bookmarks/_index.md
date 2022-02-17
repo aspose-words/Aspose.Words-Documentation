@@ -54,7 +54,7 @@ wordMLPackage.save(new java.io.File(dataDir + "Docx4jBookmarkDeleted.docx"));
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/bookmarks/addbookmark)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Bookmarks in Aspose.Words](/words/java/working-with-bookmarks/).
 

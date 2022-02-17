@@ -8,11 +8,11 @@ weight: 50
 url: /jasperreports/aspose-words-for-jasperreports-17-6-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes of [Aspose.Words for JasperReports 17.6](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-17.6/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Important note:
 

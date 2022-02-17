@@ -8,11 +8,11 @@ weight: 80
 url: /java/aspose-words-for-java-3-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 3.0](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-3.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome our next major release of Aspose.Words for Java! Support for RTF and ODT is added in this release!
 

@@ -8,11 +8,11 @@ weight: 10
 url: /java/annotation-features-supported-on-doc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Bookmarks
 

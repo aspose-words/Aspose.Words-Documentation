@@ -8,11 +8,11 @@ weight: 70
 url: /net/aspose-words-for-net-5-0-2-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 5.0.2](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-5.0.2/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Here is a set of fixes that were supposed to go out in the previous hotfix 5.0.1, but due to a problem in the build process they got skipped.
 

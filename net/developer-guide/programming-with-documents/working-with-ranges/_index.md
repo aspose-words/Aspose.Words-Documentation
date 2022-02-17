@@ -8,11 +8,11 @@ weight: 65
 url: /net/working-with-ranges/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In Aspose.Words, a Range is a “flat window” into an otherwise tree-like model of the document.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 If you have worked with Microsoft Word Automation, you probably know that one of the main tools to examine and modify document content is the **Range** object. **Range** is like a "window" into the document content and formatting. Aspose.Words also has the [Range](https://apireference.aspose.com/words/net/aspose.words/range) class and it is designed to look and act similarly to **Range** in Microsoft Word. Although **Range** cannot cover an arbitrary portion of a document and does not have a **Start** and **End**, you can access the range covered by any document node including the [Document](https://apireference.aspose.com/words/net/aspose.words/document) itself. In other words, each node has its own range. The **Range** object allows you to access and modify text, bookmarks and form fields within the range.
 

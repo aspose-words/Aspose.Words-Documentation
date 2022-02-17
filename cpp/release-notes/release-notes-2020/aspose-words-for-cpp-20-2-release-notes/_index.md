@@ -8,11 +8,11 @@ weight: 50
 url: /cpp/aspose-words-for-cpp-20-2-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for C++ 20.2](https://www.nuget.org/packages/Aspose.Words.CPP/20.2)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

@@ -8,11 +8,11 @@ weight: 160
 url: /net/save-in-the-rich-text-format-1-9-rtf-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in the RTF format.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

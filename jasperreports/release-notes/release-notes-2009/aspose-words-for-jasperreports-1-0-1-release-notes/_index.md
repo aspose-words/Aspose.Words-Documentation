@@ -8,11 +8,11 @@ weight: 40
 url: /jasperreports/aspose-words-for-jasperreports-1-0-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for JasperReports 1.0.1](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-1.0.1/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is a maintenance release containing a number of important updates.
 

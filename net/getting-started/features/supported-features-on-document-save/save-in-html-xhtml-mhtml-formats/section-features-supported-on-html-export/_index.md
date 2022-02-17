@@ -8,7 +8,7 @@ weight: 90
 url: /net/section-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each section is exported as separate &lt;div&gt; elements as a child of &lt;body&gt; when there is more than one section in the document.
 
@@ -18,7 +18,7 @@ Section-wide formatting is exported as CSS styles on &lt;div&gt;.
 
 [Jump to this location in the import section](/words/net/section-features-supported-on-html-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Try Online
 

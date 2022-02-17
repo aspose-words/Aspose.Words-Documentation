@@ -8,11 +8,11 @@ weight: 80
 url: /java/aspose-words-for-java-18-5-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 18.5](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.5).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

@@ -8,15 +8,15 @@ weight: 100
 url: /net/style-features-supported-on-opendocument-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that there may appear to be more styles in the output ODT document than in the original input document. This is expected as all formatting in the ODT format is style based, therefore more styles must be created during export to deal with direct formatting on runs and paragraphs (that are not applied using a style).
 
 [Jump to this location in the import section](/words/net/style-features-supported-on-opendocument-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -26,7 +26,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 <https://products.aspose.app/words/viewer>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## Style Type

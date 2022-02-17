@@ -8,7 +8,7 @@ weight: 90
 url: /java/save-in-the-open-office-xml-format-overview/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in the DOCX, DOT, DOCM, DOTM formats.
 

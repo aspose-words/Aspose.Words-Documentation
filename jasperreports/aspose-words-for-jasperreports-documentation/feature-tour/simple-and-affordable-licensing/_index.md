@@ -8,7 +8,7 @@ weight: 50
 url: /jasperreports/simple-and-affordable-licensing/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Every Aspose license comes with 1 year of free software updates and unlimited free technical support.
 

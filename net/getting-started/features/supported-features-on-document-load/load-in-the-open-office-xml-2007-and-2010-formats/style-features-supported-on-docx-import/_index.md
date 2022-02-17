@@ -8,7 +8,7 @@ weight: 110
 url: /net/style-features-supported-on-docx-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A style allows you to define a set of formatting that can be reused on many elements in a document. This saves time and allows for a more consistent formatting throughout your document.
 
@@ -20,7 +20,7 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 
 [Jump to this location in the export section](/words/net/style-features-supported-on-docx-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Style Type
 

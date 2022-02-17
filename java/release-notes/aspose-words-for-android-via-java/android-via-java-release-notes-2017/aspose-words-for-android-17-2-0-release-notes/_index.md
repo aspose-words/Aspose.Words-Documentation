@@ -8,7 +8,7 @@ weight: 110
 url: /java/aspose-words-for-android-17-2-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Android 17.2.0](https://downloads.aspose.com/words/androidjava/new-releases/aspose.words-for-android-17.2.0/)
 
@@ -60,11 +60,11 @@ This section lists public API changes that were introduced in Aspose.Words 17.2.
 
 ### WORDSNET-14589 and WORDSNET-14590 - Added public properties HtmlSaveOptions.ResourceFolder and HtmlSaveOptions.ResourceFolderAlias
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Check the detailed article on [Working with HtmlSaveOptions Properties](/words/java/convert-a-document-to-pdf/#ConvertingaMicrosoftWorddocumentusingsaveMethod-WorkingwithHtmlSaveOptionsProperties)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 New public properties ResourceFolder and ResourceFolderAlias are added into the HtmlSaveOptions class:
 
@@ -378,7 +378,7 @@ saveOptions.ExportFontsAsBase64(true);
 doc.save(fileName, saveOptions);
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Since the code base of Aspose.Words for Android matches the code of relevant .NET and Java version, most of the changes, enhancements and fixes included in the Aspose.Words for .NET 16.10.0, Aspose.Words for .NET 16.11.0, Aspose.Words for .NET 16.12.0, Aspose.Words for .NET 17.1.0, Aspose.Words for .NET 17.2.0, Aspose.Words for Java 16.10.0, Aspose.Words for Java 16.11.0, Aspose.Words for Java 16.12.0, Aspose.Words for Java 17.1.0 and Aspose.Words for Java 17.2.0 are also included in this Aspose.Words for Android 17.2.0.
 

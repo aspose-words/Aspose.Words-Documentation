@@ -8,11 +8,11 @@ weight: 20
 url: /jasperreports/aspose-words-for-jasperreports-19-10-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes of [Aspose.Words for JasperReports 19.10](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-19.10/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Important Note:
 

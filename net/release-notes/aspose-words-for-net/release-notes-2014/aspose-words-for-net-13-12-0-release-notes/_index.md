@@ -8,11 +8,11 @@ weight: 110
 url: /net/aspose-words-for-net-13-12-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 13.12.0](https://www.nuget.org/packages/Aspose.Words/13.12.0)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Aspose.Words for .NET has been updated to version 13.12.0 and we are pleased to announce this release brings the addition of 103 new useful improvements.
 

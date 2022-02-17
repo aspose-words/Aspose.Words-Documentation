@@ -10,7 +10,7 @@ url: /java/annotation-features-supported-on-pdf-export/
 
 ## Bookmarks
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unique names, that is, no two bookmarks are allowed the exact same name.
 
@@ -22,7 +22,7 @@ See the following link in the documentation for further information:
 
 - [OutlineOptions.DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/java/com.aspose.words/OutlineOptions)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

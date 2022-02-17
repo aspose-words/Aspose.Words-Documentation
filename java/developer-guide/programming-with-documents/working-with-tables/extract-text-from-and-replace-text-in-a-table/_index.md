@@ -16,11 +16,11 @@ The following code example shows how to print the text range of a table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-printTextRangeOfATable.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The same technique is used to extract the content from individual cells of a table only.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to print the text range of row and table elements.
 

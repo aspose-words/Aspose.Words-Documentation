@@ -39,11 +39,11 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_watermark-AddWatermark.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx). 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## How to Remove Watermark from a Document

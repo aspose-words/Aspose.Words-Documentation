@@ -42,7 +42,7 @@ If you are sure that all processing documents require the same font settings, th
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-FontSettingsFontSource.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The custom **FontSettings** have higher priority than the default instance.
 
@@ -171,7 +171,7 @@ Aspose.Words provides predefined font fallback settings for Google Noto fonts. T
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetPredefinedFontFallbackSettings.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Only Sans style Noto fonts with regular weight are used in the predefined settings.
 

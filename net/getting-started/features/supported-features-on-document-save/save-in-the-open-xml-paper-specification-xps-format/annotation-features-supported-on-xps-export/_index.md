@@ -10,7 +10,7 @@ url: /net/annotation-features-supported-on-xps-export/
 
 ## Bookmarks
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 All Word documents and most other formats that Aspose.Words export to only allow bookmarks with unqiue names, that is, no two bookmarks are allowed the exact same name.
 
@@ -22,7 +22,7 @@ See the following link in the documentation for further information:
 
 - [XpsSaveOptions.BookmarksOutlineLevel](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/bookmarksoutlinelevels)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

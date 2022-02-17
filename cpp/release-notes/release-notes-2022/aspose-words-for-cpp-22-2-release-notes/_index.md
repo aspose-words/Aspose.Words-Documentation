@@ -6,11 +6,11 @@ weight: 65
 url: /cpp/aspose-words-for-cpp-22-2-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for C++ 22.2](https://www.nuget.org/packages/Aspose.Words.Cpp/22.2.0).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

@@ -8,7 +8,7 @@ weight: 40
 url: /net/drawing-object-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports many types of drawing entities on document load.
 
@@ -18,7 +18,7 @@ Using Aspose.Words you can create and modify different types of graphic objects.
 
 Almost all properties that deal with object positioning use points as a unit of measurment. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to inch.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Images
 

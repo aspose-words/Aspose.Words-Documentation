@@ -8,11 +8,11 @@ weight: 150
 url: /reportingservices/aspose-words-reporting-services-1-2-1-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words Reporting Services 1.2.1.0 Hot Fix](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-reporting-services-1.2.1.0-hot-fix/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is a minor release containing a fix for the MSI installer.
 

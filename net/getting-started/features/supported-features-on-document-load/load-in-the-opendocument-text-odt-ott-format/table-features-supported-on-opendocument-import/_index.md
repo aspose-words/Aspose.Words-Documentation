@@ -8,7 +8,7 @@ weight: 120
 url: /net/table-features-supported-on-opendocument-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table is comprised of rows and cells and is used to display data in a grid-like layout.
 
@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section](/words/net/table-features-supported-on-opendocument-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

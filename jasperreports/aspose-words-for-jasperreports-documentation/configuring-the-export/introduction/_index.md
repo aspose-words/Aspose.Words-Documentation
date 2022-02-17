@@ -8,7 +8,7 @@ weight: 70
 url: /jasperreports/introduction/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports provides a number of parameters that affect the resulting Microsoft Word document’s appearance. There are two ways of setting these parameters’ values, depending on whether you export reports from **JasperReports** or **JasperServer**:
 

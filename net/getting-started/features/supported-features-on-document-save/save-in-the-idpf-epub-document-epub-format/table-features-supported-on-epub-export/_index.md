@@ -8,7 +8,7 @@ weight: 110
 url: /net/table-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Table is exported to HTML as &lt;table&gt; and other applicable tags.
 
@@ -18,7 +18,7 @@ See the following link in the documentation for further information:
 
 - [HtmlSaveOptions.TableWidthOutputMode](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/tablewidthoutputmode)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

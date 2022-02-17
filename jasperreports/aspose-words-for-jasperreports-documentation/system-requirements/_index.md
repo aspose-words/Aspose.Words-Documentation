@@ -8,7 +8,7 @@ weight: 90
 url: /jasperreports/system-requirements/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports requires the following software to run:
 

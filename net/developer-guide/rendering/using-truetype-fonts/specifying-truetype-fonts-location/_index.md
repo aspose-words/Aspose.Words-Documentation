@@ -41,11 +41,11 @@ If a document contains embedded fonts, Aspose.Words can read relevant font data 
 - Users can set up new font sources through the **FontSettings** class
 - Aspose.Words can try to replace the missed font with a similar one
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words rendering on a server will typically not work with an ASP.NET application configured to run under the Medium Trust level, because it prohibits access to registry and limits access to the file system.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Fonts on Non-Windows Systems
 
@@ -79,11 +79,11 @@ An extra Boolean parameter controls whether fonts are scanned recursively throug
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersMultipleFolders-SetFontsFoldersMultipleFolders.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Note the priorities. If there are fonts with the same family name and style in different font sources, then Aspose.Words will select the font from the source with a higher priority. See the description of the "Priority" field below.
 

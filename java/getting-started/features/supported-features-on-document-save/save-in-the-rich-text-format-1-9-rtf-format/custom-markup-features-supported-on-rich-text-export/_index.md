@@ -8,13 +8,13 @@ weight: 20
 url: /java/custom-markup-features-supported-on-rich-text-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When converting to a document format that does not support custom markup features, the markup is stripped but content is preserved. The non-Microsoft Word document formats do not support custom markup and only text is exported.
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## CustomXML
 

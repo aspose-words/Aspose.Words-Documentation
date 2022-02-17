@@ -8,11 +8,11 @@ weight: 100
 url: /net/aspose-words-net-3-6-1-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 3.6.1.0 Hot Fix](https://downloads.aspose.com/words/net)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - List styles are fully supported during load, save and copy between DOC files. Note there is still no rich public API to deal with list formatting, but this feature is a prerequisite step towards it.
   Added CompositeNode.GetChildNodes that returns either "live" or "dead" collection of nodes. Before that all returned collections were live. 

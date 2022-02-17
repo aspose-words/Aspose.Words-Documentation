@@ -8,11 +8,11 @@ weight: 10
 url: /jasperreports/feature-overview/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This section provides a detailed description of the Aspose.Words for JasperReports features. Click on the links in the table to learn more about the features. 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |Feature |Description |
 | :- | :- |

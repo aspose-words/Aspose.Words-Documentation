@@ -8,13 +8,13 @@ weight: 80
 url: /jasperreports/frames/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Flow layout does not support overlapping items (as well as Z-order at all) but in many cases it is possible to process elements correctly when 1) rectangles are exported as frames and 2) elements that overlap with a rectangle (frame) are “moved” into that frame (which becomes parent element).
 
 By default options for exporting rectangles as frames and for moving elements to frames are set as **true** (active).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 You may want to try disabling these options, if you see something wrong with your output layout.
 

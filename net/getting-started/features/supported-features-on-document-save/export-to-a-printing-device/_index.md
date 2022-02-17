@@ -8,11 +8,11 @@ weight: 20
 url: /net/export-to-a-printing-device/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words prints a document to a printer.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

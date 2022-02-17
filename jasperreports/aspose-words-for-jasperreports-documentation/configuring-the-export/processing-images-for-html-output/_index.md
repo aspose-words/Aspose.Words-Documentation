@@ -8,7 +8,7 @@ weight: 130
 url: /jasperreports/processing-images-for-html-output/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 There are 3 parameters for configuring how to process images when exporting to HTML format.
 
@@ -18,7 +18,7 @@ IMAGES_FOLDER_ALIAS sets URL prefix for images in HTML output. Is empty by defau
 
 IMAGE_NAME_TEMPLATE sets how to name images. By default images are named with unique names such as “Aspose.Words.<long UID>.NNN.ext”, where NNN is sequential image number for the report. If you set IMAGE_NAME_TEMPLATE=xxx, then unique image names will look like “xxx.NNN.ext”.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In JasperReports:
 

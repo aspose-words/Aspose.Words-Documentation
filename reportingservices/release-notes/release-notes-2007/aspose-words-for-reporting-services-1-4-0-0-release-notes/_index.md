@@ -8,11 +8,11 @@ weight: 60
 url: /reportingservices/aspose-words-for-reporting-services-1-4-0-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 1.4.0.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-1.4.0.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Following , its Reporting Services congener has introduced the support of the new Microsoft Office Open XML format (DOCX). Now you are able to export your RDL reports to any of the four Microsoft Word formats: DOC, RTF, WordML or DOCX. The MSI installer will configure the new DOCX renderer automatically; if you prefer to install the product manually, please refer to the documentation to learn how to properly modify the configuration file.
 

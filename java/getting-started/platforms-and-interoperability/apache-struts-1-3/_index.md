@@ -34,12 +34,12 @@ Aspose.Words Java for Struts 1.3 is simple book store web based application writ
 - It runs in a web container like Apache Tomcat and requires maven to build the web application .war for deployment.
 - Current use case in the application exports records from books grid to MS-WORD document format by creating MS-WORD document, creating table into it and writing texts / data to it.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Aspose.Words for Java API](https://products.aspose.com/words/java/) is very rich in features, however this demo web application shows just a fraction of it!For the complete features list of [Aspose.Words for Java API](https://products.aspose.com/words/java/), you are strongly recommended to check the API documentation at:
 <https://products.aspose.com/words/java/>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## System Requirements
 

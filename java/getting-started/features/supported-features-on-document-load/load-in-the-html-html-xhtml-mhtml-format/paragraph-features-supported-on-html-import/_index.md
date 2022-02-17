@@ -8,7 +8,7 @@ weight: 80
 url: /java/paragraph-features-supported-on-html-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each paragraph in a document is represented in Aspose.Words as a Paragraph node. A paragraph represesents a block of text in a document and have a variety of properties and styles.
 
@@ -33,7 +33,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

@@ -8,13 +8,13 @@ weight: 90
 url: /java/merge-documents/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can try to merge documents and view the results online at this link:
 
 <https://products.aspose.app/words/merger>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words - Merge Documents
 

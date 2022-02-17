@@ -8,7 +8,7 @@ weight: 80
 url: /net/numbering-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words.
 
@@ -30,7 +30,7 @@ See the following links in the documentation for further information:
 - [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/listlabel)
 - [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Numbering Definition
 

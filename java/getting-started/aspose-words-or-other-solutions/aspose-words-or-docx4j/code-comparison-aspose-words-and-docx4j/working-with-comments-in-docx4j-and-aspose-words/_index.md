@@ -69,7 +69,7 @@ wordMLPackage.save(new java.io.File(outputfilepath));
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/comments)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Working with Comments](/words/java/working-with-comments/).
 

@@ -9,13 +9,13 @@ url: /java/footnotes-and-endnote-features-supported-on-doc-import/
 aliases: [/java/footnotes-an-endnote-features-supported-on-doc-import/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors' publications in their document.
 
 Using Aspose.Words you can interact with footnotes and endnotes and access or modify footnote related properties such as the location of the footnotes and when they restart.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Footnotes
 

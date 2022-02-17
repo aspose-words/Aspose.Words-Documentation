@@ -8,11 +8,11 @@ weight: 70
 url: /net/aspose-words-net-3-5-2-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 3.5.2.0 Hot Fix](https://downloads.aspose.com/words/net/new-releases/aspose.words-.net-3.5.2.0-hot-fix/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Added ClearFormatting method for RowFormat and CellFormat classes.
   Added SaveOptions.HtmlExportHeadersFooters that specifies whether to output primary headers and footers to HTML. 

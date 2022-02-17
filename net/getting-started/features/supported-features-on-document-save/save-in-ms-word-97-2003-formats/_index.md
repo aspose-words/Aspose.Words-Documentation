@@ -9,11 +9,11 @@ url: /net/save-in-ms-word-97-2003-formats/
 aliases: [/net/save-in-the-microsoft-word-document-97-2003-document-doc-dot-format/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in the DOC, DOT formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

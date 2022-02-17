@@ -8,13 +8,13 @@ weight: 90
 url: /java/joining-and-splitting-tables/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table which is represented in the Aspose.Words Document Object Model is made up of independent rows and cells which makes joining or splitting tables easy.
 
 In order to manipulate a table to split or join with another table we simply need to move the rows from one table to another.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Combining Two Tables into One
 

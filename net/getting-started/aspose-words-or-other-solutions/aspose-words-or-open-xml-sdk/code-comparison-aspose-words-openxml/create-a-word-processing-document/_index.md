@@ -74,7 +74,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more information about Aspose.Words features please visit [Create or Load a Document](/words/net/create-or-load-a-document/).
 

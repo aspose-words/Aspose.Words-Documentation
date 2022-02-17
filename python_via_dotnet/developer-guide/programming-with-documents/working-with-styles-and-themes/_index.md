@@ -40,13 +40,13 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ParagraphsByStyleName.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This implementation also uses the **Document.get_child_nodes** method of the **Document** class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
 Note that the second parameter of the **Document.get_child_nodes** method is set to *True*. This forces the **Document.get_child_nodes** method to select from all child nodes recursively, rather than selecting the immediate children only.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the **Style.name** property of the **Paragraph.paragraph_format** object. The implementation of **runs_by_style_name** is almost the same, although we’re obviously using **NodeType.RUN** to retrieve run nodes. The **Font.style** property of a **Run** object is used to access style information in the **Run** nodes. Below example find all runs formatted with the specified style.
 

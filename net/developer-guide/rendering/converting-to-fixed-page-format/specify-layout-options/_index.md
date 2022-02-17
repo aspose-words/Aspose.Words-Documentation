@@ -56,7 +56,7 @@ Use text shaping for document processing in the following main cases:
 - A document uses Kerning, Numeral Shaping, Numeral Forms, or Ligatures.
 - A document uses Complex Scripts, such as Arabic, Khmer, Thai, etc.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text shaping will be enabled only when exporting a document to PDF or XPS.
 

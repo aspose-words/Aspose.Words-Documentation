@@ -131,7 +131,7 @@ public static JAXBElement getWrappedFldChar(FldChar fldchar) {
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/documents/inserttableofcontents)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [How-to Insert and Work with the Table of Contents Field](/words/java/working-with-table-of-contents/).
 

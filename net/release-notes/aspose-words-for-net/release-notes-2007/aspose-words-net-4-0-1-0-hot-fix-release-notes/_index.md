@@ -8,11 +8,11 @@ weight: 140
 url: /net/aspose-words-net-4-0-1-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 4.0.1.0 Hot Fix](https://downloads.aspose.com/words/net/new-releases/aspose.words-.net-4.0.1.0-hot-fix/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This release addresses the issue of using Aspose.Words on Microsoft Windows Vista RC2. We do not yet test our components on Windows Vista and previous release was found to have trouble running on RC2 because of an obfuscation issue.
 

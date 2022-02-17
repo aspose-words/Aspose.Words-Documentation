@@ -48,11 +48,11 @@ The actions that can be performed with bookmarks using Aspose.Words are the same
 
 Use [DocumentBuilder.StartBookmark](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/startbookmark) and [DocumentBuilder.EndBookmark](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endbookmark) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved. The following example adds some text into the document and encloses the text in a bookmark.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 All white spaces in the bookmarks were replaced with underscores. This restriction came from MS Word formats, since bookmarks in MS Word formats, like DOCX or DOC, cannot have white spaces. However, PDF allows such bookmarks. So now, if you need to use bookmarks in PDF or XPS outlines, you can use them with white spaces.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to create a new bookmark.
 

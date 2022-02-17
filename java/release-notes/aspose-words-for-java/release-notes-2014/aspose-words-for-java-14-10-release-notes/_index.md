@@ -8,11 +8,11 @@ weight: 20
 url: /java/aspose-words-for-java-14-10-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 14.10](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-14.10/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for Java 14.10 Release Notes
 

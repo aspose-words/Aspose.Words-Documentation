@@ -13,11 +13,11 @@ You can easily know if a document is produced by using Aspose.Words for Java. Yo
 The version number is specified in the format *YY.M.N* or *YY.MM.N*, for example, 20.12.0 or 21.1.0.<br />
 Here *YY* is the last two digits of the release year, *M* or *MM* is the release month (1–12), and *N* is the minor release number. Usually, *N* is "0".
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that you cannot instruct Aspose.Words to change or remove this information from output documents.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Depending on the output file format, the following table lists the ways that you can use to know the generator name and version number.
 

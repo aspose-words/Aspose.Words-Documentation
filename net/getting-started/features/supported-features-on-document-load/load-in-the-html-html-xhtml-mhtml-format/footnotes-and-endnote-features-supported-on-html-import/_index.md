@@ -9,7 +9,7 @@ url: /net/footnotes-and-endnote-features-supported-on-html-import/
 aliases: [/net/footnotes-an-endnote-features-supported-on-html-import/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors publication in their document.
 
@@ -19,7 +19,7 @@ Footnotes and endnote markers are imported as hyperlinks. The content of these i
 
 There is a sample project which demonstrates how to convert this type of footnote import into proper footnotes again.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Footnotes
 

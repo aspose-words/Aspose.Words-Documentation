@@ -8,11 +8,11 @@ weight: 120
 url: /java/table-features-supported-on-flatopc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/java/table-features-supported-on-flatopc-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

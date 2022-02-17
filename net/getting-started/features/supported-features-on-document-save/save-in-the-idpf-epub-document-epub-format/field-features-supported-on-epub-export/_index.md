@@ -8,7 +8,7 @@ weight: 50
 url: /net/field-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
@@ -20,7 +20,7 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 Fields are output as plain text in HTML. Only field result is exported.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Field Codes
 

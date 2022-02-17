@@ -8,11 +8,11 @@ weight: 120
 url: /net/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in the DOCX, DOT, DOCM, DOTM formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

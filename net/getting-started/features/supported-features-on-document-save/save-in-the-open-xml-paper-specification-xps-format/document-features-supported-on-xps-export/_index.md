@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-xps-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 XPS is a fixed-layout document format designed to preserve document fidelity and provide device-independent document appearance. Any document loaded into Aspose.Words can be converted to XPS.
 
@@ -28,7 +28,7 @@ See the following links in the documentation for further information:
 - [Rendering and Printing](/words/net/rendering/)
 - [XpsSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/xpssaveoptions)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

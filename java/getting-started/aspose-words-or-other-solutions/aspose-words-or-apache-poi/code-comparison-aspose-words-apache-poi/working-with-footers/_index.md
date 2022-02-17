@@ -78,7 +78,7 @@ Download Extract Images from Document form any of the below mentioned social cod
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Working with Headers and Footers](/words/java/working-with-headers-and-footers/).
 

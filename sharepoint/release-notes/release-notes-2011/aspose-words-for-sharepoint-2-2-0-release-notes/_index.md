@@ -8,11 +8,11 @@ weight: 10
 url: /sharepoint/aspose-words-for-sharepoint-2-2-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for SharePoint 2.2.0](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-2.2.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Maintenance release 
 2.2.0 of Aspose.Words for SharePoint is ready.Below is the list of fixes in this release:

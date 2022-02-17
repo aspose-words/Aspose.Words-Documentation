@@ -8,11 +8,11 @@ weight: 100
 url: /java/aspose-words-for-java-10-0-0-beta-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 10.0.0 BETA](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-10.0.0-beta/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is the first release of Aspose.Words for Java that we have automatically ported from our .NET code and therefore it contains many of the features that were missing in Aspose.Words for Java for so long. This is not an April Fools' Day joke. 
 

@@ -8,11 +8,11 @@ weight: 30
 url: /jasperreports/overlapping-items/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 JasperReports often contain overlapping items. Faithfully converting reports with overlapping items to Microsoft Word documents can sometimes represent challenges to the system.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In flow layout, overlapping items cannot be converted preserving their original location or size because there is no such thing as Z-order in flow layout. However, Aspose.Words for JasperReports tries to export such items as close to the original as possible. It offers three methods of resolving overlapping items:
 

@@ -8,11 +8,11 @@ weight: 140
 url: /reportingservices/aspose-words-reporting-services-1-2-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words Reporting Services 1.2.0.0 New Release](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-reporting-services-1.2.0.0-new-release/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 We have decided to jump from 1.1 to 1.2 without publishing any minor hotfixes mainly because we added a very important and expected feature. That was briskly demanded by many users and we just could not leave their requests without attention. Note both deployment options (MSI installer and zip package) now include two assemblies, one for Reporting Services 2000 and the other for Reporting Services 2005. MSI installer will ask you what assembly should be installed; in the zip package they are located in the Bin\SSRS2000 and Bin\SSRS2005 directories, respectively.
 

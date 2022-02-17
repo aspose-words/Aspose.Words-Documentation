@@ -8,11 +8,11 @@ weight: 60
 url: /net/save-in-the-idpf-epub-document-epub-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide details about how Aspose.Words saves document in the EPUB format. All EPUB documents produced by Aspose.Words are made to pass validation.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

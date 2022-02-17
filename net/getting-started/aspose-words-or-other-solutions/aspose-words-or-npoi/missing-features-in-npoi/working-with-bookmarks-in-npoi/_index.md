@@ -8,7 +8,7 @@ weight: 80
 url: /net/working-with-bookmarks-in-npoi/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 See more details in the ["Working with Bookmarks"](/words/net/working-with-bookmarks/) article.
 

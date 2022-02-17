@@ -8,7 +8,7 @@ weight: 120
 url: /net/table-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table is comprised of rows and cells and is used to display data in a grid-like layout.
 
@@ -29,7 +29,7 @@ See the following links in the documentation for further information:
 - [Working with Tables](/words/net/working-with-tables/)
 - [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

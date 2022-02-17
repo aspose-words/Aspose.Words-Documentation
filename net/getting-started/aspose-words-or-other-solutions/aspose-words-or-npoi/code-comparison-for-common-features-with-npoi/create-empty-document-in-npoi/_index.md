@@ -44,7 +44,7 @@ Download **Create Empty Document** from any of the below mentioned social coding
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Create.Empty.Document.Aspose.Words.zip)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Create a New Document](/words/net/create-or-load-a-document/#create-a-new-document).
 

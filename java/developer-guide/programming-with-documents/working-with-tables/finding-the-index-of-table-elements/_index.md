@@ -8,11 +8,11 @@ weight: 60
 url: /java/finding-the-index-of-table-elements/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Finding the index of any node involves gathering all child nodes of the element’s type from the parent node then using the [NodeCollection.indexOf(com.aspose.words.Node)](https://apireference.aspose.com/words/java/com.aspose.words/nodecollection#indexOf(com.aspose.words.Node)) method to find the index of the desired node in the collection.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Finding the Index of Table in a Document
 

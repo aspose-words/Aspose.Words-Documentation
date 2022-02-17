@@ -8,7 +8,7 @@ weight: 20
 url: /jasperreports/doc-docx-rtf-odt-html-and-txt-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [JasperReports](https://sourceforge.net/projects/jasperreports/) and [JasperServer](https://sourceforge.net/projects/jasperserver/) do not have built-in abilities to export reports as Microsoft Word documents (apart from the RTF format that uses positioned items), but using Aspose.Words for JasperReports, you will get access to the following additional export formats:
 

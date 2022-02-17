@@ -8,7 +8,7 @@ weight: 50
 url: /java/field-features-supported-on-wordprocessingml-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
@@ -20,7 +20,7 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Field Codes
 

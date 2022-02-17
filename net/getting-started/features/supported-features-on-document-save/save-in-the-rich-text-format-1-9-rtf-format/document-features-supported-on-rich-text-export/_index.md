@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-rich-text-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 There are save options available to export the RTF in a compact size and to accommodate keywords for old readers.
 
@@ -20,7 +20,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-rich-text-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

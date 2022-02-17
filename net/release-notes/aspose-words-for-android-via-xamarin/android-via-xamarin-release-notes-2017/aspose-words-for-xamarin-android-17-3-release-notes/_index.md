@@ -8,7 +8,7 @@ weight: 80
 url: /net/aspose-words-for-xamarin-android-17-3-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Xamarin.Android 17.3](https://downloads.aspose.com/words/androidxamarin/new-releases/aspose.words-for-xamarin.android-17.3/).
 
@@ -18,7 +18,7 @@ Aspose.Words for Xamarin.Android has full functionality of Aspose.Words for .NET
 
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.3, see [release notes](/words/net/aspose-words-for-net-17-3-0-release-notes/) for more information.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

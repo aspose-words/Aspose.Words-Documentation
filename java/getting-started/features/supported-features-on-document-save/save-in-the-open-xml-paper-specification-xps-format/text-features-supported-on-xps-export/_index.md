@@ -8,11 +8,11 @@ weight: 130
 url: /java/text-features-supported-on-xps-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Characters
 

@@ -8,14 +8,14 @@ weight: 100
 url: /net/section-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This allows for example different parts of the document to completley different page sizes or page orientations. A section is represented as a Section node in the Aspose.Words model. Aspose.Words supports the creation and deletion of sections in a document, along with accessing and modifying all section properties. See the following links in the documentation for further information:
 
 - [Section](https://apireference.aspose.com/words/net/aspose.words/section)
 - [Document.Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Headers and Footers
 

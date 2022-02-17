@@ -8,7 +8,7 @@ weight: 80
 url: /net/paragraph-features-supported-on-pdf-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Paragraphs with Heading styles can be exported to PDF so they appear in the document outline. There is a save option to control this.
 
@@ -16,7 +16,7 @@ See the following link in the documentation for further information:
 
 - [OutlineOptions.HeadingsOutlineLevels](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/headingsoutlinelevels)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

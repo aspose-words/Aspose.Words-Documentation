@@ -422,7 +422,7 @@ SmartArt Cold Rendering has become even better – the processing of hyperlinks 
 - The [SkipPdfImages](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/skippdfimages) flag has been added to the [PdfLoadOptions](https://apireference.aspose.com/words/net/aspose.words.loading/pdfloadoptions) class to indicate whether images must be skipped when loading a PDF document.
 - Support for SVG images embedded using data URLs upon HTML import has been implemented.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 20.5 Release Notes](/words/net/aspose-words-for-net-20-5-release-notes/).
 
@@ -432,7 +432,7 @@ Learn more about [Aspose.Words for .NET 20.7 Release Notes](/words/net/aspose-wo
 
 Learn more about [Aspose.Words for .NET 20.8 Release Notes](/words/net/aspose-words-for-net-20-8-release-notes/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for .NET 20.3, 20.4
 
@@ -487,10 +487,10 @@ Search and compare options are extended:
 - A new public property [UpdateLastPrintedProperty](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/updatelastprintedproperty) has been added. Using this property, you can control when to update *LastPrintedProperty*, for example, before printing.
 - The ability to change Asian paragraph spacing and indents through the public API has been added. This is the next step of Chinese language-specific Paragraph formatting improvement.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 20.3 Release Notes](/words/net/aspose-words-for-net-20-3-release-notes/).
 
 Learn more about [Aspose.Words for .NET 20.4 Release Notes](/words/net/aspose-words-for-net-20-4-release-notes/).
 
-{{% /alert %}} 
+{{% /alert %}}

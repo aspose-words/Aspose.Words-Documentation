@@ -8,7 +8,7 @@ weight: 25
 url: /net/specify-default-fonts/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 See more details in the ["Manipulating and Substitution TrueType Fonts"](/words/net/manipulating-and-substitution-truetype-fonts/) article.
 

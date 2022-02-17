@@ -8,11 +8,11 @@ weight: 10
 url: /sharepoint/aspose-words-for-sharepoint-16-12-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for SharePoint 16.12.0](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-16.12.0/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Full List of Issues Covering all Changes in this Release
 

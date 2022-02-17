@@ -39,11 +39,11 @@ Aspose.Words provides several different methods to create new tables in a docume
 |AutoFit Mode|AutoFit to Window|
 |Allow AutoFit|True|
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table can be inline where it is tightly positioned or can be floating where it can be positioned anywhere on the page. By default, Aspose.Words always create inline tables.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Insert a Table {#insert-a-table}
 
@@ -95,11 +95,11 @@ Often there are times when you have an existing table in a document and would li
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The same technique can be used to add copies of an existing row to a table.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from here.
 
@@ -130,11 +130,11 @@ A Table like any other node in Aspose.Words has access to a Range object. Using 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ExtractOrReplaceText-ExtractText.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The same technique is used to extract the content from individual cells of a table only.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Below example shows how to print the text range of row and table elements.
 

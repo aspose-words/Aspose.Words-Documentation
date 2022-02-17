@@ -9,7 +9,7 @@ url: /sharepoint/
 is_root: true
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **<img src="aspose-words-for-sharepoint.png" alt="todo:image_alt_text" style="zoom: 50%;" />**
 
@@ -17,7 +17,7 @@ is_root: true
 
 Aspose.Words for SharePoint makes it possible to convert and combine word documents within Microsoft SharePoint applications. It supports format conversion with high fidelity, and can be used to generate reports with data from SQL databases, XML files or SharePoint lists.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for SharePoint Resources
 

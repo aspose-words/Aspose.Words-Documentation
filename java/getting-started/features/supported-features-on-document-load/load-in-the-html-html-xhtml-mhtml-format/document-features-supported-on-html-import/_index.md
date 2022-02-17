@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-html-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports importing and exporting HTML based documents. You can load such documents in the Document Object Model, edit and add new content and convert them to any supported format such as DOCX, PDF, Image etc.
 
@@ -37,7 +37,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section](/words/java/document-features-supported-on-html-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

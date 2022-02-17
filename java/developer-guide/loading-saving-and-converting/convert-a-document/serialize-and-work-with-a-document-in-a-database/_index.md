@@ -49,11 +49,11 @@ The following code example shows how to set up a connection to a database and ex
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-OpenDatabaseConnection.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In this example, we use the MySQL database to store an Aspose.Words document.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to save a document to the database, then read the same document again, and finally delete the record containing the document from the database:
 
@@ -80,11 +80,11 @@ The following code example shows how to retrieve and return a document from the
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadAndSaveFromDatabase-ReadFromDatabase.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The SQL command “SELECT * FROM” is used to fetch the appropriate record based on the file name.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Delete a Document from a Database
 

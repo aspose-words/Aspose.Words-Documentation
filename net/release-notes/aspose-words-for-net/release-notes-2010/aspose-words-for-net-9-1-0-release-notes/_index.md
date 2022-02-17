@@ -8,11 +8,11 @@ weight: 50
 url: /net/aspose-words-for-net-9-1-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 9.1.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-9.1.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - New article and a sample project about using Nested Mail Merge.
   Support for Custom XML Data Storage and Properties in OOXML documents. 

@@ -39,13 +39,13 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This implementation also uses the Document.GetChildNodes method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
 Note that the second parameter of the **Document.GetChildNodes** method is set to true. This forces the **Document.GetChildNodes** method to select from all child nodes recursively, rather than selecting the immediate children only.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name) property of the [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat) object. The implementation of RunsByStyleName is almost the same, although we’re obviously using [NodeType.Run](https://apireference.aspose.com/words/net/aspose.words/nodetype) to retrieve run nodes. The [Font.Style](https://apireference.aspose.com/words/net/aspose.words/font/properties/style) property of a [Run](https://apireference.aspose.com/words/net/aspose.words/run) object is used to access style information in the **Run** nodes. Below example find all runs formatted with the specified style.
 

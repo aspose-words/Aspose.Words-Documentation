@@ -8,11 +8,11 @@ weight: 120
 url: /net/table-features-supported-on-doc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/net/table-features-supported-on-doc-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

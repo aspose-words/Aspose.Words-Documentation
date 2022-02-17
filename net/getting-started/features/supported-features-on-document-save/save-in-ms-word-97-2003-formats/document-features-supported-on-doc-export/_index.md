@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-doc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 See the following links in the documentation for further information:
 
@@ -18,7 +18,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-doc-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

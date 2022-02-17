@@ -9,11 +9,11 @@ url: /java/load-in-the-open-office-xml-2007-and-2010-formats/
 aliases: [/java/load-in-the-open-office-xml-2007-an-2010-docx-dotx-docm-dotm-format/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following pages provide implementation details about how Aspose.Words loads a document in the DOCX, DOTX, DOCM, DOTM formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

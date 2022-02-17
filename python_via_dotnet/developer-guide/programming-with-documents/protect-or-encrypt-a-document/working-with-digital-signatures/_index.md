@@ -31,11 +31,11 @@ Due to this, if you process documents uploaded to a server this could potentiall
 
 The code above uses the **FileFormatUtil.detect_file_format** method to detect if a document contains digital signatures without loading the document first. This provides an efficient and safe way to check a document for signatures before processing them. When executed, the method returns a **FileFormatInfo** object which provides the property **FileFormatInfo.has_digital_signature**. This property returns true if the document contains one or more digital signatures. It’s important to note that this method does not validate the signatures, it only determines if signatures are present. Validating digital signatures is covered in the next section.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can also check if a document has digital signatures after loading by checking the Count property of the **Document.digital_signatures** collection.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Digital Signatures on Macros (VBA Projects)
 

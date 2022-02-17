@@ -8,7 +8,7 @@ weight: 40
 url: /net/drawing-object-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Most drawing objects are exported using the img element unless there is native support for the feature. HTML does not have support for a lot of Word graphics options therefore these features are rendered to image before export. There are options to choose a folder or streams to save images to during export to HTML. There is also an option to export image data embedded in the HTML as base64. You can export the document as MHTML to automatically embed all image data.
 
@@ -18,7 +18,7 @@ Currently images are only exported as absolute size (points) and not in percent.
 
 This feature will be supported in the future.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Images
 

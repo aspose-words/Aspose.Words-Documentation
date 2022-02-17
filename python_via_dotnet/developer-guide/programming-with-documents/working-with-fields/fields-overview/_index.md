@@ -101,13 +101,13 @@ The content which makes up the field code is stored as **Run** nodes between the
 
 In Aspose.Words each of the **FieldXXX** nodes derives from **FieldChar**. This class provides a property to check the type of field represented by the specified node through the **FieldChar.field_type** property. For example **FieldType.FIELD_MERGE_FIELD** represents a merge field in the document.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a **Shape** object. This object provides properties to work with the image data normally stored in these fields.
 
 Form fields are also imported into Aspose.Words as their own special class. The **FormField** class represents a form field in a Word document and provides additional methods that are particular to a form field.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Fields Supported during Update
 

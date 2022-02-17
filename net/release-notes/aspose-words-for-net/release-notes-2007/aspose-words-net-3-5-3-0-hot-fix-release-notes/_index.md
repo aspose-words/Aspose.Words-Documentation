@@ -8,11 +8,11 @@ weight: 80
 url: /net/aspose-words-net-3-5-3-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 3.5.3.0 Hot Fix](https://downloads.aspose.com/words/net)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Added the Document.AttachedTemplate property that allows to get/set the template attached to the document.
   Added the Document.ShadeFormData property that allows to turn on/off gray shading under the form fields. 

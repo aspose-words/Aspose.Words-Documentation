@@ -8,7 +8,7 @@ weight: 110
 url: /jasperreports/known-limitations/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following features are not currently supported by Aspose.Words for JasperReports:
 

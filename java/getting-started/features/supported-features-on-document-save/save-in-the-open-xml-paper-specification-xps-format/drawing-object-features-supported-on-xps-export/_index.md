@@ -10,11 +10,11 @@ url: /java/drawing-object-features-supported-on-xps-export/
 
 ## Images
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 All images are exported as the same format that they were originally loaded as.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

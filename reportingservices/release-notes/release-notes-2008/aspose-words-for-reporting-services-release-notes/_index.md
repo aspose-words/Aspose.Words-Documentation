@@ -8,11 +8,11 @@ weight: 40
 url: /reportingservices/aspose-words-for-reporting-services-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 We are glad to announce an important release of Aspose.Words for Reporting Services containing a number of fixes and introducing new features. Here is the list of most valuable changes:
 

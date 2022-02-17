@@ -49,11 +49,11 @@ Aspose.Words provides several different methods to create new tables in a docume
 |Left and Right Padding|5.4 pts|
 |AutoFit Mode|AutoFit to Window|
 |Allow AutoFit|True|
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table can be inline where it is tightly positioned or can be floating where it can be positioned anywhere on the page. By default, Aspose.Words always creates inline tables.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Insert a Table {#insert-a-table}
 
@@ -137,11 +137,11 @@ Often there are times when you have an existing table in a document and would li
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertCloneOfExistingTable-cloneOfATable.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The same technique can be used to add copies of an existing row to a table.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/Tables/Table.SimpleTable.doc).
 
@@ -173,11 +173,11 @@ A Table like any other node in Aspose.Words has access to a Range object. Using 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractTextOnly-ExtractTextOnly.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The same technique is used to extract the content from individual cells of a table only.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to print the text range of row and table elements.
 

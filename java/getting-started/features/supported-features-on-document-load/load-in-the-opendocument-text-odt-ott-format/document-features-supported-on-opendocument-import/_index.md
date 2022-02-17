@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-opendocument-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words has impressive support in import and export of OpenDocument 1.1 and 1.2 documents. You can convert any loaded document (such as DOC, DOCX, or HTML) to ODT or start with an ODT document and convert it to any other supported format.
 
@@ -25,7 +25,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section](/words/java/document-features-supported-on-opendocument-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

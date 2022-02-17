@@ -8,7 +8,7 @@ weight: 10
 url: /java/load-in-the-plain-text-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words does not directly support loading text files through the use of the **Document** constructor. This feature is however planned.
 

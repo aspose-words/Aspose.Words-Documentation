@@ -8,11 +8,11 @@ weight: 140
 url: /jasperreports/page-size-and-orientation/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 By default Aspose.Words for JasperReports use page size/orientation from the input provided for export. But this can be overridden and page size/orientation can be changed in export configuration.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 You can change the default values by specifying what page size/orientation the exporter should enforce. Use the following parameter for that:
 

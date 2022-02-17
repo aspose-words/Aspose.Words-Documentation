@@ -8,7 +8,7 @@ weight: 40
 url: /jasperreports/easy-and-lightweight-deployment/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports is provided as a single JAR file that can be easily integrated with JasperReports or JasperServer.
 

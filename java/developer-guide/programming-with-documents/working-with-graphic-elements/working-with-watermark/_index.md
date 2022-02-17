@@ -30,11 +30,11 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-AddWatermarkToADocument-AddWatermarkToADocument.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/images/AddWatermark/TestFile.doc). 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## How to Remove Watermark from a Document

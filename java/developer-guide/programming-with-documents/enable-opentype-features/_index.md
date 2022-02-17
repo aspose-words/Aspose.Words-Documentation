@@ -15,11 +15,11 @@ OpenType is a font format, introduced to provide better support for internationa
 
 Aspose.Words is capable of using text shaper objects provided externally. A text shaper represents a font and computes shaping information for a text. A document typically refers to multiple fonts thus a text shaper factory is necessary. This package contains an implementation of a text shaper factory utilized by Aspose.Words.Layout.LayoutOptions.TextShaperFactory property.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text shaping is only performed when exporting to PDF or XPS formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In a typical application single instance of a text shaper factory is shared among all document instances. Whenever a text shaper is created a font file is accessed. Parsing a font file is an expensive operation thus caching is recommended. Aspose.Words implements BasicTextShaperCache class which wraps text shaper factory implementation and caches text shaper instances returned by the wrapped factory.
 

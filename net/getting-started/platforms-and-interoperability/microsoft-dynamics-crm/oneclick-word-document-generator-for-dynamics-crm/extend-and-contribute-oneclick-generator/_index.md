@@ -82,7 +82,7 @@ if (Note.Contains("documentbody"))
 
 **Please Note:** This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [How to Execute Simple Mail Merge](/words/net/types-of-mail-merge-operations/#how-to-execute-simple-mail-merge).
 

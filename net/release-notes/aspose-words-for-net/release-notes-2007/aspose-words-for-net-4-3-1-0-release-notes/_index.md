@@ -8,11 +8,11 @@ weight: 40
 url: /net/aspose-words-for-net-4-3-1-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 4.3.1.0](https://downloads.aspose.com/words/net)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This hot fix mainly improves reading of inconsistent/corrupted DOC files such as resumes. For more info on this see end of the post.
 

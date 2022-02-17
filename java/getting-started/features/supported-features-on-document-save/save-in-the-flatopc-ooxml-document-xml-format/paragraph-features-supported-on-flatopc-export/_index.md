@@ -8,11 +8,11 @@ weight: 80
 url: /java/paragraph-features-supported-on-flatopc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/java/paragraph-features-supported-on-flatopc-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

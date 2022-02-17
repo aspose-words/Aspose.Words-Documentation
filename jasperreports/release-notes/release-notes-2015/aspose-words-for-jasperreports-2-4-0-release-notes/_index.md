@@ -8,11 +8,11 @@ weight: 10
 url: /jasperreports/aspose-words-for-jasperreports-2-4-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for JasperReports 2.4.0](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-2.4.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome a new release of Aspose.Words for JasperReports. It includes support of newest JasperReports Server 6.1.1 and a number of bug fixes.
 

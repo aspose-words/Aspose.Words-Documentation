@@ -9,7 +9,7 @@ url: /java/perl-and-aspose-words-for-java/
 
 ## Prerequisites
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The **Inline::Java** module allows you to put Java source code directly "inline" in a Perl script or module. A Java compiler is launched and the Java code is compiled. Then Perl asks the Java classes what public methods have been defined. These classes and methods are available to the Perl program as if they had been written in Perl. See [search.cpan.org](https://metacpan.org/dist/Inline-Java) to learn more about Inline::Java.
 
@@ -21,7 +21,7 @@ Here are the steps to install the Inline::Java module:
 
 Download the [latest version of Aspose.Words for Java](https://downloads.aspose.com/words/java) . Extract files and copy the lib folder with jar files to the root folder of your project. 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Hello World!
 

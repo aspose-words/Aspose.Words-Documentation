@@ -8,11 +8,11 @@ weight: 110
 url: /java/working-with-comments/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Comments of the document are represented by the [Comment](https://apireference.aspose.com/words/net/aspose.words/comment) class. Use [CommentRangeStart](https://apireference.aspose.com/words/net/aspose.words/commentrangestart) and [CommentRangeEnd](https://apireference.aspose.com/words/net/aspose.words/commentrangeend) classes to specify a region of text that is to be commented.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## How to Extract or Remove Comments
 

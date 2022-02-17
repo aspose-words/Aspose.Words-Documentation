@@ -42,11 +42,11 @@ There are binary and ternary raster operations:
 
 Raster operations can not be converted to vector graphics directly. Aspose.Words emulates raster operations by partially rasterizing the device surface affected by raster operations. For this purpose, the [EmulateRasterOperations](https://apireference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/properties/emulaterasteroperations) property is used.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 While binary raster operations are not currently supported and the limited number of ternary raster operations are supported by Aspose.Words, it can handle the basic cases of conversion to vector graphics directly, for example, R2_BLACK, R2_WHITE, R2_NOP. Also, rasterizing of the device surface significantly affects performance, especially when the significant number of raster operation records are involved.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The example shown below demonstrates how Aspose.Words renders a metafile to a bitmap when it is not possible to correctly render some of metafile records to vector graphics:
 

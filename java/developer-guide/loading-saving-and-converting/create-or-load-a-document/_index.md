@@ -19,14 +19,14 @@ The following code example shows how to create a document using the document bui
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-CreateDocument-CreateDocument.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
 - The document paper size is [PaperSize](https://apireference.aspose.com/words/java/com.aspose.words/PaperSize).**Letter**.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Load a Document
 
@@ -50,7 +50,7 @@ The following code example shows how to open a document from a stream:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenFromStream.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/loading_saving/OpenDocument/Document.doc).
 

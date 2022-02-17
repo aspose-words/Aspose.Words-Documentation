@@ -8,7 +8,7 @@ weight: 110
 url: /net/insert-hyperlink/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 See more details in the ["Working with Hyperlinks and HTML"](/words/net/working-with-hyperlinks-and-html/) article.
 

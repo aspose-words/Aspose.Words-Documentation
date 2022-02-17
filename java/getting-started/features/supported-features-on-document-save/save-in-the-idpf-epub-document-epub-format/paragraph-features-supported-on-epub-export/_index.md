@@ -8,7 +8,7 @@ weight: 80
 url: /java/paragraph-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Exported to HTML as &lt;p&gt;. Paragraphs with built-in heading styles are exported as &lt;h1&gt; - &lt;h6&gt; elements.
 
@@ -18,7 +18,7 @@ See the following link in the documentation for further information:
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

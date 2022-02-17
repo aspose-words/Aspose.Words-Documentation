@@ -8,7 +8,7 @@ weight: 10
 url: /net/save-in-the-plain-text-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words allows you to export any loaded document to plain text format. It is evident that plain text format does not support most of the complex features found in a Microsoft Word, Open Office or HTML document. Therefore, these features are lost upon conversion to .TXT format. What is converted is an accurate plain text representation of the document.
 

@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports the "WordML", Microsoft Word 2003 (Microsoft Word 2003 XML) formats.
 
@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

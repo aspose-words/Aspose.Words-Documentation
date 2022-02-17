@@ -8,7 +8,7 @@ weight: 120
 url: /net/text-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 - **HtmlSaveOptions.Encoding**
 - [Document.JoinRunsWithSameFormatting](https://apireference.aspose.com/words/net/aspose.words/document/methods/joinrunswithsameformatting)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Characters
 

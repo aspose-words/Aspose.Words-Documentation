@@ -8,11 +8,11 @@ weight: 20
 url: /net/aspose-words-for-net-9-4-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 9.4.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-9.4.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - All DrawingML objects (shapes, pictures, charts, diagrams) are fully preserved during DOCX open/save operations.
 - Structured Document Tags (content controls) are now fully preserved during DOCX open/save operations.

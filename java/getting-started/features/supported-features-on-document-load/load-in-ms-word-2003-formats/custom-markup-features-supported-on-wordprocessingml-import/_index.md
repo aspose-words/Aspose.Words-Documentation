@@ -8,13 +8,13 @@ weight: 20
 url: /java/custom-markup-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Custom Markup are elements that added to parts of the document which allow extra information to be embedded within that particular document feature.
 
 For example, CustomXML markup can be wrapped around a paragraph in the document and user-defined data added to it. This data can then be retrieved from that paragraphs when required.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## CustomXML
 

@@ -8,11 +8,11 @@ weight: 10
 url: /net/annotation-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/net/annotation-features-supported-on-html-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Try Online
 

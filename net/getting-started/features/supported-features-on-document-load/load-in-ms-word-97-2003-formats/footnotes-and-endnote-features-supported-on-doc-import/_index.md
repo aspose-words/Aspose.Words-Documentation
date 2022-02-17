@@ -8,7 +8,7 @@ weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-doc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors publication in their document.
 
@@ -16,7 +16,7 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 
 [Jump to this location in the export section](/words/net/footnotes-and-endnote-features-supported-on-doc-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Footnotes
 

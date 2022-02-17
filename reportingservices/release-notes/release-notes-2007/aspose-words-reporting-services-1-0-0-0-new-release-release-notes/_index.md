@@ -8,11 +8,11 @@ weight: 80
 url: /reportingservices/aspose-words-reporting-services-1-0-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words Reporting Services 1.0.0.0 New Release](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-reporting-services-1.0.0.0-new-release/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome our new product Aspose.Words for Reporting Services!
 

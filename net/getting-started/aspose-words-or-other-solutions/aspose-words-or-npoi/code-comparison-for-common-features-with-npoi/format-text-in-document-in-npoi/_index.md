@@ -164,7 +164,7 @@ Download **Format Text in Document** form any of the below mentioned social codi
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Format.Text.in.Document.Aspose.Words.zip)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Specifying Formatting](/words/net/working-with-styles-and-themes/).
 

@@ -8,13 +8,13 @@ weight: 70
 url: /jasperreports/licensing/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports is available for download from the [downloads page](https://downloads.aspose.com/words/jasperreports). The evaluation and licensed versions of the product is the same download.
 
 When you are happy with the evaluation version, [purchase a license](https://www.aspose.com/purchase/default.aspx). Make sure you understand and agree to the license terms.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The license is available for download from the order page after the order was paid. The license is a clear text, digitally signed XML file. The license contains information such as the client name, the purchased product and the type of the license. Do not modify the content of the license file: it invalidates the license.
 
@@ -28,7 +28,7 @@ The first two are used with JasperReports, the last with JasperServer. Each meth
 
 ## Call setLicense
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This is the first way used with JasperReports. 
 
@@ -52,11 +52,11 @@ This is the first way used with JasperReports.
 
 ## Set the licenseFile Exporter Parameter in Code
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This is the second way used with JasperReports.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 1. Download the license to your computer and copy it to the appropriate folder (for example your application’s folder or JasperReports\lib).
 1. Add the following code to your project: 
@@ -72,7 +72,7 @@ This is the second way used with JasperReports.
 
 ## Set the licenseFile Exporter Parameter in applicationContext.xml
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This method is used with JasperServer.
 

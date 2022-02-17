@@ -8,7 +8,7 @@ weight: 20
 url: /net/aspose-words-for-ios-via-xamarin-17-9-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for iOS via Xamarin 17.9](https://downloads.aspose.com/words/iosxamarin/new-releases/aspose.words-for-ios-via-xamarin-17.9/).
 
@@ -16,7 +16,7 @@ This is the first release of Aspose.Words for iOS via Xanarin. In future regular
 
 This version also includes all bug fixes and public API changes made in Aspose.Words for .NET 17.9, see [Aspose.Words for .NET 17.9 release notes](/words/net/aspose-words-for-net-17-9-release-notes/) for more information.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

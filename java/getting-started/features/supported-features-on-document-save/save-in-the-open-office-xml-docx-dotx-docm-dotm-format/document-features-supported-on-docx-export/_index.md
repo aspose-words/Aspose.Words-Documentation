@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-docx-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 See the following links in the documentation for further information:
 
@@ -19,7 +19,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

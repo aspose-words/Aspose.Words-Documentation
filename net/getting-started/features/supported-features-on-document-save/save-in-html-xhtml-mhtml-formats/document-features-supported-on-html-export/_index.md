@@ -8,13 +8,13 @@ weight: 30
 url: /net/document-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can check the quality of HTML Export and view the results online at this link:
 
 <https://products.aspose.app/words/viewer>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Note that not all Microsoft Word document features are available in HTML format and some features may be lost or converted to an image.
 

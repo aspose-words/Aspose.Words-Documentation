@@ -23,11 +23,11 @@ To serialize a [Document](https://apireference.aspose.com/words/net/aspose.word
 
 The steps above then can be reversed to load the bytes back into a **Document** object.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The selected save format is important to ensure the highest fidelity is retained when saving and reloading into the **Document** object. For this reason, it is suggested to use a series of OOXML file formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The example below shows how to serialize a **Document** object to obtain a byte array, and then how to unserialize the byte array to obtain a **Document** object again:
 
@@ -43,11 +43,11 @@ The following code example shows how to set up a connection to a database and ex
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Loading-and-Saving-LoadAndSaveDocToDatabase-OpenDatabaseConnection.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In this example, we use the Microsoft Access .mdb database to store an Aspose.Words document.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to save a document to the database, then read the same document again, and finally delete the record containing the document from the database:
 
@@ -74,11 +74,11 @@ The following code example shows how to retrieve and return a document from the
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveDocToDatabase-ReadFromDatabase.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The SQL command “SELECT * FROM” is used to fetch the appropriate record based on the file name.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Delete a Document from a Database
 

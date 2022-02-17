@@ -8,11 +8,11 @@ weight: 80
 url: /net/aspose-words-for-net-5-0-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 5.0.1](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-5.0.1/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is a maintenance release with a good number of fixes. Thank you to the customers who reported and waited for their fixes patiently.
 

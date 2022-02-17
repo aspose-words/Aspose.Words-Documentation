@@ -8,7 +8,7 @@ weight: 100
 url: /java/section-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each section is exported as separate &lt;div&gt; elements as a child of &lt;body&gt; when there is more than one section in the document. 
 
@@ -18,7 +18,7 @@ Section-wide formatting is exported as CSS styles on &lt;div&gt;.
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Headers and Footers
 

@@ -9,7 +9,7 @@ url: /jasperreports/
 is_root: true
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **<img src="aspose-words-for-jasperreports.png" alt="todo:image_alt_text" style="zoom:50%;" />**
 
@@ -17,7 +17,7 @@ is_root: true
 
 Aspose.Words for JasperReports is the only known solution on the market that makes possible exporting reports from JasperReports and JasperServer to Microsoft Word document formats. All report features are converted with the highest degree of precision to Microsoft Word documents.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for JasperReports Resources
 

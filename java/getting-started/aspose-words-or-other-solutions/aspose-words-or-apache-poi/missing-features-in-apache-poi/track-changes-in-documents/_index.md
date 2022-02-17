@@ -8,7 +8,7 @@ weight: 50
 url: /java/track-changes-in-documents/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 See more details in the ["Track Changes in a Document"](/words/java/track-changes-in-a-document/) article.
 

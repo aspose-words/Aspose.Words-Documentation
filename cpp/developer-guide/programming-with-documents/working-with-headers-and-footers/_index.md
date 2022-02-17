@@ -13,7 +13,7 @@ url: /cpp/working-with-headers-and-footers/
 
 ## How to Create Headers or Footers using DocumentBuilder {#create-headers-or-footers-using-documentbuilder}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following sample code demonstrates how to create headers/footers using DocumentBuilder.
 
@@ -28,7 +28,7 @@ Special attention is given to the following issues:
 - How to control whether headers/footers of a subsequent section of the document use headers/footers defined in the previous section.
 - How to ensure proper header/footer appearance when using different page orientation and size for subsequent sections.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The code example given below shows how to create headers footers using DocumentBuilder.
 

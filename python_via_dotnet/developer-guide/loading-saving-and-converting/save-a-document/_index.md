@@ -21,11 +21,11 @@ The following code example shows how to load and save a document to a file:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-LoadAndSave.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Save a Document to a Stream {#save-a-document-to-a-stream}
 

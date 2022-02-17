@@ -45,11 +45,11 @@ If you are sure that all processing documents require the same font settings, th
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSettings-FontSettingsFontSource.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The custom **FontSettings** have higher priority than the default instance.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Font Availability and Substitution
 
@@ -209,11 +209,11 @@ Aspose.Words provides predefined font fallback settings for Google Noto fonts. T
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithFontSettings-SetPredefinedFontFallbackSettings.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Only Sans style Noto fonts with regular weight are used in predefined settings.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Where Aspose.Words Looks for Fonts
 

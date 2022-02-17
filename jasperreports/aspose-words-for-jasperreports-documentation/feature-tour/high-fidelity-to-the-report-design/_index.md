@@ -8,11 +8,11 @@ weight: 30
 url: /jasperreports/high-fidelity-to-the-report-design/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports exports reports as Microsoft Word documents in such a way that they look identical to reports exported by the built-in exporters of JasperReports. 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |The Bubble Chart Report rendered by JasperReports built-in report exporter (RTF). |The Bubble Chart Report rendered by Aspose.Words for JasperReports (DOC). |
 | :- | :- |

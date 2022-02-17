@@ -47,11 +47,11 @@ Sections of the document are represented by the **Section** and **SectionCollect
 
 Each section is represented by a **Section** object that can be obtained from the **Document.sections** collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 It is possible to change culture for current thread that will cause changing default page margins, header/footer distance and column spacing.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
@@ -101,11 +101,11 @@ Fully or partially copying one document into another is a very popular task. Her
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-CopySection.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes it is necessary to avoid section breaks in the destination document. In this case, you can use **Section.append_content** instead of **SectionCollection.add**.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Inserting a Break
 

@@ -8,11 +8,11 @@ weight: 32
 url: /cpp/working-with-ranges/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In Aspose.Words, a Range is a “flat window” into an otherwise tree-like model of the document.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Ranges Overview
 

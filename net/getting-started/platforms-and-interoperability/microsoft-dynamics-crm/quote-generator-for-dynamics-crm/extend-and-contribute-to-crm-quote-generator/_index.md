@@ -51,7 +51,7 @@ if (NewNoteId != Guid.Empty)
 
 **Please Note:** This Add-on is Open source. The Scenario we have created and resolved the issue may differ from the end user. You can download the latest source code and update it according to your business needs.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Convert a Document to HTML with roundtrip information](/words/net/convert-a-document-to-html-mhtml-or-epub/#convert-a-document-with-round-trip-information).
 

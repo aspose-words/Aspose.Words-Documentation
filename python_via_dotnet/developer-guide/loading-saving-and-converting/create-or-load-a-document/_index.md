@@ -29,14 +29,14 @@ builder.write("Hello world!")
 doc.save(docs_base.artifacts_dir + "out.docx")
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
 - The document paper size is **PaperSize.LETTER**.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Load a Document
 
@@ -60,7 +60,7 @@ The following code example shows how to open a document from a stream:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-OpeningFromStream.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 

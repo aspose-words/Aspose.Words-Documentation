@@ -8,11 +8,11 @@ weight: 5
 url: /net/aspose-words-for-net-20-8-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 20.8](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-20.8/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

@@ -72,11 +72,11 @@ The below code example shows how to bookmark a table.
 
 If you change the name of a bookmark to a name that already exists in the document, no error will be generated and only the first bookmark will be stored when you save the document.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Moving to a Bookmark
 

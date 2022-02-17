@@ -8,11 +8,11 @@ weight: 20
 url: /net/aspose-words-for-net-17-11-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 17.11](https://www.nuget.org/packages/Aspose.Words/17.11.0)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

@@ -25,7 +25,7 @@ The following code example shows how to build a table with all borders enabled 
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that before you apply table properties there must be at least one row present in the table. This means when building a table using DocumentBuilder, such formatting must be done after the first call to DocumentBuilder.InsertCell or after adding the first row to a table or when inserting nodes directly into the DOM.
 
@@ -92,13 +92,13 @@ Table elements present several different properties that can affect how the widt
 - Allowing autofit on the table.
 - Regular cell width
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 All of the properties and techniques that are described in this article all link back to how tables work in Microsoft Word. Therefore in most cases, if you are building your table programmatically but are finding it hard to create the desired table you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values to your application. 
 
 The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on many things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Using Preferred Widths
 
@@ -168,11 +168,11 @@ Aspose.Words uses the following order when calculating cell widths.
 |2|**Table.AllowAutoFit**|If autofit is allowed then the table may grow past the preferred width to accommodate contents. Normally it will not shrink below the preferred width.|
 |3|**CellFormat.Width**|If neither of the settings above is present then the width defined under **CellFormat.Width** is used.|
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 While creating a fixed table layout, specify the cell width. A cell without width cannot be saved to .doc format. Document formats other than .doc, such as .docx, allow, in principle, saving cells without width in a fixed table layout.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Working with Table Styles
 
