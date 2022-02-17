@@ -1,8 +1,9 @@
-﻿---
+---
 title: Perl and Aspose.Words for Java
 articleTitle: Perl and Aspose.Words for Java
 linktitle: Perl and Aspose.Words for Java
 type: docs
+description: "Perl: how to use Aspose.Words for Java."
 weight: 30
 url: /java/perl-and-aspose-words-for-java/
 ---

@@ -1,8 +1,9 @@
-﻿---
+---
 title: Use DocumentBuilder to Insert Document Elements in Java
 articleTitle: Use DocumentBuilder to Insert Document Elements
 linktitle: Use DocumentBuilder to Insert Document Elements
 type: docs
+description: "Aspsoe.Words for Java allows you to insert document elements using the document builder."
 weight: 10
 url: /java/use-documentbuilder-to-insert-document-elements/
 ---

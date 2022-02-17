@@ -1,8 +1,8 @@
-﻿---
+---
 title: Working with Images in C#
 articleTitle: Working with Images
 linktitle: Working with Images
-description: "Image shapes in details and advanced features provided by Aspose.Words."
+description: "Image shapes in details and advanced features provided by Aspose.Words for .NET."
 type: docs
 weight: 40
 url: /net/working-with-images/

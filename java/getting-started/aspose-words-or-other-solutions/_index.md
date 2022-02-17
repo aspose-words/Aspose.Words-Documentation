@@ -1,8 +1,9 @@
-﻿---
+---
 title: Aspose.Words or Other Solutions – Aspose.Words for Java
 articleTitle: Aspose.Words or Other Solutions
 linktitle: Aspose.Words or Other Solutions
 type: docs
+description: "Why do users choose Aspose.Words for Java to work with documents? Because it has a huge set of features and covers a wide variety of tasks."
 weight: 50
 url: /java/aspose-words-or-other-solutions/
 ---

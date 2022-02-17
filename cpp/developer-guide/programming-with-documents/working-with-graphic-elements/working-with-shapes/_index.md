@@ -1,8 +1,9 @@
-﻿---
+---
 title: Working with Shapes in C++
 articleTitle: Working with Shapes
 linktitle: Working with Shapes
 type: docs
+description: "Introduction to shape markup language, creating shapes of different types using Aspose.Words for C++." 
 weight: 280
 url: /cpp/working-with-shapes/
 ---

@@ -1,8 +1,9 @@
-﻿---
+---
 title: How to Run the Examples – Aspose.Words for Java
 articleTitle: How to Run the Examples
 linktitle: How to Run the Examples
 type: docs
+description: "Download Aspose.Words for Java examples from our GitHub repository and learn how to run them to become more familiar with the Aspose.Words possibilities and features."
 weight: 130
 url: /java/how-to-run-the-examples/
 ---
