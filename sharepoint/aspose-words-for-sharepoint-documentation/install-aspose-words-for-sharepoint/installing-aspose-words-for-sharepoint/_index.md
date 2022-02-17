@@ -1,5 +1,7 @@
 ﻿---
 title: Installing Aspose.Words for SharePoint
+articleTitle: Installing Aspose.Words for SharePoint
+linktitle: Installing Aspose.Words for SharePoint
 description: "This page describes how to install the Aspose.Words for SharePoint using installer."
 type: docs
 weight: 20

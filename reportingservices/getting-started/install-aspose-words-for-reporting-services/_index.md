@@ -1,5 +1,7 @@
 ﻿---
 title: Install Aspose.Words for Reporting Services
+articleTitle: Install Aspose.Words for Reporting Services
+linktitle: Install Aspose.Words for Reporting Services
 description: "This guide describes how to install the Aspose.Words for Reporting Services."
 type: docs
 weight: 70

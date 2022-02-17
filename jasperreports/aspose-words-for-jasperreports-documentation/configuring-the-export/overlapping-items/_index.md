@@ -1,5 +1,7 @@
 ﻿---
 title: Overlapping Items
+articleTitle: Overlapping Items
+linktitle: Overlapping Items
 description: "JasperReports often contain overlapping items. Faithfully converting reports with overlapping items to Microsoft Word documents can sometimes represent challenges to the system."
 type: docs
 weight: 30

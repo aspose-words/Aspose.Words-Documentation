@@ -1,5 +1,7 @@
 ﻿---
 title: Testing a License
+articleTitle: Testing a License
+linktitle: Testing a License
 description: "This page describes how to check Aspose.Words for SharePoint licence."
 type: docs
 weight: 20

@@ -1,5 +1,7 @@
 ﻿---
 title: Force Line Breaks
+articleTitle: Force Line Breaks
+linktitle: Force Line Breaks
 description: "Aspose Words for JasperReports allow changing Force Line Breaks parameter."
 type: docs
 weight: 190

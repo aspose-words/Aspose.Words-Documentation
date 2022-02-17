@@ -1,5 +1,7 @@
 ﻿---
 title: Troubleshooting
+articleTitle: Troubleshooting
+linktitle: Troubleshooting
 description: "This page describes possible way to find more details in case of issues which may occur while using Aspose.Words for SharePoint."
 type: docs
 weight: 40

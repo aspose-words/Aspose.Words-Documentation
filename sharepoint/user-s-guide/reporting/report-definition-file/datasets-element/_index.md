@@ -1,5 +1,7 @@
 ﻿---
 title: DataSets Element
+articleTitle: DataSets Element
+linktitle: DataSets Element
 description: "This page describes DataSets element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 30

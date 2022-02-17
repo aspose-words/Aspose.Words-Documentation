@@ -1,5 +1,7 @@
 ﻿---
 title: System Requirements
+articleTitle: System Requirements
+linktitle: System Requirements
 description: "This page describes system requirements for the Aspose.Words for SharePoint."
 type: docs
 weight: 10

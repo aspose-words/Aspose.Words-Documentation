@@ -1,5 +1,7 @@
 ﻿---
 title: Credentials Element
+articleTitle: Credentials Element
+linktitle: Credentials Element
 description: "This page describes Credentials element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 90

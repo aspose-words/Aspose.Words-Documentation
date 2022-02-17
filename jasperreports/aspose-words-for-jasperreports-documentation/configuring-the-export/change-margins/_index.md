@@ -1,5 +1,7 @@
 ﻿---
 title: Change Margins
+articleTitle: Change Margins
+linktitle: Change Margins
 description: "Change Margins option allows to decrease/increase page margins in the exported report."
 type: docs
 weight: 220

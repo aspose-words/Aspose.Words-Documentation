@@ -1,5 +1,7 @@
 ﻿---
 title: Reporting
+articleTitle: Reporting
+linktitle: Reporting
 description: "This guide describes reporting feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 10

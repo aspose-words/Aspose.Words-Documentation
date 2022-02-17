@@ -1,5 +1,7 @@
 ﻿---
 title: Aspose.Words for JasperReports Documentation
+articleTitle: Aspose.Words for JasperReports Documentation
+linktitle: Aspose.Words for JasperReports Documentation
 description: "This section provides a list with links to the Aspose.Words for JasperReports Documentation."
 type: docs
 weight: 10

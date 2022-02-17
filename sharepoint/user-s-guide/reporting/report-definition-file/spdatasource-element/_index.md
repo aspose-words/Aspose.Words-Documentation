@@ -1,5 +1,7 @@
 ﻿---
 title: SPDataSource Element
+articleTitle: SPDataSource Element
+linktitle: SPDataSource Element
 description: "This page describes SPDataSource element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 80

@@ -1,5 +1,7 @@
 ﻿---
 title: Product Overview
+articleTitle: Product Overview
+linktitle: Product Overview
 description: "Aspose.Words for JasperReports is the solution that makes it possible to export reports from JasperReports and JasperServer to Microsoft Word document formats. All report features are converted with the highest degree of precision to Microsoft Word documents."
 type: docs
 weight: 10

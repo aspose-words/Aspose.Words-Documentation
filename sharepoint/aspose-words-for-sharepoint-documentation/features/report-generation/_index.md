@@ -1,5 +1,7 @@
 ﻿---
 title: Report Generation
+articleTitle: Report Generation
+linktitle: Report Generation
 description: "This page describes reporting features of the Aspose.Words for SharePoint."
 type: docs
 weight: 30

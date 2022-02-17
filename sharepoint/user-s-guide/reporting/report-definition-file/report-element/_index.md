@@ -1,5 +1,7 @@
 ﻿---
 title: Report Element
+articleTitle: Report Element
+linktitle: Report Element
 description: "This page describes Report element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 20

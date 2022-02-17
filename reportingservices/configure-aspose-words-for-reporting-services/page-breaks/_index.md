@@ -1,5 +1,7 @@
 ﻿---
 title: Page Breaks
+articleTitle: Page Breaks
+linktitle: Page Breaks
 description: "This page describes Page Breaks setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 30

@@ -1,5 +1,7 @@
 ﻿---
 title: Why Aspose.Words for JasperReports
+articleTitle: Why Aspose.Words for JasperReports
+linktitle: Why Aspose.Words for JasperReports
 description: "Aspose.Words for JasperReports allows exporting reports as DOC and DOCX documents."
 type: docs
 weight: 30

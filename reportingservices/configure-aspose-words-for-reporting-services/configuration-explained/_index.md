@@ -1,5 +1,7 @@
 ﻿---
 title: Configuration Explained
+articleTitle: Configuration Explained
+linktitle: Configuration Explained
 description: "This page contains overview of configuration approaches for the Aspose.Words for Reporting Services."
 type: docs
 weight: 10

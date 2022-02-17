@@ -1,5 +1,7 @@
 ﻿---
 title: Using REST API
+articleTitle: Using REST API
+linktitle: Using REST API
 description: "Aspose.Words for JasperReports (from v2.6.0) can be used with JasperServer REST API (v2)."
 type: docs
 weight: 140

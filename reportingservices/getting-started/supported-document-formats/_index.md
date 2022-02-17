@@ -1,5 +1,7 @@
 ﻿---
 title: Supported Document Formats
+articleTitle: Supported Document Formats
+linktitle: Supported Document Formats
 description: "This page describes supported formats by the Aspose.Words for Reporting Services."
 type: docs
 weight: 20

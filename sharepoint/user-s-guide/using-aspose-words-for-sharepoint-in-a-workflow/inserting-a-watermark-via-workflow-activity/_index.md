@@ -1,5 +1,7 @@
 ﻿---
 title: Inserting a Watermark via Workflow Activity
+articleTitle: Inserting a Watermark via Workflow Activity
+linktitle: Inserting a Watermark via Workflow Activity
 description: "This article shows you how to create a workflow for inserting a text or image watermark into a document while using Aspose.Words for SharePoint."
 type: docs
 weight: 40

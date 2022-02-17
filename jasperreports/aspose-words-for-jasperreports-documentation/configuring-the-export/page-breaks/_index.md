@@ -1,5 +1,7 @@
 ﻿---
 title: Page Breaks
+articleTitle: Page Breaks
+linktitle: Page Breaks
 description: "Aspose.Words for JasperReports supports three ways page breaks are inserted between document pages."
 type: docs
 weight: 50

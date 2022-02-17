@@ -1,5 +1,7 @@
 ﻿---
 title: Aspose.Words for JasperReports 1.0.1 Release Notes
+articleTitle: Aspose.Words for JasperReports 1.0.1 Release Notes
+linktitle: Aspose.Words for JasperReports 1.0.1 Release Notes
 description: "Aspose.Words for JasperReports 1.0.1 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 40

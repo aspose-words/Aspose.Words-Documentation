@@ -1,5 +1,7 @@
 ﻿---
 title: TableRelation Element
+articleTitle: TableRelation Element
+linktitle: TableRelation Element
 description: "This page describes TableRelation element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 170

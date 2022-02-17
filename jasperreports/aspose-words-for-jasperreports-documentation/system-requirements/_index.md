@@ -1,5 +1,7 @@
 ﻿---
 title: System Requirements
+articleTitle: System Requirements
+linktitle: System Requirements
 description: "System Requirements of Aspose.Words for JasperReports."
 type: docs
 weight: 90

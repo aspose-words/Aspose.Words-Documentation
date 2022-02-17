@@ -1,5 +1,7 @@
 ﻿---
 title: ColumnNames Element
+articleTitle: ColumnNames Element
+linktitle: ColumnNames Element
 description: "This page describes ColumnNames element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 190

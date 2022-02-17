@@ -1,5 +1,7 @@
 ﻿---
 title: Relations Element
+articleTitle: Relations Element
+linktitle: Relations Element
 description: "This page describes Relations element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 160

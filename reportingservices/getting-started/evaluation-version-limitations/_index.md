@@ -1,5 +1,7 @@
 ﻿---
 title: Evaluation Version Limitations
+articleTitle: Evaluation Version Limitations
+linktitle: Evaluation Version Limitations
 description: "This page describes evaluation version limitations of the Aspose.Words for Reporting Services."
 type: docs
 weight: 60

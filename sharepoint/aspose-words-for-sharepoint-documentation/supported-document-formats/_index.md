@@ -1,5 +1,7 @@
 ﻿---
 title: Supported Document Formats
+articleTitle: Supported Document Formats
+linktitle: Supported Document Formats
 description: "This page describes formats which are supported by the Aspose.Words for SharePoint."
 type: docs
 weight: 20

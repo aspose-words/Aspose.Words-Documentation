@@ -1,5 +1,7 @@
 ﻿---
 title: SPXmlQuery Element
+articleTitle: SPXmlQuery Element
+linktitle: SPXmlQuery Element
 description: "This page describes SPListQueryelement element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 150

@@ -1,5 +1,7 @@
 ﻿---
 title: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export
+articleTitle: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export
+linktitle: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export
 description: "This page contains list of supported formats and export examples produced by the Aspose.Words for Reporting Services."
 type: docs
 weight: 20

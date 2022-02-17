@@ -1,5 +1,7 @@
 ﻿---
 title: Introduction
+articleTitle: Introduction
+linktitle: Introduction
 description: "Aspose.Words for JasperReports provides a number of parameters that affect the resulting Microsoft Word document’s appearance."
 type: docs
 weight: 70

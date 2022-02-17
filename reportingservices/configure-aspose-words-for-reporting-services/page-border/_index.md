@@ -1,5 +1,7 @@
 ﻿---
 title: Page Border
+articleTitle: Page Border
+linktitle: Page Border
 type: docs
 weight: 80
 url: /reportingservices/page-border/

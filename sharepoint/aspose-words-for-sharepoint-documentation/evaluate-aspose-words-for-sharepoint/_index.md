@@ -1,5 +1,7 @@
 ﻿---
 title: Evaluate Aspose.Words for SharePoint
+articleTitle: Evaluate Aspose.Words for SharePoint
+linktitle: Evaluate Aspose.Words for SharePoint
 description: "This page describes evaluation period details for the Aspose.Words for SharePoint."
 type: docs
 weight: 50

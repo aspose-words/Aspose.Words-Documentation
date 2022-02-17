@@ -1,5 +1,7 @@
 ﻿---
 title: Workflow support
+articleTitle: Workflow support
+linktitle: Workflow support
 description: "This page describes workflow features of the Aspose.Words for SharePoint."
 type: docs
 weight: 40

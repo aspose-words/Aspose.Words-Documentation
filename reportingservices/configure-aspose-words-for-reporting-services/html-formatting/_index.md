@@ -1,5 +1,7 @@
 ﻿---
 title: HTML Formatting
+articleTitle: HTML Formatting
+linktitle: HTML Formatting
 description: "This page describes HTML Formatting setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 90

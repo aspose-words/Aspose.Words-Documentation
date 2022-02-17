@@ -1,5 +1,7 @@
 ﻿---
 title: Feature Overview
+articleTitle: Feature Overview
+linktitle: Feature Overview
 description: "This section provides a detailed description of the Aspose.Words for JasperReports features."
 type: docs
 weight: 10

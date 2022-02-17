@@ -1,5 +1,7 @@
 ﻿---
 title: Aspose.Words for Reporting Services 4.7.4 Release Notes
+articleTitle: Aspose.Words for Reporting Services 4.7.4 Release Notes
+linktitle: Aspose.Words for Reporting Services 4.7.4 Release Notes
 description: "Aspose.Words for Reporting Services 4.7.4 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50

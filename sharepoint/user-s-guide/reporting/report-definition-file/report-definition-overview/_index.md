@@ -1,5 +1,7 @@
 ﻿---
 title: Report Definition Overview
+articleTitle: Report Definition Overview
+linktitle: Report Definition Overview
 description: "This page describes report definition file meaning, it's structure and how to work with a such file while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 10

@@ -1,5 +1,7 @@
 ﻿---
 title: Page Orientation
+articleTitle: Page Orientation
+linktitle: Page Orientation
 description: "This page describes Page Orientation setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 70
