@@ -1,5 +1,5 @@
 ﻿---
-title: License Aspose.Words for SharePoint
+title: License Aspose.Words for SharePoint - Aspose.Words for SharePoint
 articleTitle: License Aspose.Words for SharePoint
 linktitle: License Aspose.Words for SharePoint
 description: "This guide describes how to work with the Aspose.Words for SharePoint licences."

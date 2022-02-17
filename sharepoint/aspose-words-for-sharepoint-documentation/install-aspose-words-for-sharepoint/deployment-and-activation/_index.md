@@ -1,5 +1,5 @@
 ﻿---
-title: Deployment and Activation
+title: Deployment and Activation - Aspose.Words for SharePoint
 articleTitle: Deployment and Activation
 linktitle: Deployment and Activation
 description: "This page describes deployment and activation processes details for the Aspose.Words for SharePoint."

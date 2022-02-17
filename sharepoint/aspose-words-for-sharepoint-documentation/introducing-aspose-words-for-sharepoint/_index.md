@@ -1,5 +1,5 @@
 ﻿---
-title: Introducing Aspose.Words for SharePoint
+title: Introducing Aspose.Words for SharePoint - Aspose.Words for SharePoint
 articleTitle: Introducing Aspose.Words for SharePoint
 linktitle: Introducing Aspose.Words for SharePoint
 description: "This page contains common overview of the Aspose.Words for SharePoint functionality."

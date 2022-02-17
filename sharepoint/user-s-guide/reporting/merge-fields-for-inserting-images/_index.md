@@ -1,5 +1,5 @@
 ﻿---
-title: Merge Fields for Inserting Images
+title: Merge Fields for Inserting Images - Aspose.Words for SharePoint
 articleTitle: Merge Fields for Inserting Images
 linktitle: Merge Fields for Inserting Images
 description: "This guide describes inserting Images from a data source feature details of the Aspose.Words for SharePoint."

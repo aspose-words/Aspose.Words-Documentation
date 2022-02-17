@@ -1,5 +1,5 @@
 ﻿---
-title: DataSets Element
+title: DataSets Element - Aspose.Words for SharePoint
 articleTitle: DataSets Element
 linktitle: DataSets Element
 description: "This page describes DataSets element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

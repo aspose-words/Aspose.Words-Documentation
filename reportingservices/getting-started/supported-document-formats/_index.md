@@ -1,5 +1,5 @@
 ﻿---
-title: Supported Document Formats
+title: Supported Document Formats - Aspose.Words for Reporting Services
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 description: "This page describes supported formats by the Aspose.Words for Reporting Services."

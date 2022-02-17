@@ -1,5 +1,5 @@
 ﻿---
-title: Page Orientation
+title: Page Orientation - Aspose.Words for Reporting Services
 articleTitle: Page Orientation
 linktitle: Page Orientation
 description: "This page describes Page Orientation setting of the Aspose.Words for Reporting Services."

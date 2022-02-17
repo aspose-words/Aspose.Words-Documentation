@@ -1,5 +1,5 @@
 ﻿---
-title: Spacing Factor
+title: Spacing Factor - Aspose.Words for JasperReports
 articleTitle: Spacing Factor
 linktitle: Spacing Factor
 description: "Aspose Words for JasperReports can reduce spacing between page elements proportionally."

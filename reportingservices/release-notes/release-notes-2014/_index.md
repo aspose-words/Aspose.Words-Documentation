@@ -1,5 +1,5 @@
 ﻿---
-title: Release Notes - 2014
+title: Release Notes - 2014 - Aspose.Words for Reporting Services
 articleTitle: Release Notes - 2014
 linktitle: Release Notes - 2014
 description: "Release Notes - 2014 – learn about the latest updates and fixes."

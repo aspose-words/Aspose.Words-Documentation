@@ -1,5 +1,5 @@
 ﻿---
-title: Optimize Footers
+title: Optimize Footers - Aspose.Words for JasperReports
 articleTitle: Optimize Footers
 linktitle: Optimize Footers
 description: "Aspose.Word for JasperReports tries to optimize footer contents for better fitting footer on the page."

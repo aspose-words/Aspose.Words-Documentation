@@ -1,5 +1,5 @@
 ﻿---
-title: User Interface for Creating Reports
+title: User Interface for Creating Reports - Aspose.Words for SharePoint
 articleTitle: User Interface for Creating Reports
 linktitle: User Interface for Creating Reports
 description: "This guide describes how to create report using the Aspose.Words for SharePoint from SharePoint UI."

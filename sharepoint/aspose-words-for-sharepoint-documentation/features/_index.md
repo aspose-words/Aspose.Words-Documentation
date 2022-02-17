@@ -1,5 +1,5 @@
 ﻿---
-title: Features
+title: Features - Aspose.Words for SharePoint
 articleTitle: Features
 linktitle: Features
 description: "This guide describes features details of the Aspose.Words for SharePoint."

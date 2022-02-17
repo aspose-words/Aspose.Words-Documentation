@@ -1,5 +1,5 @@
 ﻿---
-title: Aspose.Words Reporting Services 1.3.1.0 Hot Fix Release Notes
+title: Aspose.Words Reporting Services 1.3.1.0 Hot Fix Release Notes - Aspose.Words for Reporting Services
 articleTitle: Aspose.Words Reporting Services 1.3.1.0 Hot Fix Release Notes
 linktitle: Aspose.Words Reporting Services 1.3.1.0 Hot Fix Release Notes
 description: "Aspose.Words Reporting Services 1.3.1.0 Hot Fix Release Notes – learn about the latest updates and fixes."

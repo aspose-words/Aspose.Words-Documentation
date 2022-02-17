@@ -1,5 +1,5 @@
 ﻿---
-title: Trim Oversized Texts
+title: Trim Oversized Texts - Aspose.Words for JasperReports
 articleTitle: Trim Oversized Texts
 linktitle: Trim Oversized Texts
 description: "Aspose Words for JasperReports will never trim oversized texts by default."

@@ -1,5 +1,5 @@
 ﻿---
-title: Check Version
+title: Check Version - Aspose.Words for JasperReports
 articleTitle: Check Version
 linktitle: Check Version
 description: "Aspose Words for JasperReports will always try to check version of generated .jrprint files and currently used version of JasperReports."

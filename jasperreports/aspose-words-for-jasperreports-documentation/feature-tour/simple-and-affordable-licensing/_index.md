@@ -1,5 +1,5 @@
 ﻿---
-title: Simple and Affordable Licensing
+title: Simple and Affordable Licensing - Aspose.Words for JasperReports
 articleTitle: Simple and Affordable Licensing
 linktitle: Simple and Affordable Licensing
 description: "Aspose.Words for JasperReports evaluation and full versions are the same download."

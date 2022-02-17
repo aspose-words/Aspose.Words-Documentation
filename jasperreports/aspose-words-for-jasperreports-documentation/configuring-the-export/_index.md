@@ -1,5 +1,5 @@
 ﻿---
-title: Configuring the Export
+title: Configuring the Export - Aspose.Words for JasperReports
 articleTitle: Configuring the Export
 linktitle: Configuring the Export
 description: "This section provides a list with links to the Documentation about configuring the export."

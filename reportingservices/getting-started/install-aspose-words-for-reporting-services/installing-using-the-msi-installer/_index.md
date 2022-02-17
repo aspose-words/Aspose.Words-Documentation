@@ -1,5 +1,5 @@
 ﻿---
-title: Installing Using the MSI Installer
+title: Installing Using the MSI Installer - Aspose.Words for Reporting Services
 articleTitle: Installing Using the MSI Installer
 linktitle: Installing Using the MSI Installer
 description: "This page describes installation of the Aspose.Words for Reporting Services using installer."

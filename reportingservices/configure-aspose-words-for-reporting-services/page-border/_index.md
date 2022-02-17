@@ -1,5 +1,5 @@
 ﻿---
-title: Page Border
+title: Page Border - Aspose.Words for Reporting Services
 articleTitle: Page Border
 linktitle: Page Border
 type: docs

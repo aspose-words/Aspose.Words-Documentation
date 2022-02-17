@@ -1,5 +1,5 @@
 ﻿---
-title: Change Margins
+title: Change Margins - Aspose.Words for JasperReports
 articleTitle: Change Margins
 linktitle: Change Margins
 description: "Change Margins option allows to decrease/increase page margins in the exported report."

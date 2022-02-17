@@ -1,5 +1,5 @@
 ﻿---
-title: Stretching Factor
+title: Stretching Factor - Aspose.Words for Reporting Services
 articleTitle: Stretching Factor
 linktitle: Stretching Factor
 description: "This page describes Stretching Factor setting of the Aspose.Words for Reporting Services."

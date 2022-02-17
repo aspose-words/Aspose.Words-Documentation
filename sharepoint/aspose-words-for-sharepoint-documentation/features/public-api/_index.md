@@ -1,5 +1,5 @@
 ﻿---
-title: Public API
+title: Public API - Aspose.Words for SharePoint
 articleTitle: Public API
 linktitle: Public API
 description: "This page describes public API feature of the Aspose.Words for SharePoint."

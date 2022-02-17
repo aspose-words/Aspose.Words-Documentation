@@ -1,5 +1,5 @@
 ﻿---
-title: High Fidelity to the Report Design
+title: High Fidelity to the Report Design - Aspose.Words for JasperReports
 articleTitle: High Fidelity to the Report Design
 linktitle: High Fidelity to the Report Design
 description: "Aspose.Words for JasperReports exports reports as Microsoft Word documents in such a way that they look identical to reports exported by the built-in exporters of JasperReports."

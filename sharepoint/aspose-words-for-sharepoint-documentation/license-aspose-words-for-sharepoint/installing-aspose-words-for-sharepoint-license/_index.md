@@ -1,5 +1,5 @@
 ﻿---
-title: Installing Aspose.Words for SharePoint License
+title: Installing Aspose.Words for SharePoint License - Aspose.Words for SharePoint
 articleTitle: Installing Aspose.Words for SharePoint License
 linktitle: Installing Aspose.Words for SharePoint License
 description: "This page describes how to install Aspose.Words for SharePoint licence."

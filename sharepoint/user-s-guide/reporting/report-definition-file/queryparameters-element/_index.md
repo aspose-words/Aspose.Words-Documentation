@@ -1,5 +1,5 @@
 ﻿---
-title: QueryParameters Element
+title: QueryParameters Element - Aspose.Words for SharePoint
 articleTitle: QueryParameters Element
 linktitle: QueryParameters Element
 description: "This page describes QueryParameters element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

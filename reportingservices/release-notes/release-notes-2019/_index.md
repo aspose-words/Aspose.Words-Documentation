@@ -1,5 +1,5 @@
 ﻿---
-title: Release Notes - 2019
+title: Release Notes - 2019 - Aspose.Words for Reporting Services
 articleTitle: Release Notes - 2019
 linktitle: Release Notes - 2019
 description: "Release Notes - 2019 – learn about the latest updates and fixes."

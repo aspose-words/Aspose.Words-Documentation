@@ -1,5 +1,5 @@
 ﻿---
-title: Reporting
+title: Reporting - Aspose.Words for SharePoint
 articleTitle: Reporting
 linktitle: Reporting
 description: "This guide describes reporting feature details of the Aspose.Words for SharePoint."

@@ -1,5 +1,5 @@
 ﻿---
-title: Release Notes
+title: Release Notes - Aspose.Words for SharePoint
 articleTitle: Release Notes
 linktitle: Release Notes
 type: docs
