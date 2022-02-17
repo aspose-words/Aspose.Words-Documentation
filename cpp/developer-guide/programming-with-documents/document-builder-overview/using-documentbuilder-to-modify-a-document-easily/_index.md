@@ -1,8 +1,9 @@
-﻿---
+---
 title: Using DocumentBuilder to Modify a Document Easily in C++
 articleTitle: Using DocumentBuilder to Modify a Document Easily
 linktitle: Using DocumentBuilder to Modify a Document Easily
 type: docs
+description: "Aspsoe.Words for C++ allows you to use the document builder to modify a document easily."
 weight: 190
 url: /cpp/using-documentbuilder-to-modify-a-document-easily/
 ---

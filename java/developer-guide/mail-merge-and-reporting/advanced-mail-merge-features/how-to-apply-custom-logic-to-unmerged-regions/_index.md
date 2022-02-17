@@ -1,8 +1,9 @@
-﻿---
+---
 title: How to  Apply Custom Logic to Unmerged Regions in Java
 articleTitle: How to  Apply Custom Logic to Unmerged Regions
 linktitle: How to  Apply Custom Logic to Unmerged Regions
 type: docs
+description: "Aspose.Words for Java allows you to apply custom logic to unmerged regions during a mail merge operation."
 weight: 70
 url: /java/how-to-apply-custom-logic-to-unmerged-regions/
 ---

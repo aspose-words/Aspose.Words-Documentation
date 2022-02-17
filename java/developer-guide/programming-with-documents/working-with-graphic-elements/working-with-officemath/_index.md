@@ -1,8 +1,9 @@
-﻿---
+---
 title: Working with OfficeMath in Java
 articleTitle: Working with OfficeMath
 linktitle: Working with OfficeMath
 type: docs
+description: "Introduction to Office Math feature in Aspose.Words for Java."
 weight: 30
 url: /java/working-with-officemath/
 ---

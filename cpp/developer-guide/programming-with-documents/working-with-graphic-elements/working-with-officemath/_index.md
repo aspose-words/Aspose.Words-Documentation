@@ -1,8 +1,9 @@
-﻿---
+---
 title: Working with OfficeMath in C++
 articleTitle: Working with OfficeMath
 linktitle: Working with OfficeMath
 type: docs
+description: "Introduction to Office Math feature in Aspose.Words for C++."
 weight: 30
 url: /cpp/working-with-officemath/
 ---

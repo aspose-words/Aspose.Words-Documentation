@@ -1,8 +1,9 @@
-﻿---
+---
 title: Working with Watermark in Java
 articleTitle: Working with Watermark
 linktitle: Working with Watermark
 type: docs
+description: "Document watermark manipulation using Aspose.Words for Java."
 weight: 70
 url: /java/working-with-watermark/
 aliases: [/java/how-to-add-a-watermark-to-a-document/]

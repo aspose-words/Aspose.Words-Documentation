@@ -1,8 +1,9 @@
-﻿---
+---
 title: Working with Content Control SDT in C++
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
 type: docs
+description: "Advanced document content management, how to create and manipulate content controls (Structured Document Tags) using Aspose.Words for C++. "
 weight: 130
 url: /cpp/working-with-content-control-sdt/
 ---

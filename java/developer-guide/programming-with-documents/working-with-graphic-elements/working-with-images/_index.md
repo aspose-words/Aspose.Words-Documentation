@@ -1,8 +1,9 @@
-﻿---
+---
 title: Working with Images in Java
 articleTitle: Working with Images
 linktitle: Working with Images
 type: docs
+description: "Image shapes in details and advanced features provided by Aspose.Words for Java."
 weight: 40
 url: /java/working-with-images/
 ---

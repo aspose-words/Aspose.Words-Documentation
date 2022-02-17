@@ -1,8 +1,9 @@
-﻿---
+---
 title: Load in the Rich Text Format 1.9 (.RTF) Format – Aspose.Words for .NET
 articleTitle: Load in the Rich Text Format 1.9 (.RTF) Format
 linktitle: Load in the Rich Text Format 1.9 (.RTF) Format
 type: docs
+description: "Aspose.Words for .NET allows you to work with different features supported on RTF format import."
 weight: 90
 url: /net/load-in-the-rich-text-format-1-9-rtf-format/
 ---
