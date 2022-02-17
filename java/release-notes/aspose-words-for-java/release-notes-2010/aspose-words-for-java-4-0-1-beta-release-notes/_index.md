@@ -8,11 +8,11 @@ weight: 20
 url: /java/aspose-words-for-java-4-0-1-beta-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 4.0.1 BETA](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-4.0.1-beta/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The term "BETA" applies only to the "Save to PDF" functionality in this version.
 

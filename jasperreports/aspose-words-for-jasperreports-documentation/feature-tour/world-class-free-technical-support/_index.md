@@ -1,16 +1,18 @@
 ﻿---
-title: World Class Free Technical Support
+title: World Class Free Technical Support - Aspose.Words for JasperReports
+articleTitle: World Class Free Technical Support
+linktitle: World Class Free Technical Support
 description: "Aspose is renowned for its free and unlimited technical support provided directly by the developers of the products."
 type: docs
 weight: 60
 url: /jasperreports/world-class-free-technical-support/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose is renowned for its free and unlimited technical support provided directly by the developers of the products. If a new version of a product is available, or if resolving a question results in a fix, all new releases are free if you have an active subscription.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Getting Support
 

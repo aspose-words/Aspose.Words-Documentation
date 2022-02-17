@@ -61,11 +61,11 @@ Microsoft Word documents may contain various characters that have a special mean
 
 The [ControlChar](https://apireference.aspose.com/words/java/com.aspose.words/ControlChar) class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string [ControlChar.LineBreak](https://apireference.aspose.com/words/java/com.aspose.words/controlchar#LINE_BREAK) and char [ControlChar.LineBreakChar](https://apireference.aspose.com/words/java/com.aspose.words/controlchar#LINE_BREAK_CHAR) has the same value.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Use this class whenever you want to deal with control characters.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example demonstrates how to use control characters.
 

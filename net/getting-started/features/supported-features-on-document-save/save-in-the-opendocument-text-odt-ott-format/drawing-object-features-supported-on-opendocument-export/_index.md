@@ -8,13 +8,13 @@ weight: 40
 url: /net/drawing-object-features-supported-on-opendocument-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/net/drawing-object-features-supported-on-opendocument-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -24,7 +24,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 <https://products.aspose.app/words/viewer>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## Images

@@ -8,11 +8,11 @@ weight: 20
 url: /net/aspose-words-for-net-6-6-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 6.6.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-6.6.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Over 100 enhancements, fixes and new features in this Aspose.Words for .NET release!
 

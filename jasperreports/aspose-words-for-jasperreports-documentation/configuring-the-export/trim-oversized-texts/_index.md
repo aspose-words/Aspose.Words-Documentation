@@ -1,16 +1,18 @@
 ﻿---
-title: Trim Oversized Texts
+title: Trim Oversized Texts - Aspose.Words for JasperReports
+articleTitle: Trim Oversized Texts
+linktitle: Trim Oversized Texts
 description: "Aspose Words for JasperReports will never trim oversized texts by default."
 type: docs
 weight: 180
 url: /jasperreports/trim-oversized-texts/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 By default, value of TRIM_OVERSIZED_TEXTS parameter is **false**. This means that Aspose Words for JasperReports will never trim oversized texts (texts that are longer than right margin of appropriate text box). However, you can enable this option by setting it to **true** if you need to force trimming of oversized texts.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **In JasperReports:**
 

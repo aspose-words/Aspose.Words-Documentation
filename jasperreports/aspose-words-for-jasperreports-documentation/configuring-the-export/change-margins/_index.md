@@ -1,18 +1,20 @@
 ﻿---
-title: Change Margins
+title: Change Margins - Aspose.Words for JasperReports
+articleTitle: Change Margins
+linktitle: Change Margins
 description: "Change Margins option allows to decrease/increase page margins in the exported report."
 type: docs
 weight: 220
 url: /jasperreports/change-margins/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Change Margins option allows to decrease/increase page margins in the exported report.
 
 Usage: CHANGE_MARGINS=“L; R; T; B”, where L is left, R is right, T is top, B is bottom margins. Positive values will increase, and negative values will decrease the corresponding margin. The units are the same as for the PAGE_MARGINS option. It is most convenient to specify values in points (pt), as Word is using those units. If the value is not specified (empty) - the corresponding margin is not changed. Valid values are in the range (-36pt ... +36pt).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## JasperReports
 

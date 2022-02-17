@@ -8,7 +8,7 @@ weight: 30
 url: /java/document-features-supported-on-rich-text-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 There are save options avalaible to export the RTF in compact size and to accomdate keywords for old readers.
 
@@ -20,7 +20,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

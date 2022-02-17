@@ -17,11 +17,11 @@ Conversion from Word to PDF is a rather complex process that requires several st
 
 With Aspose.Words you can programmatically convert a document from Word formats, such as DOC or DOCX, to PDF without using Microsoft Office. This article explains how to perform this conversion.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that the number of pages in a document affects the conversion time.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Convert DOC or DOCX to PDF {#convert-doc-or-docx-to-pdf}
 
@@ -36,13 +36,13 @@ The following code example shows how to convert a document from DOCX into PDF us
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the **PdfSaveOptions** class, containing properties that determine how the PDF output will be displayed.
 
 Note that with the same technique, you can convert any flow-layout format document to PDF format.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Convert to Various PDF Standards {#convert-to-various-pdf-standards}
 

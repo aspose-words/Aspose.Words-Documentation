@@ -99,7 +99,7 @@ Download **Create Tables** form any of the below mentioned social coding sites:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Create.Tables.Aspose.Words.zip)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Inserting a Table using DocumentBuilder](/words/net/introduction-and-creating-tables/#inserting-a-table-using-documentbuilder).
 

@@ -8,11 +8,11 @@ weight: 40
 url: /net/aspose-words-for-net-5-2-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 5.2.1](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-5.2.1/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Here is a good set of new fixes, mostly in the HTML and PDF export modules.
 

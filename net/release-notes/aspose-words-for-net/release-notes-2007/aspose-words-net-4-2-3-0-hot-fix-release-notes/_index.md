@@ -8,11 +8,11 @@ weight: 240
 url: /net/aspose-words-net-4-2-3-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 4.2.3.0 Hot Fix](https://downloads.aspose.com/words/net/new-releases/aspose.words-.net-4.2.3.0-hot-fix/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is a maintenance release, here is what's been done:
 

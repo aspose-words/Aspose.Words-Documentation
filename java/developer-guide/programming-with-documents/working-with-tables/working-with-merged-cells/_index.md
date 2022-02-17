@@ -20,7 +20,7 @@ The values of these properties are what define the merge behavior of cells.
 
 ![work-with-merged-cells-aspose-words-java](working-with-merged-cells-1.png)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes when you load existing document cells in a table will appear merged. However, these can be in fact one long cell. Microsoft Word at times is known to export merged cells in this way. This can cause confusion when attempting to work with individual cells. There appears to be no particular pattern as to when this happens.
 

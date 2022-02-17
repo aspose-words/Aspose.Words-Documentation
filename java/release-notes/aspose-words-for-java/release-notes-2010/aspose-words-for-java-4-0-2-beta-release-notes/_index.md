@@ -8,11 +8,11 @@ weight: 10
 url: /java/aspose-words-for-java-4-0-2-beta-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 4.0.2 BETA](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-4.0.2-beta/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 A comment in a Word document can be anchored to a position or to a range of text. Earlier versions of Aspose.Words supported comments anchoring to a position of text only. If a comment was anchored to a range of text (and that is the most common scenario), Aspose.Words lost the range information and converted the comment as anchored to the end position of the commented text. This was annoying to many customers, comments ranges are especially important in legal documents for example because they need to know exactly what piece of text each comment applies to.
 

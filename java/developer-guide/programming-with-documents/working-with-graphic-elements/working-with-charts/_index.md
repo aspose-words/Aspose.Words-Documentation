@@ -171,7 +171,7 @@ If you want to set a text alignment for multi-line labels, you can simply achiev
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 MS Word aligns Chart Label to the center by default.
 

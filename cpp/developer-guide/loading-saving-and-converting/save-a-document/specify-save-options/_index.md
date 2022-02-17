@@ -15,11 +15,11 @@ The following code example shows how to set the save options before saving the d
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" 
 "cpp-Loading-and-Saving-SpecifySaveOption-SpecifySaveOption.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The article describes a few properties you can control when saving a document.
 

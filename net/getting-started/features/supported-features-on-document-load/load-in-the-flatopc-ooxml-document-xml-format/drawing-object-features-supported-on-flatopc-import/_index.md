@@ -8,11 +8,11 @@ weight: 40
 url: /net/drawing-object-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports many types of drawing entities on document load. Graphic objects in any document format loaded into Aspose.Words are represented in the model by Shape nodes. This node type provides member which allow you to access and modify both the image data and also the properties of the object such as positioning and behavior. Using Aspose.Words you can create and modify different types of graphic objects. Almost all properties that deal with object positioning use points as a unit of measurment. There is a class to help work with points by converting different types of units to and from points e.g pixel to point, point to inch.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Images
 

@@ -19,11 +19,11 @@ The following code example shows how to load and save a document to a file:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Save to a Stream {#save-a-document-to-a-stream}
 

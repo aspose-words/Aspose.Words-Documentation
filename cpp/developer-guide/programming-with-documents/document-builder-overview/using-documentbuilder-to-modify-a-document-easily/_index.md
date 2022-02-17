@@ -69,11 +69,11 @@ The bullet or number and formatting are added to the current paragraph and all f
 
 The methods change the list level and apply the formatting properties of the new level.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can also use the ListFormat.ListLevelNumber property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Below example shows how to build a multilevel list.
 

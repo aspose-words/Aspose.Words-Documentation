@@ -20,11 +20,11 @@ The following code example shows how to load and save a document to a file:
 
 {{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "load-save.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.doc).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Save to a Stream {#save-a-document-to-a-stream}
 
@@ -34,11 +34,11 @@ The following code example shows how to load and save a document to a stream:
 
 {{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "load-save-stream.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Send a Document to a Client Browser {#sending-a-document-to-a-client-browser}
 
@@ -48,11 +48,11 @@ The following code example shows how to send a document to the client browser fr
 
 {{< gist "aspose-words-gists" "6b49e2482a4ca546ffd2b4f9fa642041" "send-to-client-browser.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This overload of the Save method is not available when using the .NET Client Profile DLL. This DLL is located in the **net3.5_ClientProfile** folder. The .NET Client Profile excludes assemblies such as **System.Web**, therefore, **HttpResponse** is not available. This is entirely by design.
 

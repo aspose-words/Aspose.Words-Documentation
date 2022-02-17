@@ -1,12 +1,14 @@
 ﻿---
-title: DOC, DOCX, RTF, ODT, HTML, and TXT Export
+title: DOC, DOCX, RTF, ODT, HTML, and TXT Export - Aspose.Words for JasperReports
+articleTitle: DOC, DOCX, RTF, ODT, HTML, and TXT Export
+linktitle: DOC, DOCX, RTF, ODT, HTML, and TXT Export
 description: "Aspose.Words for JasperReports is built on top of Aspose.Words for Java, the world-class library for server-side Microsoft Word documents processing."
 type: docs
 weight: 20
 url: /jasperreports/doc-docx-rtf-odt-html-and-txt-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [JasperReports](https://sourceforge.net/projects/jasperreports/) and [JasperServer](https://sourceforge.net/projects/jasperserver/) do not have built-in abilities to export reports as Microsoft Word documents (apart from the RTF format that uses positioned items), but using Aspose.Words for JasperReports, you will get access to the following additional export formats:
 

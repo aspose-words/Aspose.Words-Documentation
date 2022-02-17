@@ -1,5 +1,7 @@
 ﻿---
-title: Document Layout Flow vs. Positioned
+title: Document Layout Flow vs. Positioned - Aspose.Words for Reporting Services
+articleTitle: Document Layout Flow vs. Positioned
+linktitle: Document Layout Flow vs. Positioned
 description: "This page describes Document Layout Flow vs. Positioned setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 20

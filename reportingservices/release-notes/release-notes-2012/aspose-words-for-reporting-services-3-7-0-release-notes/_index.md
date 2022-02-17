@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for Reporting Services 3.7.0 Release Notes
+articleTitle: Aspose.Words for Reporting Services 3.7.0 Release Notes
+linktitle: Aspose.Words for Reporting Services 3.7.0 Release Notes
 description: "Aspose.Words for Reporting Services 3.7.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /reportingservices/aspose-words-for-reporting-services-3-7-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 3.7.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-3.7.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome a new release of Aspose.Words for Reporting Services. This release includes a number of fixes requested by our customers:* WORDSRPT-16 (Page Breaks are Incorrect) 
 

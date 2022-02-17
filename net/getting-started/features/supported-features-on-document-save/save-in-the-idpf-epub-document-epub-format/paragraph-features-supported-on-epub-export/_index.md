@@ -8,7 +8,7 @@ weight: 80
 url: /net/paragraph-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Exported to HTML as &lt;p&gt;. Paragraphs with built-in heading styles are exported as &lt;h1&gt;–&lt;h6&gt; elements.
 
@@ -16,7 +16,7 @@ See the following link in the documentation for further information:
 
 - [HtmlSaveOptions.EpubNavigationMapLevel](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/epubnavigationmaplevel)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

@@ -8,11 +8,11 @@ weight: 110
 url: /net/aspose-words-for-net-19-2-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.Words for .NET 19.2
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

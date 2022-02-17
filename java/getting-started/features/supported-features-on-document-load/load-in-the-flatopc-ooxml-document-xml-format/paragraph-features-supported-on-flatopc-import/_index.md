@@ -8,7 +8,7 @@ weight: 80
 url: /java/paragraph-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each paragraph in a document is represented in Aspose.Words as a Paragraph node. A paragraph represents a block of text in a document and has a variety of properties and styles.
 
@@ -24,7 +24,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section](/words/java/paragraph-features-supported-on-flatopc-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

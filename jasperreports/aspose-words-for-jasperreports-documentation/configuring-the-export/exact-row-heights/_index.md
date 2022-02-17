@@ -1,16 +1,18 @@
 ﻿---
-title: Exact Row Heights
+title: Exact Row Heights - Aspose.Words for JasperReports
+articleTitle: Exact Row Heights
+linktitle: Exact Row Heights
 description: "Aspose Words for JasperReports allow setting exact row heights for table rows."
 type: docs
 weight: 90
 url: /jasperreports/exact-row-heights/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Another way to overcome the issue described in **Spacing Factor** section is to set exact row heights for table rows. This is controlled by the USE_EXACT_ROW_HEIGHTS parameter. By default, its **value** is true. This means that row heights are **exactly** equal to the designed values. However, you can also disable this option (set to **false**) in case you see something wrong with your report layout. You may also disable this option (set to **false**) if you need to edit your report manually and want row height to increase automatically when you type something inside a table cell.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In JasperReports:
 

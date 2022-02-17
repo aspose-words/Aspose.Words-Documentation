@@ -8,10 +8,10 @@ weight: 20
 url: /java/aspose-words-for-java-3-2-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 3.2.1](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-3.2.1/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This maintenance release contains only one urgent fix:

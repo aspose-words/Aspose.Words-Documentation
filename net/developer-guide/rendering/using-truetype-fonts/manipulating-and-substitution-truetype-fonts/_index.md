@@ -41,7 +41,7 @@ If you are sure that all processing documents require the same font settings, th
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSettings-FontSettingsFontSource.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The custom **FontSettings** have higher priority than the default instance.
 
@@ -198,7 +198,7 @@ Aspose.Words provides predefined font fallback settings for Google Noto fonts. T
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Only Sans style Noto fonts with regular weight are used in the predefined settings.
 

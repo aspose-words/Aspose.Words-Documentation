@@ -8,7 +8,7 @@ weight: 40
 url: /java/drawing-object-features-supported-on-html-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports many types of drawing entities on document load.
 
@@ -28,7 +28,7 @@ You can also set the BaseUri path of the document being loaded so relative resou
 
 [Jump to this location in the export section](/words/java/drawing-object-features-supported-on-html-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Images
 

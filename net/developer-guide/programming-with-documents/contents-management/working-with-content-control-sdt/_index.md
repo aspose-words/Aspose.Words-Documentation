@@ -93,11 +93,11 @@ The following code example demonstrates how to change the color of content cont
 
 If you want to set the style of content control, you can use StructuredDocumentTag.Style or StructuredDocumentTag.StyleName properties. The following code example demonstrates how to set the style of content control. When you type the text into content control in the output document, the typed text will have the style "Quote".
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that only Linked and Character styles can be applied to content control. An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlStyle.cs" >}}
 

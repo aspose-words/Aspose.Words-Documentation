@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that not all Microsoft Word document features are available in HTML format and some features may be lost or converted to an image.
 
@@ -40,7 +40,7 @@ See the following links in the documentation for further information:
 - [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype)
 - [HtmlSaveOptions.Encoding](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/encoding)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

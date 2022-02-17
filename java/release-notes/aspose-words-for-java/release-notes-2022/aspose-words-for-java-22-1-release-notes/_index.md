@@ -8,11 +8,11 @@ weight: 120
 url: /java/aspose-words-for-java-22-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 22.1](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/22.1).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

@@ -1,16 +1,18 @@
 ﻿---
-title: Check Version
+title: Check Version - Aspose.Words for JasperReports
+articleTitle: Check Version
+linktitle: Check Version
 description: "Aspose Words for JasperReports will always try to check version of generated .jrprint files and currently used version of JasperReports."
 type: docs
 weight: 200
 url: /jasperreports/check-version/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 By default, value of **CHECK_VERSION** parameter is **true**. This means that Aspose Words for JasperReports will always try to check version of generated .jrprint files and currently used version of JasperReports. However, you can set this option to **false** if you need to forcibly disable that version check.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **In JasperReports:**
 

@@ -134,11 +134,11 @@ The following example demonstrates how to set the folder or source, which Aspose
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSources-SetTrueTypeFontsFolder.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/RenderingAndPrinting/Rendering.doc).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 An extra Boolean parameter controls whether fonts are scanned recursively through all folders, hence scanning all child folders of a specified folder. The following example demonstrates how to set Aspose.Words to look in multiple folders for TrueType fonts when rendering or embedding fonts:
 
@@ -146,11 +146,11 @@ An extra Boolean parameter controls whether fonts are scanned recursively throug
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/RenderingAndPrinting/Rendering.doc).
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note the priorities. If there are fonts with the same family name and style in different font sources, then Aspose.Words will select the font from the source with a higher priority. See the description of the "Priority" field below.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 If you don’t want to use system fonts at all, Aspose.Words allows you to ignore them and use your own fonts only:
 

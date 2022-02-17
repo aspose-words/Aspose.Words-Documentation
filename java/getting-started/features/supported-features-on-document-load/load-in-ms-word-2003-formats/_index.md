@@ -9,11 +9,11 @@ url: /java/load-in-ms-word-2003-formats/
 aliases: [/java/load-in-the-microsoft-word-2003-wordprocessingml-xml-format/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following pages provide implementation details about how Aspose.Words loads a document in the WML format.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

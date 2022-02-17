@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-print-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The Aspose.Words rendering engine can render entire documents or certain pages of any document loaded into many different rendered formats.
 
@@ -41,7 +41,7 @@ See the following links in the documentation for further information:
 - [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/ImageSaveOptions)
 - [SvgSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

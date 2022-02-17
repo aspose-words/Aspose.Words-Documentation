@@ -8,11 +8,11 @@ weight: 20
 url: /java/aspose-words-for-java-2-2-1-released-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 2.2.1 Released](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-2.2.1-released/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Aspose.Words for Java now supports Java 1.6.
 - 3407 - AW 2.2 under java 1.4 implicitly demands backport-util jar.

@@ -8,11 +8,11 @@ weight: 110
 url: /net/aspose-words-for-net-18-2-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 18.2](https://www.nuget.org/packages/Aspose.Words/18.2.0)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

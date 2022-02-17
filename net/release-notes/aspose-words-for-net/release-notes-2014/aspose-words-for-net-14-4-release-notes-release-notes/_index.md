@@ -8,11 +8,11 @@ weight: 70
 url: /net/aspose-words-for-net-14-4-release-notes-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 14.4 Release Notes](https://www.nuget.org/packages/Aspose.Words/14.4.0)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for .NET 14.4 Release Notes
 

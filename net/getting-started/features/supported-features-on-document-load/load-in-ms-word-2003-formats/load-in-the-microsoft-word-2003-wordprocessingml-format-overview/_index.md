@@ -8,7 +8,7 @@ weight: 70
 url: /net/load-in-the-microsoft-word-2003-wordprocessingml-format-overview/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following pages provide implementation details about how Aspose.Words loads a document in the WML format.
 

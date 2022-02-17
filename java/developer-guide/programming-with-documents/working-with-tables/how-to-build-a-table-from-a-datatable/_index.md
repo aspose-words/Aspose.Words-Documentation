@@ -12,11 +12,11 @@ Often your application will pull data from a database and store it in the form o
 
 Using Aspose.Words this task is very simple to achieve. The code presented in this article demonstrates how to do this.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that the preferred way of inserting data from a **DataTable** into a document table is by using [Mail Merge with Regions](/words/java/mail-merge-and-reporting/#aboutmailmerge-mailmergewithregionsexplained). The technique presented in this article is only suggested if you are unable to create a suitable template beforehand to merge data with, in other words, if you require everything to happen programmatically.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 To build a table in a document from the data found in a DataTable:
 

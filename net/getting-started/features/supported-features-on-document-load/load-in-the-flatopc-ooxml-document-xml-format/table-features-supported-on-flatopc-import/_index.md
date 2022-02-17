@@ -8,7 +8,7 @@ weight: 120
 url: /net/table-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table is comprised of rows and cells and is used to display data in a grid-like layout. Aspose.Words supports imports of tables from all loaded formats including Microsoft Word, Open Office and HTML documents. A table is represented in Aspose.Words by a Table node. Each row of the table is represented by a separate Row node. Likewise, each cell of the row is represented by a Cell node. Each node type has it's own formatting properties which control the table's appearance and behavior.
 
@@ -21,7 +21,7 @@ Using Aspose.Words you can access and modify all features and formatting of a ta
 - [Working with Tables old](/words/net/working-with-tables/)
 - [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

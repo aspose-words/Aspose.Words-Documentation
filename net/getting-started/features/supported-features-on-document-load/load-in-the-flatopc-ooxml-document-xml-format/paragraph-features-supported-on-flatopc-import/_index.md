@@ -8,7 +8,7 @@ weight: 90
 url: /net/paragraph-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each paragraph in a document is represented in Aspose.Words as a Paragraph node. A paragraph represesents a block of text in a document and have a variety of properties and styles. Using Aspose.Words you can access and change virtually all properties of a paragraph. Nearly all paragraph attributes are supported. You can also easily insert and remove paragraphs. Paragraph formatting is contained within the ParagraphFormat class which is linked to the paragraph. See the following links in the documentation for further information:
 
@@ -16,7 +16,7 @@ Each paragraph in a document is represented in Aspose.Words as a Paragraph node.
 - [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph)
 - [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

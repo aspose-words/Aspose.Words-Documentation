@@ -8,7 +8,7 @@ weight: 80
 url: /net/numbering-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words. There are two main types of lists:
 
@@ -22,7 +22,7 @@ Most properties of lists are supported by Aspose.Words. You can create new lists
 - [Paragraph.ListLabel](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/listlabel)
 - [List.ListLevels](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Numbering Definition
 

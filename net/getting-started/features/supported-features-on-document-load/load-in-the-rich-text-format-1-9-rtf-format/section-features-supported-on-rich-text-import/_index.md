@@ -8,7 +8,7 @@ weight: 100
 url: /net/section-features-supported-on-rich-text-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This allows for example different parts of the document to completley different page sizes or page orientations.
 
@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section](/words/net/section-features-supported-on-rich-text-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Headers and Footers
 

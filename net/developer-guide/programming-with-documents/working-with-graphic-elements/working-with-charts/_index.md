@@ -174,7 +174,7 @@ If you want to set a text alignment for multi-line labels, you can simply achiev
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 MS Word aligns Chart Label to the centre by default.
 

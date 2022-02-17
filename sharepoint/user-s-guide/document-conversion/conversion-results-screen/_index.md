@@ -1,5 +1,7 @@
 ﻿---
-title: Conversion Results Screen
+title: Conversion Results Screen - Aspose.Words for SharePoint
+articleTitle: Conversion Results Screen
+linktitle: Conversion Results Screen
 description: "This page describes how to interpret conversion results in the SharePoint UI using the Aspose.Words for SharePoint."
 type: docs
 weight: 30

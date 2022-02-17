@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for JasperReports 1.0.0 Release Notes
+articleTitle: Aspose.Words for JasperReports 1.0.0 Release Notes
+linktitle: Aspose.Words for JasperReports 1.0.0 Release Notes
 description: "Aspose.Words for JasperReports 1.0.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /jasperreports/aspose-words-for-jasperreports-1-0-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for JasperReports 1.0.0](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-1.0.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome our brand new product, Aspose.Words for JasperReports 1.0.0! Aspose.Words for JasperReports is the unique solution on the market that makes possible exporting reports from JasperReports and JasperServer to Microsoft Word documents and more. The export formats currently include:
 

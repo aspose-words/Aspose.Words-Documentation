@@ -20,14 +20,14 @@ The following code example shows how to create a document using the document bui
 
 {{< gist "aspose-words-gists" "16b9cfe5420b6e033f90a45263eef020" "create-docx.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
 - The document paper size is [PaperSize](https://apireference.aspose.com/words/net/aspose.words/papersize).**Letter**.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Load a Document {#load-a-document}
 
@@ -51,7 +51,7 @@ The following code example shows how to open a document from a stream:
 
 {{< gist "aspose-words-gists" "5bd617e9ea10953cbdd084bcf3810c02" "load-docx-stream.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 

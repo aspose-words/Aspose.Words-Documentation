@@ -8,7 +8,7 @@ weight: 110
 url: /net/table-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Table is exported to HTML as &lt;table&gt; and other applicable tags.
 
@@ -20,7 +20,7 @@ See the following link in the documentation for further information:
 
 [Jump to this location in the import section](/words/net/table-features-supported-on-html-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Try Online
 

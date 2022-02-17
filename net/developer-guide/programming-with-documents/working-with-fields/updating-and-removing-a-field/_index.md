@@ -57,13 +57,13 @@ When **Document.UpdateFields** or **Range.UpdateFields** is called all fields ar
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-UpdateDocFields-UpdateDocFields.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A similar process occurs when a single field is updated using the Field.Update method. If this field is a regular field then only this field is updated as normal. However if this field is related to the page layout then the document layout is rebuilt and it is updated along with all other page related fields found in headers or footers.
 
 These changes in field evaluation may potentially cause results that differ from previous versions on certain documents when executing the same field update code.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Calling UpdatePageLayout Now Only Updates Page-Layout Related Fields in Headers and Footers
 

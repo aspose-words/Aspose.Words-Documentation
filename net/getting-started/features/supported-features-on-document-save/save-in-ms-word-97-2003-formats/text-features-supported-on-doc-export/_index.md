@@ -8,13 +8,13 @@ weight: 130
 url: /net/text-features-supported-on-doc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
 [Jump to this location in the import section](/words/net/text-features-supported-on-doc-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Characters
 

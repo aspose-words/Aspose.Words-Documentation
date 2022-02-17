@@ -10,11 +10,11 @@ url: /java/coldfusion-and-aspose-words-for-java/
 
 ## Prerequisites
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 To use Aspose.Words for Java in ColdFusion applications, you simply need to copy the Aspose.Words.jar to **ColdFusion8\wwwroot\WEB-INF\lib** folder. You can learn more about using Java libraries in ColdFusion from the article [here](https://help.adobe.com/en_US/ColdFusion/9.0/Developing/WSc3ff6d0ea77859461172e0811cbec13e1a-7ffd.html).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Don’t forget to restart the “ColdFusion Application Server” after putting the new jars into the “lib” folder. 
 
@@ -166,11 +166,11 @@ public class RelationSet
 }
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Next we write the ColdFusion code to execute mail merge and save the document to disk. 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **HTML**
 

@@ -8,7 +8,7 @@ weight: 90
 url: /java/save-in-the-opendocument-text-format-overview/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words saves documents in ODT, OTT format according to the OASIS ODF 1.1 standard. The following table provides implementation details. 
 

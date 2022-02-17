@@ -9,11 +9,11 @@ url: /java/load-in-ms-word-97-2003-formats/
 aliases: [/java/load-in-the-microsoft-word-document-97-2003-document-doc-dot-format/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following pages provide implementation details about how Aspose.Words loads a document in the DOC, DOT formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

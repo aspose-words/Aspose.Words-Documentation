@@ -59,21 +59,21 @@ The following coding example shows how to insert the contents of one document to
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtBookmark.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that the bookmark should not enclose multiple paragraphs or text that you want them to appear in your final resulting document.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Append a Document {#append-a-document}
 
 You may have a use case where you need to include additional pages from a document to the end of an existing document. To do this, you just need to call the [AppendDocument](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) method to add a document to the end of another one.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that [AppendChild](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/appendchild) is a node level method within a document. For example, you can create a paragraph, set formatting properties, and then append it as a child to the body using the **AppendChild** method.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to append a document to the end of another document:
 
@@ -95,11 +95,11 @@ The following code example shows how to manually import nodes and insert them af
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocument.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The import creates a new node that is a copy of the original node and suitable for insertion into the destination document.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Content is imported into the destination document section by section, which means that settings, such as page setup and headers or footers, are preserved during import. It is also useful to note that you can define formatting settings when you insert or append a document to specify how two documents are joined together.
 
@@ -109,11 +109,11 @@ Both [InsertDocument](https://apireference.aspose.com/words/net/aspose.words.doc
 
 Aspose.Words allows you to adjust the visualization of a resulting document when two documents are added together in an insert or append operation by using the [Section](https://apireference.aspose.com/words/net/aspose.words/section/properties/index) and [PageSetup](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/properties/pagesetup) properties. The **PageSetup** property contains all the attributes of a section such as [SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart), [RestartPageNumbering](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/restartpagenumbering), [PageStartingNumber](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/pagestartingnumber), [Orientation](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation), and others. The most common use case is to set the **SectionStart** property to define if the added content will appear on the same page or split into a new one.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that the **Section** and **PageSetup** properties do not control how two documents are inserted/appended together. They only allow you to change the appearance of your result document.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 

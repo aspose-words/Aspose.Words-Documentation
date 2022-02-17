@@ -8,7 +8,7 @@ weight: 130
 url: /net/text-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In Aspose.Words DOM all text is represented in the form of Run nodes. A single Run contains not only the string of text but also complex properties which describe how the text appears and behaves in the document. All characters in a Run have identical formatting. Using Aspose.Words you can insert, move, and remove runs. You can also access and modify all properties of a run. All formatting of a run is contained within a linked classed called Font. See the following links in the documentation for further information:
 
@@ -16,7 +16,7 @@ In Aspose.Words DOM all text is represented in the form of Run nodes. A single R
 - [Run.Font](https://apireference.aspose.com/words/net/aspose.words/inline/properties/font)
 - [Run.Text](https://apireference.aspose.com/words/net/aspose.words/inline)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Characters
 

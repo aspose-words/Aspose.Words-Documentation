@@ -9,11 +9,11 @@ url: /python-net/linq-reporting-engine-api/
 aliases: [/python/linq-reporting-engine-api/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Classes of the LINQ Reporting Engine are located within the **aspose.words.reporting** namespace. The main of the classes is **ReportingEngine**. All the functionality required to build a report from a template is assembled within the class.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Building Reports
 

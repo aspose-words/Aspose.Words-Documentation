@@ -8,11 +8,11 @@ weight: 60
 url: /net/how-to-build-a-table-from-a-datatable/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the complete source code of the ImportTableFromDataTable sample [here](https://github.com/aspose-words/Aspose.Words-for-.NET).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 Often your application will pull data from a database and store it in the form of a **DataTable**. You may wish to easily insert this data into your document as a new table and quickly apply formatting to the whole table. Using Aspose.Words this task is very simple to achieve. The code presented within this article demonstrates how to do this.

@@ -20,7 +20,7 @@ You can add a watermark online by using the [Watermark Maker](https://products.a
 
 See more details in the ["Working with Watermark"](/words/net/working-with-watermark/) article.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Sometimes you need to insert a watermark into a document, for instance, if you would like to print a draft document or mark it as confidential.
 

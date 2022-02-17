@@ -60,11 +60,11 @@ In Microsoft Word, this option is found under Table Properties as *“Repeat row
 
 In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that heading rows do not work in nested tables. That is, if you have a table within another table then this setting will have no effect. This is a limitation of Microsoft Word which does not allow this and not of Aspose.Words.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The code example given below demonstrates how to build a table which includes heading rows that repeat on subsequent pages.
 
@@ -98,7 +98,7 @@ The code example given below demonstrates autofits a table in the document to i
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When a table is an auto fitted to contents the following steps are actually undertaken behind the scenes:
 
@@ -110,7 +110,7 @@ When a table is an auto fitted to contents the following steps are actually unde
 
 Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the **Table.AllowAutoFit** property to True on its own instead of using the autofit shortcut.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Disable AutoFitting on a Table and Use Fixed Column Widths {#disable-autofitting-on-a-table-and-use-fixed-column-widths}
 
@@ -125,11 +125,11 @@ When a table has auto fit disabled and fixed column widths used instead the foll
 1. The CellFormat.PreferredWidth is removed from all cells in the table.
    The end result is a table whose column widths are defined using the [CellFormat.Width](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that if no width is defined for **CellFormat.Width** then a default value of one inch (72 points) is used.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Keep Tables and Rows from Breaking Across Pages {#keep-tables-and-rows-from-breaking-across-pages}
 

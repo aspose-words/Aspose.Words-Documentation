@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-opendocument-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Not all Microsoft Word features can be exported to OpenDocument format. When a feature is unsupported in ODT Aspose.Words API attempts to export the feature as close as possible using the available features of OpenDocument.
 
@@ -23,9 +23,9 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-opendocument-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -35,7 +35,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 <https://products.aspose.app/words/viewer>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## General

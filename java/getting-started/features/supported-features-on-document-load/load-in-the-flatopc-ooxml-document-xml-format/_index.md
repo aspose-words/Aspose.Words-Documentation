@@ -8,11 +8,11 @@ weight: 20
 url: /java/load-in-the-flatopc-ooxml-document-xml-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following pages provide implementation details about how Aspose.Words loads a document in the FlatOPC XML format.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

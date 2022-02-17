@@ -10,11 +10,11 @@ url: /java/format-table-in-document/
 
 ## Aspose.Words - Format Table in Document
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that before you apply table properties there must be at least one row present in the table. This means when building a table using **DocumentBuilder**, such formatting must be done after the first call to **DocumentBuilder.InsertCell** or after adding the first row to a table or when inserting nodes directly into the DOM.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **Java**
 

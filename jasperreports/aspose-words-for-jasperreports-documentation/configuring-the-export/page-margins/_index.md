@@ -1,19 +1,21 @@
 ﻿---
-title: Page Margins
+title: Page Margins - Aspose.Words for JasperReports
+articleTitle: Page Margins
+linktitle: Page Margins
 description: "JasperReports print model does not allow exporters to detect the page margins specified in the report design. Aspose.Words for JasperReports uses a special algorithm to work this out."
 type: docs
 weight: 40
 url: /jasperreports/page-margins/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Unfortunately, at the moment, JasperReports' print model does not allow exporters to detect the page margins specified in the report design. Hence, Aspose.Words for JasperReports uses a special algorithm to work this out.
 
 The algorithm works as follows: 
 All page margins are set to a default value that is used by Microsoft Word when creating a new document (1 inch). If some report elements are located closer to the page edges, then the corresponding page margins are reduced appropriately. In short, the page margins are set to 1in or less, depending on the report design. 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 You can change the default 1in value by specifying what page margins the exporter should try to enforce. Use the following parameter: 
 
@@ -50,7 +52,7 @@ where the following units of measure are allowed:
 - **px** – pixels
 - **pt** – points
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note you can use different units of measure in the same string or omit some of the margin values. 
 

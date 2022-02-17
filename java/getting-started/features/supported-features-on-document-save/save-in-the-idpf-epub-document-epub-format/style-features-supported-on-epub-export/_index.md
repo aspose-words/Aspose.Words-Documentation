@@ -8,7 +8,7 @@ weight: 110
 url: /java/style-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Style type itself is not exported to CSS but it is implied by the specific attributes exported to that style.
 
@@ -18,7 +18,7 @@ Character styles often are saved with .span prefix.
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Style Type
 

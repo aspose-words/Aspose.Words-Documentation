@@ -8,11 +8,11 @@ weight: 30
 url: /net/aspose-words-for-net-18-10-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 18.10](https://www.nuget.org/packages/Aspose.Words/18.10.0)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 
@@ -176,11 +176,11 @@ Suffix
 
 **Example 3**
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In this example, persons is assumed to be a data table having a field Name.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Template document
 

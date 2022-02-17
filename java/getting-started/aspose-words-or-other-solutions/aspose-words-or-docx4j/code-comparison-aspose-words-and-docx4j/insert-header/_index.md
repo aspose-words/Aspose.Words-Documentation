@@ -145,7 +145,7 @@ public static org.docx4j.wml.P newImage( WordprocessingMLPackage wordMLPackage,
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/addheader)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [How to Create Headers Footers using DocumentBuilder](/words/java/working-with-headers-and-footers/#workingwithheadersandfooters-createheadersfootersusingdocumentbuilder).
 

@@ -46,11 +46,11 @@ Sections of the document are represented by the [Section](https://apireference.a
 
 Each section is represented by a [Section](https://apireference.aspose.com/words/net/aspose.words/section) object that can be obtained from the [Document.Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 It is possible to change culture for current thread that will cause changing default page margins, header/footer distance and column spacing.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The code sample below shows how to access a section at the specified index. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
@@ -100,11 +100,11 @@ Fully or partially copying one document into another is a very popular task. Her
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CopySection-CopySection.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sometimes it is necessary to avoid section breaks in the destination document. In this case, you can use Section.AppendContent instead of SectionCollection.Add.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Inserting a Break
 

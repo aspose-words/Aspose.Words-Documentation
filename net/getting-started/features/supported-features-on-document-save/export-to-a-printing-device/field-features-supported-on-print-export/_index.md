@@ -8,7 +8,7 @@ weight: 50
 url: /net/field-features-supported-on-print-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
@@ -18,7 +18,7 @@ Fields with custom field codes (a field code modified to represent something dif
 
 When saving to rendered formats such as PDF, XPS or image some fields may be automatically updated as a part of page layout.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Field Codes
 

@@ -12,7 +12,7 @@ url: /java/autofit-setting-to-tables/
 
 See more details in the ["Applying Formatting"](/words/java/applying-formatting/) article of the ["Working with Tables"](/words/java/working-with-tables/) documentation section.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance you can use the AutoFit to Window option to fit the table to the width of the page and AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents. 
 

@@ -73,7 +73,7 @@ Download Extract Images from Document form any of the below mentioned social cod
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_Apache_POI/releases/download/Words-vs-WP-1.2/Extract.Images.Aspose.Words.vs.Apache.POI.WP.zip)
 - [BitBucket](https://bitbucket.org/asposemarketplace/aspose-for-apache-poi/downloads/Extract%20Images%20(Aspose.Words%20vs%20Apache%20POI%20WP).zip)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [How to Extract Images from a Document](/words/java/working-with-images/#WorkingwithImages-HowtoExtractImagesfromaDocument).
 

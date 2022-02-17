@@ -1,5 +1,7 @@
 ﻿---
 title: Aspose.Words for SharePoint
+articleTitle: Aspose.Words for SharePoint
+linktitle: Aspose.Words for SharePoint
 description: "Aspose.Words for SharePoint is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
 type: docs
 weight: 10
@@ -7,7 +9,7 @@ url: /sharepoint/
 is_root: true
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **<img src="aspose-words-for-sharepoint.png" alt="todo:image_alt_text" style="zoom: 50%;" />**
 
@@ -15,7 +17,7 @@ is_root: true
 
 Aspose.Words for SharePoint makes it possible to convert and combine word documents within Microsoft SharePoint applications. It supports format conversion with high fidelity, and can be used to generate reports with data from SQL databases, XML files or SharePoint lists.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for SharePoint Resources
 

@@ -9,7 +9,7 @@ url: /net/find-and-replace-text-in-documents/
 aliases: [/net/using-find-and-replace-in-npoi/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 See more details in the ["Find and Replace"](/words/net/find-and-replace/) article.
 

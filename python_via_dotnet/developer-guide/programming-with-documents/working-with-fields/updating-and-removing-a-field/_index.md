@@ -58,13 +58,13 @@ When **Document.update_fields** or **Range.update_fields** is called all fields 
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-UpdateDocFields.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A similar process occurs when a single field is updated using the Field.Update method. If this field is a regular field then only this field is updated as normal. However if this field is related to the page layout then the document layout is rebuilt and it is updated along with all other page related fields found in headers or footers.
 
 These changes in field evaluation may potentially cause results that differ from previous versions on certain documents when executing the same field update code.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Calling update_page_layout Now Only Updates Page-Layout Related Fields in Headers and Footers
 

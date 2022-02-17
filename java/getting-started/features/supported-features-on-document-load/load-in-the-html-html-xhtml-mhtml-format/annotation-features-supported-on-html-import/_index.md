@@ -8,7 +8,7 @@ weight: 10
 url: /java/annotation-features-supported-on-html-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Annotations allow the user to add extra information to the document normally for use in review or collaboration.
 
@@ -16,7 +16,7 @@ These features are supported by Aspose.Words.
 
 [Jump to this location in the export section](/words/java/annotation-features-supported-on-html-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Bookmarks
 

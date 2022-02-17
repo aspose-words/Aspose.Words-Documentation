@@ -8,11 +8,11 @@ weight: 90
 url: /net/aspose-words-for-net-9-8-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 9.8.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-9.8.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for .NET 9.8 Release Notes
 

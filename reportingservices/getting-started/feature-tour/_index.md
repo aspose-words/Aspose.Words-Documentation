@@ -1,5 +1,7 @@
 ﻿---
-title: Feature Tour
+title: Feature Tour - Aspose.Words for Reporting Services
+articleTitle: Feature Tour
+linktitle: Feature Tour
 description: "This guide describes features of the Aspose.Words for Reporting Services."
 type: docs
 weight: 30

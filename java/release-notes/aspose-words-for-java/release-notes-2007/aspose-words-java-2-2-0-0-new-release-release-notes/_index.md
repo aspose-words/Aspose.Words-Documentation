@@ -8,11 +8,11 @@ weight: 30
 url: /java/aspose-words-java-2-2-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words Java 2.2.0.0 New Release](https://downloads.aspose.com/words/java/new-releases/aspose.words-java-2.2.0.0-new-release/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 We are happy to announce that Aspose.Words for Java now supports HTML/XHTML import. 
 

@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for Reporting Services 4.5.0 Release Notes
+articleTitle: Aspose.Words for Reporting Services 4.5.0 Release Notes
+linktitle: Aspose.Words for Reporting Services 4.5.0 Release Notes
 description: "Aspose.Words for Reporting Services 4.5.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 70
 url: /reportingservices/aspose-words-for-reporting-services-4-5-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 4.5.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-4.5.0-\(zip\)/). Aspose.Words for Reporting Services 4.6.0 supports Aspose.Words 15.4.0.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 What's fixed:
 

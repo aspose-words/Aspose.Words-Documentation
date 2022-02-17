@@ -8,11 +8,11 @@ weight: 15
 url: /cpp/aspose-words-for-cpp-21-11-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for C++ 21.11](https://www.nuget.org/packages/Aspose.Words.Cpp/21.11.0).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

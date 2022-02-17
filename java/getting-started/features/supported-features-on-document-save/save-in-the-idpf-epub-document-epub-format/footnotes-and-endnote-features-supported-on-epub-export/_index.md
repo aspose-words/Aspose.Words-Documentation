@@ -9,7 +9,7 @@ url: /java/footnotes-and-endnote-features-supported-on-epub-export/
 aliases: [/java/footnotes-an-endnote-features-supported-on-epub-export/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Exported as hyperlink with footnote number inline of text.
 
@@ -17,7 +17,7 @@ Footnote text is exported at the bottom of the document separted by a horizontal
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Footnotes
 

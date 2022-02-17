@@ -52,7 +52,7 @@ The following code example shows how to insert a formatted text using **Document
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 - [Font](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#get_font) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
 - [ParagraphFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph_format) specifies the paragraph formatting for the current and all paragraphs to be inserted.
@@ -63,7 +63,7 @@ In this situation, "current" means the position, paragraph, section, cell, or ro
 
 {{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that the **Font**, **ParagraphFormat**, and **PageSetup** properties are updated whenever you navigate to a different location in the document to reflect the formatting properties of this location.
 

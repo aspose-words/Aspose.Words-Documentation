@@ -1,16 +1,18 @@
 ﻿---
-title: Evaluate Aspose.Words
+title: Evaluate Aspose.Words - Aspose.Words for JasperReports
+articleTitle: Evaluate Aspose.Words
+linktitle: Evaluate Aspose.Words
 description: "The evaluation version of Aspose.Words for JasperReports (without a license specified) inserts an evaluation watermark at the top of the document on save."
 type: docs
 weight: 120
 url: /jasperreports/evaluate-aspose-words/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can easily download Aspose.Words for JasperReports for evaluation from the [downloads page](https://downloads.aspose.com/words/jasperreports). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after applying a license.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The evaluation version of Aspose.Words for JasperReports (without a license specified) inserts an evaluation watermark at the top of the document on save, and limits the maximum document size to several hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it.
 

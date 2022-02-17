@@ -1,5 +1,7 @@
 ﻿---
-title: Installing Aspose.Words for SharePoint License
+title: Installing Aspose.Words for SharePoint License - Aspose.Words for SharePoint
+articleTitle: Installing Aspose.Words for SharePoint License
+linktitle: Installing Aspose.Words for SharePoint License
 description: "This page describes how to install Aspose.Words for SharePoint licence."
 type: docs
 weight: 10
@@ -30,7 +32,7 @@ stsadm.exe -o deploysolution -name Aspose.Words.SharePoint.License.wsp -immediat
 stsadm.exe -o execadmsvcjobs   
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You get a warning when running the deployment step if Windows SharePoint Services Administration service is not running. **stsadm.exe** relies on this service and Windows SharePoint Timer Service to replicate solution data across the farm. If these services are not running on you server farm, you may need to deploy the license at each server.
 

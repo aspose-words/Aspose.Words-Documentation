@@ -8,13 +8,13 @@ weight: 20
 url: /net/convert-word-document-to-tiff/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 To convert a Word document to TIFF, simply invoke the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method and specify a file name with the “.TIFF” extension.
 
 See more details in the ["Save a Document"](/words/net/save-a-document/) documentation section.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to convert document pages from DOC to TIFF:
 

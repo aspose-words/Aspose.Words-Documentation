@@ -36,11 +36,11 @@ The shape types described above provide a special method to render the shapes th
 - Stream using the [Save](https://apireference.aspose.com/words/net/aspose.words.rendering/noderendererbase/methods/save) method overload
 - .NET Graphics Object by using the [RenderToSize](https://apireference.aspose.com/words/net/aspose.words.rendering/noderendererbase/methods/rendertosize) and [RenderToScale](https://apireference.aspose.com/words/net/aspose.words.rendering/noderendererbase/methods/rendertoscale) methods
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When rendering a **Shape**, it must be a part of the document hierarchy. If the **Shape** is not a part of the document tree then the rendered output will be blank after invoking **ShapeRenderer** methods.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Rendering to File or Stream
 

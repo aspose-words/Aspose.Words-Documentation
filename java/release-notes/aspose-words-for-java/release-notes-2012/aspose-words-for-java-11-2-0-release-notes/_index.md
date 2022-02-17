@@ -8,11 +8,11 @@ weight: 90
 url: /java/aspose-words-for-java-11-2-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 11.2.0](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-11.2.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 There are 152 improvements and fixes in this regular monthly release. Most notable changes are: 
 

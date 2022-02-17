@@ -8,11 +8,11 @@ weight: 80
 url: /java/paragraph-features-supported-on-doc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General Formatting
 

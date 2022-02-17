@@ -8,7 +8,7 @@ weight: 90
 url: /java/section-features-supported-on-docx-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This allows for example different parts of the document to completely different page sizes or page orientations.
 
@@ -23,7 +23,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Headers and Footers
 

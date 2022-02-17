@@ -1,16 +1,18 @@
 ﻿---
-title: Exact Spacings
+title: Exact Spacings - Aspose.Words for JasperReports
+articleTitle: Exact Spacings
+linktitle: Exact Spacings
 description: "Aspose Words for JasperReports will try to optimize adding of white spaces before or after paragraphs."
 type: docs
 weight: 100
 url: /jasperreports/exact-spacings/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This is controlled by the USE_EXACT_SPACINGS parameter. By default, its value is **false**. This means that Aspose Words for JasperReports will try to optimize adding of white spaces before or after paragraphs. For example, in some cases space before some paragraph is implemented as space after previous paragraph, etc. However, you can also enable this option (set to **true**) if you need to edit your report manually. In this case white spaces will be added exactly how it is designed and will be propagated accordingly when you type something inside a paragraph.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In JasperReports:
 

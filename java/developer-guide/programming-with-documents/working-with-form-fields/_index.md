@@ -32,7 +32,7 @@ Use the **Forms** toolbar to insert form fields. To display the **Forms** toolba
 
 ![form-field-aspose-words-java-2](https://i.imgur.com/QvsQC5W.png)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 **Note:** before you can make a form available to users, you must protect it by clicking **Protect Form** on the **Forms** toolbar. Protection allows users to fill in the form but prevents them from changing the form's layout and its standard elements. When you want to go back to writing or modifying the form, click **Protect Form** again to unprotect the form.
 

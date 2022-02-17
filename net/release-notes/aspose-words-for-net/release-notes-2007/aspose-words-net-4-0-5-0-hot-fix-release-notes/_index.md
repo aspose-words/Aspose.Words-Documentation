@@ -8,11 +8,11 @@ weight: 180
 url: /net/aspose-words-net-4-0-5-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 4.0.5.0 Hot Fix](https://downloads.aspose.com/words/net)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome our first Aspose.Words release in 2007. This update contains about 20 various fixes.
 

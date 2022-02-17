@@ -107,7 +107,7 @@ The first time this command is executed it may take longer, since Docker needs t
 docker run --mount type=bind,source=C:\Temp,target=/TestOut --rm awtest from Docker
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Pay attention to the mount argument, because, as mentioned earlier, a folder on the host machine is mounted into the container’s folder, to easily see the results of the application execution. Paths in Linux are case sensitive.
 

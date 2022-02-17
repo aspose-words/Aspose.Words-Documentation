@@ -8,11 +8,11 @@ weight: 190
 url: /net/aspose-words-net-4-1-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 4.1.0.0 New Release](https://downloads.aspose.com/words/net)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This release of contains a single important new feature:
 

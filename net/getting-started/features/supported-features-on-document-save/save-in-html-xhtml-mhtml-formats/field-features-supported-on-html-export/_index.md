@@ -8,7 +8,7 @@ weight: 50
 url: /net/field-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
@@ -22,7 +22,7 @@ Fields are output as plain text in HTML. Only field result is exported.
 
 [Jump to this location in the import section](/words/net/field-features-supported-on-html-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Try Online
 

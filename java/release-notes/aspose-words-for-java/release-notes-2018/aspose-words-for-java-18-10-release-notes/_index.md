@@ -8,11 +8,11 @@ weight: 30
 url: /java/aspose-words-for-java-18-10-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 18.10](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/18.10).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 
@@ -203,11 +203,11 @@ Suffix
 
 **Example 3**
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In this example, persons is assumed to be a data table having a field Name.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Template document
 

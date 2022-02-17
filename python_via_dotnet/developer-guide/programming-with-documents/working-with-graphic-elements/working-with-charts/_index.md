@@ -175,7 +175,7 @@ If you want to set a text alignment for multi-line labels, you can simply achiev
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-TickMultiLineLabelAlignment.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 MS Word aligns Chart Label to the centre by default.
 

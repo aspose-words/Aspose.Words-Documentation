@@ -92,7 +92,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more information about Aspose.Words features please visit [Working with Tables](/words/net/working-with-tables/).
 

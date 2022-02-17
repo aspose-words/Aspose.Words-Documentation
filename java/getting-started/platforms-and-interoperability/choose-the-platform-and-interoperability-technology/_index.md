@@ -8,7 +8,7 @@ weight: 10
 url: /java/choose-the-platform-and-interoperability-technology/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words is available as two distinct products Aspose.Words for .NET and Aspose.Words for Java. It can be said that Aspose.Words “natively” supports:
 
@@ -35,7 +35,7 @@ Using Aspose.Words from any other programming language requires the use of some 
 
 This is a list of the suggested interoperability technologies to use for a variety of programming languages: 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |Programming Language |Aspose.Words to Use |Interoperability Technology |
 | :- | :- | :- |

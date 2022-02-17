@@ -42,7 +42,7 @@ Follow the instructions below to manually configure Aspose.Words for C++ in your
 
 	# Link target application with Aspose.Words for C++
 	target_link_libraries(app PRIVATE Aspose::Words Threads::Threads)
-	{{< /highlight >}} 
+	{{< /highlight >}}
 
 4. Now you can build you application using Aspose.Words for C++:
 	{{< highlight bash >}}

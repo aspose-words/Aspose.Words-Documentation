@@ -1,5 +1,7 @@
 ﻿---
-title: Document Conversion
+title: Document Conversion - Aspose.Words for SharePoint
+articleTitle: Document Conversion
+linktitle: Document Conversion
 description: "This guide describes conversion feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 20

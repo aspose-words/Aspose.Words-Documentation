@@ -1,16 +1,18 @@
 ﻿---
-title: Aspose.Words Reporting Services 1.3.0.0 New Release Release Notes
+title: Aspose.Words Reporting Services 1.3.0.0 New Release Release Notes - Aspose.Words for Reporting Services
+articleTitle: Aspose.Words Reporting Services 1.3.0.0 New Release Release Notes
+linktitle: Aspose.Words Reporting Services 1.3.0.0 New Release Release Notes
 description: "Aspose.Words Reporting Services 1.3.0.0 New Release Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 160
 url: /reportingservices/aspose-words-reporting-services-1-3-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words Reporting Services 1.3.0.0 New Release](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-reporting-services-1.3.0.0-new-release/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is a full-scale release that can be particularly useful for the people who needs exporting reports to the DOC, RTF or WordML formats on the 64-bit edition of Microsoft SQL Server Reporting Services. Also, we have added a separate assembly that supports Microsoft SQL Server 2008 code name Katmai.
 

@@ -8,7 +8,7 @@ weight: 50
 url: /java/field-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are supported in the model. To check if these fields can be updated check the import section.
 
@@ -22,7 +22,7 @@ Fields are output as plain text in HTML. Only field result is exported.
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Field Codes
 

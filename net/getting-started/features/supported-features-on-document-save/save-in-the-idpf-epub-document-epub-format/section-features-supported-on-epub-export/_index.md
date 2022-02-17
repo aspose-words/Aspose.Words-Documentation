@@ -8,7 +8,7 @@ weight: 90
 url: /net/section-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each section is exported as separate &lt;div&gt; elements as a child of &lt;body&gt; when there is more than one section in the document. 
 
@@ -16,7 +16,7 @@ If there is only one section then the document content is expoted directly to &l
 
 Section-wide formatting is exported as CSS styles on &lt;div&gt;.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Headers and Footers
 

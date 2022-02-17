@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for JasperReports 1.9.0 Release Notes
+articleTitle: Aspose.Words for JasperReports 1.9.0 Release Notes
+linktitle: Aspose.Words for JasperReports 1.9.0 Release Notes
 description: "Aspose.Words for JasperReports 1.9.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /jasperreports/aspose-words-for-jasperreports-1-9-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for JasperReports 1.9.0](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-1.9.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome a new release of Aspose.Words for JasperReports. In this release, you will find a number of new features as well as bug fixes. See product's documentation for details.
 

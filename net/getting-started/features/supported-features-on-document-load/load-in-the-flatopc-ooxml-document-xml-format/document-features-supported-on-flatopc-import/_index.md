@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Office Open XML (OOXML) is the new XML-based format introduced in Microsoft Office 2007 applications. Office Open XML is a container format for several specialized XML-based markup languages. WordprocessingML is the markup language used by Microsoft Office Word to store its DOCX documents.
 
@@ -28,7 +28,7 @@ See the following links in the documentation for further information:
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

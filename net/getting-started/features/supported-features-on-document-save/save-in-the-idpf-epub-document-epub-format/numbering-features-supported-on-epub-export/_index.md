@@ -8,13 +8,13 @@ weight: 70
 url: /net/numbering-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Single level lists can be output either as native HTML lists or as ordinary paragraphs. This depends on the properties of the list.
 
 There are plans to introduce an option to control if lists are exported as native or paragraph lists.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Numbering Definition
 

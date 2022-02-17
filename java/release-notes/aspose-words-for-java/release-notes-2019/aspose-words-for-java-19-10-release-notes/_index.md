@@ -8,11 +8,11 @@ weight: 30
 url: /java/aspose-words-for-java-19-10-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.Words for Java 19.10.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

@@ -8,11 +8,11 @@ weight: 110
 url: /java/style-features-supported-on-docx-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Style Type
 

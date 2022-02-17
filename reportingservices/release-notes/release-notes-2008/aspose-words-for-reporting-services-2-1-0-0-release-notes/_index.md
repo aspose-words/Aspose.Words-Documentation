@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for Reporting Services 2.1.0.0 Release Notes
+articleTitle: Aspose.Words for Reporting Services 2.1.0.0 Release Notes
+linktitle: Aspose.Words for Reporting Services 2.1.0.0 Release Notes
 description: "Aspose.Words for Reporting Services 2.1.0.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30
 url: /reportingservices/aspose-words-for-reporting-services-2-1-0-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 2.1.0.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-2.1.0.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 We are glad to announce an important release of Aspose.Words for Reporting Services containing a number of fixes and introducing new features. Here is the list of most valuable changes:
 

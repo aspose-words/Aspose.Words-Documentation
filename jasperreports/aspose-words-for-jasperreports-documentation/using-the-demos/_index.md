@@ -1,12 +1,14 @@
 ﻿---
-title: Using the Demos
+title: Using the Demos - Aspose.Words for JasperReports
+articleTitle: Using the Demos
+linktitle: Using the Demos
 description: "Aspose.Words for JasperReports includes a number of demo projects to help you get started exporting reports to Microsoft Word document formats from your application."
 type: docs
 weight: 100
 url: /jasperreports/using-the-demos/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports includes a number of demo projects to help you get started exporting reports to Microsoft Word document formats from your application. The demos provided with Aspose.Words for JasperReports are standard JasperReports demos modified to demonstrate the use of new exporters.
 

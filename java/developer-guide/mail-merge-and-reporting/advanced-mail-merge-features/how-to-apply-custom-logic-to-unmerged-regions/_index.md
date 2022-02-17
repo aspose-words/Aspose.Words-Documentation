@@ -65,11 +65,11 @@ Shows how to execute custom logic on unused regions using the specified handler.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-ExecuteCustomLogicOnUnusedRegions.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 If you considering running the **ExecuteCustomLogicOnEmptyRegions** method consecutively with different handlers (e.g each handler applies logic to certain fields) then you will need to disable the removal of unused regions so such regions are not removed in between these calls.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **Example**
 

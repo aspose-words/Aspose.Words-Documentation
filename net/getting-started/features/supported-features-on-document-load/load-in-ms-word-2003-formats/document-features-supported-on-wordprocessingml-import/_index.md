@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words supports the "WordML", Microsoft Word 2003 (Microsoft Word 2003 XML) formats.
 
@@ -21,7 +21,7 @@ See the following links in the documentation for further information:
 - [Aspose.Words Document Object Model](/words/net/aspose-words-document-object-model/)
 - [Document](https://apireference.aspose.com/words/net/aspose.words/document)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

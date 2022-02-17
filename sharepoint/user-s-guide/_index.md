@@ -1,5 +1,7 @@
 ﻿---
-title: User's Guide
+title: User's Guide - Aspose.Words for SharePoint
+articleTitle: User's Guide
+linktitle: User's Guide
 description: "This User's Guide describes practical scenarios and tips to help you use specific Aspose.Words for SharePoint features."
 type: docs
 weight: 20

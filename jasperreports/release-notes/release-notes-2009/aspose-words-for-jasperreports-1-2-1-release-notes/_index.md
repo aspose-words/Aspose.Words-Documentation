@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for JasperReports 1.2.1 Release Notes
+articleTitle: Aspose.Words for JasperReports 1.2.1 Release Notes
+linktitle: Aspose.Words for JasperReports 1.2.1 Release Notes
 description: "Aspose.Words for JasperReports 1.2.1 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /jasperreports/aspose-words-for-jasperreports-1-2-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for JasperReports 1.2.1](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-1.2.1/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is a maintenance release containing a number of fixes and improvements accumulated while working with product's evaluators for last two or three weeks.
 

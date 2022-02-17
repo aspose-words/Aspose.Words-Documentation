@@ -9,11 +9,11 @@ url: /python-net/working-with-comments/
 aliases: [/python/working-with-comments/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Comments of the document are represented by the **Comment** class. Use **CommentRangeStart** and **CommentRangeEnd** classes to specify a region of text that is to be commented.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## How to Extract or Remove Comments
 

@@ -8,7 +8,7 @@ weight: 10
 url: /net/annotation-features-supported-on-rich-text-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Annonations allow the user to add extra information to the document normally for use in review or collaboration.
 
@@ -16,7 +16,7 @@ These features are supported by Aspose.Words.
 
 [Jump to this location in the export section](/words/net/annotation-features-supported-on-rich-text-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Bookmarks
 

@@ -1,5 +1,7 @@
 ﻿---
-title: ChildColumns Element
+title: ChildColumns Element - Aspose.Words for SharePoint
+articleTitle: ChildColumns Element
+linktitle: ChildColumns Element
 description: "This page describes ChildColumns element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 200

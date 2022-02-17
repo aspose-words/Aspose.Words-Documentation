@@ -31,11 +31,11 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Images-AddWatermark-AddWatermark.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples). 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## How to Remove Watermark from a Document

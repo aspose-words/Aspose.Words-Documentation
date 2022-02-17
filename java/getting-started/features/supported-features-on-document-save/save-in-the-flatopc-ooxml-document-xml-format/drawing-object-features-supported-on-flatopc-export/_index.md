@@ -8,11 +8,11 @@ weight: 40
 url: /java/drawing-object-features-supported-on-flatopc-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the export section](/words/java/drawing-object-features-supported-on-flatopc-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Images
 

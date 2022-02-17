@@ -49,11 +49,11 @@ The following code example shows how to load a data table as the data source for
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ExecuteMailMergeWithRegions-ExecuteMailMergeWithRegions.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/MailMerge.ExecuteWithRegions.doc).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Merged Documents of a Mail Merge Operation {#merged-documents-of-a-mail-merge-operation}
 

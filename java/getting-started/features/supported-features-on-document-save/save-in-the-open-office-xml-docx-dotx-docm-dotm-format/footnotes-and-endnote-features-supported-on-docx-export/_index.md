@@ -9,11 +9,11 @@ url: /java/footnotes-and-endnote-features-supported-on-docx-export/
 aliases: [/java/footnotes-an-endnote-features-supported-on-docx-export/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Footnotes
 

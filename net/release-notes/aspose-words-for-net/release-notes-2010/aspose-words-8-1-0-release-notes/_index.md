@@ -8,11 +8,11 @@ weight: 90
 url: /net/aspose-words-8-1-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words 8.1.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-8.1.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Many document layout and rendering to PDF and XPS improvements.
   Important improvements to the field update engine. 

@@ -11,13 +11,13 @@ aliases: [/java/applying-formatting-to-table-row-and-cell/]
 
 ## Formatting Overview
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Each element of a table can be applied with different formatting. For instance, table formatting will be applied over the entire table while row formatting will only affect particular rows etc.
 
 Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://apireference.aspose.com/words/java/com.aspose.words/table), [RowFormat](https://apireference.aspose.com/words//java/com.aspose.words/rowformat) and [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat) nodes to set formatting.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Applying Formatting on the Table Level
 
@@ -72,11 +72,11 @@ The height of a table row is controlled using height and height rule properties.
 |Auto|This is the default height rule given to a new row. Technically this means that no height rule is defined. The row is sized to fit the largest content within the cells of the row.|
 |At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in [RowFormat.Height](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height).|
 |Exactly|The size of the row is set exactly to the value found in [RowFormat.Height]https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height) and does not grow to fit the content.|
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The simplest way to set row height is by using DocumentBuilder. Using the appropriate RowFormat properties you can set a default height setting or apply a different height for each row in the table.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to create a table that contains a single cell and apply row formatting.
 

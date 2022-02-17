@@ -8,7 +8,7 @@ weight: 70
 url: /net/numbering-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Single level lists can be output either as native HTML lists or as ordinary paragraphs. This depends on the properties of the list.
 
@@ -16,9 +16,9 @@ There are plans to introduce an option to control if lists are exported as nativ
 
 [Jump to this location in the import section](/words/net/numbering-features-supported-on-html-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -26,7 +26,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Numbering Definition
 

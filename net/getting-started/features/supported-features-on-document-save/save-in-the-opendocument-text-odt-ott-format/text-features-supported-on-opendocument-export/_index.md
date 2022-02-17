@@ -8,15 +8,15 @@ weight: 120
 url: /net/text-features-supported-on-opendocument-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Text in different languages is fully supported and can be rendered to formats such as PDF and image with high fidelity.
 
 [Jump to this location in the import section](/words/net/text-features-supported-on-opendocument-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -26,7 +26,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 
 <https://products.aspose.app/words/viewer>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## Characters

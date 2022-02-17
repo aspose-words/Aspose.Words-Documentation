@@ -53,7 +53,7 @@ The following code example shows how to insert a formatted text using **Document
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertParagraph.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 - **font** specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
 - **paragraph_format** specifies the paragraph formatting for the current and all paragraphs to be inserted.
@@ -64,7 +64,7 @@ In this situation, "current" means the position, paragraph, section, cell, or ro
 
 {{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that the **font**, **paragraph_format**, and **page_setup** properties are updated whenever you navigate to a different location in the document to reflect the formatting properties of this location.
 

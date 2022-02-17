@@ -8,11 +8,11 @@ weight: 20
 url: /java/aspose-words-for-android-via-java-17-11-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Android via Java 17.11](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/17.11/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

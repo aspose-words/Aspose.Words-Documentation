@@ -9,13 +9,13 @@ url: /net/footnotes-and-endnote-features-supported-on-epub-export/
 aliases: [/net/footnotes-an-endnote-features-supported-on-epub-export/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Exported as hyperlink with footnote number inline of text.
 
 Footnote text is exported at the bottom of the document separted by a horizontal ruler. The hyperlink links to here.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Footnotes
 

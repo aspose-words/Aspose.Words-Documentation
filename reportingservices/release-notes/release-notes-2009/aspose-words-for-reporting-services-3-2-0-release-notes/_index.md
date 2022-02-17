@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for Reporting Services 3.2.0 Release Notes
+articleTitle: Aspose.Words for Reporting Services 3.2.0 Release Notes
+linktitle: Aspose.Words for Reporting Services 3.2.0 Release Notes
 description: "Aspose.Words for Reporting Services 3.2.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 20
 url: /reportingservices/aspose-words-for-reporting-services-3-2-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 3.2.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-3.2.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome a new release of Aspose.Words for Reporting Services that supports two new export formats: XML Paper Specification (XPS) and Electronic Publication (EPUB). Also, notice this release is built on top of the latest Aspose.Words for .NET 7.0.
 

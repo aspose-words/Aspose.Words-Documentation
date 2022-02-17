@@ -8,11 +8,11 @@ weight: 110
 url: /net/aspose-words-for-net-17-2-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 17.2.0](https://www.nuget.org/packages/Aspose.Words/17.2.0)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 
@@ -81,11 +81,11 @@ This section lists public API changes that were introduced in Aspose.Words 17.2.
 
 ### WORDSNET-14589 and WORDSNET-14590 - Added public properties HtmlSaveOptions.ResourceFolder and HtmlSaveOptions.ResourceFolderAlias
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Check the detailed article on [Working with HtmlSaveOptions Properties](/words/net/convert-a-document/#convertingadocument-workingwithhtmlsaveoptionsproperties)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 New public properties ResourceFolder and ResourceFolderAlias are added into the HtmlSaveOptions class:
 

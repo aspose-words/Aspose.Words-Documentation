@@ -14,13 +14,13 @@ Documents can be converted to other formats using Save As option in File menu.
 
 ## Aspose.Words - Convert Word Doc to Other Formats
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 To convert a document to other formats using Aspose.Words, simply invoke the save() method of Document class and specify a file name with the desired and supported extension.
 
 Aspose.Words allows exporting or converting word documents to PDF, XPS, XamlFixed, XamlFlow, XamlFlowPack, EPUB, HTML, HtmlFixed, OpenXPS, PostScript, TXT and popular image/multimedia file formats including TIFF, JPG, PNG, BMP, SVG, SVG and SWF.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Converts a whole document from DOC to other formats using default options.
 

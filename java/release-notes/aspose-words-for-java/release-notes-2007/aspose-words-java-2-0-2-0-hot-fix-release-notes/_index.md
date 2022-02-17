@@ -8,11 +8,11 @@ weight: 50
 url: /java/aspose-words-java-2-0-2-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words Java 2.0.2.0 Hot Fix](https://downloads.aspose.com/words/java/new-releases/aspose.words-java-2.0.2.0-hot-fix/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This is a maintenance release that includes a Java version of fixes that were made in:
 

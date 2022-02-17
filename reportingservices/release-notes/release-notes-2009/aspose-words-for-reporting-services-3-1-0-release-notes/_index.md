@@ -1,16 +1,18 @@
 ﻿---
 title: Aspose.Words for Reporting Services 3.1.0 Release Notes
+articleTitle: Aspose.Words for Reporting Services 3.1.0 Release Notes
+linktitle: Aspose.Words for Reporting Services 3.1.0 Release Notes
 description: "Aspose.Words for Reporting Services 3.1.0 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 50
 url: /reportingservices/aspose-words-for-reporting-services-3-1-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 3.1.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-3.1.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Please welcome a new release of Aspose.Words for Reporting Services. This release introduces a smarter document layout algorithm. Particularly, now the MicrosoftWord's "Repeat as header row at the top of each page"  feature is used to represent repeatable table and matrix headers (as well as group headers) in the exported document. As ever, this release also contains a number of fixes and improvements.
 

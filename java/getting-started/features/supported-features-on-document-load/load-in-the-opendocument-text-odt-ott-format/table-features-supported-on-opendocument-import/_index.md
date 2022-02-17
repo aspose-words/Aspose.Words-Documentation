@@ -8,7 +8,7 @@ weight: 110
 url: /java/table-features-supported-on-opendocument-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A table is comprised of rows and cells and is used to display data in a grid-like layout.
 
@@ -29,7 +29,7 @@ See the following links in the documentation for further information:
 - **Working with Tables**
 - **Table**
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Table
 

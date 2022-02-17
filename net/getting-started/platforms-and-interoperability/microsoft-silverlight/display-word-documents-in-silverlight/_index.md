@@ -8,11 +8,11 @@ weight: 10
 url: /net/display-word-documents-in-silverlight/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the complete source code of the SilverlightViewer sample [here](https://www.aspose.com/community/files/51/.net-components/aspose.words-for-.net/category1177.aspx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 *Document Toolkit* is a product of First Floor Software and provides a fast and feature-rich XPS document viewer library for Silverlight. The XML Paper Specification (XPS) is a fixed document format similar to PDF. In order to render Word documents in Silverlight, *Document Toolkit* requires the document to be converted to the XPS format first. 
 

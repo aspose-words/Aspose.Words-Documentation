@@ -110,7 +110,7 @@ public static void removeHFFromFile(File f) throws Exception {
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose.Words-for-Java_for_Docx4j/src/main/java/com/aspose/words/examples/featurescomparison/headerfooter/removeheaderfooter)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [How to Remove Footers but Leave Headers Intact](/words/java/working-with-headers-and-footers/#workingwithheadersandfooters-removefootersbutleaveheadersintact).
 

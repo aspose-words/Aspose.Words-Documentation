@@ -9,11 +9,11 @@ url: /net/footnotes-and-endnote-features-supported-on-flatopc-export/
 aliases: [/net/footnotes-an-endnote-features-supported-on-flatopc-export/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/net/footnotes-and-endnote-features-supported-on-flatopc-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Footnotes
 

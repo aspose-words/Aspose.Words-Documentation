@@ -8,11 +8,11 @@ weight: 10
 url: /net/about-aspose-words-and-sharepoint/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that there are two products in the Aspose.Words family that can be used with Microsoft SharePoint: 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 |Product |Purpose |
 | :- | :- |

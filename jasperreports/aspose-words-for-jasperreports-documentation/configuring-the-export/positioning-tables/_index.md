@@ -1,16 +1,18 @@
 ﻿---
-title: Positioning Tables
+title: Positioning Tables - Aspose.Words for JasperReports
+articleTitle: Positioning Tables
+linktitle: Positioning Tables
 description: "Aspose Words for JasperReports will never use positioning tables by default."
 type: docs
 weight: 160
 url: /jasperreports/positioning-tables/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This is controlled by the **USE_POSITIONING_TABLES** parameter. By default, its value is 0 (**NONE**). This means that Aspose Words for JasperReports will never use positioning tables. However, you can enable this option by setting it to 1 (**ALWAYS**) if you need to force usage of positioning tables (for example, for complex reports with hierarchy of subreports, frames etc). Or you can set it to 2 (**SMART**) if you need to use adaptive algorithm – positioning tables will be used only where they are required.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 In JasperReports:
 

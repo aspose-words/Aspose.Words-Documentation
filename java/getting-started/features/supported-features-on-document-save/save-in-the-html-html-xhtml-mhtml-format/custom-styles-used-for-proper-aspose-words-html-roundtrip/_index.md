@@ -9,11 +9,11 @@ url: /java/custom-styles-used-for-proper-aspose-words-html-roundtrip/
 aliases: [/java/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Please find below a list of custom styles that Aspose.Words uses to save extra information in output HTML and usually this information is used for Aspose.Words-HTML-Aspose.Words roundtrip. The name of such Styles are prefixed with -aw. All -aw properties are used to preserve some important information which can't be saved by other means when document is saved to HTML and back to other formats.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Comment’s Content
 

@@ -8,11 +8,11 @@ weight: 7
 url: /cpp/aspose-words-for-cpp-20-10-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for C++ 20.10](https://downloads.aspose.com/words/cpp/new-releases/aspose.words-for-c---20.10/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

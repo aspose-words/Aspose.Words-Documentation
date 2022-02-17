@@ -8,13 +8,13 @@ weight: 20
 url: /net/custom-markup-features-supported-on-epub-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When converting to a document format that doesn't support custom markup features, the markup is stripped but content is preserved. The non-Microsoft Word document formats do not support custom markup and only text is exported.
 
 There are plans to export the Custom XML found within the document structure to custom tags surronding elements in HTML output.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## CustomXML
 

@@ -160,7 +160,7 @@ Download **Add bullets or numbers to a list** form any of the below mentioned s
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/Aspose.WordsVsNPOI_1.0/Add.bullets.or.numbers.to.a.list.Aspose.Words.zip)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Lists](https://apireference.aspose.com/words/net/aspose.words.lists/listcollection/methods/add/index).
 

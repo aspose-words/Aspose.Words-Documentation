@@ -8,11 +8,11 @@ weight: 20
 url: /net/aspose-words-for-net-5-3-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 5.3.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-5.3.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 We are happy to announce Aspose.Words for .NET 5.3.0!
 

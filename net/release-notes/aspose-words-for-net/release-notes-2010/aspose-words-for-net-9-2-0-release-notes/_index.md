@@ -8,11 +8,11 @@ weight: 40
 url: /net/aspose-words-for-net-9-2-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 9.2.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-9.2.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Performance improvements to the layout and rendering engine.
   No longer relying on GDI+ for text measurements means better server-side conversion to PDF. 

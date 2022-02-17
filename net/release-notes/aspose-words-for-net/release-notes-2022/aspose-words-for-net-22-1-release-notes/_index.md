@@ -8,11 +8,11 @@ weight: 70
 url: /net/aspose-words-for-net-22-1-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 22.1](https://www.nuget.org/packages/Aspose.Words/22.1.0).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

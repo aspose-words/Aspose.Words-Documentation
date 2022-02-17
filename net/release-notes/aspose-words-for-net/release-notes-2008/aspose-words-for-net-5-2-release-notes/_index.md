@@ -8,11 +8,11 @@ weight: 50
 url: /net/aspose-words-for-net-5-2-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 5.2](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-5.2/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Save documents as MHTML (Single File Web Page).
   Save as OpenDocument (ODT).

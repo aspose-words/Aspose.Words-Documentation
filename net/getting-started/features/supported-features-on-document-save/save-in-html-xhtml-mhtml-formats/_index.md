@@ -9,11 +9,11 @@ url: /net/save-in-html-xhtml-mhtml-formats/
 aliases: [/net/save-in-the-html-html-xhtml-mhtml-format/]
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in HTML based formats: HTML, XHTML, and MHTML.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

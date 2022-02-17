@@ -1,16 +1,18 @@
 ﻿---
-title: Installation
+title: Installation - Aspose.Words for JasperReports
+articleTitle: Installation
+linktitle: Installation
 description: "Aspose.Words for JasperReports works with JasperReports and JasperServer. This article explains how to integrate the exporter."
 type: docs
 weight: 60
 url: /jasperreports/installation/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports works with JasperReports and JasperServer. This article explains how to integrate the exporter.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Integration with JasperReports
 

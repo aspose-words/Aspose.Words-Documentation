@@ -1,5 +1,7 @@
 ﻿---
-title: SqlDataSource Element
+title: SqlDataSource Element - Aspose.Words for SharePoint
+articleTitle: SqlDataSource Element
+linktitle: SqlDataSource Element
 description: "This page describes SqlDataSource element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 60

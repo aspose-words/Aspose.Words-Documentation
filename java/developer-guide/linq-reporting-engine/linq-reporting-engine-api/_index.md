@@ -8,11 +8,11 @@ weight: 50
 url: /java/linq-reporting-engine-api/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The main class of the LINQ Reporting Engine is `ReportingEngine`. All the functionality required to build a report from a template is assembled within the class.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Building Reports
 

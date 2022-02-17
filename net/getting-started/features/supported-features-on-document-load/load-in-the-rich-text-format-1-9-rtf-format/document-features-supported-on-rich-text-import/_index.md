@@ -8,7 +8,7 @@ weight: 30
 url: /net/document-features-supported-on-rich-text-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words can read and write files of any RTF version and supports most document features.
 
@@ -25,7 +25,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section](/words/net/document-features-supported-on-rich-text-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## General
 

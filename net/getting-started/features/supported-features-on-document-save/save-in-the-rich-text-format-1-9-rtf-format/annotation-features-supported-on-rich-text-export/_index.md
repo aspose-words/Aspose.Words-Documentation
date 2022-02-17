@@ -8,11 +8,11 @@ weight: 10
 url: /net/annotation-features-supported-on-rich-text-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/net/annotation-features-supported-on-rich-text-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Bookmarks
 

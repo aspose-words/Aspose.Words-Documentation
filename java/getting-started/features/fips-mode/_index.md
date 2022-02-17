@@ -50,11 +50,11 @@ When the FIPS mode is on, Aspose Words will prevent you from using some cryptorg
 
 For instance, when trying to open an ODT encrypted document while the FIPS mode is active, you may see the following exception:
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 UnapprovedSecurityOperationException: An attempt to open an ODT file which uses the Blowfish algorithm. This algorithm is not on the FIPS-approved algorithm list.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This happens because the Blowfish algorithm is not on the FIPS approved algorithms’ list.
 

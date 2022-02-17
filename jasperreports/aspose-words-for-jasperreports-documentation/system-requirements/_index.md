@@ -1,12 +1,14 @@
 ﻿---
-title: System Requirements
+title: System Requirements - Aspose.Words for JasperReports
+articleTitle: System Requirements
+linktitle: System Requirements
 description: "System Requirements of Aspose.Words for JasperReports."
 type: docs
 weight: 90
 url: /jasperreports/system-requirements/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports requires the following software to run:
 

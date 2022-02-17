@@ -8,11 +8,11 @@ weight: 20
 url: /net/aspose-words-for-net-4-4-1-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 4.4.1.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-4.4.1.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Previous release, Aspose.Words for .NET 4.4.0 introduced the ability to save documents in the Microsoft Word 2007 DOCX format. This Aspose.Words for .NET 4.4.1 release makes it possible to load DOCX files. Now you can open, generate, save and convert DOCX documents. This makes Aspose.Words for .NET a first document processing library on the market that provides such capabilities.
 

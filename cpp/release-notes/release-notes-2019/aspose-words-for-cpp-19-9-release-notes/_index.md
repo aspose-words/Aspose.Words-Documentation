@@ -8,11 +8,11 @@ weight: 50
 url: /cpp/aspose-words-for-cpp-19-9-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for C++ 19.9](https://www.nuget.org/packages/Aspose.Words.CPP/19.9)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

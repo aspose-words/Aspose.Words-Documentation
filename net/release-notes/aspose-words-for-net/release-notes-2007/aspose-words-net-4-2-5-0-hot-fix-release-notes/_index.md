@@ -8,11 +8,11 @@ weight: 260
 url: /net/aspose-words-net-4-2-5-0-hot-fix-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 4.2.5.0 Hot Fix](https://downloads.aspose.com/words/net)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 A set of great development practices allows the Aspose.Words Development Team to confidently release new maintenance versions as soon as there are enough fixes or new features ready. The effect of this is most of the issues reported by customers and evaluation users are resolved quickly, in a matter of days. 
 

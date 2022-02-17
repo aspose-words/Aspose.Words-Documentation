@@ -8,11 +8,11 @@ weight: 30
 url: /java/load-in-the-html-html-xhtml-mhtml-format/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The following pages provide implementation details about how Aspose.Words loads a document in HTML based formats: HTML, XHTML, and MHTML.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 **This section includes the following topics:** 
 

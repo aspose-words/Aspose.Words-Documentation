@@ -106,7 +106,7 @@ outStream.close();
 
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Plugins/Aspose_Words_for_Apache_POI/src/main/java/com/aspose/words/examples/featurescomparison/tables)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more details, visit [Inserting a Table using DocumentBuilder](/words/java/use-documentbuilder-to-insert-document-elements/#usedocumentbuildertoinsertdocumentelements-insertingatable).
 

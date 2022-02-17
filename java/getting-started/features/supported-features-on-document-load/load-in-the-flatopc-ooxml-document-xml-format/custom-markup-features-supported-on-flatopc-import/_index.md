@@ -8,7 +8,7 @@ weight: 20
 url: /java/custom-markup-features-supported-on-flatopc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Custom Markup are elements that added to parts of the document which allow extra information to be embedded within that particular document feature.
 
@@ -16,7 +16,7 @@ For example, CustomXML markup can be wrapped around a paragraph in the document 
 
 [Jump to this location in the export section](/words/java/custom-markup-features-supported-on-flatopc-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## CustomXML
 

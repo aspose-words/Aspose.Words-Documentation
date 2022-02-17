@@ -8,11 +8,11 @@ weight: 30
 url: /java/hello-world-example/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A "Hello, World" example is traditionally used to introduce features of a programming language or software with a simple use case. Here is the example for LINQ Reporting Engine.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Assume, that you have the Sender class defined in your application as follows:
 

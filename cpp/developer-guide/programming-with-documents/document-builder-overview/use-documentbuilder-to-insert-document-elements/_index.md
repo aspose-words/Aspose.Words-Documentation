@@ -95,11 +95,11 @@ To insert a bookmark into the document, you should do the following:
 1. Call DocumentBuilder.EndBookmark passing it the same name that you used with **DocumentBuilder->StartBookmark**.
 1. Bookmarks can overlap and span any range. To create a valid bookmark you need to call both DocumentBuilder->StartBookmark and DocumentBuilder->EndBookmark with the same bookmark name.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Below example shows how to insert a bookmark into a document using a document builder.
 

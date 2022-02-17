@@ -55,11 +55,11 @@ The following code example shows how to load a data table as the data source for
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ExecuteWithRegionsDataTable-ExecuteWithRegionsDataTable.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Mail%20merge%20destinations%20-%20Orders.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Merged Documents of a Mail Merge Operation {#merged-documents-of-a-mail-merge-operation}
 

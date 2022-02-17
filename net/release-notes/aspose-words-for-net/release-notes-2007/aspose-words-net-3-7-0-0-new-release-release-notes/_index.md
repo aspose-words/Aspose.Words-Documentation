@@ -8,11 +8,11 @@ weight: 110
 url: /net/aspose-words-net-3-7-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 3.7.0.0 New Release](https://downloads.aspose.com/words/net)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - Microsoft Word 2007 files are now supported.
 - Added public API to control bulleted and numbered list formatting. Added public classes Lists, List, ListLevels, ListLevel. All come with C# and VB.NET code examples in the API Reference.

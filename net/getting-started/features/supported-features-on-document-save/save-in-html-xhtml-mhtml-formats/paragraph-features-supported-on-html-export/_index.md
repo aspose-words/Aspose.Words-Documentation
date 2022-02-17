@@ -8,7 +8,7 @@ weight: 80
 url: /net/paragraph-features-supported-on-html-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Exported to HTML as &lt;p&gt;. Paragraphs with built-in heading styles are exported as &lt;h1&gt;–&lt;h6&gt; elements.
 
@@ -18,9 +18,9 @@ See the following link in the documentation for further information:
 
 [Jump to this location in the import section](/words/net/paragraph-features-supported-on-html-export/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Try Online
 
@@ -28,7 +28,7 @@ You can check the quality of HTML Export and view the results online at this lin
 
 <https://products.aspose.app/words/viewer>
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## General Formatting

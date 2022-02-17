@@ -1,18 +1,20 @@
 ﻿---
 title: Aspose.Words for Reporting Services 20.8 Release Notes
+articleTitle: Aspose.Words for Reporting Services 20.8 Release Notes
+linktitle: Aspose.Words for Reporting Services 20.8 Release Notes
 description: "Aspose.Words for Reporting Services 20.8 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 10
 url: /reportingservices/aspose-words-for-reporting-services-20-8-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Reporting Services 20.8](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-20.8-\(msi\)/).
 
-{{% /alert %}} 
+{{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note: Microsoft changed target framework for SSRS 2019 from 3.5 to 4.6. SSRS 2019 must be updated to latest version (15.0.7243.37714) to work with the "Aspose.Words for Reporting Services 20.8".
 

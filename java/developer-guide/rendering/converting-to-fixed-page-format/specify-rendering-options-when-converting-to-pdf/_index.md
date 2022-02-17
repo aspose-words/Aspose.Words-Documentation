@@ -16,7 +16,7 @@ Aspose.Words layout engine imitates the way the Microsoft Word’s page layout e
 
 Some examples of using **PdfSaveOptions** are provided below.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Currently, you can also save to PDF/A-1 and PDF/A-2 formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
@@ -24,7 +24,7 @@ Currently, you can also save to PDF/A-1 and PDF/A-2 formats. Note that with the 
 
 For more information on PDF/A, see the next article, "Learn Features of Conversion to PDF/A".
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Creating a PDF Document with Fillable Forms
 
@@ -74,11 +74,11 @@ The output PDF of this example is depicted below:
 
 ![rendering-options-when-converting-to-pdf-aspose-words-java-2](specify-rendering-options-when-converting-to-pdf-2.png)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A bookmark or heading navigation may have different appearances in various PDF viewers. Moreover, in some applications, bookmarks and heading navigation are not available in UI.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Downsampling Images to Reduce Document Size
 
@@ -120,11 +120,11 @@ The following example demonstrates how to set Aspose.Words to subset fonts in t
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file for these examples from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/RenderingAndPrinting/Rendering.doc).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## How to Control Embedding Core Fonts and Windows Standard Fonts
 
@@ -150,19 +150,19 @@ The example provided below shows how to set Aspose.Words to avoid embedding core
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-EmbeddedFontsInPDF-AvoidEmbeddingCoreFonts.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file for this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/RenderingAndPrinting/Rendering.doc).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Since PDF viewers provide core fonts on any supported platform, this option is also useful when greater document portability is required. However, core fonts may look different from system fonts.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANSI text to PDF will always require the corresponding fonts to be embedded.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Embedding System Fonts
 
@@ -174,7 +174,7 @@ The example below shows how to set Aspose.Words to skip embedding Arial and Time
 
 This mode is most useful when you wish to view your documents on the same platform, preserving the exact appearance of fonts in the output PDF.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANSI text to PDF requires the corresponding font to be embedded.
 

@@ -8,7 +8,7 @@ weight: 120
 url: /java/text-features-supported-on-html-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 In Aspose.Words DOM all text is represented in the form of Run nodes. A single Run contains not only the string of text but also complex properties which describe how the text appears and behaves in the document. All characters in a Run have identical formatting.
 
@@ -28,7 +28,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Characters
 

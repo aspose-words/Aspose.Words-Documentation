@@ -12,11 +12,11 @@ url: /java/insert-and-remove-field/
 
 In Aspose.Words the [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 If your field code has a parameter containing a space then it must be enclosed within speech marks. Otherwise the field in both Microsoft Word and Aspose.Words may not work as expected as the parameter is treated by both as being truncated
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to Inserts a merge field into a document using DocumentBuilder.
 

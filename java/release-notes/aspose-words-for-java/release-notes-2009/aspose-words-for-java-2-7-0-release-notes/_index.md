@@ -8,11 +8,11 @@ weight: 90
 url: /java/aspose-words-for-java-2-7-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java 2.7.0](https://downloads.aspose.com/words/java/new-releases/aspose.words-for-java-2.7.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 We are happy to announce Aspose.Words for Java 2.7.0 MEGA FIX release! New Features and Fixed Issues total 91 items!
 

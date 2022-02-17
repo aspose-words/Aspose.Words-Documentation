@@ -1,12 +1,14 @@
 ﻿---
-title: Simple and Affordable Licensing
+title: Simple and Affordable Licensing - Aspose.Words for JasperReports
+articleTitle: Simple and Affordable Licensing
+linktitle: Simple and Affordable Licensing
 description: "Aspose.Words for JasperReports evaluation and full versions are the same download."
 type: docs
 weight: 50
 url: /jasperreports/simple-and-affordable-licensing/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Every Aspose license comes with 1 year of free software updates and unlimited free technical support.
 

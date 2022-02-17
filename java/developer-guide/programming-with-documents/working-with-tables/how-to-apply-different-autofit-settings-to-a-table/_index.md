@@ -26,7 +26,7 @@ The result after this operation is a table which is lengthened to fit the width 
 
 ![autofit-table-aspose-words-java](how-to-apply-different-autofit-settings-to-a-table-2.png)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 When autofit to the window is applied to a table the following operations are actually being performed behind the scenes:
 
@@ -36,7 +36,7 @@ When autofit to the window is applied to a table the following operations are ac
 1. The column widths are recalculated for the current content of the table.
    The end result is a table that occupies all available width. The widths of the columns in the table change automatically as the user edits text in MS Word.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### AutoFitting a Table to Contents
 
@@ -56,11 +56,11 @@ When a table is an auto fitted to contents the following steps are actually unde
 1. The column widths are recalculated for the current content in the table.
    The end result is a table whose column widths and the entire table width change automatically to best accommodate the content as the user edits text in MS Word.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the [Table.getAllowAutoFit()](https://apireference.aspose.com/words/java/com.aspose.words/table#AllowAutoFit) property to True on its own instead of using the autofit shortcut.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ### Disabling AutoFitting on a Table and Use Fixed Column Widths
 
@@ -79,7 +79,7 @@ When a table has auto fit disabled and fixed column widths used instead the foll
 1. The CellFormat.PreferredWidth is removed from all cells in the table.
    The end result is a table whose column widths are defined using the [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that if no width is defined for [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) then a default value of one inch (72 points) is used.
 

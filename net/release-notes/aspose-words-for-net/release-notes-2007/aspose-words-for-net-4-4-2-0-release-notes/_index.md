@@ -8,11 +8,11 @@ weight: 10
 url: /net/aspose-words-for-net-4-4-2-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 4.4.2.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-4.4.2.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This maintenance release contains improvements and fixes to DOCX import (which is still in Beta) as well as many other fixes.
 

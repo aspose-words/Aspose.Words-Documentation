@@ -8,7 +8,7 @@ weight: 50
 url: /net/field-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Fields are place holders in the document which can be dynamically updated to display new information . The most common type of fields are MergeFields and Page fields. The first allows you to merge data into a document, the latter displays the current page number of the page where the field appears on.
 
@@ -30,7 +30,7 @@ Currently to work with a field you need to iterate through the different field n
 
 Fields with custom field codes or field results (modified manually in the document to appear different) are retained during import and export. However if you invoke field update, these might be replaced with the proper field content.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Field Codes
 

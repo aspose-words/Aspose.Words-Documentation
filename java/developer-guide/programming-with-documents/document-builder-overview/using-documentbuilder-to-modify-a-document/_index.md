@@ -60,11 +60,11 @@ In Word documents, lists may consist of up to nine levels. List formatting for e
 
 The methods change the list level and apply the formatting properties of the new level.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can also use the [ListFormat.listLevelNumber](https://apireference.aspose.com/words/java/com.aspose.words/listformat#setListLevelNumber\(int\)) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example shows how to build a multilevel list.
 

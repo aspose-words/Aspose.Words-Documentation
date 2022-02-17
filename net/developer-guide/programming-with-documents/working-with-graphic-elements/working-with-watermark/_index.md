@@ -38,11 +38,11 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Images-AddWatermark-AddWatermark.cs" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx). 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 
 ## How to Remove Watermark from a Document

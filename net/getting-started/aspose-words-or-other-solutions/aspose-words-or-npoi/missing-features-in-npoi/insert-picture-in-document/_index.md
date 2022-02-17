@@ -12,7 +12,7 @@ url: /net/insert-picture-in-document/
 
 See more details in the ["Working with Images"](/words/net/working-with-images/) documentation section.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) provides several overloads of the [InsertImage](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertimage/index) method that allow you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be saved in PNG format.
 

@@ -1,16 +1,18 @@
 ﻿---
-title: Using Web Services
+title: Using Web Services - Aspose.Words for JasperReports
+articleTitle: Using Web Services
+linktitle: Using Web Services
 description: "Aspose.Words for JasperReports (from v 2.0.0) can be used with JasperServer Web Services."
 type: docs
 weight: 130
 url: /jasperreports/using-web-services/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports (from v 2.0.0) can be used with JasperServer Web Services
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Use Aspose exporters with the Web Services of Jasper Report Server
 

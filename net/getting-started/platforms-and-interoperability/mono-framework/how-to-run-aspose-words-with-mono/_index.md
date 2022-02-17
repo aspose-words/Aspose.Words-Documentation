@@ -8,11 +8,11 @@ weight: 10
 url: /net/how-to-run-aspose-words-with-mono/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Yes, you can now run Aspose.Words for .NET with Mono on Linux or Mac OS to generate DOC files, convert DOC and DOCX to PDF and much more. This article provides important information for getting up and running with Aspose.Words on Mono.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Supported Platforms
 

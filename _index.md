@@ -8,13 +8,13 @@ url: /words/
 
 ## Aspose.Words for .NET
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Aspose.Words for .NET Product Logo](home_1)
 
 Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and other formats. With Aspose.Words you can generate, modify, convert, render, and print documents without utilizing Microsoft Word®.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 
@@ -37,7 +37,7 @@ The following are the links to some useful resources you may need to accomplish 
 
 Aspose.Words for Java is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and other formats. With Aspose.Words you can generate, modify, convert, render and print documents without using Microsoft Word®.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 
@@ -54,13 +54,13 @@ The following are the links to some useful resources you may need to accomplish 
 
 ## Aspose.Words for C++
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Aspose.Words for C++ Product Logo](home_3)
 
 Aspose.Words for C++ is a native class library that enables C++ application developers to perform a great range of document processing tasks. Aspose.Words supports DOC, DOCX, RTF, and other formats (*see [Supported Document Formats](/words/cpp/supported-document-formats/) for details*). With Aspose.Words you can generate, modify and convert documents without utilizing Microsoft Word®.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 
@@ -76,13 +76,13 @@ The following are the links to some useful resources you may need to accomplish 
 
 ## Aspose.Words for Python via .NET
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Aspose.Words for .NET Product Logo](home_1)
 
 Aspose.Words for Python via .NET is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Words for Python supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB, and [other formats](/words/python-net/supported-document-formats/). With Aspose.Words you can generate, modify, convert, and render documents without using Microsoft Word®.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 
@@ -95,13 +95,13 @@ The following are the links to some useful resources you may need to accomplish 
 
 ## Aspose.Words for Reporting Services
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 ![Aspose.Words for Reporting Services Product Logo](home_4)
 
 Have you ever wished you could export RDL and RDLC reports as OOXML, DOC, RTF and WordprocessingML documents from within Microsoft SQL Server Reporting Services? With Aspose.Words for Reporting Services, you can. Aspose.Words for Reporting Services is a rendering extension aimed at software developers. It supports Microsoft SQL Server 2000, 2005, 2008, 2008 R2, 2012, 2014 and 2016 Reporting Services, as well as in Microsoft Report Viewer 2005, 2008, 2010, 2012 and 2015.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 
@@ -115,13 +115,13 @@ The following are the links to some useful resources you may need to accomplish 
 
 ## Aspose.Words for SharePoint
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 <img src="home_5" alt="Aspose.Words for SharePoint" style="zoom:50%;" />
 
 Aspose.Words for SharePoint makes it possible to convert and combine word documents within Microsoft SharePoint applications. It supports format conversion with high fidelity, and can be used to generate reports with data from SQL databases, XML files or SharePoint lists.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 
@@ -135,13 +135,13 @@ The following are the links to some useful resources you may need to accomplish 
 
 ## Aspose.Words for JasperReports
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 <img src="home_6" alt="Aspose.Words for JasperReports" style="zoom:50%;" />
 
 Aspose.Words for JasperReports is the only known solution on the market that makes possible exporting reports from JasperReports and JasperServer to Microsoft Word document formats. All report features are converted with the highest degree of precision to Microsoft Word documents.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following are the links to some useful resources you may need to accomplish your tasks:
 

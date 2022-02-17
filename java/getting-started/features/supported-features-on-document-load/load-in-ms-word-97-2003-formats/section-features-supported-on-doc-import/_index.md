@@ -8,7 +8,7 @@ weight: 100
 url: /java/section-features-supported-on-doc-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This allows for example different parts of the document to completley different page sizes or page orientations.
 
@@ -21,7 +21,7 @@ See the following links in the documentation for further information:
 - **Section**
 - **Document.Sections**
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Headers and Footers
 

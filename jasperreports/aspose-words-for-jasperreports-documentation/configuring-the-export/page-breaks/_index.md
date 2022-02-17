@@ -1,12 +1,14 @@
 ﻿---
-title: Page Breaks
+title: Page Breaks - Aspose.Words for JasperReports
+articleTitle: Page Breaks
+linktitle: Page Breaks
 description: "Aspose.Words for JasperReports supports three ways page breaks are inserted between document pages."
 type: docs
 weight: 50
 url: /jasperreports/page-breaks/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Aspose.Words for JasperReports supports three ways page breaks are inserted between document pages:
 
@@ -16,7 +18,7 @@ Aspose.Words for JasperReports supports three ways page breaks are inserted betw
 
 The "section breaks" mode is chosen as default because there may be headers and footers in the document that contain different data. Microsoft Word requires different headers and footers to be placed in different sections. 
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Normal Page Breaks
 
@@ -68,7 +70,7 @@ You can instruct the exporter to avoid any use of page breaks (so that the repor
 </bean>
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that in these modes, since the generated document consists of one section, only the first header and footer pair is exported. 
 

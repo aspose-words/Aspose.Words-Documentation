@@ -45,11 +45,11 @@ If you are sure that all processing documents require the same font settings, th
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithFontSettings-FontSettingsFontSource.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 The custom **FontSettings** have higher priority than the default instance.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Font Availability and Substitution
 
@@ -122,11 +122,11 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 1. If Aspose.Words is unable to perform the font substitution, it tries to get the first available font from available font sources.
 1. Finally, if Aspose.Words cannot find any fonts among the available font sources, it renders the document using the free Fanwood font that is embedded into the Aspose.Words assembly.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 If **FontInfo** is available, the *FontInfo substitution rule* will always resolve the font and override the default font rule. If you want to use the default font rule, you should disable the *FontInfo substitution rule*. Note that the *FontConfig substitution rule* will resolve the font in most cases, and thus overrides all other rules.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## How to Recognize That the Font Was Replaced
 
@@ -209,11 +209,11 @@ Aspose.Words provides predefined font fallback settings for Google Noto fonts. T
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SetFontSettings-setPredefinedFontFallbackSettings.java" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Only Sans style Noto fonts with regular weight are used in predefined settings.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Where Aspose.Words Looks for Fonts
 

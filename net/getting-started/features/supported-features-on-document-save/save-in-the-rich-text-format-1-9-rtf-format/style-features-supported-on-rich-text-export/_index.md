@@ -8,11 +8,11 @@ weight: 100
 url: /net/style-features-supported-on-rich-text-export/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/net/style-features-supported-on-rich-text-import/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Style Type
 

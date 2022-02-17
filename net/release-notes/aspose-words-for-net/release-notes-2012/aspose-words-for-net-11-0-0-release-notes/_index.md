@@ -8,11 +8,11 @@ weight: 100
 url: /net/aspose-words-for-net-11-0-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 11.0.0](https://www.nuget.org/packages/Aspose.Words/11.0.0)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 - New public element in the Model: AbsolutePositionTab (WORDSNET-2932) support for DOCX and RTF provided.
 - Linked textboxes (WORDSNET-616) supported in DOC, DOCX, WML.

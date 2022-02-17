@@ -1,5 +1,7 @@
 ﻿---
-title: ParentColumns Element
+title: ParentColumns Element - Aspose.Words for SharePoint
+articleTitle: ParentColumns Element
+linktitle: ParentColumns Element
 description: "This page describes ParentColumns element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 180

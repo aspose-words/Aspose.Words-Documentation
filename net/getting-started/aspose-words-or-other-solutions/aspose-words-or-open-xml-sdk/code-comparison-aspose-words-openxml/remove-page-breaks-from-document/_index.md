@@ -85,7 +85,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 For more information about Aspose.Words features please visit [Remove Page and Section Breaks](/words/net/working-with-sections/#how-to-remove-page-and-section-breaks).
 

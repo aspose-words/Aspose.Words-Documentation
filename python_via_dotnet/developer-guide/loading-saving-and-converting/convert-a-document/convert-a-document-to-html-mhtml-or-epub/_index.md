@@ -42,11 +42,11 @@ The following code example shows how to export round-trip information when conve
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_html_save_options-ExportRoundtripInformation.py" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Specify Save Options when Conversion to HTML
 
@@ -111,9 +111,9 @@ saveOptions.save_format = aw.SaveFormat.EPUB
 doc.save(docs_base.artifacts_dir + "Document.EpubConversion_out.epub", saveOptions)
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
-{{% /alert %}} 
+{{% /alert %}}
 

@@ -8,11 +8,11 @@ weight: 10
 url: /net/annotation-features-supported-on-wordprocessingml-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Annonations allow the user to add extra information to the document normally for use in review or collaboration.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Bookmarks
 

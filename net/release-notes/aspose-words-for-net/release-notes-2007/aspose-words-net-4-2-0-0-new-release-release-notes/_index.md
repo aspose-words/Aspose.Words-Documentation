@@ -8,11 +8,11 @@ weight: 210
 url: /net/aspose-words-net-4-2-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words .Net 4.2.0.0 New Release](https://downloads.aspose.com/words/net/new-releases/aspose.words-.net-4.2.0.0-new-release/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 This releases introduces a great new feature - WordprocessingML import in Aspose.Words.
 

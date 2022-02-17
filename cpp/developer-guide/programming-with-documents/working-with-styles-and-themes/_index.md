@@ -38,13 +38,13 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-ParagraphsByStyleName.cpp" >}}
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This implementation also uses the Document.GetChildNodes method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
 Note that the second parameter of the **Document.GetChildNodes** method is set to true. This forces the **Document.GetChildNodes** method to select from all child nodes recursively, rather than selecting the immediate children only.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard for each operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the Style. Name property of the Paragraph.ParagraphFormat object. The implementation of RunsByStyleName is almost the same, although we’re obviously using NodeType.Run to retrieve run nodes. The Font.Style property of a Run object is used to access style information in the **Run** nodes. The below code example find all runs formatted with the specified style.
 

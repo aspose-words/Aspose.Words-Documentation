@@ -8,11 +8,11 @@ weight: 90
 url: /java/aspose-words-for-java-android-17-4-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for Java.Android 17.4.](https://downloads.aspose.com/words/androidjava/new-releases/aspose.words-for-java.android-17.4/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Major Features
 

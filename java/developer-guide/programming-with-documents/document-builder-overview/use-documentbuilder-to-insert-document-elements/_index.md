@@ -13,11 +13,11 @@ The [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.word
 
 Simply pass the string of text you need to insert into the document to the [DocumentBuilder.write](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#write(java.lang.String)) method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) properties to allow you to access them directly. These are Boolean properties [Font.getBold](https://apireference.aspose.com/words/java/com.aspose.words/Font#Bold), [Font.getItalic](https://apireference.aspose.com/words/java/com.aspose.words/Font#Italic), and [Font.getUnderline](https://apireference.aspose.com/words/java/com.aspose.words/Font#Underline).
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 Note that the character formatting you set will apply to all text inserted from the current position in the document onwards.
 
-{{% /alert %}} 
+{{% /alert %}}
 
 The following code example Inserts formatted text using DocumentBuilder.
 

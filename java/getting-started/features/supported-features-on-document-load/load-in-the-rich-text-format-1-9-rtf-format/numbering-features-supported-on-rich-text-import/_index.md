@@ -8,7 +8,7 @@ weight: 70
 url: /java/numbering-features-supported-on-rich-text-import/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 A list used in a document is actually made up of many complex parts. List and their properties are fully supported by Aspose.Words.
 
@@ -32,7 +32,7 @@ See the following links in the documentation for further information:
 
 [Jump to this location in the export section]()
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Numbering Definition
 

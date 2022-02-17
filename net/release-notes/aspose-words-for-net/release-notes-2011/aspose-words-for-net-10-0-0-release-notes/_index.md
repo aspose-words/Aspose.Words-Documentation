@@ -8,11 +8,11 @@ weight: 80
 url: /net/aspose-words-for-net-10-0-0-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words for .NET 10.0.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-10.0.0/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 ## Aspose.Words for .NET 10.0 Release Notes
 

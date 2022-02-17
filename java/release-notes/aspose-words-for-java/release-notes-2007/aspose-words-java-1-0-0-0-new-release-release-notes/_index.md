@@ -8,11 +8,11 @@ weight: 100
 url: /java/aspose-words-java-1-0-0-0-new-release-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for [Aspose.Words Java 1.0.0.0 New Release](https://downloads.aspose.com/words/java/new-releases/aspose.words-java-1.0.0.0-new-release/)
 
-{{% /alert %}} 
+{{% /alert %}}
 
 Dear Customers,
 

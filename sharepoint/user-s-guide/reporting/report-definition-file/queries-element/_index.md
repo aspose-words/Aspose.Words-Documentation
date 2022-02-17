@@ -1,5 +1,7 @@
 ﻿---
-title: Queries Element
+title: Queries Element - Aspose.Words for SharePoint
+articleTitle: Queries Element
+linktitle: Queries Element
 description: "This page describes Queries element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 100
