@@ -1,10 +1,10 @@
-﻿---
+---
 title: Supported Document Formats – Aspose.Words for .NET
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs
 description: "Aspose.Words for .NET supports a wide range of formats for loading and saving documents. This allows you to edit source documents in many popular formats, as well as freely convert files from one format to another."
-weight: 20
+weight: 30
 url: /net/supported-document-formats/
 ---
 

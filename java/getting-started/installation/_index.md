@@ -1,10 +1,10 @@
-﻿---
+---
 title: Installation – Aspose.Words for Java
 articleTitle: Installation
 linktitle: Installation
 description: "Install Aspose.Words for Java from Maven repository. Define the Aspose.Words for Java dependency in your pom.xml"
 type: docs
-weight: 110
+weight: 10
 url: /java/installation/
 ---
 
