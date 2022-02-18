@@ -1,10 +1,10 @@
-﻿---
+---
 title: Installation – Aspose.Words for С++
 articleTitle: Installation
 linktitle: Installation
 description: "Install Aspose.Words for C++ using Manage NuGet Packages or Package Manager Console, as well as manual installer."
 type: docs
-weight: 40
+weight: 10
 url: /cpp/installation/
 ---
 

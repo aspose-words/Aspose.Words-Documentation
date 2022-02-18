@@ -1,10 +1,10 @@
 ---
 title: Features – Aspose.Words for .NET
-articleTitle: Features
-linktitle: Features
+articleTitle: Supported Features
+linktitle: Supported Features
 description: "Aspose.Words for .NET provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
-weight: 30
+weight: 40
 url: /net/features/
 aliases:
  - /net/feature-overview/
