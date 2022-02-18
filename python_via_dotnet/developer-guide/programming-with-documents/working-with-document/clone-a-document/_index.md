@@ -3,7 +3,7 @@ title: Clone a Document in Python
 articleTitle: Clone a Document
 linktitle: Clone a Document
 type: docs
-description: “Aspose.Words for Python via .NET allows you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned.”
+description: "Aspose.Words for Python via .NET allows you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned."
 weight: 60
 url: /python-net/clone-a-document/
 aliases: [/python/clone-a-document/]
