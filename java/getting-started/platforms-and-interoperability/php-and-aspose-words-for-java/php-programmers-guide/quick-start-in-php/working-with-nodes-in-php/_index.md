@@ -2,7 +2,7 @@
 title: Working With Nodes in PHP – Aspose.Words for Java
 articleTitle: Working With Nodes in PHP
 linktitle: Working With Nodes in PHP
-description: "PHP: Working With Document Nodes using Aspose.Words for Java."
+description: "Working With Document Nodes using PHP."
 type: docs
 weight: 90
 url: /java/working-with-nodes-in-php/

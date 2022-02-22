@@ -2,7 +2,7 @@
 title: Working with Columns and Rows in Java
 articleTitle: Working with Columns and Rows
 linktitle: Working with Columns and Rows
-description: "Working with parts of table, row and cells using Aspose.Words for Java."
+description: "Working with parts of table, row and cells using Java."
 type: docs
 weight: 110
 url: /java/working-with-columns-and-rows/

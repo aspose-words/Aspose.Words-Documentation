@@ -2,7 +2,7 @@
 title: Working with Table Styles in Java
 articleTitle: Working with Table Styles
 linktitle: Working with Table Styles
-description: "Introduction to advanced table formatting, Table styles, using Aspose.Words for Java."
+description: "Introduction to advanced table formatting, Table styles, using Java."
 type: docs
 aliases:
  - /java/working-with-table-styles/

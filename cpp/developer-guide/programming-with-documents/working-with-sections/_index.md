@@ -2,7 +2,7 @@
 title: Working with Sections in C++
 articleTitle: Working with Sections
 linktitle: Working with Sections
-description: "Understanding document section concepts and manipulation practices using Aspose.Words for C++."
+description: "Understanding document section concepts and manipulation practices using C++."
 type: docs
 weight: 30
 url: /cpp/working-with-sections/

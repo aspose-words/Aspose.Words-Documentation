@@ -2,7 +2,7 @@
 title: Working with Fonts in C++
 articleTitle: Working with Fonts
 linktitle: Working with Fonts
-description: "Font formatting in details using Aspose.Words for C++."
+description: "Font formatting in details using C++."
 type: docs
 weight: 70
 url: /cpp/working-with-fonts/

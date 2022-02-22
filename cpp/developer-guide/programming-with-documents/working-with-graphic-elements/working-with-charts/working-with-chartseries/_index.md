@@ -2,7 +2,7 @@
 title: Working with ChartSeries in C++
 articleTitle: Working with ChartSeries
 linktitle: Working with ChartSeries
-description: "Chart series tuning using Aspose.Words for C++."
+description: "Chart series tuning using C++."
 type: docs
 weight: 40
 url: /cpp/working-with-chartseries/

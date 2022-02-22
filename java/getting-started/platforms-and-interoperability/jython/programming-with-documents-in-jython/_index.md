@@ -2,7 +2,7 @@
 title: Programming With Documents in Jython – Aspose.Words for Java
 articleTitle: Programming With Documents in Jython
 linktitle: Programming With Documents in Jython
-description: "Jython: Programming With Documents using Aspose.Words for Java."
+description: "Programming With Documents using Jython."
 type: docs
 weight: 20
 url: /java/programming-with-documents-in-jython/

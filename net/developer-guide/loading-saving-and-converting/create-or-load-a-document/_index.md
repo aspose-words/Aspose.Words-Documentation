@@ -5,7 +5,7 @@ linktitle: Create or Load a Document
 type: docs
 url: /net/create-or-load-a-document/
 aliases: [/net/creating-or-loading-a-document/]
-description: "Create a blank document or to load it from a file or stream. This is useful for almost any task performed using Aspose.Words."
+description: "Create a blank document or to load it from a file or stream using C#."
 keywords: "create a document c#, load a document c#, create a blank document c#, load a document from file c#, load a document from stream c#, create a document Aspose .NET, load a document Aspose .NET, load formats supported by Aspose.Words .NET"
 weight: 10
 ---

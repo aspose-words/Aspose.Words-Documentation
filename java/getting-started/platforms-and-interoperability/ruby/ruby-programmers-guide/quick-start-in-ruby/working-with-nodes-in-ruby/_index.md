@@ -2,7 +2,7 @@
 title: Working With Nodes in Ruby – Aspose.Words for Java
 articleTitle: Working With Nodes in Ruby
 linktitle: Working With Nodes in Ruby
-description: "Ruby: working With Document Nodes using Aspose.Words for Java."
+description: "Working With Document Nodes using Ruby."
 type: docs
 weight: 90
 url: /java/working-with-nodes-in-ruby/

@@ -2,7 +2,7 @@
 title: Find And Replace in PHP – Aspose.Words for Java
 articleTitle: Find And Replace in PHP
 linktitle: Find And Replace in PHP
-description: "PHP: Find And Replace text in Document using Aspose.Words for Java."
+description: "Find And Replace text in Document using PHP."
 type: docs
 weight: 30
 url: /java/find-and-replace-in-php/

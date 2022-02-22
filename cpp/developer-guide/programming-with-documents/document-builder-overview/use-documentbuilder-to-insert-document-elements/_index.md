@@ -3,7 +3,7 @@ title: Use DocumentBuilder to Insert Document Elements in C++
 articleTitle: Use DocumentBuilder to Insert Document Elements
 linktitle: Use DocumentBuilder to Insert Document Elements
 type: docs
-description: "Aspsoe.Words for C++ allows you to insert document elements using the document builder."
+description: "Insert document elements using the document builder in C++."
 weight: 80
 url: /cpp/use-documentbuilder-to-insert-document-elements/
 ---

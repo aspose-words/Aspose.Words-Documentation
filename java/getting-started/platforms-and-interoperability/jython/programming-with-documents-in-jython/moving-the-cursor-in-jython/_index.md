@@ -2,7 +2,7 @@
 title: Moving the Cursor in Jython – Aspose.Words for Java
 articleTitle: Moving the Cursor in Jython
 linktitle: Moving the Cursor in Jython
-description: "Jython: Moving the Cursor using Aspose.Words for Java."
+description: "Moving the Cursor using Jython."
 type: docs
 weight: 36
 url: /java/moving-the-cursor-in-jython/

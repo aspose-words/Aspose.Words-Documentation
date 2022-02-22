@@ -2,7 +2,7 @@
 title: Working with TableStyle in C++
 articleTitle: Working with TableStyle
 linktitle: Working with TableStyle
-description: "Introduction to advanced table formatting, Table styles, using Aspose.Words for C++."
+description: "Introduction to advanced table formatting, Table styles, using C++."
 type: docs
 weight: 25
 url: /cpp/working-with-tablestyle/

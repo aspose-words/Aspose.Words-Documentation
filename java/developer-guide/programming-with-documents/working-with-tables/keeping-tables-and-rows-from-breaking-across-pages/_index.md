@@ -2,7 +2,7 @@
 title: Keeping Tables and Rows from Breaking across Pages in Java
 articleTitle: Keeping Tables and Rows from Breaking across Pages
 linktitle: Keeping Tables and Rows from Breaking across Pages
-description: "Control table layout among document pages using Aspose.Words for Java."
+description: "Control table layout among document pages using Java."
 type: docs
 weight: 80
 url: /java/keeping-tables-and-rows-from-breaking-across-pages/

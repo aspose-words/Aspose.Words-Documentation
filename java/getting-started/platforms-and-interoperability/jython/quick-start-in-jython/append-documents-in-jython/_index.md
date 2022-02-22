@@ -2,7 +2,7 @@
 title: Append Documents in Jython – Aspose.Words for Java
 articleTitle: Append Documents in Jython
 linktitle: Append Documents in Jython
-description: "Jython: Append Documents using Aspose.Words for Java."
+description: "Append Documents using Jython."
 type: docs
 weight: 10
 url: /java/append-documents-in-jython/

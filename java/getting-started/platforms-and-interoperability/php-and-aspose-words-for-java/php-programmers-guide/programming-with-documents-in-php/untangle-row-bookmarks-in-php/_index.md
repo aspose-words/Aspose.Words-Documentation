@@ -2,7 +2,7 @@
 title: Untangle Row Bookmarks in PHP – Aspose.Words for Java
 articleTitle: Untangle Row Bookmarks in PHP
 linktitle: Untangle Row Bookmarks in PHP
-description: "PHP: Untangle Row Bookmarks using Aspose.Words for Java."
+description: "Untangle Row Bookmarks using PHP."
 type: docs
 weight: 25
 url: /java/untangle-row-bookmarks-in-php/

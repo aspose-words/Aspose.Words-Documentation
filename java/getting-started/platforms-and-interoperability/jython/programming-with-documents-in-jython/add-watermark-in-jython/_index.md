@@ -2,7 +2,7 @@
 title: Add Watermark in Jython – Aspose.Words for Java
 articleTitle: Add Watermark in Jython
 linktitle: Add Watermark in Jython
-description: "Jython: Add Watermark using Aspose.Words for Java."
+description: "Add Watermark using Jython."
 type: docs
 weight: 31
 url: /java/add-watermark-in-jython/
