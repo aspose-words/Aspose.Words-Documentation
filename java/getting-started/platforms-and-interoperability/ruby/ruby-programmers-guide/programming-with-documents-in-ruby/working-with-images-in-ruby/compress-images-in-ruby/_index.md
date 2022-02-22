@@ -2,7 +2,7 @@
 title: Compress Images in Ruby – Aspose.Words for Java
 articleTitle: Compress Images in Ruby
 linktitle: Compress Images in Ruby
-description: "Ruby: compress images using Aspose.Words for Java."
+description: "Compress images using Ruby."
 type: docs
 weight: 20
 url: /java/compress-images-in-ruby/

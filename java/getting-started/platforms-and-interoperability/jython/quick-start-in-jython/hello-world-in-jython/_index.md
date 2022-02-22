@@ -2,7 +2,7 @@
 title: Hello World in Jython – Aspose.Words for Java
 articleTitle: Hello World in Jython
 linktitle: Hello World in Jython
-description: "Jython: create Hello World document using Aspose.Words for Java."
+description: "Create Hello World document using Jython."
 type: docs
 weight: 50
 url: /java/hello-world-in-jython/

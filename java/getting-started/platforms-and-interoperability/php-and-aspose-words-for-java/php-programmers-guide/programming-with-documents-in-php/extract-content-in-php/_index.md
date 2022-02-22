@@ -2,7 +2,7 @@
 title: Extract Content in PHP – Aspose.Words for Java
 articleTitle: Extract Content in PHP
 linktitle: Extract Content in PHP
-description: "PHP: Extract Content from Document using Aspose.Words for Java."
+description: "Extract Content from Document using PHP."
 type: docs
 weight: 30
 url: /java/extract-content-in-php/

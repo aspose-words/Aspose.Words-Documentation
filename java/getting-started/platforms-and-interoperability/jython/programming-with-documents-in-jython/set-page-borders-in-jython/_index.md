@@ -2,7 +2,7 @@
 title: Set Page Borders in Jython – Aspose.Words for Java
 articleTitle: Set Page Borders in Jython
 linktitle: Set Page Borders in Jython
-description: "Jython: Set Page Borders using Aspose.Words for Java."
+description: "Set Page Borders using Jython."
 type: docs
 weight: 39
 url: /java/set-page-borders-in-jython/

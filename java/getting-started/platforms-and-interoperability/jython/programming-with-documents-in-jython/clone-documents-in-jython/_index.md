@@ -2,7 +2,7 @@
 title: Clone Documents in Jython – Aspose.Words for Java
 articleTitle: Clone Documents in Jython
 linktitle: Clone Documents in Jython
-description: "Jython: Clone Documents using Aspose.Words for Java."
+description: "Clone Documents using Jython."
 type: docs
 weight: 32
 url: /java/clone-documents-in-jython/

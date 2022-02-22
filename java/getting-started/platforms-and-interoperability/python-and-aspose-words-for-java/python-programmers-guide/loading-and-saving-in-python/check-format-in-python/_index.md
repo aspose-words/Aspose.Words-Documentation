@@ -2,7 +2,7 @@
 title: Check Format in Python – Aspose.Words for Java
 articleTitle: Check Format in Python
 linktitle: Check Format in Python
-description: "Python: Check Document Format using Aspose.Words for Java."
+description: "Check Document Format using Python."
 type: docs
 weight: 10
 url: /java/check-format-in-python/

@@ -2,7 +2,7 @@
 title: Hello World in Python – Aspose.Words for Java
 articleTitle: Hello World in Python
 linktitle: Hello World in Python
-description: "Python: Write 'hello' to the Word Document using Aspose.Words for Java."
+description: "Write 'hello' to the Word Document using Python."
 type: docs
 weight: 40
 url: /java/hello-world-in-python/

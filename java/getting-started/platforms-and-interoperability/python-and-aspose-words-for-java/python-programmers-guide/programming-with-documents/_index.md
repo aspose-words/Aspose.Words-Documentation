@@ -2,7 +2,7 @@
 title: Programming With Documents in Python – Aspose.Words for Java
 articleTitle: Programming With Documents in Python
 linktitle: Programming With Documents in Python
-description: "Python: Programming Documents using Aspose.Words for Java."
+description: "Programming Documents using Python."
 type: docs
 weight: 20
 url: /java/programming-with-documents-python/

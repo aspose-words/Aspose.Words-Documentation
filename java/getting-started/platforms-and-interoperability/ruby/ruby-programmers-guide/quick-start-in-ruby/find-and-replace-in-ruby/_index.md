@@ -2,7 +2,7 @@
 title: Find And Replace in Ruby – Aspose.Words for Java
 articleTitle: Find And Replace in Ruby
 linktitle: Find And Replace in Ruby
-description: "Ruby: find and/or replace text in MS Word document using Aspose.Words for Java."
+description: "Find and/or replace text in MS Word document using Ruby."
 type: docs
 weight: 30
 url: /java/find-and-replace-in-ruby/

@@ -2,7 +2,7 @@
 title: Load Plain Text (TXT) File in Jython – Aspose.Words for Java
 articleTitle: Load Plain Text (TXT) File in Jython
 linktitle: Load Plain Text (TXT) File in Jython
-description: "Jython: Load Plain Text (TXT) File using Aspose.Words for Java."
+description: "Load Plain Text (TXT) File using Jython."
 type: docs
 weight: 30
 url: /java/load-plain-text-txt-file-in-jython/

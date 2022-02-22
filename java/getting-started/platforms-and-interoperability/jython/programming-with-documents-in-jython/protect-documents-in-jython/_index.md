@@ -2,7 +2,7 @@
 title: Protect Documents in Jython – Aspose.Words for Java
 articleTitle: Protect Documents in Jython
 linktitle: Protect Documents in Jython
-description: "Jython: Protect Documents using Aspose.Words for Java."
+description: "Protect Documents using Jython."
 type: docs
 weight: 37
 url: /java/protect-documents-in-jython/

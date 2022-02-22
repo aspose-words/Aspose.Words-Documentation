@@ -2,7 +2,7 @@
 title: Load And Save To Stream in Python – Aspose.Words for Java
 articleTitle: Load And Save To Stream in Python
 linktitle: Load And Save To Stream in Python
-description: "Python: Load And Save Document To Stream using Aspose.Words for Java."
+description: "Load And Save Document To Stream using Python."
 type: docs
 weight: 60
 url: /java/load-and-save-to-stream-in-python/
