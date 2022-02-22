@@ -2,7 +2,7 @@
 title: World Class Free Technical Support - Aspose.Words for Reporting Services
 articleTitle: World Class Free Technical Support
 linktitle: World Class Free Technical Support
-description: "This page contains support details overview of the Aspose.Words for Reporting Services."
+description: "Support details overview of the Aspose.Words for Reporting Services."
 type: docs
 weight: 70
 url: /reportingservices/world-class-free-technical-support/
