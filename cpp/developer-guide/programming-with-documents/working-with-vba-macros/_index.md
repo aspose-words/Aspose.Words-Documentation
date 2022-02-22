@@ -2,7 +2,7 @@
 title: Working with VBA Macros in C++
 articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
-description: "Working with document VBA projects using Aspose.Words for C++."
+description: "Working with document VBA projects using C++."
 type: docs
 weight: 150
 url: /cpp/working-with-vba-macros/

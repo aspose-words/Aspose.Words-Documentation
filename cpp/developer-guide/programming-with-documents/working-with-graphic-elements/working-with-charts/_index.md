@@ -2,7 +2,7 @@
 title: Working with Charts in C++
 articleTitle: Working with Charts
 linktitle: Working with Charts
-description: "Introduction to Chart feature, how to create and manipulate charts using Aspose.Words for C++."
+description: "Introduction to Chart feature, how to create and manipulate charts using C++."
 type: docs
 weight: 170
 url: /cpp/working-with-charts/

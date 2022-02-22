@@ -3,7 +3,7 @@ title: Working with Images in C++
 articleTitle: Working with Images
 linktitle: Working with Images
 type: docs
-description: "Introduction to Image feature, how to create and manipulate image using Aspose.Words for C++."
+description: "Introduction to Image feature, how to create and manipulate image using C++."
 weight: 150
 url: /cpp/working-with-images/
 ---

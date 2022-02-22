@@ -2,7 +2,7 @@
 title: Working with Bookmarks in Java
 articleTitle: Working with Bookmarks
 linktitle: Working with Bookmarks
-description: "Understanding bookmark concepts and how bookmark can be used in your program using Aspose.Words for Java."
+description: "Understanding bookmark concepts and how bookmark can be used in your program using Java."
 type: docs
 weight: 55
 url: /java/working-with-bookmarks/

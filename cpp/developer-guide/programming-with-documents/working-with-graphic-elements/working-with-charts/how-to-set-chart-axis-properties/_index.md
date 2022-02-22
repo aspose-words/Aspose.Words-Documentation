@@ -2,7 +2,7 @@
 title: How to Set Chart Axis Properties in C++
 articleTitle: How to Set Chart Axis Properties
 linktitle: How to Set Chart Axis Properties
-description: "Chart axis tuning using Aspose.Words for C++."
+description: "Chart axis tuning using C++."
 type: docs
 weight: 20
 url: /cpp/how-to-set-chart-axis-properties/

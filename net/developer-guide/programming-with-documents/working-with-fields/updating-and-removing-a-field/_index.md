@@ -2,7 +2,7 @@
 title: Updating and Removing a Field in C#
 articleTitle: Updating and Removing a Field
 linktitle: Updating and Removing a Field
-description: "Field updating in details using Aspose.Words for .NET." 
+description: "Field updating in details using C#."
 type: docs
 weight: 30
 url: /net/updating-and-removing-a-field/

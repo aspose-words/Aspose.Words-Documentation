@@ -3,7 +3,7 @@ title: Working with Shapes in Java
 articleTitle: Working with Shapes
 linktitle: Working with Shapes
 type: docs
-description: "Introduction to shape markup language, creating shapes of different types using Aspose.Words for Java." 
+description: "Introduction to shape markup language, creating shapes of different types using Java."
 weight: 10
 url: /java/working-with-shapes/
 ---

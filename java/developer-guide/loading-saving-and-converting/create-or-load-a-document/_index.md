@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /java/create-or-load-a-document/
 aliases: [/java/creating-or-loading-a-document/]
-description: "Aspose.Words enables you to create a blank document or to load it from a file or stream. This is useful for almost any task performed using Aspose.Words."
+description: "Aspose.Words enables you to create a blank document or to load it from a file or stream using Java."
 ---
 
 Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/java/com.aspose.words/LoadFormat) enumeration.

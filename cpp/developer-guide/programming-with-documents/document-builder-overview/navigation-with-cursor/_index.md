@@ -2,7 +2,7 @@
 title: Navigation with Cursor in C++
 articleTitle: Navigation with Cursor
 linktitle: Navigation with Cursor
-description: "Aspsoe.Words for C++ allows you to navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character, using a virtual cursor."
+description: "Navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character using C++."
 type: docs
 weight: 10
 url: /cpp/navigation-with-cursor/

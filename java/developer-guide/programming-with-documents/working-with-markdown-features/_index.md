@@ -2,7 +2,7 @@
 title: Working with Markdown Features in Java
 articleTitle: Working with Markdown Features
 linktitle: Working with Markdown Features
-description: "How to implement Markdown features using Aspose.Words for Java. All the features are represented as corresponding styles or direct formatting."
+description: "How to implement Markdown features using Java. All the features are represented as corresponding styles or direct formatting."
 type: docs
 weight: 180
 url: /java/working-with-markdown-features/

@@ -2,7 +2,7 @@
 title: Working with Sections in C#
 articleTitle: Working with Sections
 linktitle: Working with Sections
-description: "Understanding document section concepts and manipulation practices using Aspose.Words for .NET."
+description: "Understanding document section concepts and manipulation practices using C#."
 type: docs
 weight: 60
 url: /net/working-with-sections/

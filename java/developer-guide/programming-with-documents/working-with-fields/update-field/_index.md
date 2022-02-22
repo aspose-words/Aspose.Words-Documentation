@@ -2,7 +2,7 @@
 title: Update Field in Java
 articleTitle: Update Field
 linktitle: Update Field
-description: "Fields updating in details using Aspose.Words for Java."
+description: "Fields updating in details using Java."
 type: docs
 weight: 20
 url: /java/update-field/

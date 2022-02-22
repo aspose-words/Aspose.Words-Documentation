@@ -3,7 +3,7 @@ title: Extract Selected Content Between Nodes in Java
 articleTitle: Extract Selected Content Between Nodes
 linktitle: Extract Selected Content Between Nodes
 type: docs
-description: "Extracting document content in different using Aspose.Words for Java."
+description: "Extracting document content in different using Java."
 weight: 50
 url: /java/extract-selected-content-between-nodes/
 ---

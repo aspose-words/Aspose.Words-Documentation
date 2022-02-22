@@ -2,7 +2,7 @@
 title: Working with VBA Macros in C#
 articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
-description: "Working with document VBA projects using Aspose.Words for .NET."
+description: "Working with document VBA projects using C#."
 type: docs
 weight: 200
 url: /net/working-with-vba-macros/
