@@ -2,7 +2,7 @@
 title: Working with Comments in C#
 articleTitle: Working with Comments
 linktitle: Working with Comments
-description: "Working with comments in your code using Aspose.Words for .Net."
+description: "Working with comments in your code using Aspose.Words for .NET."
 type: docs
 weight: 140
 url: /net/working-with-comments/

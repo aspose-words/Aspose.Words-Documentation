@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 19.10](https://www.nu
 
 ## Major Features
 
-This is a regular monthly release, we continue to add features from Aspose.Words for .Net.
+This is a regular monthly release, we continue to add features from Aspose.Words for .NET.
 
 - We have moved common C++ dependencies into a separate package. It makes possible to use several Aspose products in the same project.
 - We have reworked rendering engine, it should improve the quality and stability of rendering. Now Aspose.Words for C++ uses the same Skia-based rendering engine as Aspose.Words for .NET Standard.

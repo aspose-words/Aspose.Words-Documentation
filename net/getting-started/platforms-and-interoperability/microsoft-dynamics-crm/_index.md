@@ -14,7 +14,7 @@ Microsoft Dynamics CRM is a customer relationship management software package de
 
 Dynamics CRM is a server-client application, which, like Microsoft SharePoint, is primarily an IIS-based web application which also supports extensive web services interfaces. Clients access Dynamics CRM either by using a Browser or by a thick client plug-in to Microsoft Outlook.
 
-## Aspose.Words for .Net
+## Aspose.Words for .NET
 
 Aspose.Words for .NET is an advanced class library for .NET that enables you to perform a wide range of document processing tasks directly within your .NET applications.
 With Aspose.Words you can generate, modify, convert, render and print documents without using Microsoft Word.

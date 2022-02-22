@@ -127,7 +127,7 @@ This section lists public API changes that were introduced in Aspose.Words 22.1.
 
 ### The new implementation of `System::Xml` namespace
 
-The new implementation for `System::Xml` namespace was provided. Previously, we had custom implementation which was based on the libxml2 and libxslt libraries. The new version is based on the ported CoreFX code. Some APIs may have become unavailable. Some APIs may have changed. The new API is much closer to such of .Net. Please use the API Reference for more information.
+The new implementation for `System::Xml` namespace was provided. Previously, we had custom implementation which was based on the libxml2 and libxslt libraries. The new version is based on the ported CoreFX code. Some APIs may have become unavailable. Some APIs may have changed. The new API is much closer to such of .NET. Please use the API Reference for more information.
 
 ### Added new Chart.SourceFullName property
 

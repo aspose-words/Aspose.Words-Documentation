@@ -18,7 +18,7 @@ So this release includes full support of SharePoint 2016 as major update.
 Other changes 
 This release includes the latest improvements and fixes made up to date in
 
-Aspose.Words for .Net
+Aspose.Words for .NET
 
 (v15.x.x).
 

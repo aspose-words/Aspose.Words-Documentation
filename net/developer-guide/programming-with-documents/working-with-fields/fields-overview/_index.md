@@ -2,7 +2,7 @@
 title: Fields Overview in C#
 articleTitle: Fields Overview
 linktitle: Fields Overview
-description: "Fields feature in details, field codes and field results explained in Aspose.Words for .Net."
+description: "Fields feature in details, field codes and field results explained in Aspose.Words for .NET."
 type: docs
 weight: 10
 url: /net/fields-overview/

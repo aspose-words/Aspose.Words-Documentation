@@ -2,7 +2,7 @@
 title: Working with Bookmarks in C#
 articleTitle: Working with Bookmarks
 linktitle: Working with Bookmarks
-description: "Understanding bookmark concepts and how bookmark can be used in your program using Aspose.Words for .Net."
+description: "Understanding bookmark concepts and how bookmark can be used in your program using Aspose.Words for .NET."
 type: docs
 weight: 86
 url: /net/working-with-bookmarks/

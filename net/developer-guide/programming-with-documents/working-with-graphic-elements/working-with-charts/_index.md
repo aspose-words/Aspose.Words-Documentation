@@ -2,7 +2,7 @@
 title: Working with Charts in C#
 articleTitle: Working with Charts
 linktitle: Working with Charts
-description: "Introduction to Chart feature, how to create and manipulate charts using Aspose.Words for .Net."
+description: "Introduction to Chart feature, how to create and manipulate charts using Aspose.Words for .NET."
 type: docs
 weight: 50
 url: /net/working-with-charts/
