@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 20.8](https://downloa
 
 ## Major Features
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Implemented Markdown ‘Inline Images’ feature.
 - Added new font substitution rule for font name processing.

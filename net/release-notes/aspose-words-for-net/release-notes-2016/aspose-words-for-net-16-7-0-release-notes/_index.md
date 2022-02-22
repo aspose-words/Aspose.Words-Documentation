@@ -227,7 +227,7 @@ if (signatures.IsValid && (signatures.Count > 0))
 
 The document page can now be saved into GIF format just like any other image formats. A new 'Gif' member is added into 'SaveFormat' enum.
 
-Aspose.Words for .Net uses standard GIF codec provided by GDI+. Aspose.Words for Java uses standard GIF codec provided by ImageIO.
+Aspose.Words for .NET uses standard GIF codec provided by GDI+. Aspose.Words for Java uses standard GIF codec provided by ImageIO.
 
 Sample code:
 

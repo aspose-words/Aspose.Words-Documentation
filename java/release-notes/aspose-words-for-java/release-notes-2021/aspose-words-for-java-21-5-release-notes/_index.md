@@ -45,7 +45,7 @@ There are 112 improvements and fixes in this regular monthly release. The most n
 | WORDSNET-9400 | Add feature to get styles in a document which are not currently used | Enhancement |
 | WORDSNET-21787 | DOCX to PDF conversion issue with text wrapping in table cell | Enhancement |
 | WORDSJAVA-2462 | DOCX to PDF conversion: "java.lang.NullPointerException" | Bug |
-| WORDSJAVA-2529 | GetText() difference in lists examples between .Net and Java | Bug |
+| WORDSJAVA-2529 | GetText() difference in lists examples between .NET and Java | Bug |
 | WORDSJAVA-2538 | java.lang.UnsatisfiedLinkError is thrown while saving DOCX to PDF at   Ubuntu | Bug |
 | WORDSNET-7198 | Image in ODT is getting truncated at the bottom of Page in PDF | Bug |
 | WORDSNET-10203 | Style is changed after conversion from WordML to Doc | Bug |

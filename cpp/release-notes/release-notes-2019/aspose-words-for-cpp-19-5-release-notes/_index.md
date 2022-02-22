@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 19.5](https://www.nug
 
 ## Major Features
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Saving documents in XamlFlow and XamlFixed formats
 - Loading and saving documents in ODT format.

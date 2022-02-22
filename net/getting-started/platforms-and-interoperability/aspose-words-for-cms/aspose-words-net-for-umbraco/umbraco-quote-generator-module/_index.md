@@ -49,7 +49,7 @@ This initial version of the module is enriched with the following features to ma
 In order to setup Aspose .NET Quote Generator for Umbraco module you need to have the following requirements met:
 
 - Umbraco 6.2.5 & Umbraco 6 versions
-- Microsoft .Net Framework 4.0
+- Microsoft .NET Framework 4.0
 
 **Note:** Umbraco 7 and above are not supported in this release. We look forward to hear your feedback and add support for Umbraco 7 in next version.
 

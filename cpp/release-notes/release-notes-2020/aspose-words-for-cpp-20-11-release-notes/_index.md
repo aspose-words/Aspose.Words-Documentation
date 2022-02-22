@@ -18,7 +18,7 @@ This page contains release notes for [Aspose.Words for C++ 20.11](https://downlo
 
 Starting from this release, we are beginning to publish the Windows x86 version of Aspose.Words for C++.
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 - Document.SpellingChecked and Document.GrammarChecked properties were exposed publicly.
 - Charts data points API was extended.
 - Implemented basic support for rendering fonts with legacy Arabic encodings.

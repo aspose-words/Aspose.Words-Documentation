@@ -33,7 +33,7 @@ The missing features will be added in future releases.
 - The current release does not support Metered license.
 - The current release does not support a multipage TIFF format.
 - The current release does not support LINQ and Reporting features.
-- The current release has limited support for database features - C++ does not have common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ does not have common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
 ## Full List of Issues Covering all Changes in this Release

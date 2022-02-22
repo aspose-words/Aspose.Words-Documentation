@@ -26,7 +26,7 @@ Changing the visual report layout is very simple. Just use Microsoft Word to cha
 
 The report template also specifies where to find the [data source definition](/words/sharepoint/linking-report-template-with-report-definition/). In Aspose.Words for SharePoint, the data source definition is a separate XML file, which describes database connections and queries to retrieve data. Currently the following data sources are supported:
 
-- [SQL queries from data sources supported by OLE DB data providers. For Microsoft SQL Server you can use .Net SQL data provider](/words/sharepoint/sqlquery-element/).
+- [SQL queries from data sources supported by OLE DB data providers. For Microsoft SQL Server you can use .NET SQL data provider](/words/sharepoint/sqlquery-element/).
 - [SharePoint lists via CAML queries](/words/sharepoint/splistquery-element/).
 - [XML data files located in a SharePoint document library](/words/sharepoint/spxmlquery-element/).
 

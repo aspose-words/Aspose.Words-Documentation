@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 22.1](https://www.nug
 
 ## Major Features
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Implemented rendering into PDF with PDF/UA-1 compliance. This option assumes compliance with document special accessibility requirements.
 - Improved rendering of operators in MathML formulas.
@@ -31,7 +31,7 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 - The current release does not support LINQ and Reporting features.
 - The current release does not support OpenGL 3D Shapes rendering.
 - The current release does not support loading PDF documents.
-- The current release has limited support for database features - C++ doesn't have common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ doesn't have common API for DB like .NET System.Data.
 - The current release supports Microsoft Visual C++ version 2017 or higher.
 - The current release supports GCC 6.3 or higher and Clang 3.9.1 or higher on Linux and only for the x86_x64 platform.
 - The current release supports macOS Big Sur or later (11.5+) for 64-bit Intel Mac platform.
@@ -74,7 +74,7 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 | WORDSNET-20766 | Structure element issues after DOCX to PDF conversion | Bug |
 | WORDSNET-22919 | Word table formatting issue using Customer XML data | Bug |
 | WORDSNET-23220 | The paragraph is missing when using WordOpenXML | Bug |
-| WORDSNET-22660 | Compile Time error when using Aspose Words for .Net in C++/CLI project | Bug |
+| WORDSNET-22660 | Compile Time error when using Aspose Words for .NET in C++/CLI project | Bug |
 | WORDSNET-23226 | Incorrect size and position of the minus sign | Bug |
 | WORDSNET-23229 | Fix minor rendering issue | Bug |
 | WORDSNET-22526 | Unwanted styles appear during DOTX to DOCX conversion | Bug |

@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for C++ 19.10](https://www.nu
 This is a regular monthly release, we continue to add features from Aspose.Words for .Net.
 
 - We have moved common C++ dependencies into a separate package. It makes possible to use several Aspose products in the same project.
-- We have reworked rendering engine, it should improve the quality and stability of rendering. Now Aspose.Words for C++ uses the same Skia-based rendering engine as Aspose.Words for .Net Standard.
+- We have reworked rendering engine, it should improve the quality and stability of rendering. Now Aspose.Words for C++ uses the same Skia-based rendering engine as Aspose.Words for .NET Standard.
 
 ## Limitations and API Differences
 
@@ -31,7 +31,7 @@ The missing features will be added in future releases.
 - The current release doesn't support Metered license.
 - The current release doesn't support a multipage TIFF format.
 - The current release doesn't support LINQ and Reporting features.
-- The current release has limited support for database features - C++ doesn't have common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ doesn't have common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
 ## Full List of Issues Covering all Changes in this Release

@@ -101,7 +101,7 @@ There are 90 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-21619 | Japanese font is incorrectly rendered in output PDF | Bug |
 | WORDSNET-21611 | Document.Compare throws System.NullReferenceException | Bug |
 | WORDSNET-21627 | Aspose.Words generates PDF document with incorrect compliance level | Bug |
-| WORDSNET-21765 | Test fails for .Net Framework 2.0 | Bug |
+| WORDSNET-21765 | Test fails for .NET Framework 2.0 | Bug |
 | WORDSNET-21641 | System.ArgumentOutOfRangeException occurs upon Word to PDF conversion | Bug |
 | WORDSNET-21194 | Consider ignoring certain hyperlinks with special URI schemas when   loading CHM documents | Bug |
 | WORDSNET-18968 | Inserting HTML lists causes empty list entry | Bug |
