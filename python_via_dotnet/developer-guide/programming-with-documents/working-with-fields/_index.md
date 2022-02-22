@@ -2,7 +2,7 @@
 title: Working with Fields in Python
 articleTitle: Working with Fields
 linktitle: Working with Fields
-description: "Learn how to work with fields in a documents using python."
+description: "How to work with fields in a documents using python."
 type: docs
 weight: 170
 url: /python-net/working-with-fields/
