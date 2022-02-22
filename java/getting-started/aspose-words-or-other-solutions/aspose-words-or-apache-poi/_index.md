@@ -2,7 +2,7 @@
 title: Aspose.Words or Apache POI – Aspose.Words for Java
 articleTitle: Aspose.Words or Apache POI
 linktitle: Aspose.Words or Apache POI
-description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than POI."
+description: "Perform a large number of tasks with documents faster and more conveniently than POI."
 type: docs
 weight: 30
 url: /java/aspose-words-java-for-apache-poi/

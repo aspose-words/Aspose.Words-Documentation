@@ -2,7 +2,7 @@
 title: About Reporting in Aspose.Words for SharePoint - Aspose.Words for SharePoint
 articleTitle: About Reporting in Aspose.Words for SharePoint
 linktitle: About Reporting in Aspose.Words for SharePoint
-description: "This page describes basic principles of the Reporting in the Aspose.Words for SharePoint."
+description: "Basic principles of the Reporting in the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/about-reporting-in-aspose-words-for-sharepoint/

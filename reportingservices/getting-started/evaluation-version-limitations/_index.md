@@ -2,7 +2,7 @@
 title: Evaluation Version Limitations - Aspose.Words for Reporting Services
 articleTitle: Evaluation Version Limitations
 linktitle: Evaluation Version Limitations
-description: "This page describes evaluation version limitations of the Aspose.Words for Reporting Services."
+description: "Evaluation version limitations of the Aspose.Words for Reporting Services."
 type: docs
 weight: 60
 url: /reportingservices/evaluation-version-limitations/

@@ -2,7 +2,7 @@
 title: Integrate with Microsoft Report Viewer in Local Mode - Aspose.Words for Reporting Services
 articleTitle: Integrate with Microsoft Report Viewer in Local Mode
 linktitle: Integrate with Microsoft Report Viewer in Local Mode
-description: "This page describes how to render reports using built-in engine of the report viewer and Aspose.Words for Reporting Services library."
+description: "How to render reports using built-in engine of the report viewer and Aspose.Words for Reporting Services library."
 type: docs
 weight: 40
 url: /reportingservices/integrate-with-microsoft-report-viewer-in-local-mode/

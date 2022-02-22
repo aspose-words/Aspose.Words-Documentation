@@ -2,7 +2,7 @@
 title: System Requirements - Aspose.Words for SharePoint
 articleTitle: System Requirements
 linktitle: System Requirements
-description: "This page describes system requirements for the Aspose.Words for SharePoint."
+description: "System requirements for the Aspose.Words for SharePoint."
 type: docs
 weight: 10
 url: /sharepoint/system-requirements/

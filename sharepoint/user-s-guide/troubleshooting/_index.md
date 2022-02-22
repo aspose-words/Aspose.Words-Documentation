@@ -2,7 +2,7 @@
 title: Troubleshooting - Aspose.Words for SharePoint
 articleTitle: Troubleshooting
 linktitle: Troubleshooting
-description: "This page describes possible way to find more details in case of issues which may occur while using Aspose.Words for SharePoint."
+description: "Possible way to find more details in case of issues which may occur while using Aspose.Words for SharePoint."
 type: docs
 weight: 40
 url: /sharepoint/troubleshooting/

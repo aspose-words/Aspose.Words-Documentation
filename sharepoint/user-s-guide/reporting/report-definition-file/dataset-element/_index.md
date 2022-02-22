@@ -2,7 +2,7 @@
 title: DataSet Element - Aspose.Words for SharePoint
 articleTitle: DataSet Element
 linktitle: DataSet Element
-description: "This page describes DataSet element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
+description: "DataSet element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 40
 url: /sharepoint/dataset-element/

@@ -4,7 +4,7 @@ articleTitle: Save a Document
 linktitle: Save a Document
 aliases: [/python/saving-a-document/]
 type: docs
-description: "Aspose.Words for Python via .NET enables you to save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
+description: "Save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
 keywords: "save a document python, save a document to file python, save a document to stream python, save a document Aspose python, save formats supported by Aspose.Words python"
 weight: 20
 url: /python-net/save-a-document/

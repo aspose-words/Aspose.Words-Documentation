@@ -2,7 +2,7 @@
 title: Detect File Format and Check Format Compatibility in C#
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility
-description: "Aspose.Words for .NET enables you to determine the file format if you are not sure what the actual content of the file is, or to check the format compatibility. This allows to avoid possible exceptions."
+description: "Avoid possible exceptions."
 type: docs
 weight: 20
 url: /net/detect-file-format-and-check-format-compatibility/

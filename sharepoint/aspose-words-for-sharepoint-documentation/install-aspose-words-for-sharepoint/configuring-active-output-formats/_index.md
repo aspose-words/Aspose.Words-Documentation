@@ -2,7 +2,7 @@
 title: Configuring Active Output Formats - Aspose.Words for SharePoint
 articleTitle: Configuring Active Output Formats
 linktitle: Configuring Active Output Formats
-description: "This page describes how to modify list of output formats for the Aspose.Words for SharePoint."
+description: "How to modify list of output formats for the Aspose.Words for SharePoint."
 type: docs
 weight: 70
 url: /sharepoint/configuring-active-output-formats/
