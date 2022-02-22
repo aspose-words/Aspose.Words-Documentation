@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supported Document Formats – Aspose.Words for .NET
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats

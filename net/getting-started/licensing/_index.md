@@ -1,10 +1,10 @@
-﻿---
+---
 title: Licensing and Subscription – Aspose.Words for .NET
 articleTitle: Licensing and Subscription
 linktitle: Licensing and Subscription
 description: "Aspose.Words for .NET provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation using Licensing and Subscription policies."
 type: docs
-weight: 80
+weight: 55
 url: /net/licensing/
 ---
 

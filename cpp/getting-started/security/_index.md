@@ -1,10 +1,10 @@
-﻿---
+---
 title: Security Notes – Aspose.Words for С++
 articleTitle: Security Notes
 linktitle: Security Notes
 type: docs
 description: "Aspose.Words for C++ recognizes and adheres to common security standards to ensure a high level of data security. Look at possible security issues and recommendations on how to avoid them."
-weight: 50
+weight: 80
 url: /cpp/security/
 ---
 

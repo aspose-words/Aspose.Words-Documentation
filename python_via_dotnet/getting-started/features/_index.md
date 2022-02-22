@@ -1,7 +1,7 @@
-﻿---
+---
 title: Features – Aspose.Words for Python via .NET
-articleTitle: Features
-linktitle: Features
+articleTitle: Supported Features
+linktitle: Supported Features
 description: "Aspose.Words for Python via .NET provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
 weight: 30

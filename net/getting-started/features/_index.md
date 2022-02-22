@@ -1,10 +1,10 @@
 ---
 title: Features – Aspose.Words for .NET
-articleTitle: Features
-linktitle: Features
+articleTitle: Supported Features
+linktitle: Supported Features
 description: "Aspose.Words for .NET provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."
 type: docs
-weight: 30
+weight: 40
 url: /net/features/
 aliases:
  - /net/feature-overview/
@@ -19,14 +19,14 @@ Aspose is committed to delivering the most complete and accurate implementations
 
 The tables below summarize and compare the availability of Aspose.Words for .NET features and provide links to detailed feature descriptions.
 
-## Supported Platforms
+## Platforms Overview
 
 The platforms Aspose.Words for .NET can be used with are listed below. If you need support for more platforms, look for the "twin brother" product Aspose.Words for Java.
 
 |Feature|Description|
 | :- | :- |
 |[.NET Framework](/words/net/supported-platforms/#net-framework)|Use Aspose.Words for .NET to build ASP.NET, Web Services, WinForms or any other type of application for any .NET Framework versions 2.0 or later including Client Profile versions. Full support for 32-bit and 64-bit.|
-|[.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20)|The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0.|
+|[.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20)|The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0/2.1/2.2/3.0/3.1. The latest version of Aspose.Words API also supports .NET 5.0 and .NET 6.0.|
 |[Xamarin.Android](/words/net/supported-platforms/#xamarinandroid)|Use Aspose.Words for .NET in your native Android applications.|
 |[Xamarin.iOS](/words/net/supported-platforms/#xamarinios)|Use Aspose.Words for .NET in your native iOS applications.|
 |[Xamarin.Mac](/words/net/supported-platforms/#xamarinmac)|Use Aspose.Words for .NET in your native Mac applications.|
