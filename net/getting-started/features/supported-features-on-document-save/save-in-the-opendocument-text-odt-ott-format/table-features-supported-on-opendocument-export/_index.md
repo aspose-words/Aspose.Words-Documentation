@@ -2,7 +2,7 @@
 title: Table Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on OpenDocument Export
 linktitle: Table Features Supported on OpenDocument Export
-description: "Aspose.Words for .NET allows you to work with table features supported when saving to OpenDocument Text format."
+description: "Work with table features supported when saving to OpenDocument Text format."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-opendocument-export/

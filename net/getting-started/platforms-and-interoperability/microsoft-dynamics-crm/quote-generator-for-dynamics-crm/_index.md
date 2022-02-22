@@ -28,7 +28,7 @@ This add on will work with all versions of **Microsoft Dynamics CRM 2013 and 201
 
 ### System Requirements
 
-In order to install and use Aspose .Net Quote Generator for Microsoft Dynamics CRM you need to have one of the following CRM version installed
+In order to install and use Aspose .NET Quote Generator for Microsoft Dynamics CRM you need to have one of the following CRM version installed
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
@@ -93,7 +93,7 @@ Please check [the video](https://www.youtube.com/watch?v=mngscvhHWHw) below to s
 
 We offer free support. Anyone who uses our product, whether they have bought them or are using an evaluation, deserves our full attention and respect.
 
-You can log any issues or suggestions related to Aspose .Net Quote Generator using any of the following platforms:
+You can log any issues or suggestions related to Aspose .NET Quote Generator using any of the following platforms:
 
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose%20.NET%20Quote%20Generator)
 

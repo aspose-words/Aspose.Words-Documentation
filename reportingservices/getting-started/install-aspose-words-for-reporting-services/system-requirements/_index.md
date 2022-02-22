@@ -2,7 +2,7 @@
 title: System Requirements - Aspose.Words for Reporting Services
 articleTitle: System Requirements
 linktitle: System Requirements
-description: "This page describes system requirements for the Aspose.Words for Reporting Services."
+description: "System requirements for the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/system-requirements/

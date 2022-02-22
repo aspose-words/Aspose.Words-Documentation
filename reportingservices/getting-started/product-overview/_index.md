@@ -2,7 +2,7 @@
 title: Product Overview - Aspose.Words for Reporting Services
 articleTitle: Product Overview
 linktitle: Product Overview
-description: "This page describes list of supported components and common overview of the Aspose.Words for Reporting Services."
+description: "List of supported components and common overview of the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/product-overview/

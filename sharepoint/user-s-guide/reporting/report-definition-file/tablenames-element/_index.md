@@ -2,7 +2,7 @@
 title: TableNames Element - Aspose.Words for SharePoint
 articleTitle: TableNames Element
 linktitle: TableNames Element
-description: "This page describes TableNames element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
+description: "TableNames element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 120
 url: /sharepoint/tablenames-element/

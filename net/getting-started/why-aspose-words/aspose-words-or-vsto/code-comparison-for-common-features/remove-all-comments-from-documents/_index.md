@@ -2,7 +2,7 @@
 title: Remove All Comments from Documents – Aspose.Words for .NET
 articleTitle: Remove All Comments from Documents
 linktitle: Remove All Comments from Documents
-description: "Aspose.Words for .NET allows you to remove all comments from a document easily and fast instead of using VSTO."
+description: "Remove all comments from a document easily and fast instead of using VSTO."
 type: docs
 weight: 130
 url: /net/remove-all-comments-from-documents/

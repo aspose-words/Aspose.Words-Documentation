@@ -2,7 +2,7 @@
 title: Template Syntax in C#
 articleTitle: Template Syntax
 linktitle: Template Syntax
-description: "Learn how to create a template for LINQ Reporting Engine to build a report C#."
+description: "How to create a template for LINQ Reporting Engine to build a report C#."
 type: docs
 weight: 20
 url: /net/template-syntax/

@@ -2,7 +2,7 @@
 title: SqlQuery Element - Aspose.Words for SharePoint
 articleTitle: SqlQuery Element
 linktitle: SqlQuery Element
-description: "This page describes SqlQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
+description: "SqlQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 110
 url: /sharepoint/sqlquery-element/

@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 19.7](https://www.nug
 
 ## Major Features
 
-We have reworked culture related subsystem of the library and have made it more similar to Aspose.Words for .Net and .Net in general - number and date formatting and parsing, conversion between different encoding, etc.
+We have reworked culture related subsystem of the library and have made it more similar to Aspose.Words for .NET and .NET in general - number and date formatting and parsing, conversion between different encoding, etc.
 
 ## Limitations and API Differences
 

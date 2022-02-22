@@ -2,7 +2,7 @@
 title: Aspose.Words Features Missing in VSTO – Aspose.Words for .NET
 articleTitle: Aspose.Words Features Missing in VSTO
 linktitle: Aspose.Words Features Missing in VSTO
-description: "Aspose.Words for .NET allows to perform some operations with documents faster and more conveniently than VSTO. In addition, there are operations that are not supported by VSTO."
+description: "Perform some operations with documents faster and more conveniently than VSTO. In addition, there are operations that are not supported by VSTO."
 type: docs
 weight: 20
 url: /net/missing-features-in-vsto/

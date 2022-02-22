@@ -2,7 +2,7 @@
 title: Working with Ole Objects and Online Video in C#
 articleTitle: Working with Ole Objects and Online Video
 linktitle: Working with Ole Objects and Online Video
-description: "Create and modify OLE embedding in your document using Aspose.Words for .Net."
+description: "Create and modify OLE embedding in your document using Aspose.Words for .NET."
 type: docs
 weight: 160
 url: /net/working-with-ole-objects-and-online-video/

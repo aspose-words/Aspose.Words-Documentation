@@ -28,7 +28,7 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 |Key|Summary|Category|
 | :- | :- | :- |
 | WORDSNET-18317 | The gradient fill support for WordArt shapes | New Feature |
-| WORDSJAVA-2507 | CultureInfoGenerator should read .Net CultureInfo.TextInfo.ANSICodePage. | New Feature |
+| WORDSJAVA-2507 | CultureInfoGenerator should read .NET CultureInfo.TextInfo.ANSICodePage. | New Feature |
 | WORDSJAVA-2647 | Share License fixes with other Aspose teams. | New Feature |
 | WORDSJAVA-2506 | No content is loaded from a CHM file with ANSICodePage LanguageId. | Bug |
 | WORDSJAVA-2568 | Shape.getShapeRenderer is executed indefinitely | Bug |

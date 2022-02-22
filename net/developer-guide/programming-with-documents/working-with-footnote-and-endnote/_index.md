@@ -2,7 +2,7 @@
 title: Working with Footnote and Endnote in C#
 articleTitle: Working with Footnote and Endnote
 linktitle: Working with Footnote and Endnote
-description: "How to manipulate with footnotes and endnotes using Aspose.Words for .Net."
+description: "How to manipulate with footnotes and endnotes using Aspose.Words for .NET."
 type: docs
 weight: 80
 url: /net/working-with-footnote-and-endnote/

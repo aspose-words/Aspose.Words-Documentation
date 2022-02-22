@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for SharePoint 2.9.0](https:/
 
 Aspose.Words for SharePoint 2.9 Release Notes 
 
-This release includes the latest improvements and fixes made in Aspose.Words for .Net. The most notable are:
+This release includes the latest improvements and fixes made in Aspose.Words for .NET. The most notable are:
 
 • Improvements in style handing in Tables, Format Revisions
 

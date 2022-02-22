@@ -2,7 +2,7 @@
 title: Workflow support - Aspose.Words for SharePoint
 articleTitle: Workflow support
 linktitle: Workflow support
-description: "This page describes workflow features of the Aspose.Words for SharePoint."
+description: "Workflow features of the Aspose.Words for SharePoint."
 type: docs
 weight: 40
 url: /sharepoint/workflow-support/

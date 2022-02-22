@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 20.3](https://www.nug
 
 ## Major Features
 
-This is a regular monthly release, we continue to add features from Aspose.Words for .Net.
+This is a regular monthly release, we continue to add features from Aspose.Words for .NET.
 
 ## Limitations and API Differences
 
@@ -28,7 +28,7 @@ The missing features will be added in future releases.
 - The current release does not support the Metered license.
 - The current release does not support a multipage TIFF format.
 - The current release does not support LINQ and Reporting features.
-- The current release has limited support for database features - C++ does not have a common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ does not have a common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
 ## Full List of Issues Covering all Changes in this Release

@@ -21,7 +21,7 @@ Major features of this Addon are:
 
 ### System Requirements
 
-In order to install and use Aspose .Net Document Generator for Microsoft Dynamics CRM, you need to have one of the following CRM version installed
+In order to install and use Aspose .NET Document Generator for Microsoft Dynamics CRM, you need to have one of the following CRM version installed
 
 - Microsoft Dynamics CRM 2013.
 - Microsoft Dynamics CRM 2015.
@@ -87,7 +87,7 @@ You can download Aspose .NET Document Generator for CRM from one of the followin
 
 ### How to Uninstall
 
-- Go To Solution and select Aspose .Net Document Generator. 
+- Go To Solution and select Aspose .NET Document Generator. 
 
 ![document-generator-for-dynamics-crm-8](8)
 

@@ -2,7 +2,7 @@
 title: Insert Before and After Ranges – Aspose.Words for Java
 articleTitle: Insert Before and After Ranges
 linktitle: Insert Before and After Ranges
-description: "Aspose.Words for Java allows you to insert before and after ranges within a document easily and fast instead of using Apache POI."
+description: "Insert before and after ranges within a document easily and fast instead of using Apache POI."
 type: docs
 weight: 30
 url: /java/insert-before-and-after-ranges/

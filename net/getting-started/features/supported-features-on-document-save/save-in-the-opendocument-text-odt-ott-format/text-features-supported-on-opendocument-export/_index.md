@@ -2,7 +2,7 @@
 title: Text Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Text Features Supported on OpenDocument Export
 linktitle: Text Features Supported on OpenDocument Export
-description: "Aspose.Words for .NET allows you to work with text features supported when saving to OpenDocument Text format."
+description: "Work with text features supported when saving to OpenDocument Text format."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-opendocument-export/

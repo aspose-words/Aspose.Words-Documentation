@@ -2,7 +2,7 @@
 title: Annotation Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Annotation Features Supported on DOCX Export
 linktitle: Annotation Features Supported on DOCX Export
-description: "Aspose.Words for Java allows you to work with annotation features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Work with annotation features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-docx-export/

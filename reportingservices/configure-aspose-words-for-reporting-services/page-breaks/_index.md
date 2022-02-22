@@ -2,7 +2,7 @@
 title: Page Breaks - Aspose.Words for Reporting Services
 articleTitle: Page Breaks
 linktitle: Page Breaks
-description: "This page describes Page Breaks setting of the Aspose.Words for Reporting Services."
+description: "Page Breaks setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 30
 url: /reportingservices/page-breaks/

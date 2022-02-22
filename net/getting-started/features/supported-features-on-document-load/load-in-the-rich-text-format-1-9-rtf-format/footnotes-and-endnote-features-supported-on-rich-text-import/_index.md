@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on Rich Text Import
 linktitle: Footnotes and Endnote Features Supported on Rich Text Import
-description: "Aspose.Words for .NET allows you to work with footnotes and endnote features supported on Rich Text import."
+description: "Work with footnotes and endnote features supported on Rich Text import."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-rich-text-import/

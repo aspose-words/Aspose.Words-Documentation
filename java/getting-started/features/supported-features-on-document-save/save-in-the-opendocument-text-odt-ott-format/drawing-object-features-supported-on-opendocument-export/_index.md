@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on OpenDocument Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on OpenDocument Export
 linktitle: Drawing Object Features Supported on OpenDocument Export
-description: "Aspose.Words for Java allows you to work with drawing features supported when saving to OpenDocument Text format."
+description: "Work with drawing features supported when saving to OpenDocument Text format."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-opendocument-export/

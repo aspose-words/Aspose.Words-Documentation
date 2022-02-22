@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on Print Export – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on Print Export
 linktitle: Paragraph Features Supported on Print Export
-description: "Aspose.Words for Java allows you to work with paragraph features supported when saving to printing device."
+description: "Work with paragraph features supported when saving to printing device."
 type: docs
 weight: 90
 url: /java/paragraph-features-supported-on-print-export/

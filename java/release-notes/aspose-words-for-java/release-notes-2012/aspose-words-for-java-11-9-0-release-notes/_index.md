@@ -34,11 +34,11 @@ For a list of changes to the public API in this release refer to the following a
 |Key |Summary |Category |
 | :- | :- | :- |
 |WORDSJAVA-609 |Short hour DateTime format |Bug |
-|WORDSJAVA-610 |Yet another .Net DateTime custom patterns |Enhancement |
+|WORDSJAVA-610 |Yet another .NET DateTime custom patterns |Enhancement |
 |WORDSJAVA-623 |DateTime.Parse support of locales |Enhancement |
 |WORDSJAVA-624 |DateTime parser support of TimeZones |Enhancement |
 |WORDSJAVA-625 |DateTime parser support of custom formats |Enhancement |
-|WORDSJAVA-640 |automatic import of CultureInfo data from .Net |Enhancement |
+|WORDSJAVA-640 |automatic import of CultureInfo data from .NET |Enhancement |
 |WORDSJAVA-641 |Parse date strings formatted with custom DateTimeFormatInfo |Enhancement |
 |WORDSJAVA-628 |Public API to set ImageColorMode (Grayscale, BlackAndWhite) in ImageSaveOptions. |Feature |
 

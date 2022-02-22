@@ -34,7 +34,7 @@ There are 106 improvements and fixes in this regular monthly release. The most 
 |WORDSJAVA-935 |Wrapped WordArt without coordinates is shifted down. |Bug |
 |WORDSJAVA-941 |Transparent text border became non-transparent. |Bug |
 |WORDSJAVA-943 |XOR obfuscation of documents, too long password. |Bug |
-|WORDSJAVA-937 |Use BouncyCastle for all crypto tasks on .Net and Java. |Enhancement |
+|WORDSJAVA-937 |Use BouncyCastle for all crypto tasks on .NET and Java. |Enhancement |
 |WORDSJAVA-803 |Aspose.Words for Java does not work at Resin 4.0.37 |Exception |
 |WORDSJAVA-906 |Add feature to sign PDF using JKS keystore type |Feature |
 |WORDSJAVA-931 |Performance issue while converting Docx to mhtml |Performance |

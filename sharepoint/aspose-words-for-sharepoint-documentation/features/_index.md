@@ -2,7 +2,7 @@
 title: Features - Aspose.Words for SharePoint
 articleTitle: Features
 linktitle: Features
-description: "This guide describes features details of the Aspose.Words for SharePoint."
+description: "Features details of the Aspose.Words for SharePoint."
 type: docs
 weight: 30
 url: /sharepoint/features/

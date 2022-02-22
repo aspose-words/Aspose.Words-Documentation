@@ -2,7 +2,7 @@
 title: Numbering Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on FlatOPC Import
 linktitle: Numbering Features Supported on FlatOPC Import
-description: "Aspose.Words for .NET allows you to work with numbering features supported on FlatOPC format import."
+description: "Work with numbering features supported on FlatOPC format import."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-flatopc-import/

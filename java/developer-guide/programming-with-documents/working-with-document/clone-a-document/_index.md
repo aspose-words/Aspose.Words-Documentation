@@ -3,7 +3,7 @@ title: Clone a Document in Java
 articleTitle: Clone a Document
 linktitle: Clone a Document
 type: docs
-description: “Aspose.Words for Java allows you to clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned.”
+description: "Clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned."
 weight: 60
 url: /java/clone-a-document/
 aliases: [/java/clone-and-combine-documents/]

@@ -2,7 +2,7 @@
 title: Remove Headers and Footers from a Word Document – Aspose.Words for .NET
 articleTitle: Remove Headers and Footers from a Word Document
 linktitle: Remove Headers and Footers from a Word Document
-description: "Aspose.Words for .NET allows you to remove headers or footers from a word processing document easily and fast instead of using Open XML SDK."
+description: "Remove headers or footers from a word processing document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 70
 url: /net/remove-headers-footers-from-word-processing-document/

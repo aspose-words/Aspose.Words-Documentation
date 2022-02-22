@@ -2,7 +2,7 @@
 title: Credentials Element - Aspose.Words for SharePoint
 articleTitle: Credentials Element
 linktitle: Credentials Element
-description: "This page describes Credentials element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
+description: "Credentials element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 90
 url: /sharepoint/credentials-element/

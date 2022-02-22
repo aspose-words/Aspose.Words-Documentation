@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 19.11](https://www.nu
 
 ## Major Features
 
-This is a regular monthly release, we continue to add features from Aspose.Words for .Net.
+This is a regular monthly release, we continue to add features from Aspose.Words for .NET.
 
 - Provided an ability to work with Web Extensions, new classes allow to customize elements and attributes that extend the XML vocabulary for Office Add-ins representation.
 - Added an ability to customize the formatting of the horizontal rule shape.
@@ -34,7 +34,7 @@ The missing features will be added in future releases.
 - The current release does not support Metered license.
 - The current release does not support a multipage TIFF format.
 - The current release does not support LINQ and Reporting features.
-- The current release has limited support for database features - C++ does not have common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ does not have common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
 ## Full List of Issues Covering all Changes in this Release

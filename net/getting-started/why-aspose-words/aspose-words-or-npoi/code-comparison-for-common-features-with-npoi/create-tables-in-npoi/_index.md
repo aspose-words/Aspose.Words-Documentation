@@ -2,7 +2,7 @@
 title: Create Tables in NPOI – Aspose.Words for .NET
 articleTitle: Create Tables in NPOI
 linktitle: Create Tables in NPOI
-description: "Aspose.Words for .NET allows you to create a table in a document easily and fast instead of using NPOI."
+description: "Create a table in a document easily and fast instead of using NPOI."
 type: docs
 weight: 10
 url: /net/create-tables-in-npoi/

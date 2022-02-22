@@ -40,7 +40,7 @@ Please make sure that the Title of the Attachment contains the extension and nam
 
 ![using-and-configuring-crm-document-generator-5](5)
 
-- Select "Aspose .Net Document Generator" and click OK. 
+- Select "Aspose .NET Document Generator" and click OK. 
 
 ![using-and-configuring-crm-document-generator-6](6)
 

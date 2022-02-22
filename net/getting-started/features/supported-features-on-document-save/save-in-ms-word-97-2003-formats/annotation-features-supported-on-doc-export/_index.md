@@ -2,7 +2,7 @@
 title: Annotation Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on DOC Export
 linktitle: Annotation Features Supported on DOC Export
-description: "Aspose.Words for .NET allows you to work with annotation features supported when saving to DOC – Word 97-2003 format."
+description: "Work with annotation features supported when saving to DOC – Word 97-2003 format."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-doc-export/

@@ -2,7 +2,7 @@
 title: Document Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Document Features Supported on DOC Import
 linktitle: Document Features Supported on DOC Import
-description: "Aspose.Words for Java allows you to work with document features supported on DOC – Word 97-2003 format import."
+description: "Work with document features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-doc-import/

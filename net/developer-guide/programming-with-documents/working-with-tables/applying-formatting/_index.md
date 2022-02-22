@@ -2,7 +2,7 @@
 title: Applying Formatting in C#
 articleTitle: Applying Formatting
 linktitle: Applying Formatting
-description: "Table formatting in details. Using Aspose.Words for .Net to format every part of table."
+description: "Table formatting in details. Using Aspose.Words for .NET to format every part of table."
 type: docs
 weight: 20
 url: /net/applying-formatting/

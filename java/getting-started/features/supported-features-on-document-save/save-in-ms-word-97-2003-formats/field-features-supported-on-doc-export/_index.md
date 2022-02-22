@@ -2,7 +2,7 @@
 title: Field Features Supported on DOC Export – Aspose.Words for Java
 articleTitle: Field Features Supported on DOC Export
 linktitle: Field Features Supported on DOC Export
-description: "Aspose.Words for Java allows you to work with field features supported when saving to DOC – Word 97-2003 format."
+description: "Work with field features supported when saving to DOC – Word 97-2003 format."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-doc-export/

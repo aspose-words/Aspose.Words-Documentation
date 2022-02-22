@@ -2,7 +2,7 @@
 title: License Aspose.Words for Reporting Services - Aspose.Words for Reporting Services
 articleTitle: License Aspose.Words for Reporting Services
 linktitle: License Aspose.Words for Reporting Services
-description: "This page describes licensing details of the Aspose.Words for Reporting Services."
+description: "Licensing details of the Aspose.Words for Reporting Services."
 type: docs
 weight: 50
 url: /reportingservices/license-aspose-words-for-reporting-services/

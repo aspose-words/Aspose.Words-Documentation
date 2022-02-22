@@ -2,7 +2,7 @@
 title: Table Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Table Features Supported on WordprocessingML Import
 linktitle: Table Features Supported on WordprocessingML Import
-description: "Aspose.Words for Java allows you to work with table features supported on XML – Word 2003 WordprocessingML format import."
+description: "Work with table features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 110
 url: /java/table-features-supported-on-wordprocessingml-import/

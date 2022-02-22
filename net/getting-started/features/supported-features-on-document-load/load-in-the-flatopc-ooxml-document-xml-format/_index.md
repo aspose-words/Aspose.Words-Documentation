@@ -2,7 +2,7 @@
 title: Load in the FlatOPC OOXML Document (.XML) Format – Aspose.Words for .NET
 articleTitle: Load in the FlatOPC OOXML Document (.XML) Format
 linktitle: Load in the FlatOPC OOXML Document (.XML) Format
-description: "Aspose.Words for .NET allows you to work with different features supported on FlatOPC format import."
+description: "Work with different features supported on FlatOPC format import."
 type: docs
 weight: 20
 url: /net/load-in-the-flatopc-ooxml-document-xml-format/

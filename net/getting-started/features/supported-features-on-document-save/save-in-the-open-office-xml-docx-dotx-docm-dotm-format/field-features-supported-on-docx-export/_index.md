@@ -2,7 +2,7 @@
 title: Field Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Field Features Supported on DOCX Export
 linktitle: Field Features Supported on DOCX Export
-description: "Aspose.Words for .NET allows you to work with field features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Work with field features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-docx-export/

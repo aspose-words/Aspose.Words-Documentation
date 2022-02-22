@@ -2,7 +2,7 @@
 title: Document Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Document Features Supported on DOCX Import
 linktitle: Document Features Supported on DOCX Import
-description: "Aspose.Words for .NET allows you to work with document features supported on Open Office XML 2007 and 2010 Format import."
+description: "Work with document features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-docx-import/

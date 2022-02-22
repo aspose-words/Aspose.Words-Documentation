@@ -58,7 +58,7 @@ Full List of Issues Covering all Changes in this Release 
 |WORDSJAVA-1893|Java documentation for GraphicsQualityOptions settings|Enhancement|
 |WORDSJAVA-1894|"Bad cref:" warning in public API due simplified see tag|Enhancement|
 |WORDSJAVA-1899|Missing javadoc for method with array in signature|Enhancement|
-|WORDSJAVA-1902|Links to .Net system members in Java's javadoc|Enhancement|
+|WORDSJAVA-1902|Links to .NET system members in Java's javadoc|Enhancement|
 |WORDSJAVA-1736|FIPS compliant version of Bouncy Castle|Feature|
 |WORDSJAVA-1783|Fonts are substituted improperly|Feature|
 |WORDSJAVA-1911|Support 'Conholdate.Total for Java' licensing system|Feature|

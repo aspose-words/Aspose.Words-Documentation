@@ -2,7 +2,7 @@
 title: Document Features Supported on OpenDocument Export – Aspose.Words for Java
 articleTitle: Document Features Supported on OpenDocument Export
 linktitle: Document Features Supported on OpenDocument Export
-description: "Aspose.Words for Java allows you to work with document features supported when saving to OpenDocument Text format."
+description: "Work with document features supported when saving to OpenDocument Text format."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-opendocument-export/

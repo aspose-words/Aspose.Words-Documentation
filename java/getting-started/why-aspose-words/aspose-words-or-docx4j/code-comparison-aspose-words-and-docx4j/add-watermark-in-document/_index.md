@@ -2,7 +2,7 @@
 title: Add Watermark in Document – Aspose.Words for Java
 articleTitle: Add Watermark in Document
 linktitle: Add Watermark in Document
-description: "Aspose.Words for Java allows you to add a watermark into a document easily and fast instead of using docx4j."
+description: "Add a watermark into a document easily and fast instead of using docx4j."
 type: docs
 weight: 20
 url: /java/add-watermark-in-document/
