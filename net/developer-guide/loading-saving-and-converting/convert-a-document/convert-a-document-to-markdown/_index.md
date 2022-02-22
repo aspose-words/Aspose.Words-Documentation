@@ -3,7 +3,7 @@ title: Convert a Document to Markdown in C#
 articleTitle: Convert a Document to Markdown
 linktitle: Convert a Document to Markdown
 type: docs
-description: "Aspose.Words for .NET provides the ability to convert a document in any supported load format to Markdown and vice versa – Aspose.Words also supports most popular save formats. Markdown is easy to work with and can be converted to other formats quite simply."
+description: "Convert a document in any supported load format to Markdown and vice versa – Aspose.Words also supports most popular save formats. Markdown is easy to work with and can be converted to other formats quite simply."
 keywords: how to convert a document to markdown c#
 weight: 40
 url: /net/convert-a-document-to-markdown/
