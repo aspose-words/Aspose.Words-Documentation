@@ -2,7 +2,7 @@
 title: Save in Image Format Overview – Aspose.Words for Java
 articleTitle: Save in Image Format Overview
 linktitle: Save in Image Format Overview
-description: "Aspose.Words for Java allows you to work with different features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Work with different features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 90
 url: /java/save-in-image-format-overview/

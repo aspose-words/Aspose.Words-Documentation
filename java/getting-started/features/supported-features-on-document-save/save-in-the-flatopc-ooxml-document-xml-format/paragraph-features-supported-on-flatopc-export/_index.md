@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on FlatOPC Export
 linktitle: Paragraph Features Supported on FlatOPC Export
-description: "Aspose.Words for Java allows you to work with paragraph features supported when saving to FlatOPC – XML format."
+description: "Work with paragraph features supported when saving to FlatOPC – XML format."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-flatopc-export/

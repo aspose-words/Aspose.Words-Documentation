@@ -2,7 +2,7 @@
 title: Numbering Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on WordprocessingML Import
 linktitle: Numbering Features Supported on WordprocessingML Import
-description: "Aspose.Words for .NET allows you to work with numbering features supported on XML – Word 2003 WordprocessingML format import."
+description: "Work with numbering features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-wordprocessingml-import/

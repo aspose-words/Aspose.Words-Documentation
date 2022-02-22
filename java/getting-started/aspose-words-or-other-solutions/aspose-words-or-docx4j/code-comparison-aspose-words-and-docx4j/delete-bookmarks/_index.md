@@ -2,7 +2,7 @@
 title: Delete Bookmarks – Aspose.Words for Java
 articleTitle: Delete Bookmarks
 linktitle: Delete Bookmarks
-description: "Aspose.Words for Java allows you to delete bookmarks from a document easily and fast instead of using docx4j."
+description: "Delete bookmarks from a document easily and fast instead of using docx4j."
 type: docs
 weight: 20
 url: /java/delete-bookmarks/

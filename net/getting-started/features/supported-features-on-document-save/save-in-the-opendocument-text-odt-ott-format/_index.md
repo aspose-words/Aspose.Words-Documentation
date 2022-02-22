@@ -2,7 +2,7 @@
 title: Save in the OpenDocument Text (.ODT, .OTT) Format – Aspose.Words for .NET
 articleTitle: Save in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Save in the OpenDocument Text (.ODT, .OTT) Format
-description: "Aspose.Words for .NET allows you to work with various features supported when saving to OpenDocument Text format."
+description: "Work with various features supported when saving to OpenDocument Text format."
 type: docs
 weight: 140
 url: /net/save-in-the-opendocument-text-odt-ott-format/

@@ -2,7 +2,7 @@
 title: Field Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Field Features Supported on WordprocessingML Import
 linktitle: Field Features Supported on WordprocessingML Import
-description: "Aspose.Words for Java allows you to work with field features supported on XML – Word 2003 WordprocessingML format import."
+description: "Work with field features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-wordprocessingml-import/

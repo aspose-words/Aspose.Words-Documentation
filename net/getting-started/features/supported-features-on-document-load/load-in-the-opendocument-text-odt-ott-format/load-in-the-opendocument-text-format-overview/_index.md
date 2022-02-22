@@ -2,7 +2,7 @@
 title: Load in the OpenDocument Text Format Overview – Aspose.Words for .NET
 articleTitle: Load in the OpenDocument Text Format Overview
 linktitle: Load in the OpenDocument Text Format Overview
-description: "Aspose.Words for .NET allows you to work with different features supported on OpenDocument Text import."
+description: "Work with different features supported on OpenDocument Text import."
 type: docs
 weight: 70
 url: /net/load-in-the-opendocument-text-format-overview/

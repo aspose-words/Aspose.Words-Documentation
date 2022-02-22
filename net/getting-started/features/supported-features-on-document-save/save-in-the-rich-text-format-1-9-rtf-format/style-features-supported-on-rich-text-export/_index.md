@@ -2,7 +2,7 @@
 title: Style Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on Rich Text Export
 linktitle: Style Features Supported on Rich Text Export
-description: "Aspose.Words for .NET allows you to work with style features supported when saving to Rich Text format."
+description: "Work with style features supported when saving to Rich Text format."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-rich-text-export/

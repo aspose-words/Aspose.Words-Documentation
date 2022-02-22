@@ -2,7 +2,7 @@
 title: Insert Image using docx4j and Aspose.Words – Aspose.Words for Java
 articleTitle: Insert Image using docx4j and Aspose.Words
 linktitle: Insert Image using docx4j and Aspose.Words
-description: "Aspose.Words for Java allows you to add an image into a document easily and fast instead of using docx4j."
+description: "Add an image into a document easily and fast instead of using docx4j."
 type: docs
 weight: 70
 url: /java/insert-image-using-docx4j-and-aspose-words/

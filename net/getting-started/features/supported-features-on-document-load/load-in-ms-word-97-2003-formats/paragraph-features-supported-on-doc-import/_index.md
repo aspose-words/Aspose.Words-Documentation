@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on DOC Import
 linktitle: Paragraph Features Supported on DOC Import
-description: "Aspose.Words for .NET allows you to work with paragraph features supported on DOC – Word 97-2003 format import."
+description: "Work with paragraph features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-doc-import/

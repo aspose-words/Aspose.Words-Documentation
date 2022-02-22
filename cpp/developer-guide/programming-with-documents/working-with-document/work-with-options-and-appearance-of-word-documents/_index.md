@@ -2,7 +2,7 @@
 title: Work with Options and Appearance of Word Documents in C++
 articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents
-description: "Aspose.Words for C++ allows you to control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
+description: "Control the appearance of Word documents taking into account the difference between various Microsoft Word versions."
 type: docs
 weight: 110
 url: /cpp/work-with-word-document-options-and-appearance/

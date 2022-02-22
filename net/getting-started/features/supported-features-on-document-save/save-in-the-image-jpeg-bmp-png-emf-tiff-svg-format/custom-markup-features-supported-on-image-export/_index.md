@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on Image Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on Image Export
 linktitle: Custom Markup Features Supported on Image Export
-description: "Aspose.Words for .NET allows you to work with custom markup features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Work with custom markup features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-image-export/

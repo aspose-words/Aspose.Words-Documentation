@@ -2,7 +2,7 @@
 title: Text Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Text Features Supported on Image Export
 linktitle: Text Features Supported on Image Export
-description: "Aspose.Words for Java allows you to work with text features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Work with text features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-image-export/

@@ -2,7 +2,7 @@
 title: Style Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Style Features Supported on WordprocessingML Import
 linktitle: Style Features Supported on WordprocessingML Import
-description: "Aspose.Words for .NET allows you to work with style features supported on XML – Word 2003 WordprocessingML format import."
+description: "Work with style features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-wordprocessingml-import/

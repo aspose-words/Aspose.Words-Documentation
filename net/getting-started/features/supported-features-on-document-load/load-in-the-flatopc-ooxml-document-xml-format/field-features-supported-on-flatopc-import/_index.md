@@ -2,7 +2,7 @@
 title: Field Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Field Features Supported on FlatOPC Import
 linktitle: Field Features Supported on FlatOPC Import
-description: "Aspose.Words for .NET allows you to work with field features supported on FlatOPC format import."
+description: "Work with field features supported on FlatOPC format import."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-flatopc-import/

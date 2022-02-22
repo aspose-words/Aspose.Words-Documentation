@@ -2,7 +2,7 @@
 title: Load in the Plain Text (.TXT) Format – Aspose.Words for .NET
 articleTitle: Load in the Plain Text (.TXT) Format
 linktitle: Load in the Plain Text (.TXT) Format
-description: "Aspose.Words for .NET allows you to work with various features supported on Plain Text import."
+description: "Work with various features supported on Plain Text import."
 type: docs
 weight: 80
 url: /net/load-in-the-plain-text-txt-format/

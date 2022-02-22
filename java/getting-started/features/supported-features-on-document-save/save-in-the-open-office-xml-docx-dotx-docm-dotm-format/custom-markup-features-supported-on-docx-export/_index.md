@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on DOCX Export
 linktitle: Custom Markup Features Supported on DOCX Export
-description: "Aspose.Words for Java allows you to work with custom markup features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Work with custom markup features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-docx-export/

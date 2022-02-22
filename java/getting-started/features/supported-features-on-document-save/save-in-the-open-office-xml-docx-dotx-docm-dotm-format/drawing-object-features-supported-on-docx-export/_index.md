@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on DOCX Export
 linktitle: Drawing Object Features Supported on DOCX Export
-description: "Aspose.Words for Java allows you to work with drawing features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Work with drawing features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-docx-export/

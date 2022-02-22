@@ -2,7 +2,7 @@
 title: Annotation Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on Rich Text Import
 linktitle: Annotation Features Supported on Rich Text Import
-description: "Aspose.Words for .NET allows you to work with annotation features supported on Rich Text import."
+description: "Work with annotation features supported on Rich Text import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-rich-text-import/

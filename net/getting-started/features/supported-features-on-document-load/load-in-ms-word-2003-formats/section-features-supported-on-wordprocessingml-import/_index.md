@@ -2,7 +2,7 @@
 title: Section Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Section Features Supported on WordprocessingML Import
 linktitle: Section Features Supported on WordprocessingML Import
-description: "Aspose.Words for .NET allows you to work with section features supported on XML – Word 2003 WordprocessingML format import."
+description: "Work with section features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-wordprocessingml-import/

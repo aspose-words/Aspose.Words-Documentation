@@ -2,7 +2,7 @@
 title: Saving a Document as a Multipage TIFF in Java
 articleTitle: Saving a Document as a Multipage TIFF
 linktitle: Saving a Document as a Multipage TIFF
-description: "Aspose.Words for Java allows you to convert a document to a raster image, which is discussed on the example of the TIFF format. To determine how TIFF is displayed you need to specify additional options: resolution, number of pages, image binarization, etc."
+description: "Convert a document to a raster image, which is discussed on the example of the TIFF format. To determine how TIFF is displayed you need to specify additional options: resolution, number of pages, image binarization, etc."
 type: docs
 weight: 30
 url: /java/saving-a-document-as-a-multipage-tiff/

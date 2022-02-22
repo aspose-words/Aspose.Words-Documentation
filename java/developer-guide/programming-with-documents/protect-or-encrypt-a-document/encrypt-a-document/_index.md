@@ -2,7 +2,7 @@
 title: Encrypt a Document in Java
 articleTitle: Encrypt a Document
 linktitle: Encrypt a Document
-description: "Aspose.Words for Java allows you to encrypt your document using appropriate encryption algorithms for specific document formats."
+description: "Encrypt your document using appropriate encryption algorithms for specific document formats."
 type: docs
 weight: 20
 url: /java/encrypt-a-document/

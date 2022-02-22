@@ -2,7 +2,7 @@
 title: Open a Document Read-Only in C++
 articleTitle: Open a Document Read-Only
 linktitle: Open a Document Read-Only
-description: "Aspose.Words for С++ allows you to make your document read-only so that the content can be copied or read, but not modified."
+description: "Make your document read-only so that the content can be copied or read, but not modified."
 type: docs
 weight: 10
 url: /cpp/open-a-document-read-only/

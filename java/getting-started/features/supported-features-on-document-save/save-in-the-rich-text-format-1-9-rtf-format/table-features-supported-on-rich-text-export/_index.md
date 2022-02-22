@@ -2,7 +2,7 @@
 title: Table Features Supported on Rich Text Export – Aspose.Words for Java
 articleTitle: Table Features Supported on Rich Text Export
 linktitle: Table Features Supported on Rich Text Export
-description: "Aspose.Words for Java allows you to work with table features supported when saving to Rich Text format."
+description: "Work with table features supported when saving to Rich Text format."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-rich-text-export/

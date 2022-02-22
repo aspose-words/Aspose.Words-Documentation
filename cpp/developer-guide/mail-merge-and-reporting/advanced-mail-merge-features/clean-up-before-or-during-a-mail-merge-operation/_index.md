@@ -3,7 +3,7 @@ title: Clean Up Before or During a Mail Merge Operation in C++
 articleTitle: Clean Up Before or During a Mail Merge Operation
 linktitle: Clean Up Before or During a Mail Merge Operation
 type: docs
-description: "Aspose.Words for C++ allows you to apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation."
+description: "Apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation."
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /cpp/clean-up-before-or-during-mail-merge/

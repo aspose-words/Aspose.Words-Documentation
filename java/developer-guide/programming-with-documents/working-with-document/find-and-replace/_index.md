@@ -3,7 +3,7 @@ title: Find and Replace in Java
 articleTitle: Find and Replace
 linktitle: Find and Replace
 type: docs
-description: "Aspose.Words for Java allows you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
+description: "Find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
 weight: 85
 url: /java/find-and-replace/
 ---

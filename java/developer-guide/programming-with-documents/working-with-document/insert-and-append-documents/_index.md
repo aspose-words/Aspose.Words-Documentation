@@ -2,7 +2,7 @@
 title: Insert and Append Documents in Java
 articleTitle: Insert and Append Documents
 linktitle: Insert and Append Documents
-description: "Aspose.Words for Java allows you to combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
+description: "Combine documents into one: insert or append a document into a new or existing one using find and replace, merge field, bookmark, or simply at the document end."
 type: docs
 weight: 70
 url: /java/insert-and-append-documents/

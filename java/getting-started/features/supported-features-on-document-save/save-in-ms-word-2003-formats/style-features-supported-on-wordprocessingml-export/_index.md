@@ -2,7 +2,7 @@
 title: Style Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Style Features Supported on WordprocessingML Export
 linktitle: Style Features Supported on WordprocessingML Export
-description: "Aspose.Words for Java allows you to work with style features supported when saving to XML – Word 2003 WordprocessingML format."
+description: "Work with style features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-wordprocessingml-export/

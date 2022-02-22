@@ -2,7 +2,7 @@
 title: Split a Document in C#
 articleTitle: Split a Document
 linktitle: Split a Document
-description: "Aspose.Words for .NET allows you to split a document into several files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
+description: "Split a document into several files. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."
 type: docs
 weight: 80
 url: /net/split-a-document/

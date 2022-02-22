@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on DOCX Import
 linktitle: Paragraph Features Supported on DOCX Import
-description: "Aspose.Words for Java allows you to work with paragraph features supported on Open Office XML 2007 and 2010 Format import."
+description: "Work with paragraph features supported on Open Office XML 2007 and 2010 Format import."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-docx-import/

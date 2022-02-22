@@ -3,7 +3,7 @@ title: Find and Replace in Python
 articleTitle: Find and Replace
 linktitle: Find and Replace
 type: docs
-description: "Aspose.Words for Python via .NET allows you to find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
+description: "Find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
 weight: 85
 url: /python-net/find-and-replace/
 aliases: [/python/find-and-replace/]

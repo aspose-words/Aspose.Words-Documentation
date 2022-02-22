@@ -2,7 +2,7 @@
 title: Annotation Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on HTML Export
 linktitle: Annotation Features Supported on HTML Export
-description: "Aspose.Words for .NET allows you to work with annotation features supported when saving to HTML-based format."
+description: "Work with annotation features supported when saving to HTML-based format."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-html-export/

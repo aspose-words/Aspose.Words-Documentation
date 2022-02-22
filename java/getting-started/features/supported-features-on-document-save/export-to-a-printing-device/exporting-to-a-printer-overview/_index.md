@@ -2,7 +2,7 @@
 title: Exporting to a Printer Overview – Aspose.Words for Java
 articleTitle: Exporting to a Printer Overview
 linktitle: Exporting to a Printer Overview
-description: "Aspose.Words for Java allows you to work with various features supported when saving to printing device."
+description: "Work with various features supported when saving to printing device."
 type: docs
 weight: 50
 url: /java/exporting-to-a-printer-overview/

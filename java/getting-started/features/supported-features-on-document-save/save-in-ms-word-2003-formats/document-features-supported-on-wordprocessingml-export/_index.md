@@ -2,7 +2,7 @@
 title: Document Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Document Features Supported on WordprocessingML Export
 linktitle: Document Features Supported on WordprocessingML Export
-description: "Aspose.Words for Java allows you to work with document features supported when saving to XML – Word 2003 WordprocessingML format."
+description: "Work with document features supported when saving to XML – Word 2003 WordprocessingML format."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-wordprocessingml-export/

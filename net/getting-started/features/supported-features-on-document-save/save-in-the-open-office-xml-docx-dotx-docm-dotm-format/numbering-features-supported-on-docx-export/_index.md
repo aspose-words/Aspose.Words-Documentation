@@ -2,7 +2,7 @@
 title: Numbering Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on DOCX Export
 linktitle: Numbering Features Supported on DOCX Export
-description: "Aspose.Words for .NET allows you to work with numbering features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Work with numbering features supported when saving to Open Office XML 2007 and 2010 format."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-docx-export/

@@ -5,7 +5,7 @@ linktitle: Types of Mail Merge Operation
 aliases:
   - /java/how-to-execute-mail-merge/
 type: docs
-description: "Aspose.Words for Java allows you to perform two different types of mail merge operations: simple mail merge and mail merge with regions. Simple mail merge repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record."
+description: "Perform two different types of mail merge operations: simple mail merge and mail merge with regions. Simple mail merge repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record."
 keywords: "how to execute mail merge java, Mail Merge Java, Simple Mail Merge"
 weight: 20
 url: /java/types-of-mail-merge-operations/
