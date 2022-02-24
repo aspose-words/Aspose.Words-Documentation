@@ -2,7 +2,7 @@
 title: Report Generation - Aspose.Words for SharePoint
 articleTitle: Report Generation
 linktitle: Report Generation
-description: "This page describes reporting features of the Aspose.Words for SharePoint."
+description: "Reporting features of the Aspose.Words for SharePoint."
 type: docs
 weight: 30
 url: /sharepoint/report-generation/

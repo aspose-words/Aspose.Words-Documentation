@@ -2,7 +2,7 @@
 title: Document Features Supported on HTML Import – Aspose.Words for .NET
 articleTitle: Document Features Supported on HTML Import
 linktitle: Document Features Supported on HTML Import
-description: "Aspose.Words for .NET allows you to work with document features supported on HTML-based format import."
+description: "Work with document features supported on HTML-based format import."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-html-import/

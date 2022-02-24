@@ -2,7 +2,7 @@
 title: Save in the Plain Text Format – Aspose.Words for Java
 articleTitle: Save in the Plain Text Format
 linktitle: Save in the Plain Text Format
-description: "Aspose.Words for Java allows you to work with different features supported when saving to Plain Text – TXT format."
+description: "Work with different features supported when saving to Plain Text – TXT format."
 type: docs
 weight: 10
 url: /java/save-in-the-plain-text-format/

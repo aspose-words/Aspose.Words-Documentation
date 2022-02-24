@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on Rich Text Export
 linktitle: Custom Markup Features Supported on Rich Text Export
-description: "Aspose.Words for .NET allows you to work with custom markup features supported when saving to Rich Text format."
+description: "Work with custom markup features supported when saving to Rich Text format."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-rich-text-export/

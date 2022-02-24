@@ -2,7 +2,7 @@
 title: Programming With Documents in Ruby – Aspose.Words for Java
 articleTitle: Programming With Documents in Ruby
 linktitle: Programming With Documents in Ruby
-description: "Ruby: Working With Documents using Aspose.Words for Java."
+description: "Working With Documents using Ruby."
 type: docs
 weight: 20
 url: /java/programming-with-documents-in-ruby/

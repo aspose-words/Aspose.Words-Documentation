@@ -2,7 +2,7 @@
 title: Working with Hyperlinks and HTML in C#
 articleTitle: Working with Hyperlinks and HTML
 linktitle: Working with Hyperlinks and HTML
-description: "How to insert hyperlink or HTML document into your document using Aspose.Word for .Net."
+description: "How to insert hyperlink or HTML document into your document using Aspose.Word for .NET."
 type: docs
 weight: 50
 url: /net/working-with-hyperlinks-and-html/

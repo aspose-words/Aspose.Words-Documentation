@@ -42,7 +42,7 @@ For a list of changes to the public API in this release refer to the following a
 |WORDSJAVA-704 |Html: numeric fallback for symbols non-supported by document's encoding. |Enhancement |
 |WORDSJAVA-707 |Mail Merge with regions do not work with TYPE_FORWARD_ONLY ResultSet |Enhancement |
 |WORDSJAVA-727 |Manually lift AsposeWordsPrintDocument |Enhancement |
-|WORDSJAVA-736 |Charset decoder numeric fallback default as in .Net |Enhancement |
+|WORDSJAVA-736 |Charset decoder numeric fallback default as in .NET |Enhancement |
 |WORDSNET-4307 |A thick line shape when rendered, is cut off on its side. |Bug |
 |WORDSNET-5421 |AutoShape border is cut off during open/save. |Bug |
 |WORDSNET-5608 |DrawingML does not get rendered to flow formats other than DOCX |Bug |

@@ -2,7 +2,7 @@
 title: Table Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Table Features Supported on WordprocessingML Import
 linktitle: Table Features Supported on WordprocessingML Import
-description: "Aspose.Words for .NET allows you to work with table features supported on XML – Word 2003 WordprocessingML format import."
+description: "Work with table features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-wordprocessingml-import/

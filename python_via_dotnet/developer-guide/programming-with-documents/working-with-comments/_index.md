@@ -2,7 +2,7 @@
 title: Working with Comments in Python
 articleTitle: Working with Comments
 linktitle: Working with Comments
-description: "Learn how to add, remove, or manipulate comments in a document using python."
+description: "How to add, remove, or manipulate comments in a document using python."
 type: docs
 weight: 140
 url: /python-net/working-with-comments/

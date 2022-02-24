@@ -2,7 +2,7 @@
 title: Remove Hidden Text from Document – Aspose.Words for .NET
 articleTitle: Remove Hidden Text from Document
 linktitle: Remove Hidden Text from Document
-description: "Aspose.Words for .NET allows you to remove hidden text from a document easily and fast instead of using Open XML SDK."
+description: "Remove hidden text from a document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 150
 url: /net/remove-hidden-text-from-document/

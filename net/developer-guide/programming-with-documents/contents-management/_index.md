@@ -2,7 +2,7 @@
 title: Contents Management in C#
 articleTitle: Contents Management
 linktitle: Contents Management
-description: "Introduction to document content management classes in Aspose.Words for .Net."
+description: "Introduction to document content management classes in Aspose.Words for .NET."
 type: docs
 weight: 190
 url: /net/contents-management/

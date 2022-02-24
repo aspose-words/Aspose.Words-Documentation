@@ -2,7 +2,7 @@
 title: Field Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Field Features Supported on DOC Import
 linktitle: Field Features Supported on DOC Import
-description: "Aspose.Words for .NET allows you to work with field features supported on DOC – Word 97-2003 format import."
+description: "Work with field features supported on DOC – Word 97-2003 format import."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-doc-import/

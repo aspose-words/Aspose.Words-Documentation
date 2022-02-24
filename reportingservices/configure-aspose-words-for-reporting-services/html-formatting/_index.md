@@ -2,7 +2,7 @@
 title: HTML Formatting - Aspose.Words for Reporting Services
 articleTitle: HTML Formatting
 linktitle: HTML Formatting
-description: "This page describes HTML Formatting setting of the Aspose.Words for Reporting Services."
+description: "HTML Formatting setting of the Aspose.Words for Reporting Services."
 type: docs
 weight: 90
 url: /reportingservices/html-formatting/

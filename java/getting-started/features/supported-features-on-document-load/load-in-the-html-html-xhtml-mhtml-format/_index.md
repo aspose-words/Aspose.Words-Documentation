@@ -2,7 +2,7 @@
 title: Load in the HTML (.HTML, .XHTML, .MHTML) Format – Aspose.Words for Java
 articleTitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format
-description: "Aspose.Words for Java allows you to work with different features supported on HTML-based format import."
+description: "Work with different features supported on HTML-based format import."
 type: docs
 weight: 30
 url: /java/load-in-the-html-html-xhtml-mhtml-format/

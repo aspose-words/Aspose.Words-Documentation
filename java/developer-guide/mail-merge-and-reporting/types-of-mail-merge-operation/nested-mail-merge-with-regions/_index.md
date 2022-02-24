@@ -6,7 +6,7 @@ aliases:
   - /java/nested-mail-merge-regions//
   - /java/how-to-set-up-relations-for-use-in-nested-mail-merge-with-regions/
 type: docs
-description: "Aspose.Words for Java allows you to perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
+description: "Perform a mail merge operation with nested regions. Nested merge is a feature that enables you to merge hierarchical data from your data source into your merge template."
 keywords: "mail merge with nested regions Java, Nested Mail Merge Regions"
 weight: 10
 url: /java/nested-mail-merge-with-regions/

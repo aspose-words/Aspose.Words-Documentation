@@ -2,7 +2,7 @@
 title: SPListQuery Element - Aspose.Words for SharePoint
 articleTitle: SPListQuery Element
 linktitle: SPListQuery Element
-description: "This page describes SPListQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
+description: "SPListQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 140
 url: /sharepoint/splistquery-element/

@@ -2,7 +2,7 @@
 title: Create New Document – Aspose.Words for Java
 articleTitle: Create New Document
 linktitle: Create New Document
-description: "Aspose.Words for Java allows you to create a new document easily and fast instead of using docx4j."
+description: "Create a new document easily and fast instead of using docx4j."
 type: docs
 weight: 50
 url: /java/create-new-document/

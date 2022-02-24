@@ -2,7 +2,7 @@
 title: Feature Overview - Aspose.Words for Reporting Services
 articleTitle: Feature Overview
 linktitle: Feature Overview
-description: "This page describes feature overview of the Aspose.Words for Reporting Services."
+description: "Feature overview of the Aspose.Words for Reporting Services."
 type: docs
 weight: 10
 url: /reportingservices/feature-overview/

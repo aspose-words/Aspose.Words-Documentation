@@ -3,7 +3,7 @@ title: Working with Watermark in C++
 articleTitle: Working with Watermark
 linktitle: Working with Watermark
 type: docs
-description: "Document watermark manipulation using Aspose.Words for C++."
+description: "Document watermark manipulation using C++."
 aliases:
  - /cpp/how-to-add-a-watermark-to-a-document/
 weight: 260

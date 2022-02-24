@@ -2,7 +2,7 @@
 title: Annotation Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on FlatOPC Import
 linktitle: Annotation Features Supported on FlatOPC Import
-description: "Aspose.Words for .NET allows you to work with annotation features supported on FlatOPC format import."
+description: "Work with annotation features supported on FlatOPC format import."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-flatopc-import/

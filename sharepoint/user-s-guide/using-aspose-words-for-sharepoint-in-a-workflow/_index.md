@@ -2,7 +2,7 @@
 title: Using Aspose.Words for SharePoint in a Workflow - Aspose.Words for SharePoint
 articleTitle: Using Aspose.Words for SharePoint in a Workflow
 linktitle: Using Aspose.Words for SharePoint in a Workflow
-description: "This guide describes available workflow scenarios with the Aspose.Words for SharePoint."
+description: "Available workflow scenarios with the Aspose.Words for SharePoint."
 type: docs
 weight: 30
 url: /sharepoint/using-aspose-words-for-sharepoint-in-a-workflow/

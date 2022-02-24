@@ -2,7 +2,7 @@
 title: Numbering Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on HTML Export
 linktitle: Numbering Features Supported on HTML Export
-description: "Aspose.Words for .NET allows you to work with numbering features supported when saving to HTML-based format."
+description: "Work with numbering features supported when saving to HTML-based format."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-html-export/

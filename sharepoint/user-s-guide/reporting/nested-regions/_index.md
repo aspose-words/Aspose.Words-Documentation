@@ -2,7 +2,7 @@
 title: Nested Regions - Aspose.Words for SharePoint
 articleTitle: Nested Regions
 linktitle: Nested Regions
-description: "This guide describes nested regions feature details of the Aspose.Words for SharePoint."
+description: "Nested regions feature details of the Aspose.Words for SharePoint."
 type: docs
 weight: 40
 url: /sharepoint/nested-regions/

@@ -2,7 +2,7 @@
 title: Field Features Supported on Rich Text Import – Aspose.Words for Java
 articleTitle: Field Features Supported on Rich Text Import
 linktitle: Field Features Supported on Rich Text Import
-description: "Aspose.Words for Java allows you to work with field features supported on Rich Text import."
+description: "Work with field features supported on Rich Text import."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-rich-text-import/

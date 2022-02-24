@@ -21,7 +21,7 @@ There are 81 improvements and fixes in this regular monthly release. The most no
 - Aspose.Words for Java release jar is tested on Java 11.
 - Compatibility with GroupDocs Total License is improved.
 - GraphicsQualityOptions is better mapped to Java.
-- We did yet another step to shrink (already small) pixel difference between .Net and Java generated images, borders, etc.
+- We did yet another step to shrink (already small) pixel difference between .NET and Java generated images, borders, etc.
 - JavaDoc for obsolette members become more clear.
 - Fixed hang with autosized tables when cell has right aligned floaters.
 - Fixed wrong visual order of text in specific cases.

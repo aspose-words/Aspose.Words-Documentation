@@ -2,7 +2,7 @@
 title: Insert Picture into a Document – Aspose.Words for Java
 articleTitle: Insert Picture into a Document
 linktitle: Insert Picture into a Document
-description: "Aspose.Words for Java allows to insert picture into a document. Apache POI does not provide an opportunity to insert picture into a document."
+description: "Insert picture into a document. Apache POI does not provide an opportunity to insert picture into a document."
 type: docs
 weight: 10
 url: /java/insert-picture-in-document/

@@ -2,7 +2,7 @@
 title: Numbering Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on Image Export
 linktitle: Numbering Features Supported on Image Export
-description: "Aspose.Words for Java allows you to work with numbering features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Work with numbering features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-image-export/

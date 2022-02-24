@@ -2,7 +2,7 @@
 title: Specify Load Options in C++
 articleTitle: Specify Load Options
 linktitle: Specify Load Options
-description: "Aspose.Words for C++ enables you to set advanced properties when loading a document. This allows you to more accurately control the load process."
+description: "More accurately control the load process."
 type: docs
 weight: 10
 url: /cpp/specify-load-options/

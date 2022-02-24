@@ -2,7 +2,7 @@
 title: Load And Save To Disk in PHP – Aspose.Words for Java
 articleTitle: Load And Save To Disk in PHP
 linktitle: Load And Save To Disk in PHP
-description: "PHP: Load And Save Document To Disk using Aspose.Words for Java."
+description: "Load And Save Document To Disk using PHP."
 type: docs
 weight: 50
 url: /java/load-and-save-to-disk-in-php/

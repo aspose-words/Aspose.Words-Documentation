@@ -2,7 +2,7 @@
 title: Working with Comments in C++
 articleTitle: Working with Comments
 linktitle: Working with Comments
-description: "Working with comments in your code using Aspose.Words for C++."
+description: "Working with comments in your code using C++."
 type: docs
 weight: 90
 url: /cpp/working-with-comments/

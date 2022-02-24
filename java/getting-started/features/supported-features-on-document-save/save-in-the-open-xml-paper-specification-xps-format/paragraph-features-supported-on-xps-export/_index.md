@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on XPS Export – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on XPS Export
 linktitle: Paragraph Features Supported on XPS Export
-description: "Aspose.Words for Java allows you to work with paragraph features supported when saving to XPS format."
+description: "Work with paragraph features supported when saving to XPS format."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-xps-export/

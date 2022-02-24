@@ -2,7 +2,7 @@
 title: Create and Add a Paragraph Style – Aspose.Words for .NET
 articleTitle: Create and Add a Paragraph Style
 linktitle: Create and Add a Paragraph Style
-description: "Aspose.Words for .NET allows you to create and add a paragraph style easily and fast instead of using Open XML SDK."
+description: "Create and add a paragraph style easily and fast instead of using Open XML SDK."
 type: docs
 weight: 120
 url: /net/create-and-add-a-paragraph-style/

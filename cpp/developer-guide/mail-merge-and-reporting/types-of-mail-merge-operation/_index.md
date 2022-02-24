@@ -5,7 +5,7 @@ linktitle: Types of Mail Merge Operation
 type: docs
 aliases:
  - /cpp/how-to-execute-mail-merge/
-description: "Aspose.Words for C++ enables you to perform two different types of mail merge operations: simple mail merge and mail merge with regions. Simple mail merge repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record."
+description: "Perform two different types of mail merge operations: simple mail merge and mail merge with regions. Simple mail merge repeats the entire document per each data source record, whereas mail merge with regions repeats only designated regions per record."
 keywords: "how to execute mail merge c++"
 weight: 20
 url: /cpp/types-of-mail-merge-operations/
@@ -338,7 +338,7 @@ There are some important points that you need to consider when performing a mail
 
 * The start point *TableStart:Orders* and the end point *TableEnd:Orders* both need to be in the same row or cell. For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
   The merge field name must match the column name in your DataTable. Unless you specify mapped fields, mail merge with regions will not succeed for any merge field that has a name other than the column name.
-* Aspose.Words for C++ only supports [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) and [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) based data sources. Unlike .Net and Java, C++ does not have a generally accepted cross-platform API for working with databases (like ADODB, ODBC, or JDBC). In order to work with a specific data source, you have to implement [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) or [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) interface.
+* Aspose.Words for C++ only supports [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) and [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) based data sources. Unlike .NET and Java, C++ does not have a generally accepted cross-platform API for working with databases (like ADODB, ODBC, or JDBC). In order to work with a specific data source, you have to implement [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) or [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) interface.
 
 If one of these rules is broken, you will get unexpected results or an exception may be thrown.
 

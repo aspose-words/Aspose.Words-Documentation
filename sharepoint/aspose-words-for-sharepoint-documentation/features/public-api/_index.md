@@ -2,7 +2,7 @@
 title: Public API - Aspose.Words for SharePoint
 articleTitle: Public API
 linktitle: Public API
-description: "This page describes public API feature of the Aspose.Words for SharePoint."
+description: "Public API feature of the Aspose.Words for SharePoint."
 type: docs
 weight: 50
 url: /sharepoint/public-api/

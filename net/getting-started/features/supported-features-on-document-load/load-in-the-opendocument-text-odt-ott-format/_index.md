@@ -2,7 +2,7 @@
 title: Load in the OpenDocument Text (.ODT, .OTT) Format – Aspose.Words for .NET
 articleTitle: Load in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Load in the OpenDocument Text (.ODT, .OTT) Format
-description: "Aspose.Words for .NET allows you to work with various features supported on OpenDocument Text import."
+description: "Work with various features supported on OpenDocument Text import."
 type: docs
 weight: 70
 url: /net/load-in-the-opendocument-text-odt-ott-format/

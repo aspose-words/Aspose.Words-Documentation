@@ -701,7 +701,7 @@ so.CustomTimeZoneInfo = TimeZoneInfo.CreateCustomTimeZone("Auckland", new TimeSp
 doc.Save("output.pdf", so);
 {{< /highlight >}}
 
-Please note this option is available in either .Net framework starting from 3.5 version or .Net Standard.
+Please note this option is available in either .NET framework starting from 3.5 version or .NET Standard.
 
 ### The behavior of DocumentBuilder.MoveToParagraph and DocumentBuilder.MoveToCell methods was changed
 

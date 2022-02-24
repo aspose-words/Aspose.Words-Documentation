@@ -2,7 +2,7 @@
 title: Save in the HTML Format Overview – Aspose.Words for Java
 articleTitle: Save in the HTML Format Overview
 linktitle: Save in the HTML Format Overview
-description: "Aspose.Words for Java allows you to work with different features supported when saving to HTML-based format."
+description: "Work with different features supported when saving to HTML-based format."
 type: docs
 weight: 90
 url: /java/save-in-the-html-format-overview/

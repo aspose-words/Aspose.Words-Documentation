@@ -2,7 +2,7 @@
 title: Report Element - Aspose.Words for SharePoint
 articleTitle: Report Element
 linktitle: Report Element
-description: "This page describes Report element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
+description: "Report element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 20
 url: /sharepoint/report-element/

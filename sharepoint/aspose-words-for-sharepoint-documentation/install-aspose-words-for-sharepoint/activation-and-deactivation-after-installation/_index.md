@@ -2,7 +2,7 @@
 title: Activation and Deactivation After Installation - Aspose.Words for SharePoint
 articleTitle: Activation and Deactivation After Installation
 linktitle: Activation and Deactivation After Installation
-description: "This page describes how to deactivate the Aspose.Words for SharePoint after installation."
+description: "How to deactivate the Aspose.Words for SharePoint after installation."
 type: docs
 weight: 40
 url: /sharepoint/activation-and-deactivation-after-installation/

@@ -2,7 +2,7 @@
 title: Document Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Document Features Supported on FlatOPC Export
 linktitle: Document Features Supported on FlatOPC Export
-description: "Aspose.Words for Java allows you to work with document features supported when saving to FlatOPC – XML format."
+description: "Work with document features supported when saving to FlatOPC – XML format."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-flatopc-export/

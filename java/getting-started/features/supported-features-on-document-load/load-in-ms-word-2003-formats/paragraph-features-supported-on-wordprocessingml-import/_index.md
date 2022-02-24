@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on WordprocessingML Import
 linktitle: Paragraph Features Supported on WordprocessingML Import
-description: "Aspose.Words for Java allows you to work with paragraph features supported on XML – Word 2003 WordprocessingML format import."
+description: "Work with paragraph features supported on XML – Word 2003 WordprocessingML format import."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-wordprocessingml-import/

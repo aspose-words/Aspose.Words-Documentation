@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on HTML Export
 linktitle: Drawing Object Features Supported on HTML Export
-description: "Aspose.Words for Java allows you to work with drawing features supported when saving to HTML-based format."
+description: "Work with drawing features supported when saving to HTML-based format."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-html-export/

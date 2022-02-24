@@ -2,7 +2,7 @@
 title: Working with Shapes in C#
 articleTitle: Working with Shapes
 linktitle: Working with Shapes
-description: "Introduction to shape markup language, creating shapes of different types using Aspose.Words for .NET." 
+description: "Introduction to shape markup language, creating shapes of different types using C#."
 type: docs
 weight: 10
 url: /net/working-with-shapes/

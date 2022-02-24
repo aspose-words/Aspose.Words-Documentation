@@ -2,7 +2,7 @@
 title: Remove Page Breaks from a Document – Aspose.Words for .NET
 articleTitle: Remove Page Breaks from a Document
 linktitle: Remove Page Breaks from a Document
-description: "Aspose.Words for .NET allows you to remove page breaks from a document easily and fast instead of using Open XML SDK."
+description: "Remove page breaks from a document easily and fast instead of using Open XML SDK."
 type: docs
 weight: 160
 url: /net/remove-page-breaks-from-document/

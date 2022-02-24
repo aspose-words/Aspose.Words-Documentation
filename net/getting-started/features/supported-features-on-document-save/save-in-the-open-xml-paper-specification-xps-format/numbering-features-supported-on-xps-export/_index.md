@@ -2,7 +2,7 @@
 title: Numbering Features Supported on XPS Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on XPS Export
 linktitle: Numbering Features Supported on XPS Export
-description: "Aspose.Words for .NET allows you to work with numbering features supported when saving to XPS format."
+description: "Work with numbering features supported when saving to XPS format."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-xps-export/

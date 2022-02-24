@@ -1,8 +1,8 @@
 ﻿---
-title: Aspose.Words .Net 4.2.5.0 Hot Fix Release Notes – Aspose.Words for .NET
-articleTitle: Aspose.Words .Net 4.2.5.0 Hot Fix Release Notes
-linktitle: Aspose.Words .Net 4.2.5.0 Hot Fix Release Notes
-description: "Aspose.Words .Net 4.2.5.0 Hot Fix Release Notes – learn about the latest updates and fixes."
+title: Aspose.Words .NET 4.2.5.0 Hot Fix Release Notes – Aspose.Words for .NET
+articleTitle: Aspose.Words .NET 4.2.5.0 Hot Fix Release Notes
+linktitle: Aspose.Words .NET 4.2.5.0 Hot Fix Release Notes
+description: "Aspose.Words .NET 4.2.5.0 Hot Fix Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 260
 url: /net/aspose-words-net-4-2-5-0-hot-fix-release-notes/
@@ -10,7 +10,7 @@ url: /net/aspose-words-net-4-2-5-0-hot-fix-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words .Net 4.2.5.0 Hot Fix](https://downloads.aspose.com/words/net)
+This page contains release notes for [Aspose.Words .NET 4.2.5.0 Hot Fix](https://downloads.aspose.com/words/net)
 
 {{% /alert %}}
 

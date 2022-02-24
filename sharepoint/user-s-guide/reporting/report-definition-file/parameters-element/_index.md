@@ -2,7 +2,7 @@
 title: Parameters Element - Aspose.Words for SharePoint
 articleTitle: Parameters Element
 linktitle: Parameters Element
-description: "This page describes Parameters element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
+description: "Parameters element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."
 type: docs
 weight: 210
 url: /sharepoint/parameters-element/

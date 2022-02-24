@@ -2,7 +2,7 @@
 title: Working with Sections in Java
 articleTitle: Working with Sections
 linktitle: Working with Sections
-description: "Understanding document section concepts and manipulation practices using Aspose.Words for Java."
+description: "Understanding document section concepts and manipulation practices using Java."
 type: docs
 weight: 30
 url: /java/working-with-sections/

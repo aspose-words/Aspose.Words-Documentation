@@ -3,7 +3,7 @@ title: Using DocumentBuilder to Modify a Document in Java
 articleTitle: Using DocumentBuilder to Modify a Document
 linktitle: Using DocumentBuilder to Modify a Document
 type: docs
-description: "Aspsoe.Words for Java allows you to use the document builder to modify a document easily."
+description: "Use the document builder to modify a document easily in Java."
 weight: 20
 url: /java/using-documentbuilder-to-modify-a-document/
 ---

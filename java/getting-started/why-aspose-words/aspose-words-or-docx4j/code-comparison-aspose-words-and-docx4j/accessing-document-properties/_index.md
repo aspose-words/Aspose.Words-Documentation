@@ -2,7 +2,7 @@
 title: Accessing Document Properties – Aspose.Words for Java
 articleTitle: Accessing Document Properties
 linktitle: Accessing Document Properties
-description: "Aspose.Words for Java allows you to access document properties easily and fast instead of using docx4j."
+description: "Access document properties easily and fast instead of using docx4j."
 type: docs
 weight: 10
 url: /java/accessing-document-properties/

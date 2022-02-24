@@ -2,7 +2,7 @@
 title: Table Features Supported on Print Export – Aspose.Words for Java
 articleTitle: Table Features Supported on Print Export
 linktitle: Table Features Supported on Print Export
-description: "Aspose.Words for Java allows you to work with table features supported when saving to printing device."
+description: "Work with table features supported when saving to printing device."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-print-export/

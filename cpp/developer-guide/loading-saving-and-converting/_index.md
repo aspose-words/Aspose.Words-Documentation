@@ -2,7 +2,7 @@
 title: Loading, Saving and Converting in C++
 articleTitle: Loading, Saving and Converting
 linktitle: Loading, Saving and Converting
-description: "Learn how to convert a document from one format to another, such as Word to PDF or HTML to Markdown, as well as how to load and save a document using Aspose.Words for C++."
+description: "How to convert a document from one format to another, such as Word to PDF or HTML to Markdown, as well as how to load and save a document using C++."
 type: docs
 weight: 10
 url: /cpp/loading-saving-and-converting/

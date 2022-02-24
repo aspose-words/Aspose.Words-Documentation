@@ -2,7 +2,7 @@
 title: Working with Markdown Features in Python
 articleTitle: Working with Markdown Features
 linktitle: Working with Markdown Features
-description: "Learn how to implement Markdown features using Aspose.Words for Python via .NET. All the features are represented as corresponding styles or direct formatting."
+description: "How to implement Markdown features using Python. All the features are represented as corresponding styles or direct formatting."
 type: docs
 weight: 210
 url: /python-net/working-with-markdown-features/

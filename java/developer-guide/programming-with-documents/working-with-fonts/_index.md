@@ -2,7 +2,7 @@
 title: Working with Fonts in Java
 articleTitle: Working with Fonts
 linktitle: Working with Fonts
-description: "Font formatting in details using Aspose.Words for Java."
+description: "Font formatting in details using Java."
 type: docs
 weight: 90
 url: /java/working-with-fonts/

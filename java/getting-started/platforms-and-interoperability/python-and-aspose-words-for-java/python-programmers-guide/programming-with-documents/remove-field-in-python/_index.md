@@ -2,7 +2,7 @@
 title: Remove Field in Python – Aspose.Words for Java
 articleTitle: Remove Field in Python
 linktitle: Remove Field in Python
-description: "Python: Remove Field using Aspose.Words for Java."
+description: "Remove Field using Python."
 type: docs
 weight: 70
 url: /java/remove-field-in-python/

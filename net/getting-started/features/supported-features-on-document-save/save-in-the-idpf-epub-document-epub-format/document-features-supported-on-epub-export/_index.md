@@ -2,7 +2,7 @@
 title: Document Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Document Features Supported on EPUB Export
 linktitle: Document Features Supported on EPUB Export
-description: "Aspose.Words for .NET allows you to work with document features supported when saving to EPUB format."
+description: "Work with document features supported when saving to EPUB format."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-epub-export/

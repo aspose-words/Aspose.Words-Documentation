@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 20.12](https://downlo
 
 ## Major Features
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Added an ability to allow embedding of PostScript Fonts upon save documents.
 - Implemented condition evaluation extension point.

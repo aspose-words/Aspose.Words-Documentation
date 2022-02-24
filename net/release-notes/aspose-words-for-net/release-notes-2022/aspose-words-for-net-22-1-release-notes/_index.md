@@ -62,7 +62,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-20766 | Structure element issues after DOCX to PDF conversion | Bug |
 | WORDSNET-22919 | Word table formatting issue using Customer XML data | Bug |
 | WORDSNET-23220 | The paragraph is missing when using WordOpenXML | Bug |
-| WORDSNET-22660 | Compile Time error when using Aspose Words for .Net in C++/CLI project | Bug |
+| WORDSNET-22660 | Compile Time error when using Aspose Words for .NET in C++/CLI project | Bug |
 | WORDSNET-23226 | Incorrect size and position of the minus sign | Bug |
 | WORDSNET-23229 | Fix minor rendering issue | Bug |
 | WORDSNET-22526 | Unwanted styles appear during DOTX to DOCX conversion | Bug |

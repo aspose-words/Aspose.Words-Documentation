@@ -2,7 +2,7 @@
 title: Extract Content in Jython – Aspose.Words for Java
 articleTitle: Extract Content in Jython
 linktitle: Extract Content in Jython
-description: "Jython: Extract Content from document using Aspose.Words for Java."
+description: "Extract Content from document using Jython."
 type: docs
 weight: 33
 url: /java/extract-content-in-jython/

@@ -112,7 +112,7 @@ This page contains release notes for [Aspose.Words for Java 20.4](https://reposi
 |WORDSNET-19621|Text is pushed down to next page after conversion from DOCX to PDF|Bug|
 |WORDSNET-20057|Image text is stretched after conversion from DOC to PDF|Bug|
 |WORDSNET-19317|System.ArgumentException occurs upon Comparing documents|Bug|
-|WORDSNET-19636|Assertion in .Net debug code related to an exception in Java code|Bug|
+|WORDSNET-19636|Assertion in .NET debug code related to an exception in Java code|Bug|
 |WORDSNET-19796|ImportNode (Section) and AppendDocument behavior is not same when ImportFormatMode is KeepSourceFormatting|Bug|
 |WORDSNET-19805|System.InvalidOperationException - Expected pad cells only - RTF to HTML|Bug|
 |WORDSNET-20093|Can't obtain user-installed font on Windows 10 with .NET Standard 2.0 assembly|Bug|

@@ -2,7 +2,7 @@
 title: Table Features Supported on OpenDocument Import – Aspose.Words for .NET
 articleTitle: Table Features Supported on OpenDocument Import
 linktitle: Table Features Supported on OpenDocument Import
-description: "Aspose.Words for .NET allows you to work with table features supported on OpenDocument Text import."
+description: "Work with table features supported on OpenDocument Text import."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-opendocument-import/

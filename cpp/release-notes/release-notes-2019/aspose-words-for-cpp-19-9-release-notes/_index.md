@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 19.9](https://www.nug
 
 ## Major Features
 
-This is a regular monthly release, we continue to add features from Aspose.Words for .Net.
+This is a regular monthly release, we continue to add features from Aspose.Words for .NET.
 
 ## Limitations and API Differences
 

@@ -2,7 +2,7 @@
 title: Save in the Open XML Paper Specification (.XPS) Format – Aspose.Words for .NET
 articleTitle: Save in the Open XML Paper Specification (.XPS) Format
 linktitle: Save in the Open XML Paper Specification (.XPS) Format
-description: "Aspose.Words for .NET allows you to work with various features supported when saving to XPS format."
+description: "Work with various features supported when saving to XPS format."
 type: docs
 weight: 130
 url: /net/save-in-the-open-xml-paper-specification-xps-format/

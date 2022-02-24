@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on HTML Export
 linktitle: Paragraph Features Supported on HTML Export
-description: "Aspose.Words for Java allows you to work with paragraph features supported when saving to HTML-based format."
+description: "Work with paragraph features supported when saving to HTML-based format."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-html-export/

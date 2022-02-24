@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 21.6](https://www.nug
 
 ## Major Features
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Implemented an ability to set fill and stroke formatting for chart series, data points and markers.
 - Introduced a new API for working with textures.
@@ -33,7 +33,7 @@ The missing features will be added in future releases.
 - The current release does not support LINQ and Reporting features.
 - The current release does not support OpenGL 3D Shapes rendering.
 - The current release does not support loading PDF documents.
-- The current release has limited support for database features - C++ doesn't have common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ doesn't have common API for DB like .NET System.Data.
 - The current release supports Microsoft Visual C++ version 2017 or higher.
 - The current release supports GCC 6.3 or higher and Clang 3.9.1 or higher on Linux and only for the x86_x64 platform.
 

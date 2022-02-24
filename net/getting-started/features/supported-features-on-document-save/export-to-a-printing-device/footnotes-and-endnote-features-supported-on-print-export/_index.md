@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on Print Export – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on Print Export
 linktitle: Footnotes and Endnote Features Supported on Print Export
-description: "Aspose.Words for .NET allows you to work with footnote and endnote features supported when saving to printing device."
+description: "Work with footnote and endnote features supported when saving to printing device."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-print-export/

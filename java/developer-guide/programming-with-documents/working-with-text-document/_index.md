@@ -2,7 +2,7 @@
 title: Working with Text Document in Java
 articleTitle: Working with Text Document
 linktitle: Working with Text Document
-description: "Advanced TXT document processing, lists, BiDi, headers/footer, using Aspose.Words for Java."
+description: "Advanced TXT document processing, lists, BiDi, headers/footer, using Java."
 type: docs
 weight: 190
 url: /java/working-with-text-document/

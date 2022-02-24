@@ -2,7 +2,7 @@
 title: Section Features Supported on Print Export – Aspose.Words for Java
 articleTitle: Section Features Supported on Print Export
 linktitle: Section Features Supported on Print Export
-description: "Aspose.Words for Java allows you to work with section features supported when saving to printing device."
+description: "Work with section features supported when saving to printing device."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-print-export/

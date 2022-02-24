@@ -2,7 +2,7 @@
 title: Aspose.Words Features Missing in Docx4j – Aspose.Words for Java
 articleTitle: Aspose.Words Features Missing in Docx4j
 linktitle: Aspose.Words Features Missing in Docx4j
-description: "Aspose.Words for Java allows to perform some operations with documents faster and more conveniently than docx4j. In addition, there are operations that are not supported by docx4j."
+description: "Perform some operations with documents faster and more conveniently than docx4j. In addition, there are operations that are not supported by docx4j."
 type: docs
 weight: 20
 url: /java/missing-features-of-docx4j-in-aspose-words/

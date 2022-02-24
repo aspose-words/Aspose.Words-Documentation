@@ -2,7 +2,7 @@
 title: Style Features Supported on Print Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on Print Export
 linktitle: Style Features Supported on Print Export
-description: "Aspose.Words for .NET allows you to work with style features supported when saving to printing device."
+description: "Work with style features supported when saving to printing device."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-print-export/

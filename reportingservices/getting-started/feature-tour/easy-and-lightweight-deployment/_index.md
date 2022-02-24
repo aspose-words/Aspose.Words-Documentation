@@ -2,7 +2,7 @@
 title: Easy and Lightweight Deployment - Aspose.Words for Reporting Services
 articleTitle: Easy and Lightweight Deployment
 linktitle: Easy and Lightweight Deployment
-description: "This page describes deployment steps of the Aspose.Words for Reporting Services."
+description: "Deployment steps of the Aspose.Words for Reporting Services."
 type: docs
 weight: 60
 url: /reportingservices/easy-and-lightweight-deployment/

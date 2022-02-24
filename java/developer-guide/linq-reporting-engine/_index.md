@@ -2,7 +2,7 @@
 title: LINQ Reporting Engine in Java
 articleTitle: LINQ Reporting Engine
 linktitle: LINQ Reporting Engine
-description: "Aspose.Words for Java provides the ability to create reports from template documents using the LINQ Reporting Engine. Learn more about the supported features."
+description: "Create reports from template documents using the LINQ Reporting Engine. Learn more about the supported features."
 type: docs
 weight: 50
 aliases:

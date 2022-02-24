@@ -2,7 +2,7 @@
 title: Section Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Section Features Supported on FlatOPC Import
 linktitle: Section Features Supported on FlatOPC Import
-description: "Aspose.Words for Java allows you to work with section features supported on FlatOPC format import."
+description: "Work with section features supported on FlatOPC format import."
 type: docs
 weight: 90
 url: /java/section-features-supported-on-flatopc-import/

@@ -92,7 +92,7 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-16270|Paragraph moves to the right during DOCX to PDF conversion|Enhancement|
 |WORDSNET-16803|RTF to HTML is not Converting all the RTF content to HTML|Enhancement|
 |WORDSNET-13801|Shape.Rotation does not work for Shape node created by Aspose.Words|Enhancement|
-|WORDSNET-16868|System.TypeInitializationException when try to create new CertificateHolder at .Net Standard 2.0|Enhancement|
+|WORDSNET-16868|System.TypeInitializationException when try to create new CertificateHolder at .NET Standard 2.0|Enhancement|
 |WORDSNET-16727|Throw a meaningful exception when inserting a Shape in GroupShape with wrong markup language|Enhancement|
 |WORDSNET-16826|Error: Could not create the bitmap with the specified parameters|Exception|
 |WORDSNET-16825|Error: Could not create the bitmap with the specified parameters|Exception|

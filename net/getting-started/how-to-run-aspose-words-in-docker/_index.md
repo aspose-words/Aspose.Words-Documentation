@@ -88,7 +88,7 @@ ENTRYPOINT ["dotnet", "Aspse.Words.Docker.Sample/out/Aspse.Words.Docker.Sample.d
 
 The above is a simple Dockerfile, which contains the following instructions:
 
-- The SDK image to be used. Here it is the .Net Core SDK 2.2 image. Docker will download it when the build is run. The version of SDK is specified as a tag.
+- The SDK image to be used. Here it is the .NET Core SDK 2.2 image. Docker will download it when the build is run. The version of SDK is specified as a tag.
 - The working directory, which is specified in the next line.
 - The command to install libfontconfig1 is run in the container. This is required by SkiaSharp.
 - The command to copy everything to container, publish the application, and specify the entry point.

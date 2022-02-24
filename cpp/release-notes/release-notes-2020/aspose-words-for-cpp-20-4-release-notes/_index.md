@@ -35,7 +35,7 @@ The missing features will be added in future releases.
 - The current release does not support OpenGL 3D Shapes rendering.
 - The current release does not support advanced typography based on the HarfBuzz shaper.
 - The current release does not support loading PDF documents.
-- The current release has limited support for database features - C++ doesn't have a common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ doesn't have a common API for DB like .NET System.Data.
 - The current release only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
 ## Full List of Issues Covering all Changes in this Release

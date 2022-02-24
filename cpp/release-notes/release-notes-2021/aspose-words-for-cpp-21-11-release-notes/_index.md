@@ -16,7 +16,7 @@ This page contains release notes for [Aspose.Words for C++ 21.11](https://www.nu
 
 ## Major Features
 
-We have added the following features from Aspose.Words for .Net on this regular monthly release:
+We have added the following features from Aspose.Words for .NET on this regular monthly release:
 
 - Implemented a ProgressCallback to be able to show the document loading progress.
 - New UseAttachments option has been implemented to display the attachments panel in the output PDF documents.
@@ -36,7 +36,7 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 - The current release does not support LINQ and Reporting features.
 - The current release does not support OpenGL 3D Shapes rendering.
 - The current release does not support loading PDF documents.
-- The current release has limited support for database features - C++ doesn't have common API for DB like .Net System.Data.
+- The current release has limited support for database features - C++ doesn't have common API for DB like .NET System.Data.
 - The current release supports Microsoft Visual C++ version 2017 or higher.
 - The current release supports GCC 6.3 or higher and Clang 3.9.1 or higher on Linux and only for the x86_x64 platform.
 - The current release supports macOS Big Sur or later (11.5+) for 64-bit Intel Mac platform.

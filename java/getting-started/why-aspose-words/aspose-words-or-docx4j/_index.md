@@ -2,7 +2,7 @@
 title: Aspose.Words or Docx4j – Aspose.Words for Java
 articleTitle: Aspose.Words or Docx4j
 linktitle: Aspose.Words or Docx4j
-description: "Aspose.Words for Java is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Aspose.Words allows to perform a large number of tasks with documents faster and more conveniently than docx4j."
+description: "Perform a large number of tasks with documents faster and more conveniently than docx4j."
 type: docs
 weight: 25
 url: /java/aspose-words-java-for-docx4j/

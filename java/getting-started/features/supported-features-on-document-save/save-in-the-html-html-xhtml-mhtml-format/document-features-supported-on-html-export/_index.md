@@ -2,7 +2,7 @@
 title: Document Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Document Features Supported on HTML Export
 linktitle: Document Features Supported on HTML Export
-description: "Aspose.Words for Java allows you to work with document features supported when saving to HTML-based format."
+description: "Work with document features supported when saving to HTML-based format."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-html-export/
