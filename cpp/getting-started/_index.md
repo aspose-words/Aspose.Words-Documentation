@@ -1,4 +1,4 @@
-﻿---
+---
 title: Getting Started – Aspose.Words for С++
 articleTitle: Getting Started
 linktitle: Getting Started
@@ -12,11 +12,11 @@ This Getting Started provides this introduction to Aspose.Words fundamentals. Fo
 
 To find out more about Aspose.Words, select the appropriate section:
 
-- *"Supported Document Formats"* – provides information about supported formats
-- *"Features"* – provides information on what features are supported when loading or saving a document in various formats
-- *"System Requirements"* – provides information about system and development environment requirements
-- *"Licensing and Subscription"* – provides information on applying a license and using multiple Aspose products
 - *"Installation"* – provides information on how to install Aspose.Words
+- *"Supported Document Formats"* – provides information about supported formats
+- *"Supported Features"* – provides information on what features are supported when loading or saving a document in various formats
+- *"Licensing and Subscription"* – provides information on applying a license and using multiple Aspose products
+- *"System Requirements"* – provides information about system and development environment requirements
 - *"Security Notes"* – describes notes and tips on how to avoid common security issues
-- *"Work with Word Documents in Qt"* – provides information on how to integrate Aspose.Words within Qt
 - *"How to Run the Examples"* – describes how to download and run the examples and what software requirements must be met
+- *"Work with Word Documents in Qt"* – provides information on how to integrate Aspose.Words within Qt
