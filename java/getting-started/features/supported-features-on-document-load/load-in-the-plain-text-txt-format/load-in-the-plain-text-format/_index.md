@@ -2,7 +2,7 @@
 title: Load in the Plain Text Format – Aspose.Words for Java
 articleTitle: Load in the Plain Text Format
 linktitle: Load in the Plain Text Format
-description: "Work with different features supported on Plain Text import."
+description: "Import Plain Text format using different load options."
 type: docs
 weight: 10
 url: /java/load-in-the-plain-text-format/

@@ -2,7 +2,7 @@
 title: Style Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Style Features Supported on Rich Text Import
 linktitle: Style Features Supported on Rich Text Import
-description: "Work with style features supported on Rich Text import."
+description: "Import Rich Text format using style load options."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-rich-text-import/

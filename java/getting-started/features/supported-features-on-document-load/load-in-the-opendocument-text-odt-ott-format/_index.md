@@ -2,7 +2,7 @@
 title: Load in the OpenDocument Text (.ODT, .OTT) Format – Aspose.Words for Java
 articleTitle: Load in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Load in the OpenDocument Text (.ODT, .OTT) Format
-description: "Work with various features supported on OpenDocument Text import."
+description: "Import OpenDocument Text format using various load options."
 type: docs
 weight: 70
 url: /java/load-in-the-opendocument-text-odt-ott-format/

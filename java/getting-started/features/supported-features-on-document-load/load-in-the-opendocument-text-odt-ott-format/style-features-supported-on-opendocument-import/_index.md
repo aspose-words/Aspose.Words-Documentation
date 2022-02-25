@@ -2,7 +2,7 @@
 title: Style Features Supported on OpenDocument Import – Aspose.Words for Java
 articleTitle: Style Features Supported on OpenDocument Import
 linktitle: Style Features Supported on OpenDocument Import
-description: "Work with style features supported on OpenDocument Text import."
+description: "Import OpenDocument Text format using style load options."
 type: docs
 weight: 100
 url: /java/style-features-supported-on-opendocument-import/

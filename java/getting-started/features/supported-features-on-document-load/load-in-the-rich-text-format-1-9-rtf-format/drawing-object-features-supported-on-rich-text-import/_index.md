@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on Rich Text Import – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on Rich Text Import
 linktitle: Drawing Object Features Supported on Rich Text Import
-description: "Work with drawing object features supported on Rich Text import."
+description: "Import Rich Text format using drawing object load options."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-rich-text-import/

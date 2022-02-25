@@ -2,7 +2,7 @@
 title: Load in the Rich Text Format Overview – Aspose.Words for .NET
 articleTitle: Load in the Rich Text Format Overview
 linktitle: Load in the Rich Text Format Overview
-description: "Work with various features supported on Rich Text import."
+description: "Import Rich Text format using various load options."
 type: docs
 weight: 70
 url: /net/load-in-the-rich-text-format-overview/
