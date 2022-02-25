@@ -2,7 +2,7 @@
 title: Save in the Open XML Paper Specification (.XPS) Format – Aspose.Words for Java
 articleTitle: Save in the Open XML Paper Specification (.XPS) Format
 linktitle: Save in the Open XML Paper Specification (.XPS) Format
-description: "Work with various features supported when saving to XPS format."
+description: "Export to XPS format using various saving features."
 type: docs
 weight: 120
 url: /java/save-in-the-open-xml-paper-specification-xps-format/

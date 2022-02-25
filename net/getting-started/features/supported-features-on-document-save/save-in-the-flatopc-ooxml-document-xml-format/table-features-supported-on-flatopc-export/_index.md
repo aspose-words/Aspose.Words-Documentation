@@ -2,7 +2,7 @@
 title: Table Features Supported on FlatOPC Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on FlatOPC Export
 linktitle: Table Features Supported on FlatOPC Export
-description: "Work with table features supported when saving to FlatOPC – XML format."
+description: "Export to FlatOPC – XML format using table saving features."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-flatopc-export/

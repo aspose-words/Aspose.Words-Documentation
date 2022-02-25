@@ -2,7 +2,7 @@
 title: Save in the Rich Text Format 1.9 (.RTF) Format – Aspose.Words for .NET
 articleTitle: Save in the Rich Text Format 1.9 (.RTF) Format
 linktitle: Save in the Rich Text Format 1.9 (.RTF) Format
-description: "Work with various features supported when saving to Rich Text format."
+description: "Export to Rich Text format using various saving features."
 type: docs
 weight: 160
 url: /net/save-in-the-rich-text-format-1-9-rtf-format/

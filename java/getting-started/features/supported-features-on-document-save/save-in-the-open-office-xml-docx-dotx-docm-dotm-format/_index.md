@@ -2,7 +2,7 @@
 title: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format – Aspose.Words for Java
 articleTitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
 linktitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
-description: "Work with various features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Export to Open Office XML 2007 and 2010 format using various saving features."
 type: docs
 weight: 110
 url: /java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/

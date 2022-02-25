@@ -2,7 +2,7 @@
 title: Section Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on Rich Text Export
 linktitle: Section Features Supported on Rich Text Export
-description: "Work with section features supported when saving to Rich Text format."
+description: "Export to Rich Text format using section saving features."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-rich-text-export/

@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on EPUB Export – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on EPUB Export
 linktitle: Footnotes and Endnote Features Supported on EPUB Export
-description: "Work with footnote and endnote features supported when saving to EPUB format."
+description: "Export to EPUB format using footnote and endnote saving features."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-epub-export/

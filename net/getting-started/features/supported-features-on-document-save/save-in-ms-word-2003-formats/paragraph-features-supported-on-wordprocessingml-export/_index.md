@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on WordprocessingML Export
 linktitle: Paragraph Features Supported on WordprocessingML Export
-description: "Work with paragraph features supported when saving to XML – Word 2003 WordprocessingML format."
+description: "Export to XML – Word 2003 WordprocessingML format using paragraph saving features."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-wordprocessingml-export/

@@ -2,7 +2,7 @@
 title: Save in the Open Office XML Format Overview – Aspose.Words for Java
 articleTitle: Save in the Open Office XML Format Overview
 linktitle: Save in the Open Office XML Format Overview
-description: "Work with different features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Export to Open Office XML 2007 and 2010 format using different saving features."
 type: docs
 weight: 90
 url: /java/save-in-the-open-office-xml-format-overview/

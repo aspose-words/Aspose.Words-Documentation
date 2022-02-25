@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on PDF Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on PDF Export
 linktitle: Drawing Object Features Supported on PDF Export
-description: "Work with drawing features supported when saving to PDF format."
+description: "Export to PDF format using drawing saving features."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-pdf-export/

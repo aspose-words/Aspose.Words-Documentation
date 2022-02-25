@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on DOC Export
 linktitle: Custom Markup Features Supported on DOC Export
-description: "Work with custom markup features supported when saving to DOC – Word 97-2003 format."
+description: "Export to DOC – Word 97-2003 format using custom markup saving features."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-doc-export/

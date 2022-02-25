@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on DOCX Export
 linktitle: Footnotes and Endnote Features Supported on DOCX Export
-description: "Work with footnote and endnote features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Export to Open Office XML 2007 and 2010 format using footnote and endnote saving features."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-docx-export/

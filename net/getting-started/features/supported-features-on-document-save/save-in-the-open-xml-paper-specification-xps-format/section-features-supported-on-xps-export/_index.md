@@ -2,7 +2,7 @@
 title: Section Features Supported on XPS Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on XPS Export
 linktitle: Section Features Supported on XPS Export
-description: "Work with section features supported when saving to XPS format."
+description: "Export to XPS format using section saving features."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-xps-export/

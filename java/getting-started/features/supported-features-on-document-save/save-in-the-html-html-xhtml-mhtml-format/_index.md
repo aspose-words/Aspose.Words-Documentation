@@ -2,7 +2,7 @@
 title: Save in the HTML (.HTML, .XHTML, .MHTML) Format – Aspose.Words for Java
 articleTitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
-description: "Work with various features supported when saving to HTML-based format."
+description: "Export to HTML-based format using various saving features."
 type: docs
 weight: 50
 url: /java/save-in-the-html-html-xhtml-mhtml-format/

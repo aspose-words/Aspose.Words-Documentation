@@ -2,7 +2,7 @@
 title: Style Features Supported on Rich Text Export – Aspose.Words for Java
 articleTitle: Style Features Supported on Rich Text Export
 linktitle: Style Features Supported on Rich Text Export
-description: "Work with style features supported when saving to Rich Text format."
+description: "Export to Rich Text format using style saving features."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-rich-text-export/

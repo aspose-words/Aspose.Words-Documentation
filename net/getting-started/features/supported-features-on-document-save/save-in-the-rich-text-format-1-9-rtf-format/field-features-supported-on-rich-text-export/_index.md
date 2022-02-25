@@ -2,7 +2,7 @@
 title: Field Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Field Features Supported on Rich Text Export
 linktitle: Field Features Supported on Rich Text Export
-description: "Work with field features supported when saving to Rich Text format."
+description: "Export to Rich Text format using field saving features."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-rich-text-export/

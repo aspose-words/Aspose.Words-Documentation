@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on XPS Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on XPS Export
 linktitle: Custom Markup Features Supported on XPS Export
-description: "Work with custom markup features supported when saving to XPS format."
+description: "Export to XPS format using custom markup saving features."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-xps-export/

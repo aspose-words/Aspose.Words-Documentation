@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on DOC Export
 linktitle: Footnotes and Endnote Features Supported on DOC Export
-description: "Work with footnote and endnote features supported when saving to DOC – Word 97-2003 format."
+description: "Export to DOC – Word 97-2003 format using footnote and endnote saving features."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-doc-export/

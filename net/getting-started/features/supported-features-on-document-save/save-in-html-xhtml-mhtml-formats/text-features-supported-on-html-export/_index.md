@@ -2,7 +2,7 @@
 title: Text Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Text Features Supported on HTML Export
 linktitle: Text Features Supported on HTML Export
-description: "Work with text features supported when saving to HTML-based format."
+description: "Export to HTML-based format using text saving features."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-html-export/

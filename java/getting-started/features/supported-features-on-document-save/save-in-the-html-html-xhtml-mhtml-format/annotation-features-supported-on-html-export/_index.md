@@ -2,7 +2,7 @@
 title: Annotation Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Annotation Features Supported on HTML Export
 linktitle: Annotation Features Supported on HTML Export
-description: "Work with annotation features supported when saving to HTML-based format."
+description: "Export to HTML-based format using annotation saving features."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-html-export/

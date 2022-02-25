@@ -2,7 +2,7 @@
 title: Save in the Plain Text Format – Aspose.Words for .NET
 articleTitle: Save in the Plain Text Format
 linktitle: Save in the Plain Text Format
-description: "Work with different features supported when saving to Plain Text – TXT format."
+description: "Export to Plain Text – TXT format using different saving features."
 type: docs
 weight: 10
 url: /net/save-in-the-plain-text-format/

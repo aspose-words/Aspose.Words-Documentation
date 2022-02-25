@@ -2,7 +2,7 @@
 title: Numbering Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on Rich Text Export
 linktitle: Numbering Features Supported on Rich Text Export
-description: "Work with numbering features supported when saving to Rich Text format."
+description: "Export to Rich Text format using numbering saving features."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-rich-text-export/

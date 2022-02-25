@@ -2,7 +2,7 @@
 title: Numbering Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on EPUB Export
 linktitle: Numbering Features Supported on EPUB Export
-description: "Work with numbering features supported when saving to EPUB format."
+description: "Export to EPUB format using numbering saving features."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-epub-export/

@@ -2,7 +2,7 @@
 title: Save in the Plain Text (.TXT) Format – Aspose.Words for Java
 articleTitle: Save in the Plain Text (.TXT) Format
 linktitle: Save in the Plain Text (.TXT) Format
-description: "Work with various features supported when saving to Plain Text – TXT format."
+description: "Export to Plain Text – TXT format using various saving features."
 type: docs
 weight: 140
 url: /java/save-in-the-plain-text-txt-format/

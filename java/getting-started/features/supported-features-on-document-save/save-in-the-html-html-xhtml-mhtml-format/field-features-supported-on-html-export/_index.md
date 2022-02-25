@@ -2,7 +2,7 @@
 title: Field Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Field Features Supported on HTML Export
 linktitle: Field Features Supported on HTML Export
-description: "Work with field features supported when saving to HTML-based format."
+description: "Export to HTML-based format using field saving features."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-html-export/

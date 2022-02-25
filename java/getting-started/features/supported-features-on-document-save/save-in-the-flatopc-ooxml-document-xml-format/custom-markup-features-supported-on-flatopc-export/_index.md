@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on FlatOPC Export
 linktitle: Custom Markup Features Supported on FlatOPC Export
-description: "Work with custom markup features supported when saving to FlatOPC – XML format."
+description: "Export to FlatOPC – XML format using custom markup saving features."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-flatopc-export/
