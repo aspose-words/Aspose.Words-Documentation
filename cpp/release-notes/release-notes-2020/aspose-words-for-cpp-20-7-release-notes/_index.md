@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 20.7 Release Notes
 articleTitle: Aspose.Words for C++ 20.7 Release Notes
 linktitle: Aspose.Words for C++ 20.7 Release Notes
-description: "Aspose.Words for C++ 20.7 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for C++ 20.7 Release Notes – the latest updates and fixes."
 type: docs
 weight: 10
 url: /cpp/aspose-words-for-cpp-20-7-release-notes/

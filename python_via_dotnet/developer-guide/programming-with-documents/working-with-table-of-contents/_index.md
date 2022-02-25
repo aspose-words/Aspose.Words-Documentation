@@ -2,7 +2,7 @@
 title: Working with Table of Contents in Python
 articleTitle: Working with Table of Contents
 linktitle: Working with Table of Contents
-description: "Insert and manage Table ofContents (TOC) in a document using python."
+description: "Insert and manage 'Table of Contents' in a document using Python."
 type: docs
 weight: 83
 url: /python-net/working-with-table-of-contents/

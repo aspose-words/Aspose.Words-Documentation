@@ -2,7 +2,7 @@
 title: Aspose.Words for JasperReports 21.12 Release Notes
 articleTitle: Aspose.Words for JasperReports 21.12 Release Notes
 linktitle: Aspose.Words for JasperReports 21.12 Release Notes
-description: "Aspose.Words for JasperReports 21.12 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for JasperReports 21.12 Release Notes – the latest updates and fixes."
 type: docs
 weight: 20
 url: /jasperreports/aspose-words-for-jasperreports-21-12-release-notes/

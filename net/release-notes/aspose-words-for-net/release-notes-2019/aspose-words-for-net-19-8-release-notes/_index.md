@@ -2,7 +2,7 @@
 title: Aspose.Words for .NET 19.8 Release Notes
 articleTitle: Aspose.Words for .NET 19.8 Release Notes
 linktitle: Aspose.Words for .NET 19.8 Release Notes
-description: "Aspose.Words for .NET 19.8 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for .NET 19.8 Release Notes – the latest updates and fixes."
 type: docs
 weight: 50
 url: /net/aspose-words-for-net-19-8-release-notes/

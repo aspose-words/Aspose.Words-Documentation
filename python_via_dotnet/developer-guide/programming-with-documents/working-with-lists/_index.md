@@ -2,7 +2,7 @@
 title: Working with Lists in Python
 articleTitle: Working with Lists
 linktitle: Working with Lists
-description: "Create, specify formatting and restart lists in a document using python."
+description: "Create, specify formatting and restart lists in a document using Python."
 type: docs
 weight: 100
 url: /python-net/working-with-lists/

@@ -2,7 +2,7 @@
 title: Save in the OpenDocument Text (.ODT, .OTT) Format – Aspose.Words for Java
 articleTitle: Save in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Save in the OpenDocument Text (.ODT, .OTT) Format
-description: "Export to OpenDocument Text format using various saving features."
+description: "Export to ODT format using various saving features."
 type: docs
 weight: 130
 url: /java/save-in-the-opendocument-text-odt-ott-format/

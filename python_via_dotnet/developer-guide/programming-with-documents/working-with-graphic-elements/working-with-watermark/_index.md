@@ -2,7 +2,7 @@
 title: Working with Watermark in Python
 articleTitle: Working with Watermark
 linktitle: Working with Watermark
-description: "Create and manage watermarks in a document using python."
+description: "Create and manage watermarks in a document using Python."
 type: docs
 weight: 60
 url: /python-net/working-with-watermark/

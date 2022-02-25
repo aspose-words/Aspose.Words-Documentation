@@ -2,7 +2,7 @@
 title: Introduction and Creating Tables in Python
 articleTitle: Introduction and Creating Tables
 linktitle: Introduction and Creating Tables
-description: "Create and manage tables in a document using python."
+description: "Create and manage tables in a document using Python."
 type: docs
 weight: 10
 url: /python-net/introduction-and-creating-tables/

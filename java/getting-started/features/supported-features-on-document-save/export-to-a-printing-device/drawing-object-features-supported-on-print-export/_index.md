@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on Print Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on Print Export
 linktitle: Drawing Object Features Supported on Print Export
-description: "Work with drawing features supported when saving to printing device."
+description: "Work with drawing features when sending a document to printer."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-print-export/

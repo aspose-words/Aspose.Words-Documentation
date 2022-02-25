@@ -2,7 +2,7 @@
 title: Product Overview – Aspose.Words for Java
 articleTitle: Product Overview
 linktitle: Product Overview
-description: "With Aspose.Words for Java you can create, modify, convert, render, and print documents without relying on third-party applications. Aspose.Words is a cross-platform class library."
+description: "Aspose.Words for Java is a software library designed to create, modify, convert, render, and print documents without relying on any other software."
 type: docs
 weight: 5
 url: /java/product-overview/

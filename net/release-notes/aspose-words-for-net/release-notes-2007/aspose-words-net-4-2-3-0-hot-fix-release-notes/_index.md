@@ -2,7 +2,7 @@
 title: Aspose.Words .NET 4.2.3.0 Hot Fix Release Notes – Aspose.Words for .NET
 articleTitle: Aspose.Words .NET 4.2.3.0 Hot Fix Release Notes
 linktitle: Aspose.Words .NET 4.2.3.0 Hot Fix Release Notes
-description: "Aspose.Words .NET 4.2.3.0 Hot Fix Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words .NET 4.2.3.0 Hot Fix Release Notes – the latest updates and fixes."
 type: docs
 weight: 240
 url: /net/aspose-words-net-4-2-3-0-hot-fix-release-notes/

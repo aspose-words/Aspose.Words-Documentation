@@ -2,7 +2,7 @@
 title: Table Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on OpenDocument Export
 linktitle: Table Features Supported on OpenDocument Export
-description: "Export to OpenDocument Text format using table saving features."
+description: "Export to ODT format using table saving features."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-opendocument-export/

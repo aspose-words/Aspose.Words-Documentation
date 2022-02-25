@@ -2,7 +2,7 @@
 title: Numbering Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on OpenDocument Export
 linktitle: Numbering Features Supported on OpenDocument Export
-description: "Export to OpenDocument Text format using numbering saving features."
+description: "Export to ODT format using numbering saving features."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-opendocument-export/

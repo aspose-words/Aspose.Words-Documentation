@@ -2,7 +2,7 @@
 title: Numbering Features Supported on Print Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on Print Export
 linktitle: Numbering Features Supported on Print Export
-description: "Work with numbering features supported when saving to printing device."
+description: "Work with numbering features when sending a document to printer."
 type: docs
 weight: 80
 url: /java/numbering-features-supported-on-print-export/

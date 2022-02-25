@@ -131,6 +131,6 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% alert color="primary" %}}
 
-For more information about Aspose.Words features please visit [Working with Comments](/words/net/working-with-comments/).
+For more information about Aspose.Words features please visit [Working with comments](/words/net/working-with-comments/).
 
 {{% /alert %}}

@@ -2,7 +2,7 @@
 title: Contents Management in Python
 articleTitle: Contents Management
 linktitle: Contents Management
-description: "How to extract and manage document contents programmatically using python."
+description: "How to extract and manage document contents programmatically using Python."
 type: docs
 weight: 190
 url: /python-net/contents-management/

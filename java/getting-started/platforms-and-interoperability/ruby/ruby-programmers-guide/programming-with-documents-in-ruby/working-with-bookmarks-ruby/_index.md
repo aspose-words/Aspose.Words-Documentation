@@ -2,7 +2,7 @@
 title: Working With Bookmarks in Ruby – Aspose.Words for Java
 articleTitle: Working With Bookmarks in Ruby
 linktitle: Working With Bookmarks in Ruby
-description: "Working with Bookmarks using Ruby."
+description: "Work with bookmarks using Ruby."
 type: docs
 weight: 20
 url: /java/working-with-bookmarks-ruby/

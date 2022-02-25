@@ -2,7 +2,7 @@
 title: Working with Tables in Python
 articleTitle: Working with Tables
 linktitle: Working with Tables
-description: "Work with tables in a document using python."
+description: "Work with tables in a document using Python."
 type: docs
 weight: 90
 url: /python-net/working-with-tables/

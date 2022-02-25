@@ -2,7 +2,7 @@
 title: Aspose.Words for CPP 18.8 Release Notes – Aspose.Words for С++
 articleTitle: Aspose.Words for CPP 18.8 Release Notes
 linktitle: Aspose.Words for CPP 18.8 Release Notes
-description: "Aspose.Words for CPP 18.8 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for CPP 18.8 Release Notes – the latest updates and fixes."
 type: docs
 weight: 20
 url: /cpp/aspose-words-for-cpp-18-8-release-notes/

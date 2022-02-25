@@ -2,7 +2,7 @@
 title: Document Features Supported on Print Export – Aspose.Words for Java
 articleTitle: Document Features Supported on Print Export
 linktitle: Document Features Supported on Print Export
-description: "Work with document features supported when saving to printing device."
+description: "Work with document features when sending a document to printer."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-print-export/

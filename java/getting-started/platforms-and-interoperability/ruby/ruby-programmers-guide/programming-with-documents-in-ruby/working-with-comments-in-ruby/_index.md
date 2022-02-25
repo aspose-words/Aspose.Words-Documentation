@@ -2,7 +2,7 @@
 title: Working With Comments in Ruby – Aspose.Words for Java
 articleTitle: Working With Comments in Ruby
 linktitle: Working With Comments in Ruby
-description: "Working with Comments using Ruby."
+description: "Working with comments using Ruby."
 type: docs
 weight: 30
 url: /java/working-with-comments-in-ruby/
