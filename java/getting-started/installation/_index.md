@@ -22,7 +22,7 @@ Aspose hosts all Java APIs in [Maven repository](https://repository.aspose.com/w
 		<repository>
 			<id>AsposeJavaAPI</id>
 			<name>Aspose Java API</name>
-			<url>https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/</url>
+			<url>https://repository.aspose.com/repo/</url>
 		</repository>
 	</repositories>
 	{{< /highlight >}}
@@ -32,13 +32,13 @@ Aspose hosts all Java APIs in [Maven repository](https://repository.aspose.com/w
 		<dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-words</artifactId>
-			<version>20.11</version>
+			<version>22.02</version>
 			<classifier>jdk17</classifier>
 		</dependency>
 		<dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-words</artifactId>
-			<version>20.11</version>
+			<version>22.02</version>
 			<classifier>javadoc</classifier>
 		</dependency>
 	</dependencies>
