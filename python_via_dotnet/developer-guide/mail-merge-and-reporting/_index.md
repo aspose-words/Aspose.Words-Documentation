@@ -6,7 +6,7 @@ aliases:
   - /python/about-mail-merge/
   - /python/mail-merge-and-reporting/
 type: docs
-description: "Mail Merge is a popular feature for quickly creating documents. Aspose.Words for Python via .NET takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices."
+description: "Mail Merge is a popular feature for quickly creating documents using Python. Aspose.Words for Python via .NET takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices."
 keywords: "how to use mail merge python"
 weight: 30
 url: /python-net/mail-merge-and-reporting/

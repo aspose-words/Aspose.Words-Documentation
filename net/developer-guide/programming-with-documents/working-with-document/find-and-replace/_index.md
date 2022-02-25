@@ -3,7 +3,7 @@ title: Find and Replace in C#
 articleTitle: Find and Replace
 linktitle: Find and Replace
 type: docs
-description: "Find a string or regular expression pattern in your document and replace it with the text you want. In this case, you do not need third-party applications."
+description: "Find a string or regular expression pattern in your document and replace it with the text you want using C#."
 weight: 85
 url: /net/find-and-replace/
 ---

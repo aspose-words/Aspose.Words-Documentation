@@ -2,7 +2,7 @@
 title: Origin of LINQ Reporting Engine in C#
 articleTitle: Origin of LINQ Reporting Engine
 linktitle: Origin of LINQ Reporting Engine
-description: "Learn the concept of LINQ Reporting Engine to build a report C#."
+description: "Learn the concept of LINQ Reporting Engine to build a report in C#."
 type: docs
 weight: 10
 url: /net/origin-of-linq-reporting-engine/

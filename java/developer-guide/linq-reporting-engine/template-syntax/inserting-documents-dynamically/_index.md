@@ -2,7 +2,7 @@
 title: Inserting Documents Dynamically in Java
 articleTitle: Inserting Documents Dynamically
 linktitle: Inserting Documents Dynamically
-description: "Insert contents of outer documents into your document dynamically when building a report Java."
+description: "Insert contents of outer documents into your document dynamically when building a report in Java."
 type: docs
 weight: 50
 url: /java/inserting-documents-dynamically/

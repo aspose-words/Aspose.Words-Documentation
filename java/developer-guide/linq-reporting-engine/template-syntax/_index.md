@@ -2,7 +2,7 @@
 title: Template Syntax in Java
 articleTitle: Template Syntax
 linktitle: Template Syntax
-description: "How to create a template for LINQ Reporting Engine to build a report Java."
+description: "How to create a template for LINQ Reporting Engine to build a report in Java."
 type: docs
 weight: 30
 url: /java/template-syntax/

@@ -2,7 +2,7 @@
 title: Specify Save Options in Python
 articleTitle: Specify Save Options
 linktitle: Specify Save Options
-description: "More accurately control the save process."
+description: "More accurately control the save process using Python."
 type: docs
 weight: 10
 url: /python-net/specify-save-options/

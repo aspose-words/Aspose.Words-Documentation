@@ -2,7 +2,7 @@
 title: Document Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Document Features Supported on WordprocessingML Import
 linktitle: Document Features Supported on WordprocessingML Import
-description: "Import XML – Word 2003 WordprocessingML document using document load options."
+description: "Import WordprocessingML using document load options."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-wordprocessingml-import/

@@ -2,7 +2,7 @@
 title: Using TrueType Fonts in C#
 articleTitle: Using TrueType Fonts
 linktitle: Using TrueType Fonts
-description: "Aspose.Words for .NET can find the right font or its suitable replacement for correct document rendering. This ensures that the difference between the displayed document and the original is minimal when there is not enough information about a font."
+description: "Aspose.Words for .NET can find the right font or its suitable replacement for correct document rendering using C#. This ensures that the difference between the displayed document and the original is minimal when there is not enough information about a font."
 type: docs
 weight: 20
 url: /net/using-truetype-fonts/

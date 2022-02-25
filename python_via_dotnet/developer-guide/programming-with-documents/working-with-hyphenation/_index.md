@@ -2,7 +2,7 @@
 title: Working with Hyphenation in Python
 articleTitle: Working with Hyphenation
 linktitle: Working with Hyphenation
-description: "Use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
+description: "Use hyphenation for a more compact arrangement of text using Python. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."
 type: docs
 weight: 115
 url: /python-net/working-with-hyphenation/

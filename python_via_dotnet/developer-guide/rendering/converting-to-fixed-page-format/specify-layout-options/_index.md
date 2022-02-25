@@ -2,7 +2,7 @@
 title: Specify Layout Options in Python
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
-description: "Specify Layout Options for various document layouts."
+description: "Specify Layout Options for various document layouts using Python."
 type: docs
 weight: 10
 url: /python-net/specify-layout-options/

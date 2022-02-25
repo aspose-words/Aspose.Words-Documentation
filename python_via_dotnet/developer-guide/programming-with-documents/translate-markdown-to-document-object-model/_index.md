@@ -3,7 +3,7 @@ title: Translate Markdown to Document Object Model (DOM) in Python
 articleTitle: Translate Markdown to Document Object Model (DOM)
 linktitle: Translate Markdown to Document Object Model (DOM)
 type: docs
-description: "Tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
+description: "Tarnslate a Markdown document to Document Object Model and back using Python. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch."
 weight: 13
 url: /python-net/translate-markdown-to-document-object-model/
 aliases: [/python/translate-markdown-to-document-object-model/]

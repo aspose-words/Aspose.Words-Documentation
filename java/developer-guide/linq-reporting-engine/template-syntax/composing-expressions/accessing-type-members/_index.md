@@ -2,7 +2,7 @@
 title: Accessing Type Members in Java
 articleTitle: Accessing Type Members
 linktitle: Accessing Type Members
-description: "Access public (static and instance) members of accessible types in template expressions when building a report Java."
+description: "Access public (static and instance) members of accessible types in template expressions when building a report in Java."
 type: docs
 weight: 30
 url: /java/accessing-type-members/

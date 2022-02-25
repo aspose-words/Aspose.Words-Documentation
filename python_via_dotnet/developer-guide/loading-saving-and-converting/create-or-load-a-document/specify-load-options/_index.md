@@ -2,7 +2,7 @@
 title: Specify Load Options in Python
 articleTitle: Specify Load Options
 linktitle: Specify Load Options
-description: "More accurately control the load process."
+description: "More accurately control the load process using Python."
 type: docs
 weight: 10
 url: /python-net/specify-load-options/

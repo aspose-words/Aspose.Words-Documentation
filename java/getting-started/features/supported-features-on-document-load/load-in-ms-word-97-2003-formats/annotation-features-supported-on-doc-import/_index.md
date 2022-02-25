@@ -2,7 +2,7 @@
 title: Annotation Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Annotation Features Supported on DOC Import
 linktitle: Annotation Features Supported on DOC Import
-description: "Import DOC – Word 97-2003 document using annotation load options."
+description: "Import DOC document using annotation load options."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-doc-import/

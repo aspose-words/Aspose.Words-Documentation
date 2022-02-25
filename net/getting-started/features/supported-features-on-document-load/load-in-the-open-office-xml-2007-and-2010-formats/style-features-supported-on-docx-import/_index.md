@@ -2,7 +2,7 @@
 title: Style Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Style Features Supported on DOCX Import
 linktitle: Style Features Supported on DOCX Import
-description: "Import Open Office XML 2007 and 2010 document using style load options."
+description: "Import OOXML document using style load options."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-docx-import/

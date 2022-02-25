@@ -2,7 +2,7 @@
 title: Field Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Field Features Supported on WordprocessingML Export
 linktitle: Field Features Supported on WordprocessingML Export
-description: "Export to XML – Word 2003 WordprocessingML format using field saving features."
+description: "Export to WordprocessingML format using field saving features."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-wordprocessingml-export/

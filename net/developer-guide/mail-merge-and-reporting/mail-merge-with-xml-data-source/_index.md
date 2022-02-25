@@ -3,7 +3,7 @@ title: Mail Merge with XML Data Source in C#
 articleTitle: Mail Merge with XML Data Source
 linktitle: Mail Merge with XML Data Source
 type: docs
-description: "Use a variety of data sources when performing a mail merge operation, including an XML file. The main advantage of using XML is the ability to define a hierarchy directly in the document."
+description: "Use a variety of data sources when performing a mail merge operation, including an XML file using C#. The main advantage of using XML is the ability to define a hierarchy directly in the document."
 keywords: "mail merge xml data source c#"
 weight: 30
 url: /net/mail-merge-with-xml-data-source/

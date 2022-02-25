@@ -2,7 +2,7 @@
 title: Specify Rendering Options When Converting to PDF in Python
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF
-description: "Convert a document to PDF with advanced options. Use PdfSaveOptions to change the result of saving a document to PDF format."
+description: "Convert a document to PDF with advanced options using Python. Use PdfSaveOptions to change the result of saving a document to PDF format."
 type: docs
 weight: 20
 url: /python-net/specify-rendering-options-when-converting-to-pdf/

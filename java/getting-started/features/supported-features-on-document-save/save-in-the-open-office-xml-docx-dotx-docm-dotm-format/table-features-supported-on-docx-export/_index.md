@@ -2,7 +2,7 @@
 title: Table Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Table Features Supported on DOCX Export
 linktitle: Table Features Supported on DOCX Export
-description: "Export to Open Office XML 2007 and 2010 format using table saving features."
+description: "Export to OOXML format using table saving features."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-docx-export/

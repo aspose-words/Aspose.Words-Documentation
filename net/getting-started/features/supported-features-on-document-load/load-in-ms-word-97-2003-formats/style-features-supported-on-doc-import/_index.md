@@ -2,7 +2,7 @@
 title: Style Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Style Features Supported on DOC Import
 linktitle: Style Features Supported on DOC Import
-description: "Import DOC – Word 97-2003 document using style load options."
+description: "Import DOC document using style load options."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-doc-import/

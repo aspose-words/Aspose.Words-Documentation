@@ -2,7 +2,7 @@
 title: Working with DataTable Objects in Java
 articleTitle: Working with DataTable Objects
 linktitle: Working with DataTable Objects
-description: "Treat DataTable row objects in template expressions as enumerations of their rows when building a report Java."
+description: "Treat DataTable row objects in template expressions as enumerations of their rows when building a report in Java."
 type: docs
 weight: 20
 url: /java/working-with-datatable-objects/

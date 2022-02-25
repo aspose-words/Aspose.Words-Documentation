@@ -2,7 +2,7 @@
 title: Rendering Shapes Separately from a Document in Python
 articleTitle: Rendering Shapes Separately from a Document
 linktitle: Rendering Shapes Separately from a Document
-description: "Extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location."
+description: "Extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location using Python."
 type: docs
 weight: 40
 url: /python-net/rendering-shapes-separately-from-a-document/

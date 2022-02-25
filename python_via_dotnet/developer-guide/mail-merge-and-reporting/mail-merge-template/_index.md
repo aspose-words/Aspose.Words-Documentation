@@ -3,7 +3,7 @@ title: Mail Merge Template in Python
 articleTitle: Mail Merge Template
 linktitle: Mail Merge Template
 type: docs
-description: "Create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields."
+description: "Create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields using Python."
 keywords: "create mail merge template python"
 weight: 10
 url: /python-net/mail-merge-template/

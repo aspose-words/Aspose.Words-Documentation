@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on DOCX Import
 linktitle: Custom Markup Features Supported on DOCX Import
-description: "Import Open Office XML 2007 an 2010 document using custom markup load options."
+description: "Import OOXML document using custom markup load options."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-docx-import/

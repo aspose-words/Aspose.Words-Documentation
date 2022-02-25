@@ -2,7 +2,7 @@
 title: Convert a Document to PDF in Python
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
-description: "Convert a document to PDF. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
+description: "Convert a document to PDF using Python. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
 type: docs
 weight: 10
 url: /python-net/convert-a-document-to-pdf/

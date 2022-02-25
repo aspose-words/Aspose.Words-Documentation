@@ -3,7 +3,7 @@ title: Convert PDF to Other Document Formats in Python
 articleTitle: Convert PDF to Other Document Formats
 linktitle: Convert PDF to Other Document Formats
 type: docs
-description: "Convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose.Words."
+description: "Convert PDF to Word formats such as DOCX, DOC, image formats such as JPG or PNG, or any other formats supported by Aspose using Python.Words."
 keywords: convert pdf to other formats python
 weight: 45
 url: /python-net/convert-pdf-to-other-document-formats/

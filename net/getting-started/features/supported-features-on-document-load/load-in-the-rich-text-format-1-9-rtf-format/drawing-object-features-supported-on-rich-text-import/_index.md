@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on Rich Text Import
 linktitle: Drawing Object Features Supported on Rich Text Import
-description: "Import Rich Text format using drawing object load options."
+description: "Import RTF document using drawing object load options."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-rich-text-import/

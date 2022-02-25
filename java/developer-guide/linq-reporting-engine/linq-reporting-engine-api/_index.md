@@ -2,7 +2,7 @@
 title: LINQ Reporting Engine API in Java
 articleTitle: LINQ Reporting Engine API
 linktitle: LINQ Reporting Engine API
-description: "Learn LINQ Reporting Engine API to build a report Java."
+description: "Learn LINQ Reporting Engine API to build a report in Java."
 type: docs
 weight: 50
 url: /java/linq-reporting-engine-api/

@@ -2,7 +2,7 @@
 title: Text Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Text Features Supported on DOC Import
 linktitle: Text Features Supported on DOC Import
-description: "Import DOC – Word 97-2003 document using text load options."
+description: "Import DOC document using text load options."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-doc-import/

@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on DOCX Export
 linktitle: Footnotes and Endnote Features Supported on DOCX Export
-description: "Export to Open Office XML 2007 and 2010 format using footnote and endnote saving features."
+description: "Export to OOXML format using footnote and endnote saving features."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-docx-export/

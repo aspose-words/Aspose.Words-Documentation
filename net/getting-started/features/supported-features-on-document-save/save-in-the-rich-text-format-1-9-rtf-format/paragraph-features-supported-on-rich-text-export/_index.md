@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on Rich Text Export
 linktitle: Paragraph Features Supported on Rich Text Export
-description: "Export to Rich Text format using paragraph saving features."
+description: "Export to RTF format using paragraph saving features."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-rich-text-export/

@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on WordprocessingML Export
 linktitle: Drawing Object Features Supported on WordprocessingML Export
-description: "Export to XML – Word 2003 WordprocessingML format using drawing saving features."
+description: "Export to WordprocessingML format using drawing saving features."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-wordprocessingml-export/

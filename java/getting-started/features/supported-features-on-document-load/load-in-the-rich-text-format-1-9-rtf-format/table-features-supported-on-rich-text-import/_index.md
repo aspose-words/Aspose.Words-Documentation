@@ -2,7 +2,7 @@
 title: Table Features Supported on Rich Text Import – Aspose.Words for Java
 articleTitle: Table Features Supported on Rich Text Import
 linktitle: Table Features Supported on Rich Text Import
-description: "Import Rich Text format using table load options."
+description: "Import RTF document using table load options."
 type: docs
 weight: 110
 url: /java/table-features-supported-on-rich-text-import/

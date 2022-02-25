@@ -2,7 +2,7 @@
 title: Section Features Supported on Rich Text Import – Aspose.Words for Java
 articleTitle: Section Features Supported on Rich Text Import
 linktitle: Section Features Supported on Rich Text Import
-description: "Import Rich Text format using section load options."
+description: "Import RTF document using section load options."
 type: docs
 weight: 90
 url: /java/section-features-supported-on-rich-text-import/

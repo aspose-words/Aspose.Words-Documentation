@@ -3,7 +3,7 @@ title: Aspose.Words Document Object Model (DOM) in C#
 articleTitle: Aspose.Words Document Object Model (DOM)
 linktitle: Aspose.Words Document Object Model (DOM)
 type: docs
-description: "Aspose.Words Document Object Model (DOM) is an in-memory representation of a Word document. By using the Aspose.Words DOM classes, you can programmatically read, manipulate, and modify the content and formatting of a Word document with .NET."
+description: "Document Object Model (DOM) is an in-memory representation of a Word document. Read, manipulate, and modify the content and formatting of a Word document using C#."
 weight: 10
 url: /net/aspose-words-document-object-model/
 ---

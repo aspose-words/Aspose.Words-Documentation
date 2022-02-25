@@ -3,7 +3,7 @@ title: Document Builder Overview in Java
 articleTitle: Document Builder Overview
 linktitle: Document Builder Overview
 type: docs
-description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements with Java."
+description: "DocumentBuilder allows you to build dynamic documents from scratch or add new elements to existing ones. DocumentBuilder provides methods to insert text, checkboxes, tables, images, and other content elements in Java."
 weight: 15
 url: /java/document-builder-overview/
 ---

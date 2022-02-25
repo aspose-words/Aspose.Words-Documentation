@@ -2,7 +2,7 @@
 title: Setting Background Color Dynamically in Java
 articleTitle: Setting Background Color Dynamically
 linktitle: Setting Background Color Dynamically
-description: "Set text background color for document contents dynamically when building a report Java."
+description: "Set text background color for document contents dynamically when building a report in Java."
 type: docs
 weight: 90
 url: /java/setting-background-color-dynamically/

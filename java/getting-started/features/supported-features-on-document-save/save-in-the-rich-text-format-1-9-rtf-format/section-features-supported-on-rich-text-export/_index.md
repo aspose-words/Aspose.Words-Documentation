@@ -2,7 +2,7 @@
 title: Section Features Supported on Rich Text Export – Aspose.Words for Java
 articleTitle: Section Features Supported on Rich Text Export
 linktitle: Section Features Supported on Rich Text Export
-description: "Export to Rich Text format using section saving features."
+description: "Export to RTF format using section saving features."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-rich-text-export/

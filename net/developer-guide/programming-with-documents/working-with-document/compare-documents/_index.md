@@ -2,7 +2,7 @@
 title: Compare Documents in C#
 articleTitle: Compare Documents
 linktitle: Compare Documents
-description: "Compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
+description: "Compare two documents in any supported formats and shows content changes using C#. You can apply advanced options when comparing."
 type: docs
 weight: 50
 url: /net/compare-documents/

@@ -2,7 +2,7 @@
 title: Working with Content Controls in Java
 articleTitle: Working with Content Controls
 linktitle: Working with Content Controls
-description: "Perform certain operations on content controls dynamically while building a report Java."
+description: "Perform certain operations on content controls dynamically while building a report in Java."
 type: docs
 weight: 140
 url: /java/working-with-content-controls/

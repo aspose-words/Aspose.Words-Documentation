@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on DOC Export
 linktitle: Paragraph Features Supported on DOC Export
-description: "Export to DOC – Word 97-2003 format using paragraph saving features."
+description: "Export to DOC format using paragraph saving features."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-doc-export/

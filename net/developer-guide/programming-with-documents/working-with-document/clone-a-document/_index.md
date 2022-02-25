@@ -3,7 +3,7 @@ title: Clone a Document in C#
 articleTitle: Clone a Document
 linktitle: Clone a Document
 type: docs
-description: "Clone a document to get its identical copy. When creating a copy, nodes and properties of the original document are cloned."
+description: "Clone a document to get its identical copy using C#. When creating a copy, nodes and properties of the original document are cloned."
 weight: 60
 url: /net/clone-a-document/
 ---
