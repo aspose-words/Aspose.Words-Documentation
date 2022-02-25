@@ -2,7 +2,7 @@
 title: Annotation Features Supported on Image Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on Image Export
 linktitle: Annotation Features Supported on Image Export
-description: "Work with annotation features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Export images (JPEG, PNG, SVG, etc.) using annotation saving features."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-image-export/

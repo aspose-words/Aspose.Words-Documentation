@@ -2,7 +2,7 @@
 title: Numbering Features Supported on XPS Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on XPS Export
 linktitle: Numbering Features Supported on XPS Export
-description: "Work with numbering features supported when saving to XPS format."
+description: "Export to XPS format using numbering saving features."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-xps-export/

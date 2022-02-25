@@ -2,7 +2,7 @@
 title: Numbering Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on WordprocessingML Export
 linktitle: Numbering Features Supported on WordprocessingML Export
-description: "Work with numbering features supported when saving to XML – Word 2003 WordprocessingML format."
+description: "Export to XML – Word 2003 WordprocessingML format using numbering saving features."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-wordprocessingml-export/

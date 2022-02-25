@@ -2,7 +2,7 @@
 title: Aspose.Words for Reporting Services 22.2 Release Notes
 articleTitle: Aspose.Words for Reporting Services 22.2 Release Notes
 linktitle: Aspose.Words for Reporting Services 22.2 Release Notes
-description: "Aspose.Words for Reporting Services 22.2 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Reporting Services 22.2 Release Notes – the latest updates and fixes."
 type: docs
 weight: 9
 url: /reportingservices/aspose-words-for-reporting-services-22-2-release-notes/

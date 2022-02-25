@@ -2,7 +2,7 @@
 title: Convert a Document to PDF in C#
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
-description: "Convert a document from almost any format to PDF. For example, you can convert a document from Microsoft Word formats, such as DOC or DOCX, or from popular single-page or multi-page image formats, to PDF."
+description: "Convert a document to PDF. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
 type: docs
 weight: 10
 url: /net/convert-a-document-to-pdf/

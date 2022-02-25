@@ -2,7 +2,7 @@
 title: Save in the OpenDocument Text Format Overview – Aspose.Words for Java
 articleTitle: Save in the OpenDocument Text Format Overview
 linktitle: Save in the OpenDocument Text Format Overview
-description: "Work with different features supported when saving to OpenDocument Text format."
+description: "Export to ODT format using different saving features."
 type: docs
 weight: 90
 url: /java/save-in-the-opendocument-text-format-overview/

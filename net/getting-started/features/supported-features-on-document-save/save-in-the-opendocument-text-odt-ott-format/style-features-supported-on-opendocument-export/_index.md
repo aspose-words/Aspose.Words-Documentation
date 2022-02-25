@@ -2,7 +2,7 @@
 title: Style Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on OpenDocument Export
 linktitle: Style Features Supported on OpenDocument Export
-description: "Work with style features supported when saving to OpenDocument Text format."
+description: "Export to ODT format using style saving features."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-opendocument-export/

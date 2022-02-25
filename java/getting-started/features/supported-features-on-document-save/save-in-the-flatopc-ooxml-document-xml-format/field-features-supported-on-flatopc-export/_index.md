@@ -2,7 +2,7 @@
 title: Field Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Field Features Supported on FlatOPC Export
 linktitle: Field Features Supported on FlatOPC Export
-description: "Work with field features supported when saving to FlatOPC – XML format."
+description: "Export to FlatOPC – XML format using field saving features."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-flatopc-export/

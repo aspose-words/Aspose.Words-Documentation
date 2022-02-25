@@ -2,7 +2,7 @@
 title: Style Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on WordprocessingML Export
 linktitle: Style Features Supported on WordprocessingML Export
-description: "Work with style features supported when saving to XML – Word 2003 WordprocessingML format."
+description: "Export to XML – Word 2003 WordprocessingML format using style saving features."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-wordprocessingml-export/

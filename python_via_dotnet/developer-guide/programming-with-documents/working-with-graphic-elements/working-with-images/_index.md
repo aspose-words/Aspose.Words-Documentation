@@ -2,7 +2,7 @@
 title: Working with Images in Python
 articleTitle: Working with Images
 linktitle: Working with Images
-description: "Create and manage images of various formats in a document using python."
+description: "Create and manage images of various formats in a document using Python."
 type: docs
 weight: 40
 url: /python-net/working-with-images/

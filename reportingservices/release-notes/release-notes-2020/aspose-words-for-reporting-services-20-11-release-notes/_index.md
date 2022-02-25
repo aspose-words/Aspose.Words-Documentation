@@ -2,7 +2,7 @@
 title: Aspose.Words for Reporting Services 20.11 Release Notes
 articleTitle: Aspose.Words for Reporting Services 20.11 Release Notes
 linktitle: Aspose.Words for Reporting Services 20.11 Release Notes
-description: "Aspose.Words for Reporting Services 20.11 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Reporting Services 20.11 Release Notes – the latest updates and fixes."
 type: docs
 weight: 10
 url: /reportingservices/aspose-words-for-reporting-services-20-11-release-notes/

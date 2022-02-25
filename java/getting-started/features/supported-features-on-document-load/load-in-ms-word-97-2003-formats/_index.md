@@ -2,7 +2,7 @@
 title: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format – Aspose.Words for Java
 articleTitle: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
 linktitle: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
-description: "Work with different features supported on DOC – Word 97-2003 format import."
+description: "Import DOC – Word 97-2003 document using different load options."
 type: docs
 weight: 50
 url: /java/load-in-ms-word-97-2003-formats/

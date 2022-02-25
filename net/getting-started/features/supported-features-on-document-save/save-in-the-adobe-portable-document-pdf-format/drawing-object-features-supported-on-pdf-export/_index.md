@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on PDF Export
 linktitle: Drawing Object Features Supported on PDF Export
-description: "Work with drawing features supported when saving to PDF format."
+description: "Export to PDF format using drawing saving features."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-pdf-export/

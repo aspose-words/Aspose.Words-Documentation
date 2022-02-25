@@ -2,7 +2,7 @@
 title: Product Overview – Aspose.Words for .NET
 articleTitle: Product Overview
 linktitle: Product Overview
-description: "With Aspose.Words for .NET you can create, modify, convert, render, and print documents without relying on third-party applications. Aspose.Words is a cross-platform class library."
+description: "Aspose.Words for .NET is a software library designed to create, modify, convert, render, and print documents without relying on any other software."
 type: docs
 weight: 15
 url: /net/product-overview/

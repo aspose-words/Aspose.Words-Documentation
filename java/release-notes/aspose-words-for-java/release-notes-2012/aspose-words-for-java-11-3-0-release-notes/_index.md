@@ -2,7 +2,7 @@
 title: Aspose.Words for Java 11.3.0 Release Notes
 articleTitle: Aspose.Words for Java 11.3.0 Release Notes
 linktitle: Aspose.Words for Java 11.3.0 Release Notes
-description: "Aspose.Words for Java 11.3.0 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Java 11.3.0 Release Notes – the latest updates and fixes."
 type: docs
 weight: 80
 url: /java/aspose-words-for-java-11-3-0-release-notes/

@@ -2,7 +2,7 @@
 title: Section Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on WordprocessingML Export
 linktitle: Section Features Supported on WordprocessingML Export
-description: "Work with section features supported when saving to XML – Word 2003 WordprocessingML format."
+description: "Export to XML – Word 2003 WordprocessingML format using section saving features."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-wordprocessingml-export/

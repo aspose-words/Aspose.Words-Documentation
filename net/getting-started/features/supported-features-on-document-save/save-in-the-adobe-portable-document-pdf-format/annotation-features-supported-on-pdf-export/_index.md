@@ -2,7 +2,7 @@
 title: Annotation Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on PDF Export
 linktitle: Annotation Features Supported on PDF Export
-description: "Work with annotation features supported when saving to PDF format."
+description: "Export to PDF format using annotation saving features."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-pdf-export/

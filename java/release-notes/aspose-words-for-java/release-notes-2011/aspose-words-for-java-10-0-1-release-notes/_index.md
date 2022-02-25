@@ -2,7 +2,7 @@
 title: Aspose.Words for Java 10.0.1 Release Notes
 articleTitle: Aspose.Words for Java 10.0.1 Release Notes
 linktitle: Aspose.Words for Java 10.0.1 Release Notes
-description: "Aspose.Words for Java 10.0.1 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Java 10.0.1 Release Notes – the latest updates and fixes."
 type: docs
 weight: 80
 url: /java/aspose-words-for-java-10-0-1-release-notes/

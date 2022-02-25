@@ -2,7 +2,7 @@
 title: Field Features Supported on Image Export – Aspose.Words for .NET
 articleTitle: Field Features Supported on Image Export
 linktitle: Field Features Supported on Image Export
-description: "Work with field features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Export images (JPEG, PNG, SVG, etc.) using field saving features."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-image-export/

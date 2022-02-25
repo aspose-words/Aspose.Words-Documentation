@@ -2,7 +2,7 @@
 title: Working with Sections in Python
 articleTitle: Working with Sections
 linktitle: Working with Sections
-description: "Create and manage sections and section breaks in a document using python."
+description: "Create and manage sections and section breaks in a document using Python."
 type: docs
 weight: 60
 url: /python-net/working-with-sections/

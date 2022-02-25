@@ -2,7 +2,7 @@
 title: Style Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on DOC Export
 linktitle: Style Features Supported on DOC Export
-description: "Work with style features supported when saving to DOC – Word 97-2003 format."
+description: "Export to DOC – Word 97-2003 format using style saving features."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-doc-export/

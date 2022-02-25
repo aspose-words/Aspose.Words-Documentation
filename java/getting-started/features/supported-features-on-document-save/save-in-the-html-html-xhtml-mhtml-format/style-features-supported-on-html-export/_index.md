@@ -2,7 +2,7 @@
 title: Style Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Style Features Supported on HTML Export
 linktitle: Style Features Supported on HTML Export
-description: "Work with style features supported when saving to HTML-based format."
+description: "Export to HTML-based format using style saving features."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-html-export/

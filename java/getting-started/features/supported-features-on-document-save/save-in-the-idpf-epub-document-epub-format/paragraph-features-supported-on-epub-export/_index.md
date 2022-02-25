@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on EPUB Export – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on EPUB Export
 linktitle: Paragraph Features Supported on EPUB Export
-description: "Work with paragraph features supported when saving to EPUB format."
+description: "Export to EPUB format using paragraph saving features."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-epub-export/

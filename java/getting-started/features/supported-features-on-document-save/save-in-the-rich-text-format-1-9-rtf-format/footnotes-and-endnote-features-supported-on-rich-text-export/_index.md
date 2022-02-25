@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on Rich Text Export – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on Rich Text Export
 linktitle: Footnotes and Endnote Features Supported on Rich Text Export
-description: "Work with footnote and endnote features supported when saving to Rich Text format."
+description: "Export to Rich Text format using footnote and endnote saving features."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-rich-text-export/

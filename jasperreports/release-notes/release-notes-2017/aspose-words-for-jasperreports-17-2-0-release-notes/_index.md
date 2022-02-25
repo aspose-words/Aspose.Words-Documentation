@@ -2,7 +2,7 @@
 title: Aspose.Words for JasperReports 17.2.0 Release Notes
 articleTitle: Aspose.Words for JasperReports 17.2.0 Release Notes
 linktitle: Aspose.Words for JasperReports 17.2.0 Release Notes
-description: "Aspose.Words for JasperReports 17.2.0 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for JasperReports 17.2.0 Release Notes – the latest updates and fixes."
 type: docs
 weight: 80
 url: /jasperreports/aspose-words-for-jasperreports-17-2-0-release-notes/

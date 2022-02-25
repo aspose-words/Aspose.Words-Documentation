@@ -2,7 +2,7 @@
 title: Aspose.Words for .NET 15.10.0 Release Notes
 articleTitle: Aspose.Words for .NET 15.10.0 Release Notes
 linktitle: Aspose.Words for .NET 15.10.0 Release Notes
-description: "Aspose.Words for .NET 15.10.0 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for .NET 15.10.0 Release Notes – the latest updates and fixes."
 type: docs
 weight: 30
 url: /net/aspose-words-for-net-15-10-0-release-notes/

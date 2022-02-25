@@ -2,7 +2,7 @@
 title: Section Features Supported on FlatOPC Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on FlatOPC Export
 linktitle: Section Features Supported on FlatOPC Export
-description: "Work with section features supported when saving to FlatOPC – XML format."
+description: "Export to FlatOPC – XML format using section saving features."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-flatopc-export/

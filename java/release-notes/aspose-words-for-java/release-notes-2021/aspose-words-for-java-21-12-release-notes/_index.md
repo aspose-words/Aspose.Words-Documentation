@@ -2,7 +2,7 @@
 title: Aspose.Words for Java 21.12 Release Notes
 articleTitle: Aspose.Words for Java 21.12 Release Notes
 linktitle: Aspose.Words for Java 21.12 Release Notes
-description: "Aspose.Words for Java 21.12 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Java 21.12 Release Notes – the latest updates and fixes."
 type: docs
 weight: 1
 url: /java/aspose-words-for-java-21-12-release-notes/

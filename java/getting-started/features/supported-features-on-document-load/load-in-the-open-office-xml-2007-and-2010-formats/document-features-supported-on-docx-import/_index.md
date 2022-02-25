@@ -2,7 +2,7 @@
 title: Document Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Document Features Supported on DOCX Import
 linktitle: Document Features Supported on DOCX Import
-description: "Work with document features supported on Open Office XML 2007 and 2010 Format import."
+description: "Import Open Office XML 2007 and 2010 document using document load options."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-docx-import/

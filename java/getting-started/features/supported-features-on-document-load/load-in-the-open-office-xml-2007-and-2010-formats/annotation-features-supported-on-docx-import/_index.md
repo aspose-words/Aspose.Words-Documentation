@@ -2,7 +2,7 @@
 title: Annotation Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Annotation Features Supported on DOCX Import
 linktitle: Annotation Features Supported on DOCX Import
-description: "Work with annotation features supported on Open Office XML 2007 an 2010 Format import."
+description: "Import Open Office XML 2007 an 2010 document using annotation load options."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-docx-import/

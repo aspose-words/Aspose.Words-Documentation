@@ -2,7 +2,7 @@
 title: Working with VBA Macros in Python
 articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
-description: "Create, read, write, clone, and manage VBA macros in a document using python."
+description: "Create, read, write, clone, and manage VBA macros in a document using Python."
 type: docs
 weight: 200
 url: /python-net/working-with-vba-macros/

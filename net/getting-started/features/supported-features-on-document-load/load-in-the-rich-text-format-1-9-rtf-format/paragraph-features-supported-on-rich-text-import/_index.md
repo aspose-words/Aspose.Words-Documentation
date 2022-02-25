@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on Rich Text Import
 linktitle: Paragraph Features Supported on Rich Text Import
-description: "Work with paragraph features supported on Rich Text import."
+description: "Import Rich Text format using paragraph load options."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-rich-text-import/

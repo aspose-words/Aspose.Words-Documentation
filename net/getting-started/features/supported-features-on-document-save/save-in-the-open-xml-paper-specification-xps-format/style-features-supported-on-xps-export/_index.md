@@ -2,7 +2,7 @@
 title: Style Features Supported on XPS Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on XPS Export
 linktitle: Style Features Supported on XPS Export
-description: "Work with style features supported when saving to XPS format."
+description: "Export to XPS format using style saving features."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-xps-export/

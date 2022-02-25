@@ -2,7 +2,7 @@
 title: Working with Ranges in Python
 articleTitle: Working with Ranges
 linktitle: Working with Ranges
-description: "Work with ranges in a document using python."
+description: "Work with ranges in a document using Python."
 type: docs
 weight: 65
 url: /python-net/working-with-ranges/

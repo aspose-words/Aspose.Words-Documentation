@@ -2,7 +2,7 @@
 title: Load in the Open Office XML 2007 an 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format – Aspose.Words for Java
 articleTitle: Load in the Open Office XML 2007 an 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
 linktitle: Load in the Open Office XML 2007 an 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
-description: "Work with various features supported on Open Office XML 2007 an 2010 Format import."
+description: "Import Open Office XML 2007 an 2010 document using various load options."
 type: docs
 weight: 60
 url: /java/load-in-the-open-office-xml-2007-and-2010-formats/

@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on Image Export – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on Image Export
 linktitle: Paragraph Features Supported on Image Export
-description: "Work with paragraph features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Export images (JPEG, PNG, SVG, etc.) using paragraph saving features."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-image-export/

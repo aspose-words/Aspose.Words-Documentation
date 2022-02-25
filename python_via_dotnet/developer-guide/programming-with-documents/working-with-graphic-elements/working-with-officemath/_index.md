@@ -2,7 +2,7 @@
 title: Working with OfficeMath in Python
 articleTitle: Working with OfficeMath
 linktitle: Working with OfficeMath
-description: "Create and manage OfficeMath Type Objects in a document using python."
+description: "Create and manage OfficeMath Type Objects in a document using Python."
 type: docs
 weight: 30
 url: /python-net/working-with-officemath/

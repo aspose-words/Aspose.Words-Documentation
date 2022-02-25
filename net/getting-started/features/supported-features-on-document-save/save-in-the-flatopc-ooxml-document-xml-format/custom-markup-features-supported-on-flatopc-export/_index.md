@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on FlatOPC Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on FlatOPC Export
 linktitle: Custom Markup Features Supported on FlatOPC Export
-description: "Work with custom markup field supported when saving to FlatOPC – XML format."
+description: "Export to FlatOPC – XML format using custom markup field saving features."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-flatopc-export/

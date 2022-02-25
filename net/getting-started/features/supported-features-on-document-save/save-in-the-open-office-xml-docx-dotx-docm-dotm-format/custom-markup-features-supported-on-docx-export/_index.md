@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on DOCX Export
 linktitle: Custom Markup Features Supported on DOCX Export
-description: "Work with custom markup features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Export to Open Office XML 2007 and 2010 format using custom markup saving features."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-docx-export/

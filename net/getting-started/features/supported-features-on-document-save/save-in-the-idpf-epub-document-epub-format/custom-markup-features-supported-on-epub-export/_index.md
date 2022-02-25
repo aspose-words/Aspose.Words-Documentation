@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on EPUB Export
 linktitle: Custom Markup Features Supported on EPUB Export
-description: "Work with custom markup features supported when saving to EPUB format."
+description: "Export to EPUB format using custom markup saving features."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-epub-export/

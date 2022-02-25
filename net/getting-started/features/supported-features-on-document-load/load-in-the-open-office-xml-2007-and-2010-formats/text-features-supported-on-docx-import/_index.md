@@ -2,7 +2,7 @@
 title: Text Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Text Features Supported on DOCX Import
 linktitle: Text Features Supported on DOCX Import
-description: "Work with text features supported on Open Office XML 2007 an 2010 Format import."
+description: "Import Open Office XML 2007 an 2010 document using text load options."
 type: docs
 weight: 130
 url: /net/text-features-supported-on-docx-import/

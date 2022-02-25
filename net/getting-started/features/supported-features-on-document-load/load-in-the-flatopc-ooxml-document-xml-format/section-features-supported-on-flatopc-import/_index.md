@@ -2,7 +2,7 @@
 title: Section Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Section Features Supported on FlatOPC Import
 linktitle: Section Features Supported on FlatOPC Import
-description: "Work with section features supported on FlatOPC format import."
+description: "Import FlatOPC document using section load options."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-flatopc-import/

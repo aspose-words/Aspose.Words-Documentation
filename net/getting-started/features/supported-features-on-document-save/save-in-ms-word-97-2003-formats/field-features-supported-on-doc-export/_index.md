@@ -2,7 +2,7 @@
 title: Field Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Field Features Supported on DOC Export
 linktitle: Field Features Supported on DOC Export
-description: "Work with field features supported when saving to DOC – Word 97-2003 format."
+description: "Export to DOC – Word 97-2003 format using field saving features."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-doc-export/

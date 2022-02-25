@@ -2,7 +2,7 @@
 title: Document Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Document Features Supported on DOCX Export
 linktitle: Document Features Supported on DOCX Export
-description: "Work with document features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Export to Open Office XML 2007 and 2010 format using document saving features."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-docx-export/

@@ -2,7 +2,7 @@
 title: Section Features Supported on OpenDocument Import – Aspose.Words for Java
 articleTitle: Section Features Supported on OpenDocument Import
 linktitle: Section Features Supported on OpenDocument Import
-description: "Work with section features supported on OpenDocument Text import."
+description: "Import OpenDocument Text format using section load options."
 type: docs
 weight: 90
 url: /java/section-features-supported-on-opendocument-import/

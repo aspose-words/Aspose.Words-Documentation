@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on DOC Import
 linktitle: Footnotes and Endnote Features Supported on DOC Import
-description: "Work with footnote and endnote features supported on DOC – Word 97-2003 format import."
+description: "Import DOC – Word 97-2003 document using footnote and endnote load options."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-doc-import/

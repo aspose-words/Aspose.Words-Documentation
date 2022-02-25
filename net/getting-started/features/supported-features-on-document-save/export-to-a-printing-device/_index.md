@@ -2,7 +2,7 @@
 title: Export to a Printing Device – Aspose.Words for .NET
 articleTitle: Export to a Printing Device
 linktitle: Export to a Printing Device
-description: "Work with different features supported when saving to printing device."
+description: "Work with different features when sending a document to printer."
 type: docs
 weight: 20
 url: /net/export-to-a-printing-device/

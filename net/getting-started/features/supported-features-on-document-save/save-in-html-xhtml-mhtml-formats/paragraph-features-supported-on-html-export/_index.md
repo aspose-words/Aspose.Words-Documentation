@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on HTML Export
 linktitle: Paragraph Features Supported on HTML Export
-description: "Work with paragraph features supported when saving to HTML-based format."
+description: "Export to HTML-based format using paragraph saving features."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-html-export/

@@ -2,7 +2,7 @@
 title: Section Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on EPUB Export
 linktitle: Section Features Supported on EPUB Export
-description: "Work with section features supported when saving to EPUB format."
+description: "Export to EPUB format using section saving features."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-epub-export/

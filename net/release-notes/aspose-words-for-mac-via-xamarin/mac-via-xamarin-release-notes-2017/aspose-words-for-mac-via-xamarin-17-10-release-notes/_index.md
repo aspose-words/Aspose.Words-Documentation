@@ -2,7 +2,7 @@
 title: Aspose.Words for Mac via Xamarin 17.10 Release Notes
 articleTitle: Aspose.Words for Mac via Xamarin 17.10 Release Notes
 linktitle: Aspose.Words for Mac via Xamarin 17.10 Release Notes
-description: "Aspose.Words for Mac via Xamarin 17.10 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Mac via Xamarin 17.10 Release Notes – the latest updates and fixes."
 type: docs
 weight: 10
 url: /net/aspose-words-for-mac-via-xamarin-17-10-release-notes/

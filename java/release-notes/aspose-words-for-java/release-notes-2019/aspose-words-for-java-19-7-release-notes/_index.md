@@ -2,7 +2,7 @@
 title: Aspose.Words for Java 19.7 Release Notes
 articleTitle: Aspose.Words for Java 19.7 Release Notes
 linktitle: Aspose.Words for Java 19.7 Release Notes
-description: "Aspose.Words for Java 19.7 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Java 19.7 Release Notes – the latest updates and fixes."
 type: docs
 weight: 60
 url: /java/aspose-words-for-java-19-7-release-notes/

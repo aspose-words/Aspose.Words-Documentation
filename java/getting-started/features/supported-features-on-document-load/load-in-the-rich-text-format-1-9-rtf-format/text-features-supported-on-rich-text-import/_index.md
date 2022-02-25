@@ -2,7 +2,7 @@
 title: Text Features Supported on Rich Text Import – Aspose.Words for Java
 articleTitle: Text Features Supported on Rich Text Import
 linktitle: Text Features Supported on Rich Text Import
-description: "Work with text features supported on Rich Text import."
+description: "Import Rich Text format using text load options."
 type: docs
 weight: 120
 url: /java/text-features-supported-on-rich-text-import/

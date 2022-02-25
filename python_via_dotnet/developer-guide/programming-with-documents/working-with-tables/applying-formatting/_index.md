@@ -2,7 +2,7 @@
 title: Applying Formatting in Python
 articleTitle: Applying Formatting
 linktitle: Applying Formatting
-description: "Apply table and its row, column and cell formatting in a document using python."
+description: "Apply table and its row, column and cell formatting in a document using Python."
 type: docs
 weight: 20
 url: /python-net/applying-formatting/

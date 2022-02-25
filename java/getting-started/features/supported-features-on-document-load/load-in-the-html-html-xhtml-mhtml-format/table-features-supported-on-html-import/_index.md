@@ -2,7 +2,7 @@
 title: Table Features Supported on HTML Import – Aspose.Words for Java
 articleTitle: Table Features Supported on HTML Import
 linktitle: Table Features Supported on HTML Import
-description: "Work with table features supported on HTML-based format import."
+description: "Import HTML-based document using table load options."
 type: docs
 weight: 110
 url: /java/table-features-supported-on-html-import/

@@ -2,7 +2,7 @@
 title: Document Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Document Features Supported on Rich Text Export
 linktitle: Document Features Supported on Rich Text Export
-description: "Work with document features supported when saving to Rich Text format."
+description: "Export to Rich Text format using document saving features."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-rich-text-export/

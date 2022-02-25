@@ -2,7 +2,7 @@
 title: Table Features Supported on PDF Export – Aspose.Words for Java
 articleTitle: Table Features Supported on PDF Export
 linktitle: Table Features Supported on PDF Export
-description: "Work with table features supported when saving to PDF format."
+description: "Export to PDF format using table saving features."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-pdf-export/

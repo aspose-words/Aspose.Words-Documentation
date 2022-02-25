@@ -2,7 +2,7 @@
 title: Working with Columns and Rows in Python
 articleTitle: Working with Columns and Rows
 linktitle: Working with Columns and Rows
-description: "Work with table columns and rows in a document using python."
+description: "Work with table columns and rows in a document using Python."
 type: docs
 weight: 40
 url: /python-net/working-with-columns-and-rows/

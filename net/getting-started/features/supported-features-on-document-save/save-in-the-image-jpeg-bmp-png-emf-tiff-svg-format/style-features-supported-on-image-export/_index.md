@@ -2,7 +2,7 @@
 title: Style Features Supported on Image Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on Image Export
 linktitle: Style Features Supported on Image Export
-description: "Work with style features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Export images (JPEG, PNG, SVG, etc.) using style saving features."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-image-export/

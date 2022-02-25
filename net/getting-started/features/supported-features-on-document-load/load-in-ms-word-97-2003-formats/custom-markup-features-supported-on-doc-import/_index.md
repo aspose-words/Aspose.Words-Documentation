@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on DOC Import
 linktitle: Custom Markup Features Supported on DOC Import
-description: "Work with custom markup features supported on DOC – Word 97-2003 format import."
+description: "Import DOC – Word 97-2003 document using custom markup load options."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-doc-import/

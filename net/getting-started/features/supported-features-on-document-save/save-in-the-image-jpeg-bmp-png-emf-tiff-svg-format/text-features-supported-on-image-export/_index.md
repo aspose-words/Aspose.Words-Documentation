@@ -2,7 +2,7 @@
 title: Text Features Supported on Image Export – Aspose.Words for .NET
 articleTitle: Text Features Supported on Image Export
 linktitle: Text Features Supported on Image Export
-description: "Work with text features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Export images (JPEG, PNG, SVG, etc.) using text saving features."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-image-export/

@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on FlatOPC Import
 linktitle: Drawing Object Features Supported on FlatOPC Import
-description: "Work with drawing features supported on FlatOPC format import."
+description: "Import FlatOPC document using drawing load options."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-flatopc-import/

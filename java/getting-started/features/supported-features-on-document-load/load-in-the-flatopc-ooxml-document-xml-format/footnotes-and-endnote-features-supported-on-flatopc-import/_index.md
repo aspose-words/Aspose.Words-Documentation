@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on FlatOPC Import
 linktitle: Footnotes and Endnote Features Supported on FlatOPC Import
-description: "Work with footnote and endnote features supported on FlatOPC format import."
+description: "Import FlatOPC document using footnote and endnote load options."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-flatopc-import/

@@ -2,7 +2,7 @@
 title: Table Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Table Features Supported on FlatOPC Import
 linktitle: Table Features Supported on FlatOPC Import
-description: "Work with table features supported on FlatOPC format import."
+description: "Import FlatOPC document using table load options."
 type: docs
 weight: 110
 url: /java/table-features-supported-on-flatopc-import/

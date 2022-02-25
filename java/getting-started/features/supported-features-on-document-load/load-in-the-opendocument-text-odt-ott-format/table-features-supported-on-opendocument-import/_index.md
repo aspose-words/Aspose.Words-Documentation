@@ -2,7 +2,7 @@
 title: Table Features Supported on OpenDocument Import – Aspose.Words for Java
 articleTitle: Table Features Supported on OpenDocument Import
 linktitle: Table Features Supported on OpenDocument Import
-description: "Work with table features supported on OpenDocument Text import."
+description: "Import OpenDocument Text format using table load options."
 type: docs
 weight: 110
 url: /java/table-features-supported-on-opendocument-import/

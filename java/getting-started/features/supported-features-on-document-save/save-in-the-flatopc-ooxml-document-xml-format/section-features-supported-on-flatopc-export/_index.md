@@ -2,7 +2,7 @@
 title: Section Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Section Features Supported on FlatOPC Export
 linktitle: Section Features Supported on FlatOPC Export
-description: "Work with section features supported when saving to FlatOPC – XML format."
+description: "Export to FlatOPC – XML format using section saving features."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-flatopc-export/

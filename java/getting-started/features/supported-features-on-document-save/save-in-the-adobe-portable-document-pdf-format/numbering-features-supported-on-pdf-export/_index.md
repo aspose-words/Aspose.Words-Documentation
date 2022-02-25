@@ -2,7 +2,7 @@
 title: Numbering Features Supported on PDF Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on PDF Export
 linktitle: Numbering Features Supported on PDF Export
-description: "Work with numbering features supported when saving to PDF format."
+description: "Export to PDF format using numbering saving features."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-pdf-export/

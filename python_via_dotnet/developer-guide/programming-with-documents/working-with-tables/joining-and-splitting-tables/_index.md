@@ -2,7 +2,7 @@
 title: Joining and Splitting Tables in Python
 articleTitle: Joining and Splitting Tables
 linktitle: Joining and Splitting Tables
-description: "Join and split tables in a document using python."
+description: "Join and split tables in a document using Python."
 type: docs
 weight: 50
 url: /python-net/joining-and-splitting-tables/

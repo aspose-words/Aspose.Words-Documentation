@@ -2,7 +2,7 @@
 title: Aspose.Words for Reporting Services 1.4.0.0 Release Notes
 articleTitle: Aspose.Words for Reporting Services 1.4.0.0 Release Notes
 linktitle: Aspose.Words for Reporting Services 1.4.0.0 Release Notes
-description: "Aspose.Words for Reporting Services 1.4.0.0 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for Reporting Services 1.4.0.0 Release Notes – the latest updates and fixes."
 type: docs
 weight: 60
 url: /reportingservices/aspose-words-for-reporting-services-1-4-0-0-release-notes/

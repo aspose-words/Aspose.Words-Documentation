@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on WordprocessingML Import
 linktitle: Paragraph Features Supported on WordprocessingML Import
-description: "Work with paragraph features supported on XML – Word 2003 WordprocessingML format import."
+description: "Import XML – Word 2003 WordprocessingML document using paragraph load options."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-wordprocessingml-import/

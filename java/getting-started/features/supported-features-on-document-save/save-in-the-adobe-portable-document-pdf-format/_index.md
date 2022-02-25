@@ -2,7 +2,7 @@
 title: Save in the Adobe Portable Document (.PDF) Format – Aspose.Words for Java
 articleTitle: Save in the Adobe Portable Document (.PDF) Format
 linktitle: Save in the Adobe Portable Document (.PDF) Format
-description: "Work with various features supported when saving to PDF format."
+description: "Export to PDF format using various saving features."
 type: docs
 weight: 30
 url: /java/save-in-the-adobe-portable-document-pdf-format/

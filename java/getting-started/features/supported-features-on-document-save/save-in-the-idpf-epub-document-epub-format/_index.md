@@ -2,7 +2,7 @@
 title: Save in the IDPF EPUB Document (.EPUB) Format – Aspose.Words for Java
 articleTitle: Save in the IDPF EPUB Document (.EPUB) Format
 linktitle: Save in the IDPF EPUB Document (.EPUB) Format
-description: "Work with various features supported when saving to EPUB format."
+description: "Export to EPUB format using various saving features."
 type: docs
 weight: 60
 url: /java/save-in-the-idpf-epub-document-epub-format/

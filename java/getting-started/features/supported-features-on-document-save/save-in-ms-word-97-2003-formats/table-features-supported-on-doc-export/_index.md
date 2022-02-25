@@ -2,7 +2,7 @@
 title: Table Features Supported on DOC Export – Aspose.Words for Java
 articleTitle: Table Features Supported on DOC Export
 linktitle: Table Features Supported on DOC Export
-description: "Work with table features supported when saving to DOC – Word 97-2003 format."
+description: "Export to DOC – Word 97-2003 format using table saving features."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-doc-export/

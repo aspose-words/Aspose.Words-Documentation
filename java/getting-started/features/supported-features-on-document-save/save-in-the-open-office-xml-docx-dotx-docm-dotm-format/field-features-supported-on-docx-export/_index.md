@@ -2,7 +2,7 @@
 title: Field Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Field Features Supported on DOCX Export
 linktitle: Field Features Supported on DOCX Export
-description: "Work with field features supported when saving to Open Office XML 2007 and 2010 format."
+description: "Export to Open Office XML 2007 and 2010 format using field saving features."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-docx-export/

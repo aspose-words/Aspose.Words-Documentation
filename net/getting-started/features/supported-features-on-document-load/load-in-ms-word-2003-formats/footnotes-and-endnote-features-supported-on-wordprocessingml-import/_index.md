@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on WordprocessingML Import
 linktitle: Footnotes and Endnote Features Supported on WordprocessingML Import
-description: "Work with footnote and endnote features supported on XML – Word 2003 WordprocessingML format import."
+description: "Import XML – Word 2003 WordprocessingML document using footnote and endnote load options."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-wordprocessingml-import/

@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on FlatOPC Export
 linktitle: Drawing Object Features Supported on FlatOPC Export
-description: "Work with drawing features supported when saving to FlatOPC – XML format."
+description: "Export to FlatOPC – XML format using drawing saving features."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-flatopc-export/

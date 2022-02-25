@@ -2,7 +2,7 @@
 title: Text Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Text Features Supported on PDF Export
 linktitle: Text Features Supported on PDF Export
-description: "Work with text features supported when saving to PDF format."
+description: "Export to PDF format using text saving features."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-pdf-export/

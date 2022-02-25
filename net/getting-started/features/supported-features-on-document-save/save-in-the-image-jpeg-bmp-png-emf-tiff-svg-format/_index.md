@@ -2,7 +2,7 @@
 title: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format – Aspose.Words for .NET
 articleTitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
 linktitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
-description: "Work with various features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Export images (JPEG, PNG, SVG, etc.) using various saving features."
 type: docs
 weight: 80
 url: /net/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/

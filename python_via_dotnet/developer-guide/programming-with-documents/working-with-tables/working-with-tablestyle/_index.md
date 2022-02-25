@@ -2,7 +2,7 @@
 title: Working with TableStyle in Python
 articleTitle: Working with TableStyle
 linktitle: Working with TableStyle
-description: "Manage table style in a document using python."
+description: "Manage table style in a document using Python."
 type: docs
 weight: 30
 url: /python-net/working-with-tablestyle/
