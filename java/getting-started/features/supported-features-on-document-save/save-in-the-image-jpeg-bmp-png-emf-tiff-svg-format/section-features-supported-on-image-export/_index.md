@@ -2,7 +2,7 @@
 title: Section Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Section Features Supported on Image Export
 linktitle: Section Features Supported on Image Export
-description: "Work with section features supported when saving to image formats: JPEG, BMP, PNG, TIFF, SVG, etc."
+description: "Export images (JPEG, PNG, SVG, etc.) using section saving features."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-image-export/
