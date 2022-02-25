@@ -71,6 +71,6 @@ wordMLPackage.save(new java.io.File(outputfilepath));
 
 {{% alert color="primary" %}}
 
-For more details, visit [Working with comments](/words/java/working-with-comments/).
+For more details, visit [Working with Comments](/words/java/working-with-comments/).
 
 {{% /alert %}}
