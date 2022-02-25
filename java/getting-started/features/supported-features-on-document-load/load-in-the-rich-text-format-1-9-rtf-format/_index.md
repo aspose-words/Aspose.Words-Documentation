@@ -3,7 +3,7 @@ title: Load in the Rich Text Format 1.9 (.RTF) Format – Aspose.Words for Java
 articleTitle: Load in the Rich Text Format 1.9 (.RTF) Format
 linktitle: Load in the Rich Text Format 1.9 (.RTF) Format
 type: docs
-description: "Work with different features supported on RTF format import."
+description: "Import RTF document using different load options."
 weight: 90
 url: /java/load-in-the-rich-text-format-1-9-rtf-format/
 ---

@@ -2,7 +2,7 @@
 title: Field Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Field Features Supported on DOC Import
 linktitle: Field Features Supported on DOC Import
-description: "Work with field features supported on DOC – Word 97-2003 format import."
+description: "Import DOC – Word 97-2003 document using field load options."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-doc-import/

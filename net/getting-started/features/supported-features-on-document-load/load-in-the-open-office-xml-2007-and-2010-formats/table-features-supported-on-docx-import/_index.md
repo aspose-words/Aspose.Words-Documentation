@@ -2,7 +2,7 @@
 title: Table Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Table Features Supported on DOCX Import
 linktitle: Table Features Supported on DOCX Import
-description: "Work with table features supported on Open Office XML 2007 and 2010 Format import."
+description: "Import Open Office XML 2007 and 2010 document using table load options."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-docx-import/

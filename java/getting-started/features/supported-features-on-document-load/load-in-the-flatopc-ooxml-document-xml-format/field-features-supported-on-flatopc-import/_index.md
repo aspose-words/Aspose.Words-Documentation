@@ -2,7 +2,7 @@
 title: Field Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Field Features Supported on FlatOPC Import
 linktitle: Field Features Supported on FlatOPC Import
-description: "Work with field features supported on FlatOPC format import."
+description: "Import FlatOPC document using field load options."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-flatopc-import/

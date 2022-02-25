@@ -2,7 +2,7 @@
 title: Numbering Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Numbering Features Supported on WordprocessingML Import
 linktitle: Numbering Features Supported on WordprocessingML Import
-description: "Work with numbering features supported on XML – Word 2003 WordprocessingML format import."
+description: "Import XML – Word 2003 WordprocessingML document using numbering load options."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-wordprocessingml-import/

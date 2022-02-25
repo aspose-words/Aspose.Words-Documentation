@@ -2,7 +2,7 @@
 title: Style Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Style Features Supported on FlatOPC Import
 linktitle: Style Features Supported on FlatOPC Import
-description: "Work with style features supported on FlatOPC format import."
+description: "Import FlatOPC document using style load options."
 type: docs
 weight: 100
 url: /java/style-features-supported-on-flatopc-import/

@@ -2,7 +2,7 @@
 title: Style Features Supported on HTML Import – Aspose.Words for Java
 articleTitle: Style Features Supported on HTML Import
 linktitle: Style Features Supported on HTML Import
-description: "Work with style features supported on HTML-based format import."
+description: "Import HTML-based document using style load options."
 type: docs
 weight: 100
 url: /java/style-features-supported-on-html-import/

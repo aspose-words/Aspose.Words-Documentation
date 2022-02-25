@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on DOCX Import
 linktitle: Footnotes and Endnote Features Supported on DOCX Import
-description: "Work with footnotes and endnote features supported on Open Office XML 2007 and 2010 Format import."
+description: "Import Open Office XML 2007 and 2010 document using footnotes and endnote load options."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-docx-import/

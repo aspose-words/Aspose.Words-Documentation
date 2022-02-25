@@ -2,7 +2,7 @@
 title: Annotation Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Annotation Features Supported on FlatOPC Import
 linktitle: Annotation Features Supported on FlatOPC Import
-description: "Work with annotation features supported on FlatOPC format import."
+description: "Import FlatOPC document using annotation load options."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-flatopc-import/

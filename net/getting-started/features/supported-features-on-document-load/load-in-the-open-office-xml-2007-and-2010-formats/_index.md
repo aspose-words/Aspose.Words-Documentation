@@ -2,7 +2,7 @@
 title: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format – Aspose.Words for .NET
 articleTitle: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
 linktitle: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
-description: "Work with different features supported on Open Office XML 2007 and 2010 Format import."
+description: "Import Open Office XML 2007 and 2010 document using different load options."
 type: docs
 weight: 60
 url: /net/load-in-the-open-office-xml-2007-and-2010-formats/

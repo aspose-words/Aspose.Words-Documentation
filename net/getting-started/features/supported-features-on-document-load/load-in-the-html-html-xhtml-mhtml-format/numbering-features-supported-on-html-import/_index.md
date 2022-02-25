@@ -2,7 +2,7 @@
 title: Numbering Features Supported on HTML Import – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on HTML Import
 linktitle: Numbering Features Supported on HTML Import
-description: "Work with numbering features supported on HTML-based format import."
+description: "Import HTML-based document using numbering load options."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-html-import/
