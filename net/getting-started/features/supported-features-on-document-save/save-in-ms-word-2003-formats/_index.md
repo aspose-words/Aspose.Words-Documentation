@@ -2,7 +2,7 @@
 title: Save in the Microsoft Word 2003 WordprocessingML (.XML) Format – Aspose.Words for .NET
 articleTitle: Save in the Microsoft Word 2003 WordprocessingML (.XML) Format
 linktitle: Save in the Microsoft Word 2003 WordprocessingML (.XML) Format
-description: "Export to XML – Word 2003 WordprocessingML format using various saving features."
+description: "Export to WordprocessingML format using various saving features."
 type: docs
 weight: 100
 url: /net/save-in-ms-word-2003-formats/

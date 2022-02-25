@@ -2,7 +2,7 @@
 title: Introduction to LINQ Reporting Engine in Java
 articleTitle: Introduction to LINQ Reporting Engine
 linktitle: Introduction to LINQ Reporting Engine
-description: "Overview LINQ Reporting Engine to build a report Java."
+description: "Overview LINQ Reporting Engine to build a report in Java."
 type: docs
 weight: 20
 url: /java/introduction-to-linq-reporting-engine/

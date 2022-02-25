@@ -2,7 +2,7 @@
 title: Using Lambda Functions in Java
 articleTitle: Using Lambda Functions
 linktitle: Using Lambda Functions
-description: "Use lambda functions in template expressions when building a report Java."
+description: "Use lambda functions in template expressions when building a report in Java."
 type: docs
 weight: 60
 url: /java/using-lambda-functions/

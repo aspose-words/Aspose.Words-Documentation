@@ -3,7 +3,7 @@ title: Convert a Document to an Image in C++
 articleTitle: Convert a Document to an Image
 linktitle: Convert a Document to an Image
 type: docs
-description: "Convert a document to any supported image format, such as JPEG or PNG, to create a document preview or create a document scan to send an invoice."
+description: "Convert a document to image format (JPG, PNG, etc). Create a document preview or create a document scan to send an invoice."
 weight: 43
 url: /cpp/convert-a-document-to-an-image/
 ---

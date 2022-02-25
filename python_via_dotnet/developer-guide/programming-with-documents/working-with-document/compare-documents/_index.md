@@ -2,7 +2,7 @@
 title: Compare Documents in Python
 articleTitle: Compare Documents
 linktitle: Compare Documents
-description: "Compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
+description: "Compare two documents in any supported formats and shows content changes using Python. You can apply advanced options when comparing."
 type: docs
 weight: 50
 url: /python-net/compare-documents/

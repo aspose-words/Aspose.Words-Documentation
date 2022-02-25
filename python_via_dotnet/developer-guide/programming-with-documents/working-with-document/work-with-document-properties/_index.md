@@ -2,7 +2,7 @@
 title: Work with Document Properties in Python
 articleTitle: Work with Document Properties
 linktitle: Work with Document Properties
-description: "Aspose.Words for Python via .NET allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
+description: "Aspose.Words for Python allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties."
 type: docs
 weight: 20
 url: /python-net/work-with-document-properties/

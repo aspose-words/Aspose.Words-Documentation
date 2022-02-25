@@ -2,7 +2,7 @@
 title: Text Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Text Features Supported on Rich Text Import
 linktitle: Text Features Supported on Rich Text Import
-description: "Import Rich Text format using text load options."
+description: "Import RTF document using text load options."
 type: docs
 weight: 130
 url: /net/text-features-supported-on-rich-text-import/

@@ -2,7 +2,7 @@
 title: Working with Types in Java
 articleTitle: Working with Types
 linktitle: Working with Types
-description: "Use external visible types in template expressions when building a report Java."
+description: "Use external visible types in template expressions when building a report in Java."
 type: docs
 weight: 20
 url: /java/working-with-types/

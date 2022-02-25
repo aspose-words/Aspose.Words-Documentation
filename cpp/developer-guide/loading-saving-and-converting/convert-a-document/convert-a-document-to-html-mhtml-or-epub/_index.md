@@ -2,7 +2,7 @@
 title: Convert a Document to HTML, MHTML or EPUB in C++
 articleTitle: Convert a Document to HTML, MHTML or EPUB
 linktitle: Convert a Document to HTML, MHTML or EPUB
-description: "Convert a document from almost any format to HTML or MHTML, as well as to EPUB format. You can also specify save options for managing the output document."
+description: "Convert a document from almost any format to HTML or MHTML, as well as to EPUB format using C++. You can also specify save options for managing the output document."
 type: docs
 weight: 20
 url: /cpp/convert-a-document-to-html-mhtml-or-epub/

@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on DOC Import
 linktitle: Paragraph Features Supported on DOC Import
-description: "Import DOC – Word 97-2003 document using paragraph load options."
+description: "Import DOC document using paragraph load options."
 type: docs
 weight: 90
 url: /java/paragraph-features-supported-on-doc-import/

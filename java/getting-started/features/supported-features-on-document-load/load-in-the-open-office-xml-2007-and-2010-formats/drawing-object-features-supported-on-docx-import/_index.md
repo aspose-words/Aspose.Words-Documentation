@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on DOCX Import
 linktitle: Drawing Object Features Supported on DOCX Import
-description: "Import Open Office XML 2007 an 2010 document using drawing load options."
+description: "Import OOXML document using drawing load options."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-docx-import/

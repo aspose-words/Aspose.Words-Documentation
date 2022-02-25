@@ -2,7 +2,7 @@
 title: Annotation Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Annotation Features Supported on WordprocessingML Export
 linktitle: Annotation Features Supported on WordprocessingML Export
-description: "Export to XML – Word 2003 WordprocessingML format using annotation saving features."
+description: "Export to WordprocessingML format using annotation saving features."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-wordprocessingml-export/

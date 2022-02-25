@@ -3,7 +3,7 @@ title: Release Notes – Aspose.Words for Java
 articleTitle: Release Notes
 linktitle: Release Notes
 type: docs
-description: "Learn more about updates including improvments and fixes for the latest release of Aspose.Words for Java. Navigate to a definite release note page to find a description of a specific release."
+description: "Learn more about updates including improvements and fixes for the latest release of Aspose.Words for Java."
 weight: 50
 url: /java/release-notes/
 ---

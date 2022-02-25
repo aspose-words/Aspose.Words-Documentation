@@ -4,7 +4,7 @@ articleTitle: Save a Document
 linktitle: Save a Document
 aliases: [/java/saving-a-document/]
 type: docs
-description: "Save a document in any supported format. This is useful for most tasks performed using Aspose.Words."
+description: "Save a document in any supported format."
 weight: 20
 url: /java/save-a-document/
 ---

@@ -2,7 +2,7 @@
 title: Numbering Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on DOC Export
 linktitle: Numbering Features Supported on DOC Export
-description: "Export to DOC – Word 97-2003 format using numbering saving features."
+description: "Export to DOC format using numbering saving features."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-doc-export/

@@ -2,7 +2,7 @@
 title: Inserting Hyperlinks Dynamically in Java
 articleTitle: Inserting Hyperlinks Dynamically
 linktitle: Inserting Hyperlinks Dynamically
-description: "Insert hyperlinks into your document dynamically when building a report Java."
+description: "Insert hyperlinks into your document dynamically when building a report in Java."
 type: docs
 weight: 80
 url: /java/inserting-hyperlinks-dynamically/

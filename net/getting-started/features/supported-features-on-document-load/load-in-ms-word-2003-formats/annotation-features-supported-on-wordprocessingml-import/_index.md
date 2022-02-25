@@ -2,7 +2,7 @@
 title: Annotation Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on WordprocessingML Import
 linktitle: Annotation Features Supported on WordprocessingML Import
-description: "Import XML – Word 2003 WordprocessingML document using annotation load options."
+description: "Import WordprocessingML document using annotation load options."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-wordprocessingml-import/

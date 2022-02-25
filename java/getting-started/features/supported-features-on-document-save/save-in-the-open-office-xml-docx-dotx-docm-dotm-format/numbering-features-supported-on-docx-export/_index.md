@@ -2,7 +2,7 @@
 title: Numbering Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on DOCX Export
 linktitle: Numbering Features Supported on DOCX Export
-description: "Export to Open Office XML 2007 and 2010 format using numbering saving features."
+description: "Export to OOXML format using numbering saving features."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-docx-export/

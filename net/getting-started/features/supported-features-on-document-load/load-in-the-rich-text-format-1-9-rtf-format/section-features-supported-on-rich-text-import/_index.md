@@ -2,7 +2,7 @@
 title: Section Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Section Features Supported on Rich Text Import
 linktitle: Section Features Supported on Rich Text Import
-description: "Import Rich Text format using section load options."
+description: "Import RTF document using section load options."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-rich-text-import/

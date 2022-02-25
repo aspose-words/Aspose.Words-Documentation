@@ -2,7 +2,7 @@
 title: Document Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Document Features Supported on FlatOPC Import
 linktitle: Document Features Supported on FlatOPC Import
-description: "Import FlatOPC document using document load options."
+description: "Import FlatOPC using document load options."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-flatopc-import/

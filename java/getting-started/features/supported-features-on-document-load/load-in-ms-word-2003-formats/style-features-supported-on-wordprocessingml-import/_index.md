@@ -2,7 +2,7 @@
 title: Style Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Style Features Supported on WordprocessingML Import
 linktitle: Style Features Supported on WordprocessingML Import
-description: "Import XML – Word 2003 WordprocessingML document using style load options."
+description: "Import WordprocessingML document using style load options."
 type: docs
 weight: 100
 url: /java/style-features-supported-on-wordprocessingml-import/

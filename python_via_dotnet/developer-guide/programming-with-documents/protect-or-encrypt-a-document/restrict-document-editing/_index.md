@@ -2,7 +2,7 @@
 title: Restrict Document Editing in Python
 articleTitle: Restrict Document Editing
 linktitle: Restrict Document Editing
-description: "Restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions."
+description: "Restrict editing a document by setting a restriction type using Python. You can also remove protection and make unrestricted editable regions."
 type: docs
 weight: 30
 url: /python-net/restrict-document-editing/

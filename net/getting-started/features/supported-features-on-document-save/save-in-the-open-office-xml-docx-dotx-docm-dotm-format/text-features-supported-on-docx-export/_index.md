@@ -2,7 +2,7 @@
 title: Text Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Text Features Supported on DOCX Export
 linktitle: Text Features Supported on DOCX Export
-description: "Export to Open Office XML 2007 and 2010 format using text saving features."
+description: "Export to OOXML format using text saving features."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-docx-export/

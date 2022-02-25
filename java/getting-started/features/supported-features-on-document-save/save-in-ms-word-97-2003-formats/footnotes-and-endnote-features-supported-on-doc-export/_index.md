@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on DOC Export – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on DOC Export
 linktitle: Footnotes and Endnote Features Supported on DOC Export
-description: "Export to DOC – Word 97-2003 format using footnote and endnote saving features."
+description: "Export to DOC format using footnote and endnote saving features."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-doc-export/

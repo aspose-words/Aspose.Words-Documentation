@@ -2,7 +2,7 @@
 title: Working with Form Fields in Python
 articleTitle: Working with Form Fields
 linktitle: Working with Form Fields
-description: "Insert, obtain, or format a form field in a document."
+description: "Insert, obtain, or format a form field in a document using Python."
 type: docs
 weight: 180
 url: /python-net/working-with-form-fields/

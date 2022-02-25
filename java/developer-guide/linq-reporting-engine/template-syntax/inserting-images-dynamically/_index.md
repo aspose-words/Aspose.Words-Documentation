@@ -2,7 +2,7 @@
 title: Inserting Images Dynamically in Java
 articleTitle: Inserting Images Dynamically
 linktitle: Inserting Images Dynamically
-description: "Insert images into your document dynamically when building a report Java."
+description: "Insert images into your document dynamically when building a report in Java."
 type: docs
 weight: 60
 url: /java/inserting-images-dynamically/

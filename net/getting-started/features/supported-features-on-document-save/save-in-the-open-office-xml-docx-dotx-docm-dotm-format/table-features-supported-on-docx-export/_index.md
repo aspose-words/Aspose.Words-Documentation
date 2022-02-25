@@ -2,7 +2,7 @@
 title: Table Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on DOCX Export
 linktitle: Table Features Supported on DOCX Export
-description: "Export to Open Office XML 2007 and 2010 format using table saving features."
+description: "Export to OOXML format using table saving features."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-docx-export/

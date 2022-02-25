@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on WordprocessingML Export
 linktitle: Footnotes and Endnote Features Supported on WordprocessingML Export
-description: "Export to XML – Word 2003 WordprocessingML format using footnote and endnote saving features."
+description: "Export to WordprocessingML format using footnote and endnote saving features."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-wordprocessingml-export/

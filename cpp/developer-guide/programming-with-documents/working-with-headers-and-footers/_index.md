@@ -2,7 +2,7 @@
 title: Working with Headers and Footers in C++
 articleTitle: Working with Headers and Footers
 linktitle: Working with Headers and Footers
-description: "How to manipulate with headers/footers using C++."
+description: "How to manipulate headers and footers using C++."
 type: docs
 aliases:
  - /cpp/how-to-remove-footers-but-leave-headers-intact/

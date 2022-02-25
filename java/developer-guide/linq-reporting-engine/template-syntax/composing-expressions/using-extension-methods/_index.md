@@ -2,7 +2,7 @@
 title: Using Extension Methods in Java
 articleTitle: Using Extension Methods
 linktitle: Using Extension Methods
-description: "Use extension methods in template expressions when building a report Java."
+description: "Use extension methods in template expressions when building a report in Java."
 type: docs
 weight: 40
 url: /java/using-extension-methods/

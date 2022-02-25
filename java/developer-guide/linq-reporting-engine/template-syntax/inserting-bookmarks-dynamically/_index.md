@@ -2,7 +2,7 @@
 title: Inserting Bookmarks Dynamically in Java
 articleTitle: Inserting Bookmarks Dynamically
 linktitle: Inserting Bookmarks Dynamically
-description: "Insert bookmarks into your document dynamically when building a report Java."
+description: "Insert bookmarks into your document dynamically when building a report in Java."
 type: docs
 weight: 70
 url: /java/inserting-bookmarks-dynamically/

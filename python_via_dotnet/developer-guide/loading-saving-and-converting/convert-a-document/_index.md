@@ -8,7 +8,7 @@ weight: 30
 aliases:
  - /python/converting-a-document/
  - /python/convert-a-document/
-description: "Easily convert documents from one format to another. You can work with all the most popular formats like Microsoft Word formats such as DOCX or DOC, OpenDocument formats such as ODT or  OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others."
+description: "Easily convert documents from one format to another using Python. You can work with all the most popular formats like Microsoft Word formats such as DOCX or DOC, OpenDocument formats such as ODT or  OTT, web formats such as HTML or XHTML, text formats such as MarkDown or TXT, and others."
 keywords: "convert a document python, convert documents from one format to another python, convert to markdown python, convert pdf to docx python, convert docx to pdf python, convert doc to pdf python, convert a document Aspose for Python"
 ---
 

@@ -2,7 +2,7 @@
 title: Working with Comments in Java
 articleTitle: Working with Comments
 linktitle: Working with Comments
-description: "Working with comments in your code using Java."
+description: "Working with comments using Java."
 type: docs
 weight: 110
 url: /java/working-with-comments/

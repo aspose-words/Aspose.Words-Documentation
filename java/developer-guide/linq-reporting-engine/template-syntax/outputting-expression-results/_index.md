@@ -2,7 +2,7 @@
 title: Outputting Expression Results in Java
 articleTitle: Outputting Expression Results
 linktitle: Outputting Expression Results
-description: "Output expression results using placeholder within a template when building a report Java."
+description: "Output expression results using placeholder within a template when building a report in Java."
 type: docs
 weight: 20
 url: /java/outputting-expression-results/

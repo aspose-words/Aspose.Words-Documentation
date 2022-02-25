@@ -2,7 +2,7 @@
 title: Document Features Supported on DOC Export – Aspose.Words for Java
 articleTitle: Document Features Supported on DOC Export
 linktitle: Document Features Supported on DOC Export
-description: "Export to DOC – Word 97-2003 format using document saving features."
+description: "Export to DOC format using document saving features."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-doc-export/

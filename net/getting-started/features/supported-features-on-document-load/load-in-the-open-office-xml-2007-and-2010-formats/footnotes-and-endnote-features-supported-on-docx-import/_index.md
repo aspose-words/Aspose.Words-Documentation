@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on DOCX Import
 linktitle: Footnotes and Endnote Features Supported on DOCX Import
-description: "Import Open Office XML 2007 and 2010 document using footnotes and endnote load options."
+description: "Import OOXML document using footnotes and endnote load options."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-docx-import/

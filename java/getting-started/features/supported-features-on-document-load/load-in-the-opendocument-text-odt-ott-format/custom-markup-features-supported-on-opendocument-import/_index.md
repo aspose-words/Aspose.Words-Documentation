@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on OpenDocument Import – Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on OpenDocument Import
 linktitle: Custom Markup Features Supported on OpenDocument Import
-description: "Import OpenDocument Text format using custom markup load options."
+description: "Import ODT document using custom markup load options."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-opendocument-import/

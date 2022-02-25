@@ -2,7 +2,7 @@
 title: Annotation Features Supported on Rich Text Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on Rich Text Export
 linktitle: Annotation Features Supported on Rich Text Export
-description: "Export to Rich Text format using annotation saving features."
+description: "Export to RTF format using annotation saving features."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-rich-text-export/

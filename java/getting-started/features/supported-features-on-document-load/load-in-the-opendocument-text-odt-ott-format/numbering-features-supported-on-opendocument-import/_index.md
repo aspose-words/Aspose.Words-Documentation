@@ -2,7 +2,7 @@
 title: Numbering Features Supported on OpenDocument Import – Aspose.Words for Java
 articleTitle: Numbering Features Supported on OpenDocument Import
 linktitle: Numbering Features Supported on OpenDocument Import
-description: "Import OpenDocument Text format using numbering load options."
+description: "Import ODT document using numbering load options."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-opendocument-import/

@@ -2,7 +2,7 @@
 title: Field Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Field Features Supported on Rich Text Import
 linktitle: Field Features Supported on Rich Text Import
-description: "Import Rich Text format using field load options."
+description: "Import RTF document using field load options."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-rich-text-import/

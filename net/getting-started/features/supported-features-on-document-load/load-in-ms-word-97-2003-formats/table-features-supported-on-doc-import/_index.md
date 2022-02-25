@@ -2,7 +2,7 @@
 title: Table Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Table Features Supported on DOC Import
 linktitle: Table Features Supported on DOC Import
-description: "Import DOC – Word 97-2003 document using table load options."
+description: "Import DOC document using table load options."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-doc-import/

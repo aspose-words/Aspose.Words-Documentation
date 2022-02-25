@@ -2,7 +2,7 @@
 title: Field Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Field Features Supported on DOCX Import
 linktitle: Field Features Supported on DOCX Import
-description: "Import Open Office XML 2007 and 2010 document using field load options."
+description: "Import OOXML document using field load options."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-docx-import/

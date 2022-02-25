@@ -2,7 +2,7 @@
 title: Document Features Supported on OpenDocument Import – Aspose.Words for Java
 articleTitle: Document Features Supported on OpenDocument Import
 linktitle: Document Features Supported on OpenDocument Import
-description: "Import OpenDocument Text format using document load options."
+description: "Import ODT using document load options."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-opendocument-import/

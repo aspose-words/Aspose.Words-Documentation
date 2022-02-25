@@ -2,7 +2,7 @@
 title: Document Features Supported on Rich Text Export – Aspose.Words for Java
 articleTitle: Document Features Supported on Rich Text Export
 linktitle: Document Features Supported on Rich Text Export
-description: "Export to Rich Text format using document saving features."
+description: "Export to RTF format using document saving features."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-rich-text-export/

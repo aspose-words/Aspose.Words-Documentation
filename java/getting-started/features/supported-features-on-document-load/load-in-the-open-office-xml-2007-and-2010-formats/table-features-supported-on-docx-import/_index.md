@@ -2,7 +2,7 @@
 title: Table Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Table Features Supported on DOCX Import
 linktitle: Table Features Supported on DOCX Import
-description: "Import Open Office XML 2007 and 2010 document using table load options."
+description: "Import OOXML document using table load options."
 type: docs
 weight: 110
 url: /java/table-features-supported-on-docx-import/

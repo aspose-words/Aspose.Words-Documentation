@@ -2,7 +2,7 @@
 title: Using Extension Methods of Iteration Variables in Java
 articleTitle: Using Extension Methods of Iteration Variables
 linktitle: Using Extension Methods of Iteration Variables
-description: "Use extension methods for iteration variables of any type when building a report Java."
+description: "Use extension methods for iteration variables of any type when building a report in Java."
 type: docs
 weight: 30
 url: /java/using-extension-methods-of-iteration-variables/
