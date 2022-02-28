@@ -2,7 +2,7 @@
 title: Using Conditional Blocks in C#
 articleTitle: Using Conditional Blocks
 linktitle: Using Conditional Blocks
-description: "Use conditional blocks to represent the same data depending on a condition C#."
+description: "Use conditional blocks to represent the same data depending on a condition using C#."
 type: docs
 weight: 40
 url: /net/using-conditional-blocks/

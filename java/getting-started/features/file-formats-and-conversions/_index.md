@@ -2,7 +2,7 @@
 title: File Formats and Conversions – Aspose.Words for Java
 articleTitle: File Formats and Conversions
 linktitle: File Formats and Conversions
-description: "With Aspose.Words for Java, you can quickly and reliably convert documents from any supported load to save format with just two lines of code. It provides high-quality conversions."
+description: "Convert documents from any supported load to save format with just two lines of Java code. It provides high-quality conversions."
 type: docs
 weight: 40
 url: /java/file-formats-and-conversions/

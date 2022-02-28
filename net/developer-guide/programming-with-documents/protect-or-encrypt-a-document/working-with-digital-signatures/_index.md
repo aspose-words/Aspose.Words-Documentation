@@ -2,7 +2,7 @@
 title: Work with Digital Signatures in C#
 articleTitle: Work with Digital Signatures
 linktitle: Work with Digital Signatures
-description: "Digitally sign documents and detect, count, verify, and remove existing digital signatures."
+description: "Digitally sign documents and detect, count, verify, and remove existing digital signatures using C#."
 type: docs
 weight: 40
 url: /net/working-with-digital-signatures/

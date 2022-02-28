@@ -2,7 +2,7 @@
 title: Converting to Fixed-page Format in C#
 articleTitle: Converting to Fixed-page Format
 linktitle: Converting to Fixed-page Format
-description: "Save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats."
+description: "Save documents to PDF, XPS, HTML, XAML, PostScript, and PCL formats using C#."
 type: docs
 weight: 10
 url: /net/converting-to-fixed-page-format/

@@ -2,7 +2,7 @@
 title: Open a Document Read-Only in Java
 articleTitle: Open a Document Read-Only
 linktitle: Open a Document Read-Only
-description: "Make your document read-only so that the content can be copied or read, but not modified."
+description: "Make your document read-only so that the content can be copied or read, but not modified using Java."
 type: docs
 weight: 10
 url: /java/open-a-document-read-only/

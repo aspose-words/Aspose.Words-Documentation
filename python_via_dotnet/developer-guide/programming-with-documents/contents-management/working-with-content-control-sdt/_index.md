@@ -2,7 +2,7 @@
 title: Working with Content Control SDT in Python
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
-description: "Using python you can embed customer-defined semantics as well as its behaviour and appearance into a document using Python."
+description: "Using python you can embed customer-defined semantics as well as its behaviour and appearance into a document."
 type: docs
 weight: 60
 url: /python-net/working-with-content-control-sdt/

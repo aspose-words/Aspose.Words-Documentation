@@ -2,7 +2,7 @@
 title: Specify Load Options in C#
 articleTitle: Specify Load Options
 linktitle: Specify Load Options
-description: "More accurately control the load process."
+description: "More accurately control the load process using C#."
 type: docs
 weight: 10
 url: /net/specify-load-options/

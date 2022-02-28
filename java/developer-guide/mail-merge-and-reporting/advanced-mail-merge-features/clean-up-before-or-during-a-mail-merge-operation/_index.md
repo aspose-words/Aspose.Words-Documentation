@@ -5,7 +5,7 @@ linktitle: Clean Up Before or During a Mail Merge Operation
 aliases:
   - /java/how-to-remove-unmerged-fields-empty-paragraphs-and-unmerged-regions/
 type: docs
-description: "Apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation."
+description: "Apply different cleaning and removing options such as deleting merge fields before performing a mail merge operation or removing unused regions during a mail merge operation using Java."
 keywords: "cleanup options mail merge c#"
 weight: 10
 url: /java/clean-up-before-or-during-mail-merge/

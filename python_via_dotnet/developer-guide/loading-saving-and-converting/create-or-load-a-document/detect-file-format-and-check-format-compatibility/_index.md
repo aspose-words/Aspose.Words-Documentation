@@ -2,7 +2,7 @@
 title: Detect File Format and Check Format Compatibility in Python
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility
-description: "Determine the file format in Python if you are not sure what the actual content of the file is, or to check the format compatibility using Python."
+description: "Determine the file format in Python if you are not sure what the actual content of the file is, or to check the format compatibility."
 type: docs
 weight: 20
 url: /python-net/detect-file-format-and-check-format-compatibility/

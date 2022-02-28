@@ -2,7 +2,7 @@
 title: Restarting List Numbering Dynamically in C#
 articleTitle: Restarting List Numbering Dynamically
 linktitle: Restarting List Numbering Dynamically
-description: "Restart list numbering within your documents dynamically when building a report C#."
+description: "Restart list numbering within your documents dynamically when building a report using C#."
 type: docs
 weight: 110
 url: /net/restarting-list-numbering-dynamically/

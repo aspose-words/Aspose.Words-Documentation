@@ -2,7 +2,7 @@
 title: Specify Rendering Options When Converting to PDF in Java
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF
-description: "Convert a document to PDF with advanced options. Use PdfSaveOptions to change the result of saving a document to PDF format."
+description: "Convert a document to PDF with advanced options. Use PdfSaveOptions to change the result of saving a document to PDF format using Java."
 type: docs
 weight: 20
 url: /java/specify-rendering-options-when-converting-to-pdf/

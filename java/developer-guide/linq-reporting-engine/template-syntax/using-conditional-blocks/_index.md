@@ -2,7 +2,7 @@
 title: Using Conditional Blocks in Java
 articleTitle: Using Conditional Blocks
 linktitle: Using Conditional Blocks
-description: "Use conditional blocks to represent the same data depending on a condition Java."
+description: "Use conditional blocks to represent the same data depending on a condition using Java."
 type: docs
 weight: 40
 url: /java/using-conditional-blocks/
