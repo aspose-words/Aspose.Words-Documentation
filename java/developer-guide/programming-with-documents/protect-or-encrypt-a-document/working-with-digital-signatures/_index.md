@@ -2,7 +2,7 @@
 title: Work with Digital Signatures in Java
 articleTitle: Work with Digital Signatures
 linktitle: Work with Digital Signatures
-description: "Digitally sign documents and detect, count, verify, and remove existing digital signatures."
+description: "Digitally sign documents and detect, count, verify, and remove existing digital signatures using Java."
 type: docs
 weight: 30
 url: /java/working-with-digital-signatures/

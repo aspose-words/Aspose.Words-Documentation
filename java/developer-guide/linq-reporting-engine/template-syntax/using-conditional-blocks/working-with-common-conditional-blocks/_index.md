@@ -2,7 +2,7 @@
 title: Working with Common Conditional Blocks in Java
 articleTitle: Working with Common Conditional Blocks
 linktitle: Working with Common Conditional Blocks
-description: "Use common conditional blocks within paragraphs to represent the same data depending on a condition Java."
+description: "Use common conditional blocks within paragraphs to represent the same data depending on a condition using Java."
 type: docs
 weight: 10
 url: /java/working-with-common-conditional-blocks/

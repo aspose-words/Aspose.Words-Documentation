@@ -2,7 +2,7 @@
 title: How to Replace or Modify Hyperlinks and Replace Fields with Static Text in Java
 articleTitle: How to Replace or Modify Hyperlinks and Replace Fields with Static Text
 linktitle: How to Replace or Modify Hyperlinks and Replace Fields with Static Text
-description: "How to insert hyperlink or HTML document into your document using Aspose.Word for Java."
+description: "How to insert hyperlink or HTML document into your document using Aspose.Word for using Java."
 type: docs
 weight: 50
 url: /java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/

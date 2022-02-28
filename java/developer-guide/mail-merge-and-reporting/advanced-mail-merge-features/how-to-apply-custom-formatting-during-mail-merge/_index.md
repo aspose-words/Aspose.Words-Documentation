@@ -3,7 +3,7 @@ title: How to  Apply Custom Formatting during Mail Merge in Java
 articleTitle: How to  Apply Custom Formatting during Mail Merge
 linktitle: How to  Apply Custom Formatting during Mail Merge
 type: docs
-description: "Apply custom formatting during a mail merge operation."
+description: "Apply custom formatting during a mail merge operation using Java."
 weight: 60
 url: /java/how-to-apply-custom-formatting-during-mail-merge/
 ---

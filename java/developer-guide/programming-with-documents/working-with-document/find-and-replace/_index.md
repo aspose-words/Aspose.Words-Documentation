@@ -3,7 +3,7 @@ title: Find and Replace in Java
 articleTitle: Find and Replace
 linktitle: Find and Replace
 type: docs
-description: "Find a string or regular expression pattern in your document and replace it with the text you want."
+description: "Find a string or regular expression pattern in your document and replace it with the text you want using Java."
 weight: 85
 url: /java/find-and-replace/
 ---

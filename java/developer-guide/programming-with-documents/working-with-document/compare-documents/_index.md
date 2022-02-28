@@ -3,7 +3,7 @@ title: Compare Documents in Java
 articleTitle: Compare Documents
 linktitle: Compare Documents
 type: docs
-description: "Compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing."
+description: "Compare two documents in any supported formats and shows content changes. You can apply advanced options when comparing using Java."
 weight: 50
 url: /java/compare-documents/
 aliases: [/java/how-to-compare-two-word-documents/]

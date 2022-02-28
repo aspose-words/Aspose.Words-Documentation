@@ -2,7 +2,7 @@
 title: Working with Table-Row Conditional Blocks in Java
 articleTitle: Working with Table-Row Conditional Blocks
 linktitle: Working with Table-Row Conditional Blocks
-description: "Use table-row conditional blocks within single document table to represent the same data depending on a condition Java."
+description: "Use table-row conditional blocks within single document table to represent the same data depending on a condition using Java."
 type: docs
 weight: 20
 url: /java/working-with-table-row-conditional-blocks/

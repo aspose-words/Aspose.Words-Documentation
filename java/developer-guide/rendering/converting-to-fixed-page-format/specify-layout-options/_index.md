@@ -2,7 +2,7 @@
 title: Specify Layout Options in Java
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
-description: "Create output documents with various layouts, depending on the parameters specified in the Document."
+description: "Create output documents with various layouts, depending on the parameters specified in the Document using Java."
 type: docs
 weight: 10
 url: /java/specify-layout-options/

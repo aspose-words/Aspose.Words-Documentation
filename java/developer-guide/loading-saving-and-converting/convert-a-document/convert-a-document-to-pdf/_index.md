@@ -2,7 +2,7 @@
 title: Convert a Document to PDF in Java
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
-description: "Convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms."
+description: "Convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms using Java."
 aliases: 
     - /java/converting-a-microsoft-word-document-using-save-method/
 type: docs
