@@ -2,7 +2,7 @@
 title: LINQ Reporting Engine in Python
 articleTitle: LINQ Reporting Engine
 linktitle: LINQ Reporting Engine
-description: "Create reports from template documents using the LINQ Reporting Engine in Python. Learn more about the supported features."
+description: "Create reports from template documents using the LINQ Reporting Engine in Python. Learn more about the supported features using Python."
 type: docs
 weight: 50
 url: /python-net/linq-reporting-engine/
