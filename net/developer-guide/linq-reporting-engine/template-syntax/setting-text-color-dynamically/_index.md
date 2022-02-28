@@ -2,7 +2,7 @@
 title: Setting Text Color Dynamically in C#
 articleTitle: Setting Text Color Dynamically
 linktitle: Setting Text Color Dynamically
-description: "Set font text color for document contents dynamically when building a report C#."
+description: "Set font text color for document contents dynamically when building a report using C#."
 type: docs
 weight: 85
 url: /net/setting-text-color-dynamically/

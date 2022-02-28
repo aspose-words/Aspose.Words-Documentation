@@ -2,7 +2,7 @@
 title: Specify Layout Options in C#
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
-description: "Specify Layout Options for various document layouts."
+description: "Specify Layout Options for various document layouts using C#."
 type: docs
 weight: 10
 url: /net/specify-layout-options/

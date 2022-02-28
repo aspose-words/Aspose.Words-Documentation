@@ -2,7 +2,7 @@
 title: Outputting Sequential Data in C#
 articleTitle: Outputting Sequential Data
 linktitle: Outputting Sequential Data
-description: "Output a sequence of elements with the same type when building a report C#."
+description: "Output a sequence of elements with the same type when building a report using C#."
 type: docs
 weight: 30
 url: /net/outputting-sequential-data/

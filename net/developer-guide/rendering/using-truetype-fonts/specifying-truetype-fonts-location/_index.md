@@ -2,7 +2,7 @@
 title: Specify TrueType Fonts Location in C#
 articleTitle: Specify TrueType Fonts Location
 linktitle: Specify TrueType Fonts Location
-description: "Specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory."
+description: "Specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory using C#."
 type: docs
 weight: 30
 url: /net/specifying-truetype-fonts-location/

@@ -2,7 +2,7 @@
 title: Inserting Hyperlinks Dynamically in C#
 articleTitle: Inserting Hyperlinks Dynamically
 linktitle: Inserting Hyperlinks Dynamically
-description: "Insert hyperlinks into your document dynamically when building a report C#."
+description: "Insert hyperlinks into your document dynamically when building a report using C#."
 type: docs
 weight: 80
 url: /net/inserting-hyperlinks-dynamically/

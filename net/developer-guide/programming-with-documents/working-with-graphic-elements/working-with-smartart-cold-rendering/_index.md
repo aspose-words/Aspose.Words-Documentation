@@ -2,9 +2,9 @@
 title: Working with SmartArt Cold Rendering in C#
 articleTitle: Working with SmartArt Cold Rendering
 linktitle: Working with SmartArt Cold Rendering
-description: "Introduction to SmartArt shapes."
+description: "Introduction to SmartArt shapes using C#."
 type: docs
-description: "Aspose.Words for .NET performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect."
+description: "Aspose.Words for .NET performs SmartArt Cold Rendering, meaning that it lays out and renders SmartArt objects if the pre-rendered SmartArt drawing is missing or incorrect using C#."
 weight: 55
 url: /net/working-with-smartart-cold-rendering/
 ---

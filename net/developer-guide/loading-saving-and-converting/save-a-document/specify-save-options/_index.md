@@ -2,7 +2,7 @@
 title: Specify Save Options in C#
 articleTitle: Specify Save Options
 linktitle: Specify Save Options
-description: "More accurately control the save process."
+description: "More accurately control the save process using C#."
 type: docs
 weight: 10
 url: /net/specify-save-options/

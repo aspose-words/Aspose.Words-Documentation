@@ -2,7 +2,7 @@
 title: Merging Table Cells Dynamically in C#
 articleTitle: Merging Table Cells Dynamically
 linktitle: Merging Table Cells Dynamically
-description: "Merge table cells with equal textual contents when building a report C#."
+description: "Merge table cells with equal textual contents when building a report using C#."
 type: docs
 weight: 100
 url: /net/merging-table-cells-dynamically/
