@@ -2,7 +2,7 @@
 title: Load in the HTML (.HTML, .XHTML, .MHTML) Format – Aspose.Words for Java
 articleTitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format
-description: "Import HTML-based document using different load options."
+description: "Import HTML-based document using different load options in Java."
 type: docs
 weight: 30
 url: /java/load-in-the-html-html-xhtml-mhtml-format/

@@ -2,7 +2,7 @@
 title: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format – Aspose.Words for Java
 articleTitle: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
 linktitle: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
-description: "Import WordprocessingML document using different load options."
+description: "Import WordprocessingML document using different load options in Java."
 type: docs
 weight: 40
 url: /java/load-in-ms-word-2003-formats/

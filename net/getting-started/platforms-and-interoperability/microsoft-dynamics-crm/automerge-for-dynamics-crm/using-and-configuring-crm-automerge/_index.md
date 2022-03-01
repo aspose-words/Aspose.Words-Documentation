@@ -2,7 +2,7 @@
 title: Using and Configuring CRM AutoMerge – Aspose.Words for .NET
 articleTitle: Using and Configuring CRM AutoMerge
 linktitle: Using and Configuring CRM AutoMerge
-description: "How to use and configure Aspose AutoMerge add-on."
+description: "How to use and configure Aspose AutoMerge add-on using C#."
 type: docs
 weight: 20
 url: /net/using-and-configuring-crm-automerge/

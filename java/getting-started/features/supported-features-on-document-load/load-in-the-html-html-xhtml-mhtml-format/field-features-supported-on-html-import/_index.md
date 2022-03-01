@@ -2,7 +2,7 @@
 title: Field Features Supported on HTML Import – Aspose.Words for Java
 articleTitle: Field Features Supported on HTML Import
 linktitle: Field Features Supported on HTML Import
-description: "Import HTML-based document using field load options."
+description: "Import HTML-based document using field load options in Java."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-html-import/

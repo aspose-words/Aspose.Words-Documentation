@@ -2,7 +2,7 @@
 title: Document Features Supported on PDF Export – Aspose.Words for Java
 articleTitle: Document Features Supported on PDF Export
 linktitle: Document Features Supported on PDF Export
-description: "Export to PDF format using document saving features."
+description: "Export to PDF format using document saving features in Java."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-pdf-export/

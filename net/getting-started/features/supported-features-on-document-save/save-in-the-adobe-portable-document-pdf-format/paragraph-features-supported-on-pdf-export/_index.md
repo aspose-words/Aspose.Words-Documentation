@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on PDF Export
 linktitle: Paragraph Features Supported on PDF Export
-description: "Export to PDF format using paragraph saving features."
+description: "Export to PDF format using paragraph saving features in C#."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-pdf-export/

@@ -2,7 +2,7 @@
 title: Save in Image Format Overview – Aspose.Words for Java
 articleTitle: Save in Image Format Overview
 linktitle: Save in Image Format Overview
-description: "Export images (JPEG, PNG, SVG, etc.) using different saving features."
+description: "Export images (JPEG, PNG, SVG, etc.) using different saving features in Java."
 type: docs
 weight: 90
 url: /java/save-in-image-format-overview/

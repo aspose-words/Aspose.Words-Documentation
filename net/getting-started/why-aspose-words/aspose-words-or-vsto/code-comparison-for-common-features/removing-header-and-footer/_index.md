@@ -2,7 +2,7 @@
 title: Removing Header and Footer – Aspose.Words for .NET
 articleTitle: Removing Header and Footer
 linktitle: Removing Header and Footer
-description: "Remove headers or footers from a document easily and fast instead of using VSTO."
+description: "Remove headers or footers from a document easily and fast instead of using VSTO in C#."
 type: docs
 weight: 60
 url: /net/removing-header-and-footer/

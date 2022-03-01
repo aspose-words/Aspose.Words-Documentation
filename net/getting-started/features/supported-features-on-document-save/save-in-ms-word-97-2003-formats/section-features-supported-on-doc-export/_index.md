@@ -2,7 +2,7 @@
 title: Section Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on DOC Export
 linktitle: Section Features Supported on DOC Export
-description: "Export to DOC format using section saving features."
+description: "Export to DOC format using section saving features in C#."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-doc-export/

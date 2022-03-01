@@ -2,7 +2,7 @@
 title: Save in the Microsoft Word 2003 WordprocessingML (.XML) Format – Aspose.Words for Java
 articleTitle: Save in the Microsoft Word 2003 WordprocessingML (.XML) Format
 linktitle: Save in the Microsoft Word 2003 WordprocessingML (.XML) Format
-description: "Export to WordprocessingML format using various saving features."
+description: "Export to WordprocessingML format using various saving features in Java."
 type: docs
 weight: 90
 url: /java/save-in-ms-word-2003-formats/

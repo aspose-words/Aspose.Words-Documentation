@@ -2,7 +2,7 @@
 title: Field Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Field Features Supported on DOC Import
 linktitle: Field Features Supported on DOC Import
-description: "Import DOC document using field load options."
+description: "Import DOC document using field load options in C#."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-doc-import/

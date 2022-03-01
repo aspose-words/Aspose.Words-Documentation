@@ -2,7 +2,7 @@
 title: Section Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on HTML Export
 linktitle: Section Features Supported on HTML Export
-description: "Export to HTML-based format using section saving features."
+description: "Export to HTML-based format using section saving features in C#."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-html-export/

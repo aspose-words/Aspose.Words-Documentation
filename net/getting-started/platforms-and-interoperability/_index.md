@@ -3,7 +3,7 @@ title: Supported Platforms – Aspose.Words for .NET
 articleTitle: Platforms and Interoperability
 linktitle: Supported Platforms
 type: docs
-description: "Use Aspose.Words to build applications for .NET, Java, C ++, Python, as well as other platforms such as Azure, Visual Studio, PHP, and more to perform a wide variety of document processing tasks."
+description: "Use Aspose.Words to build applications for .NET, Java, C ++, Python, as well as other platforms such as Azure, Visual Studio, PHP, and more to perform a wide variety of document processing tasks using C#."
 weight: 50
 url: /net/platforms-and-interoperability/
 aliases: [/net/plugins/]

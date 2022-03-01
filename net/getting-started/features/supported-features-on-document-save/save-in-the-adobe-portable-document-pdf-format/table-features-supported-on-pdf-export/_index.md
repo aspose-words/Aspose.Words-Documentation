@@ -2,7 +2,7 @@
 title: Table Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on PDF Export
 linktitle: Table Features Supported on PDF Export
-description: "Export to PDF format using table saving features."
+description: "Export to PDF format using table saving features in C#."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-pdf-export/

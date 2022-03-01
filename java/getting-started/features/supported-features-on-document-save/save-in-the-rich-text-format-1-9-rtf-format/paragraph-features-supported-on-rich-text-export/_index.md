@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on Rich Text Export – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on Rich Text Export
 linktitle: Paragraph Features Supported on Rich Text Export
-description: "Export to RTF format using paragraph saving features."
+description: "Export to RTF format using paragraph saving features in Java."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-rich-text-export/

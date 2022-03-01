@@ -2,7 +2,7 @@
 title: Section Features Supported on HTML Import – Aspose.Words for .NET
 articleTitle: Section Features Supported on HTML Import
 linktitle: Section Features Supported on HTML Import
-description: "Import HTML-based document using section load options."
+description: "Import HTML-based document using section load options in C#."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-html-import/

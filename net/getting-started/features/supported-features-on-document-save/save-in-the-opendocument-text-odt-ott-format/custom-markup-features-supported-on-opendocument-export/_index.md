@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on OpenDocument Export
 linktitle: Custom Markup Features Supported on OpenDocument Export
-description: "Export to ODT format using custom markup saving features."
+description: "Export to ODT format using custom markup saving features in C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-opendocument-export/

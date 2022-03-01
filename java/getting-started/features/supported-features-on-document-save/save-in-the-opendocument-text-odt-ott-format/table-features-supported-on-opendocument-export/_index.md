@@ -2,7 +2,7 @@
 title: Table Features Supported on OpenDocument Export – Aspose.Words for Java
 articleTitle: Table Features Supported on OpenDocument Export
 linktitle: Table Features Supported on OpenDocument Export
-description: "Export to ODT format using table saving features."
+description: "Export to ODT format using table saving features in Java."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-opendocument-export/

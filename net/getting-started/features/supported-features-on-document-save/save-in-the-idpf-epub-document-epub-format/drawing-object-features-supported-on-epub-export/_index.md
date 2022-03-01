@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on EPUB Export
 linktitle: Drawing Object Features Supported on EPUB Export
-description: "Export to EPUB format using drawing saving features."
+description: "Export to EPUB format using drawing saving features in C#."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-epub-export/

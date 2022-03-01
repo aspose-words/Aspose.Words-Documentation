@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on HTML Import – Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on HTML Import
 linktitle: Custom Markup Features Supported on HTML Import
-description: "Import HTML-based document using custom markup load options."
+description: "Import HTML-based document using custom markup load options in Java."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-html-import/

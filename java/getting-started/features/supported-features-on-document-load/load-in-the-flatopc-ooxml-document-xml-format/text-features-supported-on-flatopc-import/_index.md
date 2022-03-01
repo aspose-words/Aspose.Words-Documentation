@@ -2,7 +2,7 @@
 title: Text Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Text Features Supported on FlatOPC Import
 linktitle: Text Features Supported on FlatOPC Import
-description: "Import FlatOPC document using text load options."
+description: "Import FlatOPC document using text load options in Java."
 type: docs
 weight: 120
 url: /java/text-features-supported-on-flatopc-import/

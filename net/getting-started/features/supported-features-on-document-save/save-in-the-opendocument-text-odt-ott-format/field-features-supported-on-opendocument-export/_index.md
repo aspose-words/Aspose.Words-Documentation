@@ -2,7 +2,7 @@
 title: Field Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Field Features Supported on OpenDocument Export
 linktitle: Field Features Supported on OpenDocument Export
-description: "Export to ODT format using field saving features."
+description: "Export to ODT format using field saving features in C#."
 type: docs
 weight: 50
 url: /net/field-features-supported-on-opendocument-export/

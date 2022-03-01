@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on DOC Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on DOC Export
 linktitle: Drawing Object Features Supported on DOC Export
-description: "Export to DOC format using drawing saving features."
+description: "Export to DOC format using drawing saving features in Java."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-doc-export/

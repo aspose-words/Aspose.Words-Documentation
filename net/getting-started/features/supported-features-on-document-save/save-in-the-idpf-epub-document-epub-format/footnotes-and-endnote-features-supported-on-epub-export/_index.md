@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on EPUB Export
 linktitle: Footnotes and Endnote Features Supported on EPUB Export
-description: "Export to EPUB format using footnote and endnote saving features."
+description: "Export to EPUB format using footnote and endnote saving features in C#."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-epub-export/

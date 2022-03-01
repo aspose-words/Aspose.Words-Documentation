@@ -2,7 +2,7 @@
 title: Numbering Features Supported on Print Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on Print Export
 linktitle: Numbering Features Supported on Print Export
-description: "Work with numbering features when sending a document to printer."
+description: "Work with numbering features when sending a document to printer using C#."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-print-export/

@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on OpenDocument Import – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on OpenDocument Import
 linktitle: Drawing Object Features Supported on OpenDocument Import
-description: "Import ODT document using drawing object load options."
+description: "Import ODT document using drawing object load options in C#."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-opendocument-import/

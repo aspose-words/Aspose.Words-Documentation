@@ -2,7 +2,7 @@
 title: Specify Default Fonts – Aspose.Words for .NET
 articleTitle: Specify Default Fonts
 linktitle: Specify Default Fonts
-description: "Specify default fonts. NPOI does not provide an opportunity to specify default fonts."
+description: "Specify default fonts. NPOI does not provide an opportunity to specify default fonts using C#."
 type: docs
 weight: 25
 url: /net/specify-default-fonts/

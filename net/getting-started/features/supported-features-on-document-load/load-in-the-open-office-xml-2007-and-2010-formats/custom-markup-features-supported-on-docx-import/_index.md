@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on DOCX Import
 linktitle: Custom Markup Features Supported on DOCX Import
-description: "Import OOXML document using custom markup load options."
+description: "Import OOXML document using custom markup load options in C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-docx-import/

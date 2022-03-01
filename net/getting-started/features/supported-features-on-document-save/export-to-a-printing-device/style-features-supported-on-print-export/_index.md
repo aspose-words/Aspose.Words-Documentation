@@ -2,7 +2,7 @@
 title: Style Features Supported on Print Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on Print Export
 linktitle: Style Features Supported on Print Export
-description: "Work with style features when sending a document to printer."
+description: "Work with style features when sending a document to printer using C#."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-print-export/

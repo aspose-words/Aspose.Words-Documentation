@@ -2,7 +2,7 @@
 title: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format – Aspose.Words for .NET
 articleTitle: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
 linktitle: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
-description: "Export to DOC format using various saving features."
+description: "Export to DOC format using various saving features in C#."
 type: docs
 weight: 110
 url: /net/save-in-ms-word-97-2003-formats/

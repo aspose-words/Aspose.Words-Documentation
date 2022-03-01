@@ -2,7 +2,7 @@
 title: PHP – Aspose.Words for .NET
 articleTitle: PHP
 linktitle: PHP
-description: "How to utilise Aspose.Words for .NET in PHP Projects."
+description: "How to utilise Aspose.Words for .NET in PHP Projects using C#."
 type: docs
 weight: 100
 url: /net/aspose-words-net-for-php/

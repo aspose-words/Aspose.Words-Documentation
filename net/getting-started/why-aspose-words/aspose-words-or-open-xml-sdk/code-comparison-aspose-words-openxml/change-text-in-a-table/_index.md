@@ -2,7 +2,7 @@
 title: Change Text in a Table – Aspose.Words for .NET
 articleTitle: Change Text in a Table
 linktitle: Change Text in a Table
-description: "Change text in a table easily and fast instead of using Open XML SDK."
+description: "Change text in a table easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 110
 url: /net/change-text-in-a-table/

@@ -2,7 +2,7 @@
 title: Aspose Export to PDF for ASP.NET MVC – Aspose.Words for .NET
 articleTitle: Aspose Export to PDF for ASP.NET MVC
 linktitle: Aspose Export to PDF for ASP.NET MVC
-description: "Using Aspose Export to PDF for ASP.NET MVC addon."
+description: "Using Aspose Export to PDF for ASP.NET MVC addon in C#."
 type: docs
 weight: 20
 url: /net/aspose-export-to-pdf-for-asp-net-mvc/

@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on OpenDocument Import – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on OpenDocument Import
 linktitle: Drawing Object Features Supported on OpenDocument Import
-description: "Import ODT document using drawing object load options."
+description: "Import ODT document using drawing object load options in Java."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-opendocument-import/

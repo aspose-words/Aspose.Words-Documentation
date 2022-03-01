@@ -2,7 +2,7 @@
 title: Work with Bookmarks – Aspose.Words for .NET
 articleTitle: Work with Bookmarks
 linktitle: Work with Bookmarks
-description: "Add a bookmark into a document. NPOI does not provide an opportunity to work with bookmarks."
+description: "Add a bookmark into a document. NPOI does not provide an opportunity to work with bookmarks using C#."
 type: docs
 weight: 80
 url: /net/working-with-bookmarks-in-npoi/

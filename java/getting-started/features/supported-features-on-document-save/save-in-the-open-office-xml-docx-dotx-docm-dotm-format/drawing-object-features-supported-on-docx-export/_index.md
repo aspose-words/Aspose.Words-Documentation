@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on DOCX Export
 linktitle: Drawing Object Features Supported on DOCX Export
-description: "Export to OOXML format using drawing saving features."
+description: "Export to OOXML format using drawing saving features in Java."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-docx-export/

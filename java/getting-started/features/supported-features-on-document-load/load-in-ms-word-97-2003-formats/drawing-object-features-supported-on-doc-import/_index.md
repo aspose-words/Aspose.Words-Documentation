@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on DOC Import
 linktitle: Drawing Object Features Supported on DOC Import
-description: "Import DOC document using drawing load options."
+description: "Import DOC document using drawing load options in Java."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-doc-import/

@@ -2,7 +2,7 @@
 title: Annotation Features Supported on XPS Export – Aspose.Words for Java
 articleTitle: Annotation Features Supported on XPS Export
 linktitle: Annotation Features Supported on XPS Export
-description: "Export to XPS format using annotation saving features."
+description: "Export to XPS format using annotation saving features in Java."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-xps-export/

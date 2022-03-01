@@ -2,7 +2,7 @@
 title: Document Features Supported on XPS Export – Aspose.Words for .NET
 articleTitle: Document Features Supported on XPS Export
 linktitle: Document Features Supported on XPS Export
-description: "Export to XPS format using document saving features."
+description: "Export to XPS format using document saving features in C#."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-xps-export/

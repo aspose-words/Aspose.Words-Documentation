@@ -2,7 +2,7 @@
 title: Save in the HTML Format Overview – Aspose.Words for Java
 articleTitle: Save in the HTML Format Overview
 linktitle: Save in the HTML Format Overview
-description: "Export to HTML-based format using different saving features."
+description: "Export to HTML-based format using different saving features in Java."
 type: docs
 weight: 90
 url: /java/save-in-the-html-format-overview/

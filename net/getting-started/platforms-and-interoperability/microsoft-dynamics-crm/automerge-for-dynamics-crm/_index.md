@@ -2,7 +2,7 @@
 title: AutoMerge for Dynamics CRM – Aspose.Words for .NET
 articleTitle: AutoMerge for Dynamics CRM
 linktitle: AutoMerge for Dynamics CRM
-description: "The Aspose AutoMerge is an open source add-on to be used with Microsoft Dynamics CRM. It allows easily configure a workflow and generate documents from templates."
+description: "The Aspose AutoMerge is an open source add-on to be used with Microsoft Dynamics CRM. It allows easily configure a workflow and generate documents from templates using C#."
 type: docs
 weight: 10
 url: /net/automerge-for-dynamics-crm/

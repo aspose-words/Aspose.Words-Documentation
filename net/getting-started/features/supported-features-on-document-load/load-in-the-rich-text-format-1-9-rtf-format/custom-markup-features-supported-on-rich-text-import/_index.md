@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on Rich Text Import – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on Rich Text Import
 linktitle: Custom Markup Features Supported on Rich Text Import
-description: "Import RTF document using custom markup load options."
+description: "Import RTF document using custom markup load options in C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-rich-text-import/

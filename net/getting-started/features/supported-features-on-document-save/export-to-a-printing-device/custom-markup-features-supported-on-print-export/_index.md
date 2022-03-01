@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on Print Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on Print Export
 linktitle: Custom Markup Features Supported on Print Export
-description: "Work with custom markup features when sending a document to printer."
+description: "Work with custom markup features when sending a document to printer using C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-print-export/

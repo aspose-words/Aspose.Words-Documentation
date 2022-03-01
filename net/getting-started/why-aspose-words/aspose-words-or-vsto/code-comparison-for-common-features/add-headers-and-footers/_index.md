@@ -3,7 +3,7 @@ title: Add Headers and Footers – Aspose.Words for .NET
 articleTitle: Add Headers and Footers
 linktitle: Add Headers and Footers
 type: docs
-description: "Add headers or footers into a document easily and fast instead of using VSTO."
+description: "Add headers or footers into a document easily and fast instead of using VSTO in C#."
 weight: 40
 url: /net/add-headers-and-footers/
 ---

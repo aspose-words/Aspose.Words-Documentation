@@ -2,7 +2,7 @@
 title: Table Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Table Features Supported on HTML Export
 linktitle: Table Features Supported on HTML Export
-description: "Export to HTML-based format using table saving features."
+description: "Export to HTML-based format using table saving features in Java."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-html-export/

@@ -2,7 +2,7 @@
 title: Extend and Contribute to CRM OneClick Word Document Generator – Aspose.Words for .NET
 articleTitle: Extend and Contribute to CRM OneClick Word Document Generator
 linktitle: Extend and Contribute to CRM OneClick Word Document Generator
-description: "How to defined a custom workflow using Aspose.Words to generate document from template."
+description: "How to defined a custom workflow using Aspose.Words to generate document from template in C#."
 type: docs
 weight: 10
 url: /net/extend-and-contribute-oneclick-generator/

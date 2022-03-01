@@ -2,7 +2,7 @@
 title: Supported Features on Document Save – Aspose.Words for .NET
 articleTitle: Supported Features on Document Save
 linktitle: Supported Features on Document Save
-description: "Save a document in most of popular formats and supports lots of Microsoft Word features."
+description: "Save a document in most of popular formats and supports lots of Microsoft Word features using C#."
 type: docs
 weight: 30
 url: /net/supported-features-on-document-save/

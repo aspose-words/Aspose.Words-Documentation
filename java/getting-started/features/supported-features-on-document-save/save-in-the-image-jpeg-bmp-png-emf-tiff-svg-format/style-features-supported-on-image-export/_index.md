@@ -2,7 +2,7 @@
 title: Style Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Style Features Supported on Image Export
 linktitle: Style Features Supported on Image Export
-description: "Export images (JPEG, PNG, SVG, etc.) using style saving features."
+description: "Export images (JPEG, PNG, SVG, etc.) using style saving features in Java."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-image-export/

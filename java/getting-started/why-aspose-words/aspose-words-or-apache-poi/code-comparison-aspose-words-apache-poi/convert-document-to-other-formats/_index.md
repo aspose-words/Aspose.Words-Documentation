@@ -2,7 +2,7 @@
 title: Convert Document to Other Formats – Aspose.Words for Java
 articleTitle: Convert Document to Other Formats
 linktitle: Convert Document to Other Formats
-description: "Convert a document from one format to another and fast instead of using Apache POI."
+description: "Convert a document from one format to another and fast instead of using Apache POI in Java."
 type: docs
 weight: 30
 url: /java/convert-document-to-other-formats/

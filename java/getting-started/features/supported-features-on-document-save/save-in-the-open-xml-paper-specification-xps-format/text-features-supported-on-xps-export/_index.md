@@ -2,7 +2,7 @@
 title: Text Features Supported on XPS Export – Aspose.Words for Java
 articleTitle: Text Features Supported on XPS Export
 linktitle: Text Features Supported on XPS Export
-description: "Export to XPS format using text saving features."
+description: "Export to XPS format using text saving features in Java."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-xps-export/

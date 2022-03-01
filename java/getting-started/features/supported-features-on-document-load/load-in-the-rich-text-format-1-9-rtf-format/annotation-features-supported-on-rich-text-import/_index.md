@@ -2,7 +2,7 @@
 title: Annotation Features Supported on Rich Text Import – Aspose.Words for Java
 articleTitle: Annotation Features Supported on Rich Text Import
 linktitle: Annotation Features Supported on Rich Text Import
-description: "Import RTF document using annotation load options."
+description: "Import RTF document using annotation load options in Java."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-rich-text-import/

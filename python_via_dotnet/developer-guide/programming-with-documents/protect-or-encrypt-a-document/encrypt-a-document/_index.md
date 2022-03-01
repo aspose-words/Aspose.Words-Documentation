@@ -2,7 +2,7 @@
 title: Encrypt a Document in Python
 articleTitle: Encrypt a Document
 linktitle: Encrypt a Document
-description: "Encrypt your document using appropriate encryption algorithms for specific document formats using Python."
+description: "Encrypt your document using appropriate encryption algorithms for specific document formats in Python."
 type: docs
 weight: 20
 url: /python-net/encrypt-a-document/

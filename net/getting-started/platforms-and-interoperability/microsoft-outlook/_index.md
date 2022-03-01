@@ -2,7 +2,7 @@
 title: Microsoft Outlook – Aspose.Words for .NET
 articleTitle: Microsoft Outlook
 linktitle: Microsoft Outlook
-description: "Aspose.Words plugins for Microsoft Outlook."
+description: "Aspose.Words plugins for Microsoft Outlook using C#."
 type: docs
 weight: 40
 url: /net/aspose-words-net-for-outlook/

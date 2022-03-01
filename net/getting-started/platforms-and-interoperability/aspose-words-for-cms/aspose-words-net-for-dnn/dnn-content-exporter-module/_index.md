@@ -2,7 +2,7 @@
 title: DNN Content Exporter Module – Aspose.Words for .NET
 articleTitle: DNN Content Exporter Module
 linktitle: DNN Content Exporter Module
-description: "Export online contents into a Word Document using Aspose.Words DNN Content Exporter Module."
+description: "Export online contents into a Word Document using Aspose.Words DNN Content Exporter Module in C#."
 type: docs
 weight: 20
 url: /net/dnn-content-exporter-module/

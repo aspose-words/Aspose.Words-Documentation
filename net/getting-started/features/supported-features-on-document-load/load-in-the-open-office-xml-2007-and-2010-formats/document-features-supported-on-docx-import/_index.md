@@ -2,7 +2,7 @@
 title: Document Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Document Features Supported on DOCX Import
 linktitle: Document Features Supported on DOCX Import
-description: "Import OOXML using document load options."
+description: "Import OOXML using document load options in C#."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-docx-import/

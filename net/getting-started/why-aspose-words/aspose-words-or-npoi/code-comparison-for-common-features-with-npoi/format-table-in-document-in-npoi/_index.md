@@ -2,7 +2,7 @@
 title: Format Table in Document in NPOI – Aspose.Words for .NET
 articleTitle: Format Table in Document in NPOI
 linktitle: Format Table in Document in NPOI
-description: "Format table in a document easily and fast instead of using NPOI."
+description: "Format table in a document easily and fast instead of using NPOI in C#."
 type: docs
 weight: 20
 url: /net/format-table-in-document-in-npoi/

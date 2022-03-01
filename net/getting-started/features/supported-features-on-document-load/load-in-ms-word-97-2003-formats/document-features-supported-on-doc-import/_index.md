@@ -2,7 +2,7 @@
 title: Document Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Document Features Supported on DOC Import
 linktitle: Document Features Supported on DOC Import
-description: "Import DOC – Word 97-2003 using document load options."
+description: "Import DOC – Word 97-2003 using document load options in C#."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-doc-import/

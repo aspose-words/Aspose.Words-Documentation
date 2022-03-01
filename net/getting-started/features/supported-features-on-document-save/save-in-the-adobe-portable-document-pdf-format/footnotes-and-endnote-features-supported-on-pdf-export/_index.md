@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on PDF Export
 linktitle: Footnotes and Endnote Features Supported on PDF Export
-description: "Export to PDF format using footnote and endnote saving features."
+description: "Export to PDF format using footnote and endnote saving features in C#."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-pdf-export/

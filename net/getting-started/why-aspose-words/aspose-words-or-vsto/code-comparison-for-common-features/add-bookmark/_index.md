@@ -2,7 +2,7 @@
 title: Add Bookmark – Aspose.Words for .NET
 articleTitle: Add Bookmark
 linktitle: Add Bookmark
-description: "Add a bookmark into a document easily and fast instead of using VSTO."
+description: "Add a bookmark into a document easily and fast instead of using VSTO in C#."
 type: docs
 weight: 70
 url: /net/add-bookmark/

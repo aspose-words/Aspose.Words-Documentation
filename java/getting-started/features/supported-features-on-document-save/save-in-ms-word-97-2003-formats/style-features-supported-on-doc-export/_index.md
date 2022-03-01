@@ -2,7 +2,7 @@
 title: Style Features Supported on DOC Export – Aspose.Words for Java
 articleTitle: Style Features Supported on DOC Export
 linktitle: Style Features Supported on DOC Export
-description: "Export to DOC format using style saving features."
+description: "Export to DOC format using style saving features in Java."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-doc-export/

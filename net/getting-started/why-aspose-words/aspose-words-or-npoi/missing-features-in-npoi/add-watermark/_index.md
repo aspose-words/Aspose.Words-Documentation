@@ -2,7 +2,7 @@
 title: Add a Watermark – Aspose.Words for .NET
 articleTitle: Add a Watermark
 linktitle: Add a Watermark
-description: "Add a watermark into a document. NPOI does not provide an opportunity to add a watermark."
+description: "Add a watermark into a document. NPOI does not provide an opportunity to add a watermark using C#."
 type: docs
 weight: 90
 url: /net/add-watermark/

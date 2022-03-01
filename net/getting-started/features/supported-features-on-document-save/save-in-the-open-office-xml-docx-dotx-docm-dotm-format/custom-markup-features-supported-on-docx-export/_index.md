@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on DOCX Export
 linktitle: Custom Markup Features Supported on DOCX Export
-description: "Export to OOXML format using custom markup saving features."
+description: "Export to OOXML format using custom markup saving features in C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-docx-export/

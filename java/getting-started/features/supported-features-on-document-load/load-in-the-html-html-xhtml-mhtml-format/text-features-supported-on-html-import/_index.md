@@ -2,7 +2,7 @@
 title: Text Features Supported on HTML Import – Aspose.Words for Java
 articleTitle: Text Features Supported on HTML Import
 linktitle: Text Features Supported on HTML Import
-description: "Import HTML-based document using text load options."
+description: "Import HTML-based document using text load options in Java."
 type: docs
 weight: 120
 url: /java/text-features-supported-on-html-import/

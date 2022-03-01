@@ -2,7 +2,7 @@
 title: Microsoft Word – Aspose.Words for .NET
 articleTitle: Microsoft Word
 linktitle: Microsoft Word
-description: "Aspose.Words plugins for Microsoft Word."
+description: "Aspose.Words plugins for Microsoft Word using C#."
 type: docs
 weight: 50
 url: /net/aspose-words-net-for-word/

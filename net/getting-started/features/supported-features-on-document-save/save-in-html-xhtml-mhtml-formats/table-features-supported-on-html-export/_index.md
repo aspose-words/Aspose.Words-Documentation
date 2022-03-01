@@ -2,7 +2,7 @@
 title: Table Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on HTML Export
 linktitle: Table Features Supported on HTML Export
-description: "Export to HTML-based format using table saving features."
+description: "Export to HTML-based format using table saving features in C#."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-html-export/

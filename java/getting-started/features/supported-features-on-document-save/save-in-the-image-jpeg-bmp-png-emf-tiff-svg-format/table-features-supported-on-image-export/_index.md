@@ -2,7 +2,7 @@
 title: Table Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Table Features Supported on Image Export
 linktitle: Table Features Supported on Image Export
-description: "Export images (JPEG, PNG, SVG, etc.) using table saving features."
+description: "Export images (JPEG, PNG, SVG, etc.) using table saving features in Java."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-image-export/

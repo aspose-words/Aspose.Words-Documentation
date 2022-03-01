@@ -2,7 +2,7 @@
 title: Text Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Text Features Supported on DOCX Export
 linktitle: Text Features Supported on DOCX Export
-description: "Export to OOXML format using text saving features."
+description: "Export to OOXML format using text saving features in Java."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-docx-export/

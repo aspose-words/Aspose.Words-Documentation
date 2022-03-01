@@ -2,7 +2,7 @@
 title: Convert Word Document to TIFF – Aspose.Words for .NET
 articleTitle: Convert Word Document to TIFF
 linktitle: Convert Word Document to TIFF
-description: "Convert Word document to TIFF. NPOI does not provide an opportunity to work with formats other than Word."
+description: "Convert Word document to TIFF. NPOI does not provide an opportunity to work with formats other than Word using C#."
 type: docs
 weight: 20
 url: /net/convert-word-document-to-tiff/

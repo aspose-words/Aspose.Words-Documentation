@@ -2,7 +2,7 @@
 title: Style Features Supported on OpenDocument Export – Aspose.Words for Java
 articleTitle: Style Features Supported on OpenDocument Export
 linktitle: Style Features Supported on OpenDocument Export
-description: "Export to ODT format using style saving features."
+description: "Export to ODT format using style saving features in Java."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-opendocument-export/

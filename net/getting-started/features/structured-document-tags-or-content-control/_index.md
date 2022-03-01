@@ -2,7 +2,7 @@
 title: Structured Document Tags or Content Control – Aspose.Words for .NET
 articleTitle: Structured Document Tags or Content Control
 linktitle: Structured Document Tags or Content Control
-description: "Work with Structured Document Tags or Content Controls."
+description: "Work with Structured Document Tags or Content Controls using C#."
 type: docs
 weight: 50
 url: /net/structured-document-tags-or-content-control/

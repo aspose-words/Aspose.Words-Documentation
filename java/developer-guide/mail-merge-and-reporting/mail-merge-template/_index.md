@@ -3,7 +3,7 @@ title: Mail Merge Template in Java
 articleTitle: Mail Merge Template
 linktitle: Mail Merge Template
 type: docs
-description: "Create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields using Java."
+description: "Create a mail merge template to define fixed content in output documents, and then generate merge documents using the merge fields in Java."
 keywords: "create mail merge template Java, Mail Merge Java"
 weight: 10
 url: /java/mail-merge-template/

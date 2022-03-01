@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on HTML Export
 linktitle: Drawing Object Features Supported on HTML Export
-description: "Export to HTML-based format using drawing saving features."
+description: "Export to HTML-based format using drawing saving features in C#."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-html-export/

@@ -2,7 +2,7 @@
 title: System Requirements – Aspose.Words for .NET
 articleTitle: System Requirements
 linktitle: System Requirements
-description: "Before you start working with Aspose.Words for .NET, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for."
+description: "Before you start working with Aspose.Words for .NET, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for using C#."
 type: docs
 weight: 70
 url: /net/system-requirements/

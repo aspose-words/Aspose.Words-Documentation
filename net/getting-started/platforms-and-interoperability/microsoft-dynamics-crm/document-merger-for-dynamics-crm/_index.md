@@ -2,7 +2,7 @@
 title: Document Merger for Dynamics CRM – Aspose.Words for .NET
 articleTitle: Document Merger for Dynamics CRM
 linktitle: Document Merger for Dynamics CRM
-description: "The Aspose Document Merger is an open-source add-on to be used in Microsoft Dynamic CRM. It allows automatically merge two documents into single or creating new document using existing documents."
+description: "The Aspose Document Merger is an open-source add-on to be used in Microsoft Dynamic CRM. It allows automatically merge two documents into single or creating new document using existing documents in C#."
 type: docs
 weight: 30
 url: /net/document-merger-for-dynamics-crm/

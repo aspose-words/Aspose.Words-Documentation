@@ -2,7 +2,7 @@
 title: Text Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Text Features Supported on WordprocessingML Export
 linktitle: Text Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using text saving features."
+description: "Export to WordprocessingML format using text saving features in Java."
 type: docs
 weight: 130
 url: /java/text-features-supported-on-wordprocessingml-export/

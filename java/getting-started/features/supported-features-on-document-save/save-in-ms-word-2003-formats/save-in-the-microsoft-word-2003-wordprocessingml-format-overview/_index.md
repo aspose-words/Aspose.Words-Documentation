@@ -2,7 +2,7 @@
 title: Save in the Microsoft Word 2003 WordprocessingML Format Overview – Aspose.Words for Java
 articleTitle: Save in the Microsoft Word 2003 WordprocessingML Format Overview
 linktitle: Save in the Microsoft Word 2003 WordprocessingML Format Overview
-description: "Export to WordprocessingML format using different saving features."
+description: "Export to WordprocessingML format using different saving features in Java."
 type: docs
 weight: 90
 url: /java/save-in-the-microsoft-word-2003-wordprocessingml-format-overview/

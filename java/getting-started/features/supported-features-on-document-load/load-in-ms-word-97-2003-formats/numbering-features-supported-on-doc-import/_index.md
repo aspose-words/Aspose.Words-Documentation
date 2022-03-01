@@ -2,7 +2,7 @@
 title: Numbering Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Numbering Features Supported on DOC Import
 linktitle: Numbering Features Supported on DOC Import
-description: "Import DOC document using numbering load options."
+description: "Import DOC document using numbering load options in Java."
 type: docs
 weight: 80
 url: /java/numbering-features-supported-on-doc-import/

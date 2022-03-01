@@ -2,7 +2,7 @@
 title: Aspose.Words or NPOI – Aspose.Words for .NET
 articleTitle: Aspose.Words or NPOI
 linktitle: Aspose.Words or NPOI
-description: "Perform a large number of tasks with documents faster and more conveniently than NPOI."
+description: "Perform a large number of tasks with documents faster and more conveniently than NPOI using C#."
 type: docs
 weight: 40
 url: /net/aspose-words-or-npoi/
