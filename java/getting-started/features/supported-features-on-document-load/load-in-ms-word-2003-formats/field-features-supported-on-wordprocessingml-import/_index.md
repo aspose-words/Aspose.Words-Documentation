@@ -2,7 +2,7 @@
 title: Field Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Field Features Supported on WordprocessingML Import
 linktitle: Field Features Supported on WordprocessingML Import
-description: "Import WordprocessingML document using field load options."
+description: "Import WordprocessingML document using field load options in Java."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-wordprocessingml-import/

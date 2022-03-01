@@ -2,7 +2,7 @@
 title: Style Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on DOCX Export
 linktitle: Style Features Supported on DOCX Export
-description: "Export to OOXML format using style saving features using C#."
+description: "Export to OOXML format using style saving features in C#."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-docx-export/

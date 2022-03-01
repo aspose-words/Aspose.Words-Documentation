@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on Image Export
 linktitle: Custom Markup Features Supported on Image Export
-description: "Export images (JPEG, PNG, SVG, etc.) using custom markup saving features."
+description: "Export images (JPEG, PNG, SVG, etc.) using custom markup saving features in Java."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-image-export/

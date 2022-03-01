@@ -2,7 +2,7 @@
 title: Annotation Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on WordprocessingML Export
 linktitle: Annotation Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using annotation saving features using C#."
+description: "Export to WordprocessingML format using annotation saving features in C#."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-wordprocessingml-export/

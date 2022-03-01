@@ -2,7 +2,7 @@
 title: Get and Set Bookmark Text – Aspose.Words for .NET
 articleTitle: Get and Set Bookmark Text
 linktitle: Get and Set Bookmark Text
-description: "Get and set bokmark textin a document easily and fast instead of using Open XML SDK using C#."
+description: "Get and set bokmark textin a document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 130
 url: /net/get-and-set-bookmark-text/

@@ -2,7 +2,7 @@
 title: Section Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Section Features Supported on DOCX Export
 linktitle: Section Features Supported on DOCX Export
-description: "Export to OOXML format using section saving features using C#."
+description: "Export to OOXML format using section saving features in C#."
 type: docs
 weight: 90
 url: /net/section-features-supported-on-docx-export/

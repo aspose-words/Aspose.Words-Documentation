@@ -2,7 +2,7 @@
 title: Field Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Field Features Supported on WordprocessingML Export
 linktitle: Field Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using field saving features."
+description: "Export to WordprocessingML format using field saving features in Java."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-wordprocessingml-export/

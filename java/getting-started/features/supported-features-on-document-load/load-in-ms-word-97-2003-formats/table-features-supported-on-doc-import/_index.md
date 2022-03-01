@@ -2,7 +2,7 @@
 title: Table Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Table Features Supported on DOC Import
 linktitle: Table Features Supported on DOC Import
-description: "Import DOC document using table load options."
+description: "Import DOC document using table load options in Java."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-doc-import/

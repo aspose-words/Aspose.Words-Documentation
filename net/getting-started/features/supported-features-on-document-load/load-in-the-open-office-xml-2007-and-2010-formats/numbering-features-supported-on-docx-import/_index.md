@@ -2,7 +2,7 @@
 title: Numbering Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on DOCX Import
 linktitle: Numbering Features Supported on DOCX Import
-description: "Import OOXML document using numbering load options using C#."
+description: "Import OOXML document using numbering load options in C#."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-docx-import/

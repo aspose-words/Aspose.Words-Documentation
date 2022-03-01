@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on OpenDocument Export
 linktitle: Drawing Object Features Supported on OpenDocument Export
-description: "Export to ODT format using drawing saving features using C#."
+description: "Export to ODT format using drawing saving features in C#."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-opendocument-export/

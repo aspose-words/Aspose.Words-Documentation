@@ -2,7 +2,7 @@
 title: Display Documents in Print Preview – Aspose.Words for .NET
 articleTitle: Display Documents in Print Preview
 linktitle: Display Documents in Print Preview
-description: "Display documents in print preview easily and fast instead of using VSTO using C#."
+description: "Display documents in print preview easily and fast instead of using VSTO in C#."
 type: docs
 weight: 110
 url: /net/display-documents-in-print-preview/

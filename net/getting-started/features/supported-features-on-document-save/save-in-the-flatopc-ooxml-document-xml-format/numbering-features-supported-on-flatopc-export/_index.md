@@ -2,7 +2,7 @@
 title: Numbering Features Supported on FlatOPC Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on FlatOPC Export
 linktitle: Numbering Features Supported on FlatOPC Export
-description: "Export to FlatOPC – XML format using numbering saving features using C#."
+description: "Export to FlatOPC – XML format using numbering saving features in C#."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-flatopc-export/

@@ -2,7 +2,7 @@
 title: Style Features Supported on DOC Import – Aspose.Words for Java
 articleTitle: Style Features Supported on DOC Import
 linktitle: Style Features Supported on DOC Import
-description: "Import DOC document using style load options."
+description: "Import DOC document using style load options in Java."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-doc-import/

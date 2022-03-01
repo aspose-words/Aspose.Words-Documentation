@@ -2,7 +2,7 @@
 title: Working with Footers in NPOI – Aspose.Words for .NET
 articleTitle: Working with Footers in NPOI
 linktitle: Working with Footers in NPOI
-description: "Work with footers in a document easily and fast instead of using NPOI using C#."
+description: "Work with footers in a document easily and fast instead of using NPOI in C#."
 type: docs
 weight: 10
 url: /net/working-with-footers-in-npoi/

@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on XPS Export – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on XPS Export
 linktitle: Drawing Object Features Supported on XPS Export
-description: "Export to XPS format using drawing saving features."
+description: "Export to XPS format using drawing saving features in Java."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-xps-export/

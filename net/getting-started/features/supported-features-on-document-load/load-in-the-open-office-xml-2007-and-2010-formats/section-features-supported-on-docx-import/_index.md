@@ -2,7 +2,7 @@
 title: Section Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Section Features Supported on DOCX Import
 linktitle: Section Features Supported on DOCX Import
-description: "Import OOXML document using section load options using C#."
+description: "Import OOXML document using section load options in C#."
 type: docs
 weight: 100
 url: /net/section-features-supported-on-docx-import/

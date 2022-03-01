@@ -2,7 +2,7 @@
 title: Numbering Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on FlatOPC Export
 linktitle: Numbering Features Supported on FlatOPC Export
-description: "Export to FlatOPC – XML format using numbering saving features."
+description: "Export to FlatOPC – XML format using numbering saving features in Java."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-flatopc-export/

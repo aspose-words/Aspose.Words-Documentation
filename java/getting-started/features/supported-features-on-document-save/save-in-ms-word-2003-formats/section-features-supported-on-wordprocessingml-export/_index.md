@@ -2,7 +2,7 @@
 title: Section Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Section Features Supported on WordprocessingML Export
 linktitle: Section Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using section saving features."
+description: "Export to WordprocessingML format using section saving features in Java."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-wordprocessingml-export/

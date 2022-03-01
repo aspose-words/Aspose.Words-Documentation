@@ -2,7 +2,7 @@
 title: Style Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on EPUB Export
 linktitle: Style Features Supported on EPUB Export
-description: "Export to EPUB format using style saving features using C#."
+description: "Export to EPUB format using style saving features in C#."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-epub-export/

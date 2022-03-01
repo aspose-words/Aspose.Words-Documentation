@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on HTML Import – Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on HTML Import
 linktitle: Drawing Object Features Supported on HTML Import
-description: "Import HTML-based document using drawing load options."
+description: "Import HTML-based document using drawing load options in Java."
 type: docs
 weight: 40
 url: /java/drawing-object-features-supported-on-html-import/

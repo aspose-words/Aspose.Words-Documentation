@@ -2,7 +2,7 @@
 title: Document Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Document Features Supported on Image Export
 linktitle: Document Features Supported on Image Export
-description: "Export images (JPEG, PNG, SVG, etc.) using document saving features."
+description: "Export images (JPEG, PNG, SVG, etc.) using document saving features in Java."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-image-export/

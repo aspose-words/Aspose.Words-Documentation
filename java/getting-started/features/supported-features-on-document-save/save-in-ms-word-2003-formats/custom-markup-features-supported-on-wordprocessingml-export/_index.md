@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on WordprocessingML Export
 linktitle: Custom Markup Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using custom markup saving features."
+description: "Export to WordprocessingML format using custom markup saving features in Java."
 type: docs
 weight: 20
 url: /java/custom-markup-features-supported-on-wordprocessingml-export/

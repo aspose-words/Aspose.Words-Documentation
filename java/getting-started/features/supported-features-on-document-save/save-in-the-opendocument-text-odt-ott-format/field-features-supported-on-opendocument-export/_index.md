@@ -2,7 +2,7 @@
 title: Field Features Supported on OpenDocument Export – Aspose.Words for Java
 articleTitle: Field Features Supported on OpenDocument Export
 linktitle: Field Features Supported on OpenDocument Export
-description: "Export to ODT format using field saving features."
+description: "Export to ODT format using field saving features in Java."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-opendocument-export/

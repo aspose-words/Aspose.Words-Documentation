@@ -2,7 +2,7 @@
 title: Add Table to Word Document – Aspose.Words for .NET
 articleTitle: Add Table to Word Document
 linktitle: Add Table to Word Document
-description: "Add a table to a Word document easily and fast instead of using Open XML SDK using C#."
+description: "Add a table to a Word document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 100
 url: /net/add-table-to-word-document/

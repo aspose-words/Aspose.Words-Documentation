@@ -2,7 +2,7 @@
 title: Document Features Supported on EPUB Export – Aspose.Words for Java
 articleTitle: Document Features Supported on EPUB Export
 linktitle: Document Features Supported on EPUB Export
-description: "Export to EPUB format using document saving features."
+description: "Export to EPUB format using document saving features in Java."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-epub-export/

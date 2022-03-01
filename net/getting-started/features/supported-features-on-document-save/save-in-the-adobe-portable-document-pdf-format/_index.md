@@ -2,7 +2,7 @@
 title: Save in the Adobe Portable Document (.PDF) Format – Aspose.Words for .NET
 articleTitle: Save in the Adobe Portable Document (.PDF) Format
 linktitle: Save in the Adobe Portable Document (.PDF) Format
-description: "Export to PDF format using various saving features using C#."
+description: "Export to PDF format using various saving features in C#."
 type: docs
 weight: 30
 url: /net/save-in-the-adobe-portable-document-pdf-format/

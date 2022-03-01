@@ -2,7 +2,7 @@
 title: Section Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Section Features Supported on DOCX Import
 linktitle: Section Features Supported on DOCX Import
-description: "Import OOXML document using section load options."
+description: "Import OOXML document using section load options in Java."
 type: docs
 weight: 90
 url: /java/section-features-supported-on-docx-import/

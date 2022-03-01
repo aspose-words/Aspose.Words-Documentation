@@ -2,7 +2,7 @@
 title: Create a Document – Aspose.Words for .NET
 articleTitle: Create a Document
 linktitle: Create a Document
-description: "Create a Word Processing document easily and fast instead of using Open XML SDK using C#."
+description: "Create a Word Processing document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 10
 url: /net/create-a-word-processing-document/

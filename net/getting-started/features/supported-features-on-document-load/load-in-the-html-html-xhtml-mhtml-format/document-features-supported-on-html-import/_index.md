@@ -2,7 +2,7 @@
 title: Document Features Supported on HTML Import – Aspose.Words for .NET
 articleTitle: Document Features Supported on HTML Import
 linktitle: Document Features Supported on HTML Import
-description: "Import HTML-based using document load options using C#."
+description: "Import HTML-based using document load options in C#."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-html-import/

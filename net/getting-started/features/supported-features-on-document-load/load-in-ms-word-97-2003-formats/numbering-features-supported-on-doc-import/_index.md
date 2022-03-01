@@ -2,7 +2,7 @@
 title: Numbering Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on DOC Import
 linktitle: Numbering Features Supported on DOC Import
-description: "Import DOC document using numbering load options using C#."
+description: "Import DOC document using numbering load options in C#."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-doc-import/

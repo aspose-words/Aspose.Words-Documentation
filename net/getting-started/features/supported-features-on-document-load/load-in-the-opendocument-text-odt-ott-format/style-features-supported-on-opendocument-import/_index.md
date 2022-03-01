@@ -2,7 +2,7 @@
 title: Style Features Supported on OpenDocument Import – Aspose.Words for .NET
 articleTitle: Style Features Supported on OpenDocument Import
 linktitle: Style Features Supported on OpenDocument Import
-description: "Import ODT document using style load options using C#."
+description: "Import ODT document using style load options in C#."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-opendocument-import/

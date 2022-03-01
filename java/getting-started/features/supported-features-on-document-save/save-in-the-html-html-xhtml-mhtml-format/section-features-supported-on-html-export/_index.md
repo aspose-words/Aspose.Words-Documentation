@@ -2,7 +2,7 @@
 title: Section Features Supported on HTML Export – Aspose.Words for Java
 articleTitle: Section Features Supported on HTML Export
 linktitle: Section Features Supported on HTML Export
-description: "Export to HTML-based format using section saving features."
+description: "Export to HTML-based format using section saving features in Java."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-html-export/

@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on PDF Export – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on PDF Export
 linktitle: Paragraph Features Supported on PDF Export
-description: "Export to PDF format using paragraph saving features."
+description: "Export to PDF format using paragraph saving features in Java."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-pdf-export/

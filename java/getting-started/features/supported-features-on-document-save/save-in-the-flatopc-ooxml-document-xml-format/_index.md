@@ -2,7 +2,7 @@
 title: Save in the FlatOPC OOXML Document (.XML) Format – Aspose.Words for Java
 articleTitle: Save in the FlatOPC OOXML Document (.XML) Format
 linktitle: Save in the FlatOPC OOXML Document (.XML) Format
-description: "Export to FlatOPC – XML format using various saving features."
+description: "Export to FlatOPC – XML format using various saving features in Java."
 type: docs
 weight: 40
 url: /java/save-in-the-flatopc-ooxml-document-xml-format/

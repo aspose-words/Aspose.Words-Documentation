@@ -2,7 +2,7 @@
 title: Table Features Supported on DOC Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on DOC Export
 linktitle: Table Features Supported on DOC Export
-description: "Export to DOC format using table saving features using C#."
+description: "Export to DOC format using table saving features in C#."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-doc-export/

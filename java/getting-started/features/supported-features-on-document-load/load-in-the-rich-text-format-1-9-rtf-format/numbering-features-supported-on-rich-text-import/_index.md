@@ -2,7 +2,7 @@
 title: Numbering Features Supported on Rich Text Import – Aspose.Words for Java
 articleTitle: Numbering Features Supported on Rich Text Import
 linktitle: Numbering Features Supported on Rich Text Import
-description: "Import RTF document using numbering load options."
+description: "Import RTF document using numbering load options in Java."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-rich-text-import/

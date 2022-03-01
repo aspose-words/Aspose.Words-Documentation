@@ -2,7 +2,7 @@
 title: Annotation Features Supported on Image Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on Image Export
 linktitle: Annotation Features Supported on Image Export
-description: "Export images (JPEG, PNG, SVG, etc.) using annotation saving features using C#."
+description: "Export images (JPEG, PNG, SVG, etc.) using annotation saving features in C#."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-image-export/

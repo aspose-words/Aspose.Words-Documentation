@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on HTML Import – Aspose.Words for Java
 articleTitle: Paragraph Features Supported on HTML Import
 linktitle: Paragraph Features Supported on HTML Import
-description: "Import HTML-based document using paragraph load options."
+description: "Import HTML-based document using paragraph load options in Java."
 type: docs
 weight: 80
 url: /java/paragraph-features-supported-on-html-import/

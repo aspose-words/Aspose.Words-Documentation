@@ -2,7 +2,7 @@
 title: Extend and Contribute to CRM AutoMerge – Aspose.Words for .NET
 articleTitle: Extend and Contribute to CRM AutoMerge
 linktitle: Extend and Contribute to CRM AutoMerge
-description: "How to defined a custom workflow using Aspose AutoMerge add-on that can be used with Workflows and Dialogs in CRM using C#."
+description: "How to defined a custom workflow using Aspose AutoMerge add-on that can be used with Workflows and Dialogs in CRM in C#."
 type: docs
 weight: 10
 url: /net/extend-and-contribute-to-crm-automerge/

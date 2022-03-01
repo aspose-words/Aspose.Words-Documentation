@@ -2,7 +2,7 @@
 title: Table Features Supported on WordprocessingML Export – Aspose.Words for Java
 articleTitle: Table Features Supported on WordprocessingML Export
 linktitle: Table Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using table saving features."
+description: "Export to WordprocessingML format using table saving features in Java."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-wordprocessingml-export/

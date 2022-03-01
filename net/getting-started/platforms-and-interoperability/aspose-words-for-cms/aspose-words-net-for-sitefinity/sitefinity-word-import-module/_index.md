@@ -2,7 +2,7 @@
 title: Sitefinity Word Import Module – Aspose.Words for .NET
 articleTitle: Sitefinity Word Import Module
 linktitle: Sitefinity Word Import Module
-description: "Read contents of any Word processing document using Aspose.Words Sitefinity Word Import Module using C#."
+description: "Read contents of any Word processing document using Aspose.Words Sitefinity Word Import Module in C#."
 type: docs
 weight: 30
 url: /net/sitefinity-word-import-module/

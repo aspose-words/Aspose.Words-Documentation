@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on OpenDocument Import – Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on OpenDocument Import
 linktitle: Footnotes and Endnote Features Supported on OpenDocument Import
-description: "Import ODT document using footnotes and endnote load options using C#."
+description: "Import ODT document using footnotes and endnote load options in C#."
 type: docs
 weight: 60
 url: /net/footnotes-and-endnote-features-supported-on-opendocument-import/

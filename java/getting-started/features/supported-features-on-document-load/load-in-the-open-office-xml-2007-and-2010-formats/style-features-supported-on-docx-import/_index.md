@@ -2,7 +2,7 @@
 title: Style Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Style Features Supported on DOCX Import
 linktitle: Style Features Supported on DOCX Import
-description: "Import OOXML document using style load options."
+description: "Import OOXML document using style load options in Java."
 type: docs
 weight: 100
 url: /java/style-features-supported-on-docx-import/

@@ -2,7 +2,7 @@
 title: Inserting Fields in Python
 articleTitle: Inserting Fields
 linktitle: Inserting Fields
-description: "Insert fields into a document in different ways: using DocumentBuilder or DOM (Document Object Model) using Python."
+description: "Insert fields into a document in different ways: using DocumentBuilder or DOM (Document Object Model) in Python."
 type: docs
 weight: 20
 url: /python-net/inserting-fields/

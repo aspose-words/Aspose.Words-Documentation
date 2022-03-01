@@ -2,7 +2,7 @@
 title: Section Features Supported on XPS Export – Aspose.Words for Java
 articleTitle: Section Features Supported on XPS Export
 linktitle: Section Features Supported on XPS Export
-description: "Export to XPS format using section saving features."
+description: "Export to XPS format using section saving features in Java."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-xps-export/

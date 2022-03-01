@@ -2,7 +2,7 @@
 title: Umbraco Content Exporter Module – Aspose.Words for .NET
 articleTitle: Umbraco Content Exporter Module
 linktitle: Umbraco Content Exporter Module
-description: "Export online content into Word Processing or PDF document using Aspose.Words Umbraco Content Exporter Module using C#."
+description: "Export online content into Word Processing or PDF document using Aspose.Words Umbraco Content Exporter Module in C#."
 type: docs
 weight: 10
 url: /net/umbraco-content-exporter-module/

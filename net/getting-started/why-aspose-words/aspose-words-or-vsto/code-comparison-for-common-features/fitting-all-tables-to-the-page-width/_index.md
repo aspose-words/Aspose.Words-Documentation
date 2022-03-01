@@ -2,7 +2,7 @@
 title: Fitting all Tables to the Page Width – Aspose.Words for .NET
 articleTitle: Fitting all Tables to the Page Width
 linktitle: Fitting all Tables to the Page Width
-description: "Fit a table into a document by page width easily and fast instead of using VSTO using C#."
+description: "Fit a table into a document by page width easily and fast instead of using VSTO in C#."
 type: docs
 weight: 30
 url: /net/fitting-all-tables-to-the-page-width/

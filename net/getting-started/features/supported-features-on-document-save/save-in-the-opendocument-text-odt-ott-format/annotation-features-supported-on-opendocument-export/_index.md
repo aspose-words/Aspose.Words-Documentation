@@ -2,7 +2,7 @@
 title: Annotation Features Supported on OpenDocument Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on OpenDocument Export
 linktitle: Annotation Features Supported on OpenDocument Export
-description: "Export to ODT format using annotation saving features using C#."
+description: "Export to ODT format using annotation saving features in C#."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-opendocument-export/

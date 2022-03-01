@@ -2,7 +2,7 @@
 title: Save in the Rich Text Format 1.9 (.RTF) Format – Aspose.Words for Java
 articleTitle: Save in the Rich Text Format 1.9 (.RTF) Format
 linktitle: Save in the Rich Text Format 1.9 (.RTF) Format
-description: "Export to RTF format using various saving features."
+description: "Export to RTF format using various saving features in Java."
 type: docs
 weight: 150
 url: /java/save-in-the-rich-text-format-1-9-rtf-format/

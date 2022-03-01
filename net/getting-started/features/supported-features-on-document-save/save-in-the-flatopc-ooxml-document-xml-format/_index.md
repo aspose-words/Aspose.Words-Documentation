@@ -2,7 +2,7 @@
 title: Save in the FlatOPC OOXML Document (.XML) Format – Aspose.Words for .NET
 articleTitle: Save in the FlatOPC OOXML Document (.XML) Format
 linktitle: Save in the FlatOPC OOXML Document (.XML) Format
-description: "Export to FlatOPC – XML format using various saving features using C#."
+description: "Export to FlatOPC – XML format using various saving features in C#."
 type: docs
 weight: 40
 url: /net/save-in-the-flatopc-ooxml-document-xml-format/

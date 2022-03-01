@@ -2,7 +2,7 @@
 title: Annotation Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Annotation Features Supported on HTML Export
 linktitle: Annotation Features Supported on HTML Export
-description: "Export to HTML-based format using annotation saving features using C#."
+description: "Export to HTML-based format using annotation saving features in C#."
 type: docs
 weight: 10
 url: /net/annotation-features-supported-on-html-export/

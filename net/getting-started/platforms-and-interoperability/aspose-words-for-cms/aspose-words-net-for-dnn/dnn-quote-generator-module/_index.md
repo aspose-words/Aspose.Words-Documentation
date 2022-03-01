@@ -2,7 +2,7 @@
 title: DNN Quote Generator Module – Aspose.Words for .NET
 articleTitle: DNN Quote Generator Module
 linktitle: DNN Quote Generator Module
-description: "Generate Quotations in your DNN website using Aspose.Words DNN Quote Generator Module using C#."
+description: "Generate Quotations in your DNN website using Aspose.Words DNN Quote Generator Module in C#."
 type: docs
 weight: 10
 url: /net/dnn-quote-generator-module/

@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on WordprocessingML Import
 linktitle: Custom Markup Features Supported on WordprocessingML Import
-description: "Import WordprocessingML document using custom markup load options using C#."
+description: "Import WordprocessingML document using custom markup load options in C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-wordprocessingml-import/

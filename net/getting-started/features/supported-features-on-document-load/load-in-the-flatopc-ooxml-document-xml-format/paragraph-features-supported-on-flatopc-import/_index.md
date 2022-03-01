@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on FlatOPC Import
 linktitle: Paragraph Features Supported on FlatOPC Import
-description: "Import FlatOPC document using paragraph load options using C#."
+description: "Import FlatOPC document using paragraph load options in C#."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-flatopc-import/

@@ -2,7 +2,7 @@
 title: Document Features Supported on DOCX Import – Aspose.Words for Java
 articleTitle: Document Features Supported on DOCX Import
 linktitle: Document Features Supported on DOCX Import
-description: "Import OOXML using document load options."
+description: "Import OOXML using document load options in Java."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-docx-import/

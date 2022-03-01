@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on DOCX Import – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on DOCX Import
 linktitle: Drawing Object Features Supported on DOCX Import
-description: "Import OOXML document using drawing load options using C#."
+description: "Import OOXML document using drawing load options in C#."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-docx-import/

@@ -2,7 +2,7 @@
 title: Encrypt a Document in C#
 articleTitle: Encrypt a Document
 linktitle: Encrypt a Document
-description: "Encrypt your document using appropriate encryption algorithms for specific document formats using C#."
+description: "Encrypt your document using appropriate encryption algorithms for specific document formats in C#."
 type: docs
 weight: 20
 url: /net/encrypt-a-document/

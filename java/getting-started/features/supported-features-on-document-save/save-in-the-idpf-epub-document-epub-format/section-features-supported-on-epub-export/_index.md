@@ -2,7 +2,7 @@
 title: Section Features Supported on EPUB Export – Aspose.Words for Java
 articleTitle: Section Features Supported on EPUB Export
 linktitle: Section Features Supported on EPUB Export
-description: "Export to EPUB format using section saving features."
+description: "Export to EPUB format using section saving features in Java."
 type: docs
 weight: 100
 url: /java/section-features-supported-on-epub-export/

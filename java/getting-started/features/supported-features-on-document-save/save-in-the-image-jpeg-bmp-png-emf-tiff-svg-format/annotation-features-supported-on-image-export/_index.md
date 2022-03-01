@@ -2,7 +2,7 @@
 title: Annotation Features Supported on Image Export – Aspose.Words for Java
 articleTitle: Annotation Features Supported on Image Export
 linktitle: Annotation Features Supported on Image Export
-description: "Export images (JPEG, PNG, SVG, etc.) using annotation saving features."
+description: "Export images (JPEG, PNG, SVG, etc.) using annotation saving features in Java."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-image-export/

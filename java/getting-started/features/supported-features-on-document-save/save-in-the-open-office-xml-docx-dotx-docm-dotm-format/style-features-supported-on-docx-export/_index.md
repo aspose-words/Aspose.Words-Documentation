@@ -2,7 +2,7 @@
 title: Style Features Supported on DOCX Export – Aspose.Words for Java
 articleTitle: Style Features Supported on DOCX Export
 linktitle: Style Features Supported on DOCX Export
-description: "Export to OOXML format using style saving features."
+description: "Export to OOXML format using style saving features in Java."
 type: docs
 weight: 110
 url: /java/style-features-supported-on-docx-export/

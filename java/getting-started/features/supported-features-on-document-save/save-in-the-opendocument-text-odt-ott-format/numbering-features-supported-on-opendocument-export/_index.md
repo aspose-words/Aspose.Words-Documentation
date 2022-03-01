@@ -2,7 +2,7 @@
 title: Numbering Features Supported on OpenDocument Export – Aspose.Words for Java
 articleTitle: Numbering Features Supported on OpenDocument Export
 linktitle: Numbering Features Supported on OpenDocument Export
-description: "Export to ODT format using numbering saving features."
+description: "Export to ODT format using numbering saving features in Java."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-opendocument-export/

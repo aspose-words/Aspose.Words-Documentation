@@ -2,7 +2,7 @@
 title: Document Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Document Features Supported on WordprocessingML Import
 linktitle: Document Features Supported on WordprocessingML Import
-description: "Import WordprocessingML using document load options."
+description: "Import WordprocessingML using document load options in Java."
 type: docs
 weight: 30
 url: /java/document-features-supported-on-wordprocessingml-import/

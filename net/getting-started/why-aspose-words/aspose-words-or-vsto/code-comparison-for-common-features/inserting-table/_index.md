@@ -2,7 +2,7 @@
 title: Inserting Table – Aspose.Words for .NET
 articleTitle: Inserting Table
 linktitle: Inserting Table
-description: "Insert a table into a document and modiffy it easily and fast instead of using VSTO using C#."
+description: "Insert a table into a document and modiffy it easily and fast instead of using VSTO in C#."
 type: docs
 weight: 80
 url: /net/inserting-table/

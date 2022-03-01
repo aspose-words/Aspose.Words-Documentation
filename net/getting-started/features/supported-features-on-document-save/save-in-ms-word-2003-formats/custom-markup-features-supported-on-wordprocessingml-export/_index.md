@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on WordprocessingML Export
 linktitle: Custom Markup Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using custom markup saving features using C#."
+description: "Export to WordprocessingML format using custom markup saving features in C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-wordprocessingml-export/

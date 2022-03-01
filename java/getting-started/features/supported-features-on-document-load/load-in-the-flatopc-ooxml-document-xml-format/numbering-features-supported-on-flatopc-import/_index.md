@@ -2,7 +2,7 @@
 title: Numbering Features Supported on FlatOPC Import – Aspose.Words for Java
 articleTitle: Numbering Features Supported on FlatOPC Import
 linktitle: Numbering Features Supported on FlatOPC Import
-description: "Import FlatOPC document using numbering load options."
+description: "Import FlatOPC document using numbering load options in Java."
 type: docs
 weight: 70
 url: /java/numbering-features-supported-on-flatopc-import/

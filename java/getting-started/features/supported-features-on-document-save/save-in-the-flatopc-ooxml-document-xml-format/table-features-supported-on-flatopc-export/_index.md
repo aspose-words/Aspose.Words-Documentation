@@ -2,7 +2,7 @@
 title: Table Features Supported on FlatOPC Export – Aspose.Words for Java
 articleTitle: Table Features Supported on FlatOPC Export
 linktitle: Table Features Supported on FlatOPC Export
-description: "Export to FlatOPC – XML format using table saving features."
+description: "Export to FlatOPC – XML format using table saving features in Java."
 type: docs
 weight: 120
 url: /java/table-features-supported-on-flatopc-export/

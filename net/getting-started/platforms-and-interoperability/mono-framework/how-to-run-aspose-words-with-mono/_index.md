@@ -2,7 +2,7 @@
 title: How to  Run Aspose.Words with Mono – Aspose.Words for .NET
 articleTitle: How to  Run Aspose.Words with Mono
 linktitle: How to  Run Aspose.Words with Mono
-description: "Using Aspose.Words for .NET with Mono on Linux or Mac OS to generate DOC files, convert DOC and DOCX to PDF and much more using C#."
+description: "Using Aspose.Words for .NET with Mono on Linux or Mac OS to generate DOC files, convert DOC and DOCX to PDF and much more in C#."
 type: docs
 weight: 10
 url: /net/how-to-run-aspose-words-with-mono/

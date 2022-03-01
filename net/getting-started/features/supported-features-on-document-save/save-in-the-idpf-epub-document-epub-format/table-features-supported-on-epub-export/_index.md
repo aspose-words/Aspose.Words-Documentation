@@ -2,7 +2,7 @@
 title: Table Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Table Features Supported on EPUB Export
 linktitle: Table Features Supported on EPUB Export
-description: "Export to EPUB format using table saving features using C#."
+description: "Export to EPUB format using table saving features in C#."
 type: docs
 weight: 110
 url: /net/table-features-supported-on-epub-export/

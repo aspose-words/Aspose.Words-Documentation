@@ -2,7 +2,7 @@
 title: Table Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Table Features Supported on FlatOPC Import
 linktitle: Table Features Supported on FlatOPC Import
-description: "Import FlatOPC document using table load options using C#."
+description: "Import FlatOPC document using table load options in C#."
 type: docs
 weight: 120
 url: /net/table-features-supported-on-flatopc-import/

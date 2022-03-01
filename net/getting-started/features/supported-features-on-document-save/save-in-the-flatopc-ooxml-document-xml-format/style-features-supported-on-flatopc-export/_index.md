@@ -2,7 +2,7 @@
 title: Style Features Supported on FlatOPC Export – Aspose.Words for .NET
 articleTitle: Style Features Supported on FlatOPC Export
 linktitle: Style Features Supported on FlatOPC Export
-description: "Export to FlatOPC – XML format using style saving features using C#."
+description: "Export to FlatOPC – XML format using style saving features in C#."
 type: docs
 weight: 100
 url: /net/style-features-supported-on-flatopc-export/

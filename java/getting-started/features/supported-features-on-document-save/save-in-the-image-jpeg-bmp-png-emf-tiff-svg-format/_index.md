@@ -2,7 +2,7 @@
 title: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format – Aspose.Words for Java
 articleTitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
 linktitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
-description: "Export images (JPEG, PNG, SVG, etc.) using various saving features."
+description: "Export images (JPEG, PNG, SVG, etc.) using various saving features in Java."
 type: docs
 weight: 70
 url: /java/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/

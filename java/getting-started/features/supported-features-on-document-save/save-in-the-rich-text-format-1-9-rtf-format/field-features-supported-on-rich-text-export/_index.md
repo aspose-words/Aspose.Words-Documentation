@@ -2,7 +2,7 @@
 title: Field Features Supported on Rich Text Export – Aspose.Words for Java
 articleTitle: Field Features Supported on Rich Text Export
 linktitle: Field Features Supported on Rich Text Export
-description: "Export to RTF format using field saving features."
+description: "Export to RTF format using field saving features in Java."
 type: docs
 weight: 50
 url: /java/field-features-supported-on-rich-text-export/

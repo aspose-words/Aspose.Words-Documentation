@@ -2,7 +2,7 @@
 title: Footnotes and Endnote Features Supported on WordprocessingML Import – Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on WordprocessingML Import
 linktitle: Footnotes and Endnote Features Supported on WordprocessingML Import
-description: "Import WordprocessingML document using footnote and endnote load options."
+description: "Import WordprocessingML document using footnote and endnote load options in Java."
 type: docs
 weight: 60
 url: /java/footnotes-and-endnote-features-supported-on-wordprocessingml-import/

@@ -2,7 +2,7 @@
 title: Annotation Features Supported on OpenDocument Export – Aspose.Words for Java
 articleTitle: Annotation Features Supported on OpenDocument Export
 linktitle: Annotation Features Supported on OpenDocument Export
-description: "Export to ODT format using annotation saving features."
+description: "Export to ODT format using annotation saving features in Java."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-opendocument-export/

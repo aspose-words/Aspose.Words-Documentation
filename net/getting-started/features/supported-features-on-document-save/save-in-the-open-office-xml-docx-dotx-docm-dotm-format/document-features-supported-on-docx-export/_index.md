@@ -2,7 +2,7 @@
 title: Document Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Document Features Supported on DOCX Export
 linktitle: Document Features Supported on DOCX Export
-description: "Export to OOXML format using document saving features using C#."
+description: "Export to OOXML format using document saving features in C#."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-docx-export/

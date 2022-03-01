@@ -2,7 +2,7 @@
 title: Numbering Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on PDF Export
 linktitle: Numbering Features Supported on PDF Export
-description: "Export to PDF format using numbering saving features using C#."
+description: "Export to PDF format using numbering saving features in C#."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-pdf-export/
