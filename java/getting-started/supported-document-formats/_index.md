@@ -1,9 +1,9 @@
-﻿---
+---
 title: Supported Document Formats – Aspose.Words for Java
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs
-description: "Edit source documents in many popular formats, as well as freely convert files from one format to another."
+description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using Java."
 weight: 30
 url: /java/supported-document-formats/
 ---

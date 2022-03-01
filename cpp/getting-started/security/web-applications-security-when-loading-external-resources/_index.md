@@ -1,9 +1,9 @@
-﻿---
+---
 title: Web Applications Security When Loading External Resources – Aspose.Words for С++
 articleTitle: Web Applications Security When Loading External Resources
 linktitle: Web Applications Security When Loading External Resources
 type: docs
-description: "Load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions."
+description: "Load remote resources, that can be a reason of security risks. Take a look at common security issues and their solutions in C++."
 weight: 50
 url: /cpp/web-applications-security-when-loading-external-resources/
 ---

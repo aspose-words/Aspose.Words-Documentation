@@ -1,8 +1,9 @@
-﻿---
+---
 title: Page Border - Aspose.Words for Reporting Services
 articleTitle: Page Border
 linktitle: Page Border
 type: docs
+description: "Page Border setting of the Aspose.Words for Reporting Services."
 weight: 80
 url: /reportingservices/page-border/
 ---
