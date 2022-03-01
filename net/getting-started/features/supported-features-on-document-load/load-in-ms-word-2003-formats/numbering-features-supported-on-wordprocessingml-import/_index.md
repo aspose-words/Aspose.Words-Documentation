@@ -2,7 +2,7 @@
 title: Numbering Features Supported on WordprocessingML Import – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on WordprocessingML Import
 linktitle: Numbering Features Supported on WordprocessingML Import
-description: "Import WordprocessingML document using numbering load options."
+description: "Import WordprocessingML document using numbering load options using C#."
 type: docs
 weight: 80
 url: /net/numbering-features-supported-on-wordprocessingml-import/

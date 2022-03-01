@@ -2,7 +2,7 @@
 title: Find and Replace in PHP – Aspose.Words for .NET
 articleTitle: Find and Replace in PHP
 linktitle: Find and Replace in PHP
-description: "Using Aspose.Words for .NET in PHP via COM to find and replace text in MS Word documents."
+description: "Using Aspose.Words for .NET in PHP via COM to find and replace text in MS Word documents using C#."
 type: docs
 weight: 30
 url: /net/find-and-replace-in-php/

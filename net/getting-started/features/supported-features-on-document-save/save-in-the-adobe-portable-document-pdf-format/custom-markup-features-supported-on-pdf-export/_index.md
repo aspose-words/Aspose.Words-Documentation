@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on PDF Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on PDF Export
 linktitle: Custom Markup Features Supported on PDF Export
-description: "Export to PDF format using custom markup saving features."
+description: "Export to PDF format using custom markup saving features using C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-pdf-export/

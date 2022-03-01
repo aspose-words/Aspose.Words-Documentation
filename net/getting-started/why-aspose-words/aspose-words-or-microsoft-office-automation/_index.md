@@ -2,7 +2,7 @@
 title: Aspose.Words or Microsoft Office Automation – Aspose.Words for .NET
 articleTitle: Aspose.Words or Microsoft Office Automation
 linktitle: Aspose.Words or Microsoft Office Automation
-description: "When choosing between Aspose.Words for .NET and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in many ways."
+description: "When choosing between Aspose.Words for .NET and Office Automation, keep in mind that Aspose is completely independent of third-party applications and suitable for server-side solutions in many ways using C#."
 type: docs
 weight: 10
 url: /net/aspose-words-or-microsoft-office-automation/

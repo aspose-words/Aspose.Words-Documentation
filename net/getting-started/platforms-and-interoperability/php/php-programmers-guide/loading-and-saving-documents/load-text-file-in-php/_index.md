@@ -2,7 +2,7 @@
 title: Load Text File in PHP – Aspose.Words for .NET
 articleTitle: Load Text File in PHP
 linktitle: Load Text File in PHP
-description: "Loading text document using Aspose.Words for .NET in PHP using COM."
+description: "Loading text document using Aspose.Words for .NET in PHP using COM using C#."
 type: docs
 weight: 10
 url: /net/load-text-file-in-php/

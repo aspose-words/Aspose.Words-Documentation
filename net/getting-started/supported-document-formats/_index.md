@@ -3,7 +3,7 @@ title: Supported Document Formats – Aspose.Words for .NET
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs
-description: "Edit source documents in many popular formats, as well as freely convert files from one format to another."
+description: "Edit source documents in many popular formats, as well as freely convert files from one format to another using C#."
 weight: 20
 url: /net/supported-document-formats/
 ---

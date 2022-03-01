@@ -2,7 +2,7 @@
 title: Find and Replace Text in a Document Part – Aspose.Words for .NET
 articleTitle: Find and Replace Text in a Document Part
 linktitle: Find and Replace Text in a Document Part
-description: "Find and replace text from a document part easily and fast instead of using Open XML SDK."
+description: "Find and replace text from a document part easily and fast instead of using Open XML SDK using C#."
 type: docs
 weight: 140
 url: /net/search-and-replace-text-in-document-part/

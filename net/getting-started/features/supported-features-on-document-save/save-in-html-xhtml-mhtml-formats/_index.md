@@ -2,7 +2,7 @@
 title: Save in the HTML (.HTML, .XHTML, .MHTML) Format – Aspose.Words for .NET
 articleTitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
-description: "Export to HTML-based format using various saving features."
+description: "Export to HTML-based format using various saving features using C#."
 type: docs
 weight: 50
 url: /net/save-in-html-xhtml-mhtml-formats/

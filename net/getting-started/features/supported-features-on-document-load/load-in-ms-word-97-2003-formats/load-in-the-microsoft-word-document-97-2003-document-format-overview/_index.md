@@ -2,7 +2,7 @@
 title: Load in the Microsoft Word Document 97-2003 Document Format Overview – Aspose.Words for .NET
 articleTitle: Load in the Microsoft Word Document 97-2003 Document Format Overview
 linktitle: Load in the Microsoft Word Document 97-2003 Document Format Overview
-description: "Import DOC document using various load options."
+description: "Import DOC document using various load options using C#."
 type: docs
 weight: 70
 url: /net/load-in-the-microsoft-word-document-97-2003-document-format-overview/

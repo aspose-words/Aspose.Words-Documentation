@@ -2,7 +2,7 @@
 title: Text Features Supported on EPUB Export – Aspose.Words for .NET
 articleTitle: Text Features Supported on EPUB Export
 linktitle: Text Features Supported on EPUB Export
-description: "Export to EPUB format using text saving features."
+description: "Export to EPUB format using text saving features using C#."
 type: docs
 weight: 120
 url: /net/text-features-supported-on-epub-export/

@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on HTML Import – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on HTML Import
 linktitle: Custom Markup Features Supported on HTML Import
-description: "Import HTML-based document using custom markup load options."
+description: "Import HTML-based document using custom markup load options using C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-html-import/

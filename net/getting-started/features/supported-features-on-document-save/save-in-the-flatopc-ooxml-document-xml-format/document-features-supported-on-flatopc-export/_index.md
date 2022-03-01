@@ -2,7 +2,7 @@
 title: Document Features Supported on FlatOPC Export – Aspose.Words for .NET
 articleTitle: Document Features Supported on FlatOPC Export
 linktitle: Document Features Supported on FlatOPC Export
-description: "Export to FlatOPC – XML format using document field saving features."
+description: "Export to FlatOPC – XML format using document field saving features using C#."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-flatopc-export/

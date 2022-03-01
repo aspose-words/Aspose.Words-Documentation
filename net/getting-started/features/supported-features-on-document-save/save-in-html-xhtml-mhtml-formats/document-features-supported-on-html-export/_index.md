@@ -2,7 +2,7 @@
 title: Document Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Document Features Supported on HTML Export
 linktitle: Document Features Supported on HTML Export
-description: "Export to HTML-based format using document saving features."
+description: "Export to HTML-based format using document saving features using C#."
 type: docs
 weight: 30
 url: /net/document-features-supported-on-html-export/

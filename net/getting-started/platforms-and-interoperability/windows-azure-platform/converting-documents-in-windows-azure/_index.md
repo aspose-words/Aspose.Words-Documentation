@@ -3,7 +3,7 @@ title: Converting Documents in Windows Azure – Aspose.Words for .NET
 articleTitle: Converting Documents in Windows Azure
 linktitle: Converting Documents in Windows Azure
 type: docs
-description: "Use Aspose.Words for .NET in Windows Azure to load, convert, and save documents. To do this, you can create a WebRole application that can be run in the Development Fabric or deployed to Windows Azure."
+description: "Use Aspose.Words for .NET in Windows Azure to load, convert, and save documents. To do this, you can create a WebRole application that can be run in the Development Fabric or deployed to Windows Azure using C#."
 weight: 10
 url: /net/converting-documents-in-windows-azure/
 ---

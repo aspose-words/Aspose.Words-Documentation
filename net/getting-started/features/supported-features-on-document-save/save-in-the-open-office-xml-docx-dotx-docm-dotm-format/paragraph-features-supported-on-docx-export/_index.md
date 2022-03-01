@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on DOCX Export – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on DOCX Export
 linktitle: Paragraph Features Supported on DOCX Export
-description: "Export to OOXML format using paragraph saving features."
+description: "Export to OOXML format using paragraph saving features using C#."
 type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-docx-export/

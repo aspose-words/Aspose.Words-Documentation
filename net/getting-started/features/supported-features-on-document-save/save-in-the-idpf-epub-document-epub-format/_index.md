@@ -2,7 +2,7 @@
 title: Save in the IDPF EPUB Document (.EPUB) Format – Aspose.Words for .NET
 articleTitle: Save in the IDPF EPUB Document (.EPUB) Format
 linktitle: Save in the IDPF EPUB Document (.EPUB) Format
-description: "Export to EPUB format using various saving features."
+description: "Export to EPUB format using various saving features using C#."
 type: docs
 weight: 60
 url: /net/save-in-the-idpf-epub-document-epub-format/

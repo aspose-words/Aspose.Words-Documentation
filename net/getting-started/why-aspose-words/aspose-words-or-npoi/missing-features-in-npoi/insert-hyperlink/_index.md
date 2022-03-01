@@ -2,7 +2,7 @@
 title: Insert a Hyperlink – Aspose.Words for .NET
 articleTitle: Insert a Hyperlink
 linktitle: Insert a Hyperlink
-description: "Insert a hyperlink into a document. NPOI does not provide an opportunity to insert a hyperlink."
+description: "Insert a hyperlink into a document. NPOI does not provide an opportunity to insert a hyperlink using C#."
 type: docs
 weight: 110
 url: /net/insert-hyperlink/

@@ -2,7 +2,7 @@
 title: Drawing Object Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on DOC Import
 linktitle: Drawing Object Features Supported on DOC Import
-description: "Import DOC document using drawing load options."
+description: "Import DOC document using drawing load options using C#."
 type: docs
 weight: 40
 url: /net/drawing-object-features-supported-on-doc-import/

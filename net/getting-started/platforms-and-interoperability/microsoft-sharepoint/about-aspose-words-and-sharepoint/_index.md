@@ -2,7 +2,7 @@
 title: About Aspose.Words and SharePoint – Aspose.Words for .NET
 articleTitle: About Aspose.Words and SharePoint
 linktitle: About Aspose.Words and SharePoint
-description: "Using Aspose.Words for .NET in a Microsoft SharePoint environment."
+description: "Using Aspose.Words for .NET in a Microsoft SharePoint environment using C#."
 type: docs
 weight: 10
 url: /net/about-aspose-words-and-sharepoint/

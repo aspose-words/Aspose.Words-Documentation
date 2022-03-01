@@ -2,7 +2,7 @@
 title: Change or Replace Header and Footer – Aspose.Words for .NET
 articleTitle: Change or Replace Header and Footer
 linktitle: Change or Replace Header and Footer
-description: "Change or replace header or footer easily and fast instead of using Open XML SDK."
+description: "Change or replace header or footer easily and fast instead of using Open XML SDK using C#."
 type: docs
 weight: 60
 url: /net/change-or-replace-header-and-footer/

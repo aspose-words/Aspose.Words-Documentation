@@ -2,7 +2,7 @@
 title: Visual Studio Export GridView To Word Control – Aspose.Words for .NET
 articleTitle: Visual Studio Export GridView To Word Control
 linktitle: Visual Studio Export GridView To Word Control
-description: "How to export contents of GridView into Word Processing document using Aspose.Words."
+description: "How to export contents of GridView into Word Processing document using Aspose.Words using C#."
 type: docs
 weight: 10
 url: /net/visual-studio-export-gridview-to-word-control/

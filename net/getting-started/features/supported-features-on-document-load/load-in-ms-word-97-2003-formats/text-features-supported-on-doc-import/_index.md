@@ -2,7 +2,7 @@
 title: Text Features Supported on DOC Import – Aspose.Words for .NET
 articleTitle: Text Features Supported on DOC Import
 linktitle: Text Features Supported on DOC Import
-description: "Import DOC document using text load options."
+description: "Import DOC document using text load options using C#."
 type: docs
 weight: 130
 url: /net/text-features-supported-on-doc-import/

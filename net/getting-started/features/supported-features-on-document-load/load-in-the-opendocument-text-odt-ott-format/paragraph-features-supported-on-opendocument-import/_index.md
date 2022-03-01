@@ -2,7 +2,7 @@
 title: Paragraph Features Supported on OpenDocument Import – Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on OpenDocument Import
 linktitle: Paragraph Features Supported on OpenDocument Import
-description: "Import ODT document using paragraph load options."
+description: "Import ODT document using paragraph load options using C#."
 type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-opendocument-import/

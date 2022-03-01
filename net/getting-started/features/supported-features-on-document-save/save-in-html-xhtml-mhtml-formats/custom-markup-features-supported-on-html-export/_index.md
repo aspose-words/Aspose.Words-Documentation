@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on HTML Export – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on HTML Export
 linktitle: Custom Markup Features Supported on HTML Export
-description: "Export to HTML-based format using custom markup saving features."
+description: "Export to HTML-based format using custom markup saving features using C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-html-export/

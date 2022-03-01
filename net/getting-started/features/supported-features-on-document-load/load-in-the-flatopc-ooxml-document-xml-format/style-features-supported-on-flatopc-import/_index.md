@@ -2,7 +2,7 @@
 title: Style Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Style Features Supported on FlatOPC Import
 linktitle: Style Features Supported on FlatOPC Import
-description: "Import FlatOPC document using style load options."
+description: "Import FlatOPC document using style load options using C#."
 type: docs
 weight: 110
 url: /net/style-features-supported-on-flatopc-import/

@@ -2,7 +2,7 @@
 title: Numbering Features Supported on WordprocessingML Export – Aspose.Words for .NET
 articleTitle: Numbering Features Supported on WordprocessingML Export
 linktitle: Numbering Features Supported on WordprocessingML Export
-description: "Export to WordprocessingML format using numbering saving features."
+description: "Export to WordprocessingML format using numbering saving features using C#."
 type: docs
 weight: 70
 url: /net/numbering-features-supported-on-wordprocessingml-export/

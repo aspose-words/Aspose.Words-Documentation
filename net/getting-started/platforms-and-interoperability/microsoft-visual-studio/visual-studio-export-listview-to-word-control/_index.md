@@ -2,7 +2,7 @@
 title: Visual Studio Export ListView To Word Control – Aspose.Words for .NET
 articleTitle: Visual Studio Export ListView To Word Control
 linktitle: Visual Studio Export ListView To Word Control
-description: "How to export contents of ListView into Word Processing document using Aspose.Words."
+description: "How to export contents of ListView into Word Processing document using Aspose.Words using C#."
 type: docs
 weight: 20
 url: /net/visual-studio-export-listview-to-word-control/

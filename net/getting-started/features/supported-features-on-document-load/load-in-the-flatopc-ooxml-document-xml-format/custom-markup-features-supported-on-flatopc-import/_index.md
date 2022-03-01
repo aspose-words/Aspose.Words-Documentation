@@ -2,7 +2,7 @@
 title: Custom Markup Features Supported on FlatOPC Import – Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on FlatOPC Import
 linktitle: Custom Markup Features Supported on FlatOPC Import
-description: "Import FlatOPC document using custom markup load options."
+description: "Import FlatOPC document using custom markup load options using C#."
 type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-flatopc-import/

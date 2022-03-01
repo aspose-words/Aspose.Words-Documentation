@@ -2,7 +2,7 @@
 title: HelloWorld Example in PHP – Aspose.Words for .NET
 articleTitle: HelloWorld Example in PHP
 linktitle: HelloWorld Example in PHP
-description: "Building documents from scratch using Aspose.Words for .NET in PHP via COM."
+description: "Building documents from scratch using Aspose.Words for .NET in PHP via COM using C#."
 type: docs
 weight: 40
 url: /net/helloworld-example-in-php/

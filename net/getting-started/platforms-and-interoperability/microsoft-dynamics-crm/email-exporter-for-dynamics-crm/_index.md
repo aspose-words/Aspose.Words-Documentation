@@ -2,7 +2,7 @@
 title: Email Exporter for Dynamics CRM – Aspose.Words for .NET
 articleTitle: Email Exporter for Dynamics CRM
 linktitle: Email Exporter for Dynamics CRM
-description: "The Aspose.Words Email Exporter is an open source add-on for Dynamics CRM. It allows exporting email body to a word document."
+description: "The Aspose.Words Email Exporter is an open source add-on for Dynamics CRM. It allows exporting email body to a word document using C#."
 type: docs
 weight: 50
 url: /net/email-exporter-for-dynamics-crm/
