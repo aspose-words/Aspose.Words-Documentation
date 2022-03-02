@@ -5,7 +5,7 @@ linktitle: Aspose.Words for SharePoint 22.3 Release Notes
 description: "Aspose.Words for SharePoint 22.3 Release Notes – the latest updates and fixes."
 type: docs
 weight: 90
-url: /sharepoint/aspose-words-for-sharepoint-23-3-release-notes/
+url: /sharepoint/aspose-words-for-sharepoint-22-3-release-notes/
 ---
 
 {{% alert color="primary" %}}
