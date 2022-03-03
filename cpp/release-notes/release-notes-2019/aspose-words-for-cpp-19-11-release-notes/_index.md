@@ -1,9 +1,9 @@
 ﻿---
-title: Aspose.Words for CPP 19.11 Release Notes
+title: Aspose.Words for C++ 19.11 Release Notes
 second_title: Aspose.Words for C++
-articleTitle: Aspose.Words for CPP 19.11 Release Notes
-linktitle: Aspose.Words for CPP 19.11 Release Notes
-description: "Aspose.Words for CPP 19.11 Release Notes – the latest updates and fixes."
+articleTitle: Aspose.Words for C++ 19.11 Release Notes
+linktitle: Aspose.Words for C++ 19.11 Release Notes
+description: "Aspose.Words for C++ 19.11 Release Notes – the latest updates and fixes."
 type: docs
 weight: 30
 url: /cpp/aspose-words-for-cpp-19-11-release-notes/
@@ -53,7 +53,7 @@ The missing features will be added in future releases.
 |WORDSNET-13121|Insert Macro into a Document|Enhancement|
 |WORDSNET-19153|Improve a VBAProject class to be able to read all project content into the document model|Enhancement|
 |WORDSNET-19198|Border of boxes in Shape is changed in output PDF|Enhancement|
-|WORDSCPP-797|Exception when using Aspose.Words for CPP with Aspose.PDF for CPP in same project|Bug|
+|WORDSCPP-797|Exception when using Aspose.Words for C++ with Aspose.PDF for CPP in same project|Bug|
 |WORDSNET-19345|Add normalize Istds feature to Document.Cleanup|Bug|
 |WORDSNET-19371|The right offset of the chart is changed after converting to PFG|Bug|
 |WORDSNET-19372|Axis title is set. Right and left offsets are changed after converting to PDF|Bug|

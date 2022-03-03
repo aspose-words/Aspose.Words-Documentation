@@ -1,9 +1,9 @@
 ﻿---
-title: Aspose.Words for CPP 19.9 Release Notes
+title: Aspose.Words for C++ 19.9 Release Notes
 second_title: Aspose.Words for C++
-articleTitle: Aspose.Words for CPP 19.9 Release Notes
-linktitle: Aspose.Words for CPP 19.9 Release Notes
-description: "Aspose.Words for CPP 19.9 Release Notes – the latest updates and fixes."
+articleTitle: Aspose.Words for C++ 19.9 Release Notes
+linktitle: Aspose.Words for C++ 19.9 Release Notes
+description: "Aspose.Words for C++ 19.9 Release Notes – the latest updates and fixes."
 type: docs
 weight: 50
 url: /cpp/aspose-words-for-cpp-19-9-release-notes/
