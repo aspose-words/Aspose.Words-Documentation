@@ -1,6 +1,5 @@
-﻿---
+---
 title: Aspose.Words for SharePoint
-second_title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint
 linktitle: Aspose.Words for SharePoint
 description: "Aspose.Words for SharePoint is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
