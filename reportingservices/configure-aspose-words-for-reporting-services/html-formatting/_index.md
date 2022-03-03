@@ -1,5 +1,6 @@
 ﻿---
-title: HTML Formatting - Aspose.Words for Reporting Services
+title: HTML Formatting
+second_title: Aspose.Words for Reporting Services
 articleTitle: HTML Formatting
 linktitle: HTML Formatting
 description: "HTML Formatting setting of the Aspose.Words for Reporting Services."

@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on OpenDocument Import – Aspose.Words for Java
+title: Table Features Supported on OpenDocument Import
+second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on OpenDocument Import
 linktitle: Table Features Supported on OpenDocument Import
 description: "Import ODT document using table load options in Java."

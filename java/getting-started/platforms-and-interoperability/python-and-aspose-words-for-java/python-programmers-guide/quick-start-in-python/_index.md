@@ -1,5 +1,6 @@
 ﻿---
-title: Quick Start in Python – Aspose.Words for Java
+title: Quick Start in Python
+second_title: Aspose.Words for Java
 articleTitle: Quick Start in Python
 linktitle: Quick Start in Python
 description: "Python: Quick Start Aspose.Words for Java."

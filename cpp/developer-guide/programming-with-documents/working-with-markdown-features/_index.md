@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Markdown Features in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Markdown Features
 linktitle: Working with Markdown Features
 description: "How to implement Markdown features using C++. All the features are represented as corresponding styles or direct formatting."
@@ -91,6 +92,7 @@ This section demonstrates you how to produce a markdown document with Horizontal
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
 -----
+
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above-given markdown document.

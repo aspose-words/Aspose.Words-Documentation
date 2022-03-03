@@ -1,5 +1,6 @@
 ﻿---
-title: Insert Hyperlink to Document – Aspose.Words for Java
+title: Insert Hyperlink to Document
+second_title: Aspose.Words for Java
 articleTitle: Insert Hyperlink to Document
 linktitle: Insert Hyperlink to Document
 description: "Insert a hyperlink to a document easily and fast instead of using docx4j."

@@ -1,5 +1,6 @@
 ﻿---
-title: Open a Document from a Stream – Aspose.Words for .NET
+title: Open a Document from a Stream
+second_title: Aspose.Words for .NET
 articleTitle: Open a Document from a Stream
 linktitle: Open a Document from a Stream
 description: "Load a document from a stream easily and fast instead of using Open XML SDK in C#."

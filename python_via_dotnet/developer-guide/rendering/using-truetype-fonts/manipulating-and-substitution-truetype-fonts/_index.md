@@ -1,5 +1,6 @@
 ﻿---
 title: Manipulate and Substitute TrueType Fonts in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Manipulate and Substitute TrueType Fonts
 linktitle: Manipulate and Substitute TrueType Fonts
 description: "Aspose.Words for Python via .NET can embed the correct TrueType fonts into the resulting document to ensure that it displays accurately. If a font or a specific character is not available, Aspose.Words searches for a suitable font replacement or uses the Font fallback mechanism."

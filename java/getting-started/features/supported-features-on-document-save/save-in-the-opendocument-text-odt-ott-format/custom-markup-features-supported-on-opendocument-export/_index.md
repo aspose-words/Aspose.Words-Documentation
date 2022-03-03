@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Markup Features Supported on OpenDocument Export – Aspose.Words for Java
+title: Custom Markup Features Supported on OpenDocument Export
+second_title: Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on OpenDocument Export
 linktitle: Custom Markup Features Supported on OpenDocument Export
 description: "Export to ODT format using custom markup saving features in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Get Document Properties in NPOI – Aspose.Words for .NET
+title: Get Document Properties in NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Get Document Properties in NPOI
 linktitle: Get Document Properties in NPOI
 description: "Get document properties easily and fast instead of using NPOI in C#."

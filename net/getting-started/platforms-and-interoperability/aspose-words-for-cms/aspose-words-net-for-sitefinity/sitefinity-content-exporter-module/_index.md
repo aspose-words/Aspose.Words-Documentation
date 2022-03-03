@@ -1,5 +1,6 @@
 ﻿---
-title: Sitefinity Content Exporter Module – Aspose.Words for .NET
+title: Sitefinity Content Exporter Module
+second_title: Aspose.Words for .NET
 articleTitle: Sitefinity Content Exporter Module
 linktitle: Sitefinity Content Exporter Module
 description: "Export online content into Word Processing or PDF document using Aspose.Words Sitefinity Content Exporter Module in C#."

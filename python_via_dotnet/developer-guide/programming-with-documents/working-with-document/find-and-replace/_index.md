@@ -1,5 +1,6 @@
 ﻿---
 title: Find and Replace in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Find and Replace
 linktitle: Find and Replace
 type: docs

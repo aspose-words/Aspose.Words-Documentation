@@ -1,5 +1,6 @@
 ﻿---
 title: Advanced Mail Merge Features in C++
+second_title: Aspose.Words for C++
 articleTitle: Advanced Mail Merge Features
 linktitle: Advanced Mail Merge Features
 aliases:

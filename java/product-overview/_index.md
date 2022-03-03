@@ -1,5 +1,6 @@
 ﻿---
-title: Product Overview – Aspose.Words for Java
+title: Product Overview
+second_title: Aspose.Words for Java
 articleTitle: Product Overview
 linktitle: Product Overview
 description: "Aspose.Words for Java is a software library designed to create, modify, convert, render, and print documents without relying on any other software."

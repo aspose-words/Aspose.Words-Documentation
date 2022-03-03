@@ -1,5 +1,6 @@
 ﻿---
-title: Programming With Documents in Jython – Aspose.Words for Java
+title: Programming With Documents in Jython
+second_title: Aspose.Words for Java
 articleTitle: Programming With Documents in Jython
 linktitle: Programming With Documents in Jython
 description: "Programming With Documents using Jython."

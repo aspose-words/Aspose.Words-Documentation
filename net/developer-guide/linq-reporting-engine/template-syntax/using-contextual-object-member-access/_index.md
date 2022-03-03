@@ -1,5 +1,6 @@
 ﻿---
 title: Using Contextual Object Member Access in C#
+second_title: Aspose.Words for .NET
 articleTitle: Using Contextual Object Member Access
 linktitle: Using Contextual Object Member Access
 description: "Use contextual object member to access some objects without specifying the objects id in template expressions using C#."

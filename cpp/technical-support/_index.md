@@ -1,5 +1,6 @@
 ﻿---
-title: Technical Support – Aspose.Words for С++
+title: Technical Support
+second_title: Aspose.Words for C++
 articleTitle: Technical Support
 linktitle: Technical Support
 type: docs

@@ -1,5 +1,6 @@
 ﻿---
 title: Restrict Document Editing in C#
+second_title: Aspose.Words for .NET
 articleTitle: Restrict Document Editing
 linktitle: Restrict Document Editing
 description: "Restrict editing a document by setting a restriction type using C#. You can also remove protection and make unrestricted editable regions."

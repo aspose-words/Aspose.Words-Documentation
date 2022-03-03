@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the OpenDocument Text (.ODT, .OTT) Format – Aspose.Words for .NET
+title: Load in the OpenDocument Text (.ODT, .OTT) Format
+second_title: Aspose.Words for .NET
 articleTitle: Load in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Load in the OpenDocument Text (.ODT, .OTT) Format
 description: "Import ODT document using various load options in C#."

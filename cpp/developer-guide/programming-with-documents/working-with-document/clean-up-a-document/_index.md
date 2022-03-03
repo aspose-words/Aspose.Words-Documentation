@@ -1,5 +1,6 @@
 ﻿---
 title: Clean Up a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Clean Up a Document
 linktitle: Clean Up a Document
 description: "Remove unused or duplicate information to reduce output size and processing time using C++. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."

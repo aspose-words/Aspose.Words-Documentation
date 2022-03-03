@@ -1,5 +1,6 @@
 ---
 title: Create or Load a Document in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Create or Load a Document
 linktitle: Create or Load a Document
 type: docs

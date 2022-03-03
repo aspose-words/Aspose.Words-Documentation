@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Load Options in C++
+second_title: Aspose.Words for C++
 articleTitle: Specify Load Options
 linktitle: Specify Load Options
 description: "More accurately control the load process."

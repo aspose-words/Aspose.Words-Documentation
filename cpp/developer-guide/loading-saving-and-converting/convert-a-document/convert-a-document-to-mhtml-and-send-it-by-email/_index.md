@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document to MHTML and Send It by Email in C++
+second_title: Aspose.Words for C++
 articleTitle: Convert a Document to MHTML and Send It by Email
 linktitle: Convert a Document to MHTML and Send It by Email
 description: "Convert a document from almost any format to the MHTML format and send the result document by e-mail."

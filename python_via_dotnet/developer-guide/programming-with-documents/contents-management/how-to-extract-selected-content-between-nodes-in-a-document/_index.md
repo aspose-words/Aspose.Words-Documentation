@@ -1,5 +1,6 @@
 ﻿---
 title: How to Extract Selected Content Between Nodes in a Document in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: How to Extract Selected Content Between Nodes in a Document
 linktitle: How to Extract Selected Content Between Nodes in a Document
 description: "How to extract specific content from a range within the document easily using Python."

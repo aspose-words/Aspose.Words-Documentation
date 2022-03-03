@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Styles in Python – Aspose.Words for Java
+title: Working With Styles in Python
+second_title: Aspose.Words for Java
 articleTitle: Working With Styles in Python
 linktitle: Working With Styles in Python
 description: "Working With Styles using Python."

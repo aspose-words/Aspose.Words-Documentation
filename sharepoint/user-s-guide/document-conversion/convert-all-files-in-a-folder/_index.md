@@ -1,5 +1,6 @@
 ﻿---
-title: Convert All Files in a Folder - Aspose.Words for SharePoint
+title: Convert All Files in a Folder
+second_title: Aspose.Words for SharePoint
 articleTitle: Convert All Files in a Folder
 linktitle: Convert All Files in a Folder
 description: "How to convert all files in a file from SharePoint UI using the Aspose.Words for SharePoint."

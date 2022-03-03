@@ -1,5 +1,6 @@
 ﻿---
-title: Overlapping Items - Aspose.Words for JasperReports
+title: Overlapping Items
+second_title: Aspose.Words for JasperReports
 articleTitle: Overlapping Items
 linktitle: Overlapping Items
 description: "JasperReports often contain overlapping items. Faithfully converting reports with overlapping items to Microsoft Word documents can sometimes represent challenges to the system."

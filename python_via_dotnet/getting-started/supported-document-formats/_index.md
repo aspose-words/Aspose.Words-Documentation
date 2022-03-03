@@ -1,5 +1,6 @@
 ﻿---
-title: Supported Document Formats – Aspose.Words for Python via .NET
+title: Supported Document Formats
+second_title: Aspose.Words for Python via .NET
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs

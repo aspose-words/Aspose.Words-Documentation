@@ -1,5 +1,6 @@
 ---
-title: Installation – Aspose.Words for С++
+title: Installation
+second_title: Aspose.Words for C++
 articleTitle: Installation
 linktitle: Installation
 description: "Install Aspose.Words for C++ using Manage NuGet Packages or Package Manager Console, as well as manual installer."

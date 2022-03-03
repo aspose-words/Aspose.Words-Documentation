@@ -1,5 +1,6 @@
 ﻿---
-title: Working with Headers – Aspose.Words for Java
+title: Working with Headers
+second_title: Aspose.Words for Java
 articleTitle: Working with Headers
 linktitle: Working with Headers
 description: "Remove headers from a document easily and fast instead of using Apache POI."

@@ -1,5 +1,6 @@
 ﻿---
 title: Setting Background Color Dynamically in Java
+second_title: Aspose.Words for Java
 articleTitle: Setting Background Color Dynamically
 linktitle: Setting Background Color Dynamically
 description: "Set text background color for document contents dynamically when building a report in Java."

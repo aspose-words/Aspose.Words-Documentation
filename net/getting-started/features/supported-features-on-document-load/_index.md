@@ -1,5 +1,6 @@
 ﻿---
-title: Supported Features on Document Load – Aspose.Words for .NET
+title: Supported Features on Document Load
+second_title: Aspose.Words for .NET
 articleTitle: Supported Features on Document Load
 linktitle: Supported Features on Document Load
 description: "Load and convert a document in most of popular formats and supports lots of Microsoft Word features using C#."

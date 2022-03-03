@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Rendering Options When Converting to PDF in C#
+second_title: Aspose.Words for .NET
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF
 description: "Convert a document to PDF with advanced options using C#. Use PdfSaveOptions to change the result of saving a document to PDF format."

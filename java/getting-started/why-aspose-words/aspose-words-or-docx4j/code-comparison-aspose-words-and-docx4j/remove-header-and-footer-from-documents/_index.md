@@ -1,5 +1,6 @@
 ﻿---
-title: Remove Header and Footer from Documents – Aspose.Words for Java
+title: Remove Header and Footer from Documents
+second_title: Aspose.Words for Java
 articleTitle: Remove Header and Footer from Documents
 linktitle: Remove Header and Footer from Documents
 description: "Remove headers or footers in a document easily and fast instead of using docx4j."

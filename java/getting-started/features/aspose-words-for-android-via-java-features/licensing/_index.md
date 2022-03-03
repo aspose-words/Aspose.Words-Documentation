@@ -1,5 +1,6 @@
 ﻿---
-title: Licensing – Aspose.Words for Java
+title: Licensing
+second_title: Aspose.Words for Java
 articleTitle: Licensing
 linktitle: Licensing
 description: "Licensing Aspose.Words for Android via Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on Rich Text Export – Aspose.Words for Java
+title: Text Features Supported on Rich Text Export
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on Rich Text Export
 linktitle: Text Features Supported on Rich Text Export
 description: "Export to RTF format using text saving features in Java."

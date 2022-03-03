@@ -1,5 +1,6 @@
 ﻿---
 title: Types of Mail Merge Operation in C++
+second_title: Aspose.Words for C++
 articleTitle: Types of Mail Merge Operation
 linktitle: Types of Mail Merge Operation
 type: docs

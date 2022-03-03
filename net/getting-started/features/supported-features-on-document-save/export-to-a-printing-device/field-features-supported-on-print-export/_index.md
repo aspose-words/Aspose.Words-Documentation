@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on Print Export – Aspose.Words for .NET
+title: Field Features Supported on Print Export
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on Print Export
 linktitle: Field Features Supported on Print Export
 description: "Work with field features when sending a document to printer using C#."

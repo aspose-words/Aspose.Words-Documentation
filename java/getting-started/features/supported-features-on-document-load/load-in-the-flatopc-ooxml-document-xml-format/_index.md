@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the FlatOPC OOXML Document (.XML) Format – Aspose.Words for Java
+title: Load in the FlatOPC OOXML Document (.XML) Format
+second_title: Aspose.Words for Java
 articleTitle: Load in the FlatOPC OOXML Document (.XML) Format
 linktitle: Load in the FlatOPC OOXML Document (.XML) Format
 description: "Import FlatOPC document using different load options in Java."

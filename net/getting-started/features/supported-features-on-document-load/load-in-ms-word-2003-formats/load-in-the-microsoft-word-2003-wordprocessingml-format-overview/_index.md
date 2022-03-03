@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Microsoft Word 2003 WordprocessingML Format Overview – Aspose.Words for .NET
+title: Load in the Microsoft Word 2003 WordprocessingML Format Overview
+second_title: Aspose.Words for .NET
 articleTitle: Load in the Microsoft Word 2003 WordprocessingML Format Overview
 linktitle: Load in the Microsoft Word 2003 WordprocessingML Format Overview
 description: "Import WordprocessingML document using various load options in C#."

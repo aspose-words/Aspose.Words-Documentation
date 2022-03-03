@@ -1,5 +1,6 @@
 ---
-title: Supported Platforms – Aspose.Words for .NET
+title: Supported Platforms
+second_title: Aspose.Words for .NET
 articleTitle: Platforms and Interoperability
 linktitle: Supported Platforms
 type: docs

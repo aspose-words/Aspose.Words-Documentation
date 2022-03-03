@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on DOCX Export – Aspose.Words for .NET
+title: Text Features Supported on DOCX Export
+second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on DOCX Export
 linktitle: Text Features Supported on DOCX Export
 description: "Export to OOXML format using text saving features in C#."

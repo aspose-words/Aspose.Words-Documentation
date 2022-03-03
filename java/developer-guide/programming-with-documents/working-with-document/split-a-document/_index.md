@@ -1,5 +1,6 @@
 ﻿---
 title: Split a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Split a Document
 linktitle: Split a Document
 description: "Aspose.Words for Java provides you with an efficient way to split one document into multiple documents by headings or sections, as well as pages or page ranges."

@@ -1,5 +1,6 @@
 ﻿---
 title: Using TrueType Fonts in Java
+second_title: Aspose.Words for Java
 articleTitle: Using TrueType Fonts
 linktitle: Using TrueType Fonts
 description: "How to find the right font or its suitable replacement, if the required font cannot be found, for correct rendering using  Aspose.Words for Java."

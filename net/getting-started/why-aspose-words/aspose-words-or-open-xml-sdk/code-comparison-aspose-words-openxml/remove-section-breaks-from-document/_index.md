@@ -1,5 +1,6 @@
 ﻿---
-title: Remove Section Breaks from a Document – Aspose.Words for .NET
+title: Remove Section Breaks from a Document
+second_title: Aspose.Words for .NET
 articleTitle: Remove Section Breaks from a Document
 linktitle: Remove Section Breaks from a Document
 description: "Remove section breaks from a document easily and fast instead of using Open XML SDK in C#."

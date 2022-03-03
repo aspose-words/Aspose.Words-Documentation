@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Styles and Themes in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Styles and Themes
 linktitle: Working with Styles and Themes
 description: "Advanced Microsoft Word formatting features, working with styles and themes using C#."

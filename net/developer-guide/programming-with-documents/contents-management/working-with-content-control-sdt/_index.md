@@ -1,5 +1,6 @@
 ---
 title: Working with Content Control SDT in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
 description: "Advanced document content management, how to create and manipulate content controls (Structured Document Tags) using C#."

@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document to PDF in C++
+second_title: Aspose.Words for C++
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
 description: "Convert a document to PDF using C++. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."

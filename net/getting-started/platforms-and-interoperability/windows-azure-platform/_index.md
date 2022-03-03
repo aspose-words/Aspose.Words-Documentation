@@ -1,5 +1,6 @@
 ﻿---
-title: Windows Azure Platform – Aspose.Words for .NET
+title: Windows Azure Platform
+second_title: Aspose.Words for .NET
 articleTitle: Windows Azure Platform
 linktitle: Windows Azure Platform
 type: docs

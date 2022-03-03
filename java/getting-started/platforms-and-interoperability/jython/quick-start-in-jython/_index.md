@@ -1,5 +1,6 @@
 ﻿---
-title: Quick Start in Jython – Aspose.Words for Java
+title: Quick Start in Jython
+second_title: Aspose.Words for Java
 articleTitle: Quick Start in Jython
 linktitle: Quick Start in Jython
 description: "Jython: Quick Start Aspose.Words for Java."

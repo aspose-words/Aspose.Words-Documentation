@@ -1,5 +1,6 @@
 ﻿---
-title: Insert Image into a Word document – Aspose.Words for .NET
+title: Insert Image into a Word document
+second_title: Aspose.Words for .NET
 articleTitle: Insert Image into a Word document
 linktitle: Insert Image into a Word document
 description: "Insert image into a Word document easily and fast instead of using Open XML SDK in C#."

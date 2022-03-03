@@ -1,5 +1,6 @@
 ---
-title: Getting Started – Aspose.Words for С++
+title: Getting Started
+second_title: Aspose.Words for C++
 articleTitle: Getting Started
 linktitle: Getting Started
 type: docs

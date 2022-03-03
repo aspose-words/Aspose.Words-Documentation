@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes - Aspose.Words for JasperReports
+title: Release Notes
+second_title: Aspose.Words for JasperReports
 articleTitle: Release Notes
 linktitle: Release Notes
 description: "Aspose.Words for JasperReports Release Notes – the latest updates and fixes."

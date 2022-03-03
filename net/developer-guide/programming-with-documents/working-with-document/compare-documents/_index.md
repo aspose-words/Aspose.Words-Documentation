@@ -1,5 +1,6 @@
 ﻿---
 title: Compare Documents in C#
+second_title: Aspose.Words for .NET
 articleTitle: Compare Documents
 linktitle: Compare Documents
 description: "Compare two documents in any supported formats and shows content changes using C#. You can apply advanced options when comparing."

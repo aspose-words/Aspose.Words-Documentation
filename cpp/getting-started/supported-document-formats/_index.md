@@ -1,5 +1,6 @@
 ---
-title: Supported Document Formats – Aspose.Words for С++
+title: Supported Document Formats
+second_title: Aspose.Words for C++
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs

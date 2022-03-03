@@ -1,5 +1,6 @@
 ﻿---
-title: Format Text in Document – Aspose.Words for Java
+title: Format Text in Document
+second_title: Aspose.Words for Java
 articleTitle: Format Text in Document
 linktitle: Format Text in Document
 description: "Format text within a document easily and fast instead of using Apache POI."

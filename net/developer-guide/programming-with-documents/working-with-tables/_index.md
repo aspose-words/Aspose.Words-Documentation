@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Tables in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Tables
 linktitle: Working with Tables
 description: "Introducing to Table node concepts in Aspose.Words for .NET."

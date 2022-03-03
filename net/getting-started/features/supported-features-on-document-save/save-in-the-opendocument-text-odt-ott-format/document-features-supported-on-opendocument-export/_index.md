@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on OpenDocument Export – Aspose.Words for .NET
+title: Document Features Supported on OpenDocument Export
+second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on OpenDocument Export
 linktitle: Document Features Supported on OpenDocument Export
 description: "Export to ODT format using document saving features in C#."

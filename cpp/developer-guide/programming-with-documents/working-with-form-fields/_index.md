@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Form Fields in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Form Fields
 linktitle: Working with Form Fields
 description: "Understanding Form Fields feature, working with Form Fields using C++."

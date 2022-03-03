@@ -1,5 +1,6 @@
 ﻿---
 title: Work with Options and Appearance of Word Documents in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents
 description: "Control the appearance of Word documents taking into account the difference between various Microsoft Word versions using Python."

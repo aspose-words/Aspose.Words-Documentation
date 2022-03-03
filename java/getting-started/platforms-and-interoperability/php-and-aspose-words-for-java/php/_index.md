@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words Java For PHP in More Details – Aspose.Words for Java
+title: Aspose.Words Java For PHP in More Details
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Java For PHP in More Details
 linktitle: Aspose.Words Java For PHP in More Details
 description: "Using Aspose.Words for Java on PHP in Details."

@@ -1,5 +1,6 @@
 ﻿---
 title: Specifying Table and Cell Widths in Java
+second_title: Aspose.Words for Java
 articleTitle: Specifying Table and Cell Widths
 linktitle: Specifying Table and Cell Widths
 description: "Introduction to table/cell width related properties in Aspose.Words for Java."

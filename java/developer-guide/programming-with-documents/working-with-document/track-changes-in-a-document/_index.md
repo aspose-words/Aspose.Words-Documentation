@@ -1,5 +1,6 @@
 ﻿---
 title: Track Changes in a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Track Changes in a Document
 linktitle: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others. Access individual revisions in a document and apply various properties to them using Java."

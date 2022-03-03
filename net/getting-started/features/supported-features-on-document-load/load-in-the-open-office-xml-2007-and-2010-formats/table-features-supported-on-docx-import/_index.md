@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on DOCX Import – Aspose.Words for .NET
+title: Table Features Supported on DOCX Import
+second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on DOCX Import
 linktitle: Table Features Supported on DOCX Import
 description: "Import OOXML document using table load options in C#."

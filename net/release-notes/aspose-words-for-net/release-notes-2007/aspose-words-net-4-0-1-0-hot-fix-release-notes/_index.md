@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words .NET 4.0.1.0 Hot Fix Release Notes – Aspose.Words for .NET
+title: Aspose.Words .NET 4.0.1.0 Hot Fix Release Notes
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words .NET 4.0.1.0 Hot Fix Release Notes
 linktitle: Aspose.Words .NET 4.0.1.0 Hot Fix Release Notes
 description: "Aspose.Words .NET 4.0.1.0 Hot Fix Release Notes – the latest updates and fixes."

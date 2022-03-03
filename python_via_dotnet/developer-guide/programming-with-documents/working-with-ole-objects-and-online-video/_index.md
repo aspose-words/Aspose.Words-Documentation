@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Ole Objects and Online Video in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Ole Objects and Online Video
 linktitle: Working with Ole Objects and Online Video
 description: "Insert ole objects or onlin vodeo into a document using Python."

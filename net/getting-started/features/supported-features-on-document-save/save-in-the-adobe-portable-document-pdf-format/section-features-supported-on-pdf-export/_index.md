@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on PDF Export – Aspose.Words for .NET
+title: Section Features Supported on PDF Export
+second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on PDF Export
 linktitle: Section Features Supported on PDF Export
 description: "Export to PDF format using section saving features in C#."

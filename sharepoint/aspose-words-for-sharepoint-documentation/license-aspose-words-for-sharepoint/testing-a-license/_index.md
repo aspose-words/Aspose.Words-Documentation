@@ -1,5 +1,6 @@
 ﻿---
-title: Testing a License - Aspose.Words for SharePoint
+title: Testing a License
+second_title: Aspose.Words for SharePoint
 articleTitle: Testing a License
 linktitle: Testing a License
 description: "How to check Aspose.Words for SharePoint licence."

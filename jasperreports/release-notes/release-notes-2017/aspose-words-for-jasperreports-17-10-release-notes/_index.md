@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for JasperReports 17.10 Release Notes
+second_title: Aspose.Words for JasperReports
 articleTitle: Aspose.Words for JasperReports 17.10 Release Notes
 linktitle: Aspose.Words for JasperReports 17.10 Release Notes
 description: "Aspose.Words for JasperReports 17.10 Release Notes – the latest updates and fixes."

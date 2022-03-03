@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes - 2013 – Aspose.Words for .NET
+title: Release Notes - 2013
+second_title: Aspose.Words for .NET
 articleTitle: Release Notes - 2013
 linktitle: Release Notes - 2013
 description: "Aspose.Words for .NET Release Notes - 2013 – learn about the latest updates and fixes."

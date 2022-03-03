@@ -1,5 +1,6 @@
 ﻿---
-title: Troubleshooting - Aspose.Words for SharePoint
+title: Troubleshooting
+second_title: Aspose.Words for SharePoint
 articleTitle: Troubleshooting
 linktitle: Troubleshooting
 description: "Possible way to find more details in case of issues which may occur while using Aspose.Words for SharePoint."

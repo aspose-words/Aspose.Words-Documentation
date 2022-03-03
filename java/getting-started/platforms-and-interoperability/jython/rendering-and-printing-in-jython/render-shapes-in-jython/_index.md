@@ -1,5 +1,6 @@
 ﻿---
-title: Render Shapes in Jython – Aspose.Words for Java
+title: Render Shapes in Jython
+second_title: Aspose.Words for Java
 articleTitle: Render Shapes in Jython
 linktitle: Render Shapes in Jython
 description: "Render Shapes using Jython."

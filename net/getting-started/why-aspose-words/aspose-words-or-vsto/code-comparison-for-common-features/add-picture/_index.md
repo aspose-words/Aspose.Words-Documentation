@@ -1,5 +1,6 @@
 ﻿---
-title: Add Picture – Aspose.Words for .NET
+title: Add Picture
+second_title: Aspose.Words for .NET
 articleTitle: Add Picture
 linktitle: Add Picture
 description: "Add an image into a document easily and fast instead of using VSTO in C#."

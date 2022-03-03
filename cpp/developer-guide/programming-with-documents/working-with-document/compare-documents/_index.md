@@ -1,5 +1,6 @@
 ﻿---
 title: Compare Documents in C++
+second_title: Aspose.Words for C++
 articleTitle: Compare Documents
 linktitle: Compare Documents
 type: docs

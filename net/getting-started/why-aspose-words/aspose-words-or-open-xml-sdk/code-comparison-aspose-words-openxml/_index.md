@@ -1,5 +1,6 @@
 ﻿---
-title: Code Comparison of Features Implemented in Aspose.Words and Open XML SDK – Aspose.Words for .NET
+title: Code Comparison of Features Implemented in Aspose.Words and Open XML SDK
+second_title: Aspose.Words for .NET
 articleTitle: Code Comparison of Features Implemented in Aspose.Words and Open XML SDK
 linktitle: Code Comparison of Features Implemented in Aspose.Words and Open XML SDK
 description: "Take a look at code comparison of some features implemented in Aspose.Words for .NET and Open XML SDK using C#."

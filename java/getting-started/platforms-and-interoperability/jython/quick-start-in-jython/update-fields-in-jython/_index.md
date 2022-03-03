@@ -1,5 +1,6 @@
 ﻿---
-title: Update Fields in Jython – Aspose.Words for Java
+title: Update Fields in Jython
+second_title: Aspose.Words for Java
 articleTitle: Update Fields in Jython
 linktitle: Update Fields in Jython
 description: "Update Document Fields using Jython."

@@ -1,5 +1,6 @@
 ﻿---
-title: Using and Configuring CRM Quote Generator – Aspose.Words for .NET
+title: Using and Configuring CRM Quote Generator
+second_title: Aspose.Words for .NET
 articleTitle: Using and Configuring CRM Quote Generator
 linktitle: Using and Configuring CRM Quote Generator
 description: "How to use and configure Aspose Quote Generator add-on using C#."

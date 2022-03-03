@@ -1,5 +1,6 @@
 ﻿---
-title: Supported Features on Document Load – Aspose.Words for Java
+title: Supported Features on Document Load
+second_title: Aspose.Words for Java
 articleTitle: Supported Features on Document Load
 linktitle: Supported Features on Document Load
 description: "Load and convert a document in most of popular formats and supports lots of Microsoft Word features."

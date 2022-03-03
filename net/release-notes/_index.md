@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes – Aspose.Words for .NET
+title: Release Notes
+second_title: Aspose.Words for .NET
 articleTitle: Release Notes
 linktitle: Release Notes
 type: docs

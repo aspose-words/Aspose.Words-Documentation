@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document to an Image in C++
+second_title: Aspose.Words for C++
 articleTitle: Convert a Document to an Image
 linktitle: Convert a Document to an Image
 type: docs

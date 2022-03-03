@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Charts in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Charts
 linktitle: Working with Charts
 description: "Introduction to Chart feature, how to create and manipulate charts using C++."

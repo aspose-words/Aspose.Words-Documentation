@@ -1,5 +1,6 @@
 ﻿---
-title: FAQ – Aspose.Words for С++
+title: FAQ
+second_title: Aspose.Words for C++
 articleTitle: FAQ
 linktitle: FAQ
 type: docs

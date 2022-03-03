@@ -1,5 +1,6 @@
 ﻿---
-title: API Reference – Aspose.Words for Java
+title: API Reference
+second_title: Aspose.Words for Java
 articleTitle: API Reference
 linktitle: API Reference
 type: docs

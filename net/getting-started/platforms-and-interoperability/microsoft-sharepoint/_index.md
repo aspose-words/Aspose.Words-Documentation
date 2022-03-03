@@ -1,5 +1,6 @@
 ﻿---
-title: Microsoft SharePoint – Aspose.Words for .NET
+title: Microsoft SharePoint
+second_title: Aspose.Words for .NET
 articleTitle: Microsoft SharePoint
 linktitle: Microsoft SharePoint
 description: "How to use Aspose.Words with Microsoft SharePoint using C#."

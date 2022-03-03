@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Plain Text (.TXT) Format – Aspose.Words for Java
+title: Load in the Plain Text (.TXT) Format
+second_title: Aspose.Words for Java
 articleTitle: Load in the Plain Text (.TXT) Format
 linktitle: Load in the Plain Text (.TXT) Format
 description: "Import TXT document using various load options in Java."

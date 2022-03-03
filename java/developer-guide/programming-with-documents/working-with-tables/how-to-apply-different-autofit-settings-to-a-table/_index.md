@@ -1,5 +1,6 @@
 ﻿---
 title: How to  Apply Different AutoFit Settings to a Table in Java
+second_title: Aspose.Words for Java
 articleTitle: How to  Apply Different AutoFit Settings to a Table
 linktitle: How to  Apply Different AutoFit Settings to a Table
 description: "Table AutoFit feature using Java."

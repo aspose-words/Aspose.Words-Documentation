@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the OpenDocument Text Format Overview – Aspose.Words for .NET
+title: Load in the OpenDocument Text Format Overview
+second_title: Aspose.Words for .NET
 articleTitle: Load in the OpenDocument Text Format Overview
 linktitle: Load in the OpenDocument Text Format Overview
 description: "Import ODT document using different load options in C#."

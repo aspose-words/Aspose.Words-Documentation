@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the HTML Format Overview – Aspose.Words for .NET
+title: Load in the HTML Format Overview
+second_title: Aspose.Words for .NET
 articleTitle: Load in the HTML Format Overview
 linktitle: Load in the HTML Format Overview
 description: "Import HTML-based document using various load options in C#."

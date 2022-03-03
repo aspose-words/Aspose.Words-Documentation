@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on OpenDocument Import – Aspose.Words for Java
+title: Annotation Features Supported on OpenDocument Import
+second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on OpenDocument Import
 linktitle: Annotation Features Supported on OpenDocument Import
 description: "Import ODT document using annotation load options in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on DOCX Import – Aspose.Words for Java
+title: Table Features Supported on DOCX Import
+second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on DOCX Import
 linktitle: Table Features Supported on DOCX Import
 description: "Import OOXML document using table load options in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Open Office XML Format Overview – Aspose.Words for Java
+title: Save in the Open Office XML Format Overview
+second_title: Aspose.Words for Java
 articleTitle: Save in the Open Office XML Format Overview
 linktitle: Save in the Open Office XML Format Overview
 description: "Export to OOXML format using different saving features in Java."

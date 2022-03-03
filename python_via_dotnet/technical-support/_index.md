@@ -1,5 +1,6 @@
 ﻿---
-title: Technical Support – Aspose.Words for Python via .NET
+title: Technical Support
+second_title: Aspose.Words for Python via .NET
 articleTitle: Technical Support
 linktitle: Technical Support
 type: docs

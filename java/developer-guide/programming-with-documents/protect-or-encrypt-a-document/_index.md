@@ -1,5 +1,6 @@
 ﻿---
 title: Protect or Encrypt a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Protect or Encrypt a Document
 linktitle: Protect or Encrypt a Document
 description: "Encrypt a document, restrict editing, use digital signatures for document protection. Aspose.Words supports most Word protection options using Java."

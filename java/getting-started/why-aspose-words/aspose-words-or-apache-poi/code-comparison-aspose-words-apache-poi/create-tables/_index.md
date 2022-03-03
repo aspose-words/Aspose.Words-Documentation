@@ -1,5 +1,6 @@
 ﻿---
-title: Create Tables – Aspose.Words for Java
+title: Create Tables
+second_title: Aspose.Words for Java
 articleTitle: Create Tables
 linktitle: Create Tables
 description: "Create tables inside a document easily and fast instead of using Apache POI."

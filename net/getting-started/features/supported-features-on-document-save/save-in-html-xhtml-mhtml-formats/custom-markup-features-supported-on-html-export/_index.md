@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Markup Features Supported on HTML Export – Aspose.Words for .NET
+title: Custom Markup Features Supported on HTML Export
+second_title: Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on HTML Export
 linktitle: Custom Markup Features Supported on HTML Export
 description: "Export to HTML-based format using custom markup saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on PDF Export – Aspose.Words for Java
+title: Annotation Features Supported on PDF Export
+second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on PDF Export
 linktitle: Annotation Features Supported on PDF Export
 description: "Export to PDF format using annotation saving features in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on WordprocessingML Import – Aspose.Words for .NET
+title: Document Features Supported on WordprocessingML Import
+second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on WordprocessingML Import
 linktitle: Document Features Supported on WordprocessingML Import
 description: "Import WordprocessingML using document load options in C#."

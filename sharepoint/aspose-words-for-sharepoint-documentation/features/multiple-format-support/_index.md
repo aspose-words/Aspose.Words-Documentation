@@ -1,5 +1,6 @@
 ﻿---
-title: Multiple Format Support - Aspose.Words for SharePoint
+title: Multiple Format Support
+second_title: Aspose.Words for SharePoint
 articleTitle: Multiple Format Support
 linktitle: Multiple Format Support
 description: "List of supported formats by the Aspose.Words for SharePoint."

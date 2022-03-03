@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on EPUB Export – Aspose.Words for .NET
+title: Section Features Supported on EPUB Export
+second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on EPUB Export
 linktitle: Section Features Supported on EPUB Export
 description: "Export to EPUB format using section saving features in C#."

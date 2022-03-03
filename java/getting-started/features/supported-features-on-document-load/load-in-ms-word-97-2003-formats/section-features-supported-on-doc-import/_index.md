@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on DOC Import – Aspose.Words for Java
+title: Section Features Supported on DOC Import
+second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on DOC Import
 linktitle: Section Features Supported on DOC Import
 description: "Import DOC document using section load options in Java."

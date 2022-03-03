@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format – Aspose.Words for .NET
+title: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
 linktitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
 description: "Export to OOXML format using various saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on FlatOPC Export – Aspose.Words for .NET
+title: Footnotes and Endnote Features Supported on FlatOPC Export
+second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on FlatOPC Export
 linktitle: Footnotes and Endnote Features Supported on FlatOPC Export
 description: "Export to FlatOPC – XML format using text footnote and endnote saving features in C#."

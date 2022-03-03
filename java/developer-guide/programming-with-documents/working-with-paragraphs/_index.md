@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Paragraphs in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Paragraphs
 linktitle: Working with Paragraphs
 description: "Paragraph node manipulation practices using Java."

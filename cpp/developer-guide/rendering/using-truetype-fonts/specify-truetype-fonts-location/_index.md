@@ -1,5 +1,6 @@
 ﻿---
 title: Specify TrueType Fonts Location in C++
+second_title: Aspose.Words for C++
 articleTitle: Specify TrueType Fonts Location
 linktitle: Specify TrueType Fonts Location
 description: "Specify various TrueType font sources: system folder, user sources, loading fonts from a stream, a file system or memory."

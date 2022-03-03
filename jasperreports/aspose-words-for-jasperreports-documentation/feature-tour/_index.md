@@ -1,5 +1,6 @@
 ﻿---
-title: Feature Tour - Aspose.Words for JasperReports
+title: Feature Tour
+second_title: Aspose.Words for JasperReports
 articleTitle: Feature Tour
 linktitle: Feature Tour
 description: "This section provides a page with a list of features."

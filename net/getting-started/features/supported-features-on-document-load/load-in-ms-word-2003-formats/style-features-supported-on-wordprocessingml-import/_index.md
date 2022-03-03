@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on WordprocessingML Import – Aspose.Words for .NET
+title: Style Features Supported on WordprocessingML Import
+second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on WordprocessingML Import
 linktitle: Style Features Supported on WordprocessingML Import
 description: "Import WordprocessingML document using style load options in C#."

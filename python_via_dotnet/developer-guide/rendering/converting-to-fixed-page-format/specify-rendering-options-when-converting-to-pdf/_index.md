@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Rendering Options When Converting to PDF in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF
 description: "Convert a document to PDF with advanced options using Python. Use PdfSaveOptions to change the result of saving a document to PDF format."

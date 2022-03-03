@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on OpenDocument Export – Aspose.Words for Java
+title: Style Features Supported on OpenDocument Export
+second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on OpenDocument Export
 linktitle: Style Features Supported on OpenDocument Export
 description: "Export to ODT format using style saving features in Java."

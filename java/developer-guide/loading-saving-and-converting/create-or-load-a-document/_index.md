@@ -1,5 +1,6 @@
 ﻿---
 title: Create or Load a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Create or Load a Document
 linktitle: Create or Load a Document
 type: docs

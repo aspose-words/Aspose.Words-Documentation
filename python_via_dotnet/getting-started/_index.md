@@ -1,5 +1,6 @@
 ---
-title: Getting Started – Aspose.Words for Python via .NET
+title: Getting Started
+second_title: Aspose.Words for Python via .NET
 articleTitle: Getting Started
 linktitle: Getting Started
 type: docs

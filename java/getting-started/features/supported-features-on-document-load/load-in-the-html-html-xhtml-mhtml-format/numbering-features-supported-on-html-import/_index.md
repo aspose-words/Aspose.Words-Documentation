@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on HTML Import – Aspose.Words for Java
+title: Numbering Features Supported on HTML Import
+second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on HTML Import
 linktitle: Numbering Features Supported on HTML Import
 description: "Import HTML-based document using numbering load options in Java."

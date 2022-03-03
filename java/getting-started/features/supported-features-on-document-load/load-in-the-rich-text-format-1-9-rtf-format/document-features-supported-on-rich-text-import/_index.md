@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on Rich Text Import – Aspose.Words for Java
+title: Document Features Supported on Rich Text Import
+second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on Rich Text Import
 linktitle: Document Features Supported on Rich Text Import
 description: "Import RTF using document load options in Java."

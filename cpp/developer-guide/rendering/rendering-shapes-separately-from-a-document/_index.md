@@ -1,5 +1,6 @@
 ﻿---
 title: Rendering Shapes Separately from a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Rendering Shapes Separately from a Document
 linktitle: Rendering Shapes Separately from a Document
 description: "Extract various graphic objects, such as images, text box containing paragraphs, or arrow shapes, when processing a document, and export them to an external location."

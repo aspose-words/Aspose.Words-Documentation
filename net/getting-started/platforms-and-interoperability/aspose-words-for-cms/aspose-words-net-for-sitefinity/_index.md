@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words .NET for Sitefinity – Aspose.Words for .NET
+title: Aspose.Words .NET for Sitefinity
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words .NET for Sitefinity
 linktitle: Aspose.Words .NET for Sitefinity
 description: "Integrating Aspose.Words for .NET with Sitefinity content management systems using C#."

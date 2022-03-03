@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the FlatOPC OOXML Document (.XML) Format – Aspose.Words for .NET
+title: Save in the FlatOPC OOXML Document (.XML) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the FlatOPC OOXML Document (.XML) Format
 linktitle: Save in the FlatOPC OOXML Document (.XML) Format
 description: "Export to FlatOPC – XML format using various saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Markup Features Supported on DOC Import – Aspose.Words for .NET
+title: Custom Markup Features Supported on DOC Import
+second_title: Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on DOC Import
 linktitle: Custom Markup Features Supported on DOC Import
 description: "Import DOC document using custom markup load options in C#."

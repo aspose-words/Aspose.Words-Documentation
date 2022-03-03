@@ -1,5 +1,6 @@
 ﻿---
-title: Configuration Explained - Aspose.Words for Reporting Services
+title: Configuration Explained
+second_title: Aspose.Words for Reporting Services
 articleTitle: Configuration Explained
 linktitle: Configuration Explained
 description: "Overview of configuration approaches for the Aspose.Words for Reporting Services."

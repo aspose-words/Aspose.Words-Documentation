@@ -1,5 +1,6 @@
 ﻿---
-title: System Requirements – Aspose.Words for Java
+title: System Requirements
+second_title: Aspose.Words for Java
 articleTitle: System Requirements
 linktitle: System Requirements
 description: "Before you start working with Aspose.Words for Java, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for."

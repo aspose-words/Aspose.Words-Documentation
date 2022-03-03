@@ -1,5 +1,6 @@
 ﻿---
-title: Save Documents in Apache POI and Aspose.Words – Aspose.Words for Java
+title: Save Documents in Apache POI and Aspose.Words
+second_title: Aspose.Words for Java
 articleTitle: Save Documents in Apache POI and Aspose.Words
 linktitle: Save Documents in Apache POI and Aspose.Words
 description: "Save documents easily and fast instead of using Apache POI."

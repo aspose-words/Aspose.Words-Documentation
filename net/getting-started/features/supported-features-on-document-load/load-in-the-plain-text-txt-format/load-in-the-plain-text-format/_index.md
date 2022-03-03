@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Plain Text Format – Aspose.Words for .NET
+title: Load in the Plain Text Format
+second_title: Aspose.Words for .NET
 articleTitle: Load in the Plain Text Format
 linktitle: Load in the Plain Text Format
 description: "Import TXT document using different load options in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Integrating Aspose.Words with Azure Data Lake – Aspose.Words for .NET
+title: Integrating Aspose.Words with Azure Data Lake
+second_title: Aspose.Words for .NET
 articleTitle: Integrating Aspose.Words with Azure Data Lake
 linktitle: Integrating Aspose.Words with Azure Data Lake
 type: docs

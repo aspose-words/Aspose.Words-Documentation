@@ -1,5 +1,6 @@
 ﻿---
 title: Introduction and Creating Tables in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Introduction and Creating Tables
 linktitle: Introduction and Creating Tables
 description: "Create and manage tables in a document using Python."

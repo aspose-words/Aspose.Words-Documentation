@@ -1,5 +1,6 @@
 ﻿---
-title: Hello World in Ruby – Aspose.Words for Java
+title: Hello World in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Hello World in Ruby
 linktitle: Hello World in Ruby
 description: "Write 'Hello' to a Word Document using Ruby."

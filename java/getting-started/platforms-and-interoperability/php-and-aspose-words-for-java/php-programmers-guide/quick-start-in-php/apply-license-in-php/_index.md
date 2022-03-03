@@ -1,5 +1,6 @@
 ﻿---
-title: Apply License in PHP – Aspose.Words for Java
+title: Apply License in PHP
+second_title: Aspose.Words for Java
 articleTitle: Apply License in PHP
 linktitle: Apply License in PHP
 description: "PHP: Apply License to Aspose.Words for Java."

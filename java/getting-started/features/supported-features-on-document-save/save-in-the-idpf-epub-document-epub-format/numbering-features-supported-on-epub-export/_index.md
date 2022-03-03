@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on EPUB Export – Aspose.Words for Java
+title: Numbering Features Supported on EPUB Export
+second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on EPUB Export
 linktitle: Numbering Features Supported on EPUB Export
 description: "Export to EPUB format using numbering saving features in Java."

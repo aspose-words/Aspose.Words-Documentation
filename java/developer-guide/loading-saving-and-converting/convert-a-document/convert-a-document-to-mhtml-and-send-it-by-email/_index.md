@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document to MHTML and Send It by Email in Java
+second_title: Aspose.Words for Java
 articleTitle: Convert a Document to MHTML and Send It by Email
 linktitle: Convert a Document to MHTML and Send It by Email
 description: "Convert any document to the MHTML format and then send it by e-mail using one more Aspose family product in Java."

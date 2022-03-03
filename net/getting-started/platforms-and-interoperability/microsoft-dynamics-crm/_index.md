@@ -1,5 +1,6 @@
 ﻿---
-title: Microsoft Dynamics CRM – Aspose.Words for .NET
+title: Microsoft Dynamics CRM
+second_title: Aspose.Words for .NET
 articleTitle: Microsoft Dynamics CRM
 linktitle: Microsoft Dynamics CRM
 description: "How to use Aspose.Words with Microsoft Dynamics CRM to perform a wide variety of document processing tasks using C#."

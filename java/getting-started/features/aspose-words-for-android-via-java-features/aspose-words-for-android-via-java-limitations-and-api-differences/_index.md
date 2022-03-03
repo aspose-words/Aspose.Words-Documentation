@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words for Android via Java Limitations and API Differences – Aspose.Words for Java
+title: Aspose.Words for Android via Java Limitations and API Differences
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Android via Java Limitations and API Differences
 linktitle: Aspose.Words for Android via Java Limitations and API Differences
 description: "Aspose.Words for Android via Java features and API differences comparing to regular Aspose.Words for Java version."

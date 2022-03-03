@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on EPUB Export – Aspose.Words for Java
+title: Field Features Supported on EPUB Export
+second_title: Aspose.Words for Java
 articleTitle: Field Features Supported on EPUB Export
 linktitle: Field Features Supported on EPUB Export
 description: "Export to EPUB format using field saving features in Java."

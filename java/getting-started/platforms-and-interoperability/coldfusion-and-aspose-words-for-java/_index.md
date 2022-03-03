@@ -1,5 +1,6 @@
 ﻿---
 title: ColdFusion and Aspose.Words for Java
+second_title: Aspose.Words for Java
 articleTitle: ColdFusion and Aspose.Words for Java
 linktitle: ColdFusion and Aspose.Words for Java
 description: "Using Aspose.Words for Java in ColdFusion applications."

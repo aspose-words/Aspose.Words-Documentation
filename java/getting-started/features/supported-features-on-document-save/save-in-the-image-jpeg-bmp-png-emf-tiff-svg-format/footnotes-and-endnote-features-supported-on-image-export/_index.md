@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on Image Export – Aspose.Words for Java
+title: Footnotes and Endnote Features Supported on Image Export
+second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on Image Export
 linktitle: Footnotes and Endnote Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using footnote and endnote saving features in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: IntelliJ IDEA – Aspose.Words for Java
+title: IntelliJ IDEA
+second_title: Aspose.Words for Java
 articleTitle: IntelliJ IDEA
 linktitle: IntelliJ IDEA
 description: "IntelliJ IDEA: using Aspose.Words for Java."

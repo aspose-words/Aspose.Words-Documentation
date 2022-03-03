@@ -1,5 +1,6 @@
 ﻿---
-title: Frames - Aspose.Words for JasperReports
+title: Frames
+second_title: Aspose.Words for JasperReports
 articleTitle: Frames
 linktitle: Frames
 description: "Aspose Words for JasperReports allow export rectangles as frames."

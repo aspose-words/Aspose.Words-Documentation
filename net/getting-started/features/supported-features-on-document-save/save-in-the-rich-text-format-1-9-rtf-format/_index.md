@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Rich Text Format 1.9 (.RTF) Format – Aspose.Words for .NET
+title: Save in the Rich Text Format 1.9 (.RTF) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the Rich Text Format 1.9 (.RTF) Format
 linktitle: Save in the Rich Text Format 1.9 (.RTF) Format
 description: "Export to RTF format using various saving features in C#."

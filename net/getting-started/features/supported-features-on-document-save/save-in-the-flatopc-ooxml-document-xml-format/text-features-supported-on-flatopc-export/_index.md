@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on FlatOPC Export – Aspose.Words for .NET
+title: Text Features Supported on FlatOPC Export
+second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on FlatOPC Export
 linktitle: Text Features Supported on FlatOPC Export
 description: "Export to FlatOPC – XML format using text saving features in C#."

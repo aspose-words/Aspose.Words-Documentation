@@ -1,5 +1,6 @@
 ﻿---
 title: Applying Formatting in C++
+second_title: Aspose.Words for C++
 articleTitle: Applying Formatting
 linktitle: Applying Formatting
 description: "Table formatting in details using C++. Using C++ to format every part of table."

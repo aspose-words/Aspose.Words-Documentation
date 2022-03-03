@@ -1,5 +1,6 @@
 ﻿---
 title: Inserting Fields in C#
+second_title: Aspose.Words for .NET
 articleTitle: Inserting Fields
 linktitle: Inserting Fields
 description: "Different ways to insert fields into your document using C#."

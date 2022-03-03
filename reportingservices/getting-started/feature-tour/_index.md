@@ -1,5 +1,6 @@
 ﻿---
-title: Feature Tour - Aspose.Words for Reporting Services
+title: Feature Tour
+second_title: Aspose.Words for Reporting Services
 articleTitle: Feature Tour
 linktitle: Feature Tour
 description: "Features of the Aspose.Words for Reporting Services."

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with TextBoxes in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with TextBoxes
 linktitle: Working with TextBoxes
 description: "Introduction to linked textboxes feature in Aspose.Words for .NET."

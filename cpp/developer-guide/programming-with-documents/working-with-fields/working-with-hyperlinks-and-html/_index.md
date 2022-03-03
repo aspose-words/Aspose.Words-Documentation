@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Hyperlinks and HTML in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Hyperlinks and HTML
 linktitle: Working with Hyperlinks and HTML
 description: "How to insert hyperlink or HTML document into your document using Aspose.Word for C++."
@@ -9,8 +10,8 @@ aliases:
 weight: 180
 url: /cpp/working-with-hyperlinks-and-html/
 ---
-## Inserting a Hyperlink
 
+## Inserting a Hyperlink
 Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.InsertHyperlink internally calls DocumentBuilder.InsertField.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property. The code example given below inserts a hyperlink into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cpp" >}}

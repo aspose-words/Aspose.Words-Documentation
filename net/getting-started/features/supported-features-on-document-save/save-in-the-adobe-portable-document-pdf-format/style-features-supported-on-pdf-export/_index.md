@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on PDF Export – Aspose.Words for .NET
+title: Style Features Supported on PDF Export
+second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on PDF Export
 linktitle: Style Features Supported on PDF Export
 description: "Export to PDF format using style saving features in C#."

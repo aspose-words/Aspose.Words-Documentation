@@ -1,5 +1,6 @@
 ﻿---
-title: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export - Aspose.Words for Reporting Services
+title: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export
+second_title: Aspose.Words for Reporting Services
 articleTitle: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export
 linktitle: DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export
 description: "List of supported formats and export examples produced by the Aspose.Words for Reporting Services."

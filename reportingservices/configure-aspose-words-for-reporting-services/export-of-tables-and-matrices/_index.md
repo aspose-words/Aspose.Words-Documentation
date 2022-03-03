@@ -1,5 +1,6 @@
 ﻿---
-title: Export of Tables and Matrices - Aspose.Words for Reporting Services
+title: Export of Tables and Matrices
+second_title: Aspose.Words for Reporting Services
 articleTitle: Export of Tables and Matrices
 linktitle: Export of Tables and Matrices
 description: "Export of Tables and Matrices setting of the Aspose.Words for Reporting Services."

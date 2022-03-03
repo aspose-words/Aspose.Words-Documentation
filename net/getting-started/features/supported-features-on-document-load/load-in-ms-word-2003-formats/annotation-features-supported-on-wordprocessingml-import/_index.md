@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on WordprocessingML Import – Aspose.Words for .NET
+title: Annotation Features Supported on WordprocessingML Import
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on WordprocessingML Import
 linktitle: Annotation Features Supported on WordprocessingML Import
 description: "Import WordprocessingML document using annotation load options in C#."

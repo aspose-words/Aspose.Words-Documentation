@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on XPS Export – Aspose.Words for Java
+title: Style Features Supported on XPS Export
+second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on XPS Export
 linktitle: Style Features Supported on XPS Export
 description: "Export to XPS format using style saving features in Java."

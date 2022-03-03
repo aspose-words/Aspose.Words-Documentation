@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Digital Signatures in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Digital Signatures
 linktitle: Working with Digital Signatures
 description: "Digitally sign documents and detect, count, verify, and remove existing digital signatures using Python."

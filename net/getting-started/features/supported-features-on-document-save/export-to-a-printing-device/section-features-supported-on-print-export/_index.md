@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on Print Export – Aspose.Words for .NET
+title: Section Features Supported on Print Export
+second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on Print Export
 linktitle: Section Features Supported on Print Export
 description: "Work with section features when sending a document to printer using C#."

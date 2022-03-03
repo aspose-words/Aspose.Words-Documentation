@@ -1,5 +1,6 @@
 ﻿---
 title: Navigation with Cursor in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Navigation with Cursor
 linktitle: Navigation with Cursor
 description: "Navigate between different nodes within a document such as a paragraph, bookmark, or a specific character using Python."

@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on DOC Import – Aspose.Words for .NET
+title: Annotation Features Supported on DOC Import
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on DOC Import
 linktitle: Annotation Features Supported on DOC Import
 description: "Import DOC document using annotation load options in C#."

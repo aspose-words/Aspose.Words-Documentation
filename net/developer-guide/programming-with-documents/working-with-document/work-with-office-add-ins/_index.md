@@ -1,5 +1,6 @@
 ﻿---
 title: Work with Office Add-ins in C#
+second_title: Aspose.Words for .NET
 articleTitle: Work with Office Add-ins
 linktitle: Work with Office Add-ins
 description: "Aspose.Words for .NET provides various classes for working with Office Add-ins using C#. You can add Task Pane via web extension and customize the pane and extension properties."

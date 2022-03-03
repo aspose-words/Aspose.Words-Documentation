@@ -1,5 +1,6 @@
 ---
-title: Add Headers and Footers – Aspose.Words for .NET
+title: Add Headers and Footers
+second_title: Aspose.Words for .NET
 articleTitle: Add Headers and Footers
 linktitle: Add Headers and Footers
 type: docs

@@ -1,5 +1,6 @@
 ﻿---
-title: Format Text in Document in NPOI – Aspose.Words for .NET
+title: Format Text in Document in NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Format Text in Document in NPOI
 linktitle: Format Text in Document in NPOI
 description: "Fformat text in a document easily and fast instead of using NPOI in C#."

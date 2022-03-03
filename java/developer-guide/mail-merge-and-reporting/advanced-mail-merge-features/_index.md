@@ -1,5 +1,6 @@
 ﻿---
 title: Advanced Mail Merge Features in Java
+second_title: Aspose.Words for Java
 articleTitle: Advanced Mail Merge Features
 linktitle: Advanced Mail Merge Features
 aliases:

@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on Image Export – Aspose.Words for Java
+title: Text Features Supported on Image Export
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on Image Export
 linktitle: Text Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using text saving features in Java."

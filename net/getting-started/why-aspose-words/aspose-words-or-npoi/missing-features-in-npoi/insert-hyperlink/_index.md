@@ -1,5 +1,6 @@
 ﻿---
-title: Insert a Hyperlink – Aspose.Words for .NET
+title: Insert a Hyperlink
+second_title: Aspose.Words for .NET
 articleTitle: Insert a Hyperlink
 linktitle: Insert a Hyperlink
 description: "Insert a hyperlink into a document. NPOI does not provide an opportunity to insert a hyperlink using C#."

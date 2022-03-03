@@ -1,5 +1,6 @@
 ﻿---
-title: Jython – Aspose.Words for Java
+title: Jython
+second_title: Aspose.Words for Java
 articleTitle: Jython
 linktitle: Jython
 description: "Using Aspose.Words for Java from Jython."

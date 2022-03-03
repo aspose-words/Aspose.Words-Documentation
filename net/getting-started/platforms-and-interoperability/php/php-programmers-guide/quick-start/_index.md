@@ -1,5 +1,6 @@
 ﻿---
-title: Quick Start – Aspose.Words for .NET
+title: Quick Start
+second_title: Aspose.Words for .NET
 articleTitle: Quick Start
 linktitle: Quick Start
 description: "Aspose.Words for .NET quick start PHP developers guide using C#."

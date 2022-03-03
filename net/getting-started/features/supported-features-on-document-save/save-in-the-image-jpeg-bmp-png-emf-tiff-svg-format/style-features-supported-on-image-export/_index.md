@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on Image Export – Aspose.Words for .NET
+title: Style Features Supported on Image Export
+second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on Image Export
 linktitle: Style Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using style saving features in C#."

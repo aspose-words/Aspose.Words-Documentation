@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Markup Features Supported on Rich Text Import – Aspose.Words for Java
+title: Custom Markup Features Supported on Rich Text Import
+second_title: Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on Rich Text Import
 linktitle: Custom Markup Features Supported on Rich Text Import
 description: "Import RTF document using custom markup load options in Java."

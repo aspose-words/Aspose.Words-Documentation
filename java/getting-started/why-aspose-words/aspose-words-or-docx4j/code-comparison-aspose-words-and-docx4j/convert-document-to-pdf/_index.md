@@ -1,5 +1,6 @@
 ﻿---
-title: Convert Document to PDF – Aspose.Words for Java
+title: Convert Document to PDF
+second_title: Aspose.Words for Java
 articleTitle: Convert Document to PDF
 linktitle: Convert Document to PDF
 description: "Convert a document in any supported format to PDF easily and fast instead of using docx4j in Java."

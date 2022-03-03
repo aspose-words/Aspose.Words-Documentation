@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words or Open XML SDK – Aspose.Words for .NET
+title: Aspose.Words or Open XML SDK
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words or Open XML SDK
 linktitle: Aspose.Words or Open XML SDK
 description: "Aspose.Words for .NET is a very useful document processing library that provides great support for all Microsoft Word and other document formats. Open XML SDK and Aspose.Words do not compete with each other because they address quite different needs using C#."

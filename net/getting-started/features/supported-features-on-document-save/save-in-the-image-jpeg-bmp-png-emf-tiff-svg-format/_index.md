@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format – Aspose.Words for .NET
+title: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
 linktitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
 description: "Export images (JPEG, PNG, SVG, etc.) using various saving features in C#."

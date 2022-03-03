@@ -1,5 +1,6 @@
 ﻿---
-title: How to use the Examples – Aspose.Words for Java
+title: How to use the Examples
+second_title: Aspose.Words for Java
 articleTitle: How to use the Examples
 linktitle: How to use the Examples
 description: "How to run Aspose.Words for Android via Java examples."

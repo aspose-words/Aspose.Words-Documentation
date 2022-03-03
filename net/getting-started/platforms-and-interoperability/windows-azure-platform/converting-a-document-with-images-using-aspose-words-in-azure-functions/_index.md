@@ -1,5 +1,6 @@
 ﻿---
-title: Converting a Document with Images using Aspose.Words in Azure Functions – Aspose.Words for .NET
+title: Converting a Document with Images using Aspose.Words in Azure Functions
+second_title: Aspose.Words for .NET
 articleTitle: Converting a Document with Images using Aspose.Words in Azure Functions
 linktitle: Converting a Document with Images using Aspose.Words in Azure Functions
 type: docs

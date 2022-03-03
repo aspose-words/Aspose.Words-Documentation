@@ -1,5 +1,6 @@
 ﻿---
-title: Round Points - Aspose.Words for Reporting Services
+title: Round Points
+second_title: Aspose.Words for Reporting Services
 articleTitle: Round Points
 linktitle: Round Points
 description: "Round Points setting of the Aspose.Words for Reporting Services."

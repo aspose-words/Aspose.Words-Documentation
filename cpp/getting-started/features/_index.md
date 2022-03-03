@@ -1,5 +1,6 @@
 ---
-title: Features – Aspose.Words for С++
+title: Features
+second_title: Aspose.Words for C++
 articleTitle: Supported Features
 linktitle: Supported Features
 description: "Aspose.Words for C++ provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."

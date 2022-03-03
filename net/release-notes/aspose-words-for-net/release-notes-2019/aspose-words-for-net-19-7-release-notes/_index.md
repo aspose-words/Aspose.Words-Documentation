@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for .NET 19.7 Release Notes
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET 19.7 Release Notes
 linktitle: Aspose.Words for .NET 19.7 Release Notes
 description: "Aspose.Words for .NET 19.7 Release Notes – the latest updates and fixes."
@@ -350,6 +351,7 @@ doc.Save("QuotesExample.md");
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
 \-----
+
 {{< /highlight >}}
 
 {{< highlight csharp >}}

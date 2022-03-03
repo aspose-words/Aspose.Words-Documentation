@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on WordprocessingML Export – Aspose.Words for .NET
+title: Paragraph Features Supported on WordprocessingML Export
+second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on WordprocessingML Export
 linktitle: Paragraph Features Supported on WordprocessingML Export
 description: "Export to WordprocessingML format using paragraph saving features in C#."

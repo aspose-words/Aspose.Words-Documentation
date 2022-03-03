@@ -1,5 +1,6 @@
 ﻿---
-title: Ruby – Aspose.Words for Java
+title: Ruby
+second_title: Aspose.Words for Java
 articleTitle: Ruby
 linktitle: Ruby
 description: "How to use Aspose.Words for Java from Ruby."

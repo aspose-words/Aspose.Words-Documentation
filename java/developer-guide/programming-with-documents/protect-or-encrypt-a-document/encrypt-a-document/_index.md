@@ -1,5 +1,6 @@
 ﻿---
 title: Encrypt a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Encrypt a Document
 linktitle: Encrypt a Document
 description: "Encrypt your document using appropriate encryption algorithms for specific document formats in Java."

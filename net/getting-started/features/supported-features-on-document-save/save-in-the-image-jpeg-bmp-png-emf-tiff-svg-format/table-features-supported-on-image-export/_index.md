@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on Image Export – Aspose.Words for .NET
+title: Table Features Supported on Image Export
+second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on Image Export
 linktitle: Table Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using table saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on FlatOPC Import – Aspose.Words for .NET
+title: Drawing Object Features Supported on FlatOPC Import
+second_title: Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on FlatOPC Import
 linktitle: Drawing Object Features Supported on FlatOPC Import
 description: "Import FlatOPC document using drawing load options in C#."

@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Android via Xamarin 17.9 Release Notes
+second_title: Aspose.Words for Android via Xamarin
 articleTitle: Aspose.Words for Android via Xamarin 17.9 Release Notes
 linktitle: Aspose.Words for Android via Xamarin 17.9 Release Notes
 description: "Aspose.Words for Android via Xamarin 17.9 Release Notes – the latest updates and fixes."

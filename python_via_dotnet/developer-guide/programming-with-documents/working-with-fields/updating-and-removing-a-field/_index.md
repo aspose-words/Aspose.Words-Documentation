@@ -1,5 +1,6 @@
 ﻿---
 title: Updating and Removing a Field in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Updating and Removing a Field
 linktitle: Updating and Removing a Field
 description: "Update fields in a document in different ways and using different option in Python."

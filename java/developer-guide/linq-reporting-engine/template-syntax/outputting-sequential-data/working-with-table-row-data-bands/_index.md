@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Table-Row Data Bands in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Table-Row Data Bands
 linktitle: Working with Table-Row Data Bands
 description: "Output a sequence of table-row data when building a report in Java."

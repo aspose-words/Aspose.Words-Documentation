@@ -1,5 +1,6 @@
 ﻿---
 title: Printing a Document Programmatically or Using Dialogs in Java
+second_title: Aspose.Words for Java
 articleTitle: Printing a Document Programmatically or Using Dialogs
 linktitle: Printing a Document Programmatically or Using Dialogs
 description: "Print a document using Java through Settings, Print Preview, and Print progress dialogs."

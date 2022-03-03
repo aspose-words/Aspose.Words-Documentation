@@ -1,5 +1,6 @@
 ﻿---
 title: PHP and Aspose.Words for Java
+second_title: Aspose.Words for Java
 articleTitle: PHP and Aspose.Words for Java
 linktitle: PHP and Aspose.Words for Java
 description: "PHP: how to use Aspose.Words for Java."

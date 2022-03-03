@@ -1,5 +1,6 @@
 ﻿---
 title: Origin of LINQ Reporting Engine in Java
+second_title: Aspose.Words for Java
 articleTitle: Origin of LINQ Reporting Engine
 linktitle: Origin of LINQ Reporting Engine
 description: "Learn the concept of LINQ Reporting Engine to build a report in Java."

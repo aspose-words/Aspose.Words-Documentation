@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Fields in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Fields
 linktitle: Working with Fields
 description: "Introduction to field feature in Aspose.Words for Java."

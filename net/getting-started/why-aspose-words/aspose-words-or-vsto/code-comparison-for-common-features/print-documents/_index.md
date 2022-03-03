@@ -1,5 +1,6 @@
 ﻿---
-title: Print Documents – Aspose.Words for .NET
+title: Print Documents
+second_title: Aspose.Words for .NET
 articleTitle: Print Documents
 linktitle: Print Documents
 description: "Print a document easily and fast instead of using VSTO in C#."

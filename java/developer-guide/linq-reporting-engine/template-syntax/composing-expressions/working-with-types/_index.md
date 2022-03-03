@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Types in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Types
 linktitle: Working with Types
 description: "Use external visible types in template expressions when building a report in Java."

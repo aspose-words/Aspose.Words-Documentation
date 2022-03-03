@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Tables in Python – Aspose.Words for Java
+title: Working With Tables in Python
+second_title: Aspose.Words for Java
 articleTitle: Working With Tables in Python
 linktitle: Working With Tables in Python
 description: "Working With Tables using Python."

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with SmartArt Cold Rendering in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with SmartArt Cold Rendering
 linktitle: Working with SmartArt Cold Rendering
 description: "Introduction to SmartArt shapes using C#."

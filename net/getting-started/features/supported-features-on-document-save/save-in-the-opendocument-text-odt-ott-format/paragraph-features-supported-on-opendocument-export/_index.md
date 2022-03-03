@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on OpenDocument Export – Aspose.Words for .NET
+title: Paragraph Features Supported on OpenDocument Export
+second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on OpenDocument Export
 linktitle: Paragraph Features Supported on OpenDocument Export
 description: "Export to ODT format using paragraph saving features in C#."

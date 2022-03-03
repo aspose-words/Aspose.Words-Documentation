@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on OpenDocument Import – Aspose.Words for Java
+title: Text Features Supported on OpenDocument Import
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on OpenDocument Import
 linktitle: Text Features Supported on OpenDocument Import
 description: "Import ODT document using text load options in Java."

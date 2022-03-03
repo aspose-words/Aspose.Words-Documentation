@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Java 14.9 Release Notes Release Notes
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 14.9 Release Notes Release Notes
 linktitle: Aspose.Words for Java 14.9 Release Notes Release Notes
 description: "Aspose.Words for Java 14.9 Release Notes Release Notes – the latest updates and fixes."

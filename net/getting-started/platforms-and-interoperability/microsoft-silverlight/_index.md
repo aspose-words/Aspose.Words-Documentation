@@ -1,5 +1,6 @@
 ﻿---
-title: Microsoft Silverlight – Aspose.Words for .NET
+title: Microsoft Silverlight
+second_title: Aspose.Words for .NET
 articleTitle: Microsoft Silverlight
 linktitle: Microsoft Silverlight
 description: "How to use Aspose.Words with Microsoft Silverlight using C#."

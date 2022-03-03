@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on Image Export – Aspose.Words for .NET
+title: Document Features Supported on Image Export
+second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on Image Export
 linktitle: Document Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using document saving features in C#."

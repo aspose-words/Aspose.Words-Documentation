@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the FlatOPC OOXML Document Format Overview – Aspose.Words for Java
+title: Save in the FlatOPC OOXML Document Format Overview
+second_title: Aspose.Words for Java
 articleTitle: Save in the FlatOPC OOXML Document Format Overview
 linktitle: Save in the FlatOPC OOXML Document Format Overview
 description: "Export to FlatOPC – XML format using different saving features in Java."

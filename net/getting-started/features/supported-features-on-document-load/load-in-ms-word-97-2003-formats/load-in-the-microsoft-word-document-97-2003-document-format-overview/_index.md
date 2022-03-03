@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Microsoft Word Document 97-2003 Document Format Overview – Aspose.Words for .NET
+title: Load in the Microsoft Word Document 97-2003 Document Format Overview
+second_title: Aspose.Words for .NET
 articleTitle: Load in the Microsoft Word Document 97-2003 Document Format Overview
 linktitle: Load in the Microsoft Word Document 97-2003 Document Format Overview
 description: "Import DOC document using various load options in C#."

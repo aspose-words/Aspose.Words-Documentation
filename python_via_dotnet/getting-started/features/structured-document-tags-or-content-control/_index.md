@@ -1,5 +1,6 @@
 ﻿---
-title: Structured Document Tags or Content Control – Aspose.Words for Python via .NET
+title: Structured Document Tags or Content Control
+second_title: Aspose.Words for Python via .NET
 articleTitle: Structured Document Tags or Content Control
 linktitle: Structured Document Tags or Content Control
 description: "Embed customer-defined semantics as well as its behavior and appearance into a document using Structured document tags (SDT or content control) in Python."

@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Java 17.8 Release Notes
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 17.8 Release Notes
 linktitle: Aspose.Words for Java 17.8 Release Notes
 description: "Aspose.Words for Java 17.8 Release Notes – the latest updates and fixes."

@@ -1,5 +1,6 @@
 ﻿---
-title: Showcases – Aspose.Words for .NET
+title: Showcases
+second_title: Aspose.Words for .NET
 articleTitle: Showcases
 linktitle: Showcases
 description: "We show you examples of projects that use some of the Aspose.Words features. Such projects demonstrate more complex interactions between these features."

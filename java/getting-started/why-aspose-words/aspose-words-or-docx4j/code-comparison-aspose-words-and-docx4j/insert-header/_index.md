@@ -1,5 +1,6 @@
 ﻿---
-title: Insert Header – Aspose.Words for Java
+title: Insert Header
+second_title: Aspose.Words for Java
 articleTitle: Insert Header
 linktitle: Insert Header
 description: "Insert a header into a document easily and fast instead of using docx4j."

@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes – Aspose.Words for С++
+title: Release Notes
+second_title: Aspose.Words for C++
 articleTitle: Release Notes
 linktitle: Release Notes
 type: docs

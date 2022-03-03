@@ -1,5 +1,6 @@
 ﻿---
-title: Copy Bookmarked Text in Ruby – Aspose.Words for Java
+title: Copy Bookmarked Text in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Copy Bookmarked Text in Ruby
 linktitle: Copy Bookmarked Text in Ruby
 description: "Copy bookmarked text using Ruby."

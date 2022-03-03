@@ -1,5 +1,6 @@
 ﻿---
-title: Report Generation - Aspose.Words for SharePoint
+title: Report Generation
+second_title: Aspose.Words for SharePoint
 articleTitle: Report Generation
 linktitle: Report Generation
 description: "Reporting features of the Aspose.Words for SharePoint."

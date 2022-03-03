@@ -1,5 +1,6 @@
 ﻿---
 title: Inserting Bookmarks Dynamically in C#
+second_title: Aspose.Words for .NET
 articleTitle: Inserting Bookmarks Dynamically
 linktitle: Inserting Bookmarks Dynamically
 description: "Insert bookmarks into your document dynamically when building a report using C#."

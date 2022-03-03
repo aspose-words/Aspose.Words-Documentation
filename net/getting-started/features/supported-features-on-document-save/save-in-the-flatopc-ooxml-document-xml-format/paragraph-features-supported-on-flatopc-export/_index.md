@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on FlatOPC Export – Aspose.Words for .NET
+title: Paragraph Features Supported on FlatOPC Export
+second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on FlatOPC Export
 linktitle: Paragraph Features Supported on FlatOPC Export
 description: "Export to FlatOPC – XML format using paragraph saving features in C#."

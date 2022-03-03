@@ -1,5 +1,6 @@
 ﻿---
-title: World Class Free Technical Support - Aspose.Words for SharePoint
+title: World Class Free Technical Support
+second_title: Aspose.Words for SharePoint
 articleTitle: World Class Free Technical Support
 linktitle: World Class Free Technical Support
 description: "Support details of the Aspose.Words for SharePoint."

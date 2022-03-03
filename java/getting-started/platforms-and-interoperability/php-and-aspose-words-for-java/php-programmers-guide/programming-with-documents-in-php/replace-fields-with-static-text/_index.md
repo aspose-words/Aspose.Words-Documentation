@@ -1,5 +1,6 @@
 ﻿---
-title: Replace Fields With Static Text in PHP – Aspose.Words for Java
+title: Replace Fields With Static Text in PHP
+second_title: Aspose.Words for Java
 articleTitle: Replace Fields With Static Text in PHP
 linktitle: Replace Fields With Static Text in PHP
 description: "Replace Fields With Static Text using PHP."

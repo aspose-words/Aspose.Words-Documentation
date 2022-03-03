@@ -1,5 +1,6 @@
 ---
 title: Detect File Format and Check Format Compatibility in C#
+second_title: Aspose.Words for .NET
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility
 description: "Determine the file format in C# if you are not sure what the actual content of the file is, or to check the format compatibility."

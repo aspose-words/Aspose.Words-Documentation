@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes - 2019 – Aspose.Words for С++
+title: Release Notes - 2019
+second_title: Aspose.Words for C++
 articleTitle: Release Notes - 2019
 linktitle: Release Notes - 2019
 description: "Aspose.Words for С++ Release Notes - 2019 – learn about the latest updates and fixes."

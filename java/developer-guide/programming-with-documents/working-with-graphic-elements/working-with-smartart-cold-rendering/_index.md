@@ -1,5 +1,6 @@
 ﻿---
 title: Working with SmartArt Cold Rendering in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with SmartArt Cold Rendering
 linktitle: Working with SmartArt Cold Rendering
 type: docs

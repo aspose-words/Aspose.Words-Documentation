@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Nodes in PHP – Aspose.Words for Java
+title: Working With Nodes in PHP
+second_title: Aspose.Words for Java
 articleTitle: Working With Nodes in PHP
 linktitle: Working With Nodes in PHP
 description: "Working With Document Nodes using PHP."

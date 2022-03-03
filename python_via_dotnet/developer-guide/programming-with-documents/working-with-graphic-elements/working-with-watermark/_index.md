@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Watermark in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Watermark
 linktitle: Working with Watermark
 description: "Create and manage watermarks in a document using Python."

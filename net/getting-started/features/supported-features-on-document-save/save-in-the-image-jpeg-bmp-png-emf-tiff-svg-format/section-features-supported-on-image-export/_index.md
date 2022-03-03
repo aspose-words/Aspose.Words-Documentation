@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on Image Export – Aspose.Words for .NET
+title: Section Features Supported on Image Export
+second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on Image Export
 linktitle: Section Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using section saving features in C#."

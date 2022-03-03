@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document to PDF in Java
+second_title: Aspose.Words for Java
 articleTitle: Convert a Document to PDF
 linktitle: Convert a Document to PDF
 description: "Convert a document in Word or any other supported format to PDF, which preserves the original appearance of a document during its rendering on various platforms using Java."

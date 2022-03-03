@@ -1,5 +1,6 @@
 ﻿---
-title: Technical Support – Aspose.Words for Java
+title: Technical Support
+second_title: Aspose.Words for Java
 articleTitle: Technical Support
 linktitle: Technical Support
 type: docs

@@ -1,5 +1,6 @@
 ﻿---
-title: Activation and Deactivation After Installation - Aspose.Words for SharePoint
+title: Activation and Deactivation After Installation
+second_title: Aspose.Words for SharePoint
 articleTitle: Activation and Deactivation After Installation
 linktitle: Activation and Deactivation After Installation
 description: "How to deactivate the Aspose.Words for SharePoint after installation."

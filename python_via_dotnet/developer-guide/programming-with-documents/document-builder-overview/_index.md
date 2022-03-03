@@ -1,5 +1,6 @@
 ﻿---
 title: Document Builder Overview in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Document Builder Overview
 linktitle: Document Builder Overview
 type: docs

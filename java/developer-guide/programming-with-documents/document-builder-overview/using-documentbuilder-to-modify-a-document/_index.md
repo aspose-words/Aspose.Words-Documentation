@@ -1,5 +1,6 @@
 ---
 title: Using DocumentBuilder to Modify a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Using DocumentBuilder to Modify a Document
 linktitle: Using DocumentBuilder to Modify a Document
 type: docs

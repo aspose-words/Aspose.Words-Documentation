@@ -1,5 +1,6 @@
 ﻿---
-title: Exporting to a Printer Overview – Aspose.Words for Java
+title: Exporting to a Printer Overview
+second_title: Aspose.Words for Java
 articleTitle: Exporting to a Printer Overview
 linktitle: Exporting to a Printer Overview
 description: "Work with various features when sending a document to printer."

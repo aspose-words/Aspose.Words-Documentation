@@ -1,5 +1,6 @@
 ﻿---
 title: Extract Text from and Replace Text in a Table in Java
+second_title: Aspose.Words for Java
 articleTitle: Extract Text from and Replace Text in a Table
 linktitle: Extract Text from and Replace Text in a Table
 description: "Advanced table tasks, extracting content and replace text in cells using Java."

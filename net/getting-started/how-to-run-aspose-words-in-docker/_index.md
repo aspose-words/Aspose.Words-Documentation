@@ -1,5 +1,6 @@
 ﻿---
-title: How to Run Aspose.Words in Docker – Aspose.Words for .NET
+title: How to Run Aspose.Words in Docker
+second_title: Aspose.Words for .NET
 articleTitle: How to Run Aspose.Words in Docker
 linktitle: How to Run Aspose.Words in Docker
 type: docs

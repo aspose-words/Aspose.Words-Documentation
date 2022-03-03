@@ -1,5 +1,6 @@
 ﻿---
-title: TableRelation Element - Aspose.Words for SharePoint
+title: TableRelation Element
+second_title: Aspose.Words for SharePoint
 articleTitle: TableRelation Element
 linktitle: TableRelation Element
 description: "TableRelation element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

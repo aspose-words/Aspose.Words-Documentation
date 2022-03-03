@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes - 2018 - Aspose.Words for Reporting Services
+title: Release Notes - 2018
+second_title: Aspose.Words for Reporting Services
 articleTitle: Release Notes - 2018
 linktitle: Release Notes - 2018
 description: "Aspose.Words for Reporting Services Release Notes - 2018 – learn about the latest updates and fixes."

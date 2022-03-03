@@ -1,5 +1,6 @@
 ﻿---
-title: Accessing Document Properties – Aspose.Words for Java
+title: Accessing Document Properties
+second_title: Aspose.Words for Java
 articleTitle: Accessing Document Properties
 linktitle: Accessing Document Properties
 description: "Access document properties easily and fast instead of using docx4j."

@@ -1,5 +1,6 @@
 ﻿---
-title: Sitefinity Export Users to Word – Aspose.Words for .NET
+title: Sitefinity Export Users to Word
+second_title: Aspose.Words for .NET
 articleTitle: Sitefinity Export Users to Word
 linktitle: Sitefinity Export Users to Word
 description: "Export Sitefinity users into Microsoft Word or OpenOffice document using Aspose.Words Sitefinity Export Users to Word in C#."

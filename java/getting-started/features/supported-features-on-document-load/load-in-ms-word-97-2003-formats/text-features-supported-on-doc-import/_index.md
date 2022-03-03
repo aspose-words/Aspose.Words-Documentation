@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on DOC Import – Aspose.Words for Java
+title: Text Features Supported on DOC Import
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on DOC Import
 linktitle: Text Features Supported on DOC Import
 description: "Import DOC document using text load options in Java."

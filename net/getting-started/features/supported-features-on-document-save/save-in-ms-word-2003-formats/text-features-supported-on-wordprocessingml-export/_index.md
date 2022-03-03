@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on WordprocessingML Export – Aspose.Words for .NET
+title: Text Features Supported on WordprocessingML Export
+second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on WordprocessingML Export
 linktitle: Text Features Supported on WordprocessingML Export
 description: "Export to WordprocessingML format using text saving features in C#."

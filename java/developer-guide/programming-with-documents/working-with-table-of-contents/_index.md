@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Table of Contents in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Table of Contents
 linktitle: Working with Table of Contents
 description: "Table of Content field in details. How to create and modify TOC field using Java."

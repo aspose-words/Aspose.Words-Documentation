@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the IDPF EPUB Document (.EPUB) Format – Aspose.Words for Java
+title: Save in the IDPF EPUB Document (.EPUB) Format
+second_title: Aspose.Words for Java
 articleTitle: Save in the IDPF EPUB Document (.EPUB) Format
 linktitle: Save in the IDPF EPUB Document (.EPUB) Format
 description: "Export to EPUB format using various saving features in Java."

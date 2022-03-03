@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on DOCX Import – Aspose.Words for .NET
+title: Field Features Supported on DOCX Import
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on DOCX Import
 linktitle: Field Features Supported on DOCX Import
 description: "Import OOXML document using field load options in C#."

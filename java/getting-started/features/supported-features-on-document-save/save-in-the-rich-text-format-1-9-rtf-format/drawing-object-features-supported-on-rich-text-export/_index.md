@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on Rich Text Export – Aspose.Words for Java
+title: Drawing Object Features Supported on Rich Text Export
+second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on Rich Text Export
 linktitle: Drawing Object Features Supported on Rich Text Export
 description: "Export to RTF format using drawing saving features in Java."

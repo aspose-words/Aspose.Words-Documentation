@@ -1,5 +1,6 @@
 ﻿---
-title: Export to a Printing Device – Aspose.Words for Java
+title: Export to a Printing Device
+second_title: Aspose.Words for Java
 articleTitle: Export to a Printing Device
 linktitle: Export to a Printing Device
 description: "Work with different features when sending a document to printer."

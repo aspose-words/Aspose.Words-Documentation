@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on FlatOPC Export – Aspose.Words for Java
+title: Annotation Features Supported on FlatOPC Export
+second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on FlatOPC Export
 linktitle: Annotation Features Supported on FlatOPC Export
 description: "Export to FlatOPC – XML format using annotation saving features in Java."

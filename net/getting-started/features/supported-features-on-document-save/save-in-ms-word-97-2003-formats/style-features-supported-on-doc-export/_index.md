@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on DOC Export – Aspose.Words for .NET
+title: Style Features Supported on DOC Export
+second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on DOC Export
 linktitle: Style Features Supported on DOC Export
 description: "Export to DOC format using style saving features in C#."

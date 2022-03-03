@@ -1,5 +1,6 @@
 ---
-title: System Requirements – Aspose.Words for С++
+title: System Requirements
+second_title: Aspose.Words for C++
 articleTitle: System Requirements
 linktitle: System Requirements
 description: "Before you start working with Aspose.Words for C++, ensure that you meet the operating system, platform, frameworks, and environment requirements so the activities on your devices are properly accounted for."

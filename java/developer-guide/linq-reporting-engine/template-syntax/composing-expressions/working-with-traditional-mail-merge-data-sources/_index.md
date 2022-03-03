@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Traditional Mail Merge Data Sources in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Traditional Mail Merge Data Sources
 linktitle: Working with Traditional Mail Merge Data Sources
 description: "Use simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects when building a report in Java."

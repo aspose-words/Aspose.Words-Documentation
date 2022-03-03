@@ -1,5 +1,6 @@
 ﻿---
 title: Navigation with Cursor in C#
+second_title: Aspose.Words for .NET
 articleTitle: Navigation with Cursor
 linktitle: Navigation with Cursor
 description: "Navigate between different nodes within a document, such as a paragraph, bookmark, or a specific character using C#."

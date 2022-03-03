@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on WordprocessingML Import – Aspose.Words for .NET
+title: Numbering Features Supported on WordprocessingML Import
+second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on WordprocessingML Import
 linktitle: Numbering Features Supported on WordprocessingML Import
 description: "Import WordprocessingML document using numbering load options in C#."

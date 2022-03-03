@@ -1,5 +1,6 @@
 ﻿---
-title: Shrink Space - Aspose.Words for Reporting Services
+title: Shrink Space
+second_title: Aspose.Words for Reporting Services
 articleTitle: Shrink Space
 linktitle: Shrink Space
 description: "Shrink Space setting of the Aspose.Words for Reporting Services."

@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words or Apache POI – Aspose.Words for Java
+title: Aspose.Words or Apache POI
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words or Apache POI
 linktitle: Aspose.Words or Apache POI
 description: "Perform a large number of tasks with documents faster and more conveniently than POI."

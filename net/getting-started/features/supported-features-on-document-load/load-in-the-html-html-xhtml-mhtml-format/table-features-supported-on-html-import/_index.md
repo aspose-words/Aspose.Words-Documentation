@@ -1,5 +1,6 @@
 ---
-title: Table Features Supported on HTML Import – Aspose.Words for .NET
+title: Table Features Supported on HTML Import
+second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on HTML Import
 linktitle: Table Features Supported on HTML Import
 type: docs

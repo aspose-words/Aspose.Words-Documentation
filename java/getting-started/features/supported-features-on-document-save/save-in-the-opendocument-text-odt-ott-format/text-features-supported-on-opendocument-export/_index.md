@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on OpenDocument Export – Aspose.Words for Java
+title: Text Features Supported on OpenDocument Export
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on OpenDocument Export
 linktitle: Text Features Supported on OpenDocument Export
 description: "Export to ODT format using text saving features in Java."

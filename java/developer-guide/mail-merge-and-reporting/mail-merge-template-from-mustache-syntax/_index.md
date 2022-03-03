@@ -1,5 +1,6 @@
 ﻿---
 title: Mail Merge Template from Mustache Syntax in Java
+second_title: Aspose.Words for Java
 articleTitle: Mail Merge Template from Mustache Syntax
 linktitle: Mail Merge Template from Mustache Syntax
 type: docs

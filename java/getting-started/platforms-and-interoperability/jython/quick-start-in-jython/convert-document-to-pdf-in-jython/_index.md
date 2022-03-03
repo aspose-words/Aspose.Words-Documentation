@@ -1,5 +1,6 @@
 ﻿---
-title: Convert Document to PDF in Jython – Aspose.Words for Java
+title: Convert Document to PDF in Jython
+second_title: Aspose.Words for Java
 articleTitle: Convert Document to PDF in Jython
 linktitle: Convert Document to PDF in Jython
 description: "Convert Document to PDF using Jython in Java."

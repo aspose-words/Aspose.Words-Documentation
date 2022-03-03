@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on DOCX Import – Aspose.Words for Java
+title: Numbering Features Supported on DOCX Import
+second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on DOCX Import
 linktitle: Numbering Features Supported on DOCX Import
 description: "Import OOXML document using numbering load options in Java."

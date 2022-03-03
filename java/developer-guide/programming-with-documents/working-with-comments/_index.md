@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Comments in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Comments
 linktitle: Working with Comments
 description: "Working with comments using Java."

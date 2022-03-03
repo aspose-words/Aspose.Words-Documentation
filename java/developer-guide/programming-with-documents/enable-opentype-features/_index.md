@@ -1,5 +1,6 @@
 ﻿---
 title: Enable OpenType Features in Java
+second_title: Aspose.Words for Java
 articleTitle: Enable OpenType Features
 linktitle: Enable OpenType Features
 description: "Advanced typography features in Aspose.Words for Java."

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with VBA Macros in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
 description: "Working with document VBA projects using Java."

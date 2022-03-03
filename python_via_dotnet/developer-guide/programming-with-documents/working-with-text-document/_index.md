@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Text Document in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Text Document
 linktitle: Working with Text Document
 description: "Work with a text document and modiffy its objects using Python."

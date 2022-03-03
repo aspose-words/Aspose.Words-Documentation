@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Java 10.0.1 Release Notes
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 10.0.1 Release Notes
 linktitle: Aspose.Words for Java 10.0.1 Release Notes
 description: "Aspose.Words for Java 10.0.1 Release Notes – the latest updates and fixes."
@@ -21,6 +22,7 @@ This hotfix addresses the following issues:
 The updated documentation has also been uploaded to the online Aspose Documentation section.
 
 -----
+
 2011-05-07 Updated documentation inside this download to include the "How to Migrate to 10.0" article.
 
 

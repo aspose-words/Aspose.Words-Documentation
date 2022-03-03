@@ -1,5 +1,6 @@
 ﻿---
-title: Simple Mail Merge in PHP – Aspose.Words for Java
+title: Simple Mail Merge in PHP
+second_title: Aspose.Words for Java
 articleTitle: Simple Mail Merge in PHP
 linktitle: Simple Mail Merge in PHP
 description: "Simple Mail Merge using PHP."

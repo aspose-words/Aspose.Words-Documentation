@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on OpenDocument Import – Aspose.Words for .NET
+title: Document Features Supported on OpenDocument Import
+second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on OpenDocument Import
 linktitle: Document Features Supported on OpenDocument Import
 description: "Import ODT using document load options in C#."

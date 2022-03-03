@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Images in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Images
 linktitle: Working with Images
 description: "Create and manage images of various formats in a document using Python."

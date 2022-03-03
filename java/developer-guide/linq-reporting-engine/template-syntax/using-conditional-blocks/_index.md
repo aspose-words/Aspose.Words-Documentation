@@ -1,5 +1,6 @@
 ﻿---
 title: Using Conditional Blocks in Java
+second_title: Aspose.Words for Java
 articleTitle: Using Conditional Blocks
 linktitle: Using Conditional Blocks
 description: "Use conditional blocks to represent the same data depending on a condition using Java."

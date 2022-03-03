@@ -1,5 +1,6 @@
 ﻿---
-title: How to Use Aspose.Words Instead of NPOI – Aspose.Words for .NET
+title: How to Use Aspose.Words Instead of NPOI
+second_title: Aspose.Words for .NET
 articleTitle: How to Use Aspose.Words Instead of NPOI
 linktitle: How to Use Aspose.Words Instead of NPOI
 description: "How to download and install Aspose.Words for .NET and what prerequisites have to be met to work with Aspose.Words instead of NPOI using C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Security Notes – Aspose.Words for .NET
+title: Security Notes
+second_title: Aspose.Words for .NET
 articleTitle: Security Notes
 linktitle: Security Notes
 type: docs

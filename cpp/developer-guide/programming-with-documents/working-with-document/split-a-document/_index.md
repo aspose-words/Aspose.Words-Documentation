@@ -1,5 +1,6 @@
 ﻿---
 title: Split a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Split a Document
 linktitle: Split a Document
 description: "Split a document into several files using C++. Use the split feature to effectively split a document by headings or sections, as well as by pages or by page ranges."

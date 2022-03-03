@@ -1,5 +1,6 @@
 ---
-title: Features – Aspose.Words for Java
+title: Features
+second_title: Aspose.Words for Java
 articleTitle: Supported Features
 linktitle: Supported Features
 description: "Aspose.Words for Java provides users with a wide range of features from simply converting and modifying documents to creating structured and visually appealing documents or automating reporting."

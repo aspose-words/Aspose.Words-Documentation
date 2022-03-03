@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Content Controls in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Content Controls
 linktitle: Working with Content Controls
 description: "Perform certain operations on content controls dynamically while building a report using C#."

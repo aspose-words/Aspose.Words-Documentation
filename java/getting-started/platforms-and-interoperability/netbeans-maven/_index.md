@@ -1,5 +1,6 @@
 ﻿---
-title: NetBeans - Maven – Aspose.Words for Java
+title: NetBeans - Maven
+second_title: Aspose.Words for Java
 articleTitle: NetBeans - Maven
 linktitle: NetBeans - Maven
 description: "Aspose.Words Java for NetBeans (Maven) Plugin."

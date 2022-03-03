@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on PDF Export – Aspose.Words for .NET
+title: Document Features Supported on PDF Export
+second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on PDF Export
 linktitle: Document Features Supported on PDF Export
 description: "Export to PDF format using document saving features in C#."

@@ -1,5 +1,6 @@
 ---
 title: What's new in Aspose.Words for C++
+second_title: Aspose.Words for C++
 articleTitle: What's new in Aspose.Words for C++
 linktitle: What's new in Aspose.Words for C++
 type: docs

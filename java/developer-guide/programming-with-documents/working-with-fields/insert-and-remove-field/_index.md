@@ -1,5 +1,6 @@
 ﻿---
 title: Insert and Remove Field in Java
+second_title: Aspose.Words for Java
 articleTitle: Insert and Remove Field
 linktitle: Insert and Remove Field
 description: "Different ways to insert fields into your document using Java."

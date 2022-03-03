@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for SharePoint Documentation
+second_title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint Documentation
 linktitle: Aspose.Words for SharePoint Documentation
 description: "Installation, licensing, limitations and feature details of the Aspose.Words for SharePoint."

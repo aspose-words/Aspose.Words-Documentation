@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document to Markdown in C++
+second_title: Aspose.Words for C++
 articleTitle: Convert a Document to Markdown
 linktitle: Convert a Document to Markdown
 type: docs

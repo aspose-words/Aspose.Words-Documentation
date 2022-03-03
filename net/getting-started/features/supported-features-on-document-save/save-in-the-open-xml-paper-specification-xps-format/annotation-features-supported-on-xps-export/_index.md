@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on XPS Export – Aspose.Words for .NET
+title: Annotation Features Supported on XPS Export
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on XPS Export
 linktitle: Annotation Features Supported on XPS Export
 description: "Export to XPS format using annotation saving features in C#."

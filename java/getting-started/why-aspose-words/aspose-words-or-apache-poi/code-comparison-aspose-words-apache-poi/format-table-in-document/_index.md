@@ -1,5 +1,6 @@
 ﻿---
-title: Format Table in Document – Aspose.Words for Java
+title: Format Table in Document
+second_title: Aspose.Words for Java
 articleTitle: Format Table in Document
 linktitle: Format Table in Document
 description: "Format table inside a document easily and fast instead of using Apache POI."

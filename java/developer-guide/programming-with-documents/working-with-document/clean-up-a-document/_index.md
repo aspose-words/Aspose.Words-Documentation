@@ -1,5 +1,6 @@
 ﻿---
 title: Clean Up a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Clean Up a Document
 linktitle: Clean Up a Document
 description: "Remove unused or duplicate information to reduce output size and processing time. Remove unused styles, unused built-in styles, duplicate styles, or unused lists using Java."

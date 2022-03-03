@@ -1,5 +1,6 @@
 ﻿---
-title: Comprehensive RDL Support - Aspose.Words for Reporting Services
+title: Comprehensive RDL Support
+second_title: Aspose.Words for Reporting Services
 articleTitle: Comprehensive RDL Support
 linktitle: Comprehensive RDL Support
 description: "List of supported RDL elements by the Aspose.Words for Reporting Services."

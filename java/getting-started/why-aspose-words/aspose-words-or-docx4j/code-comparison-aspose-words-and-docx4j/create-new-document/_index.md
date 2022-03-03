@@ -1,5 +1,6 @@
 ﻿---
-title: Create New Document – Aspose.Words for Java
+title: Create New Document
+second_title: Aspose.Words for Java
 articleTitle: Create New Document
 linktitle: Create New Document
 description: "Create a new document easily and fast instead of using docx4j."

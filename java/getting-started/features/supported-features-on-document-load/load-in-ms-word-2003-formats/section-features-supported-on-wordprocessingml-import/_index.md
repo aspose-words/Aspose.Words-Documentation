@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on WordprocessingML Import – Aspose.Words for Java
+title: Section Features Supported on WordprocessingML Import
+second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on WordprocessingML Import
 linktitle: Section Features Supported on WordprocessingML Import
 description: "Import WordprocessingML document using section load options in Java."

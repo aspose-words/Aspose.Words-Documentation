@@ -1,5 +1,6 @@
 ﻿---
-title: Check Format in PHP – Aspose.Words for Java
+title: Check Format in PHP
+second_title: Aspose.Words for Java
 articleTitle: Check Format in PHP
 linktitle: Check Format in PHP
 description: "Check Document Format using PHP."

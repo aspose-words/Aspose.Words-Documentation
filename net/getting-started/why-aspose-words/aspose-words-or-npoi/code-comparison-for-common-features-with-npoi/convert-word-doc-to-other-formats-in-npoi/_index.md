@@ -1,5 +1,6 @@
 ﻿---
-title: Convert Word Doc to Other Formats in NPOI – Aspose.Words for .NET
+title: Convert Word Doc to Other Formats in NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Convert Word Doc to Other Formats in NPOI
 linktitle: Convert Word Doc to Other Formats in NPOI
 description: "Convert DOC to other document formats easily and fast instead of using NPOI in C#."

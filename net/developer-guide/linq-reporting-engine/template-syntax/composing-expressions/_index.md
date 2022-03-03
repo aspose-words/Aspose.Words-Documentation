@@ -1,5 +1,6 @@
 ﻿---
 title: Composing Expressions in C#
+second_title: Aspose.Words for .NET
 articleTitle: Composing Expressions
 linktitle: Composing Expressions
 description: "Compose expressions when building a report using C#. The complexity of expressions in templates is not restricted."

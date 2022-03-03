@@ -1,5 +1,6 @@
 ﻿---
 title: How to Add Group Shape into a Word Document in Java
+second_title: Aspose.Words for Java
 articleTitle: How to Add Group Shape into a Word Document
 linktitle: How to Add Group Shape into a Word Document
 description: "Grouping and ungrouping shapes using Java."

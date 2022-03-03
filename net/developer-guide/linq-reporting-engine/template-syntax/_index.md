@@ -1,5 +1,6 @@
 ﻿---
 title: Template Syntax in C#
+second_title: Aspose.Words for .NET
 articleTitle: Template Syntax
 linktitle: Template Syntax
 description: "How to create a template for LINQ Reporting Engine to build a report in C#."

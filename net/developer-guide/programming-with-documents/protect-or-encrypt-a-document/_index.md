@@ -1,5 +1,6 @@
 ﻿---
 title: Protect or Encrypt a Document in C#
+second_title: Aspose.Words for .NET
 articleTitle: Protect or Encrypt a Document
 linktitle: Protect or Encrypt a Document
 description: "Aspose.Words for .NET provides Read-Only, Encrypt a Document, Restrict Editing, and Digital Signatures for document protection using C#. Aspose.Words supports most Word protection options."

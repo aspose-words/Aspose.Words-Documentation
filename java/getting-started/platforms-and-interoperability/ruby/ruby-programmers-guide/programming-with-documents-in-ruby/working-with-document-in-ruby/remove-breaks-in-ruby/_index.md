@@ -1,5 +1,6 @@
 ﻿---
-title: Remove Breaks in Ruby – Aspose.Words for Java
+title: Remove Breaks in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Remove Breaks in Ruby
 linktitle: Remove Breaks in Ruby
 description: "Remove breaks using Ruby."

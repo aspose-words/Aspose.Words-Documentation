@@ -1,5 +1,6 @@
 ﻿---
-title: System Requirements - Aspose.Words for SharePoint
+title: System Requirements
+second_title: Aspose.Words for SharePoint
 articleTitle: System Requirements
 linktitle: System Requirements
 description: "System requirements for the Aspose.Words for SharePoint."

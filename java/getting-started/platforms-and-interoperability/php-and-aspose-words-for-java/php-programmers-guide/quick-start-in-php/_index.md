@@ -1,5 +1,6 @@
 ﻿---
-title: Quick Start in PHP – Aspose.Words for Java
+title: Quick Start in PHP
+second_title: Aspose.Words for Java
 articleTitle: Quick Start in PHP
 linktitle: Quick Start in PHP
 description: "PHP: Quick Start Aspose.Words for Java."

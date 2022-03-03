@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Markup Features Supported on Rich Text Export – Aspose.Words for Java
+title: Custom Markup Features Supported on Rich Text Export
+second_title: Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on Rich Text Export
 linktitle: Custom Markup Features Supported on Rich Text Export
 description: "Export to RTF format using custom markup saving features in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on Image Export – Aspose.Words for Java
+title: Drawing Object Features Supported on Image Export
+second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on Image Export
 linktitle: Drawing Object Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using drawing saving features in Java."

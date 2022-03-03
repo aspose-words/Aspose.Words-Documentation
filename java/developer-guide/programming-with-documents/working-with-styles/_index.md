@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Styles in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Styles
 linktitle: Working with Styles
 description: "Enhanced Microsoft Word formatting features, working with styles using Java."

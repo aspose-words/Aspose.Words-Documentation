@@ -1,5 +1,6 @@
 ---
-title: Getting Started – Aspose.Words for Java
+title: Getting Started
+second_title: Aspose.Words for Java
 articleTitle: Getting Started
 linktitle: Getting Started
 type: docs

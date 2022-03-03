@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes an Endnote Features Supported on OpenDocument Export – Aspose.Words for .NET
+title: Footnotes an Endnote Features Supported on OpenDocument Export
+second_title: Aspose.Words for .NET
 articleTitle: Footnotes an Endnote Features Supported on OpenDocument Export
 linktitle: Footnotes an Endnote Features Supported on OpenDocument Export
 description: "Export to ODT format using footnote an endnote saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on DOCX Import – Aspose.Words for Java
+title: Paragraph Features Supported on DOCX Import
+second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on DOCX Import
 linktitle: Paragraph Features Supported on DOCX Import
 description: "Import OOXML document using paragraph load options in Java."

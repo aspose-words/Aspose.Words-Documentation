@@ -1,5 +1,6 @@
 ﻿---
 title: Detect File Format and Check Format Compatibility in Java
+second_title: Aspose.Words for Java
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility
 description: "Obtain information about the document format before opening it to avoid an exception if you are not sure what the actual content of the file is using Java."

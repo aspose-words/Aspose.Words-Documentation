@@ -1,5 +1,6 @@
 ---
 title: Working with OfficeMath in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with OfficeMath
 linktitle: Working with OfficeMath
 type: docs

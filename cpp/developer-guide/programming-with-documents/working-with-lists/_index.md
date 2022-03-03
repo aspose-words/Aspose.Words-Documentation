@@ -1,5 +1,6 @@
 ﻿---
 title: Working With Lists in C++
+second_title: Aspose.Words for C++
 articleTitle: Working With Lists
 linktitle: Working With Lists
 description: "Introduction to numbering formatting feature in Aspose.Words for C++."

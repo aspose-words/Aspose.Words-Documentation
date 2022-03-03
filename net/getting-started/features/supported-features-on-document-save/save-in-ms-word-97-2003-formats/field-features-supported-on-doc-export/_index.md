@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on DOC Export – Aspose.Words for .NET
+title: Field Features Supported on DOC Export
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on DOC Export
 linktitle: Field Features Supported on DOC Export
 description: "Export to DOC format using field saving features in C#."

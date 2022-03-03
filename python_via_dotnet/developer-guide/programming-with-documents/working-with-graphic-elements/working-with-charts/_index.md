@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Charts in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Charts
 linktitle: Working with Charts
 description: "Create and modify charts of various types in a document using Python."

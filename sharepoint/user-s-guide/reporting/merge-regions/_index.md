@@ -1,5 +1,6 @@
 ﻿---
-title: Merge Regions - Aspose.Words for SharePoint
+title: Merge Regions
+second_title: Aspose.Words for SharePoint
 articleTitle: Merge Regions
 linktitle: Merge Regions
 description: "Merge regions feature details of the Aspose.Words for SharePoint."

@@ -1,5 +1,6 @@
 ﻿---
-title: Save Document as a Multipage TIFF in Jython – Aspose.Words for Java
+title: Save Document as a Multipage TIFF in Jython
+second_title: Aspose.Words for Java
 articleTitle: Save Document as a Multipage TIFF in Jython
 linktitle: Save Document as a Multipage TIFF in Jython
 description: "Save Document as a Multipage TIFF using Jython."

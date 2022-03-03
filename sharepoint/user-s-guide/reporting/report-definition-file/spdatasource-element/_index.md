@@ -1,5 +1,6 @@
 ﻿---
-title: SPDataSource Element - Aspose.Words for SharePoint
+title: SPDataSource Element
+second_title: Aspose.Words for SharePoint
 articleTitle: SPDataSource Element
 linktitle: SPDataSource Element
 description: "SPDataSource element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

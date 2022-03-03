@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on Rich Text Import – Aspose.Words for .NET
+title: Document Features Supported on Rich Text Import
+second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on Rich Text Import
 linktitle: Document Features Supported on Rich Text Import
 description: "Import RTF using document load options in C#."

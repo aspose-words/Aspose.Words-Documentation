@@ -1,5 +1,6 @@
 ﻿---
-title: Simple Mail Merge in Jython – Aspose.Words for Java
+title: Simple Mail Merge in Jython
+second_title: Aspose.Words for Java
 articleTitle: Simple Mail Merge in Jython
 linktitle: Simple Mail Merge in Jython
 description: "Simple Mail Merge using Jython."

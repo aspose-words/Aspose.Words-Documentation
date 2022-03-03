@@ -1,5 +1,6 @@
 ﻿---
-title: Apply License in Jython – Aspose.Words for Java
+title: Apply License in Jython
+second_title: Aspose.Words for Java
 articleTitle: Apply License in Jython
 linktitle: Apply License in Jython
 description: "Jython: Apply License to Aspose.Words for Java."

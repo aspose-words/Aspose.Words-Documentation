@@ -1,5 +1,6 @@
 ﻿---
-title: High Fidelity to the Report Design - Aspose.Words for Reporting Services
+title: High Fidelity to the Report Design
+second_title: Aspose.Words for Reporting Services
 articleTitle: High Fidelity to the Report Design
 linktitle: High Fidelity to the Report Design
 description: "This page demonstrates high quality of the output documents produced of the Aspose.Words for Reporting Services."

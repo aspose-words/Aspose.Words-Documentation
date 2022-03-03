@@ -1,5 +1,6 @@
 ﻿---
-title: Licensing - Aspose.Words for JasperReports
+title: Licensing
+second_title: Aspose.Words for JasperReports
 articleTitle: Licensing
 linktitle: Licensing
 description: "The evaluation and licensed versions of Aspose.Words for JasperReports is the same download."

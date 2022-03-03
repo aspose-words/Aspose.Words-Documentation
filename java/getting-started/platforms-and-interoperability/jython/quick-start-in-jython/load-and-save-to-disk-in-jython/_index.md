@@ -1,5 +1,6 @@
 ﻿---
-title: Load And Save To Disk in Jython – Aspose.Words for Java
+title: Load And Save To Disk in Jython
+second_title: Aspose.Words for Java
 articleTitle: Load And Save To Disk in Jython
 linktitle: Load And Save To Disk in Jython
 description: "Load And Save Word Document To Disk using Jython."

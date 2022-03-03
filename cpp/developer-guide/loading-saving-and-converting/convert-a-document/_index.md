@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Convert a Document
 linktitle: Convert a Document
 type: docs

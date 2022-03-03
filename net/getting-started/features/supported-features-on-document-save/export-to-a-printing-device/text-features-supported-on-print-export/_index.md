@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on Print Export – Aspose.Words for .NET
+title: Text Features Supported on Print Export
+second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on Print Export
 linktitle: Text Features Supported on Print Export
 description: "Work with text features when sending a document to printer using C#."

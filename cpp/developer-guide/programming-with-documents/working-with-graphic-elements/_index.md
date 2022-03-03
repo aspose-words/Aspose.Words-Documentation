@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Graphic Elements in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Graphic Elements
 linktitle: Working with Graphic Elements
 description: "Introduction to Shape node, basic graphic element in Aspose.Words for C++."

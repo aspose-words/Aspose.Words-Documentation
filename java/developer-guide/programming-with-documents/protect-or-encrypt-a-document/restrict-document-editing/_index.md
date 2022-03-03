@@ -1,5 +1,6 @@
 ﻿---
 title: Restrict Document Editing in Java
+second_title: Aspose.Words for Java
 articleTitle: Restrict Document Editing
 linktitle: Restrict Document Editing
 description: "Restrict editing a document by setting a restriction type. You can also remove protection and make unrestricted editable regions using Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Copy Bookmarked Text in Jython – Aspose.Words for Java
+title: Copy Bookmarked Text in Jython
+second_title: Aspose.Words for Java
 articleTitle: Copy Bookmarked Text in Jython
 linktitle: Copy Bookmarked Text in Jython
 description: "Copy Bookmarked Text using Jython."

@@ -1,5 +1,6 @@
 ﻿---
-title: Using Aspose.Words for SharePoint in a Workflow - Aspose.Words for SharePoint
+title: Using Aspose.Words for SharePoint in a Workflow
+second_title: Aspose.Words for SharePoint
 articleTitle: Using Aspose.Words for SharePoint in a Workflow
 linktitle: Using Aspose.Words for SharePoint in a Workflow
 description: "Available workflow scenarios with the Aspose.Words for SharePoint."

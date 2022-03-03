@@ -1,5 +1,6 @@
 ---
 title: Using DocumentBuilder to Modify a Document Easily in C++
+second_title: Aspose.Words for C++
 articleTitle: Using DocumentBuilder to Modify a Document Easily
 linktitle: Using DocumentBuilder to Modify a Document Easily
 type: docs

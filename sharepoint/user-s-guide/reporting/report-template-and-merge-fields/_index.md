@@ -1,5 +1,6 @@
 ﻿---
-title: Report Template and Merge Fields - Aspose.Words for SharePoint
+title: Report Template and Merge Fields
+second_title: Aspose.Words for SharePoint
 articleTitle: Report Template and Merge Fields
 linktitle: Report Template and Merge Fields
 description: "How to create report template for the Aspose.Words for SharePoint."

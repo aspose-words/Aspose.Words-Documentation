@@ -1,5 +1,6 @@
 ﻿---
-title: Hello World in PHP – Aspose.Words for Java
+title: Hello World in PHP
+second_title: Aspose.Words for Java
 articleTitle: Hello World in PHP
 linktitle: Hello World in PHP
 description: "Write 'hello' to a Word Document using PHP."

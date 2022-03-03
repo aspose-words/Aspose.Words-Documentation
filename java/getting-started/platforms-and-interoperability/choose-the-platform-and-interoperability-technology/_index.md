@@ -1,5 +1,6 @@
 ﻿---
-title: Choose the Platform and Interoperability Technology – Aspose.Words for Java
+title: Choose the Platform and Interoperability Technology
+second_title: Aspose.Words for Java
 articleTitle: Choose the Platform and Interoperability Technology
 linktitle: Choose the Platform and Interoperability Technology
 description: "Choose the Platform for Aspose.Words."

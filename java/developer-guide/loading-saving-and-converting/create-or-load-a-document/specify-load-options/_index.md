@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Load Options in Java
+second_title: Aspose.Words for Java
 articleTitle: Specify Load Options
 linktitle: Specify Load Options
 description: "Set advanced properties when loading a document using Java to obtain more precise control of the process."

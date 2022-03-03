@@ -1,5 +1,6 @@
 ﻿---
 title: Translate Markdown to Document Object Model (DOM) in C++
+second_title: Aspose.Words for C++
 articleTitle: Translate Markdown to Document Object Model (DOM)
 linktitle: Translate Markdown to Document Object Model (DOM)
 type: docs

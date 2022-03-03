@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on WordprocessingML Export – Aspose.Words for .NET
+title: Table Features Supported on WordprocessingML Export
+second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on WordprocessingML Export
 linktitle: Table Features Supported on WordprocessingML Export
 description: "Export to WordprocessingML format using table saving features in C#."

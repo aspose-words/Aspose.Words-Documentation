@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on WordprocessingML Export – Aspose.Words for Java
+title: Drawing Object Features Supported on WordprocessingML Export
+second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on WordprocessingML Export
 linktitle: Drawing Object Features Supported on WordprocessingML Export
 description: "Export to WordprocessingML format using drawing saving features in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Quick Start in Ruby – Aspose.Words for Java
+title: Quick Start in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Quick Start in Ruby
 linktitle: Quick Start in Ruby
 description: "Quick Start Aspose.Words for Java on Ruby."

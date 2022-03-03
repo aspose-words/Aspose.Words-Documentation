@@ -1,5 +1,6 @@
 ﻿---
 title: Mail Merge and Reporting in C#
+second_title: Aspose.Words for .NET
 articleTitle: Mail Merge and Reporting
 linktitle: Mail Merge and Reporting
 aliases:

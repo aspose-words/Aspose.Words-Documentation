@@ -1,5 +1,6 @@
 ﻿---
 title: How to Remove Page and Section Breaks in C++
+second_title: Aspose.Words for C++
 articleTitle: How to Remove Page and Section Breaks
 linktitle: How to Remove Page and Section Breaks
 description: "Page or section breaks explanation and how to remove it using C++."

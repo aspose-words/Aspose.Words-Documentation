@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on OpenDocument Export – Aspose.Words for .NET
+title: Section Features Supported on OpenDocument Export
+second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on OpenDocument Export
 linktitle: Section Features Supported on OpenDocument Export
 description: "Export to ODT format using section saving features in C#."

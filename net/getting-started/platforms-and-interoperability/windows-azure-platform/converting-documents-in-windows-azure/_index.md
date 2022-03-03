@@ -1,5 +1,6 @@
 ﻿---
-title: Converting Documents in Windows Azure – Aspose.Words for .NET
+title: Converting Documents in Windows Azure
+second_title: Aspose.Words for .NET
 articleTitle: Converting Documents in Windows Azure
 linktitle: Converting Documents in Windows Azure
 type: docs

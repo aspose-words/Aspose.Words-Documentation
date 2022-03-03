@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on Image Export – Aspose.Words for .NET
+title: Paragraph Features Supported on Image Export
+second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on Image Export
 linktitle: Paragraph Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using paragraph saving features in C#."

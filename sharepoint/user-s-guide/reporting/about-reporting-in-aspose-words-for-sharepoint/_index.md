@@ -1,5 +1,6 @@
 ﻿---
-title: About Reporting in Aspose.Words for SharePoint - Aspose.Words for SharePoint
+title: About Reporting in Aspose.Words for SharePoint
+second_title: Aspose.Words for SharePoint
 articleTitle: About Reporting in Aspose.Words for SharePoint
 linktitle: About Reporting in Aspose.Words for SharePoint
 description: "Basic principles of the Reporting in the Aspose.Words for SharePoint."

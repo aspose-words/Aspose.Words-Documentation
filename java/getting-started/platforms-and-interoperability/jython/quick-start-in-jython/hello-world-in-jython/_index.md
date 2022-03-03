@@ -1,5 +1,6 @@
 ﻿---
-title: Hello World in Jython – Aspose.Words for Java
+title: Hello World in Jython
+second_title: Aspose.Words for Java
 articleTitle: Hello World in Jython
 linktitle: Hello World in Jython
 description: "Create Hello World document using Jython."

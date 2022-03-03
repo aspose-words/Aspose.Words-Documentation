@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on XPS Export – Aspose.Words for Java
+title: Numbering Features Supported on XPS Export
+second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on XPS Export
 linktitle: Numbering Features Supported on XPS Export
 description: "Export to XPS format using numbering saving features in Java."
