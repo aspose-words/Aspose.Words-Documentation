@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the IDPF EPUB Document (.EPUB) Format – Aspose.Words for .NET
+title: Save in the IDPF EPUB Document (.EPUB) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the IDPF EPUB Document (.EPUB) Format
 linktitle: Save in the IDPF EPUB Document (.EPUB) Format
 description: "Export to EPUB format using various saving features in C#."

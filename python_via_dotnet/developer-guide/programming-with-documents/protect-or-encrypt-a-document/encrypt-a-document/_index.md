@@ -1,5 +1,6 @@
 ﻿---
 title: Encrypt a Document in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Encrypt a Document
 linktitle: Encrypt a Document
 description: "Encrypt your document using appropriate encryption algorithms for specific document formats in Python."

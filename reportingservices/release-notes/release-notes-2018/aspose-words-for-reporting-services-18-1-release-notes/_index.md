@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Reporting Services 18.1 Release Notes
+second_title: Aspose.Words for Reporting Services
 articleTitle: Aspose.Words for Reporting Services 18.1 Release Notes
 linktitle: Aspose.Words for Reporting Services 18.1 Release Notes
 description: "Aspose.Words for Reporting Services 18.1 Release Notes – the latest updates and fixes."

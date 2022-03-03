@@ -1,5 +1,6 @@
 ﻿---
 title: Working with OfficeMath in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with OfficeMath
 linktitle: Working with OfficeMath
 description: "Create and manage OfficeMath Type Objects in a document using Python."

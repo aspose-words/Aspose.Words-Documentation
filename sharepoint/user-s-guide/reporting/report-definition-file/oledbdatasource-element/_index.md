@@ -1,5 +1,6 @@
 ﻿---
-title: OleDbDataSource Element - Aspose.Words for SharePoint
+title: OleDbDataSource Element
+second_title: Aspose.Words for SharePoint
 articleTitle: OleDbDataSource Element
 linktitle: OleDbDataSource Element
 description: "OleDbDataSource element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

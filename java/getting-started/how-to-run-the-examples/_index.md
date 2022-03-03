@@ -1,5 +1,6 @@
 ---
-title: How to Run the Examples – Aspose.Words for Java
+title: How to Run the Examples
+second_title: Aspose.Words for Java
 articleTitle: How to Run the Examples
 linktitle: How to Run the Examples
 type: docs

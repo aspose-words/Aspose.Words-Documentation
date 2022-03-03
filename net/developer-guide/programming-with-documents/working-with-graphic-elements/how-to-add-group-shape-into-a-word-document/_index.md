@@ -1,5 +1,6 @@
 ﻿---
 title: How to Add Group Shape into a Word Document in C#
+second_title: Aspose.Words for .NET
 articleTitle: How to Add Group Shape into a Word Document
 linktitle: How to Add Group Shape into a Word Document
 description: "Grouping and ungrouping shapes using C#."

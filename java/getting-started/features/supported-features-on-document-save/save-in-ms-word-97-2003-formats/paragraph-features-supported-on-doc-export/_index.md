@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on DOC Export – Aspose.Words for Java
+title: Paragraph Features Supported on DOC Export
+second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on DOC Export
 linktitle: Paragraph Features Supported on DOC Export
 description: "Export to DOC format using paragraph saving features in Java."

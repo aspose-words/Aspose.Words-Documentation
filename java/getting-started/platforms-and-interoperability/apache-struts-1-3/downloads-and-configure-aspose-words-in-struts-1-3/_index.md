@@ -1,5 +1,6 @@
 ﻿---
-title: Downloads and Configure Aspose.Words in Struts 1.3 – Aspose.Words for Java
+title: Downloads and Configure Aspose.Words in Struts 1.3
+second_title: Aspose.Words for Java
 articleTitle: Downloads and Configure Aspose.Words in Struts 1.3
 linktitle: Downloads and Configure Aspose.Words in Struts 1.3
 description: "Downloads and Configure Aspose.Words for Java on Apache Struts."

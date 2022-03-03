@@ -1,5 +1,6 @@
 ﻿---
-title: Rendering Reports Programmatically - Aspose.Words for Reporting Services
+title: Rendering Reports Programmatically
+second_title: Aspose.Words for Reporting Services
 articleTitle: Rendering Reports Programmatically
 linktitle: Rendering Reports Programmatically
 description: "How to render report without report viewer and report manager interfaces using the Aspose.Words for Reporting Services."

@@ -1,5 +1,6 @@
 ﻿---
 title: Updating and Removing a Field in C++
+second_title: Aspose.Words for C++
 articleTitle: Updating and Removing a Field
 linktitle: Updating and Removing a Field
 description: "Fields updating in details using C++."

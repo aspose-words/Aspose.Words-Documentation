@@ -1,5 +1,6 @@
 ﻿---
-title: Duplicate Detection for Dynamics CRM – Aspose.Words for .NET
+title: Duplicate Detection for Dynamics CRM
+second_title: Aspose.Words for .NET
 articleTitle: Duplicate Detection for Dynamics CRM
 linktitle: Duplicate Detection for Dynamics CRM
 description: "The Aspose Duplicate Detection is an open source add-on to be used with Microsoft Dynamics CRM. It allows automatically remove duplicate documents using C#."

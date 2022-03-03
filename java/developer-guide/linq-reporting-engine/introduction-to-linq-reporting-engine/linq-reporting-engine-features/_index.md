@@ -1,5 +1,6 @@
 ﻿---
 title: LINQ Reporting Engine Features in Java
+second_title: Aspose.Words for Java
 articleTitle: LINQ Reporting Engine Features
 linktitle: LINQ Reporting Engine Features
 description: "Learn the powerful LINQ Reporting Engine features to build a report in Java."

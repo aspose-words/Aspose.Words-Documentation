@@ -1,5 +1,6 @@
 ﻿---
-title: Spacing Factor and Scaling Factor - Aspose.Words for Reporting Services
+title: Spacing Factor and Scaling Factor
+second_title: Aspose.Words for Reporting Services
 articleTitle: Spacing Factor and Scaling Factor
 linktitle: Spacing Factor and Scaling Factor
 description: "Spacing Factor and Scaling Factor settings of the Aspose.Words for Reporting Services."

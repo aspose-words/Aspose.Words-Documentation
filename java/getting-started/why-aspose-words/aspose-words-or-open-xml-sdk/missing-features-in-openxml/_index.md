@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words Features Missing in Open XML SDK – Aspose.Words for Java
+title: Aspose.Words Features Missing in Open XML SDK
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Features Missing in Open XML SDK
 linktitle: Aspose.Words Features Missing in Open XML SDK
 description: "Perform some operations with documents faster and more conveniently than Open XML SDK. In addition, there are operations that are not supported by OpenXML."

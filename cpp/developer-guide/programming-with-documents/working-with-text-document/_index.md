@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Text Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Text Document
 linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using C++."

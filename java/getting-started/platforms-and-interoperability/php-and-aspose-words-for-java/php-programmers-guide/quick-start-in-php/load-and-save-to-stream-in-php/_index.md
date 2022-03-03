@@ -1,5 +1,6 @@
 ﻿---
-title: Load And Save To Stream in PHP – Aspose.Words for Java
+title: Load And Save To Stream in PHP
+second_title: Aspose.Words for Java
 articleTitle: Load And Save To Stream in PHP
 linktitle: Load And Save To Stream in PHP
 description: "Load And Save Document To Stream using PHP."

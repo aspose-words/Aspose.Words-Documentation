@@ -1,5 +1,6 @@
 ﻿---
 title: Contents Management in C#
+second_title: Aspose.Words for .NET
 articleTitle: Contents Management
 linktitle: Contents Management
 description: "Introduction to document content management classes in Aspose.Words for .NET."

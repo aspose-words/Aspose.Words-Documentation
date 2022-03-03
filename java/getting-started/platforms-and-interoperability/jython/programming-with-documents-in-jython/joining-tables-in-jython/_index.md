@@ -1,5 +1,6 @@
 ﻿---
-title: Joining Tables in Jython – Aspose.Words for Java
+title: Joining Tables in Jython
+second_title: Aspose.Words for Java
 articleTitle: Joining Tables in Jython
 linktitle: Joining Tables in Jython
 description: "Joining Tables using Jython."

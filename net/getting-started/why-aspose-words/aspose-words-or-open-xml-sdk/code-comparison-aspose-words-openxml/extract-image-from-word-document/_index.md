@@ -1,5 +1,6 @@
 ﻿---
-title: Extract Image from Word Document – Aspose.Words for .NET
+title: Extract Image from Word Document
+second_title: Aspose.Words for .NET
 articleTitle: Extract Image from Word Document
 linktitle: Extract Image from Word Document
 description: "Extract image from a document easily and fast instead of using Open XML SDK in C#."

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Graphic Elements in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Graphic Elements
 linktitle: Working with Graphic Elements
 description: "Work with different graphic objects such as images, shapes, watermarks, and others in a document using Python."

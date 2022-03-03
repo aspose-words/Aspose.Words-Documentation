@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Hyperlinks and HTML in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Hyperlinks and HTML
 linktitle: Working with Hyperlinks and HTML
 description: "How to insert hyperlink or HTML document into your document using Aspose.Word for .NET in C#."

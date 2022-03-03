@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words Document Object Model (DOM) in C++
+second_title: Aspose.Words for C++
 articleTitle: Aspose.Words Document Object Model (DOM)
 linktitle: Aspose.Words Document Object Model (DOM)
 type: docs

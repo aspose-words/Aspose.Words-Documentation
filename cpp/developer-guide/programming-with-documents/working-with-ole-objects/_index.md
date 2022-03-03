@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Ole Objects in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Ole Objects
 linktitle: Working with Ole Objects
 description: "Create and modify OLE embedding in your document using C++."

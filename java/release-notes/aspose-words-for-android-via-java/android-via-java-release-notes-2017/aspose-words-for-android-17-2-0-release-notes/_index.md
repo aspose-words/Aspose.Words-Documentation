@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Android 17.2.0 Release Notes
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Android 17.2.0 Release Notes
 linktitle: Aspose.Words for Android 17.2.0 Release Notes
 description: "Aspose.Words for Android 17.2.0 Release Notes – the latest updates and fixes."

@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on Image Export – Aspose.Words for Java
+title: Numbering Features Supported on Image Export
+second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on Image Export
 linktitle: Numbering Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using numbering saving features in Java."

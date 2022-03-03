@@ -1,5 +1,6 @@
 ﻿---
-title: HTML Export Images Folder - Aspose.Words for Reporting Services
+title: HTML Export Images Folder
+second_title: Aspose.Words for Reporting Services
 articleTitle: HTML Export Images Folder
 linktitle: HTML Export Images Folder
 description: "HTML Export Images Folder setting of the Aspose.Words for Reporting Services."

@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words or NPOI – Aspose.Words for .NET
+title: Aspose.Words or NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words or NPOI
 linktitle: Aspose.Words or NPOI
 description: "Perform a large number of tasks with documents faster and more conveniently than NPOI using C#."

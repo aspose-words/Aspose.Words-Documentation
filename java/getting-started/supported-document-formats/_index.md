@@ -1,5 +1,6 @@
 ---
-title: Supported Document Formats – Aspose.Words for Java
+title: Supported Document Formats
+second_title: Aspose.Words for Java
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 type: docs

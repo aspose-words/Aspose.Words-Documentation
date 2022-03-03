@@ -1,5 +1,6 @@
 ---
 title: Introduction and Creating Tables in C++
+second_title: Aspose.Words for C++
 articleTitle: Introduction and Creating Tables
 linktitle: Introduction and Creating Tables
 description: "Different ways to create tables in your document using C++."

@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on DOC Export – Aspose.Words for .NET
+title: Text Features Supported on DOC Export
+second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on DOC Export
 linktitle: Text Features Supported on DOC Export
 description: "Export to DOC format using text saving features in C#."

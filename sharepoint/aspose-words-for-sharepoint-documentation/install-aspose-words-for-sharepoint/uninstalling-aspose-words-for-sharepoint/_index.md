@@ -1,5 +1,6 @@
 ﻿---
-title: Uninstalling Aspose.Words for SharePoint - Aspose.Words for SharePoint
+title: Uninstalling Aspose.Words for SharePoint
+second_title: Aspose.Words for SharePoint
 articleTitle: Uninstalling Aspose.Words for SharePoint
 linktitle: Uninstalling Aspose.Words for SharePoint
 description: "How to uninstall the Aspose.Words for SharePoint."

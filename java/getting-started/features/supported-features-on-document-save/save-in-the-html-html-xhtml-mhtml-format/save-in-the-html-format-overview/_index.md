@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the HTML Format Overview – Aspose.Words for Java
+title: Save in the HTML Format Overview
+second_title: Aspose.Words for Java
 articleTitle: Save in the HTML Format Overview
 linktitle: Save in the HTML Format Overview
 description: "Export to HTML-based format using different saving features in Java."

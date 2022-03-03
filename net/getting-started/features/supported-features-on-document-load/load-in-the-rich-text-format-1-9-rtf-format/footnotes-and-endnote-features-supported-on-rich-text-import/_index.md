@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on Rich Text Import – Aspose.Words for .NET
+title: Footnotes and Endnote Features Supported on Rich Text Import
+second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on Rich Text Import
 linktitle: Footnotes and Endnote Features Supported on Rich Text Import
 description: "Import RTF document using footnotes and endnote load options in C#."

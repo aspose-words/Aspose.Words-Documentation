@@ -1,5 +1,6 @@
 ﻿---
-title: Using and Configuring CRM Duplicate Detection – Aspose.Words for .NET
+title: Using and Configuring CRM Duplicate Detection
+second_title: Aspose.Words for .NET
 articleTitle: Using and Configuring CRM Duplicate Detection
 linktitle: Using and Configuring CRM Duplicate Detection
 description: "How to use and configure Aspose Duplicate Detection add-on using C#."

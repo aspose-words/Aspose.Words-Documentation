@@ -1,5 +1,6 @@
 ﻿---
-title: Extract Content Based On Styles in PHP – Aspose.Words for Java
+title: Extract Content Based On Styles in PHP
+second_title: Aspose.Words for Java
 articleTitle: Extract Content Based On Styles in PHP
 linktitle: Extract Content Based On Styles in PHP
 description: "Extract Content Based On Styles using PHP."

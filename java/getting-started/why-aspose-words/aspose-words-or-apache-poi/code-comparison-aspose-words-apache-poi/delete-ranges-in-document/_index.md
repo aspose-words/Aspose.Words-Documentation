@@ -1,5 +1,6 @@
 ﻿---
-title: Delete Ranges in Document – Aspose.Words for Java
+title: Delete Ranges in Document
+second_title: Aspose.Words for Java
 articleTitle: Delete Ranges in Document
 linktitle: Delete Ranges in Document
 description: "Delete ranges from a document easily and fast instead of using Apache POI."

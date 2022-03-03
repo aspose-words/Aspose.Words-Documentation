@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on FlatOPC Import – Aspose.Words for Java
+title: Document Features Supported on FlatOPC Import
+second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on FlatOPC Import
 linktitle: Document Features Supported on FlatOPC Import
 description: "Import FlatOPC using document load options in Java."

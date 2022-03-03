@@ -1,5 +1,6 @@
 ﻿---
-title: Add Watermark in Document – Aspose.Words for Java
+title: Add Watermark in Document
+second_title: Aspose.Words for Java
 articleTitle: Add Watermark in Document
 linktitle: Add Watermark in Document
 description: "Add a watermark into a document easily and fast instead of using docx4j."

@@ -1,5 +1,6 @@
 ﻿---
-title: Feature Overview - Aspose.Words for JasperReports
+title: Feature Overview
+second_title: Aspose.Words for JasperReports
 articleTitle: Feature Overview
 linktitle: Feature Overview
 description: "This section provides a detailed description of the Aspose.Words for JasperReports features."

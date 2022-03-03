@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on DOC Export – Aspose.Words for .NET
+title: Annotation Features Supported on DOC Export
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on DOC Export
 linktitle: Annotation Features Supported on DOC Export
 description: "Export to DOC format using annotation saving features in C#."

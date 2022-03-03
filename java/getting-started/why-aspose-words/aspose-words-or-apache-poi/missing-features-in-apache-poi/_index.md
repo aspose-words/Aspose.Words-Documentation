@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words Features Missing in Apache POI – Aspose.Words for Java
+title: Aspose.Words Features Missing in Apache POI
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Features Missing in Apache POI
 linktitle: Aspose.Words Features Missing in Apache POI
 description: "Perform some operations with documents faster and more conveniently than Apache POI. In addition, there are operations that are not supported by Apache POI."

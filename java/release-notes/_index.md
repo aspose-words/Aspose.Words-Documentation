@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes – Aspose.Words for Java
+title: Release Notes
+second_title: Aspose.Words for Java
 articleTitle: Release Notes
 linktitle: Release Notes
 type: docs

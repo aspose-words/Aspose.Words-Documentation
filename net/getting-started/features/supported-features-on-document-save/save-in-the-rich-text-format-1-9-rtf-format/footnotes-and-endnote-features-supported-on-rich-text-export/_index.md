@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on Rich Text Export – Aspose.Words for .NET
+title: Footnotes and Endnote Features Supported on Rich Text Export
+second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on Rich Text Export
 linktitle: Footnotes and Endnote Features Supported on Rich Text Export
 description: "Export to RTF format using footnote and endnote saving features in C#."

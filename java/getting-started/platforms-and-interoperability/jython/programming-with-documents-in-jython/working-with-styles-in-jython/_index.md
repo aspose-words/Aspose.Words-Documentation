@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Styles in Jython – Aspose.Words for Java
+title: Working With Styles in Jython
+second_title: Aspose.Words for Java
 articleTitle: Working With Styles in Jython
 linktitle: Working With Styles in Jython
 description: "Working With Styles in Documents using Jython."

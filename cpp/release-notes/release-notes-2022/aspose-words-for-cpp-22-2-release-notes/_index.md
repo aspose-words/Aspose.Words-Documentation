@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for C++ 22.2 Release Notes
+second_title: Aspose.Words for C++
 description: "Aspose.Words for C++ 22.2 Release Notes – the latest updates and fixes."
 type: docs
 weight: 65

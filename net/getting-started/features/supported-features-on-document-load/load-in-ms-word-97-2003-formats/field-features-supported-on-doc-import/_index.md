@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on DOC Import – Aspose.Words for .NET
+title: Field Features Supported on DOC Import
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on DOC Import
 linktitle: Field Features Supported on DOC Import
 description: "Import DOC document using field load options in C#."

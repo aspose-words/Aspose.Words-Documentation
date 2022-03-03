@@ -1,5 +1,6 @@
 ﻿---
-title: System Requirements - Aspose.Words for JasperReports
+title: System Requirements
+second_title: Aspose.Words for JasperReports
 articleTitle: System Requirements
 linktitle: System Requirements
 description: "System Requirements of Aspose.Words for JasperReports."

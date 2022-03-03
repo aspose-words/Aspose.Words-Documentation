@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on DOC Import – Aspose.Words for Java
+title: Footnotes and Endnote Features Supported on DOC Import
+second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on DOC Import
 linktitle: Footnotes and Endnote Features Supported on DOC Import
 description: "Import DOC document using footnote and endnote load options in Java."

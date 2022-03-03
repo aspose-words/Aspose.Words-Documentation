@@ -1,5 +1,6 @@
 ﻿---
-title: Remove Breaks in Python – Aspose.Words for Java
+title: Remove Breaks in Python
+second_title: Aspose.Words for Java
 articleTitle: Remove Breaks in Python
 linktitle: Remove Breaks in Python
 description: "Remove Breaks using Python."

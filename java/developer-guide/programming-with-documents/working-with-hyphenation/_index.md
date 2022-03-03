@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Hyphenation in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Hyphenation
 linktitle: Working with Hyphenation
 description: "Use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries using Java."

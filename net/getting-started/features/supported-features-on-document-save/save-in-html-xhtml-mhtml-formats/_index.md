@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the HTML (.HTML, .XHTML, .MHTML) Format – Aspose.Words for .NET
+title: Save in the HTML (.HTML, .XHTML, .MHTML) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
 description: "Export to HTML-based format using various saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on HTML Import – Aspose.Words for .NET
+title: Footnotes and Endnote Features Supported on HTML Import
+second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on HTML Import
 linktitle: Footnotes and Endnote Features Supported on HTML Import
 description: "Import HTML-based document using footnote and endnote load options in C#."

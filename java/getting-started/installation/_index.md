@@ -1,5 +1,6 @@
 ---
-title: Installation – Aspose.Words for Java
+title: Installation
+second_title: Aspose.Words for Java
 articleTitle: Installation
 linktitle: Installation
 description: "Install Aspose.Words for Java from Maven repository. Define the Aspose.Words for Java dependency in your pom.xml"

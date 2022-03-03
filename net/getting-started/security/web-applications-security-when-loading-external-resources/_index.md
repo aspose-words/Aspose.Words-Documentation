@@ -1,5 +1,6 @@
 ﻿---
-title: Web Applications Security When Loading External Resources – Aspose.Words for .NET
+title: Web Applications Security When Loading External Resources
+second_title: Aspose.Words for .NET
 articleTitle: Web Applications Security When Loading External Resources
 linktitle: Web Applications Security When Loading External Resources
 type: docs

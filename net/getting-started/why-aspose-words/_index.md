@@ -1,5 +1,6 @@
 ---
 title: Aspose.Words for .NET or Other Solutions
+second_title: Aspose.Words for .NET
 articleTitle: Why Aspose.Words
 linktitle: Why Aspose.Words
 type: docs

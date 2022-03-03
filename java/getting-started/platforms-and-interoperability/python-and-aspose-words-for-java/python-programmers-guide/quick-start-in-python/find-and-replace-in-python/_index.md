@@ -1,5 +1,6 @@
 ﻿---
-title: Find And Replace in Python – Aspose.Words for Java
+title: Find And Replace in Python
+second_title: Aspose.Words for Java
 articleTitle: Find And Replace in Python
 linktitle: Find And Replace in Python
 description: "Find And Replace inside MS Word Document using Python."

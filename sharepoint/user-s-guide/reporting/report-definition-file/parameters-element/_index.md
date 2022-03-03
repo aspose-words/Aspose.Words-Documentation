@@ -1,5 +1,6 @@
 ﻿---
-title: Parameters Element - Aspose.Words for SharePoint
+title: Parameters Element
+second_title: Aspose.Words for SharePoint
 articleTitle: Parameters Element
 linktitle: Parameters Element
 description: "Parameters element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

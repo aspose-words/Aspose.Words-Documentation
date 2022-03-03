@@ -1,5 +1,6 @@
 ﻿---
 title: Working with TableStyle in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with TableStyle
 linktitle: Working with TableStyle
 description: "Manage table style in a document using Python."

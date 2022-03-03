@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on PDF Export – Aspose.Words for Java
+title: Footnotes and Endnote Features Supported on PDF Export
+second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on PDF Export
 linktitle: Footnotes and Endnote Features Supported on PDF Export
 description: "Export to PDF format using footnote and endnote saving features in Java."

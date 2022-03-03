@@ -1,5 +1,6 @@
 ﻿---
-title: FAQ – Aspose.Words for Java
+title: FAQ
+second_title: Aspose.Words for Java
 articleTitle: FAQ
 linktitle: FAQ
 type: docs

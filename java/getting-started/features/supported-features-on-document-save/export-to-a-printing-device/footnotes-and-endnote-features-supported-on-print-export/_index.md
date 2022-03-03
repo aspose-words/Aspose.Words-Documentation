@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on Print Export – Aspose.Words for Java
+title: Footnotes and Endnote Features Supported on Print Export
+second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on Print Export
 linktitle: Footnotes and Endnote Features Supported on Print Export
 description: "Work with footnote and endnote features when sending a document to printer."

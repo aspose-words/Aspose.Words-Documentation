@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the OpenDocument Text (.ODT, .OTT) Format – Aspose.Words for Java
+title: Save in the OpenDocument Text (.ODT, .OTT) Format
+second_title: Aspose.Words for Java
 articleTitle: Save in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Save in the OpenDocument Text (.ODT, .OTT) Format
 description: "Export to ODT format using various saving features in Java."

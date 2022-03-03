@@ -1,5 +1,6 @@
 ﻿---
-title: Overlapping Items - Aspose.Words for Reporting Services
+title: Overlapping Items
+second_title: Aspose.Words for Reporting Services
 articleTitle: Overlapping Items
 linktitle: Overlapping Items
 description: "Overlapping Items setting of the Aspose.Words for Reporting Services."

@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on Rich Text Export – Aspose.Words for Java
+title: Annotation Features Supported on Rich Text Export
+second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on Rich Text Export
 linktitle: Annotation Features Supported on Rich Text Export
 description: "Export to RTF format using annotation saving features in Java."

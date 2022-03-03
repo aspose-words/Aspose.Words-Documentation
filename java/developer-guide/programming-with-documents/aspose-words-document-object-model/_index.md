@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words Document Object Model (DOM) in Java
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Document Object Model (DOM)
 linktitle: Aspose.Words Document Object Model (DOM)
 type: docs

@@ -1,5 +1,6 @@
 ﻿---
-title: Programming With Documents in PHP – Aspose.Words for Java
+title: Programming With Documents in PHP
+second_title: Aspose.Words for Java
 articleTitle: Programming With Documents in PHP
 linktitle: Programming With Documents in PHP
 description: "Programming Word Documents using PHP."

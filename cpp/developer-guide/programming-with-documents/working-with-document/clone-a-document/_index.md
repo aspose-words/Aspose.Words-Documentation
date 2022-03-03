@@ -1,5 +1,6 @@
 ﻿---
 title: Clone a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Clone a Document
 linktitle: Clone a Document
 type: docs

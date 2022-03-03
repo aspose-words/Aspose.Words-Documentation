@@ -1,5 +1,6 @@
 ﻿---
 title: Setting Text Color Dynamically in C#
+second_title: Aspose.Words for .NET
 articleTitle: Setting Text Color Dynamically
 linktitle: Setting Text Color Dynamically
 description: "Set font text color for document contents dynamically when building a report using C#."

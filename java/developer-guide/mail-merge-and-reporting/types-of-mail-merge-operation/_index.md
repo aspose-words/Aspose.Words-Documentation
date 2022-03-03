@@ -1,5 +1,6 @@
 ﻿---
 title: Types of Mail Merge Operation in Java
+second_title: Aspose.Words for Java
 articleTitle: Types of Mail Merge Operation
 linktitle: Types of Mail Merge Operation
 aliases:

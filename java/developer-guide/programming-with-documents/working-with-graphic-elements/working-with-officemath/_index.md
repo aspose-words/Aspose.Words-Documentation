@@ -1,5 +1,6 @@
 ---
 title: Working with OfficeMath in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with OfficeMath
 linktitle: Working with OfficeMath
 type: docs

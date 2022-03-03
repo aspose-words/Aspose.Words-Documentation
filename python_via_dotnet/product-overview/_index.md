@@ -1,5 +1,6 @@
 ﻿---
-title: Product Overview – Aspose.Words for Python via .NET
+title: Product Overview
+second_title: Aspose.Words for Python via .NET
 articleTitle: Product Overview
 linktitle: Product Overview
 description: "Aspose.Words for Python via .NET is a software library designed to create, modify, convert, render, and print documents without relying on any other software."

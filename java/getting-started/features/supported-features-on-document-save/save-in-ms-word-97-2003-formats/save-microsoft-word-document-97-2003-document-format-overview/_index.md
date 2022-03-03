@@ -1,5 +1,6 @@
 ﻿---
-title: Save Microsoft Word Document 97-2003 Document Format Overview – Aspose.Words for Java
+title: Save Microsoft Word Document 97-2003 Document Format Overview
+second_title: Aspose.Words for Java
 articleTitle: Save Microsoft Word Document 97-2003 Document Format Overview
 linktitle: Save Microsoft Word Document 97-2003 Document Format Overview
 description: "Export to DOC format using different saving features in Java."

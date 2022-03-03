@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes – Aspose.Words for Python via .NET
+title: Release Notes
+second_title: Aspose.Words for Python via .NET
 articleTitle: Release Notes
 linktitle: Release Notes
 type: docs

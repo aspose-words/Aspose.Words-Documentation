@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words .NET for DNN – Aspose.Words for .NET
+title: Aspose.Words .NET for DNN
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words .NET for DNN
 linktitle: Aspose.Words .NET for DNN
 description: "Integrating Aspose.Words for .NET with DNN content management systems using C#."

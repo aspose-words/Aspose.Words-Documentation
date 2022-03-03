@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for .NET 20.3 Release Notes
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET 20.3 Release Notes
 linktitle: Aspose.Words for .NET 20.3 Release Notes
 description: "Aspose.Words for .NET 20.3 Release Notes – the latest updates and fixes."
@@ -340,6 +341,7 @@ public X509CertificateSystem Certificate
 Please use the following property instead: [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder).[Certificate](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/properties/certificate)
 
 -----
+
 The following obsolete method of [CertificateHolder](https://apireference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder) class was removed:
 
 **.NET**

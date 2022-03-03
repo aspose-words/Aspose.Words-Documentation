@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Comments in Jython – Aspose.Words for Java
+title: Working With Comments in Jython
+second_title: Aspose.Words for Java
 articleTitle: Working With Comments in Jython
 linktitle: Working With Comments in Jython
 description: "Working with comments using Jython."

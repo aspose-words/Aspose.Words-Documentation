@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Layout Options in Java
+second_title: Aspose.Words for Java
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
 description: "Create output documents with various layouts, depending on the parameters specified in the Document using Java."

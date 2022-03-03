@@ -1,5 +1,6 @@
 ---
-title: Work with Word Documents in Qt – Aspose.Words for С++
+title: Work with Word Documents in Qt
+second_title: Aspose.Words for C++
 articleTitle: Work with Word Documents in Qt
 linktitle: Work with Word Documents in Qt
 type: docs

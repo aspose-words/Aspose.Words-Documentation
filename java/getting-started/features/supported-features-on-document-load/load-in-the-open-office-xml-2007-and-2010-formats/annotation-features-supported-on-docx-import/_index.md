@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on DOCX Import – Aspose.Words for Java
+title: Annotation Features Supported on DOCX Import
+second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on DOCX Import
 linktitle: Annotation Features Supported on DOCX Import
 description: "Import OOXML document using annotation load options in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on Rich Text Import – Aspose.Words for Java
+title: Paragraph Features Supported on Rich Text Import
+second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on Rich Text Import
 linktitle: Paragraph Features Supported on Rich Text Import
 description: "Import RTF document using paragraph load options in Java."

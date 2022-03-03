@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Markup Features Supported on DOC Export – Aspose.Words for .NET
+title: Custom Markup Features Supported on DOC Export
+second_title: Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on DOC Export
 linktitle: Custom Markup Features Supported on DOC Export
 description: "Export to DOC format using custom markup saving features in C#."

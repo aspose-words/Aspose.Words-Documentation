@@ -1,5 +1,6 @@
 ﻿---
 title: Outputting Sequential Data in C#
+second_title: Aspose.Words for .NET
 articleTitle: Outputting Sequential Data
 linktitle: Outputting Sequential Data
 description: "Output a sequence of elements with the same type when building a report using C#."

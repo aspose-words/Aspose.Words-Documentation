@@ -1,5 +1,6 @@
 ﻿---
-title: Get Document Properties – Aspose.Words for Java
+title: Get Document Properties
+second_title: Aspose.Words for Java
 articleTitle: Get Document Properties
 linktitle: Get Document Properties
 description: "Get document properties easily and fast instead of using Apache POI."

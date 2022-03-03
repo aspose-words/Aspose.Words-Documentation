@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on WordprocessingML Export – Aspose.Words for .NET
+title: Footnotes and Endnote Features Supported on WordprocessingML Export
+second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on WordprocessingML Export
 linktitle: Footnotes and Endnote Features Supported on WordprocessingML Export
 description: "Export to WordprocessingML format using footnote and endnote saving features in C#."

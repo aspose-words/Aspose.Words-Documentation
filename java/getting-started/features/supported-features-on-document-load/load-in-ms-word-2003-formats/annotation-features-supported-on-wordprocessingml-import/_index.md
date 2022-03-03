@@ -1,8 +1,9 @@
 ﻿---
-title: Annotation Features Supported on WordprocessingML Import – Aspose.Words for Java
+title: Annotation Features Supported on WordprocessingML Import
+second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on WordprocessingML Import
 linktitle: Annotation Features Supported on WordprocessingML Import
-description: "Import WordprocessingML document using annotation load options using Java."
+description: "Import WordprocessingML document using annotation load options in Java."
 type: docs
 weight: 10
 url: /java/annotation-features-supported-on-wordprocessingml-import/

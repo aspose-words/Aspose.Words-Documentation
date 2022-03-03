@@ -1,5 +1,6 @@
 ﻿---
 title: LINQ Reporting Engine in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: LINQ Reporting Engine
 linktitle: LINQ Reporting Engine
 description: "Create reports from template documents using the LINQ Reporting Engine in Python. Learn more about the supported features in Python."

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Table of Contents in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Table of Contents
 linktitle: Working with Table of Contents
 description: "Insert and manage 'Table of Contents' in a document using Python."

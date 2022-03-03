@@ -1,5 +1,6 @@
 ﻿---
-title: Report Definition File - Aspose.Words for SharePoint
+title: Report Definition File
+second_title: Aspose.Words for SharePoint
 articleTitle: Report Definition File
 linktitle: Report Definition File
 description: "Details of report definition file structure which used while configuring Aspose.Words for SharePoint reports."

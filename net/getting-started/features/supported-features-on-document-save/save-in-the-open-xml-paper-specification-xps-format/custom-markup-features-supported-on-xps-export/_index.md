@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Markup Features Supported on XPS Export – Aspose.Words for .NET
+title: Custom Markup Features Supported on XPS Export
+second_title: Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on XPS Export
 linktitle: Custom Markup Features Supported on XPS Export
 description: "Export to XPS format using custom markup saving features in C#."

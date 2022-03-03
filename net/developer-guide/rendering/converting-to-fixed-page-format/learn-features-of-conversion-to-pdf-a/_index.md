@@ -1,5 +1,6 @@
 ﻿---
 title: Learn Features of Conversion to PDF/A and PDF/UA in C#
+second_title: Aspose.Words for .NET
 articleTitle: Learn Features of Conversion to PDF/A and PDF/UA
 linktitle: Learn Features of Conversion to PDF/A and PDF/UA
 description: "Aspose.Words for .NET allows users to convert to PDF/A-1, PDF/A-2, and PDF/UA using C#. There are a few problems when converting to PDF/A documents, and Aspose.Words for .NET solves them."

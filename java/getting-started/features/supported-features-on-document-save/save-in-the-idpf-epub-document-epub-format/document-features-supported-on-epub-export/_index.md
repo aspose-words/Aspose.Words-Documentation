@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on EPUB Export – Aspose.Words for Java
+title: Document Features Supported on EPUB Export
+second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on EPUB Export
 linktitle: Document Features Supported on EPUB Export
 description: "Export to EPUB format using document saving features in Java."

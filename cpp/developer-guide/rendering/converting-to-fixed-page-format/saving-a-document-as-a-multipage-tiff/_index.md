@@ -1,5 +1,6 @@
 ﻿---
 title: Saving a Document as a Multipage TIFF in C++
+second_title: Aspose.Words for C++
 articleTitle: Saving a Document as a Multipage TIFF
 linktitle: Saving a Document as a Multipage TIFF
 description: "Convert a document to a multi-page TIFF using C++. To determine how the document is displayed on the image you need to specify additional options: resolution, number of pages, image binarization, etc."

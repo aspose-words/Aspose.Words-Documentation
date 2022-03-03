@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on DOCX Import – Aspose.Words for .NET
+title: Style Features Supported on DOCX Import
+second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on DOCX Import
 linktitle: Style Features Supported on DOCX Import
 description: "Import OOXML document using style load options in C#."

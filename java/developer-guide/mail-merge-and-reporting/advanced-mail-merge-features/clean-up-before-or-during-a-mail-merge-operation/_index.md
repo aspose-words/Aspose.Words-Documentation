@@ -1,5 +1,6 @@
 ﻿---
 title: Clean Up Before or During a Mail Merge Operation in Java
+second_title: Aspose.Words for Java
 articleTitle: Clean Up Before or During a Mail Merge Operation
 linktitle: Clean Up Before or During a Mail Merge Operation
 aliases:

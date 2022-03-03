@@ -1,5 +1,6 @@
 ﻿---
-title: Split Tables in Jython – Aspose.Words for Java
+title: Split Tables in Jython
+second_title: Aspose.Words for Java
 articleTitle: Split Tables in Jython
 linktitle: Split Tables in Jython
 description: "Split Tables using Jython."

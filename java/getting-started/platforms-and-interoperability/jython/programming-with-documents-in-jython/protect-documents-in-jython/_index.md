@@ -1,5 +1,6 @@
 ﻿---
-title: Protect Documents in Jython – Aspose.Words for Java
+title: Protect Documents in Jython
+second_title: Aspose.Words for Java
 articleTitle: Protect Documents in Jython
 linktitle: Protect Documents in Jython
 description: "Protect Documents using Jython."

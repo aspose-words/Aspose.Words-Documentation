@@ -1,5 +1,6 @@
 ﻿---
-title: Remove Field in Jython – Aspose.Words for Java
+title: Remove Field in Jython
+second_title: Aspose.Words for Java
 articleTitle: Remove Field in Jython
 linktitle: Remove Field in Jython
 description: "Remove Field using Jython."

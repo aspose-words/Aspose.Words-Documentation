@@ -1,5 +1,6 @@
 ﻿---
-title: Load And Save To Disk in Python – Aspose.Words for Java
+title: Load And Save To Disk in Python
+second_title: Aspose.Words for Java
 articleTitle: Load And Save To Disk in Python
 linktitle: Load And Save To Disk in Python
 description: "Load And Save Document To Disk using Python."

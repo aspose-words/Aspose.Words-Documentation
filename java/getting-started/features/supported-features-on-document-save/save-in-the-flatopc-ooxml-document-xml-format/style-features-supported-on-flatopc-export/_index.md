@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on FlatOPC Export – Aspose.Words for Java
+title: Style Features Supported on FlatOPC Export
+second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on FlatOPC Export
 linktitle: Style Features Supported on FlatOPC Export
 description: "Export to FlatOPC – XML format using style saving features in Java."

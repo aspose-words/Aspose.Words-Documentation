@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Microsoft Word Document 97-2003 Document Format Overview – Aspose.Words for Java
+title: Load in the Microsoft Word Document 97-2003 Document Format Overview
+second_title: Aspose.Words for Java
 articleTitle: Load in the Microsoft Word Document 97-2003 Document Format Overview
 linktitle: Load in the Microsoft Word Document 97-2003 Document Format Overview
 description: "Import DOC document using various load options in Java."

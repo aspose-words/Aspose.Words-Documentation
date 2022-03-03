@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on DOC Import – Aspose.Words for .NET
+title: Footnotes and Endnote Features Supported on DOC Import
+second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on DOC Import
 linktitle: Footnotes and Endnote Features Supported on DOC Import
 description: "Import DOC document using footnote and endnote load options in C#."

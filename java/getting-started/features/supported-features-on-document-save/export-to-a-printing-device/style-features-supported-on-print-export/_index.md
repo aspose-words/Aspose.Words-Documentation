@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on Print Export – Aspose.Words for Java
+title: Style Features Supported on Print Export
+second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on Print Export
 linktitle: Style Features Supported on Print Export
 description: "Work with style features when sending a document to printer."

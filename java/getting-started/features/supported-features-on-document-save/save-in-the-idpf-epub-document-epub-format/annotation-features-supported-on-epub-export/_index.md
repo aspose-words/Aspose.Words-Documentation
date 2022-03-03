@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on EPUB Export – Aspose.Words for Java
+title: Annotation Features Supported on EPUB Export
+second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on EPUB Export
 linktitle: Annotation Features Supported on EPUB Export
 description: "Export to EPUB format using annotation saving features in Java."

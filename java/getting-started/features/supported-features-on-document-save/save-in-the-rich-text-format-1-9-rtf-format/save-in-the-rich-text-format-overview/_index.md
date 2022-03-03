@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Rich Text Format Overview – Aspose.Words for Java
+title: Save in the Rich Text Format Overview
+second_title: Aspose.Words for Java
 articleTitle: Save in the Rich Text Format Overview
 linktitle: Save in the Rich Text Format Overview
 description: "Export to RTF format using different saving features in Java."

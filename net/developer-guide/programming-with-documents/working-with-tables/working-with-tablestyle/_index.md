@@ -1,5 +1,6 @@
 ﻿---
 title: Working with TableStyle in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with TableStyle
 linktitle: Working with TableStyle
 description: "Introduction to advanced table formatting, Table styles, using C#."

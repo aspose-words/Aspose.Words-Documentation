@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Convert a Document
 linktitle: Convert a Document
 type: docs

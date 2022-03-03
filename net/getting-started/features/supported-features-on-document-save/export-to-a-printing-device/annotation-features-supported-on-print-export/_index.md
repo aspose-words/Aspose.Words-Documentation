@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on Print Export – Aspose.Words for .NET
+title: Annotation Features Supported on Print Export
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on Print Export
 linktitle: Annotation Features Supported on Print Export
 description: "Work with annotation features when sending a document to printer using C#."

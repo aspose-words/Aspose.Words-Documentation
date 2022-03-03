@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on DOCX Export – Aspose.Words for Java
+title: Document Features Supported on DOCX Export
+second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on DOCX Export
 linktitle: Document Features Supported on DOCX Export
 description: "Export to OOXML format using document saving features in Java."

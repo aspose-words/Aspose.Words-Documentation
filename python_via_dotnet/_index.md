@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Python via .NET
 articleTitle: Aspose.Words for Python via .NET
 linktitle: Aspose.Words for Python via .NET

@@ -1,5 +1,6 @@
 ﻿---
-title: Report Element - Aspose.Words for SharePoint
+title: Report Element
+second_title: Aspose.Words for SharePoint
 articleTitle: Report Element
 linktitle: Report Element
 description: "Report element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

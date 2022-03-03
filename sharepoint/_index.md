@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint
 linktitle: Aspose.Words for SharePoint

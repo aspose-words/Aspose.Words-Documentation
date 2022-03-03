@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on WordprocessingML Export – Aspose.Words for .NET
+title: Style Features Supported on WordprocessingML Export
+second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on WordprocessingML Export
 linktitle: Style Features Supported on WordprocessingML Export
 description: "Export to WordprocessingML format using style saving features in C#."

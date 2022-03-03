@@ -1,5 +1,6 @@
 ﻿---
 title: Enable OpenType Features in C#
+second_title: Aspose.Words for .NET
 articleTitle: Enable OpenType Features
 linktitle: Enable OpenType Features
 description: "Advanced typography features using C#."

@@ -1,5 +1,6 @@
 ﻿---
 title: Logical Levels of Nodes in a Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Logical Levels of Nodes in a Document
 linktitle: Logical Levels of Nodes in a Document
 type: docs

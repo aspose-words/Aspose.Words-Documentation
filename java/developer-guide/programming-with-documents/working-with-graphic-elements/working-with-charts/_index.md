@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Charts in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Charts
 linktitle: Working with Charts
 description: "Introduction to Chart feature, how to create and manipulate charts using Java."

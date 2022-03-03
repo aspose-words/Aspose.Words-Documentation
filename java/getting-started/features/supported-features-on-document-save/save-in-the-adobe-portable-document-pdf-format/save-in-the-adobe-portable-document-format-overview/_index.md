@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Adobe Portable Document Format Overview – Aspose.Words for Java
+title: Save in the Adobe Portable Document Format Overview
+second_title: Aspose.Words for Java
 articleTitle: Save in the Adobe Portable Document Format Overview
 linktitle: Save in the Adobe Portable Document Format Overview
 description: "Export to PDF format using different saving features in Java."

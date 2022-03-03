@@ -1,5 +1,6 @@
 ﻿---
 title: LINQ Reporting Engine API in C#
+second_title: Aspose.Words for .NET
 articleTitle: LINQ Reporting Engine API
 linktitle: LINQ Reporting Engine API
 description: "Learn LINQ Reporting Engine API to build a report in C#."

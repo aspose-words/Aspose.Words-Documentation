@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words for CPP 19.10 Release Notes – Aspose.Words for С++
+title: Aspose.Words for CPP 19.10 Release Notes
+second_title: Aspose.Words for C++
 articleTitle: Aspose.Words for CPP 19.10 Release Notes
 linktitle: Aspose.Words for CPP 19.10 Release Notes
 description: "Aspose.Words for CPP 19.10 Release Notes – the latest updates and fixes."

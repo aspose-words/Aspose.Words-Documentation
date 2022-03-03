@@ -1,5 +1,6 @@
 ﻿---
-title: Protect Documents and Parts of Documents – Aspose.Words for .NET
+title: Protect Documents and Parts of Documents
+second_title: Aspose.Words for .NET
 articleTitle: Protect Documents and Parts of Documents
 linktitle: Protect Documents and Parts of Documents
 description: "Protect a document or parts of a document easily and fast instead of using VSTO in C#."

@@ -1,5 +1,6 @@
 ﻿---
 title: Convert a Document to HTML, MHTML or EPUB in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Convert a Document to HTML, MHTML or EPUB
 linktitle: Convert a Document to HTML, MHTML or EPUB
 description: "Convert a document from almost any format to HTML or MHTML, as well as to EPUB format using Python. You can also specify save options for managing the output document."

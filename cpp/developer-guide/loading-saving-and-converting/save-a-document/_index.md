@@ -1,5 +1,6 @@
 ﻿---
 title: Save a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Save a Document
 linktitle: Save a Document
 type: docs

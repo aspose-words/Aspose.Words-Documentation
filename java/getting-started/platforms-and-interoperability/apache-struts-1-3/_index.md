@@ -1,5 +1,6 @@
 ﻿---
-title: Apache Struts 1.3 – Aspose.Words for Java
+title: Apache Struts 1.3
+second_title: Aspose.Words for Java
 articleTitle: Apache Struts 1.3
 linktitle: Apache Struts 1.3
 description: "Using Aspose.Words for Java on Apache Struts."

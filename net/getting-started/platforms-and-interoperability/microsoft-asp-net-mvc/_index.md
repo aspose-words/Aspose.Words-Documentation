@@ -1,5 +1,6 @@
 ﻿---
-title: Microsoft ASP.NET MVC – Aspose.Words for .NET
+title: Microsoft ASP.NET MVC
+second_title: Aspose.Words for .NET
 articleTitle: Microsoft ASP.NET MVC
 linktitle: Microsoft ASP.NET MVC
 description: "How to use Aspose.Words with Microsoft ASP.NET MVC using C#."

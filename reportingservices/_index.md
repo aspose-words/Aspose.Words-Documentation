@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Reporting Services
 articleTitle: Aspose.Words for Reporting Services
 linktitle: Aspose.Words for Reporting Services

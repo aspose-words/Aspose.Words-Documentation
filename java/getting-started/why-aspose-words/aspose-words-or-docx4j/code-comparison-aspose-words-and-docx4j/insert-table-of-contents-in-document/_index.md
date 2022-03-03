@@ -1,5 +1,6 @@
 ﻿---
-title: Insert Table of Contents in Document – Aspose.Words for Java
+title: Insert Table of Contents in Document
+second_title: Aspose.Words for Java
 articleTitle: Insert Table of Contents in Document
 linktitle: Insert Table of Contents in Document
 description: "Insert table off contents (TOC) into a document easily and fast instead of using docx4j."

@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on HTML Import – Aspose.Words for .NET
+title: Field Features Supported on HTML Import
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on HTML Import
 linktitle: Field Features Supported on HTML Import
 description: "Import HTML-based document using field load options in C#."

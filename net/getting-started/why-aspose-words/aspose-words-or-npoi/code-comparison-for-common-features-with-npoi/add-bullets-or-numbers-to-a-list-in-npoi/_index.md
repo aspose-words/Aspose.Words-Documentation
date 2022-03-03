@@ -1,5 +1,6 @@
 ﻿---
-title: Add bullets or numbers to a list in NPOI – Aspose.Words for .NET
+title: Add bullets or numbers to a list in NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Add bullets or numbers to a list in NPOI
 linktitle: Add bullets or numbers to a list in NPOI
 description: "Add bullets or numbers to a list within a document easily and fast instead of using NPOI in C#."

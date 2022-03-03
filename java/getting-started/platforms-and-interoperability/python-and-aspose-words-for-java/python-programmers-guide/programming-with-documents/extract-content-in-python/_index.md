@@ -1,5 +1,6 @@
 ﻿---
-title: Extract Content in Python – Aspose.Words for Java
+title: Extract Content in Python
+second_title: Aspose.Words for Java
 articleTitle: Extract Content in Python
 linktitle: Extract Content in Python
 description: "Extract Document's Content using Python."

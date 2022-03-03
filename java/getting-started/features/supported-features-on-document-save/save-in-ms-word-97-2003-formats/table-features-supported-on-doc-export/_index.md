@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on DOC Export – Aspose.Words for Java
+title: Table Features Supported on DOC Export
+second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on DOC Export
 linktitle: Table Features Supported on DOC Export
 description: "Export to DOC format using table saving features in Java."

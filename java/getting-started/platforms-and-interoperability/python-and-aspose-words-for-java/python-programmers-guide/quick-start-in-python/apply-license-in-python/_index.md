@@ -1,5 +1,6 @@
 ﻿---
-title: Apply License in Python – Aspose.Words for Java
+title: Apply License in Python
+second_title: Aspose.Words for Java
 articleTitle: Apply License in Python
 linktitle: Apply License in Python
 description: "Python: Apply License to Aspose.Words for Java."

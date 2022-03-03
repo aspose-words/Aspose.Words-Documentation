@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on DOCX Export – Aspose.Words for .NET
+title: Field Features Supported on DOCX Export
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on DOCX Export
 linktitle: Field Features Supported on DOCX Export
 description: "Export to OOXML format using field saving features in C#."

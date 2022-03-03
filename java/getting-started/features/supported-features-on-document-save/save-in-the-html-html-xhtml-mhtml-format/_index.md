@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the HTML (.HTML, .XHTML, .MHTML) Format – Aspose.Words for Java
+title: Save in the HTML (.HTML, .XHTML, .MHTML) Format
+second_title: Aspose.Words for Java
 articleTitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
 description: "Export to HTML-based format using various saving features in Java."

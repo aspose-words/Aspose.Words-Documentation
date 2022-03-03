@@ -1,5 +1,6 @@
 ﻿---
-title: Integrating Manually with Visual Studio Report Designer - Aspose.Words for Reporting Services
+title: Integrating Manually with Visual Studio Report Designer
+second_title: Aspose.Words for Reporting Services
 articleTitle: Integrating Manually with Visual Studio Report Designer
 linktitle: Integrating Manually with Visual Studio Report Designer
 description: "Manual installation process of the Aspose.Words for Reporting Services to a Business Intelligence Development Studio."

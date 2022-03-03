@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Layout Options in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
 description: "Specify Layout Options for various document layouts using Python."

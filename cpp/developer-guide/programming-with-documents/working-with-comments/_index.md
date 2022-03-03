@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Comments in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Comments
 linktitle: Working with Comments
 description: "Working with comments using C++."

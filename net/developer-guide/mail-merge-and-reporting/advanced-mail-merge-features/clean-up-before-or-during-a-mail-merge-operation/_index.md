@@ -1,5 +1,6 @@
 ﻿---
 title: Clean Up Before or During a Mail Merge Operation in C#
+second_title: Aspose.Words for .NET
 articleTitle: Clean Up Before or During a Mail Merge Operation
 linktitle: Clean Up Before or During a Mail Merge Operation
 aliases:

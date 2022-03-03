@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Lists in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Lists
 linktitle: Working with Lists
 description: "Create, specify formatting and restart lists in a document using Python."

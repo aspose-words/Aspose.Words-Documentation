@@ -1,5 +1,6 @@
 ﻿---
-title: Relations Element - Aspose.Words for SharePoint
+title: Relations Element
+second_title: Aspose.Words for SharePoint
 articleTitle: Relations Element
 linktitle: Relations Element
 description: "Relations element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on FlatOPC Export – Aspose.Words for .NET
+title: Annotation Features Supported on FlatOPC Export
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on FlatOPC Export
 linktitle: Annotation Features Supported on FlatOPC Export
 description: "Export to FlatOPC – XML format using annotation field saving features in C#."

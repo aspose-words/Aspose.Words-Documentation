@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Rich Text Format Overview – Aspose.Words for .NET
+title: Load in the Rich Text Format Overview
+second_title: Aspose.Words for .NET
 articleTitle: Load in the Rich Text Format Overview
 linktitle: Load in the Rich Text Format Overview
 description: "Import RTF document using various load options in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on OpenDocument Import – Aspose.Words for Java
+title: Paragraph Features Supported on OpenDocument Import
+second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on OpenDocument Import
 linktitle: Paragraph Features Supported on OpenDocument Import
 description: "Import ODT document using paragraph load options in Java."

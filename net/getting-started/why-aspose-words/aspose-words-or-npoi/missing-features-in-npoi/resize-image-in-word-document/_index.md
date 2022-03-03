@@ -1,5 +1,6 @@
 ﻿---
-title: Resize Image in a Word Document – Aspose.Words for .NET
+title: Resize Image in a Word Document
+second_title: Aspose.Words for .NET
 articleTitle: Resize Image in a Word Document
 linktitle: Resize Image in a Word Document
 description: "Resize an image in a Word document. NPOI does not provide an opportunity to resize an image using C#."

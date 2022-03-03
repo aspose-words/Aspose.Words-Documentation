@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on EPUB Export – Aspose.Words for .NET
+title: Paragraph Features Supported on EPUB Export
+second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on EPUB Export
 linktitle: Paragraph Features Supported on EPUB Export
 description: "Export to EPUB format using paragraph saving features in C#."

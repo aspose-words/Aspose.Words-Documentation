@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on WordprocessingML Import – Aspose.Words for .NET
+title: Section Features Supported on WordprocessingML Import
+second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on WordprocessingML Import
 linktitle: Section Features Supported on WordprocessingML Import
 description: "Import WordprocessingML document using section load options in C#."

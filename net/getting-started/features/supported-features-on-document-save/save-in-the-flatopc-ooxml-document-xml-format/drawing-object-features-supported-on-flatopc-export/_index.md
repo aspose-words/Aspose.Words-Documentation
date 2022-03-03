@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on FlatOPC Export – Aspose.Words for .NET
+title: Drawing Object Features Supported on FlatOPC Export
+second_title: Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on FlatOPC Export
 linktitle: Drawing Object Features Supported on FlatOPC Export
 description: "Export to FlatOPC – XML format using drawing field saving features in C#."

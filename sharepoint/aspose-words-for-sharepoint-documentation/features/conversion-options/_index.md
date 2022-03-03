@@ -1,5 +1,6 @@
 ﻿---
-title: Conversion Options - Aspose.Words for SharePoint
+title: Conversion Options
+second_title: Aspose.Words for SharePoint
 articleTitle: Conversion Options
 linktitle: Conversion Options
 description: "List of file conversion options of the Aspose.Words for SharePoint."

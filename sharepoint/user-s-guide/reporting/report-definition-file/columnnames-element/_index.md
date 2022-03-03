@@ -1,5 +1,6 @@
 ﻿---
-title: ColumnNames Element - Aspose.Words for SharePoint
+title: ColumnNames Element
+second_title: Aspose.Words for SharePoint
 articleTitle: ColumnNames Element
 linktitle: ColumnNames Element
 description: "ColumnNames element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

@@ -1,5 +1,6 @@
 ﻿---
-title: Autofit Setting to Tables – Aspose.Words for .NET
+title: Autofit Setting to Tables
+second_title: Aspose.Words for .NET
 articleTitle: Autofit Setting to Tables
 linktitle: Autofit Setting to Tables
 description: "Autofit settings to tables. NPOI does not provide an opportunity to autofit settings to tables using C#."

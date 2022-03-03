@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words Features Missing in NPOI – Aspose.Words for .NET
+title: Aspose.Words Features Missing in NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words Features Missing in NPOI
 linktitle: Aspose.Words Features Missing in NPOI
 description: "Perform some operations with documents faster and more conveniently than NPOI. In addition, there are operations that are not supported by NPOI using C#."

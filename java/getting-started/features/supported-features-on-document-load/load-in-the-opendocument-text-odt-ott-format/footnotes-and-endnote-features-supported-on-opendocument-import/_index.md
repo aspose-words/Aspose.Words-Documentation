@@ -1,5 +1,6 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on OpenDocument Import – Aspose.Words for Java
+title: Footnotes and Endnote Features Supported on OpenDocument Import
+second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on OpenDocument Import
 linktitle: Footnotes and Endnote Features Supported on OpenDocument Import
 description: "Import ODT document using footnotes and endnote load options in Java."

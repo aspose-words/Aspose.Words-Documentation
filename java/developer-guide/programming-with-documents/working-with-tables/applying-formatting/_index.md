@@ -1,5 +1,6 @@
 ﻿---
 title: Applying Formatting in Java
+second_title: Aspose.Words for Java
 articleTitle: Applying Formatting
 linktitle: Applying Formatting
 description: "Table formatting in details. Using Java to format every part of table."

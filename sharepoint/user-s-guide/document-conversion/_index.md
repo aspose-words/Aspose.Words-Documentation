@@ -1,5 +1,6 @@
 ﻿---
-title: Document Conversion - Aspose.Words for SharePoint
+title: Document Conversion
+second_title: Aspose.Words for SharePoint
 articleTitle: Document Conversion
 linktitle: Document Conversion
 description: "Conversion feature details of the Aspose.Words for SharePoint."

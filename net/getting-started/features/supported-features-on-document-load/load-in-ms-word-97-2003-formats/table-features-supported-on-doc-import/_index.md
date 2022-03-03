@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on DOC Import – Aspose.Words for .NET
+title: Table Features Supported on DOC Import
+second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on DOC Import
 linktitle: Table Features Supported on DOC Import
 description: "Import DOC document using table load options in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on HTML Export – Aspose.Words for Java
+title: Numbering Features Supported on HTML Export
+second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on HTML Export
 linktitle: Numbering Features Supported on HTML Export
 description: "Export to HTML-based format using numbering saving features in Java."

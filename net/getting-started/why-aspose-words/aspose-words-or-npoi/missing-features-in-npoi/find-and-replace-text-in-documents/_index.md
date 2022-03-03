@@ -1,5 +1,6 @@
 ﻿---
-title: Find and Replace Text in Documents – Aspose.Words for .NET
+title: Find and Replace Text in Documents
+second_title: Aspose.Words for .NET
 articleTitle: Find and Replace Text in Documents
 linktitle: Find and Replace Text in Documents
 description: "Find and replace text or strings. NPOI does not provide an opportunity to find and replace using C#."

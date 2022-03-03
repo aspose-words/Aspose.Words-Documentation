@@ -1,5 +1,6 @@
 ﻿---
 title: Appendix B. Technical FAQ in Java
+second_title: Aspose.Words for Java
 articleTitle: Appendix B. Technical FAQ
 linktitle: Appendix B. Technical FAQ
 description: "Learn the LINQ Reporting Engine FAQ to build a report in Java."

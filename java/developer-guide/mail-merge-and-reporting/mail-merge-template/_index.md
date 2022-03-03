@@ -1,5 +1,6 @@
 ﻿---
 title: Mail Merge Template in Java
+second_title: Aspose.Words for Java
 articleTitle: Mail Merge Template
 linktitle: Mail Merge Template
 type: docs

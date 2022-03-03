@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Fields in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Fields
 linktitle: Working with Fields
 description: "Introduction to field feature in Aspose.Words for .NET."

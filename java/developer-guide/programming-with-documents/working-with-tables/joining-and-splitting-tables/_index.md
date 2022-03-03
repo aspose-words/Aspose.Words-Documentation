@@ -1,5 +1,6 @@
 ﻿---
 title: Joining and Splitting Tables in Java
+second_title: Aspose.Words for Java
 articleTitle: Joining and Splitting Tables
 linktitle: Joining and Splitting Tables
 description: "Advanced table manipulations, join and split using Java."

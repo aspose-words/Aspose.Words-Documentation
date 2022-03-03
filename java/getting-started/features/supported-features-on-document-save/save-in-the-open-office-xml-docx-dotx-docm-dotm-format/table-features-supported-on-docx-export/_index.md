@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on DOCX Export – Aspose.Words for Java
+title: Table Features Supported on DOCX Export
+second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on DOCX Export
 linktitle: Table Features Supported on DOCX Export
 description: "Export to OOXML format using table saving features in Java."

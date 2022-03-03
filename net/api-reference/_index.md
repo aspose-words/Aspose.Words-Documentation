@@ -1,5 +1,6 @@
 ﻿---
-title: API Reference – Aspose.Words for .NET
+title: API Reference
+second_title: Aspose.Words for .NET
 articleTitle: API Reference
 linktitle: API Reference
 type: docs

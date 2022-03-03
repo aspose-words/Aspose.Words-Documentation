@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on OpenDocument Import – Aspose.Words for .NET
+title: Annotation Features Supported on OpenDocument Import
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on OpenDocument Import
 linktitle: Annotation Features Supported on OpenDocument Import
 description: "Import ODT document using annotation load options in C#."

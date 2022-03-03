@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on XPS Export – Aspose.Words for Java
+title: Table Features Supported on XPS Export
+second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on XPS Export
 linktitle: Table Features Supported on XPS Export
 description: "Export to XPS format using table saving features in Java."

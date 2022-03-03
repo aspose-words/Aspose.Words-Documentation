@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on Print Export – Aspose.Words for Java
+title: Text Features Supported on Print Export
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on Print Export
 linktitle: Text Features Supported on Print Export
 description: "Work with text features when sending a document to printer."

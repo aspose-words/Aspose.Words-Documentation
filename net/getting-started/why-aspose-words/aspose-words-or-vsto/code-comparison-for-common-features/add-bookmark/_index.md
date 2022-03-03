@@ -1,5 +1,6 @@
 ﻿---
-title: Add Bookmark – Aspose.Words for .NET
+title: Add Bookmark
+second_title: Aspose.Words for .NET
 articleTitle: Add Bookmark
 linktitle: Add Bookmark
 description: "Add a bookmark into a document easily and fast instead of using VSTO in C#."

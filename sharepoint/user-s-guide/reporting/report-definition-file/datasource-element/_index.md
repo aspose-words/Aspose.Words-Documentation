@@ -1,5 +1,6 @@
 ﻿---
-title: DataSource Element - Aspose.Words for SharePoint
+title: DataSource Element
+second_title: Aspose.Words for SharePoint
 articleTitle: DataSource Element
 linktitle: DataSource Element
 description: "DataSource element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

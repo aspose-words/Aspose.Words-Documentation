@@ -1,5 +1,6 @@
 ﻿---
-title: Generator or Producer Name Included in Output Documents – Aspose.Words for .NET
+title: Generator or Producer Name Included in Output Documents
+second_title: Aspose.Words for .NET
 articleTitle: Generator or Producer Name Included in Output Documents
 linktitle: Generator or Producer Name Included in Output Documents
 description: "Aspose.Words for .NET add to the document the generator name and version number that was used to create it. This data can be found in the document in ways that depend on the output file format using C#."

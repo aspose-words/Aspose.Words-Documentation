@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format – Aspose.Words for .NET
+title: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
+second_title: Aspose.Words for .NET
 articleTitle: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
 linktitle: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
 description: "Import WordprocessingML document using different load options in C#."

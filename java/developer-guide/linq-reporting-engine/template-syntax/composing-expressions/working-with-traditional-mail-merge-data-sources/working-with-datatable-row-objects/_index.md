@@ -1,5 +1,6 @@
 ﻿---
 title: Working with DataTable Row Objects in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with DataTable Row Objects
 linktitle: Working with DataTable Row Objects
 description: "Use simplified syntax in template expressions to work with DataTable row objects when building a report in Java."

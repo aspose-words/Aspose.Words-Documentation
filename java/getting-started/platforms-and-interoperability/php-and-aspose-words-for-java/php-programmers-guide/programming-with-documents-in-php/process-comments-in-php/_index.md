@@ -1,5 +1,6 @@
 ﻿---
-title: Process Comments in PHP – Aspose.Words for Java
+title: Process Comments in PHP
+second_title: Aspose.Words for Java
 articleTitle: Process Comments in PHP
 linktitle: Process Comments in PHP
 description: "Process Comments using PHP."

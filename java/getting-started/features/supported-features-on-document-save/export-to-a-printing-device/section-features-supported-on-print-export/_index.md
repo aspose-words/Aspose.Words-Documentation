@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on Print Export – Aspose.Words for Java
+title: Section Features Supported on Print Export
+second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on Print Export
 linktitle: Section Features Supported on Print Export
 description: "Work with section features when sending a document to printer."

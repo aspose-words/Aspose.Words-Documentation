@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on EPUB Export – Aspose.Words for .NET
+title: Field Features Supported on EPUB Export
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on EPUB Export
 linktitle: Field Features Supported on EPUB Export
 description: "Export to EPUB format using field saving features in C#."

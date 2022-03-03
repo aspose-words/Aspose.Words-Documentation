@@ -1,5 +1,6 @@
 ﻿---
-title: Page Size and Orientation - Aspose.Words for JasperReports
+title: Page Size and Orientation
+second_title: Aspose.Words for JasperReports
 articleTitle: Page Size and Orientation
 linktitle: Page Size and Orientation
 description: "Aspose.Words for JasperReports use page size and orientation from the input provided for export."

@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on DOC Import – Aspose.Words for .NET
+title: Paragraph Features Supported on DOC Import
+second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on DOC Import
 linktitle: Paragraph Features Supported on DOC Import
 description: "Import DOC document using paragraph load options in C#."

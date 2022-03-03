@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on DOCX Export – Aspose.Words for .NET
+title: Numbering Features Supported on DOCX Export
+second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on DOCX Export
 linktitle: Numbering Features Supported on DOCX Export
 description: "Export to OOXML format using numbering saving features in C#."

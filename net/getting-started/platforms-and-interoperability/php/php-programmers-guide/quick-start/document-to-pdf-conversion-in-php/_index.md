@@ -1,5 +1,6 @@
 ﻿---
-title: Document to PDF Conversion in PHP – Aspose.Words for .NET
+title: Document to PDF Conversion in PHP
+second_title: Aspose.Words for .NET
 articleTitle: Document to PDF Conversion in PHP
 linktitle: Document to PDF Conversion in PHP
 description: "Converting documents using Aspose.Words for .NET in PHP using COM in C#."

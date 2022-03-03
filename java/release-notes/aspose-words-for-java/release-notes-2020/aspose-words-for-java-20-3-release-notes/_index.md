@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Java 20.3 Release Notes
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 20.3 Release Notes
 linktitle: Aspose.Words for Java 20.3 Release Notes
 description: "Aspose.Words for Java 20.3 Release Notes – the latest updates and fixes."
@@ -339,6 +340,7 @@ public X509CertificateSystem Certificate
 Please use the following property instead: [CertificateHolder.Certificate](https://apireference.aspose.com/words/java/com.aspose.words/certificateholder#Certificate)
 
 -----
+
 The following obsolete method of [CertificateHolder](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder) class was removed:
 
 **.NET**

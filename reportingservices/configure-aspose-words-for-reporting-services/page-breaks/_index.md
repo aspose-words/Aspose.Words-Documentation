@@ -1,5 +1,6 @@
 ﻿---
-title: Page Breaks - Aspose.Words for Reporting Services
+title: Page Breaks
+second_title: Aspose.Words for Reporting Services
 articleTitle: Page Breaks
 linktitle: Page Breaks
 description: "Page Breaks setting of the Aspose.Words for Reporting Services."

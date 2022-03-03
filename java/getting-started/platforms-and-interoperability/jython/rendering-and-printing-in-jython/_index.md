@@ -1,5 +1,6 @@
 ﻿---
-title: Rendering and Printing in Jython – Aspose.Words for Java
+title: Rendering and Printing in Jython
+second_title: Aspose.Words for Java
 articleTitle: Rendering and Printing in Jython
 linktitle: Rendering and Printing in Jython
 description: "Rendering and Printing Document using Jython."

@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on HTML Export – Aspose.Words for Java
+title: Text Features Supported on HTML Export
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on HTML Export
 linktitle: Text Features Supported on HTML Export
 description: "Export to HTML-based format using text saving features in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Convert Doc to HTML in Ruby – Aspose.Words for Java
+title: Convert Doc to HTML in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Convert Doc to HTML in Ruby
 linktitle: Convert Doc to HTML in Ruby
 description: "Converting Doc to HTML using Ruby in Java."

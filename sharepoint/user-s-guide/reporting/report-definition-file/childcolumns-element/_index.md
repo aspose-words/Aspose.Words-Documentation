@@ -1,5 +1,6 @@
 ﻿---
-title: ChildColumns Element - Aspose.Words for SharePoint
+title: ChildColumns Element
+second_title: Aspose.Words for SharePoint
 articleTitle: ChildColumns Element
 linktitle: ChildColumns Element
 description: "ChildColumns element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

@@ -1,5 +1,6 @@
 ﻿---
-title: Check Format in Ruby – Aspose.Words for Java
+title: Check Format in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Check Format in Ruby
 linktitle: Check Format in Ruby
 description: "Check file format using Ruby."

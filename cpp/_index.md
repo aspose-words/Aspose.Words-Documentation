@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for C++
 articleTitle: Aspose.Words for C++
 linktitle: Aspose.Words for C++

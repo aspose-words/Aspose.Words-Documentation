@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the FlatOPC OOXML Document Format Overview – Aspose.Words for .NET
+title: Load in the FlatOPC OOXML Document Format Overview
+second_title: Aspose.Words for .NET
 articleTitle: Load in the FlatOPC OOXML Document Format Overview
 linktitle: Load in the FlatOPC OOXML Document Format Overview
 description: "Import FlatOPC document using various load options in C#."

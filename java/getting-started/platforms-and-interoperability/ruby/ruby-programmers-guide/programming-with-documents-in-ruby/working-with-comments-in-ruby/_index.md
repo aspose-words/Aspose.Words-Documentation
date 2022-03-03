@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Comments in Ruby – Aspose.Words for Java
+title: Working With Comments in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Working With Comments in Ruby
 linktitle: Working With Comments in Ruby
 description: "Working with comments using Ruby."

@@ -1,5 +1,6 @@
 ﻿---
-title: Append Documents in Ruby – Aspose.Words for Java
+title: Append Documents in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Append Documents in Ruby
 linktitle: Append Documents in Ruby
 description: "Append an MS Word document to other one using Ruby."

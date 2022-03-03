@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Plain Text Format – Aspose.Words for .NET
+title: Save in the Plain Text Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the Plain Text Format
 linktitle: Save in the Plain Text Format
 description: "Export to TXT format using different saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
 title: Compare Documents in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Compare Documents
 linktitle: Compare Documents
 description: "Compare two documents in any supported formats and shows content changes using Python. You can apply advanced options when comparing."

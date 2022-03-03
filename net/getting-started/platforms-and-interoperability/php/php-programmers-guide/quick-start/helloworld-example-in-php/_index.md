@@ -1,5 +1,6 @@
 ﻿---
-title: HelloWorld Example in PHP – Aspose.Words for .NET
+title: HelloWorld Example in PHP
+second_title: Aspose.Words for .NET
 articleTitle: HelloWorld Example in PHP
 linktitle: HelloWorld Example in PHP
 description: "Building documents from scratch using Aspose.Words for .NET in PHP via COM in C#."

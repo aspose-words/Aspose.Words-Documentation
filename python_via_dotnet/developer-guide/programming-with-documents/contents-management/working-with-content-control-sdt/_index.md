@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Content Control SDT in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
 description: "Using python you can embed customer-defined semantics as well as its behaviour and appearance into a document."

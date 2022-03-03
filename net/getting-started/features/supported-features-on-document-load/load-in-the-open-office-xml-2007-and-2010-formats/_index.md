@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format – Aspose.Words for .NET
+title: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
+second_title: Aspose.Words for .NET
 articleTitle: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
 linktitle: Load in the Open Office XML 2007 and 2010 (.DOCX, .DOTX, .DOCM, .DOTM) Format
 description: "Import OOXML document using different load options in C#."

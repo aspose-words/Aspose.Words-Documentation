@@ -1,5 +1,6 @@
 ﻿---
-title: Mail Merge And Reporting in Ruby – Aspose.Words for Java
+title: Mail Merge And Reporting in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Mail Merge And Reporting in Ruby
 linktitle: Mail Merge And Reporting in Ruby
 description: "Mail Merge And Reporting using Ruby."

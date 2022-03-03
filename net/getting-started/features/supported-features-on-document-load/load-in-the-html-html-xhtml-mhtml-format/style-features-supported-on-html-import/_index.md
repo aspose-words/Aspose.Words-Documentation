@@ -1,5 +1,6 @@
 ﻿---
-title: Style Features Supported on HTML Import – Aspose.Words for .NET
+title: Style Features Supported on HTML Import
+second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on HTML Import
 linktitle: Style Features Supported on HTML Import
 description: "Import HTML-based document using style load options in C#."

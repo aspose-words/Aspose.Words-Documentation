@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on Rich Text Export – Aspose.Words for .NET
+title: Numbering Features Supported on Rich Text Export
+second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on Rich Text Export
 linktitle: Numbering Features Supported on Rich Text Export
 description: "Export to RTF format using numbering saving features in C#."

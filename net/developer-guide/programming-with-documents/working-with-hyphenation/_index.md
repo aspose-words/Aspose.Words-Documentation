@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Hyphenation in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Hyphenation
 linktitle: Working with Hyphenation
 description: "Use hyphenation for a more compact arrangement of text using C#. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries."

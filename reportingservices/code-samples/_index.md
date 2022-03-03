@@ -1,5 +1,6 @@
 ﻿---
-title: Code Samples - Aspose.Words for Reporting Services
+title: Code Samples
+second_title: Aspose.Words for Reporting Services
 articleTitle: Code Samples
 linktitle: Code Samples
 description: "This guide contains code samples for the Aspose.Words for Reporting Services."

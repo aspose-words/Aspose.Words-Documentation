@@ -1,5 +1,6 @@
 ﻿---
-title: Remove Breaks in Jython – Aspose.Words for Java
+title: Remove Breaks in Jython
+second_title: Aspose.Words for Java
 articleTitle: Remove Breaks in Jython
 linktitle: Remove Breaks in Jython
 description: "Remove Breaks using Jython."

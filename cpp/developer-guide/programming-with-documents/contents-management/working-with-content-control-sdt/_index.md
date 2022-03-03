@@ -1,5 +1,6 @@
 ---
 title: Working with Content Control SDT in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
 type: docs

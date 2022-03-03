@@ -1,5 +1,6 @@
 ﻿---
-title: Convert Document to HTML – Aspose.Words for Java
+title: Convert Document to HTML
+second_title: Aspose.Words for Java
 articleTitle: Convert Document to HTML
 linktitle: Convert Document to HTML
 description: "Convert a document in any supported format to HTML easily and fast instead of using docx4j in Java."

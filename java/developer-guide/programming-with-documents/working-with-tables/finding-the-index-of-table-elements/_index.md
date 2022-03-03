@@ -1,5 +1,6 @@
 ﻿---
 title: Finding the Index of Table Elements in Java
+second_title: Aspose.Words for Java
 articleTitle: Finding the Index of Table Elements
 linktitle: Finding the Index of Table Elements
 description: "How to find index of table using Java."

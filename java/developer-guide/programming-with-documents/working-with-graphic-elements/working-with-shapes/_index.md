@@ -1,5 +1,6 @@
 ---
 title: Working with Shapes in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Shapes
 linktitle: Working with Shapes
 type: docs

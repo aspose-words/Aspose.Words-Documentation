@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words or Docx4j – Aspose.Words for Java
+title: Aspose.Words or Docx4j
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words or Docx4j
 linktitle: Aspose.Words or Docx4j
 description: "Perform a large number of tasks with documents faster and more conveniently than docx4j."

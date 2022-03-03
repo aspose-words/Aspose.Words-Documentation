@@ -1,5 +1,6 @@
 ﻿---
 title: Restarting List Numbering Dynamically in C#
+second_title: Aspose.Words for .NET
 articleTitle: Restarting List Numbering Dynamically
 linktitle: Restarting List Numbering Dynamically
 description: "Restart list numbering within your documents dynamically when building a report using C#."

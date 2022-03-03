@@ -1,5 +1,6 @@
 ﻿---
-title: Known Limitations - Aspose.Words for JasperReports
+title: Known Limitations
+second_title: Aspose.Words for JasperReports
 articleTitle: Known Limitations
 linktitle: Known Limitations
 description: "The following features are not currently supported by Aspose.Words for JasperReports"

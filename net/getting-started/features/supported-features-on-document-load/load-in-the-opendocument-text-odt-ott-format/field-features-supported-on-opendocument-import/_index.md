@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on OpenDocument Import – Aspose.Words for .NET
+title: Field Features Supported on OpenDocument Import
+second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on OpenDocument Import
 linktitle: Field Features Supported on OpenDocument Import
 description: "Import ODT document using field load options in C#."

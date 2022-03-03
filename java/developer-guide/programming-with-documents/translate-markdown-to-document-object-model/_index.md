@@ -1,5 +1,6 @@
 ﻿---
 title: Translate Markdown to Document Object Model (DOM) in Java
+second_title: Aspose.Words for Java
 articleTitle: Translate Markdown to Document Object Model (DOM)
 linktitle: Translate Markdown to Document Object Model (DOM)
 type: docs

@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for .NET 18.8 Release Notes
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET 18.8 Release Notes
 linktitle: Aspose.Words for .NET 18.8 Release Notes
 description: "Aspose.Words for .NET 18.8 Release Notes – the latest updates and fixes."

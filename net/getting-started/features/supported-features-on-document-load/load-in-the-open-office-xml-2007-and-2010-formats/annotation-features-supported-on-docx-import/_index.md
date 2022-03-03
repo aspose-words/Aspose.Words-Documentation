@@ -1,5 +1,6 @@
 ﻿---
-title: Annotation Features Supported on DOCX Import – Aspose.Words for .NET
+title: Annotation Features Supported on DOCX Import
+second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on DOCX Import
 linktitle: Annotation Features Supported on DOCX Import
 description: "Import OOXML document using annotation load options in C#."

@@ -1,5 +1,6 @@
 ---
-title: Track Changes in Documents POI – Aspose.Words for Java
+title: Track Changes in Documents POI
+second_title: Aspose.Words for Java
 articleTitle: Track Changes in Documents
 linktitle: Track Changes in Documents
 description: "Track changes in documents. Apache POI does not provide an opportunity to track changes in a document."

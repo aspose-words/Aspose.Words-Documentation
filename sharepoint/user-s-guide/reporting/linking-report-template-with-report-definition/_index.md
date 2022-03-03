@@ -1,5 +1,6 @@
 ﻿---
-title: Linking Report Template with Report Definition - Aspose.Words for SharePoint
+title: Linking Report Template with Report Definition
+second_title: Aspose.Words for SharePoint
 articleTitle: Linking Report Template with Report Definition
 linktitle: Linking Report Template with Report Definition
 description: "How to link report template with the report definition while configuring Aspose.Words for SharePoint reports."

@@ -1,5 +1,6 @@
 ﻿---
-title: Download and Configure Aspose.Words in Python – Aspose.Words for Java
+title: Download and Configure Aspose.Words in Python
+second_title: Aspose.Words for Java
 articleTitle: Download and Configure Aspose.Words in Python
 linktitle: Download and Configure Aspose.Words in Python
 description: "Python: Download and Configure Aspose.Words for Java."

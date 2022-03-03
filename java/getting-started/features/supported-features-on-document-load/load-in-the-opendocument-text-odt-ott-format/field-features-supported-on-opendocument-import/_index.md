@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on OpenDocument Import – Aspose.Words for Java
+title: Field Features Supported on OpenDocument Import
+second_title: Aspose.Words for Java
 articleTitle: Field Features Supported on OpenDocument Import
 linktitle: Field Features Supported on OpenDocument Import
 description: "Import ODT document using field load options in Java."

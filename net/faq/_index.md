@@ -1,5 +1,6 @@
 ---
-title: FAQ – Aspose.Words for .NET
+title: FAQ
+second_title: Aspose.Words for .NET
 articleTitle: FAQ – Aspose.Words for .NET
 linktitle: FAQ – Aspose.Words for .NET
 articleTitle: FAQ

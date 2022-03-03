@@ -1,5 +1,6 @@
 ﻿---
-title: Update Fields in Python – Aspose.Words for Java
+title: Update Fields in Python
+second_title: Aspose.Words for Java
 articleTitle: Update Fields in Python
 linktitle: Update Fields in Python
 description: "Update fields of Word Document using Python."

@@ -1,5 +1,6 @@
 ﻿---
-title: Find and Replace Text – Aspose.Words for .NET
+title: Find and Replace Text
+second_title: Aspose.Words for .NET
 articleTitle: Find and Replace Text
 linktitle: Find and Replace Text
 description: "Find and replace text from a document part easily and fast instead of using VSTO in C#."

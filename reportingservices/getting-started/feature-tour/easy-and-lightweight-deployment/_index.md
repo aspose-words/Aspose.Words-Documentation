@@ -1,5 +1,6 @@
 ﻿---
-title: Easy and Lightweight Deployment - Aspose.Words for Reporting Services
+title: Easy and Lightweight Deployment
+second_title: Aspose.Words for Reporting Services
 articleTitle: Easy and Lightweight Deployment
 linktitle: Easy and Lightweight Deployment
 description: "Deployment steps of the Aspose.Words for Reporting Services."

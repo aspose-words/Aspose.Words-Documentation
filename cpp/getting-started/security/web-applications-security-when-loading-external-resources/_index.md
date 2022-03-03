@@ -1,5 +1,6 @@
 ---
-title: Web Applications Security When Loading External Resources – Aspose.Words for С++
+title: Web Applications Security When Loading External Resources
+second_title: Aspose.Words for C++
 articleTitle: Web Applications Security When Loading External Resources
 linktitle: Web Applications Security When Loading External Resources
 type: docs

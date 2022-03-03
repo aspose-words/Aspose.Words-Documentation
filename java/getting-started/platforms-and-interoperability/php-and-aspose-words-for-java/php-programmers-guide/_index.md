@@ -1,5 +1,6 @@
 ﻿---
-title: PHP Programmers Guide – Aspose.Words for Java
+title: PHP Programmers Guide
+second_title: Aspose.Words for Java
 articleTitle: PHP Programmers Guide
 linktitle: PHP Programmers Guide
 description: "PHP + Aspose.Words for Java: Programmers Guide."

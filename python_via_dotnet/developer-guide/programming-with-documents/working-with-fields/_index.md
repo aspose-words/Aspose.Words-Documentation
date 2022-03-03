@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Fields in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Fields
 linktitle: Working with Fields
 description: "How to work with fields in a documents using Python."

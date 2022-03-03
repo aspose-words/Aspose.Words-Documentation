@@ -1,5 +1,6 @@
 ﻿---
 title: Working with DataSet objects in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with DataSet objects
 linktitle: Working with DataSet objects
 description: "Access DataTable row objects using template expressions when building a report in Java."

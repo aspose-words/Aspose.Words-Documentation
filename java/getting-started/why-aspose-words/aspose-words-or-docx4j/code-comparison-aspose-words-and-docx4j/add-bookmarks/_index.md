@@ -1,5 +1,6 @@
 ﻿---
-title: Add Bookmarks – Aspose.Words for Java
+title: Add Bookmarks
+second_title: Aspose.Words for Java
 articleTitle: Add Bookmarks
 linktitle: Add Bookmarks
 description: "Add bocmarks to a document easily and fast instead of using docx4j."

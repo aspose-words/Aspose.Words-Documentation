@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for JasperReports
 articleTitle: Aspose.Words for JasperReports
 linktitle: Aspose.Words for JasperReports

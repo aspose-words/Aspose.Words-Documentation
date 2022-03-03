@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Hyperlinks and HTML in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Hyperlinks and HTML
 linktitle: Working with Hyperlinks and HTML
 description: "Insert, replace, or modify a hyperlink into the document using Python."

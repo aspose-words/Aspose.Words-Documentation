@@ -1,5 +1,6 @@
 ﻿---
-title: Specify Default Fonts – Aspose.Words for .NET
+title: Specify Default Fonts
+second_title: Aspose.Words for .NET
 articleTitle: Specify Default Fonts
 linktitle: Specify Default Fonts
 description: "Specify default fonts. NPOI does not provide an opportunity to specify default fonts using C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Check Format in Python – Aspose.Words for Java
+title: Check Format in Python
+second_title: Aspose.Words for Java
 articleTitle: Check Format in Python
 linktitle: Check Format in Python
 description: "Check Document Format using Python."

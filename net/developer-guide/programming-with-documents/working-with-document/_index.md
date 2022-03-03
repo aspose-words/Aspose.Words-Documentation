@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Document in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Document
 linktitle: Working with Document
 type: docs

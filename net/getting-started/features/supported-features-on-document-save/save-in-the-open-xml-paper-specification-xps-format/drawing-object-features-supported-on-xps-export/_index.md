@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on XPS Export – Aspose.Words for .NET
+title: Drawing Object Features Supported on XPS Export
+second_title: Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on XPS Export
 linktitle: Drawing Object Features Supported on XPS Export
 description: "Export to XPS format using drawing saving features in C#."

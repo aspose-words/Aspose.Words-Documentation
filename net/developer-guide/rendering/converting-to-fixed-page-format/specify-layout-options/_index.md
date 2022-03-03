@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Layout Options in C#
+second_title: Aspose.Words for .NET
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
 description: "Specify Layout Options for various document layouts using C#."

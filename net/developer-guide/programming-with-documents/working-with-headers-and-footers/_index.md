@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Headers and Footers in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Headers and Footers
 linktitle: Working with Headers and Footers
 description: "How to manipulate headers and footers using C#."

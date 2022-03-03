@@ -1,5 +1,6 @@
 ﻿---
-title: Mail Merge And Reporting in PHP – Aspose.Words for Java
+title: Mail Merge And Reporting in PHP
+second_title: Aspose.Words for Java
 articleTitle: Mail Merge And Reporting in PHP
 linktitle: Mail Merge And Reporting in PHP
 description: "Mail Merge And Reporting using PHP."

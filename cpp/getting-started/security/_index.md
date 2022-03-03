@@ -1,5 +1,6 @@
 ---
-title: Security Notes – Aspose.Words for С++
+title: Security Notes
+second_title: Aspose.Words for C++
 articleTitle: Security Notes
 linktitle: Security Notes
 type: docs

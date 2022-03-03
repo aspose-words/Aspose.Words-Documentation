@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Layout Options in C++
+second_title: Aspose.Words for C++
 articleTitle: Specify Layout Options
 linktitle: Specify Layout Options
 description: "Specify Layout Options for various document layouts."

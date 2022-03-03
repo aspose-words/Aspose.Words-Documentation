@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Document in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Document
 linktitle: Working with Document
 type: docs

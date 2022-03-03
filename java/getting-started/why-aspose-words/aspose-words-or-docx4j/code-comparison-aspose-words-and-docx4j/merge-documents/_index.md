@@ -1,5 +1,6 @@
 ﻿---
-title: Merge Documents – Aspose.Words for Java
+title: Merge Documents
+second_title: Aspose.Words for Java
 articleTitle: Merge Documents
 linktitle: Merge Documents
 description: "Merge documents easily and fast instead of using docx4j."

@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format – Aspose.Words for .NET
+title: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
 linktitle: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
 description: "Export to DOC format using various saving features in C#."

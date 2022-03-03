@@ -1,5 +1,6 @@
 ﻿---
-title: Compatibility Mode for DOCX output - Aspose.Words for JasperReports
+title: Compatibility Mode for DOCX output
+second_title: Aspose.Words for JasperReports
 articleTitle: Compatibility Mode for DOCX output
 linktitle: Compatibility Mode for DOCX output
 description: "Aspose Words for JasperReports allow changing Compatibility Mode for DOCX output."

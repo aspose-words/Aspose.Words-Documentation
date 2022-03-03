@@ -1,5 +1,6 @@
 ﻿---
 title: Nested Mail Merge with Regions in C++
+second_title: Aspose.Words for C++
 articleTitle: Nested Mail Merge with Regions
 linktitle: Nested Mail Merge with Regions
 type: docs

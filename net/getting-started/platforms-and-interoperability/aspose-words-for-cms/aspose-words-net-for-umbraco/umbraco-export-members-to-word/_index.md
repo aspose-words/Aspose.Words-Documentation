@@ -1,5 +1,6 @@
 ﻿---
-title: Umbraco Export Members to Word – Aspose.Words for .NET
+title: Umbraco Export Members to Word
+second_title: Aspose.Words for .NET
 articleTitle: Umbraco Export Members to Word
 linktitle: Umbraco Export Members to Word
 description: "Export members from your Umbraco CMS to a Word Document using Aspose.Words Umbraco Export Members Module in C#."

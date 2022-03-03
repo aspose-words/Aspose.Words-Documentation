@@ -1,5 +1,6 @@
 ﻿---
 title: Contents Management in Java
+second_title: Aspose.Words for Java
 articleTitle: Contents Management
 linktitle: Contents Management
 description: "Introduction to document content management classes in Aspose.Words for Java."

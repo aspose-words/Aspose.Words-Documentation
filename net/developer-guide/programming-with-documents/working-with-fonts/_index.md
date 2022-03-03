@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Fonts in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Font formatting in details using C#."

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Markdown Features in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Markdown Features
 linktitle: Working with Markdown Features
 description: "How to implement Markdown features using Java. All the features are represented as corresponding styles or direct formatting."
@@ -92,6 +93,7 @@ This section demonstrates you how to produce a markdown document with Horizontal
 {{< highlight csharp >}}
 We support Horizontal rules (Thematic breaks) in Markdown:
 -----
+
 {{< /highlight >}}
 
 The following code snippet can be used to produce the above-given markdown document.

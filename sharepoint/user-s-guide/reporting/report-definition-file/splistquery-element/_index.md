@@ -1,5 +1,6 @@
 ﻿---
-title: SPListQuery Element - Aspose.Words for SharePoint
+title: SPListQuery Element
+second_title: Aspose.Words for SharePoint
 articleTitle: SPListQuery Element
 linktitle: SPListQuery Element
 description: "SPListQuery element meaning and structure which may be used while configuring Aspose.Words for SharePoint reports."

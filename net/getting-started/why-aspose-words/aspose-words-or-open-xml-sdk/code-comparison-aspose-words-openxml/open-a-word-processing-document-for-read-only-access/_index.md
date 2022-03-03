@@ -1,5 +1,6 @@
 ﻿---
-title: Open a Document for Read-only Access – Aspose.Words for .NET
+title: Open a Document for Read-only Access
+second_title: Aspose.Words for .NET
 articleTitle: Open a Document for Read-only Access
 linktitle: Open a Document for Read-only Access
 description: "Open a document for read-only easily and fast instead of using Open XML SDK in C#."

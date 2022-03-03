@@ -1,5 +1,6 @@
 ﻿---
-title: Remove Comments of All or a Specific Author – Aspose.Words for .NET
+title: Remove Comments of All or a Specific Author
+second_title: Aspose.Words for .NET
 articleTitle: Remove Comments of All or a Specific Author
 linktitle: Remove Comments of All or a Specific Author
 description: "Remove comments of all or a specific author easily and fast instead of using Open XML SDK in C#."

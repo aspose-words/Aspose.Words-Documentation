@@ -1,5 +1,6 @@
 ﻿---
-title: Supported Document Formats - Aspose.Words for JasperReports
+title: Supported Document Formats
+second_title: Aspose.Words for JasperReports
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 description: "The following table indicates the file formats in which the JasperReports can be saved by using Aspose.Words for JasperReports."

@@ -1,5 +1,6 @@
 ﻿---
 title: Working with VBA Macros in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
 description: "Working with document VBA projects using C++."

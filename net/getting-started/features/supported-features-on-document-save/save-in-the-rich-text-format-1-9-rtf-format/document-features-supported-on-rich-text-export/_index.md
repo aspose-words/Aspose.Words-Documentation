@@ -1,5 +1,6 @@
 ﻿---
-title: Document Features Supported on Rich Text Export – Aspose.Words for .NET
+title: Document Features Supported on Rich Text Export
+second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on Rich Text Export
 linktitle: Document Features Supported on Rich Text Export
 description: "Export to RTF format using document saving features in C#."

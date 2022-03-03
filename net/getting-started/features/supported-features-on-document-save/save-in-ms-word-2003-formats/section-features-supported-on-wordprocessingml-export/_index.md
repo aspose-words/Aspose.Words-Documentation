@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on WordprocessingML Export – Aspose.Words for .NET
+title: Section Features Supported on WordprocessingML Export
+second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on WordprocessingML Export
 linktitle: Section Features Supported on WordprocessingML Export
 description: "Export to WordprocessingML format using section saving features in C#."

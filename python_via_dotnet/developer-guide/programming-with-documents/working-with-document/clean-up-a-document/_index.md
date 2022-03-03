@@ -1,5 +1,6 @@
 ﻿---
 title: Clean Up a Document in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Clean Up a Document
 linktitle: Clean Up a Document
 description: "Remove unused or duplicate information to reduce output size and processing time using Python. Remove unused styles, unused built-in styles, duplicate styles, or unused lists."

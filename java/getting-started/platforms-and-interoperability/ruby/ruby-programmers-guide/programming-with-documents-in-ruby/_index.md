@@ -1,5 +1,6 @@
 ﻿---
-title: Programming With Documents in Ruby – Aspose.Words for Java
+title: Programming With Documents in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Programming With Documents in Ruby
 linktitle: Programming With Documents in Ruby
 description: "Working With Documents using Ruby."

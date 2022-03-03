@@ -1,5 +1,6 @@
 ﻿---
-title: Working with comments in docx4j and Aspose.Words – Aspose.Words for Java
+title: Working with comments in docx4j and Aspose.Words
+second_title: Aspose.Words for Java
 articleTitle: Working with comments in docx4j and Aspose.Words
 linktitle: Working with comments in docx4j and Aspose.Words
 description: "Work with comments within a document easily and fast instead of using docx4j."

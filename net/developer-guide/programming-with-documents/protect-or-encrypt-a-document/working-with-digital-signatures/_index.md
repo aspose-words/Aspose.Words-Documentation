@@ -1,5 +1,6 @@
 ﻿---
 title: Work with Digital Signatures in C#
+second_title: Aspose.Words for .NET
 articleTitle: Work with Digital Signatures
 linktitle: Work with Digital Signatures
 description: "Digitally sign documents and detect, count, verify, and remove existing digital signatures using C#."

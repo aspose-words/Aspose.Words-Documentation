@@ -1,5 +1,6 @@
 ﻿---
 title: Specify Load Options in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Specify Load Options
 linktitle: Specify Load Options
 description: "More accurately control the load process using Python."

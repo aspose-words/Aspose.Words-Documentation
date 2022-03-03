@@ -1,5 +1,6 @@
 ---
-title: Hello World – Aspose.Words for .NET
+title: Hello World
+second_title: Aspose.Words for .NET
 articleTitle: Hello World
 linktitle: Hello World
 description: "Create, edit and save your first document in any supported format using Aspose.Words for .NET to experience its simplicity and power in C#."

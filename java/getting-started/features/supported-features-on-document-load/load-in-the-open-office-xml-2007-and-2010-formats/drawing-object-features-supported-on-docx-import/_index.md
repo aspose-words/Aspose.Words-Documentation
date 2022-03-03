@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on DOCX Import – Aspose.Words for Java
+title: Drawing Object Features Supported on DOCX Import
+second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on DOCX Import
 linktitle: Drawing Object Features Supported on DOCX Import
 description: "Import OOXML document using drawing load options in Java."

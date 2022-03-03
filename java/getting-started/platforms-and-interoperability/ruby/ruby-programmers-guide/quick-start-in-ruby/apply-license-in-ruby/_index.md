@@ -1,5 +1,6 @@
 ﻿---
-title: Apply License in Ruby – Aspose.Words for Java
+title: Apply License in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Apply License in Ruby
 linktitle: Apply License in Ruby
 description: "Ruby: apply License to Aspose.Words for Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip – Aspose.Words for .NET
+title: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip
+second_title: Aspose.Words for .NET
 articleTitle: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip
 linktitle: Custom Styles used for proper Aspose.Words-HTML-Aspose.Words Roundtrip
 description: "Work with custom styles for roundtrip when saving to HTML-based format using C#."

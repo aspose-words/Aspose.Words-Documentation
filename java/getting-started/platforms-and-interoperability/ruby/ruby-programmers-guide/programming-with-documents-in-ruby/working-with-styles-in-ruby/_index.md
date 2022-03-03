@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Styles in Ruby – Aspose.Words for Java
+title: Working With Styles in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Working With Styles in Ruby
 linktitle: Working With Styles in Ruby
 description: "Working with Document Styles using Ruby."

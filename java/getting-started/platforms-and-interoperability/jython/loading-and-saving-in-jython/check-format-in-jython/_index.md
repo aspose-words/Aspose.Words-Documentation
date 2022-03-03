@@ -1,5 +1,6 @@
 ﻿---
-title: Check File Format in Jython – Aspose.Words for Java
+title: Check File Format in Jython
+second_title: Aspose.Words for Java
 articleTitle: Check File Format in Jython
 linktitle: Check File Format in Jython
 description: "Check File Format using Jython."

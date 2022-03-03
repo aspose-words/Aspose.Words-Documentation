@@ -1,5 +1,6 @@
 ﻿---
 title: Rendering in Java
+second_title: Aspose.Words for Java
 articleTitle: Rendering
 linktitle: Rendering
 description: "Use Aspose.Words for Java rendering feature to format a flow-layout document into pages and convert such a document or selected pages to another document (PDF, HTML, XPS, etc.) or image (TIFF, PNG, SVG, etc.) formats for viewing, further conversions, or printing."

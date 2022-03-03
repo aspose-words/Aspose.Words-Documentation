@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Fonts in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Customize font settings using Python."

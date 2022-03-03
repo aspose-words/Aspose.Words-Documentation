@@ -1,5 +1,6 @@
 ---
 title: Working with Images in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Images
 linktitle: Working with Images
 type: docs

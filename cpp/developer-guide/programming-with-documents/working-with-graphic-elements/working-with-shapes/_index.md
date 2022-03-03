@@ -1,5 +1,6 @@
 ---
 title: Working with Shapes in C++
+second_title: Aspose.Words for C++
 articleTitle: Working with Shapes
 linktitle: Working with Shapes
 type: docs

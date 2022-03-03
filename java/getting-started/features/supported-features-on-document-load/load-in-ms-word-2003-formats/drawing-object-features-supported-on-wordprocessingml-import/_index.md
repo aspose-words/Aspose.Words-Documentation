@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on WordprocessingML Import – Aspose.Words for Java
+title: Drawing Object Features Supported on WordprocessingML Import
+second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on WordprocessingML Import
 linktitle: Drawing Object Features Supported on WordprocessingML Import
 description: "Import WordprocessingML document using drawing load options in Java."

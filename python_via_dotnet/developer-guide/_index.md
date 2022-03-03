@@ -1,5 +1,6 @@
 ﻿---
 title: Developer Guide in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Developer Guide
 linktitle: Developer Guide
 description: "This Developer Guide describes practical scenarios and tips to help you use specific Aspose.Words for Python via .NET features, achieve a certain document appearance, or make a use case possible."

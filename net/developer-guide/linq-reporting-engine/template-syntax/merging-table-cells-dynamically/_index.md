@@ -1,5 +1,6 @@
 ﻿---
 title: Merging Table Cells Dynamically in C#
+second_title: Aspose.Words for .NET
 articleTitle: Merging Table Cells Dynamically
 linktitle: Merging Table Cells Dynamically
 description: "Merge table cells with equal textual contents when building a report using C#."

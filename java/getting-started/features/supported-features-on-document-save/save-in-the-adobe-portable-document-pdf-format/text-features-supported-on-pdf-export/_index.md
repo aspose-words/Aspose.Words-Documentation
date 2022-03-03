@@ -1,5 +1,6 @@
 ﻿---
-title: Text Features Supported on PDF Export – Aspose.Words for Java
+title: Text Features Supported on PDF Export
+second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on PDF Export
 linktitle: Text Features Supported on PDF Export
 description: "Export to PDF format using text saving features in Java."

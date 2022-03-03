@@ -1,5 +1,6 @@
 ﻿---
-title: Working with Headers in NPOI – Aspose.Words for .NET
+title: Working with Headers in NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Working with Headers in NPOI
 linktitle: Working with Headers in NPOI
 description: "Work with headers in a document easily and fast instead of using NPOI in C#."

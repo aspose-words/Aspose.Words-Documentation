@@ -1,5 +1,6 @@
 ﻿---
-title: Append Documents – Aspose.Words for Java
+title: Append Documents
+second_title: Aspose.Words for Java
 articleTitle: Append Documents
 linktitle: Append Documents
 description: "Combine documents and append one document to another. Apache POI does not provide an opportunity to merge or append documents."

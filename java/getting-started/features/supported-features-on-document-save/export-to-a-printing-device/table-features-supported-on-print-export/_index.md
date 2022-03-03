@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on Print Export – Aspose.Words for Java
+title: Table Features Supported on Print Export
+second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on Print Export
 linktitle: Table Features Supported on Print Export
 description: "Work with table features when sending a document to printer."

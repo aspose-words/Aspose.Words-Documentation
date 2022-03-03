@@ -1,5 +1,6 @@
 ﻿---
-title: Joining And Appending in Jython – Aspose.Words for Java
+title: Joining And Appending in Jython
+second_title: Aspose.Words for Java
 articleTitle: Joining And Appending in Jython
 linktitle: Joining And Appending in Jython
 description: "Join And Append documents using Jython."

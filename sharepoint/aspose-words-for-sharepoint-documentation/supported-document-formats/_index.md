@@ -1,5 +1,6 @@
 ﻿---
-title: Supported Document Formats - Aspose.Words for SharePoint
+title: Supported Document Formats
+second_title: Aspose.Words for SharePoint
 articleTitle: Supported Document Formats
 linktitle: Supported Document Formats
 description: "Formats which are supported by the Aspose.Words for SharePoint."

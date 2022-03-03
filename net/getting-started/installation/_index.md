@@ -1,5 +1,6 @@
 ---
-title: Installation – Aspose.Words for .NET
+title: Installation
+second_title: Aspose.Words for .NET
 articleTitle: Installation
 linktitle: Installation
 description: "Install Aspose.Words for .NET using Visual Studio tools such as Manage NuGet Packages or Package Manager Console and the MSI installer. Use the Full Trust permission set in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Using and Configuring CRM Document Generator – Aspose.Words for .NET
+title: Using and Configuring CRM Document Generator
+second_title: Aspose.Words for .NET
 articleTitle: Using and Configuring CRM Document Generator
 linktitle: Using and Configuring CRM Document Generator
 description: "How to use and configure Aspose Document Generator add-on using C#."

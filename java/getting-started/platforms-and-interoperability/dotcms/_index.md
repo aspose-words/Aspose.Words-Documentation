@@ -1,5 +1,6 @@
 ﻿---
-title: dotCMS – Aspose.Words for Java
+title: dotCMS
+second_title: Aspose.Words for Java
 articleTitle: dotCMS
 linktitle: dotCMS
 description: "Using Aspose.Words for Java on dotCMS."

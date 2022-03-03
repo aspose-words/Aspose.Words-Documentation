@@ -1,5 +1,6 @@
 ﻿---
-title: Table Features Supported on HTML Import – Aspose.Words for Java
+title: Table Features Supported on HTML Import
+second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on HTML Import
 linktitle: Table Features Supported on HTML Import
 description: "Import HTML-based document using table load options in Java."

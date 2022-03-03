@@ -1,5 +1,6 @@
 ﻿---
 title: Protect or Encrypt a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Protect or Encrypt a Document
 linktitle: Protect or Encrypt a Document
 description: "Aspose.Words for C++ provides Read-Only, Encrypt a Document, Restrict Editing, and Digital Signatures for document protection. Aspose.Words supports most Word protection options."

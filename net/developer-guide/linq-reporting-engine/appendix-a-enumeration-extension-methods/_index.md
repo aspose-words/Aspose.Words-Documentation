@@ -1,5 +1,6 @@
 ﻿---
 title: Appendix A. Enumeration Extension Methods in C#
+second_title: Aspose.Words for .NET
 articleTitle: Appendix A. Enumeration Extension Methods
 linktitle: Appendix A. Enumeration Extension Methods
 description: "Use built-in extension methods to perform common manipulations on a sequential data when building a report using C#."

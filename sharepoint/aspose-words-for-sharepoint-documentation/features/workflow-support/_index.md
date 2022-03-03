@@ -1,5 +1,6 @@
 ﻿---
-title: Workflow support - Aspose.Words for SharePoint
+title: Workflow support
+second_title: Aspose.Words for SharePoint
 articleTitle: Workflow support
 linktitle: Workflow support
 description: "Workflow features of the Aspose.Words for SharePoint."

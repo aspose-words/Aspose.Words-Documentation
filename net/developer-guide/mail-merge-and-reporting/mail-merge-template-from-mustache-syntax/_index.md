@@ -1,5 +1,6 @@
 ﻿---
 title: Mail Merge Template from Mustache Syntax in C#
+second_title: Aspose.Words for .NET
 articleTitle: Mail Merge Template from Mustache Syntax
 linktitle: Mail Merge Template from Mustache Syntax
 type: docs

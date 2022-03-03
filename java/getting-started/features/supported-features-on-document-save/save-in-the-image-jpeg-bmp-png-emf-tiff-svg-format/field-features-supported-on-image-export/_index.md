@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on Image Export – Aspose.Words for Java
+title: Field Features Supported on Image Export
+second_title: Aspose.Words for Java
 articleTitle: Field Features Supported on Image Export
 linktitle: Field Features Supported on Image Export
 description: "Export images (JPEG, PNG, SVG, etc.) using field saving features in Java."

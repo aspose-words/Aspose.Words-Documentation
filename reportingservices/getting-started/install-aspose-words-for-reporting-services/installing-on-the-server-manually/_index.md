@@ -1,5 +1,6 @@
 ﻿---
-title: Installing on the Server Manually - Aspose.Words for Reporting Services
+title: Installing on the Server Manually
+second_title: Aspose.Words for Reporting Services
 articleTitle: Installing on the Server Manually
 linktitle: Installing on the Server Manually
 description: "Manual installation of the Aspose.Words for Reporting Services."

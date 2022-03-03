@@ -1,5 +1,6 @@
 ﻿---
 title: LINQ Reporting Engine Features in C#
+second_title: Aspose.Words for .NET
 articleTitle: LINQ Reporting Engine Features
 linktitle: LINQ Reporting Engine Features
 description: "Learn the powerful LINQ Reporting Engine features to build a report in C#."

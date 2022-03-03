@@ -1,5 +1,6 @@
 ﻿---
-title: Paragraph Features Supported on DOCX Import – Aspose.Words for .NET
+title: Paragraph Features Supported on DOCX Import
+second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on DOCX Import
 linktitle: Paragraph Features Supported on DOCX Import
 description: "Import OOXML document using paragraph load options in C#."

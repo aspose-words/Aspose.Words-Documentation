@@ -1,5 +1,6 @@
 ﻿---
-title: Page Breaks - Aspose.Words for JasperReports
+title: Page Breaks
+second_title: Aspose.Words for JasperReports
 articleTitle: Page Breaks
 linktitle: Page Breaks
 description: "Aspose.Words for JasperReports supports three ways page breaks are inserted between document pages."

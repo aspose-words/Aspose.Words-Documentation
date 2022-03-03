@@ -1,5 +1,6 @@
 ﻿---
 title: Introduction and Creating Tables in Java
+second_title: Aspose.Words for Java
 articleTitle: Introduction and Creating Tables
 linktitle: Introduction and Creating Tables
 description: "Different ways to create tables in your document using Java."

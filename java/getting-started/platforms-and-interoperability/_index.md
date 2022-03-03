@@ -1,5 +1,6 @@
 ---
-title: Supported Platforms – Aspose.Words for Java
+title: Supported Platforms
+second_title: Aspose.Words for Java
 articleTitle: Platforms and Interoperability
 linktitle: Supported Platforms
 description: "Use Aspose.Words when building applications for .NET, Java, and C++, PHP, Python, and other languages."

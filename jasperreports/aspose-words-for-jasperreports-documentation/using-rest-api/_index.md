@@ -1,5 +1,6 @@
 ﻿---
-title: Using REST API - Aspose.Words for JasperReports
+title: Using REST API
+second_title: Aspose.Words for JasperReports
 articleTitle: Using REST API
 linktitle: Using REST API
 description: "Aspose.Words for JasperReports (from v2.6.0) can be used with JasperServer REST API (v2)."

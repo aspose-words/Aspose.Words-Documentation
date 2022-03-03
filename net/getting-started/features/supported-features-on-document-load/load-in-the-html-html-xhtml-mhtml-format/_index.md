@@ -1,5 +1,6 @@
 ﻿---
-title: Load in the HTML (.HTML, .XHTML, .MHTML) Format – Aspose.Words for .NET
+title: Load in the HTML (.HTML, .XHTML, .MHTML) Format
+second_title: Aspose.Words for .NET
 articleTitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format
 description: "Import HTML-based document using different load options in C#."

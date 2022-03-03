@@ -1,5 +1,6 @@
 ﻿---
-title: Exact Row Heights - Aspose.Words for JasperReports
+title: Exact Row Heights
+second_title: Aspose.Words for JasperReports
 articleTitle: Exact Row Heights
 linktitle: Exact Row Heights
 description: "Aspose Words for JasperReports allow setting exact row heights for table rows."

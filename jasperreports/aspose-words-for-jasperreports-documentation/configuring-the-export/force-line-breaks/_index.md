@@ -1,5 +1,6 @@
 ﻿---
-title: Force Line Breaks - Aspose.Words for JasperReports
+title: Force Line Breaks
+second_title: Aspose.Words for JasperReports
 articleTitle: Force Line Breaks
 linktitle: Force Line Breaks
 description: "Aspose Words for JasperReports allow changing Force Line Breaks parameter."

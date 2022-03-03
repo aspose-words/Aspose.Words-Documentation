@@ -1,5 +1,6 @@
 ﻿---
 title: Using TrueType Fonts in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Using TrueType Fonts
 linktitle: Using TrueType Fonts
 description: "Aspose.Words for Python via .NET can find the right font or its suitable replacement for correct document rendering. This ensures that the difference between the displayed document and the original is minimal when there is not enough information about a font."

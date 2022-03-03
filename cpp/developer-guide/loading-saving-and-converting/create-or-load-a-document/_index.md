@@ -1,5 +1,6 @@
 ﻿---
 title: Create or Load a Document in C++
+second_title: Aspose.Words for C++
 articleTitle: Create or Load a Document
 linktitle: Create or Load a Document
 type: docs

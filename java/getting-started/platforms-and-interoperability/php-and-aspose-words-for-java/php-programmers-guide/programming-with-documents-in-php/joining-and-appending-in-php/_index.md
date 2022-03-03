@@ -1,5 +1,6 @@
 ﻿---
-title: Joining And Appending in PHP – Aspose.Words for Java
+title: Joining And Appending in PHP
+second_title: Aspose.Words for Java
 articleTitle: Joining And Appending in PHP
 linktitle: Joining And Appending in PHP
 description: "Joining And Appending Documents using PHP."

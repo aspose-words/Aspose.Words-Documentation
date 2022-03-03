@@ -1,5 +1,6 @@
 ﻿---
-title: Security Notes – Aspose.Words for Java
+title: Security Notes
+second_title: Aspose.Words for Java
 articleTitle: Security Notes
 linktitle: Security Notes
 type: docs

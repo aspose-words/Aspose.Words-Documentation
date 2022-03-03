@@ -1,5 +1,6 @@
 ﻿---
 title: Working with Columns and Rows in C#
+second_title: Aspose.Words for .NET
 articleTitle: Working with Columns and Rows
 linktitle: Working with Columns and Rows
 description: "Working with parts of table, row and cells using C#."

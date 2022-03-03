@@ -1,5 +1,6 @@
 ﻿---
-title: Document Comparison Getting Started – Aspose.Words for .NET
+title: Document Comparison Getting Started
+second_title: Aspose.Words for .NET
 articleTitle: Document Comparison Getting Started
 linktitle: Document Comparison Getting Started
 description: "To get started with Document Comparison by Aspose.Words for .NET learn the information on System Requirements, Technical Support, Download, and Installation."

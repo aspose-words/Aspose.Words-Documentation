@@ -1,5 +1,6 @@
 ---
 title: Perl and Aspose.Words for Java
+second_title: Aspose.Words for Java
 articleTitle: Perl and Aspose.Words for Java
 linktitle: Perl and Aspose.Words for Java
 type: docs

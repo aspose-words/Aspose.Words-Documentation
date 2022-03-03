@@ -1,5 +1,6 @@
 ﻿---
-title: Working With Document in Ruby – Aspose.Words for Java
+title: Working With Document in Ruby
+second_title: Aspose.Words for Java
 articleTitle: Working With Document in Ruby
 linktitle: Working With Document in Ruby
 description: "Working with Document using Ruby."

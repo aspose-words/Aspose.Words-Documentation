@@ -1,5 +1,6 @@
 ﻿---
 title: Work with Options and Appearance of Word Documents in C#
+second_title: Aspose.Words for .NET
 articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents
 description: "Control the appearance of Word documents taking into account the difference between various Microsoft Word versions using C#."

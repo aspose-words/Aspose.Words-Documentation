@@ -1,5 +1,6 @@
 ﻿---
-title: Insert Image in NPOI – Aspose.Words for .NET
+title: Insert Image in NPOI
+second_title: Aspose.Words for .NET
 articleTitle: Insert Image in NPOI
 linktitle: Insert Image in NPOI
 description: "Add an image into a document easily and fast instead of using NPOI in C#."

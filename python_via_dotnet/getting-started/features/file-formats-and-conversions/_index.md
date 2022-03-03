@@ -1,5 +1,6 @@
 ﻿---
-title: File Formats and Conversions – Aspose.Words for Python via .NET
+title: File Formats and Conversions
+second_title: Aspose.Words for Python via .NET
 articleTitle: File Formats and Conversions
 linktitle: File Formats and Conversions
 description: "Convert documents from any supported load to save format with just two lines of Python code. It provides high-quality conversions."

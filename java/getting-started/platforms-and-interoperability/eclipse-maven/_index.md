@@ -1,5 +1,6 @@
 ﻿---
-title: Eclipse - Maven – Aspose.Words for Java
+title: Eclipse - Maven
+second_title: Aspose.Words for Java
 articleTitle: Eclipse - Maven
 linktitle: Eclipse - Maven
 description: "Aspose.Words Java for Eclipse."

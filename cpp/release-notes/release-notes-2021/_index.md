@@ -1,5 +1,6 @@
 ﻿---
-title: Release Notes - 2021 – Aspose.Words for С++
+title: Release Notes - 2021
+second_title: Aspose.Words for C++
 articleTitle: Release Notes - 2021
 linktitle: Release Notes - 2021
 description: "Aspose.Words for С++ Release Notes - 2021 – learn about the latest updates and fixes."

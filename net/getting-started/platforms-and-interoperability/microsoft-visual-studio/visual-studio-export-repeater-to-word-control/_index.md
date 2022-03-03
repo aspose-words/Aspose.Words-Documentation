@@ -1,5 +1,6 @@
 ﻿---
-title: Visual Studio Export Repeater To Word Control – Aspose.Words for .NET
+title: Visual Studio Export Repeater To Word Control
+second_title: Aspose.Words for .NET
 articleTitle: Visual Studio Export Repeater To Word Control
 linktitle: Visual Studio Export Repeater To Word Control
 description: "How to export contents of Repeater into Word Processing document using Aspose.Words in C#."

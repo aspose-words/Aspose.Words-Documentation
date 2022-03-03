@@ -1,5 +1,6 @@
 ﻿---
-title: Save in the Open XML Paper Specification (.XPS) Format – Aspose.Words for .NET
+title: Save in the Open XML Paper Specification (.XPS) Format
+second_title: Aspose.Words for .NET
 articleTitle: Save in the Open XML Paper Specification (.XPS) Format
 linktitle: Save in the Open XML Paper Specification (.XPS) Format
 description: "Export to XPS format using various saving features in C#."

@@ -1,5 +1,6 @@
 ﻿---
-title: Drawing Object Features Supported on EPUB Export – Aspose.Words for Java
+title: Drawing Object Features Supported on EPUB Export
+second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on EPUB Export
 linktitle: Drawing Object Features Supported on EPUB Export
 description: "Export to EPUB format using drawing saving features in Java."

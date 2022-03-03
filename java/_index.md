@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java
 linktitle: Aspose.Words for Java

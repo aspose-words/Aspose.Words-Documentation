@@ -1,5 +1,6 @@
 ﻿---
 title: Aspose.Words for Java 10.0.0 Release Notes
+second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 10.0.0 Release Notes
 linktitle: Aspose.Words for Java 10.0.0 Release Notes
 description: "Aspose.Words for Java 10.0.0 Release Notes – the latest updates and fixes."
@@ -49,4 +50,5 @@ This release is a major milestone because from now on we can work more efficien
 
 
 -----
+
 2011-05-02 Corrected, the zip file was missing HTML documentation for com.aspose.words.

@@ -1,5 +1,6 @@
 ﻿---
 title: Appendix C. Typical Templates in Java
+second_title: Aspose.Words for Java
 articleTitle: Appendix C. Typical Templates
 linktitle: Appendix C. Typical Templates
 description: "Learn the typical templates of LINQ Reporting Engine to build a report in Java."

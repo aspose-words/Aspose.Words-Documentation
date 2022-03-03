@@ -1,5 +1,6 @@
 ﻿---
-title: Positioning Tables - Aspose.Words for JasperReports
+title: Positioning Tables
+second_title: Aspose.Words for JasperReports
 articleTitle: Positioning Tables
 linktitle: Positioning Tables
 description: "Aspose Words for JasperReports will never use positioning tables by default."

@@ -1,5 +1,6 @@
 ﻿---
 title: Using Lexical Tokens in Java
+second_title: Aspose.Words for Java
 articleTitle: Using Lexical Tokens
 linktitle: Using Lexical Tokens
 description: "Use lexical tokens in template expressions when building a report in Java."

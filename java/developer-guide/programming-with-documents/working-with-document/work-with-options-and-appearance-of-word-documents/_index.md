@@ -1,5 +1,6 @@
 ﻿---
 title: Work with Options and Appearance of Word Documents in Java
+second_title: Aspose.Words for Java
 articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents
 description: "Control the appearance of Word documents taking into account the difference between various Microsoft Word versions using Java."

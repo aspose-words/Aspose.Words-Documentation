@@ -1,5 +1,6 @@
 ﻿---
 title: Restrict Document Editing in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Restrict Document Editing
 linktitle: Restrict Document Editing
 description: "Restrict editing a document by setting a restriction type using Python. You can also remove protection and make unrestricted editable regions."

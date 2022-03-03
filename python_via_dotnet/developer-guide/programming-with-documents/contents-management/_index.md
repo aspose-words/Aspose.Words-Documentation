@@ -1,5 +1,6 @@
 ﻿---
 title: Contents Management in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Contents Management
 linktitle: Contents Management
 description: "How to extract and manage document contents programmatically using Python."

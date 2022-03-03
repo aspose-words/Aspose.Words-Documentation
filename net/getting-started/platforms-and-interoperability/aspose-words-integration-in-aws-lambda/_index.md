@@ -1,5 +1,6 @@
 ﻿---
-title: Aspose.Words Integration in AWS Lambda – Aspose.Words for .NET
+title: Aspose.Words Integration in AWS Lambda
+second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words Integration in AWS Lambda
 linktitle: Aspose.Words Integration in AWS Lambda
 type: docs

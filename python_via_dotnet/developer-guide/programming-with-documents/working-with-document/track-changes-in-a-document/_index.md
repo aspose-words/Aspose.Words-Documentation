@@ -1,5 +1,6 @@
 ---
 title: Track Changes in a Document in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Track Changes in a Document
 linktitle: Track Changes in a Document
 description: "Track changes to content and formatting made by you or others using Python. Access individual revisions in a document and apply various properties to them."

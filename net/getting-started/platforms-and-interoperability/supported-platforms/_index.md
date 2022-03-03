@@ -1,5 +1,6 @@
 ---
-title: Supported Platforms Overview – Aspose.Words for .NET
+title: Supported Platforms Overview
+second_title: Aspose.Words for .NET
 articleTitle: Supported Platforms Overview
 linktitle: Supported Platforms Overview
 description: "Aspose.Words for .NET supports a wide range of platforms to work with documents using C#."

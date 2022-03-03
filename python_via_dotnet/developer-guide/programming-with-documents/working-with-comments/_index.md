@@ -1,5 +1,6 @@
 ﻿---
 title: Working with comments in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Working with comments
 linktitle: Working with comments
 description: "How to add, remove, or manipulate comments in a document using Python."

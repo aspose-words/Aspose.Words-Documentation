@@ -1,8 +1,9 @@
 ﻿---
 title: Outputting Expression Results in C#
+second_title: Aspose.Words for .NET
 articleTitle: Outputting Expression Results
 linktitle: Outputting Expression Results
-description: "Output expression results using placeholder within a template when building a report using C#."
+description: "Output expression results using placeholder within a template when building a report in C#."
 type: docs
 weight: 20
 url: /net/outputting-expression-results/

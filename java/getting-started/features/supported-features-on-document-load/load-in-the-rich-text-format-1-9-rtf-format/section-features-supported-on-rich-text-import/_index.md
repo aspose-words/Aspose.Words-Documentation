@@ -1,5 +1,6 @@
 ﻿---
-title: Section Features Supported on Rich Text Import – Aspose.Words for Java
+title: Section Features Supported on Rich Text Import
+second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on Rich Text Import
 linktitle: Section Features Supported on Rich Text Import
 description: "Import RTF document using section load options in Java."

@@ -1,5 +1,6 @@
 ﻿---
-title: Field Features Supported on DOCX Import – Aspose.Words for Java
+title: Field Features Supported on DOCX Import
+second_title: Aspose.Words for Java
 articleTitle: Field Features Supported on DOCX Import
 linktitle: Field Features Supported on DOCX Import
 description: "Import OOXML document using field load options in Java."

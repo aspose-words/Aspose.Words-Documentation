@@ -1,5 +1,6 @@
 ﻿---
-title: Numbering Features Supported on OpenDocument Import – Aspose.Words for .NET
+title: Numbering Features Supported on OpenDocument Import
+second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on OpenDocument Import
 linktitle: Numbering Features Supported on OpenDocument Import
 description: "Import ODT document using numbering load options in C#."

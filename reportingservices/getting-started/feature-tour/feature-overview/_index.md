@@ -1,5 +1,6 @@
 ﻿---
-title: Feature Overview - Aspose.Words for Reporting Services
+title: Feature Overview
+second_title: Aspose.Words for Reporting Services
 articleTitle: Feature Overview
 linktitle: Feature Overview
 description: "Feature overview of the Aspose.Words for Reporting Services."

@@ -1,5 +1,6 @@
 ﻿---
-title: Convert DOCM to DOCX – Aspose.Words for .NET
+title: Convert DOCM to DOCX
+second_title: Aspose.Words for .NET
 articleTitle: Convert DOCM to DOCX
 linktitle: Convert DOCM to DOCX
 description: "Convert DOCM to DOCX easily and fast instead of using Open XML SDK in C#."

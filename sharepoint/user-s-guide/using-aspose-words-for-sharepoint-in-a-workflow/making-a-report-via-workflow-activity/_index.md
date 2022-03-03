@@ -1,5 +1,6 @@
 ﻿---
-title: Making a Report via Workflow Activity - Aspose.Words for SharePoint
+title: Making a Report via Workflow Activity
+second_title: Aspose.Words for SharePoint
 articleTitle: Making a Report via Workflow Activity
 linktitle: Making a Report via Workflow Activity
 description: "This article walks you through creating a workflow for building a report with parameters while using Aspose.Words for SharePoint reports."

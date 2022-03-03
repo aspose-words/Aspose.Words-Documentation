@@ -1,5 +1,6 @@
 ﻿---
-title: Compress Images in PHP – Aspose.Words for Java
+title: Compress Images in PHP
+second_title: Aspose.Words for Java
 articleTitle: Compress Images in PHP
 linktitle: Compress Images in PHP
 description: "Compress Images using PHP."

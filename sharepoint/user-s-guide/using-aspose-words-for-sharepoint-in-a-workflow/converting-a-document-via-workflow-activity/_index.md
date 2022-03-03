@@ -1,5 +1,6 @@
 ﻿---
-title: Converting a Document via Workflow Activity - Aspose.Words for SharePoint
+title: Converting a Document via Workflow Activity
+second_title: Aspose.Words for SharePoint
 articleTitle: Converting a Document via Workflow Activity
 linktitle: Converting a Document via Workflow Activity
 description: "This article explains how to use SharePoint Designer to create a workflow for converting documents while using Aspose.Words for SharePoint."

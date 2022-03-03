@@ -1,5 +1,6 @@
 ﻿---
 title: Joining and Splitting Tables in Python
+second_title: Aspose.Words for Python via .NET
 articleTitle: Joining and Splitting Tables
 linktitle: Joining and Splitting Tables
 description: "Join and split tables in a document using Python."

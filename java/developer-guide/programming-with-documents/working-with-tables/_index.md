@@ -1,5 +1,6 @@
 ---
 title: Working with Tables in Java
+second_title: Aspose.Words for Java
 articleTitle: Working with Tables
 linktitle: Working with Tables
 description: "Introducing to Table node concepts in Aspose.Words for Java."

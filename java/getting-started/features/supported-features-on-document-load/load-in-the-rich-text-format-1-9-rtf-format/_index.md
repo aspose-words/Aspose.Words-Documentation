@@ -1,5 +1,6 @@
 ---
-title: Load in the Rich Text Format 1.9 (.RTF) Format – Aspose.Words for Java
+title: Load in the Rich Text Format 1.9 (.RTF) Format
+second_title: Aspose.Words for Java
 articleTitle: Load in the Rich Text Format 1.9 (.RTF) Format
 linktitle: Load in the Rich Text Format 1.9 (.RTF) Format
 type: docs

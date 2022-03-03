@@ -1,5 +1,6 @@
 ﻿---
-title: API Reference – Aspose.Words for С++
+title: API Reference
+second_title: Aspose.Words for C++
 articleTitle: API Reference
 linktitle: API Reference
 type: docs
