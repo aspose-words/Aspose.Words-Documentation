@@ -1,8 +1,8 @@
-﻿---
+---
 title: Add Watermark in Java
 second_title: Aspose.Words for Java
-articleTitle: Add Watermark in Java
-linktitle: Add Watermark in Java
+articleTitle: Add Watermark
+linktitle: Add Watermark
 description: "Add a watermark into a document. Apache POI does not provide an opportunity to add a watermark."
 type: docs
 weight: 20

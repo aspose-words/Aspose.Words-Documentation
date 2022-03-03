@@ -1,8 +1,8 @@
-﻿---
+---
 title: Add Watermark in C#
 second_title: Aspose.Words for .NET
-articleTitle: Add Watermark in C#
-linktitle: Add Watermark in C#
+articleTitle: Add Watermark
+linktitle: Add Watermark
 description: "Add a watermark into a document. NPOI does not provide an opportunity to add a watermark using C#."
 type: docs
 weight: 90
