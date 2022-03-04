@@ -50,6 +50,10 @@ You can find pricing information on the [“Pricing Information”](https://purc
 
 {{% /alert %}}
 
+### Protecting Your Purchased License
+
+After purchasing a license, you need to carefully read the information on page ["Protecting Your Purchased License"](https://purchase.aspose.com/orders/protecting-your-license-file) to protect your license file. Please note that this page is available for viewing only if you have a paid license.
+
 ### License Applying Options
 
 Licenses can be applied from various locations:
