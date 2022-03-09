@@ -11,11 +11,13 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 22.1, 22.2
+## Aspose.Words for .NET 22.1, 22.2, 22.3
 
 Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.
 
 Aspose.Words 22.2 introduces a new load format and new options for exporting documents. It also contains a major update for tables and some changes for working with fields.
+
+Aspose.Words 22.3 expands the possibilities of working with PDF and TXT formats and improves the work of some existing algorithms and engines. 
 
 The API is enhanced for more flexible and convenient development.
 
@@ -33,6 +35,10 @@ Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new v
 
 The rendering of operators in MathML formulas has been improved.
 
+#### DML Chart Axis Scaling Algorithm Improvements
+
+The DML chart axis scaling algorithm has been improved to be the same as in MS Word.
+
 ### Loading and Saving Documents
 
 #### Controlling Style Behavior When Loading a Document
@@ -45,6 +51,8 @@ An ability to get notifications about the progress of document saving has been a
 
 In 22.2, saving progress notifications have been extended for HTML and XAML based flow formats: HTML, MHTML, Epub, XamlFlow, and XamlFlowPack.
 
+In 22.3, saving progress notifications have been extended for TXT format.
+
 #### Convert Shapes to SVG When Exporting
 
 The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the [ExportShapesAsSvg](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportshapesassvg) property.
@@ -53,16 +61,24 @@ The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EP
 
 List numbering export to PDF logical structure has been implemented.
 
+#### Saving to PDF 2.0 and Improvements in PDF Output
+
+The ability to save a document as PDF 2.0 by adding a new value to the PdfCompliance enumeration, as well as several other requested improvements to PDF output, have been introduced.
+
 ### Other
 
 * An ability to get custom field data that is associated with the field has been added.
 * The latest version of Aspose.Words also included a major update that handles tables with incorrect or missing column width data in the source document.
+* The table comparing algorithm relying on deep analysis of Microsoft Word comparison mechanism has been improved.
+* The comments syntax in LINQ Reporting engine has been provided.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 22.1 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-1-release-notes/).
 
 Learn more about [Aspose.Words for .NET 22.2 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-2-release-notes/).
+
+Learn more about [Aspose.Words for .NET 22.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-3-release-notes/).
 
 {{% /alert %}}
 
