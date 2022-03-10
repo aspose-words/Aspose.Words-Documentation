@@ -52,7 +52,6 @@ There are 91 improvements and fixes in this regular monthly release. The most no
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| Key | Summary | Category |
 | WORDSNET-5101 | Support AES encryption algorithms | New Feature |
 | WORDSNET-14614 | Improve TOC style and page numbers | New Feature |
 | WORDSNET-23250 | Support PDF 2.0 version | New Feature |
