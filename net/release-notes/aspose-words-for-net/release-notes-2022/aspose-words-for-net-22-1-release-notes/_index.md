@@ -193,7 +193,7 @@ ParagraphCollection paras = srcDoc.FirstSection.Body.Paragraphs;
 for (int i = 0; i < paras.Count; i++)
 {
     Paragraph importedPara = (Paragraph)nodeImporter.ImportNode(paras[i], true);
-    Console.WriteLine(importedPara.ParagraphStyle.Name);
+    Console.WriteLine(importedPara.ParagraphFormat.StyleName);
 }
  
 // The code produces the following output:
