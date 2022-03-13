@@ -26,9 +26,9 @@ The selected API will be downloaded and referenced in your project.
 
 You can also update Aspose.Words for C++ to the desired version using *Manage NuGet Packages*.
 
-## Install or Update Aspose.Words using Package Manager Console
+## Install or Update Aspose.Words for C++ using Package Manager Console
 
-You can also install or update Aspose.Words for .NET APIs using the *Package Manager Console*. To do this, follow these steps:
+You can also install or update Aspose.Words for C++ APIs using the *Package Manager Console*. To do this, follow these steps:
 
 1. Open *Microsoft Visual Studio* and *Package Manager Console* from the menu to open package manager console
 2. Type the command `Install-Package Aspose.Words.Cpp -Version 21.3.0` and press Enter to install the latest full release into your application
@@ -38,10 +38,27 @@ You can also install or update Aspose.Words for .NET APIs using the *Package Man
 
 In *Package Manager Console*, you can also use the `Update-Package Aspose.Words.Cpp` command to check for updates to the Aspose.Words package and install them if present.
 
-## Install or Update Aspose.Words using vcpkg
+## Install or Update Aspose.Words for C++ using vcpkg
 
 [vcpkg](https://vcpkg.io/en/index.html) is a free C/C++ package manager for acquiring and managing libraries.
 Please follow [Configure Aspose.Words for C++ with vcpkg](/words/cpp/configure-aspose-words-for-cpp-with-vcpkg/)
+
+## Install or Update Aspose.Words for C++ on macOS using CocoaPods
+
+[CocoaPods](https://cocoapods.org/) is an application level dependency manager. 
+It focuses on source-based distribution of third party code and automatic integration into Xcode projects.
+
+You can also install or update Aspose.Words for C++ APIs using the *CocoaPods*. 
+To do this, follow the instructions from [the official guide](https://guides.cocoapods.org/using/index.html).
+
+An example of using Aspose.Words for C++ as a dependency looks like this:
+
+*`Podfile`*
+{{< highlight json "hl_lines=2" >}}
+target 'MyApp' do
+  pod 'Aspose.Words.Cpp', source: 'https://github.com/aspose-total/Aspose.Total-Podspecs.git'
+end
+{{< /highlight >}}
 
 ## Install Aspose.Words for C++ Manually
 
