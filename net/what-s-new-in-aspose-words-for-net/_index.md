@@ -63,7 +63,7 @@ List numbering export to PDF logical structure has been implemented.
 
 #### Saving to PDF 2.0 and Improvements in PDF Output
 
-The ability to save a document as PDF 2.0 by adding a new value to the PdfCompliance enumeration, as well as several other requested improvements to PDF output, have been introduced.
+The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) enumeration, as well as several other requested improvements to PDF output, have been introduced.
 
 ### Other
 
