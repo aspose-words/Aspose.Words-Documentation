@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Rendering Options When Converting to PDF in C#
 second_title: Aspose.Words for .NET
 articleTitle: Specify Rendering Options When Converting to PDF
@@ -19,7 +19,7 @@ Some examples of using **PdfSaveOptions** are provided below.
 
 {{% alert color="primary" %}}
 
-Currently, you can also save to PDF/A-1 and PDF/A-2 formats. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
+Currently, you can  save to PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, and PDF/UA-1 formats. Use the [PdfCompliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) enumeration to set the PDF standards compliance level. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
 [PdfCompliance.PdfA1a](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) and [PdfCompliance.PdfA1b](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) are marked as obsolete.
 
