@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Save Options in C#
 second_title: Aspose.Words for .NET
 articleTitle: Specify Save Options
@@ -40,6 +40,12 @@ The following code example shows how to load and save OpenDocument encrypted wit
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cs" >}}
 
 Not all formats support encryption and the use of **Password** property.
+
+## Show Document Saving Progress Notifications
+
+Aspose.Words provides the ability to use the [ProgressCallback](https://apireference.aspose.com/words/net/aspose.words.saving/saveoptions/properties/progresscallback) property to get notifications about the progress of document saving.
+
+It is now available when saving to DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, or TXT formats.
 
 ## Update the Document Creation Time
 
