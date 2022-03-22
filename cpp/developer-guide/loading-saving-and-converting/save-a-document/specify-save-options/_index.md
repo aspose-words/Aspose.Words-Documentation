@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Save Options in C++
 second_title: Aspose.Words for C++
 articleTitle: Specify Save Options
@@ -43,6 +43,12 @@ The following code example shows how to load and save OpenDocument encrypted wit
 "cpp-Loading-and-Saving-Load_Options-LoadAndSaveEncryptedODT.cpp" >}}
 
 Not all formats support encryption and the use of **Password** property.
+
+## Show Document Saving Progress Notifications
+
+Aspose.Words provides the ability to use the [ProgressCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_progresscallback_const) property to get notifications about the progress of document saving.
+
+It is now available when saving to DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, or TXT formats.
 
 ## Update the Document Creation Time
 
