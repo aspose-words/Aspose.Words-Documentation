@@ -40,8 +40,8 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 
 |Key|Summary|Category|
 | :- | :- | :- |
-| WORDSNET-1170 | SmartPointer code is not checking is method IsNull exists | Bug |
-| WORDSNET-1171 | Wrong DLLs linked in RelWithDebInfo | Bug |
+| WORDSCPP-1170 | SmartPointer code is not checking is method IsNull exists | Bug |
+| WORDSCPP-1171 | Wrong DLLs linked in RelWithDebInfo | Bug |
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
