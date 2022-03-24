@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Python via .NET 21.11 Release Notes
 second_title: Aspose.Words for Python via .NET
 articleTitle: Aspose.Words for Python via .NET 21.11 Release Notes
@@ -43,7 +43,7 @@ There are 64 improvements and fixes in this release. The most notable are:
 | WORDSNET-18648 | Text gradient support | New Feature |
 | WORDSNET-1697 | Add possibility to use complex Fill Effects for shapes (gradient, texture   etc) | New Feature |
 | WORDSNET-21698 | Convert Word Content Controls to Editable Controls in PDF | Enhancement |
-| WORDSNET-14318 | Provide option to export SDT checkboxes as <input> in HTML | Enhancement |
+| WORDSNET-14318 | Provide option to export SDT checkboxes as &lt;input&gt; in HTML | Enhancement |
 | WORDSNET-8920 | SDT controls placed outside paragraph level are not preserved when   converting to PDF | Enhancement |
 | WORDSNET-11542 | Provide ExportDropDownFormFieldAsText property for StructuredDocumentTag | Enhancement |
 | WORDSNET-16057 | PDF with gradient fill print Issue with Chrome | Enhancement |
@@ -115,11 +115,11 @@ The option is specified by setting PdfSaveOptions.page_mode to newly created Pdf
 Use Case:
 {{< highlight python >}}
 doc = aw.Document("input.docx")
- 
+
 # Specify the new page mode for PDF.
 options = aw.saving.PdfSaveOptions();
 options.page_mode = aw.saving.PdfPageMode.USE_ATTACHMENTS
- 
+
 doc.save("output.pdf", options)
 {{< /highlight >}}
 
@@ -134,15 +134,15 @@ Use Case:
 {{< highlight python >}}
 # The input document name.
 filename = "myfile.chm"
- 
+
 # Create an input stream of the input document.
 input_stream = open(filename, "rb")
- 
+
 # Specify the file name in CHM load options.
 # This allows Aspose.Words to correctly resolve URLs like "ms-its:myfile.chm::/index.htm"
 load_options = aw.loading.ChmLoadOptions()
 load_options.original_file_name = filename
- 
+
 # Load the document.
 doc = aw.Document(input_stream , load_options)
 {{< /highlight >}}
@@ -156,22 +156,22 @@ Use Case: Explains how to ignore text inside field codes.
 # Create document.
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
- 
+
 # Insert field.
 builder.insert_field("INCLUDETEXT", "Text in field")
 
 options = aw.replacing.FindReplaceOptions()
- 
+
 # Replace 'T' in document ignoring text inside field code.
 options.ignore_field_codes = True
 doc.range.replace_regex("T", u"*", options)
 print(doc.get_text())
- 
+
 # Replace 'T' in document NOT ignoring text inside field code.
 options.ignore_field_codes = False
 doc.range.replace_regex("T", u"*", options)
 print(doc.get_text())
- 
+
 # The code produces the following output:
 # \u0013INCLUDETEXT\u0014*ext in field\u0015\u000c
 # \u0013INCLUDE*EX*\u0014*ext in field\u0015\u000c
@@ -186,10 +186,10 @@ A new export_images_as_base64 public option has been added in MarkdownSaveOption
 Use case: Explains how to save Base64 encoded images directly inside a Markdown document.
 {{< highlight python >}}
 doc = aw.Document("DocumentWithShape.docx")
- 
+
 mso = aw.saving.MarkdownSaveOptions()
 mso.export_images_as_base64 = True
- 
+
 doc.save("DocumentWithShape.md", mso)
 {{< /highlight >}}
 
@@ -201,13 +201,13 @@ New style identifiers for Mention, Smart Hyperlink, Hashtag and Unresolved Menti
 {{< highlight python >}}
 # The Mention style.
 MENTION = 372
- 
+
 # The SmartHyperlink style.
 SMART_HYPERLINK = 373
- 
+
 # The Hashtag style.
 HASHTAG = 374
- 
+
 # The UnresolvedMention style.
 UNRESOLVED_MENTION = 375
 {{< /highlight >}}
