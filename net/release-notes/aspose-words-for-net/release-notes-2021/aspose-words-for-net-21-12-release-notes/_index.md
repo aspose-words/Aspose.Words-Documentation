@@ -229,7 +229,7 @@ Use Case:
 // Prepare font sources and generate font search cache beforehand.
 FileFontSource fileSource = new FileFontSource(filePath, fileSourcePriority, fileSourceKey);
 MemoryFontSource memorySource = new MemoryFontSource(fontData, memorySourcePriority, memorySourceKey);
-StreamFontSource streamSource = new SteamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
+StreamFontSource streamSource = new StreamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
 FontSettings settings = new FontSettings();
 settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, streamSource });
 settings.SaveSearchCache(cacheOutputStream);
@@ -237,7 +237,7 @@ settings.SaveSearchCache(cacheOutputStream);
 // Set font sources and load search cache before processing documents. Note that sources should be the same as when saving font search cache.
 FileFontSource fileSource = new FileFontSource(filePath, fileSourcePriority, fileSourceKey);
 MemoryFontSource memorySource = new MemoryFontSource(fontData, memorySourcePriority, memorySourceKey);
-StreamFontSource streamSource = new SteamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
+StreamFontSource streamSource = new StreamFontSourceMemoryImpl(streamSourcePriority, streamSourceKey);
 FontSettings settings = new FontSettings();
 settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, streamSource }, cacheInputStream);
 {{< /highlight >}}

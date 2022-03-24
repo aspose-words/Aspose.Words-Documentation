@@ -263,7 +263,7 @@ public enum PdfPermissions
     HighResolutionPrinting
 }
 {{< /highlight >}}
-5. Several options in PdfSaveOptions cannot be used when saving PDF 2.0
+4. Several options in PdfSaveOptions cannot be used when saving PDF 2.0
 {{< highlight csharp >}}
 public class PdfSaveOptions
 {
@@ -291,6 +291,6 @@ public class PdfSaveOptions
     public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 }
 {{< /highlight >}}
-6. Changes related to obsolete PdfCompliance enum values:
+5. Changes related to obsolete PdfCompliance enum values:
 - Removed obsolete PdfCompliance.Pdf15
-- Removed Obsolete attribute from PdfCompliance.PdfA1b and PdfCompliance.PdfA1a
+- Removed obsolete attribute from PdfCompliance.PdfA1b and PdfCompliance.PdfA1a

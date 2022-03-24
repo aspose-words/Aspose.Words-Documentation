@@ -165,7 +165,7 @@ public byte[] FieldData { get; }
 Use Case:
 {{< highlight csharp >}}
 Document doc = new Document(fileName);
-Field field = document.Range.Fields[0];
+Field field = doc.Range.Fields[0];
 Console.WriteLine(field.Start.FieldData.Length);
 Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
 {{< /highlight >}}
