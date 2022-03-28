@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Product Family
 description: "Aspose.Words is a class library that can be used by developers for various platforms for a variety of document processing tasks."
 type: docs
@@ -49,7 +49,7 @@ The following are the links to some useful resources you may need to accomplish 
 - [Install Aspose.Words for Java from Maven Repository](/words/java/installation/)
 - [Aspose.Words for Java API Reference Guide](https://apireference.aspose.com/words/java)
 - [Download Examples at GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-Java)
-- [Aspose.Words for Java Free Support Forum](https://forum.aspose.com/c/words)
+- [Aspose.Words for Java Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
 ## Aspose.Words for C++

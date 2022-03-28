@@ -1,4 +1,4 @@
-﻿---
+---
 title: How to Run the Examples
 second_title: Aspose.Words for Python via .NET
 articleTitle: How to Run the Examples
@@ -37,7 +37,7 @@ python .\base_conversions.py
 
 {{% alert color="primary" %}}
 
-Please feel free to reach out using our [Aspose.Words Product Family Forum](https://forum.aspose.com/c/words) if you have any issues setting up or running the examples.
+Please feel free to reach out using our [Aspose.Words Product Family Forum](https://forum.aspose.com/c/words/8) if you have any issues setting up or running the examples.
 
 {{% /alert %}}
 
