@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Java 17.2.0 Release Notes
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 17.2.0 Release Notes
@@ -263,7 +263,7 @@ C:\Resources\Test.calibril.ttf
 C:\Resources\Test.css
 {{< /highlight >}}
 
-In this scenario https://www.example.com/resources alias is used to construct URIs of all resources.
+In this scenario `https://www.example.com/resources` alias is used to construct URIs of all resources.
 
 5.
 
@@ -285,7 +285,7 @@ C:\Test.calibril.ttf
 C:\Test.css
 {{< /highlight >}}
 
-In this scenario https://www.example.com/resources alias is used to construct URIs of all resources.
+In this scenario `https://www.example.com/resources` alias is used to construct URIs of all resources.
 
 6.
 
