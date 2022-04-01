@@ -22,7 +22,7 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 - Added saving to PDFA-4 and several other improvements in PDF output.
 - Implemented reading of Photoshop metadata resolution in Jpeg images.
 - Provided an ability to manipulate with DrawingML chart legend entries.
-- Implemented ability to specify the name of an xls/xlsx file the DrawingML chart is linked to.
+- Implemented an ability to specify the name of an xls/xlsx file the DrawingML chart is linked to.
 - Implemented a new mode of import HTML block-level elements.
 
 
@@ -42,7 +42,7 @@ There are 66 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-23610 | Line break is lost when re-saving a PDF | Bug |
 | WORDSNET-23622 | Document model compatibility option value does not match MS Word UI | Bug |
 | WORDSNET-23275 | Font in SmartArt diagram is smaller than in MS Word | Bug |
-| WORDSNET-22982 | Table cell preferred does not match MS Word in AW DOCX output | Bug |
+| WORDSNET-22982 | Table cell preferred does not match MS Word in Aspose.Words DOCX output | Bug |
 | WORDSNET-23616 | Grid calculation fall-back is not detected for a nested table | Bug |
 | WORDSNET-22930 | Incorrect charts rendering for round join style outline | Bug |
 | WORDSNET-22460 | Square blue points in Chart are become round in the PDF | Bug |
@@ -209,11 +209,11 @@ public class PdfSaveOptions
 }
 {{< /highlight >}}
 
-### Implemented ability to set Chart.SourceFullName property
+### Implemented an ability to set Chart.SourceFullName property
 
 Related issue: WORDSNET-23522.
 
-Implemented ability to specify the name of an xls/xlsx file the DrawingML chart is linked to:
+Implemented an ability to specify the name of an xls/xlsx file the DrawingML chart is linked to:
 {{< highlight csharp >}}
 /// <summary>
 /// Gets the path and name of an xls/xlsx file this chart is linked to.
@@ -290,7 +290,7 @@ public enum BlockImportMode
 }
 {{< /highlight >}}
 
-Use Case:
+Use Case: 
 The new mode of import HTML block-level elements allows to better preserve borders and margins seen in the HTML document and get better conversion results.
 
 {{< highlight csharp >}}
@@ -595,7 +595,7 @@ Console.WriteLine(sdt.Id);
 Related issue: WORDSNET-23539
 
 UpdateTableLayout() method was an early attempt to reproduce MS Word logic for table column widths re-calculation without relying on table column widths stored data in the document.
-The method was mostly intended as an alternative way to re-calculate table layouts when relying on the stored column widths caused incorrect results (e.g. for generated documents with incorrect column widths stored by AW itself).
+The method was mostly intended as an alternative way to re-calculate table layouts when relying on the stored column widths caused incorrect results (e.g. for generated documents with incorrect column widths stored by Aspose.Words itself).
 Though the method produced correct results for some cases, it never reproduced MS Word table layout logic entirely.
 As a result, applying the method to an arbitrary document could often produce incorrect results for tables that were handled correctly by the default method relying on the stored column widths.
 
@@ -603,7 +603,7 @@ So after the method was recommended to a customer, we often started to get reque
 
 Since then, much effort was invested into reproducing MS Word table layout logic without relying on stored column widths.
 It turned out that replacing the default logic for any arbitrary table and contents is not feasible. There are too many nuances with content metrics and different combinations of table/cell/container properties to take into account and be sure about the correct results.
-So a limited approach was adopted when AW only replaces stored column widths after checking that everything that can influence table layout of a specific table is supported by the re-calculation algorithm.
+So a limited approach was adopted when Aspose.Words only replaces stored column widths after checking that everything that can influence table layout of a specific table is supported by the re-calculation algorithm.
 The class of the supported tables was widened significantly in release 22.2 and it will be further widened in the future.
 
 As of now, the most common combinations of table content and table/cell properties are supported by the new approach. The new approach also replaces UpdateTableLayout() logic for the supported tables.
