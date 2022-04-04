@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for JasperReports 20.4 Release Notes
+---
+title: 20.4 Release Notes
 second_title: Aspose.Words for JasperReports
 articleTitle: Aspose.Words for JasperReports 20.4 Release Notes
 linktitle: Aspose.Words for JasperReports 20.4 Release Notes

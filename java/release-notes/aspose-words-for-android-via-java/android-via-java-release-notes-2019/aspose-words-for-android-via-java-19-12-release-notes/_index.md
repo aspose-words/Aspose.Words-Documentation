@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Android via Java 19.12 Release Notes
+---
+title: 19.12 Release Notes
 second_title: Aspose.Words for Android via Java
 articleTitle: Aspose.Words for Android via Java 19.12 Release Notes
 linktitle: Aspose.Words for Android via Java 19.12 Release Notes

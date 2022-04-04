@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Java 15.10.0 Release Notes
+---
+title: 15.10.0 Release Notes
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 15.10.0 Release Notes
 linktitle: Aspose.Words for Java 15.10.0 Release Notes

@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Java 3.1.1.1 Release Notes
+---
+title: 3.1.1.1 Release Notes
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 3.1.1.1 Release Notes
 linktitle: Aspose.Words for Java 3.1.1.1 Release Notes

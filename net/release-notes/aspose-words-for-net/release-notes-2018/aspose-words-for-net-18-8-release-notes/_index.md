@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for .NET 18.8 Release Notes
+---
+title: 18.8 Release Notes
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET 18.8 Release Notes
 linktitle: Aspose.Words for .NET 18.8 Release Notes

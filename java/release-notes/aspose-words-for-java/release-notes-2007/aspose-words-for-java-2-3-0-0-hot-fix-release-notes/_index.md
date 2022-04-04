@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Java 2.3.0.0 Hot Fix Release Notes
+---
+title: 2.3.0.0 Hot Fix Release Notes
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 2.3.0.0 Hot Fix Release Notes
 linktitle: Aspose.Words for Java 2.3.0.0 Hot Fix Release Notes

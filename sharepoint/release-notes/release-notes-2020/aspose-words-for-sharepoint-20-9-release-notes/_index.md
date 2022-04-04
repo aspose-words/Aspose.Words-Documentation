@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for SharePoint 20.9 Release Notes
+---
+title: 20.9 Release Notes
 second_title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint 20.9 Release Notes
 linktitle: Aspose.Words for SharePoint 20.9 Release Notes
@@ -21,7 +21,7 @@ This version includes all bug fixes and public API changes made in Aspose.Words 
 |Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for .NET (20.9)|New feature|
-|WORDSSP-214|Add support for TXT import in Aspose.Words for Sharepoint|New feature|
+|WORDSSP-214|Add support for TXT import in Aspose.Words for SharePoint|New feature|
 |WORDSSP-273|Extension name goes to the line below|Bug|
 |WORDSSP-276|Aspose.Words for SharePoint produces wrong output folder structure|Bug|
 |WORDSSP-288|OpenBinaryStream perfomance|Bug|

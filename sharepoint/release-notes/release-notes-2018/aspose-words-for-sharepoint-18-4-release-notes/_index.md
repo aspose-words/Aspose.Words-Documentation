@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for SharePoint 18.4 Release Notes
+---
+title: 18.4 Release Notes
 second_title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint 18.4 Release Notes
 linktitle: Aspose.Words for SharePoint 18.4 Release Notes

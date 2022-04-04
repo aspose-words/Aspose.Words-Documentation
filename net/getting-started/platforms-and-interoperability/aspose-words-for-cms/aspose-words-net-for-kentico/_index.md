@@ -1,8 +1,8 @@
-﻿---
-title: Aspose.Words .NET for Kentico
+---
+title: for Kentico
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words .NET for Kentico
-linktitle: Aspose.Words .NET for Kentico
+linktitle: Aspose.Words for .NET for Kentico
 description: "Integrating Aspose.Words for .NET with Kentico content management systems using C#."
 type: docs
 weight: 130

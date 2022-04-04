@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words for Python via .NET 21.11 Release Notes
+title: 21.11 Release Notes
 second_title: Aspose.Words for Python via .NET
 articleTitle: Aspose.Words for Python via .NET 21.11 Release Notes
 linktitle: Aspose.Words for Python via .NET 21.11 Release Notes

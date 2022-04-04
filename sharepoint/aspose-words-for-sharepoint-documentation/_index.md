@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for SharePoint Documentation
+---
+title: Documentation
 second_title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint Documentation
 linktitle: Aspose.Words for SharePoint Documentation
