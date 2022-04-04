@@ -1,5 +1,5 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on DOCX Export
+title: DOCX Export - Footnotes and Endnote Features
 second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on DOCX Export
 linktitle: Footnotes and Endnote Features Supported on DOCX Export

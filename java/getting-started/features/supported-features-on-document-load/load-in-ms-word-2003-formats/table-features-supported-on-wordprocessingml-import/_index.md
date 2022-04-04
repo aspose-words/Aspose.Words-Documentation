@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on WordprocessingML Import
+title: OOXML Import - Table Features
 second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on WordprocessingML Import
 linktitle: Table Features Supported on WordprocessingML Import

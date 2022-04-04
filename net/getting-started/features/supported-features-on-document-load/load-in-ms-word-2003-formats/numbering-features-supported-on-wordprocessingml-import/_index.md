@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on WordprocessingML Import
+title: OOXML Import - Numbering Features
 second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on WordprocessingML Import
 linktitle: Numbering Features Supported on WordprocessingML Import

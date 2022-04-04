@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on DOCX Export
+title: DOCX Export - Paragraph Features
 second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on DOCX Export
 linktitle: Paragraph Features Supported on DOCX Export

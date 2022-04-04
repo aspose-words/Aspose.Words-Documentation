@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on OpenDocument Export
+title: OpenDocument Export - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on OpenDocument Export
 linktitle: Text Features Supported on OpenDocument Export

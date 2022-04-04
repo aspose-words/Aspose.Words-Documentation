@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on WordprocessingML Export
+title: OOXML Export - Numbering Features
 second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on WordprocessingML Export
 linktitle: Numbering Features Supported on WordprocessingML Export

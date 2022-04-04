@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for .NET 21.6 Release Notes
+---
+title: 21.6 Release Notes
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET 21.6 Release Notes
 linktitle: Aspose.Words for .NET 21.6 Release Notes

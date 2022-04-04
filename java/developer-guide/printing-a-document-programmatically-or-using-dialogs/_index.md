@@ -1,5 +1,5 @@
-﻿---
-title: Printing a Document Programmatically or Using Dialogs in Java
+---
+title: Printing a Document Programmatically or Using Dialogs
 second_title: Aspose.Words for Java
 articleTitle: Printing a Document Programmatically or Using Dialogs
 linktitle: Printing a Document Programmatically or Using Dialogs

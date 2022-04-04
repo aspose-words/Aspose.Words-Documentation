@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on DOC Import
+title: DOC Import - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on DOC Import
 linktitle: Table Features Supported on DOC Import

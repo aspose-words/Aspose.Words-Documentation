@@ -1,5 +1,5 @@
-﻿---
-title: Working with Graphic Elements in Python
+---
+title: Working with Graphic Elements
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Graphic Elements
 linktitle: Working with Graphic Elements

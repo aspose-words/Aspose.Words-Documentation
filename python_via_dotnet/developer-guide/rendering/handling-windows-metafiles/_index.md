@@ -1,5 +1,5 @@
-﻿---
-title: Handling Windows Metafiles in Python
+---
+title: Handling Windows Metafiles
 second_title: Aspose.Words for Python via .NET
 articleTitle: Handling Windows Metafiles
 linktitle: Handling Windows Metafiles

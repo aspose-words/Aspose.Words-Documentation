@@ -1,6 +1,6 @@
-﻿---
-title: Aspose.Words for Xamarin.Android 17.3 Release Notes
-second_title: Aspose.Words for .NET
+---
+title: 17.3 Release Notes
+second_title: Aspose.Words for Xamarin.Android
 articleTitle: Aspose.Words for Xamarin.Android 17.3 Release Notes
 linktitle: Aspose.Words for Xamarin.Android 17.3 Release Notes
 description: "Aspose.Words for Xamarin.Android 17.3 Release Notes – the latest updates and fixes."

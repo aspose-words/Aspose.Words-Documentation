@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on OpenDocument Import
+title: OpenDocument Import - Style Features
 second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on OpenDocument Import
 linktitle: Style Features Supported on OpenDocument Import

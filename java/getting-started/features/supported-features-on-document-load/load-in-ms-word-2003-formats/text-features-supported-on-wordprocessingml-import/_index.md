@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on WordprocessingML Import
+title: OOXML Import - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on WordprocessingML Import
 linktitle: Text Features Supported on WordprocessingML Import

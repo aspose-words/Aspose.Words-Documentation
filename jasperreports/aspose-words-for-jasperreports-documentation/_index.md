@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for JasperReports Documentation
+---
+title: Documentation
 second_title: Aspose.Words for JasperReports
 articleTitle: Aspose.Words for JasperReports Documentation
 linktitle: Aspose.Words for JasperReports Documentation

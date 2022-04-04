@@ -1,5 +1,5 @@
 ﻿---
-title: Custom Markup Features Supported on Rich Text Export
+title: RTF Export - Custom Markup Features
 second_title: Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on Rich Text Export
 linktitle: Custom Markup Features Supported on Rich Text Export

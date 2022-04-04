@@ -1,5 +1,5 @@
-﻿---
-title: Manipulate and Substitute TrueType Fonts in Java
+---
+title: Manipulate and Substitute TrueType Fonts
 second_title: Aspose.Words for Java
 articleTitle: Manipulate and Substitute TrueType Fonts
 linktitle: Manipulate and Substitute TrueType Fonts

@@ -1,5 +1,5 @@
 ---
-title: Use DocumentBuilder to Insert Document Elements in Java
+title: Use DocumentBuilder to Insert Document Elements
 second_title: Aspose.Words for Java
 articleTitle: Use DocumentBuilder to Insert Document Elements
 linktitle: Use DocumentBuilder to Insert Document Elements

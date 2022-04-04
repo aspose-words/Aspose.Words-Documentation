@@ -1,5 +1,5 @@
 ﻿---
-title: Drawing Object Features Supported on WordprocessingML Export
+title: OOXML Export - Drawing Object Features
 second_title: Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on WordprocessingML Export
 linktitle: Drawing Object Features Supported on WordprocessingML Export

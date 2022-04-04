@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on WordprocessingML Import
+title: OOXML Import - Annotation Features
 second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on WordprocessingML Import
 linktitle: Annotation Features Supported on WordprocessingML Import

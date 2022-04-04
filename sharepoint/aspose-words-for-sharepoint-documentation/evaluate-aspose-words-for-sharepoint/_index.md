@@ -1,5 +1,5 @@
-﻿---
-title: Evaluate Aspose.Words for SharePoint
+---
+title: Evaluate
 second_title: Aspose.Words for SharePoint
 articleTitle: Evaluate Aspose.Words for SharePoint
 linktitle: Evaluate Aspose.Words for SharePoint

@@ -1,5 +1,5 @@
-﻿---
-title: Document Comparison by Aspose.Words for .NET
+---
+title: Document Comparison
 second_title: Aspose.Words for .NET
 articleTitle: Document Comparison by Aspose.Words for .NET
 linktitle: Document Comparison by Aspose.Words for .NET

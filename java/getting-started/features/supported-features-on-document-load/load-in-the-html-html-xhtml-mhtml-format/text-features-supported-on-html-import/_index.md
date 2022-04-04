@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on HTML Import
+title: HTML Import - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on HTML Import
 linktitle: Text Features Supported on HTML Import

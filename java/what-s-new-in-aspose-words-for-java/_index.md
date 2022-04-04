@@ -1,5 +1,5 @@
 ---
-title: What's new in Aspose.Words for Java
+title: What's new
 second_title: Aspose.Words for Java
 articleTitle: What's new in Aspose.Words for Java
 linktitle: What's new in Aspose.Words for Java

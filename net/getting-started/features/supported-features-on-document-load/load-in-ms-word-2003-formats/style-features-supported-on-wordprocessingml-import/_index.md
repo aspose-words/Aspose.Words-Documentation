@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on WordprocessingML Import
+title: OOXML Import - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on WordprocessingML Import
 linktitle: Style Features Supported on WordprocessingML Import

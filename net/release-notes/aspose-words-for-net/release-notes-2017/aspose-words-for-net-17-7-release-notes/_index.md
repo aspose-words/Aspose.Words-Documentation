@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for .NET 17.7 Release Notes
+---
+title: 17.7 Release Notes
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET 17.7 Release Notes
 linktitle: Aspose.Words for .NET 17.7 Release Notes

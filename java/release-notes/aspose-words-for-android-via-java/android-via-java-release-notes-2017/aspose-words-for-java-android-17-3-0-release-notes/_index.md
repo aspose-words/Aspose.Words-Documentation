@@ -1,6 +1,6 @@
-﻿---
-title: Aspose.Words for Java.Android 17.3.0 Release Notes
-second_title: Aspose.Words for Java
+---
+title: 17.3.0 Release Notes
+second_title: Aspose.Words for Java.Android
 articleTitle: Aspose.Words for Java.Android 17.3.0 Release Notes
 linktitle: Aspose.Words for Java.Android 17.3.0 Release Notes
 description: "Aspose.Words for Java.Android 17.3.0 Release Notes – the latest updates and fixes."

@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on OpenDocument Import
+title: OpenDocument Import - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on OpenDocument Import
 linktitle: Document Features Supported on OpenDocument Import

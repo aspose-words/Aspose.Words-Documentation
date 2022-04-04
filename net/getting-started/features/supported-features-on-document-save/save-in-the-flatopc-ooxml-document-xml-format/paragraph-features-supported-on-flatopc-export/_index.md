@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on FlatOPC Export
+title: FlatOPC Export - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on FlatOPC Export
 linktitle: Paragraph Features Supported on FlatOPC Export

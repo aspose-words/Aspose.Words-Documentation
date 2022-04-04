@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Java 4.0.2 BETA Release Notes
+---
+title: 4.0.2 BETA Release Notes
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 4.0.2 BETA Release Notes
 linktitle: Aspose.Words for Java 4.0.2 BETA Release Notes

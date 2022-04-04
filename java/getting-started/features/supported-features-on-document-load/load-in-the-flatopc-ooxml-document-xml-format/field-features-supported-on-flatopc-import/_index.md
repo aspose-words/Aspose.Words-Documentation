@@ -1,5 +1,5 @@
 ﻿---
-title: Field Features Supported on FlatOPC Import
+title: FlatOPC Import - Field Features
 second_title: Aspose.Words for Java
 articleTitle: Field Features Supported on FlatOPC Import
 linktitle: Field Features Supported on FlatOPC Import

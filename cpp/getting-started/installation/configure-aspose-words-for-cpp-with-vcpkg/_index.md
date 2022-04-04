@@ -1,5 +1,5 @@
-﻿---
-title: Configure Aspose.Words for C++ With vcpkg
+---
+title: Configure the product With vcpkg
 second_title: Aspose.Words for C++
 articleTitle: Configure Aspose.Words for C++ With vcpkg
 linktitle: Configure Aspose.Words for C++ With vcpkg

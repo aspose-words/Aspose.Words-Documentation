@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on WordprocessingML Import
+title: OOXML Import - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on WordprocessingML Import
 linktitle: Paragraph Features Supported on WordprocessingML Import

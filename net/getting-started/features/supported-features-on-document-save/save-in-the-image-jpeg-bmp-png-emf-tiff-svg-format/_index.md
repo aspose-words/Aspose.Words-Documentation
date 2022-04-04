@@ -1,5 +1,5 @@
 ﻿---
-title: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
+title: Save in the Image (JPG, PNG, etc.) Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
 linktitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format

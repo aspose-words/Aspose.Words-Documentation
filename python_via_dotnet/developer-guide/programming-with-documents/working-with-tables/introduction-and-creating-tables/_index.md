@@ -1,5 +1,5 @@
-﻿---
-title: Introduction and Creating Tables in Python
+---
+title: Introduction and Creating Tables
 second_title: Aspose.Words for Python via .NET
 articleTitle: Introduction and Creating Tables
 linktitle: Introduction and Creating Tables

@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on Rich Text Import
+title: RTF Import - Annotation Features
 second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on Rich Text Import
 linktitle: Annotation Features Supported on Rich Text Import

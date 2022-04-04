@@ -1,5 +1,5 @@
-﻿---
-title: Working with Markdown Features in Python
+---
+title: Working with Markdown Features
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Markdown Features
 linktitle: Working with Markdown Features

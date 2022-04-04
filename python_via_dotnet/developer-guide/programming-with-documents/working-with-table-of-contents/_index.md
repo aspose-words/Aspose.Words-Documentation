@@ -1,5 +1,5 @@
-﻿---
-title: Working with Table of Contents in Python
+---
+title: Working with Table of Contents
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Table of Contents
 linktitle: Working with Table of Contents

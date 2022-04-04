@@ -1,5 +1,5 @@
-﻿---
-title: Working with Charts through Shape.Chart Object in C++
+---
+title: Working with Charts through Shape.Chart Object
 second_title: Aspose.Words for C++
 articleTitle: Working with Charts through Shape.Chart Object
 linktitle: Working with Charts through Shape.Chart Object

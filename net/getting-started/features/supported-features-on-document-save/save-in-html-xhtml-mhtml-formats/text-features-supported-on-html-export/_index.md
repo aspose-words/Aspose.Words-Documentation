@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on HTML Export
+title: HTML Export - Text Features
 second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on HTML Export
 linktitle: Text Features Supported on HTML Export

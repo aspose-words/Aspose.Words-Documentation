@@ -1,5 +1,5 @@
-﻿---
-title: Appendix A. Enumeration Extension Methods in Java
+---
+title: Appendix A. Enumeration Extension Methods
 second_title: Aspose.Words for Java
 articleTitle: Appendix A. Enumeration Extension Methods
 linktitle: Appendix A. Enumeration Extension Methods

@@ -1,5 +1,5 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on XPS Export
+title: XPS Export - Footnotes and Endnote Features
 second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on XPS Export
 linktitle: Footnotes and Endnote Features Supported on XPS Export

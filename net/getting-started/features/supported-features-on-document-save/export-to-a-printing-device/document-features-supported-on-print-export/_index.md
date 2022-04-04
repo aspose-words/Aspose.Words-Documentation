@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on Print Export
+title: Print Export - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on Print Export
 linktitle: Document Features Supported on Print Export

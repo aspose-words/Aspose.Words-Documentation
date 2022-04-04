@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for SharePoint 21.12 Release Notes
+---
+title: 21.12 Release Notes
 second_title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint 21.12 Release Notes
 linktitle: Aspose.Words for SharePoint 21.12 Release Notes

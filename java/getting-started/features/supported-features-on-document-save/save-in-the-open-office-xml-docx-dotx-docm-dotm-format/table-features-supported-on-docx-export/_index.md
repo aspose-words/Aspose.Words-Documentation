@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on DOCX Export
+title: DOCX Export - Table Features
 second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on DOCX Export
 linktitle: Table Features Supported on DOCX Export

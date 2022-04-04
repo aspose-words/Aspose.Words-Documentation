@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on EPUB Export
+title: EPUB Export - Section Features
 second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on EPUB Export
 linktitle: Section Features Supported on EPUB Export

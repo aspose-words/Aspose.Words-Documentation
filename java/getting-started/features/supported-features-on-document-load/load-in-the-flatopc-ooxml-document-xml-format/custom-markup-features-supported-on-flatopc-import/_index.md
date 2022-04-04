@@ -1,5 +1,5 @@
 ﻿---
-title: Custom Markup Features Supported on FlatOPC Import
+title: FlatOPC Import - Custom Markup Features
 second_title: Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on FlatOPC Import
 linktitle: Custom Markup Features Supported on FlatOPC Import

@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on WordprocessingML Import
+title: OOXML Import - Section Features
 second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on WordprocessingML Import
 linktitle: Section Features Supported on WordprocessingML Import

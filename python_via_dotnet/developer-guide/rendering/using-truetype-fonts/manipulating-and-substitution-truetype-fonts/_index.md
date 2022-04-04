@@ -1,5 +1,5 @@
-﻿---
-title: Manipulate and Substitute TrueType Fonts in Python
+---
+title: Manipulate and Substitute TrueType Fonts
 second_title: Aspose.Words for Python via .NET
 articleTitle: Manipulate and Substitute TrueType Fonts
 linktitle: Manipulate and Substitute TrueType Fonts

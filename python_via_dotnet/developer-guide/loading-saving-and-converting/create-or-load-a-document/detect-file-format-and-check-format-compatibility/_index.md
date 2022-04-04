@@ -1,5 +1,5 @@
 ---
-title: Detect File Format and Check Format Compatibility in Python
+title: Detect File Format and Check Format Compatibility
 second_title: Aspose.Words for Python via .NET
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility

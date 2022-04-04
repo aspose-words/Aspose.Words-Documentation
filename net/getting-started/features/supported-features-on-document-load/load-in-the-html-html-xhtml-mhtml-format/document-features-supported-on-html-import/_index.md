@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on HTML Import
+title: HTML Import - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on HTML Import
 linktitle: Document Features Supported on HTML Import

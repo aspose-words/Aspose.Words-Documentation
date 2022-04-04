@@ -1,5 +1,5 @@
 ---
-title: What's new in Aspose.Words for .NET
+title: What's new
 second_title: Aspose.Words for .NET
 articleTitle: What's new in Aspose.Words for .NET
 linktitle: What's new in Aspose.Words for .NET

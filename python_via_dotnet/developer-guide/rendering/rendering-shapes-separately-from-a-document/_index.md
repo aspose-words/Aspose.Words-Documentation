@@ -1,5 +1,5 @@
-﻿---
-title: Rendering Shapes Separately from a Document in Python
+---
+title: Rendering Shapes Separately from a Document
 second_title: Aspose.Words for Python via .NET
 articleTitle: Rendering Shapes Separately from a Document
 linktitle: Rendering Shapes Separately from a Document

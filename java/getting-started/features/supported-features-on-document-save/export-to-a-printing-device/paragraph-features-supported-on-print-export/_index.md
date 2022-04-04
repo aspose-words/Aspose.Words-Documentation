@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on Print Export
+title: Print Export - Paragraph Features
 second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on Print Export
 linktitle: Paragraph Features Supported on Print Export

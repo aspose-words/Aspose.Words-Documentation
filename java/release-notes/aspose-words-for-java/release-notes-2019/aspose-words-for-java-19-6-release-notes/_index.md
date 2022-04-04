@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Java 19.6 Release Notes
+---
+title: 19.6 Release Notes
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Java 19.6 Release Notes
 linktitle: Aspose.Words for Java 19.6 Release Notes

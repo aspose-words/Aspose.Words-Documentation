@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on OpenDocument Import
+title: OpenDocument Import - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on OpenDocument Import
 linktitle: Paragraph Features Supported on OpenDocument Import

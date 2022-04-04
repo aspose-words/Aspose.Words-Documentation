@@ -1,5 +1,5 @@
 ﻿---
-title: Drawing Object Features Supported on DOC Import
+title: DOC Import - Drawing Object Features
 second_title: Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on DOC Import
 linktitle: Drawing Object Features Supported on DOC Import

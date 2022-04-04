@@ -1,5 +1,5 @@
-﻿---
-title: Convert PDF to Other Document Formats in Python
+---
+title: Convert PDF to Other Document Formats
 second_title: Aspose.Words for Python via .NET
 articleTitle: Convert PDF to Other Document Formats
 linktitle: Convert PDF to Other Document Formats

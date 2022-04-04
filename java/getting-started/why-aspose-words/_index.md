@@ -1,5 +1,5 @@
 ---
-title: Aspose.Words for Java or Other Solutions
+title: or Other Solutions
 second_title: Aspose.Words for Java
 articleTitle: Why Aspose.Words
 linktitle: Why Aspose.Words

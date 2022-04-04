@@ -1,5 +1,5 @@
 ---
-title: Specify Rendering Options When Converting to PDF in C++
+title: Specify Rendering Options When Converting to PDF
 second_title: Aspose.Words for C++
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF

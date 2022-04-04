@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for C++ 21.5 Release Notes
+---
+title: 21.5 Release Notes
 second_title: Aspose.Words for C++
 articleTitle: Aspose.Words for C++ 21.5 Release Notes
 linktitle: Aspose.Words for C++ 21.5 Release Notes

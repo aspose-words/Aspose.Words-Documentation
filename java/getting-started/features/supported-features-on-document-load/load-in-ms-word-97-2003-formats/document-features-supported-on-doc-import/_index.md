@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on DOC Import
+title: DOC Import - Document Features
 second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on DOC Import
 linktitle: Document Features Supported on DOC Import

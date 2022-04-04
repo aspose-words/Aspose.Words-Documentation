@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on Rich Text Export
+title: RTF Export - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on Rich Text Export
 linktitle: Table Features Supported on Rich Text Export

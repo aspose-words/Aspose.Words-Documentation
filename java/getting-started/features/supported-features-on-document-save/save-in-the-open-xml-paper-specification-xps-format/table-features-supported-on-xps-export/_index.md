@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on XPS Export
+title: XPS Export - Table Features
 second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on XPS Export
 linktitle: Table Features Supported on XPS Export

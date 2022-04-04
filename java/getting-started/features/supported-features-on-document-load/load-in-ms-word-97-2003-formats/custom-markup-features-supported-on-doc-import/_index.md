@@ -1,5 +1,5 @@
 ﻿---
-title: Custom Markup Features Supported on DOC Import
+title: DOC Import - Custom Markup Features
 second_title: Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on DOC Import
 linktitle: Custom Markup Features Supported on DOC Import

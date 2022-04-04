@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on Rich Text Export
+title: RTF Export - Style Features
 second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on Rich Text Export
 linktitle: Style Features Supported on Rich Text Export

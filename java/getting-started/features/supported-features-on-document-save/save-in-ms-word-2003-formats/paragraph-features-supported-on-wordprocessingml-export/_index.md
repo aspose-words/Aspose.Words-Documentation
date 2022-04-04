@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on WordprocessingML Export
+title: OOXML Export - Paragraph Features
 second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on WordprocessingML Export
 linktitle: Paragraph Features Supported on WordprocessingML Export

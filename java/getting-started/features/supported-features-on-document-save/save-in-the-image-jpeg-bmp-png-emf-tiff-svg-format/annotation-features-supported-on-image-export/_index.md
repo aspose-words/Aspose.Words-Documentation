@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on Image Export
+title: Image Export - Annotation Features
 second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on Image Export
 linktitle: Annotation Features Supported on Image Export

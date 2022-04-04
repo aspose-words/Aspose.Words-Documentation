@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on Rich Text Export
+title: RTF Export - Section Features
 second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on Rich Text Export
 linktitle: Section Features Supported on Rich Text Export

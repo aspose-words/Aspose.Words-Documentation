@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on FlatOPC Import
+title: FlatOPC Import - Table Features
 second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on FlatOPC Import
 linktitle: Table Features Supported on FlatOPC Import

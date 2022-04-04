@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Reporting Services 21.5 Release Notes
+---
+title: 21.5 Release Notes
 second_title: Aspose.Words for Reporting Services
 articleTitle: Aspose.Words for Reporting Services 21.5 Release Notes
 linktitle: Aspose.Words for Reporting Services 21.5 Release Notes

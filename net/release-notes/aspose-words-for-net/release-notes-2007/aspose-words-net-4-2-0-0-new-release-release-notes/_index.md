@@ -1,9 +1,9 @@
-﻿---
-title: Aspose.Words .NET 4.2.0.0 New Release Release Notes
+---
+title: 4.2.0.0 New Release Notes
 second_title: Aspose.Words for .NET
-articleTitle: Aspose.Words .NET 4.2.0.0 New Release Release Notes
-linktitle: Aspose.Words .NET 4.2.0.0 New Release Release Notes
-description: "Aspose.Words .NET 4.2.0.0 New Release Release Notes – the latest updates and fixes."
+articleTitle: Aspose.Words .NET 4.2.0.0 New Release Notes
+linktitle: Aspose.Words for .NET 4.2.0.0 New Release Notes
+description: "Aspose.Words .NET 4.2.0.0 New Release Notes – the latest updates and fixes."
 type: docs
 weight: 210
 url: /net/aspose-words-net-4-2-0-0-new-release-release-notes/

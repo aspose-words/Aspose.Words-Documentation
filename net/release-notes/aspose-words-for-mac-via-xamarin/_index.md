@@ -1,6 +1,5 @@
-﻿---
+---
 title: Aspose.Words for Mac via Xamarin
-second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for Mac via Xamarin
 linktitle: Aspose.Words for Mac via Xamarin
 description: "Aspose.Words for Mac via Xamarin Release Notes – the latest updates and fixes."
