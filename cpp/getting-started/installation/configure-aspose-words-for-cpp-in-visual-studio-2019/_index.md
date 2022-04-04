@@ -1,5 +1,5 @@
-﻿---
-title: Configure Aspose.Words for C++ in Visual Studio 2019
+---
+title: Configure the product in Visual Studio 2019
 second_title: Aspose.Words for C++
 articleTitle: Configure Aspose.Words for C++ in Visual Studio 2019
 linktitle: Configure Aspose.Words for C++ in Visual Studio 2019

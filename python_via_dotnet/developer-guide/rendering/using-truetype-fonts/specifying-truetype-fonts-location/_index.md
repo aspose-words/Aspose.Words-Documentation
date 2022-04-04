@@ -1,5 +1,5 @@
-﻿---
-title: Specify TrueType Fonts Location in Python
+---
+title: Specify TrueType Fonts Location
 second_title: Aspose.Words for Python via .NET
 articleTitle: Specify TrueType Fonts Location
 linktitle: Specify TrueType Fonts Location

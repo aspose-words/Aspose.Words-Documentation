@@ -1,5 +1,5 @@
-﻿---
-title: Using Extension Methods of Iteration Variables in Java
+---
+title: Using Extension Methods of Iteration Variables
 second_title: Aspose.Words for Java
 articleTitle: Using Extension Methods of Iteration Variables
 linktitle: Using Extension Methods of Iteration Variables

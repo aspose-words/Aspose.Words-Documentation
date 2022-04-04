@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on DOCX Export
+title: DOCX Export - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on DOCX Export
 linktitle: Style Features Supported on DOCX Export

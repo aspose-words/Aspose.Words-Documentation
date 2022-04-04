@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on OpenDocument Import
+title: OpenDocument Import - Section Features
 second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on OpenDocument Import
 linktitle: Section Features Supported on OpenDocument Import

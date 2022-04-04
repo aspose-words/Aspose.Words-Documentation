@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on PDF Export
+title: PDF Export - Table Features
 second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on PDF Export
 linktitle: Table Features Supported on PDF Export

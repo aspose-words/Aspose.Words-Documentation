@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on DOCX Import
+title: DOCX Import - Style Features
 second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on DOCX Import
 linktitle: Style Features Supported on DOCX Import

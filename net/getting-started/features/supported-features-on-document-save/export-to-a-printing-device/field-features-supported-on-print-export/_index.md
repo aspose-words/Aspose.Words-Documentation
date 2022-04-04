@@ -1,5 +1,5 @@
 ﻿---
-title: Field Features Supported on Print Export
+title: Print Export - Field Features
 second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on Print Export
 linktitle: Field Features Supported on Print Export

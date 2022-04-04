@@ -1,8 +1,8 @@
-﻿---
-title: Creating OOXML Charts from Scratch using Aspose.Words in C++
+---
+title: Creating OOXML Charts from Scratch
 second_title: Aspose.Words for C++
-articleTitle: Creating OOXML Charts from Scratch using Aspose.Words
-linktitle: Creating OOXML Charts from Scratch using Aspose.Words
+articleTitle: Creating OOXML Charts from Scratch using C++
+linktitle: Creating OOXML Charts from Scratch using C++
 description: "How to create different charts in your document using C++."
 type: docs
 weight: 10

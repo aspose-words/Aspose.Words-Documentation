@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on WordprocessingML Export
+title: OOXML Export - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on WordprocessingML Export
 linktitle: Table Features Supported on WordprocessingML Export

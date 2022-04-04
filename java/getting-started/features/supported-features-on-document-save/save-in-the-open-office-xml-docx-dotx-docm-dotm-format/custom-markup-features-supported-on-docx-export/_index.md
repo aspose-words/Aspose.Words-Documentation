@@ -1,5 +1,5 @@
 ﻿---
-title: Custom Markup Features Supported on DOCX Export
+title: DOCX Export - Custom Markup Features
 second_title: Aspose.Words for Java
 articleTitle: Custom Markup Features Supported on DOCX Export
 linktitle: Custom Markup Features Supported on DOCX Export

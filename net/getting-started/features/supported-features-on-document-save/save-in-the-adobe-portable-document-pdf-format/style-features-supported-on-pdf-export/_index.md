@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on PDF Export
+title: PDF Export - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on PDF Export
 linktitle: Style Features Supported on PDF Export

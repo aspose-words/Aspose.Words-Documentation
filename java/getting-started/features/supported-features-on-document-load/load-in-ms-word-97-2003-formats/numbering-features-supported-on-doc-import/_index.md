@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on DOC Import
+title: DOC Import - Numbering Features
 second_title: Aspose.Words for Java
 articleTitle: Numbering Features Supported on DOC Import
 linktitle: Numbering Features Supported on DOC Import

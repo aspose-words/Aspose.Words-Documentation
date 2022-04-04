@@ -1,5 +1,5 @@
-﻿---
-title: Convert a Document to an Image in Python
+---
+title: Convert a Document to an Image
 second_title: Aspose.Words for Python via .NET
 articleTitle: Convert a Document to an Image
 linktitle: Convert a Document to an Image

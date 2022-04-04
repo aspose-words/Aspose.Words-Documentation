@@ -1,5 +1,5 @@
-﻿---
-title: Forcing Movement to Next Item within Data Band in Java
+---
+title: Forcing Movement to Next Item within Data Band
 second_title: Aspose.Words for Java
 articleTitle: Forcing Movement to Next Item within Data Band
 linktitle: Forcing Movement to Next Item within Data Band

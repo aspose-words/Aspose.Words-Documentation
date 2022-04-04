@@ -1,5 +1,5 @@
 ﻿---
-title: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
+title: Save in the DOC Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
 linktitle: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format

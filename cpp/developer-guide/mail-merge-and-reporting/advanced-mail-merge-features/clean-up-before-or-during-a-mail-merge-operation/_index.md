@@ -1,5 +1,5 @@
-﻿---
-title: Clean Up Before or During a Mail Merge Operation in C++
+---
+title: Clean Up Before or During a Mail Merge Operation
 second_title: Aspose.Words for C++
 articleTitle: Clean Up Before or During a Mail Merge Operation
 linktitle: Clean Up Before or During a Mail Merge Operation

@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on OpenDocument Export
+title: OpenDocument Export - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on OpenDocument Export
 linktitle: Style Features Supported on OpenDocument Export

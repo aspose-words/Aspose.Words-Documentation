@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on DOC Export
+title: DOC Export - Numbering Features
 second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on DOC Export
 linktitle: Numbering Features Supported on DOC Export

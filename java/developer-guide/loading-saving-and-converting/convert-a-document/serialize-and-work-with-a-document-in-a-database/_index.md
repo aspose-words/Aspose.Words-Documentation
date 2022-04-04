@@ -1,5 +1,5 @@
-﻿---
-title: Serialize and Work with a Document in a Database in Java
+---
+title: Serialize and Work with a Document in a Database
 second_title: Aspose.Words for Java
 articleTitle: Serialize and Work with a Document in a Database
 linktitle: Serialize and Work with a Document in a Database

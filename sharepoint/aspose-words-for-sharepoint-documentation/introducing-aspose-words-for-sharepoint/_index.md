@@ -1,5 +1,5 @@
-﻿---
-title: Introducing Aspose.Words for SharePoint
+---
+title: Introducing the product
 second_title: Aspose.Words for SharePoint
 articleTitle: Introducing Aspose.Words for SharePoint
 linktitle: Introducing Aspose.Words for SharePoint

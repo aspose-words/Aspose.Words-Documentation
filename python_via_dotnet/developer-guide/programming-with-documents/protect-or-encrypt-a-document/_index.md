@@ -1,5 +1,5 @@
-﻿---
-title: Protect or Encrypt a Document in Python
+---
+title: Protect or Encrypt a Document
 second_title: Aspose.Words for Python via .NET
 articleTitle: Protect or Encrypt a Document
 linktitle: Protect or Encrypt a Document

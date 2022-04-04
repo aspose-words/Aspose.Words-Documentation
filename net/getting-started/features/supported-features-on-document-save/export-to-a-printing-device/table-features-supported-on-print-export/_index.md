@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on Print Export
+title: Print Export - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on Print Export
 linktitle: Table Features Supported on Print Export

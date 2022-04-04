@@ -1,5 +1,5 @@
-﻿---
-title: Converting to Fixed-page Format in Python
+---
+title: Converting to Fixed-page Format
 second_title: Aspose.Words for Python via .NET
 articleTitle: Converting to Fixed-page Format
 linktitle: Converting to Fixed-page Format

@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on Image Export
+title: Image Export - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on Image Export
 linktitle: Paragraph Features Supported on Image Export

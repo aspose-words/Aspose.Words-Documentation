@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on OpenDocument Import
+title: OpenDocument Import - Numbering Features
 second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on OpenDocument Import
 linktitle: Numbering Features Supported on OpenDocument Import

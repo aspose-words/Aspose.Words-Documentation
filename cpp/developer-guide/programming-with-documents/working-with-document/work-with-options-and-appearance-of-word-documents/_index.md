@@ -1,5 +1,5 @@
-﻿---
-title: Work with Options and Appearance of Word Documents in C++
+---
+title: Work with Options and Appearance of Word Documents
 second_title: Aspose.Words for C++
 articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents

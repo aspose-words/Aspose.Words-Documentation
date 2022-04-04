@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on HTML Import
+title: HTML Import - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on HTML Import
 linktitle: Style Features Supported on HTML Import

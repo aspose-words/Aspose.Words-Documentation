@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on PDF Export
+title: PDF Export - Annotation Features
 second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on PDF Export
 linktitle: Annotation Features Supported on PDF Export

@@ -1,5 +1,5 @@
-﻿---
-title: Configure Aspose.Words for Reporting Services
+---
+title: Configure
 second_title: Aspose.Words for Reporting Services
 articleTitle: Configure Aspose.Words for Reporting Services
 linktitle: Configure Aspose.Words for Reporting Services

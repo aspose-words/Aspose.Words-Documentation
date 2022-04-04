@@ -1,5 +1,5 @@
-﻿---
-title: Working with Columns and Rows in Python
+---
+title: Working with Columns and Rows
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Columns and Rows
 linktitle: Working with Columns and Rows

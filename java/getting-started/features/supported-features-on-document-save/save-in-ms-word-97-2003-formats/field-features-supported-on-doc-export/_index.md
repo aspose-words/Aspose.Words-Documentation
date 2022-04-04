@@ -1,5 +1,5 @@
 ﻿---
-title: Field Features Supported on DOC Export
+title: DOC Export - Field Features
 second_title: Aspose.Words for Java
 articleTitle: Field Features Supported on DOC Export
 linktitle: Field Features Supported on DOC Export

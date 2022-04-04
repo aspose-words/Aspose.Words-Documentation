@@ -1,5 +1,5 @@
-﻿---
-title: Rendering Shapes Separately from a Document in C++
+---
+title: Rendering Shapes Separately from a Document
 second_title: Aspose.Words for C++
 articleTitle: Rendering Shapes Separately from a Document
 linktitle: Rendering Shapes Separately from a Document

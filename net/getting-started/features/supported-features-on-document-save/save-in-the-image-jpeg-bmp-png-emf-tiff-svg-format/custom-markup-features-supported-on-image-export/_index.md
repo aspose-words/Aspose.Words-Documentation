@@ -1,5 +1,5 @@
 ﻿---
-title: Custom Markup Features Supported on Image Export
+title: Image Export - Custom Markup Features
 second_title: Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on Image Export
 linktitle: Custom Markup Features Supported on Image Export

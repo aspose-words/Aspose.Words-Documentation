@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on HTML Export
+title: HTML Export - Style Features
 second_title: Aspose.Words for Java
 articleTitle: Style Features Supported on HTML Export
 linktitle: Style Features Supported on HTML Export

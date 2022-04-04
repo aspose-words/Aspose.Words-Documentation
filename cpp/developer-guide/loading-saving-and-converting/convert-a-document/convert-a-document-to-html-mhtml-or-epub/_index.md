@@ -1,5 +1,5 @@
-﻿---
-title: Convert a Document to HTML, MHTML or EPUB in C++
+---
+title: Convert a Document to HTML, MHTML or EPUB
 second_title: Aspose.Words for C++
 articleTitle: Convert a Document to HTML, MHTML or EPUB
 linktitle: Convert a Document to HTML, MHTML or EPUB

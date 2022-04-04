@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on DOCX Export
+title: DOCX Export - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on DOCX Export
 linktitle: Text Features Supported on DOCX Export

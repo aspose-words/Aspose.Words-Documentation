@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on Image Export
+title: Image Export - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on Image Export
 linktitle: Document Features Supported on Image Export

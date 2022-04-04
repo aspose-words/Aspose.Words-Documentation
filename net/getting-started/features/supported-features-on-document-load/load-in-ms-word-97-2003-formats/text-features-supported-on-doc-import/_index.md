@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on DOC Import
+title: DOC Import - Text Features
 second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on DOC Import
 linktitle: Text Features Supported on DOC Import

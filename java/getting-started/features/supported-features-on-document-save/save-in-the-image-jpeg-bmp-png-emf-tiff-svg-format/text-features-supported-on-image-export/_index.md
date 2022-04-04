@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on Image Export
+title: Image Export - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on Image Export
 linktitle: Text Features Supported on Image Export

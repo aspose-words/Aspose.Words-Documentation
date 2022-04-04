@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on XPS Export
+title: XPS Export - Annotation Features
 second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on XPS Export
 linktitle: Annotation Features Supported on XPS Export

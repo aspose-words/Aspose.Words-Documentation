@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on DOC Export
+title: DOC Export - Section Features
 second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on DOC Export
 linktitle: Section Features Supported on DOC Export

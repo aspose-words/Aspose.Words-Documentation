@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on DOC Import
+title: DOC Import - Annotation Features
 second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on DOC Import
 linktitle: Annotation Features Supported on DOC Import

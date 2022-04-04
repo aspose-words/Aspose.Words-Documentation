@@ -1,5 +1,5 @@
-﻿---
-title: Python and Aspose.Words for Java
+---
+title: Python
 second_title: Aspose.Words for Java
 articleTitle: Python and Aspose.Words for Java
 linktitle: Python and Aspose.Words for Java

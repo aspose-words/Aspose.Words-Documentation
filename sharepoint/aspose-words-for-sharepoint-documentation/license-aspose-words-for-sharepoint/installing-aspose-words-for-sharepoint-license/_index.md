@@ -1,5 +1,5 @@
-﻿---
-title: Installing Aspose.Words for SharePoint License
+---
+title: Installing the product License
 second_title: Aspose.Words for SharePoint
 articleTitle: Installing Aspose.Words for SharePoint License
 linktitle: Installing Aspose.Words for SharePoint License

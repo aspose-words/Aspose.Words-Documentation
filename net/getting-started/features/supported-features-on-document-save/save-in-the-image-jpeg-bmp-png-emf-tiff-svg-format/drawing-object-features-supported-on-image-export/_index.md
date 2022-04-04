@@ -1,5 +1,5 @@
 ﻿---
-title: Drawing Object Features Supported on Image Export
+title: Image Export - Drawing Object Features
 second_title: Aspose.Words for .NET
 articleTitle: Drawing Object Features Supported on Image Export
 linktitle: Drawing Object Features Supported on Image Export

@@ -1,5 +1,5 @@
 ﻿---
-title: Field Features Supported on DOC Import
+title: DOC Import - Field Features
 second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on DOC Import
 linktitle: Field Features Supported on DOC Import

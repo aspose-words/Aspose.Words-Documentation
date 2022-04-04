@@ -1,8 +1,8 @@
 ﻿---
-title: Changing Page Setup for Whole Document using Aspose.Words
+title: Changing Page Setup for Whole Document
 second_title: Aspose.Words for .NET
-articleTitle: Changing Page Setup for Whole Document using Aspose.Words
-linktitle: Changing Page Setup for Whole Document using Aspose.Words
+articleTitle: Changing Page Setup for Whole Document using C#
+linktitle: Changing Page Setup for Whole Document using C#
 description: "Change page setup for a whole document easily and fast instead of using VSTO in C#."
 type: docs
 weight: 10

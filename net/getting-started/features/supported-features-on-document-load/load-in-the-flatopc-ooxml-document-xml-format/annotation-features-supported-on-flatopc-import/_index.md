@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on FlatOPC Import
+title: FlatOPC Import - Annotation Features
 second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on FlatOPC Import
 linktitle: Annotation Features Supported on FlatOPC Import

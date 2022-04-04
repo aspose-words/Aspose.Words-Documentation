@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on EPUB Export
+title: EPUB Export - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on EPUB Export
 linktitle: Text Features Supported on EPUB Export

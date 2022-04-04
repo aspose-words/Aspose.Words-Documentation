@@ -1,5 +1,5 @@
-﻿---
-title: Working with Hyperlinks and HTML in Python
+---
+title: Working with Hyperlinks and HTML
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Hyperlinks and HTML
 linktitle: Working with Hyperlinks and HTML

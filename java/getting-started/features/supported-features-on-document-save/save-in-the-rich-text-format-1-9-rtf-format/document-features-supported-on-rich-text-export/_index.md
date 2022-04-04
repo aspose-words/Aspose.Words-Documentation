@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on Rich Text Export
+title: RTF Export - Document Features
 second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on Rich Text Export
 linktitle: Document Features Supported on Rich Text Export

@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on WordprocessingML Export
+title: OOXML Export - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on WordprocessingML Export
 linktitle: Text Features Supported on WordprocessingML Export

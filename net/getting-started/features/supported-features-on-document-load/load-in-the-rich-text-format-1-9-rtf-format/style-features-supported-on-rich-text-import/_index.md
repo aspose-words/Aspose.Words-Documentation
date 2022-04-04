@@ -1,5 +1,5 @@
 ﻿---
-title: Style Features Supported on Rich Text Import
+title: RTF Import - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on Rich Text Import
 linktitle: Style Features Supported on Rich Text Import

@@ -1,5 +1,5 @@
 ---
-title: Use DocumentBuilder to Insert Document Elements in C++
+title: Use DocumentBuilder to Insert Document Elements
 second_title: Aspose.Words for C++
 articleTitle: Use DocumentBuilder to Insert Document Elements
 linktitle: Use DocumentBuilder to Insert Document Elements

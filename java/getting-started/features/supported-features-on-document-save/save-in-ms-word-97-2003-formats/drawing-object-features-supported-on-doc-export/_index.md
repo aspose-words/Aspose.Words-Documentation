@@ -1,5 +1,5 @@
 ﻿---
-title: Drawing Object Features Supported on DOC Export
+title: DOC Export - Drawing Object Features
 second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on DOC Export
 linktitle: Drawing Object Features Supported on DOC Export

@@ -1,5 +1,5 @@
 ---
-title: How to  Apply Custom Formatting during Mail Merge in Java
+title: How to  Apply Custom Formatting during Mail Merge
 second_title: Aspose.Words for Java
 articleTitle: How to  Apply Custom Formatting during Mail Merge
 linktitle: How to  Apply Custom Formatting during Mail Merge

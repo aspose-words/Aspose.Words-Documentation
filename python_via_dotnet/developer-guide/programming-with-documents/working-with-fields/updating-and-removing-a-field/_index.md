@@ -1,5 +1,5 @@
-﻿---
-title: Updating and Removing a Field in Python
+---
+title: Updating and Removing a Field
 second_title: Aspose.Words for Python via .NET
 articleTitle: Updating and Removing a Field
 linktitle: Updating and Removing a Field

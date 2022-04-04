@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on HTML Export
+title: HTML Export - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on HTML Export
 linktitle: Table Features Supported on HTML Export

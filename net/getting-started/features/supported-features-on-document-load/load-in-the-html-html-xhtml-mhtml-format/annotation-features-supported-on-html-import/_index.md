@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on HTML Import
+title: HTML Import - Annotation Features
 second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on HTML Import
 linktitle: Annotation Features Supported on HTML Import
