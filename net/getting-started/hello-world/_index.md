@@ -19,7 +19,7 @@ Below code snippet follows these steps:
 1. Inisialize a [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class.
 1. Insert text to the document start using simple [write](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/write) method.
 1. Open an existing [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/3) from a file. Automatically detects the file format.
-1. [AppendDocument](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) one document to the and of the second document.
+1. [Append](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) one document to the and of the second document.
 1. [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) the output as PDF.
 
 The following code snippet is a Hello World program to exhibit working of Aspose.Words for .NET API.
