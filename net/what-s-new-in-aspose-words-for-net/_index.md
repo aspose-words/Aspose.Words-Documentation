@@ -11,13 +11,15 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 22.1, 22.2, 22.3
+## Aspose.Words for .NET 22.1, 22.2, 22.3, 22.4
 
 Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.
 
 Aspose.Words 22.2 introduces a new load format and new options for exporting documents. It also contains a major update for tables and some changes for working with fields.
 
-Aspose.Words 22.3 expands the possibilities of working with PDF and TXT formats and improves the work of some existing algorithms and engines. 
+Aspose.Words 22.3 expands the possibilities of working with PDF and TXT formats and improves the work of some existing algorithms and engines.
+
+Aspose.Words 22.4 enhances PDF capabilities – now you can save a file in PDF/A-4 format and get a number of other improvements in PDF output. At the same time, Aspose.Words 22.4 provides additional abilities to work with DML charts, read the Photoshop metadata, and import HTML block-level elements.
 
 The API is enhanced for more flexible and convenient development.
 
@@ -35,9 +37,21 @@ Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new v
 
 The rendering of operators in MathML formulas has been improved.
 
-#### DML Chart Axis Scaling Algorithm Improvements
+#### DML Chart Improvements
 
-The DML chart axis scaling algorithm has been improved to be the same as in MS Word.
+The following improvements have been made to the DML charts:
+
+* The DML chart axis scaling algorithm has been improved to be the same as in MS Word
+* The ability to manipulate with DrawingML chart legend entries has been provided to make our chart API more and more comprehensive
+* The ability to specify the name of an xls/xlsx file the DrawingML chart is linked to has been implemented
+
+#### Rendering to PDF with PDF/A-4 Compliance
+
+Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) enumeration – PdfA4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
+
+#### Reading of Photoshop metadata resolution in JPEG
+
+Reading of Photoshop metadata resolution in JPEG images has been implemented to fix an interesting issue with incorrect scaling of images upon rendering.
 
 ### Loading and Saving Documents
 
@@ -65,6 +79,10 @@ List numbering export to PDF logical structure has been implemented.
 
 The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfcompliance) enumeration, as well as several other requested improvements to PDF output, have been introduced.
 
+#### New HTML Import Mode
+
+A new import mode for HTML block-level elements has been implemented to mimic Microsoft Word behavior.
+
 ### Other
 
 * An ability to get custom field data that is associated with the field has been added.
@@ -79,6 +97,8 @@ Learn more about [Aspose.Words for .NET 22.1 Release Notes](https://docs.aspose.
 Learn more about [Aspose.Words for .NET 22.2 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-2-release-notes/).
 
 Learn more about [Aspose.Words for .NET 22.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-3-release-notes/).
+
+Learn more about [Aspose.Words for .NET 22.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-4-release-notes/).
 
 {{% /alert %}}
 
