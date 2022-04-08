@@ -1,5 +1,5 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on EPUB Export
+title: EPUB Export - Footnotes and Endnote Features
 second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on EPUB Export
 linktitle: Footnotes and Endnote Features Supported on EPUB Export

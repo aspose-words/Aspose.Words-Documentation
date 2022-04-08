@@ -1,5 +1,5 @@
-﻿---
-title: Installing Aspose.Words for SharePoint
+---
+title: Install
 second_title: Aspose.Words for SharePoint
 articleTitle: Installing Aspose.Words for SharePoint
 linktitle: Installing Aspose.Words for SharePoint

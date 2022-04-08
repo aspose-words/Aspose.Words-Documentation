@@ -1,5 +1,5 @@
-﻿---
-title: Saving a Document as a Multipage TIFF in Python
+---
+title: Saving a Document as a Multipage TIFF
 second_title: Aspose.Words for Python via .NET
 articleTitle: Saving a Document as a Multipage TIFF
 linktitle: Saving a Document as a Multipage TIFF

@@ -2,7 +2,7 @@
 title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET
 linktitle: Aspose.Words for .NET
-description: "Aspose.Words for .NET is a class library that enables your applications to perform a great range of document processing tasks – generate, modify, convert, render, and print documents."
+description: "Generate, modify, convert, render, and print documents using C#."
 type: docs
 weight: 10
 url: /net/

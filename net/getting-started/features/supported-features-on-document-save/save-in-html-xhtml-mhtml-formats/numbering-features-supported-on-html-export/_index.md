@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on HTML Export
+title: HTML Export - Numbering Features
 second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on HTML Export
 linktitle: Numbering Features Supported on HTML Export

@@ -1,5 +1,5 @@
-﻿---
-title: Working with Digital Signatures in Python
+---
+title: Working with Digital Signatures
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Digital Signatures
 linktitle: Working with Digital Signatures

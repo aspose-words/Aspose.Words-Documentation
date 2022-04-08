@@ -1,5 +1,5 @@
-﻿---
-title: Convert a Document to HTML, MHTML or EPUB in Python
+---
+title: Convert a Document to HTML, MHTML or EPUB
 second_title: Aspose.Words for Python via .NET
 articleTitle: Convert a Document to HTML, MHTML or EPUB
 linktitle: Convert a Document to HTML, MHTML or EPUB

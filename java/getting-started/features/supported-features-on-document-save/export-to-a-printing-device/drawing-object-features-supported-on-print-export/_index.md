@@ -1,5 +1,5 @@
 ﻿---
-title: Drawing Object Features Supported on Print Export
+title: Print Export - Drawing Object Features
 second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on Print Export
 linktitle: Drawing Object Features Supported on Print Export

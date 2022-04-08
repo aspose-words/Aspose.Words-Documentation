@@ -1,5 +1,5 @@
 ﻿---
-title: Load in the OpenDocument Text (.ODT, .OTT) Format
+title: Load in the ODT Format
 second_title: Aspose.Words for .NET
 articleTitle: Load in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Load in the OpenDocument Text (.ODT, .OTT) Format

@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on XPS Export
+title: XPS Export - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on XPS Export
 linktitle: Document Features Supported on XPS Export

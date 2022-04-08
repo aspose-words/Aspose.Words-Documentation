@@ -1,5 +1,5 @@
-﻿---
-title: Learn Features of Conversion to PDF/A in Python
+---
+title: Learn Features of Conversion to PDF/A
 second_title: Aspose.Words for Python via .NET
 articleTitle: Learn Features of Conversion to PDF/A
 linktitle: Learn Features of Conversion to PDF/A

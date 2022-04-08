@@ -1,5 +1,5 @@
-﻿---
-title: Logical Levels of Nodes in a Document in Python
+---
+title: Logical Levels of Nodes in a Document
 second_title: Aspose.Words for Python via .NET
 articleTitle: Logical Levels of Nodes in a Document
 linktitle: Logical Levels of Nodes in a Document

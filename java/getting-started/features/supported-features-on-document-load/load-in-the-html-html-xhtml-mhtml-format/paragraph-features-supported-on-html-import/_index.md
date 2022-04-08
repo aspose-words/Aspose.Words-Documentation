@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on HTML Import
+title: HTML Import - Paragraph Features
 second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on HTML Import
 linktitle: Paragraph Features Supported on HTML Import

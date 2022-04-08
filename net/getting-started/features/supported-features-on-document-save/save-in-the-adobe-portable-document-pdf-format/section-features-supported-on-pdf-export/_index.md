@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on PDF Export
+title: PDF Export - Section Features
 second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on PDF Export
 linktitle: Section Features Supported on PDF Export

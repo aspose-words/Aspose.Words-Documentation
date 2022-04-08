@@ -1,5 +1,5 @@
-﻿---
-title: Convert a Document to HTML, MHTML or EPUB in Java
+---
+title: Convert a Document to HTML, MHTML or EPUB
 second_title: Aspose.Words for Java
 articleTitle: Convert a Document to HTML, MHTML or EPUB
 linktitle: Convert a Document to HTML, MHTML or EPUB

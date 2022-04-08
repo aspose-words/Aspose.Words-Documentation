@@ -1,5 +1,5 @@
-﻿---
-title: How to Add Group Shape into a Word Document in Python
+---
+title: How to Add Group Shape into a Word Document
 second_title: Aspose.Words for Python via .NET
 articleTitle: How to Add Group Shape into a Word Document
 linktitle: How to Add Group Shape into a Word Document

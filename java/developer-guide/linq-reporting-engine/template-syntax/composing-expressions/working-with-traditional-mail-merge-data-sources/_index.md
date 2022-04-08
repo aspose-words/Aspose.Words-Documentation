@@ -1,5 +1,5 @@
-﻿---
-title: Working with Traditional Mail Merge Data Sources in Java
+---
+title: Working with Traditional Mail Merge Data Sources
 second_title: Aspose.Words for Java
 articleTitle: Working with Traditional Mail Merge Data Sources
 linktitle: Working with Traditional Mail Merge Data Sources

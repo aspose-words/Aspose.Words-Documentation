@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on WordprocessingML Export
+title: OOXML Export - Annotation Features
 second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on WordprocessingML Export
 linktitle: Annotation Features Supported on WordprocessingML Export

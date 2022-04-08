@@ -1,5 +1,5 @@
-﻿---
-title: Work with Document Properties in Python
+---
+title: Work with Document Properties
 second_title: Aspose.Words for Python via .NET
 articleTitle: Work with Document Properties
 linktitle: Work with Document Properties

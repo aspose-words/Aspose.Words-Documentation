@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for .NET 10.5.0 Release Notes
+---
+title: 10.5.0 Release Notes
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words for .NET 10.5.0 Release Notes
 linktitle: Aspose.Words for .NET 10.5.0 Release Notes

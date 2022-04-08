@@ -1,5 +1,5 @@
 ﻿---
-title: Load in the OpenDocument Text (.ODT, .OTT) Format
+title: Load in the ODT Format
 second_title: Aspose.Words for Java
 articleTitle: Load in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Load in the OpenDocument Text (.ODT, .OTT) Format

@@ -1,5 +1,5 @@
-﻿---
-title: Uninstalling Aspose.Words for SharePoint License
+---
+title: Uninstalling the product License
 second_title: Aspose.Words for SharePoint
 articleTitle: Uninstalling Aspose.Words for SharePoint License
 linktitle: Uninstalling Aspose.Words for SharePoint License

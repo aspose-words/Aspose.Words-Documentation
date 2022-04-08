@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on Rich Text Import
+title: RTF Import - Numbering Features
 second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on Rich Text Import
 linktitle: Numbering Features Supported on Rich Text Import

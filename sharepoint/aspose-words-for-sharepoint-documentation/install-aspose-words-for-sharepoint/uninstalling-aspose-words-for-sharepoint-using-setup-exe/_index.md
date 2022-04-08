@@ -1,5 +1,5 @@
-﻿---
-title: Uninstalling Aspose.Words for SharePoint using Setup.exe
+---
+title: Uninstall using Setup.exe
 second_title: Aspose.Words for SharePoint
 articleTitle: Uninstalling Aspose.Words for SharePoint using Setup.exe
 linktitle: Uninstalling Aspose.Words for SharePoint using Setup.exe

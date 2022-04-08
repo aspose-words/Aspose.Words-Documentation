@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on HTML Export
+title: HTML Export - Document Features
 second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on HTML Export
 linktitle: Document Features Supported on HTML Export

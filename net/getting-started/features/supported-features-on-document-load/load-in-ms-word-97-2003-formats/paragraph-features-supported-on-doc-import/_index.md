@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on DOC Import
+title: DOC Import - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on DOC Import
 linktitle: Paragraph Features Supported on DOC Import

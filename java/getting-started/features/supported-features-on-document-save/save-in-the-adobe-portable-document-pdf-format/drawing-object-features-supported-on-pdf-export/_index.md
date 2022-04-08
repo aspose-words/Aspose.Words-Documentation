@@ -1,5 +1,5 @@
 ﻿---
-title: Drawing Object Features Supported on PDF Export
+title: PDF Export - Drawing Object Features
 second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on PDF Export
 linktitle: Drawing Object Features Supported on PDF Export

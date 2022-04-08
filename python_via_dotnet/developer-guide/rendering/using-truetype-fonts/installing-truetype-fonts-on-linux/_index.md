@@ -1,5 +1,5 @@
-﻿---
-title: Install TrueType Fonts on Linux in Python
+---
+title: Install TrueType Fonts on Linux
 second_title: Aspose.Words for Python via .NET
 articleTitle: Install TrueType Fonts on Linux
 linktitle: Install TrueType Fonts on Linux

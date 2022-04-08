@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on FlatOPC Export
+title: FlatOPC Export - Document Features
 second_title: Aspose.Words for Java
 articleTitle: Document Features Supported on FlatOPC Export
 linktitle: Document Features Supported on FlatOPC Export

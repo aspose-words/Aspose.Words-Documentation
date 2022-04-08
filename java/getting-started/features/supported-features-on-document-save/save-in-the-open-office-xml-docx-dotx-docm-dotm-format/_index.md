@@ -1,5 +1,5 @@
 ﻿---
-title: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
+title: Save in the DOCX Format
 second_title: Aspose.Words for Java
 articleTitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
 linktitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format

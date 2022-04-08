@@ -1,5 +1,5 @@
-﻿---
-title: Rendering Shapes Separately from a Document in Java
+---
+title: Rendering Shapes Separately from a Document
 second_title: Aspose.Words for Java
 articleTitle: Rendering Shapes Separately from a Document
 linktitle: Rendering Shapes Separately from a Document

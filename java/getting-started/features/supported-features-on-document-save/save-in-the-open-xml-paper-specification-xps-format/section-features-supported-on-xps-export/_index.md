@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on XPS Export
+title: XPS Export - Section Features
 second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on XPS Export
 linktitle: Section Features Supported on XPS Export

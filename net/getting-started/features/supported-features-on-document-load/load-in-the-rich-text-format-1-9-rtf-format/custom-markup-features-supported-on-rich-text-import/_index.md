@@ -1,5 +1,5 @@
 ﻿---
-title: Custom Markup Features Supported on Rich Text Import
+title: RTF Import - Custom Markup Features
 second_title: Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on Rich Text Import
 linktitle: Custom Markup Features Supported on Rich Text Import

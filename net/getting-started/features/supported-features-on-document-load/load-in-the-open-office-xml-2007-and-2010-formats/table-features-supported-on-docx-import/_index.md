@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on DOCX Import
+title: DOCX Import - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on DOCX Import
 linktitle: Table Features Supported on DOCX Import

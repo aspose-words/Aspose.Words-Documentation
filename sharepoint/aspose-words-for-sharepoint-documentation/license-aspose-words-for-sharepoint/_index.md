@@ -1,5 +1,5 @@
-﻿---
-title: License Aspose.Words for SharePoint
+---
+title: License
 second_title: Aspose.Words for SharePoint
 articleTitle: License Aspose.Words for SharePoint
 linktitle: License Aspose.Words for SharePoint

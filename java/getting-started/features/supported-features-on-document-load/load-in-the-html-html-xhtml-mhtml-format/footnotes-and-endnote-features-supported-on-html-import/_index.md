@@ -1,5 +1,5 @@
 ﻿---
-title: Footnotes and Endnote Features Supported on HTML Import
+title: HTML Import - Footnotes and Endnote Features
 second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on HTML Import
 linktitle: Footnotes and Endnote Features Supported on HTML Import

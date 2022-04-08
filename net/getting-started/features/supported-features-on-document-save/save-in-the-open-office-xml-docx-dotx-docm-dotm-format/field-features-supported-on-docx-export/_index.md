@@ -1,5 +1,5 @@
 ﻿---
-title: Field Features Supported on DOCX Export
+title: DOCX Export - Field Features
 second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on DOCX Export
 linktitle: Field Features Supported on DOCX Export

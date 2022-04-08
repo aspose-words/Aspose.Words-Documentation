@@ -1,5 +1,5 @@
 ﻿---
-title: Document Features Supported on WordprocessingML Import
+title: OOXML Import - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on WordprocessingML Import
 linktitle: Document Features Supported on WordprocessingML Import

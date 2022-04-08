@@ -1,5 +1,5 @@
-﻿---
-title: How to Add Group Shape into a Word Document in C++
+---
+title: How to Add Group Shape into a Word Document
 second_title: Aspose.Words for C++
 articleTitle: How to Add Group Shape into a Word Document
 linktitle: How to Add Group Shape into a Word Document

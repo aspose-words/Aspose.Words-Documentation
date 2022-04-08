@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on PDF Export
+title: PDF Export - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on PDF Export
 linktitle: Paragraph Features Supported on PDF Export

@@ -1,5 +1,5 @@
-﻿---
-title: Configure Aspose.Words for C++ in CMake Project
+---
+title: Configure the product in CMake Project
 second_title: Aspose.Words for C++
 articleTitle: Configure Aspose.Words for C++ in CMake Project
 linktitle: Configure Aspose.Words for C++ in CMake Project

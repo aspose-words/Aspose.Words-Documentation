@@ -1,5 +1,5 @@
 ﻿---
-title: Save in the Adobe Portable Document (.PDF) Format
+title: Save in the PDF Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Adobe Portable Document (.PDF) Format
 linktitle: Save in the Adobe Portable Document (.PDF) Format

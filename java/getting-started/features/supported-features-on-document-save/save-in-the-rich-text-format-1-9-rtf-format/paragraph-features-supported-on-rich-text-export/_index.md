@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on Rich Text Export
+title: RTF Export - Paragraph Features
 second_title: Aspose.Words for Java
 articleTitle: Paragraph Features Supported on Rich Text Export
 linktitle: Paragraph Features Supported on Rich Text Export

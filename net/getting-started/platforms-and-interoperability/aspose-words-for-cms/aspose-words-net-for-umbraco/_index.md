@@ -1,8 +1,8 @@
-﻿---
-title: Aspose.Words .NET for Umbraco
+---
+title: for Umbraco
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words .NET for Umbraco
-linktitle: Aspose.Words .NET for Umbraco
+linktitle: Aspose.Words for .NET for Umbraco
 description: "Integrating Aspose.Words for .NET with Umbraco content management systems using C#."
 type: docs
 weight: 20

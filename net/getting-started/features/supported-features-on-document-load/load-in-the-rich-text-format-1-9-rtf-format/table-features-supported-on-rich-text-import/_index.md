@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on Rich Text Import
+title: RTF Import - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on Rich Text Import
 linktitle: Table Features Supported on Rich Text Import

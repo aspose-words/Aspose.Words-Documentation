@@ -1,5 +1,5 @@
-﻿---
-title: PHP and Aspose.Words for Java
+---
+title: PHP
 second_title: Aspose.Words for Java
 articleTitle: PHP and Aspose.Words for Java
 linktitle: PHP and Aspose.Words for Java

@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on OpenDocument Import
+title: OpenDocument Import - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on OpenDocument Import
 linktitle: Table Features Supported on OpenDocument Import

@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on DOCX Export
+title: DOCX Export - Annotation Features
 second_title: Aspose.Words for Java
 articleTitle: Annotation Features Supported on DOCX Export
 linktitle: Annotation Features Supported on DOCX Export

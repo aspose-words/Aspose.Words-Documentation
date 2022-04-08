@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on OpenDocument Export
+title: OpenDocument Export - Section Features
 second_title: Aspose.Words for Java
 articleTitle: Section Features Supported on OpenDocument Export
 linktitle: Section Features Supported on OpenDocument Export

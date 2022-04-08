@@ -1,6 +1,6 @@
-﻿---
-title: Aspose.Words for iOS via Xamarin 17.9 Release Notes
-second_title: Aspose.Words for .NET
+---
+title: 17.9 Release Notes
+second_title: Aspose.Words for iOS via Xamarin
 articleTitle: Aspose.Words for iOS via Xamarin 17.9 Release Notes
 linktitle: Aspose.Words for iOS via Xamarin 17.9 Release Notes
 description: "Aspose.Words for iOS via Xamarin 17.9 Release Notes – the latest updates and fixes."

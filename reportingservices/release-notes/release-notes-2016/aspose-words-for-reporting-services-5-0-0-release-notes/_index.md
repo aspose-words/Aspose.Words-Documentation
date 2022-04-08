@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Reporting Services 5.0.0 Release Notes
+---
+title: 5.0.0 Release Notes
 second_title: Aspose.Words for Reporting Services
 articleTitle: Aspose.Words for Reporting Services 5.0.0 Release Notes
 linktitle: Aspose.Words for Reporting Services 5.0.0 Release Notes

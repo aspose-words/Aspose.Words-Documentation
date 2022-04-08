@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on Rich Text Export
+title: RTF Export - Annotation Features
 second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on Rich Text Export
 linktitle: Annotation Features Supported on Rich Text Export

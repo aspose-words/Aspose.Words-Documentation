@@ -1,8 +1,8 @@
-﻿---
-title: Aspose.Words Reporting Services 1.0.4.0 Hot Fix Release Notes
+---
+title: 1.0.4.0 Hot Fix Release Notes
 second_title: Aspose.Words for Reporting Services
 articleTitle: Aspose.Words Reporting Services 1.0.4.0 Hot Fix Release Notes
-linktitle: Aspose.Words Reporting Services 1.0.4.0 Hot Fix Release Notes
+linktitle: Aspose.Words for Reporting Services 1.0.4.0 Hot Fix Release Notes
 description: "Aspose.Words Reporting Services 1.0.4.0 Hot Fix Release Notes – the latest updates and fixes."
 type: docs
 weight: 120

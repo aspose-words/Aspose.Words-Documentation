@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on OpenDocument Import
+title: OpenDocument Import - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on OpenDocument Import
 linktitle: Text Features Supported on OpenDocument Import

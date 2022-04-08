@@ -1,5 +1,5 @@
 ﻿---
-title: Drawing Object Features Supported on XPS Export
+title: XPS Export - Drawing Object Features
 second_title: Aspose.Words for Java
 articleTitle: Drawing Object Features Supported on XPS Export
 linktitle: Drawing Object Features Supported on XPS Export

@@ -1,5 +1,5 @@
 ﻿---
-title: Save in the OpenDocument Text (.ODT, .OTT) Format
+title: Save in the ODT Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the OpenDocument Text (.ODT, .OTT) Format
 linktitle: Save in the OpenDocument Text (.ODT, .OTT) Format

@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Reporting Services 3.0.2 Release Notes
+---
+title: 3.0.2 Release Notes
 second_title: Aspose.Words for Reporting Services
 articleTitle: Aspose.Words for Reporting Services 3.0.2 Release Notes
 linktitle: Aspose.Words for Reporting Services 3.0.2 Release Notes

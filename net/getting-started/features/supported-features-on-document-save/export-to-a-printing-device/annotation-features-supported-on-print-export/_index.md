@@ -1,5 +1,5 @@
 ﻿---
-title: Annotation Features Supported on Print Export
+title: Print Export - Annotation Features
 second_title: Aspose.Words for .NET
 articleTitle: Annotation Features Supported on Print Export
 linktitle: Annotation Features Supported on Print Export

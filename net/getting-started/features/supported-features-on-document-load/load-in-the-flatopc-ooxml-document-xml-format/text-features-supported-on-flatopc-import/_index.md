@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on FlatOPC Import
+title: FlatOPC Import - Text Features
 second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on FlatOPC Import
 linktitle: Text Features Supported on FlatOPC Import

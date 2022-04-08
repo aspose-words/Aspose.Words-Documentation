@@ -1,5 +1,5 @@
 ﻿---
-title: Section Features Supported on WordprocessingML Export
+title: OOXML Export - Section Features
 second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on WordprocessingML Export
 linktitle: Section Features Supported on WordprocessingML Export

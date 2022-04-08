@@ -1,5 +1,5 @@
 ﻿---
-title: Field Features Supported on XPS Export
+title: XPS Export - Field Features
 second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on XPS Export
 linktitle: Field Features Supported on XPS Export

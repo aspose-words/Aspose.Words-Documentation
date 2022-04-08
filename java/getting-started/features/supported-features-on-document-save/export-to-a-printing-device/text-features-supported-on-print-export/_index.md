@@ -1,5 +1,5 @@
 ﻿---
-title: Text Features Supported on Print Export
+title: Print Export - Text Features
 second_title: Aspose.Words for Java
 articleTitle: Text Features Supported on Print Export
 linktitle: Text Features Supported on Print Export

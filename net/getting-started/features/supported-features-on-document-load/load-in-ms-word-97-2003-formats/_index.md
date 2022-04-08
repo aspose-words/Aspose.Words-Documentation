@@ -1,5 +1,5 @@
 ﻿---
-title: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
+title: Load in the DOC Format
 second_title: Aspose.Words for .NET
 articleTitle: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
 linktitle: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format

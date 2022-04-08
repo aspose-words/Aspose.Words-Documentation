@@ -1,5 +1,5 @@
-﻿---
-title: Insert and Append Documents in Python
+---
+title: Insert and Append Documents
 second_title: Aspose.Words for Python via .NET
 articleTitle: Insert and Append Documents
 linktitle: Insert and Append Documents

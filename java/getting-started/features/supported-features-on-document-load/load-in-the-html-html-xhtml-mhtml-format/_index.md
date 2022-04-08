@@ -1,5 +1,5 @@
 ﻿---
-title: Load in the HTML (.HTML, .XHTML, .MHTML) Format
+title: Load in the HTML Format
 second_title: Aspose.Words for Java
 articleTitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format
 linktitle: Load in the HTML (.HTML, .XHTML, .MHTML) Format

@@ -1,5 +1,5 @@
 ﻿---
-title: Numbering Features Supported on FlatOPC Import
+title: FlatOPC Import - Numbering Features
 second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on FlatOPC Import
 linktitle: Numbering Features Supported on FlatOPC Import

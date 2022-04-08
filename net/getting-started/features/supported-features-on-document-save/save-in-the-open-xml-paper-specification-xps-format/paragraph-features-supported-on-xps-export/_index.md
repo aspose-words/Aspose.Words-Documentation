@@ -1,5 +1,5 @@
 ﻿---
-title: Paragraph Features Supported on XPS Export
+title: XPS Export - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on XPS Export
 linktitle: Paragraph Features Supported on XPS Export

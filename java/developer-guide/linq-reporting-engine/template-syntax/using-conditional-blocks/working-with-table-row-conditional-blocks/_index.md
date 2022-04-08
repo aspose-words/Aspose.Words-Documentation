@@ -1,5 +1,5 @@
-﻿---
-title: Working with Table-Row Conditional Blocks in Java
+---
+title: Working with Table-Row Conditional Blocks
 second_title: Aspose.Words for Java
 articleTitle: Working with Table-Row Conditional Blocks
 linktitle: Working with Table-Row Conditional Blocks

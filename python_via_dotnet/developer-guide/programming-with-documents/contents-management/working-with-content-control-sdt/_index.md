@@ -1,5 +1,5 @@
-﻿---
-title: Working with Content Control SDT in Python
+---
+title: Working with Content Control SDT
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT

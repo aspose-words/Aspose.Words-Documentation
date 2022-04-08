@@ -1,5 +1,5 @@
 ---
-title: Track Changes in a Document in Python
+title: Track Changes in a Document
 second_title: Aspose.Words for Python via .NET
 articleTitle: Track Changes in a Document
 linktitle: Track Changes in a Document

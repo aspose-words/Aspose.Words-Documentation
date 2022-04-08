@@ -1,5 +1,5 @@
-﻿---
-title: Translate Markdown to Document Object Model (DOM) in Python
+---
+title: Translate Markdown to Document Object Model (DOM)
 second_title: Aspose.Words for Python via .NET
 articleTitle: Translate Markdown to Document Object Model (DOM)
 linktitle: Translate Markdown to Document Object Model (DOM)

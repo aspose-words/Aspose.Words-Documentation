@@ -1,5 +1,5 @@
 ﻿---
-title: Table Features Supported on OpenDocument Export
+title: OpenDocument Export - Table Features
 second_title: Aspose.Words for Java
 articleTitle: Table Features Supported on OpenDocument Export
 linktitle: Table Features Supported on OpenDocument Export

@@ -1,5 +1,5 @@
-﻿---
-title: Work with Options and Appearance of Word Documents in Java
+---
+title: Work with Options and Appearance of Word Documents
 second_title: Aspose.Words for Java
 articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents
