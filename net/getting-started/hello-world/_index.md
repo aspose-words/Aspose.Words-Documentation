@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Hello, World!
 second_title: Simple example how to use Aspose.Words for .NET
 articleTitle: Hello World
 linktitle: Hello World
@@ -22,7 +22,7 @@ Below code snippet follows these steps:
 1. [Append](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) one document to the and of the second document.
 1. [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) the output as PDF.
 
-The following code snippet is a Hello World program to exhibit working of "Aspose.Words for .NET" API.
+The following code snippet is a "Hello, World!" program to exhibit working of "Aspose.Words for .NET" API.
 
 ```csharp
 namespace Aspose.Words.Examples
