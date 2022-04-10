@@ -42,13 +42,13 @@ namespace Aspose.Words.Examples
             builder.Write("First Hello World paragraph");
 
             // Open an existing document B
-            Document docB = new Document("C:\\Temp\\in.docx");
+            Document docB = new Document("C:\\Temp\\documentB.docx");
 
             // Add document B to the and of document A, preserving document B formatting
             docA.AppendDocument(docB, ImportFormatMode.KeepSourceFormatting);
 
             // Save the output as PDF
-            docA.Save("C:\\Temp\\out_AB.pdf");
+            docA.Save("C:\\Temp\\output_AB.pdf");
         }
     }
 }
