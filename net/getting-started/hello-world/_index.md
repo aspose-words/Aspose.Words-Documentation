@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: Hello, World!
 second_title: Simple example how to use Aspose.Words for .NET
-articleTitle: Hello World
+articleTitle: Hello, World!
 linktitle: Hello World
 description: "Create, edit and save your first document in any supported format using Aspose.Words for .NET to experience its simplicity and power in C#."
 type: docs
@@ -11,7 +11,7 @@ url: /net/hello-world/
 
 A "Hello, World!" code is often the first simple example to write uisng "Aspose.Words for .NET", and it can also be used as a sanity test to ensure the software intended to compile or run source code is correctly installed.
 
-"Aspose.Words for .NET" C# library gives developers direct access to create, modify, merge, convert, compare Word and Web documents. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML and many other file formats are supported.
+"Aspose.Words for .NET" C# library gives developers direct access to create, modify, merge, convert, compare Word and Web documents. PDF, DOCX, DOC, RTF, ODT, EPUB, HTML and many other file formats are [supported](https://docs.aspose.com/words/net/supported-document-formats/).
 
 Below code snippet follows these steps:
 
@@ -19,10 +19,10 @@ Below code snippet follows these steps:
 1. Inisialize a [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class.
 1. Insert text to the document start using simple [write](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/write) method.
 1. Open an existing [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/3) from a file. Automatically detects the file format.
-1. [Append](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) one document to the and of the second document.
+1. [Append](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) document "A" to the and of the document "B".
 1. [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) the output as PDF.
 
-The following code snippet is a Hello World program to exhibit working of "Aspose.Words for .NET" API.
+The following code snippet is a "Hello, World!" program to exhibit working of "Aspose.Words for .NET" API.
 
 ```csharp
 namespace Aspose.Words.Examples
@@ -42,13 +42,13 @@ namespace Aspose.Words.Examples
             builder.Write("First Hello World paragraph");
 
             // Open an existing document B
-            Document docB = new Document("C:\\Temp\\in.docx");
+            Document docB = new Document("C:\\Temp\\documentB.docx");
 
             // Add document B to the and of document A, preserving document B formatting
             docA.AppendDocument(docB, ImportFormatMode.KeepSourceFormatting);
 
             // Save the output as PDF
-            docA.Save("C:\\Temp\\out_AB.pdf");
+            docA.Save("C:\\Temp\\output_AB.pdf");
         }
     }
 }
