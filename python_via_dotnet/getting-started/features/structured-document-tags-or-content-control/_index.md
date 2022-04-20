@@ -1,5 +1,5 @@
-﻿---
-title: Structured Document Tags or Content Control
+---
+title: Structured Document Tags
 second_title: Aspose.Words for Python via .NET
 articleTitle: Structured Document Tags or Content Control
 linktitle: Structured Document Tags or Content Control

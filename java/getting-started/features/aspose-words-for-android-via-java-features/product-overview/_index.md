@@ -1,5 +1,5 @@
 ---
-title: Product Overview – Aspose.Words for Android via Java
+title: Android via Java Product Overview
 second_title: Aspose.Words for Java
 articleTitle: Product Overview
 linktitle: Product Overview

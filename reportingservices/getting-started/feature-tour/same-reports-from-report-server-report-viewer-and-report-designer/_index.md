@@ -1,6 +1,6 @@
-﻿---
-title: Same Reports from Report Server, Report Viewer and Report Designer
-second_title: Aspose.Words for Reporting Services
+---
+title: Reports – Report Server, Report Viewer, Report Designer
+second_title: Aspose.Words
 articleTitle: Same Reports from Report Server, Report Viewer and Report Designer
 linktitle: Same Reports from Report Server, Report Viewer and Report Designer
 description: "Technologies which may be used to export reports using the Aspose.Words for Reporting Services."

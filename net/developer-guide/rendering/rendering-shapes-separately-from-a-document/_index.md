@@ -1,5 +1,5 @@
-﻿---
-title: Rendering Shapes Separately from a Document in C#
+---
+title: Rendering Shapes Separately from Document
 second_title: Aspose.Words for .NET
 articleTitle: Rendering Shapes Separately from a Document
 linktitle: Rendering Shapes Separately from a Document
