@@ -1,6 +1,6 @@
-﻿---
+---
 title: Open Existing Documents in Apache POI and Aspose.Words
-second_title: Aspose.Words for Java
+second_title: Java
 articleTitle: Open Existing Documents in Apache POI and Aspose.Words
 linktitle: Open Existing Documents in Apache POI and Aspose.Words
 description: "Open an existing document easily and fast instead of using Apache POI."

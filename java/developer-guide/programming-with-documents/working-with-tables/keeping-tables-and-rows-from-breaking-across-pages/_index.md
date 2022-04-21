@@ -1,5 +1,5 @@
 ---
-title: Keeping Tables and Rows from Breaking across Pages
+title: Keep Tables from Breaking across Pages
 second_title: Aspose.Words for Java
 articleTitle: Keeping Tables and Rows from Breaking across Pages
 linktitle: Keeping Tables and Rows from Breaking across Pages

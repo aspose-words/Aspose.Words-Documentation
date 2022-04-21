@@ -1,5 +1,5 @@
-﻿---
-title: OpenDocument Import - Footnotes and Endnote Features
+---
+title: OpenDocument Import - Footnote and Endnote
 second_title: Aspose.Words for .NET
 articleTitle: Footnotes and Endnote Features Supported on OpenDocument Import
 linktitle: Footnotes and Endnote Features Supported on OpenDocument Import

@@ -1,5 +1,5 @@
-﻿---
-title: OneClick Word Document Generator for Dynamics CRM
+---
+title: OneClick Generator for Dynamics CRM
 second_title: Aspose.Words for .NET
 articleTitle: OneClick Word Document Generator for Dynamics CRM
 linktitle: OneClick Word Document Generator for Dynamics CRM

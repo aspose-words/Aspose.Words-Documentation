@@ -1,5 +1,5 @@
-﻿---
-title: Using and Configuring CRM OneClick Word Document Generator
+---
+title: Configure and Use CRM OneClick Generator
 second_title: Aspose.Words for .NET
 articleTitle: Using and Configuring CRM OneClick Word Document Generator
 linktitle: Using and Configuring CRM OneClick Word Document Generator

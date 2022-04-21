@@ -1,5 +1,5 @@
-﻿---
-title: Save in the Open XML Paper Specification Overview
+---
+title: Save in XPS Format Overview
 second_title: Aspose.Words for Java
 articleTitle: Save in the Open XML Paper Specification Overview
 linktitle: Save in the Open XML Paper Specification Overview

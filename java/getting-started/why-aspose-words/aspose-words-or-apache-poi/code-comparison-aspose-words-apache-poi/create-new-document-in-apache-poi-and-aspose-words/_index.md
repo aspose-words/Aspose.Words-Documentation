@@ -1,6 +1,6 @@
-﻿---
+---
 title: Create New Document in Apache POI and Aspose.Words
-second_title: Aspose.Words for Java
+second_title: Java
 articleTitle: Create New Document in Apache POI and Aspose.Words
 linktitle: Create New Document in Apache POI and Aspose.Words
 description: "Create a new document easily and fast instead of using Apache POI."

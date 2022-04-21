@@ -1,5 +1,5 @@
-﻿---
-title: OpenDocument Export - Footnotes an Endnote Features
+---
+title: OpenDocument Export - Footnote an Endnote
 second_title: Aspose.Words for .NET
 articleTitle: Footnotes an Endnote Features Supported on OpenDocument Export
 linktitle: Footnotes an Endnote Features Supported on OpenDocument Export

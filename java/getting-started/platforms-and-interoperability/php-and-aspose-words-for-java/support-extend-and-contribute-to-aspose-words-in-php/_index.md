@@ -1,5 +1,5 @@
-﻿---
-title: Support, Extend and Contribute to Aspose.Words in PHP
+---
+title: Contribute Aspose.Words in PHP
 second_title: Aspose.Words for Java
 articleTitle: Support, Extend and Contribute to Aspose.Words in PHP
 linktitle: Support, Extend and Contribute to Aspose.Words in PHP

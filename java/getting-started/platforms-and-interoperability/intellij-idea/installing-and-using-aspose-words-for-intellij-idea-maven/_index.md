@@ -1,5 +1,5 @@
-﻿---
-title: Installing and Using Aspose.Words for IntelliJ IDEA - Maven
+---
+title: Install Aspose.Words IntelliJ IDEA
 second_title: Aspose.Words for Java
 articleTitle: Installing and Using Aspose.Words for IntelliJ IDEA - Maven
 linktitle: Installing and Using Aspose.Words for IntelliJ IDEA - Maven

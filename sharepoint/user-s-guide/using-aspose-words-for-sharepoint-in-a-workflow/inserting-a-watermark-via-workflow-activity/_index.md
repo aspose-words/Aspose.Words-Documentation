@@ -1,5 +1,5 @@
-﻿---
-title: Inserting a Watermark via Workflow Activity
+---
+title: Insert a Watermark
 second_title: Aspose.Words for SharePoint
 articleTitle: Inserting a Watermark via Workflow Activity
 linktitle: Inserting a Watermark via Workflow Activity

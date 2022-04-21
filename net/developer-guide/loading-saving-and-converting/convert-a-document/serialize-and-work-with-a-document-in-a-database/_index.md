@@ -1,5 +1,5 @@
-﻿---
-title: Serialize and Work with a Document in a Database in C#
+---
+title: Serialize Document in a Database
 second_title: Aspose.Words for .NET
 articleTitle: Serialize and Work with a Document in a Database
 linktitle: Serialize and Work with a Document in a Database

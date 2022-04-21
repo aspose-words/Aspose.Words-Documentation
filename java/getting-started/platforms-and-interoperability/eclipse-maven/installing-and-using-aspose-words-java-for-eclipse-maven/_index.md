@@ -1,5 +1,5 @@
-﻿---
-title: Installing and Using Aspose.Words Java for Eclipse - Maven
+---
+title: Install Aspose.Words Java for Eclipse
 second_title: Aspose.Words for Java
 articleTitle: Installing and Using Aspose.Words Java for Eclipse - Maven
 linktitle: Installing and Using Aspose.Words Java for Eclipse - Maven

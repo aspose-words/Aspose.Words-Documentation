@@ -1,5 +1,5 @@
-﻿---
-title: Code Comparison for Common Features in Aspose.Words and docx4j
+---
+title: Comparison Aspose.Words and docx4j
 second_title: Aspose.Words for Java
 articleTitle: Code Comparison for Common Features in Aspose.Words and docx4j
 linktitle: Code Comparison for Common Features in Aspose.Words and docx4j

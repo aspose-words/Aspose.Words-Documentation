@@ -1,5 +1,5 @@
-﻿---
-title: Extend and Contribute to CRM OneClick Word Document Generator
+---
+title: Extend CRM OneClick Word Document Generator
 second_title: Aspose.Words for .NET
 articleTitle: Extend and Contribute to CRM OneClick Word Document Generator
 linktitle: Extend and Contribute to CRM OneClick Word Document Generator

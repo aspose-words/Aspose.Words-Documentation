@@ -1,5 +1,5 @@
 ---
-title: Specify Rendering Options When Converting to PDF in C#
+title: Options When Converting to PDF
 second_title: Aspose.Words for .NET
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF

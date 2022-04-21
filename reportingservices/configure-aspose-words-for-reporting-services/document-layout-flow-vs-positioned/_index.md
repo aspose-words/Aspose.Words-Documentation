@@ -1,5 +1,5 @@
-﻿---
-title: Document Layout Flow vs. Positioned
+---
+title: Document Layout
 second_title: Aspose.Words for Reporting Services
 articleTitle: Document Layout Flow vs. Positioned
 linktitle: Document Layout Flow vs. Positioned

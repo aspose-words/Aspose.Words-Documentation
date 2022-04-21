@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words Project Wizard for IntelliJ IDEA - Maven
+---
+title: Aspose.Words for IntelliJ IDEA - Maven
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words Project Wizard for IntelliJ IDEA - Maven
 linktitle: Aspose.Words Project Wizard for IntelliJ IDEA - Maven
