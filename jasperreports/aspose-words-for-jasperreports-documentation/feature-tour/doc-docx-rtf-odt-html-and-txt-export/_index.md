@@ -1,5 +1,5 @@
-﻿---
-title: DOC, DOCX, RTF, ODT, HTML, and TXT Export
+---
+title: Export Formats
 second_title: Aspose.Words for JasperReports
 articleTitle: DOC, DOCX, RTF, ODT, HTML, and TXT Export
 linktitle: DOC, DOCX, RTF, ODT, HTML, and TXT Export

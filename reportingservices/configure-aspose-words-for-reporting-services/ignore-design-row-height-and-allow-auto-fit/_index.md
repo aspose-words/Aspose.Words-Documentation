@@ -1,5 +1,5 @@
-﻿---
-title: Ignore Design Row Height and Allow Auto Fit
+---
+title: Ignore Design Row Height
 second_title: Aspose.Words for Reporting Services
 articleTitle: Ignore Design Row Height and Allow Auto Fit
 linktitle: Ignore Design Row Height and Allow Auto Fit

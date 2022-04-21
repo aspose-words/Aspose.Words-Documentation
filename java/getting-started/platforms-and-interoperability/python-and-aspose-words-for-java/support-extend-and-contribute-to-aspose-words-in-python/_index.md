@@ -1,5 +1,5 @@
-﻿---
-title: Support, Extend and Contribute to Aspose.Words in Python
+---
+title: Contribute Aspose.Words in Python
 second_title: Aspose.Words for Java
 articleTitle: Support, Extend and Contribute to Aspose.Words in Python
 linktitle: Support, Extend and Contribute to Aspose.Words in Python

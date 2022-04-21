@@ -1,5 +1,5 @@
-﻿---
-title: XPS Export - Footnotes and Endnote Features
+---
+title: XPS Export - Footnote and Endnote
 second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on XPS Export
 linktitle: Footnotes and Endnote Features Supported on XPS Export

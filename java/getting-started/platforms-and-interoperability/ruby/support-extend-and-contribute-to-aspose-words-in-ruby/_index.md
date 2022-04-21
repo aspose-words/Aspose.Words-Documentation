@@ -1,5 +1,5 @@
-﻿---
-title: Support, Extend and Contribute to Aspose.Words in Ruby
+---
+title: Contribute Aspose.Words in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Support, Extend and Contribute to Aspose.Words in Ruby
 linktitle: Support, Extend and Contribute to Aspose.Words in Ruby

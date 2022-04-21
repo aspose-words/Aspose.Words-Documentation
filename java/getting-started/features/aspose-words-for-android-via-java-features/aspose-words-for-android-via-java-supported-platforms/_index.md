@@ -1,5 +1,5 @@
-﻿---
-title: Aspose.Words for Android via Java Supported Platforms
+---
+title: Android via Java Supported Platforms
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Android via Java Supported Platforms
 linktitle: Aspose.Words for Android via Java Supported Platforms

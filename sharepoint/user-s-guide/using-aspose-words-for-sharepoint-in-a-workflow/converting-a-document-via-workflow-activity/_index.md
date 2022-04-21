@@ -1,5 +1,5 @@
-﻿---
-title: Converting a Document via Workflow Activity
+---
+title: Convert a Document
 second_title: Aspose.Words for SharePoint
 articleTitle: Converting a Document via Workflow Activity
 linktitle: Converting a Document via Workflow Activity

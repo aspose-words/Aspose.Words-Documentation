@@ -1,5 +1,5 @@
-﻿---
-title: Code Comparison for Common Features in Aspose.Words and Apache POI - HWPF and XWPF
+---
+title: Comparison Aspose.Words and Apache POI
 second_title: Aspose.Words for Java
 articleTitle: Code Comparison for Common Features in Aspose.Words and Apache POI - HWPF and XWPF
 linktitle: Code Comparison for Common Features in Aspose.Words and Apache POI - HWPF and XWPF

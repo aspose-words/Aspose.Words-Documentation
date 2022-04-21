@@ -1,5 +1,5 @@
-﻿---
-title: Load in the Open Office XML 2007 an 2010 Format Overview
+---
+title: Load in Office 2007 and 2010 Format Overview
 second_title: Aspose.Words for .NET
 articleTitle: Load in the Open Office XML 2007 an 2010 Format Overview
 linktitle: Load in the Open Office XML 2007 an 2010 Format Overview

@@ -1,5 +1,5 @@
-﻿---
-title: Learn Features of Conversion to PDF/A and PDF/UA in C#
+---
+title: Conversion to PDF/A and PDF/UA
 second_title: Aspose.Words for .NET
 articleTitle: Learn Features of Conversion to PDF/A and PDF/UA
 linktitle: Learn Features of Conversion to PDF/A and PDF/UA

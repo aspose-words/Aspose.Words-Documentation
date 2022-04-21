@@ -1,5 +1,5 @@
-﻿---
-title: Linking Report Template with Report Definition
+---
+title: Link Report Template and Definition
 second_title: Aspose.Words for SharePoint
 articleTitle: Linking Report Template with Report Definition
 linktitle: Linking Report Template with Report Definition

@@ -1,5 +1,5 @@
 ---
-title: Printing a Document Programmatically or Using Dialogs
+title: Printing a Document
 second_title: Aspose.Words for Java
 articleTitle: Printing a Document Programmatically or Using Dialogs
 linktitle: Printing a Document Programmatically or Using Dialogs
@@ -21,7 +21,7 @@ The following example shows how to use these classes to print a document from As
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-DocumentPreviewAndPrint-PrintDialog.java" >}}
 
-{{% alert color="primary" %}} You can download an example of using the **PrintPreviewDialog** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/java/com/aspose/words/examples/rendering_printing/PrintPreviewDialog.java). {{% /alert %}}
+{{% alert color="primary" %}} You can download an example of using the **PrintPreviewDialog** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Rendering_and_printing/PrintPreviewDialog.java). {{% /alert %}}
 
 ## Printing Multiple Pages on One Sheet
 
@@ -30,7 +30,6 @@ Aspose.Words implements the **MultipagePrintDocument** class, to fine-tune the
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-MultiplePagesOnSheet-MultiplePagesOnSheet.java" >}}
 
 You can download an example of using the **MultipagePrintDocument** class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/java/com/aspose/words/examples/rendering_printing/MultipagePrintDocument.java). 
-
 
 The result of this code example is shown below:
 

@@ -1,5 +1,5 @@
 ---
-title: How to Replace or Modify Hyperlinks and Replace Fields with Static Text
+title: Replays Hyperlinks and Fields with Static Text
 second_title: Aspose.Words for Java
 articleTitle: How to Replace or Modify Hyperlinks and Replace Fields with Static Text
 linktitle: How to Replace or Modify Hyperlinks and Replace Fields with Static Text

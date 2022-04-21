@@ -1,5 +1,5 @@
-﻿---
-title: Integrating Manually with Visual Studio Report Designer
+---
+title: Integrate with VS Report Designer
 second_title: Aspose.Words for Reporting Services
 articleTitle: Integrating Manually with Visual Studio Report Designer
 linktitle: Integrating Manually with Visual Studio Report Designer

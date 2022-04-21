@@ -1,5 +1,5 @@
-﻿---
-title: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
+---
+title: Load in the Word 2003 Format
 second_title: Aspose.Words for Java
 articleTitle: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format
 linktitle: Load in the Microsoft Word 2003 WordprocessingML (.XML) Format

@@ -1,5 +1,5 @@
-﻿---
-title: Activation and Deactivation After Installation
+---
+title: Activation and Deactivation
 second_title: Aspose.Words for SharePoint
 articleTitle: Activation and Deactivation After Installation
 linktitle: Activation and Deactivation After Installation

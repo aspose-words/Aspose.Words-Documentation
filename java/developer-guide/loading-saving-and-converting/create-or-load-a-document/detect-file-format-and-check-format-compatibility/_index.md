@@ -1,5 +1,5 @@
 ---
-title: Detect File Format and Check Format Compatibility
+title: Detect File Format
 second_title: Aspose.Words for Java
 articleTitle: Detect File Format and Check Format Compatibility
 linktitle: Detect File Format and Check Format Compatibility

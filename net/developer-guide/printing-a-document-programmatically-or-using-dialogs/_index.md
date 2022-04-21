@@ -1,5 +1,5 @@
-﻿---
-title: Printing a Document Programmatically or Using Dialogs in C#
+---
+title: Printing a Document in C#
 second_title: Aspose.Words for .NET
 articleTitle: Printing a Document Programmatically or Using Dialogs
 linktitle: Printing a Document Programmatically or Using Dialogs

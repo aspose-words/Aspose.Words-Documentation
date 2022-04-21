@@ -1,5 +1,5 @@
-﻿---
-title: Xamarin and .NET Standard 2.0 Limitations and API Differences
+---
+title: Xamarin and .NET 2.0 Differences
 second_title: Aspose.Words for .NET
 articleTitle: Xamarin and .NET Standard 2.0 Limitations and API Differences
 linktitle: Xamarin and .NET Standard 2.0 Limitations and API Differences

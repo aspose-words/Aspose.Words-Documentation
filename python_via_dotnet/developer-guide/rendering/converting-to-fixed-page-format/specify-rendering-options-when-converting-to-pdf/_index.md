@@ -1,5 +1,5 @@
 ---
-title: Specify Rendering Options When Converting to PDF
+title: Options When Converting to PDF
 second_title: Aspose.Words for Python via .NET
 articleTitle: Specify Rendering Options When Converting to PDF
 linktitle: Specify Rendering Options When Converting to PDF

@@ -1,5 +1,5 @@
-﻿---
-title: Integrate with Microsoft Report Viewer in Local Mode
+---
+title: Integrate with MS Report Viewer
 second_title: Aspose.Words for Reporting Services
 articleTitle: Integrate with Microsoft Report Viewer in Local Mode
 linktitle: Integrate with Microsoft Report Viewer in Local Mode
@@ -68,7 +68,7 @@ Public Class Form1
 
 	Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 		ReportViewerHelper.AddAsposeExtensions(ReportViewer1)
-
+	
 		'Other form load code
 		Me.ReportViewer1.RefreshReport()
 	End Sub
@@ -99,7 +99,7 @@ private void Form1_Load(object sender, EventArgs eventArgs)
 	asposeHelper.AddExtension("AWXPS", "XPS � XML Paper Specification via Aspose.Words", typeof(Aspose.Words.ReportingServices.XpsRenderer));
 	asposeHelper.AddExtension("AWEPUB", "EPUB � Electronic Publications via Aspose.Words", typeof(Aspose.Words.ReportingServices.EpubRenderer));
 	asposeHelper.UpdateHandlers();
-
+	
 	// Other form load code
 	this.reportViewer1.RefreshReport();
 }
@@ -114,7 +114,7 @@ Public Class Form1
 
 	Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 		Dim asposeHelper As ReportViewerHelper = New ReportViewerHelper(ReportViewer1)
-
+	
 		asposeHelper.AddExtension("AWDOCX", "DOCX - Office Open XML via Aspose.Words", GetType(Aspose.Words.ReportingServices.DocxRenderer))
 		asposeHelper.AddExtension("AWRTF", "RTF - Rich Text Format via Aspose.Words", GetType(Aspose.Words.ReportingServices.RtfRenderer))
 		asposeHelper.AddExtension("AWWML", "XML - WordprocessingML via Aspose.Words", GetType(Aspose.Words.ReportingServices.WordMLRenderer))
@@ -125,7 +125,7 @@ Public Class Form1
 		asposeHelper.AddExtension("AWXPS", "XPS - XML Paper Specification via Aspose.Words", GetType(Aspose.Words.ReportingServices.XpsRenderer))
 		asposeHelper.AddExtension("AWEPUB", "EPUB - Electronic Publications via Aspose.Words", GetType(Aspose.Words.ReportingServices.EpubRenderer))
 		asposeHelper.UpdateHandlers()
-
+	
 		' Other form load code
 		Me.ReportViewer1.RefreshReport()
 	End Sub
