@@ -216,8 +216,10 @@ LoadFormat.Xml
 {{< /highlight >}}
 
 The FileFormatUtil class can now be used to determine if a file is a XML document. For example, the following call
-
+{{< highlight csharp >}}
 FileFormatInfo info = FileFormatUtil.DetectFileFormat("sample.xml");
+{{< /highlight >}}
+
 will return an info instance with the FileFormatInfo.LoadFormat property set to LoadFormat.Xml.
 
 The use cases for loading XML documents are as follows:
