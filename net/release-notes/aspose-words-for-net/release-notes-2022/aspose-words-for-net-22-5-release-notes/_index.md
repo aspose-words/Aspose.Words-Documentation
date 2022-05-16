@@ -287,7 +287,7 @@ Use Case:
 {{< highlight csharp >}}
 Document doc = new Document(fileName);
  
-PageSetup pageSetup = document.FirstSection.PageSetup;
+PageSetup pageSetup = doc.FirstSection.PageSetup;
  
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 pageSetup.ChapterPageSeparator = ChapterPageSeparator.Colon;
