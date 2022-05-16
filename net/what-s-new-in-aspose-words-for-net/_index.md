@@ -33,7 +33,7 @@ The rendering of a border box around MathML formulas and font detection when ren
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for .NET 22.5 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-5-release-notes/).
+Learn more about [Aspose.Words for .NET 22.5 Release Notes](/words/net/aspose-words-for-net-22-5-release-notes/).
 
 {{% /alert %}}
 
@@ -118,13 +118,13 @@ A new import mode for HTML block-level elements has been implemented to mimic Mi
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for .NET 22.1 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-1-release-notes/).
+Learn more about [Aspose.Words for .NET 22.1 Release Notes](/words/net/aspose-words-for-net-22-1-release-notes/).
 
-Learn more about [Aspose.Words for .NET 22.2 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-2-release-notes/).
+Learn more about [Aspose.Words for .NET 22.2 Release Notes](/words/net/aspose-words-for-net-22-2-release-notes/).
 
-Learn more about [Aspose.Words for .NET 22.3 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-3-release-notes/).
+Learn more about [Aspose.Words for .NET 22.3 Release Notes](/words/net/aspose-words-for-net-22-3-release-notes/).
 
-Learn more about [Aspose.Words for .NET 22.4 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-4-release-notes/).
+Learn more about [Aspose.Words for .NET 22.4 Release Notes](/words/net/aspose-words-for-net-22-4-release-notes/).
 
 {{% /alert %}}
 
