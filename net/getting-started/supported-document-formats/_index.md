@@ -30,6 +30,7 @@ The following table indicates the input and output file formats supported by Asp
 |FlatOpcMacroEnabled|Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |FlatOpcTemplate|Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |FlatOpcTemplateMacroEnabled|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[XML](https://docs.fileformat.com/web/xml/)|XML document.|{{< emoticons/tick >}}|| |
 |[RTF](https://docs.fileformat.com/word-processing/rtf/)|RTF format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |WordML|Microsoft Word 2003 WordprocessingML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[HTML](https://docs.fileformat.com/web/html/)|HTML or XHTML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
@@ -49,7 +50,7 @@ The following table indicates the input and output file formats supported by Asp
 |OpenXps|Saves the document in the OpenXPS (Ecma-388) format.| |{{< emoticons/tick >}}| |
 |[PS](https://docs.fileformat.com/page-description-language/ps/)|Saves the document in the PS (PostScript) format.| |{{< emoticons/tick >}}| |
 |[PCL](https://docs.fileformat.com/page-description-language/pcl/)|Saves the document in the PCL (Printer Control Language) format.| |{{< emoticons/tick >}}| |
-|[EPUB](https://docs.fileformat.com/ebook/epub/)|Saves the document in the IDPF EPUB format.| |{{< emoticons/tick >}}| |
+|[EPUB](https://docs.fileformat.com/ebook/epub/)|Saves the document in the IDPF EPUB format.| {{< emoticons/tick >}} |{{< emoticons/tick >}}| |
 |XamlFlow| Saves the document in the Extensible Application Markup Language (XAML) format as a flow document.| |{{< emoticons/tick >}}| |
 |XamlFlowPack| Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document.| |{{< emoticons/tick >}}| |
 |[TIFF](https://docs.fileformat.com/image/tiff/)|Renders a page or pages of the document and saves them into a single or multipage TIFF file.| |{{< emoticons/tick >}}| |
