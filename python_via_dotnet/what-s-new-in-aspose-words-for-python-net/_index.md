@@ -11,6 +11,32 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for Python via .NET 22.5
+
+Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
+
+The API is enhanced for more flexible and convenient development.
+
+### Supported Formats
+
+Support for loading EPUB and XML documents has been introduced by adding new values to the **LoadFormat** enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](/words/python-net/supported-document-formats/).
+
+### Rendering and Printing
+
+#### New Priting Size
+
+Support for the “Envelope No. 10” print page size has been added by introducing a new value to the **PaperSize** enumeration.
+
+#### Rendering MathML Formulas
+
+The rendering of a border box around MathML formulas and font detection when rendering characters for such formulas has been improved.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Python via .NET 22.5 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Python via .NET 22.3, 22.4
 
 Aspose.Words 22.3 expands the possibilities of working with PDF and TXT formats and improves the work of some existing algorithms and engines.

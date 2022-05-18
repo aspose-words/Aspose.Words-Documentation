@@ -13,7 +13,7 @@ url: /java/coldfusion-and-aspose-words-for-java/
 
 {{% alert color="primary" %}}
 
-To use Aspose.Words for Java in ColdFusion applications, you simply need to copy the Aspose.Words.jar to **ColdFusion8\wwwroot\WEB-INF\lib** folder. You can learn more about using Java libraries in ColdFusion from the article [here](https://help.adobe.com/en_US/ColdFusion/9.0/Developing/WSc3ff6d0ea77859461172e0811cbec13e1a-7ffd.html).
+To use Aspose.Words for Java in ColdFusion applications, you simply need to copy the Aspose.Words.jar to **ColdFusion8\wwwroot\WEB-INF\lib** folder. You can learn more about using Java libraries in ColdFusion from the article [Integrating Java libraries](https://helpx.adobe.com/coldfusion/developing-applications/using-web-elements-and-external-objects/integrating-jee-and-java-elements-in-cfml-applications/enhanced-java-integration-in-coldfusion.html).
 
 {{% /alert %}}
 

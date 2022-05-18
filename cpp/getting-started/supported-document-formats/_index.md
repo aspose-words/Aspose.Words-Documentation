@@ -31,6 +31,7 @@ The following table indicates the file formats supported by Aspose.Words for C++
 |FlatOpcMacroEnabled|Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |FlatOpcTemplate|Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |FlatOpcTemplateMacroEnabled|Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[XML](https://docs.fileformat.com/web/xml/)|XML document.|{{< emoticons/tick >}}|| |
 |[RTF](https://docs.fileformat.com/word-processing/rtf/)|RTF format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |WordML|Microsoft Word 2003 WordprocessingML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[PDF](https://docs.fileformat.com/pdf/) |Saves the document as PDF (Adobe Portable [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document)) format.||{{< emoticons/tick >}}| |
@@ -43,7 +44,7 @@ The following table indicates the file formats supported by Aspose.Words for C++
 |[PCL](https://docs.fileformat.com/page-description-language/pcl/)|Saves the document in the PCL (Printer Control Language) format.| |{{< emoticons/tick >}}| |
 |[HTML](https://docs.fileformat.com/web/html/)|Saves the document in the HTML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|Saves the document in the MHTML (Web archive) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[EPUB](https://docs.fileformat.com/ebook/epub/)|Saves the document in the IDPF EPUB format.||{{< emoticons/tick >}}| |
+|[EPUB](https://docs.fileformat.com/ebook/epub/)|Saves the document in the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[ODT](https://docs.fileformat.com/word-processing/odt/) |Saves the document as an ODF Text Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[OTT](https://docs.fileformat.com/word-processing/ott/) |Saves the document as an ODF Text Document Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[TXT](https://docs.fileformat.com/word-processing/txt/)|Saves the document in the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
