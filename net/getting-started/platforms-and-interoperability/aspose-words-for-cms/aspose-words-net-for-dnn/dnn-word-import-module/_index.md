@@ -1,4 +1,4 @@
-﻿---
+---
 title: DNN Word Import Module
 second_title: Aspose.Words for .NET
 articleTitle: DNN Word Import Module
@@ -91,7 +91,7 @@ You can log any issues or suggestions related to Aspose.Words .NET for DNN Modu
 - [Github](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
 - [Sourceforge](https://sourceforge.net/p/asposednn/tickets/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
-- [DNN Store ](https://store.dnnsoftware.com/help-center/help-desk/ticket-entry/packageid/32900)
+- [DNN Store ](https://www.dnnsoftware.com/services/customer-support)
 
 ### Extend and Contribute
 
