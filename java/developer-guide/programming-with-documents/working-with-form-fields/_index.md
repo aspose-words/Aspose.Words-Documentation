@@ -73,14 +73,14 @@ Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. Th
 
 ### Obtaining Form Fields
 
-A collection of form fields is represented by the [FormFieldCollection](https://apireference.aspose.com/words//java/com.aspose.words/formfieldcollection) class that can be retrieved using the [Range.getFormFields](https://apireference.aspose.com/words/java/com.aspose.words/range#FormFields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetFormFieldsCollection/FormFields.doc).
+A collection of form fields is represented by the [FormFieldCollection](https://apireference.aspose.com/words//java/com.aspose.words/formfieldcollection) class that can be retrieved using the [Range.getFormFields](https://apireference.aspose.com/words/java/com.aspose.words/range#FormFields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.java" >}}
 
-You can get a particular form field by its index or name. The code example given below shows how to access form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsGetByName/FormFields.doc).
+You can get a particular form field by its index or name. The code example given below shows how to access form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetByName-FormFieldsGetByName.java" >}}
 
-The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with the form field name, type, and result. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/FormFieldsWorkWithProperties/FormFields.doc).
+The FormField properties allow you to work with form field name, type, and result. The code example given below shows how to work with the form field name, type, and result. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.java" >}}

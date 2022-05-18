@@ -44,7 +44,7 @@ Aspose.Words allows you to customize your template through many properties. Temp
 
 ### Customize Image Properties
 
-You can specify the image properties using the [ImageFieldMergingArgs](https://apireference.aspose.com/words/java/com.aspose.words/ImageFieldMergingArgs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/java/com/aspose/words/examples/mail_merge/InsertImagesFromADatabase.java).
+You can specify the image properties using the [ImageFieldMergingArgs](https://apireference.aspose.com/words/java/com.aspose.words/ImageFieldMergingArgs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Mail_Merge_And_Reporting/WorkingWithFields.java#L226).
 
 The following code example shows how to specify the image file name and image size:
 
@@ -60,9 +60,9 @@ The following code example shows how to insert Check Boxes or HTML during mail m
 
 {{% alert color="primary" %}}
 
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/MailMerge/Template.doc).
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Mail%20merge%20destinations%20-%20Fax.docx).
 
-You can also check the implementation of the HandleMergeField class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/java/com/aspose/words/examples/mail_merge/MailMergeFormFields.java).
+You can also check the implementation of the HandleMergeField class from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/DocsExamples/Java/src/main/java/DocsExamples/Mail_Merge_And_Reporting/WorkingWithFields.java).
 
 {{% /alert %}}
 

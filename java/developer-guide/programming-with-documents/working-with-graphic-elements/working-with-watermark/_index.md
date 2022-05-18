@@ -34,7 +34,7 @@ The watermark can also be inserted using shape class as well. It is very easy to
 
 {{% alert color="primary" %}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/images/AddWatermark/TestFile.doc). 
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc). 
 
 {{% /alert %}}
 

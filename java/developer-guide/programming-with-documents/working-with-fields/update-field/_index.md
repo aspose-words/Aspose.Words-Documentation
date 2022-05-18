@@ -55,7 +55,7 @@ In previous versions calling [Document.updateFields()](https://apireference.aspo
 
 When [Document.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Document) or [Range.updateFields()](https://apireference.aspose.com/words/java/com.aspose.words/Range) is called all fields are updated over the entire document/range. This may involve building the document layout if a page-layout related field like the PAGE field is encountered during the update. 
 
-The following code example shows how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/fields/UpdateDocFields/Rendering.doc).
+The following code example shows how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateDocFields-UpdateDocFields.java" >}}
 

@@ -124,14 +124,14 @@ Aspose.Words provides two properties ParagraphFormat.SnapToGrid and Font.SnapT
 
 You can obtain where the builder's cursor is currently positioned at any time. The [DocumentBuilder.getCurrentNode](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#getCurrentNode\(\)/) property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using DocumentBuilder will insert before the DocumentBuilder.CurrentNode. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, DocumentBuilder.CurrentNode returns null.
 
-Also, you can use the [DocumentBuilder.getCurrentParagraph](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#getCurrentParagraph\(\)/) property, which gets the paragraph that is currently selected in this **DocumentBuilder**. The below code example shows how to access the current node in a document builder. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderCursorPosition/DocumentBuilder.doc).
+Also, you can use the [DocumentBuilder.getCurrentParagraph](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#getCurrentParagraph\(\)/) property, which gets the paragraph that is currently selected in this **DocumentBuilder**. The below code example shows how to access the current node in a document builder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderCursorPosition-DocumentBuilderCursorPosition.java" >}}
 
 ### Moving to Any Node (Paragraphs and their Children)
 
 If you have a document object node, which is a paragraph or a direct child of a paragraph, you can point the builder's cursor to this node. Use the [DocumentBuilder.moveTo](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveTo\(com.aspose.words.Node\)/) method to perform this.
-The following code example shows how to move a cursor position to a specified node. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToNode/DocumentBuilder.doc).
+The following code example shows how to move a cursor position to a specified node.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
@@ -143,7 +143,7 @@ If you need to move to the beginning of the document, call [DocumentBuilder.move
 
 ### Moving to a Section
 
-If you are working with a document that contains multiple sections, you can move to a desired section using [DocumentBuilder.moveToSection](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)/). This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. The below code example shows how to move a cursor position to the specified section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToSection/DocumentBuilder.doc).
+If you are working with a document that contains multiple sections, you can move to a desired section using [DocumentBuilder.moveToSection](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)/). This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. The below code example shows how to move a cursor position to the specified section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSection-DocumentBuilderMoveToSection.java" >}}
 
@@ -163,7 +163,7 @@ Use[DocumentBuilder.moveToParagraph](https://apireference.aspose.com/words/java/
 
 The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specifies the index of the paragraph inside that header of that section.
 
-When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specifies an index from the end of the section with -1 being the last paragraph. The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. The following code example shows how to move a cursor position to the specified paragraph. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToParagraph/DocumentBuilder.doc).
+When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specifies an index from the end of the section with -1 being the last paragraph. The character index can currently only be specified as 0 to move to the beginning of the paragraph or -1 to move to the end of the paragraph. The following code example shows how to move a cursor position to the specified paragraph. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToParagraph-DocumentBuilderMoveToParagraph.java" >}}
 
@@ -180,13 +180,13 @@ The navigation is performed inside the current story of the current section.
 
 For the index parameters, when the index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When the index is less than 0, it specifies an index from the end with -1 being the last element.
 
-Also, note that characterIndex currently can only specify 0 to move to the beginning of the cell or -1 to move to the end of the cell. The following code example shows how to move a cursor position to the specified table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToTableCell/DocumentBuilder.doc).
+Also, note that characterIndex currently can only specify 0 to move to the beginning of the cell or -1 to move to the end of the cell. The following code example shows how to move a cursor position to the specified table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToTableCell-DocumentBuilderMoveToTableCell.java" >}}
 
 ### Moving to a Bookmark
 
-Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use [DocumentBuilder.moveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark\(java.lang.String\)/). This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. The following code example shows how to move a cursor position to a bookmark. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToBookmark/DocumentBuilder.doc).
+Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use [DocumentBuilder.moveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark\(java.lang.String\)/). This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. The following code example shows how to move a cursor position to a bookmark.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
@@ -203,7 +203,7 @@ Inserting new text in this way does not replace the existing text of the bookmar
 
 ### Moving to a Merge Field
 
-Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToMergeField\(java.lang.String\)/) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/src/main/resources/com/aspose/words/examples/programming_documents/document/DocumentBuilderMoveToMergeField/DocumentBuilder.doc).
+Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToMergeField\(java.lang.String\)/) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 
