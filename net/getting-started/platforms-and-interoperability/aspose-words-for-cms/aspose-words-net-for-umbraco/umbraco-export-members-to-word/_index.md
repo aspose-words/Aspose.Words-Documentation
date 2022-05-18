@@ -1,4 +1,4 @@
-﻿---
+---
 title: Umbraco Export Members to Word
 second_title: Aspose.Words for .NET
 articleTitle: Umbraco Export Members to Word
@@ -9,7 +9,7 @@ weight: 40
 url: /net/umbraco-export-members-to-word/
 ---
 
-Export Members to Word is an Add-on for Umbraco which allows you to export members from your Umbraco CMS to a Word Document, OpenDocument, PDF and Image formats using [Aspose.Words](https://www.aspose.com/.net/Word-component.aspx). A new node titled **Export Members To Word** appears under Members tree in Umbraco backend after installation where you can simply select members to export and output format to get members in selected output document format.
+Export Members to Word is an Add-on for Umbraco which allows you to export members from your Umbraco CMS to a Word Document, OpenDocument, PDF and Image formats using [Aspose.Words](https://downloads.aspose.com/words/net). A new node titled **Export Members To Word** appears under Members tree in Umbraco backend after installation where you can simply select members to export and output format to get members in selected output document format.
 
 ## Module Features
 
@@ -81,7 +81,7 @@ After you have installed the macro it is really simple to start using it on your
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://downloads.aspose.com/words/net).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.lic**
