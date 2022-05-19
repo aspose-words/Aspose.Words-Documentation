@@ -9,7 +9,7 @@ weight: 30
 url: /net/dnn-word-import-module/
 ---
 
-Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by [Aspose.Word](https://www.aspose.com/word-component-suite.aspx). It adds a simple file browser control, Content Pane selection and **Import from Word** button on the page where the module is added. When clicking on the button, the document contents are displayed on the screen immediately.
+Aspose .NET Word Import for DNN Module allows developers to get/read contents of Word document without requiring any other software such as Microsoft Word or OpenOffice. This module demonstrates the powerful import feature provided by [Aspose.Word](https://products.aspose.com/words/net/). It adds a simple file browser control, Content Pane selection and **Import from Word** button on the page where the module is added. When clicking on the button, the document contents are displayed on the screen immediately.
 
 ## Module Features
 
@@ -68,7 +68,7 @@ You have successfully added Aspose .NET Word Import for DNN module to your page.
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://purchase.aspose.com/pricing/words/family).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.lic**
