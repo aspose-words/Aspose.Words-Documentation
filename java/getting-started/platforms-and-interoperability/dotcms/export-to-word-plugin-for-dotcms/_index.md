@@ -1,4 +1,4 @@
-﻿---
+---
 title: Export to Word Plugin for dotCMS
 second_title: Aspose.Words for Java
 articleTitle: Export to Word Plugin for dotCMS
@@ -9,7 +9,7 @@ weight: 10
 url: /java/export-to-word-plugin-for-dotcms/
 ---
 
-Export to Word Plugin for dotCMS allow users to export online content into Word Processing document using [Aspose.Words for Java](https://www.aspose.com/java/word-component.aspx). It dynamically exports the content of the Web page to a Word Processing document and then automatically downloads the file to the disk location selected by the user in just couple of seconds. The generated Word processing document can then be opened using any Word Processing Application such as Microsoft Word or Apache OpenOffice etc.
+Export to Word Plugin for dotCMS allow users to export online content into Word Processing document using [Aspose.Words for Java](https://products.aspose.com/words/java/). It dynamically exports the content of the Web page to a Word Processing document and then automatically downloads the file to the disk location selected by the user in just couple of seconds. The generated Word processing document can then be opened using any Word Processing Application such as Microsoft Word or Apache OpenOffice etc.
 
 ![export-word-plugin-dotcms-aspose-words-java](export-word-plugin-dotcms-aspose-words-java-1.png)
 
@@ -65,7 +65,7 @@ After you have installed the Export to Word OSGI plugin, it is really simple to 
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://purchase.aspose.com/pricing/words/family).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.Java.lic.**

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Technical Support
 second_title: Aspose.Words for Java
 articleTitle: Technical Support
@@ -10,7 +10,7 @@ url: /java/technical-support/
 aliases: [/java/known-issues-in-aspose-words-for-java/]
 ---
 
-Aspose provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The main avenue of support is [Aspose.Forums](https://forum.aspose.com/).
+Aspose provides unlimited free technical support for all of its products. Support is available to all users, including evaluation. The main avenue of support is [Aspose.Forums](https://forum.aspose.com/c/words/8).
 
 {{% alert color="primary" %}}
 

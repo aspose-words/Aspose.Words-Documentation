@@ -1,4 +1,4 @@
-﻿---
+---
 title: World Class Free Technical Support
 second_title: Aspose.Words for Reporting Services
 articleTitle: World Class Free Technical Support
@@ -17,7 +17,7 @@ Aspose is renowned for its free and unlimited technical support provided directl
 
 ## Forums
 
-[Aspose's Support Forums](https://forum.aspose.com/) is the place not only to resolve technical issues, but to participate in discussions with the vibrant and growing community of Aspose users. Currently there are over 190,000 users registered at the Aspose website.
+[Aspose's Support Forums](https://forum.aspose.com/c/words/8) is the place not only to resolve technical issues, but to participate in discussions with the vibrant and growing community of Aspose users. Currently there are over 190,000 users registered at the Aspose website.
 
 ## Blogs
 

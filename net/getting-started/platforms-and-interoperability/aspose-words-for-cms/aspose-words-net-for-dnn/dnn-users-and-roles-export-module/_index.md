@@ -1,4 +1,4 @@
-﻿---
+---
 title: DNN Users and Roles Export Module
 second_title: Aspose.Words for .NET
 articleTitle: DNN Users and Roles Export Module
@@ -68,7 +68,7 @@ You have successfully added Aspose .NET Export Users and Roles to Word module to
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://www.aspose.com/purchase/default.aspx).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://purchase.aspose.com/pricing/words/family).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.lic**

@@ -1,5 +1,5 @@
-﻿---
-title: OpenDocument Export - Footnotes and Endnote Features
+---
+title: OpenDocument Export - Footnotes and Endnotes
 second_title: Aspose.Words for Java
 articleTitle: Footnotes and Endnote Features Supported on OpenDocument Export
 linktitle: Footnotes and Endnote Features Supported on OpenDocument Export
