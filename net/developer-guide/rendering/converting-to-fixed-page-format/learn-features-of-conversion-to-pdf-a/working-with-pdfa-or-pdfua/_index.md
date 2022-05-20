@@ -47,6 +47,7 @@ Both strong and weak structures are valid for PDF/A. Microsoft Word documents ha
 
 For a PDF/UA-1 document with a weak structure, it is additionally required that the heading numbers go in order without gaps.
 
+{{% alert color="primary" %}}
 <details>
     <summary>The specification tells us the following:</summary>
     <p>The block-level structure may follow one of two principal paradigms:</p>
@@ -56,6 +57,7 @@ For a PDF/UA-1 document with a weak structure, it is additionally required that 
     </ol>
     <p>ISO-32000-1, 14.8.4.3.5</p>
 </details>
+{{% /alert %}}
 
 For PDF/UA-1 documents, the specification contains an addition related to heading levels:
 
