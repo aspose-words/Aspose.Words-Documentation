@@ -5,7 +5,7 @@ articleTitle: Working with PDF/A or PDF/UA
 linktitle: Working with PDF/A or PDF/UA
 description: "Convert to PDF/A-1, PDF/A-2, PDF/A-4 and PDF/UA using C#. There are a few problems when converting to PDF/A documents, and Aspose.Words for .NET solves them."
 type: docs
-weight: 20
+weight: 28
 url: /net/working-with-pdfa-or-pdfua/
 ---
 
