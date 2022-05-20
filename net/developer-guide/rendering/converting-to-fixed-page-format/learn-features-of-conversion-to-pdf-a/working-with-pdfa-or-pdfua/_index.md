@@ -50,14 +50,17 @@ For a PDF/UA-1 document with a weak structure, it is additionally required that 
 {{% alert color="primary" %}}
 <details>
     <summary>The specification tells us the following:</summary>
+    <p></p>
     <p>The block-level structure may follow one of two principal paradigms:</p>
-    </ol>
+    <ol>
       <li>Strongly structured. The grouping elements nest to as many levels as necessary to reflect the organization of the material into articles, sections, subsections, and so on. At each level, the children of the grouping element should consist of a heading (H), one or more paragraphs (P) for content at that level, and perhaps one or more additional grouping elements for nested subsections.</li>
       <li>Weakly structured. The document is relatively flat, having perhaps only one or two levels of grouping elements, with all the headings, paragraphs, and other BLSEs as their immediate children. In this case, the organization of the material is not reflected in the logical structure; however, it may be expressed by the use of headings with specific levels (H1–H6).</li>
     </ol>
     <p>ISO-32000-1, 14.8.4.3.5</p>
 </details>
 {{% /alert %}}
+
+
 
 For PDF/UA-1 documents, the specification contains an addition related to heading levels:
 
