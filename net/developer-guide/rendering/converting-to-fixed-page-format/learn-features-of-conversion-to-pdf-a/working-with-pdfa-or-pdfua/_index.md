@@ -486,3 +486,4 @@ Private Use Area (PUA) characters appear mostly for Windows symbolic fonts like 
     <p>Or add an ActualText entry to the problematic characters in the output PDF document:</p>
     <img src="acrobat-span-tag-actual-text.png" alt="AcrobatSpanTagActualText" style="width:800px"/>
 </details>
+{{% /alert %}}
