@@ -390,7 +390,7 @@ Microsoft Word document does not allow users to set abbreviations and acronyms e
 | PDF/A-1a                                           | {{< emoticons/tick >}}  |
 | PDF/A-1b                                           | {{< emoticons/tick >}}  |
 | PDF/A-2a                                           | {{< emoticons/tick >}}  |
-| PDF/A-2b                                           | {{< emoticons/tick >}}  |
+| PDF/A-2u                                           | {{< emoticons/tick >}}  |
 | PDF/A-4                                            | {{< emoticons/tick >}}  |
 | PDF/UA-1                                           | {{< emoticons/tick >}}  |
 
@@ -405,7 +405,7 @@ The sections below describe such nuances and options for their solution.
 | PDF/A-1a                                           | {{< emoticons/tick >}}  |
 | PDF/A-1b                                           | {{< emoticons/tick >}}  |
 | PDF/A-2a                                           | {{< emoticons/tick >}}  |
-| PDF/A-2b                                           | {{< emoticons/tick >}}  |
+| PDF/A-2u                                           | {{< emoticons/tick >}}  |
 | PDF/A-4                                            | {{< emoticons/tick >}}  |
 | PDF/UA-1                                           | {{< emoticons/tick >}}  |
 
@@ -427,7 +427,7 @@ Aspose.Words does not verify the legal restrictions of the used fonts – it is 
 | PDF/A-1a                                           |                         |
 | PDF/A-1b                                           |                         |
 | PDF/A-2a                                           | {{< emoticons/tick >}}  |
-| PDF/A-2b                                           | {{< emoticons/tick >}}  |
+| PDF/A-2u                                           | {{< emoticons/tick >}}  |
 | PDF/A-4                                            | {{< emoticons/tick >}}  |
 | PDF/UA-1                                           | {{< emoticons/tick >}}  |
 
@@ -460,7 +460,7 @@ The usage of the `.notdef` glyph is prohibited. The `.notdef` glyph will appear 
 | PDF/A-1a                                           |                         |
 | PDF/A-1b                                           |                         |
 | PDF/A-2a                                           | {{< emoticons/tick >}}  |
-| PDF/A-2b                                           | {{< emoticons/tick >}}  |
+| PDF/A-2u                                           | {{< emoticons/tick >}}  |
 | PDF/A-4                                            | {{< emoticons/tick >}}  |
 | PDF/UA-1                                           |                         |
 
