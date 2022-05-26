@@ -253,7 +253,23 @@ Sometimes there is a problem that it is not possible to set alt text for autogen
 Follow the code example to update TOC fields using the Aspose.Words Document Object Model (DOM):
 
 {{< highlight cpp >}}
-The code example will be here soon
+auto doc = MakeObject<Document>(filename);
+auto tocHyperLinks = doc->get_Range()->get_Fields()->
+    LINQ_Where([](SharedPtr<Field> f) {return f->get_Type() == FieldType::FieldHyperlink; })->            
+    LINQ_Where([](SharedPtr<FieldHyperlink> f) { return f->get_DisplayResult().StartsWith(u"#_Toc"); });
+
+for (const auto& link : tocHyperLinks)
+    link->set_ScreenTip(link->get_DisplayResult());
+
+auto opt = MakeObject<PdfSaveOptions>();
+opt->set_Compliance(PdfCompliance::PdfUa1);
+opt->set_DisplayDocTitle(true);
+opt->set_ExportDocumentStructure(true);
+opt->get_OutlineOptions()->set_HeadingsOutlineLevels(3);
+opt->get_OutlineOptions()->set_CreateMissingOutlineLevels(true);
+
+auto outFile = filename.substr(0, filename.find_last_of('.')) + "_aw.pdf";
+doc->Save(outFile, opt);
 {{< /highlight >}}
 
 ### Table Headers
