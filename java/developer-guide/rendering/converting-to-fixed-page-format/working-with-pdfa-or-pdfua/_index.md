@@ -253,7 +253,30 @@ Sometimes there is a problem that it is not possible to set alt text for autogen
 Follow the code example to update TOC fields using the Aspose.Words Document Object Model (DOM):
 
 {{< highlight java >}}
-The code example will be here soon
+Document doc = new Document(fileName);
+ArrayList<FieldHyperlink> tocHyperLinks = new ArrayList<>();
+
+for (Field field : doc.getRange().getFields()) {
+    if (field.getType() == FieldType.FIELD_HYPERLINK) {
+        FieldHyperlink hyperlink = (FieldHyperlink) field;
+        if (hyperlink.getFieldCode().startsWith("#_Toc")) {
+            tocHyperLinks.add(hyperlink);
+        }
+    }
+}
+
+for (FieldHyperlink link : tocHyperLinks)
+    link.setScreenTip(link.getDisplayResult());
+
+PdfSaveOptions opt = new PdfSaveOptions();
+opt.setCompliance(PdfCompliance.PDF_UA_1);
+opt.setDisplayDocTitle(true);
+opt.setExportDocumentStructure(true);
+opt.getOutlineOptions().setHeadingsOutlineLevels(3);
+opt.getOutlineOptions().setCreateMissingOutlineLevels(true);
+
+String outFile = fileName.substring(0,fileName.lastIndexOf('.')) + "_aw.pdf";
+doc.save(outFile, opt);
 {{< /highlight >}}
 
 ### Table Headers
