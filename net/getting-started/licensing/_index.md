@@ -114,6 +114,8 @@ The following code example shows how to set metered public and private keys:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyMeteredLicense-ApplyMeteredLicense.cs" >}}
 
+Normally it is enough to apply the metered license once on application start. However, if metered licensing mechanism fail to upload consumption data within 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode, to avoid such case, you should regularly check the license status, if Aspose.Words turns into evaluation mode, please apply the metered license again.
+
 {{% alert color="primary" %}}
 
 Please note that you must have a stable Internet connection for the correct use of the Metered license, since the Metered mechanism requires the constant interaction with our services for correct calculations. For more details, refer to the [“Metered Licensing FAQ”](https://purchase.aspose.com/faqs/licensing/metered) section.
