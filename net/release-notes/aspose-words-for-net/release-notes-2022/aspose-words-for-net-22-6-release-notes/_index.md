@@ -249,11 +249,12 @@ Cons:
  - A small amount of options such as Password, page range and Jpeg image quality.
 
 Supported methods:
-
-SavePdfAsHtml;
-SavePdfAsXps;
-SavePdfAsImages;
-SavePdfAsPdf.
+{{< highlight csharp >}}
+SavePdfAsHtml(...);
+SavePdfAsXps(...);
+SavePdfAsImages(...);
+SavePdfAsPdf(...);
+{{< /highlight >}}
 
 Available options:
 
