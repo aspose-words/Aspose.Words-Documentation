@@ -13,6 +13,8 @@ This documentation section describes the updates and improvements for each new r
 
 To learn about specific releases, go to the respective platform, year, and definite release version in the navigation tree or using the list below:
 
+- [Release Notes - 2022](/words/sharepoint/release-notes-2022/)
+- [Release Notes - 2021](/words/sharepoint/release-notes-2021/)
 - [Release Notes - 2020](/words/sharepoint/release-notes-2020/)
 - [Release Notes - 2019](/words/sharepoint/release-notes-2019/)
 - [Release Notes - 2018](/words/sharepoint/release-notes-2018/)
