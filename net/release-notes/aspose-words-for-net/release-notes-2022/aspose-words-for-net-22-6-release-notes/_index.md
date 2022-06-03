@@ -19,9 +19,9 @@ This page contains release notes for [Aspose.Words for .NET 22.6](https://www.nu
 
 There are 69 improvements and fixes in this regular monthly release. The most notable are:
 
+- Implemented an ability to convert PDF documents to fixed page formats with high fidelity and performance.
 - DrawingML charts public API was extended to support gradient, texture and pattern fills.
 - Implemented a solid text fill effect inheritance exception that mimics the behavior of MS Word.
-- Implemented rendering PDFs directly to fixed formats without intermediate flow layout.
 - Saving progress notifications were extended for ODT format.
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
