@@ -223,3 +223,43 @@ public class ChartDataPointCollection
     public void Clear();
 }
 {{< /highlight >}}
+
+### Added new class for saving PDFs to other fixed formats
+
+Related feature task: WORDSNET-23059
+
+We've added a new way to work with PDF input files. Now they can be converted into a fixed format without using Words layout model.
+
+I.e. the feature runs without Document class and returns the result in a MemoryStream object.
+
+Example:
+{{< highlight csharp >}}
+var pdfRenderer = new PdfFixedRenderer();
+var options = new PdfFixedOptions() { PageIndex = 0, PageCount = 2 };
+var resultStream = pdfRenderer.SavePdfAsHtml(pdfStream, options);
+{{< /highlight >}}
+
+Pros:
+ - More accurate conversion (positions of text and other elements).
+ - Better performance and memory usage (less logic to run, no need to build flow models, etc).
+
+Cons:
+ - The list of output formats is limited for now (PDF, Html, XPS, Jpeg, Png, Tiff, Bmp).
+ - There is no way to edit the data during the conversion.
+ - A small amount of options such as Password, page range and Jpeg image quality.
+
+Supported methods:
+
+SavePdfAsHtml;
+SavePdfAsXps;
+SavePdfAsImages;
+SavePdfAsPdf.
+
+Available options:
+
+ - PageIndex and PageCount can be used to select a subset of pages.
+ - Password - allows to decode an encrypted PDF. The result would be decrypted.
+ - JpegQuality - can be provided before SavePdfAsImages calls to setup output Jpeg image quality.
+ - ImageFormat - should be used to specify the output image format for SavePdfAsImages.
+ 
+ All options are optional and can be ommited in favor of default values.
