@@ -171,7 +171,7 @@ Removed obsolete PdfDigitalSignatureHashAlgorithm enum values Sha1 and Md5.
 
 SHA1 and MD5 hash algorithms for digital signature are deprecated in the latest PDF specification due to security issues. So, please, use the one of the available algorithms instead.
 
-### Removed obsolete properties of ChartDataPointCollection and ChartDataLabelCollection classes
+### Removed obsolete methods of ChartDataPointCollection and ChartDataLabelCollection classes
 
 Related issue: WORDSNET-23633
 
