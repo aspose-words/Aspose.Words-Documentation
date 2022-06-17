@@ -1,28 +1,43 @@
 ---
 title: 22.6 Release Notes
-second_title: Aspose.Words for .NET
-articleTitle: Aspose.Words for .NET 22.6 Release Notes
-linktitle: Aspose.Words for .NET 22.6 Release Notes
-description: "Aspose.Words for .NET 22.6 Release Notes – the latest updates and fixes."
+second_title: Aspose.Words for Java
+articleTitle: Aspose.Words for Java 22.6 Release Notes
+linktitle: Aspose.Words for Java 22.6 Release Notes
+description: "Aspose.Words for Java 22.6 Release Notes – the latest updates and fixes."
 type: docs
-weight: 45
-url: /net/aspose-words-for-net-22-6-release-notes/
+weight: 70
+url: /java/aspose-words-for-java-22-6-release-notes/
 ---
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for .NET 22.6](https://www.nuget.org/packages/Aspose.Words/22.6.0).
+This page contains release notes for [Aspose.Words for Java 22.6](https://repository.aspose.com/words/22-6/).
 
 {{% /alert %}}
 
 ## Major Features
 
-There are 69 improvements and fixes in this regular monthly release. The most notable are:
+There are 71 improvements and fixes in this regular monthly release. The most notable are:
 
 - Implemented an ability to convert PDF documents to fixed page formats with high fidelity and performance.
 - DrawingML charts public API was extended to support gradient, texture and pattern fills.
 - Implemented a solid text fill effect inheritance exception that mimics the behavior of MS Word.
 - Saving progress notifications were extended for ODT format.
+
+## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
+
+|Key|Summary|Category|
+| :- | :- | :- |
+| WORDSJAVA-2731 | XHTML Entities do not resolved during   loading Epub documents. | New Feature |
+| WORDSJAVA-2651 | Bookmark.Text does not return All the Text Enclosed | Bug |
+| WORDSNET-21860 | DOCX to PDF - A picture in table moves to   next page resulting in increase in page count | Bug |
+| WORDSNET-22581 | Problem wirh bookmark upon comparing documents | Bug |
+| WORDSNET-23778 | Revision on list item is rendered incorrectly | Bug |
+| WORDSNET-22810 | Error converting DOCX to HTML | Bug |
+| WORDSNET-23803 | stylePaneFormatFilter values are chnaged after open/save DOCX document | Bug |
+| WORDSNET-23793 | Image resolution is changed after saving to HTML with   ScaleImageToShapeSize = false | Bug |
+| WORDSNET-23840 | Part of content is invisible after rendering | Bug |
+| WORDSNET-23797 | Table Alignment Issue in converting RTF files to PDF | Bug |
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
@@ -89,19 +104,6 @@ There are 69 improvements and fixes in this regular monthly release. The most no
 | WORDSNET-23792 | Review of Particular file with "Gabriola" font is displayed   incorrect in FF/Chrome | Bug |
 | WORDSNET-23756 | InvalidCastException is thrown when set text of bookmark, which is inside   OfficeMath | Bug |
 | WORDSNET-21069 | Wrong Style Color applied to some Rows when converting DOCX to HTML | Bug |
-
-## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
-
-|Key|Summary|Category|
-| :- | :- | :- |
-| WORDSNET-21860 | DOCX to PDF - A picture in table moves to   next page resulting in increase in page count | Bug |
-| WORDSNET-22581 | Problem wirh bookmark upon comparing documents | Bug |
-| WORDSNET-23778 | Revision on list item is rendered incorrectly | Bug |
-| WORDSNET-22810 | Error converting DOCX to HTML | Bug |
-| WORDSNET-23803 | stylePaneFormatFilter values are chnaged after open/save DOCX document | Bug |
-| WORDSNET-23793 | Image resolution is changed after saving to HTML with   ScaleImageToShapeSize = false | Bug |
-| WORDSNET-23840 | Part of content is invisible after rendering | Bug |
-| WORDSNET-23797 | Table Alignment Issue in converting RTF files to PDF | Bug |
 
 ## Public API and Backward Incompatible Changes
 
