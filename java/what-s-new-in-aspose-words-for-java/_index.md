@@ -11,9 +11,11 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 22.5
+## Aspose.Words for Java 22.5, 22.6
 
 Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
+
+Aspose.Words 22.6 expands the possibilities of converting PDF to other formats, as well as improve work with DrawingML and solid text fill effect.
 
 The API is enhanced for more flexible and convenient development.
 
@@ -31,9 +33,23 @@ Support for the “Envelope No. 10” print page size has been added by introduc
 
 The rendering of a border box around MathML formulas and font detection when rendering characters for such formulas has been improved.
 
+#### DML Chart Improvements
+
+DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
+
+### Loading and saving documents
+
+The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
+
+### Other
+
+Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented.
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 22.5 Release Notes](/words/java/aspose-words-for-java-22-5-release-notes/).
+
+Learn more about [Aspose.Words for Java 22.6 Release Notes](/words/java/aspose-words-for-java-22-6-release-notes/).
 
 {{% /alert %}}
 
