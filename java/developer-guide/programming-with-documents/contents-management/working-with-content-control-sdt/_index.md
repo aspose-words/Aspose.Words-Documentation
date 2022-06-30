@@ -57,22 +57,6 @@ The following code example demonstrates how to modify content controls of type 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ModifyContentControls-ModifyContentControls.java" >}}
 
-## How to Use Control Characters
-
-Microsoft Word documents may contain various characters that have a special meaning. Normally they are used for formatting purposes and are not drawn in the normal mode. You can make them visible if you click the Show/Hide Formatting Marks button located on the Standard toolbar. Sometimes you may need to add or remove characters to/from the text. For instance, when obtaining text programmatically from the document, Aspose.Words preserves most of the control characters, so if you need to work with this text you should probably remove or replace the characters.
-
-The [ControlChar](https://apireference.aspose.com/words/java/com.aspose.words/ControlChar) class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string [ControlChar.LineBreak](https://apireference.aspose.com/words/java/com.aspose.words/controlchar#LINE_BREAK) and char [ControlChar.LineBreakChar](https://apireference.aspose.com/words/java/com.aspose.words/controlchar#LINE_BREAK_CHAR) has the same value.
-
-{{% alert color="primary" %}}
-
-Use this class whenever you want to deal with control characters.
-
-{{% /alert %}}
-
-The following code example demonstrates how to use control characters.
-
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-UseControlCharacters-UseControlCharacters.java" >}}
-
 ## Binding Content Control to Custom XML Parts
 
 You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example demonstrates how to bind content control to custom XML parts. 
