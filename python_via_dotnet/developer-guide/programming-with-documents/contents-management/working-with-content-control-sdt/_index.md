@@ -54,14 +54,6 @@ The following code example demonstrates how to modify content controls of type 
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-ModifyContentControls.py" >}}
 
-## How to Use Control Characters
-
-Microsoft Word documents may contain various characters that have a special meaning. Normally they are used for formatting purposes and are not drawn in the normal mode. You can make them visible if you click the Show/Hide Formatting Marks button located on the Standard toolbar. Sometimes you may need to add or remove characters to/from the text. For instance, when obtaining text programmatically from the document, Aspose.Words preserves most of the control characters, so if you need to work with this text you should probably remove or replace the characters.
-
-The **ControlChar** class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string **ControlChar.LINE_BREAK** and char **ControlChar.LINE_BREAK_CHAR** has the same value. The following code example demonstrates how to use control characters.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_properties-UseControlCharacters.py" >}}
-
 ## Binding Content Control to Custom XML Parts
 
 You can bind content controls with XML data (*custom XML part*) in Word documents. The following code example demonstrates how to bind content control to custom XML parts. 

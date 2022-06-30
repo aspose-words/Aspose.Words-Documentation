@@ -1,5 +1,5 @@
 ---
-title: Working with Content Control SDT in C++
+title: Working with Content Control SDT
 second_title: Aspose.Words for C++
 articleTitle: Working with Content Control SDT
 linktitle: Working with Content Control SDT
@@ -18,14 +18,6 @@ In Microsoft Word, you can create a form by starting with a template and adding 
 - Cell-level - Among cells in a table row, as a child of a Row node.
 - Inline-level - Among inline content inside, as a child of a Paragraph.
 - Nested inside another StructuredDocumentTag.
-
-## How to Use Control Characters
-
-Microsoft Word documents may contain various characters that have a special meaning. Normally they are used for formatting purposes and are not drawn in the normal mode. You can make them visible if you click the Show/Hide Formatting Marks button located on the Standard toolbar. Sometimes you may need to add or remove characters to/from the text. For instance, when obtaining text programmatically from the document, Aspose.Words preserves most of the control characters, so if you need to work with this text you should probably remove or replace the characters.
-
-The ControlChar class is a repository for the constants that represent control characters often encountered in documents. It provides both char and string versions of the same constants. For example, string ControlChar.LineBreak and char ControlChar.LineBreakChar has the same value. The below code example shows how to use control characters.
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-ConvertUtil-UtilityClasses-UseControlCharacters.cpp" >}}
 
 ## How to Set Style to Format Text Typed into the Content Control
 
