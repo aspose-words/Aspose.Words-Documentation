@@ -1,4 +1,4 @@
-﻿---
+---
 title: Template Syntax in C#
 second_title: Aspose.Words for .NET
 articleTitle: Template Syntax
@@ -37,3 +37,21 @@ Some tags require closing counterparts. A closing tag has the “/” character 
 **Note –** Tag body elements are case-sensitive.
 
 During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine (see “Removing Paragraphs Containing Only Template Syntax Tags” for more information).
+
+**This section includes the following topics:**
+
+- [Composing Expressions](/words/net/composing-expressions/)
+- [Outputting Expression Results](/words/net/outputting-expression-results/)
+- [Outputting Sequential Data](/words/net/outputting-sequential-data/)
+- [Using Conditional Blocks](/words/net/using-conditional-blocks/)
+- [Inserting Documents Dynamically](/words/net/inserting-documents-dynamically/)
+- [Inserting Images Dynamically](/words/net/inserting-images-dynamically/)
+- [Inserting Bookmarks Dynamically](/words/net/inserting-bookmarks-dynamically/)
+- [Inserting Hyperlinks Dynamically](/words/net/inserting-hyperlinks-dynamically/)
+- [Setting Text Color Dynamically](/words/net/setting-text-color-dynamically/)
+- [Setting Background Color Dynamically](/words/net/setting-background-color-dynamically/)
+- [Merging Table Cells Dynamically](/words/net/merging-table-cells-dynamically/)
+- [Restarting List Numbering Dynamically](/words/net/restarting-list-numbering-dynamically/)
+- [Using Contextual Object Member Access](/words/net/using-contextual-object-member-access/)
+- [Using Variables](/words/net/using-variables/)
+- [Working with Content Controls](/words/net/working-with-content-controls/)
