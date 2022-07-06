@@ -26,8 +26,6 @@ Follow these steps to configure your project with [MSBuild .targets files](https
     </ImportGroup>
     </Project>
     {{< /highlight >}}
-*Replace `<path-to>` with actual paths to Aspose.Words for C++
-*Replace `<version>` with target framework version
 
 ## Configure manually
 
@@ -48,10 +46,10 @@ Follow these steps to manually configure Aspose.Words for C++ in Visual Studio:
 2. Go to Linker → Input
 * For Release configuration:
   * `Aspose.Words.Cpp\lib\x64\Release\Aspose.Words.Cpp_vc14x64.lib`
-  * `CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\aspose_cpp_vc14x64.lib`
+  * `CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\codeporting.translator.cs2cpp.framework_vc14x64.lib`
 * For Debug configuration:
   * `Aspose.Words.Cpp\lib\x64\Debug\Aspose.Words.Cpp_vc14x64d.lib`
-  * `CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\aspose_cpp_vc14x64d.lib`
+  * `CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\codeporting.translator.cs2cpp.framework_vc14x64d.lib`
 
 **Add the Commands:**
 
@@ -61,10 +59,10 @@ Follow these steps to manually configure Aspose.Words for C++ in Visual Studio:
 * For Release configuration:
 	{{< highlight bash >}}
 	xcopy /y /d  "$(ProjectDir)Aspose.Words.Cpp\lib\x64\$(Configuration)\Aspose.Words.Cpp_vc14x64.dll" "$(OutDir)"
-	xcopy /y /d  "$(ProjectDir)CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\aspose_cpp_vc14x64.dll" "$(OutDir)"
+	xcopy /y /d  "$(ProjectDir)CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\codeporting.translator.cs2cpp.framework_vc14x64.dll" "$(OutDir)"
 	{{< /highlight >}}
 * For Debug configuration:
 	{{< highlight bash >}}
 	xcopy /y /d  "$(ProjectDir)Aspose.Words.Cpp\lib\x64\$(Configuration)\Aspose.Words.Cpp_vc14x64d.dll" "$(OutDir)"
-	xcopy /y /d  "$(ProjectDir)CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\aspose_cpp_vc14x64d.dll" "$(OutDir)"
+	xcopy /y /d  "$(ProjectDir)CodePorting.Translator.Cs2Cpp.Framework_<version>\lib\codeporting.translator.cs2cpp.framework_vc14x64d.dll" "$(OutDir)"
 	{{< /highlight >}}
