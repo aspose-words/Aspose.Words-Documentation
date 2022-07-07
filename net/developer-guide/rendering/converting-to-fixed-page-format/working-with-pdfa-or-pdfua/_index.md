@@ -13,6 +13,12 @@ PDF/A and PDF/UA format imposes several requirements related to the document con
 
 Basic requirements are for the structure or fonts of a PDF/A and PDF/UA document, which we will consider in the following sections.
 
+{{% alert color="primary" %}}
+
+Please note that PDF/UA-1 output will also be WCAG 2.0 and Section 508 compliant.
+
+{{% /alert %}}
+
 ## Document Structure Requirements
 
 The current requirements are for PDF/A-1a, PDF/A-2a, PDF/A-4, and PDF/UA-1 formats.
