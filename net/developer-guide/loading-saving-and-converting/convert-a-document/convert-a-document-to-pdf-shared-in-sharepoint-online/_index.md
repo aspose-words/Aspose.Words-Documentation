@@ -42,7 +42,7 @@ Note that client secret and identifier should be generated on step 3 of the "Pre
 
 ### Create new console application project
 
-1. Create in Visual Studio new console application project with name "SPOnlineExample" for C# language;
+1. Create in Visual Studio new console application project with name "SPOnlineExample" for C# language and target framework .NET 6;
 2. Add the following packages:
    - Microsoft.Extensions.Configuration.Json;
 	 - Aspose.Words;
