@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction to Fields in Java
 second_title: Aspose.Words for Java
 articleTitle: Introduction to Fields
@@ -133,6 +133,7 @@ Calculation of the following fields is supported in the current version of Aspos
 - COMPARE
 - CREATEDATE
 - DATE
+- DATABASE
 - DOCPROPERTY
 - DOCVARIABLE
 - GREETINGLINE
