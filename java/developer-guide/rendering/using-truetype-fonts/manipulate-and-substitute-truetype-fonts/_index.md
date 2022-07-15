@@ -227,8 +227,7 @@ There are some differences in the processing of font formats in Aspose.Words and
 | |Microsoft Word|Aspose.Words|
 | :- | :- | :- |
 |TrueType fonts and OpenType fonts with TrueType outlines|Supported.|Supported.|
-|TrueType fonts with PostScript outlines|Embedding of PostScript fonts is not supported, but documents with embedded fonts of this type can be opened.|Supported embedding of fonts with PostScript outlines when embedding TrueType fonts in a document upon saving.|
-|OpenType fonts with PostScript outlines|Supported for most scenarios. Embedding to fixed-page formats such as PDF and XPS are not supported. The text is replaced with bitmap images.|Supported for most scenarios, including embedding to fixed-page formats. Parsing of glyph data, required for rendering WordArt/3D text effects, and SVG font embedding is not supported.|
+|OpenType fonts with PostScript outlines|Supported for most scenarios. Embedding to fixed-page formats such as PDF and XPS are not supported. The text is replaced with bitmap images.|Supported for most scenarios, including embedding to fixed-page formats.|
 |OpenType Font Variations|Only named instances are supported. Continuous variations not supported.|Supported for the only default instance. Named instances and continuous variations are not supported.|
 |Type1 fonts|Supported on Windows versions prior to 2013 and on MacOS versions. Support is dropped on Windows versions starting from 2013.|Not supported.|
 
