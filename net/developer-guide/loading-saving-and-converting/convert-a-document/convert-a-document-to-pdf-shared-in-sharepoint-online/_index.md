@@ -1,9 +1,9 @@
 ---
-title: Convert a Document to PDF shared in SharePoint with C#
-second_title: Aspose.Words
-articleTitle: Convert a Document to PDF shared in SharePoint Online
-linktitle: Convert a Document to PDF shared in SharePoint Online
-description: "Convert a Document to PDF shared in SharePoint Online using C#. Various input formats are supported, including Word, OpenOffice, Image and eBook formats."
+title: Work with a Document Stored in a SharePoint Online
+second_title: Aspose.Words for .NET
+articleTitle: Work with a Document Stored in a SharePoint Online
+linktitle: Work with a Document Stored in a SharePoint Online
+description: "Convert Word shared in SharePoint to PDF using C#. Work with documents stored in SharePoint – various input formats, including Word, OpenOffice, Image and eBook."
 type: docs
 weight: 15
 url: /net/convert-a-document-to-pdf-shared-in-sharepoint-online/
@@ -19,7 +19,7 @@ In this article, we will cover a common scenario for converting a document uploa
 2. Set up an instant sandbox [according to the video tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes)
 3. Create app-based credentials for SharePoint Online as detailed in ["Setting up an app-only principal with tenant permissions"]()
 4. Upload the document with the name "TestDoc.docx" to the root communication site into the "Shared Documents" folder
-5. Purchase Aspose.Words license.
+5. Purchase Aspose.Words license, or use a [Free Trial or a 30-day Temporary License](/words/net/licensing/)
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ Note that If you already have a SharePoint Online root communication site then s
 
 ## Create Console Application
 
-To evaluate how Aspose.Words for .NET works with SharePoint documents, you need to create a console application with the appropriate settings and implement the logic for downloading DOCX file from the "Shared Documents" folder, converting it to PDF format and then uploading this file to the same folder. To do this, follow the instructions described in this section.
+To evaluate how Aspose.Words for .NET works with SharePoint documents, you need to create a console application with the appropriate settings and implement the logic for downloading a document from the "Shared Documents" folder, processing it, and then uploading this file to the same folder. To do this, follow the instructions described in this section.
 
 To execute the instructions, you need to find and fix the values of the following parameters, which will be available after completing the steps in the "Preset" part:
 
