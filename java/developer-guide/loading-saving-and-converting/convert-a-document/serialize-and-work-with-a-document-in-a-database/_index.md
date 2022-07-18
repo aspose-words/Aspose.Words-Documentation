@@ -19,9 +19,9 @@ Aspose.Words provides an ability to convert a document into a byte array for sub
 
 To store a document in a database or to prepare a document for transmission across the web, it is often necessary to serialize the document to obtain a byte array.
 
-To serialize a [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object in Aspose.Words:
+To serialize a [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) object in Aspose.Words:
 
-1. Save it to a **MemoryStream** using the [Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save\(java.io.OutputStream,int\)) method overload of the **Document** class.
+1. Save it to a **MemoryStream** using the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save\(java.io.OutputStream,int\)) method overload of the **Document** class.
 1. Call the **ToArray** method, which returns an array of bytes representing the document in byte form.
 
 The steps above then can be reversed to load the bytes back into a **Document** object.

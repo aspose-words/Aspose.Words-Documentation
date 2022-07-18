@@ -66,7 +66,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://apireference.aspose.com/words/java/com.aspose.words/IHyphenationCallback) interface and use the static callback [Callback](https://apireference.aspose.com/words/java/com.aspose.words/hyphenation#Callback).
+As an alternative to pre-registering hyphenation dictionaries, it is possible to register only required hyphenation dictionaries “by request”. To achieve that, implement the [IHyphenationCallback](https://reference.aspose.com/words/java/com.aspose.words/IHyphenationCallback) interface and use the static callback [Callback](https://reference.aspose.com/words/java/com.aspose.words/hyphenation#Callback).
 
 The following code example shows how to implement the **IHyphenationCallback** interface:
 

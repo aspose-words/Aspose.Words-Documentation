@@ -16,7 +16,7 @@ See more details in the ["Find and Replace"](/words/net/find-and-replace/) artic
 
 {{% /alert %}}
 
-Use one of the [Replace](https://apireference.aspose.com/words/net/aspose.words/range/methods/replace/index) methods to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote.
+Use one of the [Replace](https://reference.aspose.com/words/net/aspose.words/range/methods/replace/index) methods to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote.
 
 The following code example shows how to find some text and replace it:
 

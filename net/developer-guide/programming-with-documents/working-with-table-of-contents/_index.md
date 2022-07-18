@@ -21,7 +21,7 @@ Often you will work with documents containing a table of contents (TOC). Using A
 
 ### Insert a Table of Contents Programmatically
 
-You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.InsertTableOfContents](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserttableofcontents) method.
+You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserttableofcontents) method.
 
 A table of contents in a Word document can be built in a number of ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
 

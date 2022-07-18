@@ -15,7 +15,7 @@ Exported to HTML as &lt;p&gt;. Paragraphs with built-in heading styles are expor
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.EpubNavigationMapLevel](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/epubnavigationmaplevel)
+- [HtmlSaveOptions.EpubNavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/epubnavigationmaplevel)
 
 {{% /alert %}}
 

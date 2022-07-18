@@ -76,7 +76,7 @@ Often the easiest way to set a license is to place the license file in the same 
 
 {{% alert color="primary" %}}
 
-Use the [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method to license a component.
+Use the [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method to license a component.
 
 Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
@@ -94,7 +94,7 @@ When developing a class library, you can call **SetLicense** from the static con
 
 ##### Load a License from a File
 
-Using the [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.lang.String)) method, you can try to find the license file in the embedded resources or folder that contain the JARs of your application for further use.
+Using the [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license#setLicense(java.lang.String)) method, you can try to find the license file in the embedded resources or folder that contain the JARs of your application for further use.
 
 The following code example shows how to initialize a license from a folder:
 
@@ -105,7 +105,7 @@ license.setLicense("Aspose.Words.Java.lic");
 
 ##### Load a License from a Stream Object
 
-The following code example shows how to initialize a license from a stream using another [SetLicense](https://apireference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method:
+The following code example shows how to initialize a license from a stream using another [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license#setLicense(java.io.InputStream)) method:
 
 {{< highlight csharp >}}
 com.aspose.words.License license = new com.aspose.words.License();
@@ -129,7 +129,7 @@ Aspose.Words allows developers to apply a metered key. This is a new licensing m
 
 The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
 
-After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://apireference.aspose.com/words/java/com.aspose.words/Metered) class specially introduced for this purpose.
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/java/com.aspose.words/Metered) class specially introduced for this purpose.
 
 The following code example shows how to set metered public and private keys:
 

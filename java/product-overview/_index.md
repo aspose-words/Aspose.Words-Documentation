@@ -48,7 +48,7 @@ Aspose.Words for Java features can be divided into four main areas.
 
 The ability to easily and reliably convert documents is one of the main features of Aspose.Words.
 
-Comprehensive [document import and export](/words/java/loading-saving-and-converting/) with [over 35 supported file formats](/words/java/supported-document-formats/) allows users to convert documents from [one popular format](https://apireference.aspose.com/words/java/com.aspose.words/LoadFormat) to [another](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat), for example, from DOCX to PDF, JPEG, or Markdown.
+Comprehensive [document import and export](/words/java/loading-saving-and-converting/) with [over 35 supported file formats](/words/java/supported-document-formats/) allows users to convert documents from [one popular format](https://reference.aspose.com/words/java/com.aspose.words/LoadFormat) to [another](https://reference.aspose.com/words/java/com.aspose.words/SaveFormat), for example, from DOCX to PDF, JPEG, or Markdown.
 
 #### Document Object Model (DOM)
 
@@ -102,7 +102,7 @@ Although there are over 150 public classes and enumerations in Aspose.Words, the
 
 Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of many classes, methods, and properties familiar.
 
-[Document](https://apireference.aspose.com/words/java/com.aspose.words/Document), [Paragraph](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph), [Bookmark](https://apireference.aspose.com/words/java/com.aspose.words/Bookmark), [Range](https://apireference.aspose.com/words/java/com.aspose.words/Range), [Section.PageSetup](https://apireference.aspose.com/words/java/com.aspose.words/section#PageSetup) and [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph#ParagraphFormat) are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/Document), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/Paragraph), [Bookmark](https://reference.aspose.com/words/java/com.aspose.words/Bookmark), [Range](https://reference.aspose.com/words/java/com.aspose.words/Range), [Section.PageSetup](https://reference.aspose.com/words/java/com.aspose.words/section#PageSetup) and [Paragraph.ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/Paragraph#ParagraphFormat) are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
 
 ## Pricing and Policies
 

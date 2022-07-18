@@ -17,7 +17,7 @@ There is a save option to control how table and cell widths are exported. You ca
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.TableWidthOutputMode](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/tablewidthoutputmode)
+- [HtmlSaveOptions.TableWidthOutputMode](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/tablewidthoutputmode)
 
 {{% /alert %}}
 

@@ -21,13 +21,13 @@ The API is enhanced for more flexible and convenient development.
 
 ### Supported Formats
 
-Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://apireference.aspose.com/words/cpp/namespace/aspose.words#saveformat).
+Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://reference.aspose.com/words/cpp/namespace/aspose.words#loadformat) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/cpp/namespace/aspose.words#saveformat).
 
 ### Rendering and Printing
 
 #### New Priting Size
 
-Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://apireference.aspose.com/words/cpp/namespace/aspose.words#papersize) enumeration.
+Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/cpp/namespace/aspose.words#papersize) enumeration.
 
 #### Rendering MathML Formulas
 
@@ -73,7 +73,7 @@ Loading a document in AZW3 format (KF8 is another name for the format) has been 
 
 #### Rendering to PDF with PDF/UA-1 Compliance
 
-Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration – **PdfUa1**. This option assumes compliance with special requirements for document accessibility.
+Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration – **PdfUa1**. This option assumes compliance with special requirements for document accessibility.
 
 #### Rendering MathML Formulas
 
@@ -90,7 +90,7 @@ The following improvements have been made to the DML charts:
 
 #### Rendering to PDF with PDF/A-4 Compliance
 
-Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration – PdfA4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
+Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://reference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration – PdfA4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
 
 #### Reading of Photoshop metadata resolution in JPEG
 
@@ -100,11 +100,11 @@ Reading of Photoshop metadata resolution in JPEG images has been implemented to 
 
 #### Controlling Style Behavior When Loading a Document
 
-A new option [ForceCopyStyles](https://apireference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_forcecopystyles_const) has been introduced to control the behavior of conflicting styles upon document import.
+A new option [ForceCopyStyles](https://reference.aspose.com/words/cpp/class/aspose.words.import_format_options#get_forcecopystyles_const) has been introduced to control the behavior of conflicting styles upon document import.
 
 #### Document Saving Progress Notifications
 
-An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_progresscallback_const) property in 22.1.
+An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_progresscallback_const) property in 22.1.
 
 In 22.2, saving progress notifications have been extended for HTML and XAML based flow formats: HTML, MHTML, Epub, XamlFlow, and XamlFlowPack.
 
@@ -112,7 +112,7 @@ In 22.3, saving progress notifications have been extended for TXT format.
 
 #### Convert Shapes to SVG When Exporting
 
-The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the [ExportShapesAsSvg](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options#get_exportshapesassvg_const) property.
+The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the [ExportShapesAsSvg](https://reference.aspose.com/words/cpp/class/aspose.words.saving.html_save_options#get_exportshapesassvg_const) property.
 
 #### Export of List Numbering to PDF Logical Structure
 
@@ -120,7 +120,7 @@ List numbering export to PDF logical structure has been implemented.
 
 #### Saving to PDF 2.0 and Improvements in PDF Output
 
-The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration, as well as several other requested improvements to PDF output, have been introduced.
+The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://reference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration, as well as several other requested improvements to PDF output, have been introduced.
 
 #### New HTML Import Mode
 
@@ -168,7 +168,7 @@ New public methods and properties to work with gradient fills and gradient stops
 
 #### Attachment Pane in Output PDF Documents
 
-A new option [UseAttachments](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfpagemode) has been implemented to display the attachment pane in output PDF documents.
+A new option [UseAttachments](https://reference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfpagemode) has been implemented to display the attachment pane in output PDF documents.
 
 #### Allow Latin Text to Wrap in the Middle of a Word
 
@@ -176,25 +176,25 @@ Support for the "Allow Latin text to wrap in the middle of a word" feature has b
 
 ### Search and Compare
 
-* A new option [IgnoreFootnotes](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefootnotes_const) to ignore footnotes during the find and replace operation has been added.
+* A new option [IgnoreFootnotes](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefootnotes_const) to ignore footnotes during the find and replace operation has been added.
 
-* A new option [IgnoreFieldCodes](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefieldcodes_const) to ignore field codes during find and replace operation has been added.
+* A new option [IgnoreFieldCodes](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefieldcodes_const) to ignore field codes during find and replace operation has been added.
 
 ### Mail Merge and Reporting
 
-The ability to get [ParentRegion](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info#get_parentregion_const) through [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info), which made our MailMerge engine more tunable, has been added.
+The ability to get [ParentRegion](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info#get_parentregion_const) through [MailMergeRegionInfo](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info), which made our MailMerge engine more tunable, has been added.
 
 ### Conversion
 
-A simple way to save images as Base64 string into Markdown format has been provided through the [ExportImagesAsBase64](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.markdown_save_options#get_exportimagesasbase64) property.
+A simple way to save images as Base64 string into Markdown format has been provided through the [ExportImagesAsBase64](https://reference.aspose.com/words/cpp/class/aspose.words.saving.markdown_save_options#get_exportimagesasbase64) property.
 
 ### Other
 
-- An ability to get the [CustomNumberStyleFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level#get_customnumberstyleformat) property of the [ListLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object has been added.
-- A possibility to get the string representation of the [ListLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object for a specified index using the [GetEffectiveValue](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level#geteffectivevalue_int_numberstyle_string) method has been added.
+- An ability to get the [CustomNumberStyleFormat](https://reference.aspose.com/words/cpp/class/aspose.words.lists.list_level#get_customnumberstyleformat) property of the [ListLevel](https://reference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object has been added.
+- A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/cpp/class/aspose.words.lists.list_level) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/cpp/class/aspose.words.lists.list_level#geteffectivevalue_int_numberstyle_string) method has been added.
 - An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
-- A new class [ChmLoadOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.chm_load_options) has been added to get more control over CHM loading.
-- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag) and [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start) classes.
+- A new class [ChmLoadOptions](https://reference.aspose.com/words/cpp/class/aspose.words.loading.chm_load_options) has been added to get more control over CHM loading.
+- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start) classes.
 
 {{% alert color="primary" %}}
 
@@ -228,45 +228,45 @@ An ability to set fill and stroke formatting for chart series, data points, and 
 
 #### Control the Fill Texture of Any Object
 
-A new public method [PresetTextured](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#get_presettexture) has been added to the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
+A new public method [PresetTextured](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill#get_presettexture) has been added to the [Fill](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
 
 #### Rendering of OOXML Ink
 
-Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_imlrenderingmode_const) and a new enumeration [ImlRenderingMode](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#imlrenderingmode) have been added to control the mode of Ink rendering.
+Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_imlrenderingmode_const) and a new enumeration [ImlRenderingMode](https://reference.aspose.com/words/cpp/namespace/aspose.words.saving#imlrenderingmode) have been added to control the mode of Ink rendering.
 
 Prior to this version, Aspose.Words could only render fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple pre-rendered image was used instead. And now OOXML Ink content part can be rendered directly.
 
 #### Control the Maximum Number of Characters per Line
 
-A new public property [MaxCharactersPerLine](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.txt_save_options#get_maxcharactersperline_const) has been introduced to control the maximum number of characters per line in the output document of TXT format.
+A new public property [MaxCharactersPerLine](https://reference.aspose.com/words/cpp/class/aspose.words.saving.txt_save_options#get_maxcharactersperline_const) has been introduced to control the maximum number of characters per line in the output document of TXT format.
 
 #### Rendering to PDF/A-2
 
-Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
+Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/cpp/namespace/aspose.words.saving#pdfcompliance) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
 
 #### Work with Patterns
 
-A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#patterned_patterntype) method with two overloads and the [Pattern](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#get_pattern) property have been added to the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class and the [PatternType](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing#patterntype) enumeration has been added to the [Drawing](https://apireference.aspose.com/words/cpp/namespace/aspose.words.drawing) namespace.
+A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill#patterned_patterntype) method with two overloads and the [Pattern](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill#get_pattern) property have been added to the [Fill](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class and the [PatternType](https://reference.aspose.com/words/cpp/namespace/aspose.words.drawing#patterntype) enumeration has been added to the [Drawing](https://reference.aspose.com/words/cpp/namespace/aspose.words.drawing) namespace.
 
 #### Insert GIF into the Document Model
 
-The ability to insert a GIF image into the document model using the [InsertImage](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#insertimage_ubytearray) method has been introduced. Please note that saving a document to a format different from DOCX, DOTX, DOCM, DOTM, FOPC causes the conversion of GIF images to PNG.
+The ability to insert a GIF image into the document model using the [InsertImage](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertimage_ubytearray) method has been introduced. Please note that saving a document to a format different from DOCX, DOTX, DOCM, DOTM, FOPC causes the conversion of GIF images to PNG.
 
 ### Conversion
 
-A new overload of the [InsertHtml](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#inserthtml_string_htmlinsertoptions) method with extended options has been implemented to make this operation more flexible.
+A new overload of the [InsertHtml](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#inserthtml_string_htmlinsertoptions) method with extended options has been implemented to make this operation more flexible.
 
 ### Mail Merge and Reporting
 
-A new property [RestartListsAtEachSection](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#get_restartlistsateachsection_const) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
+A new property [RestartListsAtEachSection](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#get_restartlistsateachsection_const) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
 
 ### Other
 
-- New methods [SetCheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#setcheckedsymbol_int_string) and [SetUncheckedSymbol](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#setuncheckedsymbol_int_string) have been added to set checked and unchecked symbols for your favorite structured document tags.
+- New methods [SetCheckedSymbol](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#setcheckedsymbol_int_string) and [SetUncheckedSymbol](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag#setuncheckedsymbol_int_string) have been added to set checked and unchecked symbols for your favorite structured document tags.
 - The equations created with EQ fields are now supported upon converting to all HTML-based formats.
-- A new public property [ContinuousSectionPageNumberingRestart](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_continuoussectionpagenumberingrestart_const) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
+- A new public property [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_continuoussectionpagenumberingrestart_const) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
 - An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
-- A new PDF save option [ExportLanguageToSpanTag](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#get_exportlanguagetospantag_const) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
+- A new PDF save option [ExportLanguageToSpanTag](https://reference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#get_exportlanguagetospantag_const) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
 - A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
 
 {{% alert color="primary" %}}
@@ -295,7 +295,7 @@ Aspose.Words 21.4 improves rendering and conversion features, and enhances the a
 
 #### Vertical Alignment of Table Cells
 
-A new public option [VerticalAlignment](https://apireference.aspose.com/words/cpp/class/aspose.words.table_style#get_verticalalignment) to set table style vertical alignment of cells has been added.
+A new public option [VerticalAlignment](https://reference.aspose.com/words/cpp/class/aspose.words.table_style#get_verticalalignment) to set table style vertical alignment of cells has been added.
 
 #### Manipulating Themed Properties of Font Objects
 
@@ -303,38 +303,38 @@ A new public API, allowing to manipulate themed properties of Font objects, has 
 
 #### Setting Fill Formatting of Text
 
-Font API has been extended with the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
+Font API has been extended with the [Fill](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
 
 #### Convert Any Fill to Solid
 
-A new method [Solid](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill#solid) has been added to the [Fill](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class for processing solid fills.
+A new method [Solid](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill#solid) has been added to the [Fill](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.fill) class for processing solid fills.
 
 ### Conversion
 
 #### Markdown Document Export
 
-A new public property [ImageSavingCallback](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.i_image_saving_callback) has been added to control how images are saved upon converting to Markdown format.
+A new public property [ImageSavingCallback](https://reference.aspose.com/words/cpp/class/aspose.words.saving.i_image_saving_callback) has been added to control how images are saved upon converting to Markdown format.
 
 #### HTML Document Import
 
-A new public property [IgnoreNoscriptElements](https://apireference.aspose.com/words/cpp/class/aspose.words.loading.html_load_options#get_ignorenoscriptelements_const) has been added to ignore `<noscript>` HTML elements upon loading HTML.
+A new public property [IgnoreNoscriptElements](https://reference.aspose.com/words/cpp/class/aspose.words.loading.html_load_options#get_ignorenoscriptelements_const) has been added to ignore `<noscript>` HTML elements upon loading HTML.
 
 #### Clean Up Unused Information from a Document
 
-A new public property [UnusedBuiltinStyles](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options#get_unusedbuiltinstyles_const) has been added to the [CleanupOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.cleanup_options) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
+A new public property [UnusedBuiltinStyles](https://reference.aspose.com/words/cpp/class/aspose.words.cleanup_options#get_unusedbuiltinstyles_const) has been added to the [CleanupOptions](https://reference.aspose.com/words/cpp/class/aspose.words.cleanup_options) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
 
 ### Search and Compare
 
-A new public property [SmartParagraphBreakReplacement](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_smartparagraphbreakreplacement_const) has been added to the [FindReplaceOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
+A new public property [SmartParagraphBreakReplacement](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_smartparagraphbreakreplacement_const) has been added to the [FindReplaceOptions](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
 
 ### Other
 
-* New public methods [StartColumnBookmark](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#startcolumnbookmark_string) and [EndColumnBookmark](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder#endcolumnbookmark_string) have been introduced in the [DocumentBuilder](https://apireference.aspose.com/words/cpp/class/aspose.words.document_builder) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
-* A new public option [UpdateCreatedTimeProperty](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_updatecreatedtimeproperty_const) has been added to update the [CreatedTime](https://apireference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#get_createdtime) property of a document upon saving.
-* A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://apireference.aspose.com/words/cpp/namespace/aspose.words.markup#sdttype95dropdownlist) structured document tag is updated from custom XML.
-* A new public method [ClearQuickStyleGallery](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection#clearquickstylegallery) has been added to the [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
-* An ability to work with child nodes of the [StructuredDocumentTag](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag) range has been added. New behavior follows the [CompositeNode](https://apireference.aspose.com/words/cpp/class/aspose.words.composite_node) pattern and returns a live collection.
-* The ability to create instances of the [StructuredDocumentTagRangeStart](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start) and [StructuredDocumentTagRangeEnd](https://apireference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_end) classes manually has been added.
+* New public methods [StartColumnBookmark](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#startcolumnbookmark_string) and [EndColumnBookmark](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#endcolumnbookmark_string) have been introduced in the [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
+* A new public option [UpdateCreatedTimeProperty](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_updatecreatedtimeproperty_const) has been added to update the [CreatedTime](https://reference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#get_createdtime) property of a document upon saving.
+* A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://reference.aspose.com/words/cpp/namespace/aspose.words.markup#sdttype95dropdownlist) structured document tag is updated from custom XML.
+* A new public method [ClearQuickStyleGallery](https://reference.aspose.com/words/cpp/class/aspose.words.style_collection#clearquickstylegallery) has been added to the [StyleCollection](https://reference.aspose.com/words/cpp/class/aspose.words.style_collection) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
+* An ability to work with child nodes of the [StructuredDocumentTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag) range has been added. New behavior follows the [CompositeNode](https://reference.aspose.com/words/cpp/class/aspose.words.composite_node) pattern and returns a live collection.
+* The ability to create instances of the [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_start) and [StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag_range_end) classes manually has been added.
 
 {{% alert color="primary" %}}
 

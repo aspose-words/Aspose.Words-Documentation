@@ -116,7 +116,7 @@ This is because Microsoft Office fallback settings are selected by default, and 
 
 **Q: Why might complex script text, such as Thai or Hebrew, be displayed inaccurately for some reason, such as the wrong position for diacritics or inaccurate ligatures?**
 
-Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory).
+Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory).
 
 ------
 
@@ -136,14 +136,14 @@ You can find more detailed information about mail merge in the [“Mail Merge an
 
 The original name of the merge field stays the same without being replaced by the required data from the data source, then:
 
-* Check the data is being loaded properly into tables: set the [TableName](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/properties/tablename) correctly with all required primary keys and relationships.
-* Check that the merge fields are named properly. Use the [GetFieldNames](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/getfieldnames) method to get all merge fields names and ensure that the name of merge fields in your template matches the one in your data source.
+* Check the data is being loaded properly into tables: set the [TableName](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/properties/tablename) correctly with all required primary keys and relationships.
+* Check that the merge fields are named properly. Use the [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/getfieldnames) method to get all merge fields names and ensure that the name of merge fields in your template matches the one in your data source.
 
 ------
 
 **Q: Why does the output of nested merging not display data from the child table for the first entry in the parent table but display all items for the last entry in the parent table, even ones that are not actually linked to it?**
 
-This is because the merge regions in the template are not correctly formed, which can make all nested mail merge regions to stop displaying anything at all. The [StartTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable) opening tag and the [EndTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endtable) closing tag must match and be in the same row or cell. For example, if you start nesting merge regions in a cell of a table, you must end the merge region in the same row as the first cell.
+This is because the merge regions in the template are not correctly formed, which can make all nested mail merge regions to stop displaying anything at all. The [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable) opening tag and the [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/endtable) closing tag must match and be in the same row or cell. For example, if you start nesting merge regions in a cell of a table, you must end the merge region in the same row as the first cell.
 
 ------
 
@@ -172,7 +172,7 @@ You can find more detailed information about programming with documents in the [
 
 **Q: Why does not content appended to a document appear on the same page?**
 
-The append result appears on a separate page because of a difference in [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup) settings for the sections where the documents are appended together. Make identical **PageSetup** settings for the sections where the documents are appended together.
+The append result appears on a separate page because of a difference in [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup) settings for the sections where the documents are appended together. Make identical **PageSetup** settings for the sections where the documents are appended together.
 
 ## Convert a Document
 

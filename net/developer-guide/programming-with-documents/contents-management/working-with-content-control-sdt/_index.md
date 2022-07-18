@@ -61,7 +61,7 @@ You can bind content controls with XML data (*custom XML part*) in Word document
 
 ## XMLMapping of Structured Document Tag Range
 
-You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the StructuredDocumentTagRangeStart.XmlMapping property. However, the [SetMapping](https://apireference.aspose.com/words/net/aspose.words.markup/xmlmapping/methods/setmapping) method can be used to map a structured document tag range to XML data. The following code example demonstrates how to set XML mapping. 
+You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the StructuredDocumentTagRangeStart.XmlMapping property. However, the [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/methods/setmapping) method can be used to map a structured document tag range to XML data. The following code example demonstrates how to set XML mapping. 
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-StructuredDocumentTagRangeStartXmlMapping.cs" >}}
 
@@ -96,6 +96,6 @@ Note that only Linked and Character styles can be applied to content control. An
 
 ## Working with Repeating Section Content Control
 
-The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://apireference.aspose.com/words/net/aspose.words.markup/sdttype) provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
+The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://reference.aspose.com/words/net/aspose.words.markup/sdttype) provides **RepeatingSectionItem** property. The following code example demonstrates how to bind a repeating section content control to a table.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-CreatingTableRepeatingSectionMappedToCustomXmlPart.cs" >}}

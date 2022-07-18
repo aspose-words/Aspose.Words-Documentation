@@ -15,7 +15,7 @@ See more details in the ["Track Changes in a Document"](/words/java/track-change
 
 {{% /alert %}}
 
-The [AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#acceptAllRevisions()) method allows you to "accept" all tracked changes in the document. Calling this method is similar to selecting "Accept All Changes" in Microsoft Word. Aspose.Words will actually delete fragments marked as "delete revisions", retain fragments marked as "insert revisions", and apply formatting changes. Note that comments are not affected during this operation.
+The [AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/Document#acceptAllRevisions()) method allows you to "accept" all tracked changes in the document. Calling this method is similar to selecting "Accept All Changes" in Microsoft Word. Aspose.Words will actually delete fragments marked as "delete revisions", retain fragments marked as "insert revisions", and apply formatting changes. Note that comments are not affected during this operation.
 
 The following code example shows how to accept all revisions in a document:
 

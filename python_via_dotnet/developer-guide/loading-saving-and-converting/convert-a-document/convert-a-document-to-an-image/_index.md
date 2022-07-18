@@ -10,7 +10,7 @@ url: /python-net/convert-a-document-to-an-image/
 aliases: [/python/convert-a-document-to-an-image/]
 ---
 
-Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application, or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://apireference.aspose.com/words/net/aspose.words/loadformat) to an image, again, in any [supported save format](https://apireference.aspose.com/words/net/aspose.words/saveformat).
+Sometimes it is required to get an image instead of documents in other formats, such as DOCX or PDF. For example, you need to add a preview of any document page to your website or application, or create a "scan" of a document to send an invoice. This is when you may need to convert a document in any [supported load format](https://reference.aspose.com/words/net/aspose.words/loadformat) to an image, again, in any [supported save format](https://reference.aspose.com/words/net/aspose.words/saveformat).
 
 ## Convert to Image Format {#convert-to-image-format}
 

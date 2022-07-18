@@ -37,9 +37,9 @@ In the future we will add full support for these in import and allow an option t
 See the following links in the documentation for further information:
 
 - [Save a Document](/words/net/save-a-document/)
-- [HtmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions)
-- [HtmlSaveOptions.CssStyleSheetType](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype)
-- [HtmlSaveOptions.Encoding](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/encoding)
+- [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions)
+- [HtmlSaveOptions.CssStyleSheetType](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/cssstylesheettype)
+- [HtmlSaveOptions.Encoding](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/encoding)
 
 {{% /alert %}}
 
@@ -48,7 +48,7 @@ See the following links in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Attached Template |N/A | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom <o:> tags. In EPUB format properties are also exported as Dublin Core tags. |<p>- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount) </p><p>- [HtmlSaveOptions.ExportDocumentProperties](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportdocumentproperties)</p>|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. <br><br>There is a save option that controls whether document properties are exported or not. <br><br>Title, Keywords, Description properties are always exported as title and meta tags to HTML or MHTML and as the appropriate Dublin Core tags when saving as EPUB. <br><br>Additional built-in properties are exported as custom <o:> tags. In EPUB format properties are also exported as Dublin Core tags. |<p>- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/methods/updatewordcount) </p><p>- [HtmlSaveOptions.ExportDocumentProperties](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportdocumentproperties)</p>|
 |Custom Properties |Yes |Custom properties are exported as custom <o:> tags to HTML. |- **HtmlSaveOptions.ExportDocumentProperties**|
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |N/A | | |
@@ -73,7 +73,7 @@ See the following links in the documentation for further information:
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Embedding Fonts |Yes |There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX can be optionally exported. |<p>- [HtmlSaveOptions.ExportFontResources](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportfontresources) </p><p>- [HtmlSaveOptions.FontResourcesSubsettingSizeThreshold](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontresourcessubsettingsizethreshold) </p><p>- [HtmlSaveOptions.FontsFolder](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontsfolder) </p><p>- [HtmlSaveOptions.FontSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontsavingcallback)</p>|
+|Embedding Fonts |Yes |There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX can be optionally exported. |<p>- [HtmlSaveOptions.ExportFontResources](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportfontresources) </p><p>- [HtmlSaveOptions.FontResourcesSubsettingSizeThreshold](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontresourcessubsettingsizethreshold) </p><p>- [HtmlSaveOptions.FontsFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontsfolder) </p><p>- [HtmlSaveOptions.FontSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/fontsavingcallback)</p>|
 |Embed Only Non-Standard Fonts |N/A | | |
 
 ## Bibliography

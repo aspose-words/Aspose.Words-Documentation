@@ -10,11 +10,11 @@ weight: 20
 url: /java/save-a-document/
 ---
 
-Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save(java.lang.String)) method of the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat) enumeration.
+Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save(java.lang.String)) method of the [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) class. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/SaveFormat) enumeration.
 
 ## Save to a File {#save-a-document-to-a-file}
 
-Simply use the [Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save(java.lang.String)) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
+Simply use the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save(java.lang.String)) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
 
 The following code example shows how to load and save a document to a file:
 
@@ -28,7 +28,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Save to a Stream {#save-a-document-to-a-stream}
 
-Pass a stream object to the [Save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save(java.io.OutputStream,com.aspose.words.SaveOptions)) method. It's necessary to specify the save format explicitly when saving to a stream.
+Pass a stream object to the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save(java.io.OutputStream,com.aspose.words.SaveOptions)) method. It's necessary to specify the save format explicitly when saving to a stream.
 
 The following code example shows how to load and save a document to a stream:
 

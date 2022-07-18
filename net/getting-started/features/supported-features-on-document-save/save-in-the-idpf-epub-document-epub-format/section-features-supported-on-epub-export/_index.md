@@ -29,7 +29,7 @@ When embedded or external style sheet is set, regular paragraphs in the header o
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.ExportHeadersFootersMode](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportheadersfootersmode)
+- [HtmlSaveOptions.ExportHeadersFootersMode](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportheadersfootersmode)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -48,7 +48,7 @@ Note that when exporting to EPUB such break elements are normally ignored by mos
 See the following links in the documentation for further information:
 
 - **Section.SectionStart**
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
+- [DocumentBuilder.InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 - **HtmlSaveOptions.DocumentSplitCritera**
 
 |Feature|Supported|Comment|See Also|
@@ -94,7 +94,7 @@ Some features need Microsoft Office specific attributes, they are not currently 
 | :- | :- | :- | :- |
 |Right to Left Section |Yes |Supported on HTML export only. | |
 |Line Numbering |Planned | | |
-|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size |Yes | | |
 |Orientation |Yes |Currently paper size depends on orientation as width and height are switched. <br><br>In the future we can also output native CSS 3 attributes. | |
 |Protection |N/A | | |

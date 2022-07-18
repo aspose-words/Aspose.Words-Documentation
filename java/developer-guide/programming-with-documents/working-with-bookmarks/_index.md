@@ -58,7 +58,7 @@ The actions that can be performed with bookmarks using Aspose.Words are the same
 
 ### Inserting a Bookmark
 
-Use [DocumentBuilder.startBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startBookmark(java.lang.String)) and [DocumentBuilder.endBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endBookmark(java.lang.String)) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved. The following example adds some text into the document and encloses the text in a bookmark.
+Use [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startBookmark(java.lang.String)) and [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endBookmark(java.lang.String)) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved. The following example adds some text into the document and encloses the text in a bookmark.
 
 {{% alert color="primary" %}}
 
@@ -94,7 +94,7 @@ The following code example demonstrates how to access columns of the bookmarked 
 
 ### Moving to a Bookmark
 
-If you need to insert rich content (not just plain text) into a bookmark, you should use [DocumentBuilder.moveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark(java.lang.String)) to move the cursor to the bookmark and then use **DocumentBuilder** methods and properties to insert content.
+If you need to insert rich content (not just plain text) into a bookmark, you should use [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark(java.lang.String)) to move the cursor to the bookmark and then use **DocumentBuilder** methods and properties to insert content.
 
 ### Show Hide Bookmark Content
 

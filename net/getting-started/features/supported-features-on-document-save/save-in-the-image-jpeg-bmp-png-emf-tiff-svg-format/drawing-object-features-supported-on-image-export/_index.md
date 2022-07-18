@@ -17,8 +17,8 @@ All images are exported as the same format that they were originally loaded as.
 
 See the following links in the documentation for further information:
 
-- [SvgSaveOptions.ExportEmbeddedImages](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/exportembeddedimages)
-- [SvgSaveOptions.ResourcesFolder](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/resourcesfolder)
+- [SvgSaveOptions.ExportEmbeddedImages](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/exportembeddedimages)
+- [SvgSaveOptions.ResourcesFolder](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/properties/resourcesfolder)
 
 {{% /alert %}}
 
@@ -26,7 +26,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |PNG |Yes | | |
 |JPG |Yes | | |
-|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://apireference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/metafilerenderingoptions)|
+|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/metafilerenderingoptions)|
 |EMF |Yes | | |
 |EMF+ |Yes | | |
 |BMP |Yes | | |

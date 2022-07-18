@@ -17,7 +17,7 @@ On this page we will look at how to create a document using Aspose.Words or Open
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, we normally use the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class to create a document and the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class to modify it.
+In Aspose.Words, we normally use the [Document](https://reference.aspose.com/words/net/aspose.words/document) class to create a document and the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class to modify it.
 
 The following code example shows how to create a document:
 

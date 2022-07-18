@@ -48,9 +48,9 @@ This feature will be supported in the future.
 See the following links in the documentation for further information:
 
 - **HtmlSaveOptions.ImageFolder**
-- [HtmlSaveOptions.ImageSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imagesavingcallback)
-- [HtmlSaveOptions.ExportImagesAsBase64](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportimagesasbase64)
-- [HtmlSaveOptions.ImageResolution](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imageresolution)
+- [HtmlSaveOptions.ImageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imagesavingcallback)
+- [HtmlSaveOptions.ExportImagesAsBase64](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportimagesasbase64)
+- [HtmlSaveOptions.ImageResolution](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/imageresolution)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -126,7 +126,7 @@ This provides great fidelity however text is not selectable in the output docume
 
 See the following link in the documentation for further information:
 
-- [HtmlSaveOptions.ScaleImageToShapeSize](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/scaleimagetoshapesize)
+- [HtmlSaveOptions.ScaleImageToShapeSize](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/scaleimagetoshapesize)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

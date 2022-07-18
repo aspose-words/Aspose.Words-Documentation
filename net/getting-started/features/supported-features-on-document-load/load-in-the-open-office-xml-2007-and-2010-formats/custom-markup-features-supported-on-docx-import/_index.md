@@ -27,7 +27,7 @@ You can create and remove CustomXmlMarkup in a document. You can also access the
 
 See the following link in the documentation for further information:
 
-- [CustomXmlPart](https://apireference.aspose.com/words/net/aspose.words.markup/customxmlpart)
+- [CustomXmlPart](https://reference.aspose.com/words/net/aspose.words.markup/customxmlpart)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -43,7 +43,7 @@ Currently Content Controls linked to Custom XML Data Storage are not supported d
 
 See the following link in the documentation for further information:
 
-- [StructuredDocumentTag](https://apireference.aspose.com/words/net/aspose.words.markup/structureddocumenttag)
+- [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -55,10 +55,10 @@ SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Wo
 
 See the following links in the documentation for further information:
 
-- [SmartTag](https://apireference.aspose.com/words/net/aspose.words.markup/smarttag)
-- [Document.RemoveSmartTags](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/removesmarttags)
+- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag)
+- [Document.RemoveSmartTags](https://reference.aspose.com/words/net/aspose.words/compositenode/methods/removesmarttags)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Smart Tag Properties |Yes | |- [SmartTag.Properties](https://apireference.aspose.com/words/net/aspose.words.markup/smarttag/properties)|
+|Smart Tag Properties |Yes | |- [SmartTag.Properties](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/properties)|
 

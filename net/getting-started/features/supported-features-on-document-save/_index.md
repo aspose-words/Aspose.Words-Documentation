@@ -20,9 +20,9 @@ The following pages describe how each Microsoft Word feature is handled and the 
 
 ## Saving a Document
 
-To save a document simply use the [Document.Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) method and specify the file extension or [SaveFormat](https://apireference.aspose.com/words/net/aspose.words/saveformat) type to convert the document to the specified format.
+To save a document simply use the [Document.Save](https://reference.aspose.com/words/net/aspose.words.document/save/methods/2) method and specify the file extension or [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat) type to convert the document to the specified format.
 
-There are also many save options available to control how documents are exported to a format. For example, there is a save option to choose compliance when exporting to Open Office XML formats, or to choose the page range to export when rendering to fixed page formats such as PDF, XPS, Image etc. Each export format type has its own save option class, for instance PDF has the [PdfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/PdfSaveOptions) class, and HTML has the [HtmlSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/HtmlSaveOptions) class and so forth.
+There are also many save options available to control how documents are exported to a format. For example, there is a save option to choose compliance when exporting to Open Office XML formats, or to choose the page range to export when rendering to fixed page formats such as PDF, XPS, Image etc. Each export format type has its own save option class, for instance PDF has the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/PdfSaveOptions) class, and HTML has the [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/HtmlSaveOptions) class and so forth.
 
 ## Section Guide
 

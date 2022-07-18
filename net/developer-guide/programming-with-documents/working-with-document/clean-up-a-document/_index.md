@@ -13,13 +13,13 @@ Sometimes you may need to remove unused or duplicate information to reduce the s
 
 While you can find and remove unused data, such as styles or lists, or duplicate information manually, it will be much more convenient to do this using features and capabilities provided by Aspose.Words.
 
-The [CleanupOptions](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions) class allows you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://apireference.aspose.com/words/net/aspose.words.document/cleanup/methods/1) method.
+The [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions) class allows you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://reference.aspose.com/words/net/aspose.words.document/cleanup/methods/1) method.
 
 ## Remove Unused Information from a Document
 
-You can use the [UnusedStyles](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedstyles) and [UnusedBuiltinStyles](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedbuiltinstyles) properties to detect and remove styles that are marked as "unused".
+You can use the [UnusedStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedstyles) and [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedbuiltinstyles) properties to detect and remove styles that are marked as "unused".
 
-You can use the [UnusedLists](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedlists) property to detect and remove lists and list definitions that are marked as "unused".
+You can use the [UnusedLists](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/properties/unusedlists) property to detect and remove lists and list definitions that are marked as "unused".
 
 The following code example shows how to remove only unused styles from a document:
 
@@ -27,7 +27,7 @@ The following code example shows how to remove only unused styles from a documen
 
 ## Remove Duplicate Information from a Document
 
-You can also use the [DuplicateStyle](https://apireference.aspose.com/words/net/aspose.words/cleanupoptions/properties/duplicatestyle) property to substitute all duplicate styles with the original one and remove duplicates from a document.
+You can also use the [DuplicateStyle](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/properties/duplicatestyle) property to substitute all duplicate styles with the original one and remove duplicates from a document.
 
 The following code example shows how to remove duplicate styles from a document:
 

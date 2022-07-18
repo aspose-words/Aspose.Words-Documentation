@@ -19,8 +19,8 @@ Paragraph formatting is contained within the ParagraphFormat class which is link
 
 See the following links in the documentation for further information:
 
-- [Paragraph](https://apireference.aspose.com/words/net/aspose.words/paragraph)
-- [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
+- [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph)
+- [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat)
 
 [Jump to this location in the export section](/words/net/paragraph-features-supported-on-docx-export/)
 
@@ -30,11 +30,11 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |<p>- [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) </p><p>- [ParagraphFormat.Style](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/style)</p>|
-|Alignment |Yes |The special "Thai Distributed" alignment is also supported during conversion. There is currently no API to access or modify this alignment. |- [ParagraphFormat.Alignment](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/alignment)|
-|Right to Left Paragraph |Yes | |- [ParagraphFormat.Bidi](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/bidi)|
+|Paragraph Style |Yes | |<p>- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat) </p><p>- [ParagraphFormat.Style](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/style)</p>|
+|Alignment |Yes |The special "Thai Distributed" alignment is also supported during conversion. There is currently no API to access or modify this alignment. |- [ParagraphFormat.Alignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/alignment)|
+|Right to Left Paragraph |Yes | |- [ParagraphFormat.Bidi](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/bidi)|
 |Bullets and Numbers |Yes | |<p>- **ParagraphFormat.ListFormat** </p><p>- **ParagraphFormat.ListLabel**</p>|
-|Outline Level |Yes | |- [ParagraphFormat.OutlineLevel](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/outlinelevel)|
+|Outline Level |Yes | |- [ParagraphFormat.OutlineLevel](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/outlinelevel)|
 |Run Properties for the Paragraph Mark |Yes | |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers |Yes | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Yes | |- **ParagraphFormat.SurpressAutoHyphens**|
@@ -43,9 +43,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Left Indent |Yes | |- [ParagraphFormat.LeftIndent](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/leftindent)|
-|Right Indent |Yes | |- [ParagraphFormat.RightIndent](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/rightindent)|
-|First Line Indent |Yes | |- [ParagraphFormat.FirstLineIndent](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/firstlineindent)|
+|Left Indent |Yes | |- [ParagraphFormat.LeftIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/leftindent)|
+|Right Indent |Yes | |- [ParagraphFormat.RightIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/rightindent)|
+|First Line Indent |Yes | |- [ParagraphFormat.FirstLineIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/firstlineindent)|
 |Hanging Indent |Yes | |- **ParagraphFormat.FirstLineIndent**|
 |Mirror Indents |Yes | |<p>- **ParagraphFormat.LeftIndent** </p><p>- **ParagraphFormat.RightIndent**</p>|
 |Automatically Adjust Right Indent |Yes | | |
@@ -54,21 +54,21 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Space Before |Yes | |- [ParagraphFormat.SpaceBefore](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebefore)|
-|Space After |Yes | |- [ParagraphFormat.SpaceAfter](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafter)|
-|Space Auto |Yes | |<p>- [ParagraphFormat.SpaceBeforeAuto](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebeforeauto) </p><p>- [ParagraphFormat.SpaceAfterAuto](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafterauto)</p>|
-|Line Spacing |Yes | |<p>- [ParagraphFormat.LineSpacing](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing) </p><p>- [ParagraphFormat.LineSpacingRule](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
-|No Space between Conforming Paragraphs |Yes | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphsofsamestyle)|
+|Space Before |Yes | |- [ParagraphFormat.SpaceBefore](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebefore)|
+|Space After |Yes | |- [ParagraphFormat.SpaceAfter](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafter)|
+|Space Auto |Yes | |<p>- [ParagraphFormat.SpaceBeforeAuto](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebeforeauto) </p><p>- [ParagraphFormat.SpaceAfterAuto](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafterauto)</p>|
+|Line Spacing |Yes | |<p>- [ParagraphFormat.LineSpacing](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing) </p><p>- [ParagraphFormat.LineSpacingRule](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
+|No Space between Conforming Paragraphs |Yes | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphsofsamestyle)|
 |Snap To Grid |Yes | | |
 
 ## Keeps and Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Widow/Orphan Control |Yes | |- [ParagraphFormat.WidowControl](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/widowcontrol)|
-|Keep With Next |Yes | |- [ParagraphFormat.KeepWithNext](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext)|
-|Keep Lines Together |Yes | |- [ParagraphFormat.KeepTogether](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/keeptogether)|
-|Page Break Before |Yes | |- [ParagraphFormat.PageBreakBefore](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/pagebreakbefore)|
+|Widow/Orphan Control |Yes | |- [ParagraphFormat.WidowControl](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/widowcontrol)|
+|Keep With Next |Yes | |- [ParagraphFormat.KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext)|
+|Keep Lines Together |Yes | |- [ParagraphFormat.KeepTogether](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/keeptogether)|
+|Page Break Before |Yes | |- [ParagraphFormat.PageBreakBefore](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/pagebreakbefore)|
 
 ## Text Frames
 
@@ -88,14 +88,14 @@ Using Aspose.Words you can find tab stops based off position or index. You can c
 
 See the following link in the documentation for further information:
 
-- [ParagraphFormat.TabStops](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/tabstops)
+- [ParagraphFormat.TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/tabstops)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Absolute Position |Yes | |- [TabStop.Position](https://apireference.aspose.com/words/net/aspose.words/TabStop/properties/position)|
-|Relative Position |Yes |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. |- [AbsolutePositionTab](https://apireference.aspose.com/words/net/aspose.words/absolutepositiontab)|
-|Alignment: Left, Center, Right, Decimal, Bar |Yes | |- [TabStop.Alignment](https://apireference.aspose.com/words/net/aspose.words/TabStop/properties/alignment)|
-|Leader |Yes | |- [TabStop.Leader](https://apireference.aspose.com/words/net/aspose.words/TabStop/properties/leader)|
+|Absolute Position |Yes | |- [TabStop.Position](https://reference.aspose.com/words/net/aspose.words/TabStop/properties/position)|
+|Relative Position |Yes |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. |- [AbsolutePositionTab](https://reference.aspose.com/words/net/aspose.words/absolutepositiontab)|
+|Alignment: Left, Center, Right, Decimal, Bar |Yes | |- [TabStop.Alignment](https://reference.aspose.com/words/net/aspose.words/TabStop/properties/alignment)|
+|Leader |Yes | |- [TabStop.Leader](https://reference.aspose.com/words/net/aspose.words/TabStop/properties/leader)|
 
 ## Drop Caps
 
@@ -108,7 +108,7 @@ This will be improved in a future version of Aspose.Words.
 See the following links in the documentation for further information:
 
 - **ParagraphFormat.DropCapPositon**
-- [ParagraphFormat.LinesToDrop](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/linestodrop)
+- [ParagraphFormat.LinesToDrop](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/linestodrop)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -118,19 +118,19 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/borders) </p><p>- [LineStyle](https://apireference.aspose.com/words/net/aspose.words/linestyle)</p>|
-|Shadow |Yes | |- [Border.Shadow](https://apireference.aspose.com/words/net/aspose.words/border/properties/shadow)|
-|3D Frame |Yes | |- [Border.LineStyle](https://apireference.aspose.com/words/net/aspose.words/border/properties/linestyle)|
+|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/borders) </p><p>- [LineStyle](https://reference.aspose.com/words/net/aspose.words/linestyle)</p>|
+|Shadow |Yes | |- [Border.Shadow](https://reference.aspose.com/words/net/aspose.words/border/properties/shadow)|
+|3D Frame |Yes | |- [Border.LineStyle](https://reference.aspose.com/words/net/aspose.words/border/properties/linestyle)|
 |Style |Yes | |- **Border.LineStyle**|
-|Color |Yes | |- [Border.Color](https://apireference.aspose.com/words/net/aspose.words/border/properties/color)|
-|Width |Yes | |- [Border.LineWidth](https://apireference.aspose.com/words/net/aspose.words/border/properties/linewidth)|
-|Distance from Text |Yes | |- [Border.DistanceFromText](https://apireference.aspose.com/words/net/aspose.words/border/properties/distancefromtext)|
+|Color |Yes | |- [Border.Color](https://reference.aspose.com/words/net/aspose.words/border/properties/color)|
+|Width |Yes | |- [Border.LineWidth](https://reference.aspose.com/words/net/aspose.words/border/properties/linewidth)|
+|Distance from Text |Yes | |- [Border.DistanceFromText](https://reference.aspose.com/words/net/aspose.words/border/properties/distancefromtext)|
 
 ## Shading
 
 See the following link in the documentation for further information:
 
-- [ParagraphFormat.Shading](https://apireference.aspose.com/words/net/aspose.words/paragraphformat/properties/shading)
+- [ParagraphFormat.Shading](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/shading)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

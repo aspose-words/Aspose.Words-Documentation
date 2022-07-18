@@ -17,19 +17,19 @@ A list in a Microsoft Word document is a set of list formatting properties. Each
 
 Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the DocumentBuilder.ListFormat property that returns a ListFormat object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
 
-- To start a bulleted list, call [ListFormat.ApplyBulletDefault](https://apireference.aspose.com/words/net/aspose.words.lists/listformat/methods/applybulletdefault) .
-- To start a numbered list, call [ListFormat.ApplyNumberDefault](https://apireference.aspose.com/words/net/aspose.words.lists/listformat/methods/applynumberdefault) .
+- To start a bulleted list, call [ListFormat.ApplyBulletDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/methods/applybulletdefault) .
+- To start a numbered list, call [ListFormat.ApplyNumberDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/methods/applynumberdefault) .
 
-The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [ListFormat.RemoveNumbers](https://apireference.aspose.com/words/net/aspose.words.lists/listformat/methods/removenumbers) is called to stop bulleted list formatting. In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
+The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [ListFormat.RemoveNumbers](https://reference.aspose.com/words/net/aspose.words.lists/listformat/methods/removenumbers) is called to stop bulleted list formatting. In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
-- To increase the list level of the current paragraph by one level, call [ListFormat.ListIndent](https://apireference.aspose.com/words/net/aspose.words.lists/listformat/methods/listindent).
-- To decrease the list level of the current paragraph by one level, call [ListFormat.ListOutdent](https://apireference.aspose.com/words/net/aspose.words.lists/listformat/methods/listoutdent).
+- To increase the list level of the current paragraph by one level, call [ListFormat.ListIndent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/methods/listindent).
+- To decrease the list level of the current paragraph by one level, call [ListFormat.ListOutdent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/methods/listoutdent).
 
 The methods change the list level and apply the formatting properties of the new level.
 
 {{% alert color="primary" %}}
 
-You can also use the [ListFormat.ListLevelNumber](https://apireference.aspose.com/words/net/aspose.words.lists/listformat/properties/listlevelnumber) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
+You can also use the [ListFormat.ListLevelNumber](https://reference.aspose.com/words/net/aspose.words.lists/listformat/properties/listlevelnumber) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ Below example shows how to build a multilevel list.
 
 ## Specify Formatting for a List Level
 
-List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://apireference.aspose.com/words/net/aspose.words.lists/listlevel) class to control the formatting of individual levels of a list.
+List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel) class to control the formatting of individual levels of a list.
 
 ## How to Restart List for each Section
 

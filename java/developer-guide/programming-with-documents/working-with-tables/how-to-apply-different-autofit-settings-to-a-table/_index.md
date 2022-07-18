@@ -11,7 +11,7 @@ url: /java/how-to-apply-different-autofit-settings-to-a-table/
 
 When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance you can use the AutoFit to Window option to fit the table to the width of the page and the AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents.
 
-By default Aspose.Words inserts a new table using “**AutoFit to Window”**. The table will size to the available width on the page. To change the sizing behavior on such a table or an existing table you can call [Table.autoFit(int)](https://apireference.aspose.com/words/java/com.aspose.words/table#autoFit(int)) method. This method accepts an AutoFitBehavior enumeration which defines what type of auto fitting is applied to the table.
+By default Aspose.Words inserts a new table using “**AutoFit to Window”**. The table will size to the available width on the page. To change the sizing behavior on such a table or an existing table you can call [Table.autoFit(int)](https://reference.aspose.com/words/java/com.aspose.words/table#autoFit(int)) method. This method accepts an AutoFitBehavior enumeration which defines what type of auto fitting is applied to the table.
 
 As in Microsoft Word, an autofit method is actually a shortcut which applies different properties to the table all at once. These properties are actually what give the table the observed behavior. We will discuss these properties for each autofit option. We will use the following table and apply the different auto fit settings as a demonstration:
 
@@ -59,7 +59,7 @@ When a table is an auto fitted to contents the following steps are actually unde
 
 {{% alert color="primary" %}}
 
-Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the [Table.getAllowAutoFit()](https://apireference.aspose.com/words/java/com.aspose.words/table#AllowAutoFit) property to True on its own instead of using the autofit shortcut.
+Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the [Table.getAllowAutoFit()](https://reference.aspose.com/words/java/com.aspose.words/table#AllowAutoFit) property to True on its own instead of using the autofit shortcut.
 
 {{% /alert %}}
 
@@ -78,10 +78,10 @@ When a table has auto fit disabled and fixed column widths used instead the foll
 1. The Table.AllowAutoFit property is disabled so columns do not grow or shrink to their contents.
 1. The table-wide preferred width is removed from the Table.PreferredWidth.
 1. The CellFormat.PreferredWidth is removed from all cells in the table.
-   The end result is a table whose column widths are defined using the [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
+   The end result is a table whose column widths are defined using the [CellFormat.getWidth()](https://reference.aspose.com/words/java/com.aspose.words/CellFormat#Width) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
 
 {{% alert color="primary" %}}
 
-Note that if no width is defined for [CellFormat.getWidth()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Width) then a default value of one inch (72 points) is used.
+Note that if no width is defined for [CellFormat.getWidth()](https://reference.aspose.com/words/java/com.aspose.words/CellFormat#Width) then a default value of one inch (72 points) is used.
 
 {{% /alert %}}

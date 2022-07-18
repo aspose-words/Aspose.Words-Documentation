@@ -23,7 +23,7 @@ Our translation engine allows users not only to work with complex elements in an
 
 ## Common Translation Principles
 
-We use [Font](https://apireference.aspose.com/words/net/aspose.words/font) formatting for inline blocks. When there is no direct correspondence for a Markdown feature in Aspose.Words DOM, we use a character style with a name that starts from some special words.
+We use [Font](https://reference.aspose.com/words/net/aspose.words/font) formatting for inline blocks. When there is no direct correspondence for a Markdown feature in Aspose.Words DOM, we use a character style with a name that starts from some special words.
 
 For container blocks, we use style inheritance to denote nested Markdown features. In this case, even when there are no nested features, we also use paragraph styles with a name that starts from some special words.
 
@@ -31,7 +31,7 @@ Bulleted and ordered lists are container blocks in Markdown as well. Their nesti
 
 ## Inline Blocks
 
-We use [Font](https://apireference.aspose.com/words/net/aspose.words/font) formatting when translating **Bold**, *Italic* or ~~Strikethrough~~ inline markdown features.
+We use [Font](https://reference.aspose.com/words/net/aspose.words/font) formatting when translating **Bold**, *Italic* or ~~Strikethrough~~ inline markdown features.
 
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |
@@ -53,11 +53,11 @@ We use a character style with a name that starts from the word `InlineCode`, fol
 | ----------------------------- | ------------------ |
 | **InlineCode**<br />`**inline code**` | `Font.StyleName = “InlineCode[.][N]”` |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}} ||
-| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://apireference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
+| **Autolink**<br />`<scheme://domain.com>`<br />`<email@domain.com>` | The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}} ||
-| **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://apireference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
+| **Link**<br />`[link text](url)`<br />`[link text](<url> "title")`<br />`[link text](url 'title')`<br />`[link text](url (title))` | The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink) class. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}} ||
-| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) class. |
+| **Image**<br />`![](url)`<br />`![alt text](<url> “title”)`<br />`![alt text](url ‘title’)`<br />`![alt text](url (title))` | The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape) class. |
 | {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}} ||
 
 ## Container Blocks
@@ -155,7 +155,7 @@ Aspose.Words also allows to translate tables into DOM, as shown below:
 
 | Markdown feature                                             | Aspose.Words                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `Table`<br />`a|b`<br />`-|-`<br />`c|d`                     | [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [Row](https://apireference.aspose.com/words/net/aspose.words.tables/row) and [Cell](https://apireference.aspose.com/words/net/aspose.words.tables/cell) classes. |
+| `Table`<br />`a|b`<br />`-|-`<br />`c|d`                     | [Table](https://reference.aspose.com/words/net/aspose.words.tables/table), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row) and [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell) classes. |
 | {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

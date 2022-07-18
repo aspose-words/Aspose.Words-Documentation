@@ -16,7 +16,7 @@ Aspose.Words allows you to apply different cleaning and removing options such as
 
 ## Delete Merged Fields
 
-When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/deletefields) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/cleanupoptions) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
+When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/deletefields) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/cleanupoptions) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
 
 The following code example shows how to delete all merge fields from your template without executing a mail merge operation:
 
@@ -26,7 +26,7 @@ The following code example shows how to delete all merge fields from your templa
 
 Aspose.Words enables you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
 
-Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
+Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergecleanupoptions) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
 
 * Remove empty paragraphs
 * Remove unused regions
@@ -79,7 +79,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-**Note:** This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from many data sources by using separate calls of [ExecuteWithRegions](https://apireference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/executewithregions/index) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
+**Note:** This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from many data sources by using separate calls of [ExecuteWithRegions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/executewithregions/index) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
 
 ### Remove Unused Fields
 

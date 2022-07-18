@@ -15,12 +15,12 @@ A "Hello, World!" code is often the first simple example to write uisng "Aspose.
 
 Below code snippet follows these steps:
 
-1. Create a new empty [Document](https://apireference.aspose.com/words/net/aspose.words/document)
-1. Inisialize a [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class
-1. Insert text to the document start using simple [Write](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/write) method
-1. Open an existing [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/3) from a file. Automatically detects the file format
-1. [Append](https://apireference.aspose.com/words/net/aspose.words/document/methods/appenddocument) document "A" to the and of the document "B"
-1. [Save](https://apireference.aspose.com/words/net/aspose.words.document/save/methods/2) the output as PDF
+1. Create a new empty [Document](https://reference.aspose.com/words/net/aspose.words/document)
+1. Inisialize a [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class
+1. Insert text to the document start using simple [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/write) method
+1. Open an existing [Document](https://reference.aspose.com/words/net/aspose.words/document/constructors/3) from a file. Automatically detects the file format
+1. [Append](https://reference.aspose.com/words/net/aspose.words/document/methods/appenddocument) document "A" to the and of the document "B"
+1. [Save](https://reference.aspose.com/words/net/aspose.words.document/save/methods/2) the output as PDF
 
 The following code snippet is a "Hello, World!" program to exhibit working of "Aspose.Words for .NET" API:
 

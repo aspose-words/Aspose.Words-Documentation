@@ -28,7 +28,7 @@ In addition, you can add a mail merge region in your template by inserting two m
 
 You can create a template and add specific merge fields to it, that will be replaced by the values from the data source either manually, for example, using Microsoft Word, or programmatically using Aspose.Words. In this article, we will look at the programmatic way of creating a template.
 
-Use the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserttextinput), [InsetField](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1), and [InsertParagraph](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertparagraph) methods.
+Use the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserttextinput), [InsetField](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1), and [InsertParagraph](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertparagraph) methods.
 
 The following code example shows how to create a mail merge template:
 
@@ -44,7 +44,7 @@ Aspose.Words allows you to customize your template through many properties. Temp
 
 ### Customize Image Properties
 
-You can specify the image properties using the [ImageFieldMergingArgs](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imagefieldmergingargs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/DocsExamples/DocsExamples/Mail%20Merge%20and%20Reporting/Working%20with%20Fields.cs#L214).
+You can specify the image properties using the [ImageFieldMergingArgs](https://reference.aspose.com/words/net/aspose.words.mailmerging/imagefieldmergingargs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/DocsExamples/DocsExamples/Mail%20Merge%20and%20Reporting/Working%20with%20Fields.cs#L214).
 
 The following code example shows how to specify the image file name and image size:
 
@@ -52,7 +52,7 @@ The following code example shows how to specify the image file name and image si
 
 ### Customize Text Properties
 
-You can use the [Text](https://apireference.aspose.com/words/net/aspose.words.mailmerging/fieldmergingargs/properties/text) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://apireference.aspose.com/words/net/aspose.words/font) and [ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/paragraphformat) classes. You can handle the text to be inserted before or after the merge field by using the [TextBefore](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textbefore) and [TextAfter](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textafter) properties that are included in the [FieldMergeField](https://apireference.aspose.com/words/net/aspose.words.fields/fieldmergefield) class.
+You can use the [Text](https://reference.aspose.com/words/net/aspose.words.mailmerging/fieldmergingargs/properties/text) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://reference.aspose.com/words/net/aspose.words/font) and [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat) classes. You can handle the text to be inserted before or after the merge field by using the [TextBefore](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textbefore) and [TextAfter](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/properties/textafter) properties that are included in the [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield) class.
 
 The following code example shows how to insert Check Boxes or HTML during mail merge operation:
 

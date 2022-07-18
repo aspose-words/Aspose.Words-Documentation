@@ -17,7 +17,7 @@ On this page we will look at how to find and replace text from a document part u
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, use the [Replace](https://apireference.aspose.com/words/net/aspose.words/range/methods/replace/index) method to find and replace text.
+In Aspose.Words, use the [Replace](https://reference.aspose.com/words/net/aspose.words/range/methods/replace/index) method to find and replace text.
 
 The following code example shows how to find and replace text from a document part:
 

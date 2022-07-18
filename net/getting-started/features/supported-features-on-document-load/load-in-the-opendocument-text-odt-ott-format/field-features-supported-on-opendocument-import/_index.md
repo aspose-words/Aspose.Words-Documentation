@@ -40,9 +40,9 @@ Fields with custom field codes or field results (modified manually in the docume
 See the following links in the documentation for further information:
 
 - [Working with Fields](/words/net/working-with-fields/)
-- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index)
-- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
-- [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
+- [DocumentBuilder.InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index)
+- [Document.UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/methods/updatefields)
+- [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -111,21 +111,21 @@ Form fields are fully supported by Aspose.Words.
 See the following links in the documentation for further information:
 
 - [Working with Form Fields](/words/net/working-with-form-fields/)
-- [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
-- [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
-- [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
+- [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield)
+- [FormField.Type](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
+- [FormField.Result](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput |Yes | |<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault) </p><p>- [FormField.TextInputFormat](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
+|TextInput |Yes | |<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault) </p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
 |CheckBox |Yes | |- **FormField.Type**|
-|DropDown |Yes | |<p>- [FormField.DropDownItems](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems) </p><p>- [FormField.DropDownSelectedIndex](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|
+|DropDown |Yes | |<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems) </p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|
 |Calc On Exit |N/A | | |
-|Checked |Yes | |- [FormField.Checked](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|
+|Checked |Yes | |- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|
 |Default Value |Yes | |- **FormField.TextInputDefault**|
 |Enabled |N/A | | |
-|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/entrymacro) </p><p>- [FormField.ExitMacro](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/exitmacro)</p>|
-|Name |Yes | |- [FormField.Name](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|
+|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/entrymacro) </p><p>- [FormField.ExitMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/exitmacro)</p>|
+|Name |Yes | |- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|
 |Help Text |N/A | | |
 |Status Text |N/A | | |
 |Max Length |N/A | | |
@@ -180,7 +180,7 @@ MailMerge features of OpenOffice is supported by Aspose.Words.
 See the following links in the documentation for further information:
 
 - [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/)
-- [Document.MailMerge](https://apireference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
+- [Document.MailMerge](https://reference.aspose.com/words/net/aspose.words/document/properties/mailmerge)
 - [How to Use Advanced Mail Merge Features](/words/net/advanced-mail-merge-features/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -240,7 +240,7 @@ You can create new hyperlinks by using the DocumentBuilder class. You can also f
 
 See the following links in the documentation for further information:
 
-- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
+- [DocumentBuilder.InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
 - [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
