@@ -323,7 +323,7 @@ Console.WriteLine(doc.GetText());
 
 Related issue: WORDSNET-19999.
 
-The following obsolete property of [DigitalSignature](https://apireference.aspose.com/words/java/com.aspose.words/DigitalSignature) class was removed:
+The following obsolete property of [DigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/DigitalSignature) class was removed:
 
 **.NET**
 
@@ -337,11 +337,11 @@ public X509CertificateSystem Certificate
 
 
 
-Please use the following property instead: [CertificateHolder.Certificate](https://apireference.aspose.com/words/java/com.aspose.words/certificateholder#Certificate)
+Please use the following property instead: [CertificateHolder.Certificate](https://reference.aspose.com/words/java/com.aspose.words/certificateholder#Certificate)
 
 -----
 
-The following obsolete method of [CertificateHolder](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder) class was removed:
+The following obsolete method of [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/CertificateHolder) class was removed:
 
 **.NET**
 
@@ -358,9 +358,9 @@ public static CertificateHolder Create(X509Certificate2 certificate)
 {{< /highlight >}}
 
 Please use the following methods instead:
-[CertificateHolder.Create(Byte\[\], String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
-[CertificateHolder.Create(String, String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
-[CertificateHolder.Create(String, String, String)](https://apireference.aspose.com/words/java/com.aspose.words/CertificateHolder)
+[CertificateHolder.Create(Byte\[\], String)](https://reference.aspose.com/words/java/com.aspose.words/CertificateHolder)
+[CertificateHolder.Create(String, String)](https://reference.aspose.com/words/java/com.aspose.words/CertificateHolder)
+[CertificateHolder.Create(String, String, String)](https://reference.aspose.com/words/java/com.aspose.words/CertificateHolder)
 
 ### Supported dynamic stretching of an image within textbox bounds preserving the ratio of the image for LINQ Reporting Engine
 

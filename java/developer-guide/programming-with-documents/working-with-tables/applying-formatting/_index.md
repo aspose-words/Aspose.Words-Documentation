@@ -16,13 +16,13 @@ aliases: [/java/applying-formatting-to-table-row-and-cell/]
 
 Each element of a table can be applied with different formatting. For instance, table formatting will be applied over the entire table while row formatting will only affect particular rows etc.
 
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://apireference.aspose.com/words/java/com.aspose.words/table), [RowFormat](https://apireference.aspose.com/words//java/com.aspose.words/rowformat) and [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat) nodes to set formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/java/com.aspose.words/table), [RowFormat](https://reference.aspose.com/words//java/com.aspose.words/rowformat) and [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/CellFormat) nodes to set formatting.
 
 {{% /alert %}}
 
 ## Applying Formatting on the Table Level
 
-To apply formatting to a table you can use the properties available on the corresponding [Table](https://apireference.aspose.com/words//java/com.aspose.words/table) node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below.
+To apply formatting to a table you can use the properties available on the corresponding [Table](https://reference.aspose.com/words//java/com.aspose.words/table) node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below.
 
 ![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell-1.png)
 
@@ -36,11 +36,11 @@ The following code example shows how to build a table with all borders enabled (
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-buildATableWithAllBordersEnabled.java" >}}
 
-Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
+Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
 
 ## Applying Formatting on the Row Level
 
-Formatting on the row level can be controlled using the [RowFormat](https://apireference.aspose.com/words/java/com.aspose.words/rowformat) property of the [Row](https://apireference.aspose.com/words/java/com.aspose.words/row).
+Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat) property of the [Row](https://reference.aspose.com/words/java/com.aspose.words/row).
 
 ![apply-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell-3.png)
 
@@ -50,7 +50,7 @@ The following code example shows how to modify the formatting of a table row.
 
 ## Applying Formatting on the Cell Level
 
-Formatting on the cell level is controlled using the [CellFormat](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat) property of the [Cell](https://apireference.aspose.com/words/java/com.aspose.words/Cell).
+Formatting on the cell level is controlled using the [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/CellFormat) property of the [Cell](https://reference.aspose.com/words/java/com.aspose.words/Cell).
 
 ![apply-formatting-to-cell-level-aspose-words-java](applying-formatting-to-table-row-and-cell-4.png)
 
@@ -66,13 +66,13 @@ The following code example shows how to set the amount of space (in points) to a
 
 ## Specifying Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height) and [RowFormat.HeightRule](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#HeightRule) properties of the given [Row](https://apireference.aspose.com/words/java/com.aspose.words/row).
+The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://reference.aspose.com/words/java/com.aspose.words/rowformat#Height) and [RowFormat.HeightRule](https://reference.aspose.com/words/java/com.aspose.words/rowformat#HeightRule) properties of the given [Row](https://reference.aspose.com/words/java/com.aspose.words/row).
 
 |HeightRule Value|Description|
 | :- | :- |
 |Auto|This is the default height rule given to a new row. Technically this means that no height rule is defined. The row is sized to fit the largest content within the cells of the row.|
-|At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in [RowFormat.Height](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height).|
-|Exactly|The size of the row is set exactly to the value found in [RowFormat.Height]https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Height) and does not grow to fit the content.|
+|At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in [RowFormat.Height](https://reference.aspose.com/words/java/com.aspose.words/rowformat#Height).|
+|Exactly|The size of the row is set exactly to the value found in [RowFormat.Height]https://reference.aspose.com/words/java/com.aspose.words/rowformat#Height) and does not grow to fit the content.|
 {{% alert color="primary" %}}
 
 The simplest way to set row height is by using DocumentBuilder. Using the appropriate RowFormat properties you can set a default height setting or apply a different height for each row in the table.
@@ -85,7 +85,7 @@ The following code example shows how to create a table that contains a single ce
 
 ## Applying Borders and Shading
 
-Borders and shading can be applied either table wide using [Table.setBorder(int,int,double,java.awt.Color,boolean)](https://apireference.aspose.com/words/java/com.aspose.words/table#setBorder(int,int,double,java.awt.Color,boolean)), [Table.setBorders(int,double,java.awt.Color)](https://apireference.aspose.com/words/java/com.aspose.words/table#setBorders(int,double,java.awt.Color)) and [Table.setShading(int,java.awt.Color,java.awt.Color)](https://apireference.aspose.com/words/java/com.aspose.words/table#setShading(int,java.awt.Color,java.awt.Color)) or to particular cells only by using [CellFormat.getBorders()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Borders) and [CellFormat.getShading()](https://apireference.aspose.com/words/java/com.aspose.words/CellFormat#Shading). Additionally borders can be set on a row by using [RowFormat.getBorders()](https://apireference.aspose.com/words/java/com.aspose.words/rowformat#Borders), however shading cannot be applied in this way.
+Borders and shading can be applied either table wide using [Table.setBorder(int,int,double,java.awt.Color,boolean)](https://reference.aspose.com/words/java/com.aspose.words/table#setBorder(int,int,double,java.awt.Color,boolean)), [Table.setBorders(int,double,java.awt.Color)](https://reference.aspose.com/words/java/com.aspose.words/table#setBorders(int,double,java.awt.Color)) and [Table.setShading(int,java.awt.Color,java.awt.Color)](https://reference.aspose.com/words/java/com.aspose.words/table#setShading(int,java.awt.Color,java.awt.Color)) or to particular cells only by using [CellFormat.getBorders()](https://reference.aspose.com/words/java/com.aspose.words/CellFormat#Borders) and [CellFormat.getShading()](https://reference.aspose.com/words/java/com.aspose.words/CellFormat#Shading). Additionally borders can be set on a row by using [RowFormat.getBorders()](https://reference.aspose.com/words/java/com.aspose.words/rowformat#Borders), however shading cannot be applied in this way.
 
 ![apply-borders-shading-aspose-words-java-1](applying-formatting-to-table-row-and-cell-6.png)
 
@@ -121,10 +121,10 @@ The following code example shows how to get the position of the floating table.�
 
 Aspose.Words API provides the following properties to set the position of the floating table in the word document:
 
-- [RelativeHorizontalAlignment](https://apireference.aspose.com/words/java/com.aspose.words/table#RelativeHorizontalAlignment)
-- [AbsoluteHorizontalDistance](https://apireference.aspose.com/words/java/com.aspose.words/table#AbsoluteHorizontalDistance)
-- [RelativeVerticalAlignment](https://apireference.aspose.com/words/java/com.aspose.words/table#RelativeVerticalAlignment)
-- [AbsoluteVerticalDistance](https://apireference.aspose.com/words/java/com.aspose.words/table#AbsoluteVerticalDistance).
+- [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table#RelativeHorizontalAlignment)
+- [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table#AbsoluteHorizontalDistance)
+- [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table#RelativeVerticalAlignment)
+- [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table#AbsoluteVerticalDistance).
 
 The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
 

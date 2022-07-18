@@ -21,8 +21,8 @@ Sections are imported from &lt;div&gt; elements. Section-wide formatting is impo
 
 See the following links in the documentation for further information:
 
-- [Section](https://apireference.aspose.com/words/net/aspose.words/section)
-- [Document.Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections)
+- [Section](https://reference.aspose.com/words/net/aspose.words/section)
+- [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/properties/sections)
 
 {{% /alert %}}
 
@@ -53,10 +53,10 @@ Import of external headers and footers (stored in a separate file) like how Micr
 
 See the following links in the documentation for further information:
 
-- [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
-- [PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/differentfirstpageheaderfooter)
+- [Section.HeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
+- [PageSetup.DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/differentfirstpageheaderfooter)
 - **PageSetup.OddAndEvenPageHeaderFooter**
-- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words.headerfootercollection/linktoprevious/methods/1)
+- [HeaderFooterCollection.LinkToPrevious](https://reference.aspose.com/words/net/aspose.words.headerfootercollection/linktoprevious/methods/1)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -70,8 +70,8 @@ The different section breaks types are imported from &lt;br&gt; tag which contai
 
 See the following links in the documentation for further information:
 
-- [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
+- [PageSetup.SectionStart](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
+- [DocumentBuilder.InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -97,10 +97,10 @@ Paper size and margins are imported from size and margin attributes on each sect
 
 See the following links in the documentation for further information:
 
-- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup)
-- [PageSetup.LeftMargin](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
-- [PageSetup.FooterDistance](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
-- [PageSetup.Gutter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)
+- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup)
+- [PageSetup.LeftMargin](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
+- [PageSetup.FooterDistance](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
+- [PageSetup.Gutter](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -116,11 +116,11 @@ See the following links in the documentation for further information:
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Right to Left Section |Planned | |- [PageSetup.Bidi](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/bidi)|
-|Line Numbering |Planned | |<p>- [PageSetup.LineNumberCountBy](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumbercountby) </p><p>- [PageSetup.LineNumberDistanceFromText](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberdistancefromtext) </p><p>- [PageSetup.LineNumberRestartMode](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberrestartmode) </p><p>- [PageSetup.LineStartingNumber](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linestartingnumber)</p>|
-|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
-|Paper Size |Yes | |- [PageSetup.PaperSize](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/papersize)|
-|Orientation |Yes |Currently imported paper size depends on orientation as width and height are switched. |- [PageSetup.Orientation](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation)|
+|Right to Left Section |Planned | |- [PageSetup.Bidi](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/bidi)|
+|Line Numbering |Planned | |<p>- [PageSetup.LineNumberCountBy](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumbercountby) </p><p>- [PageSetup.LineNumberDistanceFromText](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberdistancefromtext) </p><p>- [PageSetup.LineNumberRestartMode](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberrestartmode) </p><p>- [PageSetup.LineStartingNumber](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linestartingnumber)</p>|
+|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Size |Yes | |- [PageSetup.PaperSize](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/papersize)|
+|Orientation |Yes |Currently imported paper size depends on orientation as width and height are switched. |- [PageSetup.Orientation](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation)|
 |Protection |N/A | | |
 |Text Direction |Planned | | |
 |Vertical Alignment |N/A | | |

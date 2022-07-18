@@ -41,7 +41,7 @@ Fields are output as plain text in HTML. Only field result is exported.
 
 See the following link in the documentation for further information:
 
-- [Document.UpdateFields](https://apireference.aspose.com/words/java/com.aspose.words/Document#updateFields()).
+- [Document.UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/Document#updateFields()).
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -108,7 +108,7 @@ This is because Microsoft Office fallback settings are selected by default, and 
 
 **Q: Why might complex script text, such as Thai or Hebrew, be displayed inaccurately for some reason, such as the wrong position for diacritics or inaccurate ligatures?**
 
-Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://apireference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_textshaperfactory_const).
+Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options#get_textshaperfactory_const).
 
 ------
 
@@ -126,7 +126,7 @@ You can find more detailed information about programming with documents in the [
 
 **Q: Why does not content appended to a document appear on the same page?**
 
-The append result appears on a separate page because of a difference in [PageSetup](https://apireference.aspose.com/words/cpp/class/aspose.words.page_setup) settings for the sections where the documents are appended together. Make identical **PageSetup** settings for the sections where the documents are appended together.
+The append result appears on a separate page because of a difference in [PageSetup](https://reference.aspose.com/words/cpp/class/aspose.words.page_setup) settings for the sections where the documents are appended together. Make identical **PageSetup** settings for the sections where the documents are appended together.
 
 ## Convert a Document
 

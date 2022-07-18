@@ -49,7 +49,7 @@ Page layout computes where the text will appear and what content will be rendere
 
 ![non_geometric_properties_aspose-words-java](converting-to-fixed-page-format-2.png)
 
-In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [UpdatePageLayout](https://apireference.aspose.com/words/java/com.aspose.words/Document#updatePageLayout\(\)) method, provided by the [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) class. If a page layout does not exist, but there is a need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exists, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the UpdatePageLayout method, in order to ensure that the page layout is up to date with the document model.
+In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [UpdatePageLayout](https://reference.aspose.com/words/java/com.aspose.words/Document#updatePageLayout\(\)) method, provided by the [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) class. If a page layout does not exist, but there is a need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exists, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the UpdatePageLayout method, in order to ensure that the page layout is up to date with the document model.
 
 ### Dynamic Structure
 
@@ -65,22 +65,22 @@ Note, that the page layout is a dynamic structure, which can be partially rebuil
 
 Consider the typical scenario when the NUMPAGES field appears in the footer of the first page in the document. The value of this field is the total number of pages. In order to position the field on a page, its value should be known. If only the first page is being currently built then the total number of pages is not yet known. In this case, the page layout has to use the default value and later come back to that field and change its value according to actual computations. However, changing the field value may affect other document content on a page and ultimately cause a new page to be appended or an existing page removed, thus making the computed value outdated. This issue can be solved by making it possible to update the existing page layout.
 
-When creating a layout, it is also possible to set up [LayoutOptions](https://apireference.aspose.com/words/java/com.aspose.words/LayoutOptions) properties that affect the output of the document on pages.
+When creating a layout, it is also possible to set up [LayoutOptions](https://reference.aspose.com/words/java/com.aspose.words/LayoutOptions) properties that affect the output of the document on pages.
 
 ## Saving to Fixed-page Format
 
 After the page layout is built and the geometry of objects and their position on the page are calculated, the document can be saved in a fixed-page format supported by Aspose.Words. When saving documents to fixed-page formats, the rendering options common to all of these formats can be used. They allow to control:
 
-- The number and range of pages contained in the output document ([PageIndex](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageIndex), [PageCount](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageCount)).
-- Progress of page-by-page document saving ([PageSavingCallback](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageSavingCallback)).
-- A set of characters that are used to numbers rendering ([NumeralFormat](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#NumeralFormat)).
-- A metafile player ([MetafileRenderingOptions](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#MetafileRenderingOptions)). For more details, see the ["Handling Windows Metafiles"](/words/java/handling-windows-metafiles/) article.
-- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://apireference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/jpegquality)).
-- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#OptimizeOutput)).
-- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseAntiAliasing), [UseHighQualityRendering](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseHighQualityRendering)).
-- Saving the document in grayscale ([ColorMode](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#ColorMode)).
-- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#DmlRenderingMode)).
-- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://apireference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#DmlEffectsRenderingMode)).
+- The number and range of pages contained in the output document ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageIndex), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageCount)).
+- Progress of page-by-page document saving ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageSavingCallback)).
+- A set of characters that are used to numbers rendering ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#NumeralFormat)).
+- A metafile player ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#MetafileRenderingOptions)). For more details, see the ["Handling Windows Metafiles"](/words/java/handling-windows-metafiles/) article.
+- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/jpegquality)).
+- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#OptimizeOutput)).
+- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseHighQualityRendering)).
+- Saving the document in grayscale ([ColorMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#ColorMode)).
+- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#DmlRenderingMode)).
+- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#DmlEffectsRenderingMode)).
 
 The example below demonstrates how to save a document to JPEG format using the Save method and rendering options:
 

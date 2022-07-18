@@ -67,7 +67,7 @@ With Aspose.Words for Java, you can generate, modify, convert, render, and print
 				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">LINQ Reporting Engine</a></li>
 				<li><a href="https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
 				<li><a href="https://docs.aspose.com/words/java/programming-with-documents/">Programming with Documents</a></li>
-				<li><a href="https://apireference.aspose.com/words/java">Aspose.Words for Java API Reference Guide</a></li>
+				<li><a href="https://reference.aspose.com/words/java">Aspose.Words for Java API Reference Guide</a></li>
 			</ul>
 			<p>LEARN</p>
 			<ul>

@@ -11,7 +11,7 @@ weight: 25
 url: /cpp/working-with-styles-and-themes/
 ---
 
-The [StyleCollection](https://apireference.aspose.com/words/cpp/class/aspose.words.style_collection) class is used to manage built-in and apply user-defined settings to styles.
+The [StyleCollection](https://reference.aspose.com/words/cpp/class/aspose.words.style_collection) class is used to manage built-in and apply user-defined settings to styles.
 
 ## How to Extract Content Based on Styles
 

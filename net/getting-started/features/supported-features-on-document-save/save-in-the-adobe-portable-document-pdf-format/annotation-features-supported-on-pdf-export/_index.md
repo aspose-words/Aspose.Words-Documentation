@@ -21,7 +21,7 @@ Bookmarks are exported to PDF and can be made to appear the document outline by 
 
 See the following link in the documentation for further information:
 
-- [OutlineOptions.DefaultBookmarksOutlineLevel](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/defaultbookmarksoutlinelevel)
+- [OutlineOptions.DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/defaultbookmarksoutlinelevel)
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Tracked changes are currently not exported to PDF in the way they appear in Micr
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://reference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

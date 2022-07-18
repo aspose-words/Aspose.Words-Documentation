@@ -41,7 +41,7 @@ Aspose.Words for C++ features can be divided into four main areas.
 
 The ability to easily and reliably convert documents is one of the main features of Aspose.Words.
 
-Comprehensive [document import and export](/words/cpp/loading-saving-and-converting/) with [over 35 supported file formats](/words/cpp/supported-document-formats/) allows users to convert documents from [one popular format](https://apireference.aspose.com/words/cpp/namespace/aspose.words#loadformat) to [another](https://apireference.aspose.com/words/cpp/namespace/aspose.words#saveformat), for example, from DOCX to PDF, JPEG, or Markdown.
+Comprehensive [document import and export](/words/cpp/loading-saving-and-converting/) with [over 35 supported file formats](/words/cpp/supported-document-formats/) allows users to convert documents from [one popular format](https://reference.aspose.com/words/cpp/namespace/aspose.words#loadformat) to [another](https://reference.aspose.com/words/cpp/namespace/aspose.words#saveformat), for example, from DOCX to PDF, JPEG, or Markdown.
 
 #### Document Object Model (DOM)
 
@@ -81,7 +81,7 @@ Although there are over 150 public classes and enumerations in Aspose.Words, the
 
 Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of many classes, methods, and properties familiar.
 
-[Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document), [Paragraph](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph), [Bookmark](https://apireference.aspose.com/words/cpp/class/aspose.words.bookmark), [Range](https://apireference.aspose.com/words/cpp/class/aspose.words.range), [Section.PageSetup](https://apireference.aspose.com/words/cpp/class/aspose.words.section#get_pagesetup) and [Paragraph.ParagraphFormat](https://apireference.aspose.com/words/cpp/class/aspose.words.paragraph#get_paragraphformat) are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
+[Document](https://reference.aspose.com/words/cpp/class/aspose.words.document), [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph), [Bookmark](https://reference.aspose.com/words/cpp/class/aspose.words.bookmark), [Range](https://reference.aspose.com/words/cpp/class/aspose.words.range), [Section.PageSetup](https://reference.aspose.com/words/cpp/class/aspose.words.section#get_pagesetup) and [Paragraph.ParagraphFormat](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph#get_paragraphformat) are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
 
 ## Pricing and Policies
 

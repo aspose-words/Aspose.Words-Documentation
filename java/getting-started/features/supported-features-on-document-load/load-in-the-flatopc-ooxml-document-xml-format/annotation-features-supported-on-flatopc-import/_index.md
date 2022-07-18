@@ -65,8 +65,8 @@ All three comment nodes are related through the use of the ID properties on each
 See the following links in the documentation for further information:
 
 - [How to Extract or Remove Comments](/words/java/working-with-comments/#workingwithcomments-howtoextractorremovecomments)
-- [Comment](https://apireference.aspose.com/words/java/com.aspose.words/Comment)
-- [Comment.Id](https://apireference.aspose.com/words/java/com.aspose.words/Comment#Id)
+- [Comment](https://reference.aspose.com/words/java/com.aspose.words/Comment)
+- [Comment.Id](https://reference.aspose.com/words/java/com.aspose.words/Comment#Id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -93,9 +93,9 @@ These additional features will be included in a future version as well as an API
 See the following links in the documentation for further information:
 
 - [Manage Track Changes](/words/java/working-with-document/#workingwithdocument-managetrackingchanges)
-- [Document.HasRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#HasRevisions)
-- [Document.TrackRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#TrackRevisions)
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/java/com.aspose.words/Document#acceptAllRevisions())
+- [Document.HasRevisions](https://reference.aspose.com/words/java/com.aspose.words/Document#HasRevisions)
+- [Document.TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/Document#TrackRevisions)
+- [Document.AcceptAllRevisions](https://reference.aspose.com/words/java/com.aspose.words/Document#acceptAllRevisions())
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

@@ -106,7 +106,7 @@ The following code snippet shows you how to read a markdown document.
 
 ## Specify Markdown Save Options
 
-Aspose.Words API provides [MarkdownSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) class to specify additional options while saving a document into the Markdown format.
+Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) class to specify additional options while saving a document into the Markdown format.
 
 The following code example demonstrated how to specify various Markdown save options.
 
@@ -114,6 +114,6 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides [TableContentAlignment](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/tablecontentalignment) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/tablecontentalignment) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

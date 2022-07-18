@@ -38,9 +38,9 @@ Using Aspose.Words you can insert new fields, as well as find and modify existin
 Only form fields and hyperlinks are importing from HTML as dynamic fields. Other fields are imported from HTML as plain text. There are plans to try make some fields round-trip capable back to Word document formats by adding extra markup to the output HTML. There are also plans to import of fields from HTML by allowing the user to define a custom syntax that is imported into the model as a working field. See the following links in the documentation for further information:
 
 - [Working with Fields](/words/net/working-with-fields/)
-- [DocumentBuilder.InsertField](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1)
-- [Document.UpdateFields](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatefields)
-- [FieldType](https://apireference.aspose.com/words/net/aspose.words.fields/fieldtype)
+- [DocumentBuilder.InsertField](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertfield/methods/1)
+- [Document.UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/methods/updatefields)
+- [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype)
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
@@ -101,26 +101,26 @@ Only form fields and hyperlinks are importing from HTML as dynamic fields. Othe
 Form fields are fully supported by Aspose.Words. There is an option to export form fields as dynamic fields in HTML as &lt;input&gt; and &lt;select&gt; tags or to export them as plain text. Only &lt;input&gt; and &lt;select&gt; tags are imported back as fields. The input types that have direct Microsoft Word analogs are imported as working form fields. Radio and image input elements are imported as image shapes and are non-clickable. Input elements attributed with hidden or disabled are not imported. See the following links in the documentation for further information:
 
 - [Working with Form Fields](/words/net/working-with-form-fields/)
-- [FormField](https://apireference.aspose.com/words/net/aspose.words.fields/formfield)
-- [FormField.Type](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
-- [FormField.Result](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
+- [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield)
+- [FormField.Type](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/type)
+- [FormField.Result](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/result)
 
 |Feature|Supported|Comment|See Also|||
 | :- | :- | :- | :- | :- | :- |
-|TextInput|Yes|Imported from &lt;input type="text|password|file" name="XXX" /&gt;.|<p>- [FormField.TextInputDefault](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
+|TextInput|Yes|Imported from &lt;input type="text|password|file" name="XXX" /&gt;.|<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
 |CheckBox|Yes|Imported from &lt;input type="checkbox" name="XXX" /&gt;|- **FormField.Type**|||
-|DropDown|Yes|Imported from &lt;select name="XXX" /&gt;. Each item in the list is imported from &lt;option&gt; child elements. &lt;optgroup&gt; tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop down lists.|<p>- [FormField.DropDownItems](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems)</p><p>- [FormField.DropDownSelectedIndex](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|||
+|DropDown|Yes|Imported from &lt;select name="XXX" /&gt;. Each item in the list is imported from &lt;option&gt; child elements. &lt;optgroup&gt; tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop down lists.|<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems)</p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|||
 |Calc On Exit|N/A| | |||
-|Checked|Planned|Will be mported from checked="checked" attribute on &lt;input&gt;.|- [FormField.Checked](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|||
+|Checked|Planned|Will be mported from checked="checked" attribute on &lt;input&gt;.|- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|||
 |Default Value|Yes|With text form fields this is imported from value="XXX" attribute on &lt;input&gt; tag. <br><br>With a drop down list, this is imported form the &lt;option&gt; element which has selected="selected" attribute.|- **FormField.TextInputDefault**|||
-|Enabled|Planned|The "disabled" attribute can be used here.|- [FormField.Enabled](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/enabled)|||
+|Enabled|Planned|The "disabled" attribute can be used here.|- [FormField.Enabled](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/enabled)|||
 |Entry and Exit Macro|N/A| | |||
-|Name|Yes|Imported from the name attribute on &lt;input&gt; or &lt;select&gt; element.|- [FormField.Name](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|||
-|Help Text|Planned|The "alt" attribute can be used.|- [FormField.HelpText](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/helptext)|||
-|Status Text|Planned| |- [FormField.StatusText](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/statustext)|||
-|Max Length|Yes|Exported as maxlength attribute.|- [FormField.MaxLength](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/maxlength)|||
-|Check Box Size|Planned|There are plans to use width and height CSS attributes to increase size of checkboxes exported to HTML.|<p>- [FormField.CheckBoxSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/checkboxsize)</p><p>- [FormField.IsCheckBoxExactSize](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/ischeckboxexactsize)</p>|||
-|Text Input Type|Planned| |- [FormField.TextInputType](https://apireference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputtype)|||
+|Name|Yes|Imported from the name attribute on &lt;input&gt; or &lt;select&gt; element.|- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|||
+|Help Text|Planned|The "alt" attribute can be used.|- [FormField.HelpText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/helptext)|||
+|Status Text|Planned| |- [FormField.StatusText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/statustext)|||
+|Max Length|Yes|Exported as maxlength attribute.|- [FormField.MaxLength](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/maxlength)|||
+|Check Box Size|Planned|There are plans to use width and height CSS attributes to increase size of checkboxes exported to HTML.|<p>- [FormField.CheckBoxSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checkboxsize)</p><p>- [FormField.IsCheckBoxExactSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/ischeckboxexactsize)</p>|||
+|Text Input Type|Planned| |- [FormField.TextInputType](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputtype)|||
 
 ## Index and Tables
 
@@ -198,7 +198,7 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 Aspose.Words fully supports all features of hyperlink fields. You can create new hyperlinks by using the DocumentBuilder class. You can also find and edit hyperlinks inside the DOM and change the address of an existing hyperlink. Imported from &lt;a&gt; element. Several different objects can have hyperlinks imported from this element. The most common is plain text which is imported a regular hyperlink. If the &lt;a&gt; element has image as a child then the hyperlink is imported on Shape node. See the following links in the documentation for further information:
 
-- [DocumentBuilder.InsertHyperlink](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
+- [DocumentBuilder.InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthyperlink)
 - [How to Replace or Modify Hyperlinks](/words/net/working-with-hyperlinks-and-html/)
 
 |Feature|Supported|Comment|See Also|

@@ -54,10 +54,10 @@ The method will also run checks on the nodes passed as parameters and throws an 
 
 The parameters to be passed to this method are:
 
-1. **StartNode** and **EndNode**: The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ([Paragraph](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph) , [Table](https://apireference.aspose.com/words/java/com.aspose.words/Table) ) or inline level (e.g [Run](https://apireference.aspose.com/words/java/com.aspose.words/Run) , [FieldStart](https://apireference.aspose.com/words/java/com.aspose.words/FieldStart) , [BookmarkStart](https://apireference.aspose.com/words/java/com.aspose.words/BookmarkStart) etc.).
+1. **StartNode** and **EndNode**: The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ([Paragraph](https://reference.aspose.com/words/java/com.aspose.words/Paragraph) , [Table](https://reference.aspose.com/words/java/com.aspose.words/Table) ) or inline level (e.g [Run](https://reference.aspose.com/words/java/com.aspose.words/Run) , [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/FieldStart) , [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/BookmarkStart) etc.).
    1. To pass a field you should pass the corresponding **FieldStart** object.
-   1. To pass bookmarks, the **BookmarkStart** and [BookmarkEnd](https://apireference.aspose.com/words/java/com.aspose.words/BookmarkEnd) nodes should be passed.
-   1. To pass comments, the [CommentRangeStart](https://apireference.aspose.com/words/java/com.aspose.words/CommentRangeStart) and [CommentRangeEnd](https://apireference.aspose.com/words/java/com.aspose.words/CommentRangeEnd) nodes should be used.
+   1. To pass bookmarks, the **BookmarkStart** and [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/BookmarkEnd) nodes should be passed.
+   1. To pass comments, the [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/CommentRangeStart) and [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/CommentRangeEnd) nodes should be used.
 1. **IsInclusive**:
 
 Defines if the markers are included in the extraction or not. If this option is set to false and the same node or consecutive nodes are passed, then an empty list will be returned.
@@ -83,7 +83,7 @@ These helper methods below are internally called by the main extraction method. 
 
 This demonstrates how to use the method above to extract content between specific paragraphs. In this case, we want to extract the body of the letter found in the first half of the document. We can tell that this is between the 7th and 11th paragraphs.
 
-The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.getChild](https://apireference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. The code example given below shows how to extract the content between specific paragraphs using the ExtractContent method above. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+The code below accomplishes this task. The appropriate paragraphs are extracted using the [CompositeNode.getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document. The code example given below shows how to extract the content between specific paragraphs using the ExtractContent method above. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphs-ExtractContentBetweenParagraphs.java" >}}
 
@@ -95,7 +95,7 @@ The output document contains the two paragraphs that were extracted.
 
 ## Extract Content Between Different Types of Nodes
 
-We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.getFirstParagraph](https://apireference.aspose.com/words/java/com.aspose.words/body#FirstParagraph) and [CompositeNode.getChild](https://apireference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. The code example given below shows how to extract the content between a paragraph and table using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
+We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling [Body.getFirstParagraph](https://reference.aspose.com/words/java/com.aspose.words/body#FirstParagraph) and [CompositeNode.getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode#getChild(int,int,boolean)) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original. The code example given below shows how to extract the content between a paragraph and table using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenBlockLevelNodes-ExtractContentBetweenBlockLevelNodes.java" >}}
 
@@ -135,7 +135,7 @@ The extracted text is displayed on the console.
 
 ## Extract Content using a Field
 
-To use a field as a marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. This will return the **FieldStart** node from the name of the merge field passed to it. We will then
+To use a field as a marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. This will return the **FieldStart** node from the name of the merge field passed to it. We will then
 
 In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF. The code example given below shows how to extract content between a specific field and paragraph in the document using the ExtractContent method. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Extract%20content.docx).
 
@@ -176,7 +176,7 @@ The extracted output with the **IsInclusive** parameter set to false. The copy c
 
 A comment is made up of the CommentRangeStart, CommentRangeEnd and Comment nodes. All of these nodes are inline. The first two nodes encapsulate the content in the document which is referenced by the comment, as seen in the screenshot below.
 
-The **Comment** node itself is an [InlineStory](https://apireference.aspose.com/words/java/com.aspose.words/InlineStory) that can contain paragraphs and runs. It represents the message of the comment as seen as a comment bubble in the review pane. As this node is inline and a descendant of a body you can also extract the content from inside this message as well.
+The **Comment** node itself is an [InlineStory](https://reference.aspose.com/words/java/com.aspose.words/InlineStory) that can contain paragraphs and runs. It represents the message of the comment as seen as a comment bubble in the review pane. As this node is inline and a descendant of a body you can also extract the content from inside this message as well.
 
 In our document we have one comment. Let’s display it by showing markup in the Review tab:
 
@@ -202,19 +202,19 @@ Secondly the extracted output with **isInclusive** set to false. The copy contai
 
 Aspose.Words can be used not only for creating Microsoft Word documents by building them dynamically or merging templates with data, but also for parsing documents in order to extract separate document elements such as headers, footers, paragraphs, tables, images, and others. Another possible task is to find all text of specific formatting or style.
 
-Use the [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) class to implement this usage scenario. This class corresponds to the well-known Visitor design pattern. With [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor), you can define and execute custom operations that require enumeration over the document tree.
+Use the [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/DocumentVisitor) class to implement this usage scenario. This class corresponds to the well-known Visitor design pattern. With [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/DocumentVisitor), you can define and execute custom operations that require enumeration over the document tree.
 
-[DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) provides a set of **VisitXXX** methods that are invoked when a particular document element (node) is encountered. For example, [DocumentVisitor.VisitParagraphStart](https://apireference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphStart(com.aspose.words.Paragraph)) is called when the beginning of a text paragraph is found and [DocumentVisitor.VisitParagraphEnd](https://apireference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphEnd(com.aspose.words.Paragraph)) is called when the end of a text paragraph is found. Each **DocumentVisitor.VisitXXX** method accepts the corresponding object that it encounters so you can use it as needed (say retrieve the formatting), e.g. both [DocumentVisitor.VisitParagraphStart](https://apireference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphStart(com.aspose.words.Paragraph)) and [DocumentVisitor.VisitParagraphEnd](https://apireference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphEnd(com.aspose.words.Paragraph)) accept a [Paragraph](https://apireference.aspose.com/words/java/com.aspose.words/Paragraph) object.
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/DocumentVisitor) provides a set of **VisitXXX** methods that are invoked when a particular document element (node) is encountered. For example, [DocumentVisitor.VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphStart(com.aspose.words.Paragraph)) is called when the beginning of a text paragraph is found and [DocumentVisitor.VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphEnd(com.aspose.words.Paragraph)) is called when the end of a text paragraph is found. Each **DocumentVisitor.VisitXXX** method accepts the corresponding object that it encounters so you can use it as needed (say retrieve the formatting), e.g. both [DocumentVisitor.VisitParagraphStart](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphStart(com.aspose.words.Paragraph)) and [DocumentVisitor.VisitParagraphEnd](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor#visitParagraphEnd(com.aspose.words.Paragraph)) accept a [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/Paragraph) object.
 
 Each **DocumentVisitor.VisitXXX** method returns a **VisitorAction** value that controls the enumeration of nodes. You can request either to continue the enumeration, skip the current node (but continue the enumeration), or stop the enumeration of nodes.
 
 These are the steps you should follow to programmatically determine and extract various parts of a document:
 
-- Create a class derived from [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor).
+- Create a class derived from [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/DocumentVisitor).
 - Override and provide implementations for some or all of the **DocumentVisitor.VisitXXX** methods to perform some custom operations.
-- Call [Node.accept](https://apireference.aspose.com/words/java/com.aspose.words/node#accept(com.aspose.words.DocumentVisitor)) on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use [Document.accept(DocumentVisitor)](https://apireference.aspose.com/words/java/com.aspose.words/Document#accept(com.aspose.words.DocumentVisitor)).
+- Call [Node.accept](https://reference.aspose.com/words/java/com.aspose.words/node#accept(com.aspose.words.DocumentVisitor)) on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use [Document.accept(DocumentVisitor)](https://reference.aspose.com/words/java/com.aspose.words/Document#accept(com.aspose.words.DocumentVisitor)).
 
-[DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
+[DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/DocumentVisitor) provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
 This example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format. The following example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format.
 
@@ -224,10 +224,10 @@ This example shows how to use the Visitor pattern to add new operations to the A
 
 The ways to retrieve text from the document are:
 
-- Use [Document.save](https://apireference.aspose.com/words/java/com.aspose.words/Document#save(java.io.OutputStream,com.aspose.words.SaveOptions)) with [SaveFormat](https://apireference.aspose.com/words/java/com.aspose.words/SaveFormat) to save as plain text into a file or stream.
-- Use [Node.toString](https://apireference.aspose.com/words/java/com.aspose.words/node#toString(com.aspose.words.SaveOptions)) and pass the SaveFormat.Text parameter. Internally, this invokes save as text into a memory stream and returns the resulting string.
-- Use [Node.getText](https://apireference.aspose.com/words/java/com.aspose.words/node#getText()) to retrieve text with all Microsoft Word control characters including field codes.
-- Implement a custom [DocumentVisitor](https://apireference.aspose.com/words/java/com.aspose.words/DocumentVisitor) to perform customized extraction.
+- Use [Document.save](https://reference.aspose.com/words/java/com.aspose.words/Document#save(java.io.OutputStream,com.aspose.words.SaveOptions)) with [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/SaveFormat) to save as plain text into a file or stream.
+- Use [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node#toString(com.aspose.words.SaveOptions)) and pass the SaveFormat.Text parameter. Internally, this invokes save as text into a memory stream and returns the resulting string.
+- Use [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node#getText()) to retrieve text with all Microsoft Word control characters including field codes.
+- Implement a custom [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/DocumentVisitor) to perform customized extraction.
 
 ### Using Node.GetText and Node.ToString
 
@@ -242,7 +242,7 @@ Calling ToString returns the plain text representation of the document only with
 This example saves the document as follows:
 
 - Filters out field characters and field codes, shape, footnote, endnote and comment references.
-- Replaces end of paragraph [ControlChar.Cr](https://apireference.aspose.com/words/java/com.aspose.words/ControlChar) characters with [ControlChar.CrLf](https://apireference.aspose.com/words/java/com.aspose.words/ControlChar) combinations.
+- Replaces end of paragraph [ControlChar.Cr](https://reference.aspose.com/words/java/com.aspose.words/ControlChar) characters with [ControlChar.CrLf](https://reference.aspose.com/words/java/com.aspose.words/ControlChar) combinations.
 - Uses UTF8 encoding.
 
 The following code example shows how to save a document in TXT format.

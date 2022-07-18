@@ -27,13 +27,13 @@ For example, using Aspose.Words API, you can add a task pane add-in and customiz
 
 Web Extensions are tools that expand the capabilities of Office applications and interact with Office document content. Web Extensions provide additional functionality to Office clients for improving user experience.
 
-Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://apireference.aspose.com/words/java/com.aspose.words/WebExtension) and [TaskPane](https://apireference.aspose.com/words/java/com.aspose.words/TaskPane) classes, and also allows you to customize the pane and extension properties.
+Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://reference.aspose.com/words/java/com.aspose.words/WebExtension) and [TaskPane](https://reference.aspose.com/words/java/com.aspose.words/TaskPane) classes, and also allows you to customize the pane and extension properties.
 
 The following code example shows how to create task panes and add to web extension task panes with basic properties: 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-UsingWebExtensionTaskPanes.java" >}}
 
-To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://apireference.aspose.com/words/java/com.aspose.words/Document#WebExtensionTaskPanes) property.
+To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/Document#WebExtensionTaskPanes) property.
 
 The following code example shows how to get such a list of add-ins:
 

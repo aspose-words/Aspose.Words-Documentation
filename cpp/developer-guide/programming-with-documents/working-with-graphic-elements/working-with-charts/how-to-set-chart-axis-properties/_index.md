@@ -11,7 +11,7 @@ url: /cpp/how-to-set-chart-axis-properties/
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit), and [AxisScaling](https://apireference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling) classes. 
+If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.chart_axis), [AxisDisplayUnit](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_display_unit), and [AxisScaling](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.charts.axis_scaling) classes. 
 The following code example shows how to define X and Y-axis properties.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cpp" >}}

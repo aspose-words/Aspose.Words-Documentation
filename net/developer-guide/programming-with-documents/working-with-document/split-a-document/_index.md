@@ -33,7 +33,7 @@ You can try this functionality with our [Free online document splitter](https://
 
 Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
 
-You can specify criteria using the [DocumentSplitCriteria](https://apireference.aspose.com/words/net/aspose.words.saving/documentsplitcriteria) enumeration. So you can divide a document into chapters using one of the following criteria or combine more than one criteria together:
+You can specify criteria using the [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/documentsplitcriteria) enumeration. So you can divide a document into chapters using one of the following criteria or combine more than one criteria together:
 
 - heading paragraph,
 - section break,
@@ -44,7 +44,7 @@ When saving the output to HTML, Aspose.Words save each individual chapter as a s
 
 {{% alert color="primary" %}}
 
-You cannot split a document using the [DocumentSplitCriteria](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentsplitcriteria) property when saving to MHTML format.
+You cannot split a document using the [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentsplitcriteria) property when saving to MHTML format.
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ In this section, we consider only some of the possible split criteria.
 
 To split a document into chapters by headings, use the **HeadingParagraph** value of the **DocumentSplitCriteria** property.
 
-If you need to split a document by a specific level of heading paragraphs, such as headings 1, 2, and 3, use also the [DocumentSplitHeadingLevel](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentsplitheadinglevel) property. The output will be divided by paragraphs formatted with the specified heading level.
+If you need to split a document by a specific level of heading paragraphs, such as headings 1, 2, and 3, use also the [DocumentSplitHeadingLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentsplitheadinglevel) property. The output will be divided by paragraphs formatted with the specified heading level.
 
 The following code example shows how to split a document into smaller parts by heading:
 
@@ -78,9 +78,9 @@ The following code example shows how to split a document into smaller parts by 
 
 ## Split by Pages {#splitting-by-pages}
 
-You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://apireference.aspose.com/words/net/aspose.words/document/methods/extractpages) method can do the job.
+You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://reference.aspose.com/words/net/aspose.words/document/methods/extractpages) method can do the job.
 
-This section describes several use cases of dividing documents by paged using the [Document](https://apireference.aspose.com/words/net/aspose.words/document) class and the **ExtractPages** method.
+This section describes several use cases of dividing documents by paged using the [Document](https://reference.aspose.com/words/net/aspose.words/document) class and the **ExtractPages** method.
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ The following code example shows how to split a document into smaller parts by p
 
 ## Callback Option to Save a Document {#callback-option-for-saving-a-document}
 
-You can use the [DocumentPartSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentpartsavingcallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
+You can use the [DocumentPartSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/documentpartsavingcallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
 
 Please note that this callback is not useful when saving to EPUB because all output parts must be saved into a single container – the .epub file. So, stream redirection is not supported, and the effect of renaming is not visible since files are renamed inside the container.
 

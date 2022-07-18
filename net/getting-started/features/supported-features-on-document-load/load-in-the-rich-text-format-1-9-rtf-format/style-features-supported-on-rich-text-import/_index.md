@@ -27,31 +27,31 @@ You currently cannot rename a style name or remove an exisiting style from a doc
 
 See the following links in the documentation for further information:
 
-- [Document.Styles](https://apireference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
-- [Style](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
-- [Style.Name](https://apireference.aspose.com/words/net/aspose.words/style/properties/name)
+- [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/properties/styles)
+- [Style](https://reference.aspose.com/words/net/aspose.words/style/properties/name)
+- [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/properties/name)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |- [StyleType.Paragraph](https://apireference.aspose.com/words/net/aspose.words/styletype)|
-|Character Style |Yes | |- [StyleType.Character](https://apireference.aspose.com/words/net/aspose.words/styletype)|
-|List Style |Yes | |- [StyleType.List](https://apireference.aspose.com/words/net/aspose.words/styletype)|
-|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://apireference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://apireference.aspose.com/words/net/aspose.words/styletype)</p>|
+|Paragraph Style |Yes | |- [StyleType.Paragraph](https://reference.aspose.com/words/net/aspose.words/styletype)|
+|Character Style |Yes | |- [StyleType.Character](https://reference.aspose.com/words/net/aspose.words/styletype)|
+|List Style |Yes | |- [StyleType.List](https://reference.aspose.com/words/net/aspose.words/styletype)|
+|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://reference.aspose.com/words/net/aspose.words/styletype)</p>|
 
 ## General
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Aliases |Yes | | |
-|Based On |Yes | |- [Style.BaseStyleName](https://apireference.aspose.com/words/net/aspose.words/style/properties/basestylename)|
-|Built-in Styles |Yes | |<p>- [Style.BuiltIn](https://apireference.aspose.com/words/net/aspose.words/style/properties/builtin) </p><p>- [Style.StyleIdentifier](https://apireference.aspose.com/words/net/aspose.words/style/properties/styleidentifier)</p>|
+|Based On |Yes | |- [Style.BaseStyleName](https://reference.aspose.com/words/net/aspose.words/style/properties/basestylename)|
+|Built-in Styles |Yes | |<p>- [Style.BuiltIn](https://reference.aspose.com/words/net/aspose.words/style/properties/builtin) </p><p>- [Style.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words/style/properties/styleidentifier)</p>|
 |Custom Styles |Yes | | |
 |Linked Styles |Yes | | |
 |Style Name |Yes | |- **Style.Name**|
-|Next Style |Yes | |- [Style.NextParagraphStyleName](https://apireference.aspose.com/words/net/aspose.words/style/properties/nextparagraphstylename)|
-|Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
-|Run Properties |Yes | |- [Style.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
-|Bullets and Numbering |Yes | |<p>- [Style.List](https://apireference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
+|Next Style |Yes | |- [Style.NextParagraphStyleName](https://reference.aspose.com/words/net/aspose.words/style/properties/nextparagraphstylename)|
+|Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
+|Run Properties |Yes | |- [Style.Font](https://reference.aspose.com/words/net/aspose.words/style/properties/font)|
+|Bullets and Numbering |Yes | |<p>- [Style.List](https://reference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
 
 ## Document Defaults
 
@@ -67,6 +67,6 @@ See the following links in the documentation for further information:
 |Apply Formatting to |Planned | |- **Table.StyleOptions**|
 |Table Properties |Planned | |- **TableStyle**|
 |Banding |Planned | |- **Table.StyleOptions**|
-|Paragraph Properties |Planned | |- [TableStyle.ParagraphFormat](https://apireference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
-|Run Properties |Planned | |- [TableStyle.Font](https://apireference.aspose.com/words/net/aspose.words/style/properties/font)|
+|Paragraph Properties |Planned | |- [TableStyle.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
+|Run Properties |Planned | |- [TableStyle.Font](https://reference.aspose.com/words/net/aspose.words/style/properties/font)|
 

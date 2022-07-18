@@ -18,7 +18,7 @@ On this page we will look at how to get and set bokmark text in a document using
 {{< tab tabNum="1" >}}
 
 In Aspose.Words, use the class [
-Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark) to work with a single bookmark ant the [BookmarkCollection](https://apireference.aspose.com/words/net/aspose.words/bookmarkcollection) class to work with a collection of bookmark objects.
+Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark) to work with a single bookmark ant the [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection) class to work with a collection of bookmark objects.
 
 The following code example shows how to get and set bokmark text in a document:
 

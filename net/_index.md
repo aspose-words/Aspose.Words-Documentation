@@ -68,7 +68,7 @@ With Aspose.Words for .NET, you can generate, modify, convert, render, and print
 				<li><a href="https://docs.aspose.com/words/net/linq-reporting-engine/">LINQ Reporting Engine</a></li>
 				<li><a href="https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/">Printing a Document</a></li>
 				<li><a href="https://docs.aspose.com/words/net/programming-with-documents/">Programming with Documents</a></li>
-				<li><a href="https://apireference.aspose.com/words/net">Aspose.Words for .NET API Reference Guide</a></li>
+				<li><a href="https://reference.aspose.com/words/net">Aspose.Words for .NET API Reference Guide</a></li>
 			</ul>
 			<p>LEARN</p>
 			<ul>

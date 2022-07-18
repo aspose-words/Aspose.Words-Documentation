@@ -15,13 +15,13 @@ There are also times when the removal of the unused region on its own is not eno
 
 This article provides a solution to manually define how unused regions in the document are handled. The base code for this functionality is supplied and can be easily reused in another project.
 
-The logic to be applied to each region is defined inside a class that implements the [IFieldMergingCallback](https://apireference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback) interface. In the same way, a mail merge handler can be set up to control how each field is merged, this handler can be set up to perform actions on each field in an unused region or on the region as a whole. Within this handler, you can set the code to change the text of a region, remove nodes or empty rows and cells etc.
+The logic to be applied to each region is defined inside a class that implements the [IFieldMergingCallback](https://reference.aspose.com/words/java/com.aspose.words/ifieldmergingcallback) interface. In the same way, a mail merge handler can be set up to control how each field is merged, this handler can be set up to perform actions on each field in an unused region or on the region as a whole. Within this handler, you can set the code to change the text of a region, remove nodes or empty rows and cells etc.
 
 In this sample, we will be using the document displayed below. It contains nested regions and a region contained within a table. 
 
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions-1.png)
 
-As a quick demonstration, we can execute a sample database on the sample document with the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](https://apireference.aspose.com/words//java/com.aspose.words/mailmergecleanupoptions) flag enabled. This property will automatically remove unmerged regions from the document during a mail merge.
+As a quick demonstration, we can execute a sample database on the sample document with the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](https://reference.aspose.com/words//java/com.aspose.words/mailmergecleanupoptions) flag enabled. This property will automatically remove unmerged regions from the document during a mail merge.
 
 The data source includes two records for the **StoreDetails** region but purposely does have any data for the child **ContactDetails** regions for one of the records. Furthermore, the **Suppliers** region does not have any data rows either. This will cause unused regions to remain in the document. The result after merging the document with this data source is below. 
 
@@ -57,7 +57,7 @@ This sample project demonstrates this technique. It involves the following steps
 
 The implementation for the **ExecuteCustomLogicOnEmptyRegions** method is found below. This method accepts several parameters:
 
-1. The [Document](https://apireference.aspose.com/words/java/com.aspose.words/Document) object containing unmerged regions which are to be handled by the passed handler.
+1. The [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) object containing unmerged regions which are to be handled by the passed handler.
 1. The handler class which defines the logic to apply to unmerged regions. This handler must implement the [IFieldMergingCallback](https://www.aspose.com/api/java/words/com.aspose.words/interfaces/IFieldMergingCallback) interface.
 1. Through the use of the appropriate overload, the method can also accept a third parameter – a list of region names as strings. If this is specified then only region names remaining the document specified in the list will be manually handled. Other regions which are encountered will not be called by the handler and removed automatically. When the overload with only two parameters is specified, every remaining region in the document is included by the method to be handled manually.
 

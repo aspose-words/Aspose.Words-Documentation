@@ -12,7 +12,7 @@ url: /net/convert-a-document-to-markdown/
 
 Markdown is a popular format used to markup text and its further converting to HTML, PDF, DOCX, or other formats. Many developers choose this format for writing documentation, preparing articles for publication on blogs, describing projects, and so on.
 
-Markdown is so popular because it is easy to work with this format, as well as it can be quite simply converted to other formats. For this reason, Aspose.Words provides the ability to convert a document in [any supported load format](https://apireference.aspose.com/words/net/aspose.words/loadformat) to Markdown and vice versa – Aspose.Words also supports most popular [save formats](https://apireference.aspose.com/words/net/aspose.words/saveformat).
+Markdown is so popular because it is easy to work with this format, as well as it can be quite simply converted to other formats. For this reason, Aspose.Words provides the ability to convert a document in [any supported load format](https://reference.aspose.com/words/net/aspose.words/loadformat) to Markdown and vice versa – Aspose.Words also supports most popular [save formats](https://reference.aspose.com/words/net/aspose.words/saveformat).
 
 Now the functionality for working with the Markdown format is being actively developed to provide you with more opportunities for convenient and comfortable work with documents.
 
@@ -25,7 +25,7 @@ The following code example shows how to convert DOCX to Markdown:
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
 
-You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [ImagesFolder](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesfolder) property.
+You can also specify the physical folder in which you want to save images when exporting a document to Markdown format. By default, Aspose.Words saves images in the same folder where the document file is saved, but you can override this behavior using the [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesfolder) property.
 
 Specifying a folder via **ImagesFolder** is also useful if you save a document to a stream and Aspose.Words does not have a folder for saving images.
 
@@ -38,7 +38,7 @@ The following code example shows how to specify a folder for images when saving 
 
 ## Specify Save Options when Converting to Markdown
 
-Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) class to work with advanced options when saving a document to Markdown format. Most properties are inheriting or overloading properties that already exist within other [Aspose.Words.Saving](https://apireference.aspose.com/words/net/aspose.words.saving) Namespace classes. In addition to them, a number of properties that are specific for Markdown format have also been added. For example, the [TableContentAlignment](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/tablecontentalignment) property to control the alignment of content in tables, or [ImageSavingCallback](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesavingcallback) and [ImagesFolder](https://apireference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesfolder) to control how images are saved upon converting a document to Markdown format.
+Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) class to work with advanced options when saving a document to Markdown format. Most properties are inheriting or overloading properties that already exist within other [Aspose.Words.Saving](https://reference.aspose.com/words/net/aspose.words.saving) Namespace classes. In addition to them, a number of properties that are specific for Markdown format have also been added. For example, the [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/tablecontentalignment) property to control the alignment of content in tables, or [ImageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesavingcallback) and [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/imagesfolder) to control how images are saved upon converting a document to Markdown format.
 
 ## Supported Markdown Features
 

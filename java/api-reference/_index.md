@@ -13,4 +13,4 @@ Aspose.Words for Java is a class library that enables your applications to perfo
 
 Aspose.Words for Java is written completely in Java. 
 
-The latest API Reference can be found at [Aspose.Words for Java API Reference](https://apireference.aspose.com/words/java).
+The latest API Reference can be found at [Aspose.Words for Java API Reference](https://reference.aspose.com/words/java).

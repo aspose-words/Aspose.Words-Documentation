@@ -50,21 +50,21 @@ Aspose.Words allows the easy creation of lists by applying list formatting. Docu
 | :- |
 There are two general types of lists in Microsoft Word: bulleted and numbered.
 
-- To start a bulleted list, call [ListFormat.applyBulletDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat#applyBulletDefault\(\)) .
-- To start a numbered list, call [ListFormat.applyNumberDefault](https://apireference.aspose.com/words/java/com.aspose.words/listformat#applyNumberDefault\(\)) .
+- To start a bulleted list, call [ListFormat.applyBulletDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat#applyBulletDefault\(\)) .
+- To start a numbered list, call [ListFormat.applyNumberDefault](https://reference.aspose.com/words/java/com.aspose.words/listformat#applyNumberDefault\(\)) .
 
-The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [ListFormat.removeNumbers](https://apireference.aspose.com/words/java/com.aspose.words/listformat#removeNumbers\(\)) is called to stop bulleted list formatting.
+The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until [ListFormat.removeNumbers](https://reference.aspose.com/words/java/com.aspose.words/listformat#removeNumbers\(\)) is called to stop bulleted list formatting.
 
 In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
-- To increase the list level of the current paragraph by one level, call [ListFormat.listIndent](https://apireference.aspose.com/words/java/com.aspose.words/listformat#listIndent\(\)).
-- To decrease the list level of the current paragraph by one level, call [ListFormat.listOutdent](https://apireference.aspose.com/words/java/com.aspose.words/listformat#listOutdent\(\)).
+- To increase the list level of the current paragraph by one level, call [ListFormat.listIndent](https://reference.aspose.com/words/java/com.aspose.words/listformat#listIndent\(\)).
+- To decrease the list level of the current paragraph by one level, call [ListFormat.listOutdent](https://reference.aspose.com/words/java/com.aspose.words/listformat#listOutdent\(\)).
 
 The methods change the list level and apply the formatting properties of the new level.
 
 {{% alert color="primary" %}}
 
-You can also use the [ListFormat.listLevelNumber](https://apireference.aspose.com/words/java/com.aspose.words/listformat#setListLevelNumber\(int\)) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
+You can also use the [ListFormat.listLevelNumber](https://reference.aspose.com/words/java/com.aspose.words/listformat#setListLevelNumber\(int\)) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
 
 {{% /alert %}}
 
@@ -86,7 +86,7 @@ The following code example shows how to set such properties as page size and ori
 
 Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
-Furthermore, a **Style** object provides the [Style.getStyleIdentifier](https://apireference.aspose.com/words/java/com.aspose.words/Style#getStyleIdentifier\(\)) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**.
+Furthermore, a **Style** object provides the [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/Style#getStyleIdentifier\(\)) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**.
 
 |![apply-style-aspose-words-java](documentbuilder-to-modify-document-6.png)|
 | :- |
@@ -98,11 +98,11 @@ The following code example shows how to apply a paragraph style.
 
 Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to several or only one document element. For example, BorderType.Bottom is applicable to a paragraph or table cell while BorderType.DiagonalDown specifies the diagonal border in a table cell only.
 
-Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.clearFormatting](https://apireference.aspose.com/words/java/com.aspose.words/border#clearFormatting\(\)) method. Note that when border properties are reset to default values, the border is invisible.
+Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border#clearFormatting\(\)) method. Note that when border properties are reset to default values, the border is invisible.
 
 |![set-borders-shading-aspose-words-java](documentbuilder-to-modify-document-7.png)|
 | :- |
-The [Shading](https://apireference.aspose.com/words/java/com.aspose.words/Shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
+The [Shading](https://reference.aspose.com/words/java/com.aspose.words/Shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
 The shading texture is set with a [TextureIndex](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) value and set the foreground shading color as appropriate.
 
@@ -122,44 +122,44 @@ Aspose.Words provides two properties ParagraphFormat.SnapToGrid and Font.SnapT
 
 ### Detecting the Current Cursor Position
 
-You can obtain where the builder's cursor is currently positioned at any time. The [DocumentBuilder.getCurrentNode](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#getCurrentNode\(\)/) property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using DocumentBuilder will insert before the DocumentBuilder.CurrentNode. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, DocumentBuilder.CurrentNode returns null.
+You can obtain where the builder's cursor is currently positioned at any time. The [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#getCurrentNode\(\)/) property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using DocumentBuilder will insert before the DocumentBuilder.CurrentNode. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, DocumentBuilder.CurrentNode returns null.
 
-Also, you can use the [DocumentBuilder.getCurrentParagraph](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#getCurrentParagraph\(\)/) property, which gets the paragraph that is currently selected in this **DocumentBuilder**. The below code example shows how to access the current node in a document builder.
+Also, you can use the [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#getCurrentParagraph\(\)/) property, which gets the paragraph that is currently selected in this **DocumentBuilder**. The below code example shows how to access the current node in a document builder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderCursorPosition-DocumentBuilderCursorPosition.java" >}}
 
 ### Moving to Any Node (Paragraphs and their Children)
 
-If you have a document object node, which is a paragraph or a direct child of a paragraph, you can point the builder's cursor to this node. Use the [DocumentBuilder.moveTo](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveTo\(com.aspose.words.Node\)/) method to perform this.
+If you have a document object node, which is a paragraph or a direct child of a paragraph, you can point the builder's cursor to this node. Use the [DocumentBuilder.moveTo](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveTo\(com.aspose.words.Node\)/) method to perform this.
 The following code example shows how to move a cursor position to a specified node.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToNode-DocumentBuilderMoveToNode.java" >}}
 
 ### Moving to the Document Start/End
 
-If you need to move to the beginning of the document, call [DocumentBuilder.moveToDocumentStart](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToDocumentStart\(\)/). If you need to move to the end of the document, call [DocumentBuilder.moveToDocumentEnd](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToDocumentEnd\(\)/).
+If you need to move to the beginning of the document, call [DocumentBuilder.moveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToDocumentStart\(\)/). If you need to move to the end of the document, call [DocumentBuilder.moveToDocumentEnd](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToDocumentEnd\(\)/).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToDocumentStartEnd-DocumentBuilderMoveToDocumentStartEnd.java" >}}
 
 ### Moving to a Section
 
-If you are working with a document that contains multiple sections, you can move to a desired section using [DocumentBuilder.moveToSection](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)/). This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. The below code example shows how to move a cursor position to the specified section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
+If you are working with a document that contains multiple sections, you can move to a desired section using [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)/). This method moves the cursor to the beginning of a specified section and accepts the index of the required section. When the section index is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When the section index is less than 0, it specifies an index from the end of the document with -1 being the last section. The below code example shows how to move a cursor position to the specified section. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Rendering.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToSection-DocumentBuilderMoveToSection.java" >}}
 
 ### Moving to a Header/Footer
 
-When you need to place some data into a header or footer, you should move there first using [DocumentBuilder.moveToHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToHeaderFooter\(int\)/).The method accepts a HeaderFooterType enumeration value that identifies the type of header or footer to where the cursor should be moved.
+When you need to place some data into a header or footer, you should move there first using [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToHeaderFooter\(int\)/).The method accepts a HeaderFooterType enumeration value that identifies the type of header or footer to where the cursor should be moved.
 
-If you want to create headers and footers that are different for the first page, you need to set the [PageSetup.getDifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup#getDifferentFirstPageHeaderFooter\(\)) property to **true**. If you want to create headers and footers that are different for even and odd pages, you need to set [PageSetup.getOddAndEvenPagesHeaderFooter](https://apireference.aspose.com/words/java/com.aspose.words/PageSetup#getOddAndEvenPagesHeaderFooter\(\)) to **true**.
+If you want to create headers and footers that are different for the first page, you need to set the [PageSetup.getDifferentFirstPageHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/PageSetup#getDifferentFirstPageHeaderFooter\(\)) property to **true**. If you want to create headers and footers that are different for even and odd pages, you need to set [PageSetup.getOddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/PageSetup#getOddAndEvenPagesHeaderFooter\(\)) to **true**.
 
-If you need to get back to the main story, use[DocumentBuilder.moveToSection](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)) to move out of the header or footer. Below example creates headers and footers in a document using DocumentBuilder.
+If you need to get back to the main story, use[DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection\(int\)) to move out of the header or footer. Below example creates headers and footers in a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderHeadersAndFooters-DocumentBuilderHeaderAndFooters.java" >}}
 
 ### Moving to a Paragraph
 
-Use[DocumentBuilder.moveToParagraph](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToParagraph\(int,int\)/) to move the cursor to a desired paragraph in the current section. You should pass two parameters to this method: paragraphIndex (the index of the paragraph to move to) and characterIndex (the index of the character inside the paragraph).
+Use[DocumentBuilder.moveToParagraph](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToParagraph\(int,int\)/) to move the cursor to a desired paragraph in the current section. You should pass two parameters to this method: paragraphIndex (the index of the paragraph to move to) and characterIndex (the index of the character inside the paragraph).
 
 The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specifies the index of the paragraph inside that header of that section.
 
@@ -169,7 +169,7 @@ When paragraphIndex is greater than or equal to 0, it specifies an index from th
 
 ### Moving to a Table Cell
 
-Use [DocumentBuilder.moveToCell](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToCell\(int,int,int,int\)/) if you need to move the cursor to a table cell in the current section. This method accepts four parameters:
+Use [DocumentBuilder.moveToCell](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToCell\(int,int,int,int\)/) if you need to move the cursor to a table cell in the current section. This method accepts four parameters:
 
 - tableIndex - the index of the table to move to.
 - rowIndex - the index of the row in the table.
@@ -186,11 +186,11 @@ Also, note that characterIndex currently can only specify 0 to move to the begin
 
 ### Moving to a Bookmark
 
-Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use [DocumentBuilder.moveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark\(java.lang.String\)/). This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. The following code example shows how to move a cursor position to a bookmark.
+Bookmarks are used frequently to mark particular places in the document where new elements are to be inserted. To move to a bookmark, use [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark\(java.lang.String\)/). This method has two overloads. The simplest one accepts nothing but the name of the bookmark where the cursor is to be moved. The following code example shows how to move a cursor position to a bookmark.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToBookmark-DocumentBuilderMoveToBookmark.java" >}}
 
-This overload moves the cursor to a position just after the start of the bookmark with the specified name. Another overload [DocumentBuilder.moveToBookmark](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark\(java.lang.String,boolean,boolean\)/) moves the cursor to a bookmark with greater precision. It accepts two additional boolean parameters:
+This overload moves the cursor to a position just after the start of the bookmark with the specified name. Another overload [DocumentBuilder.moveToBookmark](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToBookmark\(java.lang.String,boolean,boolean\)/) moves the cursor to a bookmark with greater precision. It accepts two additional boolean parameters:
 
 - isStart determines whether to move the cursor to the beginning or to the end of the bookmark.
 - isAfter determines whether to move the cursor to be after the bookmark start or end position, or to move the cursor to be before the bookmark start or end position.
@@ -203,7 +203,7 @@ Inserting new text in this way does not replace the existing text of the bookmar
 
 ### Moving to a Merge Field
 
-Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToMergeField\(java.lang.String\)/) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
+Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToMergeField\(java.lang.String\)/) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

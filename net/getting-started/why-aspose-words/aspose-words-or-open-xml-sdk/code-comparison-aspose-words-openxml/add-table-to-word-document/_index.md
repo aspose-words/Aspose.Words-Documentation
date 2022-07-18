@@ -15,12 +15,12 @@ On this page we will look at how to add a table to a document in a Word format u
 {{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
 {{< tab tabNum="1" >}}
 
-In Aspose.Words a table is normally inserted using [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder). Use its methods to build a table and insert content into table cells, for example, the following:
+In Aspose.Words a table is normally inserted using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder). Use its methods to build a table and insert content into table cells, for example, the following:
 
-- [StartTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable)
-- [InsertCell](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertcell)
-- [EndRow](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endrow)
-- [EndTable](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/endtable)
+- [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable)
+- [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertcell)
+- [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/endrow)
+- [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/endtable)
 - Writeln
 
 The following code example shows how to add a table to a document:

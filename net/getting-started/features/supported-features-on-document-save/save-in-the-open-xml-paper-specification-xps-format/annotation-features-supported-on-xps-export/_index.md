@@ -21,7 +21,7 @@ Bookmarks are exported to XPS and can be made to appear the document outline by 
 
 See the following link in the documentation for further information:
 
-- [XpsSaveOptions.BookmarksOutlineLevel](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/bookmarksoutlinelevels)
+- [XpsSaveOptions.BookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/bookmarksoutlinelevels)
 
 {{% /alert %}}
 
@@ -56,7 +56,7 @@ For now rendering simple insertion, change or deletion revisions can be simulate
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://reference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

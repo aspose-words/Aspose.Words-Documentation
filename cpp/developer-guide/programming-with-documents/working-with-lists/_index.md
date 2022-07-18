@@ -15,7 +15,7 @@ A list in a Microsoft Word document is a set of list formatting properties. Each
 
 ## Specify Formatting for a List Level
 
-List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://apireference.aspose.com/words/cpp/class/aspose.words.lists.list_level) class to control the formatting of individual levels of a list.
+List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/cpp/class/aspose.words.lists.list_level) class to control the formatting of individual levels of a list.
 
 ## How to Restart List for each Section
 

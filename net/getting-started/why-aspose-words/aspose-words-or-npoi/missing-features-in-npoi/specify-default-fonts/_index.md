@@ -15,9 +15,9 @@ See more details in the ["Manipulating and Substitution TrueType Fonts"](/words/
 
 {{% /alert %}}
 
-We have a simple program which allows to convert a Word document to PDF. This is achieved by loading the document into the [Aspose.Words document model (DOM)](/words/net/aspose-words-document-object-model/) and calling the [Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method with a “.PDF” extension.
+We have a simple program which allows to convert a Word document to PDF. This is achieved by loading the document into the [Aspose.Words document model (DOM)](/words/net/aspose-words-document-object-model/) and calling the [Save](https://reference.aspose.com/words/net/aspose.words/document/methods/save/index) method with a “.PDF” extension.
 
-You can specify the default font by calling the [DefaultFontName](https://apireference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/properties/defaultfontname) property before the document is rendered.
+You can specify the default font by calling the [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/properties/defaultfontname) property before the document is rendered.
 
 The following code example shows how to specify default fonts:
 

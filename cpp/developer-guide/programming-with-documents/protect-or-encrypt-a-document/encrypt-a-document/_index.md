@@ -19,7 +19,7 @@ To encrypt a document, use the **Password** property to provide a password that 
 
 {{% alert color="primary" %}}
 
-You can find the appropriate **Password** property for the required format. Each document save format in the [Saving Namespace](https://apireference.aspose.com/words/cpp/namespace/aspose.words.saving) has a corresponding class containing save options for this format. For example, the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options#get_password_const) property in the [DocSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options) class for DOC, or the [Password](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.ooxml_save_options#get_password_const) property in the [OoxmlSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.ooxml_save_options) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
+You can find the appropriate **Password** property for the required format. Each document save format in the [Saving Namespace](https://reference.aspose.com/words/cpp/namespace/aspose.words.saving) has a corresponding class containing save options for this format. For example, the [Password](https://reference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options#get_password_const) property in the [DocSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.doc_save_options) class for DOC, or the [Password](https://reference.aspose.com/words/cpp/class/aspose.words.saving.ooxml_save_options#get_password_const) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.ooxml_save_options) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
 
 {{% /alert %}}
 
@@ -58,7 +58,7 @@ doc->Save(u"DocSaveOptions.SaveAsDoc.doc", options);
 
 In some cases, you may have an unreadable document and want to be sure that the document is encrypted and not corrupted or compressed.
 
-To detect if a document is encrypted and if a password is required, you can use the [IsEncrypted](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info#get_isencrypted_const) property of the [FileFormatInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.file_format_info) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
+To detect if a document is encrypted and if a password is required, you can use the [IsEncrypted](https://reference.aspose.com/words/cpp/class/aspose.words.file_format_info#get_isencrypted_const) property of the [FileFormatInfo](https://reference.aspose.com/words/cpp/class/aspose.words.file_format_info) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
 
 The following code example shows how to detect the document encryption:
 

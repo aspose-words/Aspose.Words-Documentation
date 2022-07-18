@@ -50,7 +50,7 @@ Based on the length of time the service uses to process the document, the attack
 
 ## Solutions of Security Issues
 
-To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://apireference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback).
+To solve the problems described above and to improve the security of web applications, you can control or disable loading of external resources using [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback).
 
 The following code example shows how to disable external images loading:
 

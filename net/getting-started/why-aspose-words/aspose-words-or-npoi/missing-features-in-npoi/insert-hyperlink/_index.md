@@ -15,7 +15,7 @@ See more details in the ["Working with Hyperlinks and HTML"](/words/net/working-
 
 {{% /alert %}}
 
-The following code example shows how to inserts a hyperlink into a Word document using the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class:
+The following code example shows how to inserts a hyperlink into a Word document using the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class:
 
 {{< highlight csharp >}}
 Document doc = new Document();

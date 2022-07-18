@@ -60,7 +60,7 @@ There are 98 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-8829|PdfSaveOptions.PreserveFormFields (true) change the position of Form Fields in Pdf file|Bug|
 |WORDSNET-8834|Document.Save corrupts the Microsoft Word 2013 document|Bug|
 |WORDSNET-8845|Contents position is incorrect after joining documents with Document.AppendDocument|Bug|
-|WORDSNET-8850|doc.Styles[StyleIdentifier.NoteHeading](https://apireference.aspose.com/words/net/aspose.words/styleidentifier) does not create style in the document|Bug|
+|WORDSNET-8850|doc.Styles[StyleIdentifier.NoteHeading](https://reference.aspose.com/words/net/aspose.words/styleidentifier) does not create style in the document|Bug|
 |WORDSNET-8852|MailMerge.Execute repeats/duplicates a Footnote in output document|Bug|
 |WORDSNET-8858|Japanese contents lost after conversion from Doc to Pdf|Bug|
 |WORDSNET-8862|Shape is rendered incorrectly|Bug|
