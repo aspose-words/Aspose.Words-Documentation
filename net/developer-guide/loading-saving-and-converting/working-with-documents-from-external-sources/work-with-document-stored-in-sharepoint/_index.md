@@ -5,8 +5,8 @@ articleTitle: Work with a Document Stored in a SharePoint Online
 linktitle: Work with a Document Stored in a SharePoint Online
 description: "Convert Word shared in SharePoint to PDF using C#. Work with documents stored in SharePoint – various input formats, including Word, OpenOffice, Image and eBook."
 type: docs
-weight: 15
-url: /net/convert-a-document-to-pdf-shared-in-sharepoint-online/
+weight: 20
+url: /net/work-with-document-stored-in-sharepoint/
 ---
 
 Microsoft SharePoint Online is a collection of web-based technologies that make it easy for organizations to store, share, and manage digital information. You can work with documents stored in the "Shared Documents" folder in SharePoint using our powerful Aspose.Words for .NET.
