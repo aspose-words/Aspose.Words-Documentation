@@ -20,7 +20,7 @@ Note that there may appear to be more styles in the output ODT document than in 
 See the following links in the documentation for further information:
 
 - [Save a Document](/words/java/save-a-document/)
-- [OdtSaveOptions](https://apireference.aspose.com/words/java/com.aspose.words/odtsaveoptions)
+- [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions)
 
 [Jump to this location in the import section](/words/java/document-features-supported-on-opendocument-import/)
 

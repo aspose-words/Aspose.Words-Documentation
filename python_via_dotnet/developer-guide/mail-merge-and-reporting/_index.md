@@ -33,9 +33,9 @@ The **aspose.words.mailmerging** namespace is used to work with mail merging.
 
 ## Mechanism and Main Components of a Mail Merge Operation {#mechanism-and-main-components-of-a-mail-merge-operation}
 
-Aspose.Words provides the ability to load documents in various [supported formats](https://apireference.aspose.com/words/net/aspose.words/loadformat) and then allows users to perform a mail merge operation.
+Aspose.Words provides the ability to load documents in various [supported formats](https://reference.aspose.com/words/net/aspose.words/loadformat) and then allows users to perform a mail merge operation.
 
-Usually, a loaded document allows you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://apireference.aspose.com/words/net/aspose.words/saveformat), and perform the mail merge operation.
+Usually, a loaded document allows you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://reference.aspose.com/words/net/aspose.words/saveformat), and perform the mail merge operation.
 
 The mail merge operation will merge your *mail merge template* and your *data source* to generate individual *merged documents*.
 

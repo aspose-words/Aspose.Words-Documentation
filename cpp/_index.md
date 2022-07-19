@@ -65,7 +65,7 @@ With Aspose.Words for C++, you can generate, modify, convert, and render documen
 				<li><a href="https://docs.aspose.com/words/cpp/rendering/">Rendering</a></li>
 				<li><a href="https://docs.aspose.com/words/cpp/mail-merge-and-reporting/">Mail Merge and Reporting</a></li>
 				<li><a href="https://docs.aspose.com/words/cpp/programming-with-documents/">Programming with Documents</a></li>
-				<li><a href="https://apireference.aspose.com/words/cpp">Aspose.Words for C++ API Reference Guide</a></li>
+				<li><a href="https://reference.aspose.com/words/cpp">Aspose.Words for C++ API Reference Guide</a></li>
 			</ul>
 			<p>LEARN</p>
 			<ul>

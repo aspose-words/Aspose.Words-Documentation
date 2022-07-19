@@ -11,7 +11,7 @@ url: /java/insert-and-remove-field/
 
 ## Inserting Fields into a Document
 
-In Aspose.Words the [DocumentBuilder.insertField](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
+In Aspose.Words the [DocumentBuilder.insertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ The same technique is used to insert fields nested within other fields. The foll
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://apireference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example shows how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example shows how to get names of all merge fields in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
@@ -93,7 +93,7 @@ ASK field is used to prompt the user for text to assign to a Bookmark in Word do
 AUTHOR field is used to specify the name of Document's author from the Document properties. AUTHOR field in Word document can be represented by the FieldAuthor class. You can use FieldAuthor class to perform following operations:
 
 - Specify the document author's name.
-  For more details, please refer to [FieldAuthor Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldAuthor).
+  For more details, please refer to [FieldAuthor Class API reference](https://reference.aspose.com/words/java/com.aspose.words/FieldAuthor).
 
 Below example shows how to Add a AUTHOR Field using DOM to a Paragraph in Document.
 
@@ -106,7 +106,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - Specify the bookmark's name of included document. 
 - Specify the location of the document.
 
-For more details, please refer to [FieldIncludeText Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example shows how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
+For more details, please refer to [FieldIncludeText Class API reference](https://reference.aspose.com/words/java/com.aspose.words/FieldIncludeText). Below example shows how to Add a INCLUDETEXT field using DOM to a Paragraph in Document. 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 
@@ -116,7 +116,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 { TOA [Switches ] }
 
-Please refer to [FieldToa Class API reference](https://apireference.aspose.com/words/java/com.aspose.words/FieldToa). The following code example shows how to Add a TOA field using DOM to a Paragraph in Document.
+Please refer to [FieldToa Class API reference](https://reference.aspose.com/words/java/com.aspose.words/FieldToa). The following code example shows how to Add a TOA field using DOM to a Paragraph in Document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertTOAField-InsertTOAField.java" >}}
 

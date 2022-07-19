@@ -17,7 +17,7 @@ On this page we will look at how to change text in a table using Aspose.Words or
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words text in a table can be normally changed using the [Range.Replace](https://apireference.aspose.com/words/net/aspose.words.range/replace/methods/1) method.
+In Aspose.Words text in a table can be normally changed using the [Range.Replace](https://reference.aspose.com/words/net/aspose.words.range/replace/methods/1) method.
 
 The following code example shows how to change text in a table:
 

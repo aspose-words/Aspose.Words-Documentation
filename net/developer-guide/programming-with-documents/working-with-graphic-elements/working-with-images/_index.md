@@ -11,14 +11,14 @@ url: /net/working-with-images/
 
 ## How to Insert an Image {#insert-an-image}
 
-DocumentBuilder provides several overloads of the [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/1) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
+DocumentBuilder provides several overloads of the [DocumentBuilder.InsertImage](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/1) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.InsertImage method can use images from different sources:
 
-- From a file or URL by passing a string parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/2).
-- From a stream by passing a Stream parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3).
-- From an Image object by passing an Image parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/4).
-- From a byte array by passing a byte array parameter [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertimage). For each of the DocumentBuilder.InsertImage methods, there are further overloads which allow you to insert an image with the following options:
-- Inline or floating at a specific position, for example, [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/11).
-- Percentage scale or custom size, for example, [DocumentBuilder.InsertImage](https://apireference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/7). Furthermore, the DocumentBuilder.InsertImage method returns a [Shape](https://apireference.aspose.com/words/net/aspose.words.drawing/shape) object that was just created and inserted so you can further modify properties of the Shape.
+- From a file or URL by passing a string parameter [DocumentBuilder.InsertImage](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/2).
+- From a stream by passing a Stream parameter [DocumentBuilder.InsertImage](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/3).
+- From an Image object by passing an Image parameter [DocumentBuilder.InsertImage](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/4).
+- From a byte array by passing a byte array parameter [DocumentBuilder.InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertimage). For each of the DocumentBuilder.InsertImage methods, there are further overloads which allow you to insert an image with the following options:
+- Inline or floating at a specific position, for example, [DocumentBuilder.InsertImage](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/11).
+- Percentage scale or custom size, for example, [DocumentBuilder.InsertImage](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/7). Furthermore, the DocumentBuilder.InsertImage method returns a [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape) object that was just created and inserted so you can further modify properties of the Shape.
 
 ### How to Insert an Inline Image {#insert-an-inline-image}
 
@@ -36,10 +36,10 @@ This example inserts a floating image from a file or URL at a specified position
 
 All images are stored inside Shape nodes in a Document. To extract all images or images having specific type from the document, follow these steps:
 
-- Use the [Document.GetChildNodes](https://apireference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method to select all **Shape** nodes.
+- Use the [Document.GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/methods/getchildnodes) method to select all **Shape** nodes.
 - Iterate through resulting node collections.
-- Check the [Shape.HasImage](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/hasimage) boolean property.
-- Extract image data using the [Shape.ImageData](https://apireference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata) property.
+- Check the [Shape.HasImage](https://reference.aspose.com/words/net/aspose.words.drawing/shape/properties/hasimage) boolean property.
+- Extract image data using the [Shape.ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata) property.
 - Save image data to a file.
 
 Below example shows how to extract images from a document and save them as files. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Images.docx).

@@ -25,7 +25,7 @@ Aspose.Words now allows users to work with PDF/A-1, PDF/A-2 and PDF/A-4 formats,
 * PDF/A-4 assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to previous versions' level U conformance, and the level A conformance is removed
 * PDF/UA-1 content should be tagged and standardized according to ISO 32000-1: 2008
 
-PDF/A is an ISO-standardized version of PDF intended for use in archiving and long-term storage of electronic documents. At the same time, PDF/UA is another ISO standardized version of PDF designed to ensure accessibility for people with disabilities who use assistive technology. To specify the level of compliance with PDF standards, use the [Compliance](https://apireference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/compliance) property. Due to storage conditions, PDF/A document must embed all fonts and disable encryption, while PDF/UA must only embed all fonts.
+PDF/A is an ISO-standardized version of PDF intended for use in archiving and long-term storage of electronic documents. At the same time, PDF/UA is another ISO standardized version of PDF designed to ensure accessibility for people with disabilities who use assistive technology. To specify the level of compliance with PDF standards, use the [Compliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/compliance) property. Due to storage conditions, PDF/A document must embed all fonts and disable encryption, while PDF/UA must only embed all fonts.
 
 In this section, we will take a closer look at working with PDF/A or PDF/UA-1 documents.
 

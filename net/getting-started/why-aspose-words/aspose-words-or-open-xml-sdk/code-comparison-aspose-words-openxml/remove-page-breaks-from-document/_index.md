@@ -17,7 +17,7 @@ On this page we will look at how to remove page breaks from a document using Asp
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, use the [PageBreak](https://apireference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak) field of the [ControlChar](https://apireference.aspose.com/words/net/aspose.words/controlchar) class to find all page breaks.
+In Aspose.Words, use the [PageBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak) field of the [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar) class to find all page breaks.
 
 The following code example shows how to remove page breaks from a document:
 

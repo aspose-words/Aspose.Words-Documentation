@@ -44,7 +44,7 @@ You may need to accept tracked changes before saving to different formats or els
 
 See the following link in the documentation for further information:
 
-- [Document.AcceptAllRevisions](https://apireference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
+- [Document.AcceptAllRevisions](https://reference.aspose.com/words/net/aspose.words/document/methods/acceptallrevisions)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

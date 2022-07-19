@@ -18,7 +18,7 @@ On this page we will look at how to convert a document that contains VBA code an
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, we normally use the [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/main) constructor of Aspose.Words API to load a document in DOCM format and the  [Document.Save](https://apireference.aspose.com/words/net/aspose.words/document/methods/save/index) method to save the document to DOCX.
+In Aspose.Words, we normally use the [Document](https://reference.aspose.com/words/net/aspose.words/document/constructors/main) constructor of Aspose.Words API to load a document in DOCM format and the  [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/methods/save/index) method to save the document to DOCX.
 
 The following code example shows how to convert DOCM to DOCX:
 

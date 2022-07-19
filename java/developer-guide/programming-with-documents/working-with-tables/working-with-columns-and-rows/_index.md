@@ -19,7 +19,7 @@ In both Word documents and in the Aspose.Words Document Object Model, there is n
 
 ![work-with-columns-aspose-words-java](working-with-columns-and-rows-1.png)
 
-Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells is represented in the same way that tables are represented in Aspose.Words. In the Aspose.Words Document Object Model a [Table](https://apireference.aspose.com/words/java/com.aspose.words/table) node is made up of [Row](https://apireference.aspose.com/words/java/com.aspose.words/row) and then [Cell](https://apireference.aspose.com/words/java/com.aspose.words/cell) nodes. There is also no native support for columns.
+Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells is represented in the same way that tables are represented in Aspose.Words. In the Aspose.Words Document Object Model a [Table](https://reference.aspose.com/words/java/com.aspose.words/table) node is made up of [Row](https://reference.aspose.com/words/java/com.aspose.words/row) and then [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell) nodes. There is also no native support for columns.
 
 You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table.
 
@@ -43,7 +43,7 @@ The following code example shows how to remove a column from a table in a docume
 
 A table can specify certain starting rows of a table to be used as header rows. This means if the table spans over many pages, these rows will be repeated at the top of the table for each page. In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”* . Using this option you can choose to repeat only a single row or many rows in a table. In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page.
 
-In Aspose.Words you can apply this setting by using the [RowFormat.getHeadingFormat()](https://apireference.aspose.com/words/cpp/class/aspose.words.tables.row_format#get_headingformat) property. Note that heading rows do not work in nested tables. That is, if you have a table within another table then this setting will have no effect. This is a limitation of Microsoft Word which does not allow this and not of Aspose.Words. 
+In Aspose.Words you can apply this setting by using the [RowFormat.getHeadingFormat()](https://reference.aspose.com/words/cpp/class/aspose.words.tables.row_format#get_headingformat) property. Note that heading rows do not work in nested tables. That is, if you have a table within another table then this setting will have no effect. This is a limitation of Microsoft Word which does not allow this and not of Aspose.Words. 
 
 The following code example shows how to build a table which includes heading rows that repeat on subsequent pages.
 

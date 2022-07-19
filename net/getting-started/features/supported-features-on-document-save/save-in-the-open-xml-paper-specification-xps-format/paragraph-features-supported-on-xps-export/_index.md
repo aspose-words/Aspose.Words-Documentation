@@ -15,7 +15,7 @@ Paragraphs with Heading styles can be exported to XPS so they appear in the docu
 
 See the following link in the documentation for further information:
 
-- [XpsSaveOptions.HeadingsOutlineLevels](https://apireference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/headingsoutlinelevels)
+- [XpsSaveOptions.HeadingsOutlineLevels](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/properties/headingsoutlinelevels)
 
 {{% /alert %}}
 

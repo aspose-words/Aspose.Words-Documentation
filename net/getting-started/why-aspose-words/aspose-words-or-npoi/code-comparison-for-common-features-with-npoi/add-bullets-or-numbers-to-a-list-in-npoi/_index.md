@@ -163,6 +163,6 @@ Download **Add bullets or numbers to a list** form any of the below mentioned s
 
 {{% alert color="primary" %}}
 
-For more details, visit [Lists](https://apireference.aspose.com/words/net/aspose.words.lists/listcollection/methods/add/index).
+For more details, visit [Lists](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/methods/add/index).
 
 {{% /alert %}}

@@ -24,7 +24,7 @@ Key features provided by Mail Merge are as follows:
 - Dynamic insertion of images and documents
 - Support of repetitive document regions (data bands)
 - Inclusion of document parts depending on conditions
-- Built-in support for ADO.NET objects as data sources (any custom data source can be supported by implementing the [IMailMergeDataSource](https://apireference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) interface)
+- Built-in support for ADO.NET objects as data sources (any custom data source can be supported by implementing the [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource) interface)
 
 Overall, Mail Merge is a good way to go if you are never going to use features beyond the scope of Mail Merge, or you have to deal with Microsoft Word mail merge templates. However, being tied with and limited by Microsoft Word behavior, Mail Merge cannot be easily extended to cover every specific scenario, and this is where LINQ Reporting Engine stands out.
 

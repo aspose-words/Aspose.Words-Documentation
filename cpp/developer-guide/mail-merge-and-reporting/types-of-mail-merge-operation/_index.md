@@ -20,7 +20,7 @@ The main difference between both merge operations is that simple mail merge (wit
 
 {{% alert color="primary" %}}
 
-The [MailMerge](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
+The [MailMerge](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
 
 {{% /alert %}}
 
@@ -34,9 +34,9 @@ The main limitation of using this type is the whole document content will be rep
 
 ### How to Execute a Simple Mail Merge Operation
 
-Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) methods that accept various data objects as the data source.
+Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) methods that accept various data objects as the data source.
 
-The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) method:
+The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) method:
 
 {{< highlight cpp >}}
 // For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-C
@@ -175,7 +175,7 @@ You can create nested (child) regions as well as merge regions. The main advanta
 
 {{% alert color="primary" %}}
 
-Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info) class.
+Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge_region_info) class.
 
 {{% /alert %}}
 
@@ -183,7 +183,7 @@ Information about a mail merge region can be obtained using the [MailMergeRegion
 
 A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
 
-Aspose.Words allows you to execute mail merge with regions using one of the [ExecuteWithRegions](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#executewithregions_imailmergedatasource) methods that accept [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) custom data source.
+Aspose.Words allows you to execute mail merge with regions using one of the [ExecuteWithRegions](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#executewithregions_imailmergedatasource) methods that accept [IMailMergeDataSource](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) custom data source.
 
 The following code example shows how to execute mail merge with regions from sqlite database with [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
 
@@ -339,7 +339,7 @@ There are some important points that you need to consider when performing a mail
 
 * The start point *TableStart:Orders* and the end point *TableEnd:Orders* both need to be in the same row or cell. For example, if you start a merge region in a cell of a table, you must end the merge region in the same row as the first cell.
   The merge field name must match the column name in your DataTable. Unless you specify mapped fields, mail merge with regions will not succeed for any merge field that has a name other than the column name.
-* Aspose.Words for C++ only supports [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) and [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) based data sources. Unlike .NET and Java, C++ does not have a generally accepted cross-platform API for working with databases (like ADODB, ODBC, or JDBC). In order to work with a specific data source, you have to implement [IMailMergeDataSource](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) or [IMailMergeDataSourceRoot](https://apireference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) interface.
+* Aspose.Words for C++ only supports [IMailMergeDataSource](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) and [IMailMergeDataSourceRoot](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) based data sources. Unlike .NET and Java, C++ does not have a generally accepted cross-platform API for working with databases (like ADODB, ODBC, or JDBC). In order to work with a specific data source, you have to implement [IMailMergeDataSource](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) or [IMailMergeDataSourceRoot](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source_root) interface.
 
 If one of these rules is broken, you will get unexpected results or an exception may be thrown.
 

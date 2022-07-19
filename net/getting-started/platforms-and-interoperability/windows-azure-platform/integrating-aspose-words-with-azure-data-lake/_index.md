@@ -30,7 +30,7 @@ This topic demonstrates how to use Aspose.Words for building a document with a t
 
 {{% alert color="primary" %}}
 
-In this article, the document is created by the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class for demonstration purposes, which is not always convenient to generate reports. With Aspose.Words you can also generate reports using the [Mail Merge](/words/net/mail-merge-and-reporting/) and [LINQ Reporting Engine](/words/net/linq-reporting-engine/) features.
+In this article, the document is created by the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class for demonstration purposes, which is not always convenient to generate reports. With Aspose.Words you can also generate reports using the [Mail Merge](/words/net/mail-merge-and-reporting/) and [LINQ Reporting Engine](/words/net/linq-reporting-engine/) features.
 
 {{% /alert %}}
 
@@ -239,7 +239,7 @@ REFERENCE ASSEMBLY [Aspose.Words];
 OUTPUT @test TO "/output/Customers_AW.docx" USING new AsposeWordsOutputterUSql.AsposeWordsOutputer(Aspose.Words.SaveFormat.Docx);
 {{< /highlight >}}
 
-You can output a document using various formats appropriate for a particular project, such as Docx, Doc, Pdf, Rtf, Text, Jpeg, and others. For details, see the [SaveFormat](https://apireference.aspose.com/words/net/aspose.words/saveformat) enumeration.
+You can output a document using various formats appropriate for a particular project, such as Docx, Doc, Pdf, Rtf, Text, Jpeg, and others. For details, see the [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat) enumeration.
 
 {{% alert color="primary" %}}
 

@@ -12,7 +12,7 @@ url: /net/applying-formatting/
 ## Applying Formatting to Table, Row and Cell
 
 Each element of a table can be applied with different formatting. For instance, table formatting will be applied over the entire table while row formatting will only affect particular rows etc.
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://apireference.aspose.com/words/net/aspose.words.tables/table), [RowFormat](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat) and [CellFormat](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat) nodes to set formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/net/aspose.words.tables/table), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat) and [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat) nodes to set formatting.
 
 ### Applying Formatting on the Table Level
 
@@ -41,7 +41,7 @@ Note that before you apply table properties there must be at least one row prese
 
 ### Applying Formatting on the Row Level
 
-Formatting on the row level can be controlled using the [RowFormat](https://apireference.aspose.com/words/net/aspose.words.tables/row/properties/rowformat) property of the Row. 
+Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/row/properties/rowformat) property of the Row. 
 
 ![formatting-row-level-aspose-words-net](applying-formatting-3.png)
 
@@ -52,7 +52,7 @@ Below example shows how to modify the formatting of a table row. You can downloa
 
 ### Applying Formatting on the Cell Level
 
-Formatting on the cell level is controlled using the [CellFormat](https://apireference.aspose.com/words/net/aspose.words.tables/cell/properties/cellformat) property of the Cell. 
+Formatting on the cell level is controlled using the [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cell/properties/cellformat) property of the Cell. 
 
 ![formatting-cell-level-aspose-words-net](applying-formatting-4.png)
 
@@ -72,7 +72,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 ### Specifying Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height) and [RowFormat.HeightRule](https://apireference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule) properties of the given [Row](https://apireference.aspose.com/words/net/aspose.words.tables/row/properties/index).
+The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/properties/height) and [RowFormat.HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/properties/heightrule) properties of the given [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/properties/index).
 
 |HeightRule Value|Description|
 | :- | :- |
@@ -148,13 +148,13 @@ The cells in the above table can be described as such:
 - The second cell is specified as taking up 20% of the available space in the table. This means if the table size was changed, the width of this cell should change as well to reflect this.
 - The third cell is defined as auto or “width not defined”. This means the width of the cell is calculated using the other size information of the table. Normally such a cell will take up the remaining space in the table.
 
-In Aspose.Words the sizing modes described above can be found under the [PreferredWidthType](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidthtype) enumeration and are set using the [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) property and [CellFormat.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth) property.
+In Aspose.Words the sizing modes described above can be found under the [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype) enumeration and are set using the [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) property and [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth) property.
 
-The appropriate preferred width type and value is set by using the methods of the [PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth) class. For instance, to specify a width from points you would use the [PreferredWidth.FromPoints](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/methods/frompoints) method. To specify a percentage width you would use [PreferredWidth.FromPercent](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/methods/frompercent). Finally to specify auto or “no preferred width” you would use [PreferredWidth.Auto](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/fields/auto).
+The appropriate preferred width type and value is set by using the methods of the [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth) class. For instance, to specify a width from points you would use the [PreferredWidth.FromPoints](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/methods/frompoints) method. To specify a percentage width you would use [PreferredWidth.FromPercent](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/methods/frompercent). Finally to specify auto or “no preferred width” you would use [PreferredWidth.Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/fields/auto).
 
 #### Specifying a Preferred Width on a Table in Aspose.Words
 
-Using the [Table.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The code example given below shows how to set a table to auto fit to 50% of the page width.
+Using the [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/preferredwidth) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The code example given below shows how to set a table to auto fit to 50% of the page width.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AutoFitToPageWidth.cs" >}}
 
@@ -162,19 +162,19 @@ Before you can use preferred widths on a table you must make sure that the table
 
 #### Specifying Preferred Width on a Cell
 
-Using the [CellFormat.PreferredWidth](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth) property on a given cell will adjust its preferred width. Below example shows how to set the different preferred width settings.
+Using the [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/properties/preferredwidth) property on a given cell will adjust its preferred width. Below example shows how to set the different preferred width settings.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-SetPreferredWidthSettings.cs" >}}
 
 #### Finding Preferred Width Type and Value of a Table or Cell
 
-You can use [PreferredWidth.Type](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/type) and [PreferredWidth.Value](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/value) properties to find the preferred width details of the desired table or cell. Below example shows how to Retrieves the preferred width type of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+You can use [PreferredWidth.Type](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/type) and [PreferredWidth.Value](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/properties/value) properties to find the preferred width details of the desired table or cell. Below example shows how to Retrieves the preferred width type of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-RetrievePreferredWidthType.cs" >}}
 
 #### Allowing AutoFit
 
-The [Table.AllowAutoFit](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/allowautofit) property enables cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. Below example shows how to set a table to shrink or grow each cell to accommodate its contents.
+The [Table.AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/allowautofit) property enables cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. Below example shows how to set a table to shrink or grow each cell to accommodate its contents.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cs" >}}
 
@@ -182,9 +182,9 @@ The [Table.AllowAutoFit](https://apireference.aspose.com/words/net/aspose.words.
 
 In Aspose.Words the CellFormat object also provides a width property. This property is mainly leftover from previous versions, however, it is still useful as a way to simplify setting a cell’s width. This property now acts differently depending on which of the other width properties already exist on the table:
 
-- If a cell has a preferred width of [PreferredWidthType.Auto](https://apireference.aspose.com/words/net/aspose.words.tables/preferredwidthtype) type (no preferred width set) then the value from the [CellFormat.Width](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) is copied over and becomes the preferred width of the cell (in points).
-- If a cell has a cell preferred width of PreferredWidthType.Percent then any changes to [CellFormat.Width](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) is ignored.
-- If a cell already has a preferred width of type PreferredWidthType.Points than any changes to CellFormat.Width is ignored. That is, any changes to the width property are not updated in preferred width and should be applied to the preferred width instead.* If the table has Table.AllowAutoFit enabled then any change in [CellFormat.Width](https://apireference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) value is ignored and the cell is fitted to its contents instead.
+- If a cell has a preferred width of [PreferredWidthType.Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype) type (no preferred width set) then the value from the [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) is copied over and becomes the preferred width of the cell (in points).
+- If a cell has a cell preferred width of PreferredWidthType.Percent then any changes to [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) is ignored.
+- If a cell already has a preferred width of type PreferredWidthType.Points than any changes to CellFormat.Width is ignored. That is, any changes to the width property are not updated in preferred width and should be applied to the preferred width instead.* If the table has Table.AllowAutoFit enabled then any change in [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/properties/width) value is ignored and the cell is fitted to its contents instead.
 
 #### The Order of Precedence during Cell Width Calculations
 
@@ -217,7 +217,7 @@ Currently, you cannot create new table styles. You can only apply in-built table
 
 ### Applying a Table Style
 
-In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the [TableStyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration and are applied by using [Table.StyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions) property. The [TableStyleOptions](https://apireference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration allows a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
+In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration and are applied by using [Table.StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions) property. The [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions) enumeration allows a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-BuildTableWithStyle.cs" >}}
 
@@ -251,10 +251,10 @@ The following code example shows how to get the position of the floating table.
 
 Aspose.Words API provides the following properties to set the position of the floating table in the word document:
 
-- [RelativeHorizontalAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/relativehorizontalalignment)
-- [AbsoluteHorizontalDistance](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/absolutehorizontaldistance)
-- [RelativeVerticalAlignment](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/relativeverticalalignment)
-- [AbsoluteVerticalDistance](https://apireference.aspose.com/words/net/aspose.words.tables/table/properties/absoluteverticaldistance)
+- [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/relativehorizontalalignment)
+- [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/absolutehorizontaldistance)
+- [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/relativeverticalalignment)
+- [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/absoluteverticaldistance)
 
 The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
 

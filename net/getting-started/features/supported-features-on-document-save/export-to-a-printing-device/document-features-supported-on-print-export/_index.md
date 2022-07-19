@@ -39,8 +39,8 @@ See the following links in the documentation for further information:
 
 - [Save a Document](/words/net/save-a-document/)
 - [Rendering](/words/net/rendering/)
-- [ImageSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/ImageSaveOptions)
-- [SvgSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/svgsaveoptions)
+- [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ImageSaveOptions)
+- [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions)
 
 {{% /alert %}}
 

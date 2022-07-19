@@ -17,7 +17,7 @@ On this page we will look at how to insert images into a Word document using Asp
 
 {{< tab tabNum="1" >}}
 
-[DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) is a powerful class that is associated with a [Document](https://apireference.aspose.com/words/net/aspose.words/document) and allows to build a dynamic document from scratch or  add new elements to an existing document. It provides methods to insert text, paragraphs, lists, tables, images, and other contents, as well as specification of font, paragraph, section formatting, and other things.
+[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) is a powerful class that is associated with a [Document](https://reference.aspose.com/words/net/aspose.words/document) and allows to build a dynamic document from scratch or  add new elements to an existing document. It provides methods to insert text, paragraphs, lists, tables, images, and other contents, as well as specification of font, paragraph, section formatting, and other things.
 
 The DocumentBuilder complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks such as inserting text, tables, fields, and hyperlinks.
 

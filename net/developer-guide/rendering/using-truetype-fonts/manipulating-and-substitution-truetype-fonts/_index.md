@@ -20,7 +20,7 @@ Note that the font in the document represents an entity, such as family name, st
 
 ## Font Manipulation and Performance Issues
 
-All available font manipulation mechanisms are contained in the [FontSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontsettings) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
+All available font manipulation mechanisms are contained in the [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
 Fonts are parsed in several steps:
 
@@ -55,7 +55,7 @@ A text in a document can be formatted with various fonts, such as Arial, Times N
 However, there are situations when the exact font cannot be found and Aspose.Words must substitute it for a similar font instead. Aspose.Words selects the font according to the following process:
 1. Aspose.Words tries to find a font among the available font sources with an exact font name.
 1. Aspose.Words tries to find the required font among the fonts embedded in the original document. Some document formats such as DOCX can contain embedded fonts.
-1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo) class, which specifies the font information.
+1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo) class, which specifies the font information.
 1. If Aspose.Words is unable to locate the defined font, and **AltName** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
    1. First, Aspose.Words tries to process the font name to get the substitution, particularly it tries to remove suffixes with "-" and "," separators.<br>
       If this substitution rule takes place, a "Font '&lt;OriginalFont&gt;' has not been found. Using '&lt;SubstitutionFont&gt;' font instead. Reason: font name substitution." warning appears.<br>
@@ -98,7 +98,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
             fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
       {{< /highlight >}}
       If **FontInfo** is not available for the missing font, then the process stops.<br>
-   1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://apireference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/properties/defaultfontname) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
+   1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/properties/defaultfontname) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ If **FontInfo** is available, the *FontInfo substitution rule* will always reso
 
 ## How to Recognize That the Font Was Replaced
 
-Sometimes, it may be unclear why the document layout has changed, or why some font does not look as expected. In such cases, font substitution warnings messages implemented by the [IWarningCallback](https://apireference.aspose.com/words/net/aspose.words/iwarningcallback) interface come to rescue. They have the [FontSubstitution](https://apireference.aspose.com/words/net/aspose.words/warningtype) warning type and the standard description text format, "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: <Reason>", with the following reasons:
+Sometimes, it may be unclear why the document layout has changed, or why some font does not look as expected. In such cases, font substitution warnings messages implemented by the [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback) interface come to rescue. They have the [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype) warning type and the standard description text format, "Font '<OriginalFont>' has not been found. Using '<SubstitutionFont>' font instead. Reason: <Reason>", with the following reasons:
 
-- "alternative name from document" – for substitution by [AltName](https://apireference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
+- "alternative name from document" – for substitution by [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
 - "fontconfig substitution" – for substitution by font config rule
 - "table substitution" – for substitution by table rule
 - "font info substitution" – for substitution by font info rule
@@ -133,7 +133,7 @@ Sometimes, it may be unclear why the document layout has changed, or why some fo
 
 There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
 
-There is a [BuildAutomatic](https://apireference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/methods/buildautomatic) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings) class. This class specifies settings of the font fallback mechanism . You can get an instance of the **FontFallbackSettings** class as follows:
+There is a [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/methods/buildautomatic) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings) class. This class specifies settings of the font fallback mechanism . You can get an instance of the **FontFallbackSettings** class as follows:
 
 **.NET**
 
@@ -195,7 +195,7 @@ In the above code example, the following XML file is used:
 
 ## Predefined Font FallBack Settings for Google Noto Fonts
 
-Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://apireference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/methods/loadnotofallbacksettings) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
+Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/methods/loadnotofallbacksettings) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

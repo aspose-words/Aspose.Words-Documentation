@@ -23,7 +23,7 @@ The existing issue with Windows Metafile is that it is not supported by most non
 
 ## Controlling the Aspose.Words Metafile Player
 
-The [MetafileRenderingOptions](https://apireference.aspose.com/words/java/com.aspose.words/MetafileRenderingOptions) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://apireference.aspose.com/words/java/com.aspose.words/MetafileRenderingMode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://apireference.aspose.com/words/java/com.aspose.words/imagesaveoptions#MetafileRenderingOptions) property).
+The [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/MetafileRenderingOptions) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://reference.aspose.com/words/java/com.aspose.words/MetafileRenderingMode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions#MetafileRenderingOptions) property).
 
 ## Supporting Raster Operations
 
@@ -39,7 +39,7 @@ There are binary and ternary raster operations:
 
 <img src="handling-windows-metafiles-2.png" alt="handling-windows-metafiles-aspose-words-java-2" style="width:650px"/>
 
-Raster operations can not be converted to vector graphics directly. Aspose.Words emulates raster operations by partially rasterizing the device surface affected by raster operations. For this purpose, the [EmulateRasterOperations](https://apireference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions#EmulateRasterOperations) property is used.
+Raster operations can not be converted to vector graphics directly. Aspose.Words emulates raster operations by partially rasterizing the device surface affected by raster operations. For this purpose, the [EmulateRasterOperations](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions#EmulateRasterOperations) property is used.
 
 {{% alert color="primary" %}}
 

@@ -36,14 +36,14 @@ The Aspose.Words model is based on Word document formats. In these formats bookm
 See the following links in the documentation for further information:
 
 - [Working with Bookmarks](/words/net/working-with-bookmarks/)
-- [Range.Bookmarks](https://apireference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
-- [Bookmark](https://apireference.aspose.com/words/net/aspose.words/bookmark)
+- [Range.Bookmarks](https://reference.aspose.com/words/net/aspose.words/range/properties/bookmarks)
+- [Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Bookmark Start |Yes | |- [BookmarkStart](https://apireference.aspose.com/words/net/aspose.words/bookmarkstart)|
-|Bookmark End |Yes | |- [BookmarkEnd](https://apireference.aspose.com/words/net/aspose.words/bookmarkend)|
-|Bookmark Name |Yes | |- [Bookmark.Name](https://apireference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
+|Bookmark Start |Yes | |- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart)|
+|Bookmark End |Yes | |- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend)|
+|Bookmark Name |Yes | |- [Bookmark.Name](https://reference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
 |Bookmark Table Columns |N/A | | |
 
 ## Comments
@@ -65,14 +65,14 @@ All three comment nodes are related through the use of the ID properties on each
 See the following links in the documentation for further information:
 
 - [How to Extract or Remove Comments](/words/net/working-with-comments/)
-- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)
-- [Comment.Id](https://apireference.aspose.com/words/net/aspose.words/comment/properties/id)
+- [Comment](https://reference.aspose.com/words/net/aspose.words/comment)
+- [Comment.Id](https://reference.aspose.com/words/net/aspose.words/comment/properties/id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment |Yes | |- [Comment](https://apireference.aspose.com/words/net/aspose.words/comment)|
+|Comment |Yes | |- [Comment](https://reference.aspose.com/words/net/aspose.words/comment)|
 |Comment Range |N/A | | |
-|Author |Yes | |- [Comment.Author](https://apireference.aspose.com/words/net/aspose.words/comment/properties/author)|
+|Author |Yes | |- [Comment.Author](https://reference.aspose.com/words/net/aspose.words/comment/properties/author)|
 |Date |Yes | |- **Comment.Date**|
 |Initial |N/A | | |
 

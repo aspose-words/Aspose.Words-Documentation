@@ -17,7 +17,7 @@ This article explains how to use Aspose.Words to select a restriction type, how 
 
 ## Select Editing Restriction Type
 
-Aspose.Words allows you to control the way you restrict the content using the [ProtectionType](https://apireference.aspose.com/words/java/com.aspose.words/ProtectionType) enumeration parameter. This will enable you to select an exact type of protection such as the following:
+Aspose.Words allows you to control the way you restrict the content using the [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/ProtectionType) enumeration parameter. This will enable you to select an exact type of protection such as the following:
 
 * AllowOnlyComments
 * AllowOnlyFormFields
@@ -31,7 +31,7 @@ If you did not set a password when choosing the security type, other users can s
 
 {{% alert color="primary" %}}
 
-Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://apireference.aspose.com/words/java/com.aspose.words/Document#unprotect()) method shows just that.
+Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/Document#unprotect()) method shows just that.
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ Note that the password being set is just a property in a document that can be re
 
 Adding protection to your document is a simple process, as all you need to do is apply one of the protection methods detailed in this section.
 
-Aspose.Words allows you to protect your documents from changes using the [Protect](https://apireference.aspose.com/words/java/com.aspose.words/Document#protect(int)) method. This method is not a security feature and does not encrypt a document.
+Aspose.Words allows you to protect your documents from changes using the [Protect](https://reference.aspose.com/words/java/com.aspose.words/Document#protect(int)) method. This method is not a security feature and does not encrypt a document.
 
 {{% alert color="primary" %}}
 
@@ -60,7 +60,7 @@ The following code example shows how to restrict editing in a document so only e
 
 ## Remove Document Protection
 
-Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [Unprotect](https://apireference.aspose.com/words/java/com.aspose.words/Document#unprotect()) method. Both removing ways have no difference.
+Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [Unprotect](https://reference.aspose.com/words/java/com.aspose.words/Document#unprotect()) method. Both removing ways have no difference.
 
 The following code example shows how to remove protection from your document:
 
@@ -70,7 +70,7 @@ The following code example shows how to remove protection from your document:
 
 You can restrict editing of your document and at the same time allow changes to selected parts of it. So, anyone who opens your document will be able to access these unrestricted parts and make changes to the content.
 
-Aspose.Words allows you to mark the parts that can be changed in your document using the [StartEditableRange](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startEditableRange()) and [EndEditableRange](https://apireference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endEditableRange()) methods.
+Aspose.Words allows you to mark the parts that can be changed in your document using the [StartEditableRange](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startEditableRange()) and [EndEditableRange](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endEditableRange()) methods.
 
 The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 

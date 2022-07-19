@@ -17,7 +17,7 @@ On this page we will look at how to create and add a paragraph style.
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, you can specify a paragraph style using the [Font](https://apireference.aspose.com/words/net/aspose.words/font) class.
+In Aspose.Words, you can specify a paragraph style using the [Font](https://reference.aspose.com/words/net/aspose.words/font) class.
 
 The following code example shows how to create and add a paragraph style:
 

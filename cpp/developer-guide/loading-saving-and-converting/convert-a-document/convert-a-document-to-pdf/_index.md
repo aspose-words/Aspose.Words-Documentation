@@ -27,8 +27,8 @@ Note that the number of pages in a document affects the conversion time.
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
-1. Load your document into a [Document](https://apireference.aspose.com/words/cpp/class/aspose.words.document) object using one of its constructors by specifying the document name with its format extension.
-1. Invoke one of the [Document.Save](https://apireference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
+1. Load your document into a [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) object using one of its constructors by specifying the document name with its format extension.
+1. Invoke one of the [Document.Save](https://reference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
 The following code example shows how to convert a document from DOCX into PDF using the Save method:
 
@@ -38,7 +38,7 @@ You can download the template file of this example from [Aspose.Words GitHub](h
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the [PdfSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options) class, containing properties that determine how the PDF output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the [PdfSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options) class, containing properties that determine how the PDF output will be displayed.
 
 Note that with the same technique, you can convert any flow-layout format document to PDF format.
 
@@ -46,9 +46,9 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 ### Convert to Different PDF Standards {#converting-to-various-pdf-standards}
 
-Aspose.Words provides the [PdfCompliace](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#pdfcompliance)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
+Aspose.Words provides the [PdfCompliace](https://reference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#pdfcompliance)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
-The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://apireference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options) with compliance to PDF17:
+The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options) with compliance to PDF17:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ConversionToPDF17.cpp" >}}
 

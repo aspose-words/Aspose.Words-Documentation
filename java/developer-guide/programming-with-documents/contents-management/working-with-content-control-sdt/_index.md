@@ -90,7 +90,7 @@ Note that only Linked and Character styles can be applied to content control. An
 
 ## Working with Repeating Section Content Control
 
-The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://apireference.aspose.com/words/java/com.aspose.words/SdtType) provides REPEATING_SECTION_ITEM member. The following code example demonstrates how to bind a repeating section content control to a table.
+The repeating section content control allows repeating the content contained within it. Using Aspose.Words, the structured document tag nodes of the repeating section and repeating section item types can be created and for this purpose, [SdtType enumeration type](https://reference.aspose.com/words/java/com.aspose.words/SdtType) provides REPEATING_SECTION_ITEM member. The following code example demonstrates how to bind a repeating section content control to a table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-CreatingTableRepeatingSectionMappedToCustomXmlPart.java" >}}
 

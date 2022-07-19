@@ -11,11 +11,11 @@ keywords: "create a document c#, load a document c#, create a blank document c#,
 weight: 10
 ---
 
-Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://apireference.aspose.com/words/net/aspose.words/loadformat) enumeration.
+Almost any task that you want to perform with Aspose.Words involves loading a document. The Document class represents a document loaded into memory. The document has several overloaded constructors allowing you to create a blank document or to load it from a file or stream. The document can be loaded in any load format supported by Aspose.Words. For the list of all supported load formats, see the [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat) enumeration.
 
 ## Create a New Document {#create-a-new-document}
 
-We will call the [Document](https://apireference.aspose.com/words/net/aspose.words/document/constructors/main) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://apireference.aspose.com/words/net/aspose.words/documentbuilder) class to add document contents.
+We will call the [Document](https://reference.aspose.com/words/net/aspose.words/document/constructors/main) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class to add document contents.
 
 The following code example shows how to create a document using the document builder:
 
@@ -26,13 +26,13 @@ The following code example shows how to create a document using the document bui
 Note the default values:
 
 - A blank document contains one section with default parameters, one empty paragraph, some document styles. Actually this document is the same as the result of creating the “New document” in Microsoft Word.
-- The document paper size is [PaperSize](https://apireference.aspose.com/words/net/aspose.words/papersize).**Letter**.
+- The document paper size is [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize).**Letter**.
 
 {{% /alert %}}
 
 ## Load a Document {#load-a-document}
 
-To load an existing document in any of the [LoadFormat](https://apireference.aspose.com/words/net/aspose.words/loadformat) formats, pass the file name or the stream into one of the Document constructors. The format of the loaded document is automatically determined by its extension.
+To load an existing document in any of the [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat) formats, pass the file name or the stream into one of the Document constructors. The format of the loaded document is automatically determined by its extension.
 
 ### Load from a File {#load-from-a-file}
 

@@ -219,7 +219,7 @@ A field in a document can have formatting switches that specify how the resultin
 
 #### Date and Number Formatting in Fields
 
-When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://apireference.aspose.com/words/net/aspose.words.fields/fieldoptions) class which allows further control over which culture is used during field update.
+When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions) class which allows further control over which culture is used during field update.
 
 - By default the FieldOptions.FieldUpdateCultureSource property is set to FieldUpdateCultureSource.CurrentThread which formats fields using the current thread culture.
 - This property can be set to FieldUpdateCultureSource.FieldCode so the language set from the field code of the field is used for formatting instead.
@@ -237,7 +237,7 @@ Using the current culture to format fields allows a system to easily and consist
 
 On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
-The [Document](https://apireference.aspose.com/words/net/aspose.words/document) class provides a [FieldOptions](https://apireference.aspose.com/words/net/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
+The [Document](https://reference.aspose.com/words/net/aspose.words/document) class provides a [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}
 

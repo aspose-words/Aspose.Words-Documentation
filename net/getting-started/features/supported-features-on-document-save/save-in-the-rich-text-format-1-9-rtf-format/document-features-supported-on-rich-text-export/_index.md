@@ -16,8 +16,8 @@ There are save options available to export the RTF in a compact size and to acco
 See the following links in the documentation for further information:
 
 - [Save a Document](/words/net/save-a-document/)
-- [RtfSaveOptions](https://apireference.aspose.com/words/net/aspose.words.saving/RtfSaveOptions)
-- [RtfSaveOptions.ExportCompactSize](https://apireference.aspose.com/words/net/aspose.words.saving/rtfsaveoptions/properties/exportcompactsize)
+- [RtfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/RtfSaveOptions)
+- [RtfSaveOptions.ExportCompactSize](https://reference.aspose.com/words/net/aspose.words.saving/rtfsaveoptions/properties/exportcompactsize)
 
 [Jump to this location in the import section](/words/net/document-features-supported-on-rich-text-import/)
 
@@ -28,7 +28,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |Yes | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. |- [Document.UpdateWordCount](https://apireference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. |- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
 |Custom Properties |Yes | | |
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |Planned | | |

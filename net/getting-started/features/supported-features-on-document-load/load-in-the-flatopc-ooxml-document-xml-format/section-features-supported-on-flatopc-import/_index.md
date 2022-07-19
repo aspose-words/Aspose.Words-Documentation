@@ -13,8 +13,8 @@ url: /net/section-features-supported-on-flatopc-import/
 
 Sections allow you to divide parts of the document so page formatting and headers and footers apply only to that part of the document. This allows for example different parts of the document to completley different page sizes or page orientations. A section is represented as a Section node in the Aspose.Words model. Aspose.Words supports the creation and deletion of sections in a document, along with accessing and modifying all section properties. See the following links in the documentation for further information:
 
-- [Section](https://apireference.aspose.com/words/net/aspose.words/section)
-- [Document.Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections)
+- [Section](https://reference.aspose.com/words/net/aspose.words/section)
+- [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/properties/sections)
 
 {{% /alert %}}
 
@@ -31,10 +31,10 @@ Each Header and Footer in a document is stored per section. Each header or foote
 
 See the following links in the documentation for further information:
 
-- [Section.HeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
-- [PageSetup.DifferentFirstPageHeaderFooter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/differentfirstpageheaderfooter)
+- [Section.HeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/properties/headersfooters)
+- [PageSetup.DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/differentfirstpageheaderfooter)
 - **PageSetup.OddAndEvenPageHeaderFooter**
-- [HeaderFooterCollection.LinkToPrevious](https://apireference.aspose.com/words/net/aspose.words.headerfootercollection/linktoprevious/methods/1)
+- [HeaderFooterCollection.LinkToPrevious](https://reference.aspose.com/words/net/aspose.words.headerfootercollection/linktoprevious/methods/1)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -46,8 +46,8 @@ See the following links in the documentation for further information:
 
 See the following links in the documentation for further information:
 
-- [PageSetup.SectionStart](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
-- [DocumentBuilder.InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
+- [PageSetup.SectionStart](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart)
+- [DocumentBuilder.InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -61,7 +61,7 @@ See the following links in the documentation for further information:
 
 See the following link in the documentation for further information:
 
-- [PageSetup.TextColumns](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/textcolumns)
+- [PageSetup.TextColumns](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/textcolumns)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -71,10 +71,10 @@ See the following link in the documentation for further information:
 
 See the following links in the documentation for further information:
 
-- [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup)
-- [PageSetup.LeftMargin](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
-- [PageSetup.FooterDistance](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
-- [PageSetup.Gutter](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)
+- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup)
+- [PageSetup.LeftMargin](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/leftmargin)
+- [PageSetup.FooterDistance](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/footerdistance)
+- [PageSetup.Gutter](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/gutter)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -85,8 +85,8 @@ See the following links in the documentation for further information:
 See the following links in the documentation for further information:
 
 - **PageSetup.PageNumberingStyle**
-- [PageSetup.PageStartingNumber](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/pagestartingnumber)
-- [PageSetup.RestartPageNumbering](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/restartpagenumbering)
+- [PageSetup.PageStartingNumber](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/pagestartingnumber)
+- [PageSetup.RestartPageNumbering](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/restartpagenumbering)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -96,14 +96,14 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Right to Left Section|Yes| |- [PageSetup.Bidi](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/bidi)|
-|Line Numbering|Yes| |<p>- [PageSetup.LineNumberCountBy](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumbercountby)</p><p>- [PageSetup.LineNumberDistanceFromText](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberdistancefromtext)</p><p>- [PageSetup.LineNumberRestartMode](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberrestartmode)</p><p>- [PageSetup.LineStartingNumber](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/linestartingnumber)</p>|
-|Paper Source|Yes| |<p>- [PageSetup.FirstPageTray](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray)</p><p>- **PageSetup.OtherPageTray**</p>|
-|Paper Size|Yes| |- [PageSetup.PaperSize](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/papersize)|
-|Orientation|Yes| |- [PageSetup.Orientation](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation)|
+|Right to Left Section|Yes| |- [PageSetup.Bidi](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/bidi)|
+|Line Numbering|Yes| |<p>- [PageSetup.LineNumberCountBy](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumbercountby)</p><p>- [PageSetup.LineNumberDistanceFromText](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberdistancefromtext)</p><p>- [PageSetup.LineNumberRestartMode](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberrestartmode)</p><p>- [PageSetup.LineStartingNumber](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linestartingnumber)</p>|
+|Paper Source|Yes| |<p>- [PageSetup.FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray)</p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Size|Yes| |- [PageSetup.PaperSize](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/papersize)|
+|Orientation|Yes| |- [PageSetup.Orientation](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation)|
 |Protection|Yes| |- **Section.ProtectedForForms**|
 |Text Direction|Yes| | |
-|Vertical Alignment|Yes| |- [PageSetup.VerticalAlignment](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/verticalalignment)|
+|Vertical Alignment|Yes| |- [PageSetup.VerticalAlignment](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/verticalalignment)|
 |Asian Document Grid|Yes| | |
 
 ## Chapter Numbering
@@ -116,7 +116,7 @@ See the following links in the documentation for further information:
 
 See the following links in the documentation for further information:
 
-- [PageSetup.Borders](https://apireference.aspose.com/words/net/aspose.words/pagesetup/properties/borders)
+- [PageSetup.Borders](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/borders)
 - **PageSetup.PageBorderAppliesTo**
 - **PageSetup.BordersAlwaysInFront**
 - **PageSetup.BordersSurroundsHeader**
