@@ -5,7 +5,7 @@ articleTitle: Working with Documents from External Sources
 linktitle: Working with Documents from External Sources
 description: "How to load documents from external sources in C#. Load PDF, DOCX, DOC, RTF, ODT, EPUB, HTML and other files from SharePoint or database for further processing using C#."
 type: docs
-weight: 10
+weight: 40
 url: /net/working-with-documents-from-external-sources/
 ---
 
