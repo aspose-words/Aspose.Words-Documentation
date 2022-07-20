@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Document Object Model (DOM) in C++
 second_title: Aspose.Words for C++
 articleTitle: Aspose.Words Document Object Model (DOM)
@@ -84,7 +84,7 @@ A node always belongs to a particular document, even if it has been just created
 
 {{% alert color="primary" %}}
 
-The [Node.Document]https://reference.aspose.com/words/cpp/class/aspose.words.node#a5ae4d3ec96cbace25092593c9514702e) property returns the document to which the node belongs.
+The [Node.Document](https://reference.aspose.com/words/cpp/class/aspose.words.node#a5ae4d3ec96cbace25092593c9514702e) property returns the document to which the node belongs.
 
 {{% /alert %}}
 
