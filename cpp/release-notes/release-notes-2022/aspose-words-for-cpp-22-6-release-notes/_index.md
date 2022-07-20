@@ -115,7 +115,7 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 
 ## Public API and Backward Incompatible Changes
 
-This section lists public API changes that were introduced in Aspose.Words 22.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
+This section lists public API changes that were introduced in Aspose.Words 22.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
 ### Added new public constants to RevisionColor enum
 
