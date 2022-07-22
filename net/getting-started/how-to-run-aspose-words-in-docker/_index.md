@@ -171,6 +171,7 @@ FROM mcr.microsoft.com/dotnet/core/runtime:2.2 AS runtime
 WORKDIR /app
 \# libfontconfig1 is required to properly work with fonts in Linux.
 RUN apt-get update && apt-get install -y libfontconfig1
+RUN apt install libharfbuzz-icu0
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
@@ -192,6 +193,7 @@ FROM mcr.microsoft.com/dotnet/core/runtime:2.2-bionic AS runtime
 WORKDIR /app
 \# libfontconfig1 is required to properly work with fonts in Linux.
 RUN apt-get update && apt-get install -y libfontconfig1
+RUN apt install libharfbuzz-icu0
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
@@ -212,7 +214,7 @@ RUN dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/core/runtime:2.2-alpine3.9 AS runtime
 WORKDIR /app
 \# fontconfig is required to properly work with fonts in Linux.
-RUN apk update && apk upgrade && apk add fontconfig
+RUN apk update && apk upgrade && apk add fontconfig && apk add harfbuzz
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
