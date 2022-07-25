@@ -216,14 +216,14 @@ public void Clear()
 Use Case:
 {{< highlight csharp >}}
 Document doc = new Document ("DocumentWithShape.docx");
-Shape shape = doc.FirstSection.Body.Shapes[0];
+Shape shape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 // Checking whether the shadow effect is visible and whether the preset type is Shadow2.
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.ShapeType == ShapeType.Shadow2)
-     // Setting the preset shadow type to Shadow7.
-    shape.ShadowFormat.ShapeType = ShapeType.Shadow7;
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
+    // Setting the preset shadow type to Shadow7.
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
 // Checking whether the shadow is customized, i.e. the preset type is ShadowMixed.
-if (shape.ShadowFormat.ShapeType == ShapeType.ShadowMixed)
-     // Clearing ShadowFormat.
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
+    // Clearing ShadowFormat.
     shape.ShadowFormat.Clear();
 {{< /highlight >}}
 	
