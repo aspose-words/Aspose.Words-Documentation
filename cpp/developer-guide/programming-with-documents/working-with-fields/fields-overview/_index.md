@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fields Overview in C++
 second_title: Aspose.Words for C++
 articleTitle: Fields Overview
@@ -129,6 +129,7 @@ The calculation of the following fields is supported in the current version of A
 - COMPARE
 - CREATEDATE
 - DATE
+- DATABASE
 - DOCPROPERTY
 - DOCVARIABLE
 - GREETINGLINE

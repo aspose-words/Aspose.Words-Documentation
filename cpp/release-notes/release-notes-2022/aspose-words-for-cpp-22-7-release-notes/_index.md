@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 22.7 Release Notes
 description: "Aspose.Words for C++ 22.7 Release Notes – learn about the latest updates and fixes."
 type: docs
-weight: 45
+weight: 40
 url: /cpp/aspose-words-for-cpp-22-7-release-notes/
 ---
 
@@ -366,19 +366,19 @@ Use Case:
 
     document->get_FieldOptions()->set_FieldDatabaseProvider(System::MakeObject<OleDbFieldDatabaseProvider>());
     document->UpdateFields();
-
+    
     class OleDbFieldDatabaseProvider : public IFieldDatabaseProvider
     {
         System::SharedPtr<Aspose::Words::Fields::FieldDatabaseDataTable> GetQueryResult(System::String fileName, System::String connection, System::String query, System::SharedPtr<Aspose::Words::Fields::FieldDatabase> field) override
         {
             auto connectionStringBuilder = System::MakeObject<OleDbConnectionStringBuilder>(connection);
             connectionStringBuilder->set_DataSource(fileName);
-
+    
             auto oleDbConnection = System::MakeObject<OleDbConnection>(connectionStringBuilder->ToString()))
             auto oleDbDataAdapter = System::MakeObject<OleDbDataAdapter>(query, oleDbConnection); 
             auto dataTable = System::MakeObject<DataTable>();
             oleDbDataAdapter->Fill(dataTable);
-
+    
             return FieldDatabaseDataTable->CreateFrom(dataTable);
         }
     }

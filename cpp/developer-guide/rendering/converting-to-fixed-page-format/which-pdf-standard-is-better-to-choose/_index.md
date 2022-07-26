@@ -36,3 +36,9 @@ Note that level A documents are accessible but take more space than level B/U do
 ## When to Use PDF/UA
 
 PDF/UA should be used if PDF consumers require it. Also it could be used if you just need the accessible PDF output, but it will take more space compared to regular PDF output.
+
+{{% alert color="primary" %}}
+
+It is important to note that PDF/UA-1 output will also be WCAG 2.0 and Section 508 compliant.
+
+{{% /alert %}}

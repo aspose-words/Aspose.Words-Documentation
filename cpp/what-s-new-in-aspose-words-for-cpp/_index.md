@@ -11,11 +11,13 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 22.5, 22.6
+## Aspose.Words for C++ 22.5, 22.6, 22.7
 
 Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
 
 Aspose.Words 22.6 expands the possibilities of converting PDF to other formats, as well as improve work with DrawingML and solid text fill effect.
+
+Aspose.Words 22.7 enhances the possibilities of working with rendering features, and also adds new features for working with HTML import and export to PDF.
 
 The API is enhanced for more flexible and convenient development.
 
@@ -37,19 +39,54 @@ The rendering of a border box around MathML formulas and font detection when ren
 
 DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
 
+#### Glyph outlines parsing for OpenType
+
+Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
+
+Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
+
+#### Set shape shadow formatting
+
+The ability to set the shadow formatting of the shape object has been provided by adding a new [ShadowFormat](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.shape_base#get_shadowformat) property.
+
 ### Loading and saving documents
+
+#### Load and convert PDF to fixed-page format without layout model
 
 The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
 
+#### New HTML import mode
+
+A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/cpp/namespace/aspose.words#htmlinsertoptions) enumeration.
+
+#### Convert to PDF/UA-1 compliant with WCAG 2.0
+
+Support for converting a document to PDF/UA-1 format, compliant with WCAG 2.0, has been added.
+
+So, if the customer has an accessible Word document and converts it to PDF/UA-1 via Aspose.Words mentioning the conversion specifics, then the output will be WCAG 2.0 compatible.
+
+WCAG or Web Content Accessibility Guidelines is a set of guidelines developed by W3C in collaboration with individuals and organizations all over the world. Now with Aspose.Words you can convert your document to the output PDF/UA-1 format, which is suitable to build WCAG 2.0 compliant PDF documents.
+
+It is worth noting that WCAG 2.0 has two additional requirements that are not specified in the PDF/UA-1 specification:
+
+- contrast requirements
+- requirements for tagging multimedia content
+
+But both requirements are not relevant to our case of converting from Word to PDF.
+
 ### Other
 
-Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented.
+* Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented.
+
+* Support of the DATABASE fields has been added. Using this type of field, you can, for example, show the results of a database query in a Microsoft Word table.
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 22.5 Release Notes](/words/cpp/aspose-words-for-cpp-22-5-release-notes/).
 
 Learn more about [Aspose.Words for C++ 22.6 Release Notes](/words/cpp/aspose-words-for-cpp-22-6-release-notes/).
+
+Learn more about [Aspose.Words for C++ 22.7 Release Notes](/words/cpp/aspose-words-for-cpp-22-7-release-notes/).
 
 {{% /alert %}}
 
