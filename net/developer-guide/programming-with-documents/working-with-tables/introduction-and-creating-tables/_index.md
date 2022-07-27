@@ -9,6 +9,18 @@ weight: 10
 url: /net/introduction-and-creating-tables/
 ---
 
+Tables are a common element found in word documents. They allow for large amounts of information to be organized and displayed cleanly in a grid like structure with rows and columns. They are also frequently used as a page layout tool, and a better alternative for displaying tabbed data (with tab stops) as they allow much better control over the design and layout of the content.
+
+You can lay out content which is to be kept in a fixed position by using a borderless table. While you would normally have plain text in a table, you can also put other content in cells, such as images or even other tables. This is a common example of a table found in a Microsoft Word document:
+
+![tables-overview-aspose-words-net-1](tables-overview-1.png)
+
+A table is comprised of elements such as **Cell**, **Row** and **Column**. These are concepts which are common to all tables in general whether they come from a Microsoft Word document or an HTML document.
+
+![tables-overview-aspose-words-net-2](tables-overview-2.png)
+
+Tables in Aspose.Words are fully supported. You are able to freely edit, change, add and remove tables. Rendering of tables with high fidelity is also supported.
+
 A table from any document loaded into Aspose.Words is imported as a Table node. A table can be found as a child of the main body of text, an inline story such as a comment or footnote, or within a cell as a nested table. Furthermore, tables can be nested inside other tables up to any depth.
 
 A **Table** node does not contain any real content - instead it is a container for other such nodes which make up the content:
@@ -196,7 +208,12 @@ All versions of Microsoft Word provide special commands for inserting and workin
 1. Click the Insert tab.
 1. Choose the Tables drop down menu.
 1. Select Insert Table.
+
+![tables-overview-aspose-words-net-3](tables-overview-3.png)
+
 1. Fill in the appropriate values and press Ok to insert the table.
+
+![tables-overview-aspose-words-net-4](tables-overview-4.png)
 
 ### Remove a Table or Table Elements in Microsoft Word
 
@@ -213,10 +230,15 @@ All versions of Microsoft Word provide special commands for inserting and workin
 1. The Layout tab should appear. Click this tab.
 1. Click the Delete drop down menu.
 1. Choose the menu item of the element you want to delete. For instance choosing Delete Table will remove the entire table from the document.
+
+![tables-overview-aspose-words-net-5](tables-overview-5.png)
+
    **Merging Cells in a Table in Microsoft Word**
 1. Select the cells to be merged by dragging the cursor over the cells.
 1. Right click on the selection.
 1. Select Merge Cells from the popup menu.
+
+![tables-overview-aspose-words-net-6](tables-overview-6.png)
 
 ### Use the AutoFit feature in Microsoft Word
 
@@ -224,7 +246,13 @@ All versions of Microsoft Word provide special commands for inserting and workin
 
 1. Right click anywhere inside the desired table.
 1. Select AutoFit from popup menu.
+
+![tables-overview-aspose-words-net-7](tables-overview-7.png)
+
 1. Select the desired autofit option
-   1. AutoFit to Contents fits the table around content.
-   1. AutoFit to Window resizes the table so it fills the available page width between the left and right margins.
-   1. Fixed Column Width sets each column width to an absolute value. This means even if the content within the cells were to change the width of each column in the table will stay the same.
+
+![tables-overview-aspose-words-java-8](tables-overview-8.png)
+
+1. AutoFit to Contents fits the table around content.
+1. AutoFit to Window resizes the table so it fills the available page width between the left and right margins.
+1. Fixed Column Width sets each column width to an absolute value. This means even if the content within the cells were to change the width of each column in the table will stay the same.
