@@ -158,6 +158,7 @@ There are 143 improvements and fixes in this regular monthly release. The most n
 ## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
 
 |Key|Summary|Category|
+| :- | :- | :- |
 |WORDSNET-21008|PDF is losing the table cell style after DOCX to PDF conversion|Bug
 |WORDSNET-15723|Table border is lost after conversion from DOCX to PDF|Bug
 |WORDSNET-16850|DOC to PDF Number of Pages Decreased|Bug
