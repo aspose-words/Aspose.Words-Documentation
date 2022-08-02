@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 22.8](https://www.nu
 There are 143 improvements and fixes in this regular monthly release. The most notable are:
 
 - AZW3 (also called KF8) file format is now supported for import and export.
-- Improved font substitution for chess symbols.
+- Improved font substitution for symbols.
 - Improved the rotation algorithm of axis labels of the charts.
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
