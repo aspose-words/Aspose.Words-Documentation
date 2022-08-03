@@ -196,15 +196,14 @@ SaveFormat.Azw3
 
 The use cases for saving a document to AZW3 file format are as follows:
 {{< highlight csharp >}}
-Document doc = new Document("test.docx");
-doc.Save("test.azw3");
+Document doc = new Document("in.docx");
+doc.Save("out.azw3");
 {{< /highlight >}}
-
 or
 {{< highlight csharp >}}
-Document doc = new Document("test.docx");
+Document doc = new Document("in.docx");
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Azw3);
-doc.Save("test.azw3", options);
+doc.Save("out.azw3", options);
 {{< /highlight >}}
 
 ### Added warnings for accessibility issues when saving to PDFA and PDFUA
