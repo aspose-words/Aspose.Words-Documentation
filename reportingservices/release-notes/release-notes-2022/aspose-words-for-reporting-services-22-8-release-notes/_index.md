@@ -1,4 +1,4 @@
----
+﻿---
 title: 22.8 Release Notes
 second_title: Aspose.Words for Reporting Services
 articleTitle: Aspose.Words for Reporting Services 22.8 Release Notes
@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-for-reporting-services-22-8-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Reporting Services 22.8](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-22.8-\(msi\)/).
+This page contains release notes for [Aspose.Words for Reporting Services 22.8](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-22.8-msi/).
 
 {{% /alert %}}
 
