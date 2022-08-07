@@ -175,18 +175,15 @@ Aspose.Words now can load EPUB 2.0 documents.
 EPUB is an e-book file format that uses the ".epub" file extension. A EPUB document is a collection of XHTML documents. Currently, Aspose.Words always loads all XHTML files from a EPUB document in the order in which they appear in the content file (OPF).
 
 The following publicly visible enum values were added:
-{{< highlight python >}}
-FileFormat.EPUB
-LoadFormat.EPUB
-WarningSource.EPUB
-{{< /highlight >}}
+- [LoadFormat.EPUB](https://reference.aspose.com/words/python-net/aspose.words/loadformat/#epub)
+- [WarningSource.EPUB](https://reference.aspose.com/words/python-net/aspose.words/warningsource/#epub)
 
-The FileFormatUtil class can now be used to determine if a file is a EPUB document. For example, the following call
+The [FileFormatUtil](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/) class can now be used to determine if a file is a EPUB document. For example, the following call
 {{< highlight python >}}
 info = aw.FileFormatUtil.detect_file_format("book.epub")
 {{< /highlight >}}
 
-will return an info instance with the FileFormatInfo.load_format property set to LoadFormat.EPUB.
+will return an info instance with the [FileFormatInfo.load_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/load_format/) property set to [LoadFormat.EPUB](https://reference.aspose.com/words/python-net/aspose.words/loadformat/#epub).
 
 The use cases for loading EPUB documents are as follows:
 {{< highlight python >}}
@@ -202,16 +199,14 @@ The Extensible Markup Language (XML) is a simple text-based format for represent
 Aspose.Words mimics MS Word behavior during import XML documents.
 
 The following publicly visible enum value was added:
-{{< highlight python >}}
-LoadFormat.XML
-{{< /highlight >}}
+- [LoadFormat.XML](https://reference.aspose.com/words/python-net/aspose.words/loadformat/#xml)
 
-The FileFormatUtil class can now be used to determine if a file is a XML document. For example, the following call
+The [FileFormatUtil](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/) class can now be used to determine if a file is a XML document. For example, the following call
 {{< highlight python >}}
 info = aw.FileFormatUtil.detect_file_format("sample.xml")
 {{< /highlight >}}
 
-will return an info instance with the FileFormatInfo.load_format property set to LoadFormat.XML.
+will return an info instance with the [FileFormatInfo.load_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/load_format/) property set to [LoadFormat.XML](https://reference.aspose.com/words/python-net/aspose.words/loadformat/#xml).
 
 The use cases for loading XML documents are as follows:
 {{< highlight python >}}
@@ -222,7 +217,7 @@ doc = aw.Document("sample.xml")
 
 Related issue: WORDSNET-10869
 
-The ChapterPageSeparator enum is introduced:
+The [ChapterPageSeparator](https://reference.aspose.com/words/python-net/aspose.words/chapterpageseparator/) enum is introduced:
 {{< highlight python >}}
 class ChapterPageSeparator(enum.IntEnum):
     """Defines the separator character that appears between the chapter and page number."""
@@ -244,7 +239,7 @@ class ChapterPageSeparator(enum.IntEnum):
 
 {{< /highlight >}}
 
-The following public properties are added to PageSetup class:
+The following public properties are added to [PageSetup](https://reference.aspose.com/words/python-net/aspose.words/pagesetup/) class:
 {{< highlight python >}}
 class PageSetup:
     ...
@@ -313,7 +308,7 @@ class StructuredDocumentTagCollection:
 
 {{< /highlight >}}
 
-The functionality that the indexer has previously performed by ID is now available through get_by_id() method.
+The functionality that the indexer has previously performed by ID is now available through [get_by_id()](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagcollection/get_by_id/) method.
 {{< highlight python >}}
 class StructuredDocumentTagCollection:
     ...
@@ -368,5 +363,5 @@ builder.page_setup.paper_size = aw.PaperSize.NUMBER_10_ENVELOPE
 
 Related issue: WORDSNET-23514
 
-The HtmlSaveOptions.export_text_box_as_svg property is now obsolete. 
-The customers should use the HtmlSaveOptions.export_shapes_as_svg, which affects text boxes as well.
+The `HtmlSaveOptions.export_text_box_as_svg` property is now obsolete. 
+The customers should use the [HtmlSaveOptions.export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/), which affects text boxes as well.

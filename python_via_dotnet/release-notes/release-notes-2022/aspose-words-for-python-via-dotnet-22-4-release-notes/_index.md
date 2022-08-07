@@ -115,7 +115,7 @@ PDF/A-4 (ISO-19005-4:2020) is the latest version of PDF/A format. In PDF/A-4 con
 Unlike previous versions PDF/A-4 do not provide A, B and U conformance levels. The regular PDF/A-4 conformance is equivalent to the level U conformance of previous versions (i.e. document visual preservation and text Unicode representation). 
 Level A conformance (logical structure requirements) is removed as there is PDF/UA format related to this purpose.
 
-New values added to PdfCompliance enum:
+New values added to [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) enum:
 {{< highlight python >}}
 class PdfCompliance:
     ...
@@ -219,7 +219,7 @@ doc.save(file_name)
 
 Related issue: WORDSNET-16334
 
-New HTML loading option was added to HtmlLoadOptions class:
+New HTML loading option was added to [HtmlLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/) class:
 {{< highlight python >}}
 class HtmlLoadOptions:
     ...
@@ -230,7 +230,7 @@ class HtmlLoadOptions:
         ...
 {{< /highlight >}}
 
-New BlockImportMode enum specifies how properties of block-level elements are imported:
+New [BlockImportMode](https://reference.aspose.com/words/python-net/aspose.words.loading/blockimportmode/) enum specifies how properties of block-level elements are imported:
 {{< highlight python >}}
 class BlockImportMode(enum.IntEnum):
     """Specifies how properties of block-level elements are imported from HTML-based documents."""
@@ -287,7 +287,7 @@ doc.save("sample.docx")
 
 Related issue: WORDSNET-23210.
 
-The ChartLegendEntry and ChartLegendEntryCollection public classes have been implemented.
+The [ChartLegendEntry](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegendentry/) and [ChartLegendEntryCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegendentrycollection/) public classes have been implemented.
 {{< highlight python >}}
 class ChartLegendEntry:
     """Represents a chart legend entry.
@@ -324,7 +324,7 @@ class ChartLegendEntryCollection:
 }
 {{< /highlight >}}
 
-The legend_entries public property has been added to the ChartLegend class.
+The [legend_entries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/legend_entries/) public property has been added to the [ChartLegend](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/) class.
 {{< highlight python >}}
 class ChartLegend:
     ...
@@ -334,7 +334,7 @@ class ChartLegend:
         ...
 {{< /highlight >}}
 
-The legend_entry public property has been added to the ChartSeries class.
+The [legend_entry](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/legend_entry/) public property has been added to the [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/) class.
 {{< highlight python >}}
 class ChartSeries:
     ...
@@ -344,7 +344,7 @@ class ChartSeries:
         ...
 {{< /highlight >}}
 
-The constructor of the ChartLegend class has been marked obsolete. It will not be possible to create instances of this class.
+The constructor of the [ChartLegend](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/) class has been marked obsolete. It will not be possible to create instances of this class.
 
 Use Case:
 {{< highlight python >}}
@@ -381,7 +381,7 @@ doc.save("output.docx")
 
 Related issue: WORDSNET-23301
 
-Implemented interface exposing common properties for both StructuredDocumenTag and StructuredDocumentTagRangeStart/StructuredDocumentTagRangeEnd nodes.
+Implemented interface exposing common properties for both [StructuredDocumenTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/)/[StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/) nodes.
 {{< highlight python >}}
 class IStructuredDocumentTag:
 
@@ -485,7 +485,7 @@ class IStructuredDocumentTag:
 
 {{< /highlight >}}
 
-Implemented typed collection of IStructuredDocumentTag.
+Implemented typed collection of [IStructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/istructureddocumenttag/).
 {{< highlight python >}}
 class StructuredDocumentTagCollection:
 
@@ -524,7 +524,7 @@ class StructuredDocumentTagCollection:
 
 {{< /highlight >}}
 
-Added new property to Range class.
+Added new property to [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) class.
 {{< highlight python >}}
 class Range:
     ...
@@ -552,20 +552,20 @@ print(sdt.id)
 
 Related issue: WORDSNET-23539
 
-update_table_layout() method was an early attempt to reproduce MS Word logic for table column widths re-calculation without relying on table column widths stored data in the document.
+`update_table_layout()` method was an early attempt to reproduce MS Word logic for table column widths re-calculation without relying on table column widths stored data in the document.
 The method was mostly intended as an alternative way to re-calculate table layouts when relying on the stored column widths caused incorrect results (e.g. for generated documents with incorrect column widths stored by Aspose.Words itself).
 Though the method produced correct results for some cases, it never reproduced MS Word table layout logic entirely.
 As a result, applying the method to an arbitrary document could often produce incorrect results for tables that were handled correctly by the default method relying on the stored column widths.
 
-So after the method was recommended to a customer, we often started to get requests about incorrect table layouts after applying the method. The customers were frustrated because some tables were handled correctly only with update_table_layout() and some were handled correctly only without update_table_layout().
+So after the method was recommended to a customer, we often started to get requests about incorrect table layouts after applying the method. The customers were frustrated because some tables were handled correctly only with `update_table_layout()` and some were handled correctly only without `update_table_layout()`.
 
 Since then, much effort was invested into reproducing MS Word table layout logic without relying on stored column widths.
 It turned out that replacing the default logic for any arbitrary table and contents is not feasible. There are too many nuances with content metrics and different combinations of table/cell/container properties to take into account and be sure about the correct results.
 So a limited approach was adopted when Aspose.Words only replaces stored column widths after checking that everything that can influence table layout of a specific table is supported by the re-calculation algorithm.
 The class of the supported tables was widened significantly in release 22.3 and it will be further widened in the future.
 
-As of now, the most common combinations of table content and table/cell properties are supported by the new approach. The new approach also replaces update_table_layout() logic for the supported tables.
-So currently update_table_layout() may produce different results only for tables not supported by the new table layout logic.
-As it is exactly the class of tables for which there are known issues with reproducing MS Word logic, it is highly likely that the correct table layout will not be produced by update_table_layout() either.
+As of now, the most common combinations of table content and table/cell properties are supported by the new approach. The new approach also replaces `update_table_layout()` logic for the supported tables.
+So currently `update_table_layout()` may produce different results only for tables not supported by the new table layout logic.
+As it is exactly the class of tables for which there are known issues with reproducing MS Word logic, it is highly likely that the correct table layout will not be produced by `update_table_layout()` either.
 
-Deprecating update_table_layout() will clearly indicate that the method should not be used.
+Deprecating `update_table_layout()` will clearly indicate that the method should not be used.

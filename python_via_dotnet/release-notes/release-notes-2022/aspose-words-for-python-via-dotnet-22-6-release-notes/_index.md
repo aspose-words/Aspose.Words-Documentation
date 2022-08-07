@@ -137,9 +137,9 @@ Related issue: WORDSNET-22072
 
 The following changes have been implemented:
 
-1. Now the one_color_gradient and two_color_gradient methods of the Fill class can be used to create gradient fills in charts (see ChartDataPoint.format.fill, ChartMarker.format.fill and ChartSeries.format.fill properties). NotImplementedException was thrown in the previous versions.
+1. Now the [one_color_gradient](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/one_color_gradient/) and [two_color_gradient](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/two_color_gradient/) methods of the [Fill](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/) class can be used to create gradient fills in charts (see ChartDataPoint.format.fill, ChartMarker.format.fill and ChartSeries.format.fill properties). NotImplementedException was thrown in the previous versions.
 
-2. Behavior of the following overloads of the one_color_gradient and two_color_gradient methods have been changed:
+2. Behavior of the following overloads of the [one_color_gradient](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/one_color_gradient/) and [two_color_gradient](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/one_color_gradient/) methods have been changed:
 {{< highlight python >}}
 class Fill:
     ...
@@ -169,7 +169,7 @@ In the past, their behavior was as if a gradient was created using the overloads
 
 Related issue: WORDSNET-23473
 
-Removed obsolete PdfDigitalSignatureHashAlgorithm enum values SHA1 and MD5.
+Removed obsolete [PdfDigitalSignatureHashAlgorithm](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/) enum values `SHA1` and `MD5`.
 
 SHA1 and MD5 hash algorithms for digital signature are deprecated in the latest PDF specification due to security issues. So, please, use the one of the available algorithms instead.
 

@@ -128,7 +128,7 @@ This section lists public API changes that were introduced in Aspose.Words 22.7.
 
 Related issue: WORDSNET-23654
 
-New HTML insertion option was added to HtmlInsertOptions enum.
+New HTML insertion option was added to [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/) enum.
 {{< highlight python >}}
 class HtmlInsertOptions(IntEnum):
     ...
@@ -149,7 +149,7 @@ class HtmlInsertOptions(IntEnum):
 
 {{< /highlight >}}
 
-The new mode of import HTML block-level elements during inserting HTML via DocumentBuilder.insert_html() method allows to better preserve borders and margins seen in the HTML document and get better conversion results.
+The new mode of import HTML block-level elements during inserting HTML via [DocumentBuilder.insert_html()](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/) method allows to better preserve borders and margins seen in the HTML document and get better conversion results.
 {{< highlight python >}}
 html = """
 <html>
@@ -173,7 +173,7 @@ builder.document.save(my_dir + "sample.docx")
 
 Related issue: WORDSNET-23877
 
-A new public shadow_format property has been added to ShapeBase class
+A new public [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) property has been added to [ShapeBase](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/) class
 {{< highlight python >}}
 class ShapeBase:
     ...
@@ -214,7 +214,7 @@ class ShadowFormat:
         ...
 {{< /highlight >}}
 
-And it is also possible to clear ShadowFormat.
+And it is also possible to clear [ShadowFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowformat/).
 {{< highlight python >}}
 class ShadowFormat:
     ...
@@ -242,7 +242,7 @@ if shape.shadow_format.type == aw.drawing.ShadowType.SHADOW_MIXED:
 
 Related issue: WORDSNET-23295
 
-The following member has been added to the ReportBuildOptions enum:
+The following member has been added to the [ReportBuildOptions](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/) enum:
 {{< highlight python >}}
 class ReportBuildOptions(IntEnum):
     ...
@@ -265,7 +265,7 @@ Related feature task: WORDSNET-23059
 
 We've added a new way to work with PDF input files. Now they can be converted into a fixed format without using Words layout model.
 
-I.e. the feature runs without Document class and returns the result in a stream object.
+I.e. the feature runs without [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class and returns the result in a stream object.
 
 Example:
 {{< highlight python >}}

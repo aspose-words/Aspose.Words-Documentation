@@ -407,19 +407,19 @@ This section lists public API changes that were introduced in Aspose.Words 22.3.
 
 Related issue: WORDSNET-23250
 
-1. New value `PDF20` added to `PdfCompliance` enum
+1. New value [PDF20](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf20) added to [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) enum
 
 2. Improvements in PDF digital signatures
 Changed PDF digital signature type from "adbe.pcks7.sha1" to "adbe.pcks7.detached" to fit all supported PDF versions.
-Added `PdfDigitalSignatureHashAlgorithm.RIPE_MD160` value.
+Added [PdfDigitalSignatureHashAlgorithm.RIPE_MD160](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/#ripe_md160) value.
 `PdfDigitalSignatureHashAlgorithm.SHA1` and `PdfDigitalSignatureHashAlgorithm.MD5` values are marked as obsolete.
-Default value for `PdfDigitalSignatureDetails.hash_algorithm` changed from `PdfDigitalSignatureHashAlgorithm.SHA512` to `PdfDigitalSignatureHashAlgorithm.SHA256`. SHA256 is most popular hashing algorithm, it is strong enough and it is used by default by Adobe Acrobat when signing the document.
+Default value for [PdfDigitalSignatureDetails.hash_algorithm](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfdigitalsignaturedetails/hash_algorithm/) changed from [PdfDigitalSignatureHashAlgorithm.SHA512](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/#sha512) to [PdfDigitalSignatureHashAlgorithm.SHA256](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/#sha256). SHA256 is most popular hashing algorithm, it is strong enough and it is used by default by Adobe Acrobat when signing the document.
 
 3. Improvements in PDF encryption
-Removed `PdfEncryptionAlgorithm` enum and `encryption_algorithm` parameter from `PdfEncryptionDetails` constructor. This is a breaking change.
+Removed `PdfEncryptionAlgorithm` enum and `encryption_algorithm` parameter from [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/) constructor. This is a breaking change.
 Now PDF 1.7 output is encrypted with AES-128 encryption algorithm and PDF 2.0 output with AES-256 algorithm.
 
-4. Several options (`use_core_fonts`, `custom_properties_export`) in `PdfSaveOptions` cannot be used when saving PDF 2.0
+4. Several options ([use_core_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/), [custom_properties_export](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/custom_properties_export/)) in [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) cannot be used when saving PDF 2.0
 
 5. Removed obsolete `PdfCompliance.PDF15` enum value
 
@@ -427,7 +427,7 @@ Now PDF 1.7 output is encrypted with AES-128 encryption algorithm and PDF 2.0 ou
 
 Related issue: WORDSNET-23198
 
-The following public property is added to `FieldStart` class:
+The following public property is added to [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) class:
 {{< highlight python >}}
 @property
 def field_data(self) -> bytes:
@@ -446,13 +446,13 @@ print(len(field.start.field_data))
 
 Related issue: WORDSNET-23235
 
-This option controls whether `aw.drawing.Shape` nodes are converted to SVG images when saving to HTML, MHTML or EPUB. 
+This option controls whether [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML or EPUB. 
 Default value is `False`.
 
-If this option is set to `True`, `aw.drawing.Shape` nodes are exported as \<svg\> elements.
+If this option is set to `True`, [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) nodes are exported as \<svg\> elements.
 Otherwise, they are rendered to bitmaps and are exported as \<img\> elements.
 
-Note that this options also affects text boxes, because they are represented by `aw.drawing.Shape` nodes.
+Note that this options also affects text boxes, because they are represented by [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) nodes.
 As a result, if this option is set to `True`, it overrides the `export_text_box_as_svg` property
 value and causes text boxes to be converted to SVG.
 
@@ -477,17 +477,16 @@ The following table explains what reader Aspose.Words uses to load MOBI and AZW3
 Currently, Aspose.Words always loads all topics from an AZW3 document in the order in which they appear in the table of contents.
 
 The following publicly visible enum values were added:
-- `FileFormat.AZW3`
-- `LoadFormat.AZW3`
+- [LoadFormat.AZW3](https://reference.aspose.com/words/python-net/aspose.words/loadformat/#azw3)
 
-The `FileFormatUtil` class can now be used to determine if a file is an AZW3 document. For example, the following call
+The [FileFormatUtil](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/) class can now be used to determine if a file is an AZW3 document. For example, the following call
 {{< highlight python >}}
 info = aw.FileFormatUtil.detect_file_format("book.azw3");
 {{< /highlight >}}
 
-will return an info instance with the `FileFormatInfo.load_format` property set to `LoadFormat.AZW3`.
+will return an info instance with the [FileFormatInfo.load_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/load_format/) property set to [LoadFormat.AZW3](https://reference.aspose.com/words/python-net/aspose.words/loadformat/#azw3).
 
-Currently, no load options have effect when loading AZW3 documents. `LoadOptions.resource_loading_callback` is not invoked when loading AZW3 documents, because Aspose.Words expects all referenced resource files to be stored locally in the AZW3 document. Like in the Kindle reader, references to external resource files are ignored.
+Currently, no load options have effect when loading AZW3 documents. [LoadOptions.resource_loading_callback](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/resource_loading_callback/) is not invoked when loading AZW3 documents, because Aspose.Words expects all referenced resource files to be stored locally in the AZW3 document. Like in the Kindle reader, references to external resource files are ignored.
 
 As a result, the only use cases for loading AZW3 documents that is currently available is the one illustrated below:
 {{< highlight python >}}
@@ -536,7 +535,7 @@ doc.save("merged_cell.docx")
 
 The behavior was changed because cell width data proved to be unreliable in a number of generated documents.
 
-In order to preserve the specified cell widths in the above scenario and calculate the number of columns spanned by a cell from cell width, Aspose.Words should be explicitly instructed by calling `Table.auto_fit()` method:
+In order to preserve the specified cell widths in the above scenario and calculate the number of columns spanned by a cell from cell width, Aspose.Words should be explicitly instructed by calling [Table.auto_fit()](https://reference.aspose.com/words/python-net/aspose.words.tables/table/auto_fit/) method:
 {{< highlight python >}}
 ...
 table = builder.end_table()
@@ -551,13 +550,13 @@ This will also set table layout to fixed, which is better suited for preserving 
 
 ### Removed obsolete property FieldXE.has_page_range_bookmark_name
 
-Removed obsolete property `FieldXE.has_page_range_bookmark_name`. Please, use the `FieldXE.page_range_bookmark_name` property instead.
+Removed obsolete property `FieldXE.has_page_range_bookmark_name`. Please, use the [FieldXE.page_range_bookmark_name](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldxe/page_range_bookmark_name/) property instead.
 
 ### Added new Chart.source_full_name property
 
 Related issue: WORDSNET-22664
 
-The following public property has been added to the `Chart` class. If a chart is linked to an external xls/xlsx document, the property returns its file name.
+The following public property has been added to the [Chart](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/) class. If a chart is linked to an external xls/xlsx document, the property returns its file name.
 {{< highlight python >}}
 @property
 def source_full_name(self) -> str:
@@ -576,8 +575,8 @@ print(shape.chart.source_full_name)
 
 Related issue: WORDSNET-19268.
 
-`ImportFormatOptions.force_copy_styles` is a boolean value indicating either to copy conflicting styles
-in `ImportFormatMode.KEEP_SOURCE_FORMATTING` mode.
+[ImportFormatOptions.force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) is a boolean value indicating either to copy conflicting styles
+in [ImportFormatMode.KEEP_SOURCE_FORMATTING](https://reference.aspose.com/words/python-net/aspose.words/importformatmode/#keep_source_formatting) mode.
 The default value is `False`.
 
 By default, if a matching style already exists in a destination document, the source style formatting
@@ -617,7 +616,7 @@ for i in range(paras.count):
 
 Related issue: WORDSNET-6614
 
-New value `PDF_UA1` added to `PdfCompliance` enum.
+New value [PDF_UA1](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_ua1) added to [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) enum.
 
 The primary purpose of PDF/UA is to define how to represent electronic documents in the PDF format in a
 manner that allows the file to be accessible.
@@ -626,7 +625,7 @@ manner that allows the file to be accessible.
 
 Removes obsolete property `LayoutOptions.show_comments`.
 
-Use `LayoutOptions.comment_display_mode property` instead:
+Use [LayoutOptions.comment_display_mode](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/comment_display_mode/) property instead:
 {{< highlight python >}}
 doc = aw.Document("in.docx")
 doc.layout_options.comment_display_mode = aw.layout.CommentDisplayMode.SHOW_IN_BALLOONS
@@ -736,7 +735,7 @@ settings.set_fonts_sources([file_source, memory_source], cache_input_stream)
 
 Related issue: WORDSNET-22811
 
-Use Case: Explains how to work with `Fill.set_image`.
+Use Case: Explains how to work with [Fill.set_image](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/set_image/).
 {{< highlight python >}}
 builder = aw.DocumentBuilder()
  
@@ -752,7 +751,7 @@ builder.document.save("SingleImageDocument.docx")
 
 Related issue: WORDSNET-22409
 
-The following member has been added to the `StructuredDocumentTag` and `StructuredDocumentTagRangeStart` nodes:
+The following member has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/) nodes:
 {{< highlight python >}}
 @property
 def word_open_xml(self) -> str:
