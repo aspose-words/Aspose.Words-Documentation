@@ -36,7 +36,7 @@ The following table indicates the input and output file formats supported by Asp
 |[HTML](https://docs.fileformat.com/web/html/)|HTML or XHTML format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MHTML](https://docs.fileformat.com/web/mhtml/)|MHTML (Web archive) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MOBI](https://docs.fileformat.com/ebook/mobi/)|MOBI is an eBook format used by the MobiPocket Reader and Amazon Kindle Readers.|{{< emoticons/tick >}}| | |
-|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW3 is an eBook format used by Amazon Kindle readers.|{{< emoticons/tick >}}| | |
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW3 is an eBook format used by Amazon Kindle readers.|{{< emoticons/tick >}}| {{< emoticons/tick >}} | |
 |[CHM](https://docs.fileformat.com/web/chm/)|CHM (Compiled HTML Help) format.|{{< emoticons/tick >}}| | |
 |[ODT](https://docs.fileformat.com/word-processing/odt/)|ODF Text Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[OTT](https://docs.fileformat.com/word-processing/ott/)|ODF Text Document Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |

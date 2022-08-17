@@ -11,7 +11,7 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 22.5, 22.6, 22.7
+## Aspose.Words for .NET 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
 
@@ -19,47 +19,62 @@ Aspose.Words 22.6 expands the possibilities of converting PDF to other formats, 
 
 Aspose.Words 22.7 enhances the possibilities of working with rendering features, and also adds new features for working with HTML import and export to PDF.
 
+Aspose.Words 22.8 introduces a new export format and improves various rendering algorithms.
+
 The API is enhanced for more flexible and convenient development.
 
 ### Supported Formats
 
-Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/net/aspose.words/saveformat).
+* Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/net/aspose.words/saveformat). <sup>22.5</sup>
+* Starting from version 22.8, it is possible to save a document in AZW3 format – Amazon Kindle's proprietary e-book file format (KF8 is another name for the format). Now you can not only load AZW3 documents, but also export your files to AZW3 format, which is essentially a compiled EPUB. <sup>22.8</sup>
 
 ### Rendering and Printing
 
-#### New Priting Size
+#### New Priting Size <sup>22.5</sup>
 
 Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize) enumeration.
 
-#### Rendering MathML Formulas
+#### Rendering MathML Formulas <sup>22.5</sup>
 
 The rendering of a border box around MathML formulas and font detection when rendering characters for such formulas has been improved.
 
-#### DML Chart Improvements
+#### DML Chart Improvements <sup>22.6</sup>
 
 DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
 
-#### Glyph outlines parsing for OpenType
+#### Glyph outlines parsing for OpenType <sup>22.7</sup>
 
 Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
 
 Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
 
-#### Set shape shadow formatting
+#### Set shape shadow formatting <sup>22.7</sup>
 
 The ability to set the shadow formatting of the shape object has been provided by adding a new [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) property.
 
+#### Support for Cell Spacing in Tables <sup>22.8</sup>
+
+The layout engine is now significantly improved: a very complex cell spacing mechanism in tables has been implemented.
+
+#### Font Substitution for Symbols <sup>22.8</sup>
+
+Font substitution for symbols has been improved.
+
+#### Chart Axis Label Rotation Algorithm <sup>22.8</sup>
+
+The rotation algorithm of chart axis labels has been improved.
+
 ### Loading and saving documents
 
-#### Load and convert PDF to fixed-page format without layout model
+#### Load and convert PDF to fixed-page format without layout model <sup>22.6</sup>
 
 The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
 
-#### New HTML import mode
+#### New HTML import mode <sup>22.7</sup>
 
 A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) enumeration.
 
-#### Convert to PDF/UA-1 compliant with WCAG 2.0
+#### Convert to PDF/UA-1 compliant with WCAG 2.0 <sup>22.7</sup>
 
 Support for converting a document to PDF/UA-1 format, compliant with WCAG 2.0, has been added.
 
@@ -77,8 +92,8 @@ But both requirements are not relevant to our case of converting from Word to PD
 
 ### Other
 
-* Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented.
-* Support of the DATABASE fields has been added. Using this type of field, you can, for example, show the results of a database query in a Microsoft Word table.
+* Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented. <sup>22.6</sup>
+* Support of the DATABASE fields has been added. Using this type of field, you can, for example, show the results of a database query in a Microsoft Word table. <sup>22.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -86,7 +101,9 @@ Learn more about [Aspose.Words for .NET 22.5 Release Notes](/words/net/aspose-wo
 
 Learn more about [Aspose.Words for .NET 22.6 Release Notes](/words/net/aspose-words-for-net-22-6-release-notes/).
 
-Learn more about [Aspose.Words for .NET 22.7 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-22-7-release-notes/).
+Learn more about [Aspose.Words for .NET 22.7 Release Notes](/words/net/aspose-words-for-net-22-7-release-notes/).
+
+Learn more about [Aspose.Words for .NET 22.8 Release Notes](/words/net/aspose-words-for-net-22-8-release-notes/).
 
 {{% /alert %}}
 
@@ -471,81 +488,5 @@ Learn more about [Aspose.Words for .NET 20.10 Release Notes](/words/net/aspose-w
 Learn more about [Aspose.Words for .NET 20.11 Release Notes](/words/net/aspose-words-for-net-20-11-release-notes/).
 
 Learn more about [Aspose.Words for .NET 20.12 Release Notes](/words/net/aspose-words-for-net-20-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for .NET 20.5, 20.6, 20.7, 20.8
-
-Aspose.Words 20.5 introduces performance improvements and enhanced document display capabilities.
-
-Aspose.Words 20.6 expands formatting options, makes saving to Markdown more convenient, and improves SmartArt Cold Rendering.
-
-Aspose.Words 20.7 introduces structured document tags, expands mail merge functionality and document display capabilities.
-
-Aspose.Words 20.8 expands the capabilities of working with images in various supported document formats and improves font substitution rules to ensure a high level of rendering.
-
-The API is improved for more flexible and convenient development.
-
-### Platforms
-
-As you know, .NET 5 is going to be released soon, as the next step forward with .NET Core. It will be useful for you to know that *.NET 5 Preview 4* is already available for testing. We have made sure and tested that Aspose.Words works fine with *.NET 5 Preview 4*.
-
-### Performance and Data Compression
-
-A new public property [CompressionLevel](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/properties/compressionlevel) has been added for OOXML documents. Using this property, you can control the compression level when saving a document. For example, you can select the [SuperFast](https://reference.aspose.com/words/net/aspose.words.saving/compressionlevel) compression level that is used in Microsoft Word. Or leave the [Normal](https://reference.aspose.com/words/net/aspose.words.saving/compressionlevel) compression level used in Aspose.Words by default.
-
-### Supported Formats
-
-A new public class [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions) has been added to work with advanced options when saving a document to Markdown format. In addition to overloaded and inherited properties, the [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/properties/tablecontentalignment) property has been added to this class to control the alignment of content in tables when converting a document to Markdown format.
-
-### Rendering
-
-#### Layout Callback to Interrupt the Layout Building
-
-The long-awaited layout callback has been implemented and made available to the public. The [IPageLayoutCallback](https://reference.aspose.com/words/net/aspose.words.layout/ipagelayoutcallback) interface allows your application to interrupt the process of layout building for the entire document and render only the part already built.
-
-#### Formatting Options
-
-Formatting options have been extended:
-
-- A new public property [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/font/properties/emphasismark) has been added to manage the emphasis mark – an additional character that is rendered above or below the main character glyph. Now you can control its behavior using the **EmphasisMark** option.
-- A new public property [IgnoreHeaderFooter](https://reference.aspose.com/words/net/aspose.words/importformatoptions/properties/ignoreheaderfooter) has been added to manage the formatting of headers/footers content. Using this option, you can specify whether to ignore the source formatting of the headers/footers content if the [KeepSourceFormatting](https://reference.aspose.com/words/net/aspose.words/importformatmode) formatting mode is used.
-
-#### Advanced Control over Revision Options
-
-The [RevisionOptions](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions) class has been extended with new properties. Now you have more control over the revision options, such as revision bars position represented by the [RevisionBarsPosition](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions/properties/revisionbarsposition) property and measurement units represented by the [MeasurementUnit](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions/properties/measurementunit) property.
-
-#### Font Substitution Rules
-
-A new font substitution rule has been added through the [FontNameSubstitutionRule](https://reference.aspose.com/words/net/aspose.words.fonts/fontnamesubstitutionrule) class. This rule tries to process font name suffixes in the same way as Microsoft Word does.
-
-### Graphics
-
-#### Watermarks in Documents
-
-A new helper class [Watermark](https://reference.aspose.com/words/net/aspose.words/watermark) has been introduced to work with a watermark inside a document. This class simplifies the way you add or remove a watermark in a document – now you can do it with just one line of code! You can easily create a watermark from text or an image, as well as control its display settings.
-
-#### Improving SmartArt Rendering
-
-SmartArt Cold Rendering has become even better – the processing of hyperlinks in the SmartArt data model has been implemented and the preliminary processing of the chart drawing has been improved.
-
-### Other
-
-- A new ability to show or hide grammatical and spelling errors has been provided. Using the [ShowGrammaticalErrors](https://reference.aspose.com/words/net/aspose.words/document/properties/showgrammaticalerrors) and [ShowSpellingErrors](https://reference.aspose.com/words/net/aspose.words/document/properties/showspellingerrors) properties, you can easily control the way grammatical and spelling errors are displayed in your document.
-- Two new nodes have been introduced to handle multi-section structured document tags. These structured document tags are now supported upon import/export.
-- A new public property [RetainFirstSectionStart](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/properties/retainfirstsectionstart) has been added to get or set a value that indicates whether the [SectionStart](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/sectionstart) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to Microsoft Word behavior.
-- Markdown ‘Inline Images’ feature has been implemented to make our Markdown support even better.
-- The [SkipPdfImages](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/properties/skippdfimages) flag has been added to the [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions) class to indicate whether images must be skipped when loading a PDF document.
-- Support for SVG images embedded using data URLs upon HTML import has been implemented.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 20.5 Release Notes](/words/net/aspose-words-for-net-20-5-release-notes/).
-
-Learn more about [Aspose.Words for .NET 20.6 Release Notes](/words/net/aspose-words-for-net-20-6-release-notes/).
-
-Learn more about [Aspose.Words for .NET 20.7 Release Notes](/words/net/aspose-words-for-net-20-7-release-notes/).
-
-Learn more about [Aspose.Words for .NET 20.8 Release Notes](/words/net/aspose-words-for-net-20-8-release-notes/).
 
 {{% /alert %}}

@@ -11,7 +11,7 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 22.5, 22.6, 22.7
+## Aspose.Words for Python via .NET 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
 
@@ -19,47 +19,62 @@ Aspose.Words 22.6 expands the possibilities of converting PDF to other formats, 
 
 Aspose.Words 22.7 enhances the possibilities of working with rendering features, and also adds new features for working with HTML import and export to PDF.
 
+Aspose.Words 22.8 introduces a new export format and improves various rendering algorithms.
+
 The API is enhanced for more flexible and convenient development.
 
 ### Supported Formats
 
-Support for loading EPUB and XML documents has been introduced by adding new values to the **LoadFormat** enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](/words/python-net/supported-document-formats/).
+* Support for loading EPUB and XML documents has been introduced by adding new values to the **LoadFormat** enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](/words/python-net/supported-document-formats/). <sup>22.5</sup>
+* Starting from version 22.8, it is possible to save a document in AZW3 format – Amazon Kindle's proprietary e-book file format (KF8 is another name for the format). Now you can not only load AZW3 documents, but also export your files to AZW3 format, which is essentially a compiled EPUB. <sup>22.8</sup>
 
 ### Rendering and Printing
 
-#### New Priting Size
+#### New Priting Size <sup>22.5</sup>
 
 Support for the “Envelope No. 10” print page size has been added by introducing a new value to the **PaperSize** enumeration.
 
-#### Rendering MathML Formulas
+#### Rendering MathML Formulas <sup>22.5</sup>
 
 The rendering of a border box around MathML formulas and font detection when rendering characters for such formulas has been improved.
 
-#### DML Chart Improvements
+#### DML Chart Improvements <sup>22.6</sup>
 
 DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
 
-#### Glyph outlines parsing for OpenType
+#### Glyph outlines parsing for OpenType <sup>22.7</sup>
 
 Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
 
 Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
 
-#### Set shape shadow formatting
+#### Set shape shadow formatting <sup>22.7</sup>
 
 The ability to set the shadow formatting of the shape object has been provided by adding a new **ShadowFormat** property.
 
+#### Support for Cell Spacing in Tables <sup>22.8</sup>
+
+The layout engine is now significantly improved: a very complex cell spacing mechanism in tables has been implemented.
+
+#### Font Substitution for Symbols <sup>22.8</sup>
+
+Font substitution for symbols has been improved.
+
+#### Chart Axis Label Rotation Algorithm <sup>22.8</sup>
+
+The rotation algorithm of chart axis labels has been improved.
+
 ### Loading and saving documents
 
-#### Load and convert PDF to fixed-page format without layout model
+#### Load and convert PDF to fixed-page format without layout model <sup>22.6</sup>
 
 The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
 
-#### New HTML import mode
+#### New HTML import mode <sup>22.7</sup>
 
 A new HTML import mode for block-level elements has been introduced by adding a new value to the **HtmlInsertOptions** enumeration.
 
-#### Convert to PDF/UA-1 compliant with WCAG 2.0
+#### Convert to PDF/UA-1 compliant with WCAG 2.0 <sup>22.7</sup>
 
 Support for converting a document to PDF/UA-1 format, compliant with WCAG 2.0, has been added.
 
@@ -76,7 +91,7 @@ But both requirements are not relevant to our case of converting from Word to PD
 
 ### Other
 
-Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented.
+Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented. <sup>22.6</sup>
 
 {{% alert color="primary" %}}
 
@@ -85,6 +100,8 @@ Learn more about [Aspose.Words for Python via .NET 22.5 Release Notes](/words/py
 Learn more about [Aspose.Words for Python via .NET 22.6 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 22.7 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 22.8 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/).
 
 {{% /alert %}}
 
