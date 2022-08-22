@@ -141,13 +141,13 @@ DOC to HTML – high-fidelity conversion:
 
 ## High Scalability
 
-Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. **Document** objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), multiple threads can process any number of documents at the same time.
+Scalable server-side scenarios use Aspose.Words mainly because of its simple and clean design – Aspose.Words supports multithreading. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) objects are independent of each other, and as long as only one thread can modify a document at a time (a typical requirement for any collection class), multiple threads can process any number of documents at the same time.
 
 ## High Performance
 
 Aspose.Words demonstrates high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
-On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.
+On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object.
 
 The following code example shows how you can load and save such a large document if you want to:
 

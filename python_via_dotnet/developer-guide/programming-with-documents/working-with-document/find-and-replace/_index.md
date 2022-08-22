@@ -25,11 +25,11 @@ Aspose.Words provides two ways to apply the find and replace operation by using 
 
 In addition, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
 
-Aspose.Words presents the find and replace functionality with the **aspose.words.replacing** namespace. You can work with many options during the find and replace process using **FindReplaceOptions** class.
+Aspose.Words presents the find and replace functionality with the [aspose.words.replacing](https://reference.aspose.com/words/python-net/aspose.words.replacing/) module. You can work with many options during the find and replace process using [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) class.
 
 ### Find and Replace Text using Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 
-You can use one of the **replace** and **replace_regex** methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+You can use one of the [replace](https://reference.aspose.com/words/python-net/aspose.words/range/replace/) and [replace_regex](https://reference.aspose.com/words/python-net/aspose.words/range/replace_regex/) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
@@ -60,7 +60,7 @@ And after applying simple string replacement:
 
 A regular expression is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
 
-Use the **replace_regex** method to search and replace particular character combinations by setting the regular expression parameter as the pattern to find matches.
+Use the [replace_regex](https://reference.aspose.com/words/python-net/aspose.words/range/replace_regex/) method to search and replace particular character combinations by setting the regular expression parameter as the pattern to find matches.
 
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
@@ -90,7 +90,7 @@ The following code example shows how to replace text with paragraph and page bre
 
 ## Find and Replace String in Header/Footer of a Document {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-You can find and replace text in the header/footer section of a Word document using the **HeaderFooter** class.
+You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/) class.
 
 The following code example shows how to replace the text of the header section in your document:
 
@@ -130,7 +130,7 @@ And after applying footer string replacement:
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
-Aspose.Words provides many find and replace properties for ignoring text such as **ignore_deleted**, **ignore_fields**, and **ignore_inserted**.
+Aspose.Words provides many find and replace properties for ignoring text such as [ignore_deleted](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_deleted/), [ignore_fields](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_fields/), and [ignore_inserted](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_inserted/).
 
 The following code example shows how to ignore text inside delete revisions:
 
@@ -138,7 +138,7 @@ The following code example shows how to ignore text inside delete revisions:
 
 ## Customize Find and Replace Operation {#customize-find-and-replace-operation}
 
-Aspose.Words provides many different properties to find and replace text such as applying specific format with **apply_font** and **apply_paragraph_formats** properties, using substitutions in replacement patterns with **use_substitutions** property, and others.
+Aspose.Words provides many different properties to find and replace text such as applying specific format with [apply_font](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/apply_font/) and [apply_paragraph_formats](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/apply_paragraph_format/) properties, using substitutions in replacement patterns with [use_substitutions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/use_substitutions/) property, and others.
 
 The following code example shows how to highlight a specific word in your document:
 

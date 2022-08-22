@@ -18,13 +18,13 @@ This article explains how to use Aspose.Words to select a restriction type, how 
 
 ## Select Editing Restriction Type
 
-Aspose.Words allows you to control the way you restrict the content using the **ProtectionType** enumeration parameter. This will enable you to select an exact type of protection such as the following:
+Aspose.Words allows you to control the way you restrict the content using the [ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/) enumeration parameter. This will enable you to select an exact type of protection such as the following:
 
-* ALLOW_ONLY_COMMENTS
-* ALLOW_ONLY_FORM_FIELDS
-* ALLOW_ONLY_REVISIONS
-* READ_ONLY
-* NO_PROTECTION
+* [ALLOW_ONLY_COMMENTS](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#allow_only_comments)
+* [ALLOW_ONLY_FORM_FIELDS](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#allow_only_form_fields)
+* [ALLOW_ONLY_REVISIONS](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#allow_only_revisions)
+* [READ_ONLY](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#read_only)
+* [NO_PROTECTION](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#no_protection)
 
 All types are password-secured, and if this password is not entered correctly, a user will not be able to legally change the content of your document. Thus, if your document is returned to you without a requirement to provide the necessary password, this is a sign that something is wrong.
 
@@ -32,7 +32,7 @@ If you did not set a password when choosing the security type, other users can s
 
 {{% alert color="primary" %}}
 
-Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The **Document.unprotect** method shows just that.
+Note that the password being set is just a property in a document that can be removed if the document properties are accessed. Accordingly, such a password is not a guarantee of the document security. The [Document.unprotect](https://reference.aspose.com/words/python-net/aspose.words/document/unprotect/) method shows just that.
 
 {{% /alert %}}
 
@@ -40,7 +40,7 @@ Note that the password being set is just a property in a document that can be re
 
 Adding protection to your document is a simple process, as all you need to do is apply one of the protection methods detailed in this section.
 
-Aspose.Words allows you to protect your documents from changes using the **Document.protect** method. This method is not a security feature and does not encrypt a document.
+Aspose.Words allows you to protect your documents from changes using the [Document.protect](https://reference.aspose.com/words/python-net/aspose.words/document/protect/) method. This method is not a security feature and does not encrypt a document.
 
 {{% alert color="primary" %}}
 
@@ -83,7 +83,7 @@ doc.save(docs_base.artifacts_dir + "DocumentProtection.AllowOnlyFormFieldsProtec
 
 ## Remove Document Protection
 
-Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the **unprotect** method. Both removing ways have no difference.
+Aspose.Words allows you to remove protection from a document with simple and direct document modification. You can either remove the document protection without knowing the actual password or provide the correct password to unlock the document by using the [unprotect](https://reference.aspose.com/words/python-net/aspose.words/document/unprotect/) method. Both removing ways have no difference.
 
 The following code example shows how to remove protection from your document:
 
@@ -107,7 +107,7 @@ doc.save(docs_base.artifacts_dir + "DocumentProtection.RemoveDocumentProtection.
 
 You can restrict editing of your document and at the same time allow changes to selected parts of it. So, anyone who opens your document will be able to access these unrestricted parts and make changes to the content.
 
-Aspose.Words allows you to mark the parts that can be changed in your document using the **start_editable_range** and **end_editable_range** methods.
+Aspose.Words allows you to mark the parts that can be changed in your document using the [start_editable_range](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_editable_range/) and [end_editable_range](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_editable_range/) methods.
 
 The following code example shows how to mark the whole document as read-only and specify editable regions in it:
 

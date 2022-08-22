@@ -16,9 +16,9 @@ Aspose.Words provides functionality for extracting this type of content in the s
 
 ## Shape Types in Aspose.Words
 
-All the content in a document drawing layer is represented by the **Shape** or **GroupShape** node in the Aspose.Words Document Object Module (DOM). Such contents can be text boxes, images, AutoShapes, OLE objects, etc. Some fields are also imported as shapes, for example, the INCLUDEPICTURE field.
+All the content in a document drawing layer is represented by the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) or [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) node in the Aspose.Words Document Object Module (DOM). Such contents can be text boxes, images, AutoShapes, OLE objects, etc. Some fields are also imported as shapes, for example, the INCLUDEPICTURE field.
 
-A simple image is represented by a **Shape** node of **ShapeType.IMAGE**. This shape node has no child nodes but the image data contained within this shape node can be accessed by the **Shape.image_data** property. On the other hand, a shape can also be made up of many child nodes. For instance, a text box shape, which is represented by the **ShapeType.TEXT_BOX** property, can be made up of many nodes, such as **Paragraph** and **Table**. Most shapes can include the **Paragraph** and **Table** block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the **Paragraph,** but “floating” anywhere in the document page.
+A simple image is represented by a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) node of [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowtype/#image). This shape node has no child nodes but the image data contained within this shape node can be accessed by the [Shape.image_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/image_data/) property. On the other hand, a shape can also be made up of many child nodes. For instance, a text box shape, which is represented by the [ShapeType.TEXT_BOX](https://reference.aspose.com/words/python-net/aspose.words.drawing/shadowtype/#text_box) property, can be made up of many nodes, such as [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) and [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/). Most shapes can include the [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) and [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) block-level nodes. These are the same nodes as those appearing in the main body. Shapes are always parts of some paragraph, either included directly inline or anchored to the [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), but “floating” anywhere in the document page.
 
 ![rendering-shapes-separately-from-a-document_1](rendering-shapes-separately-from-a-document-1.png)
 
@@ -26,28 +26,28 @@ A document can also contain shapes which are grouped together. Grouping can be e
 
 ![rendering-shapes-separately-from-a-document_2](rendering-shapes-separately-from-a-document-2.png)
 
-In Aspose.Words, these groups of shapes are represented by the **GroupShape** node. These can also be invoked in the same way to render the entire group to image.
+In Aspose.Words, these groups of shapes are represented by the [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) node. These can also be invoked in the same way to render the entire group to image.
 
 ![rendering-shapes-separately-from-a-document_3](rendering-shapes-separately-from-a-document-3.png)
 
-The DOCX format can contain special types of images, such as diagrams or charts. These shapes are also represented through the **Shape** node in Aspose.Words, which also provides a similar method for rendering them as images. By design, a shape cannot contain another shape as a child, unless that shape is an image (**ShapeType.IMAGE**). For example, Microsoft Word does not allow you to insert a text box inside another text box.
+The DOCX format can contain special types of images, such as diagrams or charts. These shapes are also represented through the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) node in Aspose.Words, which also provides a similar method for rendering them as images. By design, a shape cannot contain another shape as a child, unless that shape is an image ([ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image)). For example, Microsoft Word does not allow you to insert a text box inside another text box.
 
-The shape types described above provide a special method to render the shapes through the **ShapeRenderer** class. An instance of the **ShapeRenderer** class is retrieved for a **Shape** or **GroupShape** through the **get_shape_renderer** method or by passing the **Shape** to the constructor of the **ShapeRenderer** class. This class provides access to members, which allow rendering a shape to the following:
+The shape types described above provide a special method to render the shapes through the [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) class. An instance of the [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) class is retrieved for a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) or [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) through the [get_shape_renderer](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/get_shape_renderer/) method or by passing the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) to the constructor of the [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) class. This class provides access to members, which allow rendering a shape to the following:
 
 - File on the disk
 - Stream
 
 {{% alert color="primary" %}}
 
-When rendering a **Shape**, it must be a part of the document hierarchy. If the **Shape** is not a part of the document tree then the rendered output will be blank after invoking **ShapeRenderer** methods.
+When rendering a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/), it must be a part of the document hierarchy. If the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) is not a part of the document tree then the rendered output will be blank after invoking [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) methods.
 
 {{% /alert %}}
 
 ## Rendering to File or Stream
 
-The **save** method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the **ImageSaveOptions** class, which allows to define options for rendering the shape. This works in the same way as the **Document.save** method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
+The [save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) class, which allows to define options for rendering the shape. This works in the same way as the [Document.save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
 
-The shape can be exported in any image format specified in the **SaveFormat** enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the **SaveFormat.JPEG** enumeration, or as a vector image, such as EMF by specifying the **SaveFormat.EMF**.
+The shape can be exported in any image format specified in the [SaveFormat](https://reference.aspose.com/words/python-net/aspose.words/saveformat/) enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the [SaveFormat.JPEG](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#jpeg) enumeration, or as a vector image, such as EMF by specifying the [SaveFormat.EMF](https://reference.aspose.com/words/python-net/aspose.words/saveformat/#emf).
 
 The code example below illustrates rendering a shape to an EMF image separately from document, and saving to disk:
 
@@ -85,11 +85,11 @@ r.save(stream, imageOptions)
 stream.close()
 {{< /highlight >}}
 
-The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
+The [ImageSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/) class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) and [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) nodes.
 
 ## Rendering a Shape Image
 
-The **Shape** class represents objects in the drawing layer, such as an AutoShape, text box, freeform, OLE object, ActiveX control, or a picture. Using the **Shape** class, you can create or modify shapes in a Microsoft Word document. An important property of a shape is its **shape_type**. Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them while most of the shapes can have text only.
+The [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class represents objects in the drawing layer, such as an AutoShape, text box, freeform, OLE object, ActiveX control, or a picture. Using the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class, you can create or modify shapes in a Microsoft Word document. An important property of a shape is its [shape_type](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shape_type/). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them while most of the shapes can have text only.
 
 The following example shows how to render a Shape image to a JPEG image separately from the document and save it to the disk:
 
@@ -100,7 +100,7 @@ shape.get_shape_renderer().save(docs_base.artifacts_dir + "TestFile.RenderShapeI
 
 ## Retrieving a Shape Size
 
-The **ShapeRenderer** class also provides functionality to retrieve the size of the shape in pixels through the **get_size_in_pixels** method. This method accepts two float (Single) parameters – the scale and DPI, which are used in calculation of the shape size when the shape is rendered. The method returns the **Size** object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance. The **size_in_points** property returns the Shape size measured in points. The result is a **SizeF** object containing the width and height. Also you can use **bounds_in_points** property to get actual bounds of the shape.
+The [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/) class also provides functionality to retrieve the size of the shape in pixels through the [get_size_in_pixels](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/get_size_in_pixels/) method. This method accepts two float (Single) parameters – the scale and DPI, which are used in calculation of the shape size when the shape is rendered. The method returns the **Size** object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance. The [size_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/size_in_points/) property returns the Shape size measured in points. The result is a **SizeF** object containing the width and height. Also you can use [bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) property to get actual bounds of the shape.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_shapes-GetActualShapeBoundsPoints.py" >}}
 

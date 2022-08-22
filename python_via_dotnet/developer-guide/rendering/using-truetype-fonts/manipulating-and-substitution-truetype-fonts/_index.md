@@ -21,7 +21,7 @@ Note that the font in the document represents an entity, such as family name, st
 
 ## Font Manipulation and Performance Issues
 
-All available font manipulation mechanisms are contained in the **FontSettings** class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
+All available font manipulation mechanisms are contained in the [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) class. This class is responsible for fetching fonts within defined font sources as well as for the Font Substitution process, as described below.
 
 Fonts are parsed in several steps:
 
@@ -31,21 +31,21 @@ Fonts are parsed in several steps:
 
 When Aspose.Words encounters a font in the document for the first time, it attempts to obtain basic font information, such as the font full name, family name, version, style, from the font files located in each font source. After all the fonts are retrieved, Aspose.Words uses these details to find the required font data or a suitable replacement for the requested font.
 
-Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of **FontSettings** has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the **FontSettings** class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
+Since the procedure described above is time-consuming, it may negatively affect application performance at its first launch. However, each instance of [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) has its own cache, which could reduce the processing time of subsequent documents. For example, you can share an instance of the [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) class between different documents, which allows you to speed up the loading of the documents. The following example demonstrates this:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-FontSettingsWithLoadOption.py" >}}
 
-In the case when **FontSettings** is not defined explicitly, Aspose.Words uses the default **FontSettings** instance. This instance is also automatically shared among documents, and can be extracted as follows:
+In the case when [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) is not defined explicitly, Aspose.Words uses the default [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) instance. This instance is also automatically shared among documents, and can be extracted as follows:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-FontSettingsDefaultInstance.py" >}}
 
-If you are sure that all processing documents require the same font settings, then it is recommended to set up and utilize the default **FontSettings** instance. Suppose that you need to use the same font sources for all your documents. In this case, you can just amend the default instance as follows:
+If you are sure that all processing documents require the same font settings, then it is recommended to set up and utilize the default [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) instance. Suppose that you need to use the same font sources for all your documents. In this case, you can just amend the default instance as follows:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-FontSettingsFontSource.py" >}}
 
 {{% alert color="primary" %}}
 
-The custom **FontSettings** have higher priority than the default instance.
+The custom [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) have higher priority than the default instance.
 
 {{% /alert %}}
 
@@ -56,8 +56,8 @@ A text in a document can be formatted with various fonts, such as Arial, Times N
 However, there are situations when the exact font cannot be found and Aspose.Words must substitute it for a similar font instead. Aspose.Words selects the font according to the following process:
 1. Aspose.Words tries to find a font among the available font sources with an exact font name.
 1. Aspose.Words tries to find the required font among the fonts embedded in the original document. Some document formats such as DOCX can contain embedded fonts.
-1. If Aspose.Words is unable to locate the required font with the exact name match, and the **alt_name** property defined for this font, then Aspose.Words will find the font defined with **alt_name** from the **FontInfo** class, which specifies the font information.
-1. If Aspose.Words is unable to locate the defined font, and **alt_name** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
+1. If Aspose.Words is unable to locate the required font with the exact name match, and the [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) property defined for this font, then Aspose.Words will find the font defined with [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) from the [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) class, which specifies the font information.
+1. If Aspose.Words is unable to locate the defined font, and [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
    1. First, Aspose.Words tries to process the font name to get the substitution, particularly it tries to remove suffixes with "-" and "," separators.<br>
       If this substitution rule takes place, a "Font '&lt;OriginalFont&gt;' has not been found. Using '&lt;SubstitutionFont&gt;' font instead. Reason: font name substitution." warning appears.<br>
    1. Then Aspose.Words attempts to apply OS font settings, if they are available, by using the **FontConfig** utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
@@ -84,7 +84,7 @@ fontSettings.substitution_settings.table_substitution.load("Table.xml")
 {{< highlight python >}}
 fontSettings.substitution_settings.table_substitution.enabled = False
 {{< /highlight >}}
-   1. The **FontInfo** substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the **FontInfo** class as shown below:<br>
+   1. The [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) substitution rule will be applied if the table substitution rule cannot find the font. This mechanism is enabled by default. Aspose.Words finds the most suitable font according to the font information contained in a particular document. This information can be obtained from the [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) class as shown below:<br>
 {{< highlight python >}}
 fontInfos = doc.font_infos
 {{< /highlight >}}
@@ -92,8 +92,8 @@ fontInfos = doc.font_infos
 {{< highlight python >}}
 fontSettings.substitution_settings.font_info_substitution.enabled = False
 {{< /highlight >}}
-      If **FontInfo** is not available for the missing font, then the process stops.<br>
-   1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the **default_font_name** property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
+      If [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) is not available for the missing font, then the process stops.<br>
+   1. [DefaultFont](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/) substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [default_font_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_name/) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
 {{< highlight python >}}
 fontSettings.substitution_settings.default_font_substitution.enabled = False
 {{< /highlight >}}
@@ -106,15 +106,15 @@ fontSettings.substitution_settings.default_font_substitution.default_font_name
 fontSettings.substitution_settings.default_font_substitution.default_font_name = "Arial"
 {{< /highlight >}}
 1. If Aspose.Words is unable to perform the font substitution, it tries to get the first available font from available font sources.
-1. Finally, if Aspose.Words cannot find any fonts among the available font sources, it renders the document using the free Fanwood font that is embedded into the Aspose.Words assembly.<br>
+1. Finally, if Aspose.Words cannot find any fonts among the available font sources, it renders the document using the free Fanwood font that is embedded into the Aspose.Words package.<br>
 
-If **FontInfo** is available, the *FontInfo substitution rule* will always resolve the font and override the default font rule. If you want to use the default font rule, you should disable the *FontInfo substitution rule*. Note that the *FontConfig substitution rule* will resolve the font in most cases, and thus overrides all other rules.
+If [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) is available, the *FontInfo substitution rule* will always resolve the font and override the default font rule. If you want to use the default font rule, you should disable the *FontInfo substitution rule*. Note that the *FontConfig substitution rule* will resolve the font in most cases, and thus overrides all other rules.
 
 ## Font FallBack Settings from XML
 
 There are two different mechanisms used in Aspose.Words — Font substitution and Font fallback. Font substitution is used when the font specified in the document could not be found among the font sources as it was described in the above sections. The Font fallback mechanism is used when the font is resolved, but it does not contain a specific character. In this case, Aspose.Words tries to use one of the fallback fonts for the character.
 
-There is a **build_automatic** method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the **FontFallbackSettings** class. This class specifies settings of the font fallback mechanism . You can get an instance of the **FontFallbackSettings** class as follows:
+There is a [build_automatic](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontfallbacksettings/build_automatic/) method that automatically builds the fallback settings by scanning available fonts. Since this method may produce a non-optimal fallback setting, you can control the font fallback behavior by using the properties of the [FontFallbackSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontfallbacksettings/) class. This class specifies settings of the font fallback mechanism. You can get an instance of the [FontFallbackSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontfallbacksettings/) class as follows:
 
 {{< highlight python >}}
 settings = fontSettings.fallback_settings
@@ -168,7 +168,7 @@ In the above code example, the following XML file is used:
 
 ## Predefined Font FallBack Settings for Google Noto Fonts
 
-Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The **FontFallbackSettings** class provides a **load_noto_fallback_settings** method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
+Aspose.Words provides predefined font fallback settings for Google Noto fonts. These are free fonts licensed under SIL Open Font License, that can be downloaded from Google Noto Fonts. The [FontFallbackSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontfallbacksettings/) class provides a [load_noto_fallback_settings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontfallbacksettings/load_noto_fallback_settings/) method. It loads predefined fallback settings, which use Google Noto fonts as shown in the code example below:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetPredefinedFontFallbackSettings.py" >}}
 

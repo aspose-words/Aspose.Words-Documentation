@@ -12,7 +12,7 @@ aliases: [/python/working-with-columns-and-rows/]
 
 ## Finding the Index of Table Elements
 
-Finding the index of any node involves gathering all child nodes of the element’s type from the parent node then using the **NodeCollection.index_of** method to find the index of the desired node in the collection.
+Finding the index of any node involves gathering all child nodes of the element’s type from the parent node then using the [NodeCollection.index_of](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/index_of/) method to find the index of the desired node in the collection.
 
 ### Finding the Index of Table in a Document
 
@@ -42,7 +42,7 @@ In both Word documents and in the Aspose.Words Document Object Model, there is n
 
 Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells in the same way that tables are represented in Aspose.Words.
 
-In the Aspose.Words Document Object Model a **Table** node is made up of **Row** and then **Cell** nodes. There is also no native support for columns.
+In the Aspose.Words Document Object Model a [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node is made up of [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and then [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) nodes. There is also no native support for columns.
 
 You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example demonstrates a facade object for working with a column of a table.
 
@@ -60,7 +60,7 @@ Below example shows how to remove a column from a table in a document.
 
 In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or many rows in a table.
 
-In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the **RowFormat.heading_format** property.
+In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the [RowFormat.heading_format](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/heading_format/) property.
 
 {{% alert color="primary" %}}
 
@@ -76,7 +76,7 @@ The code example given below demonstrates how to build a table which includes h
 
 When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance, you can use the AutoFit to Window option to fit the table to the width of the page and AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents.
 
-By default, Aspose.Words inserts a new table using “**AutoFit to Window”**. The table will size to the available width on the page. To change the sizing behavior on such a table or an existing table you can call **Table.auto_fit** method. This method accepts an **AutoFitBehavior** enumeration which defines what type of auto fitting is applied to the table.
+By default, Aspose.Words inserts a new table using “**AutoFit to Window”**. The table will size to the available width on the page. To change the sizing behavior on such a table or an existing table you can call [Table.auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/auto_fit/) method. This method accepts an [AutoFitBehavior](https://reference.aspose.com/words/python-net/aspose.words.tables/autofitbehavior/) enumeration which defines what type of auto fitting is applied to the table.
 
 As in Microsoft Word, the autofit method is actually a shortcut which applies different properties to the table all at once. These properties are actually what give the table the observed behavior. We will discuss these properties for each autofit option.
 
@@ -88,9 +88,9 @@ The code example given below demonstrates autofits a table to fit the page widt
 
 When autofit to the window is applied to a table the following operations are actually being performed behind the scenes:
 
-1. The **Table.allow_auto_fit** property is enabled to automatically resize columns to the available content.
-1. A **Table.preferred_width** value of 100% is applied.
-1. The **CellFormat.preferred_width** is removed from all cells in the table. Note this is a little bit different to how Microsoft Word performs this step. In Microsoft Word, the preferred width of each cell is set to suitable values based on their current size and content. Aspose.Words does not update preferred width so instead, they are just cleared.
+1. The [Table.allow_auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) property is enabled to automatically resize columns to the available content.
+1. A [Table.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/table/preferred_width/) value of 100% is applied.
+1. The [CellFormat.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/) is removed from all cells in the table. Note this is a little bit different to how Microsoft Word performs this step. In Microsoft Word, the preferred width of each cell is set to suitable values based on their current size and content. Aspose.Words does not update preferred width so instead, they are just cleared.
 1. The column widths are recalculated for the current content of the table.
    The end result is a table that occupies all available width. The widths of the columns in the table change automatically as the user edits the text in MS Word.
 
@@ -104,13 +104,13 @@ The code example given below demonstrates autofits a table in the document to i
 
 When a table is an auto fitted to contents the following steps are actually undertaken behind the scenes:
 
-1. The **Table.allow_auto_fit** property is enabled to automatically resize each cell to accommodate its contents.
-1. The table-wide preferred width under **Table.preferred_width** is removed.
-1. The **CellFormat.preferred_width** is removed for every cell in the table.
+1. The [Table.allow_auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) property is enabled to automatically resize each cell to accommodate its contents.
+1. The table-wide preferred width under [Table.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/table/preferred_width/) is removed.
+1. The [CellFormat.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/) is removed for every cell in the table.
 1. The column widths are recalculated for the current content in the table.
    The end result is a table whose column widths and the entire table width change automatically to best accommodate the content as the user edits the text in MS Word.
 
-Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the **Table.allow_auto_fit** property to True on its own instead of using the autofit shortcut.
+Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the [Table.allow_auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) property to `True` on its own instead of using the autofit shortcut.
 
 {{% /alert %}}
 
@@ -122,14 +122,14 @@ The code example given below demonstrates how to disable autofitting and enables
 
 When a table has auto fit disabled and fixed column widths used instead the following steps are taken:
 
-1. The **Table.allow_auto_fit** property is disabled so columns do not grow or shrink to their contents.
-1. The table-wide preferred width is removed from **Table.preferred_width**.
-1. The **CellFormat.preferred_width** is removed from all cells in the table.
-   The end result is a table whose column widths are defined using the **CellFormat.width** property and whose columns do not automatically resize when the user enter texts or the page size is modified.
+1. The [Table.allow_auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) property is disabled so columns do not grow or shrink to their contents.
+1. The table-wide preferred width is removed from [Table.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/table/preferred_width/).
+1. The [CellFormat.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/) is removed from all cells in the table.
+   The end result is a table whose column widths are defined using the [CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
 
 {{% alert color="primary" %}}
 
-Note that if no width is defined for **CellFormat.width** then a default value of one inch (72 points) is used.
+Note that if no width is defined for [CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) then a default value of one inch (72 points) is used.
 
 {{% /alert %}}
 
@@ -146,7 +146,7 @@ We will use the table below in our example. By default, it has the properties ab
 
 ### Keeping a Row from Breaking across Pages
 
-This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the **RowFormat** object of a **Row** as the property **RowFormat.allow_break_across_pages**. The code example given below demonstrates how to disable rows breaking across pages for every row in a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
+This involves restricting content inside the cells of a row from being split across a page. In Microsoft Word, this can found under Table Properties as the option “Allow row to break across pages”. In Aspose.Words this is found under the [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/) object of a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) as the property [RowFormat.allow_break_across_pages](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/allow_break_across_pages/). The code example given below demonstrates how to disable rows breaking across pages for every row in a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-RowFormatDisableBreakAcrossPages.py" >}}
 
@@ -154,7 +154,7 @@ This involves restricting content inside the cells of a row from being split acr
 
 To stop a table from splitting across the page we need to state that we wish the content contained within the table to stay together. In Microsoft Word, this involves selecting the table and enabling “Keep with Next” under Paragraph Format.
 
-In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have **ParagraphFormat.keep_with_next** set to *True*. The exception is the last paragraph in the table which should be set to *False*. The code example given below demonstrates how to set a table to stay together on the same page. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
+In Aspose.Words the technique is the same. Each paragraph inside the cells of the table should have [ParagraphFormat.keep_with_next](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/keep_with_next/) set to `True`. The exception is the last paragraph in the table which should be set to `False`. The code example given below demonstrates how to set a table to stay together on the same page. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-KeepTableTogether.py" >}}
 
@@ -164,25 +164,25 @@ In a table, several cells can be merged together into a single cell. This is use
 
 ### Merged Cells in Aspose.Words
 
-In Aspose.Words, merged cells are represented by **CellFormat.horizontal_merge** and **CellFormat.vertical_merge**. The **CellFormat.horizontal_merge** property describes if the cell is part of a horizontal merge of cells. Likewise the **CellFormat.vertical_merge** property describes if the cell is a part of a vertical merge of cells.
+In Aspose.Words, merged cells are represented by [CellFormat.horizontal_merge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/horizontal_merge/) and [CellFormat.vertical_merge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/vertical_merge/). The [CellFormat.horizontal_merge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/horizontal_merge/) property describes if the cell is part of a horizontal merge of cells. Likewise the [CellFormat.vertical_merge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/vertical_merge/) property describes if the cell is a part of a vertical merge of cells.
 
 The values of these properties are what define the merge behavior of cells.
 
-- The first cell in a sequence of merged cells will have **CellMerge.FIRST**.
-- Any subsequently merged cells will have **CellMerge.PREVIOUS**.
-- A cell which is not merged will have **CellMerge.NONE**.
+- The first cell in a sequence of merged cells will have [CellMerge.FIRST](https://reference.aspose.com/words/python-net/aspose.words.tables/cellmerge/#first).
+- Any subsequently merged cells will have [CellMerge.PREVIOUS](https://reference.aspose.com/words/python-net/aspose.words.tables/cellmerge/#previous).
+- A cell which is not merged will have [CellMerge.NONE](https://reference.aspose.com/words/python-net/aspose.words.tables/cellmerge/#none).
 
 Sometimes when you load existing document cells in a table will appear merged. However, these can be in fact one long cell. Microsoft Word at times is known to export merged cells in this way. This can cause confusion when attempting to work with individual cells. There appears to be no particular pattern as to when this happens.
 
 ### Checking if a Cell is Merged
 
-To check if a cell is part of a sequence of merged cells, we simply check the **CellFormat.horizontal_merge** and **CellFormat.vertical_merge** properties. Below example prints the horizontal and vertical merge type of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
+To check if a cell is part of a sequence of merged cells, we simply check the [CellFormat.horizontal_merge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/horizontal_merge/) and [CellFormat.vertical_merge](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/vertical_merge/) properties. Below example prints the horizontal and vertical merge type of a cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CheckCellsMerged.py" >}}
 
 ### Merging Cells in a Table
 
-The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with **DocumentBuilder** you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to **CellMerge.NONE**. The code example given below demonstrates how to create a table with two rows with cells in the first row horizontally merged.
+The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to [CellMerge.NONE](https://reference.aspose.com/words/python-net/aspose.words.tables/cellmerge/#none). The code example given below demonstrates how to create a table with two rows with cells in the first row horizontally merged.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-HorizontalMerge.py" >}}
 
@@ -202,7 +202,7 @@ Depending on the version of the .NET Framework you are using, you may want to fu
 
 ### Convert To Horizontally Merged Cells
 
-In the latest versions of MS Word, the cells are merged horizontally by its width. Whereas, the merge flags were used in the older technique,  like Cell.CellFormat.HorizontalMerge. The merge flags are not used when cells are horizontally merged by their width and it is also not possible to detect which cells are merged. Aspose.Words provides ConvertToHorizontallyMergedCells method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags. It simply transforms the table and adds new cells when needed.
+In the latest versions of MS Word, the cells are merged horizontally by its width. Whereas, the merge flags were used in the older technique, like `Cell.cell_format.horizontal_merge`. The merge flags are not used when cells are horizontally merged by their width and it is also not possible to detect which cells are merged. Aspose.Words provides [convert_to_horizontally_merged_cells](https://reference.aspose.com/words/python-net/aspose.words.tables/table/convert_to_horizontally_merged_cells/) method to convert cells which are horizontally merged by its width to the cell horizontally merged by flags. It simply transforms the table and adds new cells when needed.
 
 The following code example shows the working of the above-mentioned method.
 

@@ -85,7 +85,7 @@ Although there are over 150 public classes and enumerations in Aspose.Words, the
 
 Developers who have previously used Microsoft Word Automation in their projects will find the names and behavior of many classes, methods, and properties familiar.
 
-**Document**, **Paragraph**, **Bookmark**, **Range**, **Section.page_setup** and **Paragraph.paragraph_format** are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
+[Document](https://reference.aspose.com/words/python-net/aspose.words/document/), [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/python-net/aspose.words/bookmark/), [Range](https://reference.aspose.com/words/python-net/aspose.words/range/), [Section.page_setup](https://reference.aspose.com/words/python-net/aspose.words/section/page_setup/) and [Paragraph.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/paragraph/paragraph_format/) are some of the Aspose.Words classes. At the same time, Aspose.Words is quite different from the Microsoft Word Object Model in that it represents a document as a tree of objects, more like an XML DOM tree. If you have worked with any XML DOM library, you will find it is easy to understand and work with Aspose.Words.
 
 ## Pricing and Policies
 

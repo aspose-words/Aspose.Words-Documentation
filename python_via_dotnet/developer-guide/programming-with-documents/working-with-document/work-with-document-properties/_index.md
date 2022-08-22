@@ -27,15 +27,15 @@ Note that you **cannot direct** Aspose.Words to change or remove this informatio
 
 To access document properties in Aspose.Words use:
 
-* **built_in_document_properties** to obtain built-in properties.
+* [built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) to obtain built-in properties.
 
-* **custom_document_properties** to obtain custom properties.
+* [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) to obtain custom properties.
 
-**built_in_document_properties** and **custom_document_properties** are collections of **DocumentProperty** objects. These objects can be obtained through the indexer property by name or by index.
+[built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) and [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) are collections of [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/) objects. These objects can be obtained through the indexer property by name or by index.
 
-**built_in_document_properties** additionally provides access to document properties through a set of entered properties that return values of the appropriate type. **custom_document_properties** enable you to add or remove document properties from a document.
+[built_in_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/built_in_document_properties/) additionally provides access to document properties through a set of entered properties that return values of the appropriate type. [custom_document_properties](https://reference.aspose.com/words/python-net/aspose.words/document/custom_document_properties/) enable you to add or remove document properties from a document.
 
-The **DocumentProperty** class allows you to get the name, value, and type of a document property. **value** returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.to_XXX** methods, such as **DocumentProperty.to_string** and **DocumentProperty.to_int**, to obtain the value of the appropriate type.
+The [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/) class allows you to get the name, value, and type of a document property. [value](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/value/) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.to_XXX** methods, such as **DocumentProperty.\_\_str\_\_** and [DocumentProperty.to_int](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/to_int/), to obtain the value of the appropriate type.
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
@@ -47,7 +47,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 {{% /alert %}}
 
-In Microsoft Word, you can access document properties using the “File → Properties” menu.
+In Microsoft Word, you can access document properties using the "File → Properties" menu.
 
 <img src="work-with-document-properties-1.png" alt="work-with-document-properties-1.png" style="width:400px"/>
 
@@ -55,9 +55,9 @@ In Microsoft Word, you can access document properties using the “File → Prop
 
 You cannot add or remove built-in document properties using Aspose.Words. You can only change or update their values.
 
-To add custom document properties with Aspose.Words, use the **add** method, passing the new property name and the value of the appropriate type. The method returns the newly created **DocumentProperty** object.
+To add custom document properties with Aspose.Words, use the [add](https://reference.aspose.com/words/python-net/aspose.words.properties/customdocumentproperties/add/) method, passing the new property name and the value of the appropriate type. The method returns the newly created [DocumentProperty](https://reference.aspose.com/words/python-net/aspose.words.properties/documentproperty/) object.
 
-To remove custom properties, use the **remove** method, passing it the property name to remove, or the **remove_at** method to remove the property by index. You can also remove all properties using the **clear** method.
+To remove custom properties, use the [remove](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/remove/) method, passing it the property name to remove, or the [remove_at](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/remove_at/) method to remove the property by index. You can also remove all properties using the [clear](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/clear/) method.
 
 The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
@@ -75,17 +75,17 @@ The following code example shows how to remove a custom document property:
 
 ## Update Built-In Document Properties
 
-Aspose.Words does not automatically update document properties, as Microsoft Word does with some properties, but provides a method to update some statistical built-in document properties. Call the **update_word_count** method to recalculate and update the following properties:
+Aspose.Words does not automatically update document properties, as Microsoft Word does with some properties, but provides a method to update some statistical built-in document properties. Call the [update_word_count](https://reference.aspose.com/words/python-net/aspose.words/document/update_word_count/) method to recalculate and update the following properties:
 
-* characters
-* characters_with_spaces
-* words
-* paragraphs
-* lines
+* [characters](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/characters/)
+* [characters_with_spaces](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/characters_with_spaces/)
+* [words](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/words/)
+* [paragraphs](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/paragraphs/)
+* [lines](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/lines/)
 
 ## Create a New Custom Property Linked to Content
 
-Aspose.Words provides the **add_link_to_content** method to create a new custom document property linked to content. This property returns the newly created property object or null if the **link_source** is invalid.
+Aspose.Words provides the [add_link_to_content](https://reference.aspose.com/words/python-net/aspose.words.properties/customdocumentproperties/add_link_to_content/) method to create a new custom document property linked to content. This property returns the newly created property object or null if the **link_source** is invalid.
 
 The following code example shows how to configure a link to a custom property:
 
@@ -93,7 +93,7 @@ The following code example shows how to configure a link to a custom property:
 
 ## Get Document Variables
 
-You can get a collection of document variables using the **variables** property. Variable names and values are strings.
+You can get a collection of document variables using the [variables](https://reference.aspose.com/words/python-net/aspose.words/document/variables/) property. Variable names and values are strings.
 
 The following code example shows how to add and access document variables:
 
@@ -107,7 +107,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 ## Remove Personal Information from Document
 
-If you want to share a Word document with other people, you may want to remove personal information such as author name and company. To do this use the **remove_personal_information** property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions, and document properties upon saving the document.
+If you want to share a Word document with other people, you may want to remove personal information such as author name and company. To do this use the [remove_personal_information](https://reference.aspose.com/words/python-net/aspose.words/document/remove_personal_information/) property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions, and document properties upon saving the document.
 
 The following code example shows how to remove personal information:
 

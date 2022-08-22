@@ -20,7 +20,7 @@ To encrypt a document, use the **password** property to provide a password that 
 
 {{% alert color="primary" %}}
 
-You can find the appropriate **password** property for the required format. Each document save format in the **aspose.words.saving** namespace has a corresponding class containing save options for this format. For example, the **password** property in the **DocSaveOptions** class for DOC, or the **password** property in the **OoxmlSaveOptions** class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
+You can find the appropriate **password** property for the required format. Each document save format in the [aspose.words.saving](https://reference.aspose.com/words/python-net/aspose.words.saving/) module has a corresponding class containing save options for this format. For example, the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/password/) property in the [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) class for DOC, or the [password](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/password/) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
 
 {{% /alert %}}
 
@@ -61,7 +61,7 @@ doc.save(artifacts_dir + "DocSaveOptions.SaveAsDoc.doc", options)
 
 In some cases, you may have an unreadable document and want to be sure that the document is encrypted and not corrupted or compressed.
 
-To detect if a document is encrypted and if a password is required, you can use the **is_encrypted** property of the **FileFormatInfo** class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
+To detect if a document is encrypted and if a password is required, you can use the [is_encrypted](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/is_encrypted/) property of the [FileFormatInfo](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
 
 The following code example shows how to detect the document encryption:
 

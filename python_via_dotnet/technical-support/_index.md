@@ -24,7 +24,7 @@ Please note that Aspose does not provide technical support over the phone. Phone
 If you need help with Aspose.Words, consider the following:
 
 * Make sure you are using the latest Aspose.Words version before reporting an issue. 
-* Have a look through the forums, this documentation, and the API Reference before reporting an issue – perhaps your question has already been answered.
+* Have a look through the forums, this documentation, and the [API Reference](https://reference.aspose.com/words/python-net/) before reporting an issue – perhaps your question has already been answered.
 * Post your question to the [Aspose.Words Forum](https://forum.aspose.com/c/words/8), and it will be answered within a few hours. Questions are answered directly by the Aspose.Words development team.
 * When expecting a reply on the forums, please allow for time zone differences.
 
