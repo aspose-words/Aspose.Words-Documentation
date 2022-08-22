@@ -29,7 +29,7 @@ In addition, you can add a mail merge region in your template by inserting two m
 
 You can create a template and add specific merge fields to it, that will be replaced by the values from the data source either manually, for example, using Microsoft Word, or programmatically using Aspose.Words. In this article, we will look at the programmatic way of creating a template.
 
-Use the **DocumentBuilder** class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the **insert_text_input**, **inset_field**, and **insert_paragraph** methods.
+Use the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [insert_text_input](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_text_input/), [inset_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/), and [insert_paragraph](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_paragraph/) methods.
 
 The following code example shows how to create a mail merge template:
 

@@ -12,7 +12,7 @@ aliases: [/python/working-with-ole-objects-and-online-video/]
 
 ## Inserting Ole Object
 
-If you want Ole Object call **DocumentBuilder.insert_ole_object**. Pass to this method the ProgId explicitly with other parameters. The code example given below shows how to insert Ole Object into a document.
+If you want Ole Object call [DocumentBuilder.insert_ole_object](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_ole_object/). Pass to this method the ProgId explicitly with other parameters. The code example given below shows how to insert Ole Object into a document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-DocumentBuilderInsertOleObject.py" >}}
 
@@ -24,13 +24,13 @@ OLE package is a legacy and "undocumented" way to store embedded objects if the 
 
 ### Get Access to OLE Object Raw Data
 
-The following code example demonstrates how to get OLE Object raw data using **OleFormat.get_raw_data** method.
+The following code example demonstrates how to get OLE Object raw data using [OleFormat.get_raw_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/oleformat/get_raw_data/) method.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-GetAccessToOLEObjectRawData.py" >}}
 
 ### Insert Ole Object as Icon
 
-The following code example shows how to insert OLE Object as an icon. For this purpose, the **DocumentBuilder** class exposes the **insert_ole_object_as_icon** method.
+The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class exposes the [insert_ole_object_as_icon](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_ole_object_as_icon/) method.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_ole_objects_and_active_x-InsertOLEObjectAsIcon.py" >}}
 The following code example demonstrates how to inserts an embedded OLE object as an icon from a stream into the document.
@@ -38,7 +38,7 @@ The following code example demonstrates how to inserts an embedded OLE object as
 
 ## Inserting Online Video
 
-Online video can be inserted in MS Word from Insert tab > Online Video. You can insert online video into the document at the current location by calling **DocumentBuilder.insert_online_video** method. Four overloads of this method have introduced in DocumentBuilder class. The first one works with the most popular video resources and takes the URL to the video as a parameter. 
+Online video can be inserted in MS Word from Insert tab > Online Video. You can insert online video into the document at the current location by calling [DocumentBuilder.insert_online_video](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_online_video/) method. Four overloads of this method have introduced in [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class. The first one works with the most popular video resources and takes the URL to the video as a parameter. 
 
 {{< highlight python >}}
 doc = aw.Document()

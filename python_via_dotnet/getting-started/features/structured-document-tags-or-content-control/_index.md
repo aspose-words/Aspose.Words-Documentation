@@ -13,13 +13,13 @@ aliases: [/python/structured-document-tags-or-content-control/]
 
 Structured document tags (SDT or content control) allow to embed customer-defined semantics as well as its behavior and appearance into a document.
 
-StructuredDocumentTag can occur in a document in the following places:
+[StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) can occur in a document in the following places:
 
-- Block-level – Among paragraphs and tables, as a child of a Body, HeaderFooter, Comment, Footnote or a Shape node.
-- Row-level – Among rows in a table, as a child of a Table node.
-- Cell-level – Among cells in a table row, as a child of a Row node.
-- Inline-level – Among inline content inside, as a child of a Paragraph.
-- Nested inside another StructuredDocumentTag.
+- Block-level – Among paragraphs and tables, as a child of a [Body](https://reference.aspose.com/words/python-net/aspose.words/body/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/), [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) or a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) node.
+- Row-level – Among rows in a table, as a child of a [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node.
+- Cell-level – Among cells in a table row, as a child of a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) node.
+- Inline-level – Among inline content inside, as a child of a [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/).
+- Nested inside another [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/).
 
 Aspose.Words supports the creation of following types of Structured document tags:
 

@@ -34,18 +34,18 @@ You can try this functionality with our [Free online document splitter](https://
 
 Aspose.Words allows you to split EPUB or HTML documents into chapters according to various criteria. In the process, the style and layout of the source document are preserved for the output documents.
 
-You can specify criteria using the **DocumentSplitCriteria** enumeration. So you can divide a document into chapters using one of the following criteria or combine more than one criteria together:
+You can specify criteria using the [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/) enumeration. So you can divide a document into chapters using one of the following criteria or combine more than one criteria together:
 
 - heading paragraph,
 - section break,
 - column break,
 - page break.
 
-When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
+When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/) value you used. So, using [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/) for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
 
 {{% alert color="primary" %}}
 
-You cannot split a document using the **document_split_criteria** property when saving to MHTML format.
+You cannot split a document using the [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/) property when saving to MHTML format.
 
 {{% /alert %}}
 
@@ -53,9 +53,9 @@ In this section, we consider only some of the possible split criteria.
 
 ### Split a Document by Headings {#split-a-document-by-headings}
 
-To split a document into chapters by headings, use the **HEADING_PARAGRAPH** value of the **document_split_criteria** property.
+To split a document into chapters by headings, use the [HEADING_PARAGRAPH](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/#HEADING_PARAGRAPH) value of the [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/) property.
 
-If you need to split a document by a specific level of heading paragraphs, such as headings 1, 2, and 3, use also the **document_split_heading_level** property. The output will be divided by paragraphs formatted with the specified heading level.
+If you need to split a document by a specific level of heading paragraphs, such as headings 1, 2, and 3, use also the [document_split_heading_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_heading_level/) property. The output will be divided by paragraphs formatted with the specified heading level.
 
 The following code example shows how to split a document into smaller parts by heading:
 
@@ -67,21 +67,21 @@ When saving to EPUB, the document is not split into several files, and there wil
 
 ### Split a Document by Sections {#split-a-document-by-sections}
 
-Aspose.Words also enables you to use section breaks to split documents and save them to HTML. For this purpose, use **SECTION_BREAK** as the **document_split_criteria**:
+Aspose.Words also enables you to use section breaks to split documents and save them to HTML. For this purpose, use [SECTION_BREAK](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/#section_break) as the [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySectionsHtml.py" >}}
 
 There is another way to split the source document into multiple output documents, and you can choose any output format supported by Aspose.Words.
 
-The following code example shows how to split a document into smaller parts by section breaks (without using the document_split_criteria property):
+The following code example shows how to split a document into smaller parts by section breaks (without using the [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/) property):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySections.py" >}}
 
 ## Splitting by Pages {#splitting-by-pages}
 
-You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the **extract_pages** method can do the job.
+You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [extract_pages](https://reference.aspose.com/words/python-net/aspose.words/document/extract_pages/) method can do the job.
 
-This section describes several use cases of dividing documents by paged using the **Document** class and the **extract_pages** method.
+This section describes several use cases of dividing documents by paged using the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class and the [extract_pages](https://reference.aspose.com/words/python-net/aspose.words/document/extract_pages/) method.
 
 {{% alert color="primary" %}}
 

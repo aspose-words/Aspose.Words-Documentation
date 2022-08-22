@@ -20,7 +20,7 @@ This topic discusses how to implement Markdown features using Aspose.Words. Mark
 
 The Markdown feature implementation mostly follows the CommonMark specification in Aspose.Words API and all the features are represented as corresponding styles or direct formatting. Which means that
 
-- Bold and Italic are represented as Font.Bold and Font.Italic. 
+- Bold and Italic are represented as [Font.bold](https://reference.aspose.com/words/python-net/aspose.words/font/bold/) and [Font.Italic](https://reference.aspose.com/words/python-net/aspose.words/font/italic/). 
 - Headings are paragraphs with Heading 1 - Heading 6 styles. 
 - Quotes are paragraphs with "Quote" in the style name. 
 - HorizontalRule is a paragraph with HorizontalRule shape.
@@ -107,7 +107,7 @@ The following code snippet shows you how to read a markdown document.
 
 ## Specify Markdown Save Options
 
-Aspose.Words API provides **MarkdownSaveOptions** class to specify additional options while saving a document into the Markdown format.
+Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class to specify additional options while saving a document into the Markdown format.
 
 The following code example demonstrated how to specify various Markdown save options.
 
@@ -115,6 +115,6 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides **TableContentAlignment** enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/python-net/aspose.words.saving/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_markdown_save_options-ExportIntoMarkdownWithTableContentAlignment.py" >}}

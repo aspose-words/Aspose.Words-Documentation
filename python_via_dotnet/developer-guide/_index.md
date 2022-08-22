@@ -20,4 +20,4 @@ To learn more about Aspose.Words features, select the corresponding section:
 - *"LINQ Reporting Engine"* – provides information about building reports using an extended set of reporting features.
 - *"Programming with Documents"* – provides information on how to programmatically create, modify, and manage documents including changing both their content and visual appearance.
 
-For a detailed description of classes, methods, and properties refer to the Aspose.Words for Python via .NET API Reference section.
+For a detailed description of classes, methods, and properties refer to the Aspose.Words for Python via .NET [API Reference](https://reference.aspose.com/words/python-net/).

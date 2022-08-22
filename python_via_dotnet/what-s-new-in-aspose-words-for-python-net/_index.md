@@ -32,7 +32,7 @@ The API is enhanced for more flexible and convenient development.
 
 #### New Priting Size <sup>22.5</sup>
 
-Support for the “Envelope No. 10” print page size has been added by introducing a new value to the **PaperSize** enumeration.
+Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) enumeration.
 
 #### Rendering MathML Formulas <sup>22.5</sup>
 
@@ -50,7 +50,7 @@ Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So no
 
 #### Set shape shadow formatting <sup>22.7</sup>
 
-The ability to set the shadow formatting of the shape object has been provided by adding a new **ShadowFormat** property.
+The ability to set the shadow formatting of the shape object has been provided by adding a new [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) property.
 
 #### Support for Cell Spacing in Tables <sup>22.8</sup>
 
@@ -72,7 +72,7 @@ The ability to load and convert PDF documents to fixed page formats with high fi
 
 #### New HTML import mode <sup>22.7</sup>
 
-A new HTML import mode for block-level elements has been introduced by adding a new value to the **HtmlInsertOptions** enumeration.
+A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/) enumeration.
 
 #### Convert to PDF/UA-1 compliant with WCAG 2.0 <sup>22.7</sup>
 
@@ -142,7 +142,7 @@ The following improvements have been made to the DML charts:
 
 #### Rendering to PDF with PDF/A-4 Compliance
 
-Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the **PdfCompliance** enumeration – PdfA4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
+Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) enumeration – [PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4). This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
 
 #### Reading of Photoshop metadata resolution in JPEG
 
@@ -156,15 +156,15 @@ Support for the "Allow Latin text to wrap in the middle of a word" feature has b
 
 #### Controlling Style Behavior When Loading a Document
 
-A new option **ForceCopyStyles** has been introduced to control the behavior of conflicting styles upon document import.
+A new option [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) has been introduced to control the behavior of conflicting styles upon document import.
 
 #### Convert Shapes to SVG When Exporting
 
-The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the **ExportShapesAsSvg** property.
+The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the [export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/) property.
 
 #### Saving to PDF 2.0 and Improvements in PDF Output
 
-The ability to save a document as PDF 2.0 by adding a new value to the **PdfCompliance** enumeration, as well as several other requested improvements to PDF output, have been introduced.
+The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) enumeration, as well as several other requested improvements to PDF output, have been introduced.
 
 #### New HTML Import Mode
 

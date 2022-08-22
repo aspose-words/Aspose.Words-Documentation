@@ -48,7 +48,7 @@ The actions that can be performed with bookmarks using Aspose.Words are the same
 
 ### Inserting a Bookmark
 
-Use **DocumentBuilder.start_bookmark** and **DocumentBuilder.end_bookmark** to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved. The following example adds some text into the document and encloses the text in a bookmark.
+Use [DocumentBuilder.start_bookmark](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_bookmark/) and [DocumentBuilder.end_bookmark](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_bookmark/) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods. Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved. The following example adds some text into the document and encloses the text in a bookmark.
 
 {{% alert color="primary" %}}
 
@@ -62,7 +62,7 @@ The following code example shows how to create a new bookmark.
 
 ### Obtaining Bookmarks
 
-Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the **Node.range** property exposed by any document node that returns a **Range** object representing the portion of the document contained in this node. Use this object to retrieve a **BookmarkCollection** and then use the collection indexer to get a specific bookmark.
+Sometimes it is necessary to obtain a bookmark collection to iterate through bookmarks or for other purposes. Use the [Node.range](https://reference.aspose.com/words/python-net/aspose.words/node/range/) property exposed by any document node that returns a [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) object representing the portion of the document contained in this node. Use this object to retrieve a [BookmarkCollection](https://reference.aspose.com/words/python-net/aspose.words/bookmarkcollection/) and then use the collection indexer to get a specific bookmark.
 
 The following code example shows how to obtain bookmarks from a bookmark collection. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Bookmarks.docx).
 
@@ -88,7 +88,7 @@ The following code example demonstrates how to access columns of the bookmarked 
 
 ### Moving to a Bookmark
 
-If you need to insert rich content (not just plain text) into a bookmark, you should use **DocumentBuilder.move_to_bookmark** to move the cursor to the bookmark and then use **DocumentBuilder** methods and properties to insert content.
+If you need to insert rich content (not just plain text) into a bookmark, you should use [DocumentBuilder.move_to_bookmark](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/move_to_bookmark/) to move the cursor to the bookmark and then use [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) methods and properties to insert content.
 
 ### Show Hide Bookmark Content
 

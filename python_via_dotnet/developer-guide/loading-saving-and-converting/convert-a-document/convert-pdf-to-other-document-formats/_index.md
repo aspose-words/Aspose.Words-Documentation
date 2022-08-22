@@ -23,9 +23,9 @@ The following code example shows how to convert a document from PDF to DOCX:
 
 ## Specify Load Options when Importing PDF {#specify-load-options-when-importing-pdf}
 
-Aspose.Words provides you with the **PdfLoadOptions** class, which allows more precise control over how PDF documents are loaded.
+Aspose.Words provides you with the [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) class, which allows more precise control over how PDF documents are loaded.
 
-Most properties inherit or overload properties that already exist in the **LoadOptions** class. In addition to them, a number of properties are specified for PDF format. For example, you can use the **page_count** and **page_index** properties to define the page range to be loaded from a PDF document, and the **skip_pdf_images** properties to control whether images should be skipped when loading PDF. Another supported parameter is the **password**, which must be provided for password-protected documents.
+Most properties inherit or overload properties that already exist in the [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) class. In addition to them, a number of properties are specified for PDF format. For example, you can use the [page_count](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/page_count/) and [page_index](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/page_index/) properties to define the page range to be loaded from a PDF document, and the [skip_pdf_images](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/skip_pdf_images/) properties to control whether images should be skipped when loading PDF. Another supported parameter is the [password](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/password/), which must be provided for password-protected documents.
 
 ## Supported PDF Content {#supported-pdf-content}
 

@@ -27,15 +27,15 @@ Aspose.Words takes the standard mail merge functionality and advances it many st
 
 {{% alert color="primary" %}}
 
-The **aspose.words.mailmerging** namespace is used to work with mail merging.
+The [aspose.words.mailmerging](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/) module is used to work with mail merging.
 
 {{% /alert %}}
 
 ## Mechanism and Main Components of a Mail Merge Operation {#mechanism-and-main-components-of-a-mail-merge-operation}
 
-Aspose.Words provides the ability to load documents in various [supported formats](https://reference.aspose.com/words/net/aspose.words/loadformat) and then allows users to perform a mail merge operation.
+Aspose.Words provides the ability to load documents in various [supported formats](https://reference.aspose.com/words/python-net/aspose.words/loadformat) and then allows users to perform a mail merge operation.
 
-Usually, a loaded document allows you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://reference.aspose.com/words/net/aspose.words/saveformat), and perform the mail merge operation.
+Usually, a loaded document allows you to store merge fields, for example, a document in DOCX format. But there are formats that do not store such fields, for example, TXT. If Aspose.Words supports loading such file formats, you can add the merge fields directly to the document model, save the document in a convenient [supported format](https://reference.aspose.com/words/python-net/aspose.words/saveformat), and perform the mail merge operation.
 
 The mail merge operation will merge your *mail merge template* and your *data source* to generate individual *merged documents*.
 
@@ -43,7 +43,7 @@ The mail merge operation will merge your *mail merge template* and your *data
 
 The goal of applying a mail merge operation using a merge template is to simplify the process of creating a document.
 
-There are several ways to create and design a merge template. You can use Microsoft Word, and the merge template does not have to be a Microsoft Word template, that is a document in the DOT or DOTX format, it can be a regular document in the DOC or DOCX format. You need to insert some special fields called merge fields into this template in places where you want data from your data source to be later inserted. Or you can programmatically create a merge template using the **DocumentBuilder** class.
+There are several ways to create and design a merge template. You can use Microsoft Word, and the merge template does not have to be a Microsoft Word template, that is a document in the DOT or DOTX format, it can be a regular document in the DOC or DOCX format. You need to insert some special fields called merge fields into this template in places where you want data from your data source to be later inserted. Or you can programmatically create a merge template using the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class.
 
 The merge template contains the main text, which should be the same in all output documents after you perform the mail merge operation. You can use any format for your template if there is an ability to add merge fields to it. All merge fields within your template will be filled in from your data source during the mail merge operation.
 

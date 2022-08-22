@@ -23,7 +23,7 @@ You can also combine mail merge fields with some additional fields using the *fo
 
 ## Create a Mustache Template
 
-The first important point to clarify is that Mustache is not a templating engine. Mustache is another syntax variant which is available for any template in a [load format](https://reference.aspose.com/words/net/aspose.words/loadformat) supported by Aspose.Words. Therefore, you can create such a template both programmatically and through an interface, you just need to include certain syntax and comply with the Mustache specification.
+The first important point to clarify is that Mustache is not a templating engine. Mustache is another syntax variant which is available for any template in a [load format](https://reference.aspose.com/words/python-net/aspose.words/loadformat) supported by Aspose.Words. Therefore, you can create such a template both programmatically and through an interface, you just need to include certain syntax and comply with the Mustache specification.
 
 Let's suppose that you need to send the same email to 50 recipients to personalize the greeting with their corresponding first names. You could replace the recipient's first name by some placeholder as the following:
 
@@ -43,7 +43,7 @@ As you notice from the example above, in Mustache you need to use curly braces f
 
 ## Work with Mustache Syntax
 
-Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the **use_non_merge_fields** property and set its value to *True*.
+Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property and set its value to *True*.
 
 ## Use IF Fields to Make a Mail Merge Intelligent
 
@@ -65,10 +65,10 @@ The following code example shows how to perform a mail merge operation with Must
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-UseOfifelseMustacheSyntax.py" >}}
 
-You can notice the difference between the document before applying the **use_non_merge_fields** property:
+You can notice the difference between the document before applying the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property:
 
 <img src="mustache-if-field-1.png" alt="mustache_if_field" style="width:800px"/>
 
-And after applying the **use_non_merge_fields** property:
+And after applying the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property:
 
 <img src="mustache-if-field-2.png" alt="mustache-if-field-2.png" style="width:800px"/>

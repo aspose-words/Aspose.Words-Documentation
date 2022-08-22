@@ -62,17 +62,17 @@ All versions of Microsoft Word provide special commands for inserting and workin
 
 ## Tables in Aspose.Words
 
-A table from any document loaded into Aspose.Words is imported as a **Table** node. A table can be found as a child of the main body of text, an inline story such as a comment or footnote, or within a cell as a nested table. Furthermore, tables can be nested inside other tables up to any depth.
+A table from any document loaded into Aspose.Words is imported as a [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node. A table can be found as a child of the main body of text, an inline story such as a comment or footnote, or within a cell as a nested table. Furthermore, tables can be nested inside other tables up to any depth.
 
-A **Table** node does not contain any real content - instead it is a container for other such nodes which make up the content:
+A [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node does not contain any real content - instead it is a container for other such nodes which make up the content:
 
-- A **Table** contains many **Row** nodes. A **Table** exposes all the normal members of a node which allows you to freely move, modify and remove the table in the document.
-- A **Row** represents a single row of a table and contains many **Cell** nodes. Additionally a **Row** provides members which define how a row is displayed, for example the height and alignment.
-- A **Cell** is what contains the true content seen in a table and is made up of **Paragraph** and other block level nodes. Additionally cells can contain further nested tables.
+- A [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) contains many [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) nodes. A [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) exposes all the normal members of a node which allows you to freely move, modify and remove the table in the document.
+- A [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) represents a single row of a table and contains many [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) nodes. Additionally a [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) provides members which define how a row is displayed, for example the height and alignment.
+- A [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) is what contains the true content seen in a table and is made up of [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) and other block level nodes. Additionally cells can contain further nested tables.
 
-This relationship is best represented by inspecting the structure of a **Table** node in a document through the use of **DocumentExplorer** .
+This relationship is best represented by inspecting the structure of a [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node in a document through the use of **DocumentExplorer**.
 
-You can see in the diagram above that the document contains a table which consists of one row which in turn consists of two cells. Each of the two cells contains a paragraph which is the container of the formatted text in a cell. In Aspose.Words all table related classes and properties are contained in the **aspose.words.tables** namespace.
+You can see in the diagram above that the document contains a table which consists of one row which in turn consists of two cells. Each of the two cells contains a paragraph which is the container of the formatted text in a cell. In Aspose.Words all table related classes and properties are contained in the [aspose.words.tables](https://reference.aspose.com/words/python-net/aspose.words.tables/) module.
 
 You should also notice table is succeeded with an empty paragraph. It is a requirement for a Microsoft Word document to have at least one paragraph after a table. This is used to separate consecutive tables and without it such consecutive tables would be joined together into one. This behavior is identical in both Microsoft Word and Aspose.Words.
 
@@ -96,73 +96,73 @@ A table can be inline where it is tightly positioned or can be floating where it
 
 ### Inserting a Table using DocumentBuilder
 
-In Aspose.Words a table is normally inserted using **DocumentBuilder**. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
+In Aspose.Words a table is normally inserted using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
-- **DocumentBuilder.start_table**
-- **DocumentBuilder.insert_cell**
-- **DocumentBuilder.end_row**
-- **DocumentBuilder.end_table**
-- **DocumentBuilder.writeln**
+- [DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/)
+- [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/)
+- [DocumentBuilder.end_row](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/)
+- [DocumentBuilder.end_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/)
+- [DocumentBuilder.writeln](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/writeln/)
 
 |Operation|Description|Table State|
 | :- | :- | :- |
-|**DocumentBuilder.start_table**|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![create-table-aspose-words-net](introduction-and-creating-tables-1.png)|
-|**DocumentBuilder.insert_cell**|Inserts a new row and cell into the table.|![insert-cell-table-aspose-words-net](introduction-and-creating-tables-2.png)|
-|**DocumentBuilder.writeln**|Writes some text into the current cell.|![fill-in-table-cell-aspose-words-net](introduction-and-creating-tables-3.png)|
-|**DocumentBuilder.insert_cell**|Appends a new cell at the end of the current row.|![append-cell-table-aspose-words-net](introduction-and-creating-tables-4.png)|
-|**DocumentBuilder.writeln**|Writes some text into the current cell (now the second cell).|![fill-in-cell-aspose-words-net](introduction-and-creating-tables-5.png)|
-|**DocumentBuilder.end_row**|Instructs the builder to end the current row and to begin a new row with the next call to **DocumentBuilder.insert_cell** .|![modify-table-aspose-words-net](introduction-and-creating-tables-6.png)|
-|**DocumentBuilder.insert_cell**|Creates a new row and inserts a new cell.|![create-row-table-aspose-words-net](introduction-and-creating-tables-7.png)|
-|**DocumentBuilder.writeln**|Inserts some text into the first cell of the second row.|![fill-in-row-table-aspose-words-net](introduction-and-creating-tables-8.png)|
-|**DocumentBuilder.end_table**|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![finish-creating-table-aspose-words-net](introduction-and-creating-tables-9.png)|
+|[DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/)|Starts building a new table at the current cursor position.<br>The table is created empty and has no rows or cells yet.|![create-table-aspose-words-net](introduction-and-creating-tables-1.png)|
+|[DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/)|Inserts a new row and cell into the table.|![insert-cell-table-aspose-words-net](introduction-and-creating-tables-2.png)|
+|[DocumentBuilder.writeln](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/writeln/)|Writes some text into the current cell.|![fill-in-table-cell-aspose-words-net](introduction-and-creating-tables-3.png)|
+|[DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/)|Appends a new cell at the end of the current row.|![append-cell-table-aspose-words-net](introduction-and-creating-tables-4.png)|
+|[DocumentBuilder.writeln](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/writeln/)|Writes some text into the current cell (now the second cell).|![fill-in-cell-aspose-words-net](introduction-and-creating-tables-5.png)|
+|[DocumentBuilder.end_row](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/)|Instructs the builder to end the current row and to begin a new row with the next call to [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/).|![modify-table-aspose-words-net](introduction-and-creating-tables-6.png)|
+|[DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/)|Creates a new row and inserts a new cell.|![create-row-table-aspose-words-net](introduction-and-creating-tables-7.png)|
+|[DocumentBuilder.writeln](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/writeln/)|Inserts some text into the first cell of the second row.|![fill-in-row-table-aspose-words-net](introduction-and-creating-tables-8.png)|
+|[DocumentBuilder.end_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/)|Called to finish off building the table. The builder cursor will now point outside the table ready to insert content after the table.|![finish-creating-table-aspose-words-net](introduction-and-creating-tables-9.png)|
 
 ### Algorithm for Creating a Table
 
-The basic algorithm for creating a table using **DocumentBuilder** is simple:
+The basic algorithm for creating a table using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) is simple:
 
-1. Start the table using **DocumentBuilder.start_table**.
-1. Insert a cell using **DocumentBuilder.insert_cell**. This automatically starts a new row. If needed, use the **DocumentBuilder.cell_format** property to specify cell formatting.
-1. Insert cell contents using the **DocumentBuilder** methods.
+1. Start the table using [DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/).
+1. Insert a cell using [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/). This automatically starts a new row. If needed, use the [DocumentBuilder.cell_format](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/cell_format/) property to specify cell formatting.
+1. Insert cell contents using the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) methods.
 1. Repeat steps 2 and 3 until the row is complete.
-1. Call **DocumentBuilder.end_row** to end the current row. If needed, use **DocumentBuilder.row_format** property to specify row formatting.
+1. Call [DocumentBuilder.end_row](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) to end the current row. If needed, use [DocumentBuilder.row_format](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/row_format/) property to specify row formatting.
 1. Repeat steps 2 - 5 until the table is complete.
-1. Call **DocumentBuilder.end_table** to finish the table building. The appropriate **DocumentBuilder** table creation methods are described below.
+1. Call [DocumentBuilder.end_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) to finish the table building. The appropriate [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) table creation methods are described below.
 
 #### Starting a Table
 
-Calling **DocumentBuilder.start_table** is the first step in building a table. It can be also called inside a cell, in which case it starts a nested table. The next method to call is **DocumentBuilder.insert_cell**.
+Calling [DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/) is the first step in building a table. It can be also called inside a cell, in which case it starts a nested table. The next method to call is [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/).
 
 #### Inserting a Cell
 
-After you call **DocumentBuilder.insert_cell**, a new cell is created and any content you add using other methods of the **DocumentBuilder** class will be added to the current cell. To start a new cell in the same row, call **DocumentBuilder.insert_cell** again. Use the **DocumentBuilder.cell_format** property to specify cell formatting. It returns a **CellFormat** object that represents all formatting for a table cell.
+After you call [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/), a new cell is created and any content you add using other methods of the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class will be added to the current cell. To start a new cell in the same row, call [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/) again. Use the [DocumentBuilder.cell_format](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/cell_format/) property to specify cell formatting. It returns a [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/) object that represents all formatting for a table cell.
 
 #### Ending a Row
 
-Call **DocumentBuilder.end_row** to finish the current row. If you call **DocumentBuilder.insert_cell** immediately after that, then the table continues on a new row.
+Call [DocumentBuilder.end_row](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) to finish the current row. If you call [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/) immediately after that, then the table continues on a new row.
 
-Use the **DocumentBuilder.row_format** property to specify row formatting. It returns a **RowFormat** object that represents all formatting for a table row.
+Use the [DocumentBuilder.row_format](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/row_format/) property to specify row formatting. It returns a [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/) object that represents all formatting for a table row.
 
 #### Ending a Table
 
-Call **DocumentBuilder.end_table** to finish the current table. This method should be called only once after **DocumentBuilder.end_row** was called. When called, **DocumentBuilder.end_table** moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
+Call [DocumentBuilder.end_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) to finish the current table. This method should be called only once after [DocumentBuilder.end_row](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) was called. When called, [DocumentBuilder.end_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-BuildTable.py" >}}
 
-Below example shows how to create a simple table using DocumentBuilder with default formatting.
+Below example shows how to create a simple table using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) with default formatting.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CreateSimpleTable.py" >}}
 
-Below example shows how to create a formatted table using DocumentBuilder.
+Below example shows how to create a formatted table using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FormattedTable.py" >}}
 
-Below example shows how to insert a nested table using DocumentBuilder.
+Below example shows how to insert a nested table using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-NestedTable.py" >}}
 
 ### Inserting a Table Directly into the Document Object Model
 
-You can insert tables directly into the DOM at a particular node position. The same table defaults are used as when using a **DocumentBuilder** to create a table. To build a new table from scratch without the use of **DocumentBuilder**, first create a new **Table** node using the appropriate constructor, and then add it to the document tree.
+You can insert tables directly into the DOM at a particular node position. The same table defaults are used as when using a [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) to create a table. To build a new table from scratch without the use of [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/), first create a new [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node using the appropriate constructor, and then add it to the document tree.
 
 Note that you must take into account that the table will initially be completely empty (i.e contains no child rows yet). In order to build the table you will first need to add the appropriate child nodes.
 
@@ -172,7 +172,7 @@ Below example shows how to insert a table using the constructors of nodes.
 
 ### Inserting a Clone of an Existing Table
 
-Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the **Table.clone** method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.clone](https://reference.aspose.com/words/python-net/aspose.words/node/clone/) method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneCompleteTable.py" >}}
 
@@ -191,7 +191,7 @@ Instead the desired output is achieved more easily by using Mail Merge or LINQ R
 
 ### Inserting a Table from HTML
 
-Aspose.Words supports inserting content into a document from an HTML source by using the **DocumentBuilder.insert_html** method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
+Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.insert_html](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableFromHtml.py" >}}
 
@@ -201,14 +201,14 @@ As described in previous articles, Aspose.Words provides several methods for ins
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder (**DocumentBuilder.start_table**)|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
-|Table(**Table**) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.ensure_minimum** must be called to create any missing child nodes.||
-|Cloning (**Table.clone**)|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
-|From an HTML source. (**DocumentBuilder.insert_html**)|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
+|DocumentBuilder ([DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/))|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
+|Table ([Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/)) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed [Table.ensure_minimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/) must be called to create any missing child nodes.||
+|Cloning ([Table.clone](https://reference.aspose.com/words/python-net/aspose.words/node/clone/))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
+|From an HTML source. ([DocumentBuilder.insert_html](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
 
 ## Extracting Plain Text from a Table
 
-A **Table** like any other node in Aspose.Words has access to a **Range** object. Using this object, you can call methods over the entire table range to extract the table as plain text. The **Range.text** property is used for this purpose. Below example shows how to print the text range of a table.
+A [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) like any other node in Aspose.Words has access to a [Range](https://reference.aspose.com/words/python-net/aspose.words/range/) object. Using this object, you can call methods over the entire table range to extract the table as plain text. The [Range.text](https://reference.aspose.com/words/python-net/aspose.words/range/text/) property is used for this purpose. Below example shows how to print the text range of a table.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractText.py" >}}
 

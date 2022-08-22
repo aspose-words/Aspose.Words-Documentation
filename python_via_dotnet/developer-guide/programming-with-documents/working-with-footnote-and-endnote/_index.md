@@ -12,13 +12,13 @@ aliases: [/python/working-with-footnote-and-endnote/]
 
 ## Insert Endnote and Set Numbering Options
 
-If you want to insert footnote or endnote in Word document, please use DocumentBuilder.InsertFootnote method. This method inserts a footnote or endnote into the document. EndnoteOptions and FootnoteOptions classes represent numbering options for footnote and endnote. The following code example demonstrates how to insert endnote into the document and set its numbering options. 
+If you want to insert footnote or endnote in Word document, please use [DocumentBuilder.insert_footnote](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_footnote/) method. This method inserts a footnote or endnote into the document. [EndnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/endnoteoptions/) and [FootnoteOptions](https://reference.aspose.com/words/python-net/aspose.words.notes/footnoteoptions/) classes represent numbering options for footnote and endnote. The following code example demonstrates how to insert endnote into the document and set its numbering options. 
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetEndnoteOptions.py" >}}
 
 ## How to Set Number of Footnote Layout Columns
 
-You can set the number of footnote layout columns using FootnoteOptions.Columns property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page. The following code example demonstrates how to set the number of columns for footnote layout.
+You can set the number of footnote layout columns using [FootnoteOptions.columns](https://reference.aspose.com/words/python-net/aspose.words.notes/footnoteoptions/columns/) property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page. The following code example demonstrates how to set the number of columns for footnote layout.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_footnote_and_endnote-SetFootNoteColumns.py" >}}
 
