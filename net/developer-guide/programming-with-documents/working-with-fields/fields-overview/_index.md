@@ -29,69 +29,7 @@ Here is a view of how a field is stored in Aspose.Words by using the “*Documen
 Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
 - All fields in a document are preserved during open/save and conversions.
-- It is possible to update results of some of the most popular fields.
-
-## Fields in Microsoft Word
-
-Fields in Microsoft Word documents are complex. There are over 50 field types (each needs its own result calculation procedure), formulas and expressions, bookmarks and references, functions and various switches. Fields can also be nested. Normally when a document is opened, the field result (the value of the field) is shown for all fields in the document. You can toggle the display of field result or field codes in Microsoft Word for all fields by pressing **ALT+F9**.
-
-|Field Code|Field Result|
-| :- | :- |
-|![field-code-result-aspose-words](fields-overview-3.png)|![todo:image_alt_text](fields-overview-4.png)|
-
-### Inserting Fields in Microsoft Word
-
-To insert a field in Microsoft Word:
-
-1. Click on the **Insert** menu.
-1. Click on the **Quick Parts** drop down menu
-1. Select **Field**
-1. You are presented with a screen which allows you to enter the details of the field. On the left side you are given a list of the possible fields and on the right side is a screen to visually edit the properties of the field.<br>
-![field-edit-aspose-words](fields-overview-5.png)
-1. Additionally you can press the **Field Codes** button which allows you to directly write out the field code.<br>
-![field-properties-aspose-words](fields-overview-6.png)
-1. Switches can also be inserted by using the **Options** button<br>
-![field-options-aspose-words](fields-overview-7.png)
-1. Using either method, fill in the desired fields with the appropriate information then press **Ok**.
-1. The field is inserted into the document at the current cursor position.<br>
-![insert-field-aspose-words](fields-overview-8.png)
-
-### Updating Fields in Microsoft Word
-
-To update a single field in Microsoft Word:
-
-1. Move the caret into the field that you want to update.
-1. Press **F9** to update the field.
-
-To update all fields in Microsoft Word:
-
-1. Press **Ctrl+A** to select all the content in the document.
-1. Press **F9** to update all of the fields found within the selection.
-
-### Switching Between Display of Field Code and Field Result
-
-To toggle field codes of a single field in Microsoft Word:
-
-1. Move the caret into the desired field.
-1. Press **SHIFT+F9** to toggle the field code just for this field.
-
-To toggle field codes of all fields in Microsoft Word:
-
-1. Press **ALT+F9**
-
-### Converting Fields to Static Text in Microsoft Word
-
-To convert a dynamic field to static text in Microsoft Word:
-
-1. Move the caret into the field that you want to convert.
-1. Press **Ctrl+Shift+F9** to convert the fields to static text.
-
-### Removing a Field in Microsoft Word
-
-To remove a field in Microsoft Word:
-
-1. Select the entire content making up the field. If field codes are displayed then the opening and ending braces need to be selected as well.
-1. Press **Delete** to remove the entire field.
+- It is possible to update results of the most fields.
 
 ## Fields in Aspose.Words
 
@@ -103,7 +41,7 @@ In Aspose.Words each of the **FieldXXX** nodes derives from FieldChar. This clas
 
 {{% alert color="primary" %}}
 
-There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a Shape object. This object provides properties to work with the image data normally stored in these fields.
+There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a Shape object. This object provides properties to work with the image data normally stored in these fields. To import INCLUDEPICTURE field as **FieldXXX** nodes the LoadOptions.PreserveIncludePictureField option must be specified as **true**.
 
 Form fields are also imported into Aspose.Words as their own special class. The FormField class represents a form field in a Word document and provides additional methods that are particular to a form field.
 
@@ -113,37 +51,80 @@ Form fields are also imported into Aspose.Words as their own special class. The 
 
 Calculation of the following fields is supported in the current version of Aspose.Words:
 
-- = (formula field)
+- = (formula)
 - ADDRESSBLOCK
+- ASK
 - AUTHOR
+- AUTONUM
+- AUTONUMLGL
+- AUTONUMOUT
+- AUTOTEXT
+- BARCODE
+- COMMENTS
 - COMPARE
 - CREATEDATE
-- DATE
 - DATABASE
+- DATE
+- DISPLAYBARCODE
 - DOCPROPERTY
 - DOCVARIABLE
+- EDITTIME
+- EQ
+- FILENAME
+- FILESIZE
+- FILLIN
+- FORMCHECKBOX
+- FORMDROPDOWN
+- FORMTEXT
+- GLOSSARY
+- GOTOBUTTON
 - GREETINGLINE
+- HYPERLINK
 - IF
+- IMPORT
+- INCLUDE
+- INCLUDEPICTURE
 - INCLUDETEXT
+- INDEX
+- INFO
+- KEYWORDS
+- LASTSAVEDBY
+- LISTNUM
+- MACROBUTTON
+- MERGEBARCODE
 - MERGEFIELD
 - MERGEREC
 - MERGESEQ
 - NEXT
 - NEXTIF
+- NOTEREF
+- NUMCHARS
 - NUMPAGES
+- NUMWORDS
 - PAGE
 - PAGEREF
+- PRINTDATE
+- QUOTE
 - REF
+- REVNUM
+- SAVEDATE
 - SECTION
 - SECTIONPAGES
 - SEQ
 - SET
+- SHAPE
+- SKIPIF
 - STYLEREF
+- SUBJECT
+- SYMBOL
+- TEMPLATE
 - TIME
 - TITLE
 - TOA
-- TOC (including TOT and TOF)
-- TC
+- TOC
+- USERADDRESS
+- USERINITIALS
+- USERNAME
 
 ### Sophisticated Parsing
 
@@ -208,14 +189,14 @@ Some examples of mail merge fields that Aspose.Words supports:
 
 A field in a document can have formatting switches that specify how the resulting value should be formatted. Aspose.Words supports the following format switches:
 
-- @ - date and time formatting
+- \\\@ - date and time formatting
 - \\\# - number formatting
-- \\\\\\\\* Caps
-- \\\\\\\\* FirstCap
-- \\\\\\\\* Lower
-- \\\\\\\\* Upper
-- \\\\\\\\* CHARFORMAT – format result according to the first character of the field code.
-- \\\\\\\\* MERGEFORMAT – format result according to how the old result is formatted.
+- \\\* Caps
+- \\\* FirstCap
+- \\\* Lower
+- \\\* Upper
+- \\\* CHARFORMAT – format result according to the first character of the field code.
+- \\\* MERGEFORMAT – format result according to how the old result is formatted.
 
 #### Date and Number Formatting in Fields
 
@@ -251,6 +232,29 @@ A field which is inserted using DocumentBuilder.InsertField returns a Field obje
 
 Below example shows how to rename merge fields in a Word document.
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs" >}}
+TODO UPDATE GIST "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs"
+```
+// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_WorkingWithFields();
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-MergeField.cs" >}}
+// Specify your document name here.
+Document doc = new Document(dataDir + "RenameMergeFields.doc");
+
+// Select all MERGEFIELD fields
+foreach (FieldMergeField mergeField in doc.Range.Fields.OfType<FieldMergeField>().ToList())
+    mergeField.FieldName = mergeField.FieldName + "_Renamed";
+
+dataDir = dataDir + "RenameMergeFields_out.doc";
+doc.Save(dataDir);
+```
+
+TODO DELETE GIST "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-MergeField.cs"
+
+## Field Display Result
+
+Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
+
+The following code example shows the usage of Filed.DisplayResult property.
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cs" >}}

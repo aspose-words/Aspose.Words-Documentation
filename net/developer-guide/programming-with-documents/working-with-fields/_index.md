@@ -19,4 +19,4 @@ Articles in this section explain how to use Aspose.Words classes to manipulate d
 - [Updating and Removing a Field](/words/net/updating-and-removing-a-field/)
 - [Applying Custom Formatting to Fields](/words/net/applying-custom-formatting-to-fields/)
 - [Insert Checkboxes, HTML or Images During Mail Merge](/words/net/insert-checkboxes-html-or-images-during-mail-merge/)
-- [Working with Hyperlinks and HTML](/words/net/working-with-hyperlinks-and-html/)
+- [Working with Hyperlinks](/words/net/working-with-hyperlinks/)

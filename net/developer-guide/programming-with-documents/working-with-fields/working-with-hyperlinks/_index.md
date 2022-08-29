@@ -1,12 +1,12 @@
 ﻿---
-title: Working with Hyperlinks and HTML in C#
+title: Working with Hyperlinks in C#
 second_title: Aspose.Words for .NET
-articleTitle: Working with Hyperlinks and HTML
-linktitle: Working with Hyperlinks and HTML
-description: "How to insert hyperlink or HTML document into your document using Aspose.Word for .NET in C#."
+articleTitle: Working with Hyperlinks
+linktitle: Working with Hyperlinks
+description: "How to insert hyperlink into your document using Aspose.Word for .NET in C#."
 type: docs
 weight: 50
-url: /net/working-with-hyperlinks-and-html/
+url: /net/working-with-hyperlinks/
 ---
 
 ## Inserting a Hyperlink
@@ -23,8 +23,4 @@ The FieldHyperlink class implements the HYPERLINK field. Below example finds al
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.cs" >}}
 
-## Inserting HTML
-
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cs" >}}
+TODO REMOVE GIST "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cs"

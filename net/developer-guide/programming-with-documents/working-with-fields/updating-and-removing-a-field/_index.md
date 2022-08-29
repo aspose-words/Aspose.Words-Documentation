@@ -44,50 +44,6 @@ You can use SaveOptions.UpdateLastSavedTimeProperty property whether to update t
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-WorkingWithSaveOptions-UpdateLastSavedTimeProperty.cs" >}}
 
-## Differences in Field Update in Aspose.Words 9.6 and Above
-
-Starting from Aspose.Words 9.6 the way that some fields are updated is slightly different, due to internal reworking of the field evaluation engine. These changes to the field engine allow fields to be more accurately updated and brings field updating in Aspose.Words closer to how field update in Microsoft Word behaves.
-
-With the implementation of this new engine the general behavior of field update remains the same with the exceptions which mostly affect how the **Document.UpdateFields** and **Document.UpdatePageLayout** methods behave. These important changes are detailed below:
-
-### Calling UpdateFields Now Updates All Field Types
-
-In previous versions calling Document.UpdateFields or Range.UpdateFields would update only regular fields such as IF or DOCPROPERTY and not page-layout related fields such as PAGE or NUMPAGES. Newer versions will now update both the regular and page-layout related fields.
-
-When **Document.UpdateFields** or **Range.UpdateFields** is called all fields are updated over the entire document/range. This may involve building the document layout if a page-layout related field like the PAGE field is encountered during the update. Below example shows how to update all fields in a document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-UpdateDocFields-UpdateDocFields.cs" >}}
-
-{{% alert color="primary" %}}
-
-A similar process occurs when a single field is updated using the Field.Update method. If this field is a regular field then only this field is updated as normal. However if this field is related to the page layout then the document layout is rebuilt and it is updated along with all other page related fields found in headers or footers.
-
-These changes in field evaluation may potentially cause results that differ from previous versions on certain documents when executing the same field update code.
-
-{{% /alert %}}
-
-### Calling UpdatePageLayout Now Only Updates Page-Layout Related Fields in Headers and Footers
-
-In previous versions a call to Document.UpdatePageLayout was required in order to update fields in the document like PAGE and PAGEREF. In the current version this functionality is handled by Document.UpdateFields which updates all types of fields as discussed above.
-
-**Document.UpdatePageLayout** is still used to build or rebuild the document layout when a document is to be rendered. When this method is called or a document is rendered (i.e. saved to PDF, XPS, printed etc.) the document layout is built. In previous versions this process would update all page-layout related fields, however in the current version these fields are automatically updated only in the headers and footers of the document.
-
-These changes to how fields are updated upon document layout are required and match how Microsoft Word updates fields. This now allows a document to be rendered without any fields in the main body being updated which is how fields are evaluated in Microsoft Word.
-
-If the old functionality of updating page-related fields in the entire document when rendering is desired then an explicit call to **Document.UpdateFields** is required before saving the document.
-
-### All Types of Fields Encountered during Mail Merge are Updated
-
-Previously only non page-related fields encountered during mail merge would be updated. Now all fields inside a mail merge region (or in the whole body if not using mail merge regions) are updated, including page-related fields.
-
-As with **Document.UpdateFields** this may invoke the document layout to be built if page-related fields are encountered. This behavior mimics how Microsoft Words handles field update during mail merge and ensures that after mail merge has been executed all fields are up to date with correct values.
-
-### Rebuilding TOC Fields No Longer Requires UpdatePageLayout to be Called
-
-As explained earlier, all fields are now updated using Document.UpdateFields. This now means a more concise and clearer way to update the fields in a document. This also means in situations such as updating a TOC field you no longer require any call to Document.UpdatePageLayout. All work is handled within the Document.UpdateFields call. Below examples shows how to completely rebuild TOC fields in the document by invoking field update.
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
-
 ## Removing a Field
 
 Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a TOC field when saving to HTML. A field inserted into the document using **DocumentBuilder.InsertField** returns a Field object which provides a convenience method to easily remove the field from the document. Below example removes a field from the document. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Various%20fields.docx).

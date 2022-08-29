@@ -43,6 +43,38 @@ If you want to insert untyped/empty fields ({}) just like MS Word allows, you ca
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
 
+## Inserting Fields into a Document using FieldBuilder
+The alternative way to insert fields in Aspose.Words is the FieldBuilder class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
+TODO ADD GIST
+{{
+// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_WorkingWithFields();
+
+Document doc = new Document();
+
+// Prepare IF field with two nested MERGEFIELD fields: { IF "left expression" = "right expression" "Firstname: { MERGEFIELD firstname }" "Lastname: { MERGEFIELD lastname }"}
+FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
+    .AddArgument("left expression")
+    .AddArgument("=")
+    .AddArgument("right expression")
+    .AddArgument(
+        new FieldArgumentBuilder()
+            .AddText("Firstname: ")
+            .AddField(new FieldBuilder(FieldType.FieldMergeField).AddArgument("firstname")))
+    .AddArgument(
+        new FieldArgumentBuilder()
+            .AddText("Lastname: ")
+            .AddField(new FieldBuilder(FieldType.FieldMergeField).AddArgument("lastname")));
+
+// Insert IF field in exact location            
+Field field = fieldBuilder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);            
+
+field.Update();
+
+doc.Save(dataDir + "FieldBuilder_out.docx");
+}}
+
 ## Inserting Fields using DOM
 
 ### Inserting Merge Field into a Document using DOM
