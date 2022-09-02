@@ -224,7 +224,26 @@ The [Document](https://reference.aspose.com/words/net/aspose.words/document) cla
 
 ## Finding the Field Code and Field Result
 
-A field which is inserted using DocumentBuilder.InsertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method **MailMerge.GetFieldNames**. Below example shows how to get names of all merge fields in a document.
+A field which is inserted using DocumentBuilder.InsertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field.
+
+TODO ADD GIST
+
+```
+// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_WorkingWithFields();
+
+// Specify your document name here.
+Document doc = new Document(dataDir + "RenameMergeFields.doc");
+
+foreach (Field field in doc.Range.Fields)
+{
+    string fieldCode = field.GetFieldCode();
+    string fieldResult = field.Result;
+}
+```
+
+Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method **MailMerge.GetFieldNames**. Below example shows how to get names of all merge fields in a document.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
 
