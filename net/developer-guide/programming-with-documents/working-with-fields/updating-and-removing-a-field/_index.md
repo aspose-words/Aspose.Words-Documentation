@@ -1,4 +1,4 @@
-﻿---
+---
 title: Updating and Removing a Field in C#
 second_title: Aspose.Words for .NET
 articleTitle: Updating and Removing a Field
@@ -8,6 +8,8 @@ type: docs
 weight: 30
 url: /net/updating-and-removing-a-field/
 ---
+
+Usually a field, when inserted in Microsoft Word, already contains an up to date value. For example, if the field is a formula or a page number, it will contain a correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields (for example combines two documents or populates with data) then for the document to be useful, all fields should ideally be updated.
 
 ## How to Update Fields
 

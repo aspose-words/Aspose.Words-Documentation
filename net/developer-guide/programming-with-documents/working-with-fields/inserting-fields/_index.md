@@ -1,13 +1,21 @@
-﻿---
-title: Inserting Fields in C#
+---
+title: Insert Fields in C#
 second_title: Aspose.Words for .NET
 articleTitle: Inserting Fields
 linktitle: Inserting Fields
-description: "Different ways to insert fields into your document using C#."
+description: "How to insert fields into a document using C# – learn different ways with code examples."
 type: docs
 weight: 20
 url: /net/inserting-fields/
 ---
+
+There are several different ways to insert fields into a document:
+
+* using DocumentBuilder
+* using FieldBuilder
+* using DOM
+
+In this article, we will look at each way in more detail and analyze how to insert certain fields using these options.
 
 ## Inserting Fields into a Document using DocumentBuilder
 
@@ -45,8 +53,8 @@ If you want to insert untyped/empty fields ({}) just like MS Word allows, you ca
 
 ## Inserting Fields into a Document using FieldBuilder
 The alternative way to insert fields in Aspose.Words is the FieldBuilder class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
-TODO ADD GIST
-{{
+
+{{< highlight csharp >}}
 // For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
 // The path to the documents directory.
 string dataDir = RunExamples.GetDataDir_WorkingWithFields();
@@ -73,9 +81,11 @@ Field field = fieldBuilder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 field.Update();
 
 doc.Save(dataDir + "FieldBuilder_out.docx");
-}}
+{{< /highlight >}}
 
 ## Inserting Fields using DOM
+
+You can also insert various types of fields using DOM.
 
 ### Inserting Merge Field into a Document using DOM
 

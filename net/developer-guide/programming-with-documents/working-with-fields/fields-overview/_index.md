@@ -9,45 +9,46 @@ weight: 10
 url: /net/fields-overview/
 ---
 
+Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
 
-Usually a field, when inserted in Microsoft Word, already contains an up to date value. For example, if the field is a formula or a page number, it will contain a correct calculated value for the given version of the document. But if you have an application that generates or modifies a document with fields (for example combines two documents or populates with data) then for the document to be useful, all fields should ideally be updated.
+- all fields in a document are preserved during open/save and conversions
+- it is possible to update results of the most fields
+
+In this article, we will learn more about field structure, the fields supported in Aspose.Words, and details of working with such fields.
+
+## Field Structure
 
 A field consists of:
 
-![fields-aspose-words](fields-overview-1.png)
-
-- The field start and separator nodes are used to encompass the content which makes up the field code (normally as plain text)
+- The field start and separator nodes are used to encompass the content which makes up the field code (normally as plain text).
 - The field separator and field end encompass the field result. This can be made up of various types of content ranging from runs of text to paragraphs to tables.
 - Some fields may not have a separator which means the entire content makes up the field code.
 - The field code defines the behavior of the field and is comprised of the field identifier and often other parameters such as field name and switches.
 - The field result contains the most recent evaluation of the field. This value is stored in the field result and is what is displayed to the user. Some fields may not have any field result thus will not display anything in the document. Likewise, some fields may not be updated yet therefore will also have no field result.
 
+![fields-aspose-words](fields-overview-1.png)
+
+The content which makes up the field code is stored as [Run](https://reference.aspose.com/words/net/aspose.words/run/) nodes between the [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) and [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/). The field result is stored between the **FieldSeparator** and [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of [block level nodes](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) such as **Table** and **Paragraph** nodes as well.
+
 Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
 ![document-explorer-aspose-words](fields-overview-2.png)
 
-Aspose.Words is a class library designed for server-side processing of Microsoft Word documents and supports fields in the following ways:
+## Fields in the Aspose.Words Document Object Model (DOM)
 
-- All fields in a document are preserved during open/save and conversions.
-- It is possible to update results of the most fields.
+When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of **FieldStart**, **FieldSeparator** and **FieldEnd** nodes along with the content in between these nodes. If a field does not have a field result then there will be no **FieldSeparator** node. All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) or [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)).
 
-## Fields in Aspose.Words
-
-When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of FieldStart, FieldSeparator and FieldEnd nodes along with the content in between these nodes. If a field does not have a field result then there will be no FieldSeparator node. All of these nodes are always found inline (as children of Paragraph or SmartTag).
-
-The content which makes up the field code is stored as Run nodes between the FieldStart and FieldSeparator. The field result is stored between the FieldSeparator and FieldEnd nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of block level nodes such as Table and Paragraph nodes as well.
-
-In Aspose.Words each of the **FieldXXX** nodes derives from FieldChar. This class provides a property to check the type of field represented by the specified node through the FieldChar.FieldType property. For example FieldType.FieldMergeField represents a merge field in the document.
+In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/). This class provides a property to check the type of field represented by the specified node through the [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) property. For example **FieldType.FieldMergeField** represents a merge field in the document.
 
 {{% alert color="primary" %}}
 
-There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a Shape object. This object provides properties to work with the image data normally stored in these fields. To import INCLUDEPICTURE field as **FieldXXX** nodes the LoadOptions.PreserveIncludePictureField option must be specified as **true**.
+There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) object. This object provides properties to work with the image data normally stored in these fields. To import INCLUDEPICTURE field as **FieldXXX** nodes the LoadOptions.PreserveIncludePictureField option must be specified as **true**.
 
 Form fields are also imported into Aspose.Words as their own special class. The FormField class represents a form field in a Word document and provides additional methods that are particular to a form field.
 
 {{% /alert %}}
 
-### Fields Supported during Update
+## Supported Fields
 
 Calculation of the following fields is supported in the current version of Aspose.Words:
 
@@ -126,19 +127,19 @@ Calculation of the following fields is supported in the current version of Aspos
 - USERINITIALS
 - USERNAME
 
-### Sophisticated Parsing
+## Sophisticated Field Parsing
 
 Aspose.Words follows the way Microsoft Word processes fields and as a result it correctly handles:
 
-- Nested fields
+- nested fields
   `: IF { =OR({ COMPARE { =2.5 +PRODUCT(3,5 ,8.4) } > 4}, { =2/2 }) } = 1 "Credit not acceptable" "Credit acceptable"`
-- Field argument can be a result of a nested field.
-- Fields can be nested within a field code as well as in the field result.
-- Spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
+- field argument can be a result of a nested field
+- fields can be nested within a field code as well as in the field result
+- spaces/no spaces, quotes/no quotes, escape characters in fields etc.:
   `MERGEFIELD \f"Text after""Field \n\ame with \" and \\\ and \\\*"\bTextBefor\e`
-- Fields that span across multiple paragraphs.
+- fields that span across multiple paragraphs
 
-#### Formula Fields
+### Formula Fields
 
 Aspose.Words provides a very serious implementation of the formula engine and supports the following:
 
@@ -153,7 +154,7 @@ Aspose.Words provides a very serious implementation of the formula engine and su
 
 The following functions in expressions are supported: ABS, AND, AVERAGE, COUNT, DEFINED, FALSE, IF, INT, MAX, MIN, MOD, NOT, OR, PRODUCT, ROUND, SIGN, SUM, TRUE.
 
-#### IF and COMPARE Fields
+### IF and COMPARE Fields
 
 Just some of the IF expressions that Aspose.Words can easily calculate should give you an idea of how powerful this feature is:
 
@@ -163,14 +164,14 @@ Just some of the IF expressions that Aspose.Words can easily calculate should gi
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-#### DATE and TIME Fields
+### DATE and TIME Fields
 
 Aspose.Words supports all date and time formatting switches available in Microsoft Word, some examples are:
 
 - `DATE @ "d-MMM-yy"`
 - `DATE @ "d/MM/yyyy h:mm am/pm`
 
-#### Mail Merge Fields
+### Mail Merge Fields
 
 Aspose.Words imposes no limit on the complexity of mail merge fields in your documents and supports nested IF and formula fields and can even calculate the merge field’s name using a formula.
 
@@ -185,7 +186,7 @@ Some examples of mail merge fields that Aspose.Words supports:
 - Conditional move to next record in the data source:
   `NEXTIF { MERGEFIELD Value1 } <= { =IF(-2.45 >= 6*{ MERGEFIELD Value2 }, 2, -.45) }`
 
-#### Format Switches
+### Format Switches
 
 A field in a document can have formatting switches that specify how the resulting value should be formatted. Aspose.Words supports the following format switches:
 
@@ -198,14 +199,14 @@ A field in a document can have formatting switches that specify how the resultin
 - \\\* CHARFORMAT – format result according to the first character of the field code.
 - \\\* MERGEFORMAT – format result according to how the old result is formatted.
 
-#### Date and Number Formatting in Fields
+### Date and Number Formatting in Fields
 
 When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions) class which allows further control over which culture is used during field update.
 
 - By default the FieldOptions.FieldUpdateCultureSource property is set to FieldUpdateCultureSource.CurrentThread which formats fields using the current thread culture.
 - This property can be set to FieldUpdateCultureSource.FieldCode so the language set from the field code of the field is used for formatting instead.
 
-#### Formatting using the Current Thread’s Culture
+### Formatting using the Current Thread’s Culture
 
 To control the culture used during field calculation, just set the **Thread.CurrentThread.CurrentCulture** property to a culture of your choice before invoking field calculation.
 Below example shows how to change the culture used in formatting fields during update.
@@ -214,7 +215,7 @@ Below example shows how to change the culture used in formatting fields during u
 
 Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
 
-#### Formatting using the Culture in the Document
+### Formatting using the Culture in the Document
 
 On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
