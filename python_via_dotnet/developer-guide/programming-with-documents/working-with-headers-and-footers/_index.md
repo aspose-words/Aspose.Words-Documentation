@@ -14,7 +14,7 @@ aliases: [/python/working-with-headers-and-footers/]
 
 {{% alert color="primary" %}}
 
-The following sample code demonstrates how to create headers/footers using DocumentBuilder..
+The following sample code demonstrates how to create headers/footers using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/)..
 
 Special attention is given to the following issues:
 
@@ -29,7 +29,7 @@ Special attention is given to the following issues:
 
 {{% /alert %}}
 
-Below example shows how to create headers footers using DocumentBuilder.
+Below example shows how to create headers footers using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_headers_and_footers-CreateHeaderFooterUsingDocBuilder.py" >}}
 

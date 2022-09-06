@@ -10,11 +10,11 @@ url: /python-net/working-with-styles-and-themes/
 aliases: [/python/working-with-styles-and-themes/]
 ---
 
-The **StyleCollection** class is used to manage built-in and apply user-defined settings to styles.
+The [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.
 
 ## Accessing Styles
 
-You can get a collection of styles defined in the document using the **Document.styles** property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document.
+You can get a collection of styles defined in the document using the [Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/) property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-AccessStyles.py" >}}
 
@@ -28,7 +28,10 @@ The solution for retrieving text formatted with specific styles in a Word docume
 
 ### The Solution
 
-To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document.At a high level, this will involve:# Opening a Word document using the **Document** class.# Getting collections of all paragraphs and all runs in the document.# Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
+To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document. At a high level, this will involve:
+- Opening a Word document using the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class.
+- Getting collections of all paragraphs and all runs in the document.
+- Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
 
 ![working-with-styles-and-themes-aspose-words-net](working-with-styles-and-themes-1.png)
 
@@ -37,19 +40,21 @@ In this sample document, the text formatted with the ‘Heading 1’ paragraph s
 
 ### The Code
 
-The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place.Two class methods are implemented for this solution:# **paragraphs_by_style_name** – This method retrieves an array of those paragraphs in the document that have a specific style name.# **runs_by_style_name** – This method retrieves an array of those runs in the document that have a specific style name.Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes.Here is an implementation of paragraphs_by_style_name : Below example find all paragraphs formatted with the specified style.
+The implementation of a style-based query is quite simple in the Aspose.Words document object model, as it simply uses tools that are already in place. Two class methods are implemented for this solution:
+- **paragraphs_by_style_name** – This method retrieves an array of those paragraphs in the document that have a specific style name.
+- **runs_by_style_name** – This method retrieves an array of those runs in the document that have a specific style name. Both these methods are very similar, the only differences being the node types and the representation of the style information within the paragraph and run nodes. Here is an implementation of `paragraphs_by_style_name` : Below example find all paragraphs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ParagraphsByStyleName.py" >}}
 
 {{% alert color="primary" %}}
 
-This implementation also uses the **Document.get_child_nodes** method of the **Document** class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
+This implementation also uses the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method of the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
-Note that the second parameter of the **Document.get_child_nodes** method is set to *True*. This forces the **Document.get_child_nodes** method to select from all child nodes recursively, rather than selecting the immediate children only.
+Note that the second parameter of the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method is set to `True`. This forces the [Document.get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) method to select from all child nodes recursively, rather than selecting the immediate children only.
 
 {{% /alert %}}
 
-It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the **Style.name** property of the **Paragraph.paragraph_format** object. The implementation of **runs_by_style_name** is almost the same, although we’re obviously using **NodeType.RUN** to retrieve run nodes. The **Font.style** property of a **Run** object is used to access style information in the **Run** nodes. Below example find all runs formatted with the specified style.
+It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphs_with_style array. The Paragraph style name can be found in the [Style.name](https://reference.aspose.com/words/python-net/aspose.words/style/name/) property of the [Paragraph.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/paragraph/paragraph_format/) object. The implementation of **runs_by_style_name** is almost the same, although we’re obviously using [NodeType.RUN](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#run) to retrieve run nodes. The [Font.style](https://reference.aspose.com/words/python-net/aspose.words/font/style/) property of a [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) object is used to access style information in the [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) nodes. Below example find all runs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-RunsByStyleName.py" >}}
 
@@ -69,7 +74,7 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## Copy All Styles from Template
 
-There are cases when you want to copy all styles from one document into another. You can use **Document.copy_styles_from_template** method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
+There are cases when you want to copy all styles from one document into another. You can use [Document.copy_styles_from_template](https://reference.aspose.com/words/python-net/aspose.words/document/copy_styles_from_template/) method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_styles_and_themes-CopyStyles.py" >}}
 
@@ -77,9 +82,9 @@ There are cases when you want to copy all styles from one document into another.
 
 We have added basic API in Aspose.Words to access document theme properties. For now, this API includes following public objects:
 
-- **Theme**
-- **ThemeFonts**
-- **ThemeColors**
+- [Theme](https://reference.aspose.com/words/python-net/aspose.words.themes/theme/)
+- [ThemeFonts](https://reference.aspose.com/words/python-net/aspose.words.themes/themefonts/)
+- [ThemeColors](https://reference.aspose.com/words/python-net/aspose.words.themes/themecolors/)
 
 Here is how you can get theme properties:
 

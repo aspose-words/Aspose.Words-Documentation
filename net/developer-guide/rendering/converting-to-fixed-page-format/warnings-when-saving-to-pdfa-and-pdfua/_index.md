@@ -3,7 +3,7 @@ title: Warnings When Saving to PDF/A and PDF/UA
 second_title: Aspose.Words for .NET
 articleTitle: Accessibility Issue Warnings When Saving to PDF/A and PDF/UA
 linktitle: Accessibility Issue Warnings When Saving to PDF/A and PDF/UA
-description: "PDF/A and PDF/UA impose accessibility requirements related to document content. When saving to PDF/A or PDF/UA and the issue violates compliance, a warning is issued."
+description: "PDF/A and PDF/UA impose accessibility requirements related to document content. When saving to PDF/A or PDF/UA in C# and the issue violates compliance, a warning is issued."
 type: docs
 weight: 29
 url: /net/warnings-when-saving-to-pdfa-and-pdfua/

@@ -117,7 +117,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|{{< emoticons/cross >}}|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|{{< emoticons/cross >}}|
 |Populate documents with data from any .NET data source such as DataSet, DataTable, DataView, DataReader or ADO Recordset.|{{< emoticons/cross >}}|
-|Populate documents from any data source such as a LINQ query, XML file or business objects by implementing the **IMailMergeDataSource** interface.|{{< emoticons/cross >}}|
+|Populate documents from any data source such as a LINQ query, XML file or business objects by implementing the [IMailMergeDataSource](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/imailmergedatasource/) interface.|{{< emoticons/cross >}}|
 |Take precise control, such as number formatting, over how your data is merged using events.|{{< emoticons/cross >}}|
 |Insert images during mail merge.|{{< emoticons/tick >}}|
 |Programmatically create or modify a Microsoft Word mail merge data source for a document. Preserve mail merge settings and data sources.|{{< emoticons/tick >}}|

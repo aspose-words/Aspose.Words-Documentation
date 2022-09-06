@@ -141,7 +141,7 @@ If a document contains any other content that should be marked as an artifact, o
 | PDF/A-2a                                           | {{< emoticons/tick >}}  |
 | PDF/UA-1                                           | {{< emoticons/tick >}}  |
 
-Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language to an output PDF with the *Lang* attribute attached to a marked-content sequence or a Span tag – it is controlled by the **ExportLanguageToSpanTag** property. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
+Text language is specified in Microsoft Word documents. Aspose.Words exports the specified language to an output PDF with the *Lang* attribute attached to a marked-content sequence or a Span tag – it is controlled by the [export_language_to_span_tag](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/export_language_to_span_tag/) property. Generally there are no language issues when text is entered by the user via Microsoft Word. But there is a possibility that the language may be inaccurate if the text is generated automatically.
 
 {{% alert color="secondary" %}}
 <details>

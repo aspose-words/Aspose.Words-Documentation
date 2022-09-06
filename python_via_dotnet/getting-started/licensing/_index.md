@@ -61,25 +61,25 @@ After purchasing a license, you need to carefully read the information on page [
 Licenses can be applied from various locations:
 
 * Explicit path
-* The folder containing the python script that calla Aspose.Words for Python via .NET
+* The folder containing the python script that calls Aspose.Words for Python via .NET
 * Stream
 * As a Metered License – a new licensing mechanism
 
 {{% alert color="primary" %}}
 
-Use the **set_license** method to license a component.
+Use the [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) method to license a component.
 
-Calling **set_license** multiple times is not harmful, it just wastes processor time.
+Calling [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) multiple times is not harmful, it just wastes processor time.
 
 {{% /alert %}}
 
 #### Apply License Using a File or Stream Object
 
-When developing your application, call **set_license** in your startup code before using Aspose.Words classes.
+When developing your application, call [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) in your startup code before using Aspose.Words classes.
 
 ##### Load a License from a File
 
-Using the **set_license** method, you can try to find the license file in the embedded resources or assembly folders for further use.
+Using the [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) method, you can try to find the license file in the embedded resources or assembly folders for further use.
 
 The following code example shows how to initialize a license from a folder:
 
@@ -97,7 +97,7 @@ except RuntimeError as err :
 
 ##### Load a License from a Stream Object
 
-The following code example shows how to initialize a license from a stream using another **set_license** method:
+The following code example shows how to initialize a license from a stream using another [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) method:
 
 {{< highlight python >}}
 lic = aw.License()
@@ -119,7 +119,7 @@ Aspose.Words allows developers to apply a metered key. This is a new licensing m
 
 The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
 
-After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the **Metered** class specially introduced for this purpose.
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/python-net/aspose.words/metered/) class specially introduced for this purpose.
 
 The following code example shows how to set metered public and private keys:
 
@@ -149,7 +149,7 @@ The license filename does not have to be "Aspose.Words.Python.NET.lic". You can 
 
 When you purchase and download a license, the Aspose website names the license file *"Aspose.Words.Python.NET.lic"*. You download the license file using your browser. In this case, some browsers recognize the license file as XML and append the .xml extension to it, so the full file name on your computer becomes *"Aspose.Words.Python.NET.lic.XML"*.
 
-When Microsoft Windows is configured to hide extensions for known file types (unfortunately, this is the default in most Windows installations), the license file will appear as *"Aspose.Words.Python.NET.lic"* in Windows Explorer. You will probably think that this is the real file name and call **set_license** passing it *"Aspose.Words.Python.NET.lic"*, but there is no such file, hence the exception.
+When Microsoft Windows is configured to hide extensions for known file types (unfortunately, this is the default in most Windows installations), the license file will appear as *"Aspose.Words.Python.NET.lic"* in Windows Explorer. You will probably think that this is the real file name and call [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) passing it *"Aspose.Words.Python.NET.lic"*, but there is no such file, hence the exception.
 
 To solve the problem, rename the file to remove the invisible .xml extension. We also recommend you disable the "hide extensions" option in Microsoft Windows.
 
@@ -157,5 +157,5 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 
 If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are a few useful tips:
 
-* Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **set_license** separately for each Aspose product that you use in your application.
-* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has **aspose.words.License** and Aspose.Cells has **aspose.cells.License** class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+* Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) separately for each Aspose product that you use in your application.
+* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [aspose.words.License](https://reference.aspose.com/words/python-net/aspose.words/license/) and Aspose.Cells has **aspose.cells.License** class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

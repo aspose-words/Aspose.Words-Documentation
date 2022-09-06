@@ -12,7 +12,7 @@ aliases:
  - /python/work-with-office-add-ins/
 ---
 
-Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the WebExtensions namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
+Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) module, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
 
 WebExtensions namespace can be conditionally divided into:
 
@@ -29,13 +29,13 @@ For example, using Aspose.Words API, you can add a task pane add-in and customiz
 
 Web Extensions are tools that expand the capabilities of Office applications and interact with Office document content. Web Extensions provide additional functionality to Office clients for improving user experience.
 
-Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the **WebExtension** and **TaskPane** classes, and also allows you to customize the pane and extension properties.
+Aspose.Words provides the ability to add Web Extensions of the Task Pane type using the [WebExtension](https://reference.aspose.com/words/python-net/aspose.words.webextensions/webextension/) and [TaskPane](https://reference.aspose.com/words/python-net/aspose.words.webextensions/taskpane/) classes, and also allows you to customize the pane and extension properties.
 
 The following code example shows how to create task panes and add to web extension task panes with basic properties: 
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_web_extension-UsingWebExtensionTaskPanes.py" >}}
 
-To see a list of task pane add-ins, use the **web_extension_task_panes** property.
+To see a list of task pane add-ins, use the [web_extension_task_panes](https://reference.aspose.com/words/python-net/aspose.words/document/web_extension_task_panes/) property.
 
 The following code example shows how to get such a list of add-ins:
 

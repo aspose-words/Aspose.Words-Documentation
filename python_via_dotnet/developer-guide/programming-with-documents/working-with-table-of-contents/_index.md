@@ -22,7 +22,7 @@ Often you will work with documents containing a table of contents (TOC). Using A
 
 ### Insert a Table of Contents Programmatically
 
-You can insert a TOC (table of contents) field into the document at the current position by calling the **DocumentBuilder.insert_table_of_contents** method.
+You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insert_table_of_contents](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_table_of_contents/) method.
 
 A table of contents in a Word document can be built in a number of ways and formatted using a variety of options. The field switches that you pass to the method control the way the table is built and displayed in your document.
 
@@ -30,7 +30,7 @@ The default switches that are used in a TOC inserted in Microsoft Word are **“
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertTableOfContents.py" >}}
 
-The code demonstrates the new table of contents being inserted into a blank document. The **DocumentBuilder** class is then used to insert some sample content formatting with the appropriate heading styles which are used to mark the content to be included in the TOC. The next lines then populate the TOC by updating the fields and page layout of the document.
+The code demonstrates the new table of contents being inserted into a blank document. The [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class is then used to insert some sample content formatting with the appropriate heading styles which are used to mark the content to be included in the TOC. The next lines then populate the TOC by updating the fields and page layout of the document.
 
 Without these calls when the output document is opened you would find that there would be a TOC field but with no visible content. This is because the TOC field has been inserted but is not yet populated until it’s updated in the document. Further information about this is discussed in the next section.
 
@@ -38,14 +38,14 @@ Without these calls when the output document is opened you would find that there
 
 Aspose.Words allows you to completely update a TOC with only a few lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made. The following two methods must be used in order to update the TOC fields in the document:
 
-1. **Document.update_fields**
-1. **Document.update_page_layout**
+1. [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/)
+1. [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/)
 
 Please note that these two update methods are required to be called in that order. If reversed the table of contents will be populated but no page numbers will be displayed. Any number of different TOCs can be updated. These methods will automatically update all TOCs found in the document. Below code sample shows how to completely rebuild TOC fields in the document by invoking field update.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-UpdateFields.py" >}}
 
-The first call to **Document.update_fields** will build the TOC, all text entries are populated and the TOC appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”. The second call to **Document.update_page_layout** will build the layout of the document in memory.  This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
+The first call to [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) will build the TOC, all text entries are populated and the TOC appears almost complete. The only thing missing is the page numbers which for now are displayed with “?”. The second call to [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) will build the layout of the document in memory. This needs to be done to gather the page numbers of the entries. The correct page numbers calculated from this call are then inserted into the TOC.
 
 ### Using Switches to Control the Behavior of the Table of Contents.
 
@@ -78,14 +78,14 @@ By default these switches above are included when inserting a default TOC in the
 
 ### Insert TC Fields
 
-You can insert a new TC field at the current position of the **DocumentBuilder** by calling the **DocumentBuilder.insert_field** method and specifying the field name as “TC” along with any switches that are needed. Below example shows how to insert a TC field into the document using **DocumentBuilder**.
+You can insert a new TC field at the current position of the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) by calling the [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) method and specifying the field name as “TC” along with any switches that are needed. Below example shows how to insert a TC field into the document using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertTCField.py" >}}
 
 
 ## Modify a Table of Contents
 
-The formatting of entries in the TOC do not use the original styles of the marked entries, instead each level is formatted using an equivalent TOC style. For example the first level in the TOC is formatted with the **TOC1** style, the second level formatted with the **TOC2** style and so on. This means that to change the look of the TOC these styles must be modified. In Aspose.Words these styles are represented by the locale independent **StyleIdentifier.TOC1** through to **StyleIdentifier.TOC9** and can be retrieved from the **Document.styles** collection using these identifiers.
+The formatting of entries in the TOC do not use the original styles of the marked entries, instead each level is formatted using an equivalent TOC style. For example the first level in the TOC is formatted with the **TOC1** style, the second level formatted with the **TOC2** style and so on. This means that to change the look of the TOC these styles must be modified. In Aspose.Words these styles are represented by the locale independent [StyleIdentifier.TOC1](https://reference.aspose.com/words/python-net/aspose.words/styleidentifier/#toc1) through to [StyleIdentifier.TOC9](https://reference.aspose.com/words/python-net/aspose.words/styleidentifier/#toc9) and can be retrieved from the [Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/) collection using these identifiers.
 
 Once the appropriate style of the document has been retrieved the formatting for this style can be modified. Any changes to these styles will be automatically reflected on the TOCs in the document. Below example changes a formatting property used in the first level TOC style.
 
@@ -95,15 +95,15 @@ It is also useful to note that any direct formatting of a paragraph (defined on 
 
 You can also control the formatting of the separators used between each entry and page number. By default this is a dotted line which is spread across to the page numbering using a tab character and a right tab stop lined up close to the right margin.
 
-Using the **Style** class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document. To change how this appears firstly **Style.paragraph_format** must be called to retrieve the paragraph formatting for the style. From this the tab stops can be retrieved by calling **ParagraphFormat.tab_stops** and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed all together. Below example shows how to modify the position of the right tab stop in TOC related paragraphs.
+Using the [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document. To change how this appears firstly [Style.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/style/paragraph_format/) must be called to retrieve the paragraph formatting for the style. From this the tab stops can be retrieved by calling [ParagraphFormat.tab_stops](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/tab_stops/) and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed all together. Below example shows how to modify the position of the right tab stop in TOC related paragraphs.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_table_of_content-ChangeTOCTabStops.py" >}}
 
 ## Removing a Table of Contents from the Document
 
-A table of contents can be removed from the document by removing all nodes found between the **FieldStart** and **FieldEnd** node of the TOC field. The code below demonstrates this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead we check the **FieldEnd** node is of type **FieldType.FIELD_TOC** which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field.
+A table of contents can be removed from the document by removing all nodes found between the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) node of the TOC field. The code below demonstrates this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead we check the [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) node is of type [FieldType.FIELD_TOC](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/#field_toc) which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field.
 
-Firstly the **FieldStart** nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. Below code sample demonstrates how to remove a specified TOC from a document.
+Firstly the [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. Below code sample demonstrates how to remove a specified TOC from a document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemoveTOCFromDocument.py" >}}
 

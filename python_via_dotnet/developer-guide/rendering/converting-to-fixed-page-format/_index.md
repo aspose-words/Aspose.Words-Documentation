@@ -50,7 +50,7 @@ Page layout computes where the text will appear and what content will be rendere
 
 ![converting-to-fixed-page-format_2](converting-to-fixed-page-format-2.png)
 
-In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the **update_page_layout** method, provided by the **Document** class. If a page layout does not exist, but there is need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exist, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the **update_page_layout** method, in order to ensure that the page layout is up to date with the document model.
+In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) method, provided by the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class. If a page layout does not exist, but there is need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exist, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the [update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/) method, in order to ensure that the page layout is up to date with the document model.
 
 ### Dynamic Structure
 
@@ -66,23 +66,23 @@ Note, that the page layout is a dynamic structure, which can be partially rebuil
 
 Consider the typical scenario when the NUMPAGES field appears in the footer of the first page in the document. The value of this field is the total number of pages. In order to position the field on a page, its value should be known. If only the first page is being currently built then the total number of pages is not yet known. In this case, the page layout has to use the default value and later come back to that field and change its value according to actual computations. However, changing the field value may affect other document content on a page and ultimately cause a new page to be appended or an existing page removed, thus making the computed value outdated. This issue can be solved by making it possible to update the existing page layout.
 
-When creating a layout, it is also possible to set up **LayoutOptions** properties that affect the output of the document on pages.
+When creating a layout, it is also possible to set up [LayoutOptions](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/) properties that affect the output of the document on pages.
 
 ## Saving to Fixed-page Format
 
 After the page layout is built and the geometry of objects and their position on the page are calculated, the document can be saved in a fixed-page format supported by Aspose.Words. When saving documents to fixed-page formats, the rendering options common to all of these formats can be used. They allow to control:
 
-- The number and range of pages contained in the output document (**page_index**, **page_count**).
-- A set of characters that are used to numbers rendering (**numeral_format**).
-- A metafile player (**metafile_rendering_options**). For more details, see the ["Handling Windows Metafiles"](/words/python-net/handling-windows-metafiles/) article.
-- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format (**jpeg_quality**).
-- Optimization of vector graphics in Aspose.Words output (**optimize_output**).
-- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats (**use_anti_aliasing**, **use_high_quality_rendering**).
-- Saving the document in grayscale (**color_mode**).
-- Switching between rendering of DrawingML shapes and fallback shapes (**dml_rendering_mode**).
-- Switching between DML effects rendering modes (**dml_effects_rendering_mode**).
+- The number and range of pages contained in the output document ([page_set](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/page_set/)).
+- A set of characters that are used to numbers rendering ([numeral_format](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/numeral_format/)).
+- A metafile player ([metafile_rendering_options](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_options/)). For more details, see the ["Handling Windows Metafiles"](/words/python-net/handling-windows-metafiles/) article.
+- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([jpeg_quality](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/jpeg_quality/)).
+- Optimization of vector graphics in Aspose.Words output ([optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/)).
+- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([use_anti_aliasing](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_anti_aliasing/), [use_high_quality_rendering](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_high_quality_rendering/)).
+- Saving the document in grayscale ([color_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/color_mode/)).
+- Switching between rendering of DrawingML shapes and fallback shapes ([dml_rendering_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/dml_rendering_mode/)).
+- Switching between DML effects rendering modes ([dml_effects_rendering_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/dml_effects_rendering_mode/)).
 
-The example below demonstrates how to save a document to JPEG format using the Save method and rendering options:
+The example below demonstrates how to save a document to JPEG format using the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) method and rendering options:
 
 {{< highlight python >}}
 # Open the document

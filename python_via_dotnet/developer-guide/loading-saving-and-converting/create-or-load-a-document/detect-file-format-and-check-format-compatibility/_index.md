@@ -18,11 +18,11 @@ Aspose.Words provides an ability to obtain information about the file type in or
 
 When you are dealing with multiple documents in various file formats, you may need to separate out those files that can be processed by Aspose.Words from those that cannot. You may also want to know why some of the documents cannot be processed.
 
-If you attempt to load a file into a **Document** object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the **detect_file_format** method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a **FileFormatInfo** object that contains the detected information about the file type.
+If you attempt to load a file into a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object and Aspose.Words cannot recognize the file format or the format is not supported, Aspose.Words will throw an exception. You can catch those exceptions and analyze them, but Aspose.Words also provides the [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) method that allows us to quickly determine the file format without loading a document with possible exceptions. This method returns a [FileFormatInfo](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/) object that contains the detected information about the file type.
 
 {{% alert color="primary" %}}
 
-**detect_file_format** only checks the file format but does not validate the file format. There is no guarantee that the file will be opened successfully, even if **detect_file_format** returns that it is one of the supported formats. This is because of **detect_file_format** method reads only partial file format data, sufficient for checking the file format, but not enough for complete validation.
+[detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) only checks the file format but does not validate the file format. There is no guarantee that the file will be opened successfully, even if [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) returns that it is one of the supported formats. This is because of [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) method reads only partial file format data, sufficient for checking the file format, but not enough for complete validation.
 
 {{% /alert %}}
 
@@ -36,7 +36,7 @@ The following code example shows how to get a list of all the files in the folde
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-working_with_file_format-GetListOfFilesInFolder.py" >}}
 
-When all the files are collected, the rest of the work is done by the **detect_file_format** method, which checks the file format.
+When all the files are collected, the rest of the work is done by the [detect_file_format](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/detect_file_format/) method, which checks the file format.
 
 The following code example shows how to iterate over the collected list of files, check the format of each file, and moves each file to the appropriate folder:
 

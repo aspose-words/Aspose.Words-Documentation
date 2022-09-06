@@ -12,25 +12,25 @@ aliases: [/python/working-with-lists/]
 
 This topic describes how to work programmatically with lists using Aspose.Words. Lists can be used in your documents to format, arrange, and emphasize text. Lists are a great way to organize data in documents, and they make it easier for readers to understand key points. 
 
-A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level. A **List** object always belongs to the **ListCollection** collection.
+A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level. A [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) object always belongs to the [ListCollection](https://reference.aspose.com/words/python-net/aspose.words.lists/listcollection/) collection.
 
 ## Creating Lists by Applying List Formatting
 
-Aspose.Words allows the easy creation of lists by applying list formatting. **DocumentBuilder** provides the **DocumentBuilder.list_format** property that returns a **ListFormat** object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
+Aspose.Words allows the easy creation of lists by applying list formatting. [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides the [DocumentBuilder.list_format](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/list_format/) property that returns a [ListFormat](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/) object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
 
-- To start a bulleted list, call **ListFormat.apply_bullet_default**.
-- To start a numbered list, call **ListFormat.apply_number_default**.
+- To start a bulleted list, call [ListFormat.apply_bullet_default](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/apply_bullet_default/).
+- To start a numbered list, call [ListFormat.apply_number_default](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/apply_number_default/).
 
-The bullet or number and formatting are added to the current paragraph and all further paragraphs created using **DocumentBuilder** until **ListFormat.remove_numbers** is called to stop bulleted list formatting. In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
+The bullet or number and formatting are added to the current paragraph and all further paragraphs created using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) until [ListFormat.remove_numbers](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/remove_numbers/) is called to stop bulleted list formatting. In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
-- To increase the list level of the current paragraph by one level, call **ListFormat.list_indent**.
-- To decrease the list level of the current paragraph by one level, call **ListFormat.list_outdent**.
+- To increase the list level of the current paragraph by one level, call [ListFormat.list_indent](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/list_indent/).
+- To decrease the list level of the current paragraph by one level, call [ListFormat.list_outdent](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/list_outdent/).
 
 The methods change the list level and apply the formatting properties of the new level.
 
 {{% alert color="primary" %}}
 
-You can also use the **ListFormat.list_level_number** property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
+You can also use the [ListFormat.list_level_number](https://reference.aspose.com/words/python-net/aspose.words.lists/listformat/list_level_number/) property to get or set the list level for the paragraph. The list levels are numbered 0 to 8.
 
 {{% /alert %}}
 
@@ -40,7 +40,7 @@ Below example shows how to build a multilevel list.
 
 ## Specify Formatting for a List Level
 
-List-level objects are created automatically when a list is created. Use the properties and methods of the **ListLevel** class to control the formatting of individual levels of a list.
+List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/python-net/aspose.words.lists/listlevel/) class to control the formatting of individual levels of a list.
 
 ## How to Restart List for each Section
 
