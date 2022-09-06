@@ -209,7 +209,8 @@ When Aspose.Words calculates a field result, it often needs to parse a string in
 ### Formatting using the Current Thread’s Culture
 
 To control the culture used during field calculation, just set the **Thread.CurrentThread.CurrentCulture** property to a culture of your choice before invoking field calculation.
-Below example shows how to change the culture used in formatting fields during update.
+
+The following code example shows how to change the culture used in formatting fields during update:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ChangeLocale-ChangeLocale.cs" >}}
 
@@ -219,62 +220,8 @@ Using the current culture to format fields allows a system to easily and consist
 
 On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
-The [Document](https://reference.aspose.com/words/net/aspose.words/document) class provides a [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document. Below example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from.
+The [Document](https://reference.aspose.com/words/net/aspose.words/document) class provides a [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/properties/fieldoptions) property which contains members which can be used to control how fields are updated within the document.
+
+The following code example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-ChangeFieldUpdateCultureSource.cs" >}}
-
-## Finding the Field Code and Field Result
-
-A field which is inserted using DocumentBuilder.InsertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field.
-
-TODO ADD GIST
-
-```
-// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_WorkingWithFields();
-
-// Specify your document name here.
-Document doc = new Document(dataDir + "RenameMergeFields.doc");
-
-foreach (Field field in doc.Range.Fields)
-{
-    string fieldCode = field.GetFieldCode();
-    string fieldResult = field.Result;
-}
-```
-
-Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method **MailMerge.GetFieldNames**. Below example shows how to get names of all merge fields in a document.
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
-
-## How to Rename Merge Fields
-
-Below example shows how to rename merge fields in a Word document.
-
-TODO UPDATE GIST "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs"
-```
-// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_WorkingWithFields();
-
-// Specify your document name here.
-Document doc = new Document(dataDir + "RenameMergeFields.doc");
-
-// Select all MERGEFIELD fields
-foreach (FieldMergeField mergeField in doc.Range.Fields.OfType<FieldMergeField>().ToList())
-    mergeField.FieldName = mergeField.FieldName + "_Renamed";
-
-dataDir = dataDir + "RenameMergeFields_out.doc";
-doc.Save(dataDir);
-```
-
-TODO DELETE GIST "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-MergeField.cs"
-
-## Field Display Result
-
-Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
-
-The following code example shows the usage of Filed.DisplayResult property.
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cs" >}}
