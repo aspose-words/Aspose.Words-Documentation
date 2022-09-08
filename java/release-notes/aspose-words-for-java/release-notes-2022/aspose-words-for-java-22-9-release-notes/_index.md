@@ -156,7 +156,7 @@ This section lists public API changes that were introduced in Aspose.Words 22.9.
 Related issue: WORDSJAVA-2496 and WORDSJAVA-2461
 
 This lines were deleted form aspose-words-22.9.pom
-{{< highlight >}}    
+{{< highlight java >}}    
         <dependency>
             <groupId>com.aspose</groupId>
             <artifactId>aspose-words</artifactId>
