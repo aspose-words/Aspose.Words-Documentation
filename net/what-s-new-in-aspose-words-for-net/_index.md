@@ -1,5 +1,5 @@
 ---
-title: What's new
+Stitle: What's new
 second_title: Aspose.Words for .NET
 articleTitle: What's new in Aspose.Words for .NET
 linktitle: What's new in Aspose.Words for .NET
@@ -10,6 +10,32 @@ url: /net/what-s-new-in-aspose-words-for-net/
 ---
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
+
+## Aspose.Words for .NET 22.9
+
+Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.
+
+### Loading and Saving Documents
+
+#### Cache Header or Footer Shapes to Reduce PDF size <sup>22.9</sup>
+
+The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new [CacheHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/cacheheaderfootershapes) property.
+
+#### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
+
+The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) class.
+
+### Other
+
+* A new feature to get FieldEQ as an OfficeMath has been added. <sup>22.9</sup>
+
+* The creation of structured document tags of Group type at the Row level was allowed. <sup>22.9</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 22.9 Release Notes](/words/net/aspose-words-for-net-22-9-release-notes/).
+
+{{% /alert %}}
 
 ## Aspose.Words for .NET 22.5, 22.6, 22.7, 22.8
 
@@ -42,13 +68,13 @@ The rendering of a border box around MathML formulas and font detection when ren
 
 DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
 
-#### Glyph outlines parsing for OpenType <sup>22.7</sup>
+#### Glyph Outlines Parsing for OpenType <sup>22.7</sup>
 
 Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
 
 Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
 
-#### Set shape shadow formatting <sup>22.7</sup>
+#### Set Shape Shadow Formatting <sup>22.7</sup>
 
 The ability to set the shadow formatting of the shape object has been provided by adding a new [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/) property.
 
@@ -64,17 +90,17 @@ Font substitution for symbols has been improved.
 
 The rotation algorithm of chart axis labels has been improved.
 
-### Loading and saving documents
+### Loading and Saving Documents
 
-#### Load and convert PDF to fixed-page format without layout model <sup>22.6</sup>
+#### Load and Convert PDF to Fixed-page Format without Layout Model <sup>22.6</sup>
 
 The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
 
-#### New HTML import mode <sup>22.7</sup>
+#### New HTML Import Mode <sup>22.7</sup>
 
 A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/) enumeration.
 
-#### Convert to PDF/UA-1 compliant with WCAG 2.0 <sup>22.7</sup>
+#### Convert to PDF/UA-1 CSompliant with WCAG 2.0 <sup>22.7</sup>
 
 Support for converting a document to PDF/UA-1 format, compliant with WCAG 2.0, has been added.
 
@@ -410,83 +436,5 @@ Learn more about [Aspose.Words for .NET 21.2 Release Notes](/words/net/aspose-wo
 Learn more about [Aspose.Words for .NET 21.3 Release Notes](/words/net/aspose-words-for-net-21-3-release-notes/).
 
 Learn more about [Aspose.Words for .NET 21.4 Release Notes](/words/net/aspose-words-for-net-21-4-release-notes/).
-
-{{% /alert %}}
-
-
-## Aspose.Words for .NET 20.9, 20.10, 20.11, 20.12
-
-Aspose.Words 20.9 expands control over Macros, as well as improves the quality of converting from PDF to Word document formats.
-
-Aspose.Words 20.10 introduces a new load format and new options for working with rendering features.
-
-Aspose.Words 20.11 enhanced rendering options and improves document display capabilities.
-
-Aspose.Words 20.12 has expanded the number of supported platforms – now you can work with the newly released .NET 5.0, as well as improved import of HTML documents, rendering options and the reports generation functionality.
-
-The API is enhanced for more flexible and convenient development.
-
-### Platforms
-
-It has been verified that Aspose.Words for .NET Standard works with the newly released .NET 5.0 from Microsoft.
-
-### Supported Formats
-
-Support for loading CHM documents has been added. CHM or Microsoft Compiled HTML Help is a proprietary format consisting of a collection of pages, index, and other navigation tools. Starting from version 20.10, it is possible to load CHM documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/net/aspose.words/saveformat).
-
-### Rendering
-
-#### Obtaining a Document with Specified Pages
-
-A new method [ExtractPages](https://reference.aspose.com/words/net/aspose.words/document/methods/extractpages) has been added to the [Document](https://reference.aspose.com/words/net/aspose.words/document) class. This method returns a new document consisting of nodes located in the current document within a specified page range. The resulting document should look like one in Microsoft Word, as if we were performing "Print specific pages" – all formatting and layout will be preserved.
-
-#### Export of Specific Pages to Fixed Page Formats
-
-A new public API has been implemented for exporting specific pages to fixed page formats. Previously, you could specify only one continuous range for rendering, but now you can specify a complex set of pages based on different page ranges or individual pages in any order. This provides a flexible way to combine pages into final documents in fixed page formats.
-
-#### The First Version of SmartArt Cold Rendering
-
-The first version of SmartArt Cold Rendering has been released. Microsoft Word generates and saves the pre-rendered drawing along with SmartArt objects. In most cases, the pre-rendered drawing is rendered well by Aspose.Words and no additional actions required. However, if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case, the SmartArt object itself should be laid-out and rendered. We call this process the SmartArt Cold Rendering, and it is now available in Aspose.Words.
-
-#### New API for Chart Data Points
-
-A new API for chart data points has been implemented. This is mainly due to some properties or methods that have been added or changed within the [ChartDataPointCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection) and [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint) classes. For example, you will find that the code has been changed to automatically create a data point if it does not exist yet.
-
-#### Basic Support for Legacy Non-Unicode Arabian Encodings
-
-Basic support for legacy non-Unicode Arabian encodings has been implemented. This was done for the legacy Arabic font class dating back to the 1990s that use poorly documented mechanisms and legacy Windows shaping implementations. In general, these are TrueType fonts, however they use undocumented details not defined in the TrueType or OpenType specifications and do not conform to current specifications on how to implement Unicode fonts for the Arabic language.
-
-#### Embedding Fonts with PostScript Outlines into a Document
-
-An ability to embed fonts with PostScript outlines when embedding TrueType fonts in a document upon saving has been added. This option gives more flexibility in case of using non-standard fonts. Note, that even Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
-
-### Conversion
-
-#### PDF Document Import
-
-PDF import is now faster and more accurate. Footnotes support has been implemented and integrated to the latest version.
-
-#### HTML Document Import
-
-HTML import has been modified. Previously, the [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/properties/mswversion) property had no effect when loading documents from HTML and HTML-based formats (for example, MHTML). All documents were loaded as if no MswVersion were specified. This has been changed, and now the HTML reader can load documents differently depending on the MswVersion value.
-
-### Report Generation
-
-A condition evaluation extension point has been introduced. This allows users to implement custom evaluation for the IF and COMPARE fields which are very popular upon creating different types of reports.
-
-### Other
-
-- The [VbaReferenceCollection](https://reference.aspose.com/words/net/aspose.words.vba/vbareferencecollection) class and related types are exposed publicly. Now you have more control over Macros, for example, removing a Template and all its references from the code without using Microsoft Word.
-- New public properties [SpellingChecked](https://reference.aspose.com/words/net/aspose.words/document/properties/spellingchecked) and [GrammarChecked](https://reference.aspose.com/words/net/aspose.words/document/properties/grammarchecked) have been added to indicate if a document has been checked for spelling and grammar, respectively.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 20.9 Release Notes](/words/net/aspose-words-for-net-20-9-release-notes/).
-
-Learn more about [Aspose.Words for .NET 20.10 Release Notes](/words/net/aspose-words-for-net-20-10-release-notes/).
-
-Learn more about [Aspose.Words for .NET 20.11 Release Notes](/words/net/aspose-words-for-net-20-11-release-notes/).
-
-Learn more about [Aspose.Words for .NET 20.12 Release Notes](/words/net/aspose-words-for-net-20-12-release-notes/).
 
 {{% /alert %}}
