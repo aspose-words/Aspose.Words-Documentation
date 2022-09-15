@@ -49,7 +49,7 @@ With Aspose.Words for Java, you can generate, modify, convert, render, and print
 				<li><a href="https://docs.aspose.com/words/java/features/">Features</a></li>
 				<li><a href="https://docs.aspose.com/words/java/system-requirements/">System Requirements</a></li>
 				<li><a href="https://docs.aspose.com/words/java/installation/">Installation</a></li>
-				<li><a href="https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words">Install Aspose.Words for Java from Maven Repository</a></li>
+				<li><a href="https://repository.aspose.com/words/">Install Aspose.Words for Java from Maven Repository</a></li>
 			</ul>
 			<p>LEARN</p>
 			<ul>

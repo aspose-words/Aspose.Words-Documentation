@@ -20,7 +20,7 @@ Note that there are a number of general policies and practices that guide you on
 
 ## Free Trial or Temporary License
 
-Aspose.Words is incredible software that developers can try before purchasing. You can easily download/install Aspose.Words for Java and Aspose.Words for Android via Java [from Maven](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/) for evaluation.
+Aspose.Words is incredible software that developers can try before purchasing. You can easily download/install Aspose.Words for Java and Aspose.Words for Android via Java [from Maven](https://repository.aspose.com/words/) for evaluation.
 
 ### Free Trial
 

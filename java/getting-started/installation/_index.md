@@ -15,7 +15,7 @@ This article explains how to install Aspose.Words for Java on your computer.
 
 ## Install Aspose.Words for Java from Maven Repository {#install-aspose-words-for-java-from-maven-repository}
 
-Aspose hosts all Java APIs in [Maven repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words). You can easily use Aspose.Words for Java API directly in your Maven Projects with simple configurations:
+Aspose hosts all Java APIs in [Maven repository](https://repository.aspose.com/words/). You can easily use Aspose.Words for Java API directly in your Maven Projects with simple configurations:
 
 1. First, you need to specify Aspose Maven Repository configuration/location in your Maven pom.xml as shown below:
 	{{< highlight html >}}
