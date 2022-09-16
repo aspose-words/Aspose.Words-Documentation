@@ -251,6 +251,4 @@ A field which is inserted using DocumentBuilder.InsertField returns a Field obje
 
 Below example shows how to rename merge fields in a Word document.
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs" >}}
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-MergeField.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs" >}}
