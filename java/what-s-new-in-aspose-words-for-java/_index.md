@@ -11,6 +11,31 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for Java 22.9
+
+Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.
+
+### Loading and Saving Documents
+
+#### Cache Header or Footer Shapes to Reduce PDF size <sup>22.9</sup>
+
+The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new [CacheHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions#CacheHeaderFooterShapes) property.
+
+#### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
+
+The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions#AutoNumberingDetection) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/TxtLoadOptions) class.
+
+### Other
+
+- A new feature to get FieldEQ as an OfficeMath has been added. <sup>22.9</sup>
+- The creation of structured document tags of Group type at the Row level was allowed. <sup>22.9</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Java 22.9 Release Notes](/words/java/aspose-words-for-java-22-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Java 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
@@ -42,13 +67,13 @@ The rendering of a border box around MathML formulas and font detection when ren
 
 DrawingML charts public API has been extended to support gradient, texture, and pattern fills.
 
-#### Glyph outlines parsing for OpenType <sup>22.7</sup>
+#### Glyph Outlines Parsing for OpenType <sup>22.7</sup>
 
 Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
 
 Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
 
-#### Set shape shadow formatting <sup>22.7</sup>
+#### Set Shape Shadow Formatting <sup>22.7</sup>
 
 The ability to set the shadow formatting of the shape object has been provided by adding a new [ShadowFormat](https://reference.aspose.com/words/java/com.aspose.words/shapebase#ShadowFormat) property.
 
@@ -64,17 +89,17 @@ Font substitution for symbols has been improved.
 
 The rotation algorithm of chart axis labels has been improved.
 
-### Loading and saving documents
+### Loading and Saving Documents
 
-#### Load and convert PDF to fixed-page format without layout model <sup>22.6</sup>
+#### Load and Convert PDF to Fixed-page Format without Layout Model <sup>22.6</sup>
 
 The ability to load and convert PDF documents to fixed page formats with high fidelity and performance has been implemented.
 
-#### New HTML import mode <sup>22.7</sup>
+#### New HTML Import Mode <sup>22.7</sup>
 
 A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/HtmlInsertOptions) enumeration.
 
-#### Convert to PDF/UA-1 compliant with WCAG 2.0 <sup>22.7</sup>
+#### Convert to PDF/UA-1 CSSompliant with WCAG 2.0 <sup>22.7</sup>
 
 Support for converting a document to PDF/UA-1 format, compliant with WCAG 2.0, has been added.
 

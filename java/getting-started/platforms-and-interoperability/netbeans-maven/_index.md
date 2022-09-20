@@ -1,4 +1,4 @@
-﻿---
+---
 title: NetBeans - Maven
 second_title: Aspose.Words for Java
 articleTitle: NetBeans - Maven
@@ -27,7 +27,7 @@ generate, modify, and convert documents without using Microsoft Word.
 
 ## Aspose.Words Java for NetBeans (Maven)
 
-- Aspose.Words Java for NetBeans (Maven) is a Plugin for **NetBeans IDE** by **Aspose.** The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Words for Java](https://products.aspose.com/words/java/) in their projects. The Plugin lets you create maven projects for using [Aspose.Words for Java API](https://products.aspose.com/words/java/) and also download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of the API. 
+- Aspose.Words Java for NetBeans (Maven) is a Plugin for **NetBeans IDE** by **Aspose.** The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Words for Java](https://products.aspose.com/words/java/) in their projects. The Plugin lets you create maven projects for using [Aspose.Words for Java API](https://reference.aspose.com/words/java/) and also download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of the API. 
 - The plugin provides following features to work with [Aspose.Words for Java API](https://products.aspose.com/words/java/) within **NetBeans IDE** comfortably:<br>
 ![aspose-words-java-for-netbeans-1](https://i.imgur.com/KWKGljg.png)<br>
 **WIZARDS**:<br>
@@ -36,9 +36,9 @@ The plugin contains two wizards
 **Aspose.Words Maven Project (wizard)**
 
 - This New Project wizard lets developers to create **Maven** project for using [Aspose.Words for Java](https://products.aspose.com/words/java/) from **New Project -> Maven-> Aspose.Words Maven Project.**
-- The reference of [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repowebapp/#/) and gets added in the pom.xml.
-- The created project will always contain most recent available version **Maven** Dependency for [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx).
-- The wizard steps also presents with the option for downloading [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) for using [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx).
+- The reference of [Aspose.Words for Java API](https://products.aspose.com/words/java/) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/words/) and gets added in the pom.xml.
+- The created project will always contain most recent available version **Maven** Dependency for [Aspose.Words for Java API](https://products.aspose.com/words/java/).
+- The wizard steps also presents with the option for downloading [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) for using [Aspose.Words for Java API](https://products.aspose.com/words/java/).
 
 **Aspose.Words Code Example (wizard)**
 

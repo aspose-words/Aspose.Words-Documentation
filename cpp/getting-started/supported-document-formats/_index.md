@@ -49,6 +49,7 @@ The following table indicates the file formats supported by Aspose.Words for C++
 |[OTT](https://docs.fileformat.com/word-processing/ott/) |Saves the document as an ODF Text Document Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[TXT](https://docs.fileformat.com/word-processing/txt/)|Saves the document in the IDPF EPUB format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[MOBI](https://docs.fileformat.com/ebook/mobi/)|MOBI is an eBook format used by the MobiPocket Reader and Amazon Kindle Readers.|{{< emoticons/tick >}}| | |
+|[AZW3](https://docs.fileformat.com/ebook/azw3/)|AZW3 is an eBook format used by Amazon Kindle readers.|{{< emoticons/tick >}}| {{< emoticons/tick >}} | |
 |[CHM](https://docs.fileformat.com/web/chm/)|CHM (Compiled HTML Help) format.|{{< emoticons/tick >}}| | |
 |XamlFlow|**Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document.| |{{< emoticons/tick >}}| |
 |XamlFlowPack|**Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document.| |{{< emoticons/tick >}}| |
