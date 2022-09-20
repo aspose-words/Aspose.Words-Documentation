@@ -3,22 +3,22 @@ title: Mail Merge - Insert Checkboxes, HTML or Images
 second_title: Aspose.Words for .NET
 articleTitle: Insert Checkboxes, HTML or Images During Mail Merge
 linktitle: Insert Checkboxes, HTML or Images During Mail Merge
-description: "Mail merge practices using C#."
+description: "Insert checkboxes or HTML during Mail merge using C#. Also insert images from a Database during Mail Merge in C#."
 type: docs
 weight: 40
 url: /net/insert-checkboxes-html-or-images-during-mail-merge/
 ---
 
-## How to Insert Checkboxes or HTML during Mail Merge
-
 One of the important Aspose.Words feature is the reporting (mail merge) engine. The mail merge engine takes a document on input, looks for MERGEFIELD fields in it and replaces them with data obtained from the data source. Normally, simple text and HTML is inserted, but a customer asked if it is possible to generate a document where boolean data values are output as checkbox form fields.
 
-The answer is yes - it is possible and it is very easy, thanks to the ability to extend the mail merge process using event handlers. The [MailMerge](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge) object provides the **MergeField** and **MergeImageField** event handlers.
+The answer is yes – it is possible and it is very easy, thanks to the ability to extend the mail merge process using event handlers. The [MailMerge](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge) object provides the **MergeField** and **MergeImageField** event handlers.
 
 Other interesting examples of extending standard mail merge using event handlers are:
 
 - Insert images from any custom storage (files, BLOB fields, etc).
 - Insert text with formatting (font, size, style, etc).
+
+## How to Insert Checkboxes or HTML during Mail Merge
 
 This screenshot of Microsoft Word shows a template document with the merge fields: 
 
