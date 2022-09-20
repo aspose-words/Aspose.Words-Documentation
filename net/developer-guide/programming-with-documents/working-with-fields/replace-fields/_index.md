@@ -34,13 +34,33 @@ However, in the header, the PAGE field translates well to static run of text. Th
 
 The following code example shows how to replace the field with its most recent result:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cs" >}}
+{{< highlight csharp >}}
+string dataDir = RunExamples.GetDataDir_WorkingWithFields();
+string fileName = "TestFile.doc";
+Document doc = new Document(dataDir + fileName);
 
-## Specify Field Type to Convert to Text
+doc.UnlinkFields();
+{{< /highlight >}}
+
+## Convert Certain Field Types in Specific Document Parts
+
+Since the **ConvertFieldsToStaticText** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode) ptoperties and the [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
+
+For example, you can pass a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object and convert fields of the specified type from the entire document to static text, or you can pass a [Body](https://reference.aspose.com/words/net/aspose.words/body) object of a section and only convert the fields found in that body.
+
+{{% alert color="primary" %}}
+
+When passing a block-level node such as a [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph), be aware that in some cases, fields can span across multiple paragraphs. If this happens it is recommended to pass the parent of the composite instead to avoid this.
+
+{{% /alert %}}
 
 The [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) enumeration passed to the **ConvertFieldsToStaticText** method specifies what type of fields should be convert to static text. Any other field type found in the document will remain unchanged.
 
-The following code example shows how to convert all fields of the specified type in a document to static text:
+The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
+
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cs" >}}
+
+The following code example shows how to convert all IF fields in a document to static text:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cs" >}}
 
@@ -50,18 +70,10 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-## Convert Fields to Text in Specific Document Parts
-
-Since the **ConvertFieldsToStaticText** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode) ptoperties and the [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
-
-For example, you can pass a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object and convert fields of the specified type from the entire document to static text, or you can pass a [Body](https://reference.aspose.com/words/net/aspose.words/body) object of a section and only convert the fields found in that body.
-
-When passing a block-level node such as a [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph), be aware that in some cases, fields can span across multiple paragraphs. If this happens it is recommended to pass the parent of the composite instead to avoid this.
-
-The following code  example shows how to convert all fields of the specified type in a body of a document to static text:
+The following code  example shows how to convert all PAGE fields in a Body of a document to static text:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInBody-ConvertFieldsInBody.cs" >}}
 
-The following code  example shows how to convert all fields of the specified type in a paragraph to static text:
+The following code  example shows how to convert all IF fields in the last paragraph to static text:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-ConvertFieldsInParagraph-ConvertFieldsInParagraph.cs" >}}
