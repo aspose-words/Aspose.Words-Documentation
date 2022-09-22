@@ -13,23 +13,10 @@ A field that is inserted using [DocumentBuilder](https://reference.aspose.com/wo
 
 The following code example shows how to find the field code and field result:
 
-{{< highlight csharp >}}
-// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_WorkingWithFields();
-
-// Specify your document name here.
-Document doc = new Document(dataDir + "RenameMergeFields.doc");
-
-foreach (Field field in doc.Range.Fields)
-{
-	string fieldCode = field.GetFieldCode();
-	string fieldResult = field.Result;
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldCode.cs" >}}
 
 Note if you are only looking for the names of merge fields in a document, then you can instead use the built-in MailMerge.GetFieldNames method.
 
 The following code example shows how to get names of all merge fields in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cs" >}}

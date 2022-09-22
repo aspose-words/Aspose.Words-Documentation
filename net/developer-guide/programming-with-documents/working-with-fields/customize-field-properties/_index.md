@@ -17,21 +17,7 @@ Sometimes users need to change the value of a field property. For example, updat
 
 The following code example shows how to rename merge fields in a Word document:
 
-{{< highlight csharp >}}
-// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_WorkingWithFields();
-
-// Specify your document name here.
-Document doc = new Document(dataDir + "RenameMergeFields.doc");
-
-// Select all MERGEFIELD fields
-foreach (FieldMergeField mergeField in doc.Range.Fields.OfType<FieldMergeField>().ToList())
-    mergeField.FieldName = mergeField.FieldName + "_Renamed";
-
-dataDir = dataDir + "RenameMergeFields_out.doc";
-doc.Save(dataDir);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs" >}}
 
 ## Field Display Result
 
@@ -39,4 +25,4 @@ Aspose.Words provides a property to obtain the field's result for fields that do
 
 The following code example shows the usage of Filed.DisplayResult property:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cs" >}}
