@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-for-reporting-services-19-2-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Reporting Services 19.2](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-19.2-\(msi\)/).
+This page contains release notes for [Aspose.Words for Reporting Services 19.2](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-19.2-msi/).
 
 {{% /alert %}}
 
@@ -23,4 +23,3 @@ This page contains release notes for [Aspose.Words for Reporting Services 19.2](
 |WORDSRS-268|Add support of SQL Server 2019|New feature|
 |WORDSRS-269|Add feature to set the space after/before for paragraph formatting|Bug|
 |WORDSRS-270|HTML formatting does not work when RDL is exported on SSRS 2005|Bug|
-
