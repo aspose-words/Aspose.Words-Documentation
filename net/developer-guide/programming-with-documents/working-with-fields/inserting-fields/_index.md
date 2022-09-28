@@ -29,17 +29,13 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 The following code example shows how to Inserts a merge field into a document using **DocumentBuilder**:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertField-InsertField.cs" >}}
-
-The following code example shows how to insert a merge field into a document using **DocumentBuilder**:
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-ChangeFieldUpdateCultureSource-DocumentBuilderInsertField.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertField-InsertField.cs" >}}
 
 The same technique is used to insert fields nested within other fields.
 
 The following code example shows how to insert fields nested within another field using **DocumentBuilder**:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertNestedFields-InsertNestedFields.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertNestedFields-InsertNestedFields.cs" >}}
 
 ### Specify Locale at Field Level
 
@@ -47,7 +43,7 @@ A language identifier is a standard international numeric abbreviation for the l
 
 The folowing code example shows how to use this option:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cs" >}}
 
 ### Inserting Untyped/Empty Field
 
@@ -55,39 +51,12 @@ If you want to insert untyped/empty fields ({}) just like Microsoft Word allows,
 
 The folowing code example shows how to insert an empty field in the document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
 
 ## Inserting Fields into a Document using FieldBuilder
 The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
-{{< highlight csharp >}}
-// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-.NET
-// The path to the documents directory.
-string dataDir = RunExamples.GetDataDir_WorkingWithFields();
-
-Document doc = new Document();
-
-// Prepare IF field with two nested MERGEFIELD fields: { IF "left expression" = "right expression" "Firstname: { MERGEFIELD firstname }" "Lastname: { MERGEFIELD lastname }"}
-FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldIf)
-    .AddArgument("left expression")
-    .AddArgument("=")
-    .AddArgument("right expression")
-    .AddArgument(
-        new FieldArgumentBuilder()
-            .AddText("Firstname: ")
-            .AddField(new FieldBuilder(FieldType.FieldMergeField).AddArgument("firstname")))
-    .AddArgument(
-        new FieldArgumentBuilder()
-            .AddText("Lastname: ")
-            .AddField(new FieldBuilder(FieldType.FieldMergeField).AddArgument("lastname")));
-
-// Insert IF field in exact location            
-Field field = fieldBuilder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);            
-
-field.Update();
-
-doc.Save(dataDir + "FieldBuilder_out.docx");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldUsingFieldBuilder.cs" >}}
 
 ## Inserting Fields using DOM
 
@@ -111,7 +80,7 @@ For more details, see the [FieldMergeField](https://reference.aspose.com/words/n
 
 The folowing code example shows how to add the MERGE field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cs" >}}
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 
@@ -131,7 +100,7 @@ For more details, see the [FieldAddressBlock](https://reference.aspose.com/words
 
 The folowing code example shows how to add the Mail Merge Address Block Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cs" >}}
 
 ### Inserting Advance field into a Document without using DocumentBuilder
 
@@ -149,7 +118,7 @@ For more details, see the [FieldAdvance](https://reference.aspose.com/words/net/
 
 The folowing code example shows how to add the Advance Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertAdvanceFieldWithOutDocumentBuilder-InsertAdvanceFieldWithOutDocumentBuilder.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAdvanceFieldWithOutDocumentBuilder-InsertAdvanceFieldWithOutDocumentBuilder.cs" >}}
 
 ### Inserting ASK field into a Document without using DocumentBuilder
 
@@ -168,7 +137,7 @@ For more details, see the [FieldAsk](https://reference.aspose.com/words/net/aspo
 
 The folowing code example shows how to add the ASK Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertASKFieldWithOutDocumentBuilder-InsertASKFieldWithOutDocumentBuilder.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertASKFieldWithOutDocumentBuilder-InsertASKFieldWithOutDocumentBuilder.cs" >}}
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
@@ -184,7 +153,7 @@ For more details, see the [FieldAuthor](https://reference.aspose.com/words/net/a
 
 The folowing code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cs" >}}
 
 ### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
 
@@ -201,7 +170,7 @@ For more details, see the [FieldIncludeText](https://reference.aspose.com/words/
 
 The folowing code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertIncludeFieldWithoutDocumentBuilder-InsertFieldIncludeTextWithoutDocumentBuilder.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertIncludeFieldWithoutDocumentBuilder-InsertFieldIncludeTextWithoutDocumentBuilder.cs" >}}
 
 ### Inserting TOA field into a Document without using DocumentBuilder
 
@@ -217,4 +186,4 @@ For more details, see the [FieldToa](https://reference.aspose.com/words/net/asp
 
 The folowing code example shows how to add the TOA field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cs" >}}

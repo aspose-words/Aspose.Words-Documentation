@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-for-reporting-services-16-12-0-release-note
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Reporting Services 16.12.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.word-for-reporting-services-16.12.0-\(msi\)/).
+This page contains release notes for [Aspose.Words for Reporting Services 16.12.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.word-for-reporting-services-16.12.0-msi/).
 
 {{% /alert %}}
 
@@ -21,4 +21,3 @@ This page contains release notes for [Aspose.Words for Reporting Services 16.12.
 | :- | :- | :- |
 |WORDSRPT-245|SSRS export reporting using TXT – Plain Text via Aspose.Words is losing formatting|Bug|
 |WORDSRPT-246|Some content is missing in output report|Bug|
-
