@@ -13,7 +13,7 @@ There are several different ways to insert fields into a document:
 
 * using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
 * using [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
-* using [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)
+* using [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/)
 
 In this article, we will look at each way in more detail and analyze how to insert certain fields using these options.
 
@@ -23,7 +23,7 @@ In Aspose.Words the [InsertField](https://reference.aspose.com/words/net/aspose.
 
 {{% alert color="primary" %}}
 
-If your field code has a parameter containing a space then it must be enclosed within speech marks. Otherwise the field in both Microsoft Word and Aspose.Words may not work as expected as the parameter is treated by both as being truncated
+If your field code has a parameter containing a space then it must be enclosed within speech marks. Otherwise the field in both Microsoft Word and Aspose.Words may not work as expected as the parameter is treated by both as being truncated.
 
 {{% /alert %}}
 
@@ -45,7 +45,7 @@ The folowing code example shows how to use this option:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cs" >}}
 
-### Inserting Untyped/Empty Field
+### Insert Untyped/Empty Field
 
 If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) method with the [FieldType.FieldNone](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
@@ -56,11 +56,13 @@ The folowing code example shows how to insert an empty field in the document:
 ## Inserting Fields into a Document using FieldBuilder
 The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
+The folowing code example shows how to insert a field into a document using **FieldBuilder**:
+
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldUsingFieldBuilder.cs" >}}
 
 ## Inserting Fields using DOM
 
-You can also insert various types of fields using [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/).
+You can also insert various types of fields using [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/).
 
 ### Inserting Merge Field into a Document using DOM
 
@@ -82,7 +84,7 @@ The folowing code example shows how to add the MERGE field using DOM to a paragr
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cs" >}}
 
-### Inserting Mail Merge Address Block field into a Document using DOM
+### Inserting Mail Merge ADDRESSBLOCK field into a Document using DOM
 
 The ADDRESSBLOCK field is used to insert a mail merge address block in Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) class. You can use the **FieldAddressBlock** class to perform the following operations:
 
@@ -98,11 +100,11 @@ For more details, see the [FieldAddressBlock](https://reference.aspose.com/words
 
 {{% /alert %}}
 
-The folowing code example shows how to add the Mail Merge Address Block Field using DOM to a paragraph in a document:
+The folowing code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cs" >}}
 
-### Inserting Advance field into a Document without using DocumentBuilder
+### Inserting ADVANCE field into a Document without using DocumentBuilder
 
 The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. The ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/) class. You can use the **FieldAdvance** class to perform the following operations:
 
@@ -116,7 +118,7 @@ For more details, see the [FieldAdvance](https://reference.aspose.com/words/net/
 
 {{% /alert %}}
 
-The folowing code example shows how to add the Advance Field using DOM to a paragraph in a document:
+The folowing code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAdvanceFieldWithOutDocumentBuilder-InsertAdvanceFieldWithOutDocumentBuilder.cs" >}}
 
