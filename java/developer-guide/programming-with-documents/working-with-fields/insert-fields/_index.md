@@ -5,7 +5,7 @@ articleTitle: Insert Fields
 linktitle: Insert Fields
 description: "Different ways to insert fields into your document using Java."
 type: docs
-weight: 30
+weight: 20
 url: /java/insert-fields/
 aliases: [/java/insert-and-remove-field/]
 ---

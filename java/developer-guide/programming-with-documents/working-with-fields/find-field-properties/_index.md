@@ -1,24 +1,22 @@
 ---
-title: XXX
-second_title: XXX
-articleTitle: XXX
-linktitle: XXX
-description: "XXX"
+title: How to Find Field Properties
+second_title: Aspose.Words for Java
+articleTitle: Find Field Properties
+linktitle: Find Field Properties
+description: "How to find some field properties like field code and field result in Java"
 type: docs
-weight: 130
-url: /java/working-with-fields/
+weight: 25
+url: /java/find-field-properties/
 ---
 
-## Finding the Field Code and Field Result
+A field which is inserted using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) returns a [Field](https://reference.aspose.com/words/java/com.aspose.words/Field) object. This is a facade class which provides useful methods to quickly find such properties of a field.
 
-A field which is inserted using DocumentBuilder.insertField returns a Field object. This is a façade class which provides useful methods to quickly find such properties of a field. Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [MailMerge.getFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()). Below example shows how to get names of all merge fields in a document.
+The following code example shows how to find the field code and field result:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
+EXAMPLE
 
-## Update Fields having Dirty Attribute
+Note if you are only looking for the names of merge fields in the document then you can instead use the built-in method [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()).
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use LoadOptions.setUpdateDirtyFields() property to specify whether to update the fields with the dirty attribute. When the value of LoadOptions.setUpdateDirtyFields() is set to *true*, all fields having *true* value for Field.IsDirty or FieldChar.IsDirty property are updated on document load. 
+The following code example shows how to get names of all merge fields in a document.
 
-The following example shows how to update fields having the dirty attribute.
-
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-LoadOptionsUpdateDirtyFields-LoadOptionsUpdateDirtyFields.java" >}}
+EXAMPLE

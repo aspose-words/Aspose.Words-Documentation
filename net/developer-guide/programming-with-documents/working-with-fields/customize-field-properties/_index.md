@@ -23,6 +23,6 @@ The following code example shows how to rename merge fields in a Word document:
 
 Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
 
-The following code example shows the usage of Filed.DisplayResult property:
+The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/net/aspose.words.fields/field/displayresult/) property:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cs" >}}
