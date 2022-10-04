@@ -1,18 +1,36 @@
-﻿---
-title: Working with Hyperlinks and HTML in C++
+---
+title: Working with Hyperlinks in C++
 second_title: Aspose.Words for C++
-articleTitle: Working with Hyperlinks and HTML
-linktitle: Working with Hyperlinks and HTML
-description: "How to insert hyperlink or HTML document into your document using Aspose.Word for C++."
+articleTitle: Working with Hyperlinks
+linktitle: Working with Hyperlinks
+description: "How to insert a hyperlink into your document using Aspose.Words for C++."
 type: docs
 aliases:
     - /cpp/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/
+    - /cpp/working-with-hyperlinks-and-html/
 weight: 180
-url: /cpp/working-with-hyperlinks-and-html/
+url: /cpp/working-with-hyperlinks/
 ---
 
+A hyperlink in Microsoft Word documents is the HYPERLINK field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_hyperlink) class.
+
 ## Inserting a Hyperlink
-Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.InsertHyperlink internally calls DocumentBuilder.InsertField.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property. The code example given below inserts a hyperlink into a document using DocumentBuilder.
+
+Use the [InsertHyperlink](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#inserthyperlink_string_string_bool) method to insert a hyperlink into the document. This method accepts three parameters: 
+
+1. Text of the link to be displayed in the document
+2. Link destination (URL or a name of a bookmark inside the document)
+3. Boolean parameter that should be true if the URL is a name of a bookmark inside the document
+
+The **InsertHyperlink** method always adds apostrophes at the beginning and end of the URL.
+
+{{% alert color="primary" %}}
+
+Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property.
+
+{{% /alert %}}
+
+The following code example shows how to insert a hyperlink into a document using [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder):
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cpp" >}}
 
@@ -20,12 +38,8 @@ Use DocumentBuilder.InsertHyperlink to insert a hyperlink into the document. T
 
 Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. 
 
-The FieldHyperlink class implements the HYPERLINK field. The code example given below finds all hyperlinks in a Word document and changes their URL and display name.
+The FieldHyperlink class implements the HYPERLINK field.
+
+The following code example shows how to find all hyperlinks in Word document and changes their URL and display name:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.cpp" >}}
-
-## Inserting HTML
-
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder.InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. The code example given below shows inserts HTML into a document using DocumentBuilder.
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}

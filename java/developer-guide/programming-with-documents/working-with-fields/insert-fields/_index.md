@@ -80,7 +80,7 @@ EXAMPLE
 
 ## Inserting Fields using DOM
 
-You can also insert various types of fields using [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/).
+You can also insert various types of fields using [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/). In this section, we will look at a few examples.
 
 ### Inserting Merge Field into a Document using DOM
 

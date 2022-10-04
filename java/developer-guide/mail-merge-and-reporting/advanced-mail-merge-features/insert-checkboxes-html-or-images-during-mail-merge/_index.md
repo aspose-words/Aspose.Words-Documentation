@@ -5,7 +5,7 @@ articleTitle: Insert Checkboxes, HTML or Images During Mail Merge
 linktitle: Insert Checkboxes, HTML or Images During Mail Merge
 description: "Mail merge practices using Java."
 type: docs
-weight: 40
+weight: 140
 url: /java/insert-checkboxes-html-or-images-during-mail-merge/
 ---
 

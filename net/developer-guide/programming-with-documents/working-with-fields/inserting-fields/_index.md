@@ -62,11 +62,11 @@ The folowing code example shows how to insert a field into a document using **Fi
 
 ## Inserting Fields using DOM
 
-You can also insert various types of fields using [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/).
+You can also insert various types of fields using [Aspose.Words Document Object Model (DOM)](/words/net/aspose-words-document-object-model/). In this section, we will look at a few examples.
 
 ### Inserting Merge Field into a Document using DOM
 
-The MERGEFIELD field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
+The MERGEFIELD field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/) class. You can use the **FieldMergeField** class to perform the following operations:
 
 - specify the name of merge field
 - specify the formatting of merge field

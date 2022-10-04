@@ -214,6 +214,8 @@ The following code example shows how to change the culture used in formatting fi
 
 EXAMPLE (use the public wrapper CurrentThreadSettings.getLocale() and setLocale() instead of the private Thread.CurrentThread.CurrentCulture)
 
+Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
+
 ### Formatting using the Culture in the Document
 
 On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
