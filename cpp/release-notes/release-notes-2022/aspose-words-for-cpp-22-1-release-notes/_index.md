@@ -1,8 +1,5 @@
 ---
-title: 22.1 Release Notes
-second_title: Aspose.Words for C++
-articleTitle: Aspose.Words for C++ 22.1 Release Notes
-linktitle: Aspose.Words for C++ 22.1 Release Notes
+title: Aspose.Words for C++ 22.1 Release Notes
 description: "Aspose.Words for C++ 22.1 Release Notes – the latest updates and fixes."
 type: docs
 weight: 70
@@ -177,12 +174,12 @@ Use Case: Explains how to force import styles in KeepSourceFormatting mode.
 // Also there is style MyStyle3 that exists only in source document.
 auto srcDoc = System::MakeObject<Document>(u"Src.docx");
 auto dstDoc = System::MakeObject<Document>(u"Dst.docx");
- 
+
 auto options = System::MakeObject<ImportFormatOptions>();
 options->set_ForceCopyStyles(true);
 
 auto nodeImporter = System::MakeObject<NodeImporter>(srcDoc, dstDoc, ImportFormatMode::KeepSourceFormatting, options);
- 
+
 std::cout << "Imported styles:\n";
 auto paras = srcDoc->get_FirstSection()->get_Body()->get_Paragraphs();
 for (int i = 0; i < paras->get_Count(); i++)
@@ -190,7 +187,7 @@ for (int i = 0; i < paras->get_Count(); i++)
     auto importedPara = System::StaticCast<Paragraph>(nodeImporter->ImportNode(paras->idx_get(i), true));
     std::cout << importedPara->get_ParagraphStyle()->get_Name();
 }
- 
+
 // The code produces the following output:
 // Imported styles:
 // MyStyle1_0
@@ -274,7 +271,7 @@ public:
              throw OperationCanceledException(System::String::Format("EstimatedProgress = {}; CanceledAt = {}", args->get_EstimatedProgress(), canceledAt);
          }
      }
- 
+
 private:
      /// <summary>
      /// Date and time when document saving is started.
@@ -293,11 +290,11 @@ Loading document code:
 aoto cb = System::MakeObject<SavingProgressCallback>();
 auto so = System::MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
 so->set_ProgressCallback(cb);
- 
+
 try
 {
    auto doc = System::MakeObject<Document>(u"bigDoc.rtf");
- 
+
    // Do work.
    doc->Save(u"bigDoc.docx", so);
 }
@@ -341,7 +338,7 @@ public class PdfSaveOptions
     /// <para>Form fields are not supported when saving to PDF/UA. <c>false</c> value will be used automatically.</para>
     /// </remarks>
     public bool PreserveFormFields;
- 
+
     /// <summary>
     /// Gets or sets the details for encrypting the output PDF document.
     /// </summary>
@@ -352,7 +349,7 @@ public class PdfSaveOptions
     /// if the output document is encrypted. This permission will automatically used when saving to PDF/UA.</para>
     /// </remarks>
     public PdfEncryptionDetails EncryptionDetails;
- 
+     
     /// <summary>
     /// Specifies the font embedding mode.
     /// </summary>
@@ -363,7 +360,7 @@ public class PdfSaveOptions
     /// PDF/A and PDF/UA.</para>
     /// </remarks>
     public PdfFontEmbeddingMode FontEmbeddingMode
- 
+     
     /// <summary>
     /// Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman,
     /// Courier New and Symbol with core PDF Type 1 fonts.
@@ -374,7 +371,7 @@ public class PdfSaveOptions
     /// automatically when saving to PDF/A and PDF/UA.</para>
     /// </remarks>
     public bool UseCoreFonts
- 
+     
     /// <summary>
     /// Gets or sets a value determining the way <see cref="Document.CustomDocumentProperties"/> are exported to PDF file.
     /// </summary>
@@ -385,7 +382,7 @@ public class PdfSaveOptions
     /// </para>
     /// </remarks>
     public PdfCustomPropertiesExport CustomPropertiesExport
- 
+     
     /// <summary>
     /// Gets or sets a value determining whether hyperlinks in the output Pdf document
     /// are forced to be opened in a new window (or tab) of a browser.
@@ -396,7 +393,7 @@ public class PdfSaveOptions
     /// saving to PDF/A.</para>
     /// </remarks>
     public bool OpenHyperlinksInNewWindow
- 
+     
     /// <summary>
     /// Gets or sets a value determining whether or not to export document structure.
     /// </summary>
@@ -407,7 +404,7 @@ public class PdfSaveOptions
     ...
     /// </remarks>
     public bool ExportDocumentStructure
- 
+     
     /// <summary>
     /// Specifies how the color space will be selected for the images in PDF document.
     /// </summary>
@@ -417,7 +414,7 @@ public class PdfSaveOptions
     /// <see cref="PdfImageColorSpaceExportMode.Auto"/> value will be used instead.</para>
     /// </remarks>
     public PdfImageColorSpaceExportMode ImageColorSpaceExportMode
- 
+     
     /// <summary>
     /// A flag specifying whether the window’s title bar should display the document title taken from
     /// the Title entry of the document information dictionary.
@@ -429,7 +426,7 @@ public class PdfSaveOptions
     ...
     /// </remarks>
     public bool DisplayDocTitle
- 
+     
     /// <summary>
     /// A flag indicating whether image interpolation shall be performed by a conforming reader.
     /// When <c>false</c> is specified, the flag is not written to the output document and

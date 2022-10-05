@@ -11,6 +11,31 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for C++ 22.9
+
+Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.
+
+### Loading and Saving Documents
+
+#### Cache Header or Footer Shapes to Reduce PDF size <sup>22.9</sup>
+
+The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new [CacheHeaderFooterShapes](https://reference.aspose.com/words/cpp/class/aspose.words.saving.pdf_save_options#get_cacheheaderfootershapes_const) property.
+
+#### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
+
+The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/cpp/class/aspose.words.loading.txt_load_options#get_autonumberingdetection_const) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/cpp/class/aspose.words.loading.txt_load_options/) class.
+
+### Other
+
+- A new feature to get FieldEQ as an OfficeMath has been added. <sup>22.9</sup>
+- The creation of structured document tags of Group type at the Row level was allowed. <sup>22.9</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for С++ 22.9 Release Notes](/words/cpp/aspose-words-for-cpp-22-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for C++ 22.5, 22.6, 22.7, 22.8
 
 Aspose.Words 22.5 introduces support for new loading formats and a new print page size, as well as improves some rendering options.
