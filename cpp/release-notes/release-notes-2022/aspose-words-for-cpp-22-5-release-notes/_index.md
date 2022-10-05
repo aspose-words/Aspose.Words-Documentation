@@ -1,8 +1,5 @@
 ---
-title: 22.5 Release Notes
-second_title: Aspose.Words for C++
-articleTitle: Aspose.Words for C++ 22.5 Release Notes
-linktitle: Aspose.Words for C++ 22.5 Release Notes
+title: Aspose.Words for C++ 22.5 Release Notes
 description: "Aspose.Words for C++ 22.5 Release Notes – the latest updates and fixes."
 type: docs
 weight: 50
@@ -285,7 +282,7 @@ The following public properties are added to PageSetup class:
 /// <p>Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.</p>
 /// </remarks>
 public int HeadingLevelForChapter  { get; set; }
- 
+
 /// <summary>
 /// Gets or sets the separator character that appears between the chapter number and the page number.
 /// </summary>
@@ -298,9 +295,9 @@ public ChapterPageSeparator ChapterPageSeparator { get; set; }
 Use Case:
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>(fileName);
- 
+
 auto pageSetup = document->get_FirstSection()->get_PageSetup();
- 
+
 pageSetup->set_PageNumberStyle(NumberStyle::UppercaseRoman);
 pageSetup->set_ChapterPageSeparator(ChapterPageSeparator::Colon);
 pageSetup->set_HeadingLevelForChapter(1);
@@ -339,7 +336,7 @@ Along with this, it has become possible to remove a structured document tag at t
 /// </summary>
 /// <param name="id">The structured document tag identifier.</param>
 public void Remove(int id)
- 
+
 /// <summary>
 /// Removes a structured document tag at the specified index.
 /// </summary>
@@ -403,7 +400,7 @@ Use Case:
 // This value is used to set the page size as follows:
 auto doc = System::MakeObject<Document>(fileName);
 doc->get_FirstSection()->get_PageSetup()->set_PaperSize(PaperSize::Number10Envelope);
- 
+
 // Or in a similar way using DocumentBuilder:
 auto builder = System::MakeObject<DocumentBuilder>(doc);
 builder->get_PageSetup()->set_PaperSize(PaperSize::Number10Envelope);

@@ -1,6 +1,5 @@
 ---
-title: 22.2 Release Notes
-second_title: Aspose.Words for C++
+title: Aspose.Words for C++ 22.2 Release Notes
 description: "Aspose.Words for C++ 22.2 Release Notes – the latest updates and fixes."
 type: docs
 weight: 65
@@ -276,10 +275,10 @@ The new logic may change the output for some document builder scenarios. In the 
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>();
 auto builder = System::MakeObject<DocumentBuilder>(doc);
- 
+
 // First row
 builder->StartTable();
- 
+
 auto cell1 = builder->InsertCell();
 cell1->get_CellFormat->set_Width(100);
 builder->Write(u"Text in cell 1.");
@@ -287,7 +286,7 @@ builder->Write(u"Text in cell 1.");
 auto cell2 = builder->InsertCell();
 cell2->get_CellFormat->set_Width(100);
 builder->Write(u"Text in cell 2.");
- 
+
 // End of first row
 builder->EndRow();
 
@@ -299,7 +298,7 @@ builder->Write(u"Row 2 cell spans 2 columns.");
 // End of second row
 builder->EndRow();
 builder->EndTable();
- 
+
 doc->UpdatePageLayout();
 doc->Save(u"mergedCell.docx");
 {{< /highlight >}}
