@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-for-reporting-services-17-12-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Reporting Services 17.12](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.word-for-reporting-services-17.12-\(msi\)/).
+This page contains release notes for [Aspose.Words for Reporting Services 17.12](https://releases.aspose.com/words/reportingservices/new-releases/aspose.word-for-reporting-services-17.12-zip/).
 
 {{% /alert %}}
 
@@ -20,4 +20,3 @@ This page contains release notes for [Aspose.Words for Reporting Services 17.12]
 |Key|Summary|Category|
 | :- | :- | :- |
 | |Upgrade to the latest version of Aspose.Words for .NET (17.12) |New feature|
-

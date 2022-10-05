@@ -252,5 +252,3 @@ A field which is inserted using [DocumentBuilder.insert_field](https://reference
 Below example shows how to rename merge fields in a Word document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-RenameMergeFields.py" >}}
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-MergeField.py" >}}
