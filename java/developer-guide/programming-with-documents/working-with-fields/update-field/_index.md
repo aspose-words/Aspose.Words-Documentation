@@ -54,7 +54,7 @@ The following code example shows how to update fields having the dirty attribute
 
 ## Update LastSavedTime Property Before Saving
 
-You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property whether to update the corresponding built-in document property (BuiltInDocumentProperties.LastSavedTime) on document save.
+You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property whether to update the corresponding built-in document property [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) when saving the document.
 
 The following code example shows how to update this property:
 

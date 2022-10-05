@@ -23,7 +23,7 @@ When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word wi
 
 ### Update Fields Programmatically
 
-To explicitly update fields in the whole document, simply call the [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) method. To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/net/aspose.words/range) object and call the [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/methods/updatefields) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/net/aspose.words/section), [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter) , [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph), etc. using the [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/properties/range) property.You can update the result of a single field by calling the [Update](https://reference.aspose.com/words/net/aspose.words.fields/field/methods/update) method.
+To explicitly update fields in the whole document, simply call the [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) method. To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/net/aspose.words/range) object and call the [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/methods/updatefields) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/net/aspose.words/section), [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter) , [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph), etc. using the [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/properties/range) property. You can update the result of a single field by calling the [Update](https://reference.aspose.com/words/net/aspose.words.fields/field/methods/update) method.
 
 ### Automatic Update of Page-Related Fields During Rendering
 
@@ -47,7 +47,7 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update Fields Having Dirty Attribute
 
-The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use LoadOptions.UpdateDirtyFields property to specify whether to update the fields with the dirty attribute. When the value of LoadOptions.UpdateDirtyFields is set to *true*, all fields having *true* value for Field.IsDirty or FieldChar.IsDirty property are updated on document load.
+The w:dirty is a field-level attribute that will refresh only the field you specify when the document is opened. It tells MS Word to only refresh this field the next time the document is opened. You can use the [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) property to specify whether to update the fields with the dirty attribute. When the value of **UpdateDirtyFields** is set to *true*, all fields having *true* value for [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) or [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) property are updated on document load.
 
 The following code example shows how to update fields having the dirty attribute:
 
@@ -55,7 +55,7 @@ The following code example shows how to update fields having the dirty attribute
 
 ## Update LastSavedTime Property Before Saving
 
-You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) property whether to update the corresponding built-in document property (BuiltInDocumentProperties.LastSavedTime) on document save.
+You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) property whether to update the corresponding built-in document property [LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) when saving the document.
 
 The following code example shows how to update this property:
 

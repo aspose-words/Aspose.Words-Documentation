@@ -41,7 +41,7 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update LastSavedTime Property Before Saving
 
-You can use [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_updatelastsavedtimeproperty_const) property whether to update the corresponding built-in document property (BuiltInDocumentProperties.LastSavedTime) on document save.
+You can use [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_updatelastsavedtimeproperty_const) property whether to update the corresponding built-in document property [LastSavedTime](https://reference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#get_lastsavedtime) when saving the document.
 
 The following code example shows how to update this property:
 
