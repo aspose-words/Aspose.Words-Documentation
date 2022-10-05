@@ -27,7 +27,7 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}}
 
-The following code example shows how to Inserts a merge field into a document using **DocumentBuilder**:
+The following code example shows how to inserts a merge field into a document using **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertField.h" >}}
 
@@ -49,7 +49,7 @@ EXAMPLE
 
 If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertfield_fieldtype_bool) method with the [FieldType.FieldNone](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields#fieldtype) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
-The folowing code example shows how to insert an empty field in the document:
+The folowing code example shows how to insert an empty field into the document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cpp" >}}
 

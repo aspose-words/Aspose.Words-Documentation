@@ -27,7 +27,7 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 {{% /alert %}}
 
-The following code example shows how to Inserts a merge field into a document using **DocumentBuilder**:
+The following code example shows how to inserts a merge field into a document using **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertField-InsertField.cs" >}}
 
@@ -49,7 +49,7 @@ The folowing code example shows how to use this option:
 
 If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) method with the [FieldType.FieldNone](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
-The folowing code example shows how to insert an empty field in the document:
+The folowing code example shows how to insert an empty field into the document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
 
