@@ -206,7 +206,7 @@ public bool IsAtEndOfStructuredDocumentTag { get; }
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 {{< /highlight >}}
 
-UC. Moving cursor to end of inline-level structured document tag and getting currently selected structured document tag.
+Use Case: Moving cursor to end of inline-level structured document tag and getting currently selected structured document tag.
 {{< highlight csharp >}}
 Document doc = new Document("input.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -222,6 +222,35 @@ builder.CurrentStructuredDocumentTag.Color = Color.Green;
 doc.Save("output.docx");
 {{< /highlight >}}
 
+### Added new public method List.HasSameTemplate
+
+Related issue: WORDSNET-24142
+
+A new List.HasSameTemplate() public method has been added:
+{{< highlight csharp >}}
+/// <summary>
+/// Returns true if the current list and the given list are created from the same template.
+/// </summary>
+public bool HasSameTemplate(List other)
+{{< /highlight >}}
+
+Use Case: Explains how to work with List.HasSameTemplate().
+{{< highlight csharp >}}
+List list1 = document.Lists[0];
+List list2 = document.Lists[1];
+List list3 = document.Lists[2];
+
+if (list1.HasSameTemplate(list2))
+{
+    Console.WriteLine("These lists have the same list template.");
+}
+
+if (!list2.HasSameTemplate(list3))
+{
+    Console.WriteLine("These lists have different list templates.");
+}
+{{< /highlight >}}
+
 ### Obsolite LoadOptions.FlatOpcXmlMappingOnly and SaveOptions.FlatOpcXmlMappingOnly options were removed
 
 Related issue: WORDSNET-21455
@@ -229,3 +258,13 @@ Related issue: WORDSNET-21455
 These options caused unexpected side-effects and decided to be removed eventually. 
 Instead, it was suggested to convert the mapped document to FlatOpc file format directly. 
 This approach has no side-effect and provides better output.
+
+### SaveOptions.UpdateSdtContent default value changed and marked as obsolete.
+
+Related issue: WORDSNET-24030
+
+Default value of SaveOptions.UpdateSdtContent has been changed to False to follow MS Word behavoir, MS Word does not update content of common (not mapped) SDT from SDT values.
+
+Also we decided to remove this option later as it causes unexpected side-effects similar to FlatOpcXmlMappingOnly load/save option. 
+
+Instead we going to provide new method which should be called explicitly to update SDT content according to the values.
