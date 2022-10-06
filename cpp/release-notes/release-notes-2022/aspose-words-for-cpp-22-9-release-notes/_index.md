@@ -34,6 +34,12 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 - The current release supports GCC 6.3 or higher and Clang 3.9.1 or higher on Linux and only for the x86_x64 platform.
 - The current release supports macOS Big Sur or later (11.5+) for 64-bit Intel Mac platform.
 
+## Full List of Issues Covering all Changes in this Release (Reported by C++ Users)
+
+|Key|Summary|Category|
+| :- | :- | :- |
+|WORDSCPP-1195|"'_T': macro redefinition" warning is thrown when "#include <tchar.h>" is used.|Bug
+
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
 |Key|Summary|Category|
