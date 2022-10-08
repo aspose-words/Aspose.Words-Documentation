@@ -251,7 +251,7 @@ if (!list2.HasSameTemplate(list3))
 }
 {{< /highlight >}}
 
-### Obsolite LoadOptions.FlatOpcXmlMappingOnly and SaveOptions.FlatOpcXmlMappingOnly options were removed
+### Obsolete LoadOptions.FlatOpcXmlMappingOnly and SaveOptions.FlatOpcXmlMappingOnly options were removed
 
 Related issue: WORDSNET-21455
 
