@@ -33,7 +33,7 @@ If you want to update all other fields in the document, then you need to call [U
 
 The following code example shows how to update all fields before rendering a document:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-UpdateDocFields-UpdateDocFields.cpp" >}}
 
 ### Automatic Field Update During Mail Merge
 

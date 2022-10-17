@@ -35,7 +35,7 @@ However, in the header, the PAGE field translates well to static run of text. Th
 
 The following code example shows how to replace the field with its most recent result:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UnlinkFields-UnlinkFields.java" >}}
 
 ## Convert Certain Field Types in Specific Document Parts
 
@@ -53,11 +53,11 @@ The [FieldType](https://reference.aspose.com/words/java/com.aspose.words/FieldTy
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldHelper-FieldsHelper.java" >}}
 
 The following code example shows how to convert all IF fields in a document to static text:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-ConvertFieldsInDocument-ConvertFieldsInDocument.java" >}}
 
 The following code  example shows how to convert all PAGE fields in a Body of a document to static text:
 

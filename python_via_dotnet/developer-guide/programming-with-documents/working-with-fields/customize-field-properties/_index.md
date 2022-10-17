@@ -17,7 +17,7 @@ Sometimes users need to change the value of a field property. For example, updat
 
 The following code example shows how to rename merge fields in a Word document:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-RenameMergeFields.py" >}}
 
 ## Field Display Result
 
@@ -25,4 +25,4 @@ Aspose.Words provides a property to obtain the field's result for fields that do
 
 The following code example shows the usage of [display_result](https://reference.aspose.com/words/python-net/aspose.words.fields/field/display_result/) property:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-FieldDisplayResults.py" >}}

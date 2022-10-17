@@ -21,13 +21,15 @@ The following code example shows how to apply custom formatting for the field re
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FormatFieldResult-FormatFieldResult.cpp" >}}
 
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldResultFormatter-FieldResultFormatter.cpp" >}}
+
 ## How to evaluate IF condition
 
 If you want to evaluate IF condition after mail merge, you can use the [EvaluateCondition](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_if#evaluatecondition) method that immediately returns the result of the expression evaluation.
 
 The following code example shows how to use this method:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-EvaluateIFCondition-EvaluateIFCondition.cpp" >}}
 
 ## How to Apply Custom Formatting to Time Field
 
@@ -36,3 +38,5 @@ By default Aspose.Words updates TIME field with current culture short time forma
 The following code examples shows how to apply custom formatting to the TIME field:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldUpdateCulture-FieldUpdateCultureProvider.cpp" >}}
+
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldUpdateCulture-FieldUpdateCultureProviderGetCulture.cpp" >}}

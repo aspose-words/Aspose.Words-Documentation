@@ -43,7 +43,7 @@ A language identifier is a standard international numeric abbreviation for the l
 
 The folowing code example shows how to use this option:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cpp" >}}
 
 ### Insert Untyped/Empty Field
 
@@ -59,7 +59,7 @@ The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https
 
 The folowing code example shows how to insert a field into a document using **FieldBuilder**:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldUsingFieldBuilder-InsertFieldUsingFieldBuilder.cpp" >}}
 
 ## Inserting Fields using DOM
 

@@ -25,4 +25,4 @@ Aspose.Words provides a property to obtain the field's result for fields that do
 
 The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field#get_displayresult) property:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cpp" >}}

@@ -64,7 +64,7 @@ The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https
 
 The folowing code example shows how to insert a field into a document using **FieldBuilder**:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldUsingFieldBuilder.py" >}}
 
 ## Inserting Fields using DOM
 

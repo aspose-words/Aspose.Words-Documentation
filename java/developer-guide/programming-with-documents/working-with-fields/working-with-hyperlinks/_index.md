@@ -29,7 +29,7 @@ Note that you need to specify font formatting for the hyperlink display text exp
 
 The following code example shows how to insert a hyperlink into a document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder):
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
 ## Replace or Modify Hyperlinks
 

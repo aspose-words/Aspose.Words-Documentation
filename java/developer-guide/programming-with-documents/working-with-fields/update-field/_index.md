@@ -32,13 +32,7 @@ If you want to update all other fields in the document, then you need to call [U
 
 The following example shows how to update all fields before rendering a document:
 
-{{< highlight csharp >}}
-Document doc = new Document(getMyDir() + "Rendering.doc");
-
-// This updates all fields in the document.
-doc.updateFields();
-doc.save(getMyDir() + "Rendering.UpdateFields Out.pdf");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
 
 ### Automatic Field Update during Mail Merge
 
@@ -58,4 +52,4 @@ You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words
 
 The following code example shows how to update this property:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateLastSavedTimeProperty-UpdateLastSavedTimeProperty.java" >}}

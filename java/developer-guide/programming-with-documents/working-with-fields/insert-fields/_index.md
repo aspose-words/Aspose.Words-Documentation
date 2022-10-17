@@ -30,13 +30,13 @@ If your field code has a parameter containing a space then it must be enclosed w
 
 The following code example shows how to inserts a merge field into a document using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-UpdateFields-UpdateFields.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-InsertField.java" >}}
 
 The same technique is used to insert fields nested within other fields.
 
 The following code example demonstrates how to insert fields nested within another field using **DocumentBuilder**:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-DocumentBuilderInsertField.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertNestedFields-InsertNestedFields.java" >}}
 
 ### Specify Locale at Field Level
 
@@ -44,7 +44,7 @@ A language identifier is a standard international numeric abbreviation for the l
 
 The folowing code example shows how to use this option:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
 ### Insert Untyped/Empty Field
 
@@ -52,7 +52,7 @@ If you want to insert untyped/empty fields ({}) just like Microsoft Word allows,
 
 The folowing code example shows how to insert an empty field into the document:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
 ### Insert COMPARE Field
 
@@ -76,7 +76,7 @@ The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https
 
 The folowing code example shows how to insert a field into a document using **FieldBuilder**:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
 ## Inserting Fields using DOM
 

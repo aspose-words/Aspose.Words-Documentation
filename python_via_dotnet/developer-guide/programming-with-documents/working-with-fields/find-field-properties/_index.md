@@ -13,10 +13,10 @@ A field that is inserted using [DocumentBuilder](https://reference.aspose.com/wo
 
 The following code example shows how to find the field code and field result:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-GetFieldCode.py" >}}
 
 Note if you are only looking for the names of merge fields in a document, then you can instead use the built-in [get_field_names](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names/) method.
 
 The following code example shows how to get names of all merge fields in a document:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-GetFieldNames.py" >}}

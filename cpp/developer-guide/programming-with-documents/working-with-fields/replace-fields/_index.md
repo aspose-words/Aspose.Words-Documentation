@@ -34,7 +34,7 @@ However, in the header, the PAGE field translates well to static run of text. Th
 
 The following code example shows how to replace the field with its most recent result:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-UnlinkFields.cpp" >}}
 
 ## Convert Certain Field Types in Specific Document Parts
 
@@ -52,16 +52,16 @@ The [FieldType](https://reference.aspose.com/words/cpp/namespace/aspose.words.fi
 
 The following code example shows how to select fields of a specific type – *targetFieldType* in a specific node – *compositeNode* and then convert them to static text:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cpp" >}}
 
 The following code example shows how to convert all IF fields in a document to static text:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cpp" >}}
 
 The following code  example shows how to convert all PAGE fields in a Body of a document to static text:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cpp" >}}
 
 The following code  example shows how to convert all IF fields in the last paragraph to static text:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-ConvertFieldsInDocument-ConvertFieldsInDocument.cpp" >}}

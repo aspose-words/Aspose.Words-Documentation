@@ -13,10 +13,10 @@ A field that is inserted using [DocumentBuilder](https://reference.aspose.com/wo
 
 The following code example shows how to find the field code and field result:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldsCode.cpp" >}}
 
 Note if you are only looking for the names of merge fields in a document, then you can instead use the built-in [GetFieldNames](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#getfieldnames) method.
 
 The following code example shows how to get names of all merge fields in a document:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-GetFieldNames-GetFieldNames.cpp" >}}
