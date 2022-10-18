@@ -1,9 +1,9 @@
 ---
 title: Working with Hyperlinks in C#
 second_title: Aspose.Words for .NET
-articleTitle: Working with Hyperlinks
-linktitle: Working with Hyperlinks
-description: "How to insert a hyperlink into your document in C# using Aspose.Words for .NET."
+articleTitle: Add or Modify Hyperlinks
+linktitle: Add or Modify Hyperlinks
+description: "How to add a hyperlink into your document in C# using Aspose.Words for .NET."
 type: docs
 weight: 50
 url: /net/working-with-hyperlinks/

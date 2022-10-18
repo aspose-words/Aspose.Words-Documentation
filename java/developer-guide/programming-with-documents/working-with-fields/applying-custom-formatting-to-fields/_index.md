@@ -1,8 +1,8 @@
 ---
 title: Apply Custom Formatting to Fields
 second_title: Aspose.Words for Java
-articleTitle: Applying Custom Formatting to Fields
-linktitle: Applying Custom Formatting to Fields
+articleTitle: Apply Custom Formatting to Fields
+linktitle: Apply Custom Formatting to Fields
 description: "Format and evaluate fields result using Java."
 type: docs
 weight: 40

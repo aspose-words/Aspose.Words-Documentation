@@ -1,9 +1,9 @@
 ---
 title: Working with Hyperlinks in C++
 second_title: Aspose.Words for C++
-articleTitle: Working with Hyperlinks
-linktitle: Working with Hyperlinks
-description: "How to insert a hyperlink into your document using Aspose.Words for C++."
+articleTitle: Add or Modify Hyperlinks
+linktitle: Add or Modify Hyperlinks
+description: "How to add a hyperlink into your document using Aspose.Words for C++."
 type: docs
 aliases:
     - /cpp/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/

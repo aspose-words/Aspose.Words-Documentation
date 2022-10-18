@@ -1,9 +1,9 @@
 ---
 title: Working with Hyperlinks
 second_title: Aspose.Words for Python via .NET
-articleTitle: Working with Hyperlinks
-linktitle: Working with Hyperlinks
-description: "Insert, replace, or modify a hyperlink into the document using Python."
+articleTitle: Add or Modify Hyperlinks
+linktitle: Add or Modify Hyperlinks
+description: "Add, replace, or modify a hyperlink in a document using Python."
 type: docs
 weight: 50
 url: /python-net/working-with-hyperlinks/

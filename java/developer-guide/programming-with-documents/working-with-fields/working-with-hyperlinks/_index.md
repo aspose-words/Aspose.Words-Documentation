@@ -1,9 +1,9 @@
 ---
 title: Working with Hyperlinks in Java
 second_title: Aspose.Words for Java
-articleTitle: Working with Hyperlinks
-linktitle: Working with Hyperlinks
-description: "How to insert hyperlink into your document using Java."
+articleTitle: Add or Modify Hyperlinks
+linktitle: Add or Modify Hyperlinks
+description: "How to add a hyperlink into your document using Java."
 type: docs
 weight: 50
 url: /java/working-with-hyperlinks/
