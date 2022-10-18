@@ -15,7 +15,7 @@ The following code example shows how to find the field code and field result:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldCode.cs" >}}
 
-Note if you are only looking for the names of merge fields in a document, then you can instead use the built-in MailMerge.GetFieldNames method.
+Note if you are only looking for the names of merge fields in a document, then you can instead use the built-in [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) method.
 
 The following code example shows how to get names of all merge fields in a document:
 

@@ -1,8 +1,8 @@
 ---
-title: Applying Custom Formatting to Fields in C#
+title: Apply Custom Formatting to Fields in C#
 second_title: Aspose.Words for .NET
-articleTitle: Applying Custom Formatting to Fields
-linktitle: Applying Custom Formatting to Fields
+articleTitle: Apply Custom Formatting to Fields
+linktitle: Apply Custom Formatting to Fields
 description: "Format and evaluate fields result using C#."
 type: docs
 weight: 40
