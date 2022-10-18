@@ -11,9 +11,11 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 22.9
+## Aspose.Words for Java 22.9, 22.10
 
 Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.
+
+Aspose.Words 22.10 improves find and replace options, enhances OLE objects, and expands list functionality.
 
 ### Loading and Saving Documents
 
@@ -25,14 +27,22 @@ The ability to cache header/footer shapes to reduce the size of the output PDF f
 
 The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions#AutoNumberingDetection) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/TxtLoadOptions) class.
 
+### Search and Compare <sup>22.10</sup>
+
+The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag) upon find and replace options has been implemented by adding a new **IgnoreStructuredDocumentTags** property to the [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/FindReplaceOptions) class.
+
 ### Other
 
 - A new feature to get FieldEQ as an OfficeMath has been added. <sup>22.9</sup>
 - The creation of structured document tags of Group type at the Row level was allowed. <sup>22.9</sup>
+- OLE objects and controls are now treated as metafile images when converting a document to HTML. <sup>22.10</sup>
+- A new feature to check that a particular list was created from the same template as the compared list has been added by introducing a new **HasSameTemplate** method into the [List](https://reference.aspose.com/words/java/com.aspose.words/List) class. <sup>22.10</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Java 22.9 Release Notes](/words/java/aspose-words-for-java-22-9-release-notes/).
+
+Learn more about [Aspose.Words for Java 22.10 Release Notes](/words/java/aspose-words-for-java-22-10-release-notes/).
 
 {{% /alert %}}
 

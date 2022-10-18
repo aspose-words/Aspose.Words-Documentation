@@ -1,8 +1,5 @@
 ---
-title: 22.4 Release Notes
-second_title: Aspose.Words for C++
-articleTitle: Aspose.Words for C++ 22.4 Release Notes
-linktitle: Aspose.Words for C++ 22.4 Release Notes
+title: Aspose.Words for C++ 22.4 Release Notes
 description: "Aspose.Words for C++ 22.4 Release Notes – the latest updates and fixes."
 type: docs
 weight: 55
@@ -155,7 +152,7 @@ public class PdfSaveOptions
     /// when saving to PDF/A.</para>
     /// </remarks>
     public bool PreserveFormFields;
-  
+
     /// <summary>
     /// Gets or sets the details for encrypting the output PDF document.
     /// </summary>
@@ -163,7 +160,7 @@ public class PdfSaveOptions
     ...
     /// <para>Encryption is prohibited by PDF/A compliance. This option will be ignored when saving to PDF/A.</para>
     public PdfEncryptionDetails EncryptionDetails;
-  
+      
     /// <summary>
     /// Specifies the font embedding mode.
     /// </summary>
@@ -174,7 +171,7 @@ public class PdfSaveOptions
     /// PDF/A and PDF/UA.</para>
     /// </remarks>
     public PdfFontEmbeddingMode FontEmbeddingMode;
-  
+      
     /// <summary>
     /// Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman,
     /// Courier New and Symbol with core PDF Type 1 fonts.
@@ -185,7 +182,7 @@ public class PdfSaveOptions
     /// automatically when saving to PDF/A and PDF/UA.</para>
     /// </remarks>
     public bool UseCoreFonts;
-  
+      
     /// <summary>
     /// Gets or sets a value determining the way <see cref="Document.CustomDocumentProperties"/> are exported to PDF file.
     /// </summary>
@@ -197,7 +194,7 @@ public class PdfSaveOptions
     ...
     /// </remarks>
     public PdfCustomPropertiesExport CustomPropertiesExport;
-  
+      
     /// <summary>
     /// Specifies how the color space will be selected for the images in PDF document.
     /// </summary>
@@ -207,7 +204,7 @@ public class PdfSaveOptions
     /// <see cref="PdfImageColorSpaceExportMode.Auto"/> value will be used instead.</para>
     /// </remarks>
     public PdfImageColorSpaceExportMode ImageColorSpaceExportMode;
-  
+      
     /// <summary>
     /// A flag indicating whether image interpolation shall be performed by a conforming reader.
     /// When <c>false</c> is specified, the flag is not written to the output document and
@@ -280,7 +277,7 @@ public enum BlockImportMode
     /// </para>
     /// </remarks>
     Merge,
- 
+
     /// <summary>
     /// Properties of parent blocks are imported to a special logical structure and are stored separately from
     /// document nodes.
@@ -352,13 +349,13 @@ namespace Aspose.Words.Drawing.Charts
         /// is still displayed on the chart.
         /// </remarks>
         public bool IsHidden { get; set; }
- 
+
         /// <summary>
         /// Provides access to the font formatting of this legend entry.
         /// </summary>
         public Font Font { get; }
     }
- 
+     
     /// <summary>
     /// Represents a collection of chart legend entries.
     /// </summary>
@@ -368,7 +365,7 @@ namespace Aspose.Words.Drawing.Charts
         /// Returns the number of ChartLegendEntry in this collection.
         /// </summary>
         public int Count { get; }
- 
+     
         /// <summary>
         /// Returns ChartLegendEntry for the specified index.
         /// </summary>
@@ -399,31 +396,31 @@ Use Case:
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>();
 auto builder = System::MakeObject<DocumentBuilder>(doc);
- 
+
 auto shape = builder->InsertChart(ChartType::Column, 432, 252);
- 
+
 auto chart = shape->get_Chart();
 aut series = chart->get_Series();
 
 // Delete default generated series.
 series->Clear();
- 
+
 auto categories = System::MakeArray<System::String>({ u"AW Category 1", u"AW Category 2" });
- 
+
 auto series1 = series->Add(u"Series 1", categories, System::MakeArray<double>({ 1, 2 }));
 series->Add(u"Series 2", categories, System::MakeArray<double>({ 3, 4 }));
 series.Add(u"Series 3", categories, System::MakeArray<double>({ 5, 6 }));
 series.Add(u"Series 4", categories, System::MakeArray<double>({ 0, 0 }));
- 
+
 auto legendEntries = chart->get_Legend()->get_LegendEntries();
 legendEntries->idx_get(3)->set_IsHidden(true);
- 
+
 for (auto&& legendEntry: legendEntries) {
     legendEntry->get_Font()->set_Size(12);
 }
- 
+
 series1->get_LegendEntry()->get_Font()->set_Italic(true);
- 
+
 doc->Save(u"output.docx");
 {{< /highlight >}}
 
@@ -439,29 +436,29 @@ public interface IStructuredDocumentTag
     /// Returns true if this instance is a ranged structured document tag.
     /// </summary>
     bool IsRanged();
- 
+
     /// <summary>
     /// Returns Node object that implements this interface.
     /// </summary>
     Node StructuredDocumentTagNode();
- 
+     
     /// <summary>
     /// <para>Specifies a unique read-only persistent numerical Id for this <b>SDT</b>.</para>
     /// </summary>
     int Id { get; }
- 
+     
     /// <summary>
     /// Specifies a tag associated with the current SDT node.
     /// Can not be null.
     /// </summary>
     string Tag { get; set; }
- 
+     
     /// <summary>
     /// Specifies the friendly name associated with this <b>SDT</b>.
     /// Can not be null.
     /// </summary>
     string Title { get; set; }
- 
+     
     /// <summary>
     /// Gets the <see cref="BuildingBlock"/> containing placeholder text which should be displayed when this SDT run contents are empty,
     /// the associated mapped XML element is empty as specified via the <see cref="XmlMapping"/> element
@@ -469,7 +466,7 @@ public interface IStructuredDocumentTag
     /// </summary>
     /// <remarks>Can be null, meaning that the placeholder is not applicable for this Sdt.</remarks>
     BuildingBlock Placeholder { get; }
- 
+     
     /// <summary>
     /// <para>Gets or sets Name of the <see cref="BuildingBlock"/> containing placeholder text.</para>
     /// <para>
@@ -477,7 +474,7 @@ public interface IStructuredDocumentTag
     /// otherwise <see cref="InvalidOperationException"/> will occur.</para>
     /// </summary>
     string PlaceholderName { get; set; }
- 
+     
     /// <summary>
     /// <para>
     /// Specifies whether the content of this <b>SDT</b> shall be interpreted to contain placeholder text
@@ -488,32 +485,32 @@ public interface IStructuredDocumentTag
     /// </para>
     /// </summary>
     bool IsShowingPlaceholderText { get; set; }
- 
+     
     /// <summary>
     /// Gets the level at which this <b>SDT</b> occurs in the document tree.
     /// </summary>
     MarkupLevel Level { get; }
- 
+     
     /// <summary>
     /// Gets type of this <b>Structured document tag</b>.
     /// </summary>
     SdtType SdtType { get; }
- 
+     
     /// <summary>
     /// When set to true, this property will prohibit a user from deleting this <b>SDT</b>.
     /// </summary>
     bool LockContentControl { get; set; }
- 
+     
     /// <summary>
     /// When set to true, this property will prohibit a user from editing the contents of this <b>SDT</b>.
     /// </summary>
     bool LockContents { get; set; }
- 
+     
     /// <summary>
     /// Gets or sets the color of the structured document tag.
     /// </summary>
     System.Drawing.Color Color { get; set; }
- 
+     
     /// <summary>
     /// Gets an object that represents the mapping of this structured document tag to XML data
     /// in a custom XML part of the current document.
@@ -533,7 +530,7 @@ public interface IStructuredDocumentTag
     /// document.
     /// </dev>
     XmlMapping XmlMapping { get; }
- 
+     
     /// <summary>
     /// Gets a string that represents the XML contained within the node in the <see cref="SaveFormat.FlatOpc"/> format.
     /// </summary>
@@ -553,7 +550,7 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
     /// </remarks>
     /// <param name="title">The title of structured document tag.</param>
     public IStructuredDocumentTag GetByTitle(string title);
- 
+
     /// <summary>
     /// Returns the first structured document tag encountered in the collection with the specified tag.
     /// </summary>
@@ -562,18 +559,18 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
     /// </remarks>
     /// <param name="tag">The tag of the structured document tag.</param>
     public IStructuredDocumentTag GetByTag(string tag);
- 
+     
     /// <summary>
     /// Returns the number of structured document tags in the collection.
     /// </summary>
     public int Count { get; }
- 
+     
     /// <summary>
     /// Returns the structured document tag by Id.
     /// </summary>
     /// <param name="id">The structured document tag identifier.</param>
     public IStructuredDocumentTag this[int id] {get; }
- 
+     
     /// <summary>
     /// Removes the structured document tag with the specified identifier.
     /// </summary>
@@ -593,11 +590,11 @@ public StructuredDocumentTagCollection Range.StructuredDocumentTags { get; }
 Use Case:
 {{< highlight cpp >}}
 auto doc = System::MakeObject<Document>(u"some document with markup");
- 
+
 // Get the structured document tag by Id.
 auto sdt = doc->get_Range()->get_StructuredDocumentTags()->idx_get(1160505028);
 cout << sdt->get_IsRanged() << '\n' << sdt=>get_Title() << '\n';
- 
+
 // Get the structured document tag or ranged tag by Title.
 sdt = doc->get_Range()->get_StructuredDocumentTags()->GetByTitle(u"Alias4");
 cout << sdt->get_Id();
