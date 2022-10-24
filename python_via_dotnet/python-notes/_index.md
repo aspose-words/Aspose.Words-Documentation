@@ -270,6 +270,16 @@ properties = properties + "\nTotal ActiveX Controls found: " + str(doc.get_child
 print("\n" + properties)
 {{< /highlight >}}
 
+### Casting Font Sources
+
+[FontSourceBase](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/) class provides set of `as_xxx` methods, which are listed below:
+
+* [as_file_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_file_font_source/)
+* [as_folder_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_folder_font_source/)
+* [as_memory_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_memory_font_source/)
+* [as_stream_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_stream_font_source/)
+* [as_system_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_system_font_source/)
+
 ## Accessing Indexer Properties
 Aspose.Words for Python does allow indexer properties only by *int* type, in .NET however it is possible to use other types, for example strings. To fill this gap the following classes has an additional methods:
 
