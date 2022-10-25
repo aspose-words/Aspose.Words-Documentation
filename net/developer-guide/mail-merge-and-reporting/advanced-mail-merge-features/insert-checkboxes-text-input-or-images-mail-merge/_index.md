@@ -6,15 +6,16 @@ linktitle: Insert Checkboxes, Text Input, or Images
 description: "Insert checkboxes or text input fields during Mail Merge using C#. Also insert images from a Database during Mail Merge in C#."
 type: docs
 weight: 40
-url: /net/insert-checkboxes-html-or-images-during-mail-merge/
+url: /net/insert-checkboxes-text-input-or-images-mail-merge/
+aliases: [/net/insert-checkboxes-html-or-images-during-mail-merge/]
 ---
 
 The merge engine takes a document as input, looks for MERGEFIELD fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for mail merge fields.
 
 Powerful Aspose.Words functionality allows you to extend the mail merge process:
 
-- insert images from any custom storage (files, BLOB fields, etc.)
 - insert checkboxes and text input form fields into the document during a mail merge
+- insert images from any custom storage (files, BLOB fields, etc.)
 
 ## Insert Checkboxes and Text Input during Mail Merge
 
