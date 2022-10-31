@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Fields in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Fields
@@ -9,10 +9,8 @@ weight: 130
 url: /java/working-with-fields/
 ---
 
-**This section includes the following topics:** 
+**Fields** in a document are like placeholders where useful data can be inserted. For example, a field can be a page reference, formula, or a mail merge field.
 
-- [Introduction to Fields](/words/java/introduction-to-fields/)
-- [Update Field](/words/java/update-field/)
-- [Insert and Remove Field](/words/java/insert-and-remove-field/)
-- [Insert Checkboxes, HTML or Images During Mail Merge](/words/java/insert-checkboxes-html-or-images-during-mail-merge/)
-- [How to Replace or Modify Hyperlinks and Replace Fields with Static Text](/words/java/how-to-replace-or-modify-hyperlinks-and-replace-fields-with-static-text/)
+In a document created or edited with Aspose.Words, as in a Microsoft Word document, a field consists of a field code and a field result. The field code is an instruction about how the field result needs to be updated or calculated. An application that processes a document and encounters a field should interpret the instructions contained in the field code and update the field result with a new value.
+
+In Aspose.Words, fields are represented by various classes, most of whose names begin with "Field". Articles in this documentation section explain how to use Aspose.Words classes to manipulate document fields programmatically.
