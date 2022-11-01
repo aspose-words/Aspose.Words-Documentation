@@ -6,8 +6,10 @@ linktitle: Working with Ole Objects and Online Video
 description: "Insert ole objects or onlin vodeo into a document using Python."
 type: docs
 weight: 160
-url: /python-net/working-with-ole-objects-and-online-video/
-aliases: [/python/working-with-ole-objects-and-online-video/]
+url: /python-net/working-with-ole-objects/
+aliases:
+- /python/working-with-ole-objects-and-online-video/
+- /python-net/working-with-ole-objects-and-online-video/
 ---
 
 ## Inserting Ole Object

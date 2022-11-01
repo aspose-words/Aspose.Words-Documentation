@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Styles in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Styles
@@ -6,8 +6,10 @@ linktitle: Working with Styles
 description: "Enhanced Microsoft Word formatting features, working with styles using Java."
 type: docs
 weight: 23
-url: /java/working-with-styles/
-aliases: [/java/how-to-extract-content-based-on-styles/]
+url: /java/working-with-styles-and-themes/
+aliases:
+- /java/how-to-extract-content-based-on-styles/
+- /java/working-with-styles/
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/StyleCollection) class is used to manage built-in and apply user-defined settings to styles.
