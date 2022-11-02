@@ -1,15 +1,16 @@
 ---
-title: Working with Styles in Java
+title: Working with Styles and Themes
 second_title: Aspose.Words for Java
-articleTitle: Working with Styles
-linktitle: Working with Styles
-description: "Enhanced Microsoft Word formatting features, working with styles using Java."
+articleTitle: Working with Styles and Themes
+linktitle: Working with Styles and Themes
+description: "Enhanced Microsoft Word formatting features, working with styles and themes using Java."
 type: docs
 weight: 23
 url: /java/working-with-styles-and-themes/
 aliases:
 - /java/how-to-extract-content-based-on-styles/
 - /java/working-with-styles/
+- /java/working-with-themes/
 ---
 
 The [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/StyleCollection) class is used to manage built-in and apply user-defined settings to styles.
@@ -85,3 +86,18 @@ The following code example shows how to copy styles from one document into anoth
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-WorkingWithStyle-CopyStylesFromDocument.java" >}}
 
+## How to Manipulate Theme Properties
+
+We have added basic API in Aspose.Words to access document theme properties. For now, this API includes the following public objects:
+
+- Theme
+- ThemeFonts
+- ThemeColors
+
+Here is how you can get theme properties:
+
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-GetThemeProperties-GetThemeProperties.java" >}}
+
+And here is how you can set theme properties:
+
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Theme-SetThemeProperties-SetThemeProperties.java" >}}
