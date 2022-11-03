@@ -373,7 +373,7 @@ From now on, it is possible to use template tag headers to match opening and clo
 
 Related issue: WORDSNET-24350
 
-Starting from Aspose.Words 22.11, you can trim the last paragraph break from a document being dynamically inserted by LINQ Reporting Engine. The template syntax for this is as follows:
+Starting from Aspose.Words 22.11, it is possible to trim the last paragraph break from a document being dynamically inserted by LINQ Reporting Engine. The template syntax for this is as follows:
 {{< highlight csharp >}}
 <<doc [document_expression] -inline>>
 {{< /highlight >}}
