@@ -364,10 +364,16 @@ doc.Save(outputFileName, saveOptions);
 
 Related issue: WORDSNET-23489
 
-The "Template Syntax" section of the engine's documentation was updated to describe the change.
+From now on, it is possible to use template tag headers to match opening and closing tags and make LINQ Reporting Engine indicate an error in case of a mismatch, for example, because of a wrong closing tags’ order. Template syntax for using tag headers is as follows:
+{{< highlight csharp >}}
+<<tag_name ... #header1>><<tag_name ... #header2>>...<</tag_name #header2>><</tag_name #header1>>
+{{< /highlight >}}
 
 ### Added a switch to trim the last paragraph break when inserting a document using LINQ Reporting Engine
 
 Related issue: WORDSNET-24350
 
-The "Template Syntax" section of the engine's documentation was updated to describe the change.
+Starting from Aspose.Words 22.11, you can trim the last paragraph break from a document being dynamically inserted by LINQ Reporting Engine. The template syntax for this is as follows:
+{{< highlight csharp >}}
+<<doc [document_expression] -inline>>
+{{< /highlight >}}
