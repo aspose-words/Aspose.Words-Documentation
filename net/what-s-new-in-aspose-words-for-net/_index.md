@@ -11,15 +11,25 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 22.9, 22.10
+## Aspose.Words for .NET 22.9, 22.10, 22.11
 
 Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.
 
 Aspose.Words 22.10 improves find and replace options, enhances OLE objects, and expands list functionality.
 
+Aspose.Words 22.11 expands its functionality with new options for more convenient work with already familiar objects: fields, printing, OLE and structured document tags.
+
+### Rendering and Printing
+
+#### Printing Non-colored Pages on a Color Printer <sup>22.11</sup>
+
+A custom colored/grayscale print mode has been implemented by adding a new **GrayscaleAuto** value to the [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/) enumeration.
+
+A new print property allows users to control how non-colored pages are printed if the device supports color printing. This feature can be useful if users want to automatically print non-colored pages using only grayscale printing mode.
+
 ### Loading and Saving Documents
 
-#### Cache Header or Footer Shapes to Reduce PDF size <sup>22.9</sup>
+#### Cache Header or Footer Shapes to Reduce PDF Size <sup>22.9</sup>
 
 The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new [CacheHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/cacheheaderfootershapes) property.
 
@@ -37,12 +47,17 @@ The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words
 * The creation of structured document tags of Group type at the Row level was allowed. <sup>22.9</sup>
 * OLE objects and controls are now treated as metafile images when converting a document to HTML. <sup>22.10</sup>
 * A new feature to check that a particular list was created from the same template as the compared list has been added by introducing a new [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) method into the [List](https://reference.aspose.com/words/net/aspose.words.lists/list/) class. <sup>22.10</sup>
+* The ability to create new structured document tags of the [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) type has been added. <sup>22.11</sup>
+* The ability to track the field updating progress has been provided. <sup>22.11</sup>
+* A new **EmbedAttachments** property that allows users to embed OLE attachments from a source document into the output PDF document has been introduced. <sup>22.11</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 22.9 Release Notes](/words/net/aspose-words-for-net-22-9-release-notes/).
 
 Learn more about [Aspose.Words for .NET 22.10 Release Notes](/words/net/aspose-words-for-net-22-10-release-notes/).
+
+Learn more about [Aspose.Words for .NET 22.11 Release Notes](/words/net/aspose-words-for-net-22-11-release-notes/).
 
 {{% /alert %}}
 

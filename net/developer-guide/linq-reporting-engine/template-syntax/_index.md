@@ -15,17 +15,18 @@ A tag body must meet the following requirements:
 
 - A tag body must be surrounded by “<<” and “>>” character sequences.
 - A tag body must contain only text nodes.
-- A tag body must not be located inside markup document nodes such as StructuredDocumentTag, CustomXmlMarkup, or SmartTag.
+- A tag body must not be located inside markup document nodes such as `StructuredDocumentTag`, `CustomXmlMarkup`, or `SmartTag`.
 
 A tag body typically consists of the following elements:
 
 - A tag name
 - An expression surrounded by brackets
 - A set of switches available for the tag, each of which is preceded by the “-“ character
+- An optional tag header used for syntax error checking as explained further
 - An optional comment providing a human-readable explanation ignored by the engine
 
 {{< highlight xml >}}
-<<tag_name [expression] –switch1 –switch2 ... // optional_comment >>
+<<tag_name [expression] –switch1 –switch2 ... # optional_tag_header // optional_comment >>
 {{< /highlight >}}
 
 Particular tags can have additional elements.
@@ -35,6 +36,14 @@ Some tags require closing counterparts. A closing tag has the “/” character 
 <</tag_name>>
 {{< /highlight >}}
 **Note –** Tag body elements are case-sensitive.
+
+Tags consisting of opening and closing parts can be nested to each other. In case when nested tags are of the same type, it can be harder to determine which closing part relates to which opening part, especially given often edits of a template. To simplify this, you can use tag headers as follows.
+
+{{< highlight xml >}}
+<<tag_name ... #header1>><<tag_name ... #header2>>...<</tag_name #header2>><</tag_name #header1>>
+{{< /highlight >}}
+
+While building a report, the engine checks matching of headers for corresponding opening and closing tags and indicates an error in case of a mismatch, for example, because of a wrong closing tags’ order.
 
 During runtime, after a template syntax tag is processed by the engine, it is typically removed. This can lead to a situation where a paragraph containing the tag becomes empty if it has no other content. If such a paragraph is unwanted, it can be optionally removed by the engine (see “Removing Paragraphs Containing Only Template Syntax Tags” for more information).
 
