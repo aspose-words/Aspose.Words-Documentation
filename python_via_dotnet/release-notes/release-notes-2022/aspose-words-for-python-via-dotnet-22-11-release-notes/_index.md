@@ -19,9 +19,7 @@ This page contains release notes for [Aspose.Words for Python via .NET 22.11.0](
 
 There are 67 improvements and fixes in this regular monthly release. The most notable are:
 
-- Implemented custom colored/grayscale printing mode.
 - Added an ability to create the new structured document tags of Citation type.
-- Implemented field updating progress tracking.
 - Introduced the new property which allows to embed OLE attachments from the source document to the output PDF document.
 - Changed default behavior when opening document of unknown format.
 
