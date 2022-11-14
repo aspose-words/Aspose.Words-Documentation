@@ -5,7 +5,7 @@ articleTitle: Aspose.Words for Python via .NET 22.11 Release Notes
 linktitle: Aspose.Words for Python via .NET 22.11 Release Notes
 description: "Aspose.Words for Python via .NET 22.11 Release Notes – the latest updates and fixes."
 type: docs
-weight: 25
+weight: 20
 url: /python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/
 ---
 
@@ -117,11 +117,11 @@ The new property allows to embed OLE attachments from source document to output 
     """Gets or sets a value determining whether or not to embed attachments to the PDF document.
 
     Default value is false and attachments are not embedded.
-
+    
     When the value is true attachments are embedded to the PDF document.
-
+    
     Embedding attachments is not supported when saving to PDF/A and PDF/UA compliance. false value will be used automatically.
-
+    
     Embedding attachments is not supported when encryption is enabled. false value will be used automatically.
     """
     ...
@@ -178,7 +178,7 @@ if __name__ == "__main__":
     with open("a.doc", "w") as f:
         f.write(content)
     open_doc("a.doc")
-
+    
     with open("b.docx", "w") as f:
         f.write(content)
     open_doc("b.docx")
@@ -198,11 +198,11 @@ public bool CacheBackgroundGraphics { get; set; }
         """ Gets or sets a value determining whether or not to cache graphics placed in document's background.
 
         Default value is true and background graphics are written to the PDF document as an xObject.
-
+    
         When the value is false background graphics are not cached.
-
+    
         Some shapes are not supported for caching (shapes with fields, bookmarks, HRefs).
-
+    
         Document background graphic is various shapes, charts, images placed in the footer or header, well as background and border of a page.
         """
         ...
