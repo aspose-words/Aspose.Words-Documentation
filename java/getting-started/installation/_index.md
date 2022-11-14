@@ -33,13 +33,13 @@ Aspose hosts all Java APIs in [Maven repository](https://releases.aspose.com/wor
 		<dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-words</artifactId>
-			<version>22.02</version>
+			<version>22.11</version>
 			<classifier>jdk17</classifier>
 		</dependency>
 		<dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-words</artifactId>
-			<version>22.02</version>
+			<version>22.11</version>
 			<classifier>javadoc</classifier>
 		</dependency>
 	</dependencies>
