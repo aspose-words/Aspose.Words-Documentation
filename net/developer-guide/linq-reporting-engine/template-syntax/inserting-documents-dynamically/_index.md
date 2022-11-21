@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Documents Dynamically in C#
 second_title: Aspose.Words for .NET
 articleTitle: Inserting Documents Dynamically
@@ -24,7 +24,7 @@ An expression declared within a `doc` tag is used by the engine to load a docume
 
 - A byte array containing document data
 - A [Stream](https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0) instance able to read document data
-- An instance of the Document class
+- An instance of the `Document` class
 - A string containing a document URI, path, or Base64-encoded document data
 
 While building a report, an expression declared within a `doc` tag is evaluated and its result is used to load a document which content replaces the `doc` tag then.
@@ -35,6 +35,12 @@ By default, while inserting content of an outer document, the engine applies cor
 
 {{< highlight csharp >}}
 <<doc [document_expression] -sourceStyles>>
+{{< /highlight >}}
+
+Also, you can trim the last paragraph break from a document being inserted by using an `inline` switch. In particular, this feature is useful for a single-paragraph document being inserted, when it is necessary to put the document’s content within the same paragraph that contains a corresponding `doc` tag in order to apply the paragraph’s formatting such as list numbering. The following snippet shows the template syntax for this.
+
+{{< highlight csharp >}}
+<<doc [document_expression] -inline>>
 {{< /highlight >}}
 
 By default, a document being inserted is not checked against template syntax and is not populated with data. However, you can enable this by using a `build` switch as follows.

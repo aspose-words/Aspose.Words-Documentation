@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Text Document in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Text Document
@@ -6,7 +6,8 @@ linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using C#."
 type: docs
 weight: 220
-url: /net/work-with-text-document/
+url: /net/working-with-text-document/
+aliases: [/net/work-with-text-document/]
 ---
 
 ## How to Add Bi-Directional Marks

@@ -6,8 +6,10 @@ linktitle: Working with Text Document
 description: "Work with a text document and modiffy its objects using Python."
 type: docs
 weight: 220
-url: /python-net/work-with-text-document/
-aliases: [/python/work-with-text-document/]
+url: /python-net/working-with-text-document/
+aliases:
+- /python/work-with-text-document/
+- /python-net/work-with-text-document/
 ---
 
 ## How to Add Bi-Directional Marks
