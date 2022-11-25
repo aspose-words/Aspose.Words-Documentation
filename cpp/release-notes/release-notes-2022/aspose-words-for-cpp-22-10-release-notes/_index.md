@@ -1,6 +1,6 @@
 ---
 title: Aspose.Words for C++ 22.10 Release Notes
-description: "Aspose.Words for C++ 10 Release Notes – learn about the latest updates and fixes."
+description: "Aspose.Words for C++ 22.10 Release Notes – learn about the latest updates and fixes."
 type: docs
 weight: 30
 url: /cpp/aspose-words-for-cpp-22-10-release-notes/

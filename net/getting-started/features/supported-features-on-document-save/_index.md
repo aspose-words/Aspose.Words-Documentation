@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supported Features on Document Save
 second_title: Aspose.Words for .NET
 articleTitle: Supported Features on Document Save
@@ -7,29 +7,35 @@ description: "Save a document in most of popular formats and supports lots of Mi
 type: docs
 weight: 30
 url: /net/supported-features-on-document-save/
-aliases: [/net/document-saving-overview/]
+aliases:
+- /net/document-saving-overview/
 ---
 
-Aspose.Words has some of the most advanced conversion support of the common word processing formats.
+Aspose.Words allows users to work with documents in various formats and provides a wide range of features for this. For example, users can create a document from scratch or load it, make some changes, and then save those changes in the output file in any [supported export format](/words/net/supported-document-formats/). While saving the document in the selected format, the user can apply various save options.
 
-All imported documents loaded into Aspose.Words can be exported to any other supported format. Features are preserved during conversion. Conversion between formats gives some of the best conversion results out there. 
+{{% alert color="primary" %}}
 
-Aspose.Words can convert a document of any size as long as there is sufficient working memory to complete the operation. Additionally, if available memory is low, you can choose a temporary folder during export to DOC or DOCX format. This allows resources during conversion to be stored temporarily to disk. These files are removed after conversion is complete. This allows large documents to be saved even when there is not much memory available.
+It is important to know that many save options are common to all supported formats, and only some of the options are format-specific, such as PDF, DOCX, HTML, and others.
 
-The following pages describe how each Microsoft Word feature is handled and the current level of support during the saving of a document to the chosen format.
+{{% /alert %}}
 
-## Saving a Document
+For a complete list of functions, see the API reference:
 
-To save a document simply use the [Document.Save](https://reference.aspose.com/words/net/aspose.words.document/save/methods/2) method and specify the file extension or [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat) type to convert the document to the specified format.
-
-There are also many save options available to control how documents are exported to a format. For example, there is a save option to choose compliance when exporting to Open Office XML formats, or to choose the page range to export when rendering to fixed page formats such as PDF, XPS, Image etc. Each export format type has its own save option class, for instance PDF has the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/PdfSaveOptions) class, and HTML has the [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/HtmlSaveOptions) class and so forth.
-
-## Section Guide
-
-The tables in the following topics show which features of Microsoft Word documents are supported when you save a document using Aspose.Words in a particular format.
-
-The Supported column contains the following values:
-
-- **Yes** – The feature is supported. Content and formatting will be preserved. Comments provide further information about the feature and how it is implemented in Aspose.Words. If there are any limitations they will be also stated in that column.
-- **Planned** – The feature will be supported in future versions of Aspose.Words. Content or formatting related to this feature will be lost in the current version.
-- **N/A (Not Applicable)** – The feature is not supported because there is no corresponding feature in the output format. Some content or formatting will be lost. The feature is not likely to be supported in the future.
+- [save options for all formats](https://reference.aspose.com/words/net/aspose.words.saving/)
+- [fixed page save options](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) for [fixed-page formats](https://docs.aspose.com/words/net/converting-to-fixed-page-format/): PDF, XPS, images and others
+- [PDF save options](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) for PDF format
+- [OOXML save options](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) for DOCX, DOCM, DOTX, DOTM, or FlatOpc formats
+- [DOC save options](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) for DOC and DOT formats
+- [Image save options](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) for TIFF, PNG, BMP, EMF, JPEG, or SVG formats
+- [SVG save options](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) for SVG format
+- [HTML save options](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) for HTML, MHTML, EPUB, or Azw3 formats
+- [Markdown save options](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) for Markdown format
+- [RTF save options](https://reference.aspose.com/words/net/aspose.words.saving/rtfsaveoptions/) for RTF format
+- [TXT save options](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/) for TXT format
+- [ODT save options](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) for ODT and OTT formats
+- [PCL save options](https://reference.aspose.com/words/net/aspose.words.saving/pclsaveoptions/) for PCL format
+- [PS save options](https://reference.aspose.com/words/net/aspose.words.saving/pssaveoptions/) for PS format
+- [WordML 2003 save options](https://reference.aspose.com/words/net/aspose.words.saving/wordml2003saveoptions/) for WordML format
+- [XamlFixed save options](https://reference.aspose.com/words/net/aspose.words.saving/xamlfixedsaveoptions/) for XamlFixed format
+- [XamlFlow save options](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) for XamlFlow or XamlFlowPack formats
+- [XPS save options](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) for XPS format
