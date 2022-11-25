@@ -216,7 +216,7 @@ void set_FieldUpdatingProgressCallback(const System::SharedPtr<Aspose::Words::Fi
 
 New IFieldUpdatingProgressCallback interface is introduced:
 {{< highlight cpp >}}
-/// \interface IFieldUpdatingProgressCallback
+/// Interface IFieldUpdatingProgressCallback
 /// Implement this interface if you want to track field updating progress.
 class ASPOSE_WORDS_SHARED_CLASS IFieldUpdatingProgressCallback : public System::Object
 {
