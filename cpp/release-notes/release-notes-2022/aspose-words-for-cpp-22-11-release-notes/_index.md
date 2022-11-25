@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 22.11 Release Notes
 description: "Aspose.Words for C++ 22.11 Release Notes – learn about the latest updates and fixes."
 type: docs
-weight: 30
+weight: 25
 url: /cpp/aspose-words-for-cpp-22-11-release-notes/
 ---
 
@@ -231,6 +231,9 @@ public:
 };
 {{< /highlight >}}
 
+New FieldUpdatingProgressArgs class is introduced:
+
+{{< highlight cpp >}}
 /// Provides data for the field updating progress event.
 class ASPOSE_WORDS_SHARED_CLASS FieldUpdatingProgressArgs final : public System::Object
 {
@@ -245,7 +248,7 @@ public:
 
     /// Gets the number of updated fields.
     ASPOSE_WORDS_SHARED_API int32_t get_UpdatedFieldsCount() const;
-
+    
     /// Gets a value indicating whether field updating is completed.
     ASPOSE_WORDS_SHARED_API bool get_UpdateCompleted() const;
 };
