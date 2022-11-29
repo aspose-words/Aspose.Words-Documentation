@@ -19,7 +19,10 @@ This page contains release notes for [Aspose.Words for .NET 22.12](https://www.n
 
 There are 74 improvements and fixes in this regular monthly release. The most notable are:
 
-- Implemented custom colored/grayscale printing mode.
+- Implemented an abbility to specify the particular Margin type for the given section.
+- The new public properties ThemeColor and TintAndShade were introduced.
+- Implemented rendering of the linear trendline formula for DrawingML charts rendering.
+- Implemented optimization that significantly reduces the depth of graphics state nesting when rendering to PDF to maintain specification compliance.
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
@@ -160,4 +163,33 @@ rightBorder.TintAndShade = -0.125;
 
 builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
+{{< /highlight >}}
+
+### Added public property PageSetup.Margins
+
+Related issue: WORDSNET-23931
+
+A new public property Margins has been added to the PageSetup class:
+{{< highlight csharp >}}
+/// <summary>
+/// Returns or sets preset <see cref="Aspose.Words.Margins"/> of the page.
+/// </summary>
+public Margins Margins { get; set; }
+{{< /highlight >}}
+
+A new public enum Margins has been introduced:
+{{< highlight csharp >}}
+/// <summary>
+/// Specifies preset margins.
+/// </summary>
+public enum Margins
+{{< /highlight >}}
+
+Use Case: Explains how to get and set the specified Margin type for the given section.
+{{< highlight csharp >}}
+Document doc = new Document("in.docx");
+// Getting the current Margin type.
+if (doc.Sections[1].PageSetup.Margins == Margins.Normal)
+    // Setting the specified Margin type.
+    doc.Sections[1].PageSetup.Margins = Margins.Mirrored;
 {{< /highlight >}}
