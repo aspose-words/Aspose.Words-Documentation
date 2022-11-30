@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the DOCX Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Open Office XML (.DOCX, .DOTX, .DOCM, .DOTM) Format
@@ -8,6 +8,12 @@ type: docs
 weight: 120
 url: /net/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

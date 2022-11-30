@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the Image (JPG, PNG, etc.) Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Image (.JPEG, .BMP, .PNG, .EMF, .TIFF, .SVG) Format
@@ -8,6 +8,12 @@ type: docs
 weight: 80
 url: /net/save-in-the-image-jpeg-bmp-png-emf-tiff-svg-format/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

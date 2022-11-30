@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the ODT Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the OpenDocument Text (.ODT, .OTT) Format
@@ -8,6 +8,12 @@ type: docs
 weight: 140
 url: /net/save-in-the-opendocument-text-odt-ott-format/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

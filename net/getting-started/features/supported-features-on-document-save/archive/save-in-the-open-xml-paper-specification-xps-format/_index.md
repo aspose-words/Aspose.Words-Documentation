@@ -9,6 +9,12 @@ weight: 130
 url: /net/save-in-the-open-xml-paper-specification-xps-format/
 ---
 
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in the XPS format.

@@ -9,6 +9,12 @@ weight: 90
 url: /net/save-microsoft-word-document-97-2003-document-format-overview/
 ---
 
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 The following tables provide implementation details about how Aspose.Words saves a document in the DOC, DOT formats.

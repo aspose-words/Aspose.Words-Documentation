@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the HTML Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the HTML (.HTML, .XHTML, .MHTML) Format
@@ -9,6 +9,12 @@ weight: 50
 url: /net/save-in-html-xhtml-mhtml-formats/
 aliases: [/net/save-in-the-html-html-xhtml-mhtml-format/]
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

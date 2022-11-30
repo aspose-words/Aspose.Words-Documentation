@@ -1,4 +1,4 @@
-﻿---
+---
 title: Image Export - Custom Markup Features
 second_title: Aspose.Words for .NET
 articleTitle: Custom Markup Features Supported on Image Export
@@ -8,6 +8,12 @@ type: docs
 weight: 20
 url: /net/custom-markup-features-supported-on-image-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

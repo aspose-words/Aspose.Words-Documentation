@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the DOC Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
@@ -9,6 +9,12 @@ weight: 110
 url: /net/save-in-ms-word-97-2003-formats/
 aliases: [/net/save-in-the-microsoft-word-document-97-2003-document-doc-dot-format/]
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 
