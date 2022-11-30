@@ -1,4 +1,4 @@
-﻿---
+---
 title: OOXML Import - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on WordprocessingML Import
@@ -8,6 +8,12 @@ type: docs
 weight: 90
 url: /net/paragraph-features-supported-on-wordprocessingml-import/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

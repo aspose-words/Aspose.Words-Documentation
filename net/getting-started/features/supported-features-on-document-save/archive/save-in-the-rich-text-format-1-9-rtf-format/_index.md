@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the Rich Text Format 1.9 (.RTF) Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Rich Text Format 1.9 (.RTF) Format
@@ -8,6 +8,12 @@ type: docs
 weight: 160
 url: /net/save-in-the-rich-text-format-1-9-rtf-format/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

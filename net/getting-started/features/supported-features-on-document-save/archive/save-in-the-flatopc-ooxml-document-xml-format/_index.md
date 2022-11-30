@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the FlatOPC OOXML Document (.XML) Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the FlatOPC OOXML Document (.XML) Format
@@ -8,6 +8,12 @@ type: docs
 weight: 40
 url: /net/save-in-the-flatopc-ooxml-document-xml-format/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

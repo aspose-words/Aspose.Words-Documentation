@@ -1,4 +1,4 @@
-﻿---
+---
 title: XPS Export - Table Features
 second_title: Aspose.Words for .NET
 articleTitle: Table Features Supported on XPS Export
@@ -8,6 +8,12 @@ type: docs
 weight: 110
 url: /net/table-features-supported-on-xps-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 ## Table
 

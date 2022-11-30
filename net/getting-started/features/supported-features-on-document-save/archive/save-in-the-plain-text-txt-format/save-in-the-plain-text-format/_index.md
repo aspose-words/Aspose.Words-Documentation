@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save in the Plain Text Format
 second_title: Aspose.Words for .NET
 articleTitle: Save in the Plain Text Format
@@ -8,6 +8,12 @@ type: docs
 weight: 10
 url: /net/save-in-the-plain-text-format/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

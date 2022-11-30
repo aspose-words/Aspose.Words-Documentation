@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenDocument Export - Numbering Features
 second_title: Aspose.Words for .NET
 articleTitle: Numbering Features Supported on OpenDocument Export
@@ -8,6 +8,12 @@ type: docs
 weight: 70
 url: /net/numbering-features-supported-on-opendocument-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

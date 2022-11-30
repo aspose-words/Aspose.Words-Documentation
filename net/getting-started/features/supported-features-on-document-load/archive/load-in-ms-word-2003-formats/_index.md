@@ -10,4 +10,8 @@ url: /net/load-in-ms-word-2003-formats/
 aliases: [/net/load-in-the-microsoft-word-2003-wordprocessingml-xml-format/]
 ---
 
+{{% alert color="warning" %}}
 
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}

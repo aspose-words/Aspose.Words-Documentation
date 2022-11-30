@@ -1,4 +1,4 @@
-﻿---
+---
 title: OOXML Export - Section Features
 second_title: Aspose.Words for .NET
 articleTitle: Section Features Supported on WordprocessingML Export
@@ -8,6 +8,12 @@ type: docs
 weight: 90
 url: /net/section-features-supported-on-wordprocessingml-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

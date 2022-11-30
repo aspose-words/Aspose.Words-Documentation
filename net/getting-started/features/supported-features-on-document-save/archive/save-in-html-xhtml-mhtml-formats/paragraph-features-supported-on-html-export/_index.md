@@ -1,4 +1,4 @@
-﻿---
+---
 title: HTML Export - Paragraph Features
 second_title: Aspose.Words for .NET
 articleTitle: Paragraph Features Supported on HTML Export
@@ -8,6 +8,12 @@ type: docs
 weight: 80
 url: /net/paragraph-features-supported-on-html-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

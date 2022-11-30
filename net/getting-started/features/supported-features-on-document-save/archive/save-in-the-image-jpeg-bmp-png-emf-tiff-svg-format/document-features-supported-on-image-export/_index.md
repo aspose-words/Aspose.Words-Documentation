@@ -1,4 +1,4 @@
-﻿---
+---
 title: Image Export - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on Image Export
@@ -8,6 +8,12 @@ type: docs
 weight: 30
 url: /net/document-features-supported-on-image-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

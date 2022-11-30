@@ -12,6 +12,12 @@ aliases:
   - /net/footnotes-and-endnote-features-supported-on-opendocument-export/
 ---
 
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 [Jump to this location in the import section](/words/net/footnotes-and-endnote-features-supported-on-opendocument-import/)

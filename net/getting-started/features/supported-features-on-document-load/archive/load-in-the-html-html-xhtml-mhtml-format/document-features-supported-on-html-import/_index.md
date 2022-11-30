@@ -1,4 +1,4 @@
-﻿---
+---
 title: HTML Import - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on HTML Import
@@ -8,6 +8,12 @@ type: docs
 weight: 30
 url: /net/document-features-supported-on-html-import/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

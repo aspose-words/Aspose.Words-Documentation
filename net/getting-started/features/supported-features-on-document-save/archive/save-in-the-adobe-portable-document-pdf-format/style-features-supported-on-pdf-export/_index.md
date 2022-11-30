@@ -1,4 +1,4 @@
-﻿---
+---
 title: PDF Export - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on PDF Export
@@ -8,6 +8,12 @@ type: docs
 weight: 100
 url: /net/style-features-supported-on-pdf-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 ## Style Type
 

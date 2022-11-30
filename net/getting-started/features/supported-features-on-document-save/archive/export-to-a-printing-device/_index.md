@@ -1,4 +1,4 @@
-﻿---
+---
 title: Export to a Printing Device
 second_title: Aspose.Words for .NET
 articleTitle: Export to a Printing Device
@@ -8,6 +8,12 @@ type: docs
 weight: 20
 url: /net/export-to-a-printing-device/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

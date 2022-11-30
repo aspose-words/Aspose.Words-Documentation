@@ -1,4 +1,4 @@
-﻿---
+---
 title: DOCX Import - Text Features
 second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on DOCX Import
@@ -8,6 +8,12 @@ type: docs
 weight: 130
 url: /net/text-features-supported-on-docx-import/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

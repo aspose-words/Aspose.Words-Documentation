@@ -1,4 +1,4 @@
-﻿---
+---
 title: EPUB Export - Text Features
 second_title: Aspose.Words for .NET
 articleTitle: Text Features Supported on EPUB Export
@@ -8,6 +8,12 @@ type: docs
 weight: 120
 url: /net/text-features-supported-on-epub-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

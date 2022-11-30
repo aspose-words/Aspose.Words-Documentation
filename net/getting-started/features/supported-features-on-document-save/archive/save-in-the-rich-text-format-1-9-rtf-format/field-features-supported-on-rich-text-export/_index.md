@@ -1,4 +1,4 @@
-﻿---
+---
 title: RTF Export - Field Features
 second_title: Aspose.Words for .NET
 articleTitle: Field Features Supported on Rich Text Export
@@ -8,6 +8,12 @@ type: docs
 weight: 50
 url: /net/field-features-supported-on-rich-text-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

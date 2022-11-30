@@ -1,4 +1,4 @@
-﻿---
+---
 title: DOCX Export - Document Features
 second_title: Aspose.Words for .NET
 articleTitle: Document Features Supported on DOCX Export
@@ -8,6 +8,12 @@ type: docs
 weight: 30
 url: /net/document-features-supported-on-docx-export/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 
