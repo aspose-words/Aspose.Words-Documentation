@@ -1,4 +1,4 @@
-﻿---
+---
 title: Load in the DOC Format
 second_title: Aspose.Words for .NET
 articleTitle: Load in the Microsoft Word Document 97-2003 Document (.DOC, .DOT) Format
@@ -9,6 +9,12 @@ weight: 50
 url: /net/load-in-ms-word-97-2003-formats/
 aliases: [/net/load-in-the-microsoft-word-document-97-2003-document-doc-dot-format/]
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 ## This section includes the following topics: 
 

@@ -9,6 +9,12 @@ weight: 90
 url: /net/load-in-the-rich-text-format-1-9-rtf-format/
 ---
 
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
+
 **This section includes the following topics:** 
 
 - [Annotation Features Supported on Rich Text Import](/words/net/annotation-features-supported-on-rich-text-import/)

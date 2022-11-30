@@ -1,4 +1,4 @@
-﻿---
+---
 title: RTF Import - Style Features
 second_title: Aspose.Words for .NET
 articleTitle: Style Features Supported on Rich Text Import
@@ -8,6 +8,12 @@ type: docs
 weight: 110
 url: /net/style-features-supported-on-rich-text-import/
 ---
+
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
 
 {{% alert color="primary" %}}
 

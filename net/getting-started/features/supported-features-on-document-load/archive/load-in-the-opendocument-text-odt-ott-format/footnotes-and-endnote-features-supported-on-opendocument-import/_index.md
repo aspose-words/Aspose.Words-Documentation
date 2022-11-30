@@ -10,6 +10,12 @@ url: /net/footnotes-and-endnote-features-supported-on-opendocument-import/
 aliases: [/net/footnotes-an-endnote-features-supported-on-opendocument-import/]
 ---
 
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 An endnote or footnote is a note that appears at the bottom of a page that is commonly used by writers to cite other authors publication in their document.

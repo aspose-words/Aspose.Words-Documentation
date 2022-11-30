@@ -9,6 +9,12 @@ weight: 120
 url: /net/table-features-supported-on-html-import/
 ---
 
+{{% alert color="warning" %}}
+
+This page has been archived and has not been updated for some time. It contains information for reference only.
+
+{{% /alert %}}
+
 {{% alert color="primary" %}}
 
 A table is comprised of rows and cells and is used to display data in a grid-like layout.
