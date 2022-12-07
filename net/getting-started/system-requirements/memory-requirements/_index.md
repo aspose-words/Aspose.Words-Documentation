@@ -21,17 +21,17 @@ There is no exact way to estimate how much memory Aspose.Words actually consumes
 
 Let’s consider two documents:
 
-1. DOCX «A»  document – 0.35 MB size (2 thousand pages), text only
-2. DOCX «B» document – 0.35 MB size (just 1 page), with PNG image inside
+1. DOCX "A"  document – 0.35 MB size (2 thousand pages), text only
+2. DOCX "B" document – 0.35 MB size (just 1 page), with PNG image inside
 
 As you know, a lot of modern formats like DOCX, ODT, etc. are simple ZIP archives. So, we get the following calculation algorithm:
-1. Unzipping. Unzipped document «A» has 20 MB size, document «B» has 0.4 MB size
+1. Unzipping. Unzipped document "A" has 20 MB size, document "B" has 0.4 MB size
 2. Loading the document into the model (building its Document Object Model – DOM):
-* Creating DOM of the first document «A» requires 49 MB size
-* Creating DOM of the second document «B» requires just 2 MB size.
+* Creating DOM of the first document "A" requires 49 MB size
+* Creating DOM of the second document "B" requires just 2 MB size.
 3. Measuring the required amount of memory to render these documents to PDF. For this operation, Aspose.Words requires:
-  *  294 MB for document «A»
-  * 7 MB for document «B»
+  *  294 MB for document "A"
+  * 7 MB for document "B"
 
 So, as you can see, there is no linear dependence on the input document size. There are many factors that can affect the required RAM size – the document format, its complexity and structure, the number of images and their format, and a lot of other factors.
 
