@@ -93,6 +93,6 @@ Aspose.Words for .NET can be used to develop applications in any development en
 			<td style="font-weight: bold; width:800px">Development environments</td>
 		</tr>
   <tr>
-			<td><ul><li>Microsoft Visual Studio 2010</li><li>Microsoft Visual Studio 2011</li><li>Microsoft Visual Studio 2012</li><li>Microsoft Visual Studio 2013</li><li>Microsoft Visual Studio 2015</li><li>Microsoft Visual Studio 2017</li><li>Microsoft Visual Studio 2019</li><li>Xamarin.Mac</li><li>Xamarin.Android</li><li>Xamarin.iOS</li><li>MonoDevelop 2.4 and later</li></ul></td>
+			<td><ul><li>Microsoft Visual Studio 2010</li><li>Microsoft Visual Studio 2011</li><li>Microsoft Visual Studio 2012</li><li>Microsoft Visual Studio 2013</li><li>Microsoft Visual Studio 2015</li><li>Microsoft Visual Studio 2017</li><li>Microsoft Visual Studio 2019</li><li>Microsoft Visual Studio 2022</li><li>Xamarin.Mac</li><li>Xamarin.Android</li><li>Xamarin.iOS</li><li>MonoDevelop 2.4 and later</li></ul></td>
 			</tr>
 </table>
