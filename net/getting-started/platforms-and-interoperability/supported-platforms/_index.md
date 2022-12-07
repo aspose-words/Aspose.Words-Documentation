@@ -11,7 +11,7 @@ url: /net/supported-platforms/
 
 ## .NET Framework
 
-You can confidently use Aspose.Words for .NET to build any type of x86 or x64 (32-bit or 64-bit) .NET application including ASP.NET, Web Services and WinForms. Aspose.Words for .NET is easy to deploy because it consists of just a single assembly without any dependencies (except on the .NET Framework itself). Aspose.Words.dll is CLS compliant, written entirely in C# and contains only safe managed code. Aspose.Words for .NET supports all versions of the Microsoft .NET Framework from 2.0 to 4.0. A single MSI installer is provided that caters both for 32-bit and 64-bit environments. The installer contains the following items:
+You can confidently use Aspose.Words for .NET to build any type of x86 or x64 (32-bit or 64-bit) .NET application including ASP.NET, Web Services and WinForms. Aspose.Words for .NET is easy to deploy because it consists of just a single assembly without any dependencies (except on the .NET Framework itself). Aspose.Words.dll is CLS compliant, written entirely in C# and contains only safe managed code. Aspose.Words for .NET supports all versions of the Microsoft .NET Framework from 2.0 to 4.6.1. A single MSI installer is provided that caters both for 32-bit and 64-bit environments. The installer contains the following items:
 
 - Aspose.Words.dll assemblies for different .NET Framework versions
 - Demo projects for ASP.NET and WinForms in C# and VB.NET
@@ -19,7 +19,7 @@ You can confidently use Aspose.Words for .NET to build any type of x86 or x64 (3
 
 ## .NET Standard 2.0
 
-The [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) is a formal specification of .NET APIs that are intended to be available on all .NET implementations. The motivation behind the .NET Standard is establishing greater uniformity in the .NET ecosystem. The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain Aspose.Words' assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0/2.1/2.2/3.0/3.1. The latest version of Aspose.Words API also supports .NET 5.0 and .NET 6.0.
+The [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard) is a formal specification of .NET APIs that are intended to be available on all .NET implementations. The motivation behind the .NET Standard is establishing greater uniformity in the .NET ecosystem. The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain Aspose.Words' assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0/2.1/2.2/3.0/3.1. The latest version of Aspose.Words API also supports .NET 5.0, .NET 6.0 and .NET 7.0.
 
 ## Xamarin.Android
 
