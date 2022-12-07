@@ -1,4 +1,4 @@
-﻿---
+---
 title: Open a Document for Read-only Access
 second_title: Aspose.Words for .NET
 articleTitle: Open a Document for Read-only Access
@@ -17,7 +17,7 @@ Sometimes you want to open a document to inspect or retrieve some information, a
 
 {{< tab tabNum="1" >}}
 
-Aspose.Words has the public class [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection) that specifies write protection settings for a document. Make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/properties/readonlyrecommended) property and the [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/setpassword) method.
+Aspose.Words has the public class [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/) that specifies write protection settings for a document. Make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection//properties/readonlyrecommended) property and the [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection//methods/setpassword) method.
 
 The following code example shows how to make your document read-only:
 

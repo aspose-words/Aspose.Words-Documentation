@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compare Documents in Java
 second_title: Aspose.Words for Java
 articleTitle: Compare Documents
@@ -58,7 +58,7 @@ The following code example shows how to simply apply the Compare method to two d
 
 ## Specify Advanced Comparison Options {#specify-advanced-comparing-properties}
 
-There are many different properties of the [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions) class which you can apply when you want to compare documents.
+There are many different properties of the [CompareOptions](https://reference.aspose.com/words/java/com.aspose.words/compareoptions/) class which you can apply when you want to compare documents.
 
 For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://reference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreHeadersAndFooters), [IgnoreFormatting](https://reference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreFormatting), [IgnoreComments](https://reference.aspose.com/words/java/com.aspose.words/compareoptions#IgnoreComments), and others by setting them to "true".
 

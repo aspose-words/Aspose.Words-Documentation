@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sitefinity Content Exporter Module
 second_title: Aspose.Words for .NET
 articleTitle: Sitefinity Content Exporter Module
@@ -11,7 +11,7 @@ url: /net/sitefinity-content-exporter-module/
 
 ## Getting Started
 
-The Aspose Sitefinity Content Export add-on allows users to export online content into Microsoft Word or Adobe Acrobat PDF documents using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). This add-on makes it very simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Microsoft Word DOC/DOCX or PDF format. It adds a simple **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking the button dynamically exports the content of the page into Microsoft Word or PDF document. The exported file is then automatically presented for downloading to any disk location selected by the user in just couple of seconds.
+The Aspose Sitefinity Content Export add-on allows users to export online content into Microsoft Word or Adobe Acrobat PDF documents using [Aspose.Words](https://products.aspose.com/words/). This add-on makes it very simple to have an offline copy of your favorite online content for editing, sharing and printing etc. in popular Microsoft Word DOC/DOCX or PDF format. It adds a simple **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking the button dynamically exports the content of the page into Microsoft Word or PDF document. The exported file is then automatically presented for downloading to any disk location selected by the user in just couple of seconds.
 
 ## System Requirements and Supported Platforms
 
@@ -40,7 +40,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for Sitefinity Modules using any of the following platforms
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_Sitefinity/issues)
-- [Sourceforge](https://sourceforge.net/p/asposesitefinity/tickets/?source=navbar)
+- [Sourceforge](https://sourceforge.net/projects/asposesitefinity/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-sitefinity/issues?status=new&status=open)
 
 **Sitefinity Export to Word and PDF**

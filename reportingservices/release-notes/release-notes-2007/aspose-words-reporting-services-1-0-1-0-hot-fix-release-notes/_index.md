@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-reporting-services-1-0-1-0-hot-fix-release-
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words Reporting Services 1.0.1.0 Hot Fix](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-reporting-services-1.0.1.0-hot-fix/)
+This page contains release notes for [Aspose.Words Reporting Services 1.0.1.0 Hot Fix](https://releases.aspose.com/words/reportingservices/new-releases/aspose.words-reporting-services-1.0.1.0-hot-fix/)
 
 {{% /alert %}}
 

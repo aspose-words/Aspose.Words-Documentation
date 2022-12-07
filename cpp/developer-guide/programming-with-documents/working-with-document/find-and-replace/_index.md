@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find and Replace in C++
 second_title: Aspose.Words for C++
 articleTitle: Find and Replace
@@ -124,7 +124,7 @@ The following code example shows how to ignore text inside delete revisions:
 
 ## Customize Find and Replace Operation {#customize-find-and-replace-operation}
 
-Aspose.Words provides many different [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/index) to find and replace text such as applying specific format with [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/applyfont) and [ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/applyparagraphformat) properties, using substitutions in replacement patterns with [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/properties/usesubstitutions) property, and others.
+Aspose.Words provides many different [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) to find and replace text such as applying specific format with [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyfont/) and [ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/) properties, using substitutions in replacement patterns with [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) property, and others.
 
 The following code example shows how to highlight a specific word in your document:
 

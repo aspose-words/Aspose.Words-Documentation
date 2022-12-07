@@ -1,4 +1,4 @@
-﻿---
+---
 title: Kentico Content Exporter Module
 second_title: Aspose.Words for .NET
 articleTitle: Kentico Content Exporter Module
@@ -13,7 +13,7 @@ url: /net/kentico-content-exporter-module/
 
 ### Content Exporter Module
 
-Aspose .NET Word Processing and PDF Document Exporter for Kentico allow users to export online content into Word Processing or PDF document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). It adds **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking a button dynamically exports the content of the page to a Word Processing or PDF document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.
+Aspose .NET Word Processing and PDF Document Exporter for Kentico allow users to export online content into Word Processing or PDF document using [Aspose.Words](https://products.aspose.com/words/). It adds **Export to Word** and **Export to Pdf** buttons at any desired location on the page. Clicking a button dynamically exports the content of the page to a Word Processing or PDF document and then automatically downloads the file to the disk location selected by the user in just couple of seconds.
 
 This initial version of the web part provides a number of great features, including:
 
@@ -51,7 +51,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for Kentico Modules using any of the following platforms
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_Kentico/issues)
-- [Sourceforge](https://sourceforge.net/p/asposekentico/tickets/)
+- [Sourceforge](https://sourceforge.net/projects/asposekentico/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-kentico/issues?status=new&status=open)
 
 #### Extend and Contribute

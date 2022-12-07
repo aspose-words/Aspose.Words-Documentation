@@ -1,4 +1,4 @@
-﻿---
+---
 title: 22.12 Release Notes
 second_title: Aspose.Words for SharePoint
 articleTitle: Aspose.Words for SharePoint 22.12 Release Notes
@@ -11,7 +11,7 @@ url: /sharepoint/aspose-words-for-sharepoint-22-12-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for SharePoint 22.12](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-22.12/).
+This page contains release notes for [Aspose.Words for SharePoint 22.12](https://releases.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-22.12/).
 This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 22.12, see [Aspose.Words for .NET 22.12 Release Notes](/words/net/aspose-words-for-net-22-12-release-notes/) for more information.
 
 {{% /alert %}}

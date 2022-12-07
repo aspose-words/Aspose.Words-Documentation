@@ -11,7 +11,7 @@ url: /net/aspose-words-for-net-20-11-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for .NET 20.11](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-20.11/).
+This page contains release notes for [Aspose.Words for .NET 20.11](https://releases.aspose.com/words/net/new-releases/aspose.words-for-.net-20.11/).
 
 {{% /alert %}}
 

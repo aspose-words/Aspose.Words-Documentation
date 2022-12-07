@@ -55,9 +55,9 @@ The following code example shows how to insert images stored in a database BLOB 
 
 ### Set Image Properties during Mail Merge
 
-While merging an image merge field, you may sometimes need to control various image properties, such as [WrapType](https://reference.aspose.com/words/java/com.aspose.words/WrapType).
+While merging an image merge field, you may sometimes need to control various image properties, such as [WrapType](https://reference.aspose.com/words/java/com.aspose.words/wraptype/).
 
-Currently, using [ImageFieldMergingArgs](https://reference.aspose.com/words/java/com.aspose.words/ImageFieldMergingArgs) you can only set image width or height properties, respectively. To overcome this issue, Aspose.Words provides the [Shape](https://reference.aspose.com/words/java/com.aspose.words/imagefieldmergingargs#Shape) property, which facilitates to get full control over the inserted image or any other shape.
+Currently, using [ImageFieldMergingArgs](https://reference.aspose.com/words/java/com.aspose.words/imagefieldmergingargs/) you can only set image width or height properties, respectively. To overcome this issue, Aspose.Words provides the [Shape](https://reference.aspose.com/words/java/com.aspose.words/imagefieldmergingargs#Shape) property, which facilitates to get full control over the inserted image or any other shape.
 
 The following code example shows how to set various image properties:
 

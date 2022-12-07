@@ -32,16 +32,16 @@ The plugin contains two wizards
 **Aspose.Words Maven Project (wizard)**
 
 - This New Project wizard lets developers to create **Maven** project for using [Aspose.Words for Java](https://products.aspose.com/words/java/) from **New -> Project -> Maven-> Aspose.Words Maven Project.**
-- The reference of [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://repository.aspose.com/words/) and gets added in the pom.xml.
-- The created project will always contain most recent available version **Maven** Dependency for [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx).
-- The wizard steps also presents with the option for downloading [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) for using [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx).
+- The reference of [Aspose.Words for Java API](https://products.aspose.com/words/java/) maven dependency is automatically fetched from [Aspose Cloud Maven Repository](https://releases.aspose.com/words/java/) and gets added in the pom.xml.
+- The created project will always contain most recent available version **Maven** Dependency for [Aspose.Words for Java API](https://products.aspose.com/words/java/).
+- The wizard steps also presents with the option for downloading [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) for using [Aspose.Words for Java API](https://products.aspose.com/words/java/).
 
 **Aspose.Words Code Example (wizard)**
 
 - This New File wizard lets you copy the downloaded [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) into your project for using [Aspose.Words for Java](https://products.aspose.com/words/java/) from **New -> Other -> Java -> Aspose.Words Code Example.** 
 - Available samples are displayed in tree format from where the user can select them categorically.
 - All the examples within the selected category will get copied to the project's "**com.aspose.words.examples**" package folder along with the required resources within "**src/main/resources**" folder needed to run the examples.
-- [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of [Aspose.Words for Java API](https://www.aspose.com/java/word-component.aspx) are meant for demonstrating the various of the API.
+- [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of [Aspose.Words for Java API](https://products.aspose.com/words/java/) are meant for demonstrating the various of the API.
 - The wizard will also look for and updates for newly available [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) from [Aspose.Words for Java examples repository.](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 
 ## System Requirements and Supported Platforms

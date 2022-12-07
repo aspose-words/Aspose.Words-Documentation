@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add bullets or numbers to a list in NPOI
 second_title: Aspose.Words for .NET
 articleTitle: Add bullets or numbers to a list in NPOI
@@ -163,6 +163,6 @@ Download **Add bullets or numbers to a list** form any of the below mentioned s
 
 {{% alert color="primary" %}}
 
-For more details, visit [Lists](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/methods/add/index).
+For more details, visit [Lists](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/add/#add/).
 
 {{% /alert %}}

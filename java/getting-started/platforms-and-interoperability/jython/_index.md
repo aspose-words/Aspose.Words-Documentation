@@ -1,4 +1,4 @@
-﻿---
+---
 title: Jython
 second_title: Aspose.Words for Java
 articleTitle: Jython
@@ -59,7 +59,7 @@ Following releases of running examples are available to download on all of the b
 
 **Download Aspose.Words for Java component**
 
-- [Aspose.Words for Java](https://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx)
+- [Aspose.Words for Java](https://releases.aspose.com/words/java/)
 
 ### Installing
 

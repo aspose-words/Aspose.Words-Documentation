@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words or Microsoft Office Automation
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words or Microsoft Office Automation
@@ -77,7 +77,7 @@ Oftentimes, an application may need to create or manipulate an office file, but 
 
 When creating web based applications, it is important to know that Microsoft Office Automation components are not priced nor licensed for server side solutions, so there is no good licensing solution for deploying web applications that utilize Microsoft Office components. Aspose, in turn, offers a very cost effective solution for server based applications.
 
-All the Aspose components offer a risk-free, no-obligation [evaluation version](https://downloads.aspose.com/words). We encourage you to take advantage of that evaluation in order to see what Aspose can do for your applications.
+All the Aspose components offer a risk-free, no-obligation [evaluation version](https://releases.aspose.com/words/). We encourage you to take advantage of that evaluation in order to see what Aspose can do for your applications.
 
 ### Features
 

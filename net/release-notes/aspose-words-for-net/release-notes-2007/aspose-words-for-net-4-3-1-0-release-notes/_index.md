@@ -11,7 +11,7 @@ url: /net/aspose-words-for-net-4-3-1-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for .NET 4.3.1.0](https://downloads.aspose.com/words/net)
+This page contains release notes for [Aspose.Words for .NET 4.3.1.0](https://releases.aspose.com/words/net/)
 
 {{% /alert %}}
 

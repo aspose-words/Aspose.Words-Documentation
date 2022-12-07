@@ -11,7 +11,7 @@ url: /net/aspose-words-net-4-2-5-0-hot-fix-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words .NET 4.2.5.0 Hot Fix](https://downloads.aspose.com/words/net)
+This page contains release notes for [Aspose.Words .NET 4.2.5.0 Hot Fix](https://releases.aspose.com/words/net/)
 
 {{% /alert %}}
 

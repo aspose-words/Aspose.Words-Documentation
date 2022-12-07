@@ -11,7 +11,7 @@ url: /jasperreports/aspose-words-for-jasperreports-2-7-3-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for JasperReports 2.7.3](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-2.7.3/).
+This page contains release notes for [Aspose.Words for JasperReports 2.7.3](https://releases.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-2.7.3/).
 
 {{% /alert %}}
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ruby
 second_title: Aspose.Words for Java
 articleTitle: Ruby
@@ -50,7 +50,7 @@ Ruby developers who want to utilize Aspose.Words for Java in their Ruby Projects
 
 Download required libraries mentioned below. These are the required for executing Aspose.Words Java for Ruby examples.
 
-- [Aspose.Words for Java Component](https://downloads.aspose.com/)
+- [Aspose.Words for Java Component](https://releases.aspose.com/)
 
 ### Download Examples from Social Coding Sites
 

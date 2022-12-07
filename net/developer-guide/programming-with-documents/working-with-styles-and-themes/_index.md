@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Styles and Themes in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Styles and Themes
@@ -9,11 +9,11 @@ weight: 40
 url: /net/working-with-styles-and-themes/
 ---
 
-The [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection) class is used to manage built-in and apply user-defined settings to styles.
+The [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class is used to manage built-in and apply user-defined settings to styles.
 
 ## Accessing Styles
 
-You can get a collection of styles defined in the document using the [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/properties/styles) property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document.
+You can get a collection of styles defined in the document using the [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) property. This collection holds both the built-in and user-defined styles in a document. A particular style could be obtained by its name/alias, style identifier, or index. The following code example demonstrates how to get access to the collection of styles defined in the document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ The solution for retrieving text formatted with specific styles in a Word docume
 
 ### The Solution
 
-To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document.At a high level, this will involve:# Opening a Word document using the [Document](https://reference.aspose.com/words/net/aspose.words/document) class.# Getting collections of all paragraphs and all runs in the document.# Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
+To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document.At a high level, this will involve:# Opening a Word document using the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class.# Getting collections of all paragraphs and all runs in the document.# Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
 
 ![working-with-styles-and-themes-aspose-words-net](working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ Note that the second parameter of the **Document.GetChildNodes** method is set t
 
 {{% /alert %}}
 
-It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/properties/name) property of the [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphformat) object. The implementation of RunsByStyleName is almost the same, although we’re obviously using [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype) to retrieve run nodes. The [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/properties/style) property of a [Run](https://reference.aspose.com/words/net/aspose.words/run) object is used to access style information in the **Run** nodes. Below example find all runs formatted with the specified style.
+It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) property of the [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/) object. The implementation of RunsByStyleName is almost the same, although we’re obviously using [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) to retrieve run nodes. The [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) property of a [Run](https://reference.aspose.com/words/net/aspose.words/run/) object is used to access style information in the **Run** nodes. Below example find all runs formatted with the specified style.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

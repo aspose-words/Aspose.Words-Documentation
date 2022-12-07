@@ -26,7 +26,7 @@ The following code example shows how to delete all merge fields from your templa
 
 Aspose.Words enables you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
 
-Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/MailMergeCleanupOptions) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
+Use the **CleanupOptions** property along with the [MailMergeCleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) enumeration to set the removing option. Specify which items you want to remove by choosing the following options (you can combine more than one):
 
 * Remove empty paragraphs
 * Remove unused regions

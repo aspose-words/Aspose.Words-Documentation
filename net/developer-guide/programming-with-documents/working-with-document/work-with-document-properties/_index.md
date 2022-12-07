@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Document Properties in C#
 second_title: Aspose.Words for .NET
 articleTitle: Work with Document Properties
@@ -26,15 +26,15 @@ Note that you **cannot direct** Aspose.Words to change or remove this informatio
 
 To access document properties in Aspose.Words use:
 
-* [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties) to obtain built-in properties.
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/builtindocumentproperties/) to obtain built-in properties.
 
-* [CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/properties/customdocumentproperties) to obtain custom properties.
+* [CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/customdocumentproperties/) to obtain custom properties.
 
-**BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty) objects. These objects can be obtained through the indexer property by name or by index.
+**BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) objects. These objects can be obtained through the indexer property by name or by index.
 
 **BuiltInDocumentProperties** additionally provides access to document properties through a set of entered properties that return values of the appropriate type. **CustomDocumentProperties** enable you to add or remove document properties from a document.
 
-The [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty) class allows you to get the name, value, and type of a document property. [Value](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/properties/value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/methods/tostring) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/methods/toint), to obtain the value of the appropriate type.
+The [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) class allows you to get the name, value, and type of a document property. [Value](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty//properties/value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty//methods/tostring) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty//methods/toint), to obtain the value of the appropriate type.
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
@@ -54,9 +54,9 @@ In Microsoft Word, you can access document properties using the “File → Prop
 
 You cannot add or remove built-in document properties using Aspose.Words. You can only change or update their values.
 
-To add custom document properties with Aspose.Words, use the [Add](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/methods/add/index) method, passing the new property name and the value of the appropriate type. The method returns the newly created **DocumentProperty** object.
+To add custom document properties with Aspose.Words, use the [Add](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/add/#add/) method, passing the new property name and the value of the appropriate type. The method returns the newly created **DocumentProperty** object.
 
-To remove custom properties, use the [Remove](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/remove) method, passing it the property name to remove, or the [RemoveAt](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/removeat) method to remove the property by index. You can also remove all properties using the [Clear](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/methods/clear) method.
+To remove custom properties, use the [Remove](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/) method, passing it the property name to remove, or the [RemoveAt](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/at) method to remove the property by index. You can also remove all properties using the [Clear](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/clear/) method.
 
 The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
@@ -74,13 +74,13 @@ The following code example shows how to remove a custom document property:
 
 ## Update Built-In Document Properties
 
-Aspose.Words does not automatically update document properties, as Microsoft Word does with some properties, but provides a method to update some statistical built-in document properties. Call the [UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/methods/updatewordcount/index) method to recalculate and update the following properties:
+Aspose.Words does not automatically update document properties, as Microsoft Word does with some properties, but provides a method to update some statistical built-in document properties. Call the [UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/#updatewordcount/) method to recalculate and update the following properties:
 
-* [Characters](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/characters)
-* [CharactersWithSpaces](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/characterswithspaces)
-* [Words](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/words)
-* [Paragraphs](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/paragraphs)
-* [Lines](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/properties/lines)
+* [Characters](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characters/)
+* [CharactersWithSpaces](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
+* [Words](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/words/)
+* [Paragraphs](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
+* [Lines](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lines/)
 
 ## Create a New Custom Property Linked to Content
 

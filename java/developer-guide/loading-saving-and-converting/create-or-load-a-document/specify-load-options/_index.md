@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Load Options in Java
 second_title: Aspose.Words for Java
 articleTitle: Specify Load Options
@@ -9,7 +9,7 @@ weight: 10
 url: /java/specify-load-options/
 ---
 
-When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/LoadOptions) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/PdfLoadOptions) for loading to PDF format or [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/TxtLoadOptions) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
+When loading a document, you can set some advanced properties. Aspose.Words provides you with the [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) class, which allows more precise control of the load process. Some load formats have a corresponding class that holds load options for this load format, for example, there is [PdfLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) for loading to PDF format or [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) for loading to TXT. This article provides examples of working with options of the **LoadOptions** class.
 
 ## Set Microsoft Word Version to Change the Appearance
 
@@ -31,7 +31,7 @@ The following code example shows how to set Japanese as **EditingLanguage**:
 
 ## Use WarningCallback to Control Problems While Loading a Document
 
-Some documents may be corrupted, contain invalid entries, or have features not currently supported by Aspose.Words. If you want to know about problems that occurred while loading a document, Aspose.Words provides the [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/IWarningCallback) interface.
+Some documents may be corrupted, contain invalid entries, or have features not currently supported by Aspose.Words. If you want to know about problems that occurred while loading a document, Aspose.Words provides the [IWarningCallback](https://reference.aspose.com/words/java/com.aspose.words/iwarningcallback/) interface.
 
 The following code example shows the implementation of the **IWarningCallback** interface:
 
@@ -47,7 +47,7 @@ The following code example shows how to use this property:
 
 A document may contain external links to images located somewhere on a local disk, network, or Internet. Aspose.Words automatically loads such images into a document, but there are situations when this process needs to be controlled. For example, to decide whether we really need to load a certain image or perhaps skip it. The [ResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/loadoptions#ResourceLoadingCallback) load option allows you to control this.
 
-The following code example shows the implementation of the [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/IResourceLoadingCallback) interface:
+The following code example shows the implementation of the [IResourceLoadingCallback](https://reference.aspose.com/words/java/com.aspose.words/iresourceloadingcallback/) interface:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-LoadOptionsCallbacks-HtmlLinkedResourceLoadingCallback.java" >}}
 
@@ -75,13 +75,13 @@ The following code example shows how to set the encoding to override the automa
 
 ## Load Encrypted Documents
 
-You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/LoadOptions) object. This object contains the [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions#Password) property, which specifies the password string.
+You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/) object. This object contains the [Password](https://reference.aspose.com/words/java/com.aspose.words/loadoptions#Password) property, which specifies the password string.
 
 The following code example shows how to load a document encrypted with a password:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-OpenDocument-OpenEncryptedDocument.java" >}}
 
-If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/FileFormatUtil) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo#IsEncrypted) property.
+If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://reference.aspose.com/words/java/com.aspose.words/fileformatutil/) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the [IsEncrypted](https://reference.aspose.com/words/java/com.aspose.words/fileformatinfo#IsEncrypted) property.
 
 The following code example shows how to verify OpenDocument either it is encrypted or not:
 

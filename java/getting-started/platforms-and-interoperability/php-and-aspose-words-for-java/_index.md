@@ -16,7 +16,7 @@ Install and configure the PHP/Java Bridge to make use of Java from PHP. For more
 
 Also, you can download PHP/Java Bridge that doesn’t require a java extension from <https://php-java-bridge.sourceforge.net/pjb/>. The installation instruction for installing PHP/ Java Bridge can be found here <https://php-java-bridge.sourceforge.net/pjb/installation.php>. 
 
-Download [the latest version of Aspose.Words for Java](https://downloads.aspose.com/words/java). Extract files and copy the lib folder with jar files to the root folder of your project. 
+Download [the latest version of Aspose.Words for Java](https://releases.aspose.com/words/java/). Extract files and copy the lib folder with jar files to the root folder of your project. 
 
 {{% /alert %}}
 

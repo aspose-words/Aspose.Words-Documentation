@@ -11,7 +11,7 @@ url: /sharepoint/aspose-words-for-sharepoint-21-6-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for SharePoint 21.6](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-21.6/).
+This page contains release notes for [Aspose.Words for SharePoint 21.6](https://releases.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-21.6/).
 This version includes all bug fixes and public API changes made in Aspose.Words for .NET up-to version 21.6, see [Aspose.Words for .NET 21.6 Release Notes](/words/net/aspose-words-for-net-21-6-release-notes/) for more information.
 
 {{% /alert %}}

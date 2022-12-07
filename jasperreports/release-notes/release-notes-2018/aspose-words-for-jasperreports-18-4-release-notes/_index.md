@@ -11,7 +11,7 @@ url: /jasperreports/aspose-words-for-jasperreports-18-4-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes of [Aspose.Words for JasperReports 18.4](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-18.4/).
+This page contains release notes of [Aspose.Words for JasperReports 18.4](https://releases.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-18.4/).
 
 {{% /alert %}}
 

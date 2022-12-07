@@ -1,4 +1,4 @@
-﻿---
+---
 title: Download and Configure Aspose.Words in Ruby
 second_title: Aspose.Words for Java
 articleTitle: Download and Configure Aspose.Words in Ruby
@@ -13,7 +13,7 @@ url: /java/download-and-configure-aspose-words-in-ruby/
 
 Download required libraries mentioned below. These are the required for executing Aspose.Words Java for Ruby examples.
 
-- [Aspose.Words for Java Component](https://www.aspose.com/community/files/72/java-components/aspose.words-for-java/default.aspx)
+- [Aspose.Words for Java Component](https://releases.aspose.com/words/java/)
 
 ## Download Examples from Social Coding Sites
 

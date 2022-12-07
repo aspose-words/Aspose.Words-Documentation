@@ -11,7 +11,7 @@ url: /jasperreports/aspose-words-for-jasperreports-16-11-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for JasperReports 16.11.0](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-16.11.0/).
+This page contains release notes for [Aspose.Words for JasperReports 16.11.0](https://releases.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-16.11.0/).
 
 {{% /alert %}}
 

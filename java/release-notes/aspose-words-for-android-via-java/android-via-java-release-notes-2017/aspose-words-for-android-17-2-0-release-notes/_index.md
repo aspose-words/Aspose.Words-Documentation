@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words for Android 17.2.0 Release Notes
 second_title: Aspose.Words for Java
 articleTitle: Aspose.Words for Android 17.2.0 Release Notes
@@ -11,7 +11,7 @@ url: /java/aspose-words-for-android-17-2-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Android 17.2.0](https://downloads.aspose.com/words/androidjava/new-releases/aspose.words-for-android-17.2.0/)
+This page contains release notes for [Aspose.Words for Android 17.2.0](https://releases.aspose.com/words/androidjava/new-releases/aspose.words-for-android-17.2.0/)
 
 {{% /alert %}}
 

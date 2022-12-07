@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Document Properties in Java
 second_title: Aspose.Words for Java
 articleTitle: Work with Document Properties
@@ -30,11 +30,11 @@ To access document properties in Aspose.Words use:
 
 * [CustomDocumentProperties](https://reference.aspose.com/words/java/com.aspose.words/Document#CustomDocumentProperties) to obtain custom properties.
 
-**BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/DocumentProperty) objects. These objects can be obtained through the indexer property by name or by index.
+**BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) objects. These objects can be obtained through the indexer property by name or by index.
 
 **BuiltInDocumentProperties** additionally provides access to document properties through a set of entered properties that return values of the appropriate type. **CustomDocumentProperties** enable you to add or remove document properties from a document.
 
-The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/DocumentProperty) class allows you to get the name, value, and type of a document property. [Value]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://reference.aspose.com/words/java/com.aspose.words/documentproperty#toString()) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty#toInt()), to obtain the value of the appropriate type.
+The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) class allows you to get the name, value, and type of a document property. [Value]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://reference.aspose.com/words/java/com.aspose.words/documentproperty#toString()) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty#toInt()), to obtain the value of the appropriate type.
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 

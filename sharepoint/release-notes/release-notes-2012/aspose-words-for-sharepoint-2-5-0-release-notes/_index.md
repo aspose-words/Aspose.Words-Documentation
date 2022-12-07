@@ -11,7 +11,7 @@ url: /sharepoint/aspose-words-for-sharepoint-2-5-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for SharePoint 2.5.0](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-2.5.0/)
+This page contains release notes for [Aspose.Words for SharePoint 2.5.0](https://releases.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-2.5.0/)
 
 {{% /alert %}}
 

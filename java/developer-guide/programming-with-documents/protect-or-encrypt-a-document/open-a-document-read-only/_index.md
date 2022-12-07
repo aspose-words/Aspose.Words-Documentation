@@ -1,4 +1,4 @@
-﻿---
+---
 title: Open a Document Read-Only in Java
 second_title: Aspose.Words for Java
 articleTitle: Open a Document Read-Only
@@ -22,7 +22,7 @@ This article explains how to make a document read-only.
 
 ## Make a Document Read-Only
 
-Aspose.Words has the public class [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/WriteProtection) that specifies write protection settings for a document. You do not create instances of this class directly.
+Aspose.Words has the public class [WriteProtection](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/) that specifies write protection settings for a document. You do not create instances of this class directly.
 
 Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
@@ -39,7 +39,7 @@ In Microsoft Word, you can create a Read-Only document in a similar way using bo
 
 {{% alert color="primary" %}}
 
-Users can also restrict document editing by selecting [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/ProtectionType) as **ReadOnly**, but this is another feature that provides more advanced protection capabilities. There is such a function in Microsoft Word, respectively, it is implemented in Aspose.Words.
+Users can also restrict document editing by selecting [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) as **ReadOnly**, but this is another feature that provides more advanced protection capabilities. There is such a function in Microsoft Word, respectively, it is implemented in Aspose.Words.
 
 **ProtectionType** will be described in detail in one of the following articles – “Restrict Document Editing”.
 

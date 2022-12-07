@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-android-17-3-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java.Android 17.3.0](https://downloads.aspose.com/words/androidjava/new-releases/aspose.words-for-java.android-17.3.0/)
+This page contains release notes for [Aspose.Words for Java.Android 17.3.0](https://releases.aspose.com/words/androidjava/new-releases/aspose.words-for-java.android-17.3.0/)
 
 {{% /alert %}}
 

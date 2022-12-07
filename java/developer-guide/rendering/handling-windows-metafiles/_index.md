@@ -1,4 +1,4 @@
-﻿---
+---
 title: Handling Windows Metafiles in Java
 second_title: Aspose.Words for Java
 articleTitle: Handling Windows Metafiles
@@ -23,7 +23,7 @@ The existing issue with Windows Metafile is that it is not supported by most non
 
 ## Controlling the Aspose.Words Metafile Player
 
-The [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/MetafileRenderingOptions) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://reference.aspose.com/words/java/com.aspose.words/MetafileRenderingMode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions#MetafileRenderingOptions) property).
+The [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingmode/) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions#MetafileRenderingOptions) property).
 
 ## Supporting Raster Operations
 

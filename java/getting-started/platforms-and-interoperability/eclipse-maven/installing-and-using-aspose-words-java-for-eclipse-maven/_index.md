@@ -33,7 +33,7 @@ To create **Maven Project** by wizard for using [Aspose.Words for Java API](htt
 ![installing-and-using-aspose-words-java-for-eclipse-maven-3](3.png)
 1. Provide **Project Name, Location, GroupId, ArtifactId** and **Version** for your Maven Project and click **Finish.**<br>
 ![installing-and-using-aspose-words-java-for-eclipse-maven-4](4.png)
-1. This will retrieve the [Aspose.Words for Java](https://products.aspose.com/words/java/) latest [Maven Dependency](https://repository.aspose.com/words/) reference from [Aspose Cloud Maven Repository](https://repository.aspose.com/words/) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Words for Java API Examples Repository.](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
+1. This will retrieve the [Aspose.Words for Java](https://products.aspose.com/words/java/) latest [Maven Dependency](https://releases.aspose.com/words/java/) reference from [Aspose Cloud Maven Repository](https://releases.aspose.com/words/java/) and configure it in **pom.xml**. If you have opted for **Also Download Code Examples,** downloading of the **Code Examples** will also begin from the [Aspose.Words for Java API Examples Repository.](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)
 1. Following **Maven** Project will be created on your **Eclipse IDE** on completion of the wizard:<br>
 ![installing-and-using-aspose-words-java-for-eclipse-maven-5](5.png)
 1. The created **Maven Project** is configured to use **Aspose.Words for Java API** and ready to be enhanced as per your Project requirements.<br>

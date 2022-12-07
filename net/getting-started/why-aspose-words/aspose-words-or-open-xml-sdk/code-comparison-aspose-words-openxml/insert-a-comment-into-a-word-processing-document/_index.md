@@ -1,4 +1,4 @@
-﻿---
+---
 title: Insert a Comment into a Word Processing Document
 second_title: Aspose.Words for .NET
 articleTitle: Insert a Comment into a Word Processing Document
@@ -17,7 +17,7 @@ On this page we will look at how to insert a comment into a word processing docu
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words you can work with comments by using the [Comment](https://reference.aspose.com/words/net/aspose.words/comment) class.
+In Aspose.Words you can work with comments by using the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class.
 
 The following code example shows how to insert a comment into a Word document:
 

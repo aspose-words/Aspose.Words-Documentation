@@ -14,7 +14,7 @@ Sometimes you may need to change the appearance of a document, for example, set 
 
 ## Set Document Display Options
 
-You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/ViewOptions) class. For example, you can set a document zoom value using the [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions#ZoomPercent) property, or the view mode using the [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions#ViewType) property.
+You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://reference.aspose.com/words/java/com.aspose.words/viewoptions/) class. For example, you can set a document zoom value using the [ZoomPercent](https://reference.aspose.com/words/java/com.aspose.words/viewoptions#ZoomPercent) property, or the view mode using the [ViewType](https://reference.aspose.com/words/java/com.aspose.words/viewoptions#ViewType) property.
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 
@@ -50,7 +50,7 @@ The following code example shows how to set the number of characters per line an
 
 Displaying a document in Microsoft Word depends on which languages are set as defaults for this document. If no languages are set in defaults, Microsoft Word takes information from the "Set Office Language Preferences" dialog box, which, for example, can be found under "File → Options → Language" in Microsoft Word 2019.
 
-With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/LanguagePreferences) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions#MswVersion) property.
+With Aspose.Words, you can also set up language preferences using the [LanguagePreferences](https://reference.aspose.com/words/java/com.aspose.words/languagepreferences/) class. Also note that for the correct display of your document it is necessary to set the Microsoft Word version that the document loading process should match – this can be done using the [MswVersion](https://reference.aspose.com/words/java/com.aspose.words/loadoptions#MswVersion) property.
 
 {{% alert color="primary" %}}
 

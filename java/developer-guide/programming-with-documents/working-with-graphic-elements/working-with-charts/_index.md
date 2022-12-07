@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Charts in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Charts
@@ -14,7 +14,7 @@ WorkWithChartDataLabelOfASingleChartSeries
 
 ## Creating OOXML Charts from Scratch using Aspose.Words
 
-The new insertChart method was added into the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. So, let's see how to insert a simple column chart into the document using DocumentBuilder.insertChart method:
+The new insertChart method was added into the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using DocumentBuilder.insertChart method:
 
 ### How to insert Column chart
 
@@ -72,7 +72,7 @@ The code generates the followings results:
 
 ## How to Work with ChartSeriesCollection of Chart
 
-Let’s look into [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/ChartSeries) collection. All chart series are available through the chart.getSeries()collection, which is Iterable:
+Let’s look into [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) collection. All chart series are available through the chart.getSeries()collection, which is Iterable:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
@@ -88,7 +88,7 @@ Please see the result below:
 
 ![line-chart-aspose-words-java-2](working-with-charts-2.png)
 
-All single [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/ChartSeries) have default [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/ChartDataPoint) options, please try using the following code to change them:
+All single [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) have default [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) options, please try using the following code to change them:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeDefaultChartDataPointOptions.java" >}}
 

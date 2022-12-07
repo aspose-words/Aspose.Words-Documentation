@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Section Breaks from a Document
 second_title: Aspose.Words for .NET
 articleTitle: Remove Section Breaks from a Document
@@ -17,7 +17,7 @@ On this page we will look at how to remove section breaks from a document using 
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, use the [SectionBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/fields/sectionbreak) field of the [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar) class to find all section breaks.
+In Aspose.Words, use the [SectionBreak](https://reference.aspose.com/words/net/aspose.words/controlchar//sectionbreak/) field of the [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar/) class to find all section breaks.
 
 The following code example shows how to remove page breaks from a document:
 

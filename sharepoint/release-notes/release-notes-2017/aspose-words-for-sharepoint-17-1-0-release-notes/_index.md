@@ -11,7 +11,7 @@ url: /sharepoint/aspose-words-for-sharepoint-17-1-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for SharePoint 17.1.0](https://downloads.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-17.1.0/).
+This page contains release notes for [Aspose.Words for SharePoint 17.1.0](https://releases.aspose.com/words/sharepoint/new-releases/aspose.words-for-sharepoint-17.1.0/).
 
 {{% /alert %}}
 

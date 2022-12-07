@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document to PDF in Java
 second_title: Aspose.Words for Java
 articleTitle: Convert a Document to PDF
@@ -29,7 +29,7 @@ Note that the number of pages in a document affects the conversion time.
 
 Converting from the DOC or DOCX document format into the PDF format in Aspose.Words is very easy and can be accomplished with just two lines of code that:
 
-1. Load your document into a [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) object using one of its constructors by specifying the document name with its format extension.
+1. Load your document into a [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) object using one of its constructors by specifying the document name with its format extension.
 1. Invoke one of the [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save\(java.lang.String,int\)) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
 The following code example shows how to convert a document from DOCX into PDF using the Save method:
@@ -40,7 +40,7 @@ You can download the template file of this example from [Aspose.Words GitHub](h
 
 {{% alert color="primary" %}}
 
-Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/PdfSaveOptions) class, containing properties that determine how the PDF output will be displayed.
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a PDF. These options can be specified by the use of the [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) class, containing properties that determine how the PDF output will be displayed.
 
 Note that with the same technique, you can convert any flow-layout format document to PDF format.
 
@@ -48,9 +48,9 @@ Note that with the same technique, you can convert any flow-layout format docume
 
 ### Convert to Different PDF Standards {#converting-to-various-pdf-standards}
 
-Aspose.Words provides the [PdfCompliace ](https://reference.aspose.com/words/java/com.aspose.words/PdfCompliance)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
+Aspose.Words provides the [PdfCompliace ](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/)enumeration to support the conversion of DOC or DOCX into various PDF format standards (such as PDF 1.7, PDF 1.5, etc.).
 
-The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/PdfSaveOptions) with compliance to PDF17:
+The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) with compliance to PDF17:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-WorkingWithPdfSaveOptions-ConversionToPDF17.java" >}}
 

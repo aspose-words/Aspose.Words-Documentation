@@ -11,7 +11,7 @@ url: /cpp/aspose-words-for-cpp-20-7-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for C++ 20.7](https://downloads.aspose.com/words/cpp/new-releases/aspose.words-for-c---20.7/)
+This page contains release notes for [Aspose.Words for C++ 20.7](https://releases.aspose.com/words/cpp/new-releases/aspose.words-for-c---20.7/)
 
 {{% /alert %}}
 

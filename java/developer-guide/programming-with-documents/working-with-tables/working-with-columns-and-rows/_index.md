@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Columns and Rows in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Columns and Rows
@@ -19,7 +19,7 @@ In both Word documents and in the Aspose.Words Document Object Model, there is n
 
 ![work-with-columns-aspose-words-java](working-with-columns-and-rows-1.png)
 
-Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells is represented in the same way that tables are represented in Aspose.Words. In the Aspose.Words Document Object Model a [Table](https://reference.aspose.com/words/java/com.aspose.words/table) node is made up of [Row](https://reference.aspose.com/words/java/com.aspose.words/row) and then [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell) nodes. There is also no native support for columns.
+Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells is represented in the same way that tables are represented in Aspose.Words. In the Aspose.Words Document Object Model a [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) node is made up of [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) and then [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) nodes. There is also no native support for columns.
 
 You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table.
 

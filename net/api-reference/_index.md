@@ -1,4 +1,4 @@
-﻿---
+---
 title: API Reference
 second_title: Aspose.Words for .NET
 articleTitle: API Reference
@@ -13,4 +13,4 @@ Aspose.Words for .NET is a class library that enables your applications to perfo
 
 Aspose.Words for .NET is written completely in C#, is CLS compliant, and contains only safe managed code.
 
-The latest API Reference can be found at [Aspose.Words for .NET API Reference](https://reference.aspose.com/words/net).
+The latest API Reference can be found at [Aspose.Words for .NET API Reference](https://reference.aspose.com/words/net/).

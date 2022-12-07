@@ -9,7 +9,7 @@ weight: 25
 url: /java/find-field-properties/
 ---
 
-A field which is inserted using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) returns a [Field](https://reference.aspose.com/words/java/com.aspose.words/Field) object. This is a facade class which provides useful methods to quickly find such properties of a field.
+A field which is inserted using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) returns a [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) object. This is a facade class which provides useful methods to quickly find such properties of a field.
 
 The following code example shows how to find the field code and field result:
 

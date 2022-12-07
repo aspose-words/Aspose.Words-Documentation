@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-for-reporting-services-1-4-1-0-release-note
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Reporting Services 1.4.1.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-1.4.1.0/)
+This page contains release notes for [Aspose.Words for Reporting Services 1.4.1.0](https://releases.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-1.4.1.0/)
 
 {{% /alert %}}
 

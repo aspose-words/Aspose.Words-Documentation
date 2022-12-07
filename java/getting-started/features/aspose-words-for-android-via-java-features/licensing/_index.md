@@ -1,4 +1,4 @@
-﻿---
+---
 title: Licensing
 second_title: Aspose.Words for Java
 articleTitle: Licensing
@@ -13,13 +13,13 @@ url: /java/licensing-android/
 
 Make sure to take advantage of the free Aspose.Words for Android via Java evaluation: it has no time limit, and comes with free technical support. We encourage developers to evaluate our products before buying so you know that the product will do what you want it to do.
 
-The evaluation and the paid versions of Aspose.Words for Android via Java use the same download. Simply [download Aspose.Words for Android via Java](https://downloads.aspose.com/words/androidjava) from the download page, [install it](/words/java/installation/) and it works in evaluation mode. Evaluation mode inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it. If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license).
+The evaluation and the paid versions of Aspose.Words for Android via Java use the same download. Simply [download Aspose.Words for Android via Java](https://releases.aspose.com/words/androidjava/) from the download page, [install it](/words/java/installation/) and it works in evaluation mode. Evaluation mode inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it. If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license/).
 
 ![licensing-aspose-words-android](licensing-1.png)
 
 ## Applying a License
 
-Once you are happy with your evaluation of Aspose.Words, [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different [license types](https://purchase.aspose.com/policies/license-types/) offered. If you have any questions, do not hesitate to [contact the Aspose sales team](https://about.aspose.com/contact). Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
+Once you are happy with your evaluation of Aspose.Words, [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different [license types](https://purchase.aspose.com/policies/license-types/) offered. If you have any questions, do not hesitate to [contact the Aspose sales team](https://about.aspose.com/contact/). Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
 
 The license is a plain text XML file that contains details such as the product name, number of licensed developers, subscription expiry date and so on. The file is digitally signed, so do not modify the file: even adding an extra line break into the file will invalidate it. You need to set a license before performing any operations with documents. Make sure you do this before creating a Document object. You are only required to [set a license once per application or process](/words/java/licensing/#licensing-whentoapplyalicense).
 

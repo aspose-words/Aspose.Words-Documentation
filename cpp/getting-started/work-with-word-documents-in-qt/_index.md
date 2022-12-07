@@ -15,7 +15,7 @@ You can find complete Qt example at [GitHub](https://github.com/btolfa/Aspose.Wo
 
 ## Using Aspose.Words for C++ within Qt Creator
 
-For using Aspose.Words for C++ in your Qt application download the latest version of the API from the [downloads](https://downloads.aspose.com/words/cpp) section. Once the API is downloaded, you can use integrate the C++ library within Qt Creator or you can use with Visual Studio.
+For using Aspose.Words for C++ in your Qt application download the latest version of the API from the [downloads](https://releases.aspose.com/words/cpp/) section. Once the API is downloaded, you can use integrate the C++ library within Qt Creator or you can use with Visual Studio.
 
 In order to integrate and use Aspose.Words for C++ library within a Qt Console Application developed in Qt Creator, please follow the steps given below:
 
@@ -60,10 +60,10 @@ In order to integrate and use Aspose.Words for C++ library within a Qt Console 
 
 ## Using Aspose.Words for C++ in Qt Applications within Visual Studio
 
-For developing a Qt application using Visual Studio, you require to install [Qt Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools-19123). Once you have the installation, download the latest version of the API from the [downloads](https://downloads.aspose.com/pdf/cpp) section and follow the steps given below:
+For developing a Qt application using Visual Studio, you require to install [Qt Visual Studio Tools](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools-19123). Once you have the installation, download the latest version of the API from the [downloads](https://releases.aspose.com/pdf/cpp/) section and follow the steps given below:
 
 - Download and install [CMake](https://github.com/Kitware/CMake/releases/download/v3.17.1/cmake-3.17.1-win64-x64.msi).
-- Download and unpack [Aspose.Words for C++](https://downloads.aspose.com/words/cpp).
+- Download and unpack [Aspose.Words for C++](https://releases.aspose.com/words/cpp/).
 - Create a new folder for your project files and copy/paste *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp_vc14_20.4* folders from unpacked package.
 - Create a new file named *CMakeLists.txt* in the same folder.
 - Copy and paste the following content within the *CMakeLists.txt* file.

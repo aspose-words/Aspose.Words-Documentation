@@ -1,4 +1,4 @@
-﻿---
+---
 title: Simple and Affordable Licensing
 second_title: Aspose.Words for JasperReports
 articleTitle: Simple and Affordable Licensing
@@ -13,7 +13,7 @@ url: /jasperreports/simple-and-affordable-licensing/
 
 Every Aspose license comes with 1 year of free software updates and unlimited free technical support.
 
-Aspose.Words for JasperReports evaluation and full versions are the same download. Simply [download Aspose.Words for JasperReports](https://downloads.aspose.com/words/jasperreports) and install it: it work in evaluation mode by default.
+Aspose.Words for JasperReports evaluation and full versions are the same download. Simply [download Aspose.Words for JasperReports](https://releases.aspose.com/words/jasperreports/) and install it: it work in evaluation mode by default.
 
 Make sure to take advantage of the Aspose.Words for JasperReports evaluation as it does not have a time limit.
 

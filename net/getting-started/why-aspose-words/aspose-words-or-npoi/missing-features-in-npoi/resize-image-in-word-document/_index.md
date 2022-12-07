@@ -1,4 +1,4 @@
-﻿---
+---
 title: Resize Image in a Word Document
 second_title: Aspose.Words for .NET
 articleTitle: Resize Image in a Word Document
@@ -15,9 +15,9 @@ See more details in the ["Working with Images"](/words/net/working-with-images/)
 
 {{% /alert %}}
 
-The [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) provides several overloads of the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertimage/index) method that allow you to insert an inline or floating image. For example, the [InsertImage](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertimage/methods/9) method is used to insert an image from a file or URL into a document.
+The [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) provides several overloads of the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder//methods/insertimage/index) method that allow you to insert an inline or floating image. For example, the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) method is used to insert an image from a file or URL into a document.
 
-Using [Shape ](https://reference.aspose.com/words/net/aspose.words.drawing/shape)class you can create or modify shapes in a Microsoft Word document.
+Using [Shape ](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)class you can create or modify shapes in a Microsoft Word document.
 
 The following code example shows how to resize an image:
 
@@ -44,7 +44,7 @@ builder.Document.Save("ImageReSize.doc");
 
 {{% alert color="primary" %}}
 
-The [ConvertUtil ](https://reference.aspose.com/words/net/aspose.words/convertutil)class provides helper functions to convert between various measurement units, like convertsion [inches to points](https://reference.aspose.com/words/net/aspose.words/convertutil/methods/inchtopoint).
+The [ConvertUtil ](https://reference.aspose.com/words/net/aspose.words/convertutil/)class provides helper functions to convert between various measurement units, like convertsion [inches to points](https://reference.aspose.com/words/net/aspose.words/convertutil//methods/inchtopoint).
 
 {{% /alert %}}
 

@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-for-reporting-services-5-0-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Reporting Services 5.0.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-5.0.0-msi/). This release includes support of Microsoft SQL Server 2016 and Microsoft Report Viewer 2015.
+This page contains release notes for [Aspose.Words for Reporting Services 5.0.0](https://releases.aspose.com/words/reportingservices/new-releases/aspose.words-for-reporting-services-5.0.0-msi/). This release includes support of Microsoft SQL Server 2016 and Microsoft Report Viewer 2015.
 
 {{% /alert %}}
 

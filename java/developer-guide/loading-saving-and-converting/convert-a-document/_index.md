@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document in Java
 second_title: Aspose.Words for Java
 articleTitle: Convert a Document
@@ -14,9 +14,9 @@ The ability to easily and reliably convert documents from one format to another 
 
 ## What Is Document Conversion {#what-is-document-conversion}
 
-Almost any task that you want to perform with Aspose.Words involves loading or saving a document in some format. As mentioned in previous sections, the [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/LoadFormat) enumeration specifies all *load* or *import* formats supported by Aspose.Words, and the [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/SaveFormat) enumeration specifies all *save* or *export* formats supported by Aspose.Words. Thus, Aspose.Words can convert a document from any supported load format into any supported save format. As a rule, such a conversion requires several stages of calculation. However from the user perspective conversion from a document format to another one is itself very simple, and can be accomplished with just two steps:
+Almost any task that you want to perform with Aspose.Words involves loading or saving a document in some format. As mentioned in previous sections, the [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumeration specifies all *load* or *import* formats supported by Aspose.Words, and the [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) enumeration specifies all *save* or *export* formats supported by Aspose.Words. Thus, Aspose.Words can convert a document from any supported load format into any supported save format. As a rule, such a conversion requires several stages of calculation. However from the user perspective conversion from a document format to another one is itself very simple, and can be accomplished with just two steps:
 
-1. Load your document into a [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) object using one of its constructors.
+1. Load your document into a [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) object using one of its constructors.
 1. Invoke one of the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save\(java.lang.String,int\)) methods on the **Document** object and specify the desired output format.
 
 {{% alert color="primary" %}}

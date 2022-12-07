@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Form Fields in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Form Fields
@@ -43,7 +43,7 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox. DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserttextinput) , [DocumentBuilder.InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/InsertCheckBox), and [DocumentBuilder.InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/InsertComboBox). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name. The code example given below shows how to insert a combobox form field into a document.
+Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox. DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/) , [DocumentBuilder.InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/), and [DocumentBuilder.InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name. The code example given below shows how to insert a combobox form field into a document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cs" >}}
 
@@ -67,7 +67,7 @@ Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. Th
 
 ### Obtaining Form Fields
 
-A collection of form fields is represented by the [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection) class that can be retrieved using the [Range.FormFields](https://reference.aspose.com/words/net/aspose.words/range/properties/formfields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
+A collection of form fields is represented by the [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/) class that can be retrieved using the [Range.FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cs" >}}
 
@@ -81,6 +81,6 @@ The FormField properties allow you to work with form field name, type, and resul
 
 ### Formatting Form Fields
 
-The [Font](https://reference.aspose.com/words/net/aspose.words/inline/properties/font) property of [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield) allows applying font formatting to the FormField as a whole including the field value. The following code example demonstrates how to apply font formatting to the FormField.
+The [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) property of [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) allows applying font formatting to the FormField as a whole including the field value. The following code example demonstrates how to apply font formatting to the FormField.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsFontFormatting-FormFieldsFontFormatting.cs" >}}

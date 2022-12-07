@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Headers and Footers from a Word Document
 second_title: Aspose.Words for .NET
 articleTitle: Remove Headers and Footers from a Word Document
@@ -18,7 +18,7 @@ On this page we will look at how to remove headers or footers from a Word proces
 
 {{< tab tabNum="1" >}}
 
-Aspose.Words provide API for working with headers and footers in Microsoft Word document. We can use the [Section.HeadersFooters](https://reference.aspose.com/words/net/aspose.words/headerfootercollection) object to get the collection of header/footer in a document section. The [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter) class is a container for section header or footer text. That being said, **HeaderFooter** is a section-level node and can only be a child of a section. There can be only one or each **HeaderFooter** of [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfootertype) in a section.
+Aspose.Words provide API for working with headers and footers in Microsoft Word document. We can use the [Section.HeadersFooters](https://reference.aspose.com/words/net/aspose.words/headerfooter/collection/) object to get the collection of header/footer in a document section. The [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) class is a container for section header or footer text. That being said, **HeaderFooter** is a section-level node and can only be a child of a section. There can be only one or each **HeaderFooter** of [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfooter/type) in a section.
 
 The following code example shows how to remove header and footer from a Word document:
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Types of Mail Merge Operation in Java
 second_title: Aspose.Words for Java
 articleTitle: Types of Mail Merge Operation
@@ -20,7 +20,7 @@ The main difference between both merge operations is that simple mail merge (wit
 
 {{% alert color="primary" %}}
 
-The [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/MailMerge) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
+The [MailMerge](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
 
 {{% /alert %}}
 
@@ -70,7 +70,7 @@ You can create nested (child) regions as well as merge regions. The main advanta
 
 {{% alert color="primary" %}}
 
-Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/MailMergeRegionInfo) class.
+Information about a mail merge region can be obtained using the [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/) class.
 
 {{% /alert %}}
 
@@ -78,7 +78,7 @@ Information about a mail merge region can be obtained using the [MailMergeRegion
 
 A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
 
-Aspose.Words allows you to execute mail merge with regions using different [Execute methods](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/executewithregions/index) that accept various data objects as the data source.
+Aspose.Words allows you to execute mail merge with regions using different [Execute methods](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions/) that accept various data objects as the data source.
 
 As a first step, we need to create the DataSet to pass it later as an input parameter to the ExecuteWithRegions method:
 

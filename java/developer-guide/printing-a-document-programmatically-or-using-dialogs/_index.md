@@ -15,7 +15,7 @@ This article describes how to print a word processing document using Aspose.Word
 
 When working with documents, it is often required to print them to a selected printer. It is helpful to utilize a print preview dialog to visually inspect how the printed document will appear and choose relevant print options.
 
-The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/AsposeWordsPrintDocument) class overrides both java.awt.print.Printable and java.awt.print.Pageable.
+The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](https://reference.aspose.com/words/java/com.aspose.words/asposewordsprintdocument/) class overrides both java.awt.print.Printable and java.awt.print.Pageable.
 
 The following example shows how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
 

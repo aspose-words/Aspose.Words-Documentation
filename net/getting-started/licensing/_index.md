@@ -13,7 +13,7 @@ Sometimes, in order to study the system better, you want to dive into the code a
 
 {{% alert color="primary" %}}
 
-Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the ["Purchase Policies and FAQ"](https://purchase.aspose.com/policies) section.
+Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the ["Purchase Policies and FAQ"](https://purchase.aspose.com/policies/) section.
 
 {{% /alert %}}
 
@@ -23,13 +23,13 @@ Aspose.Words is incredible software that developers can try before purchasing.
 
 ### Free Trial
 
-The evaluation version is the same as the purchased one – the [Trial version](https://downloads.aspose.com/words) simply becomes licensed when you add a few lines of code to apply the license.
+The evaluation version is the same as the purchased one – the [Trial version](https://releases.aspose.com/words/) simply becomes licensed when you add a few lines of code to apply the license.
 
 The Trial version of Aspose.Words without the specified license provides full product functionality, but inserts an evaluative watermark at the top of the document upon loading and saving and limits the maximum document size to a few hundred paragraphs.
 
 ### Temporary License
 
-If you wish to test Aspose.Words without the limitations of the Trial version, you can also request a 30-day Temporary License. For more details, see the ["Get a Temporary License"](https://purchase.aspose.com/temporary-license) page.
+If you wish to test Aspose.Words without the limitations of the Trial version, you can also request a 30-day Temporary License. For more details, see the ["Get a Temporary License"](https://purchase.aspose.com/temporary-license/) page.
 
 ## Purchased License
 
@@ -118,7 +118,7 @@ Normally it is enough to apply the metered license once on application start. Ho
 
 {{% alert color="primary" %}}
 
-Please note that you must have a stable Internet connection for the correct use of the Metered license, since the Metered mechanism requires the constant interaction with our services for correct calculations. For more details, refer to the [“Metered Licensing FAQ”](https://purchase.aspose.com/faqs/licensing/metered) section.
+Please note that you must have a stable Internet connection for the correct use of the Metered license, since the Metered mechanism requires the constant interaction with our services for correct calculations. For more details, refer to the [“Metered Licensing FAQ”](https://purchase.aspose.com/faqs/licensing/metered/) section.
 
 {{% /alert %}}
 

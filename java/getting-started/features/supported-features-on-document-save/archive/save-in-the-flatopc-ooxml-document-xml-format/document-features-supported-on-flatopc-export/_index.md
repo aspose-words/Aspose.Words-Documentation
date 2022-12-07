@@ -20,7 +20,7 @@ This page has been archived and has not been updated for some time. It contains 
 See the following links in the documentation for further information:
 
 - [Save a Document](/words/java/save-a-document/)
-- [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/OoxmlSaveOptions)
+- [OoxmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/)
 - [OoxmlSaveOptions.TempFolder](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions#TempFolder)
 - [OoxmlSaveOptions.Compliance](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions#Compliance)
 

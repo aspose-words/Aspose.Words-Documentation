@@ -11,7 +11,7 @@ url: /reportingservices/aspose-words-for-reporting-services-16-11-0-release-note
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Reporting Services 16.11.0](https://downloads.aspose.com/words/reportingservices/new-releases/aspose.word-for-reporting-services-16.11.0-msi/).
+This page contains release notes for [Aspose.Words for Reporting Services 16.11.0](https://releases.aspose.com/words/reportingservices/new-releases/aspose.word-for-reporting-services-16.11.0-msi/).
 
 {{% /alert %}}
 

@@ -12,7 +12,7 @@ weight: 20
 url: /java/specify-save-options/
 ---
 
-When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/SaveOptions) class, which allows more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/PdfSaveOptions) for saving to PDF format, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/MarkdownSaveOptions) for saving to Markdown format, or [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/ImageSaveOptions) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
+When saving a document, you can set some advanced properties. Aspose.Words provides you with the [SaveOptions](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/) class, which allows more precise control of the save process. There are overloads of the **Save** method that accept a **SaveOptions** object – it should be an object of a class derived from the **SaveOptions** class. Each save format has a corresponding class that holds save options for this save format, for example, there is [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) for saving to PDF format, [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) for saving to Markdown format, or [ImageSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) for saving to an image. This article provides examples of working with some options classes derived from **SaveOptions**.
 
 The following code example shows how to set the save options before saving the document into HTML:
 
@@ -31,13 +31,13 @@ The article describes a few properties you can control when saving a document.
 
 Use the **Password** property to get or set a password for an encrypted document. Use the **Password** property of the corresponding class to work with the selected document format.
 
-For example, when saving a document to DOC or DOT format, use the [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions#Password) property of the [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions) class.
+For example, when saving a document to DOC or DOT format, use the [Password](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/#Password) property of the [DocSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) class.
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithDocSaveOptions-EncryptDocumentWithPassword.java" >}}
 
-When saving a document to ODT format, use the [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions#Password) property of the [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions) class.
+When saving a document to ODT format, use the [Password](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/#Password) property of the [OdtSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) class.
 
 The following code example shows how to load and save OpenDocument encrypted with a password:
 

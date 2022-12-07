@@ -11,7 +11,7 @@ url: /java/remove-fields/
 
 Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a TOC field when saving to HTML.
 
-To remove a field inserted into a document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)), use the returned [Field](https://reference.aspose.com/words/java/com.aspose.words/Field) object, which provides a convenient [Remove](https://reference.aspose.com/words/java/com.aspose.words/field#remove()) method for easily removing the field from the document.
+To remove a field inserted into a document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)), use the returned [Field](https://reference.aspose.com/words/java/com.aspose.words/field/) object, which provides a convenient [Remove](https://reference.aspose.com/words/java/com.aspose.words/field#remove()) method for easily removing the field from the document.
 
 The following code example shows how to remove a field from the document:
 

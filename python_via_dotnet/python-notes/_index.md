@@ -1,4 +1,4 @@
-﻿---
+---
 title: Python and .NET Version Differences
 second_title: Aspose.Words for Python via .NET
 articleTitle: Python and .NET Version Differences
@@ -15,10 +15,10 @@ Aspose.Words for Python via .NET is a wrapper of Aspose.Words for .NET, that is 
 ## Feature Differences
 
 Due to the wrapping process there are some features that are not available in the Python version. Here is a list of most notable features that are currently are not available in the Python version.
-* Implementation of interfaces is not supported yet, that is why it is not possible to use callbacks such as [IWarningCallback](https://reference.aspose.com/words/python-net/aspose.words/iwarningcallback), [IReplacingCallback](https://reference.aspose.com/words/python-net/aspose.words.replacing/ireplacingcallback), [IFieldUpdatingCallback](https://reference.aspose.com/words/python-net/aspose.words.fields/ifieldupdatingcallback), [IFieldMergingCallback](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/ifieldmergingcallback) etc.
+* Implementation of interfaces is not supported yet, that is why it is not possible to use callbacks such as [IWarningCallback](https://reference.aspose.com/words/python-net/aspose.words/iwarningcallback/), [IReplacingCallback](https://reference.aspose.com/words/python-net/aspose.words.replacing/ireplacingcallback/), [IFieldUpdatingCallback](https://reference.aspose.com/words/python-net/aspose.words.fields/ifieldupdatingcallback/), [IFieldMergingCallback](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/ifieldmergingcallback/) etc.
 * Printing feature is not available because .NET Standard 2.0 version of Aspose.Words is used as back-end of the python version, which also does not provide this functionality.
 * Only simple Mail Merge functionality is provided with arrays of field names and field values as a data source.
-* [DocumentVisitor](https://reference.aspose.com/words/python-net/aspose.words/documentvisitor) implementation is currently not possible from the Python code.
+* [DocumentVisitor](https://reference.aspose.com/words/python-net/aspose.words/documentvisitor/) implementation is currently not possible from the Python code.
 
 ## Casting Aspose.Words Objects in Python
 

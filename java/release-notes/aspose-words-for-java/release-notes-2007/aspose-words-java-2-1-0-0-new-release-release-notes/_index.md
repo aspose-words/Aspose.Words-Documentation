@@ -11,7 +11,7 @@ url: /java/aspose-words-java-2-1-0-0-new-release-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words Java 2.1.0.0 New Release](https://downloads.aspose.com/words/java/new-releases/aspose.words-java-2.1.0.0-new-release/)
+This page contains release notes for [Aspose.Words Java 2.1.0.0 New Release](https://releases.aspose.com/words/java/new-releases/aspose.words-java-2.1.0.0-new-release/)
 
 {{% /alert %}}
 

@@ -32,10 +32,10 @@ You can find what paragraphs a list is applied to and work with them manually. T
 
 See the following links in the documentation for further information:
 
-- [Paragraph.IsListItem](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/islistitem)
-- [Paragraph.ListFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/listformat)
-- [Paragraph.ListLabel](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/listlabel)
-- [List.ListLevels](https://reference.aspose.com/words/net/aspose.words.lists/list/properties/listlevels)
+- [Paragraph.IsListItem](https://reference.aspose.com/words/net/aspose.words/paragraph/islistitem/)
+- [Paragraph.ListFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/listformat/)
+- [Paragraph.ListLabel](https://reference.aspose.com/words/net/aspose.words/paragraph/listlabel/)
+- [List.ListLevels](https://reference.aspose.com/words/net/aspose.words.lists/list/listlevels/)
 
 {{% /alert %}}
 
@@ -44,21 +44,21 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
-|Multi Level |Yes | |- [List.IsMultiLevel](https://reference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
+|Multi Level |Yes | |- [List.IsMultiLevel](https://reference.aspose.com/words/net/aspose.words.lists/list/ismultilevel/)|
 |Name |Yes | | |
 
 ## Numbering Level
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Label Alignment |Yes | |- [ListLevel.Alignment](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/alignment)|
+|Label Alignment |Yes | |- [ListLevel.Alignment](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/alignment/)|
 |Picture Bullet |Yes |Picture bullets are supported, however there is currently no way to set a new picture bullet for a list item. <br><br>Consider creating a list with the picture bullet first in the document using Microsoft Word and then apply this list to the required paragraphs. | |
-|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/restartafterlevel)|
+|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/restartafterlevel/)|
 |Bullet Character |Yes | | |
-|Label/Format String |Yes | |- [ListLabel.LabelString](https://reference.aspose.com/words/net/aspose.words.lists/listlabel/properties/labelstring)|
-|Number Format |Yes | |- [ListLevel.NumberFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/numberformat)|
+|Label/Format String |Yes | |- [ListLabel.LabelString](https://reference.aspose.com/words/net/aspose.words.lists/listlabel/labelstring/)|
+|Number Format |Yes | |- [ListLevel.NumberFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/numberformat/)|
 |Paragraph Properties |Yes | | |
-|Font Properties |Yes | |- [ListLevel.Font](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/font)|
-|Linked Paragraph Style |Yes | |- [ListLevel.LinkedStyle](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/linkedstyle)|
-|Starting Value |Yes | |- [ListLevel.StartAt](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/startat)|
-|Text After |Yes | |- [ListLevel.TrailingCharacter](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/trailingcharacter)|
+|Font Properties |Yes | |- [ListLevel.Font](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/font/)|
+|Linked Paragraph Style |Yes | |- [ListLevel.LinkedStyle](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/linkedstyle/)|
+|Starting Value |Yes | |- [ListLevel.StartAt](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/startat/)|
+|Text After |Yes | |- [ListLevel.TrailingCharacter](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/trailingcharacter/)|

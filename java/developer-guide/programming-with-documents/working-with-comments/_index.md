@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Comments in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Comments
@@ -11,7 +11,7 @@ url: /java/working-with-comments/
 
 {{% alert color="primary" %}}
 
-Comments of the document are represented by the [Comment](https://reference.aspose.com/words/net/aspose.words/comment) class. Use [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend) classes to specify a region of text that is to be commented.
+Comments of the document are represented by the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class. Use [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/comment/rangestart) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/comment/rangeend) classes to specify a region of text that is to be commented.
 
 {{% /alert %}}
 
@@ -36,7 +36,7 @@ You can try this functionality with our [Free online remove annotations](https:/
 
 To illustrate how to extract and remove comments from a document, we will go through the following steps:
 
-1. Open a Word document using the [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) class.
+1. Open a Word document using the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) class.
 1. Get all comments from the document into a collection.
 1. To extract comments:
    1. Go through the collection using the for the operator.

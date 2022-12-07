@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document to Markdown in Java
 second_title: Aspose.Words for Java
 articleTitle: Convert a Document to Markdown
@@ -12,7 +12,7 @@ url: /java/convert-a-document-to-markdown/
 
 Markdown is a popular format used to markup text and it is further converting to HTML, PDF, DOCX, or other formats. Many developers choose this format for writing documentation, preparing articles for publication on blogs, describing projects, and so on.
 
-Markdown is so popular because it is easy to work with this format, as well as it can be quite simply converted to other formats. For this reason, Aspose.Words provides the ability to convert a document in [any supported load format](https://reference.aspose.com/words/java/com.aspose.words/LoadFormat) to Markdown and vice versa – Aspose.Words also supports the most popular [save formats](https://reference.aspose.com/words/java/com.aspose.words/SaveFormat).
+Markdown is so popular because it is easy to work with this format, as well as it can be quite simply converted to other formats. For this reason, Aspose.Words provides the ability to convert a document in [any supported load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) to Markdown and vice versa – Aspose.Words also supports the most popular [save formats](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
 
 Now the functionality for working with the Markdown format is being actively developed to provide you with more opportunities for convenient and comfortable work with documents.
 
@@ -27,7 +27,7 @@ The following code example shows how to convert DOCX to Markdown:
 
 ## Specify Save Options when Converting to Markdown
 
-Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/MarkdownSaveOptions) class to work with advanced options when saving a document to Markdown format. In addition to other inheriting or overloading properties, a number of properties that are specific for Markdown format have also been added. For example, the [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/TableContentAlignment) property to control the alignment of content in tables, or [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions#ImageSavingCallback) and [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions#ImagesFolder) to control how images are saved upon converting a document to Markdown format.
+Aspose.Words provides the ability to use the [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) class to work with advanced options when saving a document to Markdown format. In addition to other inheriting or overloading properties, a number of properties that are specific for Markdown format have also been added. For example, the [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) property to control the alignment of content in tables, or [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions#ImageSavingCallback) and [ImagesFolder](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions#ImagesFolder) to control how images are saved upon converting a document to Markdown format.
 
 ## Supported Markdown Features
 

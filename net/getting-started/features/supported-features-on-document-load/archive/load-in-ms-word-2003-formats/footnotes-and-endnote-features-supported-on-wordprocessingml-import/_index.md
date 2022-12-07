@@ -28,7 +28,7 @@ Using Aspose.Words you can interact with footnotes and endnotes and access or mo
 
 See the following links in the documentation for further information:
 
-- [Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote)
+- [Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote/)
 - **Document.FootnoteOptions**
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
@@ -42,7 +42,7 @@ See the following links in the documentation for further information:
 |Number Format |Yes | | |
 |Restart Location |Yes | | |
 |Starting Value |Yes | | |
-|Placement |Yes | |- [FootnoteOptions.Location](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions)|
+|Placement |Yes | |- [FootnoteOptions.Location](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/)|
 
 ## Endnotes
 
@@ -54,7 +54,7 @@ See the following links in the documentation for further information:
 |Continuation Separator Mark |Yes | | |
 |Document Wide Properties |Yes | | |
 |Section Wide Properties |Yes | | |
-|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/numberstyle)|
-|Restart Location |Yes | |- [FootnoteOptions.RestartRule](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/restartrule)|
-|Starting Value |Yes | |- [FootnoteOptions.StartNumber](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/startnumber)|
+|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/numberstyle/)|
+|Restart Location |Yes | |- [FootnoteOptions.RestartRule](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/restartrule/)|
+|Starting Value |Yes | |- [FootnoteOptions.StartNumber](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/startnumber/)|
 |Placement |Yes | | |

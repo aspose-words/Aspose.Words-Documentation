@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Lists in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Lists
@@ -39,7 +39,7 @@ The code example given below shows how to build a multilevel list.
 
 ## Specify Formatting for a List Level
 
-List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/ListLevel) class to control the formatting of individual levels of a list.
+List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) class to control the formatting of individual levels of a list.
 
 ## How to Restart List for each Section
 

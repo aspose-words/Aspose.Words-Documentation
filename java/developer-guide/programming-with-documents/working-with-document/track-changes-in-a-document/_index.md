@@ -1,4 +1,4 @@
-﻿---
+---
 title: Track Changes in a Document in Java
 second_title: Aspose.Words for Java
 articleTitle: Track Changes in a Document
@@ -23,7 +23,7 @@ Note that the comment feature in Aspose.Words, as well as in Microsoft Word, can
 
 ## What Is a Revision
 
-Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revisiongroup) class, is a group of sequential revisions that occur in many nodes of a document. Revision is a tool for tracking changes.
+Before diving into revisions, let’s explain the meaning of revisions. A [revision](https://reference.aspose.com/words/java/com.aspose.words/revision/) is a change that occurs in one node of a document while a revision group, represented by the [RevisionGroup](https://reference.aspose.com/words/java/com.aspose.words/revision/group) class, is a group of sequential revisions that occur in many nodes of a document. Revision is a tool for tracking changes.
 
 Revisions are used in the tracking changes feature and within the compare documents feature, where revisions appear as a result of the comparison. So, revisions within the tracking changes feature shows by whom and what was changed.
 
@@ -33,7 +33,7 @@ Note that Microsoft Word does not allow you to view individual revisions, it onl
 
 {{% /alert %}}
 
-Aspose.Words supports different revision types, as well as in Microsoft Word, such as Insertion, Deletion, FormatChange, StyleDefinitionChange, and Moving. All revision types are represented with the [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype) enumeration.
+Aspose.Words supports different revision types, as well as in Microsoft Word, such as Insertion, Deletion, FormatChange, StyleDefinitionChange, and Moving. All revision types are represented with the [RevisionType](https://reference.aspose.com/words/java/com.aspose.words/revisiontype/) enumeration.
 
 {{% alert color="primary" %}}
 

@@ -22,7 +22,7 @@ You can also combine mail merge fields with some additional fields using the *fo
 
 ## Create a Mustache Template
 
-The first important point to clarify is that Mustache is not a templating engine. Mustache is another syntax variant which is available for any template in a [load format](https://reference.aspose.com/words/java/com.aspose.words/LoadFormat) supported by Aspose.Words. Therefore, you can create such a template both programmatically and through an interface, you just need to include certain syntax and comply with the Mustache specification.
+The first important point to clarify is that Mustache is not a templating engine. Mustache is another syntax variant which is available for any template in a [load format](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) supported by Aspose.Words. Therefore, you can create such a template both programmatically and through an interface, you just need to include certain syntax and comply with the Mustache specification.
 
 Let's suppose that you need to send the same email to 50 recipients to personalize the greeting with their corresponding first names. You could replace the recipient's first name by some placeholder as the following:
 

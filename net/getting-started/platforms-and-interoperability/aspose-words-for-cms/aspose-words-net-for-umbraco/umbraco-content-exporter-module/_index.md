@@ -1,4 +1,4 @@
-﻿---
+---
 title: Umbraco Content Exporter Module
 second_title: Aspose.Words for .NET
 articleTitle: Umbraco Content Exporter Module
@@ -11,11 +11,11 @@ url: /net/umbraco-content-exporter-module/
 
 ## Export to Word
 
-Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.
+Umbraco’s Export to Word macro allow users to export online content into a Microsoft Word document using [Aspose.Words](https://products.aspose.com/words/). This macro makes it super simple to get an offline copy of your favorite online content for editing, sharing and printing in most popular Microsoft Word formats (DOC/DOCX). It adds a simple **Export to Word** button at any desired location on the web page. Clicking the button exports the page content to a Word document and automatically downloads the file to a disk location selected by the user in just seconds.
 
 ## Export to PDF
 
-The Umbraco **Export to Pdf** macro allows users to export online content to a PDF document using [Aspose.Words](https://www.aspose.com/word-component-suite.aspx). This macro makes it very easy and simple to have an offline copy of your favorite online content for sharing and printing etc. in the popular PDF format. It adds a simple **Export to Pdf** button at any desired location on the page and clicking it exports the content of the page to a PDF document and automatically downloads the file to the location selected by the user in just couple of seconds.
+The Umbraco **Export to Pdf** macro allows users to export online content to a PDF document using [Aspose.Words](https://products.aspose.com/words/). This macro makes it very easy and simple to have an offline copy of your favorite online content for sharing and printing etc. in the popular PDF format. It adds a simple **Export to Pdf** button at any desired location on the page and clicking it exports the content of the page to a PDF document and automatically downloads the file to the location selected by the user in just couple of seconds.
 
 ## System Requirements and Supported Platforms
 
@@ -109,7 +109,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for Umbraco Modules using any of the following platforms
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_Umbraco/issues)
-- [Sourceforge](https://sourceforge.net/p/asposeumbraco/tickets/?source=navbar)
+- [Sourceforge](https://sourceforge.net/projects/asposeumbraco/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-umbraco/issues?status=new&status=open)
 
 ### Extend and Contribute

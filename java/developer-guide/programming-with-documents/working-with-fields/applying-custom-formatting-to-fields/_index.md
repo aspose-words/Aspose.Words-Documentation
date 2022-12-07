@@ -15,7 +15,7 @@ To learn more options, see the full list of properties for each field type in th
 
 ## How to Apply Custom Formatting to Field Result
 
-Aspose.Words provides API for custom formatting of field's result. You can implement [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/IFieldResultFormatter) interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal.
+Aspose.Words provides API for custom formatting of field's result. You can implement [IFieldResultFormatter](https://reference.aspose.com/words/java/com.aspose.words/ifieldresultformatter/) interface to control how the field result is formatted. You can apply numeric format switch, i.e. \# "#.##", date/time format switch, i.e. \@ "dd.MM.yyyy", and number format switch, i.e. \* Ordinal.
 
 The following code example shows how to apply custom formatting for the field result.
 
@@ -33,7 +33,7 @@ The following code example shows how to use this method:
 
 ## How to Apply Custom Formatting to Time Field
 
-By default Aspose.Words updates TIME field with current culture short time format. If you want to format the TIME field according to your requirement, you can achieve this by implementing [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/IFieldUpdateCultureProvider) interface.
+By default Aspose.Words updates TIME field with current culture short time format. If you want to format the TIME field according to your requirement, you can achieve this by implementing [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) interface.
 
 The following code examples shows how to apply custom formatting to the TIME field:
 

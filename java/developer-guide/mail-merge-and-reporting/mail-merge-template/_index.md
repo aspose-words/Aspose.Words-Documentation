@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge Template in Java
 second_title: Aspose.Words for Java
 articleTitle: Mail Merge Template
@@ -28,7 +28,7 @@ In addition, you can add a mail merge region in your template by inserting two m
 
 You can create a template and add specific merge fields to it, that will be replaced by the values from the data source either manually, for example, using Microsoft Word, or programmatically using Aspose.Words. In this article, we will look at the programmatic way of creating a template.
 
-Use the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)), [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)), and [InsertParagraph](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertParagraph()) methods.
+Use the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class to create the required merge template using Aspose.Words. You can include a text, a merge field, and a line break in such a template using the [InsertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int)), [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField(int,boolean)), and [InsertParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertParagraph()) methods.
 
 The following code example shows how to create a mail merge template:
 
@@ -44,7 +44,7 @@ Aspose.Words allows you to customize your template through many properties. Temp
 
 ### Customize Image Properties
 
-You can specify the image properties using the [ImageFieldMergingArgs](https://reference.aspose.com/words/java/com.aspose.words/ImageFieldMergingArgs) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Mail_Merge_And_Reporting/WorkingWithFields.java#L226).
+You can specify the image properties using the [ImageFieldMergingArgs](https://reference.aspose.com/words/java/com.aspose.words/imagefieldmergingargs/) class. Note that you can insert an image from a database as it is described in [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Java/blob/c693ec7a8957051c206edc69612094a4169f6def/Examples/DocsExamples/Java/src/main/java/DocsExamples/Mail_Merge_And_Reporting/WorkingWithFields.java#L226).
 
 The following code example shows how to specify the image file name and image size:
 
@@ -52,7 +52,7 @@ The following code example shows how to specify the image file name and image si
 
 ### Customize Text Properties
 
-You can use the [Text]https://reference.aspose.com/words/java/com.aspose.words/Fieldmergingargs#Text) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://reference.aspose.com/words/java/com.aspose.words/Font) and [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/ParagraphFormat) classes. You can handle the text to be inserted before or after the merge field by using the [TextBefore](https://reference.aspose.com/words/java/com.aspose.words/Fieldmergefield#TextBefore) and [TextAfter](https://reference.aspose.com/words/java/com.aspose.words/Fieldmergefield#TextAfter) properties that are included in the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/Fieldmergefield) class.
+You can use the [Text]https://reference.aspose.com/words/java/com.aspose.words/Fieldmergingargs#Text) property to insert text into the document for the current merge field. Also, you can change the formatting of texts and paragraphs inside your template using [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) and [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) classes. You can handle the text to be inserted before or after the merge field by using the [TextBefore](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/#TextBefore) and [TextAfter](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/#TextAfter) properties that are included in the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class.
 
 The following code example shows how to insert Check Boxes or HTML during mail merge operation:
 

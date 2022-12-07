@@ -1,4 +1,4 @@
-﻿---
+---
 title: Applying Formatting in Java
 second_title: Aspose.Words for Java
 articleTitle: Applying Formatting
@@ -16,7 +16,7 @@ aliases: [/java/applying-formatting-to-table-row-and-cell/]
 
 Each element of a table can be applied with different formatting. For instance, table formatting will be applied over the entire table while row formatting will only affect particular rows etc.
 
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/java/com.aspose.words/table), [RowFormat](https://reference.aspose.com/words//java/com.aspose.words/rowformat) and [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/CellFormat) nodes to set formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words//java/com.aspose.words/rowformat) and [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) nodes to set formatting.
 
 {{% /alert %}}
 
@@ -36,11 +36,11 @@ The following code example shows how to build a table with all borders enabled (
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-buildATableWithAllBordersEnabled.java" >}}
 
-Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
+Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), such formatting must be done after the first call to [DocumentBuilder.InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell()) or after adding the first row to a table or when inserting nodes directly into the DOM.
 
 ## Applying Formatting on the Row Level
 
-Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat) property of the [Row](https://reference.aspose.com/words/java/com.aspose.words/row).
+Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/row/format/) property of the [Row](https://reference.aspose.com/words/java/com.aspose.words/row/).
 
 ![apply-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell-3.png)
 
@@ -50,7 +50,7 @@ The following code example shows how to modify the formatting of a table row.
 
 ## Applying Formatting on the Cell Level
 
-Formatting on the cell level is controlled using the [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/CellFormat) property of the [Cell](https://reference.aspose.com/words/java/com.aspose.words/Cell).
+Formatting on the cell level is controlled using the [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) property of the [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/).
 
 ![apply-formatting-to-cell-level-aspose-words-java](applying-formatting-to-table-row-and-cell-4.png)
 
@@ -66,7 +66,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 ## Specifying Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://reference.aspose.com/words/java/com.aspose.words/rowformat#Height) and [RowFormat.HeightRule](https://reference.aspose.com/words/java/com.aspose.words/rowformat#HeightRule) properties of the given [Row](https://reference.aspose.com/words/java/com.aspose.words/row).
+The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://reference.aspose.com/words/java/com.aspose.words/row/format#Height) and [RowFormat.HeightRule](https://reference.aspose.com/words/java/com.aspose.words/row/format#HeightRule) properties of the given [Row](https://reference.aspose.com/words/java/com.aspose.words/row/).
 
 |HeightRule Value|Description|
 | :- | :- |

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Evaluate Aspose.Words
 second_title: Aspose.Words for JasperReports
 articleTitle: Evaluate Aspose.Words
@@ -11,7 +11,7 @@ url: /jasperreports/evaluate-aspose-words/
 
 {{% alert color="primary" %}}
 
-You can easily download Aspose.Words for JasperReports for evaluation from the [downloads page](https://downloads.aspose.com/words/jasperreports). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after applying a license.
+You can easily download Aspose.Words for JasperReports for evaluation from the [downloads page](https://releases.aspose.com/words/jasperreports/). The evaluation download is same as the purchased download. The evaluation version simply becomes licensed after applying a license.
 
 {{% /alert %}}
 
@@ -19,7 +19,7 @@ The evaluation version of Aspose.Words for JasperReports (without a license spec
 
 ## Temporary License
 
-If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license).
+If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license/).
 
 **Aspose.Words for JapserReports injects a watermark when working in evaluation mode**
 

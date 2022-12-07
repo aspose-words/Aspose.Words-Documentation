@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Word Document to PNG
 second_title: Aspose.Words for .NET
 articleTitle: Convert Word Document to PNG
@@ -11,7 +11,7 @@ url: /net/convert-word-document-to-png/
 
 {{% alert color="primary" %}}
 
-To convert a Word document to PNG, simply invoke the [Save](https://reference.aspose.com/words/net/aspose.words/document/methods/save/index) method and specify a file name with the “.PNG” extension.
+To convert a Word document to PNG, simply invoke the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) method and specify a file name with the “.PNG” extension.
 
 See more details in the ["Save a Document"](/words/net/save-a-document/) documentation section.
 

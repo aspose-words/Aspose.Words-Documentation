@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Merged Cells in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Merged Cells
@@ -39,7 +39,7 @@ Below example prints the horizontal and vertical merge type of a cell.
 
 ### Merging Cells in a Table
 
-The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to CellMerge.None.
+The same technique is used to set the merge behavior on the cells in a table. When building a table with merged cells with [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) you need to set the appropriate merge type for each cell. Also, you must remember to clear the merge setting or otherwise all cells in the table will become merged. This can be done by setting the value of the appropriate merge property to CellMerge.None.
 
 #### Example: Merging Cells Horizontally
 

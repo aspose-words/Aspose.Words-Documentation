@@ -11,7 +11,7 @@ url: /net/aspose-words-for-net-5-0-2-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for .NET 5.0.2](https://downloads.aspose.com/words/net/new-releases/aspose.words-for-.net-5.0.2/)
+This page contains release notes for [Aspose.Words for .NET 5.0.2](https://releases.aspose.com/words/net/new-releases/aspose.words-for-.net-5.0.2/)
 
 {{% /alert %}}
 

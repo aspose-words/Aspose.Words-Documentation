@@ -1,4 +1,4 @@
-﻿---
+---
 title: Encrypt a Document in C#
 second_title: Aspose.Words for .NET
 articleTitle: Encrypt a Document
@@ -19,7 +19,7 @@ To encrypt a document, use the **Password** property to provide a password that 
 
 {{% alert color="primary" %}}
 
-You can find the appropriate **Password** property for the required format. Each document save format in the [Saving Namespace](https://reference.aspose.com/words/net/aspose.words.saving) has a corresponding class containing save options for this format. For example, the [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/properties/password) property in the [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions) class for DOC, or the [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/properties/password) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
+You can find the appropriate **Password** property for the required format. Each document save format in the [Saving Namespace](https://reference.aspose.com/words/net/aspose.words.saving/) has a corresponding class containing save options for this format. For example, the [Password](https://reference.aspose.com/words/net/aspose.words.saving//docsaveoptions/properties/password) property in the [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving//docsaveoptions) class for DOC, or the [Password](https://reference.aspose.com/words/net/aspose.words.saving//ooxmlsaveoptions/properties/password) property in the [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving//ooxmlsaveoptions) class for DOCX, DOCM, DOTX, DOTM, and FlatOpc.
 
 {{% /alert %}}
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
 In some cases, you may have an unreadable document and want to be sure that the document is encrypted and not corrupted or compressed.
 
-To detect if a document is encrypted and if a password is required, you can use the [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/properties/isencrypted) property of the [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
+To detect if a document is encrypted and if a password is required, you can use the [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo//isencrypted/) property of the [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/) class. This property will also allow you to perform some action before loading a document, for example, informing a user to provide a password.
 
 The following code example shows how to detect the document encryption:
 

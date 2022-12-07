@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Builder Overview in C#
 second_title: Aspose.Words for .NET
 articleTitle: Document Builder Overview
@@ -9,7 +9,7 @@ weight: 20
 url: /net/document-builder-overview/
 ---
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) is a powerful class that associates with [Document](https://reference.aspose.com/words/net/aspose.words/document) and enables you to build dynamic documents from scratch or add new elements to an existing one.
+[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/document/builder/) is a powerful class that associates with [Document](https://reference.aspose.com/words/net/aspose.words/document/) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
 **DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
 
@@ -21,7 +21,7 @@ Operations that are possible with **DocumentBuilder** are also possible when usi
 
 ## Document Navigation
 
-Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetodocumentstart) and [MoveToField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/movetofield). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/write), [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/writeln/index), [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak), and others. See the following article "Navigation with Cursor" to learn more about the virtual cursor.
+Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetodocumentstart/) and [MoveToField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetofield/). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/), [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/ln/index), [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/), and others. See the following article "Navigation with Cursor" to learn more about the virtual cursor.
 
 The following code example shows how to navigate to a bookmark:
 
@@ -29,9 +29,9 @@ The following code example shows how to navigate to a bookmark:
 
 ## Document Building and Modifying
 
-Aspose.Words API provides several classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://reference.aspose.com/words/net/aspose.words/font) class represents character formatting properties, the [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
+Aspose.Words API provides several classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://reference.aspose.com/words/net/aspose.words/font/) class represents character formatting properties, the [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
-You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertfield/index), [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml/index), and similar methods.
+You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/#insertfield/), [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/#inserthtml/), and similar methods.
 
 Let's see how to create a simple document using the **DocumentBuilder**.
 
@@ -47,7 +47,7 @@ The following code example shows how to create a simple document using a documen
 
 ### Specify Document Formatting
 
-The [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/properties/font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://reference.aspose.com/words/net/aspose.words/font/properties/bold), [Font.Italic](https://reference.aspose.com/words/net/aspose.words/font/properties/italic), and [Font.Underline](https://reference.aspose.com/words/net/aspose.words/font/properties/underline) boolean properties.
+The [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://reference.aspose.com/words/net/aspose.words/font/bold/), [Font.Italic](https://reference.aspose.com/words/net/aspose.words/font/italic/), and [Font.Underline](https://reference.aspose.com/words/net/aspose.words/font/underline/) boolean properties.
 
 The following code example shows how to insert a formatted text using **DocumentBuilder**:
 
@@ -55,10 +55,10 @@ The following code example shows how to insert a formatted text using **Document
 
 {{% alert color="primary" %}}
 
-- [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/properties/font) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
-- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat) specifies the paragraph formatting for the current and all paragraphs to be inserted.
-- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup) specifies the page and section properties for the current section and the entire section that will be inserted.
-- [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/properties/cellformat) and [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/properties/rowformat) specify formatting properties that will be applied to table cells and rows from the current position in the document onwards.
+- [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
+- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) specifies the paragraph formatting for the current and all paragraphs to be inserted.
+- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) specifies the page and section properties for the current section and the entire section that will be inserted.
+- [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) and [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/) specify formatting properties that will be applied to table cells and rows from the current position in the document onwards.
 
 In this situation, "current" means the position, paragraph, section, cell, or row in which the cursor is.
 

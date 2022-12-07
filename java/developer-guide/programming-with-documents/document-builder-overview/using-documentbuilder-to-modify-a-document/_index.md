@@ -102,7 +102,7 @@ Both the border collection and each separate border have similar attributes like
 
 |![set-borders-shading-aspose-words-java](documentbuilder-to-modify-document-7.png)|
 | :- |
-The [Shading](https://reference.aspose.com/words/java/com.aspose.words/Shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
+The [Shading](https://reference.aspose.com/words/java/com.aspose.words/shading/) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
 The shading texture is set with a [TextureIndex](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](https://www.aspose.com/api/java/words/com.aspose.words/constants/TextureIndex) value and set the foreground shading color as appropriate.
 

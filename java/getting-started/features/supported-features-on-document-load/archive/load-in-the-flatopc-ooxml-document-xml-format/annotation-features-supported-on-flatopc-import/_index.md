@@ -71,7 +71,7 @@ All three comment nodes are related through the use of the ID properties on each
 See the following links in the documentation for further information:
 
 - [How to Extract or Remove Comments](/words/java/working-with-comments/#workingwithcomments-howtoextractorremovecomments)
-- [Comment](https://reference.aspose.com/words/java/com.aspose.words/Comment)
+- [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/)
 - [Comment.Id](https://reference.aspose.com/words/java/com.aspose.words/Comment#Id)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|

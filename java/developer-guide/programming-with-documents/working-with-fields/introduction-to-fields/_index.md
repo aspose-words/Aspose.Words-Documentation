@@ -28,7 +28,7 @@ A field consists of:
 
 ![fields-aspose-words-java](introduction-to-fields-1.png)
 
-The content which makes up the field code is stored as [Run](https://reference.aspose.com/words/java/com.aspose.words/Run) nodes between the [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/FieldStart) and [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/FieldSeparator). The field result is stored between the **FieldSeparator** and [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/FieldEnd) nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of [block level nodes](https://docs.aspose.com/words/java/logical-levels-of-nodes-in-a-document/) such as **Table** and **Paragraph** nodes as well.
+The content which makes up the field code is stored as [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) nodes between the [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/) and [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/). The field result is stored between the **FieldSeparator** and [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) nodes and can be made up of various types of content. Normally the field result contains just text made up of Run nodes, however it is possible for the FieldEnd node to be located in a completely different paragraph, and thus making the field result comprised of [block level nodes](https://docs.aspose.com/words/java/logical-levels-of-nodes-in-a-document/) such as **Table** and **Paragraph** nodes as well.
 
 Here is a view of how a field is stored in Aspose.Words by using the “*DocumentExplorer”* example which can be found on [Github](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer).
 
@@ -36,15 +36,15 @@ Here is a view of how a field is stored in Aspose.Words by using the “*Documen
 
 ## Fields in Aspose.Words Document Object Model (DOM)
 
-When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of **FieldStart**, **FieldSeparator** and **FieldEnd** nodes along with the content in between these nodes. If a field does not have a field result then there will be no **FieldSeparator** node. All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/Paragraph) or [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/SmartTag)).
+When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of **FieldStart**, **FieldSeparator** and **FieldEnd** nodes along with the content in between these nodes. If a field does not have a field result then there will be no **FieldSeparator** node. All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) or [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)).
 
-In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/FieldChar). This class provides a property to check the type of field represented by the specified node through the [FieldType](https://reference.aspose.com/words/java/com.aspose.words/FieldType) property. For example FieldType.FieldMergeField represents a merge field in the document.
+In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). This class provides a property to check the type of field represented by the specified node through the [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) property. For example FieldType.FieldMergeField represents a merge field in the document.
 
 {{% alert color="primary" %}}
 
-There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a [Shape](https://reference.aspose.com/words/java/com.aspose.words/Shape) object. This object provides properties to work with the image data normally stored in these fields. To import INCLUDEPICTURE field as **FieldXXX** nodes the [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions#PreserveIncludePictureField) option must be specified as **true**.
+There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, LINK field and INCLUDEPICTURE field are imported into Aspose.Words as a [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) object. This object provides properties to work with the image data normally stored in these fields. To import INCLUDEPICTURE field as **FieldXXX** nodes the [PreserveIncludePictureField](https://reference.aspose.com/words/java/com.aspose.words/loadoptions#PreserveIncludePictureField) option must be specified as **true**.
 
-Form fields are also imported into Aspose.Words as their own special class. The [FormField](https://reference.aspose.com/words/java/com.aspose.words/FormField) class represents a form field in a Word document and provides additional methods that are particular to a form field.
+Form fields are also imported into Aspose.Words as their own special class. The [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) class represents a form field in a Word document and provides additional methods that are particular to a form field.
 
 {{% /alert %}}
 
@@ -201,7 +201,7 @@ A field in a document can have formatting switches that specify how the resultin
 
 ### Date and Number Formatting in Fields
 
-When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/FieldOptions) class which allows further control over which culture is used during field update%
+When Aspose.Words calculates a field result, it often needs to parse a string into a number or date value and also to format it back to a string.By default Aspose.Words uses the current thread culture to perform parsing and formatting when calculating field values during field update and mail merge. There are also options provided in the form of the [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions/) class which allows further control over which culture is used during field update%
 
 * by default the [FieldUpdateCultureSource](https://reference.aspose.com/words/java/com.aspose.words/fieldoptions#FieldUpdateCultureSource) property is set to [CurrentThread](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource#CURRENT_THREAD) which formats fields using the current thread culture
 * this property can be set to [FieldCode](https://reference.aspose.com/words/java/com.aspose.words/fieldupdateculturesource#FIELD_CODE) so the language set from the field code of the field is used for formatting instead
@@ -220,7 +220,7 @@ Using the current culture to format fields allows a system to easily and consist
 
 On the other hand, Microsoft Word formats each individual field based off the language of the text found in the field (specifically, the runs from the field code). Sometimes during field update this may be the desired behavior, for example if you have globalized documents containing content made up of many different languages and would like each fields to honor the locale used from the text. Aspose.Words also supports this functionality.
 
-The [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) class provides a [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document#FieldOptions) property which contains members which can be used to control how fields are updated within the document.
+The [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) class provides a [FieldOptions](https://reference.aspose.com/words/java/com.aspose.words/document#FieldOptions) property which contains members which can be used to control how fields are updated within the document.
 
 The following code example shows how to specify where the culture used for date formatting during field update and mail merge is chosen from:
 

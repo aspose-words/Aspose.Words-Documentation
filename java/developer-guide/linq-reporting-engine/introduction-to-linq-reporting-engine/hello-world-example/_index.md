@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hello World Example in Java
 second_title: Aspose.Words for Java
 articleTitle: Hello World Example
@@ -36,4 +36,4 @@ After the source code is ran, the template document is populated with the data a
 LINQ Reporting Engine says: "Hello, World."
 {{< /highlight >}}
 
-After the report document is built, you can save it or perform any other tasks on it using [Aspose.Words API](https://reference.aspose.com/words/java/com.aspose.words/package-summary) in your code.
+After the report document is built, you can save it or perform any other tasks on it using [Aspose.Words API](https://reference.aspose.com/words/java/com.aspose.words/) in your code.

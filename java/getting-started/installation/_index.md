@@ -48,4 +48,4 @@ Aspose hosts all Java APIs in [Maven repository](https://releases.aspose.com/wor
 
 ## See Also
 
-* [Download Aspose.Words from Maven](https://downloads.aspose.com/words/java)
+* [Download Aspose.Words from Maven](https://releases.aspose.com/words/java/)

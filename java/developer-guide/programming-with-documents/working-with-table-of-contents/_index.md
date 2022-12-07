@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Table of Contents in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Table of Contents
@@ -38,7 +38,7 @@ The following code example demonstrates how to insert a Table of contents (TOC)
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertATableOfContentsUsingHeadingStyles-InsertATableOfContentsUsingHeadingStyles.java" >}}
 
-The code demonstrates the new table of contents is inserted into a blank document. The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class is then used to insert some sample content formatting with the appropriate heading styles which are used to mark the content to be included in the TOC. The next lines then populate the TOC by updating the fields and the page layout of the document.
+The code demonstrates the new table of contents is inserted into a blank document. The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class is then used to insert some sample content formatting with the appropriate heading styles which are used to mark the content to be included in the TOC. The next lines then populate the TOC by updating the fields and the page layout of the document.
 
 ![insert-table-of-contents-field-aspose-words-java](how-to-insert-and-work-with-the-table-of-contents-field-1.png)
 
@@ -103,7 +103,7 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 
 You can insert a new TC field at the current position of the DocumentBuilder by calling the DocumentBuilder.InsertField method and specifying the field name as “TC” along with any switches that are needed.
 
-The following code example shows how to insert a TC field into the document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder).
+The following code example shows how to insert a TC field into the document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertTCField-InsertTCField.java" >}}
 

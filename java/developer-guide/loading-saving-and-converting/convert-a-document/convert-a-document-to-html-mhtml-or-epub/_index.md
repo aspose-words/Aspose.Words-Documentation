@@ -75,7 +75,7 @@ The following code example shows how to export Base64-encoded fonts to HTML:
 
 ## Specify Save Options when Conversion to EPUB
 
-Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/HtmlSaveOptions) to the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
+Aspose.Words allows converting a Word document into EPUB format using default or custom save options. You can specify a number of options by passing an instance of [HtmlSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) to the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save\(java.lang.String,com.aspose.words.SaveOptions\)) method.
 
 The following code example shows how to converts a Word document to EPUB with specifying some custom save options:
 

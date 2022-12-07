@@ -13,7 +13,7 @@ PDF/A and PDF/UA formats impose a number of accessibility requirements related t
 
 Warnings are issued when saving to one of the PDF/A or PDF/UA formats and the issue violates compliance. For example, the warning about missing document title will be issued when saving to PDF/UA and will not be issued when saving to PDF/A.
 
-All warnings are of [WarningType](https://reference.aspose.com/words/java/com.aspose.words/WarningType)**.MinorFormattingLoss** and [WarningSource](https://reference.aspose.com/words/java/com.aspose.words/WarningSource)**.Pdf**. Here is a list of the new Description warning values:
+All warnings are of [WarningType](https://reference.aspose.com/words/java/com.aspose.words/warningtype/)**.MinorFormattingLoss** and [WarningSource](https://reference.aspose.com/words/java/com.aspose.words/warningsource/)**.Pdf**. Here is a list of the new Description warning values:
 
 | Description warning value                                    | PDF/A                  | PDF/UA                 |
 | ------------------------------------------------------------ | ---------------------- | ---------------------- |

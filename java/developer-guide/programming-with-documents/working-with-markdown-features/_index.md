@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Markdown Features in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Markdown Features
@@ -108,7 +108,7 @@ The following code snippet shows you how to read a markdown document.
 
 ## Specify Markdown Save Options
 
-Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/MarkdownSaveOptions) class to specify additional options while saving a document into the Markdown format.
+Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) class to specify additional options while saving a document into the Markdown format.
 
 The following code example demonstrated how to specify various Markdown save options.
 
@@ -116,6 +116,6 @@ The following code example demonstrated how to specify various Markdown save opt
 
 ## How to Align Content Inside the Table while Exporting into Markdown
 
-Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/TableContentAlignment) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
+Aspose.Words API provides [TableContentAlignment](https://reference.aspose.com/words/java/com.aspose.words/tablecontentalignment/) enumeration which defines alignment directions to align contents in tables while exporting into the Markdown document. The following code example demonstrates how to align content inside the table.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-MarkdownFeatures-WorkingWithMarkdownFeatures-ExportIntoMarkdownWithTableContentAlignment.java" >}}

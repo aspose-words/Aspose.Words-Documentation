@@ -1,4 +1,4 @@
-﻿---
+---
 title: Compare Documents in C#
 second_title: Aspose.Words for .NET
 articleTitle: Compare Documents
@@ -43,7 +43,7 @@ Note that you can compare any two documents within the [supported file formats](
 
 When you compare documents, differences of the latter document from the former show up as revisions to the former. When you modify a document, each edit will have its own revision after running the compare method.
 
-Aspose.Words allows you to identify documents differences using the [Compare](https://reference.aspose.com/words/net/aspose.words/document/methods/compare/index) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
+Aspose.Words allows you to identify documents differences using the [Compare](https://reference.aspose.com/words/net/aspose.words/document/compare/#compare/) method – this is similar to the Microsoft Word document compare feature. It allows you to check documents or document versions to find differences and changes, including formatting modifications such as font changes, spacing changes, the addition of words and paragraphs.
 
 As a result of comparison, documents can be determined as equal or not equal. The term “equal” documents means that the comparison method is not able to represent changes as revisions. This means that both document text and text formatting are the same. But there can be other differences between documents. For example, Microsoft Word supports only format revisions for styles, and you cannot represent style insertion/deletion. So documents can have a different set of styles, and the **Compare** method still produces no revisions.
 
@@ -57,13 +57,13 @@ The following code example shows how to simply apply the Compare method to two d
 
 ## Specify Advanced Comparison Options {#specify-advanced-comparing-properties}
 
-There are many different properties of the [CompareOptions](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions) class which you can apply when you want to compare documents.
+There are many different properties of the [CompareOptions](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/) class which you can apply when you want to compare documents.
 
-For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignoreheadersandfooters), [IgnoreFormatting](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignoreformatting), [IgnoreComments](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/ignorecomments), and others by setting them to "true".
+For example, Aspose.Words allows you to ignore changes made during a comparison operation for certain types of objects within the original document. You can select the appropriate property for the object type, such as [IgnoreHeadersAndFooters](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/), [IgnoreFormatting](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreformatting/), [IgnoreComments](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignorecomments/), and others by setting them to "true".
 
-In addition, Aspose.Words provides the [Granularity](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/granularity) property with which you can specify whether to track changes by character or by word.
+In addition, Aspose.Words provides the [Granularity](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/granularity/) property with which you can specify whether to track changes by character or by word.
 
-Another common property is a choice in which document to show comparison changes. For example, the “Compare documents dialogue box” in Microsoft Word has the option “Show changes in” – this also affects the comparison results. Aspose.Words provides the [Target](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/properties/target) property that serves this purpose.
+Another common property is a choice in which document to show comparison changes. For example, the “Compare documents dialogue box” in Microsoft Word has the option “Show changes in” – this also affects the comparison results. Aspose.Words provides the [Target](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/target/) property that serves this purpose.
 
 The following code example shows how to set the advanced comparing properties:
 

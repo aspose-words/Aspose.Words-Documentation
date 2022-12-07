@@ -21,7 +21,7 @@ Here are the steps to install the Inline::Java module:
 1. Install the Inline::Java module: **C:\Perl\bin> ppm install inline::Java** 
 1. Set path to your JDK: **C:\Perl\bin> set** **PERL** **_INLINE_JAVA_J2SDK=C:\Program Files\Java\jdk1.6.0_03** 
 
-Download the [latest version of Aspose.Words for Java](https://downloads.aspose.com/words/java) . Extract files and copy the lib folder with jar files to the root folder of your project. 
+Download the [latest version of Aspose.Words for Java](https://releases.aspose.com/words/java/) . Extract files and copy the lib folder with jar files to the root folder of your project. 
 
 {{% /alert %}}
 

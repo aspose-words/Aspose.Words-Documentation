@@ -124,7 +124,7 @@ Example:
 
 Header (footer) is exported as div container. –aw-different-first-page and –aw-headerfooter-type CSS properties can be applied to this div.
 
-**-aw-headerfooter-type** stores value indicating type of header (footer). This propertie’s values partially correspond to [Aspose.Words.HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/HeaderFooterType) enum (other values are meaningless in HTML context and are not used). Corresponds to [Aspose.Words.HeaderFooter.HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/headerfooter#HeaderFooterType) property.
+**-aw-headerfooter-type** stores value indicating type of header (footer). This propertie’s values partially correspond to [Aspose.Words.HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/headerfootertype/) enum (other values are meaningless in HTML context and are not used). Corresponds to [Aspose.Words.HeaderFooter.HeaderFooterType](https://reference.aspose.com/words/java/com.aspose.words/headerfooter#HeaderFooterType) property.
 
 - If value of this property is “header-primary” than this is primary header.
 - If value of this property is “header-first” than this is header for the first page of a section.
@@ -178,7 +178,7 @@ Tab stop is exported as span element. –aw-tabstop-align, -aw-tabstop-leader an
 
 **-aw-tabstop-pos** stores position of the tab stop. Corresponds to Aspose.Words.TabStop.Position property of Corresponds to [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://reference.aspose.com/words/java/com.aspose.words/Paragraphformat#TabStops) collection object.
 
-**-aw-tabstop-leader** stores stores value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of [Aspose.Words.TabLeader](https://reference.aspose.com/words/java/com.aspose.words/TabLeader) enum. Property corresponds to [Aspose.Words.TabStop.Leader](https://reference.aspose.com/words/java/com.aspose.words/tabstop#Leader) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://reference.aspose.com/words/java/com.aspose.words/Paragraphformat#TabStops) collection object.
+**-aw-tabstop-leader** stores stores value which specifies the type of the leader line displayed under the tab character. Possible values are “none”, “dots”, “dashes”, “line”, “heavy”, “middledot” and correspond to values of [Aspose.Words.TabLeader](https://reference.aspose.com/words/java/com.aspose.words/tableader/) enum. Property corresponds to [Aspose.Words.TabStop.Leader](https://reference.aspose.com/words/java/com.aspose.words/tabstop#Leader) property of [Aspose.Words.Paragraph.ParagraphFormat.TabStops](https://reference.aspose.com/words/java/com.aspose.words/Paragraphformat#TabStops) collection object.
 
 Example:
 

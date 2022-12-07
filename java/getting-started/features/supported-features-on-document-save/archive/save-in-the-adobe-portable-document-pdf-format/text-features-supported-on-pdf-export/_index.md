@@ -21,7 +21,7 @@ Text in different languages is fully supported and can be rendered to formats su
 
 See the following link in the documentation for further information:
 
-- [PdfSaveOptions.TextCompression](https://reference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
+- [PdfSaveOptions.TextCompression](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)
 
 {{% /alert %}}
 

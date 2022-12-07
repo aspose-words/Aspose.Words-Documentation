@@ -31,7 +31,7 @@ You can create and remove CustomXmlMarkup in a document. You can also access the
 
 See the following link in the documentation for further information:
 
-- [CustomXmlMarkup](https://reference.aspose.com/words/net/aspose.words.markup)
+- [CustomXmlMarkup](https://reference.aspose.com/words/net/aspose.words.markup/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
@@ -51,9 +51,9 @@ SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Wo
 
 See the following links in the documentation for further information:
 
-- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag)
-- [Document.RemoveSmartTags](https://reference.aspose.com/words/net/aspose.words/compositenode/methods/removesmarttags)
+- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)
+- [Document.RemoveSmartTags](https://reference.aspose.com/words/net/aspose.words/compositenode/removesmarttags/)
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Smart Tag Properties |Yes | |- [SmartTag.Properties](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/properties)|
+|Smart Tag Properties |Yes | |- [SmartTag.Properties](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/properties/)|

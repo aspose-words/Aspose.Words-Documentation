@@ -27,6 +27,6 @@ The following are the links to some useful resources you may need to accomplish 
 - [Aspose.Words for SharePoint Features](/words/sharepoint/features/)
 - [Aspose.Words for SharePoint Release Notes](/words/sharepoint/release-notes/)
 - [Aspose.Words for SharePoint Product Page](https://products.aspose.com/words/sharepoint/)
-- [Download Aspose.Words for SharePoint](https://downloads.aspose.com/words/sharepoint/)
+- [Download Aspose.Words for SharePoint](https://releases.aspose.com/words/sharepoint/)
 - [Aspose.Words for SharePoint Free Support Forum](https://forum.aspose.com/c/words/8)
 - [Aspose.Words for SharePoint Paid Support Helpdesk](https://helpdesk.aspose.com/)

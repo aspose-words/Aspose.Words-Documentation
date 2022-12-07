@@ -9,11 +9,11 @@ weight: 10
 url: /java/use-documentbuilder-to-insert-document-elements/
 ---
 
-The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) is used to modify documents. This article explains and describes how to perform a number of tasks.
+The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) is used to modify documents. This article explains and describes how to perform a number of tasks.
 
 ## Inserting a String of Text
 
-Simply pass the string of text you need to insert into the document to the [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#write(java.lang.String)) method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) properties to allow you to access them directly. These are Boolean properties [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/Font#Bold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/Font#Italic), and [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/Font#Underline).
+Simply pass the string of text you need to insert into the document to the [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)) method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) properties to allow you to access them directly. These are Boolean properties [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/Font#Bold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/Font#Italic), and [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/Font#Underline).
 
 {{% alert color="primary" %}}
 
@@ -51,11 +51,11 @@ Calling DocumentBuilder.startTable is the first step in building a table. It can
 
 ### Inserting a Cell
 
-After you call DocumentBuilder.insertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.insertCell again. Use the DocumentBuilder.getCellFormat property to specify cell formatting. It returns a [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/CellFormat) object that represents all formatting for a table cell.
+After you call DocumentBuilder.insertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.insertCell again. Use the DocumentBuilder.getCellFormat property to specify cell formatting. It returns a [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) object that represents all formatting for a table cell.
 
 ### Ending a Row
 
-Call DocumentBuilder.endRow to finish the current row. If you call DocumentBuilder.insertCell immediately after that, then the table continues on a new row. Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/RowFormat) object that represents all formatting for a table row.
+Call DocumentBuilder.endRow to finish the current row. If you call DocumentBuilder.insertCell immediately after that, then the table continues on a new row. Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) object that represents all formatting for a table row.
 
 ### Ending a Table
 
@@ -85,7 +85,7 @@ For each of the DocumentBuilder.insertImage methods, there are further overloads
 - Inline or floating at a specific position
 - Percentage scale or custom size
 
-Furthermore, the DocumentBuilder.insertImage method returns a [Shape](https://reference.aspose.com/words/java/com.aspose.words/Shape) object that was just created and inserted so you can further modify properties of the Shape.
+Furthermore, the DocumentBuilder.insertImage method returns a [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) object that was just created and inserted so you can further modify properties of the Shape.
 
 ### Inserting an Inline Image
 

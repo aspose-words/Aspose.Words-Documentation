@@ -11,7 +11,7 @@ url: /jasperreports/aspose-words-for-jasperreports-22-8-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes of [Aspose.Words for JasperReports 22.8](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-22.8/).
+This page contains release notes of [Aspose.Words for JasperReports 22.8](https://releases.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-22.8/).
 
 {{% /alert %}}
 

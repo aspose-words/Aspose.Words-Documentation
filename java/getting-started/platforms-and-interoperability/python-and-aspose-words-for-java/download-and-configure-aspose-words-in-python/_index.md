@@ -1,4 +1,4 @@
-﻿---
+---
 title: Download and Configure Aspose.Words in Python
 second_title: Aspose.Words for Java
 articleTitle: Download and Configure Aspose.Words in Python
@@ -13,7 +13,7 @@ url: /java/download-and-configure-aspose-words-in-python/
 
 Download required libraries mentioned below. These are the required for executing Aspose.Words Java for Python examples.
 
-- **Aspose:** [Aspose.Words for Java Component](https://downloads.aspose.com/words/java)
+- **Aspose:** [Aspose.Words for Java Component](https://releases.aspose.com/words/java/)
 - [JPype](https://pypi.org/project/JPype1/)
 
 ## Download Examples from Social Coding Sites

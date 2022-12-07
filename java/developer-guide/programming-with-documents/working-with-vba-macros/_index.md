@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with VBA Macros in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with VBA Macros
@@ -11,9 +11,9 @@ url: /java/working-with-vba-macros/
 
 Visual Basic for Applications (VBA) for Microsoft Word is a simple but powerful programming language that can be used to extend the functionality. Aspose.Words API provides three classes to get access to the VBA project source code:
 
-- The [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject) class provides access to the VBA project information
-- The [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/VbaModuleCollection) class returns the collection of VBA project modules
-- The [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/VbaModule) class provides access to the VBA project module
+- The [VBAProject](https://reference.aspose.com/words/java/com.aspose.words/vbaproject/) class provides access to the VBA project information
+- The [VBAModulesCollection](https://reference.aspose.com/words/java/com.aspose.words/vbamodulecollection/) class returns the collection of VBA project modules
+- The [VbaModule](https://reference.aspose.com/words/java/com.aspose.words/vbamodule/) class provides access to the VBA project module
 
 ## Creating a VBA Project
 

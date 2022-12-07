@@ -1,4 +1,4 @@
-﻿---
+---
 title: Restrict Document Editing in Java
 second_title: Aspose.Words for Java
 articleTitle: Restrict Document Editing
@@ -17,7 +17,7 @@ This article explains how to use Aspose.Words to select a restriction type, how 
 
 ## Select Editing Restriction Type
 
-Aspose.Words allows you to control the way you restrict the content using the [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/ProtectionType) enumeration parameter. This will enable you to select an exact type of protection such as the following:
+Aspose.Words allows you to control the way you restrict the content using the [ProtectionType](https://reference.aspose.com/words/java/com.aspose.words/protectiontype/) enumeration parameter. This will enable you to select an exact type of protection such as the following:
 
 * AllowOnlyComments
 * AllowOnlyFormFields

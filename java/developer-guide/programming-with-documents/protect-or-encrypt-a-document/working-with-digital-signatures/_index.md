@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Digital Signatures in Java
 second_title: Aspose.Words for Java
 articleTitle: Work with Digital Signatures
@@ -11,7 +11,7 @@ url: /java/working-with-digital-signatures/
 
 A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.
 
-Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/DigitalSignatureUtil) class to work with digital signatures.
+Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/) class to work with digital signatures.
 
 This article explains how to do all of the above to validate the authenticity and integrity of a digital document.
 
@@ -78,13 +78,13 @@ Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
-Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder#create(byte[],java.lang.String)) method within the [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/CertificateHolder) class.
+Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://reference.aspose.com/words/java/com.aspose.words/certificateholder#create(byte[],java.lang.String)) method within the [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) class.
 
 The next sections explain how to add a digital signature, signature line, and how to sign a generated PDF document.
 
 ### Sign a Document
 
-Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil#sign(java.io.InputStream,java.io.OutputStream,com.aspose.words.CertificateHolder)) method and [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/SignOptions) properties.
+Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil#sign(java.io.InputStream,java.io.OutputStream,com.aspose.words.CertificateHolder)) method and [SignOptions](https://reference.aspose.com/words/java/com.aspose.words/signoptions/) properties.
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
@@ -121,7 +121,7 @@ try (FileInputStream stream = new FileInputStream(getArtifactsDir()+"DigitalSign
 
 ### Add a Signature Line
 
-A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertSignatureLine(com.aspose.words.SignatureLineOptions)) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/SignatureLineOptions) class.
+A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertSignatureLine(com.aspose.words.SignatureLineOptions)) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://reference.aspose.com/words/java/com.aspose.words/signaturelineoptions/) class.
 
 For example, the picture below shows how valid and invalid signatures can be displayed.
 
@@ -195,7 +195,7 @@ Assert.assertEquals(DigitalSignatureType.XML_DSIG, signatures.get(0).getSignatur
 
 ### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
-Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/PdfDigitalSignatureDetails) properties.
+Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://reference.aspose.com/words/java/com.aspose.words/pdfdigitalsignaturedetails/) properties.
 
 The following code example shows how to sign a generated PDF:
 

@@ -21,7 +21,7 @@ Paragraphs with Heading styles can be exported to PDF so they appear in the docu
 
 See the following link in the documentation for further information:
 
-- [PdfSaveOptions.HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/PdfSaveOptions)
+- [PdfSaveOptions.HeadingsOutlineLevels](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/)
 
 {{% /alert %}}
 

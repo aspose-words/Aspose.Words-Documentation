@@ -1,4 +1,4 @@
-﻿---
+---
 title: Clean Up a Document in Java
 second_title: Aspose.Words for Java
 articleTitle: Clean Up a Document
@@ -13,7 +13,7 @@ Sometimes you may need to remove unused or duplicate information to reduce the s
 
 While you can find and remove unused data, such as styles or lists, or duplicate information manually, it will be much more convenient to do this using features and capabilities provided by Aspose.Words.
 
-The [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/CleanupOptions) class allows you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://reference.aspose.com/words/java/com.aspose.words/Document#cleanup()) method.
+The [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/) class allows you to specify options for document cleaning. To remove duplicate styles or just unused styles or lists from the document, you can use the [Cleanup](https://reference.aspose.com/words/java/com.aspose.words/Document#cleanup()) method.
 
 ## Remove Unused Information from a Document
 

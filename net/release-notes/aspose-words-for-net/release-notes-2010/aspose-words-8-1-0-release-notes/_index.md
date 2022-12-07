@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words 8.1.0 Release Notes
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words 8.1.0 Release Notes
@@ -11,7 +11,7 @@ url: /net/aspose-words-8-1-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words 8.1.0](https://downloads.aspose.com/words/net/new-releases/aspose.words-8.1.0/)
+This page contains release notes for [Aspose.Words 8.1.0](https://releases.aspose.com/words/net/new-releases/aspose.words-8.1.0/)
 
 {{% /alert %}}
 

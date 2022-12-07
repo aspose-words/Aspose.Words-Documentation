@@ -1,4 +1,4 @@
-﻿---
+---
 title: Advanced Mail Merge Features in Java
 second_title: Aspose.Words for Java
 articleTitle: Advanced Mail Merge Features
@@ -26,11 +26,11 @@ Take a look at some mail merge rules that you can implement.
 
 ### Implement Next field to Merge Data Records in Current Document
 
-You can implement the [Next](https://reference.aspose.com/words/java/com.aspose.words/FieldNext) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display multiple records in one document.
+You can implement the [Next](https://reference.aspose.com/words/java/com.aspose.words/fieldnext/) field to merge the next data record into the current resulting merged document, instead of starting a new merged document. It is used to display multiple records in one document.
 
 ### Implement NextIf and SkipIf Fields to Compare Two Expressions
 
-You can use either [NextIf](https://reference.aspose.com/words/java/com.aspose.words/FieldNextIf) field or [SkipIf](https://reference.aspose.com/words/java/com.aspose.words/FieldSkipIf) field if you want to compare two expressions ([right](https://reference.aspose.com/words/java/com.aspose.words/Fieldif#RightExpression) and [left](https://reference.aspose.com/words/java/com.aspose.words/Fieldif#LeftExpression) expressions) by some [operator](https://reference.aspose.com/words/java/com.aspose.words/Fieldskipif#ComparisonOperator).
+You can use either [NextIf](https://reference.aspose.com/words/java/com.aspose.words/fieldnextif/) field or [SkipIf](https://reference.aspose.com/words/java/com.aspose.words/fieldskipif/) field if you want to compare two expressions ([right](https://reference.aspose.com/words/java/com.aspose.words/Fieldif#RightExpression) and [left](https://reference.aspose.com/words/java/com.aspose.words/Fieldif#LeftExpression) expressions) by some [operator](https://reference.aspose.com/words/java/com.aspose.words/Fieldskipif#ComparisonOperator).
 
 **NextIf** field has the same functionality as **Next** field, but it skips to the next row only if the condition is met. You can add **SkipIf** field to your template to exclude records that meet a certain criterion from a mail merge. The following table shows the main difference between NextIf and SkipIf:
 
@@ -49,7 +49,7 @@ Aspose.Words allows you to gather different information in your template through
 
 ### Get Merge Field Names
 
-You can come across a scenario where you will want to merge data with merge fields that are created by others, and in this case, you will not be sure about the exact names of merge fields. So, to achieve the mail merge purpose, first, you will need to read and display the names of all merge fields. Aspose.Words allows you to get a collection of merge field names using the [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/methods/getfieldnames) method.
+You can come across a scenario where you will want to merge data with merge fields that are created by others, and in this case, you will not be sure about the exact names of merge fields. So, to achieve the mail merge purpose, first, you will need to read and display the names of all merge fields. Aspose.Words allows you to get a collection of merge field names using the [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) method.
 
 The following code example shows how to get names of all merge fields in the template:
 
@@ -57,7 +57,7 @@ The following code example shows how to get names of all merge fields in the tem
 
 ### Get Information About Merge Regions
 
-You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#getRegionsHierarchy()) method. You can use the properties and methods of the [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/MailMergeRegionInfo) class.The following code example shows how to get merge regions hierarchy:
+You may have a scenario where you want to understand how your template is structured through the specified merge regions. You can use some methods to gather all necessary information about merge regions or to get the merge regions hierarchy in your template, such as the [GetRegionsHierarchy](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#getRegionsHierarchy()) method. You can use the properties and methods of the [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/) class.The following code example shows how to get merge regions hierarchy:
 
 **Java**
 {{< highlight java >}}

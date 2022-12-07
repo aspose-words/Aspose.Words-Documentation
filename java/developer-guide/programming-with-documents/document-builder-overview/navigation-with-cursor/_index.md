@@ -1,4 +1,4 @@
-﻿---
+---
 title: Navigation with Cursor in Java
 second_title: Aspose.Words for Java
 articleTitle: Navigation with Cursor
@@ -19,7 +19,7 @@ This article explains how to move around in a document and navigate with a virtu
 
 Before starting the process of navigating through your document, you will need to get the node that is currently selected. You can get the exact position of the cursor at a selected node by using the [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CurrentNode) property. In addition, instead of getting the current node, you can get the currently selected paragraph or the currently selected section by using the [CurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CurrentParagraph) and [CurrentSection](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CurrentSection) properties.
 
-Any insert operations you perform using the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) will be inserted before the [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CurrentNode). When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, the **CurrentNode** returns null.
+Any insert operations you perform using the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) will be inserted before the [CurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#CurrentNode). When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, the **CurrentNode** returns null.
 
 ## Navigating Methods in a Document
 

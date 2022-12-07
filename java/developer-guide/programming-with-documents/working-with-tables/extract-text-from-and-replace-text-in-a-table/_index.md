@@ -11,7 +11,7 @@ url: /java/extract-text-from-and-replace-text-in-a-table/
 
 ## Extract Plain Text from a Table
 
-A Table like any other node in Aspose.Words has access to a [Range](https://reference.aspose.com/words/java/com.aspose.words/range) object. Using this object, you can call methods over the entire table range to extract the table as plain text. The [Range.getText()](https://reference.aspose.com/words/java/com.aspose.words/range#Text) property is used for this purpose. 
+A Table like any other node in Aspose.Words has access to a [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) object. Using this object, you can call methods over the entire table range to extract the table as plain text. The [Range.getText()](https://reference.aspose.com/words/java/com.aspose.words/range/#Text) property is used for this purpose. 
 
 The following code example shows how to print the text range of a table.
 

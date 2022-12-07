@@ -23,8 +23,8 @@ When Aspose.Words reads a Word document into memory, it creates objects of diffe
 
 The document tree in Aspose.Words follows the Composite Design Pattern:
 
-- All node classes ultimately derive from the [Node](https://reference.aspose.com/words/java/com.aspose.words/node) class, which is the base class in the Aspose.Words Document Object Model.
-- Nodes that can contain other nodes, for example, **Section** or **Paragraph**, derive from the [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode) class, which in turn derives from the **Node** class.
+- All node classes ultimately derive from the [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) class, which is the base class in the Aspose.Words Document Object Model.
+- Nodes that can contain other nodes, for example, **Section** or **Paragraph**, derive from the [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) class, which in turn derives from the **Node** class.
 
 The diagram provided below shows inheritance between node classes of the Aspose.Words Document Object Model (DOM). The names of abstract classes are in Italics.
 
@@ -32,7 +32,7 @@ The diagram provided below shows inheritance between node classes of the Aspose.
 
 {{% alert color="primary" %}}
 
-The Aspose.Words DOM also contains the non-node classes, such as [Style](https://reference.aspose.com/words/java/com.aspose.words/Style) or [Font](https://reference.aspose.com/words/java/com.aspose.words/Font), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the Node class.
+The Aspose.Words DOM also contains the non-node classes, such as [Style](https://reference.aspose.com/words/java/com.aspose.words/style/) or [Font](https://reference.aspose.com/words/java/com.aspose.words/font/), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the Node class.
 
 {{% /alert %}}
 
@@ -44,11 +44,11 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 <img src="document-example-dom.png" alt="document-example-dom" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/Document), [Section](https://reference.aspose.com/words/java/com.aspose.words/section), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/Paragraph), [Table](https://reference.aspose.com/words/java/com.aspose.words/Table), [Shape](https://reference.aspose.com/words/java/com.aspose.words/Shape), [Run](https://reference.aspose.com/words/java/com.aspose.words/Run), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
 ### Get a Node Type {#get-a-node-type}
 
-Although the [Node](https://reference.aspose.com/words/java/com.aspose.words/node) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
+Although the [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/type) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
 The type of each node can be obtained using the [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node#NodeType) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
 
@@ -76,9 +76,9 @@ The nodes in the tree have relationships between them:
 
 - A node containing another node is a *parent.*
 - The node contained in the parent node is a *child.* Child nodes of the same parent are *sibling* nodes.
-- The *root* node is always the [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) node.
+- The *root* node is always the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) node.
 
-The nodes that can contain other nodes derive from the [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode) class, and all nodes ultimately derive from the [Node](https://reference.aspose.com/words/java/com.aspose.words/node) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
+The nodes that can contain other nodes derive from the [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) class, and all nodes ultimately derive from the [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) class. These two base classes provide common methods and properties for the tree structure navigation and modification.
 
 The following UML object diagram shows several nodes of the sample document and their relations to each other via the parent, child, and sibling properties:
 
@@ -94,7 +94,7 @@ The [Node.Document](https://reference.aspose.com/words/java/com.aspose.words/nod
 
 {{% /alert %}}
 
-When creating a new paragraph using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#Document) property.
+When creating a new paragraph using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#Document) property.
 
 The following code example shows that when creating any node, a document that will own the node is always defined:
 
@@ -114,7 +114,7 @@ You can remove a node from its parent by calling the [Remove](https://reference.
 
 #### Child Nodes
 
-The most efficient way to access child nodes of a [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode) is via the [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode#FirstChild) and [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode#LastChild) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
+The most efficient way to access child nodes of a [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) is via the [FirstChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#FirstChild) and [LastChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#LastChild) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
 
 **CompositeNode** also provides the [ChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode#ChildNodes) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
 

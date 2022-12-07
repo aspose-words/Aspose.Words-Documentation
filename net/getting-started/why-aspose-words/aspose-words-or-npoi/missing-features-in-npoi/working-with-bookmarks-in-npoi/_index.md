@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Bookmarks
 second_title: Aspose.Words for .NET
 articleTitle: Work with Bookmarks
@@ -15,7 +15,7 @@ See more details in the ["Working with Bookmarks"](/words/net/working-with-book
 
 {{% /alert %}}
 
-Use the [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/startbookmark) and [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/endbookmark) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods.
+Use the [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) and [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/) to create a bookmark by marking its start and end, respectively. Do not forget to pass the same bookmark name to both methods.
 
 Bookmarks in a document can overlap and span any range. Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 

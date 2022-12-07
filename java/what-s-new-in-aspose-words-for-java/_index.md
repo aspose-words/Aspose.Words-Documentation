@@ -35,18 +35,18 @@ The ability to cache header/footer shapes to reduce the size of the output PDF f
 
 #### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
 
-The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions#AutoNumberingDetection) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/TxtLoadOptions) class.
+The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions#AutoNumberingDetection) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) class.
 
 ### Search and Compare <sup>22.10</sup>
 
-The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag) upon find and replace options has been implemented by adding a new [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) property to the [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/FindReplaceOptions) class.
+The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) upon find and replace options has been implemented by adding a new [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/#getIgnoreStructuredDocumentTags--) property to the [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) class.
 
 ### Other
 
 - A new feature to get FieldEQ as an OfficeMath has been added. <sup>22.9</sup>
 - The creation of structured document tags of Group type at the Row level was allowed. <sup>22.9</sup>
 - OLE objects and controls are now treated as metafile images when converting a document to HTML. <sup>22.10</sup>
-- A new feature to check that a particular list was created from the same template as the compared list has been added by introducing a new [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) method into the [List](https://reference.aspose.com/words/java/com.aspose.words/List) class. <sup>22.10</sup>
+- A new feature to check that a particular list was created from the same template as the compared list has been added by introducing a new [HasSameTemplate](https://reference.aspose.com/words/java/com.aspose.words/list/#hasSameTemplate-com.aspose.words.List-) method into the [List](https://reference.aspose.com/words/java/com.aspose.words/list/) class. <sup>22.10</sup>
 - The ability to create new structured document tags of the [Citation](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) type has been added. <sup>22.11</sup>
 - The ability to track the field updating progress has been provided. <sup>22.11</sup>
 - A new **EmbedAttachments** property that allows users to embed OLE attachments from a source document into the output PDF document has been introduced. <sup>22.11</sup>
@@ -75,14 +75,14 @@ The API is enhanced for more flexible and convenient development.
 
 ### Supported Formats
 
-* Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/LoadFormat) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/java/com.aspose.words/SaveFormat). <sup>22.5</sup>
+* Support for loading EPUB and XML documents has been introduced by adding new values to the [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) enumeration. Starting from version 22.5, it is possible to load EPUB and XML documents into Aspose.Words document model and convert them to any [supported formats](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22.5</sup>
 * Starting from version 22.8, it is possible to save a document in AZW3 format – Amazon Kindle's proprietary e-book file format (KF8 is another name for the format). Now you can not only load AZW3 documents, but also export your files to AZW3 format, which is essentially a compiled EPUB. <sup>22.8</sup>
 
 ### Rendering and Printing
 
 #### New Priting Size <sup>22.5</sup>
 
-Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/PaperSize) enumeration.
+Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/java/com.aspose.words/papersize/) enumeration.
 
 #### Rendering MathML Formulas <sup>22.5</sup>
 
@@ -122,7 +122,7 @@ The ability to load and convert PDF documents to fixed page formats with high fi
 
 #### New HTML Import Mode <sup>22.7</sup>
 
-A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/HtmlInsertOptions) enumeration.
+A new HTML import mode for block-level elements has been introduced by adding a new value to the [HtmlInsertOptions](https://reference.aspose.com/words/java/com.aspose.words/htmlinsertoptions/) enumeration.
 
 #### Convert to PDF/UA-1 CSSompliant with WCAG 2.0 <sup>22.7</sup>
 
@@ -176,7 +176,7 @@ Loading a document in AZW3 format (KF8 is another name for the format) has been 
 
 #### Rendering to PDF with PDF/UA-1 Compliance
 
-Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/PdfCompliance) enumeration – **PDF_UA_1**. This option assumes compliance with special requirements for document accessibility.
+Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration – **PDF_UA_1**. This option assumes compliance with special requirements for document accessibility.
 
 #### Rendering MathML Formulas
 
@@ -192,7 +192,7 @@ The following improvements have been made to the DML charts:
 
 #### Rendering to PDF with PDF/A-4 Compliance
 
-Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/PdfCompliance) enumeration – PDF_A_4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
+Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration – PDF_A_4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
 
 #### Reading of Photoshop metadata resolution in JPEG
 
@@ -222,7 +222,7 @@ List numbering export to PDF logical structure has been implemented.
 
 #### Saving to PDF 2.0 and Improvements in PDF Output
 
-The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/PdfCompliance) enumeration, as well as several other requested improvements to PDF output, have been introduced.
+The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration, as well as several other requested improvements to PDF output, have been introduced.
 
 #### New HTML Import Mode
 
@@ -271,7 +271,7 @@ New public methods and properties to work with gradient fills and gradient stops
 
 #### Attachment Pane in Output PDF Documents
 
-A new option [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/PdfPageMode) has been implemented to display the attachment pane in output PDF documents.
+A new option [UseAttachments](https://reference.aspose.com/words/java/com.aspose.words/pdfpagemode/) has been implemented to display the attachment pane in output PDF documents.
 
 #### Allow Latin Text to Wrap in the Middle of a Word
 
@@ -289,15 +289,15 @@ A simple way to save images as Base64 string into Markdown format has been provi
 
 ### Mail Merge and Reporting
 
-The ability to get [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo#ParentRegion) through [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/MailMergeRegionInfo), which made our MailMerge engine more tunable, has been added.
+The ability to get [ParentRegion](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo#ParentRegion) through [MailMergeRegionInfo](https://reference.aspose.com/words/java/com.aspose.words/mailmergeregioninfo/), which made our MailMerge engine more tunable, has been added.
 
 ### Other
 
-- An ability to get the [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel#CustomNumberStyleFormat) property of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/ListLevel) object has been added.
-- A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/ListLevel) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel#getEffectiveValue(int,int,java.lang.String)) method has been added.
+- An ability to get the [CustomNumberStyleFormat](https://reference.aspose.com/words/java/com.aspose.words/listlevel#CustomNumberStyleFormat) property of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) object has been added.
+- A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel#getEffectiveValue(int,int,java.lang.String)) method has been added.
 - An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
-- A new class [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/ChmLoadOptions) has been added to get more control over CHM loading.
-- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTagRangeStart) classes.
+- A new class [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) has been added to get more control over CHM loading.
+- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/RangeStart) classes.
 - Recognition of non-standard footnotes in PDF documents on import has been added.
 
 {{% alert color="primary" %}}
@@ -332,11 +332,11 @@ An ability to set fill and stroke formatting for chart series, data points, and 
 
 #### Control the Fill Texture of Any Object
 
-A new public method [PresetTextured](https://reference.aspose.com/words/java/com.aspose.words/fill#PresetTexture) has been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/Fill) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
+A new public method [PresetTextured](https://reference.aspose.com/words/java/com.aspose.words/fill#PresetTexture) has been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
 
 #### Rendering of OOXML Ink
 
-Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#ImlRenderingMode) and a new enumeration [ImlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/ImlRenderingMode) have been added to control the mode of Ink rendering.
+Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#ImlRenderingMode) and a new enumeration [ImlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/imlrenderingmode/) have been added to control the mode of Ink rendering.
 
 Prior to this version, Aspose.Words could only render fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple pre-rendered image was used instead. And now OOXML Ink content part can be rendered directly.
 
@@ -346,11 +346,11 @@ A new public property [MaxCharactersPerLine](https://reference.aspose.com/words/
 
 #### Rendering to PDF/A-2
 
-Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/PdfCompliance) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
+Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
 
 #### Work with Patterns
 
-A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/java/com.aspose.words/fill#patterned(int)) method with two overloads and the [Pattern](https://reference.aspose.com/words/java/com.aspose.words/fill#Pattern) property have been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/Fill) class and the [PatternType](https://reference.aspose.com/words/java/com.aspose.words/PatternType) enumeration has been added to the Constants.
+A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/java/com.aspose.words/fill#patterned(int)) method with two overloads and the [Pattern](https://reference.aspose.com/words/java/com.aspose.words/fill#Pattern) property have been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) class and the [PatternType](https://reference.aspose.com/words/java/com.aspose.words/patterntype/) enumeration has been added to the Constants.
 
 #### Insert GIF into the Document Model
 
@@ -407,11 +407,11 @@ A new public API, allowing to manipulate themed properties of Font objects, has 
 
 #### Setting Fill Formatting of Text
 
-Font API has been extended with the [Fill](https://reference.aspose.com/words/java/com.aspose.words/Fill) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
+Font API has been extended with the [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
 
 #### Convert Any Fill to Solid
 
-A new method [Solid](https://reference.aspose.com/words/java/com.aspose.words/fill#solid()) has been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/Fill) class for processing solid fills.
+A new method [Solid](https://reference.aspose.com/words/java/com.aspose.words/fill#solid()) has been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) class for processing solid fills.
 
 #### Support for Advanced Typography
 
@@ -421,7 +421,7 @@ Support for advanced typography when saving to image formats with GDI+ or SkiaSh
 
 #### Markdown Document Export
 
-A new public property [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/IImageSavingCallback) has been added to control how images are saved upon converting to Markdown format.
+A new public property [ImageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/iimagesavingcallback/) has been added to control how images are saved upon converting to Markdown format.
 
 #### HTML Document Import
 
@@ -429,7 +429,7 @@ A new public property [IgnoreNoscriptElements](https://reference.aspose.com/word
 
 #### Clean Up Unused Information from a Document
 
-A new public property [UnusedBuiltinStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions#UnusedBuiltinStyles) has been added to the [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/CleanupOptions) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
+A new public property [UnusedBuiltinStyles](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions#UnusedBuiltinStyles) has been added to the [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/cleanupoptions/) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
 
 ### Reporting
 
@@ -437,17 +437,17 @@ New extension methods **Select** and **SelectMany** have been added for the LINQ
 
 ### Search and Compare
 
-A new public property [SmartParagraphBreakReplacement](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions#SmartParagraphBreakReplacement) has been added to the [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/FindReplaceOptions) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
+A new public property [SmartParagraphBreakReplacement](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions#SmartParagraphBreakReplacement) has been added to the [FindReplaceOptions](https://reference.aspose.com/words/java/com.aspose.words/findreplaceoptions/) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
 
 ### Other
 
-* New public methods [StartColumnBookmark](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startColumnBookmark(java.lang.String)) and [EndColumnBookmark](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endColumnBookmark(java.lang.String)) have been introduced in the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
+* New public methods [StartColumnBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startColumnBookmark(java.lang.String)) and [EndColumnBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endColumnBookmark(java.lang.String)) have been introduced in the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
 * A new public option [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateCreatedTimeProperty) has been added to update the [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#CreatedTime) property of a document upon saving.
-* A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://reference.aspose.com/words/java/com.aspose.words/SdtType) structured document tag is updated from custom XML.
+* A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://reference.aspose.com/words/java/com.aspose.words/sdttype/) structured document tag is updated from custom XML.
 * A new public method **OpenIStream** has been added to the **ComHelper** class to load documents from IStream objects in COM applications.
-* A new public method [ClearQuickStyleGallery](https://reference.aspose.com/words/java/com.aspose.words/Stylecollection#clearQuickStyleGallery()) has been added to the [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/StyleCollection) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
-* An ability to work with child nodes of the [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag) range has been added. New behavior follows the [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/CompositeNode) pattern and returns a live collection.
-* The ability to create instances of the [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTagRangeStart) and [StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTagRangeEnd) classes manually has been added.
+* A new public method [ClearQuickStyleGallery](https://reference.aspose.com/words/java/com.aspose.words/Stylecollection#clearQuickStyleGallery()) has been added to the [StyleCollection](https://reference.aspose.com/words/java/com.aspose.words/stylecollection/) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
+* An ability to work with child nodes of the [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) range has been added. New behavior follows the [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) pattern and returns a live collection.
+* The ability to create instances of the [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) and [StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangeend/) classes manually has been added.
 
 {{% alert color="primary" %}}
 

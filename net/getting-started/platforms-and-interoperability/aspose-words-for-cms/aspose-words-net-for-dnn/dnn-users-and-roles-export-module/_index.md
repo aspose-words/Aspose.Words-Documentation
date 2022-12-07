@@ -89,7 +89,7 @@ This is why we offer free support. Anyone who uses our product, whether they hav
 You can log any issues or suggestions related to Aspose.Words .NET for DNN Modules using any of the following platforms
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_DNN/issues)
-- [Sourceforge](https://sourceforge.net/p/asposednn/tickets/)
+- [Sourceforge](https://sourceforge.net/projects/asposednn/)
 - [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-dnn/issues?status=new&status=open)
 
 ### Extend and Contribute
@@ -109,7 +109,7 @@ You can get the latest source code from one of the following locations
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](https://www.aspose.com/docs/display/totalnet/1.2.1+Downloading)
+- [DNN Development Template](https://docs.aspose.com/total/net/)
 
 Please follow these simple steps to get started
 

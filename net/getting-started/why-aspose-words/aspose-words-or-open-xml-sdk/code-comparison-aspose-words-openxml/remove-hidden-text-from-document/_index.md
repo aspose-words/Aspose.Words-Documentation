@@ -1,4 +1,4 @@
-﻿---
+---
 title: Remove Hidden Text from Document
 second_title: Aspose.Words for .NET
 articleTitle: Remove Hidden Text from Document
@@ -17,7 +17,7 @@ On this page we will look at how to remove hidden text from a document using Asp
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, use the [ParagraphBreakFont](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/paragraphbreakfont) and the [Hidden](https://reference.aspose.com/words/net/aspose.words/font/properties/hidden) properties to find all hidden text.
+In Aspose.Words, use the [ParagraphBreakFont](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphbreakfont/) and the [Hidden](https://reference.aspose.com/words/net/aspose.words/font/hidden/) properties to find all hidden text.
 
 The following code example shows how to remove hidden text from a Word Document:
 

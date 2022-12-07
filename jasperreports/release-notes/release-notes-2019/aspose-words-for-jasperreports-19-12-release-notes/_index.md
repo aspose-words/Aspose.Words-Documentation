@@ -11,7 +11,7 @@ url: /jasperreports/aspose-words-for-jasperreports-19-12-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes of [Aspose.Words for JasperReports 19.12](https://downloads.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-19.12/).
+This page contains release notes of [Aspose.Words for JasperReports 19.12](https://releases.aspose.com/words/jasperreports/new-releases/aspose.words-for-jasperreports-19.12/).
 
 {{% /alert %}}
 

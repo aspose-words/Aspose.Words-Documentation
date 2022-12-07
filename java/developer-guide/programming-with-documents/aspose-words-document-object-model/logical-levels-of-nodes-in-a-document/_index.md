@@ -1,4 +1,4 @@
-﻿---
+---
 title: Logical Levels of Nodes in a Document in Java
 second_title: Aspose.Words for Java
 articleTitle: Logical Levels of Nodes in a Document
@@ -17,19 +17,19 @@ The following sections describe the logical levels of nodes in Aspose.Words and 
 
 ## Document and Section Logical Level
 
-A Word document consists of one or more sections, represented by the [Section](https://reference.aspose.com/words/java/com.aspose.words/section) class and separated by section breaks. A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
+A Word document consists of one or more sections, represented by the [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) class and separated by section breaks. A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
 
-[Document](https://reference.aspose.com/words/java/com.aspose.words/Document) and [Section](https://www.aspose.com/api/words/java/com.aspose.words/section) level nodes have the structure as shown in the following diagram.
+[Document](https://reference.aspose.com/words/java/com.aspose.words/document/) and [Section](https://www.aspose.com/api/words/java/com.aspose.words/section) level nodes have the structure as shown in the following diagram.
 
 <img src="document-and-section-level.png" alt="document-and-section-level-aspose-words-java" style="width:700px"/>
 
 A section contains the main text, as well as headers and footers for the first, even, and odd pages. These different “flows” of text are called *stories*.
 
-In Aspose.Words, the **Section** node contains the [Body](https://reference.aspose.com/words/java/com.aspose.words/body) and [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter) story nodes. The **Body** object stores the main text. The **HeaderFooter** objects store the text for each header and footer. The text of any story consists of paragraphs and tables, respectively represented by the **Paragraph** and **Table** objects of the Block-level.
+In Aspose.Words, the **Section** node contains the [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) and [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) story nodes. The **Body** object stores the main text. The **HeaderFooter** objects store the text for each header and footer. The text of any story consists of paragraphs and tables, respectively represented by the **Paragraph** and **Table** objects of the Block-level.
 
-Additionally, each Word document can contain a glossary, which is represented by the [GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/GlossaryDocument) node in Aspose.Words. A glossary document contains [BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/BuildingBlock), [AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype#AUTO_TEXT), and [AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype#AUTO_CORRECT) entries.
+Additionally, each Word document can contain a glossary, which is represented by the [GlossaryDocument](https://reference.aspose.com/words/java/com.aspose.words/glossarydocument/) node in Aspose.Words. A glossary document contains [BuildingBlocks](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/), [AutoText](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype#AUTO_TEXT), and [AutoCorrect](https://reference.aspose.com/words/java/com.aspose.words/buildingblocktype#AUTO_CORRECT) entries.
 
-**GlossaryDocument** includes [BuildingBlock](https://reference.aspose.com/words/java/com.aspose.words/BuildingBlock) nodes representing different types of glossary document entries. Each **BuildingBlock** contains sections that can be inserted, removed, and copied into documents.
+**GlossaryDocument** includes [BuildingBlock](https://reference.aspose.com/words/java/com.aspose.words/buildingblock/) nodes representing different types of glossary document entries. Each **BuildingBlock** contains sections that can be inserted, removed, and copied into documents.
 
 ## Block Logical Level
 
@@ -47,9 +47,9 @@ Block-level nodes represent containers for content and content controls, and can
 
 Block-level nodes are represented by the following classes:
 
-- [Tables](https://reference.aspose.com/words/java/com.aspose.words/Table) and [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/Paragraph), which are the most important block-level nodes
+- [Tables](https://reference.aspose.com/words/java/com.aspose.words/table/) and [Paragraphs](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), which are the most important block-level nodes
 - Bookmarks, which occurs both at the block-level and at the inline-level
-- [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/StructuredDocumentTag), which represent custom markup and can contain both content and content controls
+- [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/), which represent custom markup and can contain both content and content controls
 
 The following diagram shows the block-level elements.
 
@@ -60,17 +60,17 @@ The following diagram shows the block-level elements.
 Inline-level nodes represent the actual content of the document and can be contained in the following containers:
 
 - Paragraph – the most common container
-- [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/SmartTag)
+- [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/)
 - StructuredDocumentTag
 
 Inline-level elements are represented by the following classes:
 
-- [Run](https://reference.aspose.com/words/java/com.aspose.words/Run) – runs of text formatted differently
-- [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/BookmarkStart) and [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/BookmarkEnd) represent bookmarks
-- [CommentRangeStart]https://reference.aspose.com/words/java/com.aspose.words/CommentRangeStart), [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/CommentRangeEnd), [Comment](https://reference.aspose.com/words/java/com.aspose.words/Comment) and [Footnote](https://reference.aspose.com/words/java/com.aspose.words/Footnote) represent annotations
-- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/FieldStart), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/FieldChar), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/FieldSeparator) and [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/FieldEnd) that represent field characters, and [FormField](https://reference.aspose.com/words/java/com.aspose.words/FormField) represent Word fields
-- [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/SpecialChar) represents special characters in the document
-- [Shape](https://reference.aspose.com/words/java/com.aspose.words/Shape) and [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/GroupShape) represent shapes, drawings, images, etc.
+- [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) – runs of text formatted differently
+- [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) represent bookmarks
+- [CommentRangeStart]https://reference.aspose.com/words/java/com.aspose.words/comment/RangeStart), [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) and [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) represent annotations
+- [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) that represent field characters, and [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) represent Word fields
+- [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) represents special characters in the document
+- [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) and [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) represent shapes, drawings, images, etc.
 - SmartTag and StructuredDocumentTag represent custom markup
 
 The following diagram shows the inline-level nodes structure.
@@ -95,8 +95,8 @@ Footnotes and comments can contain text, therefore Footnote and Comment nodes in
 
 The table consists of nodes of rows and cells. Table elements are represented by the following classes:
 
-- [Row](https://reference.aspose.com/words/java/com.aspose.words/Row) represents a table row
-- [Cell](https://reference.aspose.com/words/java/com.aspose.words/Cell) represents a table cell
+- [Row](https://reference.aspose.com/words/java/com.aspose.words/row/) represents a table row
+- [Cell](https://reference.aspose.com/words/java/com.aspose.words/cell/) represents a table cell
 - StructuredDocumentTag represent custom markup
 
 The following diagram shows the node structures of the Table, Row, and Cell levels.

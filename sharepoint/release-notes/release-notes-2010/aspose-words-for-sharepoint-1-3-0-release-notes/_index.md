@@ -11,7 +11,7 @@ url: /sharepoint/aspose-words-for-sharepoint-1-3-0-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for SharePoint 1.3.0](https://downloads.aspose.com/words/sharepoint)
+This page contains release notes for [Aspose.Words for SharePoint 1.3.0](https://releases.aspose.com/words/sharepoint/)
 
 {{% /alert %}}
 

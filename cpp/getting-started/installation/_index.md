@@ -33,7 +33,7 @@ You can also install or update Aspose.Words for C++ APIs using the *Package Mana
 1. Open *Microsoft Visual Studio* and *Package Manager Console* from the menu to open package manager console
 2. Type the command `Install-Package Aspose.Words.Cpp -Version 21.3.0` and press Enter to install the latest full release into your application
 3. Once downloaded, you will see confirmation messages<br>
-   {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula), it is recommended to read the license referenced in the URL.{{% /alert %}}
+   {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula/), it is recommended to read the license referenced in the URL.{{% /alert %}}
 4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you
 
 In *Package Manager Console*, you can also use the `Update-Package Aspose.Words.Cpp` command to check for updates to the Aspose.Words package and install them if present.

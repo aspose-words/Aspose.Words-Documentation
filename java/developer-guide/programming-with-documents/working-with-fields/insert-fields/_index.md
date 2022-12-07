@@ -12,8 +12,8 @@ aliases: [/java/insert-and-remove-field/]
 
 There are several different ways to insert fields into a document:
 
-- using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder)
-- using [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/FieldBuilder)
+- using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/)
+- using [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/)
 - using [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/)
 
 In this article, we will look at each way in more detail and analyze how to insert certain fields using these options.
@@ -48,7 +48,7 @@ The folowing code example shows how to use this option:
 
 ### Insert Untyped/Empty Field
 
-If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) method with the [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/FieldType) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
+If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) method with the [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
 The folowing code example shows how to insert an empty field into the document:
 
@@ -72,7 +72,7 @@ The following code example shows how to add IF fields using DocumentBuilder:
 
 ## Inserting Fields into a Document using FieldBuilder
 
-The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/FieldBuilder) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
+The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
 The folowing code example shows how to insert a field into a document using **FieldBuilder**:
 
@@ -84,7 +84,7 @@ You can also insert various types of fields using [Aspose.Words Document Object 
 
 ### Inserting Merge Field into a Document using DOM
 
-MERGEFIELD field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/FieldMergeField) class. You can use **FieldMergeField** class to perform the following operations:
+MERGEFIELD field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class. You can use **FieldMergeField** class to perform the following operations:
 
 - specify the name of the merge field
 - specify the formatting of the merge field
@@ -94,7 +94,7 @@ MERGEFIELD field in Word document can be represented by the [FieldMergeField](ht
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/FieldMergeField) class API.
+For more details, see the [FieldMergeField](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/) class API.
 
 {{% /alert %}}
 
@@ -104,7 +104,7 @@ The folowing code example shows how to add the MERGE field using DOM to a paragr
 
 ### Inserting Mail Merge ADDRESSBLOCK field into a Document using DOM
 
-The ADDRESSBLOCK field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/FieldAddressBlock) class. You can use **FieldAddressBlock** class to perform the following operations:
+The ADDRESSBLOCK field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) class. You can use **FieldAddressBlock** class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -114,7 +114,7 @@ The ADDRESSBLOCK field is used to insert a mail merge address block in a Word do
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/FieldAddressBlock) class API.
+For more details, see the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) class API.
 
 {{% /alert %}}
 
@@ -124,7 +124,7 @@ The folowing code example shows how to add the Mail Merge ADDRESSBLOCK Field usi
 
 ### Inserting ADVANCE field into a Document without using DocumentBuilder
 
-The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/FieldAdvance) class. You can use the **FieldAdvance** class to perform following operations:
+The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) class. You can use the **FieldAdvance** class to perform following operations:
 
 - specify the number of points by which the text that follows the field should be moved vertically from the top edge of the page
 - specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box
@@ -132,7 +132,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/FieldAdvance) class API.
+For more details, see the [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) class API.
 
 {{% /alert %}}
 
@@ -142,7 +142,7 @@ The folowing code example shows how to add the ADVANCE Field using DOM to a para
 
 ### Inserting ASK field into a Document without using DocumentBuilder
 
-The ASK field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/FieldAsk) class. You can use **FieldAsk** class to perform following operations:
+The ASK field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) class. You can use **FieldAsk** class to perform following operations:
 
 - specify the name of the bookmark
 - specify default user response (initial value contained in the prompt window)
@@ -151,7 +151,7 @@ The ASK field is used to prompt the user for text to assign to a Bookmark in Wor
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/FieldAsk) class API.
+For more details, see the [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) class API.
 
 {{% /alert %}}
 
@@ -161,13 +161,13 @@ The folowing code example shows how to add the ASK Field using DOM to a paragrap
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
-The AUTHOR field is used to specify the name of Document's author from the Document properties. AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/FieldAuthor) class. You can use **FieldAuthor** class to perform following operations:
+The AUTHOR field is used to specify the name of Document's author from the Document properties. AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) class. You can use **FieldAuthor** class to perform following operations:
 
 - specify the document author's name
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/FieldAuthor) class API.
+For more details, see the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) class API.
 
 {{% /alert %}}
 
@@ -177,14 +177,14 @@ The folowing code example shows how to add the AUTHOR Field using DOM to a parag
 
 ### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
 
-The INCLUDETEXT field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/FieldIncludeText) class to perform following operations:
+The INCLUDETEXT field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) class to perform following operations:
 
 - specify the bookmark's name of included document
 - specify the location of the document
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/FieldIncludeText) class API.
+For more details, see the [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) class API.
 
 {{% /alert %}}
 
@@ -200,7 +200,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/FieldToa) class API.
+For more details, see the [FieldToa](https://reference.aspose.com/words/java/com.aspose.words/fieldtoa/) class API.
 
 {{% /alert %}}
 

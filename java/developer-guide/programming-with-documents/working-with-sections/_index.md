@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Sections in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Sections
@@ -42,11 +42,11 @@ When you delete a section break, you also delete the section formatting for the 
 
 ## Sections in Aspose.Words
 
-Sections of the document are represented by the [Section](https://reference.aspose.com/words/java/com.aspose.words/section) and [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/SectionCollection) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/Document#Sections) property.
+Sections of the document are represented by the [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/Document#Sections) property.
 
 ### Obtaining a Section
 
-Each section is represented by a [Section](https://reference.aspose.com/words/java/com.aspose.words/section) object that can be obtained from the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/Document#Sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; the bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
+Each section is represented by a [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) object that can be obtained from the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/Document#Sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; the bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
 
 {{% alert color="primary" %}}
 
@@ -132,7 +132,7 @@ This sample shows how to remove page and section breaks from the document using 
 
 To remove page and section breaks from a document you should follow the steps below:
 
-1. Load a document into the [Document](https://reference.aspose.com/words/java/com.aspose.words/Document) class by passing a file path or stream to the appropriate **Document** constructor.
+1. Load a document into the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) class by passing a file path or stream to the appropriate **Document** constructor.
 1. To remove page breaks:
    1. Retrieve the collection of **Paragraph** nodes of the document.
    1. Check if each **Paragraph** has the **ParagraphFormat.PageBreakBefore** property set and set it to *false* it if it does.
@@ -145,7 +145,7 @@ It contains one-page break and one section break. The section break separates th
 
 ### Removing Page Breaks
 
-Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://reference.aspose.com/words/java/com.aspose.words/run) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even multiple page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
+Firstly the code to remove the page breaks is discussed. Generally a single [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) contains only a page break character by itself. There are cases in which a run can contain text and a page break character and in some cases even multiple page break characters. Therefore the code is made robust and all instances of the page break character found are removed.
 
 The code example given below removes all page breaks from the document.
 
@@ -159,9 +159,9 @@ Note that in a Word Document the same character is used to represent a page brea
 
 ### Removing Section Breaks
 
-Removing section breaks from a document is more complicated than page breaks. In the Aspose.Words document object model, sections are represented as separate instances of the [Section](https://reference.aspose.com/words/java/com.aspose.words/section) class. The content found within these sections is added as children of the **Section** object, for example as [Body](https://reference.aspose.com/words/java/com.aspose.words/body) or **Paragraph** nodes. To remove section breaks all content of the sections should be combined into one and the other sections removed. This will achieve the same result as deleting each section break in Microsoft Word.
+Removing section breaks from a document is more complicated than page breaks. In the Aspose.Words document object model, sections are represented as separate instances of the [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) class. The content found within these sections is added as children of the **Section** object, for example as [Body](https://reference.aspose.com/words/java/com.aspose.words/body/) or **Paragraph** nodes. To remove section breaks all content of the sections should be combined into one and the other sections removed. This will achieve the same result as deleting each section break in Microsoft Word.
 
-Depending on how you want to modify your document you may find in this situation that simply changing each section to appear continually one after the other is the better option instead of combining them all. This would allow different section formatting to still be retained. This can be achieved by iterating through all sections in the document and setting **PageSetup.SectionStart** property of the section’s [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/PageSetup) class to [SectionStart.Continuous](https://reference.aspose.com/words/java/com.aspose.words/sectionstart).
+Depending on how you want to modify your document you may find in this situation that simply changing each section to appear continually one after the other is the better option instead of combining them all. This would allow different section formatting to still be retained. This can be achieved by iterating through all sections in the document and setting **PageSetup.SectionStart** property of the section’s [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) class to [SectionStart.Continuous](https://reference.aspose.com/words/java/com.aspose.words/sectionstart/).
 
 In Microsoft Word when you delete a break between two the newly combined section inherits all properties from the second section. Thus if all sections are combined in the same way the resulting formatting should be inherited from the last section in the document. To match the same behavior programmatically the code is set up to transfer all content from the first sections into the last section of the document:
 

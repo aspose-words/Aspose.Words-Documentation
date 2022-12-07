@@ -48,7 +48,7 @@ This initial version of the module is enriched with the following features to ma
 In order to setup Aspose.Words .NET for DNN modules you need to have the following requirements met:
 
 - DNN 7.0 +
-- [Aspose.Words for .NET](https://downloads.aspose.com/words/net)
+- [Aspose.Words for .NET](https://releases.aspose.com/words/net/)
 
 Please feel free to contact us if you wish to install these modules on other versions of DNN.
 
@@ -90,7 +90,7 @@ You have successfully added Aspose .NET Quote Generator module to your page. You
 
 ### How to apply Aspose License?
 
-This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://downloads.aspose.com/words/net).
+This Plugin uses an evaluation version of Aspose.Words. Once you are happy with your evaluation, you can purchase a license at the [Aspose website](https://releases.aspose.com/words/net/).
 To remove evaluation message and feature limitations, product license should be applied. You will receive a license file after you have purchased the product. Please follow the steps below to apply the license
 
 - Make sure the license file is named as **Aspose.Words.lic**
@@ -126,7 +126,7 @@ You can get the latest source code from one of the following locations
 You need to have the following installed in order to open and extend the source code
 
 - Visual Studio 2010 or higher
-- [DNN Development Template](https://www.aspose.com/docs/display/totalnet/1.2.1+Downloading)
+- [DNN Development Template](https://docs.aspose.com/total/net/)
 
 Please follow these simple steps to get started
 
