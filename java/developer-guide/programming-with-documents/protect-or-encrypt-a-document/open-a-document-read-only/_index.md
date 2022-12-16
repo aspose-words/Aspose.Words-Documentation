@@ -26,7 +26,7 @@ Aspose.Words has the public class [WriteProtection](https://reference.aspose.com
 
 Write protection shows whether the author has recommended opening a document as read-only and/or requiring a password to modify the document.
 
-Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection#ReadOnlyRecommended) property and the [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection#setPassword(java.lang.String)) method.
+Aspose.Words allows you to make a document read-only to restrict editing by using the [ReadOnlyRecommended](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#getReadOnlyRecommended) property and the [SetPassword](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#setPassword-java.lang.String) method.
 
 {{% alert color="primary" %}}
 
@@ -53,7 +53,7 @@ Note that the password being set is just a property in a document that can be re
 
 {{% /alert %}}
 
-If you need to check if a document has a write protection password that restricts it from editing, you can use the [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection#IsWriteProtected) property.
+If you need to check if a document has a write protection password that restricts it from editing, you can use the [IsWriteProtected](https://reference.aspose.com/words/java/com.aspose.words/writeprotection/#isWriteProtected) property.
 
 The following code example shows how to make a document read-only:
 

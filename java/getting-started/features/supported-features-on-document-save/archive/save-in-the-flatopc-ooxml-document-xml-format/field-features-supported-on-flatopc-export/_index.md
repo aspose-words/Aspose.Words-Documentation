@@ -33,7 +33,7 @@ When saving to rendered formats such as PDF, XPS or image some fields may be aut
 
 See the following link in the documentation for further information:
 
-- [Document.UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/Document#updateFields()).
+- [Document.UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields).
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |

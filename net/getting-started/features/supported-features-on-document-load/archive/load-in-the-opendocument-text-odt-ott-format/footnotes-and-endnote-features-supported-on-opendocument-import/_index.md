@@ -44,7 +44,7 @@ See the following links in the documentation for further information:
 |Number Format |Yes | | |
 |Restart Location |N/A | | |
 |Starting Value |Yes | | |
-|Placement |Yes | |- [FootnoteOptions.Location](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions)|
+|Placement |Yes | |- [FootnoteOptions.Location](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/)|
 
 ## Endnotes
 
@@ -56,7 +56,7 @@ See the following links in the documentation for further information:
 |Continuation Separator Mark |N/A | | |
 |Document Wide Properties |Yes | | |
 |Section Wide Properties |N/A | | |
-|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/numberstyle)|
+|Number Format |Yes | |- [FootnoteOptions.NumberStyle](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/numberstyle/)|
 |Restart Location |N/A | | |
-|Starting Value |Yes | |- [FootnoteOptions.StartNumber](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/properties/startnumber)|
+|Starting Value |Yes | |- [FootnoteOptions.StartNumber](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/startnumber/)|
 |Placement |Yes | | |

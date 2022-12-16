@@ -13,7 +13,7 @@ Aspose.Words provides the ability to programmatically interact with various fiel
 
 ## Field Property Update
 
-Sometimes users need to change the value of a field property. For example, update the [AuthorName](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/authorname) property of the AUTHOR field or change the [FieldName](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/fieldname) property of the MERGEFIELD field.
+Sometimes users need to change the value of a field property. For example, update the [AuthorName](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/authorname/) property of the AUTHOR field or change the [FieldName](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/fieldname/) property of the MERGEFIELD field.
 
 The following code example shows how to rename merge fields in a Word document:
 

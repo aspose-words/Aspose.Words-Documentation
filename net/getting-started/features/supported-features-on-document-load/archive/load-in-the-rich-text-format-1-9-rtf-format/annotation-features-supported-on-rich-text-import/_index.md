@@ -47,9 +47,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Bookmark Start |Yes | |- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/BookmarkStart)|
-|Bookmark End |Yes | |- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/BookmarkEnd)|
-|Bookmark Name |Yes | |- [Bookmark.Name](https://reference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
+|Bookmark Start |Yes | |- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/)|
+|Bookmark End |Yes | |- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/)|
+|Bookmark Name |Yes | |- [Bookmark.Name](https://reference.aspose.com/words/net/aspose.words/bookmark/name/)|
 |Bookmark Table Columns |Yes | | |
 
 ## Comments
@@ -76,9 +76,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment |Yes | |- [Comment.ToTxt](https://reference.aspose.com/words/net/aspose.words/compositenode/methods/gettext)|
-|Comment Range |Yes | |<p>- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/CommentRangeStart) </p><p>- [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/CommentRangeEnd)</p>|
-|Author |Yes | |- [Comment.Author](https://reference.aspose.com/words/net/aspose.words/comment/properties/author)|
+|Comment |Yes | |- [Comment.ToTxt](https://reference.aspose.com/words/net/aspose.words/compositenode/gettext/)|
+|Comment Range |Yes | |<p>- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) </p><p>- [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)</p>|
+|Author |Yes | |- [Comment.Author](https://reference.aspose.com/words/net/aspose.words/comment/author/)|
 |Date |Yes | |- **Comment.Date**|
 |Initial |Yes | |- **Comment.Inital**|
 
@@ -109,10 +109,10 @@ See the following links in the documentation for further information:
 |Table Cell Deletion |Planned | | |
 |Table Cell Insertion |Planned | | |
 |Cell Merge or Split |Planned | | |
-|Run Deletion |Yes | |- [Run.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
-|Run Insertion |Yes | |- [Run.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
-|Paragraph Deletion |Yes | |- [Paragraph.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
-|Paragraph Insertion |Yes | |- [Paragraph.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
+|Run Deletion |Yes | |- [Run.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/)|
+|Run Insertion |Yes | |- [Run.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/)|
+|Paragraph Deletion |Yes | |- [Paragraph.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/)|
+|Paragraph Insertion |Yes | |- [Paragraph.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/)|
 |Table Row Deletion |Yes | | |
 |Table Row Insertion |Yes | | |
 |Numbering Insertion |Yes | | |

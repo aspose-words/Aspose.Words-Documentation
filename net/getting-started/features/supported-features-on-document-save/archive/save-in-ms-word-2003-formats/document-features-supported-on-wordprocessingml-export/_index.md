@@ -31,7 +31,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |Yes | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. |- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/)|
 |Custom Properties |Yes | | |
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |Planned | | |
@@ -47,7 +47,7 @@ See the following links in the documentation for further information:
 |Themes |N/A | | |
 |Toolbar Customizations |Yes | | |
 |Variables |Yes | | |
-|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>WordML format supports macros. You can optionally remove existing macros from a document by using the Document.RemoveMacros method. |- [Document.RemoveMacros](https://reference.aspose.com/words/net/aspose.words/document/methods/removemacros)|
+|VBA Project (Macro) |Yes |VBA Projects are preserved during open and save to different formats that support them. <br><br>WordML format supports macros. You can optionally remove existing macros from a document by using the Document.RemoveMacros method. |- [Document.RemoveMacros](https://reference.aspose.com/words/net/aspose.words/document/removemacros/)|
 |VBA Project Digital Signature |Yes |The digital signature on a VBA Project is preserved during open and save even if the document content is modified. | |
 |Background |Yes | | |
 |Thumbnail |Planned | | |

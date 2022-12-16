@@ -48,5 +48,5 @@ SmartTags are fully supported in Aspose.Words. They are represented in Aspose.Wo
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Smart Tag Properties|Yes| |- [SmartTag.Properties](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/properties/index)|
+|Smart Tag Properties|Yes| |- [SmartTag.Properties](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/properties/)|
 

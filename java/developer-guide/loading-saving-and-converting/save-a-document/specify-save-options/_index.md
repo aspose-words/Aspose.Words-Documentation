@@ -47,13 +47,13 @@ Not all formats support encryption and the use of **Password** property.
 
 ## Show Document Saving Progress Notifications
 
-Aspose.Words provides the ability to use the [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#ProgressCallback) property to get notifications about the progress of document saving.
+Aspose.Words provides the ability to use the [ProgressCallback](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getProgressCallback) property to get notifications about the progress of document saving.
 
 It is now available when saving to DOCX, FlatOpc, DOCM, DOTM, DOTX, HTML, MHTML, EPUB, XamlFlow, XamlFlowPack, or TXT formats.
 
 ## Update the Document Creation Time
 
-Aspose.Words provides an ability to use the [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/BuiltInDocumentProperties#CreatedTime) property to get or set the document creation date in UTC. You can also update this value before saving using the [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateCreatedTimeProperty) option.
+Aspose.Words provides an ability to use the [CreatedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getCreatedTime) property to get or set the document creation date in UTC. You can also update this value before saving using the [UpdateCreatedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateCreatedTimeProperty) option.
 
 The following code example shows how to update the document creation time:
 
@@ -61,7 +61,7 @@ The following code example shows how to update the document creation time:
 
 ## Update Last Saved Property
 
-Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property to get or set a value determining whether the [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) property is updated before saving.
+Aspose.Words provides an ability to use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) property to get or set a value determining whether the [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) property is updated before saving.
 
 The following code example shows how to set this property and save the document:
 
@@ -69,7 +69,7 @@ The following code example shows how to set this property and save the document
 
 ## Save Black and White Image with One Bit Per Pixel Format
 
-To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions#PixelFormat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
+To control image saving options, the **ImageSaveOptions** class is used. For example, you can use the [PixelFormat](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/#getPixelFormat) property to set the pixel format for the generated images. Please note that the pixel format of the output image may differ from the set value because of the work of GDI+.
 
 The following code example shows how to save a black and white image with one bit per pixel format:
 

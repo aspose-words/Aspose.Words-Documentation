@@ -32,7 +32,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |PNG |Yes | | |
 |JPG |Yes | | |
-|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/properties/metafilerenderingoptions)|
+|WMF |Yes | |- [SvgSaveOptions.MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)|
 |EMF |Yes | | |
 |EMF+ |Yes | | |
 |BMP |Yes | | |

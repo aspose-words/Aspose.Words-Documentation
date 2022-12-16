@@ -23,6 +23,6 @@ Use the Range.Text property to retrieve the plain, unformatted text of the range
 
 ## Deleting Text
 
-The Range class allows the deletion of all characters of the range by calling [Range.delete](https://reference.aspose.com/words/java/com.aspose.words/range#delete()). The code example given below shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+The Range class allows the deletion of all characters of the range by calling [Range.delete](https://reference.aspose.com/words/java/com.aspose.words/range/#delete). The code example given below shows how to delete all characters of a range. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Ranges-RangesDeleteText-RangesDeleteText.java" >}}

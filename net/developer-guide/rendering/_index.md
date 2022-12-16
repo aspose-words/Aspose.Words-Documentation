@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rendering in C#
 second_title: Aspose.Words for .NET
 articleTitle: Rendering
@@ -19,7 +19,7 @@ The rendering features of Aspose.Words enable you to perform the following:
 - Convert a document into a multi-page TIFF document, or convert any page into a raster image and save it as BMP, PNG or JPEG.
 - Convert a document page into a Scalable Vector Graphics image (SVG), or convert into a vector image and save it as EMF.
 - Render (draw) a document page at a specific size or scale on the .NET Graphics object to create thumbnails, full sized or scaled images of document pages.
-- Render a [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape) object separately from the document to any image format or to a .NET Graphics object.
+- Render a [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) object separately from the document to any image format or to a .NET Graphics object.
 - Display any page of a document in a Windows Form.
 - Print or preview document pages using the standard .NET printing infrastructure.
 

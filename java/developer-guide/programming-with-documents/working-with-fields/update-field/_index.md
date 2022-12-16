@@ -22,13 +22,13 @@ When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word wi
 
 ### Update Fields Programmatically
 
-To explicitly update fields in the whole document, simply call the [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document#updateFields()) method. To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) object and call the [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range#updateFields()) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), etc. using the [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node#Range) property. You can update the result of a single field by calling the [Update](https://reference.aspose.com/words/java/com.aspose.words/field#update()) method.
+To explicitly update fields in the whole document, simply call the [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) method. To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/java/com.aspose.words/range/) object and call the [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/range/#updateFields) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), etc. using the [GetRange](https://reference.aspose.com/words/java/com.aspose.words/node/#getRange) property. You can update the result of a single field by calling the [Update](https://reference.aspose.com/words/java/com.aspose.words/field/#update) method.
 
 ### Automatic Update of Page-Related Fields during Rendering
 
 When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
 
-If you want to update all other fields in the document, then you need to call [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document#updateFields()) before rendering the document.
+If you want to update all other fields in the document, then you need to call [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) before rendering the document.
 
 The following example shows how to update all fields before rendering a document:
 
@@ -48,7 +48,7 @@ The following code example shows how to update fields having the dirty attribute
 
 ## Update LastSavedTime Property Before Saving
 
-You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions#UpdateLastSavedTimeProperty) property whether to update the corresponding built-in document property [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties#LastSavedTime) when saving the document.
+You can use the [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getUpdateLastSavedTimeProperty) property whether to update the corresponding built-in document property [LastSavedTime](https://reference.aspose.com/words/java/com.aspose.words/builtindocumentproperties/#getLastSavedTime) when saving the document.
 
 The following code example shows how to update this property:
 

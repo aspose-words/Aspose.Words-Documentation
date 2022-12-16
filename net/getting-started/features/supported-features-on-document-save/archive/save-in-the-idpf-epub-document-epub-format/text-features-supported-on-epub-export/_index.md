@@ -64,7 +64,7 @@ See the following links in the documentation for further information:
 |Color |Yes |Exported as color on style attribute. | |
 |East Asian Typography |Planned |Some research is needed. | |
 |Highlight Color |Yes |Exported as background-color on the span. | |
-|Language |Yes |Exported as lang attribute on &lt;span&gt;. |- [HtmlSaveOptions.ExportLanguageInformation](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/exportlanguageinformation)|
+|Language |Yes |Exported as lang attribute on &lt;span&gt;. |- [HtmlSaveOptions.ExportLanguageInformation](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/)|
 |Do Not Check Spelling or Grammar |Planned | | |
 |Border |Yes |Exported as border-style, border-width, border-color on &lt;span&gt;. <br><br>Normally each side is exported as separate attributes even though all sides of the border of a run must be the same. | |
 |Shading |Yes |Only solid fill is supported, both background and foreground. Others are converted to the nearest color. <br><br>Exported as background-color on &lt;span&gt;. | |

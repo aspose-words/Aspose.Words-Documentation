@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Charts in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Charts
@@ -11,7 +11,7 @@ url: /net/working-with-charts/
 
 ## Creating OOXML Charts from Scratch using Aspose.Words
 
-New [InsertChart](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertchart/methods/1) method was added into the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.InsertChart](https://reference.aspose.com/words/net/aspose.words.documentbuilder/insertchart/methods/1) method:
+New [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder//insertchart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder//insertchart/) method:
 
 ### How to Insert Column chart
 
@@ -135,7 +135,7 @@ Using ChartDataLabel.NumberFormat you are able to specify number formatting of a
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis), [AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit), and [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling) classes. The code example given below shows how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/), and [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/) classes. The code example given below shows how to define X and Y-axis properties.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
 

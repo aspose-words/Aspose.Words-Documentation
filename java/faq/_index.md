@@ -108,7 +108,7 @@ This is because Microsoft Office fallback settings are selected by default, and 
 
 **Q: Why might complex script text, such as Thai or Hebrew, be displayed inaccurately for some reason, such as the wrong position for diacritics or inaccurate ligatures?**
 
-Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions#TextShaperFactory).
+Some complex script fonts require the Advanced Typography features to be processed in order to display them correctly. Advanced Typography is disabled in Aspose.Words by default. Users have to enable Advanced Typography with [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getTextShaperFactory).
 
 ------
 
@@ -128,14 +128,14 @@ You can find more detailed information about mail merge in the [“Mail Merge an
 
 The original name of the merge field stays the same without being replaced by the required data from the data source, then:
 
-- Check the data is being loaded properly into tables: set the [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource#TableName) correctly with all required primary keys and relationships.
-- Check that the merge fields are named properly. Use the [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#getFieldNames()) method to get all merge fields names and ensure that the name of merge fields in your template matches the one in your data source.
+- Check the data is being loaded properly into tables: set the [TableName](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/#getTableName) correctly with all required primary keys and relationships.
+- Check that the merge fields are named properly. Use the [GetFieldNames](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getFieldNames) method to get all merge fields names and ensure that the name of merge fields in your template matches the one in your data source.
 
 ------
 
 **Q: Why does the output of nested merging not display data from the child table for the first entry in the parent table but display all items for the last entry in the parent table, even ones that are not actually linked to it?**
 
-This is because the merge regions in the template are not correctly formed, which can make all nested mail merge regions to stop displaying anything at all. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#startTable()) opening tag and the [EndTable](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endTable()) closing tag must match and be in the same row or cell. For example, if you start nesting merge regions in a cell of a table, you must end the merge region in the same row as the first cell.
+This is because the merge regions in the template are not correctly formed, which can make all nested mail merge regions to stop displaying anything at all. The [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) opening tag and the [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) closing tag must match and be in the same row or cell. For example, if you start nesting merge regions in a cell of a table, you must end the merge region in the same row as the first cell.
 
 ------
 

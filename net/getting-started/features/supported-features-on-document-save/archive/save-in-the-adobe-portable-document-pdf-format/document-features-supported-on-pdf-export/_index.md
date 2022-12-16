@@ -47,13 +47,13 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template |N/A | | |
-|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. <br><br>Title, Author, Subject, Keywords is output to PDF. |- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
-|Custom Properties |Yes |There is an option to export custom properties as metadata to PDF. The metadata exported to PDF in this way is given the namespace "custprops" e.g custprops:MyProperty. |- [PdfSaveOptions.CustomPropertiesExport](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/custompropertiesexport)|
+|Built-In Properties |Yes |Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead you need to explictly update these properties using the appropriate Document member. We will add automatic update of these properties in a future version. <br><br>Title, Author, Subject, Keywords is output to PDF. |- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/)|
+|Custom Properties |Yes |There is an option to export custom properties as metadata to PDF. The metadata exported to PDF in this way is given the namespace "custprops" e.g custprops:MyProperty. |- [PdfSaveOptions.CustomPropertiesExport](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/)|
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |N/A | | |
-|Digital Signature |Yes |Non-visible digital signature is supported. <br><br>There are plans to support visible signatures in a future verison of Aspose.Words. |- [PdfSaveOptions.DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/digitalsignaturedetails)|
+|Digital Signature |Yes |Non-visible digital signature is supported. <br><br>There are plans to support visible signatures in a future verison of Aspose.Words. |- [PdfSaveOptions.DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/)|
 |Embedded Package |N/A |Exported as a plain image. | |
-|Encryption |Yes |Creation of a PDF document with encryption and permissions is supported. <br><br>RC4 encryption with key-length of 40 and 128 bit is supported. <br><br>AES Encryption is not yet supported but will be planned for a later release. |- [PdfSaveOptions.EncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/encryptiondetails)|
+|Encryption |Yes |Creation of a PDF document with encryption and permissions is supported. <br><br>RC4 encryption with key-length of 40 and 128 bit is supported. <br><br>AES Encryption is not yet supported but will be planned for a later release. |- [PdfSaveOptions.EncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/)|
 |Font Table |Yes | | |
 |Glossary Document/Quick Parts/Auto Text |N/A | | |
 |Hyphenation |Planned |Paragraphs that require hyphenation are wrapped to the next line instead. | |
@@ -72,8 +72,8 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Embedding Fonts |Yes |There is an option to embed full fonts or a subset only of the glyphs used in the document to PDF. There are plans to introduce an option to control whether fonts are embedded at alll. <br><br>TrueType and PostScript fonts can be subsetted. PostScript fonts are embedded fully. <br><br>Fonts that are embedded in the original DOCX are used during rendering and exported to PDF. |<p>- [PdfSaveOptions.EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/embedfullfonts) </p><p>- [PdfSaveOptions.UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/usecorefonts) </p><p>- **PdfSaveOptions.UseWindowsFont**</p>|
-|Embed Only Non-Standard Fonts |Yes |There is an option to embed only non-standard fonts. |- [PdfSaveOptions.EmbedStandardWindowsFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode)|
+|Embedding Fonts |Yes |There is an option to embed full fonts or a subset only of the glyphs used in the document to PDF. There are plans to introduce an option to control whether fonts are embedded at alll. <br><br>TrueType and PostScript fonts can be subsetted. PostScript fonts are embedded fully. <br><br>Fonts that are embedded in the original DOCX are used during rendering and exported to PDF. |<p>- [PdfSaveOptions.EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) </p><p>- [PdfSaveOptions.UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) </p><p>- **PdfSaveOptions.UseWindowsFont**</p>|
+|Embed Only Non-Standard Fonts |Yes |There is an option to embed only non-standard fonts. |- [PdfSaveOptions.EmbedStandardWindowsFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/)|
 
 ## Bibliography
 

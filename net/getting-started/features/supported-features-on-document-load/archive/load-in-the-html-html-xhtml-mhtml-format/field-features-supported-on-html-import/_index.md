@@ -113,20 +113,20 @@ Form fields are fully supported by Aspose.Words. There is an option to export f
 
 |Feature|Supported|Comment|See Also|||
 | :- | :- | :- | :- | :- | :- |
-|TextInput|Yes|Imported from &lt;input type="text|password|file" name="XXX" /&gt;.|<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault)</p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
+|TextInput|Yes|Imported from &lt;input type="text|password|file" name="XXX" /&gt;.|<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputdefault/)</p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputformat/)</p>|
 |CheckBox|Yes|Imported from &lt;input type="checkbox" name="XXX" /&gt;|- **FormField.Type**|||
-|DropDown|Yes|Imported from &lt;select name="XXX" /&gt;. Each item in the list is imported from &lt;option&gt; child elements. &lt;optgroup&gt; tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop down lists.|<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems)</p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|||
+|DropDown|Yes|Imported from &lt;select name="XXX" /&gt;. Each item in the list is imported from &lt;option&gt; child elements. &lt;optgroup&gt; tag is not supported. <br><br>Multiselect list attribute is ignored as there is no analog in Microsoft Word drop down lists.|<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/dropdownitems/)</p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/dropdownselectedindex/)</p>|||
 |Calc On Exit|N/A| | |||
-|Checked|Planned|Will be mported from checked="checked" attribute on &lt;input&gt;.|- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|||
+|Checked|Planned|Will be mported from checked="checked" attribute on &lt;input&gt;.|- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/checked/)|||
 |Default Value|Yes|With text form fields this is imported from value="XXX" attribute on &lt;input&gt; tag. <br><br>With a drop down list, this is imported form the &lt;option&gt; element which has selected="selected" attribute.|- **FormField.TextInputDefault**|||
-|Enabled|Planned|The "disabled" attribute can be used here.|- [FormField.Enabled](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/enabled)|||
+|Enabled|Planned|The "disabled" attribute can be used here.|- [FormField.Enabled](https://reference.aspose.com/words/net/aspose.words.fields/formfield/enabled/)|||
 |Entry and Exit Macro|N/A| | |||
-|Name|Yes|Imported from the name attribute on &lt;input&gt; or &lt;select&gt; element.|- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|||
-|Help Text|Planned|The "alt" attribute can be used.|- [FormField.HelpText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/helptext)|||
-|Status Text|Planned| |- [FormField.StatusText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/statustext)|||
-|Max Length|Yes|Exported as maxlength attribute.|- [FormField.MaxLength](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/maxlength)|||
-|Check Box Size|Planned|There are plans to use width and height CSS attributes to increase size of checkboxes exported to HTML.|<p>- [FormField.CheckBoxSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checkboxsize)</p><p>- [FormField.IsCheckBoxExactSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/ischeckboxexactsize)</p>|||
-|Text Input Type|Planned| |- [FormField.TextInputType](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputtype)|||
+|Name|Yes|Imported from the name attribute on &lt;input&gt; or &lt;select&gt; element.|- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/name/)|||
+|Help Text|Planned|The "alt" attribute can be used.|- [FormField.HelpText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/helptext/)|||
+|Status Text|Planned| |- [FormField.StatusText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/statustext/)|||
+|Max Length|Yes|Exported as maxlength attribute.|- [FormField.MaxLength](https://reference.aspose.com/words/net/aspose.words.fields/formfield/maxlength/)|||
+|Check Box Size|Planned|There are plans to use width and height CSS attributes to increase size of checkboxes exported to HTML.|<p>- [FormField.CheckBoxSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/checkboxsize/)</p><p>- [FormField.IsCheckBoxExactSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/ischeckboxexactsize/)</p>|||
+|Text Input Type|Planned| |- [FormField.TextInputType](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputtype/)|||
 
 ## Index and Tables
 

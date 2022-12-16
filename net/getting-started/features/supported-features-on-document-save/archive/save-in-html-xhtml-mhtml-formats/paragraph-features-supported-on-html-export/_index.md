@@ -61,7 +61,7 @@ Style properties (the style applied in ParagraphFormat.Style) are exported as cl
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Left Indent|Yes|Exported as "margin-left" on style attribute.|- [HtmlSaveOptions.AllowNegativeIndent](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/properties/allownegativeindent)|
+|Left Indent|Yes|Exported as "margin-left" on style attribute.|- [HtmlSaveOptions.AllowNegativeIndent](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/)|
 |Right Indent|Yes|Exported as "margin-right" on style attribute.| |
 |First Line Indent|Yes|Exported as "text-indent" on style attribute.| |
 |Hanging Indent|Yes|Exported as a combination of "margin-left" and "text-indent" on style.| |

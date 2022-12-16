@@ -13,7 +13,7 @@ Aspose.Words provides the ability to programmatically interact with various fiel
 
 ## Field Property Update
 
-Sometimes users need to change the value of a field property. For example, update the [AuthorName](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor#AuthorName) property of the AUTHOR field or change the [FieldName](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield#FieldName) property of the MERGEFIELD field.
+Sometimes users need to change the value of a field property. For example, update the [AuthorName](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/#getAuthorName) property of the AUTHOR field or change the [FieldName](https://reference.aspose.com/words/java/com.aspose.words/fieldmergefield/#getFieldName) property of the MERGEFIELD field.
 
 The following code example shows how to rename merge fields in a Word document:
 
@@ -23,6 +23,6 @@ The following code example shows how to rename merge fields in a Word document:
 
 Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; MS Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
 
-The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/java/com.aspose.words/field#DisplayResult) property:
+The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/java/com.aspose.words/field/#getDisplayResult) property:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldDisplayResult-FieldDisplayResult.java" >}}

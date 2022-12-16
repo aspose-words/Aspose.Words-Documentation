@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify Layout Options in C#
 second_title: Aspose.Words for .NET
 articleTitle: Specify Layout Options
@@ -9,16 +9,16 @@ weight: 10
 url: /net/specify-layout-options/
 ---
 
-Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.
+Aspose.Words enables you to create output documents with various layouts, depending on the parameters specified in properties of the [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) class. Some of these properties resemble some of the Microsoft Word user interface menu options – they will be described in this article.
 
-For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/continuoussectionpagenumberingrestart) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/ignoreprintermetrics) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions) class page.
+For a complete list of parameters such as [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions//continuoussectionpagenumberingrestart/) to calculate page numbers in a continuous section that restarts page numbering, or [IgnorePrinterMetrics](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions//ignoreprintermetrics/) to ignore the "Use printer metrics to lay out document" compatibility option, see the [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) class page.
 
 ## Formatting Marks
 
 Aspose.Words allows to manage formatting marks using the following properties:
 
-- [ShowHiddenText](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/showhiddentext) – a Boolean value, which specifies whether the hidden text is rendered.
-- [ShowParagraphMarks](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/showparagraphmarks) – a Boolean value, which specifies whether paragraph mark characters are rendered.
+- [ShowHiddenText](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showhiddentext/) – a Boolean value, which specifies whether the hidden text is rendered.
+- [ShowParagraphMarks](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showparagraphmarks/) – a Boolean value, which specifies whether paragraph mark characters are rendered.
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the **ShowHiddenText** option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the **ShowParagraphMarks** property is set to render it.
 
@@ -36,9 +36,9 @@ In Microsoft Word, this parameter is set using the "Track Changes Options" dialo
 
 ![specify-layout-options_3](specify-layout-options-3.jpg)
 
-Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/revisionoptions) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions) class.
+Also, Aspose.Words allows you to display revisions in a document. Use the [RevisionOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/revisionoptions/) property of the **LayoutOptions** class to define whether the document revisions are displayed. To control their appearance (revision highlighting color, revision bar color, etc.), use the [RevisonOptions](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions/) class.
 
-You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/commentdisplaymode) property and [ShowInBalloons](https://reference.aspose.com/words/net/aspose.words.layout/commentdisplaymode) value.
+You can also have revisions displayed as comments to the content. For this purpose, use the [CommentDisplayMode](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/commentdisplaymode/) property and [ShowInBalloons](https://reference.aspose.com/words/net/aspose.words.layout/commentdisplaymode/) value.
 
 The following code example shows how to customize revisions display:
 
@@ -50,7 +50,7 @@ The image below shows how Aspose.Words renders comments and the Delete revisions
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/properties/textshaperfactory) property enables you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/) property enables you to set the text shaping functionality, as well as the OpenType features support.
 
 Use text shaping for document processing in the following main cases:
 

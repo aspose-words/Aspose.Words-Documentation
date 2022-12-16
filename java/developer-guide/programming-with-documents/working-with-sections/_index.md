@@ -42,11 +42,11 @@ When you delete a section break, you also delete the section formatting for the 
 
 ## Sections in Aspose.Words
 
-Sections of the document are represented by the [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/Document#Sections) property.
+Sections of the document are represented by the [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/java/com.aspose.words/sectioncollection/) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) property.
 
 ### Obtaining a Section
 
-Each section is represented by a [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) object that can be obtained from the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/Document#Sections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; the bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
+Each section is represented by a [Section](https://reference.aspose.com/words/java/com.aspose.words/section/) object that can be obtained from the [Document.Sections](https://reference.aspose.com/words/java/com.aspose.words/document/#getSections) collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; the bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
 
 {{% alert color="primary" %}}
 
@@ -98,7 +98,7 @@ Use the Section.Clone method to create a duplicate of a particular section. The 
 
 ### Copying Sections between Documents
 
-Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase#importNode(com.aspose.words.Node,boolean)) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. The code example given below shows how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
+Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using [Document.ImportNode](https://reference.aspose.com/words/java/com.aspose.words/documentbase/#importNode-com.aspose.words.Node-boolean) method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document. The code example given below shows how to copy sections between documents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Document.doc).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-CopySection-CopySection.java" >}}
 
@@ -155,7 +155,7 @@ Firstly all paragraphs in the document are gathered using the Document.GetChildN
 
 During the enumeration if a paragraph has the page break before setting enabled then the setting is removed. Each run of the paragraph is then checked for the presence of a **ControlChar.PageBreakChar** character. If a run contains one or more of these characters they are removed by replacing them with an empty string.
 
-Note that in a Word Document the same character is used to represent a page break and section break. The **ControlChar.PageBreakChar** and [ControlChar.SectionBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar#SECTION_BREAK) are identical. You will only ever encounter a page break represented by this character in a document using Aspose.Words. This is explained further in the section below.
+Note that in a Word Document the same character is used to represent a page break and section break. The **ControlChar.PageBreakChar** and [ControlChar.SectionBreakChar](https://reference.aspose.com/words/java/com.aspose.words/controlchar/#SECTION-BREAK) are identical. You will only ever encounter a page break represented by this character in a document using Aspose.Words. This is explained further in the section below.
 
 ### Removing Section Breaks
 

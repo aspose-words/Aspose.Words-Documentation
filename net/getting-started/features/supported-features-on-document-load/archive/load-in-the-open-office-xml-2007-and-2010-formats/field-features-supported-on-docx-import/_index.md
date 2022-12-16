@@ -127,20 +127,20 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput |Yes | |<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault) </p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
+|TextInput |Yes | |<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputdefault/) </p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputformat/)</p>|
 |CheckBox |Yes | |- **FormField.Type**|
-|DropDown |Yes | |<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems) </p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|
-|Calc On Exit |Yes | |- [FormField.CalculateOnExit](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/calculateonexit)|
-|Checked |Yes | |- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|
+|DropDown |Yes | |<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/dropdownitems/) </p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/dropdownselectedindex/)</p>|
+|Calc On Exit |Yes | |- [FormField.CalculateOnExit](https://reference.aspose.com/words/net/aspose.words.fields/formfield/calculateonexit/)|
+|Checked |Yes | |- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/checked/)|
 |Default Value |Yes | |- **FormField.TextInputDefault**|
-|Enabled |Yes | |- [FormField.Enabled](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/enabled)|
-|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/entrymacro) </p><p>- [FormField.ExitMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/exitmacro)</p>|
-|Name |Yes | |- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|
-|Help Text |Yes | |- [FormField.HelpText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/helptext)|
-|Status Text |Yes | |- [FormField.StatusText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/statustext)|
-|Max Length |Yes | |- [FormField.MaxLength](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/maxlength)|
-|Check Box Size |Yes | |<p>- [FormField.CheckBoxSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checkboxsize) </p><p>- [FormField.IsCheckBoxExactSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/ischeckboxexactsize)</p>|
-|Text Input Type |Yes | |- [FormField.TextInputType](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputtype)|
+|Enabled |Yes | |- [FormField.Enabled](https://reference.aspose.com/words/net/aspose.words.fields/formfield/enabled/)|
+|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/entrymacro/) </p><p>- [FormField.ExitMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/exitmacro/)</p>|
+|Name |Yes | |- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/name/)|
+|Help Text |Yes | |- [FormField.HelpText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/helptext/)|
+|Status Text |Yes | |- [FormField.StatusText](https://reference.aspose.com/words/net/aspose.words.fields/formfield/statustext/)|
+|Max Length |Yes | |- [FormField.MaxLength](https://reference.aspose.com/words/net/aspose.words.fields/formfield/maxlength/)|
+|Check Box Size |Yes | |<p>- [FormField.CheckBoxSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/checkboxsize/) </p><p>- [FormField.IsCheckBoxExactSize](https://reference.aspose.com/words/net/aspose.words.fields/formfield/ischeckboxexactsize/)</p>|
+|Text Input Type |Yes | |- [FormField.TextInputType](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputtype/)|
 
 ## Index and Tables
 
@@ -163,7 +163,7 @@ See the following links in the documentation for further information:
 |Bibliography |Yes |This field is not yet supported during field update. | |
 |Citation |Yes |This field is not yet supported during field update. | |
 |Hyperlink |Yes |This field is fully supported. No update of this field is required. | |
-|IncludePicture |Yes |This field is fully supported. No field update is required. <br><br>You can access all of the properties of the IncludePicture field including the image and its source. |- [Shape.ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/properties/imagedata)|
+|IncludePicture |Yes |This field is fully supported. No field update is required. <br><br>You can access all of the properties of the IncludePicture field including the image and its source. |- [Shape.ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/imagedata/)|
 |IncludeText |Yes |This field is supported. The field result of this field loaded from an existing document can be extracted and preserved during conversion. <br><br>Updating this field is partially supported. Currently only Word document sources are supported at the moment. Support for TXT and other MIME types is planned. | |
 |Link |Yes |Embedded objects are preserved and round-tripped correctly. However updating a linked object is currently unsupported. | |
 |NoteRef |Yes |Currently is unsupported on field update. | |

@@ -40,7 +40,7 @@ The following code example demonstrates how to insert fields nested within anoth
 
 ### Specify Locale at Field Level
 
-A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field#LocaleId) property, which gets or sets the field's locale ID.
+A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) property, which gets or sets the field's locale ID.
 
 The folowing code example shows how to use this option:
 
@@ -48,7 +48,7 @@ The folowing code example shows how to use this option:
 
 ### Insert Untyped/Empty Field
 
-If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder#insertField(int,boolean)) method with the [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
+If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) method with the [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
 The folowing code example shows how to insert an empty field into the document:
 

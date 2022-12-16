@@ -40,35 +40,35 @@ See the following links in the documentation for further information:
 |Western Languages |Yes | | |
 |East European Languages |Yes | | |
 |East Asian Languages |Yes | | |
-|Right to Left Languages |Yes | |<p>- [Font.Bidi](https://reference.aspose.com/words/net/aspose.words/font/properties/bidi) </p><p>- [Font.BoldBi](https://reference.aspose.com/words/net/aspose.words/font/properties/boldbi) </p><p>- [Font.LocaleIdBi](https://reference.aspose.com/words/net/aspose.words/font/properties/localeidbi)</p>|
+|Right to Left Languages |Yes | |<p>- [Font.Bidi](https://reference.aspose.com/words/net/aspose.words/font/bidi/) </p><p>- [Font.BoldBi](https://reference.aspose.com/words/net/aspose.words/font/boldbi/) </p><p>- [Font.LocaleIdBi](https://reference.aspose.com/words/net/aspose.words/font/localeidbi/)</p>|
 |Carriage Return (not a Paragraph Break) |Yes | | |
-|Non Breaking Space |Yes | |- [ControlChar.NonBreakingSpace](https://reference.aspose.com/words/net/aspose.words/ControlChar)|
+|Non Breaking Space |Yes | |- [ControlChar.NonBreakingSpace](https://reference.aspose.com/words/net/aspose.words/controlchar/)|
 |Non Breaking Hyphen |Yes | |- **ControlChar.NonBreakingHyphen**|
 |Soft Hyphen |Yes |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
-|Tab |Yes | |- [ControlChar.Tab](https://reference.aspose.com/words/net/aspose.words/ControlChar)|
+|Tab |Yes | |- [ControlChar.Tab](https://reference.aspose.com/words/net/aspose.words/controlchar/)|
 
 ### Breaks
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Line Break |Yes | |- [ControlChar.LineBreak](https://reference.aspose.com/words/net/aspose.words/ControlChar)|
+|Line Break |Yes | |- [ControlChar.LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/)|
 |Line Break Clear Type |Yes | | |
-|Page Break |Yes | |- [ControlChar.PageBreak](https://reference.aspose.com/words/net/aspose.words/ControlChar)|
-|Column Break |Yes | |- [ControlChar.ColumnBreak](https://reference.aspose.com/words/net/aspose.words/ControlChar)|
+|Page Break |Yes | |- [ControlChar.PageBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/)|
+|Column Break |Yes | |- [ControlChar.ColumnBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/)|
 
 #### General Formatting
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Character Style |Yes | |- [Font.Style](https://reference.aspose.com/words/net/aspose.words/font)|
-|Color |Yes | |- [Font.Color](https://reference.aspose.com/words/net/aspose.words/font)|
+|Character Style |Yes | |- [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/)|
+|Color |Yes | |- [Font.Color](https://reference.aspose.com/words/net/aspose.words/font/)|
 |East Asian Typography |Yes | | |
-|Highlight Color |Yes | |- [Font.HighlightColor](https://reference.aspose.com/words/net/aspose.words/font)|
-|Language |Yes | |<p>- [Font.LocaleId](https://reference.aspose.com/words/net/aspose.words/font) </p><p>- **Font.LocaleIdBi**</p>|
-|Do not Check Spelling or Grammar |Yes | |- [Font.NoProofing](https://reference.aspose.com/words/net/aspose.words/font)|
-|Border |Yes | |- [Font.Border](https://reference.aspose.com/words/net/aspose.words/font)|
-|Shading |Yes | |- [Font.Shading](https://reference.aspose.com/words/net/aspose.words/font)|
+|Highlight Color |Yes | |- [Font.HighlightColor](https://reference.aspose.com/words/net/aspose.words/font/)|
+|Language |Yes | |<p>- [Font.LocaleId](https://reference.aspose.com/words/net/aspose.words/font/) </p><p>- **Font.LocaleIdBi**</p>|
+|Do not Check Spelling or Grammar |Yes | |- [Font.NoProofing](https://reference.aspose.com/words/net/aspose.words/font/)|
+|Border |Yes | |- [Font.Border](https://reference.aspose.com/words/net/aspose.words/font/)|
+|Shading |Yes | |- [Font.Shading](https://reference.aspose.com/words/net/aspose.words/font/)|
 
 ##### Font
 
@@ -92,7 +92,7 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Underline Type |Yes |The underline property is used to both define if the run is underline and with what type of underline is used. |- **Font.Underline**|
-|Underline Color |Yes | |- [Font.UnderlineColor](https://reference.aspose.com/words/net/aspose.words/font/properties/UnderlineColor)|
+|Underline Color |Yes | |- [Font.UnderlineColor](https://reference.aspose.com/words/net/aspose.words/font/underlinecolor/)|
 
 ##### Text Effects
 
@@ -103,16 +103,16 @@ See the following link in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Animated Effect |Yes | | |
-|Double Strikethrough |Yes | |- [Font.DoubleStrikeThrough](https://reference.aspose.com/words/net/aspose.words/font/properties/DoubleStrikeThrough)|
-|Strikethrough |Yes | |- [Font.StrikeThrough](https://reference.aspose.com/words/net/aspose.words/font/properties/StrikeThrough)|
-|Subscript/Superscript |Yes | |<p>- [Font.Subscript](https://reference.aspose.com/words/net/aspose.words/font/properties/Subscript) </p><p>- [Font.Superscript](https://reference.aspose.com/words/net/aspose.words/font/properties/Superscript)</p>|
-|Shadow |Yes | |- [Font.Shadow](https://reference.aspose.com/words/net/aspose.words/font/properties/Shadow)|
-|Outline |Yes | |- [Font.Outline](https://reference.aspose.com/words/net/aspose.words/font/properties/Outline)|
-|Emboss |Yes | |- [Font.Emboss](https://reference.aspose.com/words/net/aspose.words/font/properties/Emboss)|
-|Imprint (Engrave) |Yes | |- [Font.Engrave](https://reference.aspose.com/words/net/aspose.words/font/properties/Engrave)|
-|Small Caps |Yes | |- [Font.SmallCaps](https://reference.aspose.com/words/net/aspose.words/font/properties/SmallCaps)|
-|All Caps |Yes | |- [Font.AllCaps](https://reference.aspose.com/words/net/aspose.words/font/properties/AllCaps)|
-|Hidden Text |Yes | |- [Font.Hidden](https://reference.aspose.com/words/net/aspose.words/font/properties/Hidden)|
+|Double Strikethrough |Yes | |- [Font.DoubleStrikeThrough](https://reference.aspose.com/words/net/aspose.words/font/doublestrikethrough/)|
+|Strikethrough |Yes | |- [Font.StrikeThrough](https://reference.aspose.com/words/net/aspose.words/font/strikethrough/)|
+|Subscript/Superscript |Yes | |<p>- [Font.Subscript](https://reference.aspose.com/words/net/aspose.words/font/subscript/) </p><p>- [Font.Superscript](https://reference.aspose.com/words/net/aspose.words/font/superscript/)</p>|
+|Shadow |Yes | |- [Font.Shadow](https://reference.aspose.com/words/net/aspose.words/font/shadow/)|
+|Outline |Yes | |- [Font.Outline](https://reference.aspose.com/words/net/aspose.words/font/outline/)|
+|Emboss |Yes | |- [Font.Emboss](https://reference.aspose.com/words/net/aspose.words/font/emboss/)|
+|Imprint (Engrave) |Yes | |- [Font.Engrave](https://reference.aspose.com/words/net/aspose.words/font/engrave/)|
+|Small Caps |Yes | |- [Font.SmallCaps](https://reference.aspose.com/words/net/aspose.words/font/smallcaps/)|
+|All Caps |Yes | |- [Font.AllCaps](https://reference.aspose.com/words/net/aspose.words/font/allcaps/)|
+|Hidden Text |Yes | |- [Font.Hidden](https://reference.aspose.com/words/net/aspose.words/font/hidden/)|
 |Special Hidden |Yes | | |
 |Web Hidden |Yes | | |
 
@@ -120,7 +120,7 @@ See the following link in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Scale |Yes | |- [Font.Scaling](https://reference.aspose.com/words/net/aspose.words/font/properties/Scaling)|
-|Expanded/Compressed |Yes | |- [Font.Spacing](https://reference.aspose.com/words/net/aspose.words/font/properties/Spacing)|
-|Vertical Position |Yes | |- [Font.Position](https://reference.aspose.com/words/net/aspose.words/font/properties/Position)|
+|Scale |Yes | |- [Font.Scaling](https://reference.aspose.com/words/net/aspose.words/font/scaling/)|
+|Expanded/Compressed |Yes | |- [Font.Spacing](https://reference.aspose.com/words/net/aspose.words/font/spacing/)|
+|Vertical Position |Yes | |- [Font.Position](https://reference.aspose.com/words/net/aspose.words/font/position/)|
 

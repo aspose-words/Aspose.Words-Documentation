@@ -123,15 +123,15 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|TextInput |Yes | |<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputdefault) </p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/textinputformat)</p>|
+|TextInput |Yes | |<p>- [FormField.TextInputDefault](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputdefault/) </p><p>- [FormField.TextInputFormat](https://reference.aspose.com/words/net/aspose.words.fields/formfield/textinputformat/)</p>|
 |CheckBox |Yes | |- **FormField.Type**|
-|DropDown |Yes | |<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownitems) </p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/dropdownselectedindex)</p>|
+|DropDown |Yes | |<p>- [FormField.DropDownItems](https://reference.aspose.com/words/net/aspose.words.fields/formfield/dropdownitems/) </p><p>- [FormField.DropDownSelectedIndex](https://reference.aspose.com/words/net/aspose.words.fields/formfield/dropdownselectedindex/)</p>|
 |Calc On Exit |N/A | | |
-|Checked |Yes | |- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/checked)|
+|Checked |Yes | |- [FormField.Checked](https://reference.aspose.com/words/net/aspose.words.fields/formfield/checked/)|
 |Default Value |Yes | |- **FormField.TextInputDefault**|
 |Enabled |N/A | | |
-|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/entrymacro) </p><p>- [FormField.ExitMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/exitmacro)</p>|
-|Name |Yes | |- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/properties/name)|
+|Entry and Exit Macro |Yes | |<p>- [FormField.EntryMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/entrymacro/) </p><p>- [FormField.ExitMacro](https://reference.aspose.com/words/net/aspose.words.fields/formfield/exitmacro/)</p>|
+|Name |Yes | |- [FormField.Name](https://reference.aspose.com/words/net/aspose.words.fields/formfield/name/)|
 |Help Text |N/A | | |
 |Status Text |N/A | | |
 |Max Length |N/A | | |

@@ -228,7 +228,7 @@ doc.save("output.docx")
 
 Related issue: WORDSNET-24142
 
-A new [List.has_same_template](https://reference.aspose.com/words/python-net/aspose.words.lists/list/has_same_template) public method has been added:
+A new [List.has_same_template](https://reference.aspose.com/words/python-net/aspose.words.lists/list/has_same_template/) public method has been added:
 {{< highlight python >}}
 class List:
     ...
@@ -237,7 +237,7 @@ class List:
         ...
 {{< /highlight >}}
 
-Use Case: Explains how to work with [List.has_same_template](https://reference.aspose.com/words/python-net/aspose.words.lists/list/has_same_template).
+Use Case: Explains how to work with [List.has_same_template](https://reference.aspose.com/words/python-net/aspose.words.lists/list/has_same_template/).
 {{< highlight python >}}
 list1 = document.lists[0]
 list2 = document.lists[1]

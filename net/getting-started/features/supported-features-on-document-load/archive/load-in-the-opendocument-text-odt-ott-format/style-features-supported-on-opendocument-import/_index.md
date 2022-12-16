@@ -39,9 +39,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |- [StyleType.Paragraph](https://reference.aspose.com/words/net/aspose.words/StyleType)|
-|Character Style |Yes | |- [StyleType.Character](https://reference.aspose.com/words/net/aspose.words/StyleType)|
-|List Style |Yes | |- [StyleType.List](https://reference.aspose.com/words/net/aspose.words/StyleType)|
+|Paragraph Style |Yes | |- [StyleType.Paragraph](https://reference.aspose.com/words/net/aspose.words/styletype/)|
+|Character Style |Yes | |- [StyleType.Character](https://reference.aspose.com/words/net/aspose.words/styletype/)|
+|List Style |Yes | |- [StyleType.List](https://reference.aspose.com/words/net/aspose.words/styletype/)|
 |Table Style |N/A | | |
 
 ## General
@@ -49,15 +49,15 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Aliases |N/A | | |
-|Based On |Yes | |- [Style.BaseStyleName](https://reference.aspose.com/words/net/aspose.words/style/properties/basestylename)|
-|Built-in Styles |Yes | |<p>- [Style.BuiltIn](https://reference.aspose.com/words/net/aspose.words/style/properties/builtin) </p><p>- [Style.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words/style/properties/styleidentifier)</p>|
+|Based On |Yes | |- [Style.BaseStyleName](https://reference.aspose.com/words/net/aspose.words/style/basestylename/)|
+|Built-in Styles |Yes | |<p>- [Style.BuiltIn](https://reference.aspose.com/words/net/aspose.words/style/builtin/) </p><p>- [Style.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words/style/styleidentifier/)</p>|
 |Custom Styles |Yes | | |
 |Linked Styles |N/A | | |
 |Style Name |Yes | |- **Style.Name**|
-|Next Style |Yes | |- [Style.NextParagraphStyleName](https://reference.aspose.com/words/net/aspose.words/style/properties/nextparagraphstylename)|
-|Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
-|Run Properties |Yes | |- [Style.Font](https://reference.aspose.com/words/net/aspose.words/style/properties/font)|
-|Bullets and Numbering |Yes | |<p>- [Style.List](https://reference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
+|Next Style |Yes | |- [Style.NextParagraphStyleName](https://reference.aspose.com/words/net/aspose.words/style/nextparagraphstylename/)|
+|Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/)|
+|Run Properties |Yes | |- [Style.Font](https://reference.aspose.com/words/net/aspose.words/style/font/)|
+|Bullets and Numbering |Yes | |<p>- [Style.List](https://reference.aspose.com/words/net/aspose.words/style/list/) </p><p>- [Style.ListFormat](https://reference.aspose.com/words/net/aspose.words/style/list/format)</p>|
 
 ## Document Defaults
 

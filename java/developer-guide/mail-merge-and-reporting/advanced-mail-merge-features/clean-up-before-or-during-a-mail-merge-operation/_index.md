@@ -16,7 +16,7 @@ Aspose.Words allows you to apply different cleaning and removing options such as
 
 ## Delete Merged Fields
 
-When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#deleteFields()) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#CleanupOptions) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
+When you are using some long template that is created by someone else, you may want to delete all the merge fields that already exist in that template before performing a mail merge operation. You can use the [DeleteFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#deleteFields) method if you want to delete all merge fields from a document without executing a mail merge operation. This method is not affected by any removing options of the [CleanupOptions](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getCleanupOptions) property and executing it only removes merged fields, not any containing fields or empty paragraphs.
 
 The following code example shows how to delete all merge fields from your template without executing a mail merge operation:
 
@@ -79,7 +79,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-**Note:** This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from many data sources by using separate calls of [ExecuteWithRegions](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#executeWithRegions(com.aspose.words.IMailMergeDataSource)) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
+**Note:** This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from many data sources by using separate calls of [ExecuteWithRegions](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#executeWithRegions-com.aspose.words.IMailMergeDataSource) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
 
 ### Remove Unused Fields
 

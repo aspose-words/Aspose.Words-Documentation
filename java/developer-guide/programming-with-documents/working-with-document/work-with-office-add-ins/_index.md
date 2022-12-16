@@ -33,7 +33,7 @@ The following code example shows how to create task panes and add to web extensi
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-WebExtension-WorkingWithWebExtension-UsingWebExtensionTaskPanes.java" >}}
 
-To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/Document#WebExtensionTaskPanes) property.
+To see a list of task pane add-ins, use the [WebExtensionTaskPanes](https://reference.aspose.com/words/java/com.aspose.words/document/#getWebExtensionTaskPanes) property.
 
 The following code example shows how to get such a list of add-ins:
 

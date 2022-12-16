@@ -100,7 +100,7 @@ Some features need Microsoft Office specific attributes, they are not currently 
 | :- | :- | :- | :- |
 |Right to Left Section |Yes |Supported on HTML export only. | |
 |Line Numbering |Planned | | |
-|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) </p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Source |Planned | |<p>- [PageSetup.FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/) </p><p>- **PageSetup.OtherPageTray**</p>|
 |Paper Size |Yes | | |
 |Orientation |Yes |Currently paper size depends on orientation as width and height are switched. <br><br>In the future we can also output native CSS 3 attributes. | |
 |Protection |N/A | | |

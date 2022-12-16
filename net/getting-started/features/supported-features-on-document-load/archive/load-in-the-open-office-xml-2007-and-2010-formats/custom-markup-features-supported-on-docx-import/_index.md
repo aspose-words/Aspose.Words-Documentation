@@ -66,5 +66,5 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Smart Tag Properties |Yes | |- [SmartTag.Properties](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/properties)|
+|Smart Tag Properties |Yes | |- [SmartTag.Properties](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/properties/)|
 

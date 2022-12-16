@@ -70,7 +70,7 @@ When you reference *Aspose.Words.dll* in the application, the library is copied 
 
 {{% alert color="primary" %}}
 
-Use the [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/methods/setlicense/index) method to license a component.
+Use the [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/#setlicense) method to license a component.
 
 Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
@@ -82,7 +82,7 @@ When developing your application, call **SetLicense** in your startup code befor
 
 ##### Load a License from a File
 
-Using the [SetLicense](https://reference.aspose.com/words/net/aspose.words.license/setlicense/methods/1) method, you can try to find the license file in the embedded resources or assembly folders for further use.
+Using the [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/) method, you can try to find the license file in the embedded resources or assembly folders for further use.
 
 The following code example shows how to initialize a license from a folder:
 
@@ -90,7 +90,7 @@ The following code example shows how to initialize a license from a folder:
 
 ##### Load a License from a Stream Object
 
-The following code example shows how to initialize a license from a stream using another [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/methods/setlicense) method:
+The following code example shows how to initialize a license from a stream using another [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/) method:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyLicenseFromStream-ApplyLicenseFromStream.cs" >}}
 
@@ -108,7 +108,7 @@ Aspose.Words allows developers to apply a metered key. This is a new licensing m
 
 The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
 
-After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/net/aspose.words/metered) class specially introduced for this purpose.
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/net/aspose.words/metered/) class specially introduced for this purpose.
 
 The following code example shows how to set metered public and private keys:
 
@@ -139,4 +139,4 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are a few useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
-* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/net/aspose.words/license) and Aspose.Cells has Aspose.Cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/net/aspose.words/license/) and Aspose.Cells has Aspose.Cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

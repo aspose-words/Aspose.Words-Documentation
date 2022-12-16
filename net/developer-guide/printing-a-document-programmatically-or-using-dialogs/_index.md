@@ -21,7 +21,7 @@ When developing a .NET application that produces some printed output, you can ty
 
 The classes within the *System.Drawing.Printing* namespace are not supported for use within a Windows service or an ASP.NET application or service, and attempting their use may produce decreased service performance, run-time exceptions, and other issues. The use of WPF to build Windows services is likewise not supported. Since WPF is a presentation technology, the Windows service requires appropriate permissions to perform visual operations involving user interaction. If the Windows service does not have such permissions, there may be unexpected results.
 
-The Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document) object provides a family of [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
+The Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) object provides a family of [Print](https://reference.aspose.com/words/net/aspose.words/document//methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
 
 ### Methods to Print a Document on a Server
 
@@ -44,7 +44,7 @@ The code example below shows how to print a document using the **XpsPrintHelper
 
 When you run the project, it prints a sample document on the specified printer and opens a console window to display print results. When the print job completes or errors out, the system will display a success message or text of the thrown exception.
 
-You can also set some print settings using the [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup) class. For example, in Microsoft Word, printer trays are defined for each section and are printer-specific. Therefore, you can programmatically change these values for each section via the [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray) and [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/otherpagestray) properties.
+You can also set some print settings using the [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) class. For example, in Microsoft Word, printer trays are defined for each section and are printer-specific. Therefore, you can programmatically change these values for each section via the [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup//properties/firstpagetray) and [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup//properties/otherpagestray) properties.
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ In some cases, you may need to use this sample without Aspose.Words. For example
 
 {{% /alert %}}
 
-There are two overloads of the **XpsPrintHelper**.**Print** method. The first overload takes a [Document](https://reference.aspose.com/words/net/aspose.words/document) object and saves it into a MemoryStream in the XPS format. The second overload accepts a Stream object. The stream must contain a document in the XPS format.
+There are two overloads of the **XpsPrintHelper**.**Print** method. The first overload takes a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object and saves it into a MemoryStream in the XPS format. The second overload accepts a Stream object. The stream must contain a document in the XPS format.
 
 You can download the examples of method overloading from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip).
 
@@ -62,7 +62,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 When working with documents, it is often required to print them to a selected printer. It is helpful to utilize a print preview dialog to visually inspect how the printed document will appear and choose relevant print options.
 
-The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument) class, based on the .NET **PrintDocument** class. An instance of this class can be passed to the **PrintPreviewDialog** form to preview and print the document. Also, the [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) class defines the output to transmit to a printer.
+The Aspose.Words has no built-in dialogs or forms but implements the [AsposeWordsPrintDocument](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/) class, based on the .NET **PrintDocument** class. An instance of this class can be passed to the **PrintPreviewDialog** form to preview and print the document. Also, the [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) class defines the output to transmit to a printer.
 
 The following example shows how to use these classes to print a document from Aspose.Words via the Print preview and Settings dialogs:
 
@@ -92,7 +92,7 @@ The result of this code example is shown below:
 
 ## Hiding the Print Progress Dialog When Printing a Document
 
-The Printing Progress Dialog does not appear when printing a document via the [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print) method. However, this dialog appears during printing with another [Print](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument) method. In this case, to prevent the Printing dialog from appearing, you should specify valid printer settings and a standard print controller in this method, as shown in the example below:
+The Printing Progress Dialog does not appear when printing a document via the [Print](https://reference.aspose.com/words/net/aspose.words/document/print/) method. However, this dialog appears during printing with another [Print](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/) method. In this case, to prevent the Printing dialog from appearing, you should specify valid printer settings and a standard print controller in this method, as shown in the example below:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintProgressDialog-PrintProgressDialog.cs" >}}
 
@@ -100,7 +100,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](ht
 
 ## How to Reduce the Time of the First Call to Print a Document
 
-Aspose.Words reads and caches some fields of **PrinterSettings** to reduce printing time. You can achieve this by calling the [CachePrinterSettings](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/methods/cacheprintersettings) method. This method is called before the printing starts if it was not executed previously. Note that the total time of printing with and without calling of this method is almost the same. The purpose of using this method is to reduce the time of the first call of the [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print) method. The following code example shows how to use this method:
+Aspose.Words reads and caches some fields of **PrinterSettings** to reduce printing time. You can achieve this by calling the [CachePrinterSettings](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/) method. This method is called before the printing starts if it was not executed previously. Note that the total time of printing with and without calling of this method is almost the same. The purpose of using this method is to reduce the time of the first call of the [Print](https://reference.aspose.com/words/net/aspose.words/document/print/) method. The following code example shows how to use this method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-Print_CachePrinterSettings-CachePrinterSettings.cs" >}}
 

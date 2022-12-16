@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-20-3-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 20.3](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.3).
+This page contains release notes for [Aspose.Words for Java 20.3](https://releases.aspose.com/words/java/20.3/).
 
 {{% /alert %}}
 
@@ -323,7 +323,7 @@ Console.WriteLine(doc.GetText());
 
 Related issue: WORDSNET-19999.
 
-The following obsolete property of [DigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/DigitalSignature) class was removed:
+The following obsolete property of [DigitalSignature](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/) class was removed:
 
 **.NET**
 
@@ -341,7 +341,7 @@ Please use the following property instead: [CertificateHolder.Certificate](http
 
 -----
 
-The following obsolete method of [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/CertificateHolder) class was removed:
+The following obsolete method of [CertificateHolder](https://reference.aspose.com/words/java/com.aspose.words/certificateholder/) class was removed:
 
 **.NET**
 

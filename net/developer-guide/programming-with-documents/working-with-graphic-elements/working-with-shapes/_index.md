@@ -9,7 +9,7 @@ weight: 10
 url: /net/working-with-shapes/
 ---
 
-This topic discusses how to work programmatically with shapes using Aspose.Words. The shapes in Aspose.Words represent an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. A Word document can contain one or more different shapes.  Shapes of the document are represented by the [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape) class.
+This topic discusses how to work programmatically with shapes using Aspose.Words. The shapes in Aspose.Words represent an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. A Word document can contain one or more different shapes.  Shapes of the document are represented by the [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) class.
 
 ## Inserting Shapes Using Document Builder
 

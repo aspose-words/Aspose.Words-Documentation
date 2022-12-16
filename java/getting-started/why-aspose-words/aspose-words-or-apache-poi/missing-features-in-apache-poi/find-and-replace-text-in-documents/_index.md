@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find and Replace Text in Documents
 second_title: Aspose.Words for Java
 articleTitle: Find and Replace Text in Documents
@@ -15,7 +15,7 @@ See more details in the ["Find and Replace"](/words/java/find-and-replace/) arti
 
 {{% /alert %}}
 
-Use one of the [Replace](https://reference.aspose.com/words/java/com.aspose.words/range#replace(java.lang.String,java.lang.String)) methods to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote.
+Use one of the [Replace](https://reference.aspose.com/words/java/com.aspose.words/range/#replace-java.lang.String-java.lang.String) methods to find or replace a particular string within the current range. It returns the number of replacements made, so it is useful for searching strings without replace. An exception is thrown if a captured or replacement string contains one or more special characters: paragraph break, cell break, section break, field start, field separator, field end, inline picture, drawing object, footnote.
 
 The following code example shows how to find some text and replace it:
 

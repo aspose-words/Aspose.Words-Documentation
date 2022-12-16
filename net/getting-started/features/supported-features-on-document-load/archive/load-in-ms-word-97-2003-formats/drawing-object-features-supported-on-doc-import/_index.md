@@ -279,13 +279,13 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Line Color |Yes | |<p>- [Stroke.Color](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/color/) </p><p>- [Stroke.Color2](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/color/2)</p>|
-|Line Fill |Yes | |- [Stroke.ImageBytes](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/properties/imagebytes)|
-|Line Width |Yes | |- [Stroke.Weight](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/properties/weight)|
+|Line Fill |Yes | |- [Stroke.ImageBytes](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/imagebytes/)|
+|Line Width |Yes | |- [Stroke.Weight](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/weight/)|
 |Compound Type |Yes | |- [Stroke.LineStyle](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/linestyle/)|
 |Dash Type |Yes | |- [Stroke.DashStyle](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/dashstyle/)|
 |Cap Type |Yes | |- **Stroke.Cap**|
 |Join Type |Yes | |- [Stroke.JoinStyle](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/joinstyle/)|
-|Arrow Settings |Yes | |<p>- [Stroke.StartArrowLength](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/properties/startarrowlength) </p><p>- [Stroke.StartArrowType](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/properties/startarrowtype) </p><p>- [Stroke.EndArrowLength](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/properties/endarrowlength) </p><p>- [Stroke.EndArrowType](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/properties/endarrowtype)</p>|
+|Arrow Settings |Yes | |<p>- [Stroke.StartArrowLength](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/startarrowlength/) </p><p>- [Stroke.StartArrowType](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/startarrowtype/) </p><p>- [Stroke.EndArrowLength](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/endarrowlength/) </p><p>- [Stroke.EndArrowType](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/endarrowtype/)</p>|
 
 ##### Shadow
 

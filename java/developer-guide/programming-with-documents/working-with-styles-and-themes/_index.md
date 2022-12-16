@@ -44,11 +44,11 @@ Both these methods are very similar, the only differences being the node types a
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-styles-ExtractContentBasedOnStyles-paragraphsByStyleName.java" >}}
 
-This implementation also uses the [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method of the Document class, which returns a collection of all immediate child nodes.
+This implementation also uses the [Document.getChildNodes()](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) method of the Document class, which returns a collection of all immediate child nodes.
 
-It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them.Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/Style#Name) property of the [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/Style#ParagraphFormat) object.
+It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them.Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) property of the [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat) object.
 
-The implementation of RunsByStyleName is almost the same, although we’re obviously using NodeType.Run to retrieve run nodes. The [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/Font#Style) property of a [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) object is used to access style information in the **Run** nodes. 
+The implementation of RunsByStyleName is almost the same, although we’re obviously using NodeType.Run to retrieve run nodes. The [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) property of a [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) object is used to access style information in the **Run** nodes. 
 
 The following code example finds all runs formatted with the specified style.
 

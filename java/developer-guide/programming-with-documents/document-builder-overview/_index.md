@@ -21,7 +21,7 @@ Operations that are possible with **DocumentBuilder** are also possible when usi
 
 ## Document Navigation
 
-Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToDocumentStart()) and [MoveToField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToField(com.aspose.words.Field,boolean)). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#write(java.lang.String)), [Writeln](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#writeln()), [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertBreak(int)), and others. See the following article "Navigation with Cursor" to learn more about the virtual cursor.
+Document navigation is based on the concept of a virtual cursor, with which you can move to another location in the document using various **DocumentBuilder.MoveToXXX** methods such as [MoveToDocumentStart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToDocumentStart) and [MoveToField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToField-com.aspose.words.Field-boolean). This virtual cursor indicates where the text will be inserted when calling the methods [Write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write-java.lang.String), [Writeln](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln), [InsertBreak](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertBreak-int), and others. See the following article "Navigation with Cursor" to learn more about the virtual cursor.
 
 The following code example shows how to navigate to a bookmark:
 
@@ -31,7 +31,7 @@ The following code example shows how to navigate to a bookmark:
 
 Aspose.Words API provides several classes that are responsible for formatting various elements of a document. Each of the classes encapsulates formatting properties related to a specific document element, such as text, paragraph, section, and others. For example, the [Font](https://reference.aspose.com/words/java/com.aspose.words/font/) class represents character formatting properties, the [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) class represents paragraph formatting properties, and so on. Objects of these classes are returned by the corresponding **DocumentBuilder** properties, which have the same names as the classes. Therefore, you can access them and set the desired formatting during the document build.
 
-You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertField(int,boolean)), [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertHtml(java.lang.String)), and similar methods.
+You can also insert text, checkbox, ole object, images, bookmarks, form fields, and other document elements at the cursor position using the Write method or any of the **DocumentBuilder.InsertXXX** methods, such as [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean), [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String), and similar methods.
 
 Let's see how to create a simple document using the **DocumentBuilder**.
 
@@ -47,7 +47,7 @@ The following code example shows how to create a simple document using a documen
 
 ### Specify Document Formatting
 
-The [Font](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#Font) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://reference.aspose.com/words/java/com.aspose.words/Font#Bold), [Font.Italic](https://reference.aspose.com/words/java/com.aspose.words/Font#Italic), and [Font.Underline](https://reference.aspose.com/words/java/com.aspose.words/Font#Underline) boolean properties.
+The [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) property defines text formatting. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by **DocumentBuilder** properties to allow you to access them directly. These are the [Font.Bold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.Italic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), and [Font.Underline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline) boolean properties.
 
 The following code example shows how to insert a formatted text using **DocumentBuilder**:
 
@@ -55,10 +55,10 @@ The following code example shows how to insert a formatted text using **Document
 
 {{% alert color="primary" %}}
 
-- [Font](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#Font) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
+- [Font](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getFont) specifies the character formatting that will be applied to all text inserted from the current position in the document onwards.
 - [ParagraphFormat](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/) specifies the paragraph formatting for the current and all paragraphs to be inserted.
 - [PageSetup](https://reference.aspose.com/words/java/com.aspose.words/pagesetup/) specifies the page and section properties for the current section and the entire section that will be inserted.
-- [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#CellFormat) and [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#RowFormat) specify formatting properties that will be applied to table cells and rows from the current position in the document onwards.
+- [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) and [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) specify formatting properties that will be applied to table cells and rows from the current position in the document onwards.
 
 In this situation, "current" means the position, paragraph, section, cell, or row in which the cursor is.
 

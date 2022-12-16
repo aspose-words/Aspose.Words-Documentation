@@ -54,11 +54,11 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes |Styles are imported from embedded or external style sheets. If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). To make sure styles are imported use a style sheet of any kind. There is a load option to control whether embedded or external style sheets are read or skipped during HTML import. There is also an option to supply your own CSS style sheet instead. |<p>- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/ParagraphFormat) </p><p>- [ParagraphFormat.Style](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/style)</p>|
-|Alignment |Yes |Imported from the "text-align" paragraph style attribute. |- [ParagraphFormat.Alignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/alignment)|
-|Right to Left Paragraph |Planned | |- [ParagraphFormat.Bidi](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/bidi)|
+|Paragraph Style |Yes |Styles are imported from embedded or external style sheets. If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). To make sure styles are imported use a style sheet of any kind. There is a load option to control whether embedded or external style sheets are read or skipped during HTML import. There is also an option to supply your own CSS style sheet instead. |<p>- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) </p><p>- [ParagraphFormat.Style](https://reference.aspose.com/words/net/aspose.words/paragraphformat/style/)</p>|
+|Alignment |Yes |Imported from the "text-align" paragraph style attribute. |- [ParagraphFormat.Alignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/alignment/)|
+|Right to Left Paragraph |Planned | |- [ParagraphFormat.Bidi](https://reference.aspose.com/words/net/aspose.words/paragraphformat/bidi/)|
 |Bullets and Numbers |Yes |Imported from &lt;ol&gt;, &lt;ul&gt;, &lt;li&gt; tags. <br><br>Simulated lists using &lt;p&gt; and &lt;span&gt; look correct but will not be imported as proper lists in the DOM. |<p>- **ParagraphFormat.ListFormat** </p><p>- **ParagraphFormat.ListLabel**</p>|
-|Outline Level |Planned | |- [ParagraphFormat.OutlineLevel](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/outlinelevel)|
+|Outline Level |Planned | |- [ParagraphFormat.OutlineLevel](https://reference.aspose.com/words/net/aspose.words/paragraphformat/outlinelevel/)|
 |Run Properties for the Paragraph Mark |Planned |Can be implemented with Microsoft Office specific techniques. <br><br>During import the formatting from the last span from &lt;p&gt; becomes the font properties for the paragraph. |- **ParagraphFormat.ParagraphBreakFont**|
 |Suppress Line Numbers |Planned | |- **ParagraphFormat.SurpressLineNumbers**|
 |Suppress Hyphenation |Planned | |- **ParagraphFormat.SurpressAutoHyphens**|
@@ -67,9 +67,9 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Left Indent |Yes |Imported from margin-left on style attribute. |- [ParagraphFormat.LeftIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/leftindent)|
-|Right Indent |Yes |Imported from margin-right on style attribute. |- [ParagraphFormat.RightIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/rightindent)|
-|First Line Indent |Yes |Imported from text-indent on style attribute. |- [ParagraphFormat.FirstLineIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/firstlineindent)|
+|Left Indent |Yes |Imported from margin-left on style attribute. |- [ParagraphFormat.LeftIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/leftindent/)|
+|Right Indent |Yes |Imported from margin-right on style attribute. |- [ParagraphFormat.RightIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/rightindent/)|
+|First Line Indent |Yes |Imported from text-indent on style attribute. |- [ParagraphFormat.FirstLineIndent](https://reference.aspose.com/words/net/aspose.words/paragraphformat/firstlineindent/)|
 |Hanging Indent |Yes |Imported from a combination of margin-left and text-indent style attribute. |- **ParagraphFormat.FirstLineIndent**|
 |Mirror Indents |N/A | | |
 |Automatically Adjust Right Indent |N/A | | |
@@ -78,21 +78,21 @@ When there is conflicting formatting on inline and embedded/external CSS, as wit
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Space Before |Yes |Imported from "margin-top" style attribute. <br><br>If this attribute is missing from a paragraph during import from HTML then Space Before is set to Auto. |- [ParagraphFormat.SpaceBefore](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebefore)|
-|Space After |Yes |Imported from "margin-bottom" style attribute. <br><br>If this attribute is missing from a paragraph during import from HTML then Space After is set to Auto. |- [ParagraphFormat.SpaceAfter](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafter)|
-|Space Auto |Yes |Paragraphs imported from HTML without margin-top or margin-bottom style attributes are imported as Auto spacing by default. |<p>- [ParagraphFormat.SpaceBeforeAuto](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spacebeforeauto) </p><p>- [ParagraphFormat.SpaceAfterAuto](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/spaceafterauto)</p>|
-|Line Spacing |Yes |Imported from "line-height" style attribute. |<p>- [ParagraphFormat.LineSpacing](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacing) </p><p>- [ParagraphFormat.LineSpacingRule](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/linespacingrule)</p>|
-|No Space between Conforming Paragraphs |Planned | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/nospacebetweenparagraphsofsamestyle)|
+|Space Before |Yes |Imported from "margin-top" style attribute. <br><br>If this attribute is missing from a paragraph during import from HTML then Space Before is set to Auto. |- [ParagraphFormat.SpaceBefore](https://reference.aspose.com/words/net/aspose.words/paragraphformat/spacebefore/)|
+|Space After |Yes |Imported from "margin-bottom" style attribute. <br><br>If this attribute is missing from a paragraph during import from HTML then Space After is set to Auto. |- [ParagraphFormat.SpaceAfter](https://reference.aspose.com/words/net/aspose.words/paragraphformat/spaceafter/)|
+|Space Auto |Yes |Paragraphs imported from HTML without margin-top or margin-bottom style attributes are imported as Auto spacing by default. |<p>- [ParagraphFormat.SpaceBeforeAuto](https://reference.aspose.com/words/net/aspose.words/paragraphformat/spacebeforeauto/) </p><p>- [ParagraphFormat.SpaceAfterAuto](https://reference.aspose.com/words/net/aspose.words/paragraphformat/spaceafterauto/)</p>|
+|Line Spacing |Yes |Imported from "line-height" style attribute. |<p>- [ParagraphFormat.LineSpacing](https://reference.aspose.com/words/net/aspose.words/paragraphformat/linespacing/) </p><p>- [ParagraphFormat.LineSpacingRule](https://reference.aspose.com/words/net/aspose.words/paragraphformat/linespacing/rule)</p>|
+|No Space between Conforming Paragraphs |Planned | |- [ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle](https://reference.aspose.com/words/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/)|
 |Snap To Grid |Planned | | |
 
 ## Keeps and Breaks
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Widow/Orphan Control |Yes |Imported from "widows" CSS attribute. <br><br>A value of 0 from this attribute is imported as Widow/Orphan control as being disabled. A value of 1 or greater is imported as enabled. <br><br>A paragraph without this attrubite is automatically given Widow/Orphan control in the model. |- [ParagraphFormat.WidowControl](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/widowcontrol)|
-|Keep With Next |Yes |Imported from style attribute with "page-break-after:avoid". |- [ParagraphFormat.KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/keepwithnext)|
-|Keep Lines Together |Yes |Imported from style attribute with "page-break-inside:avoid". |- [ParagraphFormat.KeepTogether](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/keeptogether)|
-|Page Break Before |Yes |Imported from "page-break-before" on style attribute. |- [ParagraphFormat.PageBreakBefore](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/pagebreakbefore)|
+|Widow/Orphan Control |Yes |Imported from "widows" CSS attribute. <br><br>A value of 0 from this attribute is imported as Widow/Orphan control as being disabled. A value of 1 or greater is imported as enabled. <br><br>A paragraph without this attrubite is automatically given Widow/Orphan control in the model. |- [ParagraphFormat.WidowControl](https://reference.aspose.com/words/net/aspose.words/paragraphformat/widowcontrol/)|
+|Keep With Next |Yes |Imported from style attribute with "page-break-after:avoid". |- [ParagraphFormat.KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/)|
+|Keep Lines Together |Yes |Imported from style attribute with "page-break-inside:avoid". |- [ParagraphFormat.KeepTogether](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keeptogether/)|
+|Page Break Before |Yes |Imported from "page-break-before" on style attribute. |- [ParagraphFormat.PageBreakBefore](https://reference.aspose.com/words/net/aspose.words/paragraphformat/pagebreakbefore/)|
 
 ## Text Frames
 
@@ -124,10 +124,10 @@ See the following link in the documentation for further information:
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Absolute Position |Planned | |- [TabStop.Position](https://reference.aspose.com/words/net/aspose.words/tabstop/properties/position)|
-|Relative Position |Planned |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. <br><br>This feature might be supported during HTML import if a proper analog can be found. |- [AbsolutePositionTab](https://reference.aspose.com/words/net/aspose.words/AbsolutePositionTab)|
-|Alignment: Left, Center, Right, Decimal, Bar |Planned | |- [TabStop.Alignment](https://reference.aspose.com/words/net/aspose.words/tabstop/properties/alignment)|
-|Leader |Planned | |- [TabStop.Leader](https://reference.aspose.com/words/net/aspose.words/tabstop/properties/leader)|
+|Absolute Position |Planned | |- [TabStop.Position](https://reference.aspose.com/words/net/aspose.words/tabstop/position/)|
+|Relative Position |Planned |A relative position tab can be inserted in Microsoft Word using the "Insert Alignment Tab" button. This type of tab is relative to either the page margin or the indent of the paragraph. <br><br>This allows tab stops to appear in the same relative place even when the position of the paragraph or page is modified. <br><br>Currently Aspose.Words supports these types of tab stops in OOXML and WordML formats only. There is currently no API to retrieve the properties of this tab e.g RelativeTo, Alignment, Leader etc. Further support is planned. <br><br>This feature might be supported during HTML import if a proper analog can be found. |- [AbsolutePositionTab](https://reference.aspose.com/words/net/aspose.words/absolutepositiontab/)|
+|Alignment: Left, Center, Right, Decimal, Bar |Planned | |- [TabStop.Alignment](https://reference.aspose.com/words/net/aspose.words/tabstop/alignment/)|
+|Leader |Planned | |- [TabStop.Leader](https://reference.aspose.com/words/net/aspose.words/tabstop/leader/)|
 
 ## Drop Caps
 
@@ -156,13 +156,13 @@ A div with embedded or linked CSS containing a border style has all of the parag
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/borders) </p><p>- [LineStyle](https://reference.aspose.com/words/net/aspose.words/LineStyle)</p>|
-|Shadow |Planned | |- [Border.Shadow](https://reference.aspose.com/words/net/aspose.words/border/properties/shadow)|
-|3D Frame |Planned | |- [Border.LineStyle](https://reference.aspose.com/words/net/aspose.words/border/properties/linestyle)|
+|Border Sides |Yes | |<p>- [ParagraphFormat.Borders](https://reference.aspose.com/words/net/aspose.words/paragraphformat/borders/) </p><p>- [LineStyle](https://reference.aspose.com/words/net/aspose.words/linestyle/)</p>|
+|Shadow |Planned | |- [Border.Shadow](https://reference.aspose.com/words/net/aspose.words/border/shadow/)|
+|3D Frame |Planned | |- [Border.LineStyle](https://reference.aspose.com/words/net/aspose.words/border/linestyle/)|
 |Style |Yes | |- **Border.LineStyle**|
-|Color |Yes | |- [Border.Color](https://reference.aspose.com/words/net/aspose.words/border/properties/color)|
-|Width |Yes | |- [Border.LineWidth](https://reference.aspose.com/words/net/aspose.words/border/properties/linewidth)|
-|Distance from Text |Yes |Imported from "padding-xxx" settings. |- [Border.DistanceFromText](https://reference.aspose.com/words/net/aspose.words/border/properties/distancefromtext)|
+|Color |Yes | |- [Border.Color](https://reference.aspose.com/words/net/aspose.words/border/color/)|
+|Width |Yes | |- [Border.LineWidth](https://reference.aspose.com/words/net/aspose.words/border/linewidth/)|
+|Distance from Text |Yes |Imported from "padding-xxx" settings. |- [Border.DistanceFromText](https://reference.aspose.com/words/net/aspose.words/border/distancefromtext/)|
 
 ## Shading
 

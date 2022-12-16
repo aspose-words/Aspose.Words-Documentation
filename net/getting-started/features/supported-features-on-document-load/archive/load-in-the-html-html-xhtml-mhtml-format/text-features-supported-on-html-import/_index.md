@@ -42,35 +42,35 @@ See the following links in the documentation for further information:
 |Western Languages |Yes | | |
 |East European Languages |Yes | | |
 |East Asian Languages |Yes | | |
-|Right to Left Languages |Yes |Imported from dir attribute on span. |<p>- [Font.Bidi](https://reference.aspose.com/words/net/aspose.words/font/properties/bidi) </p><p>- [Font.BoldBi](https://reference.aspose.com/words/net/aspose.words/font/properties/boldbi) </p><p>- [Font.LocaleIdBi](https://reference.aspose.com/words/net/aspose.words/font/properties/localeidbi)</p>|
+|Right to Left Languages |Yes |Imported from dir attribute on span. |<p>- [Font.Bidi](https://reference.aspose.com/words/net/aspose.words/font/bidi/) </p><p>- [Font.BoldBi](https://reference.aspose.com/words/net/aspose.words/font/boldbi/) </p><p>- [Font.LocaleIdBi](https://reference.aspose.com/words/net/aspose.words/font/localeidbi/)</p>|
 |Carriage Return (not a Paragraph Break) |Yes | | |
-|Non Breaking Space |Yes |Imported from " " entity code. |- [ControlChar.NonBreakingSpace](https://reference.aspose.com/words/net/aspose.words/controlchar/fields/nonbreakingspace)|
+|Non Breaking Space |Yes |Imported from " " entity code. |- [ControlChar.NonBreakingSpace](https://reference.aspose.com/words/net/aspose.words/controlchar/nonbreakingspace/)|
 |Non Breaking Hyphen |Planned | |- **ControlChar.NonBreakingHyphen**|
 |Soft Hyphen |Planned |This type of hyphen is referred to as an "Optional Hyphen" in Microsoft Word documents. |- **ControlChar.OptionalHyphen**|
 |Symbol |Yes | | |
-|Tab |Planned |There is no equivalent of a tab in HTML documents. Tabs are currently exported as a series of non-breaking spaces. <br><br>These are imported back as a series of non-breaking spaces but there is a work around to replace these with proper tabs. <br><br>It is planne to import the special Microsoft Word mso attribute to properly import tab sequences. |- [ControlChar.Tab](https://reference.aspose.com/words/net/aspose.words/controlchar/fields/tab)|
+|Tab |Planned |There is no equivalent of a tab in HTML documents. Tabs are currently exported as a series of non-breaking spaces. <br><br>These are imported back as a series of non-breaking spaces but there is a work around to replace these with proper tabs. <br><br>It is planne to import the special Microsoft Word mso attribute to properly import tab sequences. |- [ControlChar.Tab](https://reference.aspose.com/words/net/aspose.words/controlchar/tab/)|
 
 ## Breaks
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Line Break |Yes |Imported from &lt;br&gt; element. |- [ControlChar.LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/fields/linebreak)|
+|Line Break |Yes |Imported from &lt;br&gt; element. |- [ControlChar.LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreak/)|
 |Line Break Clear Type |Yes | | |
-|Page Break |Yes |Imported from &lt;br style="page-break-before:always; clear:both"&gt; |- [ControlChar.PageBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/fields/pagebreak)|
-|Column Break |Yes |Imported using the Microsoft Office attribute on break: style="mso-column-break-before:always" |- [ControlChar.ColumnBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/fields/columnbreak)|
+|Page Break |Yes |Imported from &lt;br style="page-break-before:always; clear:both"&gt; |- [ControlChar.PageBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/pagebreak/)|
+|Column Break |Yes |Imported using the Microsoft Office attribute on break: style="mso-column-break-before:always" |- [ControlChar.ColumnBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/columnbreak/)|
 
 ## General Formatting
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Character Style |Yes |Character style is imported from either inline CSS (style) or embedded or linked CSS style sheet (class) on span elements. <br><br>Inline CSS (from style attribute) is imported as direct formatting on the text (stored in the Font of the Run node). An Embedded or Linked CSS style (through the class attribute) is imported as a Style and applied to the Run node in the document. This formatting can be accessed using the Run.Font.Style property. A linked CSS sheet can also be downloaded from an external address on the internet. <br><br>When there is conflicting formatting on inline and embedded/external CSS, as with CSS the formatting from inline styles are taken first, then the embedded formatting and finally the external formatting. <br><br>Styles are imported from embedded or external style sheets. If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). To make sure styles are imported use a CSS style sheet of any kind. There is a load option to control whether embedded or external style sheets are read or skipped during HTML import. There is also an option to supply your own CSS style sheet instead. |<p>- [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/properties/style) </p><p>- **LoadOptions.ResourceLoadingCallback**</p>|
-|Color |Yes |Imported from color on style attribute. |- [Font.Color](https://reference.aspose.com/words/net/aspose.words/font/properties/color)|
+|Character Style |Yes |Character style is imported from either inline CSS (style) or embedded or linked CSS style sheet (class) on span elements. <br><br>Inline CSS (from style attribute) is imported as direct formatting on the text (stored in the Font of the Run node). An Embedded or Linked CSS style (through the class attribute) is imported as a Style and applied to the Run node in the document. This formatting can be accessed using the Run.Font.Style property. A linked CSS sheet can also be downloaded from an external address on the internet. <br><br>When there is conflicting formatting on inline and embedded/external CSS, as with CSS the formatting from inline styles are taken first, then the embedded formatting and finally the external formatting. <br><br>Styles are imported from embedded or external style sheets. If there is no linked style sheet of either of these kinds then the document is imported with no styles (apart from default Normal style). To make sure styles are imported use a CSS style sheet of any kind. There is a load option to control whether embedded or external style sheets are read or skipped during HTML import. There is also an option to supply your own CSS style sheet instead. |<p>- [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) </p><p>- **LoadOptions.ResourceLoadingCallback**</p>|
+|Color |Yes |Imported from color on style attribute. |- [Font.Color](https://reference.aspose.com/words/net/aspose.words/font/color/)|
 |East Asian Typography |Planned | | |
-|Highlight Color |Planned |Highlight is imported as a solid pattern. <br><br>Can be made to round-trip with some research. |- [Font.HighlightColor](https://reference.aspose.com/words/net/aspose.words/font/properties/highlightcolor)|
-|Language |Yes |Imported from lang attribute on &lt;span&gt;. <br><br>If this attribute is missing then the default language for the document is used. |<p>- [Font.LocaleId](https://reference.aspose.com/words/net/aspose.words/font/properties/localeid) </p><p>- **Font.LocaleIdBi**</p>|
-|Do not Check Spelling or Grammar |Planned | |- [Font.NoProofing](https://reference.aspose.com/words/net/aspose.words/font/properties/noproofing)|
-|Border |Yes |Imported from border-style, border-width, border-color on &lt;span&gt;. |- [Font.Border](https://reference.aspose.com/words/net/aspose.words/font/properties/border)|
-|Shading |Yes |Imported from background-color on &lt;span&gt;. <br><br>Imported into the model as solid pattern on Run. |- [Font.Shading](https://reference.aspose.com/words/net/aspose.words/font/properties/shading)|
+|Highlight Color |Planned |Highlight is imported as a solid pattern. <br><br>Can be made to round-trip with some research. |- [Font.HighlightColor](https://reference.aspose.com/words/net/aspose.words/font/highlightcolor/)|
+|Language |Yes |Imported from lang attribute on &lt;span&gt;. <br><br>If this attribute is missing then the default language for the document is used. |<p>- [Font.LocaleId](https://reference.aspose.com/words/net/aspose.words/font/localeid/) </p><p>- **Font.LocaleIdBi**</p>|
+|Do not Check Spelling or Grammar |Planned | |- [Font.NoProofing](https://reference.aspose.com/words/net/aspose.words/font/noproofing/)|
+|Border |Yes |Imported from border-style, border-width, border-color on &lt;span&gt;. |- [Font.Border](https://reference.aspose.com/words/net/aspose.words/font/border/)|
+|Shading |Yes |Imported from background-color on &lt;span&gt;. <br><br>Imported into the model as solid pattern on Run. |- [Font.Shading](https://reference.aspose.com/words/net/aspose.words/font/shading/)|
 
 ## Font
 
@@ -108,7 +108,7 @@ See the following link in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Underline Type |N/A | | |
-|Underline Color |Planned |Can be imported from a bottom border with different color from text. |- [Font.UnderlineColor](https://reference.aspose.com/words/net/aspose.words/font/properties/underlinecolor)|
+|Underline Color |Planned |Can be imported from a bottom border with different color from text. |- [Font.UnderlineColor](https://reference.aspose.com/words/net/aspose.words/font/underlinecolor/)|
 
 ## Text Effects
 
@@ -120,15 +120,15 @@ See the following link in the documentation for further information:
 | :- | :- | :- | :- |
 |Animated Effect |N/A | | |
 |Double Strikethrough |N/A | | |
-|Strikethrough |Yes |Imported from text-decoration:line-through on &lt;span&gt; style. |- [Font.StrikeThrough](https://reference.aspose.com/words/net/aspose.words/font/properties/strikethrough)|
-|Subscript/Superscript |Yes |Imported from vertical-align:sub and vertical-align:super on &lt;span&gt; style. |<p>- [Font.Subscript](https://reference.aspose.com/words/net/aspose.words/font/properties/subscript) </p><p>- [Font.Superscript](https://reference.aspose.com/words/net/aspose.words/font/properties/superscript)</p>|
+|Strikethrough |Yes |Imported from text-decoration:line-through on &lt;span&gt; style. |- [Font.StrikeThrough](https://reference.aspose.com/words/net/aspose.words/font/strikethrough/)|
+|Subscript/Superscript |Yes |Imported from vertical-align:sub and vertical-align:super on &lt;span&gt; style. |<p>- [Font.Subscript](https://reference.aspose.com/words/net/aspose.words/font/subscript/) </p><p>- [Font.Superscript](https://reference.aspose.com/words/net/aspose.words/font/superscript/)</p>|
 |Shadow |N/A | | |
 |Outline |N/A | | |
 |Emboss |N/A | | |
 |Imprint (Engrave) |N/A | | |
-|Small Caps |Yes |Imported from style="font-variant:small-caps". |- [Font.SmallCaps](https://reference.aspose.com/words/net/aspose.words/font/properties/smallcaps)|
-|All Caps |Yes |Imported from style="text-transform:uppercase". |- [Font.AllCaps](https://reference.aspose.com/words/net/aspose.words/font/properties/allcaps)|
-|Hidden Text |Yes |Imported from style="display:none". |- [Font.Hidden](https://reference.aspose.com/words/net/aspose.words/font/properties/hidden)|
+|Small Caps |Yes |Imported from style="font-variant:small-caps". |- [Font.SmallCaps](https://reference.aspose.com/words/net/aspose.words/font/smallcaps/)|
+|All Caps |Yes |Imported from style="text-transform:uppercase". |- [Font.AllCaps](https://reference.aspose.com/words/net/aspose.words/font/allcaps/)|
+|Hidden Text |Yes |Imported from style="display:none". |- [Font.Hidden](https://reference.aspose.com/words/net/aspose.words/font/hidden/)|
 |Special Hidden |Planned | | |
 |Web Hidden |Planned | | |
 
@@ -137,6 +137,6 @@ See the following link in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Scale |N/A | | |
-|Expanded/Compressed |Yes |Imported from <br><br>style="letter-spacing:XXXpt". |- [Font.Spacing](https://reference.aspose.com/words/net/aspose.words/font/properties/spacing)|
-|Vertical Position |Yes |Imported from "vertical-align:XXXpt". |- [Font.Position](https://reference.aspose.com/words/net/aspose.words/font/properties/position)|
+|Expanded/Compressed |Yes |Imported from <br><br>style="letter-spacing:XXXpt". |- [Font.Spacing](https://reference.aspose.com/words/net/aspose.words/font/spacing/)|
+|Vertical Position |Yes |Imported from "vertical-align:XXXpt". |- [Font.Position](https://reference.aspose.com/words/net/aspose.words/font/position/)|
 

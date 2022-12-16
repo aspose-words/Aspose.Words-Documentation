@@ -21,7 +21,7 @@ To store a document in a database or to prepare a document for transmission acro
 
 To serialize a [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) object in Aspose.Words:
 
-1. Save it to a **MemoryStream** using the [Save](https://reference.aspose.com/words/java/com.aspose.words/Document#save\(java.io.OutputStream,int\)) method overload of the **Document** class.
+1. Save it to a **MemoryStream** using the [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-int) method overload of the **Document** class.
 1. Call the **ToArray** method, which returns an array of bytes representing the document in byte form.
 
 The steps above then can be reversed to load the bytes back into a **Document** object.

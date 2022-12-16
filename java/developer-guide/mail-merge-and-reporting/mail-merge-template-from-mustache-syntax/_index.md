@@ -42,7 +42,7 @@ As you notice from the example above, in Mustache you need to use curly braces f
 
 ## Work with Mustache Syntax
 
-Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [UseNonMergeFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge#UseNonMergeFields) property and set its value to *True*.
+Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [UseNonMergeFields](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getUseNonMergeFields) property and set its value to *True*.
 
 The following code example shows how to replace the Mustache tags with specific data:
 

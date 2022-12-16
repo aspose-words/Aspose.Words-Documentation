@@ -1,4 +1,4 @@
-﻿---
+---
 title: Evaluation Version Limitations
 second_title: Aspose.Words for Reporting Services
 articleTitle: Evaluation Version Limitations
@@ -15,7 +15,7 @@ Make sure to take advantage of the free Aspose.Words for Reporting Services eval
 
 {{% /alert %}}
 
-It is the same download for both the evaluation and the paid version of Aspose.Words for Reporting Services. Simply download Aspose.Words for Reporting Services from the [download page](https://www.aspose.com/community/files/52/ssrs-rendering-extensions/aspose.words-for-reporting-services/default.aspx) , install it and it will work in the evaluation mode.
+It is the same download for both the evaluation and the paid version of Aspose.Words for Reporting Services. Simply download Aspose.Words for Reporting Services from the [download page](https://releases.aspose.com/words/reportingservices/) , install it and it will work in the evaluation mode.
 
 Evaluation mode injects watermarks into exported reports and limits them to several pages. When you have purchased a license, simply copy the license file to the appropriate folder and Aspose.Words for Reporting Services will then work in the licensed mode.
 

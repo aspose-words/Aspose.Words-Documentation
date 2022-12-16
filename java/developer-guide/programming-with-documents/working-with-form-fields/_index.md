@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Form Fields in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Form Fields
@@ -49,7 +49,7 @@ Placing form fields into the document via code is easy. DocumentBuilder has spec
 
 ### Inserting Form Fields
 
-Use [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertTextInput(java.lang.String,int,java.lang.String,java.lang.String,int))**,** [DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertCheckBox(java.lang.String,boolean,boolean,int)) or DocumentBuilder.insertComboBox (https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertComboBox(java.lang.String,java.lang.String[],int)) to insert form fields into a document. Below example shows how to insert a combobox form field into a document.
+Use [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int) or DocumentBuilder.insertComboBox (https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertComboBox(java.lang.String,java.lang.String[],int)) to insert form fields into a document. Below example shows how to insert a combobox form field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFormFields-InsertFormFields.java" >}}
 
@@ -73,7 +73,7 @@ Call DocumentBuilder.InsertComboBox to insert a Combobox into the document. Th
 
 ### Obtaining Form Fields
 
-A collection of form fields is represented by the [FormFieldCollection](https://reference.aspose.com/words//java/com.aspose.words/formfieldcollection) class that can be retrieved using the [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range#FormFields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
+A collection of form fields is represented by the [FormFieldCollection](https://reference.aspose.com/words//java/com.aspose.words/formfieldcollection) class that can be retrieved using the [Range.getFormFields](https://reference.aspose.com/words/java/com.aspose.words/range/#getFormFields) property. This means that you can obtain form fields contained in any document node including the document itself. The code example given below shows how to get a collection of form fields. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Java/blob/master/Examples/Data/Form%20fields.docx).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.java" >}}
 

@@ -71,16 +71,16 @@ When creating a layout, it is also possible to set up [LayoutOptions](https://r
 
 After the page layout is built and the geometry of objects and their position on the page are calculated, the document can be saved in a fixed-page format supported by Aspose.Words. When saving documents to fixed-page formats, the rendering options common to all of these formats can be used. They allow to control:
 
-- The number and range of pages contained in the output document ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageIndex), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageCount)).
-- Progress of page-by-page document saving ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#PageSavingCallback)).
-- A set of characters that are used to numbers rendering ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#NumeralFormat)).
-- A metafile player ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#MetafileRenderingOptions)). For more details, see the ["Handling Windows Metafiles"](/words/java/handling-windows-metafiles/) article.
+- The number and range of pages contained in the output document ([PageIndex](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/), [PageCount](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
+- Progress of page-by-page document saving ([PageSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
+- A set of characters that are used to numbers rendering ([NumeralFormat](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
+- A metafile player ([MetafileRenderingOptions](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/). For more details, see the ["Handling Windows Metafiles"](/words/java/handling-windows-metafiles/) article.
 - A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
-- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#OptimizeOutput)).
-- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#UseHighQualityRendering)).
-- Saving the document in grayscale ([ColorMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#ColorMode)).
-- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#DmlRenderingMode)).
-- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions#DmlEffectsRenderingMode)).
+- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
+- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getUseAntiAliasing), [UseHighQualityRendering](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
+- Saving the document in grayscale ([ColorMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
+- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
+- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/).
 
 The example below demonstrates how to save a document to JPEG format using the Save method and rendering options:
 

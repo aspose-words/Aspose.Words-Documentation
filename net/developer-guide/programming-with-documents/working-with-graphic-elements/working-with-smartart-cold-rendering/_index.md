@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with SmartArt Cold Rendering in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with SmartArt Cold Rendering
@@ -20,7 +20,7 @@ Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
 * If a pre-rendered drawing is available, Aspose.Words uses it to render the SmartArt object.
 * If pre-rendered drawing is missing, Aspose.Words implicitly performs cold rendering to render the SmartArt object.
-* If a pre-rendered drawing is present but is incorrect, it is required to perform SmartArt cold rendering explicitly by calling [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/methods/updatesmartartdrawing) method.
+* If a pre-rendered drawing is present but is incorrect, it is required to perform SmartArt cold rendering explicitly by calling [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/) method.
 
 The following code example shows how to update drawings for all diagrams in the document:
 

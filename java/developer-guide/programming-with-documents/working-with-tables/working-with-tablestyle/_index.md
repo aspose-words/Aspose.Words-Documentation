@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Table Styles in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Table Styles
@@ -30,7 +30,7 @@ Aspose.Words supports applying a table style to a table and also reading propert
 
 ### Applying a Table Style
 
-In Aspose.Words you can apply a table style by using any of the [Table.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/Table#getStyle\(\)), [Table.setStyleIdentifier(int)](https://reference.aspose.com/words/java/com.aspose.words/table#setStyleIdentifier\(int\)) and [Table.getStyleName()](https://reference.aspose.com/words/java/com.aspose.words/table#getStyleName\(\)) properties. You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using [Table.setStyleOptions(int)](https://reference.aspose.com/words/java/com.aspose.words/table#setStyleOptions\(int\)) property. The TableStyleOptions enumeration allows a bitwise combination of these features. Below example shows how to build a new table with a table style applied.
+In Aspose.Words you can apply a table style by using any of the [Table.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyle), [Table.setStyleIdentifier(int)](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleIdentifier-int) and [Table.getStyleName()](https://reference.aspose.com/words/java/com.aspose.words/table/#getStyleName) properties. You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the TableStyleOptions enumeration and are applied by using [Table.setStyleOptions(int)](https://reference.aspose.com/words/java/com.aspose.words/table/#setStyleOptions-int) property. The TableStyleOptions enumeration allows a bitwise combination of these features. Below example shows how to build a new table with a table style applied.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-TableStyles-applyTableStyle.java" >}}
 

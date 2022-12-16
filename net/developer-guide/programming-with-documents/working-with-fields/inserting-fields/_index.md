@@ -39,7 +39,7 @@ The following code example shows how to insert fields nested within another fiel
 
 ### Specify Locale at Field Level
 
-A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/net/aspose.words.fields/field/localeid) property, which gets or sets the field's locale ID.
+A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/net/aspose.words.fields/field/localeid/) property, which gets or sets the field's locale ID.
 
 The folowing code example shows how to use this option:
 
@@ -182,7 +182,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldToa](https://reference.aspose.com/words/net/aspose.words.fields/fieldtoa) class API.
+For more details, see the [FieldToa](https://reference.aspose.com/words/net/aspose.words.fields/fieldtoa/) class API.
 
 {{% /alert %}}
 

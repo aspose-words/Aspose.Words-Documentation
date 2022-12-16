@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-20-9-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 20.9](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.9).
+This page contains release notes for [Aspose.Words for Java 20.9](https://releases.aspose.com/words/java/20.9/).
 
 {{% /alert %}}
 

@@ -37,7 +37,7 @@ You can also install or update Aspose.Words for .NET APIs using the *Package Man
    {{% alert color="primary" %}}In addition, you can add the `-prerelease` suffix to the command to specify that the latest release, including hotfixes, should also be installed.{{% /alert %}}
 3. Once downloaded, you will see confirmation messages<br>
    <img src="aspose-words-nuget-istalled.png" alt="aspose-words-nuget-istalled" style="width:600px"/><br>
-   {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula), it is recommended to read the license referenced in the URL.{{% /alert %}}
+   {{% alert color="primary" %}}If you are unfamiliar with the [Aspose EULA](https://about.aspose.com/legal/eula/), it is recommended to read the license referenced in the URL.{{% /alert %}}
 4. Now you may find that Aspose.Words has been successfully added and referenced in your application for you<br>
    <img src="aspose-words-nuget-references.png" alt="aspose-words-nuget-references" style="width:400px"/>
 

@@ -50,7 +50,7 @@ You can check the quality of Aspose.Words conversion to OpenOffice file format, 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Attached Template|N/A| | |
-|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>Some Microsoft Word document properties that do not have corresponding properties in ODT are not saved to ODT.|- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)|
+|Built-In Properties|Yes|Built-in properties such as word and character count are updated using Aspose.Words but are not updated automatically on save. <br><br>Instead, you need to explicitly update these properties using the appropriate Document member. We will add an automatic update of these properties in a future version. <br><br>Some Microsoft Word document properties that do not have corresponding properties in ODT are not saved to ODT.|- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/)|
 |Custom Properties|Yes| | |
 |Custom Payload Part|N/A| | |
 |Custom XML Data Storage|N/A| | |

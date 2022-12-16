@@ -31,9 +31,9 @@ This normally causes no problems but some bookmarks on tables can appear differe
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Bookmark Start|Yes| |- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/properties/bookmarkstart)|
-|Bookmark End|Yes| |- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/properties/bookmarkend)|
-|Bookmark Name|Yes| |- [Bookmark.Name](https://reference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
+|Bookmark Start|Yes| |- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/)|
+|Bookmark End|Yes| |- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/)|
+|Bookmark Name|Yes| |- [Bookmark.Name](https://reference.aspose.com/words/net/aspose.words/bookmark/name/)|
 |Bookmark Table Columns|Yes| | |
 
 ### Comments
@@ -53,11 +53,11 @@ The CommentRangeStart and CommentRangeEnd nodes define the area of the document 
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment|Yes| |- [Comment.GetTxt](https://reference.aspose.com/words/net/aspose.words/compositenode/methods/gettext)|
-|Comment Range|Yes| |- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart)|
+|Comment|Yes| |- [Comment.GetTxt](https://reference.aspose.com/words/net/aspose.words/compositenode/gettext/)|
+|Comment Range|Yes| |- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/)|
 [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend)
 
-|Author|Yes| |- [Comment.Author](https://reference.aspose.com/words/net/aspose.words/comment/properties/author)|
+|Author|Yes| |- [Comment.Author](https://reference.aspose.com/words/net/aspose.words/comment/author/)|
 | :- | :- | :- | :- |
 |Date|Yes| |- **Comment.Date**|
 |Initial|Yes| |- **Comment.Inital**|
@@ -79,10 +79,10 @@ Most revision types properly round-tripped to the appropriate formats. Currently
 |Table Cell Deletion|Planned| | |
 |Table Cell Insertion|Planned| | |
 |Cell Merge or Split|Planned| | |
-|Run Deletion|Yes| |- [Run.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/properties/isdeleterevision)|
-|Run Insertion|Yes| |- [Run.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/properties/isinsertrevision)|
-|Paragraph Deletion|Yes| |- [Paragraph.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/isdeleterevision)|
-|Paragraph Insertion|Yes| |- [Paragraph.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/paragraph/properties/isinsertrevision)|
+|Run Deletion|Yes| |- [Run.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/)|
+|Run Insertion|Yes| |- [Run.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/isinsertrevision/)|
+|Paragraph Deletion|Yes| |- [Paragraph.IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/paragraph/isdeleterevision/)|
+|Paragraph Insertion|Yes| |- [Paragraph.IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/paragraph/isinsertrevision/)|
 |Table Row Deletion|Yes| | |
 |Table Row Insertion|Yes| | |
 |Numbering Insertion|Yes| | |

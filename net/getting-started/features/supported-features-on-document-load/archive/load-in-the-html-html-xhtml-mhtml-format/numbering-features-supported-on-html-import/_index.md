@@ -48,22 +48,22 @@ See the following links in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Single Level |Yes | | |
-|Multi Level |Yes |Some parts of multi-level lists will be imported as separte List objects. This can cause some formatting differences during conversion. <br><br>This will be improved in a future version of Aspose.Words so multi-level lists are imported as a single List object. |- [List.IsMultiLevel](https://reference.aspose.com/words/net/aspose.words.lists/list/properties/ismultilevel)|
+|Multi Level |Yes |Some parts of multi-level lists will be imported as separte List objects. This can cause some formatting differences during conversion. <br><br>This will be improved in a future version of Aspose.Words so multi-level lists are imported as a single List object. |- [List.IsMultiLevel](https://reference.aspose.com/words/net/aspose.words.lists/list/ismultilevel/)|
 |Name |Planned | | |
 
 ## Numbering Level
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Label Alignment |Yes | |- [ListLevel.Alignment](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/alignment)|
+|Label Alignment |Yes | |- [ListLevel.Alignment](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/alignment/)|
 |Picture Bullet |Planned |Picture bullets are supported, however there is currently no way to set a new picture bullet for a list item. <br><br>Consider creating a list with the picture bullet first in the document using Microsoft Word and then apply this list to the required paragraphs. <br><br>Will be imported using list-style-image attribute and other related attributes. | |
-|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/restartafterlevel)|
+|Restart Level |Yes | |- [ListLevel.RestartAfterLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/restartafterlevel/)|
 |Bullet Character |Yes |Imported from type attribute on &lt;ul&gt; tag. | |
-|Label/Format String |Yes | |- [ListLabel.LabelString](https://reference.aspose.com/words/net/aspose.words.lists/listlabel/properties/labelstring)|
-|Number Format |Yes |Imported from "type" attribute on &lt;ol&gt;. |- [ListLevel.NumberFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/numberformat)|
+|Label/Format String |Yes | |- [ListLabel.LabelString](https://reference.aspose.com/words/net/aspose.words.lists/listlabel/labelstring/)|
+|Number Format |Yes |Imported from "type" attribute on &lt;ol&gt;. |- [ListLevel.NumberFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/numberformat/)|
 |Paragraph Properties |Planned | | |
-|Font Properties |Planned | |- [ListLevel.Font](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/font)|
-|Linked Paragraph Style |Planned | |- [ListLevel.LinkedStyle](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/linkedstyle)|
-|Starting Value |Yes |Imported from start attribute on &lt;ul&gt; or &lt;ol&gt;. |- [ListLevel.StartAt](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/startat)|
-|Text After |Planned | |- [ListLevel.TrailingCharacter](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/properties/trailingcharacter)|
+|Font Properties |Planned | |- [ListLevel.Font](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/font/)|
+|Linked Paragraph Style |Planned | |- [ListLevel.LinkedStyle](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/linkedstyle/)|
+|Starting Value |Yes |Imported from start attribute on &lt;ul&gt; or &lt;ol&gt;. |- [ListLevel.StartAt](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/startat/)|
+|Text After |Planned | |- [ListLevel.TrailingCharacter](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/trailingcharacter/)|
 

@@ -49,8 +49,8 @@ See the following links in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Attached Template |N/A | | |
-|Built-In Properties |Yes |All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated. <br><br>Title, Keywords, Description properties are imported from meta tags in HTML. Other built-in properties stored in custom tags are currently not imported. |<p>- [Document.BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/properties/builtindocumentproperties) </p><p>- [Document.UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/methods/updatepagelayout) </p><p>- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/methods/updatewordcount)</p>|
-|Custom Properties |Planned |Custom Document Properties can be created, accessed and modified through the API. <br><br>Currently Custom Document properties or Built-in properties other than Title, Keywords or Description or are not imported from HTML. |- [Document.CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/properties/customdocumentproperties)|
+|Built-In Properties |Yes |All Built-in Document Properties can be accessed and modified in Aspose.Words API. <br><br>There are methods to update the "count" properties such as character, word and page count. All such properties are supported with the exception of the "line" count which is currently not updated. <br><br>Title, Keywords, Description properties are imported from meta tags in HTML. Other built-in properties stored in custom tags are currently not imported. |<p>- [Document.BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/builtindocumentproperties/) </p><p>- [Document.UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/) </p><p>- [Document.UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/)</p>|
+|Custom Properties |Planned |Custom Document Properties can be created, accessed and modified through the API. <br><br>Currently Custom Document properties or Built-in properties other than Title, Keywords or Description or are not imported from HTML. |- [Document.CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/customdocumentproperties/)|
 |Custom Payload Part |N/A | | |
 |Custom XML Data Storage |N/A | | |
 |Digital Signature |N/A |Digital signatures cannot be added to HTML format. | |
@@ -58,7 +58,7 @@ See the following links in the documentation for further information:
 |Encryption |N/A | | |
 |Font Table |Yes | | |
 |Glossary Document/Quick Parts/Auto Text |N/A | | |
-|Hyphenation |Planned |There is currently no API to access and modify hypenation settings in a document. |- [ParagraphFormat.SuppressAutoHyphens](https://reference.aspose.com/words/net/aspose.words/paragraphformat/properties/suppressautohyphens)|
+|Hyphenation |Planned |There is currently no API to access and modify hypenation settings in a document. |- [ParagraphFormat.SuppressAutoHyphens](https://reference.aspose.com/words/net/aspose.words/paragraphformat/suppressautohyphens/)|
 |Key Map Customizations |N/A | | |
 |Mail Merge Recipient Data |N/A | | |
 |Office Math |N/A | | |
@@ -67,7 +67,7 @@ See the following links in the documentation for further information:
 |Variables |N/A | | |
 |VBA Project (Macro) |N/A | | |
 |VBA Project Digital Signature |N/A | | |
-|Background |Yes |A background of a Word document can be a solid color or an image. <br><br>Only solid background is imported. Imported from style="background:xxx" on &lt;body&gt; tag. <br><br>There are plans to support image background through the style-background attribute. |- [Document.BackgroundShape](https://reference.aspose.com/words/net/aspose.words/documentbase/properties/backgroundshape)|
+|Background |Yes |A background of a Word document can be a solid color or an image. <br><br>Only solid background is imported. Imported from style="background:xxx" on &lt;body&gt; tag. <br><br>There are plans to support image background through the style-background attribute. |- [Document.BackgroundShape](https://reference.aspose.com/words/net/aspose.words/documentbase/backgroundshape/)|
 |Thumbnail |N/A | | |
 
 ## Embedded Fonts
@@ -75,7 +75,7 @@ See the following links in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
-|Access and Use Embedded Fonts |Planned |There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX document can be optionally exported. <br><br>Embedded fonts linked in HTML are currently not read during import. |<p>- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo) </p><p>- [FontInfo.GetEmbeddedFont](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/methods/getembeddedfont)</p>|
+|Access and Use Embedded Fonts |Planned |There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX document can be optionally exported. <br><br>Embedded fonts linked in HTML are currently not read during import. |<p>- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) </p><p>- [FontInfo.GetEmbeddedFont](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo//methods/getembeddedfont)</p>|
 
 ## Bibliography
 
@@ -104,7 +104,7 @@ See the following links in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Asian Typography Settings |N/A | | |
-|Compatibility Options |Planned | |- [Document.CompatibilityOptions](https://reference.aspose.com/words/net/aspose.words/document/properties/compatibilityoptions)|
+|Compatibility Options |Planned | |- [Document.CompatibilityOptions](https://reference.aspose.com/words/net/aspose.words/document/compatibilityoptions/)|
 |Endnote Options |N/A | | |
 |Footnote Options |N/A | | |
 |Mail Merge Settings |N/A | | |

@@ -54,7 +54,7 @@ In this section, we consider only some of the possible split criteria.
 
 To split a document into chapters by headings, use the **HeadingParagraph** value of the **DocumentSplitCriteria** property.
 
-If you need to split a document by a specific level of heading paragraphs, such as headings 1, 2, and 3, use also the [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#DocumentSplitHeadingLevel) property. The output will be divided by paragraphs formatted with the specified heading level.
+If you need to split a document by a specific level of heading paragraphs, such as headings 1, 2, and 3, use also the [DocumentSplitHeadingLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentSplitHeadingLevel) property. The output will be divided by paragraphs formatted with the specified heading level.
 
 The following code example shows how to split a document into smaller parts by heading:
 
@@ -78,7 +78,7 @@ The following code example shows how to split a document into smaller parts by 
 
 ## Split by Pages {#splitting-by-pages}
 
-You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/Document#extractPages(int,int)) method can do the job.
+You can also split a document page by page, by page ranges, or starting with the specified page numbers. In such case the [ExtractPages](https://reference.aspose.com/words/java/com.aspose.words/document/#extractPages-int-int) method can do the job.
 
 This section describes several use cases of dividing documents by paged using the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) class and the **ExtractPages** method.
 
@@ -112,7 +112,7 @@ The following code example shows how to split a document into smaller parts by p
 
 ## Callback Option to Save a Document {#callback-option-for-saving-a-document}
 
-You can use the [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions#DocumentPartSavingCallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
+You can use the [DocumentPartSavingCallback](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getDocumentPartSavingCallback) property to control how Aspose.Words saves document parts when this document is exported into HTML format. This property allows you to rename output files or even to redirect them into custom streams.
 
 Please note that this callback is not useful when saving to EPUB because all output parts must be saved into a single container – the .epub file. So, stream redirection is not supported, and the effect of renaming is not visible since files are renamed inside the container.
 

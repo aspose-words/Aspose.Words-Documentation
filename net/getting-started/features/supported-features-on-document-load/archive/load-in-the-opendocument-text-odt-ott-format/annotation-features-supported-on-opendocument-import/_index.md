@@ -47,9 +47,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Bookmark Start |Yes | |- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart)|
-|Bookmark End |Yes | |- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend)|
-|Bookmark Name |Yes | |- [Bookmark.Name](https://reference.aspose.com/words/net/aspose.words/bookmark/properties/name)|
+|Bookmark Start |Yes | |- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/)|
+|Bookmark End |Yes | |- [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/)|
+|Bookmark Name |Yes | |- [Bookmark.Name](https://reference.aspose.com/words/net/aspose.words/bookmark/name/)|
 |Bookmark Table Columns |N/A | | |
 
 ## Comments
@@ -76,9 +76,9 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Comment |Yes | |- [Comment](https://reference.aspose.com/words/net/aspose.words/comment)|
+|Comment |Yes | |- [Comment](https://reference.aspose.com/words/net/aspose.words/comment/)|
 |Comment Range |N/A | | |
-|Author |Yes | |- [Comment.Author](https://reference.aspose.com/words/net/aspose.words/comment/properties/author)|
+|Author |Yes | |- [Comment.Author](https://reference.aspose.com/words/net/aspose.words/comment/author/)|
 |Date |Yes | |- **Comment.Date**|
 |Initial |N/A | | |
 

@@ -50,25 +50,25 @@ See the following links in the documentation for further information:
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes |Imported from "class" attribute on HTML paragraph elements. |- [StyleType.Paragraph](https://reference.aspose.com/words/net/aspose.words/StyleType)|
-|Character Style |Yes |Imported from "class" attribute on span elements. |- [StyleType.Character](https://reference.aspose.com/words/net/aspose.words/StyleType)|
-|List Style |Planned | |- [StyleType.List](https://reference.aspose.com/words/net/aspose.words/StyleType)|
-|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle) </p><p>- [StyleType.Table](https://reference.aspose.com/words/net/aspose.words/StyleType)</p>|
+|Paragraph Style |Yes |Imported from "class" attribute on HTML paragraph elements. |- [StyleType.Paragraph](https://reference.aspose.com/words/net/aspose.words/styletype/)|
+|Character Style |Yes |Imported from "class" attribute on span elements. |- [StyleType.Character](https://reference.aspose.com/words/net/aspose.words/styletype/)|
+|List Style |Planned | |- [StyleType.List](https://reference.aspose.com/words/net/aspose.words/styletype/)|
+|Table Style |Planned | |<p>- **Table.Style** </p><p>- [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) </p><p>- [StyleType.Table](https://reference.aspose.com/words/net/aspose.words/styletype/)</p>|
 
 ## General
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Aliases |Yes |Aliases are exported as ordinary CSS classes. On subsequent import they produce independent styles. | |
-|Based On |Planned | |- [Style.BaseStyleName](https://reference.aspose.com/words/net/aspose.words/style/properties/basestylename)|
-|Built-in Styles |Yes |Some built-in styles are imported from specific elements. <br><br>For instance Normal redirects to general &lt;p&gt; element, &lt;h1&gt; to Heading 1 etc. |<p>- [Style.BuiltIn](https://reference.aspose.com/words/net/aspose.words/style/properties/builtin) </p><p>- [Style.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words/style/properties/styleidentifier)</p>|
+|Based On |Planned | |- [Style.BaseStyleName](https://reference.aspose.com/words/net/aspose.words/style/basestylename/)|
+|Built-in Styles |Yes |Some built-in styles are imported from specific elements. <br><br>For instance Normal redirects to general &lt;p&gt; element, &lt;h1&gt; to Heading 1 etc. |<p>- [Style.BuiltIn](https://reference.aspose.com/words/net/aspose.words/style/builtin/) </p><p>- [Style.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words/style/styleidentifier/)</p>|
 |Custom Styles |Yes |A new style is created for all other CSS styles in the HTML document. | |
 |Linked Styles |Planned | | |
 |Style Name |Yes | |- **Style.Name**|
 |Next Style |N/A | | |
-|Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
-|Run Properties |Yes | |- [Style.Font](https://reference.aspose.com/words/net/aspose.words/style/properties/font)|
-|Bullets and Numbering |Yes | |<p>- [Style.List](https://reference.aspose.com/words/net/aspose.words/style/properties/list) </p><p>- [Style.ListFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/listformat)</p>|
+|Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/)|
+|Run Properties |Yes | |- [Style.Font](https://reference.aspose.com/words/net/aspose.words/style/font/)|
+|Bullets and Numbering |Yes | |<p>- [Style.List](https://reference.aspose.com/words/net/aspose.words/style/list/) </p><p>- [Style.ListFormat](https://reference.aspose.com/words/net/aspose.words/style/list/format)</p>|
 
 ## Document Defaults
 
@@ -81,8 +81,8 @@ See the following links in the documentation for further information:
 
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
-|Apply Formatting to |Planned | |- [Table.StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/styleoptions)|
+|Apply Formatting to |Planned | |- [Table.StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/)|
 |Table Properties |Planned | |- **TableStyle**|
 |Banding |Planned | |- **Table.StyleOptions**|
-|Paragraph Properties |Planned | |- [TableStyle.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/properties/paragraphformat)|
-|Run Properties |Planned | |- [TableStyle.Font](https://reference.aspose.com/words/net/aspose.words/style/properties/font)|
+|Paragraph Properties |Planned | |- [TableStyle.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/)|
+|Run Properties |Planned | |- [TableStyle.Font](https://reference.aspose.com/words/net/aspose.words/style/font/)|

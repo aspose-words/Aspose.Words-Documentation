@@ -71,7 +71,7 @@ The height of a table row is controlled using height and height rule properties.
 |HeightRule Value|Description|
 | :- | :- |
 |Auto|This is the default height rule given to a new row. Technically this means that no height rule is defined. The row is sized to fit the largest content within the cells of the row.|
-|At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in [RowFormat.Height](https://reference.aspose.com/words/java/com.aspose.words/rowformat#Height).|
+|At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in [RowFormat.Height](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getHeight).|
 |Exactly|The size of the row is set exactly to the value found in [RowFormat.Height]https://reference.aspose.com/words/java/com.aspose.words/rowformat#Height) and does not grow to fit the content.|
 {{% alert color="primary" %}}
 
@@ -85,7 +85,7 @@ The following code example shows how to create a table that contains a single ce
 
 ## Applying Borders and Shading
 
-Borders and shading can be applied either table wide using [Table.setBorder(int,int,double,java.awt.Color,boolean)](https://reference.aspose.com/words/java/com.aspose.words/table#setBorder(int,int,double,java.awt.Color,boolean)), [Table.setBorders(int,double,java.awt.Color)](https://reference.aspose.com/words/java/com.aspose.words/table#setBorders(int,double,java.awt.Color)) and [Table.setShading(int,java.awt.Color,java.awt.Color)](https://reference.aspose.com/words/java/com.aspose.words/table#setShading(int,java.awt.Color,java.awt.Color)) or to particular cells only by using [CellFormat.getBorders()](https://reference.aspose.com/words/java/com.aspose.words/CellFormat#Borders) and [CellFormat.getShading()](https://reference.aspose.com/words/java/com.aspose.words/CellFormat#Shading). Additionally borders can be set on a row by using [RowFormat.getBorders()](https://reference.aspose.com/words/java/com.aspose.words/rowformat#Borders), however shading cannot be applied in this way.
+Borders and shading can be applied either table wide using [Table.setBorder(int,int,double,java.awt.Color,boolean)](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorder-int-int-double-java.awt.Color-boolean), [Table.setBorders(int,double,java.awt.Color)](https://reference.aspose.com/words/java/com.aspose.words/table/#setBorders-int-double-java.awt.Color) and [Table.setShading(int,java.awt.Color,java.awt.Color)](https://reference.aspose.com/words/java/com.aspose.words/table/#setShading-int-java.awt.Color-java.awt.Color) or to particular cells only by using [CellFormat.getBorders()](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getBorders) and [CellFormat.getShading()](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getShading). Additionally borders can be set on a row by using [RowFormat.getBorders()](https://reference.aspose.com/words/java/com.aspose.words/rowformat/#getBorders), however shading cannot be applied in this way.
 
 ![apply-borders-shading-aspose-words-java-1](applying-formatting-to-table-row-and-cell-6.png)
 
@@ -124,7 +124,7 @@ Aspose.Words API provides the following properties to set the position of the fl
 - [RelativeHorizontalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table#RelativeHorizontalAlignment)
 - [AbsoluteHorizontalDistance](https://reference.aspose.com/words/java/com.aspose.words/table#AbsoluteHorizontalDistance)
 - [RelativeVerticalAlignment](https://reference.aspose.com/words/java/com.aspose.words/table#RelativeVerticalAlignment)
-- [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table#AbsoluteVerticalDistance).
+- [AbsoluteVerticalDistance](https://reference.aspose.com/words/java/com.aspose.words/table/#getAbsoluteVerticalDistance).
 
 The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
 

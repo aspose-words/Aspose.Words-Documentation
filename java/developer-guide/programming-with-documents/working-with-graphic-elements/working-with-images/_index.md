@@ -13,17 +13,17 @@ url: /java/working-with-images/
 
 All images are stored inside Shape nodes in a Document. To extract all images or images having a specific type from the document, follow these steps:
 
-- Use the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape#ChildNodes) method to select all Shape nodes.
+- Use the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChildNodes) method to select all Shape nodes.
 - Iterate through resulting node collections.
-- Check the [Shape.hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape#HasImage) boolean property.
-- Extract image data using the [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape#ImageData) property.
+- Check the [Shape.hasImage](https://reference.aspose.com/words/java/com.aspose.words/shape/#hasImage) boolean property.
+- Extract image data using the [Shape.ImageData](https://reference.aspose.com/words/java/com.aspose.words/shape/#getImageData) property.
 - Save image data to a file.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-images-ExtractImagesToFiles-ExtractImagesToFiles.java" >}}
 
 ## How to Insert Barcode on each Document Page {#how-to-insert-barcode-on-each-documen-page}
 
-This example lets you add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToSection(int)), [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#moveToHeaderFooter(int)) and DocumentBuilder.insertImage (https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code. 
+This example lets you add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use [DocumentBuilder.moveToSection](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToSection-int), [DocumentBuilder.moveToHeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToHeaderFooter-int) and DocumentBuilder.insertImage (https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#insertImage(byte[])) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code. 
 
 The code example given below Inserts a barcode image on each page of a document.
 

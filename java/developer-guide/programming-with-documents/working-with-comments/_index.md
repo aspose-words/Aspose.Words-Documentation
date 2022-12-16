@@ -55,9 +55,9 @@ As you can see, it contains several Comments from two authors with the initials 
 
 ### The Code
 
-The code in this sample is quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method is set to true: this forces the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) to select from all child nodes recursively, rather than only collecting the immediate children.
+The code in this sample is quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) method with the first parameter set to NodeType.Comment. Make sure that the second parameter of the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) method is set to true: this forces the [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) to select from all child nodes recursively, rather than only collecting the immediate children.
 
-The [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/Document#ChildNodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. The code example given below extracts the author name, date&time and text of all comments in the document.
+The [Document.getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) method is very useful and you can use it every time you need to get a list of document nodes of any type. The resulting collection does not create an immediate overhead because the nodes are selected into this collection only when you enumerate or access items in it. The code example given below extracts the author name, date&time and text of all comments in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments.java" >}}
 
@@ -65,7 +65,7 @@ After you have selected Comment nodes into a collection, all you have to do is e
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-extractComments_Author.java" >}}
 
-If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling [NodeCollection.clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection#clear()) on the comments collection. The code example given below removes all comments in the document.
+If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling [NodeCollection.clear](https://reference.aspose.com/words/java/com.aspose.words/nodecollection/#clear) on the comments collection. The code example given below removes all comments in the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-ProcessComments-removeComments.java" >}}
 

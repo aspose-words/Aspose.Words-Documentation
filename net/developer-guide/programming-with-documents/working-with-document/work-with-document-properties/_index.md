@@ -84,7 +84,7 @@ Aspose.Words does not automatically update document properties, as Microsoft Wor
 
 ## Create a New Custom Property Linked to Content
 
-Aspose.Words provides the [AddLinkToContent](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/methods/addlinktocontent) method to create a new custom document property linked to content. This property returns the newly created property object or null if the [LinkSource](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/properties/linksource) is invalid.
+Aspose.Words provides the [AddLinkToContent](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) method to create a new custom document property linked to content. This property returns the newly created property object or null if the [LinkSource](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/linksource/) is invalid.
 
 The following code example shows how to configure a link to a custom property:
 
@@ -92,7 +92,7 @@ The following code example shows how to configure a link to a custom property:
 
 ## Get Document Variables
 
-You can get a collection of document variables using the [Variables](https://reference.aspose.com/words/net/aspose.words/document/properties/variables) property. Variable names and values are strings.
+You can get a collection of document variables using the [Variables](https://reference.aspose.com/words/net/aspose.words/document/variables/) property. Variable names and values are strings.
 
 The following code example shows how to enumerate document variables:
 
@@ -106,7 +106,7 @@ You can download the template file of this example from [Aspose.Words GitHub](ht
 
 ## Remove Personal Information from Document
 
-If you want to share a Word document with other people, you may want to remove personal information such as author name and company. To do this use the [RemovePersonalInformation](https://reference.aspose.com/words/net/aspose.words/document/properties/removepersonalinformation) property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions, and document properties upon saving the document.
+If you want to share a Word document with other people, you may want to remove personal information such as author name and company. To do this use the [RemovePersonalInformation](https://reference.aspose.com/words/net/aspose.words/document/removepersonalinformation/) property to set the flag indicating that Microsoft Word will remove all user information from comments, revisions, and document properties upon saving the document.
 
 The following code example shows how to remove personal information:
 

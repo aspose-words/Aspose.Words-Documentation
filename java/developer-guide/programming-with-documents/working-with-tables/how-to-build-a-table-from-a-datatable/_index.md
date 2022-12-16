@@ -27,9 +27,9 @@ To build a table in a document from the data found in a DataTable:
 1. Iterate through each **DataRow** in the **DataTable**.
    1. Iterate through each object in the **DataRow**.
    1. Insert the object into the document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/). The method used depends on the type of the object being inserted e.g [DocumentBuilder.writeln()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#writeln()) for text and [DocumentBuilder.insertImage()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage(byte[])) for a byte array which represents an image.
-   1. At the end of processing of the data row also end the row being created by the [DocumentBuilder]https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) by using [DocumentBuilder.endRow()](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endRow()).
-1. Once all rows from the **DataTable** have been processed finish the table by calling [DocumentBuilder.endTable()](https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder#endTable()).
-1. Finally, we can set the desired table style using one of the appropriate table properties such as [Table.getStyleIdentifier()](https://reference.aspose.com/words/java/com.aspose.words/tablestyle#StyleIdentifier) to automatically apply formatting to the entire table.
+   1. At the end of processing of the data row also end the row being created by the [DocumentBuilder]https://reference.aspose.com/words/java/com.aspose.words/DocumentBuilder) by using [DocumentBuilder.endRow()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow).
+1. Once all rows from the **DataTable** have been processed finish the table by calling [DocumentBuilder.endTable()](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable).
+1. Finally, we can set the desired table style using one of the appropriate table properties such as [Table.getStyleIdentifier()](https://reference.aspose.com/words/java/com.aspose.words/tablestyle/#getStyleIdentifier) to automatically apply formatting to the entire table.
    The following data in our **DataTable** is used in this example: 
 
 ![build-a-table-from-a-datatable-aspose-words-java-1](how-to-build-a-table-from-a-datatable-1.png)

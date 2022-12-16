@@ -102,14 +102,14 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Right to Left Section|Yes| |- [PageSetup.Bidi](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/bidi)|
-|Line Numbering|Yes| |<p>- [PageSetup.LineNumberCountBy](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumbercountby)</p><p>- [PageSetup.LineNumberDistanceFromText](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberdistancefromtext)</p><p>- [PageSetup.LineNumberRestartMode](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linenumberrestartmode)</p><p>- [PageSetup.LineStartingNumber](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/linestartingnumber)</p>|
-|Paper Source|Yes| |<p>- [PageSetup.FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/firstpagetray)</p><p>- **PageSetup.OtherPageTray**</p>|
-|Paper Size|Yes| |- [PageSetup.PaperSize](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/papersize)|
-|Orientation|Yes| |- [PageSetup.Orientation](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/orientation)|
+|Right to Left Section|Yes| |- [PageSetup.Bidi](https://reference.aspose.com/words/net/aspose.words/pagesetup/bidi/)|
+|Line Numbering|Yes| |<p>- [PageSetup.LineNumberCountBy](https://reference.aspose.com/words/net/aspose.words/pagesetup/linenumbercountby/)</p><p>- [PageSetup.LineNumberDistanceFromText](https://reference.aspose.com/words/net/aspose.words/pagesetup/linenumberdistancefromtext/)</p><p>- [PageSetup.LineNumberRestartMode](https://reference.aspose.com/words/net/aspose.words/pagesetup/linenumberrestartmode/)</p><p>- [PageSetup.LineStartingNumber](https://reference.aspose.com/words/net/aspose.words/pagesetup/linestartingnumber/)</p>|
+|Paper Source|Yes| |<p>- [PageSetup.FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/)</p><p>- **PageSetup.OtherPageTray**</p>|
+|Paper Size|Yes| |- [PageSetup.PaperSize](https://reference.aspose.com/words/net/aspose.words/pagesetup/papersize/)|
+|Orientation|Yes| |- [PageSetup.Orientation](https://reference.aspose.com/words/net/aspose.words/pagesetup/orientation/)|
 |Protection|Yes| |- **Section.ProtectedForForms**|
 |Text Direction|Yes| | |
-|Vertical Alignment|Yes| |- [PageSetup.VerticalAlignment](https://reference.aspose.com/words/net/aspose.words/pagesetup/properties/verticalalignment)|
+|Vertical Alignment|Yes| |- [PageSetup.VerticalAlignment](https://reference.aspose.com/words/net/aspose.words/pagesetup/verticalalignment/)|
 |Asian Document Grid|Yes| | |
 
 ## Chapter Numbering
