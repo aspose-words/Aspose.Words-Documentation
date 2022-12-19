@@ -19,7 +19,7 @@ This page contains release notes for [Aspose.Words for .NET 22.12](https://www.n
 
 There are 74 improvements and fixes in this regular monthly release. The most notable are:
 
-- Implemented an abbility to specify the particular Margin type for the given section.
+- Implemented an ability to specify the particular Margin type for the given section.
 - The new public properties ThemeColor and TintAndShade were introduced.
 - Implemented rendering of the linear trendline formula for DrawingML charts rendering.
 - Implemented optimization that significantly reduces the depth of graphics state nesting when rendering to PDF to maintain specification compliance.
