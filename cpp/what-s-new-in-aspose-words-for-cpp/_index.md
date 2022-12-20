@@ -11,13 +11,19 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 22.9, 22.10, 22.11
+## Aspose.Words for C++ 22.9, 22.10, 22.11, 22.12
 
 Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.
 
 Aspose.Words 22.10 improves find and replace options, enhances OLE objects, and expands list functionality.
 
 Aspose.Words 22.11 expands its functionality with new options for more convenient work with already familiar objects: fields, printing, OLE and structured document tags.
+
+Aspose.Words 22.12 enhances rendering capabilities and introduces options for working with margins when loading/saving a document.
+
+### Performance Improvements <sup>22.12</sup>
+
+An optimization that significantly reduces the depth of graphics state nesting when rendering to PDF to maintain specification compliance has been introduced.
 
 ### Rendering and Printing
 
@@ -26,6 +32,18 @@ Aspose.Words 22.11 expands its functionality with new options for more convenien
 A custom colored/grayscale print mode has been implemented by adding a new **GrayscaleAuto** value to the [ColorPrintMode](https://reference.aspose.com/words/cpp/namespace/aspose.words.rendering#colorprintmode) enumeration.
 
 A new print property allows users to control how non-colored pages are printed if the device supports color printing. This feature can be useful if users want to automatically print non-colored pages using only grayscale printing mode.
+
+#### New Border Rendering Properties <sup>22.12</sup>
+
+New public properties **ThemeColor** and **TintAndShade** have been introduced.
+
+#### Linear Trendline Formula for DrawingML Rendering <sup>22.12</sup>
+
+Linear trendline formula rendering for DrawingML charts has been implemented.
+
+#### Font Fallback Settings for Google Noto Fonts <sup>22.12</sup>
+
+The predefined font fallback settings for Google Noto fonts have been updated.
 
 ### Loading and Saving Documents
 
@@ -36,6 +54,10 @@ The ability to cache header/footer shapes to reduce the size of the output PDF f
 #### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
 
 The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/cpp/class/aspose.words.loading.txt_load_options#get_autonumberingdetection_const) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/cpp/class/aspose.words.loading.txt_load_options/) class.
+
+#### Specifying a Particular Margin Type <sup>22.12</sup>
+
+The ability to specify a particular **Margin** type for the given section has been implemented.
 
 ### Search and Compare <sup>22.10</sup>
 
@@ -58,6 +80,8 @@ Learn more about [Aspose.Words for С++ 22.9 Release Notes](/words/cpp/aspose-wo
 Learn more about [Aspose.Words for С++ 22.10 Release Notes](/words/cpp/aspose-words-for-cpp-22-10-release-notes/).
 
 Learn more about [Aspose.Words for С++ 22.11 Release Notes](/words/cpp/aspose-words-for-cpp-22-11-release-notes/).
+
+Learn more about [Aspose.Words for С++ 22.12 Release Notes](/words/cpp/aspose-words-for-cpp-22-12-release-notes/).
 
 {{% /alert %}}
 
