@@ -14,7 +14,7 @@ Sometimes you may need to change the appearance of a document, for example, set 
 
 ## Set Document Display Options
 
-You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/) class. For example, you can set a document zoom value using the [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions//properties/zoompercent) property, or the view mode using the [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions//properties/viewtype) property.
+You can control how a document will be displayed in Microsoft Word using the [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/) class. For example, you can set a document zoom value using the [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/zoompercent/) property, or the view mode using the [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/viewtype/) property.
 
 The following code example shows how to ensure that a document is displayed at 50% when opened in Microsoft Word:
 

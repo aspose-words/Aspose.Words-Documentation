@@ -21,7 +21,7 @@ When developing a .NET application that produces some printed output, you can ty
 
 The classes within the *System.Drawing.Printing* namespace are not supported for use within a Windows service or an ASP.NET application or service, and attempting their use may produce decreased service performance, run-time exceptions, and other issues. The use of WPF to build Windows services is likewise not supported. Since WPF is a presentation technology, the Windows service requires appropriate permissions to perform visual operations involving user interaction. If the Windows service does not have such permissions, there may be unexpected results.
 
-The Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) object provides a family of [Print](https://reference.aspose.com/words/net/aspose.words/document//methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
+The Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) object provides a family of [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print/index) methods to print documents. These methods use the .NET printing classes defined in the *System.Drawing.Printing* namespace. There are many Aspose.Words customers who successfully utilize them for printing in their server-side applications. Nevertheless, this article demonstrates an alternative method for printing that is compliant with Microsoft’s recommendations.
 
 ### Methods to Print a Document on a Server
 
@@ -44,7 +44,7 @@ The code example below shows how to print a document using the **XpsPrintHelper
 
 When you run the project, it prints a sample document on the specified printer and opens a console window to display print results. When the print job completes or errors out, the system will display a success message or text of the thrown exception.
 
-You can also set some print settings using the [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) class. For example, in Microsoft Word, printer trays are defined for each section and are printer-specific. Therefore, you can programmatically change these values for each section via the [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup//properties/firstpagetray) and [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup//properties/otherpagestray) properties.
+You can also set some print settings using the [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) class. For example, in Microsoft Word, printer trays are defined for each section and are printer-specific. Therefore, you can programmatically change these values for each section via the [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/) and [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/otherpagestray/) properties.
 
 {{% alert color="primary" %}}
 

@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-20-5-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 20.5](https://releases.aspose.com/words/java/20.5/).
+This page contains release notes for [Aspose.Words for Java 20.5](https://releases.aspose.com/words/java/20-5/).
 
 {{% /alert %}}
 

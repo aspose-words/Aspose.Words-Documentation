@@ -27,13 +27,13 @@ The article describes a few properties you can control when saving a document.
 
 Use the **Password** property to get or set a password for an encrypted document. Use the **Password** property of the corresponding class to work with the selected document format.
 
-For example, when saving a document to DOC or DOT format, use the [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions//password/) property of the [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) class.
+For example, when saving a document to DOC or DOT format, use the [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) property of the [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) class.
 
 The following code example shows how to set a password to encrypt a document using the RC4 encryption method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-WorkingWithDoc-EncryptDocumentWithPassword.cs" >}}
 
-When saving a document to Odt format, use the [Password](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions//password/) property of the [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) class.
+When saving a document to Odt format, use the [Password](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/password/) property of the [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) class.
 
 The following code example shows how to load and save OpenDocument encrypted with a password:
 

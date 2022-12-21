@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-22-4-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 22.4](https://releases.aspose.com/words/java/22.4/).
+This page contains release notes for [Aspose.Words for Java 22.4](https://releases.aspose.com/words/java/22-4/).
 
 {{% /alert %}}
 

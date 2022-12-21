@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-21-10-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 21.10](https://releases.aspose.com/words/java/21.10/).
+This page contains release notes for [Aspose.Words for Java 21.10](https://releases.aspose.com/words/java/21-10/).
 
 {{% /alert %}}
 

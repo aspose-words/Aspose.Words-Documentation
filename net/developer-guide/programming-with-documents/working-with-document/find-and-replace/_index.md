@@ -24,7 +24,7 @@ Aspose.Words provides two ways to apply the find and replace operation by using 
 
 In addition, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
 
-Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/) namespace. You can work with many options during the find and replace process using [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing//findreplaceoptions) class.
+Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/) namespace. You can work with many options during the find and replace process using [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) class.
 
 ### Find and Replace Text Using Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 

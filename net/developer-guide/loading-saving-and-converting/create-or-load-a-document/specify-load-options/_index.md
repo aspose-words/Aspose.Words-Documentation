@@ -75,7 +75,7 @@ The following code example shows how to set the encoding to override the automa
 
 ## Load Encrypted Documents
 
-You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/) object. This object contains the [Password](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions//properties/password) property, which specifies the password string.
+You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/) object. This object contains the [Password](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/password/) property, which specifies the password string.
 
 The following code example shows how to load a document encrypted with a password:
 

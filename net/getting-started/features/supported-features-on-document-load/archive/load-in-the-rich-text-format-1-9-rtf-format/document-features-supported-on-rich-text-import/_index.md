@@ -65,7 +65,7 @@ See the following links in the documentation for further information:
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
-|Access and Use Embedded Fonts |Planned | |<p>- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) </p><p>- [FontInfo.GetEmbeddedFont](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo//methods/getembeddedfont)</p>|
+|Access and Use Embedded Fonts |Planned | |<p>- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) </p><p>- [FontInfo.GetEmbeddedFont](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/getembeddedfont/)</p>|
 
 ## Bibliography
 

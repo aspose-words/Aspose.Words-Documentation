@@ -48,7 +48,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 ### Get a Node Type {#get-a-node-type}
 
-Although the [Node](https://reference.aspose.com/words/net/aspose.words/node/) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/net/aspose.words/node//properties/nodetype) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
+Although the [Node](https://reference.aspose.com/words/net/aspose.words/node/) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
 The type of each node can be obtained using the [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
 
@@ -94,7 +94,7 @@ The [Node.Document](https://reference.aspose.com/words/net/aspose.words/node/doc
 
 {{% /alert %}}
 
-When creating a new paragraph using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://reference.aspose.com/words/net/aspose.words/documentbuilder//properties/document) property.
+When creating a new paragraph using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), the builder always has a **Document** class linked to it through the [DocumentBuilder.Document](https://reference.aspose.com/words/net/aspose.words/documentbuilder/document/) property.
 
 The following code example shows that when creating any node, a document that will own the node is always defined:
 
@@ -114,7 +114,7 @@ You can remove a node from its parent by calling the [Remove](https://reference.
 
 #### Child Nodes
 
-The most efficient way to access child nodes of a [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) is via the [FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode//properties/firstchild) and [LastChild](https://reference.aspose.com/words/net/aspose.words/compositenode//properties/lastchild) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
+The most efficient way to access child nodes of a [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) is via the [FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/) and [LastChild](https://reference.aspose.com/words/net/aspose.words/compositenode/lastchild/) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
 
 **CompositeNode** also provides the [ChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/childnodes/) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
 

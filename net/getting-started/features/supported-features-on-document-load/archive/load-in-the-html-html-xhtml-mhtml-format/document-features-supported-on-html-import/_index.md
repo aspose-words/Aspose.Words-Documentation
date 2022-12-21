@@ -75,7 +75,7 @@ See the following links in the documentation for further information:
 |Feature|Supported|Comment|See Also|
 | :- | :- | :- | :- |
 |Embed Fonts |Planned |Currently embedding new fonts into a document is unsupported. | |
-|Access and Use Embedded Fonts |Planned |There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX document can be optionally exported. <br><br>Embedded fonts linked in HTML are currently not read during import. |<p>- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) </p><p>- [FontInfo.GetEmbeddedFont](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo//methods/getembeddedfont)</p>|
+|Access and Use Embedded Fonts |Planned |There is an option to subset and export font resources to EPUB, MHTML and HTML. <br><br>Fonts that are embedded in the original DOCX document can be optionally exported. <br><br>Embedded fonts linked in HTML are currently not read during import. |<p>- [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) </p><p>- [FontInfo.GetEmbeddedFont](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/getembeddedfont/)</p>|
 
 ## Bibliography
 

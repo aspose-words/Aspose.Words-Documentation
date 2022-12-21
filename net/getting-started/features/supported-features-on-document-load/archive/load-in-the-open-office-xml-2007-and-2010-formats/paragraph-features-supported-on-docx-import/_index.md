@@ -36,7 +36,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Paragraph Style |Yes | |<p>- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) </p><p>- [ParagraphFormat.Style](https://reference.aspose.com/words/net/aspose.words/paragraphformat//properties/style)</p>|
+|Paragraph Style |Yes | |<p>- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) </p><p>- [ParagraphFormat.Style](https://reference.aspose.com/words/net/aspose.words/paragraphformat/style/)</p>|
 |Alignment |Yes |The special "Thai Distributed" alignment is also supported during conversion. There is currently no API to access or modify this alignment. |- [ParagraphFormat.Alignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/alignment/)|
 |Right to Left Paragraph |Yes | |- [ParagraphFormat.Bidi](https://reference.aspose.com/words/net/aspose.words/paragraphformat/bidi/)|
 |Bullets and Numbers |Yes | |<p>- **ParagraphFormat.ListFormat** </p><p>- **ParagraphFormat.ListLabel**</p>|

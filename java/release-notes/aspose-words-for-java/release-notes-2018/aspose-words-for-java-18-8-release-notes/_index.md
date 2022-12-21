@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-18-8-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 18.8](https://releases.aspose.com/words/java/18.8/).
+This page contains release notes for [Aspose.Words for Java 18.8](https://releases.aspose.com/words/java/18-8/).
 
 {{% /alert %}}
 

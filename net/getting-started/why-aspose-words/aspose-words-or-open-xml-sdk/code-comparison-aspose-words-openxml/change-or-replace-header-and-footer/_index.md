@@ -15,7 +15,7 @@ On this page we will look at how to change or replace header or footer using Asp
 {{< tabs tabTotal="2" tabID="1" tabName1="Aspose.Words" tabName2="Open XML SDK" >}}
 {{< tab tabNum="1" >}}
 
-In Aspose.Words a header or footer is normally changed using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Use its method [MoveToHeaderFooter](https://reference.aspose.com/words/net/aspose.words/documentbuilder//methods/movetoheaderfooter) to update a header or footer.
+In Aspose.Words a header or footer is normally changed using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Use its method [MoveToHeaderFooter](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetoheaderfooter/) to update a header or footer.
 
 The following code example shows how to replace header or footer:
 
