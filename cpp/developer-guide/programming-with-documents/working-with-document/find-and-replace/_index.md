@@ -24,11 +24,11 @@ Aspose.Words provides two ways to apply the find and replace operation by using 
 
 In addition, you can use special metacharacters with simple string replacement and regular expressions to specify breaks within the find and replace operation.
 
-Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://reference.aspose.com/words/cpp/namespace/aspose.words.replacing) namespace. You can work with many options during the find and replace process using [FindReplaceOptions](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options) class.
+Aspose.Words presents the find and replace functionality with the [Aspose.Words.Replacing](https://reference.aspose.com/words/cpp/namespace/aspose.words.replacing) namespace. You can work with many options during the find and replace process using [FindReplaceOptions](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/) class.
 
 ### Find and Replace Text Using Simple String Replacement {#find-and-replace-text-using-simple-string-replacement}
 
-You can use one of the [Replace](https://reference.aspose.com/words/cpp/class/aspose.words.range#replace_regex_string) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
+You can use one of the [Replace](https://reference.aspose.com/words/cpp/aspose.words/range/replace/) methods to find or replace a particular string and return the number of replacements that were made. In this case, you can specify a string to be replaced, a string that will replace all its occurrences, whether the replacement is case-sensitive, and whether only stand-alone words will be affected.
 
 The following code example shows how to find the string “_CustomerName_” and replace it with the string *“James Bond”*:
 
@@ -46,7 +46,7 @@ And after applying simple string replacement:
 
 A regular expression (regex) is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
 
-Use the other [Replace](https://reference.aspose.com/words/cpp/class/aspose.words.range#replace_regex_string) method to search and replace particular character combinations by setting the Regex parameter as the regular expression pattern to find matches.
+Use the other [Replace](https://reference.aspose.com/words/cpp/aspose.words/range/replace/) method to search and replace particular character combinations by setting the Regex parameter as the regular expression pattern to find matches.
 
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 
@@ -76,7 +76,7 @@ The following code example shows how to replace text with paragraph and page bre
 
 ## Find and Replace String in Header/Footer of a Document {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://reference.aspose.com/words/cpp/class/aspose.words.header_footer) class.
+You can find and replace text in the header/footer section of a Word document using the [HeaderFooter](https://reference.aspose.com/words/cpp/aspose.words/headerfooter/) class.
 
 The following code example shows how to replace the text of the header section in your document:
 
@@ -116,7 +116,7 @@ And after applying footer string replacement:
 
 While applying the find and replace operation, you can ignore certain segments of the text. So, certain parts of the text can be excluded from the search, and the find and replace can be applied only to the remaining parts.
 
-Aspose.Words provides many find and replace properties for ignoring text such as [IgnoreDeleted](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options), [IgnoreFieldCodes](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefieldcodes_const), [IgnoreFields](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefields_const), [IgnoreFootnotes](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignorefootnotes_const), and [IgnoreInserted](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.find_replace_options#get_ignoreinserted_const).
+Aspose.Words provides many find and replace properties for ignoring text such as [IgnoreDeleted](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions), [IgnoreFieldCodes](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_ignorefootnotes/), and [IgnoreInserted](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_ignoreinserted/).
 
 The following code example shows how to ignore text inside delete revisions:
 
@@ -130,7 +130,7 @@ The following code example shows how to highlight a specific word in your docume
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cpp" >}}
 
-Aspose.Words allows you to use [IReplacingCallback](https://reference.aspose.com/words/cpp/class/aspose.words.replacing.i_replacing_callback) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
+Aspose.Words allows you to use [IReplacingCallback](https://reference.aspose.com/words/cpp/aspose.words.replacing/ireplacingcallback/) interface to create and call a custom method during a replace operation. You may have some use cases where you need to customize the find and replace operation such as replacing text specified with a regular expression with HTML tags, so basically you will apply replace with inserting HTML.
 
 If you need to replace a string with an HTML tag, apply the **IReplacingCallback** interface to customize the find and replace operation so the match starts at the beginning of a run with the match node of your document. Let us provide several examples of using **IReplacingCallback**.
 

@@ -23,13 +23,13 @@ When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word wi
 
 ### Update Fields Programmatically
 
-To explicitly update fields in the whole document, simply call the [UpdateFields](https://reference.aspose.com/words/cpp/class/aspose.words.document#updatefields) method. To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/cpp/class/aspose.words.range) object and call the [UpdateFields](https://reference.aspose.com/words/cpp/class/aspose.words.range#updatefields) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/cpp/class/aspose.words.section), [HeaderFooter](https://reference.aspose.com/words/cpp/class/aspose.words.header_footer) , [Paragraph](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph), etc. using the [Node.Range](https://reference.aspose.com/words/cpp/class/aspose.words.node#get_range) property.You can update the result of a single field by calling the [Update](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field#update) method.
+To explicitly update fields in the whole document, simply call the [UpdateFields](https://reference.aspose.com/words/cpp/aspose.words/document/updatefields/) method. To update fields contained in part of a document, obtain a [Range](https://reference.aspose.com/words/cpp/aspose.words/range/) object and call the [UpdateFields](https://reference.aspose.com/words/cpp/aspose.words/range/updatefields/) method. In Aspose.Words, you can obtain a **Range** for any node in the document tree, such as [Section](https://reference.aspose.com/words/cpp/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/cpp/aspose.words/headerfooter/) , [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/), etc. using the [Node.Range](https://reference.aspose.com/words/cpp/aspose.words/node/get_range/) property.You can update the result of a single field by calling the [Update](https://reference.aspose.com/words/cpp/aspose.words.fields/field/update/) method.
 
 ### Automatic Update of Page-Related Fields During Rendering
 
 When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
 
-If you want to update all other fields in the document, then you need to call [UpdateFields](https://reference.aspose.com/words/cpp/class/aspose.words.document#updatefields) before rendering the document.
+If you want to update all other fields in the document, then you need to call [UpdateFields](https://reference.aspose.com/words/cpp/aspose.words/document/updatefields/) before rendering the document.
 
 The following code example shows how to update all fields before rendering a document:
 
@@ -41,7 +41,7 @@ When you execute a mail merge, all fields in the document will be automatically 
 
 ## Update LastSavedTime Property Before Saving
 
-You can use [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_updatelastsavedtimeproperty_const) property whether to update the corresponding built-in document property [LastSavedTime](https://reference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties#get_lastsavedtime) when saving the document.
+You can use [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updatelastsavedtimeproperty/) property whether to update the corresponding built-in document property [LastSavedTime](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) when saving the document.
 
 The following code example shows how to update this property:
 

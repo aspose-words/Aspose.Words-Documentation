@@ -11,7 +11,7 @@ url: /cpp/working-with-digital-signatures/
 
 A digital signature is a technological implementation of electronic signatures to sign documents and authenticate the signer to guarantee that a document has not been modified since it was signed. Each digital signature is unique for each signer because of following the PKI protocol to generate both public and private keys. Signing a document digitally means creating a signature using the signer's private key where a mathematical algorithm is used to encrypt the generated hash.
 
-Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util) class to work with digital signatures.
+Aspose.Words allows you to detect, count, or verify existing digital signatures, and also add a new signature to your document to find out any tampering in it. You can also remove all digital signatures from a document. Use the [DigitalSignatureUtil](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignatureutil/) class to work with digital signatures.
 
 This article explains how to do all of the above to validate the authenticity and integrity of a digital document.
 
@@ -38,9 +38,9 @@ The table below describes a few limitations that you may face while working with
 
 ## Detect, Count, and Verify Digital Signatures
 
-Aspose.Words allows you to detect digital signature in a document using the the [DetectFileFormat](https://reference.aspose.com/words/cpp/class/aspose.words.file_format_util#detectfileformat_stream) method and the [HasDigitalSignature](https://reference.aspose.com/words/cpp/class/aspose.words.file_format_info#get_hasdigitalsignature_const) property. It is worth noting that such a check will only detect the fact of the signature, but not its validity.
+Aspose.Words allows you to detect digital signature in a document using the the [DetectFileFormat](https://reference.aspose.com/words/cpp/aspose.words/fileformatutil/detectfileformat/) method and the [HasDigitalSignature](https://reference.aspose.com/words/cpp/aspose.words/fileformatinfo/get_hasdigitalsignature/) property. It is worth noting that such a check will only detect the fact of the signature, but not its validity.
 
-A document can be signed more than once, and this can be done by various users. To check the validity of digital signatures, you need to load them from the document using the [LoadSignatures](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#loadsignatures_stream) method and use the [IsValid](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_isvalid) property. Also Aspose.Words allows you to count a set of all digital signatures within a document using the [Count](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_collection#get_count) property.
+A document can be signed more than once, and this can be done by various users. To check the validity of digital signatures, you need to load them from the document using the [LoadSignatures](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/) method and use the [IsValid](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignaturecollection/get_isvalid/) property. Also Aspose.Words allows you to count a set of all digital signatures within a document using the [Count](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignaturecollection/get_count/) property.
 
 All of this provides an efficient and safe way to check a document for signatures before processing it.
 
@@ -71,13 +71,13 @@ ASSERT_EQ(DigitalSignatureUtil::LoadSignatures(u"File.DetectDigitalSignatures.do
 
 To create a digital signature, you will require to load a signing certificate that confirms identity. When you send a digitally signed document, you also send your certificate and public key.
 
-Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.certificate_holder#create_ubytearray_securestring) method within the [CertificateHolder](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.certificate_holder) class.
+Aspose.Words allows you to create X.509 certificate, a digital certificate that uses the internationally accepted X.509 PKI standard to verify that a public key belongs to the signer included inside the certificate. To do this, use the [Create](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/certificateholder/create/) method within the [CertificateHolder](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/certificateholder) class.
 
 The next sections explain how to add a digital signature, signature line, and how to sign a generated PDF document.
 
 ### Sign a Document
 
-Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#sign_stream_stream_certificateholder) method and [SignOptions](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.sign_options) properties.
+Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignatureutil/sign/) method and [SignOptions](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/signoptions/) properties.
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
@@ -115,7 +115,7 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 
 ### Add a Signature Line
 
-A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertsignatureline_signaturelineoptions) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://reference.aspose.com/words/cpp/class/aspose.words.signature_line_options) class.
+A signature line is a visual representation of a digital signature in a document. Aspose.Words allows you to insert a signature line using the [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertsignatureline/) method.  You can also set the parameters for this representation using the [SignatureLineOptions](https://reference.aspose.com/words/cpp/aspose.words/signaturelineoptions/) class.
 
 For example, the picture below shows how valid and invalid signatures can be displayed.
 
@@ -189,7 +189,7 @@ ASSERT_EQ(DigitalSignatureType::XmlDsig, signatures->idx_get(0)->get_SignatureTy
 
 ### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
-Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://reference.aspose.com/words/cpp/class/aspose.words.saving.pdf_digital_signature_details) properties.
+Aspose.Words allows you to sign and get all details of a PDF document using the [PdfDigitalSignatureDetails](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfdigitalsignaturedetails/) properties.
 
 The following code example shows how to sign a generated PDF:
 
@@ -215,7 +215,7 @@ doc->Save(u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 ## Remove Digital Signatures
 
-Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://reference.aspose.com/words/cpp/class/aspose.words.digital_signatures.digital_signature_util#removeallsignatures_stream_stream) method.
+Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) method.
 
 The following code example shows how to load and remove digital signatures from a document:
 
