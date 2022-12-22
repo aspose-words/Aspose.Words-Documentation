@@ -11,7 +11,7 @@ url: /net/working-with-charts/
 
 ## Creating OOXML Charts from Scratch using Aspose.Words
 
-New [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder//insertchart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder//insertchart/) method:
+New [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) method:
 
 ### How to Insert Column chart
 

@@ -19,7 +19,7 @@ This article explains how to move around in a document and navigate with a virtu
 
 Before starting the process of navigating through your document, you will need to get the node that is currently selected. You can get the exact position of the cursor at a selected node by using the [CurrentNode](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentnode/) property. In addition, instead of getting the current node, you can get the currently selected paragraph or the currently selected section by using the [CurrentParagraph](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentparagraph/) and [CurrentSection](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentsection/) properties.
 
-Any insert operations you perform using the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) will be inserted before the [CurrentNode](https://reference.aspose.com/words/net/aspose.words/documentbuilder//properties/currentnode). When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, the **CurrentNode** returns null.
+Any insert operations you perform using the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) will be inserted before the [CurrentNode](https://reference.aspose.com/words/net/aspose.words/documentbuilder/currentnode/). When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, the **CurrentNode** returns null.
 
 ## Navigating Methods in a Document
 

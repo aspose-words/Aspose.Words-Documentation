@@ -11,15 +11,15 @@ url: /cpp/inserting-fields/
 
 There are several different ways to insert fields into a document:
 
-- using [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder)
-- using [FieldBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_builder)
+- using [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/document/builder/)
+- using [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
 - using [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/)
 
 In this article, we will look at each way in more detail and analyze how to insert certain fields using these options.
 
 ## Inserting Fields into a Document using DocumentBuilder
 
-In Aspose.Words the [InsertField](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertfield_fieldtype_bool) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value. If you are not sure about the particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
+In Aspose.Words the [InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield/) method is used to insert new fields into a document. The first parameter accepts the full field code of the field to be inserted. The second parameter is optional and allows the field result of the field to be set manually. If this is not supplied then the field is updated automatically. You can pass null or empty to this parameter to insert a field with an empty field value. If you are not sure about the particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
 
 {{% alert color="primary" %}}
 
@@ -39,7 +39,7 @@ The following code example shows how to insert fields nested within another fiel
 
 ### Specify Locale at Field Level
 
-A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field#get_localeid) property, which gets or sets the field's locale ID.
+A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/cpp/aspose.words.fields/field/get_localeid/) property, which gets or sets the field's locale ID.
 
 The folowing code example shows how to use this option:
 
@@ -47,7 +47,7 @@ The folowing code example shows how to use this option:
 
 ### Insert Untyped/Empty Field
 
-If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertfield_fieldtype_bool) method with the [FieldType.FieldNone](https://reference.aspose.com/words/cpp/namespace/aspose.words.fields#fieldtype) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
+If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield) method with the [FieldType.FieldNone](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
 The folowing code example shows how to insert an empty field into the document:
 
@@ -55,7 +55,7 @@ The folowing code example shows how to insert an empty field into the document:
 
 ## Inserting Fields into a Document using FieldBuilder
 
-The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_builder) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
+The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
 The folowing code example shows how to insert a field into a document using **FieldBuilder**:
 
@@ -67,7 +67,7 @@ You can also insert various types of fields using [Aspose.Words Document Object 
 
 ### Inserting Merge Field into a Document using DOM
 
-The MERGEFIELD field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_merge_field) class. You can use the **FieldMergeField** class to perform the following operations:
+The MERGEFIELD field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldmergefield/) class. You can use the **FieldMergeField** class to perform the following operations:
 
 - specify the name of the merge field
 - specify the formatting of the merge field
@@ -77,7 +77,7 @@ The MERGEFIELD field in Word document can be represented by the [FieldMergeField
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldMergeField](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_merge_field) class API.
+For more details, see the [FieldMergeField](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldmergefield/) class API.
 
 {{% /alert %}}
 
@@ -93,7 +93,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 
-The ADDRESSBLOCK field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_address_block) class. You can use the **FieldAddressBlock** class to perform the following operations:
+The ADDRESSBLOCK field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields.field_address_block) class. You can use the **FieldAddressBlock** class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -103,7 +103,7 @@ The ADDRESSBLOCK field is used to insert a mail merge address block in a Word do
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAddressBlock](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_address_block) class API.
+For more details, see the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) class API.
 
 {{% /alert %}}
 
@@ -119,7 +119,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting Advance field into a Document without using DocumentBuilder
 
-The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. The ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_advance) class. You can use FieldAdvance class to perform the following operations:
+The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. The ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields.field_advance) class. You can use FieldAdvance class to perform the following operations:
 
 - specify the number of points by which the text that follows the field should be moved vertically from the top edge of the page
 - specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box
@@ -127,7 +127,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAdvance](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_advance) class API.
+For more details, see the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields.field_advance) class API.
 
 {{% /alert %}}
 
@@ -143,7 +143,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting ASK field into a Document without using DocumentBuilder
 
-The ASK field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_ask) class. You can use the **FieldAsk** class to perform the following operations:
+The ASK field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldask/) class. You can use the **FieldAsk** class to perform the following operations:
 
 - specify the name of the bookmark
 - specify default user response (initial value contained in the prompt window)
@@ -152,7 +152,7 @@ The ASK field is used to prompt the user for text to assign to a Bookmark in Wor
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAsk](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_ask) class API.
+For more details, see the [FieldAsk](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldask) class API.
 
 {{% /alert %}}
 
@@ -168,13 +168,13 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
-The AUTHOR field is used to specify the name of the Document's author from the Document properties. The AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_author) class. You can use the **FieldAuthor** class to perform the following operations:
+The AUTHOR field is used to specify the name of the Document's author from the Document properties. The AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldauthor/) class. You can use the **FieldAuthor** class to perform the following operations:
 
 - specify the document author's name
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAuthor](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_author) class API.
+For more details, see the [FieldAuthor](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldauthor/) class API.
 
 {{% /alert %}}
 
@@ -190,14 +190,14 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
 
-The INCLUDETEXT field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use the [FieldIncludeText](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_include_text) class to perform the following operations:
+The INCLUDETEXT field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use the [FieldIncludeText](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldincludetext/) class to perform the following operations:
 
 - specify the bookmark's name of the included document
 - specify the location of the document
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldIncludeText](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_include_text) class API.
+For more details, see the [FieldIncludeText](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldincludetext/) class API.
 
 {{% /alert %}}
 
@@ -213,7 +213,7 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldToa](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_toa) class API.
+For more details, see the [FieldToa](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldtoa/) class API.
 
 {{% /alert %}}
 

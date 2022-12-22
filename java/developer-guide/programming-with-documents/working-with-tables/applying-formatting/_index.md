@@ -16,13 +16,13 @@ aliases: [/java/applying-formatting-to-table-row-and-cell/]
 
 Each element of a table can be applied with different formatting. For instance, table formatting will be applied over the entire table while row formatting will only affect particular rows etc.
 
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words//java/com.aspose.words/rowformat) and [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) nodes to set formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) and [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) nodes to set formatting.
 
 {{% /alert %}}
 
 ## Applying Formatting on the Table Level
 
-To apply formatting to a table you can use the properties available on the corresponding [Table](https://reference.aspose.com/words//java/com.aspose.words/table) node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below.
+To apply formatting to a table you can use the properties available on the corresponding [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below.
 
 ![apply-formatting-to-table-level-aspose-words-java](applying-formatting-to-table-row-and-cell-1.png)
 

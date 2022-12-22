@@ -11,7 +11,7 @@ url: /java/aspose-words-for-android-via-java-17-11-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Android via Java 17.11](https://releases.aspose.com/words/java/17.11/).
+This page contains release notes for [Aspose.Words for Android via Java 17.11](https://releases.aspose.com/words/java/17-11/).
 
 {{% /alert %}}
 

@@ -21,7 +21,7 @@ In this sample, we will be using the document displayed below. It contains neste
 
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java](how-to-apply-custom-logic-to-unmerged-regions-1.png)
 
-As a quick demonstration, we can execute a sample database on the sample document with the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](https://reference.aspose.com/words//java/com.aspose.words/mailmergecleanupoptions) flag enabled. This property will automatically remove unmerged regions from the document during a mail merge.
+As a quick demonstration, we can execute a sample database on the sample document with the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](https://reference.aspose.com/words/java/com.aspose.words/mailmergecleanupoptions/) flag enabled. This property will automatically remove unmerged regions from the document during a mail merge.
 
 The data source includes two records for the **StoreDetails** region but purposely does have any data for the child **ContactDetails** regions for one of the records. Furthermore, the **Suppliers** region does not have any data rows either. This will cause unused regions to remain in the document. The result after merging the document with this data source is below. 
 

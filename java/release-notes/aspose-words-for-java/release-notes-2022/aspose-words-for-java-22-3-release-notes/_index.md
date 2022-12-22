@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-22-3-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 22.3](https://releases.aspose.com/words/java/22.3/).
+This page contains release notes for [Aspose.Words for Java 22.3](https://releases.aspose.com/words/java/22-3/).
 
 {{% /alert %}}
 

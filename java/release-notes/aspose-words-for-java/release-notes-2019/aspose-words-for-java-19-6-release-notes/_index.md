@@ -11,7 +11,7 @@ url: /java/aspose-words-for-java-19-6-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Java 19.6](https://releases.aspose.com/words/java/19.6/).
+This page contains release notes for [Aspose.Words for Java 19.6](https://releases.aspose.com/words/java/19-6/).
 
 {{% /alert %}}
 

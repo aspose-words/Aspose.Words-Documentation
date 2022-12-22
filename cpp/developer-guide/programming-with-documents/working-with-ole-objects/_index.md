@@ -17,7 +17,7 @@ In this article, we will talk about inserting an OLE object and setting its prop
 
 ## Insert OLE Object
 
-If you want OLE Object, call the [InsertOleObject](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertoleobject_stream_string_bool_stream) method and pass it the **ProgId** explicitly with other parameters.
+If you want OLE Object, call the [InsertOleObject](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertoleobject/) method and pass it the **ProgId** explicitly with other parameters.
 
 The following code example shows how to insert OLE Object into a document:
 
@@ -37,7 +37,7 @@ The following code example shows how to set the file name, extension, and displ
 
 Users can access OLE object data using various properties and methods of the OleFormat class. For example, it is possible to get the OLE object raw data or the path and name of a source file for the linked OLE object.
 
-The following code example shows how to get OLE Object raw data using the [GetRawData](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.ole_format#getrawdata) method:
+The following code example shows how to get OLE Object raw data using the [GetRawData](https://reference.aspose.com/words/cpp/aspose.words.drawing/oleformat/getrawdata/) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with OleObjects and ActiveX-GetAccessToOLEObjectRawData.h" >}}
 
@@ -45,7 +45,7 @@ The following code example shows how to get OLE Object raw data using the [GetR
 
 OLE objects can also be inserted into documents as images.
 
-The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder) class exposes the [InsertOleObjectAsIcon](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertoleobjectasicon_stream_string_string_string) method:
+The following code example shows how to insert OLE Object as an icon. For this purpose, the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class exposes the [InsertOleObjectAsIcon](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertoleobjectasicon/) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with OleObjects and ActiveX-InsertOLEObjectAsIcon.h" >}}
 
@@ -55,9 +55,9 @@ The following code example shows how to inserts an embedded OLE object as an ico
 
 ## Insert Online Video
 
-Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the [InsertOnlineVideo](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#insertonlinevideo_string_relativehorizontalposition_double_relativeverticalposition_double_double_double_wraptype) method.
+Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the [InsertOnlineVideo](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertonlinevideo/) method.
 
-The [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder) class introduces four overloads of this method. The first one works with the most popular video resources and takes the URL of the video as a parameter. For example, the first overload supports simple insertion of online videos from [YouTube](https://www.youtube.com/) and [Vimeo](https://vimeo.com/) resources.
+The [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class introduces four overloads of this method. The first one works with the most popular video resources and takes the URL of the video as a parameter. For example, the first overload supports simple insertion of online videos from [YouTube](https://www.youtube.com/) and [Vimeo](https://vimeo.com/) resources.
 
 The following code example shows how to insert an online video from *Vimeo* into a document:
 

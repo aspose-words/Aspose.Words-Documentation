@@ -11,7 +11,7 @@ url: /java/aspose-words-for-android-via-java-19-4-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Android via Java 19.4](https://releases.aspose.com/words/java/19.4/).
+This page contains release notes for [Aspose.Words for Android via Java 19.4](https://releases.aspose.com/words/java/19-4/).
 
 {{% /alert %}}
 

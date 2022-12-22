@@ -313,12 +313,12 @@ A simple way to save images as Base64 string into Markdown format has been provi
 
 ### Mail Merge and Reporting
 
-The ability to get [ParentRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo//parentregion/) through [MailMergeRegionInfo](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo/), which made our MailMerge engine more tunable, has been added.
+The ability to get [ParentRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/) through [MailMergeRegionInfo](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo/), which made our MailMerge engine more tunable, has been added.
 
 ### Other
 
-* An ability to get the [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel//customnumberstyleformat/) property of the [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) object has been added.
-* A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/net/aspose.words.lists/listlevel//methods/geteffectivevalue) method has been added.
+* An ability to get the [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) property of the [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) object has been added.
+* A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/geteffectivevalue/) method has been added.
 * An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
 * A new property [ProgressCallback](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/progresscallback/) for showing the document loading progress has been implemented.
 * A new class [ChmLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/) has been added to get more control over CHM loading.
@@ -357,7 +357,7 @@ An ability to set fill and stroke formatting for chart series, data points, and 
 
 #### Control the Fill Texture of Any Object
 
-A new public method [PresetTextured](https://reference.aspose.com/words/net/aspose.words.drawing/fill//presettextured/) has been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
+A new public method [PresetTextured](https://reference.aspose.com/words/net/aspose.words.drawing/fill/presettextured/) has been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
 
 #### Rendering of OOXML Ink
 
@@ -375,7 +375,7 @@ Rendering to PDF/A-2 format has been implemented by adding new values to the [Pd
 
 #### Work with Patterns
 
-A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/net/aspose.words.drawing//fill//patterned/#patterned/) method with two overloads and the [Pattern](https://reference.aspose.com/words/net/aspose.words.drawing//fill//pattern/) property have been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing//fill/) class and the [PatternType](https://reference.aspose.com/words/net/aspose.words.drawing//patterntype/) enumeration has been added to the [Drawing](https://reference.aspose.com/words/net/aspose.words.drawing/) namespace.
+A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/net/aspose.words.drawing/fill/patterned/#patterned/) method with two overloads and the [Pattern](https://reference.aspose.com/words/net/aspose.words.drawing/fill/pattern/) property have been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class and the [PatternType](https://reference.aspose.com/words/net/aspose.words.drawing/patterntype/) enumeration has been added to the [Drawing](https://reference.aspose.com/words/net/aspose.words.drawing/) namespace.
 
 #### Insert GIF into the Document Model
 
@@ -437,7 +437,7 @@ Font API has been extended with the [Fill](https://reference.aspose.com/words/ne
 
 #### Convert Any Fill to Solid
 
-A new method [Solid](https://reference.aspose.com/words/net/aspose.words.drawing/fill//solid/) has been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class for processing solid fills.
+A new method [Solid](https://reference.aspose.com/words/net/aspose.words.drawing/fill/solid/) has been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class for processing solid fills.
 
 #### Support for Advanced Typography
 
@@ -455,7 +455,7 @@ A new public property [IgnoreNoscriptElements](https://reference.aspose.com/word
 
 #### Clean Up Unused Information from a Document
 
-A new public property [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions//unusedbuiltinstyles/) has been added to the [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
+A new public property [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) has been added to the [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
 
 ### Reporting
 
@@ -463,15 +463,15 @@ New extension methods **Select** and **SelectMany** have been added for the LINQ
 
 ### Search and Compare
 
-A new public property [SmartParagraphBreakReplacement](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions//smartparagraphbreakreplacement/) has been added to the [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
+A new public property [SmartParagraphBreakReplacement](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) has been added to the [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
 
 ### Other
 
-* New public methods [StartColumnBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder//startcolumnbookmark/) and [EndColumnBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder//endcolumnbookmark/) have been introduced in the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
+* New public methods [StartColumnBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startcolumnbookmark/) and [EndColumnBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endcolumnbookmark/) have been introduced in the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
 * A new public option [UpdateCreatedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/) has been added to update the [CreatedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/createdtime/) property of a document upon saving.
 * A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) structured document tag is updated from custom XML.
-* A new public method [OpenIStream](https://reference.aspose.com/words/net/aspose.words/comhelper//openistream/) has been added to the [ComHelper](https://reference.aspose.com/words/net/aspose.words/comhelper/) class to load documents from IStream objects in COM applications.
-* A new public method [ClearQuickStyleGallery](https://reference.aspose.com/words/net/aspose.words/stylecollection//clearquickstylegallery/) has been added to the [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
+* A new public method [OpenIStream](https://reference.aspose.com/words/net/aspose.words/comhelper/openistream/) has been added to the [ComHelper](https://reference.aspose.com/words/net/aspose.words/comhelper/) class to load documents from IStream objects in COM applications.
+* A new public method [ClearQuickStyleGallery](https://reference.aspose.com/words/net/aspose.words/stylecollection/clearquickstylegallery/) has been added to the [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
 * An ability to work with child nodes of the [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) range has been added. New behavior follows the [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) pattern and returns a live collection.
 * The ability to create instances of the [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangestart/) and [StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangeend/) classes manually has been added.
 

@@ -12,11 +12,11 @@ weight: 180
 url: /cpp/working-with-hyperlinks/
 ---
 
-A hyperlink in Microsoft Word documents is the HYPERLINK field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_hyperlink) class.
+A hyperlink in Microsoft Word documents is the HYPERLINK field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) class.
 
 ## Inserting a Hyperlink
 
-Use the [InsertHyperlink](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder#inserthyperlink_string_string_bool) method to insert a hyperlink into the document. This method accepts three parameters: 
+Use the [InsertHyperlink](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/inserthyperlink/) method to insert a hyperlink into the document. This method accepts three parameters: 
 
 1. Text of the link to be displayed in the document
 2. Link destination (URL or a name of a bookmark inside the document)
@@ -30,7 +30,7 @@ Note that you need to specify font formatting for the hyperlink display text exp
 
 {{% /alert %}}
 
-The following code example shows how to insert a hyperlink into a document using [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder):
+The following code example shows how to insert a hyperlink into a document using [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cpp" >}}
 

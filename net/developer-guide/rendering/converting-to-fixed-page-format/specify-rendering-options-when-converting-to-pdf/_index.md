@@ -21,7 +21,7 @@ Some examples of using **PdfSaveOptions** are provided below.
 
 Currently, you can  save to PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u, and PDF/UA-1 formats. Use the [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) enumeration to set the PDF standards compliance level. Note that with the PDF/A format, an output file size is larger than a regular PDF file size.
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance//) and [PdfCompliance.PdfA1b](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance//) are marked as obsolete.
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) and [PdfCompliance.PdfA1b](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) are marked as obsolete.
 
 For more information on PDF/A, see the next article, "Learn Features of Conversion to PDF/A".
 
@@ -53,7 +53,7 @@ Aspose.Words also allows you to export document custom properties to PDF, which 
 
 ## Exporting Outlines from Bookmarks and Headings in Output PDF
 
-If you want to export bookmarks as outlines in output PDF, you can use the [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) property. This property specifies the default level in the document outline, at which Microsoft Word bookmarks are displayed. If the document contains bookmarks in the header/footer of the document, you can set the [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) property to [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode///) or [All](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode///) in order to specify how they are exported in output PDF. The bookmarks in headers/footers are not exported when the value of **HeaderFooterBookmarksExportMode** is [None](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode///).
+If you want to export bookmarks as outlines in output PDF, you can use the [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) property. This property specifies the default level in the document outline, at which Microsoft Word bookmarks are displayed. If the document contains bookmarks in the header/footer of the document, you can set the [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) property to [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) or [All](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) in order to specify how they are exported in output PDF. The bookmarks in headers/footers are not exported when the value of **HeaderFooterBookmarksExportMode** is [None](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/).
 
 The code example below shows how to export bookmarks from the first header/footer of a section:
 
@@ -167,7 +167,7 @@ This setting works only for ANSI (Windows-1252) encoding text. Writing a non-ANS
 
 ### Embedding System Fonts
 
-This option can be enabled or disabled by using the [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) property. When this property is set to [EmbedNonstandard](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode//), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode//), Aspose.Words do not embed any fonts.
+This option can be enabled or disabled by using the [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) property. When this property is set to [EmbedNonstandard](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/), the “Arial” and “Times New Roman” true type fonts are not embedded into a PDF document. In this case, the client viewer relies on the fonts that are installed on the client's operating system. When the **FontEmbeddingMode** property is set to [EmbedNone](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/), Aspose.Words do not embed any fonts.
 
 The example below shows how to set Aspose.Words to skip embedding Arial and Times New Roman fonts into a PDF document:
 

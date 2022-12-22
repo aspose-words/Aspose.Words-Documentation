@@ -73,7 +73,7 @@ The following code example shows how to establish a DataRelation between a custo
 
 ## How to Create Data Relations from a Custom Data Source
 
-Implement the [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource//methods/getchilddatasource) method to return the relevant child data of a current parent record.
+Implement the [IMailMergeDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/) method to return the relevant child data of a current parent record.
 
 The following example shows how to create data relations using **GetChildDataSource**:
 

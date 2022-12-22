@@ -23,7 +23,7 @@ The existing issue with Windows Metafile is that it is not supported by most non
 
 ## Controlling the Aspose.Words Metafile Player
 
-The [MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions//properties/renderingmode) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/) property).
+The [MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/renderingmode/) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/) property).
 
 Saving to a bitmap works differently on platforms other than .NET. While .NET GDI+ rendering is a reference that works almost perfect even for the most complex metafile format, on other platforms it may cause issues or not be supported at all.
 

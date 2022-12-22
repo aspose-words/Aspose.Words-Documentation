@@ -10,11 +10,11 @@ weight: 20
 url: /cpp/save-a-document/
 ---
 
-Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) method of the [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) class. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/cpp/namespace/aspose.words#saveformat) enumeration.
+Most of the tasks you need to perform with Aspose.Words involve saving a document. To save a document Aspose.Words provides the [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) method of the [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) class. The document can be saved in any save format supported by Aspose.Words. For the list of all supported save formats, see the [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) enumeration.
 
 ## Save to a File {#save-a-document-to-a-file}
 
-Simply use the [Save](https://reference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
+Simply use the [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save_stream_saveformat/) method with a file name. Aspose.Words will determine the save format from the file extension that you specify.
 
 The following code example shows how to load and save a document to a file:
 
@@ -28,7 +28,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Save to a Stream {#save-a-document-to-a-stream}
 
-Pass a stream object to the [Save](https://reference.aspose.com/words/cpp/class/aspose.words.document#save_stream_saveformat) method. It's necessary to specify the save format explicitly when saving to a stream.
+Pass a stream object to the [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) method. It's necessary to specify the save format explicitly when saving to a stream.
 
 The following code example shows how to load and save a document to a stream:
 
