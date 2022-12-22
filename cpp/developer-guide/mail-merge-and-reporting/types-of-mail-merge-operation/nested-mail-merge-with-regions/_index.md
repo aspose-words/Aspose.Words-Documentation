@@ -42,7 +42,7 @@ As you can see from the output document, each order from the **Order** table is 
 
 ## How to Create Data Relations from a Custom Data Source
 
-Implement the [IMailMergeDataSource](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source#getchilddatasource_string) method to return the relevant child data of a current parent record.
+Implement the [IMailMergeDataSource](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/imailmergedatasource/) interface to create relationships in the parent-child structure of your custom data source. Use the [GetChildDataSource](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/) method to return the relevant child data of a current parent record.
 
 The following code example demonstrates how to generate an invoice using nested mail merge with regions from [SQLite](https://www.sqlite.org/index.html) database with [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
 

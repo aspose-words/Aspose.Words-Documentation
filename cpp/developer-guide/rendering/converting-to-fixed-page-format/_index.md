@@ -49,7 +49,7 @@ Page layout computes where the text will appear and what content will be rendere
 
 ![converting-to-fixed-page-format-aspose-words-cpp-2](converting-to-fixed-page-format-2.png)
 
-In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [UpdatePageLayout](https://reference.aspose.com/words/cpp/class/aspose.words.document#updatepagelayout) method, provided by the [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) class. If a page layout does not exist, but there is a need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exists, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the UpdatePageLayout method, in order to ensure that the page layout is up to date with the document model.
+In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [UpdatePageLayout](https://reference.aspose.com/words/cpp/aspose.words/document/updatepagelayout/) method, provided by the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) class. If a page layout does not exist, but there is a need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exists, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the UpdatePageLayout method, in order to ensure that the page layout is up to date with the document model.
 
 ### Dynamic Structure
 
@@ -65,22 +65,22 @@ Note, that the page layout is a dynamic structure, which can be partially rebuil
 
 Consider the typical scenario when the NUMPAGES field appears in the footer of the first page in the document. The value of this field is the total number of pages. In order to position the field on a page, its value should be known. If only the first page is being currently built then the total number of pages is not yet known. In this case, the page layout has to use the default value and later come back to that field and change its value according to actual computations. However, changing the field value may affect other document content on a page and ultimately cause a new page to be appended or an existing page removed, thus making the computed value outdated. This issue can be solved by making it possible to update the existing page layout.
 
-When creating a layout, it is also possible to set up [LayoutOptions](https://reference.aspose.com/words/cpp/class/aspose.words.layout.layout_options) properties that affect the output of the document on pages.
+When creating a layout, it is also possible to set up [LayoutOptions](https://reference.aspose.com/words/cpp/aspose.words.layout/layoutoptions/) properties that affect the output of the document on pages.
 
 ## Saving to Fixed-page Format
 
 After the page layout is built and the geometry of objects and their position on the page are calculated, the document can be saved in a fixed-page format supported by Aspose.Words. When saving documents to fixed-page formats, the rendering options common to all of these formats can be used. They allow to control:
 
-- The number and range of pages contained in the output document ([PageIndex](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_pageset_const), [PageCount](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_pageset_const)).
-- Progress of page-by-page document saving ([PageSavingCallback](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_pagesavingcallback_const)).
-- A set of characters that are used to numbers rendering ([NumeralFormat](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_numeralformat_const)).
-- A metafile player ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_metafilerenderingoptions_const)). For more details, see the ["Handling Windows Metafiles"](/words/cpp/handling-windows-metafiles/) article.
-- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_jpegquality_const)).
-- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_optimizeoutput)).
-- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_useantialiasing_const), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_usehighqualityrendering_const)).
-- Saving the document in grayscale ([ColorMode](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options#get_colormode_const)).
-- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_dmlrenderingmode_const)).
-- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options#get_dmleffectsrenderingmode)).
+- The number and range of pages contained in the output document ([PageIndex](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/), [PageCount](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/)).
+- Progress of page-by-page document saving ([PageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_pagesavingcallback/)).
+- A set of characters that are used to numbers rendering ([NumeralFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_numeralformat/)).
+- A metafile player ([MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_metafilerenderingoptions/)). For more details, see the ["Handling Windows Metafiles"](/words/cpp/handling-windows-metafiles/) article.
+- A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([JpegQuality](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_jpegquality/)).
+- Optimization of vector graphics in Aspose.Words output ([OptimizeOutput](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_optimizeoutput/)).
+- Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([UseAntiAliasing](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_usehighqualityrendering/)).
+- Saving the document in grayscale ([ColorMode](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/get_colormode/)).
+- Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_dmlrenderingmode/)).
+- Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_dmleffectsrenderingmode/)).
 
 The example below demonstrates how to save a document to JPEG format using the Save method and rendering options:
 

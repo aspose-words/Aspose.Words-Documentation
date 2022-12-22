@@ -46,7 +46,7 @@ When performing a mail merge operation, you can insert images from the database 
 
 ### Insert Images from a Database
 
-During a mail merge, when an image mail merge field is encountered in a document, the [FieldMergingCallback](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#get_fieldmergingcallback_const) event is fired. You can respond to this event to return a filename, stream, or image object to the mail merge engine so it can be inserted into the document.
+During a mail merge, when an image mail merge field is encountered in a document, the [FieldMergingCallback](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/get_fieldmergingcallback/) event is fired. You can respond to this event to return a filename, stream, or image object to the mail merge engine so it can be inserted into the document.
 
 The following code example shows how to insert images stored in a database BLOB field into a report:
 
@@ -54,9 +54,9 @@ The following code example shows how to insert images stored in a database BLOB 
 
 ### Set Image Properties during Mail Merge
 
-While merging an image merge field, you may sometimes need to control various image properties, such as [WrapType](https://reference.aspose.com/words/cpp/namespace/aspose.words.drawing#wraptype).
+While merging an image merge field, you may sometimes need to control various image properties, such as [WrapType](https://reference.aspose.com/words/cpp/aspose.words.drawing/wraptype/).
 
-Currently, using [ImageFieldMergingArgs](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.image_field_merging_args) you can only set image width or height properties, respectively. To overcome this issue, Aspose.Words provides the [Shape](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.image_field_merging_args#get_shape_const) property, which facilitates to get full control over the inserted image or any other shape.
+Currently, using [ImageFieldMergingArgs](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.image_field_merging_args) you can only set image width or height properties, respectively. To overcome this issue, Aspose.Words provides the [Shape](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/imagefieldmergingargs/get_shape/) property, which facilitates to get full control over the inserted image or any other shape.
 
 The following code example shows how to set various image properties:
 

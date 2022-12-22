@@ -20,7 +20,7 @@ The main difference between both merge operations is that simple mail merge (wit
 
 {{% alert color="primary" %}}
 
-The [MailMerge](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
+The [MailMerge](https://reference.aspose.com/words/cpp/class/aspose.words.mailmerging/mailmerge/) class represents a mail merge functionality. With its properties, you can customize the required behavior before executing a mail merge operation.
 
 {{% /alert %}}
 
@@ -34,9 +34,9 @@ The main limitation of using this type is the whole document content will be rep
 
 ### How to Execute a Simple Mail Merge Operation
 
-Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) methods that accept various data objects as the data source.
+Once your template is ready, you can start performing the simple mail merge operation. Aspose.Words allows you to execute a simple mail merge operation using different [Execute](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/execute_stringarray_objectarray/) methods that accept various data objects as the data source.
 
-The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#execute_stringarray_objectarray) method:
+The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/execute/) method:
 
 {{< highlight cpp >}}
 // For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-C
@@ -183,7 +183,7 @@ Information about a mail merge region can be obtained using the [MailMergeRegion
 
 A mail merge region is a specific part inside a document that has a start point and an end point. Both points are represented as mail merge fields that have specific names *"TableStart:XXX"* and *"TableEnd:XXX"*. All content that is included in a mail merge region will automatically be repeated for every record in the data source.
 
-Aspose.Words allows you to execute mail merge with regions using one of the [ExecuteWithRegions](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.mail_merge#executewithregions_imailmergedatasource) methods that accept [IMailMergeDataSource](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) custom data source.
+Aspose.Words allows you to execute mail merge with regions using one of the [ExecuteWithRegions](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/executewithregions_imailmergedatasource/) methods that accept [IMailMergeDataSource](https://reference.aspose.com/words/cpp/class/aspose.words.mail_merging.i_mail_merge_data_source) custom data source.
 
 The following code example shows how to execute mail merge with regions from sqlite database with [SQLiteCpp](https://github.com/SRombauts/SQLiteCpp):
 

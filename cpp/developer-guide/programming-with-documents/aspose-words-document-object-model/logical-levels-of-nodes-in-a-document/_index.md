@@ -17,19 +17,19 @@ The following sections describe the logical levels of nodes in Aspose.Words and 
 
 ## Document and Section Logical Level
 
-A Word document consists of one or more sections, represented by the [Section](https://reference.aspose.com/words/cpp/class/aspose.words.section) class and separated by section breaks. A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
+A Word document consists of one or more sections, represented by the [Section](https://reference.aspose.com/words/cpp/aspose.words/section) class and separated by section breaks. A section can define its own page size, margins, orientation, number of text columns, and headers and footers.
 
-[Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) and [Section](https://www.aspose.com/api/words/cpp/class/aspose.words.section) level nodes have the structure as shown in the following diagram.
+[Document](https://reference.aspose.com/words/cpp/aspose.words/document/) and [Section](https://www.aspose.com/api/words/cpp/aspose.words/section/) level nodes have the structure as shown in the following diagram.
 
 <img src="document-and-section-level.png" alt="document-and-section-level-aspose-words-cpp" style="width:700px"/>
 
 A section contains the main text, as well as headers and footers for the first, even, and odd pages. These different “flows” of text are called *stories*.
 
-In Aspose.Words, the **Section** node contains the [Body](https://reference.aspose.com/words/cpp/class/aspose.words.body) and [HeaderFooter](https://reference.aspose.com/words/cpp/class/aspose.words.header_footer) story nodes. The **Body** object stores the main text. The **HeaderFooter** objects store the text for each header and footer. The text of any story consists of paragraphs and tables, respectively represented by the **Paragraph** and **Table** objects of the Block-level.
+In Aspose.Words, the **Section** node contains the [Body](https://reference.aspose.com/words/cpp/aspose.words/body/) and [HeaderFooter](https://reference.aspose.com/words/cpp/aspose.words/headerfooter/) story nodes. The **Body** object stores the main text. The **HeaderFooter** objects store the text for each header and footer. The text of any story consists of paragraphs and tables, respectively represented by the **Paragraph** and **Table** objects of the Block-level.
 
-Additionally, each Word document can contain a glossary, which is represented by the [GlossaryDocument](https://reference.aspose.com/words/cpp/class/aspose.words.building_blocks.glossary_document) node in Aspose.Words. A glossary document contains [BuildingBlocks](https://reference.aspose.com/words/cpp/class/aspose.words.building_blocks.glossary_document#get_buildingblocks), [AutoText](https://reference.aspose.com/words/cpp/namespace/aspose.words.building_blocks#buildingblocktype), and [AutoCorrect](https://reference.aspose.com/words/cpp/namespace/aspose.words.building_blocks#buildingblocktype) entries.
+Additionally, each Word document can contain a glossary, which is represented by the [GlossaryDocument](https://reference.aspose.com/words/cpp/aspose.words.buildingblocks/glossarydocument/) node in Aspose.Words. A glossary document contains [BuildingBlocks](https://reference.aspose.com/words/cpp/aspose.words.buildingblocks/glossarydocument/get_buildingblocks/), [AutoText](https://reference.aspose.com/words/cpp/aspose.words.buildingblocks/buildingblocktype/), and [AutoCorrect](https://reference.aspose.com/words/cpp/aspose.words.buildingblocks/buildingblocktype/) entries.
 
-**GlossaryDocument** includes [BuildingBlock](https://reference.aspose.com/words/cpp/class/aspose.words.building_blocks.building_block) nodes representing different types of glossary document entries. Each **BuildingBlock** contains sections that can be inserted, removed, and copied into documents.
+**GlossaryDocument** includes [BuildingBlock](https://reference.aspose.com/words/cpp/aspose.words.buildingblocks/buildingblock/) nodes representing different types of glossary document entries. Each **BuildingBlock** contains sections that can be inserted, removed, and copied into documents.
 
 ## Block Logical Level
 
@@ -47,9 +47,9 @@ Block-level nodes represent containers for content and content controls, and can
 
 Block-level nodes are represented by the following classes:
 
-- [Tables](https://reference.aspose.com/words/cpp/class/aspose.words.tables.table) and [Paragraphs](https://reference.aspose.com/words/cpp/class/aspose.words.paragraph), which are the most important block-level nodes
+- [Tables](https://reference.aspose.com/words/cpp/aspose.words.tables/table/) and [Paragraphs](https://reference.aspose.com/words/cpp/aspose.words/paragraph/), which are the most important block-level nodes
 - Bookmarks, which occurs both at the block-level and at the inline-level
-- [StructuredDocumentTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.structured_document_tag), which represent custom markup and can contain both content and content controls
+- [StructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words.markup/structureddocumenttag/), which represent custom markup and can contain both content and content controls
 
 The following diagram shows the block-level elements.
 
@@ -60,17 +60,17 @@ The following diagram shows the block-level elements.
 Inline-level nodes represent the actual content of the document and can be contained in the following containers:
 
 - Paragraph – the most common container
-- [SmartTag](https://reference.aspose.com/words/cpp/class/aspose.words.markup.smart_tag)
+- [SmartTag](https://reference.aspose.com/words/cpp/aspose.words.markup/smarttag/)
 - StructuredDocumentTag
 
 Inline-level elements are represented by the following classes:
 
-- [Run](https://reference.aspose.com/words/cpp/class/aspose.words.run) – runs of text formatted differently
-- [BookmarkStart](https://reference.aspose.com/words/cpp/class/aspose.words.bookmark_start) and [BookmarkEnd](https://reference.aspose.com/words/cpp/class/aspose.words.bookmark_end) represent bookmarks
-- [CommentRangeStart](https://reference.aspose.com/words/cpp/class/aspose.words.comment_range_start), [CommentRangeEnd](https://reference.aspose.com/words/cpp/class/aspose.words.comment_range_end), [Comment](https://reference.aspose.com/words/cpp/class/aspose.words.comment) and [Footnote](https://reference.aspose.com/words/cpp/class/aspose.words.notes.footnote) represent annotations
-- [FieldStart](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_start), [FieldChar](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_char), [FieldSeparator](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_separator) and [FieldEnd](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_end) that represent field characters, and [FormField](https://reference.aspose.com/words/cpp/class/aspose.words.fields.form_field) represent Word fields
-- [SpecialChar](https://reference.aspose.com/words/cpp/class/aspose.words.special_char) represents special characters in the document
-- [Shape](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.shape) and [GroupShape](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.group_shape) represent shapes, drawings, images, etc.
+- [Run](https://reference.aspose.com/words/cpp/aspose.words/run/) – runs of text formatted differently
+- [BookmarkStart](https://reference.aspose.com/words/cpp/aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/cpp/aspose.words/bookmarkend) represent bookmarks
+- [CommentRangeStart](https://reference.aspose.com/words/cpp/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/cpp/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/cpp/aspose.words.comment) and [Footnote](https://reference.aspose.com/words/cpp/aspose.words.notes/footnote/) represent annotations
+- [FieldStart](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldend/) that represent field characters, and [FormField](https://reference.aspose.com/words/cpp/aspose.words.fields/formfield/) represent Word fields
+- [SpecialChar](https://reference.aspose.com/words/cpp/aspose.words/specialchar/) represents special characters in the document
+- [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) and [GroupShape](https://reference.aspose.com/words/cpp/aspose.words.drawing/groupshape/) represent shapes, drawings, images, etc.
 - SmartTag and StructuredDocumentTag represent custom markup
 
 The following diagram shows the inline-level nodes structure.
@@ -95,8 +95,8 @@ Footnotes and comments can contain text, therefore Footnote and Comment nodes in
 
 The table consists of nodes of rows and cells. Table elements are represented by the following classes:
 
-- [Row](https://reference.aspose.com/words/cpp/class/aspose.words.tables.row) represents a table row
-- [Cell](https://reference.aspose.com/words/cpp/class/aspose.words.tables.cell) represents a table cell
+- [Row](https://reference.aspose.com/words/cpp/aspose.words.tables/row/) represents a table row
+- [Cell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/) represents a table cell
 - StructuredDocumentTag represent custom markup
 
 The following diagram shows the node structures of the Table, Row, and Cell levels.

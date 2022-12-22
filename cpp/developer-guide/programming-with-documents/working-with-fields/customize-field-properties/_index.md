@@ -13,7 +13,7 @@ Aspose.Words provides the ability to programmatically interact with various fiel
 
 ## Field Property Update
 
-Sometimes users need to change the value of a field property. For example, update the [AuthorName](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_author#get_authorname) property of the AUTHOR field or change the [FieldName](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field_merge_field#get_fieldname) property of the MERGEFIELD field.
+Sometimes users need to change the value of a field property. For example, update the [AuthorName](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldauthor/get_authorname/) property of the AUTHOR field or change the [FieldName](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldmergefield/get_fieldname/) property of the MERGEFIELD field.
 
 The following code example shows how to rename merge fields in a Word document:
 
@@ -23,6 +23,6 @@ The following code example shows how to rename merge fields in a Word document:
 
 Aspose.Words provides a property to obtain the field's result for fields that do not have a field separator node. We call this "fake result" or display result; Microsoft Word displays it in the document by calculating the field's value on the fly, but there is no such value in the document model.
 
-The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/cpp/class/aspose.words.fields.field#get_displayresult) property:
+The following code example shows the usage of [DisplayResult](https://reference.aspose.com/words/cpp/aspose.words.fields/field/get_displayresult/) property:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cpp" >}}

@@ -15,7 +15,7 @@ When loading a document, you can set some advanced properties. Aspose.Words prov
 
 Different versions of the Microsoft Word application can display documents indifferently. For example, there is a well-known problem with OOXML documents such as DOCX or DOTX produced using WPS Office. In such case essential document markup elements may be missing or may be interpreted differently causing Microsoft Word 2019 to show such a document differently compared to Microsoft Word 2010.
 
-By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you need to to make document loading appear as it would happen in one of the previous Microsoft Word application versions, you should explicitly specify the desired version using the [MswVersion](https://reference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_mswversion_const) property of the **LoadOptions** class.
+By default Aspose.Words opens documents using Microsoft Word 2019 rules. If you need to to make document loading appear as it would happen in one of the previous Microsoft Word application versions, you should explicitly specify the desired version using the [MswVersion](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/get_mswversion/) property of the **LoadOptions** class.
 
 The following code example shows how to set the Microsoft Word version with load options:
 
@@ -23,7 +23,7 @@ The following code example shows how to set the Microsoft Word version with loa
 
 ## Set Language Preferences to Change the Appearance
 
-The details of displaying a document in Microsoft Word depend not only on the application version and the **MswVersion** property value but also on the language settings. Microsoft Word may show documents differently depending on the "Office Language Preferences" dialog settings, that can be found in "File → Options → Languаge". Using this dialog a user can select, for example, primary language, proofing languages, display languages, and so on. Aspose.Words provides the [LanguagePreferences](https://reference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_languagepreferences_const) property as the equivalent of this dialog. If Aspose.Words output differs from the Microsoft Word output, set the appropriate value for **EditingLanguage** – this can improve the output document.
+The details of displaying a document in Microsoft Word depend not only on the application version and the **MswVersion** property value but also on the language settings. Microsoft Word may show documents differently depending on the "Office Language Preferences" dialog settings, that can be found in "File → Options → Languаge". Using this dialog a user can select, for example, primary language, proofing languages, display languages, and so on. Aspose.Words provides the [LanguagePreferences](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/get_languagepreferences/) property as the equivalent of this dialog. If Aspose.Words output differs from the Microsoft Word output, set the appropriate value for **EditingLanguage** – this can improve the output document.
 
 The following code example shows how to set Japanese as **EditingLanguage**:
 
@@ -59,7 +59,7 @@ The following code example shows how to use the **ResourceLoadingCallback** p
 
 Aspose.Words supports extremely large documents that have thousands of pages full of rich content. Loading such documents may require much RAM. In the process of loading, Aspose.Words needs even more memory to hold temporary structures used to parse a document.
 
-If you have a problem with the Out of Memory exception while loading a document, try to use the [TempFolder](https://reference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_tempfolder_const) property. In this case, Aspose.Words will store some data in temporary files instead of memory, and this can help avoid such an exception.
+If you have a problem with the Out of Memory exception while loading a document, try to use the [TempFolder](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/get_tempfolder/) property. In this case, Aspose.Words will store some data in temporary files instead of memory, and this can help avoid such an exception.
 
 The following code example shows how to set **TempFolder**:
 
@@ -67,7 +67,7 @@ The following code example shows how to set **TempFolder**:
 
 ## Set the Encoding Explicitly
 
-Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still many documents that use some pre-Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://reference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_encoding_const) property to get or set the encoding.
+Most modern document formats store their content in Unicode and do not require special handling. On the other hand, there are still many documents that use some pre-Unicode encoding and sometimes either miss encoding information or do not even support encoding information by nature. Aspose.Words tries to automatically detect the appropriate encoding by default, but in a rare case you may need to use an encoding different from the one detected by our encoding recognition algorithm. In this case, use the [Encoding](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/get_encoding/) property to get or set the encoding.
 
 The following code example shows how to set the encoding to override the automatically chosen encoding:
 
@@ -75,7 +75,7 @@ The following code example shows how to set the encoding to override the automa
 
 ## Load Encrypted Documents
 
-You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://reference.aspose.com/words/cpp/class/aspose.words.loading.load_options) object. This object contains the [Password](https://reference.aspose.com/words/cpp/class/aspose.words.loading.load_options#get_password_const) property, which specifies the password string.
+You can load Word documents encrypted with a password. To do this, use a special constructor overload, which accepts a [LoadOptions](https://reference.aspose.com/words/cpp/class/aspose.words.loading.load_options) object. This object contains the [Password](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/get_password/) property, which specifies the password string.
 
 The following code example shows how to load a document encrypted with a password:
 
