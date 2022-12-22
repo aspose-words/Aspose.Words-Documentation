@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add Picture
 second_title: Aspose.Words for .NET
 articleTitle: Add Picture
@@ -31,4 +31,3 @@ doc.Save("Adding Picture.doc");
 ## Download Sample Code
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Picture.Aspose.Words.zip)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Picture%20and%20WordArt%20\(Aspose.Words\).zip)

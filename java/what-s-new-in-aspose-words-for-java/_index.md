@@ -321,7 +321,7 @@ The ability to get [ParentRegion](https://reference.aspose.com/words/java/com.as
 - A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/java/com.aspose.words/listlevel/) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/java/com.aspose.words/listlevel/#getEffectiveValue-int-int-java.lang.String) method has been added.
 - An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
 - A new class [ChmLoadOptions](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) has been added to get more control over CHM loading.
-- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/RangeStart) classes.
+- The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttagrangestart/) classes.
 - Recognition of non-standard footnotes in PDF documents on import has been added.
 
 {{% alert color="primary" %}}

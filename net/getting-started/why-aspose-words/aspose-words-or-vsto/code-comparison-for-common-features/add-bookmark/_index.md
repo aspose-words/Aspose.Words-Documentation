@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add Bookmark
 second_title: Aspose.Words for .NET
 articleTitle: Add Bookmark
@@ -33,4 +33,3 @@ doc.Save("Adding Bookmark.doc");
 ## Download Sample Code
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Bookmark.Aspose.Words.zip)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Bookmark%20\(Aspoe.Words\).zip)

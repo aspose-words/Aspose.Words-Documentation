@@ -48,7 +48,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 ### Get a Node Type {#get-a-node-type}
 
-Although the [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/type) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
+Although the [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 
 The type of each node can be obtained using the [NodeType](https://reference.aspose.com/words/java/com.aspose.words/node/#getNodeType) property. This property returns a **NodeType** enumeration value. For example, a paragraph node represented by the **Paragraph** class returns **NodeType**.**Paragraph**, and a table node represented by the **Table** class returns **NodeType**.**Table**.
 

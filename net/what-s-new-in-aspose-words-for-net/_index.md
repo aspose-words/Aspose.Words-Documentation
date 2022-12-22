@@ -49,7 +49,7 @@ The predefined font fallback settings for Google Noto fonts have been updated.
 
 #### Cache Header or Footer Shapes to Reduce PDF Size <sup>22.9</sup>
 
-The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new [CacheHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/cacheheaderfootershapes) property.
+The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new **CacheHeaderFooterShapes** property.
 
 #### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extract Images from Document
 second_title: Aspose.Words for Java
 articleTitle: Extract Images from Document
@@ -72,7 +72,6 @@ for (int i = 0; i < pics.size(); i++)
 Download Extract Images from Document form any of the below mentioned social coding sites:
 - [SourceForge](https://sourceforge.net/projects/asposeforapachepoi/files/Aspose.Words%20vs%20Apache%20POI%20WP/Extract%20Images%20%28Aspose.Words%20vs%20Apache%20POI%20WP%29.zip/download)
 - [GitHub](https://github.com/asposemarketplace/Aspose_for_Apache_POI/releases/download/Words-vs-WP-1.2/Extract.Images.Aspose.Words.vs.Apache.POI.WP.zip)
-- [BitBucket](https://bitbucket.org/asposemarketplace/aspose-for-apache-poi/downloads/Extract%20Images%20(Aspose.Words%20vs%20Apache%20POI%20WP).zip)
 
 {{% alert color="primary" %}}
 
