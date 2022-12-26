@@ -419,7 +419,7 @@ Default value for [PdfDigitalSignatureDetails.hash_algorithm](https://reference.
 Removed `PdfEncryptionAlgorithm` enum and `encryption_algorithm` parameter from [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/) constructor. This is a breaking change.
 Now PDF 1.7 output is encrypted with AES-128 encryption algorithm and PDF 2.0 output with AES-256 algorithm.
 
-4. Several options ([use_core_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/), [custom_properties_export](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/custom_properties_export/)) in [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) cannot be used when saving PDF 2.0
+4. Several options ([use_core_fonts](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/), [custom_properties_export](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/custom_properties_export/) in [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) cannot be used when saving PDF 2.0
 
 5. Removed obsolete `PdfCompliance.PDF15` enum value
 
@@ -505,10 +505,10 @@ The new logic may change the output for some document builder scenarios. In the 
 {{< highlight python >}}
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
- 
+
 # First row
 builder.start_table()
- 
+
 cell1 = builder.insert_cell()
 cell1.cell_format.width = 100
 builder.write("Text in cell 1.")
@@ -516,7 +516,7 @@ builder.write("Text in cell 1.")
 cell2 = builder.insert_cell()
 cell2.cell_format.width = 100
 builder.write("Text in cell 2.")
- 
+
 # End of first row
 builder.end_row()
 
@@ -528,7 +528,7 @@ builder.write("Row 2 cell spans 2 columns.")
 # End of second row
 builder.end_row()
 builder.end_table()
- 
+
 doc.update_page_layout()
 doc.save("merged_cell.docx")
 {{< /highlight >}}
@@ -594,17 +594,17 @@ Use Case: Explains how to force import styles in `KEEP_SOURCE_FORMATTING` mode.
 # Also there is style MyStyle3 that exists only in source document.
 src_doc = aw.Document("Src.docx")
 dst_doc = aw.Document("Dst.docx")
- 
+
 options = aw.ImportFormatOptions()
 options.force_copy_styles = True
 node_importer = aw.NodeImporter(src_doc, dst_doc, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING, options)
- 
+
 print("Imported styles:")
 paras = src_doc.first_section.body.paragraphs
 for i in range(paras.count):
     imported_para = node_importer.import_node(paras[i], True).as_paragraph()
     print(imported_para.paragraph_format.style_name)
- 
+
 # The code produces the following output:
 # Imported styles:
 # MyStyle1_0
@@ -647,31 +647,33 @@ class FontSettings:
         
         :param output_stream: Output stream."""
         ...
- 
+     
     def set_fonts_sources(self, sources: List[aw.fonts.FontSourceBase], cache_input_stream: io.BytesIO):
         """Sets the sources where Aspose.Words looks for TrueType fonts and additionally loads previously saved
         font search cache.
-
+    
         Loading previously saved font search cache will speed up the font cache initialization process. It is
         especially useful when access to font sources is complicated (e.g. when fonts are loaded via network).
-
+    
         When saving and loading font search cache, fonts in the provided sources are identified via cache key.
         For the fonts in the SystemFontSource and FolderFontSource cache key is the path
         to the font file. For MemoryFontSource and StreamFontSource cache key is defined
         in the MemoryFontSource.cache_key and StreamFontSource.cache_key properties
         respectively. For the FileFontSource cache key is either FileFontSource.cache_key
         property or a file path if the FileFontSource.cache_key is None.
-
+    
         It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved.
         Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the
         inaccurate font resolving by Aspose.Words.
-
+    
         :param sources: An array of sources that contain TrueType fonts.
         :param cache_input_stream: Input stream with saved font search cache.
         """
         ...
 
  
+
+
 class FileFontSource:
 
     def __init__(self, file_path: str, priority: int, cache_key: str):
@@ -682,19 +684,21 @@ class FileFontSource:
         :param cache_key: The key of this source in the cache. See cache_key property description for more information.
         """
         ...
- 
+     
     @property
     def cache_key(self) -> str:
         """The key of this source in the cache.
         
         This key is used to identify cache item when saving/loading font search cache with
         FontSettings.save_search_cache() and FontSettings.set_fonts_sources() methods.
-
+    
         If key is not specified then file_path will be used as a key instead.
         """
         ...
 
  
+
+
 class MemoryFontSource:
 
     def __init__(self, font_data: bytes, priority: int, cacheKey: str):
@@ -705,11 +709,11 @@ class MemoryFontSource:
         :param cache_key: The key of this source in the cache. See cache_key property description for more information.
         """
         ...
- 
+     
     @property
     def cache_key(self) -> str:
         """The key of this source in the cache."""
-
+    
         This key is used to identify cache item when saving/loading font search cache with
         FontSettings.save_search_cache() and FontSettings.set_fonts_sources() methods.
         ...
@@ -723,7 +727,7 @@ memory_source = aw.fonts.MemoryFontSource(font_data, memory_source_priority, mem
 settings = aw.fonts.FontSettings()
 settings.set_fonts_sources([file_source, memory_source])
 settings.save_search_cache(cache_output_stream)
- 
+
 # Set font sources and load search cache before processing documents. Note that sources should be the same as when saving font search cache.
 file_source = aw.fonts.FileFontSource(file_path, file_source_priority, file_source_key)
 memory_source = aw.fonts.MemoryFontSource(font_data, memory_source_priority, memory_source_key)
@@ -738,12 +742,12 @@ Related issue: WORDSNET-22811
 Use Case: Explains how to work with [Fill.set_image](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/set_image/).
 {{< highlight python >}}
 builder = aw.DocumentBuilder()
- 
+
 # Add new rectangle shape.
 shape = builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 80, 80)
 # Apply one single image to the shape.
 shape.fill.set_image("ShapeBackground.jpg")
- 
+
 builder.document.save("SingleImageDocument.docx")
 {{< /highlight >}}
 

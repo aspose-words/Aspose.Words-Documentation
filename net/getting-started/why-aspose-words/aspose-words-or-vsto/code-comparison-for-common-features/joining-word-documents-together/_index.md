@@ -71,4 +71,3 @@ you can control how the documents appear joined together i.e continuous or on a 
 ## Download Sample Code
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/2/Joining.Documents.Together.Aspose.Words.zip)
-- [Sourceforge](https://sourceforge.net/projects/asposevsto/files/Aspose.Words%20Vs%20VSTO%20Words/Joining%20Documents%20Together%20(Aspose.Words).zip/download)

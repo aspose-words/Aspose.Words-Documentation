@@ -151,7 +151,7 @@ The following sections of the engine's documentation were added/updated to descr
 - [Inserting Images Dynamically](/words/java/inserting-images-dynamically/)
 - [Setting Text Background Color Dynamically](/words/java/setting-background-color-dynamically/)
 - [Using Variables](/words/java/using-variables/)
-- [In-Table List Template with Running (Progressive) Total](https://docs.asposeptyltd.com/display/wordsjava/Appendix+C.+Typical+Templates#AppendixC.TypicalTemplates-InTableListTemplatewithRunningProgressiveTotal) (see In-Table List Template with Running (Progressive) Total).
+- [In-Table List Template with Running (Progressive) Total](/words/java/appendix-c-typical-templates/#in-table-list-template-with-running-progressive-total) (see In-Table List Template with Running (Progressive) Total).
 
 ### WORDSNET-12412 - Added a MailMergeCleanupOptions Option to Remove Empty Row
 

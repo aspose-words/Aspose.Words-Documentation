@@ -89,4 +89,4 @@ The below example shows how to create a new Bitmap and Graphics object with the 
 
 When using the **RenderToSize** or **RenderToScale** methods, the rendered image size is also returned in the [SizeF](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/rendertoscale/) object. This can be assigned to a variable and used if necessary.
 
-The **SizeInPoints** property returns the Shape size measured in points (see [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/properties/index)). The result is a SizeF object containing the width and height.
+The **SizeInPoints** property returns the Shape size measured in points (see [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/properties/index). The result is a SizeF object containing the width and height.

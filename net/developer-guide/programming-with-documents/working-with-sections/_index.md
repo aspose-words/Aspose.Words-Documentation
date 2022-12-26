@@ -41,7 +41,7 @@ When you delete a section break, you also delete the section formatting for the 
 
 ## Sections in Aspose.Words
 
-Sections of the document are represented by the [Section](https://reference.aspose.com/words/net/aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/net/aspose.words/section/collection) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/) property.
+Sections of the document are represented by the [Section](https://reference.aspose.com/words/net/aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/net/aspose.words/sectioncollection/) classes. Section objects are immediate children of the Document node and can be accessed via the [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/) property.
 
 ### Obtaining a Section
 

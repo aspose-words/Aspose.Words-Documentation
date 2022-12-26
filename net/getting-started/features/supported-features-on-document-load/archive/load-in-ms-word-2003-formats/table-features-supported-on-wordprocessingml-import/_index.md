@@ -44,7 +44,7 @@ See the following links in the documentation for further information:
 | :- | :- | :- | :- |
 |Nested Tables |Yes | | |
 |Right To Left Tables |Yes | |- [Table.Bidi](https://reference.aspose.com/words/net/aspose.words.tables/table/bidi/)|
-|Table Style |Yes |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. |<p>- [Working with Table Styles]() </p><p>- [Table.Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/) </p><p>- [Table.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/style/identifier)</p>|
+|Table Style |Yes |Table styles are supported in model and during conversion. <br><br>A table style can be applied or removed from tables. Only in-built or table styles already in the document can be applied - there is currently no support for creating new table styles. |<p>- [Working with Table Styles]() </p><p>- [Table.Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/) </p><p>- [Table.StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/)</p>|
 |Conditional Formatting Style |Yes | |- [Table.StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/)|
 |Table Alignment |Yes | |- [Table.Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/)|
 |Table Indent |Yes | |- [Table.LeftIndent](https://reference.aspose.com/words/net/aspose.words.tables/table/leftindent/)|

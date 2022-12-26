@@ -11,7 +11,7 @@ url: /java/working-with-comments/
 
 {{% alert color="primary" %}}
 
-Comments of the document are represented by the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class. Use [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/comment/rangestart) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/comment/rangeend) classes to specify a region of text that is to be commented.
+Comments of the document are represented by the [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) class. Use [CommentRangeStart](https://reference.aspose.com/words/java/com.aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/) classes to specify a region of text that is to be commented.
 
 {{% /alert %}}
 

@@ -98,7 +98,7 @@ A table can be inline where it is tightly positioned or can be floating where it
 
 In Aspose.Words a table is normally inserted using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
-- [DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/)
+- [DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/#default)
 - [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/)
 - [DocumentBuilder.end_row](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/)
 - [DocumentBuilder.end_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/)
@@ -201,7 +201,7 @@ As described in previous articles, Aspose.Words provides several methods for ins
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder ([DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/))|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
+|DocumentBuilder ([DocumentBuilder.start_table](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/)|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
 |Table ([Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/)) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed [Table.ensure_minimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/) must be called to create any missing child nodes.||
 |Cloning ([Table.clone](https://reference.aspose.com/words/python-net/aspose.words/node/clone/))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
 |From an HTML source. ([DocumentBuilder.insert_html](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|

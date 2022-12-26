@@ -9,7 +9,7 @@ weight: 20
 url: /net/document-builder-overview/
 ---
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/document/builder/) is a powerful class that associates with [Document](https://reference.aspose.com/words/net/aspose.words/document/) and enables you to build dynamic documents from scratch or add new elements to an existing one.
+[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) is a powerful class that associates with [Document](https://reference.aspose.com/words/net/aspose.words/document/) and enables you to build dynamic documents from scratch or add new elements to an existing one.
 
 **DocumentBuilder** provides methods to insert text, checkboxes, ole objects, paragraphs, lists, tables, images, and other content elements. It allows you to specify fonts, paragraph or section formatting, and perform other operations.
 

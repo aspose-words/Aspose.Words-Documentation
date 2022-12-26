@@ -73,7 +73,7 @@ The **Shape** can be rendered to a certain scale using the [ShapeRenderer.Ren
 
 ## Rendering a Shape Image
 
-The [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) class represents objects in the drawing layer, such as an AutoShape, text box, freeform, OLE object, ActiveX control, or a picture. Using the **Shape** class, you can create or modify shapes in a Microsoft Word document. An important property of a shape is its [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shape/Type). Shapes of different types can have different capabilities in a Word document. For example, only images and OLE shapes can have images inside them while most of the shapes can have text only.
+The [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) class represents objects in the drawing layer, such as an AutoShape, text box, freeform, OLE object, ActiveX control, or a picture. Using the **Shape** class, you can create or modify shapes in a Microsoft Word document. An important property of a shape is its [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). Shapes of different types can have different capabilities in a Word document. For example, only images and OLE shapes can have images inside them while most of the shapes can have text only.
 
 The following example shows how to render a Shape image to a JPEG image separately from the document and save it to the disk:
 

@@ -17,7 +17,7 @@ Aspose.Words for JasperReports evaluation and full versions are the same downloa
 
 Make sure to take advantage of the Aspose.Words for JasperReports evaluation as it does not have a time limit.
 
-Evaluation mode injects a watermarks into exported reports. When you [purchase a license](https://www.aspose.com/community/forums/aspose.purchase/220/showforum.aspx), [follow the licensing instructions](/words/jasperreports/licensing/) to apply the license.
+Evaluation mode injects a watermarks into exported reports. When you [purchase a license](https://forum.aspose.com/c/purchase/6), [follow the licensing instructions](/words/jasperreports/licensing/) to apply the license.
 
 You can [request a free 30-day free trial license](https://www.aspose.com/community/forums/aspose.purchase/220/showforum.aspx) to evaluate Aspose.Words for JasperReports with no limitations. 
 

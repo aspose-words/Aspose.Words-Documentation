@@ -11,7 +11,7 @@ url: /net/aspose-words-for-xamarin-android-17-3-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Xamarin.Android 17.3](https://downloads.aspose.com/words/androidxamarin/new-releases/aspose.words-for-xamarin.android-17.3/).
+This page contains release notes for Aspose.Words for Xamarin.Android 17.3.
 
 This is the first release of Aspose.Words for Xamarin.Android. In future regular monthly releases will be published.
 

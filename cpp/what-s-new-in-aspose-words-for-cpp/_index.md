@@ -59,6 +59,10 @@ The ability to specify the [AutoNumberingDetection](https://reference.aspose.com
 
 The ability to specify a particular **Margin** type for the given section has been implemented.
 
+#### Specifying a Particular Margin Type <sup>22.12</sup>
+
+The ability to specify a particular **Margin** type for the given section has been implemented.
+
 ### Search and Compare <sup>22.10</sup>
 
 The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words.markup/structureddocumenttag/) upon find and replace options has been implemented by adding a new [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_ignorestructureddocumenttags/) property to the [FindReplaceOptions](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/) class.

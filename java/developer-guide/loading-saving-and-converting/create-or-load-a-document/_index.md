@@ -14,7 +14,7 @@ Almost any task that you want to perform with Aspose.Words involves loading a do
 
 ## Create a New Document {#create-a-new-document}
 
-We will call the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/document/Builder) class to add document contents.
+We will call the [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) constructor without parameters to create a new blank document. If you want to generate a document programmatically, the simplest way is to use the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder) class to add document contents.
 
 The following code example shows how to create a document using the document builder:
 

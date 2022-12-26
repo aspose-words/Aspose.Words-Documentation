@@ -278,7 +278,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Line Color |Yes | |<p>- [Stroke.Color](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/color/) </p><p>- [Stroke.Color2](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/color/2)</p>|
+|Line Color |Yes | |<p>- [Stroke.Color](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/color/) </p><p>- [Stroke.Color2](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/color2/)</p>|
 |Line Fill |Yes | |- [Stroke.ImageBytes](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/imagebytes/)|
 |Line Width |Yes | |- [Stroke.Weight](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/weight/)|
 |Compound Type |Yes | |- [Stroke.LineStyle](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/linestyle/)|

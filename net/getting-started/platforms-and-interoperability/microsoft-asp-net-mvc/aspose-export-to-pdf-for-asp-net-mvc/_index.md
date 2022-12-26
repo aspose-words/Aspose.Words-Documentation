@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose Export to PDF for ASP.NET MVC
 second_title: Aspose.Words for .NET
 articleTitle: Aspose Export to PDF for ASP.NET MVC
@@ -84,8 +84,7 @@ You can log any issues or suggestions related to Aspose Export to PDF for ASP.NE
 
 You can download the latest source code at:
 
-- [CodePlex](https://asposewordsnetmvc.codeplex.com/SourceControl/latest).
-- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToPDF).
+- [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/MVC/Aspose.MVC.ExportToPDF)
 
 #### How to configure source code
 

@@ -11,7 +11,7 @@ url: /net/aspose-words-for-mac-via-xamarin-17-10-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Mac via Xamarin 17.10](https://downloads.aspose.com/words/macxamarin/new-releases/aspose.words-for-mac-via-xamarin-17.10/).
+This page contains release notes for Aspose.Words for Mac via Xamarin 17.10.
 
 This is the first release of Aspose.Words for Mac via Xanarin. In future regular monthly releases will be published. 'Aspose.Words for Mac via Xamarin' has full functionality of Aspose.Words for .NET with few limitations, minor API changes and additional requirements.
 

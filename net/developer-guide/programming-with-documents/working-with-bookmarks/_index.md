@@ -87,7 +87,7 @@ The following code example demonstrates how to access columns of the bookmarked 
 
 ### Moving to a Bookmark
 
-If you need to insert rich content (not just plain text) into a bookmark, you should use [DocumentBuilder.MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/#movetobookmark/) to move the cursor to the bookmark and then use [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) methods and properties to insert content.
+If you need to insert rich content (not just plain text) into a bookmark, you should use [DocumentBuilder.MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) to move the cursor to the bookmark and then use [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) methods and properties to insert content.
 
 ### Show Hide Bookmark Content
 

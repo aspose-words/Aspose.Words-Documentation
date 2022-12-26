@@ -17,7 +17,7 @@ On this page we will look at how to open an existing document and add text into 
 
 {{< tab tabNum="1" >}}
 
-In Aspose.Words, we normally use the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class to create a document and the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/document/builder) class to modify it.
+In Aspose.Words, we normally use the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class to create a document and the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder) class to modify it.
 
 The following code example shows how to open an existing document and add text into it:
 

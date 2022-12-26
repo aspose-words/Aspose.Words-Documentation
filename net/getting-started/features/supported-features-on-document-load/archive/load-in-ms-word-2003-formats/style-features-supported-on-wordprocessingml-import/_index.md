@@ -54,7 +54,7 @@ See the following links in the documentation for further information:
 |Style Name |Yes | |- **Style.Name**|
 |Next Style |Yes | |- [Style.NextParagraphStyleName](https://reference.aspose.com/words/net/aspose.words/style/nextparagraphstylename/)|
 |Paragraph Properties |Yes | |- [Style.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/)|
-|Run Properties |Yes | |- [Style.Font](https://reference.aspose.com/words/net/aspose.words/style/properties/https://reference.aspose.com/words/net/aspose.words/style/properties/font)|
+|Run Properties |Yes | |- [Style.Font](https://reference.aspose.com/words/net/aspose.words/style/font/)|
 |Bullets and Numbering |Yes | |<p>- [Style.List](https://reference.aspose.com/words/net/aspose.words/style/list/) </p><p>- [Style.ListFormat](https://reference.aspose.com/words/net/aspose.words/style/list/format)</p>|
 
 ## Document Defaults

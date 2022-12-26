@@ -139,14 +139,14 @@ class PdfSaveOptions:
         Editable forms are prohibited by PDF/A compliance. False value will be used automatically
         when saving to PDF/A.
         """
-  
+
     @property
     def encryption_details(self) -> PdfEncryptionDetails:
         """Gets or sets the details for encrypting the output PDF document.
         ...
         Encryption is prohibited by PDF/A compliance. This option will be ignored when saving to PDF/A.
         """
-  
+      
     @property
     def font_embedding_mode(self) -> PdfFontEmbeddingMode:
         """Specifies the font embedding mode.
@@ -155,7 +155,7 @@ class PdfSaveOptions:
         PdfFontEmbeddingMode.EMBED_ALL value will be used automatically when saving to
         PDF/A and PDF/UA.
         """
-  
+      
     @property
     def use_core_fonts(self) -> bool:
         """Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman,
@@ -164,7 +164,7 @@ class PdfSaveOptions:
         PDF/A and PDF/UA compliance requires all fonts to be embedded. False value will be used
         automatically when saving to PDF/A and PDF/UA.
         """
-  
+      
     @property
     def custom_properties_export(self) -> PdfCustomPropertiesExport:
         """Gets or sets a value determining the way Document.custom_document_properties are exported to PDF file.
@@ -173,7 +173,7 @@ class PdfSaveOptions:
         PdfCustomPropertiesExport.STANDART will be used instead for PDF/A-1 and PDF/A-2 and
         PdfCustomPropertiesExport.NONE for PDF/A-4.
         """
-  
+      
     @property
     def image_color_space_export_mode(self) -> PdfImageColorSpaceExportMode:
         """Specifies how the color space will be selected for the images in PDF document.
@@ -181,7 +181,7 @@ class PdfSaveOptions:
         PdfImageColorSpaceExportMode.SIMPLE_CMYK value is not supported when saving to PDF/A.
         PdfImageColorSpaceExportMode.AUTO value will be used instead.
         """
-
+    
     @property
     def interpolate_images(self) -> bool:
         """A flag indicating whether image interpolation shall be performed by a conforming reader.
@@ -244,7 +244,7 @@ class BlockImportMode(enum.IntEnum):
     # On the other hand, since all merged block-level properties are stored on document nodes, all formating
     # in the resulting document will be available for modification.
     MERGE = 0
- 
+     
     # Properties of parent blocks are imported to a special logical structure and are stored separately from
     # document nodes.
     #
@@ -295,7 +295,7 @@ class ChartLegendEntry:
     A legend entry corresponds to a specific chart series or trendline.
     The text of the entry is the name of the series or trendline. The text cannot be changed.
     """
-
+    
     @property
     def is_hidden(self) -> bool:
         """Gets or sets a value indicating whether this entry is hidden in the chart legend.
@@ -304,7 +304,7 @@ class ChartLegendEntry:
         When a chart legend entry is hidden, it does not affect the corresponding chart series or trendline that
         is still displayed on the chart."""
         ...
- 
+     
     @property
     def font(self) -> Font:
         """Provides access to the font formatting of this legend entry."""
@@ -317,7 +317,7 @@ class ChartLegendEntryCollection:
     def count(self) -> int:
         """Returns the number of ChartLegendEntry in this collection."""
         ...
- 
+     
     def __getitem__(self, index: int) -> ChartLegendEntry:
         """Returns ChartLegendEntry for the specified index."""
         ...
@@ -350,30 +350,30 @@ Use Case:
 {{< highlight python >}}
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
- 
+
 shape = builder.insert_chart(aw.drawing.charts.ChartType.COLUMN, 432, 252)
- 
+
 chart = shape.chart
 series = chart.series
 
 # Delete default generated series.
 series.clear()
- 
+
 categories = ["AW Category 1", "AW Category 2"]
- 
+
 series1 = series.add("Series 1", categories, [1.0, 2.0])
 series.add("Series 2", categories, [3.0, 4.0])
 series.add("Series 3", categories, [5.0, 6.0])
 series.add("Series 4", categories, [0.0, 0.0])
- 
+
 legend_entries = chart.legend.legend_entries
 legend_entries[3].is_hidden = True
- 
+
 for legend_entry in legend_entries:
     legend_entry.font.size = 12
- 
+
 series1.legend_entry.font.italic = True
- 
+
 doc.save("output.docx")
 {{< /highlight >}}
 
@@ -381,35 +381,35 @@ doc.save("output.docx")
 
 Related issue: WORDSNET-23301
 
-Implemented interface exposing common properties for both [StructuredDocumenTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/)/[StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/) nodes.
+Implemented interface exposing common properties for both [StructuredDocumenTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/) / [StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/) nodes.
 {{< highlight python >}}
 class IStructuredDocumentTag:
 
     def is_ranged(self) -> bool:
         """Returns true if this instance is a ranged structured document tag."""
         ...
- 
+     
     def structured_document_tag_node(self) -> Node:
         """Returns Node object that implements this interface."""
         ...
- 
+     
     @property
     def id(self) -> int:
         """Specifies a unique read-only persistent numerical Id for this SDT."""
         ...
- 
+     
     @property
     def tag(self) -> str:
         """Specifies a tag associated with the current SDT node.
         Can not be None."""
         ...
-
+    
     @property
     def title(self) -> str:
         """Specifies the friendly name associated with this SDT.
         Can not be None."""
         ...
- 
+     
     @property
     def placeholder(self) -> BuildingBlock:
         """Gets the BuildingBlock containing placeholder text which should be displayed when this SDT run contents are empty,
@@ -418,7 +418,7 @@ class IStructuredDocumentTag:
     
         Can be None, meaning that the placeholder is not applicable for this Sdt."""
         ...
- 
+     
     @property
     def placeholder_name(self) -> str:
         """Gets or sets name of the BuildingBlock containing placeholder text.
@@ -426,7 +426,7 @@ class IStructuredDocumentTag:
         BuildingBlock with this name has to be present in the "Document.glossary_document"
         otherwise Exception will be raised."""
         ...
- 
+     
     @property
     def is_showing_placeholder_text(self) -> bool:
         """Specifies whether the content of this SDT shall be interpreted to contain placeholder text
@@ -434,40 +434,40 @@ class IStructuredDocumentTag:
         
         If set to True, this state shall be resumed (showing placeholder text) upon opening this document."""
         ...
- 
+     
     @property
     def level(self) -> MarkupLevel:
         """Gets the level at which this SDT occurs in the document tree."""
         ...
- 
+     
     @property
     def sdt_type(self) -> SdtType:
         """Gets type of this "Structured document tag"."""
         ...
- 
+     
     @property
     def lock_content_control(self) -> bool:
         """ When set to True, this property will prohibit a user from deleting this SDT."""
         ...
- 
+     
     @property
     def lock_contents(self) -> bool:
         """When set to True, this property will prohibit a user from editing the contents of this SDT."""
         ...
- 
+     
     @property
     def color(self) -> drawing.Color:
         """Gets or sets the color of the structured document tag."""
         ...
- 
+     
     @property
     def xml_mapping(self) -> XmlMapping:
         """Gets an object that represents the mapping of this structured document tag to XML data
         in a custom XML part of the current document.
-
+    
         You can use the XmlMapping.set_mapping method of this object to map
         a structured document tag to XML data.
-
+    
         If this element is present and the parent Sdt is not of a rich text type, then the current
         value of the Sdt shall be determined by finding the XML element (if any) which is
         determined by the attributes on this element.
@@ -477,7 +477,7 @@ class IStructuredDocumentTag:
         XML element, then the contents of that element shall be used to replace the current run content within the
         document."""
         ...
- 
+     
     @property
     def word_open_xml(self) -> str:
         """Gets a string that represents the XML contained within the node in the SaveFormat.FLAT_OPC format."""
@@ -496,7 +496,7 @@ class StructuredDocumentTagCollection:
         
         :param title: The title of structured document tag."""
         ...
- 
+     
     def get_by_tag(self, tag: str) -> IStructuredDocumentTag:
         """Returns the first structured document tag encountered in the collection with the specified tag.
         
@@ -504,18 +504,18 @@ class StructuredDocumentTagCollection:
         
         :param tag: The tag of the structured document tag."""
         ...
- 
+     
     @property
     def count(self) -> int:
         """Returns the number of structured document tags in the collection."""
         ...
- 
+     
     def __getitem__(self, id: int) -> IStructuredDocumentTag:
         """Returns the structured document tag by Id.
         
         :param id: The structured document tag identifier."""
         ...
- 
+     
     def remove(self, id: int):
         """Removes the structured document tag with the specified identifier.
         
@@ -537,12 +537,12 @@ class Range:
 Use Case:
 {{< highlight python >}}
 doc = aw.Document("some document with markup")
- 
+
 # Get the structured document tag by Id.
 sdt = doc.range.structured_document_tags[1160505028]
 print(sdt.is_ranged())
 print(sdt.title)
- 
+
 # Get the structured document tag or ranged tag by Title.
 sdt = doc.range.structured_document_tags.get_by_title("Alias4")
 print(sdt.id)

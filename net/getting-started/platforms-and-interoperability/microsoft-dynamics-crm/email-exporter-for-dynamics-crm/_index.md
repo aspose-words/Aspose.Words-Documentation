@@ -107,7 +107,6 @@ You can log any issues or suggestions related to Aspose.Words Email Exporter usi
 
 You can download the latest source code at:
 
-- [CodePlex](https://asposewordsmscrm.codeplex.com/SourceControl/latest#Aspose.Words%20Email%20Exporter/).
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose.Words%20Email%20Exporter).
 
 ### How to configure source code
