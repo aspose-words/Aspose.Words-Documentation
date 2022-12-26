@@ -50,4 +50,3 @@ doc.Save("Insert Headers and Footers.doc");
 ## Download Sample Code
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Add.Headers.and.Footers.to.Doc.Aspose.Words.zip)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Add%20Headers%20and%20Footers%20to%20Doc%20\(Aspose.Words\).zip)

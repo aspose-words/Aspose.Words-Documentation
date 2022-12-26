@@ -11,7 +11,7 @@ url: /net/aspose-words-for-android-via-xamarin-17-7-release-notes/
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for Android via Xamarin 17.7](https://downloads.aspose.com/words/androidxamarin/new-releases/-aspose.words-for-android-via-xamarin-17.7/).
+This page contains release notes for Aspose.Words for Android via Xamarin 17.7.
 
 This is a regular monthly release. 'Aspose.Words for Android via Xamarin' has full functionality of Aspose.Words for .NET with [few limitations, minor API changes and additional requirements](/words/net/xamarin-and-net-standard-2-0-limitations-and-api-differences/).
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Inserting Table
 second_title: Aspose.Words for .NET
 articleTitle: Inserting Table
@@ -88,4 +88,3 @@ doc.Save("Inserting Table.doc");
 ## Download Sample Code
 
 - [Github](https://github.com/asposemarketplace/Aspose_for_VSTO/releases/download/Aspose.Words1.0/Inserting.Table.Aspose.Words.zip)
-- [Bitbucket](https://bitbucket.org/asposemarketplace/aspose-for-vsto/downloads/Inserting%20Table%20\(Aspose.Words\).zip)

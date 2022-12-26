@@ -91,7 +91,7 @@ See the following links in the documentation for further information:
 |Allow Only Form Fields|Yes| |- **Document.ProtectionType**|
 |Allow Only Revisions|Yes|When this protection type is enabled, tracked changes are automatically turned on.|<p>- **Document.ProtectionType**</p><p>- **Document.TrackChanges**</p>|
 |Limit Formatting to Selection of Styles|Planned| | |
-|Protection Password (Legacy)|Yes| |- [WriteProtection.SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/methods/writeprotection.setpassword)|
+|Protection Password (Legacy)|Yes| |- [WriteProtection.SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/)|
 |Protection Password (OOXML)|N/A| | |
 |Protected Sections|Yes| |- [Section.ProtectedForForms](https://reference.aspose.com/words/net/aspose.words/section/protectedforforms/)|
 |Protection Ranges|Planned|Currently protected ranges are lost upon import.| |
