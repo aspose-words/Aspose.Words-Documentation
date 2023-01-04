@@ -22,7 +22,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 - Significantly improved performance and quality of emulation of raster operations with metafiles.
 - Implemented an abbility to work with shading theme colors.
 - Added the ability to generate TOC (table of contents) for AZW3 documents.
-- Provided the way to manipulate with list items upon export to Markdown format.
+- Provided the way to control how the list items are exported to the Markdown format.
 - Added support of R-squared coefficient in DML charts trendline labels when rendering.
 
 ## Full List of Issues Covering all Changes in this Release
