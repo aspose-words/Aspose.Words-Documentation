@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 23.1](https://www.nu
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
 - Significantly improved performance and quality of emulation of raster operations with metafiles.
-- Implemented an abbility to work with shading theme colors.
+- Implemented an ability to work with shading theme colors.
 - Added the ability to generate TOC (table of contents) for AZW3 documents.
 - Provided the way to control how the list items are exported to the Markdown format.
 - Added support of R-squared coefficient in DML charts trendline labels when rendering.
