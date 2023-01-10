@@ -11,6 +11,42 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for .NET 23.1
+
+Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
+
+### Performance Improvements
+
+#### Emulation of Raster Operations <sup>23.1</sup>
+
+Performance and quality of emulation of raster operations with metafiles have been significantly improved.
+
+### Rendering
+
+#### Work with Shading Theme Colors <sup>23.1</sup>
+
+The ability to work with shading theme colors has been implemented.
+
+#### Support of R-squared Coefficient in DML Charts <sup>23.1</sup>
+
+Support of R-squared coefficient in DML chart trendline labels when rendering has been added.
+
+### Loading and Saving Documents
+
+#### Generate TOC for AZW3 Documents <sup>23.1</sup>
+
+The ability to generate TOC (table of contents) for AZW3 documents has been added through the use of the [EpubNavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/epubnavigationmaplevel/) property.
+
+#### Exporting List Items to Markdown <sup>23.1</sup>
+
+A way to control the export of list items to Markdown format has been provided by adding the [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) property to the [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) class.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 23.1 Release Notes](/words/net/aspose-words-for-net-23-1-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 22.9, 22.10, 22.11, 22.12
 
 Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.
@@ -408,81 +444,5 @@ Learn more about [Aspose.Words for .NET 21.6 Release Notes](/words/net/aspose-wo
 Learn more about [Aspose.Words for .NET 21.7 Release Notes](/words/net/aspose-words-for-net-21-7-release-notes/).
 
 Learn more about [Aspose.Words for .NET 21.8 Release Notes](/words/net/aspose-words-for-net-21-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for .NET 21.1, 21.2, 21.3, 21.4
-
-Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
-
-Aspose.Words 21.2 enhances font properties, improves find and replace options, and expands possibilities when converting documents.
-
-Aspose.Words 21.3 expands rendering and reporting options, and improves interaction with styles and child nodes of the StructuredDocumentTag.
-
-Aspose.Words 21.4 improves rendering and conversion features, and enhances the ability to work with a ranged structured document tag.
-
-### Rendering
-
-#### Vertical Alignment of Table Cells
-
-A new public option [VerticalAlignment](https://reference.aspose.com/words/net/aspose.words/tablestyle/verticalalignment/) to set table style vertical alignment of cells has been added.
-
-#### Manipulating Themed Properties of Font Objects
-
-A new public API, allowing to manipulate themed properties of Font objects, has been implemented.
-
-#### Setting Fill Formatting of Text
-
-Font API has been extended with the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
-
-#### Convert Any Fill to Solid
-
-A new method [Solid](https://reference.aspose.com/words/net/aspose.words.drawing/fill/solid/) has been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class for processing solid fills.
-
-#### Support for Advanced Typography
-
-Support for advanced typography when saving to image formats with GDI+ or SkiaSharp, for example, on all .NET platforms and .NET Standard, has been implemented.
-
-### Conversion
-
-#### Markdown Document Export
-
-A new public property [ImageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/) has been added to control how images are saved upon converting to Markdown format.
-
-#### HTML Document Import
-
-A new public property [IgnoreNoscriptElements](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/) has been added to ignore `<noscript>` HTML elements upon loading HTML.
-
-#### Clean Up Unused Information from a Document
-
-A new public property [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) has been added to the [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
-
-### Reporting
-
-New extension methods **Select** and **SelectMany** have been added for the LINQ Reporting Engine.
-
-### Search and Compare
-
-A new public property [SmartParagraphBreakReplacement](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) has been added to the [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
-
-### Other
-
-* New public methods [StartColumnBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startcolumnbookmark/) and [EndColumnBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endcolumnbookmark/) have been introduced in the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
-* A new public option [UpdateCreatedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/) has been added to update the [CreatedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/createdtime/) property of a document upon saving.
-* A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) structured document tag is updated from custom XML.
-* A new public method [OpenIStream](https://reference.aspose.com/words/net/aspose.words/comhelper/openistream/) has been added to the [ComHelper](https://reference.aspose.com/words/net/aspose.words/comhelper/) class to load documents from IStream objects in COM applications.
-* A new public method [ClearQuickStyleGallery](https://reference.aspose.com/words/net/aspose.words/stylecollection/clearquickstylegallery/) has been added to the [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
-* An ability to work with child nodes of the [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) range has been added. New behavior follows the [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) pattern and returns a live collection.
-* The ability to create instances of the [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangestart/) and [StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttagrangeend/) classes manually has been added.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 21.1 Release Notes](/words/net/aspose-words-for-net-21-1-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.2 Release Notes](/words/net/aspose-words-for-net-21-2-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.3 Release Notes](/words/net/aspose-words-for-net-21-3-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.4 Release Notes](/words/net/aspose-words-for-net-21-4-release-notes/).
 
 {{% /alert %}}
