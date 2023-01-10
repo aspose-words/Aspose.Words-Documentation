@@ -15,7 +15,7 @@ EPUB (short for "Electronic Publication") is an HTML-based format commonly used 
 
 ## Convert a Document
 
-For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save_stream_saveformat/) method overloads is used. You can save the document to a file or stream and explicitly set the output document save format or define it from the file name extension.
+For simple conversion to HTML, MHTML, or EPUB, one of the [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) method overloads is used. You can save the document to a file or stream and explicitly set the output document save format or define it from the file name extension.
 
 The following example shows how to convert DOCX to HTML with specifying a save format:
 

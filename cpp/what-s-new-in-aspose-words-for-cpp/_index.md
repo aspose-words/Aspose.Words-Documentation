@@ -49,7 +49,9 @@ The predefined font fallback settings for Google Noto fonts have been updated.
 
 #### Cache Header or Footer Shapes to Reduce PDF size <sup>22.9</sup>
 
-The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new [CacheHeaderFooterShapes](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_cacheheaderfootershapes/) property.
+The ability to cache header/footer shapes to reduce the size of the output PDF file has been implemented by adding a new **CacheHeaderFooterShapes** property.
+
+Renamed to [CacheBackgroundGraphics](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/get_cachebackgroundgraphics/) on 22.11.
 
 #### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
 
@@ -376,7 +378,7 @@ Rendering to PDF/A-2 format has been implemented by adding new values to the [Pd
 
 #### Work with Patterns
 
-A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/patterned_patterntype/) method with two overloads and the [Pattern](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_pattern/) property have been added to the [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill) class and the [PatternType](https://reference.aspose.com/words/cpp/aspose.words.drawing/patterntype/) enumeration has been added to the [Drawing](https://reference.aspose.com/words/cpp/namespace/aspose.words.drawing/) namespace.
+A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/patterned/) method with two overloads and the [Pattern](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_pattern/) property have been added to the [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill) class and the [PatternType](https://reference.aspose.com/words/cpp/aspose.words.drawing/patterntype/) enumeration has been added to the [Drawing](https://reference.aspose.com/words/cpp/namespace/aspose.words.drawing/) namespace.
 
 #### Insert GIF into the Document Model
 
