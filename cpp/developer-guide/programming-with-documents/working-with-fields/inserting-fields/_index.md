@@ -11,7 +11,7 @@ url: /cpp/inserting-fields/
 
 There are several different ways to insert fields into a document:
 
-- using [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/document/builder/)
+- using [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/)
 - using [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/)
 - using [Aspose.Words Document Object Model (DOM)](/words/cpp/aspose-words-document-object-model/)
 
@@ -93,7 +93,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 
-The ADDRESSBLOCK field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields.field_address_block) class. You can use the **FieldAddressBlock** class to perform the following operations:
+The ADDRESSBLOCK field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) class. You can use the **FieldAddressBlock** class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -119,7 +119,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting Advance field into a Document without using DocumentBuilder
 
-The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. The ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields.field_advance) class. You can use FieldAdvance class to perform the following operations:
+The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. The ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldadvance/) class. You can use FieldAdvance class to perform the following operations:
 
 - specify the number of points by which the text that follows the field should be moved vertically from the top edge of the page
 - specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box
@@ -127,7 +127,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 
 {{% alert color="primary" %}}
 
-For more details, see the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields.field_advance) class API.
+For more details, see the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldadvance/) class API.
 
 {{% /alert %}}
 
@@ -219,4 +219,4 @@ For more details, see the [FieldToa](https://reference.aspose.com/words/cpp/asp
 
 The folowing code example shows how to add the TOA field using DOM to a paragraph in a document:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cpp" >}}/

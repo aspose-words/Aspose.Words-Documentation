@@ -1,4 +1,4 @@
-﻿---
+---
 title: Logical Levels of Nodes in a Document in C++
 second_title: Aspose.Words for C++
 articleTitle: Logical Levels of Nodes in a Document
@@ -67,7 +67,7 @@ Inline-level elements are represented by the following classes:
 
 - [Run](https://reference.aspose.com/words/cpp/aspose.words/run/) – runs of text formatted differently
 - [BookmarkStart](https://reference.aspose.com/words/cpp/aspose.words/bookmarkstart/) and [BookmarkEnd](https://reference.aspose.com/words/cpp/aspose.words/bookmarkend) represent bookmarks
-- [CommentRangeStart](https://reference.aspose.com/words/cpp/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/cpp/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/cpp/aspose.words.comment) and [Footnote](https://reference.aspose.com/words/cpp/aspose.words.notes/footnote/) represent annotations
+- [CommentRangeStart](https://reference.aspose.com/words/cpp/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/cpp/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/cpp/aspose.words/comment/) and [Footnote](https://reference.aspose.com/words/cpp/aspose.words.notes/footnote/) represent annotations
 - [FieldStart](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldseparator/) and [FieldEnd](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldend/) that represent field characters, and [FormField](https://reference.aspose.com/words/cpp/aspose.words.fields/formfield/) represent Word fields
 - [SpecialChar](https://reference.aspose.com/words/cpp/aspose.words/specialchar/) represents special characters in the document
 - [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) and [GroupShape](https://reference.aspose.com/words/cpp/aspose.words.drawing/groupshape/) represent shapes, drawings, images, etc.

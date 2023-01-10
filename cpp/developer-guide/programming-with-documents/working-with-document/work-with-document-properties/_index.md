@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Document Properties in C++
 second_title: Aspose.Words for C++
 articleTitle: Work with Document Properties
@@ -26,15 +26,15 @@ Note that you **cannot direct** Aspose.Words to change or remove this informatio
 
 To access document properties in Aspose.Words use:
 
-* [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/class/aspose.words.properties.built_in_document_properties) to obtain built-in properties.
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/) to obtain built-in properties.
 
-* [CustomDocumentProperties](https://reference.aspose.com/words/cpp/class/aspose.words.properties.custom_document_properties) to obtain custom properties.
+* [CustomDocumentProperties](https://reference.aspose.com/words/cpp/aspose.words.properties/customdocumentproperties/) to obtain custom properties.
 
-**BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://reference.aspose.com/words/cpp/class/aspose.words.properties.document_property) objects. These objects can be obtained through the indexer property by name or by index.
+**BuiltInDocumentProperties** and **CustomDocumentProperties** are collections of [DocumentProperty](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/) objects. These objects can be obtained through the indexer property by name or by index.
 
 **BuiltInDocumentProperties** additionally provides access to document properties through a set of entered properties that return values of the appropriate type. **CustomDocumentProperties** enable you to add or remove document properties from a document.
 
-The [DocumentProperty]https://reference.aspose.com/words/cpp/class/aspose.words.properties.document_property) class allows you to get the name, value, and type of a document property. [Value](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/get_value/) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/tostring/) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/toint/), to obtain the value of the appropriate type.
+The [DocumentProperty](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/) class allows you to get the name, value, and type of a document property. [Value](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/get_value/) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. After you get to know what type the property is, you can use one of the **DocumentProperty.ToXXX** methods, such as **DocumentProperty.**[ToString](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/tostring/) and **DocumentProperty.**[ToInt](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/toint/), to obtain the value of the appropriate type.
 
 The following code example shows how to enumerate all built-in and custom properties in a document:
 
@@ -54,9 +54,9 @@ In Microsoft Word, you can access document properties using the “File → Prop
 
 You cannot add or remove built-in document properties using Aspose.Words. You can only change or update their values.
 
-To add custom document properties with Aspose.Words, use the [Add](https://reference.aspose.com/words/cpp/aspose.words.properties/customdocumentproperties/add_string_bool/) method, passing the new property name and the value of the appropriate type. The method returns the newly created **DocumentProperty** object.
+To add custom document properties with Aspose.Words, use the [Add](https://reference.aspose.com/words/cpp/aspose.words.properties/customdocumentproperties/add/) method, passing the new property name and the value of the appropriate type. The method returns the newly created **DocumentProperty** object.
 
-To remove custom properties, use the [Remove](https://reference.aspose.com/words/cpp/aspose.words.properties/documentpropertycollection/remove_string/) method, passing it the property name to remove, or the [RemoveAt](https://reference.aspose.com/words/cpp/aspose.words.properties/documentpropertycollection/removeat_int/) method to remove the property by index. You can also remove all properties using the [Clear](https://reference.aspose.com/words/cpp/aspose.words.properties/documentpropertycollection/clear/) method.
+To remove custom properties, use the [Remove](https://reference.aspose.com/words/cpp/aspose.words.properties/documentpropertycollection/remove/) method, passing it the property name to remove, or the [RemoveAt](https://reference.aspose.com/words/cpp/aspose.words.properties/documentpropertycollection/removeat/) method to remove the property by index. You can also remove all properties using the [Clear](https://reference.aspose.com/words/cpp/aspose.words.properties/documentpropertycollection/clear/) method.
 
 The following code example checks whether a custom property with a given name exists in a document and adds a few more custom document properties:
 
@@ -84,7 +84,7 @@ Aspose.Words does not automatically update document properties, as Microsoft Wor
 
 ## Create a New Custom Property Linked to Content
 
-Aspose.Words provides the [AddLinkToContent](https://reference.aspose.com/words/cpp/aspose.words.properties/customdocumentproperties/addlinktocontent_string_string/) method to create a new custom document property linked to content. This property returns the newly created property object or null if the [LinkSource](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/get_linksource/) is invalid.
+Aspose.Words provides the [AddLinkToContent](https://reference.aspose.com/words/cpp/aspose.words.properties/customdocumentproperties/addlinktocontent/) method to create a new custom document property linked to content. This property returns the newly created property object or null if the [LinkSource](https://reference.aspose.com/words/cpp/aspose.words.properties/documentproperty/get_linksource/) is invalid.
 
 The following code example shows how to configure a link to a custom property:
 

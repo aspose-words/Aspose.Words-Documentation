@@ -40,7 +40,7 @@ Note that before you apply table properties there must be at least one row prese
 
 ## Applying Formatting on the Row Level
 
-Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/row/format/) property of the [Row](https://reference.aspose.com/words/java/com.aspose.words/row/).
+Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) property of the [Row](https://reference.aspose.com/words/java/com.aspose.words/row/).
 
 ![apply-formatting-to-row-level-aspose-words-java](applying-formatting-to-table-row-and-cell-3.png)
 
