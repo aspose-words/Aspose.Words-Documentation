@@ -44,7 +44,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 <img src="document-example-dom.png" alt="document-example-dom-aspose-words-cpp" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/cpp/aspose.words/document/), [Section](https://reference.aspose.com/words/cpp/aspose.words/sectio/), [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/cpp/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape), [Run](https://reference.aspose.com/words/cpp/aspose.words/run/), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
+[Document](https://reference.aspose.com/words/cpp/aspose.words/document/), [Section](https://reference.aspose.com/words/cpp/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/cpp/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape), [Run](https://reference.aspose.com/words/cpp/aspose.words/run/), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
 ### Get a Node Type {#get-a-node-type}
 

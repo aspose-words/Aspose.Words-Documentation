@@ -72,7 +72,7 @@ The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words
 - A new feature to get FieldEQ as an OfficeMath has been added. <sup>22.9</sup>
 - The creation of structured document tags of Group type at the Row level was allowed. <sup>22.9</sup>
 - OLE objects and controls are now treated as metafile images when converting a document to HTML. <sup>22.10</sup>
-- A new feature to check that a particular list was created from the same template as the compared list has been added by introducing a new [HasSameTemplate](https://reference.aspose.com/words/cpp/aspose.words.lists/list/hassametemplate_list/) method into the [List](https://reference.aspose.com/words/cpp/aspose.words.lists/list/) class. <sup>22.10</sup>
+- A new feature to check that a particular list was created from the same template as the compared list has been added by introducing a new [HasSameTemplate](https://reference.aspose.com/words/cpp/aspose.words.lists/list/hassametemplate/) method into the [List](https://reference.aspose.com/words/cpp/aspose.words.lists/list/) class. <sup>22.10</sup>
 - The ability to create new structured document tags of the [Citation](https://reference.aspose.com/words/cpp/aspose.words.markup/sdttype/) type has been added. <sup>22.11</sup>
 - The ability to track the field updating progress has been provided. <sup>22.11</sup>
 - A new **EmbedAttachments** property that allows users to embed OLE attachments from a source document into the output PDF document has been introduced. <sup>22.11</sup>
