@@ -27,7 +27,7 @@ generate, modify, and convert documents without using Microsoft Word.
 - Aspose.Words Java for IntelliJ IDEA (Maven) is an **IntelliJ IDEA Plugin** which lets you create maven projects (i,e created project contains Aspose.Words for Java API maven dependency) and download source code examples of the API  for using [Aspose.Words for Java API](https://reference.aspose.com/words/java/).
 - This plugin helps you to work with [Aspose.Words for Java API](https://reference.aspose.com/words/java/) inside your favourite IntelliJ IDEA. 
 
-![aspose-words-java-for-intellij-idea](https://i.imgur.com/KWKGljg.png)
+![aspose-words-java-for-intellij-idea](aspose-words-java-for-intellij-idea.png)
 
 **WIZARDS**:
 The plugin contains two wizards-----
