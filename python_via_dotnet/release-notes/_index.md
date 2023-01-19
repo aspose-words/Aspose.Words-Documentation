@@ -1,4 +1,4 @@
-﻿---
+---
 title: Release Notes
 second_title: Aspose.Words for Python via .NET
 articleTitle: Release Notes
@@ -13,5 +13,6 @@ This documentation section describes the updates and improvements for each new r
 
 To learn about specific releases, go to the respective platform, year, and definite release version in the navigation tree or using the list below:
 
+- [Release Notes - 2023](/words/python-net/release-notes-2023/)
 - [Release Notes - 2022](/words/python-net/release-notes-2022/)
 - [Release Notes - 2021](/words/python-net/release-notes-2021/)
