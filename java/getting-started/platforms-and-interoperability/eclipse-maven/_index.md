@@ -25,7 +25,7 @@ The Eclipse IDE can be extended with additional software components. Eclipse cal
 
 - Aspose.Words Java for Eclipse (Maven) is a Plugin for **Eclipse IDE** by **Aspose.** The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Words for Java](https://products.aspose.com/words/java/) in their projects. The Plugin lets you create maven projects for using [Aspose.Words for Java API](https://products.aspose.com/words/java/) and also download [Code Examples](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples) of the API. 
 - The plugin provides following features to work with [Aspose.Words for Java API](https://products.aspose.com/words/java/) within **Eclipse IDE** comfortably:<br>
-![aspose-words-java-for-eclipse](https://i.imgur.com/KWKGljg.png)<br>
+![aspose-words-java-for-eclipse](aspose-words-java-for-eclipse.png)<br>
 **WIZARDS**:<br>
 The plugin contains two wizards
 

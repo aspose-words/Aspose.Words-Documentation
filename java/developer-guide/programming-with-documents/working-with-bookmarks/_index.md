@@ -22,12 +22,12 @@ To insert a bookmark in Microsoft Word:
 1. Select the text that you want to enclose in a bookmark, or click where you want to insert a bookmark.
 1. On the **Insert** menu, click **Bookmark**.
 
-|![insert-bookmark-aspose-words-java-1](https://i.imgur.com/ah7qGpH.png)|
+|![insert-bookmark-aspose-words-java-1](insert-bookmark-aspose-words-java-1.png)|
 | :- |
 
 1. Under **Bookmark name**, type or select a name. Bookmark names must begin with a letter and may contain numbers. You cannot include spaces in a bookmark name. However, you can use the underscore character to separate words — for example, "First_heading." 
 
-![insert-bookmark-aspose-words-java-2](https://i.imgur.com/cHzeVDN.png)
+![insert-bookmark-aspose-words-java-2](insert-bookmark-aspose-words-java-2.png)
 
 1. Click **Add**.
 
@@ -37,11 +37,11 @@ Please note that bookmarks are not visible in Microsoft Word by default. To make
 1. Select the **View** tab.
 1. Under **Show**, check **Bookmarks**. 
 
-![insert-bookmark-aspose-words-java-3](https://i.imgur.com/OZSVdTV.jpg)
+![insert-bookmark-aspose-words-java-3](insert-bookmark-aspose-words-java-3.jpeg)
 
 Bookmarks are marked with grey square brackets: 
 
-![insert-bookmark-aspose-words-java-4](https://i.imgur.com/EE548FF.png)
+![insert-bookmark-aspose-words-java-4](insert-bookmark-aspose-words-java-4.png)
 
 ### Deleting a Bookmark in Microsoft Word
 
