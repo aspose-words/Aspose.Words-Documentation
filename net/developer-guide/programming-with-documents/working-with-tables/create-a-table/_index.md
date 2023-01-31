@@ -16,21 +16,22 @@ Aspose.Words allows users to create tables in a document from scratch and provid
 
 The newly created table is given default values similar to those used in Microsoft Word:
 
-|Table Property|Default in Aspose.Words|
-| :- | :- |
-|Border Style|Single|
-|Border Width|1/2 pt|
-|Border Color|Black|
-|Left and Right Padding|5.4 pts|
-|AutoFit Mode|AutoFit to Window|
-|Allow AutoFit|True|
+| Table Property         | Default in Aspose.Words |
+| :--------------------- | :---------------------- |
+| Border Style           | Single                  |
+| Border Width           | 1/2 pt                  |
+| Border Color           | Black                   |
+| Left and Right Padding | 5.4 pts                 |
+| AutoFit Mode           | AutoFit to Window       |
+| Allow AutoFit          | True                    |
+
 {{% alert color="primary" %}}
 
 A table can be inline if it is tightly positioned, or floating if it can be positioned anywhere on the page. By default, Aspose.Words always creates inline tables.
 
 {{% /alert %}}
 
-### Table Creation Algorithm
+## Create a Table with DocumentBuilder
 
 In Aspose.Words, users can create a table in a document using the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). The basic algorithm for creating a table is as follows:
 
@@ -75,51 +76,71 @@ The following code example shows how to insert a nested table using DocumentBuil
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-NestedTable.cs" >}}
 
+## Create a Table via DOM (Document Object Model)
 
-### Insert a Table Directly into the Document Object Model {#insert-a-table-directly-into-the-document-object-model}
+You can insert tables directly into the DOM by adding a new [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) node at a specific position.
 
-You can insert tables directly into the DOM at a particular node position. The same table defaults are used as when using a [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) to create a table. To build a new table from scratch without the use of **DocumentBuilder**, first create a new [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) node using the appropriate constructor, and then add it to the document tree.
+Please note that immediately after the table node creation, the table itself will be completely empty, that is it does not yet contain rows and cells. To insert rows and cells into a table, add the appropriate [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) child nodes to the DOM.
 
-Note that you must take into account that the table will initially be completely empty (i.e contains no child rows yet). In order to build the table you will first need to add the appropriate child nodes.
+{{% alert color="primary" %}}
 
-Below example shows how to insert a table using the constructors of nodes.
+This method of creating a table uses the same table defaults as when using the **DocumentBuilder**.
+
+{{% /alert %}}
+
+The following code example shows how to build a new table from scratch by adding the appropriate child nodes to the document tree:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableDirectly-InsertTableDirectly.cs" >}}
 
-### Insert a Copy of an Existing Table {#insert-a-clone-of-an-existing-table}
+## Create a Table from HTML
 
-Often there are times when you have an existing table in a document and would like to add a copy of this table then apply some modifications. The easiest way to duplicate a table while retaining all formatting is to clone the table node using the [Table.Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) method. Below example shows how to insert a table using the constructors of nodes. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+Aspose.Words supports inserting content into a document from an HTML source using the [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/) method. The input can be a complete HTML page or just a partial snippet.
+
+Using the **InsertHtml** method, users can insert tables into the document via table tags like `<table>`, `<tr>`, `<td>`.
+
+The following code example shows how to insert a table into a document from a string containing HTML tags:
+
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cs" >}}
+
+## Insert a Copy of an Existing Table {#insert-a-clone-of-an-existing-table}
+
+There are often times when you need to create a table based on an already existing table in a document. The easiest way to duplicate a table while retaining all formatting is to clone the Table node using the [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) method.
+
+The same technique can be used to add copies of an existing row or cell to a table.
+
+The following code example shows how to duplicate a table using node constructors:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cs" >}}
 
 {{% alert color="primary" %}}
 
-The same technique can be used to add copies of an existing row to a table.
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Below example shows how to make a clone of the last row of a table and append it to the table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to clone the last row of a table and append it to the table:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-CloneTable-CloneLastRow.cs" >}}
 
-If you are looking at creating tables in document which dynamically grow with each record from your data source, then the above method is not advised.
-Instead the desired output is achieved more easily by using Mail Merge with Regions. You can learn more about this technique under [Mail Merge with Regions Explained](/words/net/types-of-mail-merge-operations/).
+{{% alert color="primary" %}}
 
-### Insert a Table from HTML
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
-Aspose.Words supports inserting content into a document from an HTML source by using the [DocumentBuilder.InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/) method. The input can be a full HTML page or just a partial snippet. Using this method we can insert tables into our document by using table elements e.g &lt;table&gt;, &lt;tr&gt;, &lt;td&gt;. Below example shows how to insert a table in a document from a string containing HTML tags.
+{{% /alert %}}
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cs" >}}
+If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions. You can learn more about this technique in the ["Mail Merge with Regions"](/words/net/types-of-mail-merge-operations/#mail-merge-with-regions) section.
 
-### Comparison of Insertion Techniques
+## Compare Ways to Create a Table
 
-As described in previous articles, Aspose.Words provides several methods for inserting new tables into a document. Each have their advantages and disadvantages, so often the choice of which to use depends on your situation. The table below can give you an idea of each technique.
+Aspose.Words provides several methods to create new tables in a document. Each method has its own advantages and disadvantages, so the choice of which to use often depends on the specific situation.
+
+Let's take a closer look at these ways of creating tables and compare their pros and cons:
 
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
-|DocumentBuilder ([DocumentBuilder.StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/starttable)|Standard method of inserting tables and other document content.|Sometimes hard to create many varieties of tables at the same time with the same instance of the builder.|
-|Table( [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) | Fits in better with surronding code that creates and inserts nodes directly into the DOM without the use of DocumentBuilder.|Table is created “blank”. Before most operations are performed **Table.EnsureMinimum** must be called to create any missing child nodes.||
-|Cloning ([Table.Clone](https://reference.aspose.com/words/net/aspose.words/node/methods/clone))|Can create a copy of an existing table while retaining all formatting on rows and cells.|The appropriate child nodes must be removed before the table is ready for use.|
-|From an HTML source. ([DocumentBuilder.InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/methods/inserthtml))|Can create a new table from HTML source e.g the &lt;table&gt;, &lt;tr&gt;, &lt;td&gt; tags|Not all possible formatting on a Microsoft Word table can be applied in HTML.|
+|Via DocumentBuilder|The standard method for inserting tables and other document content|Sometimes difficult to create many varieties of tables at the same time with the same builder instance|
+|Via DOM | Fits in better with surronding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** |The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words.tables/table/ensureminimum/) to create any missing child nodes|
+|From HTML|Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>`|Not all possible Microsoft Word table formats can be applied to HTML|
+|Cloning an existing table|You can create a copy of an existing table while retaining all row and cell formatting|The appropriate child nodes must be removed before the table is ready for use|
 
 
