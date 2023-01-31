@@ -11,6 +11,42 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for .NET 23.1
+
+Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
+
+### Performance Improvements
+
+#### Emulation of Raster Operations <sup>23.1</sup>
+
+Performance and quality of emulation of raster operations with metafiles have been significantly improved.
+
+### Rendering
+
+#### Work with Shading Theme Colors <sup>23.1</sup>
+
+The ability to work with shading theme colors has been implemented.
+
+#### Support of R-squared Coefficient in DML Charts <sup>23.1</sup>
+
+Support of R-squared coefficient in DML chart trendline labels when rendering has been added.
+
+### Loading and Saving Documents
+
+#### Generate TOC for AZW3 Documents <sup>23.1</sup>
+
+The ability to generate TOC (table of contents) for AZW3 documents has been added through the use of the [EpubNavigationMapLevel](https://reference.aspose.com/words/cpp/aspose.words.saving/htmlsaveoptions/get_epubnavigationmaplevel/) property.
+
+#### Exporting List Items to Markdown <sup>23.1</sup>
+
+A way to control the export of list items to Markdown format has been provided by adding the **ListExportMode** property to the [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 23.1 Release Notes](/words/cpp/aspose-words-for-cpp-23-1-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for C++ 22.9, 22.10, 22.11, 22.12
 
 Aspose.Words 22.9 expands options for loading and saving documents and improved interaction with some other options.

@@ -39,7 +39,7 @@ The ability to generate TOC (table of contents) for AZW3 documents has been adde
 
 #### Exporting List Items to Markdown <sup>23.1</sup>
 
-A way to control the export of list items to Markdown format has been provided by adding the **ListExportMode** property to the [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) class.
+A way to control the export of list items to Markdown format has been provided by adding the [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) property to the [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) class.
 
 {{% alert color="primary" %}}
 
