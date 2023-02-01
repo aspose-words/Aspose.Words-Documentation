@@ -1,22 +1,35 @@
 ---
-title: Applying Formatting in C#
+title: Table Formatting in C#
 second_title: Aspose.Words for .NET
-articleTitle: Applying Formatting
-linktitle: Applying Formatting
+articleTitle: Apply Table Formatting
+linktitle: Apply Table Formatting
 description: "Table formatting in details using C#. Using C# to format every part of table."
 type: docs
 weight: 20
 url: /net/applying-formatting/
 ---
 
-## Applying Formatting to Table, Row and Cell
+Each element of a table can be applied with different formatting. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.
 
-Each element of a table can be applied with different formatting. For instance, table formatting will be applied over the entire table while row formatting will only affect particular rows etc.
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) and [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) nodes to set formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/), and [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) nodes to set the formatting.
 
-### Applying Formatting on the Table Level
+In this article, we will talk about how to apply formatting to different table nodes and what table formatting settings Aspose.Words supports.
 
-To apply formatting to a table you can use the properties available on the corresponding Table node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below. 
+## Apply Formatting to Different Nodes
+
+In this section, we will look at applying formatting to various table nodes.
+
+### Table Level Formatting
+
+To apply formatting to a table, you can use the properties available on the corresponding Table node.
+
+{{% alert color="primary" %}}
+
+Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
+
+{{% /alert %}}
+
+The pictures below show a representation of the table formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
 
@@ -25,21 +38,27 @@ To apply formatting to a table you can use the properties available on the corre
 
 ![formatting-table-options-aspose-words-net](applying-formatting-2.png)
 
-Below example shows how to apply an outline border to a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to apply an outline border to a table:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cs" >}}
 
-Below example shows how to build a table with all borders enabled (grid). You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx)
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+The following code example shows how to build a table with all borders enabled (grid):
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cs" >}}
 
 {{% alert color="primary" %}}
 
-Note that before you apply table properties there must be at least one row present in the table. This means when building a table using DocumentBuilder, such formatting must be done after the first call to DocumentBuilder.InsertCell or after adding the first row to a table or when inserting nodes directly into the DOM.
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-### Applying Formatting on the Row Level
+### Row Level Formatting
 
 Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/row/rowformat/) property of the Row. 
 
@@ -50,7 +69,7 @@ Below example shows how to modify the formatting of a table row. You can downloa
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cs" >}}
 
-### Applying Formatting on the Cell Level
+### Cell Level Formatting
 
 Formatting on the cell level is controlled using the [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cell/cellformat/) property of the Cell. 
 
@@ -70,7 +89,7 @@ The following code example shows how to set the amount of space (in points) to a
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-SetCellPadding.cs" >}}
 
-### Specifying Row Heights
+## Specify Row Heights
 
 The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/) and [RowFormat.HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/rule) properties of the given [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/).
 
@@ -200,74 +219,3 @@ Aspose.Words uses the following order when calculating cell widths.
 While creating a fixed table layout, specify the cell width. A cell without width cannot be saved to .doc format. Document formats other than .doc, such as .docx, allow, in principle, saving cells without width in a fixed table layout.
 
 {{% /alert %}}
-
-## Working with Table Styles
-
-A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment and font can be set in a table style and applied to many tables for a consistent appearance.
-
-Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:
-
-- Table styles in DOCX and WordML formats are preserved when loading and saving to these formats.
-- Table styles are preserved when loading and saving in the DOC format (but not to any other format).
-- When exporting to other formats, rendering or printing, table styles are expanded to direct formatting on the table so all formatting is preserved.
-
-Currently, you cannot create new table styles. You can only apply in-built table styles or custom table styles which already exist in the document to a table. 
-
-![formatting-table-style-aspose-words-net](applying-formatting-10.png)
-
-### Applying a Table Style
-
-In Aspose.Words you can apply a table style by using any of the Table.Style, Table.StyleIdentifier and Table.StyleName properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/) enumeration and are applied by using [Table.StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/) property. The [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/) enumeration allows a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-BuildTableWithStyle.cs" >}}
-
-Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
-
-Below example shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyStyle-ExpandFormattingOnCellsAndRowFromStyle.cs" >}}
-
-## Get Distance between Table and Surrounding Text
-
-Below example shows how to get the distance between the table and its surrounding text. 
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-GetDistancebetweenTableSurroundingText.cs" >}}
-
-## Working with Table Position
-
-### How to Get the Table's Alignment
-
-If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using Table.RelativeHorizontalAlignment and Table.RelativeVerticalAlignment properties. In other cases, you can get the table's inline alignment using Table.Alignment property. Below example shows how to get the table's alignment.
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-TablePosition-GetTablePosition.cs" >}}
-
-### Get Position of Floating Table
-
-The following code example shows how to get the position of the floating table. 
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-TablePosition-GetFloatingTablePosition.cs" >}}
-
-### Set Position of Floating Table
-
-Aspose.Words API provides the following properties to set the position of the floating table in the word document:
-
-- [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/relativehorizontalalignment)
-- [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/absolutehorizontaldistance)
-- [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/relativeverticalalignment)
-- [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/properties/absoluteverticaldistance)
-
-The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting RelativeHorizontalAlignment, it will reset AbsoluteHorizontalDistance to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-TablePosition-SetFloatingTablePosition.cs" >}}
-
-## Working with Alternative Text of Table
-
-The title and description of the table provide alternative text-based representations of the information contained in the table. MS Word allows setting this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using Table.Title and Table.Description properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example shows how to set the table's title and description properties.
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-SetTableTitleandDescription.cs" >}}
-
-## Allow Spacing Between Cells
-
-MS Word does not add any additional space between the cells in a table by default. You can find this option in the table's properties in MS Word. You can get or set "Allow spacing between cells" option using Table.AllowCellSpacing property. The following code example shows how to set space between cells.
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-AllowCellSpacing.cs" >}}
