@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 23.2](https://www.nu
 There are 77 improvements and fixes in this regular monthly release. The most notable are:
 
 - MOBI (also called PRC, AZW - Amazon Kindle's proprietary e-book file format) is now supported for import and export.
-- Added un ability to specify the character spacing adjustment of a document.
+- Added an ability to specify the character spacing adjustment of a document.
 - Provided the way to instruct Aspose.Words whether to include textboxes, footnotes and endnotes in word count statistics.
 - Introduced the new option for the document style, which allows specifying whether this style is automatically redefined based on the appropriate value.
 - Significantly improved chart rendering.
