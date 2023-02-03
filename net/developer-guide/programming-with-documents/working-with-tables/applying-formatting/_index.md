@@ -21,7 +21,7 @@ In this section, we will look at applying formatting to various table nodes.
 
 ### Table Level Formatting
 
-To apply formatting to a table, you can use the properties available on the corresponding Table node.
+To apply formatting to a table, you can use the properties available on the corresponding **Table** node using the [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/), and [TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/) classes.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ Note that the table must have at least one row before the table properties can b
 
 {{% /alert %}}
 
-The pictures below show a representation of the table formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
+The pictures below show a representation of the **Table** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
 
@@ -60,84 +60,108 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Row Level Formatting
 
-Formatting on the row level can be controlled using the [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/row/rowformat/) property of the Row. 
+**Row-level** formatting can be controlled using the [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/), and [RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/) classes.
+
+{{% alert color="primary" %}}
+
+Note that a **Row** can only be a child node of a **Table**. At the same time, there must be at least one **Cell** in the **Row** so that formatting can be applied to it.
+
+{{% /alert %}}
+
+The pictures below show a representation of the **Row** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formatting-row-level-aspose-words-net](applying-formatting-3.png)
 
-
-Below example shows how to modify the formatting of a table row. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to modify the table row formatting:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cs" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
 ### Cell Level Formatting
 
-Formatting on the cell level is controlled using the [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cell/cellformat/) property of the Cell. 
+Cell-level formatting is controlled by the [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/), and [CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/) classes.
+
+{{% alert color="primary" %}}
+
+Note that a **Cell** can only be a child node of a **Row**. At the same time, there must be at least one [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) in the **Cell** so that formatting can be applied to it.
+
+In addition to the **Paragraph**, you can also insert a **Table** into a **Cell**.
+
+{{% /alert %}}
+
+The pictures below show a representation of the **Cell** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formatting-cell-level-aspose-words-net](applying-formatting-4.png)
 
-
-
-
 ![auto-formatting-cell-level-aspose-words-net](applying-formatting-5.png)
 
-
-Below example shows how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to modify the formatting of a table cell:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cs" >}}
 
-The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-SetCellPadding.cs" >}}
 
 ## Specify Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/) and [RowFormat.HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/rule) properties of the given [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/).
+The simplest way to set the row height is to use the **DocumentBuilder**. Using the appropriate **RowFormat** properties, you can set the default height setting or apply a different height for each row in the table.
 
-|HeightRule Value|Description|
-| :- | :- |
-|Auto|This is the default height rule given to a new row. Technically this means that no height rule is defined. The row is sized to fit the largest content within the cells of the row.|
-|At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in **RowFormat.Height**.|
-|Exactly|The size of the row is set exactly to the value found in **RowFormat.Height** and does not grow to fit the content.|
-The simplest way to set row height is by using DocumentBuilder. Using the appropriate RowFormat properties you can set a default height setting or apply a different height for each row in the table.
+In Aspose.Words, table row height is controlled by:
 
-Below example shows how to create a table that contains a single cell and apply row formatting.
+- the row height property – [Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/)
+- the height rule property for the given row – [HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/heightrule/)
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyRowFormatting.cs" >}}
-
-### Applying Borders and Shading
-
-Borders and shading can be applied either table wide using Table.SetBorder, Table.SetBorders and Table.SetShading or to particular cells only by using CellFormat.Borders and CellFormat.Shading. Additionally, borders can be set on a row by using RowFormat.Borders, however, shading cannot be applied in this way. 
-
-![formatting-border-line-aspose-words-net](applying-formatting-6.png)
-
-
-
-
-![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
-
-
-The following code example shows how to format a table and cell with different borders and shadings.
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-FormatTableAndCellWithDifferentBorders.cs" >}}
-
-## Specifying Table and Cell Widths
-
-A table in a Microsoft word document provides several different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information which will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
-
-### Different Widths on Table
-
-Table elements present several different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are each explained in detail in this article.
-
-- Preferred width on the table.
-- Preferred width on individual cells.
-- Allowing autofit on the table.
-- Regular cell width
+At the same time, a different height can be set for each row – this allows you to widely control the table settings.
 
 {{% alert color="primary" %}}
 
-All of the properties and techniques that are described in this article all link back to how tables work in Microsoft Word. Therefore in most cases, if you are building your table programmatically but are finding it hard to create the desired table you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values to your application. 
+Rule options for specifying the height of an object can be set using the [HeightRule](https://reference.aspose.com/words/net/aspose.words/heightrule/) enam.
 
-The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on many things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
+{{% /alert %}}
+
+The following code example shows how to create a table that contains a single cell and apply row formatting:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyRowFormatting.cs" >}}
+
+## Specify Table and Cell Widths
+
+A table in a Microsoft Word document provides several different ways to resize the table and individual cells. These properties allow considerable control over the appearance and behavior of the table, so that Aspose.Words supports the behavior of tables, as in Microsoft Word.
+
+It is important to know that table elements present several different properties that can affect how the widths of the overall table, as well as individual cells, is calculated:
+
+- Preferred width on the table
+- Preferred width on individual cells
+- Allowing autofit on the table
+- Regular cell width
+
+This article details how the various table width calculation properties work and how to get full control over table width calculation. This is 
+especially useful to know in such cases where the table layout does not appear as expected.
+
+{{% alert color="primary" %}}
+
+In most cases, the preferred cell is recommended than the width. The preferred cell width is more in line with the DOCX format specification as well as the Aspose.Words model.
+
+The cell width is actually a calculated value for the DOCX format. The actual cell width can depend on many things. For example, changing the page margins or the preferred table width can affect the actual cell width.
+
+The preferred cell width is a cell property that is stored in the document. It does not depend on anything and does not change when you change the table or other properties of the cell.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+All properties and methods described in this article are related to how tables work in Microsoft Word. So in most cases, if you are building your table programmatically but are finding it hard to create the desired table, you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values into your application.
 
 {{% /alert %}}
 
@@ -219,3 +243,16 @@ Aspose.Words uses the following order when calculating cell widths.
 While creating a fixed table layout, specify the cell width. A cell without width cannot be saved to .doc format. Document formats other than .doc, such as .docx, allow, in principle, saving cells without width in a fixed table layout.
 
 {{% /alert %}}
+
+
+## Apply Borders and Shading
+
+Borders and shading can be applied either table wide using Table.SetBorder, Table.SetBorders and Table.SetShading or to particular cells only by using CellFormat.Borders and CellFormat.Shading. Additionally, borders can be set on a row by using RowFormat.Borders, however, shading cannot be applied in this way. 
+
+![formatting-border-line-aspose-words-net](applying-formatting-6.png)
+
+![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
+
+The following code example shows how to format a table and cell with different borders and shadings.
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-FormatTableAndCellWithDifferentBorders.cs" >}}
