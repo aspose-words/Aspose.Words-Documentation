@@ -11,15 +11,23 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 23.1
+## Aspose.Words for .NET 23.1, 23.2
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
+
+Aspose.Words 23.2 introduces saving documents in the MOBI format, improves chart rendering, and makes notable changes to document appearance details.
 
 ### Performance Improvements
 
 #### Emulation of Raster Operations <sup>23.1</sup>
 
 Performance and quality of emulation of raster operations with metafiles have been significantly improved.
+
+### Supported Formats
+
+#### Export to MOBI <sup>23.2</sup>
+
+Starting with version 23.2, it is possible to save a document in MOBI format (also called PRC, AZW – Amazon Kindle's own e-book file format). Now you can not only load MOBI documents, but also export your files to MOBI format.
 
 ### Rendering
 
@@ -31,6 +39,10 @@ The ability to work with shading theme colors has been implemented.
 
 Support of R-squared coefficient in DML chart trendline labels when rendering has been added.
 
+#### Chart Rendering Improvements <sup>23.2</sup>
+
+Since 23.2 the chart rendering has been significantly improved.
+
 ### Loading and Saving Documents
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
@@ -41,9 +53,17 @@ The ability to generate TOC (table of contents) for AZW3 documents has been adde
 
 A way to control the export of list items to Markdown format has been provided by adding the [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) property to the [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) class.
 
+### Other
+
+* The ability to specify the character spacing adjustment of a document has been added through the [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) property implementation <sup>23.2</sup>
+* The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) property <sup>23.2</sup>
+* A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) property <sup>23.2</sup>
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 23.1 Release Notes](/words/net/aspose-words-for-net-23-1-release-notes/).
+
+Learn more about [Aspose.Words for .NET 23.2 Release Notes](/words/net/aspose-words-for-net-23-2-release-notes/).
 
 {{% /alert %}}
 
