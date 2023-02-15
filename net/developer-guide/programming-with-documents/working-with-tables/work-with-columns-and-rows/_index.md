@@ -1,136 +1,83 @@
 ---
-title: Working with Columns and Rows in C#
+title: Work with Columns and Rows in C#
 second_title: Aspose.Words for .NET
-articleTitle: Working with Columns and Rows
-linktitle: Working with Columns and Rows
-description: "Working with parts of table, row and cells using C#."
+articleTitle: Work with Columns and Rows
+linktitle: Work with Columns and Rows
+description: "Working with parts of a table – rows, columns, and cells using C#. Specify Header Row C#."
 type: docs
-weight: 40
+weight: 15
 url: /net/working-with-columns-and-rows/
 ---
 
-## Find the Index of Table Elements {#find-the-index-of-table-elements}
+For more control over how tables work, learn how to manipulate columns and rows.
+
+## Find the Table Element Index {#find-the-index-of-table-elements}
 
 Finding the index of any node involves gathering all child nodes of the element’s type from the parent node then using the NodeCollection.IndexOf method to find the index of the desired node in the collection.
 
-### Find the Index of Table in a Document {#find-the-index-of-table-in-a-document}
+### Find the Index of a Table in a Document {#find-the-index-of-table-in-a-document}
 
-The code example given below demonstrates how to retrieve the index of a table in the document.
+Sometimes you may need to make changes to a particular table in a document. To do this, you can refer to a table by its index.
+
+The following code example shows how to retrieve the index of a table in a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveTableIndex.cs" >}}
 
 ### Find the Index of a Row in a Table {#find-the-index-of-a-row-in-a-table}
 
-The code example given below demonstrates how to retrieve the index of a row in a table.
+Similarly, you may need to make changes to a specific row in a selected table. To do this, you can also refer to a row by its index.
+
+The following code example shows how to retrieve the index of a row in a table:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveRowIndex.cs" >}}
 
 ### Find the Index of a Cell in a Row {#find-the-index-of-a-cell-in-a-row}
 
-The code example given below demonstrates how to retrieve the index of a cell in a row.
+Finally, you may need to make changes to a specific cell, and you can do this by cell index as well.
+
+The following code example shows how to retrieve the index of a cell in a row:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveCellIndex.cs" >}}
 
 ## Work with Columns {#work-with-columns}
 
-In both Word documents and in the Aspose.Words Document Object Model, there is no concept of a column. By design, table rows in Microsoft Word are completely independent and the base properties and operations are only contained on rows and cells of the table. This gives tables the possibility of some interesting attributes:
+In the Aspose.Words Document Object Model (DOM), the [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) node consists of [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) nodes and then [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) nodes. Thus, in the Document Object Model of Aspose.Words, as in Word documents, there is no concept of a column.
 
-- Each row in a table can have a completely different number of cells.
-- Vertically, the cells of each row can have different widths.
-- It is possible to join tables with differing row formats and cell counts.
+By design, the table rows in Microsoft Word and Aspose.Words are completely independent, and the basic properties and operations are contained only in the rows and cells of the table. This gives tables the ability to have some interesting attributes:
 
-Any operations that are performed on columns in Microsoft Word are in actual fact “short-cut methods” which perform the operation by modifying the cells of the rows collectively in such a way that it appears they are being applied to columns. This structure of rows and cells in the same way that tables are represented in Aspose.Words.
+- Each table row can have a completely different number of cells
+- Vertically, the cells of each row can have different widths
+- It is possible to join tables with different row formats and number of cells
 
-In the Aspose.Words Document Object Model a [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) node is made up of [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) and then [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) nodes. There is also no native support for columns.
+Any operations performed on columns are actually "shortcuts" that perform the operation by collectively changing row cells in such a way that it looks like they are being applied to columns. That is, you can perform operations on columns by simply iterating over the same table row cell index.
 
-You can still achieve such operations on columns by iterating through the same cell index of the rows of a table. The code below makes such operations easier by proving a façade class which collects the cells which make up a “column” of a table. Below example demonstrates a facade object for working with a column of a table.
+The following code example simplifies such operations by proving a facade class that collects the cells that make up a "column" of a table:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cs" >}}
 
-The code example given below demonstrates how to insert a blank column into a table.
+The following code example shows how to insert a blank column into a table:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cs" >}}
 
-Below example shows how to remove a column from a table in a document.
+The following code example shows how to remove a column from a table in a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-RemoveColumn.cs" >}}
 
-## Specify Rows to Repeat on Subsequent Pages as Header Rows {#specify-rows-to-repeat-on-subsequent-pages-as-header-rows}
+## Specify Rows as Header Rows {#specify-rows-to-repeat-on-subsequent-pages-as-header-rows}
 
-In Microsoft Word, this option is found under Table Properties as *“Repeat row as a header on subsequent pages”.* Using this option you can choose to repeat only a single row or many rows in a table.
+You can choose to repeat the first row in the table as the Header Row. In this case, you can repeat the Header Row only on the first page or on each page if the table is split into several.
 
-In the case of a single header row, it must be the first row in the table. In addition when multiple header rows are used then the header row each of these rows must be consecutive and these rows must be on one page. In Aspose.Words you can apply this setting by using the RowFormat.HeadingFormat property.
+In Aspose.Words, you can repeat the Header Row on every page using the [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/) property.
 
 {{% alert color="primary" %}}
 
-Note that heading rows do not work in nested tables. That is, if you have a table within another table then this setting will have no effect. This is a limitation of Microsoft Word which does not allow this and not of Aspose.Words.
+Note that Header Rows do not work in nested tables. That is, if you have a table inside another table, this setting will have no effect. It is a limitation of Microsoft Word that does not allow this, not Aspose.Words.
 
 {{% /alert %}}
 
-The code example given below demonstrates how to build a table which includes heading rows that repeat on subsequent pages.
+The following code example shows how to build a table which includes Header Rows that repeat on subsequent pages:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-RepeatRowsOnSubsequentPages-RepeatRowsOnSubsequentPages.cs" >}}
-
-## How to Apply Different AutoFit Settings to a Table {#how-to-apply-different-autofit-settings-to-a-table}
-
-When creating a table using a visual agent such as Microsoft Word, you will often find yourself using one of the AutoFit options to automatically size the table to the desired width. For instance, you can use the AutoFit to Window option to fit the table to the width of the page and AutoFit to Contents option to allow each cell to grow or shrink to accommodate its contents.
-
-By default, Aspose.Words inserts a new table using “**AutoFit to Window”**. The table will size to the available width on the page. To change the sizing behavior on such a table or an existing table you can call [Table.AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/) method. This method accepts an [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/) enumeration which defines what type of auto fitting is applied to the table.
-
-As in Microsoft Word, the autofit method is actually a shortcut which applies different properties to the table all at once. These properties are actually what give the table the observed behavior. We will discuss these properties for each autofit option.
-
-### AutoFitting a Table to Window {#autofitting-a-table-to-window}
-
-The code example given below demonstrates autofits a table to fit the page width. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cs" >}}
-
-When autofit to the window is applied to a table the following operations are actually being performed behind the scenes:
-
-1. The Table.AllowAutoFit property is enabled to automatically resize columns to the available content.
-1. A Table.PreferredWidth value of 100% is applied.
-1. The CellFormat.PreferredWidth is removed from all cells in the table. Note this is a little bit different to how Microsoft Word performs this step. In Microsoft Word, the preferred width of each cell is set to suitable values based on their current size and content. Aspose.Words does not update preferred width so instead, they are just cleared.
-1. The column widths are recalculated for the current content of the table.
-   The end result is a table that occupies all available width. The widths of the columns in the table change automatically as the user edits the text in MS Word.
-
-### AutoFitting a Table to Contents {#autofitting-a-table-to-contents}
-
-The code example given below demonstrates autofits a table in the document to its contents. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cs" >}}
-
-{{% alert color="primary" %}}
-
-When a table is an auto fitted to contents the following steps are actually undertaken behind the scenes:
-
-1. The Table.AllowAutoFit property is enabled to automatically resize each cell to accommodate its contents.
-1. The table-wide preferred width under Table.PreferredWidth is removed.
-1. The CellFormat.PreferredWidth is removed for every cell in the table.
-1. The column widths are recalculated for the current content in the table.
-   The end result is a table whose column widths and the entire table width change automatically to best accommodate the content as the user edits the text in MS Word.
-
-Note that this autofit option clears the preferred widths from the cells just like in Microsoft Word. If you want to preserve the column sizes and have the columns further grow or shrink to fit content then you should set the **Table.AllowAutoFit** property to True on its own instead of using the autofit shortcut.
-
-{{% /alert %}}
-
-### Disable AutoFitting on a Table and Use Fixed Column Widths {#disable-autofitting-on-a-table-and-use-fixed-column-widths}
-
-The code example given below demonstrates how to disable autofitting and enables fixed widths for the specified table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cs" >}}
-
-When a table has auto fit disabled and fixed column widths used instead the following steps are taken:
-
-1. The Table.AllowAutoFit property is disabled so columns do not grow or shrink to their contents.
-1. The table-wide preferred width is removed from Table.PreferredWidth.
-1. The CellFormat.PreferredWidth is removed from all cells in the table.
-   The end result is a table whose column widths are defined using the [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) property and whose columns do not automatically resize when the user enter texts or the page size is modified.
-
-{{% alert color="primary" %}}
-
-Note that if no width is defined for **CellFormat.Width** then a default value of one inch (72 points) is used.
-
-{{% /alert %}}
 
 ## Keep Tables and Rows from Breaking Across Pages {#keep-tables-and-rows-from-breaking-across-pages}
 

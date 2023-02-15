@@ -5,7 +5,7 @@ articleTitle: Apply Table Formatting
 linktitle: Apply Table Formatting
 description: "Table formatting in details using C#. Using C# to format every part of table."
 type: docs
-weight: 20
+weight: 25
 url: /net/applying-formatting/
 ---
 
@@ -230,11 +230,91 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### How to Set Autofit
 
-The [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) property enables cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with the preferred cell width to format a cell that automatically fits its content but also has an initial width. If necessary, the cell width can then grow past this width. 
+The [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) property allows cells in a table to grow and shrink according to a selected criterion. For example, you can use the **AutoFit to Window** option to fit the table to the width of the page, and the **AutoFit to Content** option to allow each cell to grow or shrink according to its content.
+
+{{% alert color="primary" %}}
+
+Additionally, the **AllowAutoFit** property can be used in conjunction with a preferred cell width to format a cell that automatically fits its content, but also has an initial width. If necessary, the cell width can then grow past this width.
+
+{{% /alert %}}
+
+By default, Aspose.Words inserts a new table using **AutoFit to Window**. The table will be sized according to the available page width. To resize a table, you can call the [AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/) method. This method accepts an [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/) enumeration that specifies what type of autofit is applied to the table.
+
+It is important to know that the autofit method is actually a shortcut that applies different properties to the table at the same time. These are properties that actually give the table the observed behavior. We will discuss these properties for each autofit option.
 
 The following code example shows how to set a table to shrink or grow each cell according to its contents:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cs" >}}
+
+#### AutoFit Table to Window
+
+When autofitting to a window is applied to a table, the following operations are actually performed behind the scenes:
+
+1. The **Table.AllowAutoFit** property is enabled to automatically resize columns to fit the available content, using a **Table.PreferredWidth** value of 100%
+2. **CellFormat.PreferredWidth** is removed from all table cells
+   {{% alert color="primary" %}}
+   Note that this is slightly different from the Microsoft Word behavior, where each cell's preferred width is set to appropriate values based on their current size and content. Aspose.Words does not update the preferred width so they just get cleared instead.
+   {{% /alert %}}
+3. Column widths are recalculated for the current table content – the end result is a table that occupies the entire available width
+4. The width of the columns in the table changes automatically as the user edits the text
+
+The following code example shows how to autofit a table to the page width:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cs" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+#### AutoFit Table to Content
+
+When the table is autofitted the content, the following steps are actually performed behind the scenes:
+
+1. The **Table.AllowAutoFit** property is enabled to automatically resize each cell according to its content
+
+2. The preferred table width is removed from **Table.PreferredWidth**, **CellFormat.PreferredWidth** is removed for each table cell
+   {{% alert color="primary" %}}
+
+   Note that this autofit option removes the preferred width from cells, just like in Microsoft Word. If you want to keep the column sizes and increase or decrease the columns to fit the content, you should set the **Table.AllowAutoFit** property to **True** on its own rather than using the autofit shortcut.{{% /alert %}}
+
+3. Column widths are recalculated for the current table content – the end result is a table where the column widths and the width of the entire table are automatically resized to best fit the content as the user edits the text
+
+The following code example shows how to autofit a table to its content:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cs" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+#### Disable AutoFit in Table and Use Fixed Column Widths
+
+If a table has autofit disabled and fixed column widths are used instead, the following steps are performed:
+
+1. **Table.AllowAutoFit** property is disabled so columns do not grow or shrink to their content
+
+2. The preferred width of the entire table is removed from **Table.PreferredWidth**, **CellFormat.PreferredWidth** is removed from all table cells
+3. The end result is a table whose column widths are determined by the [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) property, and whose columns are not automatically resized when the user enters text or when the page is resized
+
+{{% alert color="primary" %}}
+
+Note that if no width is specified for **CellFormat.Width**, the default value of one inch (72 points) is used.
+
+{{% /alert %}}
+
+The following code example shows how to disable autofit and enable fixed width for the specified table:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cs" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
 
 ### Order of Precedence when Calculating Cell Width
 

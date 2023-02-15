@@ -5,7 +5,7 @@ articleTitle: Work with Text in a Table
 linktitle: Work with Text in a Table
 description: ""
 type: docs
-weight: 55
+weight: 23
 url: /net/work-with-text-in-a-table/
 ---
 

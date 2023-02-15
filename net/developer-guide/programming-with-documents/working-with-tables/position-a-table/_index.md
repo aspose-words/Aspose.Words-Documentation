@@ -5,7 +5,7 @@ articleTitle: Position a Table
 linktitle: Position a Table
 description: "Specify table position in C#. Get a table alignment, get position of floating table using C#."
 type: docs
-weight: 25
+weight: 20
 url: /net/position-a-table/
 ---
 
