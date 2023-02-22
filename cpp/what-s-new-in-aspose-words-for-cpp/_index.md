@@ -11,15 +11,23 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 23.1
+## Aspose.Words for C++ 23.1, 23.2
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
+
+Aspose.Words 23.2 introduces saving documents in the MOBI format, improves chart rendering, and makes notable changes to document appearance details.
 
 ### Performance Improvements
 
 #### Emulation of Raster Operations <sup>23.1</sup>
 
 Performance and quality of emulation of raster operations with metafiles have been significantly improved.
+
+### Supported Formats
+
+#### Export to MOBI <sup>23.2</sup>
+
+Starting with version 23.2, it is possible to save a document in MOBI format (also called PRC, AZW – Amazon Kindle's own e-book file format). Now you can not only load MOBI documents, but also export your files to MOBI format.
 
 ### Rendering
 
@@ -31,6 +39,10 @@ The ability to work with shading theme colors has been implemented.
 
 Support of R-squared coefficient in DML chart trendline labels when rendering has been added.
 
+#### Chart Rendering Improvements <sup>23.2</sup>
+
+Since 23.2 the chart rendering has been significantly improved.
+
 ### Loading and Saving Documents
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
@@ -41,9 +53,17 @@ The ability to generate TOC (table of contents) for AZW3 documents has been adde
 
 A way to control the export of list items to Markdown format has been provided by adding the **ListExportMode** property to the [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class.
 
+### Other
+
+- The ability to specify the character spacing adjustment of a document has been added through the [JustificationMode](https://reference.aspose.com/words/cpp/aspose.words/document/get_justificationmode/) property implementation <sup>23.2</sup>
+- The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/cpp/aspose.words/document/get_includetextboxesfootnotesendnotesinstat/) property <sup>23.2</sup>
+- A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the [AutomaticallyUpdate](https://reference.aspose.com/words/cpp/aspose.words/style/get_automaticallyupdate/) property <sup>23.2</sup>
+
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 23.1 Release Notes](/words/cpp/aspose-words-for-cpp-23-1-release-notes/).
+
+Learn more about [Aspose.Words for C++ 23.2 Release Notes](/words/cpp/aspose-words-for-cpp-23-2-release-notes/).
 
 {{% /alert %}}
 
@@ -449,69 +469,10 @@ Learn more about [Aspose.Words for C++ 21.8 Release Notes](/words/cpp/aspose-wor
 
 {{% /alert %}}
 
-## Aspose.Words for C++ 21.1, 21.2, 21.3, 21.4
-
-Aspose.Words 21.1 expands loading and saving options and improves document display capabilities.
-
-Aspose.Words 21.2 enhances font properties, improves find and replace options, and expands possibilities when converting documents.
-
-Aspose.Words 21.3 expands rendering and reporting options, and improves interaction with styles and child nodes of the StructuredDocumentTag.
-
-Aspose.Words 21.4 improves rendering and conversion features, and enhances the ability to work with a ranged structured document tag.
-
-### Rendering
-
-#### Vertical Alignment of Table Cells
-
-A new public option [VerticalAlignment](https://reference.aspose.com/words/cpp/aspose.words/tablestyle/get_verticalalignment/) to set table style vertical alignment of cells has been added.
-
-#### Manipulating Themed Properties of Font Objects
-
-A new public API, allowing to manipulate themed properties of Font objects, has been implemented.
-
-#### Setting Fill Formatting of Text
-
-Font API has been extended with the [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/) properties to set fill formatting of text. It gives an ability to change, for example, the foreground color or transparency of text fill.
-
-#### Convert Any Fill to Solid
-
-A new method [Solid](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/solid/) has been added to the [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/) class for processing solid fills.
-
-### Conversion
-
-#### Markdown Document Export
-
-A new public property [ImageSavingCallback](https://reference.aspose.com/words/cpp/aspose.words.saving/iimagesavingcallback/) has been added to control how images are saved upon converting to Markdown format.
-
-#### HTML Document Import
-
-A new public property [IgnoreNoscriptElements](https://reference.aspose.com/words/cpp/aspose.words.loading/htmlloadoptions/get_ignorenoscriptelements/) has been added to ignore `<noscript>` HTML elements upon loading HTML.
-
-#### Clean Up Unused Information from a Document
-
-A new public property [UnusedBuiltinStyles](https://reference.aspose.com/words/cpp/aspose.words/cleanupoptions/get_unusedbuiltinstyles/) has been added to the [CleanupOptions](https://reference.aspose.com/words/cpp/aspose.words/cleanupoptions/) class to detect and remove built-in styles that are marked as "unused" to make the document stricter.
-
-### Search and Compare
-
-A new public property [SmartParagraphBreakReplacement](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/get_smartparagraphbreakreplacement/) has been added to the [FindReplaceOptions](https://reference.aspose.com/words/cpp/aspose.words.replacing/findreplaceoptions/) object to indicate whether a paragraph break is allowed to be replaced when there is no next sibling paragraph.
-
-### Other
-
-* New public methods [StartColumnBookmark](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/startcolumnbookmark/) and [EndColumnBookmark](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/endcolumnbookmark/) have been introduced in the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class. This gives the ability to add a Bookmark control to one or more columns in a range of rows.
-* A new public option [UpdateCreatedTimeProperty](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_updatecreatedtimeproperty/) has been added to update the [CreatedTime](https://reference.aspose.com/words/cpp/aspose.words.properties/builtindocumentproperties/get_createdtime/) property of a document upon saving.
-* A new property **CustomTimeZoneInfo** has been added to set custom timezone when [SdtType.Date](https://reference.aspose.com/words/cpp/aspose.words.markup/sdttype/) structured document tag is updated from custom XML.
-* A new public method [ClearQuickStyleGallery](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/clearquickstylegallery/) has been added to the [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) class. Now it is really easy to remove all styles from the Quick Style Gallery panel.
-* An ability to work with child nodes of the [StructuredDocumentTag](https://reference.aspose.com/words/cpp/aspose.words.markup/structureddocumenttag/) range has been added. New behavior follows the [CompositeNode](https://reference.aspose.com/words/cpp/aspose.words/compositenode/) pattern and returns a live collection.
-* The ability to create instances of the [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/cpp/aspose.words.markup/structureddocumenttagrangestart/) and [StructuredDocumentTagRangeEnd](https://reference.aspose.com/words/cpp/aspose.words.markup/structureddocumenttagrangeend/) classes manually has been added.
+## See Also
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for C++ 21.1 Release Notes](/words/cpp/aspose-words-for-cpp-21-1-release-notes/).
-
-Learn more about [Aspose.Words for C++ 21.2 Release Notes](/words/cpp/aspose-words-for-cpp-21-2-release-notes/).
-
-Learn more about [Aspose.Words for C++ 21.3 Release Notes](/words/cpp/aspose-words-for-cpp-21-3-release-notes/).
-
-Learn more about [Aspose.Words for C++ 21.3 Release Notes](/words/cpp/aspose-words-for-cpp-21-4-release-notes/).
+This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](/words/cpp/release-notes/) pages in the relevant sections.
 
 {{% /alert %}}

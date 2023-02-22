@@ -16,13 +16,16 @@ This page contains release notes for [Aspose.Words for C++ 23.2](https://www.nug
 
 There are 75 improvements and fixes in this regular monthly release. The most notable are:
 
-- Significantly improved performance and quality of emulation of raster operations with metafiles.
-- Implemented an ability to work with shading theme colors.
-- Added the ability to generate TOC (table of contents) for AZW3 documents.
-- Provided the way to control how the list items are exported to the Markdown format.
-- Added support of R-squared coefficient in DML charts trendline labels when rendering.
+- MOBI (also called PRC, AZW - Amazon Kindle's proprietary e-book file format) is now supported for import and export.
+- Added an ability to specify the character spacing adjustment of a document.
+- Provided the way to instruct Aspose.Words whether to include textboxes, footnotes and endnotes in word count statistics.
+- Introduced the new option for the document style, which allows specifying whether this style is automatically redefined based on the appropriate value.
+- Significantly improved chart rendering.
+- Implemented support for "Lay out footnotes the way Word 6.x/95/97 does" compatibility option.
 
-<details><summary>Full list of changes</summary>
+## Full list of changes
+
+<details><summary>Expand to view the full list of issues, covering all changes in this release.</summary>
 
 1. Make the Document.DocPr.DoNotIncludeSubDocsInStats property public
 2. Count words from Footnotes and Endnotes
