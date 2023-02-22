@@ -351,7 +351,7 @@ enum class MarkdownListExportMode
 
     /// Export list items compatible with Markdown syntax.
     MarkdownSyntax,
-
+    
     /// Export list items as plain text.
     PlainText
 };
