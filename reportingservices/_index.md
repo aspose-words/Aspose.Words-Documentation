@@ -4,7 +4,7 @@ articleTitle: Aspose.Words for Reporting Services
 linktitle: Aspose.Words for Reporting Services
 description: "Generate, modify, convert, render, and print documents using Reporting Services."
 type: docs
-weight: 10
+weight: 70
 url: /reportingservices/
 is_root: true
 ---

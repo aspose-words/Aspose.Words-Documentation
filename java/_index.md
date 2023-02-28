@@ -4,7 +4,7 @@ articleTitle: Aspose.Words for Java
 linktitle: Aspose.Words for Java
 description: "Generate, modify, convert, render, and print documents using Java."
 type: docs
-weight: 10
+weight: 20
 url: /java/
 is_root: true
 ---

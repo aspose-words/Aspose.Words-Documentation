@@ -4,7 +4,7 @@ articleTitle: Aspose.Words for SharePoint
 linktitle: Aspose.Words for SharePoint
 description: "Generate, modify, convert, render, and print documents using SharePoint."
 type: docs
-weight: 10
+weight: 60
 url: /sharepoint/
 is_root: true
 ---
