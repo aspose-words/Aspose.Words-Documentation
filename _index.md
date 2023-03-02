@@ -89,7 +89,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="https://reference.aspose.com/words/python-net/">Aspose.Words for Python via .NET – API Reference guide</a></li>
             <li><a href="/words/cpp/release-notes/">Aspose.Words for Python via .NET release notes</a></li>
             <li><a href="https://releases.aspose.com/words/python/">Aspose.Words for Python via .NET download</a></li>
-            <li><a href="https://github.com/aspose-words/Aspose.Words-for-Python-via-.NETs">Aspose.Words for Python via .NET examples, plugins and showcases</a></li>
+            <li><a href="https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET">Aspose.Words for Python via .NET examples, plugins and showcases</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Python via .NET Free Support Forum</a></li>
             <li><a href="https://helpdesk.aspose.com/">Aspose.Words for Python via .NET Paid Support Helpdesk</a></li>
         </ul>
