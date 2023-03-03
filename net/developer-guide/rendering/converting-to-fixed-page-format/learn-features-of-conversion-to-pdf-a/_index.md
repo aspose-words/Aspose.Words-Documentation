@@ -14,7 +14,7 @@ PDF is a fixed page format that is very popular among users and is widely suppor
 
 PDF is a complex format by itself, as it has a specific file structure, graphical model, font embedding, and some complex output functionality such as document structure tags, encryption, digital signatures, and editable forms. In addition, converting a document to PDF requires several calculation stages, which are complex and time-consuming.
 
-In this section, we will consider the main problems that may arise when working with documents in various PDF standards and describe options for solving them.
+In the following articles, we will consider the main problems that may arise when working with documents in various PDF standards and describe options for solving them.
 
 ## Which PDF Standard Aspose.Words Supports
 
@@ -42,6 +42,7 @@ To learn more about the different PDF standards, check the following ISOs:
 
 ## See Also
 
+* [Convert a Document to PDF](/words/net/convert-a-document-to-pdf/)
 * [How to edit document structure tags in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html)
 * [How to check or edit text language in Microsoft Word](https://support.microsoft.com/en-us/office/check-spelling-and-grammar-in-a-different-language-667ba67a-a202-42fd-8596-edc1fa320e00)
 * [How to change text language in Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)

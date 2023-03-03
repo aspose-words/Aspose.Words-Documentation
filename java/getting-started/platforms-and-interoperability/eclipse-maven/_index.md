@@ -74,7 +74,7 @@ Following are three recommended methods for the successful downloading and insta
 
 - Drag and drop installation from Eclipse Marketplace to your Eclipse workspace.
 - Or goto **Help** > **Install New Software...** > Enter following update site url in **Work with**:
-  [https://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords](https://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords/)
+  `https://cdn.aspose.com/marketplace/eclipse/java/maven/asposewords`
   Then select "Aspose.Words Java for Eclipse (Maven)" and **Finish**. Accept License Agreement and Install the plugin.
 
 ## Installing

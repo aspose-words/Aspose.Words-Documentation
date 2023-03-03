@@ -2,7 +2,7 @@
 title: Aspose.Words for Android via Java
 description: "Generate, modify, convert, render, and print documents using Android in Java."
 type: docs
-weight: 10
+weight: 80
 url: /androidjava/
 is_root: true
 ---

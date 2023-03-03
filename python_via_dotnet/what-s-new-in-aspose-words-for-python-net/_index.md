@@ -11,15 +11,23 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 23.1
+## Aspose.Words for Python via .NET 23.1, 23.2
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
+
+Aspose.Words 23.2 introduces saving documents in the MOBI format, improves chart rendering, and makes notable changes to document appearance details.
 
 ### Performance Improvements
 
 #### Emulation of Raster Operations <sup>23.1</sup>
 
 Performance and quality of emulation of raster operations with metafiles have been significantly improved.
+
+### Supported Formats
+
+#### Export to MOBI <sup>23.2</sup>
+
+Starting with version 23.2, it is possible to save a document in MOBI format (also called PRC, AZW – Amazon Kindle's own e-book file format). Now you can not only load MOBI documents, but also export your files to MOBI format.
 
 ### Rendering
 
@@ -31,6 +39,10 @@ The ability to work with shading theme colors has been implemented.
 
 Support of R-squared coefficient in DML chart trendline labels when rendering has been added.
 
+#### Chart Rendering Improvements <sup>23.2</sup>
+
+Since 23.2 the chart rendering has been significantly improved.
+
 ### Loading and Saving Documents
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
@@ -39,11 +51,19 @@ The ability to generate TOC (table of contents) for AZW3 documents has been adde
 
 #### Exporting List Items to Markdown <sup>23.1</sup>
 
-A way to control the export of list items to Markdown format has been provided by adding the **ListExportMode** property to the [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class.
+A way to control the export of list items to Markdown format has been provided by adding the [ListExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) property to the [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class.
+
+### Other
+
+- The ability to specify the character spacing adjustment of a document has been added through the **JustificationMode** property implementation <sup>23.2</sup>
+- The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the **IncludeTextboxesFootnotesEndnotesInStat** property <sup>23.2</sup>
+- A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the **AutomaticallyUpdate** property <sup>23.2</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Python via .NET 23.1 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-1-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 23.2 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
 {{% /alert %}}
 
@@ -65,7 +85,7 @@ An optimization that significantly reduces the depth of graphics state nesting w
 
 #### New Border Rendering Properties <sup>22.12</sup>
 
-New public properties **ThemeColor** and **TintAndShade** have been introduced.
+New public properties [ThemeColor](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) and [TintAndShade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) have been introduced.
 
 #### Linear Trendline Formula for DrawingML Rendering <sup>22.12</sup>
 
@@ -83,7 +103,7 @@ The ability to cache header/footer shapes to reduce the size of the output PDF f
 
 #### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
 
-The ability to specify the **AutoNumberingDetection** property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) class.
+The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) class.
 
 #### Specifying a Particular Margin Type <sup>22.12</sup>
 
@@ -91,7 +111,7 @@ The ability to specify a particular **Margin** type for the given section has be
 
 ### Search and Compare <sup>22.10</sup>
 
-The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) upon find and replace options has been implemented by adding a new **IgnoreStructuredDocumentTags** property to the [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) class.
+The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) upon find and replace options has been implemented by adding a new [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) property to the [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) class.
 
 ### Other
 
