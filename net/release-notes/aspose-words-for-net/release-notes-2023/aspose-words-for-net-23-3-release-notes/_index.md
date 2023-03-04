@@ -256,7 +256,7 @@ The following public property was added to Aspose.Words.Drawing.TextBox class:
 public bool NoTextRotation
 {{< /highlight >}}
 
-#### Use Case: 
+**Use Case:** 
 Explains how to use NoTextRotation option.
 {{< highlight csharp >}}
 DocumentBuilder builder = new DocumentBuilder();
