@@ -142,7 +142,8 @@ public double ForeTintAndShade { get; set; }
 public double BackTintAndShade { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to work with theme colors and tint and shade.
+#### Use Case: 
+Explains how to work with theme colors and tint and shade.
 {{< highlight csharp >}}
 Document doc = new Document("c:\Documents\TestDocument.docx");
 
@@ -184,7 +185,8 @@ public bool HasMajorGridlines { get; set; }
 public bool HasMinorGridlines { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to show chart gridlines.
+#### Use Case: 
+Explains how to show chart gridlines.
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -217,7 +219,8 @@ The following public property was added to Aspose.Words.ImportFormatOptions clas
 public bool AdjustSentenceAndWordSpacing { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to use AdjustSentenceAndWordSpacing option.
+#### Use Case: 
+Explains how to use AdjustSentenceAndWordSpacing option.
 {{< highlight csharp >}}
 Document srcDoc = new Document();
 Document dstDoc = new Document();
@@ -253,7 +256,8 @@ The following public property was added to Aspose.Words.Drawing.TextBox class:
 public bool NoTextRotation
 {{< /highlight >}}
 
-Use Case: Explains how to use NoTextRotation option.
+#### Use Case: 
+Explains how to use NoTextRotation option.
 {{< highlight csharp >}}
 DocumentBuilder builder = new DocumentBuilder();
 Shape shape = builder.InsertShape(ShapeType.Ellipse, 20, 20);
