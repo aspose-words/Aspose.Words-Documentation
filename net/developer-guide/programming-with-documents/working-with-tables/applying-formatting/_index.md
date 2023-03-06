@@ -342,6 +342,17 @@ While creating a fixed table layout, specify the cell width. A cell without widt
 
 {{% /alert %}}
 
+## Allow Spacing Between Cells
+
+You can get or set any additional space between table cells similar to the "Сell spacing" option in Microsoft Word. This can be done using the [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/) property.
+
+An example of how these options are applied to a real table in a document can be seen in the picture below.
+
+<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-net" style="width:500px"/>
+
+The following code example shows how to set the spacing between cells:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-AllowCellSpacing.cs" >}}
 
 ## Apply Borders and Shading
 
