@@ -23,7 +23,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 - Implemented rendering of radial gradients with SkiaSharp native shader for .NET Standard.
 - Added support of InvertIfNegative property for bar chart rendering.
 - Implemented saving progress notifications for MOBI and AZW3 formats.
-- Added an abbility to specify whether to adjust sentence and word spacing automatically upon document import.
+- Added an ability to specify whether to adjust sentence and word spacing automatically upon document import.
 
 ## Full List of Issues Covering all Changes in this Release
 
