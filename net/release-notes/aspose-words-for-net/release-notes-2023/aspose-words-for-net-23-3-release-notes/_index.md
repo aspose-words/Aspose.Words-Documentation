@@ -145,7 +145,7 @@ public double BackTintAndShade { get; set; }
 #### Use Case: 
 Explains how to work with theme colors and tint and shade.
 {{< highlight csharp >}}
-Document doc = new Document("c:\Documents\TestDocument.docx");
+Document doc = new Document("in.docx");
 
 Fill shapeFill = (doc.GetChild(NodeType.Shape, 0, true) as Shape).Fill;
 // Gets and sets the value of theme colors.
@@ -165,7 +165,7 @@ Fill textFill2 = doc.FirstSection.Body.FirstParagraph.Runs[1].Font.Fill;
 if (textFill2.ForeTintAndShade == 0)
     textFill2.ForeTintAndShade = -0.2;
 
-doc.Save("output.docx");
+doc.Save("out.docx");
 {{< /highlight >}}
 
 ### Added public properties HasMajorGridlines and HasMinorGridlines to ChartAxis class
