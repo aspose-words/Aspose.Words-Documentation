@@ -134,11 +134,21 @@ A new public properties ForeTintAndShade and BackTintAndShade has been added to 
 /// <summary>
 /// Gets or sets a double value that lightens or darkens the foreground color.
 /// </summary>
+/// <remarks>
+/// <para> The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property.
+/// Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1
+/// results in <see cref="ArgumentOutOfRangeException"/>.</para>
+/// </remarks>
 public double ForeTintAndShade { get; set; }
 
 /// <summary>
 /// Gets or sets a double value that lightens or darkens the background color.
 /// </summary>
+/// <remarks>
+/// <para> The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property.
+/// Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1
+/// results in <see cref="ArgumentOutOfRangeException"/>.</para>
+/// </remarks>
 public double BackTintAndShade { get; set; }
 {{< /highlight >}}
 
