@@ -60,7 +60,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24947|Delete paragraph fails when paragraph is inside SDT|Bug
 |WORDSNET-24561|Significant performance decrease upon conversion OfficeMath to string|Bug
 |WORDSNET-24969|HTML to MD: Backslash is appended in name of image in resultant file|Bug
-|WORDSNET-24767|Table with merged cells is recognized imptoperly|Bug
+|WORDSNET-24767|Table with merged cells is recognized improperly|Bug
 |WORDSNET-16879|GroupShape does not render correctly in fixed file format|Bug
 |WORDSNET-24815|FileCorruptedException is thrown upon loading RTF document|Bug
 |WORDSNET-24832|Effects for "thin" elements are not rendered|Bug
