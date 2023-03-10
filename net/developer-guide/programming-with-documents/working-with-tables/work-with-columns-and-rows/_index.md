@@ -5,7 +5,7 @@ articleTitle: Work with Columns and Rows
 linktitle: Work with Columns and Rows
 description: "Working with parts of a table – rows, columns, and cells using C#. Specify Header Row C#."
 type: docs
-weight: 15
+weight: 30
 url: /net/working-with-columns-and-rows/
 ---
 

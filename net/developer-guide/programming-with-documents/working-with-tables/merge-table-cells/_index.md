@@ -1,11 +1,11 @@
 ---
-title: Work with Merged Cells in C#
+title: Merge Table Cells in C#
 second_title: Aspose.Words for .NET
-articleTitle: Work with Merged Cells
-linktitle: Work with Merged Cells
-description: ""
+articleTitle: Merge Table Cells
+linktitle: Merge Table Cells
+description: "How to merge table cells in C#. Check if cells in a table are merged using C#."
 type: docs
-weight: 17
+weight: 40
 url: /net/working-with-merged-cells/
 ---
 

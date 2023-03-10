@@ -5,7 +5,7 @@ articleTitle: Create a Table
 linktitle: Create a Table
 description: "A guide on how to make a table in C# in various ways. Create table in C# for your document."
 type: docs
-weight: 10
+weight: 20
 url: /net/create-a-table/
 aliases: [/net/introduction-and-creating-tables/]
 ---

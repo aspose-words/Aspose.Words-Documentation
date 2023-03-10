@@ -5,7 +5,7 @@ articleTitle: Apply Table Formatting
 linktitle: Apply Table Formatting
 description: "Table formatting in details using C#. Using C# to format every part of table."
 type: docs
-weight: 25
+weight: 70
 url: /net/applying-formatting/
 ---
 

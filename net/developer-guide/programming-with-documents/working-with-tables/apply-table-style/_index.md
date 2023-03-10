@@ -3,9 +3,9 @@ title: Change Table Style in Word Documents
 second_title: Aspose.Words for .NET
 articleTitle: Apply Table Style
 linktitle: Apply a Table Style
-description: "Introduction to advanced table formatting, Table styles, using C#."
+description: "Advanced table formatting C#. Create a table style using C#. Apply table style C#."
 type: docs
-weight: 30
+weight: 80
 url: /net/working-with-tablestyle/
 ---
 
