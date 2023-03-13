@@ -3,7 +3,7 @@ title: 23.3 Release Notes
 second_title: Aspose.Words for Python via .NET
 articleTitle: Aspose.Words for Python via .NET 23.3 Release Notes
 linktitle: Aspose.Words for Python via .NET 23.3 Release Notes
-description: "Aspose.Words for Python via .NET 23.3Release Notes – the latest updates and fixes."
+description: "Aspose.Words for Python via .NET 23.3 Release Notes – the latest updates and fixes."
 type: docs
 weight: 100
 url: /python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/
@@ -146,7 +146,7 @@ def fore_tint_and_shade(self) -> float:
     Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1
     results in System.ArgumentOutOfRangeException.'''
     ...
-    
+
 @fore_tint_and_shade.setter
 def fore_tint_and_shade(self, value: float):
     ...
@@ -159,7 +159,7 @@ def back_tint_and_shade(self) -> float:
     Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1
     results in System.ArgumentOutOfRangeException.'''
     ...
-    
+
 @back_tint_and_shade.setter
 def back_tint_and_shade(self, value: float):
     ...
@@ -186,7 +186,7 @@ if shape_fill.back_theme_color == ThemeColor.ACCENT2:
     shape_fill.back_theme_color(ThemeColor.DARK2)
 
 text_fill_1 = doc.first_section.body.first_paragraph.runs[0].font.fill
-   
+
 """ Gets and sets the tint value."""
 if text_fill_1.fore_tint_and_shade == 0:
     text_fill_1.fore_tint_and_shade(0.5)
@@ -298,7 +298,7 @@ def no_text_rotation(self) -> bool:
         
     The default value is ``False``'''
     ...
-    
+
 @no_text_rotation.setter
 def no_text_rotation(self, value: bool):
     ...
