@@ -15,7 +15,9 @@ aliases:
 
 {{% alert color="primary" %}}
 
-Python developers need to install JPype to make use of Java from Python. You can download JPype from here <https://jpype.sourceforge.net/>
+These examples are written using Python 3.
+
+Python developers need to install JPype to make use of Java from Python. You can install JPype from here <https://pypi.org/project/JPype1/>
 
 Download [the latest version of Aspose.Words for Java](https://releases.aspose.com/words/java/). Extract files and copy the lib folder with jar files to the root folder of your project. 
 
@@ -28,8 +30,6 @@ This is a simple application that creates an empty document, inserts some conten
 **Python**
 
 {{< highlight csharp >}}
-
-#!c:\python25\python.exe
 
 import jpype
 import os.path
@@ -50,8 +50,6 @@ Aspose.Words provides a reporting generation facility similar to Microsoft Wordâ
 **Python**
 
 {{< highlight csharp >}}
-
-#!c:\python25\python.exe
 
 import jpype
 import os.path
@@ -93,8 +91,6 @@ Some methods in the Aspose.Words object model are static. For example, there is 
 **Python**
 
 {{< highlight csharp >}}
-
-#!c:\python25\python.exe
 
 import jpype
 import os.path
@@ -180,8 +176,6 @@ Next, write your Python code.
 **Python**
 
 {{< highlight csharp >}}
-
-#!c:\python25\python.exe
 
 import jpype
 import os.path
