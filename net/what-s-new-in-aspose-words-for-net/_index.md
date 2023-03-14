@@ -11,11 +11,13 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 23.1, 23.2
+## Aspose.Words for .NET 23.1, 23.2, 23.3
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
 
 Aspose.Words 23.2 introduces saving documents in the MOBI format, improves chart rendering, and makes notable changes to document appearance details.
+
+Aspose.Words 23.3 enhances the documents import and saving with new properties, and also improves the quality of work with background and foreground color and radial gradient.
 
 ### Performance Improvements
 
@@ -43,6 +45,14 @@ Support of R-squared coefficient in DML chart trendline labels when rendering ha
 
 Since 23.2 the chart rendering has been significantly improved.
 
+#### Background and Foreground Color Control <sup>23.3</sup>
+
+The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
+
+#### Radial Gradients with the SkiaSharp Native Shader <sup>23.3</sup>
+
+Rendering of radial gradients with the SkiaSharp native shader for .NET Standard has been implemented.
+
 ### Loading and Saving Documents
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
@@ -52,6 +62,14 @@ The ability to generate TOC (table of contents) for AZW3 documents has been adde
 #### Exporting List Items to Markdown <sup>23.1</sup>
 
 A way to control the export of list items to Markdown format has been provided by adding the [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) property to the [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) class.
+
+#### Document Saving Progress Notifications <sup>23.3</sup>
+
+Saving progress notifications for MOBI and AZW3 formats has been implemented.
+
+#### Sentence and Word Spacing Adjustment  <sup>23.3</sup>
+
+The ability to specify whether to adjust sentence and word spacing automatically upon document import has been added by introducing the [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/) property.
 
 ### Other
 
@@ -64,6 +82,8 @@ A way to control the export of list items to Markdown format has been provided b
 Learn more about [Aspose.Words for .NET 23.1 Release Notes](/words/net/aspose-words-for-net-23-1-release-notes/).
 
 Learn more about [Aspose.Words for .NET 23.2 Release Notes](/words/net/aspose-words-for-net-23-2-release-notes/).
+
+Learn more about [Aspose.Words for .NET 23.3 Release Notes](/words/net/aspose-words-for-net-23-3-release-notes/).
 
 {{% /alert %}}
 
