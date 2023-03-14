@@ -178,7 +178,7 @@ doc = Document("in.docx")
 shape = doc.get_child(NodeType.SHAPE, 0, True)
 shape_fill = typing.cast(Shape, shape).fill
 
-"""Gets and sets the value of theme colors."""
+'''Gets and sets the value of theme colors.'''
 if shape_fill.fore_theme_color == ThemeColor.ACCENT1:
     shape_fill.fore_theme_color(ThemeColor.DARK1)
 
@@ -187,13 +187,13 @@ if shape_fill.back_theme_color == ThemeColor.ACCENT2:
 
 text_fill_1 = doc.first_section.body.first_paragraph.runs[0].font.fill
 
-""" Gets and sets the tint value."""
+'''Gets and sets the tint value.'''
 if text_fill_1.fore_tint_and_shade == 0:
     text_fill_1.fore_tint_and_shade(0.5)
 
 text_fill_2 = doc.first_section.body.first_paragraph.runs[1].font.fill
     
-""" Gets and sets the shade value."""
+'''Gets and sets the shade value.'''
 if text_fill_2.fore_tint_and_shade == 0:
     text_fill_2.fore_tint_and_shade(-0.2)
 
@@ -232,13 +232,13 @@ from aspose.words.drawing.charts import ChartType
 doc = Document()
 builder = DocumentBuilder(doc)
 
-"""Insert a chart."""
+'''Insert a chart.'''
 shape = builder.insert_chart(ChartType.COLUMN, 432, 252)
 
 x_axis = shape.chart.axis_x
 y_axis = shape.chart.axis_y
 
-"""Show gridlines."""
+'''Show gridlines.'''
 x_axis.has_major_gridlines(True)
 x_axis.has_minor_gridlines(True)
 y_axis.has_major_gridlines(True)
@@ -282,9 +282,9 @@ options.adjust_sentence_and_word_spacing(True)
 builder.InsertDocument(src_doc, ImportFormatMode.USE_DESTINATION_STYLES, options);
 print(dst_doc.first_section.body.first_paragraph.get_text())
 
-""" This code produces the following output (please note the additional ' ' space character just before pasted content):
+'''This code produces the following output (please note the additional ' ' space character just before pasted content):
 Lorem ipsum. Dolor sit amet.
-"""
+'''
 {{< /highlight >}}
 
 ### Added public property TextBox.no_text_rotation
