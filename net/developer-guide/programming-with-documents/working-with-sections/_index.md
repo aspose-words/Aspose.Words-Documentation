@@ -47,13 +47,13 @@ Aspose.Words allows you to insert a section break into text using the [InsertBre
 
 The following code example shows how to insert a section break into a document:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-InsertSectionBreaks.cs" >}}
 
 Use the [Remove](https://apireference.aspose.com/words/net/aspose.words/node/methods/remove) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://apireference.aspose.com/words/net/aspose.words/section/methods/clearcontent) method.
 
 The following code example shows how to remove sections breaks: 
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-RemoveBreaks-RemoveSectionBreaks.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Managment-Remove content-RemoveSectionBreaks.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ If you want to move a section from one position to another in your document, you
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-SectionChildNodes.cs" >}}
 
 ## Specify a Section Layout
 
@@ -80,7 +80,7 @@ Sometimes you want your document to look better by making creative layouts for d
 
 The following code example shows how to customize the page border at the top of the first section:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-PageBorderProperties.cs" >}}
 
 ## Edit a Section
 
@@ -88,7 +88,7 @@ When you add a new section to your document, there will be no body or paragraph 
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-EnsureMinimum.cs" >}}
 
 ### Append or Prepend Content
 
@@ -96,7 +96,7 @@ If you want to draw some shape or add text or image at the beginning/end of a se
 
 The following code example shows how to append content of an existing section:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-AppendSectionContent.cs" >}}
 
 ### Clone a Section
 
@@ -104,7 +104,7 @@ Aspose.Words allows you to duplicate a section by creating a full copy of it usi
 
 The following code example shows how to clone the first section in your document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CloneSection-CloneSection.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-CloneSection.cs" >}}
 
 ### Copy Sections between Documents
 
@@ -114,7 +114,7 @@ Aspose.Words allows you to copy sections between documents using the [ImportNode
 
 The following code example shows how to copy sections between documents:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Sections-CopySection-CopySection.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-CopySection.cs" >}}
 
 ### Work with Section Header and Footer
 
@@ -125,17 +125,17 @@ The basic rules for displaying a header or footer for each section are quite sim
 
 The following code example shows how to create 2 sections with different headers:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-DifferentFirstPageHeaderFooter.cs" >}}
 
 If you want to remove the text of headers and footers without removing [HeaderFooter](https://apireference.aspose.com/words/net/aspose.words/headerfooter) objects in your document, you can use the [ClearHeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/methods/clearheadersfooters) method. In addition, you can use the [DeleteHeaderFooterShapes](https://apireference.aspose.com/words/net/aspose.words/section/methods/deleteheaderfootershapes) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-DeleteHeaderFooterContent.cs" >}}
 
 The following code example how to remove all shapes from all headers footers in a section:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-DeleteHeaderFooterShapes.cs" >}}
 
 ## Customize Page Properties in a Section
 
@@ -145,11 +145,11 @@ Aspose.Words allows you to customize page and section properties using the [Page
 
 The following code example shows how to set such properties as page size and orientation for the current section:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-DocumentBuilderSetPageSetupAndSectionFormatting.cs" >}}
 
 The following code example shows how to modify the page properties in all sections:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-ModifyPageSetupInAllSections.cs" >}}
 
 ## See Also
 
