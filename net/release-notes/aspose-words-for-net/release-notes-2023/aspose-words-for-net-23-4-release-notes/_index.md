@@ -20,7 +20,7 @@ This page contains release notes for [Aspose.Words for .NET 23.4](https://www.nu
 There are 70 improvements and fixes in this regular monthly release. The most notable are:
 
 - Added an ability to set distance between table and surrounding text.
-- Provided an ability to determine either a Run is a phonetic guide run.
+- Provided an ability to determine whether a Run is a phonetic guide run.
 - Implemented the simple way to work with series and axes of a combo charts.
 - Provided the new public properties connected to the shape relative positioning and sizing.
 - Improved accuracy and performance of color brightness calculation for automatic text color resolution in accordance with the latest versions of MS Word.
@@ -161,7 +161,7 @@ public Color BaseColor { get; }
 {{< /highlight >}}
 
 #### Use Case: 
-Explains how to get unmodified Color of the gradient stop.Added public property Run.IsPhoneticGuide
+Explains how to get unmodified Color of the gradient stop.
 {{< highlight csharp >}}
 DocumentBuilder builder = new DocumentBuilder();
 Shape shape = builder.InsertShape(ShapeType.Balloon, 300, 300);
