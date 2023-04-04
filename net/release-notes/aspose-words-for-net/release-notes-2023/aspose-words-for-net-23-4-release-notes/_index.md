@@ -273,7 +273,8 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 Explains how to work with series and axes of a combo chart.
 {{< highlight csharp >}}
 Document doc = new Document("ComboChart.docx");
-Chart chart = doc.FirstSection.Body.Shapes[0].Chart;
+NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
+Chart chart = ((Shape)shapes[0]).Chart;
 
 // Show markers in the line series named 'Series 3'.
 foreach (ChartSeries series in chart.Series)
