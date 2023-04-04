@@ -203,7 +203,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 builder.Write("text");
 
-Run run = builder.Document.FirstSection.Body.FirstParagraph.FirstRun;
+Run run = builder.Document.FirstSection.Body.FirstParagraph.Runs[0];
 Console.WriteLine("The phonetic guide value of the run is '{0}'", run.IsPhoneticGuide);
 
 /* This code produces the following output:
