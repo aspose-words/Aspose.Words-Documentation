@@ -24,7 +24,7 @@ You can set the position of an inline table using the Aspose.Words API and the [
 
 The following code example shows how to set the position of an inline table:
 
-EXAMPLE//InlineTablePosition
+{{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "inline-table-position.cs" >}}
 
 ## Get Floating Table Alignment
 
@@ -34,7 +34,7 @@ With **other types of text wrapping**, you can get inline table alignment using 
 
 The following code example shows how to get the table's alignment:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-TablePosition-GetTablePosition.cs" >}}//GetTablePosition
+{{< gist "aspose-words-gists" "dd82233d8220e813e54f6dd403e48511" "get-table-position.cs" >}}
 
 ## Get Floating Table Position
 
@@ -50,7 +50,7 @@ The following code example shows how to get the table's alignment:
 
 The following code example shows how to get the position of a floating table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-TablePosition-GetFloatingTablePosition.cs" >}}//GetFloatingTablePosition
+{{< gist "aspose-words-gists" "dd82233d8220e813e54f6dd403e48511" "get-floating-table-position.cs" >}}
 
 ## Set Floating Table Position
 
@@ -60,7 +60,7 @@ It is important to know that alignment and horizontal and vertical distance are 
 
 The following code example shows how to set the position of a floating table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-TablePosition-SetFloatingTablePosition.cs" >}}//FloatingTablePosition
+{{< gist "aspose-words-gists" "d3ec21a7b56ae5a964df413b565d1bcc" "floating-table-position.cs" >}}
 
 ## Get Distance between Table and Surrounding Text
 
@@ -73,4 +73,4 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 
 The following code example shows how to get the distance between a table and its surrounding text:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-GetDistancebetweenTableSurroundingText.cs" >}}//DistanceBetweenTableSurroundingText
+{{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "distance-between-table-surrounding-text.cs" >}}

@@ -21,7 +21,7 @@ Sometimes you may need to make changes to a particular table in a document. To d
 
 The following code example shows how to retrieve the index of a table in a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveTableIndex.cs" >}}//RetrieveTableIndex
+{{< gist "aspose-words-gists" "9ceee4f7efd470ef243890104ccaf8b2" "retrieve-table-index.cs" >}}
 
 ### Find the Index of a Row in a Table {#find-the-index-of-a-row-in-a-table}
 
@@ -29,7 +29,7 @@ Similarly, you may need to make changes to a specific row in a selected table. T
 
 The following code example shows how to retrieve the index of a row in a table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveRowIndex.cs" >}}//RetrieveRowIndex
+{{< gist "aspose-words-gists" "9ceee4f7efd470ef243890104ccaf8b2" "retrieverow-index.cs" >}}
 
 ### Find the Index of a Cell in a Row {#find-the-index-of-a-cell-in-a-row}
 
@@ -37,7 +37,7 @@ Finally, you may need to make changes to a specific cell, and you can do this by
 
 The following code example shows how to retrieve the index of a cell in a row:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-FindingIndex-RetrieveCellIndex.cs" >}}//RetrieveCellIndex
+{{< gist "aspose-words-gists" "9ceee4f7efd470ef243890104ccaf8b2" "retrieve-cell-index.cs" >}}
 
 ## Work with Columns {#work-with-columns}
 
@@ -53,15 +53,15 @@ Any operations performed on columns are actually "shortcuts" that perform the op
 
 The following code example simplifies such operations by proving a facade class that collects the cells that make up a "column" of a table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-ColumnClass.cs" >}}//ColumnClass
+{{< gist "aspose-words-gists" "9ceee4f7efd470ef243890104ccaf8b2" "columnclass.cs" >}}
 
 The following code example shows how to insert a blank column into a table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-InsertBlankColumn.cs" >}}//InsertBlankColumn
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "insert-blank-column.cs" >}}
 
 The following code example shows how to remove a column from a table in a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AddRemoveColumn-RemoveColumn.cs" >}}//RemoveColumn
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "remove-column.cs" >}}
 
 ## Specify Rows as Header Rows {#specify-rows-to-repeat-on-subsequent-pages-as-header-rows}
 
@@ -77,7 +77,7 @@ Note that Header Rows do not work in nested tables. That is, if you have a table
 
 The following code example shows how to build a table which includes Header Rows that repeat on subsequent pages:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-RepeatRowsOnSubsequentPages-RepeatRowsOnSubsequentPages.cs" >}}//RepeatRowsOnSubsequentPages
+{{< gist "aspose-words-gists" "9ceee4f7efd470ef243890104ccaf8b2" "repeatrows-on-subsequent-pages.cs" >}}
 
 ## Keep Tables and Rows from Breaking Across Pages {#keep-tables-and-rows-from-breaking-across-pages}
 
@@ -96,7 +96,7 @@ This involves restricting content inside the cells of a row from being split acr
 
 The following code example shows how to disable breaking rows across pages for each row in a table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-RowFormatDisableBreakAcrossPages.cs" >}}//RowFormatDisableBreakAcrossPages
+{{< gist "aspose-words-gists" "9ceee4f7efd470ef243890104ccaf8b2" "row-format-disable-break-across-pages.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ To do this, Aspose.Words uses a method, which allows users to select a table and
 
 The following code example shows how to set a table to stay together on the same page:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-KeepTablesAndRowsBreaking-KeepTableTogether.cs" >}}//KeepTableTogether
+{{< gist "aspose-words-gists" "9ceee4f7efd470ef243890104ccaf8b2" "keep-table-together.cs" >}}
 
 {{% alert color="primary" %}}
 

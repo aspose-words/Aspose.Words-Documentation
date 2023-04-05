@@ -36,7 +36,7 @@ To check if a cell is part of a sequence of merged cells, we simply check the Ce
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-CheckCellsMerged.cs" >}}//CheckCellsMerged
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "checkcells-merged.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -52,11 +52,11 @@ Also, you must remember to clear the merge setting for those cells where no merg
 
 The following code example shows how to create a table with two rows where the cells in the first row are merged horizontally:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-HorizontalMerge.cs" >}}//HorizontalMerge
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-merge.cs" >}}
 
 The following code example shows how to create a two-column table where the cells in the first column are vertically merged:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-VerticalMerge.cs" >}}//VerticalMerge
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "vertical-merge.cs" >}}
 
 ## Merge Table Cells in Other Cases
 
@@ -64,11 +64,11 @@ In other situations where the **DocumentBuilder** is not used, such as in an exi
 
 The code below will merge the table cells in the specified range, starting at the given cell and ending at the end cell. In this case, the range can span multiple rows or columns:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCells.cs" >}}//MergeCells
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "merge-cells.cs" >}}
 
 The following code example shows how to merge a range of cells between two specified cells:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-MergeCellRange.cs" >}}//MergeCellRange
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "merge-cell-range.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -84,9 +84,9 @@ As we have said in previous articles, a table in Microsoft Word is a set of inde
 
 A table in HTML has a essentially different structure: each row has the same number of cells and (it is important for the task) each cell has the width of the corresponding column, the same for all cells in one column. So if **HorizontalMerge** and **VerticalMerge** return an incorrect value, use the following code example:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-PrintHorizontalAndVerticalMerged.cs" >}}//PrintHorizontalAndVerticalMerged
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "print-horizontal-and-vertical-merged.cs" >}}
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-HorizontalAndVerticalMergeHelperClasses.cs" >}}//HorizontalAndVerticalMergeHelperClasses
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-and-vertical-mergehelper-classes.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -100,4 +100,4 @@ Sometimes it is not possible to detect which cells are merged because some newer
 
 The following code example shows the above method in operation:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-MergedCells-ConvertToHorizontallyMergedCells.cs" >}}//ConvertToHorizontallyMergedCells
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "convert-to-horizontally-mergedcells.cs" >}}
