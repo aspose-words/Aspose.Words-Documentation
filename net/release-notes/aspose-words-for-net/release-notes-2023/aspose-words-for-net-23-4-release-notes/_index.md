@@ -378,14 +378,14 @@ if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
     // Setting the vertical size binding to Margin.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Setting the heigh to 30% of Margin height.
+    // Setting the height to 30% of Margin height.
     shape.HeightRelative = 30;
 }
 
 // Checking and setting the relative vertical position.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // etting the position binding to TopMargin.
+    // Setting the position binding to TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
     // Setting relative Top to 30% of TopMargin position.
     shape.TopRelative = 30;
@@ -407,6 +407,38 @@ doc.Save("output.docx");
 
 The obsolete property JsonDataLoadOptions.ExactDateTimeParseFormat has been removed. Please use the JsonDataLoadOptions.ExactDateTimeParseFormats property instead.
 
+{{< highlight csharp >}}
+/// <summary>
+/// Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is <c>null</c>.
+/// </summary>
+/// <remarks>
+/// <para>
+/// Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always 
+/// recognized as date-time values regardless of a value of this property. The property defines additional 
+/// formats to be used while parsing date-time values from strings in the following way:
+/// </para>
+/// <list type="bullet">
+/// <item>
+/// When <see cref="ExactDateTimeParseFormats"/> is <c>null</c>, the ISO-8601 format and all date-time formats 
+/// supported for the current, English USA, and English New Zealand cultures are used additionally in 
+/// the mentioned order.
+/// </item>
+/// <item>
+/// When <see cref="ExactDateTimeParseFormats"/> contains strings, they are used as additional date-time
+/// formats utilizing the current culture.
+/// </item>
+/// <item>
+/// When <see cref="ExactDateTimeParseFormats"/> is empty, no additional date-time formats are used.
+/// </item>
+/// </list>
+/// </remarks>
+public IEnumerable<string> ExactDateTimeParseFormats
+{
+    get { return mExactDateTimeParseFormats; }
+    set { mExactDateTimeParseFormats = value; }
+}
+{{< /highlight >}}
+
 #### Use Case:
 {{< highlight csharp >}}
 const string dateTimeParseFormat = "dd.MM.yy";
@@ -417,38 +449,4 @@ List<string> formats = new List<string> { dateTimeParseFormat };
 options.ExactDateTimeParseFormats = formats;
 
 JsonDataSource dataSource = new JsonDataSource(stream, options);
-{{< /highlight >}}
-
-Or use the following function to get the behavior of the removed ExactDateTimeParseFormat property:
-{{< highlight csharp >}}
-const string dateTimeParseFormat = "dd.MM.yy";
-JsonDataLoadOptions options = new JsonDataLoadOptions();
-SetExactDateTimeParseFormat(options, dateTimeParseFormat);
-JsonDataSource dataSource = new JsonDataSource(stream, options);
-
-void SetExactDateTimeParseFormat(JsonDataLoadOptions options, string format)
-{
-    if (format == null)
-    {
-        options.ExactDateTimeParseFormats = null;
-        return;
-    }
-
-    List<string> list = (options.ExactDateTimeParseFormats != null)
-        ? new List<string>(options.ExactDateTimeParseFormats)
-        : new List<string>();
-
-    options.ExactDateTimeParseFormats = list;
-
-    if (format == string.Empty)
-    {
-        list.Clear();
-        return;
-    }
-
-    if (list.Count > 0)
-        list[0] = format;
-    else
-        list.Add(format);
-}
 {{< /highlight >}}
