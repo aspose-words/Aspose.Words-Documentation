@@ -37,10 +37,10 @@ The following data in our **DataTable** is used in this example:
 
 The following code example shows how to execute the above algorithm in Aspose.Words:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-BuildTableFromDataTable-ImportTableFromDataTable.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-BuildTableFromDataTable-ImportTableFromDataTable.cs" >}}//ImportTableFromDataTable
 
 The method can then be easily called using your **DocumentBuilder** and data.
 
 The following code example shows how to import the data from a DataTable and insert it into a new table in the document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-BuildTableFromDataTable-BuildTableFromDataTable.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Tables-BuildTableFromDataTable-BuildTableFromDataTable.cs" >}}//BuildTableFromDataTable

@@ -40,7 +40,7 @@ The pictures below show a representation of the **Table** formatting features in
 
 The following code example shows how to apply an outline border to a table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyOutlineBorder.cs" >}}//ApplyOutlineBorder
 
 {{% alert color="primary" %}}
 
@@ -50,7 +50,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to build a table with all borders enabled (grid):
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-BuildTableWithBordersEnabled.cs" >}}//BuildTableWithBorders
 
 {{% alert color="primary" %}}
 
@@ -74,7 +74,7 @@ The pictures below show a representation of the **Row** formatting features in M
 
 The following code example shows how to modify the table row formatting:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyRowFormatting.cs" >}}//ModifyRowFormatting
 
 {{% alert color="primary" %}}
 
@@ -102,7 +102,7 @@ The pictures below show a representation of the **Cell** formatting features in 
 
 The following code example shows how to modify the formatting of a table cell:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ModifyCellFormatting.cs" >}}//ModifyCellFormatting
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-SetCellPadding.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-SetCellPadding.cs" >}}//CellPadding
 
 ## Specify Row Heights
 
@@ -133,7 +133,7 @@ Rule options for specifying the height of an object can be set using the [Height
 
 The following code example shows how to create a table that contains a single cell and apply row formatting:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyRowFormatting.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-ApplyRowFormatting.cs" >}}//ApplyRowFormatting
 
 ## Specify Table and Cell Widths
 
@@ -206,13 +206,13 @@ Using the [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.w
 
 The following code example shows how to set the table to auto-fit to 50% of the page width.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AutoFitToPageWidth.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AutoFitToPageWidth.cs" >}}//AutoFitPageWidth
 
 Using the [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) property on a given cell will adjust its preferred width.
 
 The following code example shows how to set the different preferred width settings.
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-SetPreferredWidthSettings.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-SetPreferredWidthSettings.cs" >}}//PreferredWidthSettings
 
 #### Find Preferred Width Type and Value
 
@@ -220,7 +220,7 @@ You can use the [Type](https://reference.aspose.com/words/net/aspose.words.table
 
 The following code example shows how to retrieve the preferred width type of a table cell:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-RetrievePreferredWidthType.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-RetrievePreferredWidthType.cs" >}}//RetrievePreferredWidthType
 
 {{% alert color="primary" %}}
 
@@ -244,7 +244,7 @@ It is important to know that the autofit method is actually a shortcut that appl
 
 The following code example shows how to set a table to shrink or grow each cell according to its contents:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-SpecifyHeightAndWidth-AllowAutoFit.cs" >}}//AllowAutoFit
 
 #### AutoFit Table to Window
 
@@ -260,7 +260,7 @@ When autofitting to a window is applied to a table, the following operations are
 
 The following code example shows how to autofit a table to the page width:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToWindow-AutoFitTableToPageWidth.cs" >}}//AutoFitTableToPageWidth
 
 {{% alert color="primary" %}}
 
@@ -283,7 +283,7 @@ When the table is autofitted the content, the following steps are actually perfo
 
 The following code example shows how to autofit a table to its content:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToContents-AutoFitTableToContents.cs" >}}//AutoFitTableToContents
 
 {{% alert color="primary" %}}
 
@@ -308,7 +308,7 @@ Note that if no width is specified for **CellFormat.Width**, the default value o
 
 The following code example shows how to disable autofit and enable fixed width for the specified table:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-AutoFitTableToFixedColumnWidths-AutoFitTableToFixedColumnWidths.cs" >}}//AutoFitTableToFixedColumnWidths
 
 {{% alert color="primary" %}}
 
@@ -352,7 +352,7 @@ An example of how these options are applied to a real table in a document can be
 
 The following code example shows how to set the spacing between cells:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-AllowCellSpacing.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-AllowCellSpacing.cs" >}}//AllowCellSpacing
 
 ## Apply Borders and Shading
 
@@ -366,4 +366,4 @@ The pictures below show the border and shadow settings in Microsoft Word and the
 
 The following code example shows how to format a table and cell with different borders and shadings:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-FormatTableAndCellWithDifferentBorders.cs" >}}
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Tables-ApplyFormatting-FormatTableAndCellWithDifferentBorders.cs" >}}//FormatTableAndCellWithDifferentBorders
