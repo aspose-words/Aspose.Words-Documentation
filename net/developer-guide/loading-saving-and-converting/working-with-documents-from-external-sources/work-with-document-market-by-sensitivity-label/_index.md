@@ -1,8 +1,8 @@
 ---
-title: Work with a Document Marked by a sensitivity label
+title: Work with a Document Marked by a Sensitivity Label
 second_title: Aspose.Words for .NET
-articleTitle: Work with a Document Marked by a sensitivity label
-linktitle: Work with a Document Marked by a sensitivity label
+articleTitle: Work with a Document Marked by a Sensitivity Label
+linktitle: Work with a Document Marked by a Sensitivity Label
 description: "Convert Word with applied sensitivity label to PDF using C#. Work with documents marked by a sensitivity labels – various input formats, including Word, OpenOffice, Image and eBook."
 type: docs
 weight: 30
@@ -26,33 +26,21 @@ In this article, we will cover a common scenario for converting and modifying a 
 2. Set up an instant sandbox according to the [video tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes).
 
 3. Enable default sensitivity labels according to the [tutorial](https://learn.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide#use-the-microsoft-purview-compliance-portal-to-enable-support-for-sensitivity-labels).
-
   {{% alert color="primary" %}}
-
   If you have already gone through steps 1 and 2, you can look at the [list of labels](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade).
-
   {{% /alert %}}
 
 4. Register a client application with Azure Active Directory according to the [tutorial](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#register-a-new-application-using-the-azure-portal).
-  
   {{% alert color="primary" %}}
-  
   Registered users can check the [application list](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade).
-
   {{% /alert %}}
-  
   4.1. Supported Account Types – select "Accounts in this organizational directory only".
-  
   4.2. The step with setting the Redirect URI may be skipped.
-  
   4.3. Adding a certificate may be skipped. Use client secret for access.
-  
   4.4. Adding a federated credential also may be skipped.
-  
   4.5. Set permissions for the application.
   Select "API permissions" → "Add permission" → "Interfaces API Microsoft" →"Azure Rights Management Services" → "App permissions" and add "Content.SuperUser", "Content.Writer" permissions.
   Select "API permissions" → "Add permission" → "APIs my organization uses" → find "Microsoft Information Protection Sync Service" → "App permissions" → "UnifiedPolicy.Tenant.Read".
-  
   4.6. Return to the "API permissions" page and push the "Grant admin consent for (Tenant Name)" button.
 
 5. Open the Office 365 home page and open the Word application in a browser.
