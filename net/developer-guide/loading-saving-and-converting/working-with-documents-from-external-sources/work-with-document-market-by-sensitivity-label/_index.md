@@ -136,14 +136,14 @@ namespace SensitivityLabelsExample
         private readonly ApplicationInfo _appInfo;
 
         private const string RedirectUrl = "https://login.microsoftonline.com/common/oauth2/nativeclient";
-    
+
         public AuthDelegate(ApplicationInfo appInfo, string tenant, string appSecret)
         {
             _tenant = tenant;
             _appInfo = appInfo;
             _appSecret = appSecret;
         }
-    
+
         public string AcquireToken(Identity identity, string authority, string resource, string claims)
         {
             // Append tenant to authority and remove common.
@@ -152,20 +152,20 @@ namespace SensitivityLabelsExample
                 var authorityUri = new Uri(authority);
                 authority = string.Format("https://{0}/{1}", authorityUri.Host, _tenant);
             }
-    
+
             // Perform client secret based auth.
             var app = ConfidentialClientApplicationBuilder.Create(_appInfo.ApplicationId)
                 .WithClientSecret(_appSecret)
                 .WithRedirectUri(RedirectUrl)
                 .Build();
-    
+
             var scopes = new string[] { resource[resource.Length - 1].Equals('/') ? $"{resource}.default" : $"{resource}/.default" };
             AuthenticationResult authResult = app.AcquireTokenForClient(scopes)
                 .WithAuthority(authority)
                 .ExecuteAsync()
                 .GetAwaiter()
                 .GetResult();
-    
+
             return authResult.AccessToken;
         }
     }
@@ -218,7 +218,7 @@ namespace SensitivityLabelsTest
         private MipContext _mipContext;
         private IFileEngine _fileEngine;
         private IFileProfile _fileProfile;
-    
+
         public SenstivityLabelsManager(ApplicationInfo appInfo, string tenant, string appSecret, string locale = "en-US")
         {
             _locale = locale;
@@ -226,70 +226,70 @@ namespace SensitivityLabelsTest
             _appInfo = appInfo;
             _appSecret = appSecret;
         }
-    
+
         public async Task Initialize()
         {
             // Initialize Wrapper for File SDK operations.
             // Review the API Spec at https://aka.ms/mipsdkdocs for details.
             MIP.Initialize(MipComponent.File);
-    
+
             var mipConfiguration = new MipConfiguration(_appInfo, "mip_data", LogLevel.Trace, false);
             _mipContext = MIP.CreateMipContext(mipConfiguration);
-    
+
             _fileProfile = await CreateFileProfile();
             _fileEngine = await CreateFileEngine();
-    
+
         }
-    
+
         public IEnumerable<Label> GetLabels()
         {
             return _fileEngine.SensitivityLabels;
         }
-    
+
         public async Task<Stream> SetLabel(string labelId, FileLabelingOptions options)
         {
             var labelingOptions = new LabelingOptions() { AssignmentMethod = options.AssignmentMethod };
-    
+
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.SetLabel(_fileEngine.GetLabelById(labelId), labelingOptions, new ProtectionSettings());
-    
+
             var commited = false;
             var outputStream = new MemoryStream();
-    
+
             // Check to see that modifications occurred on the handler. If not, skip commit.
             if (handler.IsModified())
                 commited = await handler.CommitAsync(outputStream);
-    
+
             // Submits and audit event about the labeling action to Azure Information Protection Analytics.
             if (commited)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
             }
-    
+
             return commited ? outputStream : null;
         }
-    
+
         public async Task<Stream> RemoveLabel(FileLabelingOptions options)
         {
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.DeleteLabel(new LabelingOptions() { IsDowngradeJustified = true, AssignmentMethod = options.AssignmentMethod });
-    
+
             var commited = false;
             var outputStream = new MemoryStream();
-    
+
             if (handler.IsModified())
                 commited = await handler.CommitAsync(outputStream);
-    
+
             if (commited)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
             }
-    
+
             return outputStream;
         }
-    
+
         public void Dispose()
         {
             _fileEngine?.Dispose();
@@ -297,21 +297,21 @@ namespace SensitivityLabelsTest
             _mipContext?.ShutDown();
             _mipContext?.Dispose();
         }
-    
+
         private async Task<IFileProfile> CreateFileProfile()
         {
             var profileSettings = new FileProfileSettings(_mipContext, CacheStorageType.OnDiskEncrypted, new ConsentDelegate());
-    
+
             // IFileProfile is the root of all SDK operations for a given application.
             var profile = await MIP.LoadFileProfileAsync(profileSettings);
             return profile;
         }
-    
+
         private async Task<IFileEngine> CreateFileEngine()
         {
             // The SDK will accept any properly formatted email address.
             var identity = new Identity(string.Format("{0}@{1}", _appInfo.ApplicationId, _tenant));
-    
+
             // Passing in empty string for the first parameter, engine ID, will cause the SDK to generate a GUID.
             // Locale settings are supported and should be provided based on the machine locale, particular for client applications.
             var engineSettings = new FileEngineSettings(
@@ -319,12 +319,14 @@ namespace SensitivityLabelsTest
             {
                 Identity = identity
             };
-    
+
             var engine = await _fileProfile.AddEngineAsync(engineSettings);
             return engine;
         }
     }
 }
+
+{{< /highlight >}}
 
 ### Add Scenario Logic to the Program
 
