@@ -51,4 +51,4 @@ In Aspose.Words, you can also add a table title and description using the [Title
 
 The following code example shows how to set the title and description properties of a table:
 
-{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "tabletitle-and-description.cs" >}}
+{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "table-title-and-description.cs" >}}

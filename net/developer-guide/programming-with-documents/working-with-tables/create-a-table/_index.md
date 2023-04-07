@@ -106,7 +106,7 @@ The same technique can be used to add copies of an existing row or cell to a tab
 
 The following code example shows how to duplicate a table using node constructors:
 
-{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "clonecomplete-table.cs" >}}
+{{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "clone-complete-table.cs" >}}
 
 {{% alert color="primary" %}}
 

@@ -36,7 +36,7 @@ To check if a cell is part of a sequence of merged cells, we simply check the Ce
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "checkcells-merged.cs" >}}
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "check-cells-merged.cs" >}}
 
 {{% alert color="primary" %}}
 

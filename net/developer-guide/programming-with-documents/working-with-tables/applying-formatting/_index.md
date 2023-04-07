@@ -50,7 +50,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to build a table with all borders enabled (grid):
 
-{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "build-table-withborders.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "build-table-with-borders.cs" >}}
 
 {{% alert color="primary" %}}
 
