@@ -31,14 +31,14 @@ In this article, we will cover a common scenario for converting and modifying a 
   {{% alert color="primary" %}}
   Registered users can check the [application list](https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade).
   {{% /alert %}}
-  1. Supported Account Types – select "Accounts in this organizational directory only".
-  2. The step with setting the Redirect URI may be skipped.
-  3.  Adding a certificate may be skipped. Use client secret for access.
-  4. Adding a federated credential also may be skipped.
-  5. Set permissions for the application.
-    Select "API permissions" → "Add permission" → "Interfaces API Microsoft" →"Azure Rights Management Services" → "App permissions" and add "Content.SuperUser", "Content.Writer" permissions.
-    Select "API permissions" → "Add permission" → "APIs my organization uses" → find "Microsoft Information Protection Sync Service" → "App permissions" → "UnifiedPolicy.Tenant.Read".
-  6. Return to the "API permissions" page and push the "Grant admin consent for (Tenant Name)" button.
+	- Supported Account Types – select "Accounts in this organizational directory only".
+	- The step with setting the Redirect URI may be skipped.
+	- Adding a certificate may be skipped. Use client secret for access.
+	- Adding a federated credential also may be skipped.
+	- Set permissions for the application.
+	Select "API permissions" → "Add permission" → "Interfaces API Microsoft" →"Azure Rights Management Services" → "App permissions" and add "Content.SuperUser", "Content.Writer" permissions.
+	Select "API permissions" → "Add permission" → "APIs my organization uses" → find "Microsoft Information Protection Sync Service" → "App permissions" → "UnifiedPolicy.Tenant.Read".
+	- Return to the "API permissions" page and push the "Grant admin consent for (Tenant Name)" button.
 5. Open the Office 365 home page and open the Word application in a browser.
 6. Create a new DOCX document with some content.
 7. In the Word application, on the "Home" tab, select the menu "Sensitivity" → "Confidential" → "All Employees". The document will be marked with a sensitivity label and encrypted.
@@ -136,14 +136,14 @@ namespace SensitivityLabelsExample
         private readonly ApplicationInfo _appInfo;
 
         private const string RedirectUrl = "https://login.microsoftonline.com/common/oauth2/nativeclient";
-
+    
         public AuthDelegate(ApplicationInfo appInfo, string tenant, string appSecret)
         {
             _tenant = tenant;
             _appInfo = appInfo;
             _appSecret = appSecret;
         }
-
+    
         public string AcquireToken(Identity identity, string authority, string resource, string claims)
         {
             // Append tenant to authority and remove common.
@@ -152,20 +152,20 @@ namespace SensitivityLabelsExample
                 var authorityUri = new Uri(authority);
                 authority = string.Format("https://{0}/{1}", authorityUri.Host, _tenant);
             }
-
+    
             // Perform client secret based auth.
             var app = ConfidentialClientApplicationBuilder.Create(_appInfo.ApplicationId)
                 .WithClientSecret(_appSecret)
                 .WithRedirectUri(RedirectUrl)
                 .Build();
-
+    
             var scopes = new string[] { resource[resource.Length - 1].Equals('/') ? $"{resource}.default" : $"{resource}/.default" };
             AuthenticationResult authResult = app.AcquireTokenForClient(scopes)
                 .WithAuthority(authority)
                 .ExecuteAsync()
                 .GetAwaiter()
                 .GetResult();
-
+    
             return authResult.AccessToken;
         }
     }
@@ -218,7 +218,7 @@ namespace SensitivityLabelsTest
         private MipContext _mipContext;
         private IFileEngine _fileEngine;
         private IFileProfile _fileProfile;
-
+    
         public SenstivityLabelsManager(ApplicationInfo appInfo, string tenant, string appSecret, string locale = "en-US")
         {
             _locale = locale;
@@ -226,70 +226,70 @@ namespace SensitivityLabelsTest
             _appInfo = appInfo;
             _appSecret = appSecret;
         }
-
+    
         public async Task Initialize()
         {
             // Initialize Wrapper for File SDK operations.
             // Review the API Spec at https://aka.ms/mipsdkdocs for details.
             MIP.Initialize(MipComponent.File);
-
+    
             var mipConfiguration = new MipConfiguration(_appInfo, "mip_data", LogLevel.Trace, false);
             _mipContext = MIP.CreateMipContext(mipConfiguration);
-
+    
             _fileProfile = await CreateFileProfile();
             _fileEngine = await CreateFileEngine();
-
+    
         }
-
+    
         public IEnumerable<Label> GetLabels()
         {
             return _fileEngine.SensitivityLabels;
         }
-
+    
         public async Task<Stream> SetLabel(string labelId, FileLabelingOptions options)
         {
             var labelingOptions = new LabelingOptions() { AssignmentMethod = options.AssignmentMethod };
-
+    
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.SetLabel(_fileEngine.GetLabelById(labelId), labelingOptions, new ProtectionSettings());
-
+    
             var commited = false;
             var outputStream = new MemoryStream();
-
+    
             // Check to see that modifications occurred on the handler. If not, skip commit.
             if (handler.IsModified())
                 commited = await handler.CommitAsync(outputStream);
-
+    
             // Submits and audit event about the labeling action to Azure Information Protection Analytics.
             if (commited)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
             }
-
+    
             return commited ? outputStream : null;
         }
-
+    
         public async Task<Stream> RemoveLabel(FileLabelingOptions options)
         {
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.DeleteLabel(new LabelingOptions() { IsDowngradeJustified = true, AssignmentMethod = options.AssignmentMethod });
-
+    
             var commited = false;
             var outputStream = new MemoryStream();
-
+    
             if (handler.IsModified())
                 commited = await handler.CommitAsync(outputStream);
-
+    
             if (commited)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
             }
-
+    
             return outputStream;
         }
-
+    
         public void Dispose()
         {
             _fileEngine?.Dispose();
@@ -297,21 +297,21 @@ namespace SensitivityLabelsTest
             _mipContext?.ShutDown();
             _mipContext?.Dispose();
         }
-
+    
         private async Task<IFileProfile> CreateFileProfile()
         {
             var profileSettings = new FileProfileSettings(_mipContext, CacheStorageType.OnDiskEncrypted, new ConsentDelegate());
-
+    
             // IFileProfile is the root of all SDK operations for a given application.
             var profile = await MIP.LoadFileProfileAsync(profileSettings);
             return profile;
         }
-
+    
         private async Task<IFileEngine> CreateFileEngine()
         {
             // The SDK will accept any properly formatted email address.
             var identity = new Identity(string.Format("{0}@{1}", _appInfo.ApplicationId, _tenant));
-
+    
             // Passing in empty string for the first parameter, engine ID, will cause the SDK to generate a GUID.
             // Locale settings are supported and should be provided based on the machine locale, particular for client applications.
             var engineSettings = new FileEngineSettings(
@@ -319,7 +319,7 @@ namespace SensitivityLabelsTest
             {
                 Identity = identity
             };
-
+    
             var engine = await _fileProfile.AddEngineAsync(engineSettings);
             return engine;
         }
