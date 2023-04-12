@@ -35,8 +35,8 @@ In this article, we will cover a common scenario for converting and modifying a 
 	- The step with setting the Redirect URI may be skipped.
 	- Adding a certificate may be skipped. Use client secret for access.
 	- Adding a federated credential also may be skipped.
-	- Set permissions for the application.
-	Select "API permissions" → "Add permission" → "Interfaces API Microsoft" →"Azure Rights Management Services" → "App permissions" and add "Content.SuperUser", "Content.Writer" permissions.
+	- Set permissions for the application.</br>
+	Select "API permissions" → "Add permission" → "Interfaces API Microsoft" →"Azure Rights Management Services" → "App permissions" and add "Content.SuperUser", "Content.Writer" permissions.</br>
 	Select "API permissions" → "Add permission" → "APIs my organization uses" → find "Microsoft Information Protection Sync Service" → "App permissions" → "UnifiedPolicy.Tenant.Read".
 	- Return to the "API permissions" page and push the "Grant admin consent for (Tenant Name)" button.
 5. Open the Office 365 home page and open the Word application in a browser.
