@@ -24,7 +24,9 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 - Implemented rendering of the linear trendline formula for DrawingML charts rendering.
 - Implemented optimization that significantly reduces the depth of graphics state nesting when rendering to PDF to maintain specification compliance.
 
-## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
+## Full List of Issues Covering all Changes in this Release
+
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -92,7 +94,9 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24297|DOC to PDF: Overlapping images|Bug
 |WORDSNET-24247|Section Header becomes text-wrapped around icons|Bug
 
-## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
+</details>
+
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -108,6 +112,8 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24565|Replaced shape is not catched by compare method|Bug
 |WORDSNET-24431|Watermark is displayed over the text|Bug
 
+</details>
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 22.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -116,7 +122,8 @@ This section lists public API changes that were introduced in Aspose.Words 22.12
 
 Related issue: WORDSNET-24441
 
-A new public property ThemeColor has been added to class Border:
+A new public property **ThemeColor** has been added to class **Border**:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets the theme color in the applied color scheme that is associated with this Border object.
@@ -124,7 +131,8 @@ A new public property ThemeColor has been added to class Border:
 public ThemeColor ThemeColor { get; set; }
 {{< /highlight >}}
 
-A new public property TintAndShade has been added to class Border:
+A new public property **TintAndShade** has been added to class **Border**:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a double value that lightens or darkens a color.
@@ -132,7 +140,12 @@ A new public property TintAndShade has been added to class Border:
 public double TintAndShade { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to work with ThemeColor and TintAndShade.
+{{< alert style="warning" >}}
+
+**Use Case**
+
+This use case explains how to work with **ThemeColor** and **TintAndShade**.
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -165,11 +178,14 @@ builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
 {{< /highlight >}}
 
+{{< /alert >}}
+
 ### Added public property PageSetup.Margins
 
 Related issue: WORDSNET-23931
 
-A new public property Margins has been added to the PageSetup class:
+A new public property **Margins** has been added to the **PageSetup** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Returns or sets preset <see cref="Aspose.Words.Margins"/> of the page.
@@ -177,7 +193,8 @@ A new public property Margins has been added to the PageSetup class:
 public Margins Margins { get; set; }
 {{< /highlight >}}
 
-A new public enum Margins has been introduced:
+A new public enum **Margins** has been introduced:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies preset margins.
@@ -185,7 +202,8 @@ A new public enum Margins has been introduced:
 public enum Margins
 {{< /highlight >}}
 
-Use Case: Explains how to get and set the specified Margin type for the given section.
+<details><summary>Use Case: Explains how to get and set the specified Margin type for the given section.</summary>
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 // Getting the current Margin type.
@@ -193,3 +211,5 @@ if (doc.Sections[1].PageSetup.Margins == Margins.Normal)
     // Setting the specified Margin type.
     doc.Sections[1].PageSetup.Margins = Margins.Mirrored;
 {{< /highlight >}}
+
+</details>
