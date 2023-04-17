@@ -26,6 +26,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 
 ## Full List of Issues Covering all Changes in this Release
 
+{{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
 
 |Key|Summary|Category|
@@ -95,7 +96,9 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24247|Section Header becomes text-wrapped around icons|Bug
 
 </details>
+{{% /alert %}}
 
+{{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
 
 |Key|Summary|Category|
@@ -113,6 +116,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24431|Watermark is displayed over the text|Bug
 
 </details>
+{{% /alert %}}
 
 ## Public API and Backward Incompatible Changes
 
@@ -140,13 +144,14 @@ A new public property **TintAndShade** has been added to class **Border**:
 public double TintAndShade { get; set; }
 {{< /highlight >}}
 
-{{< alert style="warning" >}}
+{{% alert color="secondary" %}}
 
 **Use Case**
 
 This use case explains how to work with **ThemeColor** and **TintAndShade**.
 
 {{< highlight csharp >}}
+
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -176,9 +181,10 @@ rightBorder.TintAndShade = -0.125;
 
 builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
+
 {{< /highlight >}}
 
-{{< /alert >}}
+{{% /alert %}}
 
 ### Added public property PageSetup.Margins
 
@@ -202,7 +208,15 @@ A new public enum **Margins** has been introduced:
 public enum Margins
 {{< /highlight >}}
 
-<details><summary>Use Case: Explains how to get and set the specified Margin type for the given section.</summary>
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set the specified Margin type for the given section.
+
+{{% alert color="secondary" %}}
+
+<details><summary>Expand to see the code example.</summary>
 
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
@@ -213,3 +227,5 @@ if (doc.Sections[1].PageSetup.Margins == Margins.Normal)
 {{< /highlight >}}
 
 </details>
+
+{{% /alert %}}
