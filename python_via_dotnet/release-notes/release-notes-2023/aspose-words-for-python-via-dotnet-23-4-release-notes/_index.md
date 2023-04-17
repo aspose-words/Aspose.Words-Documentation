@@ -151,17 +151,15 @@ Please note: setting these properties makes the table floating.
 Explains how to set distance between table and surrounding text.
 {{< highlight python >}}
 from aspose.words import Document
-from aspose.words.tables import Table
-from typing import cast
 
 doc = Document("input.docx")
-table = cast(Table, doc.first_section.body.tables[0])
+table = doc.first_section.body.tables[0]
 
 # Set distance between table and surrounding text.
-table.distance_left = 24.0
-table.distance_right = 24.0
-table.distance_top = 3.0
-table.distance_bottom = 3.0
+table.distance_left = 24
+table.distance_right = 24
+table.distance_top = 3
+table.distance_bottom = 3
 
 doc.save("output.docx")
 {{< /highlight >}}
@@ -182,21 +180,20 @@ Explains how to get unmodified Color of the gradient stop.
 from aspose.words import DocumentBuilder
 from aspose.words.drawing import ShapeType, GradientStop, GradientStyle, GradientVariant
 from aspose.pydrawing import Color
-from typing import cast
     
 builder = DocumentBuilder()
-shape = builder.insert_shape(ShapeType.BALLOON, width=300.0, height=300.0)
+shape = builder.insert_shape(ShapeType.BALLOON, width=300, height=300)
 
 # Set stroke thickness to 7pt.
-shape.stroke.weight = 7.0
+shape.stroke.weight = 7
 
 # Fill the stroke with one-color gradient.
 shape.stroke.fill.one_color_gradient(Color.red, GradientStyle.HORIZONTAL, GradientVariant.VARIANT1, 0.1)
 
 # In OneColorGradient the second color is set automatically by adding to the first color either tint or shade.
 # So, we can check unmodified color is actually those we set to the first color.
-gradientStop = cast(GradientStop, shape.stroke.fill.gradient_stops[1])
-gradientStop.color.to_string()
+gradientStop = shape.stroke.fill.gradient_stops[1]
+
 print(f"The color is: Color [A={gradientStop.color.a}, R={gradientStop.color.r}, G={gradientStop.color.g}, "
       f"B={gradientStop.color.b}]")
 print(f"The base (unmodified) color is: Color [A={gradientStop.base_color.a}, R={gradientStop.base_color.r}, "
@@ -221,12 +218,11 @@ def is_phonetic_guide(self) -> bool:
 #### Use Case:
 Explains how to determine either a Run is a phonetic guide run.
 {{< highlight python >}}
-from aspose.words import DocumentBuilder, Run
-from typing import cast
+from aspose.words import DocumentBuilder
 
 builder = DocumentBuilder()
 builder.write("text")
-run = cast(Run, builder.document.first_section.body.first_paragraph.runs[0])
+run = builder.document.first_section.body.first_paragraph.runs[0]
 print(f"The phonetic guide value of the run is '{run.is_phonetic_guide}'")
 
 ''' This code produces the following output:
@@ -251,10 +247,10 @@ from aspose.words.drawing import ShapeType, GradientStyle, GradientVariant
 from aspose.pydrawing import Color
 
 builder = DocumentBuilder()
-shape = builder.insert_shape(ShapeType.BALLOON, width=300.0, height=300.0)
+shape = builder.insert_shape(ShapeType.BALLOON, width=300, height=300)
 
 # Set stroke thickness to 7pt.
-shape.stroke.weight = 7.0
+shape.stroke.weight = 7
 
 # Fill the stroke with two - color gradient.
 shape.stroke.fill.two_color_gradient(Color.red, Color.blue, GradientStyle.HORIZONTAL, GradientVariant.VARIANT1)
@@ -293,12 +289,10 @@ class ChartAxisCollection:
 Explains how to work with series and axes of a combo chart.
 {{< highlight python >}}
 from aspose.words import Document, NodeType
-from typing import cast
-from aspose.words.drawing import Shape
 from aspose.words.drawing.charts import MarkerSymbol, ChartAxisType
 
 doc = Document("ComboChart.docx")
-shape = cast(Shape, doc.get_child_nodes(NodeType.SHAPE, True)[0])
+shape = doc.get_child_nodes(NodeType.SHAPE, True)[0].as_shape()
 chart = shape.chart
 
 # Show markers in the line series named 'Series 3'.
@@ -409,7 +403,7 @@ doc = Document()
 builder = DocumentBuilder(doc)
 
 # Adding a simple shape with absolute size and position.
-shape = builder.insert_shape(ShapeType.RECTANGLE, 100.0, 40.0)
+shape = builder.insert_shape(ShapeType.RECTANGLE, 100, 40)
 # Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
 shape.wrap_type = WrapType.NONE
 
@@ -418,28 +412,28 @@ if shape.relative_horizontal_size == RelativeHorizontalSize.DEFAULT:
     # Setting the horizontal size binding to Margin.
     shape.relative_horizontal_size = RelativeHorizontalSize.MARGIN
     # Setting the width to 50 % of Margin width.
-    shape.width_relative = 50.0
+    shape.width_relative = 50
 
 # Checking and setting the relative vertical size.
 if shape.relative_vertical_size == RelativeVerticalSize.DEFAULT:
     # Setting the vertical size binding to Margin.
     shape.relative_vertical_size = RelativeVerticalSize.MARGIN
     # Setting the height to 30 % of Margin height.
-    shape.height_relative = 30.0
+    shape.height_relative = 30
 
 # Checking and setting the relative vertical position.
 if shape.relative_vertical_position == RelativeVerticalPosition.PARAGRAPH:
     # Setting the position binding to top margin.
     shape.relative_vertical_position = RelativeVerticalPosition.TOP_MARGIN
     # Setting relative Top to 30 % of top margin position.
-    shape.top_relative = 30.0
+    shape.top_relative = 30
 
 # Checking and setting the relative horizontal position.
 if shape.relative_horizontal_position == RelativeHorizontalPosition.DEFAULT:
     # Setting the position binding to right margin.
     shape.relative_horizontal_position = RelativeHorizontalPosition.RIGHT_MARGIN
     # The position relative value can be negative.
-    shape.left_relative = -260.0
+    shape.left_relative = -260
 
 doc.save("output.docx")
 {{< /highlight >}}
