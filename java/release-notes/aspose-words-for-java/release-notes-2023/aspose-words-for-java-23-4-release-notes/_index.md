@@ -1,23 +1,23 @@
 ---
 title: 23.4 Release Notes
-second_title: Aspose.Words for .NET
-articleTitle: Aspose.Words for .NET 23.4 Release Notes
-linktitle: Aspose.Words for .NET 23.4 Release Notes
-description: "Aspose.Words for .NET 23.4 Release Notes – the latest updates and fixes."
+second_title: Aspose.Words for Java
+articleTitle: Aspose.Words for Java 23.4 Release Notes
+linktitle: Aspose.Words for Java 23.4 Release Notes
+description: "Aspose.Words for Java 23.4 Release Notes – the latest updates and fixes."
 type: docs
-weight: 55
-url: /net/aspose-words-for-net-23-4-release-notes/
+weight: 90
+url: /java/aspose-words-for-java-23-4-release-notes/
 ---
 
 {{% alert color="primary" %}}
 
-This page contains release notes for [Aspose.Words for .NET 23.4](https://www.nuget.org/packages/Aspose.Words/23.4.0).
+This page contains release notes for [Aspose.Words for Java 23.4](https://releases.aspose.com/words/java/23-4/).
 
 {{% /alert %}}
 
 ## Major Features
 
-There are 70 improvements and fixes in this regular monthly release. The most notable are:
+There are 74 improvements and fixes in this regular monthly release. The most notable are:
 
 - Added an ability to set distance between table and surrounding text.
 - Provided an ability to determine whether a Run is a phonetic guide run.
@@ -25,7 +25,17 @@ There are 70 improvements and fixes in this regular monthly release. The most no
 - Provided the new public properties connected to the shape relative positioning and sizing.
 - Improved accuracy and performance of color brightness calculation for automatic text color resolution in accordance with the latest versions of MS Word.
 
-## Full List of Issues Covering all Changes in this Release
+## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
+
+|Key|Summary|Category|
+| :- | :- | :- |
+|WORDSJAVA-2722|Tiff colors are inverted after rendering.|Bug
+|WORDSJAVA-2806|UnsupportedOperationException when saving DOCX to PDF|Bug
+|WORDSJAVA-2832|IllegalStateException in ReportingEngine|Bug
+|WORDSJAVA-2838|NullPointerException is thrown upon updating page layout|Bug
+
+
+## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
 |Key|Summary|Category|
 | :- | :- | :- |

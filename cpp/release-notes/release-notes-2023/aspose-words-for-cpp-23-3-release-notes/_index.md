@@ -125,6 +125,7 @@ ASPOSE_WORDS_SHARED_API Aspose::Words::Themes::ThemeColor get_BackThemeColor();
 
 /// Sets a ThemeColor object that represents the background color for the fill.
 ASPOSE_WORDS_SHARED_API void set_BackThemeColor(Aspose::Words::Themes::ThemeColor value);
+{{< /highlight >}}
 
 A new public properties ForeTintAndShade and BackTintAndShade has been added to class Fill.
 {{< highlight cpp >}}
