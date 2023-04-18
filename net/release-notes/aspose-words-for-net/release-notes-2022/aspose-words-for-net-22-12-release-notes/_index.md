@@ -150,6 +150,10 @@ public double TintAndShade { get; set; }
 
 This use case explains how to work with **ThemeColor** and **TintAndShade**.
 
+{{% alert color="secondary" %}}
+
+<details><summary>Expand to see the code example.</summary>
+
 {{< highlight csharp >}}
 
 Document doc = new Document();
@@ -183,6 +187,8 @@ builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
 
 {{< /highlight >}}
+
+</details>
 
 {{% /alert %}}
 
