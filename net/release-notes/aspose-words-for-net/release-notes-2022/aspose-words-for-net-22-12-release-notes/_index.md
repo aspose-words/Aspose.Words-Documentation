@@ -157,31 +157,26 @@ This use case explains how to work with **ThemeColor** and **TintAndShade**.
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 0.5;
 // Sets the value of ThemeColor.
 topBorder.ThemeColor = ThemeColor.Accent1;
-
 Border bottomBorder = builder.ParagraphFormat.Borders.Bottom;
 bottomBorder.LineWidth = 0.5;
 // Sets the value of ThemeColor.
 bottomBorder.ThemeColor = ThemeColor.Accent2;
-
 Border leftBorder = builder.ParagraphFormat.Borders.Left;
 leftBorder.LineWidth = 1.5;
 // Sets the value of ThemeColor.
 leftBorder.ThemeColor = ThemeColor.Accent3;
 // Sets the lightens value.
 leftBorder.TintAndShade = 0.25;
-
 Border rightBorder = builder.ParagraphFormat.Borders.Right;
 rightBorder.LineWidth = 1.5;
 // Sets the value of ThemeColor.
 rightBorder.ThemeColor = ThemeColor.Accent4;
 // Sets the darkens value.
 rightBorder.TintAndShade = -0.125;
-
 builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
 {{< /highlight >}}
