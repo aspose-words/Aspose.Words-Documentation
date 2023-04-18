@@ -206,13 +206,13 @@ Using the [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.w
 
 The following code example shows how to set the table to auto-fit to 50% of the page width.
 
-{{< gist "aspose-words-gists" "6548beaa03bdc6cffceae2bbf0e95a83" "auto-fit-page-width.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
 Using the [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) property on a given cell will adjust its preferred width.
 
 The following code example shows how to set the different preferred width settings.
 
-{{< gist "aspose-words-gists" "6548beaa03bdc6cffceae2bbf0e95a83" "preferred-width-settings.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "preferred-width-settings.cs" >}}
 
 #### Find Preferred Width Type and Value
 
@@ -220,7 +220,7 @@ You can use the [Type](https://reference.aspose.com/words/net/aspose.words.table
 
 The following code example shows how to retrieve the preferred width type of a table cell:
 
-{{< gist "aspose-words-gists" "6548beaa03bdc6cffceae2bbf0e95a83" "retrieve-preferred-width-type.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "retrieve-preferred-width-type.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -244,7 +244,7 @@ It is important to know that the autofit method is actually a shortcut that appl
 
 The following code example shows how to set a table to shrink or grow each cell according to its contents:
 
-{{< gist "aspose-words-gists" "6548beaa03bdc6cffceae2bbf0e95a83" "allowauto-fit.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "allow-auto-fit.cs" >}}
 
 #### AutoFit Table to Window
 
@@ -260,7 +260,7 @@ When autofitting to a window is applied to a table, the following operations are
 
 The following code example shows how to autofit a table to the page width:
 
-{{< gist "aspose-words-gists" "6548beaa03bdc6cffceae2bbf0e95a83" "auto-fit-table-to-page-width.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-table-to-page-width.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -283,7 +283,7 @@ When the table is autofitted the content, the following steps are actually perfo
 
 The following code example shows how to autofit a table to its content:
 
-{{< gist "aspose-words-gists" "6548beaa03bdc6cffceae2bbf0e95a83" "auto-fit-table-to-contents.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-table-to-contents.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -308,7 +308,7 @@ Note that if no width is specified for **CellFormat.Width**, the default value o
 
 The following code example shows how to disable autofit and enable fixed width for the specified table:
 
-{{< gist "aspose-words-gists" "6548beaa03bdc6cffceae2bbf0e95a83" "auto-fit-table-to-fixed-column-widths.cs" >}}
+{{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-table-to-fixed-column-widths.cs" >}}
 
 {{% alert color="primary" %}}
 

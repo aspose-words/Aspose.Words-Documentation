@@ -33,7 +33,7 @@ It is important to know that with this copying, the linked styles are also copie
 
 The following code example shows how to import a style from one document to another document:
 
-{{< gist "aspose-words-gists" "b0d8bd66b25a20a9a1975ce600cdcd0e" "copy-style-different-document.cs" >}}
+{{< gist "aspose-words-gists" "93b92a7e6f2f4bbfd9177dd7fcecbd8c" "copy-style-different-document.cs" >}}
 
 ## Apply an Existing Table Style
 

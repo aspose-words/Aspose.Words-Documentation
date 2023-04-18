@@ -27,7 +27,7 @@ Typically, text replacement should be done at the cell level (per cell) or at th
 
 The following code example shows how to replace all instances of a string of text in the cells of an entire table:
 
-{{< gist "aspose-words-gists" "7267ba4569c671e5f6c7a58bba57297a" "replace-text.cs" >}}
+{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "replace-text.cs" >}}
 
 ## Extract Plain Text from Table or Cell
 
@@ -35,13 +35,13 @@ Using the **Range** object, you can also call methods on the entire table range 
 
 The following code example shows how to print the text range of a table:
 
-{{< gist "aspose-words-gists" "7267ba4569c671e5f6c7a58bba57297a" "extract-text.cs" >}}
+{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "extract-text.cs" >}}
 
 The same technique is used to extract content from individual table cells only.
 
 The following code example shows how to print a text range of row and table elements:
 
-{{< gist "aspose-words-gists" "7267ba4569c671e5f6c7a58bba57297a" "print-text-range-row-and-table.cs" >}}
+{{< gist "aspose-words-gists" "458eb4fd5bd1de8b06fab4d1ef1acdc6" "print-text-range-row-and-table.cs" >}}
 
 ## Working with Alternative Table Text
 
