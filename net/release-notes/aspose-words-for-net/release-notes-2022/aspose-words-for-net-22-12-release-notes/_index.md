@@ -192,6 +192,8 @@ doc.Save("output.docx");
 
 {{% /alert %}}
 
+{{% /alert %}}
+
 ### Added public property PageSetup.Margins
 
 Related issue: WORDSNET-23931
@@ -233,5 +235,7 @@ if (doc.Sections[1].PageSetup.Margins == Margins.Normal)
 {{< /highlight >}}
 
 </details>
+
+{{% /alert %}}
 
 {{% /alert %}}
