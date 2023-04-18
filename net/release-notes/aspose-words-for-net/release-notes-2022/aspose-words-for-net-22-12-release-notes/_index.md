@@ -155,7 +155,6 @@ This use case explains how to work with **ThemeColor** and **TintAndShade**.
 <details><summary>Expand to see the code example.</summary>
 
 {{< highlight csharp >}}
-
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -185,7 +184,6 @@ rightBorder.TintAndShade = -0.125;
 
 builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
-
 {{< /highlight >}}
 
 </details>
