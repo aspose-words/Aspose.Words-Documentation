@@ -28,7 +28,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 
 {{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
-<p></p>
+
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-14305|RTF To PDF conversion issue with cell's text rendering|New Feature
@@ -100,7 +100,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 
 {{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
-<p></p>
+
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-24363|Phonetic Guide is not exported to TXT|Bug
