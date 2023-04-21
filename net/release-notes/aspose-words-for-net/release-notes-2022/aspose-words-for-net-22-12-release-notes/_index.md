@@ -24,7 +24,10 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 - Implemented rendering of the linear trendline formula for DrawingML charts rendering.
 - Implemented optimization that significantly reduces the depth of graphics state nesting when rendering to PDF to maintain specification compliance.
 
-## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
+## Full List of Issues Covering all Changes in this Release
+
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -92,7 +95,11 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24297|DOC to PDF: Overlapping images|Bug
 |WORDSNET-24247|Section Header becomes text-wrapped around icons|Bug
 
-## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
+</details>
+{{% /alert %}}
+
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -108,6 +115,9 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24565|Replaced shape is not catched by compare method|Bug
 |WORDSNET-24431|Watermark is displayed over the text|Bug
 
+</details>
+{{% /alert %}}
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 22.12. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -116,7 +126,8 @@ This section lists public API changes that were introduced in Aspose.Words 22.12
 
 Related issue: WORDSNET-24441
 
-A new public property ThemeColor has been added to class Border:
+A new public property **ThemeColor** has been added to class **Border**:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets the theme color in the applied color scheme that is associated with this Border object.
@@ -124,7 +135,8 @@ A new public property ThemeColor has been added to class Border:
 public ThemeColor ThemeColor { get; set; }
 {{< /highlight >}}
 
-A new public property TintAndShade has been added to class Border:
+A new public property **TintAndShade** has been added to class **Border**:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a double value that lightens or darkens a color.
@@ -132,35 +144,44 @@ A new public property TintAndShade has been added to class Border:
 public double TintAndShade { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to work with ThemeColor and TintAndShade.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with **ThemeColor** and **TintAndShade**. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 0.5;
+
 // Sets the value of ThemeColor.
 topBorder.ThemeColor = ThemeColor.Accent1;
-
 Border bottomBorder = builder.ParagraphFormat.Borders.Bottom;
 bottomBorder.LineWidth = 0.5;
+
 // Sets the value of ThemeColor.
 bottomBorder.ThemeColor = ThemeColor.Accent2;
-
 Border leftBorder = builder.ParagraphFormat.Borders.Left;
 leftBorder.LineWidth = 1.5;
+
 // Sets the value of ThemeColor.
 leftBorder.ThemeColor = ThemeColor.Accent3;
+
 // Sets the lightens value.
 leftBorder.TintAndShade = 0.25;
-
 Border rightBorder = builder.ParagraphFormat.Borders.Right;
 rightBorder.LineWidth = 1.5;
+
 // Sets the value of ThemeColor.
 rightBorder.ThemeColor = ThemeColor.Accent4;
+
 // Sets the darkens value.
 rightBorder.TintAndShade = -0.125;
-
 builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
 {{< /highlight >}}
@@ -169,7 +190,8 @@ doc.Save("output.docx");
 
 Related issue: WORDSNET-23931
 
-A new public property Margins has been added to the PageSetup class:
+A new public property **Margins** has been added to the **PageSetup** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Returns or sets preset <see cref="Aspose.Words.Margins"/> of the page.
@@ -177,7 +199,8 @@ A new public property Margins has been added to the PageSetup class:
 public Margins Margins { get; set; }
 {{< /highlight >}}
 
-A new public enum Margins has been introduced:
+A new public enum **Margins** has been introduced:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies preset margins.
@@ -185,7 +208,14 @@ A new public enum Margins has been introduced:
 public enum Margins
 {{< /highlight >}}
 
-Use Case: Explains how to get and set the specified Margin type for the given section.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set the specified **Margin** type for the given section. Please see the following code example to learn how to use such property and enum:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 // Getting the current Margin type.

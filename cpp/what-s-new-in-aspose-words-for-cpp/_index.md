@@ -11,11 +11,15 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 23.1, 23.2
+## Aspose.Words for C++ 23.1, 23.2, 23.3, 23.4
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
 
 Aspose.Words 23.2 introduces saving documents in the MOBI format, improves chart rendering, and makes notable changes to document appearance details.
+
+Aspose.Words 23.3 enhances the documents import and saving with new properties, and also improves the quality of work with background and foreground color and radial gradient.
+
+Aspose.Words 23.4 improves the calculation of some parameters and the positioning of the table and surrounding text.
 
 ### Performance Improvements
 
@@ -43,6 +47,18 @@ Support of R-squared coefficient in DML chart trendline labels when rendering ha
 
 Since 23.2 the chart rendering has been significantly improved.
 
+#### Background and Foreground Color Control <sup>23.3</sup>
+
+The [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: **ForeThemeColor** and **BackThemeColor**, **ForeTintAndShade** and **BackTintAndShade**.
+
+#### Radial Gradients with the SkiaSharp Native Shader <sup>23.3</sup>
+
+Rendering of radial gradients with the SkiaSharp native shader for .NET Standard has been implemented.
+
+#### Distance Between the Table and Surrounding Text <sup>23.4</sup>
+
+The ability to set the distance between the table and surrounding text has been added by introducing new properties to the [Table](https://reference.aspose.com/words/cpp/aspose.words.tables/table/) class: [DistanceLeft](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_distanceleft/), [DistanceRight](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_distanceright/), [DistanceTop](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_distancetop/), and [DistanceBottom](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_distancebottom/).
+
 ### Loading and Saving Documents
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
@@ -53,17 +69,33 @@ The ability to generate TOC (table of contents) for AZW3 documents has been adde
 
 A way to control the export of list items to Markdown format has been provided by adding the **ListExportMode** property to the [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class.
 
+#### Document Saving Progress Notifications <sup>23.3</sup>
+
+Saving progress notifications for MOBI and AZW3 formats has been implemented.
+
+#### Sentence and Word Spacing Adjustment  <sup>23.3</sup>
+
+The ability to specify whether to adjust sentence and word spacing automatically upon document import has been added by introducing the **AdjustSentenceAndWordSpacing** property.
+
 ### Other
 
 - The ability to specify the character spacing adjustment of a document has been added through the [JustificationMode](https://reference.aspose.com/words/cpp/aspose.words/document/get_justificationmode/) property implementation <sup>23.2</sup>
 - The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/cpp/aspose.words/document/get_includetextboxesfootnotesendnotesinstat/) property <sup>23.2</sup>
 - A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the [AutomaticallyUpdate](https://reference.aspose.com/words/cpp/aspose.words/style/get_automaticallyupdate/) property <sup>23.2</sup>
+- The ability to determine whether [Run](https://reference.aspose.com/words/cpp/aspose.words/run/) is a phonetic guide run has been added using the [IsPhoneticGuide](https://reference.aspose.com/words/cpp/aspose.words/run/get_isphoneticguide/) property <sup>23.4</sup>
+- A simple way to work with series and axes of combo charts has been implemented by introducing the [ChartAxisCollection](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxiscollection/) class and adding the [Chart.Axes](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chart/get_axes/) property <sup>23.4</sup>
+- New public properties connected to the shape relative positioning and sizing have been added to the [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) class <sup>23.4</sup>
+- Accuracy and performance of color brightness calculation for automatic text color resolution has been improved in accordance with the latest versions of Microsoft Word <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 23.1 Release Notes](/words/cpp/aspose-words-for-cpp-23-1-release-notes/).
 
 Learn more about [Aspose.Words for C++ 23.2 Release Notes](/words/cpp/aspose-words-for-cpp-23-2-release-notes/).
+
+Learn more about [Aspose.Words for C++ 23.3 Release Notes](/words/cpp/aspose-words-for-cpp-23-3-release-notes/).
+
+Learn more about [Aspose.Words for C++ 23.4 Release Notes](/words/cpp/aspose-words-for-cpp-23-4-release-notes/).
 
 {{% /alert %}}
 
