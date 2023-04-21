@@ -28,7 +28,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 
 {{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
-
+<p></p>
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-14305|RTF To PDF conversion issue with cell's text rendering|New Feature
@@ -100,7 +100,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 
 {{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
-
+<p></p>
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-24363|Phonetic Guide is not exported to TXT|Bug
@@ -148,84 +148,43 @@ public double TintAndShade { get; set; }
 
 **Use Case**
 
-This use case explains how to work with **ThemeColor** and **TintAndShade**.
+This use case explains how to work with **ThemeColor** and **TintAndShade**. Please see the following code example to learn how to use such properties:
 
-{{% alert color="secondary" %}}
+{{% /alert %}}
 
-<details><summary>Expand to see the code example.</summary>
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
+
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 0.5;
+
 // Sets the value of ThemeColor.
 topBorder.ThemeColor = ThemeColor.Accent1;
 Border bottomBorder = builder.ParagraphFormat.Borders.Bottom;
 bottomBorder.LineWidth = 0.5;
+
 // Sets the value of ThemeColor.
 bottomBorder.ThemeColor = ThemeColor.Accent2;
 Border leftBorder = builder.ParagraphFormat.Borders.Left;
 leftBorder.LineWidth = 1.5;
+
 // Sets the value of ThemeColor.
 leftBorder.ThemeColor = ThemeColor.Accent3;
+
 // Sets the lightens value.
 leftBorder.TintAndShade = 0.25;
 Border rightBorder = builder.ParagraphFormat.Borders.Right;
 rightBorder.LineWidth = 1.5;
+
 // Sets the value of ThemeColor.
 rightBorder.ThemeColor = ThemeColor.Accent4;
+
 // Sets the darkens value.
 rightBorder.TintAndShade = -0.125;
 builder.Write("Lorem Ipsum");
 doc.Save("output.docx");
 {{< /highlight >}}
-
-</details>
-
-{{% /alert %}}
-
-{{% alert color="secondary" %}}
-
-<details><summary>Expand to see the code example.</summary>
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-#
-Border topBorder = builder.ParagraphFormat.Borders.Top;
-topBorder.LineWidth = 0.5;
-#
-// Sets the value of ThemeColor.
-topBorder.ThemeColor = ThemeColor.Accent1;
-Border bottomBorder = builder.ParagraphFormat.Borders.Bottom;
-bottomBorder.LineWidth = 0.5;
-#
-// Sets the value of ThemeColor.
-bottomBorder.ThemeColor = ThemeColor.Accent2;
-Border leftBorder = builder.ParagraphFormat.Borders.Left;
-leftBorder.LineWidth = 1.5;
-#
-// Sets the value of ThemeColor.
-leftBorder.ThemeColor = ThemeColor.Accent3;
-#
-// Sets the lightens value.
-leftBorder.TintAndShade = 0.25;
-Border rightBorder = builder.ParagraphFormat.Borders.Right;
-rightBorder.LineWidth = 1.5;
-#
-// Sets the value of ThemeColor.
-rightBorder.ThemeColor = ThemeColor.Accent4;
-#
-// Sets the darkens value.
-rightBorder.TintAndShade = -0.125;
-builder.Write("Lorem Ipsum");
-doc.Save("output.docx");
-{{< /highlight >}}
-
-</details>
-
-{{% /alert %}}
-
-{{% /alert %}}
 
 ### Added public property PageSetup.Margins
 
@@ -253,11 +212,9 @@ public enum Margins
 
 **Use Case**
 
-This use case explains how to get and set the specified Margin type for the given section.
+This use case explains how to get and set the specified **Margin** type for the given section. Please see the following code example to learn how to use such property and enum:
 
-{{% alert color="secondary" %}}
-
-<details><summary>Expand to see the code example.</summary>
+{{% /alert %}}
 
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
@@ -266,9 +223,3 @@ if (doc.Sections[1].PageSetup.Margins == Margins.Normal)
     // Setting the specified Margin type.
     doc.Sections[1].PageSetup.Margins = Margins.Mirrored;
 {{< /highlight >}}
-
-</details>
-
-{{% /alert %}}
-
-{{% /alert %}}
