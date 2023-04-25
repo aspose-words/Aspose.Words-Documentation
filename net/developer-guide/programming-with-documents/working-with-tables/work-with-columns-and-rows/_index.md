@@ -29,7 +29,7 @@ Similarly, you may need to make changes to a specific row in a selected table. T
 
 The following code example shows how to retrieve the index of a row in a table:
 
-{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieverow-index.cs" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-row-index.cs" >}}
 
 ### Find the Index of a Cell in a Row {#find-the-index-of-a-cell-in-a-row}
 
@@ -77,7 +77,7 @@ Note that Header Rows do not work in nested tables. That is, if you have a table
 
 The following code example shows how to build a table which includes Header Rows that repeat on subsequent pages:
 
-{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "repeatrows-on-subsequent-pages.cs" >}}
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "repeat-rows-on-subsequent-pages.cs" >}}
 
 ## Keep Tables and Rows from Breaking Across Pages {#keep-tables-and-rows-from-breaking-across-pages}
 
