@@ -21,8 +21,9 @@ There are 70 improvements and fixes in this regular monthly release. The most no
 - Provided the new public properties connected to the shape relative positioning and sizing.
 - Improved accuracy and performance of color brightness calculation for automatic text color resolution in accordance with the latest versions of MS Word.
 
-### Full list of changes
+## Full list of changes
 
+{{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, covering all changes in this release.</summary>
 
 1. Ability to set foreground color with update of all gradient stops having the same color
@@ -97,6 +98,7 @@ There are 70 improvements and fixes in this regular monthly release. The most no
 70. HTML is exported in one vertical line after conversion from DOCX
 
 </details>
+{{% /alert %}}
 
 ## Public API and Backward Incompatible Changes
 
@@ -104,9 +106,9 @@ This section lists public API changes that were introduced in Aspose.Words 23.4.
 
 ### Added ability to set distance between table and surrounding text
 
-Now you can set the following properties of the Table class:
-{{< highlight cpp >}}
+Now you can set the following properties of the **Table** class:
 
+{{< highlight cpp >}}
     /// Gets or sets distance between table left and the surrounding text, in points.
     ///
     /// @par Examples
@@ -123,10 +125,10 @@ Now you can set the following properties of the Table class:
     /// ASPOSE_ASSERT_EQ(17.3, table->get_DistanceRight());
     /// @endcode
     ASPOSE_WORDS_SHARED_API double get_DistanceLeft();
-
+    
     /// Setter for Aspose::Words::Tables::Table::get_DistanceLeft
     ASPOSE_WORDS_SHARED_API void set_DistanceLeft(double value);
-
+    
     /// Gets or sets distance between table right and the surrounding text, in points.
     ///
     /// @par Examples
@@ -143,10 +145,10 @@ Now you can set the following properties of the Table class:
     /// ASPOSE_ASSERT_EQ(17.3, table->get_DistanceRight());
     /// @endcode
     ASPOSE_WORDS_SHARED_API double get_DistanceRight();
-
+    
     /// Setter for Aspose::Words::Tables::Table::get_DistanceRight
     ASPOSE_WORDS_SHARED_API void set_DistanceRight(double value);
-
+    
     /// Gets or sets distance between table top and the surrounding text, in points.
     ///
     /// @par Examples
@@ -163,10 +165,10 @@ Now you can set the following properties of the Table class:
     /// ASPOSE_ASSERT_EQ(17.3, table->get_DistanceRight());
     /// @endcode
     ASPOSE_WORDS_SHARED_API double get_DistanceTop();
-
+    
     /// Setter for Aspose::Words::Tables::Table::get_DistanceTop
     ASPOSE_WORDS_SHARED_API void set_DistanceTop(double value);
-
+    
     /// Gets or sets distance between table bottom and the surrounding text, in points.
     /// 
     /// @par Examples
@@ -183,18 +185,22 @@ Now you can set the following properties of the Table class:
     /// ASPOSE_ASSERT_EQ(17.3, table->get_DistanceRight());
     /// @endcode
     ASPOSE_WORDS_SHARED_API double get_DistanceBottom();
-
+    
     /// Setter for Aspose::Words::Tables::Table::get_DistanceBottom
     ASPOSE_WORDS_SHARED_API void set_DistanceBottom(double value);
-
 {{< /highlight >}}
 
 Please note: setting these properties makes the table floating.
 
-#### Use Case:
-Explains how to set distance between table and surrounding text.
-{{< highlight cpp >}}
+{{% alert color="secondary" %}}
 
+**Use Case**
+
+This use case explains how to set distance between table and surrounding text. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
+{{< highlight cpp >}}
     auto doc = System::MakeObject<Aspose::Words::Document>(u"input.docx");
     auto table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
     
@@ -205,23 +211,26 @@ Explains how to set distance between table and surrounding text.
     table->set_DistanceBottom(3);
         
     doc->Save(u"output.docx");
-
 {{< /highlight >}}
 
 ### Added public property GradientStop.BaseColor
 
-The following public property was added to Aspose.Words.Drawing.GradientStop class:
+The following public property was added to the **Aspose.Words.Drawing.GradientStop** class:
+
 {{< highlight cpp >}}
-    
     /// Gets a value representing the color of the gradient stop without any modifiers.
     ASPOSE_WORDS_SHARED_API System::Drawing::Color get_BaseColor();
-
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to get unmodified Color of the gradient stop.
-{{< highlight cpp >}}
+{{% alert color="secondary" %}}
 
+**Use Case**
+
+This use case explains how to get unmodified Color of the gradient stop. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
+{{< highlight cpp >}}
     System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
     System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Balloon, 300, 300);
     
@@ -241,23 +250,25 @@ Explains how to get unmodified Color of the gradient stop.
     The color is: Color [A=255, R=51, G=0, B=0]
     The base (unmodified) color is: Color [A=255, R=255, G=0, B=0]
     */
-
 {{< /highlight >}}
 
 ### Added public property Run.IsPhoneticGuide
 
-The following public property was added to Aspose.Words.Run class:
+The following public property was added to **Aspose.Words.Run** class:
 {{< highlight cpp >}}
-    
     /// Gets a boolean value indicating either the run is a phonetic guide.
     ASPOSE_WORDS_SHARED_API bool get_IsPhoneticGuide();    
-
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to determine either a Run is a phonetic guide run.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to determine either a Run is a phonetic guide run. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight cpp >}}
-    
     System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
     
     builder->Write(u"text");
@@ -268,23 +279,27 @@ Explains how to determine either a Run is a phonetic guide run.
     /* This code produces the following output:
     The phonetic guide value of the run is 'False'
     */
-
 {{< /highlight >}}
 
 ### Added public property Stroke.Fill
 
-The following public property was added to Aspose.Words.Drawing.Stroke class:
-{{< highlight cpp >}}
+The following public property was added to the **Aspose.Words.Drawing.Stroke** class:
 
+{{< highlight cpp >}}
     /// Gets fill formatting for the <see cref="Aspose::Words::Drawing::Stroke">Stroke</see>.
     ASPOSE_WORDS_SHARED_API System::SharedPtr<Aspose::Words::Drawing::Fill> get_Fill();
 
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to fill a stroke of the shape.
-{{< highlight cpp >}}
+{{% alert color="secondary" %}}
 
+**Use Case**
+
+This use case explains how to fill a stroke of the shape. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
+{{< highlight cpp >}}
     System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
     System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Balloon, 300, 300);
     
@@ -295,21 +310,19 @@ Explains how to fill a stroke of the shape.
     shape->get_Stroke()->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::Drawing::Color::get_Blue(), Aspose::Words::Drawing::GradientStyle::Vertical, Aspose::Words::Drawing::GradientVariant::Variant1);
         
     builder->get_Document()->Save(u"GradientStroke.docx");
-
 {{< /highlight >}}
 
 ### Improvements in Chart class for Combo charts
 
 The following changes have been implemented:
 
-A ChartSeriesCollection instance returned by the Chart.Series property includes all series of a combo chart, not just those of a main chart type.
-
-Implemented the ChartAxisCollection class. Added the Chart.Axes property of this type, which allows access to all axes of a combo chart.
+* A **ChartSeriesCollection** instance returned by the **Chart.Series** property includes all series of a combo chart, not just those of a main chart type.
+* Implemented the **ChartAxisCollection** class. Added the **Chart.Axes** property of this type, which allows access to all axes of a combo chart.
+* 
 {{< highlight cpp >}}
-
     /// Gets a collection of all axes of this chart.
     ASPOSE_WORDS_SHARED_API System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxisCollection> get_Axes();
-
+    
     /// Represents a collection of chart axes.
     class ASPOSE_WORDS_SHARED_CLASS ChartAxisCollection : public System::Collections::Generic::IEnumerable<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis>>
     {    
@@ -322,13 +335,17 @@ Implemented the ChartAxisCollection class. Added the Chart.Axes property of this
         /// Gets the axis at the specified index.
         ASPOSE_WORDS_SHARED_API System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> idx_get(int32_t index);
     }
-
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to work with series and axes of a combo chart.
-{{< highlight cpp >}}
+{{% alert color="secondary" %}}
 
+**Use Case**
+
+This use case explains how to work with series and axes of a combo chart. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
+{{< highlight cpp >}}
     System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"ComboChart.docx");
     System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
     System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(shapes->idx_get(0)))->get_Chart();
@@ -366,92 +383,94 @@ Explains how to work with series and axes of a combo chart.
     }
     
     doc->Save(u"output.docx");
-
 {{< /highlight >}}
 
 ### New public properties for working with the shape relative positioning and sizing have been added
 
-New public properties RelativeHorizontalSize and RelativeVerticalSize for specifying the relative size binding of the shape have been added to Shape class:
-{{< highlight cpp >}}
+New public properties **RelativeHorizontalSize** and **RelativeVerticalSize** for specifying the relative size binding of the shape have been added to the **Shape** class:
 
+{{< highlight cpp >}}
     /// Gets or sets the value of shape's relative size in horizontal direction.
     ///
     /// The default value is <see cref="Aspose::Words::Drawing::RelativeHorizontalSize">RelativeHorizontalSize</see>.
     ///
     /// Has effect only if <see cref="Aspose::Words::Drawing::ShapeBase::get_WidthRelative">WidthRelative</see> is set.
     ASPOSE_WORDS_SHARED_API Aspose::Words::Drawing::RelativeHorizontalSize get_RelativeHorizontalSize();
-
+    
     /// Setter for Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalSize
     ASPOSE_WORDS_SHARED_API void set_RelativeHorizontalSize(Aspose::Words::Drawing::RelativeHorizontalSize value);
-
+    
     /// Gets or sets the value of shape's relative size in vertical direction.
     ///
     /// The default value is <see cref="Aspose::Words::Drawing::RelativeVerticalSize::Margin">Margin</see>.
     ///
     /// Has effect only if <see cref="Aspose::Words::Drawing::ShapeBase::get_HeightRelative">HeightRelative</see> is set.
     ASPOSE_WORDS_SHARED_API Aspose::Words::Drawing::RelativeVerticalSize get_RelativeVerticalSize();
-
+    
     /// Setter for Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalSize
     ASPOSE_WORDS_SHARED_API void set_RelativeVerticalSize(Aspose::Words::Drawing::RelativeVerticalSize value);
-
 {{< /highlight >}}
 
-New public properties HeightRelative and WidthRelative for specifying the shape relative size in percent have been added to Shape class:
-{{< highlight cpp >}}
+New public properties **HeightRelative** and **WidthRelative** for specifying the shape relative size in percent have been added to the **Shape** class:
 
+{{< highlight cpp >}}
     /// Gets the value that represents the percentage of shape's relative height.
     ASPOSE_WORDS_SHARED_API float get_HeightRelative();
-
+    
     /// Sets the value that represents the percentage of shape's relative height.
     ASPOSE_WORDS_SHARED_API void set_HeightRelative(float value);
-
+    
     /// Gets the value that represents the percentage of shape's relative width.
     ASPOSE_WORDS_SHARED_API float get_WidthRelative();
-
+    
     /// Sets the value that represents the percentage of shape's relative width.
     ASPOSE_WORDS_SHARED_API void set_WidthRelative(float value);
 
 {{< /highlight >}}
 
-New public properties LeftRelative and TopRelative for specifying the shape relative position in percent have been added to Shape class:
-{{< highlight cpp >}}
+New public properties **LeftRelative** and **TopRelative** for specifying the shape relative position in percent have been added to the **Shape** class:
 
+{{< highlight cpp >}}
     /// Gets the value that represents shape's relative left position in percent.
     ASPOSE_WORDS_SHARED_API float get_LeftRelative();
-
+    
     /// Sets the value that represents shape's relative left position in percent.
     ASPOSE_WORDS_SHARED_API void set_LeftRelative(float value);
-
+    
     /// Gets the value that represents shape's relative top position in percent.
     ASPOSE_WORDS_SHARED_API float get_TopRelative();
-
+    
     /// Sets the value that represents shape's relative top position in percent.
     ASPOSE_WORDS_SHARED_API void set_TopRelative(float value);
 
 {{< /highlight >}}
 
-New public enums RelativeHorizontalSize and RelativeVerticalSize have been introduced:
-{{< highlight cpp >}}
+New public enums **RelativeHorizontalSize** and **RelativeVerticalSize** have been introduced:
 
+{{< highlight cpp >}}
     /// Specifies relatively to what the width of a shape or a text frame is calculated horizontally.
     ///
     /// @sa Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalSize
     enum class ASPOSE_WORDS_SHARED_CLASS RelativeHorizontalSize
-
+    
     /// Specifies relatively to what the height of a shape or a text frame is calculated vertically.
     ///
     /// @sa Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalSize
     enum class ASPOSE_WORDS_SHARED_CLASS RelativeVerticalSize
-
 {{< /highlight >}}
 
-#### Use Case:
-Customers may now get and set the shape relative positioning and sizing.
-{{< highlight cpp >}}
+{{% alert color="secondary" %}}
 
+**Use Case**
+
+This use case explains how to get and set the shape relative positioning and sizing. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
+{{< highlight cpp >}}
     System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>();
     System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
-
+    
     // Adding a simple shape with absolute size and position.
     System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 40);
     // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
@@ -494,7 +513,6 @@ Customers may now get and set the shape relative positioning and sizing.
     }
     
     doc->Save(u"output.docx");
-
 {{< /highlight >}}
 
 ## Limitations and API Differences

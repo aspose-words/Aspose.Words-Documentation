@@ -86,7 +86,7 @@ A table in HTML has a essentially different structure: each row has the same num
 
 {{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "print-horizontal-and-vertical-merged.cs" >}}
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-and-vertical-mergehelper-classes.cs" >}}
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-and-vertical-merge-helper-classes.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -100,4 +100,4 @@ Sometimes it is not possible to detect which cells are merged because some newer
 
 The following code example shows the above method in operation:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "convert-to-horizontally-mergedcells.cs" >}}
+{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "convert-to-horizontally-merged-cells.cs" >}}
