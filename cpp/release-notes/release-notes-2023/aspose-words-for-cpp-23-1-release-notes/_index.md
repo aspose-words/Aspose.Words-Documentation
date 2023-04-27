@@ -131,6 +131,8 @@ System::SharedPtr<Aspose::Words::Font> get_Font();
 }
 {{< /highlight >}}
 
+{{% alert color="secondary" %}}
+
 **Use Case:**
 
 This use case explains how to work with **Font** in Charts. Please see the following code example to learn how to use such a property:
