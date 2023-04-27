@@ -27,7 +27,9 @@ There are 70 improvements and fixes in this regular monthly release. The most no
 
 ## Full List of Issues Covering all Changes in this Release
 
+{{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, covering all changes in this release.</summary>
+
 1. Ability to set foreground color with update of all gradient stops having the same color
 2. Ability to determine whether run is ruby text
 3. Floating table margins setters
@@ -98,7 +100,9 @@ There are 70 improvements and fixes in this regular monthly release. The most no
 68. Poor quality of the resulting rendered shape after converting DOCX to JPG
 69. Text rotates after DOCX to HTML conversion
 70. HTML is exported in one vertical line after conversion from DOCX
+
 </details>
+{{% /alert %}}
 
 ## Public API and Backward Incompatible Changes
 
@@ -106,7 +110,8 @@ This section lists public API changes that were introduced in Aspose.Words for P
 
 ### Added ability to set distance between table and surrounding text
 
-Now you can set the following properties of the Table class:
+Now you can set the following properties of the **Table** class:
+
 {{< highlight python >}}
 @property
 def distance_left(self) -> float:
@@ -147,8 +152,14 @@ def distance_bottom(self, value: float):
 
 Please note: setting these properties makes the table floating.
 
-#### Use Case: 
-Explains how to set distance between table and surrounding text.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to set distance between table and surrounding text. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document
 
@@ -166,7 +177,8 @@ doc.save("output.docx")
 
 ### Added public property GradientStop.base_color
 
-The following public property was added to aspose.words.drawing.GradientStop class:
+The following public property was added to **aspose.words.drawing.GradientStop** class:
+
 {{< highlight python >}}
 @property
 def base_color(self) -> aspose.pydrawing.Color:
@@ -174,8 +186,14 @@ def base_color(self) -> aspose.pydrawing.Color:
     ...
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to get unmodified Color of the gradient stop.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get unmodified Color of the gradient stop. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import DocumentBuilder
 from aspose.words.drawing import ShapeType, GradientStop, GradientStyle, GradientVariant
@@ -207,7 +225,8 @@ The base (unmodified) color is: Color [A=255, R=255, G=0, B=0]
 
 ### Added public property Run.is_phonetic_guide
 
-The following public property was added to Aspose.Words.Run class:
+The following public property was added to the **Aspose.Words.Run** class:
+
 {{< highlight python >}}
  @property
 def is_phonetic_guide(self) -> bool:
@@ -215,8 +234,14 @@ def is_phonetic_guide(self) -> bool:
     ...
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to determine either a Run is a phonetic guide run.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to determine either a Run is a phonetic guide run. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import DocumentBuilder
 
@@ -231,7 +256,8 @@ The phonetic guide value of the run is 'False' '''
 
 ### Added public property Stroke.fill
 
-The following public property was added to aspose.words.drawing.Stroke class:
+The following public property was added to **aspose.words.drawing.Stroke** class:
+
 {{< highlight python >}}
 @property
 def fill(self) -> aspose.words.drawing.Fill:
@@ -239,8 +265,14 @@ def fill(self) -> aspose.words.drawing.Fill:
     ...
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to fill a stroke of the shape.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to fill a stroke of the shape. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import DocumentBuilder
 from aspose.words.drawing import ShapeType, GradientStyle, GradientVariant
@@ -262,9 +294,9 @@ builder.document.save("GradientStroke.docx")
 
 The following changes have been implemented:
 
-A ChartSeriesCollection instance returned by the Chart.series property includes all series of a combo chart, not just those of a main chart type.
+* A **ChartSeriesCollection** instance returned by the **Chart.series** property includes all series of a combo chart, not just those of a main chart type.
+* Implemented the **ChartAxisCollection** class. Added the **Chart.axes** property of this type, which allows access to all axes of a combo chart.
 
-Implemented the ChartAxisCollection class. Added the Chart.axes property of this type, which allows access to all axes of a combo chart.
 {{< highlight python >}}
 @property
 def axes(self) -> aspose.words.drawing.charts.ChartAxisCollection:
@@ -285,8 +317,14 @@ class ChartAxisCollection:
     ...
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to work with series and axes of a combo chart.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with series and axes of a combo chart. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document, NodeType
 from aspose.words.drawing.charts import MarkerSymbol, ChartAxisType
@@ -312,7 +350,8 @@ doc.save("output.docx")
 
 ### New public properties for working with the shape relative positioning and sizing have been added
 
-New public properties relative_horizontal_size and relative_vertical_size for specifying the relative size binding of the shape have been added to Shape class:
+New public properties **relative_horizontal_size** and **relative_vertical_size** for specifying the relative size binding of the shape have been added to the **Shape** class:
+
 {{< highlight python >}}
 @property
 def relative_horizontal_size(self) -> aspose.words.drawing.RelativeHorizontalSize:
@@ -341,7 +380,8 @@ def relative_vertical_size(self, value: aspose.words.drawing.RelativeVerticalSiz
     ...
 {{< /highlight >}}
 
-New public properties height_relative and width_relative for specifying the shape relative size in percent have been added to Shape class: 
+New public properties **height_relative** and **width_relative** for specifying the shape relative size in percent have been added to the **Shape** class:
+
 {{< highlight python >}}
 @property
 def height_relative(self) -> float:
@@ -362,7 +402,8 @@ def width_relative(self, value: float):
     ...
 {{< /highlight >}}
 
-New public properties left_relative and top_relative for specifying the shape relative position in percent have been added to Shape class:
+New public properties **left_relative** and **top_relative** for specifying the shape relative position in percent have been added to the **Shape** class:
+
 {{< highlight python >}}
 @property
 def left_relative(self) -> float:
@@ -383,7 +424,8 @@ def top_relative(self, value: float):
     ...
 {{< /highlight >}}
 
-New public enums RelativeHorizontalSize and RelativeVerticalSize have been introduced:
+New public enums **RelativeHorizontalSize** and **RelativeVerticalSize** have been introduced:
+
 {{< highlight python >}}
 class RelativeHorizontalSize:
     '''Specifies relatively to what the width of a shape or a text frame is calculated horizontally.'''
@@ -392,8 +434,14 @@ class RelativeVerticalPosition:
     '''Specifies to what the vertical position of a shape or text frame is relative.'''
 {{< /highlight >}}
 
-#### Use Case:
-Customers may now get and set the shape relative positioning and sizing.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set the shape relative positioning and sizing. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document, DocumentBuilder
 from aspose.words.drawing import ShapeType, RelativeHorizontalSize, WrapType, RelativeVerticalSize, \
@@ -440,7 +488,7 @@ doc.save("output.docx")
 
 ### Removed obsolete property JsonDataLoadOptions.ExactDateTimeParseFormat
 
-The obsolete property JsonDataLoadOptions.exact_date_time_parse_format has been removed. Please use the JsonDataLoadOptions.exact_date_time_parse_formats property instead.
+The obsolete property **JsonDataLoadOptions.exact_date_time_parse_format** has been removed. Please use the **JsonDataLoadOptions.exact_date_time_parse_formats** property instead.
 
 {{< highlight python >}}
 @property
@@ -462,8 +510,14 @@ def exact_date_time_parse_formats(self) -> Iterable[str]:
     ...
 {{< /highlight >}}
 
+{{% alert color="secondary" %}}
 
-#### Use Case:
+**Use Case**
+
+This use case explains how to use the new **JsonDataLoadOptions.ExactDateTimeParseFormats** proprety. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 from aspose.words.reporting import JsonDataSource, JsonDataLoadOptions
 

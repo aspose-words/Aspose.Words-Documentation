@@ -21,8 +21,9 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 - Implemented saving progress notifications for MOBI and AZW3 formats.
 - Added an ability to specify whether to adjust sentence and word spacing automatically upon document import.
 
-### Full list of changes
+## Full list of changes
 
+{{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, covering all changes in this release.</summary>
 
 1. Add ability to determine if font color is overridden for Inline node and for paragraph break character
@@ -105,6 +106,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 78. Aspose.Word .NET Core Performance Problem
 
 </details>
+{{% /alert %}}
 
 ## Public API and Backward Incompatible Changes
 
@@ -112,7 +114,8 @@ This section lists public API changes that were introduced in Aspose.Words 23.3.
 
 ### Added new public properties for working with fill colors
 
-A new public properties ForeThemeColor and BackThemeColor has been added to class Fill.
+A new public properties **ForeThemeColor** and **BackThemeColor** has been added to the **Fill** class:
+
 {{< highlight cpp >}}
 /// Gets a ThemeColor object that represents the foreground color for the fill.
 ASPOSE_WORDS_SHARED_API Aspose::Words::Themes::ThemeColor get_ForeThemeColor();
@@ -127,7 +130,8 @@ ASPOSE_WORDS_SHARED_API Aspose::Words::Themes::ThemeColor get_BackThemeColor();
 ASPOSE_WORDS_SHARED_API void set_BackThemeColor(Aspose::Words::Themes::ThemeColor value);
 {{< /highlight >}}
 
-A new public properties ForeTintAndShade and BackTintAndShade has been added to class Fill.
+A new public properties **ForeTintAndShade** and **BackTintAndShade** has been added to the **Fill** class:
+
 {{< highlight cpp >}}
 /// Gets or sets a double value that lightens or darkens the foreground color.
 ///
@@ -150,8 +154,14 @@ ASPOSE_WORDS_SHARED_API double get_BackTintAndShade();
 ASPOSE_WORDS_SHARED_API void set_BackTintAndShade(double value);
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to work with theme colors and tint and shade.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with **theme colors** and **tint and shade**. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight cpp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"in.docx");
 
@@ -186,7 +196,8 @@ doc->Save(u"out.docx");
 
 ### Added public properties HasMajorGridlines and HasMinorGridlines to ChartAxis class
 
-The following public properties have been added to the Aspose.Words.Drawing.Charts.ChartAxis class:
+The following public properties have been added to the **Aspose.Words.Drawing.Charts.ChartAxis** class:
+
 {{< highlight cpp >}}
 /// Gets a flag indicating whether the axis has major gridlines.
 ASPOSE_WORDS_SHARED_API bool get_HasMajorGridlines();
@@ -201,8 +212,14 @@ ASPOSE_WORDS_SHARED_API bool get_HasMinorGridlines();
 ASPOSE_WORDS_SHARED_API void set_HasMinorGridlines(bool value);
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to show chart gridlines.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to show chart gridlines. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight cpp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -224,7 +241,8 @@ doc->Save(u"Gridlines.docx");
 
 ### Added public property ImportFormatOptions.AdjustSentenceAndWordSpacing
 
-The following public property was added to Aspose.Words.ImportFormatOptions class:
+The following public property was added to the **Aspose.Words.ImportFormatOptions** class:
+
 {{< highlight cpp >}}
 /// Gets a boolean value that specifies whether to adjust sentence and word spacing automatically.
 /// The default value is <c>%false</c>.
@@ -235,8 +253,14 @@ ASPOSE_WORDS_SHARED_API bool get_AdjustSentenceAndWordSpacing() const;
 ASPOSE_WORDS_SHARED_API void set_AdjustSentenceAndWordSpacing(bool value);
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to use AdjustSentenceAndWordSpacing option.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to use the **AdjustSentenceAndWordSpacing** option. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight cpp >}}
 System::SharedPtr<Aspose::Words::Document> srcDoc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::Document> dstDoc = System::MakeObject<Aspose::Words::Document>();
@@ -260,7 +284,8 @@ Lorem ipsum. Dolor sit amet.
 
 ### Added public property TextBox.NoTextRotation
 
-The following public property was added to Aspose.Words.Drawing.TextBox class:
+The following public property was added to the **Aspose.Words.Drawing.TextBox** class:
+
 {{< highlight cpp >}}
 /// Gets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
 ///
@@ -273,8 +298,14 @@ ASPOSE_WORDS_SHARED_API bool get_NoTextRotation();
 ASPOSE_WORDS_SHARED_API void set_NoTextRotation(bool value);
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to use NoTextRotation option.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to use the **NoTextRotation** option. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight cpp >}}
 System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Ellipse, 20, 20);
@@ -283,7 +314,7 @@ shape->get_TextBox()->set_NoTextRotation(true);
 
 ### Enabled saving progress notifications for MOBI and AZW3 formats
 
-The SaveOptions.ProgressCallback is now also invoked when saving to Mobi or AZW3.
+The **SaveOptions.ProgressCallback** is now also invoked when saving to Mobi or AZW3.
 
 ## Limitations and API Differences
 

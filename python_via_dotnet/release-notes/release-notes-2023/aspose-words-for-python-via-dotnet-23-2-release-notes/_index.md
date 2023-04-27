@@ -29,6 +29,9 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 
 ## Full List of Issues Covering all Changes in this Release
 
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of reported issues.</summary>
+
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-24556|Make the Document.DocPr.DoNotIncludeSubDocsInStats property public|New Feature
@@ -109,6 +112,9 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-20795|List labels are exported incorrectly when document is save to HTML using Node.ToString|Bug
 |WORDSNET-24731|Image in header is flipped on PDF import|Bug
 
+</details>
+{{% /alert %}}
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words for Python via .NET 23.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -117,7 +123,8 @@ This section lists public API changes that were introduced in Aspose.Words for P
 
 Related issue: WORDSNET-24819
 
-The following public property was added to aspose.words.Document class:
+The following public property was added to **aspose.words.Document** class:
+
 {{< highlight python >}}
 @property
 def include_textboxes_footnotes_endnotes_in_stat(self) -> bool:
@@ -129,7 +136,14 @@ def include_textboxes_footnotes_endnotes_in_stat(self, value: bool):
     ...
 {{< /highlight >}}
 
-Use Case: Explains how to include or exclude textboxes, footnotes and endnotes from word count statistics.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to include or exclude textboxes, footnotes and endnotes from word count statistics. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
@@ -160,7 +174,8 @@ Words count with textboxes, footnotes and endnotes: 4
 
 Related issue: WORDSNET-24455
 
-A new public property justification_mode has been added to class Document:
+A new public property **justification_mode** has been added to the **Document** class:
+
 {{< highlight python >}}
 @property
 def justification_mode(self) -> aspose.words.settings.JustificationMode:
@@ -172,7 +187,14 @@ def justification_mode(self, value: aspose.words.settings.JustificationMode):
     ...
 {{< /highlight >}}
 
-Use Case: Explains how to get and set the character spacing adjustment of a document.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set the character spacing adjustment of a document. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document("in.docx")
 # Getting justification_mode.
@@ -186,7 +208,8 @@ if justification_mode == aw.settings.JustificationMode.EXPAND:
 
 Related issue: WORDSNET-24686
 
-A new public property automatically_update has been added to class Style:
+A new public property **automatically_update** has been added to the **Style** class:
+
 {{< highlight python >}}
 @property
 def automatically_update(self) -> bool:
@@ -203,7 +226,14 @@ def automatically_update(self, value: bool):
     ...
 {{< /highlight >}}
 
-Use Case: Explains how to get and set automatically_update property of a Style.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set **automatically_update** property of a Style. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = Document("in.docx")
 # Getting automatically_update.
@@ -223,24 +253,33 @@ aspose.words now can export documents to MOBI file format.
 MOBI (also called PRC, AZW) is Amazon Kindle's proprietary e-book file format.
 
 The following publicly visible enum values were added:
+
 {{< highlight python >}}
 aw.SaveFormat.MOBI
 {{< /highlight >}}
 
-The use cases for saving a document to MOBI file format are as follows:
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to save a document to MOBI file format. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document("in.docx")
 doc.save("out.mobi")
 {{< /highlight >}}
 
 or
+
 {{< highlight python >}}
 doc = aw.Document("in.docx")
 options = aw.saving.HtmlSaveOptions(aw.SaveFormat.MOBI)
 doc.save("out.mobi", options)
 {{< /highlight >}}
 
-HtmlSaveOptions properties that are not applicable for MOBI export:
+**HtmlSaveOptions** properties that are not applicable for MOBI export:
 
 - images_folder
 - images_folder_alias

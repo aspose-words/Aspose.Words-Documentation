@@ -99,7 +99,7 @@ There are 74 improvements and fixes in this regular monthly release. The most no
 {{% /alert %}}
 
 {{% alert color="secondary" %}}
-<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
+<details><summary>Expand to view the full list of issues, reported by Java Users.</summary>
 
 |Key|Summary|Category|
 | :- | :- | :- |
