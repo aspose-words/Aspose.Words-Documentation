@@ -669,8 +669,6 @@ Added new classes: **ChartXValue**, **ChartYValue**, **ChartXValueCollection**, 
 Added new properties and methods to the **ChartSeries** class.
 
 {{< highlight csharp >}}
-
-{{< /highlight >}}
 namespace Aspose.Words.Drawing.Charts
 {
     public class ChartSeries
@@ -1023,6 +1021,7 @@ namespace Aspose.Words.Drawing.Charts
         public string Level3 { get; }
     }
 }
+{{< /highlight >}}
 
 {{% alert color="secondary" %}}
 
