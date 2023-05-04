@@ -1,28 +1,30 @@
 ---
-title: Merge Table Cells in C#
-second_title: Aspose.Words for .NET
+title: Merge Table Cells in in Java
+second_title: Aspose.Words for Java
 articleTitle: Merge Table Cells
 linktitle: Merge Table Cells
-description: "How to merge table cells in C#. Check if cells in a table are merged using C#."
+description: "How to merge table cells in Java. Check if cells in a table are merged using Java."
 type: docs
 weight: 40
-url: /net/working-with-merged-cells/
+url: /java/working-with-merged-cells/
 ---
 
 Sometimes certain rows in a table require a heading or large blocks of text that take up the full width of the table. For proper design of the table, the user can merge several table cells into one. Aspose.Words supports merged cells when working with all input formats, including importing HTML content.
 
 ## How to Merge Table Cells
 
-In Aspose.Words, merged cells are represented by the following properties of the [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) class:
+In Aspose.Words, merged cells are represented by the following properties of the [CellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) class:
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/) which describes if the cell is a part of a horizontal merge of cells
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/) which describes if the cell is a part of a vertical merge of cells
+- [HorizontalMerge](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getHorizontalMerge) which describes if the cell is a part of a horizontal merge of cells
+- [VerticalMerge](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getVerticalMerge) which describes if the cell is a part of a vertical merge of cells
 
 The values of these properties determine the merge behavior of cells:
 
-- The first cell in a sequence of merged cells will have [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Any subsequently merged cells will have [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- A cell that is not merged will have [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+- The first cell in a sequence of merged cells will have [CellMerge.First](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#FIRST)
+- Any subsequently merged cells will have [CellMerge.Previous](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#PREVIOUS)
+- A cell that is not merged will have [CellMerge.None](https://reference.aspose.com/words/java/com.aspose.words/cellmerge/#NONE)
+
+![work-with-merged-cells-aspose-words-java](working-with-merged-cells-1.png)
 
 {{% alert color="primary" %}}
 
@@ -30,33 +32,27 @@ Sometimes, when loading existing document cells in a table, they will appear mer
 
 {{% /alert %}}
 
-## Check if Cell is Merged
+## Checking if a Cell is Merged
 
 To check if a cell is part of a sequence of merged cells, we simply check the **HorizontalMerge** and **VerticalMerge** properties.
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "check-cells-merged.cs" >}}
-
-{{% alert color="primary" %}}
-
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
-
-{{% /alert %}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-CheckCellsMerged-CheckCellsMerged.java" >}}
 
 ## Merge Table Cells When Using DocumentBuilder
 
-To merge cells in a table created with the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), you need to set the appropriate merge type for each cell where the merge is expected – first **CellMerge.First** and then **CellMerge.Previous**.
+To merge cells in a table created with the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/), you need to set the appropriate merge type for each cell where the merge is expected – first **CellMerge.First** and then **CellMerge.Previous**.
 
 Also, you must remember to clear the merge setting for those cells where no merge is required – this can be done by setting the first non-merge cell to **CellMerge.None**. If this is not done, all cells in the table will be merged.
 
 The following code example shows how to create a table with two rows where the cells in the first row are merged horizontally:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-merge.cs" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInATable-mergeCellsHorizontally.java" >}}
 
 The following code example shows how to create a two-column table where the cells in the first column are vertically merged:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "vertical-merge.cs" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInATable-mergeCellsVertically.java" >}}
 
 ## Merge Table Cells in Other Cases
 
@@ -64,19 +60,11 @@ In other situations where the **DocumentBuilder** is not used, such as in an exi
 
 The code below will merge the table cells in the specified range, starting at the given cell and ending at the end cell. In this case, the range can span multiple rows or columns:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "merge-cells.cs" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInARange-mergeCells.java" >}}
 
 The following code example shows how to merge a range of cells between two specified cells:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "merge-cell-range.cs" >}}
-
-{{% alert color="primary" %}}
-
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
-
-{{% /alert %}}
-
-Depending on the version of the .NET Framework you are using, you may want to refine this method by turning it into an extension method. In this case, you can call this method directly on a cell to merge a range of cells, such as `cell1.Merge(cell2)`.
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-MergeCellsInARange-MergeCellsInARange.java" >}}
 
 ## Vertical and Horizontal Merged Cells in HTML Table
 
@@ -84,15 +72,7 @@ As we have said in previous articles, a table in Microsoft Word is a set of inde
 
 A table in HTML has a essentially different structure: each row has the same number of cells and (it is important for the task) each cell has the width of the corresponding column, the same for all cells in one column. So if **HorizontalMerge** and **VerticalMerge** return an incorrect value, use the following code example:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "print-horizontal-and-vertical-merged.cs" >}}
-
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "horizontal-and-vertical-merge-helper-classes.cs" >}}
-
-{{% alert color="primary" %}}
-
-You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20with%20merged%20cells.docx).
-
-{{% /alert %}}
+EXAMPLE
 
 ## Convert to Horizontally Merged Cells
 
@@ -100,4 +80,4 @@ Sometimes it is not possible to detect which cells are merged because some newer
 
 The following code example shows the above method in operation:
 
-{{< gist "aspose-words-gists" "93de23a2f74a7f2e4971ed203874c983" "convert-to-horizontally-merged-cells.cs" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ConvertToHorizontallyMergedCells-ConvertToHorizontallyMergedCells.java" >}}

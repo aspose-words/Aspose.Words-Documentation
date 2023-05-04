@@ -40,7 +40,7 @@ In Aspose.Words, users can create a table in a document using the [DocumentBuild
 3. Optionally, use the [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) property to specify cell formatting
 4. Insert the cell content using the appropriate **DocumentBuilder** methods such as [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/writeln/), [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/), and others
 5. Repeat steps 2-4 until the row is complete
-6. Call [EndRow](If InsertCell is called immediately after EndRow and the end of a row, the table will continue on a new row.) to end the current row
+6. Call [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/) to end the current row
 7. Optionally, use the [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/) property to specify row formatting
 8. Repeat steps 2-7 until the table is complete
 9. Call [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) to finish building the table
@@ -51,7 +51,7 @@ Important details:
 
 * [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) can also be called inside a cell, in which case it starts the creation of a nested table within the cell.
 * After calling [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/), a new cell is created, and any content you add using other methods of the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class will be added to the current cell. To create a new cell on the same row, call **InsertCell** again.
-* If **InsertCell** is called immediately after [EndRow]() and the end of a row, the table will continue on a new row.
+* If **InsertCell** is called immediately after [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/) and the end of a row, the table will continue on a new row.
 * The [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) method to end the table should only be called once after calling **EndRow**. Calling **EndTable** moves the cursor from the current cell to the position immediately after the table.
 
 {{% /alert %}}
