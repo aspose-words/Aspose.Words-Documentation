@@ -272,7 +272,7 @@ Console.Write(builder.Document.GetText());
 
 Related issue: WORDSNET-25165
 
-The following public property was added to **Aspose.Words.Drawing.Ole.Forms2OleControl**A class:
+The following public property was added to **Aspose.Words.Drawing.Ole.Forms2OleControl** class:
 
 {{< highlight csharp >}}
 /// <summary>
@@ -293,7 +293,10 @@ This use case explains how to get and change group name of Forms2Ole control. Pl
 {{< highlight csharp >}}
 // Assume there is a shape with Forms2OleControl in document.
 Document doc = new Document("input.docx");
-Forms2OleControl control = (Forms2OleControl)doc.FirstSection.Body.Shapes[0].OleFormat.OleControl;
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Forms2OleControl control = (Forms2OleControl)shape.OleFormat.OleControl;
+
 if (control != null)
 {
     Console.WriteLine("Control group name is: {0}", control.GroupName);
@@ -379,7 +382,7 @@ This use case explains how to obtain base and ruby text from phonetic guide Run.
 {{< highlight csharp >}}
 Document doc = new Document("DocWithRuby.docx");
 
-Run run = doc.FirstSection.Body.FirstParagraph.FirstRun;
+Run run = doc.FirstSection.Body.FirstParagraph.Runs[0];
 if (run != null)
 {
     Console.WriteLine(run.PhoneticGuide.BaseText);
@@ -640,7 +643,8 @@ This use case explains how to remove/add series of a specific type of a Combo ch
 
 {{< highlight csharp >}}
 Document doc = new Document("ComboChart.docx");
-Chart chart = doc.FirstSection.Body.Shapes[0].Chart;
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Chart chart = shape.Chart;
 
 // Remove all series of the Column type.
 for (int i = chart.Series.Count - 1; i >= 0; i--)
