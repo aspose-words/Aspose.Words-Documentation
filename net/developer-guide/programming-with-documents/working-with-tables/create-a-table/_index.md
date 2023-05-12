@@ -98,7 +98,7 @@ The following code example shows how to insert a table into a document from a st
 
 {{< gist "aspose-words-gists" "10307fa0baf630b07d0cbdae30119bf3" "insert-table-from-html.cs" >}}
 
-## Insert a Copy of an Existing Table {#insert-a-clone-of-an-existing-table}
+## Insert a Copy of an Existing Table
 
 There are often times when you need to create a table based on an already existing table in a document. The easiest way to duplicate a table while retaining all formatting is to clone the Table node using the [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) method.
 

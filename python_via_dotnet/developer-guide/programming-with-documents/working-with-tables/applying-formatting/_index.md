@@ -1,23 +1,36 @@
-﻿---
-title: Applying Formatting in Python
+---
+title: Table Formatting in Python
 second_title: Aspose.Words for Python via .NET
-articleTitle: Applying Formatting
-linktitle: Applying Formatting
-description: "Apply table and its row, column and cell formatting in a document using Python."
+articleTitle: Apply Formatting
+linktitle: Apply Formatting
+description: "Table formatting in details using Python. Use Python to format every part of table."
 type: docs
-weight: 20
+weight: 70
 url: /python-net/applying-formatting/
 aliases: [/python/applying-formatting/]
 ---
 
-## Applying Formatting to Table, Row and Cell
+Each element of a table can be applied with different formatting. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.
 
-Each element of a table can be applied with different formatting. For instance, table formatting will be applied over the entire table while row formatting will only affect particular rows etc.
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/) and [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/) nodes to set formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/), and [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/) nodes to set the formatting.
 
-### Applying Formatting on the Table Level
+In this article, we will talk about how to apply formatting to different table nodes and what table formatting settings Aspose.Words supports.
 
-To apply formatting to a table you can use the properties available on the corresponding [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node. A visual view of table formatting features in Microsoft Word and their corresponding properties in Aspose.Words are given below. 
+## Apply Formatting to Different Nodes
+
+In this section, we will look at applying formatting to various table nodes.
+
+### Table Level Formatting
+
+To apply formatting to a table, you can use the properties available on the corresponding **Table** node using the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/), and [TableCollection](https://reference.aspose.com/words/python-net/aspose.words.tables/tablecollection/) classes.
+
+{{% alert color="primary" %}}
+
+Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/#default), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
+
+{{% /alert %}}
+
+The pictures below show a representation of the **Table** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
 
@@ -26,34 +39,64 @@ To apply formatting to a table you can use the properties available on the corre
 
 ![formatting-table-options-aspose-words-net](applying-formatting-2.png)
 
-Below example shows how to apply an outline border to a table. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to apply an outline border to a table:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-ApplyOutlineBorder.py" >}}
 
-Below example shows how to build a table with all borders enabled (grid). You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx)
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+The following code example shows how to build a table with all borders enabled (grid):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-BuildTableWithBorders.py" >}}
 
 {{% alert color="primary" %}}
 
-Note that before you apply table properties there must be at least one row present in the table. This means when building a table using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/), such formatting must be done after the first call to [DocumentBuilder.insert_cell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/) or after adding the first row to a table or when inserting nodes directly into the DOM.
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-### Applying Formatting on the Row Level
+### Row Level Formatting
 
-Formatting on the row level can be controlled using the [row_format](https://reference.aspose.com/words/python-net/aspose.words.tables/row/row_format/) property of the [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/). 
+**Row-level** formatting can be controlled using the [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/row/row_format/), and [RowCollection](https://reference.aspose.com/words/python-net/aspose.words.tables/rowcollection/) classes.
+
+{{% alert color="primary" %}}
+
+Note that a **Row** can only be a child node of a **Table**. At the same time, there must be at least one **Cell** in the **Row** so that formatting can be applied to it.
+
+{{% /alert %}}
+
+The pictures below show a representation of the **Row** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formatting-row-level-aspose-words-net](applying-formatting-3.png)
 
 
-Below example shows how to modify the formatting of a table row. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to modify the table row formatting:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-ModifyRowFormatting.py" >}}
 
-### Applying Formatting on the Cell Level
+{{% alert color="primary" %}}
 
-Formatting on the cell level is controlled using the [cell_format](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/cell_format/) property of the [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/). 
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+### Cell Level Formatting
+
+Cell-level formatting is controlled by the [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/cell_format/), and [CellCollection](https://reference.aspose.com/words/python-net/aspose.words.tables/cellcollection/) classes.
+
+{{% alert color="primary" %}}
+
+Note that a **Cell** can only be a child node of a **Row**. At the same time, there must be at least one [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/) in the **Cell** so that formatting can be applied to it.
+
+In addition to the **Paragraph**, you can also insert a **Table** into a **Cell**.
+
+{{% /alert %}}
+
+The pictures below show a representation of the **Cell** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formatting-cell-level-aspose-words-net](applying-formatting-4.png)
 
@@ -63,215 +106,269 @@ Formatting on the cell level is controlled using the [cell_format](https://refer
 ![auto-formatting-cell-level-aspose-words-net](applying-formatting-5.png)
 
 
-Below example shows how to modify the formatting of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to modify the formatting of a table cell:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-ModifyCellFormatting.py" >}}
 
-The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell.
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-SetCellPadding.py" >}}
 
-### Specifying Row Heights
+## Specify Row Heights
 
-The height of a table row is controlled using height and height rule properties. These can be set differently for each row in the table which allows for wide control over the height of each row. In Aspose.Words these are represented by the [RowFormat.height](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/height/) and [RowFormat.height_rule](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/height_rule/) properties of the given [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/).
+The simplest way to set the row height is to use the **DocumentBuilder**. Using the appropriate **RowFormat** properties, you can set the default height setting or apply a different height for each row in the table.
 
-|HeightRule Value|Description|
-| :- | :- |
-|Auto|This is the default height rule given to a new row. Technically this means that no height rule is defined. The row is sized to fit the largest content within the cells of the row.|
-|At Least|With this setting, the height of the row will grow to accommodate the content of the row, but will never be smaller than the specified size in [RowFormat.height](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/height/).|
-|Exactly|The size of the row is set exactly to the value found in [RowFormat.height](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/height/) and does not grow to fit the content.|
+In Aspose.Words, table row height is controlled by:
 
-The simplest way to set row height is by using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Using the appropriate [row_format](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/row_format/) properties you can set a default height setting or apply a different height for each row in the table.
+- the row height property – [Height](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/height/)
+- the height rule property for the given row – [HeightRule](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/height_rule/)
 
-Below example shows how to create a table that contains a single cell and apply row formatting.
+At the same time, a different height can be set for each row – this allows you to widely control the table settings.
+
+{{% alert color="primary" %}}
+
+Rule options for specifying the height of an object can be set using the [HeightRule](https://reference.aspose.com/words/python-net/aspose.words/heightrule/) enumeration.
+
+{{% /alert %}}
+
+The following code example shows how to create a table that contains a single cell and apply row formatting:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-ApplyRowFormatting.py" >}}
 
-### Applying Borders and Shading
-
-Borders and shading can be applied either table wide using [Table.set_border](https://reference.aspose.com/words/python-net/aspose.words.tables/table/set_border/), [Table.set_borders](https://reference.aspose.com/words/python-net/aspose.words.tables/table/set_borders/) and [Table.set_shading](https://reference.aspose.com/words/python-net/aspose.words.tables/table/set_shading/) or to particular cells only by using [CellFormat.borders](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/borders/) and [CellFormat.shading](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/shading/). Additionally, borders can be set on a row by using [RowFormat.borders](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/borders/), however, shading cannot be applied in this way. 
-
-![formatting-border-line-aspose-words-net](applying-formatting-6.png)
-
-
-
-
-![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
-
-
-The following code example shows how to format a table and cell with different borders and shadings.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-FormatTableAndCellWithDifferentBorders.py" >}}
-
 ## Specifying Table and Cell Widths
 
-A table in a Microsoft word document provides several different ways to size a table and individual cells. These properties allow considerable control over the overall appearance and behavior of the table. This article gives an in-depth look into how the different width calculation properties of tables work and provides information which will allow you to gain full control of how table widths are calculated. This is useful to know in such cases where a table layout does not appear as expected.
+A table in a Microsoft Word document provides several different ways to resize the table and individual cells. These properties allow considerable control over the appearance and behavior of the table, so that Aspose.Words supports the behavior of tables, as in Microsoft Word.
 
-### Different Widths on Table
+It is important to know that table elements present several different properties that can affect how the widths of the overall table, as well as individual cells, is calculated:
 
-Table elements present several different properties that can affect how the widths of the overall table, as well as individual cells, are calculated. These are each explained in detail in this article.
+- Preferred width on the table
+- Preferred width on individual cells
+- Allowing autofit on the table
 
-- Preferred width on the table.
-- Preferred width on individual cells.
-- Allowing autofit on the table.
-- Regular cell width
+This article details how the various table width calculation properties work and how to get full control over table width calculation. This is 
+especially useful to know in such cases where the table layout does not appear as expected.
 
 {{% alert color="primary" %}}
 
-All of the properties and techniques that are described in this article all link back to how tables work in Microsoft Word. Therefore in most cases, if you are building your table programmatically but are finding it hard to create the desired table you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values to your application. 
+In most cases, the preferred cell is recommended than the table width. The preferred cell width is more in line with the DOCX format specification as well as the Aspose.Words model.
 
-The preferred cell is recommended rather than the width in most cases. Cell preferred width is more aligned with DOCX format specification and with Aspose.Words model as well. Cell width is actually a calculated value for DOCX format. The actual cell width may depend on many things. For example, changing page margins or preferred table width may affect the actual cell width. Cell preferred width is a cell property that is stored in the document. It does not depend on anything and it does not change when a table or other cell properties change.
+The cell width is actually a calculated value for the DOCX format. The actual cell width can depend on many things. For example, changing the page margins or the preferred table width can affect the actual cell width.
+
+The preferred cell width is a cell property that is stored in the document. It does not depend on anything and does not change when you change the table or other properties of the cell.
 
 {{% /alert %}}
 
-### Using Preferred Widths
+{{% alert color="primary" %}}
 
-The desired width of a table or individual cells is defined through the preferred width property. That is a preferred width can be specified on individual cells or to the table as a whole. This is the size that the element strives to fit. In some cases, it may not be possible to fit this exact width, but the real width will come close to this value on most occasions. 
+All properties and methods described in this article are related to how tables work in Microsoft Word. So in most cases, if you are building your table programmatically but are finding it hard to create the desired table, you can instead try visually creating it in Microsoft Word first and then simply copy the formatting values into your application.
+
+{{% /alert %}}
+
+### How to Use Preferred Width
+
+The desired width of a table or individual cells is defined through the preferred width property, wich is the size that an element strives to fit. That is, the preferred width can be specified  for the entire table or for individual cells. In some situations it may not be possible to fit this width exactly, but the actual width will be close to this value in most cases.
+
+The appropriate preferred width type and value are set using the methods of the [PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/) class:
+
+- the [Auto](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/) method to specify auto or “no preferred width”
+- the [FromPercent](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/) method to specify a percentage width
+- the [FromPoints](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/) method to specify the width in points
+
+The pictures below show a representation of the *preferred width setting features* in Microsoft Word and their corresponding properties in Aspose.Words.
 
 ![formatting-table-properties-aspose-words-net](applying-formatting-8.png)
 
-The preferred width property can be expressed in one of several different ways:
-
-|Width Type|Behavior|
-| :- | :- |
-|Absolute|This fits the element to the given width in points.|
-|Percent|Fits the element relative of the available space in the window or container size. If the available width changes then the table will automatically grow or shrink to reflect these changes.|
-|Auto|This is the same as having no preferred width set. In this case, the size of the element is calculated using one of the other elements belonging to the table which does have a size set.|
-
-An example of how these are applied to a real table in a document can be seen in the diagram below.
+An example of how these options are applied to a real table in a document can be seen in the picture below.
 
 ![todo:image_alt_text](applying-formatting-9.png)
 
-
-The table can be described as being fitted to 100% of the available space on the page. In this case, this means the table will try to take up the space between the left and right page margins.
-
-The cells in the above table can be described as such:
-
-- The width of the first cell is set at 40 points. This width shouldn’t vary even if the table is resized or other cells removed.
-- The second cell is specified as taking up 20% of the available space in the table. This means if the table size was changed, the width of this cell should change as well to reflect this.
-- The third cell is defined as auto or “width not defined”. This means the width of the cell is calculated using the other size information of the table. Normally such a cell will take up the remaining space in the table.
-
-In Aspose.Words the sizing modes described above can be found under the [PreferredWidthType](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/) enumeration and are set using the [Table.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/table/preferred_width/) property and [CellFormat.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/) property.
-
-The appropriate preferred width type and value is set by using the methods of the [PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/) class. For instance, to specify a width from points you would use the [PreferredWidth.from_points](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/from_points/) method. To specify a percentage width you would use [PreferredWidth.from_percent](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/from_percent/). Finally to specify auto or “no preferred width” you would use [PreferredWidth.AUTO](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/auto/).
-
-#### Specifying a Preferred Width on a Table in Aspose.Words
-
-Using the [Table.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/table/preferred_width/) property will adjust its preferred width relative to the container (i.e the page, text column or outer table cell). The code example given below shows how to set a table to auto fit to 50% of the page width.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-AutoFitTableToPageWidth.py" >}}
-
-Before you can use preferred widths on a table you must make sure that the table contains at least one row. This is because such table formatting in a Microsoft Word document is stored in the rows of a table.
-
-#### Specifying Preferred Width on a Cell
-
-Using the [CellFormat.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/) property on a given cell will adjust its preferred width. Below example shows how to set the different preferred width settings.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-PreferredWidthSettings.py" >}}
-
-#### Finding Preferred Width Type and Value of a Table or Cell
-
-You can use [PreferredWidth.type](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/type/) and [PreferredWidth.value](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/value/) properties to find the preferred width details of the desired table or cell. Below example shows how to Retrieves the preferred width type of a table cell. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-RetrievePreferredWidthType.py" >}}
-
-#### Allowing AutoFit
-
-The [Table.allow_auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) property enables cells in the table to grow and shrink to accommodate their contents. This property can be used in conjunction with a preferred cell width to format a cell which auto fits its content but which also has an initial width. The cell width can then grow past this width if needed. Below example shows how to set a table to shrink or grow each cell to accommodate its contents.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-AllowAutoFit.py" >}}
-
-#### Using Cell Width
-
-In Aspose.Words the [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/) object also provides a width property. This property is mainly leftover from previous versions, however, it is still useful as a way to simplify setting a cell’s width. This property now acts differently depending on which of the other width properties already exist on the table:
-
-- If a cell has a preferred width of [PreferredWidthType.AUTO](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/#auto) type (no preferred width set) then the value from the [CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) is copied over and becomes the preferred width of the cell (in points).
-- If a cell has a cell preferred width of [PreferredWidthType.PERCENT](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/#percent) then any changes to [CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) is ignored.
-- If a cell already has a preferred width of type [PreferredWidthType.POINTS](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/#points) than any changes to [CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) is ignored. That is, any changes to the width property are not updated in preferred width and should be applied to the preferred width instead.* If the table has [Table.allow_auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) enabled then any change in [CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) value is ignored and the cell is fitted to its contents instead.
-
-#### The Order of Precedence during Cell Width Calculations
-
-Aspose.Words uses the following order when calculating cell widths.
-
-|Order|Property|Description|
-| :- | :- | :- |
-|1|[CellFormat.preferred_width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/)|Ideally, the preferred widths are used to calculate the cell sizes.|
-|2|[Table.allow_auto_fit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/)|If the auto fit is allowed then the table may grow past the preferred width to accommodate contents. Normally it will not shrink below the preferred width.|
-|3|[CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/)|If neither of the settings above is present then the width defined under [CellFormat.width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) is used.|
-
 {{% alert color="primary" %}}
 
-While creating a fixed table layout, specify the cell width. A cell without width cannot be saved to .doc format. Document formats other than .doc, such as .docx, allow, in principle, saving cells without width in a fixed table layout.
+Before you can use the preferred width in a table, you must ensure that the table contains at least one row. This is because such table formatting in a Microsoft Word document or in a document created in Aspose.Words is stored in the rows of the table.
 
 {{% /alert %}}
 
-## Working with Table Styles
+#### Specify the Preferred Table or Cell Width
 
-A table style defines a set of formatting that can be easily applied to a table. Formatting such as borders, shading, alignment and font can be set in a table style and applied to many tables for a consistent appearance.
+In Aspose.Words, table and cell widths are set using the [Table.PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/table/preferred_width/) property and the [CellFormat.PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/) property, with options available in the [PreferredWidthType](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/) enumeration:
 
-Aspose.Words supports applying a table style to a table and also reading properties of any table style. Table styles are preserved during loading and saving in the following ways:
+- **Auto**, which is equivalent to no preferred width set
+- **Percent**, which fits the element relative to the available space in the window or container size, and recalculates the value when the available width changes
+- **Points**, which corresponds to an element of the specified width in points
 
-- Table styles in DOCX and WordML formats are preserved when loading and saving to these formats.
-- Table styles are preserved when loading and saving in the DOC format (but not to any other format).
-- When exporting to other formats, rendering or printing, table styles are expanded to direct formatting on the table so all formatting is preserved.
+{{% alert color="primary" %}}
 
-Currently, you cannot create new table styles. You can only apply in-built table styles or custom table styles which already exist in the document to a table. 
+By default, a table can be described as being fitted to 100% of the available space on the page. In this case, this means the table will try to take up the space between the left and right page margins.
 
-![formatting-table-style-aspose-words-net](applying-formatting-10.png)
+{{% /alert %}}
 
-### Applying a Table Style
+Using the [Table.PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/table/preferred_width/) property will adjust its preferred width relative to its container: page, text column, or outer table cell if it is a nested table.
 
-In Aspose.Words you can apply a table style by using any of the [Table.style](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style/), [Table.style_identifier](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style_identifier/) and [Table.style_name](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style_name/) properties.You can also choose which features of the table style to apply, for example, first column, last column, banded rows. These are listed under the [TableStyleOptions](https://reference.aspose.com/words/python-net/aspose.words.tables/tablestyleoptions/) enumeration and are applied by using [Table.style_options](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style_options/) property. The [TableStyleOptions](https://reference.aspose.com/words/python-net/aspose.words.tables/tablestyleoptions/) enumeration allows a bitwise combination of these features. The following code example shows how to build a new table with a table style applied.
+The following code example shows how to set the table to auto-fit to 50% of the page width:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-BuildTableWithStyle.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-AutoFitTableToPageWidth.py" >}}
 
-Aspose.Words also provides a method to take formatting found on a table style and expands it onto the rows and cells of the table as direct formatting. Test combine formatting with table style and cell style. This method will not override any other formatting that is already applied to the table through a row or cell format.
+Using the [CellFormat.PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/preferred_width/) property on a given cell will adjust its preferred width.
 
-Below example shows how to expand the formatting from styles onto the rows and cells of the table as direct formatting. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+The following code example shows how to set the different preferred width settings:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-ExpandFormattingOnCellsAndRowFromStyle.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-PreferredWidthSettings.py" >}}
 
-## Get Distance between Table and Surrounding Text
+#### Finding Preferred Width Type and Value
 
-Below example shows how to get the distance between the table and its surrounding text. 
+You can use the [Type](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/type/) and [Value](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/value/) properties to find the preferred width details of the desired table or cell.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-GetDistancebetweenTableSurroundingText.py" >}}
+The following code example shows how to retrieve the preferred width type of a table cell:
 
-## Working with Table Position
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-RetrievePreferredWidthType.py" >}}
 
-### How to Get the Table's Alignment
+{{% alert color="primary" %}}
 
-If the table's text wrapping is *Around*, you can get the table's horizontal and vertical alignment using [Table.relative_horizontal_alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_horizontal_alignment/) and [Table.relative_vertical_alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_vertical_alignment/) properties. In other cases, you can get the table's inline alignment using [Table.alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/alignment/) property. Below example shows how to get the table's alignment.
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-GetTablePosition.py" >}}
+{{% /alert %}}
 
-### Get Position of Floating Table
+### How to Set Autofit
 
-The following code example shows how to get the position of the floating table. 
+The [AllowAutoFit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) property allows cells in a table to grow and shrink according to a selected criterion. For example, you can use the **AutoFit to Window** option to fit the table to the width of the page, and the **AutoFit to Content** option to allow each cell to grow or shrink according to its content.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-GetFloatingTablePosition.py" >}}
+{{% alert color="primary" %}}
 
-### Set Position of Floating Table
+Additionally, the **AllowAutoFit** property can be used in conjunction with a preferred cell width to format a cell that automatically fits its content, but also has an initial width. If necessary, the cell width can then grow past this width.
 
-Aspose.Words API provides the following properties to set the position of the floating table in the word document:
+{{% /alert %}}
 
-- [relative_horizontal_alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_horizontal_alignment/)
-- [absolute_horizontal_distance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_horizontal_distance/)
-- [relative_vertical_alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_vertical_alignment/)
-- [absolute_vertical_distance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_vertical_distance/)
+By default, Aspose.Words inserts a new table using **AutoFit to Window**. The table will be sized according to the available page width. To resize a table, you can call the [AutoFit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/auto_fit/#autofitbehavior) method. This method accepts an [AutoFitBehavior](https://reference.aspose.com/words/python-net/aspose.words.tables/autofitbehavior/) enumeration that specifies what type of autofit is applied to the table.
 
-The alignment and distance horizontally and vertically are combined properties and one can reset the other. For example, while setting [relative_horizontal_alignment](https://reference.aspose.com/words/python-net/aspose.words.tables/table/relative_horizontal_alignment/), it will reset [absolute_horizontal_distance](https://reference.aspose.com/words/python-net/aspose.words.tables/table/absolute_horizontal_distance/) to its default value and vice versa. The same is the case with vertical positioning. The following code example demonstrates how to set the position of the floating table. 
+It is important to know that the autofit method is actually a shortcut that applies different properties to the table at the same time. These are properties that actually give the table the observed behavior. We will discuss these properties for each autofit option.
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FloatingTablePosition.py" >}}
+The following code example shows how to set a table to shrink or grow each cell according to its contents:
 
-## Working with Alternative Text of Table
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-AllowAutoFit.py" >}}
 
-The title and description of the table provide alternative text-based representations of the information contained in the table. MS Word allows setting this information (*Right-click the table, click Table Properties, click the Alt Text tab, and then set the title and description of the table*). With Aspose.Words you can achieve this by using [Table.title](https://reference.aspose.com/words/python-net/aspose.words.tables/table/title/) and [Table.description](https://reference.aspose.com/words/python-net/aspose.words.tables/table/description/) properties. These properties are meaningful for ISO/IEC 29500 compliant DOCX documents. When saved to pre-ISO/IEC 29500 formats, these properties are ignored. The following code example shows how to set the table's title and description properties.
+#### AutoFit Table to Window
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-SetTableTitleAndDescription.py" >}}
+When autofitting to a window is applied to a table, the following operations are actually performed behind the scenes:
+
+1. The **Table.AllowAutoFit** property is enabled to automatically resize columns to fit the available content, using a **Table.PreferredWidth** value of 100%
+2. **CellFormat.PreferredWidth** is removed from all table cells
+   {{% alert color="primary" %}}
+   Note that this is slightly different from the Microsoft Word behavior, where each cell's preferred width is set to appropriate values based on their current size and content. Aspose.Words does not update the preferred width so they just get cleared instead.
+   {{% /alert %}}
+3. Column widths are recalculated for the current table content – the end result is a table that occupies the entire available width
+4. The width of the columns in the table changes automatically as the user edits the text
+
+The following code example shows how to autofit a table to the page width:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-AutoFitTableToPageWidth.py" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+#### AutoFit Table to Content
+
+When the table is autofitted the content, the following steps are actually performed behind the scenes:
+
+1. The **Table.AllowAutoFit** property is enabled to automatically resize each cell according to its content
+
+2. The preferred table width is removed from **Table.PreferredWidth**, **CellFormat.PreferredWidth** is removed for each table cell
+   {{% alert color="primary" %}}
+
+   Note that this autofit option removes the preferred width from cells, just like in Microsoft Word. If you want to keep the column sizes and increase or decrease the columns to fit the content, you should set the **Table.AllowAutoFit** property to **True** on its own rather than using the autofit shortcut.{{% /alert %}}
+
+3. Column widths are recalculated for the current table content – the end result is a table where the column widths and the width of the entire table are automatically resized to best fit the content as the user edits the text
+
+The following code example shows how to autofit a table to its content:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-AutoFitTableToContents.py" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+#### Disable AutoFit in Table and Use Fixed Column Widths
+
+If a table has autofit disabled and fixed column widths are used instead, the following steps are performed:
+
+1. **Table.AllowAutoFit** property is disabled so columns do not grow or shrink to their content
+2. The preferred width of the entire table is removed from **Table.PreferredWidth**, **CellFormat.PreferredWidth** is removed from all table cells
+3. The end result is a table whose column widths are determined by the [CellFormat.Width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/) property, and whose columns are not automatically resized when the user enters text or when the page is resized
+
+{{% alert color="primary" %}}
+
+Note that if no width is specified for **CellFormat.Width**, the default value of one inch (72 points) is used.
+
+{{% /alert %}}
+
+The following code example shows how to disable autofit and enable fixed width for the specified table:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-AutoFitTableToFixedColumnWidths.py" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+
+{{% /alert %}}
+
+### The Order of Precedence when Calculating Cell Width
+
+Aspose.Words allows users to define the width of a table or cell through multiple objects, including [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) – its [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) property is mostly left over from previous versions, however, it is still useful for simplifying setting the cell width.
+
+It is important to know that the **CellFormat.Width** property works differently depending on which of the other width properties already exist in the table.
+
+Aspose.Words uses the following order for calculating cell widths:
+
+| Order | Property                                                     | Description                                                  |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1     | [AllowAutoFit](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_auto_fit/) is determined | If **AutoFit** is enabled:<br>- the table may grow past the preferred width to accommodate the content – it usually does not shrink below the preferred width<br>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead |
+| 2     | [PreferredWidthType](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/) with a value of **Points** or **Percent** | **CellFormat.Width** is ignored                              |
+| 3     | [PreferredWidthType](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidthtype/) with a value of **Auto** | The value from **CellFormat.Width** is copied and becomes the cell's preferred width (in points) |
+
+{{% alert color="primary" %}}
+
+Any changes to the width property are not updated in the preferred width and must instead be applied to the preferred width instead.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+While creating a fixed table layout, specify the cell width. A cell without width cannot be saved to DOC format. Document formats other than DOC, such as DOCX, allow, in principle, saving cells without width in a fixed table layout.
+
+{{% /alert %}}
 
 ## Allow Spacing Between Cells
 
-MS Word does not add any additional space between the cells in a table by default. You can find this option in the table's properties in MS Word. You can get or set "Allow spacing between cells" option using [Table.allow_cell_spacing](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_cell_spacing/) property. The following code example shows how to set space between cells.
+You can get or set any additional space between table cells similar to the "Сell spacing" option in Microsoft Word. This can be done using the [AllowCellSpacing](https://reference.aspose.com/words/python-net/aspose.words.tables/table/allow_cell_spacing/) property.
+
+An example of how these options are applied to a real table in a document can be seen in the picture below.
+
+<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-net" style="width:500px"/>
+
+The following code example shows how to set the spacing between cells:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-AllowCellSpacing.py" >}}
+
+## Applying Borders and Shading
+
+Borders and shading can be applied either to the entire table using [Table.SetBorder](https://reference.aspose.com/words/python-net/aspose.words.tables/table/set_border/), [Table.SetBorders](https://reference.aspose.com/words/python-net/aspose.words.tables/table/set_borders/) and [Table.SetShading](https://reference.aspose.com/words/python-net/aspose.words.tables/table/set_shading/), or only to specific cells using [CellFormat.Borders](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/borders/) and [CellFormat.Shading](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/shading/). Additionally, row borders can be set using [RowFormat.Borders](https://reference.aspose.com/words/python-net/aspose.words.tables/rowformat/borders/), however shading cannot be applied in this way.
+
+The pictures below show the border and shadow settings in Microsoft Word and their corresponding properties in Aspose.Words.
+
+![formatting-border-line-aspose-words-net](applying-formatting-6.png)
+
+![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
+
+The following code example shows how to format a table and cell with different borders and shadings:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-FormatTableAndCellWithDifferentBorders.py" >}}
