@@ -400,6 +400,7 @@ if run is not None:
 
 The series_type property has been added to the **ChartSeries** class:
 
+{{< highlight python >}}
 @property
     def series_type(self) -> aspose.words.drawing.charts.ChartSeriesType:
         '''Gets the type of this chart series.'''
@@ -871,7 +872,7 @@ for i in range(series.y_values.count):
 
     # Get Y value.
     yValue = series.y_values[i].double_value
-
+    
     if yValue < minValue:
         minValue = yValue
         minValueIndex = i
