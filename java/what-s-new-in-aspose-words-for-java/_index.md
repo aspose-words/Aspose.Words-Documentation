@@ -11,6 +11,31 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for Java 23.5
+
+Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
+
+### Rendering
+
+#### Get and Modify Chart Series Data
+
+The feature to get and modify chart series data was provided by adding:
+
+- new classes: [ChartXValue](https://reference.aspose.com/words/java/com.aspose.words/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/java/com.aspose.words/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/java/com.aspose.words/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/java/com.aspose.words/chartmultilevelvalue/)
+- new enum types: [ChartXValueType](https://reference.aspose.com/words/java/com.aspose.words/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/java/com.aspose.words/chartyvaluetype/)
+
+### Other
+
+- Support for text wrapping in headers/footers has been implemented.
+- The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) method.
+- The public property [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) has been added.
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Java 23.5 Release Notes](/words/java/aspose-words-for-java-23-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Java 23.1, 23.2, 23.3, 23.4
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
@@ -421,79 +446,6 @@ Learn more about [Aspose.Words for Java 21.10 Release Notes](/words/java/aspose-
 Learn more about [Aspose.Words for Java 21.11 Release Notes](/words/java/aspose-words-for-java-21-11-release-notes/).
 
 Learn more about [Aspose.Words for Java 21.12 Release Notes](/words/java/aspose-words-for-java-21-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for Java 21.5, 21.6, 21.7, 21.8
-
-Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
-
-Aspose.Words 21.6 enhances formatting and filling options and also improves document display capabilities.
-
-Aspose.Words 21.7 expands rendering and conversion options, as well as provides an ability to work with framesets.
-
-Aspose.Words 21.8 improves rendering and language export features, and enhances the ability to work with field update callback.
-
-The API is enhanced for more flexible and convenient development.
-
-### Rendering
-
-#### Setting Charts Fill and Stroke Formatting
-
-An ability to set fill and stroke formatting for chart series, data points, and markers has been implemented. Using the provided options, you can easily customize any of the charts as you wish.
-
-#### Control the Fill Texture of Any Object
-
-A new public method [PresetTextured](https://reference.aspose.com/words/java/com.aspose.words/fill/#getPresetTexture) has been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
-
-#### Rendering of OOXML Ink
-
-Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/#getImlRenderingMode) and a new enumeration [ImlRenderingMode](https://reference.aspose.com/words/java/com.aspose.words/imlrenderingmode/) have been added to control the mode of Ink rendering.
-
-Prior to this version, Aspose.Words could only render fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple pre-rendered image was used instead. And now OOXML Ink content part can be rendered directly.
-
-#### Control the Maximum Number of Characters per Line
-
-A new public property [MaxCharactersPerLine](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getMaxCharactersPerLine) has been introduced to control the maximum number of characters per line in the output document of TXT format.
-
-#### Rendering to PDF/A-2
-
-Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/java/com.aspose.words/pdfcompliance/) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
-
-#### Work with Patterns
-
-A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/java/com.aspose.words/fill/#patterned-int) method with two overloads and the [Pattern](https://reference.aspose.com/words/java/com.aspose.words/fill/#getPattern) property have been added to the [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) class and the [PatternType](https://reference.aspose.com/words/java/com.aspose.words/patterntype/) enumeration has been added to the Constants.
-
-#### Insert GIF into the Document Model
-
-The ability to insert a GIF image into the document model using the [InsertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) method has been introduced. Please note that saving a document to a format different from DOCX, DOTX, DOCM, DOTM, FOPC causes the conversion of GIF images to PNG.
-
-### Conversion
-
-A new overload of the [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String-int) method with extended options has been implemented to make this operation more flexible.
-
-### Mail Merge and Reporting
-
-A new property [RestartListsAtEachSection](https://reference.aspose.com/words/java/com.aspose.words/mailmerge/#getRestartListsAtEachSection) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
-
-### Other
-
-- New methods [SetCheckedSymbol](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/#setCheckedSymbol-int-java.lang.String) and [SetUncheckedSymbol](https://reference.aspose.com/words/java/com.aspose.words/structureddocumenttag/#setUncheckedSymbol-int-java.lang.String) have been added to set checked and unchecked symbols for your favorite structured document tags.
-- The equations created with EQ fields are now supported upon converting to all HTML-based formats.
-- A new public property [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/java/com.aspose.words/layoutoptions/#getContinuousSectionPageNumberingRestart) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
-- An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
-- A new PDF save option [ExportLanguageToSpanTag](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getExportLanguageToSpanTag) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
-- A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for Java 21.5 Release Notes](/words/java/aspose-words-for-java-21-5-release-notes/).
-
-Learn more about [Aspose.Words for Java 21.6 Release Notes](/words/java/aspose-words-for-java-21-6-release-notes/).
-
-Learn more about [Aspose.Words for Java 21.7 Release Notes](/words/java/aspose-words-for-java-21-7-release-notes/).
-
-Learn more about [Aspose.Words for Java 21.8 Release Notes](/words/java/aspose-words-for-java-21-8-release-notes/).
 
 {{% /alert %}}
 
