@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 23.3 Release Notes
 description: "Aspose.Words for C++ 23.3 Release Notes – the latest updates and fixes."
 type: docs
-weight: 50
+weight: 70
 url: /cpp/aspose-words-for-cpp-23-3-release-notes/
 ---
 {{% alert color="primary" %}}
