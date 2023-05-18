@@ -27,6 +27,7 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 
 ## Full list of changes
 
+{{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, covering all changes in this release.</summary>
 
 1. Add ability to determine if font color is overridden for Inline node and for paragraph break character
@@ -107,7 +108,9 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 76. NullReferenceException is thrown upon rendering document
 77. Image elements in absolute positions in HTML are not displayed in Word
 78. Aspose.Word .NET Core Performance Problem
+
 </details>
+{{% /alert %}}
 
 ## Public API and Backward Incompatible Changes
 
@@ -115,7 +118,8 @@ This section lists public API changes that were introduced in Aspose.Words for P
 
 ### Added new public properties for working with fill colors
 
-A new public properties fore_theme_color and back_theme_color has been added to class Fill.
+A new public properties **fore_theme_color** and **back_theme_color** has been added to the **Fill** class.
+
 {{< highlight python >}}
 @property
 def fore_theme_color(self) -> aspose.words.themes.ThemeColor:
@@ -136,7 +140,8 @@ def back_theme_color(self, value: aspose.words.themes.ThemeColor):
     ...
 {{< /highlight >}}
 
-A new public properties fore_tint_and_shade and back_tint_and_shade has been added to class Fill.
+A new public properties **fore_tint_and_shade** and **back_tint_and_shade** has been added to thr **Fill** class.
+
 {{< highlight python >}}
 @property
 def fore_tint_and_shade(self) -> float:
@@ -165,8 +170,14 @@ def back_tint_and_shade(self, value: float):
     ...
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to work with theme colors and tint and shade.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with **theme colors** and **tint and shade**. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 import typing
 from aspose.words import Document, DocumentBuilder, NodeType
@@ -202,7 +213,8 @@ doc.save("output.docx")
 
 ### Added public properties has_major_gridlines and has_minor_gridlines to ChartAxis class
 
-The following public properties have been added to the aspose.words.drawing.charts.ChartAxis class:
+The following public properties have been added to the **aspose.words.drawing.charts.ChartAxis** class:
+
 {{< highlight python >}}
 @property
 def has_major_gridlines(self) -> bool:
@@ -223,8 +235,14 @@ def has_minor_gridlines(self, value: bool):
     ...
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to show chart gridlines.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to show chart gridlines. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document, DocumentBuilder
 from aspose.words.drawing.charts import ChartType
@@ -249,7 +267,8 @@ doc.save("Gridlines.docx")
 
 ### Added public property ImportFormatOptions.adjust_sentence_and_word_spacing
 
-The following public property was added to aspose.words.ImportFormatOptions class:
+The following public property was added to the **aspose.words.ImportFormatOptions** class:
+
 {{< highlight python >}}
 @property
 def adjust_sentence_and_word_spacing(self) -> bool:
@@ -262,8 +281,14 @@ def adjust_sentence_and_word_spacing(self, value: bool):
     ...
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to use adjust_sentence_and_word_spacing option.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to use the **adjust_sentence_and_word_spacing** option. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document, DocumentBuilder, ImportFormatOptions, ImportFormatMode
 
@@ -289,7 +314,7 @@ Lorem ipsum. Dolor sit amet.
 
 ### Added public property TextBox.no_text_rotation
 
-The following public property was added to aspose.words.drawing.TextBox class:
+The following public property was added to **aspose.words.drawing.TextBox** class:
 
 {{< highlight python >}}
 @property
@@ -304,8 +329,14 @@ def no_text_rotation(self, value: bool):
     ...
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to use NoTextRotation option.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to use the **NoTextRotation** option. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import DocumentBuilder
 from aspose.words.drawing import ShapeType
@@ -317,4 +348,4 @@ shape.text_box.no_text_rotation(True)
 
 ### Enabled saving progress notifications for MOBI and AZW3 formats
 
-The SaveOptions.ProgressCallback is now also invoked when saving to Mobi or AZW3.
+The **SaveOptions.ProgressCallback** is now also invoked when saving to Mobi or AZW3.

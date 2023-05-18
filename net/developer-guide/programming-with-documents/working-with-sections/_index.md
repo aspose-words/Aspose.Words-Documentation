@@ -78,9 +78,9 @@ Sometimes you want your document to look better by making creative layouts for d
 * LineGrid
 * SnapToChars
 
-The following code example shows how to customize the page border at the top of the first section:
+The following code example shows how to limit the number of lines that each page may have:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-PageBorderProperties.cs" >}}
+{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Working with document options and settings-LineGridSectionLayoutMode.cs" >}}
 
 ## Edit a Section
 

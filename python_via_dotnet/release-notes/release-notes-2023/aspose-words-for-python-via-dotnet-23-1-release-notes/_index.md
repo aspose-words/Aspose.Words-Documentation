@@ -27,6 +27,9 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 
 ## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
 
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
+
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-15063|Add feature to support PDF/X-1a:2001 compliance level|New Feature
@@ -105,6 +108,9 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24365|Exported image looks like a screenshot, not as image visible in MS Word|Bug
 |WORDSNET-13264|Couple of lines in footer are cutting in PDF/A|Bug
 
+</details>
+{{% /alert %}}
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words for Python via .NET 23.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -113,7 +119,8 @@ This section lists public API changes that were introduced in Aspose.Words for P
 
 Related issue: WORDSNET-24652
 
-The Font property has been added to the ChartDataLabel and ChartDataLabelCollection classes:
+The **Font** property has been added to the **ChartDataLabel** and **ChartDataLabelCollection** classes:
+
 {{< highlight python >}}
 class ChartDataLabel:
     @property
@@ -131,7 +138,14 @@ class ChartDataLabelCollection:
         ...
 {{< /highlight >}}
 
-Use Case:
+{{% alert color="secondary" %}}
+
+**Use Case:**
+
+This use case explains how to work with **Font** in Charts. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
@@ -173,8 +187,9 @@ doc.save("LabelFont.docx")
 
 Related issue: WORDSNET-24477
 
-The ignore_ole_data property has been added to the LoadOptions class.
+The **ignore_ole_data** property has been added to the **LoadOptions** class.
 May be usefull when destination format does not support OLE.
+
 {{< highlight python >}}
 class LoadOptions:
     @property
@@ -187,7 +202,14 @@ class LoadOptions:
         ...
 {{< /highlight >}}
 
-Use Case:
+{{% alert color="secondary" %}}
+
+**Use Case:**
+
+This use case explains how to work with **ignore_ole_data**. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 lo = aw.loading.LoadOptions()
 lo.ignore_ole_data = True
@@ -203,6 +225,7 @@ Related issue: #WORDSNET-24003
 Metafile raster operations emulations have been improved.
 
 Also added an option to use GDI+ in raster operations emulation process.
+
 {{< highlight python >}}
 @property
 def use_gdi_raster_operations_emulation(self) -> bool:
@@ -225,7 +248,8 @@ def use_gdi_raster_operations_emulation(self) -> bool:
 
 Related issue: WORDSNET-24456
 
-A new public properties foreground_pattern_theme_color and background_pattern_theme_color has been added to class Shading.
+A new public properties **foreground_pattern_theme_color** and 88background_pattern_theme_color** has been added to the **Shading** class.
+
 {{< highlight python >}}
 @property
 def foreground_pattern_theme_color(self) -> aspose.words.themes.ThemeColor:
@@ -246,7 +270,8 @@ def background_pattern_theme_color(self, value: aspose.words.themes.ThemeColor):
     ...
 {{< /highlight >}}
 
-A new public properties foreground_tint_and_shade and background_tint_and_shade has been added to class Shading.
+A new public properties **foreground_tint_and_shade** and **background_tint_and_shade** has been added to the **Shading** class.
+
 {{< highlight python >}}
 @property
 def foreground_tint_and_shade(self) -> float:
@@ -267,7 +292,14 @@ def background_tint_and_shade(self, value: float):
     ...
 {{< /highlight >}}
 
-Use Case: Explains how to work with shading theme colors.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with shading theme colors. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document("c:\\Documents\\TestDocument.docx")
 
@@ -293,7 +325,8 @@ doc.save("output.docx")
 
 Related issue: WORDSNET-24257
 
-A new public property revisions has been added to class Range:
+A new public property **revisions** has been added to the **Range** class:
+
 {{< highlight python >}}
 @property
 def revisions(self) -> aspose.words.RevisionCollection:
@@ -304,7 +337,14 @@ def revisions(self) -> aspose.words.RevisionCollection:
     ...
 {{< /highlight >}}
 
-Use Case: Explains how to get actual revisions from the node range.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get actual revisions from the node range. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document("c:\\Documents\\TestDocument.docx")
 # Getting the first paragraph revisions.
@@ -322,9 +362,16 @@ Related issue: WORDSNET-24389
 
 Now Aspose.Words can generate TOC (table of contents) for AZW3 documents.
 
-Desired depth of TOC can be specified same way as it's done for EPUB documents using HtmlSaveOptions.epub_navigation_map_level property.
+Desired depth of TOC can be specified same way as it's done for EPUB documents using **HtmlSaveOptions.epub_navigation_map_level** property.
 
-Use Case: Explains how to create AZW3 document with a two-level TOC.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to create AZW3 document with a two-level TOC. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document()
 
@@ -334,11 +381,12 @@ options.epub_navigation_map_level = 2
 doc.save(MY_DIR + "DocumentWithTwoLevelTOC.azw3", options)
 {{< /highlight >}}
 
-### Added the ability to specify how list items will be written to the Markdown.
+### Added the ability to specify how list items will be written to the Markdown
 
 Related issue: WORDSNET-24544
 
-The following public enumeration is added to aspose.words.saving module:
+The following public enumeration is added to **aspose.words.saving** module:
+
 {{< highlight python >}}
 class MarkdownListExportMode:
     '''Specifies how lists are exported into Markdown.'''
@@ -350,7 +398,8 @@ class MarkdownListExportMode:
 
 {{< /highlight >}}
 
-The following public property is added to MarkdownSaveOptions class:
+The following public property is added to **MarkdownSaveOptions** class:
+
 {{< highlight python >}}
 @property
 def list_export_mode(self) -> aspose.words.saving.MarkdownListExportMode:
@@ -370,7 +419,14 @@ def list_export_mode(self, value: aspose.words.saving.MarkdownListExportMode):
     ...
 {{< /highlight >}}
 
-Use Case: Explains how to export document with plain text numbering into Markdown.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to export document with plain text numbering into Markdown. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight python >}}
 doc = aw.Document("input.docx")
 
@@ -384,17 +440,18 @@ doc.save("output.md", options)
 
 Related issue: WORDSNET-24065
 
-Behavior of the HtmlSaveOptions.scale_image_to_shape_size property was changed to affect groups of raster images.
+Behavior of the **HtmlSaveOptions.scale_image_to_shape_size** property was changed to affect groups of raster images.
 
-Previously, HtmlSaveOptions.scale_image_to_shape_size didn't affect grouped raster images and they were always scaled to shape size and were rendered using the resolution value specified in HtmlSaveOptions.image_resolution. If grouped images were high resolution, their quality would reduce considerably because of scaling.
+Previously, **HtmlSaveOptions.scale_image_to_shape_size** didn't affect grouped raster images and they were always scaled to shape size and were rendered using the resolution value specified in **HtmlSaveOptions.image_resolution**. If grouped images were high resolution, their quality would reduce considerably because of scaling.
 
-Now Aspose.Words tries to preserve quality of grouped high resolution images. If a group of raster images is saved to HTML and the HtmlSaveOptions.scale_image_to_shape_size property is set to false, Aspose.Words computes max intrinsic resolution among all images in the group and if it is greater than the value specified in HtmlSaveOptions.image_resolution, the group is rendered using the computed increased resolution. This doesn't eliminate scaling completely but reduces its impact on grouped high resolution raster images.
+Now Aspose.Words tries to preserve quality of grouped high resolution images. If a group of raster images is saved to HTML and the **HtmlSaveOptions.scale_image_to_shape_size** property is set to false, Aspose.Words computes max intrinsic resolution among all images in the group and if it is greater than the value specified in **HtmlSaveOptions.image_resolution**, the group is rendered using the computed increased resolution. This doesn't eliminate scaling completely but reduces its impact on grouped high resolution raster images.
 
 ### OfficeMath.EquationXmlEncoding property was marked as obsolete
 
 Related issue: WORDSNET-24770
 
-The OfficeMath.equation_xml_encoding property has been marked as obsolete because it is not intended to be used in the API.
+The **OfficeMath.equation_xml_encoding** property has been marked as obsolete because it is not intended to be used in the API.
+
 {{< highlight python >}}
 @property
 def equation_xml_encoding(self) -> str:
