@@ -3,13 +3,13 @@ title: Working with Sections in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Sections
 linktitle: Working with Sections
-description: "Understanding document section concepts and manipulation practices using C#. Insert section into a document C#. Remove section C#. Copy Sections between Documents."
+description: "Understanding document section concepts and manipulation practices using C#. Insert section into a document C#. Remove section C#. Copy sections between Documents."
 type: docs
 weight: 60
 url: /net/working-with-sections/
 ---
 
-Working with SectionsSometimes you want a document that does not have the same formatting across all pages. For example, you may need to modify page number formats, have different page size and orientation, or have the first document page as a cover page without any numbering. You can achieve that with sections.
+Sometimes you want a document that does not have the same formatting across all pages. For example, you may need to modify page number formats, have different page size and orientation, or have the first document page as a cover page without any numbering. You can achieve that with sections.
 
 Sections are level nodes that control headers and footers, orientation, columns, margins, page number formatting, and others.
 
@@ -155,3 +155,4 @@ The following code example shows how to modify the page properties in all sectio
 
 * [“Logical Levels of Nodes in a Document”](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
 * [”Insert and Append Documents”](https://docs.aspose.com/words/net/insert-and-append-documents/)
+

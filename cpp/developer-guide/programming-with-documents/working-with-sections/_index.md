@@ -1,107 +1,158 @@
-﻿---
+---
 title: Working with Sections in C++
 second_title: Aspose.Words for C++
 articleTitle: Working with Sections
 linktitle: Working with Sections
-description: "Understanding document section concepts and manipulation practices using C++."
+description: "Understanding document section concepts and manipulation practices using C++. Insert section into a document C++. Remove section C++. Copy sections between Documents."
 type: docs
 weight: 30
 url: /cpp/working-with-sections/
+aliases: [/cpp/how-to-remove-page-and-section-breaks/]
 ---
 
-This topic discusses how to work programmatically with document sections using Aspose.Words. Working with sections is very useful when it comes to document generation. You can combine documents, build up an output document from several sections copied from multiple template documents or remove unneeded sections depending on some application logic, effectively filtering a common template document to a specific scenario.
+Sometimes you want a document that does not have the same formatting across all pages. For example, you may need to modify page number formats, have different page size and orientation, or have the first document page as a cover page without any numbering. You can achieve that with sections.
 
-A Word document can contain one or more sections. At the end of the section, there is a section break that separates one section from the next in a document. Each section has its own set of properties that specify page size, orientation, margins, the number of text columns, headers and footers and so on.
+Sections are level nodes that control headers and footers, orientation, columns, margins, page number formatting, and others.
 
-## Sections in Microsoft Word
+Aspose.Words allows you to manage sections, divide a document into sections, and make formatting changes that apply only to a specific section. Aspose.Words stores information about section formatting such as headers and footers, page setup, and column settings in the section break.
 
-In Microsoft Word, you can easily split the document into sections by adding a section break in the place where you want to start a new section. To join a section in the document with the next one, you need to delete a section break between them.
+This article explains how to work with sections and section breaks.
 
-### Inserting a Section Break in Microsoft Word
+## What Section and Section Break Is
 
-A Section break is a mark you insert to show the end of a section. A section break stores the section formatting elements, such as the margins, page orientation, headers and footers, and sequence of page numbers. Just insert section breaks to divide the document into sections, and then format each section the way you want. For example, format a section as a single column for the introduction of a report, and then format the following section as two columns for the report’s body text. To insert a section break, do the following:
+Document sections are represented by the [Section](https://reference.aspose.com/words/cpp/aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/cpp/aspose.words/sectioncollection/) classes. Section objects are immediate children of the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) node and can be accessed via the [Sections](https://reference.aspose.com/words/cpp/aspose.words/document/get_sections/) property. You can manage those nodes by using some methods such as [Remove](https://reference.aspose.com/words/cpp/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/cpp/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/cpp/aspose.words/nodecollection/indexof/), and others.
 
-1. Click where you want to insert a section break.
-1. On the Insert menu, click **Break**.
-1. Under **Section break types** , click the option that describes where you want the new section to begin.
+Section break is an option that divides document pages into sections with customizable layouts.
 
-The following types of section breaks can be inserted:
+## Types of a Section Break
 
-- **Next page** inserts a section break and starts the new section on the next page.
-- **Continuous** inserts a section break and starts the new section on the same page.
-- **Odd page** or **Even page** inserts a section break and starts the new section on the next odd-numbered or even-numbered page.
+Aspose.Words allows you to split and format documents using different section breaks of the [BreakType](https://reference.aspose.com/words/cpp/aspose.words/breaktype/) enumeration:
 
-### Deleting a Section Break in Microsoft Word
+- SectionBreakContinuous
+- SectionBreakNewColumn
+- SectionBreakNewPage
+- SectionBreakEvenPage
+- SectionBreakOddPage
 
-When you delete a section break, you also delete the section formatting for the text above it. That text becomes part of the following section, and it assumes the formatting of that section.
+You can also use the [SectionStart](https://reference.aspose.com/words/cpp/aspose.words/sectionstart/) enumeration to choose a break type that applies only for the first section such as NewColumn, NewPage, EvenPage, and OddPage.
 
-1. Select the section break you want to delete. If you are in print layout view or outline view and do not see the section break, display hidden text by clicking **Show/Hide** on the **Standard** toolbar.
-1. Press DELETE.
+## Manage a Section
 
-## Sections in Aspose.Words
+Since a section is a normal composite node, the entire node manipulation API can be used to manipulate sections: to add, remove, and other operations on sections. You can read more about nodes in the article ["Aspose.Words Document Object Model (DOM)"](/words/cpp/aspose-words-document-object-model/).
 
-Sections of the document are represented by the Section and SectionCollection classes. Section objects are immediate children of the Document node and can be accessed via the Document.Sections property.
+On the other hand, you can also use the DocumentBuilder API to work with sections. In this article, we will focus on this particular way of working with sections.
 
-### Obtaining a Section
+## Insert or Remove a Section Break
 
-Each section is represented by a Section object that can be obtained from the Document.Sections collection by the index. Default page margins, header/footer distance and column spacing depend on current culture to mimic MS Word behavior. For example, now all page margins are 1’’ for English (United States) and English (United Kingdom). Left, right, top margins are 2.5 cm; the bottom margin is 2 cm for German. The new defaults are used for a new document and for a loaded document if an explicit value is not set for the mention parameters.
+Aspose.Words allows you to insert a section break into text using the [InsertBreak](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertbreak/) method.
+
+The following code example shows how to insert a section break into a document:
+
+EXAMPLE
+
+Use the [Remove](https://reference.aspose.com/words/cpp/aspose.words/node/remove/) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/cpp/aspose.words/section/clearcontent/) method.
+
+The following code example shows how to remove sections breaks: 
+
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveBreaks-RemoveSectionBreaks.cpp" >}}
 
 {{% alert color="primary" %}}
 
-It is possible to change the culture for the current thread that will cause changing default page margins, header/footer distance and column spacing.
+Note that a section break has information about the section that goes before it, not the section that goes after it. So if you remove a section break, the text before the removed break will get the properties of the section break following it. This can cause the entire document to becoming landscape, or headers and footers to change or fully disappear.
 
 {{% /alert %}}
 
-The code sample below shows how to access a section at the specified index. You can download the template file of this example from here.
+## Move a Section
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-SectionsAccessByIndex-SectionsAccessByIndex.cpp" >}}
+If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://apireference.aspose.com/words/net/aspose.words/sectioncollection). You can use the [Sections](https://reference.aspose.com/words/cpp/aspose.words/document/get_sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://reference.aspose.com/words/cpp/aspose.words/document/get_firstsection/) property.
 
-### Adding a Section
+The following code example shows how to access the first section and iterate through the children of a composite node:
 
-The Document object provides the section collection that can be accessed by using Document.Sections. This returns a SectionCollection object containing the document’s sections. You can then use the SectionCollection.Add method on this object to add a section to the end of the document. The code sample below shows how to add a section to the end of the document.
+EXAMPLE
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AddDeleteSection-AddSection.cpp" >}}
+## Specify a Section Layout
 
-### Deleting a Section
+Sometimes you want your document to look better by making creative layouts for different document sections. If you want to specify the type of the current section grid, you can choose a section layout mode using the [SectionLayoutMode](https://reference.aspose.com/words/cpp/aspose.words/sectionlayoutmode/) enumeration:
 
-In the same way as discussed above, the document’s sections are retrieved by using Document.Sections. You can then use SectionCollection.Remove to remove a specified section or SectionCollection.RemoveAt to remove a section at the specified index. The code sample below shows how to remove a section at the specified index.
+- Default
+- Grid
+- LineGrid
+- SnapToChars
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AddDeleteSection-DeleteSection.cpp" >}}
+The following code example shows how to limit the number of lines that each page may have:
 
-The code sample below shows how to remove all sections from a document.
+EXAMPLE
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AddDeleteSection-DeleteAllSections.cpp" >}}
+## Edit a Section
 
-In addition, you can use SectionCollection.Clear to remove all the sections from the document.
+When you add a new section to your document, there will be no body or paragraph that you can edit. Aspose.Words allows you to guarantee that a section contains a body with at least one paragraph using the [EnsureMinimum](https://reference.aspose.com/words/cpp/aspose.words/section/ensureminimum/) method – it will automatically add a Body (or HeaderFooter) node to the document and then add a Paragraph to it.
 
-### Adding Section Content
+The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
-If you want to copy and insert just the main text of a section excluding the section separator and section properties, use Section.PrependContent or Section.AppendContent passing a Section object for the content being copied. No new section is created; headers and footers are not copied. The former method inserts a copy of the content at the beginning of the section, while the latter inserts a copy of the content at the end of the section. The code sample below shows how to append content of an existing section. The number of sections in the document remains the same. You can download the template file of this example from here.
+EXAMPLE
+
+### Append or Prepend Content
+
+If you want to draw some shape or add text or image at the beginning/end of a section, you can use the [AppendContent](https://reference.aspose.com/words/cpp/aspose.words/section/appendcontent/) and [PrependContent](https://reference.aspose.com/words/cpp/aspose.words/section/prependcontent/) methods of the [Section](https://reference.aspose.com/words/cpp/aspose.words/section/) class.
+
+The following code example shows how to append content of an existing section:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AppendSectionContent-AppendSectionContent.cpp" >}}
 
-### Deleting Section Content
+### Clone a Section
 
-To delete the main text of a section, use Section.ClearContent. Below example shows how to delete main content of a section. You can download the template file of this example from here.
+Aspose.Words allows you to duplicate a section by creating a full copy of it using the [Clone](https://reference.aspose.com/words/cpp/aspose.words/section/clone/) method.
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-DeleteSectionContent-DeleteSectionContent.cpp" >}}
-
-To delete the headers and footers in a section, call Section.ClearHeadersFooters.
-
-### Cloning a Section
-
-Use the Section.Clone method to create a duplicate of a particular section. Below example shows how to create a duplicate of a particular section. You can download the template file of this example from here.
+The following code example shows how to clone the first section in your document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-CloneSection-CloneSection.cpp" >}}
 
-### Copying Sections between Documents
+### Copy Sections between Documents
 
-Fully or partially copying one document into another is a very popular task. Here is a "pattern" to implement this. Before any node from another document can be inserted, it must be imported using Document.ImportNode method. The **Document.ImportNode** method makes a copy of the original node and updates all internal document-specific attributes such as lists and styles to make them valid in the destination document.The code example below shows how to copy sections between documents. You can download the template file of this example from here.
+In some cases, you may have large documents with many sections and you want to copy the content of a section from one document to another.
+
+Aspose.Words allows you to copy sections between documents using the [ImportNode](https://reference.aspose.com/words/cpp/aspose.words/documentbase/importnode/) method.
+
+The following code example shows how to copy sections between documents:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-CopySection-CopySection.cpp" >}}
 
-{{% alert color="primary" %}}
+### Work with Section Header and Footer
 
-Sometimes it is necessary to avoid section breaks in the destination document. In this case, you can use Section.AppendContent instead of SectionCollection.Add.
+The basic rules for displaying a header or footer for each section are quite simple:
 
-{{% /alert %}}
+1. If the section does not have its own headers/footers of a certain type, then it is taken from the previous section.
+2. The type of header/footer displayed on the page is controlled by the "Different First Page" and "Different Odd & Even pages" section settings – if they are disabled, then the section's own titles are ignored.
+
+The following code example shows how to create 2 sections with different headers:
+
+EXAMPLE
+
+If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/cpp/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/cpp/aspose.words/section/clearheadersfooters/) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/cpp/aspose.words/section/deleteheaderfootershapes/) method to remove all shapes from headers and footers in your document.
+
+The following code example shows how to clear content of all headers and footers in a section:
+
+EXAMPLE
+
+The following code example how to remove all shapes from all headers footers in a section:
+
+EXAMPLE
+
+## Customize Page Properties in a Section
+
+Before printing a page or a document you may want to customize and modify the size and layout of a single page or the whole document. With page setup, you can change the settings of document pages such as margins, orientation, and size for printing different first pages or odd pages.
+
+Aspose.Words allows you to customize page and section properties using the [PageSetup](https://reference.aspose.com/words/cpp/aspose.words/pagesetup/) class.
+
+The following code example shows how to set such properties as page size and orientation for the current section:
+
+EXAMPLE
+
+The following code example shows how to modify the page properties in all sections:
+
+EXAMPLE
+
+## See Also
+
+- [“Logical Levels of Nodes in a Document”](/words/cpp/logical-levels-of-nodes-in-a-document/)
+- [”Insert and Append Documents”](/words/cpp/insert-and-append-documents/)
