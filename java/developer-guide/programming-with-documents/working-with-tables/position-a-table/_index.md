@@ -62,7 +62,7 @@ The following code example shows how to set the position of a floating table:
 
 {{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "floating-table-position.java" >}}
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetRelativeHorizontalOrVerticalPosition.java" >}} //SetRelativeHorizontalOrVerticalPosition
+{{< gist "aspose-words-gists" "0f235c484e5edae70a542ebdaae40fd8" "relative-horizontal-or-vertical-position.java" >}}
 
 ## Get Distance between Table and Surrounding Text
 
