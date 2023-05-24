@@ -21,7 +21,7 @@ Sometimes you may need to make changes to a particular table in a document. To d
 
 The following code example shows how to retrieve the index of a table in a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-FindIndexOfTableElements-findIndexOfTableInADocument.java" >}} //RetrieveTableIndex
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "retrieve-table-index.java" >}}
 
 ### Finding the Index of a Row in a Table
 
@@ -29,7 +29,7 @@ Similarly, you may need to make changes to a specific row in a selected table. T
 
 The following code example shows how to retrieve the index of a row in a table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-FindIndexOfTableElements-findIndexOfARowInATable.java" >}} //RetrieveRowIndex
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "retrieve-row-index.java" >}}
 
 ### Finding the Index of a Cell in a Row
 
@@ -37,7 +37,7 @@ Finally, you may need to make changes to a specific cell, and you can do this by
 
 The following code example shows how to retrieve the index of a cell in a row:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-FindIndexOfTableElements-findIndexOfACellInARow.java" >}} //RetrieveCellIndex
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "retrieve-cell-index.java" >}}
 
 ## Work with Columns
 
@@ -55,15 +55,15 @@ Any operations performed on columns are actually "shortcuts" that perform the op
 
 The following code example simplifies such operations by proving a facade class that collects the cells that make up a "column" of a table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-Column-Column.java" >}} //ColumnClass
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "column-class.java" >}}
 
 The following code example shows how to insert a blank column into a table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-insertABlankColumnIntoATable.java" >}} //InsertBlankColumn
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "insert-blank-column.java" >}}
 
 The following code example shows how to remove a column from a table in a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-WorkingWithColumns-removeAColumnFromATable.java" >}} //RemoveColumn
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "remove-column.java" >}}
 
 ## Specify Rows as Header Rows
 
@@ -79,7 +79,7 @@ Note that Header Rows do not work in nested tables. That is, if you have a table
 
 The following code example shows how to build a table which includes Header Rows that repeat on subsequent pages:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows-SpecifyRowsToRepeatOnSubsequentPagesAsHeaderRows.java" >}} //RepeatRowsOnSubsequentPages
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "repeat-rows-on-subsequent-pages.java" >}}
 
 ## Keep Tables and Rows from Breaking Across Pages {#keep-tables-and-rows-from-breaking-across-pages}
 
@@ -102,7 +102,7 @@ This involves restricting content inside the cells of a row from being split acr
 
 The following code example shows how to disable breaking rows across pages for each row in a table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-KeepTablesAndRowsFromBreakingAcrossPages-keepingARowFromBreakingAcrossPages.java" >}} //RowFormatDisableBreakAcrossPages
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "row-format-disable-break-across-pages.java" >}}
 
 ### Keep a Table from Breaking Across Pages {#keep-a-table-from-breaking-across-pages}
 
@@ -114,4 +114,4 @@ To do this, Aspose.Words uses a method, which allows users to select a table and
 
 The following code example shows how to set a table to stay together on the same page:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-KeepTablesAndRowsFromBreakingAcrossPages-keepingATableFromBreakingAcrossPages.java" >}} //KeepTableTogether
+{{< gist "aspose-words-gists" "14f5cea1b896ffd04f143627939e0878" "keep-table-together.java" >}}

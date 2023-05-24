@@ -38,11 +38,11 @@ The pictures below show a representation of the **Table** formatting features in
 
 The following code example shows how to apply an outline border to a table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-applyOutlineBorderToATable.java" >}} //ApplyOutlineBorder
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-outline-border.java" >}}
 
 The following code example shows how to build a table with all borders enabled (grid):
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-buildATableWithAllBordersEnabled.java" >}} //BuildTableWithBorders
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "build-table-with-borders.java" >}}
 
 ### Row Level Formatting
 
@@ -60,7 +60,7 @@ The pictures below show a representation of the **Row** formatting features in M
 
 The following code example shows how to modify the table row formatting:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheRowLevel-ApplyFormattingOnTheRowLevel.java" >}} //ModifyRowFormatting
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-row-formatting.java" >}}
 
 ### Cell Level Formatting
 
@@ -82,11 +82,11 @@ The pictures below show a representation of the **Cell** formatting features in 
 
 The following code example shows how to modify the formatting of a table cell:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheCellLevel-ApplyFormattingOnTheCellLevel.java" >}} //ModifyCellFormatting
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "modify-cell-formatting.java" >}}
 
 The following code example shows how to set the amount of space (in points) to add to the left/top/right/bottom of the contents of the cell:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyCellPadding-ApplyCellPadding.java" >}} //CellPadding
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "cell-padding.java" >}}
 
 ## Specifying Row Heights
 
@@ -107,7 +107,7 @@ Rule options for specifying the height of an object can be set using the [Height
 
 The following code example shows how to create a table that contains a single cell and apply row formatting:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyRowHeights-SpecifyRowHeights.java" >}} //ApplyRowFormatting
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "apply-row-formatting.java" >}}
 
 ## Specify Table and Cell Widths
 
@@ -180,13 +180,13 @@ Using the [Table.PreferredWidth](https://reference.aspose.com/words/java/com.asp
 
 The following code example shows how to set the table to auto-fit to 50% of the page width:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyAPreferredWidthOnATable-SpecifyAPreferredWidthOnATable.java" >}} //AutoFitPageWidth
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-page-width.java" >}}
 
 Using the [CellFormat.PreferredWidth](https://reference.aspose.com/words/java/com.aspose.words/cellformat/#getPreferredWidth) property on a given cell will adjust its preferred width.
 
 The following code example shows how to set the different preferred width settings:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyPreferredWidthOnACell-SpecifyPreferredWidthOnACell.java" >}} //PreferredWidthSettings
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "preferred-width-settings.java" >}}
 
 #### Find Preferred Width Type and Value
 
@@ -194,7 +194,7 @@ You can use the [Type](https://reference.aspose.com/words/java/com.aspose.words/
 
 The following code example shows how to retrieve the preferred width type of a table cell:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyPreferredWidthOnACell-findPreferredWidthTypeAndValueOfATableOrCell.java" >}} //RetrievePreferredWidthType
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "retrieve-preferred-width-type.java" >}}
 
 ### How to Set Autofit
 
@@ -212,7 +212,7 @@ It is important to know that the autofit method is actually a shortcut that appl
 
 The following code example shows how to set a table to shrink or grow each cell according to its contents:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-SpecifyPreferredWidthOnACell-allowAutoFit.java" >}} //AllowAutoFit
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-auto-fit.java" >}}
 
 We will use the following table to apply the various auto fit settings as a demonstration.
 
@@ -232,7 +232,7 @@ When autofitting to a window is applied to a table, the following operations are
 
 The following code example shows how to autofit a table to the page width:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-autoFittingATableToWindow.java" >}} //AutoFitTableToPageWidth
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-page-width.java" >}}
 
 An example of how these options are applied to the above table can be seen in the picture below.
 
@@ -253,7 +253,7 @@ When the table is autofitted the content, the following steps are actually perfo
 
 The following code example shows how to autofit a table to its content:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-autoFittingATableToContents.java" >}} //AutoFitTableToContents
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-contents.java" >}}
 
 An example of how these options are applied to the above table can be seen in the picture below.
 
@@ -275,7 +275,7 @@ Note that if no width is specified for **CellFormat.Width**, the default value o
 
 The following code example shows how to disable autofit and enable fixed width for the specified table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-ApplyAutoFitSettingsToATable-disablingAutoFittingOnATableAndUseFixedColumnWidths.java" >}} //AutoFitTableToFixedColumnWidths
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "auto-fit-table-to-fixed-column-widths.java" >}}
 
 An example of how these options are applied to the above table can be seen in the picture below.
 
@@ -317,7 +317,7 @@ An example of how these options are applied to a real table in a document can be
 
 The following code example shows how to set the spacing between cells:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-AllowCellSpacing.java" >}} //AllowCellSpacing
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "allow-cell-spacing.java" >}}
 
 ## Apply Borders and Shading
 
@@ -333,4 +333,4 @@ The pictures below show the border and shadow settings in Microsoft Word and the
 
 The following code example shows how to format a table and cell with different borders and shadings:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyBordersAndShading-ApplyBordersAndShading.java" >}} //FormatTableAndCellWithDifferentBorders
+{{< gist "aspose-words-gists" "1c794bd06eb1e3b67f0368daa6f23b1f" "format-table-and-cell-with-different-borders.java" >}}

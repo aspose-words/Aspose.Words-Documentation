@@ -16,4 +16,4 @@ To manipulate a table to join with another table, we just need to move the rows 
 
 The following code example shows how to merge rows from two tables into one:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-JoinAndSplitTables-combineTwoTablesIntoOne.java" >}} //CombineRows
+{{< gist "aspose-words-gists" "89807559333317718ba2e6084fdcb3e2" "combine-rows.java" >}}

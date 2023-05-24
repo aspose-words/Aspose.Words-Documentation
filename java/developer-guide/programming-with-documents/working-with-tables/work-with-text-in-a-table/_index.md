@@ -27,7 +27,7 @@ Typically, text replacement should be done at the cell level (per cell) or at th
 
 The following code example shows how to replace all instances of a string of text in the cells of an entire table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ReplaceText-ReplaceText.java" >}} //ReplaceText
+{{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "replace-text.java" >}}
 
 ## Extract Plain Text from a Table
 
@@ -35,7 +35,7 @@ Using the **Range** object, you can also call methods on the entire table range 
 
 The following code example shows how to print the text range of a table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-printTextRangeOfATable.java" >}} //ExtractText
+{{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "extract-text.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -47,7 +47,7 @@ The following code example shows how to print a text range of row and table elem
 
 The following code example shows how to print the text range of row and table elements.
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ExtractOrReplaceText-ExtractPlainTextFromATable-printTextRangeOfRowAndTableElements.java" >}} //PrintTextRangeOFRowAndTable
+{{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "print-text-range-o-f-row-and-table.java" >}}
 
 ## Working with Alternative Table Text
 
@@ -57,4 +57,4 @@ In Aspose.Words, you can also add a table title and description using the [Title
 
 The following code example shows how to set the title and description properties of a table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-SetTableTitleandDescription.java" >}} //TableTitleAndDescription
+{{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "table-title-and-description.java" >}}
