@@ -135,8 +135,6 @@ System::SharedPtr<Aspose::Words::Font> get_Font();
 
 This use case explains how to work with **Font** in Charts. Please see the following code example to learn how to use such a property:
 
-{{% /alert %}}
-
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);

@@ -1,12 +1,12 @@
 ---
-title: Merge Table Cells in C#
-second_title: Aspose.Words for .NET
+title: Merge Table Cells
+second_title: Aspose.Words for Python via .NET
 articleTitle: Merge Table Cells
 linktitle: Merge Table Cells
-description: "How to merge table cells in C#. Check if cells in a table are merged using C#."
+description: "How to merge table cells in Python. Check if cells in a table are merged using Python."
 type: docs
 weight: 40
-url: /net/working-with-merged-cells/
+url: /python-net/working-with-merged-cells/
 ---
 
 Sometimes certain rows in a table require a heading or large blocks of text that take up the full width of the table. For proper design of the table, the user can merge several table cells into one. Aspose.Words supports merged cells when working with all input formats, including importing HTML content.

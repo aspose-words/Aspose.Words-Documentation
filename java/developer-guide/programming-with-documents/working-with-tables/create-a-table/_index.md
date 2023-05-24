@@ -64,15 +64,15 @@ The process of creating a table can be clearly seen in the following picture:
 
 The following code example shows how to create a simple table using **DocumentBuilder** with default formatting:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-SimpleTable-SimpleTable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-SimpleTable-SimpleTable.java" >}} //CreateSimpleTable
 
 The following code example shows how to create a formatted table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-FormattedTable-FormattedTable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-FormattedTable-FormattedTable.java" >}} //FormattedTable
 
 The following code example shows how to insert a nested table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-NestedTable-NestedTable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-NestedTable-NestedTable.java" >}} //NestedTable
 
 ## Create a Table via DOM (Document Object Model)
 
@@ -88,7 +88,7 @@ This method of creating a table uses the same table defaults as when using the *
 
 The following code example shows how to build a new table from scratch by adding the appropriate child nodes to the document tree:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertTableDirectlyIntoDOM-InsertTableDirectlyIntoDOM.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertTableDirectlyIntoDOM-InsertTableDirectlyIntoDOM.java" >}} //InsertTableDirectly
 
 ## Create a Table from HTML
 
@@ -98,7 +98,7 @@ Using this **InsertHtml** method, users can insert tables into the document via 
 
 The following code example shows how to insert a table into a document from a string containing HTML tags:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertTableFromHtml-InsertTableFromHtml.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertTableFromHtml-InsertTableFromHtml.java" >}} //InsertTableFromHtml
 
 ## Insert a Copy of an Existing Table
 
@@ -108,7 +108,7 @@ The same technique can be used to add copies of an existing row or cell to a tab
 
 The following code example shows how to duplicate a table using node constructors:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertCloneOfExistingTable-cloneOfATable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertCloneOfExistingTable-cloneOfATable.java" >}} //CloneCompleteTable
 
 {{% alert color="primary" %}}
 
@@ -118,7 +118,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to clone the last row of a table and append it to the table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertCloneOfExistingTable-cloneLastRowOfATable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-InsertCloneOfExistingTable-cloneLastRowOfATable.java" >}} //CloneLastRow
 
 {{% alert color="primary" %}}
 

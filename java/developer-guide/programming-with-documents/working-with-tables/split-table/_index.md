@@ -20,4 +20,4 @@ We can create two tables from the original table by following these simple steps
 
 The following code example shows how to split a table into two tables on a specific row:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-JoinAndSplitTables-splitATableIntoTwoSeparateTables.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ColumnsAndRows-JoinAndSplitTables-splitATableIntoTwoSeparateTables.java" >}} //SplitTable

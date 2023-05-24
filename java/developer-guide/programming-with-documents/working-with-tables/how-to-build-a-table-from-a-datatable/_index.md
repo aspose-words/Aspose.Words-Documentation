@@ -34,13 +34,13 @@ Using Aspose.Words, you can easily retrieve data from a database and store it as
 
 The following code example shows how to execute the above algorithm in Aspose.Words:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-importTableFromDataTable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-importTableFromDataTable.java" >}} //ImportTableFromDataTable
 
 The method can then be easily called using your **DocumentBuilder** and data.
 
 The following code example shows how to import the data from a DataTable and insert it into a new table in the document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-BuildTableFromDataTable.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-creation-BuildTableFromDataTable-BuildTableFromDataTable.java" >}} //BuildTableFromDataTable
 
 The table shown in the picture below is produced by running the above code.
 

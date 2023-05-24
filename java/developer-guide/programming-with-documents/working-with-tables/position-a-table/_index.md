@@ -24,7 +24,7 @@ You can set the position of an inline table using the Aspose.Words API and the [
 
 The following code example shows how to set the position of an inline table:
 
-EXAMPLE
+EXAMPLE //InlineTablePosition
 
 ## Get Floating Table Alignment
 
@@ -34,7 +34,7 @@ With **other types of text wrapping**, you can get inline table alignment using 
 
 The following code example shows how to get the table's alignment:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetTablePosition.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetTablePosition.java" >}} //GetTablePosition
 
 ## Get Floating Table Position
 
@@ -50,7 +50,7 @@ The following code example shows how to get the table's alignment:
 
 The following code example shows how to get the position of a floating table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetFloatingTablePosition.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-GetFloatingTablePosition.java" >}} //GetFloatingTablePosition
 
 ## Set Floating Table Position
 
@@ -60,9 +60,9 @@ It is important to know that alignment and horizontal and vertical distance are 
 
 The following code example shows how to set the position of a floating table:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetFloatingTablePosition.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetFloatingTablePosition.java" >}} //FloatingTablePosition
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetRelativeHorizontalOrVerticalPosition.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-GetTablePosition-SetRelativeHorizontalOrVerticalPosition.java" >}} //SetRelativeHorizontalOrVerticalPosition
 
 ## Get Distance between Table and Surrounding Text
 
@@ -75,4 +75,4 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 
 The following code example shows how to get the distance between a table and its surrounding text:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-getDistancebetweenTableSurroundingText.java" >}}
+{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tables-ApplyFormatting-ApplyFormattingOnTheTableLevel-getDistancebetweenTableSurroundingText.java" >}} //DistanceBetweenTableSurroundingText
