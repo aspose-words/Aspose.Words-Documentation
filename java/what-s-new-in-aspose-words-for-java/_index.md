@@ -17,7 +17,7 @@ Aspose.Words 23.5 enhances the ability to work with chart series data and the ab
 
 ### Rendering
 
-#### Get and Modify Chart Series Data
+#### Get and Modify Chart Series Data <sup>23.5</sup>
 
 The feature to get and modify chart series data was provided by adding:
 
@@ -26,9 +26,9 @@ The feature to get and modify chart series data was provided by adding:
 
 ### Other
 
-- Support for text wrapping in headers/footers has been implemented.
-- The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) method.
-- The public property [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) has been added.
+- Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
+- The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) method. <sup>23.5</sup>
+- The public property [PhoneticGuide](https://reference.aspose.com/words/java/com.aspose.words/run/#getPhoneticGuide) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) has been added. <sup>23.5</sup>
 
 {{% alert color="primary" %}}
 
