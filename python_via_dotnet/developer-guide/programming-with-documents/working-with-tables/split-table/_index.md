@@ -20,4 +20,4 @@ We can create two tables from the original table by following these simple steps
 
 The following code example shows how to split a table into two tables on a specific row:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-SplitTable.py" >}} //SplitTable
+{{< gist "aspose-words-gists" "d31be78b25b463dd4eb31c85c60fc549" "split-table.py" >}}

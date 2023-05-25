@@ -24,7 +24,7 @@ The user can create a new style and add it to style collection. The [Add](https:
 
 The following code example shows how to create a new user defined table style:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-CreateTableStyle.py" >}} //CreateTableStyle
+{{< gist "aspose-words-gists" "1825da859a3400b9777f6c745a0889aa" "create-table-style.py" >}}
 
 ## Copy an Existing Table Style 
 
@@ -48,13 +48,13 @@ In this case, conditional formatting can be defined for all possible table area 
 
 The following code example shows how to define conditional formatting for header row of the table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-DefineConditionalFormatting.py" >}} //DefineConditionalFormatting
+{{< gist "aspose-words-gists" "1825da859a3400b9777f6c745a0889aa" "define-conditional-formatting.py" >}}
 
 You can also choose which table parts to apply styles to, such as first column, last column, banded rows. They are listed in the [TableStyleOptions](https://reference.aspose.com/words/python-net/aspose.words.tables/tablestyleoptions/) enumeration and are applied through the [StyleOptions](https://reference.aspose.com/words/python-net/aspose.words.tables/table/style_options/) property. The **TableStyleOptions** enumeration allows a bitwise combination of these features.
 
 The following code example shows how to create a new table with a table style applied:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-BuildTableWithStyle.py" >}} //BuildTableWithStyle
+{{< gist "aspose-words-gists" "1825da859a3400b9777f6c745a0889aa" "build-table-with-style.py" >}}
 
 The pictures below show a representation of the **Table Styles** in Microsoft Word and their corresponding properties in Aspose.Words.
 
@@ -86,4 +86,4 @@ This method will not override any other formatting already applied to the table 
 
 The following code example shows how to expand the formatting from styles onto table rows and cells as direct formatting:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-ExpandFormattingOnCellsAndRowFromStyle.py" >}} //ExpandFormattingOnCellsAndRowFromStyle
+{{< gist "aspose-words-gists" "1825da859a3400b9777f6c745a0889aa" "expand-formatting-on-cells-and-row-from-style.py" >}}
