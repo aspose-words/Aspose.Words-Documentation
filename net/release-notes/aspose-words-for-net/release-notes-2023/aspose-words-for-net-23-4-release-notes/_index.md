@@ -27,6 +27,9 @@ There are 70 improvements and fixes in this regular monthly release. The most no
 
 ## Full List of Issues Covering all Changes in this Release
 
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
+
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-24937|Ability to set foreground color with update of all gradient stops having the same color|New Feature
@@ -100,6 +103,9 @@ There are 70 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-20142|Text rotates after DOCX to HTML conversion|Bug
 |WORDSNET-20006|HTML is exported in one vertical line after conversion from DOCX|Bug
 
+</details>
+{{% /alert %}}
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 23.4. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -108,7 +114,8 @@ This section lists public API changes that were introduced in Aspose.Words 23.4.
 
 Related issue: WORDSNET-25164
 
-Now you can set the following properties of the Table class:
+Now you can set the following properties of the **Table** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets distance between table left and the surrounding text, in points.
@@ -133,8 +140,14 @@ public double DistanceBottom { get; set; }
 
 Please note: setting these properties makes the table floating.
 
-#### Use Case: 
-Explains how to set distance between table and surrounding text.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to set distance between table and surrounding text. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("input.docx");
 Table table = doc.FirstSection.Body.Tables[0];
@@ -152,7 +165,8 @@ doc.Save("output.docx");
 
 Related issue: WORDSNET-24937
 
-The following public property was added to Aspose.Words.Drawing.GradientStop class:
+The following public property was added to the **Aspose.Words.Drawing.GradientStop** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets a value representing the color of the gradient stop without any modifiers.
@@ -160,8 +174,14 @@ The following public property was added to Aspose.Words.Drawing.GradientStop cla
 public Color BaseColor { get; }
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to get unmodified Color of the gradient stop.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get unmodified Color of the gradient stop. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 DocumentBuilder builder = new DocumentBuilder();
 Shape shape = builder.InsertShape(ShapeType.Balloon, 300, 300);
@@ -188,7 +208,8 @@ The base (unmodified) color is: Color [A=255, R=255, G=0, B=0]
 
 Related issue: WORDSNET-24973
 
-The following public property was added to Aspose.Words.Run class:
+The following public property was added to the **Aspose.Words.Run** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets a boolean value indicating either the run is a phonetic guide.
@@ -196,8 +217,14 @@ The following public property was added to Aspose.Words.Run class:
 public bool IsPhoneticGuide { get; }
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to determine either a Run is a phonetic guide run.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to determine either a Run is a phonetic guide run. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 DocumentBuilder builder = new DocumentBuilder();
 
@@ -215,7 +242,8 @@ The phonetic guide value of the run is 'False'
 
 Related issue: WORDSNET-24937
 
-The following public property was added to Aspose.Words.Drawing.Stroke class:
+The following public property was added to the **Aspose.Words.Drawing.Stroke** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets fill formatting for the <see cref="Stroke"/>.
@@ -223,8 +251,14 @@ The following public property was added to Aspose.Words.Drawing.Stroke class:
 public Fill Fill { get; }
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to fill a stroke of the shape.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to fill a stroke of the shape. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 DocumentBuilder builder = new DocumentBuilder();
 Shape shape =  builder.InsertShape(ShapeType.Balloon, 300, 300);
@@ -244,9 +278,9 @@ Related issue: WORDSNET-24908
 
 The following changes have been implemented:
 
-A ChartSeriesCollection instance returned by the Chart.Series property includes all series of a combo chart, not just those of a main chart type.
+* A **ChartSeriesCollection** instance returned by the **Chart.Series** property includes all series of a combo chart, not just those of a main chart type
+* Implemented the **ChartAxisCollection** class. Added the **Chart.Axes** property of this type, which allows access to all axes of a combo chart
 
-Implemented the ChartAxisCollection class. Added the Chart.Axes property of this type, which allows access to all axes of a combo chart.
 {{< highlight csharp >}}
 /// <summary>
 /// Gets a collection of all axes of this chart.
@@ -269,8 +303,14 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 }
 {{< /highlight >}}
 
-#### Use Case:
-Explains how to work with series and axes of a combo chart.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with series and axes of a combo chart. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("ComboChart.docx");
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
@@ -301,7 +341,8 @@ doc.Save("output.docx");
 
 Related issue: WORDSNET-24502
 
-New public properties RelativeHorizontalSize and RelativeVerticalSize for specifying the relative size binding of the shape have been added to Shape class:
+New public properties **RelativeHorizontalSize** and **RelativeVerticalSize** for specifying the relative size binding of the shape have been added to the **Shape** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets the value of shape's relative size in horizontal direction.
@@ -314,7 +355,8 @@ public RelativeHorizontalSize RelativeHorizontalSize { get; set; }
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
 {{< /highlight >}}
 
-New public properties HeightRelative and WidthRelative for specifying the shape relative size in percent have been added to Shape class: 
+New public properties **HeightRelative** and **WidthRelative** for specifying the shape relative size in percent have been added to the **Shape** class: 
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets the value that represents the percentage of shape's relative height.
@@ -327,7 +369,8 @@ public float HeightRelative { get; set; }
 public float WidthRelative { get; set; }
 {{< /highlight >}}
 
-New public properties LeftRelative and TopRelative for specifying the shape relative position in percent have been added to Shape class:
+New public properties **LeftRelative** and **TopRelative** for specifying the shape relative position in percent have been added to the **Shape** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets the value that represents shape's relative left position in percent.
@@ -340,7 +383,8 @@ public float LeftRelative { get; set; }
 public float TopRelative { get; set; }
 {{< /highlight >}}
 
-New public enums RelativeHorizontalSize and RelativeVerticalSize have been introduced:
+New public enums **RelativeHorizontalSize** and **RelativeVerticalSize** have been introduced:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies relatively to what the width of a shape or a text frame is calculated horizontally.
@@ -353,8 +397,14 @@ public enum RelativeHorizontalSize
 public enum RelativeVerticalSize
 {{< /highlight >}}
 
-#### Use Case:
-Customers may now get and set the shape relative positioning and sizing.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set the shape relative positioning and sizing. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -405,7 +455,7 @@ doc.Save("output.docx");
 
 ### Removed obsolete property JsonDataLoadOptions.ExactDateTimeParseFormat
 
-The obsolete property JsonDataLoadOptions.ExactDateTimeParseFormat has been removed. Please use the JsonDataLoadOptions.ExactDateTimeParseFormats property instead.
+The obsolete property **JsonDataLoadOptions.ExactDateTimeParseFormat** has been removed. Please use the **JsonDataLoadOptions.ExactDateTimeParseFormats** property instead.
 
 {{< highlight csharp >}}
 /// <summary>
@@ -439,7 +489,14 @@ public IEnumerable<string> ExactDateTimeParseFormats
 }
 {{< /highlight >}}
 
-#### Use Case:
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to use the new **JsonDataLoadOptions.ExactDateTimeParseFormats** proprety. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 const string dateTimeParseFormat = "dd.MM.yy";
 JsonDataLoadOptions options = new JsonDataLoadOptions();

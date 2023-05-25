@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 23.1 Release Notes
 description: "Aspose.Words for C++ 23.1 Release Notes – the latest updates and fixes."
 type: docs
-weight: 70
+weight: 90
 url: /cpp/aspose-words-for-cpp-23-1-release-notes/
 ---
 
@@ -22,7 +22,10 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 - Provided the way to control how the list items are exported to the Markdown format.
 - Added support of R-squared coefficient in DML charts trendline labels when rendering.
 
-<details><summary>Full list of changes</summary>
+## Full List of Issues Covering all Changes in this Release
+
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of reported  issues.</summary>
 
 1. Add feature to support PDF/X-1a:2001 compliance level
 2. Support of DOCX to PDF_X_1A conversion
@@ -101,6 +104,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 75. Couple of lines in footer are cutting in PDF/A
 
 </details>
+{{% /alert %}}
 
 ## Public API and Backward Incompatible Changes
 
@@ -109,7 +113,8 @@ This section lists public API changes that were introduced in Aspose.Words 23.2.
 
 ### Added Font property to ChartDataLabel and ChartDataLabelCollection classes
 
-The Font property has been added to the ChartDataLabel and ChartDataLabelCollection classes:
+The **Font** property has been added to the **ChartDataLabel** and **ChartDataLabelCollection** classes:
+
 {{< highlight csharp >}}
 class ChartDataLabel
 {
@@ -126,7 +131,14 @@ System::SharedPtr<Aspose::Words::Font> get_Font();
 }
 {{< /highlight >}}
 
-Use Case:
+{{% alert color="secondary" %}}
+
+**Use Case:**
+
+This use case explains how to work with **Font** in Charts. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -164,8 +176,9 @@ doc->Save(u"LabelFont.docx");
 
 ### Added IgnoreOleData option into LoadOptions class
 
-The IgnoreOleData property has been added to the LoadOptions class.
+The **IgnoreOleData** property has been added to the **LoadOptions** class.
 May be usefull when destination format does not support OLE.
+
 {{< highlight csharp >}}
 class LoadOptions
 {
@@ -183,7 +196,14 @@ void set_IgnoreOleData(bool value);
 }
 {{< /highlight >}}
 
-Use Case:
+{{% alert color="secondary" %}}
+
+**Use Case:**
+
+This use case explains how to work with **IgnoreOleData**. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 auto lo = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 lo->set_IgnoreOleData(true);
@@ -197,6 +217,7 @@ doc->Save(u"Test.pdf");
 Metafile raster operations emulations have been improved.
 
 Also added an option to use GDI+ in raster operations emulation process.
+
 {{< highlight csharp >}}
 /// Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation.
 ///
@@ -218,7 +239,8 @@ void set_UseGdiRasterOperationsEmulation(bool value);
 
 ### Added new public properties for working with shading theme colors
 
-A new public properties ForegroundPatternThemeColor and BackgroundPatternThemeColor has been added to class Shading.
+A new public properties **ForegroundPatternThemeColor** and **BackgroundPatternThemeColor** has been added to the **Shading**  class.
+
 {{< highlight csharp >}}
 /// Gets the foreground pattern theme color in the applied color scheme that is associated with this <see cref="Aspose::Words::Shading">Shading</see> object.
 Aspose::Words::Themes::ThemeColor get_ForegroundPatternThemeColor();
@@ -233,7 +255,8 @@ Aspose::Words::Themes::ThemeColor get_BackgroundPatternThemeColor();
 void set_BackgroundPatternThemeColor(Aspose::Words::Themes::ThemeColor value);
 {{< /highlight >}}
 
-A new public properties ForegroundTintAndShade and BackgroundTintAndShade has been added to class Shading.
+A new public properties **ForegroundTintAndShade** and **BackgroundTintAndShade** has been added to the **Shading** class.
+
 {{< highlight csharp >}}
 /// Gets or sets a double value that lightens or darkens a foreground theme color.
 ///
@@ -262,7 +285,14 @@ double get_BackgroundTintAndShade();
 void set_BackgroundTintAndShade(double value);
 {{< /highlight >}}
 
-Use Case: Explains how to work with shading theme colors.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with shading theme colors. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"c:\\Documents\\TestDocument.docx");
 System::SharedPtr<Aspose::Words::Shading> shading = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Shading();
@@ -293,7 +323,8 @@ doc->Save(u"output.docx");
 
 ### Added public property Range.Revisions
 
-A new public property Revisions has been added to class Range:
+A new public property **Revisions** has been added to the **Range** class:
+
 {{< highlight csharp >}}
 /// Gets a collection of revisions (tracked changes) that exist in this range.
 ///
@@ -302,7 +333,14 @@ A new public property Revisions has been added to class Range:
 System::SharedPtr<Aspose::Words::RevisionCollection> get_Revisions();
 {{< /highlight >}}
 
-Use Case: Explains how to get actual revisions from the node range.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get actual revisions from the node range. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"c:\\Documents\\TestDocument.docx");
 // Getting the first paragraph revisions.
@@ -327,9 +365,16 @@ doc->get_FirstSection()->get_Range()->get_Revisions()->RejectAll();
 
 Now Aspose.Words can generate TOC (table of contents) for AZW3 documents.
 
-Desired depth of TOC can be specified same way as it's done for EPUB documents using HtmlSaveOptions.EpubNavigationMapLevel property.
+Desired depth of TOC can be specified same way as it's done for EPUB documents using **HtmlSaveOptions.EpubNavigationMapLevel** property.
 
-Use Case: Explains how to create AZW3 document with a two-level TOC.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to create AZW3 document with a two-level TOC. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>();
 
@@ -339,9 +384,10 @@ options->set_EpubNavigationMapLevel(2);
 doc->Save(MyDir + u"DocumentWithTwoLevelTOC.azw3", options);
 {{< /highlight >}}
 
-### Added the ability to specify how list items will be written to the Markdown.
+### Added the ability to specify how list items will be written to the Markdown
 
-The following public enumeration is added to Aspose.Words.Saving namespace:
+The following public enumeration is added to **Aspose.Words.Saving** namespace:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies how lists are exported into Markdown.
@@ -357,7 +403,8 @@ enum class MarkdownListExportMode
 };
 {{< /highlight >}}
 
-The following public property is added to MarkdownSaveOptions class:
+The following public property is added to the **MarkdownSaveOptions** class:
+
 {{< highlight csharp >}}
 /// Specifies how list items will be written to the output file.
 /// Default value is <see cref="Aspose::Words::Saving::MarkdownListExportMode::MarkdownSyntax">MarkdownSyntax</see>.
@@ -374,7 +421,14 @@ Aspose::Words::Saving::MarkdownListExportMode get_ListExportMode() const;
 void set_ListExportMode(Aspose::Words::Saving::MarkdownListExportMode value);
 {{< /highlight >}}
 
-Use Case: Explains how to export document with plain text numbering into Markdown.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to export document with plain text numbering into Markdown. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"input.docx");
 // Set option to export list items as plain text.
@@ -385,11 +439,11 @@ doc->Save(u"output.md", options);
 
 ### HtmlSaveOptions.ScaleImageToShapeSize now also affects grouped raster images
 
-Behavior of the HtmlSaveOptions.ScaleImageToShapeSize property was changed to affect groups of raster images.
+Behavior of the **HtmlSaveOptions.ScaleImageToShapeSize** property was changed to affect groups of raster images.
 
-Previously, HtmlSaveOptions.ScaleImageToShapeSize didn't affect grouped raster images and they were always scaled to shape size and were rendered using the resolution value specified in HtmlSaveOptions.ImageResolution. If grouped images were high resolution, their quality would reduce considerably because of scaling.
+Previously, **HtmlSaveOptions.ScaleImageToShapeSize** didn't affect grouped raster images and they were always scaled to shape size and were rendered using the resolution value specified in **HtmlSaveOptions.ImageResolution**. If grouped images were high resolution, their quality would reduce considerably because of scaling.
 
-Now Aspose.Words tries to preserve quality of grouped high resolution images. If a group of raster images is saved to HTML and the HtmlSaveOptions.ScaleImageToShapeSize property is set to false, Aspose.Words computes max intrinsic resolution among all images in the group and if it is greater than the value specified in HtmlSaveOptions.ImageResolution, the group is rendered using the computed increased resolution. This doesn't eliminate scaling completely but reduces its impact on grouped high resolution raster images.
+Now Aspose.Words tries to preserve quality of grouped high resolution images. If a group of raster images is saved to HTML and the **HtmlSaveOptions.ScaleImageToShapeSize** property is set to false, Aspose.Words computes max intrinsic resolution among all images in the group and if it is greater than the value specified in **HtmlSaveOptions.ImageResolution**, the group is rendered using the computed increased resolution. This doesn't eliminate scaling completely but reduces its impact on grouped high resolution raster images.
 
 ## Limitations and API Differences
 

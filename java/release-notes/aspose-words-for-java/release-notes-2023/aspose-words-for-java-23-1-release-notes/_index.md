@@ -25,14 +25,20 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 - Provided the way to control how the list items are exported to the Markdown format.
 - Added support of R-squared coefficient in DML charts trendline labels when rendering.
 
-## Full List of Issues Covering all Changes in this Release (Reported by Java Users)
+## Full List of Issues Covering all Changes in this Release
+
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by Java Users.</summary>
 
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSJAVA-2744|Germany ?ß? in a capitalized word is transformed into ?SS? upon rendering|Bug|
 
+</details>
+{{% /alert %}}
 
-## Full List of Issues Covering all Changes in this Release (Reported by .NET Users)
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
 
 |Key|Summary|Category|
 | :- | :- | :- |
@@ -112,6 +118,9 @@ There are 76 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-24365|Exported image looks like a screenshot, not as image visible in MS Word|Bug
 |WORDSNET-13264|Couple of lines in footer are cutting in PDF/A|Bug
 
+</details>
+{{% /alert %}}
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 23.1. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -120,7 +129,8 @@ This section lists public API changes that were introduced in Aspose.Words 23.1.
 
 Related issue: WORDSNET-24652
 
-The Font property has been added to the ChartDataLabel and ChartDataLabelCollection classes:
+The **Font** property has been added to the **ChartDataLabel** and **ChartDataLabelCollection** classes:
+
 {{< highlight csharp >}}
 public class ChartDataLabel
 {
@@ -145,7 +155,14 @@ public class ChartDataLabelCollection
 }
 {{< /highlight >}}
 
-Use Case:
+{{% alert color="secondary" %}}
+
+**Use Case:**
+
+This use case explains how to work with **Font** in Charts. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -186,8 +203,9 @@ doc.Save("LabelFont.docx");
 
 Related issue: WORDSNET-24477
 
-The IgnoreOleData property has been added to the LoadOptions class.
+The **IgnoreOleData** property has been added to the **LoadOptions** class.
 May be usefull when destination format does not support OLE.
+
 {{< highlight csharp >}}
 public class LoadOptions
 {
@@ -208,7 +226,14 @@ public class LoadOptions
 }
 {{< /highlight >}}
 
-Use Case:
+{{% alert color="secondary" %}}
+
+**Use Case:**
+
+This use case explains how to work with **IgnoreOleData**. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 LoadOptions lo = new LoadOptions() { IgnoreOleData = true };
 Document doc = new Document("Test.docx", lo);
@@ -223,6 +248,7 @@ Related issue: #WORDSNET-24003
 Metafile raster operations emulations have been improved.
 
 Also added an option to use GDI+ in raster operations emulation process.
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation.
@@ -246,7 +272,8 @@ public bool UseGdiRasterOperationsEmulation { get; set }
 
 Related issue: WORDSNET-24456
 
-A new public properties ForegroundPatternThemeColor and BackgroundPatternThemeColor has been added to class Shading.
+A new public properties **ForegroundPatternThemeColor** and **BackgroundPatternThemeColor** has been added to the **Shading**  class.
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this <see cref="Shading"/> object.
@@ -259,7 +286,8 @@ public ThemeColor ForegroundPatternThemeColor { get; set; }
 public ThemeColor BackgroundPatternThemeColor { get; set; }
 {{< /highlight >}}
 
-A new public properties ForegroundTintAndShade and BackgroundTintAndShade has been added to class Shading.
+A new public properties **ForegroundTintAndShade** and **BackgroundTintAndShade** has been added to the **Shading** class.
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a double value that lightens or darkens a foreground theme color.
@@ -272,7 +300,14 @@ public double ForegroundTintAndShade { get; set; }
 public double BackgroundTintAndShade { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to work with shading theme colors.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with shading theme colors. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("c:\Documents\TestDocument.docx");
 
@@ -298,7 +333,8 @@ doc.Save("output.docx");
 
 Related issue: WORDSNET-24257
 
-A new public property Revisions has been added to class Range:
+A new public property **Revisions** has been added to the **Range** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets a collection of revisions (tracked changes) that exist in this range.
@@ -310,7 +346,14 @@ A new public property Revisions has been added to class Range:
 public RevisionCollection Revisions { get; }
 {{< /highlight >}}
 
-Use Case: Explains how to get actual revisions from the node range.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get actual revisions from the node range. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("c:\Documents\TestDocument.docx");
 // Getting the first paragraph revisions.
@@ -330,9 +373,16 @@ Related issue: WORDSNET-24389
 
 Now Aspose.Words can generate TOC (table of contents) for AZW3 documents.
 
-Desired depth of TOC can be specified same way as it's done for EPUB documents using HtmlSaveOptions.EpubNavigationMapLevel property.
+Desired depth of TOC can be specified same way as it's done for EPUB documents using the **HtmlSaveOptions.EpubNavigationMapLevel** property.
 
-Use Case: Explains how to create AZW3 document with a two-level TOC.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to create AZW3 document with a two-level TOC. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document();
 
@@ -342,11 +392,12 @@ options.EpubNavigationMapLevel = 2;
 doc.Save(MyDir + "DocumentWithTwoLevelTOC.azw3", options);
 {{< /highlight >}}
 
-### Added the ability to specify how list items will be written to the Markdown.
+### Added the ability to specify how list items will be written to the Markdown
 
 Related issue: WORDSNET-24544
 
-The following public enumeration is added to Aspose.Words.Saving namespace:
+The following public enumeration is added to **Aspose.Words.Saving** namespace:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies how lists are exported into Markdown.
@@ -365,7 +416,8 @@ public enum MarkdownListExportMode
 }
 {{< /highlight >}}
 
-The following public property is added to MarkdownSaveOptions class:
+The following public property is added to the **MarkdownSaveOptions** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies how list items will be written to the output file.
@@ -381,7 +433,14 @@ The following public property is added to MarkdownSaveOptions class:
 public MarkdownListExportMode ListExportMode { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to export document with plain text numbering into Markdown.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to export document with plain text numbering into Markdown. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("input.docx");
 
@@ -394,17 +453,18 @@ doc.Save("output.md", options);
 
 Related issue: WORDSNET-24065
 
-Behavior of the HtmlSaveOptions.ScaleImageToShapeSize property was changed to affect groups of raster images.
+Behavior of the **HtmlSaveOptions.ScaleImageToShapeSize** property was changed to affect groups of raster images.
 
-Previously, HtmlSaveOptions.ScaleImageToShapeSize didn't affect grouped raster images and they were always scaled to shape size and were rendered using the resolution value specified in HtmlSaveOptions.ImageResolution. If grouped images were high resolution, their quality would reduce considerably because of scaling.
+Previously, **HtmlSaveOptions.ScaleImageToShapeSize** didn't affect grouped raster images and they were always scaled to shape size and were rendered using the resolution value specified in **HtmlSaveOptions.ImageResolution**. If grouped images were high resolution, their quality would reduce considerably because of scaling.
 
-Now Aspose.Words tries to preserve quality of grouped high resolution images. If a group of raster images is saved to HTML and the HtmlSaveOptions.ScaleImageToShapeSize property is set to false, Aspose.Words computes max intrinsic resolution among all images in the group and if it is greater than the value specified in HtmlSaveOptions.ImageResolution, the group is rendered using the computed increased resolution. This doesn't eliminate scaling completely but reduces its impact on grouped high resolution raster images.
+Now Aspose.Words tries to preserve quality of grouped high resolution images. If a group of raster images is saved to HTML and the **HtmlSaveOptions.ScaleImageToShapeSize** property is set to false, Aspose.Words computes max intrinsic resolution among all images in the group and if it is greater than the value specified in **HtmlSaveOptions.ImageResolution**, the group is rendered using the computed increased resolution. This doesn't eliminate scaling completely but reduces its impact on grouped high resolution raster images.
 
 ### OfficeMath.EquationXmlEncoding property was marked as obsolete
 
 Related issue: WORDSNET-24770
 
-The OfficeMath.EquationXmlEncoding property has been marked as obsolete because it is not intended to be used in the API.
+The **OfficeMath.EquationXmlEncoding** property has been marked as obsolete because it is not intended to be used in the API.
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML.

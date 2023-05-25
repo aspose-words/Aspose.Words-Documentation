@@ -11,13 +11,40 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 23.1, 23.2, 23.3
+## Aspose.Words for Python via .NET 23.5
+
+Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
+
+### Rendering
+
+#### Get and Modify Chart Series Data <sup>23.5</sup>
+
+The feature to get and modify chart series data was provided by adding:
+
+- new classes: [ChartXValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmultilevelvalue/)
+- new enum types: [ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
+
+### Other
+
+- Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
+- The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) method. <sup>23.5</sup>
+- The public property [PhoneticGuide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) has been added. <sup>23.5</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Python via .NET 23.5 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words for Python via .NET 23.1, 23.2, 23.3, 23.4
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
 
 Aspose.Words 23.2 introduces saving documents in the MOBI format, improves chart rendering, and makes notable changes to document appearance details.
 
 Aspose.Words 23.3 enhances the documents import and saving with new properties, and also improves the quality of work with background and foreground color and radial gradient.
+
+Aspose.Words 23.4 improves the calculation of some parameters and the positioning of the table and surrounding text.
 
 ### Performance Improvements
 
@@ -53,6 +80,10 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) cl
 
 Rendering of radial gradients with the SkiaSharp native shader for .NET Standard has been implemented.
 
+#### Distance Between the Table and Surrounding Text <sup>23.4</sup>
+
+The ability to set the distance between the table and surrounding text has been added by introducing new properties to the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) class: [DistanceLeft](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [DistanceRight](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [DistanceTop](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), and [DistanceBottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
+
 ### Loading and Saving Documents
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
@@ -73,9 +104,13 @@ The ability to specify whether to adjust sentence and word spacing automatically
 
 ### Other
 
-- The ability to specify the character spacing adjustment of a document has been added through the **JustificationMode** property implementation <sup>23.2</sup>
-- The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the **IncludeTextboxesFootnotesEndnotesInStat** property <sup>23.2</sup>
-- A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the **AutomaticallyUpdate** property <sup>23.2</sup>
+- The ability to specify the character spacing adjustment of a document has been added through the [JustificationMode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) property implementation <sup>23.2</sup>
+- The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) property <sup>23.2</sup>
+- A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the [AutomaticallyUpdate](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) property <sup>23.2</sup>
+- The ability to determine whether [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) is a phonetic guide run has been added using the [IsPhoneticGuide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) property <sup>23.4</sup>
+- A simple way to work with series and axes of combo charts has been implemented by introducing the [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) class and adding the [Chart.Axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) property <sup>23.4</sup>
+- New public properties connected to the shape relative positioning and sizing have been added to the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class <sup>23.4</sup>
+- Accuracy and performance of color brightness calculation for automatic text color resolution has been improved in accordance with the latest versions of Microsoft Word <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -84,6 +119,8 @@ Learn more about [Aspose.Words for Python via .NET 23.1 Release Notes](/words/py
 Learn more about [Aspose.Words for Python via .NET 23.2 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 23.3 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 23.4 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
 
 {{% /alert %}}
 
@@ -326,5 +363,13 @@ A new import mode for HTML block-level elements has been implemented to mimic Mi
 Learn more about [Aspose.Words for Python via .NET 22.3 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 22.4 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/).
+
+{{% /alert %}}
+
+## See Also
+
+{{% alert color="primary" %}}
+
+This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](/words/python-net/release-notes/) pages in the relevant sections.
 
 {{% /alert %}}

@@ -29,6 +29,9 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 
 ## Full List of Issues Covering all Changes in this Release
 
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
+
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-24556|Make the Document.DocPr.DoNotIncludeSubDocsInStats property public|New Feature
@@ -109,6 +112,9 @@ There are 77 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-20795|List labels are exported incorrectly when document is save to HTML using Node.ToString|Bug
 |WORDSNET-24731|Image in header is flipped on PDF import|Bug
 
+</details>
+{{% /alert %}}
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 23.2. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -117,7 +123,8 @@ This section lists public API changes that were introduced in Aspose.Words 23.2.
 
 Related issue: WORDSNET-24819
 
-The following public property was added to Aspose.Words.Document class:
+The following public property was added to the **Aspose.Words.Document** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
@@ -125,7 +132,14 @@ The following public property was added to Aspose.Words.Document class:
 public bool IncludeTextboxesFootnotesEndnotesInStat
 {{< /highlight >}}
 
-Use Case: Explains how to include or exclude textboxes, footnotes and endnotes from word count statistics.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to include or exclude textboxes, footnotes and endnotes from word count statistics. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -155,7 +169,8 @@ Words count with textboxes, footnotes and endnotes: 4
 
 Related issue: WORDSNET-24455
 
-A new public property JustificationMode has been added to class Document:
+A new public property **JustificationMode** has been added to the **Document** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets the character spacing adjustment of a document.
@@ -163,7 +178,14 @@ A new public property JustificationMode has been added to class Document:
 public JustificationMode JustificationMode { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to get and set the character spacing adjustment of a document.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set the character spacing adjustment of a document. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 // Getting JustificationMode.
@@ -177,7 +199,8 @@ if (justificationMode == JustificationMode.Expand)
 
 Related issue: WORDSNET-24686
 
-A new public property AutomaticallyUpdate has been added to class Style:
+A new public property **AutomaticallyUpdate** has been added to thr **Style** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies whether this style is automatically redefined based on the appropriate value.
@@ -185,7 +208,14 @@ A new public property AutomaticallyUpdate has been added to class Style:
 public bool AutomaticallyUpdate { get; set; }
 {{< /highlight >}}
 
-Use Case: Explains how to get and set AutomaticallyUpdate property of a Style.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set **AutomaticallyUpdate** property of a Style. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 // Getting AutomaticallyUpdate.
@@ -207,25 +237,34 @@ Aspose.Words now can export documents to MOBI file format.
 MOBI (also called PRC, AZW) is Amazon Kindle's proprietary e-book file format.
 
 The following publicly visible enum values were added:
+
 {{< highlight csharp >}}
 FileFormat.Mobi
 SaveFormat.Mobi
 {{< /highlight >}}
 
-The use cases for saving a document to MOBI file format are as follows:
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to save a document to MOBI file format. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 doc.Save("out.mobi");
 {{< /highlight >}}
 
 or
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Mobi);
 doc.Save("out.mobi", options);
 {{< /highlight >}}
 
-HtmlSaveOptions properties that are not applicable for MOBI export:
+**HtmlSaveOptions** properties that are not applicable for MOBI export:
 
 - ImagesFolder
 - ImagesFolderAlias

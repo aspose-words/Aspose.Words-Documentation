@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 23.2 Release Notes
 description: "Aspose.Words for C++ 23.2 Release Notes – the latest updates and fixes."
 type: docs
-weight: 60
+weight: 80
 url: /cpp/aspose-words-for-cpp-23-2-release-notes/
 ---
 
@@ -25,6 +25,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 
 ## Full list of changes
 
+{{% alert color="secondary" %}}
 <details><summary>Expand to view the full list of issues, covering all changes in this release.</summary>
 
 1. Make the Document.DocPr.DoNotIncludeSubDocsInStats property public
@@ -106,6 +107,7 @@ There are 75 improvements and fixes in this regular monthly release. The most no
 77. Image in header is flipped on PDF import
 
 </details>
+{{% /alert %}}
 
 ## Public API and Backward Incompatible Changes
 
@@ -113,7 +115,8 @@ This section lists public API changes that were introduced in Aspose.Words 23.2.
 
 ### Added public property Document.IncludeTextboxesFootnotesEndnotesInStat
 
-The following public property was added to Aspose.Words.Document class:
+The following public property was added to the **Aspose.Words.Document** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
@@ -121,7 +124,14 @@ The following public property was added to Aspose.Words.Document class:
 bool get_IncludeTextboxesFootnotesEndnotesInStat();
 {{< /highlight >}}
 
-Use Case: Explains how to include or exclude textboxes, footnotes and endnotes from word count statistics.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to include or exclude textboxes, footnotes and endnotes from word count statistics. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>();
 System::SharedPtr<Aspose::Words::DocumentBuilder> builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
@@ -149,7 +159,8 @@ Words count with textboxes, footnotes and endnotes: 4
 
 ### Added public property Document.JustificationMode
 
-A new public property JustificationMode has been added to class Document:
+A new public property **JustificationMode** has been added to the **Document** class:
+
 {{< highlight csharp >}}
 /// Gets the character spacing adjustment of a document.
 Aspose::Words::Settings::JustificationMode get_JustificationMode();
@@ -158,7 +169,14 @@ Aspose::Words::Settings::JustificationMode get_JustificationMode();
 void set_JustificationMode(Aspose::Words::Settings::JustificationMode value);
 {{< /highlight >}}
 
-Use Case: Explains how to get and set the character spacing adjustment of a document.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set the character spacing adjustment of a document. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"in.docx");
 
@@ -173,7 +191,8 @@ if (justificationMode == Aspose::Words::Settings::JustificationMode::Expand)
 
 ### Added public property Style.AutomaticallyUpdate
 
-A new public property AutomaticallyUpdate has been added to class Style:
+A new public property **AutomaticallyUpdate** has been added to thr **Style** class:
+
 {{< highlight csharp >}}
 /// Specifies whether this style is automatically redefined based on the appropriate value.
 ///
@@ -189,7 +208,14 @@ bool get_AutomaticallyUpdate() const;
 void set_AutomaticallyUpdate(bool value);
 {{< /highlight >}}
 
-Use Case: Explains how to get and set AutomaticallyUpdate property of a Style.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to get and set **AutomaticallyUpdate** property of a Style. Please see the following code example to learn how to use such a property:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"in.docx");
 // Getting AutomaticallyUpdate.
@@ -209,25 +235,34 @@ Aspose.Words now can export documents to MOBI file format.
 MOBI (also called PRC, AZW) is Amazon Kindle's proprietary e-book file format.
 
 The following publicly visible enum values were added:
+
 {{< highlight csharp >}}
 FileFormat::Mobi
 SaveFormat::Mobi
 {{< /highlight >}}
 
-The use cases for saving a document to MOBI file format are as follows:
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to save a document to MOBI file format. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"in.docx");
 doc->Save(u"out.mobi");
 {{< /highlight >}}
 
 or
+
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(u"in.docx");
 System::SharedPtr<Aspose::Words::Saving::HtmlSaveOptions> options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Mobi);
 doc->Save(u"out.mobi", options);
 {{< /highlight >}}
 
-HtmlSaveOptions properties that are not applicable for MOBI export:
+**HtmlSaveOptions** properties that are not applicable for MOBI export:
 
 - ImagesFolder
 - ImagesFolderAlias

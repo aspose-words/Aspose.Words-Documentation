@@ -27,6 +27,9 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 
 ## Full List of Issues Covering all Changes in this Release
 
+{{% alert color="secondary" %}}
+<details><summary>Expand to view the full list of issues, reported by .NET Users.</summary>
+
 |Key|Summary|Category|
 | :- | :- | :- |
 |WORDSNET-24975|Add ability to determine if font color is overridden for Inline node and for paragraph break character|New Feature
@@ -108,6 +111,9 @@ There are 78 improvements and fixes in this regular monthly release. The most no
 |WORDSNET-11936|Image elements in absolute positions in HTML are not displayed in Word|Bug
 |WORDSNET-24563|Aspose.Word .NET Core Performance Problem|Bug
 
+</details>
+{{% /alert %}}
+
 ## Public API and Backward Incompatible Changes
 
 This section lists public API changes that were introduced in Aspose.Words 23.3. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
@@ -116,7 +122,8 @@ This section lists public API changes that were introduced in Aspose.Words 23.3.
 
 Related issue: WORDSNET-24442
 
-A new public properties ForeThemeColor and BackThemeColor has been added to class Fill.
+A new public properties **ForeThemeColor** and **BackThemeColor** has been added to the **Fill** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a ThemeColor object that represents the foreground color for the fill.
@@ -129,7 +136,8 @@ public ThemeColor ForeThemeColor { get; set; }
 public ThemeColor BackThemeColor { get; set; }
 {{< /highlight >}}
 
-A new public properties ForeTintAndShade and BackTintAndShade has been added to class Fill.
+A new public properties **ForeTintAndShade** and **BackTintAndShade** has been added to the **Fill** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a double value that lightens or darkens the foreground color.
@@ -152,8 +160,14 @@ public double ForeTintAndShade { get; set; }
 public double BackTintAndShade { get; set; }
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to work with theme colors and tint and shade.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to work with **theme colors** and **tint and shade**. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document doc = new Document("in.docx");
 
@@ -182,7 +196,8 @@ doc.Save("out.docx");
 
 Related issue: WORDSNET-24673
 
-The following public properties have been added to the Aspose.Words.Drawing.Charts.ChartAxis class:
+The following public properties have been added to the **Aspose.Words.Drawing.Charts.ChartAxis** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a flag indicating whether the axis has major gridlines.
@@ -195,7 +210,14 @@ public bool HasMajorGridlines { get; set; }
 public bool HasMinorGridlines { get; set; }
 {{< /highlight >}}
 
-#### Use Case: 
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to show chart gridlines. Please see the following code example to learn how to use such properties:
+
+{{% /alert %}}
+
 Explains how to show chart gridlines.
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -220,7 +242,8 @@ doc.Save("Gridlines.docx");
 
 Related issue: WORDSNET-24960
 
-The following public property was added to Aspose.Words.ImportFormatOptions class:
+The following public property was added to the **Aspose.Words.ImportFormatOptions** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically.
@@ -229,8 +252,14 @@ The following public property was added to Aspose.Words.ImportFormatOptions clas
 public bool AdjustSentenceAndWordSpacing { get; set; }
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to use AdjustSentenceAndWordSpacing option.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to use the **AdjustSentenceAndWordSpacing** option. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 Document srcDoc = new Document();
 Document dstDoc = new Document();
@@ -255,7 +284,8 @@ Lorem ipsum. Dolor sit amet.
 
 Related issue: WORDSNET-24883
 
-The following public property was added to Aspose.Words.Drawing.TextBox class:
+The following public property was added to the **Aspose.Words.Drawing.TextBox** class:
+
 {{< highlight csharp >}}
 /// <summary>
 /// Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
@@ -266,8 +296,14 @@ The following public property was added to Aspose.Words.Drawing.TextBox class:
 public bool NoTextRotation
 {{< /highlight >}}
 
-#### Use Case: 
-Explains how to use NoTextRotation option.
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to use the **NoTextRotation** option. Please see the following code example:
+
+{{% /alert %}}
+
 {{< highlight csharp >}}
 DocumentBuilder builder = new DocumentBuilder();
 Shape shape = builder.InsertShape(ShapeType.Ellipse, 20, 20);
@@ -277,4 +313,5 @@ shape.TextBox.NoTextRotation = true;
 ### Enabled saving progress notifications for MOBI and AZW3 formats
 
 Related issue: WORDSNET-24900
-The SaveOptions.ProgressCallback is now also invoked when saving to Mobi or AZW3.
+
+The **SaveOptions.ProgressCallback** is now also invoked when saving to Mobi or AZW3.
