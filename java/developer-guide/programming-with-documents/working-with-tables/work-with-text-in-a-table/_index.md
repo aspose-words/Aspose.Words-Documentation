@@ -47,7 +47,7 @@ The following code example shows how to print a text range of row and table elem
 
 The following code example shows how to print the text range of row and table elements.
 
-{{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "print-text-range-o-f-row-and-table.java" >}}
+{{< gist "aspose-words-gists" "7855fd2588b90f4640bf0540285b5277" "print-text-range-row-and-table.java" >}}
 
 ## Working with Alternative Table Text
 

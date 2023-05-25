@@ -36,7 +36,7 @@ To check if a cell is part of a sequence of merged cells, we simply check the **
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CheckCellsMerged.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CheckCellsMerged.py" >}} //CheckCellsMerged
 
 {{% alert color="primary" %}}
 
@@ -52,11 +52,11 @@ Also, you must remember to clear the merge setting for those cells where no merg
 
 The following code example shows how to create a table with two rows where the cells in the first row are merged horizontally:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-HorizontalMerge.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-HorizontalMerge.py" >}} //HorizontalMerge
 
 The following code example shows how to create a two-column table where the cells in the first column are vertically merged:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-VerticalMerge.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-VerticalMerge.py" >}} //VerticalMerge
 
 ## Merge Table Cells in Other Cases
 
@@ -64,11 +64,11 @@ In other situations where the **DocumentBuilder** is not used, such as in an exi
 
 The code below will merge the table cells in the specified range, starting at the given cell and ending at the end cell. In this case, the range can span multiple rows or columns:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-MergeCells.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-MergeCells.py" >}} //MergeCells
 
 The following code example shows how to merge a range of cells between two specified cells:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-MergeCellRange.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-MergeCellRange.py" >}} //MergeCellRange
 
 {{% alert color="primary" %}}
 
@@ -84,5 +84,5 @@ Sometimes it is not possible to detect which cells are merged because some newer
 
 The following code example shows the above method in operation:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-ConvertToHorizontallyMergedCells.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-ConvertToHorizontallyMergedCells.py" >}} //ConvertToHorizontallyMergedCells
 

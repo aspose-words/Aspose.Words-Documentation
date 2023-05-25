@@ -63,15 +63,15 @@ The process of creating a table can be clearly seen in the following picture:
 
 The following code example shows how to create a simple table using **DocumentBuilder** with default formatting:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CreateSimpleTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CreateSimpleTable.py" >}} //CreateSimpleTable
 
 The following code example shows how to create a formatted table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FormattedTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FormattedTable.py" >}} //FormattedTable
 
 The following code example shows how to insert a nested table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-NestedTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-NestedTable.py" >}} //NestedTable
 
 ## Create a Table via DOM (Document Object Model)
 
@@ -87,7 +87,7 @@ This method of creating a table uses the same table defaults as when using the *
 
 The following code example shows how to build a new table from scratch by adding the appropriate child nodes to the document tree:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableDirectly.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableDirectly.py" >}} //InsertTableDirectly
 
 ##Create a Table from HTML
 
@@ -97,7 +97,7 @@ Using the **InsertHtml** method, users can insert tables into the document via t
 
 The following code example shows how to insert a table into a document from a string containing HTML tags:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableFromHtml.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-InsertTableFromHtml.py" >}} //InsertTableFromHtml
 
 ## Insert a Copy of an Existing Table 
 
@@ -107,7 +107,7 @@ The same technique can be used to add copies of an existing row or cell to a tab
 
 The following code example shows how to duplicate a table using node constructors:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneCompleteTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneCompleteTable.py" >}} //CloneCompleteTable
 
 {{% alert color="primary" %}}
 
@@ -117,7 +117,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The following code example shows how to clone the last row of a table and append it to the table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneLastRow.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CloneLastRow.py" >}} //CloneLastRow
 
 {{% alert color="primary" %}}
 

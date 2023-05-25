@@ -27,7 +27,7 @@ Typically, text replacement should be done at the cell level (per cell) or at th
 
 The following code example shows how to replace all instances of a string of text in the cells of an entire table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-ReplaceText.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-find_and_replace-ReplaceText.py" >}} //ReplaceText
 
 ## Extract Plain Text from Table or Cell
 
@@ -35,13 +35,13 @@ Using the **Range** object, you can also call methods on the entire table range 
 
 The following code example shows how to print the text range of a table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractText.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractText.py" >}} //ExtractText
 
 The same technique is used to extract content from individual table cells only.
 
 The following code example shows how to print a text range of row and table elements:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-PrintTextRangeOFRowAndTable.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-PrintTextRangeOFRowAndTable.py" >}} //PrintTextRangeRowAndTable
 
 ## Working with Alternative Table Text
 
@@ -51,5 +51,5 @@ In Aspose.Words, you can also add a table title and description using the [Title
 
 The following code example shows how to set the title and description properties of a table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-SetTableTitleAndDescription.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-SetTableTitleAndDescription.py" >}} //TableTitleAndDescription
 

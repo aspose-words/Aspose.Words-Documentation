@@ -18,4 +18,4 @@ To manipulate a table to join with another table, we just need to move the rows 
 
 The following code example shows how to merge rows from two tables into one:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CombineRows.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-CombineRows.py" >}} //CombineRows

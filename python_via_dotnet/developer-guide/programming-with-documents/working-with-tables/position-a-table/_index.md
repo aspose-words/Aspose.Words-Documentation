@@ -24,7 +24,7 @@ You can set the position of an inline table using the Aspose.Words API and the [
 
 The following code example shows how to set the position of an inline table:
 
-EXAMPLE
+EXAMPLE //InlineTablePosition
 
 ## Get Floating Table Alignment
 
@@ -34,7 +34,7 @@ With **other types of text wrapping**, you can get inline table alignment using 
 
 The following code example shows how to get the table's alignment:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-GetTablePosition.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-GetTablePosition.py" >}} //GetTablePosition
 
 ## Get Floating Table Position
 
@@ -50,7 +50,7 @@ The following code example shows how to get the table's alignment:
 
 The following code example shows how to get the position of a floating table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-GetFloatingTablePosition.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-GetFloatingTablePosition.py" >}} //GetFloatingTablePosition
 
 ## Set Floating Table Position
 
@@ -60,7 +60,7 @@ It is important to know that alignment and horizontal and vertical distance are 
 
 The following code example shows how to set the position of a floating table:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FloatingTablePosition.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_tables-FloatingTablePosition.py" >}} //FloatingTablePosition
 
 ## Get Distance between Table and Surrounding Text
 
@@ -73,4 +73,4 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 
 The following code example shows how to get the distance between a table and its surrounding text:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-GetDistancebetweenTableSurroundingText.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Tables-working_with_table_styles_and_formatting-GetDistancebetweenTableSurroundingText.py" >}} //DistanceBetweenTableSurroundingText
