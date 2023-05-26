@@ -16,4 +16,4 @@ To manipulate a table to join with another table, we just need to move the rows 
 
 The following code example shows how to merge rows from two tables into one:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-JoiningAndSplittingTable-CombineRows.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-JoiningAndSplittingTable-CombineRows.cpp" >}} //CombineRows

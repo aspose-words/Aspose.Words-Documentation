@@ -62,15 +62,15 @@ The process of creating a table can be clearly seen in the following picture:
 
 The following code example shows how to create a simple table using **DocumentBuilder** with default formatting:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-SimpleTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-SimpleTable.cpp" >}} //CreateSimpleTable
 
 The following code example shows how to create a formatted table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-FormattedTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-FormattedTable.cpp" >}} //FormattedTable
 
 The following code example shows how to insert a nested table using DocumentBuilder:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-NestedTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableUsingDocumentBuilder-NestedTable.cpp" >}} //NestedTable
 
 ## Create a Table via DOM (Document Object Model)
 
@@ -86,7 +86,7 @@ This method of creating a table uses the same table defaults as when using the *
 
 The following code example shows how to build a new table from scratch by adding the appropriate child nodes to the document tree:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableDirectly-InsertTableDirectly.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableDirectly-InsertTableDirectly.cpp" >}} //InsertTableDirectly
 
 ## Create a Table from HTML
 
@@ -96,7 +96,7 @@ Using the **InsertHtml** method, users can insert tables into the document via t
 
 The following code example shows how to insert a table into a document from a string containing HTML tags:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-InsertTableFromHtml-InsertTableFromHtml.cpp" >}} //InsertTableFromHtml
 
 ## Insert a Copy of an Existing Table
 
@@ -106,11 +106,11 @@ The same technique can be used to add copies of an existing row or cell to a tab
 
 The following code example shows how to duplicate a table using node constructors:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneCompleteTable.cpp" >}} //CloneCompleteTable
 
 The following code example shows how to clone the last row of a table and append it to the table:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneLastRow.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-CloneTable-CloneLastRow.cpp" >}} //CloneLastRow
 
 If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions. You can learn more about this technique in the ["Mail Merge with Regions"](/words/cpp/types-of-mail-merge-operations/) section.
 
