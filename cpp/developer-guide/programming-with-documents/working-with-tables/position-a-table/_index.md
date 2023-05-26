@@ -34,7 +34,7 @@ With **other types of text wrapping**, you can get inline table alignment using 
 
 The following code example shows how to get the table's alignment:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-GetTablePosition.cpp" >}} //GetTablePosition
+{{< gist "aspose-words-gists" "eb66dfc4c4820add33be9df57ba4c4cd" "get-table-position.h" >}}
 
 ## Get Floating Table Position
 
@@ -50,7 +50,7 @@ The following code example shows how to get the table's alignment:
 
 The following code example shows how to get the position of a floating table:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-GetFloatingTablePosition.cpp" >}} //GetFloatingTablePosition
+{{< gist "aspose-words-gists" "eb66dfc4c4820add33be9df57ba4c4cd" "get-floating-table-position.h" >}}
 
 ## Set Floating Table Position
 
@@ -60,7 +60,7 @@ It is important to know that alignment and horizontal and vertical distance are 
 
 The following code example shows how to set the position of a floating table:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-TablePosition-SetFloatingTablePosition.cpp" >}} //FloatingTablePosition
+{{< gist "aspose-words-gists" "eb66dfc4c4820add33be9df57ba4c4cd" "floating-table-position.h" >}}
 
 ## Get Distance between Table and Surrounding Text
 
@@ -73,4 +73,4 @@ Aspose.Words also provides an opportunity to find out the distances between tabl
 
 The following code example shows how to get the distance between a table and its surrounding text:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyFormatting-GetDistancebetweenTableSurroundingText.cpp" >}} //DistanceBetweenTableSurroundingText
+{{< gist "aspose-words-gists" "eb66dfc4c4820add33be9df57ba4c4cd" "distance-between-table-surrounding-text.h" >}}

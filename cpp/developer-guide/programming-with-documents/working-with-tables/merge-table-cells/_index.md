@@ -36,7 +36,7 @@ To check if a cell is part of a sequence of merged cells, we simply check the **
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-CheckCellsMerged.cpp" >}} //CheckCellsMerged
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "check-cells-merged.h" >}}
 
 ## Merged Cells in a Table {#merge-cells-in-a-table}
 
@@ -46,11 +46,11 @@ Also, you must remember to clear the merge setting for those cells where no merg
 
 The following code example shows how to create a table with two rows where the cells in the first row are merged horizontally:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-HorizontalMerge.cpp" >}} //HorizontalMerge
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "horizontal-merge.h" >}}
 
 The following code example shows how to create a two-column table where the cells in the first column are vertically merged:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-VerticalMerge.cpp" >}} //VerticalMerge
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "vertical-merge.h" >}}
 
 ## Merge Table Cells in Other Cases
 
@@ -58,11 +58,11 @@ In other situations where the **DocumentBuilder** is not used, such as in an exi
 
 The code below will merge the table cells in the specified range, starting at the given cell and ending at the end cell. In this case, the range can span multiple rows or columns:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-MergeCells.cpp" >}} //MergeCells
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "merge-cells.h" >}}
 
 The following code example shows how to merge a range of cells between two specified cells:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-MergeCellRange.cpp" >}} //MergeCellRange
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "merge-cell-range.h" >}}
 
 Depending on the version of the .NET Framework you are using, you may want to refine this method by turning it into an extension method. In this case, you can call this method directly on a cell to merge a range of cells, such as `cell1.Merge(cell2)`.
 
@@ -72,9 +72,9 @@ As we have said in previous articles, a table in Microsoft Word is a set of inde
 
 A table in HTML has a essentially different structure: each row has the same number of cells and (it is important for the task) each cell has the width of the corresponding column, the same for all cells in one column. So if **HorizontalMerge** and **VerticalMerge** return an incorrect value, use the following code example:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-PrintHorizontalAndVerticalMerged.cpp" >}} //PrintHorizontalAndVerticalMerged
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "print-horizontal-and-vertical-merged.h" >}}
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-HorizontalAndVerticalMergeHelperClasses.cpp" >}} //HorizontalAndVerticalMergeHelperClasses
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "horizontal-and-vertical-merge-helper-classes.h" >}}
 
 ## Convert to Horizontally Merged Cells {#convert-to-horizontally-merged-cells}
 
@@ -82,4 +82,4 @@ Sometimes it is not possible to detect which cells are merged because some newer
 
 The following code example shows the above method in operation:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-MergedCells-ConvertToHorizontallyMergedCells.cpp" >}} //ConvertToHorizontallyMergedCells
+{{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "convert-to-horizontally-merged-cells.h" >}}

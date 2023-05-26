@@ -23,7 +23,7 @@ The user can create a new style and add it to style collection. The [Add](https:
 
 The following code example shows how to create a new user defined table style:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-CreateTableStyle.cpp" >}} //CreateTableStyle
+{{< gist "aspose-words-gists" "aeee44b29c42f9e9404ce57a80305383" "create-table-style.h" >}}
 
 ## Copy an Existing Table Style 
 
@@ -47,13 +47,13 @@ In this case, conditional formatting can be defined for all possible table area 
 
 The following code example shows how to define conditional formatting for header row of the table:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-DefineConditionalFormatting.cpp" >}} //DefineConditionalFormatting
+{{< gist "aspose-words-gists" "aeee44b29c42f9e9404ce57a80305383" "define-conditional-formatting.h" >}}
 
 You can also choose which table parts to apply styles to, such as first column, last column, banded rows. They are listed in the [TableStyleOptions](https://reference.aspose.com/words/cpp/aspose.words.tables/tablestyleoptions/) enumeration and are applied through the [StyleOptions](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_styleoptions/) property. The **TableStyleOptions** enumeration allows a bitwise combination of these features.
 
 The following code example shows how to create a new table with a table style applied:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-BuildTableWithStyle.cpp" >}} //BuildTableWithStyle
+{{< gist "aspose-words-gists" "aeee44b29c42f9e9404ce57a80305383" "build-table-with-style.h" >}}
 
 The pictures below show a representation of the **Table Styles** in Microsoft Word and their corresponding properties in Aspose.Words.
 
@@ -71,4 +71,4 @@ This method will not override any other formatting already applied to the table 
 
 The following code example shows how to expand the formatting from styles onto table rows and cells as direct formatting:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-ApplyStyle-ExpandFormattingOnCellsAndRowFromStyle.cpp" >}} //ExpandFormattingOnCellsAndRowFromStyle
+{{< gist "aspose-words-gists" "aeee44b29c42f9e9404ce57a80305383" "expand-formatting-on-cells-and-row-from-style.h" >}}

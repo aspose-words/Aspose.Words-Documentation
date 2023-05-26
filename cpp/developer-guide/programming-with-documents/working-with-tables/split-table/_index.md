@@ -20,4 +20,4 @@ We can create two tables from the original table by following these simple steps
 
 The following code example shows how to split a table into two tables on a specific row:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Tables-JoiningAndSplittingTable-SplitTable.cpp" >}} //SplitTable
+{{< gist "aspose-words-gists" "29ce7710cab8c3ef18e912a5813e0d36" "split-table.h" >}}
