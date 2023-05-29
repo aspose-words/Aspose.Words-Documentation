@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 23.1 Release Notes
 description: "Aspose.Words for C++ 23.1 Release Notes – the latest updates and fixes."
 type: docs
-weight: 70
+weight: 90
 url: /cpp/aspose-words-for-cpp-23-1-release-notes/
 ---
 
@@ -130,6 +130,8 @@ System::SharedPtr<Aspose::Words::Font> get_Font();
 ...
 }
 {{< /highlight >}}
+
+{{% alert color="secondary" %}}
 
 **Use Case:**
 

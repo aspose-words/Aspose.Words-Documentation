@@ -11,6 +11,34 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for .NET 23.5
+
+Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
+
+### Rendering
+
+#### Get and Modify Chart Series Data <sup>23.5</sup>
+
+The feature to get and modify chart series data was provided by adding:
+
+* new classes: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
+
+* new enum types: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
+
+### Other
+
+* Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
+
+* The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) method. <sup>23.5</sup>
+
+* The public property [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/net/aspose.words/run/) has been added. <sup>23.5</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 23.5 Release Notes](/words/net/aspose-words-for-net-23-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 23.1, 23.2, 23.3, 23.4
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
@@ -422,80 +450,6 @@ Learn more about [Aspose.Words for .NET 21.10 Release Notes](/words/net/aspose-w
 Learn more about [Aspose.Words for .NET 21.11 Release Notes](/words/net/aspose-words-for-net-21-11-release-notes/).
 
 Learn more about [Aspose.Words for .NET 21.12 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-12-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for .NET 21.5, 21.6, 21.7, 21.8
-
-Aspose.Words 21.5 improves Mail Merge and Structure Document Tag functionality, as well as working with fields.
-
-Aspose.Words 21.6 enhances formatting and filling options and also improves document display capabilities.
-
-Aspose.Words 21.7 expands rendering and conversion options, as well as provides an ability to work with framesets.
-
-Aspose.Words 21.8 improves rendering and language export features, and enhances the ability to work with field update callback.
-
-The API is enhanced for more flexible and convenient development.
-
-### Rendering
-
-#### Setting Charts Fill and Stroke Formatting
-
-An ability to set fill and stroke formatting for chart series, data points, and markers has been implemented. Using the provided options, you can easily customize any of the charts as you wish.
-
-#### Control the Fill Texture of Any Object
-
-A new public method [PresetTextured](https://reference.aspose.com/words/net/aspose.words.drawing/fill/presettextured/) has been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class to work with textures. Now it is very easy to get and apply a texture to the fill of any object. Now it is very easy to get and apply a texture to the fill of any object.
-
-#### Rendering of OOXML Ink
-
-Rendering of OOXML Ink (InkML subset) has been implemented. A new public property [ImlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/imlrenderingmode/) and a new enumeration [ImlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/imlrenderingmode/) have been added to control the mode of Ink rendering.
-
-Prior to this version, Aspose.Words could only render fallback shapes for OOXML Ink objects, i.e. InkML was not actually processed and a simple pre-rendered image was used instead. And now OOXML Ink content part can be rendered directly.
-
-#### Control the Maximum Number of Characters per Line
-
-A new public property [MaxCharactersPerLine](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/maxcharactersperline/) has been introduced to control the maximum number of characters per line in the output document of TXT format.
-
-#### Rendering to PDF/A-2
-
-Rendering to PDF/A-2 format has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) enumeration. PDF/A-2 is based on the PDF-1.7 format and removes significant limitations of PDF/A-1 like prohibited transparency and prohibited object compression.
-
-#### Work with Patterns
-
-A simple way to get and apply a pattern to the fill of any fillable objects in a document has been presented. For this purpose, the [Patterned](https://reference.aspose.com/words/net/aspose.words.drawing/fill/patterned/#patterned/) method with two overloads and the [Pattern](https://reference.aspose.com/words/net/aspose.words.drawing/fill/pattern/) property have been added to the [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class and the [PatternType](https://reference.aspose.com/words/net/aspose.words.drawing/patterntype/) enumeration has been added to the [Drawing](https://reference.aspose.com/words/net/aspose.words.drawing/) namespace.
-
-#### Insert GIF into the Document Model
-
-The ability to insert a GIF image into the document model using the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/#insertimage/) method has been introduced. Please note that saving a document to a format different from DOCX, DOTX, DOCM, DOTM, FOPC causes the conversion of GIF images to PNG.
-
-### Conversion
-
-A new overload of the [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/) method with extended options has been implemented to make this operation more flexible.
-
-### Mail Merge and Reporting
-
-A new property [RestartListsAtEachSection](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/) has been added to control whether the list numbering at each section should be restarted after executing a mail merge.
-
-### Other
-
-* New methods [SetCheckedSymbol](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/) and [SetUncheckedSymbol](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/) have been added to set checked and unchecked symbols for your favorite structured document tags.
-* The equations created with EQ fields are now supported upon converting to all HTML-based formats.
-* Using Aspose.Words for .NET via COM Interop has been checked and the documentation has been modified according to the latest version of the VBScript engine.
-* A new public property [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) has been added to control the behavior for computing page numbers when a continuous section restarts page numbering.
-* An ability to work with Framesets has been added. This is the first simple API which is going to be extended upon your requests. Just tell us what you need.
-* A new PDF save option [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/) has been added. This option allows users to customize how the `/Lang` entry should be exported. It can be useful for compatibility with some screen readers.
-* A new public field updating callback has been implemented. This allows you to have your own custom methods called during field update.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 21.5 Release Notes](/words/net/aspose-words-for-net-21-5-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.6 Release Notes](/words/net/aspose-words-for-net-21-6-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.7 Release Notes](/words/net/aspose-words-for-net-21-7-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.8 Release Notes](/words/net/aspose-words-for-net-21-8-release-notes/).
 
 {{% /alert %}}
 

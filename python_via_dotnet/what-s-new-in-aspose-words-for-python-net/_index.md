@@ -11,6 +11,31 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for Python via .NET 23.5
+
+Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
+
+### Rendering
+
+#### Get and Modify Chart Series Data <sup>23.5</sup>
+
+The feature to get and modify chart series data was provided by adding:
+
+- new classes: [ChartXValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmultilevelvalue/)
+- new enum types: [ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
+
+### Other
+
+- Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
+- The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) method. <sup>23.5</sup>
+- The public property [PhoneticGuide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) has been added. <sup>23.5</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Python via .NET 23.5 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Python via .NET 23.1, 23.2, 23.3, 23.4
 
 Aspose.Words 23.1 improves the performance of raster operation emulation, as well as enhances document exporting and rendering quality.
@@ -338,5 +363,13 @@ A new import mode for HTML block-level elements has been implemented to mimic Mi
 Learn more about [Aspose.Words for Python via .NET 22.3 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 22.4 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/).
+
+{{% /alert %}}
+
+## See Also
+
+{{% alert color="primary" %}}
+
+This page contains the latest release news for the past 2 years. For details on earlier releases, see the [Release Notes'](/words/python-net/release-notes/) pages in the relevant sections.
 
 {{% /alert %}}
