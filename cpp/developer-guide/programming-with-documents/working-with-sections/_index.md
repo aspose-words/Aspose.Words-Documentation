@@ -48,13 +48,13 @@ Aspose.Words allows you to insert a section break into text using the [InsertBre
 
 The following code example shows how to insert a section break into a document:
 
-EXAMPLE
+EXAMPLE //InsertSectionBreaks
 
 Use the [Remove](https://reference.aspose.com/words/cpp/aspose.words/node/remove/) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/cpp/aspose.words/section/clearcontent/) method.
 
 The following code example shows how to remove sections breaks: 
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveBreaks-RemoveSectionBreaks.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveBreaks-RemoveSectionBreaks.cpp" >}} //RemoveSectionBreaks
 
 {{% alert color="primary" %}}
 
