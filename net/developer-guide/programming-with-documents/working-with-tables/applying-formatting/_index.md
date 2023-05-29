@@ -3,7 +3,7 @@ title: Table Formatting in C#
 second_title: Aspose.Words for .NET
 articleTitle: Apply Table Formatting
 linktitle: Apply Table Formatting
-description: "Table formatting in details using C#. Using C# to format every part of table."
+description: "Table formatting in details using C#. Use C# to format every part of table."
 type: docs
 weight: 70
 url: /net/applying-formatting/
@@ -204,13 +204,13 @@ By default, a table can be described as being fitted to 100% of the available sp
 
 Using the [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) property will adjust its preferred width relative to its container: page, text column, or outer table cell if it is a nested table.
 
-The following code example shows how to set the table to auto-fit to 50% of the page width.
+The following code example shows how to set the table to auto-fit to 50% of the page width:
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
 Using the [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) property on a given cell will adjust its preferred width.
 
-The following code example shows how to set the different preferred width settings.
+The following code example shows how to set the different preferred width settings:
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "preferred-width-settings.cs" >}}
 
@@ -327,8 +327,8 @@ Aspose.Words uses the following order for calculating cell widths:
 | Order | Property                                                     | Description                                                  |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1     | [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) is determined | If **AutoFit** is enabled:<br>- the table may grow past the preferred width to accommodate the content – it usually does not shrink below the preferred width<br>- any change to the **CellFormat.Width** value is ignored and the cell will fit to its contents instead |
-| 2     | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/) with a value of **Points** or **Percent** | **CellFormat.Width** is ignored                              |
-| 3     | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/) with a value of **Auto** | The value from **CellFormat.Width** is copied and becomes the cell's preferred width (in points) |
+| 2     | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) with a value of **Points** or **Percent** | **CellFormat.Width** is ignored                              |
+| 3     | [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) with a value of **Auto** | The value from **CellFormat.Width** is copied and becomes the cell's preferred width (in points) |
 
 {{% alert color="primary" %}}
 

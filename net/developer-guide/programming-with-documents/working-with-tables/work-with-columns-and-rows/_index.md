@@ -63,7 +63,7 @@ The following code example shows how to remove a column from a table in a docume
 
 {{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "remove-column.cs" >}}
 
-## Specify Rows as Header Rows {#specify-rows-to-repeat-on-subsequent-pages-as-header-rows}
+## Specify Rows as Header Rows
 
 You can choose to repeat the first row in the table as the Header Row only on the first page or on each page if the table is split into several. In Aspose.Words, you can repeat the Header Row on every page using the [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/) property.
 
