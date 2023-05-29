@@ -9,13 +9,24 @@ weight: 140
 url: /net/working-with-comments/
 ---
 
-{{% alert color="primary" %}}
+Aspose.Words allows users to work with comments – comments in a document in Aspose.Words are represented by the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class. Also use the [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) classes to specify the region of text that should be associated with a comment.
 
-Comments of the document are represented by the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class. Use [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) classes to specify a region of text that is to be commented.
+## Add a Comment
 
-{{% /alert %}}
+Aspose.Words allows you to add comments in several ways:
 
-## How to Extract or Remove Comments
+1. Using the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class
+2. Using  the [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) classes
+
+The following code example shows how to add a comment to a paragraph using the **Comment** class:
+
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-AddComments-AddComments.cs" >}}
+
+The following code example shows how to add a comment to a paragraph using a region of text and the **CommentRangeStart** and **CommentRangeEnd** classes:
+
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-AnchorComment-AnchorComment.cs" >}}
+
+## Extract or Remove Comments
 
 Using Comments in a Word document (in addition to Track Changes) is a common practice when reviewing documents, particularly when there are multiple reviewers. There can be situations where the only thing you need from a document is the comments. Say you want to generate a list of review findings, or perhaps you have collected all the useful information from the document and you simply want to remove unnecessary comments. You may want to view or remove the comments of a particular reviewer.
 
@@ -37,15 +48,15 @@ You can try this functionality with our [Free online remove annotations](https:/
 To illustrate how to extract and remove comments from a document, we will go through the following steps:
 
 1. Open a Word document using the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class.
-1. Get all comments from the document into a collection.
-1. To extract comments:
+2. Get all comments from the document into a collection.
+3. To extract comments:
    1. Go through the collection using the foreach operator.
-   1. Extract and list the author name, date & time and text of all comments.
-   1. Extract and list the author name, date & time and text of comments written by a specific author, in this case the author ‘ks’.
-1. To remove comments:
+   2. Extract and list the author name, date & time and text of all comments.
+   3. Extract and list the author name, date & time and text of comments written by a specific author, in this case the author ‘ks’.
+4. To remove comments:
    1. Go backwards through the collection using the for operator.
-   1. Remove comments.
-1. Save the changes.
+   2. Remove comments.
+5. Save the changes.
 
 ### The Code
 
@@ -73,32 +84,22 @@ The main point to highlight here is the use of the for operator. Unlike the simp
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-ProcessComments.cs" >}}
 
-## How to Add a Comment
-
-Below example shows how to add a comment to a paragraph in the document.
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-AddComments-AddComments.cs" >}}
-
-Below example shows how to anchor a comment to a region of text.
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-AnchorComment-AnchorComment.cs" >}}
-
-## How to Remove Text between CommentRangeStart and CommentRangeEnd
+## Remove a Comment between CommentRangeStart and CommentRangeEnd
 
 Below example shows how to remove text between CommentRangeStart and CommentRangeEnd nodes.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-RemoveRegionText-RemoveRegionText.cs" >}}
 
-## How to Read Comment's Reply
-
-Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. Below example shows how to iterate through a comment's replies and resolved them.
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cs" >}}
-
-## How to Add and Remove Comment's Reply
+## Add and Remove Comment's Reply
 
 The Comment.AddReply method adds a reply to this comment. Please note that due to the existing MS Office limitations only 1 level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
 
 You can use Comment.RemoveReply method to remove the specified reply to this comment. Following code example shows how to add a reply to comment and remove comment's reply.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cs" >}}
+
+## How to Read Comment's Reply
+
+Comment.Replies property returns a collection of Comment objects that are immediate children of the specified comment. Below example shows how to iterate through a comment's replies and resolved them.
+
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-CommentResolvedandReplies.cs" >}}
