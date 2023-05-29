@@ -34,7 +34,7 @@ It is important to know that with this copying, the linked styles are also copie
 
 The following code example shows how to import a style from one document to another document:
 
-EXAMPLE
+{{< gist "aspose-words-gists" "1825da859a3400b9777f6c745a0889aa" "copy-style-different-document.py" >}}
 
 ## Apply an Existing Table Style
 
