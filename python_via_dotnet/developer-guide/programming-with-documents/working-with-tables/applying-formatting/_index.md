@@ -32,12 +32,12 @@ Note that the table must have at least one row before the table properties can b
 
 The pictures below show a representation of the **Table** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
+![formattin-features-table-level-aspose-words-python](applying-formatting-1.png)
 
 
 
 
-![formatting-table-options-aspose-words-net](applying-formatting-2.png)
+![formatting-table-options-aspose-words-python](applying-formatting-2.png)
 
 The following code example shows how to apply an outline border to a table:
 
@@ -71,7 +71,7 @@ Note that a **Row** can only be a child node of a **Table**. At the same time, t
 
 The pictures below show a representation of the **Row** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-row-level-aspose-words-net](applying-formatting-3.png)
+![formatting-row-level-aspose-words-python](applying-formatting-3.png)
 
 
 The following code example shows how to modify the table row formatting:
@@ -98,12 +98,12 @@ In addition to the **Paragraph**, you can also insert a **Table** into a **Cell*
 
 The pictures below show a representation of the **Cell** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-cell-level-aspose-words-net](applying-formatting-4.png)
+![formatting-cell-level-aspose-words-python](applying-formatting-4.png)
 
 
 
 
-![auto-formatting-cell-level-aspose-words-net](applying-formatting-5.png)
+![auto-formatting-cell-level-aspose-words-python](applying-formatting-5.png)
 
 
 The following code example shows how to modify the formatting of a table cell:
@@ -182,11 +182,11 @@ The appropriate preferred width type and value are set using the methods of the 
 
 The pictures below show a representation of the *preferred width setting features* in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-table-properties-aspose-words-net](applying-formatting-8.png)
+![formatting-table-properties-aspose-words-python](applying-formatting-8.png)
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
-![todo:image_alt_text](applying-formatting-9.png)
+![tables-applying-options-python](applying-formatting-9.png)
 
 {{% alert color="primary" %}}
 
@@ -323,7 +323,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### The Order of Precedence when Calculating Cell Width
 
-Aspose.Words allows users to define the width of a table or cell through multiple objects, including [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) – its [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) property is mostly left over from previous versions, however, it is still useful for simplifying setting the cell width.
+Aspose.Words allows users to define the width of a table or cell through multiple objects, including [CellFormat](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/) – its [Width](https://reference.aspose.com/words/python-net/aspose.words.tables/cellformat/width/q) property is mostly left over from previous versions, however, it is still useful for simplifying setting the cell width.
 
 It is important to know that the **CellFormat.Width** property works differently depending on which of the other width properties already exist in the table.
 
@@ -353,7 +353,7 @@ You can get or set any additional space between table cells similar to the "Сel
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
-<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-net" style="width:500px"/>
+<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-python" style="width:500px"/>
 
 The following code example shows how to set the spacing between cells:
 
@@ -365,9 +365,9 @@ Borders and shading can be applied either to the entire table using [Table.SetBo
 
 The pictures below show the border and shadow settings in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-border-line-aspose-words-net](applying-formatting-6.png)
+![formatting-border-line-aspose-words-python](applying-formatting-6.png)
 
-![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
+![formatting-cell-color-aspose-words-python](applying-formatting-7.png)
 
 The following code example shows how to format a table and cell with different borders and shadings:
 

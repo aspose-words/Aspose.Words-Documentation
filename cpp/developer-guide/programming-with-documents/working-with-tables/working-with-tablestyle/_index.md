@@ -57,7 +57,7 @@ The following code example shows how to create a new table with a table style ap
 
 The pictures below show a representation of the **Table Styles** in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-table-style-aspose-words-net](applying-formatting-10.png)
+![formatting-table-style-aspose-words-cpp](applying-formatting-10.png)
 
 ## Take Formatting from Table Style and Apply it as Direct Formatting
 

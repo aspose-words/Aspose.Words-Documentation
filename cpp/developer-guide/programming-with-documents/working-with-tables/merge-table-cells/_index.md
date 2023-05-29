@@ -64,7 +64,7 @@ The following code example shows how to merge a range of cells between two speci
 
 {{< gist "aspose-words-gists" "03b0c69804cda6427adc3f12cc6ba2d3" "merge-cell-range.h" >}}
 
-Depending on the version of the .NET Framework you are using, you may want to refine this method by turning it into an extension method. In this case, you can call this method directly on a cell to merge a range of cells, such as `cell1.Merge(cell2)`.
+Depending on the version of the Framework you are using, you may want to refine this method by turning it into an extension method. In this case, you can call this method directly on a cell to merge a range of cells, such as `cell1.Merge(cell2)`.
 
 ## Vertical and Horizontal Merged Cells in a Table {#vertical-and-Horizontal-merged-cells-in-the-table}
 

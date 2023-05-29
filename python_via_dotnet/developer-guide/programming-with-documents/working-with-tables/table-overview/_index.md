@@ -22,7 +22,7 @@ As already mentioned, the table consists of such elements as **Cell**, **Row** a
 
 This is a common example of a table found in a Microsoft Word document:
 
-![tables-overview-aspose-words-net-1](tables-overview-1.png)
+![tables-overview-aspose-words-python-1](tables-overview-1.png)
 
 ### Table Nodes
 
@@ -46,7 +46,7 @@ The table node does not contain any real content – instead, it is a container 
 - **Row** represents a single table row and contains many **Cell** nodes. In addition, the **Row** provides elements that define how the row is displayed, such as height and alignment.
 - **Cell** is what contains the true content visible in the table and is made up of a **Paragraph** and other block level nodes. Additionally, cells can contain nested tables.
 
-![tables-overview-aspose-words-net-2](tables-overview-2.png)
+![tables-overview-aspose-words-python-2](tables-overview-2.png)
 
 {{% alert color="primary" %}}
 

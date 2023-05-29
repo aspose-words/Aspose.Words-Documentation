@@ -52,7 +52,7 @@ In Aspose.Words, users can create a table in a document using the [DocumentBuild
 Important details:
 
 - [StartTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable) can also be called inside a cell, in which case it starts the creation of a nested table within the cell.
-- After calling [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), a new cell is created, and any content you add using other methods of the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class will be added to the current cell. To create a new cell on the same row, call **InsertCell** again.
+- After calling [InsertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell), a new cell is created, and any content you add using other methods of the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class will be added to the current cell. To create a new cell on the same row, call **InsertCell** again.
 - If **InsertCell** is called immediately after [EndRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) and the end of a row, the table will continue on a new row.
 - The [EndTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endTable) method to end the table should only be called once after calling **EndRow**. Calling **EndTable** moves the cursor from the current cell to the position immediately after the table.
 
@@ -92,7 +92,7 @@ The following code example shows how to build a new table from scratch by adding
 
 ## Create a Table from HTML
 
-Aspose.Words supports inserting content into a document from an HTML source using the [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/#inserthtml) method. The input can be a full HTML page or just a partial snippet.
+Aspose.Words supports inserting content into a document from an HTML source using the [InsertHtml](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertHtml-java.lang.String) method. The input can be a full HTML page or just a partial snippet.
 
 Using this **InsertHtml** method, users can insert tables into the document via table tags like `<table>`, `<tr>`, `<td>`.
 
@@ -102,7 +102,7 @@ The following code example shows how to insert a table into a document from a st
 
 ## Insert a Copy of an Existing Table
 
-There are often times when you need to create a table based on an already existing table in a document. The easiest way to duplicate a table while retaining all formatting is to clone the Table node using the [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) method.
+There are often times when you need to create a table based on an already existing table in a document. The easiest way to duplicate a table while retaining all formatting is to clone the Table node using the [deepClone](https://reference.aspose.com/words/java/com.aspose.words/node/#deepClone-boolean) method.
 
 The same technique can be used to add copies of an existing row or cell to a table.
 

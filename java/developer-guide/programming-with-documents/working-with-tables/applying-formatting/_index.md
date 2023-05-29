@@ -68,7 +68,7 @@ Cell-level formatting is controlled by the [Cell](https://reference.aspose.com/w
 
 {{% alert color="primary" %}}
 
-Note that a **Cell** can only be a child node of a **Row**. At the same time, there must be at least one [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) in the **Cell** so that formatting can be applied to it.
+Note that a **Cell** can only be a child node of a **Row**. At the same time, there must be at least one [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) in the **Cell** so that formatting can be applied to it.
 
 In addition to the **Paragraph**, you can also insert a **Table** into a **Cell**.
 
@@ -150,11 +150,11 @@ The appropriate preferred width type and value are set using the methods of the 
 
 The pictures below show a representation of the *preferred width setting features* in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-table-properties-aspose-words-net](/Users/mariiagerasimova/AW/GitHub/Aspose.Words-Documentation/net/developer-guide/programming-with-documents/working-with-tables/applying-formatting/applying-formatting-8.png)
+![formatting-table-properties-aspose-words-java](applying-formatting-8.png)
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
-![todo:image_alt_text](/Users/mariiagerasimova/AW/GitHub/Aspose.Words-Documentation/net/developer-guide/programming-with-documents/working-with-tables/applying-formatting/applying-formatting-9.png)
+![table-applied-options-java](applying-formatting-9.png)
 
 {{% alert color="primary" %}}
 

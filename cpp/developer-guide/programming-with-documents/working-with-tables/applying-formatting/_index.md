@@ -11,7 +11,7 @@ url: /cpp/applying-formatting/
 
 Each element of a table can be applied with different formatting. For example, table formatting will be applied to the entire table, row formatting to only particular rows, cell formatting to only certain cells.
 
-Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/), and [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) nodes to set the formatting.
+Aspose.Words provides a rich API to retrieve and apply formatting to a table. You can use the [Table](https://reference.aspose.com/words/cpp/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/cpp/aspose.words.tables/rowformat/), and [CellFormat](https://reference.aspose.com/words/cpp/aspose.words.tables/cellformat/) nodes to set the formatting.
 
 In this article, we will talk about how to apply formatting to different table nodes and what table formatting settings Aspose.Words supports.
 
@@ -21,21 +21,19 @@ In this section, we will look at applying formatting to various table nodes.
 
 ### Table Level Formatting
 
-To apply formatting to a table, you can use the properties available on the corresponding **Table** node using the [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/), and [TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/) classes.
+To apply formatting to a table, you can use the properties available on the corresponding **Table** node using the [Table](https://reference.aspose.com/words/cpp/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/cpp/aspose.words.tables/preferredwidth/), and [TableCollection](https://reference.aspose.com/words/cpp/aspose.words.tables/tablecollection/) classes.
 
 {{% alert color="primary" %}}
 
-Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
+Note that the table must have at least one row before the table properties can be applied. This means that when building a table with the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/), this formatting must be done after the first call to [InsertCell](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertcell/), or after the first row is added to the table, or when nodes are inserted directly into the DOM.
 
 {{% /alert %}}
 
 The pictures below show a representation of the **Table** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formattin-features-table-level-aspose-words-net](applying-formatting-1.png)
+![formattin-features-table-level-aspose-words-cpp](applying-formatting-1.png)
 
-![formatting-table-options-aspose-words-net](applying-formatting-2.png)
-
-
+![formatting-table-options-aspose-words-cpp](applying-formatting-2.png)
 
 The following code example shows how to apply an outline border to a table:
 
@@ -47,7 +45,7 @@ The following code example shows how to build a table with all borders enabled (
 
 ### Row Level Formatting
 
-**Row-level** formatting can be controlled using the [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/), and [RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/) classes.
+**Row-level** formatting can be controlled using the [Row](https://reference.aspose.com/words/cpp/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/cpp/aspose.words.tables/rowformat/), and [RowCollection](https://reference.aspose.com/words/cpp/aspose.words.tables/rowcollection/) classes.
 
 {{% alert color="primary" %}}
 
@@ -57,7 +55,7 @@ Note that a **Row** can only be a child node of a **Table**. At the same time, t
 
 The pictures below show a representation of the **Row** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-row-level-aspose-words-net](applying-formatting-3.png)
+![formatting-row-level-aspose-words-cpp](applying-formatting-3.png)
 
 The following code example shows how to modify the table row formatting:
 
@@ -65,11 +63,11 @@ The following code example shows how to modify the table row formatting:
 
 ### Cell Level Formatting
 
-Cell-level formatting is controlled by the [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/), and [CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/) classes.
+Cell-level formatting is controlled by the [Cell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/cpp/aspose.words.tables/cellformat/), and [CellCollection](https://reference.aspose.com/words/cpp/aspose.words.tables/cellcollection/) classes.
 
 {{% alert color="primary" %}}
 
-Note that a **Cell** can only be a child node of a **Row**. At the same time, there must be at least one [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) in the **Cell** so that formatting can be applied to it.
+Note that a **Cell** can only be a child node of a **Row**. At the same time, there must be at least one [Paragraph](https://reference.aspose.com/words/cpp/aspose.words/paragraph/) in the **Cell** so that formatting can be applied to it.
 
 In addition to the **Paragraph**, you can also insert a **Table** into a **Cell**.
 
@@ -77,9 +75,9 @@ In addition to the **Paragraph**, you can also insert a **Table** into a **Cell*
 
 The pictures below show a representation of the **Cell** formatting features in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-cell-level-aspose-words-net](applying-formatting-4.png)
+![formatting-cell-level-aspose-words-cpp](applying-formatting-4.png)
 
-![auto-formatting-cell-level-aspose-words-net](applying-formatting-5.png)
+![auto-formatting-cell-level-aspose-words-cpp](applying-formatting-5.png)
 
 The following code example shows how to modify the formatting of a table cell:
 
@@ -151,7 +149,7 @@ The appropriate preferred width type and value are set using the methods of the 
 
 The pictures below show a representation of the *preferred width setting features* in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-table-properties-aspose-words-net](applying-formatting-8.png)
+![formatting-table-properties-aspose-words-cpp](applying-formatting-8.png)
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
@@ -298,7 +296,7 @@ You can get or set any additional space between table cells similar to the "Сel
 
 An example of how these options are applied to a real table in a document can be seen in the picture below.
 
-<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-net" style="width:500px"/>
+<img src="applying-formatting-10.png" alt="formatting-spacing-between-cells-aspose-words-cpp" style="width:500px"/>
 
 The following code example shows how to set the spacing between cells:
 
@@ -310,9 +308,9 @@ Borders and shading can be applied either to the entire table using [Table.SetBo
 
 The pictures below show the border and shadow settings in Microsoft Word and their corresponding properties in Aspose.Words.
 
-![formatting-border-line-aspose-words-net](applying-formatting-6.png)
+![formatting-border-line-aspose-words-cpp](applying-formatting-6.png)
 
-![formatting-cell-color-aspose-words-net](applying-formatting-7.png)
+![formatting-cell-color-aspose-words-cpp](applying-formatting-7.png)
 
 The following code example shows how to format a table and cell with different borders and shadings:
 
