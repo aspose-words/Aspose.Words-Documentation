@@ -48,13 +48,13 @@ Aspose.Words allows you to insert a section break into text using the [InsertBre
 
 The following code example shows how to insert a section break into a document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}} //InsertSectionBreaks
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "insert-section-breaks.java" >}}
 
 Use the [Remove](https://reference.aspose.com/words/java/com.aspose.words/node/#remove) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/java/com.aspose.words/section/#clearContent) method.
 
 The following code example shows how to remove sections breaks: 
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-RemovePageAndSectionBreaks-removeSectionBreaks.java" >}} //RemoveSectionBreaks
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "remove-section-breaks.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -68,7 +68,7 @@ If you want to move a section from one position to another in your document, you
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
-EXAMPLE //SectionChildNodes
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "section-child-nodes.java" >}}
 
 ## Specify a Section Layout
 
@@ -81,7 +81,7 @@ Sometimes you want your document to look better by making creative layouts for d
 
 The following code example shows how to limit the number of lines that each page may have:
 
-EXAMPLE //LineGridSectionLayoutMode
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "line-grid-section-layout-mode.java" >}}
 
 ## Edit a Section
 
@@ -89,7 +89,7 @@ When you add a new section to your document, there will be no body or paragraph 
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
-EXAMPLE //EnsureMinimum
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "ensure-minimum.java" >}}
 
 ### Append or Prepend Content
 
@@ -97,7 +97,7 @@ If you want to draw some shape or add text or image at the beginning/end of a se
 
 The following code example shows how to append content of an existing section:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-AppendSectionContent-AppendSectionContent.java" >}} //AppendSectionContent
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "append-section-content.java" >}}
 
 ### Clone a Section
 
@@ -105,7 +105,7 @@ Aspose.Words allows you to duplicate a section by creating a full copy of it usi
 
 The following code example shows how to clone the first section in your document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-CloneSection-CloneSection.java" >}} //CloneSection
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "clone-section.java" >}}
 
 ### Copy Sections between Documents
 
@@ -115,7 +115,7 @@ Aspose.Words allows you to copy sections between documents using the [ImportNode
 
 The following code example shows how to copy sections between documents:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-sections-CopySection-CopySection.java" >}} //CopySection
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "copy-section.java" >}}
 
 ### Work with Section Header and Footer
 
@@ -126,17 +126,17 @@ The basic rules for displaying a header or footer for each section are quite sim
 
 The following code example shows how to create 2 sections with different headers:
 
-EXAMPLE //DifferentFirstPageHeaderFooter
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "different-first-page-header-footer.java" >}}
 
 If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 
-EXAMPLE //DeleteHeaderFooterContent
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-content.java" >}}
 
 The following code example how to remove all shapes from all headers footers in a section:
 
-EXAMPLE //DeleteHeaderFooterShapes
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "delete-header-footer-shapes.java" >}}
 
 ## Customize Page Properties in a Section
 
@@ -146,11 +146,11 @@ Aspose.Words allows you to customize page and section properties using the [Page
 
 The following code example shows how to set such properties as page size and orientation for the current section:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderSetPageSetupAndSectionFormatting-DocumentBuilderSetPageSetupAndSectionFormatting.java" >}} //PageSetupAndSectionFormatting
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "page-setup-and-section-formatting.java" >}}
 
 The following code example shows how to modify the page properties in all sections:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-ModifyPageSetupInAllSections.cs" >}} //ModifyPageSetupInAllSections
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "modify-page-setup-in-all-sections.java" >}}
 
 ## See Also
 
