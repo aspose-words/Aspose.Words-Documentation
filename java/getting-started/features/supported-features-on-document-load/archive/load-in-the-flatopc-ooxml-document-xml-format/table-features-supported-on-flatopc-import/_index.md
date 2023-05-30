@@ -85,7 +85,7 @@ See the following links in the documentation for further information:
 
 |**Feature**|**Supported**|**Comment**|**See Also**|
 | :- | :- | :- | :- |
-|Allow Break Across Pages|Yes| |<p>- [Keeping Tables and Rows from Breaking across Pages ](/words/java/keeping-tables-and-rows-from-breaking-across-pages/) </p><p>- **RowFormat.AllowBreakAcrossPages**</p>|
+|Allow Break Across Pages|Yes| |<p>- **Keeping Tables and Rows from Breaking across Pages** </p><p>- **RowFormat.AllowBreakAcrossPages**</p>|
 |Repeat as Header Row|Yes| |<p>- [Specifying Rows to Repeat on Subsequent Pages as Header Rows](/words/java/working-with-columns-and-rows/#workingwithcolumnsandrows-specifyingrowstorepeatonsubsequentpagesasheaderrows)</p><p>- **RowFormat.HeadingFormat**</p>|
 |Height|Yes| |- **RowFormat.Height**|
 |Height Rule|Yes| |- **RowFormat.HeightRule**|
