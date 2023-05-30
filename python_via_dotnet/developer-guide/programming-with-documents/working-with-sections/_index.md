@@ -48,7 +48,7 @@ Aspose.Words allows you to insert a section break into text using the [InsertBre
 
 The following code example shows how to insert a section break into a document:
 
-EXAMPLE
+EXAMPLE //InsertSectionBreaks
 
 Use the [Remove](https://reference.aspose.com/words/python-net/aspose.words/node/remove/#default) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/python-net/aspose.words/section/clear_content/#default) method.
 
