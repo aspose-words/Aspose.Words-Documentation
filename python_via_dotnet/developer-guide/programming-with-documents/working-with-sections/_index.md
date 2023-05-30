@@ -48,13 +48,13 @@ Aspose.Words allows you to insert a section break into text using the [InsertBre
 
 The following code example shows how to insert a section break into a document:
 
-EXAMPLE //InsertSectionBreaks
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "insert-section-breaks.py" >}}
 
 Use the [Remove](https://reference.aspose.com/words/python-net/aspose.words/node/remove/#default) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/python-net/aspose.words/section/clear_content/#default) method.
 
 The following code example shows how to remove sections breaks: 
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemoveSectionBreaks.py" >}} //RemoveSectionBreaks
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "remove-section-breaks.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -68,7 +68,7 @@ If you want to move a section from one position to another in your document, you
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
-EXAMPLE //SectionChildNodes
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "section-child-nodes.py" >}}
 
 ## Specify a Section Layout
 
@@ -81,7 +81,7 @@ Sometimes you want your document to look better by making creative layouts for d
 
 The following code example shows how to limit the number of lines that each page may have:
 
-EXAMPLE //LineGridSectionLayoutMode
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "line-grid-section-layout-mode.py" >}}
 
 ## Edit a Section
 
@@ -89,7 +89,7 @@ When you add a new section to your document, there will be no body or paragraph 
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
-EXAMPLE //EnsureMinimum
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "ensure-minimum.py" >}}
 
 ### Append or Prepend Content
 
@@ -97,7 +97,7 @@ If you want to draw some shape or add text or image at the beginning/end of a se
 
 The following code example shows how to append content of an existing section:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-AppendSectionContent.py" >}} //AppendSectionContent
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "append-section-content.py" >}}
 
 ### Clone a Section
 
@@ -105,7 +105,7 @@ Aspose.Words allows you to duplicate a section by creating a full copy of it usi
 
 The following code example shows how to clone the first section in your document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-CloneSection.py" >}} //CloneSection
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "clone-section.py" >}}
 
 ### Copy Sections between Documents
 
@@ -115,7 +115,7 @@ Aspose.Words allows you to copy sections between documents using the [ImportNode
 
 The following code example shows how to copy sections between documents:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_section-CopySection.py" >}} //CopySection
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "copy-section.py" >}}
 
 ### Work with Section Header and Footer
 
@@ -126,17 +126,17 @@ The basic rules for displaying a header or footer for each section are quite sim
 
 The following code example shows how to create 2 sections with different headers:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Section-DifferentFirstPageHeaderFooter.cs" >}} //DifferentFirstPageHeaderFooter
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "different-first-page-header-footer.py" >}}
 
 If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/python-net/aspose.words/section/delete_header_footer_shapes/#default) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 
-EXAMPLE //DeleteHeaderFooterContent
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "delete-header-footer-content.py" >}}
 
 The following code example how to remove all shapes from all headers footers in a section:
 
-EXAMPLE //DeleteHeaderFooterShapes
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "delete-header-footer-shapes.py" >}}
 
 ## Customize Page Properties in a Section
 
@@ -146,11 +146,11 @@ Aspose.Words allows you to customize page and section properties using the [Page
 
 The following code example shows how to set such properties as page size and orientation for the current section:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-DocumentBuilderSetPageSetupAndSectionFormatting.py" >}} //PageSetupAndSectionFormatting
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "page-setup-and-section-formatting.py" >}}
 
 The following code example shows how to modify the page properties in all sections:
 
-EXAMPLE //ModifyPageSetupInAllSections
+{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "modify-page-setup-in-all-sections.py" >}}
 
 ## See Also
 
