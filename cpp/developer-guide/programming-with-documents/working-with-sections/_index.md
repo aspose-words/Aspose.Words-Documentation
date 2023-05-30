@@ -48,13 +48,13 @@ Aspose.Words allows you to insert a section break into text using the [InsertBre
 
 The following code example shows how to insert a section break into a document:
 
-EXAMPLE //InsertSectionBreaks
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "insert-section-breaks.cpp" >}}
 
 Use the [Remove](https://reference.aspose.com/words/cpp/aspose.words/node/remove/) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/cpp/aspose.words/section/clearcontent/) method.
 
 The following code example shows how to remove sections breaks: 
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveBreaks-RemoveSectionBreaks.cpp" >}} //RemoveSectionBreaks
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "remove-section-breaks.h" >}}
 
 {{% alert color="primary" %}}
 
@@ -68,7 +68,7 @@ If you want to move a section from one position to another in your document, you
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
-EXAMPLE //SectionChildNodes
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "section-child-nodes.h" >}}
 
 ## Specify a Section Layout
 
@@ -81,7 +81,7 @@ Sometimes you want your document to look better by making creative layouts for d
 
 The following code example shows how to limit the number of lines that each page may have:
 
-EXAMPLE //LineGridSectionLayoutMode
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "line-grid-section-layout-mode.h" >}}
 
 ## Edit a Section
 
@@ -89,7 +89,7 @@ When you add a new section to your document, there will be no body or paragraph 
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
-EXAMPLE //EnsureMinimum
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "ensure-minimum.h" >}}
 
 ### Append or Prepend Content
 
@@ -97,7 +97,7 @@ If you want to draw some shape or add text or image at the beginning/end of a se
 
 The following code example shows how to append content of an existing section:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-AppendSectionContent-AppendSectionContent.cpp" >}} //AppendSectionContent
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "append-section-content.h" >}}
 
 ### Clone a Section
 
@@ -105,7 +105,7 @@ Aspose.Words allows you to duplicate a section by creating a full copy of it usi
 
 The following code example shows how to clone the first section in your document:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-CloneSection-CloneSection.cpp" >}} //CloneSection
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "clone-section.h" >}}
 
 ### Copy Sections between Documents
 
@@ -115,7 +115,7 @@ Aspose.Words allows you to copy sections between documents using the [ImportNode
 
 The following code example shows how to copy sections between documents:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Sections-CopySection-CopySection.cpp" >}} //CopySection
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "copy-section.h" >}}
 
 ### Work with Section Header and Footer
 
@@ -126,17 +126,17 @@ The basic rules for displaying a header or footer for each section are quite sim
 
 The following code example shows how to create 2 sections with different headers:
 
-EXAMPLE //DifferentFirstPageHeaderFooter
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "different-first-page-header-footer.h" >}}
 
 If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/cpp/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/cpp/aspose.words/section/clearheadersfooters/) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/cpp/aspose.words/section/deleteheaderfootershapes/) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 
-EXAMPLE //DeleteHeaderFooterContent
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "delete-header-footer-content.h" >}}
 
 The following code example how to remove all shapes from all headers footers in a section:
 
-EXAMPLE //DeleteHeaderFooterShapes
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "delete-header-footer-shapes.h" >}}
 
 ## Customize Page Properties in a Section
 
@@ -146,11 +146,11 @@ Aspose.Words allows you to customize page and section properties using the [Page
 
 The following code example shows how to set such properties as page size and orientation for the current section:
 
-EXAMPLE //PageSetupAndSectionFormatting
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "page-setup-and-section-formatting.h" >}}
 
 The following code example shows how to modify the page properties in all sections:
 
-EXAMPLE //ModifyPageSetupInAllSections
+{{< gist "aspose-words-gists" "11904531c9095a3c413adf28dbe3fe8d" "modify-page-setup-in-all-sections.h" >}}
 
 ## See Also
 
