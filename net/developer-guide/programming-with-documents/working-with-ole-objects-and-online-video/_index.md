@@ -52,6 +52,12 @@ The following code example shows how to inserts an embedded OLE object as an ico
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIconUsingStream.cs" >}}
 
+{{% alert color="primary" %}}
+
+Maximum size of the icon must be 32x32 for the correct display.
+
+{{% /alert %}}
+
 ## Insert Online Video
 
 Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the [InsertOnlineVideo](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertonlinevideo/) method.
