@@ -3,20 +3,16 @@ title: Working with Tables in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Tables
 linktitle: Working with Tables
-description: "Introducing to Table node concepts in Aspose.Words for Java."
+description: "How to work with tables in Java. Introducing to Table node concepts in Aspose.Words for Java."
 type: docs
 weight: 60
 url: /java/working-with-tables/
 ---
 
-Tables are a common element found in word documents. They allow for large amounts of information to be organized and displayed cleanly in a grid like structure with rows and columns. They are also frequently used as a page layout tool, and a better alternative for displaying tabbed data (with tab stops) as they allow much better control over the design and layout of the content. You can lay out content which is to be kept in a fixed position by using a borderless table. While you would normally have plain text in a table, you can also put other content in cells, such as images or even other tables.
+A **table** in a document is a great way to structure similar data. That is why tables are a common content formatting element and are supported by most formats in one form or another.
 
-A table is comprised of elements such as **Cell**, **Row** and **Column**. These are concepts which are common to all tables in general whether they come from a Microsoft Word document or an HTML document. Tables in Aspose.Words are fully supported. You are able to freely edit, change, add and remove tables. Rendering of tables with high fidelity is also supported.
+Tables allow you to organize and clearly display large amounts of informationin a grid-type structure with rows and columns. They are also often used as a page layout tool and a better alternative for displaying tabbed data (with tab stops) as they allow more control over the design and layout of the content. This way you can even lay out content that needs to be stored in a fixed position using a borderless table.
 
-**This section includes the following topics:**
-- [Introduction and Creating Tables](/words/java/introduction-and-creating-tables/)
-- [Applying Formatting](/words/java/applying-formatting/)
-- [Working with TableStyle](/words/java/working-with-tablestyle/)
-- [Working with Columns and Rows](/words/java/working-with-columns-and-rows/)
-- [Joining and Splitting Tables](/words/java/joining-and-splitting-tables/)
-- [How to Build a Table from a Database](/words/java/how-to-build-a-table-from-a-datatable/)
+The table consists of such elements as **Cell**, **Row**, and **Column**. This is a concept that is common to all tables in general, regardless of which editor or document format the table was created in. For example, a table created in Microsoft Word or a table created in an HTML document would conform to the concept of cells, rows, and columns.
+
+Aspose.Words fully supports tables and high fidelity table rendering. You can freely edit, change, add, and remove tables and content in tables. In addition to plain text, other content can be placed in table cells, such as images, fields, or even other tables.

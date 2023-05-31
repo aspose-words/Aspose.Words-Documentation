@@ -32,7 +32,7 @@ Sometimes, when loading existing document cells in a table, they will appear mer
 
 ## Check if Cell is Merged
 
-To check if a cell is part of a sequence of merged cells, we simply check the CellFormat.HorizontalMerge and CellFormat.VerticalMerge properties.
+To check if a cell is part of a sequence of merged cells, we simply check the **HorizontalMerge** and **VerticalMerge** properties.
 
 The following code example shows how to print the horizontal and vertical cell merge type:
 

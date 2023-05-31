@@ -22,7 +22,7 @@ Using Aspose.Words, you can easily retrieve data from a database and store it as
 1. Create a new **DocumentBuilder** object on your **Document**.
 1. Start a new table using **DocumentBuilder**.
 1. If we want to insert the names of each of the columns from our **DataTable** as a header row then iterate through each data column and write the column names into a row in the table.
-1. Iterate through each **DataRow** in the **DataTable**.
+1. Iterate through each **DataRow** in the **DataTable**:
    1. Iterate through each object in the **DataRow**.
    1. Insert the object into the document using **DocumentBuilder**. The method used depends on the type of the object being inserted e.g **DocumentBuilder.Writeln** for text and **DocumentBuilder.InsertImage** for a byte array which represents an image.
    1. At the end of processing of the **DataRow** also end the row being created by the **DocumentBuilder** by using **DocumentBuilder.EndRow**.

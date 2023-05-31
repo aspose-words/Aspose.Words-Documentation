@@ -2,7 +2,7 @@
 title: Aspose.Words for C++ 23.1 Release Notes
 description: "Aspose.Words for C++ 23.1 Release Notes – the latest updates and fixes."
 type: docs
-weight: 70
+weight: 90
 url: /cpp/aspose-words-for-cpp-23-1-release-notes/
 ---
 
@@ -136,8 +136,6 @@ System::SharedPtr<Aspose::Words::Font> get_Font();
 **Use Case:**
 
 This use case explains how to work with **Font** in Charts. Please see the following code example to learn how to use such a property:
-
-{{% /alert %}}
 
 {{< highlight csharp >}}
 System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>();
