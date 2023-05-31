@@ -64,7 +64,7 @@ Note that a section break has information about the section that goes before it,
 
 ## Move a Section
 
-If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://apireference.aspose.com/words/net/aspose.words/sectioncollection). You can use the [Sections](https://reference.aspose.com/words/cpp/aspose.words/document/get_sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://reference.aspose.com/words/cpp/aspose.words/document/get_firstsection/) property.
+If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://reference.aspose.com/words/cpp/aspose.words/sectioncollection/). You can use the [Sections](https://reference.aspose.com/words/cpp/aspose.words/document/get_sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://reference.aspose.com/words/cpp/aspose.words/document/get_firstsection/) property.
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
