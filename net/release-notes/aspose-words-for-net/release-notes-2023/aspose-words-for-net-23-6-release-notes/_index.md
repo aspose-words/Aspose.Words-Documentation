@@ -132,7 +132,7 @@ This section lists public API changes that were introduced in Aspose.Words 23.6.
 
 Related issue: WORDSNET-25411
 
-Implemented removing digital signatures from ODT using **Aspose.Words.DigitalSignatures.DigitalSignatureUtil.RemoveAllSignatures** method.
+Implemented removing digital signatures from OTT using **Aspose.Words.DigitalSignatures.DigitalSignatureUtil.RemoveAllSignatures** method.
 
 {{% alert color="secondary" %}}
 
@@ -393,7 +393,17 @@ format.Stroke.Color = Color.Gray;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 
 doc.Save(dir + "Callouts.docx");
-UC to set fill and stroke formatting to data labels
+{{< /highlight >}}
+
+{{% alert color="secondary" %}}
+
+**Use Case**
+
+This use case explains how to set fill and stroke formatting to data labels. Please see the following code example to learn how to use such a properties:
+
+{{% /alert %}}
+
+{{< highlight csharp >}}
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
