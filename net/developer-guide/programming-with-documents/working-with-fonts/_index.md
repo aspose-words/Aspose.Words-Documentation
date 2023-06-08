@@ -13,7 +13,7 @@ A font is a set of characters with a certain size, color, and design. Aspose.Wor
 
 ## Font Formatting
 
-The current font formatting is represented by the **Font** object returned by the [DocumentBuilder.Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) property. The **Font** class contains a wide variety of font properties, replicating those available in Microsoft Word.
+The current font formatting is represented by the **Font** object returned by the [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) property. The **Font** class contains a wide variety of font properties, replicating those available in Microsoft Word.
 
 The following code example shows how to set font formatting:
 

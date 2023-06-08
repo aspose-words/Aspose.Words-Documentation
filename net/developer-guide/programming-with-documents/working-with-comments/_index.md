@@ -24,7 +24,7 @@ Aspose.Words allows users to work with comments – comments in a document in As
 Aspose.Words allows you to add comments in several ways:
 
 1. Using the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class
-2. Using  the [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) classes
+2. Using the [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) classes
 
 The following code example shows how to add a comment to a paragraph using the **Comment** class:
 
@@ -122,7 +122,7 @@ The following code example shows how to add a reply to comment and remove commen
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cs" >}}
 
-## How to Read Comment's Reply
+## Read Comment's Reply
 
 The [Replies](https://reference.aspose.com/words/net/aspose.words/comment/replies/) property returns a collection of the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) objects that are immediate children of the specified comment.
 
