@@ -17,15 +17,10 @@ Converting a document to XLSX is a rather complicated process. To save your docu
 
 The following code example shows how to save PDF to XLSX:
 
-EXAMPLE
-
-## Protect a Document When Saving to XLSX
-
-When saving to XLSX, you can protect the document. This will reduce the risk of unauthorized copying or modification of the document, as well as data leakage.
-
-The following code example shows how to protect a document when saving to XLSX:
-
-EXAMPLE
+{{< highlight csharp >}}
+Document doc = new Document(MyDir + "Pdf Document.pdf");
+doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
+{{< /highlight >}}
 
 ## Find and Replace When Saving to XLSX
 
@@ -33,7 +28,21 @@ Also using Aspose.Words, you can find a specific string or regular expression in
 
 The following code example shows how to perform find and replace operation and save result to XLSX:
 
-EXAMPLE
+{{< highlight csharp >}}
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Ruby bought a ruby necklace.");
+
+// We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+FindReplaceOptions options = new FindReplaceOptions();
+// Set the "MatchCase" flag to "true" to apply case sensitivity while finding strings to replace.
+// Set the "MatchCase" flag to "false" to ignore character case while searching for text to replace.
+options.MatchCase = true;
+
+doc.Range.Replace("Ruby", "Jade", options);
+doc.Save(ArtifactsDir + "BaseConversions.FindReplaceXlsx.xlsx");
+{{< /highlight >}}
 
 ## Specify Compression Level When Saving to XLSX
 
@@ -41,7 +50,14 @@ You can also specify the compression level when saving using the [CompressionLev
 
 The following code example shows how to specify the compression level when saving to XLSX format:
 
-EXAMPLE
+{{< highlight csharp >}}
+Document doc = new Document(MyDir + "Document.docx");
+
+XlsxSaveOptions saveOptions = new XlsxSaveOptions();
+saveOptions.CompressionLevel = CompressionLevel.Maximum;
+
+doc.Save(ArtifactsDir + "BaseConversions.CompressXlsx.xlsx", saveOptions);
+{{< /highlight >}}
 
 ## See Also
 
