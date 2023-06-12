@@ -17,7 +17,7 @@ Converting a document to XLSX is a rather complicated process. To save your docu
 
 The following code example shows how to save PDF to XLSX:
 
-{{< highlight csharp >}}
+{{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "Pdf Document.pdf")
 
 doc.save(docs_base.artifacts_dir + "BaseConversions.PdfToXlsx.xlsx")
@@ -29,7 +29,7 @@ Also using Aspose.Words, you can find a specific string or regular expression in
 
 The following code example shows how to perform find and replace operation and save result to XLSX:
 
-{{ < highlight python >}}
+{{< highlight python >}}
 from aspose.words import Document, DocumentBuilder
 from aspose.words.replacing import FindReplaceOptions
 
@@ -47,7 +47,7 @@ options.match_case = True
 
 doc.range.replace("Ruby", "Jade", options)
 doc.save(ARTIFACTS_DIR + "BaseConversions.FindReplaceXlsx.xlsx")
-{{ < / highlight >}}
+{{< /highlight >}}
 
 ## Specify Compression Level When Saving to XLSX
 
@@ -55,7 +55,7 @@ You can also specify the compression level when saving using the [CompressionLev
 
 The following code example shows how to specify the compression level when saving to XLSX format:
 
-{{ < highlight python >}}
+{{< highlight python >}}
 from aspose.words import Document
 from aspose.words.saving import XlsxSaveOptions, CompressionLevel
 
@@ -65,7 +65,7 @@ saveOptions = XlsxSaveOptions()
 saveOptions.compression_level = CompressionLevel.MAXIMUM
 
 doc.save(ARTIFACTS_DIR + "BaseConversions.CompressXlsx.xlsx", saveOptions)
-{{ < / highlight >}}
+{{< /highlight >}}
 
 ## See Also
 
