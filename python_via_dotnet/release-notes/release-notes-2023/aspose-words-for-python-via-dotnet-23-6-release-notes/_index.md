@@ -156,10 +156,13 @@ The original file load format is FB2, which is not supported by Aspose.Words. Th
 Starting from Aspose.Words 23.6, you can use the HTML tag to insert HTML dynamically to your documents using LINQ Reporting Engine. This new way of HTML insertion provides more options to control formatting of an HTML block being inserted.
 
 By default, HTML content is formatted by deriving styles of a template document. Template syntax for this is as follows.
+
 {{< highlight python >}}
 <<html [html_text_expression]>>
 {{< /highlight >}}
+
 However, you can keep source HTML formatting for content being inserted (to make it look like in a browser) by using the sourceStyles switch as follows.
+
 {{< highlight python >}}
 <<html [html_text_expression] -sourceStyles>>
 {{< /highlight >}}
@@ -197,7 +200,7 @@ Evaluating this property causes internal rendering of the document, which can af
 
 We have changed the default behavior of Aspose.Words during font substitution to copy the behavior introduced in Microsoft Word 2019. Previously, the metrics of the original font were used in some cases. Now the metrics of the substitution font is used in all cases by default.
 
-The **keep_original_font_metrics** property has been added to the **LayoutOptions** class:
+The **keep_original_font_metrics** property has been added to the **LayoutOptions** class.
 
 {{< highlight python >}}
 @property
@@ -231,6 +234,7 @@ The following changes have been made to the API:
 A new class **XlsxSaveOptions** has been implemented.
 A new item **Xlsx** has been added to the **SaveFormat** class.
 A new item **Xlsx** has been added to the **WarningSource** class.
+
 {{< highlight python >}}
 class XlsxSaveOptions(aspose.words.saving.SaveOptions):
     '''Can be used to specify additional options when saving a document into the :attr:`aspose.words.SaveFormat.XLSX`
@@ -275,7 +279,7 @@ class WarningSource:
         ...
 
     XLSX:int
-    
+
 }
 {{< /highlight >}}
 
@@ -308,7 +312,6 @@ class ChartDataLabel:
         '''Provides access to fill and line formatting of the data label.'''
         ...
 
-
 class ChartDataLabelCollection:
     '''Represents a collection of :class:`ChartDataLabel`.
     To learn more, visit the `Working with Charts <https://docs.aspose.com/words/python-net/working-with-charts/>` documentation article.'''
@@ -317,7 +320,6 @@ class ChartDataLabelCollection:
     def format(self) -> aspose.words.drawing.charts.ChartFormat:
         '''Provides access to fill and line formatting of the data labels.'''
         ...
-
 {{< /highlight >}}
 
 The new class type **ChartShapeType** has been implemented and the **shape_type** property of this type has been added to the **ChartFormat** class.
@@ -327,7 +329,6 @@ class ChartShapeType:
     '''Specifies the shape type of chart elements.'''
 
     DEFAULT: int,
-
     RECTANGLE: int,
     ...
 }
@@ -445,7 +446,8 @@ Starting from this version, LINQ Reporting Engine supports table-column data ban
 
 The following obsolete public property is removed from **Aspose.Words.Drawing.Fill** class.
 
-We also decided to leave obsolete property **Fill.Color** along with a new **Fill.ForeColor**, as these two methods have slightly different behavior in regarding transparency:
+We also decided to leave obsolete property **Fill.Color** along with a new **Fill.ForeColor**, as these two methods have slightly different behavior in regarding transparency.
+
 {{< highlight python >}}
 @property
 def color(self) -> aspose.pydrawing.Color:
@@ -509,9 +511,9 @@ Fill.Visible: True
 Fill.Visible: False
  */
 {{< /highlight >}}
- 
+
 ### Added a new LowCode methods intended to merge a variety of different types of documents into a single output document
- 
+
 Added a new **LowCode.Merger** class, which represents a group of methods intended to merge a variety of different types of documents into a single output document.
 
 The following overloads were provided:
@@ -599,9 +601,9 @@ class Merger:
     
     ...
 {{< /highlight >}}
- 
+
 Added a new **MergeFormatMode** class, which specifies how formatting is merged when combining multiple documents.
- 
+
 {{< highlight python >}}
  class MergeFormatMode:
     '''Specifies how formatting is merged when combining multiple documents.'''
@@ -624,4 +626,3 @@ This use case explains how to merge multiple documents (DOCX, PDF, DOC, RTF) int
 # Merges multiple documents(DOCX, PDF, DOC, RTF) into a single PDF document.
 Merger.merge("out.pdf", ["in.docx", "in.pdf", "in.doc", "in.rtf"])
 {{< /highlight >}}
- 
