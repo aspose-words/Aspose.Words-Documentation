@@ -1,8 +1,8 @@
 ---
 title: 23.6 Release Notes
-second_title: Aspose.Words for Python
-articleTitle: Aspose.Words for Python 23.6 Release Notes
-linktitle: Aspose.Words for Python 23.6 Release Notes
+second_title: Aspose.Words for Python via .NET
+articleTitle: Aspose.Words for Python via .NET 23.6 Release Notes
+linktitle: Aspose.Words for Python via .NET 23.6 Release Notes
 description: "Aspose.Words for Python via .NET 23.6 Release Notes – the latest updates and fixes."
 type: docs
 weight: 70

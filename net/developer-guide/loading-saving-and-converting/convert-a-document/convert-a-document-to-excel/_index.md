@@ -3,7 +3,7 @@ title: Convert Word to Excel in C#
 second_title: Aspose.Words for .NET
 articleTitle: Convert a Document to Excel
 linktitle: Convert a Document to Excel
-description: "Convert PDF to Excel, XML to Excel, DOCX to Excel C#. Save a document in various formats to XLSX  using C#."
+description: "Convert PDF to Excel, XML to Excel, DOCX to Excel C#. Save a document in various formats to XLSX using C#."
 type: docs
 weight: 15
 url: /net/convert-a-document-to-excel/
