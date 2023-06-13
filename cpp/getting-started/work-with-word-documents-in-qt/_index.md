@@ -19,44 +19,26 @@ For using Aspose.Words for C++ in your Qt application download the latest versio
 
 In order to integrate and use Aspose.Words for C++ library within a Qt Console Application developed in Qt Creator, please follow the steps given below:
 
-- Open Qt Creator and create a new *Qt Console Application*.
+- Open Qt Creator and create a new *Qt Console Application*
 
-![aspose-words-cpp-in-qt-1](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application.jpg)
-
-- Select the QMake option from the *Build System* dropdown.
-
-![aspose-words-cpp-in-qt-2](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-Console-Application-QMake.jpg)
+- Select the QMake option from the *Build System* dropdown
 
 - Select the appropriate kit and finish the wizard.
-- Copy *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp_vc14_20.3* folders from the extracted package of Aspose.Words for C++ into the root of the project.
+- Copy *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp_vc14_20.3* folders from the extracted package of Aspose.Words for C++ into the root of the project
 
-![aspose-words-cpp-in-qt-3](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Aspose.Words-lib-files.jpg)
+- In order to add paths to lib and include folders, right-click on the project in the LHS panel and select *Add Library*
 
-- In order to add paths to lib and include folders, right-click on the project in the LHS panel and select *Add Library*.
+- Select the External Library option and browse paths to include and lib folders one by one
 
-![aspose-words-cpp-in-qt-4](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg)
+- Once done, your .pro project file will contain the following entries
 
-- Select the External Library option and browse paths to include and lib folders one by one.
+- Build the application and you are done with the integration
 
-![aspose-words-cpp-in-qt-5](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library-2.jpg)
+- Select the External Library option and browse paths to include and lib folders one by one
 
-- Once done, your .pro project file will contain the following entries:
+- Once done, your .pro project file will contain the following entries
 
-![aspose-words-cpp-in-qt-6](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-PRO-File-1024x372.png)
-
-- Build the application and you are done with the integration.
-
-![aspose-words-cpp-in-qt-7](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library.jpg)
-
-- Select the External Library option and browse paths to include and lib folders one by one.
-
-![aspose-words-cpp-in-qt-8](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Add-Word-Library-2.jpg)
-
-- Once done, your .pro project file will contain the following entries:
-
-![aspose-words-cpp-in-qt-9](https://blog.aspose.com/wp-content/uploads/sites/2/2020/04/Qt-PRO-File-1024x372.png)
-
-- Build the application and you are done with the integration.
+- Build the application and you are done with the integration
 
 ## Using Aspose.Words for C++ in Qt Applications within Visual Studio
 
