@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appendix C. Typical Templates in Java
 second_title: Aspose.Words for Java
 articleTitle: Appendix C. Typical Templates
@@ -183,6 +183,23 @@ We provide support for the following clients:
 |{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000 {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000 {{< /highlight >}} |
 
+## In-Table List Template (Horizontal)
+
+### Template Example
+
+| **Manager	<<foreach [in managers] -horz>><<[getName**()**]>>	Total:**</br>
+**Contract Price**	<<[getContracts().sum(</br>
+  c => c.getPrice())]>><</foreach>>	<<[sum(</br>
+  m => m.getContracts().sum(</br>
+    c => c.getPrice()))]>> |
+| :- |
+
+### Report Example
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
+
 ## In-Table List Template with Running (Progressive) Total
 
 **Template Example**
@@ -232,6 +249,25 @@ We provide support for the following clients:
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
+## In-Table List Template (Horizontal) with Highlighted Columns
+
+### Template Example
+
+| **Manager	<<foreach [in managers] -horz>><<if [getContracts**()**.sum(**</br>
+  **c => c.getPrice**()**) >= 2000000] -horz>><<[getName**()**]>>	<<else>><<[getName**()**]>>	Total:**</br>
+**Contract Price**	<<[getContracts().sum(</br>
+  c => c.getPrice())]>>	<<[getContracts().sum(</br>
+  c => c.getPrice())]>><</if>><</foreach>>	<<[sum(</br>
+  m => m.getContracts().sum(</br>
+    c => c.getPrice()))]>> |
+| :- |
+
+### Report Example
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
+
 ## In-Table List Template with Alternate Content
 
 ### Template Example
@@ -264,7 +300,30 @@ We provide support for the following clients:
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
-## Common Master-Detail Template
+## In-Table List Template (Horizontal) with Alternate Content
+
+### Template Example
+
+| **Manager	<<if [!any()] -horz>>No data	<<else>><<foreach [in managers] -horz>><<[getName**()**]>>	Total:**</br>
+**Contract Price**		<<[getContracts().sum(</br>
+  c => c.getPrice())]>><</foreach>>	<<[sum(</br>
+  m => m.getContracts().sum(</br>
+    c => c.getPrice()))]>><</if>> |
+| :- |
+
+### Report Example 1
+
+| Manager            | No data |
+| :----------------- | :------ |
+| **Contract Price** |         |
+
+### Report Example 2
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
+
+##Common Master-Detail Template
 
 ### Template Example
 

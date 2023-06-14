@@ -1,4 +1,4 @@
-﻿---
+---
 title: Outputting Sequential Data in C#
 second_title: Aspose.Words for .NET
 articleTitle: Outputting Sequential Data
@@ -138,17 +138,17 @@ In this case, the engine produces a report as follows.
 |Manager/Client|Contract Price|
 | :- | :- |
 |**John Smith**|**2300000**|
-|**A Company**|**1200000**|
-|**B Ltd.**|**750000**|
-|**C & D**|**350000**|
+|A Company|1200000|
+|B Ltd.|750000|
+|C & D|350000|
 |**Tony Anderson**|**1200000**|
-|**E Corp.**|**650000**|
-|**F & Partners**|**550000**|
+|E Corp.|**650000**|
+|F & Partners|550000|
 |**July James**|**800000**|
-|**G & Co.**|**350000**|
-|**H Group**|**250000**|
-|**I & Sons**|**100000**|
-|**J Ent.**|**100000**|
+|G & Co.|350000|
+|H Group|250000|
+|I & Sons|100000|
+|J Ent.|100000|
 |**Total:**|**4300000**|
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
@@ -161,9 +161,11 @@ In this case, the engine produces a report as follows.
 
 |Manager|Clients|
 | :- | :- |
-|**John Smith**|**A Company B Ltd. C & D**|
-|**Tony Anderson**|**E Corp. F & Partners**|
-|**July James**|**G & Co. H Group I & Sons J Ent.**|
+|**John Smith**|**A Company**</br> **B Ltd.**</br>**C & D**|
+|**Tony Anderson**|**E Corp.**</br>**F & Partners**|
+|**July James**|**G & Co.**</br>**H Group**</br>**I & Sons**</br>**J Ent.**|
+
+**Note –** Table-column data bands can also be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing `foreach` tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
@@ -192,6 +194,142 @@ In this case, the engine produces a report as follows.
 |**July James**|
 
 For more examples of templates for typical scenarios involving table-row data bands, see “Appendix C. Typical Templates”.
+
+## Working with Table-Column Data Bands
+
+You can build tables growing horizontally rather than vertically by using table-column data bands.
+
+A table-column data band represents a data band, which body occupies a rectangular area of cells of a single document table. The body of such a band starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.
+
+| **...** | **<<foreach ... -horz>> ...** | **...** | **...**              | **...** |
+| ------- | ----------------------------- | ------- | -------------------- | ------- |
+| **...** | **...**                       | **...** | **...**              | **...** |
+| **...** | **...**                       | **...** | **... <</foreach>>** | **...** |
+
+**Note –** The `horz` switch instructs the engine to affect table columns rather than rows.
+
+However, unlike table-row data bands able to capture only whole rows, table-column data bands can occupy columns even partially as shown in the following template snippet.
+
+| **...** | **...**                       | **...** | **...**              | **...** |
+| ------- | ----------------------------- | ------- | -------------------- | ------- |
+| **...** | **<<foreach ... -horz>> ...** | **...** | **...**              | **...** |
+| **...** | **...**                       | **...** | **...**              | **...** |
+| **...** | **...**                       | **...** | **... <</foreach>>** | **...** |
+| **...** | **...**                       | **...** | **...**              | **...** |
+
+Let us consider typical use cases for table-column data bands at first defining `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
+
+![table-column-data-bands-aspose-words-net](graph-10.jpeg)
+
+The most common scenario for a table-column data band is building of a document table that represents a list of items side by side. You can use a template like the following one to achieve this.
+
+| **Good**          | **<<foreach [s in ds.Sales] -horz>><<[s.Goods.Name]>>** | **Total:**                              |
+| ----------------- | ------------------------------------------------------- | --------------------------------------- |
+| **Pack**          | **<<[s.Packs.Name]>>**                                  |                                         |
+| **Sold Quantity** | **<<[s.Quantity]>><</foreach>>**                        | **<<[ds.Sales.Sum(s => s.Quantity)]>>** |
+
+In this case, the engine produces a report as follows.
+
+| **Good**          | **Drinking Water** | **Drinking Water** | **Mineral Water** | **Mineral Water** | **Total:** |
+| ----------------- | ------------------ | ------------------ | ----------------- | ----------------- | ---------- |
+| **Pack**          | **1.5 L**          | **500 ml**         | **1.5 L**         | **500 ml**        |            |
+| **Sold Quantity** | **12**             | **27**             | **5**             | **13**            | **57**     |
+
+To grow a document table horizontally by filling it with master-detail data, you can use nested table-column data bands like in the following template.
+
+| **Good / Pack**   | **<<foreach [g in ds.Goods] -horz>><<[g.Name]>>** | **<<foreach [s in g.Sales] -horz>><<[s.Packs.Name]>>** | **Total:**                              |
+| ----------------- | ------------------------------------------------- | ------------------------------------------------------ | --------------------------------------- |
+| **Sold Quantity** | **<<[g.Sales.Sum(s => s.Quantity)]>>**            | **<<[s.Quantity]>><</foreach>><</foreach>>**           | **<<[ds.Sales.Sum(s => s.Quantity)]>>** |
+
+In this case, the engine produces a report as follows.
+
+| **Good / Pack**   | **Drinking Water** | **1.5 L** | **500 ml** | **Mineral Water** | **1.5 L** | **500 ml** | **Total:** |
+| ----------------- | ------------------ | --------- | ---------- | ----------------- | --------- | ---------- | ---------- |
+| **Sold Quantity** | **39**             | **12**    | **27**     | **18**            | **5**     | **13**     | **57**     |
+
+You can normally use common data bands nested to table-column data bands as well like in the following template.
+
+| **Good**       | **<<foreach [g in ds.Goods] -horz>><<[g.Name]>>**            |
+| -------------- | ------------------------------------------------------------ |
+| **Sold Packs** | **<<foreach [s in g.Sales]>><<[s.Packs.Name]>>** **<</foreach>><</foreach>>** |
+
+In this case, the engine produces a report as follows.
+
+| **Good**       | **Drinking Water**   | **Mineral Water**    |
+| -------------- | -------------------- | -------------------- |
+| **Sold Packs** | **1.5 L** **500 ml** | **1.5 L** **500 ml** |
+
+**Note –** Table-column data bands can themselves be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
+
+For more examples of templates for typical scenarios involving table-column data bands, see “Appendix C. Typical Templates”.
+
+## Working with Cross (Pivot) Tables
+
+*A cross or pivot table* is a document table growing in the both directions – vertically and horizontally – depending on bound data. You can build a cross (pivot) table by nesting a table-column data band into a table-row data band as follows.
+
+| **<<foreach ...>><<foreach ... -horz>> ...** | **...** | **...**                          |
+| -------------------------------------------- | ------- | -------------------------------- |
+| **...**                                      | **...** | **...**                          |
+| **...**                                      | **...** | **... <</foreach>><</foreach>>** |
+
+**Note –** It is not necessary to start (or end) an outer table-row data band and a nested table-column one within the same cell, but this case is also supported.
+
+Let us consider concrete examples using `years`, an array of integers ranging from 2020 to 2023, and `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
+
+![table-column-data-bands-aspose-words-net](graph-10.jpeg)
+
+The most basic scenario is filling a document table with data in two directions. You can use a template like the following one to achieve this.
+
+| **Managers**                                   | **<<foreach [y in years] -horz>><<[y]>><</foreach>>**        |
+| ---------------------------------------------- | ------------------------------------------------------------ |
+| **<<foreach [m in ds.Managers]>><<[m.Name]>>** | **<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>><</foreach>>** |
+
+**Note –** Table-row and table-column regions cannot cross, that is why two table-column data bands bound to the same enumeration are required here.
+
+In this case, the engine produces a report as follows.
+
+| **Managers**     | **2020**   | **2021**   | **2022**   | **2023**   |
+| ---------------- | ---------- | ---------- | ---------- | ---------- |
+| **James Atkins** | **545000** | **340000** | **620000** | **510000** |
+| **John Lee**     | **120000** | **320000** | **565000** | **495000** |
+| **Thelma Green** | **310000** | **290000** | **485000** | **530000** |
+| **Ted LeMark**   | **0**      | **110000** | **345000** | **380000** |
+
+It is quite typical for cross (pivot) tables to contain totals for every row and column. You can add the totals by altering the template as follows.
+
+| **Managers**                                   | **<<foreach [y in years] -horz>><<[y]>><</foreach>>**        | **Total**                                           |
+| ---------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
+| **<<foreach [m in ds.Managers]>><<[m.Name]>>** | **<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>>** | **<<[m.Contracts.Sum(c => c.Price)]>><</foreach>>** |
+| **Total**                                      | **<<foreach [y in years] -horz>><<[ds.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>>** | **<<[ds.Contracts.Sum(c => c.Price)]>>**            |
+
+In this case, the engine produces a report as follows.
+
+| **Managers**     | **2020**   | **2021**    | **2022**    | **2023**    | **Total**   |
+| ---------------- | ---------- | ----------- | ----------- | ----------- | ----------- |
+| **James Atkins** | **545000** | **340000**  | **620000**  | **510000**  | **2015000** |
+| **John Lee**     | **120000** | **320000**  | **565000**  | **495000**  | **1500000** |
+| **Thelma Green** | **310000** | **290000**  | **485000**  | **530000**  | **1615000** |
+| **Ted LeMark**   | **0**      | **110000**  | **345000**  | **380000**  | **835000**  |
+| **Total**        | **975000** | **1060000** | **2015000** | **1915000** | **5965000** |
+
+Since cross (pivot) tables can contain large amounts of data, it is quite usual to group parts of information within these tables using merged cells, in order to simplify further search of necessary information. For this purpose, you can apply `cellMerge` tags (see “Merging Table Cells Dynamically” for more information) as shown in the following template.
+
+| **Cities**                                                   | **Managers**     | **<<foreach [y in years] -horz>>Years<<cellMerge -horz>>**   |
+| ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ |
+| **<<[y]>><</foreach>>**                                      |                  |                                                              |
+| **<<foreach [m in ds.Managers]>><<[m.Cities.Name]>><<cellMerge>>** | **<<[m.Name]>>** | **<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>><</foreach>>** |
+
+In this case, the engine produces a report as follows.
+
+| **Cities**     | **Managers**     | **Years**  |            |            |            |
+| -------------- | ---------------- | ---------- | ---------- | ---------- | ---------- |
+| **2020**       | **2021**         | **2022**   | **2023**   |            |            |
+| **Seattle**    | **James Atkins** | **545000** | **340000** | **620000** | **510000** |
+| **John Lee**   | **120000**       | **320000** | **565000** | **495000** |            |
+| **Ottawa**     | **Thelma Green** | **310000** | **290000** | **485000** | **530000** |
+| **Ted LeMark** | **0**            | **110000** | **345000** | **380000** |            |
+
+Combining all the described approaches, you can create cross (pivot) tables of almost any complexity.
 
 ## Using Charts to Represent Sequential Data
 
