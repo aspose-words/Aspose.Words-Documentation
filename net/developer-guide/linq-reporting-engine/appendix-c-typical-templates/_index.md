@@ -199,12 +199,17 @@ You can download the template file of this example from [here](https://github.co
 
 #### Template Example
 
-| **Manager	<<foreach [in managers] -horz>><<[Name]>>	Total:**</br>
-Contract Price	<<[Contracts.Sum(</br>
-  c => c.Price)]>><</foreach>>	<<[Sum(</br>
-  m => m.Contracts.Sum(</br>
-    c => c.Price))]>> |
-| :- |
+<table class="conditional block">
+	<tbody>
+		<tr>
+      <td><strong>Manager	&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[Name]>>	Total:</strong><br>
+        <strong>Contract Price</strong>	&lt;&lt;[Contracts.Sum(<br>
+  c => c.Price)]>>&lt;&lt;/foreach>>	&lt;&lt;[Sum(<br>
+  m => m.Contracts.Sum(<br>
+      c => c.getPrice()))]>></td>
+		</tr>
+	</tbody>
+</table>
 
 #### Report Example
 
@@ -265,14 +270,19 @@ Contract Price	<<[Contracts.Sum(</br>
 
 #### Template Example
 
-| **Manager	<<foreach [in managers] -horz>><<if [Contracts.Sum(**</br>
-  **c => c.Price) >= 2000000] -horz>><<[Name]>>	<<else>><<[Name]>>	Total:**</br>
-**Contract Price**	<<[Contracts.Sum(</br>
-  c => c.Price)]>>	<<[Contracts.Sum(</br>
-  c => c.Price)]>><</if>><</foreach>>	<<[Sum(</br>
+<table class="conditional block">
+	<tbody>
+		<tr>
+      <td><strong>Manager	&lt;&lt;foreach [in managers] -horz>>&lt;&lt;if [Contracts.Sum(</strong><br>
+        <strong>c => c.Price) >= 2000000] -horz>>&lt;&lt;[Name]>>	&lt;&lt;else>>&lt;&lt;[Name]>>	Total:</strong><br>
+        <strong>Contract Price</strong>&lt;&lt;[Contracts.Sum(</br>
+  c => c.Price)]>>	&lt;&lt;[Contracts.Sum(</br>
+  c => c.Price)]>>&lt;&lt;/if>>&lt;&lt;/foreach>>	&lt;&lt;[Sum(</br>
   m => m.Contracts.Sum(</br>
-    c => c.Price))]>> |
-| :- |
+  c => c.getPrice()))]>></td>
+		</tr>
+	</tbody>
+</table>
 
 #### Report Example
 
@@ -319,12 +329,17 @@ You can download the template file of this example from [here](https://github.co
 
 #### Template Example
 
-| **Manager	<<if [!Any()] -horz>>No data	<<else>><<foreach [in managers] -horz>><<[Name]>>	Total:**</br>
-**Contract Price**		<<[Contracts.Sum(</br>
-  c => c.Price)]>><</foreach>>	<<[Sum(</br>
+<table class="conditional block">
+	<tbody>
+		<tr>
+      <td><strong>Manager	&lt;&lt;if [!Any()] -horz>>No data	&lt;&lt;else>>&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[Name]>>	Total:</strong><br>
+        <strong>Contract Price</strong>&lt;&lt;[Contracts.Sum(</br>
+ c => c.Price)]>>&lt;&lt;/foreach>>	&lt;&lt;[Sum(</br>
   m => m.Contracts.Sum(</br>
-    c => c.Price))]>><</if>> |
-| :- |
+    c => c.Price))]>>&lt;&lt;/if>>
+		</tr>
+	</tbody>
+</table>
 
 #### Report Example 1
 

@@ -187,12 +187,17 @@ We provide support for the following clients:
 
 ### Template Example
 
-| **Manager	<<foreach [in managers] -horz>><<[getName**()**]>>	Total:**</br>
-**Contract Price**	<<[getContracts().sum(</br>
-  c => c.getPrice())]>><</foreach>>	<<[sum(</br>
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td><strong>Manager	&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[getName()]>>	Total:</strong><br>
+<strong>Contract Price</strong>	&lt;&lt;[getContracts().sum(</br>
+  c => c.getPrice())]>>&lt;&lt;/foreach>>	&lt;&lt;[sum(</br>
   m => m.getContracts().sum(</br>
-    c => c.getPrice()))]>> |
-| :- |
+    c => c.getPrice()))]>></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Report Example
 
@@ -253,14 +258,18 @@ We provide support for the following clients:
 
 ### Template Example
 
-| **Manager	<<foreach [in managers] -horz>><<if [getContracts**()**.sum(**</br>
-  **c => c.getPrice**()**) >= 2000000] -horz>><<[getName**()**]>>	<<else>><<[getName**()**]>>	Total:**</br>
-**Contract Price**	<<[getContracts().sum(</br>
-  c => c.getPrice())]>>	<<[getContracts().sum(</br>
-  c => c.getPrice())]>><</if>><</foreach>>	<<[sum(</br>
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td><strong>Manager	&lt;&lt;foreach [in managers] -horz>>&lt;&lt;if [getContracts().sum(</strong><br>
+<strong>Contract Price</strong>	&lt;&lt;[getContracts().sum(</br>
+  c => c.getPrice())]>>	&lt;&lt;[getContracts().sum(</br>
+  c => c.getPrice())]>>&lt;&lt;/if>>&lt;&lt;/foreach>>	&lt;&lt;[sum(</br>
   m => m.getContracts().sum(</br>
-    c => c.getPrice()))]>> |
-| :- |
+    c => c.getPrice()))]>></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Report Example
 
@@ -304,12 +313,17 @@ We provide support for the following clients:
 
 ### Template Example
 
-| **Manager	<<if [!any()] -horz>>No data	<<else>><<foreach [in managers] -horz>><<[getName**()**]>>	Total:**</br>
-**Contract Price**		<<[getContracts().sum(</br>
-  c => c.getPrice())]>><</foreach>>	<<[sum(</br>
+<table class="conditional block">
+	<tbody>
+		<tr>
+			<td><strong>Manager	&lt;&lt;if [!any()] -horz>>No data	&lt;&lt;else>>&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[getName()]>>	Total:</strong><br>
+<strong>Contract Price</strong>	&lt;&lt;[getContracts().sum(</br>
+  c => c.getPrice())]>>&lt;&lt;/foreach>>	&lt;&lt;[sum(</br>
   m => m.getContracts().sum(</br>
-    c => c.getPrice()))]>><</if>> |
-| :- |
+    c => c.getPrice()))]>>&lt;&lt;/if>></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Report Example 1
 
@@ -323,7 +337,7 @@ We provide support for the following clients:
 | :----------------- | :--------- | ------------- | ---------- | ------- |
 | **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
 
-##Common Master-Detail Template
+## Common Master-Detail Template
 
 ### Template Example
 

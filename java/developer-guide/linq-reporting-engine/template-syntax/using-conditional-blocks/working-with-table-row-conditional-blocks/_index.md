@@ -29,9 +29,9 @@ The following examples in this section are given using `client`, an instance of 
 {{< highlight csharp >}}
 public class Client
 {
-public String  REF getName getName()  REF getterBody { ... }
-public String  REF getCountry getCountry()  REF getterBody { ... }
-public String  REF getLocalAddress getLocalAddress()  REF getterBody { ... }
+	public String getName() { ... }
+	public String getCountry() { ... }
+	public String getLocalAddress() { ... }
 ...
 }
 {{< /highlight >}}
@@ -77,6 +77,8 @@ In case when the corresponding enumeration is empty, the engine produces a repor
 |Client|Country|Local Address|
 | :- | :- | :- |
 |**No data**|||
+
+**Note –** Table-column data bands and conditional blocks can also be nested to table-row conditional blocks, but not conversely: Nesting of table-row conditional blocks into table-column data bands and conditional blocks is forbidden.
 
 A special case is a template option inside a single-column table row. In such a case, if you put an opening `if`, `elseif`, or `else` tag and a closing `if` tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Table-Row Data Bands in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Table-Row Data Bands
@@ -83,6 +83,8 @@ In this case, the engine produces a report as follows.
 |**John Smith**|<p>**A Company**</p><p>**B Ltd.**</p><p>**C & D**</p><p></p>|
 |**Tony Anderson**|<p>**E Corp.**</p><p>**F & Partners**</p><p></p>|
 |**July James**|<p>**G & Co.**</p><p>**H Group**</p><p>**I & Sons**</p><p>**J Ent.**</p><p></p>|
+
+**Note –** Table-column data bands can also be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing `foreach` tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
