@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appendix C. Typical Templates in C#
 second_title: Aspose.Words for .NET
 articleTitle: Appendix C. Typical Templates
@@ -11,7 +11,7 @@ url: /net/typical-templates/
 
 ## Data Source Objects
 
-Every example given in this article is using one of the following data source objects:
+This section contains examples of templates for typical scenarios. Every example is given using one of the following data source objects:
 
 - `manager`, an instance of the `Manager` class
 - `managers`, an enumeration of instances of the `Manager` class
@@ -195,6 +195,23 @@ You can download the template file of this example from [here](https://github.co
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableList-InTableList.cs" >}}
 
+### In-Table List Template (Horizontal)
+
+#### Template Example
+
+| **Manager	<<foreach [in managers] -horz>><<[Name]>>	Total:**</br>
+Contract Price	<<[Contracts.Sum(</br>
+  c => c.Price)]>><</foreach>>	<<[Sum(</br>
+  m => m.Contracts.Sum(</br>
+    c => c.Price))]>> |
+| :- |
+
+#### Report Example
+
+|Manager|John Smith|Tony Anderson|July James|Total:|
+| :- | :- | -- | -- | -- |
+| **Contract Price** | 2300000 | 1200000 | 800000 | 4300000 |
+
 ### In-Table List Template with Running (Progressive) Total
 
 #### Template Example
@@ -244,6 +261,25 @@ You can download the template file of this example from [here](https://github.co
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
+### In-Table List Template (Horizontal) with Highlighted Columns
+
+#### Template Example
+
+| **Manager	<<foreach [in managers] -horz>><<if [Contracts.Sum(**</br>
+  **c => c.Price) >= 2000000] -horz>><<[Name]>>	<<else>><<[Name]>>	Total:**</br>
+**Contract Price**	<<[Contracts.Sum(</br>
+  c => c.Price)]>>	<<[Contracts.Sum(</br>
+  c => c.Price)]>><</if>><</foreach>>	<<[Sum(</br>
+  m => m.Contracts.Sum(</br>
+    c => c.Price))]>> |
+| :- |
+
+#### Report Example
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
+
 ### In-Table List Template with Alternate Content
 
 #### Template Example
@@ -278,6 +314,29 @@ You can download the template file of this example from [here](https://github.co
 |**Total:**|4300000|
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableAlternateContent-InTableAlternateContent.cs" >}}
+
+### In-Table List Template (Horizontal) with Alternate Content
+
+#### Template Example
+
+| **Manager	<<if [!Any()] -horz>>No data	<<else>><<foreach [in managers] -horz>><<[Name]>>	Total:**</br>
+**Contract Price**		<<[Contracts.Sum(</br>
+  c => c.Price)]>><</foreach>>	<<[Sum(</br>
+  m => m.Contracts.Sum(</br>
+    c => c.Price))]>><</if>> |
+| :- |
+
+#### Report Example 1
+
+| Manager            | No data |
+| :----------------- | :------ |
+| **Contract Price** |         |
+
+#### Report Example 2
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
 
 ### Common Master-Detail Template
 
@@ -393,7 +452,7 @@ You can download the template file of this example from [here](https://github.co
 .Where(c => c.Date().Year() == 2015)
 .GroupBy(c => c.Manager())
 .OrderBy(g => g.key.Name())]>>
-<<[key.Name()]>> {{< /highlight >}} | <<[sum(c => c.Price())]>><</foreach>>|
+<<[key.Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[sum(c => c.Price())]>><</foreach>>{{< /highlight >}}|
 
 **Report Example**
 

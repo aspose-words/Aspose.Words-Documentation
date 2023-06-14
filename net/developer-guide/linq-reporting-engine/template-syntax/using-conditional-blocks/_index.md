@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Conditional Blocks in C#
 second_title: Aspose.Words for .NET
 articleTitle: Using Conditional Blocks
@@ -144,6 +144,8 @@ In case when the corresponding enumeration is empty, the engine produces a repor
 | :- | :- | :- |
 |**No data**|||
 
+**Note –** Table-column data bands and conditional blocks can also be nested to table-row conditional blocks, but not conversely: Nesting of table-row conditional blocks into table-column data bands and conditional blocks is forbidden.
+
 A special case is a template option inside a single-column table row. In such a case, if you put an opening `if`, `elseif`, or `else` tag and a closing `if` tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
 |Header|
@@ -153,10 +155,10 @@ A special case is a template option inside a single-column table row. In such a 
 
 In this case, the engine produces a report as follows.
 
-|Header|
-| :- |
-||
-|**Footer**|
+| **Header** |
+| ---------- |
+|            |
+| **Footer** |
 
 However, if needed, you can override this behavior making the engine to treat such a template option as a table-row one by specifying a `greedy` switch like in the following template.
 
@@ -172,3 +174,133 @@ In this case, the engine produces a report as follows.
 |**Footer**|
 
 **Note –** In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.
+
+## Working with Table-Column Conditional Blocks
+
+A table-column conditional block represents a conditional block, which body occupies a rectangular area of cells of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.
+
+**Note –** Table cells occupied by different template options in the following templates are highlighted with different colors.
+
+| **...** | **<<if ... -horz>> ...** | **<<elseif ...>> ...** | **...** | **<<else>> ...** | **...** | **...**         | **...** |
+| ------- | ------------------------ | ---------------------- | ------- | ---------------- | ------- | --------------- | ------- |
+| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
+| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **... <</if>>** | **...** |
+
+**Note –** The `horz` switch instructs the engine to affect table columns rather than rows.
+
+However, unlike table-row conditional blocks able to capture only whole rows, table-column conditional blocks can occupy columns even partially as shown in the following template snippet.
+
+| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
+| ------- | ------------------------ | ---------------------- | ------- | ---------------- | ------- | --------------- | ------- |
+| **...** | **<<if ... -horz>> ...** | **<<elseif ...>> ...** | **...** | **<<else>> ...** | **...** | **...**         | **...** |
+| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
+| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **... <</if>>** | **...** |
+| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
+
+Let us consider typical use cases for table-column conditional blocks at first defining `showRepresentatives`, a Boolean value, and `person` and `persons`, an instance and an enumeration of instances of the `Person` class respectively, where the `Person` class is defined as follows.
+
+{{< highlight csharp >}}
+public class Person
+
+{
+	public String Name { get { ... } }
+
+	public int Age { get { ... } }
+	
+	public String Representative { get { ... } }
+	
+	...
+}
+{{< /highlight >}}
+
+The most typical scenario for table-column conditional blocks is showing or hiding a table column depending on a condition. You can do it using a template as follows.
+
+| **Name**              | **Age**              | **<<if [showRepresentatives] -horz>>Representative** |
+| --------------------- | -------------------- | ---------------------------------------------------- |
+| **<<[person.Name]>>** | **<<[person.Age]>>** | **<<[person.Representative]>><</if>>**               |
+
+When `showRepresentatives` is set to `true`, the engine produces a report as follows.
+
+| **Name**       | **Age** | **Representative**    |
+| -------------- | ------- | --------------------- |
+| **Evan Edger** | **47**  | **Terrence Randolph** |
+
+When `showRepresentatives` is set to `false`, the engine produces a report as follows.
+
+| **Name**       | **Age** |
+| -------------- | ------- |
+| **Evan Edger** | **47**  |
+
+For a table being built using a table-row data band, you can also show or hide a table column depending on a condition like in the following template.
+
+| **Name**                                   | **Age**         | **<<if [showRepresentatives] -horz>>Representative<</if>>**  |
+| ------------------------------------------ | --------------- | ------------------------------------------------------------ |
+| **<<foreach [p in persons]>><<[p.Name]>>** | **<<[p.Age]>>** | **<<if [showRepresentatives] -horz>><<[p.Representative]>><</if>><</foreach>>** |
+
+**Note –** Table-row and table-column regions cannot cross, that is why two table-column conditional blocks with the same condition are required in this case.
+
+When `showRepresentatives` is set to `true`, the engine produces a report as follows.
+
+| **Name**        | **Age** | **Representative**    |
+| --------------- | ------- | --------------------- |
+| **Evan Edger**  | **47**  | **Terrence Randolph** |
+| **Kate Abrams** | **35**  |                       |
+
+When `showRepresentatives` is set to `false`, the engine produces a report as follows.
+
+| **Name**        | **Age** |
+| --------------- | ------- |
+| **Evan Edger**  | **47**  |
+| **Kate Abrams** | **35**  |
+
+Table-column conditional blocks can also be used to provide different views for a table column depending on a condition. You can use a template as follows to achieve this.
+
+| **Name**           | **<<if [person.Representative == “”] -horz>><<[person.Name]>>** | **<<else>><<[person.Name]>>** |
+| ------------------ | ------------------------------------------------------------ | ----------------------------- |
+| **Representative** | **<<[person.Representative]>><</if>>**                       |                               |
+
+When a representative is present for a person, the engine produces a report as follows.
+
+| **Name**           | **Evan Edger**        |
+| ------------------ | --------------------- |
+| **Representative** | **Terrence Randolph** |
+
+When a representative is not specified for a person, the engine produces a report as follows.
+
+| **Name**           | **Kate Abrams** |
+| ------------------ | --------------- |
+| **Representative** |                 |
+
+You can use a similar approach to provide different views for columns of a table being built using a table-column data band. A template for this may look as follows.
+
+| **Name**           | **<<foreach [p in persons] -horz>><<if [p.Representative == “”] -horz>><<[p.Name]>>** | **<<else>><<[p.Name]>>** |
+| ------------------ | ------------------------------------------------------------ | ------------------------ |
+| **Representative** | **<<[p.Representative]>><</if>><</foreach>>**                |                          |
+
+In this case, the engine produces a report as follows.
+
+| **Name**           | **Evan Edger**        | **Kate Abrams** |
+| ------------------ | --------------------- | --------------- |
+| **Representative** | **Terrence Randolph** |                 |
+
+**Note –** You can use common conditional blocks within table-column data bands as well.
+
+In addition, table-column conditional blocks can contain table-column data bands. This is useful, for example, for providing alternate content for an empty table-column data band as shown in the following template.
+
+| **Name**           | **<<if [!persons.Any()] -horz>>No data**      | **<<else>><<foreach [p in persons] -horz>><<[p.Name]>>** |
+| ------------------ | --------------------------------------------- | -------------------------------------------------------- |
+| **Representative** | **<<[p.Representative]>><</foreach>><</if>>** |                                                          |
+
+When the enumeration of persons is not empty, the engine produces a report as follows.
+
+| **Name**           | **Evan Edger**        | **Kate Abrams** |
+| ------------------ | --------------------- | --------------- |
+| **Representative** | **Terrence Randolph** |                 |
+
+When there is no person at all, the engine produces a report as follows.
+
+| **Name**           | **No data** |
+| ------------------ | ----------- |
+| **Representative** |             |
+
+**Note –** Table-column conditional blocks can themselves be nested to table-row data bands and conditional blocks, but not conversely: Nesting of table-row data bands and conditional blocks into table-column conditional blocks is forbidden.
