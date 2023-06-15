@@ -20,7 +20,7 @@ url: /java/working-with-cross-pivot-tables/
 
 Let us consider concrete examples using years, an array of integers ranging from 2020 to 2023, and `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
-![working-with-cross-pivot-tables](working-with-cross-pivot-tables.jpeg)
+<img src="working-with-cross-pivot-tables.jpeg" alt="working-with-cross-pivot-tables" style="width:500px"/>
 
 The most basic scenario is filling a document table with data in two directions. You can use a template like the following one to achieve this.
 

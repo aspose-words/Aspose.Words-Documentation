@@ -219,7 +219,7 @@ However, unlike table-row data bands able to capture only whole rows, table-colu
 
 Let us consider typical use cases for table-column data bands at first defining `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
-![table-column-data-bands-aspose-words-net](graph-10.jpeg)
+<img src="graph-10.jpeg" alt="table-column-data-bands-aspose-words-net" style="width:500px"/>
 
 The most common scenario for a table-column data band is building of a document table that represents a list of items side by side. You can use a template like the following one to achieve this.
 
@@ -276,7 +276,7 @@ For more examples of templates for typical scenarios involving table-column data
 
 Let us consider concrete examples using `years`, an array of integers ranging from 2020 to 2023, and `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
-![table-column-data-bands-aspose-words-net](graph-10.jpeg)
+<img src="graph-11.jpeg" alt="cross-pivot-tables-aspose-words-net" style="width:500px"/>
 
 The most basic scenario is filling a document table with data in two directions. You can use a template like the following one to achieve this.
 

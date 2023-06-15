@@ -5,7 +5,7 @@ articleTitle: Working with Table-Column Data Bands
 linktitle: Working with Table-Column Data Bands
 description: "Output a sequence of table-column data when building a report in Java."
 type: docs
-weight: 25
+weight: 23
 url: /java/working-with-table-column-data-bands/
 ---
 
@@ -31,7 +31,7 @@ However, unlike table-row data bands able to capture only whole rows, table-colu
 
 Let us consider typical use cases for table-column data bands at first defining `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
-![working-with-table-column-aspose-words-java](working-with-table-column-data-bands.jpeg)
+<img src="working-with-table-column-data-bands.jpeg" alt="table-column-data-bands-aspose-words-java" style="width:500px"/>
 
 The most common scenario for a table-column data band is building of a document table that represents a list of items side by side. You can use a template like the following one to achieve this.
 
