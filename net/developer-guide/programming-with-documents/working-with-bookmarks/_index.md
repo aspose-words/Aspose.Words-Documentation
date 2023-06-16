@@ -66,13 +66,13 @@ The following code example shows how to access columns of the bookmarked table:
 
 ## Move to a Bookmark
 
-If you need to insert rich content (not just plain text) into a bookmark, you should use [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) to move the cursor to the bookmark and then use [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) methods and properties to insert content.
+If you need to insert rich content (not just plain text) into a bookmark, you should use [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) to move the cursor to the bookmark and then use [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) methods and properties to insert content.
 
 ## Show Hide Bookmark Content
 
 The entire Bookmark (*including the bookmarked content*) can be encapsulated within the True part of the IF field using Aspose.Words. It can be in such a way that the IF field contains a nested Merge Field in the expression (*Left of Operator*) and depending upon the value of Merge Field, the IF field shows or hides the content of Bookmark in Word Document.
 
-The following code example demonstrates how to show/ hide bookmarks:
+The following code example shows how to show/ hide bookmarks:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-ShowHideBookmarks-ShowHideBookmarks_call.cs" >}}
 

@@ -46,7 +46,7 @@ To extract the content from your document you need to call the **ExtractContent*
 
 However if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc. Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph. The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid. The parameters to be passed to this method are:
 
-1. **StartNode** and **EndNode**. The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ( [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) , [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) ) or inline level (e.g [Run](https://reference.aspose.com/words/net/aspose.words/run/) , [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) , [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) etc.):
+1. **StartNode** and **EndNode**. The first two parameters are the nodes which define where the extraction of the content is to begin and to end at respectively. These nodes can be both block level ([Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) , [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)) or inline level (e.g [Run](https://reference.aspose.com/words/net/aspose.words/run/) , [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) , [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) etc.):
    1. To pass a field you should pass the corresponding **FieldStart** object
    1. To pass bookmarks, the **BookmarkStart** and [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/) nodes should be passed
    1. To pass comments, the [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) nodes should be used
@@ -69,7 +69,7 @@ The following code example shows how to take a list of nodes and inserts them in
 
 These helper methods below are internally called by the main extraction method. They are required, however as they are not directly called by the user, it is not necessary to discuss them further.
 
-The following code example shows how to use helper methods by the ExtractContent method:
+The following code example shows how to use helper methods by the **ExtractContent** method:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-Common-CommonExtractContentHelperMethods.cs" >}}
 
@@ -171,7 +171,7 @@ The **Comment** node itself is an [InlineStory](https://reference.aspose.com/wor
 
 The comment encapsulates the heading, first paragraph and the table in the second section. Let’s extract this comment into a new document. The **IsInclusive** option dictates if the comment itself is kept or discarded.
 
-The following code example shows how to do this is below:
+The following code example shows how to do this:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenCommentRange-ExtractContentBetweenCommentRange.cs" >}}
 
@@ -214,7 +214,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 The ways to retrieve text from the document are:
 
 - Use [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) with [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) to save as plain text into a file or stream.
-- Use [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) and pass the SaveFormat.Text parameter. Internally, this invokes save as text into a memory stream and returns the resulting string.
+- Use [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) and pass the **SaveFormat.Text** parameter. Internally, this invokes save as text into a memory stream and returns the resulting string.
 - Use [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) to retrieve text with all Microsoft Word control characters including field codes.
 - Implement a custom [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) to perform customized extraction.
 
@@ -222,7 +222,7 @@ The ways to retrieve text from the document are:
 
 A Word document can contains control characters that designate special elements such as field, end of cell, end of section etc. The full list of possible Word control characters is defined in the **ControlChar** class. The **Node.GetText** method returns text with all of the control character characters present in the node.
 
-Calling **ToString** returns the plain text representation of the document only without control characters. For further information on exporting as plain text see **Using SaveFormat.Text**.
+Calling **ToString** returns the plain text representation of the document only without control characters. For further information on exporting as plain text see following section **"Using SaveFormat.Text"**.
 
 The following code example shows the difference between calling the **GetText** and **ToString** methods on a node:
 

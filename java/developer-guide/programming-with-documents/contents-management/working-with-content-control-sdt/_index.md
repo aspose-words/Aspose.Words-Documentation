@@ -92,9 +92,15 @@ The following code example shows how to change the color of content control:
 
 ## How to Set Style to Format Text Typed into the Content Control
 
-If you want to set the style of content control, you can use StructuredDocumentTag.Style or StructuredDocumentTag.StyleName properties. The following code example demonstrates how to set the style of content control. When you type the text into content control in the output document, the typed text will have the style "Quote".
+If you want to set the style of content control, you can use StructuredDocumentTag.Style or StructuredDocumentTag.StyleName properties. When you type the text into content control in the output document, the typed text will have the style "Quote".
+
+{{% alert color="primary" %}}
 
 Note that only Linked and Character styles can be applied to content control. An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.
+
+{{% /alert %}}
+
+The following code example shows how to set the style of content control:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-StructuredDocumentTag-WorkingWithStructuredDocumentTag-setContentControlStyle.java" >}}
 
