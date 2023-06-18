@@ -11,9 +11,15 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 23.5
+## Aspose.Words for .NET 23.5, 23.6
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
+
+Aspose.Words 23.6 expands rendering options, adds a new export format, improves LINQ reporting and LowCode tools.
+
+### Supported Formats <sup>23.6</sup>
+
+Starting with version 23.6, it is possible to save a document in XLSX format. Now you can convert your documents to Excel format.
 
 ### Rendering
 
@@ -22,8 +28,27 @@ Aspose.Words 23.5 enhances the ability to work with chart series data and the ab
 The feature to get and modify chart series data was provided by adding:
 
 * new classes: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-
 * new enum types: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
+
+#### Support for Advanced Typography <sup>23.6</sup>
+
+Support for Advanced Typography in WMF, EMF and EMF+ rendering has been added.
+
+#### Colored Content on the Page <sup>23.6</sup>
+
+The public property [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/), indicating whether the page is colored or not, has been added.
+
+#### Formatting for Chart Data Labels <sup>23.6</sup>
+
+The ability to set fill, stroke, and callout formatting for chart data labels has been implemented.
+
+### Reporting <sup>23.6</sup>
+
+Dynamic HTML Insertion for LINQ Reporting Engine A new way of dynamic HTML insertion for LINQ Reporting Engine has been added.
+
+### LowCode <sup>23.6</sup>
+
+New LowCode methods intended to merge different types of documents into a single output document have been added.
 
 ### Other
 
@@ -36,6 +61,8 @@ The feature to get and modify chart series data was provided by adding:
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 23.5 Release Notes](/words/net/aspose-words-for-net-23-5-release-notes/).
+
+Learn more about [Aspose.Words for .NET 23.6 Release Notes](/words/net/aspose-words-for-net-23-6-release-notes/).
 
 {{% /alert %}}
 
