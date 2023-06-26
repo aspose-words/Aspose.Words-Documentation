@@ -11,9 +11,15 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 23.5
+## Aspose.Words for C++ 23.5, 23.6
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
+
+Aspose.Words 23.6 expands rendering options, adds a new export format, improves LowCode tools.
+
+### Supported Formats <sup>23.6</sup>
+
+Starting with version 23.6, it is possible to save a document in XLSX format. Now you can convert your documents to Excel format.
 
 ### Rendering
 
@@ -24,6 +30,22 @@ The feature to get and modify chart series data was provided by adding:
 - new classes: **ChartXValue**, **ChartYValue**, **ChartXValueCollection**, **ChartYValueCollection**, **BubbleSizeCollection**, **ChartMultilevelValue**
 - new enum types: **ChartXValueType**, **ChartYValueType**
 
+#### Support for Advanced Typography <sup>23.6</sup>
+
+Support for Advanced Typography in WMF, EMF and EMF+ rendering has been added.
+
+#### Colored Content on the Page <sup>23.6</sup>
+
+The public property **PageInfo.Colored**, indicating whether the page is colored or not, has been added.
+
+#### Formatting for Chart Data Labels <sup>23.6</sup>
+
+The ability to set fill, stroke, and callout formatting for chart data labels has been implemented.
+
+### LowCode <sup>23.6</sup>
+
+New LowCode methods intended to merge different types of documents into a single output document have been added.
+
 ### Other
 
 - Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
@@ -33,6 +55,8 @@ The feature to get and modify chart series data was provided by adding:
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 23.5 Release Notes](/words/cpp/aspose-words-for-cpp-23-5-release-notes/).
+
+Learn more about [Aspose.Words for C++ 23.6 Release Notes](/words/cpp/aspose-words-for-cpp-23-6-release-notes/).
 
 {{% /alert %}}
 
