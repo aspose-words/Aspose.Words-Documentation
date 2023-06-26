@@ -35,6 +35,7 @@ An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The
 |**Iteration Variable Name**|Yes|You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding `foreach` tag.<br>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see "Using Contextual Object Member Access" for more information).|
 |**"in" Keyword**|No| |
 |**Sequence Expression**|No|A sequence expression must return an [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0) implementor.|
+
 The complete syntax of a `foreach` tag (including optional elements) is as follows.
 
 {{< highlight csharp >}}
@@ -65,11 +66,11 @@ When the body of a common data band starts and ends within different paragraphs,
 
 | Template | Report |
 | :-   | :-   |
-|{{< highlight csharp >}} prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix item1¶item2¶item3¶suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3 suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶¶item1¶¶item2¶¶item3¶¶suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix <<foreach [item in items]>><<[item]>>¶<br /><</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix item1¶<br />item2¶<br />item3¶<br />suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<br /><<[item]>><</foreach>> suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶<br />item1¶<br />item2¶<br />item3 suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix¶<br /><<foreach [item in items]>><<[item]>>¶<br /><</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶<br />item1¶<br />item2¶<br />item3¶<br />suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<br /><<[item]>><</foreach>>¶<br />suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
+|{{< highlight csharp >}} prefix¶<br /><<foreach [item in items]>>¶<br /><<[item]>>¶<br /><</foreach>>¶<br />suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶<br />¶<br />item1¶<br />¶<br />item2¶<br />¶<br />item3¶<br />¶<br />suffix{{< /highlight >}}|
 
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
@@ -92,12 +93,35 @@ In this case, the engine produces a report as follows.
 
 A table-row data band is a data band which body occupies single or multiple rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
-||||
-| :- | :- | :- |
-|**<<foreach ...>> ...**|**...**|**...**|
-|**...**|**...**|**...**|
-|**...**|**...**|**... <</foreach>>**|
-||||
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td> </td>
+      <td> </td>
+      <td> </td>
+		</tr>
+    <tr>
+      <td><strong>&lt;&lt;foreach ...>> ...</strong></td>
+      <td><strong>...</strong></td>
+      <td><strong>...</strong></td>
+		</tr>
+    <tr>
+			<td><strong>...</strong></td>
+      <td><strong>...</strong></td>
+      <td><strong>...</strong></td>
+		</tr>
+    <tr>
+			<td><strong>...</strong></td>
+      <td><strong>...</strong></td>
+      <td><strong>... &lt;&lt;/foreach>></strong></td>
+		</tr>
+    <tr>
+			<td> </td>
+      <td> </td>
+      <td> </td>
+		</tr>
+	</tbody>
+</table>
 
 The following examples in this section are given using `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
@@ -107,8 +131,8 @@ The most common use case of a table-row data band is the building of a document 
 
 |Client|Manager|Contract Price|
 | :- | :- | :- |
-|**<<foreach [c in ds.Contracts]>><<[c.Clients.Name]>>**|**<<[c.Managers.Name]>>**|**<<[c.Price]>><</ foreach>>**|
-|**Total:**||**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
+|{{< highlight csharp >}}<<foreach [<br />c in ds.Contracts]>><<[c.Clients.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[c.Managers.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[c.Price]>><</ foreach>>{{< /highlight >}}|
+|Total:||{{< highlight csharp >}}<<[ds<br />.Contracts<br />.Sum(c =><br />c.Price)]>>{{< /highlight >}}|
 
 In this case, the engine produces a report as follows.
 
@@ -129,33 +153,33 @@ To populate a document table with a master-detail data, you can use nested table
 
 |Manager/Client|Contract Price|
 | :- | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<[m.Contracts.Sum(c => c.Price)]>>**|
-|**<<foreach [c in m.Contracts]>>  <<[c.Clients.Name]>>**|**<<[c.Price]>><</ foreach>><</ foreach>>**|
-|**Total:**|**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
+|{{< highlight csharp >}}<<foreach [<br />m in ds.Managers]>><<[m.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[m.Contracts.Sum(<br />c => c.Price)]>>{{< /highlight >}}|
+|{{< highlight csharp >}}<<foreach [<br />c in m.Contracts<br />]>>  <<[c.Clients.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[c.Price]>><</ <br />foreach>><</ <br />foreach>>{{< /highlight >}}|
+|Total:|{{< highlight csharp >}}<<[ds<br />.Contracts<br />.Sum(c =><br />c.Price)]>>{{< /highlight >}}|
 
 In this case, the engine produces a report as follows.
 
 |Manager/Client|Contract Price|
 | :- | :- |
 |**John Smith**|**2300000**|
-|A Company|1200000|
-|B Ltd.|750000|
-|C & D|350000|
+|**A Company**|**1200000**|
+|**B Ltd.**|**750000**|
+|**C & D**|**350000**|
 |**Tony Anderson**|**1200000**|
-|E Corp.|**650000**|
-|F & Partners|550000|
+|**E Corp.**|**650000**|
+|**F & Partners**|**550000**|
 |**July James**|**800000**|
-|G & Co.|350000|
-|H Group|250000|
-|I & Sons|100000|
-|J Ent.|100000|
+|**G & Co.**|**350000**|
+|**H Group**|**250000**|
+|**I & Sons**|**100000**|
+|**J Ent.**|**100000**|
 |**Total:**|**4300000**|
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
 
 |Manager|Clients|
 | :- | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<foreach [<br>c in m.Contracts<br>]>><<[c.Clients.Name]>> <</foreach>><</foreach>>**|
+|{{< highlight csharp >}}<<foreach [<br />m in ds.Managers<br />]>><<[m.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<foreach [<br>c in m.Contracts<br>]>><<[c.Clients.Name]>> <br /><</foreach>><</foreach>>{{< /highlight >}}|
 
 In this case, the engine produces a report as follows.
 
@@ -171,7 +195,7 @@ A special case is a data band inside a single-column table row. In such a case, 
 
 |Managers|
 | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>  <</foreach>>**|
+|{{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>  <</foreach>>{{< /highlight >}}|
 
 In this case, the engine produces a report as follows.
 
@@ -183,7 +207,7 @@ However, if needed, you can override this behavior making the engine to treat su
 
 |Managers|
 | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>><</foreach -greedy>>**|
+|{{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>><</foreach -greedy>>{{< /highlight >}}|
 
 In this case, the engine produces a report as follows.
 
@@ -201,21 +225,75 @@ You can build tables growing horizontally rather than vertically by using table-
 
 A table-column data band represents a data band, which body occupies a rectangular area of cells of a single document table. The body of such a band starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.
 
-| **...** | **<<foreach ... -horz>> ...** | **...** | **...**              | **...** |
-| ------- | ----------------------------- | ------- | -------------------- | ------- |
-| **...** | **...**                       | **...** | **...**              | **...** |
-| **...** | **...**                       | **...** | **... <</foreach>>** | **...** |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>...</td>
+      <td>&lt;&lt;foreach ... -horz>> ...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>></td>
+      <td>...</td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** The `horz` switch instructs the engine to affect table columns rather than rows.
 
 However, unlike table-row data bands able to capture only whole rows, table-column data bands can occupy columns even partially as shown in the following template snippet.
 
-| **...** | **...**                       | **...** | **...**              | **...** |
-| ------- | ----------------------------- | ------- | -------------------- | ------- |
-| **...** | **<<foreach ... -horz>> ...** | **...** | **...**              | **...** |
-| **...** | **...**                       | **...** | **...**              | **...** |
-| **...** | **...**                       | **...** | **... <</foreach>>** | **...** |
-| **...** | **...**                       | **...** | **...**              | **...** |
+<table class="outputting-sequential-data">
+	<tbody>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+		<tr>
+			<td>...</td>
+      <td>&lt;&lt;foreach ... -horz>> ...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>></td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+	</tbody>
+</table>
 
 Let us consider typical use cases for table-column data bands at first defining `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
@@ -223,10 +301,10 @@ Let us consider typical use cases for table-column data bands at first defining 
 
 The most common scenario for a table-column data band is building of a document table that represents a list of items side by side. You can use a template like the following one to achieve this.
 
-| **Good**          | **<<foreach [s in ds.Sales] -horz>><<[s.Goods.Name]>>** | **Total:**                              |
-| ----------------- | ------------------------------------------------------- | --------------------------------------- |
-| **Pack**          | **<<[s.Packs.Name]>>**                                  |                                         |
-| **Sold Quantity** | **<<[s.Quantity]>><</foreach>>**                        | **<<[ds.Sales.Sum(s => s.Quantity)]>>** |
+| **Good**          | {{< highlight csharp >}}<<foreach [s in ds.Sales] <br />-horz>><<[s.Goods.Name]>>{{< /highlight >}} | **Total:**                                                   |
+| ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Pack**          | {{< highlight csharp >}}<<[s.Packs.Name]>>{{< /highlight >}} |                                                              |
+| **Sold Quantity** | {{< highlight csharp >}}<<[s.Quantity]>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[ds.Sales.Sum(s => s.Quantity)]>>{{< /highlight >}} |
 
 In this case, the engine produces a report as follows.
 
@@ -237,9 +315,9 @@ In this case, the engine produces a report as follows.
 
 To grow a document table horizontally by filling it with master-detail data, you can use nested table-column data bands like in the following template.
 
-| **Good / Pack**   | **<<foreach [g in ds.Goods] -horz>><<[g.Name]>>** | **<<foreach [s in g.Sales] -horz>><<[s.Packs.Name]>>** | **Total:**                              |
-| ----------------- | ------------------------------------------------- | ------------------------------------------------------ | --------------------------------------- |
-| **Sold Quantity** | **<<[g.Sales.Sum(s => s.Quantity)]>>**            | **<<[s.Quantity]>><</foreach>><</foreach>>**           | **<<[ds.Sales.Sum(s => s.Quantity)]>>** |
+| **Good / Pack**   | {{< highlight csharp >}}<<foreach [g<br />in ds.Goods]<br />-horz>><<[g.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [s in g.Sales]<br />-horz>><<[s.Packs.Name]>>{{< /highlight >}} | Total:                                                       |
+| ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Sold Quantity** | {{< highlight csharp >}}<<[g.Sales.Sum(<br />s => s.Quantity)]>>{{< /highlight >}} | {{< highlight csharp >}}<<[s.Quantity]>><</foreach>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[ds.Sales.Sum(s =><br />s.Quantity)]>>{{< /highlight >}} |
 
 In this case, the engine produces a report as follows.
 
@@ -249,9 +327,9 @@ In this case, the engine produces a report as follows.
 
 You can normally use common data bands nested to table-column data bands as well like in the following template.
 
-| **Good**       | **<<foreach [g in ds.Goods] -horz>><<[g.Name]>>**            |
+| **Good**       | {{< highlight csharp >}}<<foreach [g in ds.Goods] -horz>><<[g.Name]>>{{< /highlight >}} |
 | -------------- | ------------------------------------------------------------ |
-| **Sold Packs** | **<<foreach [s in g.Sales]>><<[s.Packs.Name]>>** **<</foreach>><</foreach>>** |
+| **Sold Packs** | {{< highlight csharp >}}<<foreach [s in g.Sales]>><<[s.Packs.Name]>> <</foreach>><</foreach>>{{< /highlight >}} |
 
 In this case, the engine produces a report as follows.
 
@@ -267,10 +345,25 @@ For more examples of templates for typical scenarios involving table-column data
 
 *A cross or pivot table* is a document table growing in the both directions – vertically and horizontally – depending on bound data. You can build a cross (pivot) table by nesting a table-column data band into a table-row data band as follows.
 
-| **<<foreach ...>><<foreach ... -horz>> ...** | **...** | **...**                          |
-| -------------------------------------------- | ------- | -------------------------------- |
-| **...**                                      | **...** | **...**                          |
-| **...**                                      | **...** | **... <</foreach>><</foreach>>** |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach ...>>&lt;&lt;foreach ... -horz>> ...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** It is not necessary to start (or end) an outer table-row data band and a nested table-column one within the same cell, but this case is also supported.
 
@@ -280,9 +373,9 @@ Let us consider concrete examples using `years`, an array of integers ranging fr
 
 The most basic scenario is filling a document table with data in two directions. You can use a template like the following one to achieve this.
 
-| **Managers**                                   | **<<foreach [y in years] -horz>><<[y]>><</foreach>>**        |
-| ---------------------------------------------- | ------------------------------------------------------------ |
-| **<<foreach [m in ds.Managers]>><<[m.Name]>>** | **<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>><</foreach>>** |
+| **Managers**                                                 | {{< highlight csharp >}}<<foreach [y in years] -horz>><<[y]>><</foreach>>{{< /highlight >}} |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| {{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>><</foreach>>{{< /highlight >}} |
 
 **Note –** Table-row and table-column regions cannot cross, that is why two table-column data bands bound to the same enumeration are required here.
 
@@ -297,10 +390,10 @@ In this case, the engine produces a report as follows.
 
 It is quite typical for cross (pivot) tables to contain totals for every row and column. You can add the totals by altering the template as follows.
 
-| **Managers**                                   | **<<foreach [y in years] -horz>><<[y]>><</foreach>>**        | **Total**                                           |
-| ---------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------- |
-| **<<foreach [m in ds.Managers]>><<[m.Name]>>** | **<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>>** | **<<[m.Contracts.Sum(c => c.Price)]>><</foreach>>** |
-| **Total**                                      | **<<foreach [y in years] -horz>><<[ds.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>>** | **<<[ds.Contracts.Sum(c => c.Price)]>>**            |
+| **Managers**                               | <<foreach [y in years] -horz>><<[y]>><</foreach>>            | Total                                           |
+| ------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+| <<foreach [m in ds.Managers]>><<[m.Name]>> | <<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>> | <<[m.Contracts.Sum(c => c.Price)]>><</foreach>> |
+| **Total**                                  | <<foreach [y in years] -horz>><<[ds.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>> | <<[ds.Contracts.Sum(c => c.Price)]>>            |
 
 In this case, the engine produces a report as follows.
 

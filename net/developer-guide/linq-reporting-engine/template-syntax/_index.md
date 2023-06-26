@@ -13,7 +13,7 @@ A typical template for LINQ Reporting Engine is composed of common document cont
 
 A tag body must meet the following requirements:
 
-- A tag body must be surrounded by “<<” and “>>” character sequences.
+- A tag body must be surrounded by “&lt;&lt;” and “&gt;&gt;” character sequences.
 - A tag body must contain only text nodes.
 - A tag body must not be located inside markup document nodes such as `StructuredDocumentTag`, `CustomXmlMarkup`, or `SmartTag`.
 
@@ -32,9 +32,11 @@ A tag body typically consists of the following elements:
 Particular tags can have additional elements.
 
 Some tags require closing counterparts. A closing tag has the “/” character that precedes its name. This tag’s name must match to the name of the corresponding opening tag.
+
 {{< highlight xml >}}
 <</tag_name>>
 {{< /highlight >}}
+
 **Note –** Tag body elements are case-sensitive.
 
 Tags consisting of opening and closing parts can be nested to each other. In case when nested tags are of the same type, it can be harder to determine which closing part relates to which opening part, especially given often edits of a template. To simplify this, you can use tag headers as follows.
