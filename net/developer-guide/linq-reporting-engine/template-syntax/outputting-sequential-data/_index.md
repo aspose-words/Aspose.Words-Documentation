@@ -129,10 +129,10 @@ The following examples in this section are given using `ds`, a `DataSet` instanc
 
 The most common use case of a table-row data band is the building of a document table that represents a list of items. You can use a template like the following one to achieve this.
 
-|Client|Manager|Contract Price|
-| :- | :- | :- |
-|{{< highlight csharp >}}<<foreach [<br />c in ds.Contracts]>><<[c.Clients.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[c.Managers.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[c.Price]>><</ foreach>>{{< /highlight >}}|
-|Total:||{{< highlight csharp >}}<<[ds<br />.Contracts<br />.Sum(c =><br />c.Price)]>>{{< /highlight >}}|
+| Client                                                       | Manager                                                      | Contract Price                                               |
+| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| {{< highlight csharp >}}<<foreach [<br />c in ds.Contracts]>><<[c.Clients.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<[c.Managers.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<[c.Price]>><</ foreach>>{{< /highlight >}} |
+| Total:                                                       |                                                              | {{< highlight csharp >}}<<[ds<br />.Contracts<br />.Sum(c =><br />c.Price)]>>{{< /highlight >}} |
 
 In this case, the engine produces a report as follows.
 
@@ -327,15 +327,15 @@ In this case, the engine produces a report as follows.
 
 You can normally use common data bands nested to table-column data bands as well like in the following template.
 
-| **Good**       | {{< highlight csharp >}}<<foreach [g in ds.Goods] -horz>><<[g.Name]>>{{< /highlight >}} |
+| **Good**       | {{< highlight csharp >}}<<foreach [g in ds.Goods]<br /> -horz>><<[g.Name]>>{{< /highlight >}} |
 | -------------- | ------------------------------------------------------------ |
-| **Sold Packs** | {{< highlight csharp >}}<<foreach [s in g.Sales]>><<[s.Packs.Name]>> <</foreach>><</foreach>>{{< /highlight >}} |
+| **Sold Packs** | {{< highlight csharp >}}<<foreach [s in<br /> g.Sales]>><<[s.Packs.Name]>><br /> <</foreach>><</foreach>>{{< /highlight >}} |
 
 In this case, the engine produces a report as follows.
 
-| **Good**       | **Drinking Water**   | **Mineral Water**    |
-| -------------- | -------------------- | -------------------- |
-| **Sold Packs** | **1.5 L** **500 ml** | **1.5 L** **500 ml** |
+| **Good**       | **Drinking Water**         | **Mineral Water**          |
+| -------------- | -------------------------- | -------------------------- |
+| **Sold Packs** | **1.5 L**<br /> **500 ml** | **1.5 L**<br /> **500 ml** |
 
 **Note –** Table-column data bands can themselves be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
@@ -373,9 +373,9 @@ Let us consider concrete examples using `years`, an array of integers ranging fr
 
 The most basic scenario is filling a document table with data in two directions. You can use a template like the following one to achieve this.
 
-| **Managers**                                                 | {{< highlight csharp >}}<<foreach [y in years] -horz>><<[y]>><</foreach>>{{< /highlight >}} |
+| **Managers**                                                 | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[y]>><</foreach>>{{< /highlight >}} |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| {{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>><</foreach>>{{< /highlight >}} |
+| {{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[m.Contracts.Where(c =></br> c.Year == y).Sum(c =></br> c.Price)]>><</foreach>><</foreach>>{{< /highlight >}} |
 
 **Note –** Table-row and table-column regions cannot cross, that is why two table-column data bands bound to the same enumeration are required here.
 
@@ -390,10 +390,10 @@ In this case, the engine produces a report as follows.
 
 It is quite typical for cross (pivot) tables to contain totals for every row and column. You can add the totals by altering the template as follows.
 
-| **Managers**                               | <<foreach [y in years] -horz>><<[y]>><</foreach>>            | Total                                           |
-| ------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
-| <<foreach [m in ds.Managers]>><<[m.Name]>> | <<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>> | <<[m.Contracts.Sum(c => c.Price)]>><</foreach>> |
-| **Total**                                  | <<foreach [y in years] -horz>><<[ds.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>> | <<[ds.Contracts.Sum(c => c.Price)]>>            |
+| **Managers**                                                 | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[y]>><</foreach>>{{< /highlight >}} | Total                                                        |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| {{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[m.Contracts</br>.Where(c => c.Year ==</br> y).Sum(c =></br> c.Price)]>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[m.Contracts.Sum(c => c.Price)]>><</foreach>>{{< /highlight >}} |
+| **Total**                                                    | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[ds.Contracts</br>.Where(c => c.Year ==</br> y).Sum(c =></br> c.Price)]>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[ds.Contracts.Sum(c => c.Price)]>>{{< /highlight >}} |
 
 In this case, the engine produces a report as follows.
 
@@ -407,24 +407,24 @@ In this case, the engine produces a report as follows.
 
 Since cross (pivot) tables can contain large amounts of data, it is quite usual to group parts of information within these tables using merged cells, in order to simplify further search of necessary information. For this purpose, you can apply `cellMerge` tags (see “Merging Table Cells Dynamically” for more information) as shown in the following template.
 
-| **Cities**                                                   | **Managers**     | **<<foreach [y in years] -horz>>Years<<cellMerge -horz>>**   |
-| ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ |
-| **<<[y]>><</foreach>>**                                      |                  |                                                              |
-| **<<foreach [m in ds.Managers]>><<[m.Cities.Name]>><<cellMerge>>** | **<<[m.Name]>>** | **<<foreach [y in years] -horz>><<[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>><</foreach>><</foreach>>** |
+| Cities                                                       | Managers                                               | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>>Years<<cellMerge</br> -horz>>{{< /highlight >}} |
+| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
+|                                                              |                                                        | {{< highlight csharp >}}<<[y]>><</foreach>>{{< /highlight >}} |
+| {{< highlight csharp >}}<<foreach [m in</br> ds.Managers]>><<[m.Cities</br>.Name]>><<cellMerge>>{{< /highlight >}} | {{< highlight csharp >}}<<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[m.Contracts</br>.Where(c => c.Year ==</br> y).Sum(c => </br>c.Price)]>><</foreach>><</foreach>>{{< /highlight >}} |
 
 In this case, the engine produces a report as follows.
 
-| **Cities**     | **Managers**     | **Years**  |            |            |            |
-| -------------- | ---------------- | ---------- | ---------- | ---------- | ---------- |
-| **2020**       | **2021**         | **2022**   | **2023**   |            |            |
-| **Seattle**    | **James Atkins** | **545000** | **340000** | **620000** | **510000** |
-| **John Lee**   | **120000**       | **320000** | **565000** | **495000** |            |
-| **Ottawa**     | **Thelma Green** | **310000** | **290000** | **485000** | **530000** |
-| **Ted LeMark** | **0**            | **110000** | **345000** | **380000** |            |
+| Cities      | Managers         |            | Years      |            |            |
+| ----------- | ---------------- | ---------- | ---------- | ---------- | ---------- |
+|             |                  | **2020**   | **2021**   | **2022**   | **2023**   |
+| **Seattle** | **James Atkins** | **545000** | **340000** | **620000** | **510000** |
+|             | **John Lee**     | **120000** | **320000** | **565000** | **495000** |
+| **Ottawa**  | **Thelma Green** | **310000** | **290000** | **485000** | **530000** |
+|             | **Ted LeMark**   | **0**      | **110000** | **345000** | **380000** |
 
 Combining all the described approaches, you can create cross (pivot) tables of almost any complexity.
 
-## Using Charts to Represent Sequential Data
+## Working with Charts
 
 LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
@@ -440,7 +440,8 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 	- For a scatter or bubble chart, you can go one of the following ways: 
 		- To use the same x-value expression for all chart series, add a single `x` tag to the chart title after the corresponding `foreach` tag.
 		- To use different x-value expressions for every chart series, add multiple `x` tags to chart series’ names – one for each chart series.
-	An x-value expression for a scatter or bubble chart must return a numeric value.
+	
+		  An x-value expression for a scatter or bubble chart must return a numeric value.
 	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag. In this case, an x-value expression must return a numeric, date, or string value.
 7. For a chart of any type, add `y` tags to chart series’ names as follows.
 {{< highlight csharp >}}
@@ -473,7 +474,7 @@ Consider the following example. Assume that you have the `Manager` and `Contract
   public class Manager
   {
     public String  Name { get { ... } }
-    public IEnumerable<Contract> Contracts { get { ... } }**
+    public IEnumerable<Contract> Contracts { get { ... } }
     ...
   }
 
@@ -486,11 +487,15 @@ Consider the following example. Assume that you have the `Manager` and `Contract
 
 Given that `managers` is an enumeration of `Manager` instances, you can use the following template to represent total contract prices achieved by managers in a column chart.
 
-![charts-to-represent-data-aspose-words-net](graph-1.png)
+<img src="graph-1.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
+
+<img src="graph-1-2.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
+
+<img src="graph-1-3.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
-![charts-result-aspose-words-net](graph-2.png)
+<img src="graph-2.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
 
 For more examples of templates for typical scenarios involving charts, see “Appendix C. Typical Templates”.
 
@@ -500,24 +505,29 @@ For a chart with dynamic data, you can select which series to include into it dy
 
 1. Declare a chart with dynamic data in the usual way.
 1. For series to be removed from the chart based upon conditions dynamically, define the conditions in names of these series using `removeif` tags having the following syntax.
-{{< highlight csharp >}}
-<<removeif [conditional_expression]>>
-{{< /highlight >}}
-**Note –** A conditional expression must return a Boolean value.
+  {{< highlight csharp >}}
+  <<removeif [conditional_expression]>>
+  {{< /highlight >}}
+
+  **Note –** A conditional expression must return a Boolean value.
 
 During runtime, series with `removeif` tags, for which conditional expressions return `true`, are removed from corresponding charts. The rest of the series are kept and populated with data as usual. In either case, `removeif` tags themselves are removed.
 
 Consider the following example. Given the previous definition of `managers` and that `accessLevel` is an integer value representing an access level of a user, you can use the following chart template to make numbers of contracts be available for all users whereas financial contract data be available only for users having an access level of zero.
 
-![chart-series-dynamically-aspose-words-net-1](graph-3.png)
+<img src="graph-3.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-3-1.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-3-2.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 If `accessLevel` is equal to zero, the engine produces a report as follows.
 
-![chart-series-dynamically-aspose-words-net-2](graph-4.png)
+<img src="graph-4.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 If `accessLevel` is not equal to zero, the engine produces a report as follows.
 
-![chart-series-dynamically-aspose-words-net-3](graph-5.png)
+<img src="graph-5.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 ### Setting Chart Series Colors Dynamically
 
@@ -538,11 +548,15 @@ During runtime, expressions declared within `seriesColor` tags are evaluated and
 
 Consider the following example. Given the previous definition of `managers` and that `color1` and `color2` are color values of supported types, you can use the following chart template to set its series colors dynamically.
 
-![chart-series-colors-dynamically-aspose-words-net-1](graph-6.png)
+<img src="graph-6.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-6-1.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-6.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
-![chart-series-colors-dynamically-aspose-words-net-2](graph-7.png)
+<img src="graph-7.png" alt="chart-series-dynamically-aspose-words-net-2" style="width:600px"/>
 
 ### Setting Chart Series Point Colors Dynamically
 
@@ -574,11 +588,19 @@ Consider the following example. Assume that you have the `ColoredItem` class def
 
 Given that `items` is an enumeration of `ColoredItem` instances, you can use the following chart template to set its series point colors dynamically.
 
-![chart-series-point-colors-dynamically-aspose-words-net-1](pi-graph.png)
+<img src="pi-graph.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="pi-graph-1.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="pi-graph.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
 
 The series name for the template chart is defined as follows.
 
-![chart-series-point-colors-dynamically-data-aspose-words-net](sheet-1.png)
+<img src="sheet-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
+
+<img src="sheet-1-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
+
+<img src="sheet-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
@@ -598,9 +620,15 @@ In this case, the engine produces a report as follows.
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 
-The following code example demonstrates how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
+The following code example demonstrates how to set chart series names dynamically.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-LINQ-ChartSeries-SetChartSeriesNameDynamically.cs" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
+
+{{% /alert %}}
 
 ## Using Extension Methods of Iteration Variables
 
@@ -644,7 +672,7 @@ In this case, the engine produces a report as follows.
 
 You can instruct the engine to force movement to the next item within a data band using a `next` tag. This feature is useful in label-print-like scenarios when you need to output data about a fixed number of items in a single table row like in the following example. Given that `Clients` is a `DataTable` instance having a field named "Name", you can use the following template to output three client names per table row while outputting names of all clients in a single table.
 
-|<<foreach [c in Clients]>><<[c.Name]>>|<<next>><<[c.Name]>>|<<next>><<[c.Name]>> <</foreach>>|
+|{{< highlight csharp >}}<<foreach [c in Clients]>><<[c.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<next>><<[c.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<next>><<[c.Name]>> <</foreach>>{{< /highlight >}}|
 | :- | :- | :- |
 
 In this case, the engine produces a report as follows.
