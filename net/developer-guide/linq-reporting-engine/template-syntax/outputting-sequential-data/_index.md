@@ -29,12 +29,35 @@ You can reference an element of the corresponding sequence in template expressio
 
 An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The following table describes the elements of this statement.
 
-|Element|Optional?|Remarks|
-| :- | :- | :- |
-|**Iteration Variable Type**|Yes|You can specify the type of an iteration variable explicitly. This type must be known by the engine (see "Setting up Known External Types" for more information).<br>If you do not specify the type explicitly, it is determined implicitly by the engine depending on the type of the corresponding sequence.|
-|**Iteration Variable Name**|Yes|You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding `foreach` tag.<br>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see "Using Contextual Object Member Access" for more information).|
-|**"in" Keyword**|No| |
-|**Sequence Expression**|No|A sequence expression must return an [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0) implementor.|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+      <td><strong>Element</strong></td>
+      <td><strong>Optional?</strong></td>
+      <td><strong>Remarks</strong></td>
+		</tr>
+    <tr>
+			<td>Iteration Variable Type</td>
+      <td>Yes</td>
+      <td><p>You can specify the type of an iteration variable explicitly. This type must be known by the engine (see “Setting up Known External Types” for more information).</p><p>If you do not specify the type explicitly, it is determined implicitly by the engine depending on the type of the corresponding sequence.</p></td>
+		</tr>
+    <tr>
+			<td>Iteration Variable Name</td>
+      <td>Yes</td>
+      <td><p>You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding foreach tag.</p><p>If you do not specify the name, you can access the variable’s members using the contextual object member access syntax (see “Using Contextual Object Member Access” for more information).</p></td>
+		</tr>
+    <tr>
+			<td>“in” Keyword</td>
+      <td>No</td>
+      <td> </td>
+		</tr>
+    <tr>
+			<td>Sequence Expression</td>
+      <td>No</td>
+      <td>A sequence expression must return an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0">IEnumerable implementor</a>.</td>
+		</tr>
+	</tbody>
+</table>
 
 The complete syntax of a `foreach` tag (including optional elements) is as follows.
 
@@ -64,13 +87,34 @@ When the body of a common data band starts and ends within different paragraphs,
 
 **Note –** Examples in the table are given with paragraph marks shown as per Microsoft Word® editor.
 
-| Template | Report |
-| :-   | :-   |
-|{{< highlight csharp >}} prefix <<foreach [item in items]>><<[item]>>¶<br /><</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix item1¶<br />item2¶<br />item3¶<br />suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<br /><<[item]>><</foreach>> suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶<br />item1¶<br />item2¶<br />item3 suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix¶<br /><<foreach [item in items]>><<[item]>>¶<br /><</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶<br />item1¶<br />item2¶<br />item3¶<br />suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<br /><<[item]>><</foreach>>¶<br />suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix¶<br /><<foreach [item in items]>>¶<br /><<[item]>>¶<br /><</foreach>>¶<br />suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶<br />¶<br />item1¶<br />¶<br />item2¶<br />¶<br />item3¶<br />¶<br />suffix{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Template</strong></td>
+			<td><strong>Report</strong></td>
+		</tr>
+		<tr>
+      <td><p>prefix &lt;&lt;foreach [item in items]>>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>>suffix</p></td>
+      <td><p>prefix item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>&lt;&lt;/foreach>> suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3 suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix¶</p><p>&lt;&lt;foreach [item in items]>>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>>suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>&lt;&lt;/foreach>>¶</p><p>suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+<tr>
+  <td><p>prefix¶</p><p>&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>></p><p>suffix</p></td>
+      <td><p>prefix¶</p><p>¶</p><p>item1¶</p><p>¶</p><p>item2¶</p><p>¶</p><p>item3¶</p><p>¶</p><p>suffix</p></td>
+		</tr>
+	</tbody>
+</table>
 
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
@@ -101,19 +145,19 @@ A table-row data band is a data band which body occupies single or multiple rows
       <td> </td>
 		</tr>
     <tr>
-      <td><strong>&lt;&lt;foreach ...>> ...</strong></td>
-      <td><strong>...</strong></td>
-      <td><strong>...</strong></td>
+      <td>&lt;&lt;foreach ...>> ...</td>
+      <td>...</td>
+      <td>...</td>
 		</tr>
     <tr>
-			<td><strong>...</strong></td>
-      <td><strong>...</strong></td>
-      <td><strong>...</strong></td>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
 		</tr>
     <tr>
-			<td><strong>...</strong></td>
-      <td><strong>...</strong></td>
-      <td><strong>... &lt;&lt;/foreach>></strong></td>
+			<td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>></td>
 		</tr>
     <tr>
 			<td> </td>
@@ -129,10 +173,24 @@ The following examples in this section are given using `ds`, a `DataSet` instanc
 
 The most common use case of a table-row data band is the building of a document table that represents a list of items. You can use a template like the following one to achieve this.
 
-| Client                                                       | Manager                                                      | Contract Price                                               |
-| :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| {{< highlight csharp >}}<<foreach [<br />c in ds.Contracts]>><<[c.Clients.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<[c.Managers.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<[c.Price]>><</ foreach>>{{< /highlight >}} |
-| Total:                                                       |                                                              | {{< highlight csharp >}}<<[ds<br />.Contracts<br />.Sum(c =><br />c.Price)]>>{{< /highlight >}} |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Client</strong></td>
+			<td><strong>Manager</strong></td>
+			<td><strong>Contract Price</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [c in ds.Contracts]>>&lt;&lt;[c.Clients.Name]>></td>
+			<td>&lt;&lt;[c.Managers.Name]>></td>
+			<td>&lt;&lt;[c.Price]>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+			<td colspan="2">Total:</td>
+			<td>&lt;&lt;[ds.Contracts.Sum(c => c.Price)]>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -151,11 +209,22 @@ In this case, the engine produces a report as follows.
 
 To populate a document table with a master-detail data, you can use nested table-row data bands like in the following template.
 
-|Manager/Client|Contract Price|
-| :- | :- |
-|{{< highlight csharp >}}<<foreach [<br />m in ds.Managers]>><<[m.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[m.Contracts.Sum(<br />c => c.Price)]>>{{< /highlight >}}|
-|{{< highlight csharp >}}<<foreach [<br />c in m.Contracts<br />]>>  <<[c.Clients.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<[c.Price]>><</ <br />foreach>><</ <br />foreach>>{{< /highlight >}}|
-|Total:|{{< highlight csharp >}}<<[ds<br />.Contracts<br />.Sum(c =><br />c.Price)]>>{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager/Client</strong></td>
+			<td><strong>Contract Price</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+			<td>&lt;&lt;[c.Price]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+			<td>Total:</td>
+			<td>&lt;&lt;[ds.Contracts.Sum(c => c.Price)]>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -177,9 +246,18 @@ In this case, the engine produces a report as follows.
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
 
-|Manager|Clients|
-| :- | :- |
-|{{< highlight csharp >}}<<foreach [<br />m in ds.Managers<br />]>><<[m.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<foreach [<br>c in m.Contracts<br>]>><<[c.Clients.Name]>> <br /><</foreach>><</foreach>>{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+			<td><strong>Client</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+			<td>&lt;&lt;foreach [c in m.Contracts]>>&lt;&lt;[c.Clients.Name]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -193,9 +271,16 @@ In this case, the engine produces a report as follows.
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing `foreach` tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
-|Managers|
-| :- |
-|{{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>  <</foreach>>{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>> &lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -205,9 +290,16 @@ In this case, the engine produces a report as follows.
 
 However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a `greedy` switch like in the following template.
 
-|Managers|
-| :- |
-|{{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>><</foreach -greedy>>{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>>&lt;&lt;/foreach -greedy>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -301,10 +393,24 @@ Let us consider typical use cases for table-column data bands at first defining 
 
 The most common scenario for a table-column data band is building of a document table that represents a list of items side by side. You can use a template like the following one to achieve this.
 
-| **Good**          | {{< highlight csharp >}}<<foreach [s in ds.Sales] <br />-horz>><<[s.Goods.Name]>>{{< /highlight >}} | **Total:**                                                   |
-| ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Pack**          | {{< highlight csharp >}}<<[s.Packs.Name]>>{{< /highlight >}} |                                                              |
-| **Sold Quantity** | {{< highlight csharp >}}<<[s.Quantity]>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[ds.Sales.Sum(s => s.Quantity)]>>{{< /highlight >}} |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Good</strong></td>
+			<td>&lt;&lt;foreach [s in ds.Sales] -horz>>&lt;&lt;[s.Goods.Name]>></td>
+			<td rowspan="2" style="vertical-align: middle"><strong>Total:</strong></td>
+		</tr>
+		<tr>
+			<td><strong>Pack</strong></td>
+			<td>&lt;&lt;[s.Packs.Name]>></td>
+		</tr>
+    <tr>
+			<td><strong>Sold Quantity</strong></td>
+      <td>&lt;&lt;[s.Quantity]>>&lt;&lt;/foreach>></td>
+			<td>&lt;&lt;[ds.Sales.Sum(s => s.Quantity)]>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -315,9 +421,22 @@ In this case, the engine produces a report as follows.
 
 To grow a document table horizontally by filling it with master-detail data, you can use nested table-column data bands like in the following template.
 
-| **Good / Pack**   | {{< highlight csharp >}}<<foreach [g<br />in ds.Goods]<br />-horz>><<[g.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [s in g.Sales]<br />-horz>><<[s.Packs.Name]>>{{< /highlight >}} | Total:                                                       |
-| ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| **Sold Quantity** | {{< highlight csharp >}}<<[g.Sales.Sum(<br />s => s.Quantity)]>>{{< /highlight >}} | {{< highlight csharp >}}<<[s.Quantity]>><</foreach>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[ds.Sales.Sum(s =><br />s.Quantity)]>>{{< /highlight >}} |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Good/Pack</strong></td>
+			<td>&lt;&lt;foreach [g in ds.Goods] -horz>>&lt;&lt;[g.Name]>></td>
+			<td>&lt;&lt;foreach [s in g.Sales] -horz>>&lt;&lt;[s.Packs.Name]>></td>
+      <td><strong>Total:</strong>
+		</tr>
+		<tr>
+			<td><strong>Sold Quantity</strong></td>
+			<td>&lt;&lt;[g.Sales.Sum(s => s.Quantity)]>></td>
+      <td>&lt;&lt;[s.Quantity]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[ds.Sales.Sum(s => s.Quantity)]>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -327,9 +446,18 @@ In this case, the engine produces a report as follows.
 
 You can normally use common data bands nested to table-column data bands as well like in the following template.
 
-| **Good**       | {{< highlight csharp >}}<<foreach [g in ds.Goods]<br /> -horz>><<[g.Name]>>{{< /highlight >}} |
-| -------------- | ------------------------------------------------------------ |
-| **Sold Packs** | {{< highlight csharp >}}<<foreach [s in<br /> g.Sales]>><<[s.Packs.Name]>><br /> <</foreach>><</foreach>>{{< /highlight >}} |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Good</strong></td>
+			<td>&lt;&lt;foreach [g in ds.Goods] -horz>>&lt;&lt;[g.Name]>></td>
+		</tr>
+		<tr>
+			<td><strong>Sold Packs</strong></td>
+			<td>&lt;&lt;foreach [s in g.Sales]>>&lt;&lt;[s.Packs.Name]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -373,9 +501,18 @@ Let us consider concrete examples using `years`, an array of integers ranging fr
 
 The most basic scenario is filling a document table with data in two directions. You can use a template like the following one to achieve this.
 
-| **Managers**                                                 | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[y]>><</foreach>>{{< /highlight >}} |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| {{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[m.Contracts.Where(c =></br> c.Year == y).Sum(c =></br> c.Price)]>><</foreach>><</foreach>>{{< /highlight >}} |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Managers</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[y]>>&lt;&lt;/foreach>></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** Table-row and table-column regions cannot cross, that is why two table-column data bands bound to the same enumeration are required here.
 
@@ -390,10 +527,25 @@ In this case, the engine produces a report as follows.
 
 It is quite typical for cross (pivot) tables to contain totals for every row and column. You can add the totals by altering the template as follows.
 
-| **Managers**                                                 | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[y]>><</foreach>>{{< /highlight >}} | Total                                                        |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| {{< highlight csharp >}}<<foreach [m in ds.Managers]>><<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[m.Contracts</br>.Where(c => c.Year ==</br> y).Sum(c =></br> c.Price)]>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[m.Contracts.Sum(c => c.Price)]>><</foreach>>{{< /highlight >}} |
-| **Total**                                                    | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[ds.Contracts</br>.Where(c => c.Year ==</br> y).Sum(c =></br> c.Price)]>><</foreach>>{{< /highlight >}} | {{< highlight csharp >}}<<[ds.Contracts.Sum(c => c.Price)]>>{{< /highlight >}} |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Managers</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[y]>>&lt;&lt;/foreach>></td>
+      <td><strong>Total</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[m.Contracts.Sum(c => c.Price)]>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+			<td><strong>Total</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[ds.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[ds.Contracts.Sum(c => c.Price)]>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -407,10 +559,23 @@ In this case, the engine produces a report as follows.
 
 Since cross (pivot) tables can contain large amounts of data, it is quite usual to group parts of information within these tables using merged cells, in order to simplify further search of necessary information. For this purpose, you can apply `cellMerge` tags (see “Merging Table Cells Dynamically” for more information) as shown in the following template.
 
-| Cities                                                       | Managers                                               | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>>Years<<cellMerge</br> -horz>>{{< /highlight >}} |
-| ------------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              |                                                        | {{< highlight csharp >}}<<[y]>><</foreach>>{{< /highlight >}} |
-| {{< highlight csharp >}}<<foreach [m in</br> ds.Managers]>><<[m.Cities</br>.Name]>><<cellMerge>>{{< /highlight >}} | {{< highlight csharp >}}<<[m.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<foreach [y in years]</br> -horz>><<[m.Contracts</br>.Where(c => c.Year ==</br> y).Sum(c => </br>c.Price)]>><</foreach>><</foreach>>{{< /highlight >}} |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td rowspan="2"><strong>Cites</strong></td>
+      <td rowspan="2"><strong>Managers</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>Years&lt;&lt;cellMerge -horz>></td>
+		</tr>
+    <tr>
+      <td>&lt;&lt;[y]>>&lt;&lt;/foreach>></td>
+    </tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Cities.Name]>>&lt;&lt;cellMerge>></td>
+			<td>&lt;&lt;[m.Name]>></td>
+      <td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 

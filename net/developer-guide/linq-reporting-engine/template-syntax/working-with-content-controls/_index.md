@@ -1,11 +1,11 @@
-﻿---
+---
 title: Working with Content Controls in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Content Controls
 linktitle: Working with Content Controls
 description: "Perform certain operations on content controls dynamically while building a report using C#."
 type: docs
-weight: 140
+weight: 83
 url: /net/working-with-content-controls/
 aliases: [/net/template-syntax/#working-with-content-controls]
 ---
@@ -24,6 +24,7 @@ You can set checkbox values to either checked or unchecked in your reports dynam
 {{< highlight csharp >}}
 <<check [conditional_expression]>>
 {{< /highlight >}}
+
 Here, `conditional_expression` defines a condition upon which the value of the checkbox content control is to be set to checked (or unchecked, if the condition is not met). The conditional expression must return a Boolean value.
 
 While building a report, a conditional expression declared within a `check` tag is evaluated and the value of its containing checkbox content control is set accordingly. The `check` tag itself is removed then.
