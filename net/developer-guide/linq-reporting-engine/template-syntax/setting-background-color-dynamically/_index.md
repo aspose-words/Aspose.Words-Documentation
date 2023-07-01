@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setting Background Color Dynamically in C#
 second_title: Aspose.Words for .NET
 articleTitle: Setting Background Color Dynamically
@@ -66,8 +66,14 @@ Given that `items` is an enumeration of `ColoredItem` instances, you can use the
 
 To output every item into a separate table row colored dynamically, you can use the following template.
 
-|<<foreach [item in items]>><<backColor [item.Color]>><<[item.Name]>>|<<[item.Description]>><</backColor>><</foreach>>|
-| :- | :- |
+<table class="setting-background-color-dynamically">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach [item in items]>>&lt;&lt;backColor [item.Color]>>&lt;&lt;[item.Name]>></td>
+			<td>&lt;&lt;[item.Description]>>&lt;&lt;/backColor>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** Start and end `backColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
 
