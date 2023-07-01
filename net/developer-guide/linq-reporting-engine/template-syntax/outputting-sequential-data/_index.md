@@ -261,11 +261,26 @@ You can normally use common data bands nested to table-row data bands as well li
 
 In this case, the engine produces a report as follows.
 
-|Manager|Clients|
-| :- | :- |
-|**John Smith**|**A Company**</br> **B Ltd.**</br>**C & D**|
-|**Tony Anderson**|**E Corp.**</br>**F & Partners**|
-|**July James**|**G & Co.**</br>**H Group**</br>**I & Sons**</br>**J Ent.**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+			<td><strong>Client</strong></td>
+		</tr>
+		<tr>
+			<td><strong>John Smith</strong></td>
+      <td><p>A Company</p><p>B Ltd.</p><p>C &amp; D</p></td>
+		</tr>
+    <tr>
+			<td><strong>Tony Anderson</strong></td>
+      <td><p>E Corp.</p><p>F &amp; Partners</p></td>
+		</tr>
+    <tr>
+			<td><strong>July James</strong></td>
+      <td><p>G &amp; Co.</p><p></p>H Group<p>I &amp; Sons</p><p>J Ent.</p></td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** Table-column data bands can also be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
@@ -562,8 +577,8 @@ Since cross (pivot) tables can contain large amounts of data, it is quite usual 
 <table class="outputting-sequential-data">
 	<tbody>
 		<tr>
-			<td rowspan="2"><strong>Cites</strong></td>
-      <td rowspan="2"><strong>Managers</strong></td>
+			<td rowspan="2" style="vertical-align: middle"><strong>Cites</strong></td>
+      <td rowspan="2" style="vertical-align: middle"><strong>Managers</strong></td>
 			<td>&lt;&lt;foreach [y in years] -horz>>Years&lt;&lt;cellMerge -horz>></td>
 		</tr>
     <tr>
@@ -820,11 +835,19 @@ The items are: item1, item2, item3.
 
 Returns the one-based index of a sequence item that is represented by the corresponding iteration variable. You can use this extension method to number sequence items without involving Microsoft Word® lists. For example, given the previous declaration of `items`, you can enumerate and number them in a document table using the following template.
 
-|No.|Item|
-| :- | :- |
-|{{< highlight csharp >}}
- <<foreach [itemin items]>><<[item.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
- <<[item]>><</foreach>>{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>No.</strong></td>
+			<td><strong>Item</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [item in items]>>&lt;&lt;[item.NumberOf()]>></td>
+			<td>&lt;&lt;[item]>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
+
 In this case, the engine produces a report as follows.
 
 | No.  | Item  |
@@ -837,8 +860,15 @@ In this case, the engine produces a report as follows.
 
 You can instruct the engine to force movement to the next item within a data band using a `next` tag. This feature is useful in label-print-like scenarios when you need to output data about a fixed number of items in a single table row like in the following example. Given that `Clients` is a `DataTable` instance having a field named "Name", you can use the following template to output three client names per table row while outputting names of all clients in a single table.
 
-|{{< highlight csharp >}}<<foreach [c in Clients]>><<[c.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<next>><<[c.Name]>>{{< /highlight >}}|{{< highlight csharp >}}<<next>><<[c.Name]>> <</foreach>>{{< /highlight >}}|
-| :- | :- | :- |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach [c in Clients]>>&lt;&lt;[c.Name]>></td>
+			<td>&lt;&lt;next>>&lt;&lt;[c.Name]>></td>
+			<td>&lt;&lt;next>>&lt;&lt;[c.Name]>> &lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 

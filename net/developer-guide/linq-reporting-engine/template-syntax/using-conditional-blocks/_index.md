@@ -243,9 +243,9 @@ Also, you can use data bands inside table-row conditional blocks. For example, y
 <table class="conditional block">
 	<tbody>
     <tr>
-      <td>Client</td>
-      <td>Country</td>
-      <td>Local Address</td>
+      <td><strong>Client</strong></td>
+      <td><strong>Country</strong></td>
+      <td><strong>Local Address</strong></td>
     </tr>
     <tr>
       <td style="text-align: center" colspan="3">&lt;&lt;if [!clients.Any()]>>No data</td>
@@ -263,9 +263,9 @@ In case when the corresponding enumeration is empty, the engine produces a repor
 <table class="conditional block">
 	<tbody>
     <tr>
-      <td>Client</td>
-      <td>Country</td>
-      <td>Local Address</td>
+      <td><strong>Client</strong></td>
+      <td><strong>Country</strong></td>
+      <td><strong>Local Address</strong></td>
     </tr>
     <tr>
       <td style="text-align: center" colspan="3">No data</td>
@@ -440,9 +440,21 @@ public class Person
 
 The most typical scenario for table-column conditional blocks is showing or hiding a table column depending on a condition. You can do it using a template as follows.
 
-| Name                                                        | Age                                                        | {{< highlight csharp >}}<<if [showRepresentatives] -horz>>Representative{{< /highlight >}} |
-| ----------------------------------------------------------- | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| {{< highlight csharp >}}<<[person.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<[person.Age]>>{{< /highlight >}} | {{< highlight csharp >}}<<[person.Representative]>><</if>>{{< /highlight >}} |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td><strong>Age</strong></td>
+      <td>&lt;&lt;if [showRepresentatives] -horz>>Representative</td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;[person.Name]>></td>
+      <td>&lt;&lt;[person.Age]>></td>
+      <td>&lt;&lt;[person.Representative]>>&lt;&lt;/if>>
+</td>
+    </tr>
+	</tbody>
+</table>
 
 When `showRepresentatives` is set to `true`, the engine produces a report as follows.
 
@@ -458,9 +470,21 @@ When `showRepresentatives` is set to `false`, the engine produces a report as fo
 
 For a table being built using a table-row data band, you can also show or hide a table column depending on a condition like in the following template.
 
-| Name                                                         | Age                                                   | {{< highlight csharp >}}<<if [showRepresentatives] -horz>>Representative<</if>>{{< /highlight >}} |
-| ------------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------ |
-| {{< highlight csharp >}}<<foreach [p in persons]>><<[p.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<[p.Age]>>{{< /highlight >}} | {{< highlight csharp >}}<<if [showRepresentatives] -horz>><<[p.Representative]>><</if>><</foreach>>{{< /highlight >}} |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td><strong>Age</strong></td>
+      <td>&lt;&lt;if [showRepresentatives] -horz>>Representative&lt;&lt;/if>></td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;foreach [p in persons]>>&lt;&lt;[p.Name]>></td>
+      <td>&lt;&lt;[p.Age]>></td>
+      <td>&lt;&lt;if [showRepresentatives] -horz>>&lt;&lt;[p.Representative]>>&lt;&lt;/if>>&lt;&lt;/foreach>>
+</td>
+    </tr>
+	</tbody>
+</table>
 
 **Note –** Table-row and table-column regions cannot cross, that is why two table-column conditional blocks with the same condition are required in this case.
 
@@ -483,12 +507,12 @@ Table-column conditional blocks can also be used to provide different views for 
 <table class="conditional block">
 	<tbody>
     <tr>
-      <td>Name</td>
-      <td rowspan="2">&lt;&lt;if [person.Representative == “”] -horz>>&lt;&lt;[person.Name]>></td>
+      <td><strong>Name</strong></td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;if [person.Representative == “”] -horz>>&lt;&lt;[person.Name]>></td>
       <td>&lt;&lt;else>>&lt;&lt;[person.Name]>></td>
 		</tr>
     <tr>
-      <td>Representative</td>
+      <td><strong>Representative</strong></td>
       <td>&lt;&lt;[person.Representative]>>&lt;&lt;/if>></td>
     </tr>
 	</tbody>
@@ -511,12 +535,12 @@ You can use a similar approach to provide different views for columns of a table
 <table class="conditional block">
 	<tbody>
     <tr>
-      <td>Name</td>
-      <td rowspan="2">&lt;&lt;foreach [p in persons] -horz>>&lt;&lt;if [p.Representative == “”] -horz>>&lt;&lt;[p.Name]>></td>
+      <td><strong>Name</strong></td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;foreach [p in persons] -horz>>&lt;&lt;if [p.Representative == “”] -horz>>&lt;&lt;[p.Name]>></td>
       <td>&lt;&lt;else>>&lt;&lt;[p.Name]>></td>
 		</tr>
     <tr>
-      <td>Representative</td>
+      <td><strong>Representative</strong></td>
       <td>&lt;&lt;[p.Representative]>>&lt;&lt;/if>>&lt;&lt;/foreach>></td>
     </tr>
 	</tbody>
@@ -536,7 +560,7 @@ In addition, table-column conditional blocks can contain table-column data bands
 	<tbody>
     <tr>
       <td>Name</td>
-      <td rowspan="2">&lt;&lt;if [!persons.Any()] -horz>>No data</td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;if [!persons.Any()] -horz>>No data</td>
       <td>&lt;&lt;else>>&lt;&lt;foreach [p in persons] -horz>>&lt;&lt;[p.Name]>></td>
 		</tr>
     <tr>
@@ -558,7 +582,7 @@ When there is no person at all, the engine produces a report as follows.
 	<tbody>
     <tr>
       <td>Name</td>
-      <td rowspan="2">No data</td>
+      <td rowspan="2" style="vertical-align: middle">No data</td>
 		</tr>
     <tr>
       <td>Representative</td>

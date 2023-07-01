@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appendix A. Enumeration Extension Methods in C#
 second_title: Aspose.Words for .NET
 articleTitle: Appendix A. Enumeration Extension Methods
@@ -76,7 +76,7 @@ persons.Min(p => p.Age){{< /highlight >}}|
 |OrderBy(ComparableSelector)|{{< highlight csharp >}}
 persons.OrderBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
 persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
-persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children.Count()){{< /highlight >}}This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:- ThenBy(ComparableSelector)- ThenByDescending(ComparableSelector)|
+persons.OrderBy(p => p.Age).ThenByDescending(p => p.Name).ThenBy(p => p.Children.Count()){{< /highlight >}}This method returns an enumeration ordered by a single key. To specify additional ordering keys, you can use the following extension methods of an ordered enumeration:<br>- ThenBy(ComparableSelector)<br>- ThenByDescending(ComparableSelector)|
 |OrderByDescending(ComparableSelector)|{{< highlight csharp >}}
 persons.OrderByDescending(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
 persons.OrderByDescending(p => p.Age).ThenByDescending(p => p.Name){{< /highlight >}}Or {{< highlight csharp >}}
