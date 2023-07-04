@@ -1,11 +1,11 @@
-﻿---
+---
 title: Working with Content Controls in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Content Controls
 linktitle: Working with Content Controls
 description: "Perform certain operations on content controls dynamically while building a report in Java."
 type: docs
-weight: 140
+weight: 83
 url: /java/working-with-content-controls/
 ---
 

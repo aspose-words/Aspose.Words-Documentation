@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setting Background Color Dynamically in Java
 second_title: Aspose.Words for Java
 articleTitle: Setting Background Color Dynamically
@@ -61,8 +61,14 @@ Given that `items` is an enumeration of `ColoredItem` instances, you can use the
 
 To output every item into a separate table row colored dynamically, you can use the following template.
 
-|&lt;&lt;foreach [item in items]&gt;&gt;&lt;&lt;backColor [item.getColor()]&gt;&gt;&lt;&lt;[item.getName()]&gt;&gt;|&lt;&lt;[item.getDescription()]&gt;&gt;&lt;&lt;/backColor&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
-| :- | :- |
+<table class="setting-background-color-dynamically">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach [item in items]>>&lt;&lt;backColor [item.getColor()]>>&lt;&lt;[item.getName()]>></td>
+			<td>&lt;&lt;[item.getDescription()]>>&lt;&lt;/backColor>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** Start and end `backColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
 

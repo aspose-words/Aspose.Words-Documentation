@@ -28,15 +28,13 @@ The `Manager`, `Contract`, and `Client` classes are defined as follows.
 
 ### Template Example
 
-|![Single_Row_Template_Example-aspose-words-net](single-row-template-example2.png) | Name: &lt;&lt;[manager.Name]>> <br> Age: &lt;&lt;[manager.Age]>> |
+|![Single_Row_Template_Example-aspose-words-net](single-row-template-example2.png) | Name: &lt;&lt;[manager.Name]&gt;&gt; <br> Age: &lt;&lt;[manager.Age]&gt;&gt; |
 | :- | :- |
 
 ### Report Example
 
 |![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png)|Name: John Smith <br> Age: 37 |
 | :- | :- |
-
-
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-SingleRow-SingleRow.cs" >}}
 
@@ -45,7 +43,6 @@ The `Manager`, `Contract`, and `Client` classes are defined as follows.
 You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Table%20row.docx).
 
 {{% /alert %}}
-
 
 ## In-Paragraph List Template
 
@@ -158,15 +155,13 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> &lt;&lt;[Name()]>> <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> &lt;&lt;[Name()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
 
 |![Single_Row_Report_Example1-aspose-words-net](single-row-report-example1.png) <br> John Smith <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> July James|
 | :- |
-
-
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonList-CommonList.cs" >}}
 
@@ -454,7 +449,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 	<tbody>
     <tr>
       <td><strong>Client</strong></td>
-      <td rowspan="2" style="text-align: center">No data</td>
+      <td rowspan="2" style="vertical-align: middle">No data</td>
     </tr>
 		<tr>
       <td><strong>Contract Price</strong></td>
@@ -472,7 +467,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> &lt;&lt;[Name()]>> <br> Clients: &lt;&lt;foreach [in Contracts() ]>>&lt;&lt;[indexOf() != 0 ? ", " : ""]>>&lt;&lt;[Client().Name()]>>&lt;&lt;/foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> &lt;&lt;[Name()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in Contracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example

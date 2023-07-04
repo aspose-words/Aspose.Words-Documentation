@@ -13,27 +13,105 @@ A table-column conditional block represents a conditional block, which body occu
 
 **Note –** Table cells occupied by different template options in the following templates are highlighted with different colors.
 
-| **...** | **<<if ... -horz>> ...** | **<<elseif ...>> ...** | **...** | **<<else>> ...** | **...** | **...**         | **...** |
-| ------- | ------------------------ | ---------------------- | ------- | ---------------- | ------- | --------------- | ------- |
-| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
-| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **... <</if>>** | **...** |
+<table class="conditional block">
+	<tbody>
+		<tr>
+      <td>...</td>
+      <td style="background-color: #e2fac0">&lt;&lt;if ... -horz>> ...</td>
+      <td style="background-color: #fff9ba">&lt;&lt;elseif ...>> ...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #caeefc">&lt;&lt;else>> ...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td style="background-color: #e2fac0">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td style="background-color: #e2fac0">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...&lt;&lt;/if>></td>
+      <td>...</td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** The horz switch instructs the engine to affect table columns rather than rows.
 
 However, unlike table-row conditional blocks able to capture only whole rows, table-column conditional blocks can occupy columns even partially as shown in the following template snippet.
 
-| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
-| ------- | ------------------------ | ---------------------- | ------- | ---------------- | ------- | --------------- | ------- |
-| **...** | **<<if ... -horz>> ...** | **<<elseif ...>> ...** | **...** | **<<else>> ...** | **...** | **...**         | **...** |
-| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
-| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **... <</if>>** | **...** |
-| **...** | **...**                  | **...**                | **...** | **...**          | **...** | **...**         | **...** |
+<table class="conditional block">
+	<tbody>
+		<tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td style="background-color: #e2fac0">&lt;&lt;if ... -horz>> ...</td>
+      <td style="background-color: #fff9ba">&lt;&lt;elseif ...>> ...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #caeefc">&lt;&lt;else>> ...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td style="background-color: #e2fac0">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td style="background-color: #e2fac0">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #fff9ba">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...</td>
+      <td style="background-color: #caeefc">...&lt;&lt;/if>></td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+	</tbody>
+</table>
 
 Let us consider typical use cases for table-column conditional blocks at first defining `showRepresentatives`, a Boolean value, and `person` and `persons`, an instance and an enumeration of instances of the `Person` class respectively, where the `Person` class is defined as follows.
 
+{{< highlight csharp >}}
 public class Person
 
-{{< highlight csharp >}}
 {
 	public String getName() { ... }
 	public int getAge() { ... }
@@ -44,9 +122,21 @@ public class Person
 
 The most typical scenario for table-column conditional blocks is showing or hiding a table column depending on a condition. You can do it using a template as follows.
 
-| **Name**                   | **Age**                   | **<<if [showRepresentatives] -horz>>Representative** |
-| -------------------------- | ------------------------- | ---------------------------------------------------- |
-| **<<[person.getName()]>>** | **<<[person.getAge()]>>** | **<<[person.getRepresentative()]>><</if>>**          |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td><strong>Age</strong></td>
+      <td>&lt;&lt;if [showRepresentatives] -horz>>Representative</td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;[person.getName()]>></td>
+      <td>&lt;&lt;[person.getAge()]>></td>
+      <td>&lt;&lt;[person.getRepresentative()]>>&lt;&lt;/if>>
+</td>
+    </tr>
+	</tbody>
+</table>
 
 When `showRepresentatives` is set to `true`, the engine produces a report as follows.
 
@@ -62,9 +152,21 @@ When `showRepresentatives` is set to `false`, the engine produces a report as fo
 
 For a table being built using a table-row data band, you can also show or hide a table column depending on a condition like in the following template.
 
-| **Name**                                        | **Age**              | **<<if [showRepresentatives] -horz>>Representative<</if>>**  |
-| ----------------------------------------------- | -------------------- | ------------------------------------------------------------ |
-| **<<foreach [p in persons]>><<[p.getName()]>>** | **<<[p.getAge()]>>** | **<<if [showRepresentatives] -horz>><<[p.getRepresentative()]>><</if>><</foreach>>** |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td><strong>Age</strong></td>
+      <td>&lt;&lt;if [showRepresentatives] -horz>>Representative&lt;&lt;/if>></td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;foreach [p in persons]>>&lt;&lt;[p.getName()]>></td>
+      <td>&lt;&lt;[p.getAge()]>></td>
+      <td>&lt;&lt;if [showRepresentatives] -horz>>&lt;&lt;[p.getRepresentative()]>>&lt;&lt;/if>>&lt;&lt;/foreach>>
+</td>
+    </tr>
+	</tbody>
+</table>
 
 **Note –** Table-row and table-column regions cannot cross, that is why two table-column conditional blocks with the same condition are required in this case.
 
@@ -84,9 +186,19 @@ When `showRepresentatives` is set to `false`, the engine produces a report as fo
 
 Table-column conditional blocks can also be used to provide different views for a table column depending on a condition. You can use a template as follows to achieve this.
 
-| **Name**           | **<<if [person.getRepresentative() == “”] -horz>><<[person.getName()]>>** | **<<else>><<[person.getName()]>>** |
-| ------------------ | ------------------------------------------------------------ | ---------------------------------- |
-| **Representative** | **<<[person.getRepresentative()]>><</if>>**                  |                                    |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;if [person.getRepresentative() == “”] -horz>>&lt;&lt;[person.getName()]>></td>
+      <td>&lt;&lt;else>>&lt;&lt;[person.getName()]>></td>
+		</tr>
+    <tr>
+      <td><strong>Representative</strong></td>
+      <td>&lt;&lt;[person.getRepresentative()]>>&lt;&lt;/if>></td>
+    </tr>
+	</tbody>
+</table>
 
 When a representative is present for a person, the engine produces a report as follows.
 
@@ -102,9 +214,19 @@ When a representative is not specified for a person, the engine produces a repor
 
 You can use a similar approach to provide different views for columns of a table being built using a table-column data band. A template for this may look as follows.
 
-| **Name**           | **<<foreach [p in persons] -horz>><<if [p.getRepresentative() == “”] -horz>><<[p.getName()]>>** | **<<else>><<[p.getName()]>>** |
-| ------------------ | ------------------------------------------------------------ | ----------------------------- |
-| **Representative** | **<<[p.getRepresentative()]>><</if>><</foreach>>**           |                               |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;foreach [p in persons] -horz>>&lt;&lt;if [p.getRepresentative() == “”] -horz>>&lt;&lt;[p.getName()]>></td>
+      <td>&lt;&lt;else>>&lt;&lt;[p.getName()]>></td>
+		</tr>
+    <tr>
+      <td><strong>Representative</strong></td>
+      <td>&lt;&lt;[p.getRepresentative()]>>&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+    </tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -116,9 +238,19 @@ In this case, the engine produces a report as follows.
 
 In addition, table-column conditional blocks can contain table-column data bands. This is useful, for example, for providing alternate content for an empty table-column data band as shown in the following template.
 
-| **Name**           | **<<if [!persons.any()] -horz>>No data**           | **<<else>><<foreach [p in persons] -horz>><<[p.getName()]>>** |
-| ------------------ | -------------------------------------------------- | ------------------------------------------------------------ |
-| **Representative** | **<<[p.getRepresentative()]>><</foreach>><</if>>** |                                                              |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;if [!persons.any()] -horz>>No data</td>
+      <td>&lt;&lt;else>>&lt;&lt;foreach [p in persons] -horz>>&lt;&lt;[p.getName()]>></td>
+		</tr>
+    <tr>
+      <td><strong>Representative</strong></td>
+      <td>&lt;&lt;[p.getRepresentative()]>>&lt;&lt;/foreach>>&lt;&lt;/if>></td>
+    </tr>
+	</tbody>
+</table>
 
 When the enumeration of persons is not empty, the engine produces a report as follows.
 

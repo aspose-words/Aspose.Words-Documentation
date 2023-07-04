@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with DataTable Row Objects in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with DataTable Row Objects
@@ -21,3 +21,5 @@ LINQ Reporting Engine enables you to access a data associated with a particular 
 **Note –** Field and table names are case-insensitive.
 
 To determine parent-child relationships for a particular `DataTable` instance, the engine uses `DataRelation` objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
+
+**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
