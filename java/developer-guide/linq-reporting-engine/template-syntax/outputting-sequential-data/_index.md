@@ -1,4 +1,4 @@
-﻿---
+---
 title: Outputting Sequential Data in Java
 second_title: Aspose.Words for Java
 articleTitle: Outputting Sequential Data
@@ -24,7 +24,7 @@ data_band_body
 <</foreach>>
 {{< /highlight >}}
 
-You can reference an element of the corresponding sequence in template expressions within a data band body using an iteration variable. At runtime, an iteration variable represents a sequence element for which an iteration is currently being performed. You can declare an iteration variable within the corresponding opening foreach tag.
+You can reference an element of the corresponding sequence in template expressions within a data band body using an iteration variable. At runtime, an iteration variable represents a sequence element for which an iteration is currently being performed. You can declare an iteration variable within the corresponding opening `foreach` tag.
 
 An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The following table describes elements of this statement.
 
@@ -34,6 +34,7 @@ An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The
 |**Iteration Variable Name**|Yes|You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding `foreach` tag.<br>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see "Using Contextual Object Member Access" for more information).|
 |**"in" Keyword**|No| |
 |**Sequence Expression**|No|A sequence expression must return an [Iterable](https://docs.oracle.com/javase/7/docs/api/java/lang/Iterable.html) implementor.|
+
 The complete syntax of a `foreach` tag (including optional elements) is as follows.
 
 {{< highlight csharp >}}

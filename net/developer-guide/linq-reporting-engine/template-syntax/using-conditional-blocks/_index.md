@@ -559,12 +559,12 @@ In addition, table-column conditional blocks can contain table-column data bands
 <table class="conditional block">
 	<tbody>
     <tr>
-      <td>Name</td>
+      <td><strong>Name</strong></td>
       <td rowspan="2" style="vertical-align: middle">&lt;&lt;if [!persons.Any()] -horz>>No data</td>
       <td>&lt;&lt;else>>&lt;&lt;foreach [p in persons] -horz>>&lt;&lt;[p.Name]>></td>
 		</tr>
     <tr>
-      <td>Representative</td>
+      <td><strong>Representative</strong></td>
       <td>&lt;&lt;[p.Representative]>>&lt;&lt;/foreach>>&lt;&lt;/if>></td>
     </tr>
 	</tbody>

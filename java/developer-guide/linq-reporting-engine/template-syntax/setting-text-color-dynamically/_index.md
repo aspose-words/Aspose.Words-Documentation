@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setting Text Color Dynamically in Java
 second_title: Aspose.Words for Java
 articleTitle: Setting Text Color Dynamically
@@ -62,7 +62,13 @@ Given that `items` is an enumeration of `ColoredItem` instances, you can use the
 
 To output every item into a separate table row, which text is colored dynamically, you can use the following template.
 
-|<<foreach [item in items]>><<textColor [item.getColor()]>><<[item.getName()]>>|<<[item.getDescription()]>><</textColor>><</foreach>>|
-| :- | :- |
+<table class="setting-text-color-dynamically">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach [item in items]>>&lt;&lt;textColor [item.getColor()]>>&lt;&lt;[item.getName()]>></td>
+			<td>&lt;&lt;[item.getDescription()]>>&lt;&lt;/textColor>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** Start and end `textColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.

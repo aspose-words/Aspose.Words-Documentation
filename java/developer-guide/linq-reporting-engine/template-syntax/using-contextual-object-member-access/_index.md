@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Contextual Object Member Access in Java
 second_title: Aspose.Words for Java
 articleTitle: Using Contextual Object Member Access
@@ -22,9 +22,9 @@ Consider the following example. Given that `ds` is a `DataSet` instance containi
 <table class="ct">
 	<tbody>
 		<tr>
-			<td>No.</td>
-			<td>Name</td>
-			<td>Age</td>
+			<td><strong>No.</strong></td>
+			<td><strong>Name</strong></td>
+			<td><strong>Age</strong></td>
 		</tr>
 		<tr>
 			<td>&lt;&lt;foreach [p 
@@ -44,9 +44,9 @@ Alternatively, you can use the following template involving the contextual objec
 <table class="iksweb">
 	<tbody>
 		<tr>
-			<td>No.</td>
-			<td>Name</td>
-			<td>Age</td>
+			<td><strong>No.</strong></td>
+			<td><strong>Name</strong></td>
+			<td><strong>Age</strong></td>
 		</tr>
 		<tr>
 			<td>&lt;&lt;foreach [
