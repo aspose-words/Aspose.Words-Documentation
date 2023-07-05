@@ -229,7 +229,7 @@ Document doc = new Document("document.docx");
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Eps);
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 ShapeRenderer renderer = shape.GetShapeRenderer();
-doc.Save("image.eps", saveOptions);
+renderer.Save("image.eps", saveOptions);
 {{< /highlight >}}
 
 ### Added new public properties Row.NextRow, Row.PreviousRow, Cell.NextCell and Cell.PreviousCell
