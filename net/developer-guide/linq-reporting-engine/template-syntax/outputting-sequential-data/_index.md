@@ -217,6 +217,10 @@ To populate a document table with a master-detail data, you can use nested table
 		</tr>
 		<tr>
 			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+      <td>&lt;&lt;[m.Contracts.Sum(c => c.Price)]>></td>
+    </tr>
+		<tr>
+      <td>&lt;&lt;foreach [c in m.Contracts]>>  &lt;&lt;[c.Clients.Name]>></td>
 			<td>&lt;&lt;[c.Price]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
 		</tr>
     <tr>
