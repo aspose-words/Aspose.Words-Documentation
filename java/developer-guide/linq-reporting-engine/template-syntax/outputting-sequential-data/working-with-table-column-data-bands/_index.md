@@ -150,7 +150,7 @@ You can normally use common data bands nested to table-column data bands as well
 		</tr>
 		<tr>
 			<td><strong>Sold Packs</strong></td>
-			<td>&lt;&lt;foreach [s in g.Sales]>>&lt;&lt;[s.Packs.Name]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+			<td>&lt;&lt;foreach [s in g.Sales]>>&lt;&lt;[s.Packs.Name]>> &lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
 		</tr>
 	</tbody>
 </table>

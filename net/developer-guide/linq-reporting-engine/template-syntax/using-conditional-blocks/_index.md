@@ -526,9 +526,17 @@ When a representative is present for a person, the engine produces a report as f
 
 When a representative is not specified for a person, the engine produces a report as follows.
 
-| **Name**           | **Kate Abrams** |
-| ------------------ | --------------- |
-| **Representative** |                 |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td rowspan="2" style="vertical-align: middle">Kate Abrams</td>
+		</tr>
+    <tr>
+      <td><strong>Representative</strong></td>
+    </tr>
+	</tbody>
+</table>
 
 You can use a similar approach to provide different views for columns of a table being built using a table-column data band. A template for this may look as follows.
 
@@ -548,9 +556,19 @@ You can use a similar approach to provide different views for columns of a table
 
 In this case, the engine produces a report as follows.
 
-| **Name**           | **Evan Edger**        | **Kate Abrams** |
-| ------------------ | --------------------- | --------------- |
-| **Representative** | **Terrence Randolph** |                 |
+<table class="conditional block">
+	<tbody>
+    <tr>
+      <td><strong>Name</strong></td>
+      <td>Evan Edger</td>
+      <td rowspan="2" style="vertical-align: middle">Kate Abrams</td>
+		</tr>
+    <tr>
+      <td><strong>Representative</strong></td>
+      <td>Terrence Randolph</td>
+    </tr>
+	</tbody>
+</table>
 
 **Note –** You can use common conditional blocks within table-column data bands as well.
 
