@@ -144,7 +144,7 @@ There are 115 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-24990|Bullet formatting for the component content changed|Bug
 |WORDSNET-25486|NullReferenceException is thrown upon rendering document after removing table row|Bug
 |WORDSNET-25487|HTML is converted to the blank resulting DOCX|Bug
-|WORDSNET-25364|Default font family is written to <li> element|Bug
+|WORDSNET-25364|Default font family is written to LI element|Bug
 |WORDSNET-25537|Table row is moved to the previous page after rendering|Bug
 |WORDSNET-20577|Aspose.Words takes more time and memory over .NET Core|Bug
 
