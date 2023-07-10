@@ -117,7 +117,7 @@ Do not call the **SetMeteredKey** method frequently so that this licensing metho
 The following code example shows how to set limited public and private keys.
 
 {{< highlight csharp >}}
-measured measured = new measured();
+Metered metered = new Metered();
 metered.setMeteredKey("***", "***");
 {{< /highlight >}}
 
