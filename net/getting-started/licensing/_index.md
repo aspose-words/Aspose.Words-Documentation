@@ -112,9 +112,9 @@ The new licensing mechanism will be used along with the existing licensing metho
 
 After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/net/aspose.words/metered/) class specially introduced for this purpose.
 
-Do not call the **SetMeteredKey** method frequently so that this licensing method properly accumulates consumption and reports it to us. Just instantiate the Aspose.Words library, call SetMeteredKey once, then leave the library instantiated and reuse it.
+Do not call the **SetMeteredKey** method frequently so that this licensing method properly accumulates consumption and reports it to us. Just instantiate the Aspose.Words library, call **SetMeteredKey** once, then leave the library instantiated and reuse it.
 
-The following code example shows how to set limited public and private keys.
+The following code example shows how to set limited public and private keys:
 
 {{< highlight csharp >}}
 Metered metered = new Metered();
