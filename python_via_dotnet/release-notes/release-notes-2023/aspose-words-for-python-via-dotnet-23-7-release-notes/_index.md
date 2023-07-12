@@ -230,6 +230,7 @@ renderer.save("image.eps", saveOptions)
 ### Added new public properties Row.next_row, Row.previous_row, Cell.next_cell and Cell.previous_cell
 
 The following public properties have been added to the **Row** class:
+
 {{< highlight python >}}
 @property
 def next_row(self) -> aspose.words.tables.Row:
@@ -251,6 +252,7 @@ def previous_row(self) -> aspose.words.tables.Row:
 {{< /highlight >}}
 
 The following public properties have been added to the **Cell** class:
+
 {{< highlight python >}}
 @property
 def next_cell(self) -> aspose.words.tables.Cell:
@@ -315,6 +317,7 @@ Now the **MailMerge.get_regions_hierarchy** method returns mustache regions and 
 Now the **MailMerge.get_field_names_for_region** method accepts mustache region names and returns mustache field names when the **MailMerge.use_non_merge_fields** option is True.
 
 The **MustacheTag** class has been introduced:
+
 {{< highlight python >}}
 class MustacheTag:
     '''Represents "mustache" tag.'''
@@ -338,6 +341,7 @@ class MustacheTag:
 {{< /highlight >}}
 
 The start_mustache_tag, end_mustache_tag and mustache_tags properties have been added to the MailMergeRegionInfo class:
+
 {{< highlight python >}}
 class MailMergeRegionInfo:
 
@@ -345,12 +349,12 @@ class MailMergeRegionInfo:
     def mustache_tags(self) -> list[aspose.words.mailmerging.MustacheTag]:
         '''Returns a list of child "mustache" tags.'''
         ...
- 
+     
     @property
     def start_mustache_tag(self) -> aspose.words.mailmerging.MustacheTag:
         '''Returns a start "mustache" tag for the region.'''
         ...
-
+    
     @property
     def end_mustache_tag(self) -> aspose.words.mailmerging.MustacheTag:
         '''Returns an end "mustache" tag for the region.'''
