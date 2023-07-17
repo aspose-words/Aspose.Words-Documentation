@@ -4,7 +4,7 @@ second_title: Aspose.Words for .NET
 articleTitle: How to Use Aspose.Words for .NET via COM Interop
 linktitle: How to Use Aspose.Words for .NET via COM Interop
 type: docs
-description: "Integrate Aspose.Words functionality into your application using Docker regardless of what technology is in your development stack. Learn how to use Aspose .Words in a Docker container in C#."
+description: "Use Aspose.Words for .NET via COM Interop in Python, PHP, VBScript, JScript, and other programming languages."
 weight: 130
 url: /net/how-to-use-aspose-words-via-com-interop/
 ---
