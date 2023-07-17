@@ -72,6 +72,8 @@ Use the [SetLicense](https://reference.aspose.com/words/cpp/aspose.words/license
 
 Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
+Calling [SetMeteredKey](https://reference.aspose.com/words/cpp/aspose.words/metered/setmeteredkey/) multiple times is not harmful either, but just wastes processor time and can accumulate consumption improperly.
+
 {{% /alert %}}
 
 #### Apply License Using a File or Stream Object
@@ -133,6 +135,31 @@ For more information, see [”Embedding resources in executable using GCC”](ht
 The following code code example shows how to initialize a license from an embedded resource using [SetLicense](https://reference.aspose.com/words/cpp/aspose.words/license/setlicense/) method:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-LicenseFromEmbeddedResourceLinux.h" >}}
+
+#### Apply Metered License
+
+Aspose.Words allows developers to apply a metered key. This is a new licensing mechanism.
+
+The new licensing mechanism will be used along with the existing licensing method. Those customers who want to be billed based on the use of API features can use the Metered Licensing.
+
+After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/cpp/aspose.words/metered/) class specially introduced for this purpose.
+
+Do not call the **SetMeteredKey** method frequently so that this licensing method properly accumulates consumption and reports it to us. Just instantiate the Aspose.Words library, call **SetMeteredKey** once, then leave the library instantiated and reuse it.
+
+The following code example shows how to set limited public and private keys:
+
+{{< highlight csharp >}}
+auto metered = System::MakeObject<Aspose::Words::Metered>();
+metered->SetMeteredKey("***", "***");
+{{< /highlight >}}
+
+Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode, to avoid such case, you should regularly check the license status, if Aspose.Words turns into evaluation mode, please apply the metered license again.
+
+{{% alert color="primary" %}}
+
+Please note that you must have a stable Internet connection for the correct use of the Metered license, since the Metered mechanism requires the constant interaction with our services for correct calculations. For more details, refer to the [“Metered Licensing FAQ”](https://purchase.aspose.com/faqs/licensing/metered/) section.
+
+{{% /alert %}}
 
 ### Changing the License File Name
 
