@@ -1,4 +1,4 @@
-﻿---
+---
 title: Setting Text Color Dynamically in C#
 second_title: Aspose.Words for .NET
 articleTitle: Setting Text Color Dynamically
@@ -62,7 +62,13 @@ Given that `items` is an enumeration of `ColoredItem` instances, you can use the
 
 To output every item into a separate table row, which text is colored dynamically, you can use the following template.
 
-|<<foreach [item in items]>><<textColor [item.Color]>><<[item.Name]>>|<<[item.Description]>><</textColor>><</foreach>>|
-| :- | :- |
+<table class="setting-text-color-dynamically">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach [item in items]>>&lt;&lt;textColor [item.Color]>>&lt;&lt;[item.Name]>></td>
+			<td>&lt;&lt;[item.Description]>>&lt;&lt;/textColor>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** Start and end `textColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.

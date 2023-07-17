@@ -1,4 +1,4 @@
-﻿---
+---
 title: Merging Table Cells Dynamically in Java
 second_title: Aspose.Words for Java
 articleTitle: Merging Table Cells Dynamically
@@ -31,28 +31,83 @@ For two or more successive table cells to be merged dynamically in either direct
 
 Consider the following template.
 
-|...|...|...|
-| :- | :- | :- |
-|**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value1]&gt;&gt;**|**...**|
-|**...**|**&lt;&lt;cellMerge&gt;&gt;&lt;&lt;[value2]&gt;&gt;**|**...**|
-|**...**|**...**|**...**|
-
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>...</td>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+		<tr>
+			<td>...</td>
+			<td>&lt;&lt;cellMerge>>&lt;&lt;[value1]>></td>
+			<td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+			<td>&lt;&lt;cellMerge>>&lt;&lt;[value2]>></td>
+			<td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+	</tbody>
+</table>
 
 If `value1` and `value2` have the same value, say “Hello”, table cells containing `cellMerge` tags are successfully merged during runtime and a result report looks as follows then.
 
-|...|...|...|
-| :- | :- | :- |
-|**...**|**Hello**|**...**|
-|**...**||**...**|
-|**...**|**...**|**...**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>...</td>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+		<tr>
+			<td>...</td>
+      <td rowspan="2" style="vertical-align: middle"><strong>Hello</strong></td>
+			<td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+	</tbody>
+</table>
 
 If `value1` and `value2` have different values, say “Hello” and “World”, table cells containing `cellMerge` tags are not merged during runtime and a result report looks as follows then.
 
-|...|...|...|
-| :- | :- | :- |
-|**...**|**Hello**|**...**|
-|**...**|**World**|**...**|
-|**...**|**...**|**...**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>...</td>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+		<tr>
+			<td>...</td>
+      <td style="vertical-align: middle"><strong>Hello</strong></td>
+			<td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td style="vertical-align: middle"><strong>World</strong></td>
+			<td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+			<td>...</td>
+			<td>...</td>
+		</tr>
+	</tbody>
+</table>
 
 **Note –** A `cellMerge` tag can be normally used within a table data band.
 
@@ -84,9 +139,22 @@ public class InvoiceItem
 
 Given that `invoices` is an enumeration of Invoice instances, you could use the following template to output information on several invoices in one table.
 
-| #                                                            | Ware                                | Pack                   | Quantity                                           |
-| ------------------------------------------------------------ | ----------------------------------- | ---------------------- | -------------------------------------------------- |
-| `<<foreach [invoice in invoices]>><<foreach [item in invoice.getItems()]>><<[invoice.getNumber()]>><<cellMerge>>` | `<<[item.getWare()]>><<cellMerge>>` | `<<[item.getPack()]>>` | `<<[item.getQuantity()]>><</foreach>><</foreach>>` |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+      <td><strong>#</strong></td>
+			<td><strong>Ware</strong></td>
+      <td><strong>Pack</strong></td>
+      <td><strong>Quantity</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [invoice in invoices]>>&lt;&lt;foreach [item in invoice.getItems()]>>&lt;&lt;[invoice.getNumber()]>>&lt;&lt;cellMerge>></td>
+      <td>&lt;&lt;[item.getWare()]>>&lt;&lt;cellMerge>></td>
+      <td>&lt;&lt;[item.getPack()]>></td>
+      <td>&lt;&lt;[item.getQuantity()]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 A result document would look as follows then.
 
@@ -118,9 +186,22 @@ A result document would look as follows then.
 
 That is, cells corresponding to the same wares at different invoices would be merged, which is unwanted. To prevent this from happening, you can use the following template instead.
 
-| #                                                            | Ware                                                    | Pack                   | Quantity                                           |
-| ------------------------------------------------------------ | ------------------------------------------------------- | ---------------------- | -------------------------------------------------- |
-| `<<foreach [invoice in invoices]>><<foreach [item in invoice.getItems()]>><<[invoice.getNumber()]>><<cellMerge>>` | `<<[item.getWare()]>><<cellMerge [invoice.indexOf()]>>` | `<<[item.getPack()]>>` | `<<[item.getQuantity()]>><</foreach>><</foreach>>` |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+      <td><strong>#</strong></td>
+			<td><strong>Ware</strong></td>
+      <td><strong>Pack</strong></td>
+      <td><strong>Quantity</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [invoice in invoices]>>&lt;&lt;foreach [item in invoice.getItems()]>>&lt;&lt;[invoice.getNumber()]>>&lt;&lt;cellMerge>></td>
+      <td>&lt;&lt;[item.getWare()]>>&lt;&lt;cellMerge [invoice.indexOf()]>></td>
+      <td>&lt;&lt;[item.getPack()]>></td>
+      <td>&lt;&lt;[item.getQuantity()]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 Then, a result document looks as follows.
 

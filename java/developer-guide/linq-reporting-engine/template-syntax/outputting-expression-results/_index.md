@@ -1,4 +1,4 @@
-﻿---
+---
 title: Outputting Expression Results in Java
 second_title: Aspose.Words for Java
 articleTitle: Outputting Expression Results
@@ -15,7 +15,7 @@ An expression tag has no name and consists of the following elements:
 
 - An expression enclosed by brackets
 - An optional format string enclosed by double quotes and preceded by the ":" character
-- An optional html switch
+- An optional `html` switch
 
 {{< highlight xml >}}
 <<[expression]:"format" -html>>

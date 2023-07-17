@@ -74,6 +74,8 @@ Use the [SetLicense](https://reference.aspose.com/words/net/aspose.words/license
 
 Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
+Calling [SetMeteredKey](https://reference.aspose.com/words/net/aspose.words/metered/setmeteredkey/) multiple times is not harmful either, but just wastes processor time and can accumulate consumption improperly.
+
 {{% /alert %}}
 
 #### Apply License Using a File or Stream Object
@@ -110,9 +112,14 @@ The new licensing mechanism will be used along with the existing licensing metho
 
 After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/net/aspose.words/metered/) class specially introduced for this purpose.
 
-The following code example shows how to set metered public and private keys:
+Do not call the **SetMeteredKey** method frequently so that this licensing method properly accumulates consumption and reports it to us. Just instantiate the Aspose.Words library, call **SetMeteredKey** once, then leave the library instantiated and reuse it.
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyMeteredLicense-ApplyMeteredLicense.cs" >}}
+The following code example shows how to set limited public and private keys:
+
+{{< highlight csharp >}}
+Metered metered = new Metered();
+metered.setMeteredKey("***", "***");
+{{< /highlight >}}
 
 Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode, to avoid such case, you should regularly check the license status, if Aspose.Words turns into evaluation mode, please apply the metered license again.
 

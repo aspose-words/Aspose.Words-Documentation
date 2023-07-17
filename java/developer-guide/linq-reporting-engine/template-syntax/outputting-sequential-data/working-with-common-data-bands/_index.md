@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Common Data Bands in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Common Data Bands
@@ -27,13 +27,35 @@ When the body of a common data band starts and ends within different paragraphs,
 
 **Note –** Examples in the table are given with paragraph marks shown as per Microsoft Word® editor.
 
-|Template|Report|
-| :- | :- |
-|{{< highlight csharp >}}prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|prefix item1¶<br>item2¶<br>item3¶<br>suffix|
-|{{< highlight csharp >}}prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix{{< /highlight >}}|prefix¶<br>item1¶<br>item2¶<br>item3 suffix|
-|{{< highlight csharp >}}prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|prefix¶<br>item1¶<br>item2¶<br>item3¶<br>suffix|
-|{{< highlight csharp >}}prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|prefix¶<br>item1¶<br>item2¶<br>item3¶<br>suffix|
-|{{< highlight csharp >}}prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|prefix¶<br>¶<br>item1¶<br>¶<br>item2¶<br>¶<br>item3¶<br>¶<br>suffix|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Template</strong></td>
+			<td><strong>Report</strong></td>
+		</tr>
+		<tr>
+      <td><p>prefix &lt;&lt;foreach [item in items]>>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>>suffix</p></td>
+      <td><p>prefix item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>&lt;&lt;/foreach>> suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3 suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix¶</p><p>&lt;&lt;foreach [item in items]>>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>>suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>&lt;&lt;/foreach>>¶</p><p>suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+<tr>
+  <td><p>prefix¶</p><p>&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>></p><p>suffix</p></td>
+      <td><p>prefix¶</p><p>¶</p><p>item1¶</p><p>¶</p><p>item2¶</p><p>¶</p><p>item3¶</p><p>¶</p><p>suffix</p></td>
+		</tr>
+	</tbody>
+</table>
+
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
 **Note –** “1. ” in the template stands for a numbered list label.

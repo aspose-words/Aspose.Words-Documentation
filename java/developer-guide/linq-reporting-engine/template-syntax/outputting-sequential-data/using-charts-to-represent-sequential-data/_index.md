@@ -1,11 +1,11 @@
 ---
 title: Using Charts to Represent Sequential Data
 second_title: Aspose.Words for Java
-articleTitle: Using Charts to Represent Sequential Data
-linktitle: Using Charts to Represent Sequential Data
+articleTitle: Working with Charts
+linktitle: Working with Charts
 description: "Use charts to represent your sequential data when building a report in Java."
 type: docs
-weight: 40
+weight: 30
 url: /java/using-charts-to-represent-sequential-data/
 ---
 
@@ -62,11 +62,15 @@ public class Contract
 
 Given that `managers` is an enumeration of `Manager` instances, you can use the following template to represent total contract prices achieved by managers in a column chart.
 
-![total_contract_prices_aspose_words_java_1](total-contract-prices-1.png)
+<img src="graph-1.png" alt="charts-to-represent-data-aspose-words-java" style="width:600px"/>
+
+<img src="graph-1-2.png" alt="charts-to-represent-data-aspose-words-java" style="width:600px"/>
+
+<img src="graph-1-2.png" alt="charts-to-represent-data-aspose-words-java" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
-![total_contract_prices_aspose_words_java_2](total-contract-prices-2.png)
+<img src="graph-2.png" alt="charts-to-represent-data-aspose-words-java" style="width:600px"/>
 
 For more examples of templates for typical scenarios involving charts, see “ REF typicalTemplates Appendix C. Typical Templates”.
 
@@ -86,15 +90,19 @@ During runtime, series with `removeif` tags, for which conditional expressions r
 
 Consider the following example. Given the previous definition of `managers` and that `accessLevel` is an integer value representing an access level of a user, you can use the following chart template to make numbers of contracts be available for all users whereas financial contract data be available only for users having an access level of zero.
 
-![total_contract_prices_aspose_words_java_3](total-contract-prices-3.png)
+<img src="graph-3.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
+
+<img src="graph-3-1.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
+
+<img src="graph-3-1.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
 
 If `accessLevel` is equal to zero, the engine produces a report as follows.
 
-![total_contract_prices_aspose_words_java_4](total-contract-prices-4.png)
+<img src="graph-4.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
 
 If `accessLevel` is not equal to zero, the engine produces a report as follows.
 
-![total_contract_prices_aspose_words_java_5](total-contract-prices-5.png)
+<img src="graph-5.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
 
 ## Setting Chart Series Colors Dynamically
 
@@ -117,11 +125,15 @@ During runtime, expressions declared within `seriesColor` tags are evaluated and
 
 Consider the following example. Given the previous definition of `managers` and that `color1` and `color2` are color values of supported types, you can use the following chart template to set its series colors dynamically.
 
-![total_contract_prices_aspose_words_java_6](total-contract-prices-6.png)
+<img src="graph-6.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
+
+<img src="graph-6-1.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
+
+<img src="graph-6-1.png" alt="chart-series-dynamically-aspose-words-java-1" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
-![total_contract_prices_aspose_words_java_7](total-contract-prices-7.png)
+<img src="graph-7.png" alt="chart-series-dynamically-aspose-words-java-2" style="width:600px"/>
 
 ## Setting Chart Series Point Colors Dynamically
 
@@ -154,15 +166,23 @@ public class ColoredItem
 
 Given that `items` is an enumeration of `ColoredItem` instances, you can use the following chart template to set its series point colors dynamically.
 
-![total_contract_prices_aspose_words_java_8](total-contract-prices-8.png)
+<img src="pi-graph.png" alt="chart-series-point-colors-dynamically-aspose-words-java-1" style="width:600px"/>
+
+<img src="pi-graph-1.png" alt="chart-series-point-colors-dynamically-aspose-words-java-1" style="width:600px"/>
+
+<img src="pi-graph-1.png" alt="chart-series-point-colors-dynamically-aspose-words-java-1" style="width:600px"/>
 
 The series name for the template chart is defined as follows.
 
-![total_contract_prices_aspose_words_java_9](total-contract-prices-9.png)
+<img src="sheet-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-java" style="width:600px"/>
+
+<img src="sheet-1-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-java" style="width:600px"/>
+
+<img src="sheet-1-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-java" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
-![total_contract_prices_aspose_words_java_10](total-contract-prices-10.png)
+![chart-series-point-colors-dynamically-aspose-words-java-2](pi-graph-2.png)
 
 ## Setting Chart Title, Series Names, and Axis Titles Dynamically
 
@@ -170,13 +190,15 @@ You can normally use common expression tags in chart titles, series names, and a
 
 Given that `chartTitle`, `seriesName`, and `axisName` are strings taking values “Chart Title”, “Series Name”, and “Axis Title” respectively, you can use the following chart template to set the chart’s title, series name, and axis title dynamically.
 
-![total_contract_prices_aspose_words_java_11](total-contract-prices-11.png)
+![charts-series-title-name-text-dynamically-aspose-words-java-1](graph-8.png)
 
 In this case, the engine produces a report as follows.
 
-![total_contract_prices_aspose_words_java_12](total-contract-prices-12.png)
+![charts-series-title-name-text-dynamically-aspose-words-java-2](graph-9.png)
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
+
+The following code example demonstrates how to set chart series names dynamically.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-linq-ChartSeries-SetChartSeriesNameDynamically.java" >}}
 

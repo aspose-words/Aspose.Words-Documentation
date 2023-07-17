@@ -80,6 +80,8 @@ Use the [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/li
 
 Calling **SetLicense** multiple times is not harmful, it just wastes processor time.
 
+Calling [SetMeteredKey](https://reference.aspose.com/words/java/com.aspose.words/metered/#setMeteredKey-java.lang.String-java.lang.String) multiple times is not harmful either, but just wastes processor time and can accumulate consumption improperly.
+
 {{% /alert %}}
 
 #### Apply License Using a File or Stream Object
@@ -131,9 +133,14 @@ The new licensing mechanism will be used along with the existing licensing metho
 
 After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/java/com.aspose.words/metered/) class specially introduced for this purpose.
 
+Do not call the **SetMeteredKey** method frequently so that this licensing method properly accumulates consumption and reports it to us. Just instantiate the Aspose.Words library, call **SetMeteredKey** once, then leave the library instantiated and reuse it.
+
 The following code example shows how to set metered public and private keys:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-quickstart-ApplyLicense-ApplyMeteredLicense.java" >}}
+{{< highlight java >}}
+Metered metered = new Metered();
+metered.setMeteredKey("*****", "*****");
+{{< /highlight >}}
 
 {{% alert color="primary" %}}
 

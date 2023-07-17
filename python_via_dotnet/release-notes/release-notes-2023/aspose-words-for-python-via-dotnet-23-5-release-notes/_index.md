@@ -6,7 +6,7 @@ linktitle: Aspose.Words for Python via .NET 23.5 Release Notes
 description: "Aspose.Words for Python via .NET 23.5 Release Notes – the latest updates and fixes."
 type: docs
 weight: 80
-url: /python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/
+url: /python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/
 ---
 
 {{% alert color="primary" %}}

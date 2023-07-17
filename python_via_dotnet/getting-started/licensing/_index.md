@@ -71,6 +71,8 @@ Use the [set_license](https://reference.aspose.com/words/python-net/aspose.words
 
 Calling [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) multiple times is not harmful, it just wastes processor time.
 
+Calling [set_metered_key](https://reference.aspose.com/words/python-net/aspose.words/metered/set_metered_key/#str_str) multiple times is not harmful either, but just wastes processor time and can accumulate consumption improperly.
+
 {{% /alert %}}
 
 #### Apply License Using a File or Stream Object
@@ -121,6 +123,8 @@ The new licensing mechanism will be used along with the existing licensing metho
 
 After completing all the necessary steps to obtain this type of license, you will receive the keys, not the license file. This metered key can be applied using the [Metered](https://reference.aspose.com/words/python-net/aspose.words/metered/) class specially introduced for this purpose.
 
+Do not call the **SetMeteredKey** method frequently so that this licensing method properly accumulates consumption and reports it to us. Just instantiate the Aspose.Words library, call **SetMeteredKey** once, then leave the library instantiated and reuse it.
+
 The following code example shows how to set metered public and private keys:
 
 {{< highlight python >}}
@@ -128,11 +132,6 @@ The following code example shows how to set metered public and private keys:
 metered = aw.Metered()
 # Access the setMeteredKey property and pass public and private keys as parameters
 metered.set_metered_key("*****", "*****")
-
-# Load the document from disk.
-doc = aw.Document(docs_base.my_dir + "Document.docx")
-#Get the page count of document
-print(doc.page_count)
 {{< /highlight >}}
 
 {{% alert color="primary" %}}

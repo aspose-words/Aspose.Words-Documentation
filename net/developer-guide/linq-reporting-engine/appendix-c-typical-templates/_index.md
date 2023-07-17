@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appendix C. Typical Templates in C#
 second_title: Aspose.Words for .NET
 articleTitle: Appendix C. Typical Templates
@@ -9,9 +9,7 @@ weight: 70
 url: /net/typical-templates/
 ---
 
-## Data Source Objects
-
-Every example given in this article is using one of the following data source objects:
+This section contains examples of templates for typical scenarios. Every example is given using one of the following data source objects:
 
 - `manager`, an instance of the `Manager` class
 - `managers`, an enumeration of instances of the `Manager` class
@@ -26,42 +24,45 @@ The `Manager`, `Contract`, and `Client` classes are defined as follows.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-Client-Client.cs" >}}
 
-## Templates
+## Single-Row Template
 
-### Single-Row Template
+### Template Example
 
-#### Template Example
-
-|![Single_Row_Template_Example-aspose-words-net](single-row-template-example2.png) | Name: <<[manager.Name]>> <br> Age: <<[manager.Age]>> |
+|![Single_Row_Template_Example-aspose-words-net](single-row-template-example2.png) | Name: &lt;&lt;[manager.Name]&gt;&gt; <br> Age: &lt;&lt;[manager.Age]&gt;&gt; |
 | :- | :- |
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Table%20row.docx).
-
-#### Report Example
+### Report Example
 
 |![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png)|Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-SingleRow-SingleRow.cs" >}}
 
+{{% alert color="primary" %}}
 
-### In-Paragraph List Template
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Table%20row.docx).
 
-#### Template Example
+{{% /alert %}}
 
-|We provide support for the following clients: <<foreach [in clients]>><<[IndexOf() != 0 ? ", " : ""]>><<[Name]>><</foreach>>|
-| :- |
+## In-Paragraph List Template
 
-#### Report Example
+### Template Example
 
-|We provide support for the following clients: A Company, B Ltd., C & D, E Corp., F & Partners, G & Co., H Group, I & Sons, J Ent.|
-| :- |
+{{< highlight csharp >}}
+We provide support for the following clients: <<foreach [in clients]>><<[IndexOf() != 0 ? “, ” : “”]>><<[Name]>><</foreach>>
+{{< /highlight >}}
+
+### Report Example
+
+{{< highlight csharp >}}
+We provide support for the following clients: A Company, B Ltd., C & D, E Corp., F & Partners, G & Co., H Group, I & Sons, J Ent.
+{{< /highlight >}}
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InParagraphList-InParagraphList.cs" >}}
 
-### Bulleted List Template
+## Bulleted List Template
 
-#### Template Example
+### Template Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -71,7 +72,7 @@ We provide support for the following clients:
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Bulleted%20list.docx).
 
-#### Report Example
+### Report Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -88,9 +89,9 @@ We provide support for the following clients:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-BulletedList-BulletedList.cs" >}}
 
-### Numbered List Template
+## Numbered List Template
 
-#### Template Example
+### Template Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -98,9 +99,13 @@ We provide support for the following clients:
 <</foreach>>
 {{< /highlight >}}
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Numbered%20list.docx).
+{{% alert color="primary" %}}
 
-#### Report Example
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Numbered%20list.docx).
+
+{{% /alert %}}
+
+### Report Example
 
 {{< highlight csharp >}}
 We provide support for the following clients:
@@ -117,95 +122,121 @@ We provide support for the following clients:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-NumberedList-NumberedList.cs" >}}
 
-### Multicolored Numbered List Template
+## Multicolored Numbered List Template
 
-#### Template Example
-
-We provide support for the following clients:
+### Template Example
 
 <table class="conditional block">
 	<tbody>
 		<tr>
-			<td>1. &lt;&lt;foreach [in clients]>>&lt;&lt;if [IndexOf() % 2 == 0]>>&lt;&lt;[Name]>><br>
-<span  style="background-color: #B5EAAA">2. &lt;&lt;else>>&lt;&lt;[Name]>></span><br>
-&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+      <td><p>We provide support for the following clients:</p><p>1. &lt;&lt;foreach [in clients]>>&lt;&lt;if [IndexOf() % 2 == 0]>>&lt;&lt;[Name]>></p>
+<p><span  style="background-color: #B5EAAA">2. &lt;&lt;else>>&lt;&lt;[Name]>></span></p><p>&lt;&lt;/if>>&lt;&lt;/foreach>></p></td>
 		</tr>
 	</tbody>
 </table>
 
 You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Multicolored%20numbered%20list.docx).
 
-#### Report Example
+### Report Example
 
 We provide support for the following clients:
 
 <table class="conditional block">
 	<tbody>
 		<tr>
-			<td>1. A Company<br>
-<span  style="background-color: #B5EAAA">2. B Ltd.</span><br>
-3. C & D<br>
-<span  style="background-color: #B5EAAA">4. E Corp.</span><br>
-5. F & Partners<br>
-<span  style="background-color: #B5EAAA">6. G & Co.</span><br>
-7. H Group<br>
-<span  style="background-color: #B5EAAA">8. I & Sons</span><br>
-9. J Ent.</td>
+      <td><p>We provide support for the following clients:</p><p>1. A Company</p><p><span  style="background-color: #B5EAAA">2. B Ltd.</span></p><p>3. C & D</p><p><span  style="background-color: #B5EAAA">4. E Corp.</span></p><p>5. F & Partners</p><p><span  style="background-color: #B5EAAA">6. G & Co.</span></p><p>7. H Group</p><p><span  style="background-color: #B5EAAA">8. I & Sons</span></p><p>9. J Ent.</p></td>
 		</tr>
 	</tbody>
 </table>
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-MulticoloredNumberedList-MulticoloredNumberedList.cs" >}}
 
-### Common List Template
+## Common List Template
 
-#### Template Example
+### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> <<[Name()]>> <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> &lt;&lt;[Name()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Common%20master%20detail.docx).
-
-#### Report Example
+### Report Example
 
 |![Single_Row_Report_Example1-aspose-words-net](single-row-report-example1.png) <br> John Smith <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> July James|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonList-CommonList.cs" >}}
 
-### In-Table List Template
+{{% alert color="primary" %}}
 
-#### Template Example
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Common%20master%20detail.docx).
+
+{{% /alert %}}
+
+## In-Table List Template
+
+### Template Example
 
 |Manager|Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>><</foreach>> {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}} |
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Contextual%20object%20member%20access.docx).
-
-#### Report Example
+### Report Example
 
 |Manager|Contract Price|
 | :- | :- |
-|{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}} |
-|{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}} |
-|{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000 {{< /highlight >}} |
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000 {{< /highlight >}}
+| John Smith | 2300000 |
+| Tony Anderson | 1200000 |
+| July James | 800000 |
+| Total: | 4300000 |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableList-InTableList.cs" >}}
 
-### In-Table List Template with Running (Progressive) Total
+## In-Table List Template (Horizontal)
 
-#### Template Example
+### Template Example
 
-&lt;&lt;var [total = 0.0]&gt;&gt;
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td>&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[Name]>></td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td>&lt;&lt;[Contracts.Sum( c => c.Price)]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[Sum( m => m.Contracts.Sum( c => c.getPrice()))]>></td>
+		</tr>
+	</tbody>
+</table>
 
-|Client|Total Contract Price|
-| :- | :- |
-|**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;var [total = total + getPrice()]&gt;&gt;&lt;&lt;[total]&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
+### Report Example
 
-#### Report Example
+|Manager|John Smith|Tony Anderson|July James|Total:|
+| :- | :- | -- | -- | -- |
+| **Contract Price** | 2300000 | 1200000 | 800000 | 4300000 |
+
+## In-Table List Template with Running (Progressive) Total
+
+### Template Example
+
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td colspan="2">&lt;&lt;var [total = 0.0]>></td>
+    </tr>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Total Contract Price</strong></td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;foreach [in contracts]>>&lt;&lt;[Client.Name]>></td>
+      <td>&lt;&lt;var [total = total + Price]>>&lt;&lt;[total]>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
+
+### Report Example
 
 |Client|Total Contract Price|
 | :- | :- |
@@ -219,50 +250,163 @@ You can download the template file of this example from [here](https://github.co
 |**I & Sons**|4200000|
 |**J Ent.**|4300000|
 
-### In-Table List Template with Highlighted Rows
+## In-Table List Template with Highlighted Rows
 
-#### Template Example
+### Template Example
 
-|Client|Contract Price|
-| :- | :- |
-|**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;if [Price() >= 1000000]&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;**|&lt;&lt;[Price()]&gt;&gt;|
-|**&lt;&lt;else&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;**|&lt;&lt;[Price()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
-|**Total:**|&lt;&lt;[sum(c => c.Price())]&gt;&gt;|
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+    <tr>
+      <td style="background-color: #ffff00">&lt;&lt;foreach [in contracts]>>&lt;&lt;if [Price >= 1000000]>>&lt;&lt;[Client.Name]>></td>
+      <td style="background-color: #ffff00">&lt;&lt;[Price]>></td>
+		</tr>
+    <tr>
+      <td>&lt;&lt;else>>&lt;&lt;[Client.Name]>></td>
+      <td>&lt;&lt;[Price]>>&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+      <td>Total:</td>
+      <td>&lt;&lt;[Sum(c => c.Price)]>></td>
+		</tr>
+	</tbody>
+</table>
 
-#### Report Example
+### Report Example
 
-|Client|Contract Price|
-| :- | :- |
-|**A Company**|1200000|
-|**B Ltd.**|750000|
-|**C & D**|350000|
-|**E Corp.**|650000|
-|**F & Partners**|550000|
-|**G & Co.**|350000|
-|**H Group**|250000|
-|**I & Sons**|100000|
-|**J Ent.**|100000|
-|**Total:**|4300000|
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+    <tr>
+      <td style="background-color: #ffff00">A Company</td>
+      <td style="background-color: #ffff00">1200000</td>
+		</tr>
+    <tr>
+      <td>B Ltd.</td>
+      <td>750000</td>
+		</tr>
+    <tr>
+      <td>C &amp; D</td>
+      <td>350000</td>
+		</tr>
+    <tr>
+      <td>E Corp.</td>
+      <td>650000</td>
+		</tr>
+    <tr>
+      <td>F &amp; Partners</td>
+      <td>550000</td>
+		</tr>
+    <tr>
+      <td>G &amp; Co.</td>
+      <td>350000</td>
+		</tr>
+    <tr>
+      <td>H Group</td>
+      <td>250000</td>
+		</tr>
+    <tr>
+      <td>I &amp; Sons</td>
+      <td>100000</td>
+		</tr>
+    <tr>
+      <td>J Ent.</td>
+      <td>100000</td>
+		</tr>
+    <tr>
+      <td>Total:</td>
+      <td>4300000</td>
+		</tr>
+	</tbody>
+</table>
 
-### In-Table List Template with Alternate Content
+## In-Table List Template (Horizontal) with Highlighted Columns
 
-#### Template Example
+### Template Example
 
-|Client|Contract Price|
-| :- | :- |
-|**<<if [!Any()]>>No data**||
-|**<<else>><<foreach [in contracts]>><<[Client.Name]>>**|<<[Price]>><</foreach>>|
-|**Total:**|<<[Sum(c => c.Price)]>><</if>>|
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td style="background-color: #ffff00">&lt;&lt;foreach [in managers] -horz>>&lt;&lt;if [Contracts.Sum( c => c.Price) >= 2000000] -horz>>&lt;&lt;[Name]>></td>
+      <td>&lt;&lt;else>>&lt;&lt;[Name]>></td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td style="background-color: #ffff00">&lt;&lt;[Contracts.Sum( c => c.Price)]>></td>
+      <td>&lt;&lt;[Contracts.Sum( c => c.Price)]>>&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[Sum( m => m.Contracts.Sum( c => c.Price))]>></td>
+		</tr>
+	</tbody>
+</table>
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Total.docx).
+### Report Example
 
-#### Report Example 1
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td style="background-color: #ffff00">John Smith</td>
+      <td>Tony Anderson</td>
+      <td>July James</td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td style="background-color: #ffff00">2300000</td>
+      <td>1200000</td>
+      <td>800000</td>
+      <td>4300000</td>
+		</tr>
+	</tbody>
+</table>
 
-|Client|Contract Price|
-| :- | :- |
-|**No data**||
+## In-Table List Template with Alternate Content
 
-#### Report Example 2
+### Template Example
+
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+		<tr>
+      <td colspan="2" style="text-align: center">&lt;&lt;if [!Any()]>>No data</td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;else>><<foreach [in contracts]>>&lt;&lt;[Client.Name]>></td>
+      <td>&lt;&lt;[Price]>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+      <td><strong>Total:</strong></td>
+      <td>&lt;&lt;[Sum(c => c.Price)]>>&lt;&lt;/if>></td>
+		</tr>
+	</tbody>
+</table>
+
+### Report Example 1
+
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+		<tr>
+      <td colspan="2" style="text-align: center">No data</td>
+    </tr>
+	</tbody>
+</table>
+
+### Report Example 2
 
 |Client|Contract Price|
 | :- | :- |
@@ -279,25 +423,69 @@ You can download the template file of this example from [here](https://github.co
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableAlternateContent-InTableAlternateContent.cs" >}}
 
-### Common Master-Detail Template
+## In-Table List Template (Horizontal) with Alternate Content
 
-#### Template Example
+### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> <<[Name()]>> <br> Clients: <<foreach [in Contracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[Client().Name()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;if [!Any()] -horz>>No data</td>
+      <td>&lt;&lt;else>>&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[Name]>></td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td>&lt;&lt;[Contracts.Sum( c => c.Price)]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[Sum( m => m.Contracts.Sum( c => c.Price))]>>&lt;&lt;/if>></td>
+		</tr>
+	</tbody>
+</table>
+
+### Report Example 1
+
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td rowspan="2" style="vertical-align: middle">No data</td>
+    </tr>
+		<tr>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+	</tbody>
+</table>
+
+### Report Example 2
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
+
+## Common Master-Detail Template
+
+### Template Example
+
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example2-aspose-words-net](common-list-template-example2.png) <br> &lt;&lt;[Name()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in Contracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[Client().Name()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Common%20master%20detail.docx).
-
-#### Report Example
+### Report Example
 
 |![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example-aspose-words-net](single-row-report-example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-CommonMasterDetail-CommonMasterDetail.cs" >}}
 
-### In-Table Master-Detail Template
+{{% alert color="primary" %}}
 
-#### Template Example
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Nested%20data%20table.docx).
+
+{{% /alert %}}
+
+## In-Table Master-Detail Template
+
+### Template Example
 
 |Manager/Client|Contract Price|
 | :- | :- |
@@ -305,75 +493,109 @@ You can download the template file of this example from [here](https://github.co
 |{{< highlight csharp >}} <<foreach [in Contracts()]>> <<[Client().Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Price()]>><</foreach>><</foreach>> {{< /highlight >}}|
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}}|
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Nested%20data%20table.docx).
+### Report Example
 
-#### Report Example
-
-|Manager/Client|Contract Price|
-| :- | :- |
-|{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}}|
-|{{< highlight csharp >}} A Company {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}}|
-|{{< highlight csharp >}} B Ltd. {{< /highlight >}} | {{< highlight csharp >}} 750000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} C & D {{< /highlight >}} | {{< highlight csharp >}} 350000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} E Corp. {{< /highlight >}} | {{< highlight csharp >}} 650000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} F & Partners {{< /highlight >}} | {{< highlight csharp >}} 550000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} G & Co. {{< /highlight >}} | {{< highlight csharp >}} 350000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} H Group {{< /highlight >}} | {{< highlight csharp >}} 250000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} I & Sons {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} J Ent. {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000</p><p>{{< /highlight >}}|
+| Manager/Client    | Contract Price |
+| ----------------- | -------------- |
+| **John Smith**    | 2300000        |
+| *A Company*       | 1200000        |
+| *B Ltd.*          | 750000         |
+| *C & D*           | 350000         |
+| **Tony Anderson** | 1200000        |
+| *E Corp.*         | 650000         |
+| *F & Partners*    | 550000         |
+| **July James**    | 800000         |
+| *G & Co.*         | 350000         |
+| *H Group*         | 250000         |
+| *I & Sons*        | 100000         |
+| *J Ent.*          | 100000         |
+| **Total:**        | 4300000        |
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableMasterDetail-InTableMasterDetail.cs" >}}
 
-### Pie Chart Template
+## Pie Chart Template
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Pie%20chart.docx).
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Pie%20chart.docx).
+
+{{% /alert %}}
 
 **Template Example**
 
-![Pie_Chart_Template_Example2-aspose-words-net](pie-chart-template-example2.png)
+<img src="pie-chart-template-example2-1.jpg" alt="Pie_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="pie-chart-template-example2-2.jpg" alt="Pie_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="pie-chart-template-example2-3.jpg" alt="Pie_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
 
 **Initial Chart Series Data**
 
-![Pie_Chart_Series_Data2-aspose-words-net](pie-chart-series-data2.png)
+<img src="pie-chart-series-data2-1.jpg" alt="Pie_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
+
+<img src="pie-chart-series-data2-2.jpg" alt="Pie_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
+
+<img src="pie-chart-series-data2-3.jpg" alt="Pie_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
 
 **Report Example**
 
-![Pie_Chart_Report_Example-aspose-words-net](pie-chart-report-example.png)
+<img src="pie-chart-report-example.jpg" alt="Pie_Chart_Report_Example-aspose-words-net" style="width:600px"/>
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-PieChart-PieChart.cs" >}}
 
-### Scatter Chart Template
+## Scatter Chart Template
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Scatter%20chart.docx).
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Scatter%20chart.docx).
+
+{{% /alert %}}
 
 **Template Example**
 
-![Scatter_Chart_Template_Example2-aspose-words-net](scatter-chart-template-example2.png)
+<img src="scatter-chart-template-example2-1.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="scatter-chart-template-example2-2.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="scatter-chart-template-example2-1.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
 
 **Initial Chart Series Data**
 
-![Scatter_Chart_Series_Data2-aspose-words-net](scatter-chart-chart-series-data2.png)
+<img src="scatter-chart-chart-series-data2-1.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
+
+<img src="scatter-chart-chart-series-data2-2.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
+
+<img src="scatter-chart-chart-series-data2-1.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
 
 **Report Example**
 
-![Scatter_Chart_Report_Example-aspose-words-net](scatter-chart-report-example.png)
+<img src="scatter-chart-report-example.png" alt="Scatter_Chart_Report_Example-aspose-words-net" style="width:600px"/>
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-ScatterChart-ScatterChart.cs" >}}
 
-### Bubble Chart Template
+## Bubble Chart Template
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Bubble%20chart.docx).
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Bubble%20chart.docx).
+
+{{% /alert %}}
 
 **Template Example**
 
-![Bubble_Chart_Template_Example2-aspose-words-net](bubble-chart-template-example2.png)
+<img src="bubble-chart-template-example2-1.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="bubble-chart-template-example2-2.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="bubble-chart-template-example2-1.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-net" style="width:600px"/>
 
 **Initial Chart Series Data**
 
-![Bubble_Chart_Series_Data2-aspose-words-net](bubble-chart-series-data2.png)
+<img src="bubble-chart-series-data2-1.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
+
+<img src="bubble-chart-series-data2-2.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
+
+<img src="bubble-chart-series-data2-1.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-net" style="width:600px"/>
 
 **Report Example**
 
@@ -381,19 +603,19 @@ You can download the template file of this example from [here](https://github.co
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-BubbleChart-BubbleChart.cs" >}}
 
-### In-Table Template with Filtering, Grouping, and Ordering
+## In-Table Template with Filtering, Grouping, and Ordering
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Table%20with%20filtering.docx).
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Table%20with%20filtering.docx).
+
+{{% /alert %}}
 
 **Template Example**
 
-|Manager|Contract Price|
-| :- | :- |
-|{{< highlight csharp >}} <<foreach [in contracts
-.Where(c => c.Date().Year() == 2015)
-.GroupBy(c => c.Manager())
-.OrderBy(g => g.key.Name())]>>
-<<[key.Name()]>> {{< /highlight >}} | <<[sum(c => c.Price())]>><</foreach>>|
+| **Manager**                                                  | **Contract Price**                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| {{< highlight csharp >}}<<foreach [in contracts .Where(c => c.Date.Year == 2015).GroupBy(c => c.Manager).OrderBy(g => g.Key.Name)]>><<[Key.Name]>>{{< /highlight >}} | {{< highlight csharp >}}<<[Sum(c => c.Price)]>><</foreach>>{{< /highlight >}} |
 
 **Report Example**
 
@@ -405,16 +627,24 @@ You can download the template file of this example from [here](https://github.co
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-InTableWithFilteringGroupingSorting-InTableWithFilteringGroupingSorting.cs" >}}
 
-### Chart Template with Filtering, Grouping, and Ordering
+## Chart Template with Filtering, Grouping, and Ordering
 
-You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart%20with%20filtering.docx).
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart%20with%20filtering.docx).
+
+{{% /alert %}}
 
 **Template Example**
 
-![Chart_Template_Example2-aspose-words-net](chart-template-example2.png)
+<img src="chart-template-example2-1.jpg" alt="Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="chart-template-example2-2.jpg" alt="Chart_Template_Example2-aspose-words-net" style="width:600px"/>
+
+<img src="chart-template-example2-3.jpg" alt="Chart_Template_Example2-aspose-words-net" style="width:600px"/>
 
 **Report Example**
 
-![Chart_Report_Example-aspose-words-net](chart-report-example.png)
+<img src="chart-report-example.png" alt="Chart_Report_Example-aspose-words-net" style="width:600px"/>
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-ChartWithFilteringGroupingOrdering-ChartWithFilteringGroupingOrdering.cs" >}}

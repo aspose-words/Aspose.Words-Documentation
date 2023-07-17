@@ -27,6 +27,7 @@ The following table indicates the file formats supported by Aspose.Words for C++
 |[DOCM](https://docs.fileformat.com/word-processing/docm/)|Office Open XML WordprocessingML Macro-Enabled Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DOTX](https://docs.fileformat.com/word-processing/dotx/)|Office Open XML WordprocessingML Template (macro-free).|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DOTM](https://docs.fileformat.com/word-processing/dotm/)|Office Open XML WordprocessingML Macro-Enabled Template.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
+|[XLSX](https://docs.fileformat.com/spreadsheet/xlsx/)|XML-based file format for representing spreadsheets||{{< emoticons/tick >}}| |
 |FlatOpc|Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |FlatOpcMacroEnabled|Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |FlatOpcTemplate|Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |

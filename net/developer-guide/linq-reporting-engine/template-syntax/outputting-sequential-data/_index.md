@@ -1,4 +1,4 @@
-﻿---
+---
 title: Outputting Sequential Data in C#
 second_title: Aspose.Words for .NET
 articleTitle: Outputting Sequential Data
@@ -29,12 +29,36 @@ You can reference an element of the corresponding sequence in template expressio
 
 An opening `foreach` tag defines a `foreach` statement enclosed by brackets. The following table describes the elements of this statement.
 
-|Element|Optional?|Remarks|
-| :- | :- | :- |
-|**Iteration Variable Type**|Yes|You can specify the type of an iteration variable explicitly. This type must be known by the engine (see "Setting up Known External Types" for more information).<br>If you do not specify the type explicitly, it is determined implicitly by the engine depending on the type of the corresponding sequence.|
-|**Iteration Variable Name**|Yes|You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding `foreach` tag.<br>If you do not specify the name, you can access the variable's members using the contextual object member access syntax (see "Using Contextual Object Member Access" for more information).|
-|**"in" Keyword**|No| |
-|**Sequence Expression**|No|A sequence expression must return an [IEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0) implementor.|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+      <td><strong>Element</strong></td>
+      <td><strong>Optional?</strong></td>
+      <td><strong>Remarks</strong></td>
+		</tr>
+    <tr>
+			<td>Iteration Variable Type</td>
+      <td>Yes</td>
+      <td><p>You can specify the type of an iteration variable explicitly. This type must be known by the engine (see “Setting up Known External Types” for more information).</p><p>If you do not specify the type explicitly, it is determined implicitly by the engine depending on the type of the corresponding sequence.</p></td>
+		</tr>
+    <tr>
+			<td>Iteration Variable Name</td>
+      <td>Yes</td>
+      <td><p>You can specify the name of an iteration variable to use it while accessing the variable’s members. The name must be unique within the scope of the corresponding foreach tag.</p><p>If you do not specify the name, you can access the variable’s members using the contextual object member access syntax (see “Using Contextual Object Member Access” for more information).</p></td>
+		</tr>
+    <tr>
+			<td>“in” Keyword</td>
+      <td>No</td>
+      <td> </td>
+		</tr>
+    <tr>
+			<td>Sequence Expression</td>
+      <td>No</td>
+      <td>A sequence expression must return an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=net-6.0">IEnumerable implementor</a>.</td>
+		</tr>
+	</tbody>
+</table>
+
 The complete syntax of a `foreach` tag (including optional elements) is as follows.
 
 {{< highlight csharp >}}
@@ -63,13 +87,34 @@ When the body of a common data band starts and ends within different paragraphs,
 
 **Note –** Examples in the table are given with paragraph marks shown as per Microsoft Word® editor.
 
-| Template | Report |
-| :-   | :-   |
-|{{< highlight csharp >}} prefix <<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix item1¶item2¶item3¶suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<<[item]>><</foreach>> suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3 suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix¶<<foreach [item in items]>><<[item]>>¶<</foreach>>suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix<<foreach [item in items]>>¶<<[item]>><</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶item1¶item2¶item3¶suffix{{< /highlight >}}|
-|{{< highlight csharp >}} prefix¶<<foreach [item in items]>>¶<<[item]>>¶<</foreach>>¶suffix{{< /highlight >}}|{{< highlight csharp >}} prefix¶¶item1¶¶item2¶¶item3¶¶suffix{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Template</strong></td>
+			<td><strong>Report</strong></td>
+		</tr>
+		<tr>
+      <td><p>prefix &lt;&lt;foreach [item in items]>>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>>suffix</p></td>
+      <td><p>prefix item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>&lt;&lt;/foreach>> suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3 suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix¶</p><p>&lt;&lt;foreach [item in items]>>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>>suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+    <tr>
+      <td><p>prefix&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>&lt;&lt;/foreach>>¶</p><p>suffix</p></td>
+      <td><p>prefix¶</p><p>item1¶</p><p>item2¶</p><p>item3¶</p><p>suffix</p></td>
+		</tr>
+<tr>
+  <td><p>prefix¶</p><p>&lt;&lt;foreach [item in items]>>¶</p><p>&lt;&lt;[item]>>¶</p><p>&lt;&lt;/foreach>></p><p>suffix</p></td>
+      <td><p>prefix¶</p><p>¶</p><p>item1¶</p><p>¶</p><p>item2¶</p><p>¶</p><p>item3¶</p><p>¶</p><p>suffix</p></td>
+		</tr>
+	</tbody>
+</table>
 
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
@@ -92,12 +137,35 @@ In this case, the engine produces a report as follows.
 
 A table-row data band is a data band which body occupies single or multiple rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
-||||
-| :- | :- | :- |
-|**<<foreach ...>> ...**|**...**|**...**|
-|**...**|**...**|**...**|
-|**...**|**...**|**... <</foreach>>**|
-||||
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td> </td>
+      <td> </td>
+      <td> </td>
+		</tr>
+    <tr>
+      <td>&lt;&lt;foreach ...>> ...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+			<td> </td>
+      <td> </td>
+      <td> </td>
+		</tr>
+	</tbody>
+</table>
 
 The following examples in this section are given using `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
@@ -105,10 +173,24 @@ The following examples in this section are given using `ds`, a `DataSet` instanc
 
 The most common use case of a table-row data band is the building of a document table that represents a list of items. You can use a template like the following one to achieve this.
 
-|Client|Manager|Contract Price|
-| :- | :- | :- |
-|**<<foreach [c in ds.Contracts]>><<[c.Clients.Name]>>**|**<<[c.Managers.Name]>>**|**<<[c.Price]>><</ foreach>>**|
-|**Total:**||**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Client</strong></td>
+			<td><strong>Manager</strong></td>
+			<td><strong>Contract Price</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [c in ds.Contracts]>>&lt;&lt;[c.Clients.Name]>></td>
+			<td>&lt;&lt;[c.Managers.Name]>></td>
+			<td>&lt;&lt;[c.Price]>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+			<td colspan="2">Total:</td>
+			<td>&lt;&lt;[ds.Contracts.Sum(c => c.Price)]>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -127,11 +209,26 @@ In this case, the engine produces a report as follows.
 
 To populate a document table with a master-detail data, you can use nested table-row data bands like in the following template.
 
-|Manager/Client|Contract Price|
-| :- | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<[m.Contracts.Sum(c => c.Price)]>>**|
-|**<<foreach [c in m.Contracts]>>  <<[c.Clients.Name]>>**|**<<[c.Price]>><</ foreach>><</ foreach>>**|
-|**Total:**|**<<[ds.Contracts.Sum(c =>c.Price)]>>**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager/Client</strong></td>
+			<td><strong>Contract Price</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+      <td>&lt;&lt;[m.Contracts.Sum(c => c.Price)]>></td>
+    </tr>
+		<tr>
+      <td>&lt;&lt;foreach [c in m.Contracts]>>  &lt;&lt;[c.Clients.Name]>></td>
+			<td>&lt;&lt;[c.Price]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+			<td>Total:</td>
+			<td>&lt;&lt;[ds.Contracts.Sum(c => c.Price)]>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -153,23 +250,56 @@ In this case, the engine produces a report as follows.
 
 You can normally use common data bands nested to table-row data bands as well like in the following template.
 
-|Manager|Clients|
-| :- | :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>**|**<<foreach [<br>c in m.Contracts<br>]>><<[c.Clients.Name]>> <</foreach>><</foreach>>**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+			<td><strong>Client</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+			<td>&lt;&lt;foreach [c in m.Contracts]>>&lt;&lt;[c.Clients.Name]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
-|Manager|Clients|
-| :- | :- |
-|**John Smith**|**A Company B Ltd. C & D**|
-|**Tony Anderson**|**E Corp. F & Partners**|
-|**July James**|**G & Co. H Group I & Sons J Ent.**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+			<td><strong>Client</strong></td>
+		</tr>
+		<tr>
+			<td><strong>John Smith</strong></td>
+      <td><p>A Company</p><p>B Ltd.</p><p>C &amp; D</p></td>
+		</tr>
+    <tr>
+			<td><strong>Tony Anderson</strong></td>
+      <td><p>E Corp.</p><p>F &amp; Partners</p></td>
+		</tr>
+    <tr>
+			<td><strong>July James</strong></td>
+      <td><p>G &amp; Co.</p><p></p>H Group<p>I &amp; Sons</p><p>J Ent.</p></td>
+		</tr>
+	</tbody>
+</table>
+
+**Note –** Table-column data bands can also be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing `foreach` tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
-|Managers|
-| :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>>  <</foreach>>**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>> &lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -179,9 +309,16 @@ In this case, the engine produces a report as follows.
 
 However, if needed, you can override this behavior making the engine to treat such a data band as a table-row one by specifying a `greedy` switch like in the following template.
 
-|Managers|
-| :- |
-|**<<foreach [m in ds.Managers]>><<[m.Name]>><</foreach -greedy>>**|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Manager</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>>&lt;&lt;/foreach -greedy>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 
@@ -193,7 +330,285 @@ In this case, the engine produces a report as follows.
 
 For more examples of templates for typical scenarios involving table-row data bands, see “Appendix C. Typical Templates”.
 
-## Using Charts to Represent Sequential Data
+## Working with Table-Column Data Bands
+
+You can build tables growing horizontally rather than vertically by using table-column data bands.
+
+A table-column data band represents a data band, which body occupies a rectangular area of cells of a single document table. The body of such a band starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>...</td>
+      <td>&lt;&lt;foreach ... -horz>> ...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>></td>
+      <td>...</td>
+		</tr>
+	</tbody>
+</table>
+
+**Note –** The `horz` switch instructs the engine to affect table columns rather than rows.
+
+However, unlike table-row data bands able to capture only whole rows, table-column data bands can occupy columns even partially as shown in the following template snippet.
+
+<table class="outputting-sequential-data">
+	<tbody>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+		<tr>
+			<td>...</td>
+      <td>&lt;&lt;foreach ... -horz>> ...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>></td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+	</tbody>
+</table>
+
+Let us consider typical use cases for table-column data bands at first defining `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
+
+<img src="graph-10.jpeg" alt="table-column-data-bands-aspose-words-net" style="width:500px"/>
+
+The most common scenario for a table-column data band is building of a document table that represents a list of items side by side. You can use a template like the following one to achieve this.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Good</strong></td>
+			<td>&lt;&lt;foreach [s in ds.Sales] -horz>>&lt;&lt;[s.Goods.Name]>></td>
+			<td rowspan="2" style="vertical-align: middle"><strong>Total:</strong></td>
+		</tr>
+		<tr>
+			<td><strong>Pack</strong></td>
+			<td>&lt;&lt;[s.Packs.Name]>></td>
+		</tr>
+    <tr>
+			<td><strong>Sold Quantity</strong></td>
+      <td>&lt;&lt;[s.Quantity]>>&lt;&lt;/foreach>></td>
+			<td>&lt;&lt;[ds.Sales.Sum(s => s.Quantity)]>></td>
+		</tr>
+	</tbody>
+</table>
+
+In this case, the engine produces a report as follows.
+
+| **Good**          | **Drinking Water** | **Drinking Water** | **Mineral Water** | **Mineral Water** | **Total:** |
+| ----------------- | ------------------ | ------------------ | ----------------- | ----------------- | ---------- |
+| **Pack**          | **1.5 L**          | **500 ml**         | **1.5 L**         | **500 ml**        |            |
+| **Sold Quantity** | **12**             | **27**             | **5**             | **13**            | **57**     |
+
+To grow a document table horizontally by filling it with master-detail data, you can use nested table-column data bands like in the following template.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Good/Pack</strong></td>
+			<td>&lt;&lt;foreach [g in ds.Goods] -horz>>&lt;&lt;[g.Name]>></td>
+			<td>&lt;&lt;foreach [s in g.Sales] -horz>>&lt;&lt;[s.Packs.Name]>></td>
+      <td><strong>Total:</strong>
+		</tr>
+		<tr>
+			<td><strong>Sold Quantity</strong></td>
+			<td>&lt;&lt;[g.Sales.Sum(s => s.Quantity)]>></td>
+      <td>&lt;&lt;[s.Quantity]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[ds.Sales.Sum(s => s.Quantity)]>></td>
+		</tr>
+	</tbody>
+</table>
+
+In this case, the engine produces a report as follows.
+
+| **Good / Pack**   | **Drinking Water** | **1.5 L** | **500 ml** | **Mineral Water** | **1.5 L** | **500 ml** | **Total:** |
+| ----------------- | ------------------ | --------- | ---------- | ----------------- | --------- | ---------- | ---------- |
+| **Sold Quantity** | **39**             | **12**    | **27**     | **18**            | **5**     | **13**     | **57**     |
+
+You can normally use common data bands nested to table-column data bands as well like in the following template.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Good</strong></td>
+			<td>&lt;&lt;foreach [g in ds.Goods] -horz>>&lt;&lt;[g.Name]>></td>
+		</tr>
+		<tr>
+			<td><strong>Sold Packs</strong></td>
+			<td>&lt;&lt;foreach [s in g.Sales]>>&lt;&lt;[s.Packs.Name]>> &lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
+
+In this case, the engine produces a report as follows.
+
+| **Good**       | **Drinking Water**         | **Mineral Water**          |
+| -------------- | -------------------------- | -------------------------- |
+| **Sold Packs** | **1.5 L**<br /> **500 ml** | **1.5 L**<br /> **500 ml** |
+
+**Note –** Table-column data bands can themselves be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
+
+For more examples of templates for typical scenarios involving table-column data bands, see “Appendix C. Typical Templates”.
+
+## Working with Cross (Pivot) Tables
+
+*A cross or pivot table* is a document table growing in the both directions – vertically and horizontally – depending on bound data. You can build a cross (pivot) table by nesting a table-column data band into a table-row data band as follows.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach ...>>&lt;&lt;foreach ... -horz>> ...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+			<td>...</td>
+      <td>...</td>
+      <td>...</td>
+		</tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>... &lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
+
+**Note –** It is not necessary to start (or end) an outer table-row data band and a nested table-column one within the same cell, but this case is also supported.
+
+Let us consider concrete examples using `years`, an array of integers ranging from 2020 to 2023, and `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
+
+<img src="graph-11.jpeg" alt="cross-pivot-tables-aspose-words-net" style="width:500px"/>
+
+The most basic scenario is filling a document table with data in two directions. You can use a template like the following one to achieve this.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Managers</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[y]>>&lt;&lt;/foreach>></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
+
+**Note –** Table-row and table-column regions cannot cross, that is why two table-column data bands bound to the same enumeration are required here.
+
+In this case, the engine produces a report as follows.
+
+| **Managers**     | **2020**   | **2021**   | **2022**   | **2023**   |
+| ---------------- | ---------- | ---------- | ---------- | ---------- |
+| **James Atkins** | **545000** | **340000** | **620000** | **510000** |
+| **John Lee**     | **120000** | **320000** | **565000** | **495000** |
+| **Thelma Green** | **310000** | **290000** | **485000** | **530000** |
+| **Ted LeMark**   | **0**      | **110000** | **345000** | **380000** |
+
+It is quite typical for cross (pivot) tables to contain totals for every row and column. You can add the totals by altering the template as follows.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>Managers</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[y]>>&lt;&lt;/foreach>></td>
+      <td><strong>Total</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Name]>></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[m.Contracts.Sum(c => c.Price)]>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+			<td><strong>Total</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[ds.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[ds.Contracts.Sum(c => c.Price)]>></td>
+		</tr>
+	</tbody>
+</table>
+
+In this case, the engine produces a report as follows.
+
+| **Managers**     | **2020**   | **2021**    | **2022**    | **2023**    | **Total**   |
+| ---------------- | ---------- | ----------- | ----------- | ----------- | ----------- |
+| **James Atkins** | **545000** | **340000**  | **620000**  | **510000**  | **2015000** |
+| **John Lee**     | **120000** | **320000**  | **565000**  | **495000**  | **1500000** |
+| **Thelma Green** | **310000** | **290000**  | **485000**  | **530000**  | **1615000** |
+| **Ted LeMark**   | **0**      | **110000**  | **345000**  | **380000**  | **835000**  |
+| **Total**        | **975000** | **1060000** | **2015000** | **1915000** | **5965000** |
+
+Since cross (pivot) tables can contain large amounts of data, it is quite usual to group parts of information within these tables using merged cells, in order to simplify further search of necessary information. For this purpose, you can apply `cellMerge` tags (see “Merging Table Cells Dynamically” for more information) as shown in the following template.
+
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td rowspan="2" style="vertical-align: middle"><strong>Cites</strong></td>
+      <td rowspan="2" style="vertical-align: middle"><strong>Managers</strong></td>
+			<td>&lt;&lt;foreach [y in years] -horz>>Years&lt;&lt;cellMerge -horz>></td>
+		</tr>
+    <tr>
+      <td>&lt;&lt;[y]>>&lt;&lt;/foreach>></td>
+    </tr>
+		<tr>
+			<td>&lt;&lt;foreach [m in ds.Managers]>>&lt;&lt;[m.Cities.Name]>>&lt;&lt;cellMerge>></td>
+			<td>&lt;&lt;[m.Name]>></td>
+      <td>&lt;&lt;foreach [y in years] -horz>>&lt;&lt;[m.Contracts.Where(c => c.Year == y).Sum(c => c.Price)]>>&lt;&lt;/foreach>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
+
+In this case, the engine produces a report as follows.
+
+| Cities      | Managers         |            | Years      |            |            |
+| ----------- | ---------------- | ---------- | ---------- | ---------- | ---------- |
+|             |                  | **2020**   | **2021**   | **2022**   | **2023**   |
+| **Seattle** | **James Atkins** | **545000** | **340000** | **620000** | **510000** |
+|             | **John Lee**     | **120000** | **320000** | **565000** | **495000** |
+| **Ottawa**  | **Thelma Green** | **310000** | **290000** | **485000** | **530000** |
+|             | **Ted LeMark**   | **0**      | **110000** | **345000** | **380000** |
+
+Combining all the described approaches, you can create cross (pivot) tables of almost any complexity.
+
+## Working with Charts
 
 LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
@@ -209,7 +624,8 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 	- For a scatter or bubble chart, you can go one of the following ways: 
 		- To use the same x-value expression for all chart series, add a single `x` tag to the chart title after the corresponding `foreach` tag.
 		- To use different x-value expressions for every chart series, add multiple `x` tags to chart series’ names – one for each chart series.
-	An x-value expression for a scatter or bubble chart must return a numeric value.
+	
+		  An x-value expression for a scatter or bubble chart must return a numeric value.
 	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag. In this case, an x-value expression must return a numeric, date, or string value.
 7. For a chart of any type, add `y` tags to chart series’ names as follows.
 {{< highlight csharp >}}
@@ -242,7 +658,7 @@ Consider the following example. Assume that you have the `Manager` and `Contract
   public class Manager
   {
     public String  Name { get { ... } }
-    public IEnumerable<Contract> Contracts { get { ... } }**
+    public IEnumerable<Contract> Contracts { get { ... } }
     ...
   }
 
@@ -255,11 +671,15 @@ Consider the following example. Assume that you have the `Manager` and `Contract
 
 Given that `managers` is an enumeration of `Manager` instances, you can use the following template to represent total contract prices achieved by managers in a column chart.
 
-![charts-to-represent-data-aspose-words-net](graph-1.png)
+<img src="graph-1.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
+
+<img src="graph-1-2.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
+
+<img src="graph-1-3.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
-![charts-result-aspose-words-net](graph-2.png)
+<img src="graph-2.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
 
 For more examples of templates for typical scenarios involving charts, see “Appendix C. Typical Templates”.
 
@@ -269,24 +689,29 @@ For a chart with dynamic data, you can select which series to include into it dy
 
 1. Declare a chart with dynamic data in the usual way.
 1. For series to be removed from the chart based upon conditions dynamically, define the conditions in names of these series using `removeif` tags having the following syntax.
-{{< highlight csharp >}}
-<<removeif [conditional_expression]>>
-{{< /highlight >}}
-**Note –** A conditional expression must return a Boolean value.
+  {{< highlight csharp >}}
+  <<removeif [conditional_expression]>>
+  {{< /highlight >}}
+
+  **Note –** A conditional expression must return a Boolean value.
 
 During runtime, series with `removeif` tags, for which conditional expressions return `true`, are removed from corresponding charts. The rest of the series are kept and populated with data as usual. In either case, `removeif` tags themselves are removed.
 
 Consider the following example. Given the previous definition of `managers` and that `accessLevel` is an integer value representing an access level of a user, you can use the following chart template to make numbers of contracts be available for all users whereas financial contract data be available only for users having an access level of zero.
 
-![chart-series-dynamically-aspose-words-net-1](graph-3.png)
+<img src="graph-3.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-3-1.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-3-2.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 If `accessLevel` is equal to zero, the engine produces a report as follows.
 
-![chart-series-dynamically-aspose-words-net-2](graph-4.png)
+<img src="graph-4.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 If `accessLevel` is not equal to zero, the engine produces a report as follows.
 
-![chart-series-dynamically-aspose-words-net-3](graph-5.png)
+<img src="graph-5.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 ### Setting Chart Series Colors Dynamically
 
@@ -297,21 +722,27 @@ For a chart with dynamic data, you can set colors of chart series dynamically ba
 {{< highlight csharp >}}
 <<seriesColor [color_expression]>>
 {{< /highlight >}}
-	A color expression must return a value of one of the following types:
-	- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor?view=net-6.0) enumeration such as “red”.
-	- A string containing an HTML color code such as “#F08080” (light coral).
-	- An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
-	- A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-6.0) type.
+
+A color expression must return a value of one of the following types:
+
+* A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor?view=net-6.0) enumeration such as “red”.
+* A string containing an HTML color code such as “#F08080” (light coral).
+* An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
+* A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-6.0) type.
 
 During runtime, expressions declared within `seriesColor` tags are evaluated and corresponding chart series are colored accordingly. The `seriesColor` tags are removed then.
 
 Consider the following example. Given the previous definition of `managers` and that `color1` and `color2` are color values of supported types, you can use the following chart template to set its series colors dynamically.
 
-![chart-series-colors-dynamically-aspose-words-net-1](graph-6.png)
+<img src="graph-6.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-6-1.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="graph-6.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
-![chart-series-colors-dynamically-aspose-words-net-2](graph-7.png)
+<img src="graph-7.png" alt="chart-series-dynamically-aspose-words-net-2" style="width:600px"/>
 
 ### Setting Chart Series Point Colors Dynamically
 
@@ -322,11 +753,12 @@ For a chart with dynamic data, you can set colors of individual chart series poi
 {{< highlight csharp >}}
 <<pointColor [color_expression]>>
 {{< /highlight >}}
-	A color expression must return a value of one of the following types:
-	- A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor?view=net-6.0) enumeration such as “red”.
-	- A string containing an HTML color code such as “#F08080” (light coral).
-	- An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
-	- A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-6.0) type.
+
+A color expression must return a value of one of the following types:
+ - A string containing the name of a known color, that is, the case-insensitive name of a member of the [KnownColor](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.knowncolor?view=net-6.0) enumeration such as “red”.
+ - A string containing an HTML color code such as “#F08080” (light coral).
+ - An integer value defining RGB (red, green, blue) components of the color such as 0xFFFF00 (yellow).
+ - A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-6.0) type.
 
 During runtime, expressions declared within `pointColor` tags are evaluated and corresponding chart series points are colored accordingly. The `pointColor` tags are removed then.
 
@@ -343,11 +775,19 @@ Consider the following example. Assume that you have the `ColoredItem` class def
 
 Given that `items` is an enumeration of `ColoredItem` instances, you can use the following chart template to set its series point colors dynamically.
 
-![chart-series-point-colors-dynamically-aspose-words-net-1](pi-graph.png)
+<img src="pi-graph.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="pi-graph-1.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
+
+<img src="pi-graph.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
 
 The series name for the template chart is defined as follows.
 
-![chart-series-point-colors-dynamically-data-aspose-words-net](sheet-1.png)
+<img src="sheet-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
+
+<img src="sheet-1-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
+
+<img src="sheet-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
 
 In this case, the engine produces a report as follows.
 
@@ -367,9 +807,15 @@ In this case, the engine produces a report as follows.
 
 **Note –** You can normally apply this approach to a chart dynamically populated with data.
 
-The following code example demonstrates how to set chart series names dynamically. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
+The following code example demonstrates how to set chart series names dynamically.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-LINQ-ChartSeries-SetChartSeriesNameDynamically.cs" >}}
+
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Reporting%20engine%20template%20-%20Chart.docx).
+
+{{% /alert %}}
 
 ## Using Extension Methods of Iteration Variables
 
@@ -396,11 +842,19 @@ The items are: item1, item2, item3.
 
 Returns the one-based index of a sequence item that is represented by the corresponding iteration variable. You can use this extension method to number sequence items without involving Microsoft Word® lists. For example, given the previous declaration of `items`, you can enumerate and number them in a document table using the following template.
 
-|No.|Item|
-| :- | :- |
-|{{< highlight csharp >}}
- <<foreach [itemin items]>><<[item.NumberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
- <<[item]>><</foreach>>{{< /highlight >}}|
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td><strong>No.</strong></td>
+			<td><strong>Item</strong></td>
+		</tr>
+		<tr>
+			<td>&lt;&lt;foreach [item in items]>>&lt;&lt;[item.NumberOf()]>></td>
+			<td>&lt;&lt;[item]>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
+
 In this case, the engine produces a report as follows.
 
 | No.  | Item  |
@@ -413,8 +867,15 @@ In this case, the engine produces a report as follows.
 
 You can instruct the engine to force movement to the next item within a data band using a `next` tag. This feature is useful in label-print-like scenarios when you need to output data about a fixed number of items in a single table row like in the following example. Given that `Clients` is a `DataTable` instance having a field named "Name", you can use the following template to output three client names per table row while outputting names of all clients in a single table.
 
-|<<foreach [c in Clients]>><<[c.Name]>>|<<next>><<[c.Name]>>|<<next>><<[c.Name]>> <</foreach>>|
-| :- | :- | :- |
+<table class="outputting-sequential-data">
+	<tbody>
+		<tr>
+			<td>&lt;&lt;foreach [c in Clients]>>&lt;&lt;[c.Name]>></td>
+			<td>&lt;&lt;next>>&lt;&lt;[c.Name]>></td>
+			<td>&lt;&lt;next>>&lt;&lt;[c.Name]>> &lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 In this case, the engine produces a report as follows.
 

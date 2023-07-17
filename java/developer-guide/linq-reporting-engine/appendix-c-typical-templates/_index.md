@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appendix C. Typical Templates in Java
 second_title: Aspose.Words for Java
 articleTitle: Appendix C. Typical Templates
@@ -48,7 +48,7 @@ public class Client
 
 ### Template Example
 
-|![Single_Row_Template_Example_aspose_words_java](single-row-template-example1.png) | Name: <<[manager.getName()]>> <br> Age: <<[manager.getAge()]>> |
+|![Single_Row_Template_Example_aspose_words_java](single-row-template-example1.png) | Name: &lt;&lt;[manager.getName()]&gt;&gt; <br> Age: &lt;&lt;[manager.getAge()]&gt;&gt; |
 | :- | :- |
 
 ### Report Example
@@ -60,13 +60,15 @@ public class Client
 
 ### Template Example
 
-|We provide support for the following clients: <<foreach [in clients]>><<[indexOf() != 0 ? ", " : ""]>><<[getName()]>><</foreach>>|
-| :- |
+{{< highlight java >}}
+We provide support for the following clients: <<foreach [in clients]>><<[indexOf() != 0 ? ", " : ""]>><<[getName()]>><</foreach>>
+{{< /highlight >}}
 
 ### Report Example
 
-|We provide support for the following clients: A Company, B Ltd., C & D, E Corp., F & Partners, G & Co., H Group, I & Sons, J Ent.|
-| :- |
+{{< highlight java >}}
+We provide support for the following clients: A Company, B Ltd., C & D, E Corp., F & Partners, G & Co., H Group, I & Sons, J Ent.
+{{< /highlight >}}
 
 ## Bulleted List Template
 
@@ -157,7 +159,7 @@ We provide support for the following clients:
 
 ### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> <<[getName()]>> <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> &lt;&lt;[getName()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
@@ -178,20 +180,55 @@ We provide support for the following clients:
 
 |Manager|Contract Price|
 | :- | :- |
-|{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}} |
-|{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}} |
-|{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000 {{< /highlight >}} |
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000 {{< /highlight >}} |
+| John Smith | 2300000 |
+| Tony Anderson | 1200000 |
+| July James | 800000 |
+| Total: | 4300000 |
+
+## In-Table List Template (Horizontal)
+
+### Template Example
+
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td>&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[getName()]>></td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td>&lt;&lt;[getContracts().sum( c => c.getPrice())]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[sum( m => m.getContracts().sum( c => c.getPrice()))]>></td>
+		</tr>
+	</tbody>
+</table>
+
+### Report Example
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
 
 ## In-Table List Template with Running (Progressive) Total
 
 **Template Example**
 
-&lt;&lt;var [total = 0.0]&gt;&gt;
-
-|Client|Total Contract Price|
-| :- | :- |
-|**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;var [total = total + getPrice()]&gt;&gt;&lt;&lt;[total]&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td colspan="2">&lt;&lt;var [total = 0.0]>></td>
+    </tr>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Total Contract Price</strong></td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;foreach [in contracts]>>&lt;&lt;[getClient().getName()]>></td>
+      <td>&lt;&lt;var [total = total + getPrice()]>>&lt;&lt;[total]>>&lt;&lt;/foreach>></td>
+		</tr>
+	</tbody>
+</table>
 
 **Report Example**
 
@@ -211,42 +248,157 @@ We provide support for the following clients:
 
 ### Template Example
 
-|Client|Contract Price|
-| :- | :- |
-|**&lt;&lt;foreach [in contracts]&gt;&gt;&lt;&lt;if [getPrice() >= 1000000]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;[getPrice()]&gt;&gt;|
-|**&lt;&lt;else&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;**|&lt;&lt;[getPrice()]&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/foreach&gt;&gt;|
-|**Total:**|&lt;&lt;[sum(c => c.getPrice())]&gt;&gt;|
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+    <tr>
+      <td style="background-color: #ffff00">&lt;&lt;foreach [in contracts]>>&lt;&lt;if [getPrice() >= 1000000]>>&lt;&lt;[getClient().getName()]>></td>
+      <td style="background-color: #ffff00">&lt;&lt;[getPrice()]>></td>
+		</tr>
+    <tr>
+      <td>&lt;&lt;else>>&lt;&lt;[getClient().getName()]>></td>
+      <td>&lt;&lt;[getPrice()]>>&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+      <td>Total:</td>
+      <td>&lt;&lt;[sum(c => c.getPrice())]>></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Report Example
 
-|Client|Contract Price|
-| :- | :- |
-|**A Company**|1200000|
-|**B Ltd.**|750000|
-|**C & D**|350000|
-|**E Corp.**|650000|
-|**F & Partners**|550000|
-|**G & Co.**|350000|
-|**H Group**|250000|
-|**I & Sons**|100000|
-|**J Ent.**|100000|
-|**Total:**|4300000|
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+    <tr>
+      <td style="background-color: #ffff00">A Company</td>
+      <td style="background-color: #ffff00">1200000</td>
+		</tr>
+    <tr>
+      <td>B Ltd.</td>
+      <td>750000</td>
+		</tr>
+    <tr>
+      <td>C &amp; D</td>
+      <td>350000</td>
+		</tr>
+    <tr>
+      <td>E Corp.</td>
+      <td>650000</td>
+		</tr>
+    <tr>
+      <td>F &amp; Partners</td>
+      <td>550000</td>
+		</tr>
+    <tr>
+      <td>G &amp; Co.</td>
+      <td>350000</td>
+		</tr>
+    <tr>
+      <td>H Group</td>
+      <td>250000</td>
+		</tr>
+    <tr>
+      <td>I &amp; Sons</td>
+      <td>100000</td>
+		</tr>
+    <tr>
+      <td>J Ent.</td>
+      <td>100000</td>
+		</tr>
+    <tr>
+      <td>Total:</td>
+      <td>4300000</td>
+		</tr>
+	</tbody>
+</table>
+
+## In-Table List Template (Horizontal) with Highlighted Columns
+
+### Template Example
+
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td style="background-color: #ffff00">&lt;&lt;foreach [in managers] -horz>>&lt;&lt;if [getContracts().sum( c => c.getPrice()) >= 2000000] -horz>>&lt;&lt;[getName()]>></td>
+      <td>&lt;&lt;else>>&lt;&lt;[getName()]>></td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td style="background-color: #ffff00">&lt;&lt;[getContracts.sum( c => c.getPrice())]>></td>
+      <td>&lt;&lt;[getContracts().sum( c => c.getPrice())]>>&lt;&lt;/if>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[sum( m => m.getContracts().sum( c => c.getPrice()))]>></td>
+		</tr>
+	</tbody>
+</table>
+
+### Report Example
+
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td style="background-color: #ffff00">John Smith</td>
+      <td>Tony Anderson</td>
+      <td>July James</td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td style="background-color: #ffff00">2300000</td>
+      <td>1200000</td>
+      <td>800000</td>
+      <td>4300000</td>
+		</tr>
+	</tbody>
+</table>
 
 ## In-Table List Template with Alternate Content
 
 ### Template Example
 
-|Client|Contract Price|
-| :- | :- |
-|**<<if [!any()]>>No data**||
-|**<<else>><<foreach [in contracts]>><<[getClient().getName()]>>**|<<[getPrice()]>><</foreach>>|
-|**Total:**|<<[sum(c => c.getPrice())]>><</if>>|
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+		<tr>
+      <td colspan="2" style="text-align: center">&lt;&lt;if [!any()]>>No data</td>
+    </tr>
+    <tr>
+      <td>&lt;&lt;else>><<foreach [in contracts]>>&lt;&lt;[getClient().getName()]>></td>
+      <td>&lt;&lt;[getPrice()]>>&lt;&lt;/foreach>></td>
+		</tr>
+    <tr>
+      <td><strong>Total:</strong></td>
+      <td>&lt;&lt;[sum(c => c.getPrice())]>>&lt;&lt;/if>></td>
+		</tr>
+	</tbody>
+</table>
 
 ### Report Example 1
 
-|Client|Contract Price|
-| :- | :- |
-|**No data**||
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+		<tr>
+      <td colspan="2" style="text-align: center">No data</td>
+    </tr>
+	</tbody>
+</table>
 
 
 ### Report Example 2
@@ -264,11 +416,51 @@ We provide support for the following clients:
 |**J Ent.**|100000|
 |**Total:**|4300000|
 
+## In-Table List Template (Horizontal) with Alternate Content
+
+### Template Example
+
+<table class="c-template">
+	<tbody>
+		<tr>
+      <td><strong>Manager</strong></td>
+      <td rowspan="2" style="vertical-align: middle">&lt;&lt;if [!any()] -horz>>No data</td>
+      <td>&lt;&lt;else>>&lt;&lt;foreach [in managers] -horz>>&lt;&lt;[getName()]>></td>
+      <td><strong>Total:</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Contract Price</strong></td>
+      <td>&lt;&lt;[getContracts().sum( c => c.getPrice())]>>&lt;&lt;/foreach>></td>
+      <td>&lt;&lt;[sum( m => m.getContracts().sum( c => c.getPrice()))]>>&lt;&lt;/if>></td>
+		</tr>
+	</tbody>
+</table>
+
+### Report Example 1
+
+<table class="c-template">
+	<tbody>
+    <tr>
+      <td><strong>Client</strong></td>
+      <td rowspan="2" style="vertical-align: middle">No data</td>
+    </tr>
+		<tr>
+      <td><strong>Contract Price</strong></td>
+    </tr>
+	</tbody>
+</table>
+
+### Report Example 2
+
+| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| :----------------- | :--------- | ------------- | ---------- | ------- |
+| **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
+
 ## Common Master-Detail Template
 
 ### Template Example
 
-|<<foreach [in managers]>> <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> <<[getName()]>> <br> Clients: <<foreach [in getContracts() ]>><<[indexOf() != 0 ? ", " : ""]>><<[getClient().getName()]>><</foreach>> <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> &lt;&lt;[getName()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in getContracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
@@ -288,77 +480,96 @@ We provide support for the following clients:
 
 ### Report Example
 
-|Manager/Client|Contract Price|
-| :- | :- |
-|{{< highlight csharp >}} John Smith {{< /highlight >}} | {{< highlight csharp >}} 2300000 {{< /highlight >}}|
-|{{< highlight csharp >}} A Company {{< /highlight >}} | {{< highlight csharp >}} 1200000 {{< /highlight >}}|
-|{{< highlight csharp >}} B Ltd. {{< /highlight >}} | {{< highlight csharp >}} 750000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} C & D {{< /highlight >}} | {{< highlight csharp >}} 350000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} Tony Anderson {{< /highlight >}} | {{< highlight csharp >}} 1200000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} E Corp. {{< /highlight >}} | {{< highlight csharp >}} 650000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} F & Partners {{< /highlight >}} | {{< highlight csharp >}} 550000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} July James {{< /highlight >}} | {{< highlight csharp >}} 800000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} G & Co. {{< /highlight >}} | {{< highlight csharp >}} 350000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} H Group {{< /highlight >}} | {{< highlight csharp >}} 250000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} I & Sons {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} J Ent. {{< /highlight >}} | {{< highlight csharp >}} 100000</p><p>{{< /highlight >}}|
-|{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} 4300000</p><p>{{< /highlight >}}|
+| Manager/Client    | Contract Price |
+| ----------------- | -------------- |
+| **John Smith**    | 2300000        |
+| *A Company*       | 1200000        |
+| *B Ltd.*          | 750000         |
+| *C & D*           | 350000         |
+| **Tony Anderson** | 1200000        |
+| *E Corp.*         | 650000         |
+| *F & Partners*    | 550000         |
+| **July James**    | 800000         |
+| *G & Co.*         | 350000         |
+| *H Group*         | 250000         |
+| *I & Sons*        | 100000         |
+| *J Ent.*          | 100000         |
+| **Total:**        | 4300000        |
 
 
 ## Pie Chart Template
 
 **Template Example**
 
-![Pie_Chart_Template_Example_aspose_words_java](pie-chart-template-example.png)
+<img src="pie-chart-template-example2-1.jpg" alt="Pie_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="pie-chart-template-example2-2.jpg" alt="Pie_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="pie-chart-template-example2-2.jpg" alt="Pie_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 **Initial Chart Series Data**
 
-![Pie_Chart_Series_Data_aspose_words_java](pie-chart-series-data.png)
+<img src="pie-chart-series-data2-1.jpg" alt="Pie_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
+
+<img src="pie-chart-series-data2-2.jpg" alt="Pie_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
+
+<img src="pie-chart-series-data2-2.jpg" alt="Pie_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
 **Report Example**
 
-![Pie_Chart_Report_Example_aspose_words_java](pie-chart-report-example.png)
+<img src="pie-chart-report-example.jpg" alt="Pie_Chart_Report_Example-aspose-words-java" style="width:600px"/>
 
 ## Scatter Chart Template
 
 **Template Example**
 
-![Scatter_Chart_Template_Example_aspose_words_java](scatter-chart-template-example.png)
+<img src="scatter-chart-template-example2-1.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="scatter-chart-template-example2-2.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="scatter-chart-template-example2-2.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 **Initial Chart Series Data**
 
-![Scatter_Chart_Series_Data_aspose_words_java](scatter-chart-chart-series-data.png)
+<img src="scatter-chart-chart-series-data2-1.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
+
+<img src="scatter-chart-chart-series-data2-2.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
+
+<img src="scatter-chart-chart-series-data2-2.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
 **Report Example**
 
-![Scatter_Chart_Report_Example_aspose_words_java](scatter-chart-report-example.png)
+<img src="scatter-chart-report-example.png" alt="Scatter_Chart_Report_Example-aspose-words-java" style="width:600px"/>
 
 ## Bubble Chart Template
 
 **Template Example**
 
-![Bubble_Chart_Template_Example_aspose_words_java](bubble-chart-template-example.png)
+<img src="bubble-chart-template-example2-1.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="bubble-chart-template-example2-2.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="bubble-chart-template-example2-2.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 **Initial Chart Series Data**
 
-![Bubble_Chart_Series_Data_aspose_words_java](bubble-chart-series-data.png)
+<img src="bubble-chart-series-data2-1.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
+
+<img src="bubble-chart-series-data2-2.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
+
+<img src="bubble-chart-series-data2-2.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
 **Report Example**
 
-![Bubble_Chart_Report_Example_aspose_words_java](bubble-chart-report-example.png)
+![Bubble_Chart_Report_Example-aspose-words-java](bubble-chart-report-example.png)
 
 ## In-Table Template with Filtering, Grouping, and Ordering
 
 **Template Example**
 
-|Manager|Contract Price|
-| :- | :- |
-|{{< highlight csharp >}} <<foreach [in contracts
-.where(c => c.getDate().getYear() == 115)
-.groupBy(c => c.getManager())
-.orderBy(g => g.key.getName())]>>
-<<[key.getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}}|
-
+| **Manager**                                                  | **Contract Price**                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| {{< highlight csharp >}}<<foreach [in contracts.where(c => c.getDate().getYear() == 115).groupBy(c => c.getManager()).orderBy(g => g.key.getName())]>><<[key.getName()]>>{{< /highlight >}} | {{< highlight csharp >}}<<[sum(c => c.getPrice())]>><</foreach>>{{< /highlight >}} |
 
 **Report Example**
 
@@ -372,8 +583,12 @@ We provide support for the following clients:
 
 **Template Example**
 
-![Chart_Template_Example_aspose_words_java](chart-template-example.png)
+<img src="chart-template-example2-1.jpg" alt="Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="chart-template-example2-2.jpg" alt="Chart_Template_Example2-aspose-words-java" style="width:600px"/>
+
+<img src="chart-template-example2-2.jpg" alt="Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 **Report Example**
 
-![Chart_Report_Example_aspose_words_java](chart-report-example.png)
+<img src="chart-report-example.png" alt="Chart_Report_Example-aspose-words-java" style="width:600px"/>
