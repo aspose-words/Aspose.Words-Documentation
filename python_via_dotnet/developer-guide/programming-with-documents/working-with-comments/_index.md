@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with comments in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with comments
@@ -12,9 +12,23 @@ aliases: [/python/working-with-comments/]
 
 {{% alert color="primary" %}}
 
-Comments of the document are represented by the [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) class. Use [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/) classes to specify a region of text that is to be commented.
+**Try online**
+
+You can try this functionality with our [Free online remove annotations](https://products.aspose.app/words/annotation).
 
 {{% /alert %}}
+
+Aspose.Words allows users to work with comments – comments in a document in Aspose.Words are represented by the [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) class. Also use the [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/) classes to specify the region of text that should be associated with a comment.
+
+## How to Add a Comment
+
+Below example shows how to add a comment to a paragraph in the document.
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AddComments.py" >}}
+
+Below example shows how to anchor a comment to a region of text.
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AnchorComment.py" >}}
 
 ## How to Extract or Remove Comments
 
@@ -73,16 +87,6 @@ When you need to selectively remove comments, the process becomes more similar t
 The main point to highlight here is the use of the for operator. Unlike the simple extraction, here you want to delete a comment. A suitable trick is to iterate the collection backwards from the last [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) to the first one. The reason for this if you start from the end and move backwards, the index of the preceding items remains unchanged, and you can work your way back to the first item in the collection. The demo-code that illustrates the methods for the comments extraction and removal. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Comments.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-ProcessComments.py" >}}
-
-## How to Add a Comment
-
-Below example shows how to add a comment to a paragraph in the document.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AddComments.py" >}}
-
-Below example shows how to anchor a comment to a region of text.
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AnchorComment.py" >}}
 
 ## How to Remove Text between CommentRangeStart and CommentRangeEnd
 

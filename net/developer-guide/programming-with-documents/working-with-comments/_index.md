@@ -106,17 +106,17 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### How to Remove a Comment between CommentRangeStart and CommentRangeEnd
 
-Using Aspose.Words you can also remove comments between the CommentRangeStart and CommentRangeEnd nodes.
+Using Aspose.Words you can also remove comments between the **CommentRangeStart** and **CommentRangeEnd** nodes.
 
-The following code example shows how to remove text between CommentRangeStart and CommentRangeEnd:
+The following code example shows how to remove text between **CommentRangeStart** and **CommentRangeEnd**:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-RemoveRegionText-RemoveRegionText.cs" >}}
 
 ## Add or Remove Comment's Reply
 
-The [AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) method adds a reply to this comment. Please note that due to the existing Microsoft Office limitations only 1 level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
+The [AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) method adds a reply to this comment. Please note that due to the existing Microsoft Office limitations only 1 level of replies is allowed in the document. An exception of type *InvalidOperationException* will be raised if this method is called on the existing Reply comment.
 
-You can use [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) method to remove the specified reply to this comment.
+You can use the [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) method to remove the specified reply to this comment.
 
 The following code example shows how to add a reply to comment and remove comment's reply:
 

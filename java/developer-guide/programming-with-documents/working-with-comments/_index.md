@@ -136,7 +136,7 @@ The following code example shows how to add a reply to a comment and remove a co
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-comments-AddRemoveCommentReply-AddRemoveCommentReply.java" >}}
 
-## Read Comment Reply
+## Read Comment's Reply
 
 Aspose.Words support to read the reply of a Comment. The [Replies](https://reference.aspose.com/words/java/com.aspose.words/comment/#getReplies) property returns a collection of the [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) objects that are immediate children of the specified comment.
 
