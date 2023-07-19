@@ -13,7 +13,7 @@ LINQ Reporting Engine enables you to perform common manipulations on a sequentia
 
 The following table describes these built-in extension methods. The following notation conventions are used within the table:
 
-- Selector stands for a lambda function returning a value and taking an enumeration item as its single argument. See “Using Lambda Functions” for more information.
+- `Selector` stands for a lambda function returning a value and taking an enumeration item as its single argument. See “Using Lambda Functions” for more information.
 - `ComparableSelector` stands for `Selector` returning [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-6.0).
 - `EnumerationSelector` stands for `Selector` returning `IEnumerable`.
 - `Predicate` stands for `Selector` returning a Boolean value.
@@ -50,6 +50,10 @@ persons.Count(){{< /highlight >}}|
 persons.Count(p => p.Age > 30){{< /highlight >}}|
 |Distinct()|{{< highlight csharp >}}
 persons.Distinct(){{< /highlight >}}|
+|ElementAt(int)|{{< highlight csharp >}}
+persons.ElementAt(3){{< /highlight >}}|
+|ElementAtOrDefault(int)|{{< highlight csharp >}}
+persons.ElementAtOrDefault(5){{< /highlight >}}|
 |First()|{{< highlight csharp >}}
 persons.First(){{< /highlight >}}|
 |First(Predicate)|{{< highlight csharp >}}
