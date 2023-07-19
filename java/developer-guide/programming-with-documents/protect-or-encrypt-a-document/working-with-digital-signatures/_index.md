@@ -227,6 +227,14 @@ The picture below demonstrates that the generated PDF document is opened in Adob
 
 ![create-digital-signed-pdf-aspose-words-java](signed-pdf-aspose-words-java.png)
 
+## Retrieve the Digital Signature Value
+
+Aspose.Words also provides the ability to retrieve the digital signature value from a digitally signed document as a byte array using the [SignatureValue](https://reference.aspose.com/words/java/com.aspose.words/digitalsignature/#getSignatureValue) property.
+
+The following code example shows how to obtain the digital signature value as a byte array from a document:
+
+EXAMPLE
+
 ## Remove Digital Signatures
 
 Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://reference.aspose.com/words/java/com.aspose.words/digitalsignatureutil/#removeAllSignatures-java.io.InputStream-java.io.OutputStream) method.
