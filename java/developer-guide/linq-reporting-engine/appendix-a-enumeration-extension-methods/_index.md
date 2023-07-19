@@ -50,6 +50,10 @@ public class Person
  persons.count(p => p.getAge() > 30){{< /highlight >}}|
 |distinct()|{{< highlight csharp >}}
  persons.distinct(){{< /highlight >}}|
+|elementAt(int)|{{< highlight csharp >}}
+ persons.elementAt(3){{< /highlight >}}|
+|elementAtOrDefault(int)|{{< highlight csharp >}}
+ persons.elementAtOrDefault(5){{< /highlight >}}|
 |first()|{{< highlight csharp >}}
  persons.first(){{< /highlight >}}|
 |first(Predicate)|{{< highlight csharp >}}
