@@ -92,4 +92,10 @@ Aspose.Words also provides the ability to retrieve the digital signature value f
 
 The following code example shows how to obtain the digital signature value as a byte array from a document:
 
-EXAMPLE
+{{< highlight csharp >}}
+doc = aw.Document(MY_DIR + "Digitally signed.docx")
+
+for digital_signature in doc.digital_signatures:
+    signature_value = base64.b64encode(digital_signature.signature_value)
+    print(f"Base64 signature value is: {signature_value}")
+{{< /highlight >}}

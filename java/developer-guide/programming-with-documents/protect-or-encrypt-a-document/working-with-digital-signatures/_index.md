@@ -233,7 +233,15 @@ Aspose.Words also provides the ability to retrieve the digital signature value f
 
 The following code example shows how to obtain the digital signature value as a byte array from a document:
 
-EXAMPLE
+{{< highlight csharp >}}
+Document doc = new Document(getMyDir() + "Digitally signed.docx");
+
+for (DigitalSignature digitalSignature : doc.getDigitalSignatures())
+{
+    String signatureValue = Base64.getEncoder().encodeToString(digitalSignature.getSignatureValue());
+    System.out.println(MessageFormat.format("Base64 signature value is: {0}", signatureValue));
+}
+{{< /highlight >}}
 
 ## Remove Digital Signatures
 

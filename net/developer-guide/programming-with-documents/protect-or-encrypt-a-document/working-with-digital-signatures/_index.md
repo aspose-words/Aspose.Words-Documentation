@@ -231,7 +231,15 @@ Aspose.Words also provides the ability to retrieve the digital signature value f
 
 The following code example shows how to obtain the digital signature value as a byte array from a document:
 
-EXAMPLE
+{{< highlight csharp >}}
+Document doc = new Document(MyDir + "Digitally signed.docx");
+
+foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
+{
+    string signatureValue = Convert.ToBase64String(digitalSignature.SignatureValue);
+    Console.WriteLine("Base64 signature value is: {0}", signatureValue);
+}
+{{< /highlight >}}
 
 ## Remove Digital Signatures
 
