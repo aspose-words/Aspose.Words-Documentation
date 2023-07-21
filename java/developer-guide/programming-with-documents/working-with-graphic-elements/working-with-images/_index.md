@@ -9,6 +9,8 @@ weight: 40
 url: /java/working-with-images/
 ---
 
+Aspose.Words allows users to work with images in a very flexible way. In this article, you can explore only some of the possibilities of working with images.
+
 ## How to Extract Images from a Document {#how-to-extract-images-from-a-document}
 
 All images are stored inside Shape nodes in a Document. To extract all images or images having a specific type from the document, follow these steps:

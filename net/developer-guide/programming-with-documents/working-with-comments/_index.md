@@ -24,7 +24,7 @@ Aspose.Words allows users to work with comments – comments in a document in As
 Aspose.Words allows you to add comments in several ways:
 
 1. Using the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) class
-2. Using  the [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) classes
+2. Using the [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) and [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) classes
 
 The following code example shows how to add a comment to a paragraph using the **Comment** class:
 
@@ -70,7 +70,7 @@ The following code example shows how to extract the author name, date&time and t
 
 ### How to Extract Comments of a Specified Author
 
-After you have selected Comment nodes into a collection, all you have to do is extract the information you need. In this sample, author initials, date, time and the plain text of the comment is combined into one string; you could choose to store it in some other ways instead.
+After you have selected **Comment** nodes into a collection, all you have to do is extract the information you need. In this sample, author initials, date, time and the plain text of the comment is combined into one string; you could choose to store it in some other ways instead.
 
 The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author’s name before adding the info into the array.
 
@@ -106,23 +106,23 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### How to Remove a Comment between CommentRangeStart and CommentRangeEnd
 
-Using Aspose.Words you can also remove comments between the CommentRangeStart and CommentRangeEnd nodes.
+Using Aspose.Words you can also remove comments between the **CommentRangeStart** and **CommentRangeEnd** nodes.
 
-The following code example shows how to remove text between CommentRangeStart and CommentRangeEnd:
+The following code example shows how to remove text between **CommentRangeStart** and **CommentRangeEnd**:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-RemoveRegionText-RemoveRegionText.cs" >}}
 
 ## Add or Remove Comment's Reply
 
-The [AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) method adds a reply to this comment. Please note that due to the existing Microsoft Office limitations only 1 level of replies is allowed in the document. An exception of type InvalidOperationException will be raised if this method is called on the existing Reply comment.
+The [AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) method adds a reply to this comment. Please note that due to the existing Microsoft Office limitations only 1 level of replies is allowed in the document. An exception of type *InvalidOperationException* will be raised if this method is called on the existing Reply comment.
 
-You can use [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) method to remove the specified reply to this comment.
+You can use the [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) method to remove the specified reply to this comment.
 
 The following code example shows how to add a reply to comment and remove comment's reply:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-CommentReply-AddRemoveCommentReply.cs" >}}
 
-## How to Read Comment's Reply
+## Read Comment's Reply
 
 The [Replies](https://reference.aspose.com/words/net/aspose.words/comment/replies/) property returns a collection of the [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) objects that are immediate children of the specified comment.
 
