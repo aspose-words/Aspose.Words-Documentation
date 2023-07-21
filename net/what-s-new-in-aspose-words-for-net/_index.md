@@ -11,15 +11,18 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for .NET 23.5, 23.6
+## Aspose.Words for .NET 23.5, 23.6, 23.7
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
 
 Aspose.Words 23.6 expands rendering options, adds a new export format, improves LINQ reporting and LowCode tools.
 
-### Supported Formats <sup>23.6</sup>
+Aspose.Words 23.7 enhances reporting capabilities, adds a new export format, and introduces changes to working with tables and digital signatures.
 
-Starting with version 23.6, it is possible to save a document in XLSX format. Now you can convert your documents to Excel format.
+### Supported Formats
+
+* Starting with version 23.6, it is possible to save a document in XLSX format. Now you can convert your documents to Excel format. <sup>23.6</sup>
+* Starting with version 23.7, it is possible to save a document page or shape in EPS format. <sup>23.7</sup>
 
 ### Rendering
 
@@ -42,9 +45,19 @@ The public property [PageInfo.Colored](https://reference.aspose.com/words/net/as
 
 The ability to set fill, stroke, and callout formatting for chart data labels has been implemented.
 
-### Reporting <sup>23.6</sup>
+### Mail Merge and Reporting
 
-Dynamic HTML Insertion for LINQ Reporting Engine A new way of dynamic HTML insertion for LINQ Reporting Engine has been added.
+#### Dynamic HTML Insertion for LINQ Reporting Engine <sup>23.6</sup>
+
+A new way of dynamic HTML insertion for LINQ Reporting Engine has been added.
+
+#### Mustache Tags Support <sup>23.7</sup>
+
+Mustache tags are now supported in the [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) and [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion) methods.
+
+#### LINQ Reporting Engine Template Syntax Updates <sup>23.7</sup>
+
+The LINQ Reporting Engine template syntax now supports the ElementAt and ElementAtOrDefault extension methods.
 
 ### LowCode <sup>23.6</sup>
 
@@ -53,16 +66,18 @@ New LowCode methods intended to merge different types of documents into a single
 ### Other
 
 * Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
-
 * The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) method. <sup>23.5</sup>
-
 * The public property [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/net/aspose.words/run/) has been added. <sup>23.5</sup>
+* The ability to retrieve a digital signature value from a digitally signed document as a byte array has been added by introducing a new [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) property. <sup>23.7</sup>
+* The [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) classes have been extended with new public members – [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/), and [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for .NET 23.5 Release Notes](/words/net/aspose-words-for-net-23-5-release-notes/).
 
 Learn more about [Aspose.Words for .NET 23.6 Release Notes](/words/net/aspose-words-for-net-23-6-release-notes/).
+
+Learn more about [Aspose.Words for .NET 23.7 Release Notes](/words/net/aspose-words-for-net-23-7-release-notes/).
 
 {{% /alert %}}
 
