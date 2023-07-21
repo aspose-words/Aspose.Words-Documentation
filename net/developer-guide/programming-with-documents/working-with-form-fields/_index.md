@@ -79,6 +79,6 @@ The following code example shows how to work with form field name, type, and res
 
 The [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) property of [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) allows applying font formatting to the **FormField** as a whole including the field value.
 
-The following code example shows how to apply font formatting to the FormField:
+The following code example shows how to apply font formatting to the **FormField**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsFontFormatting-FormFieldsFontFormatting.cs" >}}

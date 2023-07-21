@@ -70,7 +70,7 @@ The following code example shows how to extract the author name, date&time and t
 
 ### How to Extract Comments of a Specified Author
 
-After you have selected Comment nodes into a collection, all you have to do is extract the information you need. In this sample, author initials, date, time and the plain text of the comment is combined into one string; you could choose to store it in some other ways instead.
+After you have selected **Comment** nodes into a collection, all you have to do is extract the information you need. In this sample, author initials, date, time and the plain text of the comment is combined into one string; you could choose to store it in some other ways instead.
 
 The overloaded method that extracts the Comments from a particular author is almost the same, it just checks the author’s name before adding the info into the array.
 
