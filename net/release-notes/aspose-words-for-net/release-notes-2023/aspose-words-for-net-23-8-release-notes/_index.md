@@ -166,13 +166,11 @@ public Size ImageSize { get; set; }
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
-
 **Use Case**
 
 This use case explains how to render every page of a document to a separate TIFF image at 2325x5325 pixels and 600 dpi:
-
-{{% /alert %}}
 {{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "image-size-for-every-page.cs" >}}
+{{% /alert %}}
 
 ### Added PdfEncryptionDetails ctor overload with PdfPermissions
 
@@ -183,13 +181,11 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermis
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
-
 **Use Case**
 
 This use case explains how to use PdfPermissions:
-
-{{% /alert %}}
 {{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "encryption-permissions.cs" >}}
+{{% /alert %}}
 
 ### Added the ability to generate TOC (table of contents) for MOBI documents
 
@@ -200,13 +196,11 @@ Now Aspose.Words can generate TOC (table of contents) for MOBI documents.
 Desired depth of TOC can be specified same way as it's done for AZW3 or EPUB documents using HtmlSaveOptions.NavigationMapLevel property.
 
 {{% alert color="secondary" %}}
-
 **Use Case**
 
 This use case explains how to create MOBI document with a two-level TOC:
-
-{{% /alert %}}
 {{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "create-mobi-toc.cs" >}}
+{{% /alert %}}
 
 Note: Currently MOBI TOC won't be displayed by some viewers. For example, MOBI TOC won't be displayed by calibre app.
 
@@ -262,13 +256,11 @@ public sealed class FieldOptions
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
-
 **Use Case**
 
 This use case explains how to use IBibliographyStylesProvider:
-
-{{% /alert %}}
 {{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "change-bibliography-styles.cs" >}}
+{{% /alert %}}
 
 ### The HtmlSaveOptions.EpubNavigationMapLevel property is now obsolete
 
@@ -283,10 +275,8 @@ Related issue: WORDSNET-25677
 Starting from Aspose.Words 23.8, you can instruct LINQ Reporting Engine to preserve leading and trailing whitespaces for JSON string values (which are trimmed by default).
 
 {{% alert color="secondary" %}}
-
 **Use Case**
 
 This use case explains how to instruct LINQ Reporting Engine to preserve leading and trailing whitespaces:
-
-{{% /alert %}}
 {{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "json-data-preserve-spaces.cs" >}}
+{{% /alert %}}
