@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with TextBoxes in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with TextBoxes
@@ -14,18 +14,24 @@ In Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.
 
 ## Creating a Link
 
-[TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) class provides [is_valid_link_target](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/is_valid_link_target/) method in order to check whether the [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) can be linked to the target Textbox as shown in the code snippet given below:
+[TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) class provides [is_valid_link_target](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/is_valid_link_target/) method in order to check whether the [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) can be linked to the target Textbox.
+
+The following code example shows how to check if the TextBox can be linked to the target Textbox:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CreateALink.py" >}}
 
 ## Check TextBox Sequence
 
-The following code snippets shows how to check if [Shape.text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) is a Head, a Tail or a Middle of the sequence:
+There are several ways to display text in a shape. The [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) can be the Head, Middle, or Tail of a sequence.
+
+The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CheckSequence.py" >}}
 
 ## Breaking a Link
 
-The following code snippet shows how to break a link for a [Shape.text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/):
+Using the [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) method you can break the link to the next **TextBox**.
+
+The following code example shows how to break a link for a **TextBox**:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-BreakALink.py" >}}

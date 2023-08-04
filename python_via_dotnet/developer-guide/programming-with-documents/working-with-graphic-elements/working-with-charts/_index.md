@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Charts in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Charts
@@ -10,13 +10,15 @@ url: /python-net/working-with-charts/
 aliases: [/python/working-with-charts/]
 ---
 
-## Creating OOXML Charts from Scratch using Aspose.Words
-
 New [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) method was added into the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) method:
 
-### How to Insert Column chart
+### How to Insert a Chart
 
-Below examples shows how to insert column chart.
+In this section we eill learn how to insert a chart into a document.
+
+### Insert Column Chart
+
+The following code example shows how to insert column chart:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertSimpleColumnChart.py" >}}
 
@@ -33,7 +35,7 @@ The code produces the following result:
 
 ![create-column-chart-from-datasource-aspose-words-net](working-with-charts-2.png)
 
-### How to Insert Scatter Chart
+### Insert Scatter Chart
 
 Below example shows how to insert a scatter chart.
 
@@ -43,9 +45,9 @@ The code produces the following result:
 
 ![scatter-chart-aspose-words-net](working-with-charts-3.png)
 
-### How to Insert Area Chart
+### Insert Area Chart
 
-Below example shows how to insert an area chart.
+The following code example shows how to insert an area chart:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertAreaChart.py" >}}
 
@@ -53,9 +55,9 @@ The code produces the following result:
 
 ![area-chart-aspose-words-net](working-with-charts-4.png)
 
-### How to Insert Bubble Chart
+### Insert Bubble Chart
 
-Below example shows how to insert a bubble chart.
+The following code example shows how to insert a bubble chart:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertBubbleChart.py" >}}
 
@@ -65,7 +67,9 @@ The code produces the following result:
 
 ## Working with Charts through Shape.chart Object
 
-Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.chart](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/chart/) property contains all chart related options available through the public API. For example, let's change [Chart](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/) title or legend behavior:
+Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.chart](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/chart/) property contains all chart related options available through the public API.
+
+For example, let's change [Chart](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/) title or legend behavior:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-CreateChartUsingShape.py" >}}
 
@@ -96,11 +100,13 @@ All single [ChartSeries](https://reference.aspose.com/words/python-net/aspose.wo
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-ChartDataPoint.py" >}}
 
+Please see the result below:
+
 ![line-chart-chartdatapoint-aspose-words-net](working-with-charts-8.png)
 
 ## How to Work with Single ChartDataPoint of a ChartSeries
 
-Using [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series.
+Using [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-WorkWithSingleChartDataPoint.py" >}}
 
@@ -130,49 +136,59 @@ Please see the result below:
 
 ## How to Format Number of Chart Data Label
 
-Using [ChartDataLabel.number_format](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/number_format/) you are able to specify number formatting of a single data label of the chart. The code example given below shows how to format a number of the data label. 
+Using [ChartDataLabel.number_format](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/number_format/) you are able to specify number formatting of a single data label of the chart.
+
+The following code example shows how to format a number of the data label:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-FormatNumberOfDataLabel.py" >}}
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisdisplayunit/), and [AxisScaling](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisscaling/) classes. The code example given below shows how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisdisplayunit/), and [AxisScaling](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisscaling/) classes.
+
+The following code example shows how to define X and Y-axis properties:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-DefineXYAxisProperties.py" >}}
 
 ### How to Set Date Time Value of Axis
 
-The following code example shows how to set date/time values to axis properties.
+The following code example shows how to set date/time values to axis properties:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetDateTimeValuesToAxis.py" >}}
 
 ### How to Format Number Value of Axis
 
-The following code example shows how to change the format of numbers on the value axis.
+The following code example shows how to change the format of numbers on the value axis:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetNumberFormatForAxis.py" >}}
 
 ### How to Set Bounds of Axis
 
-The [AxisBound](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisbound/) class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value. The following code example shows how to set bounds of an axis.
+The [AxisBound](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisbound/) class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value.
+
+The following code example shows how to set bounds of an axis:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetboundsOfAxis.py" >}}
 
 ### How to Set Interval Unit Between Labels
 
-The following code example shows how to set the interval unit between labels on an axis.
+The following code example shows how to set the interval unit between labels on an axis:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetIntervalUnitBetweenLabelsOnAxis.py" >}}
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of [ChartAxis.hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/hidden/) property. The following code example shows how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of [ChartAxis.hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/hidden/) property.
+
+The following code example shows how to hide the Y-axis of the chart:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-HideChartAxis.py" >}}
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) property. The following code example shows how to tick label alignment.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) property.
+
+The following code example shows how to tick label alignment:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-TickMultiLineLabelAlignment.py" >}}
 

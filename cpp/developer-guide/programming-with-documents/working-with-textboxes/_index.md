@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with TextBoxes in C++
 second_title: Aspose.Words for C++
 articleTitle: Working with TextBoxes
@@ -11,23 +11,29 @@ weight: 80
 url: /cpp/working-with-textboxes/
 ---
 
-In Aspose.Words, TextBox class is used to specify how a text is displayed inside a shape. It provides a public property named as Parent to get the parent shape for the text box to allow the customer to find linked Shape from linked TextBox.
+In Aspose.Words, the [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/) class is used to specify how text is displayed inside a shape. It exposes a public property named **Parent** to get the parent shape for the text box so that the customer can find the linked [Shape](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/) from the associated **TextBox**.
 
 ## Create A Link
 
-TextBox class provides IsValidLinkTarget method in order to check whether the TextBox can be linked to the target Textbox as shown in the code snippet given below:
+The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/isvalidlinktarget/) method in order to check whether the **TextBox** can be linked to the target **Textbox**.
+
+The following code example shows how to check if the TextBox can be linked to the target Textbox:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CreateALink.cpp" >}}
 
 
 ## Check TextBox Sequence
 
-The following code snippet shows how to check if shape.TextBox is a Head, a Tail or a Middle of the sequence:
+There are several ways to display text in a shape. The [TextBox](https://reference.aspose.com/words/cpp/aspose.words.drawing/shape/get_textbox/) can be the Head, Middle, or Tail of a sequence.
+
+The following code example shows how to check if **TextBox** is a Head, Tail, or Middle of the sequence:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CheckSequence.cpp" >}}
 
 ## Break a Link
 
-The following code snippet shows how to break a link for a shape.TextBox:
+Using the [BreakForwardLink](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/breakforwardlink/) method you can break the link to the next **TextBox**.
+
+The following code example shows how to break a link for a **TextBox**:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-BreakALink.cpp" >}}
