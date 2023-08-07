@@ -198,7 +198,7 @@ Desired depth of TOC can be specified same way as it's done for AZW3 or EPUB doc
 {{% alert color="secondary" %}}
 **Use Case**
 
-This use case explains how to create MOBI document with a two-level TOC:
+This use case explains how to create MOBI document with TOC and specify NavigationMapLevel:
 {{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "create-mobi-toc.cs" >}}
 {{% /alert %}}
 
@@ -262,11 +262,11 @@ This use case explains how to use IBibliographyStylesProvider:
 {{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "change-bibliography-styles.cs" >}}
 {{% /alert %}}
 
-### The HtmlSaveOptions.EpubNavigationMapLevel property is now obsolete
+### The property HtmlSaveOptions.EpubNavigationMapLevel has been deprecated.
 
 Related issue: WORDSNET-25093
 
-The **HtmlSaveOptions.EpubNavigationMapLevel** property is now obsolete. The customers should use **HtmlSaveOptions.NavigationMapLevel** instead.
+The **HtmlSaveOptions.EpubNavigationMapLevel** property is marked as obsolete. Please, use **HtmlSaveOptions.NavigationMapLevel** instead.
 
 ### Added an option for LINQ Reporting Engine to preserve whitespaces for JSON string values
 
