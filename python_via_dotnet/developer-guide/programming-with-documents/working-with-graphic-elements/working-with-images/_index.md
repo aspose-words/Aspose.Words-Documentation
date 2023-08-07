@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Images in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Images
@@ -10,21 +10,25 @@ url: /python-net/working-with-images/
 aliases: [/python/working-with-images/]
 ---
 
+Aspose.Words allows users to work with images in a very flexible way. In this article, you can explore only some of the possibilities of working with images.
+
 ## Inserting an Image
 
-[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides several overloads of the [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method can use images from different sources:
+[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides several overloads of the the [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
 
-- From a file or URL by passing a string parameter.
-- From a stream by passing a Stream parameter.
-- From a byte array by passing a byte array parameter. 
+- From a file or URL by passing a string parameter
+- From a stream by passing a Stream parameter
+- From a byte array by passing a byte array parameter
 
-For each of the [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) methods, there are further overloads which allow you to insert an image with the following options:
-- Inline or floating at a specific position.
-- Percentage scale or custom size. Furthermore, the [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method returns a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) object that was just created and inserted so you can further modify properties of the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/).
+For each of the **insert_image** methods, there are further overloads which allow you to insert an image with the following options:
+- Inline or floating at a specific position, for example, **insert_image**
+- Percentage scale or custom size; furthermore, the [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method returns a [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) object that was just created and inserted so you can further modify properties of the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) to insert the image into the document as an inline graphic. Below example shows how to insert an inline image at the cursor position into a document.
+Pass a single string representing a file that contains the image to [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) to insert the image into the document as an inline graphic.
+
+The following code example shows how to insert an inline image at the cursor position into a document:
 
 {{< highlight python >}}
 doc = aw.Document()
@@ -37,7 +41,7 @@ doc.save(docs_base.artifacts_dir+"WorkingWithImages.document_builder_insert_inli
 
 ### Inserting a Floating (Absolutely Positioned) Image
 
-This example inserts a floating image from a file or URL at a specified position and size.
+The following code example shows how to insert a floating image from a file or URL at a specified position and size:
 
 {{< highlight python >}}
 doc = aw.Document()
@@ -65,13 +69,23 @@ All images are stored inside [Shape](https://reference.aspose.com/words/python-n
 - Extract image data using the [Shape.image_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/image_data/) property.
 - Save image data to a file.
 
-Below example shows how to extract images from a document and save them as files. You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Images.docx).
+The following code example shows how to extract images from a document and save them as files:
+
+You can download the template file of this example from [here](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Images.docx).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractImagesToFiles.py" >}}
 
+{{% alert color="primary" %}}
+
+You can download the sample file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Images.docx).
+
+{{% /alert %}}
+
 ## How to Insert Barcode on each Page of a Document
 
-This example demonstrates you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use [DocumentBuilder.move_to_section](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/move_to_section/), [DocumentBuilder.move_to_header_footer](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/move_to_header_footer/) and [DocumentBuilder.insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code. The following code example Inserts a barcode image on each page of a document.
+This example demonstrates you to add the same or different barcodes on all or specific pages of a Word document. There is no direct way to add barcodes on all pages of a document but you can use the [move_to_section](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/move_to_section/), [move_to_header_footer](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/move_to_header_footer/) and [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) methods to move to any section or headers/footers and insert the barcode images as you can see in the following code.
+
+The following code example Inserts a barcode image on each page of a document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_images-InsertBarcodeImage.py" >}}
 
@@ -79,7 +93,9 @@ This example demonstrates you to add the same or different barcodes on all or sp
 
 ## Lock Aspect Ratio of Image
 
-The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of the image using [Shape.aspect_ratio_locked](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/aspect_ratio_locked/). The default value of the shape's aspect ratio depends on the [ShapeType](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/). It is `True` for [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image) and `False` for other shape types.
+The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of the image using [aspect_ratio_locked](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/aspect_ratio_locked/). The default value of the shape's aspect ratio depends on the [ShapeType](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/). It is `True` for [ShapeType.IMAGE](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapetype/#image) and `False` for other shape types.
+
+The following code example shows how to work with aspect ratio:
 
 {{< highlight python >}}
 doc = aw.Document()
@@ -93,7 +109,9 @@ doc.save(docs_base.artifacts_dir+"WorkingWithImages.set_aspect_ratio_locked.doc"
 
 ## How to Get Actual Bounds of Shape in Points
 
-If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using [NodeRendererBase.bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) property. The following code example demonstrates how to use this property.
+If you want the actual bounding box of the shape as rendered on the page, you can achieve this by using the [bounds_in_points](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/bounds_in_points/) property.
+
+The following code example shows how to use this property:
 
 {{< highlight python >}}
 doc = aw.Document()
@@ -109,7 +127,9 @@ print(f"{rect.x}, {rect.y}, {rect.width}, {rect.height}")
 
 ## Crop Images
 
-The cropping of an image usually refers to the removal of the unwanted outer parts of an image to help improve the framing. It is also used for the removal of some of the portions of an image to increase the focus on a particular area. This can be achieved using Aspose.Words API as demonstrated in the example given below.
+The cropping of an image usually refers to the removal of the unwanted outer parts of an image to help improve the framing. It is also used for the removal of some of the portions of an image to increase the focus on a particular area.
+
+The following code example shows how to achieve this using Aspose.Words API:
 
 {{< highlight python >}}
 # The path to the documents directory.
@@ -157,6 +177,8 @@ def crop_image(inPath : str, outPath : str, left : int, top : int, width : int, 
 
 ## Saving Images as WMF
 
-Aspose.Words provides functionality to save all the available images in a document to [WMF](https://docs.fileformat.com/image/wmf/) format while converting DOCX to RTF. The following code example demonstrates how to save images as WMF with RTF save options.
+Aspose.Words provides functionality to save all the available images in a document to [WMF](https://docs.fileformat.com/image/wmf/) format while converting DOCX to RTF.
+
+The following code example shows how to save images as WMF with RTF save options:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_rtf_save_options-SavingImagesAsWmf.py" >}}

@@ -9,60 +9,66 @@ weight: 50
 url: /java/working-with-charts/
 ---
 
-WorkWithChartDataLabelOfASingleChartSeries
+The new [insertChart](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertChart-int-double-double) method was added into the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using **insertChart** method.
 
 
-## Creating OOXML Charts from Scratch using Aspose.Words
+## How to Insert a Chart from Scratch using Aspose.Words
 
-The new insertChart method was added into the [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. So, let's see how to insert a simple column chart into the document using DocumentBuilder.insertChart method:
+In this section we eill learn how to insert a chart into a document.
 
-### How to insert Column chart
+###  Insert Column Chart
+
+The following code example shows how to insert column chart:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart1.java" >}}
 
 The code produces the following result:
 
-|![column-chart-aspose-words-java-1](working-with-charts-7.png)|
-| :- |
+![column-chart-aspose-words-java-1](working-with-charts-7.png)
+
 There are four different overloads for the series Add method, which were exposed to cover all possible variants of data sources for all chart types:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertColumnChart2.java" >}}
 
 The code produces the following result:
 
-|![column-chart-aspose-words-java-2](working-with-charts-8.png)|
-| :- |
+![column-chart-aspose-words-java-2](working-with-charts-8.png)
 
-### How to insert Scatter chart
+### Insert Scatter Chart
+
+The following code example shows how to insert a scatter chart:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertScatterChart.java" >}}
 
 The code produces the following result:
 
-|![scutter-chart-aspose-words-java](working-with-charts-9.png)|
-| :- |
+![scutter-chart-aspose-words-java](working-with-charts-9.png)
 
-### How to insert Area chart
+### Insert Area Chart
+
+The following code example shows how to insert an area chart:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertAreaChart.java" >}}
 
 The code produces the following result:
 
-|![area-chart-aspose-words-java](working-with-charts-10.png)|
-| :- |
+![area-chart-aspose-words-java](working-with-charts-10.png)
 
-### How to insert Bubble chart
+### Insert Bubble Chart
+
+The following code example shows how to insert a bubble chart:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-OOXMLCharts-insertBubbleChart.java" >}}
 
 The code produces the following result:
 
-|![bubble-chart-aspose-words-java](working-with-charts-11.png)|
-| :- |
+![bubble-chart-aspose-words-java](working-with-charts-11.png)
 
 ## Working with Charts through Shape.Chart Object
 
-Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) property contains all chart related options available through the public API. For example, let's change Chart title or legend behavior:
+Once the chart was inserted and filled with data, you are able to change its appearance. [Shape.Chart](https://reference.aspose.com/words/java/com.aspose.words/shape/#getChart) property contains all chart related options available through the public API.
+
+For example, let's change Chart title or legend behavior:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartAppearance-changeChartAppearanceUsingShapeChartObject.java" >}}
 
@@ -72,11 +78,11 @@ The code generates the followings results:
 
 ## How to Work with ChartSeriesCollection of Chart
 
-Let’s look into [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) collection. All chart series are available through the chart.getSeries()collection, which is Iterable:
+Let’s look into [ChartSeries](https://reference.aspose.com/words/java/com.aspose.words/chartseries/) collection. All chart series are available through the [chart.getSeries()](https://reference.aspose.com/words/java/com.aspose.words/chart/#getSeries) collection, which is **Iterable**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartSeriesCollectionOfChart-WorkWithChartSeriesCollectionOfChart.java" >}}
 
-You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call the chart.getSeries().clear()method.
+You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call the **chart.getSeries().clear()** method.
 
 ## Working with Single ChartSeries Class
 
@@ -96,7 +102,7 @@ All single [ChartSeries](https://reference.aspose.com/words/java/com.aspose.word
 
 ## How to Work with Single ChartDataPoint of a ChartSeries
 
-Using ChartDataPoint you are able to customize the formatting of a single data point of the chart series.
+Using [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithSingleChartDataPointOfAChartSeries-WorkWithSingleChartDataPointOfAChartSeries.java" >}}
 
@@ -106,7 +112,7 @@ Please see the result below:
 
 ## How to Work with ChartDataLabel of a Single ChartSeries
 
-Using ChartDataLabel you are able to specify the formatting of a single data label of the chart series, like show/hide LegendKey, CategoryName, SeriesName, Value etc.
+Using [ChartDataLabel](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/) you are able to specify the formatting of a single data label of the chart series, like show/hide LegendKey, CategoryName, SeriesName, Value etc:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkWithChartDataLabelOfASingleChartSeries-WorkWithChartDataLabelOfASingleChartSeries.java" >}}
 
@@ -116,7 +122,7 @@ Please see the result below:
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
-The ChartDataLabelCollection class defines properties which can be used to set default options for ChartDataLabels for Chart Series. These properties include setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue etc.
+The [ChartDataLabelCollection](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabelcollection/) class defines properties which can be used to set default options for **ChartDataLabels** for Chart **Series**. These properties include setShowCategoryName, setShowBubbleSize, setShowPercentage, setShowSeriesName, setShowValue etc:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-DefaultOptionsForDataLabels-DefaultOptionsForDataLabels.java" >}}
 
@@ -126,55 +132,65 @@ Please see the result below:
 
 ## How to Format Number of Chart Data Label
 
-Using the NumberFormat property of ChartDataLabel,  you can specify the number formatting of a single data label of the chart. The below code example shows how to format a number of the data label. 
+Using the [NumberFormat](https://reference.aspose.com/words/java/com.aspose.words/chartdatalabel/#getNumberFormat) property, you can specify the number formatting of a single data label of the chart.
+
+The following code example shows how to format a number of the data label:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-ChartNumberFormat-ChartNumberFormat.java" >}}
 
 ## How to Set Chart Axis Properties
 
-If you want to work with chart axis, scaling, and display units for the value axis, please use ChartAxis, AxisDisplayUnit, and AxisScaling classes. The following code example shows how to define X and Y-axis properties.
+If you want to work with chart axis, scaling, and display units for the value axis, please use [ChartAxis](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/java/com.aspose.words/axisdisplayunit/), and [AxisScaling](https://reference.aspose.com/words/java/com.aspose.words/axisscaling/) classes.
+
+The following code example shows how to define X and Y-axis properties:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-DefineXYAxisProperties.java" >}}
 
 ### How to Set DateTime Value of Axis
 
-The following code example shows how to set date/time values to axis properties.
+The following code example shows how to set date/time values to axis properties:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.java" >}}
 
 ### How to Format Number Value of Axis
 
-The following code example shows how to change the format of numbers on the value axis.
+The following code example shows how to change the format of numbers on the value axis:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetNumberFormatForAxis.java" >}}
 
 ### How to Set Bounds of Axis
 
-The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value. The following code example shows how to set the bounds of an axis.
+The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value.
+
+The following code example shows how to set the bounds of an axis:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetboundsOfAxis.java" >}}
 
 ### How to Set Interval Unit Between Labels
 
-The following code example shows how to set the interval unit between labels on an axis.
+The following code example shows how to set the interval unit between labels on an axis:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.java" >}}
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property. The following code example shows how to hide the Y-axis of the chart. 
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property.
+
+The following code example shows how to hide the Y-axis of the chart:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-HideChartAxis.java" >}}
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.setTickLabelAlignment() property. The following code example shows how to tick label alignment.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of [setTickLabelAlignment()](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#setTickLabelAlignment-int) property.
+
+The following code example shows how to tick label alignment:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.java" >}}
 
 {{% alert color="primary" %}}
 
-MS Word aligns Chart Label to the center by default.
+Microsoft Word aligns Chart Label to the center by default.
 
 {{% /alert %}}
 
