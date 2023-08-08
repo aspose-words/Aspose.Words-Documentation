@@ -52,7 +52,7 @@ All of this provides an efficient and safe way to check a document for signature
 
 The following code example shows how to detect the presence of digital signatures and verify them:
 
-//DetectDocumentSignatures
+{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "detect-document-signatures.cs" >}}
 
 ## Create a Digital Signature {#create-a-digital-signature}
 
@@ -68,7 +68,7 @@ Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
-//SingDocument
+{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "sign-document.cs" >}}
 
 ### Add a Signature Line
 
@@ -84,7 +84,7 @@ Also, if a document contains a signature line and no digital signature, there is
 
 The following code example shows how to sign a document with a personal certificate and a specific signature line:
 
-//CreateNewSignatureLineAndSetProviderID
+{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "create-new-signature-line-and-set-provider-id.cs" >}}
 
 ### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
@@ -92,7 +92,7 @@ Aspose.Words allows you to sign and get all details of a PDF document using the 
 
 The following code example shows how to sign a generated PDF:
 
-//DigitallySignedPdfUsingCertificateHolder
+{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "digitally-signed-pdf-using-certificate-holder.cs" >}}
 
 ## Remove Digital Signatures
 
@@ -100,7 +100,7 @@ Aspose.Words allows you to remove all digital signatures from a signed document 
 
 The following code example shows how to load and remove digital signatures from a document:
 
-//RemoveSignatures
+{{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "remove-signatures.cs" >}}
 
 {{% alert color="primary" %}}
 
