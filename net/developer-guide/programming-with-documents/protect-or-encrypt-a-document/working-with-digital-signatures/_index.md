@@ -52,25 +52,7 @@ All of this provides an efficient and safe way to check a document for signature
 
 The following code example shows how to detect the presence of digital signatures and verify them:
 
-{{< highlight csharp >}}
-// Use a FileFormatInfo instance to verify that a document is not digitally signed.
-FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
-
-Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
-Assert.False(info.HasDigitalSignature);
-
-// Sign the document.
-CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-certificateHolder, new SignOptions() { SignTime = DateTime.Now });
-
-// Use a new FileFormatInfo instance to confirm that it is signed.
-info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
-Assert.True(info.HasDigitalSignature);
-
-// The signatures can then be accessed like this.
-Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
-{{< /highlight >}}
+//DetectDocumentSignatures
 
 ## Create a Digital Signature {#create-a-digital-signature}
 
@@ -86,36 +68,7 @@ Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
-{{< highlight csharp >}}
-// Create X.509 certificate.
-CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
-
-// Set up the signing time.
-SignOptions signOptions = new SignOptions { Comments = "My comment", SignTime = DateTime.Now };
-
-// Sign your document.
-using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
-{
-	using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
-	{
-		DigitalSignatureUtil.Sign(streamIn, streamOut, certificateHolder, signOptions);
-	}
-}
-
-// Load and count digital signatures.
-using (Stream stream = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.Open))
-{
-	DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
-	Assert.AreEqual(1, digitalSignatures.Count);
-
-	DigitalSignature signature = digitalSignatures[0];
-	
-	Assert.True(signature.IsValid);
-	Assert.AreEqual(DigitalSignatureType.XmlDsig, signature.SignatureType);
-	Assert.AreEqual(signOptions.SignTime.ToString(), signature.SignTime.ToString());
-	Assert.AreEqual("My comment", signature.Comments);
-}
-{{< /highlight >}}
+//SingDocument
 
 ### Add a Signature Line
 
@@ -131,69 +84,7 @@ Also, if a document contains a signature line and no digital signature, there is
 
 The following code example shows how to sign a document with a personal certificate and a specific signature line:
 
-{{< highlight csharp >}}
-// Create a Document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Set signature line options.
-SignatureLineOptions signatureLineOptions = new SignatureLineOptions
-{
-	Signer = "Entername",
-	SignerTitle = "QA",
-	Email = “EnterSomeEmail",
-	ShowDate = true,
-	DefaultInstructions = false,
-	Instructions = "You need more info about signature line",
-	AllowComments = true
-};
-
-// Insert signature line.
-SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
-signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
-
-doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx");
-
-// Set signing options. 
-SignOptions signOptions = new SignOptions
-{
-	SignatureLineId = signatureLine.Id,
-	ProviderId = signatureLine.ProviderId,
-	Comments = "Document was signed by vderyushev",
-	SignTime = DateTime.Now
-};
-
-// Create a certificate.
-CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
-
-// We can sign the signature line programmatically.
-DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
-
-// Create the shape of the signature line.
-doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
-Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-signatureLine = shape.SignatureLine;
-
-Assert.AreEqual("vderyushev", signatureLine.Signer);
-Assert.AreEqual("QA", signatureLine.SignerTitle);
-Assert.AreEqual("vderyushev@aspose.com", signatureLine.Email);
-Assert.True(signatureLine.ShowDate);
-Assert.False(signatureLine.DefaultInstructions);
-Assert.AreEqual("You need more info about signature line", signatureLine.Instructions);
-Assert.True(signatureLine.AllowComments);
-Assert.True(signatureLine.IsSigned);
-Assert.True(signatureLine.IsValid);
-
-// Loading signatures.
-DigitalSignatureCollection signatures = DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
-
-Assert.AreEqual(1, signatures.Count);
-Assert.True(signatures[0].IsValid);
-Assert.AreEqual("Document was signed by vderyushev", signatures[0].Comments);
-Assert.AreEqual(DateTime.Today, signatures[0].SignTime.Date);
-Assert.AreEqual("CN=Morzal.Me", signatures[0].IssuerName);
-Assert.AreEqual(DigitalSignatureType.XmlDsig, signatures[0].SignatureType);
-{{< /highlight >}}
+//CreateNewSignatureLineAndSetProviderID
 
 ### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
@@ -201,29 +92,7 @@ Aspose.Words allows you to sign and get all details of a PDF document using the 
 
 The following code example shows how to sign a generated PDF:
 
-{{< highlight csharp >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Writeln("Signed PDF contents.");
-
-// Load the certificate from disk.
-// The other constructor overloads can be used to load certificates from different locations.
-CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
-
-// Pass the certificate and details to the save options class to sign with.
-PdfSaveOptions options = new PdfSaveOptions();
-DateTime signingTime = DateTime.Now;
-options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", signingTime);
-
-// We can use this attribute to set a different hash algorithm.
-options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.Sha256;
-
-Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
-Assert.AreEqual("Aspose Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.SignatureDate);
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
-{{< /highlight >}}
+//DigitallySignedPdfUsingCertificateHolder
 
 ## Remove Digital Signatures
 
@@ -231,30 +100,7 @@ Aspose.Words allows you to remove all digital signatures from a signed document 
 
 The following code example shows how to load and remove digital signatures from a document:
 
-{{< highlight csharp >}}
-// Load digital signatures via filename string to verify that the document is signed.
-DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
-Assert.AreEqual(1, digitalSignatures.Count);
-
-// Re-save the document to an output filename with all digital signatures removed.
-DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx", ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
-
-// Remove all signatures from the document using stream parameters.
-using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
-{
-	using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
-	{
-		DigitalSignatureUtil.RemoveAllSignatures(streamIn, streamOut);
-	} 
-}
-
-// We can also load a document's digital signatures via stream, which we will do to verify that all signatures have been removed.
-using (Stream stream = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Open))
-{
-	digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
-	Assert.AreEqual(0, digitalSignatures.Count);
-}
-{{< /highlight >}}
+//RemoveSignatures
 
 {{% alert color="primary" %}}
 
