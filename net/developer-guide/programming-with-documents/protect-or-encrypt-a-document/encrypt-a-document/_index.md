@@ -40,19 +40,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 
 The following code example shows how to encrypt a document with a password:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Write("Hello world!");
-
-// DocSaveOptions only applies to Doc and Dot save formats.
-DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.Password = "MyPassword";
-doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
-{{< /highlight >}}
+//EncryptDocumentWithPassword
 
 ## Check If a Document Is Encrypted
 
@@ -62,20 +50,7 @@ To detect if a document is encrypted and if a password is required, you can use 
 
 The following code example shows how to detect the document encryption:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document();
-OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
-saveOptions.Password = "MyPassword";
-
-doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
-            
-// Create a FileFormatInfo object for this document.
-FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
-
-// Verify the encryption status of our document.
-Assert.True(info.IsEncrypted);
-{{< /highlight >}}
+//VerifyEncryptedDocument
 
 ## Open a Document With or Without a Password
 
@@ -83,44 +58,10 @@ When we have made sure that a document is encrypted, we can try to open this doc
 
 The following code example shows how to try opening an encrypted document without a password:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Write("Hello world!");
-
-//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-OoxmlSaveOptions options = new OoxmlSaveOptions(SaveFormat.Docx);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.Password = "MyPassword";
-doc.Save(ArtifactsDir + "OoxmlSaveOptions.SaveAsDocx.docx", options);
-
-// We will not be able to open this document with Microsoft Word or
-// Aspose.Words without providing the correct password.
-Assert.Throws<IncorrectPasswordException>(() =>
-	doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx"));
-{{< /highlight >}}
+//LoadEncryptedDocumentWithoutPassword
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
 The following code example shows how to try opening an encrypted document with a password:
 
-{{< highlight csharp >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.Write("Hello world!");
-
-//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-OoxmlSaveOptions options = new OoxmlSaveOptions(SaveFormat.Docx);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.Password = "MyPassword";
-doc.Save(ArtifactsDir + "OoxmlSaveOptions.SaveAsDocx.docx", options);
-
-// Open the encrypted document by passing the correct password in a LoadOptions object.
-doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx", new LoadOptions("MyPassword"));
-
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
-{{< /highlight >}}
+//LoadSaveEncryptedDocument
