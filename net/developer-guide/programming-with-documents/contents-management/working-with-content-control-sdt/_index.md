@@ -45,7 +45,7 @@ The following code example shows how to create content control of the type comb
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-ComboBoxContentControl-ComboBoxContentControl.cs" >}}
 
-## How to update Content Controls
+## How to Update Content Controls
 
 This section explains how to update the values of SDT or content control programmatically.
 
@@ -57,12 +57,6 @@ The following code example shows how to modify content controls of type plain t
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-UpdateContentControls-ModifyContentControls.cs" >}}
 
-{{% alert color="primary" %}}
-
-You can download the sample file of these examples from [Aspose.Words GitHub]().
-
-{{% /alert %}}
-
 ## Binding Content Control to Custom XML Parts
 
 You can bind content controls with XML data (*custom XML part*) in Word documents.
@@ -73,7 +67,7 @@ The following code example shows how to bind content control to custom XML part
 
 ## XMLMapping of Structured Document Tag Range
 
-You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the StructuredDocumentTagRangeStart.XmlMapping property. However, the [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) method can be used to map a structured document tag range to XML data.
+You can get the mapping of this structured document tag range to XML data in a custom XML part of the current document using the **StructuredDocumentTagRangeStart.XmlMapping property**. However, the [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) method can be used to map a structured document tag range to XML data.
 
 The following code example shows how to set XML mapping:
 
@@ -81,7 +75,8 @@ The following code example shows how to set XML mapping:
 
 ## Clear Contents of a Content Control
 
-You can clear the contents of a content control with displaying a placeholder. The**StructuredDocumentTag.Clear** method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in Microsoft Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared.
+You can clear the contents of a content control with displaying a placeholder. The **StructuredDocumentTag.Clear** method clears contents of this structured document tag and displays a placeholder if it is defined. However, It is not possible to clear the contents of a content control if it has revisions. If a content control has no placeholder, five spaces are inserted like in Microsoft Word (except repeating sections, repeating section items, groups, check-boxes, citations). If a content control is mapped to custom XML, the referenced XML node is cleared.
+
 The following code example shows how to clear the content of content control:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-ClearContentsControl.cs" >}}
@@ -99,13 +94,15 @@ The following code example shows how to change the color of content control:
 
 ## How to Set Style to Format Text Typed into the Content Control
 
-If you want to set the style of content control, you can use StructuredDocumentTag.Style or StructuredDocumentTag.StyleName properties. The following code example demonstrates how to set the style of content control. When you type the text into content control in the output document, the typed text will have the style "Quote".
+If you want to set the style of content control, you can use StructuredDocumentTag.Style or StructuredDocumentTag.StyleName properties. When you type the text into content control in the output document, the typed text will have the style "Quote".
 
 {{% alert color="primary" %}}
 
 Note that only Linked and Character styles can be applied to content control. An InvalidOperationException ("Cannot apply this style to the SDT") is thrown when a style that exists but is not Linked or Character style is being applied.
 
 {{% /alert %}}
+
+The following code example shows how to set the style of content control:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-StructuredDocumentTag-WorkingWithSDT-SetContentControlStyle.cs" >}}
 

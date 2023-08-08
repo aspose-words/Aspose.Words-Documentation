@@ -13,9 +13,9 @@ New [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbu
 
 ## How to Insert a Chart
 
-In thos section we eill learn how to insert a chart into a document.
+In this section we eill learn how to insert a chart into a document.
 
-### Insert Column chart
+### Insert Column Chart
 
 The following code example shows how to insert column chart:
 
@@ -78,11 +78,11 @@ The code generates the followings results:
 
 ## How to Work with ChartSeriesCollection of Chart
 
-Let’s look into ChartSeries collection. All chart series are available through chart.Series collection, which is IEnumerable:
+Let’s look into [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) collection. All chart series are available through [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/) collection, which is **IEnumerable**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
-You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call chart.Series.Clear() method.
+You can remove series one by one or clear all of them as well as add a new one if needed. The newly inserted chart has some default series added to this collection. To remove them you need to call the **chart.Series.Clear()** method.
 
 ## Working with Single ChartSeries Class
 
@@ -95,15 +95,17 @@ Please see the result below:
 ![line-chart-chartseries-aspose-words-net](working-with-charts-7.png)
 
 
-All single ChartSeries have default ChartDataPoint options, please try using the following code to change them:
+All single [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) have default [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) options, please try using the following code to change them:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
+
+Please see the result below:
 
 ![line-chart-chartdatapoint-aspose-words-net](working-with-charts-8.png)
 
 ## How to Work with Single ChartDataPoint of a ChartSeries
 
-Using ChartDataPoint you are able to customize the formatting of a single data point of the chart series:
+Using [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
@@ -113,7 +115,7 @@ Please see the result below:
 
 ## How to Work with ChartDataLabel of a Single ChartSeries
 
-Using ChartDataLabel you are able to specify the formatting of a single data label of the chart series, like show/hide LegendKey, CategoryName, SeriesName, Value etc:
+Using [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) you are able to specify the formatting of a single data label of the chart series, like show/hide LegendKey, CategoryName, SeriesName, Value etc:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
@@ -123,7 +125,7 @@ Please see the result below:
 
 ## How to Define Default Options for ChartDataLabels of ChartSeries
 
-The ChartDataLabelCollection class defines properties which can be used to set default options for ChartDataLabels for Chart Series. These properties include ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue etc:
+The [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) class defines properties which can be used to set default options for **ChartDataLabels** for Chart **Series**. These properties include ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue etc:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
 
@@ -133,7 +135,7 @@ Please see the result below:
 
 ## How to Format Number of Chart Data Label
 
-Using ChartDataLabel.NumberFormat you are able to specify number formatting of a single data label of the chart.
+Using [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) you are able to specify number formatting of a single data label of the chart.
 
 The following code example shows how to format a number of the data label:
 
@@ -183,7 +185,7 @@ The following code example shows how to hide the Y-axis of the chart:
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of ChartAxis.TickLabelAlignment property.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of the [TickLabelAlignment](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/) property.
 
 The following code example shows how to tick label alignment:
 
@@ -197,7 +199,7 @@ Microsoft Word aligns Chart Label to the centre by default.
 
 ## How to Set Fill and Stroke Formatting
 
-Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the ChartFormat type in the ChartSeries, ChartDataPoint, and ChartMarker classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
+Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the **ChartFormat** type in the **ChartSeries**, **ChartDataPoint**, and **ChartMarker** classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
 
 The following code example shows how to set series color:
 

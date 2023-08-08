@@ -13,7 +13,7 @@ A font is a set of characters with a certain size, color, and design. Aspose.Wor
 
 ## Font Formatting
 
-The current font formatting is represented by the **Font** object returned by the [DocumentBuilder.Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) property. The **Font** class contains a wide variety of font properties, replicating those available in Microsoft Word.
+The current font formatting is represented by the **Font** object returned by the [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) property. The **Font** class contains a wide variety of font properties, replicating those available in Microsoft Word.
 
 The following code example shows how to set font formatting:
 
@@ -31,7 +31,7 @@ The [LineSpacing](https://reference.aspose.com/words/net/aspose.words/font/lines
 
 ## Font EmphasisMark
 
-Some East Asian languages use a special emphasis mark to indicate an emphasis. The **Font** class provides the [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/font/emphasismark/) property to get or set the EmphasisMark enumeration values to be applied when formatting.
+Some East Asian languages use a special emphasis mark to indicate an emphasis. The **Font** class provides the [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/font/emphasismark/) property to get or set the [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/emphasismark/) enumeration values to be applied when formatting.
 
 The following code example shows how to set the **EphasisMark** property:
 

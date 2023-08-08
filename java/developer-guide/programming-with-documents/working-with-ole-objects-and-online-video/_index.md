@@ -15,7 +15,7 @@ In this article, we will talk about inserting an OLE object and setting its prop
 
 ## Insert Ole Object
 
-If you want OLE Object, call the **DocumentBuilder.InsertOleObject** method and pass it the **ProgId** explicitly with other parameters.
+If you want OLE Object, call the [InsertOleObject](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream) method and pass it the **ProgId** explicitly with other parameters.
 
 The following code example shows how to insert OLE Object into a document:
 
@@ -35,7 +35,7 @@ The following code example shows how to set the file name, extension, and displ
 
 Users can access OLE object data using various properties and methods of the OleFormat class. For example, it is possible to get the OLE object raw data or the path and name of a source file for the linked OLE object.
 
-The following code example shows how to get OLE Object raw data using the **OleFormat.GetRawData** method:
+The following code example shows how to get OLE Object raw data using the [GetRawData](https://reference.aspose.com/words/java/com.aspose.words/oleformat/#getRawData) method:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
@@ -43,7 +43,7 @@ The following code example shows how to get OLE Object raw data using the **Ole
 
 OLE objects can also be inserted into documents as images.
 
-The following code example shows how to insert OLE Object as an icon. For this purpose, the **DocumentBuilder** class exposes the **InsertOleObjectAsIcon** method.
+The following code example shows how to insert OLE Object as an icon. For this purpose, the **DocumentBuilder** class exposes the [InsertOleObjectAsIcon](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String) method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.java" >}}
 
@@ -53,7 +53,7 @@ The following code example shows how to inserts an embedded OLE object as an ico
 
 ## Insert Online Video
 
-Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the **DocumentBuilder.InsertOnlineVideo** method:
+Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the [InsertOnlineVideo](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertOnlineVideo-java.lang.String-double-double) method:
 
 The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class introduces four overloads of this method. The first one works with the most popular video resources and takes the URL of the video as a parameter. For example, the first overload supports simple insertion of online videos from [YouTube](https://www.youtube.com/) and [Vimeo](https://vimeo.com/) resources.
 

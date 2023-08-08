@@ -13,7 +13,7 @@ Aspose.Words also provides some classes, methods and properties for working with
 
 ## Insert Endnote and Set Numbering Options
 
-If you want to insert footnote or endnote into Word document, please use [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/) method. This method inserts a footnote or endnote into the document.
+If you want to insert footnote or endnote into Word document, please use the [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/) method. This method inserts a footnote or endnote into the document.
 
 [EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) and [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) classes represent numbering options for footnote and endnote.
 
@@ -21,15 +21,15 @@ The following code example shows how to insert endnote into the document and set
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetEndnoteOptions.cs" >}}
 
-## How to Set Number of Footnote Layout Columns
+## Set Number of Footnote Layout Columns
 
-You can set the number of footnote layout columns using [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/) property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page.
+You can set the number of footnote layout columns using the [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/) property. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page.
 
 The following code example shows how to set the number of columns for footnote layout:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetFootNoteColumns.cs" >}}
 
-## How to Set the Position of Footnote and EndNote
+## Set the Position of Footnote and EndNote
 
 The footnote position can be at the bottom of each page or beneath the text on each page. The endnote position can be at the end of the section or at the end of the document.
 

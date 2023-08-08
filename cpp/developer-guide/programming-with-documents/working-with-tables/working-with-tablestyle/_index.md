@@ -37,7 +37,7 @@ EXAMPLE
 
 ## Apply an Existing Table Style
 
-Aspose.Words provides a [TableStyle](https://reference.aspose.com/words/cpp/aspose.words/tablestyle/) inherited from the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. **TableStyle** facilitates the user to apply different style options like as shading, padding, indentation, [CellSpacing](https://reference.aspose.com/words/cpp/aspose.words/tablestyle/get_cellspacing/) and [Font](https://reference.aspose.com/words/cpp/aspose.words/style/get_font//), etc.
+Aspose.Words provides a [TableStyle](https://reference.aspose.com/words/cpp/aspose.words/tablestyle/) inherited from the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. **TableStyle** facilitates the user to apply different style options like as shading, padding, indentation, [CellSpacing](https://reference.aspose.com/words/cpp/aspose.words/tablestyle/get_cellspacing/) and [Font](https://reference.aspose.com/words/cpp/aspose.words/style/get_font/), etc.
 
 In addition, Aspose.Words provides the [StyleCollection](https://reference.aspose.com/words/cpp/aspose.words/stylecollection/) class and a few properties of the Table class to specify which table style we will work with: [Style](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_style/), [StyleIdentifier](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_styleidentifier/), [StyleName](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_stylename/), and [StyleOptions](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_styleoptions/).
 

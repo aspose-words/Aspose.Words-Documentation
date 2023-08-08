@@ -15,7 +15,7 @@ In Aspose.Words, the [TextBox](https://reference.aspose.com/words/net/aspose.wor
 
 The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/isvalidlinktarget/) method in order to check whether the **TextBox** can be linked to the target **Textbox**.
 
-The following code example shows how to check if  the TextBox can be linked to the target Textbox:
+The following code example shows how to check if the TextBox can be linked to the target Textbox:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CreateALink.cs" >}}
 
