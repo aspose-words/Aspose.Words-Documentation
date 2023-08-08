@@ -225,6 +225,22 @@ Assert.AreEqual(signingTime.ToUniversalTime(), options.DigitalSignatureDetails.S
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 {{< /highlight >}}
 
+## Retrieve the Digital Signature Value
+
+Aspose.Words also provides the ability to retrieve the digital signature value from a digitally signed document as a byte array using the [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) property.
+
+The following code example shows how to obtain the digital signature value as a byte array from a document:
+
+{{< highlight csharp >}}
+Document doc = new Document(MyDir + "Digitally signed.docx");
+
+foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
+{
+    string signatureValue = Convert.ToBase64String(digitalSignature.SignatureValue);
+    Console.WriteLine("Base64 signature value is: {0}", signatureValue);
+}
+{{< /highlight >}}
+
 ## Remove Digital Signatures
 
 Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/) method.
