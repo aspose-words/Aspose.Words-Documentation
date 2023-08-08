@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Digital Signatures in C++
 second_title: Aspose.Words for C++
 articleTitle: Work with Digital Signatures
@@ -211,6 +211,22 @@ options->set_DigitalSignatureDetails(System::MakeObject<PdfDigitalSignatureDetai
 options->get_DigitalSignatureDetails()->set_HashAlgorithm(PdfDigitalSignatureHashAlgorithm::Sha256);
 
 doc->Save(u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
+{{< /highlight >}}
+
+## Retrieve the Digital Signature Value
+
+Aspose.Words also provides the ability to retrieve the digital signature value from a digitally signed document as a byte array using the [SignatureValue](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignature/get_signaturevalue/) property.
+
+The following code example shows how to obtain the digital signature value as a byte array from a document:
+
+{{< highlight cpp >}}
+System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(System::String(u"document.docx"));
+
+for (auto&& digitalSignature : doc->get_DigitalSignatures())
+{
+	System::String signatureValue = System::Convert::ToBase64String(digitalSignature->get_SignatureValue());
+	System::Console::WriteLine(u"Base64 signature value is: {0}", signatureValue);
+}
 {{< /highlight >}}
 
 ## Remove Digital Signatures
