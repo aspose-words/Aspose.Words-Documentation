@@ -40,7 +40,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 
 The following code example shows how to encrypt a document with a password:
 
-//EncryptDocumentWithPassword
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "encrypt-document-with-password.cs" >}}
 
 ## Check If a Document Is Encrypted
 
@@ -50,7 +50,7 @@ To detect if a document is encrypted and if a password is required, you can use 
 
 The following code example shows how to detect the document encryption:
 
-//VerifyEncryptedDocument
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "verify-encrypted-document.cs" >}}
 
 ## Open a Document With or Without a Password
 
@@ -58,10 +58,10 @@ When we have made sure that a document is encrypted, we can try to open this doc
 
 The following code example shows how to try opening an encrypted document without a password:
 
-//LoadEncryptedDocumentWithoutPassword
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-encrypted-document-without-password.cs" >}}
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
 The following code example shows how to try opening an encrypted document with a password:
 
-//LoadSaveEncryptedDocument
+{{< gist "aspose-words-gists" "af95c7a408187bb25cf9137465fe5ce6" "load-save-encrypted-document.cs" >}}
