@@ -40,19 +40,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 
 The following code example shows how to encrypt a document with a password:
 
-{{< highlight java >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.write("Hello world!");
-
-// DocSaveOptions only applies to Doc and Dot save formats.
-DocSaveOptions options = new DocSaveOptions(SaveFormat.DOC);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.setPassword("MyPassword");
-doc.save(getArtifactsDir() + "DocSaveOptions.SaveAsDoc.doc", options);
-{{< /highlight >}}
+//EncryptDocumentWithPassword
 
 ## Check If a Document Is Encrypted
 
@@ -62,20 +50,7 @@ To detect if a document is encrypted and if a password is required, you can use 
 
 The following code example shows how to detect the document encryption:
 
-{{< highlight java >}}
-// Create a document.
-Document doc = new Document();
-OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.ODT);
-saveOptions.setPassword("MyPassword");
-
-doc.save(getArtifactsDir() + "File.DetectDocumentEncryption.odt", saveOptions);
-
-// Create a FileFormatInfo object for this document.
-FileFormatInfo info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDocumentEncryption.odt");
-
-// Verify the encryption status of our document.
-Assert.assertTrue(info.isEncrypted());
-{{< /highlight >}}
+//VerifyEncryptedDocument
 
 ## Open a Document With or Without a Password
 
@@ -83,50 +58,10 @@ When we have made sure that a document is encrypted, we can try to open this doc
 
 The following code example shows how to try opening an encrypted document without a password:
 
-{{< highlight java >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.write("Hello world!");
-
-//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-OoxmlSaveOptions options = new OoxmlSaveOptions(SaveFormat.DOCX);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.setPassword("MyPassword");
-doc.save(getArtifactsDir() + "OoxmlSaveOptions.SaveAsDocx.docx", options);
-
-// We will not be able to open this document with Microsoft Word or
-// Aspose.Words without providing the correct password.
-try
-{
-    doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Password.docx"));
-}
-catch (Exception e)
-{
-    Assert.assertTrue(e instanceof IncorrectPasswordException);
-}
-{{< /highlight >}}
+//LoadEncryptedDocumentWithoutPassword
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
 The following code example shows how to try opening an encrypted document with a password:
 
-{{< highlight java >}}
-// Create a document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.write("Hello world!");
-
-//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-OoxmlSaveOptions options = new OoxmlSaveOptions(SaveFormat.DOCX);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options.setPassword("MyPassword");
-doc.save(getArtifactsDir() + "OoxmlSaveOptions.SaveAsDocx.docx", options);
-
-// Open the encrypted document by passing the correct password in a LoadOptions object.
-doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Password.docx", new LoadOptions("MyPassword"));
-
-Assert.assertEquals("Hello world!", doc.getText().trim());
-{{< /highlight >}}
+//LoadSaveEncryptedDocument
