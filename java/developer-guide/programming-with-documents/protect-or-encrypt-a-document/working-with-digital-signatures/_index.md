@@ -52,27 +52,7 @@ All of this provides an efficient and safe way to check a document for signature
 
 The following code example shows how to detect the presence of digital signatures and verify them:
 
-{{< highlight java >}}
-// Use a FileFormatInfo instance to verify that a document is not digitally signed.
-FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx");
-
-Assert.assertEquals(".docx", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
-Assert.assertFalse(info.hasDigitalSignature());
-
-// Sign the document.
-CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
-SignOptions signOptions = new SignOptions();
-signOptions.setSignTime(new Date());
-DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "File.DetectDigitalSignatures.docx",
-        certificateHolder, signOptions);
-
-// Use a new FileFormatInfo instance to confirm that it is signed.
-info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDigitalSignatures.docx");
-Assert.assertTrue(info.hasDigitalSignature());
-
-// The signatures can then be accessed like this.
-Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "detect-document-signatures.java" >}}
 
 ## Create a Digital Signature {#create-a-digital-signature}
 
@@ -88,36 +68,7 @@ Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
-{{< highlight java >}}
-// Create X.509 certificate.
-CertificateHolder certificateHolder=CertificateHolder.create(getMyDir()+"morzal.pfx","aw");
-
-// Set up the signing time.
-SignOptions signOptions = new SignOptions();
-signOptions.setComments("My comment");
-signOptions.setSignTime(new Date());
-
-// Sign your document.
-try (FileInputStream streamIn =  new FileInputStream(getMyDir()+"Digitally signed.docx");
-	FileOutputStream streamOut= new FileOutputStream(getArtifactsDir()+"DigitalSignatureUtil.SignDocument.docx"))
-{
-	DigitalSignatureUtil.sign(streamIn,streamOut,certificateHolder,signOptions);
-}
-
-// Load and count digital signatures.
-try (FileInputStream stream = new FileInputStream(getArtifactsDir()+"DigitalSignatureUtil.SignDocument.docx"))
-{
-	DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
-	Assert.assertEquals(1, digitalSignatures.getCount());
-
-	DigitalSignature signature=digitalSignatures.get(0);
-	
-	Assert.assertTrue(signature.isValid());
-	Assert.assertEquals(DigitalSignatureType.XML_DSIG, signature.getSignatureType());
-	Assert.assertEquals(signOptions.getSignTime().toString(), signature.getSignTime().toString());
-	Assert.assertEquals("My comment", signature.getComments());
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "sign-document.java" >}}
 
 ### Add a Signature Line
 
@@ -133,65 +84,7 @@ Also, if a document contains a signature line and no digital signature, there is
 
 The following code example shows how to sign a document with a personal certificate and a specific signature line:
 
-{{< highlight java >}}
-// Create a Document.
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Set signature line options.
-SignatureLineOptions signatureLineOptions = new SignatureLineOptions();
-signatureLineOptions.setSigner("Entername");
-signatureLineOptions.setSignerTitle("QA");
-signatureLineOptions.setEmail("EnterSomeEmail");
-signatureLineOptions.setShowDate(true);
-signatureLineOptions.setDefaultInstructions(false);
-signatureLineOptions.setInstructions("You need more info about signature line");
-signatureLineOptions.setAllowComments(true);
-
-// Insert signature line.
-SignatureLine signatureLine = builder.insertSignatureLine(signatureLineOptions).getSignatureLine();
-signatureLine.setProviderId(UUID.fromString("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2"));
-
-doc.save(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx");
-
-// Set signing options.
-SignOptions signOptions = new SignOptions();
-signOptions.setSignatureLineId(signatureLine.getId());
-signOptions.setProviderId(signatureLine.getProviderId());
-signOptions.setComments("Document was signed by vderyushev");
-signOptions.setSignTime(new Date());
-
-// Create a certificate.
-CertificateHolder certHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
-
-// We can sign the signature line programmatically.
-DigitalSignatureUtil.sign(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.docx",
-        getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
-
-// Create the shape of the signature line.
-doc = new Document(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
-Shape shape = (Shape)doc.getChild(NodeType.SHAPE, 0, true);
-signatureLine = shape.getSignatureLine();
-
-Assert.assertEquals("vderyushev", signatureLine.getSigner());
-Assert.assertEquals("QA", signatureLine.getSignerTitle());
-Assert.assertEquals("vderyushev@aspose.com", signatureLine.getEmail());
-Assert.assertTrue(signatureLine.getShowDate());
-Assert.assertFalse(signatureLine.getDefaultInstructions());
-Assert.assertEquals("You need more info about signature line", signatureLine.getInstructions());
-Assert.assertTrue(signatureLine.getAllowComments());
-Assert.assertTrue(signatureLine.isSigned());
-Assert.assertTrue(signatureLine.isValid());
-
-// Loading signatures.
-DigitalSignatureCollection signatures = DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
-
-Assert.assertEquals(1, signatures.getCount());
-Assert.assertTrue(signatures.get(0).isValid());
-Assert.assertEquals("Document was signed by vderyushev", signatures.get(0).getComments());
-Assert.assertEquals("CN=Morzal.Me", signatures.get(0).getIssuerName());
-Assert.assertEquals(DigitalSignatureType.XML_DSIG, signatures.get(0).getSignatureType());
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "create-new-signature-line-and-set-provider-id.java" >}}
 
 ### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
@@ -199,29 +92,7 @@ Aspose.Words allows you to sign and get all details of a PDF document using the 
 
 The following code example shows how to sign a generated PDF:
 
-{{< highlight java >}}
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-builder.writeln("Signed PDF contents.");
-
-// Load the certificate from disk.
-// The other constructor overloads can be used to load certificates from different locations.
-CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw");
-
-// Pass the certificate and details to the save options class to sign with.
-PdfSaveOptions options = new PdfSaveOptions();
-Date signingTime = new Date();
-options.setDigitalSignatureDetails(new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", signingTime));
-
-// We can use this attribute to set a different hash algorithm.
-options.getDigitalSignatureDetails().setHashAlgorithm(PdfDigitalSignatureHashAlgorithm.SHA_256);
-
-Assert.assertEquals("Test Signing", options.getDigitalSignatureDetails().getReason());
-Assert.assertEquals("Aspose Office", options.getDigitalSignatureDetails().getLocation());
-Assert.assertEquals(signingTime, options.getDigitalSignatureDetails().getSignatureDate());
-
-doc.save(getArtifactsDir() + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "digitally-signed-pdf-using-certificate-holder.java" >}}
 
 The picture below demonstrates that the generated PDF document is opened in Adobe Acrobat and the digital signature is verified as present and valid.
 
@@ -233,28 +104,7 @@ Aspose.Words allows you to remove all digital signatures from a signed document 
 
 The following code example shows how to load and remove digital signatures from a document:
 
-{{< highlight java >}}
-// Load digital signatures via filename string to verify that the document is signed.
-DigitalSignatureCollection digitalSignatures = DigitalSignatureUtil.loadSignatures(getMyDir() + "Digitally signed.docx");
-Assert.assertEquals(1, digitalSignatures.getCount());
-
-// Re-save the document to an output filename with all digital signatures removed.
-DigitalSignatureUtil.removeAllSignatures(getMyDir() + "Digitally signed.docx", getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
-
-// Remove all signatures from the document using stream parameters.
-try(FileInputStream streamIn = new FileInputStream(getMyDir() + "Digitally signed.docx");
-	FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"))
-{
-	DigitalSignatureUtil.removeAllSignatures(streamIn, streamOut);
-}
-
-// We can also load a document's digital signatures via stream, which we will do to verify that all signatures have been removed.
-try (FileInputStream stream = new FileInputStream(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx");)
-{
-	digitalSignatures = DigitalSignatureUtil.loadSignatures(stream);
-	Assert.assertEquals(0, digitalSignatures.getCount());
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "39ea49b7754e472caf41179f8b5970a0" "remove-signatures.java" >}}
 
 {{% alert color="primary" %}}
 
