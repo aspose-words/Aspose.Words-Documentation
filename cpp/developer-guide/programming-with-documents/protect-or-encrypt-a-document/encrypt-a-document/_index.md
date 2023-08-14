@@ -40,19 +40,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 
 The following code example shows how to encrypt a document with a password:
 
-{{< highlight cpp >}}
-// Create a document.
-auto doc = System::MakeObject<Document>();
-auto builder = System::MakeObject<DocumentBuilder>(doc);
-builder->Write(u"Hello world!");
-
-// DocSaveOptions only applies to Doc and Dot save formats.
-auto options = System::MakeObject<DocSaveOptions>(SaveFormat::Doc);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options->set_Password(u"MyPassword");
-doc->Save(u"DocSaveOptions.SaveAsDoc.doc", options);
-{{< /highlight >}}
+//EncryptDocumentWithPassword
 
 ## Check If a Document Is Encrypted
 
@@ -62,20 +50,7 @@ To detect if a document is encrypted and if a password is required, you can use 
 
 The following code example shows how to detect the document encryption:
 
-{{< highlight cpp >}}
-// Create a document.
-auto doc = System::MakeObject<Document>();
-auto saveOptions = System::MakeObject<OdtSaveOptions>(SaveFormat::Odt);
-saveOptions->set_Password(u"MyPassword");
-
-doc->Save(u"File.DetectDocumentEncryption.odt", saveOptions);
-            
-// Create a FileFormatInfo object for this document.
-auto info = FileFormatUtil::DetectFileFormat(u"File.DetectDocumentEncryption.odt");
-
-// Verify the encryption status of our document.
-ASSERT_TRUE(info->get_IsEncrypted());
-{{< /highlight >}}
+//VerifyEncryptedDocument
 
 ## Open a Document With or Without a Password
 
@@ -83,50 +58,10 @@ When we have made sure that a document is encrypted, we can try to open this doc
 
 The following code example shows how to try opening an encrypted document without a password:
 
-{{< highlight cpp >}}
-// Create a document.
-auto doc = System::MakeObject<Document>();
-auto builder = System::MakeObject<DocumentBuilder>(doc);
-builder->Write(u"Hello world!");
-
-//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-auto options = System::MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options->set_Password(u"MyPassword");
-doc->Save("OoxmlSaveOptions.SaveAsDocx.docx", options);
-
-// We will not be able to open this document with Microsoft Word or
-// Aspose.Words without providing the correct password.
-try
-{
-    doc = System::MakeObject<Document>(u"OoxmlSaveOptions.Password.docx"));
-}
-catch (const IncorrectPasswordException &ex)
-{
-    SUCCESS();
-}
-{{< /highlight >}}
+//LoadEncryptedDocumentWithoutPassword
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
 The following code example shows how to try opening an encrypted document with a password:
 
-{{< highlight csharp >}}
-// Create a document.
-auto doc = System::MakeObject<Document>();
-auto builder = System::MakeObject<DocumentBuilder>(doc);
-builder->Write(u"Hello world!");
-
-//OoxmlSaveOptions only applies to Docx, Docm, Dotx, Dotm, or FlatOpc formats.
-auto options = System::MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
-
-// Set a password with which the document will be encrypted, and which will be required to open it.
-options->set_Password(u"MyPassword");
-doc->Save(u"OoxmlSaveOptions.SaveAsDocx.docx", options);
-
-// Open the encrypted document by passing the correct password in a LoadOptions object.
-doc = System::MakeObject<Document>(u"OoxmlSaveOptions.Password.docx", System::MakeObject<LoadOptions>(u"MyPassword"));
-
-ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");
-{{< /highlight >}}
+//LoadSaveEncryptedDocument
