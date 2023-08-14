@@ -85,3 +85,17 @@ Below example shows how to sign Word document using signature provider identifie
 Below example shows how to create signature line and sign Word document using signature provider identifier.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Protect or Encrypt Document-working_with_digital_sinatures-CreateNewSignatureLineAndSetProviderID.py" >}}
+
+## Retrieve the Digital Signature Value
+
+Aspose.Words also provides the ability to retrieve the digital signature value from a digitally signed document as a byte array using the [SignatureValue](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) property.
+
+The following code example shows how to obtain the digital signature value as a byte array from a document:
+
+{{< highlight csharp >}}
+doc = aw.Document(MY_DIR + "Digitally signed.docx")
+
+for digital_signature in doc.digital_signatures:
+    signature_value = base64.b64encode(digital_signature.signature_value)
+    print(f"Base64 signature value is: {signature_value}")
+{{< /highlight >}}

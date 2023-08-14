@@ -88,6 +88,22 @@ The following code example shows how to sign a generated PDF:
 
 {{< gist "aspose-words-gists" "cf0914fc4ceb93b503278282432ceaeb" "digitally-signed-pdf-using-certificate-holder.h" >}}
 
+## Retrieve the Digital Signature Value
+
+Aspose.Words also provides the ability to retrieve the digital signature value from a digitally signed document as a byte array using the [SignatureValue](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignature/get_signaturevalue/) property.
+
+The following code example shows how to obtain the digital signature value as a byte array from a document:
+
+{{< highlight cpp >}}
+System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(System::String(u"document.docx"));
+
+for (auto&& digitalSignature : doc->get_DigitalSignatures())
+{
+	System::String signatureValue = System::Convert::ToBase64String(digitalSignature->get_SignatureValue());
+	System::Console::WriteLine(u"Base64 signature value is: {0}", signatureValue);
+}
+{{< /highlight >}}
+
 ## Remove Digital Signatures
 
 Aspose.Words allows you to remove all digital signatures from a signed document using the [RemoveAllSignatures](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) method.

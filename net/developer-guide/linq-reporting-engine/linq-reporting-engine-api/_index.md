@@ -1,4 +1,4 @@
-﻿---
+---
 title: LINQ Reporting Engine API in C#
 second_title: Aspose.Words for .NET
 articleTitle: LINQ Reporting Engine API
@@ -614,7 +614,15 @@ In this example, strings conforming the format "MM/dd/yyyy" are going to be reco
 
 In some scenarios, you may need to disable recognition of date-time values at all, for example, when you deal with strings containing already formatted date-time values, which you do not want to re-format using the engine. You can achieve this by setting the exact date-time parse formats to an empty list (but see the following note).
 
-**Note –** Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse format.
+**Note –** Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse formats.
+
+By default, the engine trims leading and trailing whitespaces for JSON string values while loading. However, you can instruct the engine to preserve the whitespaces as follows.
+
+{{< highlight csharp >}}
+JsonDataLoadOptions options = new JsonDataLoadOptions();
+options.PreserveSpaces = true;
+JsonDataSource dataSource = new JsonDataSource(..., options);
+{{< /highlight >}}
 
 ## Accessing CSV Data
 
