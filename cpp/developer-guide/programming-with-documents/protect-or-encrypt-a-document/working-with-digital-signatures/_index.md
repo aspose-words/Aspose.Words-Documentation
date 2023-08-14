@@ -1,4 +1,4 @@
-﻿---
+---
 title: Work with Digital Signatures in C++
 second_title: Aspose.Words for C++
 articleTitle: Work with Digital Signatures
@@ -46,7 +46,7 @@ All of this provides an efficient and safe way to check a document for signature
 
 The following code example shows how to detect the presence of digital signatures and verify them:
 
-//DetectDocumentSignatures
+{{< gist "aspose-words-gists" "cf0914fc4ceb93b503278282432ceaeb" "detect-document-signatures.h" >}}
 
 ## Create a Digital Signature {#create-a-digital-signature}
 
@@ -62,7 +62,7 @@ Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
-//SignDocument
+{{< gist "aspose-words-gists" "cf0914fc4ceb93b503278282432ceaeb" "sign-document.h" >}}
 
 ### Add a Signature Line
 
@@ -78,7 +78,7 @@ Also, if a document contains a signature line and no digital signature, there is
 
 The following code example shows how to sign a document with a personal certificate and a specific signature line:
 
-//CreateNewSignatureLineAndSetProviderId
+{{< gist "aspose-words-gists" "cf0914fc4ceb93b503278282432ceaeb" "create-new-signature-line-and-set-provider-id.h" >}}
 
 ### Sign a Generated PDF Document {#sign-a-generated-pdf-document}
 
@@ -86,7 +86,7 @@ Aspose.Words allows you to sign and get all details of a PDF document using the 
 
 The following code example shows how to sign a generated PDF:
 
-//DigitallySignedPdfUsingCertificateHolder
+{{< gist "aspose-words-gists" "cf0914fc4ceb93b503278282432ceaeb" "digitally-signed-pdf-using-certificate-holder.h" >}}
 
 ## Remove Digital Signatures
 
@@ -94,7 +94,7 @@ Aspose.Words allows you to remove all digital signatures from a signed document 
 
 The following code example shows how to load and remove digital signatures from a document:
 
-//RemoveSignatures
+{{< gist "aspose-words-gists" "cf0914fc4ceb93b503278282432ceaeb" "remove-signatures.h" >}}
 
 {{% alert color="primary" %}}
 
