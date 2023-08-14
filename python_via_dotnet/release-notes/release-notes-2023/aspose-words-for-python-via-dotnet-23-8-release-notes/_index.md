@@ -149,6 +149,7 @@ This section lists public API changes that were introduced in Aspose.Words for P
 ### Added a new public property to specify the size of rendered images in pixels
 
 The following public property has been added to the **ImageSaveOptions** class:
+
 {{< highlight python >}}
 @property
 def image_size(self) -> aspose.pydrawing.Size:
@@ -166,16 +167,18 @@ def image_size(self, value: aspose.pydrawing.Size):
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
+
 **Use Case**
 
 This use case explains how to render every page of a document to a separate TIFF image at 2325x5325 pixels and 600 dpi:
+
 {{% /alert %}}
 
 {{< highlight python >}}
 from aspose.words import BreakType, Document, DocumentBuilder, SaveFormat
 from aspose.words.saving import ImageSaveOptions, PageSet
 import aspose.pydrawing as pd
-  
+
 doc = Document()
 builder = DocumentBuilder(doc)
 
@@ -207,7 +210,7 @@ for i in range(doc.page_count):
 
 {{< highlight python >}}
 class PdfEncryptionDetails:
-   
+
     @overload
     def __init__(self, user_password: str, owner_password: str, permissions: aspose.words.saving.PdfPermissions):
         '''Initializes an instance of this class.'''
@@ -215,10 +218,13 @@ class PdfEncryptionDetails:
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
+
 **Use Case**
 
 This use case explains how to use PdfPermissions:
+
 {{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document, DocumentBuilder
 from aspose.words.saving import PdfEncryptionDetails, PdfPermissions, PdfSaveOptions
@@ -249,10 +255,13 @@ Now Aspose.Words can generate TOC (table of contents) for MOBI documents.
 Desired depth of TOC can be specified same way as it's done for AZW3 or EPUB documents using HtmlSaveOptions.epub_navigation_map_level property.
 
 {{% alert color="secondary" %}}
+
 **Use Case**
 
 This use case explains how to create MOBI document with TOC and specify navigation_map_level:
+
 {{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document, SaveFormat
 from aspose.words.saving import HtmlSaveOptions
@@ -266,7 +275,6 @@ doc.save("HtmlSaveOptions.CreateMobiToc.mobi", options)
 
 Note: Currently MOBI TOC won't be displayed by some viewers. For example, MOBI TOC won't be displayed by calibre app.
 
-
 ### The property HtmlSaveOptions.EpubNavigationMapLevel has been deprecated.
 
 The **HtmlSaveOptions.epub_navigation_map_level** property is marked as obsolete. Please, use **HtmlSaveOptions.navigation_map_level** instead.
@@ -276,10 +284,13 @@ The **HtmlSaveOptions.epub_navigation_map_level** property is marked as obsolete
 Starting from Aspose.Words 23.8, you can instruct LINQ Reporting Engine to preserve leading and trailing whitespaces for JSON string values (which are trimmed by default).
 
 {{% alert color="secondary" %}}
+
 **Use Case**
 
 This use case explains how to instruct LINQ Reporting Engine to preserve leading whitespaces:
+
 {{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import DocumentBuilder
 from aspose.words.reporting import JsonDataLoadOptions, JsonDataSource, JsonSimpleValueParseMode, ReportingEngine
