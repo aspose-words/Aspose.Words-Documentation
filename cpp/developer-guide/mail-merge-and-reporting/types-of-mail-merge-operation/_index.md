@@ -38,29 +38,7 @@ Once your template is ready, you can start performing the simple mail merge oper
 
 The following code example shows how to execute a simple mail merge operation using one of the [Execute](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/execute/) method:
 
-{{< highlight cpp >}}
-// For complete examples and data files, please go to https://github.com/aspose-words/Aspose.Words-for-C
-// Include the code for our template.
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Create Merge Fields.
-builder->InsertField(u" MERGEFIELD CustomerName ");
-builder->InsertParagraph();
-builder->InsertField(u" MERGEFIELD Item ");
-builder->InsertParagraph();
-builder->InsertField(u" MERGEFIELD Quantity ");
-
-auto boxHelper = [](const char16_t* value) { return ObjectExt::Box<String>(value);};
-
-// Fill the fields in the document with user data.
-doc->get_MailMerge()->Execute(
-    MakeArray<String>({u"CustomerName", u"Item", u"Quantity"}),
-    MakeArray<SharedPtr<Object>>(
-        {boxHelper(u"John Doe"), boxHelper(u"Hawaiian"), boxHelper(u"2")}));
-
-doc->Save(u"MailMerge.Simple.docx");
-{{< /highlight >}}
+//SimpleMailMerge
 
 You can notice the difference between the document before executing simple mail merge:
 
