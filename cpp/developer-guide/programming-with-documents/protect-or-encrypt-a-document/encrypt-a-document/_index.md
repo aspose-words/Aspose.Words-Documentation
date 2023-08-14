@@ -1,4 +1,4 @@
-﻿---
+---
 title: Encrypt a Document in C++
 second_title: Aspose.Words for C++
 articleTitle: Encrypt a Document
@@ -40,7 +40,7 @@ The table below lists the formats and encryption algorithms supported by Aspose.
 
 The following code example shows how to encrypt a document with a password:
 
-//EncryptDocumentWithPassword
+{{< gist "aspose-words-gists" "b4e8a7baa7d3c08127f9a043487de21b" "encrypt-document-with-password.h" >}}
 
 ## Check If a Document Is Encrypted
 
@@ -50,7 +50,7 @@ To detect if a document is encrypted and if a password is required, you can use 
 
 The following code example shows how to detect the document encryption:
 
-//VerifyEncryptedDocument
+{{< gist "aspose-words-gists" "b4e8a7baa7d3c08127f9a043487de21b" "verify-encrypted-document.h" >}}
 
 ## Open a Document With or Without a Password
 
@@ -58,10 +58,10 @@ When we have made sure that a document is encrypted, we can try to open this doc
 
 The following code example shows how to try opening an encrypted document without a password:
 
-//LoadEncryptedDocumentWithoutPassword
+{{< gist "aspose-words-gists" "b4e8a7baa7d3c08127f9a043487de21b" "load-encrypted-document-without-password.h" >}}
 
 After we have seen that an encrypted document cannot be opened without a password, we can try to open it by entering the password.
 
 The following code example shows how to try opening an encrypted document with a password:
 
-//LoadSaveEncryptedDocument
+{{< gist "aspose-words-gists" "b4e8a7baa7d3c08127f9a043487de21b" "load-save-encrypted-document.h" >}}
