@@ -11,7 +11,7 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 23.5, 23.6, 23.7
+## Aspose.Words for Python via .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
 
@@ -19,11 +19,19 @@ Aspose.Words 23.6 expands rendering options, adds a new export format, improves 
 
 Aspose.Words 23.7 enhances reporting capabilities, adds a new export format, and introduces changes to working with tables and digital signatures.
 
+Aspose.Words 23.8 expands the capabilities of different formats, improves rendering, and adds new options for working with fields. 
+
 ### Supported Formats
 
 * Starting with version 23.6, it is possible to save a document in XLSX format. Now you can convert your documents to Excel format. <sup>23.6</sup>
 
 * Starting with version 23.7, it is possible to save a document page or shape in EPS format. <sup>23.7</sup>
+
+### New Format Features
+
+- The functionality to automatically generate Table of Contents (TOC) for MOBI documents has been introduced. <sup>23.8</sup>
+- The [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) constructor has been expanded with [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23.8</sup>
+- Shaping of vertical text for EMF metafiles has been implemented. <sup>23.8</sup>
 
 ### Rendering
 
@@ -40,7 +48,7 @@ Support for Advanced Typography in WMF, EMF and EMF+ rendering has been added.
 
 #### Colored Content on the Page <sup>23.6</sup>
 
-The public property [PageInfo.Colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/), indicating whether the page is colored or not, has been added.
+The public property [PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/), indicating whether the page is colored or not, has been added.
 
 #### Formatting for Chart Data Labels <sup>23.6</sup>
 
@@ -56,6 +64,14 @@ A new way of dynamic HTML insertion for LINQ Reporting Engine has been added.
 
 Mustache tags are now supported in the [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/) and [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/) methods.
 
+#### Specifying the Size of Rendered Images <sup>23.8</sup>
+
+A new public property [image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) for specifying the size of rendered images in pixel has been introduced.
+
+#### Preserve Whitespaces for JSON String Values – LINQ <sup>23.8</sup>
+
+An option has been added to the LINQ Reporting Engine to preserve whitespaces for JSON string values.
+
 ### LowCode <sup>23.6</sup>
 
 New LowCode methods intended to merge different types of documents into a single output document have been added.
@@ -64,9 +80,9 @@ New LowCode methods intended to merge different types of documents into a single
 
 - Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
 - The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) method. <sup>23.5</sup>
-- The public property [PhoneticGuide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) has been added. <sup>23.5</sup>
-- The ability to retrieve a digital signature value from a digitally signed document as a byte array has been added by introducing a new [SignatureValue](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) property. <sup>23.7</sup>
-- The [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) classes have been extended with new public members – [Row.NextRow](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.PreviousRow](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.NextCell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), and [Cell.PreviousCell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
+- The public property [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) has been added. <sup>23.5</sup>
+- The ability to retrieve a digital signature value from a digitally signed document as a byte array has been added by introducing a new [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) property. <sup>23.7</sup>
+- The [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) classes have been extended with new public members – [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), and [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23.7</sup>
 
 {{% alert color="primary" %}}
 
@@ -75,6 +91,8 @@ Learn more about [Aspose.Words for Python via .NET 23.5 Release Notes](/words/py
 Learn more about [Aspose.Words for Python via .NET 23.6 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 23.7 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 23.8 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -116,7 +134,7 @@ Since 23.2 the chart rendering has been significantly improved.
 
 #### Background and Foreground Color Control <sup>23.3</sup>
 
-The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: [ForeThemeColor](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) and [BackThemeColor](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [ForeTintAndShade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) and [BackTintAndShade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
+The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) and [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) and [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
 
 #### Radial Gradients with the SkiaSharp Native Shader <sup>23.3</sup>
 
@@ -124,17 +142,17 @@ Rendering of radial gradients with the SkiaSharp native shader for .NET Standard
 
 #### Distance Between the Table and Surrounding Text <sup>23.4</sup>
 
-The ability to set the distance between the table and surrounding text has been added by introducing new properties to the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) class: [DistanceLeft](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [DistanceRight](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [DistanceTop](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), and [DistanceBottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
+The ability to set the distance between the table and surrounding text has been added by introducing new properties to the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) class: [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), and [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
 
 ### Loading and Saving Documents
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
 
-The ability to generate TOC (table of contents) for AZW3 documents has been added through the use of the [EpubNavigationMapLevel](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) property.
+The ability to generate TOC (table of contents) for AZW3 documents has been added through the use of the [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) property.
 
 #### Exporting List Items to Markdown <sup>23.1</sup>
 
-A way to control the export of list items to Markdown format has been provided by adding the [ListExportMode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) property to the [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class.
+A way to control the export of list items to Markdown format has been provided by adding the [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) property to the [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class.
 
 #### Document Saving Progress Notifications <sup>23.3</sup>
 
@@ -142,15 +160,15 @@ Saving progress notifications for MOBI and AZW3 formats has been implemented.
 
 #### Sentence and Word Spacing Adjustment  <sup>23.3</sup>
 
-The ability to specify whether to adjust sentence and word spacing automatically upon document import has been added by introducing the [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/) property.
+The ability to specify whether to adjust sentence and word spacing automatically upon document import has been added by introducing the [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/) property.
 
 ### Other
 
-- The ability to specify the character spacing adjustment of a document has been added through the [JustificationMode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) property implementation <sup>23.2</sup>
-- The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) property <sup>23.2</sup>
-- A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the [AutomaticallyUpdate](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) property <sup>23.2</sup>
-- The ability to determine whether [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) is a phonetic guide run has been added using the [IsPhoneticGuide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) property <sup>23.4</sup>
-- A simple way to work with series and axes of combo charts has been implemented by introducing the [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) class and adding the [Chart.Axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) property <sup>23.4</sup>
+- The ability to specify the character spacing adjustment of a document has been added through the [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) property implementation <sup>23.2</sup>
+- The way to instruct Aspose.Words whether to include textboxes, footnotes, and endnotes in word count statistics has been provided by adding the [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) property <sup>23.2</sup>
+- A new option for a document style, which allows specifying whether the style is automatically redefined based on the appropriate value, has been introduced through the [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) property <sup>23.2</sup>
+- The ability to determine whether [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) is a phonetic guide run has been added using the [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) property <sup>23.4</sup>
+- A simple way to work with series and axes of combo charts has been implemented by introducing the [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) class and adding the [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) property <sup>23.4</sup>
 - New public properties connected to the shape relative positioning and sizing have been added to the [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) class <sup>23.4</sup>
 - Accuracy and performance of color brightness calculation for automatic text color resolution has been improved in accordance with the latest versions of Microsoft Word <sup>23.4</sup>
 
@@ -184,7 +202,7 @@ An optimization that significantly reduces the depth of graphics state nesting w
 
 #### New Border Rendering Properties <sup>22.12</sup>
 
-New public properties [ThemeColor](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) and [TintAndShade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) have been introduced.
+New public properties [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) and [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) have been introduced.
 
 #### Linear Trendline Formula for DrawingML Rendering <sup>22.12</sup>
 
@@ -202,7 +220,7 @@ The ability to cache header/footer shapes to reduce the size of the output PDF f
 
 #### Automatic Numbering Detection when Loading a Document <sup>22.9</sup>
 
-The ability to specify the [AutoNumberingDetection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) class.
+The ability to specify the [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) property upon text loading has been implemented through an extended of the [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) class.
 
 #### Specifying a Particular Margin Type <sup>22.12</sup>
 
@@ -210,7 +228,7 @@ The ability to specify a particular **Margin** type for the given section has be
 
 ### Search and Compare <sup>22.10</sup>
 
-The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) upon find and replace options has been implemented by adding a new [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) property to the [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) class.
+The ability to ignore [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) upon find and replace options has been implemented by adding a new [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) property to the [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) class.
 
 ### Other
 
