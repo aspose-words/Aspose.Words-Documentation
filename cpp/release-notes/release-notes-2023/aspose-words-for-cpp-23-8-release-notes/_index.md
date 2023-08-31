@@ -20,7 +20,6 @@ There are 107 improvements and fixes in this regular monthly release. The most n
 - Expanded PdfEncryptionDetails constructor with PdfPermissions.
 - Introduced a new public property to specify the size of rendered images in pixels.
 - Implemented shaping of vertical text for EMF metafiles.
-- 
 ## Full list of changes
 
 {{% alert color="secondary" %}}
@@ -154,7 +153,7 @@ The following public property has been added to the **ImageSaveOptions** class:
     /// The default value is (0 x 0), which means that the size of the generated image will be calculated
     /// according to the size of the image in points, the specified resolution and scale.
     ASPOSE_WORDS_SHARED_API System::Drawing::Size get_ImageSize() const;
-
+    
     /// Setter for Aspose::Words::Saving::ImageSaveOptions::get_ImageSize
     ASPOSE_WORDS_SHARED_API void set_ImageSize(System::Drawing::Size value);
 {{< /highlight >}}
@@ -230,15 +229,15 @@ The **IBibliographyStylesProvider** interface and the **FieldOptions.Bibliograph
         /// 
         /// @return The <see cref="System::IO::Stream">Stream</see> with bibliography style XSLT stylesheet.
         virtual System::SharedPtr<System::IO::Stream> GetStyle(System::String styleFileName) = 0;
-
+    
     };
-
+    
     class ASPOSE_WORDS_SHARED_CLASS FieldOptions final : public System::Object
     {
     /// Gets a provider that returns a bibliography style for
     /// the <see cref="Aspose::Words::Fields::FieldBibliography">FieldBibliography</see> and <see cref="Aspose::Words::Fields::FieldCitation">FieldCitation</see> fields.
     ASPOSE_WORDS_SHARED_API const System::SharedPtr<Aspose::Words::Fields::IBibliographyStylesProvider>& get_BibliographyStylesProvider() const;
-
+    
     /// Sets a provider that returns a bibliography style for
     /// the <see cref="Aspose::Words::Fields::FieldBibliography">FieldBibliography</see> and <see cref="Aspose::Words::Fields::FieldCitation">FieldCitation</see> fields.
     ASPOSE_WORDS_SHARED_API void set_BibliographyStylesProvider(const System::SharedPtr<Aspose::Words::Fields::IBibliographyStylesProvider>& value);
