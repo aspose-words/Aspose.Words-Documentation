@@ -152,7 +152,7 @@ public class ChartAxis
 **Use Case**
 
 This use case explains how to set and show title of X and Y axes:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-chart-axis-title-cs" >}}
+{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-chart-axis-title.cs" >}}
 {{% /alert %}}
 
 ### Added public property MarkdownSaveOptions.ImagesFolderAlias
@@ -171,7 +171,7 @@ public string ImagesFolderAlias { get; set; }
 **Use Case**
 
 This use case explains how to use ImagesFolderAlias property within MarkdownSaveOptions:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-images-folder-cs" >}}
+{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-images-folder.cs" >}}
 {{% /alert %}}
 
 ### Added public property ParagraphFormat.BaselineAlignment
@@ -195,7 +195,7 @@ public enum BaselineAlignment
 **Use Case**
 
 This use case explains how to use BaselineAlignment property of a ParagraphFormat:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-paragraph-baseline-alignment-cs" >}}
+{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-paragraph-baseline-alignment.cs" >}}
 {{% /alert %}}
 
 ### Changed MetafileRenderingOptions properties related to metafile size on page emulation
@@ -238,5 +238,5 @@ public int EmulateRenderingToSizeOnPageResolution { get; set; }
 **Use Case**
 
 This use case explains how to set the EmulateRenderingToSizeOnPage property to emulate rendering according to the metafile size on page:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-emulate-rendering-to-size-on-page-cs" >}}
+{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "file-emulate-rendering-to-size-on-page.cs" >}}
 {{% /alert %}}
