@@ -200,7 +200,7 @@ This use case explains how to use BaselineAlignment property of a ParagraphForma
 
 ### Changed MetafileRenderingOptions properties related to metafile size on page emulation
 
-**MetafileRenderingOptions.ScaleWmfFontsToMetafileSize** property is replaced with **MetafileRenderingOptions.EmulateRenderingToSizeOnPage** and added **MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution**.
+**ScaleWmfFontsToMetafileSize** property is replaced with **EmulateRenderingToSizeOnPage** and added **EmulateRenderingToSizeOnPageResolution**.
 
 {{< highlight csharp >}}
 /// <summary>
