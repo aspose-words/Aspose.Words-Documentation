@@ -240,3 +240,15 @@ public int EmulateRenderingToSizeOnPageResolution { get; set; }
 This use case explains how to set the EmulateRenderingToSizeOnPage property to emulate rendering according to the metafile size on page:
 {{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "emulate-rendering-to-size-on-page.cs" >}}
 {{% /alert %}}
+
+### Removed obsolete property ChildNodes from CompositeNode class
+
+Related issue: WORDSNET-25439
+
+The obsolete public property **ChildNodes** is removed from **Aspose.Words.CompositeNode** class.
+Note, the removed ChildNodes is equivalent to calling GetChildNodes(NodeType, bool) with arguments (NodeType.Any and false)
+Please check the following example:
+
+{{< highlight csharp >}}
+Node[] children = source.GetChildNodes(NodeType.Any, false).ToArray();
+{{< /highlight >}}
