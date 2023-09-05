@@ -162,7 +162,7 @@ The following public property has been added to the **ImageSaveOptions** class:
 **Use Case**
 
 This use case explains how to render every page of a document to a separate TIFF image at 2325x5325 pixels and 600 dpi:
-{{< gist "aspose-words-gists" ".b065846d84145e07dc54369e00300215" "image-size-for-every-page.cpp" >}}
+{{< gist "aspose-words-gists" "b065846d84145e07dc54369e00300215" "image-size-for-every-page.cpp" >}}
 {{% /alert %}}
 
 ### Added PdfEncryptionDetails ctor overload with PdfPermissions
@@ -176,7 +176,7 @@ This use case explains how to render every page of a document to a separate TIFF
 **Use Case**
 
 This use case explains how to use PdfPermissions:
-{{< gist "aspose-words-gists" ".b065846d84145e07dc54369e00300215" "encryption-permissions.cpp" >}}
+{{< gist "aspose-words-gists" "b065846d84145e07dc54369e00300215" "encryption-permissions.cpp" >}}
 {{% /alert %}}
 
 ### Added the ability to generate TOC (table of contents) for MOBI documents
@@ -189,7 +189,7 @@ Desired depth of TOC can be specified same way as it's done for AZW3 or EPUB doc
 **Use Case**
 
 This use case explains how to create MOBI document with TOC and specify NavigationMapLevel:
-{{< gist "aspose-words-gists" ".b065846d84145e07dc54369e00300215" "create-mobi-toc.cpp" >}}
+{{< gist "aspose-words-gists" "b065846d84145e07dc54369e00300215" "create-mobi-toc.cpp" >}}
 {{% /alert %}}
 
 Note: Currently MOBI TOC won't be displayed by some viewers. For example, MOBI TOC won't be displayed by calibre app.
@@ -248,7 +248,7 @@ The **IBibliographyStylesProvider** interface and the **FieldOptions.Bibliograph
 **Use Case**
 
 This use case explains how to use IBibliographyStylesProvider:
-{{< gist "aspose-words-gists" ".b065846d84145e07dc54369e00300215" "change-bibliography-styles.cpp" >}}
+{{< gist "aspose-words-gists" "b065846d84145e07dc54369e00300215" "change-bibliography-styles.cpp" >}}
 {{% /alert %}}
 
 ### The property HtmlSaveOptions.EpubNavigationMapLevel has been deprecated.
