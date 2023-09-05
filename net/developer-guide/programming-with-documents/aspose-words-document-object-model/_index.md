@@ -116,7 +116,7 @@ You can remove a node from its parent by calling the [Remove](https://reference.
 
 The most efficient way to access child nodes of a [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) is via the [FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/) and [LastChild](https://reference.aspose.com/words/net/aspose.words/compositenode/lastchild/) properties that return the first and last child nodes, respectively. If there are no child nodes, these properties return *null*.
 
-**CompositeNode** also provides the [ChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/childnodes/) collection enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
+**CompositeNode** also provides the [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) method enabling indexed or enumerated access to the child nodes. The **ChildNodes** property is a live collection of nodes, which means that whenever the document is changed, such as when nodes are removed or added, the **ChildNodes** collection is automatically updated.
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/haschildnodes/) property.
 
