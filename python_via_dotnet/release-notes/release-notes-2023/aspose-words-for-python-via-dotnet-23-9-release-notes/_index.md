@@ -154,13 +154,16 @@ class ChartAxis:
      @property
         def title(self) -> aspose.words.drawing.charts.ChartAxisTitle:
             """Provides access to the axis title properties."""
-
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
+
 **Use Case**
+
 This use case explains how to set and show title of X and Y axes:
+
 {{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document, DocumentBuilder
 from aspose.words.drawing.charts import ChartType
@@ -190,6 +193,7 @@ doc.save("Charts.ChartAxisTitle.docx")
 ### Added public property MarkdownSaveOptions.images_folder_alias
 
 A new public property **images_folder_alias** has been added to class **MarkdownSaveOptions**:
+
 {{< highlight python >}}
 @property
 def images_folder_alias(self) -> str:
@@ -217,9 +221,13 @@ def images_folder_alias(self, value: str):
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
+
 **Use Case**
+
 This use case explains how to use ImagesFolderAlias property within MarkdownSaveOptions:
+
 {{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import DocumentBuilder
 from aspose.words.saving import MarkdownSaveOptions
@@ -241,6 +249,7 @@ builder.document.save("MarkdownSaveOptions.ImagesFolder.md", saveOptions)
 ### Added public property ParagraphFormat.baseline_alignment
 
 A new public property **baseline_alignment** has been added to class **ParagraphFormat** and a new public enum has been introduced:
+
 {{< highlight python >}}
 @property
 def baseline_alignment(self) -> aspose.words.BaselineAlignment:
@@ -256,9 +265,13 @@ class BaselineAlignment:
 {{< /highlight >}}
 
 {{% alert color="secondary" %}}
+
 **Use Case**
+
 This use case explains how to use BaselineAlignment property of a ParagraphFormat:
+
 {{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import BaselineAlignment, Document
 doc = Document("Office math.docx")
@@ -311,12 +324,16 @@ def emulate_rendering_to_size_on_page_resolution(self) -> int:
 @emulate_rendering_to_size_on_page_resolution.setter
 def emulate_rendering_to_size_on_page_resolution(self, value: int):
     ...
+{{< /highlight >}}
+
 {{% alert color="secondary" %}}
+
 **Use Case**
 
 This use case explains how to set the emulate_rendering_to_size_on_page property to emulate rendering according to the metafile size on page:
 
 {{% /alert %}}
+
 {{< highlight python >}}
 from aspose.words import Document
 from aspose.words.saving import PdfSaveOptions
