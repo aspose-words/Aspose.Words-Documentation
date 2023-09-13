@@ -9,7 +9,7 @@ weight: 28
 url: /net/working-with-pdfa-or-pdfua/
 ---
 
-PDF/A and PDF/UA format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A and PDF/UA conformant document.
+PDF/A and PDF/UA format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A and PDF/UA compliant document.
 
 Basic requirements are for the structure or fonts of a PDF/A and PDF/UA document, which we will consider in the following sections.
 
