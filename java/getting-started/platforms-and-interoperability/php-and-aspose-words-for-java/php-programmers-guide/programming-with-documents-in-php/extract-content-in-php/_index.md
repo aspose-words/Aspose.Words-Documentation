@@ -213,7 +213,7 @@ $dstDoc->save(ExtractContent::$gDataDir . "TestFile.CommentExclusive Out.doc");
 //ExSummary:This is a method which extracts blocks of content from a document between specified nodes.
 /**
 \* Extracts a range of nodes from a document found between specified markers and returns a copy of those nodes. Content can be extracted
-\* between inline nodes, block level nodes, and also special nodes such as Comment or Boomarks. Any combination of different marker types can used.
+\* between inline nodes, block level nodes, and also special nodes such as Comment or Bookmarks. Any combination of different marker types can used.
 \*
 \* @param startNode The node which defines where to start the extraction from the document. This node can be block or inline level of a body.
 \* @param endNode The node which defines where to stop the extraction from the document. This node can be block or inline level of body.
