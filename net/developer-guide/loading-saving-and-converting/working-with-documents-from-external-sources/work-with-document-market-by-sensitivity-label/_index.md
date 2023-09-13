@@ -253,21 +253,21 @@ namespace SensitivityLabelsTest
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.SetLabel(_fileEngine.GetLabelById(labelId), labelingOptions, new ProtectionSettings());
     
-            var commited = false;
+            var committed = false;
             var outputStream = new MemoryStream();
     
             // Check to see that modifications occurred on the handler. If not, skip commit.
             if (handler.IsModified())
-                commited = await handler.CommitAsync(outputStream);
+                committed = await handler.CommitAsync(outputStream);
     
             // Submits and audit event about the labeling action to Azure Information Protection Analytics.
-            if (commited)
+            if (committed)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
             }
     
-            return commited ? outputStream : null;
+            return committed ? outputStream : null;
         }
     
         public async Task<Stream> RemoveLabel(FileLabelingOptions options)
@@ -275,13 +275,13 @@ namespace SensitivityLabelsTest
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.DeleteLabel(new LabelingOptions() { IsDowngradeJustified = true, AssignmentMethod = options.AssignmentMethod });
     
-            var commited = false;
+            var committed = false;
             var outputStream = new MemoryStream();
     
             if (handler.IsModified())
-                commited = await handler.CommitAsync(outputStream);
+                committed = await handler.CommitAsync(outputStream);
     
-            if (commited)
+            if (committed)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
