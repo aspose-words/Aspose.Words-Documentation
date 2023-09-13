@@ -44,7 +44,7 @@ builder.Document.Save("ImageReSize.doc");
 
 {{% alert color="primary" %}}
 
-The [ConvertUtil ](https://reference.aspose.com/words/net/aspose.words/convertutil/)class provides helper functions to convert between various measurement units, like convertsion [inches to points](https://reference.aspose.com/words/net/aspose.words/convertutil/inchtopoint/).
+The [ConvertUtil ](https://reference.aspose.com/words/net/aspose.words/convertutil/)class provides helper functions to convert between various measurement units, like conversion [inches to points](https://reference.aspose.com/words/net/aspose.words/convertutil/inchtopoint/).
 
 {{% /alert %}}
 
