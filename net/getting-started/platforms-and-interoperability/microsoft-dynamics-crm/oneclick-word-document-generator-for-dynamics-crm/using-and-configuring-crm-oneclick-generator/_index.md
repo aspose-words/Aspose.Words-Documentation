@@ -13,7 +13,7 @@ aliases: [/net/using-and-configuring-crm-oneclick-word-document-generator/]
 ## Create Template and Add in CRM
 
 - Open word and create a template.
-- Insert MailMerge fields for data comming from CRM. 
+- Insert MailMerge fields for data coming from CRM. 
 
 ![using-and-configuring-crm-oneclick-word-document-generator-1](1)
 
