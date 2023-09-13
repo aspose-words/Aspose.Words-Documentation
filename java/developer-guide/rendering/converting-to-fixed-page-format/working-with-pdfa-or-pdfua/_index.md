@@ -192,7 +192,7 @@ Microsoft Word documents allow users to add figure caption.
 </details>
 {{% /alert %}}
 
-Currently Aspose.Words cannot export cuptions with the Caption tag, so they must be flagged in the output PDF.
+Currently Aspose.Words cannot export captions with the Caption tag, so they must be flagged in the output PDF.
 
 {{% alert color="secondary" %}}
 <details>
