@@ -3,7 +3,7 @@ title: Working with Bookmarks in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Bookmarks
 linktitle: Working with Bookmarks
-description: "How to insert, obtain, move, sohw or hide bookmarks using Python."
+description: "How to insert, obtain, move, show or hide bookmarks using Python."
 type: docs
 weight: 86
 url: /python-net/working-with-bookmarks/
