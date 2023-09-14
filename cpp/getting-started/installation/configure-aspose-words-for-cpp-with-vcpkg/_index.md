@@ -62,7 +62,7 @@ Create `vcpkg-configuration.json` file in the same directory as your top-level `
 
 *`CMakeLists.txt`*
 {{< highlight cmake >}}
-cmake_mininum_required(VERSION 3.21 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.21 FATAL_ERROR)
 
 set(CMAKE_TOOLCHAIN_FILE "<path_to_vcpkg>/scripts/buildsystems/vcpkg.cmake")
 

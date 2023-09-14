@@ -42,7 +42,7 @@ In this article, we will cover a common scenario for converting and modifying a 
 5. Open the Office 365 home page and open the Word application in a browser.
 6. Create a new DOCX document with some content.
 7. In the Word application, on the "Home" tab, select the menu "Sensitivity" → "Confidential" → "All Employees". The document will be marked with a sensitivity label and encrypted.
-8. Select the "One Drive" application and save the created file to your local machine. Log out of your account in the Word desctop application. Check that dowloaded document can not be opened. It will be the input file for the application.
+8. Select the "One Drive" application and save the created file to your local machine. Log out of your account in the Word desktop application. Check that downloaded document can not be opened. It will be the input file for the application.
 
 {{% alert color="primary" %}}
 
@@ -253,21 +253,21 @@ namespace SensitivityLabelsTest
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.SetLabel(_fileEngine.GetLabelById(labelId), labelingOptions, new ProtectionSettings());
     
-            var commited = false;
+            var committed = false;
             var outputStream = new MemoryStream();
     
             // Check to see that modifications occurred on the handler. If not, skip commit.
             if (handler.IsModified())
-                commited = await handler.CommitAsync(outputStream);
+                committed = await handler.CommitAsync(outputStream);
     
             // Submits and audit event about the labeling action to Azure Information Protection Analytics.
-            if (commited)
+            if (committed)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
             }
     
-            return commited ? outputStream : null;
+            return committed ? outputStream : null;
         }
     
         public async Task<Stream> RemoveLabel(FileLabelingOptions options)
@@ -275,13 +275,13 @@ namespace SensitivityLabelsTest
             var handler = await _fileEngine.CreateFileHandlerAsync(options.FileData, options.OriginalFilePath, true);
             handler.DeleteLabel(new LabelingOptions() { IsDowngradeJustified = true, AssignmentMethod = options.AssignmentMethod });
     
-            var commited = false;
+            var committed = false;
             var outputStream = new MemoryStream();
     
             if (handler.IsModified())
-                commited = await handler.CommitAsync(outputStream);
+                committed = await handler.CommitAsync(outputStream);
     
-            if (commited)
+            if (committed)
             {
                 handler.NotifyCommitSuccessful(options.OriginalFilePath);
                 outputStream.Position = 0;
@@ -346,7 +346,7 @@ using Microsoft.InformationProtection;
 // Input scenario data:
 
 const string labeledFilePath = @"<Path to input file>"; // Local path to a protected file. Note that the file should be generated in step 8 of the "Preset" part.
-const string ouputFilePath = @"<Path to ouput file>"; // Local path to the output file.
+const string outputFilePath = @"<Path to output file>"; // Local path to the output file.
 
 const string LabelName = "Confidential"; // Label name to be assigned. For example, "Confidential".
 const string SubLabelName = "All Employees"; // SubLabel name to be assigned. For example, "All Employees".
@@ -396,11 +396,11 @@ Console.WriteLine("Document saved.");
 
 // 5. Set protection.
 var label = labelsManager.GetLabels().First(l => l.Name.Trim() == LabelName).Children.First(l => l.Name == SubLabelName);
-fileLabelingOptions = new FileLabelingOptions(ouputFilePath, modifiedDocument, labelAssignmentMethod);
+fileLabelingOptions = new FileLabelingOptions(outputFilePath, modifiedDocument, labelAssignmentMethod);
 
-var ouputStream = await labelsManager.SetLabel(label.Id, fileLabelingOptions);
-using var ouputFile = File.Create(ouputFilePath);
-await ouputStream.CopyToAsync(ouputFile);
+var outputStream = await labelsManager.SetLabel(label.Id, fileLabelingOptions);
+using var outputFile = File.Create(outputFilePath);
+await outputStream.CopyToAsync(outputFile);
 
 Console.WriteLine("Sensitivity label set to output file.");
 Console.WriteLine("App completed!");

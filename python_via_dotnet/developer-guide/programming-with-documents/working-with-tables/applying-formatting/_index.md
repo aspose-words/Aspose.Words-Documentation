@@ -172,7 +172,7 @@ All properties and methods described in this article are related to how tables w
 
 ### How to Use Preferred Width
 
-The desired width of a table or individual cells is defined through the preferred width property, wich is the size that an element strives to fit. That is, the preferred width can be specified  for the entire table or for individual cells. In some situations it may not be possible to fit this width exactly, but the actual width will be close to this value in most cases.
+The desired width of a table or individual cells is defined through the preferred width property, which is the size that an element strives to fit. That is, the preferred width can be specified  for the entire table or for individual cells. In some situations it may not be possible to fit this width exactly, but the actual width will be close to this value in most cases.
 
 The appropriate preferred width type and value are set using the methods of the [PreferredWidth](https://reference.aspose.com/words/python-net/aspose.words.tables/preferredwidth/) class:
 

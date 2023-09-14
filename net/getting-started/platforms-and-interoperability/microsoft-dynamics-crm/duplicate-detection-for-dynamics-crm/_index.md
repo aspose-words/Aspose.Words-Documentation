@@ -67,7 +67,7 @@ It is simple to install Aspose .NET Duplicate Detection. Please follow below Ins
 ### Applying License
 
 - Copy the license File on the server and copy the path of the file. 
-  - Recomended: "C:\Aspose\Aspose.Total.Lic".
+  - Recommended: "C:\Aspose\Aspose.Total.Lic".
 - This Path is used further during workflow configuration. 
   - See section How to Configure Workflow.
 

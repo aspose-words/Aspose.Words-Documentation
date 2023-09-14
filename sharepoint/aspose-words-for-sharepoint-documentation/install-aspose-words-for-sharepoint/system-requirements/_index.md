@@ -28,6 +28,6 @@ Installing the latest service packs and other updates for these products is reco
 You need a browser to access SharePoint sites. The following browsers were checked with Aspose.Words for SharePoint:
 
 - Microsoft Internet Explorer 6, 7, 8, 9
-- Mozilla FireFox 3.5
+- Mozilla Firefox 3.5
 - Google Chrome 3
 - Safari 4

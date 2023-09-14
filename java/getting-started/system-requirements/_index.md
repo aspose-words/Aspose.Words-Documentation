@@ -54,7 +54,7 @@ As we stated above, Aspose.Words for Java requires *only* the Java Runtime Envir
 However, sometimes there are situations where you might need to add third-party libraries:
 
 - JogAmp JOGL library for hardware accelerated OpenGL rendering. The library is included in the aspose-words POM file as an external dependency. You can edit the POM file to preserve JOGL jars required for your platform only. Or you can remove the dependency if you do not need hardware accelerated OpenGL rendering.
-- Harfbuzz font engine. It is already included in JRE 9 and newer. If you are using JRE 8 or older, you can use the shaping-harfbuzz-plugin dependency in our POM file. Otherwise, you can remove the dependency.
+- HarfBuzz font engine. It is already included in JRE 9 and newer. If you are using JRE 8 or older, you can use the shaping-harfbuzz-plugin dependency in our POM file. Otherwise, you can remove the dependency.
 - Java Advanced Imaging (JAI) to support TIFF images. TIFF images are not supported by Java 8 and older. For TIFF support in old Java environments, Aspose.Words for Java depends on the [Java Advanced Imaging (JAI) package](https://www.oracle.com/java/technologies/java-archive-downloads-java-client-downloads.html) from Oracle. We will describe how to  install JAI below.
 
 ### How to Install JAI on Windows

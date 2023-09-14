@@ -37,7 +37,7 @@ builder.insertField("PAGE")
 builder.write(" <> ")
 builder.insertField("NUMPAGES")
 builder.write(" \"See Next Page\" \"Last Page\" ")
-\# Finally update the outer field to recalcaluate the final value. Doing this will automatically update
+\# Finally update the outer field to recalculate the final value. Doing this will automatically update
 \# the inner fields at the same time.
 field.update()
 \# Save the document.

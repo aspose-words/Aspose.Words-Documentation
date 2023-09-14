@@ -108,7 +108,7 @@ RS = connection.Execute(commandString);
 doc.MailMerge.ExecuteADO(RS);
 RS.Close();
 connection.Close();
-//Save generated docuemnt
+//Save generated document
 doc.Save("C:\Temp\out.doc");
 {{< /highlight >}}
 

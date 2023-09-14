@@ -122,7 +122,7 @@ Some complex script fonts require the Advanced Typography features to be process
 
 **Q: Do I need license files for the fonts I use?**
 
-Yes, you do. Therefore, when copying fonts, keep in mind that most fonts are copyrighted. Locate font licences beforehand and verify that they can be freely transferred to another machine.
+Yes, you do. Therefore, when copying fonts, keep in mind that most fonts are copyrighted. Locate font licenses beforehand and verify that they can be freely transferred to another machine.
 
 ## Nested Mail Merge
 
@@ -209,7 +209,7 @@ The following code example shows the process of converting a DOCX file to PDF:
 Document doc = new Document(_dataDir + "input.docx");
 
 // Save the file to PDF format.
-doc.Save(_dataDir + "ouput.pdf", SaveFormat.Pdf);
+doc.Save(_dataDir + "output.pdf", SaveFormat.Pdf);
 {{< /highlight >}}
 
 ## Manipulate with a Document

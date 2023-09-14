@@ -106,7 +106,7 @@ If you use several Aspose products in an application, for example Aspose.Words a
 
 ## Exception - Cannot find license filename
 
-When you download a license you've bought, the license file is named **Aspose.Words.Android.Java.lic** by default. The license file is downloaded through your browser and some browsers recognize the license file as XML and append an .xml extension to the name. The downloaded file becomes **Aspose.Words.Andriod.Java.lic.XML**.
+When you download a license you've bought, the license file is named **Aspose.Words.Android.Java.lic** by default. The license file is downloaded through your browser and some browsers recognize the license file as XML and append an .xml extension to the name. The downloaded file becomes **Aspose.Words.Android.Java.lic.XML**.
 
 When Microsoft Windows is configured to hide extensions of known file types (unfortunately this is default in most Windows installations), the license file is listed as **Aspose.Words.Android.Java.lic** in Windows Explorer. It looks like the expected file name. If you call License.SetLicense and pass 'Aspose.Words.Android.Java.lic', you'll see and exception because there is no such file. 
 

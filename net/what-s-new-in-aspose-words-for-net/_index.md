@@ -311,7 +311,7 @@ The API is enhanced for more flexible and convenient development.
 
 ### Rendering and Printing
 
-#### New Priting Size <sup>22.5</sup>
+#### New Printing Size <sup>22.5</sup>
 
 Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) enumeration.
 

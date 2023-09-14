@@ -10,7 +10,7 @@ url: /python-net/getting-started/
 aliases: [/python/getting-started/]
 ---
 
-This Getting Started provides this introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities and get started.
+This Getting Started provides an introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities.
 
 To find out more about Aspose.Words, select the appropriate section:
 

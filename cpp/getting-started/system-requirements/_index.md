@@ -9,7 +9,7 @@ weight: 70
 url: /cpp/system-requirements/
 ---
 
-Aspose.Words for C++ does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converticg, and rendering of documents in various formats, including Microsoft Word document formats.
+Aspose.Words for C++ does not require any third party product such as Microsoft Word to be installed. Aspose.Words itself is an engine for creating, modifying, converting, and rendering of documents in various formats, including Microsoft Word document formats.
 
 ## Supported Operating Systems
 
@@ -31,7 +31,7 @@ Aspose.Words for C++ supports the following 64-bit or 32-bit operating system an
 
   <tr>
 			<td>macOS</td>
-			<td><ul><li>A 64-bit Intel Mac with Moterey or later (12.0+)</li></ul></td>
+			<td><ul><li>A 64-bit Intel Mac with Monterey or later (12.0+)</li></ul></td>
 		</tr>
 </table>
 
@@ -76,7 +76,7 @@ Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.or
 
 ### macOS
 
-Aspose.Words for C++ can be used to develop application in the flowwing development environments:
+Aspose.Words for C++ can be used to develop application in the following development environments:
 
 <table>  
 	<tr>

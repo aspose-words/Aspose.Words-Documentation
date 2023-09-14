@@ -38,7 +38,7 @@ This sample uses XSLT (and Xalan) to produce HTML output. (There is also HtmlE
 WordprocessingMLPackage wordMLPackage;
 if (inputfilepath==null) {
 	// Create a docx
-	System.out.println("No imput path passed, creating dummy document");
+	System.out.println("No input path passed, creating dummy document");
 	 wordMLPackage = WordprocessingMLPackage.createPackage();
 	SampleDocument.createContent(wordMLPackage.getMainDocumentPart());
 } else {

@@ -47,7 +47,7 @@ Use the following method to make sure Aspose.Words for Java is in FIPS mode:
 SecuritySettings.isInFipsMode();
 {{< /highlight >}}
 
-When the FIPS mode is on, Aspose Words will prevent you from using some cryptorgraphy algorithms and keys with non-approved lengths.
+When the FIPS mode is on, Aspose Words will prevent you from using some cryptography algorithms and keys with non-approved lengths.
 
 For instance, when trying to open an ODT encrypted document while the FIPS mode is active, you may see the following exception:
 

@@ -55,7 +55,7 @@ It is simple to install Aspose .NET Document Merger. Please follow below Instruc
 ### Applying License
 
 - Copy the license File on the server and copy the path of the file. 
-  - Recomended: "C:\Aspose\Aspose.Total.Lic".
+  - Recommended: "C:\Aspose\Aspose.Total.Lic".
 - Open CRM and Navigate to Processes.
 - Open "Aspose .NET Document Merger" and deactivate it. 
 
