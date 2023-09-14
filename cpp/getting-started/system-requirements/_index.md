@@ -31,7 +31,7 @@ Aspose.Words for C++ supports the following 64-bit or 32-bit operating system an
 
   <tr>
 			<td>macOS</td>
-			<td><ul><li>A 64-bit Intel Mac with Moterey or later (12.0+)</li></ul></td>
+			<td><ul><li>A 64-bit Intel Mac with Monterey or later (12.0+)</li></ul></td>
 		</tr>
 </table>
 
