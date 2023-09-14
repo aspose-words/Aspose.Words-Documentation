@@ -82,7 +82,7 @@ The next sections explain how to add a digital signature, signature line, and ho
 
 ### Sign a Document
 
-Aspose.Words allows you to sign a DOC, DOCX, or ODT document digitally using the [Sign](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) method and [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/) properties.
+Aspose.Words allows you to sign a DOC, DOCX, XPS, or ODT document digitally using the [Sign](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) method and [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/) properties.
 
 The following code example shows how to sign documents using a certificate holder and sign options:
 
