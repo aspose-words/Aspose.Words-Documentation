@@ -70,7 +70,7 @@ You can download the latest solution for Microsoft Dynamics CRM 2015 at:
 **Configuring Web Page**
 
 - Download the source code for website.
-- Copy on server. (Recomended under inetpub)
+- Copy on server. (Recommended under inetpub)
 - Open IIS. (On server where you intent to deploy website, accessible from CRM server)
 - Create a new Website.
 - Choose physical path and configure website.
