@@ -42,7 +42,7 @@ The following code example demonstrates how to insert fields nested within anoth
 
 A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/java/com.aspose.words/field/#getLocaleId) property, which gets or sets the field's locale ID.
 
-The folowing code example shows how to use this option:
+The following code example shows how to use this option:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.java" >}}
 
@@ -50,7 +50,7 @@ The folowing code example shows how to use this option:
 
 If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertField-int-boolean) method with the [FieldType.FieldNone](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
-The folowing code example shows how to insert an empty field into the document:
+The following code example shows how to insert an empty field into the document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
@@ -74,7 +74,7 @@ The following code example shows how to add IF fields using DocumentBuilder:
 
 The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/java/com.aspose.words/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
-The folowing code example shows how to insert a field into a document using **FieldBuilder**:
+The following code example shows how to insert a field into a document using **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-FieldBuilder.java" >}}
 
@@ -98,7 +98,7 @@ For more details, see the [FieldMergeField](https://reference.aspose.com/words/j
 
 {{% /alert %}}
 
-The folowing code example shows how to add the MERGE field using DOM to a paragraph in a document:
+The following code example shows how to add the MERGE field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
@@ -118,7 +118,7 @@ For more details, see the [FieldAddressBlock](https://reference.aspose.com/words
 
 {{% /alert %}}
 
-The folowing code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
+The following code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
@@ -136,7 +136,7 @@ For more details, see the [FieldAdvance](https://reference.aspose.com/words/java
 
 {{% /alert %}}
 
-The folowing code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
+The following code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
@@ -155,7 +155,7 @@ For more details, see the [FieldAsk](https://reference.aspose.com/words/java/com
 
 {{% /alert %}}
 
-The folowing code example shows how to add the ASK Field using DOM to a paragraph in a document:
+The following code example shows how to add the ASK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
@@ -171,7 +171,7 @@ For more details, see the [FieldAuthor](https://reference.aspose.com/words/java/
 
 {{% /alert %}}
 
-The folowing code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
+The following code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
@@ -188,7 +188,7 @@ For more details, see the [FieldIncludeText](https://reference.aspose.com/words/
 
 {{% /alert %}}
 
-The folowing code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 

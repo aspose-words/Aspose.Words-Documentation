@@ -46,7 +46,7 @@ The following code example shows how to insert fields nested within another fiel
 
 A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify Locale at field level. The [locale_id](https://reference.aspose.com/words/python-net/aspose.words.fields/field/locale_id/) property gets or sets the locale ID of the field.
 
-The folowing code example shows how to make use of this option:
+The following code example shows how to make use of this option:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-SpecifylocaleAtFieldlevel.py" >}}
 
@@ -54,7 +54,7 @@ The folowing code example shows how to make use of this option:
 
 If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) method with the [FieldType.FIELD_NONE](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/#field_none) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
-The folowing code example shows how to insert an empty field into the document:
+The following code example shows how to insert an empty field into the document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldNone.py" >}}
 
@@ -62,7 +62,7 @@ The folowing code example shows how to insert an empty field into the document:
 
 The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
-The folowing code example shows how to insert a field into a document using **FieldBuilder**:
+The following code example shows how to insert a field into a document using **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldUsingFieldBuilder.py" >}}
 
@@ -80,7 +80,7 @@ The MERGEFIELD field in Word document can be represented by the [FieldMergeField
 - specify the text to be inserted after the merge field if the field is not blank
 - specify the text to be inserted before the merge field if the field is not blank
 
-The folowing code example shows how to add a Merge Field using DOM to a paragraph in a document:
+The following code example shows how to add a Merge Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMergeFieldUsingDOM.py" >}}
 
@@ -94,7 +94,7 @@ The ADDRESSBLOCK field is used to insert a mail merge address block in Word docu
 - specify the name and address format
 - specify the language ID used to format the address
 
-The folowing code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
+The following code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMailMergeAddressBlockFieldUsingDOM.py" >}}
 
@@ -106,7 +106,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 - specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box
 - specify the number of points by which the text that follows the field should be moved left, right, up or down
 
-The folowing code example shows how to add the ADVANCE Field using DOM to a paragraph in a document.
+The following code example shows how to add the ADVANCE Field using DOM to a paragraph in a document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAdvanceFieldWithOutDocumentBuilder.py" >}}
 
@@ -119,7 +119,7 @@ The ASK field is used to prompt the user for text to assign to a Bookmark in Wor
 - specify whether the user response should be received once per a mail merge operation
 - specify the prompt text (the title of the prompt window)
 
-The folowing code example shows how to add the ASK Field using DOM to a paragraph in a document:
+The following code example shows how to add the ASK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertASKFieldWithOutDocumentBuilder.py" >}}
 
@@ -129,7 +129,7 @@ The AUTHOR field is used to specify the name of Document's author from the Docum
 
 - specify the document author's name
 
-The folowing code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
+The following code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAuthorField.py" >}}
 
@@ -140,7 +140,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - specify the bookmark's name of the included document
 - specify the location of the document
 
-The folowing code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldIncludeTextWithoutDocumentBuilder.py" >}}
 
@@ -152,6 +152,6 @@ The TOA (*Table of Authorities*) field builds and inserts a table of authorities
 
 You can use the [FieldToa](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtoa/) class to perform the operations with the TOA field.
 
-The folowing code example shows how to add the TOA field using DOM to a paragraph in a document:
+The following code example shows how to add the TOA field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertTOAFieldWithoutDocumentBuilder.py" >}}

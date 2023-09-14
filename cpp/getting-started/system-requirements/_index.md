@@ -76,7 +76,7 @@ Aspose.Words for C++ on Linux depends on [fontconfig](https://www.freedesktop.or
 
 ### macOS
 
-Aspose.Words for C++ can be used to develop application in the flowwing development environments:
+Aspose.Words for C++ can be used to develop application in the following development environments:
 
 <table>  
 	<tr>

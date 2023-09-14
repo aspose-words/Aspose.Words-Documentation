@@ -41,7 +41,7 @@ The following code example shows how to insert fields nested within another fiel
 
 A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/cpp/aspose.words.fields/field/get_localeid/) property, which gets or sets the field's locale ID.
 
-The folowing code example shows how to use this option:
+The following code example shows how to use this option:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cpp" >}}
 
@@ -49,7 +49,7 @@ The folowing code example shows how to use this option:
 
 If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertfield) method with the [FieldType.FieldNone](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
-The folowing code example shows how to insert an empty field into the document:
+The following code example shows how to insert an empty field into the document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cpp" >}}
 
@@ -57,7 +57,7 @@ The folowing code example shows how to insert an empty field into the document:
 
 The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
-The folowing code example shows how to insert a field into a document using **FieldBuilder**:
+The following code example shows how to insert a field into a document using **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertFieldUsingFieldBuilder-InsertFieldUsingFieldBuilder.cpp" >}}
 
@@ -81,7 +81,7 @@ For more details, see the [FieldMergeField](https://reference.aspose.com/words/c
 
 {{% /alert %}}
 
-The folowing code example shows how to add the MERGE field using DOM to a paragraph in a document:
+The following code example shows how to add the MERGE field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cpp" >}}
 
@@ -107,7 +107,7 @@ For more details, see the [FieldAddressBlock](https://reference.aspose.com/words
 
 {{% /alert %}}
 
-The folowing code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
+The following code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cpp" >}}
 
@@ -131,7 +131,7 @@ For more details, see the [FieldAdvance](https://reference.aspose.com/words/cpp
 
 {{% /alert %}}
 
-The folowing code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
+The following code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAdvanceFieldWithoutDocumentBuilder-InsertAdvanceFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -156,7 +156,7 @@ For more details, see the [FieldAsk](https://reference.aspose.com/words/cpp/aspo
 
 {{% /alert %}}
 
-The folowing code example shows how to add the ASK Field using DOM to a paragraph in a document:
+The following code example shows how to add the ASK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertASKFieldWithoutDocumentBuilder-InsertASKFieldWithoutDocumentBuilder.cpp" >}}
 
@@ -178,7 +178,7 @@ For more details, see the [FieldAuthor](https://reference.aspose.com/words/cpp/a
 
 {{% /alert %}}
 
-The folowing code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
+The following code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cpp" >}}
 
@@ -201,7 +201,7 @@ For more details, see the [FieldIncludeText](https://reference.aspose.com/words/
 
 {{% /alert %}}
 
-The folowing code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertFieldIncludeTextWithoutDocumentBuilder.h" >}}
 
@@ -217,6 +217,6 @@ For more details, see the [FieldToa](https://reference.aspose.com/words/cpp/asp
 
 {{% /alert %}}
 
-The folowing code example shows how to add the TOA field using DOM to a paragraph in a document:
+The following code example shows how to add the TOA field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cpp" >}}/
