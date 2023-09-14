@@ -42,7 +42,7 @@ In this article, we will cover a common scenario for converting and modifying a 
 5. Open the Office 365 home page and open the Word application in a browser.
 6. Create a new DOCX document with some content.
 7. In the Word application, on the "Home" tab, select the menu "Sensitivity" → "Confidential" → "All Employees". The document will be marked with a sensitivity label and encrypted.
-8. Select the "One Drive" application and save the created file to your local machine. Log out of your account in the Word desctop application. Check that dowloaded document can not be opened. It will be the input file for the application.
+8. Select the "One Drive" application and save the created file to your local machine. Log out of your account in the Word desktop application. Check that dowloaded document can not be opened. It will be the input file for the application.
 
 {{% alert color="primary" %}}
 
