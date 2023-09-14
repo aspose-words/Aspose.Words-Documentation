@@ -29,7 +29,7 @@ After getting a copy of the repository, you may find that:
 
 To run the examples, open your favorite command prompt:
 
-- Change the directory to the dirrectory with example of interest.
+- Change the directory to the directory with example of interest.
 - Run the example with Python, for example:
 {{< highlight python >}}
 python .\base_conversions.py
