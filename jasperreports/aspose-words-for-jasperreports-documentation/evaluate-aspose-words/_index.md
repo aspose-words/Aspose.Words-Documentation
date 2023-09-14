@@ -21,6 +21,6 @@ The evaluation version of Aspose.Words for JasperReports (without a license spec
 
 If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license/).
 
-**Aspose.Words for JapserReports injects a watermark when working in evaluation mode**
+**Aspose.Words for JasperReports injects a watermark when working in evaluation mode**
 
 ![todo:image_alt_text](evaluate-aspose-words-1.png)
