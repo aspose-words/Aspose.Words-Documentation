@@ -136,6 +136,6 @@ Let's take a closer look at these ways of creating tables and compare their pros
 |Method|Advantages|Disadvantages|
 | :- | :- | :- |
 |Via DocumentBuilder|The standard method for inserting tables and other document content|Sometimes difficult to create many varieties of tables at the same time with the same builder instance|
-|Via DOM | Fits in better with surronding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** |The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/) to create any missing child nodes|
+|Via DOM | Fits in better with surrounding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** |The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/) to create any missing child nodes|
 |From HTML|Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>`|Not all possible Microsoft Word table formats can be applied to HTML|
 |Cloning an existing table|You can create a copy of an existing table while retaining all row and cell formatting|The appropriate child nodes must be removed before the table is ready for use|
