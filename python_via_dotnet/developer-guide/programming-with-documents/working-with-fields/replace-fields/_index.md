@@ -38,7 +38,7 @@ EXAMPLE
 
 ## Convert Certain Field Types in Specific Document Parts
 
-Since the **ConvertFieldsToStaticText** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) ptoperties and the [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
+Since the **ConvertFieldsToStaticText** method accepts two parameters – the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) properties and the [FieldType](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/) enumeration, it is possible to pass any composite node to this method. This allows fields to be converted to static text only in specific parts of the document.
 
 For example, you can pass a [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object and convert fields of the specified type from the entire document to static text, or you can pass a [Body](https://reference.aspose.com/words/python-net/aspose.words/body/) object of a section and only convert the fields found in that body.
 
