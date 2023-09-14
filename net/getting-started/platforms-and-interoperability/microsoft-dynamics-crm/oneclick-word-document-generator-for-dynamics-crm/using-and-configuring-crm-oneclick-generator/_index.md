@@ -54,7 +54,7 @@ aliases: [/net/using-and-configuring-crm-oneclick-word-document-generator/]
 
 ![using-and-configuring-crm-oneclick-word-document-generator-8](8)
 
-- Use seperate line for each button and use the following syntax: 
+- Use separate line for each button and use the following syntax: 
   - Syntax: &lt;Template Name&gt;|&lt;Action: Download/Note&gt;|&lt;Output Format&gt;|&lt;Output FileName&gt;
   - Example: Demo|Download|docx|My Downloaded File
 - Save and publish the customization.
