@@ -23,7 +23,7 @@ This option is useful when you need to override formatting of some parts of an e
 The second option for dynamic HTML insertion is using of an `html` tag. An `html` tag denotes a placeholder within a template for an HTML block to be inserted during runtime. Its syntax is defined as follows.
 
 {{< highlight csharp >}}
-<<html [html_text_expession]>>
+<<html [html_text_expression]>>
 {{< /highlight >}}
 
 **Note –** An `html` tag is forbidden within charts.
@@ -33,5 +33,5 @@ While building a report, an expression declared within an `html` tag is evaluate
 In its base usage, an `html` tag behaves exactly the same as an expression tag with an `html` switch applied. In particular, it makes the engine to use corresponding styles of a template document. This makes content of a result document look more consistent. However, you can keep source HTML formatting for content being inserted (to make it look like in a browser) by using a `sourceStyles` switch as shown in the following snippet.
 
 {{< highlight csharp >}}
-<<html [html_text_expession] -sourceStyles>>
+<<html [html_text_expression] -sourceStyles>>
 {{< /highlight >}}
