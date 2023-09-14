@@ -23,7 +23,7 @@ The following code example shows how to remove all comments in a document:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-RemoveComments.cs" >}}
 
-The following code example shows how to remove comments of a speciffic author:
+The following code example shows how to remove comments of a specific author:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Comments-ProcessComments-RemoveCommentsByAuthor.cs" >}}
 
