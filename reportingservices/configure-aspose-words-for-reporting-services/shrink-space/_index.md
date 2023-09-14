@@ -20,7 +20,7 @@ In addition to spacing & scaling factors you may use **ShrinkSpace** configurati
 There are several modes of shrinking space. Below is the description of the modes.
 
 **None**. Space shrinking will be disabled and never used. This is default setting.
-**Soft**. In this mode space is shrinked around some elements with dynamic height (subreports or/and tables with dynamically hidden rows).
+**Soft**. In this mode space is shrunk around some elements with dynamic height (subreports or/and tables with dynamically hidden rows).
 **Hard**. This is the most aggressive shrink spacing mode. Spacings are removed in all places where possible, using following settings:
 
 - **Soft** mode is applied
