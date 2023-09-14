@@ -170,7 +170,7 @@ public class ChartAxis
 **Use Case**
 
 This use case explains how to set and show title of X and Y axes:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "chart-axis-title.cs" >}}
+{{< gist "aspose-words-gists" "3ec3dfe6aaade19ca34c279182bd29d0" "chart-axis-title.java" >}}
 {{% /alert %}}
 
 ### Added public property MarkdownSaveOptions.ImagesFolderAlias
@@ -189,7 +189,7 @@ public string ImagesFolderAlias { get; set; }
 **Use Case**
 
 This use case explains how to use ImagesFolderAlias property within MarkdownSaveOptions:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "images-folder.cs" >}}
+{{< gist "aspose-words-gists" "3ec3dfe6aaade19ca34c279182bd29d0" "images-folder.java" >}}
 {{% /alert %}}
 
 ### Added public property ParagraphFormat.BaselineAlignment
@@ -213,7 +213,7 @@ public enum BaselineAlignment
 **Use Case**
 
 This use case explains how to use BaselineAlignment property of a ParagraphFormat:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "paragraph-baseline-alignment.cs" >}}
+{{< gist "aspose-words-gists" "3ec3dfe6aaade19ca34c279182bd29d0" "paragraph-baseline-alignment.java" >}}
 {{% /alert %}}
 
 ### Changed MetafileRenderingOptions properties related to metafile size on page emulation
@@ -256,7 +256,7 @@ public int EmulateRenderingToSizeOnPageResolution { get; set; }
 **Use Case**
 
 This use case explains how to set the EmulateRenderingToSizeOnPage property to emulate rendering according to the metafile size on page:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "emulate-rendering-to-size-on-page.cs" >}}
+{{< gist "aspose-words-gists" "3ec3dfe6aaade19ca34c279182bd29d0" "emulate-rendering-to-size-on-page.java" >}}
 {{% /alert %}}
 
 ### Removed obsolete property ChildNodes from CompositeNode class
