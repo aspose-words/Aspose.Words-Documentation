@@ -346,7 +346,7 @@ using Microsoft.InformationProtection;
 // Input scenario data:
 
 const string labeledFilePath = @"<Path to input file>"; // Local path to a protected file. Note that the file should be generated in step 8 of the "Preset" part.
-const string ouputFilePath = @"<Path to ouput file>"; // Local path to the output file.
+const string outputFilePath = @"<Path to output file>"; // Local path to the output file.
 
 const string LabelName = "Confidential"; // Label name to be assigned. For example, "Confidential".
 const string SubLabelName = "All Employees"; // SubLabel name to be assigned. For example, "All Employees".
@@ -396,11 +396,11 @@ Console.WriteLine("Document saved.");
 
 // 5. Set protection.
 var label = labelsManager.GetLabels().First(l => l.Name.Trim() == LabelName).Children.First(l => l.Name == SubLabelName);
-fileLabelingOptions = new FileLabelingOptions(ouputFilePath, modifiedDocument, labelAssignmentMethod);
+fileLabelingOptions = new FileLabelingOptions(outputFilePath, modifiedDocument, labelAssignmentMethod);
 
-var ouputStream = await labelsManager.SetLabel(label.Id, fileLabelingOptions);
-using var ouputFile = File.Create(ouputFilePath);
-await ouputStream.CopyToAsync(ouputFile);
+var outputStream = await labelsManager.SetLabel(label.Id, fileLabelingOptions);
+using var outputFile = File.Create(outputFilePath);
+await outputStream.CopyToAsync(outputFile);
 
 Console.WriteLine("Sensitivity label set to output file.");
 Console.WriteLine("App completed!");

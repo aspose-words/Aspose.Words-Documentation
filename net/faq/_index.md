@@ -209,7 +209,7 @@ The following code example shows the process of converting a DOCX file to PDF:
 Document doc = new Document(_dataDir + "input.docx");
 
 // Save the file to PDF format.
-doc.Save(_dataDir + "ouput.pdf", SaveFormat.Pdf);
+doc.Save(_dataDir + "output.pdf", SaveFormat.Pdf);
 {{< /highlight >}}
 
 ## Manipulate with a Document
