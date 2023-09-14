@@ -55,7 +55,7 @@ for (int i = 1; i <= recordCount; i++)
 	
 	// In automation you were required to insert a new section break at this point, however in
 	// Aspose.Words we don't need to do anything here as the appended document is imported as
-	   separate sectons already.
+	   separate sections already.
 	
 	// If this is the second document or above being appended then unlink all headers footers in
 	// this section from the headers and footers of the previous section.
