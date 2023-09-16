@@ -438,7 +438,7 @@ $nodes->add($cloneNode);
 }
 }
 public static function isInline($node) {
-// Test if the node is descendant of a Paragraph or Table node and also is not a paragraph or a table a paragraph inside a comment class which is descendant of a pararaph is possible.
+// Test if the node is descendant of a Paragraph or Table node and also is not a paragraph or a table a paragraph inside a comment class which is descendant of a paragraph is possible.
 $nodeType = Java("com.aspose.words.NodeType");
 return ((java_values($node->getAncestor($nodeType->PARAGRAPH)) != null || java_values($node->getAncestor($nodeType->TABLE)) != null) && !(java_values($node->getNodeType()) == (java_values($nodeType->PARAGRAPH) || java_values($node->getNodeType()) == java_values($nodeType->TABLE))));
 }
