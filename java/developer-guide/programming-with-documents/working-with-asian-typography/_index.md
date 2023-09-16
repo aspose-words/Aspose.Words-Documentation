@@ -3,7 +3,7 @@ title: Asian Typography in Java
 second_title: Aspose.Words for Java
 articleTitle: Working with Asian Typography
 linktitle: Working with Asian Typography
-description: "Work with asian typography using Java. Adjust Space between Asian and Latin text in Java."
+description: "Work with Asian typography using Java. Adjust Space between Asian and Latin text in Java."
 type: docs
 weight: 113
 url: /java/working-with-asian-typography/
