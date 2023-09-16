@@ -312,4 +312,4 @@ Aspose.Words for Python does allow indexer properties only by *int* type, in .NE
 	* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words/variablecollection/get_by_name/#str)
 
 ## API Members Naming
-To be closer to Python world, API members of Aspose.Words for Python via .NET uses pytonic snake style, however in most cases they have one to one analog in Aspose.Words for .NET API. You can find these analog in the [xml file](wrapper.zip).
+To be closer to Python world, API members of Aspose.Words for Python via .NET uses pythonic snake style, however in most cases they have one to one analog in Aspose.Words for .NET API. You can find these analog in the [xml file](wrapper.zip).
