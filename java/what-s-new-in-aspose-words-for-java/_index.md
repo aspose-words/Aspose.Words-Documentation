@@ -11,6 +11,36 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for Java 23.9
+
+Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
+
+### Rendering and Printing
+
+#### Customizing Axes Titles in DrawingML Charts <sup>23.9</sup>
+
+The capability to customize axis titles in DrawingML charts has been introduced by the implementation of a new public class [ChartAxisTitle](https://reference.aspose.com/words/java/com.aspose.words/chartaxistitle/) and [Title](https://reference.aspose.com/words/java/com.aspose.words/chartaxis/#getTitle) property.
+
+#### Determining the Vertical Position of Fonts within a Paragraph <sup>23.9</sup>
+
+It is now possible to define the vertical position of fonts within a paragraph using the new public [BaselineAlignment](https://reference.aspose.com/words/java/com.aspose.words/paragraphformat/#getBaselineAlignment) property and the new [BaselineAlignment](https://reference.aspose.com/words/java/com.aspose.words/baselinealignment/) enumeration.
+
+### Loading and Saving Documents
+
+#### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
+
+The [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) class has been expanded by including the [ImagesFolderAlias](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getImagesFolderAlias) property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
+
+### Other
+
+- Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRenderingToSizeOnPage) property and the [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/java/com.aspose.words/metafilerenderingoptions/#getEmulateRenderingToSizeOnPageResolution) property was added. <sup>23.9</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Java 23.9 Release Notes](/words/java/aspose-words-for-java-23-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Java 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
