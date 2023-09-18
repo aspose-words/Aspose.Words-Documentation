@@ -3,7 +3,7 @@ title: Asian Typography in C++
 second_title: Aspose.Words for C++
 articleTitle: Working with Asian Typography
 linktitle: Working with Asian Typography
-description: "Work with asian typography using C++. Adjust Space between Asian and Latin text in C++."
+description: "Work with Asian typography using C++. Adjust Space between Asian and Latin text in C++."
 type: docs
 weight: 113
 url: /cpp/working-with-asian-typography/

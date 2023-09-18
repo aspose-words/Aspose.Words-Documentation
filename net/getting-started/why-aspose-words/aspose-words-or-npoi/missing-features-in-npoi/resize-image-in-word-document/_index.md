@@ -34,7 +34,7 @@ Shape shape = builder.InsertImage(@"../../data/aspose_Words-for-net.jpg");
 builder.Write("ReSize image ");
 shape = builder.InsertImage(@"../../data/aspose_Words-for-net.jpg");
 
-// Chaging image size. ConvertUtil Provides helper functions to convert between various measurement units. like Converts inches to points.
+// Changing image size. ConvertUtil Provides helper functions to convert between various measurement units. like Converts inches to points.
 shape.Width = ConvertUtil.InchToPoint(0.5);
 shape.Height = ConvertUtil.InchToPoint(0.5);
 

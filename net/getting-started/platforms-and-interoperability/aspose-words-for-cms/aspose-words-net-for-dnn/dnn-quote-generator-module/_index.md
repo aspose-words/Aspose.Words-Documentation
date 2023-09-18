@@ -80,7 +80,7 @@ After you have installed Aspose .NET Quote Generator Module for DNN Module it is
 
 You have successfully added Aspose .NET Quote Generator module to your page. You will be presented with input form to get started
 
-1. Enter (Document Caption, Refference #, Generating Date)
+1. Enter (Document Caption, Reference #, Generating Date)
 1. Enter ‘Quotation From’ fields such as (Company Logo, Name, State-Zip, Country)
 1. Enter ‘Quotation To’ fields such as (Customer/Client Name, State-Zip, Country)
 1. You can generate product rows to 99
