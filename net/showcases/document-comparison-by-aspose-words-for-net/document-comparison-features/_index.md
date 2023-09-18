@@ -155,7 +155,7 @@ By default, the viewer will show the first page of the document.
 
 Document web-based document viewer works as follows:
 
-1. **jQuery.** The **getDocumentData()** method sends an AJAX request to the server to convert the selected Word document to images, see **Default.js**. It sends the path to the document as an argument. As a result, teh server returns two items: one is the path to the images folder and the other one is the total number of pages in the document.
+1. **jQuery.** The **getDocumentData()** method sends an AJAX request to the server to convert the selected Word document to images, see **Default.js**. It sends the path to the document as an argument. As a result, the server returns two items: one is the path to the images folder and the other one is the total number of pages in the document.
 2. **ASP.NET web method** converts the document into images. It loads the selected document using Aspose.Words and saves each page in image format in a loop. It returns the number of pages and the path to the image folder to the calling jQuery method. See **Default.aspx.cs**, **getDocumentData()** method.
 3. **jQuery** renders Word document and page navigation. The calling method in jQuery now has the page count and the folder path. The folder contains images, each image represents a page in the Word document. Now, it is easy to display an image using jQuery and HTML.
 

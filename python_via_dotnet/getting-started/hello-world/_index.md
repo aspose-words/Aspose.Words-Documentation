@@ -16,7 +16,7 @@ A "Hello, World!" code is often the first simple example to write uisng "Aspose.
 Below code snippet follows these steps:
 
 1. Create a new empty [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)
-1. Inisialize a [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class
+1. Initialize a [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class
 1. Insert text to the document start using simple [write](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/write/) method
 1. Open an existing [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) from a file. Automatically detects the file format
 1. [Append](https://reference.aspose.com/words/python-net/aspose.words/document/append_document/) document "A" to the and of the document "B"
@@ -28,7 +28,7 @@ The following code snippet is a "Hello, World!" program to exhibit working of "A
 # Create a new empty document A
 docA = aw.Document();
 
-# Inisialize a DocumentBuilder
+# Initialize a DocumentBuilder
 builder = aw.DocumentBuilder(docA);
 
 # Insert text to the document A start

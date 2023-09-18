@@ -84,7 +84,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y libfontconfig1
 COPY . ./
 RUN dotnet publish -c Release -o out
-ENTRYPOINT ["dotnet", "Aspse.Words.Docker.Sample/out/Aspse.Words.Docker.Sample.dll"]
+ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample/out/Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
 
 The above is a simple Dockerfile, which contains the following instructions:

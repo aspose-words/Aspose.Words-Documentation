@@ -10,14 +10,15 @@ url: /python-net/getting-started/
 aliases: [/python/getting-started/]
 ---
 
-This Getting Started provides this introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities and get started.
+This Getting Started provides an introduction to Aspose.Words fundamentals. For users new to Aspose.Words, this is the fastest way to learn the basic requirements and capabilities.
 
 To find out more about Aspose.Words, select the appropriate section:
 
-- *"Installation"* – provides information on how to install Aspose.Words
-- *"Supported Document Formats"* – provides information about supported formats
-- *"Supported Features"* – provides information on what features are supported when loading or saving a document in various formats
-- *"Licensing and Subscription"* – provides information on applying a license and using multiple Aspose products
-- *"System Requirements"* – provides information about system and development environment requirements
-- *"How to Run the Examples"* – describes how to download and run the examples and what software requirements must be met
+- [*"Installation"*](https://docs.aspose.com/words/python-net/installation/) – provides information on how to install Aspose.Words
+- [*"Hello World"*](https://docs.aspose.com/words/python-net/hello-world/) – provides information on how to test that software intended to compile or run source code is installed correctly
+- [*"Supported Document Formats"*](https://docs.aspose.com/words/python-net/supported-document-formats/) – provides information about supported formats
+- [*"Supported Features"*](https://docs.aspose.com/words/python-net/features/) – provides information on what features are supported when loading or saving a document in various formats
+- [*"Licensing and Subscription"*](https://docs.aspose.com/words/python-net/licensing/) – provides information on applying a license and using multiple Aspose products
+- [*"System Requirements"*](https://docs.aspose.com/words/python-net/system-requirements/) – provides information about system and development environment requirements
+- [*"How to Run the Examples"*](https://docs.aspose.com/words/python-net/how-to-run-the-examples/) – describes how to download and run the examples and what software requirements must be met
 

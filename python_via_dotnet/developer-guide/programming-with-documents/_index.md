@@ -4,7 +4,7 @@ second_title: Aspose.Words for Python via .NET
 articleTitle: Programming with Documents
 linktitle: Programming with Documents
 type: docs
-description: "Use the Aspose using Python.Words Document Object Model classes to programmatically create, modify, and manage documents with python-net. Work with document properties, settings, and content, as well as with document appearence through the management of colors, shapes, fonts and other graphics."
+description: "Use the Aspose using Python.Words Document Object Model classes to programmatically create, modify, and manage documents with python-net. Work with document properties, settings, and content, as well as with document appearance through the management of colors, shapes, fonts and other graphics."
 weight: 60
 url: /python-net/programming-with-documents/
 aliases: [/python-net-net/programming-with-documents/]
@@ -20,6 +20,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Translate Markdown to Document Object Model (DOM)](/words/python-net/translate-markdown-to-document-object-model/)
 - [Document Builder Overview](/words/python-net/document-builder-overview/)
 - [Working with Document](/words/python-net/working-with-document/)
+- [Protect or Encrypt a Document](https://docs.aspose.com/words/python-net/protect-or-encrypt-a-document/)
 - [Working with Styles and Themes](/words/python-net/working-with-styles-and-themes/)
 - [Working with Sections](/words/python-net/working-with-sections/)
 - [Working with Ranges](/words/python-net/working-with-ranges/)
@@ -30,6 +31,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Tables](/words/python-net/working-with-tables/)
 - [Working with Lists](/words/python-net/working-with-lists/)
 - [Working with Paragraphs](/words/python-net/working-with-paragraphs/)
+- [Working with Asian Typography](https://docs.aspose.com/words/python-net/working-with-asian-typography/)
 - [Working with Hyphenation](/words/python-net/working-with-hyphenation/)
 - [Working with Fonts](/words/python-net/working-with-fonts/)
 - [Working with TextBoxes](/words/python-net/working-with-textboxes/)
@@ -39,6 +41,7 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Fields](/words/python-net/working-with-fields/)
 - [Working with Form Fields](/words/python-net/working-with-form-fields/)
 - [Contents Management](/words/python-net/contents-management/)
+- [Working With Control Characters](https://docs.aspose.com/words/python-net/working-with-control-characters/)
 - [Working with VBA Macros](/words/python-net/working-with-vba-macros/)
 - [Working with Markdown Features](/words/python-net/working-with-markdown-features/)
 - [Working with Text Document](/words/python-net/work-with-text-document/)

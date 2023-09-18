@@ -3,7 +3,7 @@ title: Testing a License
 second_title: Aspose.Words for SharePoint
 articleTitle: Testing a License
 linktitle: Testing a License
-description: "How to check Aspose.Words for SharePoint licence."
+description: "How to check Aspose.Words for SharePoint license."
 type: docs
 weight: 20
 url: /sharepoint/testing-a-license/

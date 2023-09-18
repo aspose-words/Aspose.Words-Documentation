@@ -11,6 +11,36 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for .NET 23.9
+
+Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
+
+### Rendering and Printing
+
+#### Customizing Axes Titles in DrawingML Charts <sup>23.9</sup>
+
+The capability to customize axis titles in DrawingML charts has been introduced by the implementation of a new public class [ChartAxisTitle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxistitle/) and [Title](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/title/) property.
+
+#### Determining the Vertical Position of Fonts within a Paragraph <sup>23.9</sup>
+
+It is now possible to define the vertical position of fonts within a paragraph using the new public [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/baselinealignment/) property and the new [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/baselinealignment/) enumeration.
+
+### Loading and Saving Documents
+
+#### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
+
+The [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) class has been expanded by including the [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/) property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
+
+### Other
+
+* Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) property and the [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) property was added. <sup>23.9</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 23.9 Release Notes](/words/net/aspose-words-for-net-23-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
@@ -152,7 +182,7 @@ The ability to set the distance between the table and surrounding text has been 
 
 #### Generate TOC for AZW3 Documents <sup>23.1</sup>
 
-The ability to generate TOC (table of contents) for AZW3 documents has been added through the use of the [EpubNavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/epubnavigationmaplevel/) property.
+The ability to generate TOC (table of contents) for AZW3 documents has been added through the use of the [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) property.
 
 #### Exporting List Items to Markdown <sup>23.1</sup>
 
@@ -281,7 +311,7 @@ The API is enhanced for more flexible and convenient development.
 
 ### Rendering and Printing
 
-#### New Priting Size <sup>22.5</sup>
+#### New Printing Size <sup>22.5</sup>
 
 Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/) enumeration.
 
@@ -446,71 +476,6 @@ Learn more about [Aspose.Words for .NET 22.2 Release Notes](/words/net/aspose-wo
 Learn more about [Aspose.Words for .NET 22.3 Release Notes](/words/net/aspose-words-for-net-22-3-release-notes/).
 
 Learn more about [Aspose.Words for .NET 22.4 Release Notes](/words/net/aspose-words-for-net-22-4-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for .NET 21.9, 21.10, 21.11, 21.12
-
-Aspose.Words 21.9 expands the list-level formatting control.
-
-Aspose.Words 21.10 enhances rendering options, improves find and replace options, and expands Mail Merge and Structure Document Tag functionality.
-
-Aspose.Words 21.11 expands loadings and saving functionality, improves find and replace option and working with PDF.
-
-Aspose.Words 21.12 introduces additional options for working with Latin text and fonts to improve appearance and performance, and expands the ability to work with content control and footnotes. 
-
-The API is enhanced for more flexible and convenient development.
-
-### Performance Improvements
-
-Loading a previously saved font search cache to speed up the font cache initialization process upon rendering has been implemented. Now your solutions will work even faster.
-
-### Rendering
-
-#### Working with gradient fills and gradient stops
-
-New public methods and properties to work with gradient fills and gradient stops have been added to satisfy the brightest ideas when developing your documents.
-
-#### Attachment Pane in Output PDF Documents
-
-A new option [UseAttachments](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagemode/) has been implemented to display the attachment pane in output PDF documents.
-
-#### Allow Latin Text to Wrap in the Middle of a Word
-
-Support for the "Allow Latin text to wrap in the middle of a word" feature has been implemented to make our Latin support even better upon rendering.
-
-### Search and Compare
-
-* A new option [IgnoreFootnotes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) to ignore footnotes during the find and replace operation has been added.
-* A new option [IgnoreFieldCodes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/) to ignore field codes during find and replace operation has been added.
-
-### Conversion
-
-A simple way to save images as Base64 string into Markdown format has been provided through the [ExportImagesAsBase64](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/) property.
-
-### Mail Merge and Reporting
-
-The ability to get [ParentRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/) through [MailMergeRegionInfo](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmergeregioninfo/), which made our MailMerge engine more tunable, has been added.
-
-### Other
-
-* An ability to get the [CustomNumberStyleFormat](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/customnumberstyleformat/) property of the [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) object has been added.
-* A possibility to get the string representation of the [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) object for a specified index using the [GetEffectiveValue](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/geteffectivevalue/) method has been added.
-* An intuitive capability to change the appearance of structured document tags, which actually allow embedding customer-defined semantics as well as its behavior into a document, has been introduced.
-* A new property [ProgressCallback](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/progresscallback/) for showing the document loading progress has been implemented.
-* A new class [ChmLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/) has been added to get more control over CHM loading.
-* The ability to get OOXML of a content control and save it to string has been introduced. To do this, the **WordOpenXML** property has been added to the [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) and [StructuredDocumentTagRangeStart](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/rangestart) classes.
-* Recognition of non-standard footnotes in PDF documents on import has been added.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 21.9 Release Notes](/words/net/aspose-words-for-net-21-9-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.10 Release Notes](/words/net/aspose-words-for-net-21-10-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.11 Release Notes](/words/net/aspose-words-for-net-21-11-release-notes/).
-
-Learn more about [Aspose.Words for .NET 21.12 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-21-12-release-notes/).
 
 {{% /alert %}}
 

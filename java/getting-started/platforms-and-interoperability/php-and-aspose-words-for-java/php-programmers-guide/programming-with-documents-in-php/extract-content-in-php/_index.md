@@ -213,7 +213,7 @@ $dstDoc->save(ExtractContent::$gDataDir . "TestFile.CommentExclusive Out.doc");
 //ExSummary:This is a method which extracts blocks of content from a document between specified nodes.
 /**
 \* Extracts a range of nodes from a document found between specified markers and returns a copy of those nodes. Content can be extracted
-\* between inline nodes, block level nodes, and also special nodes such as Comment or Boomarks. Any combination of different marker types can used.
+\* between inline nodes, block level nodes, and also special nodes such as Comment or Bookmarks. Any combination of different marker types can used.
 \*
 \* @param startNode The node which defines where to start the extraction from the document. This node can be block or inline level of a body.
 \* @param endNode The node which defines where to stop the extraction from the document. This node can be block or inline level of body.
@@ -438,7 +438,7 @@ $nodes->add($cloneNode);
 }
 }
 public static function isInline($node) {
-// Test if the node is desendant of a Paragraph or Table node and also is not a paragraph or a table a paragraph inside a comment class which is decesant of a pararaph is possible.
+// Test if the node is descendant of a Paragraph or Table node and also is not a paragraph or a table a paragraph inside a comment class which is descendant of a paragraph is possible.
 $nodeType = Java("com.aspose.words.NodeType");
 return ((java_values($node->getAncestor($nodeType->PARAGRAPH)) != null || java_values($node->getAncestor($nodeType->TABLE)) != null) && !(java_values($node->getNodeType()) == (java_values($nodeType->PARAGRAPH) || java_values($node->getNodeType()) == java_values($nodeType->TABLE))));
 }

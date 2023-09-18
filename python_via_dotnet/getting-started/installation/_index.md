@@ -12,13 +12,13 @@ aliases: [/python/installation/]
 
 Make sure your machine meets the [system requirements](/words/python-net/system-requirements/) before you begin.
 
-This article explains how to instal Aspose.Words for Python via .NET on your computer.
+This article explains how to install Aspose.Words for Python via .NET on your computer.
 
 `pip` is the easiest way to download and install [Aspose.Words for Python via .NET](https://pypi.org/project/aspose-words/) APIs. To do this run the following command:
 
 `pip install aspose-words`
 
-Once module is installed, you can use it fom your Python code:
+Once the module is installed, you can use it fom your Python code:
 
 {{< highlight python >}}
 # Import Aspose.Words for Python via .NET module

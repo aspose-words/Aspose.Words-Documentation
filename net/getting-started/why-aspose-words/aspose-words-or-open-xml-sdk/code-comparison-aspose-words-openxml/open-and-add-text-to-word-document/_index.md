@@ -3,7 +3,7 @@ title: Open and Modify a Document
 second_title: Aspose.Words for .NET
 articleTitle: Open and Modify a Document
 linktitle: Open and Modify a Document
-description: "Open and modiffy an existing Word document easily and fast instead of using Open XML SDK in C#."
+description: "Open and modify an existing Word document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 40
 url: /net/open-and-add-text-to-word-document/

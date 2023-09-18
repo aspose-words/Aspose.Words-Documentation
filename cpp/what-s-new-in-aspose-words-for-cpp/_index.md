@@ -11,7 +11,7 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 23.5, 23.6, 23.7
+## Aspose.Words for C++ 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
 
@@ -19,10 +19,18 @@ Aspose.Words 23.6 expands rendering options, adds a new export format, improves 
 
 Aspose.Words 23.7 enhances reporting capabilities, adds a new export format, and introduces changes to working with tables and digital signatures.
 
+Aspose.Words 23.8 expands the capabilities of different formats, improves rendering, and adds new options for working with fields. 
+
 ### Supported Formats
 
 * Starting with version 23.6, it is possible to save a document in XLSX format. Now you can convert your documents to Excel format. <sup>23.6</sup>
 * Starting with version 23.7, it is possible to save a document page or shape in EPS format. <sup>23.7</sup>
+
+### New Format Features
+
+- The functionality to automatically generate Table of Contents (TOC) for MOBI documents has been introduced. <sup>23.8</sup>
+- The **PdfEncryptionDetails** constructor has been expanded with **PdfPermissions**. <sup>23.8</sup>
+- Shaping of vertical text for EMF metafiles has been implemented. <sup>23.8</sup>
 
 ### Rendering
 
@@ -45,9 +53,15 @@ The public property **PageInfo.Colored**, indicating whether the page is colored
 
 The ability to set fill, stroke, and callout formatting for chart data labels has been implemented.
 
+### Mail Merge and Reporting
+
 #### Mustache Tags Support <sup>23.7</sup>
 
 Mustache tags are now supported in the [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/getregionshierarchy/) and [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/) methods.
+
+#### Specifying the Size of Rendered Images <sup>23.8</sup>
+
+A new public property [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) for specifying the size of rendered images in pixel has been introduced.
 
 ### LowCode <sup>23.6</sup>
 
@@ -60,6 +74,7 @@ New LowCode methods intended to merge different types of documents into a single
 - The public property **PhoneticGuide** to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/cpp/aspose.words/run/) has been added. <sup>23.5</sup>
 - The ability to retrieve a digital signature value from a digitally signed document as a byte array has been added by introducing a new [SignatureValue](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignature/get_signaturevalue/) property. <sup>23.7</sup>
 - The [Row](https://reference.aspose.com/words/cpp/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/) classes have been extended with new public members – [Row.NextRow](https://reference.aspose.com/words/cpp/aspose.words.tables/row/get_nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/cpp/aspose.words.tables/row/get_previousrow/), [Cell.NextCell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/get_nextcell/), and [Cell.PreviousCell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/get_previouscell/). <sup>23.7</sup>
+- Support for CITATION and BIBLIOGRAPHY fields has been added. <sup>23.8
 
 {{% alert color="primary" %}}
 
@@ -258,7 +273,7 @@ The API is enhanced for more flexible and convenient development.
 
 ### Rendering and Printing
 
-#### New Priting Size <sup>22.5</sup>
+#### New Printing Size <sup>22.5</sup>
 
 Support for the “Envelope No. 10” print page size has been added by introducing a new value to the [PaperSize](https://reference.aspose.com/words/cpp/aspose.words/papersize/) enumeration.
 

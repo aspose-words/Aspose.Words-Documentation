@@ -20,10 +20,10 @@ A mail merge field is a field that you can insert into a mail merge template to
 Aspose.Words takes the standard mail merge functionality and advances it many steps ahead, turning it into a full-fledged reporting solution that allows you to create even more complex documents such as reports, catalogs, inventories, and invoices. Here are a few advantages of the Aspose.Words reporting solution:
 
 - Design reports in Microsoft Word using standard mail merge fields
-- Define regions in the document that are growing, such as detailed order rows (curretnly is not supported in Python version)
+- Define regions in the document that are growing, such as detailed order rows (currently is not supported in Python version)
 - Insert images during a mail merge
-- Execute any custom logic, control formatting, or insert complex content using mail merge event handlers (curretnly is not supported in Python version)
-- Fill in documents with data from any type of data source (curretnly is not supported in Python version, only arrays data source is supported)
+- Execute any custom logic, control formatting, or insert complex content using mail merge event handlers (currently is not supported in Python version)
+- Fill in documents with data from any type of data source (currently is not supported in Python version, only arrays data source is supported)
 
 {{% alert color="primary" %}}
 

@@ -14,7 +14,7 @@ url: /net/using-and-configuring-crm-automerge/
 Below are the steps to create and upload Template in CRM
 
 - Open word and create a template.
-- Insert MailMerge fields for data comming from CRM. 
+- Insert MailMerge fields for data coming from CRM. 
 
 ![using-and-configuring-crm-automerge-1](1)
 
@@ -132,7 +132,7 @@ Select this step if you want to delete the generated document or Generate copy o
 - **Log File Directory:** It will contains the path where the Log information is written. (If it is Empty, default path would be "C:\Aspose Logs")
 - **Attachment:** Select the document here.
 
-### Execute Workflow and Ouput
+### Execute Workflow and Output
 
 Execution of workflow is depends on what options you have selected while configuring the workflow.
 

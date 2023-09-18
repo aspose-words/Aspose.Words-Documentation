@@ -28,7 +28,7 @@ The following code snippet is a "Hello, World!" program to exhibit working of "A
 // Create a new empty document A
 Document docA = new Document();
 
-// Inisialize a DocumentBuilder
+// Initialize a DocumentBuilder
 DocumentBuilder builder = new DocumentBuilder(docA);
 
 // Insert text to the document A start

@@ -14,7 +14,7 @@ New [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/do
 
 ### How to Insert a Chart
 
-In this section we eill learn how to insert a chart into a document.
+In this section we will learn how to insert a chart into a document.
 
 ### Insert Column Chart
 

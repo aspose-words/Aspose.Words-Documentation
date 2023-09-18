@@ -41,7 +41,7 @@ The following code example shows how to insert fields nested within another fiel
 
 A language identifier is a standard international numeric abbreviation for the language in a country or geographical region. With Aspose.Words, you can specify the Locale at the field level using the [LocaleId](https://reference.aspose.com/words/net/aspose.words.fields/field/localeid/) property, which gets or sets the field's locale ID.
 
-The folowing code example shows how to use this option:
+The following code example shows how to use this option:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cs" >}}
 
@@ -49,14 +49,14 @@ The folowing code example shows how to use this option:
 
 If you want to insert untyped/empty fields ({}) just like Microsoft Word allows, you can use the [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) method with the [FieldType.FieldNone](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) parameter. To insert a field into a Word document, you can press “Ctrl + F9” key combination.
 
-The folowing code example shows how to insert an empty field into the document:
+The following code example shows how to insert an empty field into the document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
 
 ## Inserting Fields into a Document using FieldBuilder
 The alternative way to insert fields in Aspose.Words is the [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/) class. It provides fluent interface to specify field switches and argument values as text, nodes or even nested fields.
 
-The folowing code example shows how to insert a field into a document using **FieldBuilder**:
+The following code example shows how to insert a field into a document using **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldUsingFieldBuilder.cs" >}}
 
@@ -80,7 +80,7 @@ For more details, see the [FieldMergeField](https://reference.aspose.com/words/n
 
 {{% /alert %}}
 
-The folowing code example shows how to add the MERGE field using DOM to a paragraph in a document:
+The following code example shows how to add the MERGE field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cs" >}}
 
@@ -100,7 +100,7 @@ For more details, see the [FieldAddressBlock](https://reference.aspose.com/words
 
 {{% /alert %}}
 
-The folowing code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
+The following code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cs" >}}
 
@@ -118,7 +118,7 @@ For more details, see the [FieldAdvance](https://reference.aspose.com/words/net/
 
 {{% /alert %}}
 
-The folowing code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
+The following code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAdvanceFieldWithOutDocumentBuilder-InsertAdvanceFieldWithOutDocumentBuilder.cs" >}}
 
@@ -137,7 +137,7 @@ For more details, see the [FieldAsk](https://reference.aspose.com/words/net/aspo
 
 {{% /alert %}}
 
-The folowing code example shows how to add the ASK Field using DOM to a paragraph in a document:
+The following code example shows how to add the ASK Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertASKFieldWithOutDocumentBuilder-InsertASKFieldWithOutDocumentBuilder.cs" >}}
 
@@ -153,7 +153,7 @@ For more details, see the [FieldAuthor](https://reference.aspose.com/words/net/a
 
 {{% /alert %}}
 
-The folowing code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
+The following code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cs" >}}
 
@@ -170,7 +170,7 @@ For more details, see the [FieldIncludeText](https://reference.aspose.com/words/
 
 {{% /alert %}}
 
-The folowing code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertIncludeFieldWithoutDocumentBuilder-InsertFieldIncludeTextWithoutDocumentBuilder.cs" >}}
 
@@ -186,6 +186,6 @@ For more details, see the [FieldToa](https://reference.aspose.com/words/net/asp
 
 {{% /alert %}}
 
-The folowing code example shows how to add the TOA field using DOM to a paragraph in a document:
+The following code example shows how to add the TOA field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cs" >}}

@@ -18,7 +18,7 @@ Sometimes you need to position a table in a document in a certain way. To do thi
 
 In this article, we will discuss what options Aspose.Words provides for positioning.
 
-## Spesify Inline Table Position
+## Specify Inline Table Position
 
 You can set the position of an inline table using the Aspose.Words API and the [Alignment](https://reference.aspose.com/words/cpp/aspose.words.tables/table/get_alignment/) property. Thus, you can adjust the alignment of the table relative to the document page.
 

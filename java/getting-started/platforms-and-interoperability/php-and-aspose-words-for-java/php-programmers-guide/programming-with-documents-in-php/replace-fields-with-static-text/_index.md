@@ -38,7 +38,7 @@ mTargetFieldType = targetFieldType;
 }
 public int visitFieldStart(FieldStart fieldStart)
 {
-// We must keep track of the starts and ends of fields incase of any nested fields.
+// We must keep track of the starts and ends of fields in case of any nested fields.
 if (fieldStart.getFieldType() == mTargetFieldType)
 {
 mFieldDepth++;

@@ -33,7 +33,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 - Creation DML Charts
 - Updating fields that depend on document layout, like TOC, PAGE, etc.
 - Comparing Two Word Documents
-- Reading and Writing VBA MAcros
+- Reading and Writing VBA Macros
 
 ## Limitations
 

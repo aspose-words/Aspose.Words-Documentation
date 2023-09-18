@@ -101,7 +101,7 @@ Below are examples of conversions between some popular formats. You can evaluate
 
 ---
 
-Although all of the converters in Aspose.Words are great, sometimes you will not be able to get the same appearence for documents in different formats.
+Although all of the converters in Aspose.Words are great, sometimes you will not be able to get the same appearance for documents in different formats.
 
 {{% alert color="primary" %}}
 

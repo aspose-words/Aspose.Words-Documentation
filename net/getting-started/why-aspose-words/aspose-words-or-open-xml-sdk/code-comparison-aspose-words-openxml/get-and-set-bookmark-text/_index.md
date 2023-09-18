@@ -3,13 +3,13 @@ title: Get and Set Bookmark Text
 second_title: Aspose.Words for .NET
 articleTitle: Get and Set Bookmark Text
 linktitle: Get and Set Bookmark Text
-description: "Get and set bokmark textin a document easily and fast instead of using Open XML SDK in C#."
+description: "Get and set bookmark textin a document easily and fast instead of using Open XML SDK in C#."
 type: docs
 weight: 130
 url: /net/get-and-set-bookmark-text/
 ---
 
-On this page we will look at how to get and set bokmark text in a document using Aspose.Words or Open XML SDK.
+On this page we will look at how to get and set bookmark text in a document using Aspose.Words or Open XML SDK.
 
 {{< nosnippet >}}
 
@@ -20,7 +20,7 @@ On this page we will look at how to get and set bokmark text in a document using
 In Aspose.Words, use the class [
 Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark) to work with a single bookmark ant the [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/) class to work with a collection of bookmark objects.
 
-The following code example shows how to get and set bokmark text in a document:
+The following code example shows how to get and set bookmark text in a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Bookmarks-BookmarkNameAndText-BookmarkNameAndText.cs" >}}
 
@@ -41,7 +41,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The following code example shows how to get and set bokmark text in a document:
+The following code example shows how to get and set bookmark text in a document:
 
 {{< highlight csharp >}}
 public void GetAndSetBookmarkTextFeature()

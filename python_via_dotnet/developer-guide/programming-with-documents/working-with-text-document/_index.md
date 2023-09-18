@@ -3,7 +3,7 @@ title: Working with Text Document
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Text Document
 linktitle: Working with Text Document
-description: "Work with a text document and modiffy its objects using Python."
+description: "Work with a text document and modify its objects using Python."
 type: docs
 weight: 220
 url: /python-net/working-with-text-document/

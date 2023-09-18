@@ -114,7 +114,7 @@ Some complex script fonts require the Advanced Typography features to be process
 
 **Q: Do I need license files for the fonts I use?**
 
-Yes, you do. Therefore, when copying fonts, keep in mind that most fonts are copyrighted. Locate font licences beforehand and verify that they can be freely transferred to another machine.
+Yes, you do. Therefore, when copying fonts, keep in mind that most fonts are copyrighted. Locate font licenses beforehand and verify that they can be freely transferred to another machine.
 
 ## Nested Mail Merge
 

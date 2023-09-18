@@ -180,7 +180,7 @@ public Size ImageSize { get; set; }
 **Use Case**
 
 This use case explains how to render every page of a document to a separate TIFF image at 2325x5325 pixels and 600 dpi:
-{{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "image-size-for-every-page.cs" >}}
+{{< gist "aspose-words-gists" "2eeed62dbb436513b919497ee351a704" "image-size-for-every-page.java" >}}
 {{% /alert %}}
 
 ### Added PdfEncryptionDetails ctor overload with PdfPermissions
@@ -195,7 +195,7 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermis
 **Use Case**
 
 This use case explains how to use PdfPermissions:
-{{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "encryption-permissions.cs" >}}
+{{< gist "aspose-words-gists" "2eeed62dbb436513b919497ee351a704" "encryption-permissions.java" >}}
 {{% /alert %}}
 
 ### Added the ability to generate TOC (table of contents) for MOBI documents
@@ -210,7 +210,7 @@ Desired depth of TOC can be specified same way as it's done for AZW3 or EPUB doc
 **Use Case**
 
 This use case explains how to create MOBI document with TOC and specify NavigationMapLevel:
-{{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "create-mobi-toc.cs" >}}
+{{< gist "aspose-words-gists" "2eeed62dbb436513b919497ee351a704" "create-mobi-toc.java" >}}
 {{% /alert %}}
 
 Note: Currently MOBI TOC won't be displayed by some viewers. For example, MOBI TOC won't be displayed by calibre app.
@@ -270,7 +270,7 @@ public sealed class FieldOptions
 **Use Case**
 
 This use case explains how to use IBibliographyStylesProvider:
-{{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "change-bibliography-styles.cs" >}}
+{{< gist "aspose-words-gists" "2eeed62dbb436513b919497ee351a704" "change-bibliography-styles.java" >}}
 {{% /alert %}}
 
 ### The property HtmlSaveOptions.EpubNavigationMapLevel has been deprecated.
@@ -289,5 +289,5 @@ Starting from Aspose.Words 23.8, you can instruct LINQ Reporting Engine to prese
 **Use Case**
 
 This use case explains how to instruct LINQ Reporting Engine to preserve leading and trailing whitespaces:
-{{< gist "aspose-words-gists" "7aae1e8fa6cb0a16cdfb2f28fb56e432" "json-data-preserve-spaces.cs" >}}
+{{< gist "aspose-words-gists" "2eeed62dbb436513b919497ee351a704" "json-data-preserve-spaces.java" >}}
 {{% /alert %}}

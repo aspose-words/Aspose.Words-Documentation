@@ -3,7 +3,7 @@ title: Working with Paragraphs in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Working with Paragraphs
 linktitle: Working with Paragraphs
-description: "Insert paragraph and speciffy its formatting in a document using Python."
+description: "Insert paragraph and specify its formatting in a document using Python."
 type: docs
 weight: 110
 url: /python-net/working-with-paragraphs/

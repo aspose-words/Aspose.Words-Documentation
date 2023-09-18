@@ -1,4 +1,4 @@
-﻿---
+---
 title: Programming with Documents in C++
 second_title: Aspose.Words for C++
 articleTitle: Programming with Documents
@@ -16,8 +16,10 @@ The visual appearance of documents is another important topic covered in this se
 To learn more about Aspose.Words features when programming with documents, select the corresponding article or group of articles:
 
 - [Aspose.Words Document Object Model](/words/cpp/aspose-words-document-object-model/)
+- [Translate Markdown to Document Object Model (DOM)](https://docs.aspose.com/words/cpp/translate-markdown-to-document-object-model/)
 - [Document Builder Overview](/words/cpp/document-builder-overview/)
 - [Working with Document](/words/cpp/working-with-document/)
+- [Protect or Encrypt a Document](https://docs.aspose.com/words/cpp/protect-or-encrypt-a-document/)
 - [Working with Styles](/words/cpp/working-with-styles-and-themes/)
 - [Working with Sections](/words/cpp/working-with-sections/)
 - [Working with Ranges](/words/cpp/working-with-ranges/)
@@ -33,9 +35,11 @@ To learn more about Aspose.Words features when programming with documents, selec
 - [Working with Comments](/words/cpp/working-with-comments/)
 - [Working with Graphic Elements](/words/cpp/working-with-graphic-elements/)
 - [Working with Ole Objects](/words/cpp/working-with-ole-objects/)
+- [Working with Asian Typography](https://docs.aspose.com/words/cpp/working-with-asian-typography/)
 - [Working with Fields](/words/cpp/working-with-fields/)
 - [Working with Form Fields](/words/cpp/working-with-form-fields/)
 - [Contents Management](/words/cpp/contents-management/)
+- [Working With Control Characters](https://docs.aspose.com/words/cpp/working-with-control-characters/)
 - [Working with VBA Macros](/words/cpp/working-with-vba-macros/)
 - [Working with Markdown Features](/words/cpp/working-with-markdown-features/)
 - [Working with Text Document](/words/cpp/working-with-text-document/)

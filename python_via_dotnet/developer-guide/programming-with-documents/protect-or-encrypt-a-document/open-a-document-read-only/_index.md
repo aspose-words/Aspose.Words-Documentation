@@ -80,7 +80,7 @@ doc.save(docs_base.artifacts_dir + "DocumentProtection.ReadOnlyProtection.docx")
 
 ## Remove Read-Only Restriction
 
-If you do not want a user to open your document as read-only, you can simply set the [read_only_recommened](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/read_only_recommended/) property to `False` or select [ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/document/protection_type/) as [NO_PROTECTION](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#no_protection).
+If you do not want a user to open your document as read-only, you can simply set the [read_only_recommended](https://reference.aspose.com/words/python-net/aspose.words.settings/writeprotection/read_only_recommended/) property to `False` or select [ProtectionType](https://reference.aspose.com/words/python-net/aspose.words/document/protection_type/) as [NO_PROTECTION](https://reference.aspose.com/words/python-net/aspose.words/protectiontype/#no_protection).
 
 The following code example shows how to remove read-only access for a document:
 

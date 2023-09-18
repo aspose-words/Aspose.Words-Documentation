@@ -9,7 +9,7 @@ weight: 28
 url: /java/working-with-pdfa-or-pdfua/
 ---
 
-PDF/A and PDF/UA format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A and PDF/UA conformant document.
+PDF/A and PDF/UA format imposes several requirements related to the document content that cannot be fulfilled during automatic conversion from a document in Word format to PDF. These requirements should be verified and corrected either in a Word document before conversion or in a PDF document after conversion in order to produce a fully PDF/A and PDF/UA compliant document.
 
 Basic requirements are for the structure or fonts of a PDF/A and PDF/UA document, which we will consider in the following sections.
 
@@ -192,15 +192,15 @@ Microsoft Word documents allow users to add figure caption.
 </details>
 {{% /alert %}}
 
-Currently Aspose.Words cannot export cuptions with the Caption tag, so they must be flagged in the output PDF.
+Currently Aspose.Words cannot export captions with the Caption tag, so they must be flagged in the output PDF.
 
 {{% alert color="secondary" %}}
 <details>
-    <summary>In this block, you can see examples: how to insert the сaption (expand to see details).</summary>
+    <summary>In this block, you can see examples: how to insert the caption (expand to see details).</summary>
     <p></p>
-    <p>In Microsoft Word, the сaption could be inserted through the context menu:</p>
+    <p>In Microsoft Word, the caption could be inserted through the context menu:</p>
     <img src="figure-caption-mw.png" alt="figure-caption-mw" style="width:800px"/>
-    <p>In Acrobat the сaption could be added or changed via the Object Properties dialog:</p>
+    <p>In Acrobat the caption could be added or changed via the Object Properties dialog:</p>
     <img src="figure-caption-acrobat.png" alt="figure-caption-acrobat" style="width:800px"/>
 </details>
 {{% /alert %}}
