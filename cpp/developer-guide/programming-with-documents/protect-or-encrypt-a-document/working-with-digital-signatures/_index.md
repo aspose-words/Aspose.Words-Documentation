@@ -94,15 +94,7 @@ Aspose.Words also provides the ability to retrieve the digital signature value f
 
 The following code example shows how to obtain the digital signature value as a byte array from a document:
 
-{{< highlight cpp >}}
-System::SharedPtr<Aspose::Words::Document> doc = System::MakeObject<Aspose::Words::Document>(System::String(u"document.docx"));
-
-for (auto&& digitalSignature : doc->get_DigitalSignatures())
-{
-	System::String signatureValue = System::Convert::ToBase64String(digitalSignature->get_SignatureValue());
-	System::Console::WriteLine(u"Base64 signature value is: {0}", signatureValue);
-}
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "cf0914fc4ceb93b503278282432ceaeb" "signature-value.h" >}}
 
 ## Remove Digital Signatures
 
