@@ -26,6 +26,10 @@ Aspose.Words for Python via .NET supports any 64-bit or 32-bit operating system 
 			<td><ul><li>Windows 2003 Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
 		</tr>
   <tr>
+			<td>MacOs</td>
+			<td>min version macOS Mojave 10.14, Intel x86-64</td>
+		</tr>
+  <tr>
 			<td>Linux</td>
 			<td><ul><li>Ubuntu</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
 		</tr>
