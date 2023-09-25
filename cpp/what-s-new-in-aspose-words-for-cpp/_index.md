@@ -11,6 +11,36 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for C++ 23.9
+
+Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
+
+### Rendering and Printing
+
+#### Customizing Axes Titles in DrawingML Charts <sup>23.9</sup>
+
+The capability to customize axis titles in DrawingML charts has been introduced by the implementation of a new public class **ChartAxisTitle** and **Title** property.
+
+#### Determining the Vertical Position of Fonts within a Paragraph <sup>23.9</sup>
+
+It is now possible to define the vertical position of fonts within a paragraph using the new public **BaselineAlignment** property and the new **BaselineAlignment** enumeration.
+
+### Loading and Saving Documents
+
+#### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
+
+The [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class has been expanded by including the **ImagesFolderAlias** property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
+
+### Other
+
+- Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the **EmulateRenderingToSizeOnPage** property and the **EmulateRenderingToSizeOnPageResolution** property was added. <sup>23.9</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for C++ 23.9 Release Notes](/words/cpp/aspose-words-for-cpp-23-9-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for C++ 23.5, 23.6, 23.7, 23.8
 
 Aspose.Words 23.5 enhances the ability to work with chart series data and the ability to work with ODT documents, as well as improve headers/footers and their text wrapping.
@@ -29,7 +59,7 @@ Aspose.Words 23.8 expands the capabilities of different formats, improves render
 ### New Format Features
 
 - The functionality to automatically generate Table of Contents (TOC) for MOBI documents has been introduced. <sup>23.8</sup>
-- The **PdfEncryptionDetails** constructor has been expanded with **PdfPermissions**. <sup>23.8</sup>
+- The [PdfEncryptionDetails](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) constructor has been expanded with [PdfPermissions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfpermissions/). <sup>23.8</sup>
 - Shaping of vertical text for EMF metafiles has been implemented. <sup>23.8</sup>
 
 ### Rendering
@@ -47,7 +77,7 @@ Support for Advanced Typography in WMF, EMF and EMF+ rendering has been added.
 
 #### Colored Content on the Page <sup>23.6</sup>
 
-The public property **PageInfo.Colored**, indicating whether the page is colored or not, has been added.
+The public property [PageInfo.Colored](https://reference.aspose.com/words/cpp/aspose.words.rendering/pageinfo/get_colored/), indicating whether the page is colored or not, has been added.
 
 #### Formatting for Chart Data Labels <sup>23.6</sup>
 
@@ -61,7 +91,7 @@ Mustache tags are now supported in the [MailMerge.GetRegionsHierarchy](https://r
 
 #### Specifying the Size of Rendered Images <sup>23.8</sup>
 
-A new public property [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) for specifying the size of rendered images in pixel has been introduced.
+A new public property [ImageSize](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_imagesize/) for specifying the size of rendered images in pixel has been introduced.
 
 ### LowCode <sup>23.6</sup>
 
@@ -71,7 +101,7 @@ New LowCode methods intended to merge different types of documents into a single
 
 - Support for text wrapping in headers/footers has been implemented. <sup>23.5</sup>
 - The ability to remove digital signatures from ODT documents has been added through the [RemoveAllSignatures](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/) method. <sup>23.5</sup>
-- The public property **PhoneticGuide** to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/cpp/aspose.words/run/) has been added. <sup>23.5</sup>
+- The public property [PhoneticGuide](https://reference.aspose.com/words/cpp/aspose.words/run/get_phoneticguide/) to obtain the base and ruby text of the phonetic guide [Run](https://reference.aspose.com/words/cpp/aspose.words/run/) has been added. <sup>23.5</sup>
 - The ability to retrieve a digital signature value from a digitally signed document as a byte array has been added by introducing a new [SignatureValue](https://reference.aspose.com/words/cpp/aspose.words.digitalsignatures/digitalsignature/get_signaturevalue/) property. <sup>23.7</sup>
 - The [Row](https://reference.aspose.com/words/cpp/aspose.words.tables/row/) and [Cell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/) classes have been extended with new public members – [Row.NextRow](https://reference.aspose.com/words/cpp/aspose.words.tables/row/get_nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/cpp/aspose.words.tables/row/get_previousrow/), [Cell.NextCell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/get_nextcell/), and [Cell.PreviousCell](https://reference.aspose.com/words/cpp/aspose.words.tables/cell/get_previouscell/). <sup>23.7</sup>
 - Support for CITATION and BIBLIOGRAPHY fields has been added. <sup>23.8
@@ -83,6 +113,8 @@ Learn more about [Aspose.Words for C++ 23.5 Release Notes](/words/cpp/aspose-wor
 Learn more about [Aspose.Words for C++ 23.6 Release Notes](/words/cpp/aspose-words-for-cpp-23-6-release-notes/).
 
 Learn more about [Aspose.Words for C++ 23.7 Release Notes](/words/cpp/aspose-words-for-cpp-23-7-release-notes/).
+
+Learn more about [Aspose.Words for C++ 23.8 Release Notes](/words/cpp/aspose-words-for-cpp-23-8-release-notes/).
 
 {{% /alert %}}
 
@@ -124,7 +156,7 @@ Since 23.2 the chart rendering has been significantly improved.
 
 #### Background and Foreground Color Control <sup>23.3</sup>
 
-The [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: **ForeThemeColor** and **BackThemeColor**, **ForeTintAndShade** and **BackTintAndShade**.
+The [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_backtintandshade/).
 
 #### Radial Gradients with the SkiaSharp Native Shader <sup>23.3</sup>
 
@@ -150,7 +182,7 @@ Saving progress notifications for MOBI and AZW3 formats has been implemented.
 
 #### Sentence and Word Spacing Adjustment  <sup>23.3</sup>
 
-The ability to specify whether to adjust sentence and word spacing automatically upon document import has been added by introducing the **AdjustSentenceAndWordSpacing** property.
+The ability to specify whether to adjust sentence and word spacing automatically upon document import has been added by introducing the [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/cpp/aspose.words/importformatoptions/get_adjustsentenceandwordspacing/) property.
 
 ### Other
 
