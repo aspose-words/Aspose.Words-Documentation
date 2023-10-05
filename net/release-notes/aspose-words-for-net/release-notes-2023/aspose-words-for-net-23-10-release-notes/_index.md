@@ -191,7 +191,7 @@ public Color BaseForeColor
 **Use Case**
 
 This use case explains how to get foreground color without modifiers in **Fill** and **Stroke** classes:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "fill-base-color.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "fill-base-color.cs" >}}
 {{% /alert %}}
 
 ### Added generic type parameter to CompositeNode's class methods
@@ -231,7 +231,7 @@ public T RemoveChild<T>(T oldChild) where T : Node;
 **Use Case**
 
 This use case explains how to use new generic methods:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "create-simple-document.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "create-simple-document.cs" >}}
 {{% /alert %}}
 
 ### Added new members to ChartDataPointCollection, ChartSeries and ChartFormat classes
@@ -288,10 +288,10 @@ namespace Aspose.Words.Drawing.Charts
 **Use Case**
 
 This use case explains how to copy data point format:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "copy-data-point-format.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "copy-data-point-format.cs" >}}
 
 This use case explains how to reset data point fill:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "reset-data-point-fill.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "reset-data-point-fill.cs" >}}
 
 {{% /alert %}}
 
@@ -311,7 +311,7 @@ public void FitImageToShape()
 **Use Case**
 
 This use case explains how to work with **ImageData.FitImageToShape()**:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "fit-image-to-shape.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "fit-image-to-shape.cs" >}}
 {{% /alert %}}
 
 ### Added public method DocumentBuilder.InsertDocumentInline
@@ -347,7 +347,7 @@ public Node InsertDocumentInline(Document srcDoc, ImportFormatMode importFormatM
 **Use Case**
 
 This use case explains how to insert one document into another inline:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "insert-document-inline.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "insert-document-inline.cs" >}}
 {{% /alert %}}
 
 ### Added public properties ChartTitle.Font and ChartAxisTitle.Font
@@ -386,8 +386,8 @@ namespace Aspose.Words.Drawing.Charts
 **Use Case**
 
 This use cases explain how to set font properties for chart and axis titles:
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "chart-axis-title.cs" >}}
-{{< gist "aspose-words-gists" "04b5e87c2c1e7ab4b3399340d0328050" "chart-title.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "chart-axis-title.cs" >}}
+{{< gist "aspose-words-gists" "3428e84add5beb0d46a8face6e5fc858" "chart-title.cs" >}}
 {{% /alert %}}
 
 ### Added public property Style.Locked
