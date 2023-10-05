@@ -144,6 +144,13 @@ A new public class **ChartAxisTitle** has been implemented. And a property **Tit
     }
 {{< /highlight >}}
 
+{{% alert color="secondary" %}}
+**Use Case**
+
+This use case explains how to set and show title of X and Y axes:
+{{< gist "aspose-words-gists" "95061862a2ab3d338a5cc332744e133d" "chart-axis-title.cpp" >}}
+{{% /alert %}}
+
 ### Added public property MarkdownSaveOptions.ImagesFolderAlias
 
 A new public property **ImagesFolderAlias** has been added to class **MarkdownSaveOptions**:
@@ -156,6 +163,13 @@ A new public property **ImagesFolderAlias** has been added to class **MarkdownSa
     ASPOSE_WORDS_SHARED_API void set_ImagesFolderAlias(const System::String& value);
 
 {{< /highlight >}}
+
+{{% alert color="secondary" %}}
+**Use Case**
+
+This use case explains how to use ImagesFolderAlias property within MarkdownSaveOptions:
+{{< gist "aspose-words-gists" "95061862a2ab3d338a5cc332744e133d" "images-folder.cpp" >}}
+{{% /alert %}}
 
 ### Added public property ParagraphFormat.BaselineAlignment
 
@@ -174,6 +188,13 @@ A new public property **BaselineAlignment** has been added to class **ParagraphF
     enum class ASPOSE_WORDS_SHARED_CLASS BaselineAlignment
 
 {{< /highlight >}}
+
+{{% alert color="secondary" %}}
+**Use Case**
+
+This use case explains how to use BaselineAlignment property of a ParagraphFormat:
+{{< gist "aspose-words-gists" "95061862a2ab3d338a5cc332744e133d" "paragraph-baseline-alignment.cpp" >}}
+{{% /alert %}}
 
 ### Changed MetafileRenderingOptions properties related to metafile size on page emulation
 
