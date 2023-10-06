@@ -56,7 +56,7 @@ There are 125 improvements and fixes in this regular monthly release. The most n
 |WORDSNET-12747|Provide API to set Vertical (Value) Axis Title of Chart|New Feature
 |WORDSNET-25898|Implement writing signature created field.|New Feature
 |WORDSNET-25914|Signing documents in OTT format.|New Feature
-|WORDSNET-24933|Ability to get foreground colour without modifiers in Fill and Stroke classes|New Feature
+|WORDSNET-24933|Ability to get foreground color without modifiers in Fill and Stroke classes|New Feature
 |WORDSNET-24909|Ability to inherit from CompositeNode in API|New Feature
 |WORDSNET-7479|DOCX to PDF file conversion issue with text rendering|New Feature
 |WORDSNET-24967|Add method to shape API to keep image aspect ratio|New Feature
@@ -167,7 +167,7 @@ There are 125 improvements and fixes in this regular monthly release. The most n
 
 This section lists public API changes that were introduced in Aspose.Words 23.10. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.Words which may affect existing code. Any behavior introduced that could be seen as regression and modifies the existing behavior is especially important and is documented here.
 
-### Added ability to get foreground colour without modifiers in Fill and Stroke classes
+### Added ability to get foreground color without modifiers in Fill and Stroke classes
 
 Related issue: WORDSNET-24933
 
