@@ -37,7 +37,7 @@ With Aspose.Words for Java, you can generate, modify, convert, render, and print
 			<p>USEFUL RESOURCES</p>
 			<ul>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Words for Java Paid Support Helpdesk</a></li>
-				<li><a href="https://downloads.aspose.com/words/java">Download Aspose.Words for Java</a></li>
+				<li><a href="https://releases.aspose.com/words/java">Download Aspose.Words for Java</a></li>
 				<li><a href="https://github.com/aspose-words/Aspose.Words-for-Java">Download Examples at GitHub Repository</a></li>
 			</ul>
 	</div>
@@ -71,7 +71,8 @@ With Aspose.Words for Java, you can generate, modify, convert, render, and print
 			</ul>
 			<p>LEARN</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/release-notes/">Aspose.Words for Java Release Notes</a></li>
+				<li><a href="https://releases.aspose.com/words/java/release-notes/">Aspose.Words for Java Release Notes</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-words/">Aspose.Words for Java Maven Repo</a></li>
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>

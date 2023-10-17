@@ -25,7 +25,7 @@ The following are the links to some useful resources you may need to accomplish 
 
 - [Aspose.Words for JasperReports Online Documentation](/words/jasperreports/)
 - [Aspose.Words for JasperReports Features](/words/jasperreports/feature-tour/)
-- [Aspose.Words for JasperReports Release Notes](/words/jasperreports/release-notes/)
+- [Aspose.Words for JasperReports Release Notes](https://releases.aspose.com/words/jasperreports/release-notes/)
 - [Aspose.Words for JasperReports Product Page](https://products.aspose.com/words/jasperreports/)
 - [Download Aspose.Words for JasperReports](https://releases.aspose.com/words/jasperreports/)
 - [Aspose.Words for JasperReports Free Support Forum](https://forum.aspose.com/c/words/8)

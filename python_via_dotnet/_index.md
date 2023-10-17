@@ -37,7 +37,7 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 			<p>USEFUL RESOURCES</p>
 			<ul>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Words for .NET Paid Support Helpdesk</a></li>
-				<li><a href="https://downloads.aspose.com/words/python">Download Aspose.Words for Python via .NET</a></li>
+				<li><a href="https://releases.aspose.com/words/python">Download Aspose.Words for Python via .NET</a></li>
 				<li><a href="https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET">Download Examples at GitHub Repository</a></li>
 			</ul>
 	</div>
@@ -53,7 +53,9 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 			</ul>
 			<p>LEARN</p>
 			<ul>
+			  <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET Release Notes</a><
 				<li><a href="https://docs.aspose.com/words/python-net/how-to-run-the-examples/">How to Run the Examples</a></li>
+				/li>
 			</ul>
 	</div>
 	<div class="col-md-4">
@@ -74,4 +76,3 @@ With Aspose.Words for Python via .NET, you can generate, modify, convert, and re
 </div>
 
 ------
-

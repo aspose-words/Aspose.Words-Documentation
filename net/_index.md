@@ -37,7 +37,7 @@ With Aspose.Words for .NET, you can generate, modify, convert, render, and print
 			<p>USEFUL RESOURCES</p>
 			<ul>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Words for .NET Paid Support Helpdesk</a></li>
-				<li><a href="https://downloads.aspose.com/words/net">Download Aspose.Words for .NET</a></li>
+				<li><a href="https://releases.aspose.com/words/net">Download Aspose.Words for .NET</a></li>
 				<li><a href="https://github.com/aspose-words/Aspose.Words-for-.NET">Download Examples at GitHub Repository</a></li>
 			</ul>
 	</div>
@@ -72,7 +72,7 @@ With Aspose.Words for .NET, you can generate, modify, convert, render, and print
 			</ul>
 			<p>LEARN</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/net/release-notes/">Aspose.Words for .NET Release Notes</a></li>
+				<li><a href="https://releases.aspose.com/words/net/release-notes/">Aspose.Words for .NET Release Notes</a></li>
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
@@ -82,4 +82,3 @@ With Aspose.Words for .NET, you can generate, modify, convert, render, and print
 </div>
 
 ------
-

@@ -21,7 +21,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="/words/net/product-overview/">Aspose.Words for .NET overview</a></li>
             <li><a href="/words/net/developer-guide/">Aspose.Words for .NET features</a></li>
             <li><a href="https://reference.aspose.com/words/net/">Aspose.Words for .NET – API Reference guide</a></li>
-            <li><a href="/words/net/release-notes/">Aspose.Words for .NET release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/net/release-notes/">Aspose.Words for .NET release notes</a></li>
             <li><a href="https://releases.aspose.com/words/net/">Aspose.Words for .NET download</a></li>
             <li><a href="https://www.nuget.org/packages/Aspose.Words/">Aspose.Words for .NET – NuGet Package</a></li>
             <li><a href="https://github.com/aspose-words/Aspose.Words-for-.NET">Aspose.Words for .NET examples, plugins and showcases</a></li>
@@ -43,7 +43,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="/words/java/product-overview/">Aspose.Words for Java overview</a></li>
             <li><a href="/words/java/developer-guide/">Aspose.Words for Java features</a></li>
             <li><a href="https://reference.aspose.com/words/java/">Aspose.Words for Java – API Reference guide</a></li>
-            <li><a href="/words/java/release-notes/">Aspose.Words for Java release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/java/release-notes/">Aspose.Words for Java release notes</a></li>
             <li><a href="https://releases.aspose.com/words/java/">Aspose.Words for Java download</a></li>
             <li><a href="/words/java/installation/">Aspose.Words for Java – Install from Maven Repository</a></li>
             <li><a href="https://github.com/aspose-words/Aspose.Words-for-Java">Aspose.Words for Java examples, plugins and showcases</a></li>
@@ -65,7 +65,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="/words/cpp/product-overview/">Aspose.Words for C++ overview</a></li>
             <li><a href="/words/cpp/developer-guide/">Aspose.Words for C++ features</a></li>
             <li><a href="https://reference.aspose.com/words/cpp/">Aspose.Words for C++ – API Reference guide</a></li>
-            <li><a href="/words/cpp/release-notes/">Aspose.Words for C++ release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/cpp/release-notes/">Aspose.Words for C++ release notes</a></li>
             <li><a href="https://releases.aspose.com/words/cpp/">Aspose.Words for C++ download</a></li>
             <li><a href="https://www.nuget.org/packages/Aspose.Words.Cpp/">Aspose.Words for C++ – NuGet Package</a></li>
             <li><a href="https://github.com/aspose-words/Aspose.words-for-C/">Aspose.Words for C++ examples, plugins and showcases</a></li>
@@ -87,7 +87,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="/words/python-net/product-overview/">Aspose.Words for Python via .NET overview</a></li>
             <li><a href="/words/python-net/developer-guide/">Aspose.Words for Python via .NET features</a></li>
             <li><a href="https://reference.aspose.com/words/python-net/">Aspose.Words for Python via .NET – API Reference guide</a></li>
-            <li><a href="/words/python-net/release-notes/">Aspose.Words for Python via .NET release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/python/release-notes/">Aspose.Words for Python via .NET release notes</a></li>
             <li><a href="https://releases.aspose.com/words/python/">Aspose.Words for Python via .NET download</a></li>
             <li><a href="https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET">Aspose.Words for Python via .NET examples, plugins and showcases</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Python via .NET Free Support Forum</a></li>
@@ -107,7 +107,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="https://products.aspose.com/words/jasperreports/">Aspose.Words for JasperReports product page</a></li>
             <li><a href="/words/jasperreports/product-overview/">Aspose.Words for JasperReports overview</a></li>
             <li><a href="/words/jasperreports/feature-tour/">Aspose.Words for JasperReports features</a></li>
-            <li><a href="/words/jasperreports/release-notes/">Aspose.Words for JasperReports release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/jasperreports/release-notes/">Aspose.Words for JasperReports release notes</a></li>
             <li><a href="https://releases.aspose.com/words/jasperreports/">Aspose.Words for JasperReports download</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for JasperReports Free Support Forum</a></li>
             <li><a href="https://helpdesk.aspose.com/">Aspose.Words for JasperReports Paid Support Helpdesk</a></li>
@@ -126,7 +126,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="https://products.aspose.com/words/sharepoint/">Aspose.Words for SharePoint product page</a></li>
             <li><a href="/words/sharepoint/introducing-aspose-words-for-sharepoint/">Aspose.Words for SharePoint overview</a></li>
             <li><a href="/words/sharepoint/features/">Aspose.Words for SharePoint features</a></li>
-            <li><a href="/words/sharepoint/release-notes/">Aspose.Words for SharePoint release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/sharepoint/release-notes/">Aspose.Words for SharePoint release notes</a></li>
             <li><a href="https://releases.aspose.com/words/sharepoint/">Aspose.Words for SharePoint download</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for SharePoint Free Support Forum</a></li>
             <li><a href="https://helpdesk.aspose.com/">Aspose.Words for SharePoint Paid Support Helpdesk</a></li>
@@ -145,7 +145,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="https://products.aspose.com/words/reporting-services/">Aspose.Words for Reporting Services product page</a></li>
             <li><a href="/words/reportingservices/product-overview/">Aspose.Words for Reporting Services overview</a></li>
             <li><a href="/words/reportingservices/feature-tour/">Aspose.Words for Reporting Services features</a></li>
-            <li><a href="/words/reportingservices/release-notes/">Aspose.Words for Reporting Services release notes</a></li>
+            <li><a href="https://releases.aspose.com/words/reportingservices/release-notes/">Aspose.Words for Reporting Services release notes</a></li>
             <li><a href="https://releases.aspose.com/words/reportingservices/">Aspose.Words for Reporting Services download</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Reporting Services Free Support Forum</a></li>
             <li><a href="https://helpdesk.aspose.com/">Aspose.Words for Reporting Services Paid Support Helpdesk</a></li>
@@ -164,6 +164,7 @@ Aspose.Words is a class library available on the most popular platforms that all
             <li><a href="https://products.aspose.com/words/android-java/">Aspose.Words for Android via Java product page</a></li>
             <li><a href="/words/java/android-product-overview/">Aspose.Words for Android via Java overview</a></li>
             <li><a href="/words/java/aspose-words-for-android-via-java-features/">Aspose.Words for Android via Java features</a></li>
+            <li><a href="https://releases.aspose.com/words/androidjava/release-notes/">Aspose.Words for Android via Java release notes</a></li>
             <li><a href="https://releases.aspose.com/words/androidjava/">Aspose.Words for Android via Java download</a></li>
             <li><a href="https://forum.aspose.com/c/words/8">Aspose.Words for Android via Java Free Support Forum</a></li>
             <li><a href="https://helpdesk.aspose.com/">Aspose.Words for Android via Java Paid Support Helpdesk</a></li>
@@ -171,8 +172,3 @@ Aspose.Words is a class library available on the most popular platforms that all
     </div>
 </div>
 {{< /tab >}}
-
-
-
-
-

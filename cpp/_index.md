@@ -37,7 +37,7 @@ With Aspose.Words for C++, you can generate, modify, convert, and render documen
 			<p>USEFUL RESOURCES</p>
 			<ul>
 				<li><a href="https://helpdesk.aspose.com/">Aspose.Words for C++ Paid Support Helpdesk</a></li>
-				<li><a href="https://downloads.aspose.com/words/cpp">Download Aspose.Words for C++</a></li>
+				<li><a href="https://releases.aspose.com/words/cpp">Download Aspose.Words for C++</a></li>
 				<li><a href="https://github.com/aspose-words/Aspose.words-for-C">Download Examples at GitHub Repository</a></li>
 			</ul>
 	</div>
@@ -69,7 +69,7 @@ With Aspose.Words for C++, you can generate, modify, convert, and render documen
 			</ul>
 			<p>LEARN</p>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/cpp/release-notes/">Aspose.Words for C++ Release Notes</a></li>
+				<li><a href="https://releases.aspose.com/words/cpp/release-notes/">Aspose.Words for C++ Release Notes</a></li>
 			</ul>
 			<p>TECHNICAL SUPPORT</p>
 			<ul>
