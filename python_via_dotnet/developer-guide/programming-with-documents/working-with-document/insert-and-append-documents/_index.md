@@ -26,7 +26,7 @@ As mentioned above, in Aspose.Words a document is represented as a tree of nodes
 
 You can insert documents in a variety of locations in different ways. For example, you can insert a document through a replace operation, a merge field during a merge operation, or via a bookmark.
 
-You can also use the [insert_document](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document/) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
+You can also use the [insert_document](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document/) or [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
 The following subsections describe the options during which you can insert one document into another.
 

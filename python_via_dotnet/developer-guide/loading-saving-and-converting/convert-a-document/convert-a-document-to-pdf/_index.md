@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document to PDF in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Convert a Document to PDF
@@ -52,6 +52,16 @@ Aspose.Words provides the [PdfCompliace](https://reference.aspose.com/words/pyt
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) with compliance to [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-ConversionToPDF17.py" >}}
+
+## Reduce PDF Output Size
+
+When saving to PDF, you can specify whether you want to optimize the output. To do this, you need to set the [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) flag to true, and then redundant nested canvases and empty canvases will be removed, neighbor glyphs with the same formatting will be concatenated.
+
+{{% alert color="primary" %}}
+
+Using the **OptimizeOutput** property may affect the accuracy of content display.
+
+{{% /alert %}}
 
 ## See Also
 

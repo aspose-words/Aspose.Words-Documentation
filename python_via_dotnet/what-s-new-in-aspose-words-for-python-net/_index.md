@@ -11,9 +11,11 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 23.9
+## Aspose.Words for Python via .NET 23.9, 23.10
 
 Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
+
+Aspose.Words 23.10 improves rendering, expands options for loading and saving documents, and allows users to merge documents in new ways.
 
 ### Rendering and Printing
 
@@ -25,19 +27,44 @@ The capability to customize axis titles in DrawingML charts has been introduced 
 
 It is now possible to define the vertical position of fonts within a paragraph using the new public [baseline_alignment](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/baseline_alignment/) property and the new [BaselineAlignment](https://reference.aspose.com/words/python-net/aspose.words/baselinealignment/) enumeration.
 
+#### Foreground Color Control <sup>23.10</sup>
+
+The ability to retrieve the foreground color without modifiers has been added to the [Fill](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/) and [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) classes via the **BaseForeColor** property.
+
+#### Expanding the Functionality of Charts <sup>23.10</sup>
+
+The functionality of the [ChartDataPointCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/), and [ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/) classes has been expanded with new methods and properties.
+
+#### Automatically Adjust and Fit an Image into a Shape <sup>23.10</sup>
+
+A simple way to automatically adjust and fit an image within a particular shape has been provided through the new [fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default) method.
+
 ### Loading and Saving Documents
 
 #### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
 
 The [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) class has been expanded by including the [images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/) property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
 
+#### Reduce PDF Output Size <sup>23.10</sup>
+
+Various PDF rendering optimizations to reduce output size when utilizing [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) settings have been implemented.
+
+#### Recognize Hyperlinks when Loading TXT Documents <sup>23.10</sup>
+
+The feature to recognize hyperlinks when loading TXT documents has been implemented by adding a new [detect_hyperlinks](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/) property.
+
 ### Other
 
 - Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) property and the [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) property was added. <sup>23.9</sup>
+- A simplified method for inserting one document into another document at the current cursor position has been introduced using the [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) method. <sup>23.10</sup>
+- The ability to access and modify style properties has been added through the introduction of the new [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) property.  <sup>23.10</sup>
+- A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) class. <sup>23.10</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Python via .NET 23.9 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 23.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
 
 {{% /alert %}}
 
