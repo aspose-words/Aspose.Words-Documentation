@@ -121,7 +121,7 @@ Metered metered = new Metered();
 metered.setMeteredKey("***", "***");
 {{< /highlight >}}
 
-Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode, to avoid such case, you should regularly check the license status, if Aspose.Words turns into evaluation mode, please apply the metered license again.
+Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode. To avoid such case, you should regularly check the license status – if Aspose.Words turns into evaluation mode, please apply the metered license again.
 
 {{% alert color="primary" %}}
 
