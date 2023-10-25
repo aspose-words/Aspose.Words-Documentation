@@ -62,7 +62,7 @@ The following code example shows how to convert JPEG and TIFF images to PDF:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "convert-image-to-pdf.cs" >}}
 
-To make this code work, you need to add references to Aspose.Words and System.Drawing to your project.
+To make this code work, you need to add references to Aspose.Words and `System.Drawing` to your project.
 
 ## Reduce PDF Output Size
 

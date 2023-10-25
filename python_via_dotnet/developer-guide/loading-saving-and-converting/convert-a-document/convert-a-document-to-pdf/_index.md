@@ -53,6 +53,16 @@ The following code example demonstrates how to convert a document to PDF 1.7 usi
 
 {{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "conversion-to-pdf17.py" >}}
 
+## Convert Images to PDF
+
+Converting to PDF is not restricted by Microsoft Word document formats. Any format supported by Aspose.Words, including programmatically created, can also be converted to PDF. For example, we can convert single-page images, such as JPEG, PNG, BMP, EMF, or WMF, as well as multi-page images, such as TIFF and GIF, to PDF.
+
+The following code example shows how to convert JPEG and TIFF images to PDF:
+
+EXAMPLE
+
+To make this code work, you need to add references to Aspose.Words and `aspose.pydrawing` to your project.
+
 ## Reduce PDF Output Size
 
 When saving to PDF, you can specify whether you want to optimize the output. To do this, you need to set the [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) flag to true, and then redundant nested canvases and empty canvases will be removed, neighbor glyphs with the same formatting will be concatenated.
