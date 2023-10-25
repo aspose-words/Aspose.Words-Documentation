@@ -33,7 +33,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 
 The following code example shows how to convert a document from DOCX into PDF using the [save](https://reference.aspose.com/words/python-net/aspose.words/document/save/#str) method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-Doc2Pdf.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-Doc2Pdf.py" >}} //DocxToPdf
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
@@ -51,7 +51,7 @@ Aspose.Words provides the [PdfCompliace](https://reference.aspose.com/words/pyt
 
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) with compliance to [PDF17](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf17):
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-ConversionToPDF17.py" >}}
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-working_with_pdf_save_options-ConversionToPDF17.py" >}} //ConversionToPdf17
 
 ## Reduce PDF Output Size
 
@@ -62,6 +62,8 @@ When saving to PDF, you can specify whether you want to optimize the output. To 
 Using the **OptimizeOutput** property may affect the accuracy of content display.
 
 {{% /alert %}}
+
+//OptimizeOutput
 
 ## See Also
 
