@@ -26,11 +26,11 @@ You can insert documents in a variety of locations in different ways. For exampl
 
 You can also use the [InsertDocument](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocument/#insertdocument/) or the [InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
-The following code example shows how to insert a document using the InsertDocument method:
+The following code example shows how to insert a document using the **InsertDocument** method:
 
 {{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-with-builder.cs" >}}
 
-The following code example shows how to insert a document using the InsertDocumentInline method:
+The following code example shows how to insert a document using the **InsertDocumentInline** method:
 
 {{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-inline-with-builder.cs" >}}
 

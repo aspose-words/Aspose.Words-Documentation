@@ -28,11 +28,11 @@ You can insert documents in a variety of locations in different ways. For exampl
 
 You can also use the [insert_document](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document/) or [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
-The following code example shows how to insert a document using the insert_document method:
+The following code example shows how to insert a document using the **insert_document** method:
 
 {{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-with-builder.py" >}}
 
-The following code example shows how to insert a document using the insert_document_inline method:
+The following code example shows how to insert a document using the **insert_document_inline** method:
 
 {{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-inline-with-builder.py" >}}
 

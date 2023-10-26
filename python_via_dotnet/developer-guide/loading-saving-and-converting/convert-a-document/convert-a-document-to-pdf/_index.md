@@ -77,6 +77,16 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 {{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "optimize-output.py" >}}
 
+## Reduce PDF Output Size
+
+When saving to PDF, you can specify whether you want to optimize the output. To do this, you need to set the [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) flag to true, and then redundant nested canvases and empty canvases will be removed, neighbor glyphs with the same formatting will be concatenated.
+
+{{% alert color="primary" %}}
+
+Using the **OptimizeOutput** property may affect the accuracy of content display.
+
+{{% /alert %}}
+
 ## See Also
 
 - The article ["Rendering"](/words/python-net/rendering/) for more information on the fixed-page and flow-layout formats
