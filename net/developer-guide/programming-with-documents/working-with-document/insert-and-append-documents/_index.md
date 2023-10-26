@@ -28,11 +28,11 @@ You can also use the [InsertDocument](https://reference.aspose.com/words/net/asp
 
 The following code example shows how to insert a document using the InsertDocument method:
 
-//InsertDocumentWithBuilder
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-with-builder.cs" >}}
 
 The following code example shows how to insert a document using the InsertDocumentInline method:
 
-//InsertDocumentInlineWithBuilder
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-inline-with-builder.cs" >}}
 
 The following subsections describe the options during which you can insert one document into another.
 
@@ -42,11 +42,11 @@ You can insert documents while performing find and replace operations. For examp
 
 The following code example shows how to create a handler for the replacing event to use it later in the inserting process:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtReplaceHandler.cs" >}} //InsertDocumentAtReplaceHandler
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-at-replace-handler.cs" >}}
 
 The following code example shows how insert content of one document into another during a find and replace operation:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtReplace.cs" >}} //InsertDocumentAtReplace
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-at-replace.cs" >}}
 
 ### Insert a Document During Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
 
@@ -54,11 +54,11 @@ You can insert a document into a merge field during a mail merge operation. For 
 
 The following code example shows how to create a handler for the merging event to use it later in the inserting process:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtMailMergeHandler.cs" >}} //InsertDocumentAtMailMergeHandler
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-at-mail-merge-handler.cs" >}}
 
 The following code example shows how to insert a document into the merge field using the created handler:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtMailMerge.cs" >}} //InsertDocumentAtMailMerge
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-at-mail-merge.cs" >}}
 
 ### Insert a Document at Bookmark {#insert-a-document-at-bookmark}
 
@@ -66,7 +66,7 @@ You can import a text file into a document and insert it right after a bookmark 
 
 The following coding example shows how to insert the contents of one document to a bookmark in another document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocumentAtBookmark.cs" >}} //InsertDocumentAtBookmark
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-at-bookmark.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -86,7 +86,7 @@ Note that [AppendChild](https://reference.aspose.com/words/net/aspose.words/comp
 
 The following code example shows how to append a document to the end of another document:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Join and append documents-KeepSourceFormatting.cs" >}} //KeepSourceFormatting
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "keep-source-formatting.cs" >}}
 
 ## Import and Insert Nodes Manually {#import-and-insert-nodes-manually}
 
@@ -98,7 +98,7 @@ You can also use the [AppendChild](https://reference.aspose.com/words/net/aspose
 
 The following code example shows how to manually import nodes and insert them after a specific node using the **InsertAfter** method:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Clone and combine documents-InsertDocument.cs" >}} //InsertDocumentAsNodes
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "insert-document-as-nodes.cs" >}}
 
 {{% alert color="primary" %}}
 
@@ -122,4 +122,4 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
-{{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-Join and append documents-DifferentPageSetup.cs" >}} //DifferentPageSetup
+{{< gist "aspose-words-gists" "db2dfc4150d7c714bcac3782ae241d03" "different-page-setup.cs" >}}
