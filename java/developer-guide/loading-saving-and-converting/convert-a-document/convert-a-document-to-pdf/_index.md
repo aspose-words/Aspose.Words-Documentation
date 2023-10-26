@@ -54,7 +54,7 @@ The following code example demonstrates how to convert a document to PDF 1.7 usi
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "conversion-to-pdf17.java" >}}
 
-## Convert Images to PDF {#convert-an-image-to-pdf}
+## Convert Images to PDF
 
 Converting to PDF is not restricted by Microsoft Word document formats. Any format supported by Aspose.Words, including programmatically created, can also be converted to PDF. For example, we can convert single-page images, such as JPEG, PNG, BMP, EMF, or WMF, as well as multi-page images, such as TIFF and GIF, to PDF.
 
@@ -65,6 +65,20 @@ The following code example shows how to convert JPEG and TIFF images to PDF:
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "convert-image-to-pdf.java" >}}
 
 To make this code work, you need to add references to Aspose.Words, Java.awt.image, and javax.imageio class packages to your project.
+
+## Reduce PDF Output Size
+
+When saving to PDF, you can specify whether you want to optimize the output. To do this, you need to set the [OptimizeOutput](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/#getOptimizeOutput) flag to true, and then redundant nested canvases and empty canvases will be removed, neighbor glyphs with the same formatting will be concatenated.
+
+The following code example shows how to optimize the output:
+
+{{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "[optimize-output.java](http://optimize-output.java/)" >}}
+
+{{% alert color="primary" %}}
+
+Using the **OptimizeOutput** property may affect the accuracy of content display.
+
+{{% /alert %}}
 
 ## See Also
 

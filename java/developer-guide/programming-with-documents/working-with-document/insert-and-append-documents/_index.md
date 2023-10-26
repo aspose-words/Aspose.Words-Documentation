@@ -33,11 +33,11 @@ You can insert documents in a variety of locations in different ways. For exampl
 
 You can also use the [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) or the [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
-The following code example shows how to insert a document using the InsertDocument method:
+The following code example shows how to insert a document using the **InsertDocument** method:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
 
-The following code example shows how to insert a document using the InsertDocumentInline method:
+The following code example shows how to insert a document using the **InsertDocumentInline** method:
 
 {{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 

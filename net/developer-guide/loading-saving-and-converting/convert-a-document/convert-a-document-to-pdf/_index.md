@@ -68,17 +68,9 @@ To make this code work, you need to add references to Aspose.Words and `System.D
 
 When saving to PDF, you can specify whether you want to optimize the output. To do this, you need to set the [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) flag to true, and then redundant nested canvases and empty canvases will be removed, neighbor glyphs with the same formatting will be concatenated.
 
-{{% alert color="primary" %}}
-
-Using the **OptimizeOutput** property may affect the accuracy of content display.
-
-{{% /alert %}}
+The following code example shows how to optimize the output:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "optimize-output.cs" >}}
-
-## Reduce PDF Output Size
-
-When saving to PDF, you can specify whether you want to optimize the output. To do this, you need to set the [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) flag to true, and then redundant nested canvases and empty canvases will be removed, neighbor glyphs with the same formatting will be concatenated.
 
 {{% alert color="primary" %}}
 
