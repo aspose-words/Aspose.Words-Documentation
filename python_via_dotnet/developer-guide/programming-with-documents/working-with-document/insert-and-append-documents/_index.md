@@ -28,6 +28,14 @@ You can insert documents in a variety of locations in different ways. For exampl
 
 You can also use the [insert_document](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document/) or [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
+The following code example shows how to insert a document using the InsertDocument method:
+
+{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-with-builder.py" >}}
+
+The following code example shows how to insert a document using the InsertDocumentInline method:
+
+{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-inline-with-builder.py" >}}
+
 The following subsections describe the options during which you can insert one document into another.
 
 ### Insert a Document at Bookmark
@@ -36,7 +44,7 @@ You can import a text file into a document and insert it right after a bookmark 
 
 The following coding example shows how to insert the contents of one document to a bookmark in another document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-clone_and_combine_documents-InsertDocumentAtBookmark.py" >}}
+{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-at-bookmark.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -56,7 +64,7 @@ Note that [append_child](https://reference.aspose.com/words/python-net/aspose.wo
 
 The following code example shows how to append a document to the end of another document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-join_and_append_documents-KeepSourceFormatting.py" >}}
+{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "keep-source-formatting.py" >}}
 
 ## Import and Insert Nodes Manually
 
@@ -66,13 +74,9 @@ When you need to insert or append one section or paragraph to another, you essen
 
 You can also use the [append_child](https://reference.aspose.com/words/python-net/aspose.words/compositenode/append_child/) method to add a new specified node to the end of the list of child nodes, for example, if you want to append content at the paragraph level instead of at the section level.
 
-The following code example shows how to insert document content into another document using the [insert_document](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document/) method:
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-join_and_append_documents-InsertDocumentWithBuilder.py" >}}
-
 The following code example shows how to manually import nodes and insert them after a specific node using the [insert_after](https://reference.aspose.com/words/python-net/aspose.words/compositenode/insert_after/) method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-clone_and_combine_documents-InsertDocument.py" >}}
+{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "insert-document-as-nodes.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -96,4 +100,4 @@ Note that the [Section](https://reference.aspose.com/words/python-net/aspose.wor
 
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-join_and_append_documents-DifferentPageSetup.py" >}}
+{{< gist "aspose-words-gists" "ffc2b4de06eabf9183a3ed2aa34e939d" "different-page-setup.py" >}}

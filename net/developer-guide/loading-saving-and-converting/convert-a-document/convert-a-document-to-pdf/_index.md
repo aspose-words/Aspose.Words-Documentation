@@ -32,7 +32,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 
 The following code example shows how to convert a document from DOCX into PDF using the [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) method:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-Doc2Pdf.cs" >}}
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
@@ -50,7 +50,7 @@ Aspose.Words provides the [PdfCompliace ](https://reference.aspose.com/words/n
 
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) with compliance to PDF17:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ConversionToPDF17.cs" >}}
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
 ## Convert Images to PDF
 
@@ -58,70 +58,11 @@ Converting to PDF is not restricted by Microsoft Word document formats. Any for
 
 The following code example shows how to convert JPEG and TIFF images to PDF:
 
-**.NET**
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "image-to-pdf.cs" >}}
 
-{{< highlight csharp >}}
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "convert-image-to-pdf.cs" >}}
 
-// Convert image in a specified format to PDF.
-ConvertImageToPdf(dataDir + "Test.jpg", dataDir + "TestJpg_out.pdf");
-ConvertImageToPdf(dataDir + "Test.tiff", dataDir + "TestTif_out.pdf");
-{{< /highlight >}}
-
-**.NET**
-
-{{< highlight csharp >}}
-public void ConvertImageToPdf(string inputFileName, string outputFileName)
-{
-	// Create Document and DocumentBuilder.
-	// The builder makes it simple to add content to the document.
-	Document doc = new Document();
-	DocumentBuilder builder = new DocumentBuilder(doc);
-
-	// Read the image from file, ensure it is disposed.
-	using (Image image = Image.FromFile(inputFileName))
-	{
-		// Find which dimension the frames in this image represent. For example
-	    // The frames of a BMP or TIFF are "page dimension" whereas frames of a GIF image are "time dimension". 
-	    FrameDimension dimension = new FrameDimension(image.FrameDimensionsList[0]);
-	
-	    // Get the number of frames in the image.
-	    int framesCount = image.GetFrameCount(dimension);
-	
-	    // Loop through all frames.
-		for (int frameIdx = 0; frameIdx < framesCount; frameIdx++)
-		{
-	    	// Insert a section break before each new page, in case of a multi-frame TIFF.
-	        if (frameIdx != 0)
-	        	builder.InsertBreak(BreakType.SectionBreakNewPage);
-	
-	    	// Select active frame.
-	    	image.SelectActiveFrame(dimension, frameIdx);
-	
-	        // We want the size of the page to be the same as the size of the image.
-		    // Convert pixels to points to size the page to the actual image size.
-	    	PageSetup ps = builder.PageSetup;
-	    	ps.PageWidth = ConvertUtil.PixelToPoint(image.Width, image.HorizontalResolution);
-	        ps.PageHeight = ConvertUtil.PixelToPoint(image.Height, image.VerticalResolution);
-	
-	        // Insert the image into the document and position it at the top left corner of the page.
-		    builder.InsertImage(
-	    	    image,
-	            RelativeHorizontalPosition.Page,
-	            0,
-		        RelativeVerticalPosition.Page,
-	    	    0,
-	        	ps.PageWidth,
-	 	       	ps.PageHeight,
-	 	       	WrapType.None);
-		}
-	}
-	
-	// Save the document to PDF.
-	doc.Save(outputFileName);
-}
-{{< /highlight >}}
-
-To make this code work, you need to add references to Aspose.Words and System.Drawing to your project.
+To make this code work, you need to add references to Aspose.Words and `System.Drawing` to your project.
 
 ## Reduce PDF Output Size
 
@@ -132,6 +73,8 @@ When saving to PDF, you can specify whether you want to optimize the output. To 
 Using the **OptimizeOutput** property may affect the accuracy of content display.
 
 {{% /alert %}}
+
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "optimize-output.cs" >}}
 
 ## See Also
 

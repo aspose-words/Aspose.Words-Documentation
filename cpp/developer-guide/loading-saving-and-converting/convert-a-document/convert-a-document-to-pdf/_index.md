@@ -32,7 +32,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 
 The following code example shows how to convert a document from DOCX into PDF using the Save method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-Doc2Pdf-Doc2Pdf.cpp" >}}
+{{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
 You can download the template file of this example from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-C/tree/master/Examples).
 
@@ -50,7 +50,7 @@ Aspose.Words provides the [PdfCompliace](https://reference.aspose.com/words/cpp
 
 The following code example demonstrates how to convert a document to PDF 1.7 using [PdfSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/pdfsaveoptions/) with compliance to PDF17:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-WorkingWithPdfSaveOptions-ConversionToPDF17.cpp" >}}
+{{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "conversion-to-pdf17.h" >}}
 
 ## Convert Images to PDF {#convert-an-image-to-pdf}
 
@@ -58,9 +58,9 @@ Converting to PDF is not restricted by Microsoft Word document formats. Any for
 
 The following code example shows how to convert JPEG and TIFF images to PDF:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ImageToPdf-ImageToPdf.cpp" >}}
+{{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "image-to-pdf.h" >}}
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ImageToPdf-ConvertImageToPdf.cpp" >}}
+{{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "convert-image-to-pdf.h" >}}
 
 To make this code work, you need to add references to Aspose.Words and System.Drawing to your project.
 

@@ -31,7 +31,15 @@ As mentioned above, in Aspose.Words a document is represented as a tree of nodes
 
 You can insert documents in a variety of locations in different ways. For example, you can insert a document through a replace operation, a merge field during a merge operation, or via a bookmark.
 
-You can also use the [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
+You can also use the [InsertDocument](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocument-com.aspose.words.Document-int) or the [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
+
+The following code example shows how to insert a document using the InsertDocument method:
+
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-with-builder.java" >}}
+
+The following code example shows how to insert a document using the InsertDocumentInline method:
+
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-inline-with-builder.java" >}}
 
 The following subsections describe the options during which you can insert one document into another.
 
@@ -41,11 +49,11 @@ You can insert documents while performing find and replace operations. For examp
 
 The following code example shows how to create a handler for the replacing event to use it later in the inserting process:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-InsertDocumentIntoAnotherDocument-InsertDocumentAtReplaceHandler.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace-handler.java" >}}
 
 The following code example shows how insert content of one document into another during a find and replace operation:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-InsertDocumentIntoAnotherDocument-insertDocumentAtReplace.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-replace.java" >}}
 
 ### Insert a Document During Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
 
@@ -53,11 +61,11 @@ You can insert a document into a merge field during a mail merge operation. For 
 
 The following code example shows how to create a handler for the merging event to use it later in the inserting process:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-InsertDocumentIntoAnotherDocument-InsertDocumentAtMailMergeHandler.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge-handler.java" >}}
 
 The following code example shows how to insert a document into the merge field using the created handler:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-InsertDocumentIntoAnotherDocument-insertDocumentAtMailMerge.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-mail-merge.java" >}}
 
 ### Insert a Document at Bookmark
 
@@ -65,7 +73,7 @@ You can import a text file into a document and insert it right after a bookmark 
 
 The following coding example shows how to insert the contents of one document to a bookmark in another document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-InsertDocumentIntoAnotherDocument-insertADocumentAtABookmark.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-at-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -85,7 +93,7 @@ Note that [AppendChild](https://reference.aspose.com/words/java/com.aspose.words
 
 The following code example shows how to append a document to the end of another document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-KeepSourceFormatting-KeepSourceFormatting.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "keep-source-formatting.java" >}}
 
 ## Import and Insert Nodes Manually {#import-and-insert-nodes-manually}
 
@@ -95,13 +103,9 @@ When you need to insert or append one section or paragraph to another, you essen
 
 You can also use the [AppendChild](https://reference.aspose.com/words/java/com.aspose.words/document/#appendChild-com.aspose.words.Node) method to add a new specified node to the end of the list of child nodes, for example, if you want to append content at the paragraph level instead of at the section level.
 
-The following code example shows how to insert document content into another document using the **InsertDocument** method:
-
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-InsertDocumentWithBuilder-InsertDocumentWithBuilder.java" >}}
-
 The following code example shows how to manually import nodes and insert them after a specific node using the **InsertAfter** method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-InsertDocumentIntoAnotherDocument-insertDocument.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "insert-document-as-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -125,4 +129,4 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-joining_appending-DifferentPageSetup-DifferentPageSetup.java" >}}
+{{< gist "aspose-words-gists" "6e5c8fd2462c6d7ba26da4d9f66ff77b" "different-page-setup.java" >}}
