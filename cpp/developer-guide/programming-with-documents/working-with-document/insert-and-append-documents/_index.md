@@ -27,6 +27,10 @@ You can insert documents in a variety of locations in different ways. For exampl
 
 You can also use the [InsertDocument](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertdocument/) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
+The following code example shows how to insert a document using the InsertDocument method:
+
+//InsertDocumentWithBuilder
+
 The following subsections describe the options during which you can insert one document into another.
 
 ### Insert a Document During Find and Replace Operation {#insert-a-document-during-find-and-replace-operation}
@@ -35,11 +39,11 @@ You can insert documents while performing find and replace operations. For examp
 
 The following code example shows how to create a handler for the replacing event to use it later in the inserting process:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtReplaceHandler.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtReplaceHandler.cpp" >}} //InsertDocumentAtReplaceHandler
 
 The following code example shows how insert content of one document into another during a find and replace operation:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtReplace.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtReplace.cpp" >}} //InsertDocumentAtReplace
 
 ### Insert a Document During Mail Merge Operation {#insert-a-document-during-mail-merge-operation}
 
@@ -47,11 +51,11 @@ You can insert a document into a merge field during a mail merge operation. For 
 
 The following code example shows how to create a handler for the merging event to use it later in the inserting process:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtMailMergeHandler.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtMailMergeHandler.cpp" >}} //InsertDocumentAtMailMergeHandler
 
 The following code example shows how to insert a document into the merge field using the created handler:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtMailMerge.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtMailMerge.cpp" >}} //InsertDocumentAtMailMerge
 
 ### Insert a Document at Bookmark
 
@@ -59,7 +63,7 @@ You can import a text file into a document and insert it right after a bookmark 
 
 The following coding example shows how to insert the contents of one document to a bookmark in another document:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtBookmark.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocumentAtBookmark.cpp" >}} //InsertDocumentAtBookmark
 
 {{% alert color="primary" %}}
 
@@ -79,7 +83,7 @@ Note that [AppendChild](https://reference.aspose.com/words/cpp/aspose.words/comp
 
 The following code example shows how to append a document to the end of another document:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Joining-Appending-KeepSourceFormatting-KeepSourceFormatting.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Joining-Appending-KeepSourceFormatting-KeepSourceFormatting.cpp" >}} //KeepSourceFormatting
 
 ## Import and Insert Nodes Manually {#import-and-insert-nodes-manually}
 
@@ -89,13 +93,9 @@ When you need to insert or append one section or paragraph to another, you essen
 
 You can also use the [AppendChild](https://reference.aspose.com/words/cpp/aspose.words/compositenode/appendchild/) method to add a new specified node to the end of the list of child nodes, for example, if you want to append content at the paragraph level instead of at the section level.
 
-The following code example shows how to insert document content into another document using the **InsertDocument** method:
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Joining-Appending-InsertDocumentWithBuilder-InsertDocumentWithBuilder.cpp" >}}
-
 The following code example shows how to manually import nodes and insert them after a specific node using the **InsertAfter** method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocument.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-InsertDoc-InsertDocument.cpp" >}} //InsertDocumentAsNodes
 
 {{% alert color="primary" %}}
 
@@ -119,4 +119,4 @@ Note that the **Section** and **PageSetup** properties do not control how two do
 
 The following code example shows how to append one document to another while keeping the content from splitting across two pages:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Joining-Appending-DifferentPageSetup-DifferentPageSetup.cpp" >}}
+{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Joining-Appending-DifferentPageSetup-DifferentPageSetup.cpp" >}} //DifferentPageSetup
