@@ -28,11 +28,11 @@ You can also use the [InsertDocument](https://reference.aspose.com/words/net/asp
 
 The following code example shows how to insert a document using the InsertDocument method:
 
-//InsertDocument
+//InsertDocumentWithBuilder
 
 The following code example shows how to insert a document using the InsertDocumentInline method:
 
-//InsertDocumentInline
+//InsertDocumentInlineWithBuilder
 
 The following subsections describe the options during which you can insert one document into another.
 
