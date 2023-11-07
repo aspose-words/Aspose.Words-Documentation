@@ -72,7 +72,7 @@ When saving to PDF, you can specify whether you want to optimize the output. To 
 
 The following code example shows how to optimize the output:
 
-{{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "[optimize-output.java](http://optimize-output.java/)" >}}
+{{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "optimize-output.java" >}}
 
 {{% alert color="primary" %}}
 
