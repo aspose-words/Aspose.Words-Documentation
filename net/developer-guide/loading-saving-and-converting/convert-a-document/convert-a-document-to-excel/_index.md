@@ -22,6 +22,12 @@ Document doc = new Document(MyDir + "Pdf Document.pdf");
 doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
 {{< /highlight >}}
 
+{{% alert color="primary" %}}
+
+Sometimes it is necessary to specify additional options, which can affect the result of saving a document as a XLSX. These options can be specified by the use of the [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) class, containing properties that determine how the XLSX output will be displayed.
+
+{{% /alert %}}
+
 ## Find and Replace When Saving to XLSX
 
 Also using Aspose.Words, you can find a specific string or regular expression in your document and replace it with the matching one you need. Then you can also save the result to XLSX format.

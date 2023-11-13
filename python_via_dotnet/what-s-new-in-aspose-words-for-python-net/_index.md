@@ -11,11 +11,13 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 23.9, 23.10
+## Aspose.Words for Python via .NET 23.9, 23.10, 23.11
 
 Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
 
 Aspose.Words 23.10 improves rendering, expands options for loading and saving documents, and allows users to merge documents in new ways.
+
+Aspose.Words 23.11 enhances the work with revisions, XLSX format and fonts on chart legend with additional options.
 
 ### Rendering and Printing
 
@@ -39,6 +41,10 @@ The functionality of the [ChartDataPointCollection](https://reference.aspose.com
 
 A simple way to automatically adjust and fit an image within a particular shape has been provided through the new [fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default) method.
 
+#### Default Font Formatting for DrawingML Chart Legend Entries <sup>23.11</sup>
+
+The ability to specify default font formatting for legend entries of DrawingML charts has been added via the [font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/) property. This feature facilitates a more streamlined and consistent appearance for chart elements, improving the overall document aesthetics.
+
 ### Loading and Saving Documents
 
 #### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
@@ -59,12 +65,15 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 - A simplified method for inserting one document into another document at the current cursor position has been introduced using the [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) method. <sup>23.10</sup>
 - The ability to access and modify style properties has been added through the introduction of the new [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) property.  <sup>23.10</sup>
 - A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) class. <sup>23.10</sup>
+- The ability to write all sections of a document onto the same XLSX worksheet has been provided through the new [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) enumeration type and the new [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) property. <sup>23.11</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for Python via .NET 23.9 Release Notes](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 23.10 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 23.11 Release Notes](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
 
 {{% /alert %}}
 
