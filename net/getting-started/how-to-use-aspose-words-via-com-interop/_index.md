@@ -37,15 +37,9 @@ Here are the topics that you will eventually need to master:
 
 After [installation Aspose.Words for .NET](https://docs.aspose.com/words/net/installation/), you need to register Aspose.Words for COM Interop using the  `regasm.exe` utility.
 
-`regasm.exe` is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the `*%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` directory, for example *C:\Windows\Microsoft .NET\Framework\v2.0.50727*.
+`regasm.exe` is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the `*%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` directory, for example *C:\Windows\Microsoft .NET\Framework\v4.0.30319*.
 
-If you use Visual Studio, then the easiest way to launch regasm is to:
-
-1. On the **Start** menu, select **Programs**, then **Microsoft Visual Studio 2010** and finally **Visual Studio Tools**.
-2. Right-click **Visual Studio Command Prompt** and select **Run as Administrator**.
-   This will launch the command prompt with all the necessary environment variables set.
-3. Type: `regasm <installdir>\bin\net2.0\Aspose.Words.dll /codebase`
-   where `<installdir>` is the directory where you installed Aspose.Words, typically **C:\Program Files (x86)\Aspose\Aspose.Words for .NET**.
+To get tlb file run `C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe <installdir>\lib\net40-client\Aspose.Words.dll /tlb /codebase` in cmd, where `<installdir>` is the directory where you installed Aspose.Words, typically **%USERPROFILE%\.nuget\packages\aspose.words\**.
 
 ## Work with Aspose.Words via COM Interop
 
@@ -66,7 +60,7 @@ The ProgIDs consist of the library name ("Aspose.Words") and the class name.
 
 During installation, the Aspose.Words.tlb (COM type library) is copied to your computer to:
 
-- For .NET Framework 2.0, 3.0, 3.5 and 4.0 to **<installdir>\bin\net2.0**
+- For .NET Framework 4.0 to **<installdir>\lib\net40-client**
 
 If your programming language (for example Visual Basic or Delphi) allows you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser.
 
