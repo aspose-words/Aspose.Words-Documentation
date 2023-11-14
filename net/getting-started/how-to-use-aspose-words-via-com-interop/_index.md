@@ -37,9 +37,9 @@ Here are the topics that you will eventually need to master:
 
 After [installation Aspose.Words for .NET](https://docs.aspose.com/words/net/installation/), you need to register Aspose.Words for COM Interop using the  `regasm.exe` utility.
 
-`regasm.exe` is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the `*%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` directory, for example *C:\Windows\Microsoft .NET\Framework\v4.0.30319*.
+`regasm.exe` is a tool included in .NET Framework SDK. All the .NET Framework SDK tools are located in the `%windir%\Microsoft .NET\Framework\<FrameworkVersion>\` directory, for example *C:\Windows\Microsoft .NET\Framework\v4.0.30319*.
 
-To get tlb file run `C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe <installdir>\lib\net40-client\Aspose.Words.dll /tlb /codebase` in cmd, where `<installdir>` is the directory where you installed Aspose.Words, typically **%USERPROFILE%\.nuget\packages\aspose.words\**.
+To get tlb file run `C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe <installdir>\lib\net40-client\Aspose.Words.dll /tlb /codebase` in cmd, where `<installdir>` is the directory where you installed Aspose.Words, typically `%USERPROFILE%\.nuget\packages\aspose.words\`.
 
 ## Work with Aspose.Words via COM Interop
 
