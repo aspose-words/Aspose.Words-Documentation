@@ -9,20 +9,38 @@ weight: 70
 url: /net/working-with-headers-and-footers/
 ---
 
-Aspose.Words allows users to work with headers and footers in a document. In this article, we will consider several options for working with headers and footers as an example.
+Aspose.Words allows users to work with headers and footers in a document. A header is text that is placed at the top of a page, and a footer is text at the bottom of a page. Typically, these areas are used to insert information that should be repeated on all or some pages of the document, such as page numbers, creation date , company information, and so on.
 
-## How to Create Headers or Footers using DocumentBuilder {#create-headers-or-footers-using-documentbuilder}
+## Create Headers or Footers using DocumentBuilder
 
-When creating headers and footers, special attention is paid to the following issues:
+If you want to add a document header or footer programmatically, the easiest way is to use the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class to do it.
 
-- How to specify header/footer type.
-- How to instruct the document to display different headers/footers for the first page and for odd/even pages.
-- How to insert an absolutely positioned image into the header.
-- How to set font and paragraph properties for the header/footer text.
-- How to insert page numbers into the header/footer.
-- How to use a table to make one part of the header/footer text align to the left edge and the other to the right edge.
-- How to control whether headers/footers of a subsequent section of the document use headers/footers defined in the previous section.
-- How to ensure proper header/footer appearance when using different page orientation and size for subsequent sections.
+The following code example shows how to add a header into a document:
+
+EXAMPLE
+
+## Specify Header or Footer Options
+
+When you add a header or footer to a document, you can set some advanced properties. Aspose.Words provides users with the [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) and [HeaderFooterCollection](https://reference.aspose.com/words/net/aspose.words/headerfootercollection/) classes, as well as [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfootertype/) enumeration that give you more control over the header and footer customization process.
+
+### Specify Header or Footer Type
+
+### Specify Whether to Display Different Headers or Footers for the First Page
+
+### Specify Whether to Display Different Headers or Footers for Odd or Even Pages
+
+### Insert an Absolutely Positioned Image into the Header
+
+### Set Font and Paragraph Properties for Header or Footer Text
+
+### Insert Page Numbers into the Header or Footer
+
+### Align One Header or Footer Part to the Left and the Other Part to the Right
+
+### Use Headers or Footers Defined in the Previous Section
+
+### Ensure Header or Footer appearance when Using Different Page Orientations and Page Size
+
 
 The following code example shows how to create headers and footers using DocumentBuilder:
 
@@ -30,11 +48,11 @@ The following code example shows how to create headers and footers using Documen
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-CreateHeaderFooterUsingDocBuilder-CopyHeadersFootersFromPreviousSection.cs" >}}
 
-## How to Remove Only Footers
+## How to Remove Only Headers or Only Footers
 
-Each section in a document can have up to three headers and up to three footers (for first, even and odd pages). If you want to delete all footers in a document you need to loop through all sections and remove every footer node.
+Each section in a document can have up to three headers and up to three footers (for first, even, and odd pages). If you want to remove all headers or all footers in a document, you need to loop through all the sections and remove each corresponding header node or footer node.
 
-The following code example shows how to delete all footers from all sections, but leaves headers intact:
+The following code example shows how to remove all footers from all sections but leave headers intact. You can remove only headers in a similar way:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-RemoveFooters-RemoveFooters.cs" >}}
 
