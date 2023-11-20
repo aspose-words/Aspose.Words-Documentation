@@ -12,7 +12,7 @@ url: /net/how-to-use-aspose-words-via-com-interop/
 The information in this topic applies to scenarios where you want to use Aspose.Words for .NET via COM Interop in any of the following programming languages:
 
 - ASP
-- Delphi
+- Delphi ([Example](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/ReleasePreparation/Showcases/Aspose_Words_for_NET_via_COM_Delphi))
 - JScript
 - Perl
 - PHP
