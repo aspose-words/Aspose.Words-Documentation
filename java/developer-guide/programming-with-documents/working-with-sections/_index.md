@@ -126,7 +126,7 @@ The basic rules for displaying a header or footer for each section are quite sim
 
 The following code example shows how to create 2 sections with different headers:
 
-{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "different-first-page-header-footer.java" >}}
+{{< gist "aspose-words-gists" "7c0668453e53ed7a57d3ea3a05520f21" "sections-with-different-headers.java" >}}
 
 If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/java/com.aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/java/com.aspose.words/section/#clearHeadersFooters) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/java/com.aspose.words/section/#deleteHeaderFooterShapes) method to remove all shapes from headers and footers in your document.
 
