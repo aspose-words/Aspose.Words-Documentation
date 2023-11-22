@@ -17,7 +17,7 @@ If you want to add a document header or footer programmatically, the easiest way
 
 The following code example shows how to add a header or footer into a document:
 
-EXAMPLE //CreateHeaderFooter
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "create-header-footer.cs" >}}
 
 ## Specify Header or Footer Options
 
@@ -25,35 +25,35 @@ When you add a header or footer to a document, you can set some advanced propert
 
 ### Specify Header or Footer Type
 
-EXAMPLE //HeaderFooterType
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "header-footer-type.cs" >}}
 
 ### Specify Whether to Display Different Headers or Footers for the First Page
 
-EXAMPLE //DifferentFirstPage
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "different-first-page.cs" >}}
 
 ### Specify Whether to Display Different Headers or Footers for Odd or Even Pages
 
-EXAMPLE //OddEvenPages
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "odd-even-pages.cs" >}}
 
 ### Insert an Absolutely Positioned Image into the Header
 
-EXAMPLE //InsertImage
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "insert-image.cs" >}}
 
 ### Set Font and Paragraph Properties for Header or Footer Text
 
-EXAMPLE //FontProps
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "font-props.cs" >}}
 
 ### Insert Page Numbers into the Header or Footer
 
-EXAMPLE //PageNumbers
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "page-numbers.cs" >}}
 
 ### Use Headers or Footers Defined in the Previous Section
 
-EXAMPLE //CopyHeadersFootersFromPreviousSection
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "copy-headers-footers-from-previous-section.cs" >}}
 
 ### Ensure Header or Footer appearance when Using Different Page Orientations and Page Size
 
-EXAMPLE //LinkToPreviousHeaderFooter
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
 ## How to Remove Only Headers or Only Footers
 
@@ -61,7 +61,7 @@ Each section in a document can have up to three headers and up to three footers 
 
 The following code example shows how to remove all footers from all sections but leave headers intact. You can remove only headers in a similar way:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-RemoveFooters-RemoveFooters.cs" >}} //RemoveFooters
+{{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "remove-footers.cs" >}}
 
 {{% alert color="primary" %}}
 
