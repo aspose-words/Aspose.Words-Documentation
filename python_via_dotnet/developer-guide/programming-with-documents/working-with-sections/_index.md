@@ -126,7 +126,7 @@ The basic rules for displaying a header or footer for each section are quite sim
 
 The following code example shows how to create 2 sections with different headers:
 
-{{< gist "aspose-words-gists" "000cda3bfe9679c09bfd03617bd1f9e8" "different-first-page-header-footer.py" >}}
+{{< gist "aspose-words-gists" "2e1b2b28253780881d116e3a873ee668" "link-to-previous-header-footer.py" >}}
 
 If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/python-net/aspose.words/section/clear_headers_footers/#default) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/python-net/aspose.words/section/delete_header_footer_shapes/#default) method to remove all shapes from headers and footers in your document.
 
