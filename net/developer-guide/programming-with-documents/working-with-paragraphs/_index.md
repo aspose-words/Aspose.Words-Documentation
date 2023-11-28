@@ -5,7 +5,7 @@ articleTitle: Working with Paragraphs
 linktitle: Working with Paragraphs
 description: "Insert a paragraph into a document C#. Set paragraph styles in C#. Work with paragraph style separator C#. Manipulate paragraph node using C#."
 type: docs
-weight: 110
+weight: 210
 url: /net/working-with-paragraphs/
 ---
 

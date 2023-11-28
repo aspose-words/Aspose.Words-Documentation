@@ -5,7 +5,7 @@ articleTitle: Working with Tables
 linktitle: Working with Tables
 description: "How to work with tables in C#. Introducing to work with tables and Table node concepts in Aspose.Words for .NET."
 type: docs
-weight: 90
+weight: 190
 url: /net/working-with-tables/
 ---
 

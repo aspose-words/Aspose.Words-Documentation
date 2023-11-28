@@ -5,7 +5,7 @@ articleTitle: Working with Headers and Footers
 linktitle: Working with Headers and Footers
 description: "How to manipulate headers and footers using C#. Create headers and footers C#. Remove headers or footers C#."
 type: docs
-weight: 70
+weight: 150
 url: /net/working-with-headers-and-footers/
 ---
 

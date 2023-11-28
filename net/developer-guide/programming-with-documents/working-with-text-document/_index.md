@@ -5,7 +5,7 @@ articleTitle: Working with Text Document
 linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using C#."
 type: docs
-weight: 220
+weight: 430
 url: /net/working-with-text-document/
 aliases: [/net/work-with-text-document/]
 ---

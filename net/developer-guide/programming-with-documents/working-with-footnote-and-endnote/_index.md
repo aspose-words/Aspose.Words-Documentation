@@ -5,7 +5,7 @@ articleTitle: Working with Footnote and Endnote
 linktitle: Working with Footnote and Endnote
 description: "How to manipulate footnotes and endnotes using C#."
 type: docs
-weight: 80
+weight: 160
 url: /net/working-with-footnote-and-endnote/
 ---
 

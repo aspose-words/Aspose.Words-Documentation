@@ -5,7 +5,7 @@ articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Font formatting in details using C#. Emphasis mark in C#. Get font line spacing using C#."
 type: docs
-weight: 120
+weight: 230
 url: /net/working-with-fonts/
 ---
 

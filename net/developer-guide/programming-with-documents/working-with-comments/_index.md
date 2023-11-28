@@ -5,7 +5,7 @@ articleTitle: Working with Comments
 linktitle: Working with Comments
 description: "Working with comments using C#."
 type: docs
-weight: 140
+weight: 260
 url: /net/working-with-comments/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Work with Options and Appearance of Word Documents
 linktitle: Work with Options and Appearance of Word Documents
 description: "Control the appearance of Word documents taking into account the difference between various Microsoft Word versions using C#."
 type: docs
-weight: 120
+weight: 40
 url: /net/work-with-word-document-options-and-appearance/
 aliases: [/net/work-with-document-options-and-settings/]
 ---

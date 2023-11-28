@@ -5,7 +5,7 @@ articleTitle: Working with Styles and Themes
 linktitle: Working with Styles and Themes
 description: "Advanced Microsoft Word formatting features, working with styles and themes using C#."
 type: docs
-weight: 40
+weight: 110
 url: /net/working-with-styles-and-themes/
 ---
 

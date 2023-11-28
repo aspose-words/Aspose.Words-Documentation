@@ -5,7 +5,7 @@ articleTitle: Working with Sections
 linktitle: Working with Sections
 description: "Understanding document section concepts and manipulation practices using C#. Insert section into a document C#. Remove section C#. Copy sections between Documents."
 type: docs
-weight: 60
+weight: 120
 url: /net/working-with-sections/
 ---
 

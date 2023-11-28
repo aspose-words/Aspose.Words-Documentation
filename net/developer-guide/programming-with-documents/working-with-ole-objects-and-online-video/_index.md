@@ -5,7 +5,7 @@ articleTitle: Working with OLE Objects and Online Video
 linktitle: Working with OLE Objects and Online Video
 description: "Create and modify OLE embedding in your document using C#."
 type: docs
-weight: 160
+weight: 360
 url: /net/working-with-ole-objects/
 aliases: [/net/working-with-ole-objects-and-online-video/]
 ---

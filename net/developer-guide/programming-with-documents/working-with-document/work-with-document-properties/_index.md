@@ -5,7 +5,7 @@ articleTitle: Work with Document Properties
 linktitle: Work with Document Properties
 description: "Aspose.Words for .NET allows storing some useful information about your document, such as API and Version Number or Authorized Date, in built-in or custom document properties using C#."
 type: docs
-weight: 20
+weight: 10
 url: /net/work-with-document-properties/
 ---
 

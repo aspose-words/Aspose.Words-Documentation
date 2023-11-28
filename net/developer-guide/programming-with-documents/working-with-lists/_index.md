@@ -5,7 +5,7 @@ articleTitle: Working with Lists
 linktitle: Working with Lists
 description: "Introduction to numbering formatting feature in Aspose.Words for .NET."
 type: docs
-weight: 100
+weight: 200
 url: /net/working-with-lists/
 ---
 

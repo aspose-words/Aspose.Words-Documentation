@@ -5,7 +5,7 @@ articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
 description: "Working with document VBA projects using C#."
 type: docs
-weight: 200
+weight: 410
 url: /net/working-with-vba-macros/
 ---
 

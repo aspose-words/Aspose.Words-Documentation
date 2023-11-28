@@ -5,7 +5,7 @@ articleTitle: Working with Table of Contents
 linktitle: Working with Table of Contents
 description: "Table of Content field in details. How to create and modify TOC field using C#. Insert TOC C#."
 type: docs
-weight: 83
+weight: 170
 url: /net/working-with-table-of-contents/
 ---
 
