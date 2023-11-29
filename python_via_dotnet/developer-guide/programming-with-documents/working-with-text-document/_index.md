@@ -5,7 +5,7 @@ articleTitle: Working with Text Document
 linktitle: Working with Text Document
 description: "Work with a text document and modify its objects using Python."
 type: docs
-weight: 220
+weight: 430
 url: /python-net/working-with-text-document/
 aliases:
 - /python/work-with-text-document/

@@ -5,7 +5,7 @@ articleTitle: Working with Bookmarks
 linktitle: Working with Bookmarks
 description: "How to insert, obtain, move, show or hide bookmarks using Python."
 type: docs
-weight: 86
+weight: 180
 url: /python-net/working-with-bookmarks/
 aliases: [/python/working-with-bookmarks/]
 ---

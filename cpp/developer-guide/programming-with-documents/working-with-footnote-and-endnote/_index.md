@@ -5,7 +5,7 @@ articleTitle: Working with Footnote and Endnote
 linktitle: Working with Footnote and Endnote
 description: "How to manipulate footnotes and endnotes using C++."
 type: docs
-weight: 37
+weight: 160
 url: /cpp/working-with-footnote-and-endnote/
 ---
 

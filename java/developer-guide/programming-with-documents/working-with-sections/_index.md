@@ -5,7 +5,7 @@ articleTitle: Working with Sections
 linktitle: Working with Sections
 description: "Understanding document section concepts and manipulation practices using Java. Insert section into a document Java. Remove section Java. Copy sections between Documents."
 type: docs
-weight: 30
+weight: 120
 url: /java/working-with-sections/
 aliases: [/java/how-to-remove-page-and-section-breaks/]
 ---

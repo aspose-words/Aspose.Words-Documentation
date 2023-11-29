@@ -5,7 +5,7 @@ articleTitle: Working with Table of Contents
 linktitle: Working with Table of Contents
 description: "Table of Content field in details. How to create and modify TOC field using Java."
 type: docs
-weight: 50
+weight: 170
 url: /java/working-with-table-of-contents/
 aliases: [/java/how-to-insert-and-work-with-the-table-of-contents-field/]
 ---

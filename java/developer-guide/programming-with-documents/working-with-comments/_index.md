@@ -5,7 +5,7 @@ articleTitle: Working with Comments
 linktitle: Working with Comments
 description: "Working with comments using Java."
 type: docs
-weight: 110
+weight: 260
 url: /java/working-with-comments/
 ---
 

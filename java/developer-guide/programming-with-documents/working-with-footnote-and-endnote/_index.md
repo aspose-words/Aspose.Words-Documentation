@@ -5,7 +5,7 @@ articleTitle: Working with Footnote and Endnote
 linktitle: Working with Footnote and Endnote
 description: "How to manipulate footnotes and endnotes using Java."
 type: docs
-weight: 45
+weight: 160
 url: /java/working-with-footnote-and-endnote/
 ---
 

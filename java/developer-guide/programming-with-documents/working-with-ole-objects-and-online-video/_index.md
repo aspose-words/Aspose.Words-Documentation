@@ -5,7 +5,7 @@ articleTitle: Working with Ole Objects
 linktitle: Working with Ole Objects
 description: "Create and modify OLE embedding in your document using Java."
 type: docs
-weight: 125
+weight: 360
 url: /java/working-with-ole-objects/
 ---
 

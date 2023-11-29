@@ -5,7 +5,7 @@ articleTitle: Work with Office Add-ins
 linktitle: Work with Office Add-ins
 description: "Aspose.Words for Java provides various classes for working with Office Add-ins. You can add Task Pane via web extension and customize the pane and extension properties."
 type: docs
-weight: 130
+weight: 50
 url: /java/work-with-office-add-ins/
 aliases: [/java/working-with-web-extensions/]
 ---

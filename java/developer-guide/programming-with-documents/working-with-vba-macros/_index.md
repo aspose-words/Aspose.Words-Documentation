@@ -5,7 +5,7 @@ articleTitle: Working with VBA Macros
 linktitle: Working with VBA Macros
 description: "Working with document VBA projects using Java."
 type: docs
-weight: 160
+weight: 410
 url: /java/working-with-vba-macros/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Working with Fields
 linktitle: Working with Fields
 description: "Introduction to field feature in Aspose.Words for Java."
 type: docs
-weight: 130
+weight: 370
 url: /java/working-with-fields/
 ---
 

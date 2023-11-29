@@ -5,7 +5,7 @@ articleTitle: Working with Asian Typography
 linktitle: Working with Asian Typography
 description: "Work with Asian typography using C++. Adjust Space between Asian and Latin text in C++."
 type: docs
-weight: 113
+weight: 240
 url: /cpp/working-with-asian-typography/
 ---
 

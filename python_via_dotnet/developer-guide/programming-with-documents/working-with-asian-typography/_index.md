@@ -5,7 +5,7 @@ articleTitle: Working with Asian Typography
 linktitle: Working with Asian Typography
 description: "Work with Asian typography using Python. Adjust Space between Asian and Latin text in Python."
 type: docs
-weight: 113
+weight: 240
 url: /python-net/working-with-asian-typography/
 ---
 

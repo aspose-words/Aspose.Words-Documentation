@@ -5,7 +5,7 @@ articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Font formatting in details using C++."
 type: docs
-weight: 70
+weight: 230
 url: /cpp/working-with-fonts/
 ---
 

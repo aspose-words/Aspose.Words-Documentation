@@ -5,7 +5,7 @@ articleTitle: Working with Text Document
 linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using C++."
 type: docs
-weight: 180
+weight: 430
 url: /cpp/working-with-text-document/
 ---
 

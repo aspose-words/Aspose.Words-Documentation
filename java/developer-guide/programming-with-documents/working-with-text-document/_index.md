@@ -5,7 +5,7 @@ articleTitle: Working with Text Document
 linktitle: Working with Text Document
 description: "Advanced TXT document processing, lists, BiDi, headers/footer, using Java."
 type: docs
-weight: 190
+weight: 430
 url: /java/working-with-text-document/
 ---
 

@@ -7,7 +7,7 @@ description: "Create and modify OLE embedding in your document using C++."
 type: docs
 aliases:
  - /cpp/working-with-ole-objects-and-online-video/
-weight: 110
+weight: 360
 url: /cpp/working-with-ole-objects/
 ---
 

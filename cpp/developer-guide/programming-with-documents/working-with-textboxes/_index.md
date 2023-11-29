@@ -7,7 +7,7 @@ description: "Introduction to linked textboxes feature in Aspose.Words for C++."
 type: docs
 aliases:
  - /cpp/working-with-linked-textboxes/
-weight: 80
+weight: 250
 url: /cpp/working-with-textboxes/
 ---
 

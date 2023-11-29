@@ -5,7 +5,7 @@ articleTitle: Working with Headers and Footers
 linktitle: Working with Headers and Footers
 description: "How to manipulate headers and footers using Java."
 type: docs
-weight: 40
+weight: 150
 url: /java/working-with-headers-and-footers/
 ---
 

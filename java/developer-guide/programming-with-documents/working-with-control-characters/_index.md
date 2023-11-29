@@ -5,7 +5,7 @@ articleTitle: Working With Control Characters
 linktitle: Working With Control Characters
 description: "Introduction to working with control characters in Aspose.Words for Java."
 type: docs
-weight: 155
+weight: 400
 url: /java/working-with-control-characters/
 ---
 

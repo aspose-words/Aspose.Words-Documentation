@@ -5,7 +5,7 @@ articleTitle: Working with Footnote and Endnote
 linktitle: Working with Footnote and Endnote
 description: "Insert ffotnotes or endnotes into a document and specify its options using Python."
 type: docs
-weight: 80
+weight: 160
 url: /python-net/working-with-footnote-and-endnote/
 aliases: [/python/working-with-footnote-and-endnote/]
 ---

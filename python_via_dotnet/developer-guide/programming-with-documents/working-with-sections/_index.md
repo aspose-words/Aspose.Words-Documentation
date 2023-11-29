@@ -5,7 +5,7 @@ articleTitle: Working with Sections
 linktitle: Working with Sections
 description: "Create and manage sections and section breaks in a document using Python. Insert section into a document Python. Remove section Python. Copy sections between Documents."
 type: docs
-weight: 60
+weight: 120
 url: /python-net/working-with-sections/
 aliases: [/python/working-with-sections/]
 ---

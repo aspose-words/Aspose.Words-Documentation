@@ -5,7 +5,7 @@ articleTitle: Working with Paragraphs
 linktitle: Working with Paragraphs
 description: "Paragraph node manipulation practices using C++."
 type: docs
-weight: 60
+weight: 210
 url: /cpp/working-with-paragraphs/
 ---
 

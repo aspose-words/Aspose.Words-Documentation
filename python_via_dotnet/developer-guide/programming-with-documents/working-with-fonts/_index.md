@@ -5,7 +5,7 @@ articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Customize font settings using Python."
 type: docs
-weight: 120
+weight: 230
 url: /python-net/working-with-fonts/
 aliases: [/python/working-with-fonts/]
 ---

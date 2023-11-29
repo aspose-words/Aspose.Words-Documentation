@@ -5,7 +5,7 @@ articleTitle: Working with Tables
 linktitle: Working with Tables
 description: "How to work with tables in C++. Introducing to work with tables and Table node concepts in Aspose.Words for C++."
 type: docs
-weight: 40
+weight: 190
 url: /cpp/working-with-tables/
 ---
 

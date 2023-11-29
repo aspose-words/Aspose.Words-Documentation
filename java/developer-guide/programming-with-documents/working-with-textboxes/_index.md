@@ -7,7 +7,7 @@ description: "Introduction to linked textboxes feature in Aspose.Words for Java.
 type: docs
 aliases:
  - /java/working-with-linked-textboxes/
-weight: 100
+weight: 250
 url: /java/working-with-linked-textboxes/
 ---
 

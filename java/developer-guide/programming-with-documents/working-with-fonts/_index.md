@@ -5,7 +5,7 @@ articleTitle: Working with Fonts
 linktitle: Working with Fonts
 description: "Font formatting in details using Java."
 type: docs
-weight: 90
+weight: 230
 url: /java/working-with-fonts/
 ---
 

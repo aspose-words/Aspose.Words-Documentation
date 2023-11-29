@@ -5,7 +5,7 @@ articleTitle: Working with Styles and Themes
 linktitle: Working with Styles and Themes
 description: "Enhanced Microsoft Word formatting features, working with styles and themes using Java."
 type: docs
-weight: 23
+weight: 110
 url: /java/working-with-styles-and-themes/
 aliases:
 - /java/how-to-extract-content-based-on-styles/

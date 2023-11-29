@@ -5,7 +5,7 @@ articleTitle: Working with Document
 linktitle: Working with Document
 type: docs
 description: "The Document class provides various document properties and methods using C++. You use the Document class as the starting point for whatever you want to perform with Aspose.Words for C++. The Document object can be saved to a file or stream and also sent to a browser."
-weight: 20
+weight: 40
 url: /cpp/working-with-document/
 ---
 

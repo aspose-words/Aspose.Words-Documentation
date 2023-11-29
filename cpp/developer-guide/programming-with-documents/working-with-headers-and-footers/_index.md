@@ -8,7 +8,7 @@ type: docs
 aliases:
  - /cpp/how-to-remove-footers-but-leave-headers-intact/
  - /cpp/how-to-create-headers-footers-using-documentbuilder/
-weight: 33
+weight: 150
 url: /cpp/working-with-headers-and-footers/
 ---
 

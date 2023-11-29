@@ -5,7 +5,7 @@ articleTitle: Working with Markdown Features
 linktitle: Working with Markdown Features
 description: "How to implement Markdown features using Java. All the features are represented as corresponding styles or direct formatting."
 type: docs
-weight: 180
+weight: 420
 url: /java/working-with-markdown-features/
 ---
 

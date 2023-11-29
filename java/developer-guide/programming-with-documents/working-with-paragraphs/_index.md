@@ -5,7 +5,7 @@ articleTitle: Working with Paragraphs
 linktitle: Working with Paragraphs
 description: "Paragraph node manipulation practices using Java."
 type: docs
-weight: 80
+weight: 210
 url: /java/working-with-paragraphs/
 ---
 

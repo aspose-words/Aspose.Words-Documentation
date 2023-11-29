@@ -5,7 +5,7 @@ articleTitle: Working with TextBoxes
 linktitle: Working with TextBoxes
 description: "Work with textboxes in a document using Python."
 type: docs
-weight: 130
+weight: 250
 url: /python-net/working-with-textboxes/
 aliases: [/python/working-with-textboxes/]
 ---

@@ -5,7 +5,7 @@ articleTitle: Working with Bookmarks
 linktitle: Working with Bookmarks
 description: "Understanding bookmark concepts and how bookmark can be used in your program using Java."
 type: docs
-weight: 55
+weight: 180
 url: /java/working-with-bookmarks/
 ---
 

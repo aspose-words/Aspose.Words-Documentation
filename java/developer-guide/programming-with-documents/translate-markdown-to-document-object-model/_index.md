@@ -5,7 +5,7 @@ articleTitle: Translate Markdown to Document Object Model (DOM)
 linktitle: Translate Markdown to Document Object Model (DOM)
 type: docs
 description: "Tarnslate a Markdown document to Document Object Model and back. So you can work with complex existing Markdown and programmatically create a Markdown document from scratch using Java."
-weight: 13
+weight: 20
 url: /java/translate-markdown-to-document-object-model/
 ---
 

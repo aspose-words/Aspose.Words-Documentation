@@ -5,7 +5,7 @@ articleTitle: Working with Tables
 linktitle: Working with Tables
 description: "How to work with tables in Java. Introducing to Table node concepts in Aspose.Words for Java."
 type: docs
-weight: 60
+weight: 190
 url: /java/working-with-tables/
 ---
 

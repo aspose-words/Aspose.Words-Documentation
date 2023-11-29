@@ -5,7 +5,7 @@ articleTitle: Working with Hyphenation
 linktitle: Working with Hyphenation
 description: "Use hyphenation for a more compact arrangement of text. It provides advanced algorithms to work with hyphenation dictionaries, uses OpenOffice dictionaries using Java."
 type: docs
-weight: 85
+weight: 220
 url: /java/working-with-hyphenation/
 ---
 

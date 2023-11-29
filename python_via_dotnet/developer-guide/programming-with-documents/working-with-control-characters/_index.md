@@ -5,7 +5,7 @@ articleTitle: Working With Control Characters
 linktitle: Working With Control Characters
 description: "Introduction to working with control characters in Aspose.Words for Python."
 type: docs
-weight: 195
+weight: 400
 url: /python-net/working-with-control-characters/
 ---
 

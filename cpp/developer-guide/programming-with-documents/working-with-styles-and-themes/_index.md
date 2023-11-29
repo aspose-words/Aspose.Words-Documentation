@@ -7,7 +7,7 @@ description: "Enhanced Microsoft Word formatting features, working with styles a
 aliases:
   - /cpp/working-with-styles/
 type: docs
-weight: 25
+weight: 110
 url: /cpp/working-with-styles-and-themes/
 ---
 
