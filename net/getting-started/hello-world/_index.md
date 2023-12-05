@@ -22,34 +22,6 @@ Below code snippet follows these steps:
 1. [Append](https://reference.aspose.com/words/net/aspose.words/document/appenddocument/) document "A" to the and of the document "B"
 1. [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) the output as PDF
 
-The following code snippet is a "Hello, World!" program to exhibit working of "Aspose.Words for .NET" API:
+The following code snippet is a "Hello, World!" example to exhibit working of "Aspose.Words for .NET" API:
 
-```csharp
-namespace Aspose.Words.Examples
-{
-    public class ExampletHelloWorld
-    {
-        static void Main(string[] args)
-        {
-            // Create a new empty document A
-            Document docA = new Document();
-
-            // Initialize a DocumentBuilder
-            DocumentBuilder builder = new DocumentBuilder(docA);
-
-            // Insert text to the document A start
-            builder.MoveToDocumentStart();
-            builder.Write("First Hello World paragraph");
-
-            // Open an existing document B
-            Document docB = new Document("C:\\Temp\\documentB.docx");
-
-            // Add document B to the and of document A, preserving document B formatting
-            docA.AppendDocument(docB, ImportFormatMode.KeepSourceFormatting);
-
-            // Save the output as PDF
-            docA.Save("C:\\Temp\\output_AB.pdf");
-        }
-    }
-}
-```
+//HelloWorld
