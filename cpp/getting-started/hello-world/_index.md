@@ -22,25 +22,6 @@ Below code snippet follows these steps:
 1. [Append](https://reference.aspose.com/words/cpp/aspose.words/document/appenddocument/) document "A" to the and of the document "B"
 1. [Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) the output as PDF
 
-The following code snippet is a "Hello, World!" program to exhibit working of "Aspose.Words for C++" API:
+The following code snippet is a "Hello, World!" example to exhibit working of "Aspose.Words for C++" API:
 
-```cpp
-// Create a new empty document A
-auto docA = MakeObject<Document>();
-
-// Initialize a DocumentBuilder
-auto builder = MakeObject<DocumentBuilder>(docA);
-
-// Insert text to the document A start
-builder->MoveToDocumentStart();
-builder->Write(u"First Hello World paragraph");
-
-// Open an existing document B
-auto docB = MakeObject<Document>(u"C:\\Temp\\documentB.docx");
-
-// Add document B to the and of document A, preserving document B formatting
-docA->AppendDocument(docB, ImportFormatMode::KeepSourceFormatting);
-
-// Save the output as PDF
-docA->Save(u"C:\\Temp\\output_AB.pdf");
-```
+{{< gist "aspose-words-gists" "ab3973c31f74954b9fff03abc4ca6d5b" "hello-world.h" >}}
