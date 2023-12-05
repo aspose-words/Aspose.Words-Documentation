@@ -88,13 +88,13 @@ Using the [SetLicense](https://reference.aspose.com/words/net/aspose.words/licen
 
 The following code example shows how to initialize a license from a folder:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyLicenseFromFile-ApplyLicenseFromFile.cs" >}} //ApplyLicenseFromFile
+{{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-license-from-file.cs" >}}
 
 ##### Load a License from a Stream Object
 
 The following code example shows how to initialize a license from a stream using another [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/) method:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Quick-Start-ApplyLicenseFromStream-ApplyLicenseFromStream.cs" >}} //ApplyLicenseFromStream
+{{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-license-from-stream.cs" >}}
 
 #### Include the License File as an Embedded Resource
 
@@ -116,7 +116,7 @@ Do not call the **SetMeteredKey** method frequently so that this licensing metho
 
 The following code example shows how to set limited public and private keys:
 
-//ApplyMeteredLicense
+{{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-metered-license.cs" >}}
 
 Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode. To avoid such case, you should regularly check the license status – if Aspose.Words turns into evaluation mode, please apply the metered license again.
 
