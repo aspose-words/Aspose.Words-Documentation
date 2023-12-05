@@ -100,19 +100,13 @@ Using the [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/
 
 The following code example shows how to initialize a license from a folder:
 
-{{< highlight csharp >}}
-com.aspose.words.License license = new com.aspose.words.License();
-license.setLicense("Aspose.Words.Java.lic");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-license-from-file.java" >}}
 
 ##### Load a License from a Stream Object
 
 The following code example shows how to initialize a license from a stream using another [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.io.InputStream) method:
 
-{{< highlight csharp >}}
-com.aspose.words.License license = new com.aspose.words.License();
-license.setLicense(new java.io.FileInputStream("Aspose.Words.Java.lic"));
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-license-from-stream.java" >}}
 
 #### Include the License File as an Embedded Resource
 
@@ -120,10 +114,7 @@ A neat way to package a license with your application and make sure it will not 
 
 Rebuilding the project should embed the .lic file into application .jar file. After that, you can apply for a license using the following code:
 
-{{< highlight csharp >}}
-License lic = new License();
-lic.setLicense(Program.class.getResourceAsStream("Aspose.Words.Java.lic"));
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-license-from-resources.java" >}}
 
 #### Apply Metered License
 
@@ -137,10 +128,7 @@ Do not call the **SetMeteredKey** method frequently so that this licensing metho
 
 The following code example shows how to set metered public and private keys:
 
-{{< highlight java >}}
-Metered metered = new Metered();
-metered.setMeteredKey("*****", "*****");
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-metered-license.java" >}}
 
 {{% alert color="primary" %}}
 
