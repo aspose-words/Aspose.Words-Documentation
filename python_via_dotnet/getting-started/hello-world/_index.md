@@ -22,25 +22,6 @@ Below code snippet follows these steps:
 1. [Append](https://reference.aspose.com/words/python-net/aspose.words/document/append_document/) document "A" to the and of the document "B"
 1. [Save](https://reference.aspose.com/words/python-net/aspose.words/document/save/) the output as PDF
 
-The following code snippet is a "Hello, World!" program to exhibit working of "Aspose.Words for Python via .NET" API:
+The following code snippet is a "Hello, World!" example to exhibit working of "Aspose.Words for Python via .NET" API:
 
-```csharp
-# Create a new empty document A
-docA = aw.Document();
-
-# Initialize a DocumentBuilder
-builder = aw.DocumentBuilder(docA);
-
-# Insert text to the document A start
-builder.move_to_document_start();
-builder.write("First Hello World paragraph");
-
-# Open an existing document B
-docB = aw.Document("C:\\Temp\\documentB.docx");
-
-# Add document B to the and of document A, preserving document B formatting
-docA.append_document(docB, aw.ImportFormatMode.KEEP_SOURCE_FORMATTING);
-
-# Save the output as PDF
-docA.save("C:\\Temp\\output_AB.pdf");
-```
+{{< gist "aspose-words-gists" "ff869587c650d2a27785d5cd598ae0b4" "hello-world.py" >}}
