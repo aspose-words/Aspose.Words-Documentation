@@ -24,4 +24,4 @@ Below code snippet follows these steps:
 
 The following code snippet is a "Hello, World!" example to exhibit working of "Aspose.Words for .NET" API:
 
-//HelloWorld
+{{< gist "aspose-words-gists" "542a463e1857480986d18ec296ed43d5" "hello-world.cs" >}}
