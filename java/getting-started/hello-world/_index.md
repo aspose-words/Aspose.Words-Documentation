@@ -22,25 +22,6 @@ Below code snippet follows these steps:
 1. [Append](https://reference.aspose.com/words/java/com.aspose.words/document/#appendDocument-com.aspose.words.Document-int) document "A" to the and of the document "B"
 1. [Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String) the output as PDF
 
-The following code snippet is a "Hello, World!" program to exhibit working of "Aspose.Words for Java" API:
+The following code snippet is a "Hello, World!" example to exhibit working of "Aspose.Words for Java" API:
 
-```java
-// Create a new empty document A
-Document docA = new Document();
-
-// Initialize a DocumentBuilder
-DocumentBuilder builder = new DocumentBuilder(docA);
-
-// Insert text to the document A start
-builder.moveToDocumentStart();
-builder.write("First Hello World paragraph");
-
-// Open an existing document B
-Document docB = new Document("C:\\Temp\\documentB.docx");
-
-// Add document B to the and of document A, preserving document B formatting
-docA.appendDocument(docB, ImportFormatMode.KEEP_SOURCE_FORMATTING);
-
-// Save the output as PDF
-docA.save("C:\\Temp\\output_AB.pdf");
-```
+{{< gist "aspose-words-gists" "4e111aa3d11a41428c8a0cadfc23b972" "hello-world.java" >}}
