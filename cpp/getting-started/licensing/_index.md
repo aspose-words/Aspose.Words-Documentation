@@ -86,13 +86,13 @@ Using the [SetLicense](https://reference.aspose.com/words/cpp/aspose.words/licen
 
 The following code example shows how to initialize a license from a folder:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-ApplyLicenseFromFile.h" >}} //ApplyLicenseFromFile
+{{< gist "aspose-words-gists" "22914ce1f4ad49bfda8f88f5d192fe8e" "apply-license-from-file.h" >}}
 
 ##### Load a License from a Stream Object
 
 The following code example shows how to initialize a license from a stream using another [SetLicense](https://reference.aspose.com/words/cpp/aspose.words/license/setlicense/) method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-ApplyLicenseFromStream.h" >}} //ApplyLicenseFromStream
+{{< gist "aspose-words-gists" "22914ce1f4ad49bfda8f88f5d192fe8e" "apply-license-from-stream.h" >}}
 
 #### Include the License File as an Embedded Resource
 
@@ -120,7 +120,7 @@ You can read about how to work with resource files on the [”Working with Resou
 
 The following code example shows how to initialize a license from an embedded resource using [SetLicense](https://reference.aspose.com/words/cpp/aspose.words/license/setlicense/) method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-LicenseFromEmbeddedResourceWindows.h" >}} //ApplyLicenseFromEmbeddedResourceWindows
+{{< gist "aspose-words-gists" "22914ce1f4ad49bfda8f88f5d192fe8e" "apply-license-from-embedded-resource-windows.h" >}}
 
 ##### Linux
 
@@ -134,7 +134,7 @@ For more information, see [”Embedding resources in executable using GCC”](ht
 
 The following code code example shows how to initialize a license from an embedded resource using [SetLicense](https://reference.aspose.com/words/cpp/aspose.words/license/setlicense/) method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Apply License-LicenseFromEmbeddedResourceLinux.h" >}} //ApplyLicenseFromEmbeddedResourceLinux
+{{< gist "aspose-words-gists" "22914ce1f4ad49bfda8f88f5d192fe8e" "apply-license-from-embedded-resource-linux.h" >}}
 
 #### Apply Metered License
 
@@ -148,7 +148,7 @@ Do not call the **SetMeteredKey** method frequently so that this licensing metho
 
 The following code example shows how to set limited public and private keys:
 
-//ApplyMeteredLicense
+{{< gist "aspose-words-gists" "22914ce1f4ad49bfda8f88f5d192fe8e" "apply-metered-license.h" >}}
 
 Normally it is enough to apply the metered license once on application start. However, if the metered licensing mechanism fails to communicate with the Aspose servers for 24 hours, Aspose.Words will exit licensed mode and switch to evaluation mode, to avoid such case, you should regularly check the license status, if Aspose.Words turns into evaluation mode, please apply the metered license again.
 
