@@ -55,23 +55,13 @@ However if the marker nodes are inline (a child of a paragraph) then the situati
    1. If a **BookmarkStart** or **BookmarkEnd** node is passed, this option defines if the bookmark is included or just the content between the bookmark range.
    1. If a **CommentRangeStart** or **CommentRangeEnd** node is passed, this option defines if the comment itself is to be included or just the content in the comment range.
 
-The implementation of the **ExtractContent** method is found below . This method will be referred to in the scenarios in this article.
-
-The following code example shows how to extract blocks of content from a document between specified nodes:
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-Common-CommonExtractContent.cs" >}}
+The implementation of the **ExtractContent** method you can find [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/DocsExamples/DocsExamples/Programming%20with%20Documents/Contents%20Management/Extract%20content%20helper.cs). This method will be referred to in the scenarios in this article.
 
 We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it.
 
 The following code example shows how to take a list of nodes and inserts them into a new document:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-Common-CommonGenerateDocument.cs" >}}
-
-These helper methods below are internally called by the main extraction method. They are required, however as they are not directly called by the user, it is not necessary to discuss them further.
-
-The following code example shows how to use helper methods by the **ExtractContent** method:
-
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-Common-CommonExtractContentHelperMethods.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-Common-CommonGenerateDocument.cs" >}} //GenerateDocument
 
 ## Extract Content Between Paragraphs
 
@@ -81,7 +71,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 
 The following code example shows how to extract the content between specific paragraphs using the ExtractContent method above:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenParagraphs-ExtractContentBetweenParagraphs.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenParagraphs-ExtractContentBetweenParagraphs.cs" >}} //ExtractContentBetweenParagraphs
 
 {{% alert color="primary" %}}
 
@@ -95,7 +85,7 @@ We can extract content between any combinations of block level or inline nodes. 
 
 The following code example shows how to extract the content between a paragraph and table using the **ExtractContent** method:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenBlockLevelNodes-ExtractContentBetweenBlockLevelNodes.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenBlockLevelNodes-ExtractContentBetweenBlockLevelNodes.cs" >}} //ExtractContentBetweenBlockLevelNodes
 
 {{% alert color="primary" %}}
 
@@ -111,7 +101,9 @@ In a proper implementation this should be run in a loop to extract content betwe
 
 The following code example shows how to extract content between paragraphs with specific styles using the **ExtractContent** method:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenParagraphStyles-ExtractContentBetweenParagraphStyles.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenParagraphStyles-ExtractContentBetweenParagraphStyles.cs" >}} //ExtractContentBetweenParagraphStyles
+
+//ParagraphsByStyleName
 
 {{% alert color="primary" %}}
 
@@ -125,7 +117,7 @@ You can extract content between inline nodes such as a [Run](https://reference.a
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **ExtractContent** method:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenRuns-ExtractContentBetweenRuns.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenRuns-ExtractContentBetweenRuns.cs" >}} //ExtractContentBetweenRuns
 
 {{% alert color="primary" %}}
 
@@ -141,7 +133,7 @@ In our case let’s set the last parameter passed to the **ExtractContent** meth
 
 The following code example shows how to extract content between a specific field and paragraph in the document using the **ExtractContent** method:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentUsingField-ExtractContentUsingField.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentUsingField-ExtractContentUsingField.cs" >}} //ExtractContentUsingField
 
 {{% alert color="primary" %}}
 
@@ -155,7 +147,7 @@ In a document the content that is defined within a bookmark is encapsulated by t
 
 The following code example shows how to extract the content referenced a bookmark using the **ExtractContent** method:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenBookmark-ExtractContentBetweenBookmark.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenBookmark-ExtractContentBetweenBookmark.cs" >}} //ExtractContentBetweenBookmark
 
 {{% alert color="primary" %}}
 
@@ -173,7 +165,7 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 The following code example shows how to do this:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenCommentRange-ExtractContentBetweenCommentRange.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentBetweenCommentRange-ExtractContentBetweenCommentRange.cs" >}} //ExtractContentBetweenCommentRange
 
 {{% alert color="primary" %}}
 
@@ -199,9 +191,9 @@ These are the steps you should follow to programmatically determine and extract 
 
 The following example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-ExtractContentUsingDocumentVisitor.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-ExtractContentUsingDocumentVisitor.cs" >}} //ExtractContentUsingDocumentVisitor
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-MyDocToTxtWriter.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-MyDocToTxtWriter.cs" >}} //ConvertDocToTxt
 
 {{% alert color="primary" %}}
 
@@ -226,7 +218,7 @@ Calling **ToString** returns the plain text representation of the document only 
 
 The following code example shows the difference between calling the **GetText** and **ToString** methods on a node:
 
-{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractTextOnly-ExtractTextOnly.cs" >}}
+{{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-ExtractTextOnly-ExtractTextOnly.cs" >}} //SimpleExtractText
 
 ### Using SaveFormat.Text
 
@@ -238,7 +230,11 @@ This example saves the document as follows:
 
 The following code example shows how to save a document in TXT format:
 
-{{< highlight csharp >}}
-Document doc = new Document(getMyDir() + "Document.doc");
-doc.save(getMyDir() + "Document.ConvertToTxt Out.txt");
-{{< /highlight >}}
+//DocxToTxt
+
+
+...
+
+ToDo: Add chapter about extraction images from the document which are locate as image data in shape objects.
+
+//ExtractImages
