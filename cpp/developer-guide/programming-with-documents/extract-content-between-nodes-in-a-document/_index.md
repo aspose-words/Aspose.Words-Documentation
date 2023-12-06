@@ -56,23 +56,13 @@ However, if the marker nodes are inline (a child of a paragraph) then the situat
       1. If a **BookmarkStart** or **BookmarkEnd** node is passed, this option defines if the bookmark is included or just the content between the bookmark range.
       1. If a **CommentRangeStart** or **CommentRangeEnd** node is passed, this option defines if the comment itself is to be included or just the content in the comment range.
 
-The implementation of the **ExtractContent** method is found below. This method will be referred to in the scenarios in this article.
-
-The following code example shows how to extract blocks of content from a document between specified nodes.
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Common-CommonExtractContent.cpp" >}}
+The implementation of the **ExtractContent** method you can find [here](https://github.com/aspose-words/Aspose.Words-for-C/blob/master/Examples/DocsExamples/source/Programming%20with%20Documents/Contents%20Management/Extract%20content%20helper.h). This method will be referred to in the scenarios in this article.
 
 We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it.
 
 The following code example shows how to take a list of nodes and inserts them into a new document.
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Common-CommonGenerateDocument.cpp" >}}
-
-These helper methods below are internally called by the main extraction method. They are required, however as they are not directly called by the user, it is not necessary to discuss them further.
-
-The following code example shows how to use helper methods by the **ExtractContent** method:
-
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-Common-CommonExtractContentHelperMethods.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "generate-document.h" >}}
 
 ## Extract Content Between Paragraphs
 
@@ -82,7 +72,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 
 The following code example shows how to extract the content between specific paragraphs using the ExtractContent method above:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenParagraphs-ExtractContentBetweenParagraphs.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-paragraphs.h" >}}
 
 ## Extract Content Between Different Types of Nodes
 
@@ -90,7 +80,7 @@ We can extract content between any combinations of block-level or inline nodes. 
 
 The following code example shows how to extract the content between a paragraph and table using the ExtractContent method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenBlockLevelNodes-ExtractContentBetweenBlockLevelNodes.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-block-level-nodes.h" >}}
 
 ## Extract Content Between Paragraphs Based on Style
 
@@ -100,7 +90,9 @@ In a proper implementation, this should be run in a loop to extract content betw
 
 The following code example shows how to extract content between paragraphs with specific styles using the ExtractContent method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenParagraphStyles-ExtractContentBetweenParagraphStyles.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-paragraph-styles.h" >}}
+
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "paragraphs-by-style-name.h" >}}
 
 ## Extract Content Between Specific Runs
 
@@ -108,7 +100,15 @@ You can extract content between inline nodes such as a Run as well. Runs from di
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **ExtractContent** method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenRuns-ExtractContentBetweenRuns.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-runs.h" >}}
+
+...
+
+## Extract Content using a Field (!need to add, exist in net and java!)
+
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-using-field.h" >}}
+
+...
 
 ## Extract Content from a Bookmark
 
@@ -116,7 +116,7 @@ In a document, the content that is defined within a bookmark is encapsulated by 
 
 The following code example shows how to extract the content referenced a bookmark using the **ExtractContent** method:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenBookmark-ExtractContentBetweenBookmark.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-bookmark.h" >}}
 
 ## Extract Content from a Comment
 
@@ -128,7 +128,7 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 The following code example shows how to do this:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentBetweenCommentRange-ExtractContentBetweenCommentRange.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-comment-range.h" >}}
 
 ## How to Extract Content using DocumentVisitor
 
@@ -148,7 +148,9 @@ These are the steps you should follow to programmatically determine and extract 
 
 This example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractContentUsingDocumentVisitor-ExtractContentUsingDocumentVisitor.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-using-document-visitor.h" >}}
+
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "convert-doc-to-txt.h" >}}
 
 {{% alert color="primary" %}}
 
@@ -173,5 +175,15 @@ Calling **ToString** returns the plain text representation of the document only 
 
 The following code example shows the difference between calling the **GetText** and **ToString** methods on a node:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ExtractTextOnly-ExtractTextOnly.cpp" >}}
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "simple-extract-text.h" >}}
+
+...
+
+### Using SaveFormat.Text (!need to add, exists in net and java!)
+
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "docx-to-txt.h" >}}
+
+ToDo: Add chapter about extraction images from the document which are locate as image data in shape objects.
+
+{{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-images.h" >}}
 

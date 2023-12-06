@@ -284,3 +284,9 @@ This example saves the document as follows:
 The following code example shows how to save a document in TXT format:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "docx-to-txt.java" >}}
+
+...
+
+ToDo: Add chapter about extraction images from the document which are locate as image data in shape objects.
+
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-images.java" >}}
