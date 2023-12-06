@@ -62,7 +62,7 @@ We will also define a custom method to easily generate a document from extracted
 
 The following code example shows how to take a list of nodes and inserts them into a new document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content_helper-CommonGenerateDocument.py" >}} //GenerateDocument
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "generate-document.py" >}}
 
 ## Extract Content Between Paragraphs
 
@@ -72,7 +72,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 
 The following code example shows how to extract the content between specific paragraphs using the **extract_content** method above:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBetweenParagraphs.py" >}} //ExtractContentBetweenParagraphs
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-paragraphs.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -86,7 +86,7 @@ We can extract content between any combinations of block level or inline nodes. 
 
 The following code example shows how to extract the content between a paragraph and table using the **extract_content** method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBetweenBlockLevelNodes.py" >}} //ExtractContentBetweenBlockLevelNodes
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-block-level-nodes.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -102,9 +102,9 @@ In a proper implementation this should be run in a loop to extract content betwe
 
 The following code example shows how to extract content between paragraphs with specific styles using the **extract_content** method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBetweenParagraphStyles.py" >}} //ExtractContentBetweenParagraphStyles
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-paragraph-styles.py" >}}
 
-//ParagraphsByStyleName
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "paragraphs-by-style-name.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -118,7 +118,7 @@ You can extract content between inline nodes such as a [Run](https://reference.a
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **extract_content** method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBetweenRuns.py" >}} //ExtractContentBetweenRuns
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-runs.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -134,7 +134,7 @@ In our case let’s set the last parameter passed to the **extract_content** met
 
 The following code example shows how to extract content between a specific field and paragraph in the document using the **extract_content** method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentUsingField.py" >}} //ExtractContentUsingField
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-using-field.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -148,7 +148,7 @@ In a document the content that is defined within a bookmark is encapsulated by t
 
 The following code example shows how to extract the content referenced a bookmark using the **extract_content** method:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBetweenBookmark.py" >}} //ExtractContentBetweenBookmark
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-bookmark.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -164,7 +164,7 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 The following code example shows how to do this:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractContentBetweenCommentRange.py" >}} //ExtractContentBetweenCommentRange
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-content-between-comment-range.py" >}}
 
 {{% alert color="primary" %}}
 
@@ -188,11 +188,15 @@ Calling [to_string](https://reference.aspose.com/words/python-net/aspose.words/n
 
 The following code example shows the difference between calling the [get_text](https://reference.aspose.com/words/python-net/aspose.words/node/get_text/) and [to_string](https://reference.aspose.com/words/python-net/aspose.words/node/to_string/) methods on a node:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-extract_content-ExtractTextOnly.py" >}} //SimpleExtractText
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "simple-extract-text.py" >}}
 
 
 ...
 
+### Using SaveFormat.Text (!need to add, exists in net and java!)
+
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "docx-to-txt.py" >}}
+
 ToDo: Add chapter about extraction images from the document which are locate as image data in shape objects.
 
-{{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}} //ExtractImages
+{{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "extract-images.py" >}}
