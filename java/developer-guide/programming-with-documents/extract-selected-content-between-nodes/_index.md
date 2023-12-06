@@ -70,7 +70,7 @@ We will also define a custom method to easily generate a document from extracted
 
 The following code example shows how to take a list of nodes and inserts them into a new document:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphs-generateDocument.java" >}} //GenerateDocument
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "generate-document.java" >}}
 
 ## Extract Content Between Paragraphs
 
@@ -80,7 +80,7 @@ The code below accomplishes this task. The appropriate paragraphs are extracted 
 
 The following code example shows how to extract the content between specific paragraphs using the ExtractContent method above:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphs-ExtractContentBetweenParagraphs.java" >}} //ExtractContentBetweenParagraphs
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraphs.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -98,7 +98,7 @@ We can extract content between any combinations of block-level or inline nodes. 
 
 The following code example shows how to extract the content between a paragraph and table using the **ExtractContent** method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenBlockLevelNodes-ExtractContentBetweenBlockLevelNodes.java" >}} //ExtractContentBetweenBlockLevelNodes
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-block-level-nodes.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -120,9 +120,9 @@ In a proper implementation, this should be run in a loop to extract content betw
 
 The following code example shows how to extract content between paragraphs with specific styles using the **ExtractContent** method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenParagraphStyles-ExtractContentBetweenParagraphStyles.java" >}} //ExtractContentBetweenParagraphStyles
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraph-styles.java" >}}
 
-//ParagraphsByStyleName
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "paragraphs-by-style-name.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -140,7 +140,7 @@ You can extract content between inline nodes such as a **Run** as well. **Runs**
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **ExtractContent** method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenRuns-ExtractContentBetweenRuns.java" >}} //ExtractContentBetweenRuns
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-runs.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -160,7 +160,7 @@ In our case let’s set the last parameter passed to the **ExtractContent** meth
 
 The following code example shows how to extract content between a specific field and paragraph in the document using the **ExtractContent** method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentUsingField-ExtractContentUsingField.java" >}} //ExtractContentUsingField
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-field.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -184,7 +184,7 @@ We will extract this content into a new document using the code below. The **IsI
 
 The following code example shows how to extract the content referenced a bookmark using the **ExtractContent** method:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenBookmarks-ExtractContentBetweenBookmarks.java" >}} //ExtractContentBetweenBookmark
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-bookmark.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -214,7 +214,7 @@ The comment encapsulates the heading, first paragraph and the table in the secon
 
 The following code example shows how to do this is below:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentBetweenCommentRange-ExtractContentBetweenCommentRange.java" >}} //ExtractContentBetweenCommentRange
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-comment-range.java" >}}
 
 {{% alert color="primary" %}}
 
@@ -250,9 +250,9 @@ These are the steps you should follow to programmatically determine and extract 
 
 The following example shows how to use the Visitor pattern to add new operations to the Aspose.Words object model. In this case, we create a simple document converter into a text format:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractContentUsingDocumentVisitor-ExtractContentUsingDocumentVisitor.java" >}} //ExtractContentUsingDocumentVisitor
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-using-document-visitor.java" >}}
 
-//ConvertDocToTxt
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "convert-doc-to-txt.java" >}}
 
 ## Extract Text Only
 
@@ -271,7 +271,7 @@ Calling ToString returns the plain text representation of the document only with
 
 The following code example shows the difference between calling the **GetText** and [ToString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString) methods on a node:
 
-{{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-ExtractTextOnly-ExtractTextOnly.java" >}} //SimpleExtractText
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "simple-extract-text.java" >}}
 
 ### Using SaveFormat.Text
 
@@ -283,4 +283,4 @@ This example saves the document as follows:
 
 The following code example shows how to save a document in TXT format:
 
-//DocxToTxt
+{{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "docx-to-txt.java" >}}
