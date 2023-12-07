@@ -85,35 +85,13 @@ Using the [set_license](https://reference.aspose.com/words/python-net/aspose.wor
 
 The following code example shows how to initialize a license from a folder:
 
-{{< highlight python >}}
-lic = aw.License()
-
-# Try to set license from the folder with the python script.
-try :
-    lic.set_license("Aspose.Words.Python.NET.lic")
-    print("License set successfully.")
-except RuntimeError as err :
-    # We do not ship any license with this example, visit the Aspose site to obtain either a temporary or permanent license. 
-    print("\nThere was an error setting the license: {0}".format(err))
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-license-from-file.py" >}}
 
 ##### Load a License from a Stream Object
 
 The following code example shows how to initialize a license from a stream using another [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) method:
 
-{{< highlight python >}}
-lic = aw.License()
-
-# Try to set license from the stream.
-try :
-    lic_stream = io.FileIO("C:\\Temp\\Aspose.Words.Python.NET.lic")
-    lic.set_license(lic_stream)
-    lic_stream.close()
-    print("License set successfully.")
-except RuntimeError as err :
-    # We do not ship any license with this example, visit the Aspose site to obtain either a temporary or permanent license. 
-    print("\nThere was an error setting the license: {0}".format(err))
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-license-from-stream.py" >}}
 
 #### Apply Metered License
 
@@ -127,12 +105,7 @@ Do not call the **SetMeteredKey** method frequently so that this licensing metho
 
 The following code example shows how to set metered public and private keys:
 
-{{< highlight python >}}
-# Set metered public and private keys
-metered = aw.Metered()
-# Access the setMeteredKey property and pass public and private keys as parameters
-metered.set_metered_key("*****", "*****")
-{{< /highlight >}}
+{{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-metered-license.py" >}}
 
 {{% alert color="primary" %}}
 
