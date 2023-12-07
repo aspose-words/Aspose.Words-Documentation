@@ -2,43 +2,53 @@
 title: How to Extract Content Between Document Nodes
 second_title: Aspose.Words for .NET
 articleTitle: Extract Content Between Nodes in a Document
-linktitle: Extract Content Between Nodes in a Document
+linktitle: Extract Content Between Nodes
 description: "Extracting document content in different using C#."
 type: docs
 weight: 140
 url: /net/how-to-extract-selected-content-between-nodes-in-a-document/
 ---
 
-A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
+When working with documents, it is important to be able to easily extract content from a specific range within a document. However, the content may consist of complex elements such as paragraphs, tables, images, etc.
 
-- Two specific paragraphs in the document.
-- Specific runs of text.
-- Different types of fields, for example merge fields.
-- Between the start and end ranges of a bookmark or comment.
-- Different bodies of text contained in separate sections.
+Regardless of what content needs to be extracted, the method to extract that content will always be determined by which nodes are selected to extract content between. These can be entire text bodies or simple text runs.
 
-In some situations you may even want to combine the different types of, for example, extract content between a paragraph and field, or between a run and a bookmark.
+There are many possible situations and therefore many different node types to consider when extracting content. For example, you might want to extract content between:
 
-This article provides the code implementation to achieve this along with samples of common scenarios using this method. These samples are just a few demonstrations of the many possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words/8).
+- Two specific paragraphs
+- Specific runs of text
+- Fields of various types, such as merge fields
+- Start and end ranges of a bookmark or comment
+- Various bodies of text contained in separate sections
 
-## Reasons for Extracting Content
+In some situations, you may even need to combine different node types, such as extracting content between a paragraph and a field, or between a run and a bookmark.
 
-Often the goal of extracting this content is to duplicate or save it separately into a new document. For example, you may wish to extract content and:
+This article provides the code implementation for extracting text between different nodes, as well as examples of common scenarios.
 
-- Copy it to a separate document.
-- Rendered a specific portion of a document to PDF or an image.
-- Duplicate the content in the document many times.
-- Work with this content separate from the rest of the document.
+{{% alert color="primary" %}}
 
-This is easy to achieve using Aspose.Words and the code implementation below.
+These examples are just a few demonstrations of the many possibilities. We plan for the text extraction functionality to be part of the public API in the future, and no extra code will be required. In the meantime, feel free to post your requests regarding this functionality on the [Aspose.Words forum](https://forum.aspose.com/c/words/8).
+
+{{% /alert %}}
+
+## Why Extract Content
+
+Often the goal of extracting the content is to duplicate or save it separately in a new document. For example, you can extract content and:
+
+- Copy it into a separate document
+- Convert a specific part of a document to PDF or image
+- Duplicate the content in the document many times
+- Work with extracted content separate from the rest of the document
+
+This can be easily achieved using Aspose.Words and the code implementation below.
 
 ## Extracting Content Algorithm
 
-The code in this section addresses all of the possible situations above with one generalized and reusable method. The general outline of this technique involves:
+The code in this section addresses all of the possible situations described above with one generalized and reusable method. The general outline of this technique involves:
 
 1. Gathering the nodes which dictate the area of content that will be extracted from your document. Retrieving these nodes is handled by the user in their code, based on what they want to be extracted.
-1. Passing these nodes to the **ExtractContent** method which is provided below. You must also pass a boolean parameter which states if these nodes that act as markers should be included in the extraction or not.
-1. The method will return a list of cloned (copied nodes) of the content specified to be extracted. You can now use this in any way applicable, for example, creating a new document containing only the selected content.
+1. Passing these nodes to the **ExtractContent** method provided below. You must also pass a boolean parameter which states whether these nodes, acting as markers, should be included in the extraction or not.
+1. Retrieving a list of cloned content (copied nodes) specified to be extracted. You can use this list of nodes in any applicable way, for example, creating a new document containing only the selected content.
 
 ## How to Extract Content
 
@@ -55,7 +65,7 @@ However if the marker nodes are inline (a child of a paragraph) then the situati
    1. If a **BookmarkStart** or **BookmarkEnd** node is passed, this option defines if the bookmark is included or just the content between the bookmark range.
    1. If a **CommentRangeStart** or **CommentRangeEnd** node is passed, this option defines if the comment itself is to be included or just the content in the comment range.
 
-The implementation of the **ExtractContent** method you can find [here](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/DocsExamples/DocsExamples/Programming%20with%20Documents/Contents%20Management/Extract%20content%20helper.cs). This method will be referred to in the scenarios in this article.
+The implementation of the **ExtractContent** method you can find [on Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/DocsExamples/DocsExamples/Programming%20with%20Documents/Contents%20Management/Extract%20content%20helper.cs). This method will be referred to in the scenarios in this article.
 
 We will also define a custom method to easily generate a document from extracted nodes. This method is used in many of the scenarios below and simply creates a new document and imports the extracted content into it.
 
@@ -232,9 +242,10 @@ The following code example shows how to save a document in TXT format:
 
 {{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "docx-to-txt.cs" >}}
 
+## Extract Images from Shapes
 
-...
+You may need to extract the document image. Sometimes images can be located in the document as image data in shape objects.
 
-ToDo: Add chapter about extraction images from the document which are locate as image data in shape objects.
+The following code example shows how to extract images from shape objects:
 
 {{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}
