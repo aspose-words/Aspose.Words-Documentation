@@ -41,7 +41,7 @@ With Aspose.Words you can convert documents from any supported load format to an
 
 The following code example shows how to convert a document:
 
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-Doc2Pdf.py" >}}
+{{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "docx-to-pdf.py" >}}
 
 For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/python-net/loading-saving-and-converting/) section.
 
@@ -148,7 +148,3 @@ Scalable server-side scenarios use Aspose.Words mainly because of its simple and
 Aspose.Words demonstrates high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
 On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) object.
-
-The following code example shows how you can load and save such a large document if you want to:
-
-{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-LoadAndSave.py" >}}

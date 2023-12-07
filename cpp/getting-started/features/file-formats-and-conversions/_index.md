@@ -28,7 +28,7 @@ With Aspose.Words you can convert documents from any supported load format to an
 
 The following code example shows how to convert a document:
 
-{{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocxToHtml.cpp" >}}
+{{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
 For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/cpp/loading-saving-and-converting/) section.
 

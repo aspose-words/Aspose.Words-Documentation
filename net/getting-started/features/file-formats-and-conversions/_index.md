@@ -40,7 +40,7 @@ With Aspose.Words you can convert documents from any supported load format to an
 
 The following code example shows how to convert a document:
 
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Doc2Pdf-Doc2Pdf.cs" >}}
+{{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
 For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/cpp/loading-saving-and-converting/) section.
 
@@ -147,7 +147,3 @@ Scalable server-side scenarios use Aspose.Words mainly because of its simple and
 Aspose.Words demonstrates high performance when loading and saving documents. In testing, a DOC file over 5Mb in size was loaded in less than 1 second and then saved in less than 1 second on a P4 3GHz machine. Smaller files can be processed at thousands-per-minute speeds.
 
 On several occasions, our customers have reported to us that they could not believe the speed of Aspose.Words. They stepped over the line of code that was loading a huge document into the debugger, and it was so instantaneous that they could not believe the file was loaded into the **Document** object.
-
-The following code example shows how you can load and save such a large document if you want to:
-
-{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-LoadAndSaveToDisk-LoadAndSave.cs" >}}
