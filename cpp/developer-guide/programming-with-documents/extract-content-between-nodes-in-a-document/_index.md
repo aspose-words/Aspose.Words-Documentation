@@ -2,43 +2,53 @@
 title: How to Extract Content Between Document Nodes
 second_title: Aspose.Words for C++
 articleTitle: Extract Content Between Nodes in a Document
-linktitle: Extract Content Between Nodes in a Document
+linktitle: Extract Content Between Nodes
 type: docs
 description: "Extracting document content in different using C++."
 weight: 140
 url: /cpp/how-to-extract-selected-content-between-nodes-in-a-document/
 ---
 
-A common requirement when working with documents is to easily extract specific content from a range within the document. This content can consist of complex features such as paragraphs, tables, images etc. Regardless of what content needs to extracted, the method in which to extract this content will always be determined by which nodes are chosen to extract content between. These could be entire bodies of text or simple runs of text. There are many possible situations and therefore many different node types to consider when extracting content. For instance, you may want to extract content between:
+When working with documents, it is important to be able to easily extract content from a specific range within a document. However, the content may consist of complex elements such as paragraphs, tables, images, etc.
 
-- Two specific paragraphs in the document.
-- Specific runs of text.
-- Different types of fields, e.g, merge fields.
-- Between the start and end ranges of a bookmark or comment.
-- Different bodies of the text contained in separate sections.
+Regardless of what content needs to be extracted, the method to extract that content will always be determined by which nodes are selected to extract content between. These can be entire text bodies or simple text runs.
 
-In some situations, you may even want to combine the different types of, for example, extract content between a paragraph and field, or between a run and a bookmark.
+There are many possible situations and therefore many different node types to consider when extracting content. For example, you might want to extract content between:
 
-This article provides the full code implementation to achieve this along with samples of common scenarios using this method. These samples are just a few demonstrations of the many possibilities that this method can be used for. Some day this functionality will be a part of the public API and the extra code here will not be required. Feel free to post your requests regarding this functionality on the [Aspose.Words forum here](https://forum.aspose.com/c/words/8).
+- Two specific paragraphs
+- Specific runs of text
+- Fields of various types, such as merge fields
+- Start and end ranges of a bookmark or comment
+- Various bodies of text contained in separate sections
 
-## Reasons for Extracting Content
+In some situations, you may even need to combine different node types, such as extracting content between a paragraph and a field, or between a run and a bookmark.
 
-Often the goal of extracting this content is to duplicate or save it separately into a new document. For example, you may wish to extract the content and:
+This article provides the code implementation for extracting text between different nodes, as well as examples of common scenarios.
 
-- Copy it to a separate document.
-- Rendered a specific portion of a document to PDF or an image.
-- Duplicate the content in the document many times.
-- Work with this content separate from the rest of the document.
+{{% alert color="primary" %}}
 
-This is easy to achieve using Aspose.Words and the code implementation below.
+These examples are just a few demonstrations of the many possibilities. We plan for the text extraction functionality to be part of the public API in the future, and no extra code will be required. In the meantime, feel free to post your requests regarding this functionality on the [Aspose.Words forum](https://forum.aspose.com/c/words/8).
+
+{{% /alert %}}
+
+## Why Extract Content
+
+Often the goal of extracting the content is to duplicate or save it separately in a new document. For example, you can extract content and:
+
+- Copy it into a separate document
+- Convert a specific part of a document to PDF or image
+- Duplicate the content in the document many times
+- Work with extracted content separate from the rest of the document
+
+This can be easily achieved using Aspose.Words and the code implementation below.
 
 ## Extracting Content Algorithm
 
-The code in this section addresses all of the possible situations above with one generalized and reusable method. The general outline of this technique involves:
+The code in this section addresses all of the possible situations described above with one generalized and reusable method. The general outline of this technique involves:
 
 1. Gathering the nodes which dictate the area of content that will be extracted from your document. Retrieving these nodes is handled by the user in their code, based on what they want to be extracted.
-1. Passing these nodes to the **ExtractContent** method which is provided below. You must also pass a boolean parameter which states if these nodes that act as markers should be included in the extraction or not.
-1. The method will return a list of cloned (copied nodes) of the content specified to be extracted. You can now use this in any way applicable, for example, creating a new document containing only the selected content.
+1. Passing these nodes to the **ExtractContent** method provided below. You must also pass a boolean parameter which states whether these nodes, acting as markers, should be included in the extraction or not.
+1. Retrieving a list of cloned content (copied nodes) specified to be extracted. You can use this list of nodes in any applicable way, for example, creating a new document containing only the selected content.
 
 ## How to Extract Content
 
@@ -96,19 +106,21 @@ The following code example shows how to extract content between paragraphs with 
 
 ## Extract Content Between Specific Runs
 
-You can extract content between inline nodes such as a Run as well. Runs from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same **Paragraph** node.
+You can extract content between inline nodes such as a [Run](https://reference.aspose.com/words/cpp/aspose.words/run/) as well. **Runs** from different paragraphs can be passed as markers. The code below shows how to extract specific text in-between the same **Paragraph** node.
 
 The following code example shows how to extract content between specific runs of the same paragraph using the **ExtractContent** method:
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-runs.h" >}}
 
-...
+## Extract Content using a Field
 
-## Extract Content using a Field (!need to add, exist in net and java!)
+To use a field as marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [MoveToMergeField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/movetomergefield/) method of [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
+
+In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF.
+
+The following code example shows how to extract content between a specific field and paragraph in the document using the **ExtractContent** method:
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-using-field.h" >}}
-
-...
 
 ## Extract Content from a Bookmark
 
@@ -140,9 +152,9 @@ Each **DocumentVisitor.VisitXXX** method returns a [VisitorAction](https://re
 
 These are the steps you should follow to programmatically determine and extract various parts of a document:
 
-- Create a class derived from **DocumentVisitor.**
-- Override and provide implementations for some or all of the **DocumentVisitor.VisitXXX** methods to perform some custom operations.
-- Call Node.Accept on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use Document.Accept.
+- Create a class derived from **DocumentVisitor**
+- Override and provide implementations for some or all of the **DocumentVisitor.VisitXXX** methods to perform some custom operations
+- Call Node.Accept on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use Document.Accept
 
 **DocumentVisitor** provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
@@ -162,10 +174,10 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The ways to retrieve text from the document are:
 
-- Use [Document.Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) with [SaveFormat.Text](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) to save as plain text into a file or stream.
-- Use [Node.ToString](https://reference.aspose.com/words/cpp/aspose.words/node/tostring/) and pass the **SaveFormat.Text** parameter. Internally, this invokes save as text into a memory stream and returns the resulting string.
-- Use [Node.GetText](https://reference.aspose.com/words/cpp/aspose.words/node/gettext/) to retrieve text with all Microsoft Word control characters including field codes.
-- Implement a custom [DocumentVisitor](https://reference.aspose.com/words/cpp/aspose.words/documentvisitor/) to perform customized extraction.
+- Use [Document.Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) with [SaveFormat.Text](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) to save as plain text into a file or stream
+- Use [Node.ToString](https://reference.aspose.com/words/cpp/aspose.words/node/tostring/) and pass the **SaveFormat.Text** parameter. Internally, this invokes save as text into a memory stream and returns the resulting string
+- Use [Node.GetText](https://reference.aspose.com/words/cpp/aspose.words/node/gettext/) to retrieve text with all Microsoft Word control characters including field codes
+- Implement a custom [DocumentVisitor](https://reference.aspose.com/words/cpp/aspose.words/documentvisitor/) to perform customized extraction
 
 ### Using Node.GetText and Node.ToString
 
@@ -177,13 +189,22 @@ The following code example shows the difference between calling the **GetText** 
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "simple-extract-text.h" >}}
 
-...
+### Using SaveFormat.Text
 
-### Using SaveFormat.Text (!need to add, exists in net and java!)
+This example saves the document as follows:
+
+- Filters out field characters and field codes, shape, footnote, endnote and comment references
+- Replaces end of paragraph **ControlChar.Cr** characters with **ControlChar.CrLf** combinations
+- Uses UTF8 encoding
+
+The following code example shows how to save a document in TXT format:
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "docx-to-txt.h" >}}
 
-ToDo: Add chapter about extraction images from the document which are locate as image data in shape objects.
+## Extract Images from Shapes
+
+You may need to extract document images to perform some tasks. Aspose.Words allows you to do this as well.
+
+The following code example shows how to extract images from a document:
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-images.h" >}}
-

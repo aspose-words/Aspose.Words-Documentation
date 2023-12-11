@@ -215,10 +215,10 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 The ways to retrieve text from the document are:
 
-- Use [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) with [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) to save as plain text into a file or stream.
-- Use [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) and pass the **SaveFormat.Text** parameter. Internally, this invokes save as text into a memory stream and returns the resulting string.
-- Use [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) to retrieve text with all Microsoft Word control characters including field codes.
-- Implement a custom [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) to perform customized extraction.
+- Use [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) with [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) to save as plain text into a file or stream
+- Use [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) and pass the **SaveFormat.Text** parameter. Internally, this invokes save as text into a memory stream and returns the resulting string
+- Use [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) to retrieve text with all Microsoft Word control characters including field codes
+- Implement a custom [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) to perform customized extraction
 
 ### Using Node.GetText and Node.ToString
 
@@ -234,9 +234,9 @@ The following code example shows the difference between calling the **GetText** 
 
 This example saves the document as follows:
 
-- Filters out field characters and field codes, shape, footnote, endnote and comment references.
-- Replaces end of paragraph **ControlChar.Cr** characters with **ControlChar.CrLf** combinations.
-- Uses UTF8 encoding.
+- Filters out field characters and field codes, shape, footnote, endnote and comment references
+- Replaces end of paragraph **ControlChar.Cr** characters with **ControlChar.CrLf** combinations
+- Uses UTF8 encoding
 
 The following code example shows how to save a document in TXT format:
 
@@ -244,8 +244,8 @@ The following code example shows how to save a document in TXT format:
 
 ## Extract Images from Shapes
 
-You may need to extract the document image. Sometimes images can be located in the document as image data in shape objects.
+You may need to extract document images to perform some tasks. Aspose.Words allows you to do this as well.
 
-The following code example shows how to extract images from shape objects:
+The following code example shows how to extract images from a document:
 
 {{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "extract-images.cs" >}}
