@@ -47,8 +47,9 @@ LINQ Reporting Engine provides several additional number formats that can not be
 |**cardinal**|Converts an integer number to its text representation (One, Two, Three, ...)|
 |**hex**|Formats an integer number as hexadecimal (8, 9, A, B, C, D, E, F, 10, 11, ...)|
 |**arabicDash**|Encloses an integer number with dashes (- 1 -, - 2 -, - 3 -, ...)|
+|**dollarText**|Converts a numeric value to its text representation with its fraction as Arabic numerators over 100 (for example, one thousand two hundred thirty-four and 56/100)|
 
-You can specify one of these additional number formats instead of a format string like in the following example. Given that i is an integer number, you can format the number as an upper-case letter using the following template.
+You can specify one of these additional number formats instead of a format string like in the following example. Given that `i` is an integer number, you can format the number as an upper-case letter using the following template.
 
 {{< highlight xml >}}
 <<[i]:alphabetic>>
