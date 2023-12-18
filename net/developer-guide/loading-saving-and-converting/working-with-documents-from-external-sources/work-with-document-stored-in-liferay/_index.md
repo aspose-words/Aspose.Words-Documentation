@@ -9,29 +9,29 @@ weight: 20
 url: /net/work-with-document-stored-in-liferay/
 ---
 
- Liferay Portal is an open-source enterprise portal software platform designed to enable the development of web portals and websites. Liferay provides a document management system as part of its portal platform, allowing users to create, organize, store, and manage documents in a collaborative and efficient manner. This document management functionality is often referred to as Liferay Document Library.
+Liferay Portal is an open source enterprise portal software platform designed for developing web portals and websites. Liferay provides a document management system as part of its portal platform, allowing users to create, organize, store, and manage documents in a collaborative and efficient manner. This document management functionality is often referred to as Liferay Document Library.
 
- In this article, we will cover a common scenario for comparing documents uploaded to the root of "Documents and Media" library and uploading the resulting document back.
+In this article, we will cover a common scenario for comparing documents uploaded to the root of "Documents and Media" library and uploading the resulting document back.
 
 ## Preset
 
-1. Start a new Liferay Portal instance by running Docker
+1. Start a new Liferay Portal instance by running Docker:
 
    {{< highlight bash >}}
        docker run -it -m 8g -p 8080:8080 liferay/portal:7.4.3.92-ga92
    {{< /highlight >}}
 
-   if you don’t have Docker then go [here](https://docs.docker.com/desktop/) first.
-   Another version of the Liferay Portal docker may be found [here](https://hub.docker.com/r/liferay/portal)
+   If you do not have Docker, [install it](https://docs.docker.com/desktop/) first.
+   You can use another version of the [Liferay Portal docker](https://hub.docker.com/r/liferay/portal).
 
-2. Sign in to [Liferay](http://localhost:8080) using the email address test@liferay.com and the password test.
+2. Sign in to [Liferay](http://localhost:8080) using the email address `test@liferay.com` and password `test`.
 3. When prompted, change your password.
-4. Retrieve the site identifier using [this](https://learn.liferay.com/w/dxp/headless-delivery/consuming-apis/consuming-rest-services#identify-the-site-containing-the-data) tutorial.
-5. Purchase Aspose.Words license, or use a [Free Trial or a 30-day Temporary License](/words/net/licensing/)
+4. Retrieve the site identifier using [this tutorial](https://learn.liferay.com/w/dxp/headless-delivery/consuming-apis/consuming-rest-services#identify-the-site-containing-the-data).
+5. Purchase an Aspose.Words license or use a [Free Trial or 30-day Temporary License](/words/net/licensing/).
 
 {{% alert color="primary" %}}
 
-Note that If you already have a Liferay portal then skip steps 1-3.
+Note that if you already have a Liferay portal then skip steps 1-3.
 
 {{% /alert %}}
 
@@ -49,8 +49,7 @@ To execute the instructions, you need to find and fix the values of the followin
 
 {{% alert color="primary" %}}
 
-Note that the *login* and *password* should be obtained in steps 2-3 of the "Preset" part,
-*site identifier* should be obtained in steps 4 of the "Preset" part
+Note that the *login* and *password* should be obtained in steps 2-3 of the "Preset" part, and *site identifier* should be obtained in step 4 of the "Preset" part.
 
 {{% /alert %}}
 
@@ -64,13 +63,13 @@ To create a new console application project, follow these steps:
    - IdentityModel
    - Aspose.Words
 
-### Add document files to compare
+### Add Document Files to Compare
 
-Create folder "Docs" in the project and add files "DocumentA.docx" and "DocumentA.docx".
+Create a "Docs" folder in the project and add the files "DocumentA.docx" and "DocumentA.docx".
 
-### Add Json model classes for REST API processing
+### Add JSON Model Classes for REST API Processing
 
-Create folder "JsonModel" in the project. Create a file "DownloadResponse.cs" in the project and fill it with the following content:
+Create a folder "JsonModel" in the project. Create a file "DownloadResponse.cs" in the project and fill it with the following content:
 
 **.NET**
 {{< highlight csharp >}}
@@ -379,5 +378,5 @@ As a result, the "DocumentCompared.docx" file should be placed in the root of Do
 
 ## See Also
 
-- The article [Work with a Document Stored in a SharePoint Online"](/words/net/work-with-document-stored-in-sharepoint)
+- The article ["Work with a Document Stored in a SharePoint Online"](/words/net/work-with-document-stored-in-sharepoint)
 - The article ["Work with a Document Marked by a Sensitivity Label"](/words/net/work-with-document-market-by-sensitivity-label/)
