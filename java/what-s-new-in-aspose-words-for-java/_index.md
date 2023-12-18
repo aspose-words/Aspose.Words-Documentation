@@ -11,13 +11,15 @@ url: /java/what-s-new-in-aspose-words-for-java/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Java 23.9, 23.10, 23.11
+## Aspose.Words for Java 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
 
 Aspose.Words 23.10 improves rendering, expands options for loading and saving documents, and allows users to merge documents in new ways.
 
 Aspose.Words 23.11 enhances the work with revisions, XLSX format and fonts on chart legend with additional options.
+
+Aspose.Words 23.12 introduces new properties and enumerations for working with PDF documents, support for WebP images, and updated Bouncy Castle library.
 
 ### Rendering and Printing
 
@@ -45,6 +47,10 @@ A simple way to automatically adjust and fit an image within a particular shape 
 
 The ability to specify default font formatting for legend entries of DrawingML charts has been added via the **Font** property. This feature facilitates a more streamlined and consistent appearance for chart elements, improving the overall document aesthetics.
 
+#### Specify Page Layout when Opening PDF in Reader <sup>23.12</sup>
+
+The ability to specify the page layout to be used when opening a document in a PDF reader has been added through the introduction of a new [PageLayout](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getPageLayout) property to the [PdfSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) class and the introduction of a new [PdfPageLayout](https://reference.aspose.com/words/java/com.aspose.words/pdfpagelayout/) enumeration.
+
 ### Loading and Saving Documents
 
 #### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
@@ -67,6 +73,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 - A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) class. <sup>23.10</sup>
 - A way to control when a certain revision should be accepted/rejected or not has been implemented by using the **Accept** and **Reject** methods. This enhancement grants users finer control over the revision process. <sup>23.11</sup>
 - The ability to write all sections of a document onto the same XLSX worksheet has been provided through the new **XlsxSectionMode** enumeration type and the new **SectionMode** property. <sup>23.11</sup>
+- Support for WebP image has been introduced. Please note that this feature is only available for .NetStandart and .NET6+ versions. <sup>23.12</sup>
 
 {{% alert color="primary" %}}
 
@@ -75,6 +82,8 @@ Learn more about [Aspose.Words for Java 23.9 Release Notes](/words/java/aspose-w
 Learn more about [Aspose.Words for Java 23.10 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-10-release-notes/).
 
 Learn more about [Aspose.Words for Java 23.11 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-11-release-notes/).
+
+Learn more about [Aspose.Words for Java 23.12 Release Notes](https://releases.aspose.com/words/java/release-notes/2023/aspose-words-for-java-23-12-release-notes/).
 
 {{% /alert %}}
 
