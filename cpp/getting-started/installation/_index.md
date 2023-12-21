@@ -38,28 +38,6 @@ You can also install or update Aspose.Words for C++ APIs using the *Package Mana
 
 In *Package Manager Console*, you can also use the `Update-Package Aspose.Words.Cpp` command to check for updates to the Aspose.Words package and install them if present.
 
-## Install or Update Aspose.Words for C++ using vcpkg
-
-[vcpkg](https://vcpkg.io/en/index.html) is a free C/C++ package manager for acquiring and managing libraries.
-Please follow [Configure Aspose.Words for C++ with vcpkg](/words/cpp/configure-aspose-words-for-cpp-with-vcpkg/)
-
-## Install or Update Aspose.Words for C++ on macOS using CocoaPods
-
-[CocoaPods](https://cocoapods.org/) is an application level dependency manager. 
-It focuses on source-based distribution of third party code and automatic integration into Xcode projects.
-
-You can also install or update Aspose.Words for C++ APIs using the *CocoaPods*. 
-To do this, follow the instructions from [the official guide](https://guides.cocoapods.org/using/index.html).
-
-An example of using Aspose.Words for C++ as a dependency looks like this:
-
-*`Podfile`*
-{{< highlight json "hl_lines=2" >}}
-target 'MyApp' do
-  pod 'Aspose.Words.Cpp', source: 'https://github.com/aspose-total/Aspose.Total-Podspecs.git'
-end
-{{< /highlight >}}
-
 ## Install Aspose.Words for C++ Manually
 
 You can download [Aspose.Words for C++ from NuGet Gallery](https://www.nuget.org/packages/Aspose.Words.Cpp/) by clicking the "Manual download" link in the Info section. Offline API Documentation can also be found in the downloaded ZIP package.
