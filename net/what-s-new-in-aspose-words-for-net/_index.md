@@ -11,6 +11,28 @@ url: /net/what-s-new-in-aspose-words-for-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for .NET 24.1
+
+Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects and LINQ reporting, as well as introduces a new Bibliography Sources public API.
+
+### Rendering and Printing
+
+#### Stroke Color Control <sup>24.1</sup>
+
+The [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
+
+### Other
+
+* The capability to modify the text of the TextBox OLE control has been introduced by adding a new [Text](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/text/) property to the new [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/) class. <sup>24.1</sup>
+* The Bibliography Sources public API was implemented through the adding a new namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) with its new classes and enumerations, and through the adding a new [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) property to the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class. <sup>24.1</sup>
+* An API to limit access to type members using template syntax for the LINQ Reporting Engine has been provided. <sup>24.1</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for .NET 24.1 Release Notes](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for .NET 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
@@ -432,97 +454,6 @@ Learn more about [Aspose.Words for .NET 22.6 Release Notes](/words/net/aspose-wo
 Learn more about [Aspose.Words for .NET 22.7 Release Notes](/words/net/aspose-words-for-net-22-7-release-notes/).
 
 Learn more about [Aspose.Words for .NET 22.8 Release Notes](/words/net/aspose-words-for-net-22-8-release-notes/).
-
-{{% /alert %}}
-
-## Aspose.Words for .NET 22.1, 22.2, 22.3, 22.4
-
-Aspose.Words 22.1 improves rendering options, as well as loading and saving documents.
-
-Aspose.Words 22.2 introduces a new load format and new options for exporting documents. It also contains a major update for tables and some changes for working with fields.
-
-Aspose.Words 22.3 expands the possibilities of working with PDF and TXT formats and improves the work of some existing algorithms and engines.
-
-Aspose.Words 22.4 enhances PDF capabilities – now you can save a file in PDF/A-4 format and get a number of other improvements in PDF output. At the same time, Aspose.Words 22.4 provides additional abilities to work with DML charts, read the Photoshop metadata, and import HTML block-level elements.
-
-The API is enhanced for more flexible and convenient development.
-
-### Supported Formats
-
-Loading a document in AZW3 format (KF8 is another name for the format) has been added. Now you can load an AZW3 document and convert it to any other supported formats.
-
-### Rendering
-
-#### Rendering to PDF with PDF/UA-1 Compliance
-
-Rendering into PDF with PDF/UA-1 compliance has been implemented by adding new values to the [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) enumeration – **PdfUa1**. This option assumes compliance with special requirements for document accessibility.
-
-#### Rendering MathML Formulas
-
-The rendering of operators in MathML formulas has been improved.
-
-#### DML Chart Improvements
-
-The following improvements have been made to the DML charts:
-
-* The DML chart axis scaling algorithm has been improved to be the same as in MS Word
-* The ability to manipulate with DrawingML chart legend entries has been provided to make our chart API more and more comprehensive
-* The ability to specify the name of an xls/xlsx file the DrawingML chart is linked to has been implemented
-
-#### Rendering to PDF with PDF/A-4 Compliance
-
-Rendering into PDF with PDF/A-4 compliance has been added by adding new values to the [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) enumeration – PdfA4. This option assumes revised conformance levels: regular PDF/A-4 conformance is equivalent to conformance level U of previous versions, and the level A conformance is removed.
-
-#### Reading of Photoshop metadata resolution in JPEG
-
-Reading of Photoshop metadata resolution in JPEG images has been implemented to fix an interesting issue with incorrect scaling of images upon rendering.
-
-### Loading and Saving Documents
-
-#### Controlling Style Behavior When Loading a Document
-
-A new option [ForceCopyStyles](https://reference.aspose.com/words/net/aspose.words/importformatoptions/forcecopystyles/) has been introduced to control the behavior of conflicting styles upon document import.
-
-#### Document Saving Progress Notifications
-
-An ability to get notifications about the progress of document saving has been added through the [ProgressCallback](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/progresscallback/) property in 22.1.
-
-In 22.2, saving progress notifications have been extended for HTML and XAML based flow formats: HTML, MHTML, Epub, XamlFlow, and XamlFlowPack.
-
-In 22.3, saving progress notifications have been extended for TXT format.
-
-#### Convert Shapes to SVG When Exporting
-
-The ability to convert shapes to SVG images upon exporting to HTML, MHTML, or EPUB has been provided by adding the [ExportShapesAsSvg](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/) property.
-
-#### Export of List Numbering to PDF Logical Structure
-
-List numbering export to PDF logical structure has been implemented.
-
-#### Saving to PDF 2.0 and Improvements in PDF Output
-
-The ability to save a document as PDF 2.0 by adding a new value to the [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) enumeration, as well as several other requested improvements to PDF output, have been introduced.
-
-#### New HTML Import Mode
-
-A new import mode for HTML block-level elements has been implemented to mimic Microsoft Word behavior.
-
-### Other
-
-* An ability to get custom field data that is associated with the field has been added.
-* The latest version of Aspose.Words also included a major update that handles tables with incorrect or missing column width data in the source document.
-* The table comparing algorithm relying on deep analysis of Microsoft Word comparison mechanism has been improved.
-* The comments syntax in LINQ Reporting engine has been provided.
-
-{{% alert color="primary" %}}
-
-Learn more about [Aspose.Words for .NET 22.1 Release Notes](/words/net/aspose-words-for-net-22-1-release-notes/).
-
-Learn more about [Aspose.Words for .NET 22.2 Release Notes](/words/net/aspose-words-for-net-22-2-release-notes/).
-
-Learn more about [Aspose.Words for .NET 22.3 Release Notes](/words/net/aspose-words-for-net-22-3-release-notes/).
-
-Learn more about [Aspose.Words for .NET 22.4 Release Notes](/words/net/aspose-words-for-net-22-4-release-notes/).
 
 {{% /alert %}}
 
