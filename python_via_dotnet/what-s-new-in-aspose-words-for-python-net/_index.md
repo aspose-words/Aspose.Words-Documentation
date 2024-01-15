@@ -19,7 +19,7 @@ Aspose.Words 24.1 improves the experience around managing stroke colors, enhance
 
 #### Stroke Color Control <sup>24.1</sup>
 
-The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: **ForeThemeColor** and **BackThemeColor**, **ForeTintAndShade** and BackTintAndShade**.
+The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: **ForeThemeColor** and **BackThemeColor**, **ForeTintAndShade** and **BackTintAndShade**.
 
 ### Other
 

@@ -25,11 +25,11 @@ Aspose.Words 23.12 introduces new properties and enumerations for working with P
 
 #### Customizing Axes Titles in DrawingML Charts <sup>23.9</sup>
 
-The capability to customize axis titles in DrawingML charts has been introduced by the implementation of a new public class **ChartAxisTitle** and **Title** property.
+The capability to customize axis titles in DrawingML charts has been introduced by the implementation of a new public class **ChartAxisTitle** and [Title](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartaxis/get_title/) property.
 
 #### Determining the Vertical Position of Fonts within a Paragraph <sup>23.9</sup>
 
-It is now possible to define the vertical position of fonts within a paragraph using the new public **BaselineAlignment** property and the new **BaselineAlignment** enumeration.
+It is now possible to define the vertical position of fonts within a paragraph using the new public [BaselineAlignment](https://reference.aspose.com/words/cpp/aspose.words/paragraphformat/get_baselinealignment/) property and the new [BaselineAlignment](https://reference.aspose.com/words/cpp/aspose.words/baselinealignment/) enumeration.
 
 #### Foreground Color Control <sup>23.10</sup>
 
@@ -55,7 +55,7 @@ The ability to specify the page layout to be used when opening a document in a P
 
 #### Specifying a Folder Name to Construct Image URIs in Markdown <sup>23.9</sup>
 
-The [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class has been expanded by including the **ImagesFolderAlias** property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
+The [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class has been expanded by including the [ImagesFolderAlias](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/get_imagesfolderalias/) property, which allows to specifies the name of the folder used to construct image URIs written into the Markdown document.
 
 #### Reduce PDF Output Size <sup>23.10</sup>
 
@@ -67,7 +67,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 
 ### Other
 
-- Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the **EmulateRenderingToSizeOnPage** property and the **EmulateRenderingToSizeOnPageResolution** property was added. <sup>23.9</sup>
+- Metafile rendering emulation to determine rasterization size has been implemented, specifically for WMF pen width and EMF cosmetic pen width. To achieve this, the **ScaleWmfFontsToMetafileSize** property was replaced with the [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterenderingtosizeonpage/) property and the [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/get_emulaterenderingtosizeonpageresolution/) property was added. <sup>23.9</sup>
 * A simplified method for inserting one document into another document at the current cursor position has been introduced using the [InsertDocumentInline](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertdocumentinline/) method. <sup>23.10</sup>
 * The ability to access and modify style properties has been added through the introduction of the new [Locked](https://reference.aspose.com/words/cpp/aspose.words/style/get_locked/) property.  <sup>23.10</sup>
 * A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/cpp/aspose.words/compositenode/) class. <sup>23.10</sup>
