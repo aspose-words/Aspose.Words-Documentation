@@ -11,6 +11,27 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
+## Aspose.Words for Python via .NET 24.1
+
+Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects, as well as introduces a new Bibliography Sources public API.
+
+### Rendering and Printing
+
+#### Stroke Color Control <sup>24.1</sup>
+
+The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: **ForeThemeColor** and **BackThemeColor**, **ForeTintAndShade** and BackTintAndShade**.
+
+### Other
+
+* The capability to modify the text of the TextBox OLE control has been introduced by adding a new **Text** property to the new **TextBoxControl** class. <sup>24.1</sup>
+* The Bibliography Sources public API was implemented through the adding a new namespace **Aspose.Words.Bibliography** with its new classes and enumerations, and through the adding a new **Bibliography** property to the **Document** class. <sup>24.1</sup>
+
+{{% alert color="primary" %}}
+
+Learn more about [Aspose.Words for Python via .NET 24.1 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+
+{{% /alert %}}
+
 ## Aspose.Words for Python via .NET 23.9, 23.10, 23.11, 23.12
 
 Aspose.Words 23.9 expands rendering options, metafile rendering emulation, and markdown save options.
