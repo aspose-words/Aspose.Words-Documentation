@@ -47,6 +47,8 @@ data_band_body
 
 - [Working with Common Data Bands](/words/java/working-with-common-data-bands/)
 - [Working with Table-Row Data Bands](/words/java/working-with-table-row-data-bands/)
+- [Working with Table-Column Data Bands](/words/java/working-with-table-column-data-bands/)
+- [Working with Cross (Pivot) Tabless](/words/java/working-with-cross-pivot-tables/)
 - [Using Extension Methods of Iteration Variables](/words/java/using-extension-methods-of-iteration-variables/)
 - [Using Charts to Represent Sequential Data](/words/java/using-charts-to-represent-sequential-data/)
 - [Forcing Movement to Next Item within Data Band](/words/java/forcing-movement-to-next-item-within-data-band/)
