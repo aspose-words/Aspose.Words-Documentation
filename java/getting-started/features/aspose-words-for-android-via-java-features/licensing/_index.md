@@ -5,25 +5,70 @@ articleTitle: Licensing
 linktitle: Licensing
 description: "Licensing Aspose.Words for Android via Java."
 type: docs
-weight: 50
+weight: 60
 url: /java/licensing-android/
 ---
 
-## Evaluate Aspose.Words
+Sometimes, in order to study the system better, you want to dive into the code as fast as possible. To make this easier, Aspose.Words provides different plans for purchase or offers a Free Trial and a 30-day Temporary License for evaluation.
 
-Make sure to take advantage of the free Aspose.Words for Android via Java evaluation: it has no time limit, and comes with free technical support. We encourage developers to evaluate our products before buying so you know that the product will do what you want it to do.
+{{% alert color="primary" %}}
 
-The evaluation and the paid versions of Aspose.Words for Android via Java use the same download. Simply [download Aspose.Words for Android via Java](https://releases.aspose.com/words/androidjava/) from the download page, [install it](/words/java/installation/) and it works in evaluation mode. Evaluation mode inserts an evaluation watermark at the top of the document on open and save, and limits the maximum document size to several hundred paragraphs. When you have bought a license, simply reference the license in the code to apply it. If you want to test Aspose.Words without the evaluation version limitations, [request a 30-day temporary license](https://purchase.aspose.com/temporary-license/).
+Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the ["Purchase Policies and FAQ"](https://purchase.aspose.com/policies/) section.
 
-![licensing-aspose-words-android](licensing-1.png)
+{{% /alert %}}
 
-## Applying a License
+## Free Trial or Temporary License
 
-Once you are happy with your evaluation of Aspose.Words, [purchase a license](https://purchase.aspose.com/buy) at the Aspose website. Make yourself familiar with the different [license types](https://purchase.aspose.com/policies/license-types/) offered. If you have any questions, do not hesitate to [contact the Aspose sales team](https://about.aspose.com/contact/). Every Aspose license carries a one-year subscription for free upgrades to any new versions or fixes that come out during this time. Technical support is free and unlimited and provided both to licensed and evaluation users.
+Aspose.Words is incredible software that developers can try before purchasing. You can easily download/install Aspose.Words for Java and Aspose.Words for Android via Java [from the download page](https://releases.aspose.com/words/androidjava/) for evaluation.
 
-The license is a plain text XML file that contains details such as the product name, number of licensed developers, subscription expiry date and so on. The file is digitally signed, so do not modify the file: even adding an extra line break into the file will invalidate it. You need to set a license before performing any operations with documents. Make sure you do this before creating a Document object. You are only required to [set a license once per application or process](/words/java/licensing/#licensing-whentoapplyalicense).
+The evaluation version is the same as the purchased one – the Trial version simply becomes licensed when you add a few lines of code to apply the license.
 
-### Loading the License file
+{{% alert color="primary" %}}
+
+Learn more details about the Free Trial or Temporary License for Aspose.Words for Android via Java on [the Licensing and Subscription page](/java/licensing/).
+
+{{% /alert %}}
+
+## Purchased License
+
+After purchase, you need to apply the license file or include the license file as an embedded resource. This section describes options of how this can be done, and also comments on some common questions.
+
+{{% alert color="primary" %}}
+
+A license is a plain text XML file that contains details such as product name, number of developers licensed, subscription expiry date, and so on.
+
+The file is digitally signed, so do not modify the file. Even inadvertent addition of an extra line break into the file will invalidate it.
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+You need to set the license:
+
+* only once per application domain
+* before using any other Aspose.Words classes
+
+{{% /alert %}}
+
+{{% alert color="primary" %}}
+
+You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family) page.
+
+{{% /alert %}}
+
+### Protecting Your Purchased License
+
+After purchasing a license, you need to carefully read the information on page ["Protecting Your Purchased License"](https://purchase.aspose.com/orders/protecting-your-license-file) to protect your license file. Please note that this page is available for viewing only if you have a paid license.
+
+### License Applying Options
+
+Licenses can be applied from various locations:
+
+* Explicit path
+* An embedded resource
+* As a Metered License – a new licensing mechanism
+
+#### Loading the License file
 
 In Aspose.Words for Android via Java, the license can be [embedded as a resource](/words/java/licensing/), or loaded from a stream:
 
@@ -31,11 +76,9 @@ In Aspose.Words for Android via Java, the license can be [embedded as a resourc
 1. Create a stream that references file.
 1. Pass the stream (containing the license file) into the SetLicense method.
 
-
-
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
 
 // Create a stream object containing the license file
@@ -47,8 +90,6 @@ License license = new License();
 license.setLicense(fstream);
 {{< /highlight >}}
 
-
-
 Applying a License from an Embedded Resource. To access the license as a resource by name from an Android package file:
 
 1. Add the license file as a resource to your application's **res/raw** folder.
@@ -57,19 +98,19 @@ Applying a License from an Embedded Resource. To access the license as a resour
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 License license = new License();
 InputStream inputStream = getResources().openRawResource(R.raw.license);
 license.setLicense(inputStream);
 {{< /highlight >}}
 
-### Apply Metered License
+#### Apply Metered License
 
 Aspose.Words allows developers to to apply metered key. It is a new licensing mechanism. The new licensing mechanism will be used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing.
 
 **Java**
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 Metered metered = new Metered();
 try
 {
@@ -84,16 +125,17 @@ catch (Exception ex)
 }
 {{< /highlight >}}
 
-## When to Apply a License
+### Changing the License File Name
 
-Follow these simple rules:
+The license file name does not have to be 'Aspose.Words.Android.Java.lic'. You can rename it to anything you like and use that name when calling License.SetLicense.
 
-- The license only needs to be set once per application domain.
-- You need to set the license before using any other Aspose.Words classes.
+### Exception - Cannot find license filename
 
-Calling License.SetLicense multiple times is not harmful, but wastes processor time.
+When you download a license you've bought, the license file is named **Aspose.Words.Android.Java.lic** by default. The license file is downloaded through your browser and some browsers recognize the license file as XML and append an .xml extension to the name. The downloaded file becomes **Aspose.Words.Android.Java.lic.XML**.
 
-If you are developing a class library, call License.SetLicense from a static constructor that uses Aspose.Words. The static constructor execute before an instance of your class is created, making sure Aspose.Words' license is applied properly.
+When Microsoft Windows is configured to hide extensions of known file types (unfortunately this is default in most Windows installations), the license file is listed as **Aspose.Words.Android.Java.lic** in Windows Explorer. It looks like the expected file name. If you call License.SetLicense and pass 'Aspose.Words.Android.Java.lic', you'll see and exception because there is no such file. 
+
+To solve the problem, rename the file to remove the invisible .xml extension. We recommend that you disable the "hide extensions" option in Microsoft Windows.
 
 ## Using Multiple Aspose Products
 
@@ -103,15 +145,3 @@ If you use several Aspose products in an application, for example Aspose.Words a
   Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the License.SetLicense method separately for each Aspose product.
 - Use fully qualified License class name.
   Each Aspose product has a License class in its namespace. For example, Aspose.Words has com.aspose.words.License and Aspose.Cells has com.aspose.cells.License class. Using the fullyqualified class name allows you to avoid any confusion about which license is applied to which product.
-
-## Exception - Cannot find license filename
-
-When you download a license you've bought, the license file is named **Aspose.Words.Android.Java.lic** by default. The license file is downloaded through your browser and some browsers recognize the license file as XML and append an .xml extension to the name. The downloaded file becomes **Aspose.Words.Android.Java.lic.XML**.
-
-When Microsoft Windows is configured to hide extensions of known file types (unfortunately this is default in most Windows installations), the license file is listed as **Aspose.Words.Android.Java.lic** in Windows Explorer. It looks like the expected file name. If you call License.SetLicense and pass 'Aspose.Words.Android.Java.lic', you'll see and exception because there is no such file. 
-
-To solve the problem, rename the file to remove the invisible .xml extension. We recommend that you disable the "hide extensions" option in Microsoft Windows.
-
-## Changing the License File Name
-
-The license file name does not have to be 'Aspose.Words.Android.Java.lic'. You can rename it to anything you like and use that name when calling License.SetLicense.

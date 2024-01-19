@@ -3,7 +3,7 @@ title: Accessing Missing Members of Data Objects in Java
 second_title: Aspose.Words for Java
 articleTitle: Accessing Missing Members of Data Objects
 linktitle: Accessing Missing Members of Data Objects
-description: "Learn how to set up external types using LINQ in Java."
+description: "Learn how to treat missing members of data objects as null literals using LINQ in Java."
 type: docs
 weight: 70
 url: /java/accessing-missing-members-of-data-objects/

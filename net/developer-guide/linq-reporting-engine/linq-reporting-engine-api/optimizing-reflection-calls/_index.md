@@ -3,7 +3,7 @@ title: Optimizing Reflection Calls in C#
 second_title: Aspose.Words for .NET
 articleTitle: Optimizing Reflection Calls
 linktitle: Optimizing Reflection Calls
-description: "Learn how to enable inline syntax error message into the template document at the exact position using LINQ in C#."
+description: "Learn how to minimize the reflection usage using LINQ in C#."
 type: docs
 weight: 100
 url: /net/optimizing-reflection-calls/

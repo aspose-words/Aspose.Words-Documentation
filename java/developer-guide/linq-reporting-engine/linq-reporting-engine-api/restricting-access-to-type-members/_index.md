@@ -3,7 +3,7 @@ title: Restricting Access to Type Members in Java
 second_title: Aspose.Words for Java
 articleTitle: Restricting Access to Type Members
 linktitle: Restricting Access to Type Members
-description: "Learn how to enable inline syntax error message into the template document at the exact position using LINQ in Java."
+description: "Learn how to restrict access of a template author to members of types sensitive using LINQ in Java."
 type: docs
 weight: 90
 url: /java/restricting-access-to-type-members/

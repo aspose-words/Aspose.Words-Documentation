@@ -1,11 +1,11 @@
-﻿---
+---
 title: Check Format in PHP
 second_title: Aspose.Words for Java
 articleTitle: Check Format in PHP
 linktitle: Check Format in PHP
 description: "Check Document Format using PHP."
 type: docs
-weight: 10
+weight: 30
 url: /java/check-format-in-php/
 ---
 

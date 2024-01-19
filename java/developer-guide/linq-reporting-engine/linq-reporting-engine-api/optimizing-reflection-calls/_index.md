@@ -3,7 +3,7 @@ title: Optimizing Reflection Calls in Java
 second_title: Aspose.Words for Java
 articleTitle: Optimizing Reflection Calls
 linktitle: Optimizing Reflection Calls
-description: "Learn how to enable inline syntax error message into the template document at the exact position using LINQ in Java."
+description: "Learn how to minimize the reflection usage using LINQ in Java."
 type: docs
 weight: 100
 url: /java/optimizing-reflection-calls/
