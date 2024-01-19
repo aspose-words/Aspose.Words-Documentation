@@ -3,7 +3,7 @@ title: Restricting Access to Type Members in C#
 second_title: Aspose.Words for .NET
 articleTitle: Restricting Access to Type Members
 linktitle: Restricting Access to Type Members
-description: "Learn how to enable inline syntax error message into the template document at the exact position using LINQ in C#."
+description: "Learn how to restrict access of a template author to members of types sensitive using LINQ in C#."
 type: docs
 weight: 90
 url: /net/restricting-access-to-type-members/

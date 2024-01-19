@@ -3,7 +3,7 @@ title: Accessing Missing Members of Data Objects in C#
 second_title: Aspose.Words for .NET
 articleTitle: Accessing Missing Members of Data Objects
 linktitle: Accessing Missing Members of Data Objects
-description: "Learn how to set up external types using LINQ in C#."
+description: "Learn how to treat missing members of data objects as null literals using LINQ in C#."
 type: docs
 weight: 70
 url: /net/accessing-missing-members-of-data-objects/

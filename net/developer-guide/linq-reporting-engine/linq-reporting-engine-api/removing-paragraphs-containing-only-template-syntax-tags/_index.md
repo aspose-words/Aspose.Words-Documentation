@@ -3,7 +3,7 @@ title: Setting up Known External Types in C#
 second_title: Aspose.Words for .NET
 articleTitle: Setting up Known External Types
 linktitle: Setting up Known External Types
-description: "Learn how to set up external types using LINQ in C#."
+description: "Learn how remove paragraphs containing only template tags using LINQ in C#."
 type: docs
 weight: 60
 url: /net/removing-paragraphs-containing-only-template-syntax-tags/

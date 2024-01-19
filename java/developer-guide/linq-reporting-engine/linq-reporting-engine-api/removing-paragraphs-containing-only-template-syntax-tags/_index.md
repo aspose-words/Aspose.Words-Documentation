@@ -1,15 +1,16 @@
 ---
-title: Setting up Known External Types in Java
+title: Removing Paragraphs Containing Only Template Syntax Tags in Java
 second_title: Aspose.Words for Java
-articleTitle: Setting up Known External Types
-linktitle: Setting up Known External Types
-description: "Learn how to set up external types using LINQ in Java."
+articleTitle: Removing Paragraphs Containing Only Template Syntax Tags
+linktitle: Removing Paragraphs Containing Only Template Syntax Tags
+description: "Learn how remove paragraphs containing only template tags using LINQ in Java."
 type: docs
 weight: 60
 url: /java/removing-paragraphs-containing-only-template-syntax-tags/
 ---
 
 While building a report, some paragraphs containing only template syntax tags can become empty after the tags are removed or replaced with empty values. To remove such paragraphs from the report, you can apply the `ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS` option as shown in the following example.
+
 {{< highlight java >}}
 ReportingEngine engine = new ReportingEngine();
 engine.setOptions(ReportBuildOptions.REMOVE_EMPTY_PARAGRAPHS);

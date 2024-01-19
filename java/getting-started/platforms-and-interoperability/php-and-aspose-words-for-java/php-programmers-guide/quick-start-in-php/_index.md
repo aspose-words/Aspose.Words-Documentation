@@ -1,11 +1,11 @@
-﻿---
+---
 title: Quick Start in PHP
 second_title: Aspose.Words for Java
 articleTitle: Quick Start in PHP
 linktitle: Quick Start in PHP
 description: "PHP: Quick Start Aspose.Words for Java."
 type: docs
-weight: 40
+weight: 10
 url: /java/quick-start-in-php/
 ---
 
