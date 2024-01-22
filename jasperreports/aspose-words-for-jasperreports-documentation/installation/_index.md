@@ -21,10 +21,12 @@ To use Aspose.Words for JasperReports from your application, you should copy a s
 
 Starting from release **1.9.0** there are several versions of jar library (necessary for better support of older versions of JasperReports):
 
-- for JasperReports 6.5.0 ... 6.11.0 (**aspose.words.jasperreports-7.1.0-7.5.0.jar**)
-- for JasperReports 6.4.2 ... 6.4.21 (**aspose.words.jasperreports-6.4.2-6.4.3.jar**)
-- for JasperReports 6.3.0 ... 6.4.1 (**aspose.words.jasperreports-6.3.0-6.4.0.jar**)
-- for JasperReports 6.0.0 ... 6.2.2 (**aspose.words.jasperreports-6.0.0-6.2.1.jar**)
+|For<br>JasperServer|For<br>JasperReports|Use the following JAR library|
+| :- | :- | :- |
+|7.8.0 ... 8.0.0|6.12.0... 6.20.0|**aspose.words.jasperreports-xx.x.x-7.8.0-8.0.0.jar**|
+|7.1.0 ... 7.5.0|6.5.0 ... 6.11.0|**aspose.words.jasperreports-xx.x.x-7.1.0-7.5.0.jar**|
+|6.4.2 ... 6.4.3|6.4.2 ... 6.4.21|**aspose.words.jasperreports-xx.x.x-6.4.2-6.4.3.jar**|
+|6.3.0 ... 6.4.0|6.3.0 ... 6.4.1|**aspose.words.jasperreports-xx.x.x-6.3.0-6.4.0.jar**|
 
 Please copy **ONLY ONE** jar library according to the version of installed JasperReports.
 
@@ -160,15 +162,15 @@ This step is only applied to JasperReports Server 3.x and 4.x, not required for 
 
 **Step 4.**
 
-Copy a single **.jar** file from the \lib folder of **Aspose.Words.JasperReports-xx.x.zip** to **<InstallDir>**\apache-tomcat\webapps\jasperserver\WEB-INF\lib.
+Copy a single **.jar** file from the \lib folder of **Aspose.Words.JasperReports-xx.x.x.zip** to **<InstallDir>**\apache-tomcat\webapps\jasperserver\WEB-INF\lib.
 
-If you are using JasperReports v6.0.0 ... v6.2.1, copy **aspose.words.jasperreports-6.0.0-6.2.1.jar** file.
+If you are using JasperServer v6.3.0 ... v6.4.0, copy **aspose.words.jasperreports-xx.x.x-6.3.0-6.4.0.jar** file.
 
-If you are using JasperReports v6.3.0 ... v6.4.0, copy **aspose.words.jasperreports-6.3.0-6.4.0.jar** file.
+If you are using JasperServer v6.4.2 ... v6.4.3, copy **aspose.words.jasperreports-xx.x.x-6.4.2-6.4.3.jar** file.
 
-` `If you are using JasperReports v6.4.2 ... v6.4.3, copy **aspose.words.jasperreports-6.4.2-6.4.3.jar** file.
+If you are using JasperServer v7.1.0 ... v7.5.0 copy **aspose.words.jasperreports-xx.x.x-7.1.0-7.5.0.jar** file.
 
-If you are using JasperReports v7.1.0 and higher copy **aspose.words.jasperreports-7.1.0.jar** file.
+If you are using JasperServer v7.8.0 ... v8.0.0 copy **aspose.words.jasperreports-xx.x.x-7.8.0-8.0.0.jar** file.
 
 NOTE: You need to copy **ONLY ONE** jar file.
 

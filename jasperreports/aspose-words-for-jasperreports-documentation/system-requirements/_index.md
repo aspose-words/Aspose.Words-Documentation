@@ -14,8 +14,8 @@ url: /jasperreports/system-requirements/
 Aspose.Words for JasperReports requires the following software to run:
 
 - Java 2 Platform Standard Edition 5.0 or higher
-- JasperReports 6.0 or higher
-- JasperServers 5.6.1 or higher (if you want to use Aspose.Words for JasperReports with JasperServer)
-- JasperReports Server 7.1.0
+- JasperReports 6.3 or higher
+- JasperServers 6.3 or higher (if you want to use Aspose.Words for JasperReports with JasperServer)
+- Note that there is no more support of JasperReports 6.2.1 and lower versions.
 
 {{% /alert %}}
