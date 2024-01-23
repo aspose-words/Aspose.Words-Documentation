@@ -17,7 +17,7 @@ Syntax of a `doc` tag is defined as follows.
 <<doc [document_expression]>>
 {{< /highlight >}}
 
-**Note –** A `doc` tag can be used almost anywhere in a template document except textboxes and charts.
+**Note** – A `doc` tag can be used almost anywhere in a template document except textboxes and charts.
 
 An expression declared within a `doc` tag is used by the engine to load a document to be inserted during runtime. The expression must return a value of one of the following types:
 
@@ -28,7 +28,7 @@ An expression declared within a `doc` tag is used by the engine to load a docume
 
 While building a report, an expression declared within a `doc` tag is evaluated and its result is used to load a document which content replaces the `doc` tag then.
 
-**Note –** If an expression declared within a `doc` tag returns a stream object, then the stream is closed by the engine as soon as a corresponding document is loaded.
+**Note** – If an expression declared within a `doc` tag returns a stream object, then the stream is closed by the engine as soon as a corresponding document is loaded.
 
 By default, while inserting content of an outer document, the engine applies corresponding styles of a template document. This makes content of a result document look more consistent. However, you can keep source formatting for content being inserted by using a `sourceStyles` switch as shown in the following snippet.
 

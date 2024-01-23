@@ -16,4 +16,4 @@ table using the following syntax.
 ds.Persons
 {{< /highlight >}}
 
-**Note –** Table names are case-insensitive.
+**Note** – Table names are case-insensitive.
