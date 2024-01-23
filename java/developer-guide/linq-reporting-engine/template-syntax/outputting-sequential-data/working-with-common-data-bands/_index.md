@@ -25,7 +25,7 @@ The items are: item1, item2, item3, and others.
 
 When the body of a common data band starts and ends within different paragraphs, the engine duplicates on iteration only those paragraph breaks which are located within the body. The following table illustrates the relevant cases.
 
-**Note –** Examples in the table are given with paragraph marks shown as per Microsoft Word® editor.
+**Note** – Examples in the table are given with paragraph marks shown as per Microsoft Word® editor.
 
 <table class="outputting-sequential-data">
 	<tbody>
@@ -58,7 +58,7 @@ When the body of a common data band starts and ends within different paragraphs,
 
 While building a report, duplicated paragraph breaks derive common attributes from their template prototypes. In particular, this fact enables you to build numbered or bulleted lists in reports dynamically. For example, given the above declaration of `items`, you can get a report with their numbered list using the following template.
 
-**Note –** “1. ” in the template stands for a numbered list label.
+**Note** – “1. ” in the template stands for a numbered list label.
 
 {{< highlight csharp >}}
 1. <<foreach [item in items]>><<[item]>>

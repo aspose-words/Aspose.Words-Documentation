@@ -31,7 +31,7 @@ url: /java/working-with-cross-pivot-tables/
 	</tbody>
 </table>
 
-**Note –** It is not necessary to start (or end) an outer table-row data band and a nested table-column one within the same cell, but this case is also supported.
+**Note** – It is not necessary to start (or end) an outer table-row data band and a nested table-column one within the same cell, but this case is also supported.
 
 Let us consider concrete examples using years, an array of integers ranging from 2020 to 2023, and `ds`, a `DataSet` instance containing `DataTable` and `DataRelation` objects according to the following data model.
 
@@ -52,7 +52,7 @@ The most basic scenario is filling a document table with data in two directions.
 	</tbody>
 </table>
 
-**Note –** Table-row and table-column regions cannot cross, that is why two table-column data bands bound to the same enumeration are required here.
+**Note** – Table-row and table-column regions cannot cross, that is why two table-column data bands bound to the same enumeration are required here.
 
 In this case, the engine produces a report as follows.
 
@@ -117,7 +117,7 @@ Since cross (pivot) tables can contain large amounts of data, it is quite usual 
 
 In this case, the engine produces a report as follows.
 
-| Cities      | Managers         |            | Years      |            |            |
+| Cities | Managers         |            | Years |            |            |
 | ----------- | ---------------- | ---------- | ---------- | ---------- | ---------- |
 |             |                  | **2020**   | **2021**   | **2022**   | **2023**   |
 | **Seattle** | **James Atkins** | **545000** | **340000** | **620000** | **510000** |

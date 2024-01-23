@@ -17,7 +17,7 @@ content_to_be_colored
 <</textColor>>
 {{< /highlight >}}
 
-**Note –** A `textColor` tag can be used anywhere in a template document except charts.
+**Note** – A `textColor` tag can be used anywhere in a template document except charts.
 
 An expression declared within an opening `textColor` tag defines a text font color to be applied during runtime. The expression must return a value of one of the following types:
 
@@ -37,7 +37,7 @@ An expression declared within an opening `textColor` tag defines a text font col
 
 While building a report, an expression declared within an opening `textColor` tag is evaluated and text content between the tag and its corresponding closing tag is colored accordingly. The opening and closing `textColor` tags are removed then.
 
-**Note –** Within a text block to be colored using a `textColor` tag, elements having a text font color already applied are not affected during runtime.
+**Note** – Within a text block to be colored using a `textColor` tag, elements having a text font color already applied are not affected during runtime.
 
 You can use `textColor` tags nested into each other. Also, you can normally use `textColor` tags within data bands and conditional blocks like in the following example.
 
@@ -71,4 +71,4 @@ To output every item into a separate table row, which text is colored dynamicall
 	</tbody>
 </table>
 
-**Note –** Start and end `textColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
+**Note** – Start and end `textColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.

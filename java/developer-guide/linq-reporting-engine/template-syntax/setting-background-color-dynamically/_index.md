@@ -17,7 +17,7 @@ content_to_be_colored
 <</backColor>>
 {{< /highlight >}}
 
-**Note –** A `backColor` tag can be used anywhere in a template document except charts.
+**Note** – A `backColor` tag can be used anywhere in a template document except charts.
 
 An expression declared within an opening `backColor` tag defines a text background color to be applied during runtime. The expression must return a value of one of the following types:
 
@@ -36,7 +36,7 @@ An expression declared within an opening `backColor` tag defines a text backgrou
 
 While building a report, an expression declared within an opening `backColor` tag is evaluated and document content between the tag and its corresponding closing tag is colored accordingly. The opening and closing `backColor` tags are removed then.
 
-**Note –** Within a document block to be colored using a `backColor` tag, elements having a text background color already applied are not affected during runtime.
+**Note** – Within a document block to be colored using a `backColor` tag, elements having a text background color already applied are not affected during runtime.
 
 You can use `backColor` tags nested into each other. Also, you can normally use `backColor` tags within data bands and conditional blocks like in the following example.
 
@@ -70,7 +70,7 @@ To output every item into a separate table row colored dynamically, you can use 
 	</tbody>
 </table>
 
-**Note –** Start and end `backColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
+**Note** – Start and end `backColor` tags can be located either in paragraphs of a single story (or table cell) or in rows of a single document table in the same way as `foreach` tags.
 
 Also, you can use a `backColor` tag to set a solid-fill color for a shape dynamically by performing the following steps:
 

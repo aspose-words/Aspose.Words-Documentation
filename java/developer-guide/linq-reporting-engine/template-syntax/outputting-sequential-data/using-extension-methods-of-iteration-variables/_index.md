@@ -32,7 +32,7 @@ The items are: item1, item2, item3.
 
 Returns the one-based index of a sequence item that is represented by the corresponding iteration variable. You can use this extension method to number sequence items without involving Microsoft Word® lists. For example, given the previous declaration of items, you can enumerate and number them in a document table using the following template.
 
-|No. |Item|
+|No. | Item |
 | :- | :- |
 |{{< highlight csharp >}}
 <<foreach [item in items]>><<[item.numberOf()]>>{{< /highlight >}}|{{< highlight csharp >}}
@@ -40,7 +40,7 @@ Returns the one-based index of a sequence item that is represented by the corres
 
 In this case, the engine produces a report as follows.
 
-|No. |Item|
+|No. | Item |
 | :- | :- |
 |1 |item1|
 |2 |item2|
