@@ -67,7 +67,7 @@ That is, there would be a single numbered list across all orders, which is not a
 <</foreach>><</foreach>>
 {{< /highlight >}}
 
-**Note –** When using with a data band, it is required to put a `restartNum` tag before a corresponding a `foreach` tag in the same numbered paragraph.
+**Note** – When using with a data band, it is required to put a `restartNum` tag before a corresponding a `foreach` tag in the same numbered paragraph.
 
 Then, a result document looks as follows.
 {{< highlight text >}}
@@ -83,4 +83,4 @@ John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 3. Carpet Cleaning
 {{< /highlight >}}
 
-**Note –** You can use a `restartNum` tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “Inserting Documents Dynamically” for more information).
+**Note** – You can use a `restartNum` tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “Inserting Documents Dynamically” for more information).

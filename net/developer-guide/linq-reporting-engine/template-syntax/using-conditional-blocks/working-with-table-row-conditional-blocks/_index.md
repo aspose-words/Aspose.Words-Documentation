@@ -11,7 +11,7 @@ url: /net/working-with-table-row-conditional-blocks/
 
 A table-row conditional block is a conditional block which body occupies single or multiple rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.
 
-**Note –** Table rows occupied by different template options in the following template are highlighted with different colors.
+**Note** – Table rows occupied by different template options in the following template are highlighted with different colors.
 
 <table class="conditional block">
 	<tbody>
@@ -169,7 +169,7 @@ Roslyn Palmerston North 4414</td>
 	</tbody>
 </table>
 
-**Note –** You can use common conditional blocks within table-row data bands as well.
+**Note** – You can use common conditional blocks within table-row data bands as well.
 
 Also, you can use data bands inside table-row conditional blocks. For example, you can provide an alternate content for an empty table-row data band using the following template.
 
@@ -206,7 +206,7 @@ In case when the corresponding enumeration is empty, the engine produces a repor
 	</tbody>
 </table>
 
-**Note –** Table-column data bands and conditional blocks can also be nested to table-row conditional blocks, but not conversely: Nesting of table-row conditional blocks into table-column data bands and conditional blocks is forbidden.
+**Note** – Table-column data bands and conditional blocks can also be nested to table-row conditional blocks, but not conversely: Nesting of table-row conditional blocks into table-column data bands and conditional blocks is forbidden.
 
 A special case is a template option inside a single-column table row. In such a case, if you put an opening `if`, `elseif`, or `else` tag and a closing `if` tag in the same cell, the engine treats a template option formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
@@ -249,8 +249,8 @@ However, if needed, you can override this behavior making the engine to treat su
 
 In this case, the engine produces a report as follows.
 
-|Header|
+| Header |
 | :- |
 |**Footer**|
 
-**Note –** In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.
+**Note** – In the previous examples, tag `<<if [false]>>` is used for the sake of simplicity; you can use any other Boolean expression instead of just `false`.

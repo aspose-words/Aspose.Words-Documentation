@@ -68,7 +68,7 @@ The most common use case of a table-row data band is the building of a document 
 
 In this case, the engine produces a report as follows.
 
-|Client|Manager|Contract Price|
+| Client |Manager|Contract Price|
 | :- | :- | :- |
 |**A Company**|**John Smith**|**1200000**|
 |**B Ltd.**|**John Smith**|**750000**|
@@ -160,7 +160,7 @@ In this case, the engine produces a report as follows.
 	</tbody>
 </table>
 
-**Note –** Table-column data bands can also be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
+**Note** – Table-column data bands can also be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
 A special case is a data band inside a single-column table row. In such a case, if you put opening and closing `foreach` tags in the same cell, the engine treats a data band formed by these tags as a common one rather than a table-row one by default. The following template illustrates such a scenario.
 
@@ -177,7 +177,7 @@ A special case is a data band inside a single-column table row. In such a case, 
 
 In this case, the engine produces a report as follows.
 
-|Managers|
+| Managers |
 | :- |
 |**John Smith  Tony Anderson  July James**  |
 
@@ -196,7 +196,7 @@ However, if needed, you can override this behavior making the engine to treat su
 
 In this case, the engine produces a report as follows.
 
-|Managers|
+| Managers |
 | :- |
 |**John Smith**|
 |**Tony Anderson**|

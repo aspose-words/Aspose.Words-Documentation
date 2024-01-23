@@ -11,7 +11,7 @@ url: /net/working-with-table-column-conditional-blocks/
 
 A table-column conditional block represents a conditional block, which body occupies a rectangular area of cells of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the top-left cell of a corresponding area and ends at the end of its bottom-right cell. Typically, this area consists of one or several table columns as follows.
 
-**Note –** Table cells occupied by different template options in the following templates are highlighted with different colors.
+**Note** – Table cells occupied by different template options in the following templates are highlighted with different colors.
 
 <table class="conditional block">
 	<tbody>
@@ -48,7 +48,7 @@ A table-column conditional block represents a conditional block, which body occu
 	</tbody>
 </table>
 
-**Note –** The `horz` switch instructs the engine to affect table columns rather than rows.
+**Note** – The `horz` switch instructs the engine to affect table columns rather than rows.
 
 However, unlike table-row conditional blocks able to capture only whole rows, table-column conditional blocks can occupy columns even partially as shown in the following template snippet.
 
@@ -171,7 +171,7 @@ For a table being built using a table-row data band, you can also show or hide a
 	</tbody>
 </table>
 
-**Note –** Table-row and table-column regions cannot cross, that is why two table-column conditional blocks with the same condition are required in this case.
+**Note** – Table-row and table-column regions cannot cross, that is why two table-column conditional blocks with the same condition are required in this case.
 
 When `showRepresentatives` is set to `true`, the engine produces a report as follows.
 
@@ -255,7 +255,7 @@ In this case, the engine produces a report as follows.
 	</tbody>
 </table>
 
-**Note –** You can use common conditional blocks within table-column data bands as well.
+**Note** – You can use common conditional blocks within table-column data bands as well.
 
 In addition, table-column conditional blocks can contain table-column data bands. This is useful, for example, for providing alternate content for an empty table-column data band as shown in the following template.
 
@@ -293,4 +293,4 @@ When there is no person at all, the engine produces a report as follows.
 	</tbody>
 </table>
 
-**Note –** Table-column conditional blocks can themselves be nested to table-row data bands and conditional blocks, but not conversely: Nesting of table-row data bands and conditional blocks into table-column conditional blocks is forbidden.
+**Note** – Table-column conditional blocks can themselves be nested to table-row data bands and conditional blocks, but not conversely: Nesting of table-row data bands and conditional blocks into table-column conditional blocks is forbidden.
