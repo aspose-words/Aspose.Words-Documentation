@@ -249,7 +249,7 @@ However, if needed, you can override this behavior making the engine to treat su
 
 In this case, the engine produces a report as follows.
 
-| `Header` |
+| Header |
 | :- |
 |**Footer**|
 
