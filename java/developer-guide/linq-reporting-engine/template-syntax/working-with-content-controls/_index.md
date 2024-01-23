@@ -11,7 +11,7 @@ url: /java/working-with-content-controls/
 
 LINQ Reporting Engine enables you to perform certain operations on content controls dynamically while building a report.
 
-**Note –** To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon?view=vs-2022).
+**Note** – To work with content controls in template documents using Microsoft Word®, you may need to [show the Developer tab on its ribbon](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon?view=vs-2022).
 
 ## Setting Checkbox Value Dynamically
 
@@ -43,7 +43,7 @@ Here, `value_expression` defines a value of a combobox or dropdown list item to 
 
 In turn, `display_name_expression` defines a display name of the combobox or dropdown list item to be added. This expression is optional. If it is omitted, then during runtime, a value of `value_expression` is used as a display name as well.
 
-**Note –** Values of both `value_expression` and `display_name_expression` can be of any types. During runtime, `Object.toString()` is invoked to get textual representations of these expressions’ values.
+**Note** – Values of both `value_expression` and `display_name_expression` can be of any types. During runtime, `Object.toString()` is invoked to get textual representations of these expressions’ values.
 
 While building a report, `value_expression` and `display_name_expression` are evaluated and a corresponding combobox or dropdown list item is added. A declaring `item` tag is removed then.
 
@@ -67,7 +67,7 @@ An `item` tag can also be combined with an `if` tag to add a combobox or dropdow
 
 Existing combobox and dropdown list items are not affected by `item` tags. Thus, you can combine both ways of adding combobox and dropdown list items using a template: static and dynamic.
 
-**Note –** While inserting a combobox or dropdown list, Microsoft Word adds a default item that has to be removed manually, if the item is unwanted.
+**Note** – While inserting a combobox or dropdown list, Microsoft Word adds a default item that has to be removed manually, if the item is unwanted.
 
 ## Setting Content Control Titles Dynamically
 

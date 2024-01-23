@@ -37,7 +37,7 @@ Aspose.Words allows you to work with digital signatures on DOC, OOXML, and ODT d
 
 The table below describes a few limitations that you may face while working with digital signatures through Aspose.Words, as well as some alternative options.
 
-| Limitation                                                   | Alternative option                                           |
+| Limitation | Alternative option                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Loss of digital signatures on a document after loading and saving it. Therefore, processing a document to a server may cause the loss of all digital signatures without a notice. | Check if a document has digital signatures and take the appropriate action if any are found. For example, send an alert to the clients informing them that the document they are uploading contains digital signatures that will be lost if it is processed. |
 | Aspose.Words supports working with macros in a document. But Aspose.Words does not yet support digital signatures on macros. | Export the document back to any Word format, and use Microsoft Word to add a digital signature to macros. |

@@ -101,10 +101,10 @@ Aspose.Words also enables you to control how fonts are embedded into the resulti
 
 There is a way to specify an option for Aspose.Words to embed full fonts. Further details, along with some advantages and disadvantages of each setting are described in the table below.
 
-|Embed Fonts Mode|Advantages|Disadvantages|
+|Embed Fonts Mode| Advantages |Disadvantages|
 | :- | :- | :- |
-|Full|Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
-|Subset|Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
+| `Full` |Useful when you want to edit the resulting PDF later by adding or modifying the text. All fonts are included, hence all glyphs are present.|Since some fonts are large (several megabytes), embedding them without subsetting can result in large output files.|
+| `Subset` |Subsetting is useful if you want to keep the output file size smaller.|<p>The user cannot fully add or edit the text using the subsetted font in the output PDF document. This is because not all glyphs of the font are present.</p><p>If multiple PDFs are saved with subsetted fonts and assembled together, then the combined PDF document may have a font containing many unnecessary subsets.</p>|
 
 ### Embedding Full Fonts in PDF
 
@@ -140,10 +140,10 @@ Aspose.Words provides options to choose how fonts are exported to PDF. You can c
 
 The option to embed Core fonts can be enabled or disabled by using the [UseCoreFonts](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/#getUseCoreFonts) property. When it is set to true, the following most popular “True Type” fonts (Base 14 fonts) are not embedded in the output PDF document:
 
-- Arial
-- Times New Roman
-- Courier New
-- Symbol
+- `Arial`
+- `Times New Roman`
+- `Courier New`
+- `Symbol`
 
 These fonts are replaced with the corresponding core Type 1 fonts, which are provided by a reader when the PDF is opened.
 

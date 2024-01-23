@@ -31,12 +31,12 @@ Note that only certain document formats support encryption. For example, RTF doe
 
 The table below lists the formats and encryption algorithms supported by Aspose.Words:
 
-| Format                                                       | Supported Encryption while Loading                          | Supported Encryption while Saving            |
+|Format| Supported Encryption while Loading                          | Supported Encryption while Saving            |
 | ------------------------------------------------------------ | ----------------------------------------------------------- | -------------------------------------------- |
 | DOC, DOT                                                     | XOR encryption40-bit RC4 EncryptionCryptoAPI RC4 Encryption | RC4 Encryption (40-bit)                      |
 | DOCX, DOTX, DOCM, DOTM, FlatOPC, FlatOpcTemplate, FlatOpcMacroEnabled, FlatOpcTemplateMacroEnabled | ECMA-376 Standard EncryptionECMA-376 Agile Encryption       | ECMA-376 Standard Encryption (AES128 + SHA1) |
 | ODT, OTT                                                     | ODF Encryption (Blowfish/AES)                               | ODF Encryption (AES256 + SHA256)             |
-| PDF                                                          | -                                                           | RC4 Encryption (40/128 bit)                  |
+| PDF | -                                                           | RC4 Encryption (40/128 bit)                  |
 
 The following code example shows how to encrypt a document with a password:
 
