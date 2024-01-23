@@ -13,7 +13,7 @@ By default, LINQ Reporting Engine throws an exception when encounters a template
 
 However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the `ReportBuildOptions.INLINE_ERROR_MESSAGES` option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
-**Note –** A template syntax error message is written using a bold font to make it more apparent.
+**Note** – A template syntax error message is written using a bold font to make it more apparent.
 
 Consider the following template.
 
@@ -27,7 +27,7 @@ By default, such a template causes the engine to throw an exception while buildi
 <<var [name] Error! An assignment operator is expected. >>
 {{< /highlight >}}
 
-**Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
+**Note** – Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
 When `ReportBuildOptions.INLINE_ERROR_MESSAGES` is applied, a Boolean value returned by a `ReportingEngine.buildReport` overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
 
@@ -45,4 +45,4 @@ else
 }
 {{< /highlight >}}
 
-**Note –** When `ReportBuildOptions.INLINE_ERROR_MESSAGES` is not applied, `ReportingEngine.buildReport` overloads return `true` if there were no template syntax errors encountered or throw an exception otherwise.
+**Note** – When `ReportBuildOptions.INLINE_ERROR_MESSAGES` is not applied, `ReportingEngine.buildReport` overloads return `true` if there were no template syntax errors encountered or throw an exception otherwise.

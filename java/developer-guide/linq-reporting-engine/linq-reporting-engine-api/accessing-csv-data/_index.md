@@ -18,7 +18,7 @@ Using of `CsvDataSource` enables you to work with typed values rather than just 
 - Boolean
 - Date
 
-**Note –** For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
+**Note** – For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
 
 In template documents, a `CsvDataSource` instance should be treated as a sequence of objects having corresponding fields as shown in the following example.
 

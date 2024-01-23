@@ -74,7 +74,7 @@ Suffix
 
 **Example 3**
 
-**Note –** In this example, `persons` is assumed to be a data table having a field Name.
+**Note** – In this example, `persons` is assumed to be a data table having a field Name.
 
 Template document
 

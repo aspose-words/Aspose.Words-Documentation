@@ -19,7 +19,7 @@ In contrast to Aspose.Words Mail Merge, LINQ Reporting Engine works with templat
 
 While composing expressions, you can use a subset of C# language that satisfies [C# Language Specification 5.0](https://www.microsoft.com/en-us/download/details.aspx?id=7029).
 
-**Note –** In general, the subset corresponds to Java language with few exceptions.
+**Note** – In general, the subset corresponds to Java language with few exceptions.
 
 Common reporting data manipulations such as grouping, sorting, and others are included to the expression syntax in the form of [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1?view=net-6.0) extension methods. LINQ Reporting Engine gained its name because of this feature.
 
