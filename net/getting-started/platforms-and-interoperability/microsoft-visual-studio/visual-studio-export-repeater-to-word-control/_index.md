@@ -78,7 +78,7 @@ It is very simple and easy to install Export Repeater To Word Control, please fo
 
 You will get a success dialog once the installation is completed.
 
-**Note:** Please make sure to restart Visual Studio for the changes to take effect.
+**Note**: Please make sure to restart Visual Studio for the changes to take effect.
 
 ### For Visual Studio 2005, 2008 and Express editions
 

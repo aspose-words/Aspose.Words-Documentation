@@ -52,7 +52,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
 1. Follow the instructions on screen.
 
-**Note:** You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
+**Note**: You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
 
 {{< highlight csharp >}}
  <httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /> 

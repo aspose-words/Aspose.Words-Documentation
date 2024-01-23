@@ -52,7 +52,7 @@ In order to setup Aspose .NET Quote Generator for Umbraco module you need to hav
 - Umbraco 6.2.5 & Umbraco 6 versions
 - Microsoft .NET Framework 4.0
 
-**Note:** Umbraco 7 and above are not supported in this release. We look forward to hear your feedback and add support for Umbraco 7 in next version.
+**Note**: Umbraco 7 and above are not supported in this release. We look forward to hear your feedback and add support for Umbraco 7 in next version.
 
 Please feel free to contact us if you wish to install this module on an older version of Umbraco.
 
@@ -79,7 +79,7 @@ Once downloaded, please follow these steps to install this package into your Umb
 1. If you install **local package**, do not unzip the package but load the zip into Umbraco.
 1. Follow the instructions on screen.
 
-**Note:** You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
+**Note**: You may get a ‘Maximum request length exceeded’ error when installing. You can easily fix this issue by updating the ‘maxRequestLength’ value in your Umbraco web.config file.
 &lt;httpRuntime requestValidationMode="2.0" enableVersionHeader="false" maxRequestLength="25000" /&gt; 
 
 ## Using

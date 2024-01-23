@@ -79,7 +79,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-**Note:** This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from many data sources by using separate calls of [ExecuteWithRegions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions/) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
+**Note**: This option will remove any mail merge region in the document which is not found in the current data source. If you are merging data from many data sources by using separate calls of [ExecuteWithRegions](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions/) then you need to make sure that this option is enabled only with the very last merge operation. Otherwise, all unused mail merge regions will be removed from the document before they can be merged.
 
 ### Remove Unused Fields
 
@@ -91,13 +91,13 @@ The following code example shows how to remove any unused merge fields from a do
 
 ### Removing Containing Fields
 
-A merge field can be contained within another field such as an *IF* field or a formula field. Remove this outer field when the merge field is merged or removed from the document.
+A merge field can be contained within another field such as an **IF** field or a formula field. Remove this outer field when the merge field is merged or removed from the document.
 
 The following code example shows how to remove fields that contain merge fields from a document:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeCleanUp-RemoveContainingFields.cs" >}}
 
-**Note:** This option will only remove a containing field if the field was actually merged with data or if the merge field was removed by using the **RemoveUnusedFields** option. This option matches the behavior of Microsoft Word during mail merge which always automatically removes outer fields from a merged field and keeps only the plain text result.
+**Note**: This option will only remove a containing field if the field was actually merged with data or if the merge field was removed by using the **RemoveUnusedFields** option. This option matches the behavior of Microsoft Word during mail merge which always automatically removes outer fields from a merged field and keeps only the plain text result.
 
 ### Remove Empty Table Rows
 

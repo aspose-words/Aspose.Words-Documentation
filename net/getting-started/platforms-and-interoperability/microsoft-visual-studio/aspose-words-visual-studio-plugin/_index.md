@@ -62,7 +62,7 @@ You will get a success dialog once the installation is completed.
 
 ![todo:image_alt_text](aspose-words-visual-studio-plugin_2)
 
-**Note:** Please make sure to restart Visual Studio for the changes to take effect.
+**Note**: Please make sure to restart Visual Studio for the changes to take effect.
 
 ## Using
 

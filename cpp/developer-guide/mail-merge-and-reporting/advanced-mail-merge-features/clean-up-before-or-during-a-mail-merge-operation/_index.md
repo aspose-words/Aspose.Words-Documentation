@@ -73,13 +73,13 @@ The following code example shows how to remove any unused merge fields from a do
 
 ### Removing Containing Fields
 
-A merge field can be contained within another field such as an *IF* field or a formula field. Remove this outer field when the merge field is merged or removed from the document.
+A merge field can be contained within another field such as an **IF** field or a formula field. Remove this outer field when the merge field is merged or removed from the document.
 
 The following code example shows how to remove fields that contain merge fields from a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Mail-Merge-MailMergeCleanUp-RemoveContainingFields.cpp" >}}
 
-**Note:** This option will only remove a containing field if the field was actually merged with data or if the merge field was removed by using the **RemoveUnusedFields** option. This option matches the behavior of Microsoft Word during mail merge which always automatically removes outer fields from a merged field and keeps only the plain text result.
+**Note**: This option will only remove a containing field if the field was actually merged with data or if the merge field was removed by using the **RemoveUnusedFields** option. This option matches the behavior of Microsoft Word during mail merge which always automatically removes outer fields from a merged field and keeps only the plain text result.
 
 ### Remove Empty Table Rows
 
