@@ -9,7 +9,7 @@ weight: 50
 url: /java/working-with-hyperlinks/
 ---
 
-A hyperlink in Microsoft Word documents is the HYPERLINK field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) class.
+A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/java/com.aspose.words/fieldhyperlink/) class.
 
 ## Insert a Hyperlink
 

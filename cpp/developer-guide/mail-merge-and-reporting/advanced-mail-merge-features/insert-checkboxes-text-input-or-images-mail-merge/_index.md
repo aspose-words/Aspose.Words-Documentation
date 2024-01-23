@@ -9,7 +9,7 @@ weight: 40
 url: /cpp/insert-checkboxes-text-input-or-images-mail-merge/
 ---
 
-The merge engine takes a document as input, looks for MERGEFIELD fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for mail merge fields.
+The merge engine takes a document as input, looks for `MERGEFIELD` fields in it, and replaces them with the data obtained from the data source. Typically, plain text and HTML are inserted, but Aspose.Words users can also generate a document that handles more unusual scenarios for mail merge fields.
 
 Powerful Aspose.Words functionality allows you to extend the mail merge process:
 

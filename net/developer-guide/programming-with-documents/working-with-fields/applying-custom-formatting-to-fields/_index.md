@@ -33,9 +33,9 @@ The following code example shows how to use this method:
 
 ## How to Apply Custom Formatting to Time Field
 
-By default Aspose.Words updates TIME field with current culture short time format. We figured out that there is a difference between Microsoft Word formatting and .NET/Windows formatting, and also between different .NET Framework versions. If you want to format the TIME field according to your requirement, you can achieve this by implementing [IFieldUpdateCultureProvider](https://reference.aspose.com/words/net/aspose.words.fields/ifieldupdatecultureprovider/) interface.
+By default Aspose.Words updates `TIME` field with current culture short time format. We figured out that there is a difference between Microsoft Word formatting and .NET/Windows formatting, and also between different .NET Framework versions. If you want to format the `TIME` field according to your requirement, you can achieve this by implementing [IFieldUpdateCultureProvider](https://reference.aspose.com/words/net/aspose.words.fields/ifieldupdatecultureprovider/) interface.
 
-The following code examples shows how to apply custom formatting to the TIME field:
+The following code examples shows how to apply custom formatting to the `TIME` field:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldUpdateCulture-FieldUpdateCultureProvider.cs" >}}
 

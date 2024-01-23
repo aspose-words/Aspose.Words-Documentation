@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Styles in C++
 second_title: Aspose.Words for C++
 articleTitle: Working with Styles
@@ -73,7 +73,7 @@ Often you will work with documents containing a table of contents (TOC). Using A
 - Update new or existing TOCs in the document.
 - Specify switches to control the formatting and overall structure f the TOC.
 - How to modify the styles and appearance of the table of contents.
-- How to remove an entire TOC field along with all entries from the document.
+- How to remove an entire `TOC` field along with all entries from the document.
 
 ### Insert TC Fields
 
@@ -99,7 +99,7 @@ Using the Style class retrieved for the particular TOC level you want to modify,
 
 ### Removing a Table of Contents from the Document
 
-A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field. The code below demonstrates this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type FieldType.FieldTOC which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field. Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The below code example demonstrates how to remove a specified TOC from a document. You can download the template file of this example from here.
+A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the `TOC` field. The code below demonstrates this. The removal of the `TOC` field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type FieldType.FieldTOC which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested `TOC` field inside another `TOC` field. Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The below code example demonstrates how to remove a specified TOC from a document. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-RemoveTOCFromDocument-RemoveTOCFromDocument.cpp" >}}
 

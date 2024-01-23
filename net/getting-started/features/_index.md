@@ -117,7 +117,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 | Feature |.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- |
 |Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Execute mail merge for documents that contain even the most complex and nested IF fields and formulas.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Populate documents with data from any .NET data source such as DataSet, DataTable, DataView, DataReader or ADO Recordset.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

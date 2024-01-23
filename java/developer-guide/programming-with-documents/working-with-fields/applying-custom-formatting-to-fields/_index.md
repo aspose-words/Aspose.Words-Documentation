@@ -33,9 +33,9 @@ The following code example shows how to use this method:
 
 ## How to Apply Custom Formatting to Time Field
 
-By default Aspose.Words updates TIME field with current culture short time format. If you want to format the TIME field according to your requirement, you can achieve this by implementing [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) interface.
+By default Aspose.Words updates `TIME` field with current culture short time format. If you want to format the `TIME` field according to your requirement, you can achieve this by implementing [IFieldUpdateCultureProvider](https://reference.aspose.com/words/java/com.aspose.words/ifieldupdatecultureprovider/) interface.
 
-The following code examples shows how to apply custom formatting to the TIME field:
+The following code examples shows how to apply custom formatting to the `TIME` field:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldUpdateCulture-FieldUpdateCulture.java" >}}
 

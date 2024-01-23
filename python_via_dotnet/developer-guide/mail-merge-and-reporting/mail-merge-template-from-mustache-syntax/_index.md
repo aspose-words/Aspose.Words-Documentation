@@ -47,21 +47,21 @@ Mustache is represented as a logic-less order as it lacks any specific control f
 
 ## Use IF Fields to Make a Mail Merge Intelligent
 
-Aspose.Words allows you to use mail merge fields and Mustache tags with the IF statement. The IF fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
+Aspose.Words allows you to use mail merge fields and Mustache tags with the IF statement. The `IF` fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
 
-The IF field formula is shown below:
+The `IF` field formula is shown below:
 
 **{ IF [Condition] [Display Result 1] [Display Result 2] }**
 
 Here, the Condition can be either a merge field or a Mustache tag.
 
-For example, you can use IF fields if you need to insert “his”, “her”, “he” or “she” depending on the gender as the following:
+For example, you can use `IF` fields if you need to insert “his”, “her”, “he” or “she” depending on the gender as the following:
 
 **{ IF { MERGEFIELD Gender } = “MALE” “true text” “false text” }**
 
 **{ IF “{{ GENDER }}” = “MALE” “true text” “false text” }**
 
-The following code example shows how to perform a mail merge operation with Mustache tags and IF fields:
+The following code example shows how to perform a mail merge operation with Mustache tags and `IF` fields:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Mail Merge and Reporting-base_operations-UseOfifelseMustacheSyntax.py" >}}
 

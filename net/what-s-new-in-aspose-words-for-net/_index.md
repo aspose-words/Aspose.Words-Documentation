@@ -443,7 +443,7 @@ But both requirements are not relevant to our case of converting from Word to PD
 ### Other
 
 * Exception of inheriting the solid text fill effect that mimics MS Word behavior has been implemented. <sup>22.6</sup>
-* Support of the DATABASE fields has been added. Using this type of field, you can, for example, show the results of a database query in a Microsoft Word table. <sup>22.7</sup>
+* Support of the `DATABASE` fields has been added. Using this type of field, you can, for example, show the results of a database query in a Microsoft Word table. <sup>22.7</sup>
 
 {{% alert color="primary" %}}
 

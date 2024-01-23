@@ -1,4 +1,4 @@
-﻿---
+---
 title: Replace Fields With Static Text in PHP
 second_title: Aspose.Words for Java
 articleTitle: Replace Fields With Static Text in PHP
@@ -126,13 +126,13 @@ public static function main() {
 // The path to the documents directory.
 //$dataDir = "/usr/local/apache-tomcat-8.0.22/webapps/JavaBridge/Aspose.Words-for-Java_For_PHP/src/programmingwithdocuments/workingwithfields/replacefieldwithstatictext/data/";
 
-// Call a method to show how to convert all IF fields in a document to static text.
+// Call a method to show how to convert all `IF` fields in a document to static text.
 //ReplaceFieldsWithStaticText::convertFieldsInDocument($dataDir);
 
-// Reload the document and this time convert all PAGE fields only encountered in the first body of the document.
+// Reload the document and this time convert all `PAGE` fields only encountered in the first body of the document.
 //ReplaceFieldsWithStaticText::convertFieldsInBody($dataDir);
 
-// Reload the document again and convert only the IF field in the last paragraph to static text.
+// Reload the document again and convert only the `IF` field in the last paragraph to static text.
 //ReplaceFieldsWithStaticText::convertFieldsInParagraph($dataDir);
 $obj = new FieldsHelper();
 echo '<pre>';
@@ -147,7 +147,7 @@ public static function convertFieldsInDocument($dataDir) {
 //ExSummary:Shows how to convert all fields of a specified type in a document to static text.
 $doc = new Java ("com.aspose.words.Document" , $dataDir . "TestFile.doc");
 
-// Pass the appropriate parameters to convert all IF fields encountered in the document (including headers and footers) to static text.
+// Pass the appropriate parameters to convert all `IF` fields encountered in the document (including headers and footers) to static text.
 $fieldType = Java("com.aspose.words.FieldType");
 FieldsHelper::convertFieldsToStaticText($doc, $fieldType->FIELD_IF);
 

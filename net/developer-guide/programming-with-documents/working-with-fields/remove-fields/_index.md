@@ -9,7 +9,7 @@ weight: 35
 url: /net/remove-fields/
 ---
 
-Sometimes it is necessary to remove a field from a document. This may occur when it needs to be replaced with a different field type or when the field is no longer needed in the document. For example the TOC field when saving to HTML.
+Sometimes it is necessary to remove a field from a document. This may occur when it needs to be replaced with a different field type or when the field is no longer needed in the document. For example the `TOC` field when saving to HTML.
 
 To remove a field inserted into a document using [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/), use the returned [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) object, which provides a convenient [Remove](https://reference.aspose.com/words/net/aspose.words.fields/field/remove/) method for easily removing the field from the document.
 

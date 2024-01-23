@@ -9,9 +9,9 @@ weight: 37
 url: /python-net/replace-fields/
 ---
 
-Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e-mail. Converting fields such as DATE or TIME to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional IF fields from your document and replace them with the most recent text result instead. For example, converting the result of the IF field to static text so it will no longer dynamically change its value when fields in the document are updated.
+Replacing fields is often required when you wish to save your document as a static copy. For example, when sending as an attachment in an e-mail. Converting fields such as DATE or TIME to static text will allow the document to display the same date as when it was sent. Also, in some situations, you may need to remove the conditional `IF` fields from your document and replace them with the most recent text result instead. For example, converting the result of the `IF` field to static text so it will no longer dynamically change its value when fields in the document are updated.
 
-The diagram below shows how the IF field is stored in a document:
+The diagram below shows how the `IF` field is stored in a document:
 
 * the text is surrounded by the special field nodes – [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) and [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/)
 * the [FieldSeparator](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldseparator/) node separates the text within the field into the field code and field result
@@ -28,9 +28,9 @@ The structure can also be seen below in hierarchical form using the [demo projec
 
 Replacing a field with static text does not work properly for some fields in a header or footer.
 
-For example, trying to convert the PAGE field in a header or footer to static text will result in the same value being displayed on all pages. This is because headers and footers are repeated across multiple pages, and when they remain as fields, they are handled especially so they display the correct result for each page.
+For example, trying to convert the `PAGE` field in a header or footer to static text will result in the same value being displayed on all pages. This is because headers and footers are repeated across multiple pages, and when they remain as fields, they are handled especially so they display the correct result for each page.
 
-However, in the header, the PAGE field translates well to static run of text. This run of text will be evaluated as if it were the last page in the section, which will cause any PAGE field in the header to display the last page over all pages.
+However, in the header, the `PAGE` field translates well to static run of text. This run of text will be evaluated as if it were the last page in the section, which will cause any `PAGE` field in the header to display the last page over all pages.
 
 The following code example shows how to replace the field with its most recent result:
 
@@ -54,7 +54,7 @@ The following code example shows how to select fields of a specific type – *ta
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldsHelper-FieldsHelper.cs" >}}
 
-The following code example shows how to convert all IF fields in a document to static text:
+The following code example shows how to convert all `IF` fields in a document to static text:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInDocument.py" >}}
 
@@ -64,10 +64,10 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-The following code  example shows how to convert all PAGE fields in a Body of a document to static text:
+The following code  example shows how to convert all `PAGE` fields in a Body of a document to static text:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInBody.py" >}}
 
-The following code  example shows how to convert all IF fields in the last paragraph to static text:
+The following code  example shows how to convert all `IF` fields in the last paragraph to static text:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-ConvertFieldsInParagraph.py" >}}

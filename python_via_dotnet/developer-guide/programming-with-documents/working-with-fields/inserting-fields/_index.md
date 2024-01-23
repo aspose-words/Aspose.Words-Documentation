@@ -72,7 +72,7 @@ You can also insert various types of fields using [Aspose.Words Document Object 
 
 ### Inserting Merge Field into a Document using DOM
 
-The MERGEFIELD field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldmergefield/) class. You can use [FieldMergeField](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldmergefield/) class to perform the following operations:
+The `MERGEFIELD` field in Word document can be represented by the [FieldMergeField](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldmergefield/) class. You can use [FieldMergeField](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldmergefield/) class to perform the following operations:
 
 - specify the name of merge field
 - specify the formatting of merge field
@@ -144,14 +144,14 @@ The following code example shows how to add the INCLUDETEXT field using DOM to a
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldIncludeTextWithoutDocumentBuilder.py" >}}
 
-### Inserting TOA field into a Document without using DocumentBuilder
+### Inserting `TOA` field into a Document without using DocumentBuilder
 
-The TOA (*Table of Authorities*) field builds and inserts a table of authorities. The TOA field collects entries marked by TA (*Table of Authorities Entry*) fields. Microsoft Office Word inserts the TOA field when you click *Insert Table of Authorities* in the **Table of Authorities** group on the **References** tab. When you view the TOA field in your document, the syntax looks like this:
+The TOA (*Table of Authorities*) field builds and inserts a table of authorities. The `TOA` field collects entries marked by TA (*Table of Authorities Entry*) fields. Microsoft Office Word inserts the `TOA` field when you click *Insert Table of Authorities* in the **Table of Authorities** group on the **References** tab. When you view the `TOA` field in your document, the syntax looks like this:
 
 { TOA [Switches ] }
 
-You can use the [FieldToa](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtoa/) class to perform the operations with the TOA field.
+You can use the [FieldToa](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtoa/) class to perform the operations with the `TOA` field.
 
-The following code example shows how to add the TOA field using DOM to a paragraph in a document:
+The following code example shows how to add the `TOA` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertTOAFieldWithoutDocumentBuilder.py" >}}

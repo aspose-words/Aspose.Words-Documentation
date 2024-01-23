@@ -164,7 +164,7 @@ Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. Thi
 
 ## Inserting a Table of Contents
 
-You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) method. The DocumentBuilder.insertTableOfContents method will only insert a TOC field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
+You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) method. The DocumentBuilder.insertTableOfContents method will only insert a `TOC` field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-DocumentBuilderInsertTableOfContents.java" >}}
 

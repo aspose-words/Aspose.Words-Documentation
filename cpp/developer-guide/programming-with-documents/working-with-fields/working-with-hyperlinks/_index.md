@@ -12,7 +12,7 @@ weight: 180
 url: /cpp/working-with-hyperlinks/
 ---
 
-A hyperlink in Microsoft Word documents is the HYPERLINK field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) class.
+A hyperlink in Microsoft Word documents is the `HYPERLINK` field. In Aspose.Words, hyperlinks are implemented through the [FieldHyperlink](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldhyperlink/) class.
 
 ## Inserting a Hyperlink
 
@@ -38,7 +38,7 @@ The following code example shows how to insert a hyperlink into a document using
 
 Hyperlink in Microsoft Word documents is a field. A field in a Word document is a complex structure consisting of multiple nodes that include field start, field code, field separator, field result and field end. Fields can be nested, contain rich content and span multiple paragraphs or sections in a document. 
 
-The FieldHyperlink class implements the HYPERLINK field.
+The FieldHyperlink class implements the `HYPERLINK` field.
 
 The following code example shows how to find all hyperlinks in Word document and changes their URL and display name:
 

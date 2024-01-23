@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Document to PDF
 second_title: Aspose.Words for Java
 articleTitle: Convert Document to PDF
@@ -79,7 +79,7 @@ public static void main(String[] args)
 		wordMLPackage = WordprocessingMLPackage.load(new java.io.File(inputfilepath));
 	}
 	
-	// Refresh the values of DOCPROPERTY fields
+	// Refresh the values of `DOCPROPERTY` fields
 	FieldUpdater updater = new FieldUpdater(wordMLPackage);
 	updater.update(true);
 	

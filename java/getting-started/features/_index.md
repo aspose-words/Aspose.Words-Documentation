@@ -126,7 +126,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 | Feature |
 | :- |
 |Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|
-|Execute mail merge for documents that contain even the most complex and nested IF fields and formulas.|
+|Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas.|
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|
 |Populate documents with data from any Java data source that implements the ResultSet interface.|

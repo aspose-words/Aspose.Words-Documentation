@@ -3,7 +3,7 @@ title: Working with Table of Contents in C#
 second_title: Aspose.Words for .NET
 articleTitle: Working with Table of Contents
 linktitle: Working with Table of Contents
-description: "Table of Content field in details. How to create and modify TOC field using C#. Insert TOC C#."
+description: "Table of Content field in details. How to create and modify `TOC` field using C#. Insert TOC C#."
 type: docs
 weight: 170
 url: /net/working-with-table-of-contents/
@@ -15,7 +15,7 @@ Often you will work with documents containing a table of contents (TOC). Using A
 - Update new or existing TOCs in the document.
 - Specify switches to control the formatting and overall structure f the TOC.
 - How to modify the styles and appearance of the table of contents.
-- How to remove an entire TOC field along with all entries form the document.
+- How to remove an entire `TOC` field along with all entries form the document.
 
 ## Insert Table of Contents Programmatically
 
@@ -35,20 +35,20 @@ The following code example shows how to insert a Table of Contents (TOC) into a 
 
 {{% alert color="primary" %}}
 
-Without the methods used in the example, when you open the output document, you would find the TOC field, but with no visible content. This is because the TOC field has been inserted but is not yet populated until it’s updated in the document. Further information about this is discussed in the next section.
+Without the methods used in the example, when you open the output document, you would find the `TOC` field, but with no visible content. This is because the `TOC` field has been inserted but is not yet populated until it’s updated in the document. Further information about this is discussed in the next section.
 
 {{% /alert %}}
 
 ## Update Table of Contents
 
-Aspose.Words allows you to completely update a TOC with only a few lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made. The following two methods must be used in order to update the TOC fields in the document:
+Aspose.Words allows you to completely update a TOC with only a few lines of code. This can be done to populate a newly inserted TOC or to update an existing TOC after changes to the document have been made. The following two methods must be used in order to update the `TOC` fields in the document:
 
 1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
 1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
 
 Please note that these two update methods are required to be called in that order. If reversed the table of contents will be populated but no page numbers will be displayed. Any number of different TOCs can be updated. These methods will automatically update all TOCs found in the document.
 
-The following code example shows how to completely rebuild TOC fields in the document by invoking field update:
+The following code example shows how to completely rebuild `TOC` fields in the document by invoking field update:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTOC-UpdateFields.cs" >}}
 
@@ -56,7 +56,7 @@ The first call to **UpdateFields** will build the TOC, all text entries are popu
 
 ## Use Switches to Control Table of Contents Behavior
 
-As with any other field, the TOC field can accept switches defined within the field code that control the how the table of contents is built. Certain switches are used to control which entries are included and at what level while others are used to control the appearance of the TOC. Switches can be combined together to allow complex table of contents to be produced.
+As with any other field, the `TOC` field can accept switches defined within the field code that control the how the table of contents is built. Certain switches are used to control which entries are included and at what level while others are used to control the appearance of the TOC. Switches can be combined together to allow complex table of contents to be produced.
 
 ![working-with-table-of-contents-aspose-words-net](working-with-table-of-contents-1.png)
 
@@ -75,7 +75,7 @@ By default these switches above are included when inserting a default TOC in the
 |**Use TC Fields** <br>*(\F and \L Switches)* |<p>In older versions of Microsoft Word, the only way to build a TOC was the use of TC fields. These fields are inserted hidden into the document even when field codes are shown. They include the text that should be displayed in the entry and the TOC is built from them. This functionality is now not used very often but may still be useful in some occasions to include entries in the TOC which are not indented to be visible in the document. <br>When inserted these fields appear hidden even when field codes are displayed. They cannot be seen without showing hidden content. To see these fields Show paragraph formatting must be selected. </p><p>![working-with-table-of-contents-paragraph-settings](working-with-table-of-contents-4.png)</p>These fields can be inserted into a document at any position like any other field and are represented by the FieldType.FieldTOCEntry enumeration.  <br>The \F switch in a TOC is used to specify that TC fields should be used as entries. The switch on its own without any extra identifier means that any TC field in the document will be included. Any extra parameter, often a single letter, will designate that only TC fields which have a matching \f switch will be included in the TOC. For instance *</p><p>{{< highlight csharp >}}
 
 <p>  { TOC \f t } </p><p>{{< /highlight >}}</p><p>will only include TC fields such as </p><p>{{< highlight csharp >}}
-p> {   TC \f t }</p><p>{{< /highlight >}}</p><p>The TOC field also has a related switch, the “\L” switch specifies that only TC field with levels within the specified range are included.  </p><p>![todo:image_alt_text](working-with-table-of-contents-5.png)</p><p>The TC fields themselves also can have {several| `multiple` |a few| `many` |numerous} switches set. These are:</p><p>- *\F – Explained above.*</p><p>- *\L – Defines which level in the TOC this TC field will appear in. A TOC which uses this same switch will only include this TC field if it’s within the specified range.*</p><p>- _\N – The page numbering for this TOC entry is not displayed.Sample code of how to insert TC fields can be found in the next section.</p>|
+p> {   TC \f t }</p><p>{{< /highlight >}}</p><p>The `TOC` field also has a related switch, the “\L” switch specifies that only TC field with levels within the specified range are included.  </p><p>![todo:image_alt_text](working-with-table-of-contents-5.png)</p><p>The TC fields themselves also can have {several| `multiple` |a few| `many` |numerous} switches set. These are:</p><p>- *\F – Explained above.*</p><p>- *\L – Defines which level in the TOC this TC field will appear in. A TOC which uses this same switch will only include this TC field if it’s within the specified range.*</p><p>- _\N – The page numbering for this TOC entry is not displayed.Sample code of how to insert TC fields can be found in the next section.</p>|
 
 ### Appearance Related Switches
 
@@ -124,7 +124,7 @@ The following code example shows how to modify the position of the right tab sto
 
 ## Remove Table of Contents from the Document
 
-A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the TOC field. The code below demonstrates this. The removal of the TOC field is simpler than a normal field as we do not keep track of nested fields. Instead we check the [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) node is of type [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested TOC field inside another TOC field.
+A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the `TOC` field. The code below demonstrates this. The removal of the `TOC` field is simpler than a normal field as we do not keep track of nested fields. Instead we check the [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) node is of type [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested `TOC` field inside another `TOC` field.
 
 Firstly the [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document.
 

@@ -9,7 +9,7 @@ weight: 35
 url: /python-net/remove-fields/
 ---
 
-Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a TOC field when saving to HTML.
+Sometimes it is necessary to remove a field from the document. This may occur when it is to be replaced with a different field type or when the field is no longer needed in the document. For example a `TOC` field when saving to HTML.
 
 To remove a field inserted into a document using [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/), use the returned [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) object, which provides the convenient [remove](https://reference.aspose.com/words/python-net/aspose.words.fields/field/remove/#default) method to easily remove the field from the document.
 
