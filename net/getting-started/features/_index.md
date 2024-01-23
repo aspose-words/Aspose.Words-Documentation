@@ -24,7 +24,7 @@ The tables below summarize and compare the availability of Aspose.Words for .NET
 
 The platforms Aspose.Words for .NET can be used with are listed below. If you need support for more platforms, look for the "twin brother" product Aspose.Words for Java.
 
-|Feature|Description|
+| Feature |Description|
 | :- | :- |
 |[.NET Framework](/words/net/supported-platforms/#net-framework)|Use Aspose.Words for .NET to build ASP.NET, Web Services, WinForms or any other type of application for any .NET Framework versions 2.0 or later including Client Profile versions. Full support for 32-bit and 64-bit.|
 |[.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20)|The 'netstandard2.0' and 'netstandard2.0_AuthenticodeSigned' folders contain assemblies to use with frameworks that implement .NET Standard 2.0 such as .NET Core 2.0/2.1/2.2/3.0/3.1. The latest version of Aspose.Words API also supports .NET 5.0 and .NET 6.0.|
@@ -39,7 +39,7 @@ The platforms Aspose.Words for .NET can be used with are listed below. If you ne
 
 Many customers worldwide rely on the thorough document import and export features provided by Aspose.Words.
 
-|Feature|Description|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
+| Feature |Description|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- | :- |
 |[Microsoft Word - DOC](/words/net/file-formats-and-conversions/)|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |[WordprocessingML - DOCX and XML](/words/net/file-formats-and-conversions/)|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -56,7 +56,7 @@ Many customers worldwide rely on the thorough document import and export feature
 
 Aspose.Words now provides high fidelity rendering of document pages.
 
-|Feature|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
+| Feature |.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- |
 |Layout document into pages with high fidelity (exactly like Microsoft Word® would do that) to all the formats below.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render individual pages or complete documents to PDF or XPS.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -72,7 +72,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 
 Aspose.Words provides a rich object model that consists of over 100 public classes, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded documents.
 
-|Feature|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
+| Feature |.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- |
 |Access, create and modify paragraphs and text.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access, create and modify images, textboxes and shapes.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -100,7 +100,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 
 Aspose.Words provides detailed programmatic access to the formatting properties of all document elements.
 
-|Feature|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
+| Feature |.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- |
 |Access and modify all character formatting including fonts, colors, effects, borders and shading.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access and modify all paragraph formatting including indents, spacing, borders and shading, tab stops.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -114,7 +114,7 @@ Aspose.Words provides detailed programmatic access to the formatting properties 
 
 You can use Aspose.Words as a reporting solution on its own. Design your reports in Microsoft Word and then have Aspose.Words populate documents with data from various data sources.
 
-|Feature|.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
+| Feature |.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- |
 |Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Execute mail merge for documents that contain even the most complex and nested IF fields and formulas.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

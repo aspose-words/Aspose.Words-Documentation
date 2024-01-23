@@ -18,12 +18,12 @@ The newly created table is given default values similar to those used in Microso
 
 | Table Property         | Default in Aspose.Words |
 | :--------------------- | :---------------------- |
-| Border Style           | Single                  |
-| Border Width           | 1/2 pt                  |
-| Border Color           | Black                   |
-| Left and Right Padding | 5.4 pts                 |
-| AutoFit Mode           | AutoFit to Window       |
-| Allow AutoFit          | True                    |
+| `Border Style`           | `Single` |
+| `Border Width`           | `1/2 pt`                  |
+| `Border Color`           | `Black` |
+| `Left and Right Padding` | `5.4 pts`                 |
+| `AutoFit Mode`           | `AutoFit to Window`       |
+| `Allow AutoFit`          | `True` |
 
 {{% alert color="primary" %}}
 
@@ -132,9 +132,9 @@ Aspose.Words provides several methods to create new tables in a document. Each m
 
 Let's take a closer look at these ways of creating tables and compare their pros and cons:
 
-|Method|Advantages|Disadvantages|
+| Method |Advantages| Disadvantages |
 | :- | :- | :- |
-|Via DocumentBuilder|The standard method for inserting tables and other document content|Sometimes difficult to create many varieties of tables at the same time with the same builder instance|
+|Via `DocumentBuilder`|The standard method for inserting tables and other document content|Sometimes difficult to create many varieties of tables at the same time with the same builder instance|
 |Via DOM | Fits in better with surrounding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** |The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words.tables/table/ensureminimum/) to create any missing child nodes|
 |From HTML|Can create a new table from HTML source using tags like `<table>`, `<tr>`, `<td>`|Not all possible Microsoft Word table formats can be applied to HTML|
 |Cloning an existing table|You can create a copy of an existing table while retaining all row and cell formatting|The appropriate child nodes must be removed before the table is ready for use|

@@ -15,7 +15,7 @@ Note that there are two products in the Aspose.Words family that can be used wit
 
 {{% /alert %}}
 
-|Product |Purpose |
+| Product |Purpose |
 | :- | :- |
 |[Aspose.Words for SharePoint](https://products.aspose.com/words/family/)|Easily add user interface to a SharePoint site for converting documents from one format to another (including to PDF) and joining documents together. Provides limited API for these tasks. Mostly a product for end-users. |
 |[Aspose.Words for .NET](https://products.aspose.com/words/net/) |A very powerful .NET class library with a rich API for converting, programming and rendering documents in different formats. Use if you need to code things and need the API. |
