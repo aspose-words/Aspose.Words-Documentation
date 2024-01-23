@@ -36,8 +36,8 @@ You can use either [NextIf](https://reference.aspose.com/words/cpp/aspose.words.
 
 | **Field Name** | **Comparison Result “True”**                                 | **Comparison Result “False”**                                |
 | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| NextIf         | Aspose.Words will merge the next data record into the current merge document, and all merge fields in the template that are after *NextIf* field will be replaced by values from the next data record rather than the current data record. | Aspose.Words will merge the next data record into a new merge document. |
-| SkipIf         | Aspose.Words will cancel the current merge document, move to the next data record in the data source, and start a new merge document. | Aspose.Words will continue the current merge document.       |
+| `NextIf` | Aspose.Words will merge the next data record into the current merge document, and all merge fields in the template that are after *NextIf* field will be replaced by values from the next data record rather than the current data record. | Aspose.Words will merge the next data record into a new merge document. |
+| `SkipIf` | Aspose.Words will cancel the current merge document, move to the next data record in the data source, and start a new merge document. | Aspose.Words will continue the current merge document.       |
 
 ## Obtain Information About Template Structure
 
