@@ -171,14 +171,14 @@ We provide support for the following clients:
 
 ### Template Example
 
-|Manager|Contract Price|
+| Manager |Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[getName()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[getContracts().sum(c => c.getPrice())]>><</foreach>> {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.getContracts().sum(c => c.getPrice()))]>> {{< /highlight >}} |
 
 ### Report Example
 
-|Manager|Contract Price|
+| Manager |Contract Price|
 | :- | :- |
 | John Smith | 2300000 |
 | Tony Anderson | 1200000 |
@@ -206,7 +206,7 @@ We provide support for the following clients:
 
 ### Report Example
 
-| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| Manager | John Smith | Tony Anderson | July James | Total:  |
 | :----------------- | :--------- | ------------- | ---------- | ------- |
 | **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
 
@@ -232,7 +232,7 @@ We provide support for the following clients:
 
 **Report Example**
 
-|Client|Total Contract Price|
+| Client |Total Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|1950000|
@@ -403,7 +403,7 @@ We provide support for the following clients:
 
 ### Report Example 2
 
-|Client|Contract Price|
+| Client |Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|750000|
@@ -452,7 +452,7 @@ We provide support for the following clients:
 
 ### Report Example 2
 
-| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| Manager | John Smith | Tony Anderson | July James | Total:  |
 | :----------------- | :--------- | ------------- | ---------- | ------- |
 | **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
 
@@ -573,7 +573,7 @@ We provide support for the following clients:
 
 **Report Example**
 
-|Manager|Contract Price|
+| Manager |Contract Price|
 | :- | :- |
 |**John Smith**|2300000|
 |**July James**|800000|

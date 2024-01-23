@@ -13,7 +13,7 @@ url: /jasperreports/supported-document-formats/
 
 The following table indicates the file formats in which the JasperReports can be saved by using Aspose.Words for JasperReports.
 
-|Format|Description|Load|Save|Remarks|
+|Format|Description| Load |Save| Remarks |
 | :- | :- | :- | :- | :- |
 |[DOC](https://docs.fileformat.com/word-processing/doc/)|Saves the document in the Microsoft Word 97 - 2007 Document format.| |{{< emoticons/tick >}}| |
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Office Open XML WordprocessingML Document (macro-free).| |{{< emoticons/tick >}}| |
