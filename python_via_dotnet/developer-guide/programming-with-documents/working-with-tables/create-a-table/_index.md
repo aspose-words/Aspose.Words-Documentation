@@ -20,12 +20,12 @@ The newly created table is given default values similar to those used in Microso
 
 |Table Property|Default in Aspose.Words|
 | :- | :- |
-|Border Style|Single|
-|Border Width|1/2 pt|
-|Border Color|Black|
-|Left and Right Padding|5.4 pts|
-|AutoFit Mode|AutoFit to Window|
-|Allow AutoFit|True|
+|`Border Style`| `Single` |
+|`Border Width`|`1/2 pt`|
+|`Border Color`| `Black` |
+|`Left and Right Padding`|`5.4 pts`|
+|`AutoFit Mode`|`AutoFit to Window`|
+|`Allow AutoFit`| `True` |
 {{% alert color="primary" %}}
 
 A table can be inline if it is tightly positioned, or floating if it can be positioned anywhere on the page. By default, Aspose.Words always creates inline tables.
@@ -133,7 +133,7 @@ Aspose.Words provides several methods to create new tables in a document. Each m
 
 Let's take a closer look at these ways of creating tables and compare their pros and cons:
 
-|Method|Advantages|Disadvantages|
+| Method |Advantages| Disadvantages |
 | :- | :- | :- |
 |Via DocumentBuilder|The standard method for inserting tables and other document content|Sometimes difficult to create many varieties of tables at the same time with the same builder instance|
 |Via DOM | Fits in better with surrounding code that creates and inserts nodes directly into the DOM without using a **DocumentBuilder** |The table is created "empty": before performing most operations, you must call [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/) to create any missing child nodes|

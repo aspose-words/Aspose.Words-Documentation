@@ -132,7 +132,7 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 
 Common questions and issues you might face while using this Control
 
-|# |Question |Answer |
+|# | `Question` |Answer |
 | :- | :- | :- |
 |1 |I cannot see ExportListViewToWord control in Toolbox |<p>**Visual Studio 2010 and higher** </p><p>1. Make sure that you have installed this control using VSIX extension file found in downloaded package. To verify go to Tools -> Extension and Updates. Unders Installed you should see 'Aspose Export Export ListView To Word Control'. If don't see it please try re-installing it</p><p>2. Make sure your web application is running in .NET framework 4.0 or higher, for lower versions of .NET framework please check the above alternate method. <br>   **Older Versions of Visual Studio**</p><p>3. Make sure that you have manually added this control to your Toolbox as per above instructions.</p>|
 |2 |I am getting 'Access is denied' error when running the application |<p>1. If you are experiencing this problem on production then make sure that you copy both Aspose.Words.dll and Aspose.Words.ListViewExport.dll to your bin folder.</p><p>2. If you are using Visual Studio make sure to run it as Administrator even if you are already logged-in as administrator.</p>|
@@ -141,17 +141,17 @@ Common questions and issues you might face while using this Control
 
 The following properties are exposed to configure and use cool features provided by this control
 
-|Property Name |Type |Example/Possible values |Description |
+|Property Name |Type|Example/Possible values | Description |
 | :- | :- | :- | :- |
-|ExportButtonText |string |Export to Word |You can use this property to override existing default text |
-|ExportButtonCssClass |string |btn btn-primary |Css Class that is applied to the outer div of the export button. To apply css on button you can use .yourClass input |
-|ExportInLandscape |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
+| `ExportButtonText` |string |Export to Word |You can use this property to override existing default text |
+| `ExportButtonCssClass` |string |btn btn-primary |Css Class that is applied to the outer div of the export button. To apply css on button you can use .yourClass input |
+| `ExportInLandscape` |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
 | | | | |
-|ExportFileHeading |string |&lt;h4&gt;ListView Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
-|ExportOutputFormat |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
-|ExportOutputPathOnServer |string |c: <br>temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
-|ExportDataSource |object |allRowsDataTable |Sets the object from which this data-bind control retrieves its list of data items. The object must have all the data that need to be exported. This property is used in addition to normal DataSource property and is useful when custom paging is enabled and current page only fetches rows to be displayed on screen. |
-|LicenseFilePath |string | |Local path on server to the license file. For example c: <br>inetpub <br>Aspose.Words.lic |
+| `ExportFileHeading` |string |&lt;h4&gt;ListView Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
+| `ExportOutputFormat` |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
+| `ExportOutputPathOnServer` |string |c: <br>temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
+| `ExportDataSource` |object | `allRowsDataTable` |Sets the object from which this data-bind control retrieves its list of data items. The object must have all the data that need to be exported. This property is used in addition to normal DataSource property and is useful when custom paging is enabled and current page only fetches rows to be displayed on screen. |
+| `LicenseFilePath` |string | |Local path on server to the license file. For example c: <br>inetpub <br>Aspose.Words.lic |
 An example of Export ListView to Word control with all properties used is shown below
 
 {{< highlight csharp >}}

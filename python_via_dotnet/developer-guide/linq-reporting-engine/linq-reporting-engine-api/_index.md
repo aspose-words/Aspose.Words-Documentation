@@ -20,11 +20,11 @@ Classes of the LINQ Reporting Engine are located within the [aspose.words.report
 
 To build a report from a template, you can use one of the [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overloads. The following table describes the parameters of these overloads.
 
-|Parameter|Description|
+| Parameter |Description|
 | :- | :- |
-|document|A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
-|data_source|An object providing a data to populate the specified template. The object must be of one of the following types:<br>- An [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/) instance (see “Accessing XML Data” for more information)<br>- A [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/) instance (see “Accessing JSON Data” for more information)<br>- A [CsvDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/csvdatasource/) instance (see “Accessing CSV Data” for more information)|
-|data_source_name|The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “ REF contextual Using Contextual Object Member Access” for more information) when dealing with the data source.|
+| `document` |A template document. At runtime, this document instance is populated with a data from the specified source and becomes a ready report.|
+| `data_source` |An object providing a data to populate the specified template. The object must be of one of the following types:<br>- An [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/) instance (see “Accessing XML Data” for more information)<br>- A [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/) instance (see “Accessing JSON Data” for more information)<br>- A [CsvDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/csvdatasource/) instance (see “Accessing CSV Data” for more information)|
+| `data_source_name` |The identifier of the specified data source object within the specified template. You can omit this identifier, if the template uses the contextual object member access (see “ REF contextual Using Contextual Object Member Access” for more information) when dealing with the data source.|
 
 ## Accessing XML Data
 
@@ -35,7 +35,7 @@ You can pass an [XmlDataSource](https://reference.aspose.com/words/python-net/as
 - `bool`
 - `datetime`
 
-**Note –** For recognition of data types to work, string representations of corresponding attributes and text values of XML elements must be formed using invariant culture settings.
+**Note** – For recognition of data types to work, string representations of corresponding attributes and text values of XML elements must be formed using invariant culture settings.
 
 While loading data to [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/), the engine performs actions typical for XML deserialization behind the scenes: It maps complex-type XML elements to internal objects and simple-type XML elements to fields of containing objects. So, in template documents, an [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/) instance should be treated as an object having corresponding fields and nested objects as shown in the following example.
 
@@ -80,7 +80,7 @@ Ann Doe
 Charles Doe
 {{< /highlight >}}
 
-**Note –** To reference a sequence of repeated simple-type XML elements with the same name, the elements’ name itself (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the text value of one of these elements.
+**Note** – To reference a sequence of repeated simple-type XML elements with the same name, the elements’ name itself (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the text value of one of these elements.
 
 By default, if a root XML element contains only a sequence of elements of one type, the engine does not generate an internal root object while loading XML data. So, in template documents, such an [XmlDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/xmldatasource/) instance should be treated as a sequence of corresponding nested objects as shown in the following example.
 
@@ -270,7 +270,7 @@ Using of [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.w
 - `datetime`
 - `str`
 
-**Note –** Working with complex JSON types (objects and arrays) is also supported.
+**Note** – Working with complex JSON types (objects and arrays) is also supported.
 
 While loading data to [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/), the engine performs JSON deserialization and generates corresponding internal objects. So, in template documents, a [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/) instance should be treated according to what a root JSON element represents.
 
@@ -317,7 +317,7 @@ Ann Doe
 Charles Doe
 {{< /highlight >}}
 
-**Note –** To reference a JSON object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
+**Note** – To reference a JSON object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
 
 If a root JSON element is an array, a [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/) instance should be treated as a sequence of items of this array as shown in the following example.
 
@@ -569,7 +569,7 @@ options.simple_value_parse_mode = aw.reporting.JsonSimpleValueParseMode.STRICT
 dataSource = aw.reporting.JsonDataSource(..., options)
 {{< /highlight >}}
 
-**Note –** Parsing of date-time values does not depend on whether the loose or strict mode is used.
+**Note** – Parsing of date-time values does not depend on whether the loose or strict mode is used.
 
 Recognition of date-time values is a special case, because [JSON specification](https://www.json.org) does not define a format for their representation. So, by default, while parsing date-time values from strings, the engine tries several formats in the following order:
 
@@ -593,7 +593,7 @@ In this example, strings conforming the format "MM/dd/yyyy" are going to be reco
 
 In some scenarios, you may need to disable recognition of date-time values at all, for example, when you deal with strings containing already formatted date-time values, which you do not want to re-format using the engine. You can achieve this by setting the exact date-time parse formats to an empty list (but see the following note).
 
-**Note –** Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse format.
+**Note** – Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse format.
 
 ## Accessing CSV Data
 
@@ -606,7 +606,7 @@ Using of [CsvDataSource](https://reference.aspose.com/words/python-net/aspose.wo
 - `bool`
 - `datetime`
 
-**Note –** For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
+**Note** – For recognition of data types to work, string representations of corresponding values must be formed using invariant culture settings.
 
 In template documents, a [CsvDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/csvdatasource/) instance should be treated as a sequence of objects having corresponding fields as shown in the following example.
 
@@ -758,7 +758,7 @@ Suffix
 
 **Example 3**
 
-**Note –** In this example, `persons` is assumed to be a data table having a field `Name`.
+**Note** – In this example, `persons` is assumed to be a data table having a field `Name`.
 
 Template document
 
@@ -822,7 +822,7 @@ By default, LINQ Reporting Engine throws an exception when encounters a template
 
 However, when dealing with complex templates containing a large number of tags, it becomes harder to find an exact place in a template causing an error. To make things easier, the engine supports the [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) option that enables inlining of a syntax error message into a template document at an exact position where the error occurs during runtime. 
 
-**Note –** A template syntax error message is written using a bold font to make it more apparent.
+**Note** – A template syntax error message is written using a bold font to make it more apparent.
 
 Consider the following template.
 
@@ -836,7 +836,7 @@ By default, such a template causes the engine to throw an exception while buildi
 <<var [name] Error! An assignment operator is expected. >>
 {{< /highlight >}}
 
-**Note –** Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
+**Note** – Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
 When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) is applied, a Boolean value returned by a [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
 
@@ -849,7 +849,7 @@ else :
 	# Do something with a report containing a template syntax error.
 {{< /highlight >}}
 
-**Note –** When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) is not applied, [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overloads return `True` if there were no template syntax errors encountered or throw an exception otherwise.
+**Note** – When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) is not applied, [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overloads return `True` if there were no template syntax errors encountered or throw an exception otherwise.
 
 
 ## Optimizing Reflection Calls

@@ -130,7 +130,7 @@ If you have any issues using the above methods which uses Visual Studio Toolbox,
 
 Common questions and issues you might face while using this Control
 
-|# |Question |Answer |
+|# | `Question` |Answer |
 | :- | :- | :- |
 |1 |I cannot see ExportRepeaterToWord control in Toolbox |<p>**Visual Studio 2010 and higher** </p><p>1. Make sure that you have installed this control using VSIX extension file found in downloaded package. To verify go to Tools -> Extension and Updates. Unders Installed you should see 'Aspose Export RepeaterTo Word Control'. If don't see it please try re-installing it</p><p>2. Make sure your web application is running in .NET framework 4.0 or higher, for lower versions of .NET framework please check the above alternate method. <br>   **Older Versions of Visual Studio**</p><p>3. Make sure that you have manually added this control to your Toolbox as per above instructions.</p>|
 |2 |I am getting 'Access is denied' error when running the application |<p>1. If you are experiencing this problem on production then make sure that you copy both Aspose.Words.dll and Aspose.Words.RepeaterExport.dll to your bin folder.</p><p>2. If you are using Visual Studio make sure to run it as Administrator even if you are already logged-in as administrator.</p>|
@@ -139,15 +139,15 @@ Common questions and issues you might face while using this Control
 
 The following properties are exposed to configure and use cool features provided by this control
 
-|Property Name |Type |Example/Possible values |Description |
+|Property Name |Type|Example/Possible values | Description |
 | :- | :- | :- | :- |
-|ExportButtonText |string |Export to Word |You can use this property to override existing default text |
-|ExportInLandscape |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
+| `ExportButtonText` |string |Export to Word |You can use this property to override existing default text |
+| `ExportInLandscape` |bool |true or false |If true it changes the orientation of the output document to landscape. Default is Portrait |
 | | | | |
-|ExportFileHeading |string |&lt;h4&gt;Repeater Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
-|ExportOutputFormat |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
-|ExportOutputPathOnServer |string |c:\temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
-|LicenseFilePath |string | |Local path on server to the license file. For example e:\Aspose\Aspose.Words.lic  <br>Aspose.Words.lic |
+| `ExportFileHeading` |string |&lt;h4&gt;Repeater Export Example Report&lt;/h4&gt; |You can use html tags to add style to your heading |
+| `ExportOutputFormat` |enum |Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |Output format of the exported document. Supported formats are Doc, Dot, Docx, Docm, Dotx, Dotm, Rtf, Odt, Ott, Txt |
+| `ExportOutputPathOnServer` |string |c:\temp |Local output Disk path on server where a copy of the export is automatically saved. Application must have write access to this path. |
+| `LicenseFilePath` |string | |Local path on server to the license file. For example e:\Aspose\Aspose.Words.lic  <br>Aspose.Words.lic |
 An example of Export Repeater to Word control with all properties used is shown below
 
 {{< highlight csharp >}}
