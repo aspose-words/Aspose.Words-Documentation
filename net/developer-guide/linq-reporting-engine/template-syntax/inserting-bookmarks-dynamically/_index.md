@@ -20,4 +20,4 @@ bookmarked_content
 
 Here, `bookmark_expression` defines the name of a bookmark to be inserted during runtime. This expression is mandatory and must return a non-empty value. While building a report, `bookmark_expression` is evaluated and its result is used to construct a bookmark start and end that replace corresponding opening and closing `bookmark` tags respectively.
 
-**Note –** A `bookmark` tag cannot be used within a chart.
+**Note** – A `bookmark` tag cannot be used within a chart.

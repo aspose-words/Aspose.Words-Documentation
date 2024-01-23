@@ -39,7 +39,7 @@ A table-column data band represents a data band, which body occupies a rectangul
 	</tbody>
 </table>
 
-**Note –** The `horz` switch instructs the engine to affect table columns rather than rows.
+**Note** – The `horz` switch instructs the engine to affect table columns rather than rows.
 
 However, unlike table-row data bands able to capture only whole rows, table-column data bands can occupy columns even partially as shown in the following template snippet.
 
@@ -161,7 +161,7 @@ In this case, the engine produces a report as follows.
 | -------------- | -------------------------- | -------------------------- |
 | **Sold Packs** | **1.5 L**<br /> **500 ml** | **1.5 L**<br /> **500 ml** |
 
-**Note –** Table-column data bands can themselves be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
+**Note** – Table-column data bands can themselves be nested to table-row data bands (see “Working with Cross (Pivot) Tables” for details), but not conversely: Nesting of table-row data bands into table-column data bands is forbidden.
 
 {{% alert color="primary" %}}
 

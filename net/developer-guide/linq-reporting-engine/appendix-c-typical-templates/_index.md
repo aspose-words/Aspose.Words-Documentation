@@ -175,14 +175,14 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Template Example
 
-|Manager|Contract Price|
+| Manager |Contract Price|
 | :- | :- |
 |{{< highlight csharp >}} <<foreach [in managers]>><<[Name()]>> {{< /highlight >}} | {{< highlight csharp >}} <<[Contracts().sum(c => c.Price())]>><</foreach>> {{< /highlight >}} |
 |{{< highlight csharp >}} Total: {{< /highlight >}} | {{< highlight csharp >}} <<[sum(m => m.Contracts().sum(c => c.Price()))]>> {{< /highlight >}} |
 
 ### Report Example
 
-|Manager|Contract Price|
+| Manager |Contract Price|
 | :- | :- |
 | John Smith | 2300000 |
 | Tony Anderson | 1200000 |
@@ -212,7 +212,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Report Example
 
-|Manager|John Smith|Tony Anderson|July James|Total:|
+| Manager |John Smith|Tony Anderson|July James|Total:|
 | :- | :- | -- | -- | -- |
 | **Contract Price** | 2300000 | 1200000 | 800000 | 4300000 |
 
@@ -238,7 +238,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Report Example
 
-|Client|Total Contract Price|
+| Client |Total Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|1950000|
@@ -408,7 +408,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Report Example 2
 
-|Client|Contract Price|
+| Client |Contract Price|
 | :- | :- |
 |**A Company**|1200000|
 |**B Ltd.**|750000|
@@ -459,7 +459,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Report Example 2
 
-| Manager            | John Smith | Tony Anderson | July James | Total:  |
+| Manager | John Smith | Tony Anderson | July James | Total:  |
 | :----------------- | :--------- | ------------- | ---------- | ------- |
 | **Contract Price** | 2300000    | 1200000       | 800000     | 4300000 |
 
@@ -619,7 +619,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 **Report Example**
 
-|Manager|Contract Price|
+| Manager |Contract Price|
 | :- | :- |
 |**John Smith**|2300000|
 |**July James**|800000|

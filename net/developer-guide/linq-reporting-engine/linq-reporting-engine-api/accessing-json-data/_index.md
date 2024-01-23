@@ -19,7 +19,7 @@ Using of `JsonDataSource` enables you to work with typed values of JSON elements
 - DateTime?
 - String
 
-**Note –** Working with complex JSON types (objects and arrays) is also supported.
+**Note** – Working with complex JSON types (objects and arrays) is also supported.
 
 While loading data to `JsonDataSource`, the engine performs JSON deserialization and generates corresponding internal objects. So, in template documents, a `JsonDataSource` instance should be treated according to what a root JSON element represents.
 
@@ -66,7 +66,7 @@ Ann Doe
 Charles Doe
 {{< /highlight >}}
 
-**Note –** To reference a JSON object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
+**Note** – To reference a JSON object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
 
 If a root JSON element is an array, a `JsonDataSource` instance should be treated as a sequence of items of this array as shown in the following example.
 
@@ -318,7 +318,7 @@ options.SimpleValueParseMode = JsonSimpleValueParseMode.Strict;
 JsonDataSource dataSource = new JsonDataSource(..., options);
 {{< /highlight >}}
 
-**Note –** Parsing of date-time values does not depend on whether the loose or strict mode is used.
+**Note** – Parsing of date-time values does not depend on whether the loose or strict mode is used.
 
 Recognition of date-time values is a special case, because [JSON specification](https://www.json.org) does not define a format for their representation. So, by default, while parsing date-time values from strings, the engine tries several formats in the following order:
 
@@ -343,7 +343,7 @@ In this example, strings conforming the format "MM/dd/yyyy" are going to be reco
 
 In some scenarios, you may need to disable recognition of date-time values at all, for example, when you deal with strings containing already formatted date-time values, which you do not want to re-format using the engine. You can achieve this by setting the exact date-time parse formats to an empty list (but see the following note).
 
-**Note –** Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse formats.
+**Note** – Strings conforming the Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of the exact date-time parse formats.
 
 By default, the engine trims leading and trailing whitespaces for JSON string values while loading. However, you can instruct the engine to preserve the whitespaces as follows.
 

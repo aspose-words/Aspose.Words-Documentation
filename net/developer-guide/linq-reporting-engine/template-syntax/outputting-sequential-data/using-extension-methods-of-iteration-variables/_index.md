@@ -47,7 +47,7 @@ Returns the one-based index of a sequence item that is represented by the corres
 
 In this case, the engine produces a report as follows.
 
-| No.  | Item  |
+| No.  | Item |
 | :--- | :---- |
 | 1    | item1 |
 | 2    | item2 |

@@ -15,7 +15,7 @@ You can output a sequence of elements of the same type to your report using a da
 1. The data band body is duplicated and appended to the report.
 1. The appended data band body is populated with the element’s data.
 
-**Note –** A data band body can contain nested data bands.
+**Note** – A data band body can contain nested data bands.
 
 A data band body is defined between the corresponding opening and closing `foreach` tags within a template as follows.
 

@@ -14,4 +14,4 @@ LINQ Reporting Engine enables you to use the following built-in extension method
 - Extension methods mimicking the ones for `IEnumerable<T>` (see "Appendix A. Enumeration Extension Methods" for more information)
 - Extension methods for iteration variables (see "Using Extension Methods of Iteration Variables" for more information)
 
-**Note –** Extension methods, other than the built-in ones, can be used only in the form of plain static methods in template expressions.
+**Note** – Extension methods, other than the built-in ones, can be used only in the form of plain static methods in template expressions.

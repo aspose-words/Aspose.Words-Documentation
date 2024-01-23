@@ -19,7 +19,7 @@ LINQ Reporting Engine enables you to access `DataTable` objects contained within
   ds.Persons
 {{< /highlight >}}
 
-**Note –** Table names are case-insensitive.
+**Note** – Table names are case-insensitive.
 
 ## Working with DataTable and DataView Objects
 
@@ -35,17 +35,17 @@ Also, you can normally apply enumeration extension methods (see "Appendix A. Enu
 
 LINQ Reporting Engine enables you to access a data associated with a particular `DataRow` or `DataRowView` instance in template expressions using the “.” operator. The following table describes, which identifiers you can use to access different kinds of the data.
 
-|Data Kind|Identifier|Examples of Template Expressions|
+|Data Kind| Identifier |Examples of Template Expressions|
 | :- | :- | :- |
 |**Field Value**|Field name|Given that `r` is a row that has a field named “Name”, you can access the field’s value using the following syntax.<br />{{< highlight csharp >}}r.Name{{< /highlight >}}|
 |**Single Parent or Child Row**|Parent (child) table name|Given that r is a row of a `DataTable` that has a parent (child) `DataTable` named “City”, you can access the single parent (child) row of r using the following syntax.<br />{{< highlight csharp >}}r.City{{< /highlight >}}<br />Given that the “City” `DataTable` has a field named “Name”, you can access the field’s value for the single parent (child) row using the following syntax.<br />{{< highlight csharp >}}r.City.Name{{< /highlight >}}|
 |**Enumeration of Child or Parent Rows**|Child (parent) table name|Given that r is a row of a `DataTable` that has a child (parent) `DataTable` named “Persons”, you can access the enumeration of the child (parent) rows of `r` using the following syntax.<br />{{< highlight csharp >}}r.Persons{{< /highlight >}}<br />Given that the “Persons” `DataTable` has a field named “Age”, you can count the child (parent) rows that correspond to persons over thirty years old using the following syntax.<br />{{< highlight csharp >}}r.Persons.Count(p => p.Age > 30){{< /highlight >}}|
 
-**Note –** Field and table names are case-insensitive.
+**Note** – Field and table names are case-insensitive.
 
 To determine parent-child relationships for a particular `DataTable` instance, the engine uses [DataRelation](https://docs.microsoft.com/en-us/dotnet/api/system.data.datarelation?view=net-6.0) objects contained within the corresponding `DataSet` instance. Thus, you can manage these relationships in a common way.
 
-**Note –** Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
+**Note** – Instead of using of table names to access data of child or parent rows, you can also use relation names, which is useful when you deal with multiple relations to the same table.
 
 ## Working with IDataReader Implementors
 
@@ -66,4 +66,4 @@ The following example shows, how to use this feature. Given that r is an `IDataR
   r.Name
 {{< /highlight >}}
 
-**Note –** Field names are case-insensitive.
+**Note** – Field names are case-insensitive.

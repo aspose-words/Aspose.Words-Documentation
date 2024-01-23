@@ -110,7 +110,7 @@ If `value1` and `value2` have different values, say “Hello” and “World”,
 	</tbody>
 </table>
 
-**Note –** A `cellMerge` tag can be normally used within a table data band.
+**Note** – A `cellMerge` tag can be normally used within a table data band.
 
 You can define an additional restriction on dynamic merging of table cells by providing an expression for a `cellMerge` tag using the following syntax.
 
@@ -234,4 +234,4 @@ Then, a result document looks as follows.
 	</tbody>
 </table>
 
-**Note –** You could use `<<cellMerge [invoice.Number]>>` instead of `<<cellMerge [invoice.IndexOf()]>>` to get the same effect, but using of `IndexOf()` is a more generic approach.
+**Note** – You could use `<<cellMerge [invoice.Number]>>` instead of `<<cellMerge [invoice.IndexOf()]>>` to get the same effect, but using of `IndexOf()` is a more generic approach.

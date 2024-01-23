@@ -33,7 +33,7 @@ The following table contains some of the popular features supported by Aspose.Wo
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Convert between different document formats. For example, Word to PDF, HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [“Convert a Document”](/words/java/convert-a-document/) section |
 | Mail Merge                                                   | The [”Mail Merge and Reporting”](/words/java/mail-merge-and-reporting/) section |
-| Rendering                                                    | The [”Rendering”](/words/java/rendering/) section |
+| Rendering | The [”Rendering”](/words/java/rendering/) section |
 | Join multiple documents, including combine formatting of documents when importing content | The [“Insert and Append Documents”](/words/java/insert-and-append-documents/) article |
 | Find and Replace                                             | The [“Find and Replace”](/words/java/find-and-replace/) article |
 | Manipulate tables                                            | The [“Working with Tables”](/words/java/working-with-tables/) section |

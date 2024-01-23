@@ -17,7 +17,7 @@ LINQ Reporting Engine enables you to access the following public (static and ins
 - Methods
 - Constructors
 
-**Note –** To access a static member of a type in a template expression, the type must be set known for the engine (see “Setting up Known External Types” for more information).
+**Note** – To access a static member of a type in a template expression, the type must be set known for the engine (see “Setting up Known External Types” for more information).
 
 A function type member can be used in a template expression only if the following additional requirements are met:
 

@@ -37,7 +37,7 @@ Some tags require closing counterparts. A closing tag has the “/” character 
 <</tag_name>>
 {{< /highlight >}}
 
-**Note –** Tag body elements are case-sensitive.
+**Note** – Tag body elements are case-sensitive.
 
 Tags consisting of opening and closing parts can be nested to each other. In case when nested tags are of the same type, it can be harder to determine which closing part relates to which opening part, especially given often edits of a template. To simplify this, you can use tag headers as follows.
 

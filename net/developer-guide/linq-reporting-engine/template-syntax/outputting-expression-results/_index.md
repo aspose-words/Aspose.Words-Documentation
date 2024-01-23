@@ -38,7 +38,7 @@ To format a numeric or date-time expression result, you can specify a format str
 
 LINQ Reporting Engine provides several additional number formats that can not be specified using format strings because these formats are missing in standard .NET libraries. The following table describes these formats.
 
-|Number Format|Description|
+|Number Format| Description |
 | :- | :- |
 |**alphabetic**|Formats an integer number as an upper-case letter (A, B, C, ...)|
 |**roman**|Formats an integer number as an upper-case Roman numeral (I, II, III, ...)|
@@ -57,7 +57,7 @@ You can specify one of these additional number formats instead of a format strin
 
 LINQ Reporting Engine provides several additional string formats that can not be specified using format strings because these formats are missing in standard .NET libraries. The following table describes these formats.
 
-|String Format|Description|
+|String Format| Description |
 | :- | :- |
 |**lower**|Converts a string to lower case ("the string")|
 |**upper**|Converts a string to upper case ("THE STRING")|
@@ -82,4 +82,4 @@ Given that `i` is an integer number, you can convert the number to a lower-case 
 <<[i]:roman:lower>>
 {{< /highlight >}}
 
-**Note –** In contrast to format strings, additional number and string formats must not be enclosed with double quotes.
+**Note** – In contrast to format strings, additional number and string formats must not be enclosed with double quotes.

@@ -26,7 +26,7 @@ The second option for dynamic HTML insertion is using of an `html` tag. An `html
 <<html [html_text_expression]>>
 {{< /highlight >}}
 
-**Note –** An `html` tag is forbidden within charts.
+**Note** – An `html` tag is forbidden within charts.
 
 While building a report, an expression declared within an `html` tag is evaluated and its result as a string is interpreted as an HTML block which content replaces the `html` tag then.
 
