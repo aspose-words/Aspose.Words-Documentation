@@ -30,11 +30,11 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 {{< highlight csharp >}}<<size [bubble_size_expression]>>{{< /highlight >}}
 	A bubble-size expression must return a numeric value.<br>
 
-**Note –** A closing `foreach` tag is not used for a chart.
+**Note** – A closing `foreach` tag is not used for a chart.
 
 While composing expressions for `x`, `y`, and `size` tags, you can normally reference an iteration variable declared at the corresponding `foreach` tag in a chart title in the same way as if you intended to output results of expressions within a data band.
 
-**Note –** You can normally use charts with dynamic data within data bands.
+**Note** – You can normally use charts with dynamic data within data bands.
 
 During runtime, a chart with a `foreach` tag in its title is processed by the engine as follows:
 
@@ -84,7 +84,7 @@ For a chart with dynamic data, you can select which series to include into it dy
 <<removeif [conditional_expression]>>
 {{< /highlight >}}
 
-**Note –** A conditional expression must return a Boolean value.
+**Note** – A conditional expression must return a Boolean value.
 
 During runtime, series with `removeif` tags, for which conditional expressions return `true`, are removed from corresponding charts. The rest of the series are kept and populated with data as usual. In either case, `removeif` tags themselves are removed.
 
@@ -196,7 +196,7 @@ In this case, the engine produces a report as follows.
 
 ![charts-series-title-name-text-dynamically-aspose-words-java-2](graph-9.png)
 
-**Note –** You can normally apply this approach to a chart dynamically populated with data.
+**Note** – You can normally apply this approach to a chart dynamically populated with data.
 
 The following code example demonstrates how to set chart series names dynamically.
 
