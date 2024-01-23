@@ -35,7 +35,7 @@ If you need support for more platforms, look for the "twin brother" products Asp
 
 Many customers worldwide rely on the thorough document import and export features provided by Aspose.Words.
 
-|Feature|Description|Python via .NET|
+| Feature |Description|Python via .NET|
 | :- | :- | :- |
 |Microsoft Word - DOC|The fastest and most complete DOC format implementation you can find.|{{< emoticons/tick >}}|
 |WordprocessingML - DOCX and XML|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|
@@ -52,7 +52,7 @@ Many customers worldwide rely on the thorough document import and export feature
 
 Aspose.Words now provides high fidelity rendering of document pages.
 
-|Feature|Python via .NET|
+| Feature |Python via .NET|
 | :- | :- |
 |Layout document into pages with high fidelity (exactly like Microsoft Word® would do that) to all the formats below.|{{< emoticons/tick >}}|
 |Render individual pages or complete documents to PDF or XPS.|{{< emoticons/tick >}}|
@@ -68,7 +68,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 
 Aspose.Words provides a rich object model that consists of over 100 public classes, which allow you to programmatically generate, combine, modify, parse or otherwise examine loaded documents.
 
-|Feature|Python via .NET|
+| Feature |Python via .NET|
 | :- | :- |
 |Access, create and modify paragraphs and text.|{{< emoticons/tick >}}|
 |Access, create and modify images, textboxes and shapes.|{{< emoticons/tick >}}|
@@ -96,7 +96,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 
 Aspose.Words provides detailed programmatic access to the formatting properties of all document elements.
 
-|Feature|Python via .NET|
+| Feature |Python via .NET|
 | :- | :- |
 |Access and modify all character formatting including fonts, colors, effects, borders and shading.|{{< emoticons/tick >}}|
 |Access and modify all paragraph formatting including indents, spacing, borders and shading, tab stops.|{{< emoticons/tick >}}|
@@ -110,7 +110,7 @@ Aspose.Words provides detailed programmatic access to the formatting properties 
 
 You can use Aspose.Words as a reporting solution on its own. Design your reports in Microsoft Word and then have Aspose.Words populate documents with data from various data sources.
 
-|Feature|Python via .NET|
+| Feature |Python via .NET|
 | :- | :- |
 |Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|{{< emoticons/tick >}}|
 |Execute mail merge for documents that contain even the most complex and nested IF fields and formulas.|{{< emoticons/tick >}}|

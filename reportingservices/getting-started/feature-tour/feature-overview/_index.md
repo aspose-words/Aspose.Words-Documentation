@@ -15,7 +15,7 @@ This section provides detailed descriptions of the Aspose.Words for Reporting Se
 
 {{% /alert %}}
 
-|Feature |Description |
+| Feature |Description |
 | :- | :- |
 |[DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, ODT, TXT, XPS and EPUB Export](/words/reportingservices/doc-ooxml-rtf-wordprocessingml-html-mhtml-odt-txt-xps-and-epub-export/)|Export reports in any of these popular formats from Microsoft’s family of Reporting Services products. |
 |[Same Reports from Report Server, Report Viewer and Report Designer](/words/reportingservices/same-reports-from-report-server-report-viewer-and-report-designer/)|Use Aspose.Words for Reporting Services with Microsoft SQL Server Reporting Services, Microsoft Report Viewer or Microsoft Visual Studio Report Designer. |

@@ -13,7 +13,7 @@ url: /sharepoint/supported-document-formats/
 
 The following table indicates the input and output file formats supported by Aspose.Words for SharePoint.
 
-|Format|Description|Load|Save|Remarks|
+|Format|Description| Load |Save| Remarks |
 | :- | :- | :- | :- | :- |
 |[DOC](https://docs.fileformat.com/word-processing/doc/)|Microsoft Word 97 - 2007 Document.|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[DOCX](https://docs.fileformat.com/word-processing/docx/)|Office Open XML WordprocessingML Document (macro-free).|{{< emoticons/tick >}} |{{< emoticons/tick >}}| |
@@ -25,6 +25,6 @@ The following table indicates the input and output file formats supported by Asp
 |[PDF](https://docs.fileformat.com/pdf/)|Saves the document as PDF (Adobe Portable Document) format.| |{{< emoticons/tick >}}| |
 |[XPS](https://docs.fileformat.com/page-description-language/xps/)|Saves the document in the XPS (XML Paper Specification) format.| |{{< emoticons/tick >}}| |
 |[EPUB](https://docs.fileformat.com/ebook/epub/)|Saves the document in the IDPF EPUB format.| |{{< emoticons/tick >}}| |
-|XML|Saves the document in the Microsoft Word 2003 WordprocessingML format.| |{{< emoticons/tick >}}| |
-|FlatOpc|Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package.| |{{< emoticons/tick >}}| |
+| `XML` |Saves the document in the Microsoft Word 2003 WordprocessingML format.| |{{< emoticons/tick >}}| |
+| `FlatOpc` |Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package.| |{{< emoticons/tick >}}| |
 
