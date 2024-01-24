@@ -24,11 +24,11 @@ In the following steps, you will need to copy and modify files in the directory 
 The root directory for Microsoft SQL Server is usually C:\Program Files\Microsoft SQL Server. From there the Report Server directory can be found as follows:
 
 - **Microsoft SQL Server 2005** - There could be several instances of Microsoft SQL Server configured on the machine and they will occupy different MSSQL.x subdirectories such as MSSQL.1, MSSQL.2 and so on. You need to find the correct C:\Program Files\Microsoft SQL Server\MSSQL.x\Reporting Services\ReportServer directory before you proceed with the following steps.
-- **Microsoft SQL Server 2008** - Report Server is installed in the C:\Program Files\Microsoft SQL Server\MSRS10.MSSQLSERVER\ Reporting Services\ReportServer directory.
-- **Microsoft SQL Server 2008 R2** - Report Server is installed in the C:\Program Files\Microsoft SQL Server\MSRS10_50.MSSQLSERVER\ Reporting Services\ReportServer directory.
-- **Microsoft SQL Server 2012** - Report Server is installed in the C:\Program Files\Microsoft SQL Server\MSRS11.MSSQLSERVER\ Reporting Services\ReportServer directory.
-- **Microsoft SQL Server 2014** - Report Server is installed in the C:\Program Files\Microsoft SQL Server\MSRS12.MSSQLSERVER\ Reporting Services\ReportServer directory.
-- **Microsoft SQL Server 2016** - Report Server is installed in the C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\ Reporting Services\ReportServer directory.
+- **Microsoft SQL Server 2008** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS10.MSSQLSERVER\ Reporting Services\ReportServer` directory.
+- **Microsoft SQL Server 2008 R2** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS10_50.MSSQLSERVER\ Reporting Services\ReportServer` directory.
+- **Microsoft SQL Server 2012** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS11.MSSQLSERVER\ Reporting Services\ReportServer` directory.
+- **Microsoft SQL Server 2014** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS12.MSSQLSERVER\ Reporting Services\ReportServer` directory.
+- **Microsoft SQL Server 2016** - Report Server is installed in the `C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\ Reporting Services\ReportServer` directory.
 - **Microsoft SQL Server 2017** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
 - **Microsoft SQL Server 2019** - Report Server is installed in the C:\Program Files\Microsoft SQL Server Reporting Services. directory.
 

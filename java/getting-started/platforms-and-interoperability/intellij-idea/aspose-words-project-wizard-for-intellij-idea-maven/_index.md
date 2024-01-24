@@ -79,10 +79,10 @@ To download IntelliJ IDEA
 ### Downloading Aspose.Words Java for IntelliJ IDEA plugin - Maven
 
 - The plugin can be directly downloaded from the [JetBrains plugin hosting URL](https://plugins.jetbrains.com/plugin/7922-aspose-words-java-for-intellij-idea-maven/) - on IntelliJ IDEA Plugin Repository
-  and later can be installed using the IDE option:
+  and later can be installed using the `IDE` option:
   - Goto **File** > **Settings**...>**Plugins**
   - Select "**Install plugin from Disk"**
-- Or it can be directly installed (without manual downloading from JetBrains plugin hosting URL) using the IDE options:
+- Or it can be directly installed (without manual downloading from JetBrains plugin hosting URL) using the `IDE` options:
   - Goto **File** > **Settings**...>**Plugins**
   - Select **"Browse Repositories"**
   - In Search Box type: "Aspose"

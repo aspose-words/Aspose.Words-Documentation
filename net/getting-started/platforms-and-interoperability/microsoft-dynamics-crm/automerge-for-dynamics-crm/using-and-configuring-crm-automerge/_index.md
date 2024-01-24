@@ -18,7 +18,7 @@ Below are the steps to create and upload Template in CRM
 
 ![using-and-configuring-crm-automerge-1](1)
 
-- Make sure that the Field name matches exactly with the CRM field. 
+- Make sure that the Field name matches exactly with the `CRM` field. 
 
 ![using-and-configuring-crm-automerge-2](2)
 

@@ -79,11 +79,11 @@ Download only Java EE / SE supported NetBeans download bundle of the current lat
 ### Download Aspose.Words Java for NetBeans (Maven)
 
 - The plugin can be directly downloaded from the NetBeans plugin hosting URL: <https://plugins.netbeans.org/plugin/62090>
-  and later can be installed using the IDE option:
+  and later can be installed using the `IDE` option:
   - Goto **Tools** > **Plugins** > **Downloaded**
   - Click "**Add Plugins..."** and browse for downloaded .nbm extension plugin file for **Aspose.Words Java for NetBeans (Maven)**.
   - Click **"Install"** to install the plugin
-- Or it can be directly installed (without manual downloading from NetBeans plugin hosting URL) using the IDE options:
+- Or it can be directly installed (without manual downloading from NetBeans plugin hosting URL) using the `IDE` options:
   - Goto **Tools** > **Plugins**> **Available Plugins**
   - In Search Box type: "Aspose"
   - Select "**Aspose.Words Java NetBeans (Maven)**" plugin

@@ -106,7 +106,7 @@ The ADVANCE field is used to offset subsequent text within a line to the left, r
 - specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box
 - specify the number of points by which the text that follows the field should be moved left, right, up or down
 
-The following code example shows how to add the ADVANCE Field using DOM to a paragraph in a document.
+The following code example shows how to add the `ADVANCE` Field using DOM to a paragraph in a document.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAdvanceFieldWithOutDocumentBuilder.py" >}}
 
@@ -119,7 +119,7 @@ The ASK field is used to prompt the user for text to assign to a Bookmark in Wor
 - specify whether the user response should be received once per a mail merge operation
 - specify the prompt text (the title of the prompt window)
 
-The following code example shows how to add the ASK Field using DOM to a paragraph in a document:
+The following code example shows how to add the `ASK` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertASKFieldWithOutDocumentBuilder.py" >}}
 
@@ -129,7 +129,7 @@ The AUTHOR field is used to specify the name of Document's author from the Docum
 
 - specify the document author's name
 
-The following code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
+The following code example shows how to add the `AUTHOR` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertAuthorField.py" >}}
 
@@ -140,7 +140,7 @@ The INCLUDETEXT field inserts the text and graphics contained in the document n
 - specify the bookmark's name of the included document
 - specify the location of the document
 
-The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the `INCLUDETEXT` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertFieldIncludeTextWithoutDocumentBuilder.py" >}}
 

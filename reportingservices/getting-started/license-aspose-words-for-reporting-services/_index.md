@@ -19,7 +19,7 @@ The license emailed to you when the order has been paid. The license is a clear 
 
 ## Licensing a Server
 
-Download the license file and copy it to the C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin folder on the server.
+Download the license file and copy it to the `C:\Program Files\Microsoft SQL Server&#92;&lt;Instance&gt;\Reporting Services\ReportServer\bin` folder on the server.
 Where &lt;Instance&gt; is the subdirectory name that corresponds to the Microsoft SQL Server instance you want to license:
 
 - The default instance directory for Microsoft SQL Server 2000 is MSSQL.

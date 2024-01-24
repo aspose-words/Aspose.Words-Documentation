@@ -80,7 +80,7 @@ For more details, see the [FieldMergeField](https://reference.aspose.com/words/n
 
 {{% /alert %}}
 
-The following code example shows how to add the MERGE field using DOM to a paragraph in a document:
+The following code example shows how to add the `MERGE` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cs" >}}
 
@@ -118,7 +118,7 @@ For more details, see the [FieldAdvance](https://reference.aspose.com/words/net/
 
 {{% /alert %}}
 
-The following code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
+The following code example shows how to add the `ADVANCE` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAdvanceFieldWithOutDocumentBuilder-InsertAdvanceFieldWithOutDocumentBuilder.cs" >}}
 
@@ -137,7 +137,7 @@ For more details, see the [FieldAsk](https://reference.aspose.com/words/net/aspo
 
 {{% /alert %}}
 
-The following code example shows how to add the ASK Field using DOM to a paragraph in a document:
+The following code example shows how to add the `ASK` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertASKFieldWithOutDocumentBuilder-InsertASKFieldWithOutDocumentBuilder.cs" >}}
 
@@ -153,7 +153,7 @@ For more details, see the [FieldAuthor](https://reference.aspose.com/words/net/a
 
 {{% /alert %}}
 
-The following code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
+The following code example shows how to add the `AUTHOR` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cs" >}}
 

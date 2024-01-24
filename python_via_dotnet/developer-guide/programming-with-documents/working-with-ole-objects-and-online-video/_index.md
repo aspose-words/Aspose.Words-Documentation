@@ -36,7 +36,7 @@ The following code example shows how to set the file name, extension, and displ
 
 ### Get Access to OLE Object Raw Data
 
-Users can access OLE object data using various properties and methods of the OleFormat class. For example, it is possible to get the OLE object raw data or the path and name of a source file for the linked OLE object.
+Users can access OLE object data using various properties and methods of the OleFormat class. For example, it is possible to get the `OLE` object raw data or the path and name of a source file for the linked OLE object.
 
 The following code example shows how to get OLE Object raw data using the [get_raw_data](https://reference.aspose.com/words/python-net/aspose.words.drawing/oleformat/get_raw_data/) method:
 

@@ -98,7 +98,7 @@ For more details, see the [FieldMergeField](https://reference.aspose.com/words/j
 
 {{% /alert %}}
 
-The following code example shows how to add the MERGE field using DOM to a paragraph in a document:
+The following code example shows how to add the `MERGE` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
@@ -136,7 +136,7 @@ For more details, see the [FieldAdvance](https://reference.aspose.com/words/java
 
 {{% /alert %}}
 
-The following code example shows how to add the ADVANCE Field using DOM to a paragraph in a document:
+The following code example shows how to add the `ADVANCE` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
@@ -155,7 +155,7 @@ For more details, see the [FieldAsk](https://reference.aspose.com/words/java/com
 
 {{% /alert %}}
 
-The following code example shows how to add the ASK Field using DOM to a paragraph in a document:
+The following code example shows how to add the `ASK` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
@@ -171,7 +171,7 @@ For more details, see the [FieldAuthor](https://reference.aspose.com/words/java/
 
 {{% /alert %}}
 
-The following code example shows how to add the AUTHOR Field using DOM to a paragraph in a document:
+The following code example shows how to add the `AUTHOR` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
@@ -188,7 +188,7 @@ For more details, see the [FieldIncludeText](https://reference.aspose.com/words/
 
 {{% /alert %}}
 
-The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the `INCLUDETEXT` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIncludeText.java" >}}
 

@@ -17,7 +17,7 @@ aliases: [/net/using-and-configuring-crm-oneclick-word-document-generator/]
 
 ![using-and-configuring-crm-oneclick-word-document-generator-1](1)
 
-- Make sure that the Field name matches exactly with the CRM field.
+- Make sure that the Field name matches exactly with the `CRM` field.
 - Templates are specific to use with individual entity. 
 
 ![using-and-configuring-crm-oneclick-word-document-generator-1](2)
