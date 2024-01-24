@@ -72,8 +72,8 @@ e.g @{ Html.RenderPartial("~/Views/Shared/AsposeContentToImage.cshtml"); }
     - Step 6.2.2 – Select “Aspose.Words for .NET” and then click install.
   - Step 6.3 – Right click on “References” then select “Add References”.
   - Step 6.4 – Type “System.IO.Compression” in “Search Assembiles” and select the following assemblies 
-    - Step 6.4.1 – System.IO.Compression.
-    - Step 6.4.2 – System.IO.Compression.FileSystem.
+    - Step 6.4.1 – `System.IO`.Compression.
+    - Step 6.4.2 – `System.IO`.Compression.FileSystem.
     - Step 6.4.3 – Click Ok.
 - Step 7 – Run the project.
 

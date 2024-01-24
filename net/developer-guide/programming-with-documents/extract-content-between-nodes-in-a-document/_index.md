@@ -220,7 +220,7 @@ The ways to retrieve text from the document are:
 - Use [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) to retrieve text with all Microsoft Word control characters including field codes
 - Implement a custom [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) to perform customized extraction
 
-### Using Node.GetText and Node.ToString
+### Using `Node.GetText` and `Node.ToString`
 
 A Word document can contains control characters that designate special elements such as field, end of cell, end of section etc. The full list of possible Word control characters is defined in the **ControlChar** class. The **Node.GetText** method returns text with all of the control character characters present in the node.
 
@@ -230,7 +230,7 @@ The following code example shows the difference between calling the **GetText** 
 
 {{< gist "aspose-words-gists" "1f94e59ea4838ffac2f0edf921f67060" "simple-extract-text.cs" >}}
 
-### Using SaveFormat.Text
+### Using `SaveFormat.Text`
 
 This example saves the document as follows:
 

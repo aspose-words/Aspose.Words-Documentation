@@ -13,10 +13,10 @@ url: /java/extract-images-from-document/
 
 To extract all images or images having specific type from the document, follow these steps:
 
-- Use the Document.GetChildNodes method to select all Shape nodes.
+- Use the `Document.GetChildNodes` method to select all Shape nodes.
 - Iterate through resulting node collections.
-- Check the Shape.HasImage boolean property.
-- Extract image data using the Shape.ImageData property.
+- Check the `Shape.HasImage` boolean property.
+- Extract image data using the `Shape.ImageData` property.
 - Save image data to a file.
 
 **Java**

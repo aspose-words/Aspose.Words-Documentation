@@ -29,7 +29,7 @@ DetectFileFormat only checks the file format but does not validate the file form
 
 We can check the format compatibility of all files in the selected folder and sort them by format into corresponding subfolders.
 
-Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the **GetFiles** method of the Directory class (from the System.IO namespace).
+Since we are dealing with contents in a folder, the first thing we need to do is get a collection of all the files in this folder using the **GetFiles** method of the Directory class (from the `System.IO` namespace).
 
 The following code example shows how to get a list of all the files in the folder:
 
@@ -41,7 +41,7 @@ The following code example shows how to iterate over the collected list of files
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-CheckFormat-CheckFormatCompatibility.cpp" >}}
 
-The files are moved into appropriate subfolders using the Move method of the File class, from the same System.IO namespace.
+The files are moved into appropriate subfolders using the Move method of the File class, from the same `System.IO` namespace.
 
 The following files are used in the example above. The file name is on the left and its description is on the right:
 

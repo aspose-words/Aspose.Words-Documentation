@@ -25,7 +25,7 @@ To see how Aspose.Words works in AWS Lambda, follow the steps below:
 
 1. In Visual Studio, create an AWS Lambda Project (.NET Core – C#). From the proposed blueprints, select an Empty Function. The created project contains a simple function that transforms input string to upper case.
 
-2. Add a [NuGet reference to Aspose.Words](https://www.nuget.org/packages/Aspose.Words/) and AWSSDK.S3 to work with S3 storage.
+2. Add a [NuGet reference to Aspose.Words](https://www.nuget.org/packages/Aspose.Words/) and `AWSSDK.S3` to work with S3 storage.
 
 3. Create a simple document using Aspose.Words and save it in PDF format into S3 storage using the following snippet:<br>{{< highlight csharp >}}
 

@@ -59,7 +59,7 @@ Once downloaded, please follow these steps to install the Add-on into your Sitef
 
 Please extract the downloaded ZIP file. You will need FTP or direct access to the Sitefinity installation folder on the server to perform the following:
 
-1. Copy Aspose.Words.dll and Aspose.SiteFinity.ExportUsersToWord.dll into the **bin** folder of the Sitefinity installation.
+1. Copy Aspose.Words.dll and `Aspose.SiteFinity`.ExportUsersToWord.dll into the **bin** folder of the Sitefinity installation.
 1. Copy the **Addons** folder on the root of the Sitefinity installation where the **bin** folder is located.
 
 **Step 2: Register the Aspose Sitefinity Export Users to Word add-on in Sitefinity**
@@ -78,7 +78,7 @@ Please extract the downloaded ZIP file. You will need FTP or direct access to th
 
    1. ` `in the **Control CLR Type or Virtual Path** field.
    1. Add **Name**, **Title** and **Description** as follows:
-      Aspose.Sitefinity.ExportUsersToWord
+      `Aspose.Sitefinity`.ExportUsersToWord
       Aspose Export SiteFinity Users to Word
       Export SiteFinity Users to Word
    1. You may leave all other fields as they are.

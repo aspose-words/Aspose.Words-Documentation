@@ -43,7 +43,7 @@ You can also do the same using the Open XML SDK. At the same time, note that it 
 To use the code example, you must install the Open XML SDK 2.5. Then you must explicitly reference the following assemblies in your project:
 
 - WindowsBase
-- DocumentFormat.OpenXml (installed by the Open XML SDK)
+- `DocumentFormat.OpenXml` (installed by the Open XML SDK)
 
 Following are the namespaces we need to add:
 

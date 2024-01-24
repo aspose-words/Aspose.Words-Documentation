@@ -127,21 +127,21 @@ catch (Exception ex)
 
 ### Changing the License File Name
 
-The license file name does not have to be 'Aspose.Words.Android.Java.lic'. You can rename it to anything you like and use that name when calling License.SetLicense.
+The license file name does not have to be 'Aspose.Words.Android.Java.lic'. You can rename it to anything you like and use that name when calling `License.SetLicense`.
 
 ### Exception - Cannot find license filename
 
 When you download a license you've bought, the license file is named **Aspose.Words.Android.Java.lic** by default. The license file is downloaded through your browser and some browsers recognize the license file as XML and append an .xml extension to the name. The downloaded file becomes **Aspose.Words.Android.Java.lic.XML**.
 
-When Microsoft Windows is configured to hide extensions of known file types (unfortunately this is default in most Windows installations), the license file is listed as **Aspose.Words.Android.Java.lic** in Windows Explorer. It looks like the expected file name. If you call License.SetLicense and pass 'Aspose.Words.Android.Java.lic', you'll see and exception because there is no such file. 
+When Microsoft Windows is configured to hide extensions of known file types (unfortunately this is default in most Windows installations), the license file is listed as **Aspose.Words.Android.Java.lic** in Windows Explorer. It looks like the expected file name. If you call `License.SetLicense` and pass 'Aspose.Words.Android.Java.lic', you'll see and exception because there is no such file. 
 
 To solve the problem, rename the file to remove the invisible .xml extension. We recommend that you disable the "hide extensions" option in Microsoft Windows.
 
 ## Using Multiple Aspose Products
 
-If you use several Aspose products in an application, for example Aspose.Words and Aspose.Cells, here are a few useful tips.
+If you use several Aspose products in an application, for example Aspose.Words and `Aspose.Cells`, here are a few useful tips.
 
 - Set the license for each Aspose product separately.
-  Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the License.SetLicense method separately for each Aspose product.
+  Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the `License.SetLicense` method separately for each Aspose product.
 - Use fully qualified License class name.
-  Each Aspose product has a License class in its namespace. For example, Aspose.Words has com.aspose.words.License and Aspose.Cells has com.aspose.cells.License class. Using the fullyqualified class name allows you to avoid any confusion about which license is applied to which product.
+  Each Aspose product has a License class in its namespace. For example, Aspose.Words has com.aspose.words.License and `Aspose.Cells` has com.aspose.cells.License class. Using the fullyqualified class name allows you to avoid any confusion about which license is applied to which product.

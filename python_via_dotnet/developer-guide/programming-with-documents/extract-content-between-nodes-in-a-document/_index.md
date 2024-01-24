@@ -202,7 +202,7 @@ The following code example shows the difference between calling the [get_text](h
 
 {{< gist "aspose-words-gists" "399801c9a5e656ed05aa2d7ac5ebc41e" "simple-extract-text.py" >}}
 
-### Using SaveFormat.Text
+### Using `SaveFormat.Text`
 
 This example saves the document as follows:
 

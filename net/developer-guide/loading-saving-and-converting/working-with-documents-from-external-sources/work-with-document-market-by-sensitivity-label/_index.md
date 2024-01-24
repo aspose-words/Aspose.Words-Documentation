@@ -73,8 +73,8 @@ To create a new console application project, follow these steps:
 
 1. In Visual Studio, create a new console application project named "SensitivityLabelsExample" for *C#* language and target framework *.NET 6*
 2. Add the following packages:
-   - Microsoft.InformationProtection.File
-   - Microsoft.Identity.Client
+   - `Microsoft.InformationProtection`.File
+   - `Microsoft.Identity`.Client
    - Aspose.Words
 
 ### Add a File with Settings

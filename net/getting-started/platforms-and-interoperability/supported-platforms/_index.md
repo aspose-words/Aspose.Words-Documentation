@@ -14,7 +14,7 @@ url: /net/supported-platforms/
 You can confidently use Aspose.Words for .NET to build any type of x86 or x64 (32-bit or 64-bit) .NET application including ASP.NET, Web Services and WinForms. Aspose.Words for .NET is easy to deploy because it consists of just a single assembly without any dependencies (except on the .NET Framework itself). Aspose.Words.dll is CLS compliant, written entirely in C# and contains only safe managed code. Aspose.Words for .NET supports all versions of the Microsoft .NET Framework from 2.0 to 4.8. A single MSI installer is provided that caters both for 32-bit and 64-bit environments. The installer contains the following items:
 
 - Aspose.Words.dll assemblies for different .NET Framework versions
-- Demo projects for ASP.NET and WinForms in C# and VB.NET
+- Demo projects for ASP.NET and WinForms in C# and `VB.NET`
 - Aspose.Words Documentation in Microsoft Help format
 
 ## .NET Standard 2.0
@@ -29,9 +29,8 @@ Xamarin.Android makes it possible to do native Android development in C#, with e
 
 Xamarin.iOS makes it possible to do native iOS development in C#, with either Visual Studio or Xamarin Studio. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native iOS applications.
 
-## Xamarin.Mac
-
-Xamarin.Mac gives C# developers the ability to build fully native Cocoa apps for Mac OS X and allows for native apps that can be put into the Mac App Store. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native Mac applications.
+## `Xamarin.Mac`
+ `Xamarin.Mac` gives C# developers the ability to build fully native Cocoa apps for Mac OS X and allows for native apps that can be put into the Mac App Store. You can use Aspose.Words API to perform a wide range of Word document processing tasks directly within your native Mac applications.
 
 ## COM
 

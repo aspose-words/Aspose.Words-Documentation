@@ -63,7 +63,7 @@ Aspose.Words for .NET covers most of the popular development environments and de
 
 You can use Aspose.Words for .NET to build any type of 32-bit or 64-bit .NET application, including ASP.NET, WCF, WinForms, etc. In addition, you can utilize Aspose.Words for .NET via COM Interop from ASP, Perl, PHP, and Python.
 
-You can also use Aspose.Words for .NET to build applications with Mono, as well as on Windows Azure, Microsoft SharePoint, Microsoft Silverlight, Xamarin.Android, Xamarin.iOS, and Xamarin.Mac.
+You can also use Aspose.Words for .NET to build applications with Mono, as well as on Windows Azure, Microsoft SharePoint, Microsoft Silverlight, Xamarin.Android, Xamarin.iOS, and `Xamarin.Mac`.
 
 ### Independence from Other Applications
 

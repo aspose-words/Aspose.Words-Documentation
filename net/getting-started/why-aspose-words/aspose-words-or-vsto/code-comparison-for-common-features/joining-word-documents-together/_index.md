@@ -29,7 +29,7 @@ if (i < recordCount)
 
 The above code runs in a loop and inserts a document at the end of the current document. The content from each joined document is separated by a section break and the headers and footers of this new section are unlinked so they do not continue on from the previous section’s headers and footers.
 
-When migrating to Aspose.Words you will find that this task above is very easy to achieve. Aspose.Words provides a special Document.AppendDocument method for this purpose and is used to join two documents together.
+When migrating to Aspose.Words you will find that this task above is very easy to achieve. Aspose.Words provides a special `Document.AppendDocument` method for this purpose and is used to join two documents together.
 
 This method copies the sections from the source document to the destination document. This removes any need to insert any section breaks which is required in automation.
 

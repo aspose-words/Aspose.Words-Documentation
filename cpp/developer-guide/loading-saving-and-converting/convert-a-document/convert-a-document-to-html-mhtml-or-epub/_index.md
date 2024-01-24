@@ -21,7 +21,7 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-ConvertDocumentToHTML-ConvertDocxToHtml.cpp" >}}
 
-To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub respectively.
+To convert a document to MHTML or EPUB, use `SaveFormat.Mhtml` or `SaveFormat.Epub` respectively.
 
 ## Convert a Document with Round-trip Information
 

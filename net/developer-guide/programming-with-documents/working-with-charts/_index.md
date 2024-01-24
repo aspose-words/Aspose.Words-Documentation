@@ -64,9 +64,9 @@ The code produces the following result:
 
 ![bubble-chart-aspose-words-net](working-with-charts-5.png)
 
-## Working with Charts through Shape.Chart Object
+## Working with Charts through `Shape.Chart` Object
 
-Once the chart was inserted and filled with data, you are able to change its appearance. Shape.Chart property contains all chart related options available through the public API.
+Once the chart was inserted and filled with data, you are able to change its appearance. `Shape.Chart` property contains all chart related options available through the public API.
 
 For example, let's change Chart title or legend behavior:
 
@@ -177,7 +177,7 @@ The following code example shows how to set the interval unit between labels o
 
 ### How to Hide Chart Axis
 
-If you want to show or hide the chart axis, you can simply achieve this by setting the value of ChartAxis.Hidden property.
+If you want to show or hide the chart axis, you can simply achieve this by setting the value of `ChartAxis.Hidden` property.
 
 The following code example shows how to hide the Y-axis of the chart:
 

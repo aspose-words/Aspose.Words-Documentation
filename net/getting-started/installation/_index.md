@@ -55,7 +55,7 @@ You must be logged in to download the installer. If you are not registered yet, 
 
 To Install Aspose.Words for .NET, follow these steps:
 
-1. Download Aspose.Words_{LatestVersion}.msi from the [downloads section](https://releases.aspose.com/words/)
+1. Download `Aspose.Words_`{LatestVersion}.msi from the [downloads section](https://releases.aspose.com/words/)
 2. Doble-click the downloaded file, thereby starting the setup wizard, follow the setup wizard instructions<br>
    <img src="aspose-words-setup-1.png" alt="aspose-words-setup-1" style="width:500px"/>
 3. When the setup wizard completes the installation, the required files will be available in the folder at the provided folder path<br>
@@ -68,7 +68,7 @@ To Install Aspose.Words for .NET, follow these steps:
 
 ## Considerations When Running in a Shared Server Environment
 
-All Aspose .NET components are recommended to run with the *Full Trust* permission set. This is because Aspose .NET component sometimes needs access to registry settings and files located in places other than the virtual directory, such as reading fonts. Furthermore, Aspose.NET components are based on core .NET system classes, some of which also require *Full Trust* permission to run in some cases.
+All Aspose .NET components are recommended to run with the *Full Trust* permission set. This is because Aspose .NET component sometimes needs access to registry settings and files located in places other than the virtual directory, such as reading fonts. Furthermore, `Aspose.NET` components are based on core .NET system classes, some of which also require *Full Trust* permission to run in some cases.
 
 Internet Service Providers hosting multiple applications from different companies mostly enforce *Medium Trust* security level. In the case of .NET 2.0, such a security level may impose the following constraints, which may affect the ability of Aspose.Words to perform properly:
 

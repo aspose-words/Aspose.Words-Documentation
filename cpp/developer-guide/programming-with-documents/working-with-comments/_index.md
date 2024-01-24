@@ -80,7 +80,7 @@ The following code example shows how to extract the author name, date&time and t
 
 ### How to Remove Comments
 
-If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling NodeCollection.Clear on the comments collection.
+If you are removing all comments, there is no need to move through the collection deleting comments one by one; you can remove them by calling `NodeCollection.Clear` on the comments collection.
 
 The following code example shows how to remove all comments in the document:
 

@@ -35,7 +35,7 @@ The following code example shows how to insert a barcode image on each page of a
 
 ## Lock Aspect Ratio of Image {#lock-aspect-ratio-of-image}
 
-The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of an image using [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked). The default value of the shape's aspect ratio depends on the [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). It is true for ShapeType.Image and false for other shape types.
+The aspect ratio of a geometric shape is the ratio of its sizes in different dimensions. You can lock the aspect ratio of an image using [AspectRatioLocked](https://reference.aspose.com/words/java/com.aspose.words/shape/#getAspectRatioLocked). The default value of the shape's aspect ratio depends on the [ShapeType](https://reference.aspose.com/words/java/com.aspose.words/shapetype/). It is true for `ShapeType.Image` and false for other shape types.
 
 The following code example shows how to work with aspect ratio:
 

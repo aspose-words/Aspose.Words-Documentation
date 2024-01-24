@@ -55,7 +55,7 @@ After you call DocumentBuilder.insertCell, a new cell is created and any content
 
 ### Ending a Row
 
-Call DocumentBuilder.endRow to finish the current row. If you call DocumentBuilder.insertCell immediately after that, then the table continues on a new row. Use the DocumentBuilder.RowFormat property to specify row formatting. It returns a [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) object that represents all formatting for a table row.
+Call DocumentBuilder.endRow to finish the current row. If you call DocumentBuilder.insertCell immediately after that, then the table continues on a new row. Use the `DocumentBuilder.RowFormat` property to specify row formatting. It returns a [RowFormat](https://reference.aspose.com/words/java/com.aspose.words/rowformat/) object that represents all formatting for a table row.
 
 ### Ending a Table
 
@@ -182,13 +182,13 @@ OLE package is a legacy and "undocumented" way to store embedded objects if the 
 
 ## Get Access to OLE Object Raw Data
 
-The following code example demonstrates how to get OLE Object raw data using OleFormat.GetRawData() method.
+The following code example demonstrates how to get OLE Object raw data using `OleFormat.GetRawData`() method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.java" >}}
 
 ## Insert Horizontal Rule into Document
 
-The following code example shows how to insert horizontal rule shape into a document using DocumentBuilder.InsertHorizontalRule method.
+The following code example shows how to insert horizontal rule shape into a document using `DocumentBuilder.InsertHorizontalRule` method.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.java" >}}
 
@@ -196,18 +196,18 @@ The following code example shows how to insert horizontal rule shape into a docu
 
 ### Inserting Inline and Free-floating Shapes
 
-You can insert an inline shape with a specified type and size and a free-floating shape with the specified position, size and text wrap type into a document using DocumentBuilder.InsertShape method. The DocumentBuilder.InsertShape method allows to insert DML shape into the document model. The document must be saved in the format, which support DML shapes, otherwise such nodes will be converted to VML shape, while document saving. The following code example shows how to insert these types of shapes into the document.
+You can insert an inline shape with a specified type and size and a free-floating shape with the specified position, size and text wrap type into a document using `DocumentBuilder.InsertShape` method. The `DocumentBuilder.InsertShape` method allows to insert DML shape into the document model. The document must be saved in the format, which support DML shapes, otherwise such nodes will be converted to VML shape, while document saving. The following code example shows how to insert these types of shapes into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.java" >}}
 
 ### Create Snip Corner Rectangle
 
-You can create a snip corner rectangle using Aspose.Words. The shape types are SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,  and DiagonalCornersRounded. The DML shape is created using DocumentBuilder.InsertShape method with these shape types. These types cannot be used to create VML shapes. Attempt to create a shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception. The following code example shows how to insert these types of shapes into the document.
+You can create a snip corner rectangle using Aspose.Words. The shape types are SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,  TopCornersOneRoundedOneSnipped,  SingleCornerRounded,  TopCornersRounded,  and DiagonalCornersRounded. The DML shape is created using `DocumentBuilder.InsertShape` method with these shape types. These types cannot be used to create VML shapes. Attempt to create a shape by using the public constructor of the "Shape" class raises the "NotSupportedException" exception. The following code example shows how to insert these types of shapes into the document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-Shapes-WorkingWithShapes-AddCornersSnipped.java" >}}
 
 ### Import Shapes with Math XML as Shapes into DOM
 
-You can use LoadOptions.ConvertShapeToOfficeMath property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
+You can use `LoadOptions.ConvertShapeToOfficeMath` property to convert the shapes with EquationXML to Office Math objects. The default value of this property corresponds to MS Word behavior i.e. shapes with equation XML are not converted to Office math objects.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-SpecifyLoadOptions-ConvertShapeToOfficeMath.java" >}}

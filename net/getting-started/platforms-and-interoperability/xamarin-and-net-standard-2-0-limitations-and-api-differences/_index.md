@@ -9,16 +9,16 @@ weight: 130
 url: /net/xamarin-and-net-standard-2-0-limitations-and-api-differences/
 ---
 
-Xamarin DLLs are always built using the latest stable versions of Xamarin.Android, Xamarin.iOS and Xamarin.Mac respectively. If you face problems with using Aspose.Words in your Xamarin application, please make sure you have the latest Xamarin versions installed. Sometimes Aspose.Words' Xamarin DLLs built with the latest Xamarin version do not work with older versions of Xamarin.
+Xamarin DLLs are always built using the latest stable versions of Xamarin.Android, Xamarin.iOS and `Xamarin.Mac` respectively. If you face problems with using Aspose.Words in your Xamarin application, please make sure you have the latest Xamarin versions installed. Sometimes Aspose.Words' Xamarin DLLs built with the latest Xamarin version do not work with older versions of Xamarin.
 
 ## Limitations and Restrictions
 
-Limitations of .NET Standard 2.0, Xamarin.Android, Xamarin.iOS, And Xamarin.Mac API compared to .NET API:
+Limitations of .NET Standard 2.0, Xamarin.Android, Xamarin.iOS, And `Xamarin.Mac` API compared to .NET API:
 
-1. **Document.Print** method is not available in .NET Standard 2.0, Xamarin.Android, Xamarin.iOS and Xamarin.Mac API.
+1. **Document.Print** method is not available in .NET Standard 2.0, Xamarin.Android, Xamarin.iOS and `Xamarin.Mac` API.
 1. Saving to user browser is not provided, i.e. **Document.Save(HttpResponse,string,ContentDescription,SaveOptions)** overload is not available.
 1. Because of lack of Windows fonts in target OS (Android, MacOS, Linux etc), fonts used in documents are substituted with available fonts, this might lead into inaccurate document layout, when render document to fixed page formats (like Images, PDF, XPS etc.)
-1. If Aspose.Words for .NET Standard is intended to be used in Linux environment, an additional NuGet package should be referenced to make it work correctly with graphics: SkiaSharp.NativeAssets.Linux for Ubuntu (it also should work on most Debian-based Linux distributions) or Goelze.SkiaSharp.NativeAssets.AlpineLinux for Alpine Linux.
+1. If Aspose.Words for .NET Standard is intended to be used in Linux environment, an additional NuGet package should be referenced to make it work correctly with graphics: `SkiaSharp.NativeAssets`.Linux for Ubuntu (it also should work on most Debian-based Linux distributions) or `Goelze.SkiaSharp`.NativeAssets.AlpineLinux for Alpine Linux.
 
 ## Public API Differences
 
@@ -114,9 +114,9 @@ To work properly Aspose.Words' Xamarin.iOS API requires Encodings support. When
 ![xamarin-ios-and-net-standard-2-0](3)
 
 
-## Xamarin.Mac Additional Requirements
+## `Xamarin.Mac` Additional Requirements
 
-To work properly Aspose.Words' Xamarin.Mac API requires Encodings support. When you run your Xamarin.Mac application it is required to add additional supported Encodings.
+To work properly Aspose.Words' `Xamarin.Mac` API requires Encodings support. When you run your `Xamarin.Mac` application it is required to add additional supported Encodings.
 
 ![xamarin-mac-and-net-standard-2-0](4)
 

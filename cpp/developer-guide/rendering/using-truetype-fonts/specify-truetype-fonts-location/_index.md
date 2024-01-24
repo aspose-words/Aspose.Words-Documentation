@@ -116,7 +116,7 @@ In case an explicit replacement has been specified, Aspose.Words replaces the mi
 fontSettings->get_SubstitutionSettings()->get_TableSubstitution()->SetSubstitutes(u"PMingLiU-ExtB", System::MakeArray<System::String>({ u"Liberation Serif" }));
 {{< /highlight >}}
 
-If none of the rules worked, Aspose.Words check the internal replacement table. If the table contains information about a good fit then the font gets replaced. In our case Aspose.Words will select Typeface.SERIF. But if the table doesn’t know anything about the requested font then Aspose.Words picks up a font based on special MS Word rules or the closest distance in Panose space.
+If none of the rules worked, Aspose.Words check the internal replacement table. If the table contains information about a good fit then the font gets replaced. In our case Aspose.Words will select `Typeface.SERIF`. But if the table doesn’t know anything about the requested font then Aspose.Words picks up a font based on special MS Word rules or the closest distance in Panose space.
 
 #### TrueType Fonts on .NET Core and Xamarin
 

@@ -93,7 +93,7 @@ Once downloaded, please follow these steps to install the Add-on into your Sitef
 
 Please extract the downloaded ZIP file. You will need FTP or direct access to the Sitefinity installation folder on the server to perform the following:
 
-1. Copy Aspose.Words.dll and Aspose.SiteFinity.WordImport.dll into the **bin** folder of the Sitefinity installation.
+1. Copy Aspose.Words.dll and `Aspose.SiteFinity`.WordImport.dll into the **bin** folder of the Sitefinity installation.
 1. Copy the **Addons** folder on the root of the Sitefinity installation where the **bin** folder is located.
 
 **Step 2: Register the Aspose .NET Word Import for Sitefinity add-on in Sitefinity**

@@ -269,11 +269,11 @@ The following example shows how to use the Visitor pattern to add new operations
 The ways to retrieve text from the document are:
 
 - Use [Document.save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.io.OutputStream-com.aspose.words.SaveOptions) with [SaveFormat](https://reference.aspose.com/words/java/com.aspose.words/saveformat/) to save as plain text into a file or stream
-- Use [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) and pass the SaveFormat.Text parameter. Internally, this invokes save as text into a memory stream and returns the resulting string
+- Use [Node.toString](https://reference.aspose.com/words/java/com.aspose.words/node/#toString-com.aspose.words.SaveOptions) and pass the `SaveFormat.Text` parameter. Internally, this invokes save as text into a memory stream and returns the resulting string
 - Use [Node.getText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) to retrieve text with all Microsoft Word control characters including field codes
 - Implement a custom [DocumentVisitor](https://reference.aspose.com/words/java/com.aspose.words/documentvisitor/) to perform customized extraction
 
-### Using Node.GetText and Node.ToString
+### Using `Node.GetText` and `Node.ToString`
 
 A Word document can contains control characters that designate special elements such as field, end of the cell, end of section etc. The full list of possible Word control characters is defined in the **ControlChar** class. The [GetText](https://reference.aspose.com/words/java/com.aspose.words/node/#getText) method returns text with all of the control character characters present in the node.
 
@@ -283,7 +283,7 @@ The following code example shows the difference between calling the **GetText** 
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "simple-extract-text.java" >}}
 
-### Using SaveFormat.Text
+### Using `SaveFormat.Text`
 
 This example saves the document as follows:
 

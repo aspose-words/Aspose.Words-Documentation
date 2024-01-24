@@ -86,7 +86,7 @@ The following code example shows how to extract the content between specific par
 
 ## Extract Content Between Different Types of Nodes
 
-We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling Body.FirstParagraph and [GetChild](https://reference.aspose.com/words/cpp/aspose.words/compositenode/getchild/) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original.
+We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling `Body.FirstParagraph` and [GetChild](https://reference.aspose.com/words/cpp/aspose.words/compositenode/getchild/) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original.
 
 The following code example shows how to extract the content between a paragraph and table using the ExtractContent method:
 
@@ -146,7 +146,7 @@ The following code example shows how to do this:
 
 Use the [DocumentVisitor](https://reference.aspose.com/words/cpp/aspose.words/documentvisitor/) class to implement this usage scenario. This class corresponds to the well-known Visitor design pattern. With **DocumentVisitor,** you can define and execute custom operations that require enumeration over the document tree.
 
-**DocumentVisitor** provides a set of **VisitXXX** methods that are invoked when a particular document element (node) is encountered. For example, DocumentVisitor.VisitParagraphStart is called when the beginning of a text paragraph is found and DocumentVisitor.VisitParagraphEnd is called when the end of a text paragraph is found. Each **DocumentVisitor.VisitXXX** method accepts the corresponding object that it encounters so you can use it as needed (say retrieve the formatting), e.g. both **DocumentVisitor.VisitParagraphStart** and **DocumentVisitor.VisitParagraphEnd** accepts a [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) object.
+**DocumentVisitor** provides a set of **VisitXXX** methods that are invoked when a particular document element (node) is encountered. For example, `DocumentVisitor.VisitParagraphStart` is called when the beginning of a text paragraph is found and `DocumentVisitor.VisitParagraphEnd` is called when the end of a text paragraph is found. Each **DocumentVisitor.VisitXXX** method accepts the corresponding object that it encounters so you can use it as needed (say retrieve the formatting), e.g. both **DocumentVisitor.VisitParagraphStart** and **DocumentVisitor.VisitParagraphEnd** accepts a [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) object.
 
 Each **DocumentVisitor.VisitXXX** method returns a [VisitorAction](https://reference.aspose.com/words/net/aspose.words/visitoraction/) value that controls the enumeration of nodes. You can request either to continue the enumeration, skip the current node (but continue the enumeration), or stop the enumeration of nodes.
 
@@ -154,7 +154,7 @@ These are the steps you should follow to programmatically determine and extract 
 
 - Create a class derived from **DocumentVisitor**
 - Override and provide implementations for some or all of the **DocumentVisitor.VisitXXX** methods to perform some custom operations
-- Call Node.Accept on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use Document.Accept
+- Call `Node.Accept` on the node from where you want to start the enumeration. For example, if you want to enumerate the whole document, use `Document.Accept`
 
 **DocumentVisitor** provides default implementations for all of the **DocumentVisitor.VisitXXX** methods. This makes it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
@@ -179,7 +179,7 @@ The ways to retrieve text from the document are:
 - Use [Node.GetText](https://reference.aspose.com/words/cpp/aspose.words/node/gettext/) to retrieve text with all Microsoft Word control characters including field codes
 - Implement a custom [DocumentVisitor](https://reference.aspose.com/words/cpp/aspose.words/documentvisitor/) to perform customized extraction
 
-### Using Node.GetText and Node.ToString
+### Using `Node.GetText` and `Node.ToString`
 
 A Word document can contain control characters that designate special elements such as field, end of the cell, end of section etc. The full list of possible Word control characters is defined in the [ControlChar](https://reference.aspose.com/words/cpp/aspose.words/controlchar/) class. The **Node.GetText** method returns text with all of the control character characters present in the node.
 
@@ -189,7 +189,7 @@ The following code example shows the difference between calling the **GetText** 
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "simple-extract-text.h" >}}
 
-### Using SaveFormat.Text
+### Using `SaveFormat.Text`
 
 This example saves the document as follows:
 

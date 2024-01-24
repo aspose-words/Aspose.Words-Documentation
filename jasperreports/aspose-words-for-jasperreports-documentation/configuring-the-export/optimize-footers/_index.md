@@ -11,7 +11,7 @@ url: /jasperreports/optimize-footers/
 
 {{% alert color="primary" %}}
 
-By default, Aspose.Word for JasperReports tries to optimize footer contents for better fitting footer on the page. This optimization takes place when a bottom-most page element is too low on page by a) decreasing font size of last paragraph break of the footer and b) decreasing footer distance. If you do not like the view of footers, you can disable this footers optimization by setting **OPTIMIZE_FOOTERS** parameter to **false**.
+By default, `Aspose.Word` for JasperReports tries to optimize footer contents for better fitting footer on the page. This optimization takes place when a bottom-most page element is too low on page by a) decreasing font size of last paragraph break of the footer and b) decreasing footer distance. If you do not like the view of footers, you can disable this footers optimization by setting **OPTIMIZE_FOOTERS** parameter to **false**.
 
 {{% /alert %}}
 

@@ -30,7 +30,7 @@ Document doc = new Document(dataDir + "Test File.docx");
 doc.Save(dataDir + "Document", SaveFormat.Html);
 {{< /highlight >}}
 
-To convert a document to MHTML or EPUB, use SaveFormat.Mhtml or SaveFormat.Epub respectively.
+To convert a document to MHTML or EPUB, use `SaveFormat.Mhtml` or `SaveFormat.Epub` respectively.
 
 ## Convert a Document with Round-trip Information
 

@@ -19,7 +19,7 @@ This topic discusses how to implement Markdown features using Aspose.Words. Mark
 
 The Markdown feature implementation mostly follows the CommonMark specification in Aspose.Words API and all the features are represented as corresponding styles or direct formatting. Which means that
 
-- Bold and Italic are represented as Font.Bold and Font.Italic. 
+- Bold and Italic are represented as `Font.Bold` and `Font.Italic`. 
 - Headings are paragraphs with Heading 1 - Heading 6 styles. 
 - Quotes are paragraphs with "Quote" in the style name. 
 - HorizontalRule is a paragraph with a HorizontalRule shape.

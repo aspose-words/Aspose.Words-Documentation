@@ -22,7 +22,7 @@ Project Aspose.Words .NET for PHP shows how different tasks can be performed usi
 **Following are the system requirements to use Aspose.Words .NET for PHP:**
 
 - IIS with PHP and PHP Manager installed.
-- Aspose.Total APIs.
+- `Aspose.Total` APIs.
 
 ### Supported Platforms
 

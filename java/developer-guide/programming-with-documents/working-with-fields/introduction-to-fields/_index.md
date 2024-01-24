@@ -38,7 +38,7 @@ Here is a view of how a field is stored in Aspose.Words by using the “*Documen
 
 When a document is loaded into Aspose.Words, the fields of the document are loaded into the Aspose.Words Document Object Model as a set of separate components (nodes). A single field is loaded as a collection of **FieldStart**, **FieldSeparator** and **FieldEnd** nodes along with the content in between these nodes. If a field does not have a field result then there will be no **FieldSeparator** node. All of these nodes are always found inline (as children of [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/) or [SmartTag](https://reference.aspose.com/words/java/com.aspose.words/smarttag/).
 
-In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). This class provides a property to check the type of field represented by the specified node through the [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) property. For example FieldType.FieldMergeField represents a merge field in the document.
+In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/). This class provides a property to check the type of field represented by the specified node through the [FieldType](https://reference.aspose.com/words/java/com.aspose.words/fieldtype/) property. For example `FieldType.FieldMergeField` represents a merge field in the document.
 
 {{% alert color="primary" %}}
 
@@ -212,7 +212,7 @@ To control the culture used during field calculation, just set the **CurrentCult
 
 The following code example shows how to change the culture used in formatting fields during update:
 
-EXAMPLE (use the public wrapper CurrentThreadSettings.getLocale() and setLocale() instead of the private Thread.CurrentThread.CurrentCulture)
+EXAMPLE (use the public wrapper CurrentThreadSettings.getLocale() and setLocale() instead of the private `Thread.CurrentThread`.CurrentCulture)
 
 Using the current culture to format fields allows a system to easily and consistently control how all fields in the document are formatted during field update.
 

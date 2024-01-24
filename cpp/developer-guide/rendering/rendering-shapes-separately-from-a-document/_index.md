@@ -47,7 +47,7 @@ When rendering a **Shape**, it must be a part of the document hierarchy. If the 
 
 The [Save](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/save/) method provides overloads that render a shape directly to a file or stream. Both overloads accept an instance of the [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) class, which allows defining options for rendering the shape. This works in the same way as the [Document.Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) method. Even though this parameter is required, you can pass a null value, specifying that there are no custom options.
 
-The shape can be exported in any image format specified in the [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the SaveFormat.Jpeg enumeration, or as a vector image, such as EMF by specifying the SaveFormat.Emf.
+The shape can be exported in any image format specified in the [SaveFormat](https://reference.aspose.com/words/cpp/aspose.words/saveformat/) enumeration. For example, the image can be rendered as a raster image, such as JPEG by specifying the `SaveFormat.Jpeg` enumeration, or as a vector image, such as EMF by specifying the `SaveFormat.Emf`.
 
 The code example below illustrates rendering a shape to an EMF image separately from document, and saving to disk:
 

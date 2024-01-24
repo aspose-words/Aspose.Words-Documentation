@@ -26,7 +26,7 @@ Based on customer feedback we have added much requested Selected Content Pane an
 - Get an offline copy of your favorite online content for editing, sharing and printing in the popular DOC, DOCX, ODT, PDF, JPEG, PNG and TIFF formats.
 - The generated output file can be Opened/Downloaded from browser.
 - In case the export contains more than one image, it automatically converts the exported images to a single ZIP file.
-- A copy of the exported file is also saved in PortalSettings.HomeDirectory\AsposeExport folder for later use.
+- A copy of the exported file is also saved in `PortalSettings.HomeDirectory`\AsposeExport folder for later use.
 
 ## System Requirements and Supported Platforms
 

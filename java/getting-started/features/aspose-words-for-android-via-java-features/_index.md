@@ -108,7 +108,7 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
 
 |Key Features|Aspose.Words for .NET|Aspose.Words Android via Java|
 | :- | :- | :- |
-|Support of C# syntax and LINQ extension methods directly in templates (even for ADO.NET data sources)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Support of C# syntax and LINQ extension methods directly in templates (even for `ADO.NET` data sources)|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Support of repeatable and conditional document blocks (loops and conditions) for tables, lists, and common content|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Support of dynamically generated charts and images|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Support of insertion of outer documents and HTML blocks into a document|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

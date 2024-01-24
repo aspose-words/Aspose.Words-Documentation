@@ -9,7 +9,7 @@ weight: 30
 url: /net/aspose-export-to-word-for-asp-net-mvc/
 ---
 
-Aspose.Words Export To Word for ASP.NET MVC allows ASP.NET developers to add "Export To Word" feature to their MVC website projects with few steps. Export to Word allows website users to download any webpage into Microsoft Word or Open Office Document. This module demonstrates the powerful document building feature by Aspose.Word.
+Aspose.Words Export To Word for ASP.NET MVC allows ASP.NET developers to add "Export To Word" feature to their MVC website projects with few steps. Export to Word allows website users to download any webpage into Microsoft Word or Open Office Document. This module demonstrates the powerful document building feature by `Aspose.Word`.
 
 Major features of this Addon are:
 
@@ -43,13 +43,13 @@ You can download the latest solution for Microsoft Visual Studio at [Github](htt
 
 ### Test a running demonstration
 
-- Step 1 – Download Aspose.MVC.ExportToWord Project.
-- Step 2 – Open Aspose.MVC.ExportToWord Project
+- Step 1 – Download `Aspose.MVC`.ExportToWord Project.
+- Step 2 – Open `Aspose.MVC`.ExportToWord Project
 - Step 3 – Resolve “References” and run the project
 
 ### Embed “Export to Word” to an Existing Project
 
-- Step 1 – Download Aspose.MVC.ExportToWord Project.
+- Step 1 – Download `Aspose.MVC`.ExportToWord Project.
 - Step 2 – Open your existing ASP.NET MVC Solution / Project.
 - Step 3 – Copy “Controllers/ExportToWordController.cs” to your projects “Controllers” folder.
 - Step 4 – Add link to “ExportToWord” controller in your desired view.

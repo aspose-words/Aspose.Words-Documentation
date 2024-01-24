@@ -86,7 +86,7 @@ Set doc = helper.Open("C:\my.doc")
  
 ```
 
-Some methods have overloads and they will be exposed by COM Interop with a numeric suffix added to them, except for the very first method that stays unchanged. For example, Document.Save method overloads become Document.Save, Document.Save_2, Document.Save_3, and so on.
+Some methods have overloads and they will be exposed by COM Interop with a numeric suffix added to them, except for the very first method that stays unchanged. For example, `Document.Save` method overloads become `Document.Save`, `Document.Save_2`, `Document.Save_3`, and so on.
 
 For more information, see the language-specific articles further in this documentation.
 

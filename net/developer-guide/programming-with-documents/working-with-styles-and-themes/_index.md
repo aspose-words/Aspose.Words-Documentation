@@ -42,7 +42,7 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 {{% alert color="primary" %}}
 
-This implementation also uses the Document.GetChildNodes method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
+This implementation also uses the `Document.GetChildNodes` method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
 Note that the second parameter of the **Document.GetChildNodes** method is set to true. This forces the **Document.GetChildNodes** method to select from all child nodes recursively, rather than selecting the immediate children only.
 
@@ -68,7 +68,7 @@ As you can see, this is a very simple example, showing the number and text of th
 
 ## Copy All Styles from Template
 
-There are cases when you want to copy all styles from one document into another. You can use Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
+There are cases when you want to copy all styles from one document into another. You can use `Document.CopyStylesFromTemplate` method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. Below code example shows how to copy styles from one document into another.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-CopyStyles-CopyStylesFromDocument.cs" >}}
 

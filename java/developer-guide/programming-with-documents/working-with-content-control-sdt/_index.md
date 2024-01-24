@@ -81,7 +81,7 @@ The following code example shows how to clear the content of content control:
 
 ## Change Content Control Background and Border Colors
 
-The StructuredDocumentTag.Color property allows you to get or set the color of content control. The color affects content control in two situations:
+The `StructuredDocumentTag.Color` property allows you to get or set the color of content control. The color affects content control in two situations:
 
 1. MS Word highlights the background of the content control when the mouse moves over the content control. This helps to identify the content control. The color of highlighting is a bit "softer" than the *Color*. For example, MS Word highlights the background with the pink color, when *Color* is Red.
 2. When you interact (editing, picking etc) with the content control, the border of content control is colored with the *Color*.
@@ -92,7 +92,7 @@ The following code example shows how to change the color of content control:
 
 ## How to Set Style to Format Text Typed into the Content Control
 
-If you want to set the style of content control, you can use StructuredDocumentTag.Style or StructuredDocumentTag.StyleName properties. When you type the text into content control in the output document, the typed text will have the style "Quote".
+If you want to set the style of content control, you can use `StructuredDocumentTag.Style` or `StructuredDocumentTag.StyleName` properties. When you type the text into content control in the output document, the typed text will have the style "Quote".
 
 {{% alert color="primary" %}}
 

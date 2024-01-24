@@ -119,14 +119,14 @@ Let's understand the above code.
 1. Include the files that are required to access the aspose words.
 1. Initialize the libraries. The aspose JAVA classes are loaded from the path provided in the aspose.yml file.
 
-## Create Ruby Gem for Aspose.Total Java APIs
+## Create Ruby Gem for `Aspose.Total` Java APIs
 
-If you want to create your own Ruby gem Aspose.Total Java APIs, please follow these simple steps:
+If you want to create your own Ruby gem `Aspose.Total` Java APIs, please follow these simple steps:
 
 - Install Ruby from <https://www.ruby-lang.org/en/downloads/> or from <https://rubyinstaller.org/> (for windows)
 - Install Ruby Dev-Kit / Dev Tools (for Windows from <https://www.ruby-lang.org/en/downloads/>)
 - Follow this guide for installing Dev-Kit: <https://github.com/oneclick/rubyinstaller/wiki/>
 - Install RJB Gem from <https://rubygems.org/gems/rjb>
-- Download the template and start developing Aspose.Total for Java APIs based project/gem in Ruby. You can download template from <https://github.com/asposemarketplace/Aspose_Java_for_Ruby>
-- Download relevant Aspose.Total Java Component from <https://products.aspose.com/total/java/> and place it in your project "jars" folder
+- Download the template and start developing `Aspose.Total` for Java APIs based project/gem in Ruby. You can download template from <https://github.com/asposemarketplace/Aspose_Java_for_Ruby>
+- Download relevant `Aspose.Total` Java Component from <https://products.aspose.com/total/java/> and place it in your project "jars" folder
 - Upload the created gem to <https://rubyinstaller.org/> for distribution to the world

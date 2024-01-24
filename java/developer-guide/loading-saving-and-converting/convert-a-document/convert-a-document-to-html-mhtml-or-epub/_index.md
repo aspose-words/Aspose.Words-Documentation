@@ -21,7 +21,7 @@ The following example shows how to convert DOCX to HTML with specifying a save f
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-ConvertToHTML-ConvertDocxToHtml.java" >}}
 
-To convert a document to MHTML or EPUB, use SaveFormat.MHTML or SaveFormat.EPUB respectively.
+To convert a document to MHTML or EPUB, use `SaveFormat.MHTML` or `SaveFormat.EPUB` respectively.
 
 ## Convert a Document with Round-trip Information
 

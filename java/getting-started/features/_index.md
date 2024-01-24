@@ -142,7 +142,7 @@ LINQ Reporting Engine is an advanced reporting tool enabling you to generate doc
 
 |Key Features|
 | :- |
-|Support of C# syntax and LINQ extension methods directly in templates (even for ADO.NET data sources)|
+|Support of C# syntax and LINQ extension methods directly in templates (even for `ADO.NET` data sources)|
 |Support of repeatable and conditional document blocks (loops and conditions) for tables, lists, and common content|
 |Support of dynamically generated charts and images|
 |Support of insertion of outer documents and HTML blocks into a document|

@@ -48,7 +48,7 @@ This implementation also uses the [Document.getChildNodes()](https://reference.a
 
 It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them.Then, all you need to do is to go through the collection, using the standard foreach operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the [Style.getName()](https://reference.aspose.com/words/java/com.aspose.words/style/#getName) property of the [Paragraph.getParagraphFormat()](https://reference.aspose.com/words/java/com.aspose.words/style/#getParagraphFormat) object.
 
-The implementation of RunsByStyleName is almost the same, although we’re obviously using NodeType.Run to retrieve run nodes. The [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) property of a [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) object is used to access style information in the **Run** nodes. 
+The implementation of RunsByStyleName is almost the same, although we’re obviously using `NodeType.Run` to retrieve run nodes. The [Font.getStyle()](https://reference.aspose.com/words/java/com.aspose.words/font/#getStyle) property of a [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) object is used to access style information in the **Run** nodes. 
 
 The following code example finds all runs formatted with the specified style.
 
@@ -80,7 +80,7 @@ The following code example shows how to insert a style separator to put differen
 
 ## Copy All Styles from Template
 
-There are cases when you want to copy all styles from one document into another. You can use the Document.CopyStylesFromTemplate method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. 
+There are cases when you want to copy all styles from one document into another. You can use the `Document.CopyStylesFromTemplate` method to copy styles from the specified template to a document. When styles are copied from a template to a document, like-named styles in the document are redefined to match the style descriptions in the template. Unique styles from the template are copied to the document. Unique styles in the document remain intact. 
 
 The following code example shows how to copy styles from one document into another.
 

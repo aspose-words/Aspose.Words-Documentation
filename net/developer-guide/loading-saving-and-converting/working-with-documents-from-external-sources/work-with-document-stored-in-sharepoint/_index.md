@@ -50,7 +50,7 @@ To create a new console application project, follow these steps:
 
 1. In Visual Studio, create a new console application project named "SPOnlineExample" for *C#* language and target framework *.NET 6*
 2. Add the following packages:
-   - Microsoft.Extensions.Configuration.Json
+   - `Microsoft.Extensions`.Configuration.Json
    - Aspose.Words
 
 ### Add Configuration File

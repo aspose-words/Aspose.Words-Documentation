@@ -44,7 +44,7 @@ An option for creating [Source Code Examples of using Aspose.Words for Java API]
 
 ## Using
 
-### Using Aspose.Word Maven Project Wizard
+### Using Aspose.Words Maven Project Wizard
 
 To create Aspose.Words Maven project for using [Aspose.Words for Java API](https://products.aspose.com/words/java/) within IntelliJ IDEA, you need to have an internet connection.
 

@@ -24,7 +24,7 @@ Key features provided by Mail Merge are as follows:
 - Dynamic insertion of images and documents
 - Support of repetitive document regions (data bands)
 - Inclusion of document parts depending on conditions
-- Built-in support for objects mimicking ADO.NET in Java as data sources (any custom data source can be supported by implementing the [IMailMergeDataSource](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/) interface)
+- Built-in support for objects mimicking `ADO.NET` in Java as data sources (any custom data source can be supported by implementing the [IMailMergeDataSource](https://reference.aspose.com/words/java/com.aspose.words/imailmergedatasource/) interface)
 
 Overall, Mail Merge is a good way to go if you are never going to use features beyond the scope of Mail Merge, or you have to deal with Microsoft Word mail merge templates. However, being tied with and limited by Microsoft Word behavior, Mail Merge cannot be easily extended to cover every specific scenario, and this is where LINQ Reporting Engine stands out.
 
@@ -37,8 +37,8 @@ In contrast to Mail Merge, the concept of the LINQ Reporting Engine was born wit
 However, the major advantage of the engine is its out-of-the-box support of many features missing in Mail Merge. The following are the key ones:
 
 - Support of multiple data sources (including of different types)
-- Built-in support of more data source types: Custom Java objects, objects mimicking ADO.NET in Java, JSON, XML, CSV
-- Using of C#-based expression syntax (extended for ADO.NET and other data sources, and adapted for Java) directly in templates
+- Built-in support of more data source types: Custom Java objects, objects mimicking `ADO.NET` in Java, JSON, XML, CSV
+- Using of C#-based expression syntax (extended for `ADO.NET` and other data sources, and adapted for Java) directly in templates
 - Using of LINQ extension methods for data manipulations directly in templates
 - Dynamic building of charts
 - Built-in support of HTML insertion

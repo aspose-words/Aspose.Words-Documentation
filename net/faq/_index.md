@@ -102,7 +102,7 @@ To check if the font is missing:
 
 **Q: Where should I store fonts for ASP.NET applications?**
 
-In APS.NET, there is no access to the system fonts folder in medium trust. Users have to store fonts in their own folder.
+In `APS.NET`, there is no access to the system fonts folder in medium trust. Users have to store fonts in their own folder.
 
 ------
 

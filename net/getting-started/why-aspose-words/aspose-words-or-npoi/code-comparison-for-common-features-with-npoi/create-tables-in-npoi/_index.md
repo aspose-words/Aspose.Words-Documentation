@@ -13,11 +13,11 @@ url: /net/create-tables-in-npoi/
 
 In **Aspose.Words** a table is normally inserted using **DocumentBuilder**. The following methods are used to build a table. Other methods will also be used to insert content into the table cells.
 
-- DocumentBuilder.StartTable
-- DocumentBuilder.InsertCell
-- DocumentBuilder.EndRow
-- DocumentBuilder.EndTable
-- DocumentBuilder.Writeln
+- `DocumentBuilder.StartTable`
+- `DocumentBuilder.InsertCell`
+- `DocumentBuilder.EndRow`
+- `DocumentBuilder.EndTable`
+- `DocumentBuilder.Writeln`
 
 **C#**
 

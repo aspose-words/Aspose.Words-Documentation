@@ -9,7 +9,7 @@ weight: 20
 url: /net/aspose-export-to-pdf-for-asp-net-mvc/
 ---
 
-Aspose.Words Export To PDF for ASP.NET MVC allows ASP.NET developers to add "Export To PDF" feature to their MVC website projects with few steps. This simplest solution allows developers to add “Export to PDF” and Export to any supported format (DOCX,DOC,DOT,DOTX,DOCM,DOTM,ODT,OTT,RTF,TXT) feature to any of their ASP.NET MVC project in few easy steps. It generates selected format version of any html page. This module demonstrates the powerful document building feature by Aspose.Word.
+Aspose.Words Export To PDF for ASP.NET MVC allows ASP.NET developers to add "Export To PDF" feature to their MVC website projects with few steps. This simplest solution allows developers to add “Export to PDF” and Export to any supported format (DOCX,DOC,DOT,DOTX,DOCM,DOTM,ODT,OTT,RTF,TXT) feature to any of their ASP.NET MVC project in few easy steps. It generates selected format version of any html page. This module demonstrates the powerful document building feature by `Aspose.Word`.
 
 Major features of this Addon are:
 
@@ -52,13 +52,13 @@ You can download the latest solution for Microsoft Visual Studio at:
 
 ### Test a running demonstration
 
-- Step 1 – Download Aspose.MVC.ExportToPDF Project.
-- Step 2 – Open Aspose.MVC.ExportToPDF Project
+- Step 1 – Download `Aspose.MVC`.ExportToPDF Project.
+- Step 2 – Open `Aspose.MVC`.ExportToPDF Project
 - Step 3 – Resolve “References” and run the project
 
 ### Embed “Export to PDF” to an Existing Project
 
-- Step 1 – Download Aspose.MVC.ExportToPDF Project.
+- Step 1 – Download `Aspose.MVC`.ExportToPDF Project.
 - Step 2 – Open your existing ASP.NET MVC Solution / Project.
 - Step 3 – Copy “Controllers/AsposeExporterController.cs” to your projects “Controllers” folder.
 - Step 4 - Copy “Views/Shared/AsposeWordsExportTypes.cshtml” to your projects “Views/Shared” folder.

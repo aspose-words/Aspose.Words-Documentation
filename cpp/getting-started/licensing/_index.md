@@ -59,12 +59,12 @@ After purchasing a license, you need to carefully read the information on page [
 Licenses can be applied from various locations:
 
 * Explicit path
-* The folder containing the Aspose.Words_\*.dll  file
-* The folder containing the assembly that called Aspose.Words_\*.dll
+* The folder containing the `Aspose.Words_`\*.dll  file
+* The folder containing the assembly that called `Aspose.Words_`\*.dll
 * The folder containing the entry assembly (your *.exe*)
-* An embedded resource in the assembly is called Aspose.Words_\*.dll
+* An embedded resource in the assembly is called `Aspose.Words_`\*.dll
 
-Often the easiest way to set a license is to place the license file in the same folder as Aspose.Words_\*.dll and specify just the filename without the path.
+Often the easiest way to set a license is to place the license file in the same folder as `Aspose.Words_`\*.dll and specify just the filename without the path.
 
 {{% alert color="primary" %}}
 
@@ -172,7 +172,7 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 
 ## Using Multiple Aspose Products
 
-If you use multiple Aspose products in your application, such as Aspose.Words and Aspose.Cells, here are a few useful tips:
+If you use multiple Aspose products in your application, such as Aspose.Words and `Aspose.Cells`, here are a few useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
-* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/cpp/class/aspose.words.license) and Aspose.Cells has Aspose.Cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/cpp/class/aspose.words.license) and `Aspose.Cells` has `Aspose.Cells`.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

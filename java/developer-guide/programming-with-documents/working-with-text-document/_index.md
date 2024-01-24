@@ -15,7 +15,7 @@ In this article, we will learn what options can be useful for working with a tex
 
 You can use the [AddBidiMarks](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/#getAddBidiMarks) property to specify whether to add bi-directional marks before each BiDi run when exporting in plain text format. Aspose.Words inserts Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional Run in text. This option corresponds to "Add bi-directional marks" option in the MS Word File Conversion dialog when you export to a Plain Text format. Note that it appears in dialog only if any of the Arabic or Hebrew editing languages are added in MS Word.
 
-The following code example shows how to use TxtSaveOptions.AddBidiMarks property. The default value of this property is *true*:
+The following code example shows how to use `TxtSaveOptions.AddBidiMarks` property. The default value of this property is *true*:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-loading_saving-WorkingWithTxt-AddBidiMarks.java" >}}
 
