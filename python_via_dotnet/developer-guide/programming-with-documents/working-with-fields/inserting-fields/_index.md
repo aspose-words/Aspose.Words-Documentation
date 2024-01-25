@@ -3,7 +3,7 @@ title: Inserting Fields in Python
 second_title: Aspose.Words for Python via .NET
 articleTitle: Insert Fields
 linktitle: Insert Fields
-description: "Insert fields into a document in Python in different ways: using DocumentBuilder or DOM (Document Object Model)."
+description: "Insert fields into a document in Python in different ways: using `DocumentBuilder` or DOM (Document Object Model)."
 type: docs
 weight: 20
 url: /python-net/inserting-fields/

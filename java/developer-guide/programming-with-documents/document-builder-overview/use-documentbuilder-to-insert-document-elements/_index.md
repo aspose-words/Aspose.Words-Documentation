@@ -1,8 +1,8 @@
 ---
-title: Use DocumentBuilder to Insert Document Elements
+title: Use `DocumentBuilder` to Insert Document Elements
 second_title: Aspose.Words for Java
-articleTitle: Use DocumentBuilder to Insert Document Elements
-linktitle: Use DocumentBuilder to Insert Document Elements
+articleTitle: Use `DocumentBuilder` to Insert Document Elements
+linktitle: Use `DocumentBuilder` to Insert Document Elements
 type: docs
 description: "Insert document elements using the document builder in Java."
 weight: 10
@@ -35,7 +35,7 @@ The following code example shows how to insert a paragraph into the document.
 
 ## Inserting a Table
 
-The basic algorithm to create a table using DocumentBuilder is simple:
+The basic algorithm to create a table using `DocumentBuilder` is simple:
 
 1. Start the table using [DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable).
 1. Insert a cell using [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell). This automatically starts a new row. If needed, use the [DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) property to specify cell formatting.
@@ -104,7 +104,7 @@ This example inserts a floating image from a file or URL at a specified position
 To insert a bookmark into the document, you should do the following:
 
 1. Call [DocumentBuilder.startBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startBookmark-java.lang.String) passing it the desired name of the bookmark.
-1. Insert the bookmark text using DocumentBuilder methods.
+1. Insert the bookmark text using `DocumentBuilder` methods.
 1. Call [DocumentBuilder.endBookmark](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endBookmark-java.lang.String) passing it the same name that you used with DocumentBuilder.startBookmark.
 
 Bookmarks can overlap and span any range. To create a valid bookmark you need to call both DocumentBuilder.startBookmark and DocumentBuilder.endBookmark with the same bookmark name.

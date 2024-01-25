@@ -1,8 +1,8 @@
 ---
-title: Using DocumentBuilder to Modify a Document
+title: Using `DocumentBuilder` to Modify a Document
 second_title: Aspose.Words for Java
-articleTitle: Using DocumentBuilder to Modify a Document
-linktitle: Using DocumentBuilder to Modify a Document
+articleTitle: Using `DocumentBuilder` to Modify a Document
+linktitle: Using `DocumentBuilder` to Modify a Document
 type: docs
 description: "Use the document builder to modify a document easily in Java."
 weight: 20
@@ -122,7 +122,7 @@ Aspose.Words provides two properties `ParagraphFormat.SnapToGrid` and `Font.Snap
 
 ### Detecting the Current Cursor Position
 
-You can obtain where the builder's cursor is currently positioned at any time. The [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using DocumentBuilder will insert before the `DocumentBuilder.CurrentNode`. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, `DocumentBuilder.CurrentNode` returns null.
+You can obtain where the builder's cursor is currently positioned at any time. The [DocumentBuilder.getCurrentNode](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentNode) property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using `DocumentBuilder` will insert before the `DocumentBuilder.CurrentNode`. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, `DocumentBuilder.CurrentNode` returns null.
 
 Also, you can use the [DocumentBuilder.getCurrentParagraph](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCurrentParagraph) property, which gets the paragraph that is currently selected in this **DocumentBuilder**. The below code example shows how to access the current node in a document builder.
 
@@ -203,7 +203,7 @@ Inserting new text in this way does not replace the existing text of the bookmar
 
 ### Moving to a Merge Field
 
-Sometimes you may need to perform a "manual" mail merge using DocumentBuilder or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
+Sometimes you may need to perform a "manual" mail merge using `DocumentBuilder` or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderMoveToMergeField-DocumentBuilderMoveToMergeField.java" >}}
 

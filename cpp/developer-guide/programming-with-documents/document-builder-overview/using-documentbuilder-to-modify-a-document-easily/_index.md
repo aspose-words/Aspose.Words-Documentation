@@ -1,8 +1,8 @@
 ---
-title: Using DocumentBuilder to Modify a Document Easily
+title: Using `DocumentBuilder` to Modify a Document Easily
 second_title: Aspose.Words for C++
-articleTitle: Using DocumentBuilder to Modify a Document Easily
-linktitle: Using DocumentBuilder to Modify a Document Easily
+articleTitle: Using `DocumentBuilder` to Modify a Document Easily
+linktitle: Using `DocumentBuilder` to Modify a Document Easily
 type: docs
 description: "Use the document builder to modify a document easily in C++."
 weight: 190
@@ -115,7 +115,7 @@ Aspose.Words provides two properties `ParagraphFormat.SnapToGrid` and `Font.Snap
 
 ### Detecting the Current Cursor Position
 
-You can obtain where the builder's cursor is currently positioned at any time. The `DocumentBuilder.CurrentNode` property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using DocumentBuilder will insert before the `DocumentBuilder.CurrentNode`. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, `DocumentBuilder.CurrentNode` returns null.
+You can obtain where the builder's cursor is currently positioned at any time. The `DocumentBuilder.CurrentNode` property returns the node that is currently selected in this builder. The node is a direct child of a paragraph. Any insert operations you perform using `DocumentBuilder` will insert before the `DocumentBuilder.CurrentNode`. When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, `DocumentBuilder.CurrentNode` returns null.
 
 Also, you can use the `DocumentBuilder.CurrentParagraph` property, which gets the paragraph that is currently selected in this **DocumentBuilder**. Below example shows how to access the current node in a document builder. You can download template file of this example from here.
 

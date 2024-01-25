@@ -13,7 +13,7 @@ url: /java/create-new-document-in-apache-poi-and-aspose-words/
 
 Call the Document constructor without parameters to create a new blank document.
 
-If you want to generate a document programmatically, the most reasonable step after creation is to use DocumentBuilder to add document contents.
+If you want to generate a document programmatically, the most reasonable step after creation is to use `DocumentBuilder` to add document contents.
 
 **Java**
 
