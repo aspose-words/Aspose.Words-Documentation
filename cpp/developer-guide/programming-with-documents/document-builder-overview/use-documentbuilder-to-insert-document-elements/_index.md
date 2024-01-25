@@ -68,7 +68,7 @@ If you want to explicitly start a new line, paragraph, column, section, or page,
 
 DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
 
-- From a file or URL by passing a string parameter DocumentBuilder->InsertImage.
+- From a file or `URL` by passing a string parameter DocumentBuilder->InsertImage.
 - From a stream by passing a `Stream` parameter DocumentBuilder->InsertImage.
 - From an Image object by passing an Image parameter DocumentBuilder->InsertImage.
 - From a byte array by passing a byte array parameter `DocumentBuilder.InsertImage`.For each of the DocumentBuilder->InsertImage methods, there are further overloads which allow you to insert an image with the following options:
@@ -83,7 +83,7 @@ Pass a single string representing a file that contains the image to DocumentBui
 
 ### Inserting a Floating (Absolutely Positioned) Image
 
-This example inserts a floating image from a file or URL at a specified position and size.
+This example inserts a floating image from a file or `URL` at a specified position and size.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertFloatingImage.cpp" >}}
 
@@ -135,7 +135,7 @@ Customers can specify Locale at field level now and can achieve better control. 
 
 ## Inserting a Hyperlink
 
-Use `DocumentBuilder.InsertHyperlink` to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.InsertHyperlink internally calls `DocumentBuilder.InsertField`.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the `Font` property. Below example inserts a hyperlink into a document using DocumentBuilder.
+Use `DocumentBuilder.InsertHyperlink` to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the `URL` is a name of a bookmark inside the document.DocumentBuilder.InsertHyperlink internally calls `DocumentBuilder.InsertField`.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the `Font` property. Below example inserts a hyperlink into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cpp" >}}
 

@@ -62,9 +62,9 @@ And after applying the mail merge with regions:
 
 <img src="mustache-syntax-2.png" alt="mustache_syntax_result_aspose_words_java" style="width:300px"/>
 
-## Use IF Fields to Make a Mail Merge Intelligent
+## Use `IF` Fields to Make a Mail Merge Intelligent
 
-Aspose.Words allows you to use mail merge fields and Mustache tags with the IF statement. The `IF` fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
+Aspose.Words allows you to use mail merge fields and Mustache tags with the `IF` statement. The `IF` fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
 
 The `IF` field formula is shown below:
 

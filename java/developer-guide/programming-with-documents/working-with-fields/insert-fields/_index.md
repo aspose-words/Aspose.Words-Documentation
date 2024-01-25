@@ -54,19 +54,19 @@ The following code example shows how to insert an empty field into the document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertFieldNone-InsertFieldNone.java" >}}
 
-### Insert COMPARE Field
+### Insert `COMPARE` Field
 
 The `COMPARE` field compares two values and returns the numeric value 1 if the comparison is true or 0 if the comparison is false.
 
-The following code example shows how to add COMPARE fields using DocumentBuilder:
+The following code example shows how to add `COMPARE` fields using DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldCompare.java" >}}
 
-### Insert IF Field
+### Insert `IF` Field
 
 The `IF` field can be used to evaluate arguments conditionally.
 
-The following code example shows how to add IF fields using DocumentBuilder:
+The following code example shows how to add `IF` fields using DocumentBuilder:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldIf.java" >}}
 
@@ -102,9 +102,9 @@ The following code example shows how to add the `MERGE` field using DOM to a par
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.java" >}}
 
-### Inserting Mail Merge ADDRESSBLOCK field into a Document using DOM
+### Inserting Mail Merge `ADDRESSBLOCK` field into a Document using DOM
 
-The `ADDRESSBLOCK` field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) class. You can use **FieldAddressBlock** class to perform the following operations:
+The `ADDRESSBLOCK` field is used to insert a mail merge address block in a Word document. `ADDRESSBLOCK` field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/java/com.aspose.words/fieldaddressblock/) class. You can use **FieldAddressBlock** class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -118,13 +118,13 @@ For more details, see the [FieldAddressBlock](https://reference.aspose.com/words
 
 {{% /alert %}}
 
-The following code example shows how to add the Mail Merge ADDRESSBLOCK Field using DOM to a paragraph in a document:
+The following code example shows how to add the Mail Merge `ADDRESSBLOCK` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.java" >}}
 
-### Inserting ADVANCE field into a Document without using DocumentBuilder
+### Inserting `ADVANCE` field into a Document without using DocumentBuilder
 
-The `ADVANCE` field is used to offset subsequent text within a line to the left, right, up or down. ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) class. You can use the **FieldAdvance** class to perform following operations:
+The `ADVANCE` field is used to offset subsequent text within a line to the left, right, up or down. `ADVANCE` field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/java/com.aspose.words/fieldadvance/) class. You can use the **FieldAdvance** class to perform following operations:
 
 - specify the number of points by which the text that follows the field should be moved vertically from the top edge of the page
 - specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box
@@ -140,9 +140,9 @@ The following code example shows how to add the `ADVANCE` Field using DOM to a p
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAdvance.java" >}}
 
-### Inserting ASK field into a Document without using DocumentBuilder
+### Inserting `ASK` field into a Document without using DocumentBuilder
 
-The `ASK` field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) class. You can use **FieldAsk** class to perform following operations:
+The `ASK` field is used to prompt the user for text to assign to a Bookmark in Word document. `ASK` field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/java/com.aspose.words/fieldask/) class. You can use **FieldAsk** class to perform following operations:
 
 - specify the name of the bookmark
 - specify default user response (initial value contained in the prompt window)
@@ -159,9 +159,9 @@ The following code example shows how to add the `ASK` Field using DOM to a parag
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertField-fieldAsk.java" >}}
 
-### Inserting AUTHOR field into a Document without using DocumentBuilder
+### Inserting `AUTHOR` field into a Document without using DocumentBuilder
 
-The `AUTHOR` field is used to specify the name of Document's author from the `Document` properties. AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) class. You can use **FieldAuthor** class to perform following operations:
+The `AUTHOR` field is used to specify the name of Document's author from the `Document` properties. `AUTHOR` field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) class. You can use **FieldAuthor** class to perform following operations:
 
 - specify the document author's name
 
@@ -175,7 +175,7 @@ The following code example shows how to add the `AUTHOR` Field using DOM to a pa
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-InsertAuthorField-InsertAuthorField.java" >}}
 
-### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
+### Inserting `INCLUDETEXT` field into a Document without using DocumentBuilder
 
 The `INCLUDETEXT` field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use [FieldIncludeText](https://reference.aspose.com/words/java/com.aspose.words/fieldincludetext/) class to perform following operations:
 
@@ -194,9 +194,9 @@ The following code example shows how to add the `INCLUDETEXT` field using DOM to
 
 ### Inserting `TOA` field into a Document without using DocumentBuilder
 
-The TOA (*Table of Authorities*) field builds and inserts a table of authorities. The `TOA` field collects entries marked by TA (*Table of Authorities Entry*) fields. Microsoft Office Word inserts the `TOA` field when you click *Insert Table of Authorities* in the **Table of Authorities** group on the **References** tab. When you view the `TOA` field in your document, the syntax looks like this:
+The `TOA` (*Table of Authorities*) field builds and inserts a table of authorities. The `TOA` field collects entries marked by `TA` (*Table of Authorities Entry*) fields. Microsoft Office Word inserts the `TOA` field when you click *Insert Table of Authorities* in the **Table of Authorities** group on the **References** tab. When you view the `TOA` field in your document, the syntax looks like this:
 
-{ TOA [Switches ] }
+{ `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 

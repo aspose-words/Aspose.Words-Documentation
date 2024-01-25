@@ -16,7 +16,7 @@ Document Comparison is built using Aspose.Words for .NET, HTML5, jQuery, Bootstr
 The following features are supported:
 
 - Compare text in paragraphs, tables, cells, header, footer, and more in Microsoft Word documents and highlight the differences
-- Compare Word documents to web URL
+- Compare Word documents to web `URL`
 - Web-based Word document viewer
 
 ## System Requirements

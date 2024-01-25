@@ -21,8 +21,8 @@ This article walks you through creating a workflow for building a report with pa
 ![todo:image_alt_text](making-a-report-via-workflow-activity-2.png)<br>
 By default, the report template is taken from the current list item.<br>
 ![todo:image_alt_text](making-a-report-via-workflow-activity-3.png)<br>
-However, this example uses a fixed URL set to the report template by editing the first workflow parameter.<br>
-The report template URL is specified in the activity parameter.<br>
+However, this example uses a fixed `URL` set to the report template by editing the first workflow parameter.<br>
+The report template `URL` is specified in the activity parameter.<br>
 ![todo:image_alt_text](making-a-report-via-workflow-activity-4.png)
 
 1. Assume that we need to provide the report parameter values during the workflow execution. Do so through the built-in **Collect Data from a User** SharePoint activity.<br>

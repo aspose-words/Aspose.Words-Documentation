@@ -11,7 +11,7 @@ url: /java/insert-image-using-apache-poi-and-aspose-words/
 
 ## Aspose.Words - Insert Image
 
-This example inserts a floating image from a file or URL at a specified position and size.
+This example inserts a floating image from a file or `URL` at a specified position and size.
 
 **Java**
 

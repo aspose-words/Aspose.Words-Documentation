@@ -101,7 +101,7 @@ To test and run the example project, perform the following steps:
 1. Then, you should test that the project runs well in the Development Fabric on your computer. Development Fabric is a local simulation of the Windows Azure compute and storage services. Select the `CloudService` project and make it the Start Up project for the solution and run. This time, it may take a bit longer to build the application because Visual Studio starts up the Development Fabric and deploys your project into it. The browser window will open with the form again, and you will be able to test the application.
 1. Finally, you can deploy and test your project in Windows Azure. To do this, you need to have an active Microsoft Azure subscription.
    In Visual Studio, right-click on your CloudService project and select Publish. If necessary, log in with your Microsoft Azure account and select a subscription.
-   To test, select the Staging Environment and click Publish. After that, in the Azure Activity Log, you will receive a URL to the deployed application.
+   To test, select the Staging Environment and click Publish. After that, in the Azure Activity Log, you will receive a `URL` to the deployed application.
 
 ![converting-documents-in-windows-azure-aspose-words-net-1](converting-documents-in-windows-azure-1.png)
 

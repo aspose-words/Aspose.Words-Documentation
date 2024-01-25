@@ -15,4 +15,4 @@ The [TableNames](/words/sharepoint/tablenames-element/) element is allowed insid
 
 | Name |Cardinality|Has Children| Description |
 | :- | :- | :- | :- |
-| `ServerRelativeXmlFileUrl` |1| No |Server relative URL of an XML data file.|
+| `ServerRelativeXmlFileUrl` |1| No |Server relative `URL` of an XML data file.|

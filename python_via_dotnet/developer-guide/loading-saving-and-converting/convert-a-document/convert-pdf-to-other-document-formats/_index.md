@@ -50,7 +50,7 @@ Some features are still in early development or included in the development road
 * Progress report
 * Multicolumn text
 * Math formulas
-* More automatic fields (besides PAGE and NUMPAGES)
+* More automatic fields (besides `PAGE` and NUMPAGES)
 
 ## PDF Load Exceptions
 

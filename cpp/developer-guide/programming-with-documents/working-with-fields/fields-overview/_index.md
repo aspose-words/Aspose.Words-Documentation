@@ -53,79 +53,79 @@ Form fields are also imported into Aspose.Words as their own special class. The 
 Calculation of the following fields is supported in the current version of Aspose.Words:
 
 - = (formula)
-- ADDRESSBLOCK
-- ASK
-- AUTHOR
-- AUTONUM
-- AUTONUMLGL
-- AUTONUMOUT
-- AUTOTEXT
-- BARCODE
-- COMMENTS
-- COMPARE
-- CREATEDATE
-- DATABASE
-- DATE
-- DISPLAYBARCODE
-- DOCPROPERTY
-- DOCVARIABLE
-- EDITTIME
-- EQ
-- FILENAME
-- FILESIZE
-- FILLIN
-- FORMCHECKBOX
-- FORMDROPDOWN
-- FORMTEXT
-- GLOSSARY
-- GOTOBUTTON
-- GREETINGLINE
-- HYPERLINK
-- IF
-- IMPORT
-- INCLUDE
-- INCLUDEPICTURE
-- INCLUDETEXT
-- INDEX
-- INFO
-- KEYWORDS
-- LASTSAVEDBY
-- LISTNUM
-- MACROBUTTON
-- MERGEBARCODE
-- MERGEFIELD
-- MERGEREC
-- MERGESEQ
-- NEXT
-- NEXTIF
-- NOTEREF
-- NUMCHARS
-- NUMPAGES
-- NUMWORDS
-- PAGE
-- PAGEREF
-- PRINTDATE
-- QUOTE
-- REF
-- REVNUM
-- SAVEDATE
-- SECTION
-- SECTIONPAGES
-- SEQ
-- SET
-- SHAPE
-- SKIPIF
-- STYLEREF
-- SUBJECT
-- SYMBOL
-- TEMPLATE
-- TIME
-- TITLE
-- TOA
-- TOC
-- USERADDRESS
-- USERINITIALS
-- USERNAME
+- `ADDRESSBLOCK`
+- `ASK`
+- `AUTHOR`
+- `AUTONUM`
+- `AUTONUMLGL`
+- `AUTONUMOUT`
+- `AUTOTEXT`
+- `BARCODE`
+- `COMMENTS`
+- `COMPARE`
+- `CREATEDATE`
+- `DATABASE`
+- `DATE`
+- `DISPLAYBARCODE`
+- `DOCPROPERTY`
+- `DOCVARIABLE`
+- `EDITTIME`
+- `EQ`
+- `FILENAME`
+- `FILESIZE`
+- `FILLIN`
+- `FORMCHECKBOX`
+- `FORMDROPDOWN`
+- `FORMTEXT`
+- `GLOSSARY`
+- `GOTOBUTTON`
+- `GREETINGLINE`
+- `HYPERLINK`
+- `IF`
+- `IMPORT`
+- `INCLUDE`
+- `INCLUDEPICTURE`
+- `INCLUDETEXT`
+- `INDEX`
+- `INFO`
+- `KEYWORDS`
+- `LASTSAVEDBY`
+- `LISTNUM`
+- `MACROBUTTON`
+- `MERGEBARCODE`
+- `MERGEFIELD`
+- `MERGEREC`
+- `MERGESEQ`
+- `NEXT`
+- `NEXTIF`
+- `NOTEREF`
+- `NUMCHARS`
+- `NUMPAGES`
+- `NUMWORDS`
+- `PAGE`
+- `PAGEREF`
+- `PRINTDATE`
+- `QUOTE`
+- `REF`
+- `REVNUM`
+- `SAVEDATE`
+- `SECTION`
+- `SECTIONPAGES`
+- `SEQ`
+- `SET`
+- `SHAPE`
+- `SKIPIF`
+- `STYLEREF`
+- `SUBJECT`
+- `SYMBOL`
+- `TEMPLATE`
+- `TIME`
+- `TITLE`
+- `TOA`
+- `TOC`
+- `USERADDRESS`
+- `USERINITIALS`
+- `USERNAME`
 
 ## Sophisticated Field Parsing
 
@@ -152,11 +152,11 @@ Aspose.Words provides a very serious implementation of the formula engine and su
 - number formatting switches:
   `=00000000 \\\# "$#,##0.00;($#,##0.00)"`
 
-The following functions in expressions are supported: ABS, AND, AVERAGE, COUNT, DEFINED, FALSE, IF, INT, MAX, MIN, MOD, NOT, OR, PRODUCT, ROUND, SIGN, SUM, TRUE.
+The following functions in expressions are supported: `ABS`, `AND`, `AVERAGE`, `COUNT`, `DEFINED`, `FALSE`, `IF`, `INT`, `MAX`, `MIN`, `MOD`, `NOT`, `OR`, `PRODUCT`, `ROUND`, `SIGN`, `SUM`, TRUE.
 
-### IF and COMPARE Fields
+### `IF` and `COMPARE` Fields
 
-Just some of the IF expressions that Aspose.Words can easily calculate should give you an idea of how powerful this feature is:
+Just some of the `IF` expressions that Aspose.Words can easily calculate should give you an idea of how powerful this feature is:
 
 - `IF 3 > 5.7^4+MAX(4,3) True False`
 - `IF "abcd" > "abc" True False`
@@ -164,7 +164,7 @@ Just some of the IF expressions that Aspose.Words can easily calculate should gi
 - `IF 4 = "2*2" True False`
 - `COMPARE 3+5/34 < 4.6/3/2`
 
-### DATE and TIME Fields
+### `DATE` and `TIME` Fields
 
 Aspose.Words supports all date and time formatting switches available in Microsoft Word, some examples are:
 
@@ -173,18 +173,18 @@ Aspose.Words supports all date and time formatting switches available in Microso
 
 ### Mail Merge Fields
 
-Aspose.Words imposes no limit on the complexity of mail merge fields in your documents and supports nested IF and formula fields and can even calculate the merge field’s name using a formula.
+Aspose.Words imposes no limit on the complexity of mail merge fields in your documents and supports nested `IF` and formula fields and can even calculate the merge field’s name using a formula.
 
 Some examples of mail merge fields that Aspose.Words supports:
 
 - Mail merge field switches:
   `MERGEFIELD FirstName \\\\\\\\* FirstCap \b "Mr. "`
 - nested merge fields in a formula:
-  `IF { MERGEFIELD Value1 } >= { MERGEFIELD Value2 } True False`
+  `IF { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } True False`
 - calculate the name of the merge field at runtime:
-  `MERGEFIELD { IF { MERGEFIELD Value1 } >= { MERGEFIELD Value2 } FirstName"LastName" }`
+  `MERGEFIELD { `IF` { `MERGEFIELD` Value1 } >= { `MERGEFIELD` Value2 } FirstName"LastName" }`
 - conditional move to next record in the data source:
-  `NEXTIF { MERGEFIELD Value1 } <= { =IF(-2.45 >= 6*{ MERGEFIELD Value2 }, 2, -.45) }`
+  `NEXTIF { `MERGEFIELD` Value1 } <= { =IF(-2.45 >= 6*{ `MERGEFIELD` Value2 }, 2, -.45) }`
 
 ### Format Switches
 

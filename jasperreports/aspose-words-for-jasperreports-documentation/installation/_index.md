@@ -201,7 +201,7 @@ This bean may contain various configuration settings intended to configure the e
 
 In order to enable Aspose exporters with the Web Services of Jasper Report Server addthefollowing lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext-web-services.xml** file.
 
-Note that starting from JasperReports Server 5.6 SOAP Web Services feature is NOT supported, please use REST Web Services instead (*see Step 5c below*).
+Note that starting from JasperReports Server 5.6 SOAP Web Services feature is `NOT` supported, please use REST Web Services instead (*see Step 5c below*).
 
 **XML**
 

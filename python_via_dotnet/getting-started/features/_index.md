@@ -25,7 +25,7 @@ The tables below summarize and compare the availability of Aspose.Words for Pyth
 
 The platforms Aspose.Words for Python via .NET can be used on Windows x64 or x86 and wide range of Linux distributions with Python 3.5 or later installed. There are additional requirements to the target Linux platform:
 - GCC-6 runtime libraries (or later)
-- Dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is NOT required
+- Dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is `NOT` required
 - For Python 3.5-3.7: The `pymalloc` build of Python is needed. The `--with-pymalloc` Python build option is enabled by default. Typically, the `pymalloc` build of Python is marked with `m` suffix in the filename.
 - `libpython` shared Python library. The `--enable-shared` Python build option is disabled by default, some Python distributions do not contain the `libpython` shared library. For some linux platforms, the `libpython` shared library can be installed using the package manager, for example: `sudo apt-get install libpython3.7`. The common issue is that `libpython` library is installed in a different location than the standard system location for shared libraries. The issue can be fixed by using the Python build options to set alternate library paths when compiling Python, or fixed by creating a symbolic link to the `libpython` library file in the system standard location for shared libraries. Typically, the `libpython` shared library file name is `libpythonX.Ym.so.1.0` for Python 3.5-3.7, or libpythonX.Y.so.1.0 for Python 3.8 or later (for example: `libpython3.7m.so.1.0`, `libpython3.9.so.1.0`).
 
@@ -62,7 +62,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |Specify image resolution, quality, compression and other options.|{{< emoticons/tick >}}|
 |Render pages or shapes to a .NET Graphics object with transforms, to a specific size.|{{< emoticons/tick >}}|
 |Print document pages using the .NET printing infrastructure.|{{< emoticons/cross >}}|
-|Update TOC, page numbers and other fields before rendering or printing.|{{< emoticons/tick >}}|
+|Update `TOC`, page numbers and other fields before rendering or printing.|{{< emoticons/tick >}}|
 
 ## Document Content Features
 
@@ -78,7 +78,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 |Access, create and modify footnotes, endnotes and comments.|{{< emoticons/tick >}}|
 |Access, create and modify Custom XML, SmartTags and Structured Document Tags (Content Controls).|{{< emoticons/tick >}}|
 |Access and modify all document elements using **XmlDocument** -like classes and methods.|{{< emoticons/tick >}}|
-|Update field results IF, formula and other popular field types.|{{< emoticons/tick >}}|
+|Update field results `IF`, formula and other popular field types.|{{< emoticons/tick >}}|
 |Rebuild and update Table Of Contents (TOC) fields exactly like Microsoft Word does it.|{{< emoticons/tick >}}|
 |Copy and move document elements between documents.|{{< emoticons/tick >}}|
 |Join and split documents.|{{< emoticons/tick >}}|
@@ -112,7 +112,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 
 | Feature |Python via .NET|
 | :- | :- |
-|Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|{{< emoticons/tick >}}|
+|Use all standard Microsoft Word mail merge fields in your reports including `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE.|{{< emoticons/tick >}}|
 |Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas.|{{< emoticons/tick >}}|
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|{{< emoticons/cross >}}|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|{{< emoticons/cross >}}|

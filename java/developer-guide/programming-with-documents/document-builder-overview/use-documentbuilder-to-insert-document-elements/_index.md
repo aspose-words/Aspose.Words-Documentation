@@ -74,7 +74,7 @@ The following code example shows how to insert page breaks into a document.
 
 DocumentBuilder provides several overloads of the [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.insertImage method can use images from different sources:
 
-- From a file or URL by passing a string parameter
+- From a file or `URL` by passing a string parameter
 - From a stream by passing a `Stream` parameter
 - From an Image object by passing an Image parameter
 - From a byte array by passing a byte array parameter
@@ -95,7 +95,7 @@ Pass a single string representing a file that contains the image to DocumentBuil
 
 ### Inserting a Floating (Absolutely Positioned) Image
 
-This example inserts a floating image from a file or URL at a specified position and size.
+This example inserts a floating image from a file or `URL` at a specified position and size.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertFloatingImage-DocumentBuilderInsertFloatingImage.java" >}}
 
@@ -158,13 +158,13 @@ You can easily insert an HTML string that contains an HTML fragment or whole HTM
 
 ## Inserting a Hyperlink
 
-Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.insertHyperlink internally calls DocumentBuilder.insertField. The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the `Font` property. The following code example inserts a hyperlink into a document using DocumentBuilder.
+Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the `URL` is a name of a bookmark inside the document.DocumentBuilder.insertHyperlink internally calls DocumentBuilder.insertField. The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the `Font` property. The following code example inserts a hyperlink into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 
 ## Inserting a Table of Contents
 
-You can insert a TOC (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) method. The DocumentBuilder.insertTableOfContents method will only insert a `TOC` field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
+You can insert a `TOC` (table of contents) field into the document at the current position by calling the [DocumentBuilder.insertTableOfContents](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTableOfContents-java.lang.String) method. The DocumentBuilder.insertTableOfContents method will only insert a `TOC` field into the document. In order to build the table of contents and display them according to page numbers, the both **Document.UpdateFields**method must be called after the insertion of the field. The following code example shows how to insert a Table of Contents field into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTableOfContents-DocumentBuilderInsertTableOfContents.java" >}}
 

@@ -50,7 +50,7 @@ The parameters of the workflow action are similar to the conversion settings ava
 
 ![todo:image_alt_text](converting-a-document-via-workflow-activity-3.png)
 
-1. For this example, type in the server-relative URL of the destination document library folder.
+1. For this example, type in the server-relative `URL` of the destination document library folder.
 1. Leave the destination file name parameter at the default (“the same file name”).
 1. Select **Do overwrite existing files** to overwrite existing files in the destination folder with the conversion result.
    **Setting other workflow action parameters.**

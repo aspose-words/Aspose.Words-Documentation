@@ -15,7 +15,7 @@ See more details in the ["Working with Images"](/words/net/working-with-images/)
 
 {{% /alert %}}
 
-The [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) provides several overloads of the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/#insertimage) method that allow you to insert an inline or floating image. For example, the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) method is used to insert an image from a file or URL into a document.
+The [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) provides several overloads of the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/#insertimage) method that allow you to insert an inline or floating image. For example, the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) method is used to insert an image from a file or `URL` into a document.
 
 Using [Shape ](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)class you can create or modify shapes in a Microsoft Word document.
 

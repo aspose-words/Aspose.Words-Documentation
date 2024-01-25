@@ -19,7 +19,7 @@ This initial version of the module is enriched with the following features to ma
 - Allow to edit quotation document title, reference #, generating date
 - Allow to upload and use company logo image
 - Allow to enter company name and complete address
-- Allow to display company name OR logo image OR both
+- Allow to display company name `OR` logo image `OR` both
 - Allow to enter customer/client name and complete address
 - Allow to dynamically create products/items rows between 0-99
 - Calculates total amount for each product/items

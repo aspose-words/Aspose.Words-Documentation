@@ -20,7 +20,7 @@ Use the [InsertHyperlink](https://reference.aspose.com/words/cpp/aspose.words/d
 
 1. Text of the link to be displayed in the document
 2. Link destination (URL or a name of a bookmark inside the document)
-3. Boolean parameter that should be true if the URL is a name of a bookmark inside the document
+3. Boolean parameter that should be true if the `URL` is a name of a bookmark inside the document
 
 The **InsertHyperlink** method always adds apostrophes at the beginning and end of the URL.
 
@@ -40,6 +40,6 @@ Hyperlink in Microsoft Word documents is a field. A field in a Word document is
 
 The `FieldHyperlink` class implements the `HYPERLINK` field.
 
-The following code example shows how to find all hyperlinks in Word document and changes their URL and display name:
+The following code example shows how to find all hyperlinks in Word document and changes their `URL` and display name:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.cpp" >}}

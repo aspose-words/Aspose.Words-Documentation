@@ -13,9 +13,9 @@ Sometimes users need to apply custom formatting to fields. In this article, we w
 
 To learn more options, see the full list of properties for each field type in the corresponding class in the [Fields module](https://reference.aspose.com/words/python-net/aspose.words.fields/).
 
-## How to evaluate IF condition
+## How to evaluate `IF` condition
 
-If you want to evaluate IF condition after mail merge, you can use the [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) method that immediately returns the result of the expression evaluation.
+If you want to evaluate `IF` condition after mail merge, you can use the [EvaluateCondition](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldif/evaluate_condition/) method that immediately returns the result of the expression evaluation.
 
 The following code example shows how to use this method:
 

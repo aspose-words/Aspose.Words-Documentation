@@ -45,9 +45,9 @@ As you notice from the example above, in Mustache you need to use curly braces f
 
 Mustache is represented as a logic-less order as it lacks any specific control flow statements such as *for* loops and *if* and *else* conditions. But you can use the section tags processing lists and lambdas to achieve conditional evaluation and looping. So to include the Mustache syntax within the mail merge operation, you will need to use the [use_non_merge_fields](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/use_non_merge_fields/) property and set its value to *True*.
 
-## Use IF Fields to Make a Mail Merge Intelligent
+## Use `IF` Fields to Make a Mail Merge Intelligent
 
-Aspose.Words allows you to use mail merge fields and Mustache tags with the IF statement. The `IF` fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
+Aspose.Words allows you to use mail merge fields and Mustache tags with the `IF` statement. The `IF` fields can be used in any mail merge document to suppress undesired spaces and commas if a field is blank.
 
 The `IF` field formula is shown below:
 

@@ -31,7 +31,7 @@ The destination folder you have selected may already contain some of the files y
 
 ### Browse for destination folder
 
-Corporate sites can consist of dozens of document libraries with complex URLs so manually entering the destination folder URL can be a headache. So, to not have to remember the complete path to a library or subfolder, click **Browse** and select a destination folder visually. 
+Corporate sites can consist of dozens of document libraries with complex URLs so manually entering the destination folder `URL` can be a headache. So, to not have to remember the complete path to a library or subfolder, click **Browse** and select a destination folder visually. 
 
 
 

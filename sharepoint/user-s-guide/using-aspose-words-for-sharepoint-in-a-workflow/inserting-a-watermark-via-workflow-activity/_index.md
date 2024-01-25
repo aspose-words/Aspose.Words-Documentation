@@ -37,7 +37,7 @@ To create a new workflow:
 
 For a text and image watermark, the following common parameters have been entered:
 
-- **Destination folder URL**. The modified document is placed here. If this parameter is not set, the modification result is placed in the same folder as the source file. The URL must end with "/".
+- **Destination folder URL**. The modified document is placed here. If this parameter is not set, the modification result is placed in the same folder as the source file. The `URL` must end with "/".
 - **Destination file name**. Specify this parameter to give the modified file a different name. If this parameter is not set, the modified file will have the same name as the source file.
 - **Do overwrite existing files**. Whether or not to replace existing files in the destination library with the modified file. By default, a modified file does not overwrite existing files.
 
@@ -47,12 +47,12 @@ Specific parameter for text watermark:
 
 Specific parameter for image watermark:
 
-- **Image URL**. This URL of an image which will be inserted in document.
+- **Image URL**. This `URL` of an image which will be inserted in document.
 
 Set values for these parameters:
 
-1. Specify any text for **Text** or a server-relative image URL for **Image Url**.
-2. Type in the server-relative URL of the destination document library folder for **Destination folder URL**.
+1. Specify any text for **Text** or a server-relative image `URL` for **Image Url**.
+2. Type in the server-relative `URL` of the destination document library folder for **Destination folder URL**.
 3. Leave the **Destination file name** parameter at the default.
 4. Select **Do overwrite existing files** to overwrite existing files in the destination folder with the modified result.
 

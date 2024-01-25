@@ -29,7 +29,7 @@ To explicitly update fields in the whole document, simply call [update_fields](h
 
 ### Automatic Update of Page-Related Fields During Rendering
 
-When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
+When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields `PAGE`, `PAGEREF` found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
 
 If you want to update all other fields in the document, then you need to call [update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) before rendering the document.
 

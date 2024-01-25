@@ -67,7 +67,7 @@ You have successfully added Aspose .NET Advance DNN Content Exporter module to y
 
 ### Export Contents
 
-1. Select **Exportable Area** "Full Page" OR DNN Skin Panels.
+1. Select **Exportable Area** "Full Page" `OR` DNN Skin Panels.
 1. Select **Export Format** provided by Aspose.Words for .NET API.
 1. Click **Export** Button.
 1. Open/Download exported file in browser.

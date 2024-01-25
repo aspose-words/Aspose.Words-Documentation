@@ -37,7 +37,7 @@ You have successfully installed and added Aspose .NET Quote Generator for Umbrac
 1. You can generate product rows to 99
 1. Enter products details such as (Description, Unit Price, Quantity, VAT percentage selection if applicable )
 1. Enter Quotation description/details And Terms & Conditions to display
-1. Option either to ‘Clear Form Fields’ OR Select Export File Format’ from List
+1. Option either to ‘Clear Form Fields’ `OR` Select Export File Format’ from List
 
 ### Input Fields
 

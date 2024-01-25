@@ -243,9 +243,9 @@ The ability to set the distance between the table and surrounding text has been 
 
 ### Loading and Saving Documents
 
-#### Generate TOC for AZW3 Documents <sup>23.1</sup>
+#### Generate `TOC` for AZW3 Documents <sup>23.1</sup>
 
-The ability to generate TOC (table of contents) for AZW3 documents has been added through the use of the [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) property.
+The ability to generate `TOC` (table of contents) for AZW3 documents has been added through the use of the [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) property.
 
 #### Exporting List Items to Markdown <sup>23.1</sup>
 

@@ -16,7 +16,7 @@ Typically, a field inserted into Microsoft Word already contains an up to date v
 When a document is loaded, Aspose.Words mimics the behavior of Microsoft Word with the option to automatically update fields is switched off. The behavior can be summarized as follows:
 
 - when you open/save a document the fields remain intact
-- you can explicitly update all fields in a document, for example, rebuild TOC when you need to
+- you can explicitly update all fields in a document, for example, rebuild `TOC` when you need to
 - when you print/render to PDF or XPS the fields related to page-numbering in headers/footers are updated
 - when you execute mail merge all fields are updated automatically
 
@@ -26,7 +26,7 @@ To explicitly update fields in the whole document, simply call the [UpdateFields
 
 ### Automatic Update of Page-Related Fields during Rendering
 
-When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields PAGE, PAGEREF found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
+When you execute conversion of a document to a fixed-page format e.g. to PDF or XPS, then Aspose.Words will automatically update page layout-related fields `PAGE`, `PAGEREF` found in headers/footers of the document. This behavior mimics the behavior of Microsoft Word when printing a document.
 
 If you want to update all other fields in the document, then you need to call [UpdateFields](https://reference.aspose.com/words/java/com.aspose.words/document/#updateFields) before rendering the document.
 

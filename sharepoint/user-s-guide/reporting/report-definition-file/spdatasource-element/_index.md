@@ -13,5 +13,5 @@ This element contains information about a connection to a SharePoint server. You
 
 | Name |Cardinality|Has Children| Description |
 | :- | :- | :- | :- |
-| `SiteUrl` |1| No |Full SharePoint site URL, including https://server:port part. It must not be empty.|
+| `SiteUrl` |1| No |Full SharePoint site `URL`, including https://server:port part. It must not be empty.|
 | `Credentials` |0-1| Yes |Defines user name and password to use for connecting to a SharePoint server. Omit it to use the current user credentials.|

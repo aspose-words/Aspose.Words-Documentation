@@ -27,7 +27,7 @@ You should store the link to the report definition in a custom document property
    **The Properties list on the Custom tab**<br>
 ![todo:image_alt_text](linking-report-template-with-report-definition-3.png)
 
-1. Edit the report definition URL in the in the **Value** field. On changing the value, **Modify** button becomes enabled.
+1. Edit the report definition `URL` in the in the **Value** field. On changing the value, **Modify** button becomes enabled.
 1. Click **Modify** to save the changes.<br>
    **Setting the value**<br>
 ![todo:image_alt_text](linking-report-template-with-report-definition-4.png)<br>

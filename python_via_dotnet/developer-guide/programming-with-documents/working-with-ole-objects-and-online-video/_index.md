@@ -58,7 +58,7 @@ The following code example shows how to inserts an embedded OLE object as an ico
 
 Online video can be inserted into Word document from the *"Insert" > "Online Video"* tab. You can insert an online video into a document at the current location by calling the [insert_online_video](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_online_video/) method.
 
-The [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class introduces four overloads of this method. The first one works with the most popular video resources and takes the URL of the video as a parameter. For example, the first overload supports simple insertion of online videos from [YouTube](https://www.youtube.com/) and [Vimeo](https://vimeo.com/) resources.
+The [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) class introduces four overloads of this method. The first one works with the most popular video resources and takes the `URL` of the video as a parameter. For example, the first overload supports simple insertion of online videos from [YouTube](https://www.youtube.com/) and [Vimeo](https://vimeo.com/) resources.
 
 The following code example shows how to insert an online video from *Vimeo* into a document:
 

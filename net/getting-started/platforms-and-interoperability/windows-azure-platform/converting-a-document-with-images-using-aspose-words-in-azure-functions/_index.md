@@ -83,7 +83,7 @@ namespace AsposeWordsAzureTestApp
 {{< /highlight >}}<br>
 1. Run the code in Visual Studio to test it. The result will be displayed in the console output.<br>
 <img src="1.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_1" style="width:800px"/>
-1. Copy URL from the console output to your favorite browser to get the output document, which should look as follows:<br>
+1. Copy `URL` from the console output to your favorite browser to get the output document, which should look as follows:<br>
 <img src="2.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_2" style="width:800px"/>
 1. Now, if you [deploy the created function to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure), the image will not be rendered because of the problem stated at the beginning of this article. The output is shown below:<br>
 <img src="3.png" alt="converting-a-document-with-images-using-aspose-words-in-azure-functions_3" style="width:800px"/>

@@ -31,7 +31,7 @@ Aspose.Words provides users with a wide range of features. Users can perform a h
 - Insertion of SVG images into the documents
 - Insertion online video
 - Creation DML Charts
-- Updating fields that depend on document layout, like TOC, PAGE, etc.
+- Updating fields that depend on document layout, like `TOC`, `PAGE`, etc.
 - Comparing Two Word Documents
 - Reading and Writing VBA Macros
 

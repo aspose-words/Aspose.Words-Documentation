@@ -28,7 +28,7 @@ The report settings screen is displayed. The following options are available:
 1. If the report has parameters, the **Parameters** section is present. Enter the required parameter values of the appropriate type.
 1. Select the destination format from the **Save as** list.
 1. Enter the destination file name in the **Destination file** box. By default, Aspose.Words for SharePoint prepopulates this field with the name of the report template file. The extension is added automatically depending on the selected format.
-1. Enter the URL of the destination library folder in the **Destination folder** box. It can be a folder in a different site collection. The default value is where the report template is located.
+1. Enter the `URL` of the destination library folder in the **Destination folder** box. It can be a folder in a different site collection. The default value is where the report template is located.
 1. Check the **Overwrite existing files in the destination folder** option to replace an existing file with the report in case of a name clash. By default, existing files are not overwritten. If this box is checked:
    1. When the destination library has versioning enabled, a new file version is added for a conflicting file.
    1. When versioning is not enabled for the destination library, an existing file with a conflicting name is overwritten.

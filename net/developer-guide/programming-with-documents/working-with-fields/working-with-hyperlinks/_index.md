@@ -17,7 +17,7 @@ Use the [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/d
 
 1. Text of the link to be displayed in the document
 2. Link destination (URL or a name of a bookmark inside the document)
-3. Boolean parameter that should be true if the URL is a name of a bookmark inside a document
+3. Boolean parameter that should be true if the `URL` is a name of a bookmark inside a document
 
 The **InsertHyperlink** method always adds apostrophes at the beginning and end of the URL. 
 
@@ -37,6 +37,6 @@ Hyperlink in Microsoft Word documents is a field. A field in a Word document, as
 
 To replace or modify hyperlinks, it is need to find the hyperlinks in the document and replace either their text, URLs, or both.
 
-The following code example shows how to find all hyperlinks in Word document and changes their URL and display name:
+The following code example shows how to find all hyperlinks in Word document and changes their `URL` and display name:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Hyperlink-ReplaceHyperlinks-ReplaceHyperlinks.cs" >}}

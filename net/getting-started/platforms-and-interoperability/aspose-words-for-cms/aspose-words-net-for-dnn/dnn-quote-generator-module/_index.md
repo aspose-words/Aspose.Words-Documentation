@@ -19,7 +19,7 @@ This initial version of the module is enriched with the following features to ma
 - Allow to edit quotation document title, reference #, generating date
 - Allow to upload and use company logo image
 - Allow to enter company name and complete address
-- Allow to display company name OR logo image OR both
+- Allow to display company name `OR` logo image `OR` both
 - Allow to enter customer/client name and complete address
 - Allow to dynamically create products/items rows between 0-99
 - Calculates total amount for each product/items
@@ -86,7 +86,7 @@ You have successfully added Aspose .NET Quote Generator module to your page. You
 1. You can generate product rows to 99
 1. Enter products details such as (Description, Unit Price, Quantity, VAT percentage selection if applicable )
 1. Enter Quotation description/details And Terms & Conditions to display
-1. Option either to ‘Clear Form Fields’ OR Select Export File Format’ from List
+1. Option either to ‘Clear Form Fields’ `OR` Select Export File Format’ from List
 
 ### How to apply Aspose License?
 

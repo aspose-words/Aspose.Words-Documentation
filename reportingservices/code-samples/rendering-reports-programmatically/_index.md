@@ -21,7 +21,7 @@ If you have a Report Server running with Aspose.Words for Reporting Services ins
 
 ### Step 1. Add a reference to the ReportingService2005 Web service.
 
-Open your project in Visual Studio, right click on the **References** folder and select **Add Web Reference** . Enter the URL of the **ReportingService2005** Web service ( ReportService2005.asmx) or browse for it using the browser on the left. Once the service is found, enter “ReportingService2005” in the **Web reference name** textbox and click the **Add Reference** button.
+Open your project in Visual Studio, right click on the **References** folder and select **Add Web Reference** . Enter the `URL` of the **ReportingService2005** Web service ( ReportService2005.asmx) or browse for it using the browser on the left. Once the service is found, enter “ReportingService2005” in the **Web reference name** textbox and click the **Add Reference** button.
 
 **Adding a reference to the ReportingService2005 Web service in Visual Studio.**
 

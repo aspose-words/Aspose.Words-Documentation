@@ -15,7 +15,7 @@ There are 3 parameters for configuring how to process images when exporting to H
 
 IMAGES_FOLDER sets exact system folder to save images into. Is empty by default, save to same folder when report output is located.
 
-IMAGES_FOLDER_ALIAS sets URL prefix for images in HTML output. Is empty by default, no prefix.
+IMAGES_FOLDER_ALIAS sets `URL` prefix for images in HTML output. Is empty by default, no prefix.
 
 IMAGE_NAME_TEMPLATE sets how to name images. By default images are named with unique names such as “Aspose.Words.<long UID>.NNN.ext”, where NNN is sequential image number for the report. If you set IMAGE_NAME_TEMPLATE=xxx, then unique image names will look like “xxx.NNN.ext”.
 

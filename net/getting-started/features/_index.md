@@ -66,7 +66,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |Specify image resolution, quality, compression and other options.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Render pages or shapes to a .NET Graphics object with transforms, to a specific size.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Print document pages using the .NET printing infrastructure.|{{< emoticons/tick >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|{{< emoticons/cross >}}|
-|Update TOC, page numbers and other fields before rendering or printing.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Update `TOC`, page numbers and other fields before rendering or printing.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 
 ## Document Content Features
 
@@ -82,7 +82,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 |Access, create and modify footnotes, endnotes and comments.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access, create and modify Custom XML, SmartTags and Structured Document Tags (Content Controls).|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Access and modify all document elements using **XmlDocument** -like classes and methods.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Update field results IF, formula and other popular field types.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Update field results `IF`, formula and other popular field types.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rebuild and update Table Of Contents (TOC) fields exactly like Microsoft Word does it.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Copy and move document elements between documents.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Join and split documents.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -116,7 +116,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 
 | Feature |.NET|.NET Standard 2.0|Xamarin.Android|Xamarin.iOS|Xamarin.Mac|
 | :- | :- | :- | :- | :- | :- |
-|Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Use all standard Microsoft Word mail merge fields in your reports including `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

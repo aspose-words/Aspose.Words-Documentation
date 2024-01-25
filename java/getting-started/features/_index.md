@@ -66,7 +66,7 @@ Aspose.Words now provides high fidelity rendering of document pages.
 |Render document pages to raster images (Multipage TIFF, PNG, JPEG, BMP).|
 |Render pages to a Java Graphics object to a specific size.|
 |Print document pages using the Java printing infrastructure.|
-|Update TOC, page numbers, and other fields before rendering or printing.|
+|Update `TOC`, page numbers, and other fields before rendering or printing.|
 |3D Effects Rendering through the OpenGL|
 
 ## Document Content Features
@@ -87,7 +87,7 @@ Aspose.Words provides a rich object model that consists of over 100 public class
 |Access, create and modify footnotes, endnotes, and comments.|
 |Access, create and modify Custom XML, SmartTags, and Structured Document Tags (Content Controls).|
 |Access and modify all document elements using **XmlDocument** -like classes and methods.|
-|Update field results IF, formula, and other popular field types.|
+|Update field results `IF`, formula, and other popular field types.|
 |Rebuild and update Table Of Contents (TOC) fields exactly as Microsoft Word does.|
 |Copy and move document elements between documents.|
 |Join and split documents.|
@@ -125,7 +125,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 
 | Feature |
 | :- |
-|Use all standard Microsoft Word mail merge fields in your reports including MERGEFIELD, NEXT, NEXTIF, ADDRESSBLOCK, GREETINGLINE.|
+|Use all standard Microsoft Word mail merge fields in your reports including `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE.|
 |Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas.|
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|

@@ -91,7 +91,7 @@ PublicKeyBlob="00240000048000009400000006020000002400005253413100040000010001005
 
 ## Step 5. Verify that Aspose.Words for Reporting Services was installed successfully.
 
-Launch Report Manager by opening your browser (Microsoft Internet Explorer 6.0 or later). Type the Report Manager URL in the address bar (by default it is *https://&lt;ComputerName&gt;/Reports*).
+Launch Report Manager by opening your browser (Microsoft Internet Explorer 6.0 or later). Type the Report Manager `URL` in the address bar (by default it is *https://&lt;ComputerName&gt;/Reports*).
 
 Select one of the reports you have on your server and open the Select Format combo box. You should see the list of export formats provided by Aspose.Words for Reporting Services. Select DOC – Word Document via Aspose.Words. 
 

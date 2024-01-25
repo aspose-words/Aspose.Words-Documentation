@@ -71,7 +71,7 @@ You can download the latest solution at:
 - Create a new Website.
 - Choose physical path and configure website.
 - Browse to check if it is accessible.
-- Open CRM and add a new record under Aspose>> Aspose Configuration Entity and specify the Name and URL of the deployed Web Page.
+- Open CRM and add a new record under Aspose>> Aspose Configuration Entity and specify the Name and `URL` of the deployed Web Page.
 
 ### How to Uninstall
 

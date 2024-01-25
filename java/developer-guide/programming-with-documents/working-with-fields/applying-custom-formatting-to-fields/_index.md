@@ -23,9 +23,9 @@ The following code example shows how to apply custom formatting for the field re
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-FieldResultFormatter-FieldResultFormatter.java" >}}
 
-## How to evaluate IF condition
+## How to evaluate `IF` condition
 
-If you want to evaluate IF condition after mail merge, you can use the [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) method that immediately returns the result of the expression evaluation.
+If you want to evaluate `IF` condition after mail merge, you can use the [EvaluateCondition](https://reference.aspose.com/words/java/com.aspose.words/fieldif/#evaluateCondition) method that immediately returns the result of the expression evaluation.
 
 The following code example shows how to use this method:
 
