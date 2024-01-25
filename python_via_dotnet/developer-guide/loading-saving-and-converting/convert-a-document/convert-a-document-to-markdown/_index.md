@@ -47,7 +47,7 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 * Blockquotes are paragraphs with "Quote" in the style name
 * IndentedCode are paragraphs with "IndentedCode" in the style name
 * FencedCode are paragraphs with "FencedCode" in the style name
-* InlineCode are runs with "InlineCode" in the Font style name
+* InlineCode are runs with "InlineCode" in the `Font` style name
 * Horizontal rules are paragraphs with the `HorizontalRule` shape
 * Bold emphasis
 * Italic emphasis
