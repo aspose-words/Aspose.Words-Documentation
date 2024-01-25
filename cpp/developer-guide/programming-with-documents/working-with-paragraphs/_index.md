@@ -31,7 +31,7 @@ The following code example shows how to set paragraph formatting:
 
 ## Apply Paragraph Style
 
-Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
+Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a `Style` object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
 Furthermore, a **Style** object provides the [StyleIdentifier](https://reference.aspose.com/words/cpp/aspose.words/style/get_styleidentifier/) property that returns a locale-independent style identifier represented by the **StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as *Normal*, *Heading 1*, *Heading 2* etc. All user-defined styles are assigned the **StyleIdentifier.User** value.
 
@@ -49,7 +49,7 @@ The following code example shows how to insert a style separator to accommodate 
 
 ## Identify Paragraph Style Separator
 
-` `Aspose.Words provides a public property [BreakIsStyleSeparator](https://reference.aspose.com/words/cpp/aspose.words/paragraph/get_breakisstyleseparator/) into a Paragraph class allows identifying Style Separator Paragraph as shown in the example given below:
+` `Aspose.Words provides a public property [BreakIsStyleSeparator](https://reference.aspose.com/words/cpp/aspose.words/paragraph/get_breakisstyleseparator/) into a `Paragraph` class allows identifying Style Separator Paragraph as shown in the example given below:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-ParagraphStyleSeparator-ParagraphStyleSeparator.cpp" >}}
 

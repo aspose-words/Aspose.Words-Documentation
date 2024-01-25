@@ -92,13 +92,13 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p><p>The `TOC` field also has a relat
 
 You can insert a new TC field at the current position of the [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) by calling the [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) method and specifying the field name as “TC” along with any switches that are needed.
 
-The following code example shows how to insert a TC field into the document using **DocumentBuilder**:
+The following code example shows how to insert a `TC` field into the document using **DocumentBuilder**:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTCField-DocumentBuilderInsertTCField.cs" >}}
 
-Often a specific line of text is designated for the TOC and is marked with a TC field.  The easy way to do this in Microsoft Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a TC field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a TC field in the same position with the text. The code is based off the same technique used in the article.
+Often a specific line of text is designated for the TOC and is marked with a `TC` field.  The easy way to do this in Microsoft Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a `TC` field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a `TC` field in the same position with the text. The code is based off the same technique used in the article.
 
-The following code example shows how to find and insert a TC field at text in a document:
+The following code example shows how to find and insert a `TC` field at text in a document:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertTCFieldsAtText-DocumentBuilderInsertTCFieldsAtText.cs" >}}
 

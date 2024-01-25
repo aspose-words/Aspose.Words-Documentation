@@ -84,7 +84,7 @@ By default these switches above are included when inserting a default TOC in the
 
 ## Insert TC Fields
 
-You can insert a new TC field at the current position of the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) by calling the [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) method and specifying the field name as “TC” along with any switches that are needed. Below example shows how to insert a TC field into the document using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
+You can insert a new TC field at the current position of the [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) by calling the [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) method and specifying the field name as “TC” along with any switches that are needed. Below example shows how to insert a `TC` field into the document using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertTCField.py" >}}
 

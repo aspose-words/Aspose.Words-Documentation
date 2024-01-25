@@ -317,7 +317,7 @@ Ann Doe
 Charles Doe
 {{< /highlight >}}
 
-**Note** – To reference a JSON object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
+**Note** – To reference a `JSON` object property that is an array of simple-type values, the name of the property (for example, “Child”) should be used in a template document, whereas the same name with the “_Text” suffix (for example, “Child_Text”) should be used to reference the value of an item of this array.
 
 If a root JSON element is an array, a [JsonDataSource](https://reference.aspose.com/words/python-net/aspose.words.reporting/jsondatasource/) instance should be treated as a sequence of items of this array as shown in the following example.
 
@@ -838,7 +838,7 @@ By default, such a template causes the engine to throw an exception while buildi
 
 **Note** – Only messages describing errors in template syntax can be inlined; messages describing errors encountered during expressions’ evaluation cannot.
 
-When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) is applied, a Boolean value returned by a [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
+When [ReportBuildOptions.INLINE_ERROR_MESSAGES](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportbuildoptions/#inline_error_messages) is applied, a `Boolean` value returned by a [ReportingEngine.build_report](https://reference.aspose.com/words/python-net/aspose.words.reporting/reportingengine/build_report/) overload indicates whether building of a report was finished successfully or was interrupted because of a template syntax error. This enables you to process reports which building succeeded or failed differently as shown in the following code snippet.
 
 {{< highlight python >}}
 engine = aw.reporting.ReportingEngine()

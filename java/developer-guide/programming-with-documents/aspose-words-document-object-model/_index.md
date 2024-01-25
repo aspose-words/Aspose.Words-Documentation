@@ -46,7 +46,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](https://reference.aspose.com/words/java/com.aspose.words/document/), [Section](https://reference.aspose.com/words/java/com.aspose.words/section/), [Paragraph](https://reference.aspose.com/words/java/com.aspose.words/paragraph/), [Table](https://reference.aspose.com/words/java/com.aspose.words/table/), [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/), [Run](https://reference.aspose.com/words/java/com.aspose.words/run/), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a Node Type {#get-a-node-type}
+### Get a `Node` Type {#get-a-node-type}
 
 Although the [Node](https://reference.aspose.com/words/java/com.aspose.words/node/) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/java/com.aspose.words/nodetype/) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 

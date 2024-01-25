@@ -121,7 +121,7 @@ With Aspose.Words, you can save a document in a variety of formats. For the full
 
 ## Mail Merge with Regions
 
-First, create a Java class that returns a **ResultSet** object as shown below. Compile it, and place in a jar file, and place it in the **“ColdFusion8\wwwroot\WEB-INF\lib”** folder.
+First, create a `Java` class that returns a **ResultSet** object as shown below. Compile it, and place in a jar file, and place it in the **“ColdFusion8\wwwroot\WEB-INF\lib”** folder.
 
 **Java**
 

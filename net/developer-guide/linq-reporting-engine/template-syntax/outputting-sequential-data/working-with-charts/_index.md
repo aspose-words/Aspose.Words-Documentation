@@ -96,7 +96,7 @@ For a chart with dynamic data, you can select which series to include into it dy
   <<removeif [conditional_expression]>>
   {{< /highlight >}}
 
-  **Note** – A conditional expression must return a Boolean value.
+  **Note** – A conditional expression must return a `Boolean` value.
 
 During runtime, series with `removeif` tags, for which conditional expressions return `true`, are removed from corresponding charts. The rest of the series are kept and populated with data as usual. In either case, `removeif` tags themselves are removed.
 

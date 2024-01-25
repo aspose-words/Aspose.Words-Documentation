@@ -3,7 +3,7 @@ title: Android via Java Product Overview
 second_title: Aspose.Words for Java
 articleTitle: Product Overview
 linktitle: Product Overview
-description: "Aspose.Words for Android via Java is a Java class library that enables Android developers to perform a great range of document processing tasks."
+description: "Aspose.Words for Android via Java is a `Java` class library that enables Android developers to perform a great range of document processing tasks."
 type: docs
 weight: 10
 url: /java/android-product-overview/
@@ -13,7 +13,7 @@ url: /java/android-product-overview/
 
 **Welcome to Aspose.Words for Android via Java!**
 
-Aspose.Words for Android via Java is a Java class library that enables Android developers to perform a great range of document processing tasks. Aspose.Words for Android via Java supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words for Android via Java you can generate, modify, convert, render and print documents. Using Aspose.Words for Android via Java in your project gives you the benefits of a rich feature set, platform independence, performance and scalability all with a minimal learning curve.
+Aspose.Words for Android via Java is a `Java` class library that enables Android developers to perform a great range of document processing tasks. Aspose.Words for Android via Java supports DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB and other formats. With Aspose.Words for Android via Java you can generate, modify, convert, render and print documents. Using Aspose.Words for Android via Java in your project gives you the benefits of a rich feature set, platform independence, performance and scalability all with a minimal learning curve.
 
 {{% /alert %}}
 
@@ -25,7 +25,7 @@ Aspose.Words for Android via Java features can be divided into four main areas:
 
 - **Conversions**. High quality conversions to and from DOC, OOXML, RTF, WordprocessingML, HTML, MHTML, TXT and OpenDocument formats.
 - **Document Object Model**. Programmatic access through a rich API to all document elements and formatting allows to create, modify, extract, copy, split, join, and replace document content.
-- **Rendering**. Convert whole documents or pages to PDF, XPS or SWF. Also convert document pages to TIFF, PNG or BMP images, print or render pages to a Canvas object. All with high fidelity - exactly like Microsoft Word® would have done it.
+- **Rendering**. Convert whole documents or pages to PDF, XPS or SWF. Also convert document pages to TIFF, PNG or BMP images, print or render pages to a `Canvas` object. All with high fidelity - exactly like Microsoft Word® would have done it.
 - **Reporting**. Generate documents or reports from scratch or by filling templates with data from data sources or business objects.
 
 ### Platform Independence

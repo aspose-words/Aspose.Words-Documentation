@@ -107,7 +107,7 @@ However, unlike table-row conditional blocks able to capture only whole rows, ta
 	</tbody>
 </table>
 
-Let us consider typical use cases for table-column conditional blocks at first defining `showRepresentatives`, a Boolean value, and `person` and `persons`, an instance and an enumeration of instances of the `Person` class respectively, where the `Person` class is defined as follows.
+Let us consider typical use cases for table-column conditional blocks at first defining `showRepresentatives`, a `Boolean` value, and `person` and `persons`, an instance and an enumeration of instances of the `Person` class respectively, where the `Person` class is defined as follows.
 
 {{< highlight csharp >}}
 public class Person

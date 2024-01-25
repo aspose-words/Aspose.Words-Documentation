@@ -93,7 +93,7 @@ public void CreateAndAddAParagraphStyleFeature()
 		}
 		// Get a reference to the `ParagraphProperties` object.
 		ParagraphProperties pPr = p.ParagraphProperties;
-		// If a ParagraphStyleId object doesn't exist, then create one.
+		// If a `ParagraphStyleId` object doesn't exist, then create one.
 		if (pPr.ParagraphStyleId == null)
 			pPr.ParagraphStyleId = new ParagraphStyleId();
 		pPr.ParagraphStyleId.Val = parastyleId;

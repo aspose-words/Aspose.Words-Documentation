@@ -80,7 +80,7 @@ The `MERGEFIELD` field in Word document can be represented by the [FieldMergeFie
 - specify the text to be inserted after the merge field if the field is not blank
 - specify the text to be inserted before the merge field if the field is not blank
 
-The following code example shows how to add a Merge Field using DOM to a paragraph in a document:
+The following code example shows how to add a `Merge` Field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fields-InsertMergeFieldUsingDOM.py" >}}
 

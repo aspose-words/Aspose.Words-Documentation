@@ -102,7 +102,7 @@ The following code example shows how to initialize a license from a folder:
 
 {{< gist "aspose-words-gists" "aae6b7a56c4792497614b4ee8f6f8eec" "apply-license-from-file.java" >}}
 
-##### Load a License from a Stream Object
+##### Load a License from a `Stream` Object
 
 The following code example shows how to initialize a license from a stream using another [SetLicense](https://reference.aspose.com/words/java/com.aspose.words/license/#setLicense-java.io.InputStream) method:
 
@@ -155,4 +155,4 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 If you use multiple Aspose products in your application, such as Aspose.Words and `Aspose.Cells`, here are a few useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
-* Use the Fully Qualified License Class Name. Each Aspose product has a License class in its own namespace. For example, Aspose.Words has **com.aspose.words.License** and `Aspose.Cells` has com.aspose.cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+* Use the Fully Qualified License Class Name. Each Aspose product has a `License` class in its own namespace. For example, Aspose.Words has **com.aspose.words.License** and `Aspose.Cells` has com.aspose.cells.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

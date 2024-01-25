@@ -105,11 +105,11 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 
 You can insert a new TC field at the current position of the DocumentBuilder by calling the `DocumentBuilder.InsertField` method and specifying the field name as “TC” along with any switches that are needed.
 
-The following code example shows how to insert a TC field into the document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).
+The following code example shows how to insert a `TC` field into the document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-InsertTCField-InsertTCField.java" >}}
 
-Often a specific line of text is designated for the TOC and is marked with a TC field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a TC field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a TC field in the same position as the text. The code is based on the same technique used in the article. The following code example shows how to find and insert a TC field at the text in a document.
+Often a specific line of text is designated for the TOC and is marked with a `TC` field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a `TC` field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a `TC` field in the same position as the text. The code is based on the same technique used in the article. The following code example shows how to find and insert a `TC` field at the text in a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-FindAndInsertATCField-InsertTCFieldHandler.java" >}}
 

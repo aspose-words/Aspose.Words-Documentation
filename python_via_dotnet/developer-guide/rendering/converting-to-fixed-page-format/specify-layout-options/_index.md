@@ -18,8 +18,8 @@ For a complete list of parameters such as [continuous_section_page_numbering_res
 
 Aspose.Words allows to manage formatting marks using the following properties:
 
-- [show_hidden_text](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/show_hidden_text/) – a Boolean value, which specifies whether the hidden text is rendered.
-- [show_paragraph_marks](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/show_paragraph_marks/) – a Boolean value, which specifies whether paragraph mark characters are rendered.
+- [show_hidden_text](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/show_hidden_text/) – a `Boolean` value, which specifies whether the hidden text is rendered.
+- [show_paragraph_marks](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/show_paragraph_marks/) – a `Boolean` value, which specifies whether paragraph mark characters are rendered.
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the [show_hidden_text](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/show_hidden_text/) option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the [show_paragraph_marks](https://reference.aspose.com/words/python-net/aspose.words.layout/layoutoptions/show_paragraph_marks/) property is set to render it.
 

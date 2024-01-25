@@ -87,7 +87,7 @@ The following code example shows how to initialize a license from a folder:
 
 {{< gist "aspose-words-gists" "45c97d37bef13067c82e741b922a2d4f" "apply-license-from-file.py" >}}
 
-##### Load a License from a Stream Object
+##### Load a License from a `Stream` Object
 
 The following code example shows how to initialize a license from a stream using another [set_license](https://reference.aspose.com/words/python-net/aspose.words/license/set_license/) method:
 

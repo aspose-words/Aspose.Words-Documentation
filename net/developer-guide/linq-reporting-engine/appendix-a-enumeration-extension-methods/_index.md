@@ -16,7 +16,7 @@ The following table describes these built-in extension methods. The following no
 - `Selector` stands for a lambda function returning a value and taking an enumeration item as its single argument. See “Using Lambda Functions” for more information.
 - `ComparableSelector` stands for `Selector` returning [IComparable](https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=net-6.0).
 - `EnumerationSelector` stands for `Selector` returning `IEnumerable`.
-- `Predicate` stands for `Selector` returning a Boolean value.
+- `Predicate` stands for `Selector` returning a `Boolean` value.
 
 Examples in the following table are given using persons and `otherPersons`, enumerations of instances of the `Person` class that is defined as follows.
 

@@ -42,7 +42,7 @@ In Aspose.Words each of the **FieldXXX** nodes derives from [FieldChar](https:
 
 {{% alert color="primary" %}}
 
-There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, the `LINK` field and `INCLUDEPICTURE` field are imported into Aspose.Words as a Shape object. This object provides properties to work with the image data normally stored in these fields. To import `INCLUDEPICTURE` field as **FieldXXX** nodes the [PreserveIncludePictureField](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/get_preserveincludepicturefield/) option must be specified as **true**.
+There are some particular fields that exist in a Word document that are not imported into Aspose.Words as a collection of **FieldXXX** nodes. For instance, the `LINK` field and `INCLUDEPICTURE` field are imported into Aspose.Words as a `Shape` object. This object provides properties to work with the image data normally stored in these fields. To import `INCLUDEPICTURE` field as **FieldXXX** nodes the [PreserveIncludePictureField](https://reference.aspose.com/words/cpp/aspose.words.loading/loadoptions/get_preserveincludepicturefield/) option must be specified as **true**.
 
 Form fields are also imported into Aspose.Words as their own special class. The [FormField](https://reference.aspose.com/words/cpp/class/aspose.words.fields.form_field/) class represents a form field in a Word document and provides additional methods that are particular to a form field.
 

@@ -17,7 +17,7 @@ Aspose.Words allows users to work with images in a very flexible way. In this ar
 [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) provides several overloads of the the [insert_image](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **insert_image** method can use images from different sources:
 
 - From a file or URL by passing a string parameter
-- From a stream by passing a Stream parameter
+- From a stream by passing a `Stream` parameter
 - From a byte array by passing a byte array parameter
 
 For each of the **insert_image** methods, there are further overloads which allow you to insert an image with the following options:

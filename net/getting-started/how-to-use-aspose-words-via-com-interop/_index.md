@@ -45,7 +45,7 @@ To get tlb file run `C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe <i
 
 ### ProgIDs
 
-ProgID stands for “programmatic identifier”, it is a name of a COM class that you need to use in order to create an object.
+ProgID stands for “programmatic identifier”, it is a name of a `COM` class that you need to use in order to create an object.
 
 Currently, Aspose.Words defines four publicly creatable COM objects. Their ProgIDs are:
 
@@ -62,7 +62,7 @@ During installation, the Aspose.Words.tlb (COM type library) is copied to your c
 
 - For .NET Framework 4.0 to **<installdir>\lib\net40-client**
 
-If your programming language (for example Visual Basic or Delphi) allows you to reference a COM type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser.
+If your programming language (for example Visual Basic or Delphi) allows you to reference a `COM` type library, then add a reference to **Aspose.Words.tlb** and you will be able to see all Aspose.Words classes, methods, properties and enumerations in your Object Browser.
 
 ### Creating COM Objects
 
@@ -76,7 +76,7 @@ Set helper = CreateObject("Aspose.Words.ComHelper")
  
 ```
 
-Once created, you are able to access the object’s methods and properties, as if it was a COM object:
+Once created, you are able to access the object’s methods and properties, as if it was a `COM` object:
 
 **VBScript**
 

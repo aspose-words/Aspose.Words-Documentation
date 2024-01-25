@@ -22,7 +22,7 @@ The following code example shows how to delete all merge fields from your templa
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-fields-GetFieldNames-DeleteFields.java" >}}
 
-## Set Up a Removing Option
+## Set Up a `Removing` Option
 
 Aspose.Words enables you to remove unmerged fields, regions, and paragraphs from a template during a mail merge operation using removing options.
 

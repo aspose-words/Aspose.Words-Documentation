@@ -260,7 +260,7 @@ OoxmlSaveOptions options = new OoxmlSaveOptions(SaveFormat.Docx);
 options.Password = "MyPassword";
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.SaveAsDocx.docx", options);
 
-// Open the encrypted document by passing the correct password in a LoadOptions object.
+// Open the encrypted document by passing the correct password in a `LoadOptions` object.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx", new LoadOptions("MyPassword"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

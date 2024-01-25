@@ -148,7 +148,7 @@ Text language is specified in Microsoft Word documents. Aspose.Words exports the
     <summary>The specification tells us the following (expand to see details):</summary>
     <p></p>
     <p>The default natural language for all text in a file should be specified by the Lang entry in the document’s Catalog dictionary.</p>
-    <p>All textual content within a file which differs from the default language should be indicated by use of a Lang property attached to a marked-content sequence, or by a Lang entry in a structure element dictionary ...</p>
+    <p>All textual content within a file which differs from the default language should be indicated by use of a `Lang` property attached to a marked-content sequence, or by a Lang entry in a structure element dictionary ...</p>
     <p>ISO-19005-2, 6.7.4</p>
 </details>
 {{% /alert %}}

@@ -144,4 +144,4 @@ If you use several Aspose products in an application, for example Aspose.Words a
 - Set the license for each Aspose product separately.
   Even if you have a single license file for all components, for example 'Aspose.Total.Android.Java.lic', you still need to call the `License.SetLicense` method separately for each Aspose product.
 - Use fully qualified License class name.
-  Each Aspose product has a License class in its namespace. For example, Aspose.Words has com.aspose.words.License and `Aspose.Cells` has com.aspose.cells.License class. Using the fullyqualified class name allows you to avoid any confusion about which license is applied to which product.
+  Each Aspose product has a `License` class in its namespace. For example, Aspose.Words has com.aspose.words.License and `Aspose.Cells` has com.aspose.cells.License class. Using the fullyqualified class name allows you to avoid any confusion about which license is applied to which product.

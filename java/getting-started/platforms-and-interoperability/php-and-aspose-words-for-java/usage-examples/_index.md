@@ -101,7 +101,7 @@ $doc->save("C:\\Temp\\out.txt", $saveFormat->TEXT
 
 ## Mail Merge with Regions
 
-First, create a Java class that would return a **ResultSet** object as shown below. Compile it, put it in a jar file, and place it in the “lib” folder inside your application root folder.
+First, create a `Java` class that would return a **ResultSet** object as shown below. Compile it, put it in a jar file, and place it in the “lib” folder inside your application root folder.
 
 **Java**
 

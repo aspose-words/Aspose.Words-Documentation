@@ -75,7 +75,7 @@ saveOptions.password = "MyPassword"
 
 doc.Save(artifacts_dir + "File.DetectDocumentEncryption.odt", saveOptions)
             
-# Create a FileFormatInfo object for this document.
+# Create a `FileFormatInfo` object for this document.
 info = aw.FileFormatUtil.detect_file_format(artifacts_dir + "File.DetectDocumentEncryption.odt")
 
 # Verify the encryption status of our document.
@@ -128,7 +128,7 @@ options = aw.saving.OoxmlSaveOptions(aw.SaveFormat.DOCX)
 options.password = "MyPassword"
 doc.Save(artifacts_dir + "OoxmlSaveOptions.SaveAsDocx.docx", options)
 
-# Open the encrypted document by passing the correct password in a LoadOptions object.
+# Open the encrypted document by passing the correct password in a `LoadOptions` object.
 doc = aw.Document(artifacts_dir + "OoxmlSaveOptions.Password.docx", aw.loading.LoadOptions("MyPassword"))
 
 self.assertEqual("Hello world!", doc.get_text().strip())

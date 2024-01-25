@@ -68,7 +68,7 @@ The following code example shows how to work with the **VerticalAnchor** propert
 
 ## Detect SmartArt Shape
 
-Aspose.Words also allows to detect if the Shape has a SmartArt object. To do this, use the [has_smart_art property](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/has_smart_art/) property.
+Aspose.Words also allows to detect if the Shape has a `SmartArt` object. To do this, use the [has_smart_art property](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/has_smart_art/) property.
 
 The following code example shows how to work with the **HasSmartArt** property:
 

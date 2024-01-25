@@ -67,7 +67,7 @@ If mail merge is not working as expected, then you may need to restructure your 
 
 A DataSet that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
 
-The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a DataRelation object:
+The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a `DataRelation` object:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-ApplyCustomLogicToEmptyRegions-DisableForeignKeyConstraints.cs" >}}
 

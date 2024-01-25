@@ -14,7 +14,7 @@ The Aspose.Words Document Object Model (DOM) is an in-memory representation of a
 
 This section describes the main classes of the Aspose.Words DOM and their relationships. By using the Aspose.Words DOM classes, you can obtain programmatic access to document elements and formatting.
 
-## Create a Document Objects Tree {#create-a-document-objects-tree}
+## Create a `Document` Objects Tree {#create-a-document-objects-tree}
 
 When a document is read into the Aspose.Words DOM, then an object tree is built and different types of elements of the source document have their own DOM tree objects with various properties.
 
@@ -47,7 +47,7 @@ When reading the above document into the Aspose.Words DOM, the tree of objects i
 
 [Document](https://reference.aspose.com/words/python-net/aspose.words/document/), [Section](https://reference.aspose.com/words/python-net/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/), [Run](https://reference.aspose.com/words/python-net/aspose.words/run/), and all other ellipses on the diagram are Aspose.Words objects that represent elements of the Word document.
 
-### Get a Node Type {#get-a-node-type}
+### Get a `Node` Type {#get-a-node-type}
 
 Although the [Node](https://reference.aspose.com/words/python-net/aspose.words/node/) class is sufficient enough to distinguish different nodes from each other, Aspose.Words provides the [NodeType](https://reference.aspose.com/words/python-net/aspose.words/nodetype/) enumeration to simplify some API tasks, such as selecting nodes of a specific type.
 

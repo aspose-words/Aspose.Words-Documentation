@@ -13,7 +13,7 @@ url: /java/using-documentbuilder-to-modify-a-document/
 
 ### Font Formatting
 
-Current font formatting is represented by a Font object returned by the `DocumentBuilder.Font` property. The Font class contains a wide variety of font properties possible in Microsoft Word.
+Current font formatting is represented by a `Font` object returned by the `DocumentBuilder.Font` property. The Font class contains a wide variety of font properties possible in Microsoft Word.
 
 |![font-formatting-aspose-words-java](documentbuilder-to-modify-document-1.png)|
 | :- |
@@ -24,7 +24,7 @@ The following code example shows how to set font formatting.
 
 ### Cell Formatting
 
-Cell formatting is used during the building of a table. It is represented by a CellFormat object returned by the `DocumentBuilder.CellFormat` property. CellFormat encapsulates various table cell properties like width or vertical alignment.
+Cell formatting is used during the building of a table. It is represented by a `CellFormat` object returned by the `DocumentBuilder.CellFormat` property. CellFormat encapsulates various table cell properties like width or vertical alignment.
 
 |![cell-formatting-aspose-words-java](documentbuilder-to-modify-document-2.png)|
 | :- |
@@ -34,7 +34,7 @@ The following code example shows how to create a table that contains a single fo
 
 ### Row Formatting
 
-Current row formatting is determined by a RowFormat object that is returned by the `DocumentBuilder.RowFormat` property. The object encapsulates information about all table row formatting.
+Current row formatting is determined by a `RowFormat` object that is returned by the `DocumentBuilder.RowFormat` property. The object encapsulates information about all table row formatting.
 
 |![row-formatting-aspose-words-java](documentbuilder-to-modify-document-3.png)|
 | :- |
@@ -44,7 +44,7 @@ The below code example shows how to create a table that contains a single cell a
 
 ### List Formatting
 
-Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the `DocumentBuilder.ListFormat` property that returns a ListFormat object. This object has several methods to start and end a list and to increase/decrease the indent.
+Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the `DocumentBuilder.ListFormat` property that returns a `ListFormat` object. This object has several methods to start and end a list and to increase/decrease the indent.
 
 |![list-fformatting-aspose-words-java](documentbuilder-to-modify-document-4.png)|
 | :- |
@@ -84,7 +84,7 @@ The following code example shows how to set such properties as page size and ori
 
 ### Applying a Style
 
-Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
+Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user-defined style is represented by a `Style` object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
 Furthermore, a **Style** object provides the [Style.getStyleIdentifier](https://reference.aspose.com/words/java/com.aspose.words/style/#getStyleIdentifier) property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**.
 
@@ -201,7 +201,7 @@ The following code example shows how to move a cursor position to just after the
 
 Inserting new text in this way does not replace the existing text of the bookmark. Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
 
-### Moving to a Merge Field
+### Moving to a `Merge` Field
 
 Sometimes you may need to perform a "manual" mail merge using `DocumentBuilder` or fill a merge field in a special way inside a mail merge event handler. That is when [DocumentBuilder.moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField-java.lang.String) could be useful. The method accepts the name of the merge field. It moves the cursor to a position just beyond the specified merge field and removes the merge field. The following code example shows how to move the cursor to a position just beyond the specified merge field.
 

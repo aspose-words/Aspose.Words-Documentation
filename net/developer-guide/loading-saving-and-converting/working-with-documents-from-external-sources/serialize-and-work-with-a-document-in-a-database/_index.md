@@ -38,7 +38,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Store, Read and Delete a Document in a Database
 
-This section shows how to save a document in a database and then load it back into a Document object for working with it. For simplicity, the file name is the key used to store and fetch documents from the database. The database contains two columns. The first column “FileName” is stored as a String and is used to identify documents. The second column “FileContent” is stored as a BLOB object which stores the document object in the byte form.
+This section shows how to save a document in a database and then load it back into a `Document` object for working with it. For simplicity, the file name is the key used to store and fetch documents from the database. The database contains two columns. The first column “FileName” is stored as a String and is used to identify documents. The second column “FileContent” is stored as a `BLOB` object which stores the document object in the byte form.
 
 The following code example shows how to set up a connection to a database and execute commands:
 

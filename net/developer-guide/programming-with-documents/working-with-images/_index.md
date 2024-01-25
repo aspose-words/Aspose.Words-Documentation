@@ -17,8 +17,8 @@ Aspose.Words allows users to work with images in a very flexible way. In this ar
 
 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) provides several overloads of the [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The **InsertImage** method can use images from different sources:
 
-- From a file or URL by passing a String parameter [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/)
-- From a stream by passing a Stream parameter **InsertImage**
+- From a file or URL by passing a `String` parameter [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/)
+- From a stream by passing a `Stream` parameter **InsertImage**
 - From an Image object by passing an Image parameter **InsertImage**
 - From a byte array by passing a byte array parameter **InsertImage**
 

@@ -75,7 +75,7 @@ The following code example shows how to insert page breaks into a document.
 DocumentBuilder provides several overloads of the [DocumentBuilder.insertImage](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertImage-byte) method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder.insertImage method can use images from different sources:
 
 - From a file or URL by passing a string parameter
-- From a stream by passing a Stream parameter
+- From a stream by passing a `Stream` parameter
 - From an Image object by passing an Image parameter
 - From a byte array by passing a byte array parameter
 - And others
@@ -122,7 +122,7 @@ The following code example inserts a merge field into a document using DocumentB
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertField-DocumentBuilderInsertField.java" >}}
 
-## Inserting a Form Field
+## Inserting a `Form` Field
 
 Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, Combobox and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: [DocumentBuilder.insertTextInput](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int) , [DocumentBuilder.insertCheckBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCheckBox-java.lang.String-boolean-boolean-int), and [DocumentBuilder.insertComboBox](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertComboBox-java.lang.String-java.lang.String---int). Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 

@@ -34,7 +34,7 @@ Xamarin.iOS makes it possible to do native iOS development in C#, with either Vi
 
 ## COM
 
-Aspose.Words for .NET can be used as a COM object to develop applications in pre- .NET development environments such as PHP, ASP, VBScript, JScript, Delphi, C++ and so on. Although using Aspose.Words for .NET from COM is possible, some classes and methods (that rely on constructors with parameters or static methods for example) are not available to COM applications.
+Aspose.Words for .NET can be used as a `COM` object to develop applications in pre- .NET development environments such as PHP, ASP, VBScript, JScript, Delphi, C++ and so on. Although using Aspose.Words for .NET from COM is possible, some classes and methods (that rely on constructors with parameters or static methods for example) are not available to COM applications.
 
 **Developing an ASP or VBScript application with Aspose.Words for .NET** 
 

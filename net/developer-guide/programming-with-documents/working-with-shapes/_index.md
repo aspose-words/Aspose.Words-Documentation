@@ -65,7 +65,7 @@ The following code example shows how to work with the **VerticalAnchor** propert
 
 ## Detect SmartArt Shape
 
-Aspose.Words also allows to detect if the Shape has a SmartArt object. To do this, use the [HasSmartArt](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hassmartart/) property.
+Aspose.Words also allows to detect if the Shape has a `SmartArt` object. To do this, use the [HasSmartArt](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hassmartart/) property.
 
 The following code example shows how to work with the **HasSmartArt** property:
 

@@ -52,7 +52,7 @@ In some cases, you may need to use this sample without Aspose.Words. For example
 
 {{% /alert %}}
 
-There are two overloads of the **XpsPrintHelper**.**Print** method. The first overload takes a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object and saves it into a MemoryStream in the XPS format. The second overload accepts a Stream object. The stream must contain a document in the XPS format.
+There are two overloads of the **XpsPrintHelper**.**Print** method. The first overload takes a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object and saves it into a MemoryStream in the XPS format. The second overload accepts a `Stream` object. The stream must contain a document in the XPS format.
 
 You can download the examples of method overloading from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip).
 

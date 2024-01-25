@@ -17,8 +17,8 @@ For a complete list of parameters such as [ContinuousSectionPageNumberingRestart
 
 Aspose.Words allows to manage formatting marks using the following properties:
 
-- [ShowHiddenText](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showhiddentext/) – a Boolean value, which specifies whether the hidden text is rendered.
-- [ShowParagraphMarks](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showparagraphmarks/) – a Boolean value, which specifies whether paragraph mark characters are rendered.
+- [ShowHiddenText](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showhiddentext/) – a `Boolean` value, which specifies whether the hidden text is rendered.
+- [ShowParagraphMarks](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showparagraphmarks/) – a `Boolean` value, which specifies whether paragraph mark characters are rendered.
 
 The page depicted in the example below contains three paragraphs. The second one is hidden. A user can change the **ShowHiddenText** option to display this hidden text on the page. Also, each paragraph has a paragraph mark at the end. The paragraph mark usually is not visible unless the **ShowParagraphMarks** property is set to render it.
 

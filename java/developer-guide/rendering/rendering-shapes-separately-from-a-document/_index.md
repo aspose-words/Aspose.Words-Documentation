@@ -59,7 +59,7 @@ The code example below illustrates rendering a shape to a JPEG image separately
 
 The **ImageSaveOptions** class allows you to specify a variety of options that control how the image is rendered. The functionality described above can be applied in the same manner to the **GroupShape** and **Shape** nodes.
 
-## Rendering to a Graphics Object
+## Rendering to a `Graphics` Object
 
 Rendering directly to a **Graphics** object allows you to define your own settings and the state for the **Graphics** object. A common scenario involves rendering a shape directly into a **Graphics** object retrieved from a Windows Form or a Bitmap. When the **Shape** node is rendered, the settings will affect the shape appearance. For example, you can rotate or scale the shape by using the **RotateTransform** or **ScaleTransform** methods for the **Graphics** object.
 
@@ -89,4 +89,4 @@ The below example shows how to create a new Bitmap and Graphics object with the 
 
 When using the **RenderToSize** or **RenderToScale** methods, the rendered image size is also returned in the [SizeF](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#renderToScale-java.awt.Graphics2D-float-float-float) object. This can be assigned to a variable and used if necessary.
 
-The **SizeInPoints** property returns the Shape size measured in points (see [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)). The result is a SizeF object containing the width and height.
+The **SizeInPoints** property returns the Shape size measured in points (see [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/)). The result is a `SizeF` object containing the width and height.

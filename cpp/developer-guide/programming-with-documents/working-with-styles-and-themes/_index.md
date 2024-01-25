@@ -47,7 +47,7 @@ Note that the second parameter of the **Document.GetChildNodes** method is set t
 
 {{% /alert %}}
 
-It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard for each operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the Style. Name property of the `Paragraph.ParagraphFormat` object. The implementation of RunsByStyleName is almost the same, although we’re obviously using `NodeType.Run` to retrieve run nodes. The `Font.Style` property of a Run object is used to access style information in the **Run** nodes. The below code example find all runs formatted with the specified style.
+It’s also worth pointing out that the paragraphs collection does not create an immediate overhead because paragraphs are loaded into this collection only when you access items in them. Then, all you need to do is to go through the collection, using the standard for each operator and add paragraphs that have the specified style to the paragraphsWithStyle array. The Paragraph style name can be found in the Style. Name property of the `Paragraph.ParagraphFormat` object. The implementation of RunsByStyleName is almost the same, although we’re obviously using `NodeType.Run` to retrieve run nodes. The `Font.Style` property of a `Run` object is used to access style information in the **Run** nodes. The below code example find all runs formatted with the specified style.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cpp" >}}
 
@@ -77,7 +77,7 @@ Often you will work with documents containing a table of contents (TOC). Using A
 
 ### Insert TC Fields
 
-Often a specific line of text is designated for the TOC and is marked with a TC field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a TC field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a TC field in the same position as the text. The code is based on the same technique used in the article. Below example shows how to find and insert a TC field at the text in a document.
+Often a specific line of text is designated for the TOC and is marked with a `TC` field.  The easy way to do this in MS Word is to highlight the text and press *ALT+SHIFT+O*. This automatically creates a `TC` field using the selected text. The same technique can be accomplished through code. The code below will find text matching the input and insert a `TC` field in the same position as the text. The code is based on the same technique used in the article. Below example shows how to find and insert a `TC` field at the text in a document.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-DocumentBuilderInsertTCFieldsAtText-DocumentBuilderInsertTCFieldsAtText.cpp" >}}
 

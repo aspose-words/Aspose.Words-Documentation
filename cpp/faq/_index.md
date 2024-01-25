@@ -199,7 +199,7 @@ auto options = System::MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
 options->set_Password(u"MyPassword");
 doc->Save(u"OoxmlSaveOptions.SaveAsDocx.docx", options);
 
-// Open the encrypted document by passing the correct password in a LoadOptions object.
+// Open the encrypted document by passing the correct password in a `LoadOptions` object.
 doc = System::MakeObject<Document>(u"OoxmlSaveOptions.Password.docx", System::MakeObject<LoadOptions>(u"MyPassword"));
 
 ASSERT_EQ(doc->GetText().Trim(), u"Hello world!");

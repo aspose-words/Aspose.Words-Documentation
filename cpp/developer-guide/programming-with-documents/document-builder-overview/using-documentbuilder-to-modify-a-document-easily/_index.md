@@ -13,13 +13,13 @@ url: /cpp/using-documentbuilder-to-modify-a-document-easily/
 
 ### Font Formatting
 
-Current font formatting is represented by a Font object returned by the `DocumentBuilder.Font` property. The Font class contains a wide variety of the font properties possible in Microsoft Word. Below example shows how to set font formatting.
+Current font formatting is represented by a `Font` object returned by the `DocumentBuilder.Font` property. The Font class contains a wide variety of the font properties possible in Microsoft Word. Below example shows how to set font formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetFontFormatting.cpp" >}}
 
 ### Paragraph Formatting
 
-Current paragraph formatting is represented by a ParagraphFormat object that is returned by the `DocumentBuilder.ParagraphFormat` property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling `ParagraphFormat.ClearFormatting`. Below example shows how to set paragraph formatting.
+Current paragraph formatting is represented by a `ParagraphFormat` object that is returned by the `DocumentBuilder.ParagraphFormat` property. This object encapsulates various paragraph formatting properties available in Microsoft Word. You can easily reset the paragraph formatting to default to Normal style, left aligned, no indentation, no spacing, no borders and no shading by calling `ParagraphFormat.ClearFormatting`. Below example shows how to set paragraph formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetParagraphFormatting.cpp" >}}
 
@@ -47,19 +47,19 @@ Asian Typography tab of the `Paragraph` properties dialog in MS Word has line br
 
 ### Cell Formatting
 
-Cell formatting is used during building of a table. It is represented by a CellFormat object returned by the `DocumentBuilder.CellFormat` property. CellFormat encapsulates various table cell properties like width or vertical alignment. Below example shows how to create a table that contains a single formatted cell.
+Cell formatting is used during building of a table. It is represented by a `CellFormat` object returned by the `DocumentBuilder.CellFormat` property. CellFormat encapsulates various table cell properties like width or vertical alignment. Below example shows how to create a table that contains a single formatted cell.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetTableCellFormatting.cpp" >}}
 
 ### Row Formatting
 
-Current row formatting is determined by a RowFormat object that is returned by the `DocumentBuilder.RowFormat` property. The object encapsulates information about all table row formatting. Below example shows how to create a table that contains a single cell and apply row formatting.
+Current row formatting is determined by a `RowFormat` object that is returned by the `DocumentBuilder.RowFormat` property. The object encapsulates information about all table row formatting. Below example shows how to create a table that contains a single cell and apply row formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetTableRowFormatting.cpp" >}}
 
 ### List Formatting
 
-Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the `DocumentBuilder.ListFormat` property that returns a ListFormat object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
+Aspose.Words allows the easy creation of lists by applying list formatting. DocumentBuilder provides the `DocumentBuilder.ListFormat` property that returns a `ListFormat` object. This object has several methods to start and end a list and to increase/decrease the indent. There are two general types of lists in Microsoft Word: bulleted and numbered.
 
 - To start a bulleted list, call `ListFormat.ApplyBulletDefault` .
 - To start a numbered list, call `ListFormat.ApplyNumberDefault` .
@@ -89,7 +89,7 @@ Page setup and section properties are encapsulated in the `PageSetup` object tha
 
 ### Applying a Style
 
-Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user defined style is represented by a Style object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
+Some formatting objects like Font or ParagraphFormat support styles. A single built-in or user defined style is represented by a `Style` object that contains the corresponding style properties like name, base style, font and paragraph formatting of the style, and so on.
 
 Furthermore, a **Style** object provides the `Style.StyleIdentifier` property that returns a locale-independent style identifier represented by a **Style.StyleIdentifier** enumeration value. The point is that the names of built-in styles in Microsoft Word are localized for different languages. Using a style identifier, you can find the correct style regardless of the document language. The enumeration values correspond to the Microsoft Word built-in styles such as Normal , Heading 1 , Heading 2 etc. All user-defined styles are assigned the **StyleIdentifier.User value**. Below example shows how to apply a paragraph style.
 

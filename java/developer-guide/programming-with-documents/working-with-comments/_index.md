@@ -45,7 +45,7 @@ In this sample, we are going to look at some simple methods for both gathering i
 
 ### How to Extract or Remove Comments
 
-The code in this sample is quite simple and all methods are based on the same approach. A comment in a Word document is represented by a Comment object in the Aspose.Words document object model. To collect all the comments in a document use the [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) method with the first parameter set to `NodeType.Comment`. Make sure that the second parameter of the **getChildNodes** method is set to true: this forces the **getChildNodes** to select from all child nodes recursively, rather than only collecting the immediate children.
+The code in this sample is quite simple and all methods are based on the same approach. A comment in a Word document is represented by a `Comment` object in the Aspose.Words document object model. To collect all the comments in a document use the [getChildNodes](https://reference.aspose.com/words/java/com.aspose.words/document/#getChildNodes) method with the first parameter set to `NodeType.Comment`. Make sure that the second parameter of the **getChildNodes** method is set to true: this forces the **getChildNodes** to select from all child nodes recursively, rather than only collecting the immediate children.
 
 To illustrate how to extract and remove comments from a document, we will go through the following steps:
 

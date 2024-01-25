@@ -27,7 +27,7 @@ default_template_option
 <</if>>
 {{< /highlight >}}
 
-**Note** – A conditional expression must return a Boolean value.
+**Note** – A conditional expression must return a `Boolean` value.
 
 **This section includes the following topics:** 
 
