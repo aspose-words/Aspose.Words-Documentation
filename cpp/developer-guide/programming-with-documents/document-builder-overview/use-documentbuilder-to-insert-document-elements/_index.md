@@ -44,17 +44,17 @@ Calling `DocumentBuilder.StartTable` is the first step in building a table. It 
 
 ### Inserting a Cell
 
-After you call DocumentBuilder->InsertCell, a new cell is created and any content you add using other methods of the `DocumentBuilder` class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder->InsertCell again. Use the `DocumentBuilder.CellFormat` property to specify cell formatting. It returns a `CellFormat` object that represents all formatting for a table cell.
+After you call `DocumentBuilder->InsertCell`, a new cell is created and any content you add using other methods of the `DocumentBuilder` class will be added to the current cell. To start a new cell in the same row, call `DocumentBuilder->InsertCell` again. Use the `DocumentBuilder.CellFormat` property to specify cell formatting. It returns a `CellFormat` object that represents all formatting for a table cell.
 
 ### Ending a Row
 
-Call `DocumentBuilder.EndRow` to finish the current row. If you call DocumentBuilder->InsertCell immediately after that, then the table continues on a new row.
+Call `DocumentBuilder.EndRow` to finish the current row. If you call `DocumentBuilder->InsertCell` immediately after that, then the table continues on a new row.
 
 Use the `DocumentBuilder.RowFormat` property to specify row formatting. It returns a `RowFormat` object that represents all formatting for a table row.
 
 ### Ending a Table
 
-Call `DocumentBuilder.EndTable` to finish the current table. This method should be called only once after DocumentBuilder->EndRow was called. When called, `DocumentBuilder.EndTable` moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
+Call `DocumentBuilder.EndTable` to finish the current table. This method should be called only once after `DocumentBuilder->EndRow` was called. When called, `DocumentBuilder.EndTable` moves the cursor out of the current cell to a position just after the table. The following example demonstrates how to build a formatted table that contains 2 rows and 2 columns.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderBuildTable-DocumentBuilderBuildTable.cpp" >}}
 
@@ -66,18 +66,18 @@ If you want to explicitly start a new line, paragraph, column, section, or page,
 
 ## Inserting an Image
 
-DocumentBuilder provides several overloads of the DocumentBuilder->InsertImage method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The DocumentBuilder->InsertImage method can use images from different sources:
+DocumentBuilder provides several overloads of the `DocumentBuilder->InsertImage` method that allows you to insert an inline or floating image. If the image is an EMF or WMF metafile, it will be inserted into the document in metafile format. All other images will be stored in PNG format. The `DocumentBuilder->InsertImage` method can use images from different sources:
 
-- From a file or `URL` by passing a string parameter DocumentBuilder->InsertImage.
-- From a stream by passing a `Stream` parameter DocumentBuilder->InsertImage.
-- From an Image object by passing an Image parameter DocumentBuilder->InsertImage.
-- From a byte array by passing a byte array parameter `DocumentBuilder.InsertImage`.For each of the DocumentBuilder->InsertImage methods, there are further overloads which allow you to insert an image with the following options:
-- Inline or floating at a specific position, for example, DocumentBuilder->InsertImage.
-- Percentage scale or custom size, for example, `DocumentBuilder.InsertImage`.Furthermore the DocumentBuilder->InsertImage method returns a `Shape` object that was just created and inserted so you can further modify properties of the Shape.
+- From a file or `URL` by passing a string parameter `DocumentBuilder->InsertImage`.
+- From a stream by passing a `Stream` parameter `DocumentBuilder->InsertImage`.
+- From an Image object by passing an Image parameter `DocumentBuilder->InsertImage`.
+- From a byte array by passing a byte array parameter `DocumentBuilder.InsertImage`.For each of the `DocumentBuilder->InsertImage` methods, there are further overloads which allow you to insert an image with the following options:
+- Inline or floating at a specific position, for example, `DocumentBuilder->InsertImage`.
+- Percentage scale or custom size, for example, `DocumentBuilder.InsertImage`. Furthermore the `DocumentBuilder->InsertImage` method returns a `Shape` object that was just created and inserted so you can further modify properties of the Shape.
 
 ### Inserting an Inline Image
 
-Pass a single string representing a file that contains the image to DocumentBuilder->InsertImage to insert the image into the document as an inline graphics. Below example shows how to insert an inline image at the cursor position into a document.
+Pass a single string representing a file that contains the image to `DocumentBuilder->InsertImage` to insert the image into the document as an inline graphics. Below example shows how to insert an inline image at the cursor position into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertImage-DocumentBuilderInsertInlineImage.cpp" >}}
 
@@ -91,10 +91,10 @@ This example inserts a floating image from a file or `URL` at a specified positi
 
 To insert a bookmark into the document, you should do the following:
 
-1. Call DocumentBuilder->StartBookmark passing it the desired name of the bookmark.
+1. Call `DocumentBuilder->StartBookmark` passing it the desired name of the bookmark.
 1. Insert the bookmark text using DocumentBuilder methods.
 1. Call `DocumentBuilder.EndBookmark` passing it the same name that you used with **DocumentBuilder->StartBookmark**.
-1. Bookmarks can overlap and span any range. To create a valid bookmark you need to call both DocumentBuilder->StartBookmark and DocumentBuilder->EndBookmark with the same bookmark name.
+1. Bookmarks can overlap and span any range. To create a valid bookmark you need to call both `DocumentBuilder->StartBookmark` and `DocumentBuilder->EndBookmark` with the same bookmark name.
 
 {{% alert color="primary" %}}
 
@@ -108,7 +108,7 @@ Below example shows how to insert a bookmark into a document using a document bu
 
 ## Inserting a `Form` Field
 
-Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: `DocumentBuilder.InsertTextInput` , DocumentBuilder->InsertCheckBox, and `DocumentBuilder.InsertComboBox`. Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
+Form fields are a particular case of Word fields that allows "interaction" with the user. Form fields in Microsoft Word include textbox, combo box and checkbox.DocumentBuilder provides special methods to insert each type of form field into the document: `DocumentBuilder.InsertTextInput` , `DocumentBuilder->InsertCheckBox`, and `DocumentBuilder.InsertComboBox`. Note that if you specify a name for the form field, then a bookmark is automatically created with the same name.
 
 ### Inserting a Text Input
  `DocumentBuilder.InsertTextInput` to insert a textbox into the document. Below example shows how to insert a text input form field into a document.
@@ -153,12 +153,12 @@ OLE package is a legacy and "undocumented" way to store embedded object if OLE h
 
 ## Inserting HTML
 
-You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the DocumentBuilder->InsertHtml method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
+You can easily insert an HTML string that contains an HTML fragment or whole HTML document into the Word document. Just pass this string to the `DocumentBuilder->InsertHtml` method. One of the useful implementations of the method is storing an HTML string in a database and inserting it into the document during mail merge to get the formatted content added instead of building it using various methods of the document builder. Below example shows inserts HTML into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHtml.cpp" >}}
 
 ## Insert Horizontal Rule into Document
 
-Below code example shows how to insert horizontal rule shape into a document using DocumentBuilder->InsertHorizontalRule method.
+Below code example shows how to insert horizontal rule shape into a document using `DocumentBuilder->InsertHorizontalRule` method.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cpp" >}}
