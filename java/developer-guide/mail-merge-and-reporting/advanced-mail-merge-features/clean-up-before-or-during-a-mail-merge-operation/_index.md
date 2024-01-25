@@ -53,7 +53,7 @@ A paragraph that only includes merge fields will be empty when the mail merge pr
 1. The mail merge field will be merged with empty data.
 2. The merge field is unused and will be removed.
 
-In both situations the **RemoveEmptyParagraphs** option will automatically remove empty paragraphs from the document. Also, it will remove the TableStart and TableEnd merge fields if the rest of the paragraph is empty.
+In both situations the **RemoveEmptyParagraphs** option will automatically remove empty paragraphs from the document. Also, it will remove the `TableStart` and TableEnd merge fields if the rest of the paragraph is empty.
 
 The following code example shows how to remove the empty paragraphs:
 

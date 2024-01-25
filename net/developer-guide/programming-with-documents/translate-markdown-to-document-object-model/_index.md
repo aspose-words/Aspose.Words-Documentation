@@ -47,7 +47,7 @@ DocumentBuilder builder = new DocumentBuilder();
 builder.Font.Strikethrough = true;
 builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 
-We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the InlineCode feature. If a number of backticks is missed, then one backtick will be used by default.
+We use a character style with a name that starts from the word `InlineCode`, followed by an optional dot `(.)` and a number of backticks ```(`)``` for the `InlineCode` feature. If a number of backticks is missed, then one backtick will be used by default.
 
 | Markdown feature              | Aspose.Words       |
 | ----------------------------- | ------------------ |

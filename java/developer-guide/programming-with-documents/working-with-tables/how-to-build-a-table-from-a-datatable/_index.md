@@ -1,8 +1,8 @@
 ---
-title: How to Build a Table from a DataTable in Java
+title: How to Build a Table from a `DataTable` in Java
 second_title: Aspose.Words for Java
-articleTitle: Build a Table from a DataTable
-linktitle: Build a Table from a DataTable
+articleTitle: Build a Table from a `DataTable` 
+linktitle: Build a Table from a `DataTable` 
 description: "Example of filling document table from external database using Java."
 type: docs
 weight: 130
@@ -38,7 +38,7 @@ The following code example shows how to execute the above algorithm in Aspose.Wo
 
 The method can then be easily called using your **DocumentBuilder** and data.
 
-The following code example shows how to import the data from a DataTable and insert it into a new table in the document:
+The following code example shows how to import the data from a `DataTable` and insert it into a new table in the document:
 
 {{< gist "aspose-words-gists" "b5330afb035e842063be7ce93cefe219" "build-table-from-data-table.java" >}}
 

@@ -53,7 +53,7 @@ Below is the code explaining this functionality by using **OpenAndAddTextToWordD
 {{< highlight csharp >}}
 public void OpenAndAddTextToWordDocumentFeature()
 {
-	// Open a WordprocessingDocument for editing using the filepath.
+	// Open a `WordprocessingDocument` for editing using the filepath.
 	using (WordprocessingDocument wordprocessingDocument = WordprocessingDocument.Open(MyDir + "Document.docx", true))
 	{
 		// Assign a reference to the existing document body.

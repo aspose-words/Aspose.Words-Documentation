@@ -35,7 +35,7 @@ All single [ChartSeries](https://reference.aspose.com/words/cpp/aspose.words.dra
 
 ![work-with-chartseries-aspose-words-cpp-2](working-with-chartseries-2.png)
 
-## How to Work with Single ChartDataPoint of a ChartSeries
+## How to Work with Single ChartDataPoint of a `ChartSeries` 
 
 Using [ChartDataPoint](https://reference.aspose.com/words/cpp/aspose.words.drawing.charts/chartdatapoint/) you can customize the formatting of a single data point of the chart series:
 

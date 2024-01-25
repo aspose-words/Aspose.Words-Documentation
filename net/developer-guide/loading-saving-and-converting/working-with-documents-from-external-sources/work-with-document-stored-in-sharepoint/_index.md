@@ -1,8 +1,8 @@
 ---
-title: Work with a Document Stored in a SharePoint Online
+title: Work with a Document Stored in a `SharePoint` Online
 second_title: Aspose.Words for .NET
-articleTitle: Work with a Document Stored in a SharePoint Online
-linktitle: Work with a Document Stored in a SharePoint Online
+articleTitle: Work with a Document Stored in a `SharePoint` Online
+linktitle: Work with a Document Stored in a `SharePoint` Online
 description: "Convert Word shared in SharePoint to PDF using C#. Work with documents stored in SharePoint – various input formats, including Word, OpenOffice, Image and eBook."
 type: docs
 weight: 20
@@ -23,7 +23,7 @@ In this article, we will cover a common scenario for converting a document uploa
 
 {{% alert color="primary" %}}
 
-Note that If you already have a SharePoint Online root communication site then skip steps 1-2.
+Note that If you already have a `SharePoint` Online root communication site then skip steps 1-2.
 
 {{% /alert %}}
 
@@ -50,7 +50,7 @@ To create a new console application project, follow these steps:
 
 1. In Visual Studio, create a new console application project named "SPOnlineExample" for *C#* language and target framework *.NET 6*
 2. Add the following packages:
-   - `Microsoft.Extensions`.Configuration.Json
+   - `Microsoft.Extensions.Configuration.Json`
    - Aspose.Words
 
 ### Add Configuration File

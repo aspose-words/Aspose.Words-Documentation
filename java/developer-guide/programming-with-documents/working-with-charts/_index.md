@@ -100,7 +100,7 @@ All single [ChartSeries](https://reference.aspose.com/words/java/com.aspose.word
 
 ![line-chart-aspose-words-java3](working-with-charts-3.png)
 
-## How to Work with Single ChartDataPoint of a ChartSeries
+## How to Work with Single ChartDataPoint of a `ChartSeries` 
 
 Using [ChartDataPoint](https://reference.aspose.com/words/java/com.aspose.words/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series:
 

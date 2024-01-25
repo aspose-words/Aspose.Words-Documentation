@@ -378,5 +378,5 @@ As a result, the "DocumentCompared.docx" file should be placed in the root of Do
 
 ## See Also
 
-- The article ["Work with a Document Stored in a SharePoint Online"](/words/net/work-with-document-stored-in-sharepoint)
+- The article ["Work with a Document Stored in a `SharePoint` Online"](/words/net/work-with-document-stored-in-sharepoint)
 - The article ["Work with a Document Marked by a Sensitivity Label"](/words/net/work-with-document-market-by-sensitivity-label/)

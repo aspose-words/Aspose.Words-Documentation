@@ -23,7 +23,7 @@ The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/
 
 ### Other
 
-* The capability to modify the text of the TextBox OLE control has been introduced by adding a new **Text** property to the new **TextBoxControl** class. <sup>24.1</sup>
+* The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new **Text** property to the new **TextBoxControl** class. <sup>24.1</sup>
 * The Bibliography Sources public API was implemented through the adding a new namespace **Aspose.Words.Bibliography** with its new classes and enumerations, and through the adding a new **Bibliography** property to the **Document** class. <sup>24.1</sup>
 
 {{% alert color="primary" %}}
@@ -233,9 +233,9 @@ Since 23.2 the chart rendering has been significantly improved.
 
 The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) and [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) and [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
 
-#### Radial Gradients with the SkiaSharp Native Shader <sup>23.3</sup>
+#### Radial Gradients with the `SkiaSharp` Native Shader <sup>23.3</sup>
 
-Rendering of radial gradients with the SkiaSharp native shader for .NET Standard has been implemented.
+Rendering of radial gradients with the `SkiaSharp` native shader for .NET Standard has been implemented.
 
 #### Distance Between the Table and Surrounding Text <sup>23.4</sup>
 

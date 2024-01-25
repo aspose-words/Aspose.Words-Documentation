@@ -39,7 +39,7 @@ You can also use the [SectionStart](https://apireference.aspose.com/words/net/as
 
 Since a section is a normal composite node, the entire node manipulation API can be used to manipulate sections: to add, remove, and other operations on sections. You can read more about nodes in the article ["Aspose.Words Document Object Model (DOM)"](/words/net/aspose-words-document-object-model/).
 
-On the other hand, you can also use the DocumentBuilder API to work with sections. In this article, we will focus on this particular way of working with sections.
+On the other hand, you can also use the `DocumentBuilder` API to work with sections. In this article, we will focus on this particular way of working with sections.
 
 ## Insert or Remove a Section Break
 

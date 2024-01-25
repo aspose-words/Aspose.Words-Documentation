@@ -16,7 +16,7 @@ In Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.
 
 [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) class provides [is_valid_link_target](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/is_valid_link_target/) method in order to check whether the [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) can be linked to the target Textbox.
 
-The following code example shows how to check if the TextBox can be linked to the target Textbox:
+The following code example shows how to check if the `TextBox` can be linked to the target Textbox:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CreateALink.py" >}}
 

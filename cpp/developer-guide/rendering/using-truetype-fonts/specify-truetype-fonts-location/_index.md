@@ -197,7 +197,7 @@ Use the same **SaveSearchCache** method to update the cache.
 
 {{% alert color="primary" %}}
 
-The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a FontSettings instance with a loaded cache.
+The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a `FontSettings` instance with a loaded cache.
 
 {{% /alert %}}
 

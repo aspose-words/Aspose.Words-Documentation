@@ -17,7 +17,7 @@ In Aspose.Words, the [TextBox](https://reference.aspose.com/words/cpp/aspose.wor
 
 The **TextBox** class provides [IsValidLinkTarget](https://reference.aspose.com/words/cpp/aspose.words.drawing/textbox/isvalidlinktarget/) method in order to check whether the **TextBox** can be linked to the target **Textbox**.
 
-The following code example shows how to check if the TextBox can be linked to the target Textbox:
+The following code example shows how to check if the `TextBox` can be linked to the target Textbox:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Linked-Textboxes-WorkingWithLinkedTextboxes-CreateALink.cpp" >}}
 

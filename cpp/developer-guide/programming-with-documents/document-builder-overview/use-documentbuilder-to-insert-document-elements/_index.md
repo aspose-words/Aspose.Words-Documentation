@@ -9,7 +9,7 @@ weight: 80
 url: /cpp/use-documentbuilder-to-insert-document-elements/
 ---
 
-The DocumentBuilder is used to modify documents. This article explains and describes how to perform a number of tasks:
+The `DocumentBuilder` is used to modify documents. This article explains and describes how to perform a number of tasks:
 
 ## Inserting a String of Text
 
@@ -60,7 +60,7 @@ Call `DocumentBuilder.EndTable` to finish the current table. This method should
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call `DocumentBuilder.InsertBreak`. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. Below example shows how to insert page breaks into a document.
+If you want to explicitly start a new line, paragraph, column, section, or page, call `DocumentBuilder.InsertBreak`. Pass to this method the type of the break you need to insert that is represented by the `BreakType` enumeration. Below example shows how to insert page breaks into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.cpp" >}}
 
@@ -141,7 +141,7 @@ Use `DocumentBuilder.InsertHyperlink` to insert a hyperlink into the document. 
 
 ## Inserting Ole Object
 
-If you want Ole Object call `DocumentBuilder.InsertOleObject`. Pass to this method the ProgId explicitly with other parameters. Below example shows how to insert Ole Object into a document.
+If you want Ole Object call `DocumentBuilder.InsertOleObject`. Pass to this method the `ProgId` explicitly with other parameters. Below example shows how to insert Ole Object into a document.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertOleObject.cpp" >}}
 

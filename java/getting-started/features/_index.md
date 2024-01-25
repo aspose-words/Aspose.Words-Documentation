@@ -49,7 +49,7 @@ Many customers worldwide rely on the thorough document import and export feature
 |WordprocessingML (DOCX, XML) ([load](/words/java/load-in-the-open-office-xml-2007-and-2010-formats/) and [save](/words/java/save-in-the-open-office-xml-docx-dotx-docm-dotm-format/))|Aspose.Words provides exhaustive support OOXML, Flat OPC, and also Word 2003 XML.|
 |Rich Text Format (RTF) ([load](/words/java/load-in-the-rich-text-format-1-9-rtf-format/) and [save](/words/java/save-in-the-rich-text-format-1-9-rtf-format/))|Comprehensive support of the RTF format to interact with a variety of applications.|
 |HTML, XHTML and MHTML|[Load](/words/java/load-in-the-html-html-xhtml-mhtml-format/) and [save](/words/java/save-in-the-html-html-xhtml-mhtml-format/) HTML/XHTML for even greater interoperability. Save as MHTML is also available.|
-|OpenDocument (ODT)|Aspose.Words can [load](/words/java/load-in-the-opendocument-text-odt-ott-format/) and [save](/words/java/save-in-the-opendocument-text-odt-ott-format/) documents in the OpenDocument Text (.odt) format.|
+|OpenDocument (ODT)|Aspose.Words can [load](/words/java/load-in-the-opendocument-text-odt-ott-format/) and [save](/words/java/save-in-the-opendocument-text-odt-ott-format/) documents in the `OpenDocument` Text (.odt) format.|
 |[Adobe Portable Document Format (PDF)](/words/java/save-in-the-adobe-portable-document-pdf-format/)|Convert any document to PDF with high fidelity. PDF/A is supported.|
 |XML Paper Specification (XPS) ([load](/words/java/load-in-ms-word-2003-formats/) and [save](/words/java/save-in-the-flatopc-ooxml-document-xml-format/))|Convert any document to XPS with high fidelity.|
 |Plain Text (TXT) ([load](/words/java/load-in-the-plain-text-txt-format/) and [save](/words/java/save-in-the-plain-text-txt-format/))|Easily extract text by saving in plain text format.|
@@ -129,7 +129,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 |Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas.|
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|
-|Populate documents with data from any Java data source that implements the ResultSet interface.|
+|Populate documents with data from any Java data source that implements the `ResultSet` interface.|
 |Populate documents from any data source such as an XML file or business objects by implementing the **IMailMergeDataSource** interface.|
 |Take precise control, such as number formatting, over how your data is merged using events.|
 |Insert images during a mail merge.|

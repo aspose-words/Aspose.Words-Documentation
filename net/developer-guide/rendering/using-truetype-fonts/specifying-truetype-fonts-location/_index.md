@@ -149,7 +149,7 @@ settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, stream
 
 Font search cache is great for Aspose.Words integration in AWS Lambda due to a number of limitations. For example, on the main container size and, as a result, on the number of fonts.
 
-The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a FontSettings instance with a loaded cache.
+The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a `FontSettings` instance with a loaded cache.
 
 {{% /alert %}}
 

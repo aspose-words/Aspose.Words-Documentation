@@ -41,7 +41,7 @@ Many customers worldwide rely on the thorough document import and export feature
 |WordprocessingML - DOCX and XML|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|
 |Rich Text Format - RTF|Comprehensive support of the RTF format to interact with a variety of applications.|{{< emoticons/tick >}}|
 |HTML, XHTML and MHTML|Load and save HTML/XHTML for even greater interoperability. Save as MHTML is also available.|{{< emoticons/tick >}}|
-|OpenDocument - ODT|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|
+|OpenDocument - ODT|Aspose.Words can load and save documents in the `OpenDocument` Text (.odt) format.|{{< emoticons/tick >}}|
 |Adobe Portable Document Format - PDF|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|
 |XML Paper Specification - XPS|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|
 |Plain Text - TXT|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|

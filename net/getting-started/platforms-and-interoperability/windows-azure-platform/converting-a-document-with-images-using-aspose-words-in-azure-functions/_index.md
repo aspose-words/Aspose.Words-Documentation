@@ -35,7 +35,7 @@ You need to use Visual Studio to create an Azure Functions Application. The cr
 
 In this example, you create a simple “Hello World” document and return it to the user's browser as a PDF file. To accomplish this:
 
-1. Start creating a function using Aspose.Words by adding a NuGet reference to the latest version of [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/). Then modify the code as follows:<br>
+1. Start creating a function using Aspose.Words by adding a `NuGet` reference to the latest version of [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/). Then modify the code as follows:<br>
 {{< highlight csharp >}}
 using System.IO;
 using System.Threading.Tasks;

@@ -120,11 +120,11 @@ The most efficient way to access child nodes of a [CompositeNode](https://refere
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#hasChildNodes) property.
 
-The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
+The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using the enumerator provided by the `ChildNodes` collection:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingEnumeratorProvidedByChildNodesCollection.java" >}}
 
-The following code example shows how to enumerate immediate child nodes of a CompositeNode using indexed access:
+The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using indexed access:
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-document_object_model-ChildNodes-enumerateChildrenOfACompositeNodeUsingIndexedAccess.java" >}}
 

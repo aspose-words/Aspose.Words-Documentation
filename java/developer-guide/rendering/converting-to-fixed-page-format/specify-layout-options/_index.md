@@ -50,7 +50,7 @@ The image below shows how Aspose.Words renders comments and the Delete revisions
 
 ## Text Shaper for Advanced Typography Rendering
 
-The [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/itextshaperfactory/) property enables you to set the text shaping functionality, as well as the OpenType features support.
+The [TextShaperFactory](https://reference.aspose.com/words/java/com.aspose.words/itextshaperfactory/) property enables you to set the text shaping functionality, as well as the `OpenType` features support.
 
 Use text shaping for document processing in the following main cases:
 

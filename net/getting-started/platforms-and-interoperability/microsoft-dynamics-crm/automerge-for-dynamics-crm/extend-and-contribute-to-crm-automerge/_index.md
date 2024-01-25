@@ -61,7 +61,7 @@ for (int i = 0; i < fields.Length; i++)
 doc.MailMerge.Execute(fields, values);
 MemoryStream UpdateDoc = new MemoryStream();
 doc.Save(UpdateDoc, SaveFormat.Docx);
- // The SaveFormat is assigned on the basis of Input Parameters.
+ // The `SaveFormat` is assigned on the basis of Input Parameters.
 {{< /highlight >}}
 
 - Once the Document is generated from the Template, we can easily create an Attachment and use it. 

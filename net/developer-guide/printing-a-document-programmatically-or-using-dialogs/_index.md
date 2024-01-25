@@ -9,9 +9,9 @@ weight: 55
 url: /net/print-a-document-programmatically-or-using-dialogs/
 ---
 
-This article describes how to print a word processing document from an ASP.NET or Windows Service application using Aspose.Words and the XpsPrint API. It also demonstrates the methods of printing a document with Settings, Print preview, and Print progress dialogs, and explains how to reduce the time of the first call to print a document.
+This article describes how to print a word processing document from an ASP.NET or Windows Service application using Aspose.Words and the `XpsPrint` API. It also demonstrates the methods of printing a document with Settings, Print preview, and Print progress dialogs, and explains how to reduce the time of the first call to print a document.
 
-## Printing a Document on a Server via the XpsPrint API
+## Printing a Document on a Server via the `XpsPrint` API
 
 This section is intended for users who want to submit an XPS document to the unmanaged XpsPrint API from a .NET application using Aspose.Words.
 
@@ -27,7 +27,7 @@ The Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.word
 
 The proper way to print documents according to Microsoft is by using the unmanaged XpsPrint API. This API is available on Windows 7, Windows Server 2008 R2, and on Windows Vista provided the Platform Update for Windows Vista is installed.
 
-Since Aspose.Words can easily convert any document to XPS, you only need to write the code that passes an XPS document to the XpsPrint API. The only problem is that the XpsPrint API is unmanaged and requires some knowledge of the Platform Invoke technology.
+Since Aspose.Words can easily convert any document to XPS, you only need to write the code that passes an XPS document to the `XpsPrint` API. The only problem is that the `XpsPrint` API is unmanaged and requires some knowledge of the Platform Invoke technology.
 
 To print a document, Aspose.Words provides an **XpsPrintHelper** class contains a simple Print method, where you just need to specify the following parameters (see more details in the article ["Print Document via XPS API"](/words/net/missing-features-in-openxml/)):
 
@@ -52,7 +52,7 @@ In some cases, you may need to use this sample without Aspose.Words. For example
 
 {{% /alert %}}
 
-There are two overloads of the **XpsPrintHelper**.**Print** method. The first overload takes a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object and saves it into a MemoryStream in the XPS format. The second overload accepts a `Stream` object. The stream must contain a document in the XPS format.
+There are two overloads of the **XpsPrintHelper**.**Print** method. The first overload takes a [Document](https://reference.aspose.com/words/net/aspose.words/document/) object and saves it into a `MemoryStream` in the XPS format. The second overload accepts a `Stream` object. The stream must contain a document in the XPS format.
 
 You can download the examples of method overloading from [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip).
 

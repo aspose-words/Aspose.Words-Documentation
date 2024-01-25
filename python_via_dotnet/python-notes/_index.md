@@ -86,7 +86,7 @@ As you might noticed where in C# code you would use `(Paragraph)node` for castin
 * [as_sub_document()](https://reference.aspose.com/words/python-net/aspose.words/node/as_sub_document/)
 * [as_composite_node()](https://reference.aspose.com/words/python-net/aspose.words/node/as_composite_node/)
 
-The `as_xxx` method raise a RuntimeError with the message like the following if the node cannot be cased to the specified type:
+The `as_xxx` method raise a `RuntimeError` with the message like the following if the node cannot be cased to the specified type:
 
 > RuntimeError: Proxy error(InvalidCastException): Unable to cast object of type 'Aspose.Words.XXX' to type 'Aspose.Words.Drawing.YYY'.
 

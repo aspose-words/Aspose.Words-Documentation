@@ -25,7 +25,7 @@ public static void main(String[] args) throws Exception
 	Document doc = new Document(dataDir + "document.doc");
 	String watermarkText = "CONFIDENTIAL";
 
-	// Create a watermark shape. This will be a WordArt shape.
+	// Create a watermark shape. This will be a `WordArt` shape.
 	// You are free to try other shape types as watermarks.
 	Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 	

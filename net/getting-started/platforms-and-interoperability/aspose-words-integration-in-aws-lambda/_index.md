@@ -59,7 +59,7 @@ To see how Aspose.Words works in AWS Lambda, follow the steps below:
 
 You might notice two strange things:
 
-* There is no image in the output. It disappears because Aspose.Words for .NET Standard uses SkiaSharp to deal with graphics. From the output, you can see that the Lambda function is running under Unix, and since there are no SkiaSharp native assets for Unix, it does not work. The solution to this problem is simple – add a NuGet reference to [SkiaSharp.NativeAssets.Linux.NoDependencies](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies/).
+* There is no image in the output. It disappears because Aspose.Words for .NET Standard uses SkiaSharp to deal with graphics. From the output, you can see that the Lambda function is running under Unix, and since there are no SkiaSharp native assets for Unix, it does not work. The solution to this problem is simple – add a `NuGet` reference to [SkiaSharp.NativeAssets.Linux.NoDependencies](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies/).
 * The font used in the PDF is Fanwood. Fanwood is the last resort font which is stored in Aspose.Words DLL as an embedded resource. It is used when Aspose.Words cannot find other alternatives.
 
 ## How to Use Fonts Stored in S3 storage in AWS Lambda

@@ -114,11 +114,11 @@ The most efficient way to access child nodes of a [CompositeNode](https://refere
 
 If a node has no child, then the **ChildNodes** property returns an empty collection. You can check whether the **CompositeNode** contains any child nodes using the [HasChildNodes](https://reference.aspose.com/words/cpp/aspose.words/compositenode/get_haschildnodes/) property.
 
-The following code example shows how to enumerate immediate child nodes of a CompositeNode using the enumerator provided by the ChildNodes collection:
+The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using the enumerator provided by the `ChildNodes` collection:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cpp" >}}
 
-The following code example shows how to enumerate immediate child nodes of a CompositeNode using indexed access:
+The following code example shows how to enumerate immediate child nodes of a `CompositeNode` using indexed access:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Node-ExNode-IndexChildNodes.cpp" >}}
 

@@ -22,7 +22,7 @@ This section provides a comparison of availability of features between Aspose.Wo
 |WordprocessingML (DOCX, XML)|Aspose.Words provides exhaustive support OOXML, Flat OPC and also Word 2003 XML.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Rich Text Format (RTF)|Comprehensive support of the RTF format to interact with a variety of applications.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |HTML, XHTML and MHTML|Load and save HTML/XHTML for even greater interoperability. Save as MHTML is also available.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|OpenDocument (ODT)|Aspose.Words can load and save documents in the OpenDocument Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|OpenDocument (ODT)|Aspose.Words can load and save documents in the `OpenDocument` Text (.odt) format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Adobe Portable Document Format (PDF)|Convert any document to PDF with high fidelity. PDF/A is supported.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |XML Paper Specification (XPS)|Convert any document to XPS with high fidelity.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Plain Text (TXT)|Easily extract text by saving in plain text format.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
@@ -95,7 +95,7 @@ You can use Aspose.Words as a reporting solution on its own. Design your reports
 |Execute mail merge for documents that contain even the most complex and nested `IF` fields and formulas.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Populate and dynamically grow tables or fragments in the document from your data source using mail merge regions.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Easily generate reports that contain master-detail (parent-child) data such as Order/OrderDetails.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
-|Populate documents with data from any Java data source that implements the ResultSet interface.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
+|Populate documents with data from any Java data source that implements the `ResultSet` interface.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Populate documents from any data source such as a XML file or business objects by implementing the **IMailMergeDataSource** interface.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Take precise control, such as number formatting, over how your data is merged using events.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|
 |Insert images during mail merge.|{{< emoticons/tick >}}|{{< emoticons/tick >}}|

@@ -37,7 +37,7 @@ static void Main(string[] args)
 	Document doc = new Document("../../data/document.doc");
 	string watermarkText = "Aspose.Words for .NET";
 
-	// Create a watermark shape. This will be a WordArt shape.
+	// Create a watermark shape. This will be a `WordArt` shape.
 	// You are free to try other shape types as watermarks.
 	Shape watermark = new Shape(doc, ShapeType.TextPlainText);
 	

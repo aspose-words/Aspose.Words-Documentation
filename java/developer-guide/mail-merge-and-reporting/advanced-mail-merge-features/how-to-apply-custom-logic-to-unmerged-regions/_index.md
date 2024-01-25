@@ -81,7 +81,7 @@ Defines the method used to manually handle unmerged regions.
 
 This method involves finding all unmerged regions in the document. This is accomplished using the **MailMerge.GetFieldNames** method. This method returns all merge fields in the document, including the region start and end markers (represented by merge fields with the prefix *TableStart* or *TableEnd*).
 
-When a TableStart merge field is encountered this is added as a new **DataTable** to the **DataSet**. Since a region may appear more than once (for example because it is a nested region where the parent region has been merged with multiple records), the table is only created and added if it does not already exist in the **DataSet**.
+When a `TableStart` merge field is encountered this is added as a new **DataTable** to the **DataSet**. Since a region may appear more than once (for example because it is a nested region where the parent region has been merged with multiple records), the table is only created and added if it does not already exist in the **DataSet**.
 
 When an appropriate region start has been found and added to the database, the next field (which corresponds to the first field in the region) is added to the **DataTable**. Only the first field is required to be added for each field in the region to be merged and passed to the handler.
 
@@ -149,10 +149,10 @@ Finally, we can call the **ExecuteCustomLogicOnEmptyRegions** method and specify
 
 **Example**
 
-Shows how to specify only the ContactDetails region to be handled through the handler class.
+Shows how to specify only the `ContactDetails` region to be handled through the handler class.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-mail_merge-ApplyCustomLogicToEmptyRegions-HandleTheContactDetailsRegion.java" >}}
 
-Calling this overload with the specified ArrayList will create the data source which only contains data rows for the specified regions. Regions other than the ContactDetails region will not be handled and will be removed automatically by the mail merge engine instead. The result of the above call using the code in our original handler is shown below. 
+Calling this overload with the specified ArrayList will create the data source which only contains data rows for the specified regions. Regions other than the `ContactDetails` region will not be handled and will be removed automatically by the mail merge engine instead. The result of the above call using the code in our original handler is shown below. 
 
 ![apply-custom-logic-to-unmerged-regions-aspose-words-java-5](how-to-apply-custom-logic-to-unmerged-regions-6.png)

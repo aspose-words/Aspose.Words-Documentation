@@ -73,8 +73,8 @@ To create a new console application project, follow these steps:
 
 1. In Visual Studio, create a new console application project named "SensitivityLabelsExample" for *C#* language and target framework *.NET 6*
 2. Add the following packages:
-   - `Microsoft.InformationProtection`.File
-   - `Microsoft.Identity`.Client
+   - `Microsoft.InformationProtection.File`
+   - `Microsoft.Identity.Client`
    - Aspose.Words
 
 ### Add a File with Settings
@@ -418,4 +418,4 @@ As a result, the output file should be created with applied "Confidential.All Em
 
 ## See Also
 
-- The article [“Work with a Document Stored in a SharePoint Online"](/words/net/work-with-document-stored-in-sharepoint/)
+- The article [“Work with a Document Stored in a `SharePoint` Online"](/words/net/work-with-document-stored-in-sharepoint/)

@@ -10,7 +10,7 @@ url: /java/work-with-office-add-ins/
 aliases: [/java/working-with-web-extensions/]
 ---
 
-Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the WebExtensions namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
+Sometimes you might want to give access to interface controls that run code to modify documents. Aspose.Words API provides the `WebExtensions` namespace, which grants various classes to customize elements and attributes extending the XML vocabulary for representing Office Add-ins.
 
 WebExtensions namespace can be conditionally divided into:
 

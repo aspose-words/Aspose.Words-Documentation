@@ -60,6 +60,6 @@ Azure provides services to run applications and store data. A great number of In
 - Load a document template from the Windows Azure Storage and populate it with data from SQL Azure to generate a report, contract or another document.
 - Generate a document (for example, invoice) and convert it to the PDF or XPS format and send to the client browser.
 - Convert a document to PDF/A or TIFF for long-term archiving in the Windows Azure Storage.
-- Accept requests from the clients in a WebRole application via ASP.NET pages or WCF calls and perform actual document processing in load balanced WorkerRole applications.
+- Accept requests from the clients in a `WebRole` application via ASP.NET pages or WCF calls and perform actual document processing in load balanced WorkerRole applications.
 
 You can use all of the Aspose.Words for .NET features from Windows Azure applications. Aspose.Words for .NET does not depend on Azure.

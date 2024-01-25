@@ -17,7 +17,7 @@ Note that there are two products in the Aspose.Words family that can be used wit
 
 | Product |Purpose |
 | :- | :- |
-|[Aspose.Words for SharePoint](https://products.aspose.com/words/family/)|Easily add user interface to a SharePoint site for converting documents from one format to another (including to PDF) and joining documents together. Provides limited API for these tasks. Mostly a product for end-users. |
+|[Aspose.Words for SharePoint](https://products.aspose.com/words/family/)|Easily add user interface to a `SharePoint` site for converting documents from one format to another (including to PDF) and joining documents together. Provides limited API for these tasks. Mostly a product for end-users. |
 |[Aspose.Words for .NET](https://products.aspose.com/words/net/) |A very powerful .NET class library with a rich API for converting, programming and rendering documents in different formats. Use if you need to code things and need the API. |
 This section discusses possible scenarios for using Aspose.Words for .NET in a Microsoft SharePoint environment.
 
@@ -27,7 +27,7 @@ Aspose.Words for .NET is a class library that can be used on a server for genera
 
 Here are just some ideas how you can use Aspose.Words for .NET in SharePoint: 
 
-- Load a DOC contract template and insert data from a data source into merge fields or bookmarks inside the document. Then save the document to a stream, file or the SharePoint storage. 
+- Load a DOC contract template and insert data from a data source into merge fields or bookmarks inside the document. Then save the document to a stream, file or the `SharePoint` storage. 
 - Convert a DOCX document into PDF. 
 - Load a DOC and ODT documents, combine them and store in another format. 
 - Load a document and render its pages as thumbnails for preview in a browser. 

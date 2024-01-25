@@ -164,7 +164,7 @@ The extracted text is displayed on the console.
 
 ## Extract Content using a Field
 
-To use a field as a marker, the FieldStart node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of the merge field passed to it.
+To use a field as a marker, the `FieldStart` node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of the merge field passed to it.
 
 In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF.
 
@@ -184,7 +184,7 @@ The extracted content between the field and paragraph, without the field and par
 
 ## Extract Content from a Bookmark
 
-In a document, the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document.
+In a document, the content that is defined within a bookmark is encapsulated by the `BookmarkStart` and BookmarkEnd nodes. The content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document.
 
 In our sample document, we have one bookmark, named “Bookmark1”. The content of this bookmark is highlighted content in our document:
 

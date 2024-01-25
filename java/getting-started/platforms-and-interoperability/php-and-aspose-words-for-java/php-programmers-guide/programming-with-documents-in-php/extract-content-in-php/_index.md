@@ -138,7 +138,7 @@ $doc = new Java("com.aspose.words.Document", ExtractContent::$gDataDir . "TestFi
 // Use a document builder to retrieve the field start of a merge field.
 $builder = new Java("com.aspose.words.DocumentBuilder", $doc);
 
-// Pass the first boolean parameter to get the DocumentBuilder to move to the FieldStart of the field.
+// Pass the first boolean parameter to get the `DocumentBuilder` to move to the `FieldStart` of the field.
 
 // We could also get FieldStarts of a field using GetChildNode method as in the other examples.
 $builder->moveToMergeField("Fullname", false, false);
@@ -167,7 +167,7 @@ $doc = new Java("com.aspose.words.Document" , ExtractContent::$gDataDir . "TestF
 // Retrieve the bookmark from the document.
 $bookmark = $doc->getRange()->getBookmarks()->get("Bookmark1");
 
-// We use the BookmarkStart and BookmarkEnd nodes as markers.
+// We use the `BookmarkStart` and BookmarkEnd nodes as markers.
 $bookmarkStart = $bookmark->getBookmarkStart();
 $bookmarkEnd = $bookmark->getBookmarkEnd();
 
@@ -362,9 +362,9 @@ $nodes->add($cloneNode);
 return;
 }
 
-// If a marker is a FieldStart node check if it's to be included or not.
+// If a marker is a `FieldStart` node check if it's to be included or not.
 
-// We assume for simplicity that the FieldStart and FieldEnd appear in the same paragraph.
+// We assume for simplicity that the `FieldStart` and FieldEnd appear in the same paragraph.
 $nodeType = Java("com.aspose.words.NodeType");
 if (java_values($node->getNodeType()) == java_values($nodeType->FIELD_START))
 {

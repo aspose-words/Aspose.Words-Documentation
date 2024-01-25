@@ -63,9 +63,9 @@ When retrieving data for a nested mail merge from an XML file using the **ReadXm
 
 If mail merge is not working as expected, then you may need to restructure your XML file or explicitly create relations between DataTable objects in the DataSet.
 
-A DataSet that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
+A `DataSet` that has related data tables will use the **DataRelation** object to represent the parent-child relationship between the tables.
 
-The following code example shows how to establish a DataRelation between a customer’s table and an order’s table by using a `DataRelation` object:
+The following code example shows how to establish a `DataRelation` between a customer’s table and an order’s table by using a `DataRelation` object:
 {{< highlight java >}}
 dataSet.getRelations().add(new DataRelation("OrderToItem", orderTable.getColumns().get("Order_Id"), itemTable.getColumns().get("Order_Id"), false));
 {{< /highlight >}}

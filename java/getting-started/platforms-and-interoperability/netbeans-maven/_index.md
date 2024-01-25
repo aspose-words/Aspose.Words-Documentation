@@ -15,7 +15,7 @@ NetBeans is a Fully-featured Java IDE written completely in Java. It is primaril
 
 NetBeans IDE lets you quickly and easily develop Java desktop, mobile, and web applications, as well as HTML5 applications with HTML, JavaScript, and CSS. It is the free and open source and has a large community of users and developers around the world.
 
-The NetBeans Team actively support the product and seek feature suggestions from the wider community. Every release is preceded by a time for Community testing and feedback.
+The `NetBeans` Team actively support the product and seek feature suggestions from the wider community. Every release is preceded by a time for Community testing and feedback.
 
 ## Aspose.Words for Java
 
@@ -78,7 +78,7 @@ Download only Java EE / SE supported NetBeans download bundle of the current lat
 
 ### Download Aspose.Words Java for NetBeans (Maven)
 
-- The plugin can be directly downloaded from the NetBeans plugin hosting URL: <https://plugins.netbeans.org/plugin/62090>
+- The plugin can be directly downloaded from the `NetBeans` plugin hosting URL: <https://plugins.netbeans.org/plugin/62090>
   and later can be installed using the `IDE` option:
   - Goto **Tools** > **Plugins** > **Downloaded**
   - Click "**Add Plugins..."** and browse for downloaded .nbm extension plugin file for **Aspose.Words Java for NetBeans (Maven)**.

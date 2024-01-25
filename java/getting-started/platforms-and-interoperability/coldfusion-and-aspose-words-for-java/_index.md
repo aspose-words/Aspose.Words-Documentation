@@ -169,7 +169,7 @@ public class RelationSet
 
 {{% alert color="primary" %}}
 
-Next we write the ColdFusion code to execute mail merge and save the document to disk. 
+Next we write the `ColdFusion` code to execute mail merge and save the document to disk. 
 
 {{% /alert %}}
 

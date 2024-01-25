@@ -65,7 +65,7 @@ Call DocumentBuilder.endTable to finish the current table. This method should be
 
 ## Inserting a Break
 
-If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.insertBreak. Pass to this method the type of the break you need to insert that is represented by the BreakType enumeration. 
+If you want to explicitly start a new line, paragraph, column, section, or page, call DocumentBuilder.insertBreak. Pass to this method the type of the break you need to insert that is represented by the `BreakType` enumeration. 
 The following code example shows how to insert page breaks into a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertBreak-DocumentBuilderInsertBreak.java" >}}
@@ -132,7 +132,7 @@ DocumentBuilder.insertTextInput to insert a textbox into the document. The follo
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertTextInputFormField-DocumentBuilderInsertTextInputFormField.java" >}}
 
-### Inserting a CheckBox
+### Inserting a `CheckBox` 
 
 Call DocumentBuilder.insertCheckBox to insert a checkbox into the document. The following code example shows how to insert a checkbox form field into a document.
 

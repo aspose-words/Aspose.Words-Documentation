@@ -221,7 +221,7 @@ Microsoft Word documents allow users to add alternate text to images, shapes, an
     <summary>The specification tells us the following (expand to see details):</summary>
     <p></p>
     <p>The specification tells us the following:</p>
-    <p>All textual structure elements that are represented in a non-standard manner, e.g., custom characters or inline graphics, should supply replacement text using the ActualText entry in the structure element dictionary...</p>
+    <p>All textual structure elements that are represented in a non-standard manner, e.g., custom characters or inline graphics, should supply replacement text using the `ActualText` entry in the structure element dictionary...</p>
     <p>ISO-19005-2, 6.7.7</p>
 </details>
 {{% /alert %}}

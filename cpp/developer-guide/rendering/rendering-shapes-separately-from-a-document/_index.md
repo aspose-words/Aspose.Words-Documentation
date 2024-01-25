@@ -25,7 +25,7 @@ A document can also contain shapes which are grouped together. Grouping can be e
 
 ![rendering-shapes-separately-from-a-document-aspose-words-cpp-2](rendering-shapes-separately-from-a-document-2.png)
 
-In Aspose.Words, these groups of shapes are represented by the GroupShape node. These can also be invoked in the same way to render the entire group to the image.
+In Aspose.Words, these groups of shapes are represented by the `GroupShape` node. These can also be invoked in the same way to render the entire group to the image.
 
 ![rendering-shapes-separately-from-a-document-aspose-words-cpp-3](rendering-shapes-separately-from-a-document-3.png)
 

@@ -86,7 +86,7 @@ Aspose.Words does not require third-party applications, for example, Microsoft O
 
 ### Performance and Scalability
 
-Aspose.Words is designed to perform greatly on both a server or client. Aspose.Words is a single Java jar that can be deployed with any Java application by simply copying it. You can also add the HarfBuzz plugin for advanced Font features if you need it (shipped in a separate jar). Standard Java ImageIO JAI extension can also be added to your platform to support additional ImageIO codecs (no need in modern Java environments).
+Aspose.Words is designed to perform greatly on both a server or client. Aspose.Words is a single Java jar that can be deployed with any Java application by simply copying it. You can also add the `HarfBuzz` plugin for advanced Font features if you need it (shipped in a separate jar). Standard Java ImageIO JAI extension can also be added to your platform to support additional ImageIO codecs (no need in modern Java environments).
 
 With Aspose.Words, you can literally generate thousands of documents in minutes, which involves opening a document, modifying content and formatting or populating it with data, and saving it. Even most complex documents are opened and saved on a P4 2.4Ghz 1Gb RAM machine in fractions of a second.
 

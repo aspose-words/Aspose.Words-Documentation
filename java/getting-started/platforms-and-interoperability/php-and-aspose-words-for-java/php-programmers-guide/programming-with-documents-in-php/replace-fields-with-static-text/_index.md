@@ -19,7 +19,7 @@ aliases: [/java/replace-fields-with-static-text-in-php/]
 \* Converts any fields of the specified type found in the descendants of the node into static text.
 \*
 \* @param compositeNode The node in which all descendants of the specified FieldType will be converted to static text.
-\* @param targetFieldType The FieldType of the field to convert to static text.
+\* @param targetFieldType The `FieldType` of the field to convert to static text.
 */
 public static function convertFieldsToStaticText($compositeNode, $targetFieldType) {
 $saveFormat = Java("com.aspose.words.SaveFormat");
@@ -77,7 +77,7 @@ return VisitorAction.CONTINUE;
 }
 public int visitRun(Run run)
 {
-// Remove the run if it is between the FieldStart and FieldSeparator of the field being converted.
+// Remove the run if it is between the `FieldStart` and FieldSeparator of the field being converted.
 CheckDepthAndRemoveNode(run);
 return VisitorAction.CONTINUE;
 }

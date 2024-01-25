@@ -4,7 +4,7 @@ second_title: Aspose.Words for .NET
 articleTitle: Converting Documents in Windows Azure
 linktitle: Converting Documents in Windows Azure
 type: docs
-description: "Use Aspose.Words for .NET in Windows Azure to load, convert, and save documents. To do this, you can create a WebRole application that can be run in the Development Fabric or deployed to Windows Azure using C#."
+description: "Use Aspose.Words for .NET in Windows Azure to load, convert, and save documents. To do this, you can create a `WebRole` application that can be run in the Development Fabric or deployed to Windows Azure using C#."
 weight: 10
 url: /net/converting-documents-in-windows-azure/
 ---
@@ -33,7 +33,7 @@ To create the application, you need to perform the following steps:
 
 1. Create a new Cloud Service project in Visual Studio.
 1. Select the Cloud Service to have one WebRole project.
-1. Add the NuGet reference to [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
+1. Add the `NuGet` reference to [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
 1. Add the File Upload control to the Default.aspx form enabling the user to select a file to be uploaded.
 1. Add the Drop Down List control to the Default.aspx form enabling the user to select the output format.
 1. Add the Submit button and the Click event handler for it.
@@ -52,7 +52,7 @@ using System.IO;
 namespace WebRole
 {
     /// <summary>
-    /// This demo shows how to use Aspose.Words for .NET inside a WebRole in a simple
+    /// This demo shows how to use Aspose.Words for .NET inside a `WebRole` in a simple
     /// Windows Azure application. There is just one ASP.NET page that provides a user
     /// interface to convert a document from one format to another.
     /// </summary>
@@ -97,8 +97,8 @@ namespace WebRole
 
 To test and run the example project, perform the following steps:
 
-1. First, check the example project running as a simple ASP.NET application. Make the WebRole project the Start Up project in the solution and run. Visual Studio will open a browser window and load the form into it. You can upload a sample document and verify that the conversion is working.
-1. Then, you should test that the project runs well in the Development Fabric on your computer. Development Fabric is a local simulation of the Windows Azure compute and storage services. Select the CloudService project and make it the Start Up project for the solution and run. This time, it may take a bit longer to build the application because Visual Studio starts up the Development Fabric and deploys your project into it. The browser window will open with the form again, and you will be able to test the application.
+1. First, check the example project running as a simple ASP.NET application. Make the `WebRole` project the Start Up project in the solution and run. Visual Studio will open a browser window and load the form into it. You can upload a sample document and verify that the conversion is working.
+1. Then, you should test that the project runs well in the Development Fabric on your computer. Development Fabric is a local simulation of the Windows Azure compute and storage services. Select the `CloudService` project and make it the Start Up project for the solution and run. This time, it may take a bit longer to build the application because Visual Studio starts up the Development Fabric and deploys your project into it. The browser window will open with the form again, and you will be able to test the application.
 1. Finally, you can deploy and test your project in Windows Azure. To do this, you need to have an active Microsoft Azure subscription.
    In Visual Studio, right-click on your CloudService project and select Publish. If necessary, log in with your Microsoft Azure account and select a subscription.
    To test, select the Staging Environment and click Publish. After that, in the Azure Activity Log, you will receive a URL to the deployed application.

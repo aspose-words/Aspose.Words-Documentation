@@ -23,7 +23,7 @@ The [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/
 
 ### Other
 
-* The capability to modify the text of the TextBox OLE control has been introduced by adding a new [Text](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/text/) property to the new [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/) class. <sup>24.1</sup>
+* The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new [Text](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/text/) property to the new [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/) class. <sup>24.1</sup>
 * The Bibliography Sources public API was implemented through the adding a new namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) with its new classes and enumerations, and through the adding a new [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) property to the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class. <sup>24.1</sup>
 * An API to limit access to type members using template syntax for the LINQ Reporting Engine has been provided. <sup>24.1</sup>
 
@@ -164,7 +164,7 @@ Mustache tags are now supported in the [MailMerge.GetRegionsHierarchy](https://r
 
 #### LINQ Reporting Engine Template Syntax Updates <sup>23.7</sup>
 
-The LINQ Reporting Engine template syntax now supports the ElementAt and ElementAtOrDefault extension methods.
+The LINQ Reporting Engine template syntax now supports the `ElementAt` and ElementAtOrDefault extension methods.
 
 #### Specifying the Size of Rendered Images <sup>23.8</sup>
 
@@ -239,9 +239,9 @@ Since 23.2 the chart rendering has been significantly improved.
 
 The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
 
-#### Radial Gradients with the SkiaSharp Native Shader <sup>23.3</sup>
+#### Radial Gradients with the `SkiaSharp` Native Shader <sup>23.3</sup>
 
-Rendering of radial gradients with the SkiaSharp native shader for .NET Standard has been implemented.
+Rendering of radial gradients with the `SkiaSharp` native shader for .NET Standard has been implemented.
 
 #### Distance Between the Table and Surrounding Text <sup>23.4</sup>
 

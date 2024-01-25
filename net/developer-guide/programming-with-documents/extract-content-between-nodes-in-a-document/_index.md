@@ -137,7 +137,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content using a Field
 
-To use a field as marker, the FieldStart node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/) method of [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
+To use a field as marker, the `FieldStart` node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/) method of [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
 
 In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF.
 
@@ -153,7 +153,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Extract Content from a Bookmark
 
-In a document the content that is defined within a bookmark is encapsulated by the BookmarkStart and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark.
+In a document the content that is defined within a bookmark is encapsulated by the `BookmarkStart` and BookmarkEnd nodes. Content found between these two nodes make up the bookmark. You can pass either of these nodes as any marker, even ones from different bookmarks, as long as the starting marker appears before the ending marker in the document. We will extract this content into a new document using the code below. The **IsInclusive** parameter option shows how to retain or discard the bookmark.
 
 The following code example shows how to extract the content referenced a bookmark using the **ExtractContent** method:
 

@@ -18,7 +18,7 @@ To add watermark to word documents using Aspose.Words Java for Ruby, simply invo
 {{< highlight ruby >}}
 def insert_watermark_text(doc, watermark_text)
        
-    # Create a watermark shape. This will be a WordArt shape.
+    # Create a watermark shape. This will be a `WordArt` shape.
 
     # You are free to try other shape types as watermarks.
     shape_type = Rjb::import("com.aspose.words.ShapeType")

@@ -96,7 +96,7 @@ The following code example shows how to apply a paragraph style.
 
 ### Borders and Shading
 
-Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to several or only one document element. For example, `BorderType.Bottom` is applicable to a paragraph or table cell while `BorderType.DiagonalDown` specifies the diagonal border in a table cell only.
+Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the `BorderType` enumeration. Some values of the enumeration are applicable to several or only one document element. For example, `BorderType.Bottom` is applicable to a paragraph or table cell while `BorderType.DiagonalDown` specifies the diagonal border in a table cell only.
 
 Both the border collection and each separate border have similar attributes like color, line style, line width, distance from the text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the [Border.clearFormatting](https://reference.aspose.com/words/java/com.aspose.words/border/#clearFormatting) method. Note that when border properties are reset to default values, the border is invisible.
 

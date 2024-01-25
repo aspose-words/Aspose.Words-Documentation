@@ -31,9 +31,9 @@ doc1.appendDocument(doc2, ImportFormatMode.KEEP_SOURCE_FORMATTING);
 
 ## docx4j - Merge Documents
 
-This sample demonstrates how the MergeDocx utility can be used to merge docx documents.
+This sample demonstrates how the `MergeDocx` utility can be used to merge docx documents.
 
-The MergeDocx utility is a paid extension to docx4j. Purchases of this extension support the docx4j project. 
+The `MergeDocx` utility is a paid extension to docx4j. Purchases of this extension support the docx4j project. 
 
 @see <https://www.docx4java.org/blog/2010/11/merging-word-documents/> for more info, or @see <https://www.plutext.com>.
 
@@ -60,7 +60,7 @@ public static void main(String[] args) throws Docx4JException {
 	}
 	try {
 		// Use reflection, so docx4j can be built
-		// by users who don't have the MergeDocx utility
+		// by users who don't have the `MergeDocx` utility
 		Class<?> documentBuilder = Class.forName("com.plutext.merge.DocumentBuilder");
 		//Method method = documentBuilder.getMethod("merge", wmlPkgList.getClass());
 		Method[] methods = documentBuilder.getMethods();

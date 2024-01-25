@@ -11,7 +11,7 @@ url: /net/display-word-documents-in-silverlight/
 
 {{% alert color="primary" %}}
 
-You can download the complete source code of the SilverlightViewer sample [here](https://releases.aspose.com/words/net/).
+You can download the complete source code of the `SilverlightViewer` sample [here](https://releases.aspose.com/words/net/).
 
 {{% /alert %}}
 

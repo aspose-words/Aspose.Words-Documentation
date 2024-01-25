@@ -80,7 +80,7 @@ A mail merge region is a specific part inside a document that has a start point 
 
 Aspose.Words allows you to execute mail merge with regions using different [Execute methods](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions/) that accept various data objects as the data source.
 
-As a first step, we need to create the DataSet to pass it later as an input parameter to the `ExecuteWithRegions` method:
+As a first step, we need to create the `DataSet` to pass it later as an input parameter to the `ExecuteWithRegions` method:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Mail-Merge-MailMergeWithRegions-CreateDataSet.cs" >}}
 

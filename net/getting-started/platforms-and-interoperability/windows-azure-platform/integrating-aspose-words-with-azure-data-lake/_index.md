@@ -68,7 +68,7 @@ VALUES
 
 ### Implement the IOutputter Interface
 
-In Visual Studio, create a new project by adding **C# Class Library (For U-SQL Application)** and add the NuGet reference to [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
+In Visual Studio, create a new project by adding **C# Class Library (For U-SQL Application)** and add the `NuGet` reference to [Aspose.Words](https://www.nuget.org/packages/Aspose.Words/).
 
 The following code example shows how to implement the IOutputter interface:
 

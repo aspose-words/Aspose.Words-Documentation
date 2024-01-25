@@ -47,7 +47,7 @@ The following example shows typical code needed to export a report to a DOC file
 
 ## Integration with JasperServer
 
-To add DOC, DOCX, RTF, ODT, HTML and TXT export formats to JasperServer, perform the following steps. In all of the following steps **<InstallDir>** stands for the JasperServer installation directory.
+To add DOC, DOCX, RTF, ODT, HTML and TXT export formats to JasperServer, perform the following steps. In all of the following steps **<InstallDir>** stands for the `JasperServer` installation directory.
 
 **Step 0**
 
@@ -178,7 +178,7 @@ NOTE: You need to copy **ONLY ONE** jar file.
 
 Add the following lines to the **<InstallDir>\apache-tomcat\webapps\jasperserver\WEB-INF\applicationContext.xml** file.
 
-This bean may contain various configuration settings intended to configure the export. For example, you can use the JasperReports font mapping feature or specify the location of the Aspose.Words for JasperReports license file.
+This bean may contain various configuration settings intended to configure the export. For example, you can use the `JasperReports` font mapping feature or specify the location of the Aspose.Words for JasperReports license file.
 
 **XML**
 

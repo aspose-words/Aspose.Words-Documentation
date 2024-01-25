@@ -32,7 +32,7 @@ Note the default values:
 
 ## Load a Document
 
-To load an existing document in any of the LoadFormat formats, pass the file name or the stream into one of the Document constructors. The format of the loaded document is automatically determined by its extension.
+To load an existing document in any of the `LoadFormat` formats, pass the file name or the stream into one of the Document constructors. The format of the loaded document is automatically determined by its extension.
 
 ### Load from a File {#load-from-a-file}
 

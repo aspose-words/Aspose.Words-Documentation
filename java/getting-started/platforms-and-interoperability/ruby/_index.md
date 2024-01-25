@@ -104,7 +104,7 @@ $ gem install aspose-wordsjavaforruby
 
 ### Using
 
-Include the required files for working with the HelloWorld document.
+Include the required files for working with the `HelloWorld` document.
 
 {{< highlight csharp >}}
 require File.dirname(File.dirname(File.dirname(__FILE__))) + '/lib/aspose-wordsjavaforruby'

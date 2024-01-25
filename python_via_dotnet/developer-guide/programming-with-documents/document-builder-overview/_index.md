@@ -16,7 +16,7 @@ aliases: [/python/document-builder-overview/]
 
 ## Document Builder or Aspose.Words DOM
 
-[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The DocumentBuilder is a "facade" for the complex **Document** structure that allows you to quickly and easily insert content and formatting.
+[DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) complements classes and methods available in the Aspose.Words Document Object Model (DOM) to simplify the most common document building tasks. That is, you can create and modify the content of documents both through the Aspose.Words DOM, which requires a good understanding of the tree structure, and using the DocumentBuilder. The `DocumentBuilder` is a "facade" for the complex **Document** structure that allows you to quickly and easily insert content and formatting.
 
 Operations that are possible with [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) are also possible when using the classes of the Aspose.Words DOM directly. However, using Aspose.Words DOM classes directly usually requires more lines of code than using [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/).
 

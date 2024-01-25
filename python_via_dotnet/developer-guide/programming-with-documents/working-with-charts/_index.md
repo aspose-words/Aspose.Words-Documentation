@@ -104,7 +104,7 @@ Please see the result below:
 
 ![line-chart-chartdatapoint-aspose-words-net](working-with-charts-8.png)
 
-## How to Work with Single ChartDataPoint of a ChartSeries
+## How to Work with Single ChartDataPoint of a `ChartSeries` 
 
 Using [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/) you are able to customize the formatting of a single data point of the chart series:
 

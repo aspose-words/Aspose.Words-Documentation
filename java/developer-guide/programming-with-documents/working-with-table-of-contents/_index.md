@@ -103,7 +103,7 @@ If a switch is not listed here then it is currently unsupported.  All switches 
 
 ## Insert TC Fields
 
-You can insert a new TC field at the current position of the DocumentBuilder by calling the `DocumentBuilder.InsertField` method and specifying the field name as “TC” along with any switches that are needed.
+You can insert a new TC field at the current position of the `DocumentBuilder` by calling the `DocumentBuilder.InsertField` method and specifying the field name as “TC” along with any switches that are needed.
 
 The following code example shows how to insert a `TC` field into the document using [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/).
 
@@ -139,11 +139,11 @@ The following code example shows how to modify the position of the right tab st
 
 ## Remove a Table of Contents from the Document
 
-A table of contents can be removed from the document by removing all nodes found between the FieldStart and FieldEnd node of the `TOC` field.
+A table of contents can be removed from the document by removing all nodes found between the `FieldStart` and FieldEnd node of the `TOC` field.
 
-The code below demonstrates this. The removal of the `TOC` field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the FieldEnd node is of type `FieldType.FieldTOC` which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested `TOC` field inside another `TOC` field.
+The code below demonstrates this. The removal of the `TOC` field is simpler than a normal field as we do not keep track of nested fields. Instead, we check the `FieldEnd` node is of type `FieldType.FieldTOC` which means we have encountered the end of the current TOC. This technique can be used in this case without worrying about any nested fields as we can assume that any properly formed document will have no fully nested `TOC` field inside another `TOC` field.
 
-Firstly the FieldStart nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The following code example demonstrates how to remove a specified TOC from a document.
+Firstly the `FieldStart` nodes of each TOC are collected and stored. The specified TOC is then enumerated so all nodes within the field are visited and stored. The nodes are then removed from the document. The following code example demonstrates how to remove a specified TOC from a document.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-tableofcontents-RemoveATableOfContents-RemoveATableOfContents.java" >}}
 

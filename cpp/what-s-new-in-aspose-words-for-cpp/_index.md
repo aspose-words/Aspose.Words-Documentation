@@ -202,9 +202,9 @@ Since 23.2 the chart rendering has been significantly improved.
 
 The [Fill](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/) class has been extended with a set of new public properties related to background and foreground colors: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/fill/get_backtintandshade/).
 
-#### Radial Gradients with the SkiaSharp Native Shader <sup>23.3</sup>
+#### Radial Gradients with the `SkiaSharp` Native Shader <sup>23.3</sup>
 
-Rendering of radial gradients with the SkiaSharp native shader for .NET Standard has been implemented.
+Rendering of radial gradients with the `SkiaSharp` native shader for .NET Standard has been implemented.
 
 #### Distance Between the Table and Surrounding Text <sup>23.4</sup>
 

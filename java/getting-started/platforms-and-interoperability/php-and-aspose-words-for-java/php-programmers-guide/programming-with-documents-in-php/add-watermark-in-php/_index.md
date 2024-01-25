@@ -22,7 +22,7 @@ $this->insertWatermarkText($doc , "CONFIDENTIAL");
 $doc->save($dataDir . "TestFile Out.doc");
 }
 private function insertWatermarkText($doc, $watermarkText){
-// Create a watermark shape. This will be a WordArt shape.
+// Create a watermark shape. This will be a `WordArt` shape.
 
 // You are free to try other shape types as watermarks.
 $shapeType = new Java("com.aspose.words.ShapeType");

@@ -17,7 +17,7 @@ To ensure Aspose.Words accurately measures the characters and successfully embed
 1. Aspose.Words should be able to find and access TrueType font files on the system.
 1. There must be sufficient TrueType fonts available to Aspose.Words, preferably with the same font family names as the ones used in the document.
 
-Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the TrueType font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
+Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the `TrueType` font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
 
 ## Font Manipulation and Performance Issues
 
@@ -60,12 +60,12 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 1. If Aspose.Words is unable to locate the defined font, and [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
    1. First, Aspose.Words tries to process the font name to get the substitution, particularly it tries to remove suffixes with "-" and "," separators.<br>
       If this substitution rule takes place, a "Font '&lt;OriginalFont&gt;' has not been found. Using '&lt;SubstitutionFont&gt;' font instead. Reason: font name substitution." warning appears.<br>
-   1. Then Aspose.Words attempts to apply OS font settings, if they are available, by using the **FontConfig** utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
-      Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the FontConfig utility is disabled. You can enable it as follows:<br>
+   1. Then Aspose.Words attempts to apply OS font settings, if they are available, by using the **FontConfig** utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a `FontConfig` library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.
+      Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the `FontConfig` utility is disabled. You can enable it as follows:<br>
 {{< highlight python >}}
 fontSettings.substitution_settings.font_config_substitution.enabled = True
 {{< /highlight >}}
-   1. The next step uses a simple but powerful mechanism called **Table** substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the FontConfig substitution rule.<br>
+   1. The next step uses a simple but powerful mechanism called **Table** substitution rule. By default, this feature is active and available for the given operating system. Aspose.Words will substitute the font with this rule if it is not substituted with the `FontConfig` substitution rule.<br>
       Aspose.Words uses XML tables, which define the basic substitution rules for different OS. According to the Table substitution rule, the list of substitute font names will be used.<br>
       **XML**<br>
 {{< highlight html >}}
@@ -93,7 +93,7 @@ fontInfos = doc.font_infos
 fontSettings.substitution_settings.font_info_substitution.enabled = False
 {{< /highlight >}}
       If [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) is not available for the missing font, then the process stops.<br>
-   1. [DefaultFont](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/) substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [default_font_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_name/) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
+   1. [DefaultFont](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/) substitution rule will be applied in the case when the `FontInfo` substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [default_font_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_name/) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
 {{< highlight python >}}
 fontSettings.substitution_settings.default_font_substitution.enabled = False
 {{< /highlight >}}
@@ -180,7 +180,7 @@ Only Sans style Noto fonts with regular weight are used in the predefined settin
 
 ## Where Aspose.Words Looks for Fonts
 
-Aspose.Words attempts to find TrueType fonts on the file system automatically. Usually, you can rely on the default behavior of Aspose.Words to find the TrueType fonts, but sometimes you need to specify your own folders containing TrueType fonts. The ["Specifying TrueType Fonts Location"](/words/python-net/specifying-truetype-fonts-location/) topic describes how and where Aspose.Words looks for fonts, as well as how to specify your own font locations.
+Aspose.Words attempts to find TrueType fonts on the file system automatically. Usually, you can rely on the default behavior of Aspose.Words to find the `TrueType` fonts, but sometimes you need to specify your own folders containing TrueType fonts. The ["Specifying TrueType Fonts Location"](/words/python-net/specifying-truetype-fonts-location/) topic describes how and where Aspose.Words looks for fonts, as well as how to specify your own font locations.
 
 ## Differences in Processing of Font Formats in Aspose.Words and Microsoft Word
 

@@ -170,7 +170,7 @@ The [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontso
 
 ## Load Fonts from Stream {#loading-fonts-from-stream}
 
-Aspose.Words provides the [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the FontSettings lifetime.
+Aspose.Words provides the [StreamFontSource](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/) class, which allows loading fonts from the stream. To use the stream font source, a user needs to create a derived class from **StreamFontSource** and provide an implementation of the [OpenFontDataStream](https://reference.aspose.com/words/java/com.aspose.words/streamfontsource/#openFontDataStream) method. The **OpenFontDataStream** method could be called several times. For the first time, it will be called when Aspose.Words scans the provided font sources to get a list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats. **StreamFontSource** may be useful because it allows loading the font data only when it is required, and not to store it in the memory for the `FontSettings` lifetime.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-rendering_printing-SpecifyTrueTypeFontsLocation-loadingFontsStream.java" >}}
 
@@ -190,7 +190,7 @@ Use the same **SaveSearchCache** method to update the cache.
 
 {{% alert color="primary" %}}
 
-The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a FontSettings instance with a loaded cache.
+The cache is also suitable for other scenarios when fonts are loaded over the network. Or for scenarios when there is no way to store a `FontSettings` instance with a loaded cache.
 
 {{% /alert %}}
 

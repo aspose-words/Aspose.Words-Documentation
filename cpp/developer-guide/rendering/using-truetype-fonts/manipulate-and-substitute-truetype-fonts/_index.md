@@ -16,7 +16,7 @@ To ensure Aspose.Words accurately measures the characters and successfully embed
 1. Aspose.Words should be able to find and access TrueType font files on the system.
 1. There must be sufficient TrueType fonts available to Aspose.Words, preferably with the same font family names as the ones used in the document.
 
-Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the TrueType font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
+Note that the font in the document represents an entity, such as family name, style, size, color, that is different from the `TrueType` font (physical font) entity. Aspose.Words resolves the font in the document to a physical font at some stage of processing. This enables certain tasks, most commonly the task of calculating text size during layout construction and embedding/subsetting to fixed-page formats. A number of other less popular tasks, such as font resolving and substitution while loading HTML or embedding/subsetting to some flow formats, are likewise enabled.
 
 ## Font Manipulation and Performance Issues
 
@@ -62,8 +62,8 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
 1. Aspose.Words tries to find the required font among the fonts embedded in the original document. Some document formats such as DOCX can contain embedded fonts.
 1. If Aspose.Words is unable to locate the required font with the exact name match, and the [AltName](https://reference.aspose.com/words/cpp/aspose.words.fonts/fontinfo/get_altname/) property defined for this font, then Aspose.Words will find the font defined with **AltName** from the [FontInfo](https://reference.aspose.com/words/cpp/class/aspose.words.fonts.font_info) class, which specifies the font information.
 1. If Aspose.Words is unable to locate the defined font, and **AltName** is not also defined, then the font substitution rules are applied one-by-one, as described below (when the appropriate replacement is found, the Font Substitution Process stops and the next step is not executed):
-   1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the FontConfig utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a FontConfig library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.<br>
-      Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the FontConfig utility is disabled. You can enable it as follows:<br>
+   1. Aspose.Words will attempt to apply OS font settings, if they are available, by using the `FontConfig` utility. This Non-Windows feature must be used with a FontConfig-compatible OS. Almost any Unix-based OS already has a `FontConfig` library that is designed to provide system-wide font configuration, customization, and access to applications. Otherwise, this library can be easily installed by the user.<br>
+      Aspose.Words knows how to query data and interpret FontConfig results for its own purposes. By default, the `FontConfig` utility is disabled. You can enable it as follows:<br>
       **C++**
       {{< highlight cpp >}}
       fontSettings->get_SubstitutionSettings()->get_FontConfigSubstitution()->set_Enabled(true);
@@ -105,7 +105,7 @@ However, there are situations when the exact font cannot be found and Aspose.Wor
       fontSettings->get_SubstitutionSettings()->get_FontInfoSubstitution()->set_Enabled(false);
       {{< /highlight >}}
       If **FontInfo** is not available for the missing font, then the process stops.
-   1. **DefaultFont** substitution rule will be applied in the case when the FontInfo substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://reference.aspose.com/words/cpp/aspose.words.fonts/defaultfontsubstitutionrule/get_defaultfontname/) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
+   1. **DefaultFont** substitution rule will be applied in the case when the `FontInfo` substitution has also failed. This rule is also enabled by default. According to this rule, Aspose.Words will attempt to use the default font specified in the [DefaultFontName](https://reference.aspose.com/words/cpp/aspose.words.fonts/defaultfontsubstitutionrule/get_defaultfontname/) property. If the user has not chosen their own default font, then "Times New Roman" will be used as the default font. This rule can be disabled as shown below:<br>
       **C++**<br>
       {{< highlight cpp >}}
       fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution()->set_Enabled(false);
@@ -218,7 +218,7 @@ Only Sans style Noto fonts with regular weight are used in predefined settings.
 
 ## Where Aspose.Words Looks for Fonts
 
-Aspose.Words attempts to find TrueType fonts on the file system automatically. Usually, you can rely on the default behavior of Aspose.Words to find the TrueType fonts, but sometimes you need to specify your own folders containing TrueType fonts. The ["Specify TrueType Fonts Location"](/words/cpp/specify-truetype-fonts-location/) topic describes how and where Aspose.Words looks for fonts, as well as how to specify your own font locations.
+Aspose.Words attempts to find TrueType fonts on the file system automatically. Usually, you can rely on the default behavior of Aspose.Words to find the `TrueType` fonts, but sometimes you need to specify your own folders containing TrueType fonts. The ["Specify TrueType Fonts Location"](/words/cpp/specify-truetype-fonts-location/) topic describes how and where Aspose.Words looks for fonts, as well as how to specify your own font locations.
 
 ## Differences in Processing of Font Formats in Aspose.Words and Microsoft Word
 

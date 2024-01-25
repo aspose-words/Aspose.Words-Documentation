@@ -34,7 +34,7 @@ The following code example shows how to work with watermarks using Aspose.Words:
 {{< highlight java >}}
 private static void insertWatermarkText(Document doc, String watermarkText) throws Exception
 {
-    // Create a watermark shape. This will be a WordArt shape.
+    // Create a watermark shape. This will be a `WordArt` shape.
     // You are free to try other shape types as watermarks.
     Shape watermark = new Shape(doc, ShapeType.TEXT_PLAIN_TEXT);
 

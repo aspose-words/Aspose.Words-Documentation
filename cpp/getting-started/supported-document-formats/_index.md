@@ -50,7 +50,7 @@ The following table indicates the file formats supported by Aspose.Words for C++
 |[ODT](https://docs.fileformat.com/word-processing/odt/) |ODF Text Document|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[OTT](https://docs.fileformat.com/word-processing/ott/) |ODF Text Document Template|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
 |[TXT](https://docs.fileformat.com/word-processing/txt/)|Plain Text|{{< emoticons/tick >}}|{{< emoticons/tick >}}| |
-|[MOBI](https://docs.fileformat.com/ebook/mobi/)|eBook format used by the MobiPocket Reader and Amazon Kindle Readers|{{< emoticons/tick >}}| {{< emoticons/tick >}} | |
+|[MOBI](https://docs.fileformat.com/ebook/mobi/)|eBook format used by the `MobiPocket` Reader and Amazon Kindle Readers|{{< emoticons/tick >}}| {{< emoticons/tick >}} | |
 |[AZW3](https://docs.fileformat.com/ebook/azw3/)|eBook format used by Amazon Kindle readers|{{< emoticons/tick >}}| {{< emoticons/tick >}} | |
 |[CHM](https://docs.fileformat.com/web/chm/)|CHM (Compiled HTML Help) format|{{< emoticons/tick >}}| | |
 | `XamlFlow` |**Beta**<br />Saves the document in the Extensible Application Markup Language (XAML) format as a flow document| |{{< emoticons/tick >}}| |

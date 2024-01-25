@@ -36,7 +36,7 @@ The following code example shows how to make your document read-only:
 {{< highlight csharp >}}
 public void OpenReadOnlyAccessFeature()
 {
-	// Open a WordprocessingDocument based on a filepath.
+	// Open a `WordprocessingDocument` based on a filepath.
 	using (WordprocessingDocument wordDocument = WordprocessingDocument.Open(MyDir + "Open readonly access.docx", false))
 	{
 		// Assign a reference to the existing document body.  
