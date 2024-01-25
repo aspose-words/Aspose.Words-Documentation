@@ -35,7 +35,7 @@ The shape types described above provide a special method to render the shapes th
 
 - File on the disk using the [Save](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/save/) method overload
 - Stream using the [Save](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/save/) method overload
-- The Graphics Object by using the [RenderToSize](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/rendertosize/) and [RenderToScale](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/rendertoscale/) methods
+- The `Graphics` Object by using the [RenderToSize](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/rendertosize/) and [RenderToScale](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/rendertoscale/) methods
 
 {{% alert color="primary" %}}
 

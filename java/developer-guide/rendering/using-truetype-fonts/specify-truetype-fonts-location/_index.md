@@ -125,7 +125,7 @@ SystemFontSource().getAvailableFonts()
 
 ## Load Fonts from Folder {#loading-fonts-from-folder}
 
-If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the `SetFontsSources` method. This will allow replacing the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The GetFontSources method will return the corresponding values.
+If the document being processed contains links to fonts that are not on the system, or you don't want to add them to the system folder, or you lack permissions, then the best solution would be to add a folder with your own fonts using the `SetFontsSources` method. This will allow replacing the system source with a user source. Aspose.Words will no longer look for fonts in the registry or Windows\Font folder and instead only scan for fonts within the specified folder(s). The `GetFontSources` method will return the corresponding values.
 
 ### Specify One or Multiple Font Folders
 

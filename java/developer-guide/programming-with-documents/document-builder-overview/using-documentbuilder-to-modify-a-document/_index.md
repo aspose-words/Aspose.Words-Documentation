@@ -13,7 +13,7 @@ url: /java/using-documentbuilder-to-modify-a-document/
 
 ### Font Formatting
 
-Current font formatting is represented by a `Font` object returned by the `DocumentBuilder.Font` property. The Font class contains a wide variety of font properties possible in Microsoft Word.
+Current font formatting is represented by a `Font` object returned by the `DocumentBuilder.Font` property. The `Font` class contains a wide variety of font properties possible in Microsoft Word.
 
 |![font-formatting-aspose-words-java](documentbuilder-to-modify-document-1.png)|
 | :- |

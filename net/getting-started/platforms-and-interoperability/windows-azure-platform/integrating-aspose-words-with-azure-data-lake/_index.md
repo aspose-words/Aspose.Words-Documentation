@@ -96,7 +96,7 @@ namespace AsposeWordsOutputterUSql
 		}
 	
 		/// <summary>
-		/// The Close method is used to write the document to the file. It is executed only once, after all rows.
+		/// The `Close` method is used to write the document to the file. It is executed only once, after all rows.
 		/// </summary>
 		public override void Close()
 		{

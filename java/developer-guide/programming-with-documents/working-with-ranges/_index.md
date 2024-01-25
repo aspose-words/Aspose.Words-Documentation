@@ -35,7 +35,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Delete Text
 
-The Range class allows the deletion of all characters of the range by calling [delete](https://reference.aspose.com/words/java/com.aspose.words/range/#delete).
+The `Range` class allows the deletion of all characters of the range by calling [delete](https://reference.aspose.com/words/java/com.aspose.words/range/#delete).
 
 The following code example shows how to delete all characters of a range:
 

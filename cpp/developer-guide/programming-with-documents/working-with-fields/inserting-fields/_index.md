@@ -93,7 +93,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting Mail Merge Address Block field into a Document using DOM
 
-The ADDRESSBLOCK field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) class. You can use the **FieldAddressBlock** class to perform the following operations:
+The `ADDRESSBLOCK` field is used to insert a mail merge address block in a Word document. ADDRESSBLOCK field in Word document can be represented by the [FieldAddressBlock](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldaddressblock/) class. You can use the **FieldAddressBlock** class to perform the following operations:
 
 - specify whether to include the name of the country/region in the field
 - specify whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006)
@@ -119,7 +119,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting Advance field into a Document without using DocumentBuilder
 
-The ADVANCE field is used to offset subsequent text within a line to the left, right, up or down. The ADVANCE field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldadvance/) class. You can use FieldAdvance class to perform the following operations:
+The `ADVANCE` field is used to offset subsequent text within a line to the left, right, up or down. The `ADVANCE` field in Word document can be represented by the [FieldAdvance](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldadvance/) class. You can use FieldAdvance class to perform the following operations:
 
 - specify the number of points by which the text that follows the field should be moved vertically from the top edge of the page
 - specify the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box
@@ -143,7 +143,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting ASK field into a Document without using DocumentBuilder
 
-The ASK field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldask/) class. You can use the **FieldAsk** class to perform the following operations:
+The `ASK` field is used to prompt the user for text to assign to a Bookmark in Word document. ASK field in Word document can be represented by the [FieldAsk](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldask/) class. You can use the **FieldAsk** class to perform the following operations:
 
 - specify the name of the bookmark
 - specify default user response (initial value contained in the prompt window)
@@ -168,7 +168,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
-The AUTHOR field is used to specify the name of the Document's author from the `Document` properties. The AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldauthor/) class. You can use the **FieldAuthor** class to perform the following operations:
+The `AUTHOR` field is used to specify the name of the Document's author from the `Document` properties. The `AUTHOR` field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldauthor/) class. You can use the **FieldAuthor** class to perform the following operations:
 
 - specify the document author's name
 
@@ -190,7 +190,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting INCLUDETEXT field into a Document without using DocumentBuilder
 
-The INCLUDETEXT field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use the [FieldIncludeText](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldincludetext/) class to perform the following operations:
+The `INCLUDETEXT` field inserts the text and graphics contained in the document named in the field code. You can insert the entire document or a portion of the document referred to by a bookmark. This field in Word document is represented by INCLUDETEXT. You can use the [FieldIncludeText](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldincludetext/) class to perform the following operations:
 
 - specify the bookmark's name of the included document
 - specify the location of the document

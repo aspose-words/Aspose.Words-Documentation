@@ -38,7 +38,7 @@ You can download the template file of this example from [Aspose.Words GitHub](
 
 ## Save to PCL {#save-a-document-to-pcl}
 
-Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The PclSaveOptions class can be used to specify additional options when saving a document into the PCL format.
+Aspose.Words supports saving a document into PCL (Printer Command Language). Aspose.Words can save documents into PCL 6 (PCL 6 Enhanced or PCL XL) format. The `PclSaveOptions` class can be used to specify additional options when saving a document into the PCL format.
 
 The following code example shows how to save a document to PCL using save options:
 

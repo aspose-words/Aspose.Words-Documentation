@@ -21,7 +21,7 @@ def extract_content_between_paragraphs(self, doc):
         Shows how to extract the content between specific paragraphs using the `ExtractContent` method above.
     """
 
-    # Gather the nodes. The GetChild method uses 0-based index
+    # Gather the nodes. The `GetChild` method uses 0-based index
     startPara = doc.getFirstSection().getChild(NodeType.PARAGRAPH, 6, True)
     endPara = doc.getFirstSection().getChild(NodeType.PARAGRAPH, 10, True)
     

@@ -13,7 +13,7 @@ url: /cpp/using-documentbuilder-to-modify-a-document-easily/
 
 ### Font Formatting
 
-Current font formatting is represented by a `Font` object returned by the `DocumentBuilder.Font` property. The Font class contains a wide variety of the font properties possible in Microsoft Word. Below example shows how to set font formatting.
+Current font formatting is represented by a `Font` object returned by the `DocumentBuilder.Font` property. The `Font` class contains a wide variety of the font properties possible in Microsoft Word. Below example shows how to set font formatting.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetFontFormatting.cpp" >}}
 
@@ -99,7 +99,7 @@ Furthermore, a **Style** object provides the `Style.StyleIdentifier` property
 
 Borders are represented by the BorderCollection. This is a collection of Border objects that are accessed by index or by border type. Border type is represented by the BorderType enumeration. Some values of the enumeration are applicable to several or only one document element. For example, `BorderType.Bottom` is applicable to a paragraph or table cell while `BorderType.DiagonalDown` specifies the diagonal border in a table cell only.
 
-Both the border collection and each separate border have similar attributes like color, line style, line width, distance from text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining the property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the `Border.ClearFormatting` method. Note that when border properties are reset to default values, the border is invisible. The Shading class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
+Both the border collection and each separate border have similar attributes like color, line style, line width, distance from text, and optional shadow. They are represented by properties of the same name. You can achieve different border types by combining the property values. In addition, both **BorderCollection** and **Border** objects allow you to reset these values to default by calling the `Border.ClearFormatting` method. Note that when border properties are reset to default values, the border is invisible. The `Shading` class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
 The shading texture is set with a TextureIndex enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the `TextureIndex.TextureSolid` value and set the foreground shading color as appropriate. Below example shows how to apply borders and shading to a paragraph.
 

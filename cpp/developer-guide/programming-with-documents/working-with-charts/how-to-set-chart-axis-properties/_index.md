@@ -29,7 +29,7 @@ The following code example shows how to change the format of numbers on the val
 
 ## How to Set Bounds of Axis
 
-The AxisBound class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value.
+The `AxisBound` class represents a minimum or maximum bound of axis values. Bound can be specified as a numeric, date-time or a special "auto" value.
 
 The following code example shows how to set the bounds of an axis:
 

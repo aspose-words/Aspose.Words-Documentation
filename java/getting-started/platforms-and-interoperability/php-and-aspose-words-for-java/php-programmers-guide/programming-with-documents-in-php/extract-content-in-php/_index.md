@@ -32,7 +32,7 @@ public static function extractContentBetweenParagraphs(){
 // Load in the document
 $doc = new Java("com.aspose.words.Document", ExtractContent::$gDataDir . "TestFile.doc");
 
-// Gather the nodes. The GetChild method uses 0-based index
+// Gather the nodes. The `GetChild` method uses 0-based index
 $nodeType = Java("com.aspose.words.NodeType");
 $startPara = $doc->getFirstSection()->getChild($nodeType->PARAGRAPH, 6, true);
 $endPara =   $doc->getFirstSection()->getChild($nodeType->PARAGRAPH, 10, true);

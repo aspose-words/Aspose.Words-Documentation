@@ -64,7 +64,7 @@ The following code example shows how to save a document to the specified datab
 
 Specify commandString, which is an SQL expression that does all the work:
 
-- To save a document into the database, the “INSERT INTO” command is used and a table specified along with the values of two record fields – FileName and FileContent. To avoid additional parameters, the file name is taken from the **Document** object itself. The FileContent field value is assigned bytes from the memory stream, which contains a binary representation of the stored document.
+- To save a document into the database, the “INSERT INTO” command is used and a table specified along with the values of two record fields – FileName and FileContent. To avoid additional parameters, the file name is taken from the **Document** object itself. The `FileContent` field value is assigned bytes from the memory stream, which contains a binary representation of the stored document.
 - The remaining line of code executes the command which stores the Aspose.Words document in the database.
 
 ### Retrieve a Document from a Database

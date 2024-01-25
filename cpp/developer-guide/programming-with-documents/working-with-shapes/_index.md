@@ -67,7 +67,7 @@ The following code example demonstrates how to set **HorizontalRuleFormat**:
 
 ## Insert OLE Object as an Icon
 
-Aspose.Words API provides **Shape** → **InsertOleObjectAsIcon** function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying the icon file and the caption. The OLE object type shall be detected using the file extension.
+Aspose.Words API provides **Shape** → **InsertOleObjectAsIcon** function to insert an embedded or linked OLE object as an icon into the document. This function allows specifying the icon file and the caption. The `OLE` object type shall be detected using the file extension.
 
 The following code example shows how to set insert OLE object as an Icon into the document:
 

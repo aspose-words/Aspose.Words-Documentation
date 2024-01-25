@@ -18,7 +18,7 @@ To extract contents from word document using Aspose.Words Java in Ruby, simply i
 {{< highlight ruby >}}
 def extract_content_between_paragraphs(doc)
 
-    # Gather the nodes. The GetChild method uses 0-based index
+    # Gather the nodes. The `GetChild` method uses 0-based index
     node_type = Rjb::import("com.aspose.words.NodeType")
     start_para = doc.getFirstSection().getChild(node_type.PARAGRAPH, 6, true)
     end_para =   doc.getFirstSection().getChild(node_type.PARAGRAPH, 10, true)
@@ -32,7 +32,7 @@ def extract_content_between_paragraphs(doc)
 end    
 def extract_content_between_block_level_nodes(doc)
 
-    # Gather the nodes. The GetChild method uses 0-based index
+    # Gather the nodes. The `GetChild` method uses 0-based index
     node_type = Rjb::import("com.aspose.words.NodeType")
     start_para = doc.getLastSection().getChild(node_type.PARAGRAPH, 2, true)
     end_table = doc.getLastSection().getChild(node_type.TABLE, 0, true)

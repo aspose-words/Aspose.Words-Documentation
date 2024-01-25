@@ -28,7 +28,7 @@ The following code example shows how to insert OLE Object into a document:
 
 OLE package is a legacy and "undocumented" way to store embedded objects if an OLE handler is unknown.
 
-Early Windows versions such as Windows 3.1, 95, and 98 had a Packager.exe application that could be used to embed any type of data into the document. This application is now excluded from Windows, but Microsoft Word and other applications still use it to embed data if the OLE handler is missing or unknown. The OlePackage class allows users to access the OLE Package properties.
+Early Windows versions such as Windows 3.1, 95, and 98 had a Packager.exe application that could be used to embed any type of data into the document. This application is now excluded from Windows, but Microsoft Word and other applications still use it to embed data if the OLE handler is missing or unknown. The `OlePackage` class allows users to access the OLE Package properties.
 
 The following code example shows how to set the file name, extension, and display name for OLE Package:
 
