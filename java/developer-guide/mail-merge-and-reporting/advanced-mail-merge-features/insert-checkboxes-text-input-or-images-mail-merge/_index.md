@@ -31,7 +31,7 @@ This screenshot of the Word document below shows the already generated document:
 
 {{% alert color="primary" %}}
 
-Note that some fields were replaced with plain text, some fields were replaced with checkbox form fields, and the Subject field was replaced with a text input field.
+Note that some fields were replaced with plain text, some fields were replaced with checkbox form fields, and the `Subject` field was replaced with a text input field.
 
 {{% /alert %}}
 

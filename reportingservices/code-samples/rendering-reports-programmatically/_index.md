@@ -128,7 +128,7 @@ private static void RenderReportToFile(
 }
 {{< /highlight >}}
 
-### Step 4. Call the RenderReportToFile method.
+### Step 4. Call the `RenderReportToFile` method.
 
 You can call the **RenderReportToFile** method from any point of your application. The call might look like the following:
 
@@ -243,7 +243,7 @@ private static void RenderReportToFile(
 }
 {{< /highlight >}}
 
-### Step 3. Call the RenderReportToFile method.
+### Step 3. Call the `RenderReportToFile` method.
 
 You can call the **RenderReportToFile** method from any point of your application. The call might look like the following:
 

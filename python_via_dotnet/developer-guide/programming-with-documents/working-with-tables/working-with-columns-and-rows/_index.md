@@ -42,7 +42,7 @@ The following code example shows how to retrieve the index of a cell in a row:
 
 ## Work with Columns
 
-In the Aspose.Words Document Object Model (DOM), the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node consists of [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) nodes and then [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) nodes. Thus, in the Document Object Model of Aspose.Words, as in Word documents, there is no concept of a column.
+In the Aspose.Words Document Object Model (DOM), the [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) node consists of [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) nodes and then [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) nodes. Thus, in the `Document` Object Model of Aspose.Words, as in Word documents, there is no concept of a column.
 
 By design, the table rows in Microsoft Word and Aspose.Words are completely independent, and the basic properties and operations are contained only in the rows and cells of the table. This gives tables the ability to have some interesting attributes:
 

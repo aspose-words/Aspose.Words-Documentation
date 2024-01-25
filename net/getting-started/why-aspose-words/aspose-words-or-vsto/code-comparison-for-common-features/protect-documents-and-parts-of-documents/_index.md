@@ -13,7 +13,7 @@ You can add protection to Word documents to prevent users from making any edits 
 
 ## VSTO Words
 
-The following code example protects the active document. To use this code example, run it from the ThisAddIn class in your project.
+The following code example protects the active document. To use this code example, run it from the `ThisAddIn` class in your project.
 
 {{< highlight csharp >}}
 object noReset = false;

@@ -27,7 +27,7 @@ You can insert documents in a variety of locations in different ways. For exampl
 
 You can also use the [InsertDocument](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/insertdocument/) method, which is similar to inserting a document in Microsoft Word, to insert a whole document at the current cursor position without any previous importing.
 
-The following code example shows how to insert a document using the InsertDocument method:
+The following code example shows how to insert a document using the `InsertDocument` method:
 
 {{< gist "aspose-words-gists" "34934bfeabca5cf3dd3ca3c277e85771" "insert-document-with-builder.h" >}}
 

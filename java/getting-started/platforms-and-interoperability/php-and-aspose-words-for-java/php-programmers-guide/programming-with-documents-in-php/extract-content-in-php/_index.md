@@ -27,7 +27,7 @@ ExtractContent::extractContentBetweenCommentRange();
 public static function extractContentBetweenParagraphs(){
 //ExStart
 //ExId:ExtractBetweenNodes_BetweenParagraphs
-//ExSummary:Shows how to extract the content between specific paragraphs using the ExtractContent method above.
+//ExSummary:Shows how to extract the content between specific paragraphs using the `ExtractContent` method above.
 
 // Load in the document
 $doc = new Java("com.aspose.words.Document", ExtractContent::$gDataDir . "TestFile.doc");
@@ -48,7 +48,7 @@ $dstDoc->save(ExtractContent::$gDataDir . "TestFile.Paragraphs Out.doc");
 public static function extractContentBetweenBlockLevelNodes(){
 //ExStart
 //ExId:ExtractBetweenNodes_BetweenNodes
-//ExSummary:Shows how to extract the content between a paragraph and table using the ExtractContent method.
+//ExSummary:Shows how to extract the content between a paragraph and table using the `ExtractContent` method.
 
 // Load in the document
 $doc = new Java("com.aspose.words.Document", ExtractContent::$gDataDir . "TestFile.doc");
@@ -78,7 +78,7 @@ $doc->save(ExtractContent::$gDataDir . "TestFile.DuplicatedContent Out.doc");
 public static function extractContentBetweenParagraphStyles(){
 //ExStart
 //ExId:ExtractBetweenNodes_BetweenStyles
-//ExSummary:Shows how to extract content between paragraphs with specific styles using the ExtractContent method.
+//ExSummary:Shows how to extract content between paragraphs with specific styles using the `ExtractContent` method.
 
 // Load in the document
 $doc = new Java("com.aspose.words.Document" , ExtractContent::$gDataDir . "TestFile.doc");
@@ -102,7 +102,7 @@ $dstDoc->save(ExtractContent::$gDataDir . "TestFile.Styles Out.doc");
 public static function extractContentBetweenRuns(){
 //ExStart
 //ExId:ExtractBetweenNodes_BetweenRuns
-//ExSummary:Shows how to extract content between specific runs of the same paragraph using the ExtractContent method.
+//ExSummary:Shows how to extract content between specific runs of the same paragraph using the `ExtractContent` method.
 
 // Load in the document
 $doc = new Java("com.aspose.words.Document" , ExtractContent::$gDataDir . "TestFile.doc");
@@ -130,7 +130,7 @@ public static function extractContentUsingField(){
 //ExStart
 //ExFor:DocumentBuilder.MoveToMergeField(String, Boolean, Boolean)
 //ExId:ExtractBetweenNodes_UsingField
-//ExSummary:Shows how to extract content between a specific field and paragraph in the document using the ExtractContent method.
+//ExSummary:Shows how to extract content between a specific field and paragraph in the document using the `ExtractContent` method.
 
 // Load in the document
 $doc = new Java("com.aspose.words.Document", ExtractContent::$gDataDir . "TestFile.doc");
@@ -159,7 +159,7 @@ $dstDoc->save(ExtractContent::$gDataDir . "TestFile.Fields Out.pdf");
 public static function extractContentBetweenBookmark(){
 //ExStart
 //ExId:ExtractBetweenNodes_BetweenBookmark
-//ExSummary:Shows how to extract the content referenced a bookmark using the ExtractContent method.
+//ExSummary:Shows how to extract the content referenced a bookmark using the `ExtractContent` method.
 
 // Load in the document
 $doc = new Java("com.aspose.words.Document" , ExtractContent::$gDataDir . "TestFile.doc");
@@ -185,7 +185,7 @@ $dstDoc->save(ExtractContent::$gDataDir . "TestFile.BookmarkExclusive Out.doc");
 public static function extractContentBetweenCommentRange(){
 //ExStart
 //ExId:ExtractBetweenNodes_BetweenComment
-//ExSummary:Shows how to extract content referenced by a comment using the ExtractContent method.
+//ExSummary:Shows how to extract content referenced by a comment using the `ExtractContent` method.
 
 // Load in the document
 $doc = new Java("com.aspose.words.Document" , ExtractContent::$gDataDir . "TestFile.doc");
@@ -298,7 +298,7 @@ return $nodes;
 //ExEnd
 //ExStart
 //ExId:ExtractBetweenNodes_Helpers
-//ExSummary:The helper methods used by the ExtractContent method.
+//ExSummary:The helper methods used by the `ExtractContent` method.
 /**
 \* Checks the input parameters are correct and can be used. Throws an exception if there is any problem.
 */

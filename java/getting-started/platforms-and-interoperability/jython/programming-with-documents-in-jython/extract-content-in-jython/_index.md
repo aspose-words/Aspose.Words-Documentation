@@ -18,7 +18,7 @@ To Extract Content from document using **Aspose.Words Java for Jython**. Here yo
 {{< highlight ruby >}}
 def extract_content_between_paragraphs(self, doc):
     """
-        Shows how to extract the content between specific paragraphs using the ExtractContent method above.
+        Shows how to extract the content between specific paragraphs using the `ExtractContent` method above.
     """
 
     # Gather the nodes. The GetChild method uses 0-based index
@@ -33,7 +33,7 @@ def extract_content_between_paragraphs(self, doc):
     dstDoc.save(self.dataDir + "TestFile.Paragraphs Out.doc")
 def extract_content_between_block_level_nodes(self, doc):
     """
-        Shows how to extract the content between a paragraph and table using the ExtractContent method.
+        Shows how to extract the content between a paragraph and table using the `ExtractContent` method.
     """
     startPara = doc.getLastSection().getChild(NodeType.PARAGRAPH, 2, True)
     endTable = doc.getLastSection().getChild(NodeType.TABLE, 0, True)

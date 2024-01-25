@@ -49,7 +49,7 @@ The following code example shows how to insert a style separator to accommodate 
 
 ### Identify Paragraph Style Separator
 
-Aspose.Words exposes the [BreakIsStyleSeparator](https://reference.aspose.com/words/net/aspose.words/paragraph/breakisstyleseparator/) public property on the Paragraph class to identify a paragraph with a style separator, as shown in the example below:
+Aspose.Words exposes the [BreakIsStyleSeparator](https://reference.aspose.com/words/net/aspose.words/paragraph/breakisstyleseparator/) public property on the `Paragraph` class to identify a paragraph with a style separator, as shown in the example below:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-ParagraphStyleSeparator-ParagraphStyleSeparator.cs" >}}
 

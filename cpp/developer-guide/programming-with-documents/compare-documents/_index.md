@@ -51,7 +51,7 @@ The following code example shows how to check if two documents are equal or not:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-CompareDocument-CompareForEqual.cpp" >}}
 
-The following code example shows how to simply apply the Compare method to two documents:
+The following code example shows how to simply apply the `Compare` method to two documents:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Document-CompareDocument-CompareWhenDocumentHasRevisions.cpp" >}}
 

@@ -32,7 +32,7 @@ The diagram provided below shows inheritance between node classes of the Aspose.
 
 {{% alert color="primary" %}}
 
-The Aspose.Words DOM also contains the non-node classes, such as [Style](https://reference.aspose.com/words/net/aspose.words/style/) or [Font](https://reference.aspose.com/words/net/aspose.words/font/), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the Node class.
+The Aspose.Words DOM also contains the non-node classes, such as [Style](https://reference.aspose.com/words/net/aspose.words/style/) or [Font](https://reference.aspose.com/words/net/aspose.words/font/), which are used to customize the appearance and styles  within a document. These classes are not shown in this diagram as not inherited from the `Node` class.
 
 {{% /alert %}}
 

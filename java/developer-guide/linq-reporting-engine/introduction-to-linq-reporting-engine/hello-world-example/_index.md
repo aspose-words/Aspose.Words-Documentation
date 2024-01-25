@@ -15,7 +15,7 @@ A "Hello, World" example is traditionally used to introduce features of a progra
 
 {{% /alert %}}
 
-Assume, that you have the Sender class defined in your application as follows:
+Assume, that you have the `Sender` class defined in your application as follows:
 
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-linq-Sender-Sender.java" >}}

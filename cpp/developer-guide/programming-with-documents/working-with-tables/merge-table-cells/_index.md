@@ -78,7 +78,7 @@ A table in HTML has a essentially different structure: each row has the same num
 
 ## Convert to Horizontally Merged Cells {#convert-to-horizontally-merged-cells}
 
-Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word no longer use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the ConvertToHorizontallyMergedCells method to convert cells. This method simply transforms the table and adds new cells as needed.
+Sometimes it is not possible to detect which cells are merged because some newer versions of Microsoft Word no longer use the merge flags when cells are merged horizontally. But for situations where cells are merged into a cell horizontally by their width using merge flags, Aspose.Words provides the `ConvertToHorizontallyMergedCells` method to convert cells. This method simply transforms the table and adds new cells as needed.
 
 The following code example shows the above method in operation:
 

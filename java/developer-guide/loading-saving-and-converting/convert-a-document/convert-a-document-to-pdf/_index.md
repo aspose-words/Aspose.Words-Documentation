@@ -32,7 +32,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 1. Load your document into a [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) object using one of its constructors by specifying the document name with its format extension.
 1. Invoke one of the [Document.Save](https://reference.aspose.com/words/java/com.aspose.words/document/#save-java.lang.String-int) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
-The following code example shows how to convert a document from DOCX into PDF using the Save method:
+The following code example shows how to convert a document from DOCX into PDF using the `Save` method:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
@@ -84,4 +84,4 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 - The article [“Rendering"](/words/java/rendering/) for more information on the fixed-page and flow-layout formats
 - The article ["Converting to Fixed-page Format"](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
-- The article ["Specify Rendering Options When Converting to PDF"](/words/java/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class
+- The article ["Specify Rendering Options When Converting to PDF"](/words/java/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class

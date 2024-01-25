@@ -138,7 +138,7 @@ public class RelationSet
             // Create statement
             Statement stmt = createStatement();
 
-            // Return the ResultSet object
+            // Return the `ResultSet` object
             return stmt.executeQuery(sqlString);
         }
         catch(Exception e)

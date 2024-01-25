@@ -101,7 +101,7 @@ public static void main(String[] args)
 //		}
 //		fontMapper.put("Libian SC Regular", PhysicalFonts.get("SimSun"));
 	// FO exporter setup (required)
-	// .. the FOSettings object
+	// .. the `FOSettings` object
 	FOSettings foSettings = Docx4J.createFOSettings();
 	if (saveFO) {
 		foSettings.setFoDumpFile(new java.io.File(inputfilepath + ".fo"));

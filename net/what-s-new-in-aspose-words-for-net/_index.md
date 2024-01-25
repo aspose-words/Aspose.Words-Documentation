@@ -95,7 +95,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 * A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) class. <sup>23.10</sup>
 * A way to control when a certain revision should be accepted/rejected or not has been implemented by using the [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) and [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) methods. This enhancement grants users finer control over the revision process. <sup>23.11</sup>
 * The ability to write all sections of a document onto the same XLSX worksheet has been provided through the new [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) enumeration type and the new [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) property. <sup>23.11</sup>
-* A way to control how ZIP64 format extensions will be used for OOXML documents has been implemented through the new Zip64Mode property of the OoxmlSaveOptions class and the new Zip64Mode enumeration. <sup>23.12</sup>
+* A way to control how ZIP64 format extensions will be used for OOXML documents has been implemented through the new Zip64Mode property of the `OoxmlSaveOptions` class and the new Zip64Mode enumeration. <sup>23.12</sup>
 * Support for WebP image has been introduced. Please note that this feature is only available for .NetStandart and .NET6+ versions. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

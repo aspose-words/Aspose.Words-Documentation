@@ -21,7 +21,7 @@ The following code example shows how to add a group shape into a Word document:
 
 {{% alert color="primary" %}}
 
-Below are some of the Shape types supported in Aspose.Words. For complete list, please visit [ShapeType](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapetype/):
+Below are some of the `Shape` types supported in Aspose.Words. For complete list, please visit [ShapeType](https://reference.aspose.com/words/cpp/aspose.words.drawing/shapetype/):
 
 - Rectangle
 - RoundRectangle

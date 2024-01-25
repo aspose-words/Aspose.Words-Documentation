@@ -56,7 +56,7 @@ We will work with the document below in this article. As you can see it contains
 
 ![extract-content-aspose-words-java](extract-content-from-comment-aspose-words-java-1.png)
 
-To extract the content from your document you need to call the ExtractContent method below and pass the appropriate parameters.
+To extract the content from your document you need to call the `ExtractContent` method below and pass the appropriate parameters.
 
 The underlying basis of this method involves finding block-level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block-level then the method is able to simply copy the content on that level and add it to the array.
 
@@ -88,7 +88,7 @@ This demonstrates how to use the method above to extract content between specifi
 
 The code below accomplishes this task. The appropriate paragraphs are extracted using the [getChild](https://reference.aspose.com/words/java/com.aspose.words/compositenode/#getChild-int-int-boolean) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document.
 
-The following code example shows how to extract the content between specific paragraphs using the ExtractContent method above:
+The following code example shows how to extract the content between specific paragraphs using the `ExtractContent` method above:
 
 {{< gist "aspose-words-gists" "1975a35426bcd195a2e7c61d20a1580c" "extract-content-between-paragraphs.java" >}}
 
@@ -164,7 +164,7 @@ The extracted text is displayed on the console.
 
 ## Extract Content using a Field
 
-To use a field as a marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of the merge field passed to it.
+To use a field as a marker, the FieldStart node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [moveToMergeField](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#moveToMergeField(java.lang.String)) method of [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of the merge field passed to it.
 
 In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF.
 
@@ -202,7 +202,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-The extracted output with the IsInclusive parameter set to true. The copy will retain the bookmark as well.
+The extracted output with the `IsInclusive` parameter set to true. The copy will retain the bookmark as well.
 
 ![extract-content-from-bookmark-aspose-words-java-2](extract-content-from-comment-aspose-words-java-8.png)
 
@@ -232,7 +232,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-Firstly the extracted output with the IsInclusive parameter set to true. The copy will contain the comment as well.
+Firstly the extracted output with the `IsInclusive` parameter set to true. The copy will contain the comment as well.
 
 ![extract-content-from-comment-aspose-words-java-2](extract-content-from-comment-aspose-words-java-11.png)
 

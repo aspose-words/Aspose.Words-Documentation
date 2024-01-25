@@ -51,7 +51,7 @@ The following code example shows how to check if two documents are equal or not:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CompareDocument-CompareForEqual.cs" >}}
 
-The following code example shows how to simply apply the Compare method to two documents:
+The following code example shows how to simply apply the `Compare` method to two documents:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-CompareDocument-ApplyCompareTwoDocuments.cs" >}}
 

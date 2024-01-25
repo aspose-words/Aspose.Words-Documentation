@@ -12,14 +12,14 @@ url: /net/working-with-smartart-cold-rendering/
 
 SmartArt graphics are used to quickly and easily create a visual representation of information. You simply choose from a large number of layouts that best suits your situation. This ease of use makes SmartArt graphics quite popular for some purposes.
 
-Microsoft Word generates and saves the pre-rendered drawing along with the SmartArt object. In most cases, the pre-rendered drawing is rendered well by Aspose.Words and no additional actions are required. However, if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case, the SmartArt object itself should be laid-out and rendered using Aspose.Words. We call this process the SmartArt Cold Rendering.
+Microsoft Word generates and saves the pre-rendered drawing along with the `SmartArt` object. In most cases, the pre-rendered drawing is rendered well by Aspose.Words and no additional actions are required. However, if the document is saved by other applications, the pre-rendered SmartArt drawing may be missing or incorrect. In this case, the `SmartArt` object itself should be laid-out and rendered using Aspose.Words. We call this process the SmartArt Cold Rendering.
 
 ## Using SmartArt Cold Rendering
 
 Aspose.Words allows you to use a pre-rendered drawing or perform cold rendering:
 
-* If a pre-rendered drawing is available, Aspose.Words uses it to render the SmartArt object.
-* If pre-rendered drawing is missing, Aspose.Words implicitly performs cold rendering to render the SmartArt object.
+* If a pre-rendered drawing is available, Aspose.Words uses it to render the `SmartArt` object.
+* If pre-rendered drawing is missing, Aspose.Words implicitly performs cold rendering to render the `SmartArt` object.
 * If a pre-rendered drawing is present but is incorrect, it is required to perform SmartArt cold rendering explicitly by calling [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/) method.
 
 The following code example shows how to update drawings for all diagrams in the document:

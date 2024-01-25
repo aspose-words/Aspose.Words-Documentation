@@ -200,7 +200,7 @@ Currently Aspose.Words cannot export captions with the Caption tag, so they must
     <p></p>
     <p>In Microsoft Word, the caption could be inserted through the context menu:</p>
     <img src="figure-caption-mw.png" alt="figure-caption-mw" style="width:800px"/>
-    <p>In Acrobat the caption could be added or changed via the Object Properties dialog:</p>
+    <p>In Acrobat the caption could be added or changed via the `Object` Properties dialog:</p>
     <img src="figure-caption-acrobat.png" alt="figure-caption-acrobat" style="width:800px"/>
 </details>
 {{% /alert %}}

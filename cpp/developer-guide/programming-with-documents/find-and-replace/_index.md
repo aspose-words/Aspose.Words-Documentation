@@ -46,7 +46,7 @@ And after applying simple string replacement:
 
 A regular expression (regex) is a pattern that describes a certain sequence of text. Suppose you want to replace all double occurrences of a word with a single word occurrence. Then you can apply the following regular expression to specify the double-word pattern: `([a-zA-Z]+) \1`.
 
-Use the other [Replace](https://reference.aspose.com/words/cpp/aspose.words/range/replace/) method to search and replace particular character combinations by setting the Regex parameter as the regular expression pattern to find matches.
+Use the other [Replace](https://reference.aspose.com/words/cpp/aspose.words/range/replace/) method to search and replace particular character combinations by setting the `Regex` parameter as the regular expression pattern to find matches.
 
 The following code example shows how to replace strings that match a regular expression pattern with a specified replacement string:
 

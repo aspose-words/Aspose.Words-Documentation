@@ -74,7 +74,7 @@ In Aspose.Words for Android via Java, the license can be [embedded as a resourc
 
 1. Put the license file at any location on **/mnt/sdcard/**.
 1. Create a stream that references file.
-1. Pass the stream (containing the license file) into the SetLicense method.
+1. Pass the stream (containing the license file) into the `SetLicense` method.
 
 **Java**
 
@@ -84,7 +84,7 @@ String dataDir = Environment.getExternalStorageDirectory().getPath() + "/";
 // Create a stream object containing the license file
 FileInputStream fstream = new FileInputStream(dataDir + "Aspose.Email.Android.Java.lic");
 
-// Instantiate the License class
+// Instantiate the `License` class
 License license = new License();
 //Set the license through the stream object
 license.setLicense(fstream);

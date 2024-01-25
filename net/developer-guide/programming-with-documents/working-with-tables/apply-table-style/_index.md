@@ -27,7 +27,7 @@ The following code example shows how to create a new user defined table style:
 
 ## Copy an Existing Table Style 
 
-If necessary, you can copy a table style that already exists in a certain document into your style collection using the AddCopy method.
+If necessary, you can copy a table style that already exists in a certain document into your style collection using the `AddCopy` method.
 
 It is important to know that with this copying, the linked styles are also copied.
 
@@ -39,7 +39,7 @@ The following code example shows how to import a style from one document to anot
 
 Aspose.Words provides a [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle) inherited from the [Style](https://reference.aspose.com/words/net/aspose.words/style/) class. **TableStyle** facilitates the user to apply different style options like as shading, padding, indentation, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) and [Font](https://reference.aspose.com/words/net/aspose.words/style/font/), etc.
 
-In addition, Aspose.Words provides the [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class and a few properties of the Table class to specify which table style we will work with: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/), and [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
+In addition, Aspose.Words provides the [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class and a few properties of the `Table` class to specify which table style we will work with: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/), and [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
 
 Aspose.Words also provides [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/) class that represents special formatting applied to some area of a table with an assigned table style, and the [ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/) that represents a collection of **ConditionalStyle** objects. This collection contains a permanent set of items representing one item for each value of the [ConditionalStyleType](https://reference.aspose.com/words/net/aspose.words/conditionalstyletype/) enumeration type. The **ConditionalStyleType** enumeration defines all possible table areas to which conditional formatting may be defined in a table style.
 

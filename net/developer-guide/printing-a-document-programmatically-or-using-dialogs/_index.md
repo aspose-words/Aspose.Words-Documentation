@@ -48,7 +48,7 @@ You can also set some print settings using the [PageSetup](https://reference.as
 
 {{% alert color="primary" %}}
 
-In some cases, you may need to use this sample without Aspose.Words. For example, when you already have an XPS document and just want to print it from an ASP.NET or Windows Service application. Then, you can just delete the Print method.
+In some cases, you may need to use this sample without Aspose.Words. For example, when you already have an XPS document and just want to print it from an ASP.NET or Windows Service application. Then, you can just delete the `Print` method.
 
 {{% /alert %}}
 

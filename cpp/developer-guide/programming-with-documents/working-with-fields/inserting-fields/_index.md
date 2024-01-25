@@ -168,7 +168,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
-The AUTHOR field is used to specify the name of the Document's author from the Document properties. The AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldauthor/) class. You can use the **FieldAuthor** class to perform the following operations:
+The AUTHOR field is used to specify the name of the Document's author from the `Document` properties. The AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/cpp/aspose.words.fields/fieldauthor/) class. You can use the **FieldAuthor** class to perform the following operations:
 
 - specify the document author's name
 
@@ -201,7 +201,7 @@ For more details, see the [FieldIncludeText](https://reference.aspose.com/words/
 
 {{% /alert %}}
 
-The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the `INCLUDETEXT` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "Examples-DocsExamples-source-Programming with Documents-Working with Fields-InsertFieldIncludeTextWithoutDocumentBuilder.h" >}}
 

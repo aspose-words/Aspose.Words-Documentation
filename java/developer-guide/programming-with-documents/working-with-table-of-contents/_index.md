@@ -129,7 +129,7 @@ It is also useful to note that any direct formatting of a paragraph (defined on 
 
 You can also control the formatting of the separators used between each entry and the page number. By default, this is a dotted line that is spread across to the page numbering using a tab character and a right tab stop lined up close to the right margin.
 
-Using the Style class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document.
+Using the `Style` class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document.
 
 To change how this appears firstly `Style.ParagraphFormat` must be called to retrieve the paragraph formatting for the style. From this, the tab stops can be retrieved by calling `ParagraphFormat.TabStops` and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed altogether.
 

@@ -37,7 +37,7 @@ The following example shows how to convert DOC to TIFF with configured options:
 
 ## Threshold for TIFF Binarization
 
-A TIFF image can be saved in 1bpp b/w format by setting the [PixelFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_pixelformat/) property to Format1bppIndexed pixel format type, and the TiffCompression property to either Ccitt3 or Ccitt4.
+A TIFF image can be saved in 1bpp b/w format by setting the [PixelFormat](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_pixelformat/) property to Format1bppIndexed pixel format type, and the `TiffCompression` property to either Ccitt3 or Ccitt4.
 
 For image segmentation, Aspose.Words uses the simplest method — thresholding. This method converts a gray-scale TIFF image into a binary image, using a threshold value. Therefore, when a document needs to be converted to the TIFF file format, it is possible to get or set the threshold for TIFF binarization via the [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_thresholdforfloydsteinbergdithering/) property. The default value for this property is set to 128, and the higher this value, the darker the image.
 

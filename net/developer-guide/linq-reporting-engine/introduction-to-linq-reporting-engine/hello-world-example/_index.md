@@ -15,7 +15,7 @@ A "Hello, World" example is traditionally used to introduce features of a progra
 
 {{% /alert %}}
 
-Assume that you have the Sender class defined in your application as follows:
+Assume that you have the `Sender` class defined in your application as follows:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-LINQ-Sender-Sender.cs" >}}
 

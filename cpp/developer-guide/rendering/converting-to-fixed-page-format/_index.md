@@ -49,7 +49,7 @@ Page layout computes where the text will appear and what content will be rendere
 
 ![converting-to-fixed-page-format-aspose-words-cpp-2](converting-to-fixed-page-format-2.png)
 
-In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [UpdatePageLayout](https://reference.aspose.com/words/cpp/aspose.words/document/updatepagelayout/) method, provided by the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) class. If a page layout does not exist, but there is a need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exists, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the UpdatePageLayout method, in order to ensure that the page layout is up to date with the document model.
+In Aspose.Words, a user can request whether to build a new page layout, or update an existing one. Both of these can be performed by the [UpdatePageLayout](https://reference.aspose.com/words/cpp/aspose.words/document/updatepagelayout/) method, provided by the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) class. If a page layout does not exist, but there is a need for it (for example, when the document is exported to a fixed-page format), Aspose.Words will automatically call this method. However, if a page layout does already exists, Aspose.Words will use the existing one, in order to avoid consuming the resources necessary to update it. In this case, the user needs to call the `UpdatePageLayout` method, in order to ensure that the page layout is up to date with the document model.
 
 ### Dynamic Structure
 
@@ -82,6 +82,6 @@ After the page layout is built and the geometry of objects and their position on
 - Switching between the rendering of DrawingML shapes and fallback shapes ([DmlRenderingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_dmlrenderingmode/)).
 - Switching between DML effects rendering modes ([DmlEffectsRenderingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/get_dmleffectsrenderingmode/)).
 
-The example below demonstrates how to save a document to JPEG format using the Save method and rendering options:
+The example below demonstrates how to save a document to JPEG format using the `Save` method and rendering options:
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Rendering-Printing-SaveDocumentToJPEG-SaveDocumentToJPEG.cpp" >}}

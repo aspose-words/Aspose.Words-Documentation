@@ -34,7 +34,7 @@ The code above uses the [FileFormatUtil.detect_file_format](https://reference.as
 
 {{% alert color="primary" %}}
 
-You can also check if a document has digital signatures after loading by checking the Count property of the [Document.digital_signatures](https://reference.aspose.com/words/python-net/aspose.words/document/digital_signatures/) collection.
+You can also check if a document has digital signatures after loading by checking the `Count` property of the [Document.digital_signatures](https://reference.aspose.com/words/python-net/aspose.words/document/digital_signatures/) collection.
 
 {{% /alert %}}
 

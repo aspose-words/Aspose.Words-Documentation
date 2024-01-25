@@ -91,7 +91,7 @@ public void CreateAndAddAParagraphStyleFeature()
 		{
 			p.PrependChild(new ParagraphProperties());
 		}
-		// Get a reference to the ParagraphProperties object.
+		// Get a reference to the `ParagraphProperties` object.
 		ParagraphProperties pPr = p.ParagraphProperties;
 		// If a ParagraphStyleId object doesn't exist, then create one.
 		if (pPr.ParagraphStyleId == null)
@@ -145,7 +145,7 @@ string styleid, string stylename, string aliases = "")
 	style.Append(nextParagraphStyle1);
 	style.Append(uipriority1);
 	style.Append(unhidewhenused1);
-	// Create the StyleRunProperties object and specify some of the run properties.
+	// Create the `StyleRunProperties` object and specify some of the run properties.
 	StyleRunProperties styleRunProperties1 = new StyleRunProperties();
 	Bold bold1 = new Bold();
 	Color color1 = new Color { ThemeColor = ThemeColorValues.Accent2 };

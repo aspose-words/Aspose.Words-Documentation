@@ -80,7 +80,7 @@ The following diagram shows the inline-level nodes structure.
 
 {{% alert color="primary" %}}
 
-Shapes in Microsoft Word include Office Art AutoShapes, text boxes, images, OLE objects, and ActiveX controls, all of which are represented using the Shape class. Some shapes can also contain text, so Shape nodes in Aspose.Words can contain block-level nodes.
+Shapes in Microsoft Word include Office Art AutoShapes, text boxes, images, OLE objects, and ActiveX controls, all of which are represented using the `Shape` class. Some shapes can also contain text, so Shape nodes in Aspose.Words can contain block-level nodes.
 
 Shapes can be grouped inside each other using [GroupShape](https://reference.aspose.com/words/python-net/aspose.words.drawing/groupshape/) nodes.
 

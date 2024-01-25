@@ -42,7 +42,7 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 {{% alert color="primary" %}}
 
-This implementation also uses the `Document.GetChildNodes` method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
+This implementation also uses the `Document.GetChildNodes` method of the `Document` class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
 Note that the second parameter of the **Document.GetChildNodes** method is set to true. This forces the **Document.GetChildNodes** method to select from all child nodes recursively, rather than selecting the immediate children only.
 

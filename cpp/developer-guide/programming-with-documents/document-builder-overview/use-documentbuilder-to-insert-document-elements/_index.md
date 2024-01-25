@@ -13,7 +13,7 @@ The DocumentBuilder is used to modify documents. This article explains and des
 
 ## Inserting a String of Text
 
-Simply pass the string of text you need to insert into the document to the `DocumentBuilder.Write` method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, colour, and so on). Some important font attributes are also represented by DocumentBuilder properties to allow you to access them directly. These are Boolean properties `Font.Bold`, `Font.Italic`, and `Font.Underline`.
+Simply pass the string of text you need to insert into the document to the `DocumentBuilder.Write` method. Text formatting is determined by the `Font` property. This object contains different font attributes (font name, font size, colour, and so on). Some important font attributes are also represented by DocumentBuilder properties to allow you to access them directly. These are Boolean properties `Font.Bold`, `Font.Italic`, and `Font.Underline`.
 
 Note that the character formatting you set will apply to all text inserted from the current position in the document onwards.
 
@@ -32,7 +32,7 @@ The basic algorithm for creating a table using DocumentBuilder is simple:
 
 1. Start the table using `DocumentBuilder.StartTable`.
 1. Insert a cell using `DocumentBuilder.InsertCell`. This automatically starts a new row. If needed, use the `DocumentBuilder.CellFormat` property to specify cell formatting.
-1. Insert cell contents using the DocumentBuilder methods.
+1. Insert cell contents using the `DocumentBuilder` methods.
 1. Repeat steps 2 and 3 until the row is complete.
 1. Call `DocumentBuilder.EndRow` to end the current row. If needed, use `DocumentBuilder.RowFormat` property to specify row formatting.
 1. Repeat steps 2 - 5 until the table is complete.
@@ -44,7 +44,7 @@ Calling `DocumentBuilder.StartTable` is the first step in building a table. It 
 
 ### Inserting a Cell
 
-After you call DocumentBuilder->InsertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder->InsertCell again. Use the `DocumentBuilder.CellFormat` property to specify cell formatting. It returns a CellFormat object that represents all formatting for a table cell.
+After you call DocumentBuilder->InsertCell, a new cell is created and any content you add using other methods of the `DocumentBuilder` class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder->InsertCell again. Use the `DocumentBuilder.CellFormat` property to specify cell formatting. It returns a CellFormat object that represents all formatting for a table cell.
 
 ### Ending a Row
 
@@ -135,7 +135,7 @@ Customers can specify Locale at field level now and can achieve better control. 
 
 ## Inserting a Hyperlink
 
-Use `DocumentBuilder.InsertHyperlink` to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.InsertHyperlink internally calls `DocumentBuilder.InsertField`.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property. Below example inserts a hyperlink into a document using DocumentBuilder.
+Use `DocumentBuilder.InsertHyperlink` to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.InsertHyperlink internally calls `DocumentBuilder.InsertField`.The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the `Font` property. Below example inserts a hyperlink into a document using DocumentBuilder.
 
 {{< gist "aspose-com-gists" "518f03cac02abb105e02f55edb7de9f9" "cpp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cpp" >}}
 

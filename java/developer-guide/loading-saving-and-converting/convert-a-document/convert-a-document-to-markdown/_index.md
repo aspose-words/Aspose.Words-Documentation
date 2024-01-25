@@ -43,8 +43,8 @@ Aspose.Words currently supports the following Markdown features, which mostly fo
 * Italic emphasis
 * StrikeThrough formatting
 * Lists are numbered or bulleted paragraphs
-* Tables are represented with the Table class
-* Links are represented as the FieldHyperlink class
+* Tables are represented with the `Table` class
+* Links are represented as the `FieldHyperlink` class
 
 The following example shows how to create a document with some styles and save it to Markdown:
 

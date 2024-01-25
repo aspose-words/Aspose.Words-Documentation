@@ -19,7 +19,7 @@ However, you may want to try enabling export of lines and rectangles, especially
 
 ## Exporting Lines
 
-To enable the export of lines, use the EXPORT_LINES parameter. 
+To enable the export of lines, use the `EXPORT_LINES` parameter. 
 
 In JasperReports:
 
@@ -42,7 +42,7 @@ In JasperReports:
 
 ## Exporting Rectangles
 
-To enable the export of rectangles, use the EXPORT_RECTANGLES parameter. 
+To enable the export of rectangles, use the `EXPORT_RECTANGLES` parameter. 
 
 In JasperReports:
 

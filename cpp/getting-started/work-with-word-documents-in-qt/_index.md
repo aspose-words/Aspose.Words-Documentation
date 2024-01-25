@@ -21,7 +21,7 @@ In order to integrate and use Aspose.Words for C++ library within a Qt Console 
 
 - Open Qt Creator and create a new *Qt Console Application*
 
-- Select the QMake option from the *Build System* dropdown
+- Select the `QMake` option from the *Build System* dropdown
 
 - Select the appropriate kit and finish the wizard.
 - Copy *Aspose.Words.Cpp* and *CodePorting.Native.Cs2Cpp_vc14_20.3* folders from the extracted package of Aspose.Words for C++ into the root of the project

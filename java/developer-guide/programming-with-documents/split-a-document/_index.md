@@ -40,7 +40,7 @@ You can specify criteria using the [DocumentSplitCriteria](https://reference.as
 - column break,
 - page break.
 
-When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the DocumentSplitCriteria value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
+When saving the output to HTML, Aspose.Words save each individual chapter as a separate HTML file. As a result, the document will be split into multiple HTML files. When saving the output to EPUB, Aspose.Words save the result in a single EPUB file regardless of the `DocumentSplitCriteria` value you used. So, using DocumentSplitCriteria for EPUB documents only affects the appearance of their content in reader applications: content will be divided into chapters and the document will no longer appear continuous.
 
 {{% alert color="primary" %}}
 
@@ -72,7 +72,7 @@ Aspose.Words also enables you to use section breaks to split documents and save 
 
 There is another way to split the source document into multiple output documents, and you can choose any output format supported by Aspose.Words.
 
-The following code example shows how to split a document into smaller parts by section breaks (without using the DocumentSplitCriteria property):
+The following code example shows how to split a document into smaller parts by section breaks (without using the `DocumentSplitCriteria` property):
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-SplitDocument-SplitDocumentBySections.java" >}}
 

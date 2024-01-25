@@ -19,7 +19,7 @@ By default options for exporting rectangles as frames and for moving elements to
 
 You may want to try disabling these options, if you see something wrong with your output layout.
 
-To disable the exporting of rectangles as frames, use the EXPORT_RECTANGLES_AS_FRAMES parameter.
+To disable the exporting of rectangles as frames, use the `EXPORT_RECTANGLES_AS_FRAMES` parameter.
 
 In JasperReports:
 
@@ -42,7 +42,7 @@ In JasperServer:
 </bean>
 {{< /highlight >}}
 
-To disable moving of elements into frames, use the MOVE_ELEMENTS_TO_FRAMES parameter.
+To disable moving of elements into frames, use the `MOVE_ELEMENTS_TO_FRAMES` parameter.
 
 In JasperReports:
 

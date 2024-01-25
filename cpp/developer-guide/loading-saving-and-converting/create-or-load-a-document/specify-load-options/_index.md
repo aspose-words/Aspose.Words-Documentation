@@ -37,7 +37,7 @@ The following code example shows the implementation of the **IWarningCallback**
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-Load_Options-DocumentLoadingWarningCallback.cpp" >}}
 
-To get information about all problems throughout the load time, use the WarningCallback property.
+To get information about all problems throughout the load time, use the `WarningCallback` property.
 
 The following code example shows how to use this property:
 
@@ -81,7 +81,7 @@ The following code example shows how to load a document encrypted with a passwor
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Loading-and-Saving-OpenEncryptedDocument-OpenEncryptedDocument.cpp" >}}
 
-If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://reference.aspose.com/words/cpp/class/aspose.words.file_format_util) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the IsEncrypted property.
+If you do not know in advance whether the file is encrypted, you can use the [FileFormatUtil](https://reference.aspose.com/words/cpp/class/aspose.words.file_format_util) class, which provides utility methods for working with file formats, such as detecting the file format or converting file extensions to/from file format enumerations. To detect if the document is encrypted and requires a password to open it, use the `IsEncrypted` property.
 
 The following code example shows how to verify OpenDocument either it is encrypted or not:
 

@@ -25,7 +25,7 @@ Aspose.Words defines a special class called [**AsposeWordsPrintDocument**](https
 
 This sample describes how to use these classes to print a document from Aspose.Words with print preview and settings dialog.
 
-Finally, an instance of the PrintPreviewDialog is created. For this example we have implemented a derived version of the PrintPreviewDialog class called ActivePrintPreviewDialog. This custom class is used to move preview dialog on top of all other windows when it is displayed.
+Finally, an instance of the PrintPreviewDialog is created. For this example we have implemented a derived version of the `PrintPreviewDialog` class called ActivePrintPreviewDialog. This custom class is used to move preview dialog on top of all other windows when it is displayed.
 
 {{< highlight csharp >}}
 string FileName = "YourFileName.docx";

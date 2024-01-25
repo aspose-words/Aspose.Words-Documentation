@@ -9,7 +9,7 @@ weight: 170
 url: /cpp/working-with-charts/
 ---
 
-Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the **ChartFormat** type in the **ChartSeries**, **ChartDataPoint**, and **ChartMarker** classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the Stroke class.
+Fill and stroke formatting can be set for chart series, data points, and markers. To do this, you need to use the properties of the **ChartFormat** type in the **ChartSeries**, **ChartDataPoint**, and **ChartMarker** classes, as well as aliases for some properties, such as ForeColor, BackColor, Visible, and Transparency in the `Stroke` class.
 
 The following code example shows how to set series color:
 

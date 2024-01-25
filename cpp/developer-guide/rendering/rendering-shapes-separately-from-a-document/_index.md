@@ -81,7 +81,7 @@ The following example shows how to render a Shape image to a JPEG image separate
 
 ## Retrieving a Shape Size
 
-The [ShapeRenderer](https://reference.aspose.com/words/cpp/aspose.words.rendering/shaperenderer/) class also provides functionality to retrieve the size of the shape in pixels through the [GetSizeInPixels](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/getsizeinpixels/) method. This method accepts two float type (Single) parameters – the scale and DPI, which are used in the calculation of the shape size when the shape is rendered. The method returns the Size object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance, for example when creating a new Bitmap from the rendered output.
+The [ShapeRenderer](https://reference.aspose.com/words/cpp/aspose.words.rendering/shaperenderer/) class also provides functionality to retrieve the size of the shape in pixels through the [GetSizeInPixels](https://reference.aspose.com/words/cpp/aspose.words.rendering/noderendererbase/getsizeinpixels/) method. This method accepts two float type (Single) parameters – the scale and DPI, which are used in the calculation of the shape size when the shape is rendered. The method returns the `Size` object, which contains the width and height of the calculated size. This is useful when it is required to know the size of the rendered shape in advance, for example when creating a new Bitmap from the rendered output.
 
 The below example shows how to create a new Bitmap and Graphics object with the width and height of the shape to be rendered:
 

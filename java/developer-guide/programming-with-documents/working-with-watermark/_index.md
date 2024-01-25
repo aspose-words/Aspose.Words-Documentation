@@ -51,7 +51,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 ## Remove Watermark from a Document
 
-The [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class provides the Remove method to remove the watermark from a document.
+The [Watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) class provides the `Remove` method to remove the watermark from a document.
 
 The following code examples shows how to remove a watermark from documents:
 

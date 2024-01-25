@@ -48,7 +48,7 @@ if (inputfilepath==null) {
 
 // HTML exporter setup (required)
 
-// .. the HTMLSettings object
+// .. the `HTMLSettings` object
 HTMLSettings htmlSettings = Docx4J.createHTMLSettings();
 htmlSettings.setImageDirPath(inputfilepath + "_files");
 htmlSettings.setImageTargetUri(inputfilepath.substring(inputfilepath.lastIndexOf("/")+1)

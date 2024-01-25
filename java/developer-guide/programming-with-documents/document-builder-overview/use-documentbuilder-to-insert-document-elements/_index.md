@@ -13,7 +13,7 @@ The [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/d
 
 ## Inserting a String of Text
 
-Simply pass the string of text you need to insert into the document to the [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)) method. Text formatting is determined by the Font property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) properties to allow you to access them directly. These are Boolean properties [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), and [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline).
+Simply pass the string of text you need to insert into the document to the [DocumentBuilder.write](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#write(java.lang.String)) method. Text formatting is determined by the `Font` property. This object contains different font attributes (font name, font size, color, and so on). Some important font attributes are also represented by [DocumentBuilder](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/) properties to allow you to access them directly. These are Boolean properties [Font.getBold](https://reference.aspose.com/words/java/com.aspose.words/font/#getBold), [Font.getItalic](https://reference.aspose.com/words/java/com.aspose.words/font/#getItalic), and [Font.getUnderline](https://reference.aspose.com/words/java/com.aspose.words/font/#getUnderline).
 
 {{% alert color="primary" %}}
 
@@ -39,7 +39,7 @@ The basic algorithm to create a table using `DocumentBuilder` is simple:
 
 1. Start the table using [DocumentBuilder.startTable](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#startTable).
 1. Insert a cell using [DocumentBuilder.insertCell](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertCell). This automatically starts a new row. If needed, use the [DocumentBuilder.getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getCellFormat) property to specify cell formatting.
-1. Insert cell contents using the DocumentBuilder methods.
+1. Insert cell contents using the `DocumentBuilder` methods.
 1. Repeat steps 2 and 3 until the row is complete.
 1. Call [DocumentBuilder.endRow](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#endRow) to end the current row. If needed, use [DocumentBuilder.RowFormat](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#getRowFormat) property to specify row formatting.
 1. Repeat steps 2 - 5 until the table is complete.
@@ -51,7 +51,7 @@ Calling DocumentBuilder.startTable is the first step in building a table. It can
 
 ### Inserting a Cell
 
-After you call DocumentBuilder.insertCell, a new cell is created and any content you add using other methods of the DocumentBuilder class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.insertCell again. Use the DocumentBuilder.getCellFormat property to specify cell formatting. It returns a [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) object that represents all formatting for a table cell.
+After you call DocumentBuilder.insertCell, a new cell is created and any content you add using other methods of the `DocumentBuilder` class will be added to the current cell. To start a new cell in the same row, call DocumentBuilder.insertCell again. Use the DocumentBuilder.getCellFormat property to specify cell formatting. It returns a [getCellFormat](https://reference.aspose.com/words/java/com.aspose.words/cellformat/) object that represents all formatting for a table cell.
 
 ### Ending a Row
 
@@ -158,7 +158,7 @@ You can easily insert an HTML string that contains an HTML fragment or whole HTM
 
 ## Inserting a Hyperlink
 
-Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.insertHyperlink internally calls DocumentBuilder.insertField. The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property. The following code example inserts a hyperlink into a document using DocumentBuilder.
+Use DocumentBuilder.insertHyperlink to insert a hyperlink into the document. This method accepts three parameters: text of the link to be displayed in the document, link destination (URL or a name of a bookmark inside the document), and a boolean parameter that should be true if the URL is a name of a bookmark inside the document.DocumentBuilder.insertHyperlink internally calls DocumentBuilder.insertField. The method always adds apostrophes at the beginning and end of the URL. Note that you need to specify font formatting for the hyperlink display text explicitly using the `Font` property. The following code example inserts a hyperlink into a document using DocumentBuilder.
 
 {{< gist "aspose-words-gists" "827e71ccc0b8516a3cfe247b86ce6d4e" "Examples-src-main-java-com-aspose-words-examples-programming_documents-document-DocumentBuilderInsertHyperlink-DocumentBuilderInsertHyperlink.java" >}}
 

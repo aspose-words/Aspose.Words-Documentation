@@ -28,7 +28,7 @@ Document comparison works as follows:
 
 ### Compare Documents Using Aspose.Words for .NET
 
-The core functionality is implemented in the DocumentComparisonUtil class, see **DocumentComparisonUtil.cs** on the source tab. It uses Aspose.Words for .NET to parse the documents and find the differences between them. We also need to visually show the differences, so a new document is required to contain the highlighted changes.
+The core functionality is implemented in the `DocumentComparisonUtil` class, see **DocumentComparisonUtil.cs** on the source tab. It uses Aspose.Words for .NET to parse the documents and find the differences between them. We also need to visually show the differences, so a new document is required to contain the highlighted changes.
 
 To create the output document, we load the first document into Aspose.Words. Then go through the list of changes one by one, keep adding the changes to it:
 

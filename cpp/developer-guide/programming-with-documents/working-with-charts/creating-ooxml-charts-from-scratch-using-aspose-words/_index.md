@@ -11,7 +11,7 @@ url: /cpp/creating-ooxml-charts-from-scratch-using-aspose-words/
 
 ## Creating OOXML Charts from Scratch using Aspose.Words
 
-Aspose.Words provides the InsertChart method which was added into the DocumentBuilder class. So, let's see how to insert a simple column chart into the document using DocumentBuilder->InsertChart method:
+Aspose.Words provides the `InsertChart` method which was added into the `DocumentBuilder` class. So, let's see how to insert a simple column chart into the document using DocumentBuilder->InsertChart method:
 
 ### How to Insert Column chart
 

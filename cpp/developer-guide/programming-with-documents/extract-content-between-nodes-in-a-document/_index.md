@@ -52,7 +52,7 @@ The code in this section addresses all of the possible situations described abov
 
 ## How to Extract Content
 
-To extract the content from your document you need to call the ExtractContent method below and pass the appropriate parameters. The underlying basis of this method involves finding block-level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block-level then the method is able to simply copy the content on that level and add it to the array.
+To extract the content from your document you need to call the `ExtractContent` method below and pass the appropriate parameters. The underlying basis of this method involves finding block-level nodes (paragraphs and tables) and cloning them to create identical copies. If the marker nodes passed are block-level then the method is able to simply copy the content on that level and add it to the array.
 
 However, if the marker nodes are inline (a child of a paragraph) then the situation becomes more complex, as it is necessary to split the paragraph at the inline node, be it a run, bookmark fields etc. Content in the cloned parent nodes not present between the markers is removed. This process is used to ensure that the inline nodes will still retain the formatting of the parent paragraph. The method will also run checks on the nodes passed as parameters and throws an exception if either node is invalid. The parameters to be passed to this method are:
 
@@ -80,7 +80,7 @@ This demonstrates how to use the method above to extract content between specifi
 
 The code below accomplishes this task. The appropriate paragraphs are extracted using the [GetChild](https://reference.aspose.com/words/cpp/aspose.words/compositenode/getchild/) method on the document and passing the specified indices. We then pass these nodes to the **ExtractContent** method and state that these are to be included in the extraction. This method will return the copied content between these nodes which are then inserted into a new document.
 
-The following code example shows how to extract the content between specific paragraphs using the ExtractContent method above:
+The following code example shows how to extract the content between specific paragraphs using the `ExtractContent` method above:
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-paragraphs.h" >}}
 
@@ -88,7 +88,7 @@ The following code example shows how to extract the content between specific par
 
 We can extract content between any combinations of block-level or inline nodes. In this scenario below we will extract the content between the first paragraph and the table in the second section inclusively. We get the markers nodes by calling `Body.FirstParagraph` and [GetChild](https://reference.aspose.com/words/cpp/aspose.words/compositenode/getchild/) method on the second section of the document to retrieve the appropriate Paragraph and Table nodes. For a slight variation let’s instead duplicate the content and insert it below the original.
 
-The following code example shows how to extract the content between a paragraph and table using the ExtractContent method:
+The following code example shows how to extract the content between a paragraph and table using the `ExtractContent` method:
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-block-level-nodes.h" >}}
 
@@ -98,7 +98,7 @@ You may need to extract the content between paragraphs of the same or different 
 
 In a proper implementation, this should be run in a loop to extract content between all paragraphs of these styles from the document. The extracted content is copied into a new document.
 
-The following code example shows how to extract content between paragraphs with specific styles using the ExtractContent method:
+The following code example shows how to extract content between paragraphs with specific styles using the `ExtractContent` method:
 
 {{< gist "aspose-words-gists" "922a9c5d9606a0c5cf0682b4aadfaf29" "extract-content-between-paragraph-styles.h" >}}
 
@@ -114,7 +114,7 @@ The following code example shows how to extract content between specific runs of
 
 ## Extract Content using a Field
 
-To use a field as marker, the FieldStart node should be passed. The last parameter to the ExtractContent method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [MoveToMergeField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/movetomergefield/) method of [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
+To use a field as marker, the FieldStart node should be passed. The last parameter to the `ExtractContent` method will define if the entire field is to be included or not. Let’s extract the content between the “FullName” merge field and a paragraph in the document. We use the [MoveToMergeField](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/movetomergefield/) method of [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class. This will return the **FieldStart** node from the name of merge field passed to it.
 
 In our case let’s set the last parameter passed to the **ExtractContent** method to false to exclude the field from the extraction. We will render the extracted content to PDF.
 

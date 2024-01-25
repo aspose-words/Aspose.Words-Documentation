@@ -74,7 +74,7 @@ The following code example shows how to build a multilevel list.
 
 ### Page Setup and Section Formatting
 
-Page setup and section properties are encapsulated in the PageSetup object that is returned by the `DocumentBuilder.PageSetup` property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
+Page setup and section properties are encapsulated in the `PageSetup` object that is returned by the `DocumentBuilder.PageSetup` property. The object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
 |![section-formatting-aspose-words-java](documentbuilder-to-modify-document-5.png)|
 | :- |
@@ -209,7 +209,7 @@ Sometimes you may need to perform a "manual" mail merge using `DocumentBuilder` 
 
 ## How to Convert Between Measurement Units
 
-Most of the object properties provided in the Aspose.Words API that represents some measurements (width/height, margins and various distances) accept values in points (1 inch equals 72 points). Sometimes this is not convenient so there is the ConvertUtil class that provides helper functions to convert between various measurement units. It allows converting inches to points, points to inches, pixels to points, and points to pixels. When pixels are converted to points and vice versa, it can be performed at 96 dpi (dots per inch) resolutions or at the specified dpi resolution.
+Most of the object properties provided in the Aspose.Words API that represents some measurements (width/height, margins and various distances) accept values in points (1 inch equals 72 points). Sometimes this is not convenient so there is the `ConvertUtil` class that provides helper functions to convert between various measurement units. It allows converting inches to points, points to inches, pixels to points, and points to pixels. When pixels are converted to points and vice versa, it can be performed at 96 dpi (dots per inch) resolutions or at the specified dpi resolution.
 
 **ConvertUtil** is very useful when setting different page properties because for instance inches are more usual measurement units than points. The following example demonstrates how to set up the page properties in inches.
 

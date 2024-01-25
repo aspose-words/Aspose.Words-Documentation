@@ -64,7 +64,7 @@ public class Person
  persons.firstOrDefault(p => p.getAge() > 30){{< /highlight >}}|
 | `groupBy(Selector)` |{{< highlight csharp >}}
  persons.groupBy(p => p.getAge()){{< /highlight >}}Or {{< highlight csharp >}}
- persons.groupBy(p => new { age = p.getAge(), count = p.getChildren().count() }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key field. You can treat a group itself as an enumeration of items that the group contains. |
+ persons.groupBy(p => new { age = p.getAge(), count = p.getChildren().count() }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the `Key` field. You can treat a group itself as an enumeration of items that the group contains. |
 | `last()` |{{< highlight csharp >}}
  persons.last(){{< /highlight >}}|
 | `last(Predicate)` |{{< highlight csharp >}}

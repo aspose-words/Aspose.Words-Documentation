@@ -24,7 +24,7 @@ The solution for retrieving text formatted with specific styles in a Word docume
 ### The Solution
 
 To illustrate how easily Aspose.Words handles retrieving content based on styles, let’s look at an example. In this example, we’re going to retrieve text formatted with a specific paragraph style and a character style from a sample Word document. At a high level, this will involve:
-- Opening a Word document using the Document class.
+- Opening a Word document using the `Document` class.
 - Getting collections of all paragraphs and all runs in the document.
 - Selecting only the required paragraphs and runs. Specifically, we’ll retrieve text formatted with the ‘Heading 1’ paragraph style and the ‘Intense Emphasis’ character style from this sample Word document.
 
@@ -41,7 +41,7 @@ The implementation of a style-based query is quite simple in the Aspose.Words do
 
 {{% alert color="primary" %}}
 
-This implementation also uses the `Document.GetChildNodes` method of the Document class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
+This implementation also uses the `Document.GetChildNodes` method of the `Document` class, which returns a collection of all nodes with the specified type, which in this case in all paragraphs.
 
 Note that the second parameter of the **Document.GetChildNodes** method is set to true. This forces the **Document.GetChildNodes** method to select from all child nodes recursively, rather than selecting the immediate children only.
 
@@ -93,7 +93,7 @@ The formatting of entries in the TOC does not use the original styles of the mar
 
 It is also useful to note that any direct formatting of a paragraph (defined on the paragraph itself and not in the style) marked to be included the TOC will be copied over in the entry in the TOC. For example, if the Heading 1 style is used to mark content for the TOC and this style has Bold formatting while the paragraph also has italic formatting directly applied to it. The resulting TOC entry will not be bold as that is part of style formatting however it will be italic as this is directly formatted on the paragraph. You can also control the formatting of the separators used between each entry and the page number. By default, this is a dotted line that is spread across to the page numbering using a tab character and a right tab stop lined up close to the right margin.
 
-Using the Style class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document. To change how this appears firstly `Style.ParagraphFormat` must be called to retrieve the paragraph formatting for the style. From this, the tab stops can be retrieved by calling `ParagraphFormat.TabStops` and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed altogether. The below code example shows how to modify the position of the right tab stop in TOC related paragraphs. You can download the template file of this example from here.
+Using the `Style` class retrieved for the particular TOC level you want to modify, you can also modify how these appear in the document. To change how this appears firstly `Style.ParagraphFormat` must be called to retrieve the paragraph formatting for the style. From this, the tab stops can be retrieved by calling `ParagraphFormat.TabStops` and the appropriate tab stop modified. Using this same technique the tab itself can be moved or removed altogether. The below code example shows how to modify the position of the right tab stop in TOC related paragraphs. You can download the template file of this example from here.
 
 {{< gist "aspose-words-gists" "d55d8631947d283b1f0da99afa06c492" "cpp-Programming-Documents-Styles-ChangeTOCTabStops-ChangeTOCTabStops.cpp" >}}
 

@@ -18,7 +18,7 @@ The rendering features of Aspose.Words enable you to perform the following:
 - Convert a document or selected pages to PDF, XPS, HTML, XAML, PostScript, and PCL formats.
 - Convert a document into a multi-page TIFF document, or convert any page into a raster image and save it as BMP, PNG, or JPEG.
 - Convert a document page into a Scalable Vector Graphics image (SVG), or convert into a vector image and save it as EMF.
-- Render (draw) a document page at a specific size or scale on the Graphics object to create thumbnails, full-sized or scaled images of document pages.
+- Render (draw) a document page at a specific size or scale on the `Graphics` object to create thumbnails, full-sized or scaled images of document pages.
 - Render a [Shape](https://reference.aspose.com/words/cpp/class/aspose.words.drawing.shape) object separately from the document to any image format or to a Graphics object.
 - Display any page of a document in a Windows Form.
 

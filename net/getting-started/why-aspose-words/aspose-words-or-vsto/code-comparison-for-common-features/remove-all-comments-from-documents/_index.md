@@ -11,7 +11,7 @@ url: /net/remove-all-comments-from-documents/
 
 ## VSTO Words
 
-Call the **DeleteAllComments** method of the Document from which you want to remove comments.The following code example removes all comments from the active document. To use this code example, run it from the ThisAddIn class in your project.
+Call the **DeleteAllComments** method of the Document from which you want to remove comments.The following code example removes all comments from the active document. To use this code example, run it from the `ThisAddIn` class in your project.
 
 {{< highlight csharp >}}
 this.Application.ActiveDocument.DeleteAllComments();

@@ -47,7 +47,7 @@ Editing a document usually does not count as a revision until you begin tracking
 
 {{% alert color="primary" %}}
 
-Note that the StartTrackingRevisions method does not change the status of the [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
+Note that the `StartTrackingRevisions` method does not change the status of the [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) property and does not use its value for the aim of revision tracking. In addition, if a node was moved from one location to another inside the tracked document, then move revisions will be created, including move-from and move-to range.
 
 {{% /alert %}}
 
@@ -57,7 +57,7 @@ All changes will be tracked for one iteration from the moment you start the proc
 
 {{% alert color="primary" %}}
 
-Note that the AcceptAllRevisions method is similar to the “Accept All Changes” in Microsoft Word.
+Note that the `AcceptAllRevisions` method is similar to the “Accept All Changes” in Microsoft Word.
 
 {{% /alert %}}
 
@@ -72,7 +72,7 @@ The following code example shows how revisions are generated when a node is move
 
 With the previous tracking changes feature, you can understand which changes were made in your document and who made those changes. While with the [TrackRevisions](https://reference.aspose.com/words/java/com.aspose.words/document/#getTrackRevisions) feature, you force any changes within your document to be stored as revisions.
 
-Aspose.Words allows you to check if a document has a revision or not by using the [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the TrackRevisions property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
+Aspose.Words allows you to check if a document has a revision or not by using the [HasRevision](https://reference.aspose.com/words/java/com.aspose.words/document/#hasRevisions) property. If you do not need to automatically track the changes in your document through the StartTrackRevisions and StopTrackRevisions methods, then you can use the `TrackRevisions` property to check if the changes are tracked while editing a document in Microsoft Word and stored as revisions.
 
 The TrackRevisions feature makes revisions instead of real DOM changes. But the revisions themselves are separate. For example, If you delete any paragraph, Aspose.Words make it as a revision, marking it as deletion, instead of deleting it.
 
@@ -80,7 +80,7 @@ In addition, Aspose.Words allows you to check if an object was inserted, deleted
 
 {{% alert color="primary" %}}
 
-Note that there is no connection between the revisions themselves and the TrackRevisions property. In addition, you can accept/reject revisions regardless of the tracking changes feature.
+Note that there is no connection between the revisions themselves and the `TrackRevisions` property. In addition, you can accept/reject revisions regardless of the tracking changes feature.
 
 {{% /alert %}}
 

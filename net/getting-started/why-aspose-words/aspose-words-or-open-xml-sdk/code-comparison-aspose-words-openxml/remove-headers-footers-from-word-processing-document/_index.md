@@ -55,7 +55,7 @@ using DocumentFormat.OpenXml.Wordprocessing;
 using NUnit.Framework;
 {{< /highlight >}}
 
-The **RemoveHeadersAndFooters** method works with the document you specify, deleting all of the header and footer parts and references to those parts. The code starts by opening the document, using the Open method and indicating that the document should be opened for read/write access (the final true parameter). Given the open document, the code uses the **MainDocumentPart** property to navigate to the main document, storing the reference in a variable named docPart.
+The **RemoveHeadersAndFooters** method works with the document you specify, deleting all of the header and footer parts and references to those parts. The code starts by opening the document, using the `Open` method and indicating that the document should be opened for read/write access (the final true parameter). Given the open document, the code uses the **MainDocumentPart** property to navigate to the main document, storing the reference in a variable named docPart.
 
 Given a reference to the document part, the code next determines if it has any work to do─that is, if the document contains any headers or footers. This simple method **DeleteParts** provides a shortcut for deleting a collection of parts.
 

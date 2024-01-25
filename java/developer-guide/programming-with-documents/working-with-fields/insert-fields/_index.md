@@ -161,7 +161,7 @@ The following code example shows how to add the `ASK` Field using DOM to a parag
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
-The AUTHOR field is used to specify the name of Document's author from the Document properties. AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) class. You can use **FieldAuthor** class to perform following operations:
+The AUTHOR field is used to specify the name of Document's author from the `Document` properties. AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/java/com.aspose.words/fieldauthor/) class. You can use **FieldAuthor** class to perform following operations:
 
 - specify the document author's name
 

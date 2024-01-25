@@ -64,7 +64,7 @@ persons.FirstOrDefault(){{< /highlight >}}|
 persons.FirstOrDefault(p => p.Age > 30){{< /highlight >}}|
 | `GroupBy(Selector)` |{{< highlight csharp >}}
 persons.GroupBy(p => p.Age){{< /highlight >}}Or {{< highlight csharp >}}
-persons.GroupBy(    p => new { Age = p.Age, Count = p.Children.Count() }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the Key property. You can treat a group itself as an enumeration of items that the group contains. |
+persons.GroupBy(    p => new { Age = p.Age, Count = p.Children.Count() }){{< /highlight >}}This method returns an enumeration of group objects. Each group has a unique key defined by the input selector and contains items of the source enumeration associated with this key. You can access the key of a group instance using the `Key` property. You can treat a group itself as an enumeration of items that the group contains. |
 | `Last()` |{{< highlight csharp >}}
 persons.Last(){{< /highlight >}}|
 | `Last(Predicate)` |{{< highlight csharp >}}

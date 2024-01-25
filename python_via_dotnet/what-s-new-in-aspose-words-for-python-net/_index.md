@@ -93,7 +93,7 @@ The feature to recognize hyperlinks when loading TXT documents has been implemen
 - The ability to access and modify style properties has been added through the introduction of the new [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) property.  <sup>23.10</sup>
 - A generic type parameter has been added to the methods of the [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) class. <sup>23.10</sup>
 - The ability to write all sections of a document onto the same XLSX worksheet has been provided through the new [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) enumeration type and the new [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) property. <sup>23.11</sup>
-* A way to control how ZIP64 format extensions will be used for OOXML documents has been implemented through the new Zip64Mode property of the OoxmlSaveOptions class and the new Zip64Mode enumeration. <sup>23.12</sup>
+* A way to control how ZIP64 format extensions will be used for OOXML documents has been implemented through the new Zip64Mode property of the `OoxmlSaveOptions` class and the new Zip64Mode enumeration. <sup>23.12</sup>
 * Support for WebP image has been introduced. Please note that this feature is only available for .NetStandart and .NET6+ versions. <sup>23.12</sup>
 
 {{% alert color="primary" %}}

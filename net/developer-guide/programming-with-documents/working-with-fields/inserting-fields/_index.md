@@ -143,7 +143,7 @@ The following code example shows how to add the `ASK` Field using DOM to a parag
 
 ### Inserting AUTHOR field into a Document without using DocumentBuilder
 
-The AUTHOR field is used to specify the name of Document's author from the Document properties. The AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/) class. You can use the **FieldAuthor** class to perform the following operations:
+The AUTHOR field is used to specify the name of Document's author from the `Document` properties. The AUTHOR field in Word document can be represented by the [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/) class. You can use the **FieldAuthor** class to perform the following operations:
 
 - specify the document author's name
 
@@ -170,7 +170,7 @@ For more details, see the [FieldIncludeText](https://reference.aspose.com/words/
 
 {{% /alert %}}
 
-The following code example shows how to add the INCLUDETEXT field using DOM to a paragraph in a document:
+The following code example shows how to add the `INCLUDETEXT` field using DOM to a paragraph in a document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertIncludeFieldWithoutDocumentBuilder-InsertFieldIncludeTextWithoutDocumentBuilder.cs" >}}
 

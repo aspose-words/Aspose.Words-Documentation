@@ -15,7 +15,7 @@ Sometimes you may notice that page contents in the exported documents do not fit
 
 {{% /alert %}}
 
-To overcome this issue, try to reduce spacing between page elements proportionally. This is controlled by the SPACING_FACTOR parameter. By default, its value is 1.0 that means the spacing between report elements is exactly equal to the designed values. However, you can set any value between 0.0 and 1.0 to reduce the spacing and therefore make the whole page contents shorter. Keep reducing the parameter’s value until the report looks like expected. 
+To overcome this issue, try to reduce spacing between page elements proportionally. This is controlled by the `SPACING_FACTOR` parameter. By default, its value is 1.0 that means the spacing between report elements is exactly equal to the designed values. However, you can set any value between 0.0 and 1.0 to reduce the spacing and therefore make the whole page contents shorter. Keep reducing the parameter’s value until the report looks like expected. 
 
 ## JasperReports
 

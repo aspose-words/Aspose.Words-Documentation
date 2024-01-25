@@ -30,7 +30,7 @@ Converting from the DOC or DOCX document format into the PDF format in Aspose.Wo
 1. Load your document into a [Document](https://reference.aspose.com/words/cpp/class/aspose.words.document) object using one of its constructors by specifying the document name with its format extension.
 1. Invoke one of the [Document.Save](https://reference.aspose.com/words/cpp/aspose.words/document/save/) methods on the **Document** object and specify the desired output format as PDF by entering a file name with the “.PDF” extension.
 
-The following code example shows how to convert a document from DOCX into PDF using the Save method:
+The following code example shows how to convert a document from DOCX into PDF using the `Save` method:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
@@ -68,4 +68,4 @@ To make this code work, you need to add references to Aspose.Words and `System.D
 
 - The article [“Rendering"](/words/cpp/rendering/) for more information on the fixed-page and flow-layout formats
 - The article ["Converting to Fixed-page Format"](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
-- The article ["Specify Rendering Options When Converting to PDF"](/words/cpp/specify-rendering-options-when-converting-to-pdf/) for more information on using the PdfSaveOptions class
+- The article ["Specify Rendering Options When Converting to PDF"](/words/cpp/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class

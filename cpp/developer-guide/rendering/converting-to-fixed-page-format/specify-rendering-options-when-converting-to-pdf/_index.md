@@ -138,7 +138,7 @@ Aspose.Words provides options to choose how fonts are exported to PDF. You can c
 
 ### Embedding Core Fonts
 
-The option to embed Core fonts can be enabled or disabled by using the UseCoreFonts property. When it is set to true, the following most popular “True Type” fonts (Base 14 fonts) are not embedded in the output PDF document:
+The option to embed Core fonts can be enabled or disabled by using the `UseCoreFonts` property. When it is set to true, the following most popular “True Type” fonts (Base 14 fonts) are not embedded in the output PDF document:
 
 - `Arial`
 - `Times New Roman`

@@ -11,7 +11,7 @@ url: /java/working-with-comments-in-docx4j-and-aspose-words/
 
 ## Aspose.Words - Working with comments
 
-Comments of the document are represented by the Comment class.
+Comments of the document are represented by the `Comment` class.
 
 **Java**
 

@@ -23,7 +23,7 @@ The **InsertHyperlink** method always adds apostrophes at the beginning and end 
 
 {{% alert color="primary" %}}
 
-Note that you need to specify font formatting for the hyperlink display text explicitly using the Font property.
+Note that you need to specify font formatting for the hyperlink display text explicitly using the `Font` property.
 
 {{% /alert %}}
 
