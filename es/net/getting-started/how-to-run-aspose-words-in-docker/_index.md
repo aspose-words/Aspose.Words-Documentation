@@ -29,9 +29,9 @@ En este ejemplo, creará una aplicación de consola simple Hola Mundo que genera
 Para crear el programa Hello World, siga los pasos a continuación:
 1. Una vez instalado Docker, asegúrese de que utilice contenedores Linux (predeterminado). Si es necesario, seleccione la opción Cambiar a contenedores Linux en el menú Escritorios Docker.
 1. En Visual Studio, cree una aplicación de consola .NET Core.<br>
-![todo:image_alt_text](/lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
+![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
 1. Instale la última versión de Aspose.Words desde NuGet. SkiaSharp se instalará como una dependencia de Aspose.Words.<br>
-![todo:image_alt_text](/lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
+![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
 1. Dado que la aplicación se ejecutará en Linux, se deben instalar los activos Linux nativos adecuados. Comience con la imagen base Debian e instale `SkiaSharp.NativeAssets`.Linux.
 1. Cuando se agreguen todas las dependencias requeridas, escriba un programa simple que cree un "¡Hola mundo!" documento y lo guarda en todos los formatos de guardado admitidos:<br>
 
