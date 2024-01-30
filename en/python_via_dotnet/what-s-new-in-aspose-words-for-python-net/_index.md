@@ -383,7 +383,7 @@ DrawingML charts public API has been extended to support gradient, texture, and 
 
 Aspose.Words own glyph outlines parsing for OpenType (CFF) fonts has been implemented.
 
-Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux OS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
+Previously, glyph parsing for OpenType (CFF) fonts was performed via GDI+. So now it works in cases where GDI+ is not available – Java, .NET Standard platforms, Linux, macOS, etc. Glyph outlines parsing is required in specific cases like WordArt, text effects, some Office Math features, and others.
 
 #### Set Shape Shadow Formatting <sup>22.7</sup>
 

@@ -23,7 +23,7 @@ The tables below summarize and compare the availability of Aspose.Words for Pyth
 
 ## Supported Platforms
 
-The platforms Aspose.Words for Python via .NET can be used on Windows x64 or x86 and wide range of Linux distributions with Python 3.5 or later installed. There are additional requirements to the target Linux platform:
+The platforms Aspose.Words for Python via .NET can be used on Windows x64 or x86, macOS x86_x64 or arm64 and wide range of Linux distributions with Python 3.5 or later installed. There are additional requirements to the target Linux and macOS platforms:
 - GCC-6 runtime libraries (or later)
 - Dependencies of .NET Core Runtime. Installing .NET Core Runtime itself is `NOT` required
 - For Python 3.5-3.7: The `pymalloc` build of Python is needed. The `--with-pymalloc` Python build option is enabled by default. Typically, the `pymalloc` build of Python is marked with `m` suffix in the filename.

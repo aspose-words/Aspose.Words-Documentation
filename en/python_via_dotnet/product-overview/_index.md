@@ -60,7 +60,7 @@ Generate documents or reports from scratch or by filling templates with data fro
 
 ### Platform Independence
 
-Aspose.Words for .NET covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems, such as Windows, Linux and various platforms.
+Aspose.Words for .NET covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems, such as Windows, Linux, macOS and various platforms.
 
 You can use Aspose.Words for Python via .NET to build any type of 32-bit or 64-bit Python application.
 
