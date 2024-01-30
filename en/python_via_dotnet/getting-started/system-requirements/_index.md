@@ -17,25 +17,45 @@ Aspose.Words for Python via .NET does not require any third party product such a
 Aspose.Words for Python via .NET supports any 64-bit or 32-bit operating system where Python 3.5 or later is installed.
 
 <table>  
-	<tr>
-			<td style="font-weight: bold; width:400px">Operating System</td>
-			<td style="font-weight: bold; width:400px">Versions</td>
-		</tr>
-  <tr>
-			<td>Microsoft Windows</td>
-			<td><ul><li>Windows 2003 Server (x64, x86)</li><li>Windows 2008 Server (x64, x86)</li><li>Windows 2012 Server (x64, x86)</li><li>Windows 2012 R2 Server (x64, x86)</li><li>Windows 2016 Server (x64, x86)</li><li>Windows 2019 Server (x64, x86)</li><li>Windows XP (x64, x86)</li><li>Windows Vista (x64, x86)</li><li>Windows 7 (x64, x86)</li><li>Windows 8, 8.1 (x64, x86)</li><li>Windows 10 (x64, x86)</li></ul></td>
-		</tr>
-  <tr>
-			<td>MacOs</td>
-			<td>min version macOS Mojave 10.14, Intel x86-64</td>
-		</tr>
-  <tr>
-			<td>Linux</td>
-			<td><ul><li>Ubuntu</li><li>OpenSUSE</li><li>CentOS</li><li>and others</li></ul></td>
-		</tr>
+    <tr>
+        <td style="font-weight: bold; width:400px">Operating System</td>
+        <td style="font-weight: bold; width:400px">Versions</td>
+    </tr>
+    <tr>
+        <td>Microsoft Windows</td>
+        <td><ul>
+            <li>Windows 2003 Server (x64, x86)</li>
+            <li>Windows 2008 Server (x64, x86)</li>
+            <li>Windows 2012 Server (x64, x86)</li>
+            <li>Windows 2012 R2 Server (x64, x86)</li>
+            <li>Windows 2016 Server (x64, x86)</li>
+            <li>Windows 2019 Server (x64, x86)</li>
+            <li>Windows XP (x64, x86)</li>
+            <li>Windows Vista (x64, x86)</li>
+            <li>Windows 7 (x64, x86)</li>
+            <li>Windows 8, 8.1 (x64, x86)</li>
+            <li>Windows 10 (x64, x86)</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>macOS</td>
+        <td><ul>
+            <li>macOS-x86_64: 10.14 or later</li>
+            <li>macOS-arm64: 11.0 or later</li>
+        </ul></td>
+    </tr>
+    <tr>
+        <td>Linux</td>
+        <td><ul>
+            <li>Ubuntu</li>
+            <li>OpenSUSE</li>
+            <li>CentOS</li>
+            <li>and others</li>
+        </ul></td>
+    </tr>
 </table>
 
-## System Requirements for Target Linux Platform
+## System Requirements for Target Linux and macOS Platforms
 
 - GCC-6 runtime libraries (or later).
 
