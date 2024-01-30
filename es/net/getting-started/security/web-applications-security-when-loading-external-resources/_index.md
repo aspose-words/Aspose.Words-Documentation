@@ -126,6 +126,6 @@ var doc = new Document(documentFilename, disableRemoteResourcesOptions);
 
 {{% alert color="primary" %}}
 
-Este artículo está basado en la consultora Independent Security Evaluators [informar](ise-aspose-informar.pdf).
+Este artículo está basado en la consultora Independent Security Evaluators [informar](/words/net/web-applications-security-when-loading-external-resources/ise-aspose-informar.pdf).
 
 {{% /alert %}}

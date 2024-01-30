@@ -11,7 +11,7 @@ url: /es/net/translate-markdown-to-document-object-model/
 
 Para leer, manipular y modificar mediante programación el contenido y el formato de un documento, debe traducirlo al modelo de objetos de documento (DOM) Aspose.Words.
 
-A diferencia de los documentos de Word, Markdown no se ajusta al DOM descrito en el artículo ["Modelo de objetos de documento Aspose.Words (DOM)"](/words/net/aspose-words-document-object-model/). Sin embargo, Aspose.Words proporciona su propio mecanismo para traducir documentos Markdown a DOM y viceversa, de modo que podamos trabajar exitosamente con sus elementos como formato de texto, tablas, encabezados y otros.
+A diferencia de los documentos de Word, Markdown no se ajusta al DOM descrito en el artículo [Modelo de objetos de documento Aspose.Words (DOM)](/words/es/net/aspose-words-document-object-model/). Sin embargo, Aspose.Words proporciona su propio mecanismo para traducir documentos Markdown a DOM y viceversa, de modo que podamos trabajar exitosamente con sus elementos como formato de texto, tablas, encabezados y otros.
 
 Este artículo explica cómo las diversas funciones markdown se pueden traducir a Aspose.Words DOM y volver al formato Markdown.
 
@@ -173,5 +173,5 @@ builder.Writeln("d");{{< /highlight >}} |                                       
 
 ## Ver también
 
-* ["Trabajar con funciones Markdown"](/words/net/working-with-markdown-features/)
+* [Trabajar con funciones Markdown](/words/es/net/working-with-markdown-features/)
 

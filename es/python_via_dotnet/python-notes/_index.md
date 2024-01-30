@@ -311,4 +311,4 @@ Aspose.Words para Python permite propiedades del indexador solo por tipo *int*; 
 * [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words/variablecollection/get_by_name/#str)
 
 ## Nombramiento de miembros API
-Para estar más cerca del mundo Python, los miembros API de Aspose.Words para Python via .NET utilizan el estilo de serpiente pitónica, sin embargo, en la mayoría de los casos tienen un análogo uno a uno en Aspose.Words para .NET API. Puedes encontrar estos analógicos en el [archivo xml](wrapper.zip).
+Para estar más cerca del mundo Python, los miembros API de Aspose.Words para Python via .NET utilizan el estilo de serpiente pitónica, sin embargo, en la mayoría de los casos tienen un análogo uno a uno en Aspose.Words para .NET API. Puedes encontrar estos analógicos en el [archivo xml](/words/python-net/python-notes/wrapper.zip).

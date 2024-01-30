@@ -26,7 +26,7 @@ La implementación de funciones Markdown sigue principalmente la especificación
 
 {{% alert color="primary" %}}
 
-Hay matices en la traducción de Markdown al modelo de objetos de documento (DOM) Aspose.Words, que se describen en el artículo ["Traducir Markdown al modelo de objetos de documento (DOM)"](/words/python-net/translate-markdown-to-document-object-model/).
+Hay matices en la traducción de Markdown al modelo de objetos de documento (DOM) Aspose.Words, que se describen en el artículo [Traducir Markdown a modelo de objetos de documento (DOM)](/words/es/python-net/translate-markdown-to-document-object-model/).
 
 {{% /alert %}}
 

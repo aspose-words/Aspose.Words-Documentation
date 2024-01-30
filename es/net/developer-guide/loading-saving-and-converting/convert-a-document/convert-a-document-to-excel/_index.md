@@ -67,5 +67,5 @@ doc.Save(ArtifactsDir + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Ver también
 
-- Sección de documentación ["Proteger o cifrar un documento"](/words/net/protect-or-encrypt-a-document/) para obtener más información sobre cómo proteger y cifrar un documento.
-- El artículo [Encontrar y reemplazar](/words/net/find-and-replace/) para obtener más información sobre cómo buscar y reemplazar el contenido que desea.
+- Sección de documentación [Proteger o cifrar un documento](/words/es/net/protect-or-encrypt-a-document/) para obtener más información sobre cómo proteger y cifrar un documento.
+- El artículo [Encontrar y reemplazar](/words/es/net/find-and-replace/) para obtener más información sobre cómo buscar y reemplazar el contenido que desea.

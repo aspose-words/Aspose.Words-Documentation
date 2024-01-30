@@ -27,7 +27,7 @@ En este artículo, cubriremos un escenario común para comparar documentos carga
 2. Inicie sesión en [Liferay](http://localhost:8080) utilizando la dirección de correo electrónico `test@liferay.com` y la contraseña `test`.
 3. Cuando se le solicite, cambie su contraseña.
 4. Recupere el identificador del sitio mediante [este tutorial](https://learn.liferay.com/w/dxp/headless-delivery/consuming-apis/consuming-rest-services#identify-the-site-containing-the-data).
-5. Compre una licencia Aspose.Words o utilice un [Prueba gratuita de licencia temporal de 30 días](/words/net/licensing/).
+5. Compre una licencia Aspose.Words o utilice un [Licencia y suscripción](/words/es/net/licensing/).
 
 {{% alert color="primary" %}}
 
@@ -379,4 +379,4 @@ Como resultado, el archivo "DocumentCompared.docx" debe colocarse en la raíz de
 ## Ver también
 
 - El artículo ["Trabajar con un documento almacenado en un `SharePoint` en línea"](/words/net/work-with-document-stored-in-sharepoint)
-- El artículo ["Trabajar con un documento marcado con una etiqueta de confidencialidad"](/words/net/work-with-document-market-by-sensitivity-label/)
+- El artículo [Trabajar con un documento marcado con una etiqueta de confidencialidad](/words/es/net/work-with-document-market-by-sensitivity-label/)

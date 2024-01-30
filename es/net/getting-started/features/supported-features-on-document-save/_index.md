@@ -9,7 +9,7 @@ weight: 30
 url: /es/net/supported-features-on-document-save/
 ---
 
-Aspose.Words permite a los usuarios trabajar con documentos en varios formatos y proporciona una amplia gama de funciones para ello. Por ejemplo, los usuarios pueden crear un documento desde cero o cargarlo, realizar algunos cambios y luego guardar esos cambios en el archivo de salida en cualquier [formato de exportación soportado](/words/net/supported-document-formats/). Mientras guarda el documento en el formato seleccionado, el usuario puede aplicar varias opciones de guardado.
+Aspose.Words permite a los usuarios trabajar con documentos en varios formatos y proporciona una amplia gama de funciones para ello. Por ejemplo, los usuarios pueden crear un documento desde cero o cargarlo, realizar algunos cambios y luego guardar esos cambios en el archivo de salida en cualquier [Formatos de documentos admitidos](/words/es/net/supported-document-formats/). Mientras guarda el documento en el formato seleccionado, el usuario puede aplicar varias opciones de guardado.
 
 {{% alert color="primary" %}}
 

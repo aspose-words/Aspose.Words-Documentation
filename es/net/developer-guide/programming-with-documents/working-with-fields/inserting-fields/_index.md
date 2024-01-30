@@ -13,7 +13,7 @@ Hay varias formas diferentes de insertar campos en un documento:
 
 * usando [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
 * usando [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
-* usando [Modelo de objetos de documento Aspose.Words (DOM)](/words/net/aspose-words-document-object-model/)
+* usando [Modelo de objetos de documento Aspose.Words (DOM)](/words/es/net/aspose-words-document-object-model/)
 
 En este artículo, veremos cada forma con más detalle y analizaremos cómo insertar ciertos campos usando estas opciones.
 
@@ -62,7 +62,7 @@ El siguiente ejemplo de código muestra cómo insertar un campo en un documento 
 
 ## Insertar campos usando DOM
 
-También puede insertar varios tipos de campos usando [Modelo de objetos de documento Aspose.Words (DOM)](/words/net/aspose-words-document-object-model/). En esta sección veremos algunos ejemplos.
+También puede insertar varios tipos de campos usando [Modelo de objetos de documento Aspose.Words (DOM)](/words/es/net/aspose-words-document-object-model/). En esta sección veremos algunos ejemplos.
 
 ### Insertar campo de combinación en un documento usando DOM
 

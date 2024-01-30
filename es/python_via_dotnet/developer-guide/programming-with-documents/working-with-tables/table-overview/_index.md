@@ -64,5 +64,5 @@ En Aspose.Words, todas las clases y propiedades relacionadas con las tablas est�
 
 ## Ver también
 
-* [Modelo de objetos de documento Aspose.Words (DOM)](/words/python-net/aspose-words-document-object-model/)
-* [Niveles lógicos de nodos en un documento](/words/python-net/logical-levels-of-nodes-in-a-document/)
+* [Modelo de objetos de documento Aspose.Words (DOM)](/words/es/python-net/aspose-words-document-object-model/)
+* [Niveles lógicos de nodos en un documento](/words/es/python-net/logical-levels-of-nodes-in-a-document/)

@@ -9,7 +9,7 @@ weight: 10
 url: /es/net/installation/
 ---
 
-Asegúrese de que su máquina cumpla con el [Requisitos del sistema](/words/net/system-requirements/) antes de comenzar.
+Asegúrese de que su máquina cumpla con el [Requisitos del sistema](/words/es/net/system-requirements/) antes de comenzar.
 
 Este artículo explica cómo instalar Aspose.Words para .NET en su computadora.
 

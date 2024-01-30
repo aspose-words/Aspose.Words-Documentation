@@ -19,7 +19,7 @@ En este artículo, cubriremos un escenario común para convertir un documento ca
 2. Configure un [según el vídeo tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes) de zona de pruebas instantánea
 3. Cree credenciales basadas en aplicaciones para SharePoint Online como se detalla en ["Configurar una entidad principal solo para aplicaciones con permisos de inquilino"]()
 4. Cargue el documento con el nombre "TestDoc.docx" al sitio de comunicación raíz en la carpeta "Documentos compartidos".
-5. Compre una licencia Aspose.Words o utilice un [Prueba gratuita de licencia temporal de 30 días](/words/net/licensing/)
+5. Compre una licencia Aspose.Words o utilice un [Licencia y suscripción](/words/es/net/licensing/)
 
 {{% alert color="primary" %}}
 
@@ -265,6 +265,6 @@ Como resultado, el archivo "TestDoc.pdf" debe colocarse en la carpeta "Documento
 
 ## Ver también
 
-- El artículo ["Representación"](/words/net/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo.
+- El artículo [Representación](/words/es/net/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo.
 - El artículo ["Conversión a formato de página fija"](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para más información sobre el diseño de la página.
-- El artículo ["Especificar opciones de renderizado al convertir a PDF"](/words/net/specify-rendering-options-when-converting-to-pdf/) para más información sobre el uso de la clase [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)
+- El artículo [Especificar opciones de renderizado al convertir a PDF](/words/es/net/specify-rendering-options-when-converting-to-pdf/) para más información sobre el uso de la clase [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)

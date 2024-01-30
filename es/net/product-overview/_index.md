@@ -15,7 +15,7 @@ url: /es/net/product-overview/
 
 Aspose.Words es una biblioteca de clases multiplataforma que permite que sus aplicaciones realicen una amplia variedad de tareas de procesamiento de documentos.
 
-Con Aspose.Words, puede convertir un documento desde cualquier formato de carga admitido a cualquier formato de guardado admitido, por ejemplo, formatos de Word a PDF, HTML o Markdown, PDF a DOCX, etc. Lea más sobre la conversión de documentos en la sección ["Convertir un documento"](/words/net/convert-a-document/).
+Con Aspose.Words, puede convertir un documento desde cualquier formato de carga admitido a cualquier formato de guardado admitido, por ejemplo, formatos de Word a PDF, HTML o Markdown, PDF a DOCX, etc. Lea más sobre la conversión de documentos en la sección [Convertir un documento](/words/es/net/convert-a-document/).
 
 Vale la pena señalar que con Aspose.Words puedes crear, modificar, convertir, renderizar e imprimir documentos sin depender de aplicaciones de terceros, como Microsoft Word u Office Automation.
 
@@ -41,15 +41,15 @@ Las funciones de Aspose.Words para .NET se pueden dividir en cuatro áreas princ
 
 La capacidad de convertir documentos de forma fácil y fiable es una de las principales características de Aspose.Words.
 
-El [importacion y exportacion de documentos](/words/net/loading-saving-and-converting/) completo con [más de 35 formatos de archivo compatibles](/words/net/supported-document-formats/) permite a los usuarios convertir documentos de [un formato popular](https://reference.aspose.com/words/net/aspose.words/loadformat/) a [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown, o de PDF a varios formatos de Word.
+El [Cargar, guardar y convertir](/words/es/net/loading-saving-and-converting/) completo con [Formatos de documentos admitidos](/words/es/net/supported-document-formats/) permite a los usuarios convertir documentos de [un formato popular](https://reference.aspose.com/words/net/aspose.words/loadformat/) a [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown, o de PDF a varios formatos de Word.
 
 #### Modelo de objetos de documento (DOM)
 
-El acceso programático a través de un rico API a todos los elementos y formatos del documento permite crear, modificar, extraer, copiar, dividir, unir y reemplazar el contenido del documento. Descubre más en la sección ["Modelo de objetos de documento Aspose.Words (DOM)"](/words/net/aspose-words-document-object-model/).
+El acceso programático a través de un rico API a todos los elementos y formatos del documento permite crear, modificar, extraer, copiar, dividir, unir y reemplazar el contenido del documento. Descubre más en la sección [Modelo de objetos de documento Aspose.Words (DOM)](/words/es/net/aspose-words-document-object-model/).
 
 #### Representación
 
-Usamos el término ["renderizado" en Aspose.Words](/words/net/rendering/) para describir el proceso de convertir un documento a un formato de archivo o medio, paginado o que tenga el concepto de páginas.
+Usamos el término [Representación](/words/es/net/rendering/) para describir el proceso de convertir un documento a un formato de archivo o medio, paginado o que tenga el concepto de páginas.
 
 Puede convertir documentos completos o páginas particulares a PDF o XPS para generar documentos del lado del servidor, imprimirlos o renderizar páginas usando .NET Graphics. Y todo esto con alta fidelidad, exactamente como lo habría hecho Microsoft Word.
 
@@ -91,9 +91,9 @@ Los desarrolladores que hayan utilizado anteriormente Microsoft Word Automation 
 
 ## Precios y políticas
 
-Visite la página ["Licenciatura"](/words/net/licensing/) para obtener información sobre licencias y revise la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family) para obtener detalles sobre precios.
+Visite la página [Licencia y suscripción](/words/es/net/licensing/) para obtener información sobre licencias y revise la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family) para obtener detalles sobre precios.
 
 ## Apoyo técnico
 
-Para obtener más información sobre el soporte técnico de Aspose.Words, consulte el [Página de soporte](/words/net/technical-support/).
+Para obtener más información sobre el soporte técnico de Aspose.Words, consulte el [Apoyo técnico](/words/es/net/technical-support/).
 

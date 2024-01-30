@@ -362,7 +362,7 @@ El API se ha mejorado para un desarrollo más flexible y conveniente.
 
 ### Formatos admitidos
 
-* Se ha introducido soporte para cargar documentos EPUB y XML agregando nuevos valores a la enumeración **LoadFormat**. A partir de la versión 22.5, es posible cargar documentos EPUB y XML en el modelo de documento Aspose.Words y convertirlos a cualquier [formatos soportados](/words/python-net/supported-document-formats/). <sup>22,5</sup>
+* Se ha introducido soporte para cargar documentos EPUB y XML agregando nuevos valores a la enumeración **LoadFormat**. A partir de la versión 22.5, es posible cargar documentos EPUB y XML en el modelo de documento Aspose.Words y convertirlos a cualquier [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/). <sup>22,5</sup>
 * A partir de la versión 22.8, es posible guardar un documento en formato AZW3, el formato de archivo de libro electrónico propietario de Amazon Kindle (KF8 es otro nombre para el formato). Ahora no sólo puede cargar documentos AZW3, sino también exportar sus archivos al formato AZW3, que es esencialmente un EPUB compilado. <sup>22.8</sup>
 
 ### Representación e impresión

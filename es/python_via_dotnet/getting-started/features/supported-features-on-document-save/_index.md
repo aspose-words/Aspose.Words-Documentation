@@ -17,6 +17,6 @@ Aspose.Words puede convertir un documento de cualquier tamaño siempre que haya 
 
 {{% alert color="primary" %}}
 
-Para obtener más información y una descripción de las funciones disponibles para los diferentes formatos, consulte la sección ["Funciones admitidas al guardar documentos"](/words/net/supported-features-on-document-save/) en la documentación Aspose.Words para .NET.
+Para obtener más información y una descripción de las funciones disponibles para los diferentes formatos, consulte la sección [Funciones admitidas al guardar documentos](/words/es/net/supported-features-on-document-save/) en la documentación Aspose.Words para .NET.
 
 {{% /alert %}}

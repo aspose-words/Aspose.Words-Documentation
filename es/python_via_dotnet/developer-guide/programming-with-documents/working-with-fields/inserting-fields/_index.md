@@ -67,7 +67,7 @@ El siguiente ejemplo de código muestra cómo insertar un campo en un documento 
 
 ## Insertar campos usando DOM
 
-También puede insertar varios tipos de campos usando [Modelo de objetos de documento Aspose.Words (DOM)](/words/python-net/aspose-words-document-object-model/). En esta sección veremos algunos ejemplos.
+También puede insertar varios tipos de campos usando [Modelo de objetos de documento Aspose.Words (DOM)](/words/es/python-net/aspose-words-document-object-model/). En esta sección veremos algunos ejemplos.
 
 ### Insertar campo de combinación en un documento usando DOM
 

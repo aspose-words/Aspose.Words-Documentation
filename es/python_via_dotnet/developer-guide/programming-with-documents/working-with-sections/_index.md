@@ -37,7 +37,7 @@ También puede utilizar la enumeración [SectionStart](https://reference.aspose.
 
 ## Administrar una sección
 
-Dado que una sección es un nodo compuesto normal, todo el API de manipulación de nodos se puede utilizar para manipular secciones: para agregar, eliminar y otras operaciones en secciones. Puedes leer más sobre los nodos en el artículo ["Modelo de objetos de documento Aspose.Words (DOM)"](/words/python-net/aspose-words-document-object-model/).
+Dado que una sección es un nodo compuesto normal, todo el API de manipulación de nodos se puede utilizar para manipular secciones: para agregar, eliminar y otras operaciones en secciones. Puedes leer más sobre los nodos en el artículo [Modelo de objetos de documento Aspose.Words (DOM)](/words/es/python-net/aspose-words-document-object-model/).
 
 Por otro lado, también puedes utilizar el `DocumentBuilder` API para trabajar con secciones. En este artículo, nos centraremos en esta forma particular de trabajar con secciones.
 

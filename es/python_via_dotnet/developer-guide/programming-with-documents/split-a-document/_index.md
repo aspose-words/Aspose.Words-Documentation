@@ -84,7 +84,7 @@ Esta sección describe varios casos de uso de división de documentos por pagina
 
 {{% alert color="primary" %}}
 
-Puedes usar cualquier [formato de salida soportado por Aspose.Words](/words/python-net/supported-document-formats/).
+Puedes usar cualquier [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/).
 
 {{% /alert %}}
 

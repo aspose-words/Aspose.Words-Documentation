@@ -418,4 +418,4 @@ Como resultado, el archivo de salida debe crearse con "Confidencial.Todos los em
 
 ## Ver también
 
-- El artículo ["Trabajar con un documento almacenado en un `SharePoint` Online"](/words/net/work-with-document-stored-in-sharepoint/)
+- El artículo [Trabajar con un documento almacenado en un `SharePoint` en línea](/words/es/net/work-with-document-stored-in-sharepoint/)

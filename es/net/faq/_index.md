@@ -13,7 +13,7 @@ url: /es/net/faq/
 
 Esta página contiene respuestas a las preguntas más frecuentes. Conozca la página actual; tal vez esto le permita resolver su problema rápidamente.
 
-Si no ha encontrado la respuesta a su pregunta, puede preguntar en el foro de soporte. Para obtener información sobre cómo informar correctamente su pregunta o problema, consulte la página ["Apoyo técnico"](/words/net/technical-support/).
+Si no ha encontrado la respuesta a su pregunta, puede preguntar en el foro de soporte. Para obtener información sobre cómo informar correctamente su pregunta o problema, consulte la página [Apoyo técnico](/words/es/net/technical-support/).
 
 {{% alert color="primary" %}}
 
@@ -33,7 +33,7 @@ Los detalles se pueden encontrar en nuestra documentación.
 
 **P: ¿Qué significa "Aspose.Words no requiere aplicaciones de terceros"?**
 
-Aspose.Words para .NET no necesita instalar ninguna aplicación de terceros ni paquetes de software adicionales para funcionar. Simplemente descargue e instale Aspose.Words como se describe en el artículo ["Instalación"](/words/net/installation/) y comience.
+Aspose.Words para .NET no necesita instalar ninguna aplicación de terceros ni paquetes de software adicionales para funcionar. Simplemente descargue e instale Aspose.Words como se describe en el artículo [Instalación](/words/es/net/installation/) y comience.
 
 ------
 
@@ -41,7 +41,7 @@ Aspose.Words para .NET no necesita instalar ninguna aplicación de terceros ni p
 
 Aspose.Words para .NET cubre la mayoría de los entornos de desarrollo y plataformas de implementación populares. Su API se puede utilizar para desarrollar aplicaciones para una amplia gama de sistemas operativos como Windows, Linux y Mac OS, y varias plataformas.
 
-Para obtener más información, consulte la página ["Descripción del producto"](/words/net/product-overview/) y la sección ["Plataformas y Interoperabilidad"](/words/net/platforms-and-interoperability/).
+Para obtener más información, consulte la página [Descripción del producto](/words/es/net/product-overview/) y la sección ["Plataformas y Interoperabilidad"](/words/net/platforms-and-interoperability/).
 
 ------
 
@@ -49,7 +49,7 @@ Para obtener más información, consulte la página ["Descripción del producto"
 
 Aspose.Words para .NET admite la mayoría de los formatos de documentos populares, como DOC, DOCX, HTML, Markdown, PDF, XML y otros.
 
-Puede ver la lista completa de formatos admitidos en la página ["Formatos de documentos admitidos"](/words/net/supported-document-formats/).
+Puede ver la lista completa de formatos admitidos en la página [Formatos de documentos admitidos](/words/es/net/supported-document-formats/).
 
 ------
 
@@ -57,7 +57,7 @@ Puede ver la lista completa de formatos admitidos en la página ["Formatos de do
 
 Puedes hacerlo de dos maneras: usando la versión de prueba o una licencia temporal de 30 días. La versión de prueba es la misma que la comprada, proporciona funcionalidad completa del producto pero agrega una marca de agua de evaluación en la parte superior del documento al cargarlo y guardarlo y limita el tamaño máximo del documento a unos pocos cientos de párrafos. Una Licencia Temporal le permite probar Aspose.Words sin restricciones de prueba durante 30 días.
 
-Consulte la página ["Licencias y Suscripciones"](/words/net/licensing/) para obtener más información.
+Consulte la página [Licencia y suscripción](/words/es/net/licensing/) para obtener más información.
 
 {{% alert color="primary" %}}
 
@@ -73,29 +73,29 @@ Para comprar una licencia Aspose.Words, debe ir a la página [comprar](https://p
 
 Después de la compra, solicite la licencia como se describe en la sección ["Licencia comprada"](/words/net/licensing/#purchased-license).
 
-Los detalles sobre cómo instalar Aspose.Words se pueden leer en la página ["Instalación"](/words/net/installation/).
+Los detalles sobre cómo instalar Aspose.Words se pueden leer en la página [Instalación](/words/es/net/installation/).
 
 ------
 
 **P: ¿Cómo puedo obtener soporte?**
 
-Utilice el foro de soporte técnico gratuito. Para obtener detalles sobre cómo informar correctamente un problema y qué se debe hacer antes de comunicarse con el foro, consulte la página ["Apoyo técnico"](/words/net/technical-support/).
+Utilice el foro de soporte técnico gratuito. Para obtener detalles sobre cómo informar correctamente un problema y qué se debe hacer antes de comunicarse con el foro, consulte la página [Apoyo técnico](/words/es/net/technical-support/).
 
 ## Representar un documento
 
 {{% alert color="primary" %}}
 
-Puede encontrar información más detallada sobre el renderizado en la sección de documentación ["Representación"](/words/net/rendering/).
+Puede encontrar información más detallada sobre el renderizado en la sección de documentación [Representación](/words/es/net/rendering/).
 
 {{% /alert %}}
 
 **P: ¿Por qué el diseño y las fuentes del documento resultante son diferentes del original?**
 
-Es posible que la fuente no esté disponible o que el formato de fuente sea compatible con Microsoft Word pero no con Aspose.Words. Aspose.Words realizará [reemplazo de fuentes](/words/net/manipulating-and-substitution-truetype-fonts/).
+Es posible que la fuente no esté disponible o que el formato de fuente sea compatible con Microsoft Word pero no con Aspose.Words. Aspose.Words realizará [Manipular y sustituir fuentes TrueType](/words/es/net/manipulating-and-substitution-truetype-fonts/).
 
 Para comprobar si falta la fuente:
 
-* En Aspose.Words utilice las advertencias de sustitución de fuentes (para obtener más detalles, consulte la sección "Cómo reconocer que se reemplazó la fuente" del artículo ["Manipular y sustituir fuentes TrueType"](/words/net/manipulating-and-substitution-truetype-fonts/)).
+* En Aspose.Words utilice las advertencias de sustitución de fuentes (para obtener más detalles, consulte la sección "Cómo reconocer que se reemplazó la fuente" del artículo [Manipular y sustituir fuentes TrueType](/words/es/net/manipulating-and-substitution-truetype-fonts/)).
 * En Microsoft Word, abra el cuadro de diálogo "Sustitución de fuente" (Archivo → Opciones → Avanzado → Sustitución de fuente).
 
 ------
@@ -166,7 +166,7 @@ Deshabilite las restricciones de clave externa cuando cree un **DataRelation**.
 
 {{% alert color="primary" %}}
 
-Puedes encontrar información más detallada sobre la programación con documentos en la sección de documentación ["Programación con Documentos"](/words/net/programming-with-documents/).
+Puedes encontrar información más detallada sobre la programación con documentos en la sección de documentación [Programación con documentos](/words/es/net/programming-with-documents/).
 
 {{% /alert %}}
 
@@ -178,7 +178,7 @@ El resultado de agregar aparece en una página separada debido a una diferencia 
 
 {{% alert color="primary" %}}
 
-Puede encontrar información más detallada sobre la conversión de un documento en la sección de documentación ["Convertir un documento"](/words/net/convert-a-document/).
+Puede encontrar información más detallada sobre la conversión de un documento en la sección de documentación [Convertir un documento](/words/es/net/convert-a-document/).
 
 {{% /alert %}}
 
@@ -216,7 +216,7 @@ doc.Save(_dataDir + "output.pdf", SaveFormat.Pdf);
 
 {{% alert color="primary" %}}
 
-Puedes encontrar información más detallada sobre la programación con documentos en la sección de documentación ["Programación con Documentos"](/words/net/programming-with-documents/).
+Puedes encontrar información más detallada sobre la programación con documentos en la sección de documentación [Programación con documentos](/words/es/net/programming-with-documents/).
 
 {{% /alert %}}
 
@@ -310,4 +310,4 @@ pdfDocument.Save(_dataDir + "out.pdf", SaveFormat.Pdf);
 
 **P: ¿Cómo utilizar Aspose.Words en Docker?**
 
-Para obtener una respuesta detallada, lea el artículo ["Cómo ejecutar Aspose.Words en Docker"](/words/net/how-to-run-aspose-words-in-docker/).
+Para obtener una respuesta detallada, lea el artículo [Cómo ejecutar Aspose.Words en Docker](/words/es/net/how-to-run-aspose-words-in-docker/).

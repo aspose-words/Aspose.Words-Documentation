@@ -25,7 +25,7 @@ Puede probar la funcionalidad de conversión utilizando nuestra herramienta [Con
 
 {{% /alert %}}
 
-La sección actual describe conversiones populares, así como ideas para trabajar con algunas combinaciones de formatos al cargar y guardar. Con los ejemplos de esta sección, puede comprender que el proceso de conversión en sí es bastante universal y no tiene sentido describir todas las opciones posibles, ya que hay varios cientos debido a la gran cantidad de [formatos soportados por Aspose.Words para Python via .NET](/words/python-net/supported-document-formats/).
+La sección actual describe conversiones populares, así como ideas para trabajar con algunas combinaciones de formatos al cargar y guardar. Con los ejemplos de esta sección, puede comprender que el proceso de conversión en sí es bastante universal y no tiene sentido describir todas las opciones posibles, ya que hay varios cientos debido a la gran cantidad de [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/).
 
 {{% alert color="primary" %}}
 
@@ -66,13 +66,13 @@ Tenga en cuenta que a continuación se muestran las combinaciones de conversión
 <div class="col-md-4">
 	<h2>Convertir PDF a Word</h2>
 		<ul>
-			<li><a href="/words/python-net/convert-pdf-to-other-document-formats/">Convertir PDF a DOCX</a></li>
+			<li><a href="/words/es/python-net/convert-pdf-to-other-document-formats/">Convertir PDF a otros formatos de documentos</a></li>
        <li>Convertir PDF a DOC</li>
 			<li>y otros</li>
 		</ul>
 	<h2>Convertir PDF a imagen</h2>
 		<ul>
-			<li><a href="/words/python-net/convert-a-document-to-an-image/">Convertir PDF a JPG</a></li>
+			<li><a href="/words/es/python-net/convert-a-document-to-an-image/">Convertir un documento en una imagen</a></li>
        <li>Convertir PDF a SVG</li>
 			<li>y otros</li>
 		</ul>
@@ -93,13 +93,13 @@ Tenga en cuenta que a continuación se muestran las combinaciones de conversión
 <div class="col-md-4">
 	<h2>Convertir un documento en una imagen</h2>
 		<ul>
-			<li><a href="/words/python-net/convert-a-document-to-an-image/">Convertir PDF a JPG</a></li>
-			<li><a href="/words/python-net/convert-a-document-to-an-image/">Convertir DOCX a JPG</a></li>
+			<li><a href="/words/es/python-net/convert-a-document-to-an-image/">Convertir un documento en una imagen</a></li>
+			<li><a href="/words/es/python-net/convert-a-document-to-an-image/">Convertir un documento en una imagen</a></li>
 			<li>y otros</li>
 		</ul>
 	<h2>Convertir un documento a Markdown</h2>
 		<ul>
-			<li><a href="/words/python-net/convert-a-document-to-markdown/">Convertir un documento a Markdown</a></li>
+			<li><a href="/words/es/python-net/convert-a-document-to-markdown/">Convertir un documento a Markdown</a></li>
 			<li>Convertir HTML a Markdown</li>
 			<li>y otros</li>
 		</ul>

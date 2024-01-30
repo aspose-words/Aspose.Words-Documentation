@@ -18,8 +18,8 @@ Aspose.Words es una biblioteca de clases disponible en las plataformas más popu
        <p>A continuación encontrará enlaces rápidos a algunos recursos útiles que puede necesitar para comenzar a utilizar Aspose.Words para .NET:</p>
        <ul>
            <li><a href="https://products.aspose.com/words/net/">Página de producto Aspose.Words para .NET</a></li>
-           <li><a href="/words/net/product-overview/">Descripción general de Aspose.Words para .NET</a></li>
-           <li><a href="/words/net/developer-guide/">Aspose.Words para funciones .NET</a></li>
+           <li><a href="/words/es/net/product-overview/">Descripción del producto</a></li>
+           <li><a href="/words/es/net/developer-guide/">Guía para desarrolladores</a></li>
            <li><a href="https://reference.aspose.com/words/net/">Aspose.Words para .NET – Guía API Reference</a></li>
            <li><a href="https://releases.aspose.com/words/net/release-notes/">Notas de la versión Aspose.Words para .NET</a></li>
            <li><a href="https://releases.aspose.com/words/net/">Descarga Aspose.Words para .NET</a></li>
@@ -84,8 +84,8 @@ Aspose.Words es una biblioteca de clases disponible en las plataformas más popu
        <p>A continuación encontrará enlaces rápidos a algunos recursos útiles que puede necesitar para comenzar a utilizar Aspose.Words para Python via .NET:</p>
        <ul>
            <li><a href="https://products.aspose.com/words/python-net/">Página de producto Aspose.Words para Python via .NET</a></li>
-           <li><a href="/words/python-net/product-overview/">Descripción general de Aspose.Words para Python via .NET</a></li>
-           <li><a href="/words/python-net/developer-guide/">Aspose.Words para funciones Python via .NET</a></li>
+           <li><a href="/words/es/python-net/product-overview/">Descripción del producto</a></li>
+           <li><a href="/words/es/python-net/developer-guide/">Guía para desarrolladores</a></li>
            <li><a href="https://reference.aspose.com/words/python-net/">Aspose.Words para Python via .NET – Guía API Reference</a></li>
            <li><a href="https://releases.aspose.com/words/python/release-notes/">Notas de la versión Aspose.Words para Python via .NET</a></li>
            <li><a href="https://releases.aspose.com/words/python/">Descarga Aspose.Words para Python via .NET</a></li>
