@@ -80,9 +80,9 @@ El uso de la propiedad **OptimizeOutput** puede afectar la precisión de la visu
 
 ## Ver también
 
-- El artículo ["Representación"](/words/net/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo.
+- El artículo [Representación](/words/es/net/rendering/) para obtener más información sobre los formatos de página fija y diseño de flujo.
 - El artículo ["Conversión a formato de página fija"](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) para más información sobre el diseño de la página.
-- El artículo ["Especificar opciones de renderizado al convertir a PDF"](/words/net/specify-rendering-options-when-converting-to-pdf/) para más información sobre el uso de la clase `PdfSaveOptions`
+- El artículo [Especificar opciones de renderizado al convertir a PDF](/words/es/net/specify-rendering-options-when-converting-to-pdf/) para más información sobre el uso de la clase `PdfSaveOptions`
 - El artículo [Conozca las funciones de conversión a PDF/A y PDF/UA](/words/es/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) que describe qué estándar PDF y el ISO relevante para los estándares PDF admiten Aspose.Words.
 - El artículo [¿Qué estándar de PDF es mejor elegir?](/words/es/net/which-pdf-standard-is-better-to-choose/) para determinar qué estándares PDF tienen sentido y en qué casos.
 

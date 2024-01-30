@@ -20,7 +20,7 @@ Asegúrese de cumplir con los siguientes requisitos antes de descargar y ejecuta
 1. Código Visual Studio, Visual Studio 2019.
 2. Se instaló NuGet Package Manager y la última versión NuGet API para Visual Studio.
 3. Se seleccionó la opción **nuget.org** en el cuadro de diálogo "Herramientas → Opciones" en "Administrador de NuGet Package → Fuentes de paquetes".
-4. Una conexión a Internet activa para utilizar la función de restauración automática de paquetes `NuGet` en el proyecto de ejemplos. Si no tiene una conexión a Internet activa en la máquina donde se ejecutarán los ejemplos, consulte el artículo ["Instalación"](/words/net/installation/) y agregue manualmente una referencia a Aspose.Words.dll al proyecto de ejemplos.
+4. Una conexión a Internet activa para utilizar la función de restauración automática de paquetes `NuGet` en el proyecto de ejemplos. Si no tiene una conexión a Internet activa en la máquina donde se ejecutarán los ejemplos, consulte el artículo [Instalación](/words/es/net/installation/) y agregue manualmente una referencia a Aspose.Words.dll al proyecto de ejemplos.
 
 ## Descargue y ejecute los ejemplos
 
@@ -33,7 +33,7 @@ Después de obtener una copia del repositorio, es posible que encuentre lo sigui
 
 Para ejecutar los ejemplos, abra el archivo de la solución en Visual Studio y cree el proyecto:
 
-- Para los ejemplos **API Reference**, la estructura se basa en nombres de clases, para los ejemplos **Docs** se basa principalmente en la sección de documentación [Desarrollador culpable](/words/net/developer-guide/).
+- Para los ejemplos **API Reference**, la estructura se basa en nombres de clases, para los ejemplos **Docs** se basa principalmente en la sección de documentación [Guía para desarrolladores](/words/es/net/developer-guide/).
 - En la primera ejecución, las dependencias se descargarán automáticamente a través de NuGet.
 - La carpeta **Data** en la carpeta raíz de **Examples** contiene archivos de entrada que se utilizaron en los ejemplos.
 - Todos los ejemplos se pueden ejecutar como pruebas unitarias.

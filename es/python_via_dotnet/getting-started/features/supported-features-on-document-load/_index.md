@@ -13,6 +13,6 @@ Aspose.Words se esfuerza por admitir todas las funciones para todos los formatos
 
 {{% alert color="primary" %}}
 
-Para obtener más información y una descripción de las funciones disponibles para los diferentes formatos, consulte la sección ["Funciones admitidas al cargar documentos"](/words/net/supported-features-on-document-load/) en la documentación Aspose.Words para .NET.
+Para obtener más información y una descripción de las funciones disponibles para los diferentes formatos, consulte la sección [Funciones admitidas al cargar documentos](/words/es/net/supported-features-on-document-load/) en la documentación Aspose.Words para .NET.
 
 {{% /alert %}}

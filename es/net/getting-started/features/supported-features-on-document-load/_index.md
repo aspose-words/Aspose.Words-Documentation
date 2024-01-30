@@ -9,7 +9,7 @@ weight: 20
 url: /es/net/supported-features-on-document-load/
 ---
 
-Aspose.Words permite a los usuarios trabajar con documentos en varios formatos y ofrece una amplia gama de opciones para ello. Por ejemplo, los usuarios pueden crear un documento desde cero o cargar un archivo existente en cualquier [formato de importación admitido](/words/net/supported-document-formats/), realizar algunos cambios en ese documento y luego guardar el resultado. Al importar un documento en el formato seleccionado, el usuario puede aplicar varias opciones de carga.
+Aspose.Words permite a los usuarios trabajar con documentos en varios formatos y ofrece una amplia gama de opciones para ello. Por ejemplo, los usuarios pueden crear un documento desde cero o cargar un archivo existente en cualquier [Formatos de documentos admitidos](/words/es/net/supported-document-formats/), realizar algunos cambios en ese documento y luego guardar el resultado. Al importar un documento en el formato seleccionado, el usuario puede aplicar varias opciones de carga.
 
 {{% alert color="primary" %}}
 

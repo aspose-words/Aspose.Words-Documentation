@@ -62,7 +62,7 @@ Durante la conversión de un documento PDF, puede ocurrir una de las siguientes 
 
 |  Excepción |  Descripción |
 |  --------------------------------  |  ------------------------------------------------------------  |
-|  `FileLoadException`               |  Un archivo PDF no se puede procesar por algún motivo.<br /> {{% alert color="primary" %}}Puede informar el problema al equipo de desarrollo para una investigación detallada utilizando [apoyo técnico](/words/net/technical-support/).{{% /alert %}}. |
+|  `FileLoadException`               |  Un archivo PDF no se puede procesar por algún motivo.<br /> {{% alert color="primary" %}}Puede informar el problema al equipo de desarrollo para una investigación detallada utilizando [Apoyo técnico](/words/es/net/technical-support/).{{% /alert %}}. |
 |  `DrmProtectedFileException`       |  Un archivo PDF está protegido por Adobe DRM y no puede ser decodificado por Pdf2Word. |
 |  `PasswordProtectedFileException`  |  Se debe proporcionar la contraseña correcta para un PDF protegido con contraseña. |
 

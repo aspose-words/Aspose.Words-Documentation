@@ -9,7 +9,7 @@ weight: 10
 url: /es/python-net/installation/
 ---
 
-Asegúrese de que su máquina cumpla con el [Requisitos del sistema](/words/python-net/system-requirements/) antes de comenzar.
+Asegúrese de que su máquina cumpla con el [Requisitos del sistema](/words/es/python-net/system-requirements/) antes de comenzar.
 
 Este artículo explica cómo instalar Aspose.Words para Python via .NET en su computadora.
 

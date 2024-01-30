@@ -179,7 +179,7 @@ En las configuraciones predefinidas solo se utilizan fuentes Noto estilo Sans co
 
 ## Dónde busca Aspose.Words las fuentes
 
-Aspose.Words intenta encontrar fuentes TrueType en el sistema de archivos automáticamente. Por lo general, puede confiar en el comportamiento predeterminado de Aspose.Words para encontrar las fuentes `TrueType`, pero a veces necesita especificar sus propias carpetas que contienen fuentes TrueType. El tema ["Especificar la ubicación de las fuentes TrueType"](/words/python-net/specifying-truetype-fonts-location/) describe cómo y dónde Aspose.Words busca fuentes, así como también cómo especificar sus propias ubicaciones de fuentes.
+Aspose.Words intenta encontrar fuentes TrueType en el sistema de archivos automáticamente. Por lo general, puede confiar en el comportamiento predeterminado de Aspose.Words para encontrar las fuentes `TrueType`, pero a veces necesita especificar sus propias carpetas que contienen fuentes TrueType. El tema [Especificar la ubicación de las fuentes TrueType](/words/es/python-net/specifying-truetype-fonts-location/) describe cómo y dónde Aspose.Words busca fuentes, así como también cómo especificar sus propias ubicaciones de fuentes.
 
 ## Diferencias en el procesamiento de formatos de fuente en Aspose.Words y Microsoft Word
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aspose.Words Features Missing in VSTO
 second_title: Aspose.Words for .NET
 articleTitle: Aspose.Words Features Missing in VSTO
@@ -10,7 +10,6 @@ url: /net/missing-features-in-vsto/
 aliases:
   - /net/conversion-from-docx-to-doc-format/
   - /net/insert-form-fields/
-  - /net/join-tables/
   - /net/split-tables/
   - /net/convert-document-to-mhtml-email/
   - /net/detecting-file-format/

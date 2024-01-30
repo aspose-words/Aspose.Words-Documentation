@@ -28,7 +28,7 @@ El siguiente ejemplo de código muestra cómo convertir un documento:
 
 {{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "docx-to-pdf.py" >}}
 
-Para obtener más detalles sobre cómo cargar, convertir y guardar documentos, consulte la sección ["Cargar, guardar y convertir"](/words/python-net/loading-saving-and-converting/).
+Para obtener más detalles sobre cómo cargar, convertir y guardar documentos, consulte la sección [Cargar, guardar y convertir](/words/es/python-net/loading-saving-and-converting/).
 
 ## Alta fidelidad
 

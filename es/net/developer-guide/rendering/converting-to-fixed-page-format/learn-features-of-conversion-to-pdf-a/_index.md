@@ -41,7 +41,7 @@ Para obtener más información sobre los diferentes estándares de PDF, consulte
 
 ## Ver también
 
-* [Convertir un documento a PDF](/words/net/convert-a-document-to-pdf/)
+* [Convertir un documento a PDF](/words/es/net/convert-a-document-to-pdf/)
 * [Cómo editar etiquetas de estructura de documentos en Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html)
 * [Cómo verificar o editar el idioma del texto en Microsoft Word](https://support.microsoft.com/en-us/office/check-spelling-and-grammar-in-a-different-language-667ba67a-a202-42fd-8596-edc1fa320e00)
 * [Cómo cambiar el idioma del texto en Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)

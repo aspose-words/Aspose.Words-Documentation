@@ -35,7 +35,7 @@ La limitación general para dos documentos que se comparan es que no deben tener
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que puede comparar dos documentos cualesquiera dentro del [formatos de archivo soportados](/words/python-net/supported-document-formats/). Básicamente, puedes comparar objetos de documentos e incluso puedes crear esos objetos desde cero sin tener ningún formato específico.
+Tenga en cuenta que puede comparar dos documentos cualesquiera dentro del [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/). Básicamente, puedes comparar objetos de documentos e incluso puedes crear esos objetos desde cero sin tener ningún formato específico.
 
 {{% /alert %}}
 
