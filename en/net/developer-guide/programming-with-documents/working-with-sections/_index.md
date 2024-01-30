@@ -19,13 +19,13 @@ This article explains how to work with sections and section breaks.
 
 ## What Section and Section Break Is
 
-Document sections are represented by the [Section](https://apireference.aspose.com/words/net/aspose.words/section) and [SectionCollection](https://apireference.aspose.com/words/net/aspose.words/sectioncollection) classes. Section objects are immediate children of the [Document](https://apireference.aspose.com/words/net/aspose.words/document) node and can be accessed via the [Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections) property. You can manage those nodes by using some methods such as [Remove](https://apireference.aspose.com/words/net/aspose.words/nodecollection/methods/remove), [Add](https://apireference.aspose.com/words/net/aspose.words/nodecollection/methods/add), [IndexOf](https://apireference.aspose.com/words/net/aspose.words/nodecollection/methods/indexof), and others.
+Document sections are represented by the [Section](https://reference.aspose.com/words/net/aspose.words/section/) and [SectionCollection](https://reference.aspose.com/words/net/aspose.words/section/collection) classes. Section objects are immediate children of the [Document](https://reference.aspose.com/words/net/aspose.words/document/) node and can be accessed via the [Sections](https://reference.aspose.com/words/net/aspose.words/document//properties/sections) property. You can manage those nodes by using some methods such as [Remove](https://reference.aspose.com/words/net/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/), and others.
 
 Section break is an option that divides document pages into sections with customizable layouts.
 
 ## Types of a Section Break
 
-Aspose.Words allows you to split and format documents using different section breaks of the [BreakType](https://apireference.aspose.com/words/net/aspose.words/breaktype) enumeration:
+Aspose.Words allows you to split and format documents using different section breaks of the [BreakType](https://reference.aspose.com/words/net/aspose.words/breaktype/) enumeration:
 
 * SectionBreakContinuous
 * SectionBreakNewColumn
@@ -33,7 +33,7 @@ Aspose.Words allows you to split and format documents using different section br
 * SectionBreakEvenPage
 * SectionBreakOddPage
 
-You can also use the [SectionStart](https://apireference.aspose.com/words/net/aspose.words/sectionstart) enumeration to choose a break type that applies only for the first section such as NewColumn, NewPage, EvenPage, and OddPage.
+You can also use the [SectionStart](https://reference.aspose.com/words/net/aspose.words/sectionstart/) enumeration to choose a break type that applies only for the first section such as NewColumn, NewPage, EvenPage, and OddPage.
 
 ## Manage a Section
 
@@ -43,13 +43,13 @@ On the other hand, you can also use the `DocumentBuilder` API to work with secti
 
 ## Insert or Remove a Section Break
 
-Aspose.Words allows you to insert a section break into text using the [InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak) method.
+Aspose.Words allows you to insert a section break into text using the [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/) method.
 
 The following code example shows how to insert a section break into a document:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "insert-section-breaks.cs" >}}
 
-Use the [Remove](https://apireference.aspose.com/words/net/aspose.words/node/methods/remove) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://apireference.aspose.com/words/net/aspose.words/section/methods/clearcontent) method.
+Use the [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/) method to delete a section break. If you do not need to remove a specific section break and instead delete the content of that section, you can use the [ClearContent](https://reference.aspose.com/words/net/aspose.words/section/clearcontent/) method.
 
 The following code example shows how to remove sections breaks: 
 
@@ -63,7 +63,7 @@ Note that a section break has information about the section that goes before it,
 
 ## Move a Section
 
-If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://apireference.aspose.com/words/net/aspose.words/sectioncollection) by using the [Item](https://apireference.aspose.com/words/net/aspose.words/sectioncollection/properties/item) property. You can use the [Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://apireference.aspose.com/words/net/aspose.words/document/properties/firstsection) property.
+If you want to move a section from one position to another in your document, you need to get the index of that section. Aspose.Words allows you to get a section position from a [SectionCollection](https://reference.aspose.com/words/net/aspose.words/sectioncollection/) by using the [Item](https://reference.aspose.com/words/net/aspose.words/sectioncollection//properties/item) property. You can use the [Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/) property to get all sections in your document. But if you want to get only the first section, you can use the [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) property.
 
 The following code example shows how to access the first section and iterate through the children of a composite node:
 
@@ -71,7 +71,7 @@ The following code example shows how to access the first section and iterate thr
 
 ## Specify a Section Layout
 
-Sometimes you want your document to look better by making creative layouts for different document sections. If you want to specify the type of the current section grid, you can choose a section layout mode using the [SectionLayoutMode](https://apireference.aspose.com/words/net/aspose.words/sectionlayoutmode) enumeration:
+Sometimes you want your document to look better by making creative layouts for different document sections. If you want to specify the type of the current section grid, you can choose a section layout mode using the [SectionLayoutMode](https://reference.aspose.com/words/net/aspose.words/sectionlayoutmode/) enumeration:
 
 * Default
 * Grid
@@ -84,7 +84,7 @@ The following code example shows how to limit the number of lines that each page
 
 ## Edit a Section
 
-When you add a new section to your document, there will be no body or paragraph that you can edit. Aspose.Words allows you to guarantee that a section contains a body with at least one paragraph using the [EnsureMinimum](https://apireference.aspose.com/words/net/aspose.words/section/methods/ensureminimum) method – it will automatically add a Body (or HeaderFooter) node to the document and then add a Paragraph to it.
+When you add a new section to your document, there will be no body or paragraph that you can edit. Aspose.Words allows you to guarantee that a section contains a body with at least one paragraph using the [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words/section/ensureminimum/) method – it will automatically add a Body (or HeaderFooter) node to the document and then add a Paragraph to it.
 
 The following code example shows how to prepare a new section node using **EnsureMinimum**:
 
@@ -92,7 +92,7 @@ The following code example shows how to prepare a new section node using **Ensur
 
 ### Append or Prepend Content
 
-If you want to draw some shape or add text or image at the beginning/end of a section, you can use the [AppendContent](https://apireference.aspose.com/words/net/aspose.words/section/methods/appendcontent) and [PrependContent](https://apireference.aspose.com/words/net/aspose.words/section/methods/prependcontent) methods of the [Section](https://apireference.aspose.com/words/net/aspose.words/section) class.
+If you want to draw some shape or add text or image at the beginning/end of a section, you can use the [AppendContent](https://reference.aspose.com/words/net/aspose.words/section/appendcontent/) and [PrependContent](https://reference.aspose.com/words/net/aspose.words/section/prependcontent/) methods of the [Section](https://reference.aspose.com/words/net/aspose.words/section/) class.
 
 The following code example shows how to append content of an existing section:
 
@@ -100,7 +100,7 @@ The following code example shows how to append content of an existing section:
 
 ### Clone a Section
 
-Aspose.Words allows you to duplicate a section by creating a full copy of it using the [Clone](https://apireference.aspose.com/words/net/aspose.words/section/methods/clone/index) method.
+Aspose.Words allows you to duplicate a section by creating a full copy of it using the [Clone](https://reference.aspose.com/words/net/aspose.words/section/clone/) method.
 
 The following code example shows how to clone the first section in your document:
 
@@ -110,7 +110,7 @@ The following code example shows how to clone the first section in your document
 
 In some cases, you may have large documents with many sections and you want to copy the content of a section from one document to another.
 
-Aspose.Words allows you to copy sections between documents using the [ImportNode](https://apireference.aspose.com/words/net/aspose.words/nodeimporter/methods/importnode) method.
+Aspose.Words allows you to copy sections between documents using the [ImportNode](https://reference.aspose.com/words/net/aspose.words/nodeimporter/importnode/) method.
 
 The following code example shows how to copy sections between documents:
 
@@ -127,7 +127,7 @@ The following code example shows how to create 2 sections with different headers
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
-If you want to remove the text of headers and footers without removing [HeaderFooter](https://apireference.aspose.com/words/net/aspose.words/headerfooter) objects in your document, you can use the [ClearHeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/methods/clearheadersfooters) method. In addition, you can use the [DeleteHeaderFooterShapes](https://apireference.aspose.com/words/net/aspose.words/section/methods/deleteheaderfootershapes) method to remove all shapes from headers and footers in your document.
+If you want to remove the text of headers and footers without removing [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) objects in your document, you can use the [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) method. In addition, you can use the [DeleteHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words/section/deleteheaderfootershapes/) method to remove all shapes from headers and footers in your document.
 
 The following code example shows how to clear content of all headers and footers in a section:
 
@@ -141,7 +141,7 @@ The following code example how to remove all shapes from all headers footers in 
 
 Before printing a page or a document you may want to customize and modify the size and layout of a single page or the whole document. With page setup, you can change the settings of document pages such as margins, orientation, and size for printing different first pages or odd pages.
 
-Aspose.Words allows you to customize page and section properties using the [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup) class.
+Aspose.Words allows you to customize page and section properties using the [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) class.
 
 The following code example shows how to set such properties as page size and orientation for the current section:
 

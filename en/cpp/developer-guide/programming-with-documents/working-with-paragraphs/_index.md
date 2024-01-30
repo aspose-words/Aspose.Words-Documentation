@@ -65,7 +65,7 @@ Note that when the border properties are reset to their default values, the bord
 
 {{% /alert %}}
 
-Aspose.Words also has the [Shading](https://reference.aspose.com/words/cpp/aspose.words/shading) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
+Aspose.Words also has the [Shading](https://reference.aspose.com/words/cpp/aspose.words/shading/) class contains shading attributes for document elements. You can set the desired shading texture and the colors that are applied to the background and foreground of the element.
 
 The shading texture is set with a [TextureIndex](https://reference.aspose.com/words/cpp/aspose.words/textureindex/) enumeration value that allows the application of various patterns to the **Shading** object. For example, to set a background color for a document element, use the [TextureIndex.TextureSolid](https://reference.aspose.com/words/cpp/aspose.words/textureindex/) value and set the foreground shading color as appropriate.
 

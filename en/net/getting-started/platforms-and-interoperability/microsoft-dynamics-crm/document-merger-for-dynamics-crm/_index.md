@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document Merger for Dynamics CRM
 second_title: Aspose.Words for .NET
 articleTitle: Document Merger for Dynamics CRM
@@ -100,7 +100,7 @@ You can log any issues or suggestions related to Aspose .NET Document Merger usi
 
 You can download the latest source code at:
 
-- [CodePlex](https://www.microsoft.com/?p=asposenetcrm#Aspose%20.NET%20Document%20Merger/).
+- [CodePlex](https://www.microsoft.com/ru-ru/?p=asposenetcrm).
 - [GitHub](https://github.com/asposemarketplace/asposenetcrm/tree/AsposeDocumentGenerator-1.0.0.2011/Aspose%20.NET%20Document%20Merger/Source%20Code).
 - [BitBucket](https://bitbucket.org/asposemarketplace/aspose-.net-for-dynamics-crm/src/7ce93ebc181bba2b22539bfe183c68872f812070/Aspose%20.NET%20Document%20Merger/Source%20Code/?at=master).
 - [SourceForge](https://sourceforge.net/p/asposenetcrm/code/ci/master/tree/Aspose%20.NET%20Document%20Merger/Source%20Code/).

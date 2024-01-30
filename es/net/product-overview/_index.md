@@ -87,11 +87,11 @@ Aunque hay más de 150 clases públicas y enumeraciones en Aspose.Words, la curv
 
 Los desarrolladores que hayan utilizado anteriormente Microsoft Word Automation en sus proyectos encontrarán familiares los nombres y el comportamiento de muchas clases, métodos y propiedades.
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/), [Range](https://reference.aspose.com/words/net/aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/net/aspose.words/section/pagesetup/) y [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat) son algunas de las clases Aspose.Words. Al mismo tiempo, Aspose.Words es bastante diferente del modelo de objetos de Word Microsoft en que representa un documento como un árbol de objetos, más parecido a un árbol XML DOM. Si ha trabajado con alguna biblioteca XML DOM, encontrará que es fácil de entender y trabajar con Aspose.Words.
+[Document](https://reference.aspose.com/words/net/aspose.words/document/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/), [Range](https://reference.aspose.com/words/net/aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/net/aspose.words/section/pagesetup/) y [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) son algunas de las clases Aspose.Words. Al mismo tiempo, Aspose.Words es bastante diferente del modelo de objetos de Word Microsoft en que representa un documento como un árbol de objetos, más parecido a un árbol XML DOM. Si ha trabajado con alguna biblioteca XML DOM, encontrará que es fácil de entender y trabajar con Aspose.Words.
 
 ## Precios y políticas
 
-Visite la página [Licencia y suscripción](/words/es/net/licensing/) para obtener información sobre licencias y revise la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family) para obtener detalles sobre precios.
+Visite la página [Licencia y suscripción](/words/es/net/licensing/) para obtener información sobre licencias y revise la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family/) para obtener detalles sobre precios.
 
 ## Apoyo técnico
 

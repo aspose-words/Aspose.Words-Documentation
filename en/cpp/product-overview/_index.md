@@ -85,7 +85,7 @@ Developers who have previously used Microsoft Word Automation in their projects 
 
 ## Pricing and Policies
 
-Please visit the ["Licensing"](/words/cpp/licensing/) page for information on licenses and review the ["Pricing Information"](https://purchase.aspose.com/pricing/words/family) page for details on pricing.
+Please visit the ["Licensing"](/words/cpp/licensing/) page for information on licenses and review the ["Pricing Information"](https://purchase.aspose.com/pricing/words/family/) page for details on pricing.
 
 ## Technical Support
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Working with Markdown Features in C++
 second_title: Aspose.Words for C++
 articleTitle: Working with Markdown Features
@@ -107,7 +107,7 @@ The following code snippet shows you how to read a markdown document.
 
 ## Specify Markdown Save Options
 
-Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.markdown_save_options) class to specify additional options while saving a document into the Markdown format.
+Aspose.Words API provides [MarkdownSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/markdownsaveoptions/) class to specify additional options while saving a document into the Markdown format.
 
 The following code example demonstrated how to specify various Markdown save options.
 

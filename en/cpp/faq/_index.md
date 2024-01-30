@@ -1,4 +1,4 @@
-﻿---
+---
 title: FAQ
 second_title: Aspose.Words for C++
 articleTitle: FAQ
@@ -126,7 +126,7 @@ You can find more detailed information about programming with documents in the [
 
 **Q: Why does not content appended to a document appear on the same page?**
 
-The append result appears on a separate page because of a difference in [PageSetup](https://reference.aspose.com/words/cpp/class/aspose.words.page_setup) settings for the sections where the documents are appended together. Make identical **PageSetup** settings for the sections where the documents are appended together.
+The append result appears on a separate page because of a difference in [PageSetup](https://reference.aspose.com/words/cpp/aspose.words/pagesetup/) settings for the sections where the documents are appended together. Make identical **PageSetup** settings for the sections where the documents are appended together.
 
 ## Convert a Document
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert a Document to an Image in C++
 second_title: Aspose.Words for C++
 articleTitle: Convert a Document to an Image
@@ -21,7 +21,7 @@ The following code example shows how to convert DOCX to JPEG:
 
 ## Specify Save Options when Converting to an Image
 
-Aspose.Words provides you with the [ImageSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.image_save_options) class, which gives more control over how documents are saved in various image formats. Some properties of this class inherit or overload properties of base classes such as [FixedPageSaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.fixed_page_save_options) or [SaveOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.save_options), but there are also options specific to saving images.
+Aspose.Words provides you with the [ImageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/) class, which gives more control over how documents are saved in various image formats. Some properties of this class inherit or overload properties of base classes such as [FixedPageSaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/fixedpagesaveoptions/) or [SaveOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/saveoptions/), but there are also options specific to saving images.
 
 It is possible to specify the pages to be converted to image format using the [PageSet](https://reference.aspose.com/words/cpp/aspose.words.saving/imagesaveoptions/get_pageset/) property. For example, it can be applied if you only need a preview for the first or for a definite page.
 

@@ -88,7 +88,7 @@ Los desarrolladores que hayan utilizado anteriormente Microsoft Word Automation 
 
 ## Precios y políticas
 
-Visite la página [Licencia y suscripción](/words/es/python-net/licensing/) para obtener información sobre licencias y revise la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family) para obtener detalles sobre precios.
+Visite la página [Licencia y suscripción](/words/es/python-net/licensing/) para obtener información sobre licencias y revise la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family/) para obtener detalles sobre precios.
 
 ## Apoyo técnico
 

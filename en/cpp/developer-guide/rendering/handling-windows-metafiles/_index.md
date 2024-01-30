@@ -1,4 +1,4 @@
-﻿---
+---
 title: Handling Windows Metafiles in C++
 second_title: Aspose.Words for C++
 articleTitle: Handling Windows Metafiles
@@ -23,7 +23,7 @@ The existing issue with Windows Metafile is that it is not supported by most non
 
 ## Controlling the Aspose.Words Metafile Player
 
-The [MetafileRenderingOptions](https://reference.aspose.com/words/cpp/class/aspose.words.saving.metafile_rendering_options) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/get_renderingmode/) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/metafilerenderingoptions/) property).
+The [MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/) class enables you to control the metafile player. For example, you can determine how metafile images should be rendered using the [RenderingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/get_renderingmode/) property, which has a special meaning when converting to bitmaps (see also the [MetafileRenderingOptions](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/metafilerenderingoptions/) property).
 
 Saving to a bitmap works differently on platforms other than .NET. While .NET GDI+ rendering is a reference that works almost perfectly even for the most complex metafile format, on other platforms it may cause issues or not be supported at all.
 
@@ -55,7 +55,7 @@ The example shown below demonstrates how Aspose.Words renders a metafile to a bi
 
 ## Metafile Fallback Settings
 
-Aspose.Words does not support a number of metafile features that are most complex or rare. Users can implement the [IWarningCallBack](https://reference.aspose.com/words/cpp/class/aspose.words.i_warning_callback) interface and receive warning messages. If Aspose.Words encounters unsupported features in a metafile, it issues a warning message with [WarningSource](https://reference.aspose.com/words/cpp/aspose.words/warninginfo/get_source/).**Metafile**. In this case Aspose.Words may perform fallback to a different type of metafile player. The warning message regarding fallback is also issued.
+Aspose.Words does not support a number of metafile features that are most complex or rare. Users can implement the [IWarningCallBack](https://reference.aspose.com/words/cpp/aspose.words/iwarningcallback/) interface and receive warning messages. If Aspose.Words encounters unsupported features in a metafile, it issues a warning message with [WarningSource](https://reference.aspose.com/words/cpp/aspose.words/warninginfo/get_source/).**Metafile**. In this case Aspose.Words may perform fallback to a different type of metafile player. The warning message regarding fallback is also issued.
 
 Firstly, Aspose.Words performs fallback from the vector metafile player to raster, which is controlled by the [RenderingMode](https://reference.aspose.com/words/cpp/aspose.words.saving/metafilerenderingoptions/get_renderingmode/) property. If the fallback feature is disabled, Aspose.Words tries to render some substitution graphics instead of the features that are not supported.
 

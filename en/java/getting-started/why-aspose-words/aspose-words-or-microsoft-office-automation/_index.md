@@ -73,7 +73,7 @@ The following is a direct quote from the above referenced Microsoft article:
 
 ### Price
 
-Oftentimes, an application may need to create or manipulate an office file, but does not require the user to have Office. Aspose.Words offers a very [cost effective](https://purchase.aspose.com/pricing/words/family), royalty free redistribution license that will allow deployment to an unlimited number of users with no licensing worries. However, if your application utilizes Microsoft Office Automation, a copy of Microsoft Office must be purchased for each machine that runs the application.
+Oftentimes, an application may need to create or manipulate an office file, but does not require the user to have Office. Aspose.Words offers a very [cost effective](https://purchase.aspose.com/pricing/words/family/), royalty free redistribution license that will allow deployment to an unlimited number of users with no licensing worries. However, if your application utilizes Microsoft Office Automation, a copy of Microsoft Office must be purchased for each machine that runs the application.
 
 When creating web based applications, it is important to know that Microsoft Office Automation components are not priced nor licensed for server side solutions, so there is no good licensing solution for deploying web applications that utilize Microsoft Office components. Aspose, in turn, offers a very cost effective solution for server based applications.
 

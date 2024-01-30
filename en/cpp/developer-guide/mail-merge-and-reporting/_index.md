@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail Merge and Reporting in C++
 second_title: Aspose.Words for C++
 articleTitle: Mail Merge and Reporting
@@ -24,7 +24,7 @@ Aspose.Words takes the standard mail merge functionality and advances it many st
 
 {{% alert color="primary" %}}
 
-The [Aspose.Words.MailMerging](https://reference.aspose.com/words/cpp/namespace/aspose.words.mail_merging) namespace is used to work with mail merging.
+The [Aspose.Words.MailMerging](https://reference.aspose.com/words/cpp/aspose.words.mailmerging/) namespace is used to work with mail merging.
 
 {{% /alert %}}
 
@@ -40,7 +40,7 @@ The mail merge operation will merge your *mail merge template* and your *data
 
 The goal of applying a mail merge operation using a merge template is to simplify the process of creating a document.
 
-There are several ways to create and design a merge template. You can use Microsoft Word, and the merge template does not have to be a Microsoft Word template, that is a document in the DOT or DOTX format, it can be a regular document in the DOC or DOCX format. You need to insert some special fields called merge fields into this template in places where you want data from your data source to be later inserted. Or you can programmatically create a merge template using the [DocumentBuilder](https://reference.aspose.com/words/cpp/class/aspose.words.document_builder) class.
+There are several ways to create and design a merge template. You can use Microsoft Word, and the merge template does not have to be a Microsoft Word template, that is a document in the DOT or DOTX format, it can be a regular document in the DOC or DOCX format. You need to insert some special fields called merge fields into this template in places where you want data from your data source to be later inserted. Or you can programmatically create a merge template using the [DocumentBuilder](https://reference.aspose.com/words/cpp/aspose.words/documentbuilder/) class.
 
 The merge template contains the main text, which should be the same in all output documents after you perform the mail merge operation. You can use any format for your template if there is an ability to add merge fields to it. All merge fields within your template will be filled in from your data source during the mail merge operation.
 

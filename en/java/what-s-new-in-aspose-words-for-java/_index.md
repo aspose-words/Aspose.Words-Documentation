@@ -537,13 +537,13 @@ A new import mode for HTML block-level elements has been implemented to mimic Mi
 
 {{% alert color="primary" %}}
 
-Learn more about [Aspose.Words for Java 22.1 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-22-1-release-notes/).
+Learn more about [Aspose.Words for Java 22.1 Release Notes](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-1-release-notes/).
 
-Learn more about [Aspose.Words for Java 22.2 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-22-2-release-notes/).
+Learn more about [Aspose.Words for Java 22.2 Release Notes](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-2-release-notes/).
 
-Learn more about [Aspose.Words for Java 22.3 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-22-3-release-notes/).
+Learn more about [Aspose.Words for Java 22.3 Release Notes](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-3-release-notes/).
 
-Learn more about [Aspose.Words for Java 22.4 Release Notes](https://docs.aspose.com/words/java/aspose-words-for-java-22-4-release-notes/).
+Learn more about [Aspose.Words for Java 22.4 Release Notes](https://releases.aspose.com/words/java/release-notes/2022/aspose-words-for-java-22-4-release-notes/).
 
 {{% /alert %}}
 

@@ -47,7 +47,7 @@ You need to set the license:
 
 {{% alert color="primary" %}}
 
-You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family) page.
+You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family/) page.
 
 {{% /alert %}}
 
