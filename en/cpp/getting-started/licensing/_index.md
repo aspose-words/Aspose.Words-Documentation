@@ -46,7 +46,7 @@ You need to set the license:
 
 {{% alert color="primary" %}}
 
-You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family) page.
+You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family/) page.
 
 {{% /alert %}}
 
@@ -175,4 +175,4 @@ To solve the problem, rename the file to remove the invisible .xml extension. We
 If you use multiple Aspose products in your application, such as Aspose.Words and `Aspose.Cells`, here are a few useful tips:
 
 * Set the License for each Aspose product separately. Even if you have a single license file for all components, for example, "Aspose.Total.lic", you still need to call **SetLicense** separately for each Aspose product that you use in your application.
-* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/cpp/class/aspose.words.license) and `Aspose.Cells` has `Aspose.Cells`.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.
+* Use the Fully Qualified License Class Name. Each Aspose product has a **License** class in its own namespace. For example, Aspose.Words has [Aspose.Words.License](https://reference.aspose.com/words/cpp/aspose.words/license/) and `Aspose.Cells` has `Aspose.Cells`.License class. Using the fully qualified class name allows you to avoid confusion as to which license applies to which product.

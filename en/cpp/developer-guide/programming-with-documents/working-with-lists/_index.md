@@ -19,7 +19,7 @@ This topic describes how to work programmatically with lists using Aspose.Words.
 
 ## Specify Formatting for a List Level
 
-List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/cpp/class/aspose.words.lists.list_level) class to control the formatting of individual levels of a list.
+List-level objects are created automatically when a list is created. Use the properties and methods of the [ListLevel](https://reference.aspose.com/words/cpp/aspose.words.lists/listlevel/) class to control the formatting of individual levels of a list.
 
 ## Restart List for each Section
 

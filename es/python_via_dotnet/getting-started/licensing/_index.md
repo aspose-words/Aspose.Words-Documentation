@@ -47,7 +47,7 @@ Necesitas configurar la licencia:
 
 {{% alert color="primary" %}}
 
-Puede encontrar información sobre precios en la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family).
+Puede encontrar información sobre precios en la página ["Información de precio"](https://purchase.aspose.com/pricing/words/family/).
 
 {{% /alert %}}
 

@@ -9,7 +9,7 @@ weight: 10
 url: /sharepoint/installing-aspose-words-for-sharepoint-license/
 ---
 
-Once you are happy with your evaluation, you can [purchase a license](https://purchase.aspose.com/pricing/words/family). Before purchasing make sure you understand and agree to the license subscription terms. The license is emailed to you when the order has been paid. The license is a ZIP archive containing a regular SharePoint solution package. The archive contains:
+Once you are happy with your evaluation, you can [purchase a license](https://purchase.aspose.com/pricing/words/family/). Before purchasing make sure you understand and agree to the license subscription terms. The license is emailed to you when the order has been paid. The license is a ZIP archive containing a regular SharePoint solution package. The archive contains:
 
 - **Aspose.Words.SharePoint.License.wsp** – the SharePoint solution package file. The license is packaged as a SharePoint solution to make deployment and retraction across a server farm easy.
 - **readme.txt** – license installation instructions.

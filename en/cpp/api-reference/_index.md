@@ -1,4 +1,4 @@
-﻿---
+---
 title: API Reference
 second_title: Aspose.Words for C++
 articleTitle: API Reference
@@ -13,5 +13,5 @@ Aspose.Words for C++ is a native class library that enables your applications 
 
 Aspose.Words for C++ is written in C++. 
 
-Latest API Reference can be found at [Aspose.Words for C++ API Reference](https://reference.aspose.com/words/cpp).
+Latest API Reference can be found at [Aspose.Words for C++ API Reference](https://reference.aspose.com/words/cpp/).
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Extend and Contribute to CRM Quote Generator
 second_title: Aspose.Words for .NET
 articleTitle: Extend and Contribute to CRM Quote Generator
@@ -11,7 +11,7 @@ url: /net/extend-and-contribute-to-crm-quote-generator/
 
 You can download the latest source code at:
 
-- [CodePlex](https://www.microsoft.com/?p=asposenetcrm).
+- [CodePlex](https://www.microsoft.com/ru-ru/?p=asposenetcrm).
 - [GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/Dynamics%20CRM/Aspose%20.NET%20Quote%20Generator).
 
 Below code demonstrate the functionality to convert HTML to word and Attach Generated Quotation with Quote.
