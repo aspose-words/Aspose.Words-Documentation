@@ -17,7 +17,7 @@ En este artículo, cubriremos un escenario común para convertir un documento ca
 
 1. Únase al [Programa para desarrolladores Microsoft 365](https://developer.microsoft.com/en-us/microsoft-365/dev-program)
 2. Configure un [según el vídeo tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes) de zona de pruebas instantánea
-3. Cree credenciales basadas en aplicaciones para SharePoint Online como se detalla en ["Configurar una entidad principal solo para aplicaciones con permisos de inquilino"]()
+3. Cree credenciales basadas en aplicaciones para SharePoint Online como se detalla en ["Configurar una entidad principal solo para aplicaciones con permisos de inquilino"](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
 4. Cargue el documento con el nombre "TestDoc.docx" al sitio de comunicación raíz en la carpeta "Documentos compartidos".
 5. Compre una licencia Aspose.Words o utilice un [Licencia y suscripción](/words/es/net/licensing/)
 

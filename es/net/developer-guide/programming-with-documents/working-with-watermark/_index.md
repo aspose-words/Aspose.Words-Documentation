@@ -70,7 +70,7 @@ watermark.Name("WaterMark");
 
 ## Agregar una marca de agua a una celda de tabla
 
-A veces es necesario insertar una marca de agua/imagen en la celda de una tabla y mostrarla fuera de la tabla; puede usar la propiedad [IsLayoutInCell](). Esta propiedad obtiene o establece una bandera que indica si la forma se muestra dentro o fuera de una tabla. Tenga en cuenta que esta propiedad solo funciona cuando optimiza el documento para Microsoft Word 2010 utilizando el método [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/).
+A veces es necesario insertar una marca de agua/imagen en la celda de una tabla y mostrarla fuera de la tabla; puede usar la propiedad [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/). Esta propiedad obtiene o establece una bandera que indica si la forma se muestra dentro o fuera de una tabla. Tenga en cuenta que esta propiedad solo funciona cuando optimiza el documento para Microsoft Word 2010 utilizando el método [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/).
 
 El siguiente ejemplo de código muestra cómo utilizar esta propiedad:
 

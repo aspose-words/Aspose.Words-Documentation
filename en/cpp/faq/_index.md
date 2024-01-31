@@ -11,7 +11,7 @@ url: /cpp/faq/
 
 This page contains answers to the most frequently asked questions. Please learn the current page – perhaps this will allow you to solve your problem quickly.
 
-If you have not found the answer to your question, you can ask on the support forum. For information on how to properly report your question or problem, see the ["Technical Support"](/words/cpp/technical-support/) page.
+If you have not found the answer to your question, you can ask on the support forum. For information on how to properly report your question or problem, see the [Technical Support](/words/cpp/technical-support/) page.
 
 {{% alert color="primary" %}}
 
@@ -39,7 +39,7 @@ Aspose.Words for C++ does not need to install any third-party applications or ad
 
 Aspose.Words for C++ covers most of the popular development environments and deployment platforms. Its API can be used to develop applications for a wide range of operating systems such as Windows, Linux, and Mac OS, and various platforms.
 
-For details, see the ["Product Overview"](/words/cpp/product-overview/) page.
+For details, see the [Product Overview](/words/cpp/product-overview/) page.
 
 ------
 
@@ -47,7 +47,7 @@ For details, see the ["Product Overview"](/words/cpp/product-overview/) page.
 
 Aspose.Words for C++ supports most of the popular document formats such as DOC, DOCX, HTML, Markdown, PDF, XML, and others.
 
-You can see the complete list of supported formats on the ["Supported Document Formats"](/words/cpp/supported-document-formats/) page.
+You can see the complete list of supported formats on the [Supported Document Formats](/words/cpp/supported-document-formats/) page.
 
 ------
 
@@ -55,7 +55,7 @@ You can see the complete list of supported formats on the ["Supported Document F
 
 You can do this in two ways – using the Trial version or a 30-day Temporary License. The Trial version is the same as the purchased one, it provides full product functionality but adds an evaluative watermark at the top of the document when loading and saving and limits the maximum document size to a few hundred paragraphs. A Temporary License allows you to test Aspose.Words without Trial restrictions for 30 days.
 
-See the ["Licensing and Subscription"](/words/cpp/licensing/) page for more information.
+See the [Licensing and Subscription](/words/cpp/licensing/) page for more information.
 
 {{% alert color="primary" %}}
 
@@ -69,21 +69,21 @@ You can also try some of the most popular Aspose.Words features through the [Asp
 
 To buy an Aspose.Words license, you need to go to the [Purchase](https://purchase.aspose.com/buy) page, select the "Aspose.Words" product and the type of license that suits you. Then add the license to your cart and follow the Shopping Cart instructions.
 
-After purchasing, apply for the license as described in the ["Purchased License"](/words/cpp/licensing/#purchased-license) section.
+After purchasing, apply for the license as described in the [Purchased License](/words/cpp/licensing/#purchased-license) section.
 
-Details on how to install Aspose.Words can be read on the ["Installation"](/words/cpp/installation/) page.
+Details on how to install Aspose.Words can be read on the [Installation](/words/cpp/installation/) page.
 
 ------
 
 **Q: How can I get support?**
 
-Use the free technical support forum. For details on how to properly report a problem and what needs to be done before contacting the forum, see the ["Technical Support"](/words/cpp/technical-support/) page.
+Use the free technical support forum. For details on how to properly report a problem and what needs to be done before contacting the forum, see the [Technical Support](/words/cpp/technical-support/) page.
 
 ## Rendering a Document
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about rendering in the [“Rendering”](/words/cpp/rendering/) documentation section.
+You can find more detailed information about rendering in the [Rendering](/words/cpp/rendering/) documentation section.
 
 {{% /alert %}}
 
@@ -93,7 +93,7 @@ The font may not be available, or the font format is supported by Microsoft Word
 
 To check if the font is missing:
 
-- In Aspose.Words use the Font substitution warnings (for details, see the “How to Recognize That the Font Was Replaced” section of the [“Manipulate and Substitute TrueType Fonts”](/words/cpp/manipulate-and-substitute-truetype-fonts/) article).
+- In Aspose.Words use the Font substitution warnings (for details, see the “How to Recognize That the Font Was Replaced” section of the [Manipulate and Substitute TrueType Fonts](/words/cpp/manipulate-and-substitute-truetype-fonts/) article).
 - In Microsoft Word open the “Font Substitution” dialog box (File → Options → Advanced → Font Substitution).
 
 ------
@@ -120,7 +120,7 @@ Yes, you do. Therefore, when copying fonts, keep in mind that most fonts are cop
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about programming with documents in the [“Programming with Documents”](/words/cpp/programming-with-documents/) documentation section.
+You can find more detailed information about programming with documents in the [Programming with Documents](/words/cpp/programming-with-documents/) documentation section.
 
 {{% /alert %}}
 
@@ -132,7 +132,7 @@ The append result appears on a separate page because of a difference in [PageSet
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about converting a document in the [“Convert a Document”](/words/cpp/convert-a-document/) documentation section.
+You can find more detailed information about converting a document in the [Convert a Document](/words/cpp/convert-a-document/) documentation section.
 
 {{% /alert %}}
 
@@ -155,7 +155,7 @@ doc->Save(outputPath);
 
 {{% alert color="primary" %}}
 
-You can find more detailed information about programming with documents in the [“Programming with Documents”](/words/cpp/programming-with-documents/) documentation section.
+You can find more detailed information about programming with documents in the [Programming with Documents](/words/cpp/programming-with-documents/) documentation section.
 
 {{% /alert %}}
 

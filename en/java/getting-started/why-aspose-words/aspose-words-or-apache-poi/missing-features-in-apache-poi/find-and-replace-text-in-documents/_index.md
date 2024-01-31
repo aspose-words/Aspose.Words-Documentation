@@ -11,7 +11,7 @@ url: /java/find-and-replace-text-in-documents/
 
 {{% alert color="primary" %}}
 
-See more details in the ["Find and Replace"](/words/java/find-and-replace/) article.
+See more details in the [Find and Replace](/words/java/find-and-replace/) article.
 
 {{% /alert %}}
 

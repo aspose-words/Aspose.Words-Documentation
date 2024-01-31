@@ -70,7 +70,7 @@ watermark.Name("WaterMark");
 
 ## Add a Watermark into a Table Cell
 
-Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [IsLayoutInCell]() property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) method.
+Sometimes you need to insert a watermark/image into a table's cell and display it outside the table, you can use the [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/) property. This property gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. Note that this property works only when you optimize the document for Microsoft Word 2010 using the [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) method.
 
 The following code example shows how to use this property:
 

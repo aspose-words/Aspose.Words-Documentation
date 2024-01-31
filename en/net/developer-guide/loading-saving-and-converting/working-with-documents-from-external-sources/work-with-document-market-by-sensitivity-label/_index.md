@@ -418,4 +418,4 @@ As a result, the output file should be created with applied "Confidential.All Em
 
 ## See Also
 
-- The article [“Work with a Document Stored in a `SharePoint` Online"](/words/net/work-with-document-stored-in-sharepoint/)
+- The article [Work with a Document Stored in a `SharePoint` Online](/words/net/work-with-document-stored-in-sharepoint/)

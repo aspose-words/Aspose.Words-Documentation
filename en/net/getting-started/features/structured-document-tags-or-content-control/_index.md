@@ -28,6 +28,6 @@ Aspose.Words supports the creation of following types of Structured document tag
 - Date 
 - BuildingBlockGallery 
 - Group 
-- Picture 
+- `Picture`
 - RichText 
 - PlainText

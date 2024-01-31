@@ -19,7 +19,7 @@ You can add a watermark online by using the [Watermark Maker](https://products.a
 
 {{% alert color="primary" %}}
 
-See more details in the ["Working with Watermark"](/words/java/working-with-watermark/) article.
+See more details in the [Working with Watermark](/words/java/working-with-watermark/) article.
 
 {{% /alert %}}
 

@@ -43,7 +43,7 @@ The following code example shows how to convert a document:
 
 {{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "docx-to-pdf.py" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/python-net/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the [Loading, Saving and Converting](/words/python-net/loading-saving-and-converting/) section.
 
 ## High Fidelity
 

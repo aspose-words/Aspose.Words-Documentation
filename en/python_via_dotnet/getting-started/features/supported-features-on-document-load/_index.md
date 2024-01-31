@@ -16,6 +16,6 @@ Aspose.Words strives to support all features for all supported formats. Almost a
 
 {{% alert color="primary" %}}
 
-For more information and a description of the features available for the different formats, see the ["Supported Features on Document Load"](/words/net/supported-features-on-document-load/) section in the Aspose.Words for .NET documentation.
+For more information and a description of the features available for the different formats, see the [Supported Features on Document Load](/words/net/supported-features-on-document-load/) section in the Aspose.Words for .NET documentation.
 
 {{% /alert %}}

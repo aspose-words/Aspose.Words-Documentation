@@ -80,12 +80,12 @@ Using the **OptimizeOutput** property may affect the accuracy of content display
 
 ## See Also
 
-- The article [“Rendering"](/words/net/rendering/) for more information on the fixed-page and flow-layout formats
-- The article ["Converting to Fixed-page Format"](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
-- The article ["Specify Rendering Options When Converting to PDF"](/words/net/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class
-- The article ["Learn Features of Conversion to PDF/A and PDF/UA"](https://docs.aspose.com/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) describing which PDF standard and the relevant ISO for PDF standards support Aspose.Words
-- The article ["Which PDF Standard Is Better to Choose"](https://docs.aspose.com/words/net/which-pdf-standard-is-better-to-choose/) to determine which PDF standards make sense for which cases
+- The article [Rendering](/words/net/rendering/) for more information on the fixed-page and flow-layout formats
+- The article [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class
+- The article [Learn Features of Conversion to PDF/A and PDF/UA](https://docs.aspose.com/words/net/learn-features-of-conversion-to-pdf-a-pdf-ua/) describing which PDF standard and the relevant ISO for PDF standards support Aspose.Words
+- The article [Which PDF Standard Is Better to Choose](https://docs.aspose.com/words/net/which-pdf-standard-is-better-to-choose/) to determine which PDF standards make sense for which cases
 
-- The article ["Working with PDF/A or PDF/UA"](https://docs.aspose.com/words/net/working-with-pdfa-or-pdfua/) describes the requirements for the document content in PDF/A and PDF/UA formats – mainly the requirements for the structure and fonts
+- The article [Working with PDF/A or PDF/UA](https://docs.aspose.com/words/net/working-with-pdfa-or-pdfua/) describes the requirements for the document content in PDF/A and PDF/UA formats – mainly the requirements for the structure and fonts
 
-- The article ["Accessibility Issue Warnings When Saving to PDF/A and PDF/UA"](https://docs.aspose.com/words/net/warnings-when-saving-to-pdfa-and-pdfua/) describes what content accessibility requirements PDF/A and PDF/UA impose
+- The article [Accessibility Issue Warnings When Saving to PDF/A and PDF/UA](https://docs.aspose.com/words/net/warnings-when-saving-to-pdfa-and-pdfua/) describes what content accessibility requirements PDF/A and PDF/UA impose

@@ -33,7 +33,7 @@ This project is also useful for developers looking to migrate from Apache POI to
 
 {{% alert color="primary" %}}
 
-The project uses the evaluation version of Aspose.Words. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the ["Licensing and Subscription"](/words/java/licensing/) article to do this.
+The project uses the evaluation version of Aspose.Words. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the [Licensing and Subscription](/words/java/licensing/) article to do this.
 
 {{% /alert %}}
 

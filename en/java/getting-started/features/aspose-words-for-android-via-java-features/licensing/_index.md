@@ -13,7 +13,7 @@ Sometimes, in order to study the system better, you want to dive into the code a
 
 {{% alert color="primary" %}}
 
-Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the ["Purchase Policies and FAQ"](https://purchase.aspose.com/policies/) section.
+Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the [Purchase Policies and FAQ](https://purchase.aspose.com/policies/) section.
 
 {{% /alert %}}
 
@@ -52,13 +52,13 @@ You need to set the license:
 
 {{% alert color="primary" %}}
 
-You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family/) page.
+You can find pricing information on the [Pricing Information](https://purchase.aspose.com/pricing/words/family/) page.
 
 {{% /alert %}}
 
 ### Protecting Your Purchased License
 
-After purchasing a license, you need to carefully read the information on page ["Protecting Your Purchased License"](https://purchase.aspose.com/orders/protecting-your-license-file) to protect your license file. Please note that this page is available for viewing only if you have a paid license.
+After purchasing a license, you need to carefully read the information on page [Protecting Your Purchased License](https://purchase.aspose.com/orders/protecting-your-license-file) to protect your license file. Please note that this page is available for viewing only if you have a paid license.
 
 ### License Applying Options
 

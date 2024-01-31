@@ -38,7 +38,7 @@ You can also use the [SectionStart](https://reference.aspose.com/words/java/com.
 
 ## Manage a Section
 
-Since a section is a normal composite node, the entire node manipulation API can be used to manipulate sections: to add, remove, and other operations on sections. You can read more about nodes in the article ["Aspose.Words Document Object Model (DOM)"](/words/java/aspose-words-document-object-model/).
+Since a section is a normal composite node, the entire node manipulation API can be used to manipulate sections: to add, remove, and other operations on sections. You can read more about nodes in the article [Aspose.Words Document Object Model (DOM)](/words/java/aspose-words-document-object-model/).
 
 On the other hand, you can also use the `DocumentBuilder` API to work with sections. In this article, we will focus on this particular way of working with sections.
 
@@ -154,5 +154,5 @@ The following code example shows how to modify the page properties in all sectio
 
 ## See Also
 
-- [“Logical Levels of Nodes in a Document”](/words/java/logical-levels-of-nodes-in-a-document/)
-- [”Insert and Append Documents”](/words/java/insert-and-append-documents/)
+- [Logical Levels of Nodes in a Document](/words/java/logical-levels-of-nodes-in-a-document/)
+- [Insert and Append Documents](/words/java/insert-and-append-documents/)

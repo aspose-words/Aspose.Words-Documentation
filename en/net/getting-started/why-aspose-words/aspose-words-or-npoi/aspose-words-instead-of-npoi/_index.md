@@ -21,11 +21,11 @@ This section lists the environment and system requirements.
 
 ### Supported Operating Systems
 
-You can find the information on supported operating systems in the "Supported Operating Systems" section of the ["System Requirements"](/words/net/system-requirements/) article.
+You can find the information on supported operating systems in the "Supported Operating Systems" section of the [System Requirements](/words/net/system-requirements/) article.
 
 ### Supported Frameworks
 
-You can find the information on supported operating systems in the "Supported Frameworks, Specifications, and Implementations" section of the ["System Requirements"](/words/net/system-requirements/) article.
+You can find the information on supported operating systems in the "Supported Frameworks, Specifications, and Implementations" section of the [System Requirements](/words/net/system-requirements/) article.
 
 ## Download and Install the Latest Aspose.Words
 
@@ -44,13 +44,13 @@ You can find the information on how to install Aspose.Words for .NET on the[ "In
 
 ## Get Started with Aspose.Words
 
-After learning the ["Installation"](/words/net/installation/) page and completing the required steps, you are ready to start working with Aspose.Words.
+After learning the [Installation](/words/net/installation/) page and completing the required steps, you are ready to start working with Aspose.Words.
 
-Explore the ["Getting Started"](/words/net/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the ["Developer Guide"](/words/net/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
+Explore the [Getting Started](/words/net/getting-started/) section to familiarize yourself with the basic requirements and capabilities and the [Developer Guide](/words/net/developer-guide/) section to learn about various practical use cases – how to achieve a certain document appearance, how to apply a particular function, and so on.
 
 Some use cases can be implemented using NPOI, but many of the more regular tasks are easier and faster to implement using Aspose.Words.
 
-Aspose.Words provides source code examples for features missing in NPOI on the ["Features missing in NPOI"](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) page.
+Aspose.Words provides source code examples for features missing in NPOI on the [Features missing in NPOI](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/Aspose.WordsFeaturesmissinginNPOIv1.2) page.
 
 ## Technical Support
 

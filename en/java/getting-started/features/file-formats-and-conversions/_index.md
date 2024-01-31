@@ -39,7 +39,7 @@ The following code example shows how to convert a document:
 
 {{< gist "aspose-words-gists" "b237846932dfcde42358bd0c887661a5" "docx-to-pdf.java" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/java/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the [Loading, Saving and Converting](/words/java/loading-saving-and-converting/) section.
 
 ## High Fidelity
 
