@@ -112,7 +112,7 @@ The following code example shows how to clone the last row of a table and append
 
 {{< gist "aspose-words-gists" "aa87055754447c86ae5fb2d4766130f3" "clone-last-row.h" >}}
 
-If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions. You can learn more about this technique in the ["Mail Merge with Regions"](/words/cpp/types-of-mail-merge-operations/) section.
+If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions. You can learn more about this technique in the [Mail Merge with Regions](/words/cpp/types-of-mail-merge-operations/) section.
 
 ## Compare Ways to Create a Table
 

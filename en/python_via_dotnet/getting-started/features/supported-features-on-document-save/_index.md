@@ -20,6 +20,6 @@ Aspose.Words can convert a document of any size as long as there is sufficient w
 
 {{% alert color="primary" %}}
 
-For more information and a description of the features available for the different formats, see the ["Supported Features on Document Save"](/words/net/supported-features-on-document-save/) section in the Aspose.Words for .NET documentation.
+For more information and a description of the features available for the different formats, see the [Supported Features on Document Save](/words/net/supported-features-on-document-save/) section in the Aspose.Words for .NET documentation.
 
 {{% /alert %}}

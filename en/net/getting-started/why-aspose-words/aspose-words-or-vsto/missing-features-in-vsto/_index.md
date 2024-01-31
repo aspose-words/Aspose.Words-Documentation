@@ -23,9 +23,9 @@ The following table contains some of the popular features supported by Aspose.Wo
 
 | Aspose.Words feature                                         | Corresponding documentation article or section               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convert between Different Document Formats. For example, DOCX to DOC, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, and others | The [“Convert a Document”](/words/net/convert-a-document/) section |
-| Manipulate form fields                                       | The [“Working with Form Fields”](/words/net/working-with-form-fields/) article |
-| Manipulate tables                                            | The [“Working with Tables”](/words/net/working-with-tables/) section |
+| Convert between Different Document Formats. For example, DOCX to DOC, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, and others | The [Convert a Document](/words/net/convert-a-document/) section |
+| Manipulate form fields                                       | The [Working with Form Fields](/words/net/working-with-form-fields/) article |
+| Manipulate tables                                            | The [Working with Tables](/words/net/working-with-tables/) section |
 | And others                                                   |                                                              |
 
 The table is not complete, so you can check [our documentation](/words/net/) for the feature you are interested in.
@@ -34,7 +34,7 @@ The table is not complete, so you can check [our documentation](/words/net/) for
 
 Aspose.Words also provides source code examples for features missing in VSTO. You can find:
 
-- A list of such features on the [“Missing Features of VSTO”](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofVSTOv1.1) page
+- A list of such features on the [Missing Features of VSTO](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofVSTOv1.1) page
 - Aspose.Words source code examples in the [GitHub repository](https://github.com/asposemarketplace/Aspose_for_VSTO)
 
 {{% /alert %}}

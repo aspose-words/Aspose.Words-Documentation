@@ -126,7 +126,7 @@ You can download the sample file of this example from [Aspose.Words GitHub](http
 
 {{% /alert %}}
 
-If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions. You can learn more about this technique in the ["Mail Merge with Regions"](/words/java/types-of-mail-merge-operations/) section.
+If you are looking at creating tables in a document that grow dynamically with each record from your data source, then the above method is not advised. Instead, the desired output is more easily achieved by using Mail merge with regions. You can learn more about this technique in the [Mail Merge with Regions](/words/java/types-of-mail-merge-operations/) section.
 
 ## Compare Ways to Create a Table
 

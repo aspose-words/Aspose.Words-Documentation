@@ -90,4 +90,4 @@ The following is a fragment of an Office Open XML document:
 
 Have you ever wondered why standard XML classes such as XmlDocument do not offer to find and replace functionality? Implementing even a simple find and replace operation over an Office Open XML document yourself is far from easy. It might be that your boss will enjoy you code it yourself, but maybe not.
 
-Our advice: remember that open and standard does not mean simple and use Aspose.Words for such cases. As an example, you can study our article ["Find and Replace"](/words/net/find-and-replace/).
+Our advice: remember that open and standard does not mean simple and use Aspose.Words for such cases. As an example, you can study our article [Find and Replace](/words/net/find-and-replace/).

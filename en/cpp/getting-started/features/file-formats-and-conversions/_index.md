@@ -30,7 +30,7 @@ The following code example shows how to convert a document:
 
 {{< gist "aspose-words-gists" "b9784b73e288805e08fba6e3fc5ae2af" "docx-to-pdf.h" >}}
 
-For more details on loading, converting, and saving documents, see the ["Loading, Saving and Converting"](/words/cpp/loading-saving-and-converting/) section.
+For more details on loading, converting, and saving documents, see the [Loading, Saving and Converting](/words/cpp/loading-saving-and-converting/) section.
 
 ## High Fidelity
 

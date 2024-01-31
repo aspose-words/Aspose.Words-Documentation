@@ -66,6 +66,6 @@ To make this code work, you need to add references to Aspose.Words and `System.D
 
 ## See Also
 
-- The article [“Rendering"](/words/cpp/rendering/) for more information on the fixed-page and flow-layout formats
-- The article ["Converting to Fixed-page Format"](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
-- The article ["Specify Rendering Options When Converting to PDF"](/words/cpp/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class
+- The article [Rendering](/words/cpp/rendering/) for more information on the fixed-page and flow-layout formats
+- The article [Converting to Fixed-page Format](/words/cpp/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article [Specify Rendering Options When Converting to PDF](/words/cpp/specify-rendering-options-when-converting-to-pdf/) for more information on using the `PdfSaveOptions` class

@@ -14,7 +14,7 @@ Sometimes, in order to study the system better, you want to dive into the code a
 
 {{% alert color="primary" %}}
 
-Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the ["Purchase Policies and FAQ"](https://purchase.aspose.com/policies/) section.
+Note that there are a number of general policies and practices that guide you on how to evaluate, properly license, and purchase our products. You can find them in the [Purchase Policies and FAQ](https://purchase.aspose.com/policies/) section.
 
 {{% /alert %}}
 
@@ -30,7 +30,7 @@ The Trial version of Aspose.Words for Java and Aspose.Words for Android via Java
 
 ### Temporary License
 
-If you wish to test Aspose.Words for Java and Aspose.Words for Android via Java without the limitations of the Trial version, you can also request a 30-day Temporary License. For more details, see the ["Get a Temporary License"](https://purchase.aspose.com/temporary-license/) page.
+If you wish to test Aspose.Words for Java and Aspose.Words for Android via Java without the limitations of the Trial version, you can also request a 30-day Temporary License. For more details, see the [Get a Temporary License](https://purchase.aspose.com/temporary-license/) page.
 
 ## Purchased License
 
@@ -55,13 +55,13 @@ You need to set the license:
 
 {{% alert color="primary" %}}
 
-You can find pricing information on the [“Pricing Information”](https://purchase.aspose.com/pricing/words/family/) page.
+You can find pricing information on the [Pricing Information](https://purchase.aspose.com/pricing/words/family/) page.
 
 {{% /alert %}}
 
 ### Protecting Your Purchased License
 
-After purchasing a license, you need to carefully read the information on page ["Protecting Your Purchased License"](https://purchase.aspose.com/orders/protecting-your-license-file) to protect your license file. Please note that this page is available for viewing only if you have a paid license.
+After purchasing a license, you need to carefully read the information on page [Protecting Your Purchased License](https://purchase.aspose.com/orders/protecting-your-license-file) to protect your license file. Please note that this page is available for viewing only if you have a paid license.
 
 ### License Applying Options
 
@@ -134,7 +134,7 @@ The following code example shows how to set metered public and private keys:
 
 Please note that you must have a stable Internet connection for the correct use of the Metered license, since the Metered mechanism requires the constant interaction with our services for correct calculations. 
 
-For more details, refer to the [“Metered Licensing FAQ”](https://purchase.aspose.com/faqs/licensing/metered/) section.
+For more details, refer to the [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered/) section.
 
 {{% /alert %}}
 

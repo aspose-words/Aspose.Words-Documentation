@@ -74,7 +74,7 @@ After the page layout is built and the geometry of objects and their position on
 
 - The number and range of pages contained in the output document ([page_set](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/page_set/)).
 - A set of characters that are used to numbers rendering ([numeral_format](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/numeral_format/)).
-- A metafile player ([metafile_rendering_options](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_options/)). For more details, see the ["Handling Windows Metafiles"](/words/python-net/handling-windows-metafiles/) article.
+- A metafile player ([metafile_rendering_options](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/metafile_rendering_options/)). For more details, see the [Handling Windows Metafiles](/words/python-net/handling-windows-metafiles/) article.
 - A quality rate for recompressing JPEG images, the value of which may differ slightly, depending on the selected save format ([jpeg_quality](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/jpeg_quality/)).
 - Optimization of vector graphics in Aspose.Words output ([optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/)).
 - Graphics options when saving to Tiff, Png, Bmp, Jpeg, Emf formats ([use_anti_aliasing](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_anti_aliasing/), [use_high_quality_rendering](https://reference.aspose.com/words/python-net/aspose.words.saving/saveoptions/use_high_quality_rendering/)).

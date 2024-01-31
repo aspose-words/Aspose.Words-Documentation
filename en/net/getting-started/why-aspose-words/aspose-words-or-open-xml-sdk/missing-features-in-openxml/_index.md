@@ -41,16 +41,16 @@ The following table contains some of the popular features supported by Aspose.Wo
 
 | Aspose.Words feature                                         | Corresponding documentation article or section               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Convert between Different Document Formats. For example, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [“Convert a Document”](/words/net/convert-a-document/) section |
-| Mail Merge                                                   | The [”Mail Merge and Reporting”](/words/net/mail-merge-and-reporting/) section |
-| Rendering | The [”Rendering”](/words/net/rendering/) section |
-| Print a document                                             | The [”Printing a Document Programmatically or Using Dialogs”](/words/net/print-a-document-programmatically-or-using-dialogs/) article |
-| Join multiple documents, including combine formatting of documents when importing content | The ["Insert and Append Documents"](/words/net/insert-and-append-documents/) article |
-| Find and Replace                                             | The [“Find and Replace”](/words/net/find-and-replace/) article |
-| Updating fields                                              | The [“Working with Fields”](/words/net/working-with-fields/) section |
-| Manage a Table of Content (TOC)                              | The [“Working with Table of Contents”](/words/net/working-with-table-of-contents/) article |
-| Manipulate form fields                                       | The [“Working with Form Fields”](/words/net/working-with-form-fields/) article |
-| Manipulate tables                                            | The [“Working with Tables”](/words/net/working-with-tables/) section |
+| Convert between Different Document Formats. For example, Word to PDF,  HTML to Markdown, DOCX to JPG, PDF to Word, Image to PDF, and others | The [Convert a Document](/words/net/convert-a-document/) section |
+| Mail Merge                                                   | The [Mail Merge and Reporting](/words/net/mail-merge-and-reporting/) section |
+| Rendering | The [Rendering in Aspose.Words](/words/net/rendering/) section |
+| Print a document                                             | The [Printing a Document Programmatically or Using Dialogs](/words/net/print-a-document-programmatically-or-using-dialogs/) article |
+| Join multiple documents, including combine formatting of documents when importing content | The [Insert and Append Documents](/words/net/insert-and-append-documents/) article |
+| Find and Replace                                             | The [Find and Replace](/words/net/find-and-replace/) article |
+| Updating fields                                              | The [Working with Fields](/words/net/working-with-fields/) section |
+| Manage a Table of Content (TOC)                              | The [Working with Table of Contents](/words/net/working-with-table-of-contents/) article |
+| Manipulate form fields                                       | The [Working with Form Fields](/words/net/working-with-form-fields/) article |
+| Manipulate tables                                            | The [Working with Tables](/words/net/working-with-tables/) section |
 | And others                                                   |                                                              |
 
 The table is not complete, so you can check [our documentation](/words/net/) for the feature you are interested in.
@@ -59,7 +59,7 @@ The table is not complete, so you can check [our documentation](/words/net/) for
 
 Aspose.Words also provides source code examples for features missing in Open XML SDK. You can find:
 
-* A list of such features on the [“Missing Features of Open XML SDK Words”](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1) page
+* A list of such features on the [Missing Features of Open XML SDK Words](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/tag/MissingFeaturesofOpenXMLWordsv1.1) page
 * Aspose.Words source code examples in the [GitHub repository](https://github.com/asposemarketplace/Aspose_for_OpenXML)
 
 {{% /alert %}}

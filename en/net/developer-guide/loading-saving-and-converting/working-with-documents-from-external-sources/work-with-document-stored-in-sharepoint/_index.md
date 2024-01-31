@@ -17,7 +17,7 @@ In this article, we will cover a common scenario for converting a document uploa
 
 1. Join the [Microsoft 365 Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)
 2. Set up an instant sandbox [according to the video tutorial](https://www.youtube.com/watch?v=ojQcS9ZQmes)
-3. Create app-based credentials for SharePoint Online as detailed in ["Setting up an app-only principal with tenant permissions"]()
+3. Create app-based credentials for SharePoint Online as detailed in [Setting up an app-only principal with tenant permissions](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azureacs)
 4. Upload the document with the name "TestDoc.docx" to the root communication site into the "Shared Documents" folder
 5. Purchase Aspose.Words license, or use a [Free Trial or a 30-day Temporary License](/words/net/licensing/)
 
@@ -265,6 +265,6 @@ As a result, the "TestDoc.pdf" file should be placed in the "Shared Documents" f
 
 ## See Also
 
-- The article [“Rendering"](/words/net/rendering/) for more information on the fixed-page and flow-layout formats
-- The article ["Converting to Fixed-page Format"](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
-- The article ["Specify Rendering Options When Converting to PDF"](/words/net/specify-rendering-options-when-converting-to-pdf/) for more information on using the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class
+- The article [Rendering](/words/net/rendering/) for more information on the fixed-page and flow-layout formats
+- The article [Converting to Fixed-page Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) for more information on the page layout
+- The article [Specify Rendering Options When Converting to PDF](/words/net/specify-rendering-options-when-converting-to-pdf/) for more information on using the [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) class

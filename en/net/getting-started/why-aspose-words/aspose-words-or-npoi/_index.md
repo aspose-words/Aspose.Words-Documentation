@@ -36,7 +36,7 @@ This project is also useful for developers looking to migrate from NPOI to Aspos
 
 Explore [the plugin with source code examples of Aspose.Words for .NET features in comparison with NPOI](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Plugins/NPOI).
 
-This plugin uses the evaluation version of Aspose.Words. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the ["Licensing and Subscription"](/words/net/licensing/) article to do this.
+This plugin uses the evaluation version of Aspose.Words. When you are happy with your evaluation, you can purchase a license from the [Aspose website](https://purchase.aspose.com/buy). To remove the evaluation message and feature limitations, you must apply a product license. After purchasing the product, you will receive a license file. Please follow the instructions in the [Licensing and Subscription](/words/net/licensing/) article to do this.
 
 {{% /alert %}}
 

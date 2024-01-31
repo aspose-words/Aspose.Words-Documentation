@@ -28,7 +28,7 @@ In this version of Aspose.Words, the following types of SDT or content control c
 - Date
 - BuildingBlockGallery
 - Group
-- Picture
+- `Picture`
 - RichText
 - PlainText
 

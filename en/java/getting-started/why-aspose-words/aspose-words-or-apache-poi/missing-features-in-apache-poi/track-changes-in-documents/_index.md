@@ -11,7 +11,7 @@ url: /java/track-changes-in-documents/
 
 {{% alert color="primary" %}}
 
-See more details in the ["Track Changes in a Document"](/words/java/track-changes-in-a-document/) article.
+See more details in the [Track Changes in a Document](/words/java/track-changes-in-a-document/) article.
 
 {{% /alert %}}
 
