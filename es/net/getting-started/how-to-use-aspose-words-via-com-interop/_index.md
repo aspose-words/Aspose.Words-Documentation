@@ -12,13 +12,13 @@ url: /es/net/how-to-use-aspose-words-via-com-interop/
 La información de este tema se aplica a escenarios en los que desea utilizar Aspose.Words para .NET a través de COM Interop en cualquiera de los siguientes lenguajes de programación:
 
 - ASP
-- Delfos ([Ejemplo](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/ReleasePreparation/Showcases/Aspose_Words_for_NET_via_COM_Delphi))
--JScript
+- Delphi ([Ejemplo](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/ReleasePreparation/Showcases/Aspose_Words_for_NET_via_COM_Delphi))
+- JScript
 - Perl
 - PHP
 - PowerBuilder
 - Python
--VBScript
+- VBScript
 - Visual Basic
 
 ## Trabajar con COM Interop

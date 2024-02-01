@@ -48,7 +48,7 @@ The following files are used in the example above. The file name is on the left 
 |Group of Files|Input Document|Type|
 | :- | :- | :- |
 |Supported file formats|Test File (Doc).doc|Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 document.|
-| |Test File (Dot).dot|Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 template.|
+| |Test File (`Dot`).dot|Microsoft Word 95/6.0 or Microsoft Word 97 – 2003 template.|
 | |Test File (Docx).docx|Office Open XML WordprocessingML document without macros.|
 | |Test File (Docm).docm|Office Open XML WordprocessingML document with macros.|
 | |Test File (Dotx).dotx|Office Open XML WordprocessingML template.|
