@@ -29,7 +29,7 @@ El siguiente ejemplo de código muestra cómo configurar el japonés como **Edit
 
 {{< gist "aspose-words-gists" "5d49772a182a61eac0dcb9c13c98bc6e" "load-docx-with-japanese-as-editing-language.cs" >}}
 
-## Utilice AdvertenciaCallback para controlar problemas al cargar un documento
+## Utilice WarningCallback para controlar problemas al cargar un documento
 
 Algunos documentos pueden estar dañados, contener entradas no válidas o tener funciones que Aspose.Words no admite actualmente. Si desea conocer los problemas que ocurrieron al cargar un documento, Aspose.Words proporciona la interfaz [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/).
 

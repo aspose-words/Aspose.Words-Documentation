@@ -20,7 +20,7 @@ El siguiente diagrama muestra cómo se almacena el campo `IF` en un documento:
 
 ![update-remove-a-field-aspose-words](/words/net/replace-fields/updating-and-removing-a-field-1.png)
 
-La estructura también se puede ver a continuación en forma jerárquica usando el [proyecto de demostración *"DocumentExplorer"*](https://github.com/aspose-words/Aspose.Words-for-.NET)*.*
+La estructura también se puede ver a continuación en forma jerárquica usando el [proyecto de demostración DocumentExplorer](https://github.com/aspose-words/Aspose.Words-for-.NET)*.*
 
 ![update-remove-a-field-aspose-words-2](/words/net/replace-fields/updating-and-removing-a-field-2.png)
 

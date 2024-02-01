@@ -57,53 +57,53 @@ Sin embargo, hay situaciones en las que no se puede encontrar la fuente exacta y
 1. Aspose.Words intenta encontrar la fuente requerida entre las fuentes incrustadas en el documento original. Algunos formatos de documentos, como DOCX, pueden contener fuentes incrustadas.
 1. Si Aspose.Words no puede localizar la fuente requerida con el nombre exacto que coincide y la propiedad [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) definida para esta fuente, entonces Aspose.Words encontrará la fuente definida con [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) de la clase [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/), que especifica la información de la fuente.
 1. Si Aspose.Words no puede ubicar la fuente definida y [alt_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/alt_name/) tampoco está definido, entonces las reglas de sustitución de fuentes se aplican una por una, como se describe a continuación (cuando se encuentra el reemplazo adecuado, el proceso de sustitución de fuentes se detiene y el el siguiente paso no se ejecuta):
-  1. Primero, Aspose.Words intenta procesar el nombre de la fuente para obtener la sustitución, en particular intenta eliminar los sufijos con separadores "-" y ",".<br>
-     Si se aplica esta regla de sustitución, no se ha encontrado una "fuente '&lt;OriginalFont&gt;'. En su lugar se utiliza la fuente '&lt;SubstitutionFont&gt;'. Motivo: sustitución del nombre de la fuente". Aparece una advertencia.<br>
-  1. Luego, Aspose.Words intenta aplicar la configuración de fuente del sistema operativo, si está disponible, utilizando la utilidad **FontConfig**. Esta función no Windows debe usarse con un sistema operativo compatible con FontConfig. Casi cualquier sistema operativo basado en Unix ya tiene una biblioteca `FontConfig` diseñada para proporcionar configuración de fuentes, personalización y acceso a aplicaciones en todo el sistema. De lo contrario, el usuario puede instalar fácilmente esta biblioteca.
-     Aspose.Words sabe cómo consultar datos e interpretar los resultados de FontConfig para sus propios fines. De forma predeterminada, la utilidad `FontConfig` está deshabilitada. Puedes habilitarlo de la siguiente manera:<br>
+	1. Primero, Aspose.Words intenta procesar el nombre de la fuente para obtener la sustitución, en particular intenta eliminar los sufijos con separadores "-" y ",".<br>
+	Si se aplica esta regla de sustitución, no se ha encontrado una "fuente '&lt;OriginalFont&gt;'. En su lugar se utiliza la fuente '&lt;SubstitutionFont&gt;'. Motivo: sustitución del nombre de la fuente". Aparece una advertencia.<br>
+	1. Luego, Aspose.Words intenta aplicar la configuración de fuente del sistema operativo, si está disponible, utilizando la utilidad **FontConfig**. Esta función no Windows debe usarse con un sistema operativo compatible con FontConfig. Casi cualquier sistema operativo basado en Unix ya tiene una biblioteca `FontConfig` diseñada para proporcionar configuración de fuentes, personalización y acceso a aplicaciones en todo el sistema. De lo contrario, el usuario puede instalar fácilmente esta biblioteca.
+	Aspose.Words sabe cómo consultar datos e interpretar los resultados de FontConfig para sus propios fines. De forma predeterminada, la utilidad `FontConfig` está deshabilitada. Puedes habilitarlo de la siguiente manera:<br>
 {{< highlight python >}}
 fontSettings.substitution_settings.font_config_substitution.enabled = True
 {{< /highlight >}}
-  1. El siguiente paso utiliza un mecanismo simple pero poderoso llamado regla de sustitución **Table**. De forma predeterminada, esta función está activa y disponible para el sistema operativo determinado. Aspose.Words sustituirá la fuente con esta regla si no se sustituye con la regla de sustitución `FontConfig`.<br>
-     Aspose.Words utiliza tablas XML, que definen las reglas básicas de sustitución para diferentes sistemas operativos. De acuerdo con la regla de sustitución de tablas, se utilizará la lista de nombres de fuentes sustitutas.<br>
-     **XML**<br>
-{{< highlight html >}}
-<TableSubstitutionSettings xmlns="Aspose.Words"> 
-<SubstitutesTable> 
-<Item OriginalFont="Arabic Transparent" SubstituteFonts="Arial" /> 
-… 
-</SubstitutesTable> 
-</TableSubstitutionSettings>
-{{< /highlight >}}
-     La característica principal de esta regla es la capacidad de cargar sus propias tablas de sustitución, como se muestra en el siguiente ejemplo:<br>
-{{< highlight python >}}
-fontSettings.substitution_settings.table_substitution.load("Table.xml")
-{{< /highlight >}}
-     A pesar de la flexibilidad de este mecanismo, hay algunos casos en los que es mejor desactivarlo, como se muestra a continuación:<br>
-{{< highlight python >}}
-fontSettings.substitution_settings.table_substitution.enabled = False
-{{< /highlight >}}
-  1. Se aplicará la regla de sustitución [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) si la regla de sustitución de la tabla no puede encontrar la fuente. Este mecanismo está habilitado de forma predeterminada. Aspose.Words encuentra la fuente más adecuada según la información de fuente contenida en un documento en particular. Esta información se puede obtener de la clase [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) como se muestra a continuación:<br>
-{{< highlight python >}}
-fontInfos = doc.font_infos
-{{< /highlight >}}
-     Los usuarios no pueden interferir en el flujo de trabajo de esta función, a menos que decidan desactivarla en caso de resultados insatisfactorios:<br>
-{{< highlight python >}}
-fontSettings.substitution_settings.font_info_substitution.enabled = False
-{{< /highlight >}}
-     Si [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) no está disponible para la fuente que falta, el proceso se detiene.<br>
-  1. La regla de sustitución [DefaultFont](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/) se aplicará en el caso de que la sustitución `FontInfo` también haya fallado. Esta regla también está habilitada de forma predeterminada. Según esta regla, Aspose.Words intentará utilizar la fuente predeterminada especificada en la propiedad [default_font_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_name/). Si el usuario no ha elegido su propia fuente predeterminada, se utilizará "Times New Roman" como fuente predeterminada. Esta regla se puede desactivar como se muestra a continuación:<br>
-{{< highlight python >}}
-fontSettings.substitution_settings.default_font_substitution.enabled = False
-{{< /highlight >}}
-     Para verificar la fuente predeterminada actual, use:<br>
-{{< highlight python >}}
-fontSettings.substitution_settings.default_font_substitution.default_font_name
-{{< /highlight >}}
-     Para configurar su propia opción de reemplazo, solicite:<br>
-{{< highlight python >}}
-fontSettings.substitution_settings.default_font_substitution.default_font_name = "Arial"
-{{< /highlight >}}
+	1. El siguiente paso utiliza un mecanismo simple pero poderoso llamado regla de sustitución **Table**. De forma predeterminada, esta función está activa y disponible para el sistema operativo determinado. Aspose.Words sustituirá la fuente con esta regla si no se sustituye con la regla de sustitución `FontConfig`.<br>
+	Aspose.Words utiliza tablas XML, que definen las reglas básicas de sustitución para diferentes sistemas operativos. De acuerdo con la regla de sustitución de tablas, se utilizará la lista de nombres de fuentes sustitutas.<br>
+	**XML**<br>
+	{{< highlight html >}}
+	<TableSubstitutionSettings xmlns="Aspose.Words"> 
+		<SubstitutesTable> 
+		<Item OriginalFont="Arabic Transparent" SubstituteFonts="Arial" /> 
+		… 
+		</SubstitutesTable> 
+	</TableSubstitutionSettings>
+	{{< /highlight >}}
+	La característica principal de esta regla es la capacidad de cargar sus propias tablas de sustitución, como se muestra en el siguiente ejemplo:<br>
+	{{< highlight python >}}
+	fontSettings.substitution_settings.table_substitution.load("Table.xml")
+	{{< /highlight >}}
+	A pesar de la flexibilidad de este mecanismo, hay algunos casos en los que es mejor desactivarlo, como se muestra a continuación:<br>
+	{{< highlight python >}}
+	fontSettings.substitution_settings.table_substitution.enabled = False
+	{{< /highlight >}}
+	1. Se aplicará la regla de sustitución [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) si la regla de sustitución de la tabla no puede encontrar la fuente. Este mecanismo está habilitado de forma predeterminada. Aspose.Words encuentra la fuente más adecuada según la información de fuente contenida en un documento en particular. Esta información se puede obtener de la clase [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) como se muestra a continuación:<br>
+	{{< highlight python >}}
+	fontInfos = doc.font_infos
+	{{< /highlight >}}
+	Los usuarios no pueden interferir en el flujo de trabajo de esta función, a menos que decidan desactivarla en caso de resultados insatisfactorios:<br>
+	{{< highlight python >}}
+	fontSettings.substitution_settings.font_info_substitution.enabled = False
+	{{< /highlight >}}
+	Si [FontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfo/) no está disponible para la fuente que falta, el proceso se detiene.<br>
+	1. La regla de sustitución [DefaultFont](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/) se aplicará en el caso de que la sustitución `FontInfo` también haya fallado. Esta regla también está habilitada de forma predeterminada. Según esta regla, Aspose.Words intentará utilizar la fuente predeterminada especificada en la propiedad [default_font_name](https://reference.aspose.com/words/python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_name/). Si el usuario no ha elegido su propia fuente predeterminada, se utilizará "Times New Roman" como fuente predeterminada. Esta regla se puede desactivar como se muestra a continuación:<br>
+	{{< highlight python >}}
+	fontSettings.substitution_settings.default_font_substitution.enabled = False
+	{{< /highlight >}}
+	Para verificar la fuente predeterminada actual, use:<br>
+	{{< highlight python >}}
+	fontSettings.substitution_settings.default_font_substitution.default_font_name
+	{{< /highlight >}}
+	Para configurar su propia opción de reemplazo, solicite:<br>
+	{{< highlight python >}}
+	fontSettings.substitution_settings.default_font_substitution.default_font_name = "Arial"
+	{{< /highlight >}}
 1. Si Aspose.Words no puede realizar la sustitución de fuentes, intenta obtener la primera fuente disponible de las fuentes de fuentes disponibles.
 1. Finalmente, si Aspose.Words no puede encontrar ninguna fuente entre las fuentes de fuentes disponibles, procesa el documento utilizando la fuente Fanwood gratuita que está integrada en el paquete Aspose.Words.<br>
 

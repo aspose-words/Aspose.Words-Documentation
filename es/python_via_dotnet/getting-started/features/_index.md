@@ -33,16 +33,16 @@ Muchos clientes de todo el mundo confían en las completas funciones de importac
 
 |  Característica | Descripción | Python via .NET |
 |  :-  |  :-  |  :-  |
-| Palabra Microsoft - DOC | La implementación de formato DOC más rápida y completa que puedas encontrar. | {{< emoticons/tick >}} |
-| Procesamiento de textosML - DOCX y XML | Aspose.Words proporciona soporte exhaustivo para OOXML, Flat OPC y también Word 2003 XML. | {{< emoticons/tick >}} |
-| Formato de texto enriquecido: RTF | Soporte integral del formato RTF para interactuar con una variedad de aplicaciones. | {{< emoticons/tick >}} |
-| HTML, XHTML y MHTML | Cargue y guarde HTML/XHTML para una interoperabilidad aún mayor. Guardar como MHTML también está disponible. | {{< emoticons/tick >}} |
-| Documento abierto - ODT | Aspose.Words puede cargar y guardar documentos en formato `OpenDocument` Text (.odt). | {{< emoticons/tick >}} |
-| Formato de documento portátil de Adobe: PDF | Convierte cualquier documento a PDF con alta fidelidad. Se admite PDF/A. | {{< emoticons/tick >}} |
-| Especificación de papel XML: XPS | Convierta cualquier documento a XPS con alta fidelidad. | {{< emoticons/tick >}} |
-| Texto sin formato - TXT | Extraiga texto fácilmente guardándolo en formato de texto sin formato. | {{< emoticons/tick >}} |
-| Publicación digital EPUB | EPUB es un formato popular para libros electrónicos. Puede convertir cualquier documento de Aspose.Words al formato IDPF EPUB. | {{< emoticons/tick >}} |
-| Lenguaje de comandos de impresora (PCL) | Aspose.Words para .NET brinda soporte para guardar documentos en formato PCL. | {{< emoticons/tick >}} |
+| `Microsoft Word - DOC` | La implementación de formato DOC más rápida y completa que puedas encontrar. | {{< emoticons/tick >}} |
+| `WordprocessingML - DOCX and XML` | Aspose.Words proporciona soporte exhaustivo para OOXML, Flat OPC y también Word 2003 XML. | {{< emoticons/tick >}} |
+| `Rich Text Format - RTF` | Soporte integral del formato RTF para interactuar con una variedad de aplicaciones. | {{< emoticons/tick >}} |
+| `HTML, XHTML and MHTML` | Cargue y guarde HTML/XHTML para una interoperabilidad aún mayor. Guardar como MHTML también está disponible. | {{< emoticons/tick >}} |
+| `OpenDocument - ODT` | Aspose.Words puede cargar y guardar documentos en formato `OpenDocument` Text (.odt). | {{< emoticons/tick >}} |
+| `Adobe Portable Document Format - PDF` | Convierte cualquier documento a PDF con alta fidelidad. Se admite PDF/A. | {{< emoticons/tick >}} |
+| `XML Paper Specification - XPS` | Convierta cualquier documento a XPS con alta fidelidad. | {{< emoticons/tick >}} |
+| `Plain Text - TXT` | Extraiga texto fácilmente guardándolo en formato de texto sin formato. | {{< emoticons/tick >}} |
+| `Digital Publishing EPUB` | EPUB es un formato popular para libros electrónicos. Puede convertir cualquier documento de Aspose.Words al formato IDPF EPUB. | {{< emoticons/tick >}} |
+| `Printer Command Language (PCL)` | Aspose.Words para .NET brinda soporte para guardar documentos en formato PCL. | {{< emoticons/tick >}} |
 
 ## Representación e impresión
 

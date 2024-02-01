@@ -48,7 +48,7 @@ Los siguientes archivos se utilizan en el ejemplo anterior. El nombre del archiv
 | Grupo de archivos | Documento de entrada | Tipo |
 |  :-  |  :-  |  :-  |
 | Formatos de archivo admitidos | Archivo de prueba (Doc).doc | Documento Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
-| | Archivo de prueba (punto).dot | Plantilla Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
+| | Archivo de prueba (Dot).dot | Plantilla Microsoft Word 95/6.0 o Microsoft Word 97 – 2003. |
 | | Archivo de prueba (Docx).docx | Documento Office Open XML WordprocessingML sin macros. |
 | | Archivo de prueba (Docm).docm | Office Open XML WordprocessingML documento con macros. |
 | | Archivo de prueba (Dotx).dotx | Plantilla Office Open XML WordprocessingML. |
