@@ -37,7 +37,7 @@ El siguiente ejemplo de código muestra cómo importar un estilo de un documento
 
 ## Aplicar un estilo de tabla existente
 
-Aspose.Words proporciona un [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) heredado de la clase [Style](https://reference.aspose.com/words/net/aspose.words/style/). **TableStyle** facilita al usuario aplicar diferentes opciones de estilo como sombreado, relleno, sangría, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle//cellspacing/) y [Font](https://reference.aspose.com/words/net/aspose.words/style/font/), etc.
+Aspose.Words proporciona un [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) heredado de la clase [Style](https://reference.aspose.com/words/net/aspose.words/style/). **TableStyle** facilita al usuario aplicar diferentes opciones de estilo como sombreado, relleno, sangría, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) y [Font](https://reference.aspose.com/words/net/aspose.words/style/font/), etc.
 
 Además, Aspose.Words proporciona la clase [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) y algunas propiedades de la clase `Table` para especificar con qué estilo de tabla trabajaremos: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/) y [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
 

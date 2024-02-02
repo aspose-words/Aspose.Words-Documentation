@@ -37,7 +37,7 @@ The following code example shows how to import a style from one document to anot
 
 ## Apply an Existing Table Style
 
-Aspose.Words provides a [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) inherited from the [Style](https://reference.aspose.com/words/net/aspose.words/style/) class. **TableStyle** facilitates the user to apply different style options like as shading, padding, indentation, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle//cellspacing/) and [Font](https://reference.aspose.com/words/net/aspose.words/style/font/), etc.
+Aspose.Words provides a [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) inherited from the [Style](https://reference.aspose.com/words/net/aspose.words/style/) class. **TableStyle** facilitates the user to apply different style options like as shading, padding, indentation, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) and [Font](https://reference.aspose.com/words/net/aspose.words/style/font/), etc.
 
 In addition, Aspose.Words provides the [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) class and a few properties of the `Table` class to specify which table style we will work with: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/), and [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
 

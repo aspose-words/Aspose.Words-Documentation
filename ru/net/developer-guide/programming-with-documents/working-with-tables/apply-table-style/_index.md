@@ -37,7 +37,7 @@ Aspose.Words поддерживает применение стиля табли
 
 ## Применение существующего стиля таблицы
 
-Aspose.Words представляет собой [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/), унаследованный от класса [Style](https://reference.aspose.com/words/net/aspose.words/style/). **TableStyle** позволяет пользователю применять различные параметры стиля, такие как затенение, отступы, отступы, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle//cellspacing/) и [Font](https://reference.aspose.com/words/net/aspose.words/style/font/) и т.д.
+Aspose.Words представляет собой [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/), унаследованный от класса [Style](https://reference.aspose.com/words/net/aspose.words/style/). **TableStyle** позволяет пользователю применять различные параметры стиля, такие как затенение, отступы, отступы, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) и [Font](https://reference.aspose.com/words/net/aspose.words/style/font/) и т.д.
 
 Кроме того, Aspose.Words предоставляет класс [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) и несколько свойств класса `Table`, позволяющие указать, с каким стилем таблицы мы будем работать: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/) и [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
 
