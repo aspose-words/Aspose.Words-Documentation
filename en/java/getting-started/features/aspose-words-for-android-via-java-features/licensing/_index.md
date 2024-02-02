@@ -25,7 +25,7 @@ The evaluation version is the same as the purchased one – the Trial version si
 
 {{% alert color="primary" %}}
 
-Learn more details about the Free Trial or Temporary License for Aspose.Words for Android via Java on [the Licensing and Subscription page](/java/licensing/).
+Learn more details about the Free Trial or Temporary License for Aspose.Words for Android via Java on [the Licensing and Subscription page](/words/java/licensing/).
 
 {{% /alert %}}
 

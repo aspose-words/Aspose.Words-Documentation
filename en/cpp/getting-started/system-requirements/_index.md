@@ -54,7 +54,7 @@ Aspose.Words for C++ can be used to develop applications in any development envi
 
 ### Linux
 
-Aspose.Words for C++ can be used to develop application in the development environment which support [C++14 language standard](https://en.cppreference.com/w/cpp/compiler_support), but the following compilers are explicitly supported:
+Aspose.Words for C++ can be used to develop application in the development environment which support [C++14 language standard](https://en.cppreference.com/w/cpp/14#Compiler_support), but the following compilers are explicitly supported:
 
 <table>  
 	<tr>

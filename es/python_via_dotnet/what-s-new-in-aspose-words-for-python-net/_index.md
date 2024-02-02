@@ -311,7 +311,7 @@ Se han actualizado las configuraciones de reserva de fuentes predefinidas para l
 
 ### Cargar y guardar documentos
 
-#### Caché de formas de encabezado o pie de página para reducir el tamaño del PDF <sup>22,9</sup>
+#### Caché de formas de encabezado o pie de página para reducir el tamaño del PDF <sup>22.9</sup>
 
 La capacidad de almacenar en caché las formas del encabezado/pie de página para reducir el tamaño del archivo PDF de salida se implementó agregando una nueva propiedad **CacheHeaderFooterShapes**.
 
@@ -362,7 +362,7 @@ El API se ha mejorado para un desarrollo más flexible y conveniente.
 
 ### Formatos admitidos
 
-* Se ha introducido soporte para cargar documentos EPUB y XML agregando nuevos valores a la enumeración **LoadFormat**. A partir de la versión 22.5, es posible cargar documentos EPUB y XML en el modelo de documento Aspose.Words y convertirlos a cualquier [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/). <sup>22,5</sup>
+* Se ha introducido soporte para cargar documentos EPUB y XML agregando nuevos valores a la enumeración **LoadFormat**. A partir de la versión 22.5, es posible cargar documentos EPUB y XML en el modelo de documento Aspose.Words y convertirlos a cualquier [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/). <sup>22.5</sup>
 * A partir de la versión 22.8, es posible guardar un documento en formato AZW3, el formato de archivo de libro electrónico propietario de Amazon Kindle (KF8 es otro nombre para el formato). Ahora no sólo puede cargar documentos AZW3, sino también exportar sus archivos al formato AZW3, que es esencialmente un EPUB compilado. <sup>22.8</sup>
 
 ### Representación e impresión
@@ -383,7 +383,7 @@ Los gráficos API públicos de DrawingML se han ampliado para admitir rellenos d
 
 Se ha implementado el análisis de contornos de glifos propios de Aspose.Words para fuentes OpenType (CFF).
 
-Anteriormente, el análisis de glifos para fuentes OpenType (CFF) se realizaba mediante GDI+. Ahora funciona en los casos en los que GDI+ no está disponible: plataformas Java, .NET Standard, sistema operativo Linux, etc. El análisis de contornos de glifos es necesario en casos específicos como WordArt, efectos de texto, algunas funciones de Office Math y otras.
+Anteriormente, el análisis de glifos para fuentes OpenType (CFF) se realizaba mediante GDI+. Ahora funciona en los casos en los que GDI+ no está disponible: plataformas Java, .NET Standard, Linux, macOS, etc. El análisis de contornos de glifos es necesario en casos específicos como WordArt, efectos de texto, algunas funciones de Office Math y otras.
 
 #### Establecer formato de sombra de forma <sup>22.7</sup>
 

@@ -26,7 +26,8 @@ Aspose.Words para Python via .NET es compatible con cualquier sistema operativo 
 	</tr>
  <tr>
 		<td>Mac OS</td>
-		<td>versión mínima macOS Mojave 10.14, Intel x86-64</td>
+		<td>macOS-x86_64: 10.14 o posterior</td>
+    <td>macOS-arm64: 11.0 o posterior</td>
 	</tr>
  <tr>
 		<td>Linux</td>
@@ -34,7 +35,7 @@ Aspose.Words para Python via .NET es compatible con cualquier sistema operativo 
 	</tr>
 </table>
 
-## Requisitos del sistema para la plataforma Target Linux
+## Requisitos del sistema para plataformas Target Linux y macOS
 
 - Bibliotecas de tiempo de ejecución GCC-6 (o posteriores).
 

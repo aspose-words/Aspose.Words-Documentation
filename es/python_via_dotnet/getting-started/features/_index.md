@@ -19,7 +19,7 @@ Las siguientes tablas resumen y comparan la disponibilidad de las funciones Aspo
 
 ## Plataformas compatibles
 
-Las plataformas Aspose.Words para Python via .NET se pueden utilizar en Windows x64 o x86 y en una amplia gama de distribuciones Linux con Python 3.5 o posterior instalado. Existen requisitos adicionales para la plataforma Linux de destino:
+Las plataformas Aspose.Words para Python via .NET se pueden utilizar en Windows x64 o x86, macOS x86_x64 o arm64 y en una amplia gama de distribuciones Linux con Python 3.5 o posterior instalado. Existen requisitos adicionales para las plataformas Linux y macOS de destino:
 - Bibliotecas de tiempo de ejecución GCC-6 (o posterior)
 - Dependencias de .NET Core Runtime. Se requiere `NOT` para instalar .NET Core Runtime
 - Para Python 3.5-3.7: se necesita la compilación `pymalloc` de Python. La opción de compilación `--with-pymalloc` Python está habilitada de forma predeterminada. Normalmente, la compilación `pymalloc` de Python está marcada con el sufijo `m` en el nombre del archivo.
