@@ -1,8 +1,8 @@
 ---
-title: Работа с управляющими персонажами
+title: Работа с управляющими символами
 second_title: Aspose.Words для .NET
-articleTitle: Работа с управляющими персонажами
-linktitle: Работа с управляющими персонажами
+articleTitle: Работа с управляющими символами
+linktitle: Работа с управляющими символами
 description: "Введение в работу с управляющими символами в Aspose.Words для .NET."
 type: docs
 weight: 400

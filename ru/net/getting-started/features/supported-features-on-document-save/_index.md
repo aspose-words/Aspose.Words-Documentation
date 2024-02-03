@@ -19,8 +19,8 @@ Aspose.Words позволяет пользователям работать с �
 
 Полный список функций см. в справочнике API:
 
-- [варианты сохранения для всех форматов](https://reference.aspose.com/words/net/aspose.words.saving/)
-- [исправлены параметры сохранения страницы](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) для [Преобразование в формат фиксированной страницы](/words/ru/net/converting-to-fixed-page-format/): PDF, XPS, изображения и др
+- [Варианты сохранения для всех форматов](https://reference.aspose.com/words/net/aspose.words.saving/)
+- [Параметры сохранения в формат фиксированной страницы](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) для [Преобразования в формат фиксированной страницы](/words/ru/net/converting-to-fixed-page-format/): PDF, XPS, изображения и др
 - [Параметры сохранения PDF](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) для формата PDF
 - [Параметры сохранения OOXML](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) для форматов DOCX, DOCM, DOTX, DOTM или FlatOpc
 - [Параметры сохранения DOC](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) для форматов DOC и DOT
