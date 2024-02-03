@@ -1,0 +1,84 @@
+---
+title: Trabalhando com campos de formulário em C#
+second_title: Aspose.Words para .NET
+articleTitle: Trabalhando com campos de formulário
+linktitle: Trabalhando com campos de formulário
+description: "Noções básicas sobre o recurso Campos de formulário, trabalhando com campos de formulário usando C#."
+type: docs
+weight: 380
+url: /pt/net/working-with-form-fields/
+---
+
+Um documento que contém espaços em branco (campos) de preenchimento é conhecido como formulário. Por exemplo, você pode criar um formulário de registro em Microsoft Word que usa listas suspensas nas quais os usuários podem selecionar entradas. O campo `Form` é um local onde um tipo específico de dados, como nome ou endereço, é armazenado. Os campos de formulário no Microsoft Word incluem entrada de texto, caixa de combinação e caixa de seleção.
+
+Você pode usar campos de formulário em seu projeto para "se comunicar" com seus usuários. Por exemplo, você cria um documento cujo conteúdo é protegido, mas apenas os campos do formulário são editáveis. Os usuários podem inserir os dados nos campos do formulário e enviar o documento. Seu aplicativo que usa Aspose.Words pode recuperar dados dos campos do formulário e processá-los.
+
+Colocar campos de formulário no documento por meio de código é fácil. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) possui métodos especiais para inseri-los, um para cada tipo de campo do formulário. Cada um dos métodos aceita um parâmetro string que representa o nome do campo do formulário. O nome pode ser uma string vazia. Se, no entanto, você especificar um nome para o campo do formulário, um marcador será criado automaticamente com o mesmo nome.
+
+## Inserir campos de formulário
+
+Os campos de formulário são um caso particular de campos do Word que permitem a "interação" com o usuário. Os campos de formulário no Microsoft Word incluem caixa de texto, caixa de combinação e caixa de seleção.
+
+**DocumentBuilder** fornece métodos especiais para inserir cada tipo de campo de formulário no documento: [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/) e [InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Observe que se você especificar um nome para o campo do formulário, um marcador será criado automaticamente com o mesmo nome.
+
+O exemplo de código a seguir mostra como inserir um campo de formulário combobox em um documento:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cs" >}}
+
+### Insira uma entrada de texto
+
+Use o método **InsertTextInput** para inserir uma caixa de texto no documento.
+
+O exemplo de código a seguir mostra como inserir um campo de formulário de entrada de texto em um documento:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTextInputFormField.cs" >}}
+
+### Insira uma caixa de seleção
+
+Chame **InsertCheckBox** para inserir uma caixa de seleção no documento.
+
+O exemplo de código a seguir mostra como inserir um campo de formulário de caixa de seleção em um documento:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertCheckBoxFormField.cs" >}}
+
+### Insira uma caixa de combinação
+
+Chame **InsertComboBox** para inserir uma caixa de combinação no documento.
+
+O exemplo de código a seguir mostra como inserir um campo de formulário Combobox em um documento:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertComboBoxFormField.cs" >}}
+
+## Obtenha campos de formulário
+
+Uma coleção de campos de formulário é representada pela classe [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/) que pode ser recuperada usando a propriedade [FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/). Isso significa que você pode obter campos de formulário contidos em qualquer nó do documento, incluindo o próprio documento.
+
+{{% alert color="primary" %}}
+
+Você pode baixar o arquivo de amostra dos exemplos a seguir em [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
+
+{{% /alert %}}
+
+O exemplo de código a seguir mostra como obter uma coleção de campos de formulário:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cs" >}}
+
+Você pode obter um campo de formulário específico por seu índice ou nome.
+
+O exemplo de código a seguir mostra como acessar campos de formulário:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cs" >}}
+
+As propriedades **FormField** permitem trabalhar com nome, tipo e resultado do campo do formulário.
+
+O exemplo de código a seguir mostra como trabalhar com nome, tipo e resultado do campo de formulário:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cs" >}}
+
+## Formatar campos de formulário
+
+A propriedade [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) do [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) permite aplicar a formatação da fonte ao **FormField** como um todo, incluindo o valor do campo.
+
+O exemplo de código a seguir mostra como aplicar a formatação de fonte ao **FormField**:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsFontFormatting-FormFieldsFontFormatting.cs" >}}
