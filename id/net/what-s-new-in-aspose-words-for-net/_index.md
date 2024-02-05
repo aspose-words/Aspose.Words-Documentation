@@ -23,7 +23,7 @@ Kelas [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/strok
 
 ### Lainnya
 
-* Kemampuan untuk memodifikasi teks kontrol `TextBox` OLE telah diperkenalkan dengan menambahkan properti [Text](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/text/) baru ke kelas [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/) baru. <sup>24.1</sup>
+* Kemampuan untuk memodifikasi teks kontrol `TextBox` OLE telah diperkenalkan dengan menambahkan properti [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) baru ke kelas [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) baru. <sup>24.1</sup>
 * API publik Sumber Bibliografi diimplementasikan melalui penambahan namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) baru dengan kelas dan enumerasi baru, dan melalui penambahan properti [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) baru ke kelas [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
 * API untuk membatasi akses ke anggota tipe menggunakan sintaks templat untuk Mesin Pelaporan LINQ telah disediakan. <sup>24.1</sup>
 

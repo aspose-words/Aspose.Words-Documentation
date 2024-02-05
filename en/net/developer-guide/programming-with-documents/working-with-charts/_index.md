@@ -185,7 +185,7 @@ The following code example shows how to hide the Y-axis of the chart:
 
 ### How to Align Chart Label
 
-If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of the [TickLabelAlignment](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/) property.
+If you want to set a text alignment for multi-line labels, you can simply achieve this by setting the value of the [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment** property.
 
 The following code example shows how to tick label alignment:
 

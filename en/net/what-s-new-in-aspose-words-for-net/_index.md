@@ -23,7 +23,7 @@ The [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/
 
 ### Other
 
-* The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new [Text](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/text/) property to the new [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/) class. <sup>24.1</sup>
+* The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) property to the new [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) class. <sup>24.1</sup>
 * The Bibliography Sources public API was implemented through the adding a new namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) with its new classes and enumerations, and through the adding a new [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) property to the [Document](https://reference.aspose.com/words/net/aspose.words/document/) class. <sup>24.1</sup>
 * An API to limit access to type members using template syntax for the LINQ Reporting Engine has been provided. <sup>24.1</sup>
 

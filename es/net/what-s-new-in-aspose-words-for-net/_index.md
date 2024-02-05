@@ -23,7 +23,7 @@ La clase [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/st
 
 ### Otro
 
-* La capacidad de modificar el texto del control `TextBox` OLE se ha introducido agregando una nueva propiedad [Text](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/text/) a la nueva clase [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/). <sup>24.1</sup>
+* La capacidad de modificar el texto del control `TextBox` OLE se ha introducido agregando una nueva propiedad [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) a la nueva clase [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
 * El API público de Fuentes de bibliografía se implementó mediante la adición de un nuevo espacio de nombres [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) con sus nuevas clases y enumeraciones, y mediante la adición de una nueva propiedad [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) a la clase [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
 * Se ha proporcionado un API para limitar el acceso a los miembros de tipo mediante la sintaxis de plantilla para LINQ Reporting Engine. <sup>24.1</sup>
 
