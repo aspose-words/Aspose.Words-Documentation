@@ -185,7 +185,7 @@ url: /ru/net/working-with-charts/
 
 ### Как выровнять метку диаграммы
 
-Если вы хотите настроить выравнивание текста для многострочных меток, вы можете просто добиться этого, установив значение свойства [TickLabelAlignment](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/).
+Если вы хотите настроить выравнивание текста для многострочных меток, вы можете просто добиться этого, установив значение свойства [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment**.
 
 В следующем примере кода показано, как отметить выравнивание меток:
 

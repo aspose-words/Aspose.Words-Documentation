@@ -185,7 +185,7 @@ Contoh kode berikut menunjukkan cara menyembunyikan sumbu Y pada bagan:
 
 ### Cara Menyelaraskan Label Bagan
 
-Jika Anda ingin menyetel perataan teks untuk label multi-baris, Anda dapat melakukannya dengan menyetel nilai properti [TickLabelAlignment](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/).
+Jika Anda ingin menyetel perataan teks untuk label multi-baris, Anda dapat melakukannya dengan menyetel nilai properti [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment**.
 
 Contoh kode berikut menunjukkan cara mencentang perataan label:
 

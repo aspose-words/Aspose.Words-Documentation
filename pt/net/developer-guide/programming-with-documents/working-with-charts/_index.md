@@ -185,7 +185,7 @@ O exemplo de código a seguir mostra como ocultar o eixo Y do gráfico:
 
 ### Como alinhar o rótulo do gráfico
 
-Se você deseja definir um alinhamento de texto para rótulos de múltiplas linhas, você pode simplesmente fazer isso definindo o valor da propriedade [TickLabelAlignment](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/).
+Se você deseja definir um alinhamento de texto para rótulos de múltiplas linhas, você pode simplesmente fazer isso definindo o valor da propriedade [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment**.
 
 O exemplo de código a seguir mostra como marcar o alinhamento do rótulo:
 

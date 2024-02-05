@@ -185,7 +185,7 @@ El siguiente ejemplo de código muestra cómo ocultar el eje Y del gráfico:
 
 ### Cómo alinear la etiqueta del gráfico
 
-Si desea establecer una alineación de texto para etiquetas de varias líneas, simplemente puede lograrlo estableciendo el valor de la propiedad [TickLabelAlignment](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/).
+Si desea establecer una alineación de texto para etiquetas de varias líneas, simplemente puede lograrlo estableciendo el valor de la propiedad [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment**.
 
 El siguiente ejemplo de código muestra cómo marcar la alineación de la etiqueta:
 

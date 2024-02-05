@@ -23,7 +23,7 @@ Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnel
 
 ### Diğer
 
-* `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/) sınıfına yeni bir [Text](https://reference.aspose.com/words/net/aspose.words.forms2/textboxcontrol/text/) özelliği eklenerek tanıtıldı. <sup>24.1</sup>
+* `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) sınıfına yeni bir [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) özelliği eklenerek tanıtıldı. <sup>24.1</sup>
 * Bibliyografya Kaynakları genel API'i, yeni sınıfları ve numaralandırmalarıyla yeni bir [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) ad alanı eklenmesi ve [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfına yeni bir [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) özelliği eklenmesi yoluyla uygulandı. <sup>24.1</sup>
 * LINQ Raporlama Motoru için şablon söz dizimini kullanarak tür üyelerine erişimi sınırlandıran bir API sağlandı. <sup>24.1</sup>
 
