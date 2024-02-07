@@ -1,0 +1,16 @@
+---
+title: کار با Document در C#
+second_title: Aspose.Words برای .NET
+articleTitle: کار با سند
+linktitle: کار با سند
+type: docs
+description: "کلاس `Document` ویژگی ها و روش های مختلف سند را با استفاده از C# فراهم می کند. شما از کلاس `Document` به عنوان نقطه شروع برای هر کاری که می خواهید با Aspose.Words برای .NET انجام دهید استفاده می کنید. شیء `Document` را می توان در یک فایل یا جریان ذخیره کرد و همچنین به مرورگر ارسال کرد."
+weight: 40
+url: /fa/net/working-with-document/
+---
+
+کلاس [Document](https://reference.aspose.com/words/net/aspose.words/document/) در Aspose.Words مرکزی است. این یک سند را نشان می دهد و ویژگی ها و روش های مختلف سند را ارائه می دهد، مانند ذخیره یا محافظت از سند. شما از کلاس **Document** به عنوان نقطه شروع برای هر کاری که می خواهید با Aspose.Words انجام دهید استفاده می کنید: یک سند جدید از ابتدا ایجاد کنید، یک الگو برای یک mail merge باز کنید یا بخش های مختلف را از یک سند دریافت کنید.
+
+شی **Document** شامل تمام محتوا و قالب‌بندی، سبک‌ها، ویژگی‌های داخلی و سفارشی و شی [MailMerge](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/) است که برای mail merge استفاده می‌شود. **Document** شما را قادر می سازد متن، نشانک ها و فیلدهای فرم را برای کل سند یا بخش های جداگانه بازیابی کنید.
+
+**Document** شامل مجموعه‌ای از اشیاء [Section](https://reference.aspose.com/words/net/aspose.words/section/) است که به شما امکان می‌دهد یک بخش خاص را به دست آورید یا دستکاری‌هایی مانند کپی کردن یا جابجایی بخش‌ها را انجام دهید. شیء **Document** را می توان در هر زمان در یک فایل یا جریان ذخیره کرد و همچنین به مرورگر مشتری ارسال کرد.
