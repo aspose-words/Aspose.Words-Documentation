@@ -1,0 +1,138 @@
+---
+title: کار با فهرست مطالب
+second_title: Aspose.Words برای Python via .NET
+articleTitle: کار با فهرست مطالب
+linktitle: کار با فهرست مطالب
+description: "با استفاده از Python، `فهرست محتوا` را در یک سند درج و مدیریت کنید."
+type: docs
+weight: 170
+url: /fa/python-net/working-with-table-of-contents/
+---
+
+اغلب شما با اسنادی که حاوی فهرست مطالب (TOC) هستند کار خواهید کرد. با استفاده از Aspose.Words می توانید فهرست مطالب خود را وارد کنید یا فهرست مطالب موجود را به طور کامل با استفاده از چند خط کد در سند بازسازی کنید. این مقاله نحوه کار با فیلد فهرست مطالب را تشریح می کند و نشان می دهد:
+
+- نحوه قرار دادن یک `TOC` کاملاً جدید
+- TOC های جدید یا موجود را در سند به روز کنید.
+- سوئیچ هایی را برای کنترل قالب بندی و ساختار کلی TOC مشخص کنید.
+- نحوه تغییر سبک و ظاهر فهرست مطالب.
+- نحوه حذف کل فیلد `TOC` به همراه تمام ورودی های تشکیل دهنده سند.
+
+## درج فهرست مطالب به صورت برنامه ای
+
+می توانید با فراخوانی روش [DocumentBuilder.insert_table_of_contents](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_table_of_contents/) یک فیلد `TOC` (جدول مطالب) را در موقعیت فعلی در سند وارد کنید.
+
+فهرست مطالب در یک سند Word را می توان به روش های مختلفی ساخته و با استفاده از گزینه های مختلف قالب بندی کرد. سوئیچ‌های فیلدی که به روش ارسال می‌کنید، نحوه ساخت و نمایش جدول در سند شما را کنترل می‌کنند.
+
+سوئیچ های پیش فرضی که در `TOC` درج شده در Microsoft Word استفاده می شود **"\o "1-3 \h \z \u"** هستند. شرح این سوئیچ ها و همچنین لیستی از سوئیچ های پشتیبانی شده را می توان در ادامه مقاله یافت. می‌توانید از آن راهنما استفاده کنید و سوئیچ‌های صحیح را دریافت کنید یا اگر سندی حاوی `TOC` مشابهی دارید که می‌خواهید، می‌توانید کدهای فیلد (*ALT+F9*) را نشان دهید و سوئیچ‌ها را مستقیماً از فیلد کپی کنید.
+
+مثال کد زیر نحوه درج یک فیلد فهرست مطالب را در یک سند نشان می دهد:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertTableOfContents.py" >}}
+
+کد نشان می دهد که فهرست مطالب جدید در یک سند خالی درج شده است. کلاس [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) سپس برای درج برخی قالب‌بندی محتوای نمونه با سبک‌های عنوان مناسب که برای علامت‌گذاری محتوایی که باید در TOC گنجانده شود، استفاده می‌شود. سپس خطوط بعدی `TOC` را با به‌روزرسانی فیلدها و صفحه‌آرایی سند پر می‌کنند.
+
+{{% alert color="primary" %}}
+
+بدون روش‌های مورد استفاده در مثال، وقتی سند خروجی را باز می‌کنید، فیلد `TOC` را پیدا می‌کنید، اما بدون محتوای قابل مشاهده. این به این دلیل است که فیلد `TOC` درج شده است اما تا زمانی که در سند به روز نشود هنوز پر نشده است. اطلاعات بیشتر در این مورد در بخش بعدی مورد بحث قرار می گیرد.
+
+{{% /alert %}}
+
+## فهرست مطالب را به روز کنید
+
+Aspose.Words به شما این امکان را می دهد که تنها با چند خط کد یک `TOC` را به طور کامل به روز کنید. این را می توان برای پر کردن یک `TOC` جدید درج شده یا به روز رسانی `TOC` موجود پس از ایجاد تغییرات در سند انجام داد. برای به روز رسانی فیلدهای `TOC` در سند باید از دو روش زیر استفاده شود:
+
+1. [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/)
+1. [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/)
+
+لطفاً توجه داشته باشید که این دو روش به‌روزرسانی باید به ترتیب فراخوانی شوند. اگر برعکس شود فهرست مطالب پر می شود اما شماره صفحه نمایش داده نمی شود. هر تعداد TOC مختلف را می توان به روز کرد. این روش ها به طور خودکار تمام TOC های موجود در سند را به روز می کنند.
+
+مثال کد زیر نحوه بازسازی کامل فیلدهای `TOC` در سند را با فراخوانی به روز رسانی فیلد نشان می دهد:
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-UpdateFields.py" >}}
+
+اولین تماس با [Document.update_fields](https://reference.aspose.com/words/python-net/aspose.words/document/update_fields/) `TOC` را ایجاد می کند، تمام ورودی های متن پر شده اند و `TOC` تقریباً کامل به نظر می رسد. تنها چیزی که از دست رفته شماره صفحه است که در حال حاضر با "؟" نمایش داده می شود. فراخوانی دوم به [Document.update_page_layout](https://reference.aspose.com/words/python-net/aspose.words/document/update_page_layout/)، طرح بندی سند را در حافظه ایجاد می کند. این باید برای جمع آوری شماره صفحات ورودی ها انجام شود. شماره صفحات صحیح محاسبه شده از این تماس سپس در TOC درج می شود.
+
+## از سوئیچ ها برای کنترل رفتار فهرست مطالب استفاده کنید.
+
+مانند هر فیلد دیگری، فیلد `TOC` می تواند سوئیچ های تعریف شده در کد فیلد را بپذیرد که نحوه ساخت فهرست مطالب را کنترل می کند. سوئیچ های خاصی برای کنترل ورودی ها و در چه سطحی استفاده می شود در حالی که سایر سوئیچ ها برای کنترل ظاهر TOC استفاده می شوند. سوئیچ ها را می توان با هم ترکیب کرد تا امکان تولید فهرست مطالب پیچیده را فراهم کند.
+
+![working-with-table-of-contents-aspose-words-net](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-1.png)
+
+
+به طور پیش فرض این سوئیچ های بالا هنگام درج یک `TOC` پیش فرض در سند گنجانده می شوند. یک `TOC` بدون سوئیچ شامل محتوایی از سبک‌های عنوان داخلی می‌شود (مثل اینکه سوئیچ \O تنظیم شده باشد). سوئیچ‌های `TOC` موجود که توسط Aspose.Words پشتیبانی می‌شوند در زیر فهرست شده‌اند و کاربرد آنها به تفصیل شرح داده شده است. آنها را می توان بر اساس نوع آنها به بخش های جداگانه تقسیم کرد. سوئیچ های بخش اول مشخص می کنند که چه محتوایی باید در `TOC` گنجانده شود و سوئیچ های بخش دوم ظاهر TOC را کنترل می کنند. اگر سوئیچ در اینجا فهرست نشده باشد، در حال حاضر پشتیبانی نمی شود. همه سوئیچ ها در نسخه های بعدی پشتیبانی خواهند شد. ما با هر نسخه پشتیبانی بیشتری اضافه می کنیم.
+
+### سوئیچ های علامت گذاری ورودی
+
+|  تعویض | شرح |
+|  :-  |  :-  |
+| **Heading Styles**<br>*(\O سوئیچ)* | <p>این سوئیچ تعریف می کند که `TOC` باید بر اساس سبک های عنوان داخلی ساخته شود. در Microsoft Word اینها توسط Heading 1 – Heading 9 تعریف می شوند. در Aspose.Words این سبک ها با StyleIdentifier enumeration مربوطه نشان داده می شوند. این شمارش نشان دهنده یک شناسه مستقل محلی از یک سبک است، برای مثال `StyleIdentifier.Heading1` نشان دهنده سبک عنوان 1 است. با استفاده از این، قالب بندی و ویژگی های سبک را می توان از مجموعه Style سند بازیابی کرد. کلاس Style مربوطه را می توان با استفاده از ویژگی نمایه شده از نوع StyleIdentifier از مجموعه `Document.Styles` بازیابی کرد.</p><p>![working-with-table-of-contents-styles](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-2.png)</p><p>هر محتوایی که با این سبک ها قالب بندی شده باشد در فهرست مطالب گنجانده شده است. سطح عنوان، سطح سلسله مراتبی متناظر ورودی در TOC را مشخص می کند. به عنوان مثال، یک پاراگراف با سبک عنوان 1 به عنوان اولین سطح در `TOC` در نظر گرفته می شود در حالی که پاراگراف با عنوان 2 به عنوان سطح بعدی در سلسله مراتب و غیره در نظر گرفته می شود.</p> |
+| **Outline Levels**<br>*(\U سوئیچ)* | <p>هر پاراگراف می تواند یک سطح کلی را در زیر گزینه های پاراگراف تعریف کند.</p><p>![working-with-table-of-contents-paragraph](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-3.png)</p><p>این تنظیم نشان می‌دهد که این پاراگراف در چه سطحی باید در سلسله مراتب سند قرار گیرد. این معمولاً برای ساختاربندی آسان طرح بندی یک سند استفاده می شود. این سلسله مراتب را می توان با تغییر به Outline View در Microsoft Word مشاهده کرد. مشابه سبک های عنوان، می تواند 1 تا 9 سطح طرح کلی علاوه بر سطح "متن متن" وجود داشته باشد. سطوح طرح کلی 1 تا 9 در `TOC` در سطح مربوط به سلسله مراتب ظاهر می شوند<br>هر محتوایی با سطح طرح کلی که در سبک پاراگراف یا مستقیماً روی خود پاراگراف تنظیم شده باشد، در TOC گنجانده شده است. در Aspose.Words سطح طرح با ویژگی `ParagraphFormat.OutlineLevel` گره Paragraph نشان داده می شود. سطح طرح کلی سبک پاراگراف به همین شکل توسط ویژگی `Style.ParagraphFormat` نشان داده می شود.</p><p>{{% alert color="primary" %}}</p><p>توجه داشته باشید که سبک های سرفصل داخلی مانند عنوان 1 دارای یک مجموعه اجباری سطح کلی در تنظیمات سبک هستند.</p><p>{{% /alert %}}</p> |
+| **Custom Styles**<br>*(\T سوئیچ)* | <p>این سوئیچ اجازه می دهد تا از سبک های سفارشی در هنگام جمع آوری ورودی ها برای استفاده در TOC استفاده شود. این اغلب همراه با سوئیچ \O برای گنجاندن سبک های سفارشی همراه با سبک های سرفصل داخلی در TOC استفاده می شود.<br>پارامترهای سوئیچ باید در داخل علائم گفتاری محصور شوند. بسیاری از سبک های سفارشی را می توان گنجاند، برای هر سبک باید نام و سپس یک کاما و سپس سطحی که سبک در `TOC` ظاهر می شود مشخص شود. سبک های بیشتر نیز با کاما از هم جدا می شوند.<br>برای مثال</p><p>{{< highlight csharp >}}
+{ TOC \o "1-3" \t "CustomHeading1, 1,   CustomHeading2, 2"}{{< /highlight >}}</p><p>از محتوای سبک شده با CustomHeading1 به عنوان محتوای سطح 1 در `TOC` و CustomHeading2 به عنوان سطح 2 استفاده می کند.</p> |
+| **Use TC Fields**<br>*(کلیدهای \F و \L)* | <p>در نسخه های قدیمی Microsoft Word، تنها راه ساخت `TOC` استفاده از فیلدهای TC بود. این فیلدها حتی زمانی که کدهای فیلد نشان داده می شوند به صورت مخفی در سند درج می شوند. آنها شامل متنی هستند که باید در ورودی نمایش داده شود و `TOC` از آنها ساخته شده است. این قابلیت اکنون اغلب استفاده نمی‌شود، اما ممکن است در برخی موارد برای گنجاندن ورودی‌هایی در `TOC` که برای نمایان شدن در سند تورفتگی ندارند، مفید باشد.<br>هنگامی که درج می شود، این فیلدها حتی زمانی که کدهای فیلد نمایش داده می شوند، پنهان به نظر می رسند. آنها بدون نمایش محتوای پنهان قابل مشاهده نیستند. برای دیدن این فیلدها باید قالب بندی پاراگراف نمایش را انتخاب کنید.</p><p>![working-with-table-of-contents-paragraph-settings](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-4.png)</p> این فیلدها را می توان در هر موقعیتی مانند هر فیلد دیگری در سند درج کرد و با شمارش `FieldType.FieldTOCEntry` نشان داده می شود.<br>سوئیچ \F در `TOC` برای تعیین اینکه فیلدهای TC باید به عنوان ورودی استفاده شوند استفاده می شود. سوئیچ به تنهایی بدون هیچ شناسه اضافی به این معنی است که هر فیلد TC در سند گنجانده خواهد شد. هر پارامتر اضافی، اغلب یک حرف منفرد، مشخص می کند که فقط فیلدهای TC که دارای سوئیچ \f منطبق هستند در TOC گنجانده می شوند. برای مثال *</p><p>{{< highlight csharp >}}{ TOC \f t }{{< /highlight >}}</p><p>فقط شامل فیلدهای TC مانند</p><p>{{< highlight csharp >}}{   TC \f t }{{< /highlight >}}</p><p>فیلد `TOC` همچنین دارای یک سوئیچ مرتبط است، سوئیچ "\L" مشخص می کند که فقط فیلد TC با سطوح در محدوده مشخص شده شامل می شود.</p><p>![todo:image_alt_text](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-5.png)</p><p>خود فیلدهای `TC` نیز می توانند چندین کلید تنظیم داشته باشند. اینها هستند:</p><p>- *\F - در بالا توضیح داده شد.*</p><p>- *\L - تعیین می کند که این فیلد TC در کدام سطح در `TOC` ظاهر شود. `TOC` که از همین سوئیچ استفاده می کند فقط در صورتی شامل این فیلد TC می شود که در محدوده مشخص شده باشد.*</p><p>- _\N - شماره‌گذاری صفحه برای این ورودی `TOC` نمایش داده نمی‌شود. کد نمونه نحوه درج فیلدهای TC را می‌توانید در بخش بعدی بیابید.</p> |
+
+### سوئیچ های مربوط به ظاهر
+
+|  تعویض | شرح |
+|  :-  |  :-  |
+| **Omit Page Numbers**<br>*(\N سوئیچ)* | <p>این سوئیچ برای مخفی کردن شماره صفحات برای سطوح خاصی از TOC استفاده می شود. به عنوان مثال می توانید تعریف کنید</p><p>{{< highlight csharp >}}{TOC \o "1-4" \n "3-4" }{{< /highlight >}}</p><p>و شماره صفحه در ورودی های سطوح 3 و 4 به همراه نقاط رهبر پنهان خواهد شد (در صورت وجود). برای تعیین تنها یک سطح، باز هم باید از یک محدوده استفاده شود، برای مثال "1-1" شماره صفحه را فقط برای سطح اول حذف می کند.<br>بدون ارائه محدوده سطح، شماره صفحه برای همه سطوح در TOC حذف می شود. این برای تنظیم هنگام صادرات یک سند به HTML یا فرمت مشابه مفید است. این به این دلیل است که فرمت های مبتنی بر HTML هیچ مفهوم صفحه ای ندارند و بنابراین نیازی به شماره گذاری صفحه ندارند.</p><p>![todo:image_alt_text](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-6.png)</p> |
+| **Insert As Hyperlinks**<br>*(\H سوئیچ)* | <p>این سوئیچ مشخص می کند که ورودی های `TOC` به صورت هایپرلینک درج می شوند. هنگام مشاهده یک سند در Microsoft Word، این ورودی ها همچنان به صورت متن معمولی در داخل `TOC` ظاهر می شوند، اما به صورت هایپرپیوند هستند و بنابراین می توان با استفاده از *Ctrl + کلیک چپ* در Microsoft Word به موقعیت ورودی اصلی در سند پیمایش کرد. هنگامی که این سوئیچ گنجانده شود، این پیوندها در قالب های دیگر نیز حفظ می شوند. برای مثال در قالب‌های مبتنی بر HTML از جمله EPUB و فرمت‌های رندر شده مانند PDF و XPS، اینها به‌عنوان پیوندهای کاری صادر می‌شوند.<br>بدون تنظیم سوئیچ، `TOC` در همه این خروجی ها به صورت متن ساده صادر می شود و این رفتار را نشان نخواهد داد. اگر سندی در MS Word باز شود، متن ورودی‌ها نیز به این روش قابل کلیک نیستند، اما همچنان می‌توان از شماره‌های صفحه برای پیمایش به ورودی اصلی استفاده کرد.</p><p>![working-with-table-of-contents-titles](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-7.png)</p> |
+| **Set Separator Character**<br>*(\P سوئیچ)* | <p>این سوئیچ اجازه می دهد تا محتوای جداکننده عنوان ورودی و شماره صفحه به راحتی در TOC تغییر یابد. جداکننده مورد استفاده باید بعد از این سوئیچ مشخص شده و در علائم گفتار محصور شود.<br>برخلاف آنچه در اسناد آفیس مستند شده است، به جای 5 کاراکتر، فقط می توان از یک کاراکتر استفاده کرد. این برای MS Word و Aspose.Words صدق می کند.<br>استفاده از این سوئیچ توصیه نمی‌شود، زیرا اجازه نمی‌دهد تا کنترل زیادی بر آنچه که برای جدا کردن ورودی‌ها و شماره‌های صفحه در TOC استفاده می‌کند، انجام شود. در عوض توصیه می‌شود سبک `TOC` مناسب مانند `StyleIdentifier.TOC1` را ویرایش کنید و از آنجا سبک رهبر را با دسترسی به اعضای فونت خاص و غیره ویرایش کنید. جزئیات بیشتر در مورد نحوه انجام این کار را می‌توانید بعداً در مقاله پیدا کنید.</p><p>![working-with-table-of-contents-toc](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-8.png)</p> |
+| **Preserve Tab Entries**<br>*(\W سوئیچ)* | <p>با استفاده از این سوئیچ مشخص می شود که هر ورودی که دارای یک کاراکتر برگه است، به عنوان مثال عنوانی که دارای یک برگه در انتهای خط است، هنگام پر کردن TOC به عنوان یک کاراکتر برگه مناسب حفظ می شود. این بدان معنی است که عملکرد کاراکتر برگه در `TOC` وجود خواهد داشت و می توان از آن برای قالب بندی ورودی استفاده کرد. به عنوان مثال، برخی از ورودی‌ها ممکن است از توقف‌های برگه و کاراکترهای برگه برای یکسان کردن متن استفاده کنند. تا زمانی که سطح `TOC` متناظر، نقطه های تب معادل را تعریف کند، ورودی های `TOC` تولید شده با فاصله مشابه ظاهر می شوند.<br><br>در شرایط مشابه، اگر این سوئیچ تعریف نشده باشد، کاراکترهای برگه به فضای سفید معادل زبانه های غیر فعال تبدیل می شوند. خروجی آنطور که انتظار می رفت ظاهر نمی شود.</p><p>![working-with-table-of-contents-aspose](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-9.png)</p> |
+| **Preserve New Line Entries**<br>*(\X سوئیچ)* | <p>مشابه سوئیچ بالا، این سوئیچ مشخص می‌کند که عناوین در چندین خط (با استفاده از کاراکترهای خط جدید نه پاراگراف‌های مجزا) همانطور که در TOC تولید شده هستند حفظ می‌شوند. به عنوان مثال، عنوانی که قرار است در چندین خط پخش شود، می تواند از کاراکتر خط جدید (Ctrl + Enter یا `ControlChar.LineBreak`) برای جداسازی محتوا در خطوط مختلف استفاده کند. با مشخص شدن این سوئیچ، ورودی در `TOC` این کاراکترهای خط جدید را مانند شکل زیر حفظ می کند.<br><br>در این شرایط اگر سوئیچ تعریف نشده باشد، کاراکترهای خط جدید به یک فضای سفید تبدیل می شوند.</p><p>![working-with-table-of-contents-aspose-words](/words/python-net/working-with-table-of-contents/working-with-table-of-contents-10.png)</p> |
+
+## فیلدهای TC را درج کنید
+
+می توانید با فراخوانی روش [DocumentBuilder.insert_field](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_field/) و تعیین نام فیلد به عنوان "TC" به همراه هر سوئیچ مورد نیاز، یک فیلد TC جدید در موقعیت فعلی [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) وارد کنید. مثال زیر نحوه درج یک فیلد `TC` را با استفاده از [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) در سند نشان می دهد.
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-add_content_using_document_builder-InsertTCField.py" >}}
+
+
+## فهرست مطالب را اصلاح کنید
+
+قالب‌بندی ورودی‌ها در `TOC` از سبک‌های اصلی ورودی‌های علامت‌گذاری‌شده استفاده نمی‌شود، در عوض هر سطح با استفاده از سبک `TOC` معادل قالب‌بندی می‌شود. به عنوان مثال سطح اول در `TOC` با سبک **TOC1**، سطح دوم با سبک **TOC2** و غیره فرمت شده است. این به این معنی است که برای تغییر ظاهر `TOC`، این سبک ها باید اصلاح شوند. در Aspose.Words این سبک‌ها توسط [StyleIdentifier.TOC1](https://reference.aspose.com/words/python-net/aspose.words/styleidentifier/#toc1) مستقل از محلی تا [StyleIdentifier.TOC9](https://reference.aspose.com/words/python-net/aspose.words/styleidentifier/#toc9) نشان داده می‌شوند و می‌توانند با استفاده از این شناسه‌ها از مجموعه [Document.styles](https://reference.aspose.com/words/python-net/aspose.words/documentbase/styles/) بازیابی شوند.
+
+هنگامی که سبک مناسب سند بازیابی شد، قالب بندی این سبک را می توان تغییر داد. هر گونه تغییر در این سبک ها به طور خودکار در TOC ها در سند منعکس می شود. مثال زیر یک ویژگی قالب بندی مورد استفاده در سبک `TOC` سطح اول را تغییر می دهد.
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_table_of_content-ChangeStyleOfTOCLevel.py" >}}
+
+همچنین ذکر این نکته مفید است که هر قالب بندی مستقیم یک پاراگراف (که در خود پاراگراف تعریف شده است و نه به سبک) که برای گنجاندن `TOC` علامت گذاری شده است، در ورودی TOC کپی می شود. به عنوان مثال، اگر از سبک عنوان 1 برای علامت گذاری محتوا برای `TOC` استفاده شود و این سبک دارای قالب بندی Bold باشد در حالی که پاراگراف نیز دارای قالب بندی ایتالیک است که مستقیماً روی آن اعمال می شود. ورودی `TOC` به‌دست‌آمده پررنگ نخواهد بود، زیرا بخشی از قالب‌بندی سبک است، اما مورب خواهد بود زیرا مستقیماً در پاراگراف قالب‌بندی شده است.
+
+همچنین می توانید قالب بندی جداکننده های مورد استفاده بین هر ورودی و شماره صفحه را کنترل کنید. به طور پیش‌فرض، این یک خط نقطه چین است که با استفاده از یک کاراکتر برگه و یک نقطه برگه سمت راست که نزدیک به حاشیه سمت راست ردیف شده‌اند، در شماره‌گذاری صفحه پخش می‌شود.
+
+با استفاده از کلاس [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) بازیابی شده برای سطح `TOC` خاصی که می خواهید تغییر دهید، همچنین می توانید نحوه ظاهر شدن آنها در سند را تغییر دهید. برای تغییر نحوه ظاهر شدن آن ابتدا باید [Style.paragraph_format](https://reference.aspose.com/words/python-net/aspose.words/style/paragraph_format/) فراخوانی شود تا قالب بندی پاراگراف برای سبک بازیابی شود. با فراخوانی [ParagraphFormat.tab_stops](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/tab_stops/) می توان tab stop ها را بازیابی کرد و tab stop مناسب را اصلاح کرد. با استفاده از همین تکنیک، خود برگه را می توان با هم جابجا کرد یا حذف کرد. مثال زیر نحوه تغییر موقعیت سربرگ سمت راست در پاراگراف های مربوط به `TOC` را نشان می دهد.
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_table_of_content-ChangeTOCTabStops.py" >}}
+
+## فهرست مطالب را از سند حذف کنید
+
+با حذف تمام گره های موجود بین گره [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) و [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) فیلد `TOC` می توان فهرست مطالب را از سند حذف کرد. کد زیر این را نشان می دهد. حذف فیلد `TOC` ساده تر از یک فیلد معمولی است زیرا ما فیلدهای تودرتو را پیگیری نمی کنیم. در عوض بررسی می کنیم که گره [FieldEnd](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldend/) از نوع [FieldType.FIELD_TOC](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldtype/#field_toc) است که به این معنی است که با پایان TOC فعلی مواجه شده ایم. این تکنیک را می‌توان در این مورد بدون نگرانی در مورد فیلدهای تودرتو مورد استفاده قرار داد، زیرا می‌توان فرض کرد که هر سندی که به درستی شکل گرفته باشد، هیچ فیلد `TOC` کاملاً تودرتو در یک فیلد `TOC` دیگر ندارد.
+
+ابتدا گره های [FieldStart](https://reference.aspose.com/words/python-net/aspose.words.fields/fieldstart/) هر `TOC` جمع آوری و ذخیره می شوند. سپس `TOC` مشخص شده شمارش می شود تا تمام گره های داخل فیلد بازدید و ذخیره شوند. سپس گره ها از سند حذف می شوند. نمونه Below code نحوه حذف یک `TOC` مشخص شده را از یک سند نشان می دهد.
+
+{{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-remove_content-RemoveTOCFromDocument.py" >}}
+
+## استخراج فهرست مطالب
+
+اگر می خواهید فهرست مطالب را از هر سند Word استخراج کنید، می توانید از نمونه کد زیر استفاده کنید.
+
+{{< highlight python >}}
+doc = aw.Document(docs_base.my_dir + "Table of contents.docx")
+
+for field in doc.range.fields :
+            
+    if (field.type == aw.fields.FieldType.FIELD_HYPERLINK) :
+                
+        hyperlink = field.as_field_hyperlink()
+        if (hyperlink.sub_address != None and hyperlink.sub_address.find("_Toc") == 0) :
+                    
+            tocItem = field.start.get_ancestor(aw.NodeType.PARAGRAPH).as_paragraph()
+                        
+            print(tocItem.to_string(aw.SaveFormat.TEXT).strip())
+            print("------------------")
+    
+            bm = doc.range.bookmarks.get_by_name(hyperlink.sub_address)
+            pointer = bm.bookmark_start.get_ancestor(aw.NodeType.PARAGRAPH).as_paragraph()
+                        
+            print(pointer.to_string(aw.SaveFormat.TEXT))
+{{< /highlight >}}
