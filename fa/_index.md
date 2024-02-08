@@ -1,8 +1,9 @@
 ---
 title: خانواده محصولات Aspose.Words
+linktitle: FA - خانواده محصولات Aspose.Words
 description: "Aspose.Words یک کتابخانه کلاس است که می تواند توسط توسعه دهندگان برای پلتفرم های مختلف برای انواع وظایف پردازش اسناد استفاده شود."
 type: docs
-weight: 10
+weight: 45
 url: /fa/
 ---
 
