@@ -12,10 +12,15 @@ url: /net/linq-working-with-charts/
 LINQ Reporting Engine enables you to use charts to represent your sequential data. To declare a chart that is going to be populated with data dynamically within your template, do the following steps:
 
 1. Add a chart to your template at the place where you want it to appear in a result document.
-1. Configure the appearance of the chart.
-1. Add required chart series and configure their appearance as well.
-1. Add a title to the chart, if missing.
-1. Add an opening `foreach` tag to the chart title.
+
+2. Configure the appearance of the chart.
+
+3. Add required chart series and configure their appearance as well.
+
+4. Add a title to the chart, if missing.
+
+5. Add an opening `foreach` tag to the chart title.
+
 1. Depending on the type of the chart, add `x` tags to the chart title or chart series’ names as follows.
 {{< highlight csharp >}}
 <<x [x_value_expression]>>
@@ -24,32 +29,43 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 		- To use the same x-value expression for all chart series, add a single `x` tag to the chart title after the corresponding `foreach` tag.
 		- To use different x-value expressions for every chart series, add multiple `x` tags to chart series’ names – one for each chart series.
 	
-		  An x-value expression for a scatter or bubble chart must return a numeric value.
-	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag. In this case, an x-value expression must return a numeric, date, or string value.
-7. For a chart of any type, add `y` tags to chart series’ names as follows.
+	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag.
+	
+	An x-value expression has the following restrictions depending on a chart type:
+	
+	- For a scatter, bubble, or histogram chart, an x-value expression must return a numeric value.
+	- For a treemap or sunburst chart, an x-value expression corresponds to leaves and must return a string value.
+	- For a chart of another type, an x-value expression must return a numeric, date, or string value.
+	
+7. For a treemap or sunburst chart, add `x2` and `x3` tags (corresponding to stems and branches respectively) to the chart title as follows.
 {{< highlight csharp >}}
-<<y [y_value_expression]>>
+<<x2 [x2_value_expression]>><<x3 [x3_value_expression]>>
 {{< /highlight >}}
-An y-value expression must return a numeric value.
 
-8. For a bubble chart, add `size` tags to chart series’ names as follows.
-{{< highlight csharp >}}
-<<size [bubble_size_expression]>>
-{{< /highlight >}}
-A bubble-size expression must return a numeric value.
+8. For a chart of any type other than histogram, add `y` tags to chart series’ names as follows.
+  {{< highlight csharp >}}
+  <<y [y_value_expression]>>
+  {{< /highlight >}}
+  An y-value expression must return a numeric value.
+
+9. For a bubble chart, add `size` tags to chart series’ names as follows.
+  {{< highlight csharp >}}
+  <<size [bubble_size_expression]>>
+  {{< /highlight >}}
+  A bubble-size expression must return a numeric value.
 
 **Note** – A closing `foreach` tag is not used for a chart.
 
-While composing expressions for `x`, `y`, and `size` tags, you can normally reference an iteration variable declared at the corresponding `foreach` tag in a chart title in the same way as if you intended to output results of expressions within a data band.
+While composing expressions for `x`, `x2`, `x3`, `y`, and `size` tags, you can normally reference an iteration variable declared at the corresponding `foreach` tag in a chart title in the same way as if you intended to output results of expressions within a data band.
 
 **Note** – You can normally use charts with dynamic data within data bands.
 
 During runtime, a chart with a `foreach` tag in its title is processed by the engine as follows:
 
 1. A sequence expression declared at the `foreach` tag is evaluated and iterated.
-1. For every sequence item, expressions declared at `x`, `y`, and `size` tags are evaluated.
+1. For every sequence item, expressions declared at `x`, `x2`, `x3`, `y`, and `size` tags are evaluated.
 1. Results of these expressions are used to populate corresponding chart series.
-1. All `foreach`, `x`, `y`, and `size` tags are removed from the chart title and chart series’ names.
+1. All `foreach`, `x`, `x2`, `x3`, `y`, and `size` tags are removed from the chart title and chart series’ names.
 
 Consider the following example. Assume that you have the `Manager` and `Contract` classes defined in your application as follows.
 
@@ -164,6 +180,8 @@ A color expression must return a value of one of the following types:
  - A value of the [Color](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color?view=net-6.0) type.
 
 During runtime, expressions declared within `pointColor` tags are evaluated and corresponding chart series points are colored accordingly. The `pointColor` tags are removed then.
+
+**Note –** Dynamic coloring of individual chart series points is not supported for histogram and box & whisker charts, and only partially supported for treemap and sunburst charts – It works only for leaves.
 
 Consider the following example. Assume that you have the `ColoredItem` class defined in your application as follows.
 
