@@ -11,9 +11,11 @@ url: /it/net/what-s-new-in-aspose-words-for-net/
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle versioni recenti.
 
-## Aspose.Words per .NET 24.1
+## Aspose.Words per .NET 24.1, 24.2
 
 Aspose.Words 24.1 migliora l'esperienza relativa alla gestione dei colori dei tratti, migliora gli oggetti OLE e il reporting LINQ, oltre a introdurre un nuovo API pubblico delle origini bibliografiche.
+
+Aspose.Words 24.2 ha ampliato l'API dei grafici, la gestione degli stili e le opzioni LINQ. Questa versione di Aspose.Words ha anche introdotto la possibilità di specificare SvgSaveOptions durante il rendering, un controllo più flessibile nel caricamento dei file Markdown e l'utilizzo del testo di riferimento per note a piè di pagina e note di chiusura.
 
 ### Rendering e stampa
 
@@ -21,15 +23,34 @@ Aspose.Words 24.1 migliora l'esperienza relativa alla gestione dei colori dei tr
 
 La classe [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) è stata estesa con una serie di nuove proprietà pubbliche relative alla gestione dei colori del tratto: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) e [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) e [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
+#### Estensione DrawingML Charts API <sup>24.2</sup>
+
+Dei **DrawingML Charts API** continua ad essere ampliata.
+
+### Caricamento e salvataggio di documenti
+
+#### Specificare SvgSaveOptions durante il rendering <sup>24.2</sup>
+
+È stata aggiunta la funzionalità per specificare [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) durante il rendering utilizzando i metodi [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) e [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/).
+
+#### Conserva le righe vuote durante il caricamento dei file Markdown <sup>24.2</sup>
+
+È stata aggiunta la possibilità di preservare le righe vuote durante il caricamento dei file Markdown.
+
 ### Altro
 
 * È stata introdotta la possibilità di modificare il testo del controllo OLE `TextBox` aggiungendo una nuova proprietà [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) alla nuova classe [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
 * Il API pubblico delle fonti bibliografiche è stato implementato aggiungendo un nuovo spazio dei nomi [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) con le sue nuove classi ed enumerazioni e aggiungendo una nuova proprietà [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) alla classe [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
 * È stato fornito un API per limitare l'accesso ai membri del tipo utilizzando la sintassi del modello per LINQ Reporting Engine. <sup>24.1</sup>
+* Alla classe [Style](https://reference.aspose.com/words/net/aspose.words/style/) sono state aggiunte le nuove proprietà pubbliche [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) e [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) per una gestione migliorata dello stile. <sup>24.2</sup>
+- La funzionalità per recuperare il testo del segno di riferimento effettivo per le note a piè di pagina e le note di chiusura è stata migliorata con la proprietà [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) e il metodo [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
+- È stata abilitata la compatibilità con i grafici di `Word 2016` per `LINQ Reporting Engine`. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+
+Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
 {{% /alert %}}
 

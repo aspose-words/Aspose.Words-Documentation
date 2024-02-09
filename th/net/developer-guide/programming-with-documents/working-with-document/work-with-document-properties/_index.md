@@ -1,0 +1,119 @@
+---
+title: ทำงานกับคุณสมบัติเอกสารใน C#
+second_title: Aspose.Words สำหรับ .NET
+articleTitle: ทำงานกับคุณสมบัติเอกสาร
+linktitle: ทำงานกับคุณสมบัติเอกสาร
+description: "Aspose.Words สำหรับ .NET ช่วยให้สามารถจัดเก็บข้อมูลที่เป็นประโยชน์เกี่ยวกับเอกสารของคุณ เช่น API และหมายเลขเวอร์ชันหรือ Date ที่ได้รับอนุญาต ในคุณสมบัติเอกสารในตัวหรือแบบกำหนดเองโดยใช้ C#"
+type: docs
+weight: 10
+url: /th/net/work-with-document-properties/
+---
+
+คุณสมบัติเอกสารช่วยให้สามารถจัดเก็บข้อมูลที่เป็นประโยชน์เกี่ยวกับเอกสารของคุณได้ คุณสมบัติเหล่านี้สามารถแบ่งออกเป็นสองกลุ่ม:
+
+* ระบบหรือบิวด์อินที่มีค่าต่างๆ เช่น ชื่อเอกสาร ชื่อผู้เขียน สถิติเอกสาร และอื่นๆ
+* ผู้ใช้กำหนดหรือกำหนดเอง โดยระบุเป็นคู่ของชื่อ-ค่า ซึ่งผู้ใช้สามารถกำหนดทั้งชื่อและค่าได้
+
+มีประโยชน์ที่จะทราบว่าข้อมูลเกี่ยวกับ API และหมายเลขเวอร์ชันถูกเขียนโดยตรงไปยังเอกสารเอาท์พุต ตัวอย่างเช่น เมื่อแปลงเอกสารเป็น PDF แล้ว Aspose.Words จะเติมในช่อง "Application" ด้วย "Aspose.Words" และช่อง "PDF Producer" ด้วย "Aspose.Words สำหรับ .NET YY.MN" โดยที่ *YY.M.N* คือเวอร์ชันของ Aspose.Words ที่ใช้สำหรับการแปลง. สำหรับรายละเอียดเพิ่มเติม โปรดดูที่ [ชื่อตัวสร้างหรือผู้ผลิตรวมอยู่ในเอกสารเอาต์พุต](/words/th/net/generator-or-producer-name-included-in-output-documents/)
+
+{{% alert color="primary" %}}
+
+โปรดทราบว่าคุณ **ไม่สามารถกำกับได้** Aspose.Words เพื่อเปลี่ยนแปลงหรือลบข้อมูลนี้ออกจากเอกสารที่ส่งออก
+
+{{% /alert %}}
+
+## เข้าถึงคุณสมบัติเอกสาร
+
+หากต้องการเข้าถึงคุณสมบัติของเอกสารใน Aspose.Words ให้ใช้:
+
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/builtindocumentproperties/) เพื่อรับคุณสมบัติในตัว
+
+* [CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/customdocumentproperties/) เพื่อรับคุณสมบัติที่กำหนดเอง
+
+**BuiltInDocumentProperties** และ **CustomDocumentProperties** เป็นคอลเลกชันของวัตถุ [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) วัตถุเหล่านี้สามารถรับได้ผ่านคุณสมบัติตัวสร้างดัชนีตามชื่อหรือตามดัชนี
+
+**BuiltInDocumentProperties** ยังให้สิทธิ์เข้าถึงคุณสมบัติของเอกสารผ่านชุดคุณสมบัติที่ป้อนซึ่งส่งคืนค่าประเภทที่เหมาะสม **CustomDocumentProperties** ช่วยให้คุณสามารถเพิ่มหรือลบคุณสมบัติของเอกสารออกจากเอกสารได้
+
+คลาส [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) ช่วยให้คุณได้รับชื่อ ค่า และประเภทของคุณสมบัติเอกสาร [Value](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/value/) ส่งคืนออบเจ็กต์ แต่มีชุดของวิธีการที่ช่วยให้คุณได้รับค่าคุณสมบัติที่แปลงเป็นประเภทเฉพาะ หลังจากที่คุณทราบว่าคุณสมบัติเป็นประเภทใด คุณสามารถใช้หนึ่งในวิธี **DocumentProperty.ToXXX** เช่น **DocumentProperty.**[ToString](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/tostring/) และ **DocumentProperty.**[ToInt](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/toint/) เพื่อรับค่าของประเภทที่เหมาะสม
+
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการระบุคุณสมบัติที่มีอยู่แล้วภายในและแบบกำหนดเองทั้งหมดในเอกสาร:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-EnumerateProperties.cs" >}}
+
+{{% alert color="primary" %}}
+
+คุณสามารถดาวน์โหลดไฟล์เทมเพลตของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Properties.docx)
+
+{{% /alert %}}
+
+ใน Microsoft Word คุณสามารถเข้าถึงคุณสมบัติของเอกสารได้โดยใช้เมนู "ไฟล์ → คุณสมบัติ"
+
+<img src="/words/net/work-with-document-properties/work-with-document-properties-1.png" alt="ทำงานกับเอกสารคุณสมบัติ-1.png" style="width:400px"/>
+
+## เพิ่มหรือลบคุณสมบัติเอกสาร
+
+คุณไม่สามารถเพิ่มหรือลบคุณสมบัติเอกสารในตัวโดยใช้ Aspose.Words คุณสามารถเปลี่ยนหรืออัปเดตค่าได้เท่านั้น
+
+หากต้องการเพิ่มคุณสมบัติเอกสารที่กำหนดเองด้วย Aspose.Words ให้ใช้วิธีการ [Add](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/add/#add/) โดยส่งชื่อคุณสมบัติใหม่และค่าของประเภทที่เหมาะสม วิธีการส่งกลับวัตถุ **DocumentProperty** ที่สร้างขึ้นใหม่
+
+หากต้องการลบคุณสมบัติที่กำหนดเอง ให้ใช้วิธี [Remove](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/) โดยส่งชื่อคุณสมบัติที่จะลบ หรือวิธี [RemoveAt](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/at) เพื่อลบคุณสมบัติตามดัชนี คุณยังสามารถลบคุณสมบัติทั้งหมดโดยใช้วิธี [Clear](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/clear/)
+
+ตัวอย่างโค้ดต่อไปนี้จะตรวจสอบว่ามีคุณสมบัติแบบกำหนดเองที่มีชื่อที่กำหนดอยู่ในเอกสารหรือไม่ และเพิ่มคุณสมบัติเอกสารแบบกำหนดเองอีกสองสามรายการ:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomAdd.cs" >}}
+
+{{% alert color="primary" %}}
+
+คุณสามารถดาวน์โหลดไฟล์เทมเพลตของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Properties.docx)
+
+{{% /alert %}}
+
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการลบคุณสมบัติเอกสารแบบกำหนดเอง:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-CustomRemove.cs" >}}
+
+## อัปเดตคุณสมบัติเอกสารในตัว
+
+Aspose.Words จะไม่อัปเดตคุณสมบัติของเอกสารโดยอัตโนมัติ เช่นเดียวกับที่ Microsoft Word ทำกับคุณสมบัติบางอย่าง แต่มีวิธีการอัปเดตคุณสมบัติเอกสารในตัวทางสถิติบางอย่าง เรียกวิธีการ [UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/#updatewordcount/) เพื่อคำนวณใหม่ และปรับปรุงคุณสมบัติต่อไปนี้:
+
+* [Characters](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characters/)
+* [CharactersWithSpaces](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
+* [Words](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/words/)
+* [Paragraphs](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
+* [Lines](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lines/)
+
+## สร้างคุณสมบัติแบบกำหนดเองใหม่ที่เชื่อมโยงกับเนื้อหา
+
+Aspose.Words มีเมธอด [AddLinkToContent](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) เพื่อสร้างคุณสมบัติเอกสารที่กำหนดเองใหม่ที่เชื่อมโยงกับเนื้อหา คุณสมบัตินี้จะส่งคืนอ็อบเจ็กต์คุณสมบัติที่สร้างขึ้นใหม่หรือเป็นโมฆะหาก [LinkSource](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/linksource/) ไม่ถูกต้อง
+
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีกำหนดค่าลิงก์ไปยังคุณสมบัติที่กำหนดเอง:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-ConfiguringLinkToContent.cs" >}}
+
+## รับตัวแปรเอกสาร
+
+คุณสามารถรับคอลเลกชันของตัวแปรเอกสารได้โดยใช้คุณสมบัติ [Variables](https://reference.aspose.com/words/net/aspose.words/document/variables/) ชื่อและค่าของตัวแปรเป็นสตริง
+
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการระบุตัวแปรเอกสาร:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-GetVariables-GetVariables.cs" >}}
+
+{{% alert color="primary" %}}
+
+คุณสามารถดาวน์โหลดไฟล์เทมเพลตของตัวอย่างนี้ได้จาก [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Properties.docx)
+
+{{% /alert %}}
+
+## ลบข้อมูลส่วนบุคคลออกจากเอกสาร
+
+หากคุณต้องการแชร์เอกสาร Word กับบุคคลอื่น คุณอาจต้องการลบข้อมูลส่วนบุคคล เช่น ชื่อผู้เขียนและบริษัท ในการดำเนินการนี้ ให้ใช้คุณสมบัติ [RemovePersonalInformation](https://reference.aspose.com/words/net/aspose.words/document/removepersonalinformation/) เพื่อตั้งค่าสถานะที่ระบุว่า Microsoft Word จะลบข้อมูลผู้ใช้ทั้งหมดออกจากความคิดเห็น การแก้ไข และคุณสมบัติเอกสารเมื่อบันทึกเอกสาร
+
+ตัวอย่างโค้ดต่อไปนี้แสดงวิธีการลบข้อมูลส่วนบุคคล:
+
+{{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocProperties-RemovePersonalInformation.cs" >}}
+
+{{% alert color="primary" %}}
+
+การตั้งค่าตัวเลือกนี้จริงๆ แล้วจะไม่ลบข้อมูลส่วนบุคคลขณะประมวลผลเอกสารใน Aspose.Words และส่งผลต่อลักษณะการทำงานของ Microsoft Word เท่านั้น
+
+{{% /alert %}}

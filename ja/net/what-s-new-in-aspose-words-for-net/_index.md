@@ -11,25 +11,46 @@ url: /ja/net/what-s-new-in-aspose-words-for-net/
 
 このページでは、最近のリリースで導入された最も興味深い Aspose.Words の新機能について説明します。
 
-## .NET 24.1 用の Aspose.Words
+## .NET 24.1、24.2 用の Aspose.Words
 
 Aspose.Words 24.1 では、ストローク カラーの管理に関するエクスペリエンスが向上し、OLE オブジェクトと LINQ レポートが強化され、さらに新しい参考文献ソースのパブリック API が導入されています。
 
+Aspose.Words 24.2 では、Charts API、スタイル管理、LINQ オプションが拡張されました。 Aspose.Words のこのバージョンでは、レンダリング中に SvgSaveOptions を指定する機能、Markdown ファイルの読み込みをより柔軟に制御する機能、および脚注と文末脚注の参照テキストを操作する機能も導入されました。
+
 ### レンダリングと印刷
 
-#### ストロークカラーコントロール<sup>24.1</sup>
+#### ストロークカラーコントロール <sup>24.1</sup>
 
 [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) クラスは、ストローク カラーの管理に関連する一連の新しいパブリック プロパティ ([ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/)、[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/)、[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/)) で拡張されました。
+
+#### DrawingML チャート API 拡張機能 <sup>24.2</sup>
+
+**DrawingML Charts API** は引き続き拡張されています。
+
+### ドキュメントのロードと保存
+
+#### レンダリング中に SvgSaveOptions を指定する <sup>24.2</sup>
+
+[ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) メソッドと [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) メソッドを使用して、レンダリング中に [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) を指定する機能が追加されました。
+
+#### Markdown ファイルのロード時に空行を保持する <sup>24.2</sup>
+
+Markdown ファイルをロードするときに空行を保持する機能が追加されました。
 
 ### 他の
 
 * `TextBox` OLE コントロールのテキストを変更する機能は、新しい [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) プロパティを新しい [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) クラスに追加することによって導入されました。 <sup>24.1</sup>
 * 参考文献ソースのパブリック API は、新しいクラスと列挙を備えた新しい名前空間 [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) を追加し、[Document](https://reference.aspose.com/words/net/aspose.words/document/) クラスに新しい [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) プロパティを追加することによって実装されました。 <sup>24.1</sup>
 * LINQ Reporting Engine のテンプレート構文を使用して型メンバーへのアクセスを制限する API が提供されています。 <sup>24.1</sup>
+* スタイル管理を強化するための新しいパブリック プロパティ [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)、および [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) が [Style](https://reference.aspose.com/words/net/aspose.words/style/) クラスに追加されました。 <sup>24.2</sup>
+- 脚注と文末脚注の実際の参照マーク テキストを取得する機能が、[ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) プロパティと [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) メソッドによって強化されました。 <sup>24.2</sup>
+- `LINQ Reporting Engine` の `Word 2016` グラフとの互換性が有効になりました。 <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for .NET 24.1 リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for .NET 24.2 リリースノート](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

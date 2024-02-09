@@ -11,9 +11,11 @@ url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## Python via .NET 24.1 için Aspose.Words
+## Python via .NET 24.1, 24.2 için Aspose.Words
 
 Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
+
+Aspose.Words 24.2 genişletilmiş Charts API'si ve stil yönetimi. Aspose.Words'ün bu sürümü aynı zamanda işleme sırasında SvgSaveOptions'ı belirtme, Markdown dosyalarını yükleme konusunda daha esnek kontrol ve dipnotlar ve sonnotlar için referans metniyle çalışma özelliklerini de tanıttı.
 
 ### İşleme ve Yazdırma
 
@@ -21,14 +23,32 @@ Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnel
 
 [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: **ForeThemeColor** ve **BackThemeColor**, **ForeTintAndShade** ve **BackTintAndShade**.
 
+#### DrawingML Charts API Uzantısı <sup>24.2</sup>
+
+**DrawingML Charts API** genişletilmeye devam ediyor.
+
+### Belgeleri Yükleme ve Kaydetme
+
+#### İşleme Sırasında SvgSaveOptions'ı Belirtin <sup>24.2</sup>
+
+Oluşturma sırasında [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) belirtme yeteneği [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) ve [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) yöntemleri kullanılarak eklenmiştir.
+
+#### Markdown Dosyalarını Yüklerken Boş Satırları Koruyun <sup>24.2</sup>
+
+Markdown dosyalarını yüklerken boş satırları koruma özelliği eklendi.
+
 ### Diğer
 
 * `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni **TextBoxControl** sınıfına yeni bir **Text** özelliği eklenerek tanıtıldı. <sup>24.1</sup>
 * Bibliyografya Kaynakları genel API'i, yeni sınıfları ve numaralandırmalarıyla yeni bir **Aspose.Words.Bibliography** ad alanı eklenmesi ve **Document** sınıfına yeni bir **Bibliography** özelliği eklenmesi yoluyla uygulandı. <sup>24.1</sup>
+* Gelişmiş stil yönetimi için yeni genel özellikler [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) ve [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/), [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) sınıfına eklendi. <sup>24.2</sup>
+* Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) özelliği ve [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 [Python via .NET 24.1 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/) hakkında daha fazla bilgi edinin.
+
+[Python via .NET 24.2 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

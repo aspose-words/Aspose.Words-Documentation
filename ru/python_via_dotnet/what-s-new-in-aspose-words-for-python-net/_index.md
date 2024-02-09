@@ -11,9 +11,11 @@ url: /ru/python-net/what-s-new-in-aspose-words-for-python-net/
 
 На этой странице описаны наиболее интересные новые функции Aspose.Words, представленные в последних выпусках.
 
-## Aspose.Words для Python via .NET 24.1
+## Aspose.Words для Python via .NET 24.1, 24.2
 
 Aspose.Words 24.1 улучшает управление цветами штрихов, совершенствует объекты OLE, а также представляет новый общедоступный API "Источники библиографии".
+
+Aspose.Words версии 24.2 расширен Charts API и управление стилями. В этой версии Aspose.Words также появилась возможность указывать SvgSaveOptions во время рендеринга, более гибко управлять загрузкой файлов Markdown и работать со ссылочным текстом для сносок и концевых сносок.
 
 ### Рендеринг и печать
 
@@ -21,14 +23,32 @@ Aspose.Words 24.1 улучшает управление цветами штри�
 
 Класс [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) был расширен набором новых общедоступных свойств, связанных с управлением цветами обводки: **ForeThemeColor** и **BackThemeColor**, **ForeTintAndShade** и **BackTintAndShade**.
 
+#### Расширение DrawingML Charts API <sup>24.2</sup>
+
+**DrawingML Charts API** продолжает расширяться.
+
+### Загрузка и сохранение документов
+
+#### Укажите SvgSaveOptions во время рендеринга <sup>24.2</sup>
+
+Возможность указывать [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) во время рендеринга была добавлена с помощью методов [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) и [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions).
+
+#### Сохранять пустые строки при загрузке файлов Markdown <sup>24.2</sup>
+
+Добавлена возможность сохранять пустые строки при загрузке файлов Markdown.
+
 ### Другой
 
 * Возможность изменять текст элемента управления `TextBox` OLE появилась путем добавления нового свойства **Text** в новый класс **TextBoxControl**. <sup>24.1</sup>
 * Открытый API-файл "Источники библиографии" был реализован путем добавления нового пространства имен **Aspose.Words.Bibliography** с его новыми классами и перечислениями, а также путем добавления нового свойства **Bibliography** в класс **Document**. <sup>24.1</sup>
+* В класс [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) добавлены новые общедоступные свойства [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) и [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) для расширенного управления стилями. <sup>24.2</sup>
+* Функциональность получения фактического текста справочной метки для сносок и концевых сносок была расширена за счет свойства [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) и метода [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 Узнайте больше о [Aspose.Words для Python via .NET 24.1. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+
+Узнайте больше о [Aspose.Words для Python via .NET 24.2. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 {{% /alert %}}
 

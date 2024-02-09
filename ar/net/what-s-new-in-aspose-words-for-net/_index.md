@@ -11,9 +11,11 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words لـ .NET 24.1
+## Aspose.Words لـ .NET 24.1, 24.2
 
 يعمل Aspose.Words 24.1 على تحسين التجربة المتعلقة بإدارة ألوان الحدود، ويعزز كائنات OLE وتقارير LINQ، بالإضافة إلى تقديم مصادر المراجع الببليوغرافية الجديدة API العامة.
+
+قام Aspose.Words 24.2 بتوسيع Charts API وإدارة الأنماط وخيارات LINQ. يقدم هذا الإصدار من Aspose.Words أيضًا إمكانية تحديد SvgSaveOptions أثناء العرض، وتحكم أكثر مرونة في تحميل ملفات Markdown، والعمل مع النص المرجعي للحواشي السفلية والتعليقات الختامية.
 
 ### التقديم والطباعة
 
@@ -21,15 +23,34 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 تم توسيع فئة [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) بمجموعة من الخصائص العامة الجديدة المتعلقة بإدارة ألوان الحدود: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) و[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/) و[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) و[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
+#### <sup>24.2</sup> DrawingML Charts API ملحق
+
+يستمر توسيع واجهة برمجة تطبيقات **DrawML Charts API**.
+
+### تحميل وحفظ المستندات
+
+#### <sup>24.2</sup>  حدد SvgSaveOptions أثناء العرض
+
+تمت إضافة القدرة على تحديد [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) أثناء العرض باستخدام الأساليب [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) و [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) 
+
+#### <sup>24.2</sup>  الحفاظ على الأسطر الفارغة عند تحميل ملفات Markdown
+
+تمت إضافة القدرة على الحفاظ على الأسطر الفارغة عند تحميل ملفات Markdown.
+
 ### آخر
 
-* تم تقديم القدرة على تعديل نص عنصر تحكم `TextBox` OLE عن طريق إضافة خاصية [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) جديدة إلى فئة [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) الجديدة. <sup>24.1</sup>
+* تم تقديم القدرة على تعديل نص عنصر تحكم `TextBox` OLE عن طريق إضافة خاصية [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) جديدة إلى فئة [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) الجديدة.   <sup>24.1</sup>
 * تم تنفيذ API العام لمصادر المراجع من خلال إضافة مساحة اسم جديدة [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) مع فئاتها وتعداداتها الجديدة، ومن خلال إضافة خاصية [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) جديدة إلى فئة [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
 * تم توفير API لتقييد الوصول إلى أعضاء الكتابة الذين يستخدمون صيغة القالب لمحرك تقارير LINQ. <sup>24.1</sup>
+* تمت إضافة الخصائص العامة الجديدة [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)، [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)، و [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/)  لإدارة النمط المحسنة إلى فئة [Style](https://reference.aspose.com/words/net/aspose.words/style/). <sup>24.2</sup>
+* تم تحسين وظيفة استرداد نص العلامة المرجعية الفعلي للحواشي السفلية والتعليقات الختامية باستخدام خاصية [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) وأسلوب [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>  
+* تم تمكين التوافق مع مخططات `Word 2016` لمحرك تقارير LINQ. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
 {{% /alert %}}
 

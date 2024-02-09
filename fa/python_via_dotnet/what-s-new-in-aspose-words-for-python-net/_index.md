@@ -11,9 +11,11 @@ url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای Python via .NET 24.1
+## Aspose.Words برای Python via .NET 24.1, 24.2
 
 Aspose.Words 24.1 تجربه مدیریت رنگ‌های ضربه‌ای را بهبود می‌بخشد، اشیاء OLE را بهبود می‌بخشد، و همچنین یک API عمومی منابع کتاب‌شناسی جدید را معرفی می‌کند.
+
+Aspose.Words 24.2 نمودارهای API و مدیریت سبک را گسترش داد. این نسخه از Aspose.Words همچنین توانایی تعیین SvgSaveOptions در حین رندر، کنترل انعطاف‌پذیرتر بارگیری فایل‌های Markdown و مدیریت متن مرجع برای پاورقی‌ها و یادداشت‌های پایانی را معرفی کرد.
 
 ### رندر و چاپ
 
@@ -21,14 +23,32 @@ Aspose.Words 24.1 تجربه مدیریت رنگ‌های ضربه‌ای را �
 
 کلاس [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) با مجموعه ای از ویژگی های عمومی جدید مرتبط با مدیریت رنگ های ضربه ای گسترش یافته است: **ForeThemeColor** و **BackThemeColor**، **ForeTintAndShade** و **BackTintAndShade**.
 
+#### افزونه DrawingML Charts API <sup>24.2</sup>
+
+**DrawingML Charts API** همچنان در حال گسترش است.
+
+### بارگیری و ذخیره اسناد
+
+#### SvgSaveOptions را در حین رندر مشخص کنید <sup>24.2</sup>
+
+قابلیت تعیین [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) در حین رندر با استفاده از متدهای [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) و [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) اضافه شده است.
+
+#### هنگام بارگیری فایل های Markdown خطوط خالی را حفظ کنید <sup>24.2</sup>
+
+قابلیت حفظ خطوط خالی هنگام بارگذاری فایل های Markdown اضافه شده است.
+
 ### دیگر
 
 * قابلیت تغییر متن کنترل `TextBox` OLE با افزودن ویژگی **Text** جدید به کلاس **TextBoxControl** جدید معرفی شده است. <sup>24.1</sup>
 * منابع کتاب‌شناسی عمومی API از طریق افزودن فضای نام جدید **Aspose.Words.Bibliography** با کلاس‌ها و شمارش‌های جدید و از طریق افزودن یک ویژگی **Bibliography** جدید به کلاس **Document** پیاده‌سازی شد. <sup>24.1</sup>
+* ویژگی های عمومی جدید [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/)، [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) و [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) برای مدیریت سبک پیشرفته به کلاس [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) اضافه شده است. <sup>24.2</sup>
+* قابلیت بازیابی متن علامت مرجع واقعی برای پاورقی ها و یادداشت های پایانی با ویژگی [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) و روش [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) بهبود یافته است. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/) بیشتر بدانید.
+
+درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

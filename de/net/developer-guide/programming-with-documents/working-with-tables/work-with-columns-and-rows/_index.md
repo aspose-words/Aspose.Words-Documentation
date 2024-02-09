@@ -1,0 +1,121 @@
+---
+title: Arbeiten Sie mit Spalten und Zeilen in C#
+second_title: Aspose.Words für .NET
+articleTitle: Arbeiten Sie mit Spalten und Zeilen
+linktitle: Arbeiten Sie mit Spalten und Zeilen
+description: "Arbeiten mit Teilen einer Tabelle – Zeilen, Spalten und Zellen mit C#. Geben Sie die Kopfzeile C# an."
+type: docs
+weight: 30
+url: /de/net/working-with-columns-and-rows/
+---
+
+Um mehr Kontrolle über die Funktionsweise von Tabellen zu erhalten, erfahren Sie, wie Sie Spalten und Zeilen bearbeiten.
+
+## Suchen Sie den Tabellenelementindex {#find-the-index-of-table-elements}
+
+Spalten, Zeilen und Zellen werden verwaltet, indem auf den ausgewählten Dokumentknoten über seinen Index zugegriffen wird. Um den Index eines beliebigen Knotens zu finden, müssen alle untergeordneten Knoten des Elementtyps vom übergeordneten Knoten erfasst und dann mithilfe der [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/)-Methode der Index des gewünschten Knotens in der Sammlung ermittelt werden.
+
+### Finden Sie den Index einer Tabelle in einem Dokument {#find-the-index-of-table-in-a-document}
+
+Manchmal müssen Sie möglicherweise Änderungen an einer bestimmten Tabelle in einem Dokument vornehmen. Dazu können Sie über ihren Index auf eine Tabelle verweisen.
+
+Das folgende Codebeispiel zeigt, wie der Index einer Tabelle in einem Dokument abgerufen wird:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-table-index.cs" >}}
+
+### Finden Sie den Index einer Zeile in einer Tabelle {#find-the-index-of-a-row-in-a-table}
+
+Ebenso müssen Sie möglicherweise Änderungen an einer bestimmten Zeile in einer ausgewählten Tabelle vornehmen. Dazu können Sie eine Zeile auch über ihren Index referenzieren.
+
+Das folgende Codebeispiel zeigt, wie der Index einer Zeile in einer Tabelle abgerufen wird:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-row-index.cs" >}}
+
+### Finden Sie den Index einer Zelle in einer Zeile {#find-the-index-of-a-cell-in-a-row}
+
+Schließlich müssen Sie möglicherweise Änderungen an einer bestimmten Zelle vornehmen, und Sie können dies auch über den Zellindex tun.
+
+Das folgende Codebeispiel zeigt, wie der Index einer Zelle in einer Zeile abgerufen wird:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "retrieve-cell-index.cs" >}}
+
+## Arbeiten Sie mit {#work-with-columns}-Spalten
+
+Im Aspose.Words Document Object Model (DOM) besteht der [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)-Knoten aus [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)-Knoten und dann aus [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)-Knoten. Daher gibt es im `Document`-Objektmodell von Aspose.Words, wie auch in Word-Dokumenten, kein Konzept einer Spalte.
+
+Die Tabellenzeilen in Microsoft Word und Aspose.Words sind konstruktionsbedingt völlig unabhängig und die grundlegenden Eigenschaften und Operationen sind nur in den Zeilen und Zellen der Tabelle enthalten. Dies gibt Tabellen die Möglichkeit, einige interessante Attribute zu haben:
+
+- Jede Tabellenzeile kann eine völlig unterschiedliche Anzahl von Zellen haben
+- Vertikal können die Zellen jeder Zeile unterschiedliche Breiten haben
+- Es ist möglich, Tabellen mit unterschiedlichen Zeilenformaten und Zellenanzahlen zu verbinden
+
+Alle an Spalten ausgeführten Operationen sind eigentlich "Abkürzungen", die die Operation ausführen, indem sie Zeilenzellen gemeinsam so ändern, dass es aussieht, als würden sie auf Spalten angewendet. Das heißt, Sie können Operationen an Spalten ausführen, indem Sie einfach über denselben Zellenindex der Tabellenzeile iterieren.
+
+Das folgende Codebeispiel vereinfacht solche Vorgänge, indem es eine Fassadenklasse beweist, die die Zellen sammelt, aus denen eine "Spalte" einer Tabelle besteht:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "column-class.cs" >}}
+
+Das folgende Codebeispiel zeigt, wie man eine leere Spalte in eine Tabelle einfügt:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "insert-blank-column.cs" >}}
+
+Das folgende Codebeispiel zeigt, wie eine Spalte aus einer Tabelle in einem Dokument entfernt wird:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "remove-column.cs" >}}
+
+## Geben Sie Zeilen als Kopfzeilen an
+
+Sie können die erste Zeile in der Tabelle als Kopfzeile nur auf der ersten Seite oder auf jeder Seite wiederholen, wenn die Tabelle in mehrere geteilt ist. In Aspose.Words können Sie die Kopfzeile mithilfe der [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/)-Eigenschaft auf jeder Seite wiederholen.
+
+Sie können auch mehrere Kopfzeilen markieren, wenn diese am Anfang der Tabelle hintereinander stehen. Dazu müssen Sie die **HeadingFormat**-Eigenschaften auf diese Zeilen anwenden.
+
+{{% alert color="primary" %}}
+
+Beachten Sie, dass Kopfzeilen in verschachtelten Tabellen nicht funktionieren. Das heißt, wenn Sie eine Tabelle in einer anderen Tabelle haben, hat diese Einstellung keine Auswirkung. Es ist eine Einschränkung von Microsoft Word, die dies nicht zulässt, nicht von Aspose.Words.
+
+{{% /alert %}}
+
+Das folgende Codebeispiel zeigt, wie eine Tabelle erstellt wird, die Kopfzeilen enthält, die sich auf nachfolgenden Seiten wiederholen:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "repeat-rows-on-subsequent-pages.cs" >}}
+
+## Verhindern Sie, dass Tabellen und Zeilen über Seiten hinweg umbrechen. {#keep-tables-and-rows-from-breaking-across-pages}
+
+Es gibt Zeiten, in denen der Inhalt einer Tabelle nicht auf mehrere Seiten aufgeteilt werden sollte. Wenn beispielsweise ein Titel über einer Tabelle steht, sollten Titel und Tabelle immer zusammen auf derselben Seite bleiben, um das richtige Erscheinungsbild zu gewährleisten.
+
+Es gibt zwei verschiedene Techniken, die zum Erreichen dieser Funktionalität nützlich sind:
+
+- `Allow row break across pages`, das auf Tabellenzeilen angewendet wird
+- `Keep with next`, das auf Absätze in Tabellenzellen angewendet wird
+
+Standardmäßig sind die oben genannten Eigenschaften deaktiviert.
+
+### Verhindern Sie, dass eine Zeile über mehrere Seiten bricht, {#keep-a-row-from-breaking-across-pages}
+
+Dabei wird verhindert, dass Inhalte innerhalb der Zellen einer Zeile auf eine Seite aufgeteilt werden. In Microsoft Word ist dies unter "Tabelleneigenschaften" als Option "Zeilenumbruch über Seiten hinweg zulassen" zu finden. In Aspose.Words ist dies unter dem [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/)-Objekt eines [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) als Eigenschaft [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages) zu finden.
+
+Das folgende Codebeispiel zeigt, wie Sie den seitenübergreifenden Zeilenumbruch für jede Zeile in einer Tabelle deaktivieren:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "row-format-disable-break-across-pages.cs" >}}
+
+{{% alert color="primary" %}}
+
+Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx) herunterladen.
+
+{{% /alert %}}
+
+### Verhindern Sie, dass eine Tabelle über mehrere Seiten bricht, {#keep-a-table-from-breaking-across-pages}
+
+Um zu verhindern, dass die Tabelle auf mehrere Seiten aufgeteilt wird, müssen wir angeben, dass der in der Tabelle enthaltene Inhalt zusammen bleiben soll.
+
+Zu diesem Zweck verwendet Aspose.Words eine Methode, die es Benutzern ermöglicht, eine Tabelle auszuwählen und den [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/)-Parameter für jeden Absatz innerhalb der Tabellenzellen in true zu aktivieren. Die Ausnahme bildet der letzte Absatz in der Tabelle, der auf false eingestellt werden sollte.
+
+Das folgende Codebeispiel zeigt, wie man eine Tabelle so einrichtet, dass sie zusammen auf derselben Seite bleibt:
+
+{{< gist "aspose-words-gists" "7e7e54ead8b97457543ea46fc6bae045" "keep-table-together.cs" >}}
+
+{{% alert color="primary" %}}
+
+Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Table%20spanning%20two%20pages.docx) herunterladen.
+
+{{% /alert %}}

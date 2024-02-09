@@ -11,25 +11,46 @@ url: /zh/net/what-s-new-in-aspose-words-for-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## .NET 24.1 的 Aspose.Words
+## .NET 24.1、24.2 的 Aspose.Words
 
 Aspose.Words 24.1 改进了管理笔划颜色的体验，增强了 OLE 对象和 LINQ 报告，并引入了新的书目源公共 API。
 
+Aspose.Words 24.2 扩展了 Charts API、样式管理和 LINQ 选项。 此版本的 Aspose.Words 还引入了在渲染期间指定 SvgSaveOptions 的功能、更灵活的控制加载 Markdown 文件以及使用脚注和尾注的参考文本。
+
 ### 渲染和打印
 
-#### 描边颜色控制<sup>24.1</sup>
+#### 描边颜色控制 <sup>24.1</sup>
 
 [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) 类已扩展为一组与管理描边颜色相关的新公共属性：[ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) 和 [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) 和 [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/)。
+
+#### DrawingML图表API扩展 <sup>24.2</sup>
+
+**DrawingML Charts API** 不断扩展。
+
+### 加载和保存文档
+
+#### 渲染期间指定SvgSaveOptions <sup>24.2</sup>
+
+使用 [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) 和 [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) 方法添加了在渲染期间指定 [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) 的功能。
+
+#### 加载 Markdown 文件时保留空行 <sup>24.2</sup>
+
+添加了加载 Markdown 文件时保留空行的功能。
 
 ### 其他
 
 * 通过向新的 [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) 类添加新的 [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) 属性，引入了修改 `TextBox` OLE 控件文本的功能。 <sup>24.1</sup>
 * Bibliography Sources 公共 API 是通过添加新的名称空间 [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) 及其新类和枚举以及通过向 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 类添加新的 [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) 属性来实现的。 <sup>24.1</sup>
 * 提供了一个 API，用于使用 LINQ 报告引擎的模板语法来限制对类型成员的访问。 <sup>24.1</sup>
+* 用于增强样式管理的新公共属性 [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) 和 [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) 已添加到 [Style](https://reference.aspose.com/words/net/aspose.words/style/) 类中。 <sup>24.2</sup>
+- 通过 [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) 属性和 [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) 方法增强了检索脚注和尾注实际引用标记文本的功能。 <sup>24.2</sup>
+- 已启用 `LINQ` 报告引擎与 `Word 2016` 图表的兼容性。 <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 了解有关 [Aspose.Words for .NET 24.1 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for .NET 24.2 发行说明](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) 的更多信息。
 
 {{% /alert %}}
 
