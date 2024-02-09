@@ -11,9 +11,11 @@ url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Python via .NET 24.1
+## Aspose.Words untuk Python via .NET 24.1, 24.2
 
 Aspose.Words 24.1 meningkatkan pengalaman dalam mengelola warna guratan, menyempurnakan objek OLE, serta memperkenalkan API publik Sumber Bibliografi baru.
+
+Aspose.Words 24.2 memperluas API Charts, dan manajemen gaya. Versi Aspose.Words ini juga memperkenalkan kemampuan untuk menentukan SvgSaveOptions selama rendering, kontrol yang lebih fleksibel dalam memuat file Markdown, dan bekerja dengan teks referensi untuk catatan kaki dan catatan akhir.
 
 ### Rendering dan Pencetakan
 
@@ -21,14 +23,32 @@ Aspose.Words 24.1 meningkatkan pengalaman dalam mengelola warna guratan, menyemp
 
 Kelas [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan pengelolaan warna guratan: **ForeThemeColor** dan **BackThemeColor**, **ForeTintAndShade** dan **BackTintAndShade**.
 
+#### Ekstensi DrawingML Charts API <sup>24.2</sup>
+
+**DrawingML Charts API** terus diperluas.
+
+### Memuat dan Menyimpan Dokumen
+
+#### Tentukan SvgSaveOptions Selama Rendering <sup>24.2</sup>
+
+Kemampuan untuk menentukan [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) selama rendering telah ditambahkan menggunakan metode [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) dan [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions).
+
+#### Pertahankan Baris Kosong saat Memuat file Markdown <sup>24.2</sup>
+
+Kemampuan untuk mempertahankan baris kosong saat memuat file Markdown telah ditambahkan.
+
 ### Lainnya
 
 * Kemampuan untuk memodifikasi teks kontrol `TextBox` OLE telah diperkenalkan dengan menambahkan properti **Text** baru ke kelas **TextBoxControl** baru. <sup>24.1</sup>
 * API publik Sumber Bibliografi diimplementasikan melalui penambahan namespace **Aspose.Words.Bibliography** baru dengan kelas dan enumerasi baru, dan melalui penambahan properti **Bibliography** baru ke kelas **Document**. <sup>24.1</sup>
+* Properti publik baru [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), dan [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) untuk manajemen gaya yang ditingkatkan telah ditambahkan ke kelas [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
+* Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) dan metode [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 {{% /alert %}}
 

@@ -24,7 +24,14 @@ public class Manager
 	public String getName() { ... }
 	public int getAge() { ... }
 	public byte[] getPhoto() { ... }
+	public Country getCountry() { ... }
 	public Iterable<Contract> getContracts() { ... }
+	...
+}
+
+public class Country
+{
+	public String getName() { ... }
 	...
 }
 
@@ -48,12 +55,12 @@ public class Client
 
 ### Template Example
 
-|![Single_Row_Template_Example_aspose_words_java](single-row-template-example1.png) | Name: &lt;&lt;[manager.getName()]&gt;&gt; <br> Age: &lt;&lt;[manager.getAge()]&gt;&gt; |
+|<img src="single-row-template-example2.jpg" alt="Single_Row_Template_Example-aspose-words-net" style="width:150px"/>) | Name: &lt;&lt;[manager.getName()]&gt;&gt; <br> Age: &lt;&lt;[manager.getAge()]&gt;&gt; |
 | :- | :- |
 
 ### Report Example
 
-|![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png)|Name: John Smith <br> Age: 37 |
+|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/>|Name: John Smith <br> Age: 37 |
 | :- | :- |
 
 ## In-Paragraph List Template
@@ -159,12 +166,12 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> &lt;&lt;[getName()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example2.jpg" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/>) <br> &lt;&lt;[getName()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
 
-|![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> John Smith <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> Tony Anderson <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> July James|
+|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> John Smith <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James|
 | :- |
 
 ## In-Table List Template
@@ -460,12 +467,12 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br> ![Common_List_Template_Example_aspose_words_java](common-list-template-example.png) <br> &lt;&lt;[getName()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in getContracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br><img src="common-list-template-example2.jpg" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[getName()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in getContracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
 
-|![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> ![Single_Row_Report_Example_aspose_words_java](single-row-report-example1.png) <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
+|<img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> John Smith <br> Clients: A Company, B Ltd., C & D <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> Tony Anderson <br> Clients: E Corp., F & Partners <br> <img src="single-row-report-example1.png" alt="Single_Row_Report_Example-aspose-words-net" style="width:150px"/> <br> July James <br> Clients: G & Co., H Group, I & Sons, J Ent.|
 | :- |
 
 ## In-Table Master-Detail Template
@@ -518,6 +525,64 @@ We provide support for the following clients:
 **Report Example**
 
 <img src="pie-chart-report-example.jpg" alt="Pie_Chart_Report_Example-aspose-words-java" style="width:600px"/>
+
+## Sunburst Chart Template
+
+**Template Example**
+
+<img src="sunburst-chart-template1.jpg" alt="sunburst-chart-template-aspose-words-net" style="width:600px"/>
+
+<img src="sunburst-chart-template2.jpg" alt="sunburst-chart-template-aspose-words-net" style="width:600px"/>
+
+<img src="sunburst-chart-template2.jpg" alt="sunburst-chart-template-aspose-words-net" style="width:600px"/>
+
+**Initial Chart Series Data**
+
+<img src="sunburst-chart-example1.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
+
+<img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
+
+<img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
+
+**Report Example**
+
+<img src="sunburst-chart-report.jpg" alt="sunburst-chart-report-aspose-words-net" style="width:600px"/>
+
+## Treemap Chart Template
+
+**Template Example**
+
+<img src="treemap-chart-template1.jpg" alt="treemap-chart-template-aspose-words-net" style="width:600px"/>
+
+<img src="treemap-chart-template2.jpg" alt="treemap-chart-template-aspose-words-net" style="width:600px"/>
+
+<img src="treemap-chart-template2.jpg" alt="treemap-chart-template-aspose-words-net" style="width:600px"/>
+
+**Initial Chart Series Data**
+
+<img src="sunburst-chart-example1.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
+
+<img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
+
+<img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
+
+**Report Example**
+
+<img src="treemap-chart-report.jpg" alt="treemap-chart-report-aspose-words-net" style="width:600px"/>
+
+## Histogram Chart Template
+
+**Template Example**
+
+<img src="histogram-chart-template1.jpg" alt="Histigram_Chart_Template1-aspose-words-net" style="width:600px"/>
+
+<img src="histogram-chart-template2.jpg" alt="Histigram_Chart_Template2-aspose-words-net" style="width:600px"/>
+
+<img src="histogram-chart-template2.jpg" alt="Histigram_Chart_Template2-aspose-words-net" style="width:600px"/>
+
+**Report Example**
+
+<img src="histogram-chart-report.jpg" alt="Histigram_Chart_Report-aspose-words-net" style="width:600px"/>
 
 ## Scatter Chart Template
 

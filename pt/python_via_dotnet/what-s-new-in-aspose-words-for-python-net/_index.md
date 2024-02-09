@@ -11,9 +11,11 @@ url: /pt/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
-## Aspose.Words para Python via .NET 24.1
+## Aspose.Words para Python via .NET 24.1, 24.2
 
 Aspose.Words 24.1 melhora a experiência de gerenciamento de cores de traços, aprimora objetos OLE e também introduz um novo API público de fontes bibliográficas.
+
+Aspose.Words 24.2 expandiu a API de gráficos e gerenciamento de estilo. Esta versão do Aspose.Words também introduziu a capacidade de especificar SvgSaveOptions durante a renderização, controlar de forma mais flexível o carregamento de arquivos Markdown e trabalhar com texto de referência para notas de rodapé e notas finais.
 
 ### Renderização e Impressão
 
@@ -21,14 +23,32 @@ Aspose.Words 24.1 melhora a experiência de gerenciamento de cores de traços, a
 
 A classe [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) foi estendida com um conjunto de novas propriedades públicas relacionadas ao gerenciamento de cores de traços: **ForeThemeColor** e **BackThemeColor**, **ForeTintAndShade** e **BackTintAndShade**.
 
+#### Extensão da API de gráficos DrawingML <sup>24.2</sup>
+
+A **DrawingML Charts API** continua a ser expandida.
+
+### Carregando e salvando documentos
+
+#### Especifique SvgSaveOptions durante a renderização <sup>24.2</sup>
+
+A capacidade de especificar [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) durante a renderização foi adicionada usando os métodos [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) e [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions).
+
+#### Preservar linhas vazias ao carregar arquivos Markdown <sup>24.2</sup>
+
+Foi adicionada a capacidade de preservar linhas vazias ao carregar arquivos Markdown.
+
 ### Outro
 
 * A capacidade de modificar o texto do controle `TextBox` OLE foi introduzida adicionando uma nova propriedade **Text** à nova classe **TextBoxControl**. <sup>24.1</sup>
 * O API público de Fontes Bibliográficas foi implementado através da adição de um novo namespace **Aspose.Words.Bibliography** com suas novas classes e enumerações, e através da adição de uma nova propriedade **Bibliography** à classe **Document**. <sup>24.1</sup>
+* Novas propriedades públicas [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) e [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) para gerenciamento aprimorado de estilo foram adicionadas à classe [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
+* A funcionalidade para recuperar o texto real da marca de referência para notas de rodapé e notas finais foi aprimorada com a propriedade [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) e o método [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+
+Saiba mais sobre [Notas de versão do Aspose.Words para Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 {{% /alert %}}
 

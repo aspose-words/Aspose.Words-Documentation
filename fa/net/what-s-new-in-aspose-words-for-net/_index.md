@@ -11,9 +11,11 @@ url: /fa/net/what-s-new-in-aspose-words-for-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای .NET 24.1
+## Aspose.Words برای .NET 24.1, 24.2
 
 Aspose.Words 24.1 تجربه مدیریت رنگ‌های ضربه‌ای را بهبود می‌بخشد، اشیاء OLE و گزارش LINQ را بهبود می‌بخشد، و همچنین یک API عمومی منابع کتاب‌شناسی جدید را معرفی می‌کند.
+
+Aspose.Words 24.2 Charts API، مدیریت سبک و گزینه های LINQ را گسترش داد. این نسخه از Aspose.Words همچنین قابلیت تعیین SvgSaveOptions را در حین رندر، کنترل انعطاف‌پذیرتر بارگیری فایل‌های Markdown و کار با متن مرجع برای پاورقی‌ها و یادداشت‌های پایانی را معرفی کرد.
 
 ### رندر و چاپ
 
@@ -21,15 +23,33 @@ Aspose.Words 24.1 تجربه مدیریت رنگ‌های ضربه‌ای را �
 
 کلاس [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) با مجموعه ای از ویژگی های عمومی جدید مرتبط با مدیریت رنگ های ضربه ای گسترش یافته است: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) و [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/)، [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) و [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
+#### افزونه DrawingML Charts API <sup>24.2</sup>
+
+**DrawingML Charts API** همچنان در حال گسترش است.
+
+### بارگیری و ذخیره اسناد
+
+#### SvgSaveOptions را در حین رندر مشخص کنید <sup>24.2</sup>
+
+قابلیت تعیین [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) در حین رندر با استفاده از متدهای [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) و [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) اضافه شده است.
+
+#### هنگام بارگیری فایل های Markdown خطوط خالی را حفظ کنید <sup>24.2</sup>
+
+قابلیت حفظ خطوط خالی هنگام بارگذاری فایل های Markdown اضافه شده است.
+
 ### دیگر
 
 * قابلیت تغییر متن کنترل `TextBox` OLE با افزودن ویژگی [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) جدید به کلاس [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) جدید معرفی شده است. <sup>24.1</sup>
 * منابع کتاب‌شناسی عمومی API از طریق افزودن فضای نام جدید [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) با کلاس‌ها و شمارش‌های جدید و از طریق افزودن یک ویژگی [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) جدید به کلاس [Document](https://reference.aspose.com/words/net/aspose.words/document/) پیاده‌سازی شد. <sup>24.1</sup>
 * یک API برای محدود کردن دسترسی به اعضای نوع با استفاده از نحو الگو برای موتور گزارش LINQ ارائه شده است. <sup>24.1</sup>
+* ویژگی های عمومی جدید [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)، [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) و [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) برای مدیریت سبک پیشرفته به کلاس [Style](https://reference.aspose.com/words/net/aspose.words/style/) اضافه شده است. <sup>24.2</sup>
+- قابلیت بازیابی متن علامت مرجع واقعی برای پاورقی ها و یادداشت های پایانی با ویژگی [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) و روش [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) بهبود یافته است. <sup>24.2</sup>
+- سازگاری با نمودارهای `Word 2016` برای `LINQ Reporting Engine` فعال شده است. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/) بیشتر بدانید.
+درباره [یادداشت‌های انتشار Aspose.Words برای .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

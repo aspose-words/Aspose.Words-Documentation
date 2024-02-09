@@ -11,9 +11,11 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## .NET 24.1 için Aspose.Words
+## .NET 24.1, 24.2 için Aspose.Words
 
 Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini ve LINQ raporlamasını geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
+
+Aspose.Words 24.2 genişletilmiş Charts API'si, stil yönetimi ve LINQ seçenekleri. Aspose.Words'ün bu sürümü aynı zamanda işleme sırasında SvgSaveOptions'ı belirtme, Markdown dosyalarını yükleme konusunda daha esnek kontrol ve dipnotlar ve sonnotlar için referans metniyle çalışma özelliklerini de tanıttı.
 
 ### İşleme ve Yazdırma
 
@@ -21,15 +23,34 @@ Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnel
 
 [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) ve [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) ve [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
+#### DrawingML Charts API Uzantısı <sup>24.2</sup>
+
+**DrawingML Charts API** genişletilmeye devam ediyor.
+
+### Belgeleri Yükleme ve Kaydetme
+
+#### İşleme Sırasında SvgSaveOptions'ı Belirtin <sup>24.2</sup>
+
+Oluşturma sırasında [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) belirtme yeteneği [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) ve [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) yöntemleri kullanılarak eklenmiştir.
+
+#### Markdown Dosyalarını Yüklerken Boş Satırları Koruyun <sup>24.2</sup>
+
+Markdown dosyalarını yüklerken boş satırları koruma özelliği eklendi.
+
 ### Diğer
 
 * `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) sınıfına yeni bir [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) özelliği eklenerek tanıtıldı. <sup>24.1</sup>
 * Bibliyografya Kaynakları genel API'i, yeni sınıfları ve numaralandırmalarıyla yeni bir [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) ad alanı eklenmesi ve [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfına yeni bir [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) özelliği eklenmesi yoluyla uygulandı. <sup>24.1</sup>
 * LINQ Raporlama Motoru için şablon söz dizimini kullanarak tür üyelerine erişimi sınırlandıran bir API sağlandı. <sup>24.1</sup>
+* Gelişmiş stil yönetimi için yeni genel özellikler [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) ve [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/), [Style](https://reference.aspose.com/words/net/aspose.words/style/) sınıfına eklendi. <sup>24.2</sup>
+- Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) özelliği ve [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
+- `LINQ Reporting Engine` için `Word 2016` grafikleriyle uyumluluk etkinleştirildi. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 [.NET 24.1 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/) hakkında daha fazla bilgi edinin.
+
+[.NET 24.2 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 
