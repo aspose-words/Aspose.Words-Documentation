@@ -6,7 +6,7 @@ linktitle: Working with Table-Row Data Bands
 description: "Output a sequence of table-row data when building a report in C#."
 type: docs
 weight: 20
-url: /net/working-with-table-row-data-bands/
+url: /net/working-with-table-row-data-bands-linq/
 ---
 
 A table-row data band is a data band which body occupies single or multiple rows of a single document table. The body of such a band starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.

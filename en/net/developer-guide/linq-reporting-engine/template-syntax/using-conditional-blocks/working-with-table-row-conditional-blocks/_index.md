@@ -6,7 +6,7 @@ linktitle: Working with Table-Row Conditional Blocks
 description: "Use table-row conditional blocks within single document table to represent the same data depending on a condition using C#."
 type: docs
 weight: 20
-url: /net/working-with-table-row-conditional-blocks/
+url: /net/working-with-table-row-conditional-blocks-linq/
 ---
 
 A table-row conditional block is a conditional block which body occupies single or multiple rows of a single document table. The body of such a block (as well as the body of its every template option) starts at the beginning of the first occupied row and ends at the end of the last occupied row as follows.

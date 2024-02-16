@@ -11,9 +11,11 @@ url: /th/python-net/what-s-new-in-aspose-words-for-python-net/
 
 หน้านี้อธิบายคุณสมบัติ Aspose.Words ใหม่ที่น่าสนใจที่สุดที่เปิดตัวในรุ่นล่าสุด
 
-## Aspose.Words สำหรับ Python via .NET 24.1
+## Aspose.Words สำหรับ Python via .NET 24.1, 24.2
 
 Aspose.Words 24.1 ปรับปรุงประสบการณ์ในการจัดการสีของเส้นขีด ปรับปรุงวัตถุ OLE รวมถึงแนะนำ API สาธารณะ Bibliography Sources ใหม่
+
+Aspose.Words 24.2 ขยาย Charts API การจัดการสไตล์ และตัวเลือก LINQ Aspose.Words เวอร์ชันนี้ยังแนะนำความสามารถในการระบุ SvgSaveOptions ระหว่างการเรนเดอร์ การควบคุมการโหลดไฟล์ Markdown ที่ยืดหยุ่นมากขึ้น และการทำงานกับข้อความอ้างอิงสำหรับเชิงอรรถและอ้างอิงท้ายเรื่อง
 
 ### การเรนเดอร์และการพิมพ์
 
@@ -21,14 +23,32 @@ Aspose.Words 24.1 ปรับปรุงประสบการณ์ใน�
 
 คลาส [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) ได้รับการขยายด้วยชุดคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับการจัดการสีของเส้นขีด: **ForeThemeColor** และ **BackThemeColor**, **ForeTintAndShade** และ **BackTintAndShade**
 
+#### ส่วนขยาย API ของ DrawingML Charts API <sup>24.2</sup>
+
+**DrawingML Charts API** ยังคงได้รับการขยายต่อไป
+
+### กำลังโหลดและบันทึกเอกสาร
+
+#### ระบุ SvgSaveOptions ระหว่างการเรนเดอร์ <sup>24.2</sup>
+
+เพิ่มความสามารถในการระบุ [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) ระหว่างการเรนเดอร์โดยใช้เมธอด [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) และ [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions)
+
+#### รักษาบรรทัดว่างเมื่อโหลดไฟล์ Markdown <sup>24.2</sup>
+
+เพิ่มความสามารถในการรักษาบรรทัดว่างเมื่อโหลดไฟล์ Markdown แล้ว
+
 ### อื่น
 
 * ความสามารถในการปรับเปลี่ยนข้อความของตัวควบคุม `TextBox` OLE ได้รับการแนะนำโดยการเพิ่มคุณสมบัติ **Text** ใหม่ให้กับคลาส **TextBoxControl** ใหม่ <sup>24.1</sup>
-* API สาธารณะของ Bibliography Sources ถูกนำมาใช้ผ่านการเพิ่ม **Aspose.Words.Bibliography** เนมสเปซใหม่ด้วยคลาสและการแจงนับใหม่ และผ่านการเพิ่มคุณสมบัติ **Bibliography** ใหม่ให้กับคลาส **Document** <sup>24.1</sup>
+* API สาธารณะของ Bibliography Sources ถูกนำมาใช้ผ่านการเพิ่ม [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) เนมสเปซใหม่ด้วยคลาสและการแจงนับใหม่ และผ่านการเพิ่มคุณสมบัติ [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) ใหม่ให้กับคลาส  [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)  <sup>24.1</sup>
+* เพิ่มคุณสมบัติสาธารณะใหม่ [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), และ [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) สำหรับการจัดการสไตล์ที่ได้รับการปรับปรุงในคลาส [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) แล้ว <sup>24.2</sup>
+* ฟังก์ชันการทำงานในการดึงข้อความเครื่องหมายอ้างอิงจริงสำหรับเชิงอรรถและอ้างอิงท้ายเรื่องได้รับการปรับปรุงด้วยคุณสมบัติ [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) และเมธอด [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default)  <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/)
 
 {{% /alert %}}
 

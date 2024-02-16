@@ -21,7 +21,7 @@ Aspose.Words 24.2 expanded Charts API and style management. This version of Aspo
 
 #### Stroke Color Control <sup>24.1</sup>
 
-The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: **ForeThemeColor** and **BackThemeColor**, **ForeTintAndShade** and **BackTintAndShade**.
+The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) and [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) and [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
 #### DrawingML Charts API Extension <sup>24.2</sup>
 
@@ -40,7 +40,7 @@ The ability to preserve empty lines when loading Markdown files has been added.
 ### Other
 
 * The capability to modify the text of the `TextBox` OLE control has been introduced by adding a new **Text** property to the new **TextBoxControl** class. <sup>24.1</sup>
-* The Bibliography Sources public API was implemented through the adding a new namespace **Aspose.Words.Bibliography** with its new classes and enumerations, and through the adding a new **Bibliography** property to the **Document** class. <sup>24.1</sup>
+* The Bibliography Sources public API was implemented through the adding a new namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) with its new classes and enumerations, and through the adding a new [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) property to the [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) class. <sup>24.1</sup>
 * New public properties [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), and [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) for enhanced style management have been added to the [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) class. <sup>24.2</sup>
 * The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) property and the [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) method. <sup>24.2</sup>
 

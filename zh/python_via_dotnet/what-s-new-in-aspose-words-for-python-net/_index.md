@@ -48,7 +48,7 @@ Aspose.Words 24.2 扩展了图表 API 和样式管理。 此版本的 Aspose.Wor
 
 了解有关 [Aspose.Words for Python via .NET 24.1 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/) 的更多信息。
 
-了解有关 [Aspose.Words for Python via .NET 24.2 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-12-release-notes/) 的更多信息。
+了解有关 [Aspose.Words for Python via .NET 24.2 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

@@ -1,8 +1,8 @@
 ---
-title: Setting up Known External Types in C#
+title: Removing Paragraphs with Template Syntax Tags in C#
 second_title: Aspose.Words for .NET
-articleTitle: Setting up Known External Types
-linktitle: Setting up Known External Types
+articleTitle: Removing Paragraphs Containing Only Template Syntax Tags
+linktitle: Removing Paragraphs Containing Only Template Syntax Tags
 description: "Learn how remove paragraphs containing only template tags using LINQ in C#."
 type: docs
 weight: 60

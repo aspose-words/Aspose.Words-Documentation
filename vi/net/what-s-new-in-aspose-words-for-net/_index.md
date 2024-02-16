@@ -11,9 +11,11 @@ url: /vi/net/what-s-new-in-aspose-words-for-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho .NET 24.1
+## Aspose.Words cho .NET 24.1, 24.2
 
 Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý màu nét, nâng cao các đối tượng OLE và báo cáo LINQ, cũng như giới thiệu API công khai Nguồn thư mục mới.
+
+Aspose.Words 24.2 đã mở rộng API Biểu đồ, quản lý kiểu và các tùy chọn LINQ. Phiên bản Aspose.Words này cũng giới thiệu khả năng chỉ định SvgSaveOptions trong quá trình kết xuất, kiểm soát tải tệp Markdown linh hoạt hơn và làm việc với văn bản tham chiếu cho chú thích cuối trang và chú thích cuối.
 
 ### Kết xuất và in ấn
 
@@ -21,15 +23,34 @@ Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý mà
 
 Lớp [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) đã được mở rộng với một tập hợp các thuộc tính công khai mới liên quan đến việc quản lý màu nét: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) và [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) và [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
+#### hần mở rộng API biểu đồ DrawML <sup>24.2</sup>
+
+API biểu đồ DrawML tiếp tục được mở rộng.
+
+### Tải và lưu tài liệu
+
+#### Chỉ định SvgSaveOptions trong khi kết xuất <sup>24.2</sup>
+
+Khả năng chỉ định [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) trong quá trình kết xuất đã được thêm bằng cách sử dụng các phương thức [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) và [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/).
+
+#### Giữ nguyên các dòng trống khi tải tệp Markdown <sup>24.2</sup>
+
+Khả năng giữ lại các dòng trống khi tải tệp Markdown đã được thêm vào.
+
 ### Khác
 
 * Khả năng sửa đổi văn bản của điều khiển `TextBox` OLE đã được giới thiệu bằng cách thêm thuộc tính [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) mới vào lớp [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) mới. <sup>24.1</sup>
 * API công khai của Nguồn thư mục được triển khai thông qua việc thêm một không gian tên mới [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) với các lớp và bảng liệt kê mới của nó, đồng thời thông qua việc thêm một thuộc tính [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) mới vào lớp [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
 * Một API để giới hạn quyền truy cập vào các thành viên loại sử dụng cú pháp mẫu cho Công cụ Báo cáo LINQ đã được cung cấp. <sup>24.1</sup>
+* Các thuộc tính công khai mới [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) và [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) để quản lý kiểu nâng cao đã được thêm vào lớp [Style](https://reference.aspose.com/words/net/aspose.words/style/). <sup>24.2</sup>
+* Chức năng truy xuất văn bản dấu tham chiếu thực tế cho chú thích cuối trang và chú thích cuối đã được cải tiến với thuộc tính [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) và phương thức [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
+* Đã bật khả năng tương thích với biểu đồ `Word 2016` cho `LINQ Reporting Engine`. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
 {{% /alert %}}
 
