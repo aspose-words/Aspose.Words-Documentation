@@ -11,9 +11,11 @@ url: /th/net/what-s-new-in-aspose-words-for-net/
 
 หน้านี้อธิบายคุณสมบัติ Aspose.Words ใหม่ที่น่าสนใจที่สุดที่เปิดตัวในรุ่นล่าสุด
 
-## Aspose.Words สำหรับ .NET 24.1
+## Aspose.Words สำหรับ .NET 24.1, 24.2
 
 Aspose.Words 24.1 ปรับปรุงประสบการณ์ในการจัดการสีเส้นโครงร่าง ปรับปรุงวัตถุ OLE และการรายงาน LINQ ตลอดจนแนะนำ API สาธารณะ Bibliography Sources ใหม่
+
+Aspose.Words 24.2 ขยาย Charts API การจัดการสไตล์ และตัวเลือก LINQ Aspose.Words เวอร์ชันนี้ยังแนะนำความสามารถในการระบุ SvgSaveOptions ระหว่างการเรนเดอร์ การควบคุมการโหลดไฟล์ Markdown ที่ยืดหยุ่นมากขึ้น และการทำงานกับข้อความอ้างอิงสำหรับเชิงอรรถและอ้างอิงท้ายเรื่อง
 
 ### การเรนเดอร์และการพิมพ์
 
@@ -21,15 +23,34 @@ Aspose.Words 24.1 ปรับปรุงประสบการณ์ใน�
 
 คลาส [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) ได้รับการขยายด้วยชุดคุณสมบัติสาธารณะใหม่ที่เกี่ยวข้องกับการจัดการสีของเส้นขีด: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) และ [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) และ [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/)
 
+#### ส่วนขยาย API ของ DrawingML Charts API <sup>24.2</sup>
+
+**DrawingML Charts API** ยังคงได้รับการขยายต่อไป
+
+### กำลังโหลดและบันทึกเอกสาร
+
+#### ระบุ SvgSaveOptions ระหว่างการเรนเดอร์ <sup>24.2</sup>
+
+เพิ่มความสามารถในการระบุ [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) ระหว่างการเรนเดอร์โดยใช้เมธอด [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) และ [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/)
+
+#### รักษาบรรทัดว่างเมื่อโหลดไฟล์ Markdown <sup>24.2</sup>
+
+เพิ่มความสามารถในการรักษาบรรทัดว่างเมื่อโหลดไฟล์ Markdown แล้ว
+
 ### อื่น
 
 * ความสามารถในการปรับเปลี่ยนข้อความของตัวควบคุม `TextBox` OLE ได้รับการแนะนำโดยการเพิ่มคุณสมบัติ [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) ใหม่ให้กับคลาส [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) ใหม่ <sup>24.1</sup>
 * API สาธารณะของ Bibliography Sources ถูกนำมาใช้ผ่านการเพิ่ม [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) เนมสเปซใหม่ด้วยคลาสและการแจงนับใหม่ และผ่านการเพิ่มคุณสมบัติ [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) ใหม่ให้กับคลาส [Document](https://reference.aspose.com/words/net/aspose.words/document/) <sup>24.1</sup>
-* มีการจัดเตรียม API เพื่อจำกัดการเข้าถึงสมาชิกประเภทโดยใช้ไวยากรณ์เทมเพลตสำหรับ LINQ Reporting Engine <sup>24.1</sup>
+* มีการจัดเตรียม API เพื่อจำกัดการเข้าถึงสมาชิกประเภทโดยใช้ไวยากรณ์เทมเพลตสำหรับ `LINQ Reporting Engine` <sup>24.1</sup>
+* เพิ่มคุณสมบัติสาธารณะใหม่ [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), และ [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) สำหรับการจัดการสไตล์ที่ได้รับการปรับปรุงในคลาส [Style](https://reference.aspose.com/words/net/aspose.words/style/) แล้ว <sup>24.2</sup>
+* ฟังก์ชันการทำงานในการดึงข้อความเครื่องหมายอ้างอิงจริงสำหรับเชิงอรรถและอ้างอิงท้ายเรื่องได้รับการปรับปรุงด้วยคุณสมบัติ [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) และเมธอด [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) <sup>24.2</sup>
+* เปิดใช้งานความเข้ากันได้กับแผนภูมิ `Word 2016` สำหรับ `LINQ Reporting Engine` แล้ว <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/)
+
+เรียนรู้เพิ่มเติมเกี่ยวกับ [บันทึกย่อประจำรุ่น Aspose.Words สำหรับ .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/)
 
 {{% /alert %}}
 

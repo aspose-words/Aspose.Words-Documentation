@@ -11,24 +11,44 @@ url: /pl/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Na tej stronie opisano najciekawsze nowe funkcje Aspose.Words wprowadzone w ostatnich wydaniach.
 
-## Aspose.Words dla Python via .NET 24.1
+## Aspose.Words dla Python via .NET 24.1, 24.2
 
 Aspose.Words 24.1 poprawia zarządzanie kolorami obrysów, ulepsza obiekty OLE, a także wprowadza nowy publiczny API źródeł bibliograficznych.
+
+Aspose.Words 24.2 rozszerzyło API wykresów, zarządzanie stylem i opcje LINQ. W tej wersji Aspose.Words wprowadzono również możliwość określania SvgSaveOptions podczas renderowania, bardziej elastyczne ładowanie plików Markdown oraz pracę z tekstem odwołania dla przypisów dolnych i przypisów końcowych.
 
 ### Renderowanie i drukowanie
 
 #### Kontrola koloru obrysu <sup>24.1</sup>
 
-Klasa [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) została rozszerzona o zestaw nowych właściwości publicznych związanych z zarządzaniem kolorami obrysu: **ForeThemeColor** i **BackThemeColor**, **ForeTintAndShade** i **BackTintAndShade**.
+Klasa [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) została rozszerzona o zestaw nowych właściwości publicznych związanych z zarządzaniem kolorami obrysu: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) i [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) i [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
+
+#### Rozszerzenie DrawingML Charts API <sup>24.2</sup>
+
+**DrawingML Charts API** jest nadal rozwijane.
+
+### Ładowanie i zapisywanie dokumentów
+
+#### Określanie SvgSaveOptions podczas renderowania <sup>24.2</sup>
+
+Dodano możliwość określania [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) podczas renderowania za pomocą [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) i [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions).
+
+#### Zachowanie pustych wierszy podczas ładowania plików Markdown <sup>24.2</sup>
+
+Dodano możliwość zachowania pustych wierszy podczas ładowania plików Markdown.
 
 ### Inny
 
 * Wprowadzono możliwość modyfikacji tekstu kontrolki `TextBox` OLE poprzez dodanie nowej właściwości **Text** do nowej klasy **TextBoxControl**. <sup>24.1</sup>
-* Publiczny API źródeł bibliograficznych został zaimplementowany poprzez dodanie nowej przestrzeni nazw **Aspose.Words.Bibliography** z jej nowymi klasami i wyliczeniami oraz poprzez dodanie nowej właściwości **Bibliography** do klasy **Document**. <sup>24.1</sup>
+* Publiczny API źródeł bibliograficznych został zaimplementowany poprzez dodanie nowej przestrzeni nazw [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) z jej nowymi klasami i wyliczeniami oraz poprzez dodanie nowej właściwości [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) do klasy [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). <sup>24.1</sup>
+* Do klasy [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) dodano nowe publiczne właściwości [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) i [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) w celu ulepszenia zarządzania stylem. <sup>24.2</sup>
+* Funkcjonalność pobierania rzeczywistego tekstu znacznika odwołania dla przypisów dolnych i przypisów końcowych została ulepszona dzięki właściwości [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) i metodzie [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) . <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 Dowiedz się więcej o [Aspose.Words dla Python via .NET 24.1 Informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+
+Dowiedz się więcej o [Aspose.Words dla Python via .NET 24.2 Informacje o wydaniu](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 {{% /alert %}}
 

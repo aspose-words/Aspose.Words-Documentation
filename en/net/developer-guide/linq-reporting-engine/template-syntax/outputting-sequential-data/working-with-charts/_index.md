@@ -38,9 +38,10 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 	- For a chart of another type, an x-value expression must return a numeric, date, or string value.
 	
 7. For a treemap or sunburst chart, add `x2` and `x3` tags (corresponding to stems and branches respectively) to the chart title as follows.
-{{< highlight csharp >}}
-<<x2 [x2_value_expression]>><<x3 [x3_value_expression]>>
-{{< /highlight >}}
+  {{< highlight csharp >}}
+  <<x2 [x2_value_expression]>><<x3 [x3_value_expression]>>
+  {{< /highlight >}}
+  Expressions defined for `x2` and `x3` tags must return string values.
 
 8. For a chart of any type other than histogram, add `y` tags to chart series’ names as follows.
   {{< highlight csharp >}}
@@ -88,10 +89,6 @@ Given that `managers` is an enumeration of `Manager` instances, you can use the 
 
 <img src="graph-1.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
 
-<img src="graph-1-2.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
-
-<img src="graph-1-3.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
-
 In this case, the engine produces a report as follows.
 
 <img src="graph-2.png" alt="charts-to-represent-data-aspose-words-net" style="width:600px"/>
@@ -112,17 +109,13 @@ For a chart with dynamic data, you can select which series to include into it dy
   <<removeif [conditional_expression]>>
   {{< /highlight >}}
 
-  **Note** – A conditional expression must return a `Boolean` value.
+**Note** – A conditional expression must return a `Boolean` value.
 
 During runtime, series with `removeif` tags, for which conditional expressions return `true`, are removed from corresponding charts. The rest of the series are kept and populated with data as usual. In either case, `removeif` tags themselves are removed.
 
 Consider the following example. Given the previous definition of `managers` and that `accessLevel` is an integer value representing an access level of a user, you can use the following chart template to make numbers of contracts be available for all users whereas financial contract data be available only for users having an access level of zero.
 
 <img src="graph-3.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
-
-<img src="graph-3-1.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
-
-<img src="graph-3-2.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 If `accessLevel` is equal to zero, the engine produces a report as follows.
 
@@ -152,10 +145,6 @@ A color expression must return a value of one of the following types:
 During runtime, expressions declared within `seriesColor` tags are evaluated and corresponding chart series are colored accordingly. The `seriesColor` tags are removed then.
 
 Consider the following example. Given the previous definition of `managers` and that `color1` and `color2` are color values of supported types, you can use the following chart template to set its series colors dynamically.
-
-<img src="graph-6.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
-
-<img src="graph-6-1.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
 <img src="graph-6.png" alt="chart-series-dynamically-aspose-words-net-1" style="width:600px"/>
 
@@ -198,15 +187,7 @@ Given that `items` is an enumeration of `ColoredItem` instances, you can use the
 
 <img src="pi-graph.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
 
-<img src="pi-graph-1.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
-
-<img src="pi-graph.png" alt="chart-series-point-colors-dynamically-aspose-words-net-1" style="width:600px"/>
-
 The series name for the template chart is defined as follows.
-
-<img src="sheet-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
-
-<img src="sheet-1-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
 
 <img src="sheet-1.png" alt="chart-series-point-colors-dynamically-data-aspose-words-net" style="width:600px"/>
 

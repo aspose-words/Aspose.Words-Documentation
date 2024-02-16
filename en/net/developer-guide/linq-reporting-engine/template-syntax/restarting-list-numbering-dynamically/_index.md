@@ -1,4 +1,4 @@
-﻿---
+---
 title: Restarting List Numbering Dynamically in C#
 second_title: Aspose.Words for .NET
 articleTitle: Restarting List Numbering Dynamically
@@ -50,12 +50,12 @@ Jane Doe (445 Mount Eden Road Mount Eden Auckland 1024)
 
 John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 
-1. Regular Cleaning
+3. Regular Cleaning
 
-2. Oven Cleaning
+4. Oven Cleaning
 
-3. Carpet Cleaning
-  {{< /highlight >}}
+5. Carpet Cleaning
+   {{< /highlight >}}
 
 That is, there would be a single numbered list across all orders, which is not applicable for this scenario. However, you can make list numbering to restart for every order by putting a `restartNum` tag into your template before a corresponding `foreach` tag as follows.
 
@@ -78,9 +78,9 @@ Jane Doe (445 Mount Eden Road Mount Eden Auckland 1024)**
 
 John Smith (43 Vogel Street Roslyn Palmerston North 4414)
 
-1. Regular Cleaning
-2. Oven Cleaning
-3. Carpet Cleaning
+3. Regular Cleaning
+4. Oven Cleaning
+5. Carpet Cleaning
 {{< /highlight >}}
 
 **Note** – You can use a `restartNum` tag without a data band to dynamically restart list numbering for a containing paragraph, if needed; for example, the tag can be used to restart list numbering for a document inserted dynamically (see “Inserting Documents Dynamically” for more information).

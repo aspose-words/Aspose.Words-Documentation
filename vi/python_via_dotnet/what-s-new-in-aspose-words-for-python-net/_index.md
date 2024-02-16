@@ -11,9 +11,11 @@ url: /vi/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho Python via .NET 24.1
+## Aspose.Words cho Python via .NET 24.1, 24.2
 
 Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý màu nét, nâng cao các đối tượng OLE, cũng như giới thiệu API công khai Nguồn thư mục mới.
+
+Aspose.Words 24.2 đã mở rộng API Biểu đồ, quản lý kiểu và các tùy chọn LINQ. Phiên bản Aspose.Words này cũng giới thiệu khả năng chỉ định SvgSaveOptions trong quá trình kết xuất, kiểm soát tải tệp Markdown linh hoạt hơn và làm việc với văn bản tham chiếu cho chú thích cuối trang và chú thích cuối.
 
 ### Kết xuất và in ấn
 
@@ -21,14 +23,32 @@ Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý mà
 
 Lớp [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) đã được mở rộng với một tập hợp các thuộc tính công khai mới liên quan đến việc quản lý màu nét: **ForeThemeColor** và **BackThemeColor**, **ForeTintAndShade** và **BackTintAndShade**.
 
+#### hần mở rộng API biểu đồ DrawML <sup>24.2</sup>
+
+API biểu đồ DrawML tiếp tục được mở rộng.
+
+### Tải và lưu tài liệu
+
+#### Chỉ định SvgSaveOptions trong khi kết xuất <sup>24.2</sup>
+
+Khả năng chỉ định [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) trong quá trình kết xuất đã được thêm bằng cách sử dụng các phương thức [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) và [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions).
+
+#### Giữ nguyên các dòng trống khi tải tệp Markdown <sup>24.2</sup>
+
+Khả năng giữ lại các dòng trống khi tải tệp Markdown đã được thêm vào.
+
 ### Khác
 
 * Khả năng sửa đổi văn bản của điều khiển `TextBox` OLE đã được giới thiệu bằng cách thêm thuộc tính **Text** mới vào lớp **TextBoxControl** mới. <sup>24.1</sup>
-* API công khai của Nguồn thư mục được triển khai thông qua việc thêm một không gian tên mới **Aspose.Words.Bibliography** với các lớp và bảng liệt kê mới của nó, đồng thời thông qua việc thêm một thuộc tính **Bibliography** mới vào lớp **Document**. <sup>24.1</sup>
+* API công khai của Nguồn thư mục được triển khai thông qua việc thêm một không gian tên mới [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) với các lớp và bảng liệt kê mới của nó, đồng thời thông qua việc thêm một thuộc tính [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) mới vào lớp [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). <sup>24.1</sup>
+* Các thuộc tính công khai mới [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) và [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) để quản lý kiểu nâng cao đã được thêm vào lớp [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
+* Chức năng truy xuất văn bản dấu tham chiếu thực tế cho chú thích cuối trang và chú thích cuối đã được cải tiến với thuộc tính [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) và phương thức [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 {{% /alert %}}
 

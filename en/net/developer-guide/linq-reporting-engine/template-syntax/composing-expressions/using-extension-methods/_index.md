@@ -6,7 +6,7 @@ linktitle: Using Extension Methods
 description: "Use extension methods in template expressions when building a report in C#."
 type: docs
 weight: 40
-url: /net/using-extension-methods/
+url: /net/using-extension-methods-linq/
 ---
 
 LINQ Reporting Engine enables you to use the following built-in extension methods in template expressions:

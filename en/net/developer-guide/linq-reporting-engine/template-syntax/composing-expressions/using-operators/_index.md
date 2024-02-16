@@ -6,7 +6,7 @@ linktitle: Using Operators
 description: "Use predefined operators in template expressions when building a report in C#."
 type: docs
 weight: 50
-url: /net/using-operators/
+url: /net/using-operators-linq/
 ---
 
 The following table contains predefined and user-defined operators that LINQ Reporting Engine enables you to use in template expressions.

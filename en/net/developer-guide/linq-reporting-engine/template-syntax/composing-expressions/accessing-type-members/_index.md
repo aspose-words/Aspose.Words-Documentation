@@ -6,7 +6,7 @@ linktitle: Accessing Type Members
 description: "Access public (static and instance) members of accessible types in template expressions when building a report in C#."
 type: docs
 weight: 30
-url: /net/accessing-type-members/
+url: /net/accessing-type-members-linq/
 ---
 
 LINQ Reporting Engine enables you to access the following public (static and instance) members of accessible types (see “Working with Types” for more information) in template expressions:

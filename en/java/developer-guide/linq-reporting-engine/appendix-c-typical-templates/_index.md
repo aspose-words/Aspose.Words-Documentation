@@ -55,7 +55,7 @@ public class Client
 
 ### Template Example
 
-|<img src="single-row-template-example2.jpg" alt="Single_Row_Template_Example-aspose-words-net" style="width:150px"/>) | Name: &lt;&lt;[manager.getName()]&gt;&gt; <br> Age: &lt;&lt;[manager.getAge()]&gt;&gt; |
+|<img src="single-row-template-example1.png" alt="Single_Row_Template_Example-aspose-words-net" style="width:150px"/>) | Name: &lt;&lt;[manager.getName()]&gt;&gt; <br> Age: &lt;&lt;[manager.getAge()]&gt;&gt; |
 | :- | :- |
 
 ### Report Example
@@ -166,7 +166,7 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example2.jpg" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/>) <br> &lt;&lt;[getName()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br> <img src="common-list-template-example.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/>) <br> &lt;&lt;[getName()]&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
@@ -467,7 +467,7 @@ We provide support for the following clients:
 
 ### Template Example
 
-|&lt;&lt;foreach [in managers]&gt;&gt; <br><img src="common-list-template-example2.jpg" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[getName()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in getContracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
+|&lt;&lt;foreach [in managers]&gt;&gt; <br><img src="common-list-template-example.png" alt="Common_List_Template_Example2-aspose-words-net" style="width:150px"/> <br> &lt;&lt;[getName()]&gt;&gt; <br> Clients: &lt;&lt;foreach [in getContracts() ]&gt;&gt;&lt;&lt;[indexOf() != 0 ? ", " : ""]&gt;&gt;&lt;&lt;[getClient().getName()]&gt;&gt;&lt;&lt;/foreach&gt;&gt; <br> &lt;&lt;/foreach&gt;&gt;|
 | :- |
 
 ### Report Example
@@ -508,17 +508,9 @@ We provide support for the following clients:
 
 **Template Example**
 
-<img src="pie-chart-template-example2-1.jpg" alt="Pie_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
-
-<img src="pie-chart-template-example2-2.jpg" alt="Pie_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
-
 <img src="pie-chart-template-example2-2.jpg" alt="Pie_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 **Initial Chart Series Data**
-
-<img src="pie-chart-series-data2-1.jpg" alt="Pie_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
-
-<img src="pie-chart-series-data2-2.jpg" alt="Pie_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
 <img src="pie-chart-series-data2-2.jpg" alt="Pie_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
@@ -530,17 +522,9 @@ We provide support for the following clients:
 
 **Template Example**
 
-<img src="sunburst-chart-template1.jpg" alt="sunburst-chart-template-aspose-words-net" style="width:600px"/>
-
-<img src="sunburst-chart-template2.jpg" alt="sunburst-chart-template-aspose-words-net" style="width:600px"/>
-
 <img src="sunburst-chart-template2.jpg" alt="sunburst-chart-template-aspose-words-net" style="width:600px"/>
 
 **Initial Chart Series Data**
-
-<img src="sunburst-chart-example1.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
-
-<img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
 
 <img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
 
@@ -552,17 +536,9 @@ We provide support for the following clients:
 
 **Template Example**
 
-<img src="treemap-chart-template1.jpg" alt="treemap-chart-template-aspose-words-net" style="width:600px"/>
-
-<img src="treemap-chart-template2.jpg" alt="treemap-chart-template-aspose-words-net" style="width:600px"/>
-
 <img src="treemap-chart-template2.jpg" alt="treemap-chart-template-aspose-words-net" style="width:600px"/>
 
 **Initial Chart Series Data**
-
-<img src="sunburst-chart-example1.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
-
-<img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
 
 <img src="sunburst-chart-example2.jpg" alt="sunburst-chart-example-aspose-words-net" style="width:600px"/>
 
@@ -574,10 +550,6 @@ We provide support for the following clients:
 
 **Template Example**
 
-<img src="histogram-chart-template1.jpg" alt="Histigram_Chart_Template1-aspose-words-net" style="width:600px"/>
-
-<img src="histogram-chart-template2.jpg" alt="Histigram_Chart_Template2-aspose-words-net" style="width:600px"/>
-
 <img src="histogram-chart-template2.jpg" alt="Histigram_Chart_Template2-aspose-words-net" style="width:600px"/>
 
 **Report Example**
@@ -588,17 +560,9 @@ We provide support for the following clients:
 
 **Template Example**
 
-<img src="scatter-chart-template-example2-1.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
-
-<img src="scatter-chart-template-example2-2.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
-
 <img src="scatter-chart-template-example2-2.jpg" alt="Scatter_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 **Initial Chart Series Data**
-
-<img src="scatter-chart-chart-series-data2-1.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
-
-<img src="scatter-chart-chart-series-data2-2.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
 <img src="scatter-chart-chart-series-data2-2.jpg" alt="Scatter_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
@@ -610,23 +574,15 @@ We provide support for the following clients:
 
 **Template Example**
 
-<img src="bubble-chart-template-example2-1.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
-
-<img src="bubble-chart-template-example2-2.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
-
 <img src="bubble-chart-template-example2-2.jpg" alt="Bubble_Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 **Initial Chart Series Data**
-
-<img src="bubble-chart-series-data2-1.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
-
-<img src="bubble-chart-series-data2-2.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
 <img src="bubble-chart-series-data2-2.jpg" alt="Bubble_Chart_Series_Data2-aspose-words-java" style="width:600px"/>
 
 **Report Example**
 
-![Bubble_Chart_Report_Example-aspose-words-java](bubble-chart-report-example.png)
+<img src="bubble-chart-report-example.jpg" alt="Bubble_Chart_Report_Example-aspose-words-java" style="width:600px"/>
 
 ## In-Table Template with Filtering, Grouping, and Ordering
 
@@ -647,10 +603,6 @@ We provide support for the following clients:
 ## Chart Template with Filtering, Grouping, and Ordering
 
 **Template Example**
-
-<img src="chart-template-example2-1.jpg" alt="Chart_Template_Example2-aspose-words-java" style="width:600px"/>
-
-<img src="chart-template-example2-2.jpg" alt="Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 
 <img src="chart-template-example2-2.jpg" alt="Chart_Template_Example2-aspose-words-java" style="width:600px"/>
 

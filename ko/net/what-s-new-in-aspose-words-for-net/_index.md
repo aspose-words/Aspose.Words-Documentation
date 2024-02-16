@@ -11,9 +11,11 @@ url: /ko/net/what-s-new-in-aspose-words-for-net/
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새 Aspose.Words 기능을 설명합니다.
 
-## .NET 24.1용 Aspose.Words
+## .NET 24.1, 24.2 용 Aspose.Words
 
 Aspose.Words 24.1은 획 색상 관리 환경을 개선하고, OLE 개체 및 LINQ 보고 기능을 향상시키며, 새로운 참고문헌 소스 공개 API를 도입합니다.
+
+Aspose.Words 24.2는 차트 API, 스타일 관리 및 LINQ 옵션을 확장했습니다. 이 버전의 Aspose.Words에서는 렌더링 중에 SvgSaveOptions를 지정할 수 있는 기능을 도입했으며, Markdown 파일을 더 유연하게 로드하고 각주 및 끝맺음을 위한 참조 텍스트 작업도 가능합니다.
 
 ### 렌더링 및 인쇄
 
@@ -21,11 +23,28 @@ Aspose.Words 24.1은 획 색상 관리 환경을 개선하고, OLE 개체 및 LI
 
 [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) 클래스는 획 색상 관리와 관련된 새로운 공용 속성 세트([ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) 및 [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) 및 [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/))로 확장되었습니다.
 
+#### DrawingML Charts API 확장 <sup>24.2</sup>
+
+**DrawingML Charts API**가 계속 확장되고 있습니다.
+
+### 문서 로드 및 저장
+
+#### 렌더링 중에 SvgSaveOptions 지정 <sup>24.2</sup>
+
+[ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) 및 [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) 메서드를 사용하여 렌더링 중에 [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/)를 지정하는 기능이 추가되었습니다.
+
+#### Markdown 파일 로드 시 빈 줄 유지 <sup>24.2</sup>
+
+Markdown 파일을 로드할 때 빈 줄을 유지하는 기능이 추가되었습니다.
+
 ### 다른
 
 * 새 [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) 클래스에 새 [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) 속성을 추가하여 `TextBox` OLE 컨트롤의 텍스트를 수정하는 기능이 도입되었습니다. <sup>24.1</sup>
 * 참고문헌 소스 공개 API는 새 클래스 및 열거형과 함께 새 네임스페이스 [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/)를 추가하고 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 클래스에 새 [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) 속성을 추가하여 구현되었습니다. <sup>24.1</sup>
 * LINQ 보고 엔진용 템플릿 구문을 사용하여 형식 멤버에 대한 액세스를 제한하는 API가 제공되었습니다. <sup>24.1</sup>
+* 증강된 스타일 관리를 위해 [Style](https://reference.aspose.com/words/net/aspose.words/style/) 클래스에 새로운 공용 속성 [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/)이 추가되었습니다. <sup>24.2</sup>
+* 각주 및 끝맺음에 대한 실제 참조 마크 텍스트를 검색하는 기능이 [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) 속성 및 [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) 메서드를 통해 향상되었습니다. <sup>24.2</sup>
+* `Word 2016` 차트와 `LINQ Reporting Engine` 의 호환성이 활성화되었습니다. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
 

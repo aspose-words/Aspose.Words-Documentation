@@ -6,7 +6,7 @@ linktitle: Working with Traditional Mail Merge Data Sources
 description: "Use simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects when building a report in C#."
 type: docs
 weight: 70
-url: /net/working-with-traditional-mail-merge-data-sources/
+url: /net/working-with-mail-merge-data-sources/
 ---
 
 LINQ Reporting Engine enables you to use a simplified syntax in template expressions to work with traditional Aspose.Words Mail Merge data source objects. See the following sections for more information.
