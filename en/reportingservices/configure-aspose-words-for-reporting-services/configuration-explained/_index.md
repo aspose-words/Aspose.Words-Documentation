@@ -73,7 +73,7 @@ Every export format has its own configuration XML element. Therefore, if you wan
 
 1. You can specify configuration settings for an individual report. In this case, the settings you specify will override the corresponding settings specified at the instance level.
 
-   To specify configuration settings for an individual report, follow these steps:To specify configuration settings for an individual report, follow these steps:
+   To specify configuration settings for an individual report, follow these steps:
 
    1.1. Add a textbox to any place in the report.
 
@@ -95,3 +95,9 @@ Every export format has its own configuration XML element. Therefore, if you wan
      </CustomProperty>
    </CustomProperties>
    {{< /highlight >}}
+
+   {{% alert color="primary" %}}
+
+   Note the syntax in the example above: if you replace the used `&lt;` with `<` and `&gt;` with `>`, the report will not be built.
+
+   {{% /alert %}}
