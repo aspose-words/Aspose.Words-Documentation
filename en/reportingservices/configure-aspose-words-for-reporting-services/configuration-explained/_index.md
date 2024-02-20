@@ -71,11 +71,27 @@ Every export format has its own configuration XML element. Therefore, if you wan
 
 ## Report level configuration
 
-You can specify configuration settings for an individual report. In this case, the settings you specify will override the corresponding settings specified at the instance level.
+1. You can specify configuration settings for an individual report. In this case, the settings you specify will override the corresponding settings specified at the instance level.
 
-To specify configuration settings for an individual report, follow these steps:
+   To specify configuration settings for an individual report, follow these steps:To specify configuration settings for an individual report, follow these steps:
 
-1. Add a textbox to any place in the report.
-1. Set textbox visibility to **Hidden**. 
-1. Set textbox name to a **configuration**. 
-1. Set textbox text to the XML similar to that you would specify in the *&lt;Configuration&gt;* element of the configuration file. For example, to make this particular report be exported in positioned layout mode, set the text to **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** . You can specify any number of any number of configuration settings in a sequence, for example **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** **&lt;PageBreaks&gt;OnEachPage&lt;/PageBreaks&gt;&lt;SpacingFactor&gt;0.75&lt;/SpacingFactor&gt;** .
+   1.1. Add a textbox to any place in the report.
+
+   1.2. Set textbox visibility to **Hidden**. 
+
+   1.3. Set textbox name to a **configuration**. 
+
+   1.4. Set textbox text to the XML similar to that you would specify in the *&lt;Configuration&gt;* element of the configuration file. For example, to make this particular report be exported in positioned layout mode, set the text to **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** . You can specify any number of any number of configuration settings in a sequence, for example **&lt;DocumentLayout&gt;Positioned&lt;/DocumentLayout&gt;** **&lt;PageBreaks&gt;OnEachPage&lt;/PageBreaks&gt;&lt;SpacingFactor&gt;0.75&lt;/SpacingFactor&gt;** .
+
+2. Another way to specify settings in "CustomProperty" element.
+
+   For example, add in a report the following section to change page orientation:
+
+   {{< highlight csharp >}}
+   <CustomProperties>
+     <CustomProperty>
+       <Name>AWConfiguration</Name>
+       <Value>&lt;PageOrientation&gt;Landscape&lt;/PageOrientation&gt;</Value>
+     </CustomProperty>
+   </CustomProperties>
+   {{< /highlight >}}
