@@ -27,7 +27,6 @@ LINQ Reporting Engine enables you to use charts to represent your sequential dat
 	- For a scatter or bubble chart, you can go one of the following ways:
 		- To use the same x-value expression for all chart series, add a single `x` tag to the chart title after the corresponding `foreach` tag.
 		- To use different x-value expressions for every chart series, add multiple `x` tags to chart series’ names – one for each chart series.<br>
-	An x-value expression for a scatter or bubble chart must return a numeric value.
 	- For a chart of another type, add a single `x` tag to the chart title after the corresponding `foreach` tag.
 	
 	An x-value expression has the following restrictions depending on a chart type:
@@ -57,9 +56,9 @@ While composing expressions for `x`, `x2`, `x3`, `y`, and `size` tags, you can n
 During runtime, a chart with a `foreach` tag in its title is processed by the engine as follows:
 
 1. A sequence expression declared at the `foreach` tag is evaluated and iterated.
-1. For every sequence item, expressions declared at `x`, `y`, and `size` tags are evaluated.
+1. For every sequence item, expressions declared at `x`, `x2`, `x3`, `y`, and `size` tags are evaluated.
 1. Results of these expressions are used to populate corresponding chart series.
-1. All `foreach`, `x`, `y`, and `size` tags are removed from the chart title and chart series’ names.
+1. All `foreach`, `x`, `x2`, `x3`, `y`, and `size` tags are removed from the chart title and chart series’ names.
 
 Consider the following example. Assume that you have the `Manager` and `Contract` classes defined in your application as follows.
 
