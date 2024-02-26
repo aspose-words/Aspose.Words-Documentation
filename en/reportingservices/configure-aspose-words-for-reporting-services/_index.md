@@ -25,3 +25,4 @@ This section includes the following topics:
 - [Ignore Design Row Height and Allow Auto Fit](/words/reportingservices/ignore-design-row-height-and-allow-auto-fit/)
 - [Round Points](/words/reportingservices/round-points/)
 - [Stretching Factor](/words/reportingservices/stretching-factor/)
+- [Document Ooxml Compliance](/words/reportingservices/document-ooxml-compliance/)
