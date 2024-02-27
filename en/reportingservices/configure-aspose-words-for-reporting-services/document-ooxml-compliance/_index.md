@@ -11,15 +11,17 @@ url: /reportingservices/document-ooxml-compliance/
 
 {{% alert color="primary" %}}
 
-By default, Aspose.Words for Reporting Services exports reports to DOCX using the ECMA376 Compliance. However, this behaviour may be overridden. There are [few approaches](/words/reportingservices/configuration-explained/) how to configure Aspose.Words for Reporting Services. **DocumentOoxmlCompliance** setting should be set to specify required ooxml compliance. Possible values:
-
-- **ECMA376** - ECMA-376 1st Edition, 2006;
-- **Iso29500_Transitional** - ISO/IEC 29500:2008 Transitional compliance level;
-- **Iso29500_Strict** - ISO/IEC 29500:2008 Strict compliance level.
-
-To switch to the Transitional compliance, add the following lines to the *<Extension>* element corresponding to a particular renderer:
+By default, Aspose.Words for Reporting Services exports reports to DOCX using the ECMA376 Compliance. However, this behaviour may be overridden.
 
 {{% /alert %}}
+
+There are [a few approaches](/words/reportingservices/configuration-explained/) to configuring Aspose.Words for Reporting Services. The **DocumentOoxmlCompliance** setting should be set to specify the required ooxml compliance to the following possible values:
+
+- **ECMA376** - ECMA-376 1st Edition, 2006
+- **Iso29500_Transitional** - ISO/IEC 29500:2008 Transitional compliance level
+- **Iso29500_Strict** - ISO/IEC 29500:2008 Strict compliance level
+
+To switch to the Transitional compliance, add the following lines to the *<Extension>* element corresponding to the specific renderer:
 
 {{< highlight csharp >}}
 <Render>
