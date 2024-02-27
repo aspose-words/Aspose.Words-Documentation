@@ -7,6 +7,8 @@ description: "Create reports from template documents using the LINQ Reporting En
 type: docs
 weight: 50
 url: /net/linq-reporting-engine/
+cascade:
+  draft: true
 ---
 
 This section provides the information you need to create reports from template documents using the LINQ Reporting Engine. The information is divided into the following sections:
