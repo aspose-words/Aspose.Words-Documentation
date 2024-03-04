@@ -13,13 +13,13 @@ Bazen çıktı belgesinin boyutunu ve işlem süresini azaltmak için kullanılm
 
 Stiller veya listeler gibi kullanılmayan verileri bulup kaldırabilir veya bilgileri manuel olarak çoğaltabilirsiniz, ancak bunu Aspose.Words tarafından sağlanan özellik ve yetenekleri kullanarak yapmak çok daha uygun olacaktır.
 
-[CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) sınıfı, belge temizleme seçeneklerini belirtmenize olanak tanır. Yinelenen stilleri veya yalnızca kullanılmayan stilleri veya listeleri belgeden kaldırmak için [Cleanup](https://reference.aspose.com/words/net/aspose.words/document/cleanup/) yöntemini kullanabilirsiniz.
+[CleanupOptions](https://reference.aspose.com/words/tr/net/aspose.words/cleanupoptions/) sınıfı, belge temizleme seçeneklerini belirtmenize olanak tanır. Yinelenen stilleri veya yalnızca kullanılmayan stilleri veya listeleri belgeden kaldırmak için [Cleanup](https://reference.aspose.com/words/tr/net/aspose.words/document/cleanup/) yöntemini kullanabilirsiniz.
 
 ## Kullanılmayan Bilgileri Belgeden Kaldırma
 
-"Kullanılmamış" olarak işaretlenen stilleri tespit etmek ve kaldırmak için [UnusedStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedstyles/) ve [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) özelliklerini kullanabilirsiniz.
+"Kullanılmamış" olarak işaretlenen stilleri tespit etmek ve kaldırmak için [UnusedStyles](https://reference.aspose.com/words/tr/net/aspose.words/cleanupoptions/unusedstyles/) ve [UnusedBuiltinStyles](https://reference.aspose.com/words/tr/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) özelliklerini kullanabilirsiniz.
 
-"Kullanılmıyor" olarak işaretlenen listeleri ve liste tanımlarını tespit edip kaldırmak için [UnusedLists](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedlists/) özelliğini kullanabilirsiniz.
+"Kullanılmıyor" olarak işaretlenen listeleri ve liste tanımlarını tespit edip kaldırmak için [UnusedLists](https://reference.aspose.com/words/tr/net/aspose.words/cleanupoptions/unusedlists/) özelliğini kullanabilirsiniz.
 
 Aşağıdaki kod örneği, bir belgeden yalnızca kullanılmayan stillerin nasıl kaldırılacağını gösterir:
 
@@ -27,7 +27,7 @@ Aşağıdaki kod örneği, bir belgeden yalnızca kullanılmayan stillerin nası
 
 ## Bir Belgeden Yinelenen Bilgileri Kaldırma
 
-Tüm yinelenen stilleri orijinal stille değiştirmek ve belgedeki kopyaları kaldırmak için [DuplicateStyle](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/duplicatestyle/) özelliğini de kullanabilirsiniz.
+Tüm yinelenen stilleri orijinal stille değiştirmek ve belgedeki kopyaları kaldırmak için [DuplicateStyle](https://reference.aspose.com/words/tr/net/aspose.words/cleanupoptions/duplicatestyle/) özelliğini de kullanabilirsiniz.
 
 Aşağıdaki kod örneği, yinelenen stillerin bir belgeden nasıl kaldırılacağını gösterir:
 

@@ -13,7 +13,7 @@ url: /zh/net/how-to-add-group-shape-into-a-word-document/
 
 在 Microsoft Word 中，您可以使用 Group 命令/按钮快速添加 group shape。组中的单个形状可以单独移动。
 
-在 Aspose.Words 中，使用 [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) 类添加 group shape 非常容易。 **Shape** 使用 [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) 类单独创建，然后使用 [AppendChild](https://reference.aspose.com/words/net/aspose.words/compositenode/appendchild/) 方法添加到 [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) 对象。
+在 Aspose.Words 中，使用 [GroupShape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/groupshape/) 类添加 group shape 非常容易。 **Shape** 使用 [Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/) 类单独创建，然后使用 [AppendChild](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/appendchild/) 方法添加到 [GroupShape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/groupshape/) 对象。
 
 以下代码示例演示如何将 group shape 添加到 Word 文档中：
 
@@ -35,6 +35,6 @@ url: /zh/net/how-to-add-group-shape-into-a-word-document/
 - 六角形
 - 八角形
 
-如需完整列表，请查看 [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype) 类。
+如需完整列表，请查看 [ShapeType](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shapetype) 类。
 
 {{% /alert %}}

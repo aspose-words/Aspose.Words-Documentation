@@ -126,7 +126,7 @@ DOC zu HTML – High-Fidelity-Konvertierung:
 
 ## Hohe Skalierbarkeit
 
-Skalierbare serverseitige Szenarien nutzen Aspose.Words vor allem wegen seines einfachen und klaren Designs – Aspose.Words unterstützt Multithreading. [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Objekte sind voneinander unabhängig und solange jeweils nur ein Thread ein Dokument ändern kann (eine typische Anforderung für jede Sammlungsklasse), können mehrere Threads eine beliebige Anzahl von Dokumenten gleichzeitig verarbeiten.
+Skalierbare serverseitige Szenarien nutzen Aspose.Words vor allem wegen seines einfachen und klaren Designs – Aspose.Words unterstützt Multithreading. [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Objekte sind voneinander unabhängig und solange jeweils nur ein Thread ein Dokument ändern kann (eine typische Anforderung für jede Sammlungsklasse), können mehrere Threads eine beliebige Anzahl von Dokumenten gleichzeitig verarbeiten.
 
 ## Hochleistung
 

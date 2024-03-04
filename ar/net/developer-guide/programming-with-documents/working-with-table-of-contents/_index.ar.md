@@ -19,7 +19,7 @@ url: /ar/net/working-with-table-of-contents/
 
 ## إدراج جدول المحتويات برمجياً
 
-يمكنك إدراج حقل `TOC` (جدول المحتويات) في المستند في الموضع الحالي عن طريق استدعاء الأسلوب [InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/).
+يمكنك إدراج حقل `TOC` (جدول المحتويات) في المستند في الموضع الحالي عن طريق استدعاء الأسلوب [InsertTableOfContents](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/inserttableofcontents/).
 
 يمكن إنشاء جدول محتويات مستند Word بعدة طرق وتنسيقه باستخدام مجموعة متنوعة من الخيارات. يقوم الحقل بتبديل الذي تمرره إلى الطريقة التي تتحكم في طريقة إنشاء الجدول وعرضه في مستندك.
 
@@ -43,8 +43,8 @@ url: /ar/net/working-with-table-of-contents/
 
 يتيح لك Aspose.Words تحديث ملف `TOC` بالكامل باستخدام بضعة أسطر فقط من التعليمات البرمجية. يمكن القيام بذلك لملء ملف `TOC` المدرج حديثًا أو لتحديث ملف `TOC` موجود بعد إجراء التغييرات على المستند. يجب استخدام الطريقتين التاليتين لتحديث حقول `TOC` في المستند:
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/ar/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/ar/net/aspose.words/document/updatepagelayout/)
 
 يرجى ملاحظة أنه يلزم استدعاء طريقتي التحديث هاتين بهذا الترتيب. إذا تم العكس، فسيتم ملء جدول المحتويات ولكن لن يتم عرض أي أرقام للصفحات. يمكن تحديث أي عدد من جداول المحتويات المختلفة. ستقوم هذه الطرق تلقائيًا بتحديث جميع جداول المحتويات الموجودة في المستند.
 
@@ -90,7 +90,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p><p>يحتوي حقل `TOC` أيضً
 
 ## أدخل حقول TC
 
-يمكنك إدراج حقل TC جديد في الموضع الحالي لـ [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) عن طريق استدعاء طريقة [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) وتحديد اسم الحقل كـ "TC" مع أي مفاتيح مطلوبة.
+يمكنك إدراج حقل TC جديد في الموضع الحالي لـ [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) عن طريق استدعاء طريقة [InsertField](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertfield/) وتحديد اسم الحقل كـ "TC" مع أي مفاتيح مطلوبة.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج حقل `TC` في المستند باستخدام **DocumentBuilder**:
 
@@ -104,7 +104,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p><p>يحتوي حقل `TOC` أيضً
 
 ## تعديل جدول المحتويات
 
-لا يستخدم تنسيق الإدخالات في `TOC` الأنماط الأصلية للإدخالات المحددة، وبدلاً من ذلك يتم تنسيق كل مستوى باستخدام نمط `TOC` مكافئ. على سبيل المثال، يتم تنسيق المستوى الأول في `TOC` بنمط **جدول المحتويات1**، ويتم تنسيق المستوى الثاني بنمط **TOC2**، وهكذا. وهذا يعني أنه لتغيير مظهر `TOC` يجب تعديل هذه الأنماط. في Aspose.Words، يتم تمثيل هذه الأنماط بواسطة لغة `StyleIdentifier.TOC1` المستقلة حتى `StyleIdentifier.TOC9` ويمكن استرجاعها من مجموعة [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) باستخدام هذه المعرفات.
+لا يستخدم تنسيق الإدخالات في `TOC` الأنماط الأصلية للإدخالات المحددة، وبدلاً من ذلك يتم تنسيق كل مستوى باستخدام نمط `TOC` مكافئ. على سبيل المثال، يتم تنسيق المستوى الأول في `TOC` بنمط **جدول المحتويات1**، ويتم تنسيق المستوى الثاني بنمط **TOC2**، وهكذا. وهذا يعني أنه لتغيير مظهر `TOC` يجب تعديل هذه الأنماط. في Aspose.Words، يتم تمثيل هذه الأنماط بواسطة لغة `StyleIdentifier.TOC1` المستقلة حتى `StyleIdentifier.TOC9` ويمكن استرجاعها من مجموعة [Styles](https://reference.aspose.com/words/ar/net/aspose.words/documentbase/styles/) باستخدام هذه المعرفات.
 
 بمجرد استرداد النمط المناسب للمستند، يمكن تعديل التنسيق لهذا النمط. ستنعكس أي تغييرات يتم إجراؤها على هذه الأنماط تلقائيًا على جداول المحتويات في المستند.
 
@@ -116,7 +116,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p><p>يحتوي حقل `TOC` أيضً
 
 يمكنك أيضًا التحكم في تنسيق الفواصل المستخدمة بين كل إدخال ورقم الصفحة. افتراضيًا، يكون هذا خطًا منقطًا ينتشر عبر ترقيم الصفحات باستخدام حرف علامة جدولة وعلامة جدولة على اليمين محاذية بالقرب من الهامش الأيمن.
 
-باستخدام فئة [Style](https://reference.aspose.com/words/net/aspose.words/style/) التي تم استردادها لمستوى `TOC` المحدد الذي تريد تعديله، يمكنك أيضًا تعديل كيفية ظهورها في المستند. لتغيير كيفية ظهور هذا أولاً، يجب استدعاء [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/) لاسترداد تنسيق الفقرة للنمط. من هذا يمكن استرداد علامات الجدولة عن طريق استدعاء [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) وتعديل علامة الجدولة المناسبة. باستخدام هذه التقنية نفسها، يمكن نقل علامة التبويب نفسها أو إزالتها معًا.
+باستخدام فئة [Style](https://reference.aspose.com/words/ar/net/aspose.words/style/) التي تم استردادها لمستوى `TOC` المحدد الذي تريد تعديله، يمكنك أيضًا تعديل كيفية ظهورها في المستند. لتغيير كيفية ظهور هذا أولاً، يجب استدعاء [ParagraphFormat](https://reference.aspose.com/words/ar/net/aspose.words/style/paragraphformat/) لاسترداد تنسيق الفقرة للنمط. من هذا يمكن استرداد علامات الجدولة عن طريق استدعاء [TabStops](https://reference.aspose.com/words/ar/net/aspose.words/paragraphformat/tabstops/) وتعديل علامة الجدولة المناسبة. باستخدام هذه التقنية نفسها، يمكن نقل علامة التبويب نفسها أو إزالتها معًا.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعديل موضع علامة التبويب اليمنى في الفقرات ذات الصلة بـ `TOC`:
 
@@ -124,9 +124,9 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p><p>يحتوي حقل `TOC` أيضً
 
 ## إزالة جدول المحتويات من المستند
 
-يمكن إزالة جدول المحتويات من المستند عن طريق إزالة جميع العقد الموجودة بين عقدة `FieldStart` وFieldEnd لحقل `TOC`. يوضح الكود أدناه هذا. تعد إزالة حقل `TOC` أسهل من إزالة الحقل العادي لأننا لا نتتبع الحقول المتداخلة. بدلاً من ذلك، نتحقق من أن عقدة [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) من النوع [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) مما يعني أننا واجهنا نهاية جدول المحتويات الحالي. يمكن استخدام هذه التقنية في هذه الحالة دون القلق بشأن أي حقول متداخلة حيث يمكننا افتراض أن أي مستند تم تشكيله بشكل صحيح لن يحتوي على حقل `TOC` متداخل بالكامل داخل حقل `TOC` آخر.
+يمكن إزالة جدول المحتويات من المستند عن طريق إزالة جميع العقد الموجودة بين عقدة `FieldStart` وFieldEnd لحقل `TOC`. يوضح الكود أدناه هذا. تعد إزالة حقل `TOC` أسهل من إزالة الحقل العادي لأننا لا نتتبع الحقول المتداخلة. بدلاً من ذلك، نتحقق من أن عقدة [FieldEnd](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldend/) من النوع [FieldType.FieldTOC](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldtype/) مما يعني أننا واجهنا نهاية جدول المحتويات الحالي. يمكن استخدام هذه التقنية في هذه الحالة دون القلق بشأن أي حقول متداخلة حيث يمكننا افتراض أن أي مستند تم تشكيله بشكل صحيح لن يحتوي على حقل `TOC` متداخل بالكامل داخل حقل `TOC` آخر.
 
-أولاً، يتم جمع وتخزين عقد [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) لكل `TOC`. يتم بعد ذلك تعداد `TOC` المحدد بحيث تتم زيارة جميع العقد داخل الحقل وتخزينها. ثم تتم إزالة العقد من المستند.
+أولاً، يتم جمع وتخزين عقد [FieldStart](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldstart/) لكل `TOC`. يتم بعد ذلك تعداد `TOC` المحدد بحيث تتم زيارة جميع العقد داخل الحقل وتخزينها. ثم تتم إزالة العقد من المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إزالة `TOC` محدد من مستند:
 

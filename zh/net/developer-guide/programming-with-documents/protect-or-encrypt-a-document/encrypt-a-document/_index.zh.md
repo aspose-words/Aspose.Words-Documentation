@@ -19,7 +19,7 @@ url: /zh/net/encrypt-a-document/
 
 {{% alert color="primary" %}}
 
-您可以找到所需格式的适当 **Password** 属性。 [保存命名空间](https://reference.aspose.com/words/net/aspose.words.saving/) 中的每个文档保存格式都有一个相应的类，其中包含该格式的保存选项。例如，DOC 的 [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) 类中的 [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) 属性，或 DOCX、DOCM、DOTX、DOTM 和 FlatOpc 的 [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) 类中的 [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) 属性。
+您可以找到所需格式的适当 **Password** 属性。 [保存命名空间](https://reference.aspose.com/words/zh/net/aspose.words.saving/) 中的每个文档保存格式都有一个相应的类，其中包含该格式的保存选项。例如，DOC 的 [DocSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/docsaveoptions/) 类中的 [Password](https://reference.aspose.com/words/zh/net/aspose.words.saving/docsaveoptions/password/) 属性，或 DOCX、DOCM、DOTX、DOTM 和 FlatOpc 的 [OoxmlSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/ooxmlsaveoptions/) 类中的 [Password](https://reference.aspose.com/words/zh/net/aspose.words.saving/ooxmlsaveoptions/password/) 属性。
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ url: /zh/net/encrypt-a-document/
 
 在某些情况下，您可能有一个无法读取的文档，并且希望确保该文档已加密且未损坏或压缩。
 
-要检测文档是否已加密以及是否需要密码，可以使用 [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/) 类的 [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) 属性。此属性还允许您在加载文档之前执行某些操作，例如，通知用户提供密码。
+要检测文档是否已加密以及是否需要密码，可以使用 [FileFormatInfo](https://reference.aspose.com/words/zh/net/aspose.words/fileformatinfo/) 类的 [IsEncrypted](https://reference.aspose.com/words/zh/net/aspose.words/fileformatinfo/isencrypted/) 属性。此属性还允许您在加载文档之前执行某些操作，例如，通知用户提供密码。
 
 以下代码示例展示了如何检测文档加密：
 

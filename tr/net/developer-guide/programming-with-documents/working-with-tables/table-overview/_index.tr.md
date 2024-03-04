@@ -60,7 +60,7 @@ Yukarıdaki resim, belgenin birkaç satırdan oluşan ve iki hücreden oluşan b
 
 Bir belgede ardışık iki tabloyu ayırmak için tablodan sonra en az bir boş paragrafın gerekli olduğunu da belirtmekte fayda var. Böyle bir paragraf olmasaydı ardışık tablolar tek bir tablo halinde birleştirilirdi. Bu davranış hem Microsoft Word hem de Aspose.Words'de aynıdır.
 
-Aspose.Words'te tablolarla ilgili tüm sınıflar ve özellikler [Aspose.Words.Tables](https://reference.aspose.com/words/net/aspose.words.tables/) ad alanında bulunur.
+Aspose.Words'te tablolarla ilgili tüm sınıflar ve özellikler [Aspose.Words.Tables](https://reference.aspose.com/words/tr/net/aspose.words.tables/) ad alanında bulunur.
 
 ## Ayrıca bakınız
 

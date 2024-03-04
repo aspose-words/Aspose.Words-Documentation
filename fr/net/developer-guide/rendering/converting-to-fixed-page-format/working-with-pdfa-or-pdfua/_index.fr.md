@@ -141,7 +141,7 @@ Si un document contient un autre contenu qui doit être marqué comme un artefac
 |  PDF/A-2a |   {{< emoticons/tick >}}   |
 |  PDF/UA-1 |   {{< emoticons/tick >}}   |
 
-La langue du texte est spécifiée dans les documents Microsoft Word. Aspose.Words exporte la langue spécifiée vers un PDF de sortie avec l'attribut *Lang* attaché à une séquence de contenu marqué ou à une balise Span – il est contrôlé par la propriété [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). Généralement, il n'y a aucun problème de langue lorsque le texte est saisi par l'utilisateur via Microsoft Word. Mais il est possible que la langue soit inexacte si le texte est généré automatiquement.
+La langue du texte est spécifiée dans les documents Microsoft Word. Aspose.Words exporte la langue spécifiée vers un PDF de sortie avec l'attribut *Lang* attaché à une séquence de contenu marqué ou à une balise Span – il est contrôlé par la propriété [ExportLanguageToSpanTag](https://reference.aspose.com/words/fr/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). Généralement, il n'y a aucun problème de langue lorsque le texte est saisi par l'utilisateur via Microsoft Word. Mais il est possible que la langue soit inexacte si le texte est généré automatiquement.
 
 {{% alert color="secondary" %}}
 <details>

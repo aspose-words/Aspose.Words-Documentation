@@ -43,7 +43,7 @@ Tieni presente che puoi confrontare due documenti qualsiasi all'interno del [For
 
 Quando si confrontano i documenti, le differenze tra il secondo e il primo vengono visualizzate come revisioni del primo. Quando modifichi un documento, ogni modifica avrà la propria revisione dopo aver eseguito il metodo di confronto.
 
-Aspose.Words ti consente di identificare le differenze tra i documenti utilizzando il metodo [Compare](https://reference.aspose.com/words/net/aspose.words/document/compare/#compare/): è simile alla funzione di confronto dei documenti Microsoft Word. Ti consente di controllare documenti o versioni di documenti per trovare differenze e modifiche, comprese modifiche alla formattazione come modifiche ai caratteri, modifiche alla spaziatura, aggiunta di parole e paragrafi.
+Aspose.Words ti consente di identificare le differenze tra i documenti utilizzando il metodo [Compare](https://reference.aspose.com/words/it/net/aspose.words/document/compare/#compare/): è simile alla funzione di confronto dei documenti Microsoft Word. Ti consente di controllare documenti o versioni di documenti per trovare differenze e modifiche, comprese modifiche alla formattazione come modifiche ai caratteri, modifiche alla spaziatura, aggiunta di parole e paragrafi.
 
 Come risultato del confronto, i documenti possono essere determinati come uguali o non uguali. Il termine documenti "uguali" significa che il metodo di confronto non è in grado di rappresentare le modifiche come revisioni. Ciò significa che sia il testo del documento che la formattazione del testo sono gli stessi. Ma possono esserci altre differenze tra i documenti. Ad esempio, Microsoft Word supporta solo le revisioni del formato per gli stili e non è possibile rappresentare l'inserimento/eliminazione degli stili. Pertanto i documenti possono avere un diverso set di stili e il metodo **Compare** non produce ancora revisioni.
 
@@ -57,13 +57,13 @@ Il seguente esempio di codice mostra come applicare semplicemente il metodo `Com
 
 ## Specificare le opzioni di confronto avanzate {#specify-advanced-comparing-properties}
 
-Esistono molte proprietà diverse della classe [CompareOptions](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/) che puoi applicare quando desideri confrontare documenti.
+Esistono molte proprietà diverse della classe [CompareOptions](https://reference.aspose.com/words/it/net/aspose.words.comparing/compareoptions/) che puoi applicare quando desideri confrontare documenti.
 
-Ad esempio, Aspose.Words consente di ignorare le modifiche apportate durante un'operazione di confronto per determinati tipi di oggetti all'interno del documento originale. È possibile selezionare la proprietà appropriata per il tipo di oggetto, ad esempio [IgnoreHeadersAndFooters](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/), [IgnoreFormatting](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreformatting/), [IgnoreComments](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignorecomments/) e altre, impostandole su "true".
+Ad esempio, Aspose.Words consente di ignorare le modifiche apportate durante un'operazione di confronto per determinati tipi di oggetti all'interno del documento originale. È possibile selezionare la proprietà appropriata per il tipo di oggetto, ad esempio [IgnoreHeadersAndFooters](https://reference.aspose.com/words/it/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/), [IgnoreFormatting](https://reference.aspose.com/words/it/net/aspose.words.comparing/compareoptions/ignoreformatting/), [IgnoreComments](https://reference.aspose.com/words/it/net/aspose.words.comparing/compareoptions/ignorecomments/) e altre, impostandole su "true".
 
-Inoltre Aspose.Words mette a disposizione la proprietà [Granularity](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/granularity/) con la quale è possibile specificare se tenere traccia delle modifiche per carattere o per parola.
+Inoltre Aspose.Words mette a disposizione la proprietà [Granularity](https://reference.aspose.com/words/it/net/aspose.words.comparing/compareoptions/granularity/) con la quale è possibile specificare se tenere traccia delle modifiche per carattere o per parola.
 
-Un'altra proprietà comune è la scelta del documento in cui mostrare i cambiamenti di confronto. Ad esempio, nella finestra di dialogo "Confronta documenti" in Microsoft Word è presente l'opzione "Mostra modifiche in" che influisce anche sui risultati del confronto. Aspose.Words fornisce la proprietà [Target](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/target/) che serve a questo scopo.
+Un'altra proprietà comune è la scelta del documento in cui mostrare i cambiamenti di confronto. Ad esempio, nella finestra di dialogo "Confronta documenti" in Microsoft Word è presente l'opzione "Mostra modifiche in" che influisce anche sui risultati del confronto. Aspose.Words fornisce la proprietà [Target](https://reference.aspose.com/words/it/net/aspose.words.comparing/compareoptions/target/) che serve a questo scopo.
 
 L'esempio di codice seguente mostra come impostare le proprietà di confronto avanzate:
 

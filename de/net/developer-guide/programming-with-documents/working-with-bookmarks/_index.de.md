@@ -15,7 +15,7 @@ Die Aktionen, die mit Lesezeichen mithilfe von Aspose.Words ausgeführt werden k
 
 ## Fügen Sie ein Lesezeichen ein
 
-Verwenden Sie [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) und [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/), um ein Lesezeichen zu erstellen, indem Sie dessen Anfang bzw. Ende markieren. Vergessen Sie nicht, beiden Methoden denselben Lesezeichennamen zu übergeben. Lesezeichen in einem Dokument können sich überlappen und einen beliebigen Bereich umfassen. Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
+Verwenden Sie [StartBookmark](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/startbookmark/) und [EndBookmark](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/endbookmark/), um ein Lesezeichen zu erstellen, indem Sie dessen Anfang bzw. Ende markieren. Vergessen Sie nicht, beiden Methoden denselben Lesezeichennamen zu übergeben. Lesezeichen in einem Dokument können sich überlappen und einen beliebigen Bereich umfassen. Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ Das folgende Codebeispiel zeigt, wie Sie ein neues Lesezeichen erstellen:
 
 ## Erhalten Sie Lesezeichen
 
-Manchmal ist es notwendig, eine Lesezeichensammlung abzurufen, um Lesezeichen zu durchlaufen oder für andere Zwecke. Verwenden Sie die [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/)-Eigenschaft, die von jedem Dokumentknoten bereitgestellt wird, der ein [Range](https://reference.aspose.com/words/net/aspose.words/range/)-Objekt zurückgibt, das den in diesem Knoten enthaltenen Teil des Dokuments darstellt. Verwenden Sie dieses Objekt, um ein [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/) abzurufen, und verwenden Sie dann den Sammlungsindexer, um ein bestimmtes Lesezeichen abzurufen.
+Manchmal ist es notwendig, eine Lesezeichensammlung abzurufen, um Lesezeichen zu durchlaufen oder für andere Zwecke. Verwenden Sie die [Node.Range](https://reference.aspose.com/words/de/net/aspose.words/node/range/)-Eigenschaft, die von jedem Dokumentknoten bereitgestellt wird, der ein [Range](https://reference.aspose.com/words/de/net/aspose.words/range/)-Objekt zurückgibt, das den in diesem Knoten enthaltenen Teil des Dokuments darstellt. Verwenden Sie dieses Objekt, um ein [BookmarkCollection](https://reference.aspose.com/words/de/net/aspose.words/bookmarkcollection/) abzurufen, und verwenden Sie dann den Sammlungsindexer, um ein bestimmtes Lesezeichen abzurufen.
 
 Das folgende Codebeispiel zeigt, wie Sie Lesezeichen aus einer Lesezeichensammlung abrufen:
 
@@ -66,7 +66,7 @@ Das folgende Codebeispiel zeigt, wie auf Spalten der mit Lesezeichen versehenen 
 
 ## Zu einem Lesezeichen wechseln
 
-Wenn Sie umfangreiche Inhalte (nicht nur einfachen Text) in ein Lesezeichen einfügen müssen, sollten Sie [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) verwenden, um den Cursor auf das Lesezeichen zu bewegen, und dann [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)-Methoden und -Eigenschaften verwenden, um Inhalte einzufügen.
+Wenn Sie umfangreiche Inhalte (nicht nur einfachen Text) in ein Lesezeichen einfügen müssen, sollten Sie [MoveToBookmark](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/movetobookmark/) verwenden, um den Cursor auf das Lesezeichen zu bewegen, und dann [DocumentBuilder's](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Methoden und -Eigenschaften verwenden, um Inhalte einzufügen.
 
 ## Lesezeicheninhalt anzeigen und ausblenden
 

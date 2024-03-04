@@ -50,7 +50,7 @@ Según el tiempo que el servicio utiliza para procesar el documento, el atacante
 
 ## Soluciones de problemas de seguridad
 
-Para resolver los problemas descritos anteriormente y mejorar la seguridad de las aplicaciones web, puede controlar o deshabilitar la carga de recursos externos utilizando [IResourceLoadingCallback](https://reference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback/).
+Para resolver los problemas descritos anteriormente y mejorar la seguridad de las aplicaciones web, puede controlar o deshabilitar la carga de recursos externos utilizando [IResourceLoadingCallback](https://reference.aspose.com/words/es/net/aspose.words.loading/iresourceloadingcallback/).
 
 El siguiente ejemplo de código muestra cómo deshabilitar la carga de imágenes externas:
 

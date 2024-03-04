@@ -19,9 +19,9 @@ Aspose.Words 允许用户处理各种格式的文档，并为此提供了广泛�
 
 有关函数的完整列表，请参阅 API 参考：
 
-- [所有格式的加载选项](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
-- CHM 格式的 [CHM 加载选项](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/)
-- HTML 格式的 [HTML 加载选项](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/)
-- PDF 格式的 [PDF 加载选项](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/)
-- RTF 格式的 [RTF 加载选项](https://reference.aspose.com/words/net/aspose.words.loading/rtfloadoptions/)
-- TXT 格式的 [TXT 加载选项](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/)
+- [所有格式的加载选项](https://reference.aspose.com/words/zh/net/aspose.words.loading/loadoptions/)
+- CHM 格式的 [CHM 加载选项](https://reference.aspose.com/words/zh/net/aspose.words.loading/chmloadoptions/)
+- HTML 格式的 [HTML 加载选项](https://reference.aspose.com/words/zh/net/aspose.words.loading/htmlloadoptions/)
+- PDF 格式的 [PDF 加载选项](https://reference.aspose.com/words/zh/net/aspose.words.loading/pdfloadoptions/)
+- RTF 格式的 [RTF 加载选项](https://reference.aspose.com/words/zh/net/aspose.words.loading/rtfloadoptions/)
+- TXT 格式的 [TXT 加载选项](https://reference.aspose.com/words/zh/net/aspose.words.loading/txtloadoptions/)

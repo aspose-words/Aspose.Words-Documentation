@@ -26,13 +26,13 @@ Görev bölmeleri, Microsoft Word'te pencerenin sağ tarafında görüntülenen 
 
 Web Uzantıları, Office uygulamalarının yeteneklerini genişleten ve Office belge içeriğiyle etkileşim kuran araçlardır. Web Uzantıları, kullanıcı deneyimini geliştirmek için Office istemcilerine ek işlevler sağlar.
 
-Aspose.Words, [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) ve [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/) sınıflarını kullanarak Görev Bölmesi türünde Web Uzantıları ekleme olanağı sağlar ve ayrıca bölme ve uzantı özelliklerini özelleştirmenize de olanak tanır.
+Aspose.Words, [WebExtension](https://reference.aspose.com/words/tr/net/aspose.words.webextensions/webextension/) ve [TaskPane](https://reference.aspose.com/words/tr/net/aspose.words.webextensions/taskpane/) sınıflarını kullanarak Görev Bölmesi türünde Web Uzantıları ekleme olanağı sağlar ve ayrıca bölme ve uzantı özelliklerini özelleştirmenize de olanak tanır.
 
 Aşağıdaki kod örneği, görev bölmelerinin nasıl oluşturulacağını ve temel özelliklere sahip web uzantısı görev bölmelerine nasıl ekleneceğini gösterir:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-Görev bölmesi eklentilerinin listesini görmek için [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/) özelliğini kullanın.
+Görev bölmesi eklentilerinin listesini görmek için [WebExtensionTaskPanes](https://reference.aspose.com/words/tr/net/aspose.words/document/webextensiontaskpanes/) özelliğini kullanın.
 
 Aşağıdaki kod örneği, böyle bir eklenti listesinin nasıl alınacağını gösterir:
 

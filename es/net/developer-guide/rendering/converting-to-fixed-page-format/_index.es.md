@@ -49,7 +49,7 @@ El diseño de página calcula dónde aparecerá el texto y qué contenido se mos
 
 ![converting-to-fixed-page-format_2](/words/net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-En Aspose.Words, un usuario puede solicitar si desea crear un nuevo diseño de página o actualizar uno existente. Ambos pueden realizarse mediante el método [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/), proporcionado por la clase [Document](https://reference.aspose.com/words/net/aspose.words/document/). Si no existe un diseño de página, pero es necesario (por ejemplo, cuando el documento se exporta a un formato de página fija), Aspose.Words llamará automáticamente a este método. Sin embargo, si ya existe un diseño de página, Aspose.Words utilizará el existente para evitar consumir los recursos necesarios para actualizarlo. En este caso, el usuario debe llamar al método `UpdatePageLayout` para garantizar que el diseño de la página esté actualizado con el modelo del documento.
+En Aspose.Words, un usuario puede solicitar si desea crear un nuevo diseño de página o actualizar uno existente. Ambos pueden realizarse mediante el método [UpdatePageLayout](https://reference.aspose.com/words/es/net/aspose.words/document/updatepagelayout/), proporcionado por la clase [Document](https://reference.aspose.com/words/es/net/aspose.words/document/). Si no existe un diseño de página, pero es necesario (por ejemplo, cuando el documento se exporta a un formato de página fija), Aspose.Words llamará automáticamente a este método. Sin embargo, si ya existe un diseño de página, Aspose.Words utilizará el existente para evitar consumir los recursos necesarios para actualizarlo. En este caso, el usuario debe llamar al método `UpdatePageLayout` para garantizar que el diseño de la página esté actualizado con el modelo del documento.
 
 ### Estructura dinámica
 
@@ -65,22 +65,22 @@ Tenga en cuenta que el diseño de la página es una estructura dinámica que se 
 
 Considere el escenario típico cuando el campo `NUMPAGES` aparece en el pie de página de la primera página del documento. El valor de este campo es el número total de páginas. Para posicionar el campo en una página, se debe conocer su valor. Si actualmente solo se está creando la primera página, aún no se conoce el número total de páginas. En este caso, el diseño de la página tiene que utilizar el valor predeterminado y luego volver a ese campo y cambiar su valor de acuerdo con los cálculos reales. Sin embargo, cambiar el valor del campo puede afectar el contenido de otro documento en una página y, en última instancia, hacer que se agregue una nueva página o se elimine una página existente, lo que hace que el valor calculado quede obsoleto. Este problema se puede resolver haciendo posible actualizar el diseño de página existente.
 
-Al crear un diseño, también es posible configurar propiedades [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) que afectan la salida del documento en las páginas.
+Al crear un diseño, también es posible configurar propiedades [LayoutOptions](https://reference.aspose.com/words/es/net/aspose.words.layout/layoutoptions/) que afectan la salida del documento en las páginas.
 
 ## Guardar en formato de página fija
 
 Una vez creado el diseño de la página y calculada la geometría de los objetos y su posición en la página, el documento se puede guardar en un formato de página fija compatible con Aspose.Words. Al guardar documentos en formatos de página fija, se pueden utilizar las opciones de representación comunes a todos estos formatos. Permiten controlar:
 
-- El número y rango de páginas contenidas en el documento de salida ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)).
-- Progreso del guardado de documentos página por página ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
-- Un conjunto de caracteres que se utilizan para representar números ([NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
-- Un reproductor de metarchivos ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Para obtener más detalles, consulte el artículo [Manejo de metarchivos Windows](/words/es/net/handling-windows-metafiles/).
-- Una tasa de calidad para recomprimir imágenes JPEG, cuyo valor puede variar ligeramente, dependiendo del formato de guardado seleccionado ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
-- Optimización de gráficos vectoriales en salida Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
-- Opciones de gráficos al guardar en formatos Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
-- Guardar el documento en escala de grises ([ColorMode](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
-- Cambio entre la representación de formas DrawingML y formas alternativas ([DmlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
-- Cambio entre modos de renderizado de efectos DML ([DmlEffectsRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
+- El número y rango de páginas contenidas en el documento de salida ([PageCount](https://reference.aspose.com/words/es/net/aspose.words/document/pagecount/)).
+- Progreso del guardado de documentos página por página ([PageSavingCallback](https://reference.aspose.com/words/es/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
+- Un conjunto de caracteres que se utilizan para representar números ([NumeralFormat](https://reference.aspose.com/words/es/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
+- Un reproductor de metarchivos ([MetafileRenderingOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Para obtener más detalles, consulte el artículo [Manejo de metarchivos Windows](/words/es/net/handling-windows-metafiles/).
+- Una tasa de calidad para recomprimir imágenes JPEG, cuyo valor puede variar ligeramente, dependiendo del formato de guardado seleccionado ([JpegQuality](https://reference.aspose.com/words/es/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
+- Optimización de gráficos vectoriales en salida Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/es/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
+- Opciones de gráficos al guardar en formatos Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/es/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/es/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
+- Guardar el documento en escala de grises ([ColorMode](https://reference.aspose.com/words/es/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
+- Cambio entre la representación de formas DrawingML y formas alternativas ([DmlRenderingMode](https://reference.aspose.com/words/es/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
+- Cambio entre modos de renderizado de efectos DML ([DmlEffectsRenderingMode](https://reference.aspose.com/words/es/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
 
 El siguiente ejemplo demuestra cómo guardar un documento en formato JPEG utilizando el método `Save` y las opciones de renderizado:
 

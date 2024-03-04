@@ -11,7 +11,7 @@ url: /tr/net/convert-between-measurement-units/
 
 Aspose.Words API'de sağlanan ve genişlik veya yükseklik, kenar boşlukları ve çeşitli mesafeler gibi bazı ölçümleri temsil eden nesne özelliklerinin çoğu, 1 inç'in 72 noktaya eşit olduğu nokta cinsinden değerleri kabul eder. Bazen bu uygun olmayabilir ve puanların başka birimlere dönüştürülmesi gerekebilir.
 
-Aspose.Words, çeşitli ölçüm birimleri arasında dönüştürme yapmak için yardımcı işlevler sağlayan [ConvertUtil](https://reference.aspose.com/words/net/aspose.words/convertutil/) sınıfını sağlar. Dönüştürmeyi sağlar:
+Aspose.Words, çeşitli ölçüm birimleri arasında dönüştürme yapmak için yardımcı işlevler sağlayan [ConvertUtil](https://reference.aspose.com/words/tr/net/aspose.words/convertutil/) sınıfını sağlar. Dönüştürmeyi sağlar:
 
 - inç, piksel ve milimetreden noktalara
 - inç ve pikselleri işaret eder

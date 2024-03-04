@@ -22,7 +22,7 @@ url: /ar/net/installing-truetype-fonts-on-linux/
 
 ## نسخ الخطوط من جهاز Windows
 
-إحدى الطرق السهلة والسريعة للحصول على خطوط TrueType على نظام Linux هي نسخ ملفات .TTF و.TTC من دليل `C:\Windows\Fonts` على جهاز Windows إلى دليل ما على جهاز Linux الخاص بك. لا تحتاج إلى تثبيت هذه الخطوط أو تسجيلها على Linux بأي شكل من الأشكال؛ كل ما عليك فعله هو تحديد موقع الخطوط باستخدام فئة [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) في Aspose.Words.
+إحدى الطرق السهلة والسريعة للحصول على خطوط TrueType على نظام Linux هي نسخ ملفات .TTF و.TTC من دليل `C:\Windows\Fonts` على جهاز Windows إلى دليل ما على جهاز Linux الخاص بك. لا تحتاج إلى تثبيت هذه الخطوط أو تسجيلها على Linux بأي شكل من الأشكال؛ كل ما عليك فعله هو تحديد موقع الخطوط باستخدام فئة [FontSettings](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontsettings/) في Aspose.Words.
 
 {{% alert color="primary" %}}
 

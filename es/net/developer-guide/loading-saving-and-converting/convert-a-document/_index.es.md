@@ -14,10 +14,10 @@ La capacidad de convertir documentos de un formato a otro de manera fácil y con
 
 ## ¿Qué es la conversión de documentos {#what-is-document-conversion}?
 
-Casi cualquier tarea que desee realizar con Aspose.Words implica cargar o guardar un documento en algún formato. Como se mencionó en secciones anteriores, la enumeración [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) especifica todos los formatos *load* o *import* admitidos por Aspose.Words, y la enumeración [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) especifica todos los formatos *save* o *export* admitidos por Aspose.Words. Por lo tanto, Aspose.Words puede convertir un documento desde cualquier formato de carga admitido a cualquier formato de guardado admitido. Como regla general, dicha conversión requiere varias etapas de cálculo. Sin embargo, desde la perspectiva del usuario, la conversión de un formato de documento a otro es muy simple y se puede lograr con sólo dos pasos:
+Casi cualquier tarea que desee realizar con Aspose.Words implica cargar o guardar un documento en algún formato. Como se mencionó en secciones anteriores, la enumeración [LoadFormat](https://reference.aspose.com/words/es/net/aspose.words/loadformat/) especifica todos los formatos *load* o *import* admitidos por Aspose.Words, y la enumeración [SaveFormat](https://reference.aspose.com/words/es/net/aspose.words/saveformat/) especifica todos los formatos *save* o *export* admitidos por Aspose.Words. Por lo tanto, Aspose.Words puede convertir un documento desde cualquier formato de carga admitido a cualquier formato de guardado admitido. Como regla general, dicha conversión requiere varias etapas de cálculo. Sin embargo, desde la perspectiva del usuario, la conversión de un formato de documento a otro es muy simple y se puede lograr con sólo dos pasos:
 
-1. Cargue su documento en un objeto [Document](https://reference.aspose.com/words/net/aspose.words/document/) usando uno de sus constructores.
-1. Invoque uno de los métodos [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) en el objeto **Document** y especifique el formato de salida deseado.
+1. Cargue su documento en un objeto [Document](https://reference.aspose.com/words/es/net/aspose.words/document/) usando uno de sus constructores.
+1. Invoque uno de los métodos [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/#save/) en el objeto **Document** y especifique el formato de salida deseado.
 
 {{% alert color="primary" %}}
 

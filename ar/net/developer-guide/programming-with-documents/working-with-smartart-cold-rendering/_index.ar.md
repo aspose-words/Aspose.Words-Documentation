@@ -20,7 +20,7 @@ url: /ar/net/working-with-smartart-cold-rendering/
 
 * في حالة توفر رسم معروض مسبقًا، يستخدمه Aspose.Words لعرض كائن `SmartArt`.
 * إذا كان الرسم المعروض مسبقًا مفقودًا، فسيقوم Aspose.Words ضمنيًا بتنفيذ العرض البارد لعرض كائن `SmartArt`.
-* إذا كان الرسم المعروض مسبقًا موجودًا ولكنه غير صحيح، فيجب تنفيذ عرض SmartArt البارد بشكل صريح عن طريق استدعاء أسلوب [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/).
+* إذا كان الرسم المعروض مسبقًا موجودًا ولكنه غير صحيح، فيجب تنفيذ عرض SmartArt البارد بشكل صريح عن طريق استدعاء أسلوب [UpdateSmartArtDrawing](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/updatesmartartdrawing/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديث الرسومات لجميع المخططات في المستند:
 

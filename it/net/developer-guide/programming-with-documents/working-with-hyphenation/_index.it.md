@@ -66,7 +66,7 @@ Il seguente esempio di codice mostra come caricare i dizionari di sillabazione p
 
 {{% /alert %}}
 
-In alternativa alla preregistrazione dei dizionari di sillabazione, è possibile registrare "su richiesta" solo i dizionari di sillabazione necessari. Per raggiungere questo obiettivo, implementare l'interfaccia [IHyphenationCallback](https://reference.aspose.com/words/net/aspose.words/ihyphenationcallback/) e utilizzare il callback statico [Callback](https://reference.aspose.com/words/net/aspose.words/hyphenation/callback/).
+In alternativa alla preregistrazione dei dizionari di sillabazione, è possibile registrare "su richiesta" solo i dizionari di sillabazione necessari. Per raggiungere questo obiettivo, implementare l'interfaccia [IHyphenationCallback](https://reference.aspose.com/words/it/net/aspose.words/ihyphenationcallback/) e utilizzare il callback statico [Callback](https://reference.aspose.com/words/it/net/aspose.words/hyphenation/callback/).
 
 Il seguente esempio di codice mostra come implementare l'interfaccia **IHyphenationCallback**:
 

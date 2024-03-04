@@ -9,11 +9,11 @@ weight: 50
 url: /tr/net/working-with-hyperlinks/
 ---
 
-Microsoft Word belgelerindeki köprü, `HYPERLINK` alanıdır. Aspose.Words'de köprüler [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) sınıfı aracılığıyla uygulanır.
+Microsoft Word belgelerindeki köprü, `HYPERLINK` alanıdır. Aspose.Words'de köprüler [FieldHyperlink](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldhyperlink/) sınıfı aracılığıyla uygulanır.
 
 ## Köprü Ekle
 
-Belgeye köprü eklemek için [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/) yöntemini kullanın. Bu yöntem üç parametreyi kabul eder:
+Belgeye köprü eklemek için [InsertHyperlink](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/inserthyperlink/) yöntemini kullanın. Bu yöntem üç parametreyi kabul eder:
 
 1. Belgede görüntülenecek bağlantının metni
 2. Bağlantı hedefi (URL veya belge içindeki yer iminin adı)
@@ -27,7 +27,7 @@ Belgeye köprü eklemek için [InsertHyperlink](https://reference.aspose.com/wor
 
 {{% /alert %}}
 
-Aşağıdaki kod örneği, [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) kullanarak bir belgeye nasıl köprü ekleneceğini gösterir:
+Aşağıdaki kod örneği, [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) kullanarak bir belgeye nasıl köprü ekleneceğini gösterir:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

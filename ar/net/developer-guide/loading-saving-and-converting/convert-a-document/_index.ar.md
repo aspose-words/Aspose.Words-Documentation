@@ -14,10 +14,10 @@ keywords: "convert a document c#, convert documents from one format to another c
 
 ## ما هو تحويل المستندات {#what-is-document-conversion}
 
-تتضمن أي مهمة تريد تنفيذها باستخدام Aspose.Words تقريبًا تحميل مستند أو حفظه بتنسيق ما. كما ذكرنا في الأقسام السابقة، يحدد تعداد [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) جميع تنسيقات *load* أو *import* التي يدعمها Aspose.Words، ويحدد تعداد [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) جميع تنسيقات *save* أو *export* التي يدعمها Aspose.Words. وبالتالي، يمكن لـ Aspose.Words تحويل مستند من أي تنسيق تحميل مدعوم إلى أي تنسيق حفظ مدعوم. كقاعدة عامة، يتطلب مثل هذا التحويل عدة مراحل من الحساب. ومع ذلك، من وجهة نظر المستخدم، يعد التحويل من تنسيق مستند إلى تنسيق آخر أمرًا بسيطًا للغاية في حد ذاته، ويمكن إنجازه بخطوتين فقط:
+تتضمن أي مهمة تريد تنفيذها باستخدام Aspose.Words تقريبًا تحميل مستند أو حفظه بتنسيق ما. كما ذكرنا في الأقسام السابقة، يحدد تعداد [LoadFormat](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/) جميع تنسيقات *load* أو *import* التي يدعمها Aspose.Words، ويحدد تعداد [SaveFormat](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/) جميع تنسيقات *save* أو *export* التي يدعمها Aspose.Words. وبالتالي، يمكن لـ Aspose.Words تحويل مستند من أي تنسيق تحميل مدعوم إلى أي تنسيق حفظ مدعوم. كقاعدة عامة، يتطلب مثل هذا التحويل عدة مراحل من الحساب. ومع ذلك، من وجهة نظر المستخدم، يعد التحويل من تنسيق مستند إلى تنسيق آخر أمرًا بسيطًا للغاية في حد ذاته، ويمكن إنجازه بخطوتين فقط:
 
-1. قم بتحميل المستند الخاص بك إلى كائن [Document](https://reference.aspose.com/words/net/aspose.words/document/) باستخدام أحد منشئيه.
-1. قم باستدعاء إحدى طرق [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) على كائن **Document** وحدد تنسيق الإخراج المطلوب.
+1. قم بتحميل المستند الخاص بك إلى كائن [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) باستخدام أحد منشئيه.
+1. قم باستدعاء إحدى طرق [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/#save/) على كائن **Document** وحدد تنسيق الإخراج المطلوب.
 
 {{% alert color="primary" %}}
 

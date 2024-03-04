@@ -19,13 +19,13 @@ Este artículo explica cómo trabajar con secciones y saltos de sección.
 
 ## ¿Qué es la sección y el salto de sección?
 
-Las secciones del documento están representadas por las clases [Section](https://apireference.aspose.com/words/net/aspose.words/section) y [SectionCollection](https://apireference.aspose.com/words/net/aspose.words/sectioncollection). Los objetos de sección son hijos inmediatos del nodo [Document](https://apireference.aspose.com/words/net/aspose.words/document) y se puede acceder a ellos a través de la propiedad [Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections). Puede administrar esos nodos utilizando algunos métodos como [Remove](https://apireference.aspose.com/words/net/aspose.words/nodecollection/methods/remove), [Add](https://apireference.aspose.com/words/net/aspose.words/nodecollection/methods/add), [IndexOf](https://apireference.aspose.com/words/net/aspose.words/nodecollection/methods/indexof) y otros.
+Las secciones del documento están representadas por las clases [Section](https://apireference.aspose.com/words/es/net/aspose.words/section) y [SectionCollection](https://apireference.aspose.com/words/es/net/aspose.words/sectioncollection). Los objetos de sección son hijos inmediatos del nodo [Document](https://apireference.aspose.com/words/es/net/aspose.words/document) y se puede acceder a ellos a través de la propiedad [Sections](https://apireference.aspose.com/words/es/net/aspose.words/document/properties/sections). Puede administrar esos nodos utilizando algunos métodos como [Remove](https://apireference.aspose.com/words/es/net/aspose.words/nodecollection/methods/remove), [Add](https://apireference.aspose.com/words/es/net/aspose.words/nodecollection/methods/add), [IndexOf](https://apireference.aspose.com/words/es/net/aspose.words/nodecollection/methods/indexof) y otros.
 
 El salto de sección es una opción que divide las páginas del documento en secciones con diseños personalizables.
 
 ## Tipos de salto de sección
 
-Aspose.Words le permite dividir y formatear documentos utilizando diferentes saltos de sección de la enumeración [BreakType](https://apireference.aspose.com/words/net/aspose.words/breaktype):
+Aspose.Words le permite dividir y formatear documentos utilizando diferentes saltos de sección de la enumeración [BreakType](https://apireference.aspose.com/words/es/net/aspose.words/breaktype):
 
 * Salto de secciónContinuo
 * SecciónSalirNuevaColumna
@@ -33,7 +33,7 @@ Aspose.Words le permite dividir y formatear documentos utilizando diferentes sal
 * SecciónBreakEvenPage
 * SecciónBreakOddPage
 
-También puede utilizar la enumeración [SectionStart](https://apireference.aspose.com/words/net/aspose.words/sectionstart) para elegir un tipo de interrupción que se aplique solo a la primera sección, como NewColumn, NewPage, EvenPage y OddPage.
+También puede utilizar la enumeración [SectionStart](https://apireference.aspose.com/words/es/net/aspose.words/sectionstart) para elegir un tipo de interrupción que se aplique solo a la primera sección, como NewColumn, NewPage, EvenPage y OddPage.
 
 ## Administrar una sección
 
@@ -43,13 +43,13 @@ Por otro lado, también puedes utilizar el `DocumentBuilder` API para trabajar c
 
 ## Insertar o eliminar un salto de sección
 
-Aspose.Words le permite insertar un salto de sección en el texto utilizando el método [InsertBreak](https://apireference.aspose.com/words/net/aspose.words/documentbuilder/methods/insertbreak).
+Aspose.Words le permite insertar un salto de sección en el texto utilizando el método [InsertBreak](https://apireference.aspose.com/words/es/net/aspose.words/documentbuilder/methods/insertbreak).
 
 El siguiente ejemplo de código muestra cómo insertar un salto de sección en un documento:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "insert-section-breaks.cs" >}}
 
-Utilice el método [Remove](https://apireference.aspose.com/words/net/aspose.words/node/methods/remove) para eliminar un salto de sección. Si no necesita eliminar un salto de sección específico y, en su lugar, eliminar el contenido de esa sección, puede utilizar el método [ClearContent](https://apireference.aspose.com/words/net/aspose.words/section/methods/clearcontent).
+Utilice el método [Remove](https://apireference.aspose.com/words/es/net/aspose.words/node/methods/remove) para eliminar un salto de sección. Si no necesita eliminar un salto de sección específico y, en su lugar, eliminar el contenido de esa sección, puede utilizar el método [ClearContent](https://apireference.aspose.com/words/es/net/aspose.words/section/methods/clearcontent).
 
 El siguiente ejemplo de código muestra cómo eliminar saltos de sección:
 
@@ -63,7 +63,7 @@ Tenga en cuenta que un salto de sección tiene información sobre la sección qu
 
 ## Mover una sección
 
-Si desea mover una sección de una posición a otra en su documento, necesita obtener el índice de esa sección. Aspose.Words le permite obtener la posición de una sección de un [SectionCollection](https://apireference.aspose.com/words/net/aspose.words/sectioncollection) utilizando la propiedad [Item](https://apireference.aspose.com/words/net/aspose.words/sectioncollection/properties/item). Puede utilizar la propiedad [Sections](https://apireference.aspose.com/words/net/aspose.words/document/properties/sections) para obtener todas las secciones de su documento. Pero si desea obtener sólo la primera sección, puede utilizar la propiedad [FirstSection](https://apireference.aspose.com/words/net/aspose.words/document/properties/firstsection).
+Si desea mover una sección de una posición a otra en su documento, necesita obtener el índice de esa sección. Aspose.Words le permite obtener la posición de una sección de un [SectionCollection](https://apireference.aspose.com/words/es/net/aspose.words/sectioncollection) utilizando la propiedad [Item](https://apireference.aspose.com/words/es/net/aspose.words/sectioncollection/properties/item). Puede utilizar la propiedad [Sections](https://apireference.aspose.com/words/es/net/aspose.words/document/properties/sections) para obtener todas las secciones de su documento. Pero si desea obtener sólo la primera sección, puede utilizar la propiedad [FirstSection](https://apireference.aspose.com/words/es/net/aspose.words/document/properties/firstsection).
 
 El siguiente ejemplo de código muestra cómo acceder a la primera sección e iterar a través de los hijos de un nodo compuesto:
 
@@ -71,7 +71,7 @@ El siguiente ejemplo de código muestra cómo acceder a la primera sección e it
 
 ## Especificar un diseño de sección
 
-A veces desea que su documento se vea mejor creando diseños creativos para diferentes secciones del documento. Si desea especificar el tipo de cuadrícula de la sección actual, puede elegir un modo de diseño de sección usando la enumeración [SectionLayoutMode](https://apireference.aspose.com/words/net/aspose.words/sectionlayoutmode):
+A veces desea que su documento se vea mejor creando diseños creativos para diferentes secciones del documento. Si desea especificar el tipo de cuadrícula de la sección actual, puede elegir un modo de diseño de sección usando la enumeración [SectionLayoutMode](https://apireference.aspose.com/words/es/net/aspose.words/sectionlayoutmode):
 
 * Por defecto
 * Red
@@ -84,7 +84,7 @@ El siguiente ejemplo de código muestra cómo limitar el número de líneas que 
 
 ## Editar una sección
 
-Cuando agregas una nueva sección a tu documento, no habrá ningún cuerpo o párrafo que puedas editar. Aspose.Words le permite garantizar que una sección contenga un cuerpo con al menos un párrafo utilizando el método [EnsureMinimum](https://apireference.aspose.com/words/net/aspose.words/section/methods/ensureminimum): agregará automáticamente un nodo Cuerpo (o Encabezado y pie de página) al documento y luego le agregará un Párrafo.
+Cuando agregas una nueva sección a tu documento, no habrá ningún cuerpo o párrafo que puedas editar. Aspose.Words le permite garantizar que una sección contenga un cuerpo con al menos un párrafo utilizando el método [EnsureMinimum](https://apireference.aspose.com/words/es/net/aspose.words/section/methods/ensureminimum): agregará automáticamente un nodo Cuerpo (o Encabezado y pie de página) al documento y luego le agregará un Párrafo.
 
 El siguiente ejemplo de código muestra cómo preparar un nuevo nodo de sección usando **EnsureMinimum**:
 
@@ -92,7 +92,7 @@ El siguiente ejemplo de código muestra cómo preparar un nuevo nodo de sección
 
 ### Agregar o anteponer contenido
 
-Si desea dibujar alguna forma o agregar texto o imagen al principio/final de una sección, puede usar los métodos [AppendContent](https://apireference.aspose.com/words/net/aspose.words/section/methods/appendcontent) y [PrependContent](https://apireference.aspose.com/words/net/aspose.words/section/methods/prependcontent) de la clase [Section](https://apireference.aspose.com/words/net/aspose.words/section).
+Si desea dibujar alguna forma o agregar texto o imagen al principio/final de una sección, puede usar los métodos [AppendContent](https://apireference.aspose.com/words/es/net/aspose.words/section/methods/appendcontent) y [PrependContent](https://apireference.aspose.com/words/es/net/aspose.words/section/methods/prependcontent) de la clase [Section](https://apireference.aspose.com/words/es/net/aspose.words/section).
 
 El siguiente ejemplo de código muestra cómo agregar contenido de una sección existente:
 
@@ -100,7 +100,7 @@ El siguiente ejemplo de código muestra cómo agregar contenido de una sección 
 
 ### Clonar una sección
 
-Aspose.Words le permite duplicar una sección creando una copia completa utilizando el método [Clone](https://apireference.aspose.com/words/net/aspose.words/section/methods/clone/index).
+Aspose.Words le permite duplicar una sección creando una copia completa utilizando el método [Clone](https://apireference.aspose.com/words/es/net/aspose.words/section/methods/clone/index).
 
 El siguiente ejemplo de código muestra cómo clonar la primera sección de su documento:
 
@@ -110,7 +110,7 @@ El siguiente ejemplo de código muestra cómo clonar la primera sección de su d
 
 En algunos casos, es posible que tenga documentos grandes con muchas secciones y desee copiar el contenido de una sección de un documento a otro.
 
-Aspose.Words le permite copiar secciones entre documentos utilizando el método [ImportNode](https://apireference.aspose.com/words/net/aspose.words/nodeimporter/methods/importnode).
+Aspose.Words le permite copiar secciones entre documentos utilizando el método [ImportNode](https://apireference.aspose.com/words/es/net/aspose.words/nodeimporter/methods/importnode).
 
 El siguiente ejemplo de código muestra cómo copiar secciones entre documentos:
 
@@ -127,7 +127,7 @@ El siguiente ejemplo de código muestra cómo crear 2 secciones con encabezados 
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
-Si desea eliminar el texto de los encabezados y pies de página sin eliminar los objetos [HeaderFooter](https://apireference.aspose.com/words/net/aspose.words/headerfooter) de su documento, puede utilizar el método [ClearHeadersFooters](https://apireference.aspose.com/words/net/aspose.words/section/methods/clearheadersfooters). Además, puede utilizar el método [DeleteHeaderFooterShapes](https://apireference.aspose.com/words/net/aspose.words/section/methods/deleteheaderfootershapes) para eliminar todas las formas de los encabezados y pies de página de su documento.
+Si desea eliminar el texto de los encabezados y pies de página sin eliminar los objetos [HeaderFooter](https://apireference.aspose.com/words/es/net/aspose.words/headerfooter) de su documento, puede utilizar el método [ClearHeadersFooters](https://apireference.aspose.com/words/es/net/aspose.words/section/methods/clearheadersfooters). Además, puede utilizar el método [DeleteHeaderFooterShapes](https://apireference.aspose.com/words/es/net/aspose.words/section/methods/deleteheaderfootershapes) para eliminar todas las formas de los encabezados y pies de página de su documento.
 
 El siguiente ejemplo de código muestra cómo borrar el contenido de todos los encabezados y pies de página de una sección:
 
@@ -141,7 +141,7 @@ El siguiente ejemplo de código muestra cómo eliminar todas las formas de todos
 
 Antes de imprimir una página o un documento, es posible que desee personalizar y modificar el tamaño y el diseño de una sola página o de todo el documento. Con la configuración de página, puede cambiar la configuración de las páginas del documento, como los márgenes, la orientación y el tamaño, para imprimir primeras páginas diferentes o páginas impares.
 
-Aspose.Words le permite personalizar las propiedades de la página y la sección utilizando la clase [PageSetup](https://apireference.aspose.com/words/net/aspose.words/pagesetup).
+Aspose.Words le permite personalizar las propiedades de la página y la sección utilizando la clase [PageSetup](https://apireference.aspose.com/words/es/net/aspose.words/pagesetup).
 
 El siguiente ejemplo de código muestra cómo establecer propiedades como el tamaño de página y la orientación de la sección actual:
 

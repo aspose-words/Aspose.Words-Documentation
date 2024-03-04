@@ -21,11 +21,11 @@ Cet article explique comment rendre un document en lecture seule.
 
 ## Rendre un document en lecture seule
 
-Aspose.Words possède la classe publique [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/) qui spécifie les paramètres de protection en écriture pour un document. Vous ne créez pas directement des instances de cette classe.
+Aspose.Words possède la classe publique [WriteProtection](https://reference.aspose.com/words/fr/net/aspose.words.settings/writeprotection/) qui spécifie les paramètres de protection en écriture pour un document. Vous ne créez pas directement des instances de cette classe.
 
 La protection en écriture indique si l'auteur a recommandé d'ouvrir un document en lecture seule et/ou d'exiger un mot de passe pour modifier le document.
 
-Aspose.Words vous permet de créer un document en lecture seule pour restreindre les modifications en utilisant la propriété [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/) et la méthode [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/).
+Aspose.Words vous permet de créer un document en lecture seule pour restreindre les modifications en utilisant la propriété [ReadOnlyRecommended](https://reference.aspose.com/words/fr/net/aspose.words.settings/writeprotection/readonlyrecommended/) et la méthode [SetPassword](https://reference.aspose.com/words/fr/net/aspose.words.settings/writeprotection/setpassword/).
 
 {{% alert color="primary" %}}
 
@@ -38,7 +38,7 @@ Dans Microsoft Word, vous pouvez créer un document en lecture seule de la même
 
 {{% alert color="primary" %}}
 
-Les utilisateurs peuvent également restreindre l'édition de documents en sélectionnant [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/) comme **ReadOnly**, mais il s'agit d'une autre fonctionnalité qui offre des capacités de protection plus avancées. Il existe une telle fonction en Microsoft Word, respectivement, elle est implémentée en Aspose.Words.
+Les utilisateurs peuvent également restreindre l'édition de documents en sélectionnant [ProtectionType](https://reference.aspose.com/words/fr/net/aspose.words/protectiontype/) comme **ReadOnly**, mais il s'agit d'une autre fonctionnalité qui offre des capacités de protection plus avancées. Il existe une telle fonction en Microsoft Word, respectivement, elle est implémentée en Aspose.Words.
 
 **ProtectionType** sera décrit en détail dans l'un des articles suivants – "Restreindre l'édition de documents".
 
@@ -52,7 +52,7 @@ Notez que le mot de passe défini n'est qu'une propriété d'un document qui peu
 
 {{% /alert %}}
 
-Si vous devez vérifier si un document dispose d'un mot de passe de protection en écriture qui l'empêche de le modifier, vous pouvez utiliser la propriété [IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/).
+Si vous devez vérifier si un document dispose d'un mot de passe de protection en écriture qui l'empêche de le modifier, vous pouvez utiliser la propriété [IsWriteProtected](https://reference.aspose.com/words/fr/net/aspose.words.settings/writeprotection/iswriteprotected/).
 
 L'exemple de code suivant montre comment rendre un document en lecture seule:
 

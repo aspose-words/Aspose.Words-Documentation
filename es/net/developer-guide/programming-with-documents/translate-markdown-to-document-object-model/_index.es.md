@@ -23,7 +23,7 @@ Nuestro motor de traducción permite a los usuarios no sólo trabajar con elemen
 
 ## Principios comunes de traducción
 
-Usamos formato [Font](https://reference.aspose.com/words/net/aspose.words/font/) para bloques en línea. Cuando no existe una correspondencia directa para una característica Markdown en Aspose.Words DOM, utilizamos un estilo de carácter con un nombre que comienza con algunas palabras especiales.
+Usamos formato [Font](https://reference.aspose.com/words/es/net/aspose.words/font/) para bloques en línea. Cuando no existe una correspondencia directa para una característica Markdown en Aspose.Words DOM, utilizamos un estilo de carácter con un nombre que comienza con algunas palabras especiales.
 
 Para los bloques contenedores, utilizamos la herencia de estilo para indicar características Markdown anidadas. En este caso, incluso cuando no hay funciones anidadas, también utilizamos estilos de párrafo con un nombre que comienza con algunas palabras especiales.
 
@@ -31,7 +31,7 @@ Las listas con viñetas y ordenadas también son bloques contenedores en Markdow
 
 ## Bloques en línea
 
-Usamos el formato [Font](https://reference.aspose.com/words/net/aspose.words/font/) al traducir funciones **Bold**, *Italic* o ~~Tachado~~ markdown en línea.
+Usamos el formato [Font](https://reference.aspose.com/words/es/net/aspose.words/font/) al traducir funciones **Bold**, *Italic* o ~~Tachado~~ markdown en línea.
 
 |  Función Markdown |  Aspose.Words |
 |  -----------------------------  |  ------------------  |
@@ -53,11 +53,11 @@ Usamos un estilo de carácter con un nombre que comienza con la palabra `InlineC
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
 |  {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}} ||
-|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  La clase [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/). |
+|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  La clase [FieldHyperlink](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldhyperlink/). |
 |  {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}} ||
-|  **Link**<br /> `{1}`<br /> `{2}`<br /> PELEA<br /> `{4})` |  La clase [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/). |
+|  **Link**<br /> `{1}`<br /> `{2}`<br /> PELEA<br /> `{4})` |  La clase [FieldHyperlink](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldhyperlink/). |
 |  {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}} ||
-|  **Image**<br /> `{1}`<br /> `{2}`<br /> PELEA<br /> `{4})` |  La clase [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/). |
+|  **Image**<br /> `{1}`<br /> `{2}`<br /> PELEA<br /> `{4})` |  La clase [Shape](https://reference.aspose.com/words/es/net/aspose.words.drawing/shape/). |
 |  {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}} ||
 
 ## Bloques de contenedores
@@ -155,7 +155,7 @@ Aspose.Words también permite traducir tablas a DOM, como se muestra a continuac
 
 |  característica Markdown |  Aspose.Words |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> `un | b`<br />`- | -`<br />`c | d` |  Clases [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) y [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/). |
+|  `Table`<br /> `un | b`<br />`- | -`<br />`c | d` |  Clases [Table](https://reference.aspose.com/words/es/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/es/net/aspose.words.tables/row/) y [Cell](https://reference.aspose.com/words/es/net/aspose.words.tables/cell/). |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

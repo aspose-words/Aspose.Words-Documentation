@@ -56,10 +56,10 @@ Um den Inhalt aus Ihrem Dokument zu extrahieren, müssen Sie die unten stehende 
 
 Wenn die Markierungsknoten jedoch inline sind (ein untergeordnetes Element eines Absatzes), wird die Situation komplexer, da der Absatz am Inline-Knoten geteilt werden muss, sei es ein Lauf, Lesezeichenfelder usw. Inhalte in den geklonten übergeordneten Knoten sind nicht vorhanden Der zwischen den Markierungen vorhandene Wert wird entfernt. Dieser Prozess wird verwendet, um sicherzustellen, dass die Inline-Knoten weiterhin die Formatierung des übergeordneten Absatzes beibehalten. Die Methode führt außerdem Prüfungen für die als Parameter übergebenen Knoten durch und löst eine Ausnahme aus, wenn einer der Knoten ungültig ist. Die an diese Methode zu übergebenden Parameter sind:
 
-1. **StartNode** und **EndNode**. Die ersten beiden Parameter sind die Knoten, die definieren, wo die Extraktion des Inhalts beginnen bzw. enden soll. Diese Knoten können sowohl auf Blockebene ([Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)) als auch auf Inline-Ebene (z. B. [Run](https://reference.aspose.com/words/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) usw.) sein:
+1. **StartNode** und **EndNode**. Die ersten beiden Parameter sind die Knoten, die definieren, wo die Extraktion des Inhalts beginnen bzw. enden soll. Diese Knoten können sowohl auf Blockebene ([Paragraph](https://reference.aspose.com/words/de/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/de/net/aspose.words.tables/table/)) als auch auf Inline-Ebene (z. B. [Run](https://reference.aspose.com/words/de/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/de/net/aspose.words/bookmark/bookmarkstart/) usw.) sein:
    1. Um ein Feld zu übergeben, müssen Sie das entsprechende **FieldStart**-Objekt übergeben
-   1. Um Lesezeichen zu übergeben, sollten die **BookmarkStart**- und [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/)-Knoten übergeben werden
-   1. Zur Übergabe von Kommentaren sollten die Knoten [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) und [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) verwendet werden
+   1. Um Lesezeichen zu übergeben, sollten die **BookmarkStart**- und [BookmarkEnd](https://reference.aspose.com/words/de/net/aspose.words/bookmark/bookmarkend/)-Knoten übergeben werden
+   1. Zur Übergabe von Kommentaren sollten die Knoten [CommentRangeStart](https://reference.aspose.com/words/de/net/aspose.words/commentrangestart/) und [CommentRangeEnd](https://reference.aspose.com/words/de/net/aspose.words/commentrangeend/) verwendet werden
 1. **IsInclusive**. Legt fest, ob die Marker in die Extraktion einbezogen werden oder nicht. Wenn diese Option auf false gesetzt ist und derselbe Knoten oder aufeinanderfolgende Knoten übergeben werden, wird eine leere Liste zurückgegeben:
    1. Wenn ein **FieldStart**-Knoten übergeben wird, definiert diese Option, ob das gesamte Feld eingeschlossen oder ausgeschlossen werden soll
    1. Wenn ein **BookmarkStart**- oder **BookmarkEnd**-Knoten übergeben wird, definiert diese Option, ob das Lesezeichen enthalten ist oder nur der Inhalt zwischen dem Lesezeichenbereich.
@@ -77,7 +77,7 @@ Das folgende Codebeispiel zeigt, wie eine Liste von Knoten in ein neues Dokument
 
 Dies zeigt, wie Sie mit der oben beschriebenen Methode Inhalte zwischen bestimmten Absätzen extrahieren. In diesem Fall möchten wir den Textkörper des Briefes extrahieren, der sich in der ersten Hälfte des Dokuments befindet. Wir können erkennen, dass dies zwischen dem 7. und 11. Absatz liegt.
 
-Der folgende Code führt diese Aufgabe aus. Die entsprechenden Absätze werden mithilfe der [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/)-Methode aus dem Dokument extrahiert und die angegebenen Indizes übergeben. Anschließend übergeben wir diese Knoten an die **ExtractContent**-Methode und geben an, dass diese in die Extraktion einbezogen werden sollen. Diese Methode gibt den kopierten Inhalt zwischen diesen Knoten zurück, der dann in ein neues Dokument eingefügt wird.
+Der folgende Code führt diese Aufgabe aus. Die entsprechenden Absätze werden mithilfe der [GetChild](https://reference.aspose.com/words/de/net/aspose.words/compositenode/)-Methode aus dem Dokument extrahiert und die angegebenen Indizes übergeben. Anschließend übergeben wir diese Knoten an die **ExtractContent**-Methode und geben an, dass diese in die Extraktion einbezogen werden sollen. Diese Methode gibt den kopierten Inhalt zwischen diesen Knoten zurück, der dann in ein neues Dokument eingefügt wird.
 
 Das folgende Codebeispiel zeigt, wie Sie den Inhalt zwischen bestimmten Absätzen mithilfe der oben genannten `ExtractContent`-Methode extrahieren:
 
@@ -91,7 +91,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## Extrahieren Sie Inhalte zwischen verschiedenen Knotentypen
 
-Wir können Inhalte zwischen beliebigen Kombinationen von Blockebenen- oder Inline-Knoten extrahieren. In diesem Szenario unten extrahieren wir den Inhalt zwischen dem ersten Absatz und der Tabelle im zweiten Abschnitt einschließlich. Wir erhalten die Markierungsknoten, indem wir die [FirstParagraph](https://reference.aspose.com/words/net/aspose.words/story/firstparagraph/)- und [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/getchild/)-Methoden im zweiten Abschnitt des Dokuments aufrufen, um die entsprechenden **Paragraph**- und **Table**-Knoten abzurufen. Als kleine Abwechslung duplizieren wir stattdessen den Inhalt und fügen ihn unter dem Original ein.
+Wir können Inhalte zwischen beliebigen Kombinationen von Blockebenen- oder Inline-Knoten extrahieren. In diesem Szenario unten extrahieren wir den Inhalt zwischen dem ersten Absatz und der Tabelle im zweiten Abschnitt einschließlich. Wir erhalten die Markierungsknoten, indem wir die [FirstParagraph](https://reference.aspose.com/words/de/net/aspose.words/story/firstparagraph/)- und [GetChild](https://reference.aspose.com/words/de/net/aspose.words/compositenode/getchild/)-Methoden im zweiten Abschnitt des Dokuments aufrufen, um die entsprechenden **Paragraph**- und **Table**-Knoten abzurufen. Als kleine Abwechslung duplizieren wir stattdessen den Inhalt und fügen ihn unter dem Original ein.
 
 Das folgende Codebeispiel zeigt, wie der Inhalt zwischen einem Absatz und einer Tabelle mithilfe der **ExtractContent**-Methode extrahiert wird:
 
@@ -123,7 +123,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## Extrahieren Sie Inhalte zwischen bestimmten Läufen
 
-Sie können Inhalte auch zwischen Inline-Knoten wie einem [Run](https://reference.aspose.com/words/net/aspose.words/run/) extrahieren. Als Markierungen können **Runs** aus verschiedenen Absätzen übergeben werden. Der folgende Code zeigt, wie man bestimmten Text zwischen demselben **Paragraph**-Knoten extrahiert.
+Sie können Inhalte auch zwischen Inline-Knoten wie einem [Run](https://reference.aspose.com/words/de/net/aspose.words/run/) extrahieren. Als Markierungen können **Runs** aus verschiedenen Absätzen übergeben werden. Der folgende Code zeigt, wie man bestimmten Text zwischen demselben **Paragraph**-Knoten extrahiert.
 
 Das folgende Codebeispiel zeigt, wie Sie mithilfe der **ExtractContent**-Methode Inhalte zwischen bestimmten Durchläufen desselben Absatzes extrahieren:
 
@@ -137,7 +137,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## Extrahieren Sie Inhalte mithilfe eines Felds
 
-Um ein Feld als Marker zu verwenden, muss der `FieldStart`-Knoten übergeben werden. Der letzte Parameter der `ExtractContent`-Methode definiert, ob das gesamte Feld eingeschlossen werden soll oder nicht. Extrahieren wir den Inhalt zwischen dem Briefvorlagenfeld "FullName" und einem Absatz im Dokument. Wir verwenden die [MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/)-Methode der [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)-Klasse. Dadurch wird der **FieldStart**-Knoten mit dem Namen des an ihn übergebenen Zusammenführungsfelds zurückgegeben.
+Um ein Feld als Marker zu verwenden, muss der `FieldStart`-Knoten übergeben werden. Der letzte Parameter der `ExtractContent`-Methode definiert, ob das gesamte Feld eingeschlossen werden soll oder nicht. Extrahieren wir den Inhalt zwischen dem Briefvorlagenfeld "FullName" und einem Absatz im Dokument. Wir verwenden die [MoveToMergeField](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/movetomergefield/)-Methode der [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Klasse. Dadurch wird der **FieldStart**-Knoten mit dem Namen des an ihn übergebenen Zusammenführungsfelds zurückgegeben.
 
 In unserem Fall setzen wir den letzten an die **ExtractContent**-Methode übergebenen Parameter auf false, um das Feld von der Extraktion auszuschließen. Wir rendern den extrahierten Inhalt als PDF.
 
@@ -169,7 +169,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 Ein Kommentar besteht aus den Knoten CommentRangeStart, CommentRangeEnd und Comment. Alle diese Knoten sind inline. Die ersten beiden Knoten kapseln den Inhalt des Dokuments, auf das der Kommentar verweist, wie im Screenshot unten zu sehen ist.
 
-Der **Comment**-Knoten selbst ist ein [InlineStory](https://reference.aspose.com/words/net/aspose.words/inlinestory/), der Absätze und Läufe enthalten kann. Es stellt die Botschaft des Kommentars dar, die als Kommentarblase im Überprüfungsbereich angezeigt wird. Da dieser Knoten inline ist und von einem Text abstammt, können Sie den Inhalt auch aus dieser Nachricht extrahieren.
+Der **Comment**-Knoten selbst ist ein [InlineStory](https://reference.aspose.com/words/de/net/aspose.words/inlinestory/), der Absätze und Läufe enthalten kann. Es stellt die Botschaft des Kommentars dar, die als Kommentarblase im Überprüfungsbereich angezeigt wird. Da dieser Knoten inline ist und von einem Text abstammt, können Sie den Inhalt auch aus dieser Nachricht extrahieren.
 
 Der Kommentar fasst die Überschrift, den ersten Absatz und die Tabelle im zweiten Abschnitt zusammen. Extrahieren wir diesen Kommentar in ein neues Dokument. Die **IsInclusive**-Option bestimmt, ob der Kommentar selbst beibehalten oder verworfen wird.
 
@@ -185,17 +185,17 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## So extrahieren Sie Inhalte mit DocumentVisitor
 
-Verwenden Sie die [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/)-Klasse, um dieses Verwendungsszenario zu implementieren. Diese Klasse entspricht dem bekannten Visitor-Entwurfsmuster. Mit **DocumentVisitor** **,** können Sie benutzerdefinierte Vorgänge definieren und ausführen, die eine Aufzählung über den Dokumentbaum erfordern.
+Verwenden Sie die [DocumentVisitor](https://reference.aspose.com/words/de/net/aspose.words/documentvisitor/)-Klasse, um dieses Verwendungsszenario zu implementieren. Diese Klasse entspricht dem bekannten Visitor-Entwurfsmuster. Mit **DocumentVisitor** **,** können Sie benutzerdefinierte Vorgänge definieren und ausführen, die eine Aufzählung über den Dokumentbaum erfordern.
 
-**DocumentVisitor** stellt eine Reihe von **VisitXXX**-Methoden bereit, die aufgerufen werden, wenn ein bestimmtes Dokumentelement (Knoten) angetroffen wird. [VisitParagraphStart](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphstart/) wird beispielsweise aufgerufen, wenn der Anfang eines Textabsatzes gefunden wird, und [VisitParagraphEnd](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphend/) wird aufgerufen, wenn das Ende eines Textabsatzes gefunden wird. Jede **DocumentVisitor.VisitXXX**-Methode akzeptiert das entsprechende Objekt, auf das sie trifft, sodass Sie es nach Bedarf verwenden können (z. B. die Formatierung abrufen). Beispielsweise akzeptieren sowohl **DocumentVisitor.VisitParagraphStart** als auch **DocumentVisitor.VisitParagraphEnd** ein [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)-Objekt.
+**DocumentVisitor** stellt eine Reihe von **VisitXXX**-Methoden bereit, die aufgerufen werden, wenn ein bestimmtes Dokumentelement (Knoten) angetroffen wird. [VisitParagraphStart](https://reference.aspose.com/words/de/net/aspose.words/documentvisitor/visitparagraphstart/) wird beispielsweise aufgerufen, wenn der Anfang eines Textabsatzes gefunden wird, und [VisitParagraphEnd](https://reference.aspose.com/words/de/net/aspose.words/documentvisitor/visitparagraphend/) wird aufgerufen, wenn das Ende eines Textabsatzes gefunden wird. Jede **DocumentVisitor.VisitXXX**-Methode akzeptiert das entsprechende Objekt, auf das sie trifft, sodass Sie es nach Bedarf verwenden können (z. B. die Formatierung abrufen). Beispielsweise akzeptieren sowohl **DocumentVisitor.VisitParagraphStart** als auch **DocumentVisitor.VisitParagraphEnd** ein [Paragraph](https://reference.aspose.com/words/de/net/aspose.words/paragraph/)-Objekt.
 
-Jede **DocumentVisitor.VisitXXX**-Methode gibt einen [VisitorAction](https://reference.aspose.com/words/net/aspose.words/visitoraction/)-Wert zurück, der die Aufzählung der Knoten steuert. Sie können anfordern, entweder die Aufzählung fortzusetzen, den aktuellen Knoten zu überspringen (aber die Aufzählung fortzusetzen) oder die Aufzählung der Knoten zu stoppen.
+Jede **DocumentVisitor.VisitXXX**-Methode gibt einen [VisitorAction](https://reference.aspose.com/words/de/net/aspose.words/visitoraction/)-Wert zurück, der die Aufzählung der Knoten steuert. Sie können anfordern, entweder die Aufzählung fortzusetzen, den aktuellen Knoten zu überspringen (aber die Aufzählung fortzusetzen) oder die Aufzählung der Knoten zu stoppen.
 
 Dies sind die Schritte, die Sie befolgen sollten, um verschiedene Teile eines Dokuments programmgesteuert zu ermitteln und zu extrahieren:
 
 - Erstellen Sie eine von **DocumentVisitor** abgeleitete Klasse
 - Überschreiben und stellen Sie Implementierungen für einige oder alle **DocumentVisitor.VisitXXX**-Methoden bereit, um einige benutzerdefinierte Vorgänge auszuführen
-- Rufen Sie [Node.Accept](https://reference.aspose.com/words/net/aspose.words/node/accept/) auf dem Knoten auf, von dem aus Sie die Aufzählung starten möchten. Wenn Sie beispielsweise das gesamte Dokument aufzählen möchten, verwenden Sie [Document.Accept](https://reference.aspose.com/words/net/aspose.words/document/accept/)
+- Rufen Sie [Node.Accept](https://reference.aspose.com/words/de/net/aspose.words/node/accept/) auf dem Knoten auf, von dem aus Sie die Aufzählung starten möchten. Wenn Sie beispielsweise das gesamte Dokument aufzählen möchten, verwenden Sie [Document.Accept](https://reference.aspose.com/words/de/net/aspose.words/document/accept/)
 
 **DocumentVisitor** bietet Standardimplementierungen für alle **DocumentVisitor.VisitXXX**-Methoden. Dies erleichtert das Erstellen neuer Dokumentbesucher, da nur die für den jeweiligen Besucher erforderlichen Methoden überschrieben werden müssen. Es ist nicht notwendig, alle Besuchermethoden zu überschreiben.
 
@@ -215,10 +215,10 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 Es gibt folgende Möglichkeiten, Text aus dem Dokument abzurufen:
 
-- Verwenden Sie [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) mit [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/), um als Nur-Text in einer Datei oder einem Stream zu speichern
-- Verwenden Sie [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) und übergeben Sie den **SaveFormat.Text**-Parameter. Intern ruft dies das Speichern als Text in einem Speicherstrom auf und gibt die resultierende Zeichenfolge zurück
-- Verwenden Sie [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/), um Text mit allen Microsoft Word-Steuerzeichen einschließlich Feldcodes abzurufen
-- Implementieren Sie ein benutzerdefiniertes [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/), um eine benutzerdefinierte Extraktion durchzuführen
+- Verwenden Sie [Document.Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/) mit [SaveFormat.Text](https://reference.aspose.com/words/de/net/aspose.words/saveformat/), um als Nur-Text in einer Datei oder einem Stream zu speichern
+- Verwenden Sie [Node.ToString](https://reference.aspose.com/words/de/net/aspose.words/node/tostring/) und übergeben Sie den **SaveFormat.Text**-Parameter. Intern ruft dies das Speichern als Text in einem Speicherstrom auf und gibt die resultierende Zeichenfolge zurück
+- Verwenden Sie [Node.GetText](https://reference.aspose.com/words/de/net/aspose.words/node/gettext/), um Text mit allen Microsoft Word-Steuerzeichen einschließlich Feldcodes abzurufen
+- Implementieren Sie ein benutzerdefiniertes [DocumentVisitor](https://reference.aspose.com/words/de/net/aspose.words/documentvisitor/), um eine benutzerdefinierte Extraktion durchzuführen
 
 ### Verwendung von `Node.GetText` und `Node.ToString`
 

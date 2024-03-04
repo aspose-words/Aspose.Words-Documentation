@@ -9,7 +9,7 @@ weight: 310
 url: /de/net/working-with-charts/
 ---
 
-Der [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)-Klasse wurde eine neue [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/)-Methode hinzugefügt. Sehen wir uns also an, wie man mit der [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/)-Methode ein einfaches Säulendiagramm in das Dokument einfügt.
+Der [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Klasse wurde eine neue [InsertChart](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertchart/)-Methode hinzugefügt. Sehen wir uns also an, wie man mit der [InsertChart](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertchart/)-Methode ein einfaches Säulendiagramm in das Dokument einfügt.
 
 ## So fügen Sie ein Diagramm ein
 
@@ -78,7 +78,7 @@ Der Code generiert die folgenden Ergebnisse:
 
 ## So arbeiten Sie mit ChartSeriesCollection of Chart
 
-Schauen wir uns die [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/)-Sammlung an. Alle Diagrammreihen sind über die [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/)-Sammlung verfügbar, bei der es sich um **IEnumerable** handelt:
+Schauen wir uns die [ChartSeries](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartseries/)-Sammlung an. Alle Diagrammreihen sind über die [chart.Series](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chart/series/)-Sammlung verfügbar, bei der es sich um **IEnumerable** handelt:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
@@ -95,7 +95,7 @@ Bitte sehen Sie sich das Ergebnis unten an:
 ![line-chart-chartseries-aspose-words-net](/words/net/working-with-charts/working-with-charts-7.png)
 
 
-Alle einzelnen [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/)-Dateien verfügen über standardmäßige [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/)-Optionen. Versuchen Sie bitte, diese mit dem folgenden Code zu ändern:
+Alle einzelnen [ChartSeries](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartseries/)-Dateien verfügen über standardmäßige [ChartDataPoint](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartdatapoint/)-Optionen. Versuchen Sie bitte, diese mit dem folgenden Code zu ändern:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
@@ -105,7 +105,7 @@ Bitte sehen Sie sich das Ergebnis unten an:
 
 ## So arbeiten Sie mit einem einzelnen ChartDataPoint eines `ChartSeries`
 
-Mit [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) können Sie die Formatierung eines einzelnen Datenpunkts der Diagrammreihe anpassen:
+Mit [ChartDataPoint](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartdatapoint/) können Sie die Formatierung eines einzelnen Datenpunkts der Diagrammreihe anpassen:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
@@ -115,7 +115,7 @@ Bitte sehen Sie sich das Ergebnis unten an:
 
 ## So arbeiten Sie mit ChartDataLabel einer einzelnen ChartSeries
 
-Mit [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) können Sie die Formatierung einer einzelnen Datenbeschriftung der Diagrammreihe festlegen, z. B. LegendKey, CategoryName, SeriesName, Value usw. ein-/ausblenden:
+Mit [ChartDataLabel](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartdatalabel/) können Sie die Formatierung einer einzelnen Datenbeschriftung der Diagrammreihe festlegen, z. B. LegendKey, CategoryName, SeriesName, Value usw. ein-/ausblenden:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
@@ -125,7 +125,7 @@ Bitte sehen Sie sich das Ergebnis unten an:
 
 ## So definieren Sie Standardoptionen für ChartDataLabels von ChartSeries
 
-Die [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/)-Klasse definiert Eigenschaften, die zum Festlegen von Standardoptionen für **ChartDataLabels** für Diagramm-**Series** verwendet werden können. Zu diesen Eigenschaften gehören ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue usw.:
+Die [ChartDataLabelCollection](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartdatalabelcollection/)-Klasse definiert Eigenschaften, die zum Festlegen von Standardoptionen für **ChartDataLabels** für Diagramm-**Series** verwendet werden können. Zu diesen Eigenschaften gehören ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue usw.:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
 
@@ -135,7 +135,7 @@ Bitte sehen Sie sich das Ergebnis unten an:
 
 ## So formatieren Sie die Nummer der Diagrammdatenbeschriftung
 
-Mit [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) können Sie die Zahlenformatierung einer einzelnen Datenbeschriftung des Diagramms festlegen.
+Mit [NumberFormat](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) können Sie die Zahlenformatierung einer einzelnen Datenbeschriftung des Diagramms festlegen.
 
 Das folgende Codebeispiel zeigt, wie eine Nummer der Datenbeschriftung formatiert wird:
 
@@ -143,7 +143,7 @@ Das folgende Codebeispiel zeigt, wie eine Nummer der Datenbeschriftung formatier
 
 ## So legen Sie die Eigenschaften der Diagrammachse fest
 
-Wenn Sie mit Diagrammachsen, Skalierungen und Anzeigeeinheiten für die Werteachse arbeiten möchten, verwenden Sie bitte die Klassen [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/) und [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/).
+Wenn Sie mit Diagrammachsen, Skalierungen und Anzeigeeinheiten für die Werteachse arbeiten möchten, verwenden Sie bitte die Klassen [ChartAxis](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/axisdisplayunit/) und [AxisScaling](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/axisscaling/).
 
 Das folgende Codebeispiel zeigt, wie X- und Y-Achseneigenschaften definiert werden:
 
@@ -185,7 +185,7 @@ Das folgende Codebeispiel zeigt, wie Sie die Y-Achse des Diagramms ausblenden:
 
 ### So richten Sie die Diagrammbeschriftung aus
 
-Wenn Sie eine Textausrichtung für mehrzeilige Beschriftungen festlegen möchten, können Sie dies einfach durch Festlegen des Werts der [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Ausrichtung**-Eigenschaft erreichen.
+Wenn Sie eine Textausrichtung für mehrzeilige Beschriftungen festlegen möchten, können Sie dies einfach durch Festlegen des Werts der [TickLabels](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Ausrichtung**-Eigenschaft erreichen.
 
 Das folgende Codebeispiel zeigt, wie die Beschriftungsausrichtung aktiviert wird:
 

@@ -19,7 +19,7 @@ Para cifrar un documento, utilice la propiedad **Password** para proporcionar un
 
 {{% alert color="primary" %}}
 
-Puede encontrar la propiedad **Password** adecuada para el formato requerido. Cada formato de guardado de documento en [Guardar espacio de nombres](https://reference.aspose.com/words/net/aspose.words.saving/) tiene una clase correspondiente que contiene opciones de guardado para este formato. Por ejemplo, la propiedad [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) en la clase [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) para DOC o la propiedad [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) en la clase [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) para DOCX, DOCM, DOTX, DOTM y FlatOpc.
+Puede encontrar la propiedad **Password** adecuada para el formato requerido. Cada formato de guardado de documento en [Guardar espacio de nombres](https://reference.aspose.com/words/es/net/aspose.words.saving/) tiene una clase correspondiente que contiene opciones de guardado para este formato. Por ejemplo, la propiedad [Password](https://reference.aspose.com/words/es/net/aspose.words.saving/docsaveoptions/password/) en la clase [DocSaveOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/docsaveoptions/) para DOC o la propiedad [Password](https://reference.aspose.com/words/es/net/aspose.words.saving/ooxmlsaveoptions/password/) en la clase [OoxmlSaveOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/ooxmlsaveoptions/) para DOCX, DOCM, DOTX, DOTM y FlatOpc.
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ El siguiente ejemplo de código muestra cómo cifrar un documento con una contra
 
 En algunos casos, es posible que tenga un documento ilegible y desee asegurarse de que esté cifrado y no esté dañado ni comprimido.
 
-Para detectar si un documento está cifrado y si se requiere una contraseña, puede utilizar la propiedad [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) de la clase [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/). Esta propiedad también le permitirá realizar alguna acción antes de cargar un documento, por ejemplo, informar a un usuario que proporcione una contraseña.
+Para detectar si un documento está cifrado y si se requiere una contraseña, puede utilizar la propiedad [IsEncrypted](https://reference.aspose.com/words/es/net/aspose.words/fileformatinfo/isencrypted/) de la clase [FileFormatInfo](https://reference.aspose.com/words/es/net/aspose.words/fileformatinfo/). Esta propiedad también le permitirá realizar alguna acción antes de cargar un documento, por ejemplo, informar a un usuario que proporcione una contraseña.
 
 El siguiente ejemplo de código muestra cómo detectar el cifrado del documento:
 

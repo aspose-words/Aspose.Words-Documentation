@@ -27,10 +27,10 @@ Tieni presente che il numero di pagine di un documento influisce sul tempo di co
 
 La conversione dal formato documento DOC o DOCX al formato PDF in Aspose.Words è molto semplice e può essere eseguita con sole due righe di codice che:
 
-1. Carica il tuo documento in un oggetto [Document](https://reference.aspose.com/words/net/aspose.words/document/) utilizzando uno dei suoi costruttori specificando il nome del documento con la sua estensione di formato.
-1. Richiamare uno dei metodi [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) sull'oggetto **Document** e specificare il formato di output desiderato come PDF inserendo un nome file con estensione ".PDF".
+1. Carica il tuo documento in un oggetto [Document](https://reference.aspose.com/words/it/net/aspose.words/document/) utilizzando uno dei suoi costruttori specificando il nome del documento con la sua estensione di formato.
+1. Richiamare uno dei metodi [Document.Save](https://reference.aspose.com/words/it/net/aspose.words/document/save/#save/) sull'oggetto **Document** e specificare il formato di output desiderato come PDF inserendo un nome file con estensione ".PDF".
 
-Il seguente esempio di codice mostra come convertire un documento da DOCX in PDF utilizzando il metodo [Save](https://reference.aspose.com/words/net/aspose.words/document/save/):
+Il seguente esempio di codice mostra come convertire un documento da DOCX in PDF utilizzando il metodo [Save](https://reference.aspose.com/words/it/net/aspose.words/document/save/):
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
@@ -38,7 +38,7 @@ Il seguente esempio di codice mostra come convertire un documento da DOCX in PDF
 
 {{% alert color="primary" %}}
 
-A volte è necessario specificare opzioni aggiuntive, che possono influenzare il risultato del salvataggio di un documento come PDF. Queste opzioni possono essere specificate utilizzando la classe [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/), contenente proprietà che determinano come verrà visualizzato l'output PDF.
+A volte è necessario specificare opzioni aggiuntive, che possono influenzare il risultato del salvataggio di un documento come PDF. Queste opzioni possono essere specificate utilizzando la classe [PdfSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/pdfsaveoptions/), contenente proprietà che determinano come verrà visualizzato l'output PDF.
 
 Tieni presente che con la stessa tecnica puoi convertire qualsiasi documento in formato layout di flusso in formato PDF.
 
@@ -46,9 +46,9 @@ Tieni presente che con la stessa tecnica puoi convertire qualsiasi documento in 
 
 ### Converti in diversi standard PDF
 
-Aspose.Words fornisce l'enumerazione [PdfCompliace](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) per supportare la conversione di DOC o DOCX in vari standard di formato PDF (come PDF 1.7, PDF 1.5, ecc.).
+Aspose.Words fornisce l'enumerazione [PdfCompliace](https://reference.aspose.com/words/it/net/aspose.words.saving/pdfcompliance/) per supportare la conversione di DOC o DOCX in vari standard di formato PDF (come PDF 1.7, PDF 1.5, ecc.).
 
-Il seguente esempio di codice dimostra come convertire un documento in PDF 1.7 utilizzando [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) con conformità a PDF17:
+Il seguente esempio di codice dimostra come convertire un documento in PDF 1.7 utilizzando [PdfSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/pdfsaveoptions/) con conformità a PDF17:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
@@ -66,7 +66,7 @@ Per far funzionare questo codice, devi aggiungere riferimenti a Aspose.Words e `
 
 ## Riduci le dimensioni di output del PDF
 
-Quando si salva in PDF, è possibile specificare se si desidera ottimizzare l'output. Per fare ciò, è necessario impostare il flag [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) su true, quindi le tele nidificate ridondanti e le tele vuote verranno rimosse, gli glyph vicini con la stessa formattazione verranno concatenati.
+Quando si salva in PDF, è possibile specificare se si desidera ottimizzare l'output. Per fare ciò, è necessario impostare il flag [OptimizeOutput](https://reference.aspose.com/words/it/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) su true, quindi le tele nidificate ridondanti e le tele vuote verranno rimosse, gli glyph vicini con la stessa formattazione verranno concatenati.
 
 L'esempio di codice seguente mostra come ottimizzare l'output:
 

@@ -9,11 +9,11 @@ weight: 250
 url: /ar/net/working-with-textboxes/
 ---
 
-في Aspose.Words، يتم استخدام فئة [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) لتحديد كيفية عرض النص داخل الشكل. يعرض خاصية عامة تسمى **Parent** للحصول على الشكل الأصلي لمربع النص بحيث يمكن للعميل العثور على [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) المرتبط من **TextBox** المرتبط.
+في Aspose.Words، يتم استخدام فئة [TextBox](https://reference.aspose.com/words/ar/net/aspose.words.drawing/textbox/) لتحديد كيفية عرض النص داخل الشكل. يعرض خاصية عامة تسمى **Parent** للحصول على الشكل الأصلي لمربع النص بحيث يمكن للعميل العثور على [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/) المرتبط من **TextBox** المرتبط.
 
 ## إنشاء رابط
 
-توفر فئة **TextBox** طريقة [IsValidLinkTarget](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/isvalidlinktarget/) للتحقق مما إذا كان من الممكن ربط **TextBox** بـ **Textbox** الهدف.
+توفر فئة **TextBox** طريقة [IsValidLinkTarget](https://reference.aspose.com/words/ar/net/aspose.words.drawing/textbox/isvalidlinktarget/) للتحقق مما إذا كان من الممكن ربط **TextBox** بـ **Textbox** الهدف.
 
 يوضح مثال التعليمات البرمجية التالي كيفية التحقق من إمكانية ربط `TextBox` بمربع النص الهدف:
 
@@ -21,7 +21,7 @@ url: /ar/net/working-with-textboxes/
 
 ## التحقق من تسلسل مربع النص
 
-هناك عدة طرق لعرض النص في شكل ما. يمكن أن يكون [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/shape/textbox/) هو رأس التسلسل أو وسطه أو ذيله.
+هناك عدة طرق لعرض النص في شكل ما. يمكن أن يكون [TextBox](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/textbox/) هو رأس التسلسل أو وسطه أو ذيله.
 
 يوضح مثال التعليمات البرمجية التالي كيفية التحقق مما إذا كان **TextBox** هو رأس أو ذيل أو منتصف التسلسل:
 
@@ -29,7 +29,7 @@ url: /ar/net/working-with-textboxes/
 
 ## كسر الارتباط
 
-باستخدام طريقة [BreakForwardLink](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/breakforwardlink/)، يمكنك قطع الرابط إلى **TextBox** التالي.
+باستخدام طريقة [BreakForwardLink](https://reference.aspose.com/words/ar/net/aspose.words.drawing/textbox/breakforwardlink/)، يمكنك قطع الرابط إلى **TextBox** التالي.
 
 يوضح مثال التعليمات البرمجية التالي كيفية قطع رابط لـ **TextBox**:
 

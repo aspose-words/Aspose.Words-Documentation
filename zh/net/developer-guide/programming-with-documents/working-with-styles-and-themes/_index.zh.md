@@ -9,11 +9,11 @@ weight: 110
 url: /zh/net/working-with-styles-and-themes/
 ---
 
-[StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) 类用于管理内置样式并将用户定义的设置应用于样式。
+[StyleCollection](https://reference.aspose.com/words/zh/net/aspose.words/stylecollection/) 类用于管理内置样式并将用户定义的设置应用于样式。
 
 ## 访问样式
 
-您可以使用 [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) 属性获取文档中定义的样式集合。该集合包含文档中的内置样式和用户定义样式。特定样式可以通过其名称/别名、样式标识符或索引来获取。以下代码示例演示如何访问文档中定义的样式集合。
+您可以使用 [Document.Styles](https://reference.aspose.com/words/zh/net/aspose.words/documentbase/styles/) 属性获取文档中定义的样式集合。该集合包含文档中的内置样式和用户定义样式。特定样式可以通过其名称/别名、样式标识符或索引来获取。以下代码示例演示如何访问文档中定义的样式集合。
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ url: /zh/net/working-with-styles-and-themes/
 
 ### 解决方案
 
-为了说明 Aspose.Words 如何轻松地处理基于样式的内容检索，让我们看一个示例。在此示例中，我们将从示例 Word 文档中检索使用特定段落样式和字符样式格式化的文本。在较高级别上，这将涉及：# 使用 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 类打开 Word 文档。# 获取集合文档中的所有段落和所有运行。# 仅选择所需的段落和运行。具体来说，我们将从这个示例 Word 文档中检索使用"标题 1"段落样式和"强烈强调"字符样式格式化的文本。
+为了说明 Aspose.Words 如何轻松地处理基于样式的内容检索，让我们看一个示例。在此示例中，我们将从示例 Word 文档中检索使用特定段落样式和字符样式格式化的文本。在较高级别上，这将涉及：# 使用 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 类打开 Word 文档。# 获取集合文档中的所有段落和所有运行。# 仅选择所需的段落和运行。具体来说，我们将从这个示例 Word 文档中检索使用"标题 1"段落样式和"强烈强调"字符样式格式化的文本。
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ url: /zh/net/working-with-styles-and-themes/
 
 {{% /alert %}}
 
-还值得指出的是，段落集合不会立即产生开销，因为只有当您访问其中的项目时，段落才会加载到该集合中。然后，您需要做的就是使用标准 foreach 运算符遍历集合，并将具有指定样式的段落添加到 paragraphsWithStyle 数组中。 `Paragraph` 样式名称可以在 [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/) 对象的 [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) 属性中找到。尽管我们显然使用 [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) 来检索运行节点，但 RunsByStyleName 的实现几乎相同。 [Run](https://reference.aspose.com/words/net/aspose.words/run/) 对象的 [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) 属性用于访问 **Run** 节点中的样式信息。下面的示例查找使用指定样式格式化的所有运行。
+还值得指出的是，段落集合不会立即产生开销，因为只有当您访问其中的项目时，段落才会加载到该集合中。然后，您需要做的就是使用标准 foreach 运算符遍历集合，并将具有指定样式的段落添加到 paragraphsWithStyle 数组中。 `Paragraph` 样式名称可以在 [Paragraph.ParagraphFormat](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/paragraphformat/) 对象的 [Style.Name](https://reference.aspose.com/words/zh/net/aspose.words/style/name/) 属性中找到。尽管我们显然使用 [NodeType.Run](https://reference.aspose.com/words/zh/net/aspose.words/nodetype/) 来检索运行节点，但 RunsByStyleName 的实现几乎相同。 [Run](https://reference.aspose.com/words/zh/net/aspose.words/run/) 对象的 [Font.Style](https://reference.aspose.com/words/zh/net/aspose.words/font/style/) 属性用于访问 **Run** 节点中的样式信息。下面的示例查找使用指定样式格式化的所有运行。
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

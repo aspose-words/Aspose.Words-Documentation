@@ -13,4 +13,4 @@ Aspose.Words for .NET 是一个类库，使您的应用程序能够执行各种�
 
 Aspose.Words for .NET 完全用 C# 编写，符合 CLS，并且仅包含安全的托管代码。
 
-最新的 API Reference 可以在 [.NET API Reference 的 Aspose.Words](https://reference.aspose.com/words/net/) 中找到。
+最新的 API Reference 可以在 [.NET API Reference 的 Aspose.Words](https://reference.aspose.com/words/zh/net/) 中找到。

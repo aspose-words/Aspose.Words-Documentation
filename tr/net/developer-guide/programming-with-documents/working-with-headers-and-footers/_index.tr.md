@@ -13,7 +13,7 @@ Aspose.Words, kullanıcıların bir belgedeki üstbilgiler ve altbilgilerle çal
 
 ## DocumentBuilder'ı kullanarak Üstbilgi veya Altbilgi oluşturma
 
-Programlı olarak bir belge üstbilgisi veya altbilgisi eklemek istiyorsanız, bunu yapmanın en kolay yolu [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) sınıfını kullanmaktır.
+Programlı olarak bir belge üstbilgisi veya altbilgisi eklemek istiyorsanız, bunu yapmanın en kolay yolu [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) sınıfını kullanmaktır.
 
 Aşağıdaki kod örneği, belge sayfaları için üstbilgi ve altbilginin nasıl ekleneceğini gösterir:
 
@@ -21,7 +21,7 @@ Aşağıdaki kod örneği, belge sayfaları için üstbilgi ve altbilginin nası
 
 ## Üstbilgi veya Altbilgi Seçeneklerini Belirleyin
 
-Bir belgeye üstbilgi veya altbilgi eklediğinizde bazı gelişmiş özellikleri ayarlayabilirsiniz. Aspose.Words, kullanıcılara üstbilgi ve altbilgi özelleştirme süreci üzerinde daha fazla kontrol sağlayan [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfootertype/) numaralandırmasının yanı sıra [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) ve [HeaderFooterCollection](https://reference.aspose.com/words/net/aspose.words/headerfootercollection/) sınıflarını da sağlar.
+Bir belgeye üstbilgi veya altbilgi eklediğinizde bazı gelişmiş özellikleri ayarlayabilirsiniz. Aspose.Words, kullanıcılara üstbilgi ve altbilgi özelleştirme süreci üzerinde daha fazla kontrol sağlayan [HeaderFooterType](https://reference.aspose.com/words/tr/net/aspose.words/headerfootertype/) numaralandırmasının yanı sıra [HeaderFooter](https://reference.aspose.com/words/tr/net/aspose.words/headerfooter/) ve [HeaderFooterCollection](https://reference.aspose.com/words/tr/net/aspose.words/headerfootercollection/) sınıflarını da sağlar.
 
 ### Üstbilgi veya Altbilgi Türünü Belirtin
 
@@ -36,7 +36,7 @@ Aşağıdaki kod örneği, tek belge sayfaları için nasıl üstbilgi eklenece�
 
 ### İlk Sayfada Farklı Üstbilgilerin mi yoksa Altbilgilerin mi Görüntüleneceğini Belirleme
 
-Yukarıda da belirtildiği gibi, ilk sayfa için farklı bir üstbilgi veya altbilgi de ayarlayabilirsiniz. Bunu yapmak için [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) bayrağını `true` olarak ayarlayıp ardından **HeaderFirst** veya **FooterFirst** değerini belirtmeniz gerekir.
+Yukarıda da belirtildiği gibi, ilk sayfa için farklı bir üstbilgi veya altbilgi de ayarlayabilirsiniz. Bunu yapmak için [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) bayrağını `true` olarak ayarlayıp ardından **HeaderFirst** veya **FooterFirst** değerini belirtmeniz gerekir.
 
 Aşağıdaki kod örneği, yalnızca ilk sayfa için üstbilginin nasıl ayarlanacağını gösterir:
 
@@ -44,13 +44,13 @@ Aşağıdaki kod örneği, yalnızca ilk sayfa için üstbilginin nasıl ayarlan
 
 ### Tek veya Çift Sayfalar için Farklı Üstbilgilerin veya Altbilgilerin Görüntülenip Görüntülenmeyeceğini Belirleme
 
- Daha sonra, bir belgedeki tek ve çift sayfalar için farklı üstbilgiler veya altbilgiler ayarlamak isteyeceksiniz. Bunu yapmak için [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) bayrağını `true` olarak ayarlamanız ve ardından **HeaderPrimary** ve **HeaderEven** veya **FooterPrimary** ve **FooterEven** değerlerini belirtmeniz gerekir.
+ Daha sonra, bir belgedeki tek ve çift sayfalar için farklı üstbilgiler veya altbilgiler ayarlamak isteyeceksiniz. Bunu yapmak için [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) bayrağını `true` olarak ayarlamanız ve ardından **HeaderPrimary** ve **HeaderEven** veya **FooterPrimary** ve **FooterEven** değerlerini belirtmeniz gerekir.
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "odd-even-pages.cs" >}}
 
 ### Başlığa Kesinlikle Konumlandırılmış Bir Görüntü Ekleme
 
-Bir görüntüyü üst bilgi veya alt bilgiye yerleştirmek için **HeaderPrimary** üst bilgi türünü veya **FooterPrimary** alt bilgi türünü ve [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) yöntemini kullanın.
+Bir görüntüyü üst bilgi veya alt bilgiye yerleştirmek için **HeaderPrimary** üst bilgi türünü veya **FooterPrimary** alt bilgi türünü ve [InsertImage](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertimage/) yöntemini kullanın.
 
 Aşağıdaki kod örneği, başlığa nasıl resim ekleneceğini gösterir:
 
@@ -66,7 +66,7 @@ Aşağıdaki kod örneği, başlıktaki metnin Arial, kalın, 14 boyut ve ortaya
 
 ### Sayfa Numaralarını Üst Bilgiye veya Alt Bilgiye Ekleme
 
-Gerekirse üstbilgi veya altbilgiye sayfa numaraları ekleyebilirsiniz. Bunu yapmak için gerekli alanı eklemek için **HeaderPrimary** üst bilgi türünü veya **FooterPrimary** alt bilgi türünü ve [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) yöntemini kullanın.
+Gerekirse üstbilgi veya altbilgiye sayfa numaraları ekleyebilirsiniz. Bunu yapmak için gerekli alanı eklemek için **HeaderPrimary** üst bilgi türünü veya **FooterPrimary** alt bilgi türünü ve [InsertField](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertfield/) yöntemini kullanın.
 
 Aşağıdaki kod örneği, sayfa numaralarının sağdaki alt bilgiye nasıl ekleneceğini gösterir:
 

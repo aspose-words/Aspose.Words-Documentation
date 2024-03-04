@@ -21,7 +21,7 @@ url: /ru/net/print-a-document-programmatically-or-using-dialogs/
 
 Классы в пространстве имен *System.Drawing.Printing* не поддерживаются для использования в службе Windows или приложении или службе ASP.NET, и попытка их использования может привести к снижению производительности службы, исключениям во время выполнения и другим проблемам. Использование WPF для создания сервисов Windows также не поддерживается. Поскольку WPF — это технология представления, службе Windows требуются соответствующие разрешения для выполнения визуальных операций, включающих взаимодействие с пользователем. Если у службы Windows нет таких разрешений, могут быть неожиданные результаты.
 
-Объект Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) предоставляет семейство методов [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print/index) для печати документов. Эти методы используют классы печати .NET, определенные в пространстве имен *System.Drawing.Printing*. Многие клиенты Aspose.Words успешно используют его для печати в своих серверных приложениях. Тем не менее, в этой статье демонстрируется альтернативный метод печати, соответствующий рекомендациям Microsoft.
+Объект Aspose.Words [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/) предоставляет семейство методов [Print](https://reference.aspose.com/words/ru/net/aspose.words/document/methods/print/index) для печати документов. Эти методы используют классы печати .NET, определенные в пространстве имен *System.Drawing.Printing*. Многие клиенты Aspose.Words успешно используют его для печати в своих серверных приложениях. Тем не менее, в этой статье демонстрируется альтернативный метод печати, соответствующий рекомендациям Microsoft.
 
 ### Способы печати документа на сервере
 
@@ -44,7 +44,7 @@ url: /ru/net/print-a-document-programmatically-or-using-dialogs/
 
 При запуске проекта он печатает образец документа на указанном принтере и открывает окно консоли для отображения результатов печати. Когда задание печати завершится или произойдет ошибка, система отобразит сообщение об успехе или текст выданного исключения.
 
-Вы также можете установить некоторые параметры печати, используя класс [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/). Например, в Microsoft Word лотки принтера определяются для каждого раздела и зависят от конкретного принтера. Таким образом, вы можете программно изменить эти значения для каждого раздела через свойства [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/) и [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/otherpagestray/).
+Вы также можете установить некоторые параметры печати, используя класс [PageSetup](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/). Например, в Microsoft Word лотки принтера определяются для каждого раздела и зависят от конкретного принтера. Таким образом, вы можете программно изменить эти значения для каждого раздела через свойства [FirstPageTray](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/firstpagetray/) и [OtherPagesTray](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/otherpagestray/).
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ url: /ru/net/print-a-document-programmatically-or-using-dialogs/
 
 {{% /alert %}}
 
-Существует две перегрузки метода **XpsPrintHelper**.**Print**. Первая перегрузка принимает объект [Document](https://reference.aspose.com/words/net/aspose.words/document/) и сохраняет его в `MemoryStream` в формате XPS. Вторая перегрузка принимает объект `Stream`. Поток должен содержать документ в формате XPS.
+Существует две перегрузки метода **XpsPrintHelper**.**Print**. Первая перегрузка принимает объект [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/) и сохраняет его в `MemoryStream` в формате XPS. Вторая перегрузка принимает объект `Stream`. Поток должен содержать документ в формате XPS.
 
 Вы можете скачать примеры перегрузки методов из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip).
 
@@ -62,7 +62,7 @@ url: /ru/net/print-a-document-programmatically-or-using-dialogs/
 
 При работе с документами часто требуется распечатать их на выбранном принтере. Полезно использовать диалоговое окно предварительного просмотра, чтобы визуально проверить, как будет выглядеть напечатанный документ, и выбрать соответствующие параметры печати.
 
-Aspose.Words не имеет встроенных диалогов или форм, но реализует класс [AsposeWordsPrintDocument](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/), основанный на классе .NET **PrintDocument**. Экземпляр этого класса можно передать в форму **PrintPreviewDialog** для предварительного просмотра и печати документа. Кроме того, класс [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) определяет выходные данные для передачи на принтер.
+Aspose.Words не имеет встроенных диалогов или форм, но реализует класс [AsposeWordsPrintDocument](https://reference.aspose.com/words/ru/net/aspose.words.rendering/asposewordsprintdocument/), основанный на классе .NET **PrintDocument**. Экземпляр этого класса можно передать в форму **PrintPreviewDialog** для предварительного просмотра и печати документа. Кроме того, класс [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) определяет выходные данные для передачи на принтер.
 
 В следующем примере показано, как использовать эти классы для печати документа из Aspose.Words через диалоговые окна предварительного просмотра и настроек:
 
@@ -92,7 +92,7 @@ Aspose.Words не имеет встроенных диалогов или фор
 
 ## Скрытие диалогового окна хода печати при печати документа
 
-Диалоговое окно хода печати не отображается при печати документа с помощью метода [Print](https://reference.aspose.com/words/net/aspose.words/document/print/). Однако это диалоговое окно появляется во время печати другим методом [Print](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/). В этом случае, чтобы диалоговое окно "Печать" не появлялось, в этом методе следует указать действительные настройки принтера и стандартный контроллер печати, как показано в примере ниже:
+Диалоговое окно хода печати не отображается при печати документа с помощью метода [Print](https://reference.aspose.com/words/ru/net/aspose.words/document/print/). Однако это диалоговое окно появляется во время печати другим методом [Print](https://reference.aspose.com/words/ru/net/aspose.words.rendering/asposewordsprintdocument/). В этом случае, чтобы диалоговое окно "Печать" не появлялось, в этом методе следует указать действительные настройки принтера и стандартный контроллер печати, как показано в примере ниже:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintProgressDialog-PrintProgressDialog.cs" >}}
 
@@ -100,7 +100,7 @@ Aspose.Words не имеет встроенных диалогов или фор
 
 ## Как сократить время первого звонка для печати документа
 
-Aspose.Words считывает и кэширует некоторые поля **PrinterSettings**, чтобы сократить время печати. Этого можно добиться, вызвав метод [CachePrinterSettings](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/). Этот метод вызывается перед началом печати, если он не выполнялся ранее. Обратите внимание, что общее время печати с вызовом этого метода и без него практически одинаково. Цель использования этого метода — сократить время первого вызова метода [Print](https://reference.aspose.com/words/net/aspose.words/document/print/). В следующем примере кода показано, как использовать этот метод:
+Aspose.Words считывает и кэширует некоторые поля **PrinterSettings**, чтобы сократить время печати. Этого можно добиться, вызвав метод [CachePrinterSettings](https://reference.aspose.com/words/ru/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/). Этот метод вызывается перед началом печати, если он не выполнялся ранее. Обратите внимание, что общее время печати с вызовом этого метода и без него практически одинаково. Цель использования этого метода — сократить время первого вызова метода [Print](https://reference.aspose.com/words/ru/net/aspose.words/document/print/). В следующем примере кода показано, как использовать этот метод:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-Print_CachePrinterSettings-CachePrinterSettings.cs" >}}
 

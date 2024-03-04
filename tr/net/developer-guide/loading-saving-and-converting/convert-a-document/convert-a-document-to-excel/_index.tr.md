@@ -9,11 +9,11 @@ weight: 15
 url: /tr/net/convert-a-document-to-excel/
 ---
 
-Belgeleri bir formattan diğerine dönüştürmek Aspose.Words'in amiral gemisi özelliğidir. Mevcut herhangi bir [yükleme biçimi](https://reference.aspose.com/words/net/aspose.words/loadformat/) formatındaki belgeleri XLSX formatına da dönüştürebilirsiniz.
+Belgeleri bir formattan diğerine dönüştürmek Aspose.Words'in amiral gemisi özelliğidir. Mevcut herhangi bir [yükleme biçimi](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/) formatındaki belgeleri XLSX formatına da dönüştürebilirsiniz.
 
 ## Bir Belgeyi XLSX'e Dönüştürme
 
-Bir belgeyi XLSX'e dönüştürmek oldukça karmaşık bir işlemdir. Belgenizi Aspose.Words kullanarak XLSX biçiminde kaydetmek için [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) sınıfını ve [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) numaralandırmasındaki yeni `Xlsx` öğesini kullanın. Yukarıda belirtildiği gibi, belgeyi Aspose.Words'in desteklediği herhangi bir yükleme formatında XLSX'e kaydedebilirsiniz.
+Bir belgeyi XLSX'e dönüştürmek oldukça karmaşık bir işlemdir. Belgenizi Aspose.Words kullanarak XLSX biçiminde kaydetmek için [XlsxSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/xlsxsaveoptions/) sınıfını ve [SaveFormat](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/) numaralandırmasındaki yeni `Xlsx` öğesini kullanın. Yukarıda belirtildiği gibi, belgeyi Aspose.Words'in desteklediği herhangi bir yükleme formatında XLSX'e kaydedebilirsiniz.
 
 Aşağıdaki kod örneği, PDF'nin XLSX'e nasıl kaydedileceğini gösterir:
 
@@ -24,7 +24,7 @@ doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
 
 {{% alert color="primary" %}}
 
-Bazen bir belgenin XLSX olarak kaydedilmesinin sonucunu etkileyebilecek ek seçeneklerin belirtilmesi gerekebilir. Bu seçenekler, XLSX çıkışının nasıl görüntüleneceğini belirleyen özellikleri içeren [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) sınıfı kullanılarak belirtilebilir.
+Bazen bir belgenin XLSX olarak kaydedilmesinin sonucunu etkileyebilecek ek seçeneklerin belirtilmesi gerekebilir. Bu seçenekler, XLSX çıkışının nasıl görüntüleneceğini belirleyen özellikleri içeren [XlsxSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/xlsxsaveoptions/) sınıfı kullanılarak belirtilebilir.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "BaseConversions.FindReplaceXlsx.xlsx");
 
 ## XLSX'e Kaydederken Sıkıştırma Düzeyini Belirleyin
 
-[CompressionLevel](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/) özelliğini kullanarak kaydederken sıkıştırma düzeyini de belirleyebilirsiniz.
+[CompressionLevel](https://reference.aspose.com/words/tr/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/) özelliğini kullanarak kaydederken sıkıştırma düzeyini de belirleyebilirsiniz.
 
 Aşağıdaki kod örneği, XLSX biçiminde kaydederken sıkıştırma düzeyinin nasıl belirtileceğini gösterir:
 

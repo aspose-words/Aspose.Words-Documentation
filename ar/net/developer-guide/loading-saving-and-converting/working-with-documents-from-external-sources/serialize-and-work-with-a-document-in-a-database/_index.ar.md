@@ -17,9 +17,9 @@ url: /ar/net/serialize-and-work-with-a-document-in-a-database/
 
 لتخزين مستند في قاعدة بيانات أو لإعداد مستند لإرساله عبر الويب، غالبًا ما يكون من الضروري إجراء تسلسل للمستند للحصول على مصفوفة بايت.
 
-لإجراء تسلسل لكائن [Document](https://reference.aspose.com/words/net/aspose.words/document/) في Aspose.Words:
+لإجراء تسلسل لكائن [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) في Aspose.Words:
 
-1. احفظه في **MemoryStream** باستخدام التحميل الزائد لأسلوب [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) لفئة **Document**.
+1. احفظه في **MemoryStream** باستخدام التحميل الزائد لأسلوب [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/) لفئة **Document**.
 1. استدعاء الأسلوب **ToArray**، الذي يقوم بإرجاع مجموعة من البايتات التي تمثل المستند في شكل بايت.
 
 يمكن عكس الخطوات المذكورة أعلاه لتحميل البايتات مرة أخرى إلى كائن **Document**.

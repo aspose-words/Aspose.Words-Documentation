@@ -23,7 +23,7 @@ url: /ar/net/track-changes-in-a-document/
 
 ## ما هي المراجعة
 
-قبل الغوص في المراجعات، دعونا نشرح معنى المراجعات. [revision](https://reference.aspose.com/words/net/aspose.words/revision/) هو التغيير الذي يحدث في عقدة واحدة من المستند بينما مجموعة المراجعة، التي تمثلها فئة [RevisionGroup](https://reference.aspose.com/words/net/aspose.words/revision/group/)، هي مجموعة من المراجعات المتسلسلة التي تحدث في العديد من العقد في المستند. في الأساس، المراجعة هي أداة لتتبع التغييرات.
+قبل الغوص في المراجعات، دعونا نشرح معنى المراجعات. [revision](https://reference.aspose.com/words/ar/net/aspose.words/revision/) هو التغيير الذي يحدث في عقدة واحدة من المستند بينما مجموعة المراجعة، التي تمثلها فئة [RevisionGroup](https://reference.aspose.com/words/ar/net/aspose.words/revision/group/)، هي مجموعة من المراجعات المتسلسلة التي تحدث في العديد من العقد في المستند. في الأساس، المراجعة هي أداة لتتبع التغييرات.
 
 يتم استخدام المراجعات في ميزة تعقب التغييرات وضمن ميزة مقارنة المستندات، حيث تظهر المراجعات نتيجة للمقارنة. لذلك، تُظهر المراجعات الموجودة ضمن ميزة تعقب التغييرات من قام بالتغيير وما الذي تم تغييره.
 
@@ -33,7 +33,7 @@ url: /ar/net/track-changes-in-a-document/
 
 {{% /alert %}}
 
-يدعم Aspose.Words أنواعًا مختلفة من المراجعة، وكذلك في Microsoft Word، مثل Insertion وDeletion وFormatChange وStyleDefinitionChange وMoving. يتم تمثيل جميع أنواع المراجعة بتعداد [RevisionType](https://reference.aspose.com/words/net/aspose.words/revisiontype/).
+يدعم Aspose.Words أنواعًا مختلفة من المراجعة، وكذلك في Microsoft Word، مثل Insertion وDeletion وFormatChange وStyleDefinitionChange وMoving. يتم تمثيل جميع أنواع المراجعة بتعداد [RevisionType](https://reference.aspose.com/words/ar/net/aspose.words/revisiontype/).
 
 {{% alert color="primary" %}}
 
@@ -43,15 +43,15 @@ url: /ar/net/track-changes-in-a-document/
 
 ## بدء وإيقاف تتبع التغييرات
 
-عادةً لا يتم احتساب تحرير المستند كمراجعة حتى تبدأ في تتبعه. يسمح لك Aspose.Words بتتبع جميع التغييرات في مستندك تلقائيًا بخطوات بسيطة. يمكنك بسهولة بدء عملية تتبع التغييرات باستخدام طريقة [StartTrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/starttrackrevisions/#starttrackrevisions/). إذا كنت بحاجة إلى إيقاف عملية تتبع التغييرات حتى لا تعتبر أي تعديلات مستقبلية مراجعات، فستحتاج إلى استخدام طريقة [StopTrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/stoptrackrevisions/).
+عادةً لا يتم احتساب تحرير المستند كمراجعة حتى تبدأ في تتبعه. يسمح لك Aspose.Words بتتبع جميع التغييرات في مستندك تلقائيًا بخطوات بسيطة. يمكنك بسهولة بدء عملية تتبع التغييرات باستخدام طريقة [StartTrackRevisions](https://reference.aspose.com/words/ar/net/aspose.words/document/starttrackrevisions/#starttrackrevisions/). إذا كنت بحاجة إلى إيقاف عملية تتبع التغييرات حتى لا تعتبر أي تعديلات مستقبلية مراجعات، فستحتاج إلى استخدام طريقة [StopTrackRevisions](https://reference.aspose.com/words/ar/net/aspose.words/document/stoptrackrevisions/).
 
 {{% alert color="primary" %}}
 
-لاحظ أن طريقة `StartTrackingRevisions` لا تغير حالة خاصية [TrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/trackrevisions/) ولا تستخدم قيمتها بهدف تتبع المراجعة. بالإضافة إلى ذلك، إذا تم نقل عقدة من موقع إلى آخر داخل المستند المتعقب، فسيتم إنشاء مراجعات النقل، بما في ذلك الانتقال من النطاق والانتقال إليه.
+لاحظ أن طريقة `StartTrackingRevisions` لا تغير حالة خاصية [TrackRevisions](https://reference.aspose.com/words/ar/net/aspose.words/document/trackrevisions/) ولا تستخدم قيمتها بهدف تتبع المراجعة. بالإضافة إلى ذلك، إذا تم نقل عقدة من موقع إلى آخر داخل المستند المتعقب، فسيتم إنشاء مراجعات النقل، بما في ذلك الانتقال من النطاق والانتقال إليه.
 
 {{% /alert %}}
 
-في نهاية عملية تتبع التغييرات في مستندك، سيكون لديك القدرة على قبول جميع المراجعات أو رفضها لإعادة المستند إلى شكله الأصلي. يمكن تحقيق ذلك إما باستخدام طريقة [AcceptAllRevisions](https://reference.aspose.com/words/net/aspose.words/document/acceptallrevisions/) أو [RejectAll](https://reference.aspose.com/words/net/aspose.words/revisioncollection/rejectall/). بالإضافة إلى ذلك، يمكنك قبول أو رفض كل مراجعة على حدة باستخدام أسلوب [Accept](https://reference.aspose.com/words/net/aspose.words/revision/accept/) أو [Reject](https://reference.aspose.com/words/net/aspose.words/revision/reject/).
+في نهاية عملية تتبع التغييرات في مستندك، سيكون لديك القدرة على قبول جميع المراجعات أو رفضها لإعادة المستند إلى شكله الأصلي. يمكن تحقيق ذلك إما باستخدام طريقة [AcceptAllRevisions](https://reference.aspose.com/words/ar/net/aspose.words/document/acceptallrevisions/) أو [RejectAll](https://reference.aspose.com/words/ar/net/aspose.words/revisioncollection/rejectall/). بالإضافة إلى ذلك، يمكنك قبول أو رفض كل مراجعة على حدة باستخدام أسلوب [Accept](https://reference.aspose.com/words/ar/net/aspose.words/revision/accept/) أو [Reject](https://reference.aspose.com/words/ar/net/aspose.words/revision/reject/).
 
 سيتم تتبع جميع التغييرات لتكرار واحد من لحظة بدء العملية حتى لحظة إيقافها. يتم تمثيل الاتصال بين التكرارات المختلفة بالسيناريو التالي: إكمال عملية التتبع، ثم إجراء بعض التغييرات، والبدء في تتبع التغييرات مرة أخرى. في هذا السيناريو، سيتم عرض كافة التغييرات التي لم تقبلها أو ترفضها مرة أخرى.
 
@@ -71,13 +71,13 @@ url: /ar/net/track-changes-in-a-document/
 
 ## إدارة التغييرات وتخزينها كمراجعات
 
-باستخدام ميزة تعقب التغييرات السابقة، يمكنك فهم التغييرات التي تم إجراؤها في المستند الخاص بك ومن قام بهذه التغييرات. أثناء استخدام ميزة [TrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/trackrevisions/)، يمكنك فرض تخزين أي تغييرات داخل المستند كمراجعات.
+باستخدام ميزة تعقب التغييرات السابقة، يمكنك فهم التغييرات التي تم إجراؤها في المستند الخاص بك ومن قام بهذه التغييرات. أثناء استخدام ميزة [TrackRevisions](https://reference.aspose.com/words/ar/net/aspose.words/document/trackrevisions/)، يمكنك فرض تخزين أي تغييرات داخل المستند كمراجعات.
 
-يسمح لك Aspose.Words بالتحقق مما إذا كان المستند يحتوي على مراجعة أم لا باستخدام خاصية [HasRevision](https://reference.aspose.com/words/net/aspose.words/document/hasrevisions/). إذا لم تكن بحاجة إلى تعقب التغييرات في مستندك تلقائيًا من خلال طريقتي StartTrackRevisions وStopTrackRevisions، فيمكنك استخدام خاصية `TrackRevisions` للتحقق مما إذا كان قد تم تعقب التغييرات أثناء تحرير مستند في Microsoft Word وتخزينها كمراجعات.
+يسمح لك Aspose.Words بالتحقق مما إذا كان المستند يحتوي على مراجعة أم لا باستخدام خاصية [HasRevision](https://reference.aspose.com/words/ar/net/aspose.words/document/hasrevisions/). إذا لم تكن بحاجة إلى تعقب التغييرات في مستندك تلقائيًا من خلال طريقتي StartTrackRevisions وStopTrackRevisions، فيمكنك استخدام خاصية `TrackRevisions` للتحقق مما إذا كان قد تم تعقب التغييرات أثناء تحرير مستند في Microsoft Word وتخزينها كمراجعات.
 
 تقوم ميزة `TrackRevisions` بإجراء المراجعات بدلاً من تغييرات DOM الحقيقية. لكن المراجعات نفسها منفصلة. على سبيل المثال، إذا قمت بحذف أي فقرة، فإن Aspose.Words يجعلها كمراجعة، مع وضع علامة عليها كمحذوف، بدلاً من حذفها.
 
-بالإضافة إلى ذلك، يسمح لك Aspose.Words بالتحقق مما إذا كان قد تم إدراج كائن أو حذفه أو تغيير تنسيقه باستخدام خصائص [IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/) و[IsFormatRevision](https://reference.aspose.com/words/net/aspose.words/inline/isformatrevision/) و[IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/isinsertrevision/) و[IsMoveFromRevision](https://reference.aspose.com/words/net/aspose.words/inline/ismovefromrevision/) و[IsMoveToRevision](https://reference.aspose.com/words/net/aspose.words/inline/ismovetorevision/).
+بالإضافة إلى ذلك، يسمح لك Aspose.Words بالتحقق مما إذا كان قد تم إدراج كائن أو حذفه أو تغيير تنسيقه باستخدام خصائص [IsDeleteRevision](https://reference.aspose.com/words/ar/net/aspose.words/inline/isdeleterevision/) و[IsFormatRevision](https://reference.aspose.com/words/ar/net/aspose.words/inline/isformatrevision/) و[IsInsertRevision](https://reference.aspose.com/words/ar/net/aspose.words/inline/isinsertrevision/) و[IsMoveFromRevision](https://reference.aspose.com/words/ar/net/aspose.words/inline/ismovefromrevision/) و[IsMoveToRevision](https://reference.aspose.com/words/ar/net/aspose.words/inline/ismovetorevision/).
 
 {{% alert color="primary" %}}
 

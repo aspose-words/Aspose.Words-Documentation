@@ -19,7 +19,7 @@ Aspose.Words 的渲染功能使您能够执行以下操作：
 - 将文档转换为多页 TIFF 文档，或将任何页面转换为光栅图像并将其另存为 BMP、PNG 或 JPEG。
 - 将文档页面转换为可缩放矢量图形图像 (SVG)，或转换为矢量图像并将其另存为 EMF。
 - 在 .NET 图形对象上以特定大小或比例渲染（绘制）文档页面，以创建文档页面的缩略图、全尺寸或缩放图像。
-- 将 [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) 对象与文档分开渲染为任何图像格式或 .NET 图形对象。
+- 将 [Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/) 对象与文档分开渲染为任何图像格式或 .NET 图形对象。
 - 以 Windows 表单显示文档的任何页面。
 - 使用标准 .NET 打印基础设施打印或预览文档页面。
 

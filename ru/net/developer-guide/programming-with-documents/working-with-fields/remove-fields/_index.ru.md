@@ -11,7 +11,7 @@ url: /ru/net/remove-fields/
 
 Иногда необходимо удалить поле из документа. Это может произойти, когда его необходимо заменить полем другого типа или когда поле больше не требуется в документе. Например, поле `TOC` при сохранении в HTML.
 
-Чтобы удалить поле, вставленное в документ с помощью [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/), используйте возвращенный объект [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/), который предоставляет удобный метод [Remove](https://reference.aspose.com/words/net/aspose.words.fields/field/remove/) для простого удаления поля из документа.
+Чтобы удалить поле, вставленное в документ с помощью [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertfield/), используйте возвращенный объект [Field](https://reference.aspose.com/words/ru/net/aspose.words.fields/field/), который предоставляет удобный метод [Remove](https://reference.aspose.com/words/ru/net/aspose.words.fields/field/remove/) для простого удаления поля из документа.
 
 В следующем примере кода показано, как удалить поле из документа:
 

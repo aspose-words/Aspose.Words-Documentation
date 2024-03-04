@@ -13,7 +13,7 @@ url: /ar/net/warnings-when-saving-to-pdfa-and-pdfua/
 
 يتم إصدار تحذيرات عند الحفظ بأحد تنسيقات PDF/A أو PDF/UA وتنتهك المشكلة الامتثال. على سبيل المثال، سيتم إصدار تحذير بشأن عنوان المستند المفقود عند الحفظ في PDF/UA ولن يتم إصداره عند الحفظ في PDF/A.
 
-جميع التحذيرات تتعلق بـ [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.MinorFormattingLoss** و[WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.بي دي إف**. فيما يلي قائمة بقيم تحذير الوصف الجديدة:
+جميع التحذيرات تتعلق بـ [WarningType](https://reference.aspose.com/words/ar/net/aspose.words/warningtype/)**.MinorFormattingLoss** و[WarningSource](https://reference.aspose.com/words/ar/net/aspose.words/warningsource/)**.بي دي إف**. فيما يلي قائمة بقيم تحذير الوصف الجديدة:
 
 |  وصف قيمة التحذير |  PDF/أ |  بدف/وا |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

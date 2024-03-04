@@ -13,13 +13,13 @@ url: /ar/net/working-with-form-fields/
 
 يمكنك استخدام حقول النموذج في مشروعك "للتواصل" مع المستخدمين. على سبيل المثال، يمكنك إنشاء مستند يكون محتواه محميًا، ولكن حقول النموذج فقط هي القابلة للتحرير. يمكن للمستخدمين إدخال البيانات في حقول النموذج وإرسال المستند. يمكن لتطبيقك الذي يستخدم Aspose.Words استرداد البيانات من حقول النموذج ومعالجتها.
 
-يعد وضع حقول النموذج في المستند عبر الكود أمرًا سهلاً. لدى [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) طرق خاصة لإدراجها، واحدة لكل نوع حقل نموذج. تقبل كل طريقة معلمة سلسلة تمثل اسم حقل النموذج. يمكن أن يكون الاسم سلسلة فارغة. ومع ذلك، إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
+يعد وضع حقول النموذج في المستند عبر الكود أمرًا سهلاً. لدى [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) طرق خاصة لإدراجها، واحدة لكل نوع حقل نموذج. تقبل كل طريقة معلمة سلسلة تمثل اسم حقل النموذج. يمكن أن يكون الاسم سلسلة فارغة. ومع ذلك، إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
 ## إدراج حقول النموذج
 
 تعد حقول النموذج حالة خاصة لحقول Word التي تسمح "بالتفاعل" مع المستخدم. تتضمن حقول النموذج في Microsoft Word مربع النص ومربع التحرير والسرد ومربع الاختيار.
 
-يوفر **DocumentBuilder** طرقًا خاصة لإدراج كل نوع من حقول النموذج في المستند: [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/) و[InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/) و[InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). لاحظ أنه إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
+يوفر **DocumentBuilder** طرقًا خاصة لإدراج كل نوع من حقول النموذج في المستند: [InsertTextInput](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/inserttextinput/) و[InsertCheckBox](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertcheckbox/) و[InsertComboBox](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertcombobox/). لاحظ أنه إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج حقل نموذج combobox في مستند:
 
@@ -51,7 +51,7 @@ url: /ar/net/working-with-form-fields/
 
 ## الحصول على حقول النموذج
 
-يتم تمثيل مجموعة من حقول النموذج بواسطة فئة [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/) التي يمكن استرجاعها باستخدام خاصية [FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/). وهذا يعني أنه يمكنك الحصول على حقول النموذج الموجودة في أي عقدة مستند بما في ذلك المستند نفسه.
+يتم تمثيل مجموعة من حقول النموذج بواسطة فئة [FormFieldCollection](https://reference.aspose.com/words/ar/net/aspose.words.fields/formfieldcollection/) التي يمكن استرجاعها باستخدام خاصية [FormFields](https://reference.aspose.com/words/ar/net/aspose.words/range/formfields/). وهذا يعني أنه يمكنك الحصول على حقول النموذج الموجودة في أي عقدة مستند بما في ذلك المستند نفسه.
 
 {{% alert color="primary" %}}
 
@@ -77,7 +77,7 @@ url: /ar/net/working-with-form-fields/
 
 ## تنسيق حقول النموذج
 
-تسمح الخاصية [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) الخاصة بـ [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) بتطبيق تنسيق الخط على **FormField** ككل بما في ذلك قيمة الحقل.
+تسمح الخاصية [Font](https://reference.aspose.com/words/ar/net/aspose.words/inline/font/) الخاصة بـ [FormField](https://reference.aspose.com/words/ar/net/aspose.words.fields/formfield/) بتطبيق تنسيق الخط على **FormField** ككل بما في ذلك قيمة الحقل.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تطبيق تنسيق الخط على **FormField**:
 

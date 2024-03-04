@@ -13,8 +13,8 @@ Belgenizi statik bir kopya olarak kaydetmek istediğinizde genellikle alanların
 
 Aşağıdaki şemada `IF` alanının bir belgede nasıl saklandığı gösterilmektedir:
 
-* metin özel alan düğümleriyle çevrilidir – [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) ve [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend)
-* [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) düğümü alan içindeki metni alan koduna ve alan sonucuna ayırır
+* metin özel alan düğümleriyle çevrilidir – [FieldStart](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldstart/) ve [FieldEnd](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldend)
+* [FieldSeparator](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldseparator/) düğümü alan içindeki metni alan koduna ve alan sonucuna ayırır
 * alan kodu alanın genel davranışını tanımlarken alan sonucu, bu alan Microsoft Word veya Aspose.Words kullanılarak güncellendiğinde en son sonucu korur
 * alan sonucu, alanda saklanan ve görüntülendiğinde belgede görüntülenen sonuçtur
 
@@ -38,17 +38,17 @@ Aşağıdaki kod örneği, alanın en son sonucuyla nasıl değiştirileceğini 
 
 ## Belirli Belge Parçalarındaki Belirli Alan Türlerini Dönüştürme
 
-**ConvertFieldsToStaticText** yöntemi iki parametreyi ([CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) özellikleri ve [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) numaralandırması) kabul ettiğinden, bu yönteme herhangi bir bileşik düğümü geçirmek mümkündür. Bu, alanların yalnızca belgenin belirli bölümlerinde statik metne dönüştürülmesine olanak tanır.
+**ConvertFieldsToStaticText** yöntemi iki parametreyi ([CompositeNode](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/) özellikleri ve [FieldType](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldtype/) numaralandırması) kabul ettiğinden, bu yönteme herhangi bir bileşik düğümü geçirmek mümkündür. Bu, alanların yalnızca belgenin belirli bölümlerinde statik metne dönüştürülmesine olanak tanır.
 
-Örneğin, bir [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesnesini iletebilir ve belirtilen türdeki alanları belgenin tamamından statik metne dönüştürebilirsiniz veya bir bölümün [Body](https://reference.aspose.com/words/net/aspose.words/body/) nesnesini iletebilir ve yalnızca o gövdede bulunan alanları dönüştürebilirsiniz.
+Örneğin, bir [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesnesini iletebilir ve belirtilen türdeki alanları belgenin tamamından statik metne dönüştürebilirsiniz veya bir bölümün [Body](https://reference.aspose.com/words/tr/net/aspose.words/body/) nesnesini iletebilir ve yalnızca o gövdede bulunan alanları dönüştürebilirsiniz.
 
 {{% alert color="primary" %}}
 
-[Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) gibi blok düzeyinde bir düğümü geçerken bazı durumlarda alanların birden fazla paragrafa yayılabileceğini unutmayın. Böyle bir durumda bundan kaçınmak için bileşiğin ebeveyninin iletilmesi önerilir.
+[Paragraph](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/) gibi blok düzeyinde bir düğümü geçerken bazı durumlarda alanların birden fazla paragrafa yayılabileceğini unutmayın. Böyle bir durumda bundan kaçınmak için bileşiğin ebeveyninin iletilmesi önerilir.
 
 {{% /alert %}}
 
-**ConvertFieldsToStaticText** yöntemine iletilen [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) numaralandırması, hangi tür alanların statik metne dönüştürülmesi gerektiğini belirtir. Belgede bulunan diğer alan türleri değişmeden kalacaktır.
+**ConvertFieldsToStaticText** yöntemine iletilen [FieldType](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldtype/) numaralandırması, hangi tür alanların statik metne dönüştürülmesi gerektiğini belirtir. Belgede bulunan diğer alan türleri değişmeden kalacaktır.
 
 Aşağıdaki kod örneği, belirli bir türdeki (belirli bir düğümdeki *targetFieldType*) alanların nasıl seçileceğini ve ardından bunların statik metne nasıl dönüştürüleceğini gösterir:
 

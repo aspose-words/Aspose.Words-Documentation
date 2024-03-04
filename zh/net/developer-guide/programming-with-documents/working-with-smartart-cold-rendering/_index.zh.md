@@ -20,7 +20,7 @@ Aspose.Words 允许您使用预渲染绘图或执行冷渲染：
 
 * 如果预渲染绘图可用，Aspose.Words 将使用它来渲染 `SmartArt` 对象。
 * 如果缺少预渲染绘图，Aspose.Words 会隐式执行冷渲染来渲染 `SmartArt` 对象。
-* 如果存在预渲染图但不正确，则需要通过调用 [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/) 方法显式执行 SmartArt 冷渲染。
+* 如果存在预渲染图但不正确，则需要通过调用 [UpdateSmartArtDrawing](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/updatesmartartdrawing/) 方法显式执行 SmartArt 冷渲染。
 
 以下代码示例展示了如何更新文档中所有图表的绘图：
 

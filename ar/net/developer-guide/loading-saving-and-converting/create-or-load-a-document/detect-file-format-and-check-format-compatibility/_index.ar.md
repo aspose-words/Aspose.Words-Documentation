@@ -17,7 +17,7 @@ url: /ar/net/detect-file-format-and-check-format-compatibility/
 
 عندما تتعامل مع مستندات متعددة بتنسيقات ملفات مختلفة، قد تحتاج إلى فصل الملفات التي يمكن معالجتها بواسطة Aspose.Words عن تلك التي لا يمكن معالجتها. قد ترغب أيضًا في معرفة سبب عدم إمكانية معالجة بعض المستندات.
 
-إذا حاولت تحميل ملف إلى كائن [Document](https://reference.aspose.com/words/net/aspose.words/document/) ولم يتمكن Aspose.Words من التعرف على تنسيق الملف أو كان التنسيق غير مدعوم، فسيطرح Aspose.Words استثناءً. يمكنك التقاط هذه الاستثناءات وتحليلها، لكن Aspose.Words يوفر أيضًا طريقة [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/) التي تتيح لنا تحديد تنسيق الملف بسرعة دون تحميل مستند مع استثناءات محتملة. تقوم هذه الطريقة بإرجاع كائن [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/) الذي يحتوي على المعلومات المكتشفة حول نوع الملف.
+إذا حاولت تحميل ملف إلى كائن [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) ولم يتمكن Aspose.Words من التعرف على تنسيق الملف أو كان التنسيق غير مدعوم، فسيطرح Aspose.Words استثناءً. يمكنك التقاط هذه الاستثناءات وتحليلها، لكن Aspose.Words يوفر أيضًا طريقة [DetectFileFormat](https://reference.aspose.com/words/ar/net/aspose.words/fileformatutil/detectfileformat/) التي تتيح لنا تحديد تنسيق الملف بسرعة دون تحميل مستند مع استثناءات محتملة. تقوم هذه الطريقة بإرجاع كائن [FileFormatInfo](https://reference.aspose.com/words/ar/net/aspose.words/fileformatinfo/) الذي يحتوي على المعلومات المكتشفة حول نوع الملف.
 
 {{% alert color="primary" %}}
 

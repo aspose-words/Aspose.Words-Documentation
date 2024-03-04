@@ -13,16 +13,16 @@ url: /zh/net/working-with-merged-cells/
 
 ## 如何合并表格单元格
 
-在 Aspose.Words 中，合并单元格由 [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) 类的以下属性表示：
+在 Aspose.Words 中，合并单元格由 [CellFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/) 类的以下属性表示：
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/) 描述单元格是否是单元格水平合并的一部分
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/) 描述单元格是否是单元格垂直合并的一部分
+- [HorizontalMerge](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/horizontalmerge/) 描述单元格是否是单元格水平合并的一部分
+- [VerticalMerge](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/verticalmerge/) 描述单元格是否是单元格垂直合并的一部分
 
 这些属性的值决定单元格的合并行为：
 
-- 合并单元序列中的第一个单元将具有 [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- 任何随后合并的单元格都将具有 [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- 未合并的单元格将具有 [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+- 合并单元序列中的第一个单元将具有 [CellMerge.First](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellmerge/)
+- 任何随后合并的单元格都将具有 [CellMerge.Previous](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellmerge/)
+- 未合并的单元格将具有 [CellMerge.None](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ url: /zh/net/working-with-merged-cells/
 
 ## 使用 DocumentBuilder 时合并表格单元格
 
-要合并使用 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 创建的表中的单元格，您需要为需要合并的每个单元格设置适当的合并类型 - 首先是 **CellMerge.First**，然后是 **CellMerge.Previous**。
+要合并使用 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 创建的表中的单元格，您需要为需要合并的每个单元格设置适当的合并类型 - 首先是 **CellMerge.First**，然后是 **CellMerge.Previous**。
 
 此外，您必须记住清除那些不需要合并的单元格的合并设置 - 这可以通过将第一个非合并单元格设置为 **CellMerge.None** 来完成。如果不这样做，表中的所有单元格将被合并。
 

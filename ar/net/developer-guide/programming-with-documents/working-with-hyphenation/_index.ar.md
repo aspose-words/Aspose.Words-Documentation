@@ -66,7 +66,7 @@ url: /ar/net/working-with-hyphenation/
 
 {{% /alert %}}
 
-كبديل للتسجيل المسبق لقواميس الواصلة، من الممكن تسجيل قواميس الواصلة المطلوبة فقط "حسب الطلب". لتحقيق ذلك، قم بتنفيذ واجهة [IHyphenationCallback](https://reference.aspose.com/words/net/aspose.words/ihyphenationcallback/) واستخدم رد الاتصال الثابت [Callback](https://reference.aspose.com/words/net/aspose.words/hyphenation/callback/).
+كبديل للتسجيل المسبق لقواميس الواصلة، من الممكن تسجيل قواميس الواصلة المطلوبة فقط "حسب الطلب". لتحقيق ذلك، قم بتنفيذ واجهة [IHyphenationCallback](https://reference.aspose.com/words/ar/net/aspose.words/ihyphenationcallback/) واستخدم رد الاتصال الثابت [Callback](https://reference.aspose.com/words/ar/net/aspose.words/hyphenation/callback/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية تنفيذ واجهة **IHyphenationCallback**:
 

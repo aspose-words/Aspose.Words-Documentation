@@ -19,7 +19,7 @@ Les fonctionnalités de rendu de Aspose.Words vous permettent d'effectuer les op
 - Convertissez un document en un document TIFF de plusieurs pages, ou convertissez n'importe quelle page en image raster et enregistrez-la au format BMP, PNG ou JPEG.
 - Convertissez une page de document en une image graphique vectorielle évolutive (SVG), ou convertissez-la en une image vectorielle et enregistrez-la au format EMF.
 - Rendre (dessiner) une page de document à une taille ou une échelle spécifique sur l'objet graphique .NET pour créer des vignettes, des images en taille réelle ou à l'échelle des pages du document.
-- Restituez un objet [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) séparément du document dans n'importe quel format d'image ou dans un objet graphique .NET.
+- Restituez un objet [Shape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/) séparément du document dans n'importe quel format d'image ou dans un objet graphique .NET.
 - Afficher n'importe quelle page d'un document dans un formulaire Windows.
 - Imprimez ou prévisualisez les pages du document à l'aide de l'infrastructure d'impression .NET standard.
 

@@ -15,7 +15,7 @@ Las acciones que se pueden realizar con marcadores usando Aspose.Words son las m
 
 ## Insertar un marcador
 
-Utilice [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) y [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/) para crear un marcador marcando su inicio y final, respectivamente. No olvide pasar el mismo nombre de marcador a ambos métodos. Los marcadores de un documento pueden superponerse y abarcar cualquier rango. Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
+Utilice [StartBookmark](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/startbookmark/) y [EndBookmark](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/endbookmark/) para crear un marcador marcando su inicio y final, respectivamente. No olvide pasar el mismo nombre de marcador a ambos métodos. Los marcadores de un documento pueden superponerse y abarcar cualquier rango. Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ El siguiente ejemplo de código muestra cómo crear un nuevo marcador:
 
 ## Obtener marcadores
 
-A veces es necesario obtener una colección de marcadores para recorrer los marcadores o para otros fines. Utilice la propiedad [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) expuesta por cualquier nodo de documento que devuelva un objeto [Range](https://reference.aspose.com/words/net/aspose.words/range/) que represente la parte del documento contenida en este nodo. Utilice este objeto para recuperar un [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/) y luego utilice el indexador de colección para obtener un marcador específico.
+A veces es necesario obtener una colección de marcadores para recorrer los marcadores o para otros fines. Utilice la propiedad [Node.Range](https://reference.aspose.com/words/es/net/aspose.words/node/range/) expuesta por cualquier nodo de documento que devuelva un objeto [Range](https://reference.aspose.com/words/es/net/aspose.words/range/) que represente la parte del documento contenida en este nodo. Utilice este objeto para recuperar un [BookmarkCollection](https://reference.aspose.com/words/es/net/aspose.words/bookmarkcollection/) y luego utilice el indexador de colección para obtener un marcador específico.
 
 El siguiente ejemplo de código muestra cómo obtener marcadores de una colección de marcadores:
 
@@ -66,7 +66,7 @@ El siguiente ejemplo de código muestra cómo acceder a las columnas de la tabla
 
 ## Mover a un marcador
 
-Si necesita insertar contenido enriquecido (no solo texto sin formato) en un marcador, debe usar [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) para mover el cursor al marcador y luego usar métodos y propiedades [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) para insertar contenido.
+Si necesita insertar contenido enriquecido (no solo texto sin formato) en un marcador, debe usar [MoveToBookmark](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/movetobookmark/) para mover el cursor al marcador y luego usar métodos y propiedades [DocumentBuilder's](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/) para insertar contenido.
 
 ## Mostrar Ocultar contenido de marcador
 

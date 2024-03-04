@@ -15,7 +15,7 @@ EPUB ("Elektronik Yayın"ın kısaltması), elektronik kitap dağıtımında yay
 
 ## Belgeyi Dönüştür
 
-HTML, MHTML veya EPUB'a basit dönüşüm için [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) yöntemi aşırı yüklemelerinden biri kullanılır. Belgeyi bir dosyaya veya akışa kaydedebilir ve çıktı belgesi kaydetme biçimini açıkça ayarlayabilir veya bunu dosya adı uzantısından tanımlayabilirsiniz.
+HTML, MHTML veya EPUB'a basit dönüşüm için [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/#save/) yöntemi aşırı yüklemelerinden biri kullanılır. Belgeyi bir dosyaya veya akışa kaydedebilir ve çıktı belgesi kaydetme biçimini açıkça ayarlayabilir veya bunu dosya adı uzantısından tanımlayabilirsiniz.
 
 Aşağıdaki örnek, bir kaydetme formatı belirterek DOCX'in HTML'ye nasıl dönüştürüleceğini gösterir:
 
@@ -34,7 +34,7 @@ Bir belgeyi MHTML veya EPUB'a dönüştürmek için sırasıyla `SaveFormat.Mhtm
 
 ## Gidiş Dönüş Bilgilerini İçeren Bir Belgeyi Dönüştürme
 
-HTML formatı pek çok Microsoft Word özelliğini desteklemez ve bir belge modelini orijinaline mümkün olduğunca yakın bir şekilde geri yüklememiz gerekirse, HTML dosyasına bazı ekstra bilgiler kaydetmemiz gerekir. Bu tür bilgilere "gidiş-dönüş bilgileri" de denir. Bu amaçla Aspose.Words, [ExportRoundtripInformation](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/) özelliğini kullanarak HTML, MHTML veya EPUB'a kaydederken gidiş-dönüş bilgilerini dışa aktarma olanağı sağlar. Gidiş dönüş bilgilerinin kaydedilmesi, listelenen biçimlerdeki belgelerin bir **Document** nesnesine geri yüklenmesi sırasında sekmeler, yorumlar, üstbilgiler ve altbilgiler gibi belge özelliklerinin geri yüklenmesine olanak tanır.
+HTML formatı pek çok Microsoft Word özelliğini desteklemez ve bir belge modelini orijinaline mümkün olduğunca yakın bir şekilde geri yüklememiz gerekirse, HTML dosyasına bazı ekstra bilgiler kaydetmemiz gerekir. Bu tür bilgilere "gidiş-dönüş bilgileri" de denir. Bu amaçla Aspose.Words, [ExportRoundtripInformation](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/) özelliğini kullanarak HTML, MHTML veya EPUB'a kaydederken gidiş-dönüş bilgilerini dışa aktarma olanağı sağlar. Gidiş dönüş bilgilerinin kaydedilmesi, listelenen biçimlerdeki belgelerin bir **Document** nesnesine geri yüklenmesi sırasında sekmeler, yorumlar, üstbilgiler ve altbilgiler gibi belge özelliklerinin geri yüklenmesine olanak tanır.
 
 Varsayılan değer HTML için **true**, MHTML ve EPUB için **false**'dir:
 
@@ -59,7 +59,7 @@ Aspose.Words, varsayılan veya özel kaydetme seçeneklerini kullanarak bir Word
 
 Aspose.Words'i kullanarak, bir belge HTML'ye dönüştürüldüğünde resimler, yazı tipleri ve harici CSS gibi tüm kaynakların kaydedildiği fiziksel bir klasör belirtebiliriz. Varsayılan olarak bu boş bir dizedir.
 
-[ResourceFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/resourcefolder/) özelliğini belirtmek, tüm kaynakların yazılması gereken klasörü ayarlamanın en basit yoludur. Yazı tiplerini belirtilen klasöre kaydeden [FontsFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/fontsfolder/) ve görüntüleri belirli bir klasöre kaydeden [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/imagesfolder/) gibi bireysel özellikleri kullanabiliriz. Göreli bir yol belirtildiğinde, **FontsFolder** ve **ImagesFolder** kod derlemesinin bulunduğu klasörü, **ResourceFolder** ve [CssStyleSheetFileName](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) ise HTML belgesinin bulunduğu çıktı klasörünü belirtir.
+[ResourceFolder](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/resourcefolder/) özelliğini belirtmek, tüm kaynakların yazılması gereken klasörü ayarlamanın en basit yoludur. Yazı tiplerini belirtilen klasöre kaydeden [FontsFolder](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/fontsfolder/) ve görüntüleri belirli bir klasöre kaydeden [ImagesFolder](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/imagesfolder/) gibi bireysel özellikleri kullanabiliriz. Göreli bir yol belirtildiğinde, **FontsFolder** ve **ImagesFolder** kod derlemesinin bulunduğu klasörü, **ResourceFolder** ve [CssStyleSheetFileName](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) ise HTML belgesinin bulunduğu çıktı klasörünü belirtir.
 
 Bu örnekte **ResourceFolder** göreceli yolu belirtir. Bu yol, HTML belgesinin kaydedildiği çıktı klasörünü ifade eder. **ResourceFolderAlias** özelliğinin değeri, tüm kaynaklara yönelik URL'ler oluşturmak için kullanılır.
 
@@ -67,7 +67,7 @@ Aşağıdaki kod örneği bu özelliklerle nasıl çalışılacağını gösteri
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ExportResourcesUsingHtmlSaveOptions-ExportResourcesUsingHtmlSaveOptions.cs" >}}
 
-[ResourceFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/) özelliğini kullanarak, bir HTML belgesine yazılan tüm kaynakların URI'lerini oluşturmak için kullanılan klasörün adını da belirtebiliriz. Bu, tüm kaynak dosyaları için URI'lerin nasıl oluşturulması gerektiğini belirtmenin en basit yoludur. Aynı bilgiler resimler ve yazı tipleri için sırasıyla [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) ve [FontsFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/) özellikleri aracılığıyla ayrı ayrı belirtilebilir.
+[ResourceFolderAlias](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/) özelliğini kullanarak, bir HTML belgesine yazılan tüm kaynakların URI'lerini oluşturmak için kullanılan klasörün adını da belirtebiliriz. Bu, tüm kaynak dosyaları için URI'lerin nasıl oluşturulması gerektiğini belirtmenin en basit yoludur. Aynı bilgiler resimler ve yazı tipleri için sırasıyla [ImagesFolderAlias](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) ve [FontsFolderAlias](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/) özellikleri aracılığıyla ayrı ayrı belirtilebilir.
 
 Ancak CSS'nin bireysel bir özelliği yoktur. **FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** ve **CssStyleSheetFileName** özelliklerinin davranışı değişmedi. **CssStyleSheetFileName** özelliğinin hem klasör adını hem de dosya adını belirtmek için kullanıldığını unutmayın.
 
@@ -76,7 +76,7 @@ Ancak CSS'nin bireysel bir özelliği yoktur. **FontsFolder**, **FontsFolderAlia
 
 ### Base64 Kodlama Yazı Tipleri Kaynaklarını Dışa Aktarma
 
-Aspose.Words, yazı tipi kaynaklarının Base64 kodlamalarında HTML'ye gömülüp gömülmeyeceğini belirtme yeteneği sağlar. Bunu gerçekleştirmek için [ExportFontsAsBase64](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/) özelliğini kullanın; bu, [ExportFontResources](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontresources/) özelliğinin bir uzantısıdır. Varsayılan olarak değeri **false**'tir ve yazı tipleri ayrı dosyalara yazılır. Ancak bu seçenek **true** olarak ayarlanırsa yazı tipleri, Base64 kodlamasında belgenin CSS'sine eklenecektir. **Fontları AsBase64'e aktar** özelliği yalnızca HTML biçimini etkiler ve EPUB ve MHTML'yi etkilemez.
+Aspose.Words, yazı tipi kaynaklarının Base64 kodlamalarında HTML'ye gömülüp gömülmeyeceğini belirtme yeteneği sağlar. Bunu gerçekleştirmek için [ExportFontsAsBase64](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/) özelliğini kullanın; bu, [ExportFontResources](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/exportfontresources/) özelliğinin bir uzantısıdır. Varsayılan olarak değeri **false**'tir ve yazı tipleri ayrı dosyalara yazılır. Ancak bu seçenek **true** olarak ayarlanırsa yazı tipleri, Base64 kodlamasında belgenin CSS'sine eklenecektir. **Fontları AsBase64'e aktar** özelliği yalnızca HTML biçimini etkiler ve EPUB ve MHTML'yi etkilemez.
 
 Aşağıdaki kod örneği, Base64 kodlu yazı tiplerinin HTML'ye nasıl aktarılacağını gösterir:
 
@@ -84,7 +84,7 @@ Aşağıdaki kod örneği, Base64 kodlu yazı tiplerinin HTML'ye nasıl aktarıl
 
 ## EPUB'a Dönüştürme Sırasında Kaydetme Seçeneklerini Belirleyin
 
-Aspose.Words, varsayılan veya özel kaydetme seçeneklerini kullanarak bir Word belgesini EPUB formatına dönüştürmenize olanak tanır. Bir [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) örneğini [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) yöntemine ileterek bir dizi seçeneği belirleyebilirsiniz.
+Aspose.Words, varsayılan veya özel kaydetme seçeneklerini kullanarak bir Word belgesini EPUB formatına dönüştürmenize olanak tanır. Bir [HtmlSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/) örneğini [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/#save/) yöntemine ileterek bir dizi seçeneği belirleyebilirsiniz.
 
 Aşağıdaki kod örneği, bazı özel kaydetme seçeneklerini belirterek bir Word belgesinin EPUB'a nasıl dönüştürüleceğini gösterir:
 

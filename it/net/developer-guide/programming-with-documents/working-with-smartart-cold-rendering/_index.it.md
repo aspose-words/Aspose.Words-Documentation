@@ -20,7 +20,7 @@ Aspose.Words consente di utilizzare un disegno pre-renderizzato o eseguire il re
 
 * Se è disponibile un disegno pre-renderizzato, Aspose.Words lo utilizza per eseguire il rendering dell'oggetto `SmartArt`.
 * Se manca un disegno pre-renderizzato, Aspose.Words esegue implicitamente il rendering a freddo per eseguire il rendering dell'oggetto `SmartArt`.
-* Se è presente un disegno pre-renderizzato ma non è corretto, è necessario eseguire esplicitamente il rendering a freddo SmartArt chiamando il metodo [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/).
+* Se è presente un disegno pre-renderizzato ma non è corretto, è necessario eseguire esplicitamente il rendering a freddo SmartArt chiamando il metodo [UpdateSmartArtDrawing](https://reference.aspose.com/words/it/net/aspose.words.drawing/shape/updatesmartartdrawing/).
 
 L'esempio di codice seguente mostra come aggiornare i disegni per tutti i diagrammi nel documento:
 

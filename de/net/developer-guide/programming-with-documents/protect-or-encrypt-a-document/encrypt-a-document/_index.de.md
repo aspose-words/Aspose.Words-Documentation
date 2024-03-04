@@ -19,7 +19,7 @@ Um ein Dokument zu verschlüsseln, verwenden Sie die **Password**-Eigenschaft, u
 
 {{% alert color="primary" %}}
 
-Sie können die entsprechende **Password**-Eigenschaft für das erforderliche Format finden. Jedes Dokumentspeicherformat im [Namespace speichern](https://reference.aspose.com/words/net/aspose.words.saving/) verfügt über eine entsprechende Klasse, die Speicheroptionen für dieses Format enthält. Beispielsweise die [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/)-Eigenschaft in der [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/)-Klasse für DOC oder die [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/)-Eigenschaft in der [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/)-Klasse für DOCX, DOCM, DOTX, DOTM und FlatOpc.
+Sie können die entsprechende **Password**-Eigenschaft für das erforderliche Format finden. Jedes Dokumentspeicherformat im [Namespace speichern](https://reference.aspose.com/words/de/net/aspose.words.saving/) verfügt über eine entsprechende Klasse, die Speicheroptionen für dieses Format enthält. Beispielsweise die [Password](https://reference.aspose.com/words/de/net/aspose.words.saving/docsaveoptions/password/)-Eigenschaft in der [DocSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/docsaveoptions/)-Klasse für DOC oder die [Password](https://reference.aspose.com/words/de/net/aspose.words.saving/ooxmlsaveoptions/password/)-Eigenschaft in der [OoxmlSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/ooxmlsaveoptions/)-Klasse für DOCX, DOCM, DOTX, DOTM und FlatOpc.
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ Das folgende Codebeispiel zeigt, wie man ein Dokument mit einem Passwort verschl
 
 In einigen Fällen liegt möglicherweise ein unlesbares Dokument vor und Sie möchten sicherstellen, dass das Dokument verschlüsselt und nicht beschädigt oder komprimiert ist.
 
-Um festzustellen, ob ein Dokument verschlüsselt ist und ob ein Kennwort erforderlich ist, können Sie die [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/)-Eigenschaft der [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/)-Klasse verwenden. Mit dieser Eigenschaft können Sie auch vor dem Laden eines Dokuments eine Aktion ausführen, beispielsweise einen Benutzer auffordern, ein Kennwort anzugeben.
+Um festzustellen, ob ein Dokument verschlüsselt ist und ob ein Kennwort erforderlich ist, können Sie die [IsEncrypted](https://reference.aspose.com/words/de/net/aspose.words/fileformatinfo/isencrypted/)-Eigenschaft der [FileFormatInfo](https://reference.aspose.com/words/de/net/aspose.words/fileformatinfo/)-Klasse verwenden. Mit dieser Eigenschaft können Sie auch vor dem Laden eines Dokuments eine Aktion ausführen, beispielsweise einen Benutzer auffordern, ein Kennwort anzugeben.
 
 Das folgende Codebeispiel zeigt, wie die Dokumentenverschlüsselung erkannt wird:
 

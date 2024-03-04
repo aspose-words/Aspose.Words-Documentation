@@ -20,7 +20,7 @@ url: /ar/net/position-a-table/
 
 ## تحديد موضع الجدول المضمن
 
-يمكنك ضبط موضع الجدول المضمّن باستخدام خاصية Aspose.Words API وخاصية [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/). وبالتالي، يمكنك ضبط محاذاة الجدول بالنسبة لصفحة المستند.
+يمكنك ضبط موضع الجدول المضمّن باستخدام خاصية Aspose.Words API وخاصية [Alignment](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/alignment/). وبالتالي، يمكنك ضبط محاذاة الجدول بالنسبة لصفحة المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين موضع جدول مضمن:
 
@@ -28,9 +28,9 @@ url: /ar/net/position-a-table/
 
 ## الحصول على محاذاة الجدول العائم
 
-إذا تم تعيين التفاف نص الجدول على **Around**، فيمكنك الحصول على المحاذاة الأفقية والعمودية للجدول باستخدام خصائص [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) و[RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/).
+إذا تم تعيين التفاف نص الجدول على **Around**، فيمكنك الحصول على المحاذاة الأفقية والعمودية للجدول باستخدام خصائص [RelativeHorizontalAlignment](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/relativehorizontalalignment/) و[RelativeVerticalAlignment](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/relativeverticalalignment/).
 
-باستخدام **أنواع أخرى من التفاف النص**، يمكنك الحصول على محاذاة الجدول المضمنة باستخدام خاصية [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/).
+باستخدام **أنواع أخرى من التفاف النص**، يمكنك الحصول على محاذاة الجدول المضمنة باستخدام خاصية [Alignment](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/alignment/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية الحصول على محاذاة الجدول:
 
@@ -40,13 +40,13 @@ url: /ar/net/position-a-table/
 
  يتم تحديد موضع الجدول العائم باستخدام الخصائص التالية:
 
-* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – كائن لحساب الموضع الأفقي للجدول العائم
-* [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – كائن لحساب الموضع الرأسي للجدول العائم
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – موضع الجدول العائم الأفقي المطلق
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – موضع الجدول العائم العمودي المطلق
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – خيار لتمكين/تعطيل التداخل مع الكائنات العائمة الأخرى
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – المحاذاة الأفقية النسبية للجدول العائم.
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) – المحاذاة العمودية النسبية للجدول العائم.
+* [HorizontalAnchor](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/horizontalanchor/) – كائن لحساب الموضع الأفقي للجدول العائم
+* [VerticalAnchor](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/verticalanchor/) – كائن لحساب الموضع الرأسي للجدول العائم
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/absolutehorizontaldistance/) – موضع الجدول العائم الأفقي المطلق
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/absoluteverticaldistance/) – موضع الجدول العائم العمودي المطلق
+* [AllowOverlap](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/allowoverlap/) – خيار لتمكين/تعطيل التداخل مع الكائنات العائمة الأخرى
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/relativehorizontalalignment/) – المحاذاة الأفقية النسبية للجدول العائم.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/relativeverticalalignment/) – المحاذاة العمودية النسبية للجدول العائم.
 
 يوضح مثال التعليمات البرمجية التالي كيفية الحصول على موضع الجدول العائم:
 
@@ -66,10 +66,10 @@ url: /ar/net/position-a-table/
 
 يوفر Aspose.Words أيضًا فرصة لمعرفة المسافات بين الجداول والنصوص المحيطة بها:
 
-- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) – قيمة المسافة من الأعلى
-- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/) – قيمة مسافة الإدراك
-- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) - قيمة المسافة على اليمين
-- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) – قيمة المسافة على اليسار
+- [DistanceTop](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/distancetop/) – قيمة المسافة من الأعلى
+- [DistanceBottom](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/distancebottom/) – قيمة مسافة الإدراك
+- [DistanceRight](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/distanceright/) - قيمة المسافة على اليمين
+- [DistanceLeft](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/distanceleft/) – قيمة المسافة على اليسار
 
 يوضح مثال التعليمات البرمجية التالي كيفية الحصول على المسافة بين الجدول والنص المحيط به:
 

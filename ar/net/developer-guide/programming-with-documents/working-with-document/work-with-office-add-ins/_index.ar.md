@@ -26,13 +26,13 @@ url: /ar/net/work-with-office-add-ins/
 
 ملحقات الويب هي أدوات تعمل على توسيع إمكانيات تطبيقات Office والتفاعل مع محتوى مستند Office. توفر ملحقات الويب وظائف إضافية لعملاء Office لتحسين تجربة المستخدم.
 
-يوفر Aspose.Words القدرة على إضافة ملحقات الويب من نوع جزء المهام باستخدام فئتي [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) و[TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/)، كما يسمح لك بتخصيص الجزء وخصائص الامتداد.
+يوفر Aspose.Words القدرة على إضافة ملحقات الويب من نوع جزء المهام باستخدام فئتي [WebExtension](https://reference.aspose.com/words/ar/net/aspose.words.webextensions/webextension/) و[TaskPane](https://reference.aspose.com/words/ar/net/aspose.words.webextensions/taskpane/)، كما يسمح لك بتخصيص الجزء وخصائص الامتداد.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إنشاء أجزاء المهام وإضافتها إلى أجزاء مهام ملحق الويب ذات الخصائص الأساسية:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-لرؤية قائمة الوظائف الإضافية لجزء المهام، استخدم خاصية [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/).
+لرؤية قائمة الوظائف الإضافية لجزء المهام، استخدم خاصية [WebExtensionTaskPanes](https://reference.aspose.com/words/ar/net/aspose.words/document/webextensiontaskpanes/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية الحصول على قائمة الوظائف الإضافية هذه:
 

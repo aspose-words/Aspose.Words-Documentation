@@ -9,11 +9,11 @@ weight: 110
 url: /de/net/working-with-styles-and-themes/
 ---
 
-Die [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/)-Klasse wird zum Verwalten integrierter Stile und zum Anwenden benutzerdefinierter Einstellungen auf Stile verwendet.
+Die [StyleCollection](https://reference.aspose.com/words/de/net/aspose.words/stylecollection/)-Klasse wird zum Verwalten integrierter Stile und zum Anwenden benutzerdefinierter Einstellungen auf Stile verwendet.
 
 ## Auf Stile zugreifen
 
-Mithilfe der [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/)-Eigenschaft können Sie eine Sammlung von im Dokument definierten Stilen abrufen. Diese Sammlung enthält sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument. Ein bestimmter Stil kann über seinen Namen/Alias, seine Stilkennung oder seinen Index ermittelt werden. Das folgende Codebeispiel zeigt, wie Sie auf die im Dokument definierte Sammlung von Stilen zugreifen können.
+Mithilfe der [Document.Styles](https://reference.aspose.com/words/de/net/aspose.words/documentbase/styles/)-Eigenschaft können Sie eine Sammlung von im Dokument definierten Stilen abrufen. Diese Sammlung enthält sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument. Ein bestimmter Stil kann über seinen Namen/Alias, seine Stilkennung oder seinen Index ermittelt werden. Das folgende Codebeispiel zeigt, wie Sie auf die im Dokument definierte Sammlung von Stilen zugreifen können.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ Die Lösung zum Abrufen von mit bestimmten Stilen formatiertem Text in einem Wor
 
 ### Die Lösung
 
-Schauen wir uns ein Beispiel an, um zu veranschaulichen, wie einfach Aspose.Words das Abrufen von Inhalten basierend auf Stilen handhabt. In diesem Beispiel rufen wir Text ab, der mit einem bestimmten Absatzstil und einem Zeichenstil formatiert ist, aus einem Word-Beispieldokument. Auf hoher Ebene umfasst dies Folgendes: # Öffnen eines Word-Dokuments mit der [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Klasse. # Abrufen von Sammlungen von alle Absätze und alle Läufe im Dokument.# Auswahl nur der erforderlichen Absätze und Läufe. Konkret rufen wir aus diesem Beispiel-Word-Dokument Text ab, der mit dem Absatzstil "Überschrift 1" und dem Zeichenstil "Intense Emphasis" formatiert ist.
+Schauen wir uns ein Beispiel an, um zu veranschaulichen, wie einfach Aspose.Words das Abrufen von Inhalten basierend auf Stilen handhabt. In diesem Beispiel rufen wir Text ab, der mit einem bestimmten Absatzstil und einem Zeichenstil formatiert ist, aus einem Word-Beispieldokument. Auf hoher Ebene umfasst dies Folgendes: # Öffnen eines Word-Dokuments mit der [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Klasse. # Abrufen von Sammlungen von alle Absätze und alle Läufe im Dokument.# Auswahl nur der erforderlichen Absätze und Läufe. Konkret rufen wir aus diesem Beispiel-Word-Dokument Text ab, der mit dem Absatzstil "Überschrift 1" und dem Zeichenstil "Intense Emphasis" formatiert ist.
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ Beachten Sie, dass der zweite Parameter der **Document.GetChildNodes**-Methode a
 
 {{% /alert %}}
 
-Es ist auch erwähnenswert, dass die Absätze-Sammlung keinen unmittelbaren Mehraufwand verursacht, da Absätze nur dann in diese Sammlung geladen werden, wenn Sie auf Elemente in ihnen zugreifen. Anschließend müssen Sie nur noch die Sammlung mit dem Standardoperator "foreach" durchgehen und Absätze mit dem angegebenen Stil zum Array "paragraphsWithStyle" hinzufügen. Der `Paragraph`-Stilname kann in der [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/)-Eigenschaft des [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/)-Objekts gefunden werden. Die Implementierung von RunsByStyleName ist nahezu identisch, obwohl wir offensichtlich [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) verwenden, um Laufknoten abzurufen. Die [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/)-Eigenschaft eines [Run](https://reference.aspose.com/words/net/aspose.words/run/)-Objekts wird verwendet, um auf Stilinformationen in den **Run**-Knoten zuzugreifen. Im folgenden Beispiel finden Sie alle Läufe, die mit dem angegebenen Stil formatiert sind.
+Es ist auch erwähnenswert, dass die Absätze-Sammlung keinen unmittelbaren Mehraufwand verursacht, da Absätze nur dann in diese Sammlung geladen werden, wenn Sie auf Elemente in ihnen zugreifen. Anschließend müssen Sie nur noch die Sammlung mit dem Standardoperator "foreach" durchgehen und Absätze mit dem angegebenen Stil zum Array "paragraphsWithStyle" hinzufügen. Der `Paragraph`-Stilname kann in der [Style.Name](https://reference.aspose.com/words/de/net/aspose.words/style/name/)-Eigenschaft des [Paragraph.ParagraphFormat](https://reference.aspose.com/words/de/net/aspose.words/paragraph/paragraphformat/)-Objekts gefunden werden. Die Implementierung von RunsByStyleName ist nahezu identisch, obwohl wir offensichtlich [NodeType.Run](https://reference.aspose.com/words/de/net/aspose.words/nodetype/) verwenden, um Laufknoten abzurufen. Die [Font.Style](https://reference.aspose.com/words/de/net/aspose.words/font/style/)-Eigenschaft eines [Run](https://reference.aspose.com/words/de/net/aspose.words/run/)-Objekts wird verwendet, um auf Stilinformationen in den **Run**-Knoten zuzugreifen. Im folgenden Beispiel finden Sie alle Läufe, die mit dem angegebenen Stil formatiert sind.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

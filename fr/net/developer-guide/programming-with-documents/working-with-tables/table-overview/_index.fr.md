@@ -60,7 +60,7 @@ L'image ci-dessus montre que le document contient un tableau de plusieurs lignes
 
 Il convient également de noter que la séparation de deux tableaux consécutifs dans un document nécessite au moins un paragraphe vide après le tableau. Sans un tel paragraphe, les tableaux consécutifs seraient réunis en un seul. Ce comportement est identique dans Microsoft Word et Aspose.Words.
 
-Dans Aspose.Words, toutes les classes et propriétés liées aux tables sont contenues dans l'espace de noms [Aspose.Words.Tables](https://reference.aspose.com/words/net/aspose.words.tables/).
+Dans Aspose.Words, toutes les classes et propriétés liées aux tables sont contenues dans l'espace de noms [Aspose.Words.Tables](https://reference.aspose.com/words/fr/net/aspose.words.tables/).
 
 ## Voir également
 

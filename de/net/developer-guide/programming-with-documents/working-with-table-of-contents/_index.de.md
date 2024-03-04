@@ -19,7 +19,7 @@ Häufig werden Sie mit Dokumenten arbeiten, die ein Inhaltsverzeichnis (TOC) ent
 
 ## Inhaltsverzeichnis programmgesteuert einfügen
 
-Sie können ein `TOC`-Feld (Inhaltsverzeichnis) an der aktuellen Position in das Dokument einfügen, indem Sie die [InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/)-Methode aufrufen.
+Sie können ein `TOC`-Feld (Inhaltsverzeichnis) an der aktuellen Position in das Dokument einfügen, indem Sie die [InsertTableOfContents](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/inserttableofcontents/)-Methode aufrufen.
 
 Ein Inhaltsverzeichnis in einem Word-Dokument kann auf verschiedene Arten erstellt und mit verschiedenen Optionen formatiert werden. Die Feldschalter, die Sie an die Methode übergeben, steuern die Art und Weise, wie die Tabelle erstellt und in Ihrem Dokument angezeigt wird.
 
@@ -43,8 +43,8 @@ Ohne die im Beispiel verwendeten Methoden würden Sie beim Öffnen des Ausgabedo
 
 Mit Aspose.Words können Sie einen `TOC` mit nur wenigen Codezeilen vollständig aktualisieren. Dies kann zum Auffüllen eines neu eingefügten `TOC` oder zum Aktualisieren eines vorhandenen `TOC` erfolgen, nachdem Änderungen am Dokument vorgenommen wurden. Um die `TOC`-Felder im Dokument zu aktualisieren, müssen die folgenden zwei Methoden verwendet werden:
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/de/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/de/net/aspose.words/document/updatepagelayout/)
 
 Bitte beachten Sie, dass diese beiden Aktualisierungsmethoden in dieser Reihenfolge aufgerufen werden müssen. Im umgekehrten Fall wird das Inhaltsverzeichnis ausgefüllt, es werden jedoch keine Seitenzahlen angezeigt. Es können beliebig viele unterschiedliche Inhaltsverzeichnisse aktualisiert werden. Diese Methoden aktualisieren automatisch alle im Dokument gefundenen Inhaltsverzeichnisse.
 
@@ -142,7 +142,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## TC-Felder einfügen
 
-Sie können ein neues TC-Feld an der aktuellen Position des [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) einfügen, indem Sie die [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/)-Methode aufrufen und den Feldnamen "TC" zusammen mit allen erforderlichen Schaltern angeben.
+Sie können ein neues TC-Feld an der aktuellen Position des [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/) einfügen, indem Sie die [InsertField](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertfield/)-Methode aufrufen und den Feldnamen "TC" zusammen mit allen erforderlichen Schaltern angeben.
 
 Das folgende Codebeispiel zeigt, wie man mithilfe von **DocumentBuilder** ein `TC`-Feld in das Dokument einfügt:
 
@@ -156,7 +156,7 @@ Das folgende Codebeispiel zeigt, wie man ein `TC`-Feld im Text eines Dokuments f
 
 ## Inhaltsverzeichnis ändern
 
-Bei der Formatierung der Einträge im `TOC` werden nicht die ursprünglichen Stile der markierten Einträge verwendet, sondern jede Ebene wird mit einem entsprechenden `TOC`-Stil formatiert. Beispielsweise ist die erste Ebene im `TOC` mit dem **TOC1**-Stil formatiert, die zweite Ebene mit dem **TOC2**-Stil und so weiter. Das bedeutet, dass diese Stile geändert werden müssen, um das Aussehen des `TOC` zu ändern. In Aspose.Words werden diese Stile durch das vom Gebietsschema unabhängige `StyleIdentifier.TOC1` bis hin zu `StyleIdentifier.TOC9` dargestellt und können mithilfe dieser Bezeichner aus der [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/)-Sammlung abgerufen werden.
+Bei der Formatierung der Einträge im `TOC` werden nicht die ursprünglichen Stile der markierten Einträge verwendet, sondern jede Ebene wird mit einem entsprechenden `TOC`-Stil formatiert. Beispielsweise ist die erste Ebene im `TOC` mit dem **TOC1**-Stil formatiert, die zweite Ebene mit dem **TOC2**-Stil und so weiter. Das bedeutet, dass diese Stile geändert werden müssen, um das Aussehen des `TOC` zu ändern. In Aspose.Words werden diese Stile durch das vom Gebietsschema unabhängige `StyleIdentifier.TOC1` bis hin zu `StyleIdentifier.TOC9` dargestellt und können mithilfe dieser Bezeichner aus der [Styles](https://reference.aspose.com/words/de/net/aspose.words/documentbase/styles/)-Sammlung abgerufen werden.
 
 Sobald der entsprechende Stil des Dokuments abgerufen wurde, kann die Formatierung für diesen Stil geändert werden. Alle Änderungen an diesen Stilen werden automatisch in den Inhaltsverzeichnissen des Dokuments widergespiegelt.
 
@@ -168,7 +168,7 @@ Es ist auch nützlich zu beachten, dass jede direkte Formatierung eines Absatzes
 
 Sie können auch die Formatierung der Trennzeichen zwischen den einzelnen Einträgen und der Seitenzahl steuern. Standardmäßig handelt es sich hierbei um eine gepunktete Linie, die mithilfe eines Tabulatorzeichens und eines rechten Tabstopps, der dicht am rechten Rand angeordnet ist, auf die Seitennummerierung übertragen wird.
 
-Mithilfe der [Style](https://reference.aspose.com/words/net/aspose.words/style/)-Klasse, die für die jeweilige `TOC`-Ebene abgerufen wurde, die Sie ändern möchten, können Sie auch ändern, wie diese im Dokument angezeigt werden. Um die Darstellung zu ändern, muss zunächst [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/) aufgerufen werden, um die Absatzformatierung für den Stil abzurufen. Daraus können die Tabstopps durch Aufruf von [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) abgerufen und der entsprechende Tabstopp geändert werden. Mit derselben Technik kann die Lasche selbst verschoben oder ganz entfernt werden.
+Mithilfe der [Style](https://reference.aspose.com/words/de/net/aspose.words/style/)-Klasse, die für die jeweilige `TOC`-Ebene abgerufen wurde, die Sie ändern möchten, können Sie auch ändern, wie diese im Dokument angezeigt werden. Um die Darstellung zu ändern, muss zunächst [ParagraphFormat](https://reference.aspose.com/words/de/net/aspose.words/style/paragraphformat/) aufgerufen werden, um die Absatzformatierung für den Stil abzurufen. Daraus können die Tabstopps durch Aufruf von [TabStops](https://reference.aspose.com/words/de/net/aspose.words/paragraphformat/tabstops/) abgerufen und der entsprechende Tabstopp geändert werden. Mit derselben Technik kann die Lasche selbst verschoben oder ganz entfernt werden.
 
 Das folgende Codebeispiel zeigt, wie Sie die Position des rechten Tabstopps in `TOC`-bezogenen Absätzen ändern:
 
@@ -176,9 +176,9 @@ Das folgende Codebeispiel zeigt, wie Sie die Position des rechten Tabstopps in `
 
 ## Entfernen Sie das Inhaltsverzeichnis aus dem Dokument
 
-Ein Inhaltsverzeichnis kann aus dem Dokument entfernt werden, indem alle Knoten entfernt werden, die zwischen dem `FieldStart`- und dem FieldEnd-Knoten des `TOC`-Felds gefunden werden. Der folgende Code demonstriert dies. Das Entfernen des `TOC`-Felds ist einfacher als bei einem normalen Feld, da wir verschachtelte Felder nicht verfolgen. Stattdessen überprüfen wir, ob der [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/)-Knoten vom Typ [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) ist, was bedeutet, dass wir das Ende des aktuellen Inhaltsverzeichnisses erreicht haben. Diese Technik kann in diesem Fall verwendet werden, ohne sich Gedanken über verschachtelte Felder machen zu müssen, da wir davon ausgehen können, dass jedes ordnungsgemäß geformte Dokument kein vollständig verschachteltes `TOC`-Feld in einem anderen `TOC`-Feld enthält.
+Ein Inhaltsverzeichnis kann aus dem Dokument entfernt werden, indem alle Knoten entfernt werden, die zwischen dem `FieldStart`- und dem FieldEnd-Knoten des `TOC`-Felds gefunden werden. Der folgende Code demonstriert dies. Das Entfernen des `TOC`-Felds ist einfacher als bei einem normalen Feld, da wir verschachtelte Felder nicht verfolgen. Stattdessen überprüfen wir, ob der [FieldEnd](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldend/)-Knoten vom Typ [FieldType.FieldTOC](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldtype/) ist, was bedeutet, dass wir das Ende des aktuellen Inhaltsverzeichnisses erreicht haben. Diese Technik kann in diesem Fall verwendet werden, ohne sich Gedanken über verschachtelte Felder machen zu müssen, da wir davon ausgehen können, dass jedes ordnungsgemäß geformte Dokument kein vollständig verschachteltes `TOC`-Feld in einem anderen `TOC`-Feld enthält.
 
-Zunächst werden die [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/)-Knoten jedes `TOC` gesammelt und gespeichert. Der angegebene `TOC` wird dann aufgezählt, sodass alle Knoten innerhalb des Felds besucht und gespeichert werden. Anschließend werden die Knoten aus dem Dokument entfernt.
+Zunächst werden die [FieldStart](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldstart/)-Knoten jedes `TOC` gesammelt und gespeichert. Der angegebene `TOC` wird dann aufgezählt, sodass alle Knoten innerhalb des Felds besucht und gespeichert werden. Anschließend werden die Knoten aus dem Dokument entfernt.
 
 Das folgende Codebeispiel zeigt, wie ein angegebenes `TOC` aus einem Dokument entfernt wird:
 

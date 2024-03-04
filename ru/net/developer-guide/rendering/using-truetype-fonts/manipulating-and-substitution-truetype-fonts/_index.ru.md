@@ -20,7 +20,7 @@ Aspose.Words требуются шрифты TrueType для различных 
 
 ## Управление шрифтами и проблемы с производительностью
 
-Все доступные механизмы манипуляции шрифтами содержатся в классе [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/). Этот класс отвечает за выборку шрифтов из определенных источников шрифтов, а также за процесс замены шрифтов, как описано ниже.
+Все доступные механизмы манипуляции шрифтами содержатся в классе [FontSettings](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/). Этот класс отвечает за выборку шрифтов из определенных источников шрифтов, а также за процесс замены шрифтов, как описано ниже.
 
 Шрифты анализируются в несколько этапов:
 
@@ -55,7 +55,7 @@ Aspose.Words требуются шрифты TrueType для различных 
 Однако бывают ситуации, когда точный шрифт не может быть найден, и вместо этого Aspose.Words должен заменить его на аналогичный шрифт. Aspose.Words выбирает шрифт согласно следующему процессу:
 1. Aspose.Words пытается найти шрифт среди доступных источников шрифтов с точным именем шрифта.
 1. Aspose.Words пытается найти нужный шрифт среди шрифтов, встроенных в исходный документ. Некоторые форматы документов, такие как DOCX, могут содержать встроенные шрифты.
-1. Если Aspose.Words не может найти требуемый шрифт с точным совпадением имени и свойством [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/), определенным для этого шрифта, то Aspose.Words найдет шрифт, определенный с помощью **AltName** из класса [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/), который определяет информацию о шрифте.
+1. Если Aspose.Words не может найти требуемый шрифт с точным совпадением имени и свойством [AltName](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontinfo/altname/), определенным для этого шрифта, то Aspose.Words найдет шрифт, определенный с помощью **AltName** из класса [FontInfo](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontinfo/), который определяет информацию о шрифте.
 1. Если Aspose.Words не может найти определенный шрифт, а **AltName** также не определен, то правила замены шрифтов применяются один за другим, как описано ниже (когда соответствующая замена найдена, процесс замены шрифта останавливается и следующий шаг не выполняется):
 	1. Сначала Aspose.Words пытается обработать имя шрифта, чтобы получить замену, в частности, он пытается удалить суффиксы с разделителями "-" и ",".<br>
 	Если это правило замены имеет место, "Шрифт '&lt;OriginalFont&gt;' не найден. Вместо этого используется шрифт '&lt;SubstitutionFont&gt;'. Причина: подмена имени шрифта". появляется предупреждение.<br>
@@ -98,7 +98,7 @@ Aspose.Words требуются шрифты TrueType для различных 
 	fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 	{{< /highlight >}}
 	Если **FontInfo** недоступен для отсутствующего шрифта, процесс останавливается.<br>
-	1. Правило замены **DefaultFont** будет применяться в случае, если замена `FontInfo` также не удалась. Это правило также включено по умолчанию. Согласно этому правилу, Aspose.Words попытается использовать шрифт по умолчанию, указанный в свойстве [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Если пользователь не выбрал собственный шрифт по умолчанию, то в качестве шрифта по умолчанию будет использоваться "Times New Roman". Это правило можно отключить, как показано ниже:<br>
+	1. Правило замены **DefaultFont** будет применяться в случае, если замена `FontInfo` также не удалась. Это правило также включено по умолчанию. Согласно этому правилу, Aspose.Words попытается использовать шрифт по умолчанию, указанный в свойстве [DefaultFontName](https://reference.aspose.com/words/ru/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Если пользователь не выбрал собственный шрифт по умолчанию, то в качестве шрифта по умолчанию будет использоваться "Times New Roman". Это правило можно отключить, как показано ниже:<br>
 	**.NET**<br>
 	{{< highlight csharp >}}
 	fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ Aspose.Words требуются шрифты TrueType для различных 
 
 ## Как распознать, что шрифт был заменен
 
-Иногда может быть непонятно, почему изменился макет документа или почему какой-то шрифт выглядит не так, как ожидалось. В таких случаях на помощь приходят предупреждения о подмене шрифта, реализованные интерфейсом [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/). Они имеют тип предупреждения [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/) и стандартный текстовый формат описания "Шрифт".<OriginalFont> ' не обнаружено. С использованием '<SubstitutionFont> вместо этого шрифт. Причина:<Reason> ", по следующим причинам:
+Иногда может быть непонятно, почему изменился макет документа или почему какой-то шрифт выглядит не так, как ожидалось. В таких случаях на помощь приходят предупреждения о подмене шрифта, реализованные интерфейсом [IWarningCallback](https://reference.aspose.com/words/ru/net/aspose.words/iwarningcallback/). Они имеют тип предупреждения [FontSubstitution](https://reference.aspose.com/words/ru/net/aspose.words/warningtype/) и стандартный текстовый формат описания "Шрифт".<OriginalFont> ' не обнаружено. С использованием '<SubstitutionFont> вместо этого шрифт. Причина:<Reason> ", по следующим причинам:
 
-- "альтернативное имя из документа" – для замены на [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
+- "альтернативное имя из документа" – для замены на [AltName](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontinfo/properties/altname)
 - "подстановка шрифта" – для замены по правилу конфигурации шрифта
 - "подстановка таблицы" – для замены по табличному правилу
 - "подстановка информации о шрифте" – для замены по правилу информации о шрифте
@@ -133,7 +133,7 @@ Aspose.Words требуются шрифты TrueType для различных 
 
 В Aspose.Words используются два разных механизма — замена шрифта и возврат шрифта. Подмена шрифта используется, когда шрифт, указанный в документе, не удалось найти среди источников шрифтов, как это было описано в предыдущих разделах. Механизм возврата шрифта используется, когда шрифт разрешен, но не содержит определенного символа. В этом случае Aspose.Words пытается использовать для символа один из резервных шрифтов.
 
-Существует метод [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/), который автоматически создает резервные настройки путем сканирования доступных шрифтов. Поскольку этот метод может создать неоптимальную настройку резервного варианта, вы можете управлять поведением резервного шрифта, используя свойства класса [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/). Этот класс определяет настройки механизма резервного шрифта. Вы можете получить экземпляр класса **FontFallbackSettings** следующим образом:
+Существует метод [BuildAutomatic](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/), который автоматически создает резервные настройки путем сканирования доступных шрифтов. Поскольку этот метод может создать неоптимальную настройку резервного варианта, вы можете управлять поведением резервного шрифта, используя свойства класса [FontFallbackSettings](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontfallbacksettings/). Этот класс определяет настройки механизма резервного шрифта. Вы можете получить экземпляр класса **FontFallbackSettings** следующим образом:
 
 **.NET**
 
@@ -195,7 +195,7 @@ fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 
 ## Предопределенные настройки возврата шрифтов для Google Noto шрифтов
 
-Aspose.Words предоставляет предопределенные настройки резервного шрифта для шрифтов Google Noto. Это бесплатные шрифты, лицензированные по лицензии SIL Open Font License, которые можно загрузить по адресу Google Noto Fonts. Класс **FontFallbackSettings** предоставляет метод [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Он загружает предопределенные резервные настройки, в которых используются шрифты Google Noto, как показано в примере кода ниже:
+Aspose.Words предоставляет предопределенные настройки резервного шрифта для шрифтов Google Noto. Это бесплатные шрифты, лицензированные по лицензии SIL Open Font License, которые можно загрузить по адресу Google Noto Fonts. Класс **FontFallbackSettings** предоставляет метод [LoadNotoFallbackSettings](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Он загружает предопределенные резервные настройки, в которых используются шрифты Google Noto, как показано в примере кода ниже:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

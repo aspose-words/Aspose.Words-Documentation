@@ -20,7 +20,7 @@ Tenga en cuenta que la fuente del documento representa una entidad, como el apel
 
 ## Problemas de rendimiento y manipulación de fuentes
 
-Todos los mecanismos de manipulación de fuentes disponibles están contenidos en la clase [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/). Esta clase es responsable de recuperar fuentes dentro de fuentes de fuentes definidas, así como del proceso de sustitución de fuentes, como se describe a continuación.
+Todos los mecanismos de manipulación de fuentes disponibles están contenidos en la clase [FontSettings](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/). Esta clase es responsable de recuperar fuentes dentro de fuentes de fuentes definidas, así como del proceso de sustitución de fuentes, como se describe a continuación.
 
 Las fuentes se analizan en varios pasos:
 
@@ -55,7 +55,7 @@ El texto de un documento se puede formatear con varias fuentes, como Arial, Time
 Sin embargo, hay situaciones en las que no se puede encontrar la fuente exacta y Aspose.Words debe sustituirla por una fuente similar. Aspose.Words selecciona la fuente según el siguiente proceso:
 1. Aspose.Words intenta encontrar una fuente entre las fuentes disponibles con un nombre de fuente exacto.
 1. Aspose.Words intenta encontrar la fuente requerida entre las fuentes incrustadas en el documento original. Algunos formatos de documentos, como DOCX, pueden contener fuentes incrustadas.
-1. Si Aspose.Words no puede localizar la fuente requerida con el nombre exacto que coincide y la propiedad [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) definida para esta fuente, entonces Aspose.Words encontrará la fuente definida con **AltName** de la clase [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/), que especifica la información de la fuente.
+1. Si Aspose.Words no puede localizar la fuente requerida con el nombre exacto que coincide y la propiedad [AltName](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontinfo/altname/) definida para esta fuente, entonces Aspose.Words encontrará la fuente definida con **AltName** de la clase [FontInfo](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontinfo/), que especifica la información de la fuente.
 1. Si Aspose.Words no puede ubicar la fuente definida y **AltName** tampoco está definido, entonces las reglas de sustitución de fuentes se aplican una por una, como se describe a continuación (cuando se encuentra el reemplazo apropiado, el proceso de sustitución de fuentes se detiene y el el siguiente paso no se ejecuta):
 	1. Primero, Aspose.Words intenta procesar el nombre de la fuente para obtener la sustitución, en particular intenta eliminar los sufijos con separadores "-" y ",".<br>
 	Si se aplica esta regla de sustitución, no se ha encontrado una "fuente '&lt;OriginalFont&gt;'. En su lugar se utiliza la fuente '&lt;SubstitutionFont&gt;'. Motivo: sustitución del nombre de la fuente". Aparece una advertencia.<br>
@@ -98,7 +98,7 @@ Sin embargo, hay situaciones en las que no se puede encontrar la fuente exacta y
 	fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 	{{< /highlight >}}
 	Si **FontInfo** no está disponible para la fuente que falta, el proceso se detiene.<br>
-	1. La regla de sustitución **DefaultFont** se aplicará en el caso de que la sustitución `FontInfo` también haya fallado. Esta regla también está habilitada de forma predeterminada. Según esta regla, Aspose.Words intentará utilizar la fuente predeterminada especificada en la propiedad [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Si el usuario no ha elegido su propia fuente predeterminada, se utilizará "Times New Roman" como fuente predeterminada. Esta regla se puede desactivar como se muestra a continuación:<br>
+	1. La regla de sustitución **DefaultFont** se aplicará en el caso de que la sustitución `FontInfo` también haya fallado. Esta regla también está habilitada de forma predeterminada. Según esta regla, Aspose.Words intentará utilizar la fuente predeterminada especificada en la propiedad [DefaultFontName](https://reference.aspose.com/words/es/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Si el usuario no ha elegido su propia fuente predeterminada, se utilizará "Times New Roman" como fuente predeterminada. Esta regla se puede desactivar como se muestra a continuación:<br>
 	**.NET**<br>
 	{{< highlight csharp >}}
 	fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ Si **FontInfo** está disponible, la *regla de sustitución de FontInfo* siempre
 
 ## Cómo reconocer que se reemplazó la fuente
 
-A veces, puede que no quede claro por qué ha cambiado el diseño del documento o por qué alguna fuente no tiene el aspecto esperado. En tales casos, los mensajes de advertencia de sustitución de fuentes implementados por la interfaz [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/) vienen al rescate. Tienen el tipo de advertencia [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/) y el formato de texto de descripción estándar, "Fuente '<OriginalFont> ' no ha sido encontrado. Usando '<SubstitutionFont> ' fuente en su lugar. Razón:<Reason> ", con las siguientes razones:
+A veces, puede que no quede claro por qué ha cambiado el diseño del documento o por qué alguna fuente no tiene el aspecto esperado. En tales casos, los mensajes de advertencia de sustitución de fuentes implementados por la interfaz [IWarningCallback](https://reference.aspose.com/words/es/net/aspose.words/iwarningcallback/) vienen al rescate. Tienen el tipo de advertencia [FontSubstitution](https://reference.aspose.com/words/es/net/aspose.words/warningtype/) y el formato de texto de descripción estándar, "Fuente '<OriginalFont> ' no ha sido encontrado. Usando '<SubstitutionFont> ' fuente en su lugar. Razón:<Reason> ", con las siguientes razones:
 
-- "nombre alternativo del documento" – para sustitución por [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
+- "nombre alternativo del documento" – para sustitución por [AltName](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontinfo/properties/altname)
 - "sustitución de fontconfig" – para sustitución por regla de configuración de fuente
 - "sustitución de tabla" – para sustitución por regla de tabla
 - "sustitución de información de fuente": para sustitución por regla de información de fuente
@@ -133,7 +133,7 @@ A veces, puede que no quede claro por qué ha cambiado el diseño del documento 
 
 Hay dos mecanismos diferentes utilizados en Aspose.Words: sustitución de fuentes y reserva de fuentes. La sustitución de fuentes se utiliza cuando la fuente especificada en el documento no se puede encontrar entre las fuentes de fuentes como se describió en las secciones anteriores. El mecanismo de reserva de fuente se utiliza cuando se resuelve la fuente, pero no contiene un carácter específico. En este caso, Aspose.Words intenta utilizar una de las fuentes alternativas para el carácter.
 
-Existe un método [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) que crea automáticamente la configuración alternativa escaneando las fuentes disponibles. Dado que este método puede producir una configuración de reserva no óptima, puede controlar el comportamiento de reserva de la fuente utilizando las propiedades de la clase [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/). Esta clase especifica la configuración del mecanismo de reserva de fuentes. Puede obtener una instancia de la clase **FontFallbackSettings** de la siguiente manera:
+Existe un método [BuildAutomatic](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) que crea automáticamente la configuración alternativa escaneando las fuentes disponibles. Dado que este método puede producir una configuración de reserva no óptima, puede controlar el comportamiento de reserva de la fuente utilizando las propiedades de la clase [FontFallbackSettings](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontfallbacksettings/). Esta clase especifica la configuración del mecanismo de reserva de fuentes. Puede obtener una instancia de la clase **FontFallbackSettings** de la siguiente manera:
 
 **.NET**
 
@@ -195,7 +195,7 @@ En el ejemplo de código anterior, se utiliza el siguiente archivo XML:
 
 ## Configuración de reserva de fuentes predefinida para fuentes Google Noto
 
-Aspose.Words proporciona configuraciones de reserva de fuentes predefinidas para fuentes Google Noto. Estas son fuentes gratuitas con licencia SIL Open Font License, que se pueden descargar desde Google Noto Fonts. La clase **FontFallbackSettings** proporciona un método [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Carga configuraciones de respaldo predefinidas, que usan fuentes Google Noto como se muestra en el ejemplo de código a continuación:
+Aspose.Words proporciona configuraciones de reserva de fuentes predefinidas para fuentes Google Noto. Estas son fuentes gratuitas con licencia SIL Open Font License, que se pueden descargar desde Google Noto Fonts. La clase **FontFallbackSettings** proporciona un método [LoadNotoFallbackSettings](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Carga configuraciones de respaldo predefinidas, que usan fuentes Google Noto como se muestra en el ejemplo de código a continuación:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

@@ -15,7 +15,7 @@ Le azioni che possono essere eseguite con i segnalibri utilizzando Aspose.Words 
 
 ## Inserisci un segnalibro
 
-Utilizza [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) e [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/) per creare un segnalibro contrassegnandone rispettivamente l'inizio e la fine. Non dimenticare di passare lo stesso nome del segnalibro a entrambi i metodi. I segnalibri in un documento possono sovrapporsi e estendersi su qualsiasi intervallo. I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
+Utilizza [StartBookmark](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/startbookmark/) e [EndBookmark](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endbookmark/) per creare un segnalibro contrassegnandone rispettivamente l'inizio e la fine. Non dimenticare di passare lo stesso nome del segnalibro a entrambi i metodi. I segnalibri in un documento possono sovrapporsi e estendersi su qualsiasi intervallo. I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ L'esempio di codice seguente mostra come creare un nuovo segnalibro:
 
 ## Ottieni segnalibri
 
-A volte è necessario ottenere una raccolta di segnalibri per scorrere i segnalibri o per altri scopi. Utilizza la proprietà [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) esposta da qualsiasi nodo di documento che restituisce un oggetto [Range](https://reference.aspose.com/words/net/aspose.words/range/) che rappresenta la parte del documento contenuta in questo nodo. Utilizzare questo oggetto per recuperare un [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/) e quindi utilizzare l'indicizzatore della raccolta per ottenere un segnalibro specifico.
+A volte è necessario ottenere una raccolta di segnalibri per scorrere i segnalibri o per altri scopi. Utilizza la proprietà [Node.Range](https://reference.aspose.com/words/it/net/aspose.words/node/range/) esposta da qualsiasi nodo di documento che restituisce un oggetto [Range](https://reference.aspose.com/words/it/net/aspose.words/range/) che rappresenta la parte del documento contenuta in questo nodo. Utilizzare questo oggetto per recuperare un [BookmarkCollection](https://reference.aspose.com/words/it/net/aspose.words/bookmarkcollection/) e quindi utilizzare l'indicizzatore della raccolta per ottenere un segnalibro specifico.
 
 L'esempio di codice seguente mostra come ottenere segnalibri da una raccolta di segnalibri:
 
@@ -66,7 +66,7 @@ L'esempio di codice seguente mostra come accedere alle colonne della tabella con
 
 ## Passare a un segnalibro
 
-Se è necessario inserire contenuto avanzato (non solo testo semplice) in un segnalibro, è necessario utilizzare [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) per spostare il cursore sul segnalibro e quindi utilizzare i metodi e le proprietà [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) per inserire il contenuto.
+Se è necessario inserire contenuto avanzato (non solo testo semplice) in un segnalibro, è necessario utilizzare [MoveToBookmark](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/movetobookmark/) per spostare il cursore sul segnalibro e quindi utilizzare i metodi e le proprietà [DocumentBuilder's](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/) per inserire il contenuto.
 
 ## Mostra Nascondi contenuto segnalibro
 

@@ -13,7 +13,7 @@ Manchmal müssen Sie ein group shape in ein Word-Dokument einfügen. Ein solches
 
 In Microsoft Word können Sie mit dem Group-Befehl/der Group-Schaltfläche schnell einen group shape hinzufügen. Eine einzelne Form in einer Gruppe kann separat verschoben werden.
 
-In Aspose.Words ist es sehr einfach, mithilfe der [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/)-Klasse einen group shape hinzuzufügen. **Shape** wird separat mit der [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)-Klasse erstellt und dann mit der [AppendChild](https://reference.aspose.com/words/net/aspose.words/compositenode/appendchild/)-Methode zum [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/)-Objekt hinzugefügt.
+In Aspose.Words ist es sehr einfach, mithilfe der [GroupShape](https://reference.aspose.com/words/de/net/aspose.words.drawing/groupshape/)-Klasse einen group shape hinzuzufügen. **Shape** wird separat mit der [Shape](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/)-Klasse erstellt und dann mit der [AppendChild](https://reference.aspose.com/words/de/net/aspose.words/compositenode/appendchild/)-Methode zum [GroupShape](https://reference.aspose.com/words/de/net/aspose.words.drawing/groupshape/)-Objekt hinzugefügt.
 
 Das folgende Codebeispiel zeigt, wie man ein group shape in ein Word-Dokument einfügt:
 
@@ -35,6 +35,6 @@ Nachfolgend sind einige der in Aspose.Words unterstützten `Shape`-Typen aufgef�
 - Sechseck
 - Achteck
 
-Eine vollständige Liste finden Sie in der [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype)-Klasse.
+Eine vollständige Liste finden Sie in der [ShapeType](https://reference.aspose.com/words/de/net/aspose.words.drawing/shapetype)-Klasse.
 
 {{% /alert %}}

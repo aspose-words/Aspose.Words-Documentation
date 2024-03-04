@@ -13,7 +13,7 @@ Manchmal müssen Sie möglicherweise das Erscheinungsbild eines Dokuments änder
 
 ## Legen Sie die Anzeigeoptionen für Dokumente fest
 
-Mithilfe der [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/)-Klasse können Sie steuern, wie ein Dokument in Microsoft Word angezeigt wird. Beispielsweise können Sie mit der [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/zoompercent/)-Eigenschaft einen Dokumentzoomwert oder mit der [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/viewtype/)-Eigenschaft den Ansichtsmodus festlegen.
+Mithilfe der [ViewOptions](https://reference.aspose.com/words/de/net/aspose.words.settings/viewoptions/)-Klasse können Sie steuern, wie ein Dokument in Microsoft Word angezeigt wird. Beispielsweise können Sie mit der [ZoomPercent](https://reference.aspose.com/words/de/net/aspose.words.settings/viewoptions/zoompercent/)-Eigenschaft einen Dokumentzoomwert oder mit der [ViewType](https://reference.aspose.com/words/de/net/aspose.words.settings/viewoptions/viewtype/)-Eigenschaft den Ansichtsmodus festlegen.
 
 Das folgende Codebeispiel zeigt, wie sichergestellt wird, dass ein Dokument beim Öffnen in Microsoft Word mit 50 % angezeigt wird:
 
@@ -33,7 +33,7 @@ Microsoft Word 2013 schreibt keinen Zoomfaktor in ein Dokument und legt den Stan
 
 ## Legen Sie die Seitenanzeigeoptionen fest
 
-Wenn Sie die Anzahl der Zeichen pro Zeile festlegen möchten, verwenden Sie die [CharactersPerLine](https://reference.aspose.com/words/net/aspose.words/pagesetup/charactersperline/)-Eigenschaft. Sie können auch die Anzahl der Zeilen pro Seite für ein Word-Dokument festlegen – verwenden Sie die [LinesPerPage](https://reference.aspose.com/words/net/aspose.words/pagesetup/linesperpage/)-Eigenschaft, um die Anzahl der Zeilen pro Seite im Dokumentraster abzurufen oder festzulegen.
+Wenn Sie die Anzahl der Zeichen pro Zeile festlegen möchten, verwenden Sie die [CharactersPerLine](https://reference.aspose.com/words/de/net/aspose.words/pagesetup/charactersperline/)-Eigenschaft. Sie können auch die Anzahl der Zeilen pro Seite für ein Word-Dokument festlegen – verwenden Sie die [LinesPerPage](https://reference.aspose.com/words/de/net/aspose.words/pagesetup/linesperpage/)-Eigenschaft, um die Anzahl der Zeilen pro Seite im Dokumentraster abzurufen oder festzulegen.
 
 {{% alert color="primary" %}}
 
@@ -49,7 +49,7 @@ Das folgende Codebeispiel zeigt, wie Sie die Anzahl der Zeichen pro Zeile und di
 
 Die Anzeige eines Dokuments in Microsoft Word hängt davon ab, welche Sprachen als Standard für dieses Dokument festgelegt sind. Wenn in den Standardeinstellungen keine Sprachen festgelegt sind, übernimmt Microsoft Word Informationen aus dem Dialogfeld "Office-Spracheinstellungen festlegen", das beispielsweise in Microsoft Word 2019 unter "Datei → Optionen → Sprache" zu finden ist.
 
-Mit Aspose.Words können Sie auch Spracheinstellungen mithilfe der [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/)-Klasse einrichten. Beachten Sie außerdem, dass es für die korrekte Anzeige Ihres Dokuments notwendig ist, die Microsoft Word-Version festzulegen, mit der der Dokumentladevorgang übereinstimmen soll – dies kann über die [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/mswversion/)-Eigenschaft erfolgen.
+Mit Aspose.Words können Sie auch Spracheinstellungen mithilfe der [LanguagePreferences](https://reference.aspose.com/words/de/net/aspose.words.loading/languagepreferences/)-Klasse einrichten. Beachten Sie außerdem, dass es für die korrekte Anzeige Ihres Dokuments notwendig ist, die Microsoft Word-Version festzulegen, mit der der Dokumentladevorgang übereinstimmen soll – dies kann über die [MswVersion](https://reference.aspose.com/words/de/net/aspose.words.loading/loadoptions/mswversion/)-Eigenschaft erfolgen.
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ Das folgende Codebeispiel zeigt, wie man Russisch als Standardbearbeitungssprach
 
 ## Optimieren Sie ein Dokument für eine bestimmte Word-Version
 
-Die [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/)-Methode ermöglicht die Optimierung des Dokumentinhalts sowie des Standard-Aspose.Words-Verhaltens für eine bestimmte Microsoft Word-Version. Mit dieser Methode können Sie verhindern, dass Microsoft Word beim Laden des Dokuments das Menüband "Kompatibilitätsmodus" anzeigt. Beachten Sie, dass Sie möglicherweise auch die `Compliance`-Eigenschaft auf Iso29500_2008_Transitional oder höher setzen müssen.
+Die [OptimizeFor](https://reference.aspose.com/words/de/net/aspose.words.settings/compatibilityoptions/optimizefor/)-Methode ermöglicht die Optimierung des Dokumentinhalts sowie des Standard-Aspose.Words-Verhaltens für eine bestimmte Microsoft Word-Version. Mit dieser Methode können Sie verhindern, dass Microsoft Word beim Laden des Dokuments das Menüband "Kompatibilitätsmodus" anzeigt. Beachten Sie, dass Sie möglicherweise auch die `Compliance`-Eigenschaft auf Iso29500_2008_Transitional oder höher setzen müssen.
 
 Das folgende Codebeispiel zeigt, wie Sie Dokumentinhalte für Microsoft Word 2016 optimieren:
 

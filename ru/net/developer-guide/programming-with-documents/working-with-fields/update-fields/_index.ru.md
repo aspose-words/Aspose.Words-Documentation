@@ -22,13 +22,13 @@ url: /ru/net/update-fields/
 
 ### Обновить поля программно
 
-Чтобы явно обновить поля во всем документе, просто вызовите метод [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/). Чтобы обновить поля, содержащиеся в части документа, получите объект [Range](https://reference.aspose.com/words/net/aspose.words/range/) и вызовите метод [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/updatefields/). В Aspose.Words вы можете получить **Range** для любого узла в дереве документа, например [Section](https://reference.aspose.com/words/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) и т.д., используя свойство [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/). Вы можете обновить результат одного поля, вызвав метод [Update](https://reference.aspose.com/words/net/aspose.words.fields/field/update/).
+Чтобы явно обновить поля во всем документе, просто вызовите метод [UpdateFields](https://reference.aspose.com/words/ru/net/aspose.words/document/updatefields/). Чтобы обновить поля, содержащиеся в части документа, получите объект [Range](https://reference.aspose.com/words/ru/net/aspose.words/range/) и вызовите метод [UpdateFields](https://reference.aspose.com/words/ru/net/aspose.words/range/updatefields/). В Aspose.Words вы можете получить **Range** для любого узла в дереве документа, например [Section](https://reference.aspose.com/words/ru/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/ru/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/) и т.д., используя свойство [Node.Range](https://reference.aspose.com/words/ru/net/aspose.words/node/range/). Вы можете обновить результат одного поля, вызвав метод [Update](https://reference.aspose.com/words/ru/net/aspose.words.fields/field/update/).
 
 ### Автоматическое обновление полей, связанных со страницей, во время рендеринга
 
 Когда вы выполняете преобразование документа в формат с фиксированной страницей, например, в PDF или XPS, Aspose.Words автоматически обновляет поля `PAGE`, `PAGEREF`, связанные с макетом страницы, которые находятся в верхних и нижних колонтитулах документа. Это поведение имитирует поведение Microsoft Word при печати документа.
 
-Если вы хотите обновить все остальные поля в документе, вам нужно позвонить по номеру [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) перед визуализацией документа.
+Если вы хотите обновить все остальные поля в документе, вам нужно позвонить по номеру [UpdateFields](https://reference.aspose.com/words/ru/net/aspose.words/document/updatefields/) перед визуализацией документа.
 
 В следующем примере кода показано, как обновить все поля перед визуализацией документа:
 
@@ -46,7 +46,7 @@ url: /ru/net/update-fields/
 
 ## Обновить поля, имеющие грязный атрибут
 
-w:dirty — это атрибут уровня поля, который будет обновлять только указанное вами поле при открытии документа. Он сообщает MS Word обновлять это поле только при следующем открытии документа. Вы можете использовать свойство [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/), чтобы указать, следует ли обновлять поля с атрибутомгрязный. Если для значения **UpdateDirtyFields** установлено значение *true*, все поля, имеющие значение *true* для свойства [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) или [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/), обновляются при загрузке документа.
+w:dirty — это атрибут уровня поля, который будет обновлять только указанное вами поле при открытии документа. Он сообщает MS Word обновлять это поле только при следующем открытии документа. Вы можете использовать свойство [UpdateDirtyFields](https://reference.aspose.com/words/ru/net/aspose.words.loading/loadoptions/updatedirtyfields/), чтобы указать, следует ли обновлять поля с атрибутомгрязный. Если для значения **UpdateDirtyFields** установлено значение *true*, все поля, имеющие значение *true* для свойства [Field.IsDirty](https://reference.aspose.com/words/ru/net/aspose.words.fields/field/isdirty/) или [FieldChar.IsDirty](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldchar/isdirty/), обновляются при загрузке документа.
 
 В следующем примере кода показано, как обновить поля, имеющие атрибутгрязный:
 
@@ -54,7 +54,7 @@ w:dirty — это атрибут уровня поля, который буде
 
 ## Обновить свойство LastSavedTime перед сохранением
 
-Вы можете использовать свойство [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/), чтобы обновить соответствующее встроенное свойство документа [LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) при сохранении документа.
+Вы можете использовать свойство [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/ru/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/), чтобы обновить соответствующее встроенное свойство документа [LastSavedTime](https://reference.aspose.com/words/ru/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) при сохранении документа.
 
 В следующем примере кода показано, как обновить это свойство:
 

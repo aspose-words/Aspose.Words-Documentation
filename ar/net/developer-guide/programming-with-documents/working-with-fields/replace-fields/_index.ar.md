@@ -13,8 +13,8 @@ url: /ar/net/replace-fields/
 
 يوضح الرسم البياني أدناه كيفية تخزين حقل `IF` في مستند:
 
-* النص محاط بالعقد الميدانية الخاصة – [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) و[FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend)
-* تقوم عقدة [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) بفصل النص الموجود داخل الحقل إلى رمز الحقل ونتيجة الحقل
+* النص محاط بالعقد الميدانية الخاصة – [FieldStart](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldstart/) و[FieldEnd](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldend)
+* تقوم عقدة [FieldSeparator](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldseparator/) بفصل النص الموجود داخل الحقل إلى رمز الحقل ونتيجة الحقل
 * يحدد رمز الحقل السلوك العام للحقل، بينما تحتفظ نتيجة الحقل بأحدث نتيجة عند تحديث هذا الحقل باستخدام Microsoft Word أو Aspose.Words
 * نتيجة الحقل هي ما يتم تخزينه في الحقل وعرضه في المستند عند عرضه
 
@@ -38,17 +38,17 @@ url: /ar/net/replace-fields/
 
 ## تحويل أنواع معينة من الحقول في أجزاء محددة من المستند
 
-بما أن طريقة **ConvertFieldsToStaticText** تقبل معلمتين - خصائص [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) وتعداد [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/)، فمن الممكن تمرير أي عقدة مركبة إلى هذه الطريقة. يسمح هذا بتحويل الحقول إلى نص ثابت فقط في أجزاء معينة من المستند.
+بما أن طريقة **ConvertFieldsToStaticText** تقبل معلمتين - خصائص [CompositeNode](https://reference.aspose.com/words/ar/net/aspose.words/compositenode/) وتعداد [FieldType](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldtype/)، فمن الممكن تمرير أي عقدة مركبة إلى هذه الطريقة. يسمح هذا بتحويل الحقول إلى نص ثابت فقط في أجزاء معينة من المستند.
 
-على سبيل المثال، يمكنك تمرير كائن [Document](https://reference.aspose.com/words/net/aspose.words/document/) وتحويل الحقول من النوع المحدد من المستند بأكمله إلى نص ثابت، أو يمكنك تمرير كائن [Body](https://reference.aspose.com/words/net/aspose.words/body/) لقسم ما وتحويل الحقول الموجودة في ذلك النص فقط.
+على سبيل المثال، يمكنك تمرير كائن [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) وتحويل الحقول من النوع المحدد من المستند بأكمله إلى نص ثابت، أو يمكنك تمرير كائن [Body](https://reference.aspose.com/words/ar/net/aspose.words/body/) لقسم ما وتحويل الحقول الموجودة في ذلك النص فقط.
 
 {{% alert color="primary" %}}
 
-عند تمرير عقدة على مستوى الكتلة مثل [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)، انتبه إلى أنه في بعض الحالات، يمكن أن تمتد الحقول عبر فقرات متعددة. إذا حدث ذلك فمن المستحسن تمرير أصل المركب بدلاً من ذلك لتجنب ذلك.
+عند تمرير عقدة على مستوى الكتلة مثل [Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/)، انتبه إلى أنه في بعض الحالات، يمكن أن تمتد الحقول عبر فقرات متعددة. إذا حدث ذلك فمن المستحسن تمرير أصل المركب بدلاً من ذلك لتجنب ذلك.
 
 {{% /alert %}}
 
-يحدد تعداد [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) الذي تم تمريره إلى طريقة **ConvertFieldsToStaticText** نوع الحقول التي يجب تحويلها إلى نص ثابت. سيبقى أي نوع حقل آخر موجود في المستند دون تغيير.
+يحدد تعداد [FieldType](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldtype/) الذي تم تمريره إلى طريقة **ConvertFieldsToStaticText** نوع الحقول التي يجب تحويلها إلى نص ثابت. سيبقى أي نوع حقل آخر موجود في المستند دون تغيير.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديد حقول من نوع معين - *targetFieldType* في عقدة معينة - *compositeNode* ثم تحويلها إلى نص ثابت:
 

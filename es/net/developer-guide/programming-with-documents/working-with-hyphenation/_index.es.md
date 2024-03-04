@@ -66,7 +66,7 @@ Puede descargar el archivo de plantilla de este ejemplo desde [Aspose.Words GitH
 
 {{% /alert %}}
 
-Como alternativa al registro previo de diccionarios de separación de palabras, es posible registrar sólo los diccionarios de separación de palabras necesarios "a petición". Para lograrlo, implemente la interfaz [IHyphenationCallback](https://reference.aspose.com/words/net/aspose.words/ihyphenationcallback/) y utilice la devolución de llamada estática [Callback](https://reference.aspose.com/words/net/aspose.words/hyphenation/callback/).
+Como alternativa al registro previo de diccionarios de separación de palabras, es posible registrar sólo los diccionarios de separación de palabras necesarios "a petición". Para lograrlo, implemente la interfaz [IHyphenationCallback](https://reference.aspose.com/words/es/net/aspose.words/ihyphenationcallback/) y utilice la devolución de llamada estática [Callback](https://reference.aspose.com/words/es/net/aspose.words/hyphenation/callback/).
 
 El siguiente ejemplo de código muestra cómo implementar la interfaz **IHyphenationCallback**:
 

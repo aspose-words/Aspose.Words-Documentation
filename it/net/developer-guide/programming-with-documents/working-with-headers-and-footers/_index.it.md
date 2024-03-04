@@ -13,7 +13,7 @@ Aspose.Words consente agli utenti di lavorare con intestazioni e piè di pagina 
 
 ## Crea intestazioni o piè di pagina utilizzando DocumentBuilder
 
-Se desideri aggiungere un'intestazione o un piè di pagina del documento a livello di codice, il modo più semplice è utilizzare la classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) per farlo.
+Se desideri aggiungere un'intestazione o un piè di pagina del documento a livello di codice, il modo più semplice è utilizzare la classe [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/) per farlo.
 
 L'esempio di codice seguente mostra come aggiungere un'intestazione e un piè di pagina per le pagine del documento:
 
@@ -21,7 +21,7 @@ L'esempio di codice seguente mostra come aggiungere un'intestazione e un piè di
 
 ## Specificare le opzioni di intestazione o piè di pagina
 
-Quando aggiungi un'intestazione o un piè di pagina a un documento, puoi impostare alcune proprietà avanzate. Aspose.Words fornisce agli utenti le classi [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) e [HeaderFooterCollection](https://reference.aspose.com/words/net/aspose.words/headerfootercollection/), nonché l'enumerazione [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfootertype/) che offre un maggiore controllo sul processo di personalizzazione di intestazione e piè di pagina.
+Quando aggiungi un'intestazione o un piè di pagina a un documento, puoi impostare alcune proprietà avanzate. Aspose.Words fornisce agli utenti le classi [HeaderFooter](https://reference.aspose.com/words/it/net/aspose.words/headerfooter/) e [HeaderFooterCollection](https://reference.aspose.com/words/it/net/aspose.words/headerfootercollection/), nonché l'enumerazione [HeaderFooterType](https://reference.aspose.com/words/it/net/aspose.words/headerfootertype/) che offre un maggiore controllo sul processo di personalizzazione di intestazione e piè di pagina.
 
 ### Specificare il tipo di intestazione o piè di pagina
 
@@ -36,7 +36,7 @@ L'esempio di codice seguente mostra come aggiungere un'intestazione per le pagin
 
 ### Specificare se visualizzare intestazioni o piè di pagina diversi per la prima pagina
 
-Come detto sopra, puoi anche impostare un'intestazione o un piè di pagina diversi per la prima pagina. Per fare ciò, è necessario impostare il flag [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) su `true` e quindi specificare il valore **HeaderFirst** o **FooterFirst**.
+Come detto sopra, puoi anche impostare un'intestazione o un piè di pagina diversi per la prima pagina. Per fare ciò, è necessario impostare il flag [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/it/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) su `true` e quindi specificare il valore **HeaderFirst** o **FooterFirst**.
 
 L'esempio di codice seguente mostra come impostare l'intestazione solo per la prima pagina:
 
@@ -44,13 +44,13 @@ L'esempio di codice seguente mostra come impostare l'intestazione solo per la pr
 
 ### Specificare se visualizzare intestazioni o piè di pagina diversi per le pagine pari o dispari
 
- Successivamente, dovrai impostare intestazioni o piè di pagina diversi per le pagine pari e dispari in un documento. Per fare ciò è necessario impostare il flag [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) su `true` e quindi specificare i valori **HeaderPrimary** e **HeaderEven**, oppure **FooterPrimary** e **FooterEven**.
+ Successivamente, dovrai impostare intestazioni o piè di pagina diversi per le pagine pari e dispari in un documento. Per fare ciò è necessario impostare il flag [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/it/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) su `true` e quindi specificare i valori **HeaderPrimary** e **HeaderEven**, oppure **FooterPrimary** e **FooterEven**.
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "odd-even-pages.cs" >}}
 
 ### Inserisci un'immagine con posizione assoluta nell'intestazione
 
-Per inserire un'immagine in un'intestazione o un piè di pagina, utilizzare il tipo di intestazione **HeaderPrimary** o il tipo di piè di pagina **FooterPrimary** e il metodo [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/).
+Per inserire un'immagine in un'intestazione o un piè di pagina, utilizzare il tipo di intestazione **HeaderPrimary** o il tipo di piè di pagina **FooterPrimary** e il metodo [InsertImage](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertimage/).
 
 L'esempio di codice seguente mostra come aggiungere un'immagine a un'intestazione:
 
@@ -66,7 +66,7 @@ L'esempio di codice seguente mostra come impostare il testo nell'intestazione su
 
 ### Inserisci i numeri di pagina nell'intestazione o nel piè di pagina
 
-Se necessario, puoi aggiungere numeri di pagina all'intestazione o al piè di pagina. A tale scopo, utilizzare il tipo di intestazione **HeaderPrimary** o il tipo di piè di pagina **FooterPrimary** e il metodo [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) per aggiungere il campo richiesto.
+Se necessario, puoi aggiungere numeri di pagina all'intestazione o al piè di pagina. A tale scopo, utilizzare il tipo di intestazione **HeaderPrimary** o il tipo di piè di pagina **FooterPrimary** e il metodo [InsertField](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertfield/) per aggiungere il campo richiesto.
 
 L'esempio di codice seguente mostra come aggiungere i numeri di pagina al piè di pagina a destra:
 

@@ -60,7 +60,7 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة المستندات
 
 ومن الجدير بالذكر أيضًا أن فصل جدولين متتاليين في المستند يتطلب فقرة فارغة واحدة على الأقل بعد الجدول. وبدون هذه الفقرة، سيتم ضم الجداول المتتالية معًا في جدول واحد. هذا السلوك متطابق في كل من Microsoft Word وAspose.Words.
 
-في Aspose.Words، يتم تضمين جميع الفئات والخصائص المتعلقة بالجداول في مساحة الاسم [Aspose.Words.Tables](https://reference.aspose.com/words/net/aspose.words.tables/).
+في Aspose.Words، يتم تضمين جميع الفئات والخصائص المتعلقة بالجداول في مساحة الاسم [Aspose.Words.Tables](https://reference.aspose.com/words/ar/net/aspose.words.tables/).
 
 ## أنظر أيضا
 

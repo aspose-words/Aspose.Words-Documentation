@@ -33,7 +33,7 @@ Aspose.Words 为您提供了一种按标题或部分将一个文档拆分为多�
 
 Aspose.Words 允许您根据各种标准将 EPUB 或 HTML 文档拆分为章节。在此过程中，为输出文档保留源文档的样式和布局。
 
-您可以使用 [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/documentsplitcriteria/) 枚举指定条件。因此，您可以使用以下条件之一将文档划分为多个章节，或将多个条件组合在一起：
+您可以使用 [DocumentSplitCriteria](https://reference.aspose.com/words/zh/net/aspose.words.saving/documentsplitcriteria/) 枚举指定条件。因此，您可以使用以下条件之一将文档划分为多个章节，或将多个条件组合在一起：
 
 - 标题段落，
 - 分节符，
@@ -44,7 +44,7 @@ Aspose.Words 允许您根据各种标准将 EPUB 或 HTML 文档拆分为章节�
 
 {{% alert color="primary" %}}
 
-保存为 MHTML 格式时，无法使用 [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) 属性分割文档。
+保存为 MHTML 格式时，无法使用 [DocumentSplitCriteria](https://reference.aspose.com/words/zh/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) 属性分割文档。
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Aspose.Words 允许您根据各种标准将 EPUB 或 HTML 文档拆分为章节�
 
 要按标题将文档拆分为章节，请使用 **DocumentSplitCriteria** 属性的 **HeadingParagraph** 值。
 
-如果您需要按特定级别的标题段落（例如标题 1、2 和 3）拆分文档，还可以使用 [DocumentSplitHeadingLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/) 属性。输出将按指定标题级别格式化的段落进行划分。
+如果您需要按特定级别的标题段落（例如标题 1、2 和 3）拆分文档，还可以使用 [DocumentSplitHeadingLevel](https://reference.aspose.com/words/zh/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/) 属性。输出将按指定标题级别格式化的段落进行划分。
 
 以下代码示例展示了如何通过标题将文档拆分为更小的部分：
 
@@ -78,9 +78,9 @@ Aspose.Words 还允许您使用分节符来分割文档并将其保存为 HTML�
 
 ## 按页面拆分 {#splitting-by-pages}
 
-您还可以逐页、按页面范围或从指定页码开始拆分文档。在这种情况下，[ExtractPages](https://reference.aspose.com/words/net/aspose.words/document/extractpages/) 方法可以完成这项工作。
+您还可以逐页、按页面范围或从指定页码开始拆分文档。在这种情况下，[ExtractPages](https://reference.aspose.com/words/zh/net/aspose.words/document/extractpages/) 方法可以完成这项工作。
 
-本节介绍使用 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 类和 **ExtractPages** 方法按页划分文档的几个用例。
+本节介绍使用 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 类和 **ExtractPages** 方法按页划分文档的几个用例。
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ Aspose.Words 允许按页面范围拆分多页文档。您可以将一个文件�
 
 ## 用于保存文档 {#callback-option-for-saving-a-document} 的回调选项
 
-您可以使用 [DocumentPartSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) 属性来控制将文档导出为 HTML 格式时 Aspose.Words 如何保存文档部分。此属性允许您重命名输出文件，甚至将它们重定向到自定义流。
+您可以使用 [DocumentPartSavingCallback](https://reference.aspose.com/words/zh/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) 属性来控制将文档导出为 HTML 格式时 Aspose.Words 如何保存文档部分。此属性允许您重命名输出文件，甚至将它们重定向到自定义流。
 
 请注意，保存到 EPUB 时此回调没有用，因为所有输出部分都必须保存到单个容器 - .epub 文件中。因此，不支持流重定向，并且由于文件在容器内重命名，因此重命名的效果不可见。
 

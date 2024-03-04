@@ -11,11 +11,11 @@ url: /es/net/working-with-shapes/
 
 Este tema analiza cómo trabajar mediante programación con formas usando Aspose.Words.
 
-Las formas en Aspose.Words representan un objeto en la capa de dibujo, como una autoforma, un cuadro de texto, una forma libre, un objeto OLE, un control ActiveX o una imagen. Un documento de Word puede contener una o más formas diferentes. Las formas en Aspose.Words están representadas por la clase [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/).
+Las formas en Aspose.Words representan un objeto en la capa de dibujo, como una autoforma, un cuadro de texto, una forma libre, un objeto OLE, un control ActiveX o una imagen. Un documento de Word puede contener una o más formas diferentes. Las formas en Aspose.Words están representadas por la clase [Shape](https://reference.aspose.com/words/es/net/aspose.words.drawing/shape/).
 
 ## Insertar formas usando el Generador de documentos
 
-Puede insertar una forma en línea con el tipo y tamaño especificados y una forma flotante con la posición, el tamaño y el tipo de ajuste de texto especificados en un documento utilizando el método [InsertShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertshape/). El método **InsertShape** permite insertar formas DML en el modelo del documento. El documento debe guardarse en un formato que admita formas DML; de lo contrario, dichos nodos se convertirán a formas VML mientras se guarda el documento.
+Puede insertar una forma en línea con el tipo y tamaño especificados y una forma flotante con la posición, el tamaño y el tipo de ajuste de texto especificados en un documento utilizando el método [InsertShape](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/insertshape/). El método **InsertShape** permite insertar formas DML en el modelo del documento. El documento debe guardarse en un formato que admita formas DML; de lo contrario, dichos nodos se convertirán a formas VML mientras se guarda el documento.
 
 El siguiente ejemplo de código muestra cómo insertar estos tipos de formas en el documento:
 
@@ -23,7 +23,7 @@ El siguiente ejemplo de código muestra cómo insertar estos tipos de formas en 
 
 ## Establecer relación de aspecto bloqueada
 
-Usando Aspose.Words, puede especificar si la relación de aspecto de la forma está bloqueada a través de la propiedad [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/).
+Usando Aspose.Words, puede especificar si la relación de aspecto de la forma está bloqueada a través de la propiedad [AspectRatioLocked](https://reference.aspose.com/words/es/net/aspose.words.drawing/shapebase/aspectratiolocked/).
 
 El siguiente ejemplo de código muestra cómo trabajar con la propiedad **AspectRatioLocked**:
 
@@ -31,7 +31,7 @@ El siguiente ejemplo de código muestra cómo trabajar con la propiedad **Aspect
 
 ## Establecer diseño de forma en celda
 
-También puede especificar si la forma se muestra dentro o fuera de una tabla usando la propiedad [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/).
+También puede especificar si la forma se muestra dentro o fuera de una tabla usando la propiedad [IsLayoutInCell](https://reference.aspose.com/words/es/net/aspose.words.drawing/shapebase/islayoutincell/).
 
 El siguiente ejemplo de código muestra cómo trabajar con la propiedad **IsLayoutInCell**:
 
@@ -49,7 +49,7 @@ El siguiente ejemplo de código muestra cómo insertar este tipo de formas en el
 
 ## Obtener puntos de límites de forma reales
 
-Usando Aspose.Words API, puede obtener la ubicación y el tamaño de la forma que contiene el bloque en puntos, en relación con el ancla de la forma superior. Para hacer esto, use la propiedad [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/boundsinpoints/).
+Usando Aspose.Words API, puede obtener la ubicación y el tamaño de la forma que contiene el bloque en puntos, en relación con el ancla de la forma superior. Para hacer esto, use la propiedad [BoundsInPoints](https://reference.aspose.com/words/es/net/aspose.words.drawing/shapebase/boundsinpoints/).
 
 El siguiente ejemplo de código muestra cómo trabajar con la propiedad **BoundsInPoints**:
 
@@ -57,7 +57,7 @@ El siguiente ejemplo de código muestra cómo trabajar con la propiedad **Bounds
 
 ## Especificar anclaje vertical
 
-Puede especificar la alineación vertical del texto dentro de una forma utilizando la propiedad [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/verticalanchor/).
+Puede especificar la alineación vertical del texto dentro de una forma utilizando la propiedad [VerticalAnchor](https://reference.aspose.com/words/es/net/aspose.words.drawing/textbox/verticalanchor/).
 
 El siguiente ejemplo de código muestra cómo trabajar con la propiedad **VerticalAnchor**:
 
@@ -65,7 +65,7 @@ El siguiente ejemplo de código muestra cómo trabajar con la propiedad **Vertic
 
 ## Detectar forma SmartArt
 
-Aspose.Words también permite detectar si la Forma tiene un objeto `SmartArt`. Para hacer esto, use la propiedad [HasSmartArt](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hassmartart/).
+Aspose.Words también permite detectar si la Forma tiene un objeto `SmartArt`. Para hacer esto, use la propiedad [HasSmartArt](https://reference.aspose.com/words/es/net/aspose.words.drawing/shape/hassmartart/).
 
 El siguiente ejemplo de código muestra cómo trabajar con la propiedad **HasSmartArt**:
 
@@ -73,13 +73,13 @@ El siguiente ejemplo de código muestra cómo trabajar con la propiedad **HasSma
 
 ## Insertar regla horizontal en el documento
 
-Puede insertar una forma de regla horizontal en un documento utilizando el método [InsertHorizontalRule](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthorizontalrule/).
+Puede insertar una forma de regla horizontal en un documento utilizando el método [InsertHorizontalRule](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/inserthorizontalrule/).
 
 El siguiente ejemplo de código muestra cómo hacer esto:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cs" >}}
 
-Aspose.Words API proporciona la propiedad [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shape/horizontalruleformat/) para acceder a las propiedades de la forma de regla horizontal. La clase [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/horizontalruleformat/) expone propiedades básicas como Altura, Color, NoShade, etc. para el formato de una regla horizontal.
+Aspose.Words API proporciona la propiedad [HorizontalRuleFormat](https://reference.aspose.com/words/es/net/aspose.words.drawing/shape/horizontalruleformat/) para acceder a las propiedades de la forma de regla horizontal. La clase [HorizontalRuleFormat](https://reference.aspose.com/words/es/net/aspose.words.drawing/horizontalruleformat/) expone propiedades básicas como Altura, Color, NoShade, etc. para el formato de una regla horizontal.
 
 El siguiente ejemplo de código muestra cómo configurar **HorizontalRuleFormat**:
 
@@ -87,7 +87,7 @@ El siguiente ejemplo de código muestra cómo configurar **HorizontalRuleFormat*
 
 ## Importar formas con XML matemático como formas en DOM
 
-Puede utilizar la propiedad [ConvertShapeToOfficeMath](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/convertshapetoofficemath/) para convertir las formas con EquationXML en objetos de Office Math. El valor predeterminado de esta propiedad corresponde al comportamiento de Microsoft Word, es decir, las formas con ecuación XML no se convierten en objetos matemáticos de Office.
+Puede utilizar la propiedad [ConvertShapeToOfficeMath](https://reference.aspose.com/words/es/net/aspose.words.loading/loadoptions/convertshapetoofficemath/) para convertir las formas con EquationXML en objetos de Office Math. El valor predeterminado de esta propiedad corresponde al comportamiento de Microsoft Word, es decir, las formas con ecuación XML no se convierten en objetos matemáticos de Office.
 
 El siguiente ejemplo de código muestra cómo convertir formas en objetos de Office Math:
 

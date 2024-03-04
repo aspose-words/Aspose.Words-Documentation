@@ -22,7 +22,7 @@ Esistono due modi principali per ottenere i caratteri TrueType su un sistema Lin
 
 ## Copia di caratteri da una macchina Windows
 
-Un modo semplice e veloce per ottenere i caratteri TrueType su un sistema Linux è copiare i file .TTF e .TTC dalla directory `C:\Windows\Fonts` su una macchina Windows in qualche directory sulla tua macchina Linux. Non è necessario installare o registrare questi font su Linux in alcun modo; devi solo specificare la posizione dei caratteri utilizzando la classe [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) in Aspose.Words.
+Un modo semplice e veloce per ottenere i caratteri TrueType su un sistema Linux è copiare i file .TTF e .TTC dalla directory `C:\Windows\Fonts` su una macchina Windows in qualche directory sulla tua macchina Linux. Non è necessario installare o registrare questi font su Linux in alcun modo; devi solo specificare la posizione dei caratteri utilizzando la classe [FontSettings](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontsettings/) in Aspose.Words.
 
 {{% alert color="primary" %}}
 

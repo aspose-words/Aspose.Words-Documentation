@@ -19,7 +19,7 @@ Le funzionalità di rendering di Aspose.Words consentono di eseguire quanto segu
 - Converti un documento in un documento TIFF multipagina o converti qualsiasi pagina in un'immagine raster e salvala come BMP, PNG o JPEG.
 - Converti una pagina di documento in un'immagine grafica vettoriale scalabile (SVG) oppure convertila in un'immagine vettoriale e salvala come EMF.
 - Visualizza (disegna) una pagina di documento con una dimensione o scala specifica sull'oggetto Grafica .NET per creare miniature, immagini a grandezza naturale o in scala delle pagine del documento.
-- Renderizza un oggetto [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) separatamente dal documento in qualsiasi formato immagine o in un oggetto grafico .NET.
+- Renderizza un oggetto [Shape](https://reference.aspose.com/words/it/net/aspose.words.drawing/shape/) separatamente dal documento in qualsiasi formato immagine o in un oggetto grafico .NET.
 - Visualizza qualsiasi pagina di un documento in un modulo Windows.
 - Stampa o visualizza in anteprima le pagine del documento utilizzando l'infrastruttura di stampa .NET standard.
 

@@ -13,16 +13,16 @@ Bazen bir tablodaki belirli satırlar, tablonun tüm genişliğini kaplayan bir 
 
 ## Tablo Hücreleri Nasıl Birleştirilir
 
-Aspose.Words'te birleştirilmiş hücreler, [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) sınıfının aşağıdaki özellikleriyle temsil edilir:
+Aspose.Words'te birleştirilmiş hücreler, [CellFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/) sınıfının aşağıdaki özellikleriyle temsil edilir:
 
-- Hücrenin yatay hücre birleşiminin parçası olup olmadığını açıklayan [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/)
-- Hücrenin dikey hücre birleşiminin parçası olup olmadığını açıklayan [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/)
+- Hücrenin yatay hücre birleşiminin parçası olup olmadığını açıklayan [HorizontalMerge](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/horizontalmerge/)
+- Hücrenin dikey hücre birleşiminin parçası olup olmadığını açıklayan [VerticalMerge](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/verticalmerge/)
 
 Bu özelliklerin değerleri hücrelerin birleştirme davranışını belirler:
 
-- Birleştirilmiş hücre dizisindeki ilk hücre [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)'e sahip olacaktır
-- Daha sonra birleştirilen tüm hücrelerde [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/) bulunur
-- Birleştirilmemiş bir hücrede [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/) bulunur
+- Birleştirilmiş hücre dizisindeki ilk hücre [CellMerge.First](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellmerge/)'e sahip olacaktır
+- Daha sonra birleştirilen tüm hücrelerde [CellMerge.Previous](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellmerge/) bulunur
+- Birleştirilmemiş bir hücrede [CellMerge.None](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellmerge/) bulunur
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ## DocumentBuilder'ı Kullanırken Tablo Hücrelerini Birleştir
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) ile oluşturulan bir tablodaki hücreleri birleştirmek için, birleştirmenin beklendiği her hücre için uygun birleştirme türünü (önce **CellMerge.First**, ardından **CellMerge.Previous**) ayarlamanız gerekir.
+[DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) ile oluşturulan bir tablodaki hücreleri birleştirmek için, birleştirmenin beklendiği her hücre için uygun birleştirme türünü (önce **CellMerge.First**, ardından **CellMerge.Previous**) ayarlamanız gerekir.
 
 Ayrıca, birleştirmenin gerekli olmadığı hücreler için birleştirme ayarını temizlemeyi de unutmamalısınız; bu, birleştirilmeyen ilk hücreyi **CellMerge.None** olarak ayarlayarak yapılabilir. Bu yapılmazsa tablodaki tüm hücreler birleştirilecektir.
 

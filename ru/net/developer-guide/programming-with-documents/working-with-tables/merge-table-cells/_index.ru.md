@@ -13,16 +13,16 @@ url: /ru/net/working-with-merged-cells/
 
 ## Как объединить ячейки таблицы
 
-В Aspose.Words объединенные ячейки представлены следующими свойствами класса [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/):
+В Aspose.Words объединенные ячейки представлены следующими свойствами класса [CellFormat](https://reference.aspose.com/words/ru/net/aspose.words.tables/cellformat/):
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/), который определяет, является ли ячейка частью горизонтального слияния ячеек
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/), который определяет, является ли ячейка частью вертикального слияния ячеек
+- [HorizontalMerge](https://reference.aspose.com/words/ru/net/aspose.words.tables/cellformat/horizontalmerge/), который определяет, является ли ячейка частью горизонтального слияния ячеек
+- [VerticalMerge](https://reference.aspose.com/words/ru/net/aspose.words.tables/cellformat/verticalmerge/), который определяет, является ли ячейка частью вертикального слияния ячеек
 
 Значения этих свойств определяют поведение слияния ячеек:
 
-- Первая ячейка в последовательности объединенных ячеек будет иметь номер [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Любые впоследствии объединенные ячейки будут иметь [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Ячейка, которая не объединена, будет иметь [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+- Первая ячейка в последовательности объединенных ячеек будет иметь номер [CellMerge.First](https://reference.aspose.com/words/ru/net/aspose.words.tables/cellmerge/)
+- Любые впоследствии объединенные ячейки будут иметь [CellMerge.Previous](https://reference.aspose.com/words/ru/net/aspose.words.tables/cellmerge/)
+- Ячейка, которая не объединена, будет иметь [CellMerge.None](https://reference.aspose.com/words/ru/net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ url: /ru/net/working-with-merged-cells/
 
 ## Объединение ячеек таблицы при использовании DocumentBuilder
 
-Чтобы объединить ячейки в таблице, созданной с помощью [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), вам необходимо установить соответствующий тип объединения для каждой ячейки, в которой ожидается объединение, — сначала **CellMerge.First**, а затем **CellMerge.Previous**.
+Чтобы объединить ячейки в таблице, созданной с помощью [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/), вам необходимо установить соответствующий тип объединения для каждой ячейки, в которой ожидается объединение, — сначала **CellMerge.First**, а затем **CellMerge.Previous**.
 
 Кроме того, вы должны не забыть очистить настройку слияния для тех ячеек, для которых слияние не требуется — это можно сделать, установив для первой ячейки без слияния значение **CellMerge.None**. Если этого не сделать, все ячейки в таблице будут объединены.
 

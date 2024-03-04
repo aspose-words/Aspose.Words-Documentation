@@ -26,13 +26,13 @@ Par exemple, en utilisant Aspose.Words API, vous pouvez ajouter un complément d
 
 Les extensions Web sont des outils qui étendent les capacités des applications Office et interagissent avec le contenu des documents Office. Les extensions Web fournissent des fonctionnalités supplémentaires aux clients Office pour améliorer l'expérience utilisateur.
 
-Aspose.Words offre la possibilité d'ajouter des extensions Web de type volet de tâches à l'aide des classes [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) et [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/), et vous permet également de personnaliser les propriétés du volet et de l'extension.
+Aspose.Words offre la possibilité d'ajouter des extensions Web de type volet de tâches à l'aide des classes [WebExtension](https://reference.aspose.com/words/fr/net/aspose.words.webextensions/webextension/) et [TaskPane](https://reference.aspose.com/words/fr/net/aspose.words.webextensions/taskpane/), et vous permet également de personnaliser les propriétés du volet et de l'extension.
 
 L'exemple de code suivant montre comment créer des volets de tâches et ajouter des volets de tâches d'extension Web avec des propriétés de base:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-Pour afficher une liste des compléments du volet Office, utilisez la propriété [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/).
+Pour afficher une liste des compléments du volet Office, utilisez la propriété [WebExtensionTaskPanes](https://reference.aspose.com/words/fr/net/aspose.words/document/webextensiontaskpanes/).
 
 L'exemple de code suivant montre comment obtenir une telle liste de compléments:
 

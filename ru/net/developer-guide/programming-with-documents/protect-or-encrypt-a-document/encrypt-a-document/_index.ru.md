@@ -19,7 +19,7 @@ url: /ru/net/encrypt-a-document/
 
 {{% alert color="primary" %}}
 
-Вы можете найти подходящее свойство **Password** для необходимого формата. Каждому формату сохранения документа в [Сохранение пространства имен](https://reference.aspose.com/words/net/aspose.words.saving/) соответствует класс, содержащий параметры сохранения для этого формата. Например, свойство [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) в классе [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) для DOC или свойство [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) в классе [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) для DOCX, DOCM, DOTX, DOTM и FlatOpc.
+Вы можете найти подходящее свойство **Password** для необходимого формата. Каждому формату сохранения документа в [Сохранение пространства имен](https://reference.aspose.com/words/ru/net/aspose.words.saving/) соответствует класс, содержащий параметры сохранения для этого формата. Например, свойство [Password](https://reference.aspose.com/words/ru/net/aspose.words.saving/docsaveoptions/password/) в классе [DocSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/docsaveoptions/) для DOC или свойство [Password](https://reference.aspose.com/words/ru/net/aspose.words.saving/ooxmlsaveoptions/password/) в классе [OoxmlSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/ooxmlsaveoptions/) для DOCX, DOCM, DOTX, DOTM и FlatOpc.
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ url: /ru/net/encrypt-a-document/
 
 В некоторых случаях у вас может быть нечитаемый документ, и вы хотите быть уверены, что документ зашифрован, а не поврежден или сжат.
 
-Чтобы определить, зашифрован ли документ и требуется ли пароль, вы можете использовать свойство [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) класса [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/). Это свойство также позволит вам выполнить некоторые действия перед загрузкой документа, например, сообщить пользователю о необходимости ввести пароль.
+Чтобы определить, зашифрован ли документ и требуется ли пароль, вы можете использовать свойство [IsEncrypted](https://reference.aspose.com/words/ru/net/aspose.words/fileformatinfo/isencrypted/) класса [FileFormatInfo](https://reference.aspose.com/words/ru/net/aspose.words/fileformatinfo/). Это свойство также позволит вам выполнить некоторые действия перед загрузкой документа, например, сообщить пользователю о необходимости ввести пароль.
 
 В следующем примере кода показано, как обнаружить шифрование документа:
 

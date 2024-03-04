@@ -60,7 +60,7 @@ L'immagine sopra mostra che il documento contiene una tabella composta da più r
 
 Vale anche la pena notare che per separare due tabelle consecutive in un documento è necessario almeno un paragrafo vuoto dopo la tabella. Senza tale paragrafo, le tabelle consecutive verrebbero unite in una sola. Questo comportamento è identico sia in Microsoft Word che in Aspose.Words.
 
-In Aspose.Words, tutte le classi e le proprietà relative alle tabelle sono contenute nello spazio dei nomi [Aspose.Words.Tables](https://reference.aspose.com/words/net/aspose.words.tables/).
+In Aspose.Words, tutte le classi e le proprietà relative alle tabelle sono contenute nello spazio dei nomi [Aspose.Words.Tables](https://reference.aspose.com/words/it/net/aspose.words.tables/).
 
 ## Guarda anche
 

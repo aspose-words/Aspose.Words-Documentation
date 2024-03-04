@@ -21,11 +21,11 @@ Bu makalede bir belgenin nasıl salt okunur hale getirileceği açıklanmaktadı
 
 ## Belgeyi Salt Okunur Hale Getirme
 
-Aspose.Words, bir belgenin yazma koruması ayarlarını belirten genel [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/) sınıfına sahiptir. Bu sınıfın örneklerini doğrudan oluşturmazsınız.
+Aspose.Words, bir belgenin yazma koruması ayarlarını belirten genel [WriteProtection](https://reference.aspose.com/words/tr/net/aspose.words.settings/writeprotection/) sınıfına sahiptir. Bu sınıfın örneklerini doğrudan oluşturmazsınız.
 
 Yazma koruması, yazarın bir belgeyi salt okunur olarak açmayı ve/veya belgeyi değiştirmek için parola gerektirmeyi önerip önermediğini gösterir.
 
-Aspose.Words, [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/) özelliğini ve [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/) yöntemini kullanarak düzenlemeyi kısıtlamak için bir belgeyi salt okunur hale getirmenize olanak tanır.
+Aspose.Words, [ReadOnlyRecommended](https://reference.aspose.com/words/tr/net/aspose.words.settings/writeprotection/readonlyrecommended/) özelliğini ve [SetPassword](https://reference.aspose.com/words/tr/net/aspose.words.settings/writeprotection/setpassword/) yöntemini kullanarak düzenlemeyi kısıtlamak için bir belgeyi salt okunur hale getirmenize olanak tanır.
 
 {{% alert color="primary" %}}
 
@@ -38,7 +38,7 @@ Microsoft Word'te, her ikisini de kullanarak benzer şekilde Salt Okunur bir bel
 
 {{% alert color="primary" %}}
 
-Kullanıcılar [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/)'i **ReadOnly** olarak seçerek belge düzenlemeyi de kısıtlayabilirler ancak bu, daha gelişmiş koruma özellikleri sağlayan başka bir özelliktir. Microsoft Word'de sırasıyla böyle bir işlev var, Aspose.Words'de uygulanıyor.
+Kullanıcılar [ProtectionType](https://reference.aspose.com/words/tr/net/aspose.words/protectiontype/)'i **ReadOnly** olarak seçerek belge düzenlemeyi de kısıtlayabilirler ancak bu, daha gelişmiş koruma özellikleri sağlayan başka bir özelliktir. Microsoft Word'de sırasıyla böyle bir işlev var, Aspose.Words'de uygulanıyor.
 
 **ProtectionType**, aşağıdaki makalelerden birinde ayrıntılı olarak açıklanacaktır: "Belge Düzenlemeyi Kısıtla".
 
@@ -52,7 +52,7 @@ Ayarlanmakta olan parolanın yalnızca belgedeki bir özellik olduğunu ve belge
 
 {{% /alert %}}
 
-Bir belgenin düzenlenmesini kısıtlayan bir yazma koruması parolası olup olmadığını kontrol etmeniz gerekiyorsa [IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/) özelliğini kullanabilirsiniz.
+Bir belgenin düzenlenmesini kısıtlayan bir yazma koruması parolası olup olmadığını kontrol etmeniz gerekiyorsa [IsWriteProtected](https://reference.aspose.com/words/tr/net/aspose.words.settings/writeprotection/iswriteprotected/) özelliğini kullanabilirsiniz.
 
 Aşağıdaki kod örneği, bir belgenin nasıl salt okunur hale getirileceğini gösterir:
 

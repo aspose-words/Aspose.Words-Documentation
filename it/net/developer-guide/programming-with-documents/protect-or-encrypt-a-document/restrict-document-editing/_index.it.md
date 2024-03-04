@@ -17,7 +17,7 @@ Questo articolo spiega come utilizzare Aspose.Words per selezionare un tipo di r
 
 ## Seleziona Tipo di restrizione di modifica
 
-Aspose.Words ti consente di controllare il modo in cui limiti il contenuto utilizzando il parametro di enumerazione [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/). Ciò ti consentirà di selezionare un tipo esatto di protezione come il seguente:
+Aspose.Words ti consente di controllare il modo in cui limiti il contenuto utilizzando il parametro di enumerazione [ProtectionType](https://reference.aspose.com/words/it/net/aspose.words/protectiontype/). Ciò ti consentirà di selezionare un tipo esatto di protezione come il seguente:
 
 * Consenti solo commenti
 * ConsentiSoloCampiForma
@@ -31,7 +31,7 @@ Se non hai impostato una password quando scegli il tipo di sicurezza, gli altri 
 
 {{% alert color="primary" %}}
 
-Tieni presente che la password impostata è semplicemente una proprietà in un documento che può essere rimossa se si accede alle proprietà del documento. Di conseguenza, tale password non è una garanzia della sicurezza del documento. Il metodo [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/) mostra proprio questo.
+Tieni presente che la password impostata è semplicemente una proprietà in un documento che può essere rimossa se si accede alle proprietà del documento. Di conseguenza, tale password non è una garanzia della sicurezza del documento. Il metodo [Unprotect](https://reference.aspose.com/words/it/net/aspose.words/document/unprotect/#unprotect/) mostra proprio questo.
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ Tieni presente che la password impostata è semplicemente una proprietà in un d
 
 Aggiungere protezione al tuo documento è un processo semplice, poiché tutto ciò che devi fare è applicare uno dei metodi di protezione descritti in questa sezione.
 
-Aspose.Words ti consente di proteggere i tuoi documenti dalle modifiche utilizzando il metodo [Protect](https://reference.aspose.com/words/net/aspose.words/document/protect/#protect/). Questo metodo non è una funzionalità di sicurezza e non crittografa un documento.
+Aspose.Words ti consente di proteggere i tuoi documenti dalle modifiche utilizzando il metodo [Protect](https://reference.aspose.com/words/it/net/aspose.words/document/protect/#protect/). Questo metodo non è una funzionalità di sicurezza e non crittografa un documento.
 
 {{% alert color="primary" %}}
 
@@ -60,7 +60,7 @@ Il seguente esempio di codice mostra come limitare la modifica in un documento i
 
 ## Rimuovi la protezione del documento
 
-Aspose.Words ti consente di rimuovere la protezione da un documento con una modifica semplice e diretta del documento. Puoi rimuovere la protezione del documento senza conoscere la password effettiva oppure fornire la password corretta per sbloccare il documento utilizzando il metodo [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/). Entrambi i modi di rimozione non hanno alcuna differenza.
+Aspose.Words ti consente di rimuovere la protezione da un documento con una modifica semplice e diretta del documento. Puoi rimuovere la protezione del documento senza conoscere la password effettiva oppure fornire la password corretta per sbloccare il documento utilizzando il metodo [Unprotect](https://reference.aspose.com/words/it/net/aspose.words/document/unprotect/#unprotect/). Entrambi i modi di rimozione non hanno alcuna differenza.
 
 Il seguente esempio di codice mostra come rimuovere la protezione dal documento:
 
@@ -70,7 +70,7 @@ Il seguente esempio di codice mostra come rimuovere la protezione dal documento:
 
 Puoi limitare la modifica del tuo documento e allo stesso tempo consentire modifiche a parti selezionate di esso. Pertanto, chiunque apra il tuo documento potrà accedere a queste parti senza restrizioni e apportare modifiche al contenuto.
 
-Aspose.Words ti consente di contrassegnare le parti che possono essere modificate nel tuo documento utilizzando i metodi [StartEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/) e [EndEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/).
+Aspose.Words ti consente di contrassegnare le parti che possono essere modificate nel tuo documento utilizzando i metodi [StartEditableRange](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/starteditablerange/) e [EndEditableRange](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/).
 
 Il seguente esempio di codice mostra come contrassegnare l'intero documento come di sola lettura e specificarne le aree modificabili:
 

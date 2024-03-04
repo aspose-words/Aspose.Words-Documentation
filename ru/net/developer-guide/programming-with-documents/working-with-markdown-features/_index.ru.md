@@ -106,7 +106,7 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 ## Укажите Markdown параметров сохранения
 
-Aspose.Words API предоставляет класс [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) для указания дополнительных параметров при сохранении документа в формате Markdown.
+Aspose.Words API предоставляет класс [MarkdownSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/markdownsaveoptions/) для указания дополнительных параметров при сохранении документа в формате Markdown.
 
 В следующем примере кода показано, как указать различные параметры сохранения Markdown.
 
@@ -114,6 +114,6 @@ Aspose.Words API предоставляет класс [MarkdownSaveOptions](htt
 
 ## Как выровнять содержимое внутри таблицы при экспорте в Markdown
 
-Aspose.Words API предоставляет перечисление [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/), которое определяет направления выравнивания для выравнивания содержимого таблиц при экспорте в документ Markdown. В следующем примере кода показано, как выровнять содержимое внутри таблицы.
+Aspose.Words API предоставляет перечисление [TableContentAlignment](https://reference.aspose.com/words/ru/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/), которое определяет направления выравнивания для выравнивания содержимого таблиц при экспорте в документ Markdown. В следующем примере кода показано, как выровнять содержимое внутри таблицы.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

@@ -21,11 +21,11 @@ In diesem Artikel wird erläutert, wie Sie ein Dokument schreibgeschützt machen
 
 ## Machen Sie ein Dokument schreibgeschützt
 
-Aspose.Words verfügt über die öffentliche Klasse [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/), die Schreibschutzeinstellungen für ein Dokument angibt. Sie erstellen keine Instanzen dieser Klasse direkt.
+Aspose.Words verfügt über die öffentliche Klasse [WriteProtection](https://reference.aspose.com/words/de/net/aspose.words.settings/writeprotection/), die Schreibschutzeinstellungen für ein Dokument angibt. Sie erstellen keine Instanzen dieser Klasse direkt.
 
 Der Schreibschutz zeigt an, ob der Autor empfohlen hat, ein Dokument schreibgeschützt zu öffnen und/oder ein Passwort zum Ändern des Dokuments zu verlangen.
 
-Mit Aspose.Words können Sie ein Dokument schreibgeschützt machen, um die Bearbeitung einzuschränken, indem Sie die [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/)-Eigenschaft und die [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/)-Methode verwenden.
+Mit Aspose.Words können Sie ein Dokument schreibgeschützt machen, um die Bearbeitung einzuschränken, indem Sie die [ReadOnlyRecommended](https://reference.aspose.com/words/de/net/aspose.words.settings/writeprotection/readonlyrecommended/)-Eigenschaft und die [SetPassword](https://reference.aspose.com/words/de/net/aspose.words.settings/writeprotection/setpassword/)-Methode verwenden.
 
 {{% alert color="primary" %}}
 
@@ -38,7 +38,7 @@ In Microsoft Word können Sie auf ähnliche Weise ein schreibgeschütztes Dokume
 
 {{% alert color="primary" %}}
 
-Benutzer können die Dokumentbearbeitung auch einschränken, indem sie [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/) als **ReadOnly** auswählen. Dies ist jedoch eine weitere Funktion, die erweiterte Schutzfunktionen bietet. Eine solche Funktion gibt es in Microsoft Word bzw. sie ist in Aspose.Words implementiert.
+Benutzer können die Dokumentbearbeitung auch einschränken, indem sie [ProtectionType](https://reference.aspose.com/words/de/net/aspose.words/protectiontype/) als **ReadOnly** auswählen. Dies ist jedoch eine weitere Funktion, die erweiterte Schutzfunktionen bietet. Eine solche Funktion gibt es in Microsoft Word bzw. sie ist in Aspose.Words implementiert.
 
 **ProtectionType** wird in einem der folgenden Artikel ausführlich beschrieben – "Dokumentbearbeitung einschränken".
 
@@ -52,7 +52,7 @@ Beachten Sie, dass das festgelegte Passwort lediglich eine Eigenschaft in einem 
 
 {{% /alert %}}
 
-Wenn Sie überprüfen müssen, ob ein Dokument über ein Schreibschutzkennwort verfügt, das die Bearbeitung verhindert, können Sie die [IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/)-Eigenschaft verwenden.
+Wenn Sie überprüfen müssen, ob ein Dokument über ein Schreibschutzkennwort verfügt, das die Bearbeitung verhindert, können Sie die [IsWriteProtected](https://reference.aspose.com/words/de/net/aspose.words.settings/writeprotection/iswriteprotected/)-Eigenschaft verwenden.
 
 Das folgende Codebeispiel zeigt, wie man ein Dokument schreibgeschützt macht:
 

@@ -9,11 +9,11 @@ weight: 50
 url: /zh/net/working-with-hyperlinks/
 ---
 
-Microsoft Word 文档中的超链接是 `HYPERLINK` 字段。在 Aspose.Words 中，超链接是通过 [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) 类实现的。
+Microsoft Word 文档中的超链接是 `HYPERLINK` 字段。在 Aspose.Words 中，超链接是通过 [FieldHyperlink](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldhyperlink/) 类实现的。
 
 ## 插入超链接
 
-使用 [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/) 方法将超链接插入到文档中。该方法接受三个参数：
+使用 [InsertHyperlink](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/inserthyperlink/) 方法将超链接插入到文档中。该方法接受三个参数：
 
 1. 文档中显示的链接文本
 2. 链接目的地（文档内的 URL 或书签名称）
@@ -27,7 +27,7 @@ Microsoft Word 文档中的超链接是 `HYPERLINK` 字段。在 Aspose.Words �
 
 {{% /alert %}}
 
-以下代码示例演示如何使用 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 将超链接插入到文档中：
+以下代码示例演示如何使用 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 将超链接插入到文档中：
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

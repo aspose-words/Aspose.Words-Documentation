@@ -9,11 +9,11 @@ weight: 50
 url: /it/net/working-with-hyperlinks/
 ---
 
-Un collegamento ipertestuale nei documenti Microsoft Word è il campo `HYPERLINK`. In Aspose.Words, i collegamenti ipertestuali vengono implementati tramite la classe [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).
+Un collegamento ipertestuale nei documenti Microsoft Word è il campo `HYPERLINK`. In Aspose.Words, i collegamenti ipertestuali vengono implementati tramite la classe [FieldHyperlink](https://reference.aspose.com/words/it/net/aspose.words.fields/fieldhyperlink/).
 
 ## Inserisci un collegamento ipertestuale
 
-Utilizzare il metodo [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/) per inserire un collegamento ipertestuale nel documento. Questo metodo accetta tre parametri:
+Utilizzare il metodo [InsertHyperlink](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/inserthyperlink/) per inserire un collegamento ipertestuale nel documento. Questo metodo accetta tre parametri:
 
 1. Testo del collegamento da visualizzare nel documento
 2. Destinazione del collegamento (URL o nome di un segnalibro all'interno del documento)
@@ -27,7 +27,7 @@ Tieni presente che devi specificare la formattazione del carattere per il testo 
 
 {{% /alert %}}
 
-L'esempio di codice seguente mostra come inserire un collegamento ipertestuale in un documento utilizzando [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/):
+L'esempio di codice seguente mostra come inserire un collegamento ipertestuale in un documento utilizzando [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

@@ -22,13 +22,13 @@ Quando un documento viene caricato, Aspose.Words imita il comportamento di Micro
 
 ### Aggiorna i campi a livello di codice
 
-Per aggiornare in modo esplicito i campi nell'intero documento, chiama semplicemente il metodo [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/). Per aggiornare i campi contenuti in una parte di un documento, ottenere un oggetto [Range](https://reference.aspose.com/words/net/aspose.words/range/) e chiamare il metodo [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/updatefields/). In Aspose.Words, puoi ottenere un **Range** per qualsiasi nodo nell'albero del documento, come [Section](https://reference.aspose.com/words/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), ecc. utilizzando la proprietà [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/). È possibile aggiornare il risultato di un singolo campo chiamando il metodo [Update](https://reference.aspose.com/words/net/aspose.words.fields/field/update/).
+Per aggiornare in modo esplicito i campi nell'intero documento, chiama semplicemente il metodo [UpdateFields](https://reference.aspose.com/words/it/net/aspose.words/document/updatefields/). Per aggiornare i campi contenuti in una parte di un documento, ottenere un oggetto [Range](https://reference.aspose.com/words/it/net/aspose.words/range/) e chiamare il metodo [UpdateFields](https://reference.aspose.com/words/it/net/aspose.words/range/updatefields/). In Aspose.Words, puoi ottenere un **Range** per qualsiasi nodo nell'albero del documento, come [Section](https://reference.aspose.com/words/it/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/it/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/it/net/aspose.words/paragraph/), ecc. utilizzando la proprietà [Node.Range](https://reference.aspose.com/words/it/net/aspose.words/node/range/). È possibile aggiornare il risultato di un singolo campo chiamando il metodo [Update](https://reference.aspose.com/words/it/net/aspose.words.fields/field/update/).
 
 ### Aggiornamento automatico dei campi relativi alla pagina durante il rendering
 
 Quando esegui la conversione di un documento in un formato a pagina fissa, ad esempio in PDF o XPS, Aspose.Words aggiornerà automaticamente i campi relativi al layout di pagina `PAGE`, `PAGEREF` trovati nelle intestazioni/piè di pagina del documento. Questo comportamento imita il comportamento di Microsoft Word durante la stampa di un documento.
 
-Se desideri aggiornare tutti gli altri campi nel documento, devi chiamare [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) prima di eseguire il rendering del documento.
+Se desideri aggiornare tutti gli altri campi nel documento, devi chiamare [UpdateFields](https://reference.aspose.com/words/it/net/aspose.words/document/updatefields/) prima di eseguire il rendering del documento.
 
 Il seguente esempio di codice mostra come aggiornare tutti i campi prima di eseguire il rendering di un documento:
 
@@ -46,7 +46,7 @@ Quando esegui un mail merge, tutti i campi del documento verranno aggiornati aut
 
 ## Aggiorna i campi con attributo sporco
 
-w:dirty è un attributo a livello di campo che aggiornerà solo il campo specificato all'apertura del documento. Indica a MS Word di aggiornare questo campo solo la prossima volta che il documento viene aperto. È possibile utilizzare la proprietà [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) per specificare se aggiornare i campi con l'attributo dirty. Quando il valore di **UpdateDirtyFields** è impostato su *true*, tutti i campi con valore *true* per la proprietà [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) o [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) vengono aggiornati al caricamento del documento.
+w:dirty è un attributo a livello di campo che aggiornerà solo il campo specificato all'apertura del documento. Indica a MS Word di aggiornare questo campo solo la prossima volta che il documento viene aperto. È possibile utilizzare la proprietà [UpdateDirtyFields](https://reference.aspose.com/words/it/net/aspose.words.loading/loadoptions/updatedirtyfields/) per specificare se aggiornare i campi con l'attributo dirty. Quando il valore di **UpdateDirtyFields** è impostato su *true*, tutti i campi con valore *true* per la proprietà [Field.IsDirty](https://reference.aspose.com/words/it/net/aspose.words.fields/field/isdirty/) o [FieldChar.IsDirty](https://reference.aspose.com/words/it/net/aspose.words.fields/fieldchar/isdirty/) vengono aggiornati al caricamento del documento.
 
 Il seguente esempio di codice mostra come aggiornare i campi con l'attributo dirty:
 
@@ -54,7 +54,7 @@ Il seguente esempio di codice mostra come aggiornare i campi con l'attributo dir
 
 ## Aggiorna la proprietà LastSavedTime prima di salvare
 
-È possibile utilizzare la proprietà [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) per aggiornare la proprietà del documento incorporata corrispondente [LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) durante il salvataggio del documento.
+È possibile utilizzare la proprietà [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/it/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) per aggiornare la proprietà del documento incorporata corrispondente [LastSavedTime](https://reference.aspose.com/words/it/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) durante il salvataggio del documento.
 
 L'esempio di codice seguente mostra come aggiornare questa proprietà:
 

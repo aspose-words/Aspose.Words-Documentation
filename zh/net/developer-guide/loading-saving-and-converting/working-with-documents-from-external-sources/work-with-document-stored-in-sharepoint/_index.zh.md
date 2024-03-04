@@ -267,4 +267,4 @@ namespace SPOnlineExample
 
 - 文章 [渲染](/words/zh/net/rendering/) 了解有关固定页面和流程布局格式的更多信息
 - 有关页面布局的更多信息，请参阅 [转换为固定页面格式](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) 文章
-- 有关使用 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 类的更多信息，请参阅 [转换为 PDF 时指定渲染选项](/words/zh/net/specify-rendering-options-when-converting-to-pdf/) 文章
+- 有关使用 [PdfSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/) 类的更多信息，请参阅 [转换为 PDF 时指定渲染选项](/words/zh/net/specify-rendering-options-when-converting-to-pdf/) 文章

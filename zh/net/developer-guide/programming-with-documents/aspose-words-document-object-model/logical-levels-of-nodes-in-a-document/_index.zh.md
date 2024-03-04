@@ -17,19 +17,19 @@ url: /zh/net/logical-levels-of-nodes-in-a-document/
 
 ## 文档和部分逻辑级别
 
-Word 文档由一个或多个部分组成，由 [Section](https://reference.aspose.com/words/net/aspose.words/section/) 类表示并由分节符分隔。节可以定义自己的页面大小、边距、方向、文本列数以及页眉和页脚。
+Word 文档由一个或多个部分组成，由 [Section](https://reference.aspose.com/words/zh/net/aspose.words/section/) 类表示并由分节符分隔。节可以定义自己的页面大小、边距、方向、文本列数以及页眉和页脚。
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/) 和 [Section](https://reference.aspose.com/words/net/aspose.words/section/) 级别节点的结构如下图所示。
+[Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 和 [Section](https://reference.aspose.com/words/zh/net/aspose.words/section/) 级别节点的结构如下图所示。
 
 <img src="/words/net/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="文档和节级 aspose-words" style="width:700px"/>
 
 节包含正文以及第一页、偶数页和奇数页的页眉和页脚。这些不同的文本"流"称为 *stories*。
 
-在 Aspose.Words 中，**Section** 节点包含 [Body](https://reference.aspose.com/words/net/aspose.words/body/) 和 [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) 故事节点。 **Body** 对象存储主要文本。 **HeaderFooter** 对象存储每个页眉和页脚的文本。任何故事的文本都由段落和表格组成，分别由块级的 **Paragraph** 和 **Table** 对象表示。
+在 Aspose.Words 中，**Section** 节点包含 [Body](https://reference.aspose.com/words/zh/net/aspose.words/body/) 和 [HeaderFooter](https://reference.aspose.com/words/zh/net/aspose.words/headerfooter/) 故事节点。 **Body** 对象存储主要文本。 **HeaderFooter** 对象存储每个页眉和页脚的文本。任何故事的文本都由段落和表格组成，分别由块级的 **Paragraph** 和 **Table** 对象表示。
 
-此外，每个Word文档可以包含一个术语表，由Aspose.Words中的[GlossaryDocument](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/)节点表示。词汇表文档包含 [BuildingBlocks](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/)、[AutoText](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) 和 [AutoCorrect](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) 条目。
+此外，每个Word文档可以包含一个术语表，由Aspose.Words中的[GlossaryDocument](https://reference.aspose.com/words/zh/net/aspose.words.buildingblocks/glossarydocument/)节点表示。词汇表文档包含 [BuildingBlocks](https://reference.aspose.com/words/zh/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/)、[AutoText](https://reference.aspose.com/words/zh/net/aspose.words.buildingblocks/buildingblocktype/) 和 [AutoCorrect](https://reference.aspose.com/words/zh/net/aspose.words.buildingblocks/buildingblocktype/) 条目。
 
-**GlossaryDocument** 包括代表不同类型的术语表文档条目的 [BuildingBlock](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblock/) 节点。每个 **BuildingBlock** 都包含可以插入、删除和复制到文档中的部分。
+**GlossaryDocument** 包括代表不同类型的术语表文档条目的 [BuildingBlock](https://reference.aspose.com/words/zh/net/aspose.words.buildingblocks/buildingblock/) 节点。每个 **BuildingBlock** 都包含可以插入、删除和复制到文档中的部分。
 
 ## 块逻辑层
 
@@ -47,9 +47,9 @@ Word 文档由一个或多个部分组成，由 [Section](https://reference.aspo
 
 块级节点由以下类表示：
 
-- [Tables](https://reference.aspose.com/words/net/aspose.words.tables/table/)和[Paragraphs](https://reference.aspose.com/words/net/aspose.words/paragraph/)，这是最重要的区块级节点
+- [Tables](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)和[Paragraphs](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/)，这是最重要的区块级节点
 - 书签，出现在块级和内联级
-- [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/)，代表自定义标记，可以包含内容和内容控件
+- [StructuredDocumentTag](https://reference.aspose.com/words/zh/net/aspose.words.markup/structureddocumenttag/)，代表自定义标记，可以包含内容和内容控件
 
 下图显示了块级元素。
 
@@ -60,17 +60,17 @@ Word 文档由一个或多个部分组成，由 [Section](https://reference.aspo
 内联级节点表示文档的实际内容，可以包含在以下容器中：
 
 - 段落--最常见的容器
-- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)
+- [SmartTag](https://reference.aspose.com/words/zh/net/aspose.words.markup/smarttag/)
 - 结构化文档标签
 
 内联级元素由以下类表示：
 
-- [Run](https://reference.aspose.com/words/net/aspose.words/run/) – 不同格式的文本运行
-- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/)和[BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/)代表书签
-- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/)、[CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)、[Comment](https://reference.aspose.com/words/net/aspose.words/comment/) 和 [Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote/) 表示注释
-- [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/)、[FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/)、[FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) 和 [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) 表示字段字符，[FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) 表示 Word 字段
-- [SpecialChar](https://reference.aspose.com/words/net/aspose.words/specialchar/) 表示文档中的特殊字符
-- [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) 和 [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) 表示形状、图画、图像等。
+- [Run](https://reference.aspose.com/words/zh/net/aspose.words/run/) – 不同格式的文本运行
+- [BookmarkStart](https://reference.aspose.com/words/zh/net/aspose.words/bookmarkstart/)和[BookmarkEnd](https://reference.aspose.com/words/zh/net/aspose.words/bookmarkend/)代表书签
+- [CommentRangeStart](https://reference.aspose.com/words/zh/net/aspose.words/commentrangestart/)、[CommentRangeEnd](https://reference.aspose.com/words/zh/net/aspose.words/commentrangeend/)、[Comment](https://reference.aspose.com/words/zh/net/aspose.words/comment/) 和 [Footnote](https://reference.aspose.com/words/zh/net/aspose.words.notes/footnote/) 表示注释
+- [FieldStart](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldstart/)、[FieldChar](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldchar/)、[FieldSeparator](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldseparator/) 和 [FieldEnd](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldend/) 表示字段字符，[FormField](https://reference.aspose.com/words/zh/net/aspose.words.fields/formfield/) 表示 Word 字段
+- [SpecialChar](https://reference.aspose.com/words/zh/net/aspose.words/specialchar/) 表示文档中的特殊字符
+- [Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/) 和 [GroupShape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/groupshape/) 表示形状、图画、图像等。
 - SmartTag 和 StructuredDocumentTag 代表自定义标记
 
 下图显示了内联级节点结构。
@@ -95,8 +95,8 @@ Microsoft Word 中的形状包括 Office Art 自选图形、文本框、图像�
 
 该表由行和单元格的节点组成。表元素由以下类表示：
 
-- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 代表表格行
-- [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 代表表格单元格
+- [Row](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/) 代表表格行
+- [Cell](https://reference.aspose.com/words/zh/net/aspose.words.tables/cell/) 代表表格单元格
 - StructuredDocumentTag 代表自定义标记
 
 下图展示了Table、Row、Cell级别的节点结构。

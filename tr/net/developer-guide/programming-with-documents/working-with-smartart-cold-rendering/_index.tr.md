@@ -20,7 +20,7 @@ Aspose.Words, önceden oluşturulmuş bir çizimi kullanmanıza veya soğuk işl
 
 * Önceden oluşturulmuş bir çizim mevcutsa Aspose.Words, `SmartArt` nesnesini oluşturmak için bunu kullanır.
 * Önceden oluşturulmuş çizim eksikse Aspose.Words, `SmartArt` nesnesini oluşturmak için dolaylı olarak soğuk işleme gerçekleştirir.
-* Önceden oluşturulmuş bir çizim mevcut ancak hatalıysa, [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/) yöntemini çağırarak SmartArt soğuk işlemenin açıkça gerçekleştirilmesi gerekir.
+* Önceden oluşturulmuş bir çizim mevcut ancak hatalıysa, [UpdateSmartArtDrawing](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/updatesmartartdrawing/) yöntemini çağırarak SmartArt soğuk işlemenin açıkça gerçekleştirilmesi gerekir.
 
 Aşağıdaki kod örneği, belgedeki tüm diyagramlar için çizimlerin nasıl güncelleştirileceğini gösterir:
 

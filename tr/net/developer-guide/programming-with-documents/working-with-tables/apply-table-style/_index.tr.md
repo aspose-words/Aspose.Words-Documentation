@@ -19,7 +19,7 @@ Aspose.Words, bir tabloya tablo stili uygulamayı ve ayrıca herhangi bir tablo 
 
 ## Tablo Stili Oluşturun
 
-Kullanıcı yeni bir stil oluşturabilir ve onu stil koleksiyonuna ekleyebilir. [Add](https://reference.aspose.com/words/net/aspose.words/stylecollection/add/) yöntemi yeni bir tablo stili oluşturmak için kullanılır.
+Kullanıcı yeni bir stil oluşturabilir ve onu stil koleksiyonuna ekleyebilir. [Add](https://reference.aspose.com/words/tr/net/aspose.words/stylecollection/add/) yöntemi yeni bir tablo stili oluşturmak için kullanılır.
 
 Aşağıdaki kod örneği, yeni bir kullanıcı tanımlı tablo stilinin nasıl oluşturulacağını gösterir:
 
@@ -37,11 +37,11 @@ Aşağıdaki kod örneği, bir stilin bir belgeden başka bir belgeye nasıl akt
 
 ## Mevcut Bir Tablo Stilini Uygula
 
-Aspose.Words, [Style](https://reference.aspose.com/words/net/aspose.words/style/) sınıfından miras alınan bir [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) sağlar. **TableStyle**, kullanıcının gölgeleme, dolgu, girinti, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) ve [Font](https://reference.aspose.com/words/net/aspose.words/style/font/) vb. gibi farklı stil seçeneklerini uygulamasını kolaylaştırır.
+Aspose.Words, [Style](https://reference.aspose.com/words/tr/net/aspose.words/style/) sınıfından miras alınan bir [TableStyle](https://reference.aspose.com/words/tr/net/aspose.words/tablestyle/) sağlar. **TableStyle**, kullanıcının gölgeleme, dolgu, girinti, [CellSpacing](https://reference.aspose.com/words/tr/net/aspose.words/tablestyle/cellspacing/) ve [Font](https://reference.aspose.com/words/tr/net/aspose.words/style/font/) vb. gibi farklı stil seçeneklerini uygulamasını kolaylaştırır.
 
-Ayrıca Aspose.Words, hangi tablo stiliyle çalışacağımızı belirtmek için [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) sınıfını ve `Table` sınıfının birkaç özelliğini sağlar: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/) ve [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
+Ayrıca Aspose.Words, hangi tablo stiliyle çalışacağımızı belirtmek için [StyleCollection](https://reference.aspose.com/words/tr/net/aspose.words/stylecollection/) sınıfını ve `Table` sınıfının birkaç özelliğini sağlar: [Style](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/stylename/) ve [StyleOptions](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/styleoptions/).
 
-Aspose.Words ayrıca, atanmış bir tablo stiliyle bir tablonun bazı alanlarına uygulanan özel formatlamayı temsil eden [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/) sınıfını ve **ConditionalStyle** nesnelerinin bir koleksiyonunu temsil eden [ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/)'i de sağlar. Bu koleksiyon, [ConditionalStyleType](https://reference.aspose.com/words/net/aspose.words/conditionalstyletype/) numaralandırma türünün her değeri için bir öğeyi temsil eden kalıcı bir öğe kümesi içerir. **ConditionalStyleType** numaralandırması, koşullu biçimlendirmenin bir tablo stilinde tanımlanabileceği tüm olası tablo alanlarını tanımlar.
+Aspose.Words ayrıca, atanmış bir tablo stiliyle bir tablonun bazı alanlarına uygulanan özel formatlamayı temsil eden [ConditionalStyle](https://reference.aspose.com/words/tr/net/aspose.words/conditionalstyle/) sınıfını ve **ConditionalStyle** nesnelerinin bir koleksiyonunu temsil eden [ConditionalStyleCollection](https://reference.aspose.com/words/tr/net/aspose.words/conditionalstylecollection/)'i de sağlar. Bu koleksiyon, [ConditionalStyleType](https://reference.aspose.com/words/tr/net/aspose.words/conditionalstyletype/) numaralandırma türünün her değeri için bir öğeyi temsil eden kalıcı bir öğe kümesi içerir. **ConditionalStyleType** numaralandırması, koşullu biçimlendirmenin bir tablo stilinde tanımlanabileceği tüm olası tablo alanlarını tanımlar.
 
 Bu durumda, ConditionalStyleType numaralandırma türü altında tanımlanan tüm olası tablo alanları için koşullu biçimlendirme tanımlanabilir.
 
@@ -49,7 +49,7 @@ Aşağıdaki kod örneği, tablonun başlık satırı için koşullu biçimlendi
 
 {{< gist "aspose-words-gists" "93b92a7e6f2f4bbfd9177dd7fcecbd8c" "define-conditional-formatting.cs" >}}
 
-Ayrıca, ilk sütun, son sütun, şeritli satırlar gibi hangi tablo parçalarına stil uygulanacağını da seçebilirsiniz. [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/) numaralandırmasında listelenirler ve [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/) özelliği aracılığıyla uygulanırlar. **TableStyleOptions** numaralandırması bu özelliklerin bit düzeyinde birleşimine olanak tanır.
+Ayrıca, ilk sütun, son sütun, şeritli satırlar gibi hangi tablo parçalarına stil uygulanacağını da seçebilirsiniz. [TableStyleOptions](https://reference.aspose.com/words/tr/net/aspose.words.tables/tablestyleoptions/) numaralandırmasında listelenirler ve [StyleOptions](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/styleoptions/) özelliği aracılığıyla uygulanırlar. **TableStyleOptions** numaralandırması bu özelliklerin bit düzeyinde birleşimine olanak tanır.
 
 Aşağıdaki kod örneği, tablo stili uygulanmış yeni bir tablonun nasıl oluşturulacağını gösterir:
 
@@ -61,7 +61,7 @@ Aşağıdaki resimler **Table Styles**'in Microsoft Word'deki temsilini ve Aspos
 
 ## Tablo Stilinden Formatlamayı Alın ve Doğrudan Formatlama Olarak Uygulayın
 
-Aspose.Words ayrıca bir tablo stilinde bulunan biçimlendirmeyi almak ve onu doğrudan biçimlendirme olarak tablonun satırlarına ve hücrelerine genişletmek için [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/net/aspose.words/document/expandtablestylestodirectformatting/) yöntemini de sağlar. Biçimlendirmeyi tablo stili ve hücre stiliyle birleştirmeyi deneyin.
+Aspose.Words ayrıca bir tablo stilinde bulunan biçimlendirmeyi almak ve onu doğrudan biçimlendirme olarak tablonun satırlarına ve hücrelerine genişletmek için [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/tr/net/aspose.words/document/expandtablestylestodirectformatting/) yöntemini de sağlar. Biçimlendirmeyi tablo stili ve hücre stiliyle birleştirmeyi deneyin.
 
 {{% alert color="primary" %}}
 

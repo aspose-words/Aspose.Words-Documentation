@@ -10,11 +10,11 @@ weight: 20
 url: /es/net/save-a-document/
 ---
 
-La mayoría de las tareas que necesita realizar con Aspose.Words implican guardar un documento. Para guardar un documento Aspose.Words proporciona el método [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) de la clase [Document](https://reference.aspose.com/words/net/aspose.words/document/). Hay sobrecargas que permiten guardar un documento en un archivo, secuencia u objeto ASP.NET HttpResponse para enviarlo a un navegador cliente. El documento se puede guardar en cualquier formato compatible con Aspose.Words. Para obtener la lista de todos los formatos de guardado admitidos, consulte la enumeración [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/).
+La mayoría de las tareas que necesita realizar con Aspose.Words implican guardar un documento. Para guardar un documento Aspose.Words proporciona el método [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/) de la clase [Document](https://reference.aspose.com/words/es/net/aspose.words/document/). Hay sobrecargas que permiten guardar un documento en un archivo, secuencia u objeto ASP.NET HttpResponse para enviarlo a un navegador cliente. El documento se puede guardar en cualquier formato compatible con Aspose.Words. Para obtener la lista de todos los formatos de guardado admitidos, consulte la enumeración [SaveFormat](https://reference.aspose.com/words/es/net/aspose.words/saveformat/).
 
 ## Guardar en un archivo {#save-a-document-to-a-file}
 
-Simplemente use el método [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) con un nombre de archivo. Aspose.Words determinará el formato de guardado a partir de la extensión de archivo que especifique.
+Simplemente use el método [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/) con un nombre de archivo. Aspose.Words determinará el formato de guardado a partir de la extensión de archivo que especifique.
 
 El siguiente ejemplo de código muestra cómo cargar y guardar un documento en un archivo:
 
@@ -28,7 +28,7 @@ Puede descargar el archivo de plantilla de este ejemplo desde [Aspose.Words GitH
 
 ## Guardar en una secuencia {#save-a-document-to-a-stream}
 
-Pase un objeto de flujo al método [Save](https://reference.aspose.com/words/net/aspose.words/document/save/). Es necesario especificar explícitamente el formato de guardado al guardar en una secuencia.
+Pase un objeto de flujo al método [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/). Es necesario especificar explícitamente el formato de guardado al guardar en una secuencia.
 
 El siguiente ejemplo de código muestra cómo cargar y guardar un documento en una secuencia:
 
@@ -42,7 +42,7 @@ Puede descargar el archivo de plantilla de este ejemplo desde [Aspose.Words GitH
 
 ## Enviar un documento a un navegador de cliente {#sending-a-document-to-a-client-browser}
 
-Para enviar un documento a un navegador cliente, utilice una sobrecarga especial que requiere cuatro parámetros: nombre de archivo, formato de guardado, tipo de guardado y un objeto ASP.NET HttpResponse. La forma en que se presentará el documento al usuario está representada por la enumeración [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/), que determina si el documento enviado al navegador proporcionará una opción para abrirse directamente en el navegador o en la aplicación asociada con la extensión del archivo.
+Para enviar un documento a un navegador cliente, utilice una sobrecarga especial que requiere cuatro parámetros: nombre de archivo, formato de guardado, tipo de guardado y un objeto ASP.NET HttpResponse. La forma en que se presentará el documento al usuario está representada por la enumeración [ContentDisposition](https://reference.aspose.com/words/es/net/aspose.words/contentdisposition/), que determina si el documento enviado al navegador proporcionará una opción para abrirse directamente en el navegador o en la aplicación asociada con la extensión del archivo.
 
 El siguiente ejemplo de código muestra cómo enviar un documento al navegador del cliente desde un código ASP.NET:
 

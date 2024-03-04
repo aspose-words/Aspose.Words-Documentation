@@ -19,9 +19,9 @@ Birçok yükleme seçeneğinin desteklenen tüm formatlarda ortak olduğunu ve P
 
 İşlevlerin tam listesi için API referansına bakın:
 
-- [tüm formatlar için yükleme seçenekleri](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
-- CHM formatı için [CHM yükleme seçenekleri](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/)
-- HTML formatı için [HTML yükleme seçenekleri](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/)
-- PDF formatı için [PDF yükleme seçenekleri](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/)
-- RTF formatı için [RTF yükleme seçenekleri](https://reference.aspose.com/words/net/aspose.words.loading/rtfloadoptions/)
-- TXT formatı için [TXT yükleme seçenekleri](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/)
+- [tüm formatlar için yükleme seçenekleri](https://reference.aspose.com/words/tr/net/aspose.words.loading/loadoptions/)
+- CHM formatı için [CHM yükleme seçenekleri](https://reference.aspose.com/words/tr/net/aspose.words.loading/chmloadoptions/)
+- HTML formatı için [HTML yükleme seçenekleri](https://reference.aspose.com/words/tr/net/aspose.words.loading/htmlloadoptions/)
+- PDF formatı için [PDF yükleme seçenekleri](https://reference.aspose.com/words/tr/net/aspose.words.loading/pdfloadoptions/)
+- RTF formatı için [RTF yükleme seçenekleri](https://reference.aspose.com/words/tr/net/aspose.words.loading/rtfloadoptions/)
+- TXT formatı için [TXT yükleme seçenekleri](https://reference.aspose.com/words/tr/net/aspose.words.loading/txtloadoptions/)

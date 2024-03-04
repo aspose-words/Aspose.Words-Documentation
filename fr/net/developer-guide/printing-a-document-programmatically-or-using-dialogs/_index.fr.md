@@ -21,7 +21,7 @@ Lors du développement d'une application .NET qui produit une sortie imprimée, 
 
 Les classes de l'espace de noms *System.Drawing.Printing* ne sont pas prises en charge pour une utilisation dans un service Windows ou une application ou un service ASP.NET, et tenter de les utiliser peut entraîner une diminution des performances du service, des exceptions d'exécution et d'autres problèmes. L'utilisation de WPF pour créer des services Windows n'est pas non plus prise en charge. Puisque WPF est une technologie de présentation, le service Windows nécessite les autorisations appropriées pour effectuer des opérations visuelles impliquant une interaction utilisateur. Si le service Windows ne dispose pas de telles autorisations, des résultats inattendus peuvent survenir.
 
-L'objet Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) fournit une famille de méthodes [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print/index) pour imprimer des documents. Ces méthodes utilisent les classes d'impression .NET définies dans l'espace de noms *System.Drawing.Printing*. De nombreux clients Aspose.Words les utilisent avec succès pour imprimer dans leurs applications côté serveur. Néanmoins, cet article présente une méthode alternative d'impression conforme aux recommandations de Microsoft.
+L'objet Aspose.Words [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) fournit une famille de méthodes [Print](https://reference.aspose.com/words/fr/net/aspose.words/document/methods/print/index) pour imprimer des documents. Ces méthodes utilisent les classes d'impression .NET définies dans l'espace de noms *System.Drawing.Printing*. De nombreux clients Aspose.Words les utilisent avec succès pour imprimer dans leurs applications côté serveur. Néanmoins, cet article présente une méthode alternative d'impression conforme aux recommandations de Microsoft.
 
 ### Méthodes pour imprimer un document sur un Server
 
@@ -44,7 +44,7 @@ L'exemple de code ci-dessous montre comment imprimer un document à l'aide de la
 
 Lorsque vous exécutez le projet, il imprime un exemple de document sur l'imprimante spécifiée et ouvre une fenêtre de console pour afficher les résultats de l'impression. Lorsque le travail d'impression est terminé ou que des erreurs sont générées, le système affiche un message de réussite ou le texte de l'exception levée.
 
-Vous pouvez également définir certains paramètres d'impression à l'aide de la classe [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/). Par exemple, dans Microsoft Word, les bacs d'imprimante sont définis pour chaque section et sont spécifiques à l'imprimante. Par conséquent, vous pouvez modifier ces valeurs par programme pour chaque section via les propriétés [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/) et [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/otherpagestray/).
+Vous pouvez également définir certains paramètres d'impression à l'aide de la classe [PageSetup](https://reference.aspose.com/words/fr/net/aspose.words/pagesetup/). Par exemple, dans Microsoft Word, les bacs d'imprimante sont définis pour chaque section et sont spécifiques à l'imprimante. Par conséquent, vous pouvez modifier ces valeurs par programme pour chaque section via les propriétés [FirstPageTray](https://reference.aspose.com/words/fr/net/aspose.words/pagesetup/firstpagetray/) et [OtherPagesTray](https://reference.aspose.com/words/fr/net/aspose.words/pagesetup/otherpagestray/).
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ Dans certains cas, vous devrez peut-être utiliser cet exemple sans Aspose.Words
 
 {{% /alert %}}
 
-Il existe deux surcharges de la méthode **XpsPrintHelper**.**Print**. La première surcharge prend un objet [Document](https://reference.aspose.com/words/net/aspose.words/document/) et l'enregistre au format `MemoryStream` au format XPS. La deuxième surcharge accepte un objet `Stream`. Le flux doit contenir un document au format XPS.
+Il existe deux surcharges de la méthode **XpsPrintHelper**.**Print**. La première surcharge prend un objet [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) et l'enregistre au format `MemoryStream` au format XPS. La deuxième surcharge accepte un objet `Stream`. Le flux doit contenir un document au format XPS.
 
 Vous pouvez télécharger les exemples de surcharge de méthodes depuis [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip).
 
@@ -62,7 +62,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 Lorsque vous travaillez avec des documents, il est souvent nécessaire de les imprimer sur une imprimante sélectionnée. Il est utile d'utiliser une boîte de dialogue d'aperçu avant impression pour inspecter visuellement l'apparence du document imprimé et choisir les options d'impression pertinentes.
 
-Le Aspose.Words n'a pas de boîtes de dialogue ni de formulaires intégrés mais implémente la classe [AsposeWordsPrintDocument](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/), basée sur la classe .NET **PrintDocument**. Une instance de cette classe peut être transmise au formulaire **PrintPreviewDialog** pour prévisualiser et imprimer le document. De plus, la classe [Boîte de dialogue AperçuImpression](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) définit la sortie à transmettre à une imprimante.
+Le Aspose.Words n'a pas de boîtes de dialogue ni de formulaires intégrés mais implémente la classe [AsposeWordsPrintDocument](https://reference.aspose.com/words/fr/net/aspose.words.rendering/asposewordsprintdocument/), basée sur la classe .NET **PrintDocument**. Une instance de cette classe peut être transmise au formulaire **PrintPreviewDialog** pour prévisualiser et imprimer le document. De plus, la classe [Boîte de dialogue AperçuImpression](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) définit la sortie à transmettre à une imprimante.
 
 L'exemple suivant montre comment utiliser ces classes pour imprimer un document à partir de Aspose.Words via les boîtes de dialogue Aperçu avant impression et Paramètres:
 
@@ -92,7 +92,7 @@ Le résultat de cet exemple de code est présenté ci-dessous:
 
 ## Masquage de la boîte de dialogue de progression de l'impression lors de l'impression d'un document
 
-La boîte de dialogue de progression de l'impression n'apparaît pas lors de l'impression d'un document via la méthode [Print](https://reference.aspose.com/words/net/aspose.words/document/print/). Cependant, cette boîte de dialogue apparaît lors de l'impression avec une autre méthode [Print](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/). Dans ce cas, pour empêcher la boîte de dialogue Impression d'apparaître, vous devez spécifier des paramètres d'imprimante valides et un contrôleur d'impression standard dans cette méthode, comme indiqué dans l'exemple ci-dessous:
+La boîte de dialogue de progression de l'impression n'apparaît pas lors de l'impression d'un document via la méthode [Print](https://reference.aspose.com/words/fr/net/aspose.words/document/print/). Cependant, cette boîte de dialogue apparaît lors de l'impression avec une autre méthode [Print](https://reference.aspose.com/words/fr/net/aspose.words.rendering/asposewordsprintdocument/). Dans ce cas, pour empêcher la boîte de dialogue Impression d'apparaître, vous devez spécifier des paramètres d'imprimante valides et un contrôleur d'impression standard dans cette méthode, comme indiqué dans l'exemple ci-dessous:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintProgressDialog-PrintProgressDialog.cs" >}}
 
@@ -100,7 +100,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ## Comment réduire le temps du premier appel pour imprimer un document
 
-Aspose.Words lit et met en cache certains champs de **PrinterSettings** pour réduire le temps d'impression. Vous pouvez y parvenir en appelant la méthode [CachePrinterSettings](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/). Cette méthode est appelée avant le début de l'impression si elle n'a pas été exécutée précédemment. Notez que le temps total d'impression avec et sans appel de cette méthode est presque le même. Le but de l'utilisation de cette méthode est de réduire le temps du premier appel de la méthode [Print](https://reference.aspose.com/words/net/aspose.words/document/print/). L'exemple de code suivant montre comment utiliser cette méthode:
+Aspose.Words lit et met en cache certains champs de **PrinterSettings** pour réduire le temps d'impression. Vous pouvez y parvenir en appelant la méthode [CachePrinterSettings](https://reference.aspose.com/words/fr/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/). Cette méthode est appelée avant le début de l'impression si elle n'a pas été exécutée précédemment. Notez que le temps total d'impression avec et sans appel de cette méthode est presque le même. Le but de l'utilisation de cette méthode est de réduire le temps du premier appel de la méthode [Print](https://reference.aspose.com/words/fr/net/aspose.words/document/print/). L'exemple de code suivant montre comment utiliser cette méthode:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-Print_CachePrinterSettings-CachePrinterSettings.cs" >}}
 

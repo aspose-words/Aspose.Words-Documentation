@@ -27,10 +27,10 @@ url: /ar/net/convert-a-document-to-pdf/
 
 يعد التحويل من تنسيق المستند DOC أو DOCX إلى تنسيق PDF في Aspose.Words أمرًا سهلاً للغاية ويمكن تحقيقه باستخدام سطرين فقط من التعليمات البرمجية التي:
 
-1. قم بتحميل المستند الخاص بك إلى كائن [Document](https://reference.aspose.com/words/net/aspose.words/document/) باستخدام أحد منشئيه عن طريق تحديد اسم المستند بامتداد التنسيق الخاص به.
-1. قم باستدعاء إحدى طرق [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) على كائن **Document** وحدد تنسيق الإخراج المطلوب بتنسيق PDF عن طريق إدخال اسم ملف بامتداد ".PDF".
+1. قم بتحميل المستند الخاص بك إلى كائن [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) باستخدام أحد منشئيه عن طريق تحديد اسم المستند بامتداد التنسيق الخاص به.
+1. قم باستدعاء إحدى طرق [Document.Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/#save/) على كائن **Document** وحدد تنسيق الإخراج المطلوب بتنسيق PDF عن طريق إدخال اسم ملف بامتداد ".PDF".
 
-يوضح مثال الكود التالي كيفية تحويل مستند من DOCX إلى PDF باستخدام طريقة [Save](https://reference.aspose.com/words/net/aspose.words/document/save/):
+يوضح مثال الكود التالي كيفية تحويل مستند من DOCX إلى PDF باستخدام طريقة [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/):
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
@@ -38,7 +38,7 @@ url: /ar/net/convert-a-document-to-pdf/
 
 {{% alert color="primary" %}}
 
-في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ المستند كملف PDF. يمكن تحديد هذه الخيارات باستخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)، التي تحتوي على خصائص تحدد كيفية عرض مخرجات PDF.
+في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ المستند كملف PDF. يمكن تحديد هذه الخيارات باستخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/)، التي تحتوي على خصائص تحدد كيفية عرض مخرجات PDF.
 
 لاحظ أنه باستخدام نفس التقنية، يمكنك تحويل أي مستند بتنسيق تخطيط التدفق إلى تنسيق PDF.
 
@@ -46,9 +46,9 @@ url: /ar/net/convert-a-document-to-pdf/
 
 ### تحويل إلى معايير PDF مختلفة
 
-يوفر Aspose.Words ترقيم [PDFالامتثال](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) لدعم تحويل DOC أو DOCX إلى معايير تنسيق PDF مختلفة (مثل PDF 1.7، PDF 1.5، وما إلى ذلك).
+يوفر Aspose.Words ترقيم [PDFالامتثال](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfcompliance/) لدعم تحويل DOC أو DOCX إلى معايير تنسيق PDF مختلفة (مثل PDF 1.7، PDF 1.5، وما إلى ذلك).
 
-يوضح مثال التعليمات البرمجية التالي كيفية تحويل مستند إلى PDF 1.7 باستخدام [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) مع التوافق مع PDF17:
+يوضح مثال التعليمات البرمجية التالي كيفية تحويل مستند إلى PDF 1.7 باستخدام [PdfSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/) مع التوافق مع PDF17:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
@@ -66,7 +66,7 @@ url: /ar/net/convert-a-document-to-pdf/
 
 ## تقليل حجم إخراج PDF
 
-عند الحفظ إلى PDF، يمكنك تحديد ما إذا كنت تريد تحسين الإخراج. للقيام بذلك، تحتاج إلى تعيين علامة [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) على true، ثم ستتم إزالة اللوحات المتداخلة الزائدة واللوحات الفارغة، وسيتم تسلسل ملفات glyph المجاورة بنفس التنسيق.
+عند الحفظ إلى PDF، يمكنك تحديد ما إذا كنت تريد تحسين الإخراج. للقيام بذلك، تحتاج إلى تعيين علامة [OptimizeOutput](https://reference.aspose.com/words/ar/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) على true، ثم ستتم إزالة اللوحات المتداخلة الزائدة واللوحات الفارغة، وسيتم تسلسل ملفات glyph المجاورة بنفس التنسيق.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحسين الإخراج:
 

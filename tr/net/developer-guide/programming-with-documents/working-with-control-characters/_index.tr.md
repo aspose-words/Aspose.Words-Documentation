@@ -13,7 +13,7 @@ Microsoft Word belgeleri özel anlamı olan çeşitli karakterler içerebilir. N
 
 Bazen metne karakter eklemeniz veya metinden karakter çıkarmanız gerekebilir. Örneğin, belgeden programlı olarak metin alırken, Aspose.Words kontrol karakterlerinin çoğunu korur, dolayısıyla bu metinle çalışmanız gerekiyorsa muhtemelen karakterleri kaldırmanız veya değiştirmeniz gerekir.
 
-[ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar/) sınıfı, belgelerde sıklıkla karşılaşılan kontrol karakterlerini temsil eden sabitler için bir depodur. Aynı sabitlerin hem char hem de string versiyonlarını sağlar. Örneğin, string [LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreak/) ve char [LineBreakChar](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreakchar) aynı değere sahiptir.
+[ControlChar](https://reference.aspose.com/words/tr/net/aspose.words/controlchar/) sınıfı, belgelerde sıklıkla karşılaşılan kontrol karakterlerini temsil eden sabitler için bir depodur. Aynı sabitlerin hem char hem de string versiyonlarını sağlar. Örneğin, string [LineBreak](https://reference.aspose.com/words/tr/net/aspose.words/controlchar/linebreak/) ve char [LineBreakChar](https://reference.aspose.com/words/tr/net/aspose.words/controlchar/linebreakchar) aynı değere sahiptir.
 
 Aşağıdaki kod örneği, denetim karakterlerinin nasıl kullanılacağını gösterir:
 

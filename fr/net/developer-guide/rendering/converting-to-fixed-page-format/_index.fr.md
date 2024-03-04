@@ -49,7 +49,7 @@ La mise en page calcule où le texte apparaîtra et quel contenu sera rendu derr
 
 ![converting-to-fixed-page-format_2](/words/net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-Dans Aspose.Words, un utilisateur peut demander s'il souhaite créer une nouvelle mise en page ou mettre à jour une mise en page existante. Ces deux opérations peuvent être effectuées par la méthode [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/), fournie par la classe [Document](https://reference.aspose.com/words/net/aspose.words/document/). Si une mise en page n'existe pas, mais qu'elle est nécessaire (par exemple, lorsque le document est exporté vers un format de page fixe), Aspose.Words appellera automatiquement cette méthode. Cependant, si une mise en page existe déjà, Aspose.Words utilisera celle existante, afin d'éviter de consommer les ressources nécessaires à sa mise à jour. Dans ce cas, l'utilisateur doit appeler la méthode `UpdatePageLayout`, afin de s'assurer que la mise en page est à jour avec le modèle du document.
+Dans Aspose.Words, un utilisateur peut demander s'il souhaite créer une nouvelle mise en page ou mettre à jour une mise en page existante. Ces deux opérations peuvent être effectuées par la méthode [UpdatePageLayout](https://reference.aspose.com/words/fr/net/aspose.words/document/updatepagelayout/), fournie par la classe [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/). Si une mise en page n'existe pas, mais qu'elle est nécessaire (par exemple, lorsque le document est exporté vers un format de page fixe), Aspose.Words appellera automatiquement cette méthode. Cependant, si une mise en page existe déjà, Aspose.Words utilisera celle existante, afin d'éviter de consommer les ressources nécessaires à sa mise à jour. Dans ce cas, l'utilisateur doit appeler la méthode `UpdatePageLayout`, afin de s'assurer que la mise en page est à jour avec le modèle du document.
 
 ### Structure dynamique
 
@@ -65,22 +65,22 @@ Notez que la mise en page est une structure dynamique, qui peut être partiellem
 
 Considérez le scénario typique où le champ `NUMPAGES` apparaît dans le pied de page de la première page du document. La valeur de ce champ est le nombre total de pages. Afin de positionner le champ sur une page, sa valeur doit être connue. Si seule la première page est en cours de création, le nombre total de pages n'est pas encore connu. Dans ce cas, la mise en page doit utiliser la valeur par défaut, puis revenir à ce champ et modifier sa valeur en fonction des calculs réels. Cependant, la modification de la valeur du champ peut affecter le contenu d'un autre document sur une page et finalement entraîner l'ajout d'une nouvelle page ou la suppression d'une page existante, rendant ainsi la valeur calculée obsolète. Ce problème peut être résolu en permettant de mettre à jour la mise en page existante.
 
-Lors de la création d'une mise en page, il est également possible de configurer des propriétés [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) qui affectent la sortie du document sur les pages.
+Lors de la création d'une mise en page, il est également possible de configurer des propriétés [LayoutOptions](https://reference.aspose.com/words/fr/net/aspose.words.layout/layoutoptions/) qui affectent la sortie du document sur les pages.
 
 ## Enregistrement au format de page fixe
 
 Une fois la mise en page créée et la géométrie des objets et leur position sur la page calculées, le document peut être enregistré dans un format de page fixe pris en charge par Aspose.Words. Lors de l'enregistrement de documents dans des formats de page fixe, les options de rendu communes à tous ces formats peuvent être utilisées. Ils permettent de contrôler:
 
-- Le nombre et l'étendue des pages contenues dans le document de sortie ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)).
-- Progression de la sauvegarde du document page par page ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
-- Un ensemble de caractères utilisés pour le rendu des nombres ([NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
-- Un lecteur de métafichiers ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Pour plus de détails, consultez l'article [Gestion des métafichiers Windows](/words/fr/net/handling-windows-metafiles/).
-- Un taux de qualité de recompression des images JPEG dont la valeur peut légèrement différer selon le format de sauvegarde choisi ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
-- Optimisation des graphiques vectoriels en sortie Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
-- Options graphiques lors de l'enregistrement aux formats Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
-- Sauvegarde du document en niveaux de gris ([ColorMode](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
-- Basculer entre le rendu des formes DrawingML et les formes de secours ([DmlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
-- Basculement entre les modes de rendu des effets DML ([DmlEffectsRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
+- Le nombre et l'étendue des pages contenues dans le document de sortie ([PageCount](https://reference.aspose.com/words/fr/net/aspose.words/document/pagecount/)).
+- Progression de la sauvegarde du document page par page ([PageSavingCallback](https://reference.aspose.com/words/fr/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
+- Un ensemble de caractères utilisés pour le rendu des nombres ([NumeralFormat](https://reference.aspose.com/words/fr/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
+- Un lecteur de métafichiers ([MetafileRenderingOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Pour plus de détails, consultez l'article [Gestion des métafichiers Windows](/words/fr/net/handling-windows-metafiles/).
+- Un taux de qualité de recompression des images JPEG dont la valeur peut légèrement différer selon le format de sauvegarde choisi ([JpegQuality](https://reference.aspose.com/words/fr/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
+- Optimisation des graphiques vectoriels en sortie Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/fr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
+- Options graphiques lors de l'enregistrement aux formats Tiff, Png, Bmp, Jpeg, Emf ([UseAntiAliasing](https://reference.aspose.com/words/fr/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/fr/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
+- Sauvegarde du document en niveaux de gris ([ColorMode](https://reference.aspose.com/words/fr/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
+- Basculer entre le rendu des formes DrawingML et les formes de secours ([DmlRenderingMode](https://reference.aspose.com/words/fr/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
+- Basculement entre les modes de rendu des effets DML ([DmlEffectsRenderingMode](https://reference.aspose.com/words/fr/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
 
 L'exemple ci-dessous montre comment enregistrer un document au format JPEG à l'aide de la méthode `Save` et des options de rendu:
 

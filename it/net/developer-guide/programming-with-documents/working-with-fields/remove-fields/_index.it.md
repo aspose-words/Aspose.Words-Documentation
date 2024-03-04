@@ -11,7 +11,7 @@ url: /it/net/remove-fields/
 
 A volte è necessario rimuovere un campo da un documento. Ciò può verificarsi quando è necessario sostituirlo con un tipo di campo diverso o quando il campo non è più necessario nel documento. Ad esempio il campo `TOC` durante il salvataggio in HTML.
 
-Per rimuovere un campo inserito in un documento utilizzando [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/), utilizzare l'oggetto [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) restituito, che fornisce un comodo metodo [Remove](https://reference.aspose.com/words/net/aspose.words.fields/field/remove/) per rimuovere facilmente il campo dal documento.
+Per rimuovere un campo inserito in un documento utilizzando [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertfield/), utilizzare l'oggetto [Field](https://reference.aspose.com/words/it/net/aspose.words.fields/field/) restituito, che fornisce un comodo metodo [Remove](https://reference.aspose.com/words/it/net/aspose.words.fields/field/remove/) per rimuovere facilmente il campo dal documento.
 
 L'esempio di codice seguente mostra come rimuovere un campo dal documento:
 

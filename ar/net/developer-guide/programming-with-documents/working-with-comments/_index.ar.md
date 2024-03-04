@@ -17,14 +17,14 @@ url: /ar/net/working-with-comments/
 
 {{% /alert %}}
 
-يتيح Aspose.Words للمستخدمين العمل مع التعليقات - يتم تمثيل التعليقات الموجودة في مستند في Aspose.Words بواسطة فئة [Comment](https://reference.aspose.com/words/net/aspose.words/comment/). استخدم أيضًا فئات [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) لتحديد منطقة النص التي يجب أن ترتبط بالتعليق.
+يتيح Aspose.Words للمستخدمين العمل مع التعليقات - يتم تمثيل التعليقات الموجودة في مستند في Aspose.Words بواسطة فئة [Comment](https://reference.aspose.com/words/ar/net/aspose.words/comment/). استخدم أيضًا فئات [CommentRangeStart](https://reference.aspose.com/words/ar/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/ar/net/aspose.words/commentrangeend/) لتحديد منطقة النص التي يجب أن ترتبط بالتعليق.
 
 ## اضف تعليق
 
 يسمح لك Aspose.Words بإضافة التعليقات بعدة طرق:
 
-1. استخدام فئة [Comment](https://reference.aspose.com/words/net/aspose.words/comment/)
-2. استخدام فئتي [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)
+1. استخدام فئة [Comment](https://reference.aspose.com/words/ar/net/aspose.words/comment/)
+2. استخدام فئتي [CommentRangeStart](https://reference.aspose.com/words/ar/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/ar/net/aspose.words/commentrangeend/)
 
 يوضح مثال التعليمات البرمجية التالي كيفية إضافة تعليق إلى فقرة باستخدام فئة **Comment**:
 
@@ -45,11 +45,11 @@ url: /ar/net/working-with-comments/
 
 ### كيفية استخراج أو إزالة التعليقات
 
-التعليمات البرمجية الموجودة في هذه العينة بسيطة للغاية وتعتمد كافة الأساليب على نفس الأسلوب. يتم تمثيل التعليق في مستند Word بواسطة كائن [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) في نموذج كائن مستند Aspose.Words. لتجميع كل التعليقات في مستند، استخدم أسلوب [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) مع تعيين المعلمة الأولى على [NodeType.Comment](https://reference.aspose.com/words/net/aspose.words/nodetype/). تأكد من تعيين المعلمة الثانية لأسلوب **GetChildNodes** على true: وهذا يفرض على **GetChildNodes** الاختيار من جميع العقد الفرعية بشكل متكرر، بدلاً من جمع العناصر الفرعية المباشرة فقط.
+التعليمات البرمجية الموجودة في هذه العينة بسيطة للغاية وتعتمد كافة الأساليب على نفس الأسلوب. يتم تمثيل التعليق في مستند Word بواسطة كائن [Comment](https://reference.aspose.com/words/ar/net/aspose.words/comment/) في نموذج كائن مستند Aspose.Words. لتجميع كل التعليقات في مستند، استخدم أسلوب [GetChildNodes](https://reference.aspose.com/words/ar/net/aspose.words/compositenode/getchildnodes/) مع تعيين المعلمة الأولى على [NodeType.Comment](https://reference.aspose.com/words/ar/net/aspose.words/nodetype/). تأكد من تعيين المعلمة الثانية لأسلوب **GetChildNodes** على true: وهذا يفرض على **GetChildNodes** الاختيار من جميع العقد الفرعية بشكل متكرر، بدلاً من جمع العناصر الفرعية المباشرة فقط.
 
 لتوضيح كيفية استخراج التعليقات وإزالتها من مستند، سنمر بالخطوات التالية:
 
-1. افتح مستند Word باستخدام فئة [Document](https://reference.aspose.com/words/net/aspose.words/document/)
+1. افتح مستند Word باستخدام فئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/)
 2. احصل على كافة التعليقات من المستند في مجموعة
 3. لاستخراج التعليقات:
    1. انتقل إلى المجموعة باستخدام عامل التشغيل foreach
@@ -80,7 +80,7 @@ url: /ar/net/working-with-comments/
 
 ### كيفية إزالة التعليقات
 
-إذا كنت تقوم بإزالة جميع التعليقات، فليست هناك حاجة للتنقل خلال المجموعة لحذف التعليقات واحدًا تلو الآخر. يمكنك إزالتها عن طريق استدعاء الأسلوب [Clear](https://reference.aspose.com/words/net/aspose.words/nodecollection/clear/) في مجموعة التعليقات.
+إذا كنت تقوم بإزالة جميع التعليقات، فليست هناك حاجة للتنقل خلال المجموعة لحذف التعليقات واحدًا تلو الآخر. يمكنك إزالتها عن طريق استدعاء الأسلوب [Clear](https://reference.aspose.com/words/ar/net/aspose.words/nodecollection/clear/) في مجموعة التعليقات.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إزالة كافة التعليقات في المستند:
 
@@ -114,9 +114,9 @@ url: /ar/net/working-with-comments/
 
 ## إضافة أو إزالة الرد على التعليق
 
-تضيف طريقة [AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) ردًا على هذا التعليق. يرجى ملاحظة أنه نظرًا للقيود الحالية لمكتب Microsoft، يُسمح فقط بمستوى واحد من الردود في المستند. سيتم ظهور استثناء من النوع *InvalidOperationException* إذا تم استدعاء هذه الطريقة على تعليق الرد الموجود.
+تضيف طريقة [AddReply](https://reference.aspose.com/words/ar/net/aspose.words/comment/addreply/) ردًا على هذا التعليق. يرجى ملاحظة أنه نظرًا للقيود الحالية لمكتب Microsoft، يُسمح فقط بمستوى واحد من الردود في المستند. سيتم ظهور استثناء من النوع *InvalidOperationException* إذا تم استدعاء هذه الطريقة على تعليق الرد الموجود.
 
-يمكنك استخدام طريقة [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) لإزالة الرد المحدد على هذا التعليق.
+يمكنك استخدام طريقة [RemoveReply](https://reference.aspose.com/words/ar/net/aspose.words/comment/removereply/) لإزالة الرد المحدد على هذا التعليق.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إضافة رد على التعليق وإزالة رد التعليق:
 
@@ -124,7 +124,7 @@ url: /ar/net/working-with-comments/
 
 ## اقرأ رد التعليق
 
-تقوم الخاصية [Replies](https://reference.aspose.com/words/net/aspose.words/comment/replies/) بإرجاع مجموعة من كائنات [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) التي تعتبر أبناء مباشرين للتعليق المحدد.
+تقوم الخاصية [Replies](https://reference.aspose.com/words/ar/net/aspose.words/comment/replies/) بإرجاع مجموعة من كائنات [Comment](https://reference.aspose.com/words/ar/net/aspose.words/comment/) التي تعتبر أبناء مباشرين للتعليق المحدد.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تكرار ردود التعليقات وحلها:
 

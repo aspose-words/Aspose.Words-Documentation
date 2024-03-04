@@ -11,11 +11,11 @@ url: /ar/net/applying-custom-formatting-to-fields/
 
 في بعض الأحيان يحتاج المستخدمون إلى تطبيق التنسيق المخصص على الحقول. في هذه المقالة، سننظر في بعض الأمثلة حول كيفية القيام بذلك.
 
-لمعرفة المزيد من الخيارات، راجع القائمة الكاملة للخصائص لكل نوع حقل في الفئة المقابلة في [مساحة اسم الحقول](https://reference.aspose.com/words/net/aspose.words.fields/).
+لمعرفة المزيد من الخيارات، راجع القائمة الكاملة للخصائص لكل نوع حقل في الفئة المقابلة في [مساحة اسم الحقول](https://reference.aspose.com/words/ar/net/aspose.words.fields/).
 
 ## كيفية تطبيق التنسيق المخصص على النتيجة الميدانية
 
-يوفر Aspose.Words API للتنسيق المخصص لنتيجة الحقل. يمكنك تنفيذ واجهة [IFieldResultFormatter](https://reference.aspose.com/words/net/aspose.words.fields/ifieldresultformatter/) للتحكم في كيفية تنسيق نتيجة الحقل. يمكنك تطبيق تبديل التنسيق الرقمي، أي \# "#.##"، وتبديل تنسيق التاريخ/الوقت، أي \@ "dd.MM.yyyy"، وتبديل تنسيق الأرقام، أي \* ترتيبي.
+يوفر Aspose.Words API للتنسيق المخصص لنتيجة الحقل. يمكنك تنفيذ واجهة [IFieldResultFormatter](https://reference.aspose.com/words/ar/net/aspose.words.fields/ifieldresultformatter/) للتحكم في كيفية تنسيق نتيجة الحقل. يمكنك تطبيق تبديل التنسيق الرقمي، أي \# "#.##"، وتبديل تنسيق التاريخ/الوقت، أي \@ "dd.MM.yyyy"، وتبديل تنسيق الأرقام، أي \* ترتيبي.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تطبيق التنسيق المخصص لنتيجة الحقل:
 
@@ -25,7 +25,7 @@ url: /ar/net/applying-custom-formatting-to-fields/
 
 ## كيفية تقييم حالة `IF`
 
-إذا كنت تريد تقييم حالة `IF` بعد mail merge، فيمكنك استخدام طريقة [EvaluateCondition](https://reference.aspose.com/words/net/aspose.words.fields/fieldif/evaluatecondition/) التي تُرجع على الفور نتيجة تقييم التعبير.
+إذا كنت تريد تقييم حالة `IF` بعد mail merge، فيمكنك استخدام طريقة [EvaluateCondition](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldif/evaluatecondition/) التي تُرجع على الفور نتيجة تقييم التعبير.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخدام هذه الطريقة:
 
@@ -33,7 +33,7 @@ url: /ar/net/applying-custom-formatting-to-fields/
 
 ## كيفية تطبيق التنسيق المخصص على حقل الوقت
 
-افتراضيًا، يقوم Aspose.Words بتحديث حقل `TIME` بتنسيق الثقافة الحالية القصير. لقد اكتشفنا أن هناك فرقًا بين تنسيق Microsoft Word وتنسيق .NET/Windows، وأيضًا بين إصدارات .NET Framework المختلفة. إذا كنت تريد تنسيق حقل `TIME` وفقًا لمتطلباتك، فيمكنك تحقيق ذلك من خلال تطبيق واجهة [IFieldUpdateCultureProvider](https://reference.aspose.com/words/net/aspose.words.fields/ifieldupdatecultureprovider/).
+افتراضيًا، يقوم Aspose.Words بتحديث حقل `TIME` بتنسيق الثقافة الحالية القصير. لقد اكتشفنا أن هناك فرقًا بين تنسيق Microsoft Word وتنسيق .NET/Windows، وأيضًا بين إصدارات .NET Framework المختلفة. إذا كنت تريد تنسيق حقل `TIME` وفقًا لمتطلباتك، فيمكنك تحقيق ذلك من خلال تطبيق واجهة [IFieldUpdateCultureProvider](https://reference.aspose.com/words/ar/net/aspose.words.fields/ifieldupdatecultureprovider/).
 
 توضح أمثلة التعليمات البرمجية التالية كيفية تطبيق التنسيق المخصص على حقل `TIME`:
 

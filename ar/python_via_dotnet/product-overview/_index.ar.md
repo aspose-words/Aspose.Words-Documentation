@@ -41,7 +41,7 @@ Aspose.Words هي مكتبة متعددة المنصات تمكن تطبيقات
 
 تعد القدرة على تحويل المستندات بسهولة وموثوقية إحدى الميزات الرئيسية لـ Aspose.Words.
 
-يتيح برنامج [التحميل والحفظ والتحويل](/words/ar/python-net/loading-saving-and-converting/) الشامل مع [تنسيقات المستندات المدعومة](/words/ar/python-net/supported-document-formats/) للمستخدمين تحويل المستندات من [تنسيق شعبي واحد](https://reference.aspose.com/words/net/aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)، على سبيل المثال، من DOCX إلى PDF أو JPEG أو Markdown، أو من PDF إلى تنسيقات Word المختلفة.
+يتيح برنامج [التحميل والحفظ والتحويل](/words/ar/python-net/loading-saving-and-converting/) الشامل مع [تنسيقات المستندات المدعومة](/words/ar/python-net/supported-document-formats/) للمستخدمين تحويل المستندات من [تنسيق شعبي واحد](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/)، على سبيل المثال، من DOCX إلى PDF أو JPEG أو Markdown، أو من PDF إلى تنسيقات Word المختلفة.
 
 #### Document Object Model (DOM)
 

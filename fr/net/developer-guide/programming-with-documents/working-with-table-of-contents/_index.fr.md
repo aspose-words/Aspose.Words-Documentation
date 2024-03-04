@@ -19,7 +19,7 @@ Souvent, vous travaillerez avec des documents contenant une table des matières 
 
 ## Insérer une table des matières par programme
 
-Vous pouvez insérer un champ `TOC` (table des matières) dans le document à la position actuelle en appelant la méthode [InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/).
+Vous pouvez insérer un champ `TOC` (table des matières) dans le document à la position actuelle en appelant la méthode [InsertTableOfContents](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/inserttableofcontents/).
 
 Une table des matières dans un document Word peut être créée de plusieurs manières et formatée à l'aide de diverses options. Les commutateurs de champ que vous transmettez à la méthode contrôlent la façon dont le tableau est construit et affiché dans votre document.
 
@@ -43,8 +43,8 @@ Sans les méthodes utilisées dans l'exemple, lorsque vous ouvrez le document de
 
 Aspose.Words vous permet de mettre à jour complètement un `TOC` avec seulement quelques lignes de code. Cela peut être fait pour remplir un `TOC` nouvellement inséré ou pour mettre à jour un `TOC` existant après que des modifications ont été apportées au document. Les deux méthodes suivantes doivent être utilisées afin de mettre à jour les champs `TOC` dans le document:
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/fr/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/fr/net/aspose.words/document/updatepagelayout/)
 
 Veuillez noter que ces deux méthodes de mise à jour doivent être appelées dans cet ordre. En cas d'inversion, la table des matières sera renseignée mais aucun numéro de page ne sera affiché. N'importe quel nombre de tables des matières différentes peut être mis à jour. Ces méthodes mettront automatiquement à jour toutes les tables des matières trouvées dans le document.
 
@@ -142,7 +142,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## Insérer des champs TC
 
-Vous pouvez insérer un nouveau champ TC à la position actuelle du [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) en appelant la méthode [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) et en spécifiant le nom du champ comme "TC" ainsi que tous les commutateurs nécessaires.
+Vous pouvez insérer un nouveau champ TC à la position actuelle du [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) en appelant la méthode [InsertField](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertfield/) et en spécifiant le nom du champ comme "TC" ainsi que tous les commutateurs nécessaires.
 
 L'exemple de code suivant montre comment insérer un champ `TC` dans le document à l'aide de **DocumentBuilder**:
 
@@ -156,7 +156,7 @@ L'exemple de code suivant montre comment rechercher et insérer un champ `TC` da
 
 ## Modifier la table des matières
 
-Le formatage des entrées dans le `TOC` n'utilise pas les styles d'origine des entrées marquées, mais chaque niveau est formaté en utilisant un style `TOC` équivalent. Par exemple, le premier niveau du `TOC` est formaté avec le style **Table des matières1**, le deuxième niveau avec le style **Table des matières2**, etc. Cela signifie que pour changer l'apparence du `TOC`, ces styles doivent être modifiés. En Aspose.Words, ces styles sont représentés par le `StyleIdentifier.TOC1` indépendant des paramètres régionaux jusqu'au `StyleIdentifier.TOC9` et peuvent être récupérés à partir de la collection [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) à l'aide de ces identifiants.
+Le formatage des entrées dans le `TOC` n'utilise pas les styles d'origine des entrées marquées, mais chaque niveau est formaté en utilisant un style `TOC` équivalent. Par exemple, le premier niveau du `TOC` est formaté avec le style **Table des matières1**, le deuxième niveau avec le style **Table des matières2**, etc. Cela signifie que pour changer l'apparence du `TOC`, ces styles doivent être modifiés. En Aspose.Words, ces styles sont représentés par le `StyleIdentifier.TOC1` indépendant des paramètres régionaux jusqu'au `StyleIdentifier.TOC9` et peuvent être récupérés à partir de la collection [Styles](https://reference.aspose.com/words/fr/net/aspose.words/documentbase/styles/) à l'aide de ces identifiants.
 
 Une fois le style approprié du document récupéré, le formatage de ce style peut être modifié. Toute modification apportée à ces styles sera automatiquement reflétée dans la table des matières du document.
 
@@ -168,7 +168,7 @@ Il est également utile de noter que toute mise en forme directe d'un paragraphe
 
 Vous pouvez également contrôler le formatage des séparateurs utilisés entre chaque entrée et numéro de page. Par défaut, il s'agit d'une ligne pointillée qui s'étend sur la numérotation des pages à l'aide d'un caractère de tabulation et d'un taquet de tabulation droit aligné près de la marge droite.
 
-En utilisant la classe [Style](https://reference.aspose.com/words/net/aspose.words/style/) récupérée pour le niveau `TOC` particulier que vous souhaitez modifier, vous pouvez également modifier la façon dont ceux-ci apparaissent dans le document. Pour modifier la façon dont cela apparaît, [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/) doit d'abord être appelé pour récupérer le formatage du paragraphe pour le style. À partir de là, les taquets de tabulation peuvent être récupérés en appelant [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) et le taquet de tabulation approprié modifié. En utilisant cette même technique, l'onglet lui-même peut être déplacé ou supprimé complètement.
+En utilisant la classe [Style](https://reference.aspose.com/words/fr/net/aspose.words/style/) récupérée pour le niveau `TOC` particulier que vous souhaitez modifier, vous pouvez également modifier la façon dont ceux-ci apparaissent dans le document. Pour modifier la façon dont cela apparaît, [ParagraphFormat](https://reference.aspose.com/words/fr/net/aspose.words/style/paragraphformat/) doit d'abord être appelé pour récupérer le formatage du paragraphe pour le style. À partir de là, les taquets de tabulation peuvent être récupérés en appelant [TabStops](https://reference.aspose.com/words/fr/net/aspose.words/paragraphformat/tabstops/) et le taquet de tabulation approprié modifié. En utilisant cette même technique, l'onglet lui-même peut être déplacé ou supprimé complètement.
 
 L'exemple de code suivant montre comment modifier la position du taquet de tabulation droit dans les paragraphes liés à `TOC`:
 
@@ -176,9 +176,9 @@ L'exemple de code suivant montre comment modifier la position du taquet de tabul
 
 ## Supprimer la table des matières du document
 
-Une table des matières peut être supprimée du document en supprimant tous les nœuds trouvés entre le nœud `FieldStart` et FieldEnd du champ `TOC`. Le code ci-dessous le démontre. La suppression du champ `TOC` est plus simple qu'un champ normal car nous ne gardons pas la trace des champs imbriqués. Au lieu de cela, nous vérifions que le nœud [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) est de type [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), ce qui signifie que nous avons rencontré la fin de la table des matières actuelle. Cette technique peut être utilisée dans ce cas sans se soucier des champs imbriqués, car nous pouvons supposer que tout document correctement formé n'aura pas de champ `TOC` entièrement imbriqué dans un autre champ `TOC`.
+Une table des matières peut être supprimée du document en supprimant tous les nœuds trouvés entre le nœud `FieldStart` et FieldEnd du champ `TOC`. Le code ci-dessous le démontre. La suppression du champ `TOC` est plus simple qu'un champ normal car nous ne gardons pas la trace des champs imbriqués. Au lieu de cela, nous vérifions que le nœud [FieldEnd](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldend/) est de type [FieldType.FieldTOC](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldtype/), ce qui signifie que nous avons rencontré la fin de la table des matières actuelle. Cette technique peut être utilisée dans ce cas sans se soucier des champs imbriqués, car nous pouvons supposer que tout document correctement formé n'aura pas de champ `TOC` entièrement imbriqué dans un autre champ `TOC`.
 
-Tout d'abord, les nœuds [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) de chaque `TOC` sont collectés et stockés. Le `TOC` spécifié est ensuite énuméré afin que tous les nœuds du champ soient visités et stockés. Les nœuds sont ensuite supprimés du document.
+Tout d'abord, les nœuds [FieldStart](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldstart/) de chaque `TOC` sont collectés et stockés. Le `TOC` spécifié est ensuite énuméré afin que tous les nœuds du champ soient visités et stockés. Les nœuds sont ensuite supprimés du document.
 
 L'exemple de code suivant montre comment supprimer un `TOC` spécifié d'un document:
 

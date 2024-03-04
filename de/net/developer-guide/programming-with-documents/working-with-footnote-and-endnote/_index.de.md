@@ -13,9 +13,9 @@ Aspose.Words stellt außerdem einige Klassen, Methoden und Eigenschaften für di
 
 ## Fügen Sie eine Endnote ein und legen Sie Nummerierungsoptionen fest
 
-Wenn Sie Fuß- oder Endnoten in ein Word-Dokument einfügen möchten, verwenden Sie bitte die [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/)-Methode. Diese Methode fügt eine Fußnote oder Endnote in das Dokument ein.
+Wenn Sie Fuß- oder Endnoten in ein Word-Dokument einfügen möchten, verwenden Sie bitte die [InsertFootnote](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertfootnote/)-Methode. Diese Methode fügt eine Fußnote oder Endnote in das Dokument ein.
 
-Die Klassen [EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) und [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) stellen Nummerierungsoptionen für Fuß- und Endnoten dar.
+Die Klassen [EndnoteOptions](https://reference.aspose.com/words/de/net/aspose.words.notes/endnoteoptions/) und [FootnoteOptions](https://reference.aspose.com/words/de/net/aspose.words.notes/footnoteoptions/) stellen Nummerierungsoptionen für Fuß- und Endnoten dar.
 
 Das folgende Codebeispiel zeigt, wie eine Endnote in das Dokument eingefügt und die Nummerierungsoptionen festgelegt werden:
 
@@ -23,7 +23,7 @@ Das folgende Codebeispiel zeigt, wie eine Endnote in das Dokument eingefügt und
 
 ## Legen Sie die Anzahl der Fußnoten-Layoutspalten fest
 
-Sie können die Anzahl der Fußnoten-Layoutspalten mithilfe der [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/)-Eigenschaft festlegen. Wenn diese Eigenschaft den Wert 0 hat, wird der Fußnotenbereich mit einer Anzahl von Spalten basierend auf der Anzahl der Spalten auf der angezeigten Seite formatiert.
+Sie können die Anzahl der Fußnoten-Layoutspalten mithilfe der [Columns](https://reference.aspose.com/words/de/net/aspose.words.notes/footnoteoptions/columns/)-Eigenschaft festlegen. Wenn diese Eigenschaft den Wert 0 hat, wird der Fußnotenbereich mit einer Anzahl von Spalten basierend auf der Anzahl der Spalten auf der angezeigten Seite formatiert.
 
 Das folgende Codebeispiel zeigt, wie Sie die Anzahl der Spalten für das Fußnotenlayout festlegen:
 

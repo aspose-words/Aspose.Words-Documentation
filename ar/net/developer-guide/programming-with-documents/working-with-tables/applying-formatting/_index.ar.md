@@ -11,7 +11,7 @@ url: /ar/net/applying-formatting/
 
 يمكن تطبيق كل عنصر في الجدول بتنسيق مختلف. على سبيل المثال، سيتم تطبيق تنسيق الجدول على الجدول بأكمله، وتنسيق الصف على صفوف معينة فقط، وتنسيق الخلايا على خلايا معينة فقط.
 
-يوفر Aspose.Words API غنيًا لاسترداد التنسيق وتطبيقه على الجدول. يمكنك استخدام العقد [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) و[RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) و[CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) لتعيين التنسيق.
+يوفر Aspose.Words API غنيًا لاسترداد التنسيق وتطبيقه على الجدول. يمكنك استخدام العقد [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[RowFormat](https://reference.aspose.com/words/ar/net/aspose.words.tables/rowformat/) و[CellFormat](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/) لتعيين التنسيق.
 
 في هذه المقالة، سنتحدث عن كيفية تطبيق التنسيق على عقد الجدول المختلفة وإعدادات تنسيق الجدول التي يدعمها Aspose.Words.
 
@@ -21,11 +21,11 @@ url: /ar/net/applying-formatting/
 
 ### تنسيق مستوى الجدول
 
-لتطبيق التنسيق على جدول، يمكنك استخدام الخصائص المتوفرة على عقدة **Table** المقابلة باستخدام فئات [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) و[PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/) و[TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/).
+لتطبيق التنسيق على جدول، يمكنك استخدام الخصائص المتوفرة على عقدة **Table** المقابلة باستخدام فئات [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[PreferredWidth](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidth/) و[TableCollection](https://reference.aspose.com/words/ar/net/aspose.words.tables/tablecollection/).
 
 {{% alert color="primary" %}}
 
-لاحظ أن الجدول يجب أن يحتوي على صف واحد على الأقل قبل أن يتم تطبيق خصائص الجدول. وهذا يعني أنه عند إنشاء جدول باستخدام [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)، يجب إجراء هذا التنسيق بعد الاستدعاء الأول لـ [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/)، أو بعد إضافة الصف الأول إلى الجدول، أو عند إدراج العقد مباشرة في DOM.
+لاحظ أن الجدول يجب أن يحتوي على صف واحد على الأقل قبل أن يتم تطبيق خصائص الجدول. وهذا يعني أنه عند إنشاء جدول باستخدام [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/)، يجب إجراء هذا التنسيق بعد الاستدعاء الأول لـ [InsertCell](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertcell/)، أو بعد إضافة الصف الأول إلى الجدول، أو عند إدراج العقد مباشرة في DOM.
 
 {{% /alert %}}
 
@@ -60,7 +60,7 @@ url: /ar/net/applying-formatting/
 
 ### تنسيق مستوى الصف
 
-يمكن التحكم في تنسيق **على مستوى الصف** باستخدام فئات [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) و[RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) و[RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/).
+يمكن التحكم في تنسيق **على مستوى الصف** باستخدام فئات [Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) و[RowFormat](https://reference.aspose.com/words/ar/net/aspose.words.tables/rowformat/) و[RowCollection](https://reference.aspose.com/words/ar/net/aspose.words.tables/rowcollection/).
 
 {{% alert color="primary" %}}
 
@@ -84,11 +84,11 @@ url: /ar/net/applying-formatting/
 
 ### تنسيق مستوى الخلية
 
-يتم التحكم في التنسيق على مستوى الخلية بواسطة فئات [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) و[CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) و[CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/).
+يتم التحكم في التنسيق على مستوى الخلية بواسطة فئات [Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) و[CellFormat](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/) و[CellCollection](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellcollection/).
 
 {{% alert color="primary" %}}
 
-لاحظ أن **Cell** يمكن أن يكون عقدة فرعية لـ **Row** فقط. وفي الوقت نفسه، يجب أن يكون هناك [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) واحد على الأقل في **Cell** حتى يمكن تطبيق التنسيق عليه.
+لاحظ أن **Cell** يمكن أن يكون عقدة فرعية لـ **Row** فقط. وفي الوقت نفسه، يجب أن يكون هناك [Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/) واحد على الأقل في **Cell** حتى يمكن تطبيق التنسيق عليه.
 
 بالإضافة إلى **Paragraph**، يمكنك أيضًا إدراج ملف **Table** في ملف **Cell**.
 
@@ -120,14 +120,14 @@ url: /ar/net/applying-formatting/
 
 في Aspose.Words، يتم التحكم في ارتفاع صف الجدول عن طريق:
 
-- خاصية ارتفاع الصف – [Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/)
-- خاصية قاعدة الارتفاع للصف المحدد - [HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/heightrule/)
+- خاصية ارتفاع الصف – [Height](https://reference.aspose.com/words/ar/net/aspose.words.tables/rowformat/height/)
+- خاصية قاعدة الارتفاع للصف المحدد - [HeightRule](https://reference.aspose.com/words/ar/net/aspose.words.tables/rowformat/heightrule/)
 
 وفي الوقت نفسه، يمكن ضبط ارتفاع مختلف لكل صف - وهذا يسمح لك بالتحكم في إعدادات الجدول على نطاق واسع.
 
 {{% alert color="primary" %}}
 
-يمكن تعيين خيارات القاعدة لتحديد ارتفاع الكائن باستخدام تعداد [HeightRule](https://reference.aspose.com/words/net/aspose.words/heightrule/).
+يمكن تعيين خيارات القاعدة لتحديد ارتفاع الكائن باستخدام تعداد [HeightRule](https://reference.aspose.com/words/ar/net/aspose.words/heightrule/).
 
 {{% /alert %}}
 
@@ -168,11 +168,11 @@ url: /ar/net/applying-formatting/
 
 يتم تحديد العرض المطلوب للجدول أو الخلايا الفردية من خلال خاصية العرض المفضل، وهو الحجم الذي يسعى العنصر لملاءمته. أي أنه يمكن تحديد العرض المفضل للجدول بأكمله أو للخلايا الفردية. في بعض الحالات، قد لا يكون من الممكن ملاءمة هذا العرض تمامًا، ولكن العرض الفعلي سيكون قريبًا من هذه القيمة في معظم الحالات.
 
-يتم تعيين نوع وقيمة العرض المفضل المناسب باستخدام طرق فئة [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/):
+يتم تعيين نوع وقيمة العرض المفضل المناسب باستخدام طرق فئة [PreferredWidth](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidth/):
 
-* طريقة [Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/auto/) لتحديد تلقائي أو "لا يوجد عرض مفضل"
-* طريقة [FromPercent](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompercent/) لتحديد النسبة المئوية للعرض
-* طريقة [FromPoints](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompoints/) لتحديد العرض بالنقاط
+* طريقة [Auto](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidth/auto/) لتحديد تلقائي أو "لا يوجد عرض مفضل"
+* طريقة [FromPercent](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidth/frompercent/) لتحديد النسبة المئوية للعرض
+* طريقة [FromPoints](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidth/frompoints/) لتحديد العرض بالنقاط
 
 تُظهر الصور أدناه تمثيلاً *لميزات إعداد العرض المفضلة* في Microsoft Word والخصائص المقابلة لها في Aspose.Words.
 
@@ -190,7 +190,7 @@ url: /ar/net/applying-formatting/
 
 #### حدد الجدول المفضل أو عرض الخلية
 
-في Aspose.Words، يتم تعيين عرض الجدول والخلية باستخدام خاصية [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) وخاصية [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/)، مع الخيارات المتاحة في تعداد [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/):
+في Aspose.Words، يتم تعيين عرض الجدول والخلية باستخدام خاصية [Table.PreferredWidth](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/preferredwidth/) وخاصية [CellFormat.PreferredWidth](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/preferredwidth/)، مع الخيارات المتاحة في تعداد [PreferredWidthType](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidthtype/):
 
 - **Auto**، وهو ما يعادل عدم وجود مجموعة عرض مفضلة
 - **Percent**، الذي يناسب العنصر بالنسبة للمساحة المتاحة في حجم النافذة أو الحاوية، ويعيد حساب القيمة عندما يتغير العرض المتاح
@@ -202,13 +202,13 @@ url: /ar/net/applying-formatting/
 
 {{% /alert %}}
 
-سيؤدي استخدام خاصية [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) إلى ضبط عرضه المفضل بالنسبة إلى حاويته: الصفحة أو عمود النص أو خلية الجدول الخارجي إذا كان جدولًا متداخلاً.
+سيؤدي استخدام خاصية [Table.PreferredWidth](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/preferredwidth/) إلى ضبط عرضه المفضل بالنسبة إلى حاويته: الصفحة أو عمود النص أو خلية الجدول الخارجي إذا كان جدولًا متداخلاً.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين الجدول ليتناسب تلقائيًا مع 50% من عرض الصفحة:
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
-سيؤدي استخدام خاصية [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) في خلية معينة إلى ضبط العرض المفضل لها.
+سيؤدي استخدام خاصية [CellFormat.PreferredWidth](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/preferredwidth/) في خلية معينة إلى ضبط العرض المفضل لها.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين إعدادات العرض المفضلة المختلفة:
 
@@ -216,7 +216,7 @@ url: /ar/net/applying-formatting/
 
 #### ابحث عن نوع العرض المفضل والقيمة
 
-يمكنك استخدام خصائص [Type](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/) و[Value](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/value/) للعثور على تفاصيل العرض المفضلة للجدول أو الخلية المطلوبة.
+يمكنك استخدام خصائص [Type](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidth/type/) و[Value](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidth/value/) للعثور على تفاصيل العرض المفضلة للجدول أو الخلية المطلوبة.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استرداد نوع العرض المفضل لخلية الجدول:
 
@@ -230,7 +230,7 @@ url: /ar/net/applying-formatting/
 
 ### كيفية ضبط الاحتواء التلقائي
 
-تسمح الخاصية [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) للخلايا الموجودة في الجدول بالنمو والتقلص وفقًا لمعيار محدد. على سبيل المثال، يمكنك استخدام خيار **احتواء تلقائي للنافذة** لملاءمة الجدول مع عرض الصفحة، وخيار **الاحتواء التلقائي للمحتوى** للسماح لكل خلية بالنمو أو التقليص وفقًا لمحتواها.
+تسمح الخاصية [AllowAutoFit](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/allowautofit/) للخلايا الموجودة في الجدول بالنمو والتقلص وفقًا لمعيار محدد. على سبيل المثال، يمكنك استخدام خيار **احتواء تلقائي للنافذة** لملاءمة الجدول مع عرض الصفحة، وخيار **الاحتواء التلقائي للمحتوى** للسماح لكل خلية بالنمو أو التقليص وفقًا لمحتواها.
 
 {{% alert color="primary" %}}
 
@@ -238,7 +238,7 @@ url: /ar/net/applying-formatting/
 
 {{% /alert %}}
 
-افتراضيًا، يقوم Aspose.Words بإدراج جدول جديد باستخدام **احتواء تلقائي للنافذة**. سيتم تحديد حجم الجدول وفقًا لعرض الصفحة المتاح. لتغيير حجم جدول، يمكنك استدعاء الأسلوب [AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/). تقبل هذه الطريقة تعداد [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/) الذي يحدد نوع الاحتواء التلقائي الذي سيتم تطبيقه على الجدول.
+افتراضيًا، يقوم Aspose.Words بإدراج جدول جديد باستخدام **احتواء تلقائي للنافذة**. سيتم تحديد حجم الجدول وفقًا لعرض الصفحة المتاح. لتغيير حجم جدول، يمكنك استدعاء الأسلوب [AutoFit](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/autofit/). تقبل هذه الطريقة تعداد [AutoFitBehavior](https://reference.aspose.com/words/ar/net/aspose.words.tables/autofitbehavior/) الذي يحدد نوع الاحتواء التلقائي الذي سيتم تطبيقه على الجدول.
 
 من المهم أن تعرف أن طريقة الاحتواء التلقائي هي في الواقع اختصار يطبق خصائص مختلفة على الجدول في نفس الوقت. هذه هي الخصائص التي تعطي الجدول بالفعل السلوك المرصود. سنناقش هذه الخصائص لكل خيار من خيارات الاحتواء التلقائي.
 
@@ -298,7 +298,7 @@ url: /ar/net/applying-formatting/
 1. تم تعطيل خاصية **Table.AllowAutoFit** بحيث لا تنمو الأعمدة أو تتقلص إلى محتواها
 
 2. تتم إزالة العرض المفضل للجدول بأكمله من **Table.PreferredWidth**، وتتم إزالة **CellFormat.PreferredWidth** من جميع خلايا الجدول
-3. النتيجة النهائية هي جدول يتم تحديد عرض أعمدته بواسطة خاصية [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/)، ولا يتم تغيير حجم أعمدته تلقائيًا عندما يقوم المستخدم بإدخال النص أو عند تغيير حجم الصفحة
+3. النتيجة النهائية هي جدول يتم تحديد عرض أعمدته بواسطة خاصية [CellFormat.Width](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/width/)، ولا يتم تغيير حجم أعمدته تلقائيًا عندما يقوم المستخدم بإدخال النص أو عند تغيير حجم الصفحة
 
 {{% alert color="primary" %}}
 
@@ -318,7 +318,7 @@ url: /ar/net/applying-formatting/
 
 ### ترتيب الأسبقية عند حساب عرض الخلية
 
-يسمح Aspose.Words للمستخدمين بتحديد عرض الجدول أو الخلية من خلال كائنات متعددة، بما في ذلك [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) - خاصية [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) الخاصة به غالبًا ما تكون متبقية من الإصدارات السابقة، ومع ذلك، فهي لا تزال مفيدة لتبسيط ضبط عرض الخلية.
+يسمح Aspose.Words للمستخدمين بتحديد عرض الجدول أو الخلية من خلال كائنات متعددة، بما في ذلك [CellFormat](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/) - خاصية [Width](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/width/) الخاصة به غالبًا ما تكون متبقية من الإصدارات السابقة، ومع ذلك، فهي لا تزال مفيدة لتبسيط ضبط عرض الخلية.
 
 من المهم معرفة أن خاصية **CellFormat.Width** تعمل بشكل مختلف اعتمادًا على خصائص العرض الأخرى الموجودة بالفعل في الجدول.
 
@@ -326,9 +326,9 @@ url: /ar/net/applying-formatting/
 
 |  طلب |  ملكية |  وصف |
 |  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  يتم تحديد [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) |  إذا تم تمكين **AutoFit**:<br>- قد يتجاوز الجدول العرض المفضل لاستيعاب المحتوى - وعادةً لا يتقلص إلى ما دون العرض المفضل<br>- يتم تجاهل أي تغيير في قيمة **CellFormat.Width** وستتناسب الخلية مع محتوياتها بدلاً من ذلك |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) بقيمة **Points** أو **Percent** |  تم تجاهل **CellFormat.Width** |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) بقيمة **Auto** |  يتم نسخ القيمة من **CellFormat.Width** وتصبح العرض المفضل للخلية (بالنقاط) |
+|  1      |  يتم تحديد [AllowAutoFit](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/allowautofit/) |  إذا تم تمكين **AutoFit**:<br>- قد يتجاوز الجدول العرض المفضل لاستيعاب المحتوى - وعادةً لا يتقلص إلى ما دون العرض المفضل<br>- يتم تجاهل أي تغيير في قيمة **CellFormat.Width** وستتناسب الخلية مع محتوياتها بدلاً من ذلك |
+|  2      |  [PreferredWidthType](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidthtype/) بقيمة **Points** أو **Percent** |  تم تجاهل **CellFormat.Width** |
+|  3      |  [PreferredWidthType](https://reference.aspose.com/words/ar/net/aspose.words.tables/preferredwidthtype/) بقيمة **Auto** |  يتم نسخ القيمة من **CellFormat.Width** وتصبح العرض المفضل للخلية (بالنقاط) |
 
 {{% alert color="primary" %}}
 
@@ -344,7 +344,7 @@ url: /ar/net/applying-formatting/
 
 ## السماح بالتباعد بين الخلايا
 
-يمكنك الحصول على أو تعيين أي مسافة إضافية بين خلايا الجدول المشابهة لخيار "تباعد الخلايا" في Microsoft Word. ويمكن القيام بذلك باستخدام خاصية [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/).
+يمكنك الحصول على أو تعيين أي مسافة إضافية بين خلايا الجدول المشابهة لخيار "تباعد الخلايا" في Microsoft Word. ويمكن القيام بذلك باستخدام خاصية [AllowCellSpacing](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/allowcellspacing/).
 
 يمكن رؤية مثال لكيفية تطبيق هذه الخيارات على جدول حقيقي في المستند في الصورة أدناه.
 
@@ -356,7 +356,7 @@ url: /ar/net/applying-formatting/
 
 ## تطبيق الحدود والتظليل
 
-يمكن تطبيق الحدود والتظليل إما على الجدول بأكمله باستخدام [Table.SetBorder](https://reference.aspose.com/words/net/aspose.words.tables/table/setborder/) و[Table.SetBorders](https://reference.aspose.com/words/net/aspose.words.tables/table/setborders/) و[Table.SetShading](https://reference.aspose.com/words/net/aspose.words.tables/table/setshading/)، أو على خلايا محددة فقط باستخدام [CellFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/borders/) و[CellFormat.Shading](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/shading/). بالإضافة إلى ذلك، يمكن تعيين حدود الصفوف باستخدام [RowFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/borders/)، ولكن لا يمكن تطبيق التظليل بهذه الطريقة.
+يمكن تطبيق الحدود والتظليل إما على الجدول بأكمله باستخدام [Table.SetBorder](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/setborder/) و[Table.SetBorders](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/setborders/) و[Table.SetShading](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/setshading/)، أو على خلايا محددة فقط باستخدام [CellFormat.Borders](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/borders/) و[CellFormat.Shading](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/shading/). بالإضافة إلى ذلك، يمكن تعيين حدود الصفوف باستخدام [RowFormat.Borders](https://reference.aspose.com/words/ar/net/aspose.words.tables/rowformat/borders/)، ولكن لا يمكن تطبيق التظليل بهذه الطريقة.
 
 توضح الصور أدناه إعدادات الحدود والظل في Microsoft Word والخصائص المقابلة لها في Aspose.Words.
 

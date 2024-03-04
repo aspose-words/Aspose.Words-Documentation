@@ -17,14 +17,14 @@ Bu işlevselliği [Ek açıklamaları ücretsiz çevrimiçi kaldırma](https://p
 
 {{% /alert %}}
 
-Aspose.Words, kullanıcıların yorumlarla çalışmasına olanak tanır; Aspose.Words'teki bir belgedeki yorumlar [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) sınıfı tarafından temsil edilir. Ayrıca, bir yorumla ilişkilendirilmesi gereken metin bölgesini belirtmek için [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) ve [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) sınıflarını da kullanın.
+Aspose.Words, kullanıcıların yorumlarla çalışmasına olanak tanır; Aspose.Words'teki bir belgedeki yorumlar [Comment](https://reference.aspose.com/words/tr/net/aspose.words/comment/) sınıfı tarafından temsil edilir. Ayrıca, bir yorumla ilişkilendirilmesi gereken metin bölgesini belirtmek için [CommentRangeStart](https://reference.aspose.com/words/tr/net/aspose.words/commentrangestart/) ve [CommentRangeEnd](https://reference.aspose.com/words/tr/net/aspose.words/commentrangeend/) sınıflarını da kullanın.
 
 ## Yorum ekle
 
 Aspose.Words, çeşitli şekillerde yorum eklemenizi sağlar:
 
-1. [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) sınıfını kullanma
-2. [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) ve [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) sınıflarını kullanma
+1. [Comment](https://reference.aspose.com/words/tr/net/aspose.words/comment/) sınıfını kullanma
+2. [CommentRangeStart](https://reference.aspose.com/words/tr/net/aspose.words/commentrangestart/) ve [CommentRangeEnd](https://reference.aspose.com/words/tr/net/aspose.words/commentrangeend/) sınıflarını kullanma
 
 Aşağıdaki kod örneği, **Comment** sınıfını kullanarak bir paragrafa nasıl yorum ekleneceğini gösterir:
 
@@ -45,11 +45,11 @@ Bu örnekte hem bir belgedeki yorumlardan bilgi toplamak hem de bir belgeden yor
 
 ### Yorumlar Nasıl Çıkarılır veya Kaldırılır
 
-Bu örnekteki kod aslında oldukça basittir ve tüm yöntemler aynı yaklaşımı temel almaktadır. Bir Word belgesindeki bir yorum, Aspose.Words belgesi nesne modelinde bir [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) nesnesi tarafından temsil edilir. Bir belgedeki tüm yorumları toplamak için, ilk parametresi [NodeType.Comment](https://reference.aspose.com/words/net/aspose.words/nodetype/) olarak ayarlanmış [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) yöntemini kullanın. **GetChildNodes** yönteminin ikinci parametresinin true olarak ayarlandığından emin olun: bu, **GetChildNodes**'u yalnızca yakın alt düğümleri toplamak yerine yinelemeli olarak tüm alt düğümler arasından seçim yapmaya zorlar.
+Bu örnekteki kod aslında oldukça basittir ve tüm yöntemler aynı yaklaşımı temel almaktadır. Bir Word belgesindeki bir yorum, Aspose.Words belgesi nesne modelinde bir [Comment](https://reference.aspose.com/words/tr/net/aspose.words/comment/) nesnesi tarafından temsil edilir. Bir belgedeki tüm yorumları toplamak için, ilk parametresi [NodeType.Comment](https://reference.aspose.com/words/tr/net/aspose.words/nodetype/) olarak ayarlanmış [GetChildNodes](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/getchildnodes/) yöntemini kullanın. **GetChildNodes** yönteminin ikinci parametresinin true olarak ayarlandığından emin olun: bu, **GetChildNodes**'u yalnızca yakın alt düğümleri toplamak yerine yinelemeli olarak tüm alt düğümler arasından seçim yapmaya zorlar.
 
 Bir belgeden yorumların nasıl çıkarılacağını ve kaldırılacağını göstermek için aşağıdaki adımları izleyeceğiz:
 
-1. [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfını kullanarak bir Word belgesi açın
+1. [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfını kullanarak bir Word belgesi açın
 2. Belgedeki tüm yorumları bir koleksiyona alın
 3. Yorumları çıkarmak için:
    1. foreach operatörünü kullanarak koleksiyona göz atın
@@ -80,7 +80,7 @@ Aşağıdaki kod örneği, belirtilen yazara göre yazar adının, tarih&amp;saa
 
 ### Yorumlar Nasıl Kaldırılır
 
-Tüm yorumları kaldırıyorsanız, yorumları tek tek silerek koleksiyonda ilerlemenize gerek yoktur. Yorumlar koleksiyonundaki [Clear](https://reference.aspose.com/words/net/aspose.words/nodecollection/clear/) yöntemini çağırarak bunları kaldırabilirsiniz.
+Tüm yorumları kaldırıyorsanız, yorumları tek tek silerek koleksiyonda ilerlemenize gerek yoktur. Yorumlar koleksiyonundaki [Clear](https://reference.aspose.com/words/tr/net/aspose.words/nodecollection/clear/) yöntemini çağırarak bunları kaldırabilirsiniz.
 
 Aşağıdaki kod örneği, belgedeki tüm yorumların nasıl kaldırılacağını gösterir:
 
@@ -114,9 +114,9 @@ Aşağıdaki kod örneği, **CommentRangeStart** ile **CommentRangeEnd** arasın
 
 ## Yorumun Yanıtını Ekle veya Kaldır
 
-[AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) yöntemi bu yoruma bir yanıt ekler. Mevcut Microsoft Office sınırlamaları nedeniyle belgede yalnızca 1 düzeyde yanıta izin verildiğini lütfen unutmayın. Bu yöntem mevcut Yanıt yorumunda çağrılırsa *InvalidOperationException* türünde bir istisna ortaya çıkar.
+[AddReply](https://reference.aspose.com/words/tr/net/aspose.words/comment/addreply/) yöntemi bu yoruma bir yanıt ekler. Mevcut Microsoft Office sınırlamaları nedeniyle belgede yalnızca 1 düzeyde yanıta izin verildiğini lütfen unutmayın. Bu yöntem mevcut Yanıt yorumunda çağrılırsa *InvalidOperationException* türünde bir istisna ortaya çıkar.
 
-Bu yoruma verilen yanıtı kaldırmak için [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) yöntemini kullanabilirsiniz.
+Bu yoruma verilen yanıtı kaldırmak için [RemoveReply](https://reference.aspose.com/words/tr/net/aspose.words/comment/removereply/) yöntemini kullanabilirsiniz.
 
 Aşağıdaki kod örneği, yoruma yanıtın nasıl ekleneceğini ve yorumun yanıtının nasıl kaldırılacağını gösterir:
 
@@ -124,7 +124,7 @@ Aşağıdaki kod örneği, yoruma yanıtın nasıl ekleneceğini ve yorumun yan�
 
 ## Yorumun Yanıtını Oku
 
-[Replies](https://reference.aspose.com/words/net/aspose.words/comment/replies/) özelliği, belirtilen yorumun doğrudan alt öğeleri olan [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) nesnelerinin bir koleksiyonunu döndürür.
+[Replies](https://reference.aspose.com/words/tr/net/aspose.words/comment/replies/) özelliği, belirtilen yorumun doğrudan alt öğeleri olan [Comment](https://reference.aspose.com/words/tr/net/aspose.words/comment/) nesnelerinin bir koleksiyonunu döndürür.
 
 Aşağıdaki kod örneği, bir yorumun yanıtlarının nasıl yineleneceğini ve bunların nasıl çözüleceğini gösterir:
 

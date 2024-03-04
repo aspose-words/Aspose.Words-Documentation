@@ -13,7 +13,7 @@ Tabloların nasıl çalıştığı üzerinde daha fazla kontrol sahibi olmak iç
 
 ## Tablo Öğesi Dizinini {#find-the-index-of-table-elements}'i Bulun
 
-Sütunlar, satırlar ve hücreler, seçilen belge düğümüne indeksinden erişilerek yönetilir. Herhangi bir düğümün dizinini bulmak, öğe türündeki tüm alt düğümlerin üst düğümden toplanmasını ve ardından koleksiyonda istenen düğümün dizinini bulmak için [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) yöntemini kullanmayı içerir.
+Sütunlar, satırlar ve hücreler, seçilen belge düğümüne indeksinden erişilerek yönetilir. Herhangi bir düğümün dizinini bulmak, öğe türündeki tüm alt düğümlerin üst düğümden toplanmasını ve ardından koleksiyonda istenen düğümün dizinini bulmak için [IndexOf](https://reference.aspose.com/words/tr/net/aspose.words/nodecollection/indexof/) yöntemini kullanmayı içerir.
 
 ### {#find-the-index-of-table-in-a-document} Belgesindeki Tablonun Dizinini Bulma
 
@@ -41,7 +41,7 @@ Aşağıdaki kod örneği, satırdaki bir hücrenin dizininin nasıl alınacağ�
 
 ## Sütunlar {#work-with-columns} ile Çalışma
 
-Aspose.Words Document Object Model'de (DOM), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) düğümü [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) düğümlerinden ve ardından [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) düğümlerinden oluşur. Dolayısıyla Aspose.Words'in `Document` Nesne Modelinde, Word belgelerinde olduğu gibi sütun kavramı yoktur.
+Aspose.Words Document Object Model'de (DOM), [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/) düğümü [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/) düğümlerinden ve ardından [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/) düğümlerinden oluşur. Dolayısıyla Aspose.Words'in `Document` Nesne Modelinde, Word belgelerinde olduğu gibi sütun kavramı yoktur.
 
 Tasarım gereği, Microsoft Word ve Aspose.Words'deki tablo satırları tamamen bağımsızdır ve temel özellikler ve işlemler yalnızca tablonun satırlarında ve hücrelerinde bulunur. Bu, tablolara bazı ilginç özelliklere sahip olma yeteneği kazandırır:
 
@@ -65,7 +65,7 @@ Aşağıdaki kod örneği, bir belgedeki tablodan bir sütunun nasıl kaldırıl
 
 ## Satırları Başlık Satırları Olarak Belirtin
 
-Tablodaki ilk satırı Başlık Satırı olarak yalnızca ilk sayfada veya tablo birkaç sayfaya bölünmüşse her sayfada tekrarlamayı seçebilirsiniz. Aspose.Words'te, [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/) özelliğini kullanarak Başlık Satırını her sayfada tekrarlayabilirsiniz.
+Tablodaki ilk satırı Başlık Satırı olarak yalnızca ilk sayfada veya tablo birkaç sayfaya bölünmüşse her sayfada tekrarlamayı seçebilirsiniz. Aspose.Words'te, [HeadingFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowformat/headingformat/) özelliğini kullanarak Başlık Satırını her sayfada tekrarlayabilirsiniz.
 
 Ayrıca, birden fazla başlık satırını, bu satırların tablonun başında birbiri ardına yerleştirilmesi durumunda da işaretleyebilirsiniz. Bunu yapmak için **HeadingFormat** özelliklerini bu satırlara uygulamanız gerekir.
 
@@ -92,7 +92,7 @@ Varsayılan olarak yukarıdaki özellikler devre dışıdır.
 
 ### Bir Satırın Sayfalar Arasında Kırılmasını Önleyin {#keep-a-row-from-breaking-across-pages}
 
-Bu, bir satırın hücreleri içindeki içeriğin sayfaya bölünmesinin kısıtlanmasını içerir. Microsoft Word'te bu, Tablo Özellikleri altında "Satırın sayfalar arasında bölünmesine izin ver" seçeneği olarak bulunabilir. Aspose.Words'de bu, bir [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)'in [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) nesnesi altında [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages) özelliği olarak bulunur.
+Bu, bir satırın hücreleri içindeki içeriğin sayfaya bölünmesinin kısıtlanmasını içerir. Microsoft Word'te bu, Tablo Özellikleri altında "Satırın sayfalar arasında bölünmesine izin ver" seçeneği olarak bulunabilir. Aspose.Words'de bu, bir [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/)'in [RowFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowformat/) nesnesi altında [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/format/properties/allowbreakacrosspages) özelliği olarak bulunur.
 
 Aşağıdaki kod örneği, bir tablodaki her satır için satırların sayfalar arasında bölünmesinin nasıl devre dışı bırakılacağını gösterir:
 
@@ -108,7 +108,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 Tablonun sayfalara bölünmesini engellemek için tablonun içerdiği içeriğin bir arada kalmasını istediğimizi belirtmemiz gerekir.
 
-Bunu yapmak için Aspose.Words, kullanıcıların bir tablo seçmesine ve tablo hücreleri içindeki her paragraf için true'e [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/) parametresini etkinleştirmesine olanak tanıyan bir yöntem kullanır. Bunun istisnası, tablonun false olarak ayarlanması gereken son paragrafıdır.
+Bunu yapmak için Aspose.Words, kullanıcıların bir tablo seçmesine ve tablo hücreleri içindeki her paragraf için true'e [KeepWithNext](https://reference.aspose.com/words/tr/net/aspose.words/paragraphformat/keepwithnext/) parametresini etkinleştirmesine olanak tanıyan bir yöntem kullanır. Bunun istisnası, tablonun false olarak ayarlanması gereken son paragrafıdır.
 
 Aşağıdaki kod örneği, bir tablonun aynı sayfada birlikte kalacak şekilde nasıl ayarlanacağını gösterir:
 

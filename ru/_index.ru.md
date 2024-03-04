@@ -21,7 +21,7 @@ Aspose.Words — это библиотека классов, доступная 
            <li><a href="https://products.aspose.com/words/net/">Aspose.Words для .NET страница продукта</a></li>
            <li><a href="/words/ru/net/product-overview/">Обзор продукта</a></li>
            <li><a href="/words/ru/net/developer-guide/">Руководство разработчика</a></li>
-           <li><a href="https://reference.aspose.com/words/net/">Aspose.Words для направляющей .NET – API Reference</a></li>
+           <li><a href="https://reference.aspose.com/words/ru/net/">Aspose.Words для направляющей .NET – API Reference</a></li>
            <li><a href="https://releases.aspose.com/words/net/release-notes/">Aspose.Words для .NET примечания к выпуску</a></li>
            <li><a href="https://releases.aspose.com/words/net/">Aspose.Words для .NET скачать</a></li>
            <li><a href="https://www.nuget.org/packages/Aspose.Words/">Aspose.Words для .NET – NuGet Package</a></li>

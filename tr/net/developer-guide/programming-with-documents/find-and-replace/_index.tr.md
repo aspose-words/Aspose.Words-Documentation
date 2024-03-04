@@ -24,11 +24,11 @@ Aspose.Words, aşağıdakileri kullanarak bul ve değiştir işlemini uygulamak 
 
 Ayrıca, bulma ve değiştirme işlemindeki kesintileri belirtmek için basit dize değiştirme ve normal ifadelere sahip özel meta karakterler kullanabilirsiniz.
 
-Aspose.Words, bulma ve değiştirme işlevini [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/) ad alanıyla sunar. [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) sınıfını kullanarak bulma ve değiştirme işlemi sırasında birçok seçenekle çalışabilirsiniz.
+Aspose.Words, bulma ve değiştirme işlevini [Aspose.Words.Replacing](https://reference.aspose.com/words/tr/net/aspose.words.replacing/) ad alanıyla sunar. [FindReplaceOptions](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/) sınıfını kullanarak bulma ve değiştirme işlemi sırasında birçok seçenekle çalışabilirsiniz.
 
 ### Basit Dize Değiştirme {#find-and-replace-text-using-simple-string-replacement}'i Kullanarak Metni Bulma ve Değiştirme
 
-Belirli bir dizeyi bulmak veya değiştirmek ve yapılan değişiklik sayısını döndürmek için [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/#replace/) yöntemlerinden birini kullanabilirsiniz. Bu durumda, değiştirilecek bir dizeyi, tüm oluşumlarının yerini alacak bir dizeyi, değiştirmenin büyük/küçük harfe duyarlı olup olmayacağını ve yalnızca bağımsız sözcüklerin etkilenip etkilenmeyeceğini belirtebilirsiniz.
+Belirli bir dizeyi bulmak veya değiştirmek ve yapılan değişiklik sayısını döndürmek için [Replace](https://reference.aspose.com/words/tr/net/aspose.words/range/replace/#replace/) yöntemlerinden birini kullanabilirsiniz. Bu durumda, değiştirilecek bir dizeyi, tüm oluşumlarının yerini alacak bir dizeyi, değiştirmenin büyük/küçük harfe duyarlı olup olmayacağını ve yalnızca bağımsız sözcüklerin etkilenip etkilenmeyeceğini belirtebilirsiniz.
 
 Aşağıdaki kod örneği, "_CustomerName_" dizesinin nasıl bulunacağını ve onu *"James Bond"* dizesiyle nasıl değiştireceğinizi gösterir
 
@@ -46,7 +46,7 @@ Ve basit dize değişimini uyguladıktan sonra:
 
 Düzenli ifade (regex), belirli bir metin dizisini tanımlayan bir kalıptır. Bir kelimenin tüm çift geçişlerini tek bir sözcük geçişiyle değiştirmek istediğinizi varsayalım. Daha sonra çift sözcük modelini belirtmek için şu normal ifadeyi uygulayabilirsiniz: `([a-zA-Z]+) \1`.
 
-Eşleşmeleri bulmak için `Regex` parametresini normal ifade modeli olarak ayarlayarak belirli karakter birleşimlerini aramak ve değiştirmek için diğer [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/) yöntemini kullanın.
+Eşleşmeleri bulmak için `Regex` parametresini normal ifade modeli olarak ayarlayarak belirli karakter birleşimlerini aramak ve değiştirmek için diğer [Replace](https://reference.aspose.com/words/tr/net/aspose.words/range/replace/) yöntemini kullanın.
 
 Aşağıdaki kod örneği, normal ifade düzeniyle eşleşen dizelerin belirtilen değiştirme dizesiyle nasıl değiştirileceğini gösterir:
 
@@ -76,7 +76,7 @@ Aşağıdaki kod örneği, metnin paragraf ve sayfa sonuyla nasıl değiştirile
 
 ## Bir Belge {#find-and-replace-string-in-header-or-footer-of-a-document}'in Üstbilgi/Altbilgisindeki Dizeyi Bulma ve Değiştirme
 
-[HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) sınıfını kullanarak bir Word belgesinin üstbilgi/altbilgi bölümündeki metni bulabilir ve değiştirebilirsiniz.
+[HeaderFooter](https://reference.aspose.com/words/tr/net/aspose.words/headerfooter/) sınıfını kullanarak bir Word belgesinin üstbilgi/altbilgi bölümündeki metni bulabilir ve değiştirebilirsiniz.
 
 Aşağıdaki kod örneği, belgenizdeki başlık bölümünün metninin nasıl değiştirileceğini gösterir:
 
@@ -117,7 +117,7 @@ Altbilgi dizesinin değiştirilmesini uyguladıktan sonra:
 
 Bul ve değiştir işlemini uygularken metnin belirli bölümlerini göz ardı edebilirsiniz. Böylece metnin belirli bölümleri aramanın dışında tutulabilir ve bul ve değiştir işlemi yalnızca geri kalan bölümlere uygulanabilir.
 
-Aspose.Words, metni yok saymak için [IgnoreDeleted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) ve [IgnoreInserted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/) gibi birçok bul ve değiştir özelliği sağlar.
+Aspose.Words, metni yok saymak için [IgnoreDeleted](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) ve [IgnoreInserted](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/) gibi birçok bul ve değiştir özelliği sağlar.
 
 Aşağıdaki kod örneği, silme düzeltmelerinin içindeki metnin nasıl yoksayılacağını gösterir:
 
@@ -125,13 +125,13 @@ Aşağıdaki kod örneği, silme düzeltmelerinin içindeki metnin nasıl yoksay
 
 ## {#customize-find-and-replace-operation} Bul ve Değiştir İşlemini Özelleştirme
 
-Aspose.Words, metni bulmak ve değiştirmek için [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyfont/) ve [ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/) özellikleriyle belirli formatı uygulamak, [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) özelliğiyle değiştirme modellerinde ikameleri kullanmak ve diğerleri gibi birçok farklı [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) sağlar.
+Aspose.Words, metni bulmak ve değiştirmek için [ApplyFont](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/applyfont/) ve [ApplyParagraphFormats](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/) özellikleriyle belirli formatı uygulamak, [UseSubstitutions](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) özelliğiyle değiştirme modellerinde ikameleri kullanmak ve diğerleri gibi birçok farklı [properties](https://reference.aspose.com/words/tr/net/aspose.words.replacing/findreplaceoptions/) sağlar.
 
 Aşağıdaki kod örneği, belgenizdeki belirli bir sözcüğün nasıl vurgulanacağını gösterir:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
 
-Aspose.Words, değiştirme işlemi sırasında özel bir yöntem oluşturmak ve çağırmak için [IReplacingCallback](https://reference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback/) arayüzünü kullanmanıza olanak tanır. Normal ifadeyle belirtilen metni HTML etiketleriyle değiştirmek gibi bulma ve değiştirme işlemini özelleştirmeniz gereken bazı kullanım durumlarınız olabilir, bu nedenle temel olarak değiştirmeyi HTML ekleyerek uygulayacaksınız.
+Aspose.Words, değiştirme işlemi sırasında özel bir yöntem oluşturmak ve çağırmak için [IReplacingCallback](https://reference.aspose.com/words/tr/net/aspose.words.replacing/ireplacingcallback/) arayüzünü kullanmanıza olanak tanır. Normal ifadeyle belirtilen metni HTML etiketleriyle değiştirmek gibi bulma ve değiştirme işlemini özelleştirmeniz gereken bazı kullanım durumlarınız olabilir, bu nedenle temel olarak değiştirmeyi HTML ekleyerek uygulayacaksınız.
 
 Bir dizeyi bir HTML etiketiyle değiştirmeniz gerekiyorsa, bulma ve değiştirme işlemini özelleştirmek için **IReplacingCallback** arayüzünü uygulayın; böylece eşleşme, belgenizin eşleşme düğümüyle bir çalıştırmanın başlangıcında başlar. **IReplacingCallback** kullanımına ilişkin birkaç örnek verelim.
 

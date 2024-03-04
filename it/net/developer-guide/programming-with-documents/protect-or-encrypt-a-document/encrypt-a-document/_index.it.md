@@ -19,7 +19,7 @@ Per crittografare un documento, utilizzare la proprietà **Password** per fornir
 
 {{% alert color="primary" %}}
 
-Puoi trovare la proprietà **Password** appropriata per il formato richiesto. Ogni formato di salvataggio del documento nell'[Salvataggio dello spazio dei nomi](https://reference.aspose.com/words/net/aspose.words.saving/) ha una classe corrispondente contenente le opzioni di salvataggio per questo formato. Ad esempio, la proprietà [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) nella classe [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) per DOC o la proprietà [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) nella classe [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) per DOCX, DOCM, DOTX, DOTM e FlatOpc.
+Puoi trovare la proprietà **Password** appropriata per il formato richiesto. Ogni formato di salvataggio del documento nell'[Salvataggio dello spazio dei nomi](https://reference.aspose.com/words/it/net/aspose.words.saving/) ha una classe corrispondente contenente le opzioni di salvataggio per questo formato. Ad esempio, la proprietà [Password](https://reference.aspose.com/words/it/net/aspose.words.saving/docsaveoptions/password/) nella classe [DocSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/docsaveoptions/) per DOC o la proprietà [Password](https://reference.aspose.com/words/it/net/aspose.words.saving/ooxmlsaveoptions/password/) nella classe [OoxmlSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/ooxmlsaveoptions/) per DOCX, DOCM, DOTX, DOTM e FlatOpc.
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ Il seguente esempio di codice mostra come crittografare un documento con una pas
 
 In alcuni casi, potresti avere un documento illeggibile e vuoi essere sicuro che sia crittografato e non danneggiato o compresso.
 
-Per rilevare se un documento è crittografato e se è richiesta una password, è possibile utilizzare la proprietà [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) della classe [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/). Questa proprietà consentirà inoltre di eseguire alcune azioni prima di caricare un documento, ad esempio informare un utente di fornire una password.
+Per rilevare se un documento è crittografato e se è richiesta una password, è possibile utilizzare la proprietà [IsEncrypted](https://reference.aspose.com/words/it/net/aspose.words/fileformatinfo/isencrypted/) della classe [FileFormatInfo](https://reference.aspose.com/words/it/net/aspose.words/fileformatinfo/). Questa proprietà consentirà inoltre di eseguire alcune azioni prima di caricare un documento, ad esempio informare un utente di fornire una password.
 
 Il seguente esempio di codice mostra come rilevare la crittografia del documento:
 

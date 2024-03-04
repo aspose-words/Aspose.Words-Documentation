@@ -13,22 +13,22 @@ url: /ar/net/saving-a-document-as-a-multipage-tiff/
 
 ## تحويل DOC إلى TIFF متعدد الصفحات
 
-في Aspose.Words، يمكن إجراء التحويل من DOC إلى TIFF باستخدام سطر واحد من التعليمات البرمجية، وذلك ببساطة عن طريق تمرير مسار "الحفظ إلى" وامتداد الملف ذي الصلة إلى طريقة [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save). تقوم طريقة **Save** تلقائيًا باشتقاق `SaveFormat` من امتداد اسم الملف المحدد في المسار. يوضح المثال التالي كيفية تحويل مستند إلى تنسيق TIFF:
+في Aspose.Words، يمكن إجراء التحويل من DOC إلى TIFF باستخدام سطر واحد من التعليمات البرمجية، وذلك ببساطة عن طريق تمرير مسار "الحفظ إلى" وامتداد الملف ذي الصلة إلى طريقة [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/#save). تقوم طريقة **Save** تلقائيًا باشتقاق `SaveFormat` من امتداد اسم الملف المحدد في المسار. يوضح المثال التالي كيفية تحويل مستند إلى تنسيق TIFF:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Rendering-Printing-SaveAsMultipageTiff-SaveAsTIFF.cs" >}}
 
 ## تحديد خيارات إضافية عند عرض TIFF
 
-غالبًا ما تحتاج إلى تحديد خيارات إضافية تؤثر على نتيجة العرض. ولهذا الغرض، استخدم فئة [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/)، التي تحتوي على الخصائص التي تحدد كيفية عرض المستند على الصورة. يمكنك تحديد ما يلي:
+غالبًا ما تحتاج إلى تحديد خيارات إضافية تؤثر على نتيجة العرض. ولهذا الغرض، استخدم فئة [ImageSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/)، التي تحتوي على الخصائص التي تحدد كيفية عرض المستند على الصورة. يمكنك تحديد ما يلي:
 
-- حفظ التنسيق لتحديد قائمة الخيارات المتاحة ([SaveFormat](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/saveformat))
-- الدقة ([HorizontalResolution](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/horizontalresolution/)، [VerticalResolution](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/verticalresolution/)، [Resolution](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/resolution))
-- عدد الصفحات ([PageIndex](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/)، [PageCount](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/))
-- إعدادات الألوان والإضاءة ([PaperColor](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/papercolor/)، [ImageColorMode](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagecolormode/)، [ImageBrightness](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagebrightness/)، [ImageContrast](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/imagecontrast))
-- جودة الصورة ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/jpegquality/)، [Scale](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/scale/)، [TiffCompression](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/tiffcompression/)، [GraphicsQualityOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/graphicsqualityoptions))
-- الطريقة المستخدمة لثنائية الصورة ([TiffBinarizationMethod](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/)، [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/thresholdforfloydsteinbergdithering))
-- تنسيق البكسل للصور التي تم إنشاؤها ([PixelFormat](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/pixelformat))
-- التعامل مع ملفات تعريف Windows بواسطة Aspose.Words ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/)، [UseGdiEmfRenderer](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/properties/usegdiemfrenderer))
+- حفظ التنسيق لتحديد قائمة الخيارات المتاحة ([SaveFormat](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/properties/saveformat))
+- الدقة ([HorizontalResolution](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/horizontalresolution/)، [VerticalResolution](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/verticalresolution/)، [Resolution](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/properties/resolution))
+- عدد الصفحات ([PageIndex](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/)، [PageCount](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/))
+- إعدادات الألوان والإضاءة ([PaperColor](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/papercolor/)، [ImageColorMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/imagecolormode/)، [ImageBrightness](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/imagebrightness/)، [ImageContrast](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/properties/imagecontrast))
+- جودة الصورة ([JpegQuality](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/jpegquality/)، [Scale](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/scale/)، [TiffCompression](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/tiffcompression/)، [GraphicsQualityOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/properties/graphicsqualityoptions))
+- الطريقة المستخدمة لثنائية الصورة ([TiffBinarizationMethod](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/)، [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/properties/thresholdforfloydsteinbergdithering))
+- تنسيق البكسل للصور التي تم إنشاؤها ([PixelFormat](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/properties/pixelformat))
+- التعامل مع ملفات تعريف Windows بواسطة Aspose.Words ([MetafileRenderingOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/)، [UseGdiEmfRenderer](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/properties/usegdiemfrenderer))
 - الخيارات الإضافية التي يمكنك رؤيتها في فئة **ImageSaveOptions**
 
 يوضح المثال التالي كيفية تحويل DOC إلى TIFF مع الخيارات التي تم تكوينها:
@@ -37,9 +37,9 @@ url: /ar/net/saving-a-document-as-a-multipage-tiff/
 
 ## عتبة ثنائية TIFF
 
-يمكن حفظ صورة TIFF بتنسيق 1bpp b/w عن طريق تعيين خاصية [PixelFormat](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/pixelformat/) على نوع تنسيق Format1bppIndexed بكسل، وخاصية [TiffCompression](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/tiffcompression/) إما على Ccitt3 أو Ccitt4.
+يمكن حفظ صورة TIFF بتنسيق 1bpp b/w عن طريق تعيين خاصية [PixelFormat](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/pixelformat/) على نوع تنسيق Format1bppIndexed بكسل، وخاصية [TiffCompression](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/tiffcompression/) إما على Ccitt3 أو Ccitt4.
 
-لتجزئة الصور، يستخدم Aspose.Words أبسط طريقة - العتبة. تقوم هذه الطريقة بتحويل صورة TIFF ذات التدرج الرمادي إلى صورة ثنائية، باستخدام قيمة عتبة. لذلك، عندما يلزم تحويل مستند إلى تنسيق ملف TIFF، فمن الممكن الحصول على أو تعيين الحد الأدنى لثنائية TIFF عبر خاصية [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/). يتم تعيين القيمة الافتراضية لهذه الخاصية على 128، وكلما ارتفعت هذه القيمة، أصبحت الصورة أغمق.
+لتجزئة الصور، يستخدم Aspose.Words أبسط طريقة - العتبة. تقوم هذه الطريقة بتحويل صورة TIFF ذات التدرج الرمادي إلى صورة ثنائية، باستخدام قيمة عتبة. لذلك، عندما يلزم تحويل مستند إلى تنسيق ملف TIFF، فمن الممكن الحصول على أو تعيين الحد الأدنى لثنائية TIFF عبر خاصية [ThresholdForFloydSteinbergDithering](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/). يتم تعيين القيمة الافتراضية لهذه الخاصية على 128، وكلما ارتفعت هذه القيمة، أصبحت الصورة أغمق.
 
 يوضح المثال التالي كيفية إجراء ثنائية TIFF بحد محدد:
 

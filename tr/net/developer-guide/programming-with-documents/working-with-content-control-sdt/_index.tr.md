@@ -67,7 +67,7 @@ Aşağıdaki kod örneği, içerik denetiminin özel XML bölümlerine nasıl ba
 
 ## Yapılandırılmış Belge Etiket Aralığının XML Eşlemesi
 
-Bu yapılandırılmış belge etiketi aralığının, **StructuredDocumentTagRangeStart.XmlMapping özelliği**'i kullanarak geçerli belgenin özel bir XML bölümündeki XML verileriyle eşlenmesini sağlayabilirsiniz. Ancak, yapılandırılmış bir belge etiketi aralığını XML verileriyle eşlemek için [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) yöntemi kullanılabilir.
+Bu yapılandırılmış belge etiketi aralığının, **StructuredDocumentTagRangeStart.XmlMapping özelliği**'i kullanarak geçerli belgenin özel bir XML bölümündeki XML verileriyle eşlenmesini sağlayabilirsiniz. Ancak, yapılandırılmış bir belge etiketi aralığını XML verileriyle eşlemek için [SetMapping](https://reference.aspose.com/words/tr/net/aspose.words.markup/xmlmapping/setmapping/) yöntemi kullanılabilir.
 
 Aşağıdaki kod örneği, XML eşlemesinin nasıl ayarlanacağını gösterir:
 
@@ -108,7 +108,7 @@ Aşağıdaki kod örneği, içerik denetimi stilinin nasıl ayarlanacağını g�
 
 ## Tekrarlanan Bölüm İçeriği Denetimiyle Çalışma
 
-Tekrarlanan bölüm içerik kontrolü, içinde yer alan içeriğin tekrarlanmasına olanak tanır. Aspose.Words kullanılarak yinelenen bölüm ve yinelenen bölüm öğe türlerinin yapılandırılmış belge etiketi düğümleri oluşturulabilir ve [SdtType numaralandırma türü](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) bu amaçla **RepeatingSectionItem** özelliği sağlar.
+Tekrarlanan bölüm içerik kontrolü, içinde yer alan içeriğin tekrarlanmasına olanak tanır. Aspose.Words kullanılarak yinelenen bölüm ve yinelenen bölüm öğe türlerinin yapılandırılmış belge etiketi düğümleri oluşturulabilir ve [SdtType numaralandırma türü](https://reference.aspose.com/words/tr/net/aspose.words.markup/sdttype/) bu amaçla **RepeatingSectionItem** özelliği sağlar.
 
 Aşağıdaki kod örneği, yinelenen bölüm içerik denetiminin bir tabloya nasıl bağlanacağını gösterir.
 

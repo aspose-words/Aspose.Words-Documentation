@@ -67,7 +67,7 @@ L'exemple de code suivant montre comment lier le contrôle de contenu à des par
 
 ## XMLMapping de la plage de balises de documents structurés
 
-Vous pouvez obtenir le mappage de cette plage de balises de document structuré avec des données XML dans une partie XML personnalisée du document actuel à l'aide du **Propriété StructuredDocumentTagRangeStart.XmlMapping**. Cependant, la méthode [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) peut être utilisée pour mapper une plage de balises de document structuré à des données XML.
+Vous pouvez obtenir le mappage de cette plage de balises de document structuré avec des données XML dans une partie XML personnalisée du document actuel à l'aide du **Propriété StructuredDocumentTagRangeStart.XmlMapping**. Cependant, la méthode [SetMapping](https://reference.aspose.com/words/fr/net/aspose.words.markup/xmlmapping/setmapping/) peut être utilisée pour mapper une plage de balises de document structuré à des données XML.
 
 L'exemple de code suivant montre comment définir le mappage XML:
 
@@ -108,7 +108,7 @@ L'exemple de code suivant montre comment définir le style du contrôle de conte
 
 ## Utilisation du contrôle de contenu de section répétitive
 
-Le contrôle du contenu de la section répétitive permet de répéter le contenu qu'elle contient. À l'aide de Aspose.Words, les nœuds de balises de document structurés des types d'éléments de section répétitive et de section répétitive peuvent être créés et à cet effet, [Type d'énumération SdtType](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) fournit une propriété **RepeatingSectionItem**.
+Le contrôle du contenu de la section répétitive permet de répéter le contenu qu'elle contient. À l'aide de Aspose.Words, les nœuds de balises de document structurés des types d'éléments de section répétitive et de section répétitive peuvent être créés et à cet effet, [Type d'énumération SdtType](https://reference.aspose.com/words/fr/net/aspose.words.markup/sdttype/) fournit une propriété **RepeatingSectionItem**.
 
 L’exemple de code suivant montre comment lier un contrôle de contenu de section répétitive à une table.
 

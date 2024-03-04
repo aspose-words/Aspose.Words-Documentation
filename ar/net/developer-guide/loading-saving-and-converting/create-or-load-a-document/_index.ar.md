@@ -10,11 +10,11 @@ keywords: "create a document c#, load a document c#, create a blank document c#,
 weight: 10
 ---
 
-تقريبًا أي مهمة تريد تنفيذها باستخدام Aspose.Words تتضمن تحميل مستند. تمثل فئة `Document` مستندًا تم تحميله في الذاكرة. يحتوي المستند على العديد من المُنشئات المحملة بشكل زائد مما يسمح لك بإنشاء مستند فارغ أو تحميله من ملف أو دفق. يمكن تحميل المستند بأي تنسيق تحميل يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات التحميل المدعومة، راجع تعداد [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/).
+تقريبًا أي مهمة تريد تنفيذها باستخدام Aspose.Words تتضمن تحميل مستند. تمثل فئة `Document` مستندًا تم تحميله في الذاكرة. يحتوي المستند على العديد من المُنشئات المحملة بشكل زائد مما يسمح لك بإنشاء مستند فارغ أو تحميله من ملف أو دفق. يمكن تحميل المستند بأي تنسيق تحميل يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات التحميل المدعومة، راجع تعداد [LoadFormat](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/).
 
 ## قم بإنشاء مستند جديد {#create-a-new-document}
 
-سوف نقوم باستدعاء مُنشئ [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) بدون معلمات لإنشاء مستند فارغ جديد. إذا كنت تريد إنشاء مستند برمجيًا، فإن أبسط طريقة هي استخدام فئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) لإضافة محتويات المستند.
+سوف نقوم باستدعاء مُنشئ [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/document/) بدون معلمات لإنشاء مستند فارغ جديد. إذا كنت تريد إنشاء مستند برمجيًا، فإن أبسط طريقة هي استخدام فئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) لإضافة محتويات المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إنشاء مستند باستخدام منشئ المستندات:
 
@@ -25,13 +25,13 @@ weight: 10
 لاحظ القيم الافتراضية:
 
 - تحتوي الوثيقة الفارغة على قسم واحد مع المعلمات الافتراضية، وفقرة واحدة فارغة، وبعض أنماط الوثيقة. في الواقع، هذه الوثيقة هي نفس نتيجة إنشاء "المستند الجديد" في Microsoft Word.
-- حجم ورق الوثيقة هو [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).**Letter**.
+- حجم ورق الوثيقة هو [PaperSize](https://reference.aspose.com/words/ar/net/aspose.words/papersize/).**Letter**.
 
 {{% /alert %}}
 
 ## قم بتحميل مستند {#load-a-document}
 
-لتحميل مستند موجود بأي من تنسيقات [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/)، قم بتمرير اسم الملف أو الدفق إلى أحد منشئي المستند. يتم تحديد تنسيق المستند الذي تم تحميله تلقائيًا من خلال امتداده.
+لتحميل مستند موجود بأي من تنسيقات [LoadFormat](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/)، قم بتمرير اسم الملف أو الدفق إلى أحد منشئي المستند. يتم تحديد تنسيق المستند الذي تم تحميله تلقائيًا من خلال امتداده.
 
 ### التحميل من ملف {#load-from-a-file}
 

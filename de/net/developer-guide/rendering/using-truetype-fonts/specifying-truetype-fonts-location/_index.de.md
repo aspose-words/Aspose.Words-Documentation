@@ -11,23 +11,23 @@ url: /de/net/specifying-truetype-fonts-location/
 
 Dieses Thema beschreibt das Standardverhalten von Aspose.Words bei der Suche nach TrueType-Schriftarten, einschließlich betriebssystemspezifischer Unterschiede, und zeigt, wie Benutzerschriftartenquellen angegeben werden.
 
-Die [FontSourceBase](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/)-Klasse wird verwendet, um verschiedene Schriftartquellen anzugeben. Es gibt mehrere Implementierungen der **FontSourceBase**-Klasse:
+Die [FontSourceBase](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsourcebase/)-Klasse wird verwendet, um verschiedene Schriftartquellen anzugeben. Es gibt mehrere Implementierungen der **FontSourceBase**-Klasse:
 
-- [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource)
-- [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource)
-- [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource)
-- [FileFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/filefontsource)
-- [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource)
+- [SystemFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/systemfontsource)
+- [FolderFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/folderfontsource)
+- [StreamFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/streamfontsource)
+- [FileFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/filefontsource)
+- [MemoryFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/memoryfontsource)
 
 Nachfolgend werden Implementierungsdetails für einige Klassen erläutert.
 
 ## Laden Sie Schriftarten aus System {#loading-fonts-from-system}
 
-Es gibt eine spezielle [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/)-Klasse, die standardmäßig immer verwendet wird. Es stellt alle auf dem System installierten TrueType-Schriftarten dar. Daher ist es möglich, eine Quellenliste mit **SystemFontSource** und allen anderen erforderlichen Quellen zu erstellen:
+Es gibt eine spezielle [SystemFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/systemfontsource/)-Klasse, die standardmäßig immer verwendet wird. Es stellt alle auf dem System installierten TrueType-Schriftarten dar. Daher ist es möglich, eine Quellenliste mit **SystemFontSource** und allen anderen erforderlichen Quellen zu erstellen:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFolders-SetFontsFolders.cs" >}}
 
-In [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) ist standardmäßig eine einzelne Instanz der **SystemFontSource**-Klasse definiert. Auf verschiedenen Betriebssystemen können sich Schriftarten an unterschiedlichen Orten befinden. Die Verwendung einer **FontSettings**-Instanz für jedes Dokument ist jedoch keine optimale Lösung. In den meisten Fällen sollte die Verwendung von [DefaultInstance](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/defaultinstance/) ausreichen.
+In [FontSettings](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/) ist standardmäßig eine einzelne Instanz der **SystemFontSource**-Klasse definiert. Auf verschiedenen Betriebssystemen können sich Schriftarten an unterschiedlichen Orten befinden. Die Verwendung einer **FontSettings**-Instanz für jedes Dokument ist jedoch keine optimale Lösung. In den meisten Fällen sollte die Verwendung von [DefaultInstance](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/defaultinstance/) ausreichen.
 
 Instanzen pro Dokument werden nur dann benötigt, wenn unterschiedliche Schriftartquellen für unterschiedliche Dokumente verwendet werden müssen, was ein seltener Fall ist. Die Verwendung mehrerer **FontSettings**-Instanzen verringert die Leistung, da sie keinen gemeinsamen Cache haben.
 
@@ -50,7 +50,7 @@ Das Aspose.Words-Rendering auf einem Server funktioniert normalerweise nicht mit
 
 ### Schriftarten auf Nicht-Windows-Systemen
 
-Aspose.Words sucht in den Systemschriftartenordnern nach den Schriftarten. Eine Liste dieser Ordner kann mit der [GetSystemFontFolders](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/)-Methode angezeigt werden. Wenn keine unterstützten Schriftarten gefunden werden, verwendet Aspose.Words die integrierte Standardschriftart Fanwood.ttf.
+Aspose.Words sucht in den Systemschriftartenordnern nach den Schriftarten. Eine Liste dieser Ordner kann mit der [GetSystemFontFolders](https://reference.aspose.com/words/de/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/)-Methode angezeigt werden. Wenn keine unterstützten Schriftarten gefunden werden, verwendet Aspose.Words die integrierte Standardschriftart Fanwood.ttf.
 
 Da die Schriftartenmetriken von Windows- und Nicht-Windows-Betriebssystemen unterschiedlich sind, unternimmt Aspose.Words alles, um eine ähnliche Schriftart zu finden und ein dem Original ähnliches Layout zu erstellen. Dies ist jedoch nicht immer möglich. In diesen Fällen sollte die **FontSettings**-Klasse verwendet werden, um benutzerdefinierte Schriftarten oder Ersetzungsregeln hinzuzufügen.
 
@@ -64,11 +64,11 @@ Aspose.Words sucht nach Schriftarten im Ordner /Library/Fonts, dem Standardspeic
 
 ## Laden Sie Schriftarten aus dem Ordner {#loading-fonts-from-folder}
 
-Wenn das verarbeitete Dokument Links zu Schriftarten enthält, die nicht im System vorhanden sind, Sie diese nicht zum Systemordner hinzufügen möchten oder keine Berechtigungen haben, ist es die beste Lösung, einen Ordner mit Ihren eigenen Schriftarten hinzuzufügen die [SetFontsSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontssources/)-Methode. Dadurch kann die Systemquelle durch eine Benutzerquelle ersetzt werden. Aspose.Words sucht nicht mehr nach Schriftarten in der Registrierung oder im Windows\Font-Ordner, sondern sucht stattdessen nur noch nach Schriftarten in den angegebenen Ordnern. Die [GetFontSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/getfontssources/)-Methode gibt die entsprechenden Werte zurück.
+Wenn das verarbeitete Dokument Links zu Schriftarten enthält, die nicht im System vorhanden sind, Sie diese nicht zum Systemordner hinzufügen möchten oder keine Berechtigungen haben, ist es die beste Lösung, einen Ordner mit Ihren eigenen Schriftarten hinzuzufügen die [SetFontsSources](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/setfontssources/)-Methode. Dadurch kann die Systemquelle durch eine Benutzerquelle ersetzt werden. Aspose.Words sucht nicht mehr nach Schriftarten in der Registrierung oder im Windows\Font-Ordner, sondern sucht stattdessen nur noch nach Schriftarten in den angegebenen Ordnern. Die [GetFontSources](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/getfontssources/)-Methode gibt die entsprechenden Werte zurück.
 
 ### Geben Sie einen oder mehrere Schriftartenordner an
 
-Die Methoden [SetFontsFolder](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/) und [SetFontsFolders](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/s) sind Abkürzungen zur **SetFontSources**-Methode mit einer oder mehreren [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource/)-Instanzen. Diese Methoden werden verwendet, um anzugeben, wo Aspose.Words nach Schriftarten suchen soll. Wenn ein Ordner nicht existiert oder nicht zugänglich ist, ignoriert Aspose.Words diesen Ordner einfach. Wenn alle Ordner, einschließlich Quellen für die Schriftartersetzung, ignoriert wurden, verwendet Aspose.Words standardmäßig die Schriftart Fanwood.
+Die Methoden [SetFontsFolder](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/setfontsfolder/) und [SetFontsFolders](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/setfontsfolder/s) sind Abkürzungen zur **SetFontSources**-Methode mit einer oder mehreren [FolderFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/folderfontsource/)-Instanzen. Diese Methoden werden verwendet, um anzugeben, wo Aspose.Words nach Schriftarten suchen soll. Wenn ein Ordner nicht existiert oder nicht zugänglich ist, ignoriert Aspose.Words diesen Ordner einfach. Wenn alle Ordner, einschließlich Quellen für die Schriftartersetzung, ignoriert wurden, verwendet Aspose.Words standardmäßig die Schriftart Fanwood.
 
 Das folgende Beispiel zeigt, wie Sie den Ordner oder die Quelle festlegen, die Aspose.Words anschließend verwendet, um beim Rendern oder Einbetten von Schriftarten nach TrueType-Schriftarten zu suchen:
 
@@ -94,23 +94,23 @@ Wenn Sie überhaupt keine Systemschriftarten verwenden möchten, können Sie die
 
 ### Vorrangiges Eigentum
 
-Die [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/)-Eigenschaft wird verwendet, wenn Schriftarten mit demselben Familiennamen und Stil in verschiedenen Schriftartquellen vorhanden sind. In diesem Fall wählt Aspose.Words die Schriftart aus der Quelle mit dem höheren Prioritätswert aus. Beispielsweise gibt es eine alte Version der Schriftart im Systemordner und der Kunde hat eine neue Version derselben Schriftart in einem benutzerdefinierten Ordner hinzugefügt.
+Die [Priority](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsourcebase/priority/)-Eigenschaft wird verwendet, wenn Schriftarten mit demselben Familiennamen und Stil in verschiedenen Schriftartquellen vorhanden sind. In diesem Fall wählt Aspose.Words die Schriftart aus der Quelle mit dem höheren Prioritätswert aus. Beispielsweise gibt es eine alte Version der Schriftart im Systemordner und der Kunde hat eine neue Version derselben Schriftart in einem benutzerdefinierten Ordner hinzugefügt.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersWithPriority-SetFontsFoldersWithPriority.cs" >}}
 
 ## Laden Sie Schriftarten aus Stream {#loading-fonts-from-stream}
 
-Aspose.Words stellt die [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/)-Klasse bereit, die das Laden von Schriftarten aus dem Stream ermöglicht. Um die Stream-Schriftartquelle verwenden zu können, muss ein Benutzer eine abgeleitete Klasse aus **StreamFontSource** erstellen und eine Implementierung der [OpenFontDataStream](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/openfontdatastream/)-Methode bereitstellen. Die **OpenFontDataStream**-Methode könnte mehrmals aufgerufen werden. Zum ersten Mal wird es aufgerufen, wenn Aspose.Words die bereitgestellten Schriftartenquellen durchsucht, um eine Liste der verfügbaren Schriftarten zu erhalten. Später kann es aufgerufen werden, wenn die Schriftart im Dokument verwendet wird, um die Schriftartdaten zu analysieren und die Schriftartdaten in einige Ausgabeformate einzubetten. **StreamFontSource** kann nützlich sein, da es das Laden der Schriftartdaten nur dann ermöglicht, wenn sie benötigt werden, und nicht, sie während der [Schriftarteinstellungen](https://fontsettings/)-Lebensdauer im Speicher zu speichern.
+Aspose.Words stellt die [StreamFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/streamfontsource/)-Klasse bereit, die das Laden von Schriftarten aus dem Stream ermöglicht. Um die Stream-Schriftartquelle verwenden zu können, muss ein Benutzer eine abgeleitete Klasse aus **StreamFontSource** erstellen und eine Implementierung der [OpenFontDataStream](https://reference.aspose.com/words/de/net/aspose.words.fonts/streamfontsource/openfontdatastream/)-Methode bereitstellen. Die **OpenFontDataStream**-Methode könnte mehrmals aufgerufen werden. Zum ersten Mal wird es aufgerufen, wenn Aspose.Words die bereitgestellten Schriftartenquellen durchsucht, um eine Liste der verfügbaren Schriftarten zu erhalten. Später kann es aufgerufen werden, wenn die Schriftart im Dokument verwendet wird, um die Schriftartdaten zu analysieren und die Schriftartdaten in einige Ausgabeformate einzubetten. **StreamFontSource** kann nützlich sein, da es das Laden der Schriftartdaten nur dann ermöglicht, wenn sie benötigt werden, und nicht, sie während der [Schriftarteinstellungen](https://fontsettings/)-Lebensdauer im Speicher zu speichern.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-ResourceSteamFontSourceExample-ResourceSteamFontSourceExample.cs" >}}
 
-**StreamFontSource** ist eine Alternative zu [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource/), da es immer möglich ist, einen Stream in den Speicher zu laden und an **MemoryFontSource** zu übergeben. Der Unterschied besteht darin, dass das **MemoryFontSource** ständig im Speicher gespeichert wird und das **StreamFontSource** bei Bedarf geladen und sofort entsorgt wird. Es kann jedoch, wie oben beschrieben, mehrmals geladen werden. In einigen Fällen ist **MemoryFontSource** vorzuziehen, in anderen **StreamFontSource**.
+**StreamFontSource** ist eine Alternative zu [MemoryFontSource](https://reference.aspose.com/words/de/net/aspose.words.fonts/memoryfontsource/), da es immer möglich ist, einen Stream in den Speicher zu laden und an **MemoryFontSource** zu übergeben. Der Unterschied besteht darin, dass das **MemoryFontSource** ständig im Speicher gespeichert wird und das **StreamFontSource** bei Bedarf geladen und sofort entsorgt wird. Es kann jedoch, wie oben beschrieben, mehrmals geladen werden. In einigen Fällen ist **MemoryFontSource** vorzuziehen, in anderen **StreamFontSource**.
 
 ## Speichern und laden Sie einen Cache für die Schriftartensuche
 
 Bei der ersten Suche nach einer Schriftart durchläuft Aspose.Words die vom Benutzer angegebenen Schriftartenquellen und erstellt einen Schriftarten-Suchcache basierend auf Daten aus diesen Quellen. Daher sammelt der Cache Informationen über die verfügbaren Schriftarten: Schriftfamilie, Stil, vollständiger Schriftname und andere. Bei nachfolgenden Aufrufen sucht Aspose.Words im Schriftarten-Suchcache nach Informationen über die gewünschte Schriftart anhand ihres Namens und analysiert anschließend die angegebenen Dateien, um die Schriftart zu verwenden.
 
-Das Verfahren zum Parsen aller verfügbaren Schriftartdateien zur Initialisierung des Caches ist recht zeitaufwändig. Mit Aspose.Words können Sie den Cache mithilfe der [SaveSearchCache](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/savesearchcache/)-Methode speichern und laden, um das Leistungsproblem zu lösen. Das heißt, der Benutzer kann einen zuvor gespeicherten Cache aus einer Datei laden und den Schritt des Parsens aller verfügbaren Schriftartdateien überspringen.
+Das Verfahren zum Parsen aller verfügbaren Schriftartdateien zur Initialisierung des Caches ist recht zeitaufwändig. Mit Aspose.Words können Sie den Cache mithilfe der [SaveSearchCache](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/savesearchcache/)-Methode speichern und laden, um das Leistungsproblem zu lösen. Das heißt, der Benutzer kann einen zuvor gespeicherten Cache aus einer Datei laden und den Schritt des Parsens aller verfügbaren Schriftartdateien überspringen.
 
 {{% alert color="primary" %}}
 
@@ -155,6 +155,6 @@ Der Cache eignet sich auch für andere Szenarien, wenn Schriftarten über das Ne
 
 ## Holen Sie sich eine Liste der verfügbaren {#get-a-list-of-available-fonts}-Schriftarten
 
-Wenn Sie die Liste der verfügbaren Schriftarten erhalten möchten, die beispielsweise zum Rendern eines PDF-Dokuments verwendet werden können, können Sie die [GetAvailableFonts](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/getavailablefonts/)-Methode verwenden, wie im folgenden Codebeispiel gezeigt. Die [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/)-Klasse gibt Informationen über die physische Schriftart an, die der Aspose.Words-Schriftart-Engine zur Verfügung steht:
+Wenn Sie die Liste der verfügbaren Schriftarten erhalten möchten, die beispielsweise zum Rendern eines PDF-Dokuments verwendet werden können, können Sie die [GetAvailableFonts](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsourcebase/getavailablefonts/)-Methode verwenden, wie im folgenden Codebeispiel gezeigt. Die [PhysicalFontInfo](https://reference.aspose.com/words/de/net/aspose.words.fonts/physicalfontinfo/)-Klasse gibt Informationen über die physische Schriftart an, die der Aspose.Words-Schriftart-Engine zur Verfügung steht:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSources-GetListOfAvailableFonts.cs" >}}

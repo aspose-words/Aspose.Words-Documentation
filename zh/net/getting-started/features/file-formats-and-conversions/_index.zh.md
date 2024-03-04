@@ -126,7 +126,7 @@ DOC 到 HTML – 高保真转换：
 
 ## 高扩展性
 
-可扩展的服务器端场景使用 Aspose.Words 主要是因为它简单干净的设计 - Aspose.Words 支持多线程。 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象彼此独立，只要一次只有一个线程可以修改文档（这是任何集合类的典型要求），多个线程就可以同时处理任意数量的文档。
+可扩展的服务器端场景使用 Aspose.Words 主要是因为它简单干净的设计 - Aspose.Words 支持多线程。 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象彼此独立，只要一次只有一个线程可以修改文档（这是任何集合类的典型要求），多个线程就可以同时处理任意数量的文档。
 
 ## 高性能
 

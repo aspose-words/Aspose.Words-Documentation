@@ -23,7 +23,7 @@ url: /zh/net/translate-markdown-to-document-object-model/
 
 ## 通用翻译原则
 
-我们对内联块使用 [Font](https://reference.aspose.com/words/net/aspose.words/font/) 格式。当 Aspose.Words DOM 中的 Markdown 特征没有直接对应时，我们使用名称以某些特殊单词开头的字符样式。
+我们对内联块使用 [Font](https://reference.aspose.com/words/zh/net/aspose.words/font/) 格式。当 Aspose.Words DOM 中的 Markdown 特征没有直接对应时，我们使用名称以某些特殊单词开头的字符样式。
 
 对于容器块，我们使用样式继承来表示嵌套的 Markdown 功能。在这种情况下，即使没有嵌套功能，我们也会使用名称以某些特殊单词开头的段落样式。
 
@@ -31,7 +31,7 @@ url: /zh/net/translate-markdown-to-document-object-model/
 
 ## 内联块
 
-我们在翻译 **Bold**、*Italic* 或~~删除线~~内联 markdown 功能时使用 [Font](https://reference.aspose.com/words/net/aspose.words/font/) 格式。
+我们在翻译 **Bold**、*Italic* 或~~删除线~~内联 markdown 功能时使用 [Font](https://reference.aspose.com/words/zh/net/aspose.words/font/) 格式。
 
 |  Markdown 功能 |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -53,11 +53,11 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
-|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) 类。 |
+|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  [FieldHyperlink](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldhyperlink/) 类。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
-|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) 类。 |
+|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [FieldHyperlink](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldhyperlink/) 类。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
-|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) 类。 |
+|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/) 类。 |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
 
 ## 集装箱块
@@ -155,7 +155,7 @@ Aspose.Words还允许将表格翻译成DOM，如下所示：
 
 |  Markdown 功能 |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> `一个 | b`<br />`- | -`<br />`c | d` |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 和 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 类。 |
+|  `Table`<br /> `一个 | b`<br />`- | -`<br />`c | d` |  [Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)、[Row](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/) 和 [Cell](https://reference.aspose.com/words/zh/net/aspose.words.tables/cell/) 类。 |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

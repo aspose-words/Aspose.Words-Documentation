@@ -13,7 +13,7 @@ Per un maggiore controllo sul funzionamento delle tabelle, scopri come manipolar
 
 ## Trova l'indice degli elementi della tabella {#find-the-index-of-table-elements}
 
-Colonne, righe e celle vengono gestite accedendo al nodo del documento selezionato tramite il suo indice. Trovare l'indice di qualsiasi nodo implica raccogliere tutti i nodi figli del tipo di elemento dal nodo genitore e quindi utilizzare il metodo [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) per trovare l'indice del nodo desiderato nella raccolta.
+Colonne, righe e celle vengono gestite accedendo al nodo del documento selezionato tramite il suo indice. Trovare l'indice di qualsiasi nodo implica raccogliere tutti i nodi figli del tipo di elemento dal nodo genitore e quindi utilizzare il metodo [IndexOf](https://reference.aspose.com/words/it/net/aspose.words/nodecollection/indexof/) per trovare l'indice del nodo desiderato nella raccolta.
 
 ### Trova l'indice di una tabella in un documento {#find-the-index-of-table-in-a-document}
 
@@ -41,7 +41,7 @@ L'esempio di codice seguente mostra come recuperare l'indice di una cella in una
 
 ## Lavora con colonne {#work-with-columns}
 
-Nel Aspose.Words Document Object Model (DOM), il nodo [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) è costituito da nodi [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) e quindi da nodi [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/). Pertanto, nel modello a oggetti `Document` di Aspose.Words, come nei documenti di Word, non esiste il concetto di colonna.
+Nel Aspose.Words Document Object Model (DOM), il nodo [Table](https://reference.aspose.com/words/it/net/aspose.words.tables/table/) è costituito da nodi [Row](https://reference.aspose.com/words/it/net/aspose.words.tables/row/) e quindi da nodi [Cell](https://reference.aspose.com/words/it/net/aspose.words.tables/cell/). Pertanto, nel modello a oggetti `Document` di Aspose.Words, come nei documenti di Word, non esiste il concetto di colonna.
 
 Per impostazione predefinita, le righe della tabella in Microsoft Word e Aspose.Words sono completamente indipendenti e le proprietà e le operazioni di base sono contenute solo nelle righe e nelle celle della tabella. Ciò dà alle tabelle la possibilità di avere alcuni attributi interessanti:
 
@@ -65,7 +65,7 @@ L'esempio di codice seguente mostra come rimuovere una colonna da una tabella in
 
 ## Specificare le righe come righe di intestazione
 
-Puoi scegliere di ripetere la prima riga della tabella come riga di intestazione solo sulla prima pagina o su ogni pagina se la tabella è divisa in più parti. In Aspose.Words, puoi ripetere la riga di intestazione su ogni pagina utilizzando la proprietà [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/).
+Puoi scegliere di ripetere la prima riga della tabella come riga di intestazione solo sulla prima pagina o su ogni pagina se la tabella è divisa in più parti. In Aspose.Words, puoi ripetere la riga di intestazione su ogni pagina utilizzando la proprietà [HeadingFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/rowformat/headingformat/).
 
 Puoi anche contrassegnare più righe di intestazione se tali righe si trovano una dopo l'altra all'inizio della tabella. Per fare ciò, è necessario applicare le proprietà **HeadingFormat** a queste righe.
 
@@ -92,7 +92,7 @@ Per impostazione predefinita, le proprietà di cui sopra sono disabilitate.
 
 ### Evitare che una riga si rompa tra le pagine {#keep-a-row-from-breaking-across-pages}
 
-Ciò comporta la limitazione della suddivisione del contenuto all'interno delle celle di una riga su una pagina. In Microsoft Word, questo può essere trovato sotto Proprietà tabella come opzione "Consenti alla riga di suddividersi tra le pagine". In Aspose.Words questo si trova sotto l'oggetto [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) di un [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) come proprietà [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
+Ciò comporta la limitazione della suddivisione del contenuto all'interno delle celle di una riga su una pagina. In Microsoft Word, questo può essere trovato sotto Proprietà tabella come opzione "Consenti alla riga di suddividersi tra le pagine". In Aspose.Words questo si trova sotto l'oggetto [RowFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/rowformat/) di un [Row](https://reference.aspose.com/words/it/net/aspose.words.tables/row/) come proprietà [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/it/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
 
 L'esempio di codice seguente mostra come disabilitare l'interruzione delle righe tra le pagine per ogni riga in una tabella:
 
@@ -108,7 +108,7 @@ L'esempio di codice seguente mostra come disabilitare l'interruzione delle righe
 
 Per evitare che la tabella si divida su più pagine, dobbiamo specificare che vogliamo che il contenuto contenuto nella tabella rimanga insieme.
 
-Per fare ciò, Aspose.Words utilizza un metodo che consente agli utenti di selezionare una tabella e abilitare il parametro [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/) in true per ciascun paragrafo all'interno delle celle della tabella. L'eccezione è l'ultimo paragrafo della tabella, che dovrebbe essere impostato su false.
+Per fare ciò, Aspose.Words utilizza un metodo che consente agli utenti di selezionare una tabella e abilitare il parametro [KeepWithNext](https://reference.aspose.com/words/it/net/aspose.words/paragraphformat/keepwithnext/) in true per ciascun paragrafo all'interno delle celle della tabella. L'eccezione è l'ultimo paragrafo della tabella, che dovrebbe essere impostato su false.
 
 L'esempio di codice seguente mostra come impostare una tabella in modo che rimanga insieme sulla stessa pagina:
 

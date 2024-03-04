@@ -13,7 +13,7 @@ Die Formate PDF/A und PDF/UA stellen eine Reihe von Barrierefreiheitsanforderung
 
 Beim Speichern in einem der PDF/A- oder PDF/UA-Formate werden Warnungen ausgegeben und das Problem verstößt gegen die Compliance. Beispielsweise wird die Warnung über fehlende Dokumenttitel beim Speichern in PDF/UA ausgegeben und nicht beim Speichern in PDF/A.
 
-Alle Warnungen beziehen sich auf [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.MinorFormattingLoss** und [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.PDF**. Hier ist eine Liste der neuen Beschreibungswarnungswerte:
+Alle Warnungen beziehen sich auf [WarningType](https://reference.aspose.com/words/de/net/aspose.words/warningtype/)**.MinorFormattingLoss** und [WarningSource](https://reference.aspose.com/words/de/net/aspose.words/warningsource/)**.PDF**. Hier ist eine Liste der neuen Beschreibungswarnungswerte:
 
 |  Beschreibung des Warnwerts |  PDF/A |  PDF/UA |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

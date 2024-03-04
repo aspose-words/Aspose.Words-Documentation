@@ -20,7 +20,7 @@ Tieni presente che il carattere nel documento rappresenta un'entità, come nome 
 
 ## Manipolazione dei caratteri e problemi di prestazioni
 
-Tutti i meccanismi di manipolazione dei caratteri disponibili sono contenuti nella classe [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/). Questa classe è responsabile del recupero dei caratteri all'interno delle origini dei caratteri definite nonché del processo di sostituzione dei caratteri, come descritto di seguito.
+Tutti i meccanismi di manipolazione dei caratteri disponibili sono contenuti nella classe [FontSettings](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontsettings/). Questa classe è responsabile del recupero dei caratteri all'interno delle origini dei caratteri definite nonché del processo di sostituzione dei caratteri, come descritto di seguito.
 
 I caratteri vengono analizzati in diversi passaggi:
 
@@ -55,7 +55,7 @@ Un testo in un documento può essere formattato con vari caratteri, come Arial, 
 Tuttavia, ci sono situazioni in cui non è possibile trovare il carattere esatto e Aspose.Words deve sostituirlo con un carattere simile. Aspose.Words seleziona il carattere in base al seguente processo:
 1. Aspose.Words tenta di trovare un carattere tra le fonti di caratteri disponibili con un nome di carattere esatto.
 1. Aspose.Words tenta di trovare il carattere richiesto tra i caratteri incorporati nel documento originale. Alcuni formati di documento come DOCX possono contenere caratteri incorporati.
-1. Se Aspose.Words non è in grado di individuare il carattere richiesto con la corrispondenza esatta del nome e la proprietà [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) definita per questo carattere, Aspose.Words troverà il carattere definito con **AltName** dalla classe [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/), che specifica le informazioni sul carattere.
+1. Se Aspose.Words non è in grado di individuare il carattere richiesto con la corrispondenza esatta del nome e la proprietà [AltName](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontinfo/altname/) definita per questo carattere, Aspose.Words troverà il carattere definito con **AltName** dalla classe [FontInfo](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontinfo/), che specifica le informazioni sul carattere.
 1. Se Aspose.Words non è in grado di individuare il carattere definito e anche **AltName** non è definito, le regole di sostituzione dei caratteri vengono applicate una per una, come descritto di seguito (quando viene trovata la sostituzione appropriata, il processo di sostituzione dei caratteri si interrompe e il il passaggio successivo non viene eseguito):
    1. Innanzitutto, Aspose.Words tenta di elaborare il nome del carattere per ottenere la sostituzione, in particolare tenta di rimuovere i suffissi con separatori "-" e ",".<br>
       Se viene applicata questa regola di sostituzione, "Il font '&lt;OriginalFont&gt;' non è stato trovato. Si utilizza invece il font '&lt;SubstitutionFont&gt;'. Motivo: sostituzione del nome del font." viene visualizzato l'avviso.<br>
@@ -98,7 +98,7 @@ Tuttavia, ci sono situazioni in cui non è possibile trovare il carattere esatto
             fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
       {{< /highlight >}}
       Se **FontInfo** non è disponibile per il carattere mancante, il processo si interrompe.<br>
-   1. La regola di sostituzione **DefaultFont** verrà applicata nel caso in cui anche la sostituzione `FontInfo` non sia riuscita. Anche questa regola è abilitata per impostazione predefinita. Secondo questa regola, Aspose.Words tenterà di utilizzare il carattere predefinito specificato nella proprietà [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Se l'utente non ha scelto il proprio carattere predefinito, verrà utilizzato "Times New Roman" come carattere predefinito. Questa regola può essere disabilitata come mostrato di seguito:<br>
+   1. La regola di sostituzione **DefaultFont** verrà applicata nel caso in cui anche la sostituzione `FontInfo` non sia riuscita. Anche questa regola è abilitata per impostazione predefinita. Secondo questa regola, Aspose.Words tenterà di utilizzare il carattere predefinito specificato nella proprietà [DefaultFontName](https://reference.aspose.com/words/it/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Se l'utente non ha scelto il proprio carattere predefinito, verrà utilizzato "Times New Roman" come carattere predefinito. Questa regola può essere disabilitata come mostrato di seguito:<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ Se **FontInfo** è disponibile, la *regola di sostituzione FontInfo* risolverà 
 
 ## Come riconoscere che il carattere è stato sostituito
 
-A volte potrebbe non essere chiaro il motivo per cui il layout del documento è cambiato o perché alcuni caratteri non hanno l'aspetto previsto. In questi casi, i messaggi di avviso di sostituzione dei caratteri implementati dall'interfaccia [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/) vengono in soccorso. Hanno il tipo di avviso [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/) e il formato del testo descrittivo standard, "Font '<OriginalFont> non è stato trovato. Utilizzando '<SubstitutionFont> ' invece. Motivo:<Reason> ", con le seguenti motivazioni:
+A volte potrebbe non essere chiaro il motivo per cui il layout del documento è cambiato o perché alcuni caratteri non hanno l'aspetto previsto. In questi casi, i messaggi di avviso di sostituzione dei caratteri implementati dall'interfaccia [IWarningCallback](https://reference.aspose.com/words/it/net/aspose.words/iwarningcallback/) vengono in soccorso. Hanno il tipo di avviso [FontSubstitution](https://reference.aspose.com/words/it/net/aspose.words/warningtype/) e il formato del testo descrittivo standard, "Font '<OriginalFont> non è stato trovato. Utilizzando '<SubstitutionFont> ' invece. Motivo:<Reason> ", con le seguenti motivazioni:
 
-- "nome alternativo dal documento" – per la sostituzione con [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
+- "nome alternativo dal documento" – per la sostituzione con [AltName](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontinfo/properties/altname)
 - "sostituzione fontconfig" – per la sostituzione tramite regola di configurazione dei font
 - "sostituzione tabella" – per la sostituzione mediante regola della tabella
 - "sostituzione informazioni carattere" – per la sostituzione tramite regola di informazioni carattere
@@ -133,7 +133,7 @@ A volte potrebbe non essere chiaro il motivo per cui il layout del documento è 
 
 Esistono due diversi meccanismi utilizzati in Aspose.Words: sostituzione dei caratteri e fallback dei caratteri. La sostituzione dei caratteri viene utilizzata quando il carattere specificato nel documento non è stato trovato tra le fonti dei caratteri come descritto nelle sezioni precedenti. Il meccanismo di fallback del carattere viene utilizzato quando il carattere viene risolto, ma non contiene un carattere specifico. In questo caso, Aspose.Words tenta di utilizzare uno dei caratteri di fallback per il carattere.
 
-Esiste un metodo [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) che crea automaticamente le impostazioni di fallback eseguendo la scansione dei caratteri disponibili. Poiché questo metodo potrebbe produrre un'impostazione di fallback non ottimale, è possibile controllare il comportamento di fallback dei caratteri utilizzando le proprietà della classe [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/). Questa classe specifica le impostazioni del meccanismo di fallback dei caratteri. Puoi ottenere un'istanza della classe **FontFallbackSettings** come segue:
+Esiste un metodo [BuildAutomatic](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) che crea automaticamente le impostazioni di fallback eseguendo la scansione dei caratteri disponibili. Poiché questo metodo potrebbe produrre un'impostazione di fallback non ottimale, è possibile controllare il comportamento di fallback dei caratteri utilizzando le proprietà della classe [FontFallbackSettings](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontfallbacksettings/). Questa classe specifica le impostazioni del meccanismo di fallback dei caratteri. Puoi ottenere un'istanza della classe **FontFallbackSettings** come segue:
 
 **.NET**
 
@@ -195,7 +195,7 @@ Nell'esempio di codice precedente, viene utilizzato il seguente file XML:
 
 ## Impostazioni di fallback dei caratteri predefiniti per i caratteri Google Noto
 
-Aspose.Words fornisce impostazioni di fallback dei caratteri predefinite per i caratteri Google Noto. Si tratta di font gratuiti concessi in licenza con SIL Open Font License, che possono essere scaricati da Google Noto Fonts. La classe **FontFallbackSettings** fornisce un metodo [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Carica le impostazioni di fallback predefinite, che utilizzano i caratteri Google Noto come mostrato nell'esempio di codice seguente:
+Aspose.Words fornisce impostazioni di fallback dei caratteri predefinite per i caratteri Google Noto. Si tratta di font gratuiti concessi in licenza con SIL Open Font License, che possono essere scaricati da Google Noto Fonts. La classe **FontFallbackSettings** fornisce un metodo [LoadNotoFallbackSettings](https://reference.aspose.com/words/it/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Carica le impostazioni di fallback predefinite, che utilizzano i caratteri Google Noto come mostrato nell'esempio di codice seguente:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

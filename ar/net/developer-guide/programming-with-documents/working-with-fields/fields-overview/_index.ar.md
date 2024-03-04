@@ -28,7 +28,7 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة مستندات Mic
 
 ![fields-aspose-words](/words/net/fields-overview/fields-overview-1.png)
 
-يتم تخزين المحتوى الذي يشكل رمز الحقل كعقد [Run](https://reference.aspose.com/words/net/aspose.words/run/) بين [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) و[FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/). يتم تخزين نتيجة الحقل بين عقدتي **FieldSeparator** و[FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) ويمكن أن تتكون من أنواع مختلفة من المحتوى. عادةً ما تحتوي نتيجة الحقل على نص مكون من عقد **Run** فقط، ومع ذلك فمن الممكن أن تكون عقدة **FieldEnd** موجودة في فقرة مختلفة تمامًا، وبالتالي تجعل نتيجة الحقل تتكون من عقد [المستويات المنطقية للعقد في المستند](/words/ar/net/logical-levels-of-nodes-in-a-document/) مثل **Table** و**Paragraph** أيضًا.
+يتم تخزين المحتوى الذي يشكل رمز الحقل كعقد [Run](https://reference.aspose.com/words/ar/net/aspose.words/run/) بين [FieldStart](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldstart/) و[FieldSeparator](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldseparator/). يتم تخزين نتيجة الحقل بين عقدتي **FieldSeparator** و[FieldEnd](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldend/) ويمكن أن تتكون من أنواع مختلفة من المحتوى. عادةً ما تحتوي نتيجة الحقل على نص مكون من عقد **Run** فقط، ومع ذلك فمن الممكن أن تكون عقدة **FieldEnd** موجودة في فقرة مختلفة تمامًا، وبالتالي تجعل نتيجة الحقل تتكون من عقد [المستويات المنطقية للعقد في المستند](/words/ar/net/logical-levels-of-nodes-in-a-document/) مثل **Table** و**Paragraph** أيضًا.
 
 فيما يلي عرض لكيفية تخزين الحقل في Aspose.Words باستخدام مثال "*DocumentExplorer"* الذي يمكن العثور عليه في [جيثب](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
@@ -36,15 +36,15 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة مستندات Mic
 
 ## الحقول في Aspose.Words Document Object Model (DOM)
 
-عندما يتم تحميل مستند في Aspose.Words، يتم تحميل حقول المستند في [Aspose.Words Document Object Model (DOM)](/words/ar/net/aspose-words-document-object-model/) كمجموعة من المكونات المنفصلة (العقد). يتم تحميل حقل واحد كمجموعة من عقد **FieldStart** و**FieldSeparator** و**FieldEnd** بالإضافة إلى المحتوى الموجود بين هذه العقد. إذا لم يكن للحقل نتيجة حقل، فلن تكون هناك عقدة **FieldSeparator**. يتم دائمًا العثور على كل هذه العقد مضمنة (مثل أبناء [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) أو [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/).
+عندما يتم تحميل مستند في Aspose.Words، يتم تحميل حقول المستند في [Aspose.Words Document Object Model (DOM)](/words/ar/net/aspose-words-document-object-model/) كمجموعة من المكونات المنفصلة (العقد). يتم تحميل حقل واحد كمجموعة من عقد **FieldStart** و**FieldSeparator** و**FieldEnd** بالإضافة إلى المحتوى الموجود بين هذه العقد. إذا لم يكن للحقل نتيجة حقل، فلن تكون هناك عقدة **FieldSeparator**. يتم دائمًا العثور على كل هذه العقد مضمنة (مثل أبناء [Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/) أو [SmartTag](https://reference.aspose.com/words/ar/net/aspose.words.markup/smarttag/).
 
-في Aspose.Words، كل عقدة من عقد **FieldXXX** مشتقة من [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/). توفر هذه الفئة خاصية للتحقق من نوع الحقل الذي تمثله العقدة المحددة من خلال خاصية [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/). على سبيل المثال، يمثل **FieldType.FieldMergeField** حقل دمج في المستند.
+في Aspose.Words، كل عقدة من عقد **FieldXXX** مشتقة من [FieldChar](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldchar/). توفر هذه الفئة خاصية للتحقق من نوع الحقل الذي تمثله العقدة المحددة من خلال خاصية [FieldType](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldtype/). على سبيل المثال، يمثل **FieldType.FieldMergeField** حقل دمج في المستند.
 
 {{% alert color="primary" %}}
 
-هناك بعض الحقول المحددة الموجودة في مستند Word والتي لم يتم استيرادها إلى Aspose.Words كمجموعة من عقد **FieldXXX**. على سبيل المثال، يتم استيراد حقل `LINK` وحقل `INCLUDEPICTURE` إلى Aspose.Words ككائن [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/). يوفر هذا الكائن خصائص للعمل مع بيانات الصورة المخزنة عادةً في هذه الحقول. لاستيراد حقل `INCLUDEPICTURE` كعقد **FieldXXX**، يجب تحديد خيار [PreserveIncludePictureField](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/preserveincludepicturefield/) كملف **true**.
+هناك بعض الحقول المحددة الموجودة في مستند Word والتي لم يتم استيرادها إلى Aspose.Words كمجموعة من عقد **FieldXXX**. على سبيل المثال، يتم استيراد حقل `LINK` وحقل `INCLUDEPICTURE` إلى Aspose.Words ككائن [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/). يوفر هذا الكائن خصائص للعمل مع بيانات الصورة المخزنة عادةً في هذه الحقول. لاستيراد حقل `INCLUDEPICTURE` كعقد **FieldXXX**، يجب تحديد خيار [PreserveIncludePictureField](https://reference.aspose.com/words/ar/net/aspose.words.loading/loadoptions/preserveincludepicturefield/) كملف **true**.
 
-يتم أيضًا استيراد حقول النموذج إلى Aspose.Words كفئة خاصة بها. تمثل فئة [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) حقل نموذج في مستند Word وتوفر طرقًا إضافية خاصة بحقل النموذج.
+يتم أيضًا استيراد حقول النموذج إلى Aspose.Words كفئة خاصة بها. تمثل فئة [FormField](https://reference.aspose.com/words/ar/net/aspose.words.fields/formfield/) حقل نموذج في مستند Word وتوفر طرقًا إضافية خاصة بحقل النموذج.
 
 {{% /alert %}}
 
@@ -201,10 +201,10 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة مستندات Mic
 
 ### Date وتنسيق الأرقام في الحقول
 
-عندما يحسب Aspose.Words نتيجة حقل، فإنه غالبًا ما يحتاج إلى تحليل سلسلة إلى قيمة رقم أو تاريخ وأيضًا تنسيقها مرة أخرى إلى سلسلة. بشكل افتراضي، يستخدم Aspose.Words ثقافة مؤشر الترابط الحالية لإجراء التحليل والتنسيق عند حساب قيم الحقل أثناء تحديث الحقل و mail merge. هناك أيضًا خيارات متوفرة في شكل فئة [FieldOptions](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/) والتي تسمح بمزيد من التحكم في الثقافة المستخدمة أثناء التحديث الميداني.
+عندما يحسب Aspose.Words نتيجة حقل، فإنه غالبًا ما يحتاج إلى تحليل سلسلة إلى قيمة رقم أو تاريخ وأيضًا تنسيقها مرة أخرى إلى سلسلة. بشكل افتراضي، يستخدم Aspose.Words ثقافة مؤشر الترابط الحالية لإجراء التحليل والتنسيق عند حساب قيم الحقل أثناء تحديث الحقل و mail merge. هناك أيضًا خيارات متوفرة في شكل فئة [FieldOptions](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldoptions/) والتي تسمح بمزيد من التحكم في الثقافة المستخدمة أثناء التحديث الميداني.
 
-- افتراضيًا، يتم تعيين خاصية [FieldUpdateCultureSource](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) على [CurrentThread](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/) والتي تقوم بتنسيق الحقول باستخدام ثقافة مؤشر الترابط الحالية
-- يمكن ضبط هذه الخاصية على [FieldCode](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/) بحيث يتم استخدام اللغة المحددة من رمز الحقل الخاص بالحقل للتنسيق بدلاً من ذلك
+- افتراضيًا، يتم تعيين خاصية [FieldUpdateCultureSource](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) على [CurrentThread](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldupdateculturesource/) والتي تقوم بتنسيق الحقول باستخدام ثقافة مؤشر الترابط الحالية
+- يمكن ضبط هذه الخاصية على [FieldCode](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldupdateculturesource/) بحيث يتم استخدام اللغة المحددة من رمز الحقل الخاص بالحقل للتنسيق بدلاً من ذلك
 
 ### التنسيق باستخدام ثقافة الموضوع الحالي
 
@@ -220,7 +220,7 @@ Aspose.Words هي مكتبة فئة مصممة لمعالجة مستندات Mic
 
 من ناحية أخرى، يقوم Microsoft Word بتنسيق كل حقل فردي بناءً على لغة النص الموجود في الحقل (على وجه التحديد، الامتدادات من رمز الحقل). في بعض الأحيان أثناء تحديث الحقل، قد يكون هذا هو السلوك المرغوب، على سبيل المثال، إذا كان لديك مستندات معممة تحتوي على محتوى يتكون من العديد من اللغات المختلفة وترغب في أن يحترم كل حقل اللغة المستخدمة من النص. يدعم Aspose.Words أيضًا هذه الوظيفة.
 
-توفر فئة [Document](https://reference.aspose.com/words/net/aspose.words/document/) خاصية [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) التي تحتوي على أعضاء يمكن استخدامها للتحكم في كيفية تحديث الحقول داخل المستند.
+توفر فئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) خاصية [FieldOptions](https://reference.aspose.com/words/ar/net/aspose.words/document/fieldoptions/) التي تحتوي على أعضاء يمكن استخدامها للتحكم في كيفية تحديث الحقول داخل المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديد المكان الذي يتم فيه اختيار الثقافة المستخدمة لتنسيق التاريخ أثناء التحديث الميداني وmail merge:
 

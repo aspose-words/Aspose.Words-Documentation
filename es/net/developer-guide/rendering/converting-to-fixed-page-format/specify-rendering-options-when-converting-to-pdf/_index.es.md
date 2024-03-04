@@ -13,15 +13,15 @@ El formato PDF es un formato de página fija muy popular entre los usuarios y am
 
 PDF es un formato complejo. Se requieren varias etapas de cálculo en el proceso de convertir un documento a PDF, incluido el cálculo del diseño. Dado que estas etapas incluyen cálculos complejos, requieren mucho tiempo. Además, el formato PDF es bastante complejo en sí mismo. Tiene una estructura de archivos, un modelo de gráficos y una incrustación de fuentes específicos. Además, presenta algunas funciones de salida complejas, como etiquetas de estructura de documentos, cifrado, firmas digitales y formularios editables.
 
-El motor de diseño Aspose.Words imita la forma en que funciona el motor de diseño de página de Microsoft Word. Por lo tanto, Aspose.Words hace que los documentos de salida PDF se parezcan lo más posible a lo que puede ver en Microsoft Word. A veces es necesario especificar opciones adicionales, lo que puede afectar el resultado de guardar un documento en formato PDF. Estas opciones se pueden especificar mediante el uso de la clase [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/), que contiene las propiedades que determinan cómo se mostrará la salida PDF.
+El motor de diseño Aspose.Words imita la forma en que funciona el motor de diseño de página de Microsoft Word. Por lo tanto, Aspose.Words hace que los documentos de salida PDF se parezcan lo más posible a lo que puede ver en Microsoft Word. A veces es necesario especificar opciones adicionales, lo que puede afectar el resultado de guardar un documento en formato PDF. Estas opciones se pueden especificar mediante el uso de la clase [PdfSaveOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/), que contiene las propiedades que determinan cómo se mostrará la salida PDF.
 
 A continuación se proporcionan algunos ejemplos del uso de **PdfSaveOptions**.
 
 {{% alert color="primary" %}}
 
-Actualmente, puede guardar en formatos PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u y PDF/UA-1. Utilice la enumeración [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) para establecer el nivel de cumplimiento de los estándares PDF. Tenga en cuenta que con el formato PDF/A, el tamaño de un archivo de salida es mayor que el tamaño de un archivo PDF normal.
+Actualmente, puede guardar en formatos PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u y PDF/UA-1. Utilice la enumeración [PdfCompliance](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfcompliance/) para establecer el nivel de cumplimiento de los estándares PDF. Tenga en cuenta que con el formato PDF/A, el tamaño de un archivo de salida es mayor que el tamaño de un archivo PDF normal.
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) y [PdfCompliance.PdfA1b](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) están marcados como obsoletos.
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfcompliance/) y [PdfCompliance.PdfA1b](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfcompliance/) están marcados como obsoletos.
 
 Para obtener más información sobre PDF/A, consulte el siguiente artículo, "Conozca las características de la conversión a PDF/A".
 
@@ -29,7 +29,7 @@ Para obtener más información sobre PDF/A, consulte el siguiente artículo, "Co
 
 ## Crear un documento PDF con formularios rellenables
 
-También es posible exportar formularios rellenables desde un documento Microsoft Word a un PDF de salida, que tiene formularios rellenables en lugar de texto sin formato. Utilice la propiedad [PreserveFormFields](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) para guardar un documento como PDF con formularios rellenables.
+También es posible exportar formularios rellenables desde un documento Microsoft Word a un PDF de salida, que tiene formularios rellenables en lugar de texto sin formato. Utilice la propiedad [PreserveFormFields](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) para guardar un documento como PDF con formularios rellenables.
 
 Tenga en cuenta que, a diferencia de Microsoft Word, el formato PDF tiene una cantidad limitada de opciones para formularios editables, como cuadros de texto, cuadros combinados y casillas de verificación. Microsoft Word tiene más tipos de formularios, por ejemplo, selector de fecha del calendario. Generalmente, no es posible imitar completamente el comportamiento de Microsoft Word en PDF. Por lo tanto, en algunos casos complejos, la salida del PDF puede diferir de lo que ve en Microsoft Word.
 
@@ -39,7 +39,7 @@ El siguiente ejemplo de código muestra cómo guardar un documento como PDF con 
 
 ## Exportación de estructura de documento y propiedades personalizadas
 
-La propiedad [https://reference.aspose.com/words/net/aspose.words.served/pdfsaveoptions/properties/exportdocumentstructure) le permite exportar la estructura del documento a formato PDF.
+La propiedad [https://reference.aspose.com/words/es/net/aspose.words.served/pdfsaveoptions/properties/exportdocumentstructure) le permite exportar la estructura del documento a formato PDF.
 
 Las funciones de estructura lógica de PDF proporcionan un mecanismo para incorporar información relacionada con la estructura del contenido del documento en un archivo PDF. Aspose.Words conserva información sobre la estructura de un documento Microsoft Word, como párrafos, listas, tablas, notas al pie/notas finales, etc.
 
@@ -53,7 +53,7 @@ Aspose.Words también le permite exportar propiedades personalizadas de document
 
 ## Exportación de esquemas desde marcadores y encabezados en un PDF de salida
 
-Si desea exportar marcadores como esquemas en el PDF de salida, puede utilizar la propiedad [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/). Esta propiedad especifica el nivel predeterminado en el esquema del documento, en el que se muestran los marcadores de Microsoft Word. Si el documento contiene marcadores en el encabezado/pie de página del documento, puede configurar la propiedad [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) en [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) o [All](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) para especificar cómo se exportan en el PDF de salida. Los marcadores en encabezados/pies de página no se exportan cuando el valor de **HeaderFooterBookmarksExportMode** es [None](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/).
+Si desea exportar marcadores como esquemas en el PDF de salida, puede utilizar la propiedad [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/es/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/). Esta propiedad especifica el nivel predeterminado en el esquema del documento, en el que se muestran los marcadores de Microsoft Word. Si el documento contiene marcadores en el encabezado/pie de página del documento, puede configurar la propiedad [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) en [First](https://reference.aspose.com/words/es/net/aspose.words.saving/headerfooterbookmarksexportmode/) o [All](https://reference.aspose.com/words/es/net/aspose.words.saving/headerfooterbookmarksexportmode/) para especificar cómo se exportan en el PDF de salida. Los marcadores en encabezados/pies de página no se exportan cuando el valor de **HeaderFooterBookmarksExportMode** es [None](https://reference.aspose.com/words/es/net/aspose.words.saving/headerfooterbookmarksexportmode/).
 
 El siguiente ejemplo de código muestra cómo exportar marcadores desde el primer encabezado/pie de página de una sección:
 
@@ -63,9 +63,9 @@ El PDF de salida de este ejemplo se muestra a continuación:
 
 ![specify-rendering-options-when-converting-to-pdf_1](/words/net/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-Cuando **HeaderFooterBookmarksExportMode** está configurado en [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) y el documento tiene encabezados/pies de página pares e impares o un encabezado/pie de página diferente en la primera página, se exportan marcadores para los primeros encabezados/pies de página únicos en una sección.
+Cuando **HeaderFooterBookmarksExportMode** está configurado en [First](https://reference.aspose.com/words/es/net/aspose.words.saving/headerfooterbookmarksexportmode/) y el documento tiene encabezados/pies de página pares e impares o un encabezado/pie de página diferente en la primera página, se exportan marcadores para los primeros encabezados/pies de página únicos en una sección.
 
-También puede exportar encabezados en el PDF de salida, utilizando la propiedad [HeadingsOutlineLevels](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/). Esta propiedad especifica cuántos niveles de encabezados se incluyen en el esquema del documento.
+También puede exportar encabezados en el PDF de salida, utilizando la propiedad [HeadingsOutlineLevels](https://reference.aspose.com/words/es/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/). Esta propiedad especifica cuántos niveles de encabezados se incluyen en el esquema del documento.
 
 El siguiente ejemplo de código muestra cómo exportar títulos con tres niveles:
 
@@ -83,9 +83,9 @@ Un marcador o encabezado de navegación puede tener diferentes apariencias en di
 
 ## Reducción de resolución de imágenes para reducir el tamaño del documento
 
-Aspose.Words ofrece la posibilidad de reducir la resolución de las imágenes para reducir el tamaño del PDF de salida, utilizando la propiedad [DownsampleOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/). La reducción de resolución está habilitada de forma predeterminada en la propiedad [DownsampleImages](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/downsampleimages/).
+Aspose.Words ofrece la posibilidad de reducir la resolución de las imágenes para reducir el tamaño del PDF de salida, utilizando la propiedad [DownsampleOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/). La reducción de resolución está habilitada de forma predeterminada en la propiedad [DownsampleImages](https://reference.aspose.com/words/es/net/aspose.words.saving/downsampleoptions/downsampleimages/).
 
-Tenga en cuenta que también es posible establecer una resolución específica en la propiedad [Resolution](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/) o un umbral de resolución en la propiedad [ResolutionThreshold](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/threshold). En el segundo caso, si la resolución de la imagen es menor que el valor umbral, no se aplicará la reducción de resolución.
+Tenga en cuenta que también es posible establecer una resolución específica en la propiedad [Resolution](https://reference.aspose.com/words/es/net/aspose.words.saving/downsampleoptions/resolution/) o un umbral de resolución en la propiedad [ResolutionThreshold](https://reference.aspose.com/words/es/net/aspose.words.saving/downsampleoptions/resolution/threshold). En el segundo caso, si la resolución de la imagen es menor que el valor umbral, no se aplicará la reducción de resolución.
 
 El siguiente ejemplo de código muestra cómo cambiar la resolución de las imágenes en un documento PDF de salida:
 
@@ -110,7 +110,7 @@ Hay una manera de especificar una opción para que Aspose.Words incorpore fuente
 
 ### Incrustar fuentes completas en PDF
 
-La propiedad [EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) le permite especificar cómo Aspose.Words incrusta fuentes en un documento PDF de salida.
+La propiedad [EmbedFullFonts](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) le permite especificar cómo Aspose.Words incrusta fuentes en un documento PDF de salida.
 
 - Para incrustar fuentes completas en el documento PDF de salida, configure **EmbedFullFonts** en verdadero
 - Para crear subconjuntos de fuentes al guardar en PDF, establezca **EmbedFullFonts** en falso
@@ -136,11 +136,11 @@ Las fuentes principales y las fuentes Windows estándar son conjuntos de fuentes
 Aspose.Words ofrece opciones para elegir cómo se exportan las fuentes a PDF. Puede elegir entre incrustar fuentes principales y estándar en el PDF de salida o omitir la incrustación y utilizar fuentes PDF principales estándar o fuentes del sistema en la máquina de destino. El uso de cualquiera de estas opciones normalmente resulta en una reducción significativa del tamaño del archivo para los documentos PDF generados por Aspose.Words.
 
 - Dado que estas opciones son mutuamente excluyentes, debes elegir sólo una a la vez.
-- Al guardar con cumplimiento de PDF/A-1, todas las fuentes utilizadas deben estar incrustadas en el documento PDF. Al guardar con este cumplimiento, la propiedad [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) debe establecerse en falso y la propiedad [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) debe establecerse en [EmbedAll](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/).
+- Al guardar con cumplimiento de PDF/A-1, todas las fuentes utilizadas deben estar incrustadas en el documento PDF. Al guardar con este cumplimiento, la propiedad [UseCoreFonts](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) debe establecerse en falso y la propiedad [FontEmbeddingMode](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) debe establecerse en [EmbedAll](https://reference.aspose.com/words/es/net/aspose.words.saving/pdffontembeddingmode/).
 
 ### Incrustar fuentes principales
 
-La opción para incrustar fuentes Core se puede habilitar o deshabilitar mediante la propiedad [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/). Cuando se establece en verdadero, las siguientes fuentes "True Type" más populares (fuentes Base 14) no se incrustan en el documento PDF de salida:
+La opción para incrustar fuentes Core se puede habilitar o deshabilitar mediante la propiedad [UseCoreFonts](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/usecorefonts/). Cuando se establece en verdadero, las siguientes fuentes "True Type" más populares (fuentes Base 14) no se incrustan en el documento PDF de salida:
 
 - `Arial`
 - `Times New Roman`
@@ -169,7 +169,7 @@ Esta configuración solo funciona para texto codificado ANSI (Windows-1252). Esc
 
 ### Incrustar fuentes del sistema
 
-Esta opción se puede habilitar o deshabilitar utilizando la propiedad [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/). Cuando esta propiedad se establece en [EmbedNonstandard](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/), las fuentes True Type "Arial" y "Times New Roman" no se incrustan en un documento PDF. En este caso, el visor del cliente depende de las fuentes instaladas en el sistema operativo del cliente. Cuando la propiedad **FontEmbeddingMode** se establece en [EmbedNone](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/), Aspose.Words no incrusta ninguna fuente.
+Esta opción se puede habilitar o deshabilitar utilizando la propiedad [FontEmbeddingMode](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/). Cuando esta propiedad se establece en [EmbedNonstandard](https://reference.aspose.com/words/es/net/aspose.words.saving/pdffontembeddingmode/), las fuentes True Type "Arial" y "Times New Roman" no se incrustan en un documento PDF. En este caso, el visor del cliente depende de las fuentes instaladas en el sistema operativo del cliente. Cuando la propiedad **FontEmbeddingMode** se establece en [EmbedNone](https://reference.aspose.com/words/es/net/aspose.words.saving/pdffontembeddingmode/), Aspose.Words no incrusta ninguna fuente.
 
 El siguiente ejemplo muestra cómo configurar Aspose.Words para que omita la incrustación de fuentes Arial y Times New Roman en un documento PDF:
 

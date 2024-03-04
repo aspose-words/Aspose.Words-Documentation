@@ -41,7 +41,7 @@ Las funciones de Aspose.Words para Python via .NET se pueden dividir en cuatro �
 
 La capacidad de convertir documentos de forma fácil y fiable es una de las principales características de Aspose.Words.
 
-El [Cargar, guardar y convertir](/words/es/python-net/loading-saving-and-converting/) completo con [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/) permite a los usuarios convertir documentos de [un formato popular](https://reference.aspose.com/words/net/aspose.words/loadformat/) a [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown, o de PDF a varios formatos de Word.
+El [Cargar, guardar y convertir](/words/es/python-net/loading-saving-and-converting/) completo con [Formatos de documentos admitidos](/words/es/python-net/supported-document-formats/) permite a los usuarios convertir documentos de [un formato popular](https://reference.aspose.com/words/es/net/aspose.words/loadformat/) a [another](https://reference.aspose.com/words/es/net/aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown, o de PDF a varios formatos de Word.
 
 #### Modelo de objetos de documento (DOM)
 

@@ -19,21 +19,21 @@ Es ist wichtig zu wissen, dass viele Speicheroptionen für alle unterstützten F
 
 Eine vollständige Liste der Funktionen finden Sie in der API-Referenz:
 
-- [Speicheroptionen für alle Formate](https://reference.aspose.com/words/net/aspose.words.saving/)
-- [Feste Optionen zum Speichern von Seiten](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) für [Konvertieren in das Fixed-Page-Format](/words/de/net/converting-to-fixed-page-format/): PDF, XPS, Bilder und andere
-- [PDF-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) für PDF-Format
-- [OOXML-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) für die Formate DOCX, DOCM, DOTX, DOTM oder FlatOpc
-- [DOC-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) für DOC- und DOT-Formate
-- [Optionen zum Speichern von Bildern](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) für die Formate TIFF, PNG, BMP, EMF, JPEG oder SVG
-- [SVG-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) für SVG-Format
-- [HTML-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) für die Formate HTML, MHTML, EPUB oder Azw3 und [HtmlFixedSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlfixedsaveoptions/) für das HtmlFixed-Format
-- [Markdown-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) für Markdown-Format
-- [RTF-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/rtfsaveoptions/) für RTF-Format
-- [TXT-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/) für TXT-Format
-- [ODT-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) für ODT- und OTT-Formate
-- [PCL-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/pclsaveoptions/) für PCL-Format
-- [PS-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/pssaveoptions/) für PS-Format
-- [WordML 2003-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/wordml2003saveoptions/) für WordML-Format
-- [XamlFixed-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/xamlfixedsaveoptions/) für das XamlFixed-Format
-- [XamlFlow-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/xamlflowsaveoptions/) für XamlFlow- oder XamlFlowPack-Formate
-- [XPS-Speicheroptionen](https://reference.aspose.com/words/net/aspose.words.saving/xpssaveoptions/) für XPS-Format
+- [Speicheroptionen für alle Formate](https://reference.aspose.com/words/de/net/aspose.words.saving/)
+- [Feste Optionen zum Speichern von Seiten](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/) für [Konvertieren in das Fixed-Page-Format](/words/de/net/converting-to-fixed-page-format/): PDF, XPS, Bilder und andere
+- [PDF-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfsaveoptions/) für PDF-Format
+- [OOXML-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/ooxmlsaveoptions/) für die Formate DOCX, DOCM, DOTX, DOTM oder FlatOpc
+- [DOC-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/docsaveoptions/) für DOC- und DOT-Formate
+- [Optionen zum Speichern von Bildern](https://reference.aspose.com/words/de/net/aspose.words.saving/imagesaveoptions/) für die Formate TIFF, PNG, BMP, EMF, JPEG oder SVG
+- [SVG-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/svgsaveoptions/) für SVG-Format
+- [HTML-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/htmlsaveoptions/) für die Formate HTML, MHTML, EPUB oder Azw3 und [HtmlFixedSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/htmlfixedsaveoptions/) für das HtmlFixed-Format
+- [Markdown-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/markdownsaveoptions/) für Markdown-Format
+- [RTF-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/rtfsaveoptions/) für RTF-Format
+- [TXT-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/txtsaveoptions/) für TXT-Format
+- [ODT-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/odtsaveoptions/) für ODT- und OTT-Formate
+- [PCL-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/pclsaveoptions/) für PCL-Format
+- [PS-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/pssaveoptions/) für PS-Format
+- [WordML 2003-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/wordml2003saveoptions/) für WordML-Format
+- [XamlFixed-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/xamlfixedsaveoptions/) für das XamlFixed-Format
+- [XamlFlow-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/xamlflowsaveoptions/) für XamlFlow- oder XamlFlowPack-Formate
+- [XPS-Speicheroptionen](https://reference.aspose.com/words/de/net/aspose.words.saving/xpssaveoptions/) für XPS-Format

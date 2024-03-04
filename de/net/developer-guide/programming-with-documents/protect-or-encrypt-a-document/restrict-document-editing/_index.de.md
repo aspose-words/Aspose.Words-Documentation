@@ -17,7 +17,7 @@ In diesem Artikel wird erklärt, wie Sie mit Aspose.Words einen Einschränkungst
 
 ## Wählen Sie den Typ der Bearbeitungseinschränkung aus
 
-Mit Aspose.Words können Sie mithilfe des [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/)-Enumerationsparameters steuern, wie Sie den Inhalt einschränken. Auf diese Weise können Sie eine genaue Schutzart auswählen, z. B. die folgende:
+Mit Aspose.Words können Sie mithilfe des [ProtectionType](https://reference.aspose.com/words/de/net/aspose.words/protectiontype/)-Enumerationsparameters steuern, wie Sie den Inhalt einschränken. Auf diese Weise können Sie eine genaue Schutzart auswählen, z. B. die folgende:
 
 * AllowOnlyComments
 * AllowOnlyFormFields
@@ -31,7 +31,7 @@ Wenn Sie bei der Auswahl des Sicherheitstyps kein Passwort festgelegt haben, kö
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass das festgelegte Passwort lediglich eine Eigenschaft in einem Dokument ist, die entfernt werden kann, wenn auf die Dokumenteigenschaften zugegriffen wird. Dementsprechend ist ein solches Passwort keine Garantie für die Dokumentensicherheit. Die [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/)-Methode zeigt genau das.
+Beachten Sie, dass das festgelegte Passwort lediglich eine Eigenschaft in einem Dokument ist, die entfernt werden kann, wenn auf die Dokumenteigenschaften zugegriffen wird. Dementsprechend ist ein solches Passwort keine Garantie für die Dokumentensicherheit. Die [Unprotect](https://reference.aspose.com/words/de/net/aspose.words/document/unprotect/#unprotect/)-Methode zeigt genau das.
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ Beachten Sie, dass das festgelegte Passwort lediglich eine Eigenschaft in einem 
 
 Das Hinzufügen eines Schutzes zu Ihrem Dokument ist ein einfacher Vorgang, da Sie lediglich eine der in diesem Abschnitt beschriebenen Schutzmethoden anwenden müssen.
 
-Mit Aspose.Words können Sie Ihre Dokumente mithilfe der [Protect](https://reference.aspose.com/words/net/aspose.words/document/protect/#protect/)-Methode vor Änderungen schützen. Diese Methode stellt keine Sicherheitsfunktion dar und verschlüsselt kein Dokument.
+Mit Aspose.Words können Sie Ihre Dokumente mithilfe der [Protect](https://reference.aspose.com/words/de/net/aspose.words/document/protect/#protect/)-Methode vor Änderungen schützen. Diese Methode stellt keine Sicherheitsfunktion dar und verschlüsselt kein Dokument.
 
 {{% alert color="primary" %}}
 
@@ -60,7 +60,7 @@ Das folgende Codebeispiel zeigt, wie Sie die Bearbeitung in einem Dokument einsc
 
 ## Entfernen Sie den Dokumentenschutz
 
-Mit Aspose.Words können Sie den Schutz eines Dokuments durch einfache und direkte Dokumentänderung entfernen. Sie können entweder den Dokumentschutz entfernen, ohne das tatsächliche Passwort zu kennen, oder das richtige Passwort eingeben, um das Dokument mithilfe der [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/)-Methode zu entsperren. Beide Entfernungsmethoden haben keinen Unterschied.
+Mit Aspose.Words können Sie den Schutz eines Dokuments durch einfache und direkte Dokumentänderung entfernen. Sie können entweder den Dokumentschutz entfernen, ohne das tatsächliche Passwort zu kennen, oder das richtige Passwort eingeben, um das Dokument mithilfe der [Unprotect](https://reference.aspose.com/words/de/net/aspose.words/document/unprotect/#unprotect/)-Methode zu entsperren. Beide Entfernungsmethoden haben keinen Unterschied.
 
 Das folgende Codebeispiel zeigt, wie Sie den Schutz aus Ihrem Dokument entfernen:
 
@@ -70,7 +70,7 @@ Das folgende Codebeispiel zeigt, wie Sie den Schutz aus Ihrem Dokument entfernen
 
 Sie können die Bearbeitung Ihres Dokuments einschränken und gleichzeitig Änderungen an ausgewählten Teilen davon zulassen. Somit kann jeder, der Ihr Dokument öffnet, auf diese uneingeschränkten Teile zugreifen und Änderungen am Inhalt vornehmen.
 
-Mit Aspose.Words können Sie die Teile in Ihrem Dokument markieren, die mithilfe der [StartEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/)- und [EndEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/)-Methoden geändert werden können.
+Mit Aspose.Words können Sie die Teile in Ihrem Dokument markieren, die mithilfe der [StartEditableRange](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/starteditablerange/)- und [EndEditableRange](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/)-Methoden geändert werden können.
 
 Das folgende Codebeispiel zeigt, wie das gesamte Dokument als schreibgeschützt markiert und bearbeitbare Bereiche darin angegeben werden:
 

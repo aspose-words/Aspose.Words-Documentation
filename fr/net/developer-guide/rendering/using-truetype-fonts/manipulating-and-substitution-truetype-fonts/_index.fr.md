@@ -20,7 +20,7 @@ Notez que la police dans le document représente une entité, telle que le nom d
 
 ## Problèmes de manipulation des polices et de performances
 
-Tous les mécanismes de manipulation de polices disponibles sont contenus dans la classe [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/). Cette classe est responsable de la récupération des polices dans les sources de polices définies ainsi que du processus de substitution de polices, comme décrit ci-dessous.
+Tous les mécanismes de manipulation de polices disponibles sont contenus dans la classe [FontSettings](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontsettings/). Cette classe est responsable de la récupération des polices dans les sources de polices définies ainsi que du processus de substitution de polices, comme décrit ci-dessous.
 
 Les polices sont analysées en plusieurs étapes:
 
@@ -55,7 +55,7 @@ Le texte d'un document peut être formaté avec différentes polices, telles que
 Cependant, il existe des situations dans lesquelles la police exacte ne peut pas être trouvée et Aspose.Words doit la remplacer par une police similaire. Aspose.Words sélectionne la police selon le processus suivant:
 1. Aspose.Words essaie de trouver une police parmi les sources de polices disponibles avec un nom de police exact.
 1. Aspose.Words essaie de trouver la police requise parmi les polices intégrées dans le document original. Certains formats de documents tels que DOCX peuvent contenir des polices intégrées.
-1. Si Aspose.Words ne parvient pas à localiser la police requise avec le nom exact correspondant et la propriété [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) définie pour cette police, alors Aspose.Words trouvera la police définie avec **AltName** à partir de la classe [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/), qui spécifie les informations sur la police.
+1. Si Aspose.Words ne parvient pas à localiser la police requise avec le nom exact correspondant et la propriété [AltName](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontinfo/altname/) définie pour cette police, alors Aspose.Words trouvera la police définie avec **AltName** à partir de la classe [FontInfo](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontinfo/), qui spécifie les informations sur la police.
 1. Si Aspose.Words ne parvient pas à localiser la police définie et que **AltName** n'est pas également défini, alors les règles de substitution de police sont appliquées une par une, comme décrit ci-dessous (lorsque le remplacement approprié est trouvé, le processus de substitution de police s'arrête et le l'étape suivante n'est pas exécutée):
    1. Tout d'abord, Aspose.Words essaie de traiter le nom de la police pour obtenir la substitution, en particulier il essaie de supprimer les suffixes avec les séparateurs "-" et ",".<br>
       Si cette règle de substitution a lieu, une "Police '&lt;OriginalFont&gt;' n'a pas été trouvée. Utilisation de la police '&lt;SubstitutionFont&gt;' à la place. Raison: substitution du nom de police." un avertissement apparaît.<br>
@@ -98,7 +98,7 @@ Cependant, il existe des situations dans lesquelles la police exacte ne peut pas
             fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
       {{< /highlight >}}
       Si **FontInfo** n'est pas disponible pour la police manquante, le processus s'arrête.<br>
-   1. La règle de substitution **DefaultFont** sera appliquée dans le cas où la substitution `FontInfo` a également échoué. Cette règle est également activée par défaut. Selon cette règle, Aspose.Words tentera d'utiliser la police par défaut spécifiée dans la propriété [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Si l'utilisateur n'a pas choisi sa propre police par défaut, alors "Times New Roman" sera utilisé comme police par défaut. Cette règle peut être désactivée comme indiqué ci-dessous:<br>
+   1. La règle de substitution **DefaultFont** sera appliquée dans le cas où la substitution `FontInfo` a également échoué. Cette règle est également activée par défaut. Selon cette règle, Aspose.Words tentera d'utiliser la police par défaut spécifiée dans la propriété [DefaultFontName](https://reference.aspose.com/words/fr/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). Si l'utilisateur n'a pas choisi sa propre police par défaut, alors "Times New Roman" sera utilisé comme police par défaut. Cette règle peut être désactivée comme indiqué ci-dessous:<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ Si **FontInfo** est disponible, la *règle de substitution FontInfo* résoudra t
 
 ## Comment reconnaître que la police a été remplacée
 
-Parfois, il peut être difficile de comprendre pourquoi la mise en page du document a changé ou pourquoi certaines polices ne ressemblent pas à celles attendues. Dans de tels cas, les messages d'avertissement de substitution de police implémentés par l'interface [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/) viennent à la rescousse. Ils ont le type d'avertissement [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/) et le format de texte de description standard, "Police"<OriginalFont> " n'a pas été trouvé. En utilisant '<SubstitutionFont> ' police à la place. Raison:<Reason> ", pour les raisons suivantes:
+Parfois, il peut être difficile de comprendre pourquoi la mise en page du document a changé ou pourquoi certaines polices ne ressemblent pas à celles attendues. Dans de tels cas, les messages d'avertissement de substitution de police implémentés par l'interface [IWarningCallback](https://reference.aspose.com/words/fr/net/aspose.words/iwarningcallback/) viennent à la rescousse. Ils ont le type d'avertissement [FontSubstitution](https://reference.aspose.com/words/fr/net/aspose.words/warningtype/) et le format de texte de description standard, "Police"<OriginalFont> " n'a pas été trouvé. En utilisant '<SubstitutionFont> ' police à la place. Raison:<Reason> ", pour les raisons suivantes:
 
-- "nom alternatif du document" – pour substitution par [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
+- "nom alternatif du document" – pour substitution par [AltName](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontinfo/properties/altname)
 - "fontconfig substitution" – pour la substitution par règle de configuration de police
 - "substitution de table" – pour la substitution par règle de table
 - "Substitution des informations de police" - pour la substitution par règle d'informations de police
@@ -133,7 +133,7 @@ Parfois, il peut être difficile de comprendre pourquoi la mise en page du docum
 
 Il existe deux mécanismes différents utilisés dans Aspose.Words: la substitution de police et le repli de police. La substitution de police est utilisée lorsque la police spécifiée dans le document n'a pas pu être trouvée parmi les sources de polices comme cela a été décrit dans les sections ci-dessus. Le mécanisme de secours de police est utilisé lorsque la police est résolue, mais elle ne contient pas de caractère spécifique. Dans ce cas, Aspose.Words essaie d'utiliser l'une des polices de secours pour le caractère.
 
-Il existe une méthode [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) qui crée automatiquement les paramètres de secours en analysant les polices disponibles. Étant donné que cette méthode peut produire un paramètre de secours non optimal, vous pouvez contrôler le comportement de secours des polices à l’aide des propriétés de la classe [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/). Cette classe spécifie les paramètres du mécanisme de secours des polices. Vous pouvez obtenir une instance de la classe **FontFallbackSettings** comme suit:
+Il existe une méthode [BuildAutomatic](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) qui crée automatiquement les paramètres de secours en analysant les polices disponibles. Étant donné que cette méthode peut produire un paramètre de secours non optimal, vous pouvez contrôler le comportement de secours des polices à l’aide des propriétés de la classe [FontFallbackSettings](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontfallbacksettings/). Cette classe spécifie les paramètres du mécanisme de secours des polices. Vous pouvez obtenir une instance de la classe **FontFallbackSettings** comme suit:
 
 **.NET**
 
@@ -195,7 +195,7 @@ Dans l'exemple de code ci-dessus, le fichier XML suivant est utilisé:
 
 ## Paramètres de secours de police prédéfinis pour les polices Google Noto
 
-Aspose.Words fournit des paramètres de secours de police prédéfinis pour les polices Google Noto. Il s'agit de polices gratuites sous licence SIL Open Font, qui peuvent être téléchargées à partir de Google Noto Fonts. La classe **FontFallbackSettings** fournit une méthode [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Il charge les paramètres de secours prédéfinis, qui utilisent les polices Google Noto, comme indiqué dans l'exemple de code ci-dessous:
+Aspose.Words fournit des paramètres de secours de police prédéfinis pour les polices Google Noto. Il s'agit de polices gratuites sous licence SIL Open Font, qui peuvent être téléchargées à partir de Google Noto Fonts. La classe **FontFallbackSettings** fournit une méthode [LoadNotoFallbackSettings](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). Il charge les paramètres de secours prédéfinis, qui utilisent les polices Google Noto, comme indiqué dans l'exemple de code ci-dessous:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

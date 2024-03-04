@@ -19,9 +19,9 @@ Aspose.Words consente agli utenti di lavorare con documenti in vari formati e of
 
 Per un elenco completo delle funzioni, vedere il riferimento API:
 
-- [opzioni di caricamento per tutti i formati](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
-- [Opzioni di caricamento CHM](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/) per il formato CHM
-- [Opzioni di caricamento HTML](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/) per il formato HTML
-- [Opzioni di caricamento PDF](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) per il formato PDF
-- [Opzioni di caricamento RTF](https://reference.aspose.com/words/net/aspose.words.loading/rtfloadoptions/) per il formato RTF
-- [Opzioni di caricamento TXT](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) per il formato TXT
+- [opzioni di caricamento per tutti i formati](https://reference.aspose.com/words/it/net/aspose.words.loading/loadoptions/)
+- [Opzioni di caricamento CHM](https://reference.aspose.com/words/it/net/aspose.words.loading/chmloadoptions/) per il formato CHM
+- [Opzioni di caricamento HTML](https://reference.aspose.com/words/it/net/aspose.words.loading/htmlloadoptions/) per il formato HTML
+- [Opzioni di caricamento PDF](https://reference.aspose.com/words/it/net/aspose.words.loading/pdfloadoptions/) per il formato PDF
+- [Opzioni di caricamento RTF](https://reference.aspose.com/words/it/net/aspose.words.loading/rtfloadoptions/) per il formato RTF
+- [Opzioni di caricamento TXT](https://reference.aspose.com/words/it/net/aspose.words.loading/txtloadoptions/) per il formato TXT

@@ -22,13 +22,13 @@ Lorsqu'un document est chargé, Aspose.Words imite le comportement de Microsoft 
 
 ### Mettre à jour les champs par programmation
 
-Pour mettre à jour explicitement les champs dans l'ensemble du document, appelez simplement la méthode [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/). Pour mettre à jour les champs contenus dans une partie d'un document, obtenez un objet [Range](https://reference.aspose.com/words/net/aspose.words/range/) et appelez la méthode [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/updatefields/). En Aspose.Words, vous pouvez obtenir un **Range** pour n'importe quel nœud de l'arborescence du document, tel que [Section](https://reference.aspose.com/words/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), etc. en utilisant la propriété [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/). Vous pouvez mettre à jour le résultat d'un seul champ en appelant la méthode [Update](https://reference.aspose.com/words/net/aspose.words.fields/field/update/).
+Pour mettre à jour explicitement les champs dans l'ensemble du document, appelez simplement la méthode [UpdateFields](https://reference.aspose.com/words/fr/net/aspose.words/document/updatefields/). Pour mettre à jour les champs contenus dans une partie d'un document, obtenez un objet [Range](https://reference.aspose.com/words/fr/net/aspose.words/range/) et appelez la méthode [UpdateFields](https://reference.aspose.com/words/fr/net/aspose.words/range/updatefields/). En Aspose.Words, vous pouvez obtenir un **Range** pour n'importe quel nœud de l'arborescence du document, tel que [Section](https://reference.aspose.com/words/fr/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/fr/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/), etc. en utilisant la propriété [Node.Range](https://reference.aspose.com/words/fr/net/aspose.words/node/range/). Vous pouvez mettre à jour le résultat d'un seul champ en appelant la méthode [Update](https://reference.aspose.com/words/fr/net/aspose.words.fields/field/update/).
 
 ### Mise à jour automatique des champs liés à la page pendant le rendu
 
 Lorsque vous exécutez la conversion d'un document vers un format de page fixe, par exemple en PDF ou XPS, alors Aspose.Words mettra automatiquement à jour les champs `PAGE`, `PAGEREF` liés à la mise en page trouvés dans les en-têtes/pieds de page du document. Ce comportement imite le comportement de Microsoft Word lors de l'impression d'un document.
 
-Si vous souhaitez mettre à jour tous les autres champs du document, vous devez appeler [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) avant de restituer le document.
+Si vous souhaitez mettre à jour tous les autres champs du document, vous devez appeler [UpdateFields](https://reference.aspose.com/words/fr/net/aspose.words/document/updatefields/) avant de restituer le document.
 
 L'exemple de code suivant montre comment mettre à jour tous les champs avant de restituer un document:
 
@@ -46,7 +46,7 @@ Lorsque vous exécutez un mail merge, tous les champs du document seront automat
 
 ## Mettre à jour les champs ayant un attribut sale
 
-Le w:dirty est un attribut au niveau du champ qui actualisera uniquement le champ que vous spécifiez lors de l'ouverture du document. Il indique à MS Word d'actualiser ce champ uniquement lors de la prochaine ouverture du document. Vous pouvez utiliser la propriété [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) pour spécifier s'il faut mettre à jour les champs avec l'attribut dirty. Lorsque la valeur de **UpdateDirtyFields** est définie sur *true*, tous les champs ayant une valeur *true* pour la propriété [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) ou [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) sont mis à jour lors du chargement du document.
+Le w:dirty est un attribut au niveau du champ qui actualisera uniquement le champ que vous spécifiez lors de l'ouverture du document. Il indique à MS Word d'actualiser ce champ uniquement lors de la prochaine ouverture du document. Vous pouvez utiliser la propriété [UpdateDirtyFields](https://reference.aspose.com/words/fr/net/aspose.words.loading/loadoptions/updatedirtyfields/) pour spécifier s'il faut mettre à jour les champs avec l'attribut dirty. Lorsque la valeur de **UpdateDirtyFields** est définie sur *true*, tous les champs ayant une valeur *true* pour la propriété [Field.IsDirty](https://reference.aspose.com/words/fr/net/aspose.words.fields/field/isdirty/) ou [FieldChar.IsDirty](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldchar/isdirty/) sont mis à jour lors du chargement du document.
 
 L'exemple de code suivant montre comment mettre à jour les champs ayant l'attribut dirty:
 
@@ -54,7 +54,7 @@ L'exemple de code suivant montre comment mettre à jour les champs ayant l'attri
 
 ## Mettre à jour la propriété LastSavedTime avant d'enregistrer
 
-Vous pouvez utiliser la propriété [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) pour mettre à jour la propriété de document intégrée correspondante [LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) lors de l'enregistrement du document.
+Vous pouvez utiliser la propriété [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/fr/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) pour mettre à jour la propriété de document intégrée correspondante [LastSavedTime](https://reference.aspose.com/words/fr/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) lors de l'enregistrement du document.
 
 L'exemple de code suivant montre comment mettre à jour cette propriété:
 

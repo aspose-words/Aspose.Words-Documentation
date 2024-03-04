@@ -21,9 +21,9 @@ Nachdem Sie einen Klon Ihres Dokuments erstellt haben, können Sie es bearbeiten
 
 ## Erstellen eines Dokumentklons
 
-Mit Aspose.Words können Sie ein Dokument mithilfe der [Clone](https://reference.aspose.com/words/net/aspose.words/document/clone/)-Methode klonen, die eine tiefe Kopie des Dokuments erstellt und es zurückgibt. Mit anderen Worten: Es wird eine vollständige Kopie des DOM-Codes erstellt. Die `Clone`-Methode beschleunigt die Dokumentenerstellung und Sie benötigen nur eine Codezeile, um eine Kopie Ihres Dokuments zu erhalten.
+Mit Aspose.Words können Sie ein Dokument mithilfe der [Clone](https://reference.aspose.com/words/de/net/aspose.words/document/clone/)-Methode klonen, die eine tiefe Kopie des Dokuments erstellt und es zurückgibt. Mit anderen Worten: Es wird eine vollständige Kopie des DOM-Codes erstellt. Die `Clone`-Methode beschleunigt die Dokumentenerstellung und Sie benötigen nur eine Codezeile, um eine Kopie Ihres Dokuments zu erhalten.
 
-Durch das Klonen entsteht ein neues Dokument mit demselben Inhalt wie das Original, jedoch mit einer eindeutigen Kopie aller [nodes](https://reference.aspose.com/words/net/aspose.words/node/)-Dateien des Originaldokuments. Sie können den Klonvorgang auch auf einen Dokumentknoten anwenden, indem Sie die Knoten-[Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/)-Methode verwenden, die es Ihnen ermöglicht, zusammengesetzte Dokumentknoten mit und ohne ihre untergeordneten Knoten zu duplizieren.
+Durch das Klonen entsteht ein neues Dokument mit demselben Inhalt wie das Original, jedoch mit einer eindeutigen Kopie aller [nodes](https://reference.aspose.com/words/de/net/aspose.words/node/)-Dateien des Originaldokuments. Sie können den Klonvorgang auch auf einen Dokumentknoten anwenden, indem Sie die Knoten-[Clone](https://reference.aspose.com/words/de/net/aspose.words/node/clone/)-Methode verwenden, die es Ihnen ermöglicht, zusammengesetzte Dokumentknoten mit und ohne ihre untergeordneten Knoten zu duplizieren.
 
 {{% alert color="primary" %}}
 

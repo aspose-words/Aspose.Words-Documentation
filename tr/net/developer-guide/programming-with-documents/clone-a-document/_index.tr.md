@@ -21,9 +21,9 @@ Belgenizin bir kopyasını oluşturduktan sonra, onu düzenleyebilir ve üzerind
 
 ## Belge Klonu Oluşturma
 
-Aspose.Words, belgenin derin bir kopyasını gerçekleştiren ve onu döndüren [Clone](https://reference.aspose.com/words/net/aspose.words/document/clone/) yöntemini kullanarak bir belgeyi klonlamanıza olanak tanır. Başka bir deyişle DOM'in tam kopyasını alacaktır. `Clone` yöntemi belgelerin oluşturulmasını hızlandırır ve belgenizin bir kopyasını almak için yalnızca bir satır koda ihtiyacınız vardır.
+Aspose.Words, belgenin derin bir kopyasını gerçekleştiren ve onu döndüren [Clone](https://reference.aspose.com/words/tr/net/aspose.words/document/clone/) yöntemini kullanarak bir belgeyi klonlamanıza olanak tanır. Başka bir deyişle DOM'in tam kopyasını alacaktır. `Clone` yöntemi belgelerin oluşturulmasını hızlandırır ve belgenizin bir kopyasını almak için yalnızca bir satır koda ihtiyacınız vardır.
 
-Klonlama, orijinalle aynı içeriğe sahip ancak orijinal belgenin her birinin [nodes](https://reference.aspose.com/words/net/aspose.words/node/)'inin benzersiz bir kopyasına sahip yeni bir belge oluşturur. Ayrıca, bileşik belge düğümlerini alt düğümleriyle veya alt düğümleri olmadan çoğaltmanıza olanak tanıyan düğüm [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) yöntemini kullanarak klonlama işlemini bir belge düğümüne de uygulayabilirsiniz.
+Klonlama, orijinalle aynı içeriğe sahip ancak orijinal belgenin her birinin [nodes](https://reference.aspose.com/words/tr/net/aspose.words/node/)'inin benzersiz bir kopyasına sahip yeni bir belge oluşturur. Ayrıca, bileşik belge düğümlerini alt düğümleriyle veya alt düğümleri olmadan çoğaltmanıza olanak tanıyan düğüm [Clone](https://reference.aspose.com/words/tr/net/aspose.words/node/clone/) yöntemini kullanarak klonlama işlemini bir belge düğümüne de uygulayabilirsiniz.
 
 {{% alert color="primary" %}}
 

@@ -13,13 +13,13 @@ url: /ru/net/clean-up-a-document/
 
 Хотя вы можете найти и удалить неиспользуемые данные, такие как стили или списки, или дублировать информацию вручную, гораздо удобнее будет сделать это, используя функции и возможности, предоставляемые Aspose.Words.
 
-Класс [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) позволяет указать параметры очистки документа. Чтобы удалить из документа повторяющиеся стили или просто неиспользуемые стили или списки, вы можете использовать метод [Cleanup](https://reference.aspose.com/words/net/aspose.words/document/cleanup/).
+Класс [CleanupOptions](https://reference.aspose.com/words/ru/net/aspose.words/cleanupoptions/) позволяет указать параметры очистки документа. Чтобы удалить из документа повторяющиеся стили или просто неиспользуемые стили или списки, вы можете использовать метод [Cleanup](https://reference.aspose.com/words/ru/net/aspose.words/document/cleanup/).
 
 ## Удалить неиспользуемую информацию из документа
 
-Вы можете использовать свойства [UnusedStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedstyles/) и [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) для обнаружения и удаления стилей, помеченных как "неиспользуемые".
+Вы можете использовать свойства [UnusedStyles](https://reference.aspose.com/words/ru/net/aspose.words/cleanupoptions/unusedstyles/) и [UnusedBuiltinStyles](https://reference.aspose.com/words/ru/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) для обнаружения и удаления стилей, помеченных как "неиспользуемые".
 
-Свойство [UnusedLists](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedlists/) можно использовать для обнаружения и удаления списков и определений списков, помеченных как "неиспользуемые".
+Свойство [UnusedLists](https://reference.aspose.com/words/ru/net/aspose.words/cleanupoptions/unusedlists/) можно использовать для обнаружения и удаления списков и определений списков, помеченных как "неиспользуемые".
 
 В следующем примере кода показано, как удалить из документа только неиспользуемые стили:
 
@@ -27,7 +27,7 @@ url: /ru/net/clean-up-a-document/
 
 ## Удалить повторяющуюся информацию из документа
 
-Вы также можете использовать свойство [DuplicateStyle](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/duplicatestyle/), чтобы заменить все повторяющиеся стили исходными и удалить дубликаты из документа.
+Вы также можете использовать свойство [DuplicateStyle](https://reference.aspose.com/words/ru/net/aspose.words/cleanupoptions/duplicatestyle/), чтобы заменить все повторяющиеся стили исходными и удалить дубликаты из документа.
 
 В следующем примере кода показано, как удалить повторяющиеся стили из документа:
 

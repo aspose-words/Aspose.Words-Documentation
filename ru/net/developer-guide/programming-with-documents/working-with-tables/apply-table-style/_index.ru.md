@@ -19,7 +19,7 @@ Aspose.Words поддерживает применение стиля табли
 
 ## Создайте стиль таблицы
 
-Пользователь может создать новый стиль и добавить его в коллекцию стилей. Метод [Add](https://reference.aspose.com/words/net/aspose.words/stylecollection/add/) используется для создания нового стиля таблицы.
+Пользователь может создать новый стиль и добавить его в коллекцию стилей. Метод [Add](https://reference.aspose.com/words/ru/net/aspose.words/stylecollection/add/) используется для создания нового стиля таблицы.
 
 В следующем примере кода показано, как создать новый пользовательский стиль таблицы:
 
@@ -37,11 +37,11 @@ Aspose.Words поддерживает применение стиля табли
 
 ## Применение существующего стиля таблицы
 
-Aspose.Words представляет собой [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/), унаследованный от класса [Style](https://reference.aspose.com/words/net/aspose.words/style/). **TableStyle** позволяет пользователю применять различные параметры стиля, такие как затенение, отступы, отступы, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) и [Font](https://reference.aspose.com/words/net/aspose.words/style/font/) и т.д.
+Aspose.Words представляет собой [TableStyle](https://reference.aspose.com/words/ru/net/aspose.words/tablestyle/), унаследованный от класса [Style](https://reference.aspose.com/words/ru/net/aspose.words/style/). **TableStyle** позволяет пользователю применять различные параметры стиля, такие как затенение, отступы, отступы, [CellSpacing](https://reference.aspose.com/words/ru/net/aspose.words/tablestyle/cellspacing/) и [Font](https://reference.aspose.com/words/ru/net/aspose.words/style/font/) и т.д.
 
-Кроме того, Aspose.Words предоставляет класс [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) и несколько свойств класса `Table`, позволяющие указать, с каким стилем таблицы мы будем работать: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/) и [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
+Кроме того, Aspose.Words предоставляет класс [StyleCollection](https://reference.aspose.com/words/ru/net/aspose.words/stylecollection/) и несколько свойств класса `Table`, позволяющие указать, с каким стилем таблицы мы будем работать: [Style](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/stylename/) и [StyleOptions](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/styleoptions/).
 
-Aspose.Words также предоставляет класс [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/), который представляет специальное форматирование, применяемое к некоторой области таблицы с назначенным стилем таблицы, и [ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/), который представляет коллекцию из **ConditionalStyle** объектов. Эта коллекция содержит постоянный набор элементов, представляющих один элемент для каждого значения типа перечисления [ConditionalStyleType](https://reference.aspose.com/words/net/aspose.words/conditionalstyletype/). Перечисление **ConditionalStyleType** определяет все возможные области таблицы, для которых в стиле таблицы может быть определено условное форматирование.
+Aspose.Words также предоставляет класс [ConditionalStyle](https://reference.aspose.com/words/ru/net/aspose.words/conditionalstyle/), который представляет специальное форматирование, применяемое к некоторой области таблицы с назначенным стилем таблицы, и [ConditionalStyleCollection](https://reference.aspose.com/words/ru/net/aspose.words/conditionalstylecollection/), который представляет коллекцию из **ConditionalStyle** объектов. Эта коллекция содержит постоянный набор элементов, представляющих один элемент для каждого значения типа перечисления [ConditionalStyleType](https://reference.aspose.com/words/ru/net/aspose.words/conditionalstyletype/). Перечисление **ConditionalStyleType** определяет все возможные области таблицы, для которых в стиле таблицы может быть определено условное форматирование.
 
 В этом случае условное форматирование можно определить для всех возможных областей таблицы, определенных в типе перечисления ConditionalStyleType.
 
@@ -49,7 +49,7 @@ Aspose.Words также предоставляет класс [ConditionalStyle]
 
 {{< gist "aspose-words-gists" "93b92a7e6f2f4bbfd9177dd7fcecbd8c" "define-conditional-formatting.cs" >}}
 
-Вы также можете выбрать, к каким частям таблицы применить стили, например к первому столбцу, последнему столбцу, полосам строк. Они перечислены в перечислении [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/) и применяются через свойство [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/). Перечисление **TableStyleOptions** позволяет поразрядно комбинировать эти функции.
+Вы также можете выбрать, к каким частям таблицы применить стили, например к первому столбцу, последнему столбцу, полосам строк. Они перечислены в перечислении [TableStyleOptions](https://reference.aspose.com/words/ru/net/aspose.words.tables/tablestyleoptions/) и применяются через свойство [StyleOptions](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/styleoptions/). Перечисление **TableStyleOptions** позволяет поразрядно комбинировать эти функции.
 
 В следующем примере кода показано, как создать новую таблицу с примененным стилем таблицы:
 
@@ -61,7 +61,7 @@ Aspose.Words также предоставляет класс [ConditionalStyle]
 
 ## Возьмите форматирование из стиля таблицы и примените его как прямое форматирование
 
-Aspose.Words также предоставляет метод [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/net/aspose.words/document/expandtablestylestodirectformatting/), позволяющий использовать форматирование, найденное в стиле таблицы, и распространять его на строки и ячейки таблицы в виде прямого форматирования. Попробуйте совместить форматирование со стилем таблицы и стилем ячеек.
+Aspose.Words также предоставляет метод [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/ru/net/aspose.words/document/expandtablestylestodirectformatting/), позволяющий использовать форматирование, найденное в стиле таблицы, и распространять его на строки и ячейки таблицы в виде прямого форматирования. Попробуйте совместить форматирование со стилем таблицы и стилем ячеек.
 
 {{% alert color="primary" %}}
 

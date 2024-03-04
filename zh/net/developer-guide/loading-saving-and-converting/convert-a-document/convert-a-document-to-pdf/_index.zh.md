@@ -27,10 +27,10 @@ url: /zh/net/convert-a-document-to-pdf/
 
 从 DOC 或 DOCX 文档格式转换为 Aspose.Words 格式的 PDF 格式非常简单，只需两行代码即可完成：
 
-1. 使用 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象的构造函数之一，通过指定文档名称及其格式扩展名，将文档加载到 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象中。
-1. 在 **Document** 对象上调用 [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) 方法之一，并通过输入扩展名为".PDF"的文件名来指定所需的输出格式为 PDF。
+1. 使用 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象的构造函数之一，通过指定文档名称及其格式扩展名，将文档加载到 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象中。
+1. 在 **Document** 对象上调用 [Document.Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/#save/) 方法之一，并通过输入扩展名为".PDF"的文件名来指定所需的输出格式为 PDF。
 
-以下代码示例演示如何使用 [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 方法将文档从 DOCX 转换为 PDF：
+以下代码示例演示如何使用 [Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/) 方法将文档从 DOCX 转换为 PDF：
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
@@ -38,7 +38,7 @@ url: /zh/net/convert-a-document-to-pdf/
 
 {{% alert color="primary" %}}
 
-有时需要指定其他选项，这可能会影响将文档另存为 PDF 的结果。这些选项可以通过使用 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 类来指定，其中包含确定 PDF 输出如何显示的属性。
+有时需要指定其他选项，这可能会影响将文档另存为 PDF 的结果。这些选项可以通过使用 [PdfSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/) 类来指定，其中包含确定 PDF 输出如何显示的属性。
 
 请注意，使用相同的技术，您可以将任何流程布局格式文档转换为 PDF 格式。
 
@@ -46,9 +46,9 @@ url: /zh/net/convert-a-document-to-pdf/
 
 ### 转换为不同的 PDF 标准
 
-Aspose.Words提供[Pdf合规性](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/)枚举支持将DOC或DOCX转换为各种PDF格式标准（如PDF 1.7、PDF 1.5等）。
+Aspose.Words提供[Pdf合规性](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfcompliance/)枚举支持将DOC或DOCX转换为各种PDF格式标准（如PDF 1.7、PDF 1.5等）。
 
-以下代码示例演示如何使用 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 将文档转换为 PDF 1.7，并符合 PDF17：
+以下代码示例演示如何使用 [PdfSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/) 将文档转换为 PDF 1.7，并符合 PDF17：
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
@@ -66,7 +66,7 @@ Aspose.Words提供[Pdf合规性](https://reference.aspose.com/words/net/aspose.w
 
 ## 减小 PDF 输出大小
 
-保存为 PDF 时，您可以指定是否要优化输出。为此，您需要将 [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) 标志设置为 true，然后删除多余的嵌套画布和空画布，并连接具有相同格式的相邻 glyph。
+保存为 PDF 时，您可以指定是否要优化输出。为此，您需要将 [OptimizeOutput](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) 标志设置为 true，然后删除多余的嵌套画布和空画布，并连接具有相同格式的相邻 glyph。
 
 以下代码示例展示了如何优化输出：
 

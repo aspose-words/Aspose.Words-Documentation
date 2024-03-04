@@ -67,7 +67,7 @@ El siguiente ejemplo de código muestra cómo vincular el control de contenido a
 
 ## Mapeo XML del rango de etiquetas de documentos estructurados
 
-Puede obtener la asignación de este rango de etiquetas de documento estructurado a datos XML en una parte XML personalizada del documento actual utilizando **Propiedad StructuredDocumentTagRangeStart.XmlMapping**. Sin embargo, el método [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) se puede utilizar para asignar un rango de etiquetas de documento estructurado a datos XML.
+Puede obtener la asignación de este rango de etiquetas de documento estructurado a datos XML en una parte XML personalizada del documento actual utilizando **Propiedad StructuredDocumentTagRangeStart.XmlMapping**. Sin embargo, el método [SetMapping](https://reference.aspose.com/words/es/net/aspose.words.markup/xmlmapping/setmapping/) se puede utilizar para asignar un rango de etiquetas de documento estructurado a datos XML.
 
 El siguiente ejemplo de código muestra cómo configurar la asignación XML:
 
@@ -108,7 +108,7 @@ El siguiente ejemplo de código muestra cómo configurar el estilo de control de
 
 ## Trabajar con control de contenido de sección repetida
 
-El control de contenido de la sección repetida permite repetir el contenido contenido en ella. Con Aspose.Words, se pueden crear los nodos de etiquetas de documentos estructurados de la sección repetida y los tipos de elementos de sección repetida y, para este propósito, [Tipo de enumeración SdtType](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) proporciona propiedad **RepeatingSectionItem**.
+El control de contenido de la sección repetida permite repetir el contenido contenido en ella. Con Aspose.Words, se pueden crear los nodos de etiquetas de documentos estructurados de la sección repetida y los tipos de elementos de sección repetida y, para este propósito, [Tipo de enumeración SdtType](https://reference.aspose.com/words/es/net/aspose.words.markup/sdttype/) proporciona propiedad **RepeatingSectionItem**.
 
 El siguiente ejemplo de código muestra cómo vincular un control de contenido de sección repetida a una tabla.
 

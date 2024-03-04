@@ -17,7 +17,7 @@ Aspose.Words предоставляет возможность получить 
 
 Когда вы имеете дело с несколькими документами в различных форматах файлов, вам может потребоваться отделить те файлы, которые может обрабатывать Aspose.Words, от тех, которые не могут. Вы также можете узнать, почему некоторые документы не могут быть обработаны.
 
-Если вы попытаетесь загрузить файл в объект [Document](https://reference.aspose.com/words/net/aspose.words/document/), а Aspose.Words не может распознать формат файла или формат не поддерживается, Aspose.Words выдаст исключение. Вы можете перехватить эти исключения и проанализировать их, но Aspose.Words также предоставляет метод [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/), который позволяет нам быстро определить формат файла, не загружая документ с возможными исключениями. Этот метод возвращает объект [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/), содержащий обнаруженную информацию о типе файла.
+Если вы попытаетесь загрузить файл в объект [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/), а Aspose.Words не может распознать формат файла или формат не поддерживается, Aspose.Words выдаст исключение. Вы можете перехватить эти исключения и проанализировать их, но Aspose.Words также предоставляет метод [DetectFileFormat](https://reference.aspose.com/words/ru/net/aspose.words/fileformatutil/detectfileformat/), который позволяет нам быстро определить формат файла, не загружая документ с возможными исключениями. Этот метод возвращает объект [FileFormatInfo](https://reference.aspose.com/words/ru/net/aspose.words/fileformatinfo/), содержащий обнаруженную информацию о типе файла.
 
 {{% alert color="primary" %}}
 

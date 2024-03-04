@@ -19,7 +19,7 @@ Aspose.Words 支持将表格样式应用于表格，还支持读取任何表格�
 
 ## 创建表格样式
 
-用户可以创建新样式并将其添加到样式集合中。 [Add](https://reference.aspose.com/words/net/aspose.words/stylecollection/add/)方法用于创建新的表格样式。
+用户可以创建新样式并将其添加到样式集合中。 [Add](https://reference.aspose.com/words/zh/net/aspose.words/stylecollection/add/)方法用于创建新的表格样式。
 
 以下代码示例显示如何创建新的用户定义的表格样式：
 
@@ -37,11 +37,11 @@ Aspose.Words 支持将表格样式应用于表格，还支持读取任何表格�
 
 ## 应用现有表格样式
 
-Aspose.Words提供了一个继承自[Style](https://reference.aspose.com/words/net/aspose.words/style/)的[TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/)类。 **TableStyle** 方便用户应用不同的样式选项，如阴影、填充、缩进、[CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) 和 [Font](https://reference.aspose.com/words/net/aspose.words/style/font/) 等。
+Aspose.Words提供了一个继承自[Style](https://reference.aspose.com/words/zh/net/aspose.words/style/)的[TableStyle](https://reference.aspose.com/words/zh/net/aspose.words/tablestyle/)类。 **TableStyle** 方便用户应用不同的样式选项，如阴影、填充、缩进、[CellSpacing](https://reference.aspose.com/words/zh/net/aspose.words/tablestyle/cellspacing/) 和 [Font](https://reference.aspose.com/words/zh/net/aspose.words/style/font/) 等。
 
-此外，Aspose.Words 提供了 [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) 类和 `Table` 类的一些属性来指定我们将使用哪种表格样式：[Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/)、[StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/)、[StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/) 和 [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/)。
+此外，Aspose.Words 提供了 [StyleCollection](https://reference.aspose.com/words/zh/net/aspose.words/stylecollection/) 类和 `Table` 类的一些属性来指定我们将使用哪种表格样式：[Style](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/style/)、[StyleIdentifier](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/styleidentifier/)、[StyleName](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/stylename/) 和 [StyleOptions](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/styleoptions/)。
 
-Aspose.Words 还提供 [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/) 类，表示应用于具有指定表格样式的表格某些区域的特殊格式，以及表示 **ConditionalStyle** 对象集合的 [ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/)。该集合包含一组永久项目，代表 [ConditionalStyleType](https://reference.aspose.com/words/net/aspose.words/conditionalstyletype/) 枚举类型的每个值的一个项目。 **ConditionalStyleType** 枚举定义了可以在表格样式中定义条件格式的所有可能的表格区域。
+Aspose.Words 还提供 [ConditionalStyle](https://reference.aspose.com/words/zh/net/aspose.words/conditionalstyle/) 类，表示应用于具有指定表格样式的表格某些区域的特殊格式，以及表示 **ConditionalStyle** 对象集合的 [ConditionalStyleCollection](https://reference.aspose.com/words/zh/net/aspose.words/conditionalstylecollection/)。该集合包含一组永久项目，代表 [ConditionalStyleType](https://reference.aspose.com/words/zh/net/aspose.words/conditionalstyletype/) 枚举类型的每个值的一个项目。 **ConditionalStyleType** 枚举定义了可以在表格样式中定义条件格式的所有可能的表格区域。
 
 在这种情况下，可以为 ConditionalStyleType 枚举类型下定义的所有可能的表区域定义条件格式。
 
@@ -49,7 +49,7 @@ Aspose.Words 还提供 [ConditionalStyle](https://reference.aspose.com/words/net
 
 {{< gist "aspose-words-gists" "93b92a7e6f2f4bbfd9177dd7fcecbd8c" "define-conditional-formatting.cs" >}}
 
-您还可以选择要应用样式的表格部分，例如第一列、最后一列、带状行。它们列在 [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/) 枚举中并通过 [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/) 属性应用。 **TableStyleOptions** 枚举允许按位组合这些功能。
+您还可以选择要应用样式的表格部分，例如第一列、最后一列、带状行。它们列在 [TableStyleOptions](https://reference.aspose.com/words/zh/net/aspose.words.tables/tablestyleoptions/) 枚举中并通过 [StyleOptions](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/styleoptions/) 属性应用。 **TableStyleOptions** 枚举允许按位组合这些功能。
 
 以下代码示例演示如何创建应用了表格样式的新表：
 
@@ -61,7 +61,7 @@ Aspose.Words 还提供 [ConditionalStyle](https://reference.aspose.com/words/net
 
 ## 从表格样式中获取格式并将其应用为直接格式
 
-Aspose.Words 还提供 [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/net/aspose.words/document/expandtablestylestodirectformatting/) 方法来获取表格样式上的格式并将其扩展为表格的行和单元格作为直接格式。尝试将格式与表格样式和单元格样式结合起来。
+Aspose.Words 还提供 [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/zh/net/aspose.words/document/expandtablestylestodirectformatting/) 方法来获取表格样式上的格式并将其扩展为表格的行和单元格作为直接格式。尝试将格式与表格样式和单元格样式结合起来。
 
 {{% alert color="primary" %}}
 

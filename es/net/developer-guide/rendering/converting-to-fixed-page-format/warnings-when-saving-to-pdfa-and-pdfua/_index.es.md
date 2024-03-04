@@ -13,7 +13,7 @@ Los formatos PDF/A y PDF/UA imponen una serie de requisitos de accesibilidad rel
 
 Se emiten advertencias al guardar en uno de los formatos PDF/A o PDF/UA y el problema infringe el cumplimiento. Por ejemplo, la advertencia sobre el título del documento faltante se emitirá al guardar en PDF/UA y no se emitirá al guardar en PDF/A.
 
-Todas las advertencias son de [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.Pérdida de formato menor** y [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.pdf**. Aquí hay una lista de los nuevos valores de advertencia de Descripción:
+Todas las advertencias son de [WarningType](https://reference.aspose.com/words/es/net/aspose.words/warningtype/)**.Pérdida de formato menor** y [WarningSource](https://reference.aspose.com/words/es/net/aspose.words/warningsource/)**.pdf**. Aquí hay una lista de los nuevos valores de advertencia de Descripción:
 
 |  Descripción valor de advertencia |  PDF/A |  PDF/UA |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

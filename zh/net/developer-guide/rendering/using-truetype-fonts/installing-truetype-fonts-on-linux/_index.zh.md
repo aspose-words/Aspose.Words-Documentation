@@ -22,7 +22,7 @@ url: /zh/net/installing-truetype-fonts-on-linux/
 
 ## 从 Windows 机器复制字体
 
-在 Linux 系统上获取 TrueType 字体的一种简单快捷的方法是将 .TTF 和 .TTC 文件从 Windows 计算机上的 `C:\Windows\Fonts` 目录复制到 Linux 计算机上的某个目录。您无需以任何方式在 Linux 上安装或注册这些字体；您只需使用 Aspose.Words 中的 [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) 类指定字体的位置。
+在 Linux 系统上获取 TrueType 字体的一种简单快捷的方法是将 .TTF 和 .TTC 文件从 Windows 计算机上的 `C:\Windows\Fonts` 目录复制到 Linux 计算机上的某个目录。您无需以任何方式在 Linux 上安装或注册这些字体；您只需使用 Aspose.Words 中的 [FontSettings](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/) 类指定字体的位置。
 
 {{% alert color="primary" %}}
 

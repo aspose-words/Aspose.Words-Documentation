@@ -9,11 +9,11 @@ weight: 110
 url: /fr/net/working-with-styles-and-themes/
 ---
 
-La classe [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) est utilisée pour gérer les paramètres intégrés et appliquer les paramètres définis par l'utilisateur aux styles.
+La classe [StyleCollection](https://reference.aspose.com/words/fr/net/aspose.words/stylecollection/) est utilisée pour gérer les paramètres intégrés et appliquer les paramètres définis par l'utilisateur aux styles.
 
 ## Accéder aux styles
 
-Vous pouvez obtenir une collection de styles définis dans le document à l'aide de la propriété [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/). Cette collection contient à la fois les styles intégrés et définis par l'utilisateur dans un document. Un style particulier peut être obtenu par son nom/alias, son identifiant de style ou son index. L'exemple de code suivant montre comment accéder à la collection de styles définis dans le document.
+Vous pouvez obtenir une collection de styles définis dans le document à l'aide de la propriété [Document.Styles](https://reference.aspose.com/words/fr/net/aspose.words/documentbase/styles/). Cette collection contient à la fois les styles intégrés et définis par l'utilisateur dans un document. Un style particulier peut être obtenu par son nom/alias, son identifiant de style ou son index. L'exemple de code suivant montre comment accéder à la collection de styles définis dans le document.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ La solution pour récupérer du texte formaté avec des styles spécifiques dans
 
 ### La solution
 
-Pour illustrer avec quelle facilité Aspose.Words gère la récupération de contenu en fonction des styles, regardons un exemple. Dans cet exemple, nous allons récupérer du texte formaté avec un style de paragraphe spécifique et un style de caractère à partir d'un exemple de document Word. À un niveau élevé, cela impliquera:# Ouvrir un document Word à l'aide de la classe [Document](https://reference.aspose.com/words/net/aspose.words/document/).# Obtenir des collections de tous les paragraphes et toutes les séquences du document.# Sélection uniquement des paragraphes et des séquences requis. Plus précisément, nous récupérerons le texte formaté avec le style de paragraphe "Titre 1" et le style de caractère "Accentuation intense" à partir de cet exemple de document Word.
+Pour illustrer avec quelle facilité Aspose.Words gère la récupération de contenu en fonction des styles, regardons un exemple. Dans cet exemple, nous allons récupérer du texte formaté avec un style de paragraphe spécifique et un style de caractère à partir d'un exemple de document Word. À un niveau élevé, cela impliquera:# Ouvrir un document Word à l'aide de la classe [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/).# Obtenir des collections de tous les paragraphes et toutes les séquences du document.# Sélection uniquement des paragraphes et des séquences requis. Plus précisément, nous récupérerons le texte formaté avec le style de paragraphe "Titre 1" et le style de caractère "Accentuation intense" à partir de cet exemple de document Word.
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ Notez que le deuxième paramètre de la méthode **Document.GetChildNodes** est 
 
 {{% /alert %}}
 
-Il convient également de souligner que la collection paragraphes ne crée pas de surcharge immédiate car les paragraphes sont chargés dans cette collection uniquement lorsque vous accédez à des éléments qu'ils contiennent. Ensuite, tout ce que vous avez à faire est de parcourir la collection, en utilisant l'opérateur foreach standard et d'ajouter des paragraphes ayant le style spécifié au tableau paragraphesWithStyle. Le nom du style `Paragraph` se trouve dans la propriété [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) de l'objet [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/). L'implémentation de RunsByStyleName est presque la même, même si nous utilisons évidemment [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) pour récupérer les nœuds d'exécution. La propriété [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) d'un objet [Run](https://reference.aspose.com/words/net/aspose.words/run/) est utilisée pour accéder aux informations de style dans les nœuds **Run**. L'exemple ci-dessous recherche toutes les exécutions formatées avec le style spécifié.
+Il convient également de souligner que la collection paragraphes ne crée pas de surcharge immédiate car les paragraphes sont chargés dans cette collection uniquement lorsque vous accédez à des éléments qu'ils contiennent. Ensuite, tout ce que vous avez à faire est de parcourir la collection, en utilisant l'opérateur foreach standard et d'ajouter des paragraphes ayant le style spécifié au tableau paragraphesWithStyle. Le nom du style `Paragraph` se trouve dans la propriété [Style.Name](https://reference.aspose.com/words/fr/net/aspose.words/style/name/) de l'objet [Paragraph.ParagraphFormat](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/paragraphformat/). L'implémentation de RunsByStyleName est presque la même, même si nous utilisons évidemment [NodeType.Run](https://reference.aspose.com/words/fr/net/aspose.words/nodetype/) pour récupérer les nœuds d'exécution. La propriété [Font.Style](https://reference.aspose.com/words/fr/net/aspose.words/font/style/) d'un objet [Run](https://reference.aspose.com/words/fr/net/aspose.words/run/) est utilisée pour accéder aux informations de style dans les nœuds **Run**. L'exemple ci-dessous recherche toutes les exécutions formatées avec le style spécifié.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

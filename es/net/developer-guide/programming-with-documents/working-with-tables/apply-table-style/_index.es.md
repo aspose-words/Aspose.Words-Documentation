@@ -19,7 +19,7 @@ Aspose.Words admite la aplicación de un estilo de tabla a una tabla y también 
 
 ## Crear un estilo de tabla
 
-El usuario puede crear un nuevo estilo y agregarlo a la colección de estilos. El método [Add](https://reference.aspose.com/words/net/aspose.words/stylecollection/add/) se utiliza para crear un nuevo estilo de tabla.
+El usuario puede crear un nuevo estilo y agregarlo a la colección de estilos. El método [Add](https://reference.aspose.com/words/es/net/aspose.words/stylecollection/add/) se utiliza para crear un nuevo estilo de tabla.
 
 El siguiente ejemplo de código muestra cómo crear un nuevo estilo de tabla definido por el usuario:
 
@@ -37,11 +37,11 @@ El siguiente ejemplo de código muestra cómo importar un estilo de un documento
 
 ## Aplicar un estilo de tabla existente
 
-Aspose.Words proporciona un [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) heredado de la clase [Style](https://reference.aspose.com/words/net/aspose.words/style/). **TableStyle** facilita al usuario aplicar diferentes opciones de estilo como sombreado, relleno, sangría, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) y [Font](https://reference.aspose.com/words/net/aspose.words/style/font/), etc.
+Aspose.Words proporciona un [TableStyle](https://reference.aspose.com/words/es/net/aspose.words/tablestyle/) heredado de la clase [Style](https://reference.aspose.com/words/es/net/aspose.words/style/). **TableStyle** facilita al usuario aplicar diferentes opciones de estilo como sombreado, relleno, sangría, [CellSpacing](https://reference.aspose.com/words/es/net/aspose.words/tablestyle/cellspacing/) y [Font](https://reference.aspose.com/words/es/net/aspose.words/style/font/), etc.
 
-Además, Aspose.Words proporciona la clase [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) y algunas propiedades de la clase `Table` para especificar con qué estilo de tabla trabajaremos: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/) y [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
+Además, Aspose.Words proporciona la clase [StyleCollection](https://reference.aspose.com/words/es/net/aspose.words/stylecollection/) y algunas propiedades de la clase `Table` para especificar con qué estilo de tabla trabajaremos: [Style](https://reference.aspose.com/words/es/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/es/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/es/net/aspose.words.tables/table/stylename/) y [StyleOptions](https://reference.aspose.com/words/es/net/aspose.words.tables/table/styleoptions/).
 
-Aspose.Words también proporciona la clase [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/) que representa un formato especial aplicado a alguna área de una tabla con un estilo de tabla asignado y el [ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/) que representa una colección de objetos **ConditionalStyle**. Esta colección contiene un conjunto permanente de elementos que representan un elemento para cada valor del tipo de enumeración [ConditionalStyleType](https://reference.aspose.com/words/net/aspose.words/conditionalstyletype/). La enumeración **ConditionalStyleType** define todas las áreas de tabla posibles en las que se puede definir formato condicional en un estilo de tabla.
+Aspose.Words también proporciona la clase [ConditionalStyle](https://reference.aspose.com/words/es/net/aspose.words/conditionalstyle/) que representa un formato especial aplicado a alguna área de una tabla con un estilo de tabla asignado y el [ConditionalStyleCollection](https://reference.aspose.com/words/es/net/aspose.words/conditionalstylecollection/) que representa una colección de objetos **ConditionalStyle**. Esta colección contiene un conjunto permanente de elementos que representan un elemento para cada valor del tipo de enumeración [ConditionalStyleType](https://reference.aspose.com/words/es/net/aspose.words/conditionalstyletype/). La enumeración **ConditionalStyleType** define todas las áreas de tabla posibles en las que se puede definir formato condicional en un estilo de tabla.
 
 En este caso, se puede definir formato condicional para todas las áreas de tabla posibles definidas en el tipo de enumeración ConditionalStyleType.
 
@@ -49,7 +49,7 @@ El siguiente ejemplo de código muestra cómo definir el formato condicional par
 
 {{< gist "aspose-words-gists" "93b92a7e6f2f4bbfd9177dd7fcecbd8c" "define-conditional-formatting.cs" >}}
 
-También puede elegir a qué partes de la tabla aplicar estilos, como la primera columna, la última columna y las filas con bandas. Se enumeran en la enumeración [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/) y se aplican a través de la propiedad [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/). La enumeración **TableStyleOptions** permite una combinación bit a bit de estas características.
+También puede elegir a qué partes de la tabla aplicar estilos, como la primera columna, la última columna y las filas con bandas. Se enumeran en la enumeración [TableStyleOptions](https://reference.aspose.com/words/es/net/aspose.words.tables/tablestyleoptions/) y se aplican a través de la propiedad [StyleOptions](https://reference.aspose.com/words/es/net/aspose.words.tables/table/styleoptions/). La enumeración **TableStyleOptions** permite una combinación bit a bit de estas características.
 
 El siguiente ejemplo de código muestra cómo crear una nueva tabla con un estilo de tabla aplicado:
 
@@ -61,7 +61,7 @@ Las siguientes imágenes muestran una representación del **Table Styles** en Mi
 
 ## Tome el formato del estilo de tabla y aplíquelo como formato directo
 
-Aspose.Words también proporciona el método [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/net/aspose.words/document/expandtablestylestodirectformatting/) para tomar el formato que se encuentra en un estilo de tabla y expandirlo a las filas y celdas de la tabla como formato directo. Intente combinar formato con estilo de tabla y estilo de celda.
+Aspose.Words también proporciona el método [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/es/net/aspose.words/document/expandtablestylestodirectformatting/) para tomar el formato que se encuentra en un estilo de tabla y expandirlo a las filas y celdas de la tabla como formato directo. Intente combinar formato con estilo de tabla y estilo de celda.
 
 {{% alert color="primary" %}}
 

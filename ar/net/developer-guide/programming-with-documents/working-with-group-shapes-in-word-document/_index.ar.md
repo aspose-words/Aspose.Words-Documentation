@@ -13,7 +13,7 @@ url: /ar/net/how-to-add-group-shape-into-a-word-document/
 
 في Microsoft Word، يمكنك إضافة group shape بسرعة باستخدام أمر/زر Group. يمكن نقل شكل فردي في مجموعة بشكل منفصل.
 
-في Aspose.Words، من السهل جدًا إضافة group shape باستخدام فئة [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/). يتم إنشاء **Shape** بشكل منفصل باستخدام فئة [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) ثم تتم إضافته إلى كائن [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) باستخدام طريقة [AppendChild](https://reference.aspose.com/words/net/aspose.words/compositenode/appendchild/).
+في Aspose.Words، من السهل جدًا إضافة group shape باستخدام فئة [GroupShape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/groupshape/). يتم إنشاء **Shape** بشكل منفصل باستخدام فئة [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/) ثم تتم إضافته إلى كائن [GroupShape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/groupshape/) باستخدام طريقة [AppendChild](https://reference.aspose.com/words/ar/net/aspose.words/compositenode/appendchild/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية إضافة group shape إلى مستند Word:
 
@@ -35,6 +35,6 @@ url: /ar/net/how-to-add-group-shape-into-a-word-document/
 - سداسي الزوايا
 - المثمن
 
-للحصول على القائمة الكاملة، يرجى مراجعة فئة [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype).
+للحصول على القائمة الكاملة، يرجى مراجعة فئة [ShapeType](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shapetype).
 
 {{% /alert %}}

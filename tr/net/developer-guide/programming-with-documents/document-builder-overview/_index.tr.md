@@ -9,7 +9,7 @@ weight: 30
 url: /tr/net/document-builder-overview/
 ---
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), [Document](https://reference.aspose.com/words/net/aspose.words/document/) ile ilişkilendirilen güçlü bir sınıftır ve sıfırdan dinamik belgeler oluşturmanıza veya mevcut belgelere yeni öğeler eklemenize olanak tanır.
+[DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/), [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) ile ilişkilendirilen güçlü bir sınıftır ve sıfırdan dinamik belgeler oluşturmanıza veya mevcut belgelere yeni öğeler eklemenize olanak tanır.
 
 **DocumentBuilder**, metin, onay kutuları, ole nesneleri, paragraflar, listeler, tablolar, resimler ve diğer içerik öğelerini eklemek için yöntemler sağlar. Yazı tiplerini, paragraf veya bölüm formatını belirlemenize ve diğer işlemleri gerçekleştirmenize olanak tanır.
 
@@ -21,7 +21,7 @@ url: /tr/net/document-builder-overview/
 
 ## Belgede Gezinme
 
-Belgede gezinme, [MoveToDocumentStart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetodocumentstart/) ve [MoveToField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetofield/) gibi çeşitli **DocumentBuilder.MoveToXXX** yöntemlerini kullanarak belgede başka bir konuma gidebileceğiniz sanal imleç kavramına dayanır. Bu sanal imleç, [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/), [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/ln/index), [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/) ve diğer yöntemler çağrılırken metnin nereye ekleneceğini gösterir. Sanal imleç hakkında daha fazla bilgi edinmek için aşağıdaki "İmleçle Gezinme" makalesine bakın.
+Belgede gezinme, [MoveToDocumentStart](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/movetodocumentstart/) ve [MoveToField](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/movetofield/) gibi çeşitli **DocumentBuilder.MoveToXXX** yöntemlerini kullanarak belgede başka bir konuma gidebileceğiniz sanal imleç kavramına dayanır. Bu sanal imleç, [Write](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/write/), [Writeln](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/write/ln/index), [InsertBreak](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertbreak/) ve diğer yöntemler çağrılırken metnin nereye ekleneceğini gösterir. Sanal imleç hakkında daha fazla bilgi edinmek için aşağıdaki "İmleçle Gezinme" makalesine bakın.
 
 Aşağıdaki kod örneği, bir yer işaretine nasıl gidileceğini gösterir:
 
@@ -29,9 +29,9 @@ Aşağıdaki kod örneği, bir yer işaretine nasıl gidileceğini gösterir:
 
 ## Belge Oluşturma ve Değiştirme
 
-Aspose.Words API, bir belgenin çeşitli öğelerinin biçimlendirilmesinden sorumlu olan çeşitli sınıflar sağlar. Sınıfların her biri, metin, paragraf, bölüm ve diğerleri gibi belirli bir belge öğesiyle ilgili biçimlendirme özelliklerini kapsar. Örneğin, [Font](https://reference.aspose.com/words/net/aspose.words/font/) sınıfı karakter biçimlendirme özelliklerini, [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) sınıfı paragraf biçimlendirme özelliklerini vb. temsil eder. Bu sınıfların nesneleri, sınıflarla aynı adlara sahip olan karşılık gelen **DocumentBuilder** özellikleri tarafından döndürülür. Bu nedenle, belge oluşturma sırasında bunlara erişebilir ve istediğiniz biçimlendirmeyi ayarlayabilirsiniz.
+Aspose.Words API, bir belgenin çeşitli öğelerinin biçimlendirilmesinden sorumlu olan çeşitli sınıflar sağlar. Sınıfların her biri, metin, paragraf, bölüm ve diğerleri gibi belirli bir belge öğesiyle ilgili biçimlendirme özelliklerini kapsar. Örneğin, [Font](https://reference.aspose.com/words/tr/net/aspose.words/font/) sınıfı karakter biçimlendirme özelliklerini, [ParagraphFormat](https://reference.aspose.com/words/tr/net/aspose.words/paragraphformat/) sınıfı paragraf biçimlendirme özelliklerini vb. temsil eder. Bu sınıfların nesneleri, sınıflarla aynı adlara sahip olan karşılık gelen **DocumentBuilder** özellikleri tarafından döndürülür. Bu nedenle, belge oluşturma sırasında bunlara erişebilir ve istediğiniz biçimlendirmeyi ayarlayabilirsiniz.
 
-Ayrıca `Write` yöntemini veya [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/#insertfield/), [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/#inserthtml/) ve benzeri yöntemler gibi **DocumentBuilder.InsertXXX** yöntemlerinden herhangi birini kullanarak imleç konumuna metin, onay kutusu, ole nesnesi, resimler, yer imleri, form alanları ve diğer belge öğeleri ekleyebilirsiniz.
+Ayrıca `Write` yöntemini veya [InsertField](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertfield/#insertfield/), [InsertHtml](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/inserthtml/#inserthtml/) ve benzeri yöntemler gibi **DocumentBuilder.InsertXXX** yöntemlerinden herhangi birini kullanarak imleç konumuna metin, onay kutusu, ole nesnesi, resimler, yer imleri, form alanları ve diğer belge öğeleri ekleyebilirsiniz.
 
 **DocumentBuilder** kullanarak basit bir belgenin nasıl oluşturulacağını görelim.
 
@@ -47,7 +47,7 @@ Aşağıdaki kod örneği, belge oluşturucu kullanarak basit bir belgenin nası
 
 ### Belge Biçimlendirmesini Belirtin
 
-[Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) özelliği metin biçimlendirmesini tanımlar. Bu nesne farklı yazı tipi niteliklerini (yazı tipi adı, yazı tipi boyutu, rengi vb.) içerir. Bazı önemli yazı tipi nitelikleri, bunlara doğrudan erişmenize olanak sağlamak için **DocumentBuilder** özellikleriyle de temsil edilir. Bunlar [Font.Bold](https://reference.aspose.com/words/net/aspose.words/font/bold/), [Font.Italic](https://reference.aspose.com/words/net/aspose.words/font/italic/) ve [Font.Underline](https://reference.aspose.com/words/net/aspose.words/font/underline/) boole özellikleridir.
+[Font](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/font/) özelliği metin biçimlendirmesini tanımlar. Bu nesne farklı yazı tipi niteliklerini (yazı tipi adı, yazı tipi boyutu, rengi vb.) içerir. Bazı önemli yazı tipi nitelikleri, bunlara doğrudan erişmenize olanak sağlamak için **DocumentBuilder** özellikleriyle de temsil edilir. Bunlar [Font.Bold](https://reference.aspose.com/words/tr/net/aspose.words/font/bold/), [Font.Italic](https://reference.aspose.com/words/tr/net/aspose.words/font/italic/) ve [Font.Underline](https://reference.aspose.com/words/tr/net/aspose.words/font/underline/) boole özellikleridir.
 
 Aşağıdaki kod örneği, **DocumentBuilder** kullanarak biçimlendirilmiş bir metnin nasıl ekleneceğini gösterir:
 
@@ -55,10 +55,10 @@ Aşağıdaki kod örneği, **DocumentBuilder** kullanarak biçimlendirilmiş bir
 
 {{% alert color="primary" %}}
 
-- [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/), belgedeki geçerli konumdan itibaren eklenen tüm metne uygulanacak karakter formatını belirtir.
-- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/), geçerli paragrafın ve eklenecek tüm paragrafların paragraf formatını belirtir.
-- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/), geçerli bölüm ve eklenecek bölümün tamamı için sayfa ve bölüm özelliklerini belirtir.
-- [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) ve [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/), belgedeki geçerli konumdan itibaren tablo hücrelerine ve satırlara uygulanacak biçimlendirme özelliklerini belirtir.
+- [Font](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/font/), belgedeki geçerli konumdan itibaren eklenen tüm metne uygulanacak karakter formatını belirtir.
+- [ParagraphFormat](https://reference.aspose.com/words/tr/net/aspose.words/paragraphformat/), geçerli paragrafın ve eklenecek tüm paragrafların paragraf formatını belirtir.
+- [PageSetup](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/), geçerli bölüm ve eklenecek bölümün tamamı için sayfa ve bölüm özelliklerini belirtir.
+- [CellFormat](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/cellformat/) ve [RowFormat](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/rowformat/), belgedeki geçerli konumdan itibaren tablo hücrelerine ve satırlara uygulanacak biçimlendirme özelliklerini belirtir.
 
 Bu durumda "geçerli", imlecin bulunduğu konum, paragraf, bölüm, hücre veya satır anlamına gelir.
 

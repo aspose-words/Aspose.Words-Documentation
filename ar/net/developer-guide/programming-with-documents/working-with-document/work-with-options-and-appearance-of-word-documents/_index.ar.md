@@ -13,7 +13,7 @@ url: /ar/net/work-with-word-document-options-and-appearance/
 
 ## ضبط خيارات عرض المستند
 
-يمكنك التحكم في كيفية عرض المستند في Microsoft Word باستخدام فئة [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/). على سبيل المثال، يمكنك تعيين قيمة تكبير/تصغير المستند باستخدام خاصية [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/zoompercent/)، أو وضع العرض باستخدام خاصية [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/viewtype/).
+يمكنك التحكم في كيفية عرض المستند في Microsoft Word باستخدام فئة [ViewOptions](https://reference.aspose.com/words/ar/net/aspose.words.settings/viewoptions/). على سبيل المثال، يمكنك تعيين قيمة تكبير/تصغير المستند باستخدام خاصية [ZoomPercent](https://reference.aspose.com/words/ar/net/aspose.words.settings/viewoptions/zoompercent/)، أو وضع العرض باستخدام خاصية [ViewType](https://reference.aspose.com/words/ar/net/aspose.words.settings/viewoptions/viewtype/).
 
 يوضح مثال الكود التالي كيفية التأكد من عرض المستند بنسبة 50% عند فتحه في Microsoft Word:
 
@@ -33,7 +33,7 @@ url: /ar/net/work-with-word-document-options-and-appearance/
 
 ## ضبط خيارات عرض الصفحة
 
-إذا كنت تريد تعيين عدد الأحرف لكل سطر، فاستخدم خاصية [CharactersPerLine](https://reference.aspose.com/words/net/aspose.words/pagesetup/charactersperline/). يمكنك أيضًا تعيين عدد الأسطر لكل صفحة لمستند Word - استخدم خاصية [LinesPerPage](https://reference.aspose.com/words/net/aspose.words/pagesetup/linesperpage/) للحصول على أو تعيين عدد الأسطر لكل صفحة في شبكة المستند.
+إذا كنت تريد تعيين عدد الأحرف لكل سطر، فاستخدم خاصية [CharactersPerLine](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/charactersperline/). يمكنك أيضًا تعيين عدد الأسطر لكل صفحة لمستند Word - استخدم خاصية [LinesPerPage](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/linesperpage/) للحصول على أو تعيين عدد الأسطر لكل صفحة في شبكة المستند.
 
 {{% alert color="primary" %}}
 
@@ -49,7 +49,7 @@ url: /ar/net/work-with-word-document-options-and-appearance/
 
 يعتمد عرض مستند في Microsoft Word على اللغات التي تم تعيينها كإعدادات افتراضية لهذا المستند. إذا لم يتم تعيين أي لغات في الإعدادات الافتراضية، فإن Microsoft Word يأخذ المعلومات من مربع الحوار "Set Office Language Preferences"، والذي، على سبيل المثال، يمكن العثور عليه ضمن "File → Options → Language" في Microsoft Word 2019.
 
-باستخدام Aspose.Words، يمكنك أيضًا إعداد تفضيلات اللغة باستخدام فئة [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/). لاحظ أيضًا أنه من أجل العرض الصحيح للمستند الخاص بك، من الضروري تعيين إصدار Microsoft Word الذي يجب أن تتطابق معه عملية تحميل المستند - ويمكن القيام بذلك باستخدام خاصية [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/mswversion/).
+باستخدام Aspose.Words، يمكنك أيضًا إعداد تفضيلات اللغة باستخدام فئة [LanguagePreferences](https://reference.aspose.com/words/ar/net/aspose.words.loading/languagepreferences/). لاحظ أيضًا أنه من أجل العرض الصحيح للمستند الخاص بك، من الضروري تعيين إصدار Microsoft Word الذي يجب أن تتطابق معه عملية تحميل المستند - ويمكن القيام بذلك باستخدام خاصية [MswVersion](https://reference.aspose.com/words/ar/net/aspose.words.loading/loadoptions/mswversion/).
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ url: /ar/net/work-with-word-document-options-and-appearance/
 
 ## تحسين مستند لإصدار Word معين
 
-تسمح طريقة [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) بتحسين محتوى المستند، بالإضافة إلى سلوك Aspose.Words الافتراضي لإصدار معين من Microsoft Word. يمكنك استخدام هذه الطريقة لمنع Microsoft Word من عرض شريط "وضع التوافق" عند تحميل المستند. لاحظ أنك قد تحتاج أيضًا إلى تعيين خاصية `Compliance` على Iso29500_2008_Transitional أو أعلى.
+تسمح طريقة [OptimizeFor](https://reference.aspose.com/words/ar/net/aspose.words.settings/compatibilityoptions/optimizefor/) بتحسين محتوى المستند، بالإضافة إلى سلوك Aspose.Words الافتراضي لإصدار معين من Microsoft Word. يمكنك استخدام هذه الطريقة لمنع Microsoft Word من عرض شريط "وضع التوافق" عند تحميل المستند. لاحظ أنك قد تحتاج أيضًا إلى تعيين خاصية `Compliance` على Iso29500_2008_Transitional أو أعلى.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحسين محتوى المستند لـ Microsoft Word 2016:
 

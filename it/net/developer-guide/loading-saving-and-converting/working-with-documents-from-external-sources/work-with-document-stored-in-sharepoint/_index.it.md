@@ -267,4 +267,4 @@ Di conseguenza, il file "TestDoc.pdf" dovrebbe essere inserito nella cartella "D
 
 - L'articolo [Rendering](/words/it/net/rendering/) per maggiori informazioni sui formati a pagina fissa e con layout a flusso
 - L'articolo [Conversione nel formato a pagina fissa](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) per maggiori informazioni sull'impaginazione
-- L'articolo [Specifica le opzioni di rendering durante la conversione in PDF](/words/it/net/specify-rendering-options-when-converting-to-pdf/) per maggiori informazioni sull'utilizzo della classe [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)
+- L'articolo [Specifica le opzioni di rendering durante la conversione in PDF](/words/it/net/specify-rendering-options-when-converting-to-pdf/) per maggiori informazioni sull'utilizzo della classe [PdfSaveOptions](https://reference.aspose.com/words/it/net/aspose.words.saving/pdfsaveoptions/)

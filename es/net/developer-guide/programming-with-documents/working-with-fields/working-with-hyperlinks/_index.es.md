@@ -9,11 +9,11 @@ weight: 50
 url: /es/net/working-with-hyperlinks/
 ---
 
-Un hipervínculo en documentos Microsoft Word es el campo `HYPERLINK`. En Aspose.Words, los hipervínculos se implementan mediante la clase [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).
+Un hipervínculo en documentos Microsoft Word es el campo `HYPERLINK`. En Aspose.Words, los hipervínculos se implementan mediante la clase [FieldHyperlink](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldhyperlink/).
 
 ## Insertar un hipervínculo
 
-Utilice el método [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/) para insertar un hipervínculo en el documento. Este método acepta tres parámetros:
+Utilice el método [InsertHyperlink](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/inserthyperlink/) para insertar un hipervínculo en el documento. Este método acepta tres parámetros:
 
 1. Texto del enlace que se mostrará en el documento
 2. Destino del enlace (URL o nombre de un marcador dentro del documento)
@@ -27,7 +27,7 @@ Tenga en cuenta que debe especificar el formato de fuente para el texto que se m
 
 {{% /alert %}}
 
-El siguiente ejemplo de código muestra cómo insertar un hipervínculo en un documento usando [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/):
+El siguiente ejemplo de código muestra cómo insertar un hipervínculo en un documento usando [DocumentBuilder](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

@@ -17,14 +17,14 @@ url: /zh/net/working-with-comments/
 
 {{% /alert %}}
 
-Aspose.Words 允许用户使用注释 - Aspose.Words 文档中的注释由 [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) 类表示。还可以使用 [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) 和 [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) 类来指定应与注释关联的文本区域。
+Aspose.Words 允许用户使用注释 - Aspose.Words 文档中的注释由 [Comment](https://reference.aspose.com/words/zh/net/aspose.words/comment/) 类表示。还可以使用 [CommentRangeStart](https://reference.aspose.com/words/zh/net/aspose.words/commentrangestart/) 和 [CommentRangeEnd](https://reference.aspose.com/words/zh/net/aspose.words/commentrangeend/) 类来指定应与注释关联的文本区域。
 
 ## 添加评论
 
 Aspose.Words 允许您通过多种方式添加注释：
 
-1.使用[Comment](https://reference.aspose.com/words/net/aspose.words/comment/)类
-2.使用[CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/)和[CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)类
+1.使用[Comment](https://reference.aspose.com/words/zh/net/aspose.words/comment/)类
+2.使用[CommentRangeStart](https://reference.aspose.com/words/zh/net/aspose.words/commentrangestart/)和[CommentRangeEnd](https://reference.aspose.com/words/zh/net/aspose.words/commentrangeend/)类
 
 以下代码示例演示如何使用 **Comment** 类向段落添加注释：
 
@@ -45,11 +45,11 @@ Aspose.Words 允许您通过多种方式添加注释：
 
 ### 如何提取或删除评论
 
-该示例中的代码实际上非常简单，并且所有方法都基于相同的方法。 Word 文档中的注释由 Aspose.Words 文档对象模型中的 [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) 对象表示。要收集文档中的所有注释，请使用 [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) 方法，并将第一个参数设置为 [NodeType.Comment](https://reference.aspose.com/words/net/aspose.words/nodetype/)。确保 **GetChildNodes** 方法的第二个参数设置为 true：这会强制 **GetChildNodes** 递归地从所有子节点中进行选择，而不是仅收集直接子节点。
+该示例中的代码实际上非常简单，并且所有方法都基于相同的方法。 Word 文档中的注释由 Aspose.Words 文档对象模型中的 [Comment](https://reference.aspose.com/words/zh/net/aspose.words/comment/) 对象表示。要收集文档中的所有注释，请使用 [GetChildNodes](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/getchildnodes/) 方法，并将第一个参数设置为 [NodeType.Comment](https://reference.aspose.com/words/zh/net/aspose.words/nodetype/)。确保 **GetChildNodes** 方法的第二个参数设置为 true：这会强制 **GetChildNodes** 递归地从所有子节点中进行选择，而不是仅收集直接子节点。
 
 为了说明如何从文档中提取和删除注释，我们将执行以下步骤：
 
-1.使用[Document](https://reference.aspose.com/words/net/aspose.words/document/)类打开Word文档
+1.使用[Document](https://reference.aspose.com/words/zh/net/aspose.words/document/)类打开Word文档
 2.将文档中的所有评论获取到一个集合中
 3. 提取注释：
    1. 使用 foreach 运算符遍历集合
@@ -80,7 +80,7 @@ Aspose.Words 允许您通过多种方式添加注释：
 
 ### 如何删除评论
 
-如果要删除所有评论，则无需在集合中逐一删除评论。您可以通过在评论集合上调用 [Clear](https://reference.aspose.com/words/net/aspose.words/nodecollection/clear/) 方法来删除它们。
+如果要删除所有评论，则无需在集合中逐一删除评论。您可以通过在评论集合上调用 [Clear](https://reference.aspose.com/words/zh/net/aspose.words/nodecollection/clear/) 方法来删除它们。
 
 以下代码示例展示了如何删除文档中的所有注释：
 
@@ -114,9 +114,9 @@ Aspose.Words 允许您通过多种方式添加注释：
 
 ## 添加或删除评论的回复
 
-[AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) 方法添加对此评论的回复。请注意，由于现有的 Microsoft Office 限制，文档中仅允许 1 级回复。如果在现有 Reply 注释上调用此方法，将引发 *InvalidOperationException* 类型的异常。
+[AddReply](https://reference.aspose.com/words/zh/net/aspose.words/comment/addreply/) 方法添加对此评论的回复。请注意，由于现有的 Microsoft Office 限制，文档中仅允许 1 级回复。如果在现有 Reply 注释上调用此方法，将引发 *InvalidOperationException* 类型的异常。
 
-您可以使用 [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) 方法删除对此评论的指定回复。
+您可以使用 [RemoveReply](https://reference.aspose.com/words/zh/net/aspose.words/comment/removereply/) 方法删除对此评论的指定回复。
 
 以下代码示例展示了如何添加评论回复和删除评论回复：
 
@@ -124,7 +124,7 @@ Aspose.Words 允许您通过多种方式添加注释：
 
 ## 阅读评论的回复
 
-[Replies](https://reference.aspose.com/words/net/aspose.words/comment/replies/) 属性返回 [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) 对象的集合，这些对象是指定注释的直接子级。
+[Replies](https://reference.aspose.com/words/zh/net/aspose.words/comment/replies/) 属性返回 [Comment](https://reference.aspose.com/words/zh/net/aspose.words/comment/) 对象的集合，这些对象是指定注释的直接子级。
 
 以下代码示例展示了如何迭代评论的回复并解决它们：
 

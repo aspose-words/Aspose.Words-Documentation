@@ -126,7 +126,7 @@ DOC in HTML – conversione ad alta fedeltà:
 
 ## Elevata scalabilità
 
-Gli scenari scalabili lato server utilizzano Aspose.Words principalmente per il suo design semplice e pulito: Aspose.Words supporta il multithreading. Gli oggetti [Document](https://reference.aspose.com/words/net/aspose.words/document/) sono indipendenti l'uno dall'altro e finché un solo thread alla volta può modificare un documento (un requisito tipico per qualsiasi classe di raccolta), più thread possono elaborare un numero qualsiasi di documenti contemporaneamente.
+Gli scenari scalabili lato server utilizzano Aspose.Words principalmente per il suo design semplice e pulito: Aspose.Words supporta il multithreading. Gli oggetti [Document](https://reference.aspose.com/words/it/net/aspose.words/document/) sono indipendenti l'uno dall'altro e finché un solo thread alla volta può modificare un documento (un requisito tipico per qualsiasi classe di raccolta), più thread possono elaborare un numero qualsiasi di documenti contemporaneamente.
 
 ## Alte prestazioni
 

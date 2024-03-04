@@ -106,7 +106,7 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 ## 指定 Markdown 保存选项
 
-Aspose.Words API 提供 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 类来在将文档保存为 Markdown 格式时指定附加选项。
+Aspose.Words API 提供 [MarkdownSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/) 类来在将文档保存为 Markdown 格式时指定附加选项。
 
 以下代码示例演示了如何指定各种 Markdown 保存选项。
 
@@ -114,6 +114,6 @@ Aspose.Words API 提供 [MarkdownSaveOptions](https://reference.aspose.com/words
 
 ## 导出到 Markdown 时如何对齐表格内的内容
 
-Aspose.Words API 提供 [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) 枚举，它定义对齐方向，以便在导出到 Markdown 文档时对齐表格中的内容。以下代码示例演示如何对齐表格内的内容。
+Aspose.Words API 提供 [TableContentAlignment](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) 枚举，它定义对齐方向，以便在导出到 Markdown 文档时对齐表格中的内容。以下代码示例演示如何对齐表格内的内容。
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

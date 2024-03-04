@@ -13,16 +13,16 @@ url: /ar/net/working-with-merged-cells/
 
 ## كيفية دمج خلايا الجدول
 
-في Aspose.Words، يتم تمثيل الخلايا المدمجة بالخصائص التالية لفئة [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/):
+في Aspose.Words، يتم تمثيل الخلايا المدمجة بالخصائص التالية لفئة [CellFormat](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/):
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/) الذي يصف ما إذا كانت الخلية جزءًا من دمج أفقي للخلايا
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/) الذي يصف ما إذا كانت الخلية جزءًا من دمج عمودي للخلايا
+- [HorizontalMerge](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/horizontalmerge/) الذي يصف ما إذا كانت الخلية جزءًا من دمج أفقي للخلايا
+- [VerticalMerge](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellformat/verticalmerge/) الذي يصف ما إذا كانت الخلية جزءًا من دمج عمودي للخلايا
 
 تحدد قيم هذه الخصائص سلوك دمج الخلايا:
 
-- الخلية الأولى في سلسلة من الخلايا المدمجة سوف تحتوي على [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- أي خلايا مدمجة لاحقًا ستحتوي على [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- الخلية التي لم يتم دمجها سيكون لها [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+- الخلية الأولى في سلسلة من الخلايا المدمجة سوف تحتوي على [CellMerge.First](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellmerge/)
+- أي خلايا مدمجة لاحقًا ستحتوي على [CellMerge.Previous](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellmerge/)
+- الخلية التي لم يتم دمجها سيكون لها [CellMerge.None](https://reference.aspose.com/words/ar/net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ url: /ar/net/working-with-merged-cells/
 
 ## دمج خلايا الجدول عند استخدام DocumentBuilder
 
-لدمج الخلايا في جدول تم إنشاؤه باستخدام [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)، تحتاج إلى تعيين نوع الدمج المناسب لكل خلية حيث يتوقع الدمج - أولاً **CellMerge.First** ثم **CellMerge.Previous**.
+لدمج الخلايا في جدول تم إنشاؤه باستخدام [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/)، تحتاج إلى تعيين نوع الدمج المناسب لكل خلية حيث يتوقع الدمج - أولاً **CellMerge.First** ثم **CellMerge.Previous**.
 
 يجب عليك أيضًا أن تتذكر مسح إعداد الدمج لتلك الخلايا التي لا يلزم فيها الدمج - يمكن القيام بذلك عن طريق تعيين أول خلية غير مدمجة على **CellMerge.None**. إذا لم يتم ذلك، سيتم دمج كافة الخلايا في الجدول.
 

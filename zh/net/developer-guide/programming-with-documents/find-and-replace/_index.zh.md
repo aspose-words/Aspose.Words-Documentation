@@ -24,11 +24,11 @@ Aspose.Words 提供了两种应用查找和替换操作的方法，方法如下�
 
 此外，您可以使用带有简单字符串替换和正则表达式的特殊元字符来指定查找和替换操作中的中断。
 
-Aspose.Words 通过 [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/) 命名空间提供查找和替换功能。您可以在使用 [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) 类的查找和替换过程中使用许多选项。
+Aspose.Words 通过 [Aspose.Words.Replacing](https://reference.aspose.com/words/zh/net/aspose.words.replacing/) 命名空间提供查找和替换功能。您可以在使用 [FindReplaceOptions](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/) 类的查找和替换过程中使用许多选项。
 
 ### 使用简单字符串替换 {#find-and-replace-text-using-simple-string-replacement} 查找和替换文本
 
-您可以使用 [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/#replace/) 方法之一来查找或替换特定字符串并返回所做的替换数。在这种情况下，您可以指定要替换的字符串、将替换所有出现的字符串、替换是否区分大小写以及是否仅影响独立单词。
+您可以使用 [Replace](https://reference.aspose.com/words/zh/net/aspose.words/range/replace/#replace/) 方法之一来查找或替换特定字符串并返回所做的替换数。在这种情况下，您可以指定要替换的字符串、将替换所有出现的字符串、替换是否区分大小写以及是否仅影响独立单词。
 
 以下代码示例显示如何查找字符串"_CustomerName_"并将其替换为字符串*"James Bond"*：
 
@@ -46,7 +46,7 @@ Aspose.Words 通过 [Aspose.Words.Replacing](https://reference.aspose.com/words/
 
 正则表达式 (regex) 是描述特定文本序列的模式。假设您要将某个单词的所有重复出现替换为单个单词出现。然后，您可以应用以下正则表达式来指定双字模式：`([a-zA-Z]+) \1`。
 
-使用其他 [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/) 方法通过将 `Regex` 参数设置为正则表达式模式来搜索和替换特定字符组合以查找匹配项。
+使用其他 [Replace](https://reference.aspose.com/words/zh/net/aspose.words/range/replace/) 方法通过将 `Regex` 参数设置为正则表达式模式来搜索和替换特定字符组合以查找匹配项。
 
 以下代码示例演示如何将与正则表达式模式匹配的字符串替换为指定的替换字符串：
 
@@ -76,7 +76,7 @@ Aspose.Words 通过 [Aspose.Words.Replacing](https://reference.aspose.com/words/
 
 ## 查找并替换文档 {#find-and-replace-string-in-header-or-footer-of-a-document} 页眉/页脚中的字符串
 
-您可以使用 [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) 类查找并替换 Word 文档的页眉/页脚部分中的文本。
+您可以使用 [HeaderFooter](https://reference.aspose.com/words/zh/net/aspose.words/headerfooter/) 类查找并替换 Word 文档的页眉/页脚部分中的文本。
 
 以下代码示例演示如何替换文档中标题部分的文本：
 
@@ -117,7 +117,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 
 在应用查找和替换操作时，您可以忽略文本的某些片段。因此，可以从搜索中排除文本的某些部分，并且查找和替换只能应用于其余部分。
 
-Aspose.Words 提供了许多用于忽略文本的查找和替换属性，例如 [IgnoreDeleted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/)、[IgnoreFieldCodes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/)、[IgnoreFields](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefields/)、[IgnoreFootnotes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) 和 [IgnoreInserted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/)。
+Aspose.Words 提供了许多用于忽略文本的查找和替换属性，例如 [IgnoreDeleted](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/)、[IgnoreFieldCodes](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/)、[IgnoreFields](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/ignorefields/)、[IgnoreFootnotes](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) 和 [IgnoreInserted](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/)。
 
 以下代码示例显示如何忽略删除修订中的文本：
 
@@ -125,13 +125,13 @@ Aspose.Words 提供了许多用于忽略文本的查找和替换属性，例如 
 
 ## 自定义查找和替换操作 {#customize-find-and-replace-operation}
 
-Aspose.Words 提供了许多不同的 [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) 来查找和替换文本，例如使用 [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyfont/) 和 [ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/) 属性应用特定格式、使用 [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) 属性在替换模式中使用替换等。
+Aspose.Words 提供了许多不同的 [properties](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/) 来查找和替换文本，例如使用 [ApplyFont](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/applyfont/) 和 [ApplyParagraphFormats](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/) 属性应用特定格式、使用 [UseSubstitutions](https://reference.aspose.com/words/zh/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) 属性在替换模式中使用替换等。
 
 以下代码示例演示如何突出显示文档中的特定单词：
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
 
-Aspose.Words 允许您在替换操作期间使用 [IReplacingCallback](https://reference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback/) 接口创建和调用自定义方法。您可能有一些需要自定义查找和替换操作的用例，例如用 HTML 标记替换用正则表达式指定的文本，因此基本上您将通过插入 HTML 来应用替换。
+Aspose.Words 允许您在替换操作期间使用 [IReplacingCallback](https://reference.aspose.com/words/zh/net/aspose.words.replacing/ireplacingcallback/) 接口创建和调用自定义方法。您可能有一些需要自定义查找和替换操作的用例，例如用 HTML 标记替换用正则表达式指定的文本，因此基本上您将通过插入 HTML 来应用替换。
 
 如果您需要用 HTML 标记替换字符串，请应用 **IReplacingCallback** 接口来自定义查找和替换操作，以便匹配从文档的匹配节点开始运行。让我们提供几个使用 **IReplacingCallback** 的示例。
 

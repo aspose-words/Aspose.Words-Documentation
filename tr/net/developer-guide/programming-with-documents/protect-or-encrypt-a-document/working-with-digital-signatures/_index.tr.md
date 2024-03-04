@@ -11,7 +11,7 @@ url: /tr/net/working-with-digital-signatures/
 
 Dijital imza, belgeleri imzalamak ve belgenin imzalanmasından bu yana değiştirilmediğini garanti etmek amacıyla imzalayanın kimliğini doğrulamak için elektronik imzaların teknolojik bir uygulamasıdır. Hem genel hem de özel anahtarlar oluşturmak için PKI protokolünü takip etmesi nedeniyle her dijital imza, her imzalayan için benzersizdir. Bir belgeyi dijital olarak imzalamak, imzalayanın özel anahtarını kullanarak bir imza oluşturmak anlamına gelir; burada oluşturulan karmayı şifrelemek için matematiksel bir algoritma kullanılır.
 
-Aspose.Words, mevcut dijital imzaları tespit etmenize, saymanıza veya doğrulamanıza ve ayrıca belgenizdeki herhangi bir tahrifatı tespit etmek için belgenize yeni bir imza eklemenize olanak tanır. Ayrıca bir belgedeki tüm dijital imzaları da kaldırabilirsiniz. Dijital imzalarla çalışmak için [DigitalSignatureUtil](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/) sınıfını kullanın.
+Aspose.Words, mevcut dijital imzaları tespit etmenize, saymanıza veya doğrulamanıza ve ayrıca belgenizdeki herhangi bir tahrifatı tespit etmek için belgenize yeni bir imza eklemenize olanak tanır. Ayrıca bir belgedeki tüm dijital imzaları da kaldırabilirsiniz. Dijital imzalarla çalışmak için [DigitalSignatureUtil](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignatureutil/) sınıfını kullanın.
 
 Bu makalede, dijital bir belgenin orijinalliğini ve bütünlüğünü doğrulamak için yukarıdakilerin hepsinin nasıl yapılacağı açıklanmaktadır.
 
@@ -44,9 +44,9 @@ Aşağıdaki tabloda, Aspose.Words aracılığıyla dijital imzalarla çalışı
 
 ## Dijital İmzaları Algıla, Say ve Doğrula
 
-Aspose.Words, [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) yöntemini ve [HasDigitalSignature](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasdigitalsignature/) özelliğini kullanarak bir belgedeki dijital imzayı algılamanıza olanak tanır. Böyle bir kontrolün yalnızca imzanın gerçekliğini tespit edeceğini ancak geçerliliğini tespit etmeyeceğini belirtmekte fayda var.
+Aspose.Words, [DetectFileFormat](https://reference.aspose.com/words/tr/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) yöntemini ve [HasDigitalSignature](https://reference.aspose.com/words/tr/net/aspose.words/fileformatinfo/hasdigitalsignature/) özelliğini kullanarak bir belgedeki dijital imzayı algılamanıza olanak tanır. Böyle bir kontrolün yalnızca imzanın gerçekliğini tespit edeceğini ancak geçerliliğini tespit etmeyeceğini belirtmekte fayda var.
 
-Bir belge birden fazla kez imzalanabilir ve bu, farklı kullanıcılar tarafından yapılabilir. Dijital imzaların geçerliliğini kontrol etmek için bunları belgeden [LoadSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) yöntemini kullanarak yüklemeniz ve [IsValid](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) özelliğini kullanmanız gerekir. Ayrıca Aspose.Words, [Count](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/) özelliğini kullanarak bir belgedeki tüm dijital imzaları saymanıza olanak tanır.
+Bir belge birden fazla kez imzalanabilir ve bu, farklı kullanıcılar tarafından yapılabilir. Dijital imzaların geçerliliğini kontrol etmek için bunları belgeden [LoadSignatures](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) yöntemini kullanarak yüklemeniz ve [IsValid](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) özelliğini kullanmanız gerekir. Ayrıca Aspose.Words, [Count](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/) özelliğini kullanarak bir belgedeki tüm dijital imzaları saymanıza olanak tanır.
 
 Tüm bunlar, bir belgeyi işlemeden önce imza açısından kontrol etmenin etkili ve güvenli bir yolunu sağlar.
 
@@ -58,13 +58,13 @@ Aşağıdaki kod örneği, dijital imzaların varlığının nasıl algılanaca�
 
 Dijital imza oluşturmak için kimliği doğrulayan bir imzalama sertifikası yüklemeniz gerekir. Dijital olarak imzalanmış bir belge gönderdiğinizde sertifikanızı ve ortak anahtarınızı da gönderirsiniz.
 
-Aspose.Words, ortak anahtarın sertifikaya dahil olan imzalayana ait olduğunu doğrulamak için uluslararası kabul görmüş X.509 PKI standardını kullanan bir dijital sertifika olan X.509 sertifikası oluşturmanıza olanak tanır. Bunu yapmak için [CertificateHolder](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/) sınıfı içindeki [Create](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/create/) yöntemini kullanın.
+Aspose.Words, ortak anahtarın sertifikaya dahil olan imzalayana ait olduğunu doğrulamak için uluslararası kabul görmüş X.509 PKI standardını kullanan bir dijital sertifika olan X.509 sertifikası oluşturmanıza olanak tanır. Bunu yapmak için [CertificateHolder](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/certificateholder/) sınıfı içindeki [Create](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/certificateholder/create/) yöntemini kullanın.
 
 Sonraki bölümlerde dijital imzanın, imza satırının nasıl ekleneceği ve oluşturulan bir PDF belgesinin nasıl imzalanacağı açıklanmaktadır.
 
 ### Bir Belgeyi İmzalayın
 
-Aspose.Words, bir DOC, DOCX, XPS veya ODT belgesini [Sign](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) yöntemini ve [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/) özelliklerini kullanarak dijital olarak imzalamanıza olanak tanır.
+Aspose.Words, bir DOC, DOCX, XPS veya ODT belgesini [Sign](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) yöntemini ve [SignOptions](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/signoptions/) özelliklerini kullanarak dijital olarak imzalamanıza olanak tanır.
 
 Aşağıdaki kod örneği, sertifika sahibini ve imzalama seçeneklerini kullanarak belgelerin nasıl imzalanacağını gösterir:
 
@@ -72,7 +72,7 @@ Aşağıdaki kod örneği, sertifika sahibini ve imzalama seçeneklerini kullana
 
 ### İmza Satırı Ekle
 
-İmza satırı, bir belgedeki dijital imzanın görsel temsilidir. Aspose.Words, [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertsignatureline/) yöntemini kullanarak imza satırı eklemenizi sağlar. Bu gösterimin parametrelerini [SignatureLineOptions](https://reference.aspose.com/words/net/aspose.words/signaturelineoptions/) sınıfını kullanarak da ayarlayabilirsiniz.
+İmza satırı, bir belgedeki dijital imzanın görsel temsilidir. Aspose.Words, [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertsignatureline/) yöntemini kullanarak imza satırı eklemenizi sağlar. Bu gösterimin parametrelerini [SignatureLineOptions](https://reference.aspose.com/words/tr/net/aspose.words/signaturelineoptions/) sınıfını kullanarak da ayarlayabilirsiniz.
 
 Örneğin aşağıdaki resimde geçerli ve geçersiz imzaların nasıl görüntülenebileceği gösterilmektedir.
 
@@ -88,7 +88,7 @@ Aşağıdaki kod örneği, bir belgenin kişisel sertifika ve belirli bir imza s
 
 ### Oluşturulan bir PDF Belgesini İmzalayın {#sign-a-generated-pdf-document}
 
-Aspose.Words, [PdfDigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/) özelliklerini kullanarak bir PDF belgesini imzalamanıza ve tüm ayrıntılarını almanıza olanak tanır.
+Aspose.Words, [PdfDigitalSignatureDetails](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfdigitalsignaturedetails/) özelliklerini kullanarak bir PDF belgesini imzalamanıza ve tüm ayrıntılarını almanıza olanak tanır.
 
 Aşağıdaki kod örneği, oluşturulan bir PDF'nin nasıl imzalanacağını gösterir:
 
@@ -96,7 +96,7 @@ Aşağıdaki kod örneği, oluşturulan bir PDF'nin nasıl imzalanacağını gö
 
 ## Dijital İmza Değerini Alın
 
-Aspose.Words ayrıca, [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) özelliğini kullanarak dijital imzalı bir belgeden dijital imza değerini bayt dizisi olarak alma olanağı sağlar.
+Aspose.Words ayrıca, [SignatureValue](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) özelliğini kullanarak dijital imzalı bir belgeden dijital imza değerini bayt dizisi olarak alma olanağı sağlar.
 
 Aşağıdaki kod örneği, dijital imza değerinin bir belgeden bayt dizisi olarak nasıl alınacağını gösterir:
 
@@ -104,7 +104,7 @@ Aşağıdaki kod örneği, dijital imza değerinin bir belgeden bayt dizisi olar
 
 ## Dijital İmzaları Kaldır
 
-Aspose.Words, [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/) yöntemini kullanarak imzalı bir belgedeki tüm dijital imzaları kaldırmanıza olanak tanır.
+Aspose.Words, [RemoveAllSignatures](https://reference.aspose.com/words/tr/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/) yöntemini kullanarak imzalı bir belgedeki tüm dijital imzaları kaldırmanıza olanak tanır.
 
 Aşağıdaki kod örneği, dijital imzaların bir belgeye nasıl yüklenip kaldırılacağını gösterir:
 

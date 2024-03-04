@@ -23,8 +23,8 @@ Lorsque Aspose.Words lit un document Word en mémoire, il crée des objets de di
 
 L'arborescence des documents dans Aspose.Words suit le modèle de conception composite:
 
-- Toutes les classes de nœuds dérivent en fin de compte de la classe [Node](https://reference.aspose.com/words/net/aspose.words/node/), qui est la classe de base du Document Object Model Aspose.Words.
-- Les nœuds pouvant contenir d'autres nœuds, par exemple **Section** ou **Paragraph**, dérivent de la classe [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/), qui à son tour dérive de la classe **Node**.
+- Toutes les classes de nœuds dérivent en fin de compte de la classe [Node](https://reference.aspose.com/words/fr/net/aspose.words/node/), qui est la classe de base du Document Object Model Aspose.Words.
+- Les nœuds pouvant contenir d'autres nœuds, par exemple **Section** ou **Paragraph**, dérivent de la classe [CompositeNode](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/), qui à son tour dérive de la classe **Node**.
 
 Le diagramme fourni ci-dessous montre l'héritage entre les classes de nœuds du Aspose.Words Document Object Model (DOM). Les noms des classes abstraites sont en italique.
 
@@ -32,7 +32,7 @@ Le diagramme fourni ci-dessous montre l'héritage entre les classes de nœuds du
 
 {{% alert color="primary" %}}
 
-Le Aspose.Words DOM contient également des classes sans nœud, telles que [Style](https://reference.aspose.com/words/net/aspose.words/style/) ou [Font](https://reference.aspose.com/words/net/aspose.words/font/), qui sont utilisées pour personnaliser l'apparence et les styles d'un document. Ces classes ne sont pas affichées dans ce diagramme car elles ne sont pas héritées de la classe `Node`.
+Le Aspose.Words DOM contient également des classes sans nœud, telles que [Style](https://reference.aspose.com/words/fr/net/aspose.words/style/) ou [Font](https://reference.aspose.com/words/fr/net/aspose.words/font/), qui sont utilisées pour personnaliser l'apparence et les styles d'un document. Ces classes ne sont pas affichées dans ce diagramme car elles ne sont pas héritées de la classe `Node`.
 
 {{% /alert %}}
 
@@ -44,13 +44,13 @@ Lors de la lecture du document ci-dessus dans le Aspose.Words DOM, l'arborescenc
 
 <img src="/words/net/aspose-words-document-object-model/document-example-dom.png" alt="dom-aspose-mots" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/), [Section](https://reference.aspose.com/words/net/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), [Run](https://reference.aspose.com/words/net/aspose.words/run/) et toutes les autres ellipses du diagramme sont des objets Aspose.Words qui représentent des éléments du document Word.
+[Document](https://reference.aspose.com/words/fr/net/aspose.words/document/), [Section](https://reference.aspose.com/words/fr/net/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/), [Run](https://reference.aspose.com/words/fr/net/aspose.words/run/) et toutes les autres ellipses du diagramme sont des objets Aspose.Words qui représentent des éléments du document Word.
 
 ### Obtenez un {#get-a-node-type} de type `Node`
 
-Bien que la classe [Node](https://reference.aspose.com/words/net/aspose.words/node/) soit suffisante pour distinguer les différents nœuds les uns des autres, Aspose.Words fournit l'énumération [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) pour simplifier certaines tâches API, telles que la sélection de nœuds d'un type spécifique.
+Bien que la classe [Node](https://reference.aspose.com/words/fr/net/aspose.words/node/) soit suffisante pour distinguer les différents nœuds les uns des autres, Aspose.Words fournit l'énumération [NodeType](https://reference.aspose.com/words/fr/net/aspose.words/node/nodetype/) pour simplifier certaines tâches API, telles que la sélection de nœuds d'un type spécifique.
 
-Le type de chaque nœud peut être obtenu à l'aide de la propriété [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/). Cette propriété renvoie une valeur d'énumération **NodeType**. Par exemple, un nœud de paragraphe représenté par la classe **Paragraph** renvoie **NodeType**.**Paragraph** et un nœud de table représenté par la classe **Table** renvoie **NodeType**.**Table**.
+Le type de chaque nœud peut être obtenu à l'aide de la propriété [NodeType](https://reference.aspose.com/words/fr/net/aspose.words/node/nodetype/). Cette propriété renvoie une valeur d'énumération **NodeType**. Par exemple, un nœud de paragraphe représenté par la classe **Paragraph** renvoie **NodeType**.**Paragraph** et un nœud de table représenté par la classe **Table** renvoie **NodeType**.**Table**.
 
 L'exemple suivant montre comment obtenir un type de nœud à l'aide de l'énumération **NodeType**:
 
@@ -76,9 +76,9 @@ Les nœuds de l'arborescence ont des relations entre eux:
 
 - Un nœud contenant un autre nœud est un *parent.*
 - Le nœud contenu dans le nœud parent est un nœud *child.*. Les nœuds enfants du même parent sont des nœuds *sibling*.
-- Le nœud *root* est toujours le nœud [Document](https://reference.aspose.com/words/net/aspose.words/document/).
+- Le nœud *root* est toujours le nœud [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/).
 
-Les nœuds pouvant contenir d'autres nœuds dérivent de la classe [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/), et tous les nœuds dérivent finalement de la classe [Node](https://reference.aspose.com/words/net/aspose.words/node/). Ces deux classes de base fournissent des méthodes et des propriétés communes pour la navigation et la modification de l'arborescence.
+Les nœuds pouvant contenir d'autres nœuds dérivent de la classe [CompositeNode](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/), et tous les nœuds dérivent finalement de la classe [Node](https://reference.aspose.com/words/fr/net/aspose.words/node/). Ces deux classes de base fournissent des méthodes et des propriétés communes pour la navigation et la modification de l'arborescence.
 
 Le diagramme d'objets UML suivant montre plusieurs nœuds de l'exemple de document et leurs relations les uns avec les autres via les propriétés parent, enfant et frère:
 
@@ -90,11 +90,11 @@ Un nœud appartient toujours à un document particulier, même s'il vient d'êtr
 
 {{% alert color="primary" %}}
 
-La propriété [Node.Document](https://reference.aspose.com/words/net/aspose.words/node/document/) renvoie le document auquel appartient le nœud.
+La propriété [Node.Document](https://reference.aspose.com/words/fr/net/aspose.words/node/document/) renvoie le document auquel appartient le nœud.
 
 {{% /alert %}}
 
-Lors de la création d'un nouveau paragraphe à l'aide de [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), le générateur dispose toujours d'une classe **Document** qui lui est liée via la propriété [DocumentBuilder.Document](https://reference.aspose.com/words/net/aspose.words/documentbuilder/document/).
+Lors de la création d'un nouveau paragraphe à l'aide de [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/), le générateur dispose toujours d'une classe **Document** qui lui est liée via la propriété [DocumentBuilder.Document](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/document/).
 
 L'exemple de code suivant montre que lors de la création d'un nœud, un document qui sera propriétaire du nœud est toujours défini:
 
@@ -102,23 +102,23 @@ L'exemple de code suivant montre que lors de la création d'un nœud, un documen
 
 #### Nœud parent
 
-Chaque nœud a un parent spécifié par la propriété [ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/). Un nœud n'a pas de nœud parent, c'est-à-dire que **ParentNode** est nul, dans les cas suivants:
+Chaque nœud a un parent spécifié par la propriété [ParentNode](https://reference.aspose.com/words/fr/net/aspose.words/node/parentnode/). Un nœud n'a pas de nœud parent, c'est-à-dire que **ParentNode** est nul, dans les cas suivants:
 
 - Le nœud vient d'être créé et n'a pas encore été ajouté à l'arborescence.
 - Le nœud a été supprimé de l'arborescence.
 - Il s'agit du nœud racine **Document** qui a toujours un nœud parent nul.
 
-Vous pouvez supprimer un nœud de son parent en appelant la méthode [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/). L'exemple de code suivant montre comment accéder au nœud parent:
+Vous pouvez supprimer un nœud de son parent en appelant la méthode [Remove](https://reference.aspose.com/words/fr/net/aspose.words/node/remove/). L'exemple de code suivant montre comment accéder au nœud parent:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-GetParentNode.cs" >}}
 
 #### Nœuds enfants
 
-Le moyen le plus efficace d'accéder aux nœuds enfants d'un [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) consiste à utiliser les propriétés [FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/) et [LastChild](https://reference.aspose.com/words/net/aspose.words/compositenode/lastchild/) qui renvoient respectivement le premier et le dernier nœuds enfants. S'il n'y a pas de nœuds enfants, ces propriétés renvoient *null*.
+Le moyen le plus efficace d'accéder aux nœuds enfants d'un [CompositeNode](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/) consiste à utiliser les propriétés [FirstChild](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/firstchild/) et [LastChild](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/lastchild/) qui renvoient respectivement le premier et le dernier nœuds enfants. S'il n'y a pas de nœuds enfants, ces propriétés renvoient *null*.
 
-**CompositeNode** fournit également la méthode [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) permettant un accès indexé ou énuméré aux nœuds enfants. La propriété **ChildNodes** est une collection dynamique de nœuds, ce qui signifie que chaque fois que le document est modifié, par exemple lorsque des nœuds sont supprimés ou ajoutés, la collection **ChildNodes** est automatiquement mise à jour.
+**CompositeNode** fournit également la méthode [GetChildNodes](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/getchildnodes/) permettant un accès indexé ou énuméré aux nœuds enfants. La propriété **ChildNodes** est une collection dynamique de nœuds, ce qui signifie que chaque fois que le document est modifié, par exemple lorsque des nœuds sont supprimés ou ajoutés, la collection **ChildNodes** est automatiquement mise à jour.
 
-Si un nœud n'a pas d'enfant, la propriété **ChildNodes** renvoie une collection vide. Vous pouvez vérifier si le **CompositeNode** contient des nœuds enfants à l'aide de la propriété [HasChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/haschildnodes/).
+Si un nœud n'a pas d'enfant, la propriété **ChildNodes** renvoie une collection vide. Vous pouvez vérifier si le **CompositeNode** contient des nœuds enfants à l'aide de la propriété [HasChildNodes](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/haschildnodes/).
 
 L'exemple de code suivant montre comment énumérer les nœuds enfants immédiats d'un `CompositeNode` à l'aide de l'énumérateur fourni par la collection `ChildNodes`:
 
@@ -130,7 +130,7 @@ L'exemple de code suivant montre comment énumérer les nœuds enfants immédiat
 
 #### Nœuds frères
 
-Vous pouvez obtenir le nœud qui précède ou suit immédiatement un nœud particulier en utilisant respectivement les propriétés [PreviousSibling](https://reference.aspose.com/words/net/aspose.words/node/previoussibling/) et [NextSibling](https://reference.aspose.com/words/net/aspose.words/node/nextsibling/). Si un nœud est le dernier enfant de son parent, alors la propriété **NextSibling** est *null*. A l'inverse, si le nœud est le premier enfant de son parent, la propriété **PreviousSibling** est *null*.
+Vous pouvez obtenir le nœud qui précède ou suit immédiatement un nœud particulier en utilisant respectivement les propriétés [PreviousSibling](https://reference.aspose.com/words/fr/net/aspose.words/node/previoussibling/) et [NextSibling](https://reference.aspose.com/words/fr/net/aspose.words/node/nextsibling/). Si un nœud est le dernier enfant de son parent, alors la propriété **NextSibling** est *null*. A l'inverse, si le nœud est le premier enfant de son parent, la propriété **PreviousSibling** est *null*.
 
 L'exemple de code suivant montre comment visiter efficacement tous les nœuds enfants directs et indirects d'un nœud composite:
 
@@ -142,11 +142,11 @@ Jusqu'à présent, nous avons discuté des propriétés qui renvoient l'un des t
 
 Pour réduire le besoin de conversion, la plupart des classes Aspose.Words fournissent des propriétés et des collections qui fournissent un accès fortement typé. Il existe trois modèles de base d’accès typé:
 
-- Un nœud parent expose les propriétés typées **FirstXXX** et **LastXXX**. Par exemple, le **Document** possède des propriétés [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) et [LastSection](https://reference.aspose.com/words/net/aspose.words/document/lastsection/). De même, **Table** possède des propriétés telles que [FirstRow](https://reference.aspose.com/words/net/aspose.words.tables/table/firstrow/), [LastRow](https://reference.aspose.com/words/net/aspose.words.tables/table/lastrow/) et autres.
-- Un nœud parent expose une collection typée de nœuds enfants, tels que [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/), [Body.Paragraphs](https://reference.aspose.com/words/net/aspose.words/story/paragraphs/) et autres.
-- Un nœud enfant fournit un accès typé à son parent, tel que [Run.ParentParagraph](https://reference.aspose.com/words/net/aspose.words/inline/parentparagraph/), [Paragraph.ParentSection](https://reference.aspose.com/words/net/aspose.words/paragraph/parentsection/) et autres.
+- Un nœud parent expose les propriétés typées **FirstXXX** et **LastXXX**. Par exemple, le **Document** possède des propriétés [FirstSection](https://reference.aspose.com/words/fr/net/aspose.words/document/firstsection/) et [LastSection](https://reference.aspose.com/words/fr/net/aspose.words/document/lastsection/). De même, **Table** possède des propriétés telles que [FirstRow](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/firstrow/), [LastRow](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/lastrow/) et autres.
+- Un nœud parent expose une collection typée de nœuds enfants, tels que [Document.Sections](https://reference.aspose.com/words/fr/net/aspose.words/document/sections/), [Body.Paragraphs](https://reference.aspose.com/words/fr/net/aspose.words/story/paragraphs/) et autres.
+- Un nœud enfant fournit un accès typé à son parent, tel que [Run.ParentParagraph](https://reference.aspose.com/words/fr/net/aspose.words/inline/parentparagraph/), [Paragraph.ParentSection](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/parentsection/) et autres.
 
-Les propriétés typées ne sont que des raccourcis utiles qui offrent parfois un accès plus facile que les propriétés génériques héritées de [Node.ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/) et [CompositeNode.FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/).
+Les propriétés typées ne sont que des raccourcis utiles qui offrent parfois un accès plus facile que les propriétés génériques héritées de [Node.ParentNode](https://reference.aspose.com/words/fr/net/aspose.words/node/parentnode/) et [CompositeNode.FirstChild](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/firstchild/).
 
 L'exemple de code suivant montre comment utiliser les propriétés typées pour accéder aux nœuds de l'arborescence du document:
 

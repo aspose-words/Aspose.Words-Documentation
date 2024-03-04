@@ -41,7 +41,7 @@ Aspose.Words for .NET 功能可分为四个主要区域。
 
 轻松可靠地转换文档的能力是 Aspose.Words 的主要功能之一。
 
-带有 [支持的文档格式](/words/zh/net/supported-document-formats/) 的综合 [加载、保存和转换](/words/zh/net/loading-saving-and-converting/) 允许用户将文档从 [一种流行的格式](https://reference.aspose.com/words/net/aspose.words/loadformat/) 转换为 [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)，例如，从 DOCX 转换为 PDF、JPEG 或 Markdown，或从 PDF 转换为各种 Word 格式。
+带有 [支持的文档格式](/words/zh/net/supported-document-formats/) 的综合 [加载、保存和转换](/words/zh/net/loading-saving-and-converting/) 允许用户将文档从 [一种流行的格式](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 转换为 [another](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/)，例如，从 DOCX 转换为 PDF、JPEG 或 Markdown，或从 PDF 转换为各种 Word 格式。
 
 #### Document Object Model (DOM)
 
@@ -87,7 +87,7 @@ Aspose.Words 旨在在服务器或客户端上都具有出色的性能。 Aspose
 
 以前在项目中使用过 Microsoft Word Automation 的开发人员会发现许多类、方法和属性的名称和行为很熟悉。
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/)、[Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)、[Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/)、[Range](https://reference.aspose.com/words/net/aspose.words/range/)、[Section.PageSetup](https://reference.aspose.com/words/net/aspose.words/section/pagesetup/) 和 [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) 是 Aspose.Words 类的一部分。同时，Aspose.Words 与 Microsoft Word 对象模型有很大不同，它将文档表示为对象树，更像是 XML DOM 树。如果您使用过任何 XML DOM 库，您会发现它很容易理解和使用 Aspose.Words。
+[Document](https://reference.aspose.com/words/zh/net/aspose.words/document/)、[Paragraph](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/)、[Bookmark](https://reference.aspose.com/words/zh/net/aspose.words/bookmark/)、[Range](https://reference.aspose.com/words/zh/net/aspose.words/range/)、[Section.PageSetup](https://reference.aspose.com/words/zh/net/aspose.words/section/pagesetup/) 和 [Paragraph.ParagraphFormat](https://reference.aspose.com/words/zh/net/aspose.words/paragraphformat/) 是 Aspose.Words 类的一部分。同时，Aspose.Words 与 Microsoft Word 对象模型有很大不同，它将文档表示为对象树，更像是 XML DOM 树。如果您使用过任何 XML DOM 库，您会发现它很容易理解和使用 Aspose.Words。
 
 ## 定价和政策
 

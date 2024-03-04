@@ -41,7 +41,7 @@ Aşağıdaki şemada .NET için Aspose.Words'in ana özellikleri ve bunların bi
 
 Belgeleri kolay ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words'in temel özelliklerinden biridir.
 
-[Desteklenen Belge Formatları](/words/tr/net/supported-document-formats/) ile kapsamlı [Yükleme, Kaydetme ve Dönüştürme](/words/tr/net/loading-saving-and-converting/), kullanıcıların belgeleri [popüler bir format](https://reference.aspose.com/words/net/aspose.words/loadformat/)'ten [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)'a, örneğin DOCX'ten PDF, JPEG veya Markdown'ye veya PDF'den çeşitli Word formatlarına dönüştürmesine olanak tanır.
+[Desteklenen Belge Formatları](/words/tr/net/supported-document-formats/) ile kapsamlı [Yükleme, Kaydetme ve Dönüştürme](/words/tr/net/loading-saving-and-converting/), kullanıcıların belgeleri [popüler bir format](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/)'ten [another](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/)'a, örneğin DOCX'ten PDF, JPEG veya Markdown'ye veya PDF'den çeşitli Word formatlarına dönüştürmesine olanak tanır.
 
 #### Document Object Model (DOM)
 
@@ -87,7 +87,7 @@ Aspose.Words'te 150'den fazla halka açık sınıf ve numaralandırma olmasına 
 
 Daha önce projelerinde Microsoft Word Otomasyonunu kullanmış olan geliştiriciler birçok sınıfın, yöntemin ve özelliğin adlarını ve davranışlarını tanıdık bulacaktır.
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/), [Range](https://reference.aspose.com/words/net/aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/net/aspose.words/section/pagesetup/) ve [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) Aspose.Words sınıflarından bazılarıdır. Aynı zamanda Aspose.Words, bir belgeyi daha çok bir XML DOM ağacı gibi bir nesneler ağacı olarak temsil etmesi açısından Microsoft Word Nesne Modelinden oldukça farklıdır. Herhangi bir XML DOM kitaplığıyla çalıştıysanız, onu anlamanın ve Aspose.Words ile çalışmanın kolay olduğunu göreceksiniz.
+[Document](https://reference.aspose.com/words/tr/net/aspose.words/document/), [Paragraph](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/tr/net/aspose.words/bookmark/), [Range](https://reference.aspose.com/words/tr/net/aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/tr/net/aspose.words/section/pagesetup/) ve [Paragraph.ParagraphFormat](https://reference.aspose.com/words/tr/net/aspose.words/paragraphformat/) Aspose.Words sınıflarından bazılarıdır. Aynı zamanda Aspose.Words, bir belgeyi daha çok bir XML DOM ağacı gibi bir nesneler ağacı olarak temsil etmesi açısından Microsoft Word Nesne Modelinden oldukça farklıdır. Herhangi bir XML DOM kitaplığıyla çalıştıysanız, onu anlamanın ve Aspose.Words ile çalışmanın kolay olduğunu göreceksiniz.
 
 ## Fiyatlandırma ve Politikalar
 

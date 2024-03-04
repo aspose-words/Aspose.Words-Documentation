@@ -126,7 +126,7 @@ DOC vers HTML – conversion haute fidélité:
 
 ## Haute évolutivité
 
-Les scénarios évolutifs côté serveur utilisent Aspose.Words principalement en raison de sa conception simple et épurée – Aspose.Words prend en charge le multithreading. Les objets [Document](https://reference.aspose.com/words/net/aspose.words/document/) sont indépendants les uns des autres et tant qu'un seul thread peut modifier un document à la fois (une exigence typique pour toute classe de collection), plusieurs threads peuvent traiter n'importe quel nombre de documents en même temps.
+Les scénarios évolutifs côté serveur utilisent Aspose.Words principalement en raison de sa conception simple et épurée – Aspose.Words prend en charge le multithreading. Les objets [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) sont indépendants les uns des autres et tant qu'un seul thread peut modifier un document à la fois (une exigence typique pour toute classe de collection), plusieurs threads peuvent traiter n'importe quel nombre de documents en même temps.
 
 ## Haute performance
 

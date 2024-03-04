@@ -13,16 +13,16 @@ Aspose.Words permet aux utilisateurs de travailler avec des images de manière t
 
 ## Comment insérer une image {#insert-an-image}
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) fournit plusieurs surcharges de la méthode [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) qui vous permettent d'insérer une image en ligne ou flottante. Si l'image est un métafichier EMF ou WMF, elle sera insérée dans le document au format métafichier. Toutes les autres images seront stockées au format PNG. La méthode **InsertImage** peut utiliser des images provenant de différentes sources:
+[DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) fournit plusieurs surcharges de la méthode [InsertImage](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertimage/) qui vous permettent d'insérer une image en ligne ou flottante. Si l'image est un métafichier EMF ou WMF, elle sera insérée dans le document au format métafichier. Toutes les autres images seront stockées au format PNG. La méthode **InsertImage** peut utiliser des images provenant de différentes sources:
 
-- Depuis un fichier ou `URL` en passant un paramètre [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) `String`
+- Depuis un fichier ou `URL` en passant un paramètre [InsertImage](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertimage/) `String`
 - Depuis un flux en passant un paramètre `Stream` **InsertImage**
 - Depuis un objet Image en passant un paramètre Image **InsertImage**
 - Depuis un tableau d'octets en passant un paramètre de tableau d'octets **InsertImage**
 
 Pour chacune des méthodes **InsertImage**, il existe d'autres surcharges qui vous permettent d'insérer une image avec les options suivantes:
 - En ligne ou flottant à une position spécifique, par exemple, **InsertImage**
-- Échelle de pourcentage ou taille personnalisée, par exemple, **InsertImage** ; de plus, la méthode **InsertImage** renvoie un objet [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) qui vient d'être créé et inséré afin que vous puissiez modifier davantage les propriétés de la forme
+- Échelle de pourcentage ou taille personnalisée, par exemple, **InsertImage** ; de plus, la méthode **InsertImage** renvoie un objet [Shape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/) qui vient d'être créé et inséré afin que vous puissiez modifier davantage les propriétés de la forme
 
 ### Comment insérer une image {#insert-an-inline-image} en ligne
 
@@ -40,12 +40,12 @@ L'exemple de code suivant montre comment insérer une image flottante à partir 
 
 ## Comment extraire des images d'un document {#how-to-extract-images-from-a-document}
 
-Toutes les images sont stockées dans les nœuds **Shape** dans un [Document](https://reference.aspose.com/words/net/aspose.words/document/). Pour extraire toutes les images ou images d'un type spécifique du document, procédez comme suit:
+Toutes les images sont stockées dans les nœuds **Shape** dans un [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/). Pour extraire toutes les images ou images d'un type spécifique du document, procédez comme suit:
 
-- Utilisez la méthode [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) pour sélectionner tous les nœuds **Shape**.
+- Utilisez la méthode [GetChildNodes](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/getchildnodes/) pour sélectionner tous les nœuds **Shape**.
 - Parcourez les collections de nœuds résultantes.
-- Vérifiez la propriété booléenne [HasImage](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hasimage/).
-- Extrayez les données d'image à l'aide de la propriété [ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/imagedata/).
+- Vérifiez la propriété booléenne [HasImage](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/hasimage/).
+- Extrayez les données d'image à l'aide de la propriété [ImageData](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/imagedata/).
 - Enregistrez les données d'image dans un fichier.
 
 L'exemple de code suivant montre comment extraire des images d'un document et les enregistrer sous forme de fichiers:
@@ -70,7 +70,7 @@ L'exemple de code suivant montre comment insérer une image de code-barres sur c
 
 ## Verrouiller le rapport hauteur/largeur de l'image {#lock-aspect-ratio-of-image}
 
-Le rapport hauteur/largeur d’une forme géométrique est le rapport de ses tailles dans différentes dimensions. Vous pouvez verrouiller le rapport hauteur/largeur de l'image à l'aide de [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/). La valeur par défaut du rapport hauteur/largeur de la forme dépend du [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype/). Il s'agit de *true* pour `ShapeType.Image` et *false* pour les autres types de formes.
+Le rapport hauteur/largeur d’une forme géométrique est le rapport de ses tailles dans différentes dimensions. Vous pouvez verrouiller le rapport hauteur/largeur de l'image à l'aide de [AspectRatioLocked](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shapebase/aspectratiolocked/). La valeur par défaut du rapport hauteur/largeur de la forme dépend du [ShapeType](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shapetype/). Il s'agit de *true* pour `ShapeType.Image` et *false* pour les autres types de formes.
 
 L'exemple de code suivant montre comment utiliser les proportions:
 
@@ -78,7 +78,7 @@ L'exemple de code suivant montre comment utiliser les proportions:
 
 ## Comment obtenir les limites réelles de la forme en points {#how-to-get-actual-bounds-of-shape-in-points}
 
-Si vous souhaitez que le cadre de délimitation réel de la forme soit rendu sur la page, vous pouvez y parvenir en utilisant la propriété [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/boundsinpoints/).
+Si vous souhaitez que le cadre de délimitation réel de la forme soit rendu sur la page, vous pouvez y parvenir en utilisant la propriété [BoundsInPoints](https://reference.aspose.com/words/fr/net/aspose.words.rendering/noderendererbase/boundsinpoints/).
 
 L'exemple de code suivant montre comment utiliser cette propriété:
 

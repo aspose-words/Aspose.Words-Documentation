@@ -141,7 +141,7 @@ Wenn ein Dokument andere Inhalte enthält, die als Artefakt markiert werden soll
 |  PDF/A-2a |   {{< emoticons/tick >}}   |
 |  PDF/UA-1 |   {{< emoticons/tick >}}   |
 
-Die Textsprache wird in Microsoft Word-Dokumenten angegeben. Aspose.Words exportiert die angegebene Sprache in ein Ausgabe-PDF, wobei das *Lang*-Attribut an eine markierte Inhaltssequenz oder ein Span-Tag angehängt wird – dies wird durch die [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/)-Eigenschaft gesteuert. Im Allgemeinen gibt es keine Sprachprobleme, wenn der Benutzer Text über Microsoft Word eingibt. Es besteht jedoch die Möglichkeit, dass die Sprache ungenau ist, wenn der Text automatisch generiert wird.
+Die Textsprache wird in Microsoft Word-Dokumenten angegeben. Aspose.Words exportiert die angegebene Sprache in ein Ausgabe-PDF, wobei das *Lang*-Attribut an eine markierte Inhaltssequenz oder ein Span-Tag angehängt wird – dies wird durch die [ExportLanguageToSpanTag](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/)-Eigenschaft gesteuert. Im Allgemeinen gibt es keine Sprachprobleme, wenn der Benutzer Text über Microsoft Word eingibt. Es besteht jedoch die Möglichkeit, dass die Sprache ungenau ist, wenn der Text automatisch generiert wird.
 
 {{% alert color="secondary" %}}
 <details>

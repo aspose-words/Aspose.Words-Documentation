@@ -9,11 +9,11 @@ weight: 50
 url: /ru/net/working-with-hyperlinks/
 ---
 
-Гиперссылкой в документах Microsoft Word является поле `HYPERLINK`. В Aspose.Words гиперссылки реализованы через класс [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).
+Гиперссылкой в документах Microsoft Word является поле `HYPERLINK`. В Aspose.Words гиперссылки реализованы через класс [FieldHyperlink](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldhyperlink/).
 
 ## Вставить гиперссылку
 
-Используйте метод [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/), чтобы вставить гиперссылку в документ. Этот метод принимает три параметра:
+Используйте метод [InsertHyperlink](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/inserthyperlink/), чтобы вставить гиперссылку в документ. Этот метод принимает три параметра:
 
 1. Текст ссылки, которая будет отображаться в документе
 2. Назначение ссылки (URL или название закладки внутри документа)
@@ -27,7 +27,7 @@ url: /ru/net/working-with-hyperlinks/
 
 {{% /alert %}}
 
-В следующем примере кода показано, как вставить гиперссылку в документ с помощью [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/):
+В следующем примере кода показано, как вставить гиперссылку в документ с помощью [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

@@ -11,7 +11,7 @@ url: /tr/net/remove-fields/
 
 Bazen bir alanı belgeden kaldırmak gerekebilir. Bu, farklı bir alan türüyle değiştirilmesi gerektiğinde veya alana artık belgede ihtiyaç duyulmadığında ortaya çıkabilir. Örneğin HTML'ye kaydederken `TOC` alanı.
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) kullanılarak belgeye eklenen bir alanı kaldırmak için, alanı belgeden kolayca kaldırmak için kullanışlı bir [Remove](https://reference.aspose.com/words/net/aspose.words.fields/field/remove/) yöntemi sağlayan döndürülen [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) nesnesini kullanın.
+[DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertfield/) kullanılarak belgeye eklenen bir alanı kaldırmak için, alanı belgeden kolayca kaldırmak için kullanışlı bir [Remove](https://reference.aspose.com/words/tr/net/aspose.words.fields/field/remove/) yöntemi sağlayan döndürülen [Field](https://reference.aspose.com/words/tr/net/aspose.words.fields/field/) nesnesini kullanın.
 
 Aşağıdaki kod örneği, bir alanın belgeden nasıl kaldırılacağını gösterir:
 

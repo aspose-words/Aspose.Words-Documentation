@@ -251,7 +251,7 @@ Oluşturma sırasında DML grafik trend çizgisi etiketlerinde R-kare katsayıs�
 
 #### Arka Plan ve Ön Plan Renk Kontrolü <sup>23.3</sup>
 
-[Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) sınıfı, arka plan ve ön plan renkleriyle ilgili bir dizi yeni ortak özellik ile genişletildi: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) ve [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) ve [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
+[Fill](https://reference.aspose.com/words/tr/net/aspose.words.drawing/fill/) sınıfı, arka plan ve ön plan renkleriyle ilgili bir dizi yeni ortak özellik ile genişletildi: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) ve [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) ve [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
 
 #### `SkiaSharp` Yerel Gölgelendirici <sup>23.3</sup> ile Radyal Degradeler
 

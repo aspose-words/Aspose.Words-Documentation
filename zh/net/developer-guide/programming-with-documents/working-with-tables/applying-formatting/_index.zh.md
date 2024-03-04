@@ -11,7 +11,7 @@ url: /zh/net/applying-formatting/
 
 表格的每个元素都可以应用不同的格式。例如，表格格式设置将应用于整个表格，行格式设置将仅应用于特定行，单元格格式设置将仅应用于某些单元格。
 
-Aspose.Words 提供丰富的 API 来检索表格格式并将其应用到表格。您可以使用 [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) 和 [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) 节点来设置格式。
+Aspose.Words 提供丰富的 API 来检索表格格式并将其应用到表格。您可以使用 [Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)、[RowFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowformat/) 和 [CellFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/) 节点来设置格式。
 
 在本文中，我们将讨论如何将格式应用于不同的表节点以及 Aspose.Words 支持哪些表格式设置。
 
@@ -21,11 +21,11 @@ Aspose.Words 提供丰富的 API 来检索表格格式并将其应用到表格�
 
 ### 表级格式化
 
-要将格式应用于表，您可以使用 [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/) 和 [TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/) 类的相应 **Table** 节点上可用的属性。
+要将格式应用于表，您可以使用 [Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)、[PreferredWidth](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidth/) 和 [TableCollection](https://reference.aspose.com/words/zh/net/aspose.words.tables/tablecollection/) 类的相应 **Table** 节点上可用的属性。
 
 {{% alert color="primary" %}}
 
-请注意，在应用表属性之前，表必须至少有一行。这意味着，当使用 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 构建表时，必须在第一次调用 [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/) 之后、或者将第一行添加到表中之后、或者将节点直接插入到 DOM 中时完成此格式化。
+请注意，在应用表属性之前，表必须至少有一行。这意味着，当使用 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 构建表时，必须在第一次调用 [InsertCell](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertcell/) 之后、或者将第一行添加到表中之后、或者将节点直接插入到 DOM 中时完成此格式化。
 
 {{% /alert %}}
 
@@ -60,7 +60,7 @@ Aspose.Words 提供丰富的 API 来检索表格格式并将其应用到表格�
 
 ### 行级格式化
 
-**行级** 格式可以使用 [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)、[RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) 和 [RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/) 类进行控制。
+**行级** 格式可以使用 [Row](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/)、[RowFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowformat/) 和 [RowCollection](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowcollection/) 类进行控制。
 
 {{% alert color="primary" %}}
 
@@ -84,11 +84,11 @@ Aspose.Words 提供丰富的 API 来检索表格格式并将其应用到表格�
 
 ### 单元格级别格式化
 
-单元格级格式由 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)、[CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) 和 [CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/) 类控制。
+单元格级格式由 [Cell](https://reference.aspose.com/words/zh/net/aspose.words.tables/cell/)、[CellFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/) 和 [CellCollection](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellcollection/) 类控制。
 
 {{% alert color="primary" %}}
 
-请注意，**Cell** 只能是 **Row** 的子节点。同时，**Cell** 中必须至少有一个 [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)，以便可以对其应用格式。
+请注意，**Cell** 只能是 **Row** 的子节点。同时，**Cell** 中必须至少有一个 [Paragraph](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/)，以便可以对其应用格式。
 
 除了 **Paragraph** 之外，您还可以将 **Table** 插入 **Cell** 中。
 
@@ -120,14 +120,14 @@ Aspose.Words 提供丰富的 API 来检索表格格式并将其应用到表格�
 
 在 Aspose.Words 中，表格行高由以下因素控制：
 
-- 行高属性 – [Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/)
-- 给定行的高度规则属性 – [HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/heightrule/)
+- 行高属性 – [Height](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowformat/height/)
+- 给定行的高度规则属性 – [HeightRule](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowformat/heightrule/)
 
 同时，可以为每行设置不同的高度 - 这使您可以广泛控制表格设置。
 
 {{% alert color="primary" %}}
 
-可以使用 [HeightRule](https://reference.aspose.com/words/net/aspose.words/heightrule/) 枚举设置用于指定对象高度的规则选项。
+可以使用 [HeightRule](https://reference.aspose.com/words/zh/net/aspose.words/heightrule/) 枚举设置用于指定对象高度的规则选项。
 
 {{% /alert %}}
 
@@ -168,11 +168,11 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 
 表格或单个单元格的所需宽度是通过首选宽度属性定义的，该属性是元素努力适应的大小。也就是说，可以为整个表格或单个单元格指定首选宽度。在某些情况下，可能无法完全适合该宽度，但大多数情况下实际宽度会接近该值。
 
-使用 [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/) 类的方法设置适当的首选宽度类型和值：
+使用 [PreferredWidth](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidth/) 类的方法设置适当的首选宽度类型和值：
 
-* [Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/auto/) 方法指定自动或"无首选宽度"
-* [FromPercent](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompercent/)方法指定百分比宽度
-* [FromPoints](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompoints/) 方法指定宽度（以磅为单位）
+* [Auto](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidth/auto/) 方法指定自动或"无首选宽度"
+* [FromPercent](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidth/frompercent/)方法指定百分比宽度
+* [FromPoints](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidth/frompoints/) 方法指定宽度（以磅为单位）
 
 下图显示了 Microsoft Word 中的*首选宽度设置功能*及其在 Aspose.Words 中的相应属性。
 
@@ -190,7 +190,7 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 
 #### 指定首选表格或单元格宽度
 
-在 Aspose.Words 中，表格和单元格宽度是使用 [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) 属性和 [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) 属性设置的，并在 [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) 枚举中提供可用选项：
+在 Aspose.Words 中，表格和单元格宽度是使用 [Table.PreferredWidth](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/preferredwidth/) 属性和 [CellFormat.PreferredWidth](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/preferredwidth/) 属性设置的，并在 [PreferredWidthType](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidthtype/) 枚举中提供可用选项：
 
 - **Auto**，相当于没有设置首选宽度
 - **Percent**，使元素相对于窗口或容器中的可用空间大小进行拟合，并在可用宽度发生变化时重新计算该值
@@ -202,13 +202,13 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 
 {{% /alert %}}
 
-使用 [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) 属性将调整其相对于其容器的首选宽度：页面、文本列或外部表格单元格（如果它是嵌套表格）。
+使用 [Table.PreferredWidth](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/preferredwidth/) 属性将调整其相对于其容器的首选宽度：页面、文本列或外部表格单元格（如果它是嵌套表格）。
 
 以下代码示例演示如何将表格设置为自动适应页面宽度的 50%：
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
-在给定单元格上使用 [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) 属性将调整其首选宽度。
+在给定单元格上使用 [CellFormat.PreferredWidth](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/preferredwidth/) 属性将调整其首选宽度。
 
 以下代码示例显示如何设置不同的首选宽度设置：
 
@@ -216,7 +216,7 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 
 #### 查找首选宽度类型和值
 
-您可以使用 [Type](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/) 和 [Value](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/value/) 属性来查找所需表格或单元格的首选宽度详细信息。
+您可以使用 [Type](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidth/type/) 和 [Value](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidth/value/) 属性来查找所需表格或单元格的首选宽度详细信息。
 
 以下代码示例显示如何检索表格单元格的首选宽度类型：
 
@@ -230,7 +230,7 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 
 ### 如何设置自动调整
 
-[AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) 属性允许表中的单元格根据选定的标准增大和缩小。例如，您可以使用 **自动适应窗口** 选项使表格适合页面的宽度，并使用 **自动适应内容** 选项允许每个单元格根据其内容增大或缩小。
+[AllowAutoFit](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/allowautofit/) 属性允许表中的单元格根据选定的标准增大和缩小。例如，您可以使用 **自动适应窗口** 选项使表格适合页面的宽度，并使用 **自动适应内容** 选项允许每个单元格根据其内容增大或缩小。
 
 {{% alert color="primary" %}}
 
@@ -238,7 +238,7 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 
 {{% /alert %}}
 
-默认情况下，Aspose.Words 使用 **自动适应窗口** 插入新表。表格的大小将根据可用的页面宽度进行调整。要调整表的大小，您可以调用 [AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/) 方法。此方法接受 [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/) 枚举，该枚举指定对表应用什么类型的自动调整。
+默认情况下，Aspose.Words 使用 **自动适应窗口** 插入新表。表格的大小将根据可用的页面宽度进行调整。要调整表的大小，您可以调用 [AutoFit](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/autofit/) 方法。此方法接受 [AutoFitBehavior](https://reference.aspose.com/words/zh/net/aspose.words.tables/autofitbehavior/) 枚举，该枚举指定对表应用什么类型的自动调整。
 
 重要的是要知道 autofit 方法实际上是一种同时将不同属性应用于表的快捷方式。这些属性实际上为表提供了观察到的行为。我们将讨论每个自动调整选项的这些属性。
 
@@ -298,7 +298,7 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 1. **Table.AllowAutoFit** 属性被禁用，因此列不会根据其内容增大或缩小
 
 2.从**Table.PreferredWidth**中删除整个表格的首选宽度，从所有表格单元格中删除**CellFormat.PreferredWidth**
-3. 最终结果是一个表格，其列宽由 [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) 属性确定，并且当用户输入文本或调整页面大小时，其列不会自动调整大小
+3. 最终结果是一个表格，其列宽由 [CellFormat.Width](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/width/) 属性确定，并且当用户输入文本或调整页面大小时，其列不会自动调整大小
 
 {{% alert color="primary" %}}
 
@@ -318,7 +318,7 @@ Microsoft Word 文档中的表格提供了几种不同的方法来调整表格�
 
 ### 计算单元格宽度时的优先顺序
 
-Aspose.Words 允许用户通过多个对象（包括 [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/)）定义表格或单元格的宽度 - 它的 [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) 属性大部分是以前版本遗留下来的，但是，它对于简化单元格宽度的设置仍然很有用。
+Aspose.Words 允许用户通过多个对象（包括 [CellFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/)）定义表格或单元格的宽度 - 它的 [Width](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/width/) 属性大部分是以前版本遗留下来的，但是，它对于简化单元格宽度的设置仍然很有用。
 
 重要的是要知道 **CellFormat.Width** 属性的工作方式有所不同，具体取决于表中已存在的其他宽度属性。
 
@@ -326,9 +326,9 @@ Aspose.Words 使用以下顺序来计算单元格宽度：
 
 |  命令 |  财产 |  描述 |
 |  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/)确定 |  如果 **AutoFit** 已启用：<br>- 表格可能会增长超过首选宽度以容纳内容 - 它通常不会缩小到首选宽度以下<br>- 对 **CellFormat.Width** 值的任何更改都会被忽略，单元格将适合其内容 |
-|  2      |  值为 **Points** 或 **Percent** 的 [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) |  **CellFormat.Width** 被忽略 |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) 值为 **Auto** |  **CellFormat.Width** 中的值被复制并成为单元格的首选宽度（以磅为单位） |
+|  1      |  [AllowAutoFit](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/allowautofit/)确定 |  如果 **AutoFit** 已启用：<br>- 表格可能会增长超过首选宽度以容纳内容 - 它通常不会缩小到首选宽度以下<br>- 对 **CellFormat.Width** 值的任何更改都会被忽略，单元格将适合其内容 |
+|  2      |  值为 **Points** 或 **Percent** 的 [PreferredWidthType](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidthtype/) |  **CellFormat.Width** 被忽略 |
+|  3      |  [PreferredWidthType](https://reference.aspose.com/words/zh/net/aspose.words.tables/preferredwidthtype/) 值为 **Auto** |  **CellFormat.Width** 中的值被复制并成为单元格的首选宽度（以磅为单位） |
 
 {{% alert color="primary" %}}
 
@@ -344,7 +344,7 @@ Aspose.Words 使用以下顺序来计算单元格宽度：
 
 ## 允许单元格之间有间距
 
-您可以获取或设置表格单元格之间的任何附加空间，类似于 Microsoft Word 中的"Cell 间距"选项。这可以使用 [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/) 属性来完成。
+您可以获取或设置表格单元格之间的任何附加空间，类似于 Microsoft Word 中的"Cell 间距"选项。这可以使用 [AllowCellSpacing](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/allowcellspacing/) 属性来完成。
 
 下图显示了如何将这些选项应用于文档中的真实表格的示例。
 
@@ -356,7 +356,7 @@ Aspose.Words 使用以下顺序来计算单元格宽度：
 
 ## 应用边框和底纹
 
-边框和底纹可以使用 [Table.SetBorder](https://reference.aspose.com/words/net/aspose.words.tables/table/setborder/)、[Table.SetBorders](https://reference.aspose.com/words/net/aspose.words.tables/table/setborders/) 和 [Table.SetShading](https://reference.aspose.com/words/net/aspose.words.tables/table/setshading/) 应用于整个表格，也可以使用 [CellFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/borders/) 和 [CellFormat.Shading](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/shading/) 仅应用于特定单元格。此外，可以使用 [RowFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/borders/) 设置行边框，但不能以这种方式应用阴影。
+边框和底纹可以使用 [Table.SetBorder](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/setborder/)、[Table.SetBorders](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/setborders/) 和 [Table.SetShading](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/setshading/) 应用于整个表格，也可以使用 [CellFormat.Borders](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/borders/) 和 [CellFormat.Shading](https://reference.aspose.com/words/zh/net/aspose.words.tables/cellformat/shading/) 仅应用于特定单元格。此外，可以使用 [RowFormat.Borders](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowformat/borders/) 设置行边框，但不能以这种方式应用阴影。
 
 下图显示了 Microsoft Word 中的边框和阴影设置以及 Aspose.Words 中相应的属性。
 

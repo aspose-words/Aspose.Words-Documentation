@@ -22,13 +22,13 @@ Bir belge yüklendiğinde Aspose.Words, alanları otomatik olarak güncelleme se
 
 ### Alanları Program Aracılığıyla Güncelleme
 
-Belgenin tamamındaki alanları açıkça güncellemek için [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) yöntemini çağırmanız yeterlidir. Belgenin bir bölümünde yer alan alanları güncellemek için bir [Range](https://reference.aspose.com/words/net/aspose.words/range/) nesnesi edinin ve [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/updatefields/) yöntemini çağırın. Aspose.Words'de, [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) özelliğini kullanarak belge ağacındaki [Section](https://reference.aspose.com/words/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) vb. gibi herhangi bir düğüm için bir **Range** alabilirsiniz. Tek bir alanın sonucunu [Update](https://reference.aspose.com/words/net/aspose.words.fields/field/update/) yöntemini çağırarak güncelleyebilirsiniz.
+Belgenin tamamındaki alanları açıkça güncellemek için [UpdateFields](https://reference.aspose.com/words/tr/net/aspose.words/document/updatefields/) yöntemini çağırmanız yeterlidir. Belgenin bir bölümünde yer alan alanları güncellemek için bir [Range](https://reference.aspose.com/words/tr/net/aspose.words/range/) nesnesi edinin ve [UpdateFields](https://reference.aspose.com/words/tr/net/aspose.words/range/updatefields/) yöntemini çağırın. Aspose.Words'de, [Node.Range](https://reference.aspose.com/words/tr/net/aspose.words/node/range/) özelliğini kullanarak belge ağacındaki [Section](https://reference.aspose.com/words/tr/net/aspose.words/section/), [HeaderFooter](https://reference.aspose.com/words/tr/net/aspose.words/headerfooter/), [Paragraph](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/) vb. gibi herhangi bir düğüm için bir **Range** alabilirsiniz. Tek bir alanın sonucunu [Update](https://reference.aspose.com/words/tr/net/aspose.words.fields/field/update/) yöntemini çağırarak güncelleyebilirsiniz.
 
 ### İşleme Sırasında Sayfayla İlgili Alanların Otomatik Güncellenmesi
 
 Bir belgeyi PDF veya XPS gibi sabit sayfalı bir formata dönüştürme işlemini gerçekleştirdiğinizde, Aspose.Words, belgenin üst bilgilerinde/alt bilgilerinde bulunan sayfa düzeniyle ilgili `PAGE`, `PAGEREF` alanlarını otomatik olarak güncelleyecektir. Bu davranış, bir belge yazdırılırken Microsoft Word'un davranışını taklit eder.
 
-Belgedeki diğer tüm alanları güncellemek istiyorsanız belgeyi oluşturmadan önce [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)'i aramanız gerekir.
+Belgedeki diğer tüm alanları güncellemek istiyorsanız belgeyi oluşturmadan önce [UpdateFields](https://reference.aspose.com/words/tr/net/aspose.words/document/updatefields/)'i aramanız gerekir.
 
 Aşağıdaki kod örneği, bir belgeyi oluşturmadan önce tüm alanların nasıl güncelleştirileceğini gösterir:
 
@@ -46,7 +46,7 @@ Bir mail merge çalıştırdığınızda belgedeki tüm alanlar otomatik olarak 
 
 ## Kirli Niteliğe Sahip Alanları Güncelle
 
-w:dirty, belge açıldığında yalnızca belirttiğiniz alanı yenileyecek alan düzeyinde bir özelliktir. MS Word'e bu alanı yalnızca belgenin bir sonraki açılışında yenilemesini söyler. Alanların kirli özniteliğiyle güncellenip güncellenmeyeceğini belirtmek için [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) özelliğini kullanabilirsiniz. **UpdateDirtyFields** değeri *true* olarak ayarlandığında [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) veya [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) özelliği için *true* değeri olan tüm alanlar belge yüklendiğinde güncellenir.
+w:dirty, belge açıldığında yalnızca belirttiğiniz alanı yenileyecek alan düzeyinde bir özelliktir. MS Word'e bu alanı yalnızca belgenin bir sonraki açılışında yenilemesini söyler. Alanların kirli özniteliğiyle güncellenip güncellenmeyeceğini belirtmek için [UpdateDirtyFields](https://reference.aspose.com/words/tr/net/aspose.words.loading/loadoptions/updatedirtyfields/) özelliğini kullanabilirsiniz. **UpdateDirtyFields** değeri *true* olarak ayarlandığında [Field.IsDirty](https://reference.aspose.com/words/tr/net/aspose.words.fields/field/isdirty/) veya [FieldChar.IsDirty](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldchar/isdirty/) özelliği için *true* değeri olan tüm alanlar belge yüklendiğinde güncellenir.
 
 Aşağıdaki kod örneği, kirli özelliğine sahip alanların nasıl güncelleştirileceğini gösterir:
 
@@ -54,7 +54,7 @@ Aşağıdaki kod örneği, kirli özelliğine sahip alanların nasıl güncelle�
 
 ## Kaydetmeden Önce LastSavedTime Özelliğini Güncelleyin
 
-Belgeyi kaydederken ilgili yerleşik belge özelliği [LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/)'nin güncellenip güncellenmeyeceği [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) özelliğini kullanabilirsiniz.
+Belgeyi kaydederken ilgili yerleşik belge özelliği [LastSavedTime](https://reference.aspose.com/words/tr/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/)'nin güncellenip güncellenmeyeceği [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/tr/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) özelliğini kullanabilirsiniz.
 
 Aşağıdaki kod örneği bu özelliğin nasıl güncelleştirileceğini gösterir:
 

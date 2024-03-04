@@ -13,7 +13,7 @@ A veces es posible que necesite cambiar la apariencia de un documento, por ejemp
 
 ## Establecer opciones de visualización de documentos
 
-Puede controlar cómo se mostrará un documento en Microsoft Word utilizando la clase [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/). Por ejemplo, puede establecer un valor de zoom del documento utilizando la propiedad [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/zoompercent/) o el modo de visualización utilizando la propiedad [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/viewtype/).
+Puede controlar cómo se mostrará un documento en Microsoft Word utilizando la clase [ViewOptions](https://reference.aspose.com/words/es/net/aspose.words.settings/viewoptions/). Por ejemplo, puede establecer un valor de zoom del documento utilizando la propiedad [ZoomPercent](https://reference.aspose.com/words/es/net/aspose.words.settings/viewoptions/zoompercent/) o el modo de visualización utilizando la propiedad [ViewType](https://reference.aspose.com/words/es/net/aspose.words.settings/viewoptions/viewtype/).
 
 El siguiente ejemplo de código muestra cómo garantizar que un documento se muestre al 50% cuando se abre en Microsoft Word:
 
@@ -33,7 +33,7 @@ Microsoft Word 2013 no escribe ningún factor de zoom en un documento y ya no es
 
 ## Establecer opciones de visualización de página
 
-Si desea establecer el número de caracteres por línea, utilice la propiedad [CharactersPerLine](https://reference.aspose.com/words/net/aspose.words/pagesetup/charactersperline/). También puede establecer el número de líneas por página para un documento de Word; use la propiedad [LinesPerPage](https://reference.aspose.com/words/net/aspose.words/pagesetup/linesperpage/) para obtener o establecer el número de líneas por página en la cuadrícula del documento.
+Si desea establecer el número de caracteres por línea, utilice la propiedad [CharactersPerLine](https://reference.aspose.com/words/es/net/aspose.words/pagesetup/charactersperline/). También puede establecer el número de líneas por página para un documento de Word; use la propiedad [LinesPerPage](https://reference.aspose.com/words/es/net/aspose.words/pagesetup/linesperpage/) para obtener o establecer el número de líneas por página en la cuadrícula del documento.
 
 {{% alert color="primary" %}}
 
@@ -49,7 +49,7 @@ El siguiente ejemplo de código muestra cómo establecer el número de caractere
 
 La visualización de un documento en Microsoft Word depende de los idiomas configurados como predeterminados para este documento. Si no se establecen idiomas predeterminados, Microsoft Word toma información del cuadro de diálogo "Establecer preferencias de idioma de Office", que, por ejemplo, se puede encontrar en "Archivo → Opciones → Idioma" en Microsoft Word 2019.
 
-Con Aspose.Words, también puedes configurar las preferencias de idioma usando la clase [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/). También tenga en cuenta que para la visualización correcta de su documento es necesario configurar la versión Microsoft de Word con la que debe coincidir el proceso de carga del documento; esto se puede hacer usando la propiedad [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/mswversion/).
+Con Aspose.Words, también puedes configurar las preferencias de idioma usando la clase [LanguagePreferences](https://reference.aspose.com/words/es/net/aspose.words.loading/languagepreferences/). También tenga en cuenta que para la visualización correcta de su documento es necesario configurar la versión Microsoft de Word con la que debe coincidir el proceso de carga del documento; esto se puede hacer usando la propiedad [MswVersion](https://reference.aspose.com/words/es/net/aspose.words.loading/loadoptions/mswversion/).
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ El siguiente ejemplo de código muestra cómo configurar el ruso como idioma de 
 
 ## Optimizar un documento para una versión particular de Word
 
-El método [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) permite optimizar el contenido del documento, así como el comportamiento Aspose.Words predeterminado para una versión particular de Microsoft Word. Puede utilizar este método para evitar que Microsoft Word muestre la cinta "Modo de compatibilidad" al cargar el documento. Tenga en cuenta que es posible que también deba establecer la propiedad `Compliance` en Iso29500_2008_Transitional o superior.
+El método [OptimizeFor](https://reference.aspose.com/words/es/net/aspose.words.settings/compatibilityoptions/optimizefor/) permite optimizar el contenido del documento, así como el comportamiento Aspose.Words predeterminado para una versión particular de Microsoft Word. Puede utilizar este método para evitar que Microsoft Word muestre la cinta "Modo de compatibilidad" al cargar el documento. Tenga en cuenta que es posible que también deba establecer la propiedad `Compliance` en Iso29500_2008_Transitional o superior.
 
 El siguiente ejemplo de código muestra cómo optimizar el contenido del documento para Microsoft Word 2016:
 

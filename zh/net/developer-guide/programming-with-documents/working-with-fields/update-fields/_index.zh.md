@@ -22,13 +22,13 @@ url: /zh/net/update-fields/
 
 ### 以编程方式更新字段
 
-要显式更新整个文档中的字段，只需调用 [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) 方法即可。要更新部分文档中包含的字段，请获取 [Range](https://reference.aspose.com/words/net/aspose.words/range/) 对象并调用 [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/updatefields/) 方法。在 Aspose.Words 中，您可以使用 [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) 属性获取文档树中任何节点的 **Range**，例如 [Section](https://reference.aspose.com/words/net/aspose.words/section/)、[HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/)、[Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) 等。您可以通过调用[Update](https://reference.aspose.com/words/net/aspose.words.fields/field/update/)方法更新单个字段的结果。
+要显式更新整个文档中的字段，只需调用 [UpdateFields](https://reference.aspose.com/words/zh/net/aspose.words/document/updatefields/) 方法即可。要更新部分文档中包含的字段，请获取 [Range](https://reference.aspose.com/words/zh/net/aspose.words/range/) 对象并调用 [UpdateFields](https://reference.aspose.com/words/zh/net/aspose.words/range/updatefields/) 方法。在 Aspose.Words 中，您可以使用 [Node.Range](https://reference.aspose.com/words/zh/net/aspose.words/node/range/) 属性获取文档树中任何节点的 **Range**，例如 [Section](https://reference.aspose.com/words/zh/net/aspose.words/section/)、[HeaderFooter](https://reference.aspose.com/words/zh/net/aspose.words/headerfooter/)、[Paragraph](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/) 等。您可以通过调用[Update](https://reference.aspose.com/words/zh/net/aspose.words.fields/field/update/)方法更新单个字段的结果。
 
 ### 渲染期间自动更新页面相关字段
 
 当您将文档转换为固定页面格式（例如 PDF 或 XPS）时，Aspose.Words 将自动更新文档页眉/页脚中与页面布局相关的 `PAGE`、`PAGEREF` 字段。此行为模仿打印文档时 Microsoft Word 的行为。
 
-如果要更新文档中的所有其他字段，则需要在渲染文档之前调用 [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)。
+如果要更新文档中的所有其他字段，则需要在渲染文档之前调用 [UpdateFields](https://reference.aspose.com/words/zh/net/aspose.words/document/updatefields/)。
 
 以下代码示例演示如何在呈现文档之前更新所有字段：
 
@@ -46,7 +46,7 @@ url: /zh/net/update-fields/
 
 ## 更新具有脏属性的字段
 
-w:dirty 是一个字段级属性，打开文档时只会刷新您指定的字段。它告诉 MS Word 仅在下次打开文档时刷新此字段。您可以使用 [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) 属性来指定是否更新具有 dirty 属性的字段。当 **UpdateDirtyFields** 的值设置为 *true* 时，所有具有 [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) 或 [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) 属性的 *true* 值的字段都会在文档加载时更新。
+w:dirty 是一个字段级属性，打开文档时只会刷新您指定的字段。它告诉 MS Word 仅在下次打开文档时刷新此字段。您可以使用 [UpdateDirtyFields](https://reference.aspose.com/words/zh/net/aspose.words.loading/loadoptions/updatedirtyfields/) 属性来指定是否更新具有 dirty 属性的字段。当 **UpdateDirtyFields** 的值设置为 *true* 时，所有具有 [Field.IsDirty](https://reference.aspose.com/words/zh/net/aspose.words.fields/field/isdirty/) 或 [FieldChar.IsDirty](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldchar/isdirty/) 属性的 *true* 值的字段都会在文档加载时更新。
 
 以下代码示例展示了如何更新具有 dirty 属性的字段：
 
@@ -54,7 +54,7 @@ w:dirty 是一个字段级属性，打开文档时只会刷新您指定的字段
 
 ## 保存前更新 LastSavedTime 属性
 
-您可以使用 [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) 属性在保存文档时是否更新相应的内置文档属性 [LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/)。
+您可以使用 [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/zh/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) 属性在保存文档时是否更新相应的内置文档属性 [LastSavedTime](https://reference.aspose.com/words/zh/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/)。
 
 以下代码示例展示了如何更新此属性：
 

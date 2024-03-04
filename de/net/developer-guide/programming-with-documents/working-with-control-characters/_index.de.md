@@ -13,7 +13,7 @@ Microsoft Word-Dokumente können verschiedene Zeichen enthalten, die eine besond
 
 Manchmal müssen Sie möglicherweise Zeichen zum Text hinzufügen oder daraus entfernen. Wenn Sie beispielsweise Text programmgesteuert aus dem Dokument abrufen, behält Aspose.Words die meisten Steuerzeichen bei. Wenn Sie also mit diesem Text arbeiten müssen, sollten Sie die Zeichen wahrscheinlich entfernen oder ersetzen.
 
-Die [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar/)-Klasse ist ein Repository für die Konstanten, die häufig in Dokumenten vorkommende Steuerzeichen darstellen. Es stellt sowohl char- als auch string-Versionen derselben Konstanten bereit. Beispielsweise haben String [LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreak/) und Char [LineBreakChar](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreakchar) denselben Wert.
+Die [ControlChar](https://reference.aspose.com/words/de/net/aspose.words/controlchar/)-Klasse ist ein Repository für die Konstanten, die häufig in Dokumenten vorkommende Steuerzeichen darstellen. Es stellt sowohl char- als auch string-Versionen derselben Konstanten bereit. Beispielsweise haben String [LineBreak](https://reference.aspose.com/words/de/net/aspose.words/controlchar/linebreak/) und Char [LineBreakChar](https://reference.aspose.com/words/de/net/aspose.words/controlchar/linebreakchar) denselben Wert.
 
 Das folgende Codebeispiel zeigt, wie Steuerzeichen verwendet werden:
 

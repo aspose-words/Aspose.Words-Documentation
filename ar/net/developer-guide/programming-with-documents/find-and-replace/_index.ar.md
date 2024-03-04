@@ -24,11 +24,11 @@ url: /ar/net/find-and-replace/
 
 بالإضافة إلى ذلك، يمكنك استخدام أحرف أولية خاصة مع استبدال سلسلة بسيط وتعبيرات عادية لتحديد الفواصل ضمن عملية البحث والاستبدال.
 
-يقدم Aspose.Words وظيفة البحث والاستبدال بمساحة الاسم [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/). يمكنك العمل مع العديد من الخيارات أثناء عملية البحث والاستبدال باستخدام فئة [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/).
+يقدم Aspose.Words وظيفة البحث والاستبدال بمساحة الاسم [Aspose.Words.Replacing](https://reference.aspose.com/words/ar/net/aspose.words.replacing/). يمكنك العمل مع العديد من الخيارات أثناء عملية البحث والاستبدال باستخدام فئة [FindReplaceOptions](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/).
 
 ### البحث عن النص واستبداله باستخدام استبدال سلسلة بسيط {#find-and-replace-text-using-simple-string-replacement}
 
-يمكنك استخدام إحدى طرق [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/#replace/) للعثور على سلسلة معينة أو استبدالها وإرجاع عدد عمليات الاستبدال التي تم إجراؤها. في هذه الحالة، يمكنك تحديد سلسلة سيتم استبدالها، وسلسلة ستحل محل جميع تكراراتها، وما إذا كان الاستبدال حساسًا لحالة الأحرف، وما إذا كانت الكلمات المستقلة فقط ستتأثر.
+يمكنك استخدام إحدى طرق [Replace](https://reference.aspose.com/words/ar/net/aspose.words/range/replace/#replace/) للعثور على سلسلة معينة أو استبدالها وإرجاع عدد عمليات الاستبدال التي تم إجراؤها. في هذه الحالة، يمكنك تحديد سلسلة سيتم استبدالها، وسلسلة ستحل محل جميع تكراراتها، وما إذا كان الاستبدال حساسًا لحالة الأحرف، وما إذا كانت الكلمات المستقلة فقط ستتأثر.
 
 يوضح مثال التعليمات البرمجية التالي كيفية العثور على السلسلة "_CustomerName_" واستبدالها بالسلسلة *"James Bond"*:
 
@@ -46,7 +46,7 @@ url: /ar/net/find-and-replace/
 
 التعبير العادي (regex) هو نمط يصف تسلسلًا معينًا من النص. لنفترض أنك تريد استبدال كافة التكرارات المزدوجة للكلمة بتكرار كلمة واحدة. ثم يمكنك تطبيق التعبير العادي التالي لتحديد نمط الكلمة المزدوجة: `([a-zA-Z]+) \1`.
 
-استخدم طريقة [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/) الأخرى للبحث عن مجموعات أحرف معينة واستبدالها عن طريق تعيين المعلمة `Regex` كنمط التعبير العادي للعثور على التطابقات.
+استخدم طريقة [Replace](https://reference.aspose.com/words/ar/net/aspose.words/range/replace/) الأخرى للبحث عن مجموعات أحرف معينة واستبدالها عن طريق تعيين المعلمة `Regex` كنمط التعبير العادي للعثور على التطابقات.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استبدال السلاسل التي تطابق نمط التعبير العادي بسلسلة استبدال محددة:
 
@@ -76,7 +76,7 @@ url: /ar/net/find-and-replace/
 
 ## البحث عن سلسلة واستبدالها في رأس/تذييل مستند {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-يمكنك البحث عن النص واستبداله في قسم الرأس/التذييل لمستند Word باستخدام فئة [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/).
+يمكنك البحث عن النص واستبداله في قسم الرأس/التذييل لمستند Word باستخدام فئة [HeaderFooter](https://reference.aspose.com/words/ar/net/aspose.words/headerfooter/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية استبدال نص قسم الرأس في المستند الخاص بك:
 
@@ -117,7 +117,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 
 أثناء تطبيق عملية البحث والاستبدال، يمكنك تجاهل أجزاء معينة من النص. لذلك، يمكن استبعاد أجزاء معينة من النص من البحث، ويمكن تطبيق البحث والاستبدال على الأجزاء المتبقية فقط.
 
-يوفر Aspose.Words العديد من خصائص البحث والاستبدال لتجاهل النص مثل [IgnoreDeleted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/) و[IgnoreFieldCodes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/) و[IgnoreFields](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefields/) و[IgnoreFootnotes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) و[IgnoreInserted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
+يوفر Aspose.Words العديد من خصائص البحث والاستبدال لتجاهل النص مثل [IgnoreDeleted](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/) و[IgnoreFieldCodes](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/) و[IgnoreFields](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/ignorefields/) و[IgnoreFootnotes](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) و[IgnoreInserted](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية تجاهل النص داخل حذف المراجعات:
 
@@ -125,13 +125,13 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 
 ## تخصيص عملية البحث والاستبدال {#customize-find-and-replace-operation}
 
-يوفر Aspose.Words العديد من نصوص [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) المختلفة للبحث عن النص واستبداله، مثل تطبيق تنسيق معين بخصائص [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyfont/) و[ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/)، واستخدام البدائل في أنماط الاستبدال بخاصية [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/)، وغيرها.
+يوفر Aspose.Words العديد من نصوص [properties](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/) المختلفة للبحث عن النص واستبداله، مثل تطبيق تنسيق معين بخصائص [ApplyFont](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/applyfont/) و[ApplyParagraphFormats](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/)، واستخدام البدائل في أنماط الاستبدال بخاصية [UseSubstitutions](https://reference.aspose.com/words/ar/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/)، وغيرها.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تمييز كلمة معينة في مستندك:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
 
-يتيح لك Aspose.Words استخدام واجهة [IReplacingCallback](https://reference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback/) لإنشاء واستدعاء طريقة مخصصة أثناء عملية الاستبدال. قد يكون لديك بعض حالات الاستخدام التي تحتاج فيها إلى تخصيص عملية البحث والاستبدال، مثل استبدال النص المحدد بتعبير عادي بعلامات HTML، لذلك ستطبق بشكل أساسي الاستبدال بإدراج HTML.
+يتيح لك Aspose.Words استخدام واجهة [IReplacingCallback](https://reference.aspose.com/words/ar/net/aspose.words.replacing/ireplacingcallback/) لإنشاء واستدعاء طريقة مخصصة أثناء عملية الاستبدال. قد يكون لديك بعض حالات الاستخدام التي تحتاج فيها إلى تخصيص عملية البحث والاستبدال، مثل استبدال النص المحدد بتعبير عادي بعلامات HTML، لذلك ستطبق بشكل أساسي الاستبدال بإدراج HTML.
 
 إذا كنت بحاجة إلى استبدال سلسلة بعلامة HTML، فقم بتطبيق واجهة **IReplacingCallback** لتخصيص عملية البحث والاستبدال بحيث تبدأ المطابقة في بداية التشغيل مع عقدة المطابقة الخاصة بمستندك. دعونا نقدم عدة أمثلة لاستخدام **IReplacingCallback**.
 

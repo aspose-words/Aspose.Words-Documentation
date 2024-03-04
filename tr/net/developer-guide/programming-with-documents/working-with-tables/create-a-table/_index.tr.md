@@ -32,26 +32,26 @@ Bir tablo, sıkı bir şekilde konumlandırılmışsa satır içi olabilir veya 
 
 ## DocumentBuilder ile Tablo Oluşturma
 
-Aspose.Words'te kullanıcılar [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)'yi kullanarak bir belgede tablo oluşturabilirler. Tablo oluşturmanın temel algoritması aşağıdaki gibidir:
+Aspose.Words'te kullanıcılar [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/)'yi kullanarak bir belgede tablo oluşturabilirler. Tablo oluşturmanın temel algoritması aşağıdaki gibidir:
 
-1. Tabloyu [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) ile başlatın
-2. [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/)'i kullanarak tabloya bir hücre ekleyin; bu, otomatik olarak yeni bir satır başlatır
-3. İsteğe bağlı olarak hücre biçimlendirmesini belirtmek için [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) özelliğini kullanın
-4. [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/writeln/), [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) ve diğerleri gibi uygun **DocumentBuilder** yöntemlerini kullanarak hücre içeriğini ekleyin
+1. Tabloyu [StartTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/starttable/) ile başlatın
+2. [InsertCell](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertcell/)'i kullanarak tabloya bir hücre ekleyin; bu, otomatik olarak yeni bir satır başlatır
+3. İsteğe bağlı olarak hücre biçimlendirmesini belirtmek için [CellFormat](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/cellformat/) özelliğini kullanın
+4. [Writeln](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/writeln/), [InsertImage](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertimage/) ve diğerleri gibi uygun **DocumentBuilder** yöntemlerini kullanarak hücre içeriğini ekleyin
 5. Satır tamamlanana kadar 2-4. adımları tekrarlayın
-6. Geçerli satırı sonlandırmak için [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/)'i arayın
-7. İsteğe bağlı olarak satır biçimlendirmesini belirtmek için [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/) özelliğini kullanın
+6. Geçerli satırı sonlandırmak için [EndRow](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endrow/)'i arayın
+7. İsteğe bağlı olarak satır biçimlendirmesini belirtmek için [RowFormat](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/rowformat/) özelliğini kullanın
 8. Tablo tamamlanana kadar 2-7 arasındaki adımları tekrarlayın
-9. Tabloyu oluşturmayı tamamlamak için [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/)'i arayın
+9. Tabloyu oluşturmayı tamamlamak için [EndTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endtable/)'i arayın
 
 {{% alert color="primary" %}}
 
 Önemli ayrıntılar:
 
-* [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) aynı zamanda bir hücrenin içinde de çağrılabilir; bu durumda hücre içinde iç içe bir tablonun oluşturulmasını başlatır.
-* [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/)'i çağırdıktan sonra yeni bir hücre oluşturulur ve [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) sınıfının diğer yöntemlerini kullanarak eklediğiniz içerik mevcut hücreye eklenecektir. Aynı satırda yeni bir hücre oluşturmak için **InsertCell**'i tekrar çağırın.
-* **InsertCell**, [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/)'den hemen sonra ve bir satırın sonunda çağrılırsa tablo yeni bir satırda devam eder.
-* Tabloyu sonlandırmak için kullanılan [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) yöntemi, **EndRow** çağrıldıktan sonra yalnızca bir kez çağrılmalıdır. **EndTable**'in çağrılması, imleci geçerli hücreden tablonun hemen sonraki konumuna taşır.
+* [StartTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/starttable/) aynı zamanda bir hücrenin içinde de çağrılabilir; bu durumda hücre içinde iç içe bir tablonun oluşturulmasını başlatır.
+* [InsertCell](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertcell/)'i çağırdıktan sonra yeni bir hücre oluşturulur ve [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) sınıfının diğer yöntemlerini kullanarak eklediğiniz içerik mevcut hücreye eklenecektir. Aynı satırda yeni bir hücre oluşturmak için **InsertCell**'i tekrar çağırın.
+* **InsertCell**, [EndRow](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endrow/)'den hemen sonra ve bir satırın sonunda çağrılırsa tablo yeni bir satırda devam eder.
+* Tabloyu sonlandırmak için kullanılan [EndTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endtable/) yöntemi, **EndRow** çağrıldıktan sonra yalnızca bir kez çağrılmalıdır. **EndTable**'in çağrılması, imleci geçerli hücreden tablonun hemen sonraki konumuna taşır.
 
 {{% /alert %}}
 
@@ -73,9 +73,9 @@ Aşağıdaki kod örneği, DocumentBuilder kullanılarak iç içe tablonun nası
 
 ## DOM (Document Object Model) aracılığıyla Tablo Oluşturma
 
-Belirli bir konuma yeni bir [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) düğümü ekleyerek tabloları doğrudan DOM'e ekleyebilirsiniz.
+Belirli bir konuma yeni bir [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/) düğümü ekleyerek tabloları doğrudan DOM'e ekleyebilirsiniz.
 
-Tablo düğümü oluşturulduktan hemen sonra tablonun tamamen boş olacağını, yani henüz satır ve hücre içermediğini lütfen unutmayın. Bir tabloya satır ve hücre eklemek için uygun [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) alt düğümlerini DOM'e ekleyin.
+Tablo düğümü oluşturulduktan hemen sonra tablonun tamamen boş olacağını, yani henüz satır ve hücre içermediğini lütfen unutmayın. Bir tabloya satır ve hücre eklemek için uygun [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/) alt düğümlerini DOM'e ekleyin.
 
 {{% alert color="primary" %}}
 
@@ -89,7 +89,7 @@ Aşağıdaki kod örneği, uygun alt düğümleri belge ağacına ekleyerek sıf
 
 ## HTML'den Tablo Oluşturma
 
-Aspose.Words, [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/) yöntemini kullanarak bir HTML kaynağından bir belgeye içerik eklenmesini destekler. Giriş, tam bir HTML sayfası veya yalnızca kısmi bir pasaj olabilir.
+Aspose.Words, [InsertHtml](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/inserthtml/) yöntemini kullanarak bir HTML kaynağından bir belgeye içerik eklenmesini destekler. Giriş, tam bir HTML sayfası veya yalnızca kısmi bir pasaj olabilir.
 
 Kullanıcılar **InsertHtml** yöntemini kullanarak `<table>`, `<tr>`, `<td>` gibi tablo etiketleri aracılığıyla belgeye tablo ekleyebilirler.
 
@@ -99,7 +99,7 @@ Aşağıdaki kod örneği, HTML etiketlerini içeren bir dizeden belgeye tablonu
 
 ## Mevcut Bir Tablonun Kopyasını Ekleme
 
-Çoğu zaman bir belgede zaten var olan bir tabloyu temel alarak bir tablo oluşturmanız gerekir. Tüm biçimlendirmeyi korurken bir tabloyu çoğaltmanın en kolay yolu, [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) yöntemini kullanarak Tablo düğümünü klonlamaktır.
+Çoğu zaman bir belgede zaten var olan bir tabloyu temel alarak bir tablo oluşturmanız gerekir. Tüm biçimlendirmeyi korurken bir tabloyu çoğaltmanın en kolay yolu, [Clone](https://reference.aspose.com/words/tr/net/aspose.words/node/clone/) yöntemini kullanarak Tablo düğümünü klonlamaktır.
 
 Aynı teknik, mevcut bir satırın veya hücrenin kopyalarını bir tabloya eklemek için kullanılabilir.
 
@@ -134,6 +134,6 @@ Tablo oluşturmanın bu yollarına daha yakından bakalım ve bunların artılar
 |  Yöntem | Avantajları |  Dezavantajları |
 |  :-  |  :-  |  :-  |
 | `DocumentBuilder` aracılığıyla | Tabloları ve diğer belge içeriğini eklemenin standart yöntemi | Aynı oluşturucu örneğiyle aynı anda birçok tablo çeşidi oluşturmak bazen zor olabilir |
-| DOM aracılığıyla |  **DocumentBuilder** kullanmadan düğümleri doğrudan DOM'e oluşturup ekleyen çevreleyen kodla daha iyi uyum sağlar | Tablo "boş" olarak oluşturulmuştur: çoğu işlemi gerçekleştirmeden önce, eksik alt düğümleri oluşturmak için [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words.tables/table/ensureminimum/)'i çağırmanız gerekir |
+| DOM aracılığıyla |  **DocumentBuilder** kullanmadan düğümleri doğrudan DOM'e oluşturup ekleyen çevreleyen kodla daha iyi uyum sağlar | Tablo "boş" olarak oluşturulmuştur: çoğu işlemi gerçekleştirmeden önce, eksik alt düğümleri oluşturmak için [EnsureMinimum](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/ensureminimum/)'i çağırmanız gerekir |
 | HTML'den | `<table>`, `<tr>`, `<td>` gibi etiketleri kullanarak HTML kaynağından yeni bir tablo oluşturabilir | Mümkün olan tüm Microsoft Word tablo formatları HTML'ye uygulanamaz |
 | Mevcut bir tabloyu klonlama | Tüm satır ve hücre biçimlendirmesini korurken mevcut bir tablonun bir kopyasını oluşturabilirsiniz | Tablo kullanıma hazır olmadan önce uygun alt düğümlerin kaldırılması gerekir |

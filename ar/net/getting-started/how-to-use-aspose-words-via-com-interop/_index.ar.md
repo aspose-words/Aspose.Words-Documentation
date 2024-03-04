@@ -31,7 +31,7 @@ url: /ar/net/how-to-use-aspose-words-via-com-interop/
 
 - استخدام كائنات COM في لغة البرمجة الخاصة بك. راجع وثائق لغة البرمجة الخاصة بك والموضوعات الخاصة باللغة بشكل أكبر في هذه الوثائق.
 - العمل مع كائنات COM المكشوفة بواسطة .NET COM Interop. راجع [Interoperating مع تعليمات برمجية غير مُدارة](https://learn.microsoft.com/en-us/dotnet/framework/interop/) و[تعريض مكونات .NET Framework إلى COM](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com) في MSDN.
-- نموذج كائن مستند Aspose.Words. راجع Aspose.Words [دليل المطور](/words/ar/net/developer-guide/) و[API Reference](https://reference.aspose.com/words/net/).
+- نموذج كائن مستند Aspose.Words. راجع Aspose.Words [دليل المطور](/words/ar/net/developer-guide/) و[API Reference](https://reference.aspose.com/words/ar/net/).
 
 ## قم بتسجيل Aspose.Words لـ .NET باستخدام COM Interop
 

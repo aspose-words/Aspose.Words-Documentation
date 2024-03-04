@@ -22,13 +22,13 @@ url: /ar/net/update-fields/
 
 ### تحديث الحقول برمجيا
 
-لتحديث الحقول بشكل صريح في المستند بأكمله، ما عليك سوى استدعاء الأسلوب [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/). لتحديث الحقول الموجودة في جزء من المستند، احصل على كائن [Range](https://reference.aspose.com/words/net/aspose.words/range/) واستدعاء أسلوب [UpdateFields](https://reference.aspose.com/words/net/aspose.words/range/updatefields/). في Aspose.Words، يمكنك الحصول على **Range** لأي عقدة في شجرة المستندات، مثل [Section](https://reference.aspose.com/words/net/aspose.words/section/)، و[HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/)، و[Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)، وما إلى ذلك باستخدام خاصية [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/). يمكنك تحديث نتيجة حقل واحد عن طريق الاتصال بالطريقة [Update](https://reference.aspose.com/words/net/aspose.words.fields/field/update/).
+لتحديث الحقول بشكل صريح في المستند بأكمله، ما عليك سوى استدعاء الأسلوب [UpdateFields](https://reference.aspose.com/words/ar/net/aspose.words/document/updatefields/). لتحديث الحقول الموجودة في جزء من المستند، احصل على كائن [Range](https://reference.aspose.com/words/ar/net/aspose.words/range/) واستدعاء أسلوب [UpdateFields](https://reference.aspose.com/words/ar/net/aspose.words/range/updatefields/). في Aspose.Words، يمكنك الحصول على **Range** لأي عقدة في شجرة المستندات، مثل [Section](https://reference.aspose.com/words/ar/net/aspose.words/section/)، و[HeaderFooter](https://reference.aspose.com/words/ar/net/aspose.words/headerfooter/)، و[Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/)، وما إلى ذلك باستخدام خاصية [Node.Range](https://reference.aspose.com/words/ar/net/aspose.words/node/range/). يمكنك تحديث نتيجة حقل واحد عن طريق الاتصال بالطريقة [Update](https://reference.aspose.com/words/ar/net/aspose.words.fields/field/update/).
 
 ### التحديث التلقائي للحقول ذات الصلة بالصفحة أثناء العرض
 
 عند تنفيذ تحويل مستند إلى تنسيق صفحة ثابتة، على سبيل المثال، إلى PDF أو XPS، سيقوم Aspose.Words تلقائيًا بتحديث الحقول المرتبطة بتخطيط الصفحة `PAGE` و`PAGEREF` الموجودة في رؤوس/تذييلات المستند. يحاكي هذا السلوك سلوك Microsoft Word عند طباعة مستند.
 
-إذا كنت تريد تحديث كافة الحقول الأخرى في المستند، فأنت بحاجة إلى الاتصال بـ [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/) قبل عرض المستند.
+إذا كنت تريد تحديث كافة الحقول الأخرى في المستند، فأنت بحاجة إلى الاتصال بـ [UpdateFields](https://reference.aspose.com/words/ar/net/aspose.words/document/updatefields/) قبل عرض المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديث كافة الحقول قبل تقديم المستند:
 
@@ -46,7 +46,7 @@ url: /ar/net/update-fields/
 
 ## تحديث الحقول ذات السمات القذرة
 
-w:dirty هي سمة على مستوى الحقل ستقوم فقط بتحديث الحقل الذي تحدده عند فتح المستند. يخبر MS Word بتحديث هذا الحقل فقط في المرة التالية التي يتم فيها فتح المستند. يمكنك استخدام خاصية [UpdateDirtyFields](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/updatedirtyfields/) لتحديد ما إذا كان سيتم تحديث الحقول بالسمة القذرة. عند تعيين قيمة **UpdateDirtyFields** على *true*، يتم تحديث جميع الحقول التي لها قيمة *true* لخاصية [Field.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/field/isdirty/) أو [FieldChar.IsDirty](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/isdirty/) عند تحميل المستند.
+w:dirty هي سمة على مستوى الحقل ستقوم فقط بتحديث الحقل الذي تحدده عند فتح المستند. يخبر MS Word بتحديث هذا الحقل فقط في المرة التالية التي يتم فيها فتح المستند. يمكنك استخدام خاصية [UpdateDirtyFields](https://reference.aspose.com/words/ar/net/aspose.words.loading/loadoptions/updatedirtyfields/) لتحديد ما إذا كان سيتم تحديث الحقول بالسمة القذرة. عند تعيين قيمة **UpdateDirtyFields** على *true*، يتم تحديث جميع الحقول التي لها قيمة *true* لخاصية [Field.IsDirty](https://reference.aspose.com/words/ar/net/aspose.words.fields/field/isdirty/) أو [FieldChar.IsDirty](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldchar/isdirty/) عند تحميل المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديث الحقول التي تحتوي على السمة القذرة:
 
@@ -54,7 +54,7 @@ w:dirty هي سمة على مستوى الحقل ستقوم فقط بتحديث 
 
 ## قم بتحديث خاصية LastSavedTime قبل الحفظ
 
-يمكنك استخدام خاصية [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) لتحديث خاصية المستند المضمنة المقابلة [LastSavedTime](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) عند حفظ المستند.
+يمكنك استخدام خاصية [UpdateLastSavedTimeProperty](https://reference.aspose.com/words/ar/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/) لتحديث خاصية المستند المضمنة المقابلة [LastSavedTime](https://reference.aspose.com/words/ar/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/) عند حفظ المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديث هذه الخاصية:
 

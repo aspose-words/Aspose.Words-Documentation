@@ -19,7 +19,7 @@ url: /zh/net/working-with-table-of-contents/
 
 ## 以编程方式插入目录
 
-您可以通过调用 [InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/) 方法将 `TOC`（目录）字段插入到文档的当前位置。
+您可以通过调用 [InsertTableOfContents](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/inserttableofcontents/) 方法将 `TOC`（目录）字段插入到文档的当前位置。
 
 Word 文档中的目录可以通过多种方式构建并使用多种选项进行格式化。您传递给方法的字段开关控制表格的构建方式以及在文档中的显示方式。
 
@@ -43,8 +43,8 @@ Word 文档中的目录可以通过多种方式构建并使用多种选项进行
 
 Aspose.Words 允许您仅用几行代码即可完全更新 `TOC`。可以执行此操作来填充新插入的 `TOC` 或在对文档进行更改后更新现有 `TOC`。必须使用以下两种方法来更新文档中的 `TOC` 字段：
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/zh/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/zh/net/aspose.words/document/updatepagelayout/)
 
 请注意，这两个更新方法需要按顺序调用。如果反转，将填充目录，但不会显示页码。可以更新任意数量的不同目录。这些方法将自动更新文档中找到的所有目录。
 
@@ -142,7 +142,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## 插入 TC 字段
 
-您可以通过调用 [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) 方法并将字段名称指定为"TC"以及所需的任何开关，在 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 的当前位置插入新的 TC 字段。
+您可以通过调用 [InsertField](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertfield/) 方法并将字段名称指定为"TC"以及所需的任何开关，在 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 的当前位置插入新的 TC 字段。
 
 以下代码示例演示如何使用 **DocumentBuilder** 将 `TC` 字段插入到文档中：
 
@@ -156,7 +156,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## 修改目录
 
-`TOC` 中条目的格式不使用标记条目的原始样式，而是使用等效的 `TOC` 样式对每个级别进行格式化。例如，`TOC` 中的第一级采用 **总有机碳1** 样式格式化，第二级采用 **总有机碳2** 样式格式化，等等。这意味着要更改 `TOC` 的外观，必须修改这些样式。在 Aspose.Words 中，这些样式由独立于区域设置的 `StyleIdentifier.TOC1` 到 `StyleIdentifier.TOC9` 表示，并且可以使用这些标识符从 [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) 集合中检索。
+`TOC` 中条目的格式不使用标记条目的原始样式，而是使用等效的 `TOC` 样式对每个级别进行格式化。例如，`TOC` 中的第一级采用 **总有机碳1** 样式格式化，第二级采用 **总有机碳2** 样式格式化，等等。这意味着要更改 `TOC` 的外观，必须修改这些样式。在 Aspose.Words 中，这些样式由独立于区域设置的 `StyleIdentifier.TOC1` 到 `StyleIdentifier.TOC9` 表示，并且可以使用这些标识符从 [Styles](https://reference.aspose.com/words/zh/net/aspose.words/documentbase/styles/) 集合中检索。
 
 一旦检索到文档的适当样式，就可以修改该样式的格式。对这些样式的任何更改都会自动反映在文档的目录中。
 
@@ -168,7 +168,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 您还可以控制每个条目和页码之间使用的分隔符的格式。默认情况下，这是一条虚线，使用制表符和靠近右边距排列的右制表位扩展到页码。
 
-使用为要修改的特定 `TOC` 级别检索的 [Style](https://reference.aspose.com/words/net/aspose.words/style/) 类，您还可以修改它们在文档中的显示方式。要更改其显示方式，必须首先调用 [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/) 来检索样式的段落格式。由此可以通过调用 [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) 检索制表位并修改相应的制表位。使用相同的技术，标签本身可以一起移动或移除。
+使用为要修改的特定 `TOC` 级别检索的 [Style](https://reference.aspose.com/words/zh/net/aspose.words/style/) 类，您还可以修改它们在文档中的显示方式。要更改其显示方式，必须首先调用 [ParagraphFormat](https://reference.aspose.com/words/zh/net/aspose.words/style/paragraphformat/) 来检索样式的段落格式。由此可以通过调用 [TabStops](https://reference.aspose.com/words/zh/net/aspose.words/paragraphformat/tabstops/) 检索制表位并修改相应的制表位。使用相同的技术，标签本身可以一起移动或移除。
 
 以下代码示例展示了如何修改 `TOC` 相关段落中右侧制表位的位置：
 
@@ -176,9 +176,9 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## 从文档中删除目录
 
-通过删除在 `TOC` 字段的 `FieldStart` 和 FieldEnd 节点之间找到的所有节点，可以从文档中删除目录。下面的代码演示了这一点。 `TOC` 字段的删除比普通字段更简单，因为我们不跟踪嵌套字段。相反，我们检查 [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) 节点的类型为 [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/)，这意味着我们遇到了当前 TOC 的末尾。在这种情况下可以使用此技术，而不必担心任何嵌套字段，因为我们可以假设任何正确形成的文档在另一个 `TOC` 字段内不会有完全嵌套的 `TOC` 字段。
+通过删除在 `TOC` 字段的 `FieldStart` 和 FieldEnd 节点之间找到的所有节点，可以从文档中删除目录。下面的代码演示了这一点。 `TOC` 字段的删除比普通字段更简单，因为我们不跟踪嵌套字段。相反，我们检查 [FieldEnd](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldend/) 节点的类型为 [FieldType.FieldTOC](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldtype/)，这意味着我们遇到了当前 TOC 的末尾。在这种情况下可以使用此技术，而不必担心任何嵌套字段，因为我们可以假设任何正确形成的文档在另一个 `TOC` 字段内不会有完全嵌套的 `TOC` 字段。
 
-首先收集并存储每个`TOC`的[FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/)节点。然后枚举指定的 `TOC`，以便访问并存储该字段内的所有节点。然后从文档中删除节点。
+首先收集并存储每个`TOC`的[FieldStart](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldstart/)节点。然后枚举指定的 `TOC`，以便访问并存储该字段内的所有节点。然后从文档中删除节点。
 
 以下代码示例演示如何从文档中删除指定的 `TOC`：
 

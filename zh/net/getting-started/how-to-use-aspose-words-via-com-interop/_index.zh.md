@@ -31,7 +31,7 @@ Aspose.Words 对象是 .NET 对象，但当通过 COM Interop 使用时，它们
 
 - 在您的编程语言中使用 COM 对象。请参阅本文档中的编程语言文档和特定于语言的主题。
 - 使用 .NET COM Interop 公开的 COM 对象。请参阅 MSDN 中的 [使用非托管代码进行 Interop 操作](https://learn.microsoft.com/en-us/dotnet/framework/interop/) 和 [将 .NET Framework 组件暴露给 COM](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com)。
-- Aspose.Words 文档对象模型。请参阅 Aspose.Words [开发者指南](/words/zh/net/developer-guide/) 和 [API Reference](https://reference.aspose.com/words/net/)。
+- Aspose.Words 文档对象模型。请参阅 Aspose.Words [开发者指南](/words/zh/net/developer-guide/) 和 [API Reference](https://reference.aspose.com/words/zh/net/)。
 
 ## 将 Aspose.Words 注册为带有 COM Interop 的 .NET
 

@@ -24,11 +24,11 @@ Aspose.Words fornisce due modi per applicare l'operazione di ricerca e sostituzi
 
 Inoltre, puoi utilizzare metacaratteri speciali con semplici sostituzioni di stringhe ed espressioni regolari per specificare interruzioni all'interno dell'operazione di ricerca e sostituzione.
 
-Aspose.Words presenta la funzionalità di ricerca e sostituzione con lo spazio dei nomi [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/). Puoi lavorare con molte opzioni durante il processo di ricerca e sostituzione utilizzando la classe [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/).
+Aspose.Words presenta la funzionalità di ricerca e sostituzione con lo spazio dei nomi [Aspose.Words.Replacing](https://reference.aspose.com/words/it/net/aspose.words.replacing/). Puoi lavorare con molte opzioni durante il processo di ricerca e sostituzione utilizzando la classe [FindReplaceOptions](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/).
 
 ### Trova e sostituisci testo utilizzando la semplice sostituzione di stringhe {#find-and-replace-text-using-simple-string-replacement}
 
-È possibile utilizzare uno dei metodi [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/#replace/) per trovare o sostituire una stringa particolare e restituire il numero di sostituzioni effettuate. In questo caso, è possibile specificare una stringa da sostituire, una stringa che sostituirà tutte le sue occorrenze, se la sostituzione fa distinzione tra maiuscole e minuscole e se verranno influenzate solo le parole autonome.
+È possibile utilizzare uno dei metodi [Replace](https://reference.aspose.com/words/it/net/aspose.words/range/replace/#replace/) per trovare o sostituire una stringa particolare e restituire il numero di sostituzioni effettuate. In questo caso, è possibile specificare una stringa da sostituire, una stringa che sostituirà tutte le sue occorrenze, se la sostituzione fa distinzione tra maiuscole e minuscole e se verranno influenzate solo le parole autonome.
 
 L'esempio di codice seguente mostra come trovare la stringa "_CustomerName_" e sostituirla con la stringa *"James Bond"*:
 
@@ -46,7 +46,7 @@ E dopo aver applicato la semplice sostituzione della stringa:
 
 Un'espressione regolare (regex) è un modello che descrive una determinata sequenza di testo. Supponiamo di voler sostituire tutte le doppie occorrenze di una parola con un'occorrenza di parola singola. Quindi puoi applicare la seguente espressione regolare per specificare il modello a doppia parola: `([a-zA-Z]+) \1`.
 
-Utilizza l'altro metodo [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/) per cercare e sostituire particolari combinazioni di caratteri impostando il parametro `Regex` come modello di espressione regolare per trovare corrispondenze.
+Utilizza l'altro metodo [Replace](https://reference.aspose.com/words/it/net/aspose.words/range/replace/) per cercare e sostituire particolari combinazioni di caratteri impostando il parametro `Regex` come modello di espressione regolare per trovare corrispondenze.
 
 L'esempio di codice seguente mostra come sostituire le stringhe che corrispondono a un modello di espressione regolare con una stringa di sostituzione specificata:
 
@@ -76,7 +76,7 @@ L'esempio di codice seguente mostra come sostituire il testo con paragrafi e int
 
 ## Trova e sostituisci la stringa nell'intestazione/piè di pagina di un documento {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-Puoi trovare e sostituire il testo nella sezione intestazione/piè di pagina di un documento Word utilizzando la classe [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/).
+Puoi trovare e sostituire il testo nella sezione intestazione/piè di pagina di un documento Word utilizzando la classe [HeaderFooter](https://reference.aspose.com/words/it/net/aspose.words/headerfooter/).
 
 Il seguente esempio di codice mostra come sostituire il testo della sezione di intestazione nel documento:
 
@@ -117,7 +117,7 @@ E dopo aver applicato la sostituzione della stringa del piè di pagina:
 
 Durante l'applicazione dell'operazione di ricerca e sostituzione, puoi ignorare alcuni segmenti del testo. Pertanto, alcune parti del testo possono essere escluse dalla ricerca e la ricerca e sostituzione può essere applicata solo alle parti rimanenti.
 
-Aspose.Words fornisce molte proprietà di ricerca e sostituzione per ignorare testo come [IgnoreDeleted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) e [IgnoreInserted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
+Aspose.Words fornisce molte proprietà di ricerca e sostituzione per ignorare testo come [IgnoreDeleted](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) e [IgnoreInserted](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
 
 L'esempio di codice seguente mostra come ignorare il testo all'interno delle revisioni di eliminazione:
 
@@ -125,13 +125,13 @@ L'esempio di codice seguente mostra come ignorare il testo all'interno delle rev
 
 ## Personalizza l'operazione Trova e sostituisci {#customize-find-and-replace-operation}
 
-Aspose.Words fornisce molti [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) diversi per trovare e sostituire testo, ad esempio applicando un formato specifico con proprietà [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyfont/) e [ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/), utilizzando sostituzioni in modelli di sostituzione con proprietà [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) e altro.
+Aspose.Words fornisce molti [properties](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/) diversi per trovare e sostituire testo, ad esempio applicando un formato specifico con proprietà [ApplyFont](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/applyfont/) e [ApplyParagraphFormats](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/), utilizzando sostituzioni in modelli di sostituzione con proprietà [UseSubstitutions](https://reference.aspose.com/words/it/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) e altro.
 
 Il seguente esempio di codice mostra come evidenziare una parola specifica nel documento:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
 
-Aspose.Words consente di utilizzare l'interfaccia [IReplacingCallback](https://reference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback/) per creare e chiamare un metodo personalizzato durante un'operazione di sostituzione. Potresti avere alcuni casi d'uso in cui è necessario personalizzare l'operazione di ricerca e sostituzione, ad esempio sostituire il testo specificato con un'espressione regolare con tag HTML, quindi in pratica applicherai la sostituzione inserendo HTML.
+Aspose.Words consente di utilizzare l'interfaccia [IReplacingCallback](https://reference.aspose.com/words/it/net/aspose.words.replacing/ireplacingcallback/) per creare e chiamare un metodo personalizzato durante un'operazione di sostituzione. Potresti avere alcuni casi d'uso in cui è necessario personalizzare l'operazione di ricerca e sostituzione, ad esempio sostituire il testo specificato con un'espressione regolare con tag HTML, quindi in pratica applicherai la sostituzione inserendo HTML.
 
 Se devi sostituire una stringa con un tag HTML, applica l'interfaccia **IReplacingCallback** per personalizzare l'operazione di ricerca e sostituzione in modo che la corrispondenza inizi all'inizio di un'esecuzione con il nodo di corrispondenza del documento. Forniamo diversi esempi di utilizzo di **IReplacingCallback**.
 

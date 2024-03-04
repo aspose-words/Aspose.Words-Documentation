@@ -13,7 +13,7 @@ En este artículo aprenderemos qué opciones pueden resultar útiles para trabaj
 
 ## Agregar marcas bidireccionales
 
-Puede utilizar la propiedad [AddBidiMarks](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/addbidimarks/) para especificar si se agregan marcas bidireccionales antes de cada ejecución de BiDi al exportar en formato de texto sin formato. Aspose.Words inserta el carácter Unicode 'MARCA DE DERECHA A IZQUIERDA' (U+200F) antes de cada ejecución bidireccional en el texto. Esta opción corresponde a la opción "Agregar marcas bidireccionales" en el cuadro de diálogo Conversión de archivos de MS Word cuando exporta a un formato de texto sin formato. Tenga en cuenta que aparece en el diálogo sólo si se agrega alguno de los idiomas de edición árabe o hebreo en MS Word.
+Puede utilizar la propiedad [AddBidiMarks](https://reference.aspose.com/words/es/net/aspose.words.saving/txtsaveoptions/addbidimarks/) para especificar si se agregan marcas bidireccionales antes de cada ejecución de BiDi al exportar en formato de texto sin formato. Aspose.Words inserta el carácter Unicode 'MARCA DE DERECHA A IZQUIERDA' (U+200F) antes de cada ejecución bidireccional en el texto. Esta opción corresponde a la opción "Agregar marcas bidireccionales" en el cuadro de diálogo Conversión de archivos de MS Word cuando exporta a un formato de texto sin formato. Tenga en cuenta que aparece en el diálogo sólo si se agrega alguno de los idiomas de edición árabe o hebreo en MS Word.
 
 El siguiente ejemplo de código muestra cómo utilizar la propiedad **AddBidiMarks**. El valor predeterminado de esta propiedad es *false*:
 
@@ -21,7 +21,7 @@ El siguiente ejemplo de código muestra cómo utilizar la propiedad **AddBidiMar
 
 ## Reconocer elementos de la lista durante la carga de TXT
 
-Aspose.Words puede importar elementos de lista de un archivo de texto como números de lista o texto sin formato en su modelo de objetos de documento. La propiedad [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) permite especificar cómo se reconocen los elementos de la lista numerados cuando se importa un documento desde formato de texto sin formato:
+Aspose.Words puede importar elementos de lista de un archivo de texto como números de lista o texto sin formato en su modelo de objetos de documento. La propiedad [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/es/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) permite especificar cómo se reconocen los elementos de la lista numerados cuando se importa un documento desde formato de texto sin formato:
 
 * Si esta opción está configurada en *true*, los espacios en blanco también se usan como delimitadores de números de lista: el algoritmo de reconocimiento de listas para numeración de estilo árabe (1., 1.1.2.) usa espacios en blanco y símbolos de punto (".").
 
@@ -41,7 +41,7 @@ El siguiente ejemplo de código muestra cómo recortar los espacios iniciales y 
 
 ## Detectar la dirección del texto del documento
 
-Aspose.Words proporciona la propiedad [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/documentdirection/) en la clase [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) para detectar la dirección del texto (RTL/LTR) en el documento. Esta propiedad establece u obtiene instrucciones de texto del documento proporcionadas en la enumeración [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/documentdirection/). El valor predeterminado se deja en *right*.
+Aspose.Words proporciona la propiedad [DocumentDirection](https://reference.aspose.com/words/es/net/aspose.words.loading/txtloadoptions/documentdirection/) en la clase [TxtLoadOptions](https://reference.aspose.com/words/es/net/aspose.words.loading/txtloadoptions/) para detectar la dirección del texto (RTL/LTR) en el documento. Esta propiedad establece u obtiene instrucciones de texto del documento proporcionadas en la enumeración [DocumentDirection](https://reference.aspose.com/words/es/net/aspose.words.loading/documentdirection/). El valor predeterminado se deja en *right*.
 
 El siguiente ejemplo de código muestra cómo detectar la dirección del texto del documento al importar un archivo TXT:
 
@@ -49,7 +49,7 @@ El siguiente ejemplo de código muestra cómo detectar la dirección del texto d
 
 ## Exportar encabezado y pie de página en TXT de salida
 
-Si desea exportar el encabezado y el pie de página en el documento TXT de salida, puede utilizar la propiedad [ExportHeadersFootersMode](https://reference.aspose.com/words/net/aspose.words.saving/exportheadersfootersmode/). Esta propiedad especifica la forma en que se exportan los encabezados y pies de página al formato de texto sin formato.
+Si desea exportar el encabezado y el pie de página en el documento TXT de salida, puede utilizar la propiedad [ExportHeadersFootersMode](https://reference.aspose.com/words/es/net/aspose.words.saving/exportheadersfootersmode/). Esta propiedad especifica la forma en que se exportan los encabezados y pies de página al formato de texto sin formato.
 
 El siguiente ejemplo de código muestra cómo exportar encabezados y pies de página a formato de texto sin formato:
 
@@ -57,7 +57,7 @@ El siguiente ejemplo de código muestra cómo exportar encabezados y pies de pá
 
 ## Exportar sangría de lista en TXT de salida
 
-Aspose.Words introdujo la clase [TxtListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtlistindentation/) que permite especificar cómo se sangran los niveles de la lista al exportar a un formato de texto sin formato. Al trabajar con [TxtSaveOption](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/), se proporciona la propiedad [ListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/listindentation/) para especificar el carácter que se usará para sangrar los niveles de la lista y contar el número que especifica cuántos caracteres usar como sangría por nivel de lista.
+Aspose.Words introdujo la clase [TxtListIndentation](https://reference.aspose.com/words/es/net/aspose.words.saving/txtlistindentation/) que permite especificar cómo se sangran los niveles de la lista al exportar a un formato de texto sin formato. Al trabajar con [TxtSaveOption](https://reference.aspose.com/words/es/net/aspose.words.saving/txtsaveoptions/), se proporciona la propiedad [ListIndentation](https://reference.aspose.com/words/es/net/aspose.words.saving/txtsaveoptions/listindentation/) para especificar el carácter que se usará para sangrar los niveles de la lista y contar el número que especifica cuántos caracteres usar como sangría por nivel de lista.
 
 El valor predeterminado para la propiedad de carácter es '\0', lo que indica que no hay sangría. Para la propiedad de recuento, el valor predeterminado es 0, lo que significa que no hay sangría.
 

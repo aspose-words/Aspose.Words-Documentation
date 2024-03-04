@@ -9,7 +9,7 @@ weight: 310
 url: /it/net/working-with-charts/
 ---
 
-Il nuovo metodo [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) è stato aggiunto alla classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Vediamo quindi come inserire un semplice istogramma all'interno del documento utilizzando il metodo [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/).
+Il nuovo metodo [InsertChart](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertchart/) è stato aggiunto alla classe [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/). Vediamo quindi come inserire un semplice istogramma all'interno del documento utilizzando il metodo [InsertChart](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertchart/).
 
 ## Come inserire un grafico
 
@@ -78,7 +78,7 @@ Il codice genera i seguenti risultati:
 
 ## Come lavorare con ChartSeriesCollection di grafici
 
-Diamo un'occhiata alla raccolta [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/). Tutte le serie di grafici sono disponibili tramite la raccolta [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/), che è **IEnumerable**:
+Diamo un'occhiata alla raccolta [ChartSeries](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartseries/). Tutte le serie di grafici sono disponibili tramite la raccolta [chart.Series](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chart/series/), che è **IEnumerable**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
@@ -95,7 +95,7 @@ Si prega di vedere il risultato qui sotto:
 ![line-chart-chartseries-aspose-words-net](/words/net/working-with-charts/working-with-charts-7.png)
 
 
-Tutti i singoli [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) hanno opzioni [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) predefinite, prova a utilizzare il seguente codice per modificarle:
+Tutti i singoli [ChartSeries](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartseries/) hanno opzioni [ChartDataPoint](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartdatapoint/) predefinite, prova a utilizzare il seguente codice per modificarle:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
@@ -105,7 +105,7 @@ Si prega di vedere il risultato qui sotto:
 
 ## Come lavorare con il singolo ChartDataPoint di un `ChartSeries`
 
-Utilizzando [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) puoi personalizzare la formattazione di un singolo punto dati della serie di grafici:
+Utilizzando [ChartDataPoint](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartdatapoint/) puoi personalizzare la formattazione di un singolo punto dati della serie di grafici:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
@@ -115,7 +115,7 @@ Si prega di vedere il risultato qui sotto:
 
 ## Come lavorare con ChartDataLabel di una singola ChartSeries
 
-Utilizzando [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) è possibile specificare la formattazione di una singola etichetta dati della serie di grafici, come mostrare/nascondere LegendKey, CategoryName, SeriesName, Value ecc.:
+Utilizzando [ChartDataLabel](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartdatalabel/) è possibile specificare la formattazione di una singola etichetta dati della serie di grafici, come mostrare/nascondere LegendKey, CategoryName, SeriesName, Value ecc.:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
@@ -125,7 +125,7 @@ Si prega di vedere il risultato qui sotto:
 
 ## Come definire le opzioni predefinite per ChartDataLabels di ChartSeries
 
-La classe [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) definisce le proprietà che possono essere utilizzate per impostare le opzioni predefinite per **ChartDataLabels** per Chart **Series**. Queste proprietà includono ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue ecc.:
+La classe [ChartDataLabelCollection](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartdatalabelcollection/) definisce le proprietà che possono essere utilizzate per impostare le opzioni predefinite per **ChartDataLabels** per Chart **Series**. Queste proprietà includono ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue ecc.:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
 
@@ -135,7 +135,7 @@ Si prega di vedere il risultato qui sotto:
 
 ## Come formattare il numero dell'etichetta dei dati del grafico
 
-Utilizzando [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) è possibile specificare la formattazione numerica di una singola etichetta dati del grafico.
+Utilizzando [NumberFormat](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) è possibile specificare la formattazione numerica di una singola etichetta dati del grafico.
 
 Il seguente esempio di codice mostra come formattare un numero dell'etichetta dati:
 
@@ -143,7 +143,7 @@ Il seguente esempio di codice mostra come formattare un numero dell'etichetta da
 
 ## Come impostare le proprietà dell'asse del grafico
 
-Se desideri lavorare con l'asse del grafico, il ridimensionamento e le unità di visualizzazione per l'asse dei valori, utilizza le classi [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/) e [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/).
+Se desideri lavorare con l'asse del grafico, il ridimensionamento e le unità di visualizzazione per l'asse dei valori, utilizza le classi [ChartAxis](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/axisdisplayunit/) e [AxisScaling](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/axisscaling/).
 
 Il seguente esempio di codice mostra come definire le proprietà degli assi X e Y:
 
@@ -185,7 +185,7 @@ L'esempio di codice seguente mostra come nascondere l'asse Y del grafico:
 
 ### Come allineare l'etichetta del grafico
 
-Se desideri impostare un allineamento del testo per le etichette su più righe, puoi semplicemente farlo impostando il valore della proprietà [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Allineamento**.
+Se desideri impostare un allineamento del testo per le etichette su più righe, puoi semplicemente farlo impostando il valore della proprietà [TickLabels](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Allineamento**.
 
 L'esempio di codice seguente mostra come selezionare l'allineamento dell'etichetta:
 

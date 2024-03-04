@@ -50,7 +50,7 @@ Saldırgan, hizmetin belgeyi işlemek için kullandığı sürenin uzunluğuna b
 
 ## Güvenlik Sorunlarının Çözümleri
 
-Yukarıda açıklanan sorunları çözmek ve web uygulamalarının güvenliğini artırmak için [IResourceLoadingCallback](https://reference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback/)'i kullanarak harici kaynakların yüklenmesini kontrol edebilir veya devre dışı bırakabilirsiniz.
+Yukarıda açıklanan sorunları çözmek ve web uygulamalarının güvenliğini artırmak için [IResourceLoadingCallback](https://reference.aspose.com/words/tr/net/aspose.words.loading/iresourceloadingcallback/)'i kullanarak harici kaynakların yüklenmesini kontrol edebilir veya devre dışı bırakabilirsiniz.
 
 Aşağıdaki kod örneği, harici görüntülerin yüklenmesinin nasıl devre dışı bırakılacağını gösterir:
 

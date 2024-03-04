@@ -11,7 +11,7 @@ url: /fr/net/convert-between-measurement-units/
 
 La plupart des propriétés d'objet fournies dans le Aspose.Words API qui représentent certaines mesures, telles que la largeur ou la hauteur, les marges et diverses distances, acceptent des valeurs en points, où 1 pouce équivaut à 72 points. Parfois, cela n’est pas pratique et les points doivent être convertis en d’autres unités.
 
-Aspose.Words fournit la classe [ConvertUtil](https://reference.aspose.com/words/net/aspose.words/convertutil/) qui fournit des fonctions d'assistance pour convertir entre différentes unités de mesure. Il permet de convertir:
+Aspose.Words fournit la classe [ConvertUtil](https://reference.aspose.com/words/fr/net/aspose.words/convertutil/) qui fournit des fonctions d'assistance pour convertir entre différentes unités de mesure. Il permet de convertir:
 
 - pouces, pixels et millimètres en points
 - pointe vers les pouces et les pixels

@@ -24,7 +24,7 @@ Aspose.Words 现在允许用户使用 PDF/A-1、PDF/A-2 和 PDF/A-4 格式以及
 * PDF/A-4 采用修订后的一致性级别：常规 PDF/A-4 一致性相当于以前版本的 U 级一致性，并且删除了 A 级一致性
 * PDF/UA-1 内容应根据 ISO 32000-1: 2008 进行标记和标准化
 
-PDF/A 是 PDF 的 ISO 标准化版本，旨在用于电子文档的归档和长期存储。同时，PDF/UA 是 PDF 的另一个 ISO 标准化版本，旨在确保使用辅助技术的残疾人士的可访问性。要指定符合 PDF 标准的级别，请使用 [Compliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/compliance/) 属性。由于存储条件的原因，PDF/A 文档必须嵌入所有字体并禁用加密，而 PDF/UA 只能嵌入所有字体。
+PDF/A 是 PDF 的 ISO 标准化版本，旨在用于电子文档的归档和长期存储。同时，PDF/UA 是 PDF 的另一个 ISO 标准化版本，旨在确保使用辅助技术的残疾人士的可访问性。要指定符合 PDF 标准的级别，请使用 [Compliance](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/compliance/) 属性。由于存储条件的原因，PDF/A 文档必须嵌入所有字体并禁用加密，而 PDF/UA 只能嵌入所有字体。
 
 在本节中，我们将仔细研究如何使用 PDF/A 或 PDF/UA-1 文档。
 

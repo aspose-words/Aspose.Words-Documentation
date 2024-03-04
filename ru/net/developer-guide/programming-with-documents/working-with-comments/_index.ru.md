@@ -17,14 +17,14 @@ url: /ru/net/working-with-comments/
 
 {{% /alert %}}
 
-Aspose.Words позволяет пользователям работать с комментариями — комментарии в документе Aspose.Words представлены классом [Comment](https://reference.aspose.com/words/net/aspose.words/comment/). Также используйте классы [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/), чтобы указать область текста, которая должна быть связана с комментарием.
+Aspose.Words позволяет пользователям работать с комментариями — комментарии в документе Aspose.Words представлены классом [Comment](https://reference.aspose.com/words/ru/net/aspose.words/comment/). Также используйте классы [CommentRangeStart](https://reference.aspose.com/words/ru/net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/ru/net/aspose.words/commentrangeend/), чтобы указать область текста, которая должна быть связана с комментарием.
 
 ## Добавить комментарий
 
 Aspose.Words позволяет добавлять комментарии несколькими способами:
 
-1. Использование класса [Comment](https://reference.aspose.com/words/net/aspose.words/comment/)
-2. Использование классов [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)
+1. Использование класса [Comment](https://reference.aspose.com/words/ru/net/aspose.words/comment/)
+2. Использование классов [CommentRangeStart](https://reference.aspose.com/words/ru/net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/ru/net/aspose.words/commentrangeend/)
 
 В следующем примере кода показано, как добавить комментарий к абзацу с помощью класса **Comment**:
 
@@ -45,11 +45,11 @@ Aspose.Words позволяет добавлять комментарии нес
 
 ### Как извлечь или удалить комментарии
 
-Код в этом примере на самом деле довольно прост, и все методы основаны на одном и том же подходе. Комментарий в документе Word представлен объектом [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) в объектной модели документа Aspose.Words. Чтобы собрать все комментарии в документе, используйте метод [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) с первым параметром, равным [NodeType.Comment](https://reference.aspose.com/words/net/aspose.words/nodetype/). Убедитесь, что для второго параметра метода **GetChildNodes** установлено значение true: это заставляет **GetChildNodes** рекурсивно выбирать из всех дочерних узлов, а не только собирая ближайших детей.
+Код в этом примере на самом деле довольно прост, и все методы основаны на одном и том же подходе. Комментарий в документе Word представлен объектом [Comment](https://reference.aspose.com/words/ru/net/aspose.words/comment/) в объектной модели документа Aspose.Words. Чтобы собрать все комментарии в документе, используйте метод [GetChildNodes](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/getchildnodes/) с первым параметром, равным [NodeType.Comment](https://reference.aspose.com/words/ru/net/aspose.words/nodetype/). Убедитесь, что для второго параметра метода **GetChildNodes** установлено значение true: это заставляет **GetChildNodes** рекурсивно выбирать из всех дочерних узлов, а не только собирая ближайших детей.
 
 Чтобы проиллюстрировать, как извлекать и удалять комментарии из документа, мы выполним следующие шаги:
 
-1. Откройте документ Word, используя класс [Document](https://reference.aspose.com/words/net/aspose.words/document/)
+1. Откройте документ Word, используя класс [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/)
 2. Собрать все комментарии из документа в коллекцию
 3. Чтобы извлечь комментарии:
   1. Просмотрите коллекцию с помощью оператора foreach
@@ -80,7 +80,7 @@ Aspose.Words позволяет добавлять комментарии нес
 
 ### Как удалить комментарии
 
-Если вы удаляете все комментарии, нет необходимости перемещаться по коллекции, удаляя комментарии один за другим. Вы можете удалить их, вызвав метод [Clear](https://reference.aspose.com/words/net/aspose.words/nodecollection/clear/) в коллекции комментариев.
+Если вы удаляете все комментарии, нет необходимости перемещаться по коллекции, удаляя комментарии один за другим. Вы можете удалить их, вызвав метод [Clear](https://reference.aspose.com/words/ru/net/aspose.words/nodecollection/clear/) в коллекции комментариев.
 
 В следующем примере кода показано, как удалить все комментарии в документе:
 
@@ -114,9 +114,9 @@ Aspose.Words позволяет добавлять комментарии нес
 
 ## Добавить или удалить ответ на комментарий
 
-Метод [AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) добавляет ответ на этот комментарий. Обратите внимание, что из-за существующих ограничений Office Microsoft в документе разрешен только 1 уровень ответов. Исключение типа *InvalidOperationException* будет вызвано, если этот метод вызывается для существующего комментария ответа.
+Метод [AddReply](https://reference.aspose.com/words/ru/net/aspose.words/comment/addreply/) добавляет ответ на этот комментарий. Обратите внимание, что из-за существующих ограничений Office Microsoft в документе разрешен только 1 уровень ответов. Исключение типа *InvalidOperationException* будет вызвано, если этот метод вызывается для существующего комментария ответа.
 
-Вы можете использовать метод [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/), чтобы удалить указанный ответ на этот комментарий.
+Вы можете использовать метод [RemoveReply](https://reference.aspose.com/words/ru/net/aspose.words/comment/removereply/), чтобы удалить указанный ответ на этот комментарий.
 
 В следующем примере кода показано, как добавить ответ на комментарий и удалить ответ на комментарий:
 
@@ -124,7 +124,7 @@ Aspose.Words позволяет добавлять комментарии нес
 
 ## Прочитать ответ на комментарий
 
-Свойство [Replies](https://reference.aspose.com/words/net/aspose.words/comment/replies/) возвращает коллекцию объектов [Comment](https://reference.aspose.com/words/net/aspose.words/comment/), которые являются непосредственными дочерними элементами указанного комментария.
+Свойство [Replies](https://reference.aspose.com/words/ru/net/aspose.words/comment/replies/) возвращает коллекцию объектов [Comment](https://reference.aspose.com/words/ru/net/aspose.words/comment/), которые являются непосредственными дочерними элементами указанного комментария.
 
 В следующем примере кода показано, как перебирать ответы на комментарии и разрешать их:
 

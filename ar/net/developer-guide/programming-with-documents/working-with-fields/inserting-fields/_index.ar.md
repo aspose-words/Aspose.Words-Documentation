@@ -11,15 +11,15 @@ url: /ar/net/inserting-fields/
 
 هناك عدة طرق مختلفة لإدراج الحقول في المستند:
 
-* باستخدام [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
-* باستخدام [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
+* باستخدام [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/)
+* باستخدام [FieldBuilder](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldbuilder/)
 * باستخدام [Aspose.Words Document Object Model (DOM)](/words/ar/net/aspose-words-document-object-model/)
 
 في هذه المقالة، سننظر في كل طريقة بمزيد من التفصيل ونحلل كيفية إدراج حقول معينة باستخدام هذه الخيارات.
 
 ## إدراج الحقول في مستند باستخدام DocumentBuilder
 
-في Aspose.Words يتم استخدام طريقة [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) لإدراج حقول جديدة في المستند. تقبل المعلمة الأولى رمز الحقل الكامل للحقل المراد إدراجه. المعلمة الثانية اختيارية وتسمح بتعيين نتيجة الحقل يدويًا. إذا لم يتم توفير ذلك، فسيتم تحديث الحقل تلقائيًا. يمكنك تمرير قيمة خالية أو فارغة إلى هذه المعلمة لإدراج حقل بقيمة حقل فارغة. إذا لم تكن متأكدًا من بناء جملة رمز الحقل المحدد، فقم بإنشاء الحقل في Microsoft Word أولاً ثم قم بالتبديل لرؤية رمز الحقل الخاص به.
+في Aspose.Words يتم استخدام طريقة [InsertField](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertfield/) لإدراج حقول جديدة في المستند. تقبل المعلمة الأولى رمز الحقل الكامل للحقل المراد إدراجه. المعلمة الثانية اختيارية وتسمح بتعيين نتيجة الحقل يدويًا. إذا لم يتم توفير ذلك، فسيتم تحديث الحقل تلقائيًا. يمكنك تمرير قيمة خالية أو فارغة إلى هذه المعلمة لإدراج حقل بقيمة حقل فارغة. إذا لم تكن متأكدًا من بناء جملة رمز الحقل المحدد، فقم بإنشاء الحقل في Microsoft Word أولاً ثم قم بالتبديل لرؤية رمز الحقل الخاص به.
 
 {{% alert color="primary" %}}
 
@@ -39,7 +39,7 @@ url: /ar/net/inserting-fields/
 
 ### حدد اللغة على مستوى الحقل
 
-معرف اللغة هو اختصار رقمي دولي قياسي للغة في بلد ما أو منطقة جغرافية ما. باستخدام Aspose.Words، يمكنك تحديد الإعدادات المحلية على مستوى الحقل باستخدام خاصية [LocaleId](https://reference.aspose.com/words/net/aspose.words.fields/field/localeid/)، التي تحصل على معرف الإعدادات المحلية للحقل أو تقوم بتعيينه.
+معرف اللغة هو اختصار رقمي دولي قياسي للغة في بلد ما أو منطقة جغرافية ما. باستخدام Aspose.Words، يمكنك تحديد الإعدادات المحلية على مستوى الحقل باستخدام خاصية [LocaleId](https://reference.aspose.com/words/ar/net/aspose.words.fields/field/localeid/)، التي تحصل على معرف الإعدادات المحلية للحقل أو تقوم بتعيينه.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخدام هذا الخيار:
 
@@ -47,14 +47,14 @@ url: /ar/net/inserting-fields/
 
 ### قم بإدراج حقل غير مكتوب/فارغ
 
-إذا كنت تريد إدراج حقول غير مكتوبة/فارغة ({}) تمامًا كما يسمح Microsoft Word، فيمكنك استخدام أسلوب [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) مع المعلمة [FieldType.FieldNone](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/). لإدراج حقل في مستند Word، يمكنك الضغط على مجموعة المفاتيح "Ctrl + F9".
+إذا كنت تريد إدراج حقول غير مكتوبة/فارغة ({}) تمامًا كما يسمح Microsoft Word، فيمكنك استخدام أسلوب [InsertField](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertfield/) مع المعلمة [FieldType.FieldNone](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldtype/). لإدراج حقل في مستند Word، يمكنك الضغط على مجموعة المفاتيح "Ctrl + F9".
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج حقل فارغ في المستند:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
 
 ## إدراج الحقول في مستند باستخدام FieldBuilder
-الطريقة البديلة لإدراج الحقول في Aspose.Words هي فئة [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/). يوفر واجهة سلسة لتحديد مفاتيح الحقول وقيم الوسيطات كنص أو عقد أو حتى حقول متداخلة.
+الطريقة البديلة لإدراج الحقول في Aspose.Words هي فئة [FieldBuilder](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldbuilder/). يوفر واجهة سلسة لتحديد مفاتيح الحقول وقيم الوسيطات كنص أو عقد أو حتى حقول متداخلة.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج حقل في مستند باستخدام **FieldBuilder**:
 
@@ -66,7 +66,7 @@ url: /ar/net/inserting-fields/
 
 ### إدراج حقل دمج في مستند باستخدام DOM
 
-يمكن تمثيل حقل `MERGEFIELD` في مستند Word بواسطة فئة [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/). يمكنك استخدام فئة **FieldMergeField** لتنفيذ العمليات التالية:
+يمكن تمثيل حقل `MERGEFIELD` في مستند Word بواسطة فئة [FieldMergeField](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldmergefield/). يمكنك استخدام فئة **FieldMergeField** لتنفيذ العمليات التالية:
 
 - تحديد اسم حقل الدمج
 - تحديد تنسيق حقل الدمج
@@ -76,7 +76,7 @@ url: /ar/net/inserting-fields/
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، راجع فئة [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/) API.
+لمزيد من التفاصيل، راجع فئة [FieldMergeField](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldmergefield/) API.
 
 {{% /alert %}}
 
@@ -86,7 +86,7 @@ url: /ar/net/inserting-fields/
 
 ### إدراج حقل Mail Merge `ADDRESSBLOCK` في مستند باستخدام DOM
 
-يتم استخدام حقل `ADDRESSBLOCK` لإدراج كتلة عنوان mail merge في مستند Word. يمكن تمثيل حقل `ADDRESSBLOCK` في مستند Word بواسطة فئة [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). يمكنك استخدام فئة **FieldAddressBlock** لإجراء العمليات التالية:
+يتم استخدام حقل `ADDRESSBLOCK` لإدراج كتلة عنوان mail merge في مستند Word. يمكن تمثيل حقل `ADDRESSBLOCK` في مستند Word بواسطة فئة [FieldAddressBlock](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldaddressblock/). يمكنك استخدام فئة **FieldAddressBlock** لإجراء العمليات التالية:
 
 - حدد ما إذا كنت تريد تضمين اسم البلد/المنطقة في الحقل
 - حدد ما إذا كان سيتم تنسيق العنوان وفقًا لبلد/منطقة المستلم كما هو محدد بواسطة POST*CODE (الاتحاد البريدي العالمي 2006)
@@ -96,7 +96,7 @@ url: /ar/net/inserting-fields/
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، راجع فئة [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) API.
+لمزيد من التفاصيل، راجع فئة [FieldAddressBlock](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldaddressblock/) API.
 
 {{% /alert %}}
 
@@ -106,7 +106,7 @@ url: /ar/net/inserting-fields/
 
 ### إدراج حقل `ADVANCE` في مستند دون استخدام DocumentBuilder
 
-يتم استخدام حقل `ADVANCE` لإزاحة النص اللاحق داخل سطر إلى اليسار أو اليمين أو لأعلى أو لأسفل. يمكن تمثيل حقل `ADVANCE` في مستند Word بواسطة فئة [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/). يمكنك استخدام فئة **FieldAdvance** لتنفيذ العمليات التالية:
+يتم استخدام حقل `ADVANCE` لإزاحة النص اللاحق داخل سطر إلى اليسار أو اليمين أو لأعلى أو لأسفل. يمكن تمثيل حقل `ADVANCE` في مستند Word بواسطة فئة [FieldAdvance](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldadvance/). يمكنك استخدام فئة **FieldAdvance** لتنفيذ العمليات التالية:
 
 - تحديد عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل عموديًا من الحافة العلوية للصفحة
 - تحديد عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص
@@ -114,7 +114,7 @@ url: /ar/net/inserting-fields/
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، راجع فئة [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/) API.
+لمزيد من التفاصيل، راجع فئة [FieldAdvance](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldadvance/) API.
 
 {{% /alert %}}
 
@@ -124,7 +124,7 @@ url: /ar/net/inserting-fields/
 
 ### إدراج حقل `ASK` في مستند دون استخدام DocumentBuilder
 
-يتم استخدام حقل `ASK` لمطالبة المستخدم بتعيين نص لإشارة مرجعية في مستند Word. يمكن تمثيل حقل `ASK` في مستند Word بواسطة فئة [FieldAsk](https://reference.aspose.com/words/net/aspose.words.fields/fieldask/). يمكنك استخدام فئة **FieldAsk** لتنفيذ العمليات التالية:
+يتم استخدام حقل `ASK` لمطالبة المستخدم بتعيين نص لإشارة مرجعية في مستند Word. يمكن تمثيل حقل `ASK` في مستند Word بواسطة فئة [FieldAsk](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldask/). يمكنك استخدام فئة **FieldAsk** لتنفيذ العمليات التالية:
 
 - حدد اسم الإشارة المرجعية
 - تحديد استجابة المستخدم الافتراضية (القيمة الأولية الموجودة في نافذة المطالبة)
@@ -133,7 +133,7 @@ url: /ar/net/inserting-fields/
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، راجع فئة [FieldAsk](https://reference.aspose.com/words/net/aspose.words.fields/fieldask/) API.
+لمزيد من التفاصيل، راجع فئة [FieldAsk](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldask/) API.
 
 {{% /alert %}}
 
@@ -143,13 +143,13 @@ url: /ar/net/inserting-fields/
 
 ### إدراج حقل `AUTHOR` في مستند دون استخدام DocumentBuilder
 
-يتم استخدام حقل `AUTHOR` لتحديد اسم مؤلف المستند من خصائص `Document`. يمكن تمثيل حقل `AUTHOR` في مستند Word بواسطة فئة [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/). يمكنك استخدام فئة **FieldAuthor** لإجراء العمليات التالية:
+يتم استخدام حقل `AUTHOR` لتحديد اسم مؤلف المستند من خصائص `Document`. يمكن تمثيل حقل `AUTHOR` في مستند Word بواسطة فئة [FieldAuthor](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldauthor/). يمكنك استخدام فئة **FieldAuthor** لإجراء العمليات التالية:
 
 - تحديد اسم مؤلف الوثيقة
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، راجع فئة [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/) API.
+لمزيد من التفاصيل، راجع فئة [FieldAuthor](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldauthor/) API.
 
 {{% /alert %}}
 
@@ -159,14 +159,14 @@ url: /ar/net/inserting-fields/
 
 ### إدراج حقل `INCLUDETEXT` في مستند دون استخدام DocumentBuilder
 
-يقوم حقل `INCLUDETEXT` بإدراج النص والرسومات الموجودة في المستند المسمى في رمز الحقل. يمكنك إدراج المستند بأكمله أو جزء من المستند المشار إليه بواسطة إشارة مرجعية. يتم تمثيل هذا الحقل في مستند Word بواسطة INCLUDETEXT. يمكنك استخدام فئة [FieldIncludeText](https://reference.aspose.com/words/net/aspose.words.fields/fieldincludetext/) لتنفيذ العمليات التالية:
+يقوم حقل `INCLUDETEXT` بإدراج النص والرسومات الموجودة في المستند المسمى في رمز الحقل. يمكنك إدراج المستند بأكمله أو جزء من المستند المشار إليه بواسطة إشارة مرجعية. يتم تمثيل هذا الحقل في مستند Word بواسطة INCLUDETEXT. يمكنك استخدام فئة [FieldIncludeText](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldincludetext/) لتنفيذ العمليات التالية:
 
 - حدد اسم الإشارة المرجعية للوثيقة المضمنة
 - تحديد موقع الوثيقة
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، راجع فئة [FieldIncludeText](https://reference.aspose.com/words/net/aspose.words.fields/fieldincludetext/) API.
+لمزيد من التفاصيل، راجع فئة [FieldIncludeText](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldincludetext/) API.
 
 {{% /alert %}}
 
@@ -182,7 +182,7 @@ url: /ar/net/inserting-fields/
 
 {{% alert color="primary" %}}
 
-لمزيد من التفاصيل، راجع فئة [FieldToa](https://reference.aspose.com/words/net/aspose.words.fields/fieldtoa/) API.
+لمزيد من التفاصيل، راجع فئة [FieldToa](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldtoa/) API.
 
 {{% /alert %}}
 

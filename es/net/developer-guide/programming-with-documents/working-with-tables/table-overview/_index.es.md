@@ -60,7 +60,7 @@ La imagen de arriba muestra que el documento contiene una tabla de varias filas,
 
 También vale la pena señalar que separar dos tablas consecutivas en un documento requiere al menos un párrafo vacío después de la tabla. Sin ese párrafo, los cuadros consecutivos se unirían en uno solo. Este comportamiento es idéntico tanto en Microsoft Word como en Aspose.Words.
 
-En Aspose.Words, todas las clases y propiedades relacionadas con las tablas están contenidas en el espacio de nombres [Aspose.Words.Tables](https://reference.aspose.com/words/net/aspose.words.tables/).
+En Aspose.Words, todas las clases y propiedades relacionadas con las tablas están contenidas en el espacio de nombres [Aspose.Words.Tables](https://reference.aspose.com/words/es/net/aspose.words.tables/).
 
 ## Ver también
 

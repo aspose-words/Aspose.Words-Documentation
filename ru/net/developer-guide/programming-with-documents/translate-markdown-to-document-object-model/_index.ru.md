@@ -23,7 +23,7 @@ url: /ru/net/translate-markdown-to-document-object-model/
 
 ## Общие принципы перевода
 
-Мы используем форматирование [Font](https://reference.aspose.com/words/net/aspose.words/font/) для строковых блоков. Если нет прямого соответствия функции Markdown в Aspose.Words DOM, мы используем стиль символов с именем, которое начинается с некоторых специальных слов.
+Мы используем форматирование [Font](https://reference.aspose.com/words/ru/net/aspose.words/font/) для строковых блоков. Если нет прямого соответствия функции Markdown в Aspose.Words DOM, мы используем стиль символов с именем, которое начинается с некоторых специальных слов.
 
 Для блоков-контейнеров мы используем наследование стилей для обозначения Markdown вложенных функций. В этом случае, даже если вложенных функций нет, мы также используем стили абзацев с именем, начинающимся с некоторых специальных слов.
 
@@ -31,7 +31,7 @@ url: /ru/net/translate-markdown-to-document-object-model/
 
 ## Встроенные блоки
 
-Мы используем форматирование [Font](https://reference.aspose.com/words/net/aspose.words/font/) при переводе **Bold**, *Italic* или ~~Зачеркивание~~ встроенных функций markdown.
+Мы используем форматирование [Font](https://reference.aspose.com/words/ru/net/aspose.words/font/) при переводе **Bold**, *Italic* или ~~Зачеркивание~~ встроенных функций markdown.
 
 |  Markdown функция |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -53,11 +53,11 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
-|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  Класс [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) |
+|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  Класс [FieldHyperlink](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldhyperlink/) |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
-|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  Класс [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) |
+|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  Класс [FieldHyperlink](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldhyperlink/) |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
-|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  Выпуск [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) года |
+|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  Выпуск [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/) года |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
 
 ## Контейнерные блоки
@@ -155,7 +155,7 @@ Aspose.Words также позволяет преобразовывать таб
 
 |  Markdown функция |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> `а | b`<br />`- | -`<br />`c | д` |  Классы [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
+|  `Table`<br /> `а | b`<br />`- | -`<br />`c | д` |  Классы [Table](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/ru/net/aspose.words.tables/cell/) |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

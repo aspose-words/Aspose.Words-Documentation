@@ -11,7 +11,7 @@ url: /fr/net/applying-formatting/
 
 Chaque élément d'un tableau peut être appliqué avec un formatage différent. Par exemple, le formatage du tableau sera appliqué à l'ensemble du tableau, le formatage des lignes à des lignes particulières uniquement, le formatage des cellules à certaines cellules uniquement.
 
-Aspose.Words fournit un API riche pour récupérer et appliquer le formatage à un tableau. Vous pouvez utiliser les nœuds [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) et [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) pour définir le formatage.
+Aspose.Words fournit un API riche pour récupérer et appliquer le formatage à un tableau. Vous pouvez utiliser les nœuds [Table](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowformat/) et [CellFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/) pour définir le formatage.
 
 Dans cet article, nous expliquerons comment appliquer le formatage à différents nœuds de tableau et quels paramètres de formatage de tableau sont pris en charge par Aspose.Words.
 
@@ -21,11 +21,11 @@ Dans cette section, nous examinerons l'application du formatage à différents n
 
 ### Formatage au niveau du tableau
 
-Pour appliquer une mise en forme à un tableau, vous pouvez utiliser les propriétés disponibles sur le nœud **Table** correspondant à l'aide des classes [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/) et [TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/).
+Pour appliquer une mise en forme à un tableau, vous pouvez utiliser les propriétés disponibles sur le nœud **Table** correspondant à l'aide des classes [Table](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidth/) et [TableCollection](https://reference.aspose.com/words/fr/net/aspose.words.tables/tablecollection/).
 
 {{% alert color="primary" %}}
 
-Notez que le tableau doit comporter au moins une ligne avant que les propriétés du tableau puissent être appliquées. Cela signifie que lors de la construction d'un tableau avec le [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), ce formatage doit être effectué après le premier appel à [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/), ou après l'ajout de la première ligne au tableau, ou lorsque les nœuds sont insérés directement dans le DOM.
+Notez que le tableau doit comporter au moins une ligne avant que les propriétés du tableau puissent être appliquées. Cela signifie que lors de la construction d'un tableau avec le [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/), ce formatage doit être effectué après le premier appel à [InsertCell](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertcell/), ou après l'ajout de la première ligne au tableau, ou lorsque les nœuds sont insérés directement dans le DOM.
 
 {{% /alert %}}
 
@@ -60,7 +60,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ### Formatage au niveau des lignes
 
-Le formatage **Au niveau de la ligne** peut être contrôlé à l'aide des classes [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) et [RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/).
+Le formatage **Au niveau de la ligne** peut être contrôlé à l'aide des classes [Row](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowformat/) et [RowCollection](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowcollection/).
 
 {{% alert color="primary" %}}
 
@@ -84,11 +84,11 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ### Formatage au niveau des cellules
 
-Le formatage au niveau des cellules est contrôlé par les classes [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) et [CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/).
+Le formatage au niveau des cellules est contrôlé par les classes [Cell](https://reference.aspose.com/words/fr/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/) et [CellCollection](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellcollection/).
 
 {{% alert color="primary" %}}
 
-Notez qu'un **Cell** ne peut être qu'un nœud enfant d'un **Row**. En même temps, il doit y avoir au moins un [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) dans le **Cell** pour que le formatage puisse lui être appliqué.
+Notez qu'un **Cell** ne peut être qu'un nœud enfant d'un **Row**. En même temps, il doit y avoir au moins un [Paragraph](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/) dans le **Cell** pour que le formatage puisse lui être appliqué.
 
 En plus du **Paragraph**, vous pouvez également insérer un **Table** dans un **Cell**.
 
@@ -120,14 +120,14 @@ Le moyen le plus simple de définir la hauteur des lignes consiste à utiliser l
 
 Dans Aspose.Words, la hauteur des lignes du tableau est contrôlée par:
 
-- la propriété hauteur de ligne – [Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/)
-- la propriété de la règle de hauteur pour la ligne donnée – [HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/heightrule/)
+- la propriété hauteur de ligne – [Height](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowformat/height/)
+- la propriété de la règle de hauteur pour la ligne donnée – [HeightRule](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowformat/heightrule/)
 
 Dans le même temps, une hauteur différente peut être définie pour chaque rangée – cela vous permet de contrôler largement les paramètres de la table.
 
 {{% alert color="primary" %}}
 
-Les options de règle pour spécifier la hauteur d'un objet peuvent être définies à l'aide de l'énumération [HeightRule](https://reference.aspose.com/words/net/aspose.words/heightrule/).
+Les options de règle pour spécifier la hauteur d'un objet peuvent être définies à l'aide de l'énumération [HeightRule](https://reference.aspose.com/words/fr/net/aspose.words/heightrule/).
 
 {{% /alert %}}
 
@@ -168,11 +168,11 @@ Toutes les propriétés et méthodes décrites dans cet article sont liées au f
 
 La largeur souhaitée d'un tableau ou de cellules individuelles est définie via la propriété de largeur préférée, qui correspond à la taille à laquelle un élément s'efforce de s'adapter. Autrement dit, la largeur préférée peut être spécifiée pour l'ensemble du tableau ou pour des cellules individuelles. Dans certaines situations, il peut ne pas être possible d'ajuster exactement cette largeur, mais la largeur réelle sera proche de cette valeur dans la plupart des cas.
 
-Le type et la valeur de largeur préférée appropriés sont définis à l'aide des méthodes de la classe [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/):
+Le type et la valeur de largeur préférée appropriés sont définis à l'aide des méthodes de la classe [PreferredWidth](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidth/):
 
-* la méthode [Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/auto/) pour spécifier auto ou "aucune largeur préférée"
-* la méthode [FromPercent](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompercent/) pour spécifier une largeur en pourcentage
-* la méthode [FromPoints](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompoints/) pour préciser la largeur en points
+* la méthode [Auto](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidth/auto/) pour spécifier auto ou "aucune largeur préférée"
+* la méthode [FromPercent](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidth/frompercent/) pour spécifier une largeur en pourcentage
+* la méthode [FromPoints](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidth/frompoints/) pour préciser la largeur en points
 
 Les images ci-dessous montrent une représentation des *fonctionnalités de réglage de largeur préférées* dans Microsoft Word et de leurs propriétés correspondantes dans Aspose.Words.
 
@@ -190,7 +190,7 @@ Avant de pouvoir utiliser la largeur préférée dans un tableau, vous devez vou
 
 #### Spécifiez le tableau préféré ou la largeur de cellule
 
-Dans Aspose.Words, les largeurs des tableaux et des cellules sont définies à l'aide des propriétés [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) et [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/), avec des options disponibles dans l'énumération [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/):
+Dans Aspose.Words, les largeurs des tableaux et des cellules sont définies à l'aide des propriétés [Table.PreferredWidth](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/preferredwidth/) et [CellFormat.PreferredWidth](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/preferredwidth/), avec des options disponibles dans l'énumération [PreferredWidthType](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidthtype/):
 
 - **Auto**, ce qui équivaut à aucun ensemble de largeurs préférées
 - **Percent**, qui ajuste l'élément par rapport à l'espace disponible dans la taille de la fenêtre ou du conteneur, et recalcule la valeur lorsque la largeur disponible change
@@ -202,13 +202,13 @@ Par défaut, un tableau peut être décrit comme étant ajusté à 100 % de l'es
 
 {{% /alert %}}
 
-L'utilisation de la propriété [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) ajustera sa largeur préférée par rapport à son conteneur: page, colonne de texte ou cellule externe du tableau s'il s'agit d'un tableau imbriqué.
+L'utilisation de la propriété [Table.PreferredWidth](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/preferredwidth/) ajustera sa largeur préférée par rapport à son conteneur: page, colonne de texte ou cellule externe du tableau s'il s'agit d'un tableau imbriqué.
 
 L'exemple de code suivant montre comment configurer le tableau pour qu'il s'ajuste automatiquement à 50 % de la largeur de la page:
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
-L'utilisation de la propriété [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) sur une cellule donnée ajustera sa largeur préférée.
+L'utilisation de la propriété [CellFormat.PreferredWidth](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/preferredwidth/) sur une cellule donnée ajustera sa largeur préférée.
 
 L'exemple de code suivant montre comment définir les différents paramètres de largeur préférés:
 
@@ -216,7 +216,7 @@ L'exemple de code suivant montre comment définir les différents paramètres de
 
 #### Rechercher le type et la valeur de largeur préférés
 
-Vous pouvez utiliser les propriétés [Type](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/) et [Value](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/value/) pour trouver les détails de largeur préférés du tableau ou de la cellule souhaitée.
+Vous pouvez utiliser les propriétés [Type](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidth/type/) et [Value](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidth/value/) pour trouver les détails de largeur préférés du tableau ou de la cellule souhaitée.
 
 L'exemple de code suivant montre comment récupérer le type de largeur préféré d'une cellule de tableau:
 
@@ -230,7 +230,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ### Comment définir l'ajustement automatique
 
-La propriété [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) permet aux cellules d'un tableau de s'agrandir et de se réduire selon un critère sélectionné. Par exemple, vous pouvez utiliser l'option **Ajustement automatique à la fenêtre** pour ajuster le tableau à la largeur de la page et l'option **Ajustement automatique au contenu** pour permettre à chaque cellule de s'agrandir ou de se réduire en fonction de son contenu.
+La propriété [AllowAutoFit](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/allowautofit/) permet aux cellules d'un tableau de s'agrandir et de se réduire selon un critère sélectionné. Par exemple, vous pouvez utiliser l'option **Ajustement automatique à la fenêtre** pour ajuster le tableau à la largeur de la page et l'option **Ajustement automatique au contenu** pour permettre à chaque cellule de s'agrandir ou de se réduire en fonction de son contenu.
 
 {{% alert color="primary" %}}
 
@@ -238,7 +238,7 @@ De plus, la propriété **AllowAutoFit** peut être utilisée conjointement avec
 
 {{% /alert %}}
 
-Par défaut, Aspose.Words insère une nouvelle table en utilisant **Ajustement automatique à la fenêtre**. Le tableau sera dimensionné en fonction de la largeur de page disponible. Pour redimensionner un tableau, vous pouvez appeler la méthode [AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/). Cette méthode accepte une énumération [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/) qui spécifie le type d'ajustement automatique appliqué à la table.
+Par défaut, Aspose.Words insère une nouvelle table en utilisant **Ajustement automatique à la fenêtre**. Le tableau sera dimensionné en fonction de la largeur de page disponible. Pour redimensionner un tableau, vous pouvez appeler la méthode [AutoFit](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/autofit/). Cette méthode accepte une énumération [AutoFitBehavior](https://reference.aspose.com/words/fr/net/aspose.words.tables/autofitbehavior/) qui spécifie le type d'ajustement automatique appliqué à la table.
 
 Il est important de savoir que la méthode d’ajustement automatique est en réalité un raccourci qui applique simultanément différentes propriétés au tableau. Ce sont des propriétés qui donnent réellement au tableau le comportement observé. Nous discuterons de ces propriétés pour chaque option d’ajustement automatique.
 
@@ -298,7 +298,7 @@ Si l'ajustement automatique d'un tableau est désactivé et que des largeurs de 
 1. La propriété **Table.AllowAutoFit** est désactivée afin que les colonnes ne s'agrandissent pas ou ne se réduisent pas à leur contenu
 
 2. La largeur préférée de l'ensemble du tableau est supprimée de **Table.PreferredWidth**, **CellFormat.PreferredWidth** est supprimé de toutes les cellules du tableau
-3. Le résultat final est un tableau dont les largeurs de colonnes sont déterminées par la propriété [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) et dont les colonnes ne sont pas automatiquement redimensionnées lorsque l'utilisateur saisit du texte ou lorsque la page est redimensionnée
+3. Le résultat final est un tableau dont les largeurs de colonnes sont déterminées par la propriété [CellFormat.Width](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/width/) et dont les colonnes ne sont pas automatiquement redimensionnées lorsque l'utilisateur saisit du texte ou lorsque la page est redimensionnée
 
 {{% alert color="primary" %}}
 
@@ -318,7 +318,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ### Ordre de priorité lors du calcul de la largeur des cellules
 
-Aspose.Words permet aux utilisateurs de définir la largeur d'un tableau ou d'une cellule via plusieurs objets, y compris [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) – sa propriété [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) est en grande partie héritée des versions précédentes, cependant, elle reste utile pour simplifier la définition de la largeur des cellules.
+Aspose.Words permet aux utilisateurs de définir la largeur d'un tableau ou d'une cellule via plusieurs objets, y compris [CellFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/) – sa propriété [Width](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/width/) est en grande partie héritée des versions précédentes, cependant, elle reste utile pour simplifier la définition de la largeur des cellules.
 
 Il est important de savoir que la propriété **CellFormat.Width** fonctionne différemment selon laquelle des autres propriétés de largeur existe déjà dans le tableau.
 
@@ -326,9 +326,9 @@ Aspose.Words utilise l'ordre suivant pour calculer les largeurs de cellules:
 
 |  Commande |  Propriété |  Description |
 |  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) est déterminé |  Si **AutoFit** est activé:<br>- le tableau peut s'étendre au-delà de la largeur préférée pour s'adapter au contenu – il ne rétrécit généralement pas en dessous de la largeur préférée<br>- toute modification de la valeur **CellFormat.Width** est ignorée et la cellule s'adaptera à son contenu |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) avec une valeur de **Points** ou **Percent** |  **CellFormat.Width** est ignoré |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) avec une valeur de **Auto** |  La valeur de **CellFormat.Width** est copiée et devient la largeur préférée de la cellule (en points) |
+|  1      |  [AllowAutoFit](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/allowautofit/) est déterminé |  Si **AutoFit** est activé:<br>- le tableau peut s'étendre au-delà de la largeur préférée pour s'adapter au contenu – il ne rétrécit généralement pas en dessous de la largeur préférée<br>- toute modification de la valeur **CellFormat.Width** est ignorée et la cellule s'adaptera à son contenu |
+|  2      |  [PreferredWidthType](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidthtype/) avec une valeur de **Points** ou **Percent** |  **CellFormat.Width** est ignoré |
+|  3      |  [PreferredWidthType](https://reference.aspose.com/words/fr/net/aspose.words.tables/preferredwidthtype/) avec une valeur de **Auto** |  La valeur de **CellFormat.Width** est copiée et devient la largeur préférée de la cellule (en points) |
 
 {{% alert color="primary" %}}
 
@@ -344,7 +344,7 @@ Lors de la création d’une disposition de tableau fixe, spécifiez la largeur 
 
 ## Autoriser l'espacement entre les cellules
 
-Vous pouvez obtenir ou définir n'importe quel espace supplémentaire entre les cellules du tableau, similaire à l'option "Espacement des cellules" dans Microsoft Word. Cela peut être fait en utilisant la propriété [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/).
+Vous pouvez obtenir ou définir n'importe quel espace supplémentaire entre les cellules du tableau, similaire à l'option "Espacement des cellules" dans Microsoft Word. Cela peut être fait en utilisant la propriété [AllowCellSpacing](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/allowcellspacing/).
 
 Un exemple de la façon dont ces options sont appliquées à un tableau réel dans un document peut être vu dans l'image ci-dessous.
 
@@ -356,7 +356,7 @@ L'exemple de code suivant montre comment définir l'espacement entre les cellule
 
 ## Appliquer des bordures et un ombrage
 
-Les bordures et l'ombrage peuvent être appliqués soit à l'ensemble du tableau à l'aide de [Table.SetBorder](https://reference.aspose.com/words/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/net/aspose.words.tables/table/setborders/) et [Table.SetShading](https://reference.aspose.com/words/net/aspose.words.tables/table/setshading/), soit uniquement à des cellules spécifiques à l'aide de [CellFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/borders/) et [CellFormat.Shading](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/shading/). De plus, les bordures de lignes peuvent être définies à l'aide de [RowFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/borders/), mais l'ombrage ne peut pas être appliqué de cette manière.
+Les bordures et l'ombrage peuvent être appliqués soit à l'ensemble du tableau à l'aide de [Table.SetBorder](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/setborders/) et [Table.SetShading](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/setshading/), soit uniquement à des cellules spécifiques à l'aide de [CellFormat.Borders](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/borders/) et [CellFormat.Shading](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/shading/). De plus, les bordures de lignes peuvent être définies à l'aide de [RowFormat.Borders](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowformat/borders/), mais l'ombrage ne peut pas être appliqué de cette manière.
 
 Les images ci-dessous montrent les paramètres de bordure et d'ombre dans Microsoft Word et leurs propriétés correspondantes dans Aspose.Words.
 

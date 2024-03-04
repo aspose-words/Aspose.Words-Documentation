@@ -20,7 +20,7 @@ En este artículo, analizaremos qué opciones ofrece Aspose.Words para el posici
 
 ## Especificar la posición de la tabla en línea
 
-Puede establecer la posición de una tabla en línea utilizando Aspose.Words API y la propiedad [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/). Por lo tanto, puede ajustar la alineación de la tabla en relación con la página del documento.
+Puede establecer la posición de una tabla en línea utilizando Aspose.Words API y la propiedad [Alignment](https://reference.aspose.com/words/es/net/aspose.words.tables/table/alignment/). Por lo tanto, puede ajustar la alineación de la tabla en relación con la página del documento.
 
 El siguiente ejemplo de código muestra cómo establecer la posición de una tabla en línea:
 
@@ -28,9 +28,9 @@ El siguiente ejemplo de código muestra cómo establecer la posición de una tab
 
 ## Obtener alineación de mesa flotante
 
-Si el ajuste del texto de la tabla está configurado en **Around**, puede obtener la alineación horizontal y vertical de la tabla utilizando las propiedades [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) y [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/).
+Si el ajuste del texto de la tabla está configurado en **Around**, puede obtener la alineación horizontal y vertical de la tabla utilizando las propiedades [RelativeHorizontalAlignment](https://reference.aspose.com/words/es/net/aspose.words.tables/table/relativehorizontalalignment/) y [RelativeVerticalAlignment](https://reference.aspose.com/words/es/net/aspose.words.tables/table/relativeverticalalignment/).
 
-Con **otros tipos de ajuste de texto**, puede obtener la alineación de la tabla en línea utilizando la propiedad [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/).
+Con **otros tipos de ajuste de texto**, puede obtener la alineación de la tabla en línea utilizando la propiedad [Alignment](https://reference.aspose.com/words/es/net/aspose.words.tables/table/alignment/).
 
 El siguiente ejemplo de código muestra cómo obtener la alineación de la tabla:
 
@@ -40,13 +40,13 @@ El siguiente ejemplo de código muestra cómo obtener la alineación de la tabla
 
 La posición de una mesa flotante se determina mediante las siguientes propiedades:
 
-* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – un objeto para calcular el posicionamiento horizontal de una mesa flotante
-* [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – un objeto para calcular el posicionamiento vertical de una mesa flotante
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – posición absoluta de la mesa flotante horizontal
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – posición absoluta de la mesa flotante vertical
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – opción para habilitar/deshabilitar la superposición con otros objetos flotantes
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – alineación horizontal relativa de la mesa flotante.
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) – alineación vertical relativa de la mesa flotante.
+* [HorizontalAnchor](https://reference.aspose.com/words/es/net/aspose.words.tables/table/horizontalanchor/) – un objeto para calcular el posicionamiento horizontal de una mesa flotante
+* [VerticalAnchor](https://reference.aspose.com/words/es/net/aspose.words.tables/table/verticalanchor/) – un objeto para calcular el posicionamiento vertical de una mesa flotante
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/es/net/aspose.words.tables/table/absolutehorizontaldistance/) – posición absoluta de la mesa flotante horizontal
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/es/net/aspose.words.tables/table/absoluteverticaldistance/) – posición absoluta de la mesa flotante vertical
+* [AllowOverlap](https://reference.aspose.com/words/es/net/aspose.words.tables/table/allowoverlap/) – opción para habilitar/deshabilitar la superposición con otros objetos flotantes
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/es/net/aspose.words.tables/table/relativehorizontalalignment/) – alineación horizontal relativa de la mesa flotante.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/es/net/aspose.words.tables/table/relativeverticalalignment/) – alineación vertical relativa de la mesa flotante.
 
 El siguiente ejemplo de código muestra cómo obtener la posición de una tabla flotante:
 
@@ -66,10 +66,10 @@ El siguiente ejemplo de código muestra cómo establecer la posición de una tab
 
 Aspose.Words también brinda la oportunidad de conocer las distancias entre tablas y textos circundantes:
 
-- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) – el valor de la distancia desde arriba
-- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/) – el valor de la distancia de percepción
-- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) – valor de distancia a la derecha
-- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) – valor de distancia a la izquierda
+- [DistanceTop](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distancetop/) – el valor de la distancia desde arriba
+- [DistanceBottom](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distancebottom/) – el valor de la distancia de percepción
+- [DistanceRight](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distanceright/) – valor de distancia a la derecha
+- [DistanceLeft](https://reference.aspose.com/words/es/net/aspose.words.tables/table/distanceleft/) – valor de distancia a la izquierda
 
 El siguiente ejemplo de código muestra cómo obtener la distancia entre una tabla y el texto que la rodea:
 

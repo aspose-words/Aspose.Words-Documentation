@@ -11,7 +11,7 @@ url: /it/net/convert-between-measurement-units/
 
 La maggior parte delle proprietà dell'oggetto fornite nel Aspose.Words API che rappresentano alcune misure, come larghezza o altezza, margini e varie distanze, accettano valori in punti, dove 1 pollice equivale a 72 punti. A volte questo non è conveniente e i punti devono essere convertiti in altre unità.
 
-Aspose.Words fornisce la classe [ConvertUtil](https://reference.aspose.com/words/net/aspose.words/convertutil/) che fornisce funzioni di supporto per la conversione tra varie unità di misura. Permette di convertire:
+Aspose.Words fornisce la classe [ConvertUtil](https://reference.aspose.com/words/it/net/aspose.words/convertutil/) che fornisce funzioni di supporto per la conversione tra varie unità di misura. Permette di convertire:
 
 - pollici, pixel e millimetri in punti
 - indica pollici e pixel

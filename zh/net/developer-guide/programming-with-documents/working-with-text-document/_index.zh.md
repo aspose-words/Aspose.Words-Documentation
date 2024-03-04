@@ -13,7 +13,7 @@ url: /zh/net/working-with-text-document/
 
 ## 添加双向标记
 
-您可以使用 [AddBidiMarks](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/addbidimarks/) 属性指定以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记。 Aspose.Words 在文本中的每个双向运行之前插入 Unicode 字符"从右到左标记"(U+200F)。当导出为纯文本格式时，此选项对应于 MS Word 文件转换对话框中的"添加双向标记"选项。请注意，仅当 MS Word 中添加了任何阿拉伯语或希伯来语编辑语言时，它才会出现在对话中。
+您可以使用 [AddBidiMarks](https://reference.aspose.com/words/zh/net/aspose.words.saving/txtsaveoptions/addbidimarks/) 属性指定以纯文本格式导出时是否在每次 BiDi 运行之前添加双向标记。 Aspose.Words 在文本中的每个双向运行之前插入 Unicode 字符"从右到左标记"(U+200F)。当导出为纯文本格式时，此选项对应于 MS Word 文件转换对话框中的"添加双向标记"选项。请注意，仅当 MS Word 中添加了任何阿拉伯语或希伯来语编辑语言时，它才会出现在对话中。
 
 以下代码示例显示如何使用 **AddBidiMarks** 属性。该属性的默认值为 *false*：
 
@@ -21,7 +21,7 @@ url: /zh/net/working-with-text-document/
 
 ## 在加载 TXT 期间识别列表项
 
-Aspose.Words 可以将文本文件的列表项作为列表编号或纯文本导入到其文档对象模型中。 [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) 属性允许指定从纯文本格式导入文档时如何识别编号列表项：
+Aspose.Words 可以将文本文件的列表项作为列表编号或纯文本导入到其文档对象模型中。 [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/zh/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) 属性允许指定从纯文本格式导入文档时如何识别编号列表项：
 
 * 如果此选项设置为 *true*，空格也用作列表编号分隔符：阿拉伯样式编号 (1.、1.1.2.) 的列表识别算法同时使用空格和点 (".") 符号。
 
@@ -41,7 +41,7 @@ Aspose.Words 可以将文本文件的列表项作为列表编号或纯文本导�
 
 ## 检测文档文本方向
 
-Aspose.Words 在 [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) 类中提供了 [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/documentdirection/) 属性来检测文档中的文本方向（RTL/LTR）。此属性设置或获取 [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/documentdirection/) 枚举中提供的文档文本方向。默认值保留为 *right*。
+Aspose.Words 在 [TxtLoadOptions](https://reference.aspose.com/words/zh/net/aspose.words.loading/txtloadoptions/) 类中提供了 [DocumentDirection](https://reference.aspose.com/words/zh/net/aspose.words.loading/txtloadoptions/documentdirection/) 属性来检测文档中的文本方向（RTL/LTR）。此属性设置或获取 [DocumentDirection](https://reference.aspose.com/words/zh/net/aspose.words.loading/documentdirection/) 枚举中提供的文档文本方向。默认值保留为 *right*。
 
 以下代码示例展示了如何在导入 TXT 文件时检测文档的文本方向：
 
@@ -49,7 +49,7 @@ Aspose.Words 在 [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.
 
 ## 导出输出 TXT 中的页眉和页脚
 
-如果要导出输出 TXT 文档中的页眉和页脚，可以使用 [ExportHeadersFootersMode](https://reference.aspose.com/words/net/aspose.words.saving/exportheadersfootersmode/) 属性。此属性指定将页眉和页脚导出为纯文本格式的方式。
+如果要导出输出 TXT 文档中的页眉和页脚，可以使用 [ExportHeadersFootersMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/exportheadersfootersmode/) 属性。此属性指定将页眉和页脚导出为纯文本格式的方式。
 
 以下代码示例演示如何将页眉和页脚导出为纯文本格式：
 
@@ -57,7 +57,7 @@ Aspose.Words 在 [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.
 
 ## 输出 TXT 中的导出列表缩进
 
-Aspose.Words 引入了 [TxtListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtlistindentation/) 类，该类允许指定在导出为纯文本格式时如何缩进列表级别。使用 [TxtSaveOption](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/) 时，提供 [ListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/listindentation/) 属性来指定用于缩进列表级别的字符，并指定用于每一列表级别缩进的字符数。
+Aspose.Words 引入了 [TxtListIndentation](https://reference.aspose.com/words/zh/net/aspose.words.saving/txtlistindentation/) 类，该类允许指定在导出为纯文本格式时如何缩进列表级别。使用 [TxtSaveOption](https://reference.aspose.com/words/zh/net/aspose.words.saving/txtsaveoptions/) 时，提供 [ListIndentation](https://reference.aspose.com/words/zh/net/aspose.words.saving/txtsaveoptions/listindentation/) 属性来指定用于缩进列表级别的字符，并指定用于每一列表级别缩进的字符数。
 
 字符属性的默认值为"\0"，表示没有缩进。对于 count 属性，默认值为 0，表示不缩进。
 

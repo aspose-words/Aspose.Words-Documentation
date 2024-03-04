@@ -27,9 +27,9 @@ Aspose.Words 甚至可以加载 PDF 等复杂格式。这开辟了新的机会�
 
 ## 导入 PDF {#specify-load-options-when-importing-pdf} 时指定加载选项
 
-Aspose.Words 为您提供了 [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) 类，它可以更精确地控制 PDF 文档的加载方式。
+Aspose.Words 为您提供了 [PdfLoadOptions](https://reference.aspose.com/words/zh/net/aspose.words.loading/pdfloadoptions/) 类，它可以更精确地控制 PDF 文档的加载方式。
 
-大多数属性都会继承或重载 `LoadOptions` 类中已存在的属性。除此之外，还为 PDF 格式指定了许多属性。例如，您可以使用 [PageCount](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/pagecount/) 和 [PageIndex](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/pageindex/) 属性来定义要从 PDF 文档加载的页面范围，并使用 [SkipPdfImages](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/skippdfimages/) 属性来控制加载 PDF 时是否应跳过图像。另一个受支持的参数是 [Password](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/password/)，必须为 [受密码保护的文档](/words/net/protect-documents-and-parts-of-documents/) 提供该参数。
+大多数属性都会继承或重载 `LoadOptions` 类中已存在的属性。除此之外，还为 PDF 格式指定了许多属性。例如，您可以使用 [PageCount](https://reference.aspose.com/words/zh/net/aspose.words.loading/pdfloadoptions/pagecount/) 和 [PageIndex](https://reference.aspose.com/words/zh/net/aspose.words.loading/pdfloadoptions/pageindex/) 属性来定义要从 PDF 文档加载的页面范围，并使用 [SkipPdfImages](https://reference.aspose.com/words/zh/net/aspose.words.loading/pdfloadoptions/skippdfimages/) 属性来控制加载 PDF 时是否应跳过图像。另一个受支持的参数是 [Password](https://reference.aspose.com/words/zh/net/aspose.words.loading/loadoptions/password/)，必须为 [受密码保护的文档](/words/net/protect-documents-and-parts-of-documents/) 提供该参数。
 
 ## 支持的 PDF 内容 {#supported-pdf-content}
 

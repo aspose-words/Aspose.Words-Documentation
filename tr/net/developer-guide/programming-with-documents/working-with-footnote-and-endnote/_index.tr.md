@@ -13,9 +13,9 @@ Aspose.Words ayrıca dipnotlar ve sonnotlarla çalışmak için bazı sınıflar
 
 ## Son Not Ekle ve Numaralandırma Seçeneklerini Ayarla
 
-Word belgesine dipnot veya sonnot eklemek istiyorsanız lütfen [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/) yöntemini kullanın. Bu yöntem belgeye bir dipnot veya son not ekler.
+Word belgesine dipnot veya sonnot eklemek istiyorsanız lütfen [InsertFootnote](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertfootnote/) yöntemini kullanın. Bu yöntem belgeye bir dipnot veya son not ekler.
 
-[EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) ve [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) sınıfları, dipnot ve sonnot için numaralandırma seçeneklerini temsil eder.
+[EndnoteOptions](https://reference.aspose.com/words/tr/net/aspose.words.notes/endnoteoptions/) ve [FootnoteOptions](https://reference.aspose.com/words/tr/net/aspose.words.notes/footnoteoptions/) sınıfları, dipnot ve sonnot için numaralandırma seçeneklerini temsil eder.
 
 Aşağıdaki kod örneği, belgeye son notun nasıl ekleneceğini ve numaralandırma seçeneklerinin nasıl ayarlanacağını gösterir:
 
@@ -23,7 +23,7 @@ Aşağıdaki kod örneği, belgeye son notun nasıl ekleneceğini ve numaraland�
 
 ## Dipnot Düzeni Sütunlarının Sayısını Ayarla
 
-[Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/) özelliğini kullanarak dipnot düzeni sütunlarının sayısını ayarlayabilirsiniz. Bu özellik 0 değerine sahipse dipnot alanı, görüntülenen sayfadaki sütun sayısına göre belirli sayıda sütunla biçimlendirilir.
+[Columns](https://reference.aspose.com/words/tr/net/aspose.words.notes/footnoteoptions/columns/) özelliğini kullanarak dipnot düzeni sütunlarının sayısını ayarlayabilirsiniz. Bu özellik 0 değerine sahipse dipnot alanı, görüntülenen sayfadaki sütun sayısına göre belirli sayıda sütunla biçimlendirilir.
 
 Aşağıdaki kod örneği, dipnot düzeni için sütun sayısının nasıl ayarlanacağını gösterir:
 

@@ -17,9 +17,9 @@ Aspose.Words, bir belgeyi veritabanında bu belgeyle daha sonra çalışmak üze
 
 Bir belgeyi bir veritabanında saklamak veya bir belgeyi web üzerinden aktarıma hazırlamak için, genellikle bir bayt dizisi elde etmek amacıyla belgenin serileştirilmesi gerekir.
 
-Bir [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesnesini Aspose.Words'de serileştirmek için:
+Bir [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesnesini Aspose.Words'de serileştirmek için:
 
-1. **Document** sınıfının [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) yöntemi aşırı yüklemesini kullanarak bunu bir **MemoryStream**'e kaydedin.
+1. **Document** sınıfının [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/) yöntemi aşırı yüklemesini kullanarak bunu bir **MemoryStream**'e kaydedin.
 1. Belgeyi bayt biçiminde temsil eden bir bayt dizisini döndüren **ToArray** yöntemini çağırın.
 
 Baytları tekrar **Document** nesnesine yüklemek için yukarıdaki adımlar tersine çevrilebilir.

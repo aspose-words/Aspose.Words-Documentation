@@ -17,14 +17,14 @@ Vous pouvez essayer cette fonctionnalité avec notre [Supprimer les annotations 
 
 {{% /alert %}}
 
-Aspose.Words permet aux utilisateurs de travailler avec des commentaires – les commentaires dans un document Aspose.Words sont représentés par la classe [Comment](https://reference.aspose.com/words/net/aspose.words/comment/). Utilisez également les classes [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) et [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) pour spécifier la zone de texte qui doit être associée à un commentaire.
+Aspose.Words permet aux utilisateurs de travailler avec des commentaires – les commentaires dans un document Aspose.Words sont représentés par la classe [Comment](https://reference.aspose.com/words/fr/net/aspose.words/comment/). Utilisez également les classes [CommentRangeStart](https://reference.aspose.com/words/fr/net/aspose.words/commentrangestart/) et [CommentRangeEnd](https://reference.aspose.com/words/fr/net/aspose.words/commentrangeend/) pour spécifier la zone de texte qui doit être associée à un commentaire.
 
 ## Ajouter un commentaire
 
 Aspose.Words vous permet d'ajouter des commentaires de plusieurs manières:
 
-1. Utilisation de la classe [Comment](https://reference.aspose.com/words/net/aspose.words/comment/)
-2. Utilisation des classes [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) et [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)
+1. Utilisation de la classe [Comment](https://reference.aspose.com/words/fr/net/aspose.words/comment/)
+2. Utilisation des classes [CommentRangeStart](https://reference.aspose.com/words/fr/net/aspose.words/commentrangestart/) et [CommentRangeEnd](https://reference.aspose.com/words/fr/net/aspose.words/commentrangeend/)
 
 L'exemple de code suivant montre comment ajouter un commentaire à un paragraphe à l'aide de la classe **Comment**:
 
@@ -45,11 +45,11 @@ Dans cet exemple, nous allons examiner quelques méthodes simples permettant à 
 
 ### Comment extraire ou supprimer des commentaires
 
-Le code de cet exemple est en réalité assez simple et toutes les méthodes sont basées sur la même approche. Un commentaire dans un document Word est représenté par un objet [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) dans le modèle objet du document Aspose.Words. Pour collecter tous les commentaires d'un document, utilisez la méthode [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) avec le premier paramètre défini sur [NodeType.Comment](https://reference.aspose.com/words/net/aspose.words/nodetype/). Assurez-vous que le deuxième paramètre de la méthode **GetChildNodes** est défini sur true: cela force le **GetChildNodes** à sélectionner récursivement parmi tous les nœuds enfants, plutôt que de collecter uniquement les enfants immédiats.
+Le code de cet exemple est en réalité assez simple et toutes les méthodes sont basées sur la même approche. Un commentaire dans un document Word est représenté par un objet [Comment](https://reference.aspose.com/words/fr/net/aspose.words/comment/) dans le modèle objet du document Aspose.Words. Pour collecter tous les commentaires d'un document, utilisez la méthode [GetChildNodes](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/getchildnodes/) avec le premier paramètre défini sur [NodeType.Comment](https://reference.aspose.com/words/fr/net/aspose.words/nodetype/). Assurez-vous que le deuxième paramètre de la méthode **GetChildNodes** est défini sur true: cela force le **GetChildNodes** à sélectionner récursivement parmi tous les nœuds enfants, plutôt que de collecter uniquement les enfants immédiats.
 
 Pour illustrer comment extraire et supprimer des commentaires d'un document, nous passerons par les étapes suivantes:
 
-1. Ouvrez un document Word à l'aide de la classe [Document](https://reference.aspose.com/words/net/aspose.words/document/)
+1. Ouvrez un document Word à l'aide de la classe [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/)
 2. Récupérez tous les commentaires du document dans une collection
 3. Pour extraire des commentaires:
    1. Parcourez la collection à l'aide de l'opérateur foreach
@@ -80,7 +80,7 @@ L'exemple de code suivant montre comment extraire le nom de l'auteur, la date et
 
 ### Comment supprimer des commentaires
 
-Si vous supprimez tous les commentaires, il n'est pas nécessaire de parcourir la collection en supprimant les commentaires un par un. Vous pouvez les supprimer en appelant la méthode [Clear](https://reference.aspose.com/words/net/aspose.words/nodecollection/clear/) sur la collection de commentaires.
+Si vous supprimez tous les commentaires, il n'est pas nécessaire de parcourir la collection en supprimant les commentaires un par un. Vous pouvez les supprimer en appelant la méthode [Clear](https://reference.aspose.com/words/fr/net/aspose.words/nodecollection/clear/) sur la collection de commentaires.
 
 L'exemple de code suivant montre comment supprimer tous les commentaires du document:
 
@@ -114,9 +114,9 @@ L'exemple de code suivant montre comment supprimer du texte entre **CommentRange
 
 ## Ajouter ou supprimer la réponse du commentaire
 
-La méthode [AddReply](https://reference.aspose.com/words/net/aspose.words/comment/addreply/) ajoute une réponse à ce commentaire. Veuillez noter qu'en raison des limitations existantes de Microsoft Office, un seul niveau de réponse est autorisé dans le document. Une exception de type *InvalidOperationException* sera levée si cette méthode est appelée sur le commentaire Reply existant.
+La méthode [AddReply](https://reference.aspose.com/words/fr/net/aspose.words/comment/addreply/) ajoute une réponse à ce commentaire. Veuillez noter qu'en raison des limitations existantes de Microsoft Office, un seul niveau de réponse est autorisé dans le document. Une exception de type *InvalidOperationException* sera levée si cette méthode est appelée sur le commentaire Reply existant.
 
-Vous pouvez utiliser la méthode [RemoveReply](https://reference.aspose.com/words/net/aspose.words/comment/removereply/) pour supprimer la réponse spécifiée à ce commentaire.
+Vous pouvez utiliser la méthode [RemoveReply](https://reference.aspose.com/words/fr/net/aspose.words/comment/removereply/) pour supprimer la réponse spécifiée à ce commentaire.
 
 L'exemple de code suivant montre comment ajouter une réponse au commentaire et supprimer la réponse du commentaire:
 
@@ -124,7 +124,7 @@ L'exemple de code suivant montre comment ajouter une réponse au commentaire et 
 
 ## Lire la réponse du commentaire
 
-La propriété [Replies](https://reference.aspose.com/words/net/aspose.words/comment/replies/) renvoie une collection d'objets [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) qui sont les enfants immédiats du commentaire spécifié.
+La propriété [Replies](https://reference.aspose.com/words/fr/net/aspose.words/comment/replies/) renvoie une collection d'objets [Comment](https://reference.aspose.com/words/fr/net/aspose.words/comment/) qui sont les enfants immédiats du commentaire spécifié.
 
 L'exemple de code suivant montre comment parcourir les réponses d'un commentaire et les résoudre:
 

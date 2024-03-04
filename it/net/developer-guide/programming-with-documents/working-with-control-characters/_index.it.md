@@ -13,7 +13,7 @@ I documenti Microsoft Word possono contenere vari caratteri che hanno un signifi
 
 A volte potrebbe essere necessario aggiungere o rimuovere caratteri al/dal testo. Ad esempio, quando si ottiene testo a livello di codice dal documento, Aspose.Words conserva la maggior parte dei caratteri di controllo, quindi se è necessario lavorare con questo testo probabilmente è necessario rimuovere o sostituire i caratteri.
 
-La classe [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar/) è un repository per le costanti che rappresentano i caratteri di controllo spesso incontrati nei documenti. Fornisce versioni sia char che string delle stesse costanti. Ad esempio, string [LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreak/) e char [LineBreakChar](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreakchar) hanno lo stesso valore.
+La classe [ControlChar](https://reference.aspose.com/words/it/net/aspose.words/controlchar/) è un repository per le costanti che rappresentano i caratteri di controllo spesso incontrati nei documenti. Fornisce versioni sia char che string delle stesse costanti. Ad esempio, string [LineBreak](https://reference.aspose.com/words/it/net/aspose.words/controlchar/linebreak/) e char [LineBreakChar](https://reference.aspose.com/words/it/net/aspose.words/controlchar/linebreakchar) hanno lo stesso valore.
 
 L'esempio di codice seguente mostra come utilizzare i caratteri di controllo:
 

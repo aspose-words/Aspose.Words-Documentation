@@ -11,11 +11,11 @@ url: /ar/net/working-with-shapes/
 
 يناقش هذا الموضوع كيفية العمل برمجيًا مع الأشكال باستخدام Aspose.Words.
 
-تمثل الأشكال الموجودة في Aspose.Words كائنًا في طبقة الرسم، مثل الشكل التلقائي أو مربع النص أو الشكل الحر أو كائن OLE أو عنصر تحكم ActiveX أو الصورة. يمكن أن يحتوي مستند Word على شكل واحد أو أكثر من الأشكال المختلفة. يتم تمثيل الأشكال في Aspose.Words بواسطة فئة [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/).
+تمثل الأشكال الموجودة في Aspose.Words كائنًا في طبقة الرسم، مثل الشكل التلقائي أو مربع النص أو الشكل الحر أو كائن OLE أو عنصر تحكم ActiveX أو الصورة. يمكن أن يحتوي مستند Word على شكل واحد أو أكثر من الأشكال المختلفة. يتم تمثيل الأشكال في Aspose.Words بواسطة فئة [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/).
 
 ## إدراج الأشكال باستخدام منشئ المستندات
 
-يمكنك إدراج شكل سطري بنوع وحجم محددين وشكل عائم حر بالموضع والحجم ونوع التفاف النص المحدد في مستند باستخدام طريقة [InsertShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertshape/). تتيح طريقة **InsertShape** إدراج شكل DML في نموذج المستند. يجب حفظ المستند بالتنسيق الذي يدعم أشكال DML، وإلا سيتم تحويل هذه العقد إلى شكل VML أثناء حفظ المستند.
+يمكنك إدراج شكل سطري بنوع وحجم محددين وشكل عائم حر بالموضع والحجم ونوع التفاف النص المحدد في مستند باستخدام طريقة [InsertShape](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertshape/). تتيح طريقة **InsertShape** إدراج شكل DML في نموذج المستند. يجب حفظ المستند بالتنسيق الذي يدعم أشكال DML، وإلا سيتم تحويل هذه العقد إلى شكل VML أثناء حفظ المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج هذه الأنواع من الأشكال في المستند:
 
@@ -23,7 +23,7 @@ url: /ar/net/working-with-shapes/
 
 ## ضبط نسبة العرض إلى الارتفاع مغلقة
 
-باستخدام Aspose.Words، يمكنك تحديد ما إذا كانت نسبة العرض إلى الارتفاع للشكل مقفلة من خلال خاصية [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/).
+باستخدام Aspose.Words، يمكنك تحديد ما إذا كانت نسبة العرض إلى الارتفاع للشكل مقفلة من خلال خاصية [AspectRatioLocked](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shapebase/aspectratiolocked/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية العمل مع خاصية **AspectRatioLocked**:
 
@@ -31,7 +31,7 @@ url: /ar/net/working-with-shapes/
 
 ## تعيين تخطيط الشكل في الخلية
 
-يمكنك أيضًا تحديد ما إذا كان سيتم عرض الشكل داخل الجدول أم خارجه باستخدام خاصية [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/).
+يمكنك أيضًا تحديد ما إذا كان سيتم عرض الشكل داخل الجدول أم خارجه باستخدام خاصية [IsLayoutInCell](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shapebase/islayoutincell/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية العمل مع خاصية **IsLayoutInCell**:
 
@@ -49,7 +49,7 @@ url: /ar/net/working-with-shapes/
 
 ## احصل على نقاط حدود الشكل الفعلية
 
-باستخدام Aspose.Words API، يمكنك الحصول على موقع وحجم الشكل الذي يحتوي على الكتلة بالنقاط، بالنسبة إلى نقطة ارتكاز الشكل العلوي. للقيام بذلك، استخدم خاصية [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/boundsinpoints/).
+باستخدام Aspose.Words API، يمكنك الحصول على موقع وحجم الشكل الذي يحتوي على الكتلة بالنقاط، بالنسبة إلى نقطة ارتكاز الشكل العلوي. للقيام بذلك، استخدم خاصية [BoundsInPoints](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shapebase/boundsinpoints/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية العمل مع خاصية **BoundsInPoints**:
 
@@ -57,7 +57,7 @@ url: /ar/net/working-with-shapes/
 
 ## تحديد المرساة العمودية
 
-يمكنك تحديد المحاذاة الرأسية للنص داخل الشكل باستخدام خاصية [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/verticalanchor/).
+يمكنك تحديد المحاذاة الرأسية للنص داخل الشكل باستخدام خاصية [VerticalAnchor](https://reference.aspose.com/words/ar/net/aspose.words.drawing/textbox/verticalanchor/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية العمل مع خاصية **VerticalAnchor**:
 
@@ -65,7 +65,7 @@ url: /ar/net/working-with-shapes/
 
 ## كشف شكل SmartArt
 
-يسمح Aspose.Words أيضًا باكتشاف ما إذا كان الشكل يحتوي على كائن `SmartArt`. للقيام بذلك، استخدم خاصية [HasSmartArt](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hassmartart/).
+يسمح Aspose.Words أيضًا باكتشاف ما إذا كان الشكل يحتوي على كائن `SmartArt`. للقيام بذلك، استخدم خاصية [HasSmartArt](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/hassmartart/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية العمل مع خاصية **HasSmartArt**:
 
@@ -73,13 +73,13 @@ url: /ar/net/working-with-shapes/
 
 ## أدخل القاعدة الأفقية في المستند
 
-يمكنك إدراج شكل قاعدة أفقي في مستند باستخدام طريقة [InsertHorizontalRule](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthorizontalrule/).
+يمكنك إدراج شكل قاعدة أفقي في مستند باستخدام طريقة [InsertHorizontalRule](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/inserthorizontalrule/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية القيام بذلك:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cs" >}}
 
-يوفر Aspose.Words API خاصية [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shape/horizontalruleformat/) للوصول إلى خصائص شكل القاعدة الأفقية. تعرض فئة [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/horizontalruleformat/) الخصائص الأساسية مثل الارتفاع واللون وNoShade وما إلى ذلك لتنسيق القاعدة الأفقية.
+يوفر Aspose.Words API خاصية [HorizontalRuleFormat](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/horizontalruleformat/) للوصول إلى خصائص شكل القاعدة الأفقية. تعرض فئة [HorizontalRuleFormat](https://reference.aspose.com/words/ar/net/aspose.words.drawing/horizontalruleformat/) الخصائص الأساسية مثل الارتفاع واللون وNoShade وما إلى ذلك لتنسيق القاعدة الأفقية.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين **HorizontalRuleFormat**:
 
@@ -87,7 +87,7 @@ url: /ar/net/working-with-shapes/
 
 ## استيراد الأشكال باستخدام Math XML كأشكال إلى DOM
 
-يمكنك استخدام الخاصية [ConvertShapeToOfficeMath](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/convertshapetoofficemath/) لتحويل الأشكال باستخدام EquationXML إلى كائنات Office Math. تتوافق القيمة الافتراضية لهذه الخاصية مع سلوك Microsoft Word، أي لا يتم تحويل الأشكال ذات المعادلة XML إلى كائنات رياضية في Office.
+يمكنك استخدام الخاصية [ConvertShapeToOfficeMath](https://reference.aspose.com/words/ar/net/aspose.words.loading/loadoptions/convertshapetoofficemath/) لتحويل الأشكال باستخدام EquationXML إلى كائنات Office Math. تتوافق القيمة الافتراضية لهذه الخاصية مع سلوك Microsoft Word، أي لا يتم تحويل الأشكال ذات المعادلة XML إلى كائنات رياضية في Office.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحويل الأشكال إلى كائنات Office Math:
 

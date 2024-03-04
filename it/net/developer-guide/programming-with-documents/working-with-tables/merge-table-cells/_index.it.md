@@ -13,16 +13,16 @@ A volte alcune righe di una tabella richiedono un'intestazione o grandi blocchi 
 
 ## Come unire le celle della tabella
 
-In Aspose.Words, le celle unite sono rappresentate dalle seguenti proprietà della classe [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/):
+In Aspose.Words, le celle unite sono rappresentate dalle seguenti proprietà della classe [CellFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/):
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/) che descrive se la cella fa parte di un'unione orizzontale di celle
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/) che descrive se la cella fa parte di un'unione verticale di celle
+- [HorizontalMerge](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/horizontalmerge/) che descrive se la cella fa parte di un'unione orizzontale di celle
+- [VerticalMerge](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/verticalmerge/) che descrive se la cella fa parte di un'unione verticale di celle
 
 I valori di queste proprietà determinano il comportamento di unione delle celle:
 
-- La prima cella in una sequenza di celle unite avrà [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Tutte le celle successivamente unite avranno [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Una cella non unita avrà [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+- La prima cella in una sequenza di celle unite avrà [CellMerge.First](https://reference.aspose.com/words/it/net/aspose.words.tables/cellmerge/)
+- Tutte le celle successivamente unite avranno [CellMerge.Previous](https://reference.aspose.com/words/it/net/aspose.words.tables/cellmerge/)
+- Una cella non unita avrà [CellMerge.None](https://reference.aspose.com/words/it/net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ L'esempio di codice seguente mostra come stampare il tipo di unione di celle ori
 
 ## Unisci celle di tabella quando usi DocumentBuilder
 
-Per unire le celle in una tabella creata con [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), è necessario impostare il tipo di unione appropriato per ciascuna cella in cui è prevista l'unione: prima **CellMerge.First** e poi **CellMerge.Previous**.
+Per unire le celle in una tabella creata con [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/), è necessario impostare il tipo di unione appropriato per ciascuna cella in cui è prevista l'unione: prima **CellMerge.First** e poi **CellMerge.Previous**.
 
 Inoltre, devi ricordarti di cancellare l'impostazione di unione per quelle celle in cui non è richiesta l'unione: questo può essere fatto impostando la prima cella non unita su **CellMerge.None**. Se ciò non viene fatto, tutte le celle della tabella verranno unite.
 

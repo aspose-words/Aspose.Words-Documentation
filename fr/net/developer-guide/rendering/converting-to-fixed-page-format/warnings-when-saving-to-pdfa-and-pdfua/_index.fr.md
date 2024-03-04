@@ -13,7 +13,7 @@ Les formats PDF/A et PDF/UA imposent un certain nombre d'exigences d'accessibili
 
 Des avertissements sont émis lors de l'enregistrement dans l'un des formats PDF/A ou PDF/UA et le problème viole la conformité. Par exemple, l'avertissement concernant le titre du document manquant sera émis lors de l'enregistrement au format PDF/UA et ne sera pas émis lors de l'enregistrement au format PDF/A.
 
-Tous les avertissements sont au format [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.MinorFormattingLoss** et [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.Pdf**. Voici une liste des nouvelles valeurs d'avertissement de description:
+Tous les avertissements sont au format [WarningType](https://reference.aspose.com/words/fr/net/aspose.words/warningtype/)**.MinorFormattingLoss** et [WarningSource](https://reference.aspose.com/words/fr/net/aspose.words/warningsource/)**.Pdf**. Voici une liste des nouvelles valeurs d'avertissement de description:
 
 |  Description valeur d'avertissement |  PDF/A |  PDF/UA |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

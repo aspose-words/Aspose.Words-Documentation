@@ -15,12 +15,12 @@ url: /zh/net/hello-world/
 
 Below code 片段遵循以下步骤：
 
-1.创建一个新的空[Document](https://reference.aspose.com/words/net/aspose.words/document)
-1.初始化一个[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)类
-1.使用简单的[Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/)方法将文本插入到文档开始
-1. 从文件中打开现有 [Document](https://reference.aspose.com/words/net/aspose.words/document/document/)。自动检测文件格式
-1. [Append](https://reference.aspose.com/words/net/aspose.words/document/appenddocument/) 文档"A"到文档"B"的和
-1. [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 输出为 PDF
+1.创建一个新的空[Document](https://reference.aspose.com/words/zh/net/aspose.words/document)
+1.初始化一个[DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/)类
+1.使用简单的[Write](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/write/)方法将文本插入到文档开始
+1. 从文件中打开现有 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/document/)。自动检测文件格式
+1. [Append](https://reference.aspose.com/words/zh/net/aspose.words/document/appenddocument/) 文档"A"到文档"B"的和
+1. [Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/) 输出为 PDF
 
 以下代码片段是"Hello, World!"展示"Aspose.Words for .NET"API 工作的示例：
 

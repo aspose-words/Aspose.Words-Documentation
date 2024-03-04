@@ -26,15 +26,15 @@ url: /ar/net/work-with-document-properties/
 
 للوصول إلى خصائص المستند في Aspose.Words، استخدم:
 
-* [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/builtindocumentproperties/) للحصول على الخصائص المضمنة.
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/ar/net/aspose.words/document/builtindocumentproperties/) للحصول على الخصائص المضمنة.
 
-* [CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/customdocumentproperties/) للحصول على الخصائص المخصصة.
+* [CustomDocumentProperties](https://reference.aspose.com/words/ar/net/aspose.words/document/customdocumentproperties/) للحصول على الخصائص المخصصة.
 
-**BuiltInDocumentProperties** و**CustomDocumentProperties** عبارة عن مجموعات من كائنات [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/). يمكن الحصول على هذه الكائنات من خلال خاصية المفهرس بالاسم أو بالفهرس.
+**BuiltInDocumentProperties** و**CustomDocumentProperties** عبارة عن مجموعات من كائنات [DocumentProperty](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentproperty/). يمكن الحصول على هذه الكائنات من خلال خاصية المفهرس بالاسم أو بالفهرس.
 
 يوفر **BuiltInDocumentProperties** أيضًا إمكانية الوصول إلى خصائص المستند من خلال مجموعة من الخصائص المدخلة التي تُرجع قيمًا من النوع المناسب. يمكّنك **CustomDocumentProperties** من إضافة أو إزالة خصائص المستند من المستند.
 
-تتيح لك فئة [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) الحصول على اسم وقيمة ونوع خاصية المستند. تقوم [Value](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/value/) بإرجاع كائن، ولكن هناك مجموعة من الأساليب التي تسمح لك بتحويل قيمة الخاصية إلى نوع معين. بعد أن تتعرف على نوع الخاصية، يمكنك استخدام إحدى طرق **DocumentProperty.ToXXX**، مثل **DocumentProperty.**[ToString](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/tostring/) و**DocumentProperty.**[ToInt](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/toint/)، للحصول على قيمة النوع المناسب.
+تتيح لك فئة [DocumentProperty](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentproperty/) الحصول على اسم وقيمة ونوع خاصية المستند. تقوم [Value](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentproperty/value/) بإرجاع كائن، ولكن هناك مجموعة من الأساليب التي تسمح لك بتحويل قيمة الخاصية إلى نوع معين. بعد أن تتعرف على نوع الخاصية، يمكنك استخدام إحدى طرق **DocumentProperty.ToXXX**، مثل **DocumentProperty.**[ToString](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentproperty/tostring/) و**DocumentProperty.**[ToInt](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentproperty/toint/)، للحصول على قيمة النوع المناسب.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعداد كافة الخصائص المضمنة والمخصصة في مستند:
 
@@ -54,9 +54,9 @@ url: /ar/net/work-with-document-properties/
 
 لا يمكنك إضافة أو إزالة خصائص المستند المضمنة باستخدام Aspose.Words. يمكنك فقط تغيير أو تحديث قيمها.
 
-لإضافة خصائص مستند مخصصة باستخدام Aspose.Words، استخدم طريقة [Add](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/add/#add/)، وقم بتمرير اسم الخاصية الجديد وقيمة النوع المناسب. تقوم الطريقة بإرجاع كائن **DocumentProperty** المنشأ حديثًا.
+لإضافة خصائص مستند مخصصة باستخدام Aspose.Words، استخدم طريقة [Add](https://reference.aspose.com/words/ar/net/aspose.words.properties/customdocumentproperties/add/#add/)، وقم بتمرير اسم الخاصية الجديد وقيمة النوع المناسب. تقوم الطريقة بإرجاع كائن **DocumentProperty** المنشأ حديثًا.
 
-لإزالة الخصائص المخصصة، استخدم طريقة [Remove](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/)، وقم بتمرير اسم الخاصية المراد إزالتها، أو طريقة [RemoveAt](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/at) لإزالة الخاصية عن طريق الفهرس. يمكنك أيضًا إزالة كافة الخصائص باستخدام طريقة [Clear](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/clear/).
+لإزالة الخصائص المخصصة، استخدم طريقة [Remove](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentpropertycollection/remove/)، وقم بتمرير اسم الخاصية المراد إزالتها، أو طريقة [RemoveAt](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentpropertycollection/remove/at) لإزالة الخاصية عن طريق الفهرس. يمكنك أيضًا إزالة كافة الخصائص باستخدام طريقة [Clear](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentpropertycollection/clear/).
 
 يتحقق مثال التعليمات البرمجية التالي من وجود خاصية مخصصة تحمل اسمًا محددًا في المستند ويضيف المزيد من خصائص المستند المخصصة:
 
@@ -74,17 +74,17 @@ url: /ar/net/work-with-document-properties/
 
 ## تحديث خصائص المستند المضمنة
 
-لا يقوم Aspose.Words بتحديث خصائص المستند تلقائيًا، كما يفعل Microsoft Word مع بعض الخصائص، ولكنه يوفر طريقة لتحديث بعض خصائص المستند الإحصائية المضمنة. قم باستدعاء أسلوب [UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/#updatewordcount/) لإعادة حساب الخصائص التالية وتحديثها:
+لا يقوم Aspose.Words بتحديث خصائص المستند تلقائيًا، كما يفعل Microsoft Word مع بعض الخصائص، ولكنه يوفر طريقة لتحديث بعض خصائص المستند الإحصائية المضمنة. قم باستدعاء أسلوب [UpdateWordCount](https://reference.aspose.com/words/ar/net/aspose.words/document/updatewordcount/#updatewordcount/) لإعادة حساب الخصائص التالية وتحديثها:
 
-* [Characters](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characters/)
-* [CharactersWithSpaces](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
-* [Words](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/words/)
-* [Paragraphs](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
-* [Lines](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lines/)
+* [Characters](https://reference.aspose.com/words/ar/net/aspose.words.properties/builtindocumentproperties/characters/)
+* [CharactersWithSpaces](https://reference.aspose.com/words/ar/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
+* [Words](https://reference.aspose.com/words/ar/net/aspose.words.properties/builtindocumentproperties/words/)
+* [Paragraphs](https://reference.aspose.com/words/ar/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
+* [Lines](https://reference.aspose.com/words/ar/net/aspose.words.properties/builtindocumentproperties/lines/)
 
 ## قم بإنشاء خاصية مخصصة جديدة مرتبطة بالمحتوى
 
-يوفر Aspose.Words طريقة [AddLinkToContent](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) لإنشاء خاصية مستند مخصصة جديدة مرتبطة بالمحتوى. تقوم هذه الخاصية بإرجاع كائن الخاصية الذي تم إنشاؤه حديثًا أو إرجاعه فارغًا إذا كان [LinkSource](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/linksource/) غير صالح.
+يوفر Aspose.Words طريقة [AddLinkToContent](https://reference.aspose.com/words/ar/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) لإنشاء خاصية مستند مخصصة جديدة مرتبطة بالمحتوى. تقوم هذه الخاصية بإرجاع كائن الخاصية الذي تم إنشاؤه حديثًا أو إرجاعه فارغًا إذا كان [LinkSource](https://reference.aspose.com/words/ar/net/aspose.words.properties/documentproperty/linksource/) غير صالح.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تكوين ارتباط إلى خاصية مخصصة:
 
@@ -92,7 +92,7 @@ url: /ar/net/work-with-document-properties/
 
 ## الحصول على متغيرات الوثيقة
 
-يمكنك الحصول على مجموعة من متغيرات المستند باستخدام خاصية [Variables](https://reference.aspose.com/words/net/aspose.words/document/variables/). أسماء وقيم المتغيرات هي سلاسل.
+يمكنك الحصول على مجموعة من متغيرات المستند باستخدام خاصية [Variables](https://reference.aspose.com/words/ar/net/aspose.words/document/variables/). أسماء وقيم المتغيرات هي سلاسل.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعداد متغيرات المستند:
 
@@ -106,7 +106,7 @@ url: /ar/net/work-with-document-properties/
 
 ## إزالة المعلومات الشخصية من المستند
 
-إذا كنت ترغب في مشاركة مستند Word مع أشخاص آخرين، فقد ترغب في إزالة المعلومات الشخصية مثل اسم المؤلف والشركة. للقيام بذلك، استخدم خاصية [RemovePersonalInformation](https://reference.aspose.com/words/net/aspose.words/document/removepersonalinformation/) لتعيين علامة تشير إلى أن Microsoft Word سيقوم بإزالة جميع معلومات المستخدم من التعليقات والمراجعات وخصائص المستند عند حفظ المستند.
+إذا كنت ترغب في مشاركة مستند Word مع أشخاص آخرين، فقد ترغب في إزالة المعلومات الشخصية مثل اسم المؤلف والشركة. للقيام بذلك، استخدم خاصية [RemovePersonalInformation](https://reference.aspose.com/words/ar/net/aspose.words/document/removepersonalinformation/) لتعيين علامة تشير إلى أن Microsoft Word سيقوم بإزالة جميع معلومات المستخدم من التعليقات والمراجعات وخصائص المستند عند حفظ المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إزالة المعلومات الشخصية:
 

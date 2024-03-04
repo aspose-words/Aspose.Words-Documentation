@@ -11,7 +11,7 @@ url: /es/net/convert-between-measurement-units/
 
 La mayoría de las propiedades de los objetos proporcionadas en el Aspose.Words API que representan alguna medida, como ancho o alto, márgenes y varias distancias, aceptan valores en puntos, donde 1 pulgada equivale a 72 puntos. A veces esto no es conveniente y es necesario convertir los puntos a otras unidades.
 
-Aspose.Words proporciona la clase [ConvertUtil](https://reference.aspose.com/words/net/aspose.words/convertutil/) que proporciona funciones auxiliares para convertir entre varias unidades de medida. Permite convertir:
+Aspose.Words proporciona la clase [ConvertUtil](https://reference.aspose.com/words/es/net/aspose.words/convertutil/) que proporciona funciones auxiliares para convertir entre varias unidades de medida. Permite convertir:
 
 - pulgadas, píxeles y milímetros a puntos
 - apunta a pulgadas y píxeles

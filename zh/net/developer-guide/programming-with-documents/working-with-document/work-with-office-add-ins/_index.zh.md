@@ -26,13 +26,13 @@ WebExtensions命名空间可以有条件地分为：
 
 Web 扩展是扩展 Office 应用程序功能并与 Office 文档内容交互的工具。 Web 扩展为 Office 客户端提供附加功能以改善用户体验。
 
-Aspose.Words 提供了使用 [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) 和 [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/) 类添加任务窗格类型的 Web 扩展的功能，并且还允许您自定义窗格和扩展属性。
+Aspose.Words 提供了使用 [WebExtension](https://reference.aspose.com/words/zh/net/aspose.words.webextensions/webextension/) 和 [TaskPane](https://reference.aspose.com/words/zh/net/aspose.words.webextensions/taskpane/) 类添加任务窗格类型的 Web 扩展的功能，并且还允许您自定义窗格和扩展属性。
 
 以下代码示例演示如何创建任务窗格并添加到具有基本属性的 Web 扩展任务窗格：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-要查看任务窗格加载项的列表，请使用 [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/) 属性。
+要查看任务窗格加载项的列表，请使用 [WebExtensionTaskPanes](https://reference.aspose.com/words/zh/net/aspose.words/document/webextensiontaskpanes/) 属性。
 
 以下代码示例展示了如何获取此类加载项列表：
 

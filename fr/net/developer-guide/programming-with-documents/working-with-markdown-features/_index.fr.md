@@ -106,7 +106,7 @@ L'extrait de code suivant vous montre comment lire un document markdown.
 
 ## Spécifier les options d'enregistrement Markdown
 
-Aspose.Words API fournit une classe [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) pour spécifier des options supplémentaires lors de l'enregistrement d'un document au format Markdown.
+Aspose.Words API fournit une classe [MarkdownSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/markdownsaveoptions/) pour spécifier des options supplémentaires lors de l'enregistrement d'un document au format Markdown.
 
 L'exemple de code suivant montre comment spécifier diverses options d'enregistrement Markdown.
 
@@ -114,6 +114,6 @@ L'exemple de code suivant montre comment spécifier diverses options d'enregistr
 
 ## Comment aligner le contenu à l'intérieur du tableau lors de l'exportation vers Markdown
 
-Aspose.Words API fournit une énumération [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) qui définit les directions d'alignement pour aligner le contenu des tableaux lors de l'exportation dans le document Markdown. L'exemple de code suivant montre comment aligner le contenu à l'intérieur du tableau.
+Aspose.Words API fournit une énumération [TableContentAlignment](https://reference.aspose.com/words/fr/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) qui définit les directions d'alignement pour aligner le contenu des tableaux lors de l'exportation dans le document Markdown. L'exemple de code suivant montre comment aligner le contenu à l'intérieur du tableau.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

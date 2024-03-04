@@ -19,7 +19,7 @@ url: /ru/net/working-with-table-of-contents/
 
 ## Вставить оглавление программно
 
-Вы можете вставить поле `TOC` (оглавление) в документ в текущую позицию, вызвав метод [InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/).
+Вы можете вставить поле `TOC` (оглавление) в документ в текущую позицию, вызвав метод [InsertTableOfContents](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/inserttableofcontents/).
 
 Оглавление в документе Word можно построить разными способами и отформатировать с использованием различных параметров. Переключатели полей, которые вы передаете методу, управляют тем, как таблица строится и отображается в документе.
 
@@ -43,8 +43,8 @@ url: /ru/net/working-with-table-of-contents/
 
 Aspose.Words позволяет полностью обновить `TOC` всего несколькими строками кода. Это можно сделать для заполнения вновь вставленного `TOC` или для обновления существующего `TOC` после внесения изменений в документ. Для обновления полей `TOC` в документе необходимо использовать следующие два метода:
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/ru/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/ru/net/aspose.words/document/updatepagelayout/)
 
 Обратите внимание, что эти два метода обновления необходимо вызывать в указанном порядке. В обратном случае оглавление будет заполнено, но номера страниц отображаться не будут. Может быть обновлено любое количество различных TOC. Эти методы автоматически обновят все оглавления, найденные в документе.
 
@@ -125,7 +125,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 <p>![working-with-table-of-contents-aspose-words](/words/net/working-with-table-of-contents/working-with-table-of-contents-10.png)</p> |
 ## Вставка полей TC
 
-Вы можете вставить новое поле TC в текущую позицию [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), вызвав метод [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) и указав имя поля как "TC" вместе со всеми необходимыми переключателями.
+Вы можете вставить новое поле TC в текущую позицию [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/), вызвав метод [InsertField](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertfield/) и указав имя поля как "TC" вместе со всеми необходимыми переключателями.
 
 В следующем примере кода показано, как вставить поле `TC` в документ, используя **DocumentBuilder**:
 
@@ -139,7 +139,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## Изменить оглавление
 
-При форматировании записей в `TOC` не используются исходные стили отмеченных записей, вместо этого каждый уровень форматируется с использованием эквивалентного стиля `TOC`. Например, первый уровень в `TOC` отформатирован в стиле **ТОС1**, второй уровень в стиле **ТОС2** и так далее. Это означает, что для изменения внешнего вида `TOC` необходимо изменить эти стили. В Aspose.Words эти стили представлены независимыми от локали номерами от `StyleIdentifier.TOC1` до `StyleIdentifier.TOC9` и могут быть получены из коллекции [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) с использованием этих идентификаторов.
+При форматировании записей в `TOC` не используются исходные стили отмеченных записей, вместо этого каждый уровень форматируется с использованием эквивалентного стиля `TOC`. Например, первый уровень в `TOC` отформатирован в стиле **ТОС1**, второй уровень в стиле **ТОС2** и так далее. Это означает, что для изменения внешнего вида `TOC` необходимо изменить эти стили. В Aspose.Words эти стили представлены независимыми от локали номерами от `StyleIdentifier.TOC1` до `StyleIdentifier.TOC9` и могут быть получены из коллекции [Styles](https://reference.aspose.com/words/ru/net/aspose.words/documentbase/styles/) с использованием этих идентификаторов.
 
 После получения соответствующего стиля документа форматирование этого стиля можно изменить. Любые изменения в этих стилях будут автоматически отражены в оглавлении в документе.
 
@@ -151,7 +151,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 Вы также можете управлять форматированием разделителей, используемых между каждой записью и номером страницы. По умолчанию это пунктирная линия, которая распределяется по нумерации страниц с помощью символа табуляции и правой позиции табуляции, расположенной рядом с правым полем.
 
-Используя класс [Style](https://reference.aspose.com/words/net/aspose.words/style/), полученный для конкретного уровня `TOC`, который вы хотите изменить, вы также можете изменить их отображение в документе. Чтобы изменить внешний вид, сначала необходимо вызвать [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/), чтобы получить форматирование абзаца для стиля. Отсюда можно получить позиции табуляции, позвонив по номеру [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) и изменив соответствующую позицию табуляции. Используя тот же метод, можно полностью переместить или удалить саму вкладку.
+Используя класс [Style](https://reference.aspose.com/words/ru/net/aspose.words/style/), полученный для конкретного уровня `TOC`, который вы хотите изменить, вы также можете изменить их отображение в документе. Чтобы изменить внешний вид, сначала необходимо вызвать [ParagraphFormat](https://reference.aspose.com/words/ru/net/aspose.words/style/paragraphformat/), чтобы получить форматирование абзаца для стиля. Отсюда можно получить позиции табуляции, позвонив по номеру [TabStops](https://reference.aspose.com/words/ru/net/aspose.words/paragraphformat/tabstops/) и изменив соответствующую позицию табуляции. Используя тот же метод, можно полностью переместить или удалить саму вкладку.
 
 В следующем примере кода показано, как изменить положение правой позиции табуляции в связанных абзацах `TOC`:
 
@@ -159,9 +159,9 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## Удалить оглавление из документа
 
-Оглавление можно удалить из документа, удалив все узлы, найденные между узлом `FieldStart` и FieldEnd поля `TOC`. Код ниже демонстрирует это. Удалить поле `TOC` проще, чем обычное поле, поскольку мы не отслеживаем вложенные поля. Вместо этого мы проверяем, что узел [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) имеет тип [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), что означает, что мы столкнулись с концом текущего содержания. Этот метод можно использовать в этом случае, не беспокоясь о каких-либо вложенных полях, поскольку мы можем предположить, что любой правильно сформированный документ не будет иметь полностью вложенного поля `TOC` внутри другого поля `TOC`.
+Оглавление можно удалить из документа, удалив все узлы, найденные между узлом `FieldStart` и FieldEnd поля `TOC`. Код ниже демонстрирует это. Удалить поле `TOC` проще, чем обычное поле, поскольку мы не отслеживаем вложенные поля. Вместо этого мы проверяем, что узел [FieldEnd](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldend/) имеет тип [FieldType.FieldTOC](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldtype/), что означает, что мы столкнулись с концом текущего содержания. Этот метод можно использовать в этом случае, не беспокоясь о каких-либо вложенных полях, поскольку мы можем предположить, что любой правильно сформированный документ не будет иметь полностью вложенного поля `TOC` внутри другого поля `TOC`.
 
-Сначала собираются и сохраняются [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) узлов из каждого `TOC`. Затем указанное число `TOC` нумеруется, поэтому все узлы в поле посещаются и сохраняются. Затем узлы удаляются из документа.
+Сначала собираются и сохраняются [FieldStart](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldstart/) узлов из каждого `TOC`. Затем указанное число `TOC` нумеруется, поэтому все узлы в поле посещаются и сохраняются. Затем узлы удаляются из документа.
 
 В следующем примере кода показано, как удалить указанный номер `TOC` из документа:
 

@@ -9,11 +9,11 @@ weight: 250
 url: /ru/net/working-with-textboxes/
 ---
 
-В версии Aspose.Words класс [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) используется для указания способа отображения текста внутри фигуры. Он предоставляет общедоступное свойство с именем **Parent**, чтобы получить родительскую форму для текстового поля, чтобы клиент мог найти связанный [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) из связанного **TextBox**.
+В версии Aspose.Words класс [TextBox](https://reference.aspose.com/words/ru/net/aspose.words.drawing/textbox/) используется для указания способа отображения текста внутри фигуры. Он предоставляет общедоступное свойство с именем **Parent**, чтобы получить родительскую форму для текстового поля, чтобы клиент мог найти связанный [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/) из связанного **TextBox**.
 
 ## Создание ссылки
 
-Класс **TextBox** предоставляет метод [IsValidLinkTarget](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/isvalidlinktarget/), чтобы проверить, можно ли связать **TextBox** с целью **Textbox**.
+Класс **TextBox** предоставляет метод [IsValidLinkTarget](https://reference.aspose.com/words/ru/net/aspose.words.drawing/textbox/isvalidlinktarget/), чтобы проверить, можно ли связать **TextBox** с целью **Textbox**.
 
 В следующем примере кода показано, как проверить, можно ли связать `TextBox` с целевым текстовым полем:
 
@@ -21,7 +21,7 @@ url: /ru/net/working-with-textboxes/
 
 ## Проверить последовательность текстового поля
 
-Существует несколько способов отображения текста в фигуре. [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/shape/textbox/) может быть началом, серединой или хвостом последовательности.
+Существует несколько способов отображения текста в фигуре. [TextBox](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/textbox/) может быть началом, серединой или хвостом последовательности.
 
 В следующем примере кода показано, как проверить, является ли **TextBox** началом, хвостом или серединой последовательности:
 
@@ -29,7 +29,7 @@ url: /ru/net/working-with-textboxes/
 
 ## Разрыв ссылки
 
-Используя метод [BreakForwardLink](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/breakforwardlink/), вы можете разорвать ссылку на следующий **TextBox**.
+Используя метод [BreakForwardLink](https://reference.aspose.com/words/ru/net/aspose.words.drawing/textbox/breakforwardlink/), вы можете разорвать ссылку на следующий **TextBox**.
 
 В следующем примере кода показано, как разорвать ссылку для **TextBox**:
 

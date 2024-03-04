@@ -116,7 +116,7 @@ En effet, les paramètres de secours de Microsoft Office sont sélectionnés par
 
 **Q: Pourquoi un texte d'écriture complexe, tel que le thaï ou l'hébreu, peut-il s'afficher de manière inexacte pour une raison quelconque, comme une mauvaise position des signes diacritiques ou des ligatures inexactes?**
 
-Certaines polices de script complexes nécessitent le traitement des fonctionnalités de typographie avancée afin de les afficher correctement. La typographie avancée est désactivée dans Aspose.Words par défaut. Les utilisateurs doivent activer la typographie avancée avec [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/).
+Certaines polices de script complexes nécessitent le traitement des fonctionnalités de typographie avancée afin de les afficher correctement. La typographie avancée est désactivée dans Aspose.Words par défaut. Les utilisateurs doivent activer la typographie avancée avec [TextShaperFactory](https://reference.aspose.com/words/fr/net/aspose.words.layout/layoutoptions/textshaperfactory/).
 
 ------
 
@@ -136,14 +136,14 @@ Vous pouvez trouver des informations plus détaillées sur mail merge dans la se
 
 Le nom d'origine du champ de fusion reste le même sans être remplacé par les données requises de la source de données, puis:
 
-* Vérifiez que les données sont correctement chargées dans les tables: définissez correctement le [TableName](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/tablename/) avec toutes les clés primaires et relations requises.
-* Vérifiez que les champs de fusion sont nommés correctement. Utilisez la méthode [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) pour obtenir tous les noms de champs de fusion et assurez-vous que le nom des champs de fusion dans votre modèle correspond à celui de votre source de données.
+* Vérifiez que les données sont correctement chargées dans les tables: définissez correctement le [TableName](https://reference.aspose.com/words/fr/net/aspose.words.mailmerging/imailmergedatasource/tablename/) avec toutes les clés primaires et relations requises.
+* Vérifiez que les champs de fusion sont nommés correctement. Utilisez la méthode [GetFieldNames](https://reference.aspose.com/words/fr/net/aspose.words.mailmerging/mailmerge/getfieldnames/) pour obtenir tous les noms de champs de fusion et assurez-vous que le nom des champs de fusion dans votre modèle correspond à celui de votre source de données.
 
 ------
 
 **Q: Pourquoi le résultat de la fusion imbriquée n'affiche-t-il pas les données de la table enfant pour la première entrée de la table parent, mais affiche tous les éléments de la dernière entrée de la table parent, même ceux qui n'y sont pas réellement liés?**
 
-En effet, les régions de fusion dans le modèle ne sont pas correctement formées, ce qui peut empêcher toutes les régions mail merge imbriquées de s'afficher. La balise d'ouverture [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) et la balise de fermeture [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) doivent correspondre et se trouver dans la même ligne ou cellule. Par exemple, si vous commencez à imbriquer des régions de fusion dans une cellule d'un tableau, vous devez terminer la région de fusion dans la même ligne que la première cellule.
+En effet, les régions de fusion dans le modèle ne sont pas correctement formées, ce qui peut empêcher toutes les régions mail merge imbriquées de s'afficher. La balise d'ouverture [StartTable](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/starttable/) et la balise de fermeture [EndTable](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/endtable/) doivent correspondre et se trouver dans la même ligne ou cellule. Par exemple, si vous commencez à imbriquer des régions de fusion dans une cellule d'un tableau, vous devez terminer la région de fusion dans la même ligne que la première cellule.
 
 ------
 
@@ -172,7 +172,7 @@ Vous pouvez trouver des informations plus détaillées sur la programmation avec
 
 **Q: Pourquoi le contenu ajouté à un document n'apparaît-il pas sur la même page?**
 
-Le résultat de l'ajout apparaît sur une page séparée en raison d'une différence dans les paramètres [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) pour les sections dans lesquelles les documents sont ajoutés ensemble. Définissez des paramètres **PageSetup** identiques pour les sections dans lesquelles les documents sont annexés ensemble.
+Le résultat de l'ajout apparaît sur une page séparée en raison d'une différence dans les paramètres [PageSetup](https://reference.aspose.com/words/fr/net/aspose.words/pagesetup/) pour les sections dans lesquelles les documents sont ajoutés ensemble. Définissez des paramètres **PageSetup** identiques pour les sections dans lesquelles les documents sont annexés ensemble.
 
 ## Convertir un document
 

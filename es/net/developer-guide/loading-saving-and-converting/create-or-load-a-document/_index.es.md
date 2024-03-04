@@ -10,11 +10,11 @@ keywords: "create a document c#, load a document c#, create a blank document c#,
 weight: 10
 ---
 
-Casi cualquier tarea que desee realizar con Aspose.Words implica cargar un documento. La clase `Document` representa un documento cargado en la memoria. El documento tiene varios constructores sobrecargados que le permiten crear un documento en blanco o cargarlo desde un archivo o secuencia. El documento se puede cargar en cualquier formato de carga compatible con Aspose.Words. Para obtener la lista de todos los formatos de carga admitidos, consulte la enumeración [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/).
+Casi cualquier tarea que desee realizar con Aspose.Words implica cargar un documento. La clase `Document` representa un documento cargado en la memoria. El documento tiene varios constructores sobrecargados que le permiten crear un documento en blanco o cargarlo desde un archivo o secuencia. El documento se puede cargar en cualquier formato de carga compatible con Aspose.Words. Para obtener la lista de todos los formatos de carga admitidos, consulte la enumeración [LoadFormat](https://reference.aspose.com/words/es/net/aspose.words/loadformat/).
 
 ## Crear un nuevo documento {#create-a-new-document}
 
-Llamaremos al constructor [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) sin parámetros para crear un nuevo documento en blanco. Si desea generar un documento mediante programación, la forma más sencilla es utilizar la clase [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) para agregar el contenido del documento.
+Llamaremos al constructor [Document](https://reference.aspose.com/words/es/net/aspose.words/document/document/) sin parámetros para crear un nuevo documento en blanco. Si desea generar un documento mediante programación, la forma más sencilla es utilizar la clase [DocumentBuilder](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/) para agregar el contenido del documento.
 
 El siguiente ejemplo de código muestra cómo crear un documento utilizando el generador de documentos:
 
@@ -25,13 +25,13 @@ El siguiente ejemplo de código muestra cómo crear un documento utilizando el g
 Tenga en cuenta los valores predeterminados:
 
 - Un documento en blanco contiene una sección con parámetros predeterminados, un párrafo vacío y algunos estilos de documento. En realidad, este documento es el mismo que el resultado de crear el "Nuevo documento" en Microsoft Word.
-- El tamaño del papel del documento es [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).**Letter**.
+- El tamaño del papel del documento es [PaperSize](https://reference.aspose.com/words/es/net/aspose.words/papersize/).**Letter**.
 
 {{% /alert %}}
 
 ## Cargar un documento {#load-a-document}
 
-Para cargar un documento existente en cualquiera de los formatos [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/), pase el nombre del archivo o la secuencia a uno de los constructores de documentos. El formato del documento cargado está determinado automáticamente por su extensión.
+Para cargar un documento existente en cualquiera de los formatos [LoadFormat](https://reference.aspose.com/words/es/net/aspose.words/loadformat/), pase el nombre del archivo o la secuencia a uno de los constructores de documentos. El formato del documento cargado está determinado automáticamente por su extensión.
 
 ### Cargar desde un archivo {#load-from-a-file}
 

@@ -10,11 +10,11 @@ weight: 20
 url: /ru/net/save-a-document/
 ---
 
-Большинство задач, которые вам нужно выполнить с помощью Aspose.Words, связаны с сохранением документа. Для сохранения документа Aspose.Words предоставляет метод [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) класса [Document](https://reference.aspose.com/words/net/aspose.words/document/). Существуют перегрузки, которые позволяют сохранять документ в файл, поток или объект ASP.NET HttpResponse для отправки в клиентский браузер. Документ можно сохранить в любом формате сохранения, поддерживаемом Aspose.Words. Список всех поддерживаемых форматов сохранения см. в перечислении [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/).
+Большинство задач, которые вам нужно выполнить с помощью Aspose.Words, связаны с сохранением документа. Для сохранения документа Aspose.Words предоставляет метод [Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/) класса [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/). Существуют перегрузки, которые позволяют сохранять документ в файл, поток или объект ASP.NET HttpResponse для отправки в клиентский браузер. Документ можно сохранить в любом формате сохранения, поддерживаемом Aspose.Words. Список всех поддерживаемых форматов сохранения см. в перечислении [SaveFormat](https://reference.aspose.com/words/ru/net/aspose.words/saveformat/).
 
 ## Сохранить в файл {#save-a-document-to-a-file}
 
-Просто используйте метод [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) с именем файла. Aspose.Words определит формат сохранения по указанному вами расширению файла.
+Просто используйте метод [Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/) с именем файла. Aspose.Words определит формат сохранения по указанному вами расширению файла.
 
 В следующем примере кода показано, как загрузить и сохранить документ в файл:
 
@@ -28,7 +28,7 @@ url: /ru/net/save-a-document/
 
 ## Сохранить в поток {#save-a-document-to-a-stream}
 
-Передайте объект потока методу [Save](https://reference.aspose.com/words/net/aspose.words/document/save/). При сохранении в поток необходимо явно указать формат сохранения.
+Передайте объект потока методу [Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/). При сохранении в поток необходимо явно указать формат сохранения.
 
 В следующем примере кода показано, как загрузить и сохранить документ в потоке:
 
@@ -42,7 +42,7 @@ url: /ru/net/save-a-document/
 
 ## Отправка документа клиентскому браузеру {#sending-a-document-to-a-client-browser}
 
-Чтобы отправить документ в клиентский браузер, используйте специальную перегрузку, которая принимает четыре параметра: имя файла, формат сохранения, тип сохранения и объект ASP.NET HttpResponse. Способ представления документа пользователю представлен перечислением [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/), которое определяет, будет ли документ, отправленный в браузер, предоставлять возможность открыть себя непосредственно в браузере или в приложении, связанном с расширением файла.
+Чтобы отправить документ в клиентский браузер, используйте специальную перегрузку, которая принимает четыре параметра: имя файла, формат сохранения, тип сохранения и объект ASP.NET HttpResponse. Способ представления документа пользователю представлен перечислением [ContentDisposition](https://reference.aspose.com/words/ru/net/aspose.words/contentdisposition/), которое определяет, будет ли документ, отправленный в браузер, предоставлять возможность открыть себя непосредственно в браузере или в приложении, связанном с расширением файла.
 
 В следующем примере кода показано, как отправить документ в клиентский браузер из кода ASP.NET:
 

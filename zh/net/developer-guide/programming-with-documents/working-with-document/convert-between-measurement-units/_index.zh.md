@@ -11,7 +11,7 @@ url: /zh/net/convert-between-measurement-units/
 
 Aspose.Words API 中提供的大多数表示某种测量值的对象属性（例如宽度或高度、边距和各种距离）都接受以点为单位的值，其中 1 英寸等于 72 点。有时这并不方便，需要将点转换为其他单位。
 
-Aspose.Words 提供了 [ConvertUtil](https://reference.aspose.com/words/net/aspose.words/convertutil/) 类，该类提供了在各种测量单位之间进行转换的辅助函数。它可以转换：
+Aspose.Words 提供了 [ConvertUtil](https://reference.aspose.com/words/zh/net/aspose.words/convertutil/) 类，该类提供了在各种测量单位之间进行转换的辅助函数。它可以转换：
 
 - 英寸、像素和毫米转换为点
 - 指向英寸和像素

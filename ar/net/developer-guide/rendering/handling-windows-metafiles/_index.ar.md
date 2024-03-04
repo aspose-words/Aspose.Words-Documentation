@@ -23,7 +23,7 @@ url: /ar/net/handling-windows-metafiles/
 
 ## التحكم في مشغل Aspose.Words Metafile
 
-تمكنك فئة [MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/) من التحكم في مشغل ملف التعريف. على سبيل المثال، يمكنك تحديد كيفية عرض صور ملف التعريف باستخدام خاصية [RenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/renderingmode/)، والتي لها معنى خاص عند التحويل إلى صور نقطية (راجع أيضًا خاصية [MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/)).
+تمكنك فئة [MetafileRenderingOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/metafilerenderingoptions/) من التحكم في مشغل ملف التعريف. على سبيل المثال، يمكنك تحديد كيفية عرض صور ملف التعريف باستخدام خاصية [RenderingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/metafilerenderingoptions/renderingmode/)، والتي لها معنى خاص عند التحويل إلى صور نقطية (راجع أيضًا خاصية [MetafileRenderingOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/)).
 
 يعمل الحفظ في صورة نقطية بشكل مختلف على الأنظمة الأساسية بخلاف .NET. في حين أن عرض .NET GDI+ هو مرجع يعمل بشكل مثالي تقريبًا حتى مع تنسيق ملفات التعريف الأكثر تعقيدًا، إلا أنه قد يسبب مشكلات على الأنظمة الأساسية الأخرى أو لا يتم دعمه على الإطلاق.
 
@@ -41,7 +41,7 @@ url: /ar/net/handling-windows-metafiles/
 
 <img src="/words/net/handling-windows-metafiles/handling-windows-metafiles-2.png" alt="التعامل مع ملفات تعريف Windows-Aspose-Words-net-2" style="width:650px"/>
 
-لا يمكن تحويل العمليات النقطية إلى رسومات متجهة مباشرة. يحاكي Aspose.Words العمليات النقطية عن طريق تنقيط سطح الجهاز المتأثر بعمليات البيانات النقطية جزئيًا. ولهذا الغرض، يتم استخدام خاصية [EmulateRasterOperations](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/).
+لا يمكن تحويل العمليات النقطية إلى رسومات متجهة مباشرة. يحاكي Aspose.Words العمليات النقطية عن طريق تنقيط سطح الجهاز المتأثر بعمليات البيانات النقطية جزئيًا. ولهذا الغرض، يتم استخدام خاصية [EmulateRasterOperations](https://reference.aspose.com/words/ar/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/).
 
 {{% alert color="primary" %}}
 
@@ -55,12 +55,12 @@ url: /ar/net/handling-windows-metafiles/
 
 ## الإعدادات الاحتياطية لملف التعريف
 
-لا يدعم Aspose.Words عددًا من ميزات ملفات التعريف الأكثر تعقيدًا أو نادرة. يمكن للمستخدمين تنفيذ واجهة [IWarningCallBack](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/) وتلقي رسائل التحذير. إذا واجه Aspose.Words ميزات غير مدعومة في ملف تعريف، فإنه يصدر رسالة تحذير مع [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/).**Metafile**. في هذه الحالة، قد يقوم Aspose.Words بالرجوع إلى نوع مختلف من مشغل ملفات التعريف. يتم أيضًا إصدار رسالة التحذير بخصوص الإجراء الاحتياطي.
+لا يدعم Aspose.Words عددًا من ميزات ملفات التعريف الأكثر تعقيدًا أو نادرة. يمكن للمستخدمين تنفيذ واجهة [IWarningCallBack](https://reference.aspose.com/words/ar/net/aspose.words/iwarningcallback/) وتلقي رسائل التحذير. إذا واجه Aspose.Words ميزات غير مدعومة في ملف تعريف، فإنه يصدر رسالة تحذير مع [WarningSource](https://reference.aspose.com/words/ar/net/aspose.words/warningsource/).**Metafile**. في هذه الحالة، قد يقوم Aspose.Words بالرجوع إلى نوع مختلف من مشغل ملفات التعريف. يتم أيضًا إصدار رسالة التحذير بخصوص الإجراء الاحتياطي.
 
-أولاً، يقوم Aspose.Words بتنفيذ عملية احتياطية من مشغل ملف التعريف المتجه إلى البيانات النقطية، والتي يتم التحكم فيها بواسطة خاصية [RenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/renderingmode/). إذا تم تعطيل الميزة الاحتياطية، فسيحاول Aspose.Words عرض بعض الرسومات البديلة بدلاً من الميزات غير المدعومة.
+أولاً، يقوم Aspose.Words بتنفيذ عملية احتياطية من مشغل ملف التعريف المتجه إلى البيانات النقطية، والتي يتم التحكم فيها بواسطة خاصية [RenderingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/metafilerenderingoptions/renderingmode/). إذا تم تعطيل الميزة الاحتياطية، فسيحاول Aspose.Words عرض بعض الرسومات البديلة بدلاً من الميزات غير المدعومة.
 
 يقوم Aspose.Words بتشغيل ملف التعريف إلى البيانات النقطية بنجاح باستخدام GDI+ على .NET، مما يجعل خيار رد الاتصال هذا آمنًا.
 
-ثانيًا، هناك خيار لملف تعريف EMF+ Dual للرجوع من تشغيل جزء EMF+ إلى جزء EMF. يتم التحكم فيه بواسطة [EmfPlusDualRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/). إذا حدثت بعض المشكلات عند تشغيل جزء EMF، فيمكن إجراء الرجوع إلى البيانات النقطية أيضًا.
+ثانيًا، هناك خيار لملف تعريف EMF+ Dual للرجوع من تشغيل جزء EMF+ إلى جزء EMF. يتم التحكم فيه بواسطة [EmfPlusDualRenderingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/). إذا حدثت بعض المشكلات عند تشغيل جزء EMF، فيمكن إجراء الرجوع إلى البيانات النقطية أيضًا.
 
-أما بالنسبة للعمليات النقطية، إذا تم تعطيل [EmulateRasterOperations](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/)، فسيتم اعتبار العمليات النقطية غير مدعومة، مما يؤدي إلى تشغيل الرجوع إلى مشغل ملف تعريف الصورة النقطية إذا تم تمكينه. لذلك، إذا كان لديك ملف تعريف يحتوي على عمليات بيانات نقطية، ولكنك لا تريد استخدام محاكاة عمليات البيانات النقطية وتريد مع ذلك الحصول على مخرجات المتجهات باستخدام الرسومات البديلة، فحدد [MetafileRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingmode/).**Vector**.
+أما بالنسبة للعمليات النقطية، إذا تم تعطيل [EmulateRasterOperations](https://reference.aspose.com/words/ar/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/)، فسيتم اعتبار العمليات النقطية غير مدعومة، مما يؤدي إلى تشغيل الرجوع إلى مشغل ملف تعريف الصورة النقطية إذا تم تمكينه. لذلك، إذا كان لديك ملف تعريف يحتوي على عمليات بيانات نقطية، ولكنك لا تريد استخدام محاكاة عمليات البيانات النقطية وتريد مع ذلك الحصول على مخرجات المتجهات باستخدام الرسومات البديلة، فحدد [MetafileRenderingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/metafilerenderingmode/).**Vector**.

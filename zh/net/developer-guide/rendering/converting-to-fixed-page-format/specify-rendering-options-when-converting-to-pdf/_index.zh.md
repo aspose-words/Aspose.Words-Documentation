@@ -13,15 +13,15 @@ PDF格式是一种固定页面格式，在用户中非常流行，并受到各�
 
 PDF 是一种复杂的格式。将文档转换为 PDF 的过程中需要几个阶段的计算，包括布局计算。由于这些阶段包括复杂的计算，因此非常耗时。此外，PDF 格式本身相当复杂。它具有特定的文件结构、图形模型和字体嵌入。此外，它还具有一些复杂的输出功能，例如文档结构标签、加密、数字签名和可编辑表单。
 
-Aspose.Words 布局引擎模仿 Microsoft Word 页面布局引擎的工作方式。因此，Aspose.Words 使 PDF 输出文档看起来尽可能接近您在 Microsoft Word 中看到的内容。有时需要指定其他选项，这可能会影响将文档保存为 PDF 格式的结果。这些选项可以通过使用 [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) 类来指定，其中包含确定 PDF 输出如何显示的属性。
+Aspose.Words 布局引擎模仿 Microsoft Word 页面布局引擎的工作方式。因此，Aspose.Words 使 PDF 输出文档看起来尽可能接近您在 Microsoft Word 中看到的内容。有时需要指定其他选项，这可能会影响将文档保存为 PDF 格式的结果。这些选项可以通过使用 [PdfSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/) 类来指定，其中包含确定 PDF 输出如何显示的属性。
 
 下面提供了一些使用 **PdfSaveOptions** 的示例。
 
 {{% alert color="primary" %}}
 
-目前，您可以保存为 PDF 1.7、PDF 2.0、PDF/A-1a、PDF/A-1b、PDF/A-2a、PDF/A-2u 和 PDF/UA-1 格式。使用 [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) 枚举设置 PDF 标准合规级别。请注意，对于 PDF/A 格式，输出文件大小大于常规 PDF 文件大小。
+目前，您可以保存为 PDF 1.7、PDF 2.0、PDF/A-1a、PDF/A-1b、PDF/A-2a、PDF/A-2u 和 PDF/UA-1 格式。使用 [PdfCompliance](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfcompliance/) 枚举设置 PDF 标准合规级别。请注意，对于 PDF/A 格式，输出文件大小大于常规 PDF 文件大小。
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) 和 [PdfCompliance.PdfA1b](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) 被标记为已过时。
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfcompliance/) 和 [PdfCompliance.PdfA1b](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfcompliance/) 被标记为已过时。
 
 有关 PDF/A 的更多信息，请参阅下一篇文章"了解转换为 PDF/A 的功能"。
 
@@ -29,7 +29,7 @@ Aspose.Words 布局引擎模仿 Microsoft Word 页面布局引擎的工作方式
 
 ## 创建带有可填写表格的 PDF 文档
 
-还可以将可填写的表单从 Microsoft Word 文档导出到输出 PDF，其中包含可填写的表单而不是纯文本。使用 [PreserveFormFields](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) 属性将文档另存为具有可填写表单的 PDF。
+还可以将可填写的表单从 Microsoft Word 文档导出到输出 PDF，其中包含可填写的表单而不是纯文本。使用 [PreserveFormFields](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) 属性将文档另存为具有可填写表单的 PDF。
 
 请注意，与 Microsoft Word 相比，PDF 格式的可编辑表单选项数量有限，例如文本框、组合框和复选框。 Microsoft Word有更多类型的表单，例如日历日期选择器。一般来说，完全模仿 PDF 中的 Microsoft Word 行为是不可能的。因此，在某些复杂的情况下，PDF 输出可能与您在 Microsoft Word 中看到的不同。
 
@@ -39,7 +39,7 @@ Aspose.Words 布局引擎模仿 Microsoft Word 页面布局引擎的工作方式
 
 ## 导出文档结构和自定义属性
 
-[https://reference.aspose.com/words/net/aspose.words. saving/pdfsaveoptions/properties/exportdocumentstruct) 属性使您能够将文档结构导出到 PDF 输出。
+[https://reference.aspose.com/words/zh/net/aspose.words. saving/pdfsaveoptions/properties/exportdocumentstruct) 属性使您能够将文档结构导出到 PDF 输出。
 
 PDF 逻辑结构工具提供了一种将有关文档内容结构的信息合并到 PDF 文件中的机制。 Aspose.Words 保留有关 Microsoft Word 文档结构的信息，例如段落、列表、表格、脚注/尾注等。
 
@@ -53,7 +53,7 @@ Aspose.Words 还允许您将文档自定义属性导出到 PDF，如以下示例
 
 ## 从输出 PDF 中的书签和标题导出大纲
 
-如果要将书签导出为输出 PDF 中的轮廓，可以使用 [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) 属性。此属性指定文档大纲中显示 Microsoft Word 书签的默认级别。如果文档的页眉/页脚中包含书签，您可以将 [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) 属性设置为 [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) 或 [All](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/)，以指定它们在输出 PDF 中的导出方式。当 **HeaderFooterBookmarksExportMode** 的值为 [None](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) 时，不会导出页眉/页脚中的书签。
+如果要将书签导出为输出 PDF 中的轮廓，可以使用 [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/zh/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) 属性。此属性指定文档大纲中显示 Microsoft Word 书签的默认级别。如果文档的页眉/页脚中包含书签，您可以将 [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) 属性设置为 [First](https://reference.aspose.com/words/zh/net/aspose.words.saving/headerfooterbookmarksexportmode/) 或 [All](https://reference.aspose.com/words/zh/net/aspose.words.saving/headerfooterbookmarksexportmode/)，以指定它们在输出 PDF 中的导出方式。当 **HeaderFooterBookmarksExportMode** 的值为 [None](https://reference.aspose.com/words/zh/net/aspose.words.saving/headerfooterbookmarksexportmode/) 时，不会导出页眉/页脚中的书签。
 
 下面的代码示例显示了如何从节的第一个页眉/页脚导出书签：
 
@@ -63,9 +63,9 @@ Aspose.Words 还允许您将文档自定义属性导出到 PDF，如以下示例
 
 ![specify-rendering-options-when-converting-to-pdf_1](/words/net/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-当 **HeaderFooterBookmarksExportMode** 设置为 [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) 并且文档具有偶数和奇数页眉/页脚或不同的首页页眉/页脚时，将为节中的第一个唯一页眉/页脚导出书签。
+当 **HeaderFooterBookmarksExportMode** 设置为 [First](https://reference.aspose.com/words/zh/net/aspose.words.saving/headerfooterbookmarksexportmode/) 并且文档具有偶数和奇数页眉/页脚或不同的首页页眉/页脚时，将为节中的第一个唯一页眉/页脚导出书签。
 
-您还可以使用 [HeadingsOutlineLevels](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/) 属性导出输出 PDF 中的标题。该属性指定文档大纲中包含多少级标题。
+您还可以使用 [HeadingsOutlineLevels](https://reference.aspose.com/words/zh/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/) 属性导出输出 PDF 中的标题。该属性指定文档大纲中包含多少级标题。
 
 下面的代码示例展示了如何导出三个级别的标题：
 
@@ -83,9 +83,9 @@ Aspose.Words 还允许您将文档自定义属性导出到 PDF，如以下示例
 
 ## 缩小图像采样以减小文档大小
 
-Aspose.Words 提供了使用 [DownsampleOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/) 属性对图像进行下采样的功能，以减小输出 PDF 的大小。默认情况下，[DownsampleImages](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/downsampleimages/) 属性中启用下采样。
+Aspose.Words 提供了使用 [DownsampleOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/) 属性对图像进行下采样的功能，以减小输出 PDF 的大小。默认情况下，[DownsampleImages](https://reference.aspose.com/words/zh/net/aspose.words.saving/downsampleoptions/downsampleimages/) 属性中启用下采样。
 
-请注意，还可以在 [Resolution](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/) 属性中设置特定分辨率，或在 [ResolutionThreshold](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/threshold) 属性中设置分辨率阈值。在第二种情况下，如果图像分辨率小于阈值，则不会应用下采样。
+请注意，还可以在 [Resolution](https://reference.aspose.com/words/zh/net/aspose.words.saving/downsampleoptions/resolution/) 属性中设置特定分辨率，或在 [ResolutionThreshold](https://reference.aspose.com/words/zh/net/aspose.words.saving/downsampleoptions/resolution/threshold) 属性中设置分辨率阈值。在第二种情况下，如果图像分辨率小于阈值，则不会应用下采样。
 
 下面的代码示例显示如何更改输出 PDF 文档中图像的分辨率：
 
@@ -110,7 +110,7 @@ Aspose.Words 还使您能够控制如何将字体嵌入到生成的 PDF 文档�
 
 ### 在 PDF 中嵌入完整字体
 
-[EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) 属性使您能够指定 Aspose.Words 如何将字体嵌入到输出 PDF 文档中。
+[EmbedFullFonts](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) 属性使您能够指定 Aspose.Words 如何将字体嵌入到输出 PDF 文档中。
 
 - 要将完整字体嵌入到输出 PDF 文档中，请将 **EmbedFullFonts** 设置为 true
 - 要在保存为 PDF 时对字体进行子集化，请将 **EmbedFullFonts** 设置为 false
@@ -136,11 +136,11 @@ Aspose.Words 还使您能够控制如何将字体嵌入到生成的 PDF 文档�
 Aspose.Words 提供了选择如何将字体导出为 PDF 的选项。您可以选择将核心字体和标准字体嵌入到输出 PDF 中，或者跳过嵌入它们并在目标计算机上使用标准核心 PDF 字体或系统字体。使用这些选项之一通常会导致 Aspose.Words 生成的 PDF 文档的文件大小显着减小。
 
 - 由于这些选项是互斥的，因此您一次只能选择一个。
-- 以 PDF/A-1 合规性保存时，所有使用的字体必须嵌入 PDF 文档中。根据此合规性进行保存时，[UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) 属性必须设置为 false，[FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) 属性必须设置为 [EmbedAll](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/)。
+- 以 PDF/A-1 合规性保存时，所有使用的字体必须嵌入 PDF 文档中。根据此合规性进行保存时，[UseCoreFonts](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) 属性必须设置为 false，[FontEmbeddingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) 属性必须设置为 [EmbedAll](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdffontembeddingmode/)。
 
 ### 嵌入核心字体
 
-可以使用 [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) 属性启用或禁用嵌入 Core 字体的选项。当设置为 true 时，以下最流行的"True Type"字体（Base 14 字体）不会嵌入到输出 PDF 文档中：
+可以使用 [UseCoreFonts](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) 属性启用或禁用嵌入 Core 字体的选项。当设置为 true 时，以下最流行的"True Type"字体（Base 14 字体）不会嵌入到输出 PDF 文档中：
 
 - `Arial`
 - `Times New Roman`
@@ -169,7 +169,7 @@ Aspose.Words 提供了选择如何将字体导出为 PDF 的选项。您可以�
 
 ### 嵌入系统字体
 
-可以使用 [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) 属性启用或禁用此选项。当此属性设置为 [EmbedNonstandard](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/) 时，"Arial"和"Times New Roman"true 类型字体不会嵌入到 PDF 文档中。在这种情况下，客户端查看器依赖于客户端操作系统上安装的字体。当 **FontEmbeddingMode** 属性设置为 [EmbedNone](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/) 时，Aspose.Words 不嵌入任何字体。
+可以使用 [FontEmbeddingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) 属性启用或禁用此选项。当此属性设置为 [EmbedNonstandard](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdffontembeddingmode/) 时，"Arial"和"Times New Roman"true 类型字体不会嵌入到 PDF 文档中。在这种情况下，客户端查看器依赖于客户端操作系统上安装的字体。当 **FontEmbeddingMode** 属性设置为 [EmbedNone](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdffontembeddingmode/) 时，Aspose.Words 不嵌入任何字体。
 
 下面的示例显示如何设置 Aspose.Words 以跳过将 Arial 和 Times New Roman 字体嵌入到 PDF 文档中：
 

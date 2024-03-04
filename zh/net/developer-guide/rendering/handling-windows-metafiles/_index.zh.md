@@ -23,7 +23,7 @@ Windows 图元文件现有的问题是大多数非 Word 格式不支持它，而
 
 ## 控制 Aspose.Words 图元文件播放器
 
-[MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/) 类使您能够控制图元文件播放器。例如，您可以使用 [RenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/renderingmode/) 属性确定图元文件图像的呈现方式，该属性在转换为位图时具有特殊含义（另请参阅 [MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/) 属性）。
+[MetafileRenderingOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/metafilerenderingoptions/) 类使您能够控制图元文件播放器。例如，您可以使用 [RenderingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/metafilerenderingoptions/renderingmode/) 属性确定图元文件图像的呈现方式，该属性在转换为位图时具有特殊含义（另请参阅 [MetafileRenderingOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/) 属性）。
 
 保存到位图在 .NET 以外的平台上的工作方式有所不同。虽然 .NET GDI+ 渲染是一个即使对于最复杂的图元文件格式也几乎完美工作的参考，但在其他平台上它可能会导致问题或根本不受支持。
 
@@ -41,7 +41,7 @@ Windows 图元文件现有的问题是大多数非 Word 格式不支持它，而
 
 <img src="/words/net/handling-windows-metafiles/handling-windows-metafiles-2.png" alt="处理-windows-元文件-aspose-words-net-2" style="width:650px"/>
 
-光栅操作不能直接转换为矢量图形。 Aspose.Words 通过部分光栅化受光栅操作影响的设备表面来模拟光栅操作。为此，使用 [EmulateRasterOperations](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) 属性。
+光栅操作不能直接转换为矢量图形。 Aspose.Words 通过部分光栅化受光栅操作影响的设备表面来模拟光栅操作。为此，使用 [EmulateRasterOperations](https://reference.aspose.com/words/zh/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) 属性。
 
 {{% alert color="primary" %}}
 
@@ -55,12 +55,12 @@ Windows 图元文件现有的问题是大多数非 Word 格式不支持它，而
 
 ## 图元文件后备设置
 
-Aspose.Words 不支持许多最复杂或罕见的图元文件功能。用户可以实现[IWarningCallBack](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/)接口并接收警告消息。如果 Aspose.Words 在图元文件中遇到不受支持的功能，它会发出带有 [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/).**Metafile** 的警告消息。在这种情况下，Aspose.Words 可能会回退到不同类型的图元文件播放器。还发出有关后备的警告消息。
+Aspose.Words 不支持许多最复杂或罕见的图元文件功能。用户可以实现[IWarningCallBack](https://reference.aspose.com/words/zh/net/aspose.words/iwarningcallback/)接口并接收警告消息。如果 Aspose.Words 在图元文件中遇到不受支持的功能，它会发出带有 [WarningSource](https://reference.aspose.com/words/zh/net/aspose.words/warningsource/).**Metafile** 的警告消息。在这种情况下，Aspose.Words 可能会回退到不同类型的图元文件播放器。还发出有关后备的警告消息。
 
-首先，Aspose.Words 执行从矢量图元文件播放器到光栅的回退，这是由 [RenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/renderingmode/) 属性控制的。如果禁用后备功能，Aspose.Words 会尝试渲染一些替代图形，而不是不支持的功能。
+首先，Aspose.Words 执行从矢量图元文件播放器到光栅的回退，这是由 [RenderingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/metafilerenderingoptions/renderingmode/) 属性控制的。如果禁用后备功能，Aspose.Words 会尝试渲染一些替代图形，而不是不支持的功能。
 
 Aspose.Words 在 .NET 上使用 GDI+ 成功将图元文件播放为光栅，这使得此回调选项安全。
 
-其次，EMF+ Dual 图元文件有一个选项可以从播放 EMF+ 部分回退到 EMF 部分。它由 [EmfPlusDualRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) 控制。如果播放 EMF 部分时出现一些问题，也可能会执行回退到光栅。
+其次，EMF+ Dual 图元文件有一个选项可以从播放 EMF+ 部分回退到 EMF 部分。它由 [EmfPlusDualRenderingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) 控制。如果播放 EMF 部分时出现一些问题，也可能会执行回退到光栅。
 
-对于光栅操作，如果 [EmulateRasterOperations](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) 被禁用，则光栅操作被视为不支持，如果启用，则会触发回退到位图图元文件播放器。因此，如果您有一个带有光栅操作的图元文件，但您不想使用光栅操作模拟，但又想获得带有替换图形的矢量输出，则选择 [MetafileRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingmode/).**Vector**。
+对于光栅操作，如果 [EmulateRasterOperations](https://reference.aspose.com/words/zh/net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) 被禁用，则光栅操作被视为不支持，如果启用，则会触发回退到位图图元文件播放器。因此，如果您有一个带有光栅操作的图元文件，但您不想使用光栅操作模拟，但又想获得带有替换图形的矢量输出，则选择 [MetafileRenderingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/metafilerenderingmode/).**Vector**。

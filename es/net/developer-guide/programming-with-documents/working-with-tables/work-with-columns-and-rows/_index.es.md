@@ -13,7 +13,7 @@ Para tener más control sobre cómo funcionan las tablas, aprenda a manipular co
 
 ## Encuentre el índice de elementos de la tabla {#find-the-index-of-table-elements}
 
-Las columnas, filas y celdas se administran accediendo al nodo del documento seleccionado por su índice. Encontrar el índice de cualquier nodo implica reunir todos los nodos secundarios del tipo de elemento del nodo principal y luego usar el método [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) para encontrar el índice del nodo deseado en la colección.
+Las columnas, filas y celdas se administran accediendo al nodo del documento seleccionado por su índice. Encontrar el índice de cualquier nodo implica reunir todos los nodos secundarios del tipo de elemento del nodo principal y luego usar el método [IndexOf](https://reference.aspose.com/words/es/net/aspose.words/nodecollection/indexof/) para encontrar el índice del nodo deseado en la colección.
 
 ### Encontrar el índice de una tabla en un documento {#find-the-index-of-table-in-a-document}
 
@@ -41,7 +41,7 @@ El siguiente ejemplo de código muestra cómo recuperar el índice de una celda 
 
 ## Trabajar con columnas {#work-with-columns}
 
-En el modelo de objetos de documento (DOM) Aspose.Words, el nodo [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) consta de nodos [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) y luego nodos [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/). Así, en el modelo de objetos `Document` de Aspose.Words, al igual que en los documentos de Word, no existe el concepto de columna.
+En el modelo de objetos de documento (DOM) Aspose.Words, el nodo [Table](https://reference.aspose.com/words/es/net/aspose.words.tables/table/) consta de nodos [Row](https://reference.aspose.com/words/es/net/aspose.words.tables/row/) y luego nodos [Cell](https://reference.aspose.com/words/es/net/aspose.words.tables/cell/). Así, en el modelo de objetos `Document` de Aspose.Words, al igual que en los documentos de Word, no existe el concepto de columna.
 
 Por diseño, las filas de la tabla en Microsoft Word y Aspose.Words son completamente independientes y las propiedades y operaciones básicas están contenidas únicamente en las filas y celdas de la tabla. Esto le da a las tablas la capacidad de tener algunos atributos interesantes:
 
@@ -65,7 +65,7 @@ El siguiente ejemplo de código muestra cómo eliminar una columna de una tabla 
 
 ## Especificar filas como filas de encabezado
 
-Puede optar por repetir la primera fila de la tabla como fila de encabezado solo en la primera página o en cada página si la tabla está dividida en varias. En Aspose.Words, puede repetir la fila de encabezado en cada página usando la propiedad [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/).
+Puede optar por repetir la primera fila de la tabla como fila de encabezado solo en la primera página o en cada página si la tabla está dividida en varias. En Aspose.Words, puede repetir la fila de encabezado en cada página usando la propiedad [HeadingFormat](https://reference.aspose.com/words/es/net/aspose.words.tables/rowformat/headingformat/).
 
 También puede marcar varias filas de encabezado si dichas filas se encuentran una tras otra al principio de la tabla. Para hacer esto, debe aplicar las propiedades **HeadingFormat** a estas filas.
 
@@ -92,7 +92,7 @@ De forma predeterminada, las propiedades anteriores están deshabilitadas.
 
 ### Evite que una fila se divida en varias páginas {#keep-a-row-from-breaking-across-pages}
 
-Esto implica restringir el contenido dentro de las celdas de una fila para que no se divida en una página. En Microsoft Word, esto se puede encontrar en Propiedades de la tabla como la opción "Permitir que las filas se divida entre páginas". En Aspose.Words esto se encuentra bajo el objeto [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) de un [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) como propiedad [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
+Esto implica restringir el contenido dentro de las celdas de una fila para que no se divida en una página. En Microsoft Word, esto se puede encontrar en Propiedades de la tabla como la opción "Permitir que las filas se divida entre páginas". En Aspose.Words esto se encuentra bajo el objeto [RowFormat](https://reference.aspose.com/words/es/net/aspose.words.tables/rowformat/) de un [Row](https://reference.aspose.com/words/es/net/aspose.words.tables/row/) como propiedad [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/es/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
 
 El siguiente ejemplo de código muestra cómo deshabilitar la división de filas entre páginas para cada fila de una tabla:
 
@@ -108,7 +108,7 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 Para evitar que la tabla se divida en páginas, debemos especificar que queremos que el contenido de la tabla permanezca unido.
 
-Para hacer esto, Aspose.Words utiliza un método que permite a los usuarios seleccionar una tabla y habilitar el parámetro [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/) en verdadero para cada párrafo dentro de las celdas de la tabla. La excepción es el último párrafo de la tabla, que debe establecerse en falso.
+Para hacer esto, Aspose.Words utiliza un método que permite a los usuarios seleccionar una tabla y habilitar el parámetro [KeepWithNext](https://reference.aspose.com/words/es/net/aspose.words/paragraphformat/keepwithnext/) en verdadero para cada párrafo dentro de las celdas de la tabla. La excepción es el último párrafo de la tabla, que debe establecerse en falso.
 
 El siguiente ejemplo de código muestra cómo configurar una tabla para que permanezca junta en la misma página:
 

@@ -9,13 +9,13 @@ weight: 25
 url: /de/net/find-field-properties/
 ---
 
-Ein mit [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) eingefügtes Feld gibt ein [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/)-Objekt zurück. Dies ist eine Fassadenklasse, die nützliche Methoden bereitstellt, um schnell einige Eigenschaften eines Feldes zu finden.
+Ein mit [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertfield/) eingefügtes Feld gibt ein [Field](https://reference.aspose.com/words/de/net/aspose.words.fields/field/)-Objekt zurück. Dies ist eine Fassadenklasse, die nützliche Methoden bereitstellt, um schnell einige Eigenschaften eines Feldes zu finden.
 
 Das folgende Codebeispiel zeigt, wie Sie den Feldcode und das Feldergebnis finden:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldCode.cs" >}}
 
-Beachten Sie, dass Sie stattdessen die integrierte [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/)-Methode verwenden können, wenn Sie nur nach den Namen von Zusammenführungsfeldern in einem Dokument suchen.
+Beachten Sie, dass Sie stattdessen die integrierte [GetFieldNames](https://reference.aspose.com/words/de/net/aspose.words.mailmerging/mailmerge/getfieldnames/)-Methode verwenden können, wenn Sie nur nach den Namen von Zusammenführungsfeldern in einem Dokument suchen.
 
 Das folgende Codebeispiel zeigt, wie man Namen aller Zusammenführungsfelder in einem Dokument erhält:
 

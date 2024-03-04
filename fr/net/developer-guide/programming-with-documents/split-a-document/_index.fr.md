@@ -33,7 +33,7 @@ Vous pouvez essayer cette fonctionnalité avec notre [Séparateur de documents e
 
 Aspose.Words vous permet de diviser les documents EPUB ou HTML en chapitres selon divers critères. Ce faisant, le style et la mise en page du document source sont conservés pour les documents de sortie.
 
-Vous pouvez spécifier des critères à l'aide de l'énumération [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/documentsplitcriteria/). Vous pouvez ainsi diviser un document en chapitres en utilisant l'un des critères suivants ou combiner plusieurs critères ensemble:
+Vous pouvez spécifier des critères à l'aide de l'énumération [DocumentSplitCriteria](https://reference.aspose.com/words/fr/net/aspose.words.saving/documentsplitcriteria/). Vous pouvez ainsi diviser un document en chapitres en utilisant l'un des critères suivants ou combiner plusieurs critères ensemble:
 
 - paragraphe de titre,
 - saut de section,
@@ -44,7 +44,7 @@ Lors de l'enregistrement de la sortie au format HTML, Aspose.Words enregistre ch
 
 {{% alert color="primary" %}}
 
-Vous ne pouvez pas diviser un document à l'aide de la propriété [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) lors de l'enregistrement au format MHTML.
+Vous ne pouvez pas diviser un document à l'aide de la propriété [DocumentSplitCriteria](https://reference.aspose.com/words/fr/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) lors de l'enregistrement au format MHTML.
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Dans cette section, nous considérons seulement certains des critères de répar
 
 Pour diviser un document en chapitres par titres, utilisez la valeur **HeadingParagraph** de la propriété **DocumentSplitCriteria**.
 
-Si vous devez diviser un document par un niveau spécifique de paragraphes de titre, tels que les titres 1, 2 et 3, utilisez également la propriété [DocumentSplitHeadingLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/). La sortie sera divisée en paragraphes formatés avec le niveau de titre spécifié.
+Si vous devez diviser un document par un niveau spécifique de paragraphes de titre, tels que les titres 1, 2 et 3, utilisez également la propriété [DocumentSplitHeadingLevel](https://reference.aspose.com/words/fr/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/). La sortie sera divisée en paragraphes formatés avec le niveau de titre spécifié.
 
 L'exemple de code suivant montre comment diviser un document en parties plus petites par titre:
 
@@ -78,9 +78,9 @@ L'exemple de code suivant montre comment diviser un document en parties plus pet
 
 ## Divisé par pages {#splitting-by-pages}
 
-Vous pouvez également diviser un document page par page, par plages de pages ou en commençant par les numéros de page spécifiés. Dans ce cas, la méthode [ExtractPages](https://reference.aspose.com/words/net/aspose.words/document/extractpages/) peut faire l'affaire.
+Vous pouvez également diviser un document page par page, par plages de pages ou en commençant par les numéros de page spécifiés. Dans ce cas, la méthode [ExtractPages](https://reference.aspose.com/words/fr/net/aspose.words/document/extractpages/) peut faire l'affaire.
 
-Cette section décrit plusieurs cas d'utilisation de division de documents par pagination à l'aide de la classe [Document](https://reference.aspose.com/words/net/aspose.words/document/) et de la méthode **ExtractPages**.
+Cette section décrit plusieurs cas d'utilisation de division de documents par pagination à l'aide de la classe [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) et de la méthode **ExtractPages**.
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ L'exemple de code suivant montre comment diviser un document en parties plus pet
 
 ## Option de rappel pour enregistrer un document {#callback-option-for-saving-a-document}
 
-Vous pouvez utiliser la propriété [DocumentPartSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) pour contrôler la manière dont Aspose.Words enregistre les parties du document lorsque ce document est exporté au format HTML. Cette propriété vous permet de renommer les fichiers de sortie ou même de les rediriger vers des flux personnalisés.
+Vous pouvez utiliser la propriété [DocumentPartSavingCallback](https://reference.aspose.com/words/fr/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) pour contrôler la manière dont Aspose.Words enregistre les parties du document lorsque ce document est exporté au format HTML. Cette propriété vous permet de renommer les fichiers de sortie ou même de les rediriger vers des flux personnalisés.
 
 Veuillez noter que ce rappel n'est pas utile lors de l'enregistrement au format EPUB car toutes les parties de sortie doivent être enregistrées dans un seul conteneur: le fichier .epub. Ainsi, la redirection de flux n'est pas prise en charge et l'effet du changement de nom n'est pas visible puisque les fichiers sont renommés à l'intérieur du conteneur.
 

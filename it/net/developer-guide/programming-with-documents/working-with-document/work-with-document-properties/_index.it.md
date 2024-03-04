@@ -26,15 +26,15 @@ Tieni presente che puoi **non può dirigere** Aspose.Words per modificare o rimu
 
 Per accedere alle proprietà del documento in Aspose.Words utilizzare:
 
-* [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/builtindocumentproperties/) per ottenere proprietà integrate.
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/it/net/aspose.words/document/builtindocumentproperties/) per ottenere proprietà integrate.
 
-* [CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/customdocumentproperties/) per ottenere proprietà personalizzate.
+* [CustomDocumentProperties](https://reference.aspose.com/words/it/net/aspose.words/document/customdocumentproperties/) per ottenere proprietà personalizzate.
 
-**BuiltInDocumentProperties** e **CustomDocumentProperties** sono raccolte di oggetti [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/). Questi oggetti possono essere ottenuti tramite la proprietà indicizzatore per nome o per indice.
+**BuiltInDocumentProperties** e **CustomDocumentProperties** sono raccolte di oggetti [DocumentProperty](https://reference.aspose.com/words/it/net/aspose.words.properties/documentproperty/). Questi oggetti possono essere ottenuti tramite la proprietà indicizzatore per nome o per indice.
 
 **BuiltInDocumentProperties** fornisce inoltre l'accesso alle proprietà del documento tramite una serie di proprietà immesse che restituiscono valori del tipo appropriato. **CustomDocumentProperties** consente di aggiungere o rimuovere proprietà del documento da un documento.
 
-La classe [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) consente di ottenere il nome, il valore e il tipo di una proprietà del documento. [Value](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/value/) restituisce un oggetto, ma esiste una serie di metodi che consente di convertire il valore della proprietà in un tipo specifico. Dopo aver appreso il tipo della proprietà, è possibile utilizzare uno dei metodi **DocumentProperty.ToXXX**, ad esempio **DocumentProperty.**[ToString](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/tostring/) e **DocumentProperty.**[ToInt](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/toint/), per ottenere il valore del tipo appropriato.
+La classe [DocumentProperty](https://reference.aspose.com/words/it/net/aspose.words.properties/documentproperty/) consente di ottenere il nome, il valore e il tipo di una proprietà del documento. [Value](https://reference.aspose.com/words/it/net/aspose.words.properties/documentproperty/value/) restituisce un oggetto, ma esiste una serie di metodi che consente di convertire il valore della proprietà in un tipo specifico. Dopo aver appreso il tipo della proprietà, è possibile utilizzare uno dei metodi **DocumentProperty.ToXXX**, ad esempio **DocumentProperty.**[ToString](https://reference.aspose.com/words/it/net/aspose.words.properties/documentproperty/tostring/) e **DocumentProperty.**[ToInt](https://reference.aspose.com/words/it/net/aspose.words.properties/documentproperty/toint/), per ottenere il valore del tipo appropriato.
 
 L'esempio di codice seguente mostra come enumerare tutte le proprietà integrate e personalizzate in un documento:
 
@@ -54,9 +54,9 @@ In Microsoft Word, puoi accedere alle proprietà del documento utilizzando il me
 
 Non è possibile aggiungere o rimuovere proprietà del documento integrate utilizzando Aspose.Words. Puoi solo modificare o aggiornare i loro valori.
 
-Per aggiungere proprietà personalizzate al documento con Aspose.Words, utilizzare il metodo [Add](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/add/#add/), passando il nome della nuova proprietà e il valore del tipo appropriato. Il metodo restituisce l'oggetto **DocumentProperty** appena creato.
+Per aggiungere proprietà personalizzate al documento con Aspose.Words, utilizzare il metodo [Add](https://reference.aspose.com/words/it/net/aspose.words.properties/customdocumentproperties/add/#add/), passando il nome della nuova proprietà e il valore del tipo appropriato. Il metodo restituisce l'oggetto **DocumentProperty** appena creato.
 
-Per rimuovere proprietà personalizzate, utilizzare il metodo [Remove](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/), passandogli il nome della proprietà da rimuovere, oppure il metodo [RemoveAt](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/at) per rimuovere la proprietà in base all'indice. Puoi anche rimuovere tutte le proprietà utilizzando il metodo [Clear](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/clear/).
+Per rimuovere proprietà personalizzate, utilizzare il metodo [Remove](https://reference.aspose.com/words/it/net/aspose.words.properties/documentpropertycollection/remove/), passandogli il nome della proprietà da rimuovere, oppure il metodo [RemoveAt](https://reference.aspose.com/words/it/net/aspose.words.properties/documentpropertycollection/remove/at) per rimuovere la proprietà in base all'indice. Puoi anche rimuovere tutte le proprietà utilizzando il metodo [Clear](https://reference.aspose.com/words/it/net/aspose.words.properties/documentpropertycollection/clear/).
 
 Il seguente esempio di codice controlla se in un documento esiste una proprietà personalizzata con un determinato nome e aggiunge alcune altre proprietà personalizzate del documento:
 
@@ -74,17 +74,17 @@ L'esempio di codice seguente mostra come rimuovere una proprietà del documento 
 
 ## Aggiorna le proprietà del documento integrate
 
-Aspose.Words non aggiorna automaticamente le proprietà del documento, come fa Microsoft Word con alcune proprietà, ma fornisce un metodo per aggiornare alcune proprietà statistiche integrate del documento. Chiama il metodo [UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/#updatewordcount/) per ricalcolare e aggiornare le seguenti proprietà:
+Aspose.Words non aggiorna automaticamente le proprietà del documento, come fa Microsoft Word con alcune proprietà, ma fornisce un metodo per aggiornare alcune proprietà statistiche integrate del documento. Chiama il metodo [UpdateWordCount](https://reference.aspose.com/words/it/net/aspose.words/document/updatewordcount/#updatewordcount/) per ricalcolare e aggiornare le seguenti proprietà:
 
-* [Characters](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characters/)
-* [CharactersWithSpaces](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
-* [Words](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/words/)
-* [Paragraphs](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
-* [Lines](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lines/)
+* [Characters](https://reference.aspose.com/words/it/net/aspose.words.properties/builtindocumentproperties/characters/)
+* [CharactersWithSpaces](https://reference.aspose.com/words/it/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
+* [Words](https://reference.aspose.com/words/it/net/aspose.words.properties/builtindocumentproperties/words/)
+* [Paragraphs](https://reference.aspose.com/words/it/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
+* [Lines](https://reference.aspose.com/words/it/net/aspose.words.properties/builtindocumentproperties/lines/)
 
 ## Crea una nuova proprietà personalizzata collegata al contenuto
 
-Aspose.Words fornisce il metodo [AddLinkToContent](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) per creare una nuova proprietà del documento personalizzata collegata al contenuto. Questa proprietà restituisce l'oggetto proprietà appena creato oppure null se l'[LinkSource](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/linksource/) non è valido.
+Aspose.Words fornisce il metodo [AddLinkToContent](https://reference.aspose.com/words/it/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) per creare una nuova proprietà del documento personalizzata collegata al contenuto. Questa proprietà restituisce l'oggetto proprietà appena creato oppure null se l'[LinkSource](https://reference.aspose.com/words/it/net/aspose.words.properties/documentproperty/linksource/) non è valido.
 
 L'esempio di codice seguente mostra come configurare un collegamento a una proprietà personalizzata:
 
@@ -92,7 +92,7 @@ L'esempio di codice seguente mostra come configurare un collegamento a una propr
 
 ## Ottieni variabili del documento
 
-Puoi ottenere una raccolta di variabili del documento utilizzando la proprietà [Variables](https://reference.aspose.com/words/net/aspose.words/document/variables/). I nomi e i valori delle variabili sono stringhe.
+Puoi ottenere una raccolta di variabili del documento utilizzando la proprietà [Variables](https://reference.aspose.com/words/it/net/aspose.words/document/variables/). I nomi e i valori delle variabili sono stringhe.
 
 L'esempio di codice seguente mostra come enumerare le variabili del documento:
 
@@ -106,7 +106,7 @@ L'esempio di codice seguente mostra come enumerare le variabili del documento:
 
 ## Rimuovere le informazioni personali dal documento
 
-Se desideri condividere un documento Word con altre persone, potresti voler rimuovere informazioni personali come il nome dell'autore e l'azienda. Per fare ciò, utilizzare la proprietà [RemovePersonalInformation](https://reference.aspose.com/words/net/aspose.words/document/removepersonalinformation/) per impostare il flag che indica che Microsoft Word rimuoverà tutte le informazioni dell'utente da commenti, revisioni e proprietà del documento al momento del salvataggio del documento.
+Se desideri condividere un documento Word con altre persone, potresti voler rimuovere informazioni personali come il nome dell'autore e l'azienda. Per fare ciò, utilizzare la proprietà [RemovePersonalInformation](https://reference.aspose.com/words/it/net/aspose.words/document/removepersonalinformation/) per impostare il flag che indica che Microsoft Word rimuoverà tutte le informazioni dell'utente da commenti, revisioni e proprietà del documento al momento del salvataggio del documento.
 
 L'esempio di codice seguente mostra come rimuovere le informazioni personali:
 

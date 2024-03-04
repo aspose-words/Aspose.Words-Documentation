@@ -13,25 +13,25 @@ Une liste dans un document Microsoft Word est un ensemble de propriétés de for
 
 Chaque liste peut avoir jusqu'à 9 niveaux et les propriétés de formatage telles que le style de numéro, la valeur de départ, l'indentation, la position de tabulation et autres sont définies séparément pour chaque niveau.
 
-Dans Aspose.Words, l'utilisation de listes est représentée par l'espace de noms [Lists](https://reference.aspose.com/words/net/aspose.words.lists/). Cependant, l'objet [List](https://reference.aspose.com/words/net/aspose.words.lists/list/) appartient toujours au [ListCollection](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/).
+Dans Aspose.Words, l'utilisation de listes est représentée par l'espace de noms [Lists](https://reference.aspose.com/words/fr/net/aspose.words.lists/). Cependant, l'objet [List](https://reference.aspose.com/words/fr/net/aspose.words.lists/list/) appartient toujours au [ListCollection](https://reference.aspose.com/words/fr/net/aspose.words.lists/listcollection/).
 
 Cet article décrit l'utilisation par programmation de listes à l'aide de Aspose.Words.
 
 ## Créer des listes en appliquant le formatage de liste
 
-Aspose.Words permet de créer facilement des listes en appliquant un formatage de liste. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) fournit la propriété [ListFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/listformat/) qui renvoie un objet **ListFormat**. Cet objet dispose de plusieurs méthodes pour démarrer et terminer une liste et pour augmenter/diminuer le retrait. Il existe deux types généraux de listes en Microsoft Word: à puces et numérotées:
+Aspose.Words permet de créer facilement des listes en appliquant un formatage de liste. [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) fournit la propriété [ListFormat](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/listformat/) qui renvoie un objet **ListFormat**. Cet objet dispose de plusieurs méthodes pour démarrer et terminer une liste et pour augmenter/diminuer le retrait. Il existe deux types généraux de listes en Microsoft Word: à puces et numérotées:
 
-- Pour démarrer une liste à puces, appelez [ApplyBulletDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applybulletdefault/)
-- Pour démarrer une liste numérotée, appelez [ApplyNumberDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applynumberdefault/)
+- Pour démarrer une liste à puces, appelez [ApplyBulletDefault](https://reference.aspose.com/words/fr/net/aspose.words.lists/listformat/applybulletdefault/)
+- Pour démarrer une liste numérotée, appelez [ApplyNumberDefault](https://reference.aspose.com/words/fr/net/aspose.words.lists/listformat/applynumberdefault/)
 
-La puce ou le numéro et le formatage sont ajoutés au paragraphe actuel et à tous les autres paragraphes créés à l'aide de **DocumentBuilder** jusqu'à ce que [RemoveNumbers](https://reference.aspose.com/words/net/aspose.words.lists/listformat/removenumbers/) soit appelé pour arrêter le formatage de la liste à puces.
+La puce ou le numéro et le formatage sont ajoutés au paragraphe actuel et à tous les autres paragraphes créés à l'aide de **DocumentBuilder** jusqu'à ce que [RemoveNumbers](https://reference.aspose.com/words/fr/net/aspose.words.lists/listformat/removenumbers/) soit appelé pour arrêter le formatage de la liste à puces.
 
 Dans les documents Word, les listes peuvent comprendre jusqu'à neuf niveaux. Le formatage de la liste pour chaque niveau spécifie quelle puce ou quel numéro est utilisé, le retrait à gauche, l'espace entre la puce et le texte, etc. Les méthodes suivantes modifient le niveau de liste et appliquent les propriétés de formatage du nouveau niveau:
 
-- Pour augmenter le niveau de liste du paragraphe actuel d'un niveau, appelez [ListIndent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listindent/)
-- Pour diminuer le niveau de liste du paragraphe actuel d'un niveau, appelez [ListOutdent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listoutdent/)
+- Pour augmenter le niveau de liste du paragraphe actuel d'un niveau, appelez [ListIndent](https://reference.aspose.com/words/fr/net/aspose.words.lists/listformat/listindent/)
+- Pour diminuer le niveau de liste du paragraphe actuel d'un niveau, appelez [ListOutdent](https://reference.aspose.com/words/fr/net/aspose.words.lists/listformat/listoutdent/)
 
-Vous pouvez également utiliser la propriété [ListLevelNumber](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listlevelnumber/) pour obtenir ou définir le niveau de liste du paragraphe.
+Vous pouvez également utiliser la propriété [ListLevelNumber](https://reference.aspose.com/words/fr/net/aspose.words.lists/listformat/listlevelnumber/) pour obtenir ou définir le niveau de liste du paragraphe.
 
 {{% alert color="primary" %}}
 
@@ -45,11 +45,11 @@ L'exemple de code suivant montre comment créer une liste à plusieurs niveaux:
 
 ## Spécifier le formatage d'un niveau de liste
 
-Les objets au niveau de la liste sont créés automatiquement lors de la création d'une liste. Utilisez les propriétés et méthodes de la classe [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) pour contrôler le formatage des niveaux individuels d'une liste.
+Les objets au niveau de la liste sont créés automatiquement lors de la création d'une liste. Utilisez les propriétés et méthodes de la classe [ListLevel](https://reference.aspose.com/words/fr/net/aspose.words.lists/listlevel/) pour contrôler le formatage des niveaux individuels d'une liste.
 
 ## Liste de redémarrage pour chaque section
 
-Vous pouvez redémarrer une liste pour chaque section à l'aide de la propriété [IsRestartAtEachSection](https://reference.aspose.com/words/net/aspose.words.lists/list/isrestartateachsection/). Notez que cette option n'est prise en charge que dans les formats de document RTF, DOC et DOCX. Cette option sera écrite dans DOCX uniquement si OoxmlCompliance est supérieur à Ecma376.
+Vous pouvez redémarrer une liste pour chaque section à l'aide de la propriété [IsRestartAtEachSection](https://reference.aspose.com/words/fr/net/aspose.words.lists/list/isrestartateachsection/). Notez que cette option n'est prise en charge que dans les formats de document RTF, DOC et DOCX. Cette option sera écrite dans DOCX uniquement si OoxmlCompliance est supérieur à Ecma376.
 
 L'exemple de code suivant montre comment créer une liste et la redémarrer pour chaque section:
 

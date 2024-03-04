@@ -9,11 +9,11 @@ weight: 15
 url: /fr/net/convert-a-document-to-excel/
 ---
 
-La conversion de documents d'un format à un autre est la fonctionnalité phare de Aspose.Words. Vous pouvez également convertir des documents dans n'importe quel [format de chargement](https://reference.aspose.com/words/net/aspose.words/loadformat/) disponible au format XLSX.
+La conversion de documents d'un format à un autre est la fonctionnalité phare de Aspose.Words. Vous pouvez également convertir des documents dans n'importe quel [format de chargement](https://reference.aspose.com/words/fr/net/aspose.words/loadformat/) disponible au format XLSX.
 
 ## Convertir un document en XLSX
 
-La conversion d'un document en XLSX est un processus assez compliqué. Pour enregistrer votre document au format XLSX à l'aide de Aspose.Words, utilisez la classe [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) et le nouvel élément `Xlsx` dans l'énumération [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/). Comme mentionné ci-dessus, vous pouvez enregistrer le document dans n'importe quel format de chargement pris en charge par Aspose.Words vers XLSX.
+La conversion d'un document en XLSX est un processus assez compliqué. Pour enregistrer votre document au format XLSX à l'aide de Aspose.Words, utilisez la classe [XlsxSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/xlsxsaveoptions/) et le nouvel élément `Xlsx` dans l'énumération [SaveFormat](https://reference.aspose.com/words/fr/net/aspose.words/saveformat/). Comme mentionné ci-dessus, vous pouvez enregistrer le document dans n'importe quel format de chargement pris en charge par Aspose.Words vers XLSX.
 
 L'exemple de code suivant montre comment enregistrer un PDF au format XLSX:
 
@@ -24,7 +24,7 @@ doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
 
 {{% alert color="primary" %}}
 
-Parfois, il est nécessaire de spécifier des options supplémentaires, ce qui peut affecter le résultat de l'enregistrement d'un document au format XLSX. Ces options peuvent être spécifiées à l'aide de la classe [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/), contenant des propriétés qui déterminent la manière dont la sortie XLSX sera affichée.
+Parfois, il est nécessaire de spécifier des options supplémentaires, ce qui peut affecter le résultat de l'enregistrement d'un document au format XLSX. Ces options peuvent être spécifiées à l'aide de la classe [XlsxSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/xlsxsaveoptions/), contenant des propriétés qui déterminent la manière dont la sortie XLSX sera affichée.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "BaseConversions.FindReplaceXlsx.xlsx");
 
 ## Spécifier le niveau de compression lors de l'enregistrement au format XLSX
 
-Vous pouvez également spécifier le niveau de compression lors de l'enregistrement à l'aide de la propriété [CompressionLevel](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/).
+Vous pouvez également spécifier le niveau de compression lors de l'enregistrement à l'aide de la propriété [CompressionLevel](https://reference.aspose.com/words/fr/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/).
 
 L'exemple de code suivant montre comment spécifier le niveau de compression lors de l'enregistrement au format XLSX:
 

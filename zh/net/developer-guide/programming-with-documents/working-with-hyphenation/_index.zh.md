@@ -66,7 +66,7 @@ Aspose.Words 实现了 [TeX 连字算法](https://github.com/hunspell/hyphen/blo
 
 {{% /alert %}}
 
-作为预注册连字词典的替代方案，可以"根据请求"仅注册所需的连字词典。为此，请实现 [IHyphenationCallback](https://reference.aspose.com/words/net/aspose.words/ihyphenationcallback/) 接口并使用静态回调 [Callback](https://reference.aspose.com/words/net/aspose.words/hyphenation/callback/)。
+作为预注册连字词典的替代方案，可以"根据请求"仅注册所需的连字词典。为此，请实现 [IHyphenationCallback](https://reference.aspose.com/words/zh/net/aspose.words/ihyphenationcallback/) 接口并使用静态回调 [Callback](https://reference.aspose.com/words/zh/net/aspose.words/hyphenation/callback/)。
 
 以下代码示例展示了如何实现 **IHyphenationCallback** 接口：
 

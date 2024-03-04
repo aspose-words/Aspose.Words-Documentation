@@ -60,7 +60,7 @@ Aspose.Words 是一个类库，设计用于服务器端处理各种格式的文�
 
 还值得注意的是，在文档中分隔两个连续的表格需要表格后至少有一个空段落。如果没有这样的段落，连续的表格将被连接成一个。此行为在 Microsoft Word 和 Aspose.Words 中是相同的。
 
-在 Aspose.Words 中，所有与表相关的类和属性都包含在 [Aspose.Words.Tables](https://reference.aspose.com/words/net/aspose.words.tables/) 命名空间中。
+在 Aspose.Words 中，所有与表相关的类和属性都包含在 [Aspose.Words.Tables](https://reference.aspose.com/words/zh/net/aspose.words.tables/) 命名空间中。
 
 ## 也可以看看
 

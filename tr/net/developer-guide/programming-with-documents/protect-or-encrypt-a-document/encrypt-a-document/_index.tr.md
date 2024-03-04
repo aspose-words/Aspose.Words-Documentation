@@ -19,7 +19,7 @@ Bir belgeyi şifrelemek için, şifreleme anahtarı işlevi gören bir parola sa
 
 {{% alert color="primary" %}}
 
-Gerekli format için uygun **Password** özelliğini bulabilirsiniz. [Ad Alanı Kaydediliyor](https://reference.aspose.com/words/net/aspose.words.saving/)'deki her belge kaydetme biçimi, bu biçim için kaydetme seçeneklerini içeren karşılık gelen bir sınıfa sahiptir. Örneğin, DOC için [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) sınıfındaki [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) özelliği veya DOCX, DOCM, DOTX, DOTM ve FlatOpc için [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) sınıfındaki [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) özelliği.
+Gerekli format için uygun **Password** özelliğini bulabilirsiniz. [Ad Alanı Kaydediliyor](https://reference.aspose.com/words/tr/net/aspose.words.saving/)'deki her belge kaydetme biçimi, bu biçim için kaydetme seçeneklerini içeren karşılık gelen bir sınıfa sahiptir. Örneğin, DOC için [DocSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/docsaveoptions/) sınıfındaki [Password](https://reference.aspose.com/words/tr/net/aspose.words.saving/docsaveoptions/password/) özelliği veya DOCX, DOCM, DOTX, DOTM ve FlatOpc için [OoxmlSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/ooxmlsaveoptions/) sınıfındaki [Password](https://reference.aspose.com/words/tr/net/aspose.words.saving/ooxmlsaveoptions/password/) özelliği.
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ Aşağıdaki kod örneği, bir belgenin parolayla nasıl şifreleneceğini göst
 
 Bazı durumlarda, okunamayan bir belgeniz olabilir ve belgenin şifrelendiğinden, bozulmadığından veya sıkıştırılmadığından emin olmak isteyebilirsiniz.
 
-Bir belgenin şifrelenip şifrelenmediğini ve şifre gerekip gerekmediğini tespit etmek için [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/) sınıfının [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) özelliğini kullanabilirsiniz. Bu özellik aynı zamanda bir belgeyi yüklemeden önce, örneğin kullanıcıya parola girmesini bildirmek gibi bazı eylemleri gerçekleştirmenize de olanak tanır.
+Bir belgenin şifrelenip şifrelenmediğini ve şifre gerekip gerekmediğini tespit etmek için [FileFormatInfo](https://reference.aspose.com/words/tr/net/aspose.words/fileformatinfo/) sınıfının [IsEncrypted](https://reference.aspose.com/words/tr/net/aspose.words/fileformatinfo/isencrypted/) özelliğini kullanabilirsiniz. Bu özellik aynı zamanda bir belgeyi yüklemeden önce, örneğin kullanıcıya parola girmesini bildirmek gibi bazı eylemleri gerçekleştirmenize de olanak tanır.
 
 Aşağıdaki kod örneği, belge şifrelemesinin nasıl algılanacağını gösterir:
 

@@ -22,7 +22,7 @@ Hay dos formas principales de obtener fuentes TrueType en un sistema Linux:
 
 ## Copiar fuentes desde una máquina Windows
 
-Una manera fácil y rápida de obtener fuentes TrueType en un sistema Linux es copiar archivos .TTF y .TTC del directorio `C:\Windows\Fonts` en una máquina Windows a algún directorio en su máquina Linux. No es necesario instalar ni registrar estas fuentes en Linux de ninguna manera; sólo necesitas especificar la ubicación de las fuentes usando la clase [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) en Aspose.Words.
+Una manera fácil y rápida de obtener fuentes TrueType en un sistema Linux es copiar archivos .TTF y .TTC del directorio `C:\Windows\Fonts` en una máquina Windows a algún directorio en su máquina Linux. No es necesario instalar ni registrar estas fuentes en Linux de ninguna manera; sólo necesitas especificar la ubicación de las fuentes usando la clase [FontSettings](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/) en Aspose.Words.
 
 {{% alert color="primary" %}}
 

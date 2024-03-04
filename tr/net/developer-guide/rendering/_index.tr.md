@@ -19,7 +19,7 @@ Aspose.Words'in işleme özellikleri aşağıdakileri gerçekleştirmenizi sağl
 - Bir belgeyi çok sayfalı bir TIFF belgesine dönüştürün veya herhangi bir sayfayı taramalı görüntüye dönüştürün ve BMP, PNG veya JPEG olarak kaydedin.
 - Bir belge sayfasını Ölçeklenebilir Vektör Grafikleri görüntüsüne (SVG) dönüştürün veya bir vektör görüntüsüne dönüştürün ve EMF olarak kaydedin.
 - Belge sayfalarının küçük resimlerini, tam boyutlu veya ölçeklendirilmiş görüntülerini oluşturmak için bir belge sayfasını .NET Graphics nesnesinde belirli bir boyut veya ölçekte işleyin (çizin).
-- Bir [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) nesnesini belgeden ayrı olarak herhangi bir görüntü formatına veya bir .NET Grafik nesnesine dönüştürün.
+- Bir [Shape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/) nesnesini belgeden ayrı olarak herhangi bir görüntü formatına veya bir .NET Grafik nesnesine dönüştürün.
 - Bir belgenin herhangi bir sayfasını Windows Formunda görüntüleyin.
 - Standart .NET yazdırma altyapısını kullanarak belge sayfalarını yazdırın veya önizleyin.
 

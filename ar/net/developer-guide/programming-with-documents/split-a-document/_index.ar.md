@@ -33,7 +33,7 @@ url: /ar/net/split-a-document/
 
 يتيح لك Aspose.Words تقسيم مستندات EPUB أو HTML إلى فصول وفقًا لمعايير مختلفة. في هذه العملية، يتم الحفاظ على نمط وتخطيط المستند المصدر للمستندات الناتجة.
 
-يمكنك تحديد المعايير باستخدام تعداد [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/documentsplitcriteria/). لذا يمكنك تقسيم المستند إلى فصول باستخدام أحد المعايير التالية أو دمج أكثر من معيار معًا:
+يمكنك تحديد المعايير باستخدام تعداد [DocumentSplitCriteria](https://reference.aspose.com/words/ar/net/aspose.words.saving/documentsplitcriteria/). لذا يمكنك تقسيم المستند إلى فصول باستخدام أحد المعايير التالية أو دمج أكثر من معيار معًا:
 
 - فقرة العنوان،
 - فاصل المقطع،
@@ -44,7 +44,7 @@ url: /ar/net/split-a-document/
 
 {{% alert color="primary" %}}
 
-لا يمكنك تقسيم مستند باستخدام خاصية [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) عند الحفظ بتنسيق MHTML.
+لا يمكنك تقسيم مستند باستخدام خاصية [DocumentSplitCriteria](https://reference.aspose.com/words/ar/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) عند الحفظ بتنسيق MHTML.
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ url: /ar/net/split-a-document/
 
 لتقسيم مستند إلى فصول حسب العناوين، استخدم قيمة **HeadingParagraph** لخاصية **DocumentSplitCriteria**.
 
-إذا كنت بحاجة إلى تقسيم مستند حسب مستوى معين من فقرات العناوين، مثل العناوين 1 و2 و3، فاستخدم أيضًا خاصية [DocumentSplitHeadingLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/). سيتم تقسيم المخرجات على فقرات منسقة بمستوى العنوان المحدد.
+إذا كنت بحاجة إلى تقسيم مستند حسب مستوى معين من فقرات العناوين، مثل العناوين 1 و2 و3، فاستخدم أيضًا خاصية [DocumentSplitHeadingLevel](https://reference.aspose.com/words/ar/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/). سيتم تقسيم المخرجات على فقرات منسقة بمستوى العنوان المحدد.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تقسيم مستند إلى أجزاء أصغر حسب العنوان:
 
@@ -78,9 +78,9 @@ url: /ar/net/split-a-document/
 
 ## تقسيم حسب الصفحات {#splitting-by-pages}
 
-يمكنك أيضًا تقسيم صفحة مستند بصفحة، أو حسب نطاقات الصفحات، أو البدء بأرقام الصفحات المحددة. في مثل هذه الحالة، يمكن لطريقة [ExtractPages](https://reference.aspose.com/words/net/aspose.words/document/extractpages/) القيام بهذه المهمة.
+يمكنك أيضًا تقسيم صفحة مستند بصفحة، أو حسب نطاقات الصفحات، أو البدء بأرقام الصفحات المحددة. في مثل هذه الحالة، يمكن لطريقة [ExtractPages](https://reference.aspose.com/words/ar/net/aspose.words/document/extractpages/) القيام بهذه المهمة.
 
-يصف هذا القسم العديد من حالات الاستخدام لتقسيم المستندات عن طريق الترحيل إلى صفحات باستخدام فئة [Document](https://reference.aspose.com/words/net/aspose.words/document/) وطريقة **ExtractPages**.
+يصف هذا القسم العديد من حالات الاستخدام لتقسيم المستندات عن طريق الترحيل إلى صفحات باستخدام فئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) وطريقة **ExtractPages**.
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ url: /ar/net/split-a-document/
 
 ## خيار رد الاتصال لحفظ مستند {#callback-option-for-saving-a-document}
 
-يمكنك استخدام خاصية [DocumentPartSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) للتحكم في كيفية حفظ Aspose.Words لأجزاء المستند عند تصدير هذا المستند إلى تنسيق HTML. تسمح لك هذه الخاصية بإعادة تسمية ملفات الإخراج أو حتى إعادة توجيهها إلى تدفقات مخصصة.
+يمكنك استخدام خاصية [DocumentPartSavingCallback](https://reference.aspose.com/words/ar/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) للتحكم في كيفية حفظ Aspose.Words لأجزاء المستند عند تصدير هذا المستند إلى تنسيق HTML. تسمح لك هذه الخاصية بإعادة تسمية ملفات الإخراج أو حتى إعادة توجيهها إلى تدفقات مخصصة.
 
 يرجى ملاحظة أن رد الاتصال هذا ليس مفيدًا عند الحفظ في EPUB لأنه يجب حفظ جميع أجزاء المخرجات في حاوية واحدة - ملف .epub. لذلك، إعادة توجيه الدفق غير مدعومة، وتأثير إعادة التسمية غير مرئي حيث تتم إعادة تسمية الملفات داخل الحاوية.
 

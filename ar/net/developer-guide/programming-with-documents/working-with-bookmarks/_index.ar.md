@@ -15,7 +15,7 @@ url: /ar/net/working-with-bookmarks/
 
 ## أدخل إشارة مرجعية
 
-استخدم [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) و[EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/) لإنشاء إشارة مرجعية عن طريق تحديد بدايتها ونهايتها، على التوالي. لا تنس تمرير نفس اسم الإشارة المرجعية إلى كلا الطريقتين. يمكن أن تتداخل الإشارات المرجعية الموجودة في المستند وتمتد إلى أي نطاق. سيتم تجاهل الإشارات المرجعية التي تم تكوينها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
+استخدم [StartBookmark](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/startbookmark/) و[EndBookmark](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/endbookmark/) لإنشاء إشارة مرجعية عن طريق تحديد بدايتها ونهايتها، على التوالي. لا تنس تمرير نفس اسم الإشارة المرجعية إلى كلا الطريقتين. يمكن أن تتداخل الإشارات المرجعية الموجودة في المستند وتمتد إلى أي نطاق. سيتم تجاهل الإشارات المرجعية التي تم تكوينها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ url: /ar/net/working-with-bookmarks/
 
 ## الحصول على الإشارات المرجعية
 
-في بعض الأحيان يكون من الضروري الحصول على مجموعة إشارات مرجعية للتكرار من خلال الإشارات المرجعية أو لأغراض أخرى. استخدم خاصية [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) التي تم الكشف عنها بواسطة أي عقدة مستند تقوم بإرجاع كائن [Range](https://reference.aspose.com/words/net/aspose.words/range/) يمثل جزء المستند الموجود في هذه العقدة. استخدم هذا الكائن لاسترداد [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/) ثم استخدم مفهرس المجموعة للحصول على إشارة مرجعية محددة.
+في بعض الأحيان يكون من الضروري الحصول على مجموعة إشارات مرجعية للتكرار من خلال الإشارات المرجعية أو لأغراض أخرى. استخدم خاصية [Node.Range](https://reference.aspose.com/words/ar/net/aspose.words/node/range/) التي تم الكشف عنها بواسطة أي عقدة مستند تقوم بإرجاع كائن [Range](https://reference.aspose.com/words/ar/net/aspose.words/range/) يمثل جزء المستند الموجود في هذه العقدة. استخدم هذا الكائن لاسترداد [BookmarkCollection](https://reference.aspose.com/words/ar/net/aspose.words/bookmarkcollection/) ثم استخدم مفهرس المجموعة للحصول على إشارة مرجعية محددة.
 
 يوضح مثال التعليمات البرمجية التالي كيفية الحصول على الإشارات المرجعية من مجموعة الإشارات المرجعية:
 
@@ -66,7 +66,7 @@ url: /ar/net/working-with-bookmarks/
 
 ## الانتقال إلى إشارة مرجعية
 
-إذا كنت بحاجة إلى إدراج محتوى منسق (وليس مجرد نص عادي) في إشارة مرجعية، فيجب عليك استخدام [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) لتحريك المؤشر إلى الإشارة المرجعية ثم استخدام أساليب وخصائص [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) لإدراج المحتوى.
+إذا كنت بحاجة إلى إدراج محتوى منسق (وليس مجرد نص عادي) في إشارة مرجعية، فيجب عليك استخدام [MoveToBookmark](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/movetobookmark/) لتحريك المؤشر إلى الإشارة المرجعية ثم استخدام أساليب وخصائص [DocumentBuilder's](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) لإدراج المحتوى.
 
 ## إظهار إخفاء محتوى الإشارة المرجعية
 

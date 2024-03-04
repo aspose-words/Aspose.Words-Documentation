@@ -13,13 +13,13 @@ url: /ru/net/working-with-form-fields/
 
 Вы можете использовать поля формы в своем проекте для "общения" с пользователями. Например, вы создаете документ, содержимое которого защищено, но редактировать можно только поля формы. Пользователи могут ввести данные в поля формы и отправить документ. Ваше приложение, использующее Aspose.Words, может извлекать данные из полей формы и обрабатывать их.
 
-Разместить поля формы в документе с помощью кода очень просто. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) имеет специальные методы для их вставки, по одному для каждого типа поля формы. Каждый из методов принимает строковый параметр, представляющий имя поля формы. Имя может быть пустой строкой. Однако если вы укажете имя для поля формы, то автоматически создастся закладка с тем же именем.
+Разместить поля формы в документе с помощью кода очень просто. [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) имеет специальные методы для их вставки, по одному для каждого типа поля формы. Каждый из методов принимает строковый параметр, представляющий имя поля формы. Имя может быть пустой строкой. Однако если вы укажете имя для поля формы, то автоматически создастся закладка с тем же именем.
 
 ## Вставка полей формы
 
 Поля формы — это частный случай полей Word, который позволяет "взаимодействовать" с пользователем. Поля формы в Microsoft Word включают текстовое поле, поле со списком и флажок.
 
-**DocumentBuilder** предоставляет специальные методы для вставки каждого типа поля формы в документ: [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/) и [InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Обратите внимание, что если вы укажете имя для поля формы, то автоматически создастся закладка с тем же именем.
+**DocumentBuilder** предоставляет специальные методы для вставки каждого типа поля формы в документ: [InsertTextInput](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertcheckbox/) и [InsertComboBox](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertcombobox/). Обратите внимание, что если вы укажете имя для поля формы, то автоматически создастся закладка с тем же именем.
 
 В следующем примере кода показано, как вставить поле формы со списком в документ:
 
@@ -51,7 +51,7 @@ url: /ru/net/working-with-form-fields/
 
 ## Получить поля формы
 
-Коллекция полей формы представлена классом [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/), который можно получить с помощью свойства [FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/). Это означает, что вы можете получить поля формы, содержащиеся в любом узле документа, включая сам документ.
+Коллекция полей формы представлена классом [FormFieldCollection](https://reference.aspose.com/words/ru/net/aspose.words.fields/formfieldcollection/), который можно получить с помощью свойства [FormFields](https://reference.aspose.com/words/ru/net/aspose.words/range/formfields/). Это означает, что вы можете получить поля формы, содержащиеся в любом узле документа, включая сам документ.
 
 {{% alert color="primary" %}}
 
@@ -77,7 +77,7 @@ url: /ru/net/working-with-form-fields/
 
 ## Форматирование полей формы
 
-Свойство [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) объекта [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) позволяет применять форматирование шрифта к **FormField** в целом, включая значение поля.
+Свойство [Font](https://reference.aspose.com/words/ru/net/aspose.words/inline/font/) объекта [FormField](https://reference.aspose.com/words/ru/net/aspose.words.fields/formfield/) позволяет применять форматирование шрифта к **FormField** в целом, включая значение поля.
 
 В следующем примере кода показано, как применить форматирование шрифта к **FormField**:
 

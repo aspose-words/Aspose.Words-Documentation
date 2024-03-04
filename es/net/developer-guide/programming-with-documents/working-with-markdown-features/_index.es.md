@@ -106,7 +106,7 @@ El siguiente fragmento de código le muestra cómo leer un documento markdown.
 
 ## Especificar opciones de guardado de Markdown
 
-Aspose.Words API proporciona una clase [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) para especificar opciones adicionales al guardar un documento en formato Markdown.
+Aspose.Words API proporciona una clase [MarkdownSaveOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/markdownsaveoptions/) para especificar opciones adicionales al guardar un documento en formato Markdown.
 
 El siguiente ejemplo de código demostró cómo especificar varias opciones de guardado de Markdown.
 
@@ -114,6 +114,6 @@ El siguiente ejemplo de código demostró cómo especificar varias opciones de g
 
 ## Cómo alinear contenido dentro de la tabla mientras se exporta a Markdown
 
-Aspose.Words API proporciona una enumeración [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) que define las direcciones de alineación para alinear el contenido de las tablas mientras se exporta al documento Markdown. El siguiente ejemplo de código demuestra cómo alinear el contenido dentro de la tabla.
+Aspose.Words API proporciona una enumeración [TableContentAlignment](https://reference.aspose.com/words/es/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) que define las direcciones de alineación para alinear el contenido de las tablas mientras se exporta al documento Markdown. El siguiente ejemplo de código demuestra cómo alinear el contenido dentro de la tabla.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

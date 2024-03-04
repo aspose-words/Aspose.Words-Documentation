@@ -17,19 +17,19 @@ Les sections suivantes décrivent les niveaux logiques des nœuds dans Aspose.Wo
 
 ## Niveau logique du document et de la section
 
-Un document Word se compose d'une ou plusieurs sections, représentées par la classe [Section](https://reference.aspose.com/words/net/aspose.words/section/) et séparées par des sauts de section. Une section peut définir sa propre taille de page, ses marges, son orientation, son nombre de colonnes de texte ainsi que ses en-têtes et pieds de page.
+Un document Word se compose d'une ou plusieurs sections, représentées par la classe [Section](https://reference.aspose.com/words/fr/net/aspose.words/section/) et séparées par des sauts de section. Une section peut définir sa propre taille de page, ses marges, son orientation, son nombre de colonnes de texte ainsi que ses en-têtes et pieds de page.
 
-Les nœuds de niveau [Document](https://reference.aspose.com/words/net/aspose.words/document/) et [Section](https://reference.aspose.com/words/net/aspose.words/section/) ont la structure indiquée dans le diagramme suivant.
+Les nœuds de niveau [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) et [Section](https://reference.aspose.com/words/fr/net/aspose.words/section/) ont la structure indiquée dans le diagramme suivant.
 
 <img src="/words/net/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="aspose-words au niveau du document et de la section" style="width:700px"/>
 
 Une section contient le texte principal, ainsi que les en-têtes et pieds de page des premières pages paires et impaires. Ces différents "flux" de texte sont appelés *stories*.
 
-Dans Aspose.Words, le nœud **Section** contient les nœuds d'histoire [Body](https://reference.aspose.com/words/net/aspose.words/body/) et [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/). L'objet **Body** stocke le texte principal. Les objets **HeaderFooter** stockent le texte de chaque en-tête et pied de page. Le texte de toute histoire est constitué de paragraphes et de tableaux, représentés respectivement par les objets **Paragraph** et **Table** du niveau Bloc.
+Dans Aspose.Words, le nœud **Section** contient les nœuds d'histoire [Body](https://reference.aspose.com/words/fr/net/aspose.words/body/) et [HeaderFooter](https://reference.aspose.com/words/fr/net/aspose.words/headerfooter/). L'objet **Body** stocke le texte principal. Les objets **HeaderFooter** stockent le texte de chaque en-tête et pied de page. Le texte de toute histoire est constitué de paragraphes et de tableaux, représentés respectivement par les objets **Paragraph** et **Table** du niveau Bloc.
 
-De plus, chaque document Word peut contenir un glossaire, représenté par le nœud [GlossaryDocument](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/) dans Aspose.Words. Un document glossaire contient des entrées [BuildingBlocks](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) et [AutoCorrect](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/).
+De plus, chaque document Word peut contenir un glossaire, représenté par le nœud [GlossaryDocument](https://reference.aspose.com/words/fr/net/aspose.words.buildingblocks/glossarydocument/) dans Aspose.Words. Un document glossaire contient des entrées [BuildingBlocks](https://reference.aspose.com/words/fr/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/fr/net/aspose.words.buildingblocks/buildingblocktype/) et [AutoCorrect](https://reference.aspose.com/words/fr/net/aspose.words.buildingblocks/buildingblocktype/).
 
-**GlossaryDocument** comprend des nœuds [BuildingBlock](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblock/) représentant différents types d'entrées de documents de glossaire. Chaque **BuildingBlock** contient des sections qui peuvent être insérées, supprimées et copiées dans des documents.
+**GlossaryDocument** comprend des nœuds [BuildingBlock](https://reference.aspose.com/words/fr/net/aspose.words.buildingblocks/buildingblock/) représentant différents types d'entrées de documents de glossaire. Chaque **BuildingBlock** contient des sections qui peuvent être insérées, supprimées et copiées dans des documents.
 
 ## Bloquer le niveau logique
 
@@ -47,9 +47,9 @@ Les nœuds de niveau bloc représentent des conteneurs pour le contenu et les co
 
 Les nœuds au niveau bloc sont représentés par les classes suivantes:
 
-- [Tables](https://reference.aspose.com/words/net/aspose.words.tables/table/) et [Paragraphs](https://reference.aspose.com/words/net/aspose.words/paragraph/), qui sont les nœuds au niveau bloc les plus importants
+- [Tables](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/) et [Paragraphs](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/), qui sont les nœuds au niveau bloc les plus importants
 - Les signets, qui apparaissent à la fois au niveau du bloc et au niveau en ligne
-- [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/), qui représente un balisage personnalisé et peut contenir à la fois du contenu et des contrôles de contenu
+- [StructuredDocumentTag](https://reference.aspose.com/words/fr/net/aspose.words.markup/structureddocumenttag/), qui représente un balisage personnalisé et peut contenir à la fois du contenu et des contrôles de contenu
 
 Le diagramme suivant montre les éléments au niveau du bloc.
 
@@ -60,17 +60,17 @@ Le diagramme suivant montre les éléments au niveau du bloc.
 Les nœuds de niveau en ligne représentent le contenu réel du document et peuvent être contenus dans les conteneurs suivants:
 
 - Paragraphe – le conteneur le plus courant
-- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)
+- [SmartTag](https://reference.aspose.com/words/fr/net/aspose.words.markup/smarttag/)
 - Balise de document structuré
 
 Les éléments de niveau en ligne sont représentés par les classes suivantes:
 
-- [Run](https://reference.aspose.com/words/net/aspose.words/run/) – séquences de texte formatées différemment
-- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/) et [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/) représentent des signets
-- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) et [Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote/) représentent des annotations
-- [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) et [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) qui représentent les caractères des champs, et [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) représentent les champs Word
-- [SpecialChar](https://reference.aspose.com/words/net/aspose.words/specialchar/) représente des caractères spéciaux dans le document
-- [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) et [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) représentent des formes, des dessins, des images, etc.
+- [Run](https://reference.aspose.com/words/fr/net/aspose.words/run/) – séquences de texte formatées différemment
+- [BookmarkStart](https://reference.aspose.com/words/fr/net/aspose.words/bookmarkstart/) et [BookmarkEnd](https://reference.aspose.com/words/fr/net/aspose.words/bookmarkend/) représentent des signets
+- [CommentRangeStart](https://reference.aspose.com/words/fr/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/fr/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/fr/net/aspose.words/comment/) et [Footnote](https://reference.aspose.com/words/fr/net/aspose.words.notes/footnote/) représentent des annotations
+- [FieldStart](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldseparator/) et [FieldEnd](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldend/) qui représentent les caractères des champs, et [FormField](https://reference.aspose.com/words/fr/net/aspose.words.fields/formfield/) représentent les champs Word
+- [SpecialChar](https://reference.aspose.com/words/fr/net/aspose.words/specialchar/) représente des caractères spéciaux dans le document
+- [Shape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/) et [GroupShape](https://reference.aspose.com/words/fr/net/aspose.words.drawing/groupshape/) représentent des formes, des dessins, des images, etc.
 - SmartTag et StructuredDocumentTag représentent un balisage personnalisé
 
 Le diagramme suivant montre la structure des nœuds de niveau en ligne.
@@ -95,8 +95,8 @@ Les notes de bas de page et les commentaires peuvent contenir du texte, par cons
 
 Le tableau est constitué de nœuds de lignes et de cellules. Les éléments du tableau sont représentés par les classes suivantes:
 
-- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) représente une ligne de tableau
-- [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) représente une cellule de tableau
+- [Row](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/) représente une ligne de tableau
+- [Cell](https://reference.aspose.com/words/fr/net/aspose.words.tables/cell/) représente une cellule de tableau
 - StructuredDocumentTag représente un balisage personnalisé
 
 Le diagramme suivant montre les structures de nœuds des niveaux Table, Ligne et Cellule.

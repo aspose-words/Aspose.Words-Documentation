@@ -13,4 +13,4 @@ Aspose.Words for .NET est une bibliothèque de classes qui permet à vos applica
 
 Aspose.Words pour .NET est entièrement écrit en C#, est conforme à CLS et contient uniquement du code géré sécurisé.
 
-Le dernier API Reference peut être trouvé sur [Aspose.Words pour .NET API Reference](https://reference.aspose.com/words/net/).
+Le dernier API Reference peut être trouvé sur [Aspose.Words pour .NET API Reference](https://reference.aspose.com/words/fr/net/).

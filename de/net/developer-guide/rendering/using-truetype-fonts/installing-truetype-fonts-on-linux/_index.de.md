@@ -22,7 +22,7 @@ Es gibt zwei Möglichkeiten, TrueType-Schriftarten auf einem Linux-System abzuru
 
 ## Schriftarten von einer Windows-Maschine kopieren
 
-Eine einfache und schnelle Möglichkeit, TrueType-Schriftarten auf ein Linux-System zu übertragen, besteht darin, .TTF- und .TTC-Dateien aus dem `C:\Windows\Fonts`-Verzeichnis auf einem Windows-Computer in ein Verzeichnis auf Ihrem Linux-Computer zu kopieren. Sie müssen diese Schriftarten in keiner Weise auf Linux installieren oder registrieren; Sie müssen lediglich den Speicherort der Schriftarten mithilfe der [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/)-Klasse in Aspose.Words angeben.
+Eine einfache und schnelle Möglichkeit, TrueType-Schriftarten auf ein Linux-System zu übertragen, besteht darin, .TTF- und .TTC-Dateien aus dem `C:\Windows\Fonts`-Verzeichnis auf einem Windows-Computer in ein Verzeichnis auf Ihrem Linux-Computer zu kopieren. Sie müssen diese Schriftarten in keiner Weise auf Linux installieren oder registrieren; Sie müssen lediglich den Speicherort der Schriftarten mithilfe der [FontSettings](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/)-Klasse in Aspose.Words angeben.
 
 {{% alert color="primary" %}}
 

@@ -13,7 +13,7 @@ url: /ru/net/working-with-columns-and-rows/
 
 ## Найдите индекс элемента таблицы {#find-the-index-of-table-elements}
 
-Столбцы, строки и ячейки управляются путем доступа к выбранному узлу документа по его индексу. Поиск индекса любого узла включает сбор всех дочерних узлов типа элемента из родительского узла, а затем использование метода [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) для поиска индекса нужного узла в коллекции.
+Столбцы, строки и ячейки управляются путем доступа к выбранному узлу документа по его индексу. Поиск индекса любого узла включает сбор всех дочерних узлов типа элемента из родительского узла, а затем использование метода [IndexOf](https://reference.aspose.com/words/ru/net/aspose.words/nodecollection/indexof/) для поиска индекса нужного узла в коллекции.
 
 ### Найдите индекс таблицы в документе {#find-the-index-of-table-in-a-document}
 
@@ -41,7 +41,7 @@ url: /ru/net/working-with-columns-and-rows/
 
 ## Работа со столбцами {#work-with-columns}
 
-В Aspose.Words Document Object Model (DOM) узел [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) состоит из [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) узлов и затем [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) узла. Таким образом, в Объектной модели `Document` Aspose.Words, как и в документах Word, нет понятия столбца.
+В Aspose.Words Document Object Model (DOM) узел [Table](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/) состоит из [Row](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/) узлов и затем [Cell](https://reference.aspose.com/words/ru/net/aspose.words.tables/cell/) узла. Таким образом, в Объектной модели `Document` Aspose.Words, как и в документах Word, нет понятия столбца.
 
 По задумке строки таблицы Microsoft Word и Aspose.Words полностью независимы, а основные свойства и операции содержатся только в строках и ячейках таблицы. Это дает таблицам возможность иметь некоторые интересные атрибуты:
 
@@ -65,7 +65,7 @@ url: /ru/net/working-with-columns-and-rows/
 
 ## Укажите строки как строки заголовка
 
-Вы можете выбрать повтор первой строки таблицы в качестве строки заголовка только на первой странице или на каждой странице, если таблица разделена на несколько. В Aspose.Words вы можете повторять строку заголовка на каждой странице, используя свойство [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/).
+Вы можете выбрать повтор первой строки таблицы в качестве строки заголовка только на первой странице или на каждой странице, если таблица разделена на несколько. В Aspose.Words вы можете повторять строку заголовка на каждой странице, используя свойство [HeadingFormat](https://reference.aspose.com/words/ru/net/aspose.words.tables/rowformat/headingformat/).
 
 Вы также можете отметить несколько строк заголовка, если такие строки расположены одна за другой в начале таблицы. Для этого вам необходимо применить к этим строкам свойства **HeadingFormat**.
 
@@ -92,7 +92,7 @@ url: /ru/net/working-with-columns-and-rows/
 
 ### Не допускайте разрыва строки на страницах {#keep-a-row-from-breaking-across-pages}
 
-Это включает в себя ограничение разделения содержимого внутри ячеек строки по странице. В версии Microsoft Word это можно найти в разделе "Свойства таблицы" как параметр "Разрешить разбивку строки по страницам". В Aspose.Words это находится под объектом [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) объекта [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) как свойство [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
+Это включает в себя ограничение разделения содержимого внутри ячеек строки по странице. В версии Microsoft Word это можно найти в разделе "Свойства таблицы" как параметр "Разрешить разбивку строки по страницам". В Aspose.Words это находится под объектом [RowFormat](https://reference.aspose.com/words/ru/net/aspose.words.tables/rowformat/) объекта [Row](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/) как свойство [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
 
 В следующем примере кода показано, как отключить разбиение строк по страницам для каждой строки таблицы:
 
@@ -108,7 +108,7 @@ url: /ru/net/working-with-columns-and-rows/
 
 Чтобы таблица не разделялась на страницы, нам нужно указать, что мы хотим, чтобы содержимое, содержащееся в таблице, оставалось единым.
 
-Для этого Aspose.Words использует метод, который позволяет пользователям выбирать таблицу и устанавливать для параметра [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/) значение true для каждого абзаца в ячейках таблицы. Исключением является последний абзац таблицы, для которого должно быть установлено значение false.
+Для этого Aspose.Words использует метод, который позволяет пользователям выбирать таблицу и устанавливать для параметра [KeepWithNext](https://reference.aspose.com/words/ru/net/aspose.words/paragraphformat/keepwithnext/) значение true для каждого абзаца в ячейках таблицы. Исключением является последний абзац таблицы, для которого должно быть установлено значение false.
 
 В следующем примере кода показано, как заставить таблицу оставаться вместе на одной странице:
 

@@ -41,7 +41,7 @@ Aspose.Words — это кроссплатформенная библиотек�
 
 Возможность легко и надежно конвертировать документы — одна из основных функций Aspose.Words.
 
-Комплексный [Загрузка, сохранение и конвертация](/words/ru/python-net/loading-saving-and-converting/) с [Поддерживаемые форматы документов](/words/ru/python-net/supported-document-formats/) позволяет пользователям преобразовывать документы из [один популярный формат](https://reference.aspose.com/words/net/aspose.words/loadformat/) в [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), например, из DOCX в PDF, JPEG или Markdown или из PDF в различные форматы Word.
+Комплексный [Загрузка, сохранение и конвертация](/words/ru/python-net/loading-saving-and-converting/) с [Поддерживаемые форматы документов](/words/ru/python-net/supported-document-formats/) позволяет пользователям преобразовывать документы из [один популярный формат](https://reference.aspose.com/words/ru/net/aspose.words/loadformat/) в [another](https://reference.aspose.com/words/ru/net/aspose.words/saveformat/), например, из DOCX в PDF, JPEG или Markdown или из PDF в различные форматы Word.
 
 #### Document Object Model (DOM)
 

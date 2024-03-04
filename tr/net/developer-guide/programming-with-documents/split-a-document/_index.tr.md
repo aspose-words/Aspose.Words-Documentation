@@ -33,7 +33,7 @@ Bu işlevselliği [Ücretsiz çevrimiçi belge ayırıcı](https://products.aspo
 
 Aspose.Words, EPUB veya HTML belgelerini çeşitli kriterlere göre bölümlere ayırmanıza olanak tanır. Bu süreçte, çıktı belgeleri için kaynak belgenin stili ve düzeni korunur.
 
-[DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/documentsplitcriteria/) numaralandırmasını kullanarak kriterleri belirtebilirsiniz. Böylece, aşağıdaki kriterlerden birini kullanarak bir belgeyi bölümlere ayırabilir veya birden fazla kriteri bir araya getirebilirsiniz:
+[DocumentSplitCriteria](https://reference.aspose.com/words/tr/net/aspose.words.saving/documentsplitcriteria/) numaralandırmasını kullanarak kriterleri belirtebilirsiniz. Böylece, aşağıdaki kriterlerden birini kullanarak bir belgeyi bölümlere ayırabilir veya birden fazla kriteri bir araya getirebilirsiniz:
 
 - paragraf başlığı,
 - Bölüm sonu,
@@ -44,7 +44,7 @@ Aspose.Words, EPUB veya HTML belgelerini çeşitli kriterlere göre bölümlere 
 
 {{% alert color="primary" %}}
 
-MHTML biçiminde kaydederken bir belgeyi [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) özelliğini kullanarak bölemezsiniz.
+MHTML biçiminde kaydederken bir belgeyi [DocumentSplitCriteria](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/) özelliğini kullanarak bölemezsiniz.
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ Bu bölümde olası bölünme kriterlerinden yalnızca bazılarını ele alacağ
 
 Bir belgeyi başlıklara göre bölümlere ayırmak için **DocumentSplitCriteria** özelliğinin **HeadingParagraph** değerini kullanın.
 
-Bir belgeyi başlık paragraflarının belirli bir düzeyine (örneğin başlık 1, 2 ve 3) bölmeniz gerekiyorsa [DocumentSplitHeadingLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/) özelliğini de kullanın. Çıktı, belirtilen başlık düzeyiyle biçimlendirilmiş paragraflara bölünecektir.
+Bir belgeyi başlık paragraflarının belirli bir düzeyine (örneğin başlık 1, 2 ve 3) bölmeniz gerekiyorsa [DocumentSplitHeadingLevel](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/) özelliğini de kullanın. Çıktı, belirtilen başlık düzeyiyle biçimlendirilmiş paragraflara bölünecektir.
 
 Aşağıdaki kod örneği, bir belgenin başlığa göre daha küçük parçalara nasıl bölüneceğini gösterir:
 
@@ -78,9 +78,9 @@ Aşağıdaki kod örneği, bir belgenin bölüm sonlarına göre (`DocumentSplit
 
 ## Sayfalara Göre Böl {#splitting-by-pages}
 
-Ayrıca bir belgeyi sayfa sayfa, sayfa aralıklarına göre veya belirtilen sayfa numaralarından başlayarak bölebilirsiniz. Böyle bir durumda [ExtractPages](https://reference.aspose.com/words/net/aspose.words/document/extractpages/) yöntemi işi yapabilir.
+Ayrıca bir belgeyi sayfa sayfa, sayfa aralıklarına göre veya belirtilen sayfa numaralarından başlayarak bölebilirsiniz. Böyle bir durumda [ExtractPages](https://reference.aspose.com/words/tr/net/aspose.words/document/extractpages/) yöntemi işi yapabilir.
 
-Bu bölümde, [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfını ve **ExtractPages** yöntemini kullanarak belgeleri sayfalara göre bölmenin çeşitli kullanım durumları açıklanmaktadır.
+Bu bölümde, [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfını ve **ExtractPages** yöntemini kullanarak belgeleri sayfalara göre bölmenin çeşitli kullanım durumları açıklanmaktadır.
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ Aşağıdaki kod örneği, bir belgenin belirli başlangıç ve bitiş dizinleri
 
 ## Belge {#callback-option-for-saving-a-document}'i Kaydetmek için Geri Arama Seçeneği
 
-Bu belge HTML formatına aktarıldığında Aspose.Words'nin belge bölümlerini nasıl kaydettiğini kontrol etmek için [DocumentPartSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) özelliğini kullanabilirsiniz. Bu özellik, çıktı dosyalarını yeniden adlandırmanıza ve hatta bunları özel akışlara yönlendirmenize olanak tanır.
+Bu belge HTML formatına aktarıldığında Aspose.Words'nin belge bölümlerini nasıl kaydettiğini kontrol etmek için [DocumentPartSavingCallback](https://reference.aspose.com/words/tr/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/) özelliğini kullanabilirsiniz. Bu özellik, çıktı dosyalarını yeniden adlandırmanıza ve hatta bunları özel akışlara yönlendirmenize olanak tanır.
 
 Tüm çıktı parçalarının tek bir kapsayıcıya (.epub dosyası) kaydedilmesi gerektiğinden, EPUB'a kaydederken bu geri aramanın kullanışlı olmadığını lütfen unutmayın. Dolayısıyla akış yeniden yönlendirmesi desteklenmez ve dosyalar kapsayıcının içinde yeniden adlandırıldığından yeniden adlandırmanın etkisi görünmez.
 

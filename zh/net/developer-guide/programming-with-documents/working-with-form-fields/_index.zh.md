@@ -13,13 +13,13 @@ url: /zh/net/working-with-form-fields/
 
 您可以在项目中使用表单字段与用户"交流"。例如，您创建一个文档，其内容受到保护，但只有表单字段可以编辑。用户可以在表单字段中输入数据并提交文档。使用 Aspose.Words 的应用程序可以从表单字段检索数据并对其进行处理。
 
-通过代码将表单字段放入文档中很容易。 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 有特殊的插入方法，每种表单字段类型都有一种插入方法。每个方法都接受一个表示表单字段名称的字符串参数。该名称可以是空字符串。但是，如果您为表单字段指定名称，则会自动创建具有相同名称的书签。
+通过代码将表单字段放入文档中很容易。 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 有特殊的插入方法，每种表单字段类型都有一种插入方法。每个方法都接受一个表示表单字段名称的字符串参数。该名称可以是空字符串。但是，如果您为表单字段指定名称，则会自动创建具有相同名称的书签。
 
 ## 插入表单字段
 
 表单字段是 Word 字段的特例，允许与用户"交互"。 Microsoft Word 中的表单字段包括文本框、组合框和复选框。
 
-**DocumentBuilder** 提供了将每种类型的表单字段插入到文档中的特殊方法：[InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/)、[InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/) 和 [InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/)。请注意，如果您为表单字段指定名称，则会自动创建同名的书签。
+**DocumentBuilder** 提供了将每种类型的表单字段插入到文档中的特殊方法：[InsertTextInput](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/inserttextinput/)、[InsertCheckBox](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertcheckbox/) 和 [InsertComboBox](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertcombobox/)。请注意，如果您为表单字段指定名称，则会自动创建同名的书签。
 
 以下代码示例演示如何将组合框表单字段插入到文档中：
 
@@ -51,7 +51,7 @@ url: /zh/net/working-with-form-fields/
 
 ## 获取表单字段
 
-表单字段的集合由 [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/) 类表示，可以使用 [FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/) 属性检索该类。这意味着您可以获得任何文档节点（包括文档本身）中包含的表单字段。
+表单字段的集合由 [FormFieldCollection](https://reference.aspose.com/words/zh/net/aspose.words.fields/formfieldcollection/) 类表示，可以使用 [FormFields](https://reference.aspose.com/words/zh/net/aspose.words/range/formfields/) 属性检索该类。这意味着您可以获得任何文档节点（包括文档本身）中包含的表单字段。
 
 {{% alert color="primary" %}}
 
@@ -77,7 +77,7 @@ url: /zh/net/working-with-form-fields/
 
 ## 设置表单字段格式
 
-[FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) 的 [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) 属性允许将字体格式应用于整个 **FormField**（包括字段值）。
+[FormField](https://reference.aspose.com/words/zh/net/aspose.words.fields/formfield/) 的 [Font](https://reference.aspose.com/words/zh/net/aspose.words/inline/font/) 属性允许将字体格式应用于整个 **FormField**（包括字段值）。
 
 以下代码示例显示如何将字体格式应用于 **FormField**：
 

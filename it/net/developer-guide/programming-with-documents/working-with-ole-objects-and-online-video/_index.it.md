@@ -15,7 +15,7 @@ In questo articolo parleremo dell'inserimento di un oggetto OLE e dell'impostazi
 
 ## Inserisci oggetto OLE
 
-Se desideri un oggetto OLE, chiama il metodo [InsertOleObject](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobject/) e passagli esplicitamente il **ProgId** con altri parametri.
+Se desideri un oggetto OLE, chiama il metodo [InsertOleObject](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertoleobject/) e passagli esplicitamente il **ProgId** con altri parametri.
 
 L'esempio di codice seguente mostra come inserire un oggetto OLE in un documento:
 
@@ -35,7 +35,7 @@ Nell'esempio di codice seguente viene illustrato come impostare il nome file, l'
 
 Gli utenti possono accedere ai dati degli oggetti OLE utilizzando varie proprietà e metodi della classe `OleFormat`. Ad esempio, è possibile ottenere i dati grezzi dell'oggetto `OLE` o il percorso e il nome di un file sorgente per l'oggetto OLE collegato.
 
-L'esempio di codice seguente mostra come ottenere i dati grezzi dell'oggetto OLE utilizzando il metodo [GetRawData](https://reference.aspose.com/words/net/aspose.words.drawing/oleformat/getrawdata/):
+L'esempio di codice seguente mostra come ottenere i dati grezzi dell'oggetto OLE utilizzando il metodo [GetRawData](https://reference.aspose.com/words/it/net/aspose.words.drawing/oleformat/getrawdata/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.cs" >}}
 
@@ -43,7 +43,7 @@ L'esempio di codice seguente mostra come ottenere i dati grezzi dell'oggetto OLE
 
 Gli oggetti OLE possono anche essere inseriti nei documenti come immagini.
 
-Nell'esempio di codice seguente viene illustrato come inserire oggetto OLE come icona. A questo scopo la classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) espone il metodo [InsertOleObjectAsIcon](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobjectasicon/):
+Nell'esempio di codice seguente viene illustrato come inserire oggetto OLE come icona. A questo scopo la classe [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/) espone il metodo [InsertOleObjectAsIcon](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertoleobjectasicon/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
 
@@ -59,9 +59,9 @@ La dimensione massima dell'icona deve essere 32x32 per la corretta visualizzazio
 
 ## Inserisci video in linea
 
-Il video online può essere inserito nel documento Word dalla scheda *"Inserisci" &gt; "Video online"*. Puoi inserire un video online in un documento nella posizione corrente chiamando il metodo [InsertOnlineVideo](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertonlinevideo/).
+Il video online può essere inserito nel documento Word dalla scheda *"Inserisci" &gt; "Video online"*. Puoi inserire un video online in un documento nella posizione corrente chiamando il metodo [InsertOnlineVideo](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertonlinevideo/).
 
-La classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) introduce quattro sovraccarichi di questo metodo. Il primo funziona con le risorse video più popolari e prende come parametro il `URL` del video. Ad esempio, il primo sovraccarico supporta il semplice inserimento di video online da risorse [Youtube](https://www.youtube.com/) e [Vimeo](https://vimeo.com/).
+La classe [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/) introduce quattro sovraccarichi di questo metodo. Il primo funziona con le risorse video più popolari e prende come parametro il `URL` del video. Ad esempio, il primo sovraccarico supporta il semplice inserimento di video online da risorse [Youtube](https://www.youtube.com/) e [Vimeo](https://vimeo.com/).
 
 Il seguente esempio di codice mostra come inserire un video online da *Vimeo* in un documento:
 

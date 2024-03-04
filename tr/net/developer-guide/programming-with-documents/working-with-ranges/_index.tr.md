@@ -17,11 +17,11 @@ Aspose.Words'te Aralık, belgenin ağaç benzeri bir modeline açılan "düz bir
 
 Microsoft Word Automation ile çalıştıysanız muhtemelen belge içeriğini incelemek ve değiştirmek için kullanılan ana araçlardan birinin **Range** nesnesi olduğunu biliyorsunuzdur. **Range**, belge içeriğine ve biçimlendirmesine açılan bir "pencere" gibidir.
 
-Aspose.Words ayrıca [Range](https://reference.aspose.com/words/net/aspose.words/range/) sınıfına sahiptir ve Microsoft Word'deki **Range**'e benzer şekilde görünecek ve hareket edecek şekilde tasarlanmıştır. **Range**, bir belgenin rastgele bir bölümünü kapsayamamasına ve **Start** ve **End**'ye sahip olmamasına rağmen, [Document](https://reference.aspose.com/words/net/aspose.words/document/)'nin kendisi de dahil olmak üzere herhangi bir belge düğümünün kapsadığı aralığa erişebilirsiniz. Başka bir deyişle her düğümün kendi aralığı vardır. **Range** nesnesi, aralık içindeki metinlere, yer imlerine ve form alanlarına erişmenize ve bunları değiştirmenize olanak tanır.
+Aspose.Words ayrıca [Range](https://reference.aspose.com/words/tr/net/aspose.words/range/) sınıfına sahiptir ve Microsoft Word'deki **Range**'e benzer şekilde görünecek ve hareket edecek şekilde tasarlanmıştır. **Range**, bir belgenin rastgele bir bölümünü kapsayamamasına ve **Start** ve **End**'ye sahip olmamasına rağmen, [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/)'nin kendisi de dahil olmak üzere herhangi bir belge düğümünün kapsadığı aralığa erişebilirsiniz. Başka bir deyişle her düğümün kendi aralığı vardır. **Range** nesnesi, aralık içindeki metinlere, yer imlerine ve form alanlarına erişmenize ve bunları değiştirmenize olanak tanır.
 
 ## Düz Metni Al
 
-Aralığın düz, biçimlendirilmemiş metnini almak için [Text](https://reference.aspose.com/words/net/aspose.words/range/text/) özelliğini kullanın.
+Aralığın düz, biçimlendirilmemiş metnini almak için [Text](https://reference.aspose.com/words/tr/net/aspose.words/range/text/) özelliğini kullanın.
 
 Aşağıdaki kod örneği, bir aralığın düz, biçimlendirilmemiş metninin nasıl alınacağını gösterir:
 
@@ -35,7 +35,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](ttps://github.com/aspose-w
 
 ## Metni Sil
 
-Aralık, [Delete](https://reference.aspose.com/words/net/aspose.words/range/delete/)'i çağırarak aralıktaki tüm karakterlerin silinmesine olanak tanır.
+Aralık, [Delete](https://reference.aspose.com/words/tr/net/aspose.words/range/delete/)'i çağırarak aralıktaki tüm karakterlerin silinmesine olanak tanır.
 
 Aşağıdaki kod örneği, bir aralıktaki tüm karakterlerin nasıl silineceğini gösterir:
 

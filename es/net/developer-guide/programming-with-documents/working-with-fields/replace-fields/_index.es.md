@@ -13,8 +13,8 @@ A menudo es necesario reemplazar campos cuando desea guardar su documento como u
 
 El siguiente diagrama muestra cómo se almacena el campo `IF` en un documento:
 
-* el texto está rodeado por los nodos de campo especiales – [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) y [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend)
-* el nodo [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) separa el texto dentro del campo en el código de campo y el resultado del campo
+* el texto está rodeado por los nodos de campo especiales – [FieldStart](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldstart/) y [FieldEnd](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldend)
+* el nodo [FieldSeparator](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldseparator/) separa el texto dentro del campo en el código de campo y el resultado del campo
 * el código de campo define el comportamiento general del campo, mientras que el resultado del campo conserva el resultado más reciente cuando este campo se actualiza usando Microsoft Word o Aspose.Words
 * el resultado del campo es lo que se almacena en el campo y se muestra en el documento cuando se ve
 
@@ -38,17 +38,17 @@ El siguiente ejemplo de código muestra cómo reemplazar el campo con su resulta
 
 ## Convertir ciertos tipos de campos en partes específicas del documento
 
-Dado que el método **ConvertFieldsToStaticText** acepta dos parámetros: las propiedades [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) y la enumeración [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), es posible pasar cualquier nodo compuesto a este método. Esto permite convertir campos a texto estático solo en partes específicas del documento.
+Dado que el método **ConvertFieldsToStaticText** acepta dos parámetros: las propiedades [CompositeNode](https://reference.aspose.com/words/es/net/aspose.words/compositenode/) y la enumeración [FieldType](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldtype/), es posible pasar cualquier nodo compuesto a este método. Esto permite convertir campos a texto estático solo en partes específicas del documento.
 
-Por ejemplo, puede pasar un objeto [Document](https://reference.aspose.com/words/net/aspose.words/document/) y convertir campos del tipo especificado de todo el documento a texto estático, o puede pasar un objeto [Body](https://reference.aspose.com/words/net/aspose.words/body/) de una sección y convertir solo los campos que se encuentran en ese cuerpo.
+Por ejemplo, puede pasar un objeto [Document](https://reference.aspose.com/words/es/net/aspose.words/document/) y convertir campos del tipo especificado de todo el documento a texto estático, o puede pasar un objeto [Body](https://reference.aspose.com/words/es/net/aspose.words/body/) de una sección y convertir solo los campos que se encuentran en ese cuerpo.
 
 {{% alert color="primary" %}}
 
-Al pasar un nodo a nivel de bloque, como un [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), tenga en cuenta que, en algunos casos, los campos pueden abarcar varios párrafos. Si esto sucede, se recomienda pasar el padre del compuesto para evitarlo.
+Al pasar un nodo a nivel de bloque, como un [Paragraph](https://reference.aspose.com/words/es/net/aspose.words/paragraph/), tenga en cuenta que, en algunos casos, los campos pueden abarcar varios párrafos. Si esto sucede, se recomienda pasar el padre del compuesto para evitarlo.
 
 {{% /alert %}}
 
-La enumeración [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) pasada al método **ConvertFieldsToStaticText** especifica qué tipo de campos deben convertirse en texto estático. Cualquier otro tipo de campo que se encuentre en el documento permanecerá sin cambios.
+La enumeración [FieldType](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldtype/) pasada al método **ConvertFieldsToStaticText** especifica qué tipo de campos deben convertirse en texto estático. Cualquier otro tipo de campo que se encuentre en el documento permanecerá sin cambios.
 
 El siguiente ejemplo de código muestra cómo seleccionar campos de un tipo específico – *targetFieldType* en un nodo específico – *compositeNode* y luego convertirlos a texto estático:
 

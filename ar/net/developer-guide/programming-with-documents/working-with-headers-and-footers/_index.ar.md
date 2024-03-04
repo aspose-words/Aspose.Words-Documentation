@@ -13,7 +13,7 @@ url: /ar/net/working-with-headers-and-footers/
 
 ## قم بإنشاء رؤوس أو تذييلات باستخدام DocumentBuilder
 
-إذا كنت تريد إضافة رأس أو تذييل مستند برمجيًا، فإن أسهل طريقة هي استخدام فئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) للقيام بذلك.
+إذا كنت تريد إضافة رأس أو تذييل مستند برمجيًا، فإن أسهل طريقة هي استخدام فئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) للقيام بذلك.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إضافة رأس وتذييل لصفحات المستند:
 
@@ -21,7 +21,7 @@ url: /ar/net/working-with-headers-and-footers/
 
 ## حدد خيارات الرأس أو التذييل
 
-عند إضافة رأس أو تذييل إلى مستند، يمكنك تعيين بعض الخصائص المتقدمة. يوفر Aspose.Words للمستخدمين فئات [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) و[HeaderFooterCollection](https://reference.aspose.com/words/net/aspose.words/headerfootercollection/)، بالإضافة إلى تعداد [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfootertype/) الذي يمنحك المزيد من التحكم في عملية تخصيص الرأس والتذييل.
+عند إضافة رأس أو تذييل إلى مستند، يمكنك تعيين بعض الخصائص المتقدمة. يوفر Aspose.Words للمستخدمين فئات [HeaderFooter](https://reference.aspose.com/words/ar/net/aspose.words/headerfooter/) و[HeaderFooterCollection](https://reference.aspose.com/words/ar/net/aspose.words/headerfootercollection/)، بالإضافة إلى تعداد [HeaderFooterType](https://reference.aspose.com/words/ar/net/aspose.words/headerfootertype/) الذي يمنحك المزيد من التحكم في عملية تخصيص الرأس والتذييل.
 
 ### حدد نوع الرأس أو التذييل
 
@@ -36,7 +36,7 @@ url: /ar/net/working-with-headers-and-footers/
 
 ### حدد ما إذا كنت تريد عرض رؤوس أو تذييلات مختلفة للصفحة الأولى
 
-كما ذكرنا أعلاه، يمكنك أيضًا تعيين رأس أو تذييل مختلف للصفحة الأولى. للقيام بذلك، تحتاج إلى تعيين علامة [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) على `true` ثم تحديد قيمة **HeaderFirst** أو **FooterFirst**.
+كما ذكرنا أعلاه، يمكنك أيضًا تعيين رأس أو تذييل مختلف للصفحة الأولى. للقيام بذلك، تحتاج إلى تعيين علامة [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) على `true` ثم تحديد قيمة **HeaderFirst** أو **FooterFirst**.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين الرأس للصفحة الأولى فقط:
 
@@ -44,13 +44,13 @@ url: /ar/net/working-with-headers-and-footers/
 
 ### حدد ما إذا كنت تريد عرض رؤوس أو تذييلات مختلفة للصفحات الفردية أو الزوجية
 
- بعد ذلك، ستحتاج إلى تعيين رؤوس أو تذييلات مختلفة للصفحات الفردية والزوجية في المستند. للقيام بذلك، تحتاج إلى تعيين علامة [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) على `true` ثم تحديد القيم **HeaderPrimary** و**HeaderEven**، أو **FooterPrimary** و**FooterEven**.
+ بعد ذلك، ستحتاج إلى تعيين رؤوس أو تذييلات مختلفة للصفحات الفردية والزوجية في المستند. للقيام بذلك، تحتاج إلى تعيين علامة [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) على `true` ثم تحديد القيم **HeaderPrimary** و**HeaderEven**، أو **FooterPrimary** و**FooterEven**.
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "odd-even-pages.cs" >}}
 
 ### أدخل صورة ذات موضع مطلق في الرأس
 
-لوضع صورة في رأس أو تذييل، استخدم نوع الرأس **HeaderPrimary** أو نوع التذييل **FooterPrimary** وطريقة [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/).
+لوضع صورة في رأس أو تذييل، استخدم نوع الرأس **HeaderPrimary** أو نوع التذييل **FooterPrimary** وطريقة [InsertImage](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertimage/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية إضافة صورة إلى الرأس:
 
@@ -66,7 +66,7 @@ url: /ar/net/working-with-headers-and-footers/
 
 ### أدخل أرقام الصفحات في الرأس أو التذييل
 
-إذا لزم الأمر، يمكنك إضافة أرقام الصفحات إلى الرأس أو التذييل. للقيام بذلك، استخدم نوع رأس **HeaderPrimary** أو نوع تذييل الصفحة **FooterPrimary** وطريقة [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) لإضافة الحقل المطلوب.
+إذا لزم الأمر، يمكنك إضافة أرقام الصفحات إلى الرأس أو التذييل. للقيام بذلك، استخدم نوع رأس **HeaderPrimary** أو نوع تذييل الصفحة **FooterPrimary** وطريقة [InsertField](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertfield/) لإضافة الحقل المطلوب.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إضافة أرقام الصفحات إلى التذييل الموجود على اليمين:
 

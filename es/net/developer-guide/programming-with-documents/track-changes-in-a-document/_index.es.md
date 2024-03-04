@@ -23,7 +23,7 @@ Tenga en cuenta que la función de comentarios en Aspose.Words, así como en Mic
 
 ## ¿Qué es una revisión?
 
-Antes de sumergirnos en las revisiones, expliquemos el significado de las revisiones. Un [revision](https://reference.aspose.com/words/net/aspose.words/revision/) es un cambio que ocurre en un nodo de un documento, mientras que un grupo de revisión, representado por la clase [RevisionGroup](https://reference.aspose.com/words/net/aspose.words/revision/group/), es un grupo de revisiones secuenciales que ocurren en muchos nodos de un documento. Básicamente, la revisión es una herramienta para rastrear cambios.
+Antes de sumergirnos en las revisiones, expliquemos el significado de las revisiones. Un [revision](https://reference.aspose.com/words/es/net/aspose.words/revision/) es un cambio que ocurre en un nodo de un documento, mientras que un grupo de revisión, representado por la clase [RevisionGroup](https://reference.aspose.com/words/es/net/aspose.words/revision/group/), es un grupo de revisiones secuenciales que ocurren en muchos nodos de un documento. Básicamente, la revisión es una herramienta para rastrear cambios.
 
 Las revisiones se utilizan en la función de seguimiento de cambios y dentro de la función de comparación de documentos, donde las revisiones aparecen como resultado de la comparación. Por lo tanto, las revisiones dentro de la función de seguimiento de cambios muestran quién y qué se modificó.
 
@@ -33,7 +33,7 @@ Tenga en cuenta que Microsoft Word no le permite ver revisiones individuales, so
 
 {{% /alert %}}
 
-Aspose.Words admite diferentes tipos de revisión, así como en Microsoft Word, como inserción, eliminación, cambio de formato, cambio de definición de estilo y movimiento. Todos los tipos de revisión se representan con la enumeración [RevisionType](https://reference.aspose.com/words/net/aspose.words/revisiontype/).
+Aspose.Words admite diferentes tipos de revisión, así como en Microsoft Word, como inserción, eliminación, cambio de formato, cambio de definición de estilo y movimiento. Todos los tipos de revisión se representan con la enumeración [RevisionType](https://reference.aspose.com/words/es/net/aspose.words/revisiontype/).
 
 {{% alert color="primary" %}}
 
@@ -43,15 +43,15 @@ Tenga en cuenta que las revisiones tienen un resultado similar a Microsoft Word,
 
 ## Iniciar y detener el seguimiento de cambios
 
-Por lo general, la edición de un documento no cuenta como revisión hasta que comienzas a rastrearlo. Aspose.Words le permite realizar un seguimiento automático de todos los cambios en su documento con pasos simples. Puede iniciar fácilmente el proceso de seguimiento de cambios utilizando el método [StartTrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/starttrackrevisions/#starttrackrevisions/). Si necesita detener el proceso de seguimiento de cambios para que cualquier edición futura no se considere revisión, deberá utilizar el método [StopTrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/stoptrackrevisions/).
+Por lo general, la edición de un documento no cuenta como revisión hasta que comienzas a rastrearlo. Aspose.Words le permite realizar un seguimiento automático de todos los cambios en su documento con pasos simples. Puede iniciar fácilmente el proceso de seguimiento de cambios utilizando el método [StartTrackRevisions](https://reference.aspose.com/words/es/net/aspose.words/document/starttrackrevisions/#starttrackrevisions/). Si necesita detener el proceso de seguimiento de cambios para que cualquier edición futura no se considere revisión, deberá utilizar el método [StopTrackRevisions](https://reference.aspose.com/words/es/net/aspose.words/document/stoptrackrevisions/).
 
 {{% alert color="primary" %}}
 
-Tenga en cuenta que el método `StartTrackingRevisions` no cambia el estado de la propiedad [TrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/trackrevisions/) y no utiliza su valor con fines de seguimiento de revisiones. Además, si un nodo se movió de una ubicación a otra dentro del documento rastreado, se crearán revisiones de movimiento, incluido el rango de movimiento desde y hacia.
+Tenga en cuenta que el método `StartTrackingRevisions` no cambia el estado de la propiedad [TrackRevisions](https://reference.aspose.com/words/es/net/aspose.words/document/trackrevisions/) y no utiliza su valor con fines de seguimiento de revisiones. Además, si un nodo se movió de una ubicación a otra dentro del documento rastreado, se crearán revisiones de movimiento, incluido el rango de movimiento desde y hacia.
 
 {{% /alert %}}
 
-Al final del proceso de seguimiento de cambios en su documento, podrá incluso aceptar todas las revisiones o rechazarlas para revertir el documento a su forma original. Esto se puede lograr utilizando el método [AcceptAllRevisions](https://reference.aspose.com/words/net/aspose.words/document/acceptallrevisions/) o [RejectAll](https://reference.aspose.com/words/net/aspose.words/revisioncollection/rejectall/). Además, puede aceptar o rechazar cada revisión por separado utilizando el método [Accept](https://reference.aspose.com/words/net/aspose.words/revision/accept/) o [Reject](https://reference.aspose.com/words/net/aspose.words/revision/reject/).
+Al final del proceso de seguimiento de cambios en su documento, podrá incluso aceptar todas las revisiones o rechazarlas para revertir el documento a su forma original. Esto se puede lograr utilizando el método [AcceptAllRevisions](https://reference.aspose.com/words/es/net/aspose.words/document/acceptallrevisions/) o [RejectAll](https://reference.aspose.com/words/es/net/aspose.words/revisioncollection/rejectall/). Además, puede aceptar o rechazar cada revisión por separado utilizando el método [Accept](https://reference.aspose.com/words/es/net/aspose.words/revision/accept/) o [Reject](https://reference.aspose.com/words/es/net/aspose.words/revision/reject/).
 
 Se realizará un seguimiento de todos los cambios durante una iteración desde el momento en que inicia el proceso hasta el momento en que lo detiene. La conexión entre diferentes iteraciones se representa en el siguiente escenario: usted completa el proceso de seguimiento, luego realiza algunos cambios y comienza a realizar el seguimiento de los cambios nuevamente. Con este escenario, todos los cambios que no aceptó o rechazó se mostrarán nuevamente.
 
@@ -71,13 +71,13 @@ El siguiente ejemplo de código muestra cómo se generan las revisiones cuando s
 
 ## Administrar y almacenar cambios como revisiones
 
-Con la función de seguimiento de cambios anterior, puede comprender qué cambios se realizaron en su documento y quién los realizó. Mientras utiliza la función [TrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/trackrevisions/), fuerza que cualquier cambio dentro de su documento se almacene como revisiones.
+Con la función de seguimiento de cambios anterior, puede comprender qué cambios se realizaron en su documento y quién los realizó. Mientras utiliza la función [TrackRevisions](https://reference.aspose.com/words/es/net/aspose.words/document/trackrevisions/), fuerza que cualquier cambio dentro de su documento se almacene como revisiones.
 
-Aspose.Words permite comprobar si un documento tiene revisión o no mediante la propiedad [HasRevision](https://reference.aspose.com/words/net/aspose.words/document/hasrevisions/). Si no necesita realizar un seguimiento automático de los cambios en su documento a través de los métodos StartTrackRevisions y StopTrackRevisions, puede usar la propiedad `TrackRevisions` para verificar si se realiza un seguimiento de los cambios mientras se edita un documento en Microsoft Word y se almacena como revisiones.
+Aspose.Words permite comprobar si un documento tiene revisión o no mediante la propiedad [HasRevision](https://reference.aspose.com/words/es/net/aspose.words/document/hasrevisions/). Si no necesita realizar un seguimiento automático de los cambios en su documento a través de los métodos StartTrackRevisions y StopTrackRevisions, puede usar la propiedad `TrackRevisions` para verificar si se realiza un seguimiento de los cambios mientras se edita un documento en Microsoft Word y se almacena como revisiones.
 
 La función `TrackRevisions` realiza revisiones en lugar de cambios reales de DOM. Pero las revisiones en sí son independientes. Por ejemplo, si elimina un párrafo, Aspose.Words lo convierte en una revisión y lo marca como eliminado, en lugar de eliminarlo.
 
-Además, Aspose.Words le permite verificar si un objeto se insertó, eliminó o cambió de formato utilizando las propiedades [IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/), [IsFormatRevision](https://reference.aspose.com/words/net/aspose.words/inline/isformatrevision/), [IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/isinsertrevision/), [IsMoveFromRevision](https://reference.aspose.com/words/net/aspose.words/inline/ismovefromrevision/) y [IsMoveToRevision](https://reference.aspose.com/words/net/aspose.words/inline/ismovetorevision/).
+Además, Aspose.Words le permite verificar si un objeto se insertó, eliminó o cambió de formato utilizando las propiedades [IsDeleteRevision](https://reference.aspose.com/words/es/net/aspose.words/inline/isdeleterevision/), [IsFormatRevision](https://reference.aspose.com/words/es/net/aspose.words/inline/isformatrevision/), [IsInsertRevision](https://reference.aspose.com/words/es/net/aspose.words/inline/isinsertrevision/), [IsMoveFromRevision](https://reference.aspose.com/words/es/net/aspose.words/inline/ismovefromrevision/) y [IsMoveToRevision](https://reference.aspose.com/words/es/net/aspose.words/inline/ismovetorevision/).
 
 {{% alert color="primary" %}}
 

@@ -21,7 +21,7 @@ Aspose.Words, uygulamalarınızın çok çeşitli belge işleme görevlerini ger
             <li><a href="https://products.aspose.com/words/net/">.NET ürün sayfası için Aspose.Words</a></li>
             <li><a href="/words/tr/net/product-overview/">Ürüne Genel Bakış</a></li>
             <li><a href="/words/tr/net/developer-guide/">Geliştirici Kılavuzu</a></li>
-            <li><a href="https://reference.aspose.com/words/net/">.NET için Aspose.Words – API Reference kılavuzu</a></li>
+            <li><a href="https://reference.aspose.com/words/tr/net/">.NET için Aspose.Words – API Reference kılavuzu</a></li>
             <li><a href="https://releases.aspose.com/words/net/release-notes/">.NET sürüm notları için Aspose.Words</a></li>
             <li><a href="https://releases.aspose.com/words/net/">.NET'yi indirmek için Aspose.Words</a></li>
             <li><a href="https://www.nuget.org/packages/Aspose.Words/">.NET – NuGet Package için Aspose.Words</a></li>

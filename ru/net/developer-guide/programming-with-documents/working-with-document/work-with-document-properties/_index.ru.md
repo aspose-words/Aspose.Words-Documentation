@@ -26,15 +26,15 @@ url: /ru/net/work-with-document-properties/
 
 Для доступа к свойствам документа в Aspose.Words используйте:
 
-* [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/builtindocumentproperties/) для получения встроенных свойств.
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/ru/net/aspose.words/document/builtindocumentproperties/) для получения встроенных свойств.
 
-* [CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/customdocumentproperties/) для получения пользовательских свойств.
+* [CustomDocumentProperties](https://reference.aspose.com/words/ru/net/aspose.words/document/customdocumentproperties/) для получения пользовательских свойств.
 
-**BuiltInDocumentProperties** и **CustomDocumentProperties** — это коллекции из [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) объектов. Эти объекты можно получить через свойство indexer по имени или по индексу.
+**BuiltInDocumentProperties** и **CustomDocumentProperties** — это коллекции из [DocumentProperty](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentproperty/) объектов. Эти объекты можно получить через свойство indexer по имени или по индексу.
 
 **BuiltInDocumentProperties** дополнительно обеспечивает доступ к свойствам документа через набор введенных свойств, которые возвращают значения соответствующего типа. **CustomDocumentProperties** позволяют добавлять или удалять свойства документа из документа.
 
-Класс [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/) позволяет получить имя, значение и тип свойства документа. [Value](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/value/) возвращает объект, но существует набор методов, позволяющих преобразовать значение свойства в определенный тип. После того, как вы узнаете, к какому типу относится свойство, вы можете использовать один из методов **DocumentProperty.ToXXX**, например **DocumentProperty.**[ToString](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/tostring/) и **DocumentProperty.**[ToInt](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/toint/), для получения значения соответствующего типа.
+Класс [DocumentProperty](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentproperty/) позволяет получить имя, значение и тип свойства документа. [Value](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentproperty/value/) возвращает объект, но существует набор методов, позволяющих преобразовать значение свойства в определенный тип. После того, как вы узнаете, к какому типу относится свойство, вы можете использовать один из методов **DocumentProperty.ToXXX**, например **DocumentProperty.**[ToString](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentproperty/tostring/) и **DocumentProperty.**[ToInt](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentproperty/toint/), для получения значения соответствующего типа.
 
 В следующем примере кода показано, как перечислить все встроенные и настраиваемые свойства в документе:
 
@@ -54,9 +54,9 @@ url: /ru/net/work-with-document-properties/
 
 Вы не можете добавлять или удалять встроенные свойства документа с помощью Aspose.Words. Вы можете только изменять или обновлять их значения.
 
-Чтобы добавить пользовательские свойства документа с номером Aspose.Words, используйте метод [Add](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/add/#add/), передав имя нового свойства и значение соответствующего типа. Метод возвращает вновь созданный объект **DocumentProperty**.
+Чтобы добавить пользовательские свойства документа с номером Aspose.Words, используйте метод [Add](https://reference.aspose.com/words/ru/net/aspose.words.properties/customdocumentproperties/add/#add/), передав имя нового свойства и значение соответствующего типа. Метод возвращает вновь созданный объект **DocumentProperty**.
 
-Чтобы удалить пользовательские свойства, используйте метод [Remove](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/), передав ему имя удаляемого свойства, или метод [RemoveAt](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/at), чтобы удалить свойство по индексу. Вы также можете удалить все свойства, используя метод [Clear](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/clear/).
+Чтобы удалить пользовательские свойства, используйте метод [Remove](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentpropertycollection/remove/), передав ему имя удаляемого свойства, или метод [RemoveAt](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentpropertycollection/remove/at), чтобы удалить свойство по индексу. Вы также можете удалить все свойства, используя метод [Clear](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentpropertycollection/clear/).
 
 В следующем примере кода проверяется, существует ли в документе настраиваемое свойство с заданным именем, и добавляются еще несколько настраиваемых свойств документа:
 
@@ -74,17 +74,17 @@ url: /ru/net/work-with-document-properties/
 
 ## Обновить встроенные свойства документа
 
-Aspose.Words не обновляет свойства документа автоматически, как это делает Microsoft Word с некоторыми свойствами, но предоставляет метод обновления некоторых статистических встроенных свойств документа. Вызовите метод [UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/#updatewordcount/), чтобы пересчитать и обновить следующие свойства:
+Aspose.Words не обновляет свойства документа автоматически, как это делает Microsoft Word с некоторыми свойствами, но предоставляет метод обновления некоторых статистических встроенных свойств документа. Вызовите метод [UpdateWordCount](https://reference.aspose.com/words/ru/net/aspose.words/document/updatewordcount/#updatewordcount/), чтобы пересчитать и обновить следующие свойства:
 
-* [Characters](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characters/)
-* [CharactersWithSpaces](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
-* [Words](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/words/)
-* [Paragraphs](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
-* [Lines](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lines/)
+* [Characters](https://reference.aspose.com/words/ru/net/aspose.words.properties/builtindocumentproperties/characters/)
+* [CharactersWithSpaces](https://reference.aspose.com/words/ru/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
+* [Words](https://reference.aspose.com/words/ru/net/aspose.words.properties/builtindocumentproperties/words/)
+* [Paragraphs](https://reference.aspose.com/words/ru/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
+* [Lines](https://reference.aspose.com/words/ru/net/aspose.words.properties/builtindocumentproperties/lines/)
 
 ## Создайте новое пользовательское свойство, связанное с контентом
 
-Aspose.Words предоставляет метод [AddLinkToContent](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) для создания нового настраиваемого свойства документа, связанного с содержимым. Это свойство возвращает вновь созданный объект свойства или значение NULL, если [LinkSource](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/linksource/) недействителен.
+Aspose.Words предоставляет метод [AddLinkToContent](https://reference.aspose.com/words/ru/net/aspose.words.properties/customdocumentproperties/addlinktocontent/) для создания нового настраиваемого свойства документа, связанного с содержимым. Это свойство возвращает вновь созданный объект свойства или значение NULL, если [LinkSource](https://reference.aspose.com/words/ru/net/aspose.words.properties/documentproperty/linksource/) недействителен.
 
 В следующем примере кода показано, как настроить ссылку на настраиваемое свойство:
 
@@ -92,7 +92,7 @@ Aspose.Words предоставляет метод [AddLinkToContent](https://re
 
 ## Получить переменные документа
 
-Вы можете получить коллекцию переменных документа, используя свойство [Variables](https://reference.aspose.com/words/net/aspose.words/document/variables/). Имена и значения переменных являются строками.
+Вы можете получить коллекцию переменных документа, используя свойство [Variables](https://reference.aspose.com/words/ru/net/aspose.words/document/variables/). Имена и значения переменных являются строками.
 
 В следующем примере кода показано, как перечислять переменные документа:
 
@@ -106,7 +106,7 @@ Aspose.Words предоставляет метод [AddLinkToContent](https://re
 
 ## Удалить личную информацию из документа
 
-Если вы хотите поделиться документом Word с другими людьми, вы можете удалить личную информацию, такую как имя автора и компания. Для этого используйте свойство [RemovePersonalInformation](https://reference.aspose.com/words/net/aspose.words/document/removepersonalinformation/), чтобы установить флаг, указывающий, что Microsoft Word удалит всю информацию о пользователе из комментариев, редакций и свойств документа при сохранении документа.
+Если вы хотите поделиться документом Word с другими людьми, вы можете удалить личную информацию, такую как имя автора и компания. Для этого используйте свойство [RemovePersonalInformation](https://reference.aspose.com/words/ru/net/aspose.words/document/removepersonalinformation/), чтобы установить флаг, указывающий, что Microsoft Word удалит всю информацию о пользователе из комментариев, редакций и свойств документа при сохранении документа.
 
 В следующем примере кода показано, как удалить личную информацию:
 

@@ -56,10 +56,10 @@ Bu bölümdeki kod, yukarıda açıklanan tüm olası durumları genelleştirilm
 
 Bununla birlikte, işaretleyici düğümler satır içiyse (paragrafın çocuğu) durum daha karmaşık hale gelir, çünkü paragrafı satır içi düğümde bölmek gerekir; bir çalıştırma, yer imi alanları vb. olsun. Klonlanmış ana düğümlerdeki içerik, İşaretleyiciler arasında mevcut olanlar kaldırılır. Bu işlem, satır içi düğümlerin hala ana paragrafın biçimlendirmesini koruyacağından emin olmak için kullanılır. Yöntem aynı zamanda parametre olarak iletilen düğümler üzerinde de denetimler çalıştıracak ve düğümlerden herhangi birinin geçersiz olması durumunda bir istisna oluşturacaktır. Bu yönteme iletilecek parametreler şunlardır:
 
-1. **StartNode** ve **EndNode**. İlk iki parametre, içeriğin çıkarılmasının sırasıyla nerede başlayacağını ve biteceğini tanımlayan düğümlerdir. Bu düğümler hem blok düzeyinde ([Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)) hem de satır içi düzeyde (örn. [Run](https://reference.aspose.com/words/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) vb.) olabilir:
+1. **StartNode** ve **EndNode**. İlk iki parametre, içeriğin çıkarılmasının sırasıyla nerede başlayacağını ve biteceğini tanımlayan düğümlerdir. Bu düğümler hem blok düzeyinde ([Paragraph](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/)) hem de satır içi düzeyde (örn. [Run](https://reference.aspose.com/words/tr/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/tr/net/aspose.words/bookmark/bookmarkstart/) vb.) olabilir:
    1. Bir alanı iletmek için ilgili **FieldStart** nesnesini iletmelisiniz
-   1. Yer imlerini iletmek için **BookmarkStart** ve [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/) düğümlerinin iletilmesi gerekir
-   1. Yorumları iletmek için [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) ve [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) düğümleri kullanılmalıdır
+   1. Yer imlerini iletmek için **BookmarkStart** ve [BookmarkEnd](https://reference.aspose.com/words/tr/net/aspose.words/bookmark/bookmarkend/) düğümlerinin iletilmesi gerekir
+   1. Yorumları iletmek için [CommentRangeStart](https://reference.aspose.com/words/tr/net/aspose.words/commentrangestart/) ve [CommentRangeEnd](https://reference.aspose.com/words/tr/net/aspose.words/commentrangeend/) düğümleri kullanılmalıdır
 1.**IsInclusive**. İşaretleyicilerin ekstraksiyona dahil edilip edilmeyeceğini tanımlar. Bu seçenek false olarak ayarlanırsa ve aynı düğüm veya ardışık düğümler aktarılırsa boş bir liste döndürülür:
    1. Bir **FieldStart** düğümü aktarılırsa bu seçenek tüm alanın dahil edileceğini veya hariç tutulacağını tanımlar
    1. Bir **BookmarkStart** veya **BookmarkEnd** düğümü aktarılırsa bu seçenek, yer iminin mi yoksa yalnızca yer imi aralığı arasındaki içeriğin mi dahil edileceğini tanımlar.
@@ -77,7 +77,7 @@ Aşağıdaki kod örneği, düğüm listesinin nasıl alınacağını ve bunlar�
 
 Bu, belirli paragraflar arasındaki içeriği çıkarmak için yukarıdaki yöntemin nasıl kullanılacağını gösterir. Bu durumda belgenin ilk yarısında bulunan mektubun gövdesini çıkarmak istiyoruz. Bunun 7. ve 11. paragraflar arasında olduğunu söyleyebiliriz.
 
-Aşağıdaki kod bu görevi yerine getirir. Uygun paragraflar belge üzerinde [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/) yöntemi kullanılarak ve belirtilen indekslerden geçirilerek çıkarılır. Daha sonra bu düğümleri **ExtractContent** yöntemine aktarıyoruz ve bunların da ekstraksiyona dahil edilmesi gerektiğini belirtiyoruz. Bu yöntem, daha sonra yeni bir belgeye eklenen bu düğümler arasında kopyalanan içeriği döndürür.
+Aşağıdaki kod bu görevi yerine getirir. Uygun paragraflar belge üzerinde [GetChild](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/) yöntemi kullanılarak ve belirtilen indekslerden geçirilerek çıkarılır. Daha sonra bu düğümleri **ExtractContent** yöntemine aktarıyoruz ve bunların da ekstraksiyona dahil edilmesi gerektiğini belirtiyoruz. Bu yöntem, daha sonra yeni bir belgeye eklenen bu düğümler arasında kopyalanan içeriği döndürür.
 
 Aşağıdaki kod örneği, yukarıdaki `ExtractContent` yöntemini kullanarak belirli paragraflar arasındaki içeriğin nasıl çıkarılacağını gösterir:
 
@@ -91,7 +91,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ## Farklı Düğüm Türleri Arasında İçerik Çıkarma
 
-Blok düzeyi veya satır içi düğümlerin herhangi bir kombinasyonu arasından içerik çıkarabiliriz. Aşağıdaki bu senaryoda, ilk paragraf ile ikinci bölümdeki tablo arasındaki içeriği kapsamlı bir şekilde çıkaracağız. Uygun **Paragraph** ve **Table** düğümlerini almak için belgenin ikinci bölümünde [FirstParagraph](https://reference.aspose.com/words/net/aspose.words/story/firstparagraph/) ve [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/getchild/) yöntemlerini çağırarak işaretçi düğümlerini alıyoruz. Küçük bir değişiklik için bunun yerine içeriği kopyalayıp orijinalin altına ekleyelim.
+Blok düzeyi veya satır içi düğümlerin herhangi bir kombinasyonu arasından içerik çıkarabiliriz. Aşağıdaki bu senaryoda, ilk paragraf ile ikinci bölümdeki tablo arasındaki içeriği kapsamlı bir şekilde çıkaracağız. Uygun **Paragraph** ve **Table** düğümlerini almak için belgenin ikinci bölümünde [FirstParagraph](https://reference.aspose.com/words/tr/net/aspose.words/story/firstparagraph/) ve [GetChild](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/getchild/) yöntemlerini çağırarak işaretçi düğümlerini alıyoruz. Küçük bir değişiklik için bunun yerine içeriği kopyalayıp orijinalin altına ekleyelim.
 
 Aşağıdaki kod örneği, **ExtractContent** yöntemini kullanarak bir paragraf ile tablo arasındaki içeriğin nasıl çıkarılacağını gösterir:
 
@@ -123,7 +123,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ## Belirli Çalıştırmalar Arasında İçerik Çıkarma
 
-[Run](https://reference.aspose.com/words/net/aspose.words/run/) gibi satır içi düğümler arasında da içerik çıkarabilirsiniz. Farklı paragraflardaki **Runs** işaretçiler olarak aktarılabilir. Aşağıdaki kod, aynı **Paragraph** düğümü arasında belirli bir metnin nasıl çıkarılacağını gösterir.
+[Run](https://reference.aspose.com/words/tr/net/aspose.words/run/) gibi satır içi düğümler arasında da içerik çıkarabilirsiniz. Farklı paragraflardaki **Runs** işaretçiler olarak aktarılabilir. Aşağıdaki kod, aynı **Paragraph** düğümü arasında belirli bir metnin nasıl çıkarılacağını gösterir.
 
 Aşağıdaki kod örneği, **ExtractContent** yöntemini kullanarak aynı paragrafın belirli çalıştırmaları arasındaki içeriğin nasıl çıkarılacağını gösterir:
 
@@ -137,7 +137,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ## Bir Alanı Kullanarak İçeriği Çıkarma
 
-Bir alanı işaretleyici olarak kullanmak için `FieldStart` düğümünün iletilmesi gerekir. `ExtractContent` yönteminin son parametresi tüm alanın dahil edilip edilmeyeceğini tanımlayacaktır. Belgedeki "FullName" birleştirme alanı ile bir paragraf arasındaki içeriği çıkaralım. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) sınıfının [MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/) yöntemini kullanıyoruz. Bu, kendisine iletilen birleştirme alanının adından **FieldStart** düğümünü döndürecektir.
+Bir alanı işaretleyici olarak kullanmak için `FieldStart` düğümünün iletilmesi gerekir. `ExtractContent` yönteminin son parametresi tüm alanın dahil edilip edilmeyeceğini tanımlayacaktır. Belgedeki "FullName" birleştirme alanı ile bir paragraf arasındaki içeriği çıkaralım. [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) sınıfının [MoveToMergeField](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/movetomergefield/) yöntemini kullanıyoruz. Bu, kendisine iletilen birleştirme alanının adından **FieldStart** düğümünü döndürecektir.
 
 Bizim durumumuzda alanı çıkarma işleminin dışında bırakmak için **ExtractContent** yöntemine iletilen son parametreyi false olarak ayarlayalım. Çıkarılan içeriği PDF'ye dönüştüreceğiz.
 
@@ -169,7 +169,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 Bir yorum CommentRangeStart, CommentRangeEnd ve Comment düğümlerinden oluşur. Bu düğümlerin tümü satır içidir. İlk iki düğüm, aşağıdaki ekran görüntüsünde görüldüğü gibi, yorumun referans verdiği belgedeki içeriği kapsar.
 
-**Comment** düğümünün kendisi paragraflar ve çalıştırmalar içerebilen bir [InlineStory](https://reference.aspose.com/words/net/aspose.words/inlinestory/)'dir. İnceleme bölmesinde bir yorum balonu olarak görülen yorumun mesajını temsil eder. Bu düğüm satır içi olduğundan ve bir gövdenin soyundan geldiğinden, içeriği bu mesajın içinden de çıkarabilirsiniz.
+**Comment** düğümünün kendisi paragraflar ve çalıştırmalar içerebilen bir [InlineStory](https://reference.aspose.com/words/tr/net/aspose.words/inlinestory/)'dir. İnceleme bölmesinde bir yorum balonu olarak görülen yorumun mesajını temsil eder. Bu düğüm satır içi olduğundan ve bir gövdenin soyundan geldiğinden, içeriği bu mesajın içinden de çıkarabilirsiniz.
 
 Yorum, başlığı, ilk paragrafı ve ikinci bölümdeki tabloyu kapsar. Bu yorumu yeni bir belgeye çıkaralım. **IsInclusive** seçeneği, yorumun kendisinin tutulacağını veya atılacağını belirler.
 
@@ -185,17 +185,17 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ## DocumentVisitor Kullanarak İçerik Nasıl Çıkarılır
 
-Bu kullanım senaryosunu uygulamak için [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) sınıfını kullanın. Bu sınıf, iyi bilinen Ziyaretçi tasarım modeline karşılık gelir. **DocumentVisitor** **,** ile belge ağacı üzerinde numaralandırma gerektiren özel işlemleri tanımlayabilir ve yürütebilirsiniz.
+Bu kullanım senaryosunu uygulamak için [DocumentVisitor](https://reference.aspose.com/words/tr/net/aspose.words/documentvisitor/) sınıfını kullanın. Bu sınıf, iyi bilinen Ziyaretçi tasarım modeline karşılık gelir. **DocumentVisitor** **,** ile belge ağacı üzerinde numaralandırma gerektiren özel işlemleri tanımlayabilir ve yürütebilirsiniz.
 
-**DocumentVisitor**, belirli bir belge öğesiyle (düğüm) karşılaşıldığında çağrılan bir dizi **VisitXXX** yöntemi sağlar. Örneğin, bir metin paragrafının başlangıcı bulunduğunda [VisitParagraphStart](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphstart/) çağrılır ve bir metin paragrafının sonu bulunduğunda [VisitParagraphEnd](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphend/) çağrılır. Her **DocumentVisitor.VisitXXX** yöntemi karşılaştığı ilgili nesneyi kabul eder, böylece onu gerektiği gibi kullanabilirsiniz (örneğin, biçimlendirmeyi geri alın), örneğin hem **DocumentVisitor.VisitParagraphStart** hem de **DocumentVisitor.VisitParagraphEnd** bir [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) nesnesini kabul eder.
+**DocumentVisitor**, belirli bir belge öğesiyle (düğüm) karşılaşıldığında çağrılan bir dizi **VisitXXX** yöntemi sağlar. Örneğin, bir metin paragrafının başlangıcı bulunduğunda [VisitParagraphStart](https://reference.aspose.com/words/tr/net/aspose.words/documentvisitor/visitparagraphstart/) çağrılır ve bir metin paragrafının sonu bulunduğunda [VisitParagraphEnd](https://reference.aspose.com/words/tr/net/aspose.words/documentvisitor/visitparagraphend/) çağrılır. Her **DocumentVisitor.VisitXXX** yöntemi karşılaştığı ilgili nesneyi kabul eder, böylece onu gerektiği gibi kullanabilirsiniz (örneğin, biçimlendirmeyi geri alın), örneğin hem **DocumentVisitor.VisitParagraphStart** hem de **DocumentVisitor.VisitParagraphEnd** bir [Paragraph](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/) nesnesini kabul eder.
 
-Her **DocumentVisitor.VisitXXX** yöntemi, düğümlerin numaralandırılmasını kontrol eden bir [VisitorAction](https://reference.aspose.com/words/net/aspose.words/visitoraction/) değeri döndürür. Numaralandırmaya devam etmeyi, geçerli düğümü atlamayı (ancak numaralandırmaya devam etmeyi) veya düğümlerin numaralandırmasını durdurmayı talep edebilirsiniz.
+Her **DocumentVisitor.VisitXXX** yöntemi, düğümlerin numaralandırılmasını kontrol eden bir [VisitorAction](https://reference.aspose.com/words/tr/net/aspose.words/visitoraction/) değeri döndürür. Numaralandırmaya devam etmeyi, geçerli düğümü atlamayı (ancak numaralandırmaya devam etmeyi) veya düğümlerin numaralandırmasını durdurmayı talep edebilirsiniz.
 
 Bir belgenin çeşitli bölümlerini programlı olarak belirlemek ve çıkarmak için izlemeniz gereken adımlar şunlardır:
 
 - **DocumentVisitor**'ten türetilmiş bir sınıf oluşturun
 - Bazı özel işlemleri gerçekleştirmek için **DocumentVisitor.VisitXXX** yöntemlerinin bir kısmı veya tamamı için uygulamaları geçersiz kılın ve sağlayın
-- Numaralandırmayı başlatmak istediğiniz düğümde [Node.Accept](https://reference.aspose.com/words/net/aspose.words/node/accept/)'i arayın; örneğin, belgenin tamamını numaralandırmak istiyorsanız [Document.Accept](https://reference.aspose.com/words/net/aspose.words/document/accept/)'yi kullanın
+- Numaralandırmayı başlatmak istediğiniz düğümde [Node.Accept](https://reference.aspose.com/words/tr/net/aspose.words/node/accept/)'i arayın; örneğin, belgenin tamamını numaralandırmak istiyorsanız [Document.Accept](https://reference.aspose.com/words/tr/net/aspose.words/document/accept/)'yi kullanın
 
 **DocumentVisitor**, tüm **DocumentVisitor.VisitXXX** yöntemleri için varsayılan uygulamaları sağlar. Bu, yalnızca belirli bir ziyaretçi için gereken yöntemlerin geçersiz kılınması gerektiğinden, yeni belge ziyaretçileri oluşturmayı kolaylaştırır. Tüm ziyaretçi yöntemlerinin geçersiz kılınması gerekli değildir.
 
@@ -215,10 +215,10 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 Belgeden metin almanın yolları şunlardır:
 
-- Bir dosyaya veya akışa düz metin olarak kaydetmek için [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/)'i [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) ile kullanın
-- [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) kullanın ve **SaveFormat.Text** parametresini iletin. Dahili olarak bu, bir bellek akışına metin olarak kaydetmeyi çağırır ve elde edilen dizeyi döndürür
-- Alan kodları dahil tüm Microsoft Word kontrol karakterlerini içeren metni almak için [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/)'i kullanın
-- Özelleştirilmiş çıkarma gerçekleştirmek için özel bir [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) uygulayın
+- Bir dosyaya veya akışa düz metin olarak kaydetmek için [Document.Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/)'i [SaveFormat.Text](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/) ile kullanın
+- [Node.ToString](https://reference.aspose.com/words/tr/net/aspose.words/node/tostring/) kullanın ve **SaveFormat.Text** parametresini iletin. Dahili olarak bu, bir bellek akışına metin olarak kaydetmeyi çağırır ve elde edilen dizeyi döndürür
+- Alan kodları dahil tüm Microsoft Word kontrol karakterlerini içeren metni almak için [Node.GetText](https://reference.aspose.com/words/tr/net/aspose.words/node/gettext/)'i kullanın
+- Özelleştirilmiş çıkarma gerçekleştirmek için özel bir [DocumentVisitor](https://reference.aspose.com/words/tr/net/aspose.words/documentvisitor/) uygulayın
 
 ### `Node.GetText` ve `Node.ToString`'yi kullanma
 

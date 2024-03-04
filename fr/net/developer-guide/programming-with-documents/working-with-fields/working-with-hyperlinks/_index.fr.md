@@ -9,11 +9,11 @@ weight: 50
 url: /fr/net/working-with-hyperlinks/
 ---
 
-Un lien hypertexte dans les documents Microsoft Word est le champ `HYPERLINK`. En Aspose.Words, les hyperliens sont implémentés via la classe [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).
+Un lien hypertexte dans les documents Microsoft Word est le champ `HYPERLINK`. En Aspose.Words, les hyperliens sont implémentés via la classe [FieldHyperlink](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldhyperlink/).
 
 ## Insérer un lien hypertexte
 
-Utilisez la méthode [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/) pour insérer un lien hypertexte dans le document. Cette méthode accepte trois paramètres:
+Utilisez la méthode [InsertHyperlink](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/inserthyperlink/) pour insérer un lien hypertexte dans le document. Cette méthode accepte trois paramètres:
 
 1. Texte du lien à afficher dans le document
 2. Destination du lien (URL ou nom d'un signet à l'intérieur du document)
@@ -27,7 +27,7 @@ Notez que vous devez spécifier explicitement le formatage de la police pour le 
 
 {{% /alert %}}
 
-L'exemple de code suivant montre comment insérer un lien hypertexte dans un document à l'aide de [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/):
+L'exemple de code suivant montre comment insérer un lien hypertexte dans un document à l'aide de [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

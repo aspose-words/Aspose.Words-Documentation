@@ -13,9 +13,9 @@ Aspose.Words также предоставляет некоторые класс
 
 ## Вставка концевой сноски и установка параметров нумерации
 
-Если вы хотите вставить сноску или концевую сноску в документ Word, используйте метод [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/). Этот метод вставляет в документ сноску или концевую сноску.
+Если вы хотите вставить сноску или концевую сноску в документ Word, используйте метод [InsertFootnote](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertfootnote/). Этот метод вставляет в документ сноску или концевую сноску.
 
-Классы [EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) представляют варианты нумерации сносок и концевых сносок.
+Классы [EndnoteOptions](https://reference.aspose.com/words/ru/net/aspose.words.notes/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/ru/net/aspose.words.notes/footnoteoptions/) представляют варианты нумерации сносок и концевых сносок.
 
 В следующем примере кода показано, как вставить концевую сноску в документ и установить параметры нумерации:
 
@@ -23,7 +23,7 @@ Aspose.Words также предоставляет некоторые класс
 
 ## Установить количество столбцов макета сноски
 
-Вы можете установить количество столбцов макета сносок, используя свойство [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/). Если это свойство имеет значение 0, область сносок форматируется с использованием количества столбцов в зависимости от количества столбцов на отображаемой странице.
+Вы можете установить количество столбцов макета сносок, используя свойство [Columns](https://reference.aspose.com/words/ru/net/aspose.words.notes/footnoteoptions/columns/). Если это свойство имеет значение 0, область сносок форматируется с использованием количества столбцов в зависимости от количества столбцов на отображаемой странице.
 
 В следующем примере кода показано, как задать количество столбцов для макета сноски:
 

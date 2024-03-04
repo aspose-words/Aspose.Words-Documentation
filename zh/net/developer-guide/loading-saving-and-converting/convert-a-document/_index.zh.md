@@ -14,10 +14,10 @@ keywords: "convert a document c#, convert documents from one format to another c
 
 ## 什么是文档转换 {#what-is-document-conversion}
 
-几乎您想要使用 Aspose.Words 执行的任何任务都涉及以某种格式加载或保存文档。如前面部分所述，[LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) 枚举指定 Aspose.Words 支持的所有 *load* 或 *import* 格式，[SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) 枚举指定 Aspose.Words 支持的所有 *save* 或 *export* 格式。因此，Aspose.Words 可以将文档从任何支持的加载格式转换为任何支持的保存格式。通常，这种转换需要几个阶段的计算。然而，从用户的角度来看，从一种文档格式到另一种文档格式的转换本身非常简单，只需两个步骤即可完成：
+几乎您想要使用 Aspose.Words 执行的任何任务都涉及以某种格式加载或保存文档。如前面部分所述，[LoadFormat](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 枚举指定 Aspose.Words 支持的所有 *load* 或 *import* 格式，[SaveFormat](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/) 枚举指定 Aspose.Words 支持的所有 *save* 或 *export* 格式。因此，Aspose.Words 可以将文档从任何支持的加载格式转换为任何支持的保存格式。通常，这种转换需要几个阶段的计算。然而，从用户的角度来看，从一种文档格式到另一种文档格式的转换本身非常简单，只需两个步骤即可完成：
 
-1. 使用 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象的构造函数之一将文档加载到 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象中。
-1. 对 **Document** 对象调用 [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) 方法之一并指定所需的输出格式。
+1. 使用 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象的构造函数之一将文档加载到 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象中。
+1. 对 **Document** 对象调用 [Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/#save/) 方法之一并指定所需的输出格式。
 
 {{% alert color="primary" %}}
 

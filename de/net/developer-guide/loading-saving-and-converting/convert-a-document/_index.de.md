@@ -14,10 +14,10 @@ Die Möglichkeit, Dokumente einfach und zuverlässig von einem Format in ein and
 
 ## Was ist die Dokumentenkonvertierung {#what-is-document-conversion}?
 
-Fast jede Aufgabe, die Sie mit Aspose.Words ausführen möchten, umfasst das Laden oder Speichern eines Dokuments in einem bestimmten Format. Wie in den vorherigen Abschnitten erwähnt, gibt die [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/)-Enumeration alle von Aspose.Words unterstützten *load*- oder *import*-Formate an, und die [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/)-Enumeration gibt alle von Aspose.Words unterstützten *save*- oder *export*-Formate an. Somit kann Aspose.Words ein Dokument von jedem unterstützten Ladeformat in jedes unterstützte Speicherformat konvertieren. Eine solche Umrechnung erfordert in der Regel mehrere Berechnungsschritte. Aus Benutzersicht ist die Konvertierung von einem Dokumentformat in ein anderes jedoch sehr einfach und kann in nur zwei Schritten durchgeführt werden:
+Fast jede Aufgabe, die Sie mit Aspose.Words ausführen möchten, umfasst das Laden oder Speichern eines Dokuments in einem bestimmten Format. Wie in den vorherigen Abschnitten erwähnt, gibt die [LoadFormat](https://reference.aspose.com/words/de/net/aspose.words/loadformat/)-Enumeration alle von Aspose.Words unterstützten *load*- oder *import*-Formate an, und die [SaveFormat](https://reference.aspose.com/words/de/net/aspose.words/saveformat/)-Enumeration gibt alle von Aspose.Words unterstützten *save*- oder *export*-Formate an. Somit kann Aspose.Words ein Dokument von jedem unterstützten Ladeformat in jedes unterstützte Speicherformat konvertieren. Eine solche Umrechnung erfordert in der Regel mehrere Berechnungsschritte. Aus Benutzersicht ist die Konvertierung von einem Dokumentformat in ein anderes jedoch sehr einfach und kann in nur zwei Schritten durchgeführt werden:
 
-1. Laden Sie Ihr Dokument mit einem seiner Konstruktoren in ein [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Objekt.
-1. Rufen Sie eine der [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/)-Methoden für das **Document**-Objekt auf und geben Sie das gewünschte Ausgabeformat an.
+1. Laden Sie Ihr Dokument mit einem seiner Konstruktoren in ein [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Objekt.
+1. Rufen Sie eine der [Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/#save/)-Methoden für das **Document**-Objekt auf und geben Sie das gewünschte Ausgabeformat an.
 
 {{% alert color="primary" %}}
 

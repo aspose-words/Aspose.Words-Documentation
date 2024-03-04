@@ -13,7 +13,7 @@ In diesem Artikel erfahren wir, welche Optionen für die Arbeit mit einem Textdo
 
 ## Fügen Sie bidirektionale Markierungen hinzu
 
-Mit der [AddBidiMarks](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/addbidimarks/)-Eigenschaft können Sie festlegen, ob beim Exportieren im Nur-Text-Format vor jedem BiDi-Lauf bidirektionale Markierungen hinzugefügt werden sollen. Aspose.Words fügt vor jedem bidirektionalen Lauf im Text das Unicode-Zeichen "RIGHT-TO-LEFT MARK" (U+200F) ein. Diese Option entspricht der Option "Bidirektionale Markierungen hinzufügen" im Dialogfeld "MS Word-Dateikonvertierung", wenn Sie in ein Nur-Text-Format exportieren. Beachten Sie, dass es im Dialog nur angezeigt wird, wenn in MS Word eine der Bearbeitungssprachen Arabisch oder Hebräisch hinzugefügt wird.
+Mit der [AddBidiMarks](https://reference.aspose.com/words/de/net/aspose.words.saving/txtsaveoptions/addbidimarks/)-Eigenschaft können Sie festlegen, ob beim Exportieren im Nur-Text-Format vor jedem BiDi-Lauf bidirektionale Markierungen hinzugefügt werden sollen. Aspose.Words fügt vor jedem bidirektionalen Lauf im Text das Unicode-Zeichen "RIGHT-TO-LEFT MARK" (U+200F) ein. Diese Option entspricht der Option "Bidirektionale Markierungen hinzufügen" im Dialogfeld "MS Word-Dateikonvertierung", wenn Sie in ein Nur-Text-Format exportieren. Beachten Sie, dass es im Dialog nur angezeigt wird, wenn in MS Word eine der Bearbeitungssprachen Arabisch oder Hebräisch hinzugefügt wird.
 
 Das folgende Codebeispiel zeigt, wie die **AddBidiMarks**-Eigenschaft verwendet wird. Der Standardwert dieser Eigenschaft ist *false*:
 
@@ -21,7 +21,7 @@ Das folgende Codebeispiel zeigt, wie die **AddBidiMarks**-Eigenschaft verwendet 
 
 ## Listenelemente beim Laden von TXT erkennen
 
-Aspose.Words kann Listenelemente einer Textdatei als Listennummern oder einfachen Text in sein Dokumentobjektmodell importieren. Mit der [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/)-Eigenschaft können Sie angeben, wie nummerierte Listenelemente erkannt werden, wenn ein Dokument aus dem Nur-Text-Format importiert wird:
+Aspose.Words kann Listenelemente einer Textdatei als Listennummern oder einfachen Text in sein Dokumentobjektmodell importieren. Mit der [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/de/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/)-Eigenschaft können Sie angeben, wie nummerierte Listenelemente erkannt werden, wenn ein Dokument aus dem Nur-Text-Format importiert wird:
 
 * Wenn diese Option auf *true* eingestellt ist, werden Leerzeichen auch als Trennzeichen für Listennummern verwendet: Der Listenerkennungsalgorithmus für die Nummerierung im arabischen Stil (1., 1.1.2.) verwendet sowohl Leerzeichen als auch Punktsymbole (".").
 
@@ -41,7 +41,7 @@ Das folgende Codebeispiel zeigt, wie führende und nachfolgende Leerzeichen beim
 
 ## Erkennen Sie die Textrichtung des Dokuments
 
-Aspose.Words stellt die [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/documentdirection/)-Eigenschaft in der [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/)-Klasse bereit, um die Textrichtung (RTL/LTR) im Dokument zu erkennen. Diese Eigenschaft legt die in der [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/documentdirection/)-Enumeration bereitgestellten Dokumenttextrichtungen fest oder ruft diese ab. Der Standardwert bleibt *right*.
+Aspose.Words stellt die [DocumentDirection](https://reference.aspose.com/words/de/net/aspose.words.loading/txtloadoptions/documentdirection/)-Eigenschaft in der [TxtLoadOptions](https://reference.aspose.com/words/de/net/aspose.words.loading/txtloadoptions/)-Klasse bereit, um die Textrichtung (RTL/LTR) im Dokument zu erkennen. Diese Eigenschaft legt die in der [DocumentDirection](https://reference.aspose.com/words/de/net/aspose.words.loading/documentdirection/)-Enumeration bereitgestellten Dokumenttextrichtungen fest oder ruft diese ab. Der Standardwert bleibt *right*.
 
 Das folgende Codebeispiel zeigt, wie die Textrichtung des Dokuments beim Importieren einer TXT-Datei erkannt wird:
 
@@ -49,7 +49,7 @@ Das folgende Codebeispiel zeigt, wie die Textrichtung des Dokuments beim Importi
 
 ## Kopf- und Fußzeile in Ausgabe-TXT exportieren
 
-Wenn Sie Kopf- und Fußzeilen in ein TXT-Ausgabedokument exportieren möchten, können Sie die [ExportHeadersFootersMode](https://reference.aspose.com/words/net/aspose.words.saving/exportheadersfootersmode/)-Eigenschaft verwenden. Diese Eigenschaft gibt an, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden.
+Wenn Sie Kopf- und Fußzeilen in ein TXT-Ausgabedokument exportieren möchten, können Sie die [ExportHeadersFootersMode](https://reference.aspose.com/words/de/net/aspose.words.saving/exportheadersfootersmode/)-Eigenschaft verwenden. Diese Eigenschaft gibt an, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden.
 
 Das folgende Codebeispiel zeigt, wie Kopf- und Fußzeilen in das Nur-Text-Format exportiert werden:
 
@@ -57,7 +57,7 @@ Das folgende Codebeispiel zeigt, wie Kopf- und Fußzeilen in das Nur-Text-Format
 
 ## Einrückung der Exportliste in Ausgabe-TXT
 
-Aspose.Words hat die [TxtListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtlistindentation/)-Klasse eingeführt, mit der festgelegt werden kann, wie Listenebenen beim Exportieren in ein Nur-Text-Format eingerückt werden. Bei der Arbeit mit [TxtSaveOption](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/) wird die [ListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/listindentation/)-Eigenschaft bereitgestellt, um das Zeichen anzugeben, das zum Einrücken von Listenebenen verwendet werden soll, und um anzugeben, wie viele Zeichen pro Listenebene als Einrückung verwendet werden sollen.
+Aspose.Words hat die [TxtListIndentation](https://reference.aspose.com/words/de/net/aspose.words.saving/txtlistindentation/)-Klasse eingeführt, mit der festgelegt werden kann, wie Listenebenen beim Exportieren in ein Nur-Text-Format eingerückt werden. Bei der Arbeit mit [TxtSaveOption](https://reference.aspose.com/words/de/net/aspose.words.saving/txtsaveoptions/) wird die [ListIndentation](https://reference.aspose.com/words/de/net/aspose.words.saving/txtsaveoptions/listindentation/)-Eigenschaft bereitgestellt, um das Zeichen anzugeben, das zum Einrücken von Listenebenen verwendet werden soll, und um anzugeben, wie viele Zeichen pro Listenebene als Einrückung verwendet werden sollen.
 
 Der Standardwert für die Zeicheneigenschaft ist "\0", was bedeutet, dass keine Einrückung erfolgt. Für die count-Eigenschaft ist der Standardwert 0, was bedeutet, dass keine Einrückung erfolgt.
 

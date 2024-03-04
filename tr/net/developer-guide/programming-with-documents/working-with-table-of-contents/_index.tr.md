@@ -19,7 +19,7 @@ url: /tr/net/working-with-table-of-contents/
 
 ## İçindekiler Tablosunu Program Aracılığıyla Ekle
 
-[InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/) yöntemini çağırarak belgeye geçerli konuma bir `TOC` (içindekiler tablosu) alanı ekleyebilirsiniz.
+[InsertTableOfContents](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/inserttableofcontents/) yöntemini çağırarak belgeye geçerli konuma bir `TOC` (içindekiler tablosu) alanı ekleyebilirsiniz.
 
 Bir Word belgesindeki içindekiler tablosu çeşitli şekillerde oluşturulabilir ve çeşitli seçenekler kullanılarak biçimlendirilebilir. Yönteme ilettiğiniz alan anahtarları, tablonun oluşturulma ve belgenizde görüntülenme biçimini denetler.
 
@@ -43,8 +43,8 @@ Aşağıdaki kod örneği, başlık stillerini giriş olarak kullanarak bir belg
 
 Aspose.Words, bir `TOC`'yi yalnızca birkaç satır kodla tamamen güncellemenize olanak tanır. Bu, yeni eklenen bir `TOC`'yi doldurmak veya belgede değişiklikler yapıldıktan sonra mevcut bir `TOC`'yi güncellemek için yapılabilir. Belgedeki `TOC` alanlarını güncellemek için aşağıdaki iki yöntemin kullanılması gerekir:
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/tr/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/tr/net/aspose.words/document/updatepagelayout/)
 
 Lütfen bu iki güncelleme yönteminin bu sırayla çağrılması gerektiğini unutmayın. Tersine çevrilirse içindekiler tablosu doldurulur ancak sayfa numaraları görüntülenmez. Herhangi bir sayıda farklı TOC güncellenebilir. Bu yöntemler belgede bulunan tüm İçindekiler'i otomatik olarak güncelleyecektir.
 
@@ -142,7 +142,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## TC Alanlarını Ekle
 
-[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) yöntemini çağırıp alan adını gerekli anahtarlarla birlikte "TC" olarak belirterek [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)'in geçerli konumuna yeni bir TC alanı ekleyebilirsiniz.
+[InsertField](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertfield/) yöntemini çağırıp alan adını gerekli anahtarlarla birlikte "TC" olarak belirterek [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/)'in geçerli konumuna yeni bir TC alanı ekleyebilirsiniz.
 
 Aşağıdaki kod örneği, **DocumentBuilder** kullanarak belgeye `TC` alanının nasıl ekleneceğini gösterir:
 
@@ -156,7 +156,7 @@ Aşağıdaki kod örneği, bir belgedeki metinde `TC` alanının nasıl bulunaca
 
 ## İçindekiler Tablosunu Değiştir
 
-`TOC`'teki girişlerin formatı, işaretli girişlerin orijinal stillerini kullanmaz; bunun yerine her düzey, eşdeğer bir `TOC` stili kullanılarak formatlanır. Örneğin, `TOC`'teki ilk düzey **TOC1** stiliyle, ikinci düzey **TOC2** stiliyle vb. biçimlendirilmiştir. Bu, `TOC`'in görünümünü değiştirmek için bu stillerin değiştirilmesi gerektiği anlamına gelir. Aspose.Words'de bu stiller yerel ayardan bağımsız `StyleIdentifier.TOC1` ile `StyleIdentifier.TOC9`'ye kadar temsil edilir ve bu tanımlayıcılar kullanılarak [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) koleksiyonundan alınabilir.
+`TOC`'teki girişlerin formatı, işaretli girişlerin orijinal stillerini kullanmaz; bunun yerine her düzey, eşdeğer bir `TOC` stili kullanılarak formatlanır. Örneğin, `TOC`'teki ilk düzey **TOC1** stiliyle, ikinci düzey **TOC2** stiliyle vb. biçimlendirilmiştir. Bu, `TOC`'in görünümünü değiştirmek için bu stillerin değiştirilmesi gerektiği anlamına gelir. Aspose.Words'de bu stiller yerel ayardan bağımsız `StyleIdentifier.TOC1` ile `StyleIdentifier.TOC9`'ye kadar temsil edilir ve bu tanımlayıcılar kullanılarak [Styles](https://reference.aspose.com/words/tr/net/aspose.words/documentbase/styles/) koleksiyonundan alınabilir.
 
 Belgenin uygun stili alındıktan sonra bu stilin formatı değiştirilebilir. Bu stillerde yapılacak herhangi bir değişiklik otomatik olarak belgedeki İçindekiler'e yansıtılacaktır.
 
@@ -168,7 +168,7 @@ Ayrıca, `TOC`'e dahil edilmek üzere işaretlenen bir paragrafın (paragrafın 
 
 Ayrıca her giriş ve sayfa numarası arasında kullanılan ayırıcıların biçimlendirmesini de kontrol edebilirsiniz. Varsayılan olarak bu, bir sekme karakteri ve sağ kenar boşluğuna yakın dizilmiş bir sağ sekme durağı kullanılarak sayfa numaralandırmasına yayılan noktalı bir çizgidir.
 
-Değiştirmek istediğiniz belirli `TOC` düzeyi için alınan [Style](https://reference.aspose.com/words/net/aspose.words/style/) sınıfını kullanarak bunların belgede nasıl görüneceğini de değiştirebilirsiniz. Bunun nasıl göründüğünü değiştirmek için öncelikle stilin paragraf formatını almak üzere [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/)'in çağrılması gerekir. Bundan sekme durakları, [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) çağrılarak ve uygun sekme durağı değiştirilerek alınabilir. Aynı tekniği kullanarak sekmenin kendisi de hep birlikte taşınabilir veya kaldırılabilir.
+Değiştirmek istediğiniz belirli `TOC` düzeyi için alınan [Style](https://reference.aspose.com/words/tr/net/aspose.words/style/) sınıfını kullanarak bunların belgede nasıl görüneceğini de değiştirebilirsiniz. Bunun nasıl göründüğünü değiştirmek için öncelikle stilin paragraf formatını almak üzere [ParagraphFormat](https://reference.aspose.com/words/tr/net/aspose.words/style/paragraphformat/)'in çağrılması gerekir. Bundan sekme durakları, [TabStops](https://reference.aspose.com/words/tr/net/aspose.words/paragraphformat/tabstops/) çağrılarak ve uygun sekme durağı değiştirilerek alınabilir. Aynı tekniği kullanarak sekmenin kendisi de hep birlikte taşınabilir veya kaldırılabilir.
 
 Aşağıdaki kod örneği, `TOC` ile ilgili paragraflarda sağ sekme durağının konumunun nasıl değiştirileceğini gösterir:
 
@@ -176,9 +176,9 @@ Aşağıdaki kod örneği, `TOC` ile ilgili paragraflarda sağ sekme durağını
 
 ## Belgeden İçindekiler Tablosunu Kaldır
 
-`TOC` alanının `FieldStart` ve FieldEnd düğümü arasında bulunan tüm düğümler kaldırılarak içindekiler tablosu belgeden kaldırılabilir. Aşağıdaki kod bunu göstermektedir. İç içe geçmiş alanları takip etmediğimiz için `TOC` alanının kaldırılması normal bir alandan daha basittir. Bunun yerine [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) düğümünün [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) türünde olup olmadığını kontrol ederiz; bu, mevcut TOC'nin sonuyla karşılaştığımız anlamına gelir. Bu teknik, bu durumda herhangi bir iç içe geçmiş alan hakkında endişelenmeden kullanılabilir; çünkü düzgün biçimde oluşturulmuş herhangi bir belgenin, başka bir `TOC` alanı içinde tam olarak yuvalanmış bir `TOC` alanına sahip olmayacağını varsayabiliriz.
+`TOC` alanının `FieldStart` ve FieldEnd düğümü arasında bulunan tüm düğümler kaldırılarak içindekiler tablosu belgeden kaldırılabilir. Aşağıdaki kod bunu göstermektedir. İç içe geçmiş alanları takip etmediğimiz için `TOC` alanının kaldırılması normal bir alandan daha basittir. Bunun yerine [FieldEnd](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldend/) düğümünün [FieldType.FieldTOC](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldtype/) türünde olup olmadığını kontrol ederiz; bu, mevcut TOC'nin sonuyla karşılaştığımız anlamına gelir. Bu teknik, bu durumda herhangi bir iç içe geçmiş alan hakkında endişelenmeden kullanılabilir; çünkü düzgün biçimde oluşturulmuş herhangi bir belgenin, başka bir `TOC` alanı içinde tam olarak yuvalanmış bir `TOC` alanına sahip olmayacağını varsayabiliriz.
 
-Öncelikle her `TOC`'nin [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) düğümleri toplanır ve saklanır. Belirtilen `TOC` daha sonra numaralandırılır, böylece alandaki tüm düğümler ziyaret edilir ve saklanır. Düğümler daha sonra belgeden kaldırılır.
+Öncelikle her `TOC`'nin [FieldStart](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldstart/) düğümleri toplanır ve saklanır. Belirtilen `TOC` daha sonra numaralandırılır, böylece alandaki tüm düğümler ziyaret edilir ve saklanır. Düğümler daha sonra belgeden kaldırılır.
 
 Aşağıdaki kod örneği, belirtilen bir `TOC`'in bir belgeden nasıl kaldırılacağını gösterir:
 

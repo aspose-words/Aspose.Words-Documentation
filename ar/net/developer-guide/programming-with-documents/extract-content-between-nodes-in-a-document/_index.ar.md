@@ -56,10 +56,10 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ومع ذلك، إذا كانت عقد العلامة مضمنة (فرع من فقرة) يصبح الوضع أكثر تعقيدًا، لأنه من الضروري تقسيم الفقرة في العقدة المضمنة، سواء كان ذلك تشغيلًا أو حقول إشارة مرجعية وما إلى ذلك. المحتوى في العقد الأصلية المستنسخة لا تتم إزالة الموجودة بين العلامات. يتم استخدام هذه العملية للتأكد من أن العقد المضمنة ستظل تحتفظ بتنسيق الفقرة الأصلية. ستقوم الطريقة أيضًا بإجراء عمليات فحص على العقد التي تم تمريرها كمعلمات وطرح استثناءً إذا كانت أي من العقدتين غير صالحة. المعلمات التي سيتم تمريرها إلى هذه الطريقة هي:
 
-1. **StartNode** و**EndNode**. المعلمتان الأوليان هما العقد التي تحدد مكان بدء استخراج المحتوى وانتهاءه على التوالي. يمكن أن تكون هذه العقد على مستوى الكتلة ([Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)، [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)) أو على مستوى مضمن (مثل [Run](https://reference.aspose.com/words/net/aspose.words/run/)، [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/)، [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) وما إلى ذلك):
+1. **StartNode** و**EndNode**. المعلمتان الأوليان هما العقد التي تحدد مكان بدء استخراج المحتوى وانتهاءه على التوالي. يمكن أن تكون هذه العقد على مستوى الكتلة ([Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/)، [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/)) أو على مستوى مضمن (مثل [Run](https://reference.aspose.com/words/ar/net/aspose.words/run/)، [FieldStart](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldstart/)، [BookmarkStart](https://reference.aspose.com/words/ar/net/aspose.words/bookmark/bookmarkstart/) وما إلى ذلك):
    1. لتمرير حقل، يجب عليك تمرير كائن **FieldStart** المقابل
-   1. لتمرير الإشارات المرجعية، يجب تمرير عقدتي **BookmarkStart** و[BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/)
-   1. لتمرير التعليقات، يجب استخدام العقدتين [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)
+   1. لتمرير الإشارات المرجعية، يجب تمرير عقدتي **BookmarkStart** و[BookmarkEnd](https://reference.aspose.com/words/ar/net/aspose.words/bookmark/bookmarkend/)
+   1. لتمرير التعليقات، يجب استخدام العقدتين [CommentRangeStart](https://reference.aspose.com/words/ar/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/ar/net/aspose.words/commentrangeend/)
 1. **IsInclusive**. يحدد ما إذا كانت العلامات متضمنة في الاستخراج أم لا. إذا تم ضبط هذا الخيار على false وتم تمرير نفس العقدة أو العقد المتتالية، فسيتم إرجاع قائمة فارغة:
    1. إذا تم تمرير عقدة **FieldStart**، فسيحدد هذا الخيار ما إذا كان سيتم تضمين الحقل بأكمله أو استبعاده
    1. إذا تم تمرير عقدة **BookmarkStart** أو **BookmarkEnd**، يحدد هذا الخيار ما إذا كانت الإشارة المرجعية مضمنة أم مجرد المحتوى الموجود بين نطاق الإشارة المرجعية.
@@ -77,7 +77,7 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 يوضح هذا كيفية استخدام الطريقة المذكورة أعلاه لاستخراج المحتوى بين فقرات محددة. في هذه الحالة، نريد استخراج نص الرسالة الموجودة في النصف الأول من المستند. يمكننا أن نقول أن هذا يقع بين الفقرة السابعة والحادية عشرة.
 
-الكود أدناه ينجز هذه المهمة. يتم استخراج الفقرات المناسبة باستخدام طريقة [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/) في المستند وتمرير الفهارس المحددة. نقوم بعد ذلك بتمرير هذه العقد إلى طريقة **ExtractContent** ونذكر أنه سيتم تضمينها في الاستخراج. ستعيد هذه الطريقة المحتوى المنسوخ بين هذه العقد والتي يتم إدراجها بعد ذلك في مستند جديد.
+الكود أدناه ينجز هذه المهمة. يتم استخراج الفقرات المناسبة باستخدام طريقة [GetChild](https://reference.aspose.com/words/ar/net/aspose.words/compositenode/) في المستند وتمرير الفهارس المحددة. نقوم بعد ذلك بتمرير هذه العقد إلى طريقة **ExtractContent** ونذكر أنه سيتم تضمينها في الاستخراج. ستعيد هذه الطريقة المحتوى المنسوخ بين هذه العقد والتي يتم إدراجها بعد ذلك في مستند جديد.
 
 يوضح مثال الكود التالي كيفية استخراج المحتوى بين فقرات محددة باستخدام طريقة `ExtractContent` أعلاه:
 
@@ -91,7 +91,7 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## استخراج المحتوى بين أنواع مختلفة من العقد
 
-يمكننا استخراج المحتوى بين أي مجموعات من مستوى الكتلة أو العقد المضمنة. في هذا السيناريو أدناه سنقوم باستخراج المحتوى بين الفقرة الأولى والجدول في القسم الثاني بشكل شامل. نحصل على عقد العلامات عن طريق استدعاء أساليب [FirstParagraph](https://reference.aspose.com/words/net/aspose.words/story/firstparagraph/) و[GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/getchild/) في القسم الثاني من المستند لاسترداد عقد **Paragraph** و**Table** المناسبة. للحصول على اختلاف طفيف، دعنا نكرر المحتوى وندرجه أسفل النص الأصلي.
+يمكننا استخراج المحتوى بين أي مجموعات من مستوى الكتلة أو العقد المضمنة. في هذا السيناريو أدناه سنقوم باستخراج المحتوى بين الفقرة الأولى والجدول في القسم الثاني بشكل شامل. نحصل على عقد العلامات عن طريق استدعاء أساليب [FirstParagraph](https://reference.aspose.com/words/ar/net/aspose.words/story/firstparagraph/) و[GetChild](https://reference.aspose.com/words/ar/net/aspose.words/compositenode/getchild/) في القسم الثاني من المستند لاسترداد عقد **Paragraph** و**Table** المناسبة. للحصول على اختلاف طفيف، دعنا نكرر المحتوى وندرجه أسفل النص الأصلي.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخراج المحتوى بين الفقرة والجدول باستخدام طريقة **ExtractContent**:
 
@@ -123,7 +123,7 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## استخراج المحتوى بين عمليات تشغيل محددة
 
-يمكنك استخراج المحتوى بين العقد المضمنة مثل [Run](https://reference.aspose.com/words/net/aspose.words/run/) أيضًا. يمكن تمرير **Runs** من فقرات مختلفة كعلامات. يوضح الكود أدناه كيفية استخراج نص معين بين نفس عقدة **Paragraph**.
+يمكنك استخراج المحتوى بين العقد المضمنة مثل [Run](https://reference.aspose.com/words/ar/net/aspose.words/run/) أيضًا. يمكن تمرير **Runs** من فقرات مختلفة كعلامات. يوضح الكود أدناه كيفية استخراج نص معين بين نفس عقدة **Paragraph**.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخراج المحتوى بين عمليات تشغيل محددة لنفس الفقرة باستخدام طريقة **ExtractContent**:
 
@@ -137,7 +137,7 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## استخراج المحتوى باستخدام حقل
 
-لاستخدام حقل كعلامة، يجب تمرير عقدة `FieldStart`. ستحدد المعلمة الأخيرة لطريقة `ExtractContent` ما إذا كان سيتم تضمين الحقل بأكمله أم لا. لنستخرج المحتوى بين حقل الدمج "الاسم الكامل" وفقرة في المستند. نحن نستخدم طريقة [MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/) لفئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). سيؤدي هذا إلى إرجاع عقدة **FieldStart** من اسم حقل الدمج الذي تم تمريره إليها.
+لاستخدام حقل كعلامة، يجب تمرير عقدة `FieldStart`. ستحدد المعلمة الأخيرة لطريقة `ExtractContent` ما إذا كان سيتم تضمين الحقل بأكمله أم لا. لنستخرج المحتوى بين حقل الدمج "الاسم الكامل" وفقرة في المستند. نحن نستخدم طريقة [MoveToMergeField](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/movetomergefield/) لفئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/). سيؤدي هذا إلى إرجاع عقدة **FieldStart** من اسم حقل الدمج الذي تم تمريره إليها.
 
 في حالتنا، لنقم بتعيين المعلمة الأخيرة التي تم تمريرها إلى طريقة **ExtractContent** على false لاستبعاد الحقل من الاستخراج. سنقوم بتحويل المحتوى المستخرج إلى PDF.
 
@@ -169,7 +169,7 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 يتكون التعليق من العقد CommentRangeStart وCommentRangeEnd وComment. كل هذه العقد مضمنة. تقوم العقدتان الأوليتان بتغليف المحتوى الموجود في المستند المشار إليه بواسطة التعليق، كما هو موضح في لقطة الشاشة أدناه.
 
-عقدة **Comment** نفسها عبارة عن [InlineStory](https://reference.aspose.com/words/net/aspose.words/inlinestory/) يمكن أن تحتوي على فقرات وعمليات تشغيل. وهو يمثل رسالة التعليق كما تظهر على شكل فقاعة تعليق في جزء المراجعة. وبما أن هذه العقدة مضمّنة ومتحدرة من نص، يمكنك أيضًا استخراج المحتوى من داخل هذه الرسالة أيضًا.
+عقدة **Comment** نفسها عبارة عن [InlineStory](https://reference.aspose.com/words/ar/net/aspose.words/inlinestory/) يمكن أن تحتوي على فقرات وعمليات تشغيل. وهو يمثل رسالة التعليق كما تظهر على شكل فقاعة تعليق في جزء المراجعة. وبما أن هذه العقدة مضمّنة ومتحدرة من نص، يمكنك أيضًا استخراج المحتوى من داخل هذه الرسالة أيضًا.
 
 يتضمن التعليق العنوان والفقرة الأولى والجدول في القسم الثاني. لنستخرج هذا التعليق في مستند جديد. يحدد خيار **IsInclusive** ما إذا كان سيتم الاحتفاظ بالتعليق نفسه أو تجاهله.
 
@@ -185,17 +185,17 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## كيفية استخراج المحتوى باستخدام DocumentVisitor
 
-استخدم فئة [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) لتنفيذ سيناريو الاستخدام هذا. تتوافق هذه الفئة مع نمط تصميم الزائر المعروف. باستخدام **DocumentVisitor** **,**، يمكنك تحديد وتنفيذ العمليات المخصصة التي تتطلب التعداد على شجرة المستندات.
+استخدم فئة [DocumentVisitor](https://reference.aspose.com/words/ar/net/aspose.words/documentvisitor/) لتنفيذ سيناريو الاستخدام هذا. تتوافق هذه الفئة مع نمط تصميم الزائر المعروف. باستخدام **DocumentVisitor** **,**، يمكنك تحديد وتنفيذ العمليات المخصصة التي تتطلب التعداد على شجرة المستندات.
 
-يوفر **DocumentVisitor** مجموعة من أساليب **VisitXXX** التي يتم استدعاؤها عند مواجهة عنصر مستند معين (عقدة). على سبيل المثال، يتم استدعاء [VisitParagraphStart](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphstart/) عند العثور على بداية فقرة نصية ويتم استدعاء [VisitParagraphEnd](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphend/) عند العثور على نهاية فقرة نصية. تقبل كل طريقة **DocumentVisitor.VisitXXX** الكائن المقابل الذي تواجهه حتى تتمكن من استخدامه حسب الحاجة (على سبيل المثال استرداد التنسيق)، على سبيل المثال يقبل كل من **DocumentVisitor.VisitParagraphStart** و**DocumentVisitor.VisitParagraphEnd** كائن [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/).
+يوفر **DocumentVisitor** مجموعة من أساليب **VisitXXX** التي يتم استدعاؤها عند مواجهة عنصر مستند معين (عقدة). على سبيل المثال، يتم استدعاء [VisitParagraphStart](https://reference.aspose.com/words/ar/net/aspose.words/documentvisitor/visitparagraphstart/) عند العثور على بداية فقرة نصية ويتم استدعاء [VisitParagraphEnd](https://reference.aspose.com/words/ar/net/aspose.words/documentvisitor/visitparagraphend/) عند العثور على نهاية فقرة نصية. تقبل كل طريقة **DocumentVisitor.VisitXXX** الكائن المقابل الذي تواجهه حتى تتمكن من استخدامه حسب الحاجة (على سبيل المثال استرداد التنسيق)، على سبيل المثال يقبل كل من **DocumentVisitor.VisitParagraphStart** و**DocumentVisitor.VisitParagraphEnd** كائن [Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/).
 
-تقوم كل طريقة **DocumentVisitor.VisitXXX** بإرجاع قيمة [VisitorAction](https://reference.aspose.com/words/net/aspose.words/visitoraction/) التي تتحكم في تعداد العقد. يمكنك طلب إما مواصلة التعداد، أو تخطي العقدة الحالية (ولكن الاستمرار في التعداد)، أو إيقاف تعداد العقد.
+تقوم كل طريقة **DocumentVisitor.VisitXXX** بإرجاع قيمة [VisitorAction](https://reference.aspose.com/words/ar/net/aspose.words/visitoraction/) التي تتحكم في تعداد العقد. يمكنك طلب إما مواصلة التعداد، أو تخطي العقدة الحالية (ولكن الاستمرار في التعداد)، أو إيقاف تعداد العقد.
 
 هذه هي الخطوات التي يجب عليك اتباعها لتحديد أجزاء مختلفة من المستند واستخراجها برمجيًا:
 
 - إنشاء فئة مشتقة من **DocumentVisitor**
 - تجاوز وتوفير تطبيقات لبعض أو كل أساليب **DocumentVisitor.VisitXXX** لتنفيذ بعض العمليات المخصصة
-- قم باستدعاء [Node.Accept](https://reference.aspose.com/words/net/aspose.words/node/accept/) على العقدة التي تريد بدء التعداد منها، على سبيل المثال، إذا كنت تريد تعداد المستند بأكمله، استخدم [Document.Accept](https://reference.aspose.com/words/net/aspose.words/document/accept/)
+- قم باستدعاء [Node.Accept](https://reference.aspose.com/words/ar/net/aspose.words/node/accept/) على العقدة التي تريد بدء التعداد منها، على سبيل المثال، إذا كنت تريد تعداد المستند بأكمله، استخدم [Document.Accept](https://reference.aspose.com/words/ar/net/aspose.words/document/accept/)
 
 يوفر **DocumentVisitor** تطبيقات افتراضية لجميع أساليب **DocumentVisitor.VisitXXX**. وهذا يجعل من السهل إنشاء زوار مستند جدد حيث يجب تجاوز الأساليب المطلوبة للزائر المعين فقط. ليس من الضروري تجاوز كافة أساليب الزائر.
 
@@ -215,10 +215,10 @@ url: /ar/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 طرق استرداد النص من المستند هي:
 
-- استخدم [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) مع [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) للحفظ كنص عادي في ملف أو دفق
-- استخدم [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) وقم بتمرير معلمة **SaveFormat.Text**. داخليًا، يؤدي هذا إلى استدعاء الحفظ كنص في دفق الذاكرة وإرجاع السلسلة الناتجة
-- استخدم [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) لاسترداد النص بجميع أحرف التحكم Microsoft Word بما في ذلك رموز الحقول
-- تنفيذ [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) مخصص لإجراء الاستخراج المخصص
+- استخدم [Document.Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/) مع [SaveFormat.Text](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/) للحفظ كنص عادي في ملف أو دفق
+- استخدم [Node.ToString](https://reference.aspose.com/words/ar/net/aspose.words/node/tostring/) وقم بتمرير معلمة **SaveFormat.Text**. داخليًا، يؤدي هذا إلى استدعاء الحفظ كنص في دفق الذاكرة وإرجاع السلسلة الناتجة
+- استخدم [Node.GetText](https://reference.aspose.com/words/ar/net/aspose.words/node/gettext/) لاسترداد النص بجميع أحرف التحكم Microsoft Word بما في ذلك رموز الحقول
+- تنفيذ [DocumentVisitor](https://reference.aspose.com/words/ar/net/aspose.words/documentvisitor/) مخصص لإجراء الاستخراج المخصص
 
 ### باستخدام `Node.GetText` و`Node.ToString`
 

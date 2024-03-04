@@ -66,7 +66,7 @@ Bu örneğin şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose
 
 {{% /alert %}}
 
-Tireleme sözlüklerinin ön kaydına alternatif olarak, yalnızca gerekli tireleme sözlüklerinin "istek üzerine" kaydedilmesi mümkündür. Bunu başarmak için [IHyphenationCallback](https://reference.aspose.com/words/net/aspose.words/ihyphenationcallback/) arayüzünü uygulayın ve statik geri arama [Callback](https://reference.aspose.com/words/net/aspose.words/hyphenation/callback/)'yi kullanın.
+Tireleme sözlüklerinin ön kaydına alternatif olarak, yalnızca gerekli tireleme sözlüklerinin "istek üzerine" kaydedilmesi mümkündür. Bunu başarmak için [IHyphenationCallback](https://reference.aspose.com/words/tr/net/aspose.words/ihyphenationcallback/) arayüzünü uygulayın ve statik geri arama [Callback](https://reference.aspose.com/words/tr/net/aspose.words/hyphenation/callback/)'yi kullanın.
 
 Aşağıdaki kod örneği **IHyphenationCallback** arayüzünün nasıl uygulanacağını gösterir:
 
