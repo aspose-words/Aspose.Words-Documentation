@@ -13,4 +13,4 @@ url: /tr/net/api-reference/
 
 .NET için Aspose.Words tamamen C# olarak yazılmıştır, CLS uyumludur ve yalnızca güvenli yönetilen kod içerir.
 
-En son API Reference'i [.NET API Reference için Aspose.Words](https://reference.aspose.com/words/net/)'de bulabilirsiniz.
+En son API Reference'i [.NET API Reference için Aspose.Words](https://reference.aspose.com/words/tr/net/)'de bulabilirsiniz.

@@ -15,12 +15,12 @@ url: /ar/net/hello-world/
 
 يتبع مقتطف Below code الخطوات التالية:
 
-1. قم بإنشاء [Document](https://reference.aspose.com/words/net/aspose.words/document) فارغ جديد
-1. تهيئة فئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
-1. قم بإدراج نص في المستند باستخدام طريقة [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/) البسيطة
-1. افتح [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) موجود من ملف. يكتشف تنسيق الملف تلقائيًا
-1. مستند [Append](https://reference.aspose.com/words/net/aspose.words/document/appenddocument/) "أ" إلى المستند "ب"
-1. [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) الإخراج بصيغة PDF
+1. قم بإنشاء [Document](https://reference.aspose.com/words/ar/net/aspose.words/document) فارغ جديد
+1. تهيئة فئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/)
+1. قم بإدراج نص في المستند باستخدام طريقة [Write](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/write/) البسيطة
+1. افتح [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/document/) موجود من ملف. يكتشف تنسيق الملف تلقائيًا
+1. مستند [Append](https://reference.aspose.com/words/ar/net/aspose.words/document/appenddocument/) "أ" إلى المستند "ب"
+1. [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/) الإخراج بصيغة PDF
 
 مقتطف التعليمات البرمجية التالي هو "Hello, World!" مثال لعرض عمل API "Aspose.Words for .NET":
 

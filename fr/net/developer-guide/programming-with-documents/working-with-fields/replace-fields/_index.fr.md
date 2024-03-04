@@ -13,8 +13,8 @@ Le remplacement des champs est souvent nécessaire lorsque vous souhaitez enregi
 
 Le schéma ci-dessous montre comment le champ `IF` est stocké dans un document:
 
-* le texte est entouré des nœuds de champs spéciaux – [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) et [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend)
-* le nœud [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) sépare le texte du champ en code de champ et résultat du champ
+* le texte est entouré des nœuds de champs spéciaux – [FieldStart](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldstart/) et [FieldEnd](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldend)
+* le nœud [FieldSeparator](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldseparator/) sépare le texte du champ en code de champ et résultat du champ
 * le code du champ définit le comportement général du champ, tandis que le résultat du champ conserve le résultat le plus récent lorsque ce champ est mis à jour via Microsoft Word ou Aspose.Words
 * le résultat du champ est ce qui est stocké dans le champ et affiché dans le document lors de sa visualisation
 
@@ -38,17 +38,17 @@ L'exemple de code suivant montre comment remplacer le champ par son résultat le
 
 ## Convertir certains types de champs dans des parties de document spécifiques
 
-Puisque la méthode **ConvertFieldsToStaticText** accepte deux paramètres: les propriétés [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) et l'énumération [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), il est possible de passer n'importe quel nœud composite à cette méthode. Cela permet de convertir les champs en texte statique uniquement dans des parties spécifiques du document.
+Puisque la méthode **ConvertFieldsToStaticText** accepte deux paramètres: les propriétés [CompositeNode](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/) et l'énumération [FieldType](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldtype/), il est possible de passer n'importe quel nœud composite à cette méthode. Cela permet de convertir les champs en texte statique uniquement dans des parties spécifiques du document.
 
-Par exemple, vous pouvez transmettre un objet [Document](https://reference.aspose.com/words/net/aspose.words/document/) et convertir les champs du type spécifié de l'ensemble du document en texte statique, ou vous pouvez transmettre un objet [Body](https://reference.aspose.com/words/net/aspose.words/body/) d'une section et convertir uniquement les champs trouvés dans ce corps.
+Par exemple, vous pouvez transmettre un objet [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) et convertir les champs du type spécifié de l'ensemble du document en texte statique, ou vous pouvez transmettre un objet [Body](https://reference.aspose.com/words/fr/net/aspose.words/body/) d'une section et convertir uniquement les champs trouvés dans ce corps.
 
 {{% alert color="primary" %}}
 
-Lorsque vous transmettez un nœud au niveau du bloc tel qu'un [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), sachez que dans certains cas, les champs peuvent s'étendre sur plusieurs paragraphes. Si cela se produit, il est recommandé de transmettre le parent du composite pour éviter cela.
+Lorsque vous transmettez un nœud au niveau du bloc tel qu'un [Paragraph](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/), sachez que dans certains cas, les champs peuvent s'étendre sur plusieurs paragraphes. Si cela se produit, il est recommandé de transmettre le parent du composite pour éviter cela.
 
 {{% /alert %}}
 
-L'énumération [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) passée à la méthode **ConvertFieldsToStaticText** spécifie quel type de champs doit être converti en texte statique. Tout autre type de champ trouvé dans le document restera inchangé.
+L'énumération [FieldType](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldtype/) passée à la méthode **ConvertFieldsToStaticText** spécifie quel type de champs doit être converti en texte statique. Tout autre type de champ trouvé dans le document restera inchangé.
 
 L'exemple de code suivant montre comment sélectionner des champs d'un type spécifique – *targetFieldType* dans un nœud spécifique – *compositeNode*, puis les convertir en texte statique:
 

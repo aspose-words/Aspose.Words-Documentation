@@ -15,7 +15,7 @@ OLE（对象链接和嵌入）是一种技术，用户可以通过该技术处�
 
 ## 插入 OLE 对象
 
-如果您需要 OLE 对象，请调用 [InsertOleObject](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobject/) 方法并将 **ProgId** 与其他参数显式传递给它。
+如果您需要 OLE 对象，请调用 [InsertOleObject](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertoleobject/) 方法并将 **ProgId** 与其他参数显式传递给它。
 
 以下代码示例显示如何将 OLE 对象插入到文档中：
 
@@ -35,7 +35,7 @@ OLE（对象链接和嵌入）是一种技术，用户可以通过该技术处�
 
 用户可以使用 `OleFormat` 类的各种属性和方法访问 OLE 对象数据。例如，可以获得 `OLE` 对象原始数据或链接的 OLE 对象的源文件的路径和名称。
 
-以下代码示例演示如何使用 [GetRawData](https://reference.aspose.com/words/net/aspose.words.drawing/oleformat/getrawdata/) 方法获取 OLE 对象原始数据：
+以下代码示例演示如何使用 [GetRawData](https://reference.aspose.com/words/zh/net/aspose.words.drawing/oleformat/getrawdata/) 方法获取 OLE 对象原始数据：
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.cs" >}}
 
@@ -43,7 +43,7 @@ OLE（对象链接和嵌入）是一种技术，用户可以通过该技术处�
 
 OLE 对象也可以作为图像插入到文档中。
 
-以下代码示例显示如何插入 OLE 对象作为图标。为此，[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 类公开了 [InsertOleObjectAsIcon](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobjectasicon/) 方法：
+以下代码示例显示如何插入 OLE 对象作为图标。为此，[DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 类公开了 [InsertOleObjectAsIcon](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertoleobjectasicon/) 方法：
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
 
@@ -59,9 +59,9 @@ OLE 对象也可以作为图像插入到文档中。
 
 ## 插入在线视频
 
-可以通过*"插入"&gt;"在线视频"*选项卡将在线视频插入到Word文档中。您可以通过调用[InsertOnlineVideo](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertonlinevideo/)方法将在线视频插入到当前位置的文档中。
+可以通过*"插入"&gt;"在线视频"*选项卡将在线视频插入到Word文档中。您可以通过调用[InsertOnlineVideo](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertonlinevideo/)方法将在线视频插入到当前位置的文档中。
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 类引入了此方法的四个重载。第一个适用于最流行的视频资源，并以视频的 `URL` 作为参数。例如，第一个重载支持从 [YouTube](https://www.youtube.com/) 和 [维梅奥](https://vimeo.com/) 资源简单插入在线视频。
+[DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 类引入了此方法的四个重载。第一个适用于最流行的视频资源，并以视频的 `URL` 作为参数。例如，第一个重载支持从 [YouTube](https://www.youtube.com/) 和 [维梅奥](https://vimeo.com/) 资源简单插入在线视频。
 
 以下代码示例演示如何将 *Vimeo* 中的在线视频插入到文档中：
 

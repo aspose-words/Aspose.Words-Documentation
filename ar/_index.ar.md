@@ -21,7 +21,7 @@ Aspose.Words هي مكتبة فئة متاحة على الأنظمة الأسا�
             <li><a href="https://products.aspose.com/words/net/">Aspose.Words لصفحة منتج .NET</a></li>
             <li><a href="/words/ar/net/product-overview/">نظرة عامة على المنتج</a></li>
             <li><a href="/words/ar/net/developer-guide/">دليل المطور</a></li>
-            <li><a href="https://reference.aspose.com/words/net/">Aspose.Words لـ .NET - دليل API Reference</a></li>
+            <li><a href="https://reference.aspose.com/words/ar/net/">Aspose.Words لـ .NET - دليل API Reference</a></li>
             <li><a href="https://releases.aspose.com/words/net/release-notes/">Aspose.Words لملاحظات إصدار .NET</a></li>
             <li><a href="https://releases.aspose.com/words/net/">تنزيل Aspose.Words لـ .NET</a></li>
             <li><a href="https://www.nuget.org/packages/Aspose.Words/">Aspose.Words لـ .NET – NuGet Package</a></li>

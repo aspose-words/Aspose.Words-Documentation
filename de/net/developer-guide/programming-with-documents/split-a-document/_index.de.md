@@ -33,7 +33,7 @@ Sie können diese Funktionalität mit unserem [Kostenloser Online Dokumentenspli
 
 Mit Aspose.Words können Sie EPUB- oder HTML-Dokumente nach verschiedenen Kriterien in Kapitel aufteilen. Dabei bleiben Stil und Layout des Quelldokuments für die Ausgabedokumente erhalten.
 
-Sie können Kriterien mithilfe der [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/documentsplitcriteria/)-Enumeration angeben. So können Sie ein Dokument nach einem der folgenden Kriterien in Kapitel unterteilen oder mehrere Kriterien miteinander kombinieren:
+Sie können Kriterien mithilfe der [DocumentSplitCriteria](https://reference.aspose.com/words/de/net/aspose.words.saving/documentsplitcriteria/)-Enumeration angeben. So können Sie ein Dokument nach einem der folgenden Kriterien in Kapitel unterteilen oder mehrere Kriterien miteinander kombinieren:
 
 - Überschrift Absatz,
 - Abschnitt Pause,
@@ -44,7 +44,7 @@ Beim Speichern der Ausgabe in HTML speichert Aspose.Words jedes einzelne Kapitel
 
 {{% alert color="primary" %}}
 
-Sie können ein Dokument nicht mithilfe der [DocumentSplitCriteria](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/)-Eigenschaft aufteilen, wenn Sie es im MHTML-Format speichern.
+Sie können ein Dokument nicht mithilfe der [DocumentSplitCriteria](https://reference.aspose.com/words/de/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/)-Eigenschaft aufteilen, wenn Sie es im MHTML-Format speichern.
 
 {{% /alert %}}
 
@@ -54,7 +54,7 @@ In diesem Abschnitt betrachten wir nur einige der möglichen Aufteilungskriterie
 
 Um ein Dokument nach Überschriften in Kapitel aufzuteilen, verwenden Sie den **HeadingParagraph**-Wert der **DocumentSplitCriteria**-Eigenschaft.
 
-Wenn Sie ein Dokument nach einer bestimmten Ebene von Überschriftenabsätzen aufteilen müssen, z. B. Überschriften 1, 2 und 3, verwenden Sie auch die [DocumentSplitHeadingLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/)-Eigenschaft. Die Ausgabe wird in Absätze unterteilt, die mit der angegebenen Überschriftenebene formatiert sind.
+Wenn Sie ein Dokument nach einer bestimmten Ebene von Überschriftenabsätzen aufteilen müssen, z. B. Überschriften 1, 2 und 3, verwenden Sie auch die [DocumentSplitHeadingLevel](https://reference.aspose.com/words/de/net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/)-Eigenschaft. Die Ausgabe wird in Absätze unterteilt, die mit der angegebenen Überschriftenebene formatiert sind.
 
 Das folgende Codebeispiel zeigt, wie man ein Dokument anhand der Überschrift in kleinere Teile aufteilt:
 
@@ -78,9 +78,9 @@ Das folgende Codebeispiel zeigt, wie man ein Dokument durch Abschnittsumbrüche 
 
 ## Aufgeteilt nach Seiten {#splitting-by-pages}
 
-Sie können ein Dokument auch Seite für Seite, nach Seitenbereichen oder beginnend mit den angegebenen Seitenzahlen aufteilen. In einem solchen Fall kann die [ExtractPages](https://reference.aspose.com/words/net/aspose.words/document/extractpages/)-Methode die Aufgabe erledigen.
+Sie können ein Dokument auch Seite für Seite, nach Seitenbereichen oder beginnend mit den angegebenen Seitenzahlen aufteilen. In einem solchen Fall kann die [ExtractPages](https://reference.aspose.com/words/de/net/aspose.words/document/extractpages/)-Methode die Aufgabe erledigen.
 
-In diesem Abschnitt werden mehrere Anwendungsfälle der Aufteilung von Dokumenten nach Seiten mithilfe der [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Klasse und der **ExtractPages**-Methode beschrieben.
+In diesem Abschnitt werden mehrere Anwendungsfälle der Aufteilung von Dokumenten nach Seiten mithilfe der [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Klasse und der **ExtractPages**-Methode beschrieben.
 
 {{% alert color="primary" %}}
 
@@ -112,7 +112,7 @@ Das folgende Codebeispiel zeigt, wie Sie ein Dokument nach Seitenbereich mit bes
 
 ## Rückrufoption zum Speichern eines Dokuments {#callback-option-for-saving-a-document}
 
-Mit der [DocumentPartSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/)-Eigenschaft können Sie steuern, wie Aspose.Words Dokumentteile speichert, wenn dieses Dokument in das HTML-Format exportiert wird. Mit dieser Eigenschaft können Sie Ausgabedateien umbenennen oder sie sogar in benutzerdefinierte Streams umleiten.
+Mit der [DocumentPartSavingCallback](https://reference.aspose.com/words/de/net/aspose.words.saving/htmlsaveoptions/documentpartsavingcallback/)-Eigenschaft können Sie steuern, wie Aspose.Words Dokumentteile speichert, wenn dieses Dokument in das HTML-Format exportiert wird. Mit dieser Eigenschaft können Sie Ausgabedateien umbenennen oder sie sogar in benutzerdefinierte Streams umleiten.
 
 Bitte beachten Sie, dass dieser Rückruf beim Speichern in EPUB nicht sinnvoll ist, da alle Ausgabeteile in einem einzigen Container gespeichert werden müssen – der .epub-Datei. Daher wird die Stream-Umleitung nicht unterstützt und die Auswirkung des Umbenennens ist nicht sichtbar, da Dateien innerhalb des Containers umbenannt werden.
 

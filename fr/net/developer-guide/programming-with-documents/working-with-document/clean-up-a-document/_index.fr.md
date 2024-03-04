@@ -13,13 +13,13 @@ Parfois, vous devrez peut-être supprimer les informations inutilisées ou en do
 
 Bien que vous puissiez rechercher et supprimer des données inutilisées, telles que des styles ou des listes, ou dupliquer des informations manuellement, il sera beaucoup plus pratique de le faire en utilisant les fonctionnalités et capacités fournies par Aspose.Words.
 
-La classe [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) vous permet de spécifier des options pour le nettoyage des documents. Pour supprimer les styles en double ou simplement les styles ou listes inutilisés du document, vous pouvez utiliser la méthode [Cleanup](https://reference.aspose.com/words/net/aspose.words/document/cleanup/).
+La classe [CleanupOptions](https://reference.aspose.com/words/fr/net/aspose.words/cleanupoptions/) vous permet de spécifier des options pour le nettoyage des documents. Pour supprimer les styles en double ou simplement les styles ou listes inutilisés du document, vous pouvez utiliser la méthode [Cleanup](https://reference.aspose.com/words/fr/net/aspose.words/document/cleanup/).
 
 ## Supprimer les informations inutilisées d'un document
 
-Vous pouvez utiliser les propriétés [UnusedStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedstyles/) et [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) pour détecter et supprimer les styles marqués comme "inutilisés".
+Vous pouvez utiliser les propriétés [UnusedStyles](https://reference.aspose.com/words/fr/net/aspose.words/cleanupoptions/unusedstyles/) et [UnusedBuiltinStyles](https://reference.aspose.com/words/fr/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) pour détecter et supprimer les styles marqués comme "inutilisés".
 
-Vous pouvez utiliser la propriété [UnusedLists](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedlists/) pour détecter et supprimer les listes et les définitions de listes marquées comme "inutilisées".
+Vous pouvez utiliser la propriété [UnusedLists](https://reference.aspose.com/words/fr/net/aspose.words/cleanupoptions/unusedlists/) pour détecter et supprimer les listes et les définitions de listes marquées comme "inutilisées".
 
 L'exemple de code suivant montre comment supprimer uniquement les styles inutilisés d'un document:
 
@@ -27,7 +27,7 @@ L'exemple de code suivant montre comment supprimer uniquement les styles inutili
 
 ## Supprimer les informations en double d'un document
 
-Vous pouvez également utiliser la propriété [DuplicateStyle](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/duplicatestyle/) pour remplacer tous les styles en double par celui d'origine et supprimer les doublons d'un document.
+Vous pouvez également utiliser la propriété [DuplicateStyle](https://reference.aspose.com/words/fr/net/aspose.words/cleanupoptions/duplicatestyle/) pour remplacer tous les styles en double par celui d'origine et supprimer les doublons d'un document.
 
 L'exemple de code suivant montre comment supprimer les styles en double d'un document:
 

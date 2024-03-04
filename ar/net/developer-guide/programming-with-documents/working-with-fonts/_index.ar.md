@@ -9,11 +9,11 @@ weight: 230
 url: /ar/net/working-with-fonts/
 ---
 
-الخط عبارة عن مجموعة من الأحرف ذات حجم ولون وتصميم معين. يتيح لك Aspose.Words العمل مع الخطوط باستخدام مساحة الاسم [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) وفئة [Font](https://reference.aspose.com/words/net/aspose.words/font/).
+الخط عبارة عن مجموعة من الأحرف ذات حجم ولون وتصميم معين. يتيح لك Aspose.Words العمل مع الخطوط باستخدام مساحة الاسم [Fonts](https://reference.aspose.com/words/ar/net/aspose.words.fonts/) وفئة [Font](https://reference.aspose.com/words/ar/net/aspose.words/font/).
 
 ## تنسيق الخط
 
-يتم تمثيل تنسيق الخط الحالي بواسطة كائن **Font** الذي يتم إرجاعه بواسطة خاصية [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/). تحتوي فئة **Font** على مجموعة واسعة من خصائص الخطوط، التي تكرر تلك المتوفرة في Microsoft Word.
+يتم تمثيل تنسيق الخط الحالي بواسطة كائن **Font** الذي يتم إرجاعه بواسطة خاصية [Font](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/font/). تحتوي فئة **Font** على مجموعة واسعة من خصائص الخطوط، التي تكرر تلك المتوفرة في Microsoft Word.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين تنسيق الخط:
 
@@ -25,13 +25,13 @@ url: /ar/net/working-with-fonts/
 
 تباعد أسطر الخط هو المسافة العمودية بين الخطوط الأساسية لسطرين متتاليين من النص. لذا فإن تباعد الأسطر يتضمن المسافة الفارغة بين الأسطر بالإضافة إلى ارتفاع الحرف نفسه.
 
-تم إدخال الخاصية [LineSpacing](https://reference.aspose.com/words/net/aspose.words/font/linespacing/) إلى فئة **Font** للحصول على هذه القيمة، كما هو موضح في المثال أدناه:
+تم إدخال الخاصية [LineSpacing](https://reference.aspose.com/words/ar/net/aspose.words/font/linespacing/) إلى فئة **Font** للحصول على هذه القيمة، كما هو موضح في المثال أدناه:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-GetFontLineSpacing-GetFontLineSpacing.cs" >}}
 
 ## علامة التأكيد على الخط
 
-تستخدم بعض لغات شرق آسيا علامة تأكيد خاصة للإشارة إلى التركيز. توفر فئة **Font** خاصية [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/font/emphasismark/) للحصول على أو تعيين قيم تعداد [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/emphasismark/) ليتم تطبيقها عند التنسيق.
+تستخدم بعض لغات شرق آسيا علامة تأكيد خاصة للإشارة إلى التركيز. توفر فئة **Font** خاصية [EmphasisMark](https://reference.aspose.com/words/ar/net/aspose.words/font/emphasismark/) للحصول على أو تعيين قيم تعداد [EmphasisMark](https://reference.aspose.com/words/ar/net/aspose.words/emphasismark/) ليتم تطبيقها عند التنسيق.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين خاصية **EphasisMark**:
 

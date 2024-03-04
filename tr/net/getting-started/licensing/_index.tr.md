@@ -70,11 +70,11 @@ Uygulamada *Aspose.Words.dll*'e başvurduğunuzda, kitaplık çıktı dizininize
 
 {{% alert color="primary" %}}
 
-Bir bileşeni lisanslamak için [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/#setlicense) yöntemini kullanın.
+Bir bileşeni lisanslamak için [SetLicense](https://reference.aspose.com/words/tr/net/aspose.words/license/setlicense/#setlicense) yöntemini kullanın.
 
 **SetLicense**'i birden çok kez çağırmak zararlı değildir, yalnızca işlemci zamanını boşa harcar.
 
-[SetMeteredKey](https://reference.aspose.com/words/net/aspose.words/metered/setmeteredkey/)'i birden çok kez çağırmak da zararlı değildir; yalnızca işlemci zamanını boşa harcar ve tüketimin uygunsuz şekilde birikmesine neden olabilir.
+[SetMeteredKey](https://reference.aspose.com/words/tr/net/aspose.words/metered/setmeteredkey/)'i birden çok kez çağırmak da zararlı değildir; yalnızca işlemci zamanını boşa harcar ve tüketimin uygunsuz şekilde birikmesine neden olabilir.
 
 {{% /alert %}}
 
@@ -84,7 +84,7 @@ Uygulamanızı geliştirirken Aspose.Words sınıflarını kullanmadan önce ba�
 
 ##### Bir Dosyadan Lisans Yükleme
 
-[SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/) yöntemini kullanarak, lisans dosyasını daha fazla kullanmak üzere gömülü kaynaklarda veya montaj klasörlerinde bulmayı deneyebilirsiniz.
+[SetLicense](https://reference.aspose.com/words/tr/net/aspose.words/license/setlicense/) yöntemini kullanarak, lisans dosyasını daha fazla kullanmak üzere gömülü kaynaklarda veya montaj klasörlerinde bulmayı deneyebilirsiniz.
 
 Aşağıdaki kod örneği, bir lisansın bir klasörden nasıl başlatılacağını gösterir:
 
@@ -92,7 +92,7 @@ Aşağıdaki kod örneği, bir lisansın bir klasörden nasıl başlatılacağı
 
 ##### Akış Nesnesinden Lisans Yükleme
 
-Aşağıdaki kod örneği, başka bir [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/) yöntemi kullanılarak bir akıştan lisansın nasıl başlatılacağını gösterir:
+Aşağıdaki kod örneği, başka bir [SetLicense](https://reference.aspose.com/words/tr/net/aspose.words/license/setlicense/) yöntemi kullanılarak bir akıştan lisansın nasıl başlatılacağını gösterir:
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-license-from-stream.cs" >}}
 
@@ -110,7 +110,7 @@ Aspose.Words, geliştiricilerin ölçülü bir anahtar uygulamasına olanak tan�
 
 Yeni lisanslama mekanizması mevcut lisanslama yöntemiyle birlikte kullanılacaktır. API özelliklerinin kullanımına göre faturalandırılmak isteyen müşteriler, Ölçülü Lisanslamayı kullanabilir.
 
-Bu tür bir lisansı almak için gerekli tüm adımları tamamladıktan sonra lisans dosyasını değil, anahtarları alacaksınız. Bu ölçülü anahtar, bu amaç için özel olarak tanıtılan [Metered](https://reference.aspose.com/words/net/aspose.words/metered/) sınıfı kullanılarak uygulanabilir.
+Bu tür bir lisansı almak için gerekli tüm adımları tamamladıktan sonra lisans dosyasını değil, anahtarları alacaksınız. Bu ölçülü anahtar, bu amaç için özel olarak tanıtılan [Metered](https://reference.aspose.com/words/tr/net/aspose.words/metered/) sınıfı kullanılarak uygulanabilir.
 
 Bu lisanslama yönteminin tüketimi düzgün bir şekilde biriktirip bize raporlaması için **SetMeteredKey** yöntemini sık sık çağırmayın. Sadece Aspose.Words kitaplığını başlatın, **SetMeteredKey**'i bir kez arayın, ardından kitaplığı örneklenmiş halde bırakın ve yeniden kullanın.
 
@@ -143,4 +143,4 @@ Sorunu çözmek için, görünmez .xml uzantısını kaldıracak şekilde dosyay
 Uygulamanızda Aspose.Words ve `Aspose.Cells` gibi birden fazla Aspose ürünü kullanıyorsanız işte size birkaç yararlı ipucu:
 
 * Her Aspose ürünü için Lisansı ayrı ayrı ayarlayın. Tüm bileşenler için tek bir lisans dosyanız olsa bile, örneğin "Aspose.Total.lic", yine de uygulamanızda kullandığınız her Aspose ürünü için **SetLicense**'i ayrı ayrı aramanız gerekir.
-* Tam Nitelikli Lisans Sınıfı Adını kullanın. Her Aspose ürününün kendi ad alanında bir **License** sınıfı vardır. Örneğin Aspose.Words'nin [Aspose.Words.License](https://reference.aspose.com/words/net/aspose.words/license/)'i, `Aspose.Cells`'in ise `Aspose.Cells`.License sınıfı vardır. Tam nitelikli sınıf adını kullanmak, hangi lisansın hangi ürün için geçerli olduğu konusundaki karışıklığı önlemenizi sağlar.
+* Tam Nitelikli Lisans Sınıfı Adını kullanın. Her Aspose ürününün kendi ad alanında bir **License** sınıfı vardır. Örneğin Aspose.Words'nin [Aspose.Words.License](https://reference.aspose.com/words/tr/net/aspose.words/license/)'i, `Aspose.Cells`'in ise `Aspose.Cells`.License sınıfı vardır. Tam nitelikli sınıf adını kullanmak, hangi lisansın hangi ürün için geçerli olduğu konusundaki karışıklığı önlemenizi sağlar.

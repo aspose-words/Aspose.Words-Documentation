@@ -13,4 +13,4 @@ Aspose.Words for .NET هي مكتبة فئة تمكن تطبيقاتك من تن
 
 تمت كتابة Aspose.Words for .NET بالكامل بلغة C#، وهو متوافق مع CLS، ويحتوي فقط على تعليمات برمجية آمنة مُدارة.
 
-يمكن العثور على أحدث إصدار من API Reference على [Aspose.Words لـ .NET API Reference](https://reference.aspose.com/words/net/).
+يمكن العثور على أحدث إصدار من API Reference على [Aspose.Words لـ .NET API Reference](https://reference.aspose.com/words/ar/net/).

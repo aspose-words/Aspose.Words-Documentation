@@ -13,15 +13,15 @@ PDF formatı, kullanıcılar arasında çok popüler olan ve çeşitli uygulamal
 
 PDF karmaşık bir formattır. Bir belgeyi PDF'ye dönüştürme sürecinde, mizanpaj hesaplaması da dahil olmak üzere birkaç hesaplama aşaması gerekir. Bu aşamalar karmaşık hesaplamalar içerdiğinden zaman alıcıdır. Ayrıca PDF formatı kendi başına oldukça karmaşıktır. Belirli bir dosya yapısına, grafik modeline ve yazı tipi yerleştirmeye sahiptir. Ayrıca belge yapısı etiketleri, şifreleme, dijital imzalar ve düzenlenebilir formlar gibi bazı karmaşık çıktı işlevlerine sahiptir.
 
-Aspose.Words düzen motoru, Microsoft Word'nin sayfa düzeni motorunun çalışma şeklini taklit eder. Bu nedenle Aspose.Words, PDF çıktı belgelerinin Microsoft Word'de gördüklerinize mümkün olduğunca yakın görünmesini sağlar. Bazen bir belgeyi PDF formatında kaydetmenin sonucunu etkileyebilecek ek seçeneklerin belirtilmesi gerekebilir. Bu seçenekler, PDF çıktısının nasıl görüntüleneceğini belirleyen özellikleri içeren [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) sınıfı kullanılarak belirtilebilir.
+Aspose.Words düzen motoru, Microsoft Word'nin sayfa düzeni motorunun çalışma şeklini taklit eder. Bu nedenle Aspose.Words, PDF çıktı belgelerinin Microsoft Word'de gördüklerinize mümkün olduğunca yakın görünmesini sağlar. Bazen bir belgeyi PDF formatında kaydetmenin sonucunu etkileyebilecek ek seçeneklerin belirtilmesi gerekebilir. Bu seçenekler, PDF çıktısının nasıl görüntüleneceğini belirleyen özellikleri içeren [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfı kullanılarak belirtilebilir.
 
 **PdfSaveOptions** kullanımına ilişkin bazı örnekler aşağıda verilmiştir.
 
 {{% alert color="primary" %}}
 
-Şu anda PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u ve PDF/UA-1 formatlarında kaydedebilirsiniz. PDF standartları uyumluluk düzeyini ayarlamak için [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) numaralandırmasını kullanın. PDF/A formatında çıktı dosyasının boyutunun normal PDF dosyası boyutundan daha büyük olduğunu unutmayın.
+Şu anda PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u ve PDF/UA-1 formatlarında kaydedebilirsiniz. PDF standartları uyumluluk düzeyini ayarlamak için [PdfCompliance](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfcompliance/) numaralandırmasını kullanın. PDF/A formatında çıktı dosyasının boyutunun normal PDF dosyası boyutundan daha büyük olduğunu unutmayın.
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) ve [PdfCompliance.PdfA1b](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) eski olarak işaretlendi.
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfcompliance/) ve [PdfCompliance.PdfA1b](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfcompliance/) eski olarak işaretlendi.
 
 PDF/A hakkında daha fazla bilgi için "PDF/A'ya Dönüştürmenin Özelliklerini Öğrenin" başlıklı sonraki makaleye bakın.
 
@@ -29,7 +29,7 @@ PDF/A hakkında daha fazla bilgi için "PDF/A'ya Dönüştürmenin Özelliklerin
 
 ## Doldurulabilir Formlarla PDF Belgesi Oluşturma
 
-Doldurulabilir formları bir Microsoft Word belgesinden, düz metin yerine doldurulabilir formlar içeren çıktı PDF'sine aktarmak da mümkündür. Bir belgeyi doldurulabilir formlarla PDF olarak kaydetmek için [PreserveFormFields](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) özelliğini kullanın.
+Doldurulabilir formları bir Microsoft Word belgesinden, düz metin yerine doldurulabilir formlar içeren çıktı PDF'sine aktarmak da mümkündür. Bir belgeyi doldurulabilir formlarla PDF olarak kaydetmek için [PreserveFormFields](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) özelliğini kullanın.
 
 Microsoft Word'in aksine, PDF formatının düzenlenebilir formlar için metin kutusu, birleşik giriş kutusu ve onay kutusu gibi sınırlı sayıda seçeneğe sahip olduğunu unutmayın. Microsoft Word'te takvim tarihi seçici gibi daha fazla form türü bulunur. Genellikle PDF'de Microsoft Word davranışını tam olarak taklit etmek mümkün değildir. Bu nedenle bazı karmaşık durumlarda PDF çıktısı, Microsoft Word'te gördüğünüzden farklı olabilir.
 
@@ -39,7 +39,7 @@ Aşağıdaki kod örneği, bir belgenin belirtilen Jpeg sıkıştırması ve kal
 
 ## Belge Yapısını ve Özel Özellikleri Dışa Aktarma
 
-[https://reference.aspose.com/words/net/aspose.words.tained/pdfsaveoptions/properties/exportdocumentstructure) özelliği, belge yapısını PDF çıktısına aktarmanıza olanak tanır.
+[https://reference.aspose.com/words/tr/net/aspose.words.tained/pdfsaveoptions/properties/exportdocumentstructure) özelliği, belge yapısını PDF çıktısına aktarmanıza olanak tanır.
 
 PDF mantıksal yapı olanakları, belge içerik yapısına ilişkin bilgilerin bir PDF dosyasına dahil edilmesine yönelik bir mekanizma sağlar. Aspose.Words, bir Microsoft Word belgesindeki paragraflar, listeler, tablolar, dipnotlar/son notlar vb. gibi yapıya ilişkin bilgileri korur.
 
@@ -53,7 +53,7 @@ Aspose.Words ayrıca aşağıdaki örnekte gösterildiği gibi belgenin özel ö
 
 ## Çıktı PDF'sindeki Yer İşaretlerinden ve Başlıklardan Anahatları Dışa Aktarma
 
-Yer işaretlerini çıktı PDF'sinde ana hatlar olarak dışa aktarmak istiyorsanız [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) özelliğini kullanabilirsiniz. Bu özellik, belge anahattında Microsoft Word yer imlerinin görüntülendiği varsayılan düzeyi belirtir. Belge, belgenin üstbilgisinde/altbilgisinde yer imleri içeriyorsa bunların çıktı PDF'sinde nasıl dışa aktarılacağını belirtmek için [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) özelliğini [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) veya [All](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) olarak ayarlayabilirsiniz. **HeaderFooterBookmarksExportMode**'nin değeri [None](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) olduğunda üstbilgi/altbilgilerdeki yer imleri dışa aktarılmaz.
+Yer işaretlerini çıktı PDF'sinde ana hatlar olarak dışa aktarmak istiyorsanız [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/tr/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) özelliğini kullanabilirsiniz. Bu özellik, belge anahattında Microsoft Word yer imlerinin görüntülendiği varsayılan düzeyi belirtir. Belge, belgenin üstbilgisinde/altbilgisinde yer imleri içeriyorsa bunların çıktı PDF'sinde nasıl dışa aktarılacağını belirtmek için [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) özelliğini [First](https://reference.aspose.com/words/tr/net/aspose.words.saving/headerfooterbookmarksexportmode/) veya [All](https://reference.aspose.com/words/tr/net/aspose.words.saving/headerfooterbookmarksexportmode/) olarak ayarlayabilirsiniz. **HeaderFooterBookmarksExportMode**'nin değeri [None](https://reference.aspose.com/words/tr/net/aspose.words.saving/headerfooterbookmarksexportmode/) olduğunda üstbilgi/altbilgilerdeki yer imleri dışa aktarılmaz.
 
 Aşağıdaki kod örneği, bir bölümün ilk üstbilgisinden/altbilgisinden yer işaretlerinin nasıl dışa aktarılacağını gösterir:
 
@@ -63,9 +63,9 @@ Bu örneğin çıktı PDF'si aşağıda gösterilmiştir:
 
 ![specify-rendering-options-when-converting-to-pdf_1](/words/net/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-**HeaderFooterBookmarksExportMode**, [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) olarak ayarlandığında ve belgede çift ve tek üstbilgiler/altbilgiler veya farklı bir ilk sayfa üstbilgisi/altbilgisi varsa, bir bölümdeki ilk benzersiz üstbilgiler/altbilgiler için yer işaretleri dışa aktarılır.
+**HeaderFooterBookmarksExportMode**, [First](https://reference.aspose.com/words/tr/net/aspose.words.saving/headerfooterbookmarksexportmode/) olarak ayarlandığında ve belgede çift ve tek üstbilgiler/altbilgiler veya farklı bir ilk sayfa üstbilgisi/altbilgisi varsa, bir bölümdeki ilk benzersiz üstbilgiler/altbilgiler için yer işaretleri dışa aktarılır.
 
-Ayrıca [HeadingsOutlineLevels](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/) özelliğini kullanarak çıktı PDF'sindeki başlıkları da dışa aktarabilirsiniz. Bu özellik, belge taslağına kaç düzeyde başlık ekleneceğini belirtir.
+Ayrıca [HeadingsOutlineLevels](https://reference.aspose.com/words/tr/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/) özelliğini kullanarak çıktı PDF'sindeki başlıkları da dışa aktarabilirsiniz. Bu özellik, belge taslağına kaç düzeyde başlık ekleneceğini belirtir.
 
 Aşağıdaki kod örneği, başlıkların üç düzeyde nasıl dışa aktarılacağını gösterir:
 
@@ -83,9 +83,9 @@ Bir yer işareti veya başlık gezinmesi, çeşitli PDF görüntüleyicilerde fa
 
 ## Belge Boyutunu Küçültmek için Görüntüleri Alt Örnekleme
 
-Aspose.Words, [DownsampleOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/) özelliğini kullanarak çıktı PDF boyutunu küçültmek amacıyla görüntüleri alt örnekleme yeteneği sağlar. Aşağı örnekleme, [DownsampleImages](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/downsampleimages/) özelliğinde varsayılan olarak etkindir.
+Aspose.Words, [DownsampleOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/) özelliğini kullanarak çıktı PDF boyutunu küçültmek amacıyla görüntüleri alt örnekleme yeteneği sağlar. Aşağı örnekleme, [DownsampleImages](https://reference.aspose.com/words/tr/net/aspose.words.saving/downsampleoptions/downsampleimages/) özelliğinde varsayılan olarak etkindir.
 
-[Resolution](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/) özelliğinde belirli bir çözünürlük veya [ResolutionThreshold](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/threshold) özelliğinde bir çözünürlük eşiği ayarlamanın da mümkün olduğunu unutmayın. İkinci durumda ise görüntü çözünürlüğü eşik değerinden küçükse altörnekleme uygulanmayacaktır.
+[Resolution](https://reference.aspose.com/words/tr/net/aspose.words.saving/downsampleoptions/resolution/) özelliğinde belirli bir çözünürlük veya [ResolutionThreshold](https://reference.aspose.com/words/tr/net/aspose.words.saving/downsampleoptions/resolution/threshold) özelliğinde bir çözünürlük eşiği ayarlamanın da mümkün olduğunu unutmayın. İkinci durumda ise görüntü çözünürlüğü eşik değerinden küçükse altörnekleme uygulanmayacaktır.
 
 Aşağıdaki kod örneği, çıktı PDF belgesindeki görüntülerin çözünürlüğünün nasıl değiştirileceğini gösterir:
 
@@ -110,7 +110,7 @@ Aspose.Words'in tam yazı tiplerini gömmesi için bir seçenek belirtmenin bir 
 
 ### PDF'ye Tam Yazı Tiplerini Gömme
 
-[EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) özelliği, Aspose.Words'nin yazı tiplerini çıktı PDF belgesine nasıl gömeceğini belirlemenizi sağlar.
+[EmbedFullFonts](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) özelliği, Aspose.Words'nin yazı tiplerini çıktı PDF belgesine nasıl gömeceğini belirlemenizi sağlar.
 
 - Tam yazı tiplerini çıktı PDF belgesine gömmek için **EmbedFullFonts**'i true olarak ayarlayın
 - PDF'ye kaydederken yazı tiplerini alt kümelemek için **EmbedFullFonts**'i false olarak ayarlayın
@@ -136,11 +136,11 @@ Bu örneklere ait şablon dosyasını [Aspose.Words GitHub](https://github.com/a
 Aspose.Words, yazı tiplerinin PDF'ye nasıl aktarılacağını seçmeye yönelik seçenekler sunar. Temel ve standart yazı tiplerini çıktı PDF'sine gömmeyi veya bunları gömmeyi atlayıp bunun yerine hedef makinede standart çekirdek PDF yazı tiplerini veya sistem yazı tiplerini kullanmayı seçebilirsiniz. Bu seçeneklerden herhangi birinin kullanılması normalde Aspose.Words tarafından oluşturulan PDF belgelerinin dosya boyutunun önemli ölçüde azalmasına neden olur.
 
 - Bu seçenekler birbirini dışladığı için bir kerede yalnızca birini seçmelisiniz.
-- PDF/A-1 uyumluluğuyla kaydederken kullanılan tüm yazı tipleri PDF belgesine gömülmelidir. Bu uyumlulukla kaydederken [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) özelliğinin false, [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) özelliğinin ise [EmbedAll](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/) olarak ayarlanması gerekir.
+- PDF/A-1 uyumluluğuyla kaydederken kullanılan tüm yazı tipleri PDF belgesine gömülmelidir. Bu uyumlulukla kaydederken [UseCoreFonts](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) özelliğinin false, [FontEmbeddingMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) özelliğinin ise [EmbedAll](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdffontembeddingmode/) olarak ayarlanması gerekir.
 
 ### Temel Fontları Gömme
 
-Çekirdek yazı tiplerini gömme seçeneği [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) özelliği kullanılarak etkinleştirilebilir veya devre dışı bırakılabilir. true olarak ayarlandığında, aşağıdaki en popüler "True Type" yazı tipleri (Temel 14 yazı tipleri) çıktı PDF belgesine gömülmez:
+Çekirdek yazı tiplerini gömme seçeneği [UseCoreFonts](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) özelliği kullanılarak etkinleştirilebilir veya devre dışı bırakılabilir. true olarak ayarlandığında, aşağıdaki en popüler "True Type" yazı tipleri (Temel 14 yazı tipleri) çıktı PDF belgesine gömülmez:
 
 - `Arial`
 - `Times New Roman`
@@ -169,7 +169,7 @@ Bu ayar yalnızca ANSI (Windows-1252) kodlama metni için çalışır. ANSI olma
 
 ### Sistem Yazı Tiplerini Gömme
 
-Bu seçenek [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) özelliği kullanılarak etkinleştirilebilir veya devre dışı bırakılabilir. Bu özellik [EmbedNonstandard](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/) olarak ayarlandığında "Arial" ve "Times New Roman" true tipi yazı tipleri PDF belgesine gömülmez. Bu durumda istemci görüntüleyici, istemcinin işletim sisteminde yüklü olan yazı tiplerine güvenir. **FontEmbeddingMode** özelliği [EmbedNone](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/) olarak ayarlandığında Aspose.Words herhangi bir yazı tipi yerleştirmez.
+Bu seçenek [FontEmbeddingMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) özelliği kullanılarak etkinleştirilebilir veya devre dışı bırakılabilir. Bu özellik [EmbedNonstandard](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdffontembeddingmode/) olarak ayarlandığında "Arial" ve "Times New Roman" true tipi yazı tipleri PDF belgesine gömülmez. Bu durumda istemci görüntüleyici, istemcinin işletim sisteminde yüklü olan yazı tiplerine güvenir. **FontEmbeddingMode** özelliği [EmbedNone](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdffontembeddingmode/) olarak ayarlandığında Aspose.Words herhangi bir yazı tipi yerleştirmez.
 
 Aşağıdaki örnek, Aspose.Words'in Arial ve Times New Roman yazı tiplerini bir PDF belgesine gömmeyi atlayacak şekilde nasıl ayarlanacağını gösterir:
 

@@ -20,7 +20,7 @@ Aspose.Words le permite utilizar un dibujo prerenderizado o realizar un renderiz
 
 * Si hay un dibujo prerenderizado disponible, Aspose.Words lo usa para representar el objeto `SmartArt`.
 * Si falta un dibujo pre-renderizado, Aspose.Words realiza implícitamente un renderizado en frío para renderizar el objeto `SmartArt`.
-* Si hay un dibujo prerenderizado pero es incorrecto, es necesario realizar el renderizado en frío SmartArt explícitamente llamando al método [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/).
+* Si hay un dibujo prerenderizado pero es incorrecto, es necesario realizar el renderizado en frío SmartArt explícitamente llamando al método [UpdateSmartArtDrawing](https://reference.aspose.com/words/es/net/aspose.words.drawing/shape/updatesmartartdrawing/).
 
 El siguiente ejemplo de código muestra cómo actualizar dibujos para todos los diagramas del documento:
 

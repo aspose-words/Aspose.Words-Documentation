@@ -31,7 +31,7 @@ Hier sind die Themen, die Sie irgendwann beherrschen müssen:
 
 - Verwenden von COM-Objekten in Ihrer Programmiersprache. Sehen Sie sich die Dokumentation Ihrer Programmiersprache und die sprachspezifischen Themen weiter unten in dieser Dokumentation an.
 - Arbeiten mit COM-Objekten, die von .NET COM Interop bereitgestellt werden. Siehe [Interoperieren mit nicht verwaltetem Code](https://learn.microsoft.com/en-us/dotnet/framework/interop/) und [.NET Framework-Komponenten für COM verfügbar machen](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com) in MSDN.
-- Aspose.Words-Dokumentobjektmodell. Siehe Aspose.Words, [Entwicklerhandbuch](/words/de/net/developer-guide/) und [API Reference](https://reference.aspose.com/words/net/).
+- Aspose.Words-Dokumentobjektmodell. Siehe Aspose.Words, [Entwicklerhandbuch](/words/de/net/developer-guide/) und [API Reference](https://reference.aspose.com/words/de/net/).
 
 ## Registrieren Sie Aspose.Words für .NET mit COM Interop
 

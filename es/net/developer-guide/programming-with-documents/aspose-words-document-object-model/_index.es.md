@@ -23,8 +23,8 @@ Cuando Aspose.Words lee un documento de Word en la memoria, crea objetos de dife
 
 El árbol de documentos en Aspose.Words sigue el patrón de diseño compuesto:
 
-- Todas las clases de nodos derivan en última instancia de la clase [Node](https://reference.aspose.com/words/net/aspose.words/node/), que es la clase base en el modelo de objetos de documento Aspose.Words.
-- Los nodos que pueden contener otros nodos, por ejemplo, **Section** o **Paragraph**, derivan de la clase [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/), que a su vez deriva de la clase **Node**.
+- Todas las clases de nodos derivan en última instancia de la clase [Node](https://reference.aspose.com/words/es/net/aspose.words/node/), que es la clase base en el modelo de objetos de documento Aspose.Words.
+- Los nodos que pueden contener otros nodos, por ejemplo, **Section** o **Paragraph**, derivan de la clase [CompositeNode](https://reference.aspose.com/words/es/net/aspose.words/compositenode/), que a su vez deriva de la clase **Node**.
 
 El diagrama que se proporciona a continuación muestra la herencia entre clases de nodos del modelo de objetos de documento (DOM) Aspose.Words. Los nombres de las clases abstractas están en cursiva.
 
@@ -32,7 +32,7 @@ El diagrama que se proporciona a continuación muestra la herencia entre clases 
 
 {{% alert color="primary" %}}
 
-El Aspose.Words DOM también contiene clases que no son nodos, como [Style](https://reference.aspose.com/words/net/aspose.words/style/) o [Font](https://reference.aspose.com/words/net/aspose.words/font/), que se utilizan para personalizar la apariencia y los estilos dentro de un documento. Estas clases no se muestran en este diagrama porque no se heredan de la clase `Node`.
+El Aspose.Words DOM también contiene clases que no son nodos, como [Style](https://reference.aspose.com/words/es/net/aspose.words/style/) o [Font](https://reference.aspose.com/words/es/net/aspose.words/font/), que se utilizan para personalizar la apariencia y los estilos dentro de un documento. Estas clases no se muestran en este diagrama porque no se heredan de la clase `Node`.
 
 {{% /alert %}}
 
@@ -44,13 +44,13 @@ Al leer el documento anterior en Aspose.Words DOM, se crea el árbol de objetos,
 
 <img src="/words/net/aspose-words-document-object-model/document-example-dom.png" alt="dom-aspose-palabras" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/), [Section](https://reference.aspose.com/words/net/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), [Run](https://reference.aspose.com/words/net/aspose.words/run/) y todas las demás elipses del diagrama son objetos Aspose.Words que representan elementos del documento de Word.
+[Document](https://reference.aspose.com/words/es/net/aspose.words/document/), [Section](https://reference.aspose.com/words/es/net/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/es/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/es/net/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/es/net/aspose.words.drawing/shape/), [Run](https://reference.aspose.com/words/es/net/aspose.words/run/) y todas las demás elipses del diagrama son objetos Aspose.Words que representan elementos del documento de Word.
 
 ### Obtenga un `Node` tipo {#get-a-node-type}
 
-Aunque la clase [Node](https://reference.aspose.com/words/net/aspose.words/node/) es suficiente para distinguir diferentes nodos entre sí, Aspose.Words proporciona la enumeración [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) para simplificar algunas tareas API, como seleccionar nodos de un tipo específico.
+Aunque la clase [Node](https://reference.aspose.com/words/es/net/aspose.words/node/) es suficiente para distinguir diferentes nodos entre sí, Aspose.Words proporciona la enumeración [NodeType](https://reference.aspose.com/words/es/net/aspose.words/node/nodetype/) para simplificar algunas tareas API, como seleccionar nodos de un tipo específico.
 
-El tipo de cada nodo se puede obtener utilizando la propiedad [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/). Esta propiedad devuelve un valor de enumeración **NodeType**. Por ejemplo, un nodo de párrafo representado por la clase **Paragraph** devuelve **NodeType**.**Paragraph** y un nodo de tabla representado por la clase **Table** devuelve **NodeType**.**Table**.
+El tipo de cada nodo se puede obtener utilizando la propiedad [NodeType](https://reference.aspose.com/words/es/net/aspose.words/node/nodetype/). Esta propiedad devuelve un valor de enumeración **NodeType**. Por ejemplo, un nodo de párrafo representado por la clase **Paragraph** devuelve **NodeType**.**Paragraph** y un nodo de tabla representado por la clase **Table** devuelve **NodeType**.**Table**.
 
 El siguiente ejemplo muestra cómo obtener un tipo de nodo utilizando la enumeración **NodeType**:
 
@@ -76,9 +76,9 @@ Los nodos del árbol tienen relaciones entre ellos:
 
 - Un nodo que contiene otro nodo es un *parent.*
 - El nodo contenido en el nodo padre es un *child.*. Los nodos secundarios del mismo padre son nodos *sibling*.
-- El nodo *root* es siempre el nodo [Document](https://reference.aspose.com/words/net/aspose.words/document/).
+- El nodo *root* es siempre el nodo [Document](https://reference.aspose.com/words/es/net/aspose.words/document/).
 
-Los nodos que pueden contener otros nodos derivan de la clase [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) y, en última instancia, todos los nodos derivan de la clase [Node](https://reference.aspose.com/words/net/aspose.words/node/). Estas dos clases base proporcionan métodos y propiedades comunes para la navegación y modificación de la estructura de árbol.
+Los nodos que pueden contener otros nodos derivan de la clase [CompositeNode](https://reference.aspose.com/words/es/net/aspose.words/compositenode/) y, en última instancia, todos los nodos derivan de la clase [Node](https://reference.aspose.com/words/es/net/aspose.words/node/). Estas dos clases base proporcionan métodos y propiedades comunes para la navegación y modificación de la estructura de árbol.
 
 El siguiente diagrama de objetos UML muestra varios nodos del documento de muestra y sus relaciones entre sí a través de las propiedades padre, hijo y hermano:
 
@@ -90,11 +90,11 @@ Un nodo siempre pertenece a un documento en particular, incluso si acaba de crea
 
 {{% alert color="primary" %}}
 
-La propiedad [Node.Document](https://reference.aspose.com/words/net/aspose.words/node/document/) devuelve el documento al que pertenece el nodo.
+La propiedad [Node.Document](https://reference.aspose.com/words/es/net/aspose.words/node/document/) devuelve el documento al que pertenece el nodo.
 
 {{% /alert %}}
 
-Al crear un nuevo párrafo usando [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), el constructor siempre tiene una clase **Document** vinculada a través de la propiedad [DocumentBuilder.Document](https://reference.aspose.com/words/net/aspose.words/documentbuilder/document/).
+Al crear un nuevo párrafo usando [DocumentBuilder](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/), el constructor siempre tiene una clase **Document** vinculada a través de la propiedad [DocumentBuilder.Document](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/document/).
 
 El siguiente ejemplo de código muestra que al crear cualquier nodo, siempre se define un documento que será propietario del nodo:
 
@@ -102,23 +102,23 @@ El siguiente ejemplo de código muestra que al crear cualquier nodo, siempre se 
 
 #### Nodo principal
 
-Cada nodo tiene un padre especificado por la propiedad [ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/). Un nodo no tiene nodo padre, es decir, **ParentNode** es nulo, en los siguientes casos:
+Cada nodo tiene un padre especificado por la propiedad [ParentNode](https://reference.aspose.com/words/es/net/aspose.words/node/parentnode/). Un nodo no tiene nodo padre, es decir, **ParentNode** es nulo, en los siguientes casos:
 
 - El nodo acaba de crearse y aún no se ha agregado al árbol.
 - El nodo ha sido eliminado del árbol.
 - Este es el nodo **Document** raíz que siempre tiene un nodo principal nulo.
 
-Puede eliminar un nodo de su padre llamando al método [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/). El siguiente ejemplo de código muestra cómo acceder al nodo principal:
+Puede eliminar un nodo de su padre llamando al método [Remove](https://reference.aspose.com/words/es/net/aspose.words/node/remove/). El siguiente ejemplo de código muestra cómo acceder al nodo principal:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-GetParentNode.cs" >}}
 
 #### Nodos secundarios
 
-La forma más eficaz de acceder a los nodos secundarios de un [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) es a través de las propiedades [FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/) y [LastChild](https://reference.aspose.com/words/net/aspose.words/compositenode/lastchild/) que devuelven el primer y último nodo secundario, respectivamente. Si no hay nodos secundarios, estas propiedades devuelven *null*.
+La forma más eficaz de acceder a los nodos secundarios de un [CompositeNode](https://reference.aspose.com/words/es/net/aspose.words/compositenode/) es a través de las propiedades [FirstChild](https://reference.aspose.com/words/es/net/aspose.words/compositenode/firstchild/) y [LastChild](https://reference.aspose.com/words/es/net/aspose.words/compositenode/lastchild/) que devuelven el primer y último nodo secundario, respectivamente. Si no hay nodos secundarios, estas propiedades devuelven *null*.
 
-**CompositeNode** también proporciona el método [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) que permite el acceso indexado o enumerado a los nodos secundarios. La propiedad **ChildNodes** es una colección activa de nodos, lo que significa que cada vez que se cambia el documento, como cuando se eliminan o agregan nodos, la colección **ChildNodes** se actualiza automáticamente.
+**CompositeNode** también proporciona el método [GetChildNodes](https://reference.aspose.com/words/es/net/aspose.words/compositenode/getchildnodes/) que permite el acceso indexado o enumerado a los nodos secundarios. La propiedad **ChildNodes** es una colección activa de nodos, lo que significa que cada vez que se cambia el documento, como cuando se eliminan o agregan nodos, la colección **ChildNodes** se actualiza automáticamente.
 
-Si un nodo no tiene hijos, la propiedad **ChildNodes** devuelve una colección vacía. Puede comprobar si el **CompositeNode** contiene nodos secundarios utilizando la propiedad [HasChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/haschildnodes/).
+Si un nodo no tiene hijos, la propiedad **ChildNodes** devuelve una colección vacía. Puede comprobar si el **CompositeNode** contiene nodos secundarios utilizando la propiedad [HasChildNodes](https://reference.aspose.com/words/es/net/aspose.words/compositenode/haschildnodes/).
 
 El siguiente ejemplo de código muestra cómo enumerar nodos secundarios inmediatos de un `CompositeNode` utilizando el enumerador proporcionado por la colección `ChildNodes`:
 
@@ -130,7 +130,7 @@ El siguiente ejemplo de código muestra cómo enumerar nodos secundarios inmedia
 
 #### Nodos hermanos
 
-Puede obtener el nodo que precede o sigue inmediatamente a un nodo en particular utilizando las propiedades [PreviousSibling](https://reference.aspose.com/words/net/aspose.words/node/previoussibling/) y [NextSibling](https://reference.aspose.com/words/net/aspose.words/node/nextsibling/), respectivamente. Si un nodo es el último hijo de su padre, entonces la propiedad **NextSibling** es *null*. Por el contrario, si el nodo es el primer hijo de su padre, la propiedad **PreviousSibling** es *null*.
+Puede obtener el nodo que precede o sigue inmediatamente a un nodo en particular utilizando las propiedades [PreviousSibling](https://reference.aspose.com/words/es/net/aspose.words/node/previoussibling/) y [NextSibling](https://reference.aspose.com/words/es/net/aspose.words/node/nextsibling/), respectivamente. Si un nodo es el último hijo de su padre, entonces la propiedad **NextSibling** es *null*. Por el contrario, si el nodo es el primer hijo de su padre, la propiedad **PreviousSibling** es *null*.
 
 El siguiente ejemplo de código muestra cómo visitar de manera eficiente todos los nodos secundarios directos e indirectos de un nodo compuesto:
 
@@ -142,11 +142,11 @@ Hasta ahora, hemos analizado las propiedades que devuelven uno de los tipos base
 
 Para reducir la necesidad de conversión, la mayoría de las clases Aspose.Words proporcionan propiedades y colecciones que brindan acceso fuertemente tipado. Hay tres patrones básicos de acceso mecanografiado:
 
-- Un nodo principal expone propiedades **FirstXXX** y **LastXXX** escritas. Por ejemplo, el **Document** tiene propiedades [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) y [LastSection](https://reference.aspose.com/words/net/aspose.words/document/lastsection/). De manera similar, **Table** tiene propiedades como [FirstRow](https://reference.aspose.com/words/net/aspose.words.tables/table/firstrow/), [LastRow](https://reference.aspose.com/words/net/aspose.words.tables/table/lastrow/) y otras.
-- Un nodo principal expone una colección escrita de nodos secundarios, como [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/), [Body.Paragraphs](https://reference.aspose.com/words/net/aspose.words/story/paragraphs/) y otros.
-- Un nodo secundario proporciona acceso escrito a su padre, como [Run.ParentParagraph](https://reference.aspose.com/words/net/aspose.words/inline/parentparagraph/), [Paragraph.ParentSection](https://reference.aspose.com/words/net/aspose.words/paragraph/parentsection/) y otros.
+- Un nodo principal expone propiedades **FirstXXX** y **LastXXX** escritas. Por ejemplo, el **Document** tiene propiedades [FirstSection](https://reference.aspose.com/words/es/net/aspose.words/document/firstsection/) y [LastSection](https://reference.aspose.com/words/es/net/aspose.words/document/lastsection/). De manera similar, **Table** tiene propiedades como [FirstRow](https://reference.aspose.com/words/es/net/aspose.words.tables/table/firstrow/), [LastRow](https://reference.aspose.com/words/es/net/aspose.words.tables/table/lastrow/) y otras.
+- Un nodo principal expone una colección escrita de nodos secundarios, como [Document.Sections](https://reference.aspose.com/words/es/net/aspose.words/document/sections/), [Body.Paragraphs](https://reference.aspose.com/words/es/net/aspose.words/story/paragraphs/) y otros.
+- Un nodo secundario proporciona acceso escrito a su padre, como [Run.ParentParagraph](https://reference.aspose.com/words/es/net/aspose.words/inline/parentparagraph/), [Paragraph.ParentSection](https://reference.aspose.com/words/es/net/aspose.words/paragraph/parentsection/) y otros.
 
-Las propiedades escritas son simplemente atajos útiles que a veces proporcionan un acceso más fácil que las propiedades genéricas heredadas de [Node.ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/) y [CompositeNode.FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/).
+Las propiedades escritas son simplemente atajos útiles que a veces proporcionan un acceso más fácil que las propiedades genéricas heredadas de [Node.ParentNode](https://reference.aspose.com/words/es/net/aspose.words/node/parentnode/) y [CompositeNode.FirstChild](https://reference.aspose.com/words/es/net/aspose.words/compositenode/firstchild/).
 
 El siguiente ejemplo de código muestra cómo utilizar propiedades escritas para acceder a los nodos del árbol del documento:
 

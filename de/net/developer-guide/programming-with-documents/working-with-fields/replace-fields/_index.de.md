@@ -13,8 +13,8 @@ Das Ersetzen von Feldern ist häufig erforderlich, wenn Sie Ihr Dokument als sta
 
 Das folgende Diagramm zeigt, wie das `IF`-Feld in einem Dokument gespeichert wird:
 
-* Der Text ist von den speziellen Feldknoten [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) und [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend) umgeben
-* Der [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/)-Knoten trennt den Text innerhalb des Feldes in den Feldcode und das Feldergebnis
+* Der Text ist von den speziellen Feldknoten [FieldStart](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldstart/) und [FieldEnd](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldend) umgeben
+* Der [FieldSeparator](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldseparator/)-Knoten trennt den Text innerhalb des Feldes in den Feldcode und das Feldergebnis
 * Der Feldcode definiert das allgemeine Verhalten des Feldes, während das Feldergebnis das aktuellste Ergebnis beibehält, wenn dieses Feld mit Microsoft Word oder Aspose.Words aktualisiert wird
 * Das Feldergebnis ist das, was im Feld gespeichert und beim Betrachten im Dokument angezeigt wird
 
@@ -38,17 +38,17 @@ Das folgende Codebeispiel zeigt, wie das Feld durch sein neuestes Ergebnis erset
 
 ## Konvertieren Sie bestimmte Feldtypen in bestimmte Dokumentteile
 
-Da die **ConvertFieldsToStaticText**-Methode zwei Parameter akzeptiert – die [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/)-Eigenschaften und die [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/)-Enumeration – ist es möglich, jeden zusammengesetzten Knoten an diese Methode zu übergeben. Dadurch können Felder nur in bestimmten Teilen des Dokuments in statischen Text umgewandelt werden.
+Da die **ConvertFieldsToStaticText**-Methode zwei Parameter akzeptiert – die [CompositeNode](https://reference.aspose.com/words/de/net/aspose.words/compositenode/)-Eigenschaften und die [FieldType](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldtype/)-Enumeration – ist es möglich, jeden zusammengesetzten Knoten an diese Methode zu übergeben. Dadurch können Felder nur in bestimmten Teilen des Dokuments in statischen Text umgewandelt werden.
 
-Sie können beispielsweise ein [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Objekt übergeben und Felder des angegebenen Typs aus dem gesamten Dokument in statischen Text konvertieren, oder Sie können ein [Body](https://reference.aspose.com/words/net/aspose.words/body/)-Objekt eines Abschnitts übergeben und nur die in diesem Hauptteil gefundenen Felder konvertieren.
+Sie können beispielsweise ein [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Objekt übergeben und Felder des angegebenen Typs aus dem gesamten Dokument in statischen Text konvertieren, oder Sie können ein [Body](https://reference.aspose.com/words/de/net/aspose.words/body/)-Objekt eines Abschnitts übergeben und nur die in diesem Hauptteil gefundenen Felder konvertieren.
 
 {{% alert color="primary" %}}
 
-Beachten Sie beim Übergeben eines Knotens auf Blockebene, z. B. eines [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), dass sich Felder in einigen Fällen über mehrere Absätze erstrecken können. In diesem Fall wird empfohlen, stattdessen das übergeordnete Element des Verbunds zu übergeben, um dies zu vermeiden.
+Beachten Sie beim Übergeben eines Knotens auf Blockebene, z. B. eines [Paragraph](https://reference.aspose.com/words/de/net/aspose.words/paragraph/), dass sich Felder in einigen Fällen über mehrere Absätze erstrecken können. In diesem Fall wird empfohlen, stattdessen das übergeordnete Element des Verbunds zu übergeben, um dies zu vermeiden.
 
 {{% /alert %}}
 
-Die an die **ConvertFieldsToStaticText**-Methode übergebene [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/)-Enumeration gibt an, welche Art von Feldern in statischen Text konvertiert werden sollen. Alle anderen im Dokument gefundenen Feldtypen bleiben unverändert.
+Die an die **ConvertFieldsToStaticText**-Methode übergebene [FieldType](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldtype/)-Enumeration gibt an, welche Art von Feldern in statischen Text konvertiert werden sollen. Alle anderen im Dokument gefundenen Feldtypen bleiben unverändert.
 
 Das folgende Codebeispiel zeigt, wie man Felder eines bestimmten Typs – *targetFieldType* – in einem bestimmten Knoten – *compositeNode* – auswählt und sie dann in statischen Text umwandelt:
 

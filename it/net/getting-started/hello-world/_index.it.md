@@ -15,12 +15,12 @@ La libreria C# "Aspose.Words for .NET" offre agli sviluppatori l'accesso diretto
 
 Lo snippet Below code segue questi passaggi:
 
-1. Crea un nuovo [Document](https://reference.aspose.com/words/net/aspose.words/document) vuoto
-1. Inizializzare una classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
-1. Inserisci il testo nel documento iniziando utilizzando il semplice metodo [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/)
-1. Apri un [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) esistente da un file. Rileva automaticamente il formato del file
-1. Documento [Append](https://reference.aspose.com/words/net/aspose.words/document/appenddocument/) "A" a corredo del documento "B"
-1. [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) l'output come PDF
+1. Crea un nuovo [Document](https://reference.aspose.com/words/it/net/aspose.words/document) vuoto
+1. Inizializzare una classe [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/)
+1. Inserisci il testo nel documento iniziando utilizzando il semplice metodo [Write](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/write/)
+1. Apri un [Document](https://reference.aspose.com/words/it/net/aspose.words/document/document/) esistente da un file. Rileva automaticamente il formato del file
+1. Documento [Append](https://reference.aspose.com/words/it/net/aspose.words/document/appenddocument/) "A" a corredo del documento "B"
+1. [Save](https://reference.aspose.com/words/it/net/aspose.words/document/save/) l'output come PDF
 
 Il seguente frammento di codice è un "Hello, World!" esempio per mostrare il funzionamento dell'API "Aspose.Words for .NET":
 

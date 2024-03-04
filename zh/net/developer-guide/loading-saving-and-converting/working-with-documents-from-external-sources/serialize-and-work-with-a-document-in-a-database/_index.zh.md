@@ -17,9 +17,9 @@ Aspose.Words 提供了将文档转换为字节数组的功能，以便后续在�
 
 为了将文档存储在数据库中或准备文档以便在网络上传输，通常需要序列化文档以获得字节数组。
 
-要在 Aspose.Words 中序列化 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象：
+要在 Aspose.Words 中序列化 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象：
 
-1. 使用 **Document** 类的 [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 方法重载将其保存到 **MemoryStream**。
+1. 使用 **Document** 类的 [Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/) 方法重载将其保存到 **MemoryStream**。
 1. 调用 **ToArray** 方法，该方法返回以字节形式表示文档的字节数组。
 
 然后可以颠倒上述步骤，将字节加载回 **Document** 对象。

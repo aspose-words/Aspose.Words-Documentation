@@ -9,11 +9,11 @@ weight: 50
 url: /ar/net/working-with-hyperlinks/
 ---
 
-الارتباط التشعبي في مستندات Microsoft Word هو حقل `HYPERLINK`. في Aspose.Words، يتم تنفيذ الارتباطات التشعبية من خلال فئة [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/).
+الارتباط التشعبي في مستندات Microsoft Word هو حقل `HYPERLINK`. في Aspose.Words، يتم تنفيذ الارتباطات التشعبية من خلال فئة [FieldHyperlink](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldhyperlink/).
 
 ## قم بإدراج ارتباط تشعبي
 
-استخدم طريقة [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/) لإدراج ارتباط تشعبي في المستند. تقبل هذه الطريقة ثلاث معلمات:
+استخدم طريقة [InsertHyperlink](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/inserthyperlink/) لإدراج ارتباط تشعبي في المستند. تقبل هذه الطريقة ثلاث معلمات:
 
 1. نص الرابط الذي سيتم عرضه في الوثيقة
 2. وجهة الارتباط (عنوان URL أو اسم الإشارة المرجعية داخل المستند)
@@ -27,7 +27,7 @@ url: /ar/net/working-with-hyperlinks/
 
 {{% /alert %}}
 
-يوضح مثال التعليمات البرمجية التالي كيفية إدراج ارتباط تشعبي في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/):
+يوضح مثال التعليمات البرمجية التالي كيفية إدراج ارتباط تشعبي في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

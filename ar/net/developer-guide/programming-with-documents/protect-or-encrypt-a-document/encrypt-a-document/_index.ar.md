@@ -19,7 +19,7 @@ url: /ar/net/encrypt-a-document/
 
 {{% alert color="primary" %}}
 
-يمكنك العثور على خاصية **Password** المناسبة للتنسيق المطلوب. يحتوي كل تنسيق حفظ مستند في [حفظ مساحة الاسم](https://reference.aspose.com/words/net/aspose.words.saving/) على فئة مقابلة تحتوي على خيارات حفظ لهذا التنسيق. على سبيل المثال، خاصية [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) في فئة [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) لـ DOC، أو خاصية [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) في فئة [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) لـ DOCX، وDOCM، وDOTX، وDOTM، وFlatOpc.
+يمكنك العثور على خاصية **Password** المناسبة للتنسيق المطلوب. يحتوي كل تنسيق حفظ مستند في [حفظ مساحة الاسم](https://reference.aspose.com/words/ar/net/aspose.words.saving/) على فئة مقابلة تحتوي على خيارات حفظ لهذا التنسيق. على سبيل المثال، خاصية [Password](https://reference.aspose.com/words/ar/net/aspose.words.saving/docsaveoptions/password/) في فئة [DocSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/docsaveoptions/) لـ DOC، أو خاصية [Password](https://reference.aspose.com/words/ar/net/aspose.words.saving/ooxmlsaveoptions/password/) في فئة [OoxmlSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/ooxmlsaveoptions/) لـ DOCX، وDOCM، وDOTX، وDOTM، وFlatOpc.
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ url: /ar/net/encrypt-a-document/
 
 في بعض الحالات، قد يكون لديك مستند غير قابل للقراءة وتريد التأكد من أن المستند مشفر وغير تالف أو مضغوط.
 
-لاكتشاف ما إذا كان المستند مشفرًا وما إذا كانت كلمة المرور مطلوبة، يمكنك استخدام خاصية [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) لفئة [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/). ستسمح لك هذه الخاصية أيضًا بتنفيذ بعض الإجراءات قبل تحميل مستند، على سبيل المثال، إعلام المستخدم بتقديم كلمة مرور.
+لاكتشاف ما إذا كان المستند مشفرًا وما إذا كانت كلمة المرور مطلوبة، يمكنك استخدام خاصية [IsEncrypted](https://reference.aspose.com/words/ar/net/aspose.words/fileformatinfo/isencrypted/) لفئة [FileFormatInfo](https://reference.aspose.com/words/ar/net/aspose.words/fileformatinfo/). ستسمح لك هذه الخاصية أيضًا بتنفيذ بعض الإجراءات قبل تحميل مستند، على سبيل المثال، إعلام المستخدم بتقديم كلمة مرور.
 
 يوضح مثال التعليمات البرمجية التالي كيفية اكتشاف تشفير المستند:
 

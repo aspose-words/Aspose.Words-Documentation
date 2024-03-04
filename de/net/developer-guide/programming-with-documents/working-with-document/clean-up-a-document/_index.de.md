@@ -13,13 +13,13 @@ Manchmal müssen Sie möglicherweise nicht verwendete oder doppelte Informatione
 
 Sie können zwar ungenutzte Daten wie Stile oder Listen finden und entfernen oder Informationen manuell duplizieren, dies ist jedoch viel bequemer, wenn Sie die von Aspose.Words bereitgestellten Funktionen und Möglichkeiten nutzen.
 
-Mit der [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/)-Klasse können Sie Optionen für die Dokumentbereinigung angeben. Um doppelte Stile oder nur nicht verwendete Stile oder Listen aus dem Dokument zu entfernen, können Sie die [Cleanup](https://reference.aspose.com/words/net/aspose.words/document/cleanup/)-Methode verwenden.
+Mit der [CleanupOptions](https://reference.aspose.com/words/de/net/aspose.words/cleanupoptions/)-Klasse können Sie Optionen für die Dokumentbereinigung angeben. Um doppelte Stile oder nur nicht verwendete Stile oder Listen aus dem Dokument zu entfernen, können Sie die [Cleanup](https://reference.aspose.com/words/de/net/aspose.words/document/cleanup/)-Methode verwenden.
 
 ## Entfernen Sie ungenutzte Informationen aus einem Dokument
 
-Mithilfe der [UnusedStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedstyles/)- und [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/)-Eigenschaften können Sie Stile erkennen und entfernen, die als "unbenutzt" markiert sind.
+Mithilfe der [UnusedStyles](https://reference.aspose.com/words/de/net/aspose.words/cleanupoptions/unusedstyles/)- und [UnusedBuiltinStyles](https://reference.aspose.com/words/de/net/aspose.words/cleanupoptions/unusedbuiltinstyles/)-Eigenschaften können Sie Stile erkennen und entfernen, die als "unbenutzt" markiert sind.
 
-Mithilfe der [UnusedLists](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedlists/)-Eigenschaft können Sie Listen und Listendefinitionen erkennen und entfernen, die als "unbenutzt" markiert sind.
+Mithilfe der [UnusedLists](https://reference.aspose.com/words/de/net/aspose.words/cleanupoptions/unusedlists/)-Eigenschaft können Sie Listen und Listendefinitionen erkennen und entfernen, die als "unbenutzt" markiert sind.
 
 Das folgende Codebeispiel zeigt, wie nur nicht verwendete Stile aus einem Dokument entfernt werden:
 
@@ -27,7 +27,7 @@ Das folgende Codebeispiel zeigt, wie nur nicht verwendete Stile aus einem Dokume
 
 ## Entfernen Sie doppelte Informationen aus einem Dokument
 
-Sie können die [DuplicateStyle](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/duplicatestyle/)-Eigenschaft auch verwenden, um alle doppelten Stile durch den Originalstil zu ersetzen und Duplikate aus einem Dokument zu entfernen.
+Sie können die [DuplicateStyle](https://reference.aspose.com/words/de/net/aspose.words/cleanupoptions/duplicatestyle/)-Eigenschaft auch verwenden, um alle doppelten Stile durch den Originalstil zu ersetzen und Duplikate aus einem Dokument zu entfernen.
 
 Das folgende Codebeispiel zeigt, wie Sie doppelte Stile aus einem Dokument entfernen:
 

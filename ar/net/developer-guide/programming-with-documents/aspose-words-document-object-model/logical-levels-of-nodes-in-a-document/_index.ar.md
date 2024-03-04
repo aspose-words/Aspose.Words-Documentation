@@ -17,19 +17,19 @@ url: /ar/net/logical-levels-of-nodes-in-a-document/
 
 ## الوثيقة والقسم المستوى المنطقي
 
-يتكون مستند Word من قسم واحد أو أكثر، ممثلة بفئة [Section](https://reference.aspose.com/words/net/aspose.words/section/) ومفصولة بفواصل أقسام. يمكن للقسم تحديد حجم الصفحة والهوامش والاتجاه وعدد أعمدة النص والرؤوس والتذييلات الخاصة به.
+يتكون مستند Word من قسم واحد أو أكثر، ممثلة بفئة [Section](https://reference.aspose.com/words/ar/net/aspose.words/section/) ومفصولة بفواصل أقسام. يمكن للقسم تحديد حجم الصفحة والهوامش والاتجاه وعدد أعمدة النص والرؤوس والتذييلات الخاصة به.
 
-تحتوي العقد على مستوى [Document](https://reference.aspose.com/words/net/aspose.words/document/) و[Section](https://reference.aspose.com/words/net/aspose.words/section/) على البنية كما هو موضح في الرسم البياني التالي.
+تحتوي العقد على مستوى [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) و[Section](https://reference.aspose.com/words/ar/net/aspose.words/section/) على البنية كما هو موضح في الرسم البياني التالي.
 
 <img src="/words/net/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="المستند والقسم على مستوى Aspose-Words" style="width:700px"/>
 
 يحتوي القسم على النص الرئيسي، بالإضافة إلى الرؤوس والتذييلات للصفحات الأولى والزوجية والفردية. تسمى هذه "التدفقات" المختلفة للنص *stories*.
 
-في Aspose.Words، تحتوي عقدة **Section** على عقد قصة [Body](https://reference.aspose.com/words/net/aspose.words/body/) و[HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/). يقوم كائن **Body** بتخزين النص الرئيسي. تقوم كائنات **HeaderFooter** بتخزين النص لكل رأس وتذييل. يتكون نص أي قصة من فقرات وجداول، يتم تمثيلها على التوالي بواسطة كائنات **Paragraph** و**Table** على مستوى الكتلة.
+في Aspose.Words، تحتوي عقدة **Section** على عقد قصة [Body](https://reference.aspose.com/words/ar/net/aspose.words/body/) و[HeaderFooter](https://reference.aspose.com/words/ar/net/aspose.words/headerfooter/). يقوم كائن **Body** بتخزين النص الرئيسي. تقوم كائنات **HeaderFooter** بتخزين النص لكل رأس وتذييل. يتكون نص أي قصة من فقرات وجداول، يتم تمثيلها على التوالي بواسطة كائنات **Paragraph** و**Table** على مستوى الكتلة.
 
-بالإضافة إلى ذلك، يمكن أن يحتوي كل مستند Word على مسرد مصطلحات، والذي يتم تمثيله بواسطة عقدة [GlossaryDocument](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/) في Aspose.Words. يحتوي مستند المسرد على إدخالات [BuildingBlocks](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/)، و[AutoText](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/)، و[AutoCorrect](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/).
+بالإضافة إلى ذلك، يمكن أن يحتوي كل مستند Word على مسرد مصطلحات، والذي يتم تمثيله بواسطة عقدة [GlossaryDocument](https://reference.aspose.com/words/ar/net/aspose.words.buildingblocks/glossarydocument/) في Aspose.Words. يحتوي مستند المسرد على إدخالات [BuildingBlocks](https://reference.aspose.com/words/ar/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/)، و[AutoText](https://reference.aspose.com/words/ar/net/aspose.words.buildingblocks/buildingblocktype/)، و[AutoCorrect](https://reference.aspose.com/words/ar/net/aspose.words.buildingblocks/buildingblocktype/).
 
-يتضمن **GlossaryDocument** عقد [BuildingBlock](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblock/) تمثل أنواعًا مختلفة من إدخالات مستند المسرد. يحتوي كل **BuildingBlock** على أقسام يمكن إدراجها وإزالتها ونسخها في المستندات.
+يتضمن **GlossaryDocument** عقد [BuildingBlock](https://reference.aspose.com/words/ar/net/aspose.words.buildingblocks/buildingblock/) تمثل أنواعًا مختلفة من إدخالات مستند المسرد. يحتوي كل **BuildingBlock** على أقسام يمكن إدراجها وإزالتها ونسخها في المستندات.
 
 ## كتلة المستوى المنطقي
 
@@ -47,9 +47,9 @@ url: /ar/net/logical-levels-of-nodes-in-a-document/
 
 يتم تمثيل العقد على مستوى الكتلة بالفئات التالية:
 
-- [Tables](https://reference.aspose.com/words/net/aspose.words.tables/table/) و[Paragraphs](https://reference.aspose.com/words/net/aspose.words/paragraph/)، وهما العقدتان الأكثر أهمية على مستوى الكتلة
+- [Tables](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[Paragraphs](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/)، وهما العقدتان الأكثر أهمية على مستوى الكتلة
 - الإشارات المرجعية، والتي تحدث على مستوى الكتلة وعلى المستوى المضمن
-- [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/)، والتي تمثل علامات مخصصة ويمكن أن تحتوي على كل من عناصر التحكم في المحتوى والمحتوى
+- [StructuredDocumentTag](https://reference.aspose.com/words/ar/net/aspose.words.markup/structureddocumenttag/)، والتي تمثل علامات مخصصة ويمكن أن تحتوي على كل من عناصر التحكم في المحتوى والمحتوى
 
 يوضح الرسم البياني التالي عناصر مستوى الكتلة.
 
@@ -60,17 +60,17 @@ url: /ar/net/logical-levels-of-nodes-in-a-document/
 تمثل العقد ذات المستوى المضمن المحتوى الفعلي للمستند ويمكن تضمينها في الحاويات التالية:
 
 - الفقرة – الحاوية الأكثر شيوعا
-- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)
+- [SmartTag](https://reference.aspose.com/words/ar/net/aspose.words.markup/smarttag/)
 - علامة الوثيقة المنظمة
 
 يتم تمثيل عناصر المستوى المضمّن بالفئات التالية:
 
-- [Run](https://reference.aspose.com/words/net/aspose.words/run/) - مجموعات من النص بتنسيق مختلف
-- يمثل [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/) و[BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/) الإشارات المرجعية
-- تمثل [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) و[Comment](https://reference.aspose.com/words/net/aspose.words/comment/) و[Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote/) التعليقات التوضيحية
-- [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) و[FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/) و[FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) و[FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) التي تمثل أحرف الحقل، و[FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) تمثل حقول Word
-- يمثل [SpecialChar](https://reference.aspose.com/words/net/aspose.words/specialchar/) أحرفًا خاصة في المستند
-- يمثل [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) و[GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) الأشكال والرسومات والصور وما إلى ذلك.
+- [Run](https://reference.aspose.com/words/ar/net/aspose.words/run/) - مجموعات من النص بتنسيق مختلف
+- يمثل [BookmarkStart](https://reference.aspose.com/words/ar/net/aspose.words/bookmarkstart/) و[BookmarkEnd](https://reference.aspose.com/words/ar/net/aspose.words/bookmarkend/) الإشارات المرجعية
+- تمثل [CommentRangeStart](https://reference.aspose.com/words/ar/net/aspose.words/commentrangestart/) و[CommentRangeEnd](https://reference.aspose.com/words/ar/net/aspose.words/commentrangeend/) و[Comment](https://reference.aspose.com/words/ar/net/aspose.words/comment/) و[Footnote](https://reference.aspose.com/words/ar/net/aspose.words.notes/footnote/) التعليقات التوضيحية
+- [FieldStart](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldstart/) و[FieldChar](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldchar/) و[FieldSeparator](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldseparator/) و[FieldEnd](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldend/) التي تمثل أحرف الحقل، و[FormField](https://reference.aspose.com/words/ar/net/aspose.words.fields/formfield/) تمثل حقول Word
+- يمثل [SpecialChar](https://reference.aspose.com/words/ar/net/aspose.words/specialchar/) أحرفًا خاصة في المستند
+- يمثل [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/) و[GroupShape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/groupshape/) الأشكال والرسومات والصور وما إلى ذلك.
 - تمثل SmartTag وStructuredDocumentTag ترميزًا مخصصًا
 
 يوضح الرسم البياني التالي بنية العقد ذات المستوى المضمن.
@@ -95,8 +95,8 @@ url: /ar/net/logical-levels-of-nodes-in-a-document/
 
 يتكون الجدول من عقد من الصفوف والخلايا. يتم تمثيل عناصر الجدول بالفئات التالية:
 
-- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) يمثل صف الجدول
-- يمثل [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) خلية جدول
+- [Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) يمثل صف الجدول
+- يمثل [Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) خلية جدول
 - تمثل StructuredDocumentTag ترميزًا مخصصًا
 
 يوضح الرسم التخطيطي التالي بنيات العقد لمستويات الجدول والصف والخلية.

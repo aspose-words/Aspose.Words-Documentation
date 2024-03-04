@@ -32,26 +32,26 @@ Una tabella può essere in linea se è posizionata in modo stretto oppure mobile
 
 ## Crea una tabella con DocumentBuilder
 
-In Aspose.Words, gli utenti possono creare una tabella in un documento utilizzando [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). L'algoritmo di base per creare una tabella è il seguente:
+In Aspose.Words, gli utenti possono creare una tabella in un documento utilizzando [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/). L'algoritmo di base per creare una tabella è il seguente:
 
-1. Inizia la tabella con [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/)
-2. Aggiungi una cella alla tabella utilizzando [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/): questo avvia automaticamente una nuova riga
-3. Facoltativamente, utilizzare la proprietà [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) per specificare la formattazione della cella
-4. Inserisci il contenuto della cella utilizzando i metodi **DocumentBuilder** appropriati come [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/writeln/), [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) e altri
+1. Inizia la tabella con [StartTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/starttable/)
+2. Aggiungi una cella alla tabella utilizzando [InsertCell](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertcell/): questo avvia automaticamente una nuova riga
+3. Facoltativamente, utilizzare la proprietà [CellFormat](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/cellformat/) per specificare la formattazione della cella
+4. Inserisci il contenuto della cella utilizzando i metodi **DocumentBuilder** appropriati come [Writeln](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/writeln/), [InsertImage](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertimage/) e altri
 5. Ripetere i passaggi 2-4 fino al completamento della riga
-6. Chiama [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/) per terminare la riga corrente
-7. Facoltativamente, utilizzare la proprietà [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/) per specificare la formattazione della riga
+6. Chiama [EndRow](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endrow/) per terminare la riga corrente
+7. Facoltativamente, utilizzare la proprietà [RowFormat](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/rowformat/) per specificare la formattazione della riga
 8. Ripetere i passaggi da 2 a 7 fino al completamento della tabella
-9. Chiama [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) per completare la creazione della tabella
+9. Chiama [EndTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endtable/) per completare la creazione della tabella
 
 {{% alert color="primary" %}}
 
 Dettagli importanti:
 
-* [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) può essere richiamato anche all'interno di una cella, nel qual caso avvia la creazione di una tabella nidificata all'interno della cella.
-* Dopo aver chiamato [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/), viene creata una nuova cella e qualsiasi contenuto aggiunto utilizzando altri metodi della classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) verrà aggiunto alla cella corrente. Per creare una nuova cella sulla stessa riga, richiama nuovamente **InsertCell**.
-* Se **InsertCell** viene richiamato immediatamente dopo [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/) e la fine di una riga, la tabella continuerà su una nuova riga.
-* Il metodo [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) per terminare la tabella deve essere chiamato solo una volta dopo aver chiamato **EndRow**. La chiamata **EndTable** sposta il cursore dalla cella corrente alla posizione immediatamente dopo la tabella.
+* [StartTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/starttable/) può essere richiamato anche all'interno di una cella, nel qual caso avvia la creazione di una tabella nidificata all'interno della cella.
+* Dopo aver chiamato [InsertCell](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertcell/), viene creata una nuova cella e qualsiasi contenuto aggiunto utilizzando altri metodi della classe [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/) verrà aggiunto alla cella corrente. Per creare una nuova cella sulla stessa riga, richiama nuovamente **InsertCell**.
+* Se **InsertCell** viene richiamato immediatamente dopo [EndRow](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endrow/) e la fine di una riga, la tabella continuerà su una nuova riga.
+* Il metodo [EndTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endtable/) per terminare la tabella deve essere chiamato solo una volta dopo aver chiamato **EndRow**. La chiamata **EndTable** sposta il cursore dalla cella corrente alla posizione immediatamente dopo la tabella.
 
 {{% /alert %}}
 
@@ -73,9 +73,9 @@ Il seguente esempio di codice mostra come inserire una tabella nidificata utiliz
 
 ## Crea una tabella tramite DOM (Document Object Model)
 
-Puoi inserire tabelle direttamente nel DOM aggiungendo un nuovo nodo [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) in una posizione specifica.
+Puoi inserire tabelle direttamente nel DOM aggiungendo un nuovo nodo [Table](https://reference.aspose.com/words/it/net/aspose.words.tables/table/) in una posizione specifica.
 
-Tieni presente che subito dopo la creazione del nodo della tabella, la tabella stessa sarà completamente vuota, ovvero non conterrà ancora righe e celle. Per inserire righe e celle in una tabella, aggiungere i nodi secondari [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) e [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) appropriati all'DOM.
+Tieni presente che subito dopo la creazione del nodo della tabella, la tabella stessa sarà completamente vuota, ovvero non conterrà ancora righe e celle. Per inserire righe e celle in una tabella, aggiungere i nodi secondari [Row](https://reference.aspose.com/words/it/net/aspose.words.tables/row/) e [Cell](https://reference.aspose.com/words/it/net/aspose.words.tables/cell/) appropriati all'DOM.
 
 {{% alert color="primary" %}}
 
@@ -89,7 +89,7 @@ Il seguente esempio di codice mostra come creare una nuova tabella da zero aggiu
 
 ## Crea una tabella da HTML
 
-Aspose.Words supporta l'inserimento di contenuto in un documento da un'origine HTML utilizzando il metodo [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/). L'input può essere una pagina HTML completa o solo uno snippet parziale.
+Aspose.Words supporta l'inserimento di contenuto in un documento da un'origine HTML utilizzando il metodo [InsertHtml](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/inserthtml/). L'input può essere una pagina HTML completa o solo uno snippet parziale.
 
 Utilizzando il metodo **InsertHtml**, gli utenti possono inserire tabelle nel documento tramite tag di tabella come `<table>`, `<tr>`, `<td>`.
 
@@ -99,7 +99,7 @@ Il seguente esempio di codice mostra come inserire una tabella in un documento d
 
 ## Inserisci una copia di una tabella esistente
 
-Ci sono spesso momenti in cui è necessario creare una tabella basata su una tabella già esistente in un documento. Il modo più semplice per duplicare una tabella mantenendo tutta la formattazione è clonare il nodo Tabella utilizzando il metodo [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/).
+Ci sono spesso momenti in cui è necessario creare una tabella basata su una tabella già esistente in un documento. Il modo più semplice per duplicare una tabella mantenendo tutta la formattazione è clonare il nodo Tabella utilizzando il metodo [Clone](https://reference.aspose.com/words/it/net/aspose.words/node/clone/).
 
 La stessa tecnica può essere utilizzata per aggiungere copie di una riga o cella esistente a una tabella.
 
@@ -134,6 +134,6 @@ Diamo uno sguardo più da vicino a questi modi di creare tabelle e confrontiamo 
 |  Metodo | Vantaggi |  Svantaggi |
 |  :-  |  :-  |  :-  |
 | Tramite `DocumentBuilder` | Il metodo standard per inserire tabelle e altro contenuto di documenti | A volte è difficile creare molte varietà di tabelle contemporaneamente con la stessa istanza del builder |
-| Tramite DOM |  Si adatta meglio al codice circostante che crea e inserisce i nodi direttamente nel DOM senza utilizzare un **DocumentBuilder** | La tabella viene creata "vuota": prima di eseguire la maggior parte delle operazioni, è necessario richiamare [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words.tables/table/ensureminimum/) per creare eventuali nodi figli mancanti |
+| Tramite DOM |  Si adatta meglio al codice circostante che crea e inserisce i nodi direttamente nel DOM senza utilizzare un **DocumentBuilder** | La tabella viene creata "vuota": prima di eseguire la maggior parte delle operazioni, è necessario richiamare [EnsureMinimum](https://reference.aspose.com/words/it/net/aspose.words.tables/table/ensureminimum/) per creare eventuali nodi figli mancanti |
 | Dall'HTML | Può creare una nuova tabella da sorgente HTML utilizzando tag come `<table>`, `<tr>`, `<td>` | Non tutti i possibili formati di tabella Microsoft Word possono essere applicati all'HTML |
 | Clonazione di una tabella esistente | Puoi creare una copia di una tabella esistente mantenendo tutta la formattazione di righe e celle | I nodi figlio appropriati devono essere rimossi prima che la tabella sia pronta per l'uso |

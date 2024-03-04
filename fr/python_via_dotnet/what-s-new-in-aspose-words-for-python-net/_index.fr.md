@@ -41,7 +41,7 @@ La possibilité de conserver les lignes vides lors du chargement des fichiers Ma
 
 * La possibilité de modifier le texte du contrôle OLE `TextBox` a été introduite en ajoutant une nouvelle propriété **Text** à la nouvelle classe **TextBoxControl**. <sup>24.1</sup>
 * Le API public Sources bibliographiques a été implémenté via l'ajout d'un nouvel espace de noms **Aspose.Words.Bibliography** avec ses nouvelles classes et énumérations, et via l'ajout d'une nouvelle propriété **Bibliography** à la classe **Document**. <sup>24.1</sup>
-* De nouvelles propriétés publiques [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) et [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) pour une gestion améliorée des styles ont été ajoutées à la classe [Style](https://reference.aspose.com/words/net/aspose.words/style/). <sup>24.2</sup>
+* De nouvelles propriétés publiques [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) et [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) pour une gestion améliorée des styles ont été ajoutées à la classe [Style](https://reference.aspose.com/words/fr/net/aspose.words/style/). <sup>24.2</sup>
 * La fonctionnalité permettant de récupérer le texte réel de la marque de référence pour les notes de bas de page et les notes de fin a été améliorée avec la propriété [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) et la méthode [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
@@ -251,7 +251,7 @@ Depuis la version 23.2, le rendu des graphiques a été considérablement améli
 
 #### Contrôle des couleurs d'arrière-plan et de premier plan <sup>23.3</sup>
 
-La classe [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) a été étendue avec un ensemble de nouvelles propriétés publiques liées aux couleurs d'arrière-plan et de premier plan: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) et [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) et [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
+La classe [Fill](https://reference.aspose.com/words/fr/net/aspose.words.drawing/fill/) a été étendue avec un ensemble de nouvelles propriétés publiques liées aux couleurs d'arrière-plan et de premier plan: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) et [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) et [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
 
 #### Dégradés radiaux avec le `SkiaSharp` Native Shader <sup>23.3</sup>
 

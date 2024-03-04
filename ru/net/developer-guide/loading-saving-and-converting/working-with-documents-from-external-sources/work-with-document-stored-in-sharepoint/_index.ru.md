@@ -267,4 +267,4 @@ namespace SPOnlineExample
 
 - Статья [Рендеринг](/words/ru/net/rendering/) для получения дополнительной информации о форматах фиксированной страницы и потокового макета
 - Статья [Преобразование в формат фиксированной страницы](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) для получения дополнительной информации о верстке страницы
-- Статья [Укажите параметры рендеринга при преобразовании в PDF](/words/ru/net/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)
+- Статья [Укажите параметры рендеринга при преобразовании в PDF](/words/ru/net/specify-rendering-options-when-converting-to-pdf/) для получения дополнительной информации об использовании класса [PdfSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/)

@@ -19,7 +19,7 @@ url: /ar/net/working-with-tablestyle/
 
 ## إنشاء نمط الجدول
 
-يمكن للمستخدم إنشاء نمط جديد وإضافته إلى مجموعة الأنماط. يتم استخدام طريقة [Add](https://reference.aspose.com/words/net/aspose.words/stylecollection/add/) لإنشاء نمط جدول جديد.
+يمكن للمستخدم إنشاء نمط جديد وإضافته إلى مجموعة الأنماط. يتم استخدام طريقة [Add](https://reference.aspose.com/words/ar/net/aspose.words/stylecollection/add/) لإنشاء نمط جدول جديد.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إنشاء نمط جدول جديد محدد من قبل المستخدم:
 
@@ -37,11 +37,11 @@ url: /ar/net/working-with-tablestyle/
 
 ## تطبيق نمط الجدول الموجود
 
-يوفر Aspose.Words ملف [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) موروث من فئة [Style](https://reference.aspose.com/words/net/aspose.words/style/). يسهل **TableStyle** للمستخدم تطبيق خيارات أنماط مختلفة مثل التظليل والحشو والمسافات البادئة و[CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) و[Font](https://reference.aspose.com/words/net/aspose.words/style/font/) وما إلى ذلك.
+يوفر Aspose.Words ملف [TableStyle](https://reference.aspose.com/words/ar/net/aspose.words/tablestyle/) موروث من فئة [Style](https://reference.aspose.com/words/ar/net/aspose.words/style/). يسهل **TableStyle** للمستخدم تطبيق خيارات أنماط مختلفة مثل التظليل والحشو والمسافات البادئة و[CellSpacing](https://reference.aspose.com/words/ar/net/aspose.words/tablestyle/cellspacing/) و[Font](https://reference.aspose.com/words/ar/net/aspose.words/style/font/) وما إلى ذلك.
 
-بالإضافة إلى ذلك، يوفر Aspose.Words فئة [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) وبعض خصائص فئة `Table` لتحديد نمط الجدول الذي سنعمل معه: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/)، و[StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/)، و[StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/)، و[StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
+بالإضافة إلى ذلك، يوفر Aspose.Words فئة [StyleCollection](https://reference.aspose.com/words/ar/net/aspose.words/stylecollection/) وبعض خصائص فئة `Table` لتحديد نمط الجدول الذي سنعمل معه: [Style](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/style/)، و[StyleIdentifier](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/styleidentifier/)، و[StyleName](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/stylename/)، و[StyleOptions](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/styleoptions/).
 
-يوفر Aspose.Words أيضًا فئة [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/) التي تمثل التنسيق الخاص المطبق على بعض مناطق الجدول بنمط جدول معين، و[ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/) الذي يمثل مجموعة من كائنات **ConditionalStyle**. تحتوي هذه المجموعة على مجموعة دائمة من العناصر تمثل عنصرًا واحدًا لكل قيمة من نوع تعداد [ConditionalStyleType](https://reference.aspose.com/words/net/aspose.words/conditionalstyletype/). يحدد تعداد **ConditionalStyleType** جميع مناطق الجدول الممكنة التي يمكن تعريف التنسيق الشرطي لها في نمط الجدول.
+يوفر Aspose.Words أيضًا فئة [ConditionalStyle](https://reference.aspose.com/words/ar/net/aspose.words/conditionalstyle/) التي تمثل التنسيق الخاص المطبق على بعض مناطق الجدول بنمط جدول معين، و[ConditionalStyleCollection](https://reference.aspose.com/words/ar/net/aspose.words/conditionalstylecollection/) الذي يمثل مجموعة من كائنات **ConditionalStyle**. تحتوي هذه المجموعة على مجموعة دائمة من العناصر تمثل عنصرًا واحدًا لكل قيمة من نوع تعداد [ConditionalStyleType](https://reference.aspose.com/words/ar/net/aspose.words/conditionalstyletype/). يحدد تعداد **ConditionalStyleType** جميع مناطق الجدول الممكنة التي يمكن تعريف التنسيق الشرطي لها في نمط الجدول.
 
 في هذه الحالة، يمكن تعريف التنسيق الشرطي لجميع مناطق الجدول المحتملة المحددة ضمن نوع التعداد ConditionalStyleType.
 
@@ -49,7 +49,7 @@ url: /ar/net/working-with-tablestyle/
 
 {{< gist "aspose-words-gists" "93b92a7e6f2f4bbfd9177dd7fcecbd8c" "define-conditional-formatting.cs" >}}
 
-يمكنك أيضًا اختيار أجزاء الجدول التي سيتم تطبيق الأنماط عليها، مثل العمود الأول والعمود الأخير والصفوف ذات النطاقات. وهي مدرجة في تعداد [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/) ويتم تطبيقها من خلال خاصية [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/). يسمح تعداد **TableStyleOptions** بدمج هذه الميزات على مستوى البت.
+يمكنك أيضًا اختيار أجزاء الجدول التي سيتم تطبيق الأنماط عليها، مثل العمود الأول والعمود الأخير والصفوف ذات النطاقات. وهي مدرجة في تعداد [TableStyleOptions](https://reference.aspose.com/words/ar/net/aspose.words.tables/tablestyleoptions/) ويتم تطبيقها من خلال خاصية [StyleOptions](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/styleoptions/). يسمح تعداد **TableStyleOptions** بدمج هذه الميزات على مستوى البت.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إنشاء جدول جديد باستخدام نمط الجدول المطبق:
 
@@ -61,7 +61,7 @@ url: /ar/net/working-with-tablestyle/
 
 ## خذ التنسيق من نمط الجدول وقم بتطبيقه كتنسيق مباشر
 
-يوفر Aspose.Words أيضًا طريقة [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/net/aspose.words/document/expandtablestylestodirectformatting/) لأخذ التنسيق الموجود في نمط الجدول وتوسيعه ليشمل صفوف وخلايا الجدول كتنسيق مباشر. حاول الجمع بين التنسيق ونمط الجدول ونمط الخلية.
+يوفر Aspose.Words أيضًا طريقة [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/ar/net/aspose.words/document/expandtablestylestodirectformatting/) لأخذ التنسيق الموجود في نمط الجدول وتوسيعه ليشمل صفوف وخلايا الجدول كتنسيق مباشر. حاول الجمع بين التنسيق ونمط الجدول ونمط الخلية.
 
 {{% alert color="primary" %}}
 

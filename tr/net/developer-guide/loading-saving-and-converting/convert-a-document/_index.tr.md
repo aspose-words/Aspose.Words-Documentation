@@ -14,10 +14,10 @@ Belgeleri bir formattan diğerine kolay ve güvenilir bir şekilde dönüştürm
 
 ## Belge Dönüştürme {#what-is-document-conversion} Nedir?
 
-Aspose.Words ile gerçekleştirmek istediğiniz hemen hemen her görev, bir belgenin belirli bir biçimde yüklenmesini veya kaydedilmesini içerir. Önceki bölümlerde bahsedildiği gibi, [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) numaralandırması Aspose.Words tarafından desteklenen tüm *load* veya *import* formatlarını belirtir ve [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) numaralandırması, Aspose.Words tarafından desteklenen tüm *save* veya *export* formatlarını belirtir. Böylece Aspose.Words, desteklenen herhangi bir yükleme biçimindeki bir belgeyi desteklenen herhangi bir kaydetme biçimine dönüştürebilir. Kural olarak, böyle bir dönüşüm birkaç hesaplama aşaması gerektirir. Ancak kullanıcı açısından bir belge formatından diğerine dönüştürme işlemi oldukça basittir ve yalnızca iki adımla gerçekleştirilebilir:
+Aspose.Words ile gerçekleştirmek istediğiniz hemen hemen her görev, bir belgenin belirli bir biçimde yüklenmesini veya kaydedilmesini içerir. Önceki bölümlerde bahsedildiği gibi, [LoadFormat](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/) numaralandırması Aspose.Words tarafından desteklenen tüm *load* veya *import* formatlarını belirtir ve [SaveFormat](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/) numaralandırması, Aspose.Words tarafından desteklenen tüm *save* veya *export* formatlarını belirtir. Böylece Aspose.Words, desteklenen herhangi bir yükleme biçimindeki bir belgeyi desteklenen herhangi bir kaydetme biçimine dönüştürebilir. Kural olarak, böyle bir dönüşüm birkaç hesaplama aşaması gerektirir. Ancak kullanıcı açısından bir belge formatından diğerine dönüştürme işlemi oldukça basittir ve yalnızca iki adımla gerçekleştirilebilir:
 
-1. Belgenizi, yapıcılarından birini kullanarak bir [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesnesine yükleyin.
-1. **Document** nesnesinde [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) yöntemlerinden birini çağırın ve istediğiniz çıktı formatını belirtin.
+1. Belgenizi, yapıcılarından birini kullanarak bir [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesnesine yükleyin.
+1. **Document** nesnesinde [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/#save/) yöntemlerinden birini çağırın ve istediğiniz çıktı formatını belirtin.
 
 {{% alert color="primary" %}}
 

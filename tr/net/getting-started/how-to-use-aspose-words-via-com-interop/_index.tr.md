@@ -31,7 +31,7 @@ Sonunda uzmanlaşmanız gereken konular şunlardır:
 
 - COM nesnelerini kendi programlama dilinizde kullanma. Programlama dili belgelerinize ve bu belgenin ilerleyen kısımlarındaki dile özgü konulara bakın.
 - .NET COM Interop tarafından sunulan COM nesneleriyle çalışma. MSDN'de [Yönetilmeyen Kodla Interop Oluşturma](https://learn.microsoft.com/en-us/dotnet/framework/interop/) ve [.NET Framework Bileşenlerini COM'ye Gösterme](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com)'a bakın.
-- Aspose.Words belge nesne modeli. Aspose.Words [Geliştirici Kılavuzu](/words/tr/net/developer-guide/) ve [API Reference](https://reference.aspose.com/words/net/)'e bakın.
+- Aspose.Words belge nesne modeli. Aspose.Words [Geliştirici Kılavuzu](/words/tr/net/developer-guide/) ve [API Reference](https://reference.aspose.com/words/tr/net/)'e bakın.
 
 ## COM Interop ile .NET için Aspose.Words'i kaydedin
 

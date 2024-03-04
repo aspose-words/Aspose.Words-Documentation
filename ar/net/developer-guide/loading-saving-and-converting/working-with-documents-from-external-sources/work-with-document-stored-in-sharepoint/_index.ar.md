@@ -267,4 +267,4 @@ namespace SPOnlineExample
 
 - المقالة [استدعاء](/words/ar/net/rendering/) لمزيد من المعلومات حول تنسيقات الصفحات الثابتة وتخطيطات التدفق
 - المقالة [التحويل إلى تنسيق الصفحة الثابتة](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) لمزيد من المعلومات حول تخطيط الصفحة
-- المقالة [حدد خيارات العرض عند التحويل إلى PDF](/words/ar/net/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)
+- المقالة [حدد خيارات العرض عند التحويل إلى PDF](/words/ar/net/specify-rendering-options-when-converting-to-pdf/) لمزيد من المعلومات حول استخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/)

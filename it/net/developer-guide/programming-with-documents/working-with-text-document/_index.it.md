@@ -13,7 +13,7 @@ In questo articolo impareremo quali opzioni possono essere utili per lavorare co
 
 ## Aggiungi indicatori bidirezionali
 
-È possibile utilizzare la proprietà [AddBidiMarks](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/addbidimarks/) per specificare se aggiungere contrassegni bidirezionali prima di ogni esecuzione BiDi durante l'esportazione in formato testo normale. Aspose.Words inserisce il carattere Unicode 'SEGNO DA DESTRA A SINISTRA' (U+200F) prima di ogni sequenza bidirezionale nel testo. Questa opzione corrisponde all'opzione "Aggiungi segni bidirezionali" nella finestra di dialogo Conversione file MS Word quando esporti in un formato di testo normale. Tieni presente che appare nel dialogo solo se in MS Word viene aggiunta una delle lingue di modifica araba o ebraica.
+È possibile utilizzare la proprietà [AddBidiMarks](https://reference.aspose.com/words/it/net/aspose.words.saving/txtsaveoptions/addbidimarks/) per specificare se aggiungere contrassegni bidirezionali prima di ogni esecuzione BiDi durante l'esportazione in formato testo normale. Aspose.Words inserisce il carattere Unicode 'SEGNO DA DESTRA A SINISTRA' (U+200F) prima di ogni sequenza bidirezionale nel testo. Questa opzione corrisponde all'opzione "Aggiungi segni bidirezionali" nella finestra di dialogo Conversione file MS Word quando esporti in un formato di testo normale. Tieni presente che appare nel dialogo solo se in MS Word viene aggiunta una delle lingue di modifica araba o ebraica.
 
 Nell'esempio di codice seguente viene illustrato come utilizzare la proprietà **AddBidiMarks**. Il valore predefinito di questa proprietà è *false*:
 
@@ -21,7 +21,7 @@ Nell'esempio di codice seguente viene illustrato come utilizzare la proprietà *
 
 ## Riconoscere gli elementi dell'elenco durante il caricamento di TXT
 
-Aspose.Words può importare voci di elenco di un file di testo come numeri di elenco o testo semplice nel suo modello di oggetti di documento. La proprietà [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) consente di specificare il modo in cui vengono riconosciuti gli elementi dell'elenco numerato quando un documento viene importato dal formato testo normale:
+Aspose.Words può importare voci di elenco di un file di testo come numeri di elenco o testo semplice nel suo modello di oggetti di documento. La proprietà [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/it/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) consente di specificare il modo in cui vengono riconosciuti gli elementi dell'elenco numerato quando un documento viene importato dal formato testo normale:
 
 * Se questa opzione è impostata su *true*, gli spazi vengono utilizzati anche come delimitatori dei numeri dell'elenco: l'algoritmo di riconoscimento dell'elenco per la numerazione in stile arabo (1., 1.1.2.) utilizza sia gli spazi che i simboli punto (".").
 
@@ -41,7 +41,7 @@ L'esempio di codice seguente mostra come tagliare gli spazi iniziali e finali du
 
 ## Rileva la direzione del testo del documento
 
-Aspose.Words fornisce la proprietà [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/documentdirection/) nella classe [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) per rilevare la direzione del testo (RTL/LTR) nel documento. Questa proprietà imposta o ottiene le indicazioni del testo del documento fornite nell'enumerazione [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/documentdirection/). Il valore predefinito è lasciato a *right*.
+Aspose.Words fornisce la proprietà [DocumentDirection](https://reference.aspose.com/words/it/net/aspose.words.loading/txtloadoptions/documentdirection/) nella classe [TxtLoadOptions](https://reference.aspose.com/words/it/net/aspose.words.loading/txtloadoptions/) per rilevare la direzione del testo (RTL/LTR) nel documento. Questa proprietà imposta o ottiene le indicazioni del testo del documento fornite nell'enumerazione [DocumentDirection](https://reference.aspose.com/words/it/net/aspose.words.loading/documentdirection/). Il valore predefinito è lasciato a *right*.
 
 Il seguente esempio di codice mostra come rilevare la direzione del testo del documento durante l'importazione del file TXT:
 
@@ -49,7 +49,7 @@ Il seguente esempio di codice mostra come rilevare la direzione del testo del do
 
 ## Esporta intestazione e piè di pagina nell'output TXT
 
-Se desideri esportare intestazione e piè di pagina nel documento TXT di output, puoi utilizzare la proprietà [ExportHeadersFootersMode](https://reference.aspose.com/words/net/aspose.words.saving/exportheadersfootersmode/). Questa proprietà specifica il modo in cui le intestazioni e i piè di pagina vengono esportati nel formato testo normale.
+Se desideri esportare intestazione e piè di pagina nel documento TXT di output, puoi utilizzare la proprietà [ExportHeadersFootersMode](https://reference.aspose.com/words/it/net/aspose.words.saving/exportheadersfootersmode/). Questa proprietà specifica il modo in cui le intestazioni e i piè di pagina vengono esportati nel formato testo normale.
 
 L'esempio di codice seguente mostra come esportare intestazioni e piè di pagina in formato testo semplice:
 
@@ -57,7 +57,7 @@ L'esempio di codice seguente mostra come esportare intestazioni e piè di pagina
 
 ## Rientro dell'elenco di esportazione nell'output TXT
 
-Aspose.Words ha introdotto la classe [TxtListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtlistindentation/) che consente di specificare come vengono rientrati i livelli dell'elenco durante l'esportazione in un formato di testo normale. Mentre si lavora con [TxtSaveOption](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/), viene fornita la proprietà [ListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/listindentation/) per specificare il carattere da utilizzare per il rientro dei livelli dell'elenco e il conteggio specificando quanti caratteri utilizzare come rientro per un livello dell'elenco.
+Aspose.Words ha introdotto la classe [TxtListIndentation](https://reference.aspose.com/words/it/net/aspose.words.saving/txtlistindentation/) che consente di specificare come vengono rientrati i livelli dell'elenco durante l'esportazione in un formato di testo normale. Mentre si lavora con [TxtSaveOption](https://reference.aspose.com/words/it/net/aspose.words.saving/txtsaveoptions/), viene fornita la proprietà [ListIndentation](https://reference.aspose.com/words/it/net/aspose.words.saving/txtsaveoptions/listindentation/) per specificare il carattere da utilizzare per il rientro dei livelli dell'elenco e il conteggio specificando quanti caratteri utilizzare come rientro per un livello dell'elenco.
 
 Il valore predefinito per la proprietà carattere è '\0' che indica che non è presente alcun rientro. Per la proprietà count, il valore predefinito è 0, il che significa nessun rientro.
 

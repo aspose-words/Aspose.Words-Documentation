@@ -13,7 +13,7 @@ Aspose.Words permet aux utilisateurs de travailler avec les en-têtes et les pie
 
 ## Créer des en-têtes ou des pieds de page à l'aide de DocumentBuilder
 
-Si vous souhaitez ajouter un en-tête ou un pied de page de document par programmation, le moyen le plus simple consiste à utiliser la classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) pour le faire.
+Si vous souhaitez ajouter un en-tête ou un pied de page de document par programmation, le moyen le plus simple consiste à utiliser la classe [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) pour le faire.
 
 L'exemple de code suivant montre comment ajouter un en-tête et un pied de page pour les pages du document:
 
@@ -21,7 +21,7 @@ L'exemple de code suivant montre comment ajouter un en-tête et un pied de page 
 
 ## Spécifier les options d'en-tête ou de pied de page
 
-Lorsque vous ajoutez un en-tête ou un pied de page à un document, vous pouvez définir certaines propriétés avancées. Aspose.Words fournit aux utilisateurs les classes [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) et [HeaderFooterCollection](https://reference.aspose.com/words/net/aspose.words/headerfootercollection/), ainsi qu'une énumération [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfootertype/) qui vous donnent plus de contrôle sur le processus de personnalisation des en-têtes et des pieds de page.
+Lorsque vous ajoutez un en-tête ou un pied de page à un document, vous pouvez définir certaines propriétés avancées. Aspose.Words fournit aux utilisateurs les classes [HeaderFooter](https://reference.aspose.com/words/fr/net/aspose.words/headerfooter/) et [HeaderFooterCollection](https://reference.aspose.com/words/fr/net/aspose.words/headerfootercollection/), ainsi qu'une énumération [HeaderFooterType](https://reference.aspose.com/words/fr/net/aspose.words/headerfootertype/) qui vous donnent plus de contrôle sur le processus de personnalisation des en-têtes et des pieds de page.
 
 ### Spécifier le type d'en-tête ou de pied de page
 
@@ -36,7 +36,7 @@ L'exemple de code suivant montre comment ajouter un en-tête pour les pages impa
 
 ### Spécifier s'il faut afficher différents en-têtes ou pieds de page pour la première page
 
-Comme indiqué ci-dessus, vous pouvez également définir un en-tête ou un pied de page différent pour la première page. Pour ce faire, vous devez définir l'indicateur [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) sur `true`, puis spécifier la valeur **HeaderFirst** ou **FooterFirst**.
+Comme indiqué ci-dessus, vous pouvez également définir un en-tête ou un pied de page différent pour la première page. Pour ce faire, vous devez définir l'indicateur [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/fr/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) sur `true`, puis spécifier la valeur **HeaderFirst** ou **FooterFirst**.
 
 L'exemple de code suivant montre comment définir l'en-tête de la première page uniquement:
 
@@ -44,13 +44,13 @@ L'exemple de code suivant montre comment définir l'en-tête de la première pag
 
 ### Spécifier s'il faut afficher différents en-têtes ou pieds de page pour les pages impaires ou paires
 
- Ensuite, vous souhaiterez définir différents en-têtes ou pieds de page pour les pages paires et impaires d'un document. Pour ce faire, vous devez définir l'indicateur [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) sur `true` puis spécifier les valeurs **HeaderPrimary** et **HeaderEven**, ou **FooterPrimary** et **FooterEven**.
+ Ensuite, vous souhaiterez définir différents en-têtes ou pieds de page pour les pages paires et impaires d'un document. Pour ce faire, vous devez définir l'indicateur [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/fr/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) sur `true` puis spécifier les valeurs **HeaderPrimary** et **HeaderEven**, ou **FooterPrimary** et **FooterEven**.
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "odd-even-pages.cs" >}}
 
 ### Insérer une image absolument positionnée dans l'en-tête
 
-Pour placer une image dans un en-tête ou un pied de page, utilisez le type d'en-tête **HeaderPrimary** ou le type de pied de page **FooterPrimary** et la méthode [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/).
+Pour placer une image dans un en-tête ou un pied de page, utilisez le type d'en-tête **HeaderPrimary** ou le type de pied de page **FooterPrimary** et la méthode [InsertImage](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertimage/).
 
 L'exemple de code suivant montre comment ajouter une image à un en-tête:
 
@@ -66,7 +66,7 @@ L'exemple de code suivant montre comment définir le texte de l'en-tête sur Ari
 
 ### Insérer des numéros de page dans l'en-tête ou le pied de page
 
-Si nécessaire, vous pouvez ajouter des numéros de page à l'en-tête ou au pied de page. Pour ce faire, utilisez le type d'en-tête **HeaderPrimary** ou le type de pied de page **FooterPrimary** et la méthode [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) pour ajouter le champ obligatoire.
+Si nécessaire, vous pouvez ajouter des numéros de page à l'en-tête ou au pied de page. Pour ce faire, utilisez le type d'en-tête **HeaderPrimary** ou le type de pied de page **FooterPrimary** et la méthode [InsertField](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertfield/) pour ajouter le champ obligatoire.
 
 L'exemple de code suivant montre comment ajouter des numéros de page au pied de page de droite:
 

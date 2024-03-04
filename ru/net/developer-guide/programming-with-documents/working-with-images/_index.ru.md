@@ -13,16 +13,16 @@ Aspose.Words позволяет пользователям очень гибко
 
 ## Как вставить изображение {#insert-an-image}
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) предоставляет несколько перегрузок метода [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/), которые позволяют вставлять встроенное или плавающее изображение. Если изображение представляет собой метафайл EMF или WMF, оно будет вставлено в документ в формате метафайла. Все остальные изображения будут храниться в формате PNG. Метод **InsertImage** может использовать изображения из разных источников:
+[DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) предоставляет несколько перегрузок метода [InsertImage](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertimage/), которые позволяют вставлять встроенное или плавающее изображение. Если изображение представляет собой метафайл EMF или WMF, оно будет вставлено в документ в формате метафайла. Все остальные изображения будут храниться в формате PNG. Метод **InsertImage** может использовать изображения из разных источников:
 
-- Из файла или `URL`, передав параметр `String` [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/)
+- Из файла или `URL`, передав параметр `String` [InsertImage](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertimage/)
 - Из потока, передав параметр `Stream` **InsertImage**
 - Из объекта Image путем передачи параметра Image **InsertImage**
 - Из массива байтов путем передачи параметра массива байтов **InsertImage**
 
 Для каждого из **InsertImage** методов существуют дополнительные перегрузки, которые позволяют вставлять изображение со следующими параметрами:
 - Встроенное или плавающее в определенной позиции, например, **InsertImage**
-- Процентная шкала или нестандартный размер, например, **InsertImage**; кроме того, метод **InsertImage** возвращает объект [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), который был только что создан и вставлен, поэтому вы можете дополнительно изменять свойства формы
+- Процентная шкала или нестандартный размер, например, **InsertImage**; кроме того, метод **InsertImage** возвращает объект [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/), который был только что создан и вставлен, поэтому вы можете дополнительно изменять свойства формы
 
 ### Как вставить встроенное изображение {#insert-an-inline-image}
 
@@ -40,12 +40,12 @@ Aspose.Words позволяет пользователям очень гибко
 
 ## Как извлечь изображения из документа {#how-to-extract-images-from-a-document}
 
-Все изображения хранятся в узлах **Shape** в [Document](https://reference.aspose.com/words/net/aspose.words/document/). Чтобы извлечь из документа все изображения или изображения определенного типа, выполните следующие действия:
+Все изображения хранятся в узлах **Shape** в [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/). Чтобы извлечь из документа все изображения или изображения определенного типа, выполните следующие действия:
 
-— Используйте метод [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/), чтобы выбрать все **Shape** узла.
+— Используйте метод [GetChildNodes](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/getchildnodes/), чтобы выбрать все **Shape** узла.
 - Перебирать полученные коллекции узлов.
-- Проверьте логическое свойство [HasImage](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hasimage/).
-- Извлеките данные изображения, используя свойство [ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/imagedata/).
+- Проверьте логическое свойство [HasImage](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/hasimage/).
+- Извлеките данные изображения, используя свойство [ImageData](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/imagedata/).
 - Сохранение данных изображения в файл.
 
 В следующем примере кода показано, как извлечь изображения из документа и сохранить их в виде файлов:
@@ -70,7 +70,7 @@ Aspose.Words позволяет пользователям очень гибко
 
 ## Заблокировать соотношение сторон изображения {#lock-aspect-ratio-of-image}
 
-Соотношение сторон геометрической фигуры — это соотношение ее размеров в разных измерениях. Вы можете заблокировать соотношение сторон изображения, используя [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/). Значение соотношения сторон фигуры по умолчанию зависит от [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype/). Оно составляет *true* для `ShapeType.Image` и *false* для других типов фигур.
+Соотношение сторон геометрической фигуры — это соотношение ее размеров в разных измерениях. Вы можете заблокировать соотношение сторон изображения, используя [AspectRatioLocked](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shapebase/aspectratiolocked/). Значение соотношения сторон фигуры по умолчанию зависит от [ShapeType](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shapetype/). Оно составляет *true* для `ShapeType.Image` и *false* для других типов фигур.
 
 В следующем примере кода показано, как работать с соотношением сторон:
 
@@ -78,7 +78,7 @@ Aspose.Words позволяет пользователям очень гибко
 
 ## Как получить фактические границы формы в точках {#how-to-get-actual-bounds-of-shape-in-points}
 
-Если вы хотите, чтобы фактическая ограничивающая рамка фигуры отображалась на странице, вы можете добиться этого, используя свойство [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/boundsinpoints/).
+Если вы хотите, чтобы фактическая ограничивающая рамка фигуры отображалась на странице, вы можете добиться этого, используя свойство [BoundsInPoints](https://reference.aspose.com/words/ru/net/aspose.words.rendering/noderendererbase/boundsinpoints/).
 
 В следующем примере кода показано, как использовать это свойство:
 

@@ -13,7 +13,7 @@ A volte è necessario aggiungere un group shape in un documento Word. Tale group
 
 In Microsoft Word, puoi aggiungere rapidamente un group shape utilizzando il comando/pulsante Group. Una forma individuale in un gruppo può essere spostata separatamente.
 
-In Aspose.Words è molto semplice aggiungere un group shape utilizzando la classe [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/). **Shape** viene creato separatamente utilizzando la classe [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) e quindi aggiunto all'oggetto [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) utilizzando il metodo [AppendChild](https://reference.aspose.com/words/net/aspose.words/compositenode/appendchild/).
+In Aspose.Words è molto semplice aggiungere un group shape utilizzando la classe [GroupShape](https://reference.aspose.com/words/it/net/aspose.words.drawing/groupshape/). **Shape** viene creato separatamente utilizzando la classe [Shape](https://reference.aspose.com/words/it/net/aspose.words.drawing/shape/) e quindi aggiunto all'oggetto [GroupShape](https://reference.aspose.com/words/it/net/aspose.words.drawing/groupshape/) utilizzando il metodo [AppendChild](https://reference.aspose.com/words/it/net/aspose.words/compositenode/appendchild/).
 
 L'esempio di codice seguente mostra come aggiungere un group shape in un documento Word:
 
@@ -35,6 +35,6 @@ Di seguito sono riportati alcuni dei tipi `Shape` supportati in Aspose.Words:
 - Esagono
 - Ottagono
 
-Per l'elenco completo, consultare la classe [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype).
+Per l'elenco completo, consultare la classe [ShapeType](https://reference.aspose.com/words/it/net/aspose.words.drawing/shapetype).
 
 {{% /alert %}}

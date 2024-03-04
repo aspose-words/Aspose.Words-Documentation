@@ -9,11 +9,11 @@ weight: 110
 url: /ar/net/working-with-styles-and-themes/
 ---
 
-يتم استخدام فئة [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) لإدارة الإعدادات المضمنة وتطبيقها على الأنماط.
+يتم استخدام فئة [StyleCollection](https://reference.aspose.com/words/ar/net/aspose.words/stylecollection/) لإدارة الإعدادات المضمنة وتطبيقها على الأنماط.
 
 ## الوصول إلى الأنماط
 
-يمكنك الحصول على مجموعة من الأنماط المحددة في المستند باستخدام خاصية [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/). تحتوي هذه المجموعة على الأنماط المضمنة والمحددة من قبل المستخدم في المستند. يمكن الحصول على نمط معين من خلال اسمه/اسمه المستعار أو معرف النمط أو الفهرس. يوضح مثال التعليمات البرمجية التالي كيفية الوصول إلى مجموعة الأنماط المحددة في المستند.
+يمكنك الحصول على مجموعة من الأنماط المحددة في المستند باستخدام خاصية [Document.Styles](https://reference.aspose.com/words/ar/net/aspose.words/documentbase/styles/). تحتوي هذه المجموعة على الأنماط المضمنة والمحددة من قبل المستخدم في المستند. يمكن الحصول على نمط معين من خلال اسمه/اسمه المستعار أو معرف النمط أو الفهرس. يوضح مثال التعليمات البرمجية التالي كيفية الوصول إلى مجموعة الأنماط المحددة في المستند.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ url: /ar/net/working-with-styles-and-themes/
 
 ### الحل
 
-لتوضيح مدى سهولة تعامل Aspose.Words مع استرداد المحتوى بناءً على الأنماط، فلنلقِ نظرة على مثال. في هذا المثال، سنقوم باسترداد النص المنسق بنمط فقرة محدد ونمط أحرف من نموذج مستند Word. على مستوى عالٍ، سيتضمن ذلك:# فتح مستند Word باستخدام فئة [Document](https://reference.aspose.com/words/net/aspose.words/document/).# الحصول على مجموعات من جميع الفقرات وجميع عمليات التشغيل في المستند. # تحديد الفقرات وعمليات التشغيل المطلوبة فقط. على وجه التحديد، سنقوم باسترداد النص المنسق بنمط الفقرة "العنوان 1" ونمط الأحرف "التأكيد المكثف" من نموذج مستند Word هذا.
+لتوضيح مدى سهولة تعامل Aspose.Words مع استرداد المحتوى بناءً على الأنماط، فلنلقِ نظرة على مثال. في هذا المثال، سنقوم باسترداد النص المنسق بنمط فقرة محدد ونمط أحرف من نموذج مستند Word. على مستوى عالٍ، سيتضمن ذلك:# فتح مستند Word باستخدام فئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/).# الحصول على مجموعات من جميع الفقرات وجميع عمليات التشغيل في المستند. # تحديد الفقرات وعمليات التشغيل المطلوبة فقط. على وجه التحديد، سنقوم باسترداد النص المنسق بنمط الفقرة "العنوان 1" ونمط الأحرف "التأكيد المكثف" من نموذج مستند Word هذا.
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ url: /ar/net/working-with-styles-and-themes/
 
 {{% /alert %}}
 
-تجدر الإشارة أيضًا إلى أن مجموعة الفقرات لا تنشئ حملاً مباشرًا لأنه يتم تحميل الفقرات في هذه المجموعة فقط عند الوصول إلى العناصر الموجودة فيها. بعد ذلك، كل ما عليك فعله هو تصفح المجموعة، باستخدام عامل التشغيل القياسي foreach وإضافة فقرات لها النمط المحدد إلى مصفوفة ParasWithStyle. يمكن العثور على اسم نمط `Paragraph` في خاصية [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) لكائن [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/). إن تنفيذ RunsByStyleName هو نفسه تقريبًا، على الرغم من أننا نستخدم [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) بوضوح لاسترداد عقد التشغيل. يتم استخدام خاصية [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) لكائن [Run](https://reference.aspose.com/words/net/aspose.words/run/) للوصول إلى معلومات النمط في عقد **Run**. ستجد أدناه المثال كافة عمليات التشغيل المنسقة بالنمط المحدد.
+تجدر الإشارة أيضًا إلى أن مجموعة الفقرات لا تنشئ حملاً مباشرًا لأنه يتم تحميل الفقرات في هذه المجموعة فقط عند الوصول إلى العناصر الموجودة فيها. بعد ذلك، كل ما عليك فعله هو تصفح المجموعة، باستخدام عامل التشغيل القياسي foreach وإضافة فقرات لها النمط المحدد إلى مصفوفة ParasWithStyle. يمكن العثور على اسم نمط `Paragraph` في خاصية [Style.Name](https://reference.aspose.com/words/ar/net/aspose.words/style/name/) لكائن [Paragraph.ParagraphFormat](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/paragraphformat/). إن تنفيذ RunsByStyleName هو نفسه تقريبًا، على الرغم من أننا نستخدم [NodeType.Run](https://reference.aspose.com/words/ar/net/aspose.words/nodetype/) بوضوح لاسترداد عقد التشغيل. يتم استخدام خاصية [Font.Style](https://reference.aspose.com/words/ar/net/aspose.words/font/style/) لكائن [Run](https://reference.aspose.com/words/ar/net/aspose.words/run/) للوصول إلى معلومات النمط في عقد **Run**. ستجد أدناه المثال كافة عمليات التشغيل المنسقة بالنمط المحدد.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

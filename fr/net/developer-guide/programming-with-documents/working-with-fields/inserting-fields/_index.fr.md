@@ -11,15 +11,15 @@ url: /fr/net/inserting-fields/
 
 Il existe plusieurs manières d'insérer des champs dans un document:
 
-* en utilisant [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
-* en utilisant [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
+* en utilisant [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/)
+* en utilisant [FieldBuilder](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldbuilder/)
 * en utilisant [Aspose.Words Document Object Model (DOM)](/words/fr/net/aspose-words-document-object-model/)
 
 Dans cet article, nous examinerons chaque méthode plus en détail et analyserons comment insérer certains champs à l'aide de ces options.
 
 ## Insertion de champs dans un document à l'aide de DocumentBuilder
 
-Dans Aspose.Words, la méthode [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) est utilisée pour insérer de nouveaux champs dans un document. Le premier paramètre accepte le code de champ complet du champ à insérer. Le deuxième paramètre est facultatif et permet de définir manuellement le résultat du champ. Si celui-ci n'est pas renseigné, le champ est mis à jour automatiquement. Vous pouvez passer null ou vide à ce paramètre pour insérer un champ avec une valeur de champ vide. Si vous n'êtes pas sûr de la syntaxe particulière du code de champ, créez d'abord le champ en Microsoft Word et basculez pour voir son code de champ.
+Dans Aspose.Words, la méthode [InsertField](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertfield/) est utilisée pour insérer de nouveaux champs dans un document. Le premier paramètre accepte le code de champ complet du champ à insérer. Le deuxième paramètre est facultatif et permet de définir manuellement le résultat du champ. Si celui-ci n'est pas renseigné, le champ est mis à jour automatiquement. Vous pouvez passer null ou vide à ce paramètre pour insérer un champ avec une valeur de champ vide. Si vous n'êtes pas sûr de la syntaxe particulière du code de champ, créez d'abord le champ en Microsoft Word et basculez pour voir son code de champ.
 
 {{% alert color="primary" %}}
 
@@ -39,7 +39,7 @@ L'exemple de code suivant montre comment insérer des champs imbriqués dans un 
 
 ### Spécifier les paramètres régionaux au niveau du champ
 
-Un identifiant de langue est une abréviation numérique internationale standard pour la langue d'un pays ou d'une région géographique. Avec Aspose.Words, vous pouvez spécifier les paramètres régionaux au niveau du champ à l'aide de la propriété [LocaleId](https://reference.aspose.com/words/net/aspose.words.fields/field/localeid/), qui obtient ou définit l'ID de paramètres régionaux du champ.
+Un identifiant de langue est une abréviation numérique internationale standard pour la langue d'un pays ou d'une région géographique. Avec Aspose.Words, vous pouvez spécifier les paramètres régionaux au niveau du champ à l'aide de la propriété [LocaleId](https://reference.aspose.com/words/fr/net/aspose.words.fields/field/localeid/), qui obtient ou définit l'ID de paramètres régionaux du champ.
 
 L'exemple de code suivant montre comment utiliser cette option:
 
@@ -47,14 +47,14 @@ L'exemple de code suivant montre comment utiliser cette option:
 
 ### Insérer un champ non typé/vide
 
-Si vous souhaitez insérer des champs non typés/vides ({}) comme le permet Microsoft Word, vous pouvez utiliser la méthode [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) avec le paramètre [FieldType.FieldNone](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/). Pour insérer un champ dans un document Word, vous pouvez appuyer sur la combinaison de touches "Ctrl + F9".
+Si vous souhaitez insérer des champs non typés/vides ({}) comme le permet Microsoft Word, vous pouvez utiliser la méthode [InsertField](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertfield/) avec le paramètre [FieldType.FieldNone](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldtype/). Pour insérer un champ dans un document Word, vous pouvez appuyer sur la combinaison de touches "Ctrl + F9".
 
 L'exemple de code suivant montre comment insérer un champ vide dans le document:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
 
 ## Insertion de champs dans un document à l'aide de FieldBuilder
-L'autre façon d'insérer des champs dans Aspose.Words est la classe [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/). Il fournit une interface fluide pour spécifier les commutateurs de champs et les valeurs d'arguments sous forme de texte, de nœuds ou même de champs imbriqués.
+L'autre façon d'insérer des champs dans Aspose.Words est la classe [FieldBuilder](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldbuilder/). Il fournit une interface fluide pour spécifier les commutateurs de champs et les valeurs d'arguments sous forme de texte, de nœuds ou même de champs imbriqués.
 
 L'exemple de code suivant montre comment insérer un champ dans un document à l'aide de **FieldBuilder**:
 
@@ -66,7 +66,7 @@ Vous pouvez également insérer différents types de champs à l'aide de [Aspose
 
 ### Insertion d'un champ de fusion dans un document à l'aide de DOM
 
-Le champ `MERGEFIELD` dans un document Word peut être représenté par la classe [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/). Vous pouvez utiliser la classe **FieldMergeField** pour effectuer les opérations suivantes:
+Le champ `MERGEFIELD` dans un document Word peut être représenté par la classe [FieldMergeField](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldmergefield/). Vous pouvez utiliser la classe **FieldMergeField** pour effectuer les opérations suivantes:
 
 - préciser le nom du champ de fusion
 - spécifier le formatage du champ de fusion
@@ -76,7 +76,7 @@ Le champ `MERGEFIELD` dans un document Word peut être représenté par la class
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, consultez la classe [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/) API.
+Pour plus de détails, consultez la classe [FieldMergeField](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldmergefield/) API.
 
 {{% /alert %}}
 
@@ -86,7 +86,7 @@ L'exemple de code suivant montre comment ajouter le champ `MERGE` à l'aide de D
 
 ### Insertion du champ Mail Merge `ADDRESSBLOCK` dans un document à l'aide de DOM
 
-Le champ `ADDRESSBLOCK` est utilisé pour insérer un bloc d'adresse mail merge dans un document Word. Le champ `ADDRESSBLOCK` dans un document Word peut être représenté par la classe [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/). Vous pouvez utiliser la classe **FieldAddressBlock** pour effectuer les opérations suivantes:
+Le champ `ADDRESSBLOCK` est utilisé pour insérer un bloc d'adresse mail merge dans un document Word. Le champ `ADDRESSBLOCK` dans un document Word peut être représenté par la classe [FieldAddressBlock](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldaddressblock/). Vous pouvez utiliser la classe **FieldAddressBlock** pour effectuer les opérations suivantes:
 
 - préciser s'il faut inclure le nom du pays/de la région dans le champ
 - préciser s'il faut formater l'adresse en fonction du pays/région du destinataire tel que défini par POST*CODE (Union postale universelle 2006)
@@ -96,7 +96,7 @@ Le champ `ADDRESSBLOCK` est utilisé pour insérer un bloc d'adresse mail merge 
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, consultez la classe [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) API.
+Pour plus de détails, consultez la classe [FieldAddressBlock](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldaddressblock/) API.
 
 {{% /alert %}}
 
@@ -106,7 +106,7 @@ L'exemple de code suivant montre comment ajouter le champ `ADDRESSBLOCK` Mail Me
 
 ### Insertion d'un champ `ADVANCE` dans un document sans utiliser DocumentBuilder
 
-Le champ `ADVANCE` est utilisé pour décaler le texte suivant dans une ligne vers la gauche, la droite, le haut ou le bas. Le champ `ADVANCE` dans un document Word peut être représenté par la classe [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/). Vous pouvez utiliser la classe **FieldAdvance** pour effectuer les opérations suivantes:
+Le champ `ADVANCE` est utilisé pour décaler le texte suivant dans une ligne vers la gauche, la droite, le haut ou le bas. Le champ `ADVANCE` dans un document Word peut être représenté par la classe [FieldAdvance](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldadvance/). Vous pouvez utiliser la classe **FieldAdvance** pour effectuer les opérations suivantes:
 
 - préciser le nombre de points dont le texte qui suit le champ doit être déplacé verticalement à partir du bord supérieur de la page
 - spécifiez le nombre de points dont le texte qui suit le champ doit être déplacé horizontalement depuis le bord gauche de la colonne, du cadre ou de la zone de texte
@@ -114,7 +114,7 @@ Le champ `ADVANCE` est utilisé pour décaler le texte suivant dans une ligne ve
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, consultez la classe [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/) API.
+Pour plus de détails, consultez la classe [FieldAdvance](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldadvance/) API.
 
 {{% /alert %}}
 
@@ -124,7 +124,7 @@ L'exemple de code suivant montre comment ajouter le champ `ADVANCE` à l'aide de
 
 ### Insertion d'un champ `ASK` dans un document sans utiliser DocumentBuilder
 
-Le champ `ASK` est utilisé pour demander à l'utilisateur le texte à attribuer à un signet dans un document Word. Le champ `ASK` dans un document Word peut être représenté par la classe [FieldAsk](https://reference.aspose.com/words/net/aspose.words.fields/fieldask/). Vous pouvez utiliser la classe **FieldAsk** pour effectuer les opérations suivantes:
+Le champ `ASK` est utilisé pour demander à l'utilisateur le texte à attribuer à un signet dans un document Word. Le champ `ASK` dans un document Word peut être représenté par la classe [FieldAsk](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldask/). Vous pouvez utiliser la classe **FieldAsk** pour effectuer les opérations suivantes:
 
 - préciser le nom du signet
 - spécifier la réponse utilisateur par défaut (valeur initiale contenue dans la fenêtre d'invite)
@@ -133,7 +133,7 @@ Le champ `ASK` est utilisé pour demander à l'utilisateur le texte à attribuer
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, consultez la classe [FieldAsk](https://reference.aspose.com/words/net/aspose.words.fields/fieldask/) API.
+Pour plus de détails, consultez la classe [FieldAsk](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldask/) API.
 
 {{% /alert %}}
 
@@ -143,13 +143,13 @@ L'exemple de code suivant montre comment ajouter le champ `ASK` à l'aide de DOM
 
 ### Insertion d'un champ `AUTHOR` dans un document sans utiliser DocumentBuilder
 
-Le champ `AUTHOR` permet de préciser le nom de l'auteur du document à partir des propriétés `Document`. Le champ `AUTHOR` dans un document Word peut être représenté par la classe [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/). Vous pouvez utiliser la classe **FieldAuthor** pour effectuer les opérations suivantes:
+Le champ `AUTHOR` permet de préciser le nom de l'auteur du document à partir des propriétés `Document`. Le champ `AUTHOR` dans un document Word peut être représenté par la classe [FieldAuthor](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldauthor/). Vous pouvez utiliser la classe **FieldAuthor** pour effectuer les opérations suivantes:
 
 - préciser le nom de l'auteur du document
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, consultez la classe [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/) API.
+Pour plus de détails, consultez la classe [FieldAuthor](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldauthor/) API.
 
 {{% /alert %}}
 
@@ -159,14 +159,14 @@ L'exemple de code suivant montre comment ajouter le champ `AUTHOR` à l'aide de 
 
 ### Insertion d'un champ `INCLUDETEXT` dans un document sans utiliser DocumentBuilder
 
-Le champ `INCLUDETEXT` insère le texte et les graphiques contenus dans le document nommé dans le code du champ. Vous pouvez insérer l'intégralité du document ou une partie du document référencé par un signet. Ce champ dans le document Word est représenté par INCLUDETEXT. Vous pouvez utiliser la classe [FieldIncludeText](https://reference.aspose.com/words/net/aspose.words.fields/fieldincludetext/) pour effectuer les opérations suivantes:
+Le champ `INCLUDETEXT` insère le texte et les graphiques contenus dans le document nommé dans le code du champ. Vous pouvez insérer l'intégralité du document ou une partie du document référencé par un signet. Ce champ dans le document Word est représenté par INCLUDETEXT. Vous pouvez utiliser la classe [FieldIncludeText](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldincludetext/) pour effectuer les opérations suivantes:
 
 - précisez le nom du signet du document inclus
 - préciser l'emplacement du document
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, consultez la classe [FieldIncludeText](https://reference.aspose.com/words/net/aspose.words.fields/fieldincludetext/) API.
+Pour plus de détails, consultez la classe [FieldIncludeText](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldincludetext/) API.
 
 {{% /alert %}}
 
@@ -182,7 +182,7 @@ Le champ `TOA` (*Table of Authorities*) construit et insère une table d'autorit
 
 {{% alert color="primary" %}}
 
-Pour plus de détails, consultez la classe [FieldToa](https://reference.aspose.com/words/net/aspose.words.fields/fieldtoa/) API.
+Pour plus de détails, consultez la classe [FieldToa](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldtoa/) API.
 
 {{% /alert %}}
 

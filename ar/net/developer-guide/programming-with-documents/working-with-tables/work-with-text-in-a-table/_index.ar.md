@@ -11,13 +11,13 @@ url: /ar/net/work-with-text-in-a-table/
 
 كما ذكرنا في المقالات السابقة، يحتوي الجدول عادةً على نص عادي، على الرغم من إمكانية وضع محتويات أخرى مثل الصور أو حتى الجداول الأخرى في خلايا الجدول.
 
-تتم إضافة نص أو محتوى آخر إلى الجدول باستخدام الطرق المناسبة لفئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) ويتم وصفها في مقالة **"إنشاء جدول"**. في هذه المقالة، سنتحدث عن كيفية العمل مع النص في جدول موجود بالفعل.
+تتم إضافة نص أو محتوى آخر إلى الجدول باستخدام الطرق المناسبة لفئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) ويتم وصفها في مقالة **"إنشاء جدول"**. في هذه المقالة، سنتحدث عن كيفية العمل مع النص في جدول موجود بالفعل.
 
 ## استبدال النص في جدول
 
-الجدول، مثل أي عقدة أخرى في Aspose.Words، لديه حق الوصول إلى كائن [Range](https://reference.aspose.com/words/net/aspose.words/range/). باستخدام كائن نطاق الجدول، يمكنك استبدال النص في الجدول.
+الجدول، مثل أي عقدة أخرى في Aspose.Words، لديه حق الوصول إلى كائن [Range](https://reference.aspose.com/words/ar/net/aspose.words/range/). باستخدام كائن نطاق الجدول، يمكنك استبدال النص في الجدول.
 
-القدرة على استخدام أحرف خاصة عند الاستبدال مدعومة حاليًا، لذلك من الممكن استبدال النص الموجود بنص متعدد الفقرات. للقيام بذلك، تحتاج إلى استخدام الأحرف الخاصة الموضحة في طريقة [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/) المقابلة.
+القدرة على استخدام أحرف خاصة عند الاستبدال مدعومة حاليًا، لذلك من الممكن استبدال النص الموجود بنص متعدد الفقرات. للقيام بذلك، تحتاج إلى استخدام الأحرف الخاصة الموضحة في طريقة [Replace](https://reference.aspose.com/words/ar/net/aspose.words/range/replace/) المقابلة.
 
 {{% alert color="primary" %}}
 
@@ -31,7 +31,7 @@ url: /ar/net/work-with-text-in-a-table/
 
 ## استخراج نص عادي من الجدول أو الخلية
 
-باستخدام كائن **Range**، يمكنك أيضًا استدعاء الأساليب الموجودة في نطاق الجدول بأكمله واستخراج الجدول كنص عادي. للقيام بذلك، استخدم خاصية [Text](https://reference.aspose.com/words/net/aspose.words/range/text/)
+باستخدام كائن **Range**، يمكنك أيضًا استدعاء الأساليب الموجودة في نطاق الجدول بأكمله واستخراج الجدول كنص عادي. للقيام بذلك، استخدم خاصية [Text](https://reference.aspose.com/words/ar/net/aspose.words/range/text/)
 
 يوضح مثال التعليمات البرمجية التالي كيفية طباعة النطاق النصي للجدول:
 
@@ -47,7 +47,7 @@ url: /ar/net/work-with-text-in-a-table/
 
 تحتوي جداول Microsoft Word على `table title` و`table description` التي توفر تمثيلاً نصيًا بديلاً للمعلومات الموجودة في الجدول.
 
-في Aspose.Words، يمكنك أيضًا إضافة عنوان جدول ووصفه باستخدام خصائص [Title](https://reference.aspose.com/words/net/aspose.words.tables/table/title/) و[Description](https://reference.aspose.com/words/net/aspose.words.tables/table/description/). تعتبر هذه الخصائص ذات معنى بالنسبة لمستندات DOCX المتوافقة مع ISO/IEC 29500. عند الحفظ بتنسيقات أقدم من ISO/IEC 29500، يتم تجاهل هذه الخصائص.
+في Aspose.Words، يمكنك أيضًا إضافة عنوان جدول ووصفه باستخدام خصائص [Title](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/title/) و[Description](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/description/). تعتبر هذه الخصائص ذات معنى بالنسبة لمستندات DOCX المتوافقة مع ISO/IEC 29500. عند الحفظ بتنسيقات أقدم من ISO/IEC 29500، يتم تجاهل هذه الخصائص.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين خصائص العنوان والوصف للجدول:
 

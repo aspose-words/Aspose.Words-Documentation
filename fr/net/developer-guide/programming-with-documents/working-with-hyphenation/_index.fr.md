@@ -66,7 +66,7 @@ Vous pouvez télécharger le fichier modèle de cet exemple depuis [Aspose.Words
 
 {{% /alert %}}
 
-Au lieu de pré-enregistrer les dictionnaires de césure, il est possible d'enregistrer uniquement les dictionnaires de césure requis "sur demande". Pour y parvenir, implémentez l'interface [IHyphenationCallback](https://reference.aspose.com/words/net/aspose.words/ihyphenationcallback/) et utilisez le rappel statique [Callback](https://reference.aspose.com/words/net/aspose.words/hyphenation/callback/).
+Au lieu de pré-enregistrer les dictionnaires de césure, il est possible d'enregistrer uniquement les dictionnaires de césure requis "sur demande". Pour y parvenir, implémentez l'interface [IHyphenationCallback](https://reference.aspose.com/words/fr/net/aspose.words/ihyphenationcallback/) et utilisez le rappel statique [Callback](https://reference.aspose.com/words/fr/net/aspose.words/hyphenation/callback/).
 
 L'exemple de code suivant montre comment implémenter l'interface **IHyphenationCallback**:
 

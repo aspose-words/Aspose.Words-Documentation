@@ -13,7 +13,7 @@ I formati PDF/A e PDF/UA impongono una serie di requisiti di accessibilità rela
 
 Vengono emessi avvisi quando si salva in uno dei formati PDF/A o PDF/UA e il problema viola la conformità. Ad esempio, l'avviso relativo al titolo del documento mancante verrà emesso durante il salvataggio in PDF/UA e non verrà emesso durante il salvataggio in PDF/A.
 
-Tutti gli avvisi riguardano [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.MinorFormattingLoss** e [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.PDF**. Di seguito è riportato un elenco dei nuovi valori di avviso Descrizione:
+Tutti gli avvisi riguardano [WarningType](https://reference.aspose.com/words/it/net/aspose.words/warningtype/)**.MinorFormattingLoss** e [WarningSource](https://reference.aspose.com/words/it/net/aspose.words/warningsource/)**.PDF**. Di seguito è riportato un elenco dei nuovi valori di avviso Descrizione:
 
 |  Descrizione valore di avviso |  PDF/A |  PDF/UA |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

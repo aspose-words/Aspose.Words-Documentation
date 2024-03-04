@@ -70,11 +70,11 @@ Aspose.Words 是一款令人难以置信的软件，开发人员可以在购买�
 
 {{% alert color="primary" %}}
 
-使用 [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/#setlicense) 方法来许可组件。
+使用 [SetLicense](https://reference.aspose.com/words/zh/net/aspose.words/license/setlicense/#setlicense) 方法来许可组件。
 
 多次调用 **SetLicense** 并没有什么害处，只是浪费处理器时间。
 
-多次调用 [SetMeteredKey](https://reference.aspose.com/words/net/aspose.words/metered/setmeteredkey/) 也没有什么害处，但只会浪费处理器时间并且可能会不正确地累积消耗。
+多次调用 [SetMeteredKey](https://reference.aspose.com/words/zh/net/aspose.words/metered/setmeteredkey/) 也没有什么害处，但只会浪费处理器时间并且可能会不正确地累积消耗。
 
 {{% /alert %}}
 
@@ -84,7 +84,7 @@ Aspose.Words 是一款令人难以置信的软件，开发人员可以在购买�
 
 ##### 从文件加载许可证
 
-使用[SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/)方法，您可以尝试在嵌入资源或程序集文件夹中查找许可证文件以供进一步使用。
+使用[SetLicense](https://reference.aspose.com/words/zh/net/aspose.words/license/setlicense/)方法，您可以尝试在嵌入资源或程序集文件夹中查找许可证文件以供进一步使用。
 
 以下代码示例显示如何从文件夹初始化许可证：
 
@@ -92,7 +92,7 @@ Aspose.Words 是一款令人难以置信的软件，开发人员可以在购买�
 
 ##### 从流对象加载许可证
 
-以下代码示例演示如何使用另一种 [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/) 方法从流初始化许可证：
+以下代码示例演示如何使用另一种 [SetLicense](https://reference.aspose.com/words/zh/net/aspose.words/license/setlicense/) 方法从流初始化许可证：
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-license-from-stream.cs" >}}
 
@@ -110,7 +110,7 @@ Aspose.Words 允许开发人员应用计量密钥。这是一种新的许可机�
 
 新的发牌机制将与现有的发牌方法同时使用。想要根据 API 功能的使用情况进行计费的客户可以使用计量许可。
 
-完成获取此类许可证的所有必要步骤后，您将收到密钥，而不是许可证文件。可以使用为此目的专门引入的 [Metered](https://reference.aspose.com/words/net/aspose.words/metered/) 类来应用此计量密钥。
+完成获取此类许可证的所有必要步骤后，您将收到密钥，而不是许可证文件。可以使用为此目的专门引入的 [Metered](https://reference.aspose.com/words/zh/net/aspose.words/metered/) 类来应用此计量密钥。
 
 不要频繁调用 **SetMeteredKey** 方法，以便此许可方法正确累积消耗并向我们报告。只需实例化 Aspose.Words 库，调用 **SetMeteredKey** 一次，然后让库实例化并重用它。
 
@@ -143,4 +143,4 @@ Aspose.Words 允许开发人员应用计量密钥。这是一种新的许可机�
 如果您在应用程序中使用多个 Aspose 产品，例如 Aspose.Words 和 `Aspose.Cells`，这里有一些有用的提示：
 
 * 为每个Aspose 产品单独设置许可证。即使您对所有组件都有一个许可证文件（例如"Aspose.Total.lic"），您仍然需要为应用程序中使用的每个 Aspose 产品单独调用 **SetLicense**。
-* 使用完全限定的许可证类别名称。每个 Aspose 产品在其自己的命名空间中都有一个 **License** 类。例如，Aspose.Words 具有 [Aspose.Words.License](https://reference.aspose.com/words/net/aspose.words/license/)，`Aspose.Cells` 具有 `Aspose.Cells`.License 类。使用完全限定的类名可以避免混淆哪个许可证适用于哪个产品。
+* 使用完全限定的许可证类别名称。每个 Aspose 产品在其自己的命名空间中都有一个 **License** 类。例如，Aspose.Words 具有 [Aspose.Words.License](https://reference.aspose.com/words/zh/net/aspose.words/license/)，`Aspose.Cells` 具有 `Aspose.Cells`.License 类。使用完全限定的类名可以避免混淆哪个许可证适用于哪个产品。

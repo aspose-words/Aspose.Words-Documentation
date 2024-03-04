@@ -22,7 +22,7 @@ Linux sisteminde TrueType yazı tiplerini almanın iki ana yolu vardır:
 
 ## Yazı Tiplerini Windows Makinesinden Kopyalama
 
-TrueType yazı tiplerini Linux sistemine almanın kolay ve hızlı bir yolu, .TTF ve .TTC dosyalarını Windows makinesindeki `C:\Windows\Fonts` dizininden Linux makinenizdeki bir dizine kopyalamaktır. Bu yazı tiplerini hiçbir şekilde Linux'e yüklemenize veya kaydetmenize gerek yoktur; Aspose.Words'daki [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) sınıfını kullanarak yazı tiplerinin konumunu belirtmeniz yeterlidir.
+TrueType yazı tiplerini Linux sistemine almanın kolay ve hızlı bir yolu, .TTF ve .TTC dosyalarını Windows makinesindeki `C:\Windows\Fonts` dizininden Linux makinenizdeki bir dizine kopyalamaktır. Bu yazı tiplerini hiçbir şekilde Linux'e yüklemenize veya kaydetmenize gerek yoktur; Aspose.Words'daki [FontSettings](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontsettings/) sınıfını kullanarak yazı tiplerinin konumunu belirtmeniz yeterlidir.
 
 {{% alert color="primary" %}}
 

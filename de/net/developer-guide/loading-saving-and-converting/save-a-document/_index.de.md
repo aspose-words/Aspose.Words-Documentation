@@ -10,11 +10,11 @@ weight: 20
 url: /de/net/save-a-document/
 ---
 
-Die meisten Aufgaben, die Sie mit Aspose.Words ausführen müssen, umfassen das Speichern eines Dokuments. Zum Speichern eines Dokuments stellt Aspose.Words die [Save](https://reference.aspose.com/words/net/aspose.words/document/save/)-Methode der [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Klasse zur Verfügung. Es gibt Überladungen, die das Speichern eines Dokuments in einer Datei, einem Stream oder einem ASP.NET-HttpResponse-Objekt ermöglichen, um es an einen Client-Browser zu senden. Das Dokument kann in jedem von Aspose.Words unterstützten Speicherformat gespeichert werden. Die Liste aller unterstützten Speicherformate finden Sie in der [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/)-Enumeration.
+Die meisten Aufgaben, die Sie mit Aspose.Words ausführen müssen, umfassen das Speichern eines Dokuments. Zum Speichern eines Dokuments stellt Aspose.Words die [Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/)-Methode der [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Klasse zur Verfügung. Es gibt Überladungen, die das Speichern eines Dokuments in einer Datei, einem Stream oder einem ASP.NET-HttpResponse-Objekt ermöglichen, um es an einen Client-Browser zu senden. Das Dokument kann in jedem von Aspose.Words unterstützten Speicherformat gespeichert werden. Die Liste aller unterstützten Speicherformate finden Sie in der [SaveFormat](https://reference.aspose.com/words/de/net/aspose.words/saveformat/)-Enumeration.
 
 ## In einer {#save-a-document-to-a-file}-Datei speichern
 
-Verwenden Sie einfach die [Save](https://reference.aspose.com/words/net/aspose.words/document/save/)-Methode mit einem Dateinamen. Aspose.Words ermittelt das Speicherformat anhand der von Ihnen angegebenen Dateierweiterung.
+Verwenden Sie einfach die [Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/)-Methode mit einem Dateinamen. Aspose.Words ermittelt das Speicherformat anhand der von Ihnen angegebenen Dateierweiterung.
 
 Das folgende Codebeispiel zeigt, wie ein Dokument geladen und in einer Datei gespeichert wird:
 
@@ -28,7 +28,7 @@ Sie können die Vorlagendatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## In einem {#save-a-document-to-a-stream}-Stream speichern
 
-Übergeben Sie ein Stream-Objekt an die [Save](https://reference.aspose.com/words/net/aspose.words/document/save/)-Methode. Beim Speichern in einem Stream muss das Speicherformat explizit angegeben werden.
+Übergeben Sie ein Stream-Objekt an die [Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/)-Methode. Beim Speichern in einem Stream muss das Speicherformat explizit angegeben werden.
 
 Das folgende Codebeispiel zeigt, wie ein Dokument geladen und in einem Stream gespeichert wird:
 
@@ -42,7 +42,7 @@ Sie können die Vorlagendatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## Senden Sie ein Dokument an einen Client-Browser {#sending-a-document-to-a-client-browser}
 
-Um ein Dokument an einen Client-Browser zu senden, verwenden Sie eine spezielle Überladung, die vier Parameter benötigt: Dateiname, Speicherformat, Speichertyp und ein ASP.NET-HttpResponse-Objekt. Die Art und Weise, wie das Dokument dem Benutzer präsentiert wird, wird durch die [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/)-Enumeration dargestellt, die bestimmt, ob das an den Browser gesendete Dokument eine Option zum direkten Öffnen im Browser oder in der mit der Dateierweiterung verknüpften Anwendung bietet.
+Um ein Dokument an einen Client-Browser zu senden, verwenden Sie eine spezielle Überladung, die vier Parameter benötigt: Dateiname, Speicherformat, Speichertyp und ein ASP.NET-HttpResponse-Objekt. Die Art und Weise, wie das Dokument dem Benutzer präsentiert wird, wird durch die [ContentDisposition](https://reference.aspose.com/words/de/net/aspose.words/contentdisposition/)-Enumeration dargestellt, die bestimmt, ob das an den Browser gesendete Dokument eine Option zum direkten Öffnen im Browser oder in der mit der Dateierweiterung verknüpften Anwendung bietet.
 
 Das folgende Codebeispiel zeigt, wie ein Dokument aus einem ASP.NET-Code an den Client-Browser gesendet wird:
 

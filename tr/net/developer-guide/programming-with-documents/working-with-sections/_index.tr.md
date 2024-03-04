@@ -19,13 +19,13 @@ Bu makalede bölümler ve bölüm sonlarıyla nasıl çalışılacağı açıkla
 
 ## Bölüm ve Bölüm Sonu Nedir?
 
-Belge bölümleri [Section](https://reference.aspose.com/words/net/aspose.words/section/) ve [SectionCollection](https://reference.aspose.com/words/net/aspose.words/section/collection) sınıflarıyla temsil edilir. Bölüm nesneleri, [Document](https://reference.aspose.com/words/net/aspose.words/document/) düğümünün doğrudan alt öğeleridir ve bunlara [Sections](https://reference.aspose.com/words/net/aspose.words/document//properties/sections) özelliği aracılığıyla erişilebilir. Bu düğümleri [Remove](https://reference.aspose.com/words/net/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) ve diğerleri gibi bazı yöntemleri kullanarak yönetebilirsiniz.
+Belge bölümleri [Section](https://reference.aspose.com/words/tr/net/aspose.words/section/) ve [SectionCollection](https://reference.aspose.com/words/tr/net/aspose.words/section/collection) sınıflarıyla temsil edilir. Bölüm nesneleri, [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) düğümünün doğrudan alt öğeleridir ve bunlara [Sections](https://reference.aspose.com/words/tr/net/aspose.words/document//properties/sections) özelliği aracılığıyla erişilebilir. Bu düğümleri [Remove](https://reference.aspose.com/words/tr/net/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/tr/net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/tr/net/aspose.words/nodecollection/indexof/) ve diğerleri gibi bazı yöntemleri kullanarak yönetebilirsiniz.
 
 Bölüm sonu, belge sayfalarını özelleştirilebilir düzenlerle bölümlere ayıran bir seçenektir.
 
 ## Bölüm Sonu Türleri
 
-Aspose.Words, [BreakType](https://reference.aspose.com/words/net/aspose.words/breaktype/) numaralandırmasının farklı bölüm sonlarını kullanarak belgeleri bölmenize ve biçimlendirmenize olanak tanır:
+Aspose.Words, [BreakType](https://reference.aspose.com/words/tr/net/aspose.words/breaktype/) numaralandırmasının farklı bölüm sonlarını kullanarak belgeleri bölmenize ve biçimlendirmenize olanak tanır:
 
 * BölümBreakSürekli
 * BölümBreakNewColumn
@@ -33,7 +33,7 @@ Aspose.Words, [BreakType](https://reference.aspose.com/words/net/aspose.words/br
 * BölümBreakEvenPage
 * BölümBreakOddPage
 
-NewColumn, NewPage, EvenPage ve OddPage gibi yalnızca ilk bölüm için geçerli olan bir kesme türü seçmek için [SectionStart](https://reference.aspose.com/words/net/aspose.words/sectionstart/) numaralandırmasını da kullanabilirsiniz.
+NewColumn, NewPage, EvenPage ve OddPage gibi yalnızca ilk bölüm için geçerli olan bir kesme türü seçmek için [SectionStart](https://reference.aspose.com/words/tr/net/aspose.words/sectionstart/) numaralandırmasını da kullanabilirsiniz.
 
 ## Bir Bölümü Yönetme
 
@@ -43,13 +43,13 @@ Bir bölüm normal bir bileşik düğüm olduğundan, API düğüm manipülasyon
 
 ## Bölüm Sonu Ekleme veya Kaldırma
 
-Aspose.Words, [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/) yöntemini kullanarak metne bölüm sonu eklemenizi sağlar.
+Aspose.Words, [InsertBreak](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertbreak/) yöntemini kullanarak metne bölüm sonu eklemenizi sağlar.
 
 Aşağıdaki kod örneği, bir belgeye bölüm sonunun nasıl ekleneceğini gösterir:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "insert-section-breaks.cs" >}}
 
-Bölüm sonunu silmek için [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/) yöntemini kullanın. Belirli bir bölüm sonunu kaldırmanız gerekmiyor ve bunun yerine o bölümün içeriğini silmek istiyorsanız [ClearContent](https://reference.aspose.com/words/net/aspose.words/section/clearcontent/) yöntemini kullanabilirsiniz.
+Bölüm sonunu silmek için [Remove](https://reference.aspose.com/words/tr/net/aspose.words/node/remove/) yöntemini kullanın. Belirli bir bölüm sonunu kaldırmanız gerekmiyor ve bunun yerine o bölümün içeriğini silmek istiyorsanız [ClearContent](https://reference.aspose.com/words/tr/net/aspose.words/section/clearcontent/) yöntemini kullanabilirsiniz.
 
 Aşağıdaki kod örneği bölüm sonlarının nasıl kaldırılacağını gösterir:
 
@@ -63,7 +63,7 @@ Bölüm sonunun, kendisinden sonra gelen bölümle değil, kendisinden önceki b
 
 ## Bir Bölümü Taşı
 
-Belgenizde bir bölümü bir konumdan diğerine taşımak istiyorsanız o bölümün dizinini almanız gerekir. Aspose.Words, [Item](https://reference.aspose.com/words/net/aspose.words/sectioncollection//properties/item) özelliğini kullanarak [SectionCollection](https://reference.aspose.com/words/net/aspose.words/sectioncollection/)'den bölüm konumu almanızı sağlar. Belgenizdeki tüm bölümleri almak için [Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/) özelliğini kullanabilirsiniz. Ancak yalnızca ilk bölümü almak istiyorsanız [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) özelliğini kullanabilirsiniz.
+Belgenizde bir bölümü bir konumdan diğerine taşımak istiyorsanız o bölümün dizinini almanız gerekir. Aspose.Words, [Item](https://reference.aspose.com/words/tr/net/aspose.words/sectioncollection//properties/item) özelliğini kullanarak [SectionCollection](https://reference.aspose.com/words/tr/net/aspose.words/sectioncollection/)'den bölüm konumu almanızı sağlar. Belgenizdeki tüm bölümleri almak için [Sections](https://reference.aspose.com/words/tr/net/aspose.words/document/sections/) özelliğini kullanabilirsiniz. Ancak yalnızca ilk bölümü almak istiyorsanız [FirstSection](https://reference.aspose.com/words/tr/net/aspose.words/document/firstsection/) özelliğini kullanabilirsiniz.
 
 Aşağıdaki kod örneği, ilk bölüme nasıl erişileceğini ve bileşik düğümün alt öğelerinin nasıl yineleneceğini gösterir:
 
@@ -71,7 +71,7 @@ Aşağıdaki kod örneği, ilk bölüme nasıl erişileceğini ve bileşik düğ
 
 ## Bir Bölüm Düzeni Belirtin
 
-Bazen farklı belge bölümleri için yaratıcı düzenler oluşturarak belgenizin daha iyi görünmesini istersiniz. Geçerli bölüm ızgarasının türünü belirtmek istiyorsanız [SectionLayoutMode](https://reference.aspose.com/words/net/aspose.words/sectionlayoutmode/) numaralandırmasını kullanarak bir bölüm düzeni modu seçebilirsiniz:
+Bazen farklı belge bölümleri için yaratıcı düzenler oluşturarak belgenizin daha iyi görünmesini istersiniz. Geçerli bölüm ızgarasının türünü belirtmek istiyorsanız [SectionLayoutMode](https://reference.aspose.com/words/tr/net/aspose.words/sectionlayoutmode/) numaralandırmasını kullanarak bir bölüm düzeni modu seçebilirsiniz:
 
 * Varsayılan
 * Kafes
@@ -84,7 +84,7 @@ Aşağıdaki kod örneği, her sayfanın sahip olabileceği satır sayısının 
 
 ## Bir Bölümü Düzenleme
 
-Belgenize yeni bir bölüm eklediğinizde düzenleyebileceğiniz herhangi bir gövde veya paragraf olmayacaktır. Aspose.Words, [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words/section/ensureminimum/) yöntemini kullanarak bir bölümün en az bir paragraf içeren bir gövde içerdiğini garanti etmenize olanak tanır; belgeye otomatik olarak bir Gövde (veya HeaderFooter) düğümü ekleyecek ve ardından ona bir Paragraf ekleyecektir.
+Belgenize yeni bir bölüm eklediğinizde düzenleyebileceğiniz herhangi bir gövde veya paragraf olmayacaktır. Aspose.Words, [EnsureMinimum](https://reference.aspose.com/words/tr/net/aspose.words/section/ensureminimum/) yöntemini kullanarak bir bölümün en az bir paragraf içeren bir gövde içerdiğini garanti etmenize olanak tanır; belgeye otomatik olarak bir Gövde (veya HeaderFooter) düğümü ekleyecek ve ardından ona bir Paragraf ekleyecektir.
 
 Aşağıdaki kod örneği, **EnsureMinimum** kullanarak yeni bir bölüm düğümünün nasıl hazırlanacağını gösterir:
 
@@ -92,7 +92,7 @@ Aşağıdaki kod örneği, **EnsureMinimum** kullanarak yeni bir bölüm düğü
 
 ### İçeriği Ekle veya Başına Ekle
 
-Bir bölümün başına/sonuna şekil çizmek veya metin veya resim eklemek istiyorsanız [Section](https://reference.aspose.com/words/net/aspose.words/section/) sınıfının [AppendContent](https://reference.aspose.com/words/net/aspose.words/section/appendcontent/) ve [PrependContent](https://reference.aspose.com/words/net/aspose.words/section/prependcontent/) yöntemlerini kullanabilirsiniz.
+Bir bölümün başına/sonuna şekil çizmek veya metin veya resim eklemek istiyorsanız [Section](https://reference.aspose.com/words/tr/net/aspose.words/section/) sınıfının [AppendContent](https://reference.aspose.com/words/tr/net/aspose.words/section/appendcontent/) ve [PrependContent](https://reference.aspose.com/words/tr/net/aspose.words/section/prependcontent/) yöntemlerini kullanabilirsiniz.
 
 Aşağıdaki kod örneği, mevcut bir bölümün içeriğinin nasıl ekleneceğini gösterir:
 
@@ -100,7 +100,7 @@ Aşağıdaki kod örneği, mevcut bir bölümün içeriğinin nasıl ekleneceği
 
 ### Bir Bölümü Klonla
 
-Aspose.Words, [Clone](https://reference.aspose.com/words/net/aspose.words/section/clone/) yöntemini kullanarak bir bölümün tam kopyasını oluşturarak bir bölümü çoğaltmanıza olanak tanır.
+Aspose.Words, [Clone](https://reference.aspose.com/words/tr/net/aspose.words/section/clone/) yöntemini kullanarak bir bölümün tam kopyasını oluşturarak bir bölümü çoğaltmanıza olanak tanır.
 
 Aşağıdaki kod örneği, belgenizdeki ilk bölümün nasıl kopyalanacağını gösterir:
 
@@ -110,7 +110,7 @@ Aşağıdaki kod örneği, belgenizdeki ilk bölümün nasıl kopyalanacağını
 
 Bazı durumlarda, birçok bölümü olan büyük belgeleriniz olabilir ve bir bölümün içeriğini bir belgeden diğerine kopyalamak isteyebilirsiniz.
 
-Aspose.Words, [ImportNode](https://reference.aspose.com/words/net/aspose.words/nodeimporter/importnode/) yöntemini kullanarak belgeler arasında bölümleri kopyalamanıza olanak tanır.
+Aspose.Words, [ImportNode](https://reference.aspose.com/words/tr/net/aspose.words/nodeimporter/importnode/) yöntemini kullanarak belgeler arasında bölümleri kopyalamanıza olanak tanır.
 
 Aşağıdaki kod örneği, bölümlerin belgeler arasında nasıl kopyalanacağını gösterir:
 
@@ -127,7 +127,7 @@ Aşağıdaki kod örneği, farklı başlıklara sahip 2 bölümün nasıl oluşt
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
-Belgenizdeki [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) nesnelerini kaldırmadan üst bilgi ve alt bilgi metinlerini kaldırmak istiyorsanız [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) yöntemini kullanabilirsiniz. Ayrıca belgenizdeki üstbilgi ve altbilgilerdeki tüm şekilleri kaldırmak için [DeleteHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words/section/deleteheaderfootershapes/) yöntemini kullanabilirsiniz.
+Belgenizdeki [HeaderFooter](https://reference.aspose.com/words/tr/net/aspose.words/headerfooter/) nesnelerini kaldırmadan üst bilgi ve alt bilgi metinlerini kaldırmak istiyorsanız [ClearHeadersFooters](https://reference.aspose.com/words/tr/net/aspose.words/section/clearheadersfooters/) yöntemini kullanabilirsiniz. Ayrıca belgenizdeki üstbilgi ve altbilgilerdeki tüm şekilleri kaldırmak için [DeleteHeaderFooterShapes](https://reference.aspose.com/words/tr/net/aspose.words/section/deleteheaderfootershapes/) yöntemini kullanabilirsiniz.
 
 Aşağıdaki kod örneği, bir bölümdeki tüm üstbilgi ve altbilgilerin içeriğinin nasıl temizleneceğini gösterir:
 
@@ -141,7 +141,7 @@ Aşağıdaki kod örneği, bir bölümdeki tüm üst bilgi alt bilgilerinden tü
 
 Bir sayfayı veya belgeyi yazdırmadan önce, tek bir sayfanın veya tüm belgenin boyutunu ve düzenini özelleştirmek ve değiştirmek isteyebilirsiniz. Sayfa düzeni ile, farklı ilk sayfaları veya tek sayfaları yazdırmak için belge sayfalarının kenar boşlukları, yön ve boyut gibi ayarlarını değiştirebilirsiniz.
 
-Aspose.Words, [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) sınıfını kullanarak sayfa ve bölüm özelliklerini özelleştirmenize olanak tanır.
+Aspose.Words, [PageSetup](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/) sınıfını kullanarak sayfa ve bölüm özelliklerini özelleştirmenize olanak tanır.
 
 Aşağıdaki kod örneği, geçerli bölüm için sayfa boyutu ve yönlendirme gibi özelliklerin nasıl ayarlanacağını gösterir:
 

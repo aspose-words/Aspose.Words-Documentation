@@ -17,19 +17,19 @@ url: /ru/net/logical-levels-of-nodes-in-a-document/
 
 ## Логический уровень документа и раздела
 
-Документ Word состоит из одного или нескольких разделов, представленных классом [Section](https://reference.aspose.com/words/net/aspose.words/section/) и разделенных разрывами разделов. Раздел может определять собственный размер страницы, поля, ориентацию, количество текстовых столбцов, а также верхние и нижние колонтитулы.
+Документ Word состоит из одного или нескольких разделов, представленных классом [Section](https://reference.aspose.com/words/ru/net/aspose.words/section/) и разделенных разрывами разделов. Раздел может определять собственный размер страницы, поля, ориентацию, количество текстовых столбцов, а также верхние и нижние колонтитулы.
 
-Узлы уровней [Document](https://reference.aspose.com/words/net/aspose.words/document/) и [Section](https://reference.aspose.com/words/net/aspose.words/section/) имеют структуру, показанную на следующей схеме.
+Узлы уровней [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/) и [Section](https://reference.aspose.com/words/ru/net/aspose.words/section/) имеют структуру, показанную на следующей схеме.
 
 <img src="/words/net/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="слова-аспонсы на уровне документа и раздела" style="width:700px"/>
 
 Раздел содержит основной текст, а также верхние и нижние колонтитулы для первой, четной и нечетной страниц. Эти разные "потоки" текста называются *stories*.
 
-В Aspose.Words узел **Section** содержит узлы историй [Body](https://reference.aspose.com/words/net/aspose.words/body/) и [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/). Объект **Body** хранит основной текст. Объекты **HeaderFooter** хранят текст для каждого верхнего и нижнего колонтитула. Текст любого рассказа состоит из абзацев и таблиц, представленных соответственно объектами **Paragraph** и **Table** блочного уровня.
+В Aspose.Words узел **Section** содержит узлы историй [Body](https://reference.aspose.com/words/ru/net/aspose.words/body/) и [HeaderFooter](https://reference.aspose.com/words/ru/net/aspose.words/headerfooter/). Объект **Body** хранит основной текст. Объекты **HeaderFooter** хранят текст для каждого верхнего и нижнего колонтитула. Текст любого рассказа состоит из абзацев и таблиц, представленных соответственно объектами **Paragraph** и **Table** блочного уровня.
 
-Кроме того, каждый документ Word может содержать глоссарий, который представлен узлом [GlossaryDocument](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/) в Aspose.Words. Документ глоссария содержит [BuildingBlocks](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) и [AutoCorrect](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) записи.
+Кроме того, каждый документ Word может содержать глоссарий, который представлен узлом [GlossaryDocument](https://reference.aspose.com/words/ru/net/aspose.words.buildingblocks/glossarydocument/) в Aspose.Words. Документ глоссария содержит [BuildingBlocks](https://reference.aspose.com/words/ru/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/ru/net/aspose.words.buildingblocks/buildingblocktype/) и [AutoCorrect](https://reference.aspose.com/words/ru/net/aspose.words.buildingblocks/buildingblocktype/) записи.
 
-**GlossaryDocument** включает [BuildingBlock](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblock/) узлов, представляющих различные типы записей глоссария. Каждый **BuildingBlock** содержит разделы, которые можно вставлять, удалять и копировать в документы.
+**GlossaryDocument** включает [BuildingBlock](https://reference.aspose.com/words/ru/net/aspose.words.buildingblocks/buildingblock/) узлов, представляющих различные типы записей глоссария. Каждый **BuildingBlock** содержит разделы, которые можно вставлять, удалять и копировать в документы.
 
 ## Блокировать логический уровень
 
@@ -47,9 +47,9 @@ url: /ru/net/logical-levels-of-nodes-in-a-document/
 
 Узлы блочного уровня представлены следующими классами:
 
-- [Tables](https://reference.aspose.com/words/net/aspose.words.tables/table/) и [Paragraphs](https://reference.aspose.com/words/net/aspose.words/paragraph/), которые являются наиболее важными узлами уровня блока
+- [Tables](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/) и [Paragraphs](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/), которые являются наиболее важными узлами уровня блока
 - Закладки, которые происходят как на уровне блоков, так и на уровне строк
-- [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/), которые представляют пользовательскую разметку и могут содержать как контент, так и элементы управления контентом
+- [StructuredDocumentTag](https://reference.aspose.com/words/ru/net/aspose.words.markup/structureddocumenttag/), которые представляют пользовательскую разметку и могут содержать как контент, так и элементы управления контентом
 
 На следующей диаграмме показаны элементы уровня блока.
 
@@ -60,17 +60,17 @@ url: /ru/net/logical-levels-of-nodes-in-a-document/
 Узлы строчного уровня представляют фактическое содержимое документа и могут содержаться в следующих контейнерах:
 
 - Абзац – самый распространенный контейнер
-- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)
+- [SmartTag](https://reference.aspose.com/words/ru/net/aspose.words.markup/smarttag/)
 - Тег структурированного документа
 
 Элементы строчного уровня представлены следующими классами:
 
-- [Run](https://reference.aspose.com/words/net/aspose.words/run/) – фрагменты текста, отформатированные по-разному
-- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/) и [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/) представляют собой закладки
-- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) и [Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote/) представляют собой аннотации
-- [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) и [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) представляют собой символы поля, а [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) представляют поля Word
-- [SpecialChar](https://reference.aspose.com/words/net/aspose.words/specialchar/) представляет специальные символы в документе
-- [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) и [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) обозначают формы, рисунки, изображения и т.д.
+- [Run](https://reference.aspose.com/words/ru/net/aspose.words/run/) – фрагменты текста, отформатированные по-разному
+- [BookmarkStart](https://reference.aspose.com/words/ru/net/aspose.words/bookmarkstart/) и [BookmarkEnd](https://reference.aspose.com/words/ru/net/aspose.words/bookmarkend/) представляют собой закладки
+- [CommentRangeStart](https://reference.aspose.com/words/ru/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/ru/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/ru/net/aspose.words/comment/) и [Footnote](https://reference.aspose.com/words/ru/net/aspose.words.notes/footnote/) представляют собой аннотации
+- [FieldStart](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldseparator/) и [FieldEnd](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldend/) представляют собой символы поля, а [FormField](https://reference.aspose.com/words/ru/net/aspose.words.fields/formfield/) представляют поля Word
+- [SpecialChar](https://reference.aspose.com/words/ru/net/aspose.words/specialchar/) представляет специальные символы в документе
+- [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/) и [GroupShape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/groupshape/) обозначают формы, рисунки, изображения и т.д.
 - SmartTag и StructuredDocumentTag представляют собой пользовательскую разметку
 
 На следующей диаграмме показана структура узлов встроенного уровня.
@@ -95,8 +95,8 @@ url: /ru/net/logical-levels-of-nodes-in-a-document/
 
 Таблица состоит из узлов строк и ячеек. Элементы таблицы представлены следующими классами:
 
-- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) представляет строку таблицы
-- [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) представляет ячейку таблицы
+- [Row](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/) представляет строку таблицы
+- [Cell](https://reference.aspose.com/words/ru/net/aspose.words.tables/cell/) представляет ячейку таблицы
 - StructuredDocumentTag представляет пользовательскую разметку
 
 На следующей диаграмме показаны структуры узлов уровней таблицы, строки и ячейки.

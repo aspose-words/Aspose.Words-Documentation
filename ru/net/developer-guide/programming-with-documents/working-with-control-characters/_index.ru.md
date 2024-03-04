@@ -13,7 +13,7 @@ url: /ru/net/working-with-control-characters/
 
 Иногда вам может потребоваться добавить или удалить символы в тексте. Например, при программном получении текста из документа Aspose.Words сохраняет большую часть управляющих символов, поэтому, если вам нужно работать с этим текстом, вам, вероятно, следует удалить или заменить символы.
 
-Класс [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar/) — это хранилище констант, представляющих управляющие символы, часто встречающиеся в документах. Он предоставляет как символьные, так и строковые версии одних и тех же констант. Например, строка [LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreak/) и символ [LineBreakChar](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreakchar) имеют одинаковое значение.
+Класс [ControlChar](https://reference.aspose.com/words/ru/net/aspose.words/controlchar/) — это хранилище констант, представляющих управляющие символы, часто встречающиеся в документах. Он предоставляет как символьные, так и строковые версии одних и тех же констант. Например, строка [LineBreak](https://reference.aspose.com/words/ru/net/aspose.words/controlchar/linebreak/) и символ [LineBreakChar](https://reference.aspose.com/words/ru/net/aspose.words/controlchar/linebreakchar) имеют одинаковое значение.
 
 В следующем примере кода показано, как использовать управляющие символы:
 

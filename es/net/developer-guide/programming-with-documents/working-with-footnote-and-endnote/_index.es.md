@@ -13,9 +13,9 @@ Aspose.Words también proporciona algunas clases, métodos y propiedades para tr
 
 ## Insertar nota final y establecer opciones de numeración
 
-Si desea insertar una nota al pie o una nota al final en un documento de Word, utilice el método [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/). Este método inserta una nota al pie o al final del documento.
+Si desea insertar una nota al pie o una nota al final en un documento de Word, utilice el método [InsertFootnote](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/insertfootnote/). Este método inserta una nota al pie o al final del documento.
 
-Las clases [EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) y [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) representan opciones de numeración para notas al pie y notas al final.
+Las clases [EndnoteOptions](https://reference.aspose.com/words/es/net/aspose.words.notes/endnoteoptions/) y [FootnoteOptions](https://reference.aspose.com/words/es/net/aspose.words.notes/footnoteoptions/) representan opciones de numeración para notas al pie y notas al final.
 
 El siguiente ejemplo de código muestra cómo insertar una nota final en el documento y configurar sus opciones de numeración:
 
@@ -23,7 +23,7 @@ El siguiente ejemplo de código muestra cómo insertar una nota final en el docu
 
 ## Establecer el número de columnas de diseño de notas al pie
 
-Puede establecer el número de columnas de diseño de notas al pie utilizando la propiedad [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/). Si esta propiedad tiene el valor de 0, el área de notas al pie tiene formato con una cantidad de columnas según la cantidad de columnas en la página mostrada.
+Puede establecer el número de columnas de diseño de notas al pie utilizando la propiedad [Columns](https://reference.aspose.com/words/es/net/aspose.words.notes/footnoteoptions/columns/). Si esta propiedad tiene el valor de 0, el área de notas al pie tiene formato con una cantidad de columnas según la cantidad de columnas en la página mostrada.
 
 El siguiente ejemplo de código muestra cómo establecer el número de columnas para el diseño de notas al pie:
 

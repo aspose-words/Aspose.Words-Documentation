@@ -41,7 +41,7 @@ Aspose.Words هي مكتبة متعددة المنصات تمكن تطبيقات
 
 تعد القدرة على تحويل المستندات بسهولة وموثوقية إحدى الميزات الرئيسية لـ Aspose.Words.
 
-يتيح برنامج [التحميل والحفظ والتحويل](/words/ar/net/loading-saving-and-converting/) الشامل مع [تنسيقات المستندات المدعومة](/words/ar/net/supported-document-formats/) للمستخدمين تحويل المستندات من [تنسيق شعبي واحد](https://reference.aspose.com/words/net/aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)، على سبيل المثال، من DOCX إلى PDF أو JPEG أو Markdown، أو من PDF إلى تنسيقات Word المختلفة.
+يتيح برنامج [التحميل والحفظ والتحويل](/words/ar/net/loading-saving-and-converting/) الشامل مع [تنسيقات المستندات المدعومة](/words/ar/net/supported-document-formats/) للمستخدمين تحويل المستندات من [تنسيق شعبي واحد](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/) إلى [another](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/)، على سبيل المثال، من DOCX إلى PDF أو JPEG أو Markdown، أو من PDF إلى تنسيقات Word المختلفة.
 
 #### Document Object Model (DOM)
 
@@ -87,7 +87,7 @@ Aspose.Words هي مكتبة متعددة المنصات تمكن تطبيقات
 
 سيجد المطورون الذين سبق لهم استخدام Microsoft Word Automation في مشاريعهم أسماء وسلوك العديد من الفئات والأساليب والخصائص مألوفة.
 
-تعد [Document](https://reference.aspose.com/words/net/aspose.words/document/) و[Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) و[Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/) و[Range](https://reference.aspose.com/words/net/aspose.words/range/) و[Section.PageSetup](https://reference.aspose.com/words/net/aspose.words/section/pagesetup/) و[Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) بعضًا من فئات Aspose.Words. وفي الوقت نفسه، يختلف Aspose.Words تمامًا عن نموذج كائن Microsoft Word من حيث أنه يمثل مستندًا كشجرة من الكائنات، أشبه بشجرة XML DOM. إذا كنت قد عملت مع أي مكتبة XML DOM، فستجد أنه من السهل فهم Aspose.Words والعمل معها.
+تعد [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) و[Paragraph](https://reference.aspose.com/words/ar/net/aspose.words/paragraph/) و[Bookmark](https://reference.aspose.com/words/ar/net/aspose.words/bookmark/) و[Range](https://reference.aspose.com/words/ar/net/aspose.words/range/) و[Section.PageSetup](https://reference.aspose.com/words/ar/net/aspose.words/section/pagesetup/) و[Paragraph.ParagraphFormat](https://reference.aspose.com/words/ar/net/aspose.words/paragraphformat/) بعضًا من فئات Aspose.Words. وفي الوقت نفسه، يختلف Aspose.Words تمامًا عن نموذج كائن Microsoft Word من حيث أنه يمثل مستندًا كشجرة من الكائنات، أشبه بشجرة XML DOM. إذا كنت قد عملت مع أي مكتبة XML DOM، فستجد أنه من السهل فهم Aspose.Words والعمل معها.
 
 ## التسعير والسياسات
 

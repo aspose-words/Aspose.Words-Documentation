@@ -32,26 +32,26 @@ url: /ar/net/create-a-table/
 
 ## إنشاء جدول باستخدام DocumentBuilder
 
-في Aspose.Words، يمكن للمستخدمين إنشاء جدول في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). الخوارزمية الأساسية لإنشاء الجدول هي كما يلي:
+في Aspose.Words، يمكن للمستخدمين إنشاء جدول في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/). الخوارزمية الأساسية لإنشاء الجدول هي كما يلي:
 
-1. ابدأ الجدول باستخدام [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/)
-2. أضف خلية إلى الجدول باستخدام [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/) – يؤدي هذا تلقائيًا إلى بدء صف جديد
-3. اختياريًا، استخدم خاصية [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) لتحديد تنسيق الخلية
-4. أدخل محتوى الخلية باستخدام طرق **DocumentBuilder** المناسبة مثل [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/writeln/) و[InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) وغيرها
+1. ابدأ الجدول باستخدام [StartTable](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/starttable/)
+2. أضف خلية إلى الجدول باستخدام [InsertCell](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertcell/) – يؤدي هذا تلقائيًا إلى بدء صف جديد
+3. اختياريًا، استخدم خاصية [CellFormat](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/cellformat/) لتحديد تنسيق الخلية
+4. أدخل محتوى الخلية باستخدام طرق **DocumentBuilder** المناسبة مثل [Writeln](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/writeln/) و[InsertImage](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertimage/) وغيرها
 5. كرر الخطوات من 2 إلى 4 حتى يكتمل الصف
-6. اتصل بـ [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/) لإنهاء الصف الحالي
-7. اختياريًا، استخدم خاصية [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/) لتحديد تنسيق الصف
+6. اتصل بـ [EndRow](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/endrow/) لإنهاء الصف الحالي
+7. اختياريًا، استخدم خاصية [RowFormat](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/rowformat/) لتحديد تنسيق الصف
 8. كرر الخطوات من 2 إلى 7 حتى يكتمل الجدول
-9. اتصل بـ [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) لإنهاء بناء الجدول
+9. اتصل بـ [EndTable](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/endtable/) لإنهاء بناء الجدول
 
 {{% alert color="primary" %}}
 
 تفاصيل مهمة:
 
-* يمكن أيضًا استدعاء [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) داخل الخلية، وفي هذه الحالة يبدأ إنشاء جدول متداخل داخل الخلية.
-* بعد استدعاء [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/)، يتم إنشاء خلية جديدة، وسيتم إضافة أي محتوى تضيفه باستخدام طرق أخرى لفئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) إلى الخلية الحالية. لإنشاء خلية جديدة في نفس الصف، اتصل بـ **InsertCell** مرة أخرى.
-* إذا تم استدعاء **InsertCell** مباشرة بعد [EndRow](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endrow/) ونهاية الصف، فسيستمر الجدول في صف جديد.
-* يجب استدعاء طريقة [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) لإنهاء الجدول مرة واحدة فقط بعد استدعاء **EndRow**. يؤدي استدعاء **EndTable** إلى نقل المؤشر من الخلية الحالية إلى الموضع الذي يقع مباشرة بعد الجدول.
+* يمكن أيضًا استدعاء [StartTable](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/starttable/) داخل الخلية، وفي هذه الحالة يبدأ إنشاء جدول متداخل داخل الخلية.
+* بعد استدعاء [InsertCell](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertcell/)، يتم إنشاء خلية جديدة، وسيتم إضافة أي محتوى تضيفه باستخدام طرق أخرى لفئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) إلى الخلية الحالية. لإنشاء خلية جديدة في نفس الصف، اتصل بـ **InsertCell** مرة أخرى.
+* إذا تم استدعاء **InsertCell** مباشرة بعد [EndRow](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/endrow/) ونهاية الصف، فسيستمر الجدول في صف جديد.
+* يجب استدعاء طريقة [EndTable](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/endtable/) لإنهاء الجدول مرة واحدة فقط بعد استدعاء **EndRow**. يؤدي استدعاء **EndTable** إلى نقل المؤشر من الخلية الحالية إلى الموضع الذي يقع مباشرة بعد الجدول.
 
 {{% /alert %}}
 
@@ -73,9 +73,9 @@ url: /ar/net/create-a-table/
 
 ## إنشاء جدول عبر DOM (Document Object Model)
 
-يمكنك إدراج الجداول مباشرة في DOM عن طريق إضافة عقدة [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) جديدة في موضع محدد.
+يمكنك إدراج الجداول مباشرة في DOM عن طريق إضافة عقدة [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) جديدة في موضع محدد.
 
-يرجى ملاحظة أنه بعد إنشاء عقدة الجدول مباشرة، سيكون الجدول نفسه فارغًا تمامًا، أي أنه لا يحتوي بعد على صفوف وخلايا. لإدراج صفوف وخلايا في جدول، قم بإضافة العقد الفرعية [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) المناسبة إلى ملف DOM.
+يرجى ملاحظة أنه بعد إنشاء عقدة الجدول مباشرة، سيكون الجدول نفسه فارغًا تمامًا، أي أنه لا يحتوي بعد على صفوف وخلايا. لإدراج صفوف وخلايا في جدول، قم بإضافة العقد الفرعية [Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) المناسبة إلى ملف DOM.
 
 {{% alert color="primary" %}}
 
@@ -89,7 +89,7 @@ url: /ar/net/create-a-table/
 
 ## إنشاء جدول من HTML
 
-يدعم Aspose.Words إدراج محتوى في مستند من مصدر HTML باستخدام طريقة [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/). يمكن أن يكون الإدخال عبارة عن صفحة HTML كاملة أو مجرد مقتطف جزئي.
+يدعم Aspose.Words إدراج محتوى في مستند من مصدر HTML باستخدام طريقة [InsertHtml](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/inserthtml/). يمكن أن يكون الإدخال عبارة عن صفحة HTML كاملة أو مجرد مقتطف جزئي.
 
 باستخدام طريقة **InsertHtml**، يمكن للمستخدمين إدراج الجداول في المستند عبر علامات الجدول مثل `<table>`، `<tr>`، `<td>`.
 
@@ -99,7 +99,7 @@ url: /ar/net/create-a-table/
 
 ## إدراج نسخة من جدول موجود
 
-في كثير من الأحيان تحتاج إلى إنشاء جدول استنادًا إلى جدول موجود بالفعل في المستند. أسهل طريقة لتكرار جدول مع الاحتفاظ بجميع التنسيقات هي استنساخ عقدة الجدول باستخدام طريقة [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/).
+في كثير من الأحيان تحتاج إلى إنشاء جدول استنادًا إلى جدول موجود بالفعل في المستند. أسهل طريقة لتكرار جدول مع الاحتفاظ بجميع التنسيقات هي استنساخ عقدة الجدول باستخدام طريقة [Clone](https://reference.aspose.com/words/ar/net/aspose.words/node/clone/).
 
 يمكن استخدام نفس الأسلوب لإضافة نسخ من صف أو خلية موجودة إلى الجدول.
 
@@ -134,6 +134,6 @@ url: /ar/net/create-a-table/
 |  طريقة | مزايا |  سلبيات |
 |  :-  |  :-  |  :-  |
 | عبر `DocumentBuilder` | الطريقة القياسية لإدراج الجداول ومحتويات المستندات الأخرى | في بعض الأحيان يكون من الصعب إنشاء العديد من أنواع الجداول في نفس الوقت باستخدام نفس مثيل المنشئ |
-| عبر DOM |  يتناسب بشكل أفضل مع التعليمات البرمجية المحيطة التي تنشئ العقد وتدرجها مباشرة في DOM دون استخدام **DocumentBuilder** | تم إنشاء الجدول "فارغًا": قبل تنفيذ معظم العمليات، يجب عليك الاتصال بـ [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words.tables/table/ensureminimum/) لإنشاء أي عقد فرعية مفقودة |
+| عبر DOM |  يتناسب بشكل أفضل مع التعليمات البرمجية المحيطة التي تنشئ العقد وتدرجها مباشرة في DOM دون استخدام **DocumentBuilder** | تم إنشاء الجدول "فارغًا": قبل تنفيذ معظم العمليات، يجب عليك الاتصال بـ [EnsureMinimum](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/ensureminimum/) لإنشاء أي عقد فرعية مفقودة |
 | من HTML | يمكن إنشاء جدول جديد من مصدر HTML باستخدام علامات مثل `<table>`، `<tr>`، `<td>` | لا يمكن تطبيق كافة تنسيقات جدول Microsoft Word الممكنة على HTML |
 | استنساخ جدول موجود | يمكنك إنشاء نسخة من جدول موجود مع الاحتفاظ بجميع تنسيقات الصفوف والخلايا | يجب إزالة العقد التابعة المناسبة قبل أن يصبح الجدول جاهزًا للاستخدام |

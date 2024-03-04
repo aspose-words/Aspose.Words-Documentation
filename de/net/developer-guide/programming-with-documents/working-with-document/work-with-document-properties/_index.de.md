@@ -26,15 +26,15 @@ Beachten Sie, dass Sie **kann nicht leiten** Aspose.Words verwenden, um diese In
 
 Um auf Dokumenteigenschaften in Aspose.Words zuzugreifen, verwenden Sie:
 
-* [BuiltInDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/builtindocumentproperties/), um integrierte Eigenschaften zu erhalten.
+* [BuiltInDocumentProperties](https://reference.aspose.com/words/de/net/aspose.words/document/builtindocumentproperties/), um integrierte Eigenschaften zu erhalten.
 
-* [CustomDocumentProperties](https://reference.aspose.com/words/net/aspose.words/document/customdocumentproperties/), um benutzerdefinierte Eigenschaften zu erhalten.
+* [CustomDocumentProperties](https://reference.aspose.com/words/de/net/aspose.words/document/customdocumentproperties/), um benutzerdefinierte Eigenschaften zu erhalten.
 
-**BuiltInDocumentProperties** und **CustomDocumentProperties** sind Sammlungen von [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/)-Objekten. Diese Objekte können über die Indexer-Eigenschaft nach Namen oder Index abgerufen werden.
+**BuiltInDocumentProperties** und **CustomDocumentProperties** sind Sammlungen von [DocumentProperty](https://reference.aspose.com/words/de/net/aspose.words.properties/documentproperty/)-Objekten. Diese Objekte können über die Indexer-Eigenschaft nach Namen oder Index abgerufen werden.
 
 **BuiltInDocumentProperties** bietet zusätzlich Zugriff auf Dokumenteigenschaften über eine Reihe eingegebener Eigenschaften, die Werte des entsprechenden Typs zurückgeben. Mit **CustomDocumentProperties** können Sie Dokumenteigenschaften zu einem Dokument hinzufügen oder daraus entfernen.
 
-Mit der [DocumentProperty](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/)-Klasse können Sie den Namen, den Wert und den Typ einer Dokumenteigenschaft abrufen. [Value](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/value/) gibt ein Objekt zurück, es gibt jedoch eine Reihe von Methoden, mit denen Sie den Eigenschaftswert in einen bestimmten Typ konvertieren können. Nachdem Sie den Typ der Eigenschaft kennengelernt haben, können Sie eine der **DocumentProperty.ToXXX**-Methoden wie **DocumentProperty.**[ToString](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/tostring/) und **DocumentProperty.**[ToInt](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/toint/) verwenden, um den Wert des entsprechenden Typs abzurufen.
+Mit der [DocumentProperty](https://reference.aspose.com/words/de/net/aspose.words.properties/documentproperty/)-Klasse können Sie den Namen, den Wert und den Typ einer Dokumenteigenschaft abrufen. [Value](https://reference.aspose.com/words/de/net/aspose.words.properties/documentproperty/value/) gibt ein Objekt zurück, es gibt jedoch eine Reihe von Methoden, mit denen Sie den Eigenschaftswert in einen bestimmten Typ konvertieren können. Nachdem Sie den Typ der Eigenschaft kennengelernt haben, können Sie eine der **DocumentProperty.ToXXX**-Methoden wie **DocumentProperty.**[ToString](https://reference.aspose.com/words/de/net/aspose.words.properties/documentproperty/tostring/) und **DocumentProperty.**[ToInt](https://reference.aspose.com/words/de/net/aspose.words.properties/documentproperty/toint/) verwenden, um den Wert des entsprechenden Typs abzurufen.
 
 Das folgende Codebeispiel zeigt, wie alle integrierten und benutzerdefinierten Eigenschaften in einem Dokument aufgezählt werden:
 
@@ -54,9 +54,9 @@ In Microsoft Word können Sie über das Menü "Datei → Eigenschaften" auf die 
 
 Mit Aspose.Words können Sie keine integrierten Dokumenteigenschaften hinzufügen oder entfernen. Sie können nur deren Werte ändern oder aktualisieren.
 
-Um benutzerdefinierte Dokumenteigenschaften mit Aspose.Words hinzuzufügen, verwenden Sie die [Add](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/add/#add/)-Methode und übergeben den neuen Eigenschaftsnamen und den Wert des entsprechenden Typs. Die Methode gibt das neu erstellte **DocumentProperty**-Objekt zurück.
+Um benutzerdefinierte Dokumenteigenschaften mit Aspose.Words hinzuzufügen, verwenden Sie die [Add](https://reference.aspose.com/words/de/net/aspose.words.properties/customdocumentproperties/add/#add/)-Methode und übergeben den neuen Eigenschaftsnamen und den Wert des entsprechenden Typs. Die Methode gibt das neu erstellte **DocumentProperty**-Objekt zurück.
 
-Um benutzerdefinierte Eigenschaften zu entfernen, verwenden Sie die [Remove](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/)-Methode, indem Sie ihr den zu entfernenden Eigenschaftsnamen übergeben, oder die [RemoveAt](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/remove/at)-Methode, um die Eigenschaft nach Index zu entfernen. Sie können alle Eigenschaften auch mithilfe der [Clear](https://reference.aspose.com/words/net/aspose.words.properties/documentpropertycollection/clear/)-Methode entfernen.
+Um benutzerdefinierte Eigenschaften zu entfernen, verwenden Sie die [Remove](https://reference.aspose.com/words/de/net/aspose.words.properties/documentpropertycollection/remove/)-Methode, indem Sie ihr den zu entfernenden Eigenschaftsnamen übergeben, oder die [RemoveAt](https://reference.aspose.com/words/de/net/aspose.words.properties/documentpropertycollection/remove/at)-Methode, um die Eigenschaft nach Index zu entfernen. Sie können alle Eigenschaften auch mithilfe der [Clear](https://reference.aspose.com/words/de/net/aspose.words.properties/documentpropertycollection/clear/)-Methode entfernen.
 
 Das folgende Codebeispiel prüft, ob eine benutzerdefinierte Eigenschaft mit einem bestimmten Namen in einem Dokument vorhanden ist, und fügt einige weitere benutzerdefinierte Dokumenteigenschaften hinzu:
 
@@ -74,17 +74,17 @@ Das folgende Codebeispiel zeigt, wie eine benutzerdefinierte Dokumenteigenschaft
 
 ## Integrierte Dokumenteigenschaften aktualisieren
 
-Aspose.Words aktualisiert Dokumenteigenschaften nicht automatisch, wie dies bei Microsoft Word bei einigen Eigenschaften der Fall ist, sondern bietet eine Methode zum Aktualisieren einiger statistischer integrierter Dokumenteigenschaften. Rufen Sie die [UpdateWordCount](https://reference.aspose.com/words/net/aspose.words/document/updatewordcount/#updatewordcount/)-Methode auf, um die folgenden Eigenschaften neu zu berechnen und zu aktualisieren:
+Aspose.Words aktualisiert Dokumenteigenschaften nicht automatisch, wie dies bei Microsoft Word bei einigen Eigenschaften der Fall ist, sondern bietet eine Methode zum Aktualisieren einiger statistischer integrierter Dokumenteigenschaften. Rufen Sie die [UpdateWordCount](https://reference.aspose.com/words/de/net/aspose.words/document/updatewordcount/#updatewordcount/)-Methode auf, um die folgenden Eigenschaften neu zu berechnen und zu aktualisieren:
 
-* [Characters](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characters/)
-* [CharactersWithSpaces](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
-* [Words](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/words/)
-* [Paragraphs](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
-* [Lines](https://reference.aspose.com/words/net/aspose.words.properties/builtindocumentproperties/lines/)
+* [Characters](https://reference.aspose.com/words/de/net/aspose.words.properties/builtindocumentproperties/characters/)
+* [CharactersWithSpaces](https://reference.aspose.com/words/de/net/aspose.words.properties/builtindocumentproperties/characterswithspaces/)
+* [Words](https://reference.aspose.com/words/de/net/aspose.words.properties/builtindocumentproperties/words/)
+* [Paragraphs](https://reference.aspose.com/words/de/net/aspose.words.properties/builtindocumentproperties/paragraphs/)
+* [Lines](https://reference.aspose.com/words/de/net/aspose.words.properties/builtindocumentproperties/lines/)
 
 ## Erstellen Sie eine neue benutzerdefinierte Eigenschaft, die mit Inhalt verknüpft ist
 
-Aspose.Words bietet die [AddLinkToContent](https://reference.aspose.com/words/net/aspose.words.properties/customdocumentproperties/addlinktocontent/)-Methode zum Erstellen einer neuen benutzerdefinierten Dokumenteigenschaft, die mit dem Inhalt verknüpft ist. Diese Eigenschaft gibt das neu erstellte Eigenschaftsobjekt oder null zurück, wenn das [LinkSource](https://reference.aspose.com/words/net/aspose.words.properties/documentproperty/linksource/) ungültig ist.
+Aspose.Words bietet die [AddLinkToContent](https://reference.aspose.com/words/de/net/aspose.words.properties/customdocumentproperties/addlinktocontent/)-Methode zum Erstellen einer neuen benutzerdefinierten Dokumenteigenschaft, die mit dem Inhalt verknüpft ist. Diese Eigenschaft gibt das neu erstellte Eigenschaftsobjekt oder null zurück, wenn das [LinkSource](https://reference.aspose.com/words/de/net/aspose.words.properties/documentproperty/linksource/) ungültig ist.
 
 Das folgende Codebeispiel zeigt, wie Sie einen Link zu einer benutzerdefinierten Eigenschaft konfigurieren:
 
@@ -92,7 +92,7 @@ Das folgende Codebeispiel zeigt, wie Sie einen Link zu einer benutzerdefinierten
 
 ## Dokumentvariablen abrufen
 
-Mithilfe der [Variables](https://reference.aspose.com/words/net/aspose.words/document/variables/)-Eigenschaft können Sie eine Sammlung von Dokumentvariablen abrufen. Variablennamen und -werte sind Zeichenfolgen.
+Mithilfe der [Variables](https://reference.aspose.com/words/de/net/aspose.words/document/variables/)-Eigenschaft können Sie eine Sammlung von Dokumentvariablen abrufen. Variablennamen und -werte sind Zeichenfolgen.
 
 Das folgende Codebeispiel zeigt, wie Dokumentvariablen aufgezählt werden:
 
@@ -106,7 +106,7 @@ Sie können die Vorlagendatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## Persönliche Informationen aus dem Dokument entfernen
 
-Wenn Sie ein Word-Dokument mit anderen Personen teilen möchten, möchten Sie möglicherweise persönliche Informationen wie den Namen des Autors und das Unternehmen entfernen. Verwenden Sie dazu die [RemovePersonalInformation](https://reference.aspose.com/words/net/aspose.words/document/removepersonalinformation/)-Eigenschaft, um das Flag zu setzen, das angibt, dass Microsoft Word beim Speichern des Dokuments alle Benutzerinformationen aus Kommentaren, Revisionen und Dokumenteigenschaften entfernt.
+Wenn Sie ein Word-Dokument mit anderen Personen teilen möchten, möchten Sie möglicherweise persönliche Informationen wie den Namen des Autors und das Unternehmen entfernen. Verwenden Sie dazu die [RemovePersonalInformation](https://reference.aspose.com/words/de/net/aspose.words/document/removepersonalinformation/)-Eigenschaft, um das Flag zu setzen, das angibt, dass Microsoft Word beim Speichern des Dokuments alle Benutzerinformationen aus Kommentaren, Revisionen und Dokumenteigenschaften entfernt.
 
 Das folgende Codebeispiel zeigt, wie persönliche Informationen entfernt werden:
 

@@ -10,11 +10,11 @@ weight: 20
 url: /tr/net/save-a-document/
 ---
 
-Aspose.Words ile gerçekleştirmeniz gereken görevlerin çoğu bir belgenin kaydedilmesini içerir. Bir belgeyi kaydetmek için Aspose.Words, [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfının [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) yöntemini sağlar. Bir belgenin istemci tarayıcısına gönderilmek üzere bir dosyaya, akışa veya ASP.NET HttpResponse nesnesine kaydedilmesine olanak tanıyan aşırı yüklemeler vardır. Belge, Aspose.Words tarafından desteklenen herhangi bir kaydetme biçiminde kaydedilebilir. Desteklenen tüm kaydetme biçimlerinin listesi için [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) numaralandırmasına bakın.
+Aspose.Words ile gerçekleştirmeniz gereken görevlerin çoğu bir belgenin kaydedilmesini içerir. Bir belgeyi kaydetmek için Aspose.Words, [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfının [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/) yöntemini sağlar. Bir belgenin istemci tarayıcısına gönderilmek üzere bir dosyaya, akışa veya ASP.NET HttpResponse nesnesine kaydedilmesine olanak tanıyan aşırı yüklemeler vardır. Belge, Aspose.Words tarafından desteklenen herhangi bir kaydetme biçiminde kaydedilebilir. Desteklenen tüm kaydetme biçimlerinin listesi için [SaveFormat](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/) numaralandırmasına bakın.
 
 ## {#save-a-document-to-a-file} Dosyasına Kaydet
 
-[Save](https://reference.aspose.com/words/net/aspose.words/document/save/) yöntemini bir dosya adıyla kullanmanız yeterlidir. Aspose.Words, belirttiğiniz dosya uzantısından kaydetme biçimini belirleyecektir.
+[Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/) yöntemini bir dosya adıyla kullanmanız yeterlidir. Aspose.Words, belirttiğiniz dosya uzantısından kaydetme biçimini belirleyecektir.
 
 Aşağıdaki kod örneği, bir belgenin dosyaya nasıl yüklenip kaydedileceğini gösterir:
 
@@ -28,7 +28,7 @@ Bu örneğin şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose
 
 ## Akış {#save-a-document-to-a-stream}'e kaydet
 
-Bir akış nesnesini [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) yöntemine iletin. Bir akışa kaydederken kaydetme biçimini açıkça belirtmek gerekir.
+Bir akış nesnesini [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/) yöntemine iletin. Bir akışa kaydederken kaydetme biçimini açıkça belirtmek gerekir.
 
 Aşağıdaki kod örneği, bir belgenin akışa nasıl yüklenip kaydedileceğini gösterir:
 
@@ -42,7 +42,7 @@ Bu örneğin şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose
 
 ## Bir Belgeyi İstemci Tarayıcısına {#sending-a-document-to-a-client-browser} Gönderme
 
-Bir belgeyi istemci tarayıcısına göndermek için dört parametre alan özel bir aşırı yükleme kullanın: dosya adı, kaydetme biçimi, kaydetme türü ve ASP.NET HttpResponse nesnesi. Belgenin kullanıcıya sunulma şekli, tarayıcıya gönderilen belgenin kendisini doğrudan tarayıcıda mı yoksa dosya uzantısıyla ilişkili uygulamada mı açma seçeneği sunacağını belirleyen [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/) numaralandırmasıyla temsil edilir.
+Bir belgeyi istemci tarayıcısına göndermek için dört parametre alan özel bir aşırı yükleme kullanın: dosya adı, kaydetme biçimi, kaydetme türü ve ASP.NET HttpResponse nesnesi. Belgenin kullanıcıya sunulma şekli, tarayıcıya gönderilen belgenin kendisini doğrudan tarayıcıda mı yoksa dosya uzantısıyla ilişkili uygulamada mı açma seçeneği sunacağını belirleyen [ContentDisposition](https://reference.aspose.com/words/tr/net/aspose.words/contentdisposition/) numaralandırmasıyla temsil edilir.
 
 Aşağıdaki kod örneği, ASP.NET kodundan istemci tarayıcısına bir belgenin nasıl gönderileceğini gösterir:
 

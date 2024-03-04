@@ -13,7 +13,7 @@ url: /ru/net/how-to-add-group-shape-into-a-word-document/
 
 В Microsoft Word вы можете быстро добавить форму группы с помощью команды/кнопки Group. Отдельную фигуру в группе можно перемещать отдельно.
 
-В Aspose.Words очень легко добавить фигуру группы, используя класс [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/). **Shape** создается отдельно с помощью класса [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), а затем добавляется к объекту [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) с помощью метода [AppendChild](https://reference.aspose.com/words/net/aspose.words/compositenode/appendchild/).
+В Aspose.Words очень легко добавить фигуру группы, используя класс [GroupShape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/groupshape/). **Shape** создается отдельно с помощью класса [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/), а затем добавляется к объекту [GroupShape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/groupshape/) с помощью метода [AppendChild](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/appendchild/).
 
 В следующем примере кода показано, как добавить фигуру группы в документ Word:
 
@@ -35,6 +35,6 @@ url: /ru/net/how-to-add-group-shape-into-a-word-document/
 - Шестиугольник
 - Октагон
 
-Полный список можно найти в классе [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype).
+Полный список можно найти в классе [ShapeType](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shapetype).
 
 {{% /alert %}}

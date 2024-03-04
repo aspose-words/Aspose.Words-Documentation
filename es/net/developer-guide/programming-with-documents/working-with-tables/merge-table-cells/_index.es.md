@@ -13,16 +13,16 @@ A veces, determinadas filas de una tabla requieren un encabezado o grandes bloqu
 
 ## Cómo fusionar celdas de tablas
 
-En Aspose.Words, las celdas fusionadas están representadas por las siguientes propiedades de la clase [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/):
+En Aspose.Words, las celdas fusionadas están representadas por las siguientes propiedades de la clase [CellFormat](https://reference.aspose.com/words/es/net/aspose.words.tables/cellformat/):
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/) que describe si la celda es parte de una combinación horizontal de celdas
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/) que describe si la celda es parte de una combinación vertical de celdas
+- [HorizontalMerge](https://reference.aspose.com/words/es/net/aspose.words.tables/cellformat/horizontalmerge/) que describe si la celda es parte de una combinación horizontal de celdas
+- [VerticalMerge](https://reference.aspose.com/words/es/net/aspose.words.tables/cellformat/verticalmerge/) que describe si la celda es parte de una combinación vertical de celdas
 
 Los valores de estas propiedades determinan el comportamiento de fusión de las celdas:
 
-- La primera celda de una secuencia de celdas fusionadas tendrá [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/).
-- Cualquier celda fusionada posteriormente tendrá [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Una celda que no esté fusionada tendrá [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+- La primera celda de una secuencia de celdas fusionadas tendrá [CellMerge.First](https://reference.aspose.com/words/es/net/aspose.words.tables/cellmerge/).
+- Cualquier celda fusionada posteriormente tendrá [CellMerge.Previous](https://reference.aspose.com/words/es/net/aspose.words.tables/cellmerge/)
+- Una celda que no esté fusionada tendrá [CellMerge.None](https://reference.aspose.com/words/es/net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 ## Fusionar celdas de tabla cuando se utiliza DocumentBuilder
 
-Para fusionar celdas en una tabla creada con [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), debe establecer el tipo de combinación apropiado para cada celda donde se espera la combinación: primero **CellMerge.First** y luego **CellMerge.Previous**.
+Para fusionar celdas en una tabla creada con [DocumentBuilder](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/), debe establecer el tipo de combinación apropiado para cada celda donde se espera la combinación: primero **CellMerge.First** y luego **CellMerge.Previous**.
 
 Además, debe recordar borrar la configuración de combinación para aquellas celdas donde no se requiere combinación; esto se puede hacer configurando la primera celda que no es de combinación en **CellMerge.None**. Si no se hace esto, se fusionarán todas las celdas de la tabla.
 

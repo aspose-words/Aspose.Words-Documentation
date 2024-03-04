@@ -116,7 +116,7 @@ Dies liegt daran, dass die Microsoft Office-Fallback-Einstellungen standardmäß
 
 **F: Warum wird komplexer Skripttext wie Thailändisch oder Hebräisch möglicherweise aus irgendeinem Grund ungenau angezeigt, beispielsweise durch die falsche Position für diakritische Zeichen oder ungenaue Ligaturen?**
 
-Einige komplexe Schriftarten erfordern die Verarbeitung der Advanced Typography-Funktionen, damit sie korrekt angezeigt werden. Erweiterte Typografie ist in Aspose.Words standardmäßig deaktiviert. Benutzer müssen Advanced Typography mit [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/) aktivieren.
+Einige komplexe Schriftarten erfordern die Verarbeitung der Advanced Typography-Funktionen, damit sie korrekt angezeigt werden. Erweiterte Typografie ist in Aspose.Words standardmäßig deaktiviert. Benutzer müssen Advanced Typography mit [TextShaperFactory](https://reference.aspose.com/words/de/net/aspose.words.layout/layoutoptions/textshaperfactory/) aktivieren.
 
 ------
 
@@ -136,14 +136,14 @@ Ausführlichere Informationen zu mail merge finden Sie im Abschnitt [Mail Merge 
 
 Der ursprüngliche Name des Zusammenführungsfelds bleibt gleich, ohne durch die erforderlichen Daten aus der Datenquelle ersetzt zu werden. Dann gilt:
 
-* Überprüfen Sie, ob die Daten ordnungsgemäß in die Tabellen geladen werden: Stellen Sie [TableName](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/tablename/) mit allen erforderlichen Primärschlüsseln und Beziehungen korrekt ein.
-* Überprüfen Sie, ob die Zusammenführungsfelder richtig benannt sind. Verwenden Sie die [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/)-Methode, um alle Namen der Briefvorlagenfelder abzurufen und sicherzustellen, dass der Name der Briefvorlagenfelder in Ihrer Vorlage mit dem Namen in Ihrer Datenquelle übereinstimmt.
+* Überprüfen Sie, ob die Daten ordnungsgemäß in die Tabellen geladen werden: Stellen Sie [TableName](https://reference.aspose.com/words/de/net/aspose.words.mailmerging/imailmergedatasource/tablename/) mit allen erforderlichen Primärschlüsseln und Beziehungen korrekt ein.
+* Überprüfen Sie, ob die Zusammenführungsfelder richtig benannt sind. Verwenden Sie die [GetFieldNames](https://reference.aspose.com/words/de/net/aspose.words.mailmerging/mailmerge/getfieldnames/)-Methode, um alle Namen der Briefvorlagenfelder abzurufen und sicherzustellen, dass der Name der Briefvorlagenfelder in Ihrer Vorlage mit dem Namen in Ihrer Datenquelle übereinstimmt.
 
 ------
 
 **F: Warum zeigt die Ausgabe der verschachtelten Zusammenführung keine Daten aus der untergeordneten Tabelle für den ersten Eintrag in der übergeordneten Tabelle an, sondern alle Elemente für den letzten Eintrag in der übergeordneten Tabelle, auch solche, die nicht tatsächlich damit verknüpft sind?**
 
-Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht korrekt geformt sind, was dazu führen kann, dass in allen verschachtelten mail merge-Bereichen überhaupt nichts mehr angezeigt wird. Das öffnende [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/)-Tag und das schließende [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/)-Tag müssen übereinstimmen und sich in derselben Zeile oder Zelle befinden. Wenn Sie beispielsweise mit der Verschachtelung von Zusammenführungsbereichen in einer Zelle einer Tabelle beginnen, müssen Sie den Zusammenführungsbereich in derselben Zeile wie die erste Zelle beenden.
+Dies liegt daran, dass die Zusammenführungsbereiche in der Vorlage nicht korrekt geformt sind, was dazu führen kann, dass in allen verschachtelten mail merge-Bereichen überhaupt nichts mehr angezeigt wird. Das öffnende [StartTable](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/starttable/)-Tag und das schließende [EndTable](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/endtable/)-Tag müssen übereinstimmen und sich in derselben Zeile oder Zelle befinden. Wenn Sie beispielsweise mit der Verschachtelung von Zusammenführungsbereichen in einer Zelle einer Tabelle beginnen, müssen Sie den Zusammenführungsbereich in derselben Zeile wie die erste Zelle beenden.
 
 ------
 
@@ -172,7 +172,7 @@ Nähere Informationen zum Programmieren mit Dokumenten finden Sie im Bereich [Pr
 
 **F: Warum werden an ein Dokument angehängte Inhalte nicht auf derselben Seite angezeigt?**
 
-Das Ergebnis des Anhängens wird aufgrund unterschiedlicher [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/)-Einstellungen für die Abschnitte, in denen die Dokumente aneinander angehängt werden, auf einer separaten Seite angezeigt. Nehmen Sie identische **PageSetup**-Einstellungen für die Abschnitte vor, in denen die Dokumente aneinander angehängt werden.
+Das Ergebnis des Anhängens wird aufgrund unterschiedlicher [PageSetup](https://reference.aspose.com/words/de/net/aspose.words/pagesetup/)-Einstellungen für die Abschnitte, in denen die Dokumente aneinander angehängt werden, auf einer separaten Seite angezeigt. Nehmen Sie identische **PageSetup**-Einstellungen für die Abschnitte vor, in denen die Dokumente aneinander angehängt werden.
 
 ## Konvertieren Sie ein Dokument
 

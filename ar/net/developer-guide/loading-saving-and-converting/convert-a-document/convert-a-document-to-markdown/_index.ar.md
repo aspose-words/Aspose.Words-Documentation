@@ -12,7 +12,7 @@ url: /ar/net/convert-a-document-to-markdown/
 
 يعد Markdown تنسيقًا شائعًا يستخدم لترميز النص وتحويله أيضًا إلى HTML أو PDF أو DOCX أو تنسيقات أخرى. يختار العديد من المطورين هذا التنسيق لكتابة الوثائق، وإعداد المقالات للنشر على المدونات، ووصف المشاريع، وما إلى ذلك.
 
-يحظى Markdown بشعبية كبيرة لأنه من السهل العمل بهذا التنسيق، كما يمكن تحويله بكل بساطة إلى تنسيقات أخرى. لهذا السبب، يوفر Aspose.Words القدرة على تحويل مستند بتنسيق [أي تنسيق تحميل مدعوم](https://reference.aspose.com/words/net/aspose.words/loadformat/) إلى Markdown والعكس - كما يدعم Aspose.Words أيضًا [حفظ التنسيقات](https://reference.aspose.com/words/net/aspose.words/saveformat/) الأكثر شيوعًا.
+يحظى Markdown بشعبية كبيرة لأنه من السهل العمل بهذا التنسيق، كما يمكن تحويله بكل بساطة إلى تنسيقات أخرى. لهذا السبب، يوفر Aspose.Words القدرة على تحويل مستند بتنسيق [أي تنسيق تحميل مدعوم](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/) إلى Markdown والعكس - كما يدعم Aspose.Words أيضًا [حفظ التنسيقات](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/) الأكثر شيوعًا.
 
 يتم الآن تطوير وظيفة العمل باستخدام تنسيق Markdown بشكل نشط لتوفر لك المزيد من الفرص للعمل المريح والمريح مع المستندات.
 
@@ -25,7 +25,7 @@ url: /ar/net/convert-a-document-to-markdown/
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
 
-يمكنك أيضًا تحديد المجلد الفعلي الذي تريد حفظ الصور فيه عند تصدير مستند إلى تنسيق Markdown. افتراضيًا، يحفظ Aspose.Words الصور في نفس المجلد حيث تم حفظ ملف المستند، ولكن يمكنك تجاوز هذا السلوك باستخدام خاصية [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolder/).
+يمكنك أيضًا تحديد المجلد الفعلي الذي تريد حفظ الصور فيه عند تصدير مستند إلى تنسيق Markdown. افتراضيًا، يحفظ Aspose.Words الصور في نفس المجلد حيث تم حفظ ملف المستند، ولكن يمكنك تجاوز هذا السلوك باستخدام خاصية [ImagesFolder](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/imagesfolder/).
 
 يعد تحديد مجلد عبر **ImagesFolder** مفيدًا أيضًا إذا قمت بحفظ مستند في دفق ولم يكن لدى Aspose.Words مجلد لحفظ الصور.
 
@@ -38,7 +38,7 @@ url: /ar/net/convert-a-document-to-markdown/
 
 ## حدد خيارات الحفظ عند التحويل إلى Markdown
 
-يوفر Aspose.Words القدرة على استخدام فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) للعمل مع الخيارات المتقدمة عند حفظ مستند بتنسيق Markdown. تقوم معظم الخصائص بتوارث أو تحميل زائد للخصائص الموجودة بالفعل ضمن فئات [Aspose.Words.Saving](https://reference.aspose.com/words/net/aspose.words.saving/) Namespace الأخرى. بالإضافة إلى ذلك، تم أيضًا إضافة عدد من الخصائص الخاصة بتنسيق Markdown. على سبيل المثال، خاصية [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) للتحكم في محاذاة المحتوى في الجداول، أو خاصية [ImageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/) و[ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolder/) للتحكم في كيفية حفظ الصور عند تحويل مستند إلى تنسيق Markdown.
+يوفر Aspose.Words القدرة على استخدام فئة [MarkdownSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/) للعمل مع الخيارات المتقدمة عند حفظ مستند بتنسيق Markdown. تقوم معظم الخصائص بتوارث أو تحميل زائد للخصائص الموجودة بالفعل ضمن فئات [Aspose.Words.Saving](https://reference.aspose.com/words/ar/net/aspose.words.saving/) Namespace الأخرى. بالإضافة إلى ذلك، تم أيضًا إضافة عدد من الخصائص الخاصة بتنسيق Markdown. على سبيل المثال، خاصية [TableContentAlignment](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) للتحكم في محاذاة المحتوى في الجداول، أو خاصية [ImageSavingCallback](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/) و[ImagesFolder](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/imagesfolder/) للتحكم في كيفية حفظ الصور عند تحويل مستند إلى تنسيق Markdown.
 
 ## ميزات Markdown المدعومة
 

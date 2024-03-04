@@ -17,7 +17,7 @@ Aspose.Words 允许您通过设置限制类型来限制文档的编辑。此外�
 
 ## 选择编辑限制类型
 
-Aspose.Words 允许您使用 [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/) 枚举参数来控制限制内容的方式。这将使您能够选择确切的保护类型，如下所示：
+Aspose.Words 允许您使用 [ProtectionType](https://reference.aspose.com/words/zh/net/aspose.words/protectiontype/) 枚举参数来控制限制内容的方式。这将使您能够选择确切的保护类型，如下所示：
 
 * 只允许评论
 * 只允许表单字段
@@ -31,7 +31,7 @@ Aspose.Words 允许您使用 [ProtectionType](https://reference.aspose.com/words
 
 {{% alert color="primary" %}}
 
-请注意，所设置的密码只是文档中的一个属性，如果访问文档属性，则可以将其删除。因此，这样的密码并不能保证文档的安全。 [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/) 方法正好说明了这一点。
+请注意，所设置的密码只是文档中的一个属性，如果访问文档属性，则可以将其删除。因此，这样的密码并不能保证文档的安全。 [Unprotect](https://reference.aspose.com/words/zh/net/aspose.words/document/unprotect/#unprotect/) 方法正好说明了这一点。
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ Aspose.Words 允许您使用 [ProtectionType](https://reference.aspose.com/words
 
 向文档添加保护是一个简单的过程，因为您所需要做的就是应用本节中详细介绍的保护方法之一。
 
-Aspose.Words 允许您使用 [Protect](https://reference.aspose.com/words/net/aspose.words/document/protect/#protect/) 方法保护文档免遭更改。此方法不是安全功能，也不加密文档。
+Aspose.Words 允许您使用 [Protect](https://reference.aspose.com/words/zh/net/aspose.words/document/protect/#protect/) 方法保护文档免遭更改。此方法不是安全功能，也不加密文档。
 
 {{% alert color="primary" %}}
 
@@ -60,7 +60,7 @@ Aspose.Words 允许您使用 [Protect](https://reference.aspose.com/words/net/as
 
 ## 删除文档保护
 
-Aspose.Words 允许您通过简单直接的文档修改来删除文档的保护。您可以在不知道实际密码的情况下取消文档保护，也可以使用 [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/) 方法提供正确的密码来解锁文档。两种去除方式没有区别。
+Aspose.Words 允许您通过简单直接的文档修改来删除文档的保护。您可以在不知道实际密码的情况下取消文档保护，也可以使用 [Unprotect](https://reference.aspose.com/words/zh/net/aspose.words/document/unprotect/#unprotect/) 方法提供正确的密码来解锁文档。两种去除方式没有区别。
 
 以下代码示例演示如何从文档中删除保护：
 
@@ -70,7 +70,7 @@ Aspose.Words 允许您通过简单直接的文档修改来删除文档的保护�
 
 您可以限制对文档的编辑，同时允许对其选定部分进行更改。因此，任何打开文档的人都可以访问这些不受限制的部分并对内容进行更改。
 
-Aspose.Words 允许您使用 [StartEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/) 和 [EndEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/) 方法标记文档中可以更改的部分。
+Aspose.Words 允许您使用 [StartEditableRange](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/starteditablerange/) 和 [EndEditableRange](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/) 方法标记文档中可以更改的部分。
 
 以下代码示例演示如何将整个文档标记为只读并指定其中的可编辑区域：
 

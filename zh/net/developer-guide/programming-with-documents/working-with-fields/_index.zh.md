@@ -13,4 +13,4 @@ url: /zh/net/working-with-fields/
 
 在使用 Aspose.Words 创建或编辑的文档中，如在 Microsoft Word 文档中，字段由字段代码和字段结果组成。字段代码是关于需要如何更新或计算字段结果的指令。处理文档并遇到字段的应用程序应该解释字段代码中包含的指令并使用新值更新字段结果。
 
-在 Aspose.Words 中，字段由 [Fields](https://reference.aspose.com/words/net/aspose.words.fields/) 命名空间表示。本文档部分中的文章解释了如何使用 Aspose.Words 类以编程方式操作文档字段。
+在 Aspose.Words 中，字段由 [Fields](https://reference.aspose.com/words/zh/net/aspose.words.fields/) 命名空间表示。本文档部分中的文章解释了如何使用 Aspose.Words 类以编程方式操作文档字段。

@@ -13,7 +13,7 @@ Aspose.Words permite a los usuarios trabajar con encabezados y pies de página e
 
 ## Crear encabezados o pies de página usando DocumentBuilder
 
-Si desea agregar un encabezado o pie de página al documento mediante programación, la forma más sencilla es utilizar la clase [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) para hacerlo.
+Si desea agregar un encabezado o pie de página al documento mediante programación, la forma más sencilla es utilizar la clase [DocumentBuilder](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/) para hacerlo.
 
 El siguiente ejemplo de código muestra cómo agregar un encabezado y un pie de página para las páginas del documento:
 
@@ -21,7 +21,7 @@ El siguiente ejemplo de código muestra cómo agregar un encabezado y un pie de 
 
 ## Especificar opciones de encabezado o pie de página
 
-Cuando agrega un encabezado o pie de página a un documento, puede configurar algunas propiedades avanzadas. Aspose.Words proporciona a los usuarios clases [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) y [HeaderFooterCollection](https://reference.aspose.com/words/net/aspose.words/headerfootercollection/), así como enumeración [HeaderFooterType](https://reference.aspose.com/words/net/aspose.words/headerfootertype/) que les brinda más control sobre el proceso de personalización del encabezado y pie de página.
+Cuando agrega un encabezado o pie de página a un documento, puede configurar algunas propiedades avanzadas. Aspose.Words proporciona a los usuarios clases [HeaderFooter](https://reference.aspose.com/words/es/net/aspose.words/headerfooter/) y [HeaderFooterCollection](https://reference.aspose.com/words/es/net/aspose.words/headerfootercollection/), así como enumeración [HeaderFooterType](https://reference.aspose.com/words/es/net/aspose.words/headerfootertype/) que les brinda más control sobre el proceso de personalización del encabezado y pie de página.
 
 ### Especificar tipo de encabezado o pie de página
 
@@ -36,7 +36,7 @@ El siguiente ejemplo de código muestra cómo agregar un encabezado para página
 
 ### Especificar si se mostrarán diferentes encabezados o pies de página para la primera página
 
-Como se dijo anteriormente, también puedes establecer un encabezado o pie de página diferente para la primera página. Para hacer esto, debe configurar el indicador [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) en `true` y luego especificar el valor **HeaderFirst** o **FooterFirst**.
+Como se dijo anteriormente, también puedes establecer un encabezado o pie de página diferente para la primera página. Para hacer esto, debe configurar el indicador [DifferentFirstPageHeaderFooter](https://reference.aspose.com/words/es/net/aspose.words/pagesetup/differentfirstpageheaderfooter/) en `true` y luego especificar el valor **HeaderFirst** o **FooterFirst**.
 
 El siguiente ejemplo de código muestra cómo configurar el encabezado solo para la primera página:
 
@@ -44,13 +44,13 @@ El siguiente ejemplo de código muestra cómo configurar el encabezado solo para
 
 ### Especificar si se deben mostrar diferentes encabezados o pies de página para páginas pares o impares
 
-A continuación, querrás establecer diferentes encabezados o pies de página para las páginas pares e impares de un documento. Para hacer esto, debe configurar el indicador [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) en `true` y luego especificar los valores **HeaderPrimary** y **HeaderEven**, o **FooterPrimary** y **FooterEven**.
+A continuación, querrás establecer diferentes encabezados o pies de página para las páginas pares e impares de un documento. Para hacer esto, debe configurar el indicador [OddAndEvenPagesHeaderFooter](https://reference.aspose.com/words/es/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/) en `true` y luego especificar los valores **HeaderPrimary** y **HeaderEven**, o **FooterPrimary** y **FooterEven**.
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "odd-even-pages.cs" >}}
 
 ### Inserte una imagen absolutamente posicionada en el encabezado
 
-Para colocar una imagen en un encabezado o pie de página, utilice el tipo de encabezado **HeaderPrimary** o el tipo de pie de página **FooterPrimary** y el método [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/).
+Para colocar una imagen en un encabezado o pie de página, utilice el tipo de encabezado **HeaderPrimary** o el tipo de pie de página **FooterPrimary** y el método [InsertImage](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/insertimage/).
 
 El siguiente ejemplo de código muestra cómo agregar una imagen a un encabezado:
 
@@ -66,7 +66,7 @@ El siguiente ejemplo de código muestra cómo configurar el texto del encabezado
 
 ### Insertar números de página en el encabezado o pie de página
 
-Si es necesario, puede agregar números de página al encabezado o pie de página. Para hacer esto, use el tipo de encabezado **HeaderPrimary** o el tipo de pie de página **FooterPrimary** y el método [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) para agregar el campo requerido.
+Si es necesario, puede agregar números de página al encabezado o pie de página. Para hacer esto, use el tipo de encabezado **HeaderPrimary** o el tipo de pie de página **FooterPrimary** y el método [InsertField](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/insertfield/) para agregar el campo requerido.
 
 El siguiente ejemplo de código muestra cómo agregar números de página al pie de página de la derecha:
 

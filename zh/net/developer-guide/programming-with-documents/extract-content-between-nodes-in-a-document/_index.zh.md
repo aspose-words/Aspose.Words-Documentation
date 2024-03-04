@@ -56,10 +56,10 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 但是，如果标记节点是内联的（段落的子节点），则情况会变得更加复杂，因为有必要在内联节点处拆分段落，无论是运行、书签字段等。克隆的父节点中的内容不会标记之间存在的内容被删除。此过程用于确保内联节点仍保留父段落的格式。该方法还将对作为参数传递的节点进行检查，如果任一节点无效，则抛出异常。要传递给该方法的参数是：
 
-1.**StartNode** 和 **EndNode**。前两个参数是分别定义内容提取的开始和结束位置的节点。这些节点可以是块级（[Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)、[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)）或内联级（例如 [Run](https://reference.aspose.com/words/net/aspose.words/run/)、[FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/)、[BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) 等）：
+1.**StartNode** 和 **EndNode**。前两个参数是分别定义内容提取的开始和结束位置的节点。这些节点可以是块级（[Paragraph](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/)、[Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)）或内联级（例如 [Run](https://reference.aspose.com/words/zh/net/aspose.words/run/)、[FieldStart](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldstart/)、[BookmarkStart](https://reference.aspose.com/words/zh/net/aspose.words/bookmark/bookmarkstart/) 等）：
    1. 要传递字段，您应该传递相应的 **FieldStart** 对象
-   1. 传递书签需要传递**BookmarkStart**和[BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/)节点
-   1. 传递评论需要使用[CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/)和[CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)节点
+   1. 传递书签需要传递**BookmarkStart**和[BookmarkEnd](https://reference.aspose.com/words/zh/net/aspose.words/bookmark/bookmarkend/)节点
+   1. 传递评论需要使用[CommentRangeStart](https://reference.aspose.com/words/zh/net/aspose.words/commentrangestart/)和[CommentRangeEnd](https://reference.aspose.com/words/zh/net/aspose.words/commentrangeend/)节点
 1.**IsInclusive**。定义标记是否包含在提取中。如果该选项设置为false并且传递相同的节点或连续的节点，那么将返回一个空列表：
    1. 如果传递 **FieldStart** 节点，则此选项定义是否包含或排除整个字段
    1. 如果传递 **BookmarkStart** 或 **BookmarkEnd** 节点，则此选项定义是否包含书签或仅包含书签范围之间的内容。
@@ -77,7 +77,7 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 这演示了如何使用上述方法提取特定段落之间的内容。在本例中，我们想要提取文档前半部分中找到的信件正文。我们可以看出这是在第7段和第11段之间。
 
-下面的代码完成了这个任务。使用文档上的 [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/) 方法并传递指定的索引来提取适当的段落。然后，我们将这些节点传递给 **ExtractContent** 方法，并声明这些节点将包含在提取中。此方法将返回这些节点之间复制的内容，然后将其插入到新文档中。
+下面的代码完成了这个任务。使用文档上的 [GetChild](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/) 方法并传递指定的索引来提取适当的段落。然后，我们将这些节点传递给 **ExtractContent** 方法，并声明这些节点将包含在提取中。此方法将返回这些节点之间复制的内容，然后将其插入到新文档中。
 
 以下代码示例展示了如何使用上面的 `ExtractContent` 方法提取特定段落之间的内容：
 
@@ -91,7 +91,7 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## 提取不同类型节点之间的内容
 
-我们可以在块级或内联节点的任意组合之间提取内容。在下面的这种情况下，我们将提取第一段和第二部分中的表格之间的内容。我们通过在文档的第二部分调用 [FirstParagraph](https://reference.aspose.com/words/net/aspose.words/story/firstparagraph/) 和 [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/getchild/) 方法来检索适当的 **Paragraph** 和 **Table** 节点来获取标记节点。对于轻微的变化，让我们复制内容并将其插入到原始内容下方。
+我们可以在块级或内联节点的任意组合之间提取内容。在下面的这种情况下，我们将提取第一段和第二部分中的表格之间的内容。我们通过在文档的第二部分调用 [FirstParagraph](https://reference.aspose.com/words/zh/net/aspose.words/story/firstparagraph/) 和 [GetChild](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/getchild/) 方法来检索适当的 **Paragraph** 和 **Table** 节点来获取标记节点。对于轻微的变化，让我们复制内容并将其插入到原始内容下方。
 
 以下代码示例演示如何使用 **ExtractContent** 方法提取段落和表格之间的内容：
 
@@ -123,7 +123,7 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## 在特定运行之间提取内容
 
-您还可以提取内联节点（例如 [Run](https://reference.aspose.com/words/net/aspose.words/run/)）之间的内容。不同段落的 **Runs** 可以作为标记传递。下面的代码显示了如何提取同一 **Paragraph** 节点之间的特定文本。
+您还可以提取内联节点（例如 [Run](https://reference.aspose.com/words/zh/net/aspose.words/run/)）之间的内容。不同段落的 **Runs** 可以作为标记传递。下面的代码显示了如何提取同一 **Paragraph** 节点之间的特定文本。
 
 以下代码示例演示如何使用 **ExtractContent** 方法提取同一段落的特定运行之间的内容：
 
@@ -137,7 +137,7 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## 使用字段提取内容
 
-要使用字段作为标记，应传递 `FieldStart` 节点。 `ExtractContent` 方法的最后一个参数将定义是否包含整个字段。让我们提取"FullName"合并字段和文档中的段落之间的内容。我们使用[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)类的[MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/)方法。这将从传递给它的合并字段的名称返回 **FieldStart** 节点。
+要使用字段作为标记，应传递 `FieldStart` 节点。 `ExtractContent` 方法的最后一个参数将定义是否包含整个字段。让我们提取"FullName"合并字段和文档中的段落之间的内容。我们使用[DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/)类的[MoveToMergeField](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/movetomergefield/)方法。这将从传递给它的合并字段的名称返回 **FieldStart** 节点。
 
 在我们的例子中，我们将传递给 **ExtractContent** 方法的最后一个参数设置为 false 以从提取中排除该字段。我们会将提取的内容呈现为 PDF。
 
@@ -169,7 +169,7 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 注释由 CommentRangeStart、CommentRangeEnd 和 Comment 节点组成。所有这些节点都是内联的。前两个节点封装了注释引用的文档中的内容，如下面的屏幕截图所示。
 
-**Comment** 节点本身是一个可以包含段落和运行的 [InlineStory](https://reference.aspose.com/words/net/aspose.words/inlinestory/)。它代表评论的消息，在审阅窗格中显示为评论气泡。由于此节点是内联的并且是正文的后代，因此您也可以从此消息中提取内容。
+**Comment** 节点本身是一个可以包含段落和运行的 [InlineStory](https://reference.aspose.com/words/zh/net/aspose.words/inlinestory/)。它代表评论的消息，在审阅窗格中显示为评论气泡。由于此节点是内联的并且是正文的后代，因此您也可以从此消息中提取内容。
 
 注释概括了第二部分中的标题、第一段和表格。让我们将此评论提取到一个新文档中。 **IsInclusive** 选项指示评论本身是保留还是丢弃。
 
@@ -185,17 +185,17 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## 如何使用 DocumentVisitor 提取内容
 
-使用[DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/)类来实现这个使用场景。该类对应于众所周知的 Visitor 设计模式。使用 **DocumentVisitor** **,**，您可以定义和执行需要枚举文档树的自定义操作。
+使用[DocumentVisitor](https://reference.aspose.com/words/zh/net/aspose.words/documentvisitor/)类来实现这个使用场景。该类对应于众所周知的 Visitor 设计模式。使用 **DocumentVisitor** **,**，您可以定义和执行需要枚举文档树的自定义操作。
 
-**DocumentVisitor** 提供了一组 **VisitXXX** 方法，当遇到特定文档元素（节点）时将调用这些方法。例如，当找到文本段落的开头时，将调用 [VisitParagraphStart](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphstart/)；当找到文本段落的结尾时，将调用 [VisitParagraphEnd](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphend/)。每个 **DocumentVisitor.VisitXXX** 方法接受它遇到的相应对象，因此您可以根据需要使用它（例如检索格式），例如 **DocumentVisitor.VisitParagraphStart** 和 **DocumentVisitor.VisitParagraphEnd** 都接受 [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) 对象。
+**DocumentVisitor** 提供了一组 **VisitXXX** 方法，当遇到特定文档元素（节点）时将调用这些方法。例如，当找到文本段落的开头时，将调用 [VisitParagraphStart](https://reference.aspose.com/words/zh/net/aspose.words/documentvisitor/visitparagraphstart/)；当找到文本段落的结尾时，将调用 [VisitParagraphEnd](https://reference.aspose.com/words/zh/net/aspose.words/documentvisitor/visitparagraphend/)。每个 **DocumentVisitor.VisitXXX** 方法接受它遇到的相应对象，因此您可以根据需要使用它（例如检索格式），例如 **DocumentVisitor.VisitParagraphStart** 和 **DocumentVisitor.VisitParagraphEnd** 都接受 [Paragraph](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/) 对象。
 
-每个 **DocumentVisitor.VisitXXX** 方法都会返回一个控制节点枚举的 [VisitorAction](https://reference.aspose.com/words/net/aspose.words/visitoraction/) 值。您可以请求继续枚举、跳过当前节点（但继续枚举）或停止节点枚举。
+每个 **DocumentVisitor.VisitXXX** 方法都会返回一个控制节点枚举的 [VisitorAction](https://reference.aspose.com/words/zh/net/aspose.words/visitoraction/) 值。您可以请求继续枚举、跳过当前节点（但继续枚举）或停止节点枚举。
 
 您应遵循以下步骤以编程方式确定和提取文档的各个部分：
 
 - 创建一个从 **DocumentVisitor** 派生的类
 - 覆盖并提供部分或全部 **DocumentVisitor.VisitXXX** 方法的实现以执行一些自定义操作
-- 在要开始枚举的节点上调用[Node.Accept](https://reference.aspose.com/words/net/aspose.words/node/accept/)，例如，如果要枚举整个文档，则使用[Document.Accept](https://reference.aspose.com/words/net/aspose.words/document/accept/)
+- 在要开始枚举的节点上调用[Node.Accept](https://reference.aspose.com/words/zh/net/aspose.words/node/accept/)，例如，如果要枚举整个文档，则使用[Document.Accept](https://reference.aspose.com/words/zh/net/aspose.words/document/accept/)
 
 **DocumentVisitor** 为所有 **DocumentVisitor.VisitXXX** 方法提供默认实现。这使得创建新的文档访问者变得更容易，因为只需要覆盖特定访问者所需的方法。没有必要重写所有访问者方法。
 
@@ -215,10 +215,10 @@ url: /zh/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 从文档中检索文本的方法有：
 
-- 使用 [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 和 [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) 将纯文本保存到文件或流中
-- 使用[Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/)并传递**SaveFormat.Text**参数。在内部，这会调用另存为文本到内存流中并返回结果字符串
-- 使用 [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) 检索包含所有 Microsoft Word 控制字符（包括域代码）的文本
-- 实现自定义 [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) 来执行自定义提取
+- 使用 [Document.Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/) 和 [SaveFormat.Text](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/) 将纯文本保存到文件或流中
+- 使用[Node.ToString](https://reference.aspose.com/words/zh/net/aspose.words/node/tostring/)并传递**SaveFormat.Text**参数。在内部，这会调用另存为文本到内存流中并返回结果字符串
+- 使用 [Node.GetText](https://reference.aspose.com/words/zh/net/aspose.words/node/gettext/) 检索包含所有 Microsoft Word 控制字符（包括域代码）的文本
+- 实现自定义 [DocumentVisitor](https://reference.aspose.com/words/zh/net/aspose.words/documentvisitor/) 来执行自定义提取
 
 ### 使用 `Node.GetText` 和 `Node.ToString`
 

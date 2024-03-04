@@ -21,11 +21,11 @@ Questo articolo spiega come rendere un documento di sola lettura.
 
 ## Rendere un documento di sola lettura
 
-Aspose.Words ha la classe pubblica [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/) che specifica le impostazioni di protezione da scrittura per un documento. Non crei direttamente istanze di questa classe.
+Aspose.Words ha la classe pubblica [WriteProtection](https://reference.aspose.com/words/it/net/aspose.words.settings/writeprotection/) che specifica le impostazioni di protezione da scrittura per un documento. Non crei direttamente istanze di questa classe.
 
 La protezione da scrittura mostra se l'autore ha consigliato di aprire un documento in sola lettura e/o di richiedere una password per modificare il documento.
 
-Aspose.Words consente di rendere un documento di sola lettura per limitare la modifica utilizzando la proprietà [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/) e il metodo [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/).
+Aspose.Words consente di rendere un documento di sola lettura per limitare la modifica utilizzando la proprietà [ReadOnlyRecommended](https://reference.aspose.com/words/it/net/aspose.words.settings/writeprotection/readonlyrecommended/) e il metodo [SetPassword](https://reference.aspose.com/words/it/net/aspose.words.settings/writeprotection/setpassword/).
 
 {{% alert color="primary" %}}
 
@@ -38,7 +38,7 @@ In Microsoft Word, puoi creare un documento di sola lettura in modo simile utili
 
 {{% alert color="primary" %}}
 
-Gli utenti possono anche limitare la modifica dei documenti selezionando [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/) come **ReadOnly**, ma questa è un'altra funzionalità che fornisce funzionalità di protezione più avanzate. Esiste una tale funzione in Microsoft Word, rispettivamente, è implementata in Aspose.Words.
+Gli utenti possono anche limitare la modifica dei documenti selezionando [ProtectionType](https://reference.aspose.com/words/it/net/aspose.words/protectiontype/) come **ReadOnly**, ma questa è un'altra funzionalità che fornisce funzionalità di protezione più avanzate. Esiste una tale funzione in Microsoft Word, rispettivamente, è implementata in Aspose.Words.
 
 **ProtectionType** sarà descritto in dettaglio in uno dei seguenti articoli – "Limita la modifica dei documenti".
 
@@ -52,7 +52,7 @@ Tieni presente che la password impostata è semplicemente una proprietà in un d
 
 {{% /alert %}}
 
-Se devi verificare se un documento ha una password di protezione da scrittura che ne impedisce la modifica, puoi utilizzare la proprietà [IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/).
+Se devi verificare se un documento ha una password di protezione da scrittura che ne impedisce la modifica, puoi utilizzare la proprietà [IsWriteProtected](https://reference.aspose.com/words/it/net/aspose.words.settings/writeprotection/iswriteprotected/).
 
 L'esempio di codice seguente mostra come rendere un documento di sola lettura:
 

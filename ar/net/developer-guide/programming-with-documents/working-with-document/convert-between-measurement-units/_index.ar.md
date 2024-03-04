@@ -11,7 +11,7 @@ url: /ar/net/convert-between-measurement-units/
 
 معظم خصائص الكائن المتوفرة في Aspose.Words API والتي تمثل بعض القياسات، مثل العرض أو الارتفاع والهوامش والمسافات المختلفة، تقبل القيم بالنقاط، حيث 1 بوصة تساوي 72 نقطة. في بعض الأحيان لا يكون هذا مناسبًا ويجب تحويل النقاط إلى وحدات أخرى.
 
-يوفر Aspose.Words فئة [ConvertUtil](https://reference.aspose.com/words/net/aspose.words/convertutil/) التي توفر وظائف مساعدة للتحويل بين وحدات القياس المختلفة. أنها تمكن من تحويل:
+يوفر Aspose.Words فئة [ConvertUtil](https://reference.aspose.com/words/ar/net/aspose.words/convertutil/) التي توفر وظائف مساعدة للتحويل بين وحدات القياس المختلفة. أنها تمكن من تحويل:
 
 - بوصة، بكسل، ومليمتر إلى نقطة
 - يشير إلى البوصة والبكسل

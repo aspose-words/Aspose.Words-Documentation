@@ -9,7 +9,7 @@ weight: 43
 url: /zh/net/convert-a-document-to-an-image/
 ---
 
-有时需要获取图像而不是其他格式的文档，例如 DOCX 或 PDF。例如，您需要将任何文档页面的预览添加到您的网站或应用程序，或者创建文档的"扫描"以发送发票。此时您可能需要将任何 [支持的加载格式](https://reference.aspose.com/words/net/aspose.words/loadformat/) 格式的文档转换为任何 [支持的保存格式](https://reference.aspose.com/words/net/aspose.words/saveformat/) 格式的图像。
+有时需要获取图像而不是其他格式的文档，例如 DOCX 或 PDF。例如，您需要将任何文档页面的预览添加到您的网站或应用程序，或者创建文档的"扫描"以发送发票。此时您可能需要将任何 [支持的加载格式](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 格式的文档转换为任何 [支持的保存格式](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/) 格式的图像。
 
 ## 转换为图像 {#convert-to-image-format}
 
@@ -21,13 +21,13 @@ url: /zh/net/convert-a-document-to-an-image/
 
 ## 转换为图像 {#specify-save-options-when-converting-to-an-image} 时指定保存选项
 
-Aspose.Words 为您提供了 [ImageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/) 类，它可以更好地控制如何以各种图像格式保存文档。此类的某些属性继承或重载了基类（例如 [FixedPageSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/) 或 [SaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/)）的属性，但也有一些特定于保存图像的选项。
+Aspose.Words 为您提供了 [ImageSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/) 类，它可以更好地控制如何以各种图像格式保存文档。此类的某些属性继承或重载了基类（例如 [FixedPageSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/) 或 [SaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/saveoptions/)）的属性，但也有一些特定于保存图像的选项。
 
-可以使用 [PageSet](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/pageset/) 属性指定要转换为图像格式的页面。例如，如果您只需要预览第一页或特定页面，则可以应用它。
+可以使用 [PageSet](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/pageset/) 属性指定要转换为图像格式的页面。例如，如果您只需要预览第一页或特定页面，则可以应用它。
 
-还可以使用以下属性控制输出图像质量和像素格式 - [HorizontalResolution](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/horizontalresolution/)、[VerticalResolution](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/verticalresolution/)、[Resolution](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/resolution/)、[Scale](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/scale/)、[PixelFormat](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/pixelformat/)，以及使用以下属性设置图像颜色设置 - [ImageBrightness](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagebrightness/)、[ImageColorMode](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagecolormode/)、[ImageContrast](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagecontrast/)、[PaperColor](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/papercolor/)。
+还可以使用以下属性控制输出图像质量和像素格式 - [HorizontalResolution](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/horizontalresolution/)、[VerticalResolution](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/verticalresolution/)、[Resolution](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/resolution/)、[Scale](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/scale/)、[PixelFormat](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/pixelformat/)，以及使用以下属性设置图像颜色设置 - [ImageBrightness](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/imagebrightness/)、[ImageColorMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/imagecolormode/)、[ImageContrast](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/imagecontrast/)、[PaperColor](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/papercolor/)。
 
-还有一些属性适用于某种格式，例如 [JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/jpegquality/) 或 [TiffCompression](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/tiffcompression/)。
+还有一些属性适用于某种格式，例如 [JpegQuality](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/jpegquality/) 或 [TiffCompression](https://reference.aspose.com/words/zh/net/aspose.words.saving/imagesaveoptions/tiffcompression/)。
 
 以下代码示例演示如何通过应用一些附加设置来创建第一个文档页面的预览：
 

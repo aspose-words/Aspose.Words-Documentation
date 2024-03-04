@@ -11,7 +11,7 @@ url: /de/net/applying-formatting/
 
 Jedes Element einer Tabelle kann mit unterschiedlichen Formatierungen versehen werden. Beispielsweise wird die Tabellenformatierung auf die gesamte Tabelle angewendet, die Zeilenformatierung nur auf bestimmte Zeilen und die Zellenformatierung nur auf bestimmte Zellen.
 
-Aspose.Words bietet eine umfangreiche API-Funktion zum Abrufen und Anwenden von Formatierungen auf eine Tabelle. Sie können die [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)-, [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/)- und [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/)-Knoten verwenden, um die Formatierung festzulegen.
+Aspose.Words bietet eine umfangreiche API-Funktion zum Abrufen und Anwenden von Formatierungen auf eine Tabelle. Sie können die [Table](https://reference.aspose.com/words/de/net/aspose.words.tables/table/)-, [RowFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/rowformat/)- und [CellFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/)-Knoten verwenden, um die Formatierung festzulegen.
 
 In diesem Artikel sprechen wir darüber, wie man Formatierungen auf verschiedene Tabellenknoten anwendet und welche Tabellenformatierungseinstellungen Aspose.Words unterstützt.
 
@@ -21,11 +21,11 @@ In diesem Abschnitt betrachten wir die Anwendung der Formatierung auf verschiede
 
 ### Formatierung auf Tabellenebene
 
-Um eine Formatierung auf eine Tabelle anzuwenden, können Sie die auf dem entsprechenden **Table**-Knoten verfügbaren Eigenschaften mithilfe der [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)-, [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/)- und [TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/)-Klassen verwenden.
+Um eine Formatierung auf eine Tabelle anzuwenden, können Sie die auf dem entsprechenden **Table**-Knoten verfügbaren Eigenschaften mithilfe der [Table](https://reference.aspose.com/words/de/net/aspose.words.tables/table/)-, [PreferredWidth](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidth/)- und [TableCollection](https://reference.aspose.com/words/de/net/aspose.words.tables/tablecollection/)-Klassen verwenden.
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass die Tabelle mindestens eine Zeile enthalten muss, bevor die Tabelleneigenschaften angewendet werden können. Dies bedeutet, dass beim Erstellen einer Tabelle mit [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) diese Formatierung nach dem ersten Aufruf von [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/) oder nach dem Hinzufügen der ersten Zeile zur Tabelle oder beim direkten Einfügen von Knoten in das DOM erfolgen muss.
+Beachten Sie, dass die Tabelle mindestens eine Zeile enthalten muss, bevor die Tabelleneigenschaften angewendet werden können. Dies bedeutet, dass beim Erstellen einer Tabelle mit [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/) diese Formatierung nach dem ersten Aufruf von [InsertCell](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertcell/) oder nach dem Hinzufügen der ersten Zeile zur Tabelle oder beim direkten Einfügen von Knoten in das DOM erfolgen muss.
 
 {{% /alert %}}
 
@@ -60,7 +60,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ### Formatierung auf Zeilenebene
 
-Die **Zeilenebene**-Formatierung kann mithilfe der Klassen [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) und [RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/) gesteuert werden.
+Die **Zeilenebene**-Formatierung kann mithilfe der Klassen [Row](https://reference.aspose.com/words/de/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/rowformat/) und [RowCollection](https://reference.aspose.com/words/de/net/aspose.words.tables/rowcollection/) gesteuert werden.
 
 {{% alert color="primary" %}}
 
@@ -84,11 +84,11 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ### Formatierung auf Zellenebene
 
-Die Formatierung auf Zellenebene wird durch die Klassen [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) und [CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/) gesteuert.
+Die Formatierung auf Zellenebene wird durch die Klassen [Cell](https://reference.aspose.com/words/de/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/) und [CellCollection](https://reference.aspose.com/words/de/net/aspose.words.tables/cellcollection/) gesteuert.
 
 {{% alert color="primary" %}}
 
-Beachten Sie, dass ein **Cell** nur ein untergeordneter Knoten eines **Row** sein kann. Gleichzeitig muss im **Cell** mindestens ein [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) vorhanden sein, damit Formatierungen darauf angewendet werden können.
+Beachten Sie, dass ein **Cell** nur ein untergeordneter Knoten eines **Row** sein kann. Gleichzeitig muss im **Cell** mindestens ein [Paragraph](https://reference.aspose.com/words/de/net/aspose.words/paragraph/) vorhanden sein, damit Formatierungen darauf angewendet werden können.
 
 Zusätzlich zum **Paragraph** können Sie auch ein **Table** in ein **Cell** einfügen.
 
@@ -120,14 +120,14 @@ Der einfachste Weg, die Zeilenhöhe festzulegen, ist die Verwendung von **Docume
 
 In Aspose.Words wird die Tabellenzeilenhöhe gesteuert durch:
 
-- die Eigenschaft Zeilenhöhe – [Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/)
-- die Eigenschaft der Höhenregel für die angegebene Zeile – [HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/heightrule/)
+- die Eigenschaft Zeilenhöhe – [Height](https://reference.aspose.com/words/de/net/aspose.words.tables/rowformat/height/)
+- die Eigenschaft der Höhenregel für die angegebene Zeile – [HeightRule](https://reference.aspose.com/words/de/net/aspose.words.tables/rowformat/heightrule/)
 
 Gleichzeitig kann für jede Reihe eine andere Höhe eingestellt werden – so können Sie die Tischeinstellungen weitestgehend steuern.
 
 {{% alert color="primary" %}}
 
-Regeloptionen zur Angabe der Höhe eines Objekts können mithilfe der [HeightRule](https://reference.aspose.com/words/net/aspose.words/heightrule/)-Enumeration festgelegt werden.
+Regeloptionen zur Angabe der Höhe eines Objekts können mithilfe der [HeightRule](https://reference.aspose.com/words/de/net/aspose.words/heightrule/)-Enumeration festgelegt werden.
 
 {{% /alert %}}
 
@@ -168,11 +168,11 @@ Alle in diesem Artikel beschriebenen Eigenschaften und Methoden beziehen sich au
 
 Die gewünschte Breite einer Tabelle oder einzelner Zellen wird durch die Eigenschaft "Preferred width" definiert, die die Größe angibt, die ein Element annehmen soll. Das heißt, die bevorzugte Breite kann für die gesamte Tabelle oder für einzelne Zellen angegeben werden. In manchen Situationen ist es möglicherweise nicht möglich, diese Breite genau anzupassen, in den meisten Fällen liegt die tatsächliche Breite jedoch nahe an diesem Wert.
 
-Der geeignete bevorzugte Breitentyp und -wert wird mithilfe der Methoden der [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/)-Klasse festgelegt:
+Der geeignete bevorzugte Breitentyp und -wert wird mithilfe der Methoden der [PreferredWidth](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidth/)-Klasse festgelegt:
 
-* die [Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/auto/)-Methode zur Angabe von "Auto" oder "Keine bevorzugte Breite"
-* die [FromPercent](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompercent/)-Methode zur Angabe einer prozentualen Breite
-* die [FromPoints](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompoints/)-Methode zur Angabe der Breite in Punkten
+* die [Auto](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidth/auto/)-Methode zur Angabe von "Auto" oder "Keine bevorzugte Breite"
+* die [FromPercent](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidth/frompercent/)-Methode zur Angabe einer prozentualen Breite
+* die [FromPoints](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidth/frompoints/)-Methode zur Angabe der Breite in Punkten
 
 Die folgenden Bilder zeigen eine Darstellung der *bevorzugten Breiteneinstellungsfunktionen* in Microsoft Word und ihrer entsprechenden Eigenschaften in Aspose.Words.
 
@@ -190,7 +190,7 @@ Bevor Sie die bevorzugte Breite in einer Tabelle verwenden können, müssen Sie 
 
 #### Geben Sie die bevorzugte Tabellen- oder Zellenbreite an
 
-In Aspose.Words werden Tabellen- und Zellenbreiten mithilfe der [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/)-Eigenschaft und der [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/)-Eigenschaft festgelegt. Die Optionen sind in der [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/)-Enumeration verfügbar:
+In Aspose.Words werden Tabellen- und Zellenbreiten mithilfe der [Table.PreferredWidth](https://reference.aspose.com/words/de/net/aspose.words.tables/table/preferredwidth/)-Eigenschaft und der [CellFormat.PreferredWidth](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/preferredwidth/)-Eigenschaft festgelegt. Die Optionen sind in der [PreferredWidthType](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidthtype/)-Enumeration verfügbar:
 
 - **Auto**, was bedeutet, dass keine bevorzugte Breite festgelegt ist
 - **Percent**, das das Element relativ zum verfügbaren Platz im Fenster oder der Containergröße anpasst und den Wert neu berechnet, wenn sich die verfügbare Breite ändert
@@ -202,13 +202,13 @@ Standardmäßig kann eine Tabelle so beschrieben werden, dass sie 100 % des verf
 
 {{% /alert %}}
 
-Durch die Verwendung der [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/)-Eigenschaft wird die bevorzugte Breite relativ zum Container angepasst: Seite, Textspalte oder äußere Tabellenzelle, wenn es sich um eine verschachtelte Tabelle handelt.
+Durch die Verwendung der [Table.PreferredWidth](https://reference.aspose.com/words/de/net/aspose.words.tables/table/preferredwidth/)-Eigenschaft wird die bevorzugte Breite relativ zum Container angepasst: Seite, Textspalte oder äußere Tabellenzelle, wenn es sich um eine verschachtelte Tabelle handelt.
 
 Das folgende Codebeispiel zeigt, wie Sie die Tabelle so einstellen, dass sie automatisch an 50 % der Seitenbreite angepasst wird:
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
-Wenn Sie die [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/)-Eigenschaft für eine bestimmte Zelle verwenden, wird deren bevorzugte Breite angepasst.
+Wenn Sie die [CellFormat.PreferredWidth](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/preferredwidth/)-Eigenschaft für eine bestimmte Zelle verwenden, wird deren bevorzugte Breite angepasst.
 
 Das folgende Codebeispiel zeigt, wie Sie die verschiedenen bevorzugten Breiteneinstellungen festlegen:
 
@@ -216,7 +216,7 @@ Das folgende Codebeispiel zeigt, wie Sie die verschiedenen bevorzugten Breitenei
 
 #### Finden Sie den bevorzugten Breitentyp und -wert
 
-Sie können die [Type](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/)- und [Value](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/value/)-Eigenschaften verwenden, um die bevorzugten Breitendetails der gewünschten Tabelle oder Zelle zu ermitteln.
+Sie können die [Type](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidth/type/)- und [Value](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidth/value/)-Eigenschaften verwenden, um die bevorzugten Breitendetails der gewünschten Tabelle oder Zelle zu ermitteln.
 
 Das folgende Codebeispiel zeigt, wie der bevorzugte Breitentyp einer Tabellenzelle abgerufen wird:
 
@@ -230,7 +230,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ### So stellen Sie Autofit ein
 
-Die [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/)-Eigenschaft ermöglicht das Vergrößern und Verkleinern von Zellen in einer Tabelle gemäß einem ausgewählten Kriterium. Sie können beispielsweise die **Automatisch an Fenster anpassen**-Option verwenden, um die Tabelle an die Breite der Seite anzupassen, und die **Automatisch an den Inhalt anpassen**-Option, um zuzulassen, dass jede Zelle entsprechend ihrem Inhalt vergrößert oder verkleinert wird.
+Die [AllowAutoFit](https://reference.aspose.com/words/de/net/aspose.words.tables/table/allowautofit/)-Eigenschaft ermöglicht das Vergrößern und Verkleinern von Zellen in einer Tabelle gemäß einem ausgewählten Kriterium. Sie können beispielsweise die **Automatisch an Fenster anpassen**-Option verwenden, um die Tabelle an die Breite der Seite anzupassen, und die **Automatisch an den Inhalt anpassen**-Option, um zuzulassen, dass jede Zelle entsprechend ihrem Inhalt vergrößert oder verkleinert wird.
 
 {{% alert color="primary" %}}
 
@@ -238,7 +238,7 @@ Darüber hinaus kann die **AllowAutoFit**-Eigenschaft in Verbindung mit einer be
 
 {{% /alert %}}
 
-Standardmäßig fügt Aspose.Words mithilfe von **Automatisch an Fenster anpassen** eine neue Tabelle ein. Die Größe der Tabelle wird entsprechend der verfügbaren Seitenbreite angepasst. Um die Größe einer Tabelle zu ändern, können Sie die [AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/)-Methode aufrufen. Diese Methode akzeptiert eine [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/)-Enumeration, die angibt, welcher Typ der automatischen Anpassung auf die Tabelle angewendet wird.
+Standardmäßig fügt Aspose.Words mithilfe von **Automatisch an Fenster anpassen** eine neue Tabelle ein. Die Größe der Tabelle wird entsprechend der verfügbaren Seitenbreite angepasst. Um die Größe einer Tabelle zu ändern, können Sie die [AutoFit](https://reference.aspose.com/words/de/net/aspose.words.tables/table/autofit/)-Methode aufrufen. Diese Methode akzeptiert eine [AutoFitBehavior](https://reference.aspose.com/words/de/net/aspose.words.tables/autofitbehavior/)-Enumeration, die angibt, welcher Typ der automatischen Anpassung auf die Tabelle angewendet wird.
 
 Es ist wichtig zu wissen, dass es sich bei der Autofit-Methode tatsächlich um eine Verknüpfung handelt, die gleichzeitig verschiedene Eigenschaften auf die Tabelle anwendet. Dies sind Eigenschaften, die der Tabelle tatsächlich das beobachtete Verhalten verleihen. Wir werden diese Eigenschaften für jede Autofit-Option besprechen.
 
@@ -298,7 +298,7 @@ Wenn für eine Tabelle die automatische Anpassung deaktiviert ist und stattdesse
 1. Die **Table.AllowAutoFit**-Eigenschaft ist deaktiviert, sodass Spalten nicht entsprechend ihrem Inhalt vergrößert oder verkleinert werden
 
 2. Die bevorzugte Breite der gesamten Tabelle wird aus **Table.PreferredWidth** entfernt, **CellFormat.PreferredWidth** wird aus allen Tabellenzellen entfernt
-3. Das Endergebnis ist eine Tabelle, deren Spaltenbreiten durch die [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/)-Eigenschaft bestimmt werden und deren Spaltengröße nicht automatisch geändert wird, wenn der Benutzer Text eingibt oder wenn die Seitengröße geändert wird
+3. Das Endergebnis ist eine Tabelle, deren Spaltenbreiten durch die [CellFormat.Width](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/width/)-Eigenschaft bestimmt werden und deren Spaltengröße nicht automatisch geändert wird, wenn der Benutzer Text eingibt oder wenn die Seitengröße geändert wird
 
 {{% alert color="primary" %}}
 
@@ -318,7 +318,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ### Rangfolge bei der Berechnung der Zellenbreite
 
-Aspose.Words ermöglicht es Benutzern, die Breite einer Tabelle oder Zelle über mehrere Objekte, einschließlich [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/), zu definieren – seine [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/)-Eigenschaft ist größtenteils aus früheren Versionen übrig geblieben, sie ist jedoch immer noch nützlich, um das Festlegen der Zellenbreite zu vereinfachen.
+Aspose.Words ermöglicht es Benutzern, die Breite einer Tabelle oder Zelle über mehrere Objekte, einschließlich [CellFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/), zu definieren – seine [Width](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/width/)-Eigenschaft ist größtenteils aus früheren Versionen übrig geblieben, sie ist jedoch immer noch nützlich, um das Festlegen der Zellenbreite zu vereinfachen.
 
 Es ist wichtig zu wissen, dass die **CellFormat.Width**-Eigenschaft unterschiedlich funktioniert, je nachdem, welche der anderen Breiteneigenschaften bereits in der Tabelle vorhanden sind.
 
@@ -326,9 +326,9 @@ Aspose.Words verwendet die folgende Reihenfolge zur Berechnung der Zellenbreiten
 
 |  Befehl |  Eigentum |  Beschreibung |
 |  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) wird ermittelt |  Wenn **AutoFit** aktiviert ist:<br>- Die Tabelle kann über die bevorzugte Breite hinaus wachsen, um den Inhalt aufzunehmen – normalerweise schrumpft sie nicht unter die bevorzugte Breite<br>– Jede Änderung am **CellFormat.Width**-Wert wird ignoriert und die Zelle passt stattdessen an ihren Inhalt |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) mit dem Wert **Points** oder **Percent** |  **CellFormat.Width** wird ignoriert |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) mit dem Wert **Auto** |  Der Wert aus **CellFormat.Width** wird kopiert und wird zur bevorzugten Breite der Zelle (in Punkt) |
+|  1      |  [AllowAutoFit](https://reference.aspose.com/words/de/net/aspose.words.tables/table/allowautofit/) wird ermittelt |  Wenn **AutoFit** aktiviert ist:<br>- Die Tabelle kann über die bevorzugte Breite hinaus wachsen, um den Inhalt aufzunehmen – normalerweise schrumpft sie nicht unter die bevorzugte Breite<br>– Jede Änderung am **CellFormat.Width**-Wert wird ignoriert und die Zelle passt stattdessen an ihren Inhalt |
+|  2      |  [PreferredWidthType](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidthtype/) mit dem Wert **Points** oder **Percent** |  **CellFormat.Width** wird ignoriert |
+|  3      |  [PreferredWidthType](https://reference.aspose.com/words/de/net/aspose.words.tables/preferredwidthtype/) mit dem Wert **Auto** |  Der Wert aus **CellFormat.Width** wird kopiert und wird zur bevorzugten Breite der Zelle (in Punkt) |
 
 {{% alert color="primary" %}}
 
@@ -344,7 +344,7 @@ Geben Sie beim Erstellen eines festen Tabellenlayouts die Zellenbreite an. Eine 
 
 ## Abstand zwischen Zellen zulassen
 
-Sie können jeden zusätzlichen Abstand zwischen Tabellenzellen erhalten oder festlegen, ähnlich der Option "Zellenabstand" in Microsoft Word. Dies kann über die [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/)-Eigenschaft erfolgen.
+Sie können jeden zusätzlichen Abstand zwischen Tabellenzellen erhalten oder festlegen, ähnlich der Option "Zellenabstand" in Microsoft Word. Dies kann über die [AllowCellSpacing](https://reference.aspose.com/words/de/net/aspose.words.tables/table/allowcellspacing/)-Eigenschaft erfolgen.
 
 Ein Beispiel dafür, wie diese Optionen auf eine echte Tabelle in einem Dokument angewendet werden, ist im Bild unten zu sehen.
 
@@ -356,7 +356,7 @@ Das folgende Codebeispiel zeigt, wie der Abstand zwischen Zellen festgelegt wird
 
 ## Wenden Sie Ränder und Schattierungen an
 
-Rahmen und Schattierungen können mit [Table.SetBorder](https://reference.aspose.com/words/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/net/aspose.words.tables/table/setborders/) und [Table.SetShading](https://reference.aspose.com/words/net/aspose.words.tables/table/setshading/) entweder auf die gesamte Tabelle oder mit [CellFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/borders/) und [CellFormat.Shading](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/shading/) nur auf bestimmte Zellen angewendet werden. Darüber hinaus können Zeilenränder mit [RowFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/borders/) festgelegt werden, Schattierungen können auf diese Weise jedoch nicht angewendet werden.
+Rahmen und Schattierungen können mit [Table.SetBorder](https://reference.aspose.com/words/de/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/de/net/aspose.words.tables/table/setborders/) und [Table.SetShading](https://reference.aspose.com/words/de/net/aspose.words.tables/table/setshading/) entweder auf die gesamte Tabelle oder mit [CellFormat.Borders](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/borders/) und [CellFormat.Shading](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/shading/) nur auf bestimmte Zellen angewendet werden. Darüber hinaus können Zeilenränder mit [RowFormat.Borders](https://reference.aspose.com/words/de/net/aspose.words.tables/rowformat/borders/) festgelegt werden, Schattierungen können auf diese Weise jedoch nicht angewendet werden.
 
 Die Bilder unten zeigen die Rahmen- und Schatteneinstellungen in Microsoft Word und ihre entsprechenden Eigenschaften in Aspose.Words.
 

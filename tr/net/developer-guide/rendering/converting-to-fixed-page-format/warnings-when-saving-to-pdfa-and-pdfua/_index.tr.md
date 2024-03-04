@@ -13,7 +13,7 @@ PDF/A ve PDF/UA formatları, Word'den PDF'ye otomatik dönüştürme sırasında
 
 PDF/A veya PDF/UA formatlarından birine kaydederken uyarılar veriliyor ve sorun uyumluluğu ihlal ediyor. Örneğin, eksik belge başlığıyla ilgili uyarı, PDF/UA'ya kaydederken verilecektir, PDF/A'ya kaydederken yayınlanmayacaktır.
 
-Tüm uyarılar [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.MinorFormattingLoss** ve [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.Pdf**'e aittir. Yeni Açıklama uyarı değerlerinin listesi aşağıda verilmiştir:
+Tüm uyarılar [WarningType](https://reference.aspose.com/words/tr/net/aspose.words/warningtype/)**.MinorFormattingLoss** ve [WarningSource](https://reference.aspose.com/words/tr/net/aspose.words/warningsource/)**.Pdf**'e aittir. Yeni Açıklama uyarı değerlerinin listesi aşağıda verilmiştir:
 
 |  Açıklama uyarı değeri |  PDF/A |  PDF/UA |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

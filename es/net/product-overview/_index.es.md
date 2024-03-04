@@ -41,7 +41,7 @@ Las funciones de Aspose.Words para .NET se pueden dividir en cuatro áreas princ
 
 La capacidad de convertir documentos de forma fácil y fiable es una de las principales características de Aspose.Words.
 
-El [Cargar, guardar y convertir](/words/es/net/loading-saving-and-converting/) completo con [Formatos de documentos admitidos](/words/es/net/supported-document-formats/) permite a los usuarios convertir documentos de [un formato popular](https://reference.aspose.com/words/net/aspose.words/loadformat/) a [another](https://reference.aspose.com/words/net/aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown, o de PDF a varios formatos de Word.
+El [Cargar, guardar y convertir](/words/es/net/loading-saving-and-converting/) completo con [Formatos de documentos admitidos](/words/es/net/supported-document-formats/) permite a los usuarios convertir documentos de [un formato popular](https://reference.aspose.com/words/es/net/aspose.words/loadformat/) a [another](https://reference.aspose.com/words/es/net/aspose.words/saveformat/), por ejemplo, de DOCX a PDF, JPEG o Markdown, o de PDF a varios formatos de Word.
 
 #### Modelo de objetos de documento (DOM)
 
@@ -87,7 +87,7 @@ Aunque hay más de 150 clases públicas y enumeraciones en Aspose.Words, la curv
 
 Los desarrolladores que hayan utilizado anteriormente Microsoft Word Automation en sus proyectos encontrarán familiares los nombres y el comportamiento de muchas clases, métodos y propiedades.
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/net/aspose.words/bookmark/), [Range](https://reference.aspose.com/words/net/aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/net/aspose.words/section/pagesetup/) y [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) son algunas de las clases Aspose.Words. Al mismo tiempo, Aspose.Words es bastante diferente del modelo de objetos de Word Microsoft en que representa un documento como un árbol de objetos, más parecido a un árbol XML DOM. Si ha trabajado con alguna biblioteca XML DOM, encontrará que es fácil de entender y trabajar con Aspose.Words.
+[Document](https://reference.aspose.com/words/es/net/aspose.words/document/), [Paragraph](https://reference.aspose.com/words/es/net/aspose.words/paragraph/), [Bookmark](https://reference.aspose.com/words/es/net/aspose.words/bookmark/), [Range](https://reference.aspose.com/words/es/net/aspose.words/range/), [Section.PageSetup](https://reference.aspose.com/words/es/net/aspose.words/section/pagesetup/) y [Paragraph.ParagraphFormat](https://reference.aspose.com/words/es/net/aspose.words/paragraphformat/) son algunas de las clases Aspose.Words. Al mismo tiempo, Aspose.Words es bastante diferente del modelo de objetos de Word Microsoft en que representa un documento como un árbol de objetos, más parecido a un árbol XML DOM. Si ha trabajado con alguna biblioteca XML DOM, encontrará que es fácil de entender y trabajar con Aspose.Words.
 
 ## Precios y políticas
 

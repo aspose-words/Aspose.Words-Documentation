@@ -24,11 +24,11 @@ Aspose.Words bietet zwei Möglichkeiten, den Such- und Ersetzungsvorgang anzuwen
 
 Darüber hinaus können Sie spezielle Metazeichen mit einfacher Zeichenfolgenersetzung und regulären Ausdrücken verwenden, um Pausen innerhalb des Such- und Ersetzungsvorgangs anzugeben.
 
-Aspose.Words bietet die Such- und Ersetzungsfunktion mit dem [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/)-Namespace. Mithilfe der [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/)-Klasse können Sie während des Such- und Ersetzungsprozesses mit vielen Optionen arbeiten.
+Aspose.Words bietet die Such- und Ersetzungsfunktion mit dem [Aspose.Words.Replacing](https://reference.aspose.com/words/de/net/aspose.words.replacing/)-Namespace. Mithilfe der [FindReplaceOptions](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/)-Klasse können Sie während des Such- und Ersetzungsprozesses mit vielen Optionen arbeiten.
 
 ### Suchen und ersetzen Sie Text mithilfe der einfachen Zeichenfolgenersetzung {#find-and-replace-text-using-simple-string-replacement}
 
-Sie können eine der [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/#replace/)-Methoden verwenden, um eine bestimmte Zeichenfolge zu suchen oder zu ersetzen und die Anzahl der vorgenommenen Ersetzungen zurückzugeben. In diesem Fall können Sie eine zu ersetzende Zeichenfolge angeben, eine Zeichenfolge, die alle Vorkommen ersetzt, ob bei der Ersetzung die Groß-/Kleinschreibung beachtet werden soll und ob nur eigenständige Wörter betroffen sein sollen.
+Sie können eine der [Replace](https://reference.aspose.com/words/de/net/aspose.words/range/replace/#replace/)-Methoden verwenden, um eine bestimmte Zeichenfolge zu suchen oder zu ersetzen und die Anzahl der vorgenommenen Ersetzungen zurückzugeben. In diesem Fall können Sie eine zu ersetzende Zeichenfolge angeben, eine Zeichenfolge, die alle Vorkommen ersetzt, ob bei der Ersetzung die Groß-/Kleinschreibung beachtet werden soll und ob nur eigenständige Wörter betroffen sein sollen.
 
 Das folgende Codebeispiel zeigt, wie Sie die Zeichenfolge "_CustomerName_" finden und durch die Zeichenfolge *"James Bond"* ersetzen:
 
@@ -46,7 +46,7 @@ Und nach der einfachen String-Ersetzung:
 
 Ein regulärer Ausdruck (Regex) ist ein Muster, das eine bestimmte Textsequenz beschreibt. Angenommen, Sie möchten alle doppelten Vorkommen eines Wortes durch ein einziges Wort ersetzen. Anschließend können Sie den folgenden regulären Ausdruck anwenden, um das Doppelwortmuster anzugeben: `([a-zA-Z]+) \1`.
 
-Verwenden Sie die andere [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/)-Methode, um bestimmte Zeichenkombinationen zu suchen und zu ersetzen, indem Sie den `Regex`-Parameter als reguläres Ausdrucksmuster festlegen, um Übereinstimmungen zu finden.
+Verwenden Sie die andere [Replace](https://reference.aspose.com/words/de/net/aspose.words/range/replace/)-Methode, um bestimmte Zeichenkombinationen zu suchen und zu ersetzen, indem Sie den `Regex`-Parameter als reguläres Ausdrucksmuster festlegen, um Übereinstimmungen zu finden.
 
 Das folgende Codebeispiel zeigt, wie Zeichenfolgen, die einem regulären Ausdrucksmuster entsprechen, durch eine angegebene Ersetzungszeichenfolge ersetzt werden:
 
@@ -76,7 +76,7 @@ Das folgende Codebeispiel zeigt, wie Text durch Absatz und Seitenumbruch ersetzt
 
 ## Suchen und ersetzen Sie eine Zeichenfolge in der Kopf-/Fußzeile eines {#find-and-replace-string-in-header-or-footer-of-a-document}-Dokuments
 
-Mithilfe der [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/)-Klasse können Sie Text im Kopf-/Fußzeilenbereich eines Word-Dokuments suchen und ersetzen.
+Mithilfe der [HeaderFooter](https://reference.aspose.com/words/de/net/aspose.words/headerfooter/)-Klasse können Sie Text im Kopf-/Fußzeilenbereich eines Word-Dokuments suchen und ersetzen.
 
 Das folgende Codebeispiel zeigt, wie Sie den Text des Kopfzeilenabschnitts in Ihrem Dokument ersetzen:
 
@@ -117,7 +117,7 @@ Und nach dem Ersetzen der Fußzeilenzeichenfolge:
 
 Während Sie den Such- und Ersetzungsvorgang anwenden, können Sie bestimmte Textsegmente ignorieren. So können bestimmte Teile des Textes von der Suche ausgeschlossen werden und das Suchen und Ersetzen nur auf die übrigen Teile angewendet werden.
 
-Aspose.Words bietet viele Such- und Ersetzungseigenschaften zum Ignorieren von Text wie [IgnoreDeleted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) und [IgnoreInserted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
+Aspose.Words bietet viele Such- und Ersetzungseigenschaften zum Ignorieren von Text wie [IgnoreDeleted](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) und [IgnoreInserted](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
 
 Das folgende Codebeispiel zeigt, wie Text in Löschrevisionen ignoriert wird:
 
@@ -125,13 +125,13 @@ Das folgende Codebeispiel zeigt, wie Text in Löschrevisionen ignoriert wird:
 
 ## Passen Sie den Such- und Ersetzungsvorgang {#customize-find-and-replace-operation} an
 
-Aspose.Words bietet viele verschiedene [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) zum Suchen und Ersetzen von Text, z. B. das Anwenden eines bestimmten Formats mit [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyfont/)- und [ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/)-Eigenschaften, die Verwendung von Ersetzungen in Ersetzungsmustern mit [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/)-Eigenschaften und andere.
+Aspose.Words bietet viele verschiedene [properties](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/) zum Suchen und Ersetzen von Text, z. B. das Anwenden eines bestimmten Formats mit [ApplyFont](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/applyfont/)- und [ApplyParagraphFormats](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/)-Eigenschaften, die Verwendung von Ersetzungen in Ersetzungsmustern mit [UseSubstitutions](https://reference.aspose.com/words/de/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/)-Eigenschaften und andere.
 
 Das folgende Codebeispiel zeigt, wie Sie ein bestimmtes Wort in Ihrem Dokument hervorheben:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
 
-Mit Aspose.Words können Sie die [IReplacingCallback](https://reference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback/)-Schnittstelle verwenden, um während eines Ersetzungsvorgangs eine benutzerdefinierte Methode zu erstellen und aufzurufen. Möglicherweise gibt es einige Anwendungsfälle, in denen Sie den Such- und Ersetzungsvorgang anpassen müssen, z. B. das Ersetzen von mit einem regulären Ausdruck angegebenem Text durch HTML-Tags. Grundsätzlich wenden Sie also das Ersetzen durch Einfügen von HTML an.
+Mit Aspose.Words können Sie die [IReplacingCallback](https://reference.aspose.com/words/de/net/aspose.words.replacing/ireplacingcallback/)-Schnittstelle verwenden, um während eines Ersetzungsvorgangs eine benutzerdefinierte Methode zu erstellen und aufzurufen. Möglicherweise gibt es einige Anwendungsfälle, in denen Sie den Such- und Ersetzungsvorgang anpassen müssen, z. B. das Ersetzen von mit einem regulären Ausdruck angegebenem Text durch HTML-Tags. Grundsätzlich wenden Sie also das Ersetzen durch Einfügen von HTML an.
 
 Wenn Sie eine Zeichenfolge durch ein HTML-Tag ersetzen müssen, wenden Sie die **IReplacingCallback**-Schnittstelle an, um den Such- und Ersetzungsvorgang so anzupassen, dass die Übereinstimmung am Anfang einer Ausführung mit dem Übereinstimmungsknoten Ihres Dokuments beginnt. Lassen Sie uns einige Beispiele für die Verwendung von **IReplacingCallback** bereitstellen.
 

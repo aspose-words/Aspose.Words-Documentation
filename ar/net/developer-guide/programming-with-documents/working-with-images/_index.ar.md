@@ -13,16 +13,16 @@ url: /ar/net/working-with-images/
 
 ## كيفية إدراج صورة {#insert-an-image}
 
-يوفر [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) العديد من التحميلات الزائدة لطريقة [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) التي تسمح لك بإدراج صورة مضمّنة أو عائمة. إذا كانت الصورة عبارة عن ملف تعريف EMF أو WMF، فسيتم إدراجها في المستند بتنسيق ملف تعريف. سيتم تخزين جميع الصور الأخرى بتنسيق PNG. يمكن لطريقة **InsertImage** استخدام صور من مصادر مختلفة:
+يوفر [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) العديد من التحميلات الزائدة لطريقة [InsertImage](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertimage/) التي تسمح لك بإدراج صورة مضمّنة أو عائمة. إذا كانت الصورة عبارة عن ملف تعريف EMF أو WMF، فسيتم إدراجها في المستند بتنسيق ملف تعريف. سيتم تخزين جميع الصور الأخرى بتنسيق PNG. يمكن لطريقة **InsertImage** استخدام صور من مصادر مختلفة:
 
-- من ملف أو `URL` عن طريق تمرير معلمة `String` [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/)
+- من ملف أو `URL` عن طريق تمرير معلمة `String` [InsertImage](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertimage/)
 - من الدفق عن طريق تمرير معلمة `Stream` **InsertImage**
 - من كائن صورة عن طريق تمرير معلمة الصورة **InsertImage**
 - من صفيف بايت عن طريق تمرير معلمة صفيف بايت **InsertImage**
 
 لكل طريقة من طرق **InsertImage**، هناك المزيد من التحميلات الزائدة التي تسمح لك بإدراج صورة بالخيارات التالية:
 - مضمنة أو عائمة في موضع محدد، على سبيل المثال، **InsertImage**
-- مقياس النسبة المئوية أو الحجم المخصص، على سبيل المثال، **InsertImage**؛ علاوة على ذلك، تقوم طريقة **InsertImage** بإرجاع كائن [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) الذي تم إنشاؤه وإدراجه للتو حتى تتمكن من تعديل خصائص الشكل بشكل أكبر
+- مقياس النسبة المئوية أو الحجم المخصص، على سبيل المثال، **InsertImage**؛ علاوة على ذلك، تقوم طريقة **InsertImage** بإرجاع كائن [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/) الذي تم إنشاؤه وإدراجه للتو حتى تتمكن من تعديل خصائص الشكل بشكل أكبر
 
 ### كيفية إدراج صورة مضمنة {#insert-an-inline-image}
 
@@ -40,12 +40,12 @@ url: /ar/net/working-with-images/
 
 ## كيفية استخراج الصور من وثيقة {#how-to-extract-images-from-a-document}
 
-يتم تخزين كافة الصور داخل عقد **Shape** في [Document](https://reference.aspose.com/words/net/aspose.words/document/). لاستخراج جميع الصور أو الصور ذات النوع المحدد من المستند، اتبع الخطوات التالية:
+يتم تخزين كافة الصور داخل عقد **Shape** في [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/). لاستخراج جميع الصور أو الصور ذات النوع المحدد من المستند، اتبع الخطوات التالية:
 
-- استخدم طريقة [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) لتحديد جميع عقد **Shape**.
+- استخدم طريقة [GetChildNodes](https://reference.aspose.com/words/ar/net/aspose.words/compositenode/getchildnodes/) لتحديد جميع عقد **Shape**.
 - التكرار من خلال مجموعات العقدة الناتجة.
-- التحقق من خاصية [HasImage](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hasimage/) المنطقية.
-- استخراج بيانات الصورة باستخدام خاصية [ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/imagedata/).
+- التحقق من خاصية [HasImage](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/hasimage/) المنطقية.
+- استخراج بيانات الصورة باستخدام خاصية [ImageData](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/imagedata/).
 - حفظ بيانات الصورة إلى ملف.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخراج الصور من مستند وحفظها كملفات:
@@ -70,7 +70,7 @@ url: /ar/net/working-with-images/
 
 ## قفل نسبة العرض إلى الارتفاع للصورة {#lock-aspect-ratio-of-image}
 
-نسبة العرض إلى الارتفاع للشكل الهندسي هي نسبة أحجامه في أبعاد مختلفة. يمكنك قفل نسبة العرض إلى الارتفاع للصورة باستخدام [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/). تعتمد القيمة الافتراضية لنسبة العرض إلى الارتفاع للشكل على [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype/). إنه *true* لـ `ShapeType.Image` و*false* لأنواع الأشكال الأخرى.
+نسبة العرض إلى الارتفاع للشكل الهندسي هي نسبة أحجامه في أبعاد مختلفة. يمكنك قفل نسبة العرض إلى الارتفاع للصورة باستخدام [AspectRatioLocked](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shapebase/aspectratiolocked/). تعتمد القيمة الافتراضية لنسبة العرض إلى الارتفاع للشكل على [ShapeType](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shapetype/). إنه *true* لـ `ShapeType.Image` و*false* لأنواع الأشكال الأخرى.
 
 يوضح مثال التعليمات البرمجية التالي كيفية العمل مع نسبة العرض إلى الارتفاع:
 
@@ -78,7 +78,7 @@ url: /ar/net/working-with-images/
 
 ## كيفية الحصول على الحدود الفعلية للشكل بالنقاط {#how-to-get-actual-bounds-of-shape-in-points}
 
-إذا كنت تريد المربع المحيط الفعلي للشكل كما هو معروض على الصفحة، فيمكنك تحقيق ذلك باستخدام خاصية [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/boundsinpoints/).
+إذا كنت تريد المربع المحيط الفعلي للشكل كما هو معروض على الصفحة، فيمكنك تحقيق ذلك باستخدام خاصية [BoundsInPoints](https://reference.aspose.com/words/ar/net/aspose.words.rendering/noderendererbase/boundsinpoints/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخدام هذه الخاصية:
 

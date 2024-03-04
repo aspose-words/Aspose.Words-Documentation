@@ -41,7 +41,7 @@ Python via .NET özellikleri için Aspose.Words dört ana alana ayrılabilir.
 
 Belgeleri kolay ve güvenilir bir şekilde dönüştürme yeteneği Aspose.Words'in temel özelliklerinden biridir.
 
-[Desteklenen Belge Formatları](/words/tr/python-net/supported-document-formats/) ile kapsamlı [Yükleme, Kaydetme ve Dönüştürme](/words/tr/python-net/loading-saving-and-converting/), kullanıcıların belgeleri [popüler bir format](https://reference.aspose.com/words/net/aspose.words/loadformat/)'ten [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)'a, örneğin DOCX'ten PDF, JPEG veya Markdown'ye veya PDF'den çeşitli Word formatlarına dönüştürmesine olanak tanır.
+[Desteklenen Belge Formatları](/words/tr/python-net/supported-document-formats/) ile kapsamlı [Yükleme, Kaydetme ve Dönüştürme](/words/tr/python-net/loading-saving-and-converting/), kullanıcıların belgeleri [popüler bir format](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/)'ten [another](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/)'a, örneğin DOCX'ten PDF, JPEG veya Markdown'ye veya PDF'den çeşitli Word formatlarına dönüştürmesine olanak tanır.
 
 #### Document Object Model (DOM)
 

@@ -9,7 +9,7 @@ weight: 310
 url: /tr/net/working-with-charts/
 ---
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) sınıfına yeni [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) yöntemi eklendi. Şimdi [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) yöntemini kullanarak belgeye basit bir sütun grafiğinin nasıl ekleneceğini görelim.
+[DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) sınıfına yeni [InsertChart](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertchart/) yöntemi eklendi. Şimdi [InsertChart](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertchart/) yöntemini kullanarak belgeye basit bir sütun grafiğinin nasıl ekleneceğini görelim.
 
 ## Grafik Nasıl Eklenir
 
@@ -78,7 +78,7 @@ Kod aşağıdaki sonuçları üretir:
 
 ## ChartSeriesCollection of Chart ile Nasıl Çalışılır
 
-[ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) koleksiyonuna bakalım. Tüm grafik serilerine **IEnumerable** olan [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/) koleksiyonu aracılığıyla ulaşılabilir:
+[ChartSeries](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartseries/) koleksiyonuna bakalım. Tüm grafik serilerine **IEnumerable** olan [chart.Series](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chart/series/) koleksiyonu aracılığıyla ulaşılabilir:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
@@ -95,7 +95,7 @@ Lütfen aşağıdaki sonuca bakın:
 ![line-chart-chartseries-aspose-words-net](/words/net/working-with-charts/working-with-charts-7.png)
 
 
-Tüm tek [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/)'lerin varsayılan [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) seçenekleri vardır; bunları değiştirmek için lütfen aşağıdaki kodu kullanmayı deneyin:
+Tüm tek [ChartSeries](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartseries/)'lerin varsayılan [ChartDataPoint](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartdatapoint/) seçenekleri vardır; bunları değiştirmek için lütfen aşağıdaki kodu kullanmayı deneyin:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
@@ -105,7 +105,7 @@ Lütfen aşağıdaki sonuca bakın:
 
 ## `ChartSeries`'in Tek ChartDataPoint'iyle Nasıl Çalışılır?
 
-[ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/)'i kullanarak grafik serisinin tek bir veri noktasının formatını özelleştirebilirsiniz:
+[ChartDataPoint](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartdatapoint/)'i kullanarak grafik serisinin tek bir veri noktasının formatını özelleştirebilirsiniz:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
@@ -115,7 +115,7 @@ Lütfen aşağıdaki sonuca bakın:
 
 ## Tek bir ChartSeries'in ChartDataLabel'ı ile Nasıl Çalışılır?
 
-[ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/)'i kullanarak, grafik serisinin tek bir veri etiketinin formatını, LegendKey'i göster/gizle, KategoriAdı, SeriAdı, Değer vb. gibi belirtebilirsiniz:
+[ChartDataLabel](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartdatalabel/)'i kullanarak, grafik serisinin tek bir veri etiketinin formatını, LegendKey'i göster/gizle, KategoriAdı, SeriAdı, Değer vb. gibi belirtebilirsiniz:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
@@ -125,7 +125,7 @@ Lütfen aşağıdaki sonuca bakın:
 
 ## ChartSeries'in ChartDataLabels'ı için Varsayılan Seçenekler Nasıl Tanımlanır?
 
-[ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) sınıfı, Grafik **Series** için **ChartDataLabels**'ye ilişkin varsayılan seçenekleri ayarlamak için kullanılabilecek özellikleri tanımlar. Bu özellikler arasında ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue vb. bulunur:
+[ChartDataLabelCollection](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartdatalabelcollection/) sınıfı, Grafik **Series** için **ChartDataLabels**'ye ilişkin varsayılan seçenekleri ayarlamak için kullanılabilecek özellikleri tanımlar. Bu özellikler arasında ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue vb. bulunur:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
 
@@ -135,7 +135,7 @@ Lütfen aşağıdaki sonuca bakın:
 
 ## Grafik Veri Etiketi Sayısı Nasıl Biçimlendirilir
 
-[NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/)'i kullanarak grafiğin tek bir veri etiketinin sayı formatını belirleyebilirsiniz.
+[NumberFormat](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartdatalabel/numberformat/)'i kullanarak grafiğin tek bir veri etiketinin sayı formatını belirleyebilirsiniz.
 
 Aşağıdaki kod örneği, bir dizi veri etiketinin nasıl biçimlendirileceğini gösterir:
 
@@ -143,7 +143,7 @@ Aşağıdaki kod örneği, bir dizi veri etiketinin nasıl biçimlendirileceğin
 
 ## Grafik Ekseni Özellikleri Nasıl Ayarlanır
 
-Değer ekseni için grafik ekseni, ölçeklendirme ve görüntüleme birimleriyle çalışmak istiyorsanız lütfen [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/) ve [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/) sınıflarını kullanın.
+Değer ekseni için grafik ekseni, ölçeklendirme ve görüntüleme birimleriyle çalışmak istiyorsanız lütfen [ChartAxis](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/axisdisplayunit/) ve [AxisScaling](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/axisscaling/) sınıflarını kullanın.
 
 Aşağıdaki kod örneği, X ve Y ekseni özelliklerinin nasıl tanımlanacağını gösterir:
 
@@ -185,7 +185,7 @@ Aşağıdaki kod örneği, grafiğin Y ekseninin nasıl gizleneceğini gösterir
 
 ### Grafik Etiketi Nasıl Hizalanır?
 
-Çok satırlı etiketler için metin hizalamasını ayarlamak istiyorsanız bunu [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment** özelliğinin değerini ayarlayarak kolayca yapabilirsiniz.
+Çok satırlı etiketler için metin hizalamasını ayarlamak istiyorsanız bunu [TickLabels](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment** özelliğinin değerini ayarlayarak kolayca yapabilirsiniz.
 
 Aşağıdaki kod örneği, etiket hizalamasının nasıl işaretleneceğini gösterir:
 

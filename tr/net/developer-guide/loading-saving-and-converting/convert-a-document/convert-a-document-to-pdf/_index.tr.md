@@ -27,10 +27,10 @@ Bir belgedeki sayfa sayısının dönüştürme süresini etkilediğini unutmay�
 
 DOC veya DOCX belge formatından Aspose.Words'de PDF formatına dönüştürmek çok kolaydır ve yalnızca iki satır kodla gerçekleştirilebilir:
 
-1. Belgenizi, biçim uzantısıyla birlikte belge adını belirterek yapıcılarından birini kullanarak bir [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesnesine yükleyin.
-1. **Document** nesnesinde [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) yöntemlerinden birini çağırın ve ".PDF" uzantılı bir dosya adı girerek istediğiniz çıktı formatını PDF olarak belirtin.
+1. Belgenizi, biçim uzantısıyla birlikte belge adını belirterek yapıcılarından birini kullanarak bir [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesnesine yükleyin.
+1. **Document** nesnesinde [Document.Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/#save/) yöntemlerinden birini çağırın ve ".PDF" uzantılı bir dosya adı girerek istediğiniz çıktı formatını PDF olarak belirtin.
 
-Aşağıdaki kod örneği, [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) yöntemini kullanarak bir belgenin DOCX'ten PDF'ye nasıl dönüştürüleceğini gösterir:
+Aşağıdaki kod örneği, [Save](https://reference.aspose.com/words/tr/net/aspose.words/document/save/) yöntemini kullanarak bir belgenin DOCX'ten PDF'ye nasıl dönüştürüleceğini gösterir:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "docx-to-pdf.cs" >}}
 
@@ -38,7 +38,7 @@ Bu örneğin şablon dosyasını [Aspose.Words GitHub](https://github.com/aspose
 
 {{% alert color="primary" %}}
 
-Bazen bir belgeyi PDF olarak kaydetmenin sonucunu etkileyebilecek ek seçeneklerin belirtilmesi gerekebilir. Bu seçenekler, PDF çıktısının nasıl görüntüleneceğini belirleyen özellikleri içeren [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) sınıfı kullanılarak belirtilebilir.
+Bazen bir belgeyi PDF olarak kaydetmenin sonucunu etkileyebilecek ek seçeneklerin belirtilmesi gerekebilir. Bu seçenekler, PDF çıktısının nasıl görüntüleneceğini belirleyen özellikleri içeren [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfı kullanılarak belirtilebilir.
 
 Aynı teknikle herhangi bir akış düzeni formatındaki belgeyi PDF formatına dönüştürebileceğinizi unutmayın.
 
@@ -46,9 +46,9 @@ Aynı teknikle herhangi bir akış düzeni formatındaki belgeyi PDF formatına 
 
 ### Farklı PDF Standartlarına Dönüştürme
 
-Aspose.Words, DOC veya DOCX'in çeşitli PDF formatı standartlarına (PDF 1.7, PDF 1.5 vb. gibi) dönüştürülmesini desteklemek için [PdfUyumluluk](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) numaralandırması sağlar.
+Aspose.Words, DOC veya DOCX'in çeşitli PDF formatı standartlarına (PDF 1.7, PDF 1.5 vb. gibi) dönüştürülmesini desteklemek için [PdfUyumluluk](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfcompliance/) numaralandırması sağlar.
 
-Aşağıdaki kod örneği, PDF17 uyumluluğuyla [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) kullanarak bir belgenin PDF 1.7'ye nasıl dönüştürüleceğini gösterir:
+Aşağıdaki kod örneği, PDF17 uyumluluğuyla [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) kullanarak bir belgenin PDF 1.7'ye nasıl dönüştürüleceğini gösterir:
 
 {{< gist "aspose-words-gists" "a53bdaad548845275c1b9556ee21ae65" "conversion-to-pdf17.cs" >}}
 
@@ -66,7 +66,7 @@ Bu kodun çalışması için projenize Aspose.Words ve `System.Drawing`'ye refer
 
 ## PDF Çıktı Boyutunu Azaltın
 
-PDF'ye kaydederken çıktıyı optimize etmek isteyip istemediğinizi belirtebilirsiniz. Bunu yapmak için [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) bayrağını true olarak ayarlamanız gerekir, ardından yedekli iç içe geçmiş tuvaller ve boş tuvaller kaldırılacak, aynı biçimlendirmeye sahip komşu glyph'ler birleştirilecektir.
+PDF'ye kaydederken çıktıyı optimize etmek isteyip istemediğinizi belirtebilirsiniz. Bunu yapmak için [OptimizeOutput](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) bayrağını true olarak ayarlamanız gerekir, ardından yedekli iç içe geçmiş tuvaller ve boş tuvaller kaldırılacak, aynı biçimlendirmeye sahip komşu glyph'ler birleştirilecektir.
 
 Aşağıdaki kod örneği çıktının nasıl optimize edileceğini gösterir:
 

@@ -27,9 +27,9 @@ url: /ar/net/convert-pdf-to-other-document-formats/
 
 ## حدد خيارات التحميل عند استيراد PDF {#specify-load-options-when-importing-pdf}
 
-يوفر لك Aspose.Words فئة [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/)، والتي تتيح تحكمًا أكثر دقة في كيفية تحميل مستندات PDF.
+يوفر لك Aspose.Words فئة [PdfLoadOptions](https://reference.aspose.com/words/ar/net/aspose.words.loading/pdfloadoptions/)، والتي تتيح تحكمًا أكثر دقة في كيفية تحميل مستندات PDF.
 
-ترث معظم الخصائص أو تُفرط في تحميل الخصائص الموجودة بالفعل في فئة `LoadOptions`. بالإضافة إلى ذلك، يتم تحديد عدد من الخصائص لتنسيق PDF. على سبيل المثال، يمكنك استخدام خصائص [PageCount](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/pagecount/) و[PageIndex](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/pageindex/) لتحديد نطاق الصفحات التي سيتم تحميلها من مستند PDF، وخصائص [SkipPdfImages](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/skippdfimages/) للتحكم في ما إذا كان يجب تخطي الصور عند تحميل PDF. المعلمة المدعومة الأخرى هي [Password](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/password/)، والتي يجب توفيرها لـ [المستندات المحمية بكلمة مرور](/words/net/protect-documents-and-parts-of-documents/).
+ترث معظم الخصائص أو تُفرط في تحميل الخصائص الموجودة بالفعل في فئة `LoadOptions`. بالإضافة إلى ذلك، يتم تحديد عدد من الخصائص لتنسيق PDF. على سبيل المثال، يمكنك استخدام خصائص [PageCount](https://reference.aspose.com/words/ar/net/aspose.words.loading/pdfloadoptions/pagecount/) و[PageIndex](https://reference.aspose.com/words/ar/net/aspose.words.loading/pdfloadoptions/pageindex/) لتحديد نطاق الصفحات التي سيتم تحميلها من مستند PDF، وخصائص [SkipPdfImages](https://reference.aspose.com/words/ar/net/aspose.words.loading/pdfloadoptions/skippdfimages/) للتحكم في ما إذا كان يجب تخطي الصور عند تحميل PDF. المعلمة المدعومة الأخرى هي [Password](https://reference.aspose.com/words/ar/net/aspose.words.loading/loadoptions/password/)، والتي يجب توفيرها لـ [المستندات المحمية بكلمة مرور](/words/net/protect-documents-and-parts-of-documents/).
 
 ## دعم محتوى PDF {#supported-pdf-content}
 

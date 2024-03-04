@@ -10,11 +10,11 @@ weight: 20
 url: /fr/net/save-a-document/
 ---
 
-La plupart des tâches que vous devez effectuer avec Aspose.Words impliquent l'enregistrement d'un document. Pour enregistrer un document, Aspose.Words fournit la méthode [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) de la classe [Document](https://reference.aspose.com/words/net/aspose.words/document/). Il existe des surcharges qui permettent d'enregistrer un document dans un fichier, un flux ou un objet ASP.NET HttpResponse pour l'envoyer à un navigateur client. Le document peut être enregistré dans n'importe quel format de sauvegarde pris en charge par Aspose.Words. Pour la liste de tous les formats de sauvegarde pris en charge, consultez l'énumération [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/).
+La plupart des tâches que vous devez effectuer avec Aspose.Words impliquent l'enregistrement d'un document. Pour enregistrer un document, Aspose.Words fournit la méthode [Save](https://reference.aspose.com/words/fr/net/aspose.words/document/save/) de la classe [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/). Il existe des surcharges qui permettent d'enregistrer un document dans un fichier, un flux ou un objet ASP.NET HttpResponse pour l'envoyer à un navigateur client. Le document peut être enregistré dans n'importe quel format de sauvegarde pris en charge par Aspose.Words. Pour la liste de tous les formats de sauvegarde pris en charge, consultez l'énumération [SaveFormat](https://reference.aspose.com/words/fr/net/aspose.words/saveformat/).
 
 ## Enregistrer dans un fichier {#save-a-document-to-a-file}
 
-Utilisez simplement la méthode [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) avec un nom de fichier. Aspose.Words déterminera le format de sauvegarde à partir de l'extension de fichier que vous spécifiez.
+Utilisez simplement la méthode [Save](https://reference.aspose.com/words/fr/net/aspose.words/document/save/) avec un nom de fichier. Aspose.Words déterminera le format de sauvegarde à partir de l'extension de fichier que vous spécifiez.
 
 L'exemple de code suivant montre comment charger et enregistrer un document dans un fichier:
 
@@ -28,7 +28,7 @@ Vous pouvez télécharger le fichier modèle de cet exemple depuis [Aspose.Words
 
 ## Enregistrer dans un flux {#save-a-document-to-a-stream}
 
-Transmettez un objet stream à la méthode [Save](https://reference.aspose.com/words/net/aspose.words/document/save/). Il est nécessaire de spécifier explicitement le format de sauvegarde lors de la sauvegarde dans un flux.
+Transmettez un objet stream à la méthode [Save](https://reference.aspose.com/words/fr/net/aspose.words/document/save/). Il est nécessaire de spécifier explicitement le format de sauvegarde lors de la sauvegarde dans un flux.
 
 L'exemple de code suivant montre comment charger et enregistrer un document dans un flux:
 
@@ -42,7 +42,7 @@ Vous pouvez télécharger le fichier modèle de cet exemple depuis [Aspose.Words
 
 ## Envoyer un document à un navigateur client {#sending-a-document-to-a-client-browser}
 
-Afin d'envoyer un document à un navigateur client, utilisez une surcharge spéciale qui prend quatre paramètres: le nom du fichier, le format de sauvegarde, le type de sauvegarde et un objet ASP.NET HttpResponse. La manière dont le document sera présenté à l'utilisateur est représentée par l'énumération [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/), qui détermine si le document envoyé au navigateur offrira une option pour s'ouvrir directement dans le navigateur ou dans l'application associée à l'extension de fichier.
+Afin d'envoyer un document à un navigateur client, utilisez une surcharge spéciale qui prend quatre paramètres: le nom du fichier, le format de sauvegarde, le type de sauvegarde et un objet ASP.NET HttpResponse. La manière dont le document sera présenté à l'utilisateur est représentée par l'énumération [ContentDisposition](https://reference.aspose.com/words/fr/net/aspose.words/contentdisposition/), qui détermine si le document envoyé au navigateur offrira une option pour s'ouvrir directement dans le navigateur ou dans l'application associée à l'extension de fichier.
 
 L'exemple de code suivant montre comment envoyer un document au navigateur client à partir d'un code ASP.NET:
 

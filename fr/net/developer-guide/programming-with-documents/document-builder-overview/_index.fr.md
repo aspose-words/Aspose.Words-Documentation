@@ -9,7 +9,7 @@ weight: 30
 url: /fr/net/document-builder-overview/
 ---
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) est une classe puissante qui s'associe à [Document](https://reference.aspose.com/words/net/aspose.words/document/) et vous permet de créer des documents dynamiques à partir de zéro ou d'ajouter de nouveaux éléments à un document existant.
+[DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) est une classe puissante qui s'associe à [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) et vous permet de créer des documents dynamiques à partir de zéro ou d'ajouter de nouveaux éléments à un document existant.
 
 **DocumentBuilder** fournit des méthodes pour insérer du texte, des cases à cocher, des objets ole, des paragraphes, des listes, des tableaux, des images et d'autres éléments de contenu. Il vous permet de spécifier les polices, le formatage des paragraphes ou des sections et d'effectuer d'autres opérations.
 
@@ -21,7 +21,7 @@ Les opérations possibles avec **DocumentBuilder** sont également possibles en 
 
 ## Navigation dans les documents
 
-La navigation dans le document est basée sur le concept d'un curseur virtuel, avec lequel vous pouvez vous déplacer vers un autre emplacement du document à l'aide de diverses méthodes **DocumentBuilder.MoveToXXX** telles que [MoveToDocumentStart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetodocumentstart/) et [MoveToField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetofield/). Ce curseur virtuel indique où le texte sera inséré lors de l'appel des méthodes [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/), [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/ln/index), [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/) et autres. Consultez l'article suivant "Navigation avec le curseur" pour en savoir plus sur le curseur virtuel.
+La navigation dans le document est basée sur le concept d'un curseur virtuel, avec lequel vous pouvez vous déplacer vers un autre emplacement du document à l'aide de diverses méthodes **DocumentBuilder.MoveToXXX** telles que [MoveToDocumentStart](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/movetodocumentstart/) et [MoveToField](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/movetofield/). Ce curseur virtuel indique où le texte sera inséré lors de l'appel des méthodes [Write](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/write/), [Writeln](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/write/ln/index), [InsertBreak](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertbreak/) et autres. Consultez l'article suivant "Navigation avec le curseur" pour en savoir plus sur le curseur virtuel.
 
 L'exemple de code suivant montre comment accéder à un signet:
 
@@ -29,9 +29,9 @@ L'exemple de code suivant montre comment accéder à un signet:
 
 ## Création et modification de documents
 
-Aspose.Words API fournit plusieurs classes responsables du formatage de divers éléments d'un document. Chacune des classes encapsule les propriétés de mise en forme liées à un élément de document spécifique, tel que le texte, le paragraphe, la section et autres. Par exemple, la classe [Font](https://reference.aspose.com/words/net/aspose.words/font/) représente les propriétés de formatage des caractères, la classe [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) représente les propriétés de formatage des paragraphes, etc. Les objets de ces classes sont renvoyés par les propriétés **DocumentBuilder** correspondantes, qui portent les mêmes noms que les classes. Par conséquent, vous pouvez y accéder et définir le formatage souhaité lors de la création du document.
+Aspose.Words API fournit plusieurs classes responsables du formatage de divers éléments d'un document. Chacune des classes encapsule les propriétés de mise en forme liées à un élément de document spécifique, tel que le texte, le paragraphe, la section et autres. Par exemple, la classe [Font](https://reference.aspose.com/words/fr/net/aspose.words/font/) représente les propriétés de formatage des caractères, la classe [ParagraphFormat](https://reference.aspose.com/words/fr/net/aspose.words/paragraphformat/) représente les propriétés de formatage des paragraphes, etc. Les objets de ces classes sont renvoyés par les propriétés **DocumentBuilder** correspondantes, qui portent les mêmes noms que les classes. Par conséquent, vous pouvez y accéder et définir le formatage souhaité lors de la création du document.
 
-Vous pouvez également insérer du texte, une case à cocher, un objet OLE, des images, des signets, des champs de formulaire et d'autres éléments de document à la position du curseur à l'aide de la méthode `Write` ou de l'une des méthodes **DocumentBuilder.InsertXXX**, telles que [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/#insertfield/), [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/#inserthtml/) et des méthodes similaires.
+Vous pouvez également insérer du texte, une case à cocher, un objet OLE, des images, des signets, des champs de formulaire et d'autres éléments de document à la position du curseur à l'aide de la méthode `Write` ou de l'une des méthodes **DocumentBuilder.InsertXXX**, telles que [InsertField](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertfield/#insertfield/), [InsertHtml](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/inserthtml/#inserthtml/) et des méthodes similaires.
 
 Voyons comment créer un document simple à l'aide du **DocumentBuilder**.
 
@@ -47,7 +47,7 @@ L'exemple de code suivant montre comment créer un document simple à l'aide d'u
 
 ### Spécifier le formatage du document
 
-La propriété [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) définit le formatage du texte. Cet objet contient différents attributs de police (nom de police, taille de police, couleur, etc.). Certains attributs de police importants sont également représentés par les propriétés **DocumentBuilder** pour vous permettre d'y accéder directement. Il s'agit des propriétés booléennes [Font.Bold](https://reference.aspose.com/words/net/aspose.words/font/bold/), [Font.Italic](https://reference.aspose.com/words/net/aspose.words/font/italic/) et [Font.Underline](https://reference.aspose.com/words/net/aspose.words/font/underline/).
+La propriété [Font](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/font/) définit le formatage du texte. Cet objet contient différents attributs de police (nom de police, taille de police, couleur, etc.). Certains attributs de police importants sont également représentés par les propriétés **DocumentBuilder** pour vous permettre d'y accéder directement. Il s'agit des propriétés booléennes [Font.Bold](https://reference.aspose.com/words/fr/net/aspose.words/font/bold/), [Font.Italic](https://reference.aspose.com/words/fr/net/aspose.words/font/italic/) et [Font.Underline](https://reference.aspose.com/words/fr/net/aspose.words/font/underline/).
 
 L'exemple de code suivant montre comment insérer un texte formaté à l'aide de **DocumentBuilder**:
 
@@ -55,10 +55,10 @@ L'exemple de code suivant montre comment insérer un texte formaté à l'aide de
 
 {{% alert color="primary" %}}
 
-- [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) spécifie le formatage des caractères qui sera appliqué à tout le texte inséré à partir de la position actuelle dans le document.
-- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) spécifie le formatage du paragraphe actuel et de tous les paragraphes à insérer.
-- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) spécifie les propriétés de page et de section pour la section actuelle et la section entière qui sera insérée.
-- [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) et [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/) spécifient les propriétés de formatage qui seront appliquées aux cellules et aux lignes du tableau à partir de la position actuelle dans le document.
+- [Font](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/font/) spécifie le formatage des caractères qui sera appliqué à tout le texte inséré à partir de la position actuelle dans le document.
+- [ParagraphFormat](https://reference.aspose.com/words/fr/net/aspose.words/paragraphformat/) spécifie le formatage du paragraphe actuel et de tous les paragraphes à insérer.
+- [PageSetup](https://reference.aspose.com/words/fr/net/aspose.words/pagesetup/) spécifie les propriétés de page et de section pour la section actuelle et la section entière qui sera insérée.
+- [CellFormat](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/cellformat/) et [RowFormat](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/rowformat/) spécifient les propriétés de formatage qui seront appliquées aux cellules et aux lignes du tableau à partir de la position actuelle dans le document.
 
 Dans cette situation, "actuel" désigne la position, le paragraphe, la section, la cellule ou la ligne dans laquelle se trouve le curseur.
 

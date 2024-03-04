@@ -17,19 +17,19 @@ Aşağıdaki bölümlerde Aspose.Words'teki düğümlerin mantıksal düzeyleri 
 
 ## Belge ve Bölüm Mantıksal Düzey
 
-Bir Word belgesi, [Section](https://reference.aspose.com/words/net/aspose.words/section/) sınıfı tarafından temsil edilen ve bölüm sonlarıyla ayrılmış bir veya daha fazla bölümden oluşur. Bir bölüm kendi sayfa boyutunu, kenar boşluklarını, yönünü, metin sütunu sayısını ve üstbilgileri ve altbilgileri tanımlayabilir.
+Bir Word belgesi, [Section](https://reference.aspose.com/words/tr/net/aspose.words/section/) sınıfı tarafından temsil edilen ve bölüm sonlarıyla ayrılmış bir veya daha fazla bölümden oluşur. Bir bölüm kendi sayfa boyutunu, kenar boşluklarını, yönünü, metin sütunu sayısını ve üstbilgileri ve altbilgileri tanımlayabilir.
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/) ve [Section](https://reference.aspose.com/words/net/aspose.words/section/) seviye düğümleri aşağıdaki şemada gösterildiği gibi yapıya sahiptir.
+[Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) ve [Section](https://reference.aspose.com/words/tr/net/aspose.words/section/) seviye düğümleri aşağıdaki şemada gösterildiği gibi yapıya sahiptir.
 
 <img src="/words/net/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="belge-ve-bölüm düzeyinde-aspose-kelimeler" style="width:700px"/>
 
 Bölüm, ana metnin yanı sıra ilk, çift ve tek sayfaların üstbilgilerini ve altbilgilerini içerir. Bu farklı metin "akışlarına" *stories* adı verilir.
 
-Aspose.Words'te **Section** düğümü, [Body](https://reference.aspose.com/words/net/aspose.words/body/) ve [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) öykü düğümlerini içerir. **Body** nesnesi ana metni saklar. **HeaderFooter** nesneleri her üst bilgi ve alt bilgi için metni saklar. Herhangi bir öykünün metni, sırasıyla Blok düzeyindeki **Paragraph** ve **Table** nesneleri tarafından temsil edilen paragraflardan ve tablolardan oluşur.
+Aspose.Words'te **Section** düğümü, [Body](https://reference.aspose.com/words/tr/net/aspose.words/body/) ve [HeaderFooter](https://reference.aspose.com/words/tr/net/aspose.words/headerfooter/) öykü düğümlerini içerir. **Body** nesnesi ana metni saklar. **HeaderFooter** nesneleri her üst bilgi ve alt bilgi için metni saklar. Herhangi bir öykünün metni, sırasıyla Blok düzeyindeki **Paragraph** ve **Table** nesneleri tarafından temsil edilen paragraflardan ve tablolardan oluşur.
 
-Ayrıca her Word belgesi, Aspose.Words'deki [GlossaryDocument](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/) düğümü tarafından temsil edilen bir sözlük içerebilir. Sözlük belgesi [BuildingBlocks](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) ve [AutoCorrect](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) girişlerini içerir.
+Ayrıca her Word belgesi, Aspose.Words'deki [GlossaryDocument](https://reference.aspose.com/words/tr/net/aspose.words.buildingblocks/glossarydocument/) düğümü tarafından temsil edilen bir sözlük içerebilir. Sözlük belgesi [BuildingBlocks](https://reference.aspose.com/words/tr/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/tr/net/aspose.words.buildingblocks/buildingblocktype/) ve [AutoCorrect](https://reference.aspose.com/words/tr/net/aspose.words.buildingblocks/buildingblocktype/) girişlerini içerir.
 
-**GlossaryDocument**, farklı türdeki sözlük belgesi girişlerini temsil eden [BuildingBlock](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblock/) düğümlerini içerir. Her **BuildingBlock**, belgelere eklenebilen, kaldırılabilen ve kopyalanabilen bölümler içerir.
+**GlossaryDocument**, farklı türdeki sözlük belgesi girişlerini temsil eden [BuildingBlock](https://reference.aspose.com/words/tr/net/aspose.words.buildingblocks/buildingblock/) düğümlerini içerir. Her **BuildingBlock**, belgelere eklenebilen, kaldırılabilen ve kopyalanabilen bölümler içerir.
 
 ## Mantıksal Seviyeyi Engelle
 
@@ -47,9 +47,9 @@ Blok düzeyindeki düğümler, içerik ve içerik kontrollerine yönelik kapsay�
 
 Blok düzeyindeki düğümler aşağıdaki sınıflarla temsil edilir:
 
-- En önemli blok seviyesi düğümleri olan [Tables](https://reference.aspose.com/words/net/aspose.words.tables/table/) ve [Paragraphs](https://reference.aspose.com/words/net/aspose.words/paragraph/)
+- En önemli blok seviyesi düğümleri olan [Tables](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/) ve [Paragraphs](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/)
 - Hem blok düzeyinde hem de satır içi düzeyde oluşan yer imleri
-- Özel işaretlemeyi temsil eden ve hem içerik hem de içerik kontrollerini içerebilen [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/)
+- Özel işaretlemeyi temsil eden ve hem içerik hem de içerik kontrollerini içerebilen [StructuredDocumentTag](https://reference.aspose.com/words/tr/net/aspose.words.markup/structureddocumenttag/)
 
 Aşağıdaki şemada blok düzeyindeki öğeler gösterilmektedir.
 
@@ -60,17 +60,17 @@ Aşağıdaki şemada blok düzeyindeki öğeler gösterilmektedir.
 Satır içi düzeydeki düğümler, belgenin gerçek içeriğini temsil eder ve aşağıdaki kapsayıcılarda bulunabilir:
 
 - Paragraf – en yaygın kapsayıcı
-- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)
+- [SmartTag](https://reference.aspose.com/words/tr/net/aspose.words.markup/smarttag/)
 - StructuredDocumentTag
 
 Satır içi düzey öğeler aşağıdaki sınıflarla temsil edilir:
 
-- [Run](https://reference.aspose.com/words/net/aspose.words/run/) – farklı biçimlendirilmiş metin dizileri
-- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/) ve [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/) yer imlerini temsil eder
-- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) ve [Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote/) ek açıklamaları temsil eder
-- Alan karakterlerini temsil eden [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) ve [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/), Word alanlarını temsil eden [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/)
-- [SpecialChar](https://reference.aspose.com/words/net/aspose.words/specialchar/), belgedeki özel karakterleri temsil eder
-- [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) ve [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) şekilleri, çizimleri, görüntüleri vb. temsil eder.
+- [Run](https://reference.aspose.com/words/tr/net/aspose.words/run/) – farklı biçimlendirilmiş metin dizileri
+- [BookmarkStart](https://reference.aspose.com/words/tr/net/aspose.words/bookmarkstart/) ve [BookmarkEnd](https://reference.aspose.com/words/tr/net/aspose.words/bookmarkend/) yer imlerini temsil eder
+- [CommentRangeStart](https://reference.aspose.com/words/tr/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/tr/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/tr/net/aspose.words/comment/) ve [Footnote](https://reference.aspose.com/words/tr/net/aspose.words.notes/footnote/) ek açıklamaları temsil eder
+- Alan karakterlerini temsil eden [FieldStart](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldseparator/) ve [FieldEnd](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldend/), Word alanlarını temsil eden [FormField](https://reference.aspose.com/words/tr/net/aspose.words.fields/formfield/)
+- [SpecialChar](https://reference.aspose.com/words/tr/net/aspose.words/specialchar/), belgedeki özel karakterleri temsil eder
+- [Shape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/) ve [GroupShape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/groupshape/) şekilleri, çizimleri, görüntüleri vb. temsil eder.
 - SmartTag ve StructuredDocumentTag özel işaretlemeyi temsil eder
 
 Aşağıdaki diyagram satır içi düzey düğüm yapısını göstermektedir.
@@ -95,8 +95,8 @@ Dipnotlar ve yorumlar metin içerebilir, dolayısıyla Aspose.Words'teki Dipnot 
 
 Tablo satırlardan ve hücrelerden oluşan düğümlerden oluşur. Tablo öğeleri aşağıdaki sınıflarla temsil edilir:
 
-- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) bir tablo satırını temsil eder
-- [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) bir tablo hücresini temsil eder
+- [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/) bir tablo satırını temsil eder
+- [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/) bir tablo hücresini temsil eder
 - StructuredDocumentTag özel işaretlemeyi temsil eder
 
 Aşağıdaki şemada Tablo, Satır ve Hücre seviyelerinin düğüm yapıları gösterilmektedir.

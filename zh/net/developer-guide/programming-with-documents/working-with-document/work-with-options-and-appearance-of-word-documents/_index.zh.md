@@ -13,7 +13,7 @@ url: /zh/net/work-with-word-document-options-and-appearance/
 
 ## 设置文档显示选项
 
-您可以使用 [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/) 类控制文档在 Microsoft Word 中的显示方式。例如，您可以使用 [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/zoompercent/) 属性设置文档缩放值，或使用 [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/viewtype/) 属性设置查看模式。
+您可以使用 [ViewOptions](https://reference.aspose.com/words/zh/net/aspose.words.settings/viewoptions/) 类控制文档在 Microsoft Word 中的显示方式。例如，您可以使用 [ZoomPercent](https://reference.aspose.com/words/zh/net/aspose.words.settings/viewoptions/zoompercent/) 属性设置文档缩放值，或使用 [ViewType](https://reference.aspose.com/words/zh/net/aspose.words.settings/viewoptions/viewtype/) 属性设置查看模式。
 
 以下代码示例演示如何确保文档在 Microsoft Word 中打开时显示为 50%：
 
@@ -33,7 +33,7 @@ Microsoft Word 2013 不会向文档写入任何缩放系数，也不再根据写
 
 ## 设置页面显示选项
 
-如果要设置每行的字符数，请使用 [CharactersPerLine](https://reference.aspose.com/words/net/aspose.words/pagesetup/charactersperline/) 属性。您还可以设置 Word 文档每页的行数 - 使用 [LinesPerPage](https://reference.aspose.com/words/net/aspose.words/pagesetup/linesperpage/) 属性获取或设置文档网格中每页的行数。
+如果要设置每行的字符数，请使用 [CharactersPerLine](https://reference.aspose.com/words/zh/net/aspose.words/pagesetup/charactersperline/) 属性。您还可以设置 Word 文档每页的行数 - 使用 [LinesPerPage](https://reference.aspose.com/words/zh/net/aspose.words/pagesetup/linesperpage/) 属性获取或设置文档网格中每页的行数。
 
 {{% alert color="primary" %}}
 
@@ -49,7 +49,7 @@ Microsoft Word 2013 不会向文档写入任何缩放系数，也不再根据写
 
 以 Microsoft Word 格式显示文档取决于该文档的默认语言设置。如果默认情况下未设置语言，Microsoft Word 会从"设置 Office 语言首选项"对话框中获取信息，例如，可以在 Microsoft Word 2019 中的"文件 → 选项 → 语言"下找到该信息。
 
-通过 Aspose.Words，您还可以使用 [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/) 类设置语言首选项。另请注意，为了正确显示文档，有必要设置文档加载过程应匹配的 Microsoft Word 版本 - 这可以使用 [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/mswversion/) 属性来完成。
+通过 Aspose.Words，您还可以使用 [LanguagePreferences](https://reference.aspose.com/words/zh/net/aspose.words.loading/languagepreferences/) 类设置语言首选项。另请注意，为了正确显示文档，有必要设置文档加载过程应匹配的 Microsoft Word 版本 - 这可以使用 [MswVersion](https://reference.aspose.com/words/zh/net/aspose.words.loading/loadoptions/mswversion/) 属性来完成。
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ Microsoft Word 2013 不会向文档写入任何缩放系数，也不再根据写
 
 ## 针对特定 Word 版本优化文档
 
-[OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) 方法允许优化文档内容以及特定版本 Microsoft Word 的默认 Aspose.Words 行为。您可以使用此方法来防止 Microsoft Word 在文档加载时显示"兼容模式"功能区。请注意，您可能还需要将 `Compliance` 属性设置为 Iso29500_2008_Transitional 或更高版本。
+[OptimizeFor](https://reference.aspose.com/words/zh/net/aspose.words.settings/compatibilityoptions/optimizefor/) 方法允许优化文档内容以及特定版本 Microsoft Word 的默认 Aspose.Words 行为。您可以使用此方法来防止 Microsoft Word 在文档加载时显示"兼容模式"功能区。请注意，您可能还需要将 `Compliance` 属性设置为 Iso29500_2008_Transitional 或更高版本。
 
 以下代码示例展示了如何优化 Microsoft Word 2016 的文档内容：
 

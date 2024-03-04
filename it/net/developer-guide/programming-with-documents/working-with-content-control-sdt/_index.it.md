@@ -67,7 +67,7 @@ L'esempio di codice seguente mostra come associare il controllo del contenuto a 
 
 ## XMLMapping dell'intervallo di tag del documento strutturato
 
-È possibile ottenere la mappatura di questo intervallo di tag del documento strutturato sui dati XML in una parte XML personalizzata del documento corrente utilizzando **Proprietà StructuredDocumentTagRangeStart.XmlMapping**. Tuttavia, il metodo [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) può essere utilizzato per mappare un intervallo di tag di documento strutturato su dati XML.
+È possibile ottenere la mappatura di questo intervallo di tag del documento strutturato sui dati XML in una parte XML personalizzata del documento corrente utilizzando **Proprietà StructuredDocumentTagRangeStart.XmlMapping**. Tuttavia, il metodo [SetMapping](https://reference.aspose.com/words/it/net/aspose.words.markup/xmlmapping/setmapping/) può essere utilizzato per mappare un intervallo di tag di documento strutturato su dati XML.
 
 L'esempio di codice seguente mostra come impostare la mappatura XML:
 
@@ -108,7 +108,7 @@ L'esempio di codice seguente mostra come impostare lo stile del controllo del co
 
 ## Lavorare con il controllo del contenuto della sezione ripetuta
 
-Il controllo del contenuto della sezione ripetuta consente di ripetere il contenuto in essa contenuto. Utilizzando Aspose.Words, è possibile creare i nodi dei tag del documento strutturato della sezione ripetuta e dei tipi di elementi della sezione ripetuta e, a questo scopo, [Tipo di enumerazione SdtType](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) fornisce la proprietà **RepeatingSectionItem**.
+Il controllo del contenuto della sezione ripetuta consente di ripetere il contenuto in essa contenuto. Utilizzando Aspose.Words, è possibile creare i nodi dei tag del documento strutturato della sezione ripetuta e dei tipi di elementi della sezione ripetuta e, a questo scopo, [Tipo di enumerazione SdtType](https://reference.aspose.com/words/it/net/aspose.words.markup/sdttype/) fornisce la proprietà **RepeatingSectionItem**.
 
 Nell'esempio di codice seguente viene illustrato come associare un controllo contenuto della sezione ripetuta a una tabella.
 

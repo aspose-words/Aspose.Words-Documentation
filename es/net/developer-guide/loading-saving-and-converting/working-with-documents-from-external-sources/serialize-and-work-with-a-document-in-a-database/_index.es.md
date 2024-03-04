@@ -17,9 +17,9 @@ Aspose.Words ofrece la posibilidad de convertir un documento en una matriz de by
 
 Para almacenar un documento en una base de datos o preparar un documento para su transmisión a través de la web, a menudo es necesario serializar el documento para obtener una matriz de bytes.
 
-Para serializar un objeto [Document](https://reference.aspose.com/words/net/aspose.words/document/) en Aspose.Words:
+Para serializar un objeto [Document](https://reference.aspose.com/words/es/net/aspose.words/document/) en Aspose.Words:
 
-1. Guárdelo en un **MemoryStream** usando la sobrecarga del método [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) de la clase **Document**.
+1. Guárdelo en un **MemoryStream** usando la sobrecarga del método [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/) de la clase **Document**.
 1. Llame al método **ToArray**, que devuelve una matriz de bytes que representa el documento en forma de bytes.
 
 Los pasos anteriores se pueden revertir para volver a cargar los bytes en un objeto **Document**.

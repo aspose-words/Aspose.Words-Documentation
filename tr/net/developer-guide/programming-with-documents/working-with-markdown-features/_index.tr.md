@@ -106,7 +106,7 @@ Aşağıdaki kod parçacığı size bir markdown belgesinin nasıl okunacağın�
 
 ## Markdown Kaydetme Seçeneklerini Belirleyin
 
-Aspose.Words API, bir belgeyi Markdown formatında kaydederken ek seçenekleri belirlemek için [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfı sağlar.
+Aspose.Words API, bir belgeyi Markdown formatında kaydederken ek seçenekleri belirlemek için [MarkdownSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/) sınıfı sağlar.
 
 Aşağıdaki kod örneği, çeşitli Markdown kaydetme seçeneklerinin nasıl belirtileceğini gösterdi.
 
@@ -114,6 +114,6 @@ Aşağıdaki kod örneği, çeşitli Markdown kaydetme seçeneklerinin nasıl be
 
 ## Markdown'e Aktarırken Tablonun İçindeki İçeriği Hizalama
 
-Aspose.Words API, Markdown belgesine dışa aktarırken tablolardaki içerikleri hizalamak için hizalama yönlerini tanımlayan [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) numaralandırması sağlar. Aşağıdaki kod örneği, tablonun içindeki içeriğin nasıl hizalanacağını gösterir.
+Aspose.Words API, Markdown belgesine dışa aktarırken tablolardaki içerikleri hizalamak için hizalama yönlerini tanımlayan [TableContentAlignment](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) numaralandırması sağlar. Aşağıdaki kod örneği, tablonun içindeki içeriğin nasıl hizalanacağını gösterir.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

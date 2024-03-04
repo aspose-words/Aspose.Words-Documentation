@@ -13,15 +13,15 @@ url: /ar/net/specify-rendering-options-when-converting-to-pdf/
 
 PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من العمليات الحسابية في عملية تحويل مستند إلى PDF، بما في ذلك حساب التخطيط. وبما أن هذه المراحل تتضمن حسابات معقدة، فإنها تستغرق وقتا طويلا. كما أن تنسيق PDF معقد إلى حد ما في حد ذاته. يحتوي على بنية ملف محددة ونموذج رسومات وتضمين خط. علاوة على ذلك، فهو يتميز ببعض وظائف الإخراج المعقدة، مثل علامات بنية المستند، والتشفير، والتوقيعات الرقمية، والنماذج القابلة للتحرير.
 
-يقلد محرك تخطيط Aspose.Words الطريقة التي يعمل بها محرك تخطيط الصفحة في Microsoft Word. ولذلك، فإن Aspose.Words يجعل مستندات إخراج PDF تبدو أقرب ما يمكن إلى ما يمكنك رؤيته في Microsoft Word. في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ المستند بتنسيق PDF. يمكن تحديد هذه الخيارات باستخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)، التي تحتوي على الخصائص التي تحدد كيفية عرض مخرجات PDF.
+يقلد محرك تخطيط Aspose.Words الطريقة التي يعمل بها محرك تخطيط الصفحة في Microsoft Word. ولذلك، فإن Aspose.Words يجعل مستندات إخراج PDF تبدو أقرب ما يمكن إلى ما يمكنك رؤيته في Microsoft Word. في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ المستند بتنسيق PDF. يمكن تحديد هذه الخيارات باستخدام فئة [PdfSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/)، التي تحتوي على الخصائص التي تحدد كيفية عرض مخرجات PDF.
 
 بعض الأمثلة على استخدام **PdfSaveOptions** موضحة أدناه.
 
 {{% alert color="primary" %}}
 
-حاليًا، يمكنك الحفظ بتنسيقات PDF 1.7، وPDF 2.0، وPDF/A-1a، وPDF/A-1b، وPDF/A-2a، وPDF/A-2u، وPDF/UA-1. استخدم تعداد [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) لتعيين مستوى الامتثال لمعايير PDF. لاحظ أنه مع تنسيق PDF/A، يكون حجم ملف الإخراج أكبر من حجم ملف PDF العادي.
+حاليًا، يمكنك الحفظ بتنسيقات PDF 1.7، وPDF 2.0، وPDF/A-1a، وPDF/A-1b، وPDF/A-2a، وPDF/A-2u، وPDF/UA-1. استخدم تعداد [PdfCompliance](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfcompliance/) لتعيين مستوى الامتثال لمعايير PDF. لاحظ أنه مع تنسيق PDF/A، يكون حجم ملف الإخراج أكبر من حجم ملف PDF العادي.
 
-تم وضع علامة على [PdfCompliance.PdfA1a](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) و[PdfCompliance.PdfA1b](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) على أنهما قديمان.
+تم وضع علامة على [PdfCompliance.PdfA1a](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfcompliance/) و[PdfCompliance.PdfA1b](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfcompliance/) على أنهما قديمان.
 
 لمزيد من المعلومات حول PDF/A، راجع المقالة التالية، "تعرف على ميزات التحويل إلى PDF/A".
 
@@ -29,7 +29,7 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 
 ## إنشاء مستند PDF بنماذج قابلة للتعبئة
 
-من الممكن أيضًا تصدير النماذج القابلة للتعبئة من مستند Microsoft Word إلى ملف PDF الناتج، والذي يحتوي على نماذج قابلة للتعبئة بدلاً من النص العادي. استخدم خاصية [PreserveFormFields](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) لحفظ مستند بصيغة PDF مع نماذج قابلة للتعبئة.
+من الممكن أيضًا تصدير النماذج القابلة للتعبئة من مستند Microsoft Word إلى ملف PDF الناتج، والذي يحتوي على نماذج قابلة للتعبئة بدلاً من النص العادي. استخدم خاصية [PreserveFormFields](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) لحفظ مستند بصيغة PDF مع نماذج قابلة للتعبئة.
 
 لاحظ أنه على النقيض من Microsoft Word، فإن تنسيق PDF يحتوي على عدد محدود من الخيارات للنماذج القابلة للتحرير، مثل مربع النص ومربع التحرير والسرد ومربع الاختيار. يحتوي Microsoft Word على المزيد من أنواع النماذج، على سبيل المثال، منتقي تاريخ التقويم. بشكل عام، ليس من الممكن تقليد سلوك Microsoft Word بشكل كامل في PDF. ولذلك، في بعض الحالات المعقدة، قد يختلف إخراج PDF عما تراه في Microsoft Word.
 
@@ -39,7 +39,7 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 
 ## تصدير بنية المستند والخصائص المخصصة
 
-تتيح لك خاصية [https://reference.aspose.com/words/net/aspose.words. Saving/pdfsaveoptions/properties/exportdocumentstructure) تصدير بنية المستند إلى مخرجات PDF.
+تتيح لك خاصية [https://reference.aspose.com/words/ar/net/aspose.words. Saving/pdfsaveoptions/properties/exportdocumentstructure) تصدير بنية المستند إلى مخرجات PDF.
 
 توفر مرافق البنية المنطقية لـ PDF آلية لدمج المعلومات المتعلقة ببنية محتوى المستند في ملف PDF. يحتفظ Aspose.Words بمعلومات حول البنية من مستند Microsoft Word، مثل الفقرات والقوائم والجداول والحواشي السفلية/التعليقات الختامية وما إلى ذلك.
 
@@ -53,7 +53,7 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 
 ## تصدير الخطوط العريضة من الإشارات المرجعية والعناوين في إخراج PDF
 
-إذا كنت تريد تصدير الإشارات المرجعية كمخططات تفصيلية في ملف PDF الناتج، فيمكنك استخدام خاصية [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/). تحدد هذه الخاصية المستوى الافتراضي في المخطط التفصيلي للمستند، والذي يتم فيه عرض إشارات Microsoft Word المرجعية. إذا كانت الوثيقة تحتوي على إشارات مرجعية في رأس/تذييل الوثيقة، فيمكنك تعيين خاصية [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) إلى [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) أو [All](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) لتحديد كيفية تصديرها في ملف PDF الناتج. لا يتم تصدير الإشارات المرجعية الموجودة في الرؤوس/التذييلات عندما تكون قيمة **HeaderFooterBookmarksExportMode** هي [None](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/).
+إذا كنت تريد تصدير الإشارات المرجعية كمخططات تفصيلية في ملف PDF الناتج، فيمكنك استخدام خاصية [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/ar/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/). تحدد هذه الخاصية المستوى الافتراضي في المخطط التفصيلي للمستند، والذي يتم فيه عرض إشارات Microsoft Word المرجعية. إذا كانت الوثيقة تحتوي على إشارات مرجعية في رأس/تذييل الوثيقة، فيمكنك تعيين خاصية [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) إلى [First](https://reference.aspose.com/words/ar/net/aspose.words.saving/headerfooterbookmarksexportmode/) أو [All](https://reference.aspose.com/words/ar/net/aspose.words.saving/headerfooterbookmarksexportmode/) لتحديد كيفية تصديرها في ملف PDF الناتج. لا يتم تصدير الإشارات المرجعية الموجودة في الرؤوس/التذييلات عندما تكون قيمة **HeaderFooterBookmarksExportMode** هي [None](https://reference.aspose.com/words/ar/net/aspose.words.saving/headerfooterbookmarksexportmode/).
 
 يوضح مثال الكود أدناه كيفية تصدير الإشارات المرجعية من الرأس/التذييل الأول للقسم:
 
@@ -63,9 +63,9 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 
 ![specify-rendering-options-when-converting-to-pdf_1](/words/net/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-عند تعيين **HeaderFooterBookmarksExportMode** على [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) وكان المستند يحتوي على رؤوس/تذييلات فردية أو زوجية أو رأس/تذييل مختلف للصفحة الأولى، يتم تصدير الإشارات المرجعية للرؤوس/التذييلات الفريدة الأولى في القسم.
+عند تعيين **HeaderFooterBookmarksExportMode** على [First](https://reference.aspose.com/words/ar/net/aspose.words.saving/headerfooterbookmarksexportmode/) وكان المستند يحتوي على رؤوس/تذييلات فردية أو زوجية أو رأس/تذييل مختلف للصفحة الأولى، يتم تصدير الإشارات المرجعية للرؤوس/التذييلات الفريدة الأولى في القسم.
 
-يمكنك أيضًا تصدير العناوين في ملف PDF الناتج، باستخدام خاصية [HeadingsOutlineLevels](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/). تحدد هذه الخاصية عدد مستويات العناوين المضمنة في المخطط التفصيلي للمستند.
+يمكنك أيضًا تصدير العناوين في ملف PDF الناتج، باستخدام خاصية [HeadingsOutlineLevels](https://reference.aspose.com/words/ar/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/). تحدد هذه الخاصية عدد مستويات العناوين المضمنة في المخطط التفصيلي للمستند.
 
 يوضح مثال الكود أدناه كيفية تصدير العناوين بثلاثة مستويات:
 
@@ -83,9 +83,9 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 
 ## تقليص حجم الصور لتقليل حجم المستند
 
-يوفر Aspose.Words القدرة على تقليل حجم الصور من أجل تقليل حجم ملف PDF الناتج، باستخدام خاصية [DownsampleOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/). يتم تمكين الاختزال بشكل افتراضي في خاصية [DownsampleImages](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/downsampleimages/).
+يوفر Aspose.Words القدرة على تقليل حجم الصور من أجل تقليل حجم ملف PDF الناتج، باستخدام خاصية [DownsampleOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/). يتم تمكين الاختزال بشكل افتراضي في خاصية [DownsampleImages](https://reference.aspose.com/words/ar/net/aspose.words.saving/downsampleoptions/downsampleimages/).
 
-لاحظ أنه من الممكن أيضًا تعيين دقة معينة في خاصية [Resolution](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/)، أو حد دقة في خاصية [ResolutionThreshold](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/threshold). في الحالة الثانية، إذا كانت دقة الصورة أقل من قيمة العتبة، فلن يتم تطبيق الاختزال.
+لاحظ أنه من الممكن أيضًا تعيين دقة معينة في خاصية [Resolution](https://reference.aspose.com/words/ar/net/aspose.words.saving/downsampleoptions/resolution/)، أو حد دقة في خاصية [ResolutionThreshold](https://reference.aspose.com/words/ar/net/aspose.words.saving/downsampleoptions/resolution/threshold). في الحالة الثانية، إذا كانت دقة الصورة أقل من قيمة العتبة، فلن يتم تطبيق الاختزال.
 
 يعرض مثال الكود أدناه كيفية تغيير دقة الصور في مستند PDF الناتج:
 
@@ -108,7 +108,7 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 
 ### تضمين الخطوط الكاملة في PDF
 
-تتيح لك خاصية [EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) إمكانية تحديد كيفية قيام Aspose.Words بتضمين الخطوط في مستند PDF الناتج.
+تتيح لك خاصية [EmbedFullFonts](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) إمكانية تحديد كيفية قيام Aspose.Words بتضمين الخطوط في مستند PDF الناتج.
 
 - لتضمين الخطوط الكاملة في مستند PDF الناتج، اضبط **EmbedFullFonts** على true
 - لتعيين الخطوط فرعيًا عند الحفظ في ملف PDF، اضبط **EmbedFullFonts** على false
@@ -134,11 +134,11 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 يوفر Aspose.Words خيارات لاختيار كيفية تصدير الخطوط إلى PDF. يمكنك اختيار إما تضمين الخطوط الأساسية والقياسية في ملف PDF الناتج أو تخطي تضمينها واستخدام خطوط PDF الأساسية القياسية أو خطوط النظام على الجهاز المستهدف بدلاً من ذلك. يؤدي استخدام أي من هذه الخيارات عادةً إلى تقليل حجم الملف بشكل كبير لمستندات PDF التي يتم إنشاؤها بواسطة Aspose.Words.
 
 - نظرًا لأن هذه الخيارات متنافية، يجب عليك اختيار خيار واحد فقط في كل مرة.
-- عند الحفظ باستخدام التوافق مع PDF/A-1، يجب تضمين جميع الخطوط المستخدمة في مستند PDF. عند الحفظ باستخدام هذا التوافق، يجب تعيين خاصية [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) على false ويجب تعيين خاصية [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) على [EmbedAll](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/).
+- عند الحفظ باستخدام التوافق مع PDF/A-1، يجب تضمين جميع الخطوط المستخدمة في مستند PDF. عند الحفظ باستخدام هذا التوافق، يجب تعيين خاصية [UseCoreFonts](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) على false ويجب تعيين خاصية [FontEmbeddingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) على [EmbedAll](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdffontembeddingmode/).
 
 ### تضمين الخطوط الأساسية
 
-يمكن تمكين أو تعطيل خيار تضمين الخطوط الأساسية باستخدام خاصية [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/). عند تعيينه على true، لا يتم تضمين خطوط "True Type" الأكثر شيوعًا التالية (خطوط Base 14) في مستند PDF الناتج:
+يمكن تمكين أو تعطيل خيار تضمين الخطوط الأساسية باستخدام خاصية [UseCoreFonts](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/usecorefonts/). عند تعيينه على true، لا يتم تضمين خطوط "True Type" الأكثر شيوعًا التالية (خطوط Base 14) في مستند PDF الناتج:
 
 - `Arial`
 - `Times New Roman`
@@ -167,7 +167,7 @@ PDF هو تنسيق معقد. هناك حاجة إلى عدة مراحل من ا
 
 ### تضمين خطوط النظام
 
-يمكن تمكين هذا الخيار أو تعطيله باستخدام خاصية [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/). عند تعيين هذه الخاصية إلى [EmbedNonstandard](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/)، لا يتم تضمين خطوط نوع true "Arial" و"Times New Roman" في مستند PDF. في هذه الحالة، يعتمد عارض العميل على الخطوط المثبتة على نظام التشغيل الخاص بالعميل. عند تعيين خاصية **FontEmbeddingMode** إلى [EmbedNone](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/)، لا يقوم Aspose.Words بتضمين أي خطوط.
+يمكن تمكين هذا الخيار أو تعطيله باستخدام خاصية [FontEmbeddingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/). عند تعيين هذه الخاصية إلى [EmbedNonstandard](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdffontembeddingmode/)، لا يتم تضمين خطوط نوع true "Arial" و"Times New Roman" في مستند PDF. في هذه الحالة، يعتمد عارض العميل على الخطوط المثبتة على نظام التشغيل الخاص بالعميل. عند تعيين خاصية **FontEmbeddingMode** إلى [EmbedNone](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdffontembeddingmode/)، لا يقوم Aspose.Words بتضمين أي خطوط.
 
 يوضح المثال أدناه كيفية ضبط Aspose.Words لتخطي تضمين خطوط Arial وTimes New Roman في مستند PDF:
 

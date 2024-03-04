@@ -26,13 +26,13 @@ Ad esempio, utilizzando Aspose.Words API, è possibile aggiungere un componente 
 
 Le estensioni Web sono strumenti che espandono le funzionalità delle applicazioni di Office e interagiscono con il contenuto dei documenti di Office. Le estensioni Web forniscono funzionalità aggiuntive ai client Office per migliorare l'esperienza utente.
 
-Aspose.Words offre la possibilità di aggiungere estensioni Web del tipo Task Pane utilizzando le classi [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) e [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/) e consente inoltre di personalizzare il riquadro e le proprietà dell'estensione.
+Aspose.Words offre la possibilità di aggiungere estensioni Web del tipo Task Pane utilizzando le classi [WebExtension](https://reference.aspose.com/words/it/net/aspose.words.webextensions/webextension/) e [TaskPane](https://reference.aspose.com/words/it/net/aspose.words.webextensions/taskpane/) e consente inoltre di personalizzare il riquadro e le proprietà dell'estensione.
 
 L'esempio di codice seguente mostra come creare riquadri attività e aggiungerli ai riquadri attività delle estensioni Web con proprietà di base:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-Per visualizzare un elenco dei componenti aggiuntivi del riquadro attività, utilizzare la proprietà [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/).
+Per visualizzare un elenco dei componenti aggiuntivi del riquadro attività, utilizzare la proprietà [WebExtensionTaskPanes](https://reference.aspose.com/words/it/net/aspose.words/document/webextensiontaskpanes/).
 
 L'esempio di codice seguente mostra come ottenere un elenco di componenti aggiuntivi di questo tipo:
 

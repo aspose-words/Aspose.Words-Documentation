@@ -21,11 +21,11 @@ url: /ar/net/open-a-document-read-only/
 
 ## جعل المستند للقراءة فقط
 
-يحتوي Aspose.Words على الفئة العامة [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/) التي تحدد إعدادات الحماية ضد الكتابة للمستند. لا تقم بإنشاء مثيلات هذه الفئة مباشرة.
+يحتوي Aspose.Words على الفئة العامة [WriteProtection](https://reference.aspose.com/words/ar/net/aspose.words.settings/writeprotection/) التي تحدد إعدادات الحماية ضد الكتابة للمستند. لا تقم بإنشاء مثيلات هذه الفئة مباشرة.
 
 تُظهر الحماية ضد الكتابة ما إذا كان المؤلف قد أوصى بفتح مستند للقراءة فقط و/أو طلب كلمة مرور لتعديل المستند.
 
-يسمح لك Aspose.Words بجعل المستند للقراءة فقط لتقييد التحرير باستخدام خاصية [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/) وطريقة [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/).
+يسمح لك Aspose.Words بجعل المستند للقراءة فقط لتقييد التحرير باستخدام خاصية [ReadOnlyRecommended](https://reference.aspose.com/words/ar/net/aspose.words.settings/writeprotection/readonlyrecommended/) وطريقة [SetPassword](https://reference.aspose.com/words/ar/net/aspose.words.settings/writeprotection/setpassword/).
 
 {{% alert color="primary" %}}
 
@@ -38,7 +38,7 @@ url: /ar/net/open-a-document-read-only/
 
 {{% alert color="primary" %}}
 
-يمكن للمستخدمين أيضًا تقييد تحرير المستندات عن طريق تحديد [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/) كـ **ReadOnly**، ولكن هذه ميزة أخرى توفر إمكانات حماية أكثر تقدمًا. توجد مثل هذه الوظيفة في Microsoft Word، على التوالي، يتم تنفيذها في Aspose.Words.
+يمكن للمستخدمين أيضًا تقييد تحرير المستندات عن طريق تحديد [ProtectionType](https://reference.aspose.com/words/ar/net/aspose.words/protectiontype/) كـ **ReadOnly**، ولكن هذه ميزة أخرى توفر إمكانات حماية أكثر تقدمًا. توجد مثل هذه الوظيفة في Microsoft Word، على التوالي، يتم تنفيذها في Aspose.Words.
 
 سيتم وصف **ProtectionType** بالتفصيل في إحدى المقالات التالية - "تقييد تحرير المستند".
 
@@ -52,7 +52,7 @@ url: /ar/net/open-a-document-read-only/
 
 {{% /alert %}}
 
-إذا كنت بحاجة إلى التحقق مما إذا كان المستند يحتوي على كلمة مرور للحماية من الكتابة تمنعه من التحرير، فيمكنك استخدام خاصية [IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/).
+إذا كنت بحاجة إلى التحقق مما إذا كان المستند يحتوي على كلمة مرور للحماية من الكتابة تمنعه من التحرير، فيمكنك استخدام خاصية [IsWriteProtected](https://reference.aspose.com/words/ar/net/aspose.words.settings/writeprotection/iswriteprotected/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية جعل المستند للقراءة فقط:
 

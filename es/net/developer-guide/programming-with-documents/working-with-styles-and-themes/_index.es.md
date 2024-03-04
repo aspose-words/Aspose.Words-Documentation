@@ -9,11 +9,11 @@ weight: 110
 url: /es/net/working-with-styles-and-themes/
 ---
 
-La clase [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) se utiliza para administrar configuraciones integradas y aplicar configuraciones definidas por el usuario a los estilos.
+La clase [StyleCollection](https://reference.aspose.com/words/es/net/aspose.words/stylecollection/) se utiliza para administrar configuraciones integradas y aplicar configuraciones definidas por el usuario a los estilos.
 
 ## Accediendo a estilos
 
-Puede obtener una colección de estilos definidos en el documento utilizando la propiedad [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/). Esta colección contiene estilos integrados y definidos por el usuario en un documento. Un estilo particular podría obtenerse por su nombre/alias, identificador de estilo o índice. El siguiente ejemplo de código demuestra cómo obtener acceso a la colección de estilos definidos en el documento.
+Puede obtener una colección de estilos definidos en el documento utilizando la propiedad [Document.Styles](https://reference.aspose.com/words/es/net/aspose.words/documentbase/styles/). Esta colección contiene estilos integrados y definidos por el usuario en un documento. Un estilo particular podría obtenerse por su nombre/alias, identificador de estilo o índice. El siguiente ejemplo de código demuestra cómo obtener acceso a la colección de estilos definidos en el documento.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ La solución para recuperar texto formateado con estilos específicos en un docu
 
 ### La solución
 
-Para ilustrar con qué facilidad Aspose.Words maneja la recuperación de contenido según estilos, veamos un ejemplo. En este ejemplo, vamos a recuperar texto formateado con un estilo de párrafo específico y un estilo de carácter de un documento de Word de muestra. En un nivel alto, esto implicará:# Abrir un documento de Word usando la clase [Document](https://reference.aspose.com/words/net/aspose.words/document/).# Obtener colecciones de todos los párrafos y todas las ejecuciones del documento.# Seleccionar solo los párrafos y ejecuciones requeridos. Específicamente, recuperaremos texto formateado con el estilo de párrafo 'Título 1' y el estilo de carácter 'Énfasis intenso' de este documento de Word de muestra.
+Para ilustrar con qué facilidad Aspose.Words maneja la recuperación de contenido según estilos, veamos un ejemplo. En este ejemplo, vamos a recuperar texto formateado con un estilo de párrafo específico y un estilo de carácter de un documento de Word de muestra. En un nivel alto, esto implicará:# Abrir un documento de Word usando la clase [Document](https://reference.aspose.com/words/es/net/aspose.words/document/).# Obtener colecciones de todos los párrafos y todas las ejecuciones del documento.# Seleccionar solo los párrafos y ejecuciones requeridos. Específicamente, recuperaremos texto formateado con el estilo de párrafo 'Título 1' y el estilo de carácter 'Énfasis intenso' de este documento de Word de muestra.
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ Tenga en cuenta que el segundo parámetro del método **Document.GetChildNodes**
 
 {{% /alert %}}
 
-También vale la pena señalar que la colección de párrafos no crea una sobrecarga inmediata porque los párrafos se cargan en esta colección solo cuando accede a los elementos que contienen. Luego, todo lo que necesita hacer es revisar la colección, usando el operador foreach estándar y agregar párrafos que tengan el estilo especificado a la matriz parrafosWithStyle. El nombre del estilo `Paragraph` se puede encontrar en la propiedad [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) del objeto [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/). La implementación de RunsByStyleName es casi la misma, aunque obviamente usamos [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) para recuperar nodos de ejecución. La propiedad [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) de un objeto [Run](https://reference.aspose.com/words/net/aspose.words/run/) se utiliza para acceder a la información de estilo en los nodos **Run**. El siguiente ejemplo encuentra todas las ejecuciones formateadas con el estilo especificado.
+También vale la pena señalar que la colección de párrafos no crea una sobrecarga inmediata porque los párrafos se cargan en esta colección solo cuando accede a los elementos que contienen. Luego, todo lo que necesita hacer es revisar la colección, usando el operador foreach estándar y agregar párrafos que tengan el estilo especificado a la matriz parrafosWithStyle. El nombre del estilo `Paragraph` se puede encontrar en la propiedad [Style.Name](https://reference.aspose.com/words/es/net/aspose.words/style/name/) del objeto [Paragraph.ParagraphFormat](https://reference.aspose.com/words/es/net/aspose.words/paragraph/paragraphformat/). La implementación de RunsByStyleName es casi la misma, aunque obviamente usamos [NodeType.Run](https://reference.aspose.com/words/es/net/aspose.words/nodetype/) para recuperar nodos de ejecución. La propiedad [Font.Style](https://reference.aspose.com/words/es/net/aspose.words/font/style/) de un objeto [Run](https://reference.aspose.com/words/es/net/aspose.words/run/) se utiliza para acceder a la información de estilo en los nodos **Run**. El siguiente ejemplo encuentra todas las ejecuciones formateadas con el estilo especificado.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

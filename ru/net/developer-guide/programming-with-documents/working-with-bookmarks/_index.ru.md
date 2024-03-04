@@ -15,7 +15,7 @@ url: /ru/net/working-with-bookmarks/
 
 ## Вставить закладку
 
-Используйте [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) и [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/), чтобы создать закладку, отметив ее начало и конец соответственно. Не забудьте передать обоим методам одно и то же имя закладки. Закладки в документе могут перекрываться и охватывать любой диапазон. Закладки неправильного формата или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
+Используйте [StartBookmark](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/startbookmark/) и [EndBookmark](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/endbookmark/), чтобы создать закладку, отметив ее начало и конец соответственно. Не забудьте передать обоим методам одно и то же имя закладки. Закладки в документе могут перекрываться и охватывать любой диапазон. Закладки неправильного формата или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ url: /ru/net/working-with-bookmarks/
 
 ## Получить закладки
 
-Иногда необходимо получить коллекцию закладок для перебора закладок или для других целей. Используйте свойство [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/), предоставляемое любым узлом документа, которое возвращает объект [Range](https://reference.aspose.com/words/net/aspose.words/range/), представляющий часть документа, содержащуюся в этом узле. Используйте этот объект для получения [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/), а затем используйте индексатор коллекции для получения определенной закладки.
+Иногда необходимо получить коллекцию закладок для перебора закладок или для других целей. Используйте свойство [Node.Range](https://reference.aspose.com/words/ru/net/aspose.words/node/range/), предоставляемое любым узлом документа, которое возвращает объект [Range](https://reference.aspose.com/words/ru/net/aspose.words/range/), представляющий часть документа, содержащуюся в этом узле. Используйте этот объект для получения [BookmarkCollection](https://reference.aspose.com/words/ru/net/aspose.words/bookmarkcollection/), а затем используйте индексатор коллекции для получения определенной закладки.
 
 В следующем примере кода показано, как получить закладки из коллекции закладок:
 
@@ -66,7 +66,7 @@ url: /ru/net/working-with-bookmarks/
 
 ## Перейти к закладке
 
-Если вам нужно вставить в закладку расширенное содержимое (а не только обычный текст), вам следует использовать [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/), чтобы переместить курсор к закладке, а затем использовать методы и свойства [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) для вставки содержимого.
+Если вам нужно вставить в закладку расширенное содержимое (а не только обычный текст), вам следует использовать [MoveToBookmark](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/movetobookmark/), чтобы переместить курсор к закладке, а затем использовать методы и свойства [DocumentBuilder's](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) для вставки содержимого.
 
 ## Показать скрыть содержимое закладки
 

@@ -20,7 +20,7 @@ Belgedeki yazı tipinin, `TrueType` yazı tipi (fiziksel yazı tipi) varlığın
 
 ## Yazı Tipi Düzenleme ve Performans Sorunları
 
-Mevcut tüm yazı tipi düzenleme mekanizmaları [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) sınıfında bulunur. Bu sınıf, aşağıda açıklandığı gibi, tanımlanmış yazı tipi kaynakları içindeki yazı tiplerini getirmenin yanı sıra Yazı Tipi Değiştirme işleminden de sorumludur.
+Mevcut tüm yazı tipi düzenleme mekanizmaları [FontSettings](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontsettings/) sınıfında bulunur. Bu sınıf, aşağıda açıklandığı gibi, tanımlanmış yazı tipi kaynakları içindeki yazı tiplerini getirmenin yanı sıra Yazı Tipi Değiştirme işleminden de sorumludur.
 
 Yazı tipleri birkaç adımda ayrıştırılır:
 
@@ -55,7 +55,7 @@ Bir belgedeki metin, Arial, Times New Roman, Verdana ve diğerleri gibi çeşitl
 Ancak tam yazı tipinin bulunamadığı ve Aspose.Words'in onu benzer bir yazı tipiyle değiştirmesi gerektiği durumlar vardır. Aspose.Words yazı tipini aşağıdaki işleme göre seçer:
 1. Aspose.Words, mevcut yazı tipi kaynakları arasından tam yazı tipi adına sahip bir yazı tipi bulmaya çalışır.
 1. Aspose.Words, orijinal belgeye gömülü yazı tipleri arasından gerekli yazı tipini bulmaya çalışır. DOCX gibi bazı belge formatları gömülü yazı tipleri içerebilir.
-1. Aspose.Words, gerekli yazı tipini tam ad eşleşmesiyle ve bu yazı tipi için tanımlanmış [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) özelliğiyle bulamazsa, Aspose.Words, yazı tipi bilgilerini belirten [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) sınıfından **AltName** ile tanımlanan yazı tipini bulacaktır.
+1. Aspose.Words, gerekli yazı tipini tam ad eşleşmesiyle ve bu yazı tipi için tanımlanmış [AltName](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontinfo/altname/) özelliğiyle bulamazsa, Aspose.Words, yazı tipi bilgilerini belirten [FontInfo](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontinfo/) sınıfından **AltName** ile tanımlanan yazı tipini bulacaktır.
 1. Aspose.Words tanımlı yazı tipini bulamıyorsa ve **AltName** de tanımlı değilse yazı tipi değiştirme kuralları aşağıda açıklandığı gibi tek tek uygulanır (uygun değiştirme bulunduğunda Yazı Tipi Değiştirme İşlemi durdurulur ve sonraki adım yürütülmez):
    1. Aspose.Words öncelikle yazı tipi adını işlemeye çalışarak yerine koymayı dener, özellikle "-" ve "," ayırıcıları olan son ekleri kaldırmaya çalışır.<br>
       Bu değiştirme kuralı gerçekleşirse, "'&lt;OriginalFont&gt;' Yazı Tipi bulunamadı. Bunun yerine '&lt;SubstitutionFont&gt;' yazı tipi kullanılıyor. Neden: yazı tipi adı değişikliği." uyarısı görünür.<br>
@@ -98,7 +98,7 @@ Ancak tam yazı tipinin bulunamadığı ve Aspose.Words'in onu benzer bir yazı 
             fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
       {{< /highlight >}}
       Eksik yazı tipi için **FontInfo** mevcut değilse işlem durur.<br>
-   1. `FontInfo` değişikliğinin de başarısız olması durumunda **DefaultFont** değiştirme kuralı uygulanacaktır. Bu kural aynı zamanda varsayılan olarak etkindir. Bu kurala göre Aspose.Words, [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) özelliğinde belirtilen varsayılan yazı tipini kullanmaya çalışacaktır. Kullanıcı kendi varsayılan yazı tipini seçmemişse, varsayılan yazı tipi olarak "Times New Roman" kullanılacaktır. Bu kural aşağıda gösterildiği gibi devre dışı bırakılabilir:<br>
+   1. `FontInfo` değişikliğinin de başarısız olması durumunda **DefaultFont** değiştirme kuralı uygulanacaktır. Bu kural aynı zamanda varsayılan olarak etkindir. Bu kurala göre Aspose.Words, [DefaultFontName](https://reference.aspose.com/words/tr/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) özelliğinde belirtilen varsayılan yazı tipini kullanmaya çalışacaktır. Kullanıcı kendi varsayılan yazı tipini seçmemişse, varsayılan yazı tipi olarak "Times New Roman" kullanılacaktır. Bu kural aşağıda gösterildiği gibi devre dışı bırakılabilir:<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ Ancak tam yazı tipinin bulunamadığı ve Aspose.Words'in onu benzer bir yazı 
 
 ## Yazı Tipinin Değiştirildiği Nasıl Anlaşılır
 
-Bazen belge düzeninin neden değiştiği veya bazı yazı tiplerinin neden beklendiği gibi görünmediği açık olmayabilir. Bu gibi durumlarda [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/) arayüzünün uyguladığı font değiştirme uyarı mesajları imdadımıza yetişiyor. [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/) uyarı tipine ve standart açıklama metni formatına sahiptirler: "Font '<OriginalFont> ' bulunamadı. ' kullanma<SubstitutionFont> ' yazı tipi yerine. Sebep:<Reason> "aşağıdaki nedenlerle:
+Bazen belge düzeninin neden değiştiği veya bazı yazı tiplerinin neden beklendiği gibi görünmediği açık olmayabilir. Bu gibi durumlarda [IWarningCallback](https://reference.aspose.com/words/tr/net/aspose.words/iwarningcallback/) arayüzünün uyguladığı font değiştirme uyarı mesajları imdadımıza yetişiyor. [FontSubstitution](https://reference.aspose.com/words/tr/net/aspose.words/warningtype/) uyarı tipine ve standart açıklama metni formatına sahiptirler: "Font '<OriginalFont> ' bulunamadı. ' kullanma<SubstitutionFont> ' yazı tipi yerine. Sebep:<Reason> "aşağıdaki nedenlerle:
 
-- "belgeden alternatif ad" – [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname) ile değiştirmek için
+- "belgeden alternatif ad" – [AltName](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontinfo/properties/altname) ile değiştirmek için
 - "fontconfig substitution" – font yapılandırma kuralına göre değiştirme için
 - "tablo değişikliği" - tablo kuralına göre değişiklik için
 - "yazı tipi bilgisi değiştirme" - yazı tipi bilgisi kuralına göre değiştirme için
@@ -133,7 +133,7 @@ Bazen belge düzeninin neden değiştiği veya bazı yazı tiplerinin neden bekl
 
 Aspose.Words'te kullanılan iki farklı mekanizma vardır: Yazı tipi değiştirme ve Yazı tipi geri dönüşü. Yazı tipi değişikliği, belgede belirtilen yazı tipinin yukarıdaki bölümlerde anlatıldığı gibi yazı kaynakları arasında bulunamadığı durumlarda kullanılır. Yazı tipi geri dönüş mekanizması, yazı tipi çözümlendiğinde kullanılır ancak belirli bir karakter içermez. Bu durumda Aspose.Words, karakter için geri dönüş yazı tiplerinden birini kullanmaya çalışır.
 
-Mevcut yazı tiplerini tarayarak geri dönüş ayarlarını otomatik olarak oluşturan bir [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) yöntemi vardır. Bu yöntem ideal olmayan bir geri dönüş ayarı oluşturabileceğinden, [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/) sınıfının özelliklerini kullanarak yazı tipi geri dönüş davranışını denetleyebilirsiniz. Bu sınıf, yazı tipi geri dönüş mekanizmasının ayarlarını belirtir. **FontFallbackSettings** sınıfının bir örneğini aşağıdaki gibi alabilirsiniz:
+Mevcut yazı tiplerini tarayarak geri dönüş ayarlarını otomatik olarak oluşturan bir [BuildAutomatic](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) yöntemi vardır. Bu yöntem ideal olmayan bir geri dönüş ayarı oluşturabileceğinden, [FontFallbackSettings](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontfallbacksettings/) sınıfının özelliklerini kullanarak yazı tipi geri dönüş davranışını denetleyebilirsiniz. Bu sınıf, yazı tipi geri dönüş mekanizmasının ayarlarını belirtir. **FontFallbackSettings** sınıfının bir örneğini aşağıdaki gibi alabilirsiniz:
 
 **.NET**
 
@@ -195,7 +195,7 @@ Yukarıdaki kod örneğinde aşağıdaki XML dosyası kullanılmıştır:
 
 ## Google Noto Yazı Tipleri için Önceden Tanımlanmış Yazı Tipi Geri Dönüş Ayarları
 
-Aspose.Words, Google Noto yazı tipleri için önceden tanımlanmış yazı tipi geri dönüş ayarları sağlar. Bunlar, Google Noto Yazı Tiplerinden indirilebilen, SIL Açık Yazı Tipi Lisansı kapsamında lisanslanan ücretsiz yazı tipleridir. **FontFallbackSettings** sınıfı bir [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) yöntemi sağlar. Aşağıdaki kod örneğinde gösterildiği gibi Google Noto yazı tiplerini kullanan önceden tanımlanmış geri dönüş ayarlarını yükler:
+Aspose.Words, Google Noto yazı tipleri için önceden tanımlanmış yazı tipi geri dönüş ayarları sağlar. Bunlar, Google Noto Yazı Tiplerinden indirilebilen, SIL Açık Yazı Tipi Lisansı kapsamında lisanslanan ücretsiz yazı tipleridir. **FontFallbackSettings** sınıfı bir [LoadNotoFallbackSettings](https://reference.aspose.com/words/tr/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) yöntemi sağlar. Aşağıdaki kod örneğinde gösterildiği gibi Google Noto yazı tiplerini kullanan önceden tanımlanmış geri dönüş ayarlarını yükler:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

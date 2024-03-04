@@ -17,7 +17,7 @@ Aspose.Words 提供了获取有关文件类型的信息的功能，以避免在�
 
 当您处理各种文件格式的多个文档时，您可能需要将 Aspose.Words 可以处理的文件与不能处理的文件分开。您可能还想知道为什么某些文档无法处理。
 
-如果您尝试将文件加载到 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象中，并且 Aspose.Words 无法识别该文件格式或不支持该格式，则 Aspose.Words 将引发异常。您可以捕获这些异常并对其进行分析，但是 Aspose.Words 还提供了 [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/) 方法，使我们能够快速确定文件格式，而无需加载可能存在异常的文档。此方法返回一个 [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/) 对象，其中包含检测到的有关文件类型的信息。
+如果您尝试将文件加载到 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象中，并且 Aspose.Words 无法识别该文件格式或不支持该格式，则 Aspose.Words 将引发异常。您可以捕获这些异常并对其进行分析，但是 Aspose.Words 还提供了 [DetectFileFormat](https://reference.aspose.com/words/zh/net/aspose.words/fileformatutil/detectfileformat/) 方法，使我们能够快速确定文件格式，而无需加载可能存在异常的文档。此方法返回一个 [FileFormatInfo](https://reference.aspose.com/words/zh/net/aspose.words/fileformatinfo/) 对象，其中包含检测到的有关文件类型的信息。
 
 {{% alert color="primary" %}}
 

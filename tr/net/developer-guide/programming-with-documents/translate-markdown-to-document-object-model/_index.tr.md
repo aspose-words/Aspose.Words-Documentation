@@ -23,7 +23,7 @@ Bu mekanizmanın ana zorluğu yalnızca Markdown'i DOM'ye çevirmek değil, ayn�
 
 ## Ortak Çeviri İlkeleri
 
-Satır içi bloklar için [Font](https://reference.aspose.com/words/net/aspose.words/font/) formatını kullanıyoruz. Aspose.Words DOM'de bir Markdown özelliğinin doğrudan karşılığı olmadığında, bazı özel kelimelerden başlayan bir isme sahip karakter stili kullanırız.
+Satır içi bloklar için [Font](https://reference.aspose.com/words/tr/net/aspose.words/font/) formatını kullanıyoruz. Aspose.Words DOM'de bir Markdown özelliğinin doğrudan karşılığı olmadığında, bazı özel kelimelerden başlayan bir isme sahip karakter stili kullanırız.
 
 Konteyner blokları için, iç içe geçmiş Markdown özelliklerini belirtmek üzere stil mirasını kullanırız. Bu durumda iç içe geçmiş özellikler olmasa bile adı bazı özel kelimelerden başlayan paragraf stillerini de kullanıyoruz.
 
@@ -31,7 +31,7 @@ Madde işaretli ve sıralı listeler Markdown'te de kapsayıcı bloklardır. Yuv
 
 ## Satır İçi Bloklar
 
-**Bold**, *Italic* veya ~~Strikethrough~~ satır içi markdown özelliklerini çevirirken [Font](https://reference.aspose.com/words/net/aspose.words/font/) formatını kullanırız.
+**Bold**, *Italic* veya ~~Strikethrough~~ satır içi markdown özelliklerini çevirirken [Font](https://reference.aspose.com/words/tr/net/aspose.words/font/) formatını kullanırız.
 
 |  Markdown özelliği |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -53,11 +53,11 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
-|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) sınıfı |
+|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  [FieldHyperlink](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldhyperlink/) sınıfı |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
-|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) sınıfı |
+|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [FieldHyperlink](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldhyperlink/) sınıfı |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
-|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) sınıfı |
+|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  [Shape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/) sınıfı |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
 
 ## Konteyner Blokları
@@ -155,7 +155,7 @@ Aspose.Words ayrıca aşağıda gösterildiği gibi tabloların DOM'ye çevrilme
 
 |  Markdown özelliği |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> 'bir | b`<br />`- | -`<br />`c | d' |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) sınıfları |
+|  `Table`<br /> 'bir | b`<br />`- | -`<br />`c | d' |  [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/) ve [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/) sınıfları |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

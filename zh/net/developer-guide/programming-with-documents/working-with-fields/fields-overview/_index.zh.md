@@ -28,7 +28,7 @@ Aspose.Words是一个为Microsoft Word文档的服务器端处理而设计的类
 
 ![fields-aspose-words](/words/net/fields-overview/fields-overview-1.png)
 
-组成字段代码的内容作为 [Run](https://reference.aspose.com/words/net/aspose.words/run/) 节点存储在 [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) 和 [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) 之间。字段结果存储在 **FieldSeparator** 和 [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) 节点之间，可以由各种类型的内容组成。通常，字段结果仅包含由 **Run** 节点组成的文本，但 **FieldEnd** 节点可能位于完全不同的段落中，从而使字段结果也由 **Table** 等 [文档中节点的逻辑级别](/words/zh/net/logical-levels-of-nodes-in-a-document/) 和 **Paragraph** 节点组成。
+组成字段代码的内容作为 [Run](https://reference.aspose.com/words/zh/net/aspose.words/run/) 节点存储在 [FieldStart](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldstart/) 和 [FieldSeparator](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldseparator/) 之间。字段结果存储在 **FieldSeparator** 和 [FieldEnd](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldend/) 节点之间，可以由各种类型的内容组成。通常，字段结果仅包含由 **Run** 节点组成的文本，但 **FieldEnd** 节点可能位于完全不同的段落中，从而使字段结果也由 **Table** 等 [文档中节点的逻辑级别](/words/zh/net/logical-levels-of-nodes-in-a-document/) 和 **Paragraph** 节点组成。
 
 以下是如何使用"*DocumentExplorer"* 示例（可在 [吉图布](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer) 上找到）在 Aspose.Words 中存储字段的视图。
 
@@ -36,15 +36,15 @@ Aspose.Words是一个为Microsoft Word文档的服务器端处理而设计的类
 
 ## Aspose.Words Document Object Model (DOM) 中的字段
 
-当文档加载到 Aspose.Words 中时，文档的字段将作为一组单独的组件（节点）加载到 [Aspose.Words Document Object Model (DOM)](/words/zh/net/aspose-words-document-object-model/) 中。单个字段作为 **FieldStart**、**FieldSeparator** 和 **FieldEnd** 节点以及这些节点之间的内容的集合加载。如果字段没有字段结果，则不会有 **FieldSeparator** 节点。所有这些节点始终是内联的（作为 [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) 或 [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/) 的子节点）。
+当文档加载到 Aspose.Words 中时，文档的字段将作为一组单独的组件（节点）加载到 [Aspose.Words Document Object Model (DOM)](/words/zh/net/aspose-words-document-object-model/) 中。单个字段作为 **FieldStart**、**FieldSeparator** 和 **FieldEnd** 节点以及这些节点之间的内容的集合加载。如果字段没有字段结果，则不会有 **FieldSeparator** 节点。所有这些节点始终是内联的（作为 [Paragraph](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/) 或 [SmartTag](https://reference.aspose.com/words/zh/net/aspose.words.markup/smarttag/) 的子节点）。
 
-在 Aspose.Words 中，每个 **FieldXXX** 节点都源自 [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/)。该类提供了一个属性，用于通过 [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) 属性检查指定节点所表示的字段类型。例如，**FieldType.FieldMergeField** 表示文档中的合并字段。
+在 Aspose.Words 中，每个 **FieldXXX** 节点都源自 [FieldChar](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldchar/)。该类提供了一个属性，用于通过 [FieldType](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldtype/) 属性检查指定节点所表示的字段类型。例如，**FieldType.FieldMergeField** 表示文档中的合并字段。
 
 {{% alert color="primary" %}}
 
-Word 文档中存在一些特定字段，这些字段不会作为 **FieldXXX** 节点集合导入到 Aspose.Words 中。例如，`LINK` 字段和 `INCLUDEPICTURE` 字段作为 [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) 对象导入到 Aspose.Words 中。该对象提供了处理通常存储在这些字段中的图像数据的属性。要将 `INCLUDEPICTURE` 字段导入为 **FieldXXX** 节点，必须将 [PreserveIncludePictureField](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/preserveincludepicturefield/) 选项指定为 **true**。
+Word 文档中存在一些特定字段，这些字段不会作为 **FieldXXX** 节点集合导入到 Aspose.Words 中。例如，`LINK` 字段和 `INCLUDEPICTURE` 字段作为 [Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/) 对象导入到 Aspose.Words 中。该对象提供了处理通常存储在这些字段中的图像数据的属性。要将 `INCLUDEPICTURE` 字段导入为 **FieldXXX** 节点，必须将 [PreserveIncludePictureField](https://reference.aspose.com/words/zh/net/aspose.words.loading/loadoptions/preserveincludepicturefield/) 选项指定为 **true**。
 
-表单字段也作为其自己的特殊类导入到 Aspose.Words 中。 [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) 类表示 Word 文档中的表单字段，并提供表单字段特有的其他方法。
+表单字段也作为其自己的特殊类导入到 Aspose.Words 中。 [FormField](https://reference.aspose.com/words/zh/net/aspose.words.fields/formfield/) 类表示 Word 文档中的表单字段，并提供表单字段特有的其他方法。
 
 {{% /alert %}}
 
@@ -201,10 +201,10 @@ Aspose.Words 支持的 mail merge 字段的一些示例：
 
 ### 字段中的 Date 和数字格式
 
-Aspose.Words计算字段结果时，经常需要将字符串解析为数字或日期值，并将其格式化回字符串。默认情况下，Aspose.Words在字段更新期间计算字段值时使用当前线程区域性来执行解析和格式化和mail merge。还有以 [FieldOptions](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/) 类的形式提供的选项，允许进一步控制字段更新期间使用的区域性。
+Aspose.Words计算字段结果时，经常需要将字符串解析为数字或日期值，并将其格式化回字符串。默认情况下，Aspose.Words在字段更新期间计算字段值时使用当前线程区域性来执行解析和格式化和mail merge。还有以 [FieldOptions](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldoptions/) 类的形式提供的选项，允许进一步控制字段更新期间使用的区域性。
 
-- 默认情况下，[FieldUpdateCultureSource](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) 属性设置为 [CurrentThread](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/)，它使用当前线程区域性格式化字段
-- 该属性可以设置为 [FieldCode](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/)，以便使用字段的字段代码设置的语言进行格式化
+- 默认情况下，[FieldUpdateCultureSource](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) 属性设置为 [CurrentThread](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldupdateculturesource/)，它使用当前线程区域性格式化字段
+- 该属性可以设置为 [FieldCode](https://reference.aspose.com/words/zh/net/aspose.words.fields/fieldupdateculturesource/)，以便使用字段的字段代码设置的语言进行格式化
 
 ### 使用当前线程的文化进行格式化
 
@@ -220,7 +220,7 @@ Aspose.Words计算字段结果时，经常需要将字符串解析为数字或�
 
 另一方面，Microsoft Word 根据字段中找到的文本语言（特别是字段代码中的运行）来格式化每个单独的字段。有时，在字段更新期间，这可能是所需的行为，例如，如果您有包含由多种不同语言组成的内容的全球化文档，并且希望每个字段遵循文本中使用的区域设置。 Aspose.Words 也支持此功能。
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/) 类提供了一个 [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) 属性，其中包含可用于控制文档中字段更新方式的成员。
+[Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 类提供了一个 [FieldOptions](https://reference.aspose.com/words/zh/net/aspose.words/document/fieldoptions/) 属性，其中包含可用于控制文档中字段更新方式的成员。
 
 以下代码示例演示如何指定在字段更新和 mail merge 期间选择用于日期格式的区域性：
 

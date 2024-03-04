@@ -19,13 +19,13 @@ Aspose.Words 允许您管理部分、将文档划分为多个部分以及进行�
 
 ## 什么是节和分节符
 
-文档部分由 [Section](https://reference.aspose.com/words/net/aspose.words/section/) 和 [SectionCollection](https://reference.aspose.com/words/net/aspose.words/section/collection) 类表示。节对象是 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 节点的直接子级，可以通过 [Sections](https://reference.aspose.com/words/net/aspose.words/document//properties/sections) 属性进行访问。您可以使用 [Remove](https://reference.aspose.com/words/net/aspose.words/nodecollection/remove/)、[Add](https://reference.aspose.com/words/net/aspose.words/nodecollection/add/)、[IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) 等一些方法来管理这些节点。
+文档部分由 [Section](https://reference.aspose.com/words/zh/net/aspose.words/section/) 和 [SectionCollection](https://reference.aspose.com/words/zh/net/aspose.words/section/collection) 类表示。节对象是 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 节点的直接子级，可以通过 [Sections](https://reference.aspose.com/words/zh/net/aspose.words/document//properties/sections) 属性进行访问。您可以使用 [Remove](https://reference.aspose.com/words/zh/net/aspose.words/nodecollection/remove/)、[Add](https://reference.aspose.com/words/zh/net/aspose.words/nodecollection/add/)、[IndexOf](https://reference.aspose.com/words/zh/net/aspose.words/nodecollection/indexof/) 等一些方法来管理这些节点。
 
 分节符是一个选项，可将文档页面分为具有可自定义布局的部分。
 
 ## 分节符的类型
 
-Aspose.Words 允许您使用 [BreakType](https://reference.aspose.com/words/net/aspose.words/breaktype/) 枚举的不同分节符来分割和格式化文档：
+Aspose.Words 允许您使用 [BreakType](https://reference.aspose.com/words/zh/net/aspose.words/breaktype/) 枚举的不同分节符来分割和格式化文档：
 
 * 连续分节符
 * 分节符新列
@@ -33,7 +33,7 @@ Aspose.Words 允许您使用 [BreakType](https://reference.aspose.com/words/net/
 * 节盈平衡页
 * 分节符奇数页
 
-您还可以使用 [SectionStart](https://reference.aspose.com/words/net/aspose.words/sectionstart/) 枚举来选择仅适用于第一部分的分隔类型，例如 NewColumn、NewPage、EvenPage 和 OddPage。
+您还可以使用 [SectionStart](https://reference.aspose.com/words/zh/net/aspose.words/sectionstart/) 枚举来选择仅适用于第一部分的分隔类型，例如 NewColumn、NewPage、EvenPage 和 OddPage。
 
 ## 管理部分
 
@@ -43,13 +43,13 @@ Aspose.Words 允许您使用 [BreakType](https://reference.aspose.com/words/net/
 
 ## 插入或删除分节符
 
-Aspose.Words 允许您使用 [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/) 方法在文本中插入分节符。
+Aspose.Words 允许您使用 [InsertBreak](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertbreak/) 方法在文本中插入分节符。
 
 以下代码示例演示如何在文档中插入分节符：
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "insert-section-breaks.cs" >}}
 
-使用 [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/) 方法删除分节符。如果您不需要删除特定分节符而是删除该节的内容，则可以使用 [ClearContent](https://reference.aspose.com/words/net/aspose.words/section/clearcontent/) 方法。
+使用 [Remove](https://reference.aspose.com/words/zh/net/aspose.words/node/remove/) 方法删除分节符。如果您不需要删除特定分节符而是删除该节的内容，则可以使用 [ClearContent](https://reference.aspose.com/words/zh/net/aspose.words/section/clearcontent/) 方法。
 
 以下代码示例展示了如何删除分节符：
 
@@ -63,7 +63,7 @@ Aspose.Words 允许您使用 [InsertBreak](https://reference.aspose.com/words/ne
 
 ## 移动一个部分
 
-如果要将文档中的某个部分从一个位置移动到另一个位置，则需要获取该部分的索引。 Aspose.Words 允许您使用 [Item](https://reference.aspose.com/words/net/aspose.words/sectioncollection//properties/item) 属性从 [SectionCollection](https://reference.aspose.com/words/net/aspose.words/sectioncollection/) 中获取章节位置。您可以使用 [Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/) 属性获取文档中的所有部分。但如果您只想获取第一部分，则可以使用 [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) 属性。
+如果要将文档中的某个部分从一个位置移动到另一个位置，则需要获取该部分的索引。 Aspose.Words 允许您使用 [Item](https://reference.aspose.com/words/zh/net/aspose.words/sectioncollection//properties/item) 属性从 [SectionCollection](https://reference.aspose.com/words/zh/net/aspose.words/sectioncollection/) 中获取章节位置。您可以使用 [Sections](https://reference.aspose.com/words/zh/net/aspose.words/document/sections/) 属性获取文档中的所有部分。但如果您只想获取第一部分，则可以使用 [FirstSection](https://reference.aspose.com/words/zh/net/aspose.words/document/firstsection/) 属性。
 
 以下代码示例演示如何访问第一部分并迭代复合节点的子节点：
 
@@ -71,7 +71,7 @@ Aspose.Words 允许您使用 [InsertBreak](https://reference.aspose.com/words/ne
 
 ## 指定部分布局
 
-有时，您希望通过为文档的不同部分制作创意布局来使文档看起来更好。如果要指定当前截面网格的类型，可以使用 [SectionLayoutMode](https://reference.aspose.com/words/net/aspose.words/sectionlayoutmode/) 枚举选择截面布局模式：
+有时，您希望通过为文档的不同部分制作创意布局来使文档看起来更好。如果要指定当前截面网格的类型，可以使用 [SectionLayoutMode](https://reference.aspose.com/words/zh/net/aspose.words/sectionlayoutmode/) 枚举选择截面布局模式：
 
 * 默认
 * 网格
@@ -84,7 +84,7 @@ Aspose.Words 允许您使用 [InsertBreak](https://reference.aspose.com/words/ne
 
 ## 编辑部分
 
-当您向文档添加新部分时，将没有可以编辑的正文或段落。 Aspose.Words 允许您使用 [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words/section/ensureminimum/) 方法保证一个节包含至少一个段落的正文 - 它会自动向文档添加一个 Body（或 HeaderFooter）节点，然后向其中添加一个 Paragraph。
+当您向文档添加新部分时，将没有可以编辑的正文或段落。 Aspose.Words 允许您使用 [EnsureMinimum](https://reference.aspose.com/words/zh/net/aspose.words/section/ensureminimum/) 方法保证一个节包含至少一个段落的正文 - 它会自动向文档添加一个 Body（或 HeaderFooter）节点，然后向其中添加一个 Paragraph。
 
 以下代码示例展示了如何使用 **EnsureMinimum** 准备新的节节点：
 
@@ -92,7 +92,7 @@ Aspose.Words 允许您使用 [InsertBreak](https://reference.aspose.com/words/ne
 
 ### 追加或前置内容
 
-如果您想在部分的开头/结尾绘制某些形状或添加文本或图像，可以使用 [Section](https://reference.aspose.com/words/net/aspose.words/section/) 类的 [AppendContent](https://reference.aspose.com/words/net/aspose.words/section/appendcontent/) 和 [PrependContent](https://reference.aspose.com/words/net/aspose.words/section/prependcontent/) 方法。
+如果您想在部分的开头/结尾绘制某些形状或添加文本或图像，可以使用 [Section](https://reference.aspose.com/words/zh/net/aspose.words/section/) 类的 [AppendContent](https://reference.aspose.com/words/zh/net/aspose.words/section/appendcontent/) 和 [PrependContent](https://reference.aspose.com/words/zh/net/aspose.words/section/prependcontent/) 方法。
 
 以下代码示例演示如何附加现有部分的内容：
 
@@ -100,7 +100,7 @@ Aspose.Words 允许您使用 [InsertBreak](https://reference.aspose.com/words/ne
 
 ### 克隆一个部分
 
-Aspose.Words 允许您通过使用 [Clone](https://reference.aspose.com/words/net/aspose.words/section/clone/) 方法创建该部分的完整副本来复制该部分。
+Aspose.Words 允许您通过使用 [Clone](https://reference.aspose.com/words/zh/net/aspose.words/section/clone/) 方法创建该部分的完整副本来复制该部分。
 
 以下代码示例演示如何克隆文档中的第一部分：
 
@@ -110,7 +110,7 @@ Aspose.Words 允许您通过使用 [Clone](https://reference.aspose.com/words/ne
 
 在某些情况下，您可能拥有包含许多部分的大型文档，并且您希望将某个部分的内容从一个文档复制到另一个文档。
 
-Aspose.Words 允许您使用 [ImportNode](https://reference.aspose.com/words/net/aspose.words/nodeimporter/importnode/) 方法复制文档之间的部分。
+Aspose.Words 允许您使用 [ImportNode](https://reference.aspose.com/words/zh/net/aspose.words/nodeimporter/importnode/) 方法复制文档之间的部分。
 
 以下代码示例演示如何在文档之间复制部分：
 
@@ -127,7 +127,7 @@ Aspose.Words 允许您使用 [ImportNode](https://reference.aspose.com/words/net
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
-如果要删除页眉和页脚的文本而不删除文档中的 [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) 对象，可以使用 [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) 方法。此外，您可以使用 [DeleteHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words/section/deleteheaderfootershapes/) 方法从文档的页眉和页脚中删除所有形状。
+如果要删除页眉和页脚的文本而不删除文档中的 [HeaderFooter](https://reference.aspose.com/words/zh/net/aspose.words/headerfooter/) 对象，可以使用 [ClearHeadersFooters](https://reference.aspose.com/words/zh/net/aspose.words/section/clearheadersfooters/) 方法。此外，您可以使用 [DeleteHeaderFooterShapes](https://reference.aspose.com/words/zh/net/aspose.words/section/deleteheaderfootershapes/) 方法从文档的页眉和页脚中删除所有形状。
 
 以下代码示例演示如何清除节中所有页眉和页脚的内容：
 
@@ -141,7 +141,7 @@ Aspose.Words 允许您使用 [ImportNode](https://reference.aspose.com/words/net
 
 在打印页面或文档之前，您可能需要自定义和修改单页或整个文档的尺寸和布局。通过页面设置，您可以更改文档页面的设置，例如页边距、方向和尺寸，以打印不同的首页或奇数页。
 
-Aspose.Words 允许您使用 [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) 类自定义页面和部分属性。
+Aspose.Words 允许您使用 [PageSetup](https://reference.aspose.com/words/zh/net/aspose.words/pagesetup/) 类自定义页面和部分属性。
 
 以下代码示例显示如何设置当前部分的页面大小和方向等属性：
 

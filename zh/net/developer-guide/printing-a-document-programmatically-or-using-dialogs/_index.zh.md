@@ -21,7 +21,7 @@ url: /zh/net/print-a-document-programmatically-or-using-dialogs/
 
 不支持在 Windows 服务或 ASP.NET 应用程序或服务中使用 *System.Drawing.Printing* 命名空间中的类，尝试使用它们可能会导致服务性能下降、运行时异常和其他问题。同样不支持使用 WPF 构建 Windows 服务。由于 WPF 是一种演示技术，因此 Windows 服务需要适当的权限才能执行涉及用户交互的可视化操作。如果Windows服务没有这样的权限，可能会出现意想不到的结果。
 
-Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象提供了一系列 [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print/index) 方法来打印文档。这些方法使用 *System.Drawing.Printing* 命名空间中定义的 .NET 打印类。有许多 Aspose.Words 客户成功地利用它们在服务器端应用程序中进行打印。尽管如此，本文演示了一种符合 Microsoft 建议的替代打印方法。
+Aspose.Words [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象提供了一系列 [Print](https://reference.aspose.com/words/zh/net/aspose.words/document/methods/print/index) 方法来打印文档。这些方法使用 *System.Drawing.Printing* 命名空间中定义的 .NET 打印类。有许多 Aspose.Words 客户成功地利用它们在服务器端应用程序中进行打印。尽管如此，本文演示了一种符合 Microsoft 建议的替代打印方法。
 
 ### 打印 Server 文档的方法
 
@@ -44,7 +44,7 @@ Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/docu
 
 当您运行该项目时，它会在指定的打印机上打印示例文档，并打开控制台窗口以显示打印结果。当打印作业完成或出错时，系统将显示成功消息或抛出异常的文本。
 
-您还可以使用 [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) 类设置一些打印设置。例如，在 Microsoft Word 中，打印机托盘是为每个部分定义的并且是特定于打印机的。因此，您可以通过 [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/) 和 [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/otherpagestray/) 属性以编程方式更改每个部分的这些值。
+您还可以使用 [PageSetup](https://reference.aspose.com/words/zh/net/aspose.words/pagesetup/) 类设置一些打印设置。例如，在 Microsoft Word 中，打印机托盘是为每个部分定义的并且是特定于打印机的。因此，您可以通过 [FirstPageTray](https://reference.aspose.com/words/zh/net/aspose.words/pagesetup/firstpagetray/) 和 [OtherPagesTray](https://reference.aspose.com/words/zh/net/aspose.words/pagesetup/otherpagestray/) 属性以编程方式更改每个部分的这些值。
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/docu
 
 {{% /alert %}}
 
-**XpsPrintHelper**.**Print** 方法有两个重载。第一个重载采用 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 对象并将其保存为 XPS 格式的 `MemoryStream`。第二个重载接受 `Stream` 对象。该流必须包含 XPS 格式的文档。
+**XpsPrintHelper**.**Print** 方法有两个重载。第一个重载采用 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 对象并将其保存为 XPS 格式的 `MemoryStream`。第二个重载接受 `Stream` 对象。该流必须包含 XPS 格式的文档。
 
 您可以从 [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip) 下载方法重载的示例。
 
@@ -62,7 +62,7 @@ Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/docu
 
 在处理文档时，通常需要将其打印到选定的打印机。利用打印预览对话框直观地检查打印文档的显示方式并选择相关的打印选项会很有帮助。
 
-Aspose.Words 没有内置对话框或表单，但基于 .NET **PrintDocument** 类实现了 [AsposeWordsPrintDocument](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/) 类。可以将此类的实例传递到 **PrintPreviewDialog** 表单以预览和打印文档。此外，[打印预览对话框](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) 类定义了传输到打印机的输出。
+Aspose.Words 没有内置对话框或表单，但基于 .NET **PrintDocument** 类实现了 [AsposeWordsPrintDocument](https://reference.aspose.com/words/zh/net/aspose.words.rendering/asposewordsprintdocument/) 类。可以将此类的实例传递到 **PrintPreviewDialog** 表单以预览和打印文档。此外，[打印预览对话框](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) 类定义了传输到打印机的输出。
 
 以下示例演示如何使用这些类通过"打印预览"和"设置"对话框从 Aspose.Words 打印文档：
 
@@ -92,7 +92,7 @@ Aspose.Words 没有内置对话框或表单，但基于 .NET **PrintDocument** �
 
 ## 打印文档时隐藏打印进度对话框
 
-通过 [Print](https://reference.aspose.com/words/net/aspose.words/document/print/) 方法打印文档时，不会出现打印进度对话框。但是，在使用其他 [Print](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/) 方法打印时会出现此对话框。在这种情况下，为了防止出现"打印"对话框，您应该在此方法中指定有效的打印机设置和标准打印控制器，如下例所示：
+通过 [Print](https://reference.aspose.com/words/zh/net/aspose.words/document/print/) 方法打印文档时，不会出现打印进度对话框。但是，在使用其他 [Print](https://reference.aspose.com/words/zh/net/aspose.words.rendering/asposewordsprintdocument/) 方法打印时会出现此对话框。在这种情况下，为了防止出现"打印"对话框，您应该在此方法中指定有效的打印机设置和标准打印控制器，如下例所示：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintProgressDialog-PrintProgressDialog.cs" >}}
 
@@ -100,7 +100,7 @@ Aspose.Words 没有内置对话框或表单，但基于 .NET **PrintDocument** �
 
 ## 如何减少第一次调用打印文档的时间
 
-Aspose.Words 读取并缓存 **PrinterSettings** 的某些字段以减少打印时间。您可以通过调用 [CachePrinterSettings](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/) 方法来实现此目的。如果之前没有执行过该方法，则在打印开始之前调用该方法。请注意，调用和不调用此方法的打印总时间几乎相同。使用该方法的目的是减少第一次调用[Print](https://reference.aspose.com/words/net/aspose.words/document/print/)方法的时间。以下代码示例展示了如何使用此方法：
+Aspose.Words 读取并缓存 **PrinterSettings** 的某些字段以减少打印时间。您可以通过调用 [CachePrinterSettings](https://reference.aspose.com/words/zh/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/) 方法来实现此目的。如果之前没有执行过该方法，则在打印开始之前调用该方法。请注意，调用和不调用此方法的打印总时间几乎相同。使用该方法的目的是减少第一次调用[Print](https://reference.aspose.com/words/zh/net/aspose.words/document/print/)方法的时间。以下代码示例展示了如何使用此方法：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-Print_CachePrinterSettings-CachePrinterSettings.cs" >}}
 

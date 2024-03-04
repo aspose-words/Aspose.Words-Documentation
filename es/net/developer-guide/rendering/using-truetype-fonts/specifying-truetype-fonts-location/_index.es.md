@@ -11,23 +11,23 @@ url: /es/net/specifying-truetype-fonts-location/
 
 Este tema describe el comportamiento predeterminado de Aspose.Words cuando busca fuentes TrueType, incluidas las diferencias específicas del sistema operativo, y demuestra cómo especificar fuentes de fuentes del usuario.
 
-La clase [FontSourceBase](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/) se utiliza para especificar varias fuentes de fuentes. Hay varias implementaciones de la clase **FontSourceBase**:
+La clase [FontSourceBase](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsourcebase/) se utiliza para especificar varias fuentes de fuentes. Hay varias implementaciones de la clase **FontSourceBase**:
 
-- [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource)
-- [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource)
-- [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource)
-- [FileFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/filefontsource)
-- [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource)
+- [SystemFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/systemfontsource)
+- [FolderFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/folderfontsource)
+- [StreamFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/streamfontsource)
+- [FileFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/filefontsource)
+- [MemoryFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/memoryfontsource)
 
 Los detalles de implementación para algunas clases se explican a continuación.
 
 ## Cargar fuentes desde el sistema {#loading-fonts-from-system}
 
-Hay una clase [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/) especial que siempre se utiliza de forma predeterminada. Representa todas las fuentes TrueType instaladas en el sistema. Por lo tanto, es posible crear una lista de fuentes con **SystemFontSource** y cualquier otra fuente requerida:
+Hay una clase [SystemFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/systemfontsource/) especial que siempre se utiliza de forma predeterminada. Representa todas las fuentes TrueType instaladas en el sistema. Por lo tanto, es posible crear una lista de fuentes con **SystemFontSource** y cualquier otra fuente requerida:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFolders-SetFontsFolders.cs" >}}
 
-Una única instancia de la clase **SystemFontSource** se define de forma predeterminada en [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/). En diferentes sistemas operativos, las fuentes pueden estar ubicadas en diferentes lugares. Sin embargo, utilizar una instancia **FontSettings** para cada documento no es una solución óptima. En la mayoría de los casos, utilizar [DefaultInstance](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/defaultinstance/) debería ser suficiente.
+Una única instancia de la clase **SystemFontSource** se define de forma predeterminada en [FontSettings](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/). En diferentes sistemas operativos, las fuentes pueden estar ubicadas en diferentes lugares. Sin embargo, utilizar una instancia **FontSettings** para cada documento no es una solución óptima. En la mayoría de los casos, utilizar [DefaultInstance](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/defaultinstance/) debería ser suficiente.
 
 Las instancias por documento solo son necesarias si es necesario utilizar diferentes fuentes de fuentes para diferentes documentos, lo cual es un caso poco común. El uso de varias instancias **FontSettings** disminuye el rendimiento porque no comparten caché.
 
@@ -50,7 +50,7 @@ La representación Aspose.Words en un servidor normalmente no funcionará con un
 
 ### Fuentes en sistemas que no son Windows
 
-Aspose.Words buscará las fuentes en las carpetas de fuentes del sistema. Se puede ver una lista de estas carpetas mediante el método [GetSystemFontFolders](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/). Si no se encuentran fuentes compatibles, Aspose.Words utilizará la fuente predeterminada incorporada Fanwood.ttf.
+Aspose.Words buscará las fuentes en las carpetas de fuentes del sistema. Se puede ver una lista de estas carpetas mediante el método [GetSystemFontFolders](https://reference.aspose.com/words/es/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/). Si no se encuentran fuentes compatibles, Aspose.Words utilizará la fuente predeterminada incorporada Fanwood.ttf.
 
 Dado que las métricas de fuente de los sistemas operativos Windows y no Windows son diferentes, Aspose.Words hace todo lo posible para encontrar una fuente similar y crear un diseño similar al original. Sin embargo, esto no siempre es posible. En estos casos, se debe utilizar la clase **FontSettings** para agregar fuentes personalizadas o reglas de sustitución.
 
@@ -64,11 +64,11 @@ Aspose.Words busca fuentes en la carpeta /Biblioteca/Fonts, que es la ubicación
 
 ## Cargar fuentes desde la carpeta {#loading-fonts-from-folder}
 
-Si el documento que se está procesando contiene enlaces a fuentes que no están en el sistema, o no desea agregarlas a la carpeta del sistema, o no tiene permisos, entonces la mejor solución sería agregar una carpeta con sus propias fuentes usando el método [SetFontsSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontssources/). Esto permitirá reemplazar la fuente del sistema con una fuente de usuario. Aspose.Words ya no buscará fuentes en el registro o en la carpeta Windows\Font y, en su lugar, solo buscará fuentes dentro de las carpetas especificadas. El método [GetFontSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/getfontssources/) devolverá los valores correspondientes.
+Si el documento que se está procesando contiene enlaces a fuentes que no están en el sistema, o no desea agregarlas a la carpeta del sistema, o no tiene permisos, entonces la mejor solución sería agregar una carpeta con sus propias fuentes usando el método [SetFontsSources](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/setfontssources/). Esto permitirá reemplazar la fuente del sistema con una fuente de usuario. Aspose.Words ya no buscará fuentes en el registro o en la carpeta Windows\Font y, en su lugar, solo buscará fuentes dentro de las carpetas especificadas. El método [GetFontSources](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/getfontssources/) devolverá los valores correspondientes.
 
 ### Especificar una o varias carpetas de fuentes
 
-Los métodos [SetFontsFolder](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/) y [SetFontsFolders](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/s) son accesos directos al método **SetFontSources** con una o varias instancias [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource/). Estos métodos se utilizan para indicar dónde Aspose.Words debe buscar fuentes. Si una carpeta no existe o no es accesible, Aspose.Words simplemente ignora esta carpeta. Si se ignoraron todas las carpetas, incluidas las fuentes para la sustitución de fuentes, Aspose.Words utilizará la fuente Fanwood como predeterminada.
+Los métodos [SetFontsFolder](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/setfontsfolder/) y [SetFontsFolders](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/setfontsfolder/s) son accesos directos al método **SetFontSources** con una o varias instancias [FolderFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/folderfontsource/). Estos métodos se utilizan para indicar dónde Aspose.Words debe buscar fuentes. Si una carpeta no existe o no es accesible, Aspose.Words simplemente ignora esta carpeta. Si se ignoraron todas las carpetas, incluidas las fuentes para la sustitución de fuentes, Aspose.Words utilizará la fuente Fanwood como predeterminada.
 
 El siguiente ejemplo demuestra cómo configurar la carpeta o fuente, que Aspose.Words utilizará posteriormente para buscar fuentes TrueType durante la representación o incrustación de fuentes:
 
@@ -94,23 +94,23 @@ Si no desea utilizar fuentes del sistema en absoluto, Aspose.Words le permite ig
 
 ### Propiedad prioritaria
 
-La propiedad [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) se utiliza cuando hay fuentes con el mismo nombre de familia y estilo en diferentes fuentes de fuentes. En este caso, Aspose.Words selecciona la fuente de la fuente con el valor de prioridad más alto. Por ejemplo, hay una versión antigua de la fuente en la carpeta del sistema y el cliente agregó una nueva versión de la misma fuente en una carpeta personalizada.
+La propiedad [Priority](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsourcebase/priority/) se utiliza cuando hay fuentes con el mismo nombre de familia y estilo en diferentes fuentes de fuentes. En este caso, Aspose.Words selecciona la fuente de la fuente con el valor de prioridad más alto. Por ejemplo, hay una versión antigua de la fuente en la carpeta del sistema y el cliente agregó una nueva versión de la misma fuente en una carpeta personalizada.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersWithPriority-SetFontsFoldersWithPriority.cs" >}}
 
 ## Cargar fuentes desde Stream {#loading-fonts-from-stream}
 
-Aspose.Words proporciona la clase [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/), que permite cargar fuentes desde la secuencia. Para utilizar la fuente de fuente de flujo, un usuario debe crear una clase derivada de **StreamFontSource** y proporcionar una implementación del método [OpenFontDataStream](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/openfontdatastream/). El método **OpenFontDataStream** se puede llamar varias veces. Por primera vez, se llamará cuando Aspose.Words escanee las fuentes de fuentes proporcionadas para obtener una lista de las fuentes disponibles. Más tarde se puede llamar si la fuente se utiliza en el documento para analizar los datos de la fuente e incrustar los datos de la fuente en algunos formatos de salida. **StreamFontSource** puede ser útil porque permite cargar los datos de la fuente sólo cuando es necesario y no almacenarlos en la memoria durante la vida útil del [Configuración de fuente](https://fontsettings/).
+Aspose.Words proporciona la clase [StreamFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/streamfontsource/), que permite cargar fuentes desde la secuencia. Para utilizar la fuente de fuente de flujo, un usuario debe crear una clase derivada de **StreamFontSource** y proporcionar una implementación del método [OpenFontDataStream](https://reference.aspose.com/words/es/net/aspose.words.fonts/streamfontsource/openfontdatastream/). El método **OpenFontDataStream** se puede llamar varias veces. Por primera vez, se llamará cuando Aspose.Words escanee las fuentes de fuentes proporcionadas para obtener una lista de las fuentes disponibles. Más tarde se puede llamar si la fuente se utiliza en el documento para analizar los datos de la fuente e incrustar los datos de la fuente en algunos formatos de salida. **StreamFontSource** puede ser útil porque permite cargar los datos de la fuente sólo cuando es necesario y no almacenarlos en la memoria durante la vida útil del [Configuración de fuente](https://fontsettings/).
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-ResourceSteamFontSourceExample-ResourceSteamFontSourceExample.cs" >}}
 
-**StreamFontSource** es una alternativa a [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource/) ya que siempre es posible cargar una secuencia en la memoria y pasarla a **MemoryFontSource**. La diferencia es que el **MemoryFontSource** se almacena en la memoria todo el tiempo y el **StreamFontSource** se carga según demanda y se elimina de inmediato. Pero puede cargarse varias veces, como se describe arriba. En algunos casos es preferible **MemoryFontSource** y en otros, **StreamFontSource**.
+**StreamFontSource** es una alternativa a [MemoryFontSource](https://reference.aspose.com/words/es/net/aspose.words.fonts/memoryfontsource/) ya que siempre es posible cargar una secuencia en la memoria y pasarla a **MemoryFontSource**. La diferencia es que el **MemoryFontSource** se almacena en la memoria todo el tiempo y el **StreamFontSource** se carga según demanda y se elimina de inmediato. Pero puede cargarse varias veces, como se describe arriba. En algunos casos es preferible **MemoryFontSource** y en otros, **StreamFontSource**.
 
 ## Guardar y cargar una caché de búsqueda de fuentes
 
 Cuando busca una fuente por primera vez, Aspose.Words itera sobre las fuentes de fuentes especificadas por el usuario y forma un caché de búsqueda de fuentes basado en los datos de estas fuentes. Por lo tanto, el caché recopilará información sobre las fuentes disponibles: familia de fuentes, estilo, nombre completo de la fuente y otros. En llamadas posteriores, Aspose.Words busca información sobre la fuente deseada por su nombre en el caché de búsqueda de fuentes, después de lo cual analiza los archivos especificados para usar la fuente.
 
-El procedimiento para analizar todos los archivos de fuentes disponibles para inicializar el caché lleva bastante tiempo. Aspose.Words le permite guardar y cargar el caché utilizando el método [SaveSearchCache](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/savesearchcache/) para resolver el problema de rendimiento. Es decir, el usuario puede cargar un caché previamente guardado desde un archivo y omitir el paso de analizar todos los archivos de fuentes disponibles.
+El procedimiento para analizar todos los archivos de fuentes disponibles para inicializar el caché lleva bastante tiempo. Aspose.Words le permite guardar y cargar el caché utilizando el método [SaveSearchCache](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsettings/savesearchcache/) para resolver el problema de rendimiento. Es decir, el usuario puede cargar un caché previamente guardado desde un archivo y omitir el paso de analizar todos los archivos de fuentes disponibles.
 
 {{% alert color="primary" %}}
 
@@ -155,6 +155,6 @@ La caché también es adecuada para otros escenarios cuando las fuentes se carga
 
 ## Obtenga una lista de fuentes disponibles {#get-a-list-of-available-fonts}
 
-Si desea obtener la lista de fuentes disponibles, que, por ejemplo, se pueden usar para representar un documento PDF, puede usar el método [GetAvailableFonts](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/getavailablefonts/), como se muestra en el siguiente ejemplo de código. La clase [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) especifica información sobre la fuente física disponible para el motor de fuentes Aspose.Words:
+Si desea obtener la lista de fuentes disponibles, que, por ejemplo, se pueden usar para representar un documento PDF, puede usar el método [GetAvailableFonts](https://reference.aspose.com/words/es/net/aspose.words.fonts/fontsourcebase/getavailablefonts/), como se muestra en el siguiente ejemplo de código. La clase [PhysicalFontInfo](https://reference.aspose.com/words/es/net/aspose.words.fonts/physicalfontinfo/) especifica información sobre la fuente física disponible para el motor de fuentes Aspose.Words:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSources-GetListOfAvailableFonts.cs" >}}

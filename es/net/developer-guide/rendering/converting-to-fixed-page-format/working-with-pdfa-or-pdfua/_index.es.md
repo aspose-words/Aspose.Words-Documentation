@@ -141,7 +141,7 @@ Si un documento contiene cualquier otro contenido que deba marcarse como un arte
 |  PDF/A-2a |  {{< emoticons/tick >}} |
 |  PDF/UA-1 |  {{< emoticons/tick >}} |
 
-El idioma del texto se especifica en los documentos Microsoft Word. Aspose.Words exporta el idioma especificado a un PDF de salida con el atributo *Lang* adjunto a una secuencia de contenido marcado o una etiqueta Span; está controlado por la propiedad [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). Generalmente no hay problemas de idioma cuando el usuario ingresa texto a través de Microsoft Word. Pero existe la posibilidad de que el lenguaje sea inexacto si el texto se genera automáticamente.
+El idioma del texto se especifica en los documentos Microsoft Word. Aspose.Words exporta el idioma especificado a un PDF de salida con el atributo *Lang* adjunto a una secuencia de contenido marcado o una etiqueta Span; está controlado por la propiedad [ExportLanguageToSpanTag](https://reference.aspose.com/words/es/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). Generalmente no hay problemas de idioma cuando el usuario ingresa texto a través de Microsoft Word. Pero existe la posibilidad de que el lenguaje sea inexacto si el texto se genera automáticamente.
 
 {{% alert color="secondary" %}}
 <details>

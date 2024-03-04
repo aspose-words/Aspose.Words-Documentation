@@ -26,13 +26,13 @@ Por ejemplo, al utilizar Aspose.Words API, puede agregar un complemento del pane
 
 Las extensiones web son herramientas que amplían las capacidades de las aplicaciones de Office e interactúan con el contenido de los documentos de Office. Las extensiones web brindan funcionalidad adicional a los clientes de Office para mejorar la experiencia del usuario.
 
-Aspose.Words brinda la posibilidad de agregar extensiones web del tipo Panel de tareas utilizando las clases [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) y [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/), y también le permite personalizar el panel y las propiedades de la extensión.
+Aspose.Words brinda la posibilidad de agregar extensiones web del tipo Panel de tareas utilizando las clases [WebExtension](https://reference.aspose.com/words/es/net/aspose.words.webextensions/webextension/) y [TaskPane](https://reference.aspose.com/words/es/net/aspose.words.webextensions/taskpane/), y también le permite personalizar el panel y las propiedades de la extensión.
 
 El siguiente ejemplo de código muestra cómo crear paneles de tareas y agregarlos a paneles de tareas de extensión web con propiedades básicas:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-Para ver una lista de complementos del panel de tareas, utilice la propiedad [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/).
+Para ver una lista de complementos del panel de tareas, utilice la propiedad [WebExtensionTaskPanes](https://reference.aspose.com/words/es/net/aspose.words/document/webextensiontaskpanes/).
 
 El siguiente ejemplo de código muestra cómo obtener dicha lista de complementos:
 

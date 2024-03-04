@@ -17,7 +17,7 @@ url: /ar/net/restrict-document-editing/
 
 ## حدد نوع تقييد التحرير
 
-يسمح لك Aspose.Words بالتحكم في طريقة تقييد المحتوى باستخدام معلمة تعداد [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/). سيمكنك هذا من تحديد نوع الحماية الدقيق مثل ما يلي:
+يسمح لك Aspose.Words بالتحكم في طريقة تقييد المحتوى باستخدام معلمة تعداد [ProtectionType](https://reference.aspose.com/words/ar/net/aspose.words/protectiontype/). سيمكنك هذا من تحديد نوع الحماية الدقيق مثل ما يلي:
 
 * السماح بالتعليقات فقط
 * السماح فقط بحقول النموذج
@@ -31,7 +31,7 @@ url: /ar/net/restrict-document-editing/
 
 {{% alert color="primary" %}}
 
-لاحظ أن كلمة المرور التي يتم تعيينها هي مجرد خاصية في مستند يمكن إزالتها إذا تم الوصول إلى خصائص المستند. وبناءً على ذلك، فإن كلمة المرور هذه ليست ضمانًا لأمن المستند. تُظهر طريقة [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/) ذلك تمامًا.
+لاحظ أن كلمة المرور التي يتم تعيينها هي مجرد خاصية في مستند يمكن إزالتها إذا تم الوصول إلى خصائص المستند. وبناءً على ذلك، فإن كلمة المرور هذه ليست ضمانًا لأمن المستند. تُظهر طريقة [Unprotect](https://reference.aspose.com/words/ar/net/aspose.words/document/unprotect/#unprotect/) ذلك تمامًا.
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ url: /ar/net/restrict-document-editing/
 
 تعد إضافة الحماية إلى مستندك عملية بسيطة، حيث أن كل ما عليك فعله هو تطبيق إحدى طرق الحماية المفصلة في هذا القسم.
 
-يسمح لك Aspose.Words بحماية مستنداتك من التغييرات باستخدام طريقة [Protect](https://reference.aspose.com/words/net/aspose.words/document/protect/#protect/). هذه الطريقة ليست ميزة أمان ولا تقوم بتشفير مستند.
+يسمح لك Aspose.Words بحماية مستنداتك من التغييرات باستخدام طريقة [Protect](https://reference.aspose.com/words/ar/net/aspose.words/document/protect/#protect/). هذه الطريقة ليست ميزة أمان ولا تقوم بتشفير مستند.
 
 {{% alert color="primary" %}}
 
@@ -60,7 +60,7 @@ url: /ar/net/restrict-document-editing/
 
 ## قم بإزالة حماية المستندات
 
-يتيح لك Aspose.Words إزالة الحماية من المستند من خلال تعديل بسيط ومباشر للمستند. يمكنك إما إزالة حماية المستند دون معرفة كلمة المرور الفعلية أو توفير كلمة المرور الصحيحة لفتح المستند باستخدام طريقة [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/). كلتا الطريقتين الإزالة ليس لهما فرق.
+يتيح لك Aspose.Words إزالة الحماية من المستند من خلال تعديل بسيط ومباشر للمستند. يمكنك إما إزالة حماية المستند دون معرفة كلمة المرور الفعلية أو توفير كلمة المرور الصحيحة لفتح المستند باستخدام طريقة [Unprotect](https://reference.aspose.com/words/ar/net/aspose.words/document/unprotect/#unprotect/). كلتا الطريقتين الإزالة ليس لهما فرق.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إزالة الحماية من المستند الخاص بك:
 
@@ -70,7 +70,7 @@ url: /ar/net/restrict-document-editing/
 
 يمكنك تقييد تحرير المستند الخاص بك وفي نفس الوقت السماح بإجراء تغييرات على أجزاء محددة منه. لذلك، سيتمكن أي شخص يفتح مستندك من الوصول إلى هذه الأجزاء غير المقيدة وإجراء تغييرات على المحتوى.
 
-يسمح لك Aspose.Words بوضع علامة على الأجزاء التي يمكن تغييرها في مستندك باستخدام طريقتي [StartEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/) و[EndEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/).
+يسمح لك Aspose.Words بوضع علامة على الأجزاء التي يمكن تغييرها في مستندك باستخدام طريقتي [StartEditableRange](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/starteditablerange/) و[EndEditableRange](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية وضع علامة على المستند بأكمله للقراءة فقط وتحديد المناطق القابلة للتحرير فيه:
 

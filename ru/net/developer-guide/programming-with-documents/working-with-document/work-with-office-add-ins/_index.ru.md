@@ -26,13 +26,13 @@ url: /ru/net/work-with-office-add-ins/
 
 Веб-расширения — это инструменты, которые расширяют возможности приложений Office и взаимодействуют с содержимым документов Office. Веб-расширения предоставляют клиентам Office дополнительные функции для улучшения пользовательского опыта.
 
-Aspose.Words предоставляет возможность добавлять веб-расширения типа "Панель задач" с помощью классов [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/) и [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/), а также позволяет настраивать свойства панели и расширения.
+Aspose.Words предоставляет возможность добавлять веб-расширения типа "Панель задач" с помощью классов [WebExtension](https://reference.aspose.com/words/ru/net/aspose.words.webextensions/webextension/) и [TaskPane](https://reference.aspose.com/words/ru/net/aspose.words.webextensions/taskpane/), а также позволяет настраивать свойства панели и расширения.
 
 В следующем примере кода показано, как создавать панели задач и добавлять их к панелям задач веб-расширения с базовыми свойствами:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-Чтобы просмотреть список надстроек области задач, используйте свойство [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/).
+Чтобы просмотреть список надстроек области задач, используйте свойство [WebExtensionTaskPanes](https://reference.aspose.com/words/ru/net/aspose.words/document/webextensiontaskpanes/).
 
 В следующем примере кода показано, как получить такой список надстроек:
 

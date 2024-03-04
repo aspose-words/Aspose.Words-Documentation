@@ -13,9 +13,9 @@ Aspose.Words fornisce anche alcune classi, metodi e proprietà per lavorare con 
 
 ## Inserisci nota di chiusura e imposta opzioni di numerazione
 
-Se desideri inserire una nota a piè di pagina o una nota di chiusura nel documento Word, utilizza il metodo [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/). Questo metodo inserisce una nota a piè di pagina o una nota di chiusura nel documento.
+Se desideri inserire una nota a piè di pagina o una nota di chiusura nel documento Word, utilizza il metodo [InsertFootnote](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertfootnote/). Questo metodo inserisce una nota a piè di pagina o una nota di chiusura nel documento.
 
-Le classi [EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) e [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) rappresentano le opzioni di numerazione per la nota a piè di pagina e la nota di chiusura.
+Le classi [EndnoteOptions](https://reference.aspose.com/words/it/net/aspose.words.notes/endnoteoptions/) e [FootnoteOptions](https://reference.aspose.com/words/it/net/aspose.words.notes/footnoteoptions/) rappresentano le opzioni di numerazione per la nota a piè di pagina e la nota di chiusura.
 
 L'esempio di codice seguente mostra come inserire una nota di chiusura nel documento e impostarne le opzioni di numerazione:
 
@@ -23,7 +23,7 @@ L'esempio di codice seguente mostra come inserire una nota di chiusura nel docum
 
 ## Imposta il numero di colonne del layout delle note a piè di pagina
 
-È possibile impostare il numero di colonne del layout delle note a piè di pagina utilizzando la proprietà [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/). Se questa proprietà ha il valore 0, l'area delle note a piè di pagina viene formattata con un numero di colonne in base al numero di colonne nella pagina visualizzata.
+È possibile impostare il numero di colonne del layout delle note a piè di pagina utilizzando la proprietà [Columns](https://reference.aspose.com/words/it/net/aspose.words.notes/footnoteoptions/columns/). Se questa proprietà ha il valore 0, l'area delle note a piè di pagina viene formattata con un numero di colonne in base al numero di colonne nella pagina visualizzata.
 
 L'esempio di codice seguente mostra come impostare il numero di colonne per il layout delle note a piè di pagina:
 

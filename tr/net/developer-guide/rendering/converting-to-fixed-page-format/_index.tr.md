@@ -49,7 +49,7 @@ Sayfa düzeni, metnin nerede görüneceğini ve arkasında hangi içeriğin gör
 
 ![converting-to-fixed-page-format_2](/words/net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-Aspose.Words'te kullanıcı, yeni bir sayfa düzeni mi oluşturulacağını yoksa mevcut bir sayfa düzeninin mi güncelleneceğini talep edebilir. Bunların her ikisi de [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfının sağladığı [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/) yöntemiyle gerçekleştirilebilir. Sayfa düzeni yoksa ancak buna ihtiyaç varsa (örneğin, belge sabit sayfa formatına aktarıldığında), Aspose.Words bu yöntemi otomatik olarak çağıracaktır. Bununla birlikte, bir sayfa düzeni zaten mevcutsa Aspose.Words, onu güncellemek için gerekli kaynakların tüketilmesini önlemek amacıyla mevcut düzeni kullanacaktır. Bu durumda sayfa düzeninin belge modeliyle güncel olduğundan emin olmak için kullanıcının `UpdatePageLayout` yöntemini çağırması gerekir.
+Aspose.Words'te kullanıcı, yeni bir sayfa düzeni mi oluşturulacağını yoksa mevcut bir sayfa düzeninin mi güncelleneceğini talep edebilir. Bunların her ikisi de [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfının sağladığı [UpdatePageLayout](https://reference.aspose.com/words/tr/net/aspose.words/document/updatepagelayout/) yöntemiyle gerçekleştirilebilir. Sayfa düzeni yoksa ancak buna ihtiyaç varsa (örneğin, belge sabit sayfa formatına aktarıldığında), Aspose.Words bu yöntemi otomatik olarak çağıracaktır. Bununla birlikte, bir sayfa düzeni zaten mevcutsa Aspose.Words, onu güncellemek için gerekli kaynakların tüketilmesini önlemek amacıyla mevcut düzeni kullanacaktır. Bu durumda sayfa düzeninin belge modeliyle güncel olduğundan emin olmak için kullanıcının `UpdatePageLayout` yöntemini çağırması gerekir.
 
 ### Dinamik Yapı
 
@@ -65,22 +65,22 @@ Sayfa düzeninin kısmen yeniden oluşturulabilen dinamik bir yapı olduğunu un
 
 Belgenin ilk sayfasının alt bilgisinde `NUMPAGES` alanının göründüğü tipik senaryoyu düşünün. Bu alanın değeri toplam sayfa sayısıdır. Alanın sayfa üzerinde konumlandırılabilmesi için değerinin bilinmesi gerekmektedir. Şu anda yalnızca ilk sayfa oluşturuluyorsa toplam sayfa sayısı henüz bilinmiyor. Bu durumda sayfa düzeninin varsayılan değeri kullanması ve daha sonra bu alana geri dönüp değerini gerçek hesaplamalara göre değiştirmesi gerekir. Ancak alan değerini değiştirmek, sayfadaki diğer belge içeriğini etkileyebilir ve sonuçta yeni bir sayfanın eklenmesine veya mevcut bir sayfanın kaldırılmasına neden olarak hesaplanan değerin güncelliğini yitirmesine neden olabilir. Bu sorun mevcut sayfa düzeninin güncellenmesine olanak sağlanarak çözülebilir.
 
-Bir düzen oluştururken, belgenin sayfalardaki çıktısını etkileyen [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) özelliklerini ayarlamak da mümkündür.
+Bir düzen oluştururken, belgenin sayfalardaki çıktısını etkileyen [LayoutOptions](https://reference.aspose.com/words/tr/net/aspose.words.layout/layoutoptions/) özelliklerini ayarlamak da mümkündür.
 
 ## Sabit Sayfa Formatına Kaydetme
 
 Sayfa düzeni oluşturulduktan ve nesnelerin geometrisi ve sayfadaki konumları hesaplandıktan sonra belge, Aspose.Words tarafından desteklenen sabit sayfa formatında kaydedilebilir. Belgeleri sabit sayfa formatlarında kaydederken, bu formatların hepsinde ortak olan işleme seçenekleri kullanılabilir. Aşağıdakileri kontrol etmeye izin verirler:
 
-- Çıktı belgesinde ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)) yer alan sayfaların sayısı ve aralığı.
-- Sayfa sayfa belge kaydetmenin ilerlemesi ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
-- Sayıların oluşturulmasında ([NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)) kullanılan bir dizi karakter.
-- Bir meta dosyası oynatıcısı ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Daha fazla ayrıntı için [Windows Meta Dosyalarını Kullanma](/words/tr/net/handling-windows-metafiles/) makalesine bakın.
-- Seçilen kaydetme biçimine ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)) bağlı olarak değeri biraz farklılık gösterebilen, JPEG görüntülerinin yeniden sıkıştırılmasına yönelik bir kalite oranı.
-- Aspose.Words çıktısında ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)) vektör grafiklerinin optimizasyonu.
-- Tiff, Png, Bmp, Jpeg, Emf formatlarına ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)) kaydederken grafik seçenekleri.
-- Belgeyi gri tonlamalı ([ColorMode](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/colormode/)) kaydetme.
-- DrawingML şekillerinin ve geri dönüş şekillerinin ([DmlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmlrenderingmode/)) oluşturulması arasında geçiş yapma.
-- DML efektleri oluşturma modları ([DmlEffectsRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)) arasında geçiş yapma.
+- Çıktı belgesinde ([PageCount](https://reference.aspose.com/words/tr/net/aspose.words/document/pagecount/)) yer alan sayfaların sayısı ve aralığı.
+- Sayfa sayfa belge kaydetmenin ilerlemesi ([PageSavingCallback](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
+- Sayıların oluşturulmasında ([NumeralFormat](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)) kullanılan bir dizi karakter.
+- Bir meta dosyası oynatıcısı ([MetafileRenderingOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Daha fazla ayrıntı için [Windows Meta Dosyalarını Kullanma](/words/tr/net/handling-windows-metafiles/) makalesine bakın.
+- Seçilen kaydetme biçimine ([JpegQuality](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)) bağlı olarak değeri biraz farklılık gösterebilen, JPEG görüntülerinin yeniden sıkıştırılmasına yönelik bir kalite oranı.
+- Aspose.Words çıktısında ([OptimizeOutput](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)) vektör grafiklerinin optimizasyonu.
+- Tiff, Png, Bmp, Jpeg, Emf formatlarına ([UseAntiAliasing](https://reference.aspose.com/words/tr/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/tr/net/aspose.words.saving/saveoptions/usehighqualityrendering/)) kaydederken grafik seçenekleri.
+- Belgeyi gri tonlamalı ([ColorMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/fixedpagesaveoptions/colormode/)) kaydetme.
+- DrawingML şekillerinin ve geri dönüş şekillerinin ([DmlRenderingMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/saveoptions/dmlrenderingmode/)) oluşturulması arasında geçiş yapma.
+- DML efektleri oluşturma modları ([DmlEffectsRenderingMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)) arasında geçiş yapma.
 
 Aşağıdaki örnek, `Save` yöntemini ve oluşturma seçeneklerini kullanarak bir belgenin JPEG formatında nasıl kaydedileceğini gösterir:
 

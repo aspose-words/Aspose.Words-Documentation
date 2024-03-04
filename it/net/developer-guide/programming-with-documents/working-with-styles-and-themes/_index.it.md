@@ -9,11 +9,11 @@ weight: 110
 url: /it/net/working-with-styles-and-themes/
 ---
 
-La classe [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) viene utilizzata per gestire le impostazioni integrate e applicare agli stili le impostazioni definite dall'utente.
+La classe [StyleCollection](https://reference.aspose.com/words/it/net/aspose.words/stylecollection/) viene utilizzata per gestire le impostazioni integrate e applicare agli stili le impostazioni definite dall'utente.
 
 ## Accesso agli stili
 
-Puoi ottenere una raccolta di stili definiti nel documento utilizzando la proprietà [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/). Questa raccolta contiene sia gli stili incorporati che quelli definiti dall'utente in un documento. Uno stile particolare può essere ottenuto tramite il suo nome/alias, identificatore di stile o indice. Nell'esempio di codice seguente viene illustrato come ottenere l'accesso alla raccolta di stili definiti nel documento.
+Puoi ottenere una raccolta di stili definiti nel documento utilizzando la proprietà [Document.Styles](https://reference.aspose.com/words/it/net/aspose.words/documentbase/styles/). Questa raccolta contiene sia gli stili incorporati che quelli definiti dall'utente in un documento. Uno stile particolare può essere ottenuto tramite il suo nome/alias, identificatore di stile o indice. Nell'esempio di codice seguente viene illustrato come ottenere l'accesso alla raccolta di stili definiti nel documento.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ La soluzione per recuperare testo formattato con stili specifici in un documento
 
 ### La soluzione
 
-Per illustrare con quanta facilità Aspose.Words gestisce il recupero dei contenuti in base agli stili, diamo un'occhiata a un esempio. In questo esempio, recupereremo il testo formattato con uno stile di paragrafo e uno stile di carattere specifici da un documento Word di esempio. Ad alto livello, ciò comporterà:# Aprire un documento Word utilizzando la classe [Document](https://reference.aspose.com/words/net/aspose.words/document/).# Ottenere raccolte di tutti i paragrafi e tutte le sequenze nel documento.# Selezionando solo i paragrafi e le sequenze richiesti. Nello specifico, recupereremo il testo formattato con lo stile di paragrafo "Intestazione 1" e lo stile di carattere "Enfasi intensa" da questo documento Word di esempio.
+Per illustrare con quanta facilità Aspose.Words gestisce il recupero dei contenuti in base agli stili, diamo un'occhiata a un esempio. In questo esempio, recupereremo il testo formattato con uno stile di paragrafo e uno stile di carattere specifici da un documento Word di esempio. Ad alto livello, ciò comporterà:# Aprire un documento Word utilizzando la classe [Document](https://reference.aspose.com/words/it/net/aspose.words/document/).# Ottenere raccolte di tutti i paragrafi e tutte le sequenze nel documento.# Selezionando solo i paragrafi e le sequenze richiesti. Nello specifico, recupereremo il testo formattato con lo stile di paragrafo "Intestazione 1" e lo stile di carattere "Enfasi intensa" da questo documento Word di esempio.
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ Si noti che il secondo parametro del metodo **Document.GetChildNodes** è impost
 
 {{% /alert %}}
 
-Vale anche la pena sottolineare che la raccolta paragrafi non crea un sovraccarico immediato poiché i paragrafi vengono caricati in questa raccolta solo quando si accede agli elementi al loro interno. Quindi, tutto ciò che devi fare è esaminare la raccolta, utilizzando l'operatore foreach standard e aggiungere i paragrafi con lo stile specificato all'array paragrafosWithStyle. Il nome dello stile `Paragraph` si trova nella proprietà [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) dell'oggetto [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/). L'implementazione di RunsByStyleName è quasi la stessa, anche se ovviamente utilizziamo [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) per recuperare i nodi di esecuzione. La proprietà [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) di un oggetto [Run](https://reference.aspose.com/words/net/aspose.words/run/) viene utilizzata per accedere alle informazioni sullo stile nei nodi **Run**. Nell'esempio seguente trovi tutte le esecuzioni formattate con lo stile specificato.
+Vale anche la pena sottolineare che la raccolta paragrafi non crea un sovraccarico immediato poiché i paragrafi vengono caricati in questa raccolta solo quando si accede agli elementi al loro interno. Quindi, tutto ciò che devi fare è esaminare la raccolta, utilizzando l'operatore foreach standard e aggiungere i paragrafi con lo stile specificato all'array paragrafosWithStyle. Il nome dello stile `Paragraph` si trova nella proprietà [Style.Name](https://reference.aspose.com/words/it/net/aspose.words/style/name/) dell'oggetto [Paragraph.ParagraphFormat](https://reference.aspose.com/words/it/net/aspose.words/paragraph/paragraphformat/). L'implementazione di RunsByStyleName è quasi la stessa, anche se ovviamente utilizziamo [NodeType.Run](https://reference.aspose.com/words/it/net/aspose.words/nodetype/) per recuperare i nodi di esecuzione. La proprietà [Font.Style](https://reference.aspose.com/words/it/net/aspose.words/font/style/) di un oggetto [Run](https://reference.aspose.com/words/it/net/aspose.words/run/) viene utilizzata per accedere alle informazioni sullo stile nei nodi **Run**. Nell'esempio seguente trovi tutte le esecuzioni formattate con lo stile specificato.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

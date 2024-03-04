@@ -141,7 +141,7 @@ Se un documento contiene qualsiasi altro contenuto che deve essere contrassegnat
 |  PDF/A-2a |   {{< emoticons/tick >}}   |
 |  PDF/UA-1 |   {{< emoticons/tick >}}   |
 
-La lingua del testo è specificata nei documenti Microsoft Word. Aspose.Words esporta la lingua specificata in un PDF di output con l'attributo *Lang* allegato a una sequenza di contenuto contrassegnato o a un tag Span: è controllato dalla proprietà [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). Generalmente non ci sono problemi di lingua quando il testo viene inserito dall'utente tramite Microsoft Word. Ma esiste la possibilità che la lingua possa essere imprecisa se il testo viene generato automaticamente.
+La lingua del testo è specificata nei documenti Microsoft Word. Aspose.Words esporta la lingua specificata in un PDF di output con l'attributo *Lang* allegato a una sequenza di contenuto contrassegnato o a un tag Span: è controllato dalla proprietà [ExportLanguageToSpanTag](https://reference.aspose.com/words/it/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). Generalmente non ci sono problemi di lingua quando il testo viene inserito dall'utente tramite Microsoft Word. Ma esiste la possibilità che la lingua possa essere imprecisa se il testo viene generato automaticamente.
 
 {{% alert color="secondary" %}}
 <details>

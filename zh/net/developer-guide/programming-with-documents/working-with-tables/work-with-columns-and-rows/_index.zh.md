@@ -13,7 +13,7 @@ url: /zh/net/working-with-columns-and-rows/
 
 ## 查找表元素索引 {#find-the-index-of-table-elements}
 
-通过索引访问选定的文档节点来管理列、行和单元格。查找任意节点的索引涉及从父节点收集该元素类型的所有子节点，然后使用 [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) 方法在集合中查找所需节点的索引。
+通过索引访问选定的文档节点来管理列、行和单元格。查找任意节点的索引涉及从父节点收集该元素类型的所有子节点，然后使用 [IndexOf](https://reference.aspose.com/words/zh/net/aspose.words/nodecollection/indexof/) 方法在集合中查找所需节点的索引。
 
 ### 查找文档 {#find-the-index-of-table-in-a-document} 中表的索引
 
@@ -41,7 +41,7 @@ url: /zh/net/working-with-columns-and-rows/
 
 ## 使用列 {#work-with-columns}
 
-在 Aspose.Words Document Object Model (DOM) 中，[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) 节点由 [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 节点和 [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) 节点组成。因此，在 Aspose.Words 的 `Document` 对象模型中，就像在 Word 文档中一样，没有列的概念。
+在 Aspose.Words Document Object Model (DOM) 中，[Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/) 节点由 [Row](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/) 节点和 [Cell](https://reference.aspose.com/words/zh/net/aspose.words.tables/cell/) 节点组成。因此，在 Aspose.Words 的 `Document` 对象模型中，就像在 Word 文档中一样，没有列的概念。
 
 按照设计，Microsoft Word 和 Aspose.Words 中的表格行是完全独立的，基本属性和操作仅包含在表格的行和单元格中。这使得表能够具有一些有趣的属性：
 
@@ -65,7 +65,7 @@ url: /zh/net/working-with-columns-and-rows/
 
 ## 指定行作为标题行
 
-您可以选择仅在第一页或每页（如果表格被拆分为多个）上重复表格中的第一行作为标题行。在 Aspose.Words 中，您可以使用 [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/) 属性在每个页面上重复标题行。
+您可以选择仅在第一页或每页（如果表格被拆分为多个）上重复表格中的第一行作为标题行。在 Aspose.Words 中，您可以使用 [HeadingFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowformat/headingformat/) 属性在每个页面上重复标题行。
 
 如果多个标题行一个接一个地位于表的开头，您还可以标记多个标题行。为此，您需要将 **HeadingFormat** 属性应用于这些行。
 
@@ -92,7 +92,7 @@ url: /zh/net/working-with-columns-and-rows/
 
 ### 防止行跨页中断 {#keep-a-row-from-breaking-across-pages}
 
-这涉及限制行单元格内的内容在页面上拆分。在 Microsoft Word 中，可以在"表属性"下找到"允许跨页断行"选项。在 Aspose.Words 中，可以在 [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) 的 [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) 对象下找到该属性，作为属性 [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages)。
+这涉及限制行单元格内的内容在页面上拆分。在 Microsoft Word 中，可以在"表属性"下找到"允许跨页断行"选项。在 Aspose.Words 中，可以在 [Row](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/) 的 [RowFormat](https://reference.aspose.com/words/zh/net/aspose.words.tables/rowformat/) 对象下找到该属性，作为属性 [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/zh/net/aspose.words.tables/row/format/properties/allowbreakacrosspages)。
 
 以下代码示例演示如何禁用表中每行的跨页断行：
 
@@ -108,7 +108,7 @@ url: /zh/net/working-with-columns-and-rows/
 
 为了阻止表格跨页拆分，我们需要指定希望表格中包含的内容保持在一起。
 
-为此，Aspose.Words 使用一种方法，允许用户选择一个表格，并为表格单元格内的每个段落启用 [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/) 参数为 true。表中的最后一段例外，应将其设置为 false。
+为此，Aspose.Words 使用一种方法，允许用户选择一个表格，并为表格单元格内的每个段落启用 [KeepWithNext](https://reference.aspose.com/words/zh/net/aspose.words/paragraphformat/keepwithnext/) 参数为 true。表中的最后一段例外，应将其设置为 false。
 
 以下代码示例演示如何将表设置为在同一页面上保持在一起：
 

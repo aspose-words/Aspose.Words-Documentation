@@ -10,11 +10,11 @@ weight: 20
 url: /zh/net/save-a-document/
 ---
 
-您需要使用 Aspose.Words 执行的大多数任务都涉及保存文档。 Aspose.Words提供了[Document](https://reference.aspose.com/words/net/aspose.words/document/)类的[Save](https://reference.aspose.com/words/net/aspose.words/document/save/)方法来保存文档。有一些重载允许将文档保存到文件、流或 ASP.NET HttpResponse 对象以发送到客户端浏览器。文档可以保存为 Aspose.Words 支持的任何保存格式。有关所有支持的保存格式的列表，请参阅 [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) 枚举。
+您需要使用 Aspose.Words 执行的大多数任务都涉及保存文档。 Aspose.Words提供了[Document](https://reference.aspose.com/words/zh/net/aspose.words/document/)类的[Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/)方法来保存文档。有一些重载允许将文档保存到文件、流或 ASP.NET HttpResponse 对象以发送到客户端浏览器。文档可以保存为 Aspose.Words 支持的任何保存格式。有关所有支持的保存格式的列表，请参阅 [SaveFormat](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/) 枚举。
 
 ## 保存到文件 {#save-a-document-to-a-file}
 
-只需使用带有文件名的 [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 方法即可。 Aspose.Words 将根据您指定的文件扩展名确定保存格式。
+只需使用带有文件名的 [Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/) 方法即可。 Aspose.Words 将根据您指定的文件扩展名确定保存格式。
 
 以下代码示例演示如何加载文档并将其保存到文件：
 
@@ -28,7 +28,7 @@ url: /zh/net/save-a-document/
 
 ## 保存到流 {#save-a-document-to-a-stream}
 
-将流对象传递给 [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) 方法。保存到流时需要明确指定保存格式。
+将流对象传递给 [Save](https://reference.aspose.com/words/zh/net/aspose.words/document/save/) 方法。保存到流时需要明确指定保存格式。
 
 以下代码示例演示如何将文档加载和保存到流中：
 
@@ -42,7 +42,7 @@ url: /zh/net/save-a-document/
 
 ## 将文档发送到客户端浏览器 {#sending-a-document-to-a-client-browser}
 
-为了将文档发送到客户端浏览器，请使用带有四个参数的特殊重载：文件名、保存格式、保存类型和 ASP.NET HttpResponse 对象。文档呈现给用户的方式由 [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/) 枚举表示，它确定发送到浏览器的文档是否提供直接在浏览器中或在与文件扩展名关联的应用程序中打开自身的选项。
+为了将文档发送到客户端浏览器，请使用带有四个参数的特殊重载：文件名、保存格式、保存类型和 ASP.NET HttpResponse 对象。文档呈现给用户的方式由 [ContentDisposition](https://reference.aspose.com/words/zh/net/aspose.words/contentdisposition/) 枚举表示，它确定发送到浏览器的文档是否提供直接在浏览器中或在与文件扩展名关联的应用程序中打开自身的选项。
 
 以下代码示例演示如何从 ASP.NET 代码将文档发送到客户端浏览器：
 

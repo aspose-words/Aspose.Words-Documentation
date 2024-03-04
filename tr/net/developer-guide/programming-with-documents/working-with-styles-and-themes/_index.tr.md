@@ -9,11 +9,11 @@ weight: 110
 url: /tr/net/working-with-styles-and-themes/
 ---
 
-[StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) sınıfı, yerleşik yönetimi yönetmek ve kullanıcı tanımlı ayarları stillere uygulamak için kullanılır.
+[StyleCollection](https://reference.aspose.com/words/tr/net/aspose.words/stylecollection/) sınıfı, yerleşik yönetimi yönetmek ve kullanıcı tanımlı ayarları stillere uygulamak için kullanılır.
 
 ## Stillere Erişim
 
-[Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) özelliğini kullanarak belgede tanımlanan stillerin bir koleksiyonunu alabilirsiniz. Bu koleksiyon, bir belgedeki hem yerleşik hem de kullanıcı tanımlı stilleri içerir. Belirli bir stil, adı/takma adı, stil tanımlayıcısı veya dizini ile elde edilebilir. Aşağıdaki kod örneği, belgede tanımlanan stil koleksiyonuna nasıl erişim sağlanacağını gösterir.
+[Document.Styles](https://reference.aspose.com/words/tr/net/aspose.words/documentbase/styles/) özelliğini kullanarak belgede tanımlanan stillerin bir koleksiyonunu alabilirsiniz. Bu koleksiyon, bir belgedeki hem yerleşik hem de kullanıcı tanımlı stilleri içerir. Belirli bir stil, adı/takma adı, stil tanımlayıcısı veya dizini ile elde edilebilir. Aşağıdaki kod örneği, belgede tanımlanan stil koleksiyonuna nasıl erişim sağlanacağını gösterir.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ Bir Word belgesinde belirli stillerle biçimlendirilmiş metni alma çözümü g
 
 ### Çözüm
 
-Aspose.Words'in stillere göre içerik almayı ne kadar kolay gerçekleştirdiğini göstermek için bir örneğe bakalım. Bu örnekte, örnek bir Word belgesinden belirli bir paragraf stili ve karakter stiliyle biçimlendirilmiş metni alacağız. Yüksek düzeyde bu şunları içerecektir:# [Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfını kullanarak bir Word belgesi açma.# Koleksiyonları alma belgedeki tüm paragraflar ve tüm çalıştırmalar.# Yalnızca gerekli paragrafları ve çalıştırmaları seçme. Özellikle, bu örnek Word belgesinden 'Başlık 1' paragraf stili ve 'Yoğun Vurgu' karakter stiliyle biçimlendirilmiş metni alacağız.
+Aspose.Words'in stillere göre içerik almayı ne kadar kolay gerçekleştirdiğini göstermek için bir örneğe bakalım. Bu örnekte, örnek bir Word belgesinden belirli bir paragraf stili ve karakter stiliyle biçimlendirilmiş metni alacağız. Yüksek düzeyde bu şunları içerecektir:# [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfını kullanarak bir Word belgesi açma.# Koleksiyonları alma belgedeki tüm paragraflar ve tüm çalıştırmalar.# Yalnızca gerekli paragrafları ve çalıştırmaları seçme. Özellikle, bu örnek Word belgesinden 'Başlık 1' paragraf stili ve 'Yoğun Vurgu' karakter stiliyle biçimlendirilmiş metni alacağız.
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ Bu uygulama aynı zamanda, bu durumda tüm paragraflarda belirtilen türdeki tü
 
 {{% /alert %}}
 
-Paragraf koleksiyonunun anında bir ek yük oluşturmadığını da belirtmekte fayda var çünkü paragraflar bu koleksiyona yalnızca içindeki öğelere eriştiğinizde yüklenir. Daha sonra yapmanız gereken tek şey, standart foreach operatörünü kullanarak koleksiyonda ilerlemek ve belirtilen stile sahip paragrafları paragraflarWithStyle dizisine eklemektir. `Paragraph` stili adı, [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/) nesnesinin [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) özelliğinde bulunabilir. RunsByStyleName'in uygulanması hemen hemen aynıdır, ancak çalıştırma düğümlerini almak için açıkça [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) kullanıyoruz. Bir [Run](https://reference.aspose.com/words/net/aspose.words/run/) nesnesinin [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) özelliği, **Run** düğümlerindeki stil bilgilerine erişmek için kullanılır. Aşağıdaki örnekte belirtilen stille biçimlendirilmiş tüm çalıştırmaları bulabilirsiniz.
+Paragraf koleksiyonunun anında bir ek yük oluşturmadığını da belirtmekte fayda var çünkü paragraflar bu koleksiyona yalnızca içindeki öğelere eriştiğinizde yüklenir. Daha sonra yapmanız gereken tek şey, standart foreach operatörünü kullanarak koleksiyonda ilerlemek ve belirtilen stile sahip paragrafları paragraflarWithStyle dizisine eklemektir. `Paragraph` stili adı, [Paragraph.ParagraphFormat](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/paragraphformat/) nesnesinin [Style.Name](https://reference.aspose.com/words/tr/net/aspose.words/style/name/) özelliğinde bulunabilir. RunsByStyleName'in uygulanması hemen hemen aynıdır, ancak çalıştırma düğümlerini almak için açıkça [NodeType.Run](https://reference.aspose.com/words/tr/net/aspose.words/nodetype/) kullanıyoruz. Bir [Run](https://reference.aspose.com/words/tr/net/aspose.words/run/) nesnesinin [Font.Style](https://reference.aspose.com/words/tr/net/aspose.words/font/style/) özelliği, **Run** düğümlerindeki stil bilgilerine erişmek için kullanılır. Aşağıdaki örnekte belirtilen stille biçimlendirilmiş tüm çalıştırmaları bulabilirsiniz.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

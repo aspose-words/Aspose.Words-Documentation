@@ -67,7 +67,7 @@ Das folgende Codebeispiel zeigt, wie die Inhaltssteuerung an benutzerdefinierte 
 
 ## XMLMapping des Tag-Bereichs strukturierter Dokumente
 
-Sie können die Zuordnung dieses strukturierten Dokument-Tag-Bereichs zu XML-Daten in einem benutzerdefinierten XML-Teil des aktuellen Dokuments mithilfe von **StructuredDocumentTagRangeStart.XmlMapping-Eigenschaft** erhalten. Allerdings kann die [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/)-Methode verwendet werden, um einen strukturierten Dokument-Tag-Bereich XML-Daten zuzuordnen.
+Sie können die Zuordnung dieses strukturierten Dokument-Tag-Bereichs zu XML-Daten in einem benutzerdefinierten XML-Teil des aktuellen Dokuments mithilfe von **StructuredDocumentTagRangeStart.XmlMapping-Eigenschaft** erhalten. Allerdings kann die [SetMapping](https://reference.aspose.com/words/de/net/aspose.words.markup/xmlmapping/setmapping/)-Methode verwendet werden, um einen strukturierten Dokument-Tag-Bereich XML-Daten zuzuordnen.
 
 Das folgende Codebeispiel zeigt, wie die XML-Zuordnung festgelegt wird:
 
@@ -108,7 +108,7 @@ Das folgende Codebeispiel zeigt, wie Sie den Stil der Inhaltssteuerung festlegen
 
 ## Arbeiten mit der Inhaltskontrolle für wiederkehrende Abschnitte
 
-Die Inhaltssteuerung für sich wiederholende Abschnitte ermöglicht die Wiederholung des darin enthaltenen Inhalts. Mithilfe von Aspose.Words können die strukturierten Dokument-Tag-Knoten der Typen "Wiederholungsabschnitt" und "Wiederholungsabschnitt" erstellt werden. Zu diesem Zweck stellt [SdtType-Aufzählungstyp](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) **RepeatingSectionItem**-Eigenschaften bereit.
+Die Inhaltssteuerung für sich wiederholende Abschnitte ermöglicht die Wiederholung des darin enthaltenen Inhalts. Mithilfe von Aspose.Words können die strukturierten Dokument-Tag-Knoten der Typen "Wiederholungsabschnitt" und "Wiederholungsabschnitt" erstellt werden. Zu diesem Zweck stellt [SdtType-Aufzählungstyp](https://reference.aspose.com/words/de/net/aspose.words.markup/sdttype/) **RepeatingSectionItem**-Eigenschaften bereit.
 
 Das folgende Codebeispiel zeigt, wie ein sich wiederholendes Abschnittsinhaltssteuerelement an eine Tabelle gebunden wird.
 

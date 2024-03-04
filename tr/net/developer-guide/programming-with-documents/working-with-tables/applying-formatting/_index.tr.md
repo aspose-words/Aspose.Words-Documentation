@@ -11,7 +11,7 @@ url: /tr/net/applying-formatting/
 
 Bir tablonun her öğesi farklı biçimlendirmeyle uygulanabilir. Örneğin, tablo biçimlendirmesi tablonun tamamına, satır biçimlendirmesi yalnızca belirli satırlara, hücre biçimlendirmesi yalnızca belirli hücrelere uygulanacaktır.
 
-Aspose.Words, bir tabloya biçimlendirme almak ve uygulamak için zengin bir API sağlar. Biçimlendirmeyi ayarlamak için [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) ve [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) düğümlerini kullanabilirsiniz.
+Aspose.Words, bir tabloya biçimlendirme almak ve uygulamak için zengin bir API sağlar. Biçimlendirmeyi ayarlamak için [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowformat/) ve [CellFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/) düğümlerini kullanabilirsiniz.
 
 Bu yazımızda farklı tablo düğümlerine formatlamanın nasıl uygulanacağından ve Aspose.Words'in hangi tablo formatlama ayarlarını desteklediğinden bahsedeceğiz.
 
@@ -21,11 +21,11 @@ Bu bölümde formatın çeşitli tablo düğümlerine uygulanmasına bakacağız
 
 ### Tablo Düzeyinde Biçimlendirme
 
-Bir tabloya biçimlendirme uygulamak için [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/) ve [TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/) sınıflarını kullanarak karşılık gelen **Table** düğümünde bulunan özellikleri kullanabilirsiniz.
+Bir tabloya biçimlendirme uygulamak için [Table](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidth/) ve [TableCollection](https://reference.aspose.com/words/tr/net/aspose.words.tables/tablecollection/) sınıflarını kullanarak karşılık gelen **Table** düğümünde bulunan özellikleri kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
-Tablo özelliklerinin uygulanabilmesi için tablonun en az bir satıra sahip olması gerektiğini unutmayın. Bu, [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) ile bir tablo oluştururken, bu biçimlendirmenin [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/)'ye yapılan ilk çağrıdan sonra veya tabloya ilk satır eklendikten sonra veya düğümler doğrudan DOM'e eklendiğinde yapılması gerektiği anlamına gelir.
+Tablo özelliklerinin uygulanabilmesi için tablonun en az bir satıra sahip olması gerektiğini unutmayın. Bu, [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) ile bir tablo oluştururken, bu biçimlendirmenin [InsertCell](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertcell/)'ye yapılan ilk çağrıdan sonra veya tabloya ilk satır eklendikten sonra veya düğümler doğrudan DOM'e eklendiğinde yapılması gerektiği anlamına gelir.
 
 {{% /alert %}}
 
@@ -60,7 +60,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ### Satır Düzeyinde Biçimlendirme
 
-**Satır düzeyinde** biçimlendirmesi [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) ve [RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/) sınıfları kullanılarak kontrol edilebilir.
+**Satır düzeyinde** biçimlendirmesi [Row](https://reference.aspose.com/words/tr/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowformat/) ve [RowCollection](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowcollection/) sınıfları kullanılarak kontrol edilebilir.
 
 {{% alert color="primary" %}}
 
@@ -84,11 +84,11 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ### Hücre Düzeyinde Biçimlendirme
 
-Hücre düzeyinde biçimlendirme [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) ve [CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/) sınıfları tarafından kontrol edilir.
+Hücre düzeyinde biçimlendirme [Cell](https://reference.aspose.com/words/tr/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/) ve [CellCollection](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellcollection/) sınıfları tarafından kontrol edilir.
 
 {{% alert color="primary" %}}
 
-**Cell**'in yalnızca **Row**'nin alt düğümü olabileceğini unutmayın. Aynı zamanda **Cell**'te formatlamanın uygulanabilmesi için en az bir [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) bulunması gerekir.
+**Cell**'in yalnızca **Row**'nin alt düğümü olabileceğini unutmayın. Aynı zamanda **Cell**'te formatlamanın uygulanabilmesi için en az bir [Paragraph](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/) bulunması gerekir.
 
 **Paragraph**'e ek olarak **Cell**'e **Table** de ekleyebilirsiniz.
 
@@ -120,14 +120,14 @@ Satır yüksekliğini ayarlamanın en basit yolu **DocumentBuilder**'i kullanmak
 
 Aspose.Words'te tablo satır yüksekliği şu şekilde kontrol edilir:
 
-- satır yüksekliği özelliği – [Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/)
-- verilen satır için yükseklik kuralı özelliği – [HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/heightrule/)
+- satır yüksekliği özelliği – [Height](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowformat/height/)
+- verilen satır için yükseklik kuralı özelliği – [HeightRule](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowformat/heightrule/)
 
 Aynı zamanda her sıra için farklı bir yükseklik ayarlanabilir; bu, masa ayarlarını geniş ölçüde kontrol etmenize olanak tanır.
 
 {{% alert color="primary" %}}
 
-Bir nesnenin yüksekliğini belirlemeye yönelik kural seçenekleri, [HeightRule](https://reference.aspose.com/words/net/aspose.words/heightrule/) numaralandırması kullanılarak ayarlanabilir.
+Bir nesnenin yüksekliğini belirlemeye yönelik kural seçenekleri, [HeightRule](https://reference.aspose.com/words/tr/net/aspose.words/heightrule/) numaralandırması kullanılarak ayarlanabilir.
 
 {{% /alert %}}
 
@@ -168,11 +168,11 @@ Bu makalede açıklanan tüm özellikler ve yöntemler, tabloların Microsoft Wo
 
 Bir tablonun veya tek tek hücrelerin istenen genişliği, bir öğenin sığdırmaya çalıştığı boyut olan tercih edilen genişlik özelliği aracılığıyla tanımlanır. Yani tercih edilen genişlik tablonun tamamı veya tek tek hücreler için belirtilebilir. Bazı durumlarda bu genişliği tam olarak sığdırmak mümkün olmayabilir ancak çoğu durumda gerçek genişlik bu değere yakın olacaktır.
 
-Uygun tercih edilen genişlik türü ve değeri, [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/) sınıfının yöntemleri kullanılarak ayarlanır:
+Uygun tercih edilen genişlik türü ve değeri, [PreferredWidth](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidth/) sınıfının yöntemleri kullanılarak ayarlanır:
 
-* Otomatik veya "tercih edilen genişlik yok" seçeneğini belirtmek için [Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/auto/) yöntemi
-* Yüzde genişliği belirtmek için [FromPercent](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompercent/) yöntemi
-* Nokta cinsinden genişliği belirtmek için [FromPoints](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompoints/) yöntemi
+* Otomatik veya "tercih edilen genişlik yok" seçeneğini belirtmek için [Auto](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidth/auto/) yöntemi
+* Yüzde genişliği belirtmek için [FromPercent](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidth/frompercent/) yöntemi
+* Nokta cinsinden genişliği belirtmek için [FromPoints](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidth/frompoints/) yöntemi
 
 Aşağıdaki resimler Microsoft Word'teki *tercih edilen genişlik ayarı özelliklerinin* ve Aspose.Words'deki karşılık gelen özelliklerinin bir temsilini göstermektedir.
 
@@ -190,7 +190,7 @@ Tercih edilen genişliği bir tabloda kullanabilmeniz için önce tablonun en az
 
 #### Tercih Edilen Tabloyu veya Hücre Genişliğini Belirtin
 
-Aspose.Words'te tablo ve hücre genişlikleri, [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) numaralandırmasında mevcut seçeneklerle birlikte [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) özelliği ve [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) özelliği kullanılarak ayarlanır:
+Aspose.Words'te tablo ve hücre genişlikleri, [PreferredWidthType](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidthtype/) numaralandırmasında mevcut seçeneklerle birlikte [Table.PreferredWidth](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/preferredwidth/) özelliği ve [CellFormat.PreferredWidth](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/preferredwidth/) özelliği kullanılarak ayarlanır:
 
 - Tercih edilen genişlik ayarının olmaması durumuna eşdeğer olan **Auto**
 - Öğeyi penceredeki veya kapsayıcı boyutundaki kullanılabilir alana göre sığdıran ve mevcut genişlik değiştiğinde değeri yeniden hesaplayan **Percent**
@@ -202,13 +202,13 @@ Varsayılan olarak bir tablo, sayfadaki kullanılabilir alanın %100'üne sığa
 
 {{% /alert %}}
 
-[Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) özelliğinin kullanılması, kapsayıcısına göre tercih edilen genişliği ayarlayacaktır: sayfa, metin sütunu veya iç içe geçmiş bir tablo ise dış tablo hücresi.
+[Table.PreferredWidth](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/preferredwidth/) özelliğinin kullanılması, kapsayıcısına göre tercih edilen genişliği ayarlayacaktır: sayfa, metin sütunu veya iç içe geçmiş bir tablo ise dış tablo hücresi.
 
 Aşağıdaki kod örneği, tablonun sayfa genişliğinin %50'sine otomatik sığacak şekilde nasıl ayarlanacağını gösterir:
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
-Belirli bir hücrede [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) özelliğinin kullanılması tercih edilen genişliği ayarlayacaktır.
+Belirli bir hücrede [CellFormat.PreferredWidth](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/preferredwidth/) özelliğinin kullanılması tercih edilen genişliği ayarlayacaktır.
 
 Aşağıdaki kod örneği, tercih edilen farklı genişlik ayarlarının nasıl ayarlanacağını gösterir:
 
@@ -216,7 +216,7 @@ Aşağıdaki kod örneği, tercih edilen farklı genişlik ayarlarının nasıl 
 
 #### Tercih Edilen Genişlik Türünü ve Değerini Bulun
 
-İstediğiniz tablo veya hücrenin tercih edilen genişlik ayrıntılarını bulmak için [Type](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/) ve [Value](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/value/) özelliklerini kullanabilirsiniz.
+İstediğiniz tablo veya hücrenin tercih edilen genişlik ayrıntılarını bulmak için [Type](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidth/type/) ve [Value](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidth/value/) özelliklerini kullanabilirsiniz.
 
 Aşağıdaki kod örneği, bir tablo hücresinin tercih edilen genişlik türünün nasıl alınacağını gösterir:
 
@@ -230,7 +230,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ### Otomatik Uyum Nasıl Ayarlanır
 
-[AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) özelliği, tablodaki hücrelerin seçilen kritere göre büyüyüp küçülmesine olanak tanır. Örneğin tabloyu sayfanın genişliğine sığdırmak için **Pencereye Otomatik Sığdır** seçeneğini, her hücrenin içeriğine göre büyüyüp küçülmesini sağlamak için **İçeriğe Otomatik Sığdır** seçeneğini kullanabilirsiniz.
+[AllowAutoFit](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/allowautofit/) özelliği, tablodaki hücrelerin seçilen kritere göre büyüyüp küçülmesine olanak tanır. Örneğin tabloyu sayfanın genişliğine sığdırmak için **Pencereye Otomatik Sığdır** seçeneğini, her hücrenin içeriğine göre büyüyüp küçülmesini sağlamak için **İçeriğe Otomatik Sığdır** seçeneğini kullanabilirsiniz.
 
 {{% alert color="primary" %}}
 
@@ -238,7 +238,7 @@ Ayrıca **AllowAutoFit** özelliği, içeriğine otomatik olarak uyan ancak ayn�
 
 {{% /alert %}}
 
-Varsayılan olarak Aspose.Words, **Pencereye Otomatik Sığdır**'yi kullanarak yeni bir tablo ekler. Tablo mevcut sayfa genişliğine göre boyutlandırılacaktır. Bir tabloyu yeniden boyutlandırmak için [AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/) yöntemini çağırabilirsiniz. Bu yöntem, tabloya hangi otomatik sığdırma türünün uygulandığını belirten bir [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/) numaralandırmasını kabul eder.
+Varsayılan olarak Aspose.Words, **Pencereye Otomatik Sığdır**'yi kullanarak yeni bir tablo ekler. Tablo mevcut sayfa genişliğine göre boyutlandırılacaktır. Bir tabloyu yeniden boyutlandırmak için [AutoFit](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/autofit/) yöntemini çağırabilirsiniz. Bu yöntem, tabloya hangi otomatik sığdırma türünün uygulandığını belirten bir [AutoFitBehavior](https://reference.aspose.com/words/tr/net/aspose.words.tables/autofitbehavior/) numaralandırmasını kabul eder.
 
 Otomatik sığdırma yönteminin aslında tabloya farklı özellikleri aynı anda uygulayan bir kısayol olduğunu bilmek önemlidir. Bunlar aslında tabloya gözlemlenen davranışı veren özelliklerdir. Her otomatik uyum seçeneği için bu özellikleri tartışacağız.
 
@@ -298,7 +298,7 @@ Bir tabloda otomatik sığdırma devre dışıysa ve bunun yerine sabit sütun g
 1. **Table.AllowAutoFit** özelliği devre dışı bırakıldı, böylece sütunlar içeriklerine göre büyüyüp küçülmüyor
 
 2. Tüm tablonun tercih edilen genişliği **Table.PreferredWidth**'ten kaldırılır, **CellFormat.PreferredWidth** tüm tablo hücrelerinden kaldırılır
-3. Sonuç, sütun genişlikleri [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) özelliği tarafından belirlenen ve kullanıcı metin girdiğinde veya sayfa yeniden boyutlandırıldığında sütunları otomatik olarak yeniden boyutlandırılmayan bir tablodur
+3. Sonuç, sütun genişlikleri [CellFormat.Width](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/width/) özelliği tarafından belirlenen ve kullanıcı metin girdiğinde veya sayfa yeniden boyutlandırıldığında sütunları otomatik olarak yeniden boyutlandırılmayan bir tablodur
 
 {{% alert color="primary" %}}
 
@@ -318,7 +318,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ### Hücre Genişliğini Hesaplarken Öncelik Sırası
 
-Aspose.Words, kullanıcıların bir tablonun veya hücrenin genişliğini [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) de dahil olmak üzere birden fazla nesne aracılığıyla tanımlamasına olanak tanır; [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) özelliği çoğunlukla önceki sürümlerden kalmıştır, ancak yine de hücre genişliğini ayarlamayı basitleştirmek için kullanışlıdır.
+Aspose.Words, kullanıcıların bir tablonun veya hücrenin genişliğini [CellFormat](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/) de dahil olmak üzere birden fazla nesne aracılığıyla tanımlamasına olanak tanır; [Width](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/width/) özelliği çoğunlukla önceki sürümlerden kalmıştır, ancak yine de hücre genişliğini ayarlamayı basitleştirmek için kullanışlıdır.
 
 **CellFormat.Width** özelliğinin, tabloda halihazırda mevcut olan diğer genişlik özelliklerine bağlı olarak farklı şekilde çalıştığını bilmek önemlidir.
 
@@ -326,9 +326,9 @@ Aspose.Words, hücre genişliklerini hesaplamak için aşağıdaki sırayı kull
 
 |  Emir |  Mülk |  Tanım |
 |  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) belirlendi |  **AutoFit** etkinse:<br>- tablo, içeriğe uyum sağlamak için tercih edilen genişliği aşacak şekilde büyüyebilir; genellikle tercih edilen genişliğin altına küçülmez<br>- **CellFormat.Width** değerindeki herhangi bir değişiklik göz ardı edilir ve hücre bunun yerine içeriğine sığar |
-|  2      |  **Points** veya **Percent** değerine sahip [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) |  **CellFormat.Width** göz ardı ediliyor |
-|  3      |  **Auto** değerine sahip [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) |  **CellFormat.Width**'teki değer kopyalanır ve hücrenin tercih edilen genişliği (nokta olarak) olur |
+|  1      |  [AllowAutoFit](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/allowautofit/) belirlendi |  **AutoFit** etkinse:<br>- tablo, içeriğe uyum sağlamak için tercih edilen genişliği aşacak şekilde büyüyebilir; genellikle tercih edilen genişliğin altına küçülmez<br>- **CellFormat.Width** değerindeki herhangi bir değişiklik göz ardı edilir ve hücre bunun yerine içeriğine sığar |
+|  2      |  **Points** veya **Percent** değerine sahip [PreferredWidthType](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidthtype/) |  **CellFormat.Width** göz ardı ediliyor |
+|  3      |  **Auto** değerine sahip [PreferredWidthType](https://reference.aspose.com/words/tr/net/aspose.words.tables/preferredwidthtype/) |  **CellFormat.Width**'teki değer kopyalanır ve hücrenin tercih edilen genişliği (nokta olarak) olur |
 
 {{% alert color="primary" %}}
 
@@ -344,7 +344,7 @@ Sabit tablo düzeni oluştururken hücre genişliğini belirtin. Genişliği olm
 
 ## Hücreler Arasındaki Boşluğa İzin Ver
 
-Microsoft Word'teki "Hücre aralığı" seçeneğine benzer şekilde tablo hücreleri arasında herhangi bir ek boşluk alabilir veya ayarlayabilirsiniz. Bu, [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/) özelliği kullanılarak yapılabilir.
+Microsoft Word'teki "Hücre aralığı" seçeneğine benzer şekilde tablo hücreleri arasında herhangi bir ek boşluk alabilir veya ayarlayabilirsiniz. Bu, [AllowCellSpacing](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/allowcellspacing/) özelliği kullanılarak yapılabilir.
 
 Bu seçeneklerin bir belgedeki gerçek tabloya nasıl uygulandığına dair bir örnek aşağıdaki resimde görülebilir.
 
@@ -356,7 +356,7 @@ Aşağıdaki kod örneği, hücreler arasındaki boşluğun nasıl ayarlanacağ�
 
 ## Kenarlıkları ve Gölgelendirmeyi Uygulayın
 
-Kenarlıklar ve gölgelendirme, [Table.SetBorder](https://reference.aspose.com/words/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/net/aspose.words.tables/table/setborders/) ve [Table.SetShading](https://reference.aspose.com/words/net/aspose.words.tables/table/setshading/) kullanılarak tablonun tamamına veya [CellFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/borders/) ve [CellFormat.Shading](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/shading/) kullanılarak yalnızca belirli hücrelere uygulanabilir. Ayrıca satır sınırları [RowFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/borders/) kullanılarak ayarlanabilir ancak gölgelendirme bu şekilde uygulanamaz.
+Kenarlıklar ve gölgelendirme, [Table.SetBorder](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/setborders/) ve [Table.SetShading](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/setshading/) kullanılarak tablonun tamamına veya [CellFormat.Borders](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/borders/) ve [CellFormat.Shading](https://reference.aspose.com/words/tr/net/aspose.words.tables/cellformat/shading/) kullanılarak yalnızca belirli hücrelere uygulanabilir. Ayrıca satır sınırları [RowFormat.Borders](https://reference.aspose.com/words/tr/net/aspose.words.tables/rowformat/borders/) kullanılarak ayarlanabilir ancak gölgelendirme bu şekilde uygulanamaz.
 
 Aşağıdaki resimler Microsoft Word'teki kenarlık ve gölge ayarlarını ve Aspose.Words'deki bunlara karşılık gelen özellikleri göstermektedir.
 

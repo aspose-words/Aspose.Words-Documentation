@@ -13,7 +13,7 @@ Um mehr Kontrolle über die Funktionsweise von Tabellen zu erhalten, erfahren Si
 
 ## Suchen Sie den Tabellenelementindex {#find-the-index-of-table-elements}
 
-Spalten, Zeilen und Zellen werden verwaltet, indem auf den ausgewählten Dokumentknoten über seinen Index zugegriffen wird. Um den Index eines beliebigen Knotens zu finden, müssen alle untergeordneten Knoten des Elementtyps vom übergeordneten Knoten erfasst und dann mithilfe der [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/)-Methode der Index des gewünschten Knotens in der Sammlung ermittelt werden.
+Spalten, Zeilen und Zellen werden verwaltet, indem auf den ausgewählten Dokumentknoten über seinen Index zugegriffen wird. Um den Index eines beliebigen Knotens zu finden, müssen alle untergeordneten Knoten des Elementtyps vom übergeordneten Knoten erfasst und dann mithilfe der [IndexOf](https://reference.aspose.com/words/de/net/aspose.words/nodecollection/indexof/)-Methode der Index des gewünschten Knotens in der Sammlung ermittelt werden.
 
 ### Finden Sie den Index einer Tabelle in einem Dokument {#find-the-index-of-table-in-a-document}
 
@@ -41,7 +41,7 @@ Das folgende Codebeispiel zeigt, wie der Index einer Zelle in einer Zeile abgeru
 
 ## Arbeiten Sie mit {#work-with-columns}-Spalten
 
-Im Aspose.Words Document Object Model (DOM) besteht der [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)-Knoten aus [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/)-Knoten und dann aus [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/)-Knoten. Daher gibt es im `Document`-Objektmodell von Aspose.Words, wie auch in Word-Dokumenten, kein Konzept einer Spalte.
+Im Aspose.Words Document Object Model (DOM) besteht der [Table](https://reference.aspose.com/words/de/net/aspose.words.tables/table/)-Knoten aus [Row](https://reference.aspose.com/words/de/net/aspose.words.tables/row/)-Knoten und dann aus [Cell](https://reference.aspose.com/words/de/net/aspose.words.tables/cell/)-Knoten. Daher gibt es im `Document`-Objektmodell von Aspose.Words, wie auch in Word-Dokumenten, kein Konzept einer Spalte.
 
 Die Tabellenzeilen in Microsoft Word und Aspose.Words sind konstruktionsbedingt völlig unabhängig und die grundlegenden Eigenschaften und Operationen sind nur in den Zeilen und Zellen der Tabelle enthalten. Dies gibt Tabellen die Möglichkeit, einige interessante Attribute zu haben:
 
@@ -65,7 +65,7 @@ Das folgende Codebeispiel zeigt, wie eine Spalte aus einer Tabelle in einem Doku
 
 ## Geben Sie Zeilen als Kopfzeilen an
 
-Sie können die erste Zeile in der Tabelle als Kopfzeile nur auf der ersten Seite oder auf jeder Seite wiederholen, wenn die Tabelle in mehrere geteilt ist. In Aspose.Words können Sie die Kopfzeile mithilfe der [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/)-Eigenschaft auf jeder Seite wiederholen.
+Sie können die erste Zeile in der Tabelle als Kopfzeile nur auf der ersten Seite oder auf jeder Seite wiederholen, wenn die Tabelle in mehrere geteilt ist. In Aspose.Words können Sie die Kopfzeile mithilfe der [HeadingFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/rowformat/headingformat/)-Eigenschaft auf jeder Seite wiederholen.
 
 Sie können auch mehrere Kopfzeilen markieren, wenn diese am Anfang der Tabelle hintereinander stehen. Dazu müssen Sie die **HeadingFormat**-Eigenschaften auf diese Zeilen anwenden.
 
@@ -92,7 +92,7 @@ Standardmäßig sind die oben genannten Eigenschaften deaktiviert.
 
 ### Verhindern Sie, dass eine Zeile über mehrere Seiten bricht, {#keep-a-row-from-breaking-across-pages}
 
-Dabei wird verhindert, dass Inhalte innerhalb der Zellen einer Zeile auf eine Seite aufgeteilt werden. In Microsoft Word ist dies unter "Tabelleneigenschaften" als Option "Zeilenumbruch über Seiten hinweg zulassen" zu finden. In Aspose.Words ist dies unter dem [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/)-Objekt eines [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) als Eigenschaft [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages) zu finden.
+Dabei wird verhindert, dass Inhalte innerhalb der Zellen einer Zeile auf eine Seite aufgeteilt werden. In Microsoft Word ist dies unter "Tabelleneigenschaften" als Option "Zeilenumbruch über Seiten hinweg zulassen" zu finden. In Aspose.Words ist dies unter dem [RowFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/rowformat/)-Objekt eines [Row](https://reference.aspose.com/words/de/net/aspose.words.tables/row/) als Eigenschaft [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/de/net/aspose.words.tables/row/format/properties/allowbreakacrosspages) zu finden.
 
 Das folgende Codebeispiel zeigt, wie Sie den seitenübergreifenden Zeilenumbruch für jede Zeile in einer Tabelle deaktivieren:
 
@@ -108,7 +108,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 Um zu verhindern, dass die Tabelle auf mehrere Seiten aufgeteilt wird, müssen wir angeben, dass der in der Tabelle enthaltene Inhalt zusammen bleiben soll.
 
-Zu diesem Zweck verwendet Aspose.Words eine Methode, die es Benutzern ermöglicht, eine Tabelle auszuwählen und den [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/)-Parameter für jeden Absatz innerhalb der Tabellenzellen in true zu aktivieren. Die Ausnahme bildet der letzte Absatz in der Tabelle, der auf false eingestellt werden sollte.
+Zu diesem Zweck verwendet Aspose.Words eine Methode, die es Benutzern ermöglicht, eine Tabelle auszuwählen und den [KeepWithNext](https://reference.aspose.com/words/de/net/aspose.words/paragraphformat/keepwithnext/)-Parameter für jeden Absatz innerhalb der Tabellenzellen in true zu aktivieren. Die Ausnahme bildet der letzte Absatz in der Tabelle, der auf false eingestellt werden sollte.
 
 Das folgende Codebeispiel zeigt, wie man eine Tabelle so einrichtet, dass sie zusammen auf derselben Seite bleibt:
 

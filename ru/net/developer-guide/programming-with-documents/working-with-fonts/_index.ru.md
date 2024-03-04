@@ -9,11 +9,11 @@ weight: 230
 url: /ru/net/working-with-fonts/
 ---
 
-Шрифт — это набор символов определенного размера, цвета и дизайна. Aspose.Words позволяет работать со шрифтами, используя пространство имен [Fonts](https://reference.aspose.com/words/net/aspose.words.fonts/) и класс [Font](https://reference.aspose.com/words/net/aspose.words/font/).
+Шрифт — это набор символов определенного размера, цвета и дизайна. Aspose.Words позволяет работать со шрифтами, используя пространство имен [Fonts](https://reference.aspose.com/words/ru/net/aspose.words.fonts/) и класс [Font](https://reference.aspose.com/words/ru/net/aspose.words/font/).
 
 ## Форматирование шрифта
 
-Текущее форматирование шрифта представлено объектом **Font**, возвращаемым свойством [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/). Класс **Font** содержит множество свойств шрифта, повторяющих те, которые доступны в Microsoft Word.
+Текущее форматирование шрифта представлено объектом **Font**, возвращаемым свойством [Font](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/font/). Класс **Font** содержит множество свойств шрифта, повторяющих те, которые доступны в Microsoft Word.
 
 В следующем примере кода показано, как установить форматирование шрифта:
 
@@ -25,13 +25,13 @@ url: /ru/net/working-with-fonts/
 
 Межстрочный интервал шрифта — это расстояние по вертикали между базовыми линиями двух последовательных строк текста. Таким образом, межстрочный интервал включает в себя пустое пространство между строками и высоту самого символа.
 
-Свойство [LineSpacing](https://reference.aspose.com/words/net/aspose.words/font/linespacing/) было введено в класс **Font** для получения этого значения, как показано в примере ниже:
+Свойство [LineSpacing](https://reference.aspose.com/words/ru/net/aspose.words/font/linespacing/) было введено в класс **Font** для получения этого значения, как показано в примере ниже:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-GetFontLineSpacing-GetFontLineSpacing.cs" >}}
 
 ## Маркировка шрифта
 
-В некоторых восточноазиатских языках для обозначения ударения используется специальный знак ударения. Класс **Font** предоставляет свойство [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/font/emphasismark/) для получения или установки значений перечисления [EmphasisMark](https://reference.aspose.com/words/net/aspose.words/emphasismark/), которые будут применяться при форматировании.
+В некоторых восточноазиатских языках для обозначения ударения используется специальный знак ударения. Класс **Font** предоставляет свойство [EmphasisMark](https://reference.aspose.com/words/ru/net/aspose.words/font/emphasismark/) для получения или установки значений перечисления [EmphasisMark](https://reference.aspose.com/words/ru/net/aspose.words/emphasismark/), которые будут применяться при форматировании.
 
 В следующем примере кода показано, как установить свойство **EphasisMark**:
 

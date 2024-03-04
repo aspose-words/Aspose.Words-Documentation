@@ -10,11 +10,11 @@ keywords: "create a document c#, load a document c#, create a blank document c#,
 weight: 10
 ---
 
-Fast jede Aufgabe, die Sie mit Aspose.Words ausführen möchten, umfasst das Laden eines Dokuments. Die `Document`-Klasse stellt ein in den Speicher geladenes Dokument dar. Das Dokument verfügt über mehrere überladene Konstruktoren, mit denen Sie ein leeres Dokument erstellen oder es aus einer Datei oder einem Stream laden können. Das Dokument kann in jedem von Aspose.Words unterstützten Ladeformat geladen werden. Die Liste aller unterstützten Ladeformate finden Sie in der [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/)-Aufzählung.
+Fast jede Aufgabe, die Sie mit Aspose.Words ausführen möchten, umfasst das Laden eines Dokuments. Die `Document`-Klasse stellt ein in den Speicher geladenes Dokument dar. Das Dokument verfügt über mehrere überladene Konstruktoren, mit denen Sie ein leeres Dokument erstellen oder es aus einer Datei oder einem Stream laden können. Das Dokument kann in jedem von Aspose.Words unterstützten Ladeformat geladen werden. Die Liste aller unterstützten Ladeformate finden Sie in der [LoadFormat](https://reference.aspose.com/words/de/net/aspose.words/loadformat/)-Aufzählung.
 
 ## Erstellen Sie ein neues Dokument {#create-a-new-document}
 
-Wir rufen den [Document](https://reference.aspose.com/words/net/aspose.words/document/document/)-Konstruktor ohne Parameter auf, um ein neues leeres Dokument zu erstellen. Wenn Sie ein Dokument programmgesteuert generieren möchten, ist es am einfachsten, die [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)-Klasse zum Hinzufügen von Dokumentinhalten zu verwenden.
+Wir rufen den [Document](https://reference.aspose.com/words/de/net/aspose.words/document/document/)-Konstruktor ohne Parameter auf, um ein neues leeres Dokument zu erstellen. Wenn Sie ein Dokument programmgesteuert generieren möchten, ist es am einfachsten, die [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Klasse zum Hinzufügen von Dokumentinhalten zu verwenden.
 
 Das folgende Codebeispiel zeigt, wie Sie mit dem Document Builder ein Dokument erstellen:
 
@@ -25,13 +25,13 @@ Das folgende Codebeispiel zeigt, wie Sie mit dem Document Builder ein Dokument e
 Beachten Sie die Standardwerte:
 
 - Ein leeres Dokument enthält einen Abschnitt mit Standardparametern, einen leeren Absatz und einige Dokumentstile. Tatsächlich ist dieses Dokument dasselbe wie das Ergebnis der Erstellung des "Neuen Dokuments" in Microsoft Word.
-- Das Dokumentpapierformat ist [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).**Letter**.
+- Das Dokumentpapierformat ist [PaperSize](https://reference.aspose.com/words/de/net/aspose.words/papersize/).**Letter**.
 
 {{% /alert %}}
 
 ## Laden Sie ein {#load-a-document}-Dokument
 
-Um ein vorhandenes Dokument in einem der [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/)-Formate zu laden, übergeben Sie den Dateinamen oder den Stream an einen der Dokumentkonstruktoren. Das Format des geladenen Dokuments wird automatisch durch seine Erweiterung bestimmt.
+Um ein vorhandenes Dokument in einem der [LoadFormat](https://reference.aspose.com/words/de/net/aspose.words/loadformat/)-Formate zu laden, übergeben Sie den Dateinamen oder den Stream an einen der Dokumentkonstruktoren. Das Format des geladenen Dokuments wird automatisch durch seine Erweiterung bestimmt.
 
 ### Aus einer {#load-from-a-file}-Datei laden
 

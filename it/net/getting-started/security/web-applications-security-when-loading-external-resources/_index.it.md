@@ -50,7 +50,7 @@ In base al tempo impiegato dal servizio per elaborare il documento, l'aggressore
 
 ## Soluzioni di problemi di sicurezza
 
-Per risolvere i problemi sopra descritti e per migliorare la sicurezza delle applicazioni web, puoi controllare o disabilitare il caricamento di risorse esterne utilizzando [IResourceLoadingCallback](https://reference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback/).
+Per risolvere i problemi sopra descritti e per migliorare la sicurezza delle applicazioni web, puoi controllare o disabilitare il caricamento di risorse esterne utilizzando [IResourceLoadingCallback](https://reference.aspose.com/words/it/net/aspose.words.loading/iresourceloadingcallback/).
 
 Il seguente esempio di codice mostra come disabilitare il caricamento di immagini esterne:
 

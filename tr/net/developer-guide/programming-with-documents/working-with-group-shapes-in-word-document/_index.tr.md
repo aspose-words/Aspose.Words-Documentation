@@ -13,7 +13,7 @@ Bazen bir Word belgesine group shape eklemeniz gerekir. Böyle bir group shape b
 
 Microsoft Word'te, Group komutunu/düğmesini kullanarak hızlı bir şekilde group shape ekleyebilirsiniz. Gruptaki tek bir şekil ayrı ayrı hareket ettirilebilir.
 
-Aspose.Words'te [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) sınıfını kullanarak group shape eklemek çok kolaydır. **Shape**, [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) sınıfı kullanılarak ayrı olarak oluşturulur ve ardından [AppendChild](https://reference.aspose.com/words/net/aspose.words/compositenode/appendchild/) yöntemi kullanılarak [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) nesnesine eklenir.
+Aspose.Words'te [GroupShape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/groupshape/) sınıfını kullanarak group shape eklemek çok kolaydır. **Shape**, [Shape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/) sınıfı kullanılarak ayrı olarak oluşturulur ve ardından [AppendChild](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/appendchild/) yöntemi kullanılarak [GroupShape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/groupshape/) nesnesine eklenir.
 
 Aşağıdaki kod örneği, group shape'in Word belgesine nasıl ekleneceğini gösterir:
 
@@ -35,6 +35,6 @@ Aşağıda Aspose.Words'de desteklenen `Shape` türlerinden bazıları verilmiş
 - Altıgen
 - Sekizgen
 
-Tam liste için lütfen [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype) sınıfını kontrol edin.
+Tam liste için lütfen [ShapeType](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shapetype) sınıfını kontrol edin.
 
 {{% /alert %}}

@@ -19,9 +19,9 @@ url: /ar/net/supported-features-on-document-load/
 
 للحصول على قائمة كاملة بالوظائف، راجع مرجع API:
 
-- [خيارات التحميل لجميع التنسيقات](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
-- [خيارات تحميل آلية تبادل المعلومات (CHM)](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/) لتنسيق آلية تبادل المعلومات
-- [خيارات تحميل HTML](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/) لتنسيق HTML
-- [خيارات تحميل PDF](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) لتنسيق PDF
-- [خيارات تحميل RTF](https://reference.aspose.com/words/net/aspose.words.loading/rtfloadoptions/) لتنسيق RTF
-- [خيارات تحميل TXT](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) لتنسيق TXT
+- [خيارات التحميل لجميع التنسيقات](https://reference.aspose.com/words/ar/net/aspose.words.loading/loadoptions/)
+- [خيارات تحميل آلية تبادل المعلومات (CHM)](https://reference.aspose.com/words/ar/net/aspose.words.loading/chmloadoptions/) لتنسيق آلية تبادل المعلومات
+- [خيارات تحميل HTML](https://reference.aspose.com/words/ar/net/aspose.words.loading/htmlloadoptions/) لتنسيق HTML
+- [خيارات تحميل PDF](https://reference.aspose.com/words/ar/net/aspose.words.loading/pdfloadoptions/) لتنسيق PDF
+- [خيارات تحميل RTF](https://reference.aspose.com/words/ar/net/aspose.words.loading/rtfloadoptions/) لتنسيق RTF
+- [خيارات تحميل TXT](https://reference.aspose.com/words/ar/net/aspose.words.loading/txtloadoptions/) لتنسيق TXT

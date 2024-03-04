@@ -20,7 +20,7 @@ url: /ru/net/position-a-table/
 
 ## Укажите положение встроенной таблицы
 
-Вы можете установить положение встроенной таблицы, используя свойства Aspose.Words API и [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/). Таким образом, вы можете настроить выравнивание таблицы относительно страницы документа.
+Вы можете установить положение встроенной таблицы, используя свойства Aspose.Words API и [Alignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/alignment/). Таким образом, вы можете настроить выравнивание таблицы относительно страницы документа.
 
 В следующем примере кода показано, как установить положение встроенной таблицы:
 
@@ -28,9 +28,9 @@ url: /ru/net/position-a-table/
 
 ## Получить выравнивание плавающей таблицы
 
-Если для переноса текста таблицы установлено значение **Around**, вы можете получить горизонтальное и вертикальное выравнивание таблицы, используя свойства [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) и [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/).
+Если для переноса текста таблицы установлено значение **Around**, вы можете получить горизонтальное и вертикальное выравнивание таблицы, используя свойства [RelativeHorizontalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativehorizontalalignment/) и [RelativeVerticalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativeverticalalignment/).
 
-С помощью **другие виды переноса текста** вы можете получить встроенное выравнивание таблицы, используя свойство [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/).
+С помощью **другие виды переноса текста** вы можете получить встроенное выравнивание таблицы, используя свойство [Alignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/alignment/).
 
 В следующем примере кода показано, как добиться выравнивания таблицы:
 
@@ -40,13 +40,13 @@ url: /ru/net/position-a-table/
 
 Положение плавающей таблицы определяется с помощью следующих свойств:
 
-*[HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – объект для расчета горизонтального положения плавающей таблицы
-*[VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – объект для расчета вертикального положения плавающей таблицы
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – абсолютное горизонтальное плавающее положение таблицы
-*[AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – абсолютное вертикальное плавающее положение таблицы
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – опция включения/выключения перекрытия с другими плавающими объектами
-*[RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – плавающее относительное горизонтальное выравнивание таблицы.
-*[RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) – относительное вертикальное выравнивание плавающей таблицы.
+*[HorizontalAnchor](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/horizontalanchor/) – объект для расчета горизонтального положения плавающей таблицы
+*[VerticalAnchor](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/verticalanchor/) – объект для расчета вертикального положения плавающей таблицы
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/absolutehorizontaldistance/) – абсолютное горизонтальное плавающее положение таблицы
+*[AbsoluteVerticalDistance](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/absoluteverticaldistance/) – абсолютное вертикальное плавающее положение таблицы
+* [AllowOverlap](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/allowoverlap/) – опция включения/выключения перекрытия с другими плавающими объектами
+*[RelativeHorizontalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativehorizontalalignment/) – плавающее относительное горизонтальное выравнивание таблицы.
+*[RelativeVerticalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativeverticalalignment/) – относительное вертикальное выравнивание плавающей таблицы.
 
 В следующем примере кода показано, как получить позицию плавающей таблицы:
 
@@ -66,10 +66,10 @@ url: /ru/net/position-a-table/
 
 Aspose.Words также дает возможность узнать расстояния между таблицами и окружающим текстом:
 
-- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) – значение расстояния сверху
-- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/) – значение дальности восприятия
-- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) – значение расстояния справа
-- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) – значение расстояния слева
+- [DistanceTop](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distancetop/) – значение расстояния сверху
+- [DistanceBottom](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distancebottom/) – значение дальности восприятия
+- [DistanceRight](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distanceright/) – значение расстояния справа
+- [DistanceLeft](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distanceleft/) – значение расстояния слева
 
 В следующем примере кода показано, как получить расстояние между таблицей и окружающим ее текстом:
 

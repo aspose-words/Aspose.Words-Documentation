@@ -43,7 +43,7 @@ Karşılaştırılan iki belgenin genel sınırlaması, bu sınırlama Microsoft
 
 Belgeleri karşılaştırdığınızda, ikinci belgenin öncekinden farklılıkları, önceki belgenin revizyonları olarak ortaya çıkıyor. Bir belgede değişiklik yaptığınızda, karşılaştırma yöntemini çalıştırdıktan sonra her düzenlemenin kendi revizyonu olacaktır.
 
-Aspose.Words, [Compare](https://reference.aspose.com/words/net/aspose.words/document/compare/#compare/) yöntemini kullanarak belge farklılıklarını belirlemenize olanak tanır; bu, Microsoft Word belge karşılaştırma özelliğine benzer. Yazı tipi değişiklikleri, aralık değişiklikleri, sözcük ve paragraf eklenmesi gibi biçimlendirme değişiklikleri de dahil olmak üzere farklılıkları ve değişiklikleri bulmak için belgeleri veya belge sürümlerini kontrol etmenize olanak tanır.
+Aspose.Words, [Compare](https://reference.aspose.com/words/tr/net/aspose.words/document/compare/#compare/) yöntemini kullanarak belge farklılıklarını belirlemenize olanak tanır; bu, Microsoft Word belge karşılaştırma özelliğine benzer. Yazı tipi değişiklikleri, aralık değişiklikleri, sözcük ve paragraf eklenmesi gibi biçimlendirme değişiklikleri de dahil olmak üzere farklılıkları ve değişiklikleri bulmak için belgeleri veya belge sürümlerini kontrol etmenize olanak tanır.
 
 Karşılaştırma sonucunda belgelerin eşit olup olmadığı belirlenebilir. "Eşit" belgeler terimi, karşılaştırma yönteminin değişiklikleri revizyon olarak temsil edemediği anlamına gelir. Bu, hem belge metninin hem de metin formatının aynı olduğu anlamına gelir. Ancak belgeler arasında başka farklılıklar da olabilir. Örneğin, Microsoft Word yalnızca stiller için format revizyonlarını destekler ve stil ekleme/silme işlemlerini temsil edemezsiniz. Dolayısıyla belgeler farklı stillere sahip olabilir ve **Compare** yöntemi yine de herhangi bir düzeltme üretmez.
 
@@ -57,13 +57,13 @@ Aşağıdaki kod örneği, `Compare` yönteminin iki belgeye nasıl kolayca uygu
 
 ## Gelişmiş Karşılaştırma Seçeneklerini Belirtin {#specify-advanced-comparing-properties}
 
-Belgeleri karşılaştırmak istediğinizde uygulayabileceğiniz [CompareOptions](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/) sınıfının birçok farklı özelliği vardır.
+Belgeleri karşılaştırmak istediğinizde uygulayabileceğiniz [CompareOptions](https://reference.aspose.com/words/tr/net/aspose.words.comparing/compareoptions/) sınıfının birçok farklı özelliği vardır.
 
-Örneğin Aspose.Words, orijinal belgedeki belirli nesne türleri için karşılaştırma işlemi sırasında yapılan değişiklikleri göz ardı etmenize olanak tanır. [IgnoreHeadersAndFooters](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/), [IgnoreFormatting](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreformatting/), [IgnoreComments](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignorecomments/) ve diğerleri gibi nesne türü için uygun özelliği "true" olarak ayarlayarak seçebilirsiniz.
+Örneğin Aspose.Words, orijinal belgedeki belirli nesne türleri için karşılaştırma işlemi sırasında yapılan değişiklikleri göz ardı etmenize olanak tanır. [IgnoreHeadersAndFooters](https://reference.aspose.com/words/tr/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/), [IgnoreFormatting](https://reference.aspose.com/words/tr/net/aspose.words.comparing/compareoptions/ignoreformatting/), [IgnoreComments](https://reference.aspose.com/words/tr/net/aspose.words.comparing/compareoptions/ignorecomments/) ve diğerleri gibi nesne türü için uygun özelliği "true" olarak ayarlayarak seçebilirsiniz.
 
-Ayrıca Aspose.Words, değişiklikleri karaktere göre mi yoksa kelimeye göre mi izleyeceğinizi belirleyebileceğiniz [Granularity](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/granularity/) özelliğini sağlar.
+Ayrıca Aspose.Words, değişiklikleri karaktere göre mi yoksa kelimeye göre mi izleyeceğinizi belirleyebileceğiniz [Granularity](https://reference.aspose.com/words/tr/net/aspose.words.comparing/compareoptions/granularity/) özelliğini sağlar.
 
-Diğer bir ortak özellik, karşılaştırma değişikliklerinin hangi belgede gösterileceğinin seçimidir. Örneğin, Microsoft Word'teki "Belgeleri karşılaştır iletişim kutusunda" "Değişiklikleri göster" seçeneği bulunur; bu aynı zamanda karşılaştırma sonuçlarını da etkiler. Aspose.Words bu amaca hizmet eden [Target](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/target/) özelliğini sağlar.
+Diğer bir ortak özellik, karşılaştırma değişikliklerinin hangi belgede gösterileceğinin seçimidir. Örneğin, Microsoft Word'teki "Belgeleri karşılaştır iletişim kutusunda" "Değişiklikleri göster" seçeneği bulunur; bu aynı zamanda karşılaştırma sonuçlarını da etkiler. Aspose.Words bu amaca hizmet eden [Target](https://reference.aspose.com/words/tr/net/aspose.words.comparing/compareoptions/target/) özelliğini sağlar.
 
 Aşağıdaki kod örneği, gelişmiş karşılaştırma özelliklerinin nasıl ayarlanacağını gösterir:
 

@@ -23,8 +23,8 @@ Aspose.Words Document Object Model (DOM) 是 Word 文档的内存表示形式。
 
 Aspose.Words 中的文档树遵循复合设计模式：
 
-- 所有节点类最终都派生自 [Node](https://reference.aspose.com/words/net/aspose.words/node/) 类，该类是 Aspose.Words Document Object Model 中的基类。
-- 可以包含其他节点的节点（例如 **Section** 或 **Paragraph**）派生自 [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) 类，而 [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) 类又派生自 **Node** 类。
+- 所有节点类最终都派生自 [Node](https://reference.aspose.com/words/zh/net/aspose.words/node/) 类，该类是 Aspose.Words Document Object Model 中的基类。
+- 可以包含其他节点的节点（例如 **Section** 或 **Paragraph**）派生自 [CompositeNode](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/) 类，而 [CompositeNode](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/) 类又派生自 **Node** 类。
 
 下图显示了 Aspose.Words Document Object Model (DOM) 节点类之间的继承。抽象类的名称以斜体显示。
 
@@ -32,7 +32,7 @@ Aspose.Words 中的文档树遵循复合设计模式：
 
 {{% alert color="primary" %}}
 
-Aspose.Words DOM 还包含非节点类，例如 [Style](https://reference.aspose.com/words/net/aspose.words/style/) 或 [Font](https://reference.aspose.com/words/net/aspose.words/font/)，用于自定义文档中的外观和样式。这些类未在此图中显示，因为这些类不是从 `Node` 类继承的。
+Aspose.Words DOM 还包含非节点类，例如 [Style](https://reference.aspose.com/words/zh/net/aspose.words/style/) 或 [Font](https://reference.aspose.com/words/zh/net/aspose.words/font/)，用于自定义文档中的外观和样式。这些类未在此图中显示，因为这些类不是从 `Node` 类继承的。
 
 {{% /alert %}}
 
@@ -44,13 +44,13 @@ Aspose.Words DOM 还包含非节点类，例如 [Style](https://reference.aspose
 
 <img src="/words/net/aspose-words-document-object-model/document-example-dom.png" alt="dom-aspose-词" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/)、[Section](https://reference.aspose.com/words/net/aspose.words/section/)、[Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/)、[Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)、[Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)、[Run](https://reference.aspose.com/words/net/aspose.words/run/) 以及图表上的所有其他省略号都是表示 Word 文档元素的 Aspose.Words 对象。
+[Document](https://reference.aspose.com/words/zh/net/aspose.words/document/)、[Section](https://reference.aspose.com/words/zh/net/aspose.words/section/)、[Paragraph](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/)、[Table](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/)、[Shape](https://reference.aspose.com/words/zh/net/aspose.words.drawing/shape/)、[Run](https://reference.aspose.com/words/zh/net/aspose.words/run/) 以及图表上的所有其他省略号都是表示 Word 文档元素的 Aspose.Words 对象。
 
 ### 获取 `Node` 类型 {#get-a-node-type}
 
-尽管 [Node](https://reference.aspose.com/words/net/aspose.words/node/) 类足以区分不同的节点，但 Aspose.Words 提供了 [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) 枚举来简化某些 API 任务，例如选择特定类型的节点。
+尽管 [Node](https://reference.aspose.com/words/zh/net/aspose.words/node/) 类足以区分不同的节点，但 Aspose.Words 提供了 [NodeType](https://reference.aspose.com/words/zh/net/aspose.words/node/nodetype/) 枚举来简化某些 API 任务，例如选择特定类型的节点。
 
-每个节点的类型可以使用 [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) 属性获取。此属性返回 **NodeType** 枚举值。例如，由 **Paragraph** 类表示的段落节点返回 **NodeType**.**Paragraph**，由 **Table** 类表示的表节点返回 **NodeType**.**Table**。
+每个节点的类型可以使用 [NodeType](https://reference.aspose.com/words/zh/net/aspose.words/node/nodetype/) 属性获取。此属性返回 **NodeType** 枚举值。例如，由 **Paragraph** 类表示的段落节点返回 **NodeType**.**Paragraph**，由 **Table** 类表示的表节点返回 **NodeType**.**Table**。
 
 以下示例演示如何使用 **NodeType** 枚举获取节点类型：
 
@@ -76,9 +76,9 @@ Aspose.Words 将文档表示为节点树，使您能够在节点之间导航。�
 
 - 包含另一个节点的节点是 *parent.*
 - 父节点包含的节点是*child.* 同一父节点的子节点是*sibling* 节点。
-- *root* 节点始终是 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 节点。
+- *root* 节点始终是 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 节点。
 
-可以包含其他节点的节点派生自 [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) 类，所有节点最终都派生自 [Node](https://reference.aspose.com/words/net/aspose.words/node/) 类。这两个基类提供了用于树结构导航和修改的通用方法和属性。
+可以包含其他节点的节点派生自 [CompositeNode](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/) 类，所有节点最终都派生自 [Node](https://reference.aspose.com/words/zh/net/aspose.words/node/) 类。这两个基类提供了用于树结构导航和修改的通用方法和属性。
 
 下面的 UML 对象图显示了示例文档的几个节点以及它们通过父、子和同级属性相互之间的关系：
 
@@ -90,11 +90,11 @@ Aspose.Words 将文档表示为节点树，使您能够在节点之间导航。�
 
 {{% alert color="primary" %}}
 
-[Node.Document](https://reference.aspose.com/words/net/aspose.words/node/document/) 属性返回节点所属的文档。
+[Node.Document](https://reference.aspose.com/words/zh/net/aspose.words/node/document/) 属性返回节点所属的文档。
 
 {{% /alert %}}
 
-使用 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 创建新段落时，构建器始终有一个通过 [DocumentBuilder.Document](https://reference.aspose.com/words/net/aspose.words/documentbuilder/document/) 属性链接到它的 **Document** 类。
+使用 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 创建新段落时，构建器始终有一个通过 [DocumentBuilder.Document](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/document/) 属性链接到它的 **Document** 类。
 
 以下代码示例显示，在创建任何节点时，始终定义拥有该节点的文档：
 
@@ -102,23 +102,23 @@ Aspose.Words 将文档表示为节点树，使您能够在节点之间导航。�
 
 #### 父节点
 
-每个节点都有一个由 [ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/) 属性指定的父节点。节点没有父节点，即**ParentNode**为空，以下情况：
+每个节点都有一个由 [ParentNode](https://reference.aspose.com/words/zh/net/aspose.words/node/parentnode/) 属性指定的父节点。节点没有父节点，即**ParentNode**为空，以下情况：
 
 - 该节点刚刚创建，尚未添加到树中。
 - 该节点已从树中删除。
 - 这是根 **Document** 节点，它始终具有空父节点。
 
-您可以通过调用 [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/) 方法从其父节点中删除节点。以下代码示例展示了如何访问父节点：
+您可以通过调用 [Remove](https://reference.aspose.com/words/zh/net/aspose.words/node/remove/) 方法从其父节点中删除节点。以下代码示例展示了如何访问父节点：
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-GetParentNode.cs" >}}
 
 #### 子节点
 
-访问 [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) 子节点的最有效方法是通过分别返回第一个和最后一个子节点的 [FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/) 和 [LastChild](https://reference.aspose.com/words/net/aspose.words/compositenode/lastchild/) 属性。如果没有子节点，这些属性将返回 *null*。
+访问 [CompositeNode](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/) 子节点的最有效方法是通过分别返回第一个和最后一个子节点的 [FirstChild](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/firstchild/) 和 [LastChild](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/lastchild/) 属性。如果没有子节点，这些属性将返回 *null*。
 
-**CompositeNode** 还提供了 [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) 方法，支持对子节点进行索引或枚举访问。 **ChildNodes** 属性是节点的实时集合，这意味着每当文档发生更改时（例如删除或添加节点时），**ChildNodes** 集合都会自动更新。
+**CompositeNode** 还提供了 [GetChildNodes](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/getchildnodes/) 方法，支持对子节点进行索引或枚举访问。 **ChildNodes** 属性是节点的实时集合，这意味着每当文档发生更改时（例如删除或添加节点时），**ChildNodes** 集合都会自动更新。
 
-如果节点没有子节点，则 **ChildNodes** 属性返回一个空集合。您可以使用 [HasChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/haschildnodes/) 属性检查 **CompositeNode** 是否包含任何子节点。
+如果节点没有子节点，则 **ChildNodes** 属性返回一个空集合。您可以使用 [HasChildNodes](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/haschildnodes/) 属性检查 **CompositeNode** 是否包含任何子节点。
 
 以下代码示例演示如何使用 `ChildNodes` 集合提供的枚举器枚举 `CompositeNode` 的直接子节点：
 
@@ -130,7 +130,7 @@ Aspose.Words 将文档表示为节点树，使您能够在节点之间导航。�
 
 #### 兄弟节点
 
-您可以分别使用 [PreviousSibling](https://reference.aspose.com/words/net/aspose.words/node/previoussibling/) 和 [NextSibling](https://reference.aspose.com/words/net/aspose.words/node/nextsibling/) 属性获取紧邻特定节点之前或之后的节点。如果节点是其父节点的最后一个子节点，则 **NextSibling** 属性为 *null*。相反，如果节点是其父节点的第一个子节点，则 **PreviousSibling** 属性为 *null*。
+您可以分别使用 [PreviousSibling](https://reference.aspose.com/words/zh/net/aspose.words/node/previoussibling/) 和 [NextSibling](https://reference.aspose.com/words/zh/net/aspose.words/node/nextsibling/) 属性获取紧邻特定节点之前或之后的节点。如果节点是其父节点的最后一个子节点，则 **NextSibling** 属性为 *null*。相反，如果节点是其父节点的第一个子节点，则 **PreviousSibling** 属性为 *null*。
 
 下面的代码示例展示了如何高效地访问复合节点的所有直接和间接子节点：
 
@@ -142,11 +142,11 @@ Aspose.Words 将文档表示为节点树，使您能够在节点之间导航。�
 
 为了减少转换的需要，大多数 Aspose.Words 类提供了提供强类型访问的属性和集合。类型化访问有三种基本模式：
 
-- 父节点公开类型化的 **FirstXXX** 和 **LastXXX** 属性。例如，**Document** 具有 [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) 和 [LastSection](https://reference.aspose.com/words/net/aspose.words/document/lastsection/) 属性。同样，**Table** 具有 [FirstRow](https://reference.aspose.com/words/net/aspose.words.tables/table/firstrow/)、[LastRow](https://reference.aspose.com/words/net/aspose.words.tables/table/lastrow/) 等属性。
-- 父节点公开子节点的类型化集合，例如 [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/)、[Body.Paragraphs](https://reference.aspose.com/words/net/aspose.words/story/paragraphs/) 等。
-- 子节点提供对其父节点的类型化访问，例如 [Run.ParentParagraph](https://reference.aspose.com/words/net/aspose.words/inline/parentparagraph/)、[Paragraph.ParentSection](https://reference.aspose.com/words/net/aspose.words/paragraph/parentsection/) 等。
+- 父节点公开类型化的 **FirstXXX** 和 **LastXXX** 属性。例如，**Document** 具有 [FirstSection](https://reference.aspose.com/words/zh/net/aspose.words/document/firstsection/) 和 [LastSection](https://reference.aspose.com/words/zh/net/aspose.words/document/lastsection/) 属性。同样，**Table** 具有 [FirstRow](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/firstrow/)、[LastRow](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/lastrow/) 等属性。
+- 父节点公开子节点的类型化集合，例如 [Document.Sections](https://reference.aspose.com/words/zh/net/aspose.words/document/sections/)、[Body.Paragraphs](https://reference.aspose.com/words/zh/net/aspose.words/story/paragraphs/) 等。
+- 子节点提供对其父节点的类型化访问，例如 [Run.ParentParagraph](https://reference.aspose.com/words/zh/net/aspose.words/inline/parentparagraph/)、[Paragraph.ParentSection](https://reference.aspose.com/words/zh/net/aspose.words/paragraph/parentsection/) 等。
 
-类型化属性只是有用的快捷方式，有时比从 [Node.ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/) 和 [CompositeNode.FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/) 继承的通用属性提供更容易的访问。
+类型化属性只是有用的快捷方式，有时比从 [Node.ParentNode](https://reference.aspose.com/words/zh/net/aspose.words/node/parentnode/) 和 [CompositeNode.FirstChild](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/firstchild/) 继承的通用属性提供更容易的访问。
 
 以下代码示例演示如何使用类型化属性来访问文档树的节点：
 

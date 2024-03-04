@@ -9,11 +9,11 @@ weight: 110
 url: /ru/net/working-with-styles-and-themes/
 ---
 
-Класс [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/) используется для управления встроенными и применения пользовательских настроек к стилям.
+Класс [StyleCollection](https://reference.aspose.com/words/ru/net/aspose.words/stylecollection/) используется для управления встроенными и применения пользовательских настроек к стилям.
 
 ## Доступ к стилям
 
-Вы можете получить коллекцию стилей, определенных в документе, используя свойство [Document.Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/). Эта коллекция содержит как встроенные, так и пользовательские стили документа. Конкретный стиль можно получить по его имени/псевдониму, идентификатору стиля или индексу. В следующем примере кода показано, как получить доступ к коллекции стилей, определенной в документе.
+Вы можете получить коллекцию стилей, определенных в документе, используя свойство [Document.Styles](https://reference.aspose.com/words/ru/net/aspose.words/documentbase/styles/). Эта коллекция содержит как встроенные, так и пользовательские стили документа. Конкретный стиль можно получить по его имени/псевдониму, идентификатору стиля или индексу. В следующем примере кода показано, как получить доступ к коллекции стилей, определенной в документе.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-AccessStyles-AccessStyles.cs" >}}
 
@@ -27,7 +27,7 @@ url: /ru/net/working-with-styles-and-themes/
 
 ### Решение
 
-Чтобы проиллюстрировать, насколько легко Aspose.Words обрабатывает получение контента на основе стилей, давайте рассмотрим пример. В этом примере мы собираемся получить текст, отформатированный с использованием определенного стиля абзаца и стиля символов, из образца документа Word. На высоком уровне это будет включать в себя:# Открытие документа Word с использованием класса [Document](https://reference.aspose.com/words/net/aspose.words/document/).# Получение коллекций все абзацы и все прогоны в документе.# Выбор только необходимых абзацев и прогонов. В частности, из этого примера документа Word мы получим текст, отформатированный с использованием стиля абзаца "Заголовок 1" и стиля символов "Сильный акцент".
+Чтобы проиллюстрировать, насколько легко Aspose.Words обрабатывает получение контента на основе стилей, давайте рассмотрим пример. В этом примере мы собираемся получить текст, отформатированный с использованием определенного стиля абзаца и стиля символов, из образца документа Word. На высоком уровне это будет включать в себя:# Открытие документа Word с использованием класса [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/).# Получение коллекций все абзацы и все прогоны в документе.# Выбор только необходимых абзацев и прогонов. В частности, из этого примера документа Word мы получим текст, отформатированный с использованием стиля абзаца "Заголовок 1" и стиля символов "Сильный акцент".
 
 ![working-with-styles-and-themes-aspose-words-net](/words/net/working-with-styles-and-themes/working-with-styles-and-themes-1.png)
 
@@ -48,7 +48,7 @@ url: /ru/net/working-with-styles-and-themes/
 
 {{% /alert %}}
 
-Также стоит отметить, что коллекция абзацев не создает непосредственных накладных расходов, поскольку абзацы загружаются в эту коллекцию только тогда, когда вы получаете доступ к их элементам. Затем все, что вам нужно сделать, — это пройтись по коллекции, используя стандартный оператор foreach, и добавить абзацы с указанным стилем в массив parapsWithStyle. Имя стиля `Paragraph` можно найти в свойстве [Style.Name](https://reference.aspose.com/words/net/aspose.words/style/name/) объекта [Paragraph.ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraph/paragraphformat/). Реализация RunsByStyleName почти такая же, хотя мы, очевидно, используем [NodeType.Run](https://reference.aspose.com/words/net/aspose.words/nodetype/) для получения узлов запуска. Свойство [Font.Style](https://reference.aspose.com/words/net/aspose.words/font/style/) объекта [Run](https://reference.aspose.com/words/net/aspose.words/run/) используется для доступа к информации о стиле в узлах **Run**. Ниже приведен пример поиска всех прогонов, отформатированных с использованием указанного стиля.
+Также стоит отметить, что коллекция абзацев не создает непосредственных накладных расходов, поскольку абзацы загружаются в эту коллекцию только тогда, когда вы получаете доступ к их элементам. Затем все, что вам нужно сделать, — это пройтись по коллекции, используя стандартный оператор foreach, и добавить абзацы с указанным стилем в массив parapsWithStyle. Имя стиля `Paragraph` можно найти в свойстве [Style.Name](https://reference.aspose.com/words/ru/net/aspose.words/style/name/) объекта [Paragraph.ParagraphFormat](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/paragraphformat/). Реализация RunsByStyleName почти такая же, хотя мы, очевидно, используем [NodeType.Run](https://reference.aspose.com/words/ru/net/aspose.words/nodetype/) для получения узлов запуска. Свойство [Font.Style](https://reference.aspose.com/words/ru/net/aspose.words/font/style/) объекта [Run](https://reference.aspose.com/words/ru/net/aspose.words/run/) используется для доступа к информации о стиле в узлах **Run**. Ниже приведен пример поиска всех прогонов, отформатированных с использованием указанного стиля.
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-ExtractContentBasedOnStyles-RunsByStyleName.cs" >}}
 

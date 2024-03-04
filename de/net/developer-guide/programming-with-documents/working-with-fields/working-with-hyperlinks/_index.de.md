@@ -9,11 +9,11 @@ weight: 50
 url: /de/net/working-with-hyperlinks/
 ---
 
-Ein Hyperlink in Microsoft Word-Dokumenten ist das `HYPERLINK`-Feld. In Aspose.Words werden Hyperlinks über die [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/)-Klasse implementiert.
+Ein Hyperlink in Microsoft Word-Dokumenten ist das `HYPERLINK`-Feld. In Aspose.Words werden Hyperlinks über die [FieldHyperlink](https://reference.aspose.com/words/de/net/aspose.words.fields/fieldhyperlink/)-Klasse implementiert.
 
 ## Fügen Sie einen Hyperlink ein
 
-Verwenden Sie die [InsertHyperlink](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthyperlink/)-Methode, um einen Hyperlink in das Dokument einzufügen. Diese Methode akzeptiert drei Parameter:
+Verwenden Sie die [InsertHyperlink](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/inserthyperlink/)-Methode, um einen Hyperlink in das Dokument einzufügen. Diese Methode akzeptiert drei Parameter:
 
 1. Text des Links, der im Dokument angezeigt werden soll
 2. Linkziel (URL oder Name eines Lesezeichens im Dokument)
@@ -27,7 +27,7 @@ Beachten Sie, dass Sie die Schriftartformatierung für den Hyperlink-Anzeigetext
 
 {{% /alert %}}
 
-Das folgende Codebeispiel zeigt, wie man mit [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) einen Hyperlink in ein Dokument einfügt:
+Das folgende Codebeispiel zeigt, wie man mit [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/) einen Hyperlink in ein Dokument einfügt:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertHyperlink.cs" >}}
 

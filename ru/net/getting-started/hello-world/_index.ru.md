@@ -15,12 +15,12 @@ url: /ru/net/hello-world/
 
 Фрагмент Below code выполняет следующие шаги:
 
-1. Создайте новый пустой [Document](https://reference.aspose.com/words/net/aspose.words/document)
-1. Инициализируйте класс [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
-1. Вставьте текст в документ, используя простой метод [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/)
-1. Откройте существующий [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) из файла. Автоматически определяет формат файла
-1. [Append](https://reference.aspose.com/words/net/aspose.words/document/appenddocument/)-документ "А" к документу "Б"
-1. [Save](https://reference.aspose.com/words/net/aspose.words/document/save/)-вывод в формате PDF
+1. Создайте новый пустой [Document](https://reference.aspose.com/words/ru/net/aspose.words/document)
+1. Инициализируйте класс [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/)
+1. Вставьте текст в документ, используя простой метод [Write](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/write/)
+1. Откройте существующий [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/document/) из файла. Автоматически определяет формат файла
+1. [Append](https://reference.aspose.com/words/ru/net/aspose.words/document/appenddocument/)-документ "А" к документу "Б"
+1. [Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/)-вывод в формате PDF
 
 Следующий фрагмент кода представляет собой "Hello, World!" пример, демонстрирующий работу API "Aspose.Words for .NET":
 

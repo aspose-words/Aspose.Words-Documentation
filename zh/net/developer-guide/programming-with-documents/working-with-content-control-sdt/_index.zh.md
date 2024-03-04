@@ -67,7 +67,7 @@ StructuredDocumentTag 可以出现在文档中的以下位置：
 
 ## 结构化文档标记范围的 XMLMapping
 
-您可以使用 **StructuredDocumentTagRangeStart.XmlMapping 属性** 获取此结构化文档标记范围到当前文档的自定义 XML 部分中的 XML 数据的映射。然而，[SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) 方法可用于将结构化文档标记范围映射到 XML 数据。
+您可以使用 **StructuredDocumentTagRangeStart.XmlMapping 属性** 获取此结构化文档标记范围到当前文档的自定义 XML 部分中的 XML 数据的映射。然而，[SetMapping](https://reference.aspose.com/words/zh/net/aspose.words.markup/xmlmapping/setmapping/) 方法可用于将结构化文档标记范围映射到 XML 数据。
 
 以下代码示例展示了如何设置 XML 映射：
 
@@ -108,7 +108,7 @@ StructuredDocumentTag 可以出现在文档中的以下位置：
 
 ## 使用重复部分内容控制
 
-重复部分内容控件允许重复其中包含的内容。使用 Aspose.Words，可以创建重复节和重复节项类型的结构化文档标记节点，为此，[SdtType 枚举类型](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) 提供了 **RepeatingSectionItem** 属性。
+重复部分内容控件允许重复其中包含的内容。使用 Aspose.Words，可以创建重复节和重复节项类型的结构化文档标记节点，为此，[SdtType 枚举类型](https://reference.aspose.com/words/zh/net/aspose.words.markup/sdttype/) 提供了 **RepeatingSectionItem** 属性。
 
 以下代码示例演示如何将重复节内容控件绑定到表。
 

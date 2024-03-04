@@ -13,16 +13,16 @@ Parfois, certaines lignes d'un tableau nécessitent un en-tête ou de gros blocs
 
 ## Comment fusionner des cellules de tableau
 
-Dans Aspose.Words, les cellules fusionnées sont représentées par les propriétés suivantes de la classe [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/):
+Dans Aspose.Words, les cellules fusionnées sont représentées par les propriétés suivantes de la classe [CellFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/):
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/) qui décrit si la cellule fait partie d'une fusion horizontale de cellules
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/) qui décrit si la cellule fait partie d'une fusion verticale de cellules
+- [HorizontalMerge](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/horizontalmerge/) qui décrit si la cellule fait partie d'une fusion horizontale de cellules
+- [VerticalMerge](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellformat/verticalmerge/) qui décrit si la cellule fait partie d'une fusion verticale de cellules
 
 Les valeurs de ces propriétés déterminent le comportement de fusion des cellules:
 
-- La première cellule d'une séquence de cellules fusionnées aura [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Toutes les cellules fusionnées ultérieurement auront [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Une cellule qui n'est pas fusionnée aura [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+- La première cellule d'une séquence de cellules fusionnées aura [CellMerge.First](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellmerge/)
+- Toutes les cellules fusionnées ultérieurement auront [CellMerge.Previous](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellmerge/)
+- Une cellule qui n'est pas fusionnée aura [CellMerge.None](https://reference.aspose.com/words/fr/net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ## Fusionner les cellules du tableau lors de l'utilisation de DocumentBuilder
 
-Pour fusionner des cellules dans un tableau créé avec [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), vous devez définir le type de fusion approprié pour chaque cellule où la fusion est attendue – d'abord **CellMerge.First** puis **CellMerge.Previous**.
+Pour fusionner des cellules dans un tableau créé avec [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/), vous devez définir le type de fusion approprié pour chaque cellule où la fusion est attendue – d'abord **CellMerge.First** puis **CellMerge.Previous**.
 
 N'oubliez pas non plus d'effacer le paramètre de fusion pour les cellules pour lesquelles aucune fusion n'est requise – cela peut être fait en définissant la première cellule non fusionnée sur **CellMerge.None**. Si cela n'est pas fait, toutes les cellules du tableau seront fusionnées.
 

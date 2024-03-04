@@ -13,13 +13,13 @@ Doldurulacak boşlukları (alanları) içeren bir belge form olarak bilinir. Ör
 
 Kullanıcılarınızla "iletişim kurmak" için projenizdeki form alanlarını kullanabilirsiniz. Örneğin, içeriği korunan ancak yalnızca form alanlarının düzenlenebildiği bir belge oluşturursunuz. Kullanıcılar form alanlarına verilerini girip belgeyi gönderebilirler. Aspose.Words kullanan uygulamanız form alanlarından veri alıp işleyebilir.
 
-Form alanlarını kod aracılığıyla belgeye yerleştirmek kolaydır. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)'in bunları eklemek için her form alanı türü için bir tane olmak üzere özel yöntemleri vardır. Yöntemlerin her biri, form alanının adını temsil eden bir dize parametresini kabul eder. Ad boş bir dize olabilir. Ancak form alanı için bir ad belirlerseniz, aynı adla otomatik olarak bir yer imi oluşturulur.
+Form alanlarını kod aracılığıyla belgeye yerleştirmek kolaydır. [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/)'in bunları eklemek için her form alanı türü için bir tane olmak üzere özel yöntemleri vardır. Yöntemlerin her biri, form alanının adını temsil eden bir dize parametresini kabul eder. Ad boş bir dize olabilir. Ancak form alanı için bir ad belirlerseniz, aynı adla otomatik olarak bir yer imi oluşturulur.
 
 ## Form Alanları Ekle
 
 Form alanları, kullanıcıyla "etkileşime" izin veren özel bir Word alanıdır. Microsoft Word'teki form alanları metin kutusu, birleşik giriş kutusu ve onay kutusunu içerir.
 
-**DocumentBuilder**, her tür form alanını belgeye eklemek için özel yöntemler sağlar: [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/) ve [InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer işareti oluşturulacağını unutmayın.
+**DocumentBuilder**, her tür form alanını belgeye eklemek için özel yöntemler sağlar: [InsertTextInput](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertcheckbox/) ve [InsertComboBox](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertcombobox/). Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer işareti oluşturulacağını unutmayın.
 
 Aşağıdaki kod örneği, birleşik giriş kutusu form alanının bir belgeye nasıl ekleneceğini gösterir:
 
@@ -51,7 +51,7 @@ Aşağıdaki kod örneği, Combobox form alanının bir belgeye nasıl eklenece�
 
 ## Form Alanlarını Edinme
 
-Form alanlarının bir koleksiyonu, [FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/) özelliği kullanılarak alınabilen [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/) sınıfı tarafından temsil edilir. Bu, belgenin kendisi de dahil olmak üzere herhangi bir belge düğümünde bulunan form alanlarını elde edebileceğiniz anlamına gelir.
+Form alanlarının bir koleksiyonu, [FormFields](https://reference.aspose.com/words/tr/net/aspose.words/range/formfields/) özelliği kullanılarak alınabilen [FormFieldCollection](https://reference.aspose.com/words/tr/net/aspose.words.fields/formfieldcollection/) sınıfı tarafından temsil edilir. Bu, belgenin kendisi de dahil olmak üzere herhangi bir belge düğümünde bulunan form alanlarını elde edebileceğiniz anlamına gelir.
 
 {{% alert color="primary" %}}
 
@@ -77,7 +77,7 @@ Aşağıdaki kod örneği form alanı adı, türü ve sonucuyla nasıl çalış�
 
 ## Form Alanlarını Biçimlendir
 
-[FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/)'nin [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) özelliği, yazı tipi formatının alan değeri de dahil olmak üzere **FormField**'e bir bütün olarak uygulanmasına olanak tanır.
+[FormField](https://reference.aspose.com/words/tr/net/aspose.words.fields/formfield/)'nin [Font](https://reference.aspose.com/words/tr/net/aspose.words/inline/font/) özelliği, yazı tipi formatının alan değeri de dahil olmak üzere **FormField**'e bir bütün olarak uygulanmasına olanak tanır.
 
 Aşağıdaki kod örneği, yazı tipi formatının **FormField**'e nasıl uygulanacağını gösterir:
 

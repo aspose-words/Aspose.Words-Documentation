@@ -126,7 +126,7 @@ DOC a HTML – conversión de alta fidelidad:
 
 ## Alta escalabilidad
 
-Los escenarios escalables del lado del servidor utilizan Aspose.Words principalmente debido a su diseño simple y limpio: Aspose.Words admite subprocesos múltiples. Los objetos [Document](https://reference.aspose.com/words/net/aspose.words/document/) son independientes entre sí y, siempre que solo un subproceso pueda modificar un documento a la vez (un requisito típico para cualquier clase de colección), varios subprocesos pueden procesar cualquier cantidad de documentos al mismo tiempo.
+Los escenarios escalables del lado del servidor utilizan Aspose.Words principalmente debido a su diseño simple y limpio: Aspose.Words admite subprocesos múltiples. Los objetos [Document](https://reference.aspose.com/words/es/net/aspose.words/document/) son independientes entre sí y, siempre que solo un subproceso pueda modificar un documento a la vez (un requisito típico para cualquier clase de colección), varios subprocesos pueden procesar cualquier cantidad de documentos al mismo tiempo.
 
 ## Alto rendimiento
 

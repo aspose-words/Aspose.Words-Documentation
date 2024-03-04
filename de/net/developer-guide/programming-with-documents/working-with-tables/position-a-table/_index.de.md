@@ -20,7 +20,7 @@ In diesem Artikel besprechen wir, welche Möglichkeiten Aspose.Words zur Positio
 
 ## Geben Sie die Position der Inline-Tabelle an
 
-Sie können die Position einer Inline-Tabelle mithilfe der Aspose.Words-API- und der [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/)-Eigenschaft festlegen. So können Sie die Ausrichtung der Tabelle relativ zur Dokumentseite anpassen.
+Sie können die Position einer Inline-Tabelle mithilfe der Aspose.Words-API- und der [Alignment](https://reference.aspose.com/words/de/net/aspose.words.tables/table/alignment/)-Eigenschaft festlegen. So können Sie die Ausrichtung der Tabelle relativ zur Dokumentseite anpassen.
 
 Das folgende Codebeispiel zeigt, wie die Position einer Inline-Tabelle festgelegt wird:
 
@@ -28,9 +28,9 @@ Das folgende Codebeispiel zeigt, wie die Position einer Inline-Tabelle festgeleg
 
 ## Holen Sie sich die schwebende Tabellenausrichtung
 
-Wenn der Tabellentextumbruch auf **Around** eingestellt ist, können Sie die horizontale und vertikale Ausrichtung der Tabelle mithilfe der [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/)- und [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/)-Eigenschaften ermitteln.
+Wenn der Tabellentextumbruch auf **Around** eingestellt ist, können Sie die horizontale und vertikale Ausrichtung der Tabelle mithilfe der [RelativeHorizontalAlignment](https://reference.aspose.com/words/de/net/aspose.words.tables/table/relativehorizontalalignment/)- und [RelativeVerticalAlignment](https://reference.aspose.com/words/de/net/aspose.words.tables/table/relativeverticalalignment/)-Eigenschaften ermitteln.
 
-Mit **andere Arten des Textumbruchs** können Sie mithilfe der [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/)-Eigenschaft eine Inline-Tabellenausrichtung erreichen.
+Mit **andere Arten des Textumbruchs** können Sie mithilfe der [Alignment](https://reference.aspose.com/words/de/net/aspose.words.tables/table/alignment/)-Eigenschaft eine Inline-Tabellenausrichtung erreichen.
 
 Das folgende Codebeispiel zeigt, wie die Ausrichtung der Tabelle ermittelt wird:
 
@@ -40,13 +40,13 @@ Das folgende Codebeispiel zeigt, wie die Ausrichtung der Tabelle ermittelt wird:
 
  Die Position einer schwebenden Tabelle wird anhand der folgenden Eigenschaften bestimmt:
 
-* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – ein Objekt zur Berechnung der horizontalen Positionierung eines schwebenden Tisches
-* [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – ein Objekt zur Berechnung der vertikalen Positionierung eines schwebenden Tisches
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – absolute horizontale schwebende Tischposition
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – absolute vertikale schwebende Tischposition
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – Option zum Aktivieren/Deaktivieren der Überlappung mit anderen schwebenden Objekten
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – schwebende Tabelle mit relativer horizontaler Ausrichtung.
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) – schwebende Tabelle mit relativer vertikaler Ausrichtung.
+* [HorizontalAnchor](https://reference.aspose.com/words/de/net/aspose.words.tables/table/horizontalanchor/) – ein Objekt zur Berechnung der horizontalen Positionierung eines schwebenden Tisches
+* [VerticalAnchor](https://reference.aspose.com/words/de/net/aspose.words.tables/table/verticalanchor/) – ein Objekt zur Berechnung der vertikalen Positionierung eines schwebenden Tisches
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/de/net/aspose.words.tables/table/absolutehorizontaldistance/) – absolute horizontale schwebende Tischposition
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/de/net/aspose.words.tables/table/absoluteverticaldistance/) – absolute vertikale schwebende Tischposition
+* [AllowOverlap](https://reference.aspose.com/words/de/net/aspose.words.tables/table/allowoverlap/) – Option zum Aktivieren/Deaktivieren der Überlappung mit anderen schwebenden Objekten
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/de/net/aspose.words.tables/table/relativehorizontalalignment/) – schwebende Tabelle mit relativer horizontaler Ausrichtung.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/de/net/aspose.words.tables/table/relativeverticalalignment/) – schwebende Tabelle mit relativer vertikaler Ausrichtung.
 
 Das folgende Codebeispiel zeigt, wie Sie die Position einer schwebenden Tabelle ermitteln:
 
@@ -66,10 +66,10 @@ Das folgende Codebeispiel zeigt, wie die Position einer schwebenden Tabelle fest
 
 Aspose.Words bietet auch die Möglichkeit, die Abstände zwischen Tabellen und umgebenden Texten herauszufinden:
 
-- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) – der Wert des Abstands von oben
-- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/) – der Wert der Wahrnehmungsentfernung
-- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) – Abstandswert rechts
-- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) – Distanzwert links
+- [DistanceTop](https://reference.aspose.com/words/de/net/aspose.words.tables/table/distancetop/) – der Wert des Abstands von oben
+- [DistanceBottom](https://reference.aspose.com/words/de/net/aspose.words.tables/table/distancebottom/) – der Wert der Wahrnehmungsentfernung
+- [DistanceRight](https://reference.aspose.com/words/de/net/aspose.words.tables/table/distanceright/) – Abstandswert rechts
+- [DistanceLeft](https://reference.aspose.com/words/de/net/aspose.words.tables/table/distanceleft/) – Distanzwert links
 
 Das folgende Codebeispiel zeigt, wie Sie den Abstand zwischen einer Tabelle und dem umgebenden Text ermitteln:
 

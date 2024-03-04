@@ -15,7 +15,7 @@ Dans cet article, nous parlerons de l'insertion d'un objet OLE et de la définit
 
 ## Insérer un objet OLE
 
-Si vous voulez un objet OLE, appelez la méthode [InsertOleObject](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobject/) et transmettez-lui explicitement le **ProgId** avec d'autres paramètres.
+Si vous voulez un objet OLE, appelez la méthode [InsertOleObject](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertoleobject/) et transmettez-lui explicitement le **ProgId** avec d'autres paramètres.
 
 L'exemple de code suivant montre comment insérer un objet OLE dans un document:
 
@@ -35,7 +35,7 @@ L'exemple de code suivant montre comment définir le nom de fichier, l'extension
 
 Les utilisateurs peuvent accéder aux données des objets OLE à l'aide de diverses propriétés et méthodes de la classe `OleFormat`. Par exemple, il est possible d'obtenir les données brutes de l'objet `OLE` ou le chemin et le nom d'un fichier source pour l'objet OLE lié.
 
-L'exemple de code suivant montre comment obtenir des données brutes d'objet OLE à l'aide de la méthode [GetRawData](https://reference.aspose.com/words/net/aspose.words.drawing/oleformat/getrawdata/):
+L'exemple de code suivant montre comment obtenir des données brutes d'objet OLE à l'aide de la méthode [GetRawData](https://reference.aspose.com/words/fr/net/aspose.words.drawing/oleformat/getrawdata/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.cs" >}}
 
@@ -43,7 +43,7 @@ L'exemple de code suivant montre comment obtenir des données brutes d'objet OLE
 
 Les objets OLE peuvent également être insérés dans des documents sous forme d'images.
 
-L'exemple de code suivant montre comment insérer un objet OLE en tant qu'icône. A cet effet, la classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) expose la méthode [InsertOleObjectAsIcon](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobjectasicon/):
+L'exemple de code suivant montre comment insérer un objet OLE en tant qu'icône. A cet effet, la classe [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) expose la méthode [InsertOleObjectAsIcon](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertoleobjectasicon/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
 
@@ -59,9 +59,9 @@ La taille maximale de l'icône doit être de 32x32 pour un affichage correct.
 
 ## Insérer une vidéo en ligne
 
-La vidéo en ligne peut être insérée dans un document Word à partir de l'onglet *"Insérer" &gt; "Vidéo en ligne"*. Vous pouvez insérer une vidéo en ligne dans un document à l'emplacement actuel en appelant la méthode [InsertOnlineVideo](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertonlinevideo/).
+La vidéo en ligne peut être insérée dans un document Word à partir de l'onglet *"Insérer" &gt; "Vidéo en ligne"*. Vous pouvez insérer une vidéo en ligne dans un document à l'emplacement actuel en appelant la méthode [InsertOnlineVideo](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/insertonlinevideo/).
 
-La classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) introduit quatre surcharges de cette méthode. Le premier fonctionne avec les ressources vidéo les plus populaires et prend le `URL` de la vidéo comme paramètre. Par exemple, la première surcharge prend en charge l'insertion simple de vidéos en ligne à partir de ressources [Youtube](https://www.youtube.com/) et [Viméo](https://vimeo.com/).
+La classe [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) introduit quatre surcharges de cette méthode. Le premier fonctionne avec les ressources vidéo les plus populaires et prend le `URL` de la vidéo comme paramètre. Par exemple, la première surcharge prend en charge l'insertion simple de vidéos en ligne à partir de ressources [Youtube](https://www.youtube.com/) et [Viméo](https://vimeo.com/).
 
 L'exemple de code suivant montre comment insérer une vidéo en ligne à partir de *Vimeo* dans un document:
 

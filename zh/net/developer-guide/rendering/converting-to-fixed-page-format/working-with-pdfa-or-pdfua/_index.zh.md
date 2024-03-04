@@ -141,7 +141,7 @@ PDF 文档是一系列块，例如标题、段落、表格等。这些块形成�
 |  PDF/A-2a |   {{< emoticons/tick >}}   |
 |  PDF/UA-1 |   {{< emoticons/tick >}}   |
 
-文本语言在 Microsoft Word 文档中指定。 Aspose.Words 将指定的语言导出为输出 PDF，并将 *Lang* 属性附加到标记内容序列或 Span 标记 - 它由 [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/) 属性控制。通常，用户通过 Microsoft Word 输入文本时不存在语言问题。但如果文本是自动生成的，则语言可能不准确。
+文本语言在 Microsoft Word 文档中指定。 Aspose.Words 将指定的语言导出为输出 PDF，并将 *Lang* 属性附加到标记内容序列或 Span 标记 - 它由 [ExportLanguageToSpanTag](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/) 属性控制。通常，用户通过 Microsoft Word 输入文本时不存在语言问题。但如果文本是自动生成的，则语言可能不准确。
 
 {{% alert color="secondary" %}}
 <details>

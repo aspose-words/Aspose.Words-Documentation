@@ -9,16 +9,16 @@ weight: 10
 url: /ar/net/specify-layout-options/
 ---
 
-يمكّنك Aspose.Words من إنشاء مستندات مخرجات بتخطيطات مختلفة، اعتمادًا على المعلمات المحددة في خصائص فئة [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/). تشبه بعض هذه الخصائص بعض خيارات قائمة واجهة مستخدم Microsoft Word - والتي سيتم وصفها في هذه المقالة.
+يمكّنك Aspose.Words من إنشاء مستندات مخرجات بتخطيطات مختلفة، اعتمادًا على المعلمات المحددة في خصائص فئة [LayoutOptions](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/). تشبه بعض هذه الخصائص بعض خيارات قائمة واجهة مستخدم Microsoft Word - والتي سيتم وصفها في هذه المقالة.
 
-للحصول على قائمة كاملة من المعلمات مثل [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) لحساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات، أو [IgnorePrinterMetrics](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/) لتجاهل خيار التوافق "استخدام مقاييس الطابعة لتخطيط المستند"، راجع صفحة فئة [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/).
+للحصول على قائمة كاملة من المعلمات مثل [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) لحساب أرقام الصفحات في قسم مستمر يعيد تشغيل ترقيم الصفحات، أو [IgnorePrinterMetrics](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/) لتجاهل خيار التوافق "استخدام مقاييس الطابعة لتخطيط المستند"، راجع صفحة فئة [LayoutOptions](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/).
 
 ## علامات التنسيق
 
 يسمح Aspose.Words بإدارة علامات التنسيق باستخدام الخصائص التالية:
 
-- [ShowHiddenText](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showhiddentext/) – قيمة `Boolean`، التي تحدد ما إذا كان سيتم عرض النص المخفي أم لا.
-- [ShowParagraphMarks](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showparagraphmarks/) - قيمة `Boolean`، التي تحدد ما إذا كان سيتم عرض أحرف علامة الفقرة.
+- [ShowHiddenText](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/showhiddentext/) – قيمة `Boolean`، التي تحدد ما إذا كان سيتم عرض النص المخفي أم لا.
+- [ShowParagraphMarks](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/showparagraphmarks/) - قيمة `Boolean`، التي تحدد ما إذا كان سيتم عرض أحرف علامة الفقرة.
 
 تحتوي الصفحة الموضحة في المثال أدناه على ثلاث فقرات. والثاني مخفي. يمكن للمستخدم تغيير خيار **ShowHiddenText** لعرض هذا النص المخفي على الصفحة. بالإضافة إلى ذلك، تحتوي كل فقرة على علامة فقرة في النهاية. عادةً ما تكون علامة الفقرة غير مرئية ما لم يتم تعيين خاصية **ShowParagraphMarks** لعرضها.
 
@@ -30,15 +30,15 @@ url: /ar/net/specify-layout-options/
 
 ## التعليقات والمراجعات
 
-باستخدام Aspose.Words، يمكنك تقديم تعليقات المستند التي ستبدو كما هي في Microsoft Word. لتحديد ما إذا كان سيتم عرض التعليقات أم لا، استخدم خاصية [CommentDisplayMode](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/commentdisplaymode/).
+باستخدام Aspose.Words، يمكنك تقديم تعليقات المستند التي ستبدو كما هي في Microsoft Word. لتحديد ما إذا كان سيتم عرض التعليقات أم لا، استخدم خاصية [CommentDisplayMode](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/commentdisplaymode/).
 
 في Microsoft Word، يتم تعيين هذه المعلمة باستخدام مربع الحوار "خيارات تتبع التغييرات"، كما هو موضح أدناه:
 
 ![specify-layout-options_3](/words/net/specify-layout-options/specify-layout-options-3.jpg)
 
-كما يسمح لك Aspose.Words بعرض المراجعات في المستند. استخدم خاصية [RevisionOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/revisionoptions/) لفئة **LayoutOptions** لتحديد ما إذا كان سيتم عرض مراجعات المستند أم لا. للتحكم في مظهرها (لون تمييز المراجعة، لون شريط المراجعة، وما إلى ذلك)، استخدم فئة [RevisonOptions](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions/).
+كما يسمح لك Aspose.Words بعرض المراجعات في المستند. استخدم خاصية [RevisionOptions](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/revisionoptions/) لفئة **LayoutOptions** لتحديد ما إذا كان سيتم عرض مراجعات المستند أم لا. للتحكم في مظهرها (لون تمييز المراجعة، لون شريط المراجعة، وما إلى ذلك)، استخدم فئة [RevisonOptions](https://reference.aspose.com/words/ar/net/aspose.words.layout/revisionoptions/).
 
-يمكنك أيضًا عرض المراجعات كتعليقات على المحتوى. لهذا الغرض، استخدم خاصية [CommentDisplayMode](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/commentdisplaymode/) وقيمة [ShowInBalloons](https://reference.aspose.com/words/net/aspose.words.layout/commentdisplaymode/).
+يمكنك أيضًا عرض المراجعات كتعليقات على المحتوى. لهذا الغرض، استخدم خاصية [CommentDisplayMode](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/commentdisplaymode/) وقيمة [ShowInBalloons](https://reference.aspose.com/words/ar/net/aspose.words.layout/commentdisplaymode/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية تخصيص عرض المراجعات:
 
@@ -50,7 +50,7 @@ url: /ar/net/specify-layout-options/
 
 ## مشكل النص لتقديم الطباعة المتقدمة
 
-تتيح لك خاصية [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/) ضبط وظيفة تشكيل النص، بالإضافة إلى دعم ميزات `OpenType`.
+تتيح لك خاصية [TextShaperFactory](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/textshaperfactory/) ضبط وظيفة تشكيل النص، بالإضافة إلى دعم ميزات `OpenType`.
 
 استخدم تشكيل النص لمعالجة المستندات في الحالات الرئيسية التالية:
 

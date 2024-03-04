@@ -10,11 +10,11 @@ keywords: "create a document c#, load a document c#, create a blank document c#,
 weight: 10
 ---
 
-Aspose.Words ile gerçekleştirmek istediğiniz hemen hemen her görev, bir belgenin yüklenmesini içerir. `Document` sınıfı belleğe yüklenen bir belgeyi temsil eder. Belgede, boş bir belge oluşturmanıza veya bunu bir dosyadan veya akıştan yüklemenize olanak tanıyan aşırı yüklenmiş birkaç kurucu bulunur. Belge, Aspose.Words tarafından desteklenen herhangi bir yükleme biçiminde yüklenebilir. Desteklenen tüm yükleme biçimlerinin listesi için [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) numaralandırmasına bakın.
+Aspose.Words ile gerçekleştirmek istediğiniz hemen hemen her görev, bir belgenin yüklenmesini içerir. `Document` sınıfı belleğe yüklenen bir belgeyi temsil eder. Belgede, boş bir belge oluşturmanıza veya bunu bir dosyadan veya akıştan yüklemenize olanak tanıyan aşırı yüklenmiş birkaç kurucu bulunur. Belge, Aspose.Words tarafından desteklenen herhangi bir yükleme biçiminde yüklenebilir. Desteklenen tüm yükleme biçimlerinin listesi için [LoadFormat](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/) numaralandırmasına bakın.
 
 ## Yeni bir Belge {#create-a-new-document} Oluştur
 
-Yeni bir boş belge oluşturmak için [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) yapıcısını parametresiz olarak çağıracağız. Programlı olarak bir belge oluşturmak istiyorsanız en basit yol, belge içeriğini eklemek için [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) sınıfını kullanmaktır.
+Yeni bir boş belge oluşturmak için [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/document/) yapıcısını parametresiz olarak çağıracağız. Programlı olarak bir belge oluşturmak istiyorsanız en basit yol, belge içeriğini eklemek için [DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) sınıfını kullanmaktır.
 
 Aşağıdaki kod örneği, belge oluşturucuyu kullanarak nasıl belge oluşturulacağını gösterir:
 
@@ -25,13 +25,13 @@ Aşağıdaki kod örneği, belge oluşturucuyu kullanarak nasıl belge oluşturu
 Varsayılan değerleri not edin:
 
 - Boş bir belge, varsayılan parametrelere sahip bir bölüm, bir boş paragraf ve bazı belge stilleri içerir. Aslında bu belge Microsoft Word'te "Yeni belge" oluşturmanın sonucuyla aynıdır.
-- Belge kağıt boyutu [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).**Letter**'dir.
+- Belge kağıt boyutu [PaperSize](https://reference.aspose.com/words/tr/net/aspose.words/papersize/).**Letter**'dir.
 
 {{% /alert %}}
 
 ## Belge {#load-a-document} Yükleme
 
-Mevcut bir belgeyi [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) formatlarından herhangi birinde yüklemek için dosya adını veya akışı Belge oluşturucularından birine iletin. Yüklenen belgenin formatı, uzantısına göre otomatik olarak belirlenir.
+Mevcut bir belgeyi [LoadFormat](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/) formatlarından herhangi birinde yüklemek için dosya adını veya akışı Belge oluşturucularından birine iletin. Yüklenen belgenin formatı, uzantısına göre otomatik olarak belirlenir.
 
 ### {#load-from-a-file} Dosyasından Yükleme
 

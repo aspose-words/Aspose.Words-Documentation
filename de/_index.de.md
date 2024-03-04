@@ -21,7 +21,7 @@ Aspose.Words ist eine Klassenbibliothek, die auf den gängigsten Plattformen ver
             <li><a href="https://products.aspose.com/words/net/">Aspose.Words für .NET-Produktseite</a></li>
             <li><a href="/words/de/net/product-overview/">Produktübersicht</a></li>
             <li><a href="/words/de/net/developer-guide/">Entwicklerhandbuch</a></li>
-            <li><a href="https://reference.aspose.com/words/net/">Aspose.Words für .NET – API Reference-Leitfaden</a></li>
+            <li><a href="https://reference.aspose.com/words/de/net/">Aspose.Words für .NET – API Reference-Leitfaden</a></li>
             <li><a href="https://releases.aspose.com/words/net/release-notes/">Versionshinweise zu Aspose.Words für .NET</a></li>
             <li><a href="https://releases.aspose.com/words/net/">Aspose.Words für .NET-Download</a></li>
             <li><a href="https://www.nuget.org/packages/Aspose.Words/">Aspose.Words für .NET – NuGet Package</a></li>

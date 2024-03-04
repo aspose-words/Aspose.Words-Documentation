@@ -13,13 +13,13 @@ url: /ar/net/clean-up-a-document/
 
 على الرغم من أنه يمكنك العثور على البيانات غير المستخدمة وإزالتها، مثل الأنماط أو القوائم، أو المعلومات المكررة يدويًا، إلا أنه سيكون أكثر ملاءمة للقيام بذلك باستخدام الميزات والإمكانيات التي يوفرها Aspose.Words.
 
-تتيح لك فئة [CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) تحديد خيارات لتنظيف المستندات. لإزالة الأنماط المكررة أو الأنماط أو القوائم غير المستخدمة من المستند، يمكنك استخدام طريقة [Cleanup](https://reference.aspose.com/words/net/aspose.words/document/cleanup/).
+تتيح لك فئة [CleanupOptions](https://reference.aspose.com/words/ar/net/aspose.words/cleanupoptions/) تحديد خيارات لتنظيف المستندات. لإزالة الأنماط المكررة أو الأنماط أو القوائم غير المستخدمة من المستند، يمكنك استخدام طريقة [Cleanup](https://reference.aspose.com/words/ar/net/aspose.words/document/cleanup/).
 
 ## إزالة المعلومات غير المستخدمة من مستند
 
-يمكنك استخدام خصائص [UnusedStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedstyles/) و[UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) للكشف عن الأنماط التي تم وضع علامة "غير مستخدمة" عليها وإزالتها.
+يمكنك استخدام خصائص [UnusedStyles](https://reference.aspose.com/words/ar/net/aspose.words/cleanupoptions/unusedstyles/) و[UnusedBuiltinStyles](https://reference.aspose.com/words/ar/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) للكشف عن الأنماط التي تم وضع علامة "غير مستخدمة" عليها وإزالتها.
 
-يمكنك استخدام خاصية [UnusedLists](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedlists/) للكشف عن القوائم وتعريفات القوائم التي تم وضع علامة "غير مستخدمة" عليها وإزالتها.
+يمكنك استخدام خاصية [UnusedLists](https://reference.aspose.com/words/ar/net/aspose.words/cleanupoptions/unusedlists/) للكشف عن القوائم وتعريفات القوائم التي تم وضع علامة "غير مستخدمة" عليها وإزالتها.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إزالة الأنماط غير المستخدمة فقط من المستند:
 
@@ -27,7 +27,7 @@ url: /ar/net/clean-up-a-document/
 
 ## إزالة المعلومات المكررة من مستند
 
-يمكنك أيضًا استخدام خاصية [DuplicateStyle](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/duplicatestyle/) لاستبدال جميع الأنماط المكررة بالنمط الأصلي وإزالة التكرارات من المستند.
+يمكنك أيضًا استخدام خاصية [DuplicateStyle](https://reference.aspose.com/words/ar/net/aspose.words/cleanupoptions/duplicatestyle/) لاستبدال جميع الأنماط المكررة بالنمط الأصلي وإزالة التكرارات من المستند.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إزالة الأنماط المكررة من مستند:
 

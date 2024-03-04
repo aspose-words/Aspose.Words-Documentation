@@ -267,4 +267,4 @@ Daher sollte die Datei "TestDoc.pdf" im Ordner "Freigegebene Dokumente" der Stam
 
 – Der Artikel [Rendern](/words/de/net/rendering/) für weitere Informationen zu den Formaten mit fester Seite und Flow-Layout
 - Der Artikel [Konvertieren in das Fixed-Page-Format](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) für weitere Informationen zum Seitenlayout
-– Der Artikel [Geben Sie beim Konvertieren in PDF Rendering-Optionen an](/words/de/net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen zur Verwendung der [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/)-Klasse
+– Der Artikel [Geben Sie beim Konvertieren in PDF Rendering-Optionen an](/words/de/net/specify-rendering-options-when-converting-to-pdf/) für weitere Informationen zur Verwendung der [PdfSaveOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfsaveoptions/)-Klasse

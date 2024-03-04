@@ -50,7 +50,7 @@ Aspose.Words 不具有防病毒软件的功能。因此，它不提供有关文�
 
 ## 安全问题解决方案
 
-为了解决上述问题，提高Web应用的安全性，您可以使用[IResourceLoadingCallback](https://reference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback/)来控制或禁用外部资源的加载。
+为了解决上述问题，提高Web应用的安全性，您可以使用[IResourceLoadingCallback](https://reference.aspose.com/words/zh/net/aspose.words.loading/iresourceloadingcallback/)来控制或禁用外部资源的加载。
 
 以下代码示例显示如何禁用外部图像加载：
 

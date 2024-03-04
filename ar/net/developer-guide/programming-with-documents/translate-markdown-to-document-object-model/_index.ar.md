@@ -23,7 +23,7 @@ url: /ar/net/translate-markdown-to-document-object-model/
 
 ## مبادئ الترجمة المشتركة
 
-نحن نستخدم تنسيق [Font](https://reference.aspose.com/words/net/aspose.words/font/) للكتل المضمنة. عندما لا يكون هناك توافق مباشر لميزة Markdown في Aspose.Words DOM، نستخدم نمط أحرف مع اسم يبدأ من بعض الكلمات الخاصة.
+نحن نستخدم تنسيق [Font](https://reference.aspose.com/words/ar/net/aspose.words/font/) للكتل المضمنة. عندما لا يكون هناك توافق مباشر لميزة Markdown في Aspose.Words DOM، نستخدم نمط أحرف مع اسم يبدأ من بعض الكلمات الخاصة.
 
 بالنسبة لكتل الحاويات، نستخدم وراثة النمط للإشارة إلى ميزات Markdown المتداخلة. في هذه الحالة، حتى في حالة عدم وجود ميزات متداخلة، نستخدم أيضًا أنماط الفقرة مع اسم يبدأ من بعض الكلمات الخاصة.
 
@@ -31,7 +31,7 @@ url: /ar/net/translate-markdown-to-document-object-model/
 
 ## كتل مضمنة
 
-نحن نستخدم تنسيق [Font](https://reference.aspose.com/words/net/aspose.words/font/) عند ترجمة ميزات markdown المضمّنة بتنسيق **Bold** أو *Italic* أو ~~ يتوسطه خط ~~.
+نحن نستخدم تنسيق [Font](https://reference.aspose.com/words/ar/net/aspose.words/font/) عند ترجمة ميزات markdown المضمّنة بتنسيق **Bold** أو *Italic* أو ~~ يتوسطه خط ~~.
 
 |  ميزة Markdown |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
@@ -53,11 +53,11 @@ builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 |  -----------------------------  |  ------------------  |
 |  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
-|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  فئة [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) |
+|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  فئة [FieldHyperlink](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldhyperlink/) |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
-|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  فئة [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) |
+|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  فئة [FieldHyperlink](https://reference.aspose.com/words/ar/net/aspose.words.fields/fieldhyperlink/) |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
-|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  فئة [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) |
+|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  فئة [Shape](https://reference.aspose.com/words/ar/net/aspose.words.drawing/shape/) |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
 
 ## كتل الحاويات
@@ -155,7 +155,7 @@ builder.Writeln("Item 2b");{{< /highlight >}} |                                 
 
 |  ميزة Markdown |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> `أ | ب`<br />`- | -`<br />`c | د` |  فئات [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) و[Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) |
+|  `Table`<br /> `أ | ب`<br />`- | -`<br />`c | د` |  فئات [Table](https://reference.aspose.com/words/ar/net/aspose.words.tables/table/) و[Row](https://reference.aspose.com/words/ar/net/aspose.words.tables/row/) و[Cell](https://reference.aspose.com/words/ar/net/aspose.words.tables/cell/) |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 

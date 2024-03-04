@@ -13,13 +13,13 @@ Ein Dokument, das ausgefüllte Lücken (Felder) enthält, wird als Formular beze
 
 Sie können in Ihrem Projekt Formularfelder verwenden, um mit Ihren Benutzern zu "kommunizieren". Sie erstellen beispielsweise ein Dokument, dessen Inhalt geschützt ist, aber nur Formularfelder bearbeitet werden können. Die Benutzer können die Daten in die Formularfelder eingeben und das Dokument absenden. Ihre Anwendung, die Aspose.Words verwendet, kann Daten aus den Formularfeldern abrufen und verarbeiten.
 
-Das Einfügen von Formularfeldern in das Dokument per Code ist einfach. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) verfügt über spezielle Methoden zum Einfügen, eine für jeden Formularfeldtyp. Jede der Methoden akzeptiert einen String-Parameter, der den Namen des Formularfelds darstellt. Der Name kann eine leere Zeichenfolge sein. Wenn Sie jedoch einen Namen für das Formularfeld angeben, wird automatisch ein Lesezeichen mit demselben Namen erstellt.
+Das Einfügen von Formularfeldern in das Dokument per Code ist einfach. [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/) verfügt über spezielle Methoden zum Einfügen, eine für jeden Formularfeldtyp. Jede der Methoden akzeptiert einen String-Parameter, der den Namen des Formularfelds darstellt. Der Name kann eine leere Zeichenfolge sein. Wenn Sie jedoch einen Namen für das Formularfeld angeben, wird automatisch ein Lesezeichen mit demselben Namen erstellt.
 
 ## Formularfelder einfügen
 
 Formularfelder sind eine Sonderform von Word-Feldern, die eine "Interaktion" mit dem Benutzer ermöglichen. Zu den Formularfeldern in Microsoft Word gehören Textfelder, Kombinationsfelder und Kontrollkästchen.
 
-**DocumentBuilder** bietet spezielle Methoden zum Einfügen aller Arten von Formularfeldern in das Dokument: [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/) und [InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Beachten Sie, dass, wenn Sie einen Namen für das Formularfeld angeben, automatisch ein Lesezeichen mit demselben Namen erstellt wird.
+**DocumentBuilder** bietet spezielle Methoden zum Einfügen aller Arten von Formularfeldern in das Dokument: [InsertTextInput](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertcheckbox/) und [InsertComboBox](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertcombobox/). Beachten Sie, dass, wenn Sie einen Namen für das Formularfeld angeben, automatisch ein Lesezeichen mit demselben Namen erstellt wird.
 
 Das folgende Codebeispiel zeigt, wie ein Combobox-Formularfeld in ein Dokument eingefügt wird:
 
@@ -51,7 +51,7 @@ Das folgende Codebeispiel zeigt, wie man ein Combobox-Formularfeld in ein Dokume
 
 ## Formularfelder abrufen
 
-Eine Sammlung von Formularfeldern wird durch die [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/)-Klasse dargestellt, die mithilfe der [FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/)-Eigenschaft abgerufen werden kann. Dies bedeutet, dass Sie Formularfelder erhalten können, die in jedem Dokumentknoten enthalten sind, einschließlich des Dokuments selbst.
+Eine Sammlung von Formularfeldern wird durch die [FormFieldCollection](https://reference.aspose.com/words/de/net/aspose.words.fields/formfieldcollection/)-Klasse dargestellt, die mithilfe der [FormFields](https://reference.aspose.com/words/de/net/aspose.words/range/formfields/)-Eigenschaft abgerufen werden kann. Dies bedeutet, dass Sie Formularfelder erhalten können, die in jedem Dokumentknoten enthalten sind, einschließlich des Dokuments selbst.
 
 {{% alert color="primary" %}}
 
@@ -77,7 +77,7 @@ Das folgende Codebeispiel zeigt, wie mit Formularfeldnamen, -typ und -ergebnis g
 
 ## Formularfelder formatieren
 
-Die [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/)-Eigenschaft von [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) ermöglicht die Anwendung der Schriftartformatierung auf das **FormField** als Ganzes, einschließlich des Feldwerts.
+Die [Font](https://reference.aspose.com/words/de/net/aspose.words/inline/font/)-Eigenschaft von [FormField](https://reference.aspose.com/words/de/net/aspose.words.fields/formfield/) ermöglicht die Anwendung der Schriftartformatierung auf das **FormField** als Ganzes, einschließlich des Feldwerts.
 
 Das folgende Codebeispiel zeigt, wie Sie die Schriftartformatierung auf das **FormField** anwenden:
 

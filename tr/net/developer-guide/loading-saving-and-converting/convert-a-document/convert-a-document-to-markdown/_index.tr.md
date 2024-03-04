@@ -12,7 +12,7 @@ url: /tr/net/convert-a-document-to-markdown/
 
 Markdown, metni işaretlemek ve onu HTML, PDF, DOCX veya diğer formatlara dönüştürmek için kullanılan popüler bir formattır. Birçok geliştirici belge yazmak, bloglarda yayınlanmak üzere makale hazırlamak, projeleri anlatmak vb. için bu formatı seçer.
 
-Markdown bu formatla çalışmanın kolay olması ve diğer formatlara kolayca dönüştürülebilmesi nedeniyle bu kadar popülerdir. Bu nedenle Aspose.Words, [desteklenen herhangi bir yükleme biçimi](https://reference.aspose.com/words/net/aspose.words/loadformat/)'deki bir belgeyi Markdown'e ve bunun tersini dönüştürme olanağı sağlar; Aspose.Words aynı zamanda en popüler [formatları kaydet](https://reference.aspose.com/words/net/aspose.words/saveformat/)'i de destekler.
+Markdown bu formatla çalışmanın kolay olması ve diğer formatlara kolayca dönüştürülebilmesi nedeniyle bu kadar popülerdir. Bu nedenle Aspose.Words, [desteklenen herhangi bir yükleme biçimi](https://reference.aspose.com/words/tr/net/aspose.words/loadformat/)'deki bir belgeyi Markdown'e ve bunun tersini dönüştürme olanağı sağlar; Aspose.Words aynı zamanda en popüler [formatları kaydet](https://reference.aspose.com/words/tr/net/aspose.words/saveformat/)'i de destekler.
 
 Artık Markdown formatıyla çalışma işlevselliği, belgelerle rahat ve rahat çalışmanız için size daha fazla fırsat sağlamak üzere aktif olarak geliştirilmektedir.
 
@@ -25,7 +25,7 @@ Aşağıdaki kod örneği DOCX'in Markdown'ye nasıl dönüştürüleceğini gö
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
 
-Bir belgeyi Markdown formatına dışa aktarırken görüntüleri kaydetmek istediğiniz fiziksel klasörü de belirtebilirsiniz. Varsayılan olarak Aspose.Words, görüntüleri belge dosyasının kaydedildiği klasöre kaydeder, ancak [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolder/) özelliğini kullanarak bu davranışı geçersiz kılabilirsiniz.
+Bir belgeyi Markdown formatına dışa aktarırken görüntüleri kaydetmek istediğiniz fiziksel klasörü de belirtebilirsiniz. Varsayılan olarak Aspose.Words, görüntüleri belge dosyasının kaydedildiği klasöre kaydeder, ancak [ImagesFolder](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/imagesfolder/) özelliğini kullanarak bu davranışı geçersiz kılabilirsiniz.
 
 **ImagesFolder** yoluyla bir klasör belirlemek, bir belgeyi bir akışa kaydettiğinizde ve Aspose.Words'de görüntüleri kaydetmek için bir klasör bulunmadığında da kullanışlıdır.
 
@@ -38,7 +38,7 @@ Aşağıdaki kod örneği, bir belgeyi bir akışa kaydederken görüntüler iç
 
 ## Markdown'e Dönüştürürken Kaydetme Seçeneklerini Belirleyin
 
-Aspose.Words, bir belgeyi Markdown biçiminde kaydederken gelişmiş seçeneklerle çalışmak için [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) sınıfını kullanma yeteneği sağlar. Çoğu özellik, diğer [Aspose.Words.Saving](https://reference.aspose.com/words/net/aspose.words.saving/) Ad Alanı sınıflarında zaten mevcut olan özellikleri devralıyor veya aşırı yüklüyor. Bunlara ek olarak Markdown formatına özel bir takım özellikler de eklenmiştir. Örneğin, tablolardaki içeriğin hizalamasını kontrol etmek için [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) özelliği veya bir belge Markdown formatına dönüştürüldüğünde görüntülerin nasıl kaydedildiğini kontrol etmek için [ImageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/) ve [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolder/).
+Aspose.Words, bir belgeyi Markdown biçiminde kaydederken gelişmiş seçeneklerle çalışmak için [MarkdownSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/) sınıfını kullanma yeteneği sağlar. Çoğu özellik, diğer [Aspose.Words.Saving](https://reference.aspose.com/words/tr/net/aspose.words.saving/) Ad Alanı sınıflarında zaten mevcut olan özellikleri devralıyor veya aşırı yüklüyor. Bunlara ek olarak Markdown formatına özel bir takım özellikler de eklenmiştir. Örneğin, tablolardaki içeriğin hizalamasını kontrol etmek için [TableContentAlignment](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) özelliği veya bir belge Markdown formatına dönüştürüldüğünde görüntülerin nasıl kaydedildiğini kontrol etmek için [ImageSavingCallback](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/) ve [ImagesFolder](https://reference.aspose.com/words/tr/net/aspose.words.saving/markdownsaveoptions/imagesfolder/).
 
 ## Desteklenen Markdown Özellikleri
 

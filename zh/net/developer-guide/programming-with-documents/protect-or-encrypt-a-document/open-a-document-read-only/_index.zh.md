@@ -21,11 +21,11 @@ url: /zh/net/open-a-document-read-only/
 
 ## 将文档设置为只读
 
-Aspose.Words 具有公共类 [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/)，用于指定文档的写保护设置。您不直接创建此类的实例。
+Aspose.Words 具有公共类 [WriteProtection](https://reference.aspose.com/words/zh/net/aspose.words.settings/writeprotection/)，用于指定文档的写保护设置。您不直接创建此类的实例。
 
 写保护显示作者是否建议以只读方式打开文档和/或需要密码才能修改文档。
 
-Aspose.Words 允许您使用 [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/) 属性和 [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/) 方法将文档设置为只读以限制编辑。
+Aspose.Words 允许您使用 [ReadOnlyRecommended](https://reference.aspose.com/words/zh/net/aspose.words.settings/writeprotection/readonlyrecommended/) 属性和 [SetPassword](https://reference.aspose.com/words/zh/net/aspose.words.settings/writeprotection/setpassword/) 方法将文档设置为只读以限制编辑。
 
 {{% alert color="primary" %}}
 
@@ -38,7 +38,7 @@ Aspose.Words 允许您使用 [ReadOnlyRecommended](https://reference.aspose.com/
 
 {{% alert color="primary" %}}
 
-用户还可以通过选择[ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/)作为**ReadOnly**来限制文档编辑，但这是另一个提供更高级保护功能的功能。 Microsoft Word中有这样的功能，分别在Aspose.Words中实现。
+用户还可以通过选择[ProtectionType](https://reference.aspose.com/words/zh/net/aspose.words/protectiontype/)作为**ReadOnly**来限制文档编辑，但这是另一个提供更高级保护功能的功能。 Microsoft Word中有这样的功能，分别在Aspose.Words中实现。
 
 **ProtectionType** 将在以下文章之一 - "限制文档编辑"中详细描述。
 
@@ -52,7 +52,7 @@ Aspose.Words 允许您使用 [ReadOnlyRecommended](https://reference.aspose.com/
 
 {{% /alert %}}
 
-如果需要检查文档是否具有限制其编辑的写保护密码，可以使用 [IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/) 属性。
+如果需要检查文档是否具有限制其编辑的写保护密码，可以使用 [IsWriteProtected](https://reference.aspose.com/words/zh/net/aspose.words.settings/writeprotection/iswriteprotected/) 属性。
 
 以下代码示例展示了如何将文档设为只读：
 

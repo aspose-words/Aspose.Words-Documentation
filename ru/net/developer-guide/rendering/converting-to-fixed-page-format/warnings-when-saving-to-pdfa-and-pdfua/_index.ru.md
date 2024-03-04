@@ -13,7 +13,7 @@ url: /ru/net/warnings-when-saving-to-pdfa-and-pdfua/
 
 Предупреждения выдаются при сохранении в один из форматов PDF/A или PDF/UA, и проблема нарушает соответствие требованиям. Например, предупреждение об отсутствующем заголовке документа будет выдано при сохранении в PDF/UA и не будет выдано при сохранении в PDF/A.
 
-Все предупреждения имеют номера [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.MinorFormattingLoss** и [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.PDF**. Вот список новых значений предупреждений "Описание":
+Все предупреждения имеют номера [WarningType](https://reference.aspose.com/words/ru/net/aspose.words/warningtype/)**.MinorFormattingLoss** и [WarningSource](https://reference.aspose.com/words/ru/net/aspose.words/warningsource/)**.PDF**. Вот список новых значений предупреждений "Описание":
 
 |  Описание значения предупреждения |  PDF/А |  PDF/UA |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

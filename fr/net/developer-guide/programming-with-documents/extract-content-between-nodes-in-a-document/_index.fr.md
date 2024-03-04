@@ -56,10 +56,10 @@ Pour extraire le contenu de votre document, vous devez appeler la méthode **Ext
 
 Cependant, si les nœuds marqueurs sont en ligne (un enfant d'un paragraphe), la situation devient alors plus complexe, car il est nécessaire de diviser le paragraphe au niveau du nœud en ligne, qu'il s'agisse d'une exécution, de champs de signet, etc. Le contenu des nœuds parents clonés n'est pas présent entre les marqueurs est supprimé. Ce processus est utilisé pour garantir que les nœuds en ligne conserveront toujours la mise en forme du paragraphe parent. La méthode exécutera également des vérifications sur les nœuds passés en paramètres et lèvera une exception si l'un des nœuds n'est pas valide. Les paramètres à passer à cette méthode sont:
 
-1. **StartNode** et **EndNode**. Les deux premiers paramètres sont les nœuds qui définissent respectivement où l'extraction du contenu doit commencer et se terminer. Ces nœuds peuvent être à la fois au niveau bloc ([Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)) ou au niveau en ligne (par exemple [Run](https://reference.aspose.com/words/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) etc.):
+1. **StartNode** et **EndNode**. Les deux premiers paramètres sont les nœuds qui définissent respectivement où l'extraction du contenu doit commencer et se terminer. Ces nœuds peuvent être à la fois au niveau bloc ([Paragraph](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/)) ou au niveau en ligne (par exemple [Run](https://reference.aspose.com/words/fr/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/fr/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/fr/net/aspose.words/bookmark/bookmarkstart/) etc.):
    1. Pour transmettre un champ, vous devez transmettre l'objet **FieldStart** correspondant
-   1. Pour transmettre les signets, les nœuds **BookmarkStart** et [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/) doivent être transmis
-   1. Pour transmettre des commentaires, les nœuds [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) et [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/) doivent être utilisés
+   1. Pour transmettre les signets, les nœuds **BookmarkStart** et [BookmarkEnd](https://reference.aspose.com/words/fr/net/aspose.words/bookmark/bookmarkend/) doivent être transmis
+   1. Pour transmettre des commentaires, les nœuds [CommentRangeStart](https://reference.aspose.com/words/fr/net/aspose.words/commentrangestart/) et [CommentRangeEnd](https://reference.aspose.com/words/fr/net/aspose.words/commentrangeend/) doivent être utilisés
 1. **IsInclusive**. Définit si les marqueurs sont inclus dans l'extraction ou non. Si cette option est définie sur false et que le même nœud ou des nœuds consécutifs sont transmis, alors une liste vide sera renvoyée:
    1. Si un nœud **FieldStart** est transmis, cette option définit si tout le champ doit être inclus ou exclu
    1. Si un nœud **BookmarkStart** ou **BookmarkEnd** est passé, cette option définit si le signet est inclus ou simplement le contenu entre la plage du signet.
@@ -77,7 +77,7 @@ L'exemple de code suivant montre comment prendre une liste de nœuds et les ins�
 
 Cela montre comment utiliser la méthode ci-dessus pour extraire le contenu entre des paragraphes spécifiques. Dans ce cas, nous souhaitons extraire le corps de la lettre trouvée dans la première moitié du document. Nous pouvons dire que cela se situe entre le 7ème et le 11ème paragraphe.
 
-Le code ci-dessous accomplit cette tâche. Les paragraphes appropriés sont extraits à l'aide de la méthode [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/) sur le document et en passant les indices spécifiés. Nous transmettons ensuite ces nœuds à la méthode **ExtractContent** et déclarons qu'ils doivent être inclus dans l'extraction. Cette méthode renverra le contenu copié entre ces nœuds qui sera ensuite inséré dans un nouveau document.
+Le code ci-dessous accomplit cette tâche. Les paragraphes appropriés sont extraits à l'aide de la méthode [GetChild](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/) sur le document et en passant les indices spécifiés. Nous transmettons ensuite ces nœuds à la méthode **ExtractContent** et déclarons qu'ils doivent être inclus dans l'extraction. Cette méthode renverra le contenu copié entre ces nœuds qui sera ensuite inséré dans un nouveau document.
 
 L'exemple de code suivant montre comment extraire le contenu entre des paragraphes spécifiques à l'aide de la méthode `ExtractContent` ci-dessus:
 
@@ -91,7 +91,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ## Extraire du contenu entre différents types de nœuds
 
-Nous pouvons extraire du contenu entre n’importe quelle combinaison de niveaux de bloc ou de nœuds en ligne. Dans ce scénario ci-dessous, nous extrairons le contenu entre le premier paragraphe et le tableau de la deuxième section inclusivement. Nous obtenons les nœuds marqueurs en appelant les méthodes [FirstParagraph](https://reference.aspose.com/words/net/aspose.words/story/firstparagraph/) et [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/getchild/) sur la deuxième section du document pour récupérer les nœuds **Paragraph** et **Table** appropriés. Pour une légère variation, dupliquons plutôt le contenu et insérons-le sous l'original.
+Nous pouvons extraire du contenu entre n’importe quelle combinaison de niveaux de bloc ou de nœuds en ligne. Dans ce scénario ci-dessous, nous extrairons le contenu entre le premier paragraphe et le tableau de la deuxième section inclusivement. Nous obtenons les nœuds marqueurs en appelant les méthodes [FirstParagraph](https://reference.aspose.com/words/fr/net/aspose.words/story/firstparagraph/) et [GetChild](https://reference.aspose.com/words/fr/net/aspose.words/compositenode/getchild/) sur la deuxième section du document pour récupérer les nœuds **Paragraph** et **Table** appropriés. Pour une légère variation, dupliquons plutôt le contenu et insérons-le sous l'original.
 
 L'exemple de code suivant montre comment extraire le contenu entre un paragraphe et un tableau à l'aide de la méthode **ExtractContent**:
 
@@ -123,7 +123,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ## Extraire le contenu entre des exécutions spécifiques
 
-Vous pouvez également extraire du contenu entre des nœuds en ligne tels qu'un [Run](https://reference.aspose.com/words/net/aspose.words/run/). Les **Runs** de différents paragraphes peuvent être transmis comme marqueurs. Le code ci-dessous montre comment extraire un texte spécifique entre le même nœud **Paragraph**.
+Vous pouvez également extraire du contenu entre des nœuds en ligne tels qu'un [Run](https://reference.aspose.com/words/fr/net/aspose.words/run/). Les **Runs** de différents paragraphes peuvent être transmis comme marqueurs. Le code ci-dessous montre comment extraire un texte spécifique entre le même nœud **Paragraph**.
 
 L'exemple de code suivant montre comment extraire le contenu entre des exécutions spécifiques du même paragraphe à l'aide de la méthode **ExtractContent**:
 
@@ -137,7 +137,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ## Extraire du contenu à l'aide d'un champ
 
-Pour utiliser un champ comme marqueur, il faut passer le nœud `FieldStart`. Le dernier paramètre de la méthode `ExtractContent` définira si l'intégralité du champ doit être inclus ou non. Extrayons le contenu entre le champ de fusion "FullName" et un paragraphe du document. Nous utilisons la méthode [MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/) de la classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Cela renverra le nœud **FieldStart** à partir du nom du champ de fusion qui lui a été transmis.
+Pour utiliser un champ comme marqueur, il faut passer le nœud `FieldStart`. Le dernier paramètre de la méthode `ExtractContent` définira si l'intégralité du champ doit être inclus ou non. Extrayons le contenu entre le champ de fusion "FullName" et un paragraphe du document. Nous utilisons la méthode [MoveToMergeField](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/movetomergefield/) de la classe [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/). Cela renverra le nœud **FieldStart** à partir du nom du champ de fusion qui lui a été transmis.
 
 Dans notre cas, définissons le dernier paramètre passé à la méthode **ExtractContent** sur false pour exclure le champ de l'extraction. Nous rendrons le contenu extrait au format PDF.
 
@@ -169,7 +169,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 Un commentaire est composé des nœuds CommentRangeStart, CommentRangeEnd et Comment. Tous ces nœuds sont en ligne. Les deux premiers nœuds encapsulent le contenu du document référencé par le commentaire, comme le montre la capture d'écran ci-dessous.
 
-Le nœud **Comment** lui-même est un [InlineStory](https://reference.aspose.com/words/net/aspose.words/inlinestory/) qui peut contenir des paragraphes et des séquences. Il représente le message du commentaire tel qu'il apparaît sous la forme d'une bulle de commentaire dans le volet de révision. Comme ce nœud est en ligne et descendant d'un corps, vous pouvez également extraire le contenu de ce message.
+Le nœud **Comment** lui-même est un [InlineStory](https://reference.aspose.com/words/fr/net/aspose.words/inlinestory/) qui peut contenir des paragraphes et des séquences. Il représente le message du commentaire tel qu'il apparaît sous la forme d'une bulle de commentaire dans le volet de révision. Comme ce nœud est en ligne et descendant d'un corps, vous pouvez également extraire le contenu de ce message.
 
 Le commentaire résume le titre, le premier paragraphe et le tableau de la deuxième section. Extrayons ce commentaire dans un nouveau document. L'option **IsInclusive** indique si le commentaire lui-même est conservé ou supprimé.
 
@@ -185,17 +185,17 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 ## Comment extraire du contenu à l'aide de DocumentVisitor
 
-Utilisez la classe [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) pour implémenter ce scénario d'utilisation. Cette classe correspond au modèle de conception Visiteur bien connu. Avec **DocumentVisitor** **,**, vous pouvez définir et exécuter des opérations personnalisées qui nécessitent une énumération dans l'arborescence du document.
+Utilisez la classe [DocumentVisitor](https://reference.aspose.com/words/fr/net/aspose.words/documentvisitor/) pour implémenter ce scénario d'utilisation. Cette classe correspond au modèle de conception Visiteur bien connu. Avec **DocumentVisitor** **,**, vous pouvez définir et exécuter des opérations personnalisées qui nécessitent une énumération dans l'arborescence du document.
 
-**DocumentVisitor** fournit un ensemble de méthodes **VisitXXX** qui sont invoquées lorsqu'un élément de document (nœud) particulier est rencontré. Par exemple, [VisitParagraphStart](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphstart/) est appelé lorsque le début d'un paragraphe de texte est trouvé et [VisitParagraphEnd](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphend/) est appelé lorsque la fin d'un paragraphe de texte est trouvée. Chaque méthode **DocumentVisitor.VisitXXX** accepte l'objet correspondant qu'elle rencontre afin que vous puissiez l'utiliser selon vos besoins (par exemple, récupérer le formatage), par exemple, **DocumentVisitor.VisitParagraphStart** et **DocumentVisitor.VisitParagraphEnd** acceptent un objet [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/).
+**DocumentVisitor** fournit un ensemble de méthodes **VisitXXX** qui sont invoquées lorsqu'un élément de document (nœud) particulier est rencontré. Par exemple, [VisitParagraphStart](https://reference.aspose.com/words/fr/net/aspose.words/documentvisitor/visitparagraphstart/) est appelé lorsque le début d'un paragraphe de texte est trouvé et [VisitParagraphEnd](https://reference.aspose.com/words/fr/net/aspose.words/documentvisitor/visitparagraphend/) est appelé lorsque la fin d'un paragraphe de texte est trouvée. Chaque méthode **DocumentVisitor.VisitXXX** accepte l'objet correspondant qu'elle rencontre afin que vous puissiez l'utiliser selon vos besoins (par exemple, récupérer le formatage), par exemple, **DocumentVisitor.VisitParagraphStart** et **DocumentVisitor.VisitParagraphEnd** acceptent un objet [Paragraph](https://reference.aspose.com/words/fr/net/aspose.words/paragraph/).
 
-Chaque méthode **DocumentVisitor.VisitXXX** renvoie une valeur [VisitorAction](https://reference.aspose.com/words/net/aspose.words/visitoraction/) qui contrôle l'énumération des nœuds. Vous pouvez demander soit de continuer l'énumération, soit d'ignorer le nœud actuel (mais de continuer l'énumération), soit d'arrêter l'énumération des nœuds.
+Chaque méthode **DocumentVisitor.VisitXXX** renvoie une valeur [VisitorAction](https://reference.aspose.com/words/fr/net/aspose.words/visitoraction/) qui contrôle l'énumération des nœuds. Vous pouvez demander soit de continuer l'énumération, soit d'ignorer le nœud actuel (mais de continuer l'énumération), soit d'arrêter l'énumération des nœuds.
 
 Voici les étapes à suivre pour déterminer et extraire par programme différentes parties d'un document:
 
 - Créer une classe dérivée de **DocumentVisitor**
 - Remplacer et fournir des implémentations pour tout ou partie des méthodes **DocumentVisitor.VisitXXX** pour effectuer certaines opérations personnalisées
-- Appelez [Node.Accept](https://reference.aspose.com/words/net/aspose.words/node/accept/) sur le nœud à partir duquel vous souhaitez démarrer l'énumération, par exemple, si vous souhaitez énumérer l'ensemble du document, utilisez [Document.Accept](https://reference.aspose.com/words/net/aspose.words/document/accept/)
+- Appelez [Node.Accept](https://reference.aspose.com/words/fr/net/aspose.words/node/accept/) sur le nœud à partir duquel vous souhaitez démarrer l'énumération, par exemple, si vous souhaitez énumérer l'ensemble du document, utilisez [Document.Accept](https://reference.aspose.com/words/fr/net/aspose.words/document/accept/)
 
 **DocumentVisitor** fournit des implémentations par défaut pour toutes les méthodes **DocumentVisitor.VisitXXX**. Cela facilite la création de nouveaux visiteurs de documents, car seules les méthodes requises pour le visiteur particulier doivent être remplacées. Il n'est pas nécessaire de remplacer toutes les méthodes du visiteur.
 
@@ -215,10 +215,10 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 Les façons de récupérer le texte du document sont les suivantes:
 
-- Utilisez [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) avec [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) pour enregistrer sous forme de texte brut dans un fichier ou un flux
-- Utilisez [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) et transmettez le paramètre **SaveFormat.Text**. En interne, cela appelle l'enregistrement en tant que texte dans un flux mémoire et renvoie la chaîne résultante
-- Utilisez [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) pour récupérer le texte avec tous les caractères de contrôle Microsoft Word, y compris les codes de champ
-- Implémenter un [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) personnalisé pour effectuer une extraction personnalisée
+- Utilisez [Document.Save](https://reference.aspose.com/words/fr/net/aspose.words/document/save/) avec [SaveFormat.Text](https://reference.aspose.com/words/fr/net/aspose.words/saveformat/) pour enregistrer sous forme de texte brut dans un fichier ou un flux
+- Utilisez [Node.ToString](https://reference.aspose.com/words/fr/net/aspose.words/node/tostring/) et transmettez le paramètre **SaveFormat.Text**. En interne, cela appelle l'enregistrement en tant que texte dans un flux mémoire et renvoie la chaîne résultante
+- Utilisez [Node.GetText](https://reference.aspose.com/words/fr/net/aspose.words/node/gettext/) pour récupérer le texte avec tous les caractères de contrôle Microsoft Word, y compris les codes de champ
+- Implémenter un [DocumentVisitor](https://reference.aspose.com/words/fr/net/aspose.words/documentvisitor/) personnalisé pour effectuer une extraction personnalisée
 
 ### Utiliser `Node.GetText` et `Node.ToString`
 

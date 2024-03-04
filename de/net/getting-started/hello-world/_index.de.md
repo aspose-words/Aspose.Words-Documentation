@@ -15,12 +15,12 @@ Die C#-Bibliothek "Aspose.Words for .NET" bietet Entwicklern direkten Zugriff zu
 
 Das Below code-Snippet folgt diesen Schritten:
 
-1. Erstellen Sie ein neues leeres [Document](https://reference.aspose.com/words/net/aspose.words/document)
-1. Initialisieren Sie eine [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)-Klasse
-1. Fügen Sie mit der einfachen [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/)-Methode Text in den Dokumentanfang ein
-1. Öffnen Sie ein vorhandenes [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) aus einer Datei. Erkennt automatisch das Dateiformat
-1. [Append](https://reference.aspose.com/words/net/aspose.words/document/appenddocument/)-Dokument "A" zum und des Dokuments "B"
-1. [Save](https://reference.aspose.com/words/net/aspose.words/document/save/)en Sie die Ausgabe als PDF
+1. Erstellen Sie ein neues leeres [Document](https://reference.aspose.com/words/de/net/aspose.words/document)
+1. Initialisieren Sie eine [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Klasse
+1. Fügen Sie mit der einfachen [Write](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/write/)-Methode Text in den Dokumentanfang ein
+1. Öffnen Sie ein vorhandenes [Document](https://reference.aspose.com/words/de/net/aspose.words/document/document/) aus einer Datei. Erkennt automatisch das Dateiformat
+1. [Append](https://reference.aspose.com/words/de/net/aspose.words/document/appenddocument/)-Dokument "A" zum und des Dokuments "B"
+1. [Save](https://reference.aspose.com/words/de/net/aspose.words/document/save/)en Sie die Ausgabe als PDF
 
 Der folgende Codeausschnitt ist ein "Hello, World!" Beispiel zur Veranschaulichung der Funktionsweise von "Aspose.Words for .NET" API:
 

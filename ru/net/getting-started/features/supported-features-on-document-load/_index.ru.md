@@ -19,9 +19,9 @@ Aspose.Words позволяет пользователям работать с �
 
 Полный список функций см. в справочнике API:
 
-- [параметры загрузки для всех форматов](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
-- [Варианты загрузки CHM](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/) для формата CHM
-- [параметры загрузки HTML](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/) для формата HTML
-- [Варианты загрузки PDF](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) для формата PDF
-- [Варианты загрузки RTF](https://reference.aspose.com/words/net/aspose.words.loading/rtfloadoptions/) для формата RTF
-- [Параметры загрузки TXT](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) для формата TXT
+- [параметры загрузки для всех форматов](https://reference.aspose.com/words/ru/net/aspose.words.loading/loadoptions/)
+- [Варианты загрузки CHM](https://reference.aspose.com/words/ru/net/aspose.words.loading/chmloadoptions/) для формата CHM
+- [параметры загрузки HTML](https://reference.aspose.com/words/ru/net/aspose.words.loading/htmlloadoptions/) для формата HTML
+- [Варианты загрузки PDF](https://reference.aspose.com/words/ru/net/aspose.words.loading/pdfloadoptions/) для формата PDF
+- [Варианты загрузки RTF](https://reference.aspose.com/words/ru/net/aspose.words.loading/rtfloadoptions/) для формата RTF
+- [Параметры загрузки TXT](https://reference.aspose.com/words/ru/net/aspose.words.loading/txtloadoptions/) для формата TXT

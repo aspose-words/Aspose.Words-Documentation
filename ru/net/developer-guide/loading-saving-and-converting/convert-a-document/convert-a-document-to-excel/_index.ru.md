@@ -9,11 +9,11 @@ weight: 15
 url: /ru/net/convert-a-document-to-excel/
 ---
 
-Преобразование документов из одного формата в другой — флагманская функция Aspose.Words. Вы можете конвертировать документы любого доступного формата [формат загрузки](https://reference.aspose.com/words/net/aspose.words/loadformat/), а также в формат XLSX.
+Преобразование документов из одного формата в другой — флагманская функция Aspose.Words. Вы можете конвертировать документы любого доступного формата [формат загрузки](https://reference.aspose.com/words/ru/net/aspose.words/loadformat/), а также в формат XLSX.
 
 ## Преобразование документа в XLSX
 
-Преобразование документа в XLSX — довольно сложный процесс. Чтобы сохранить документ в формате XLSX с использованием Aspose.Words, используйте класс [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) и новый элемент `Xlsx` в перечислении [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/). Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words, в XLSX.
+Преобразование документа в XLSX — довольно сложный процесс. Чтобы сохранить документ в формате XLSX с использованием Aspose.Words, используйте класс [XlsxSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsaveoptions/) и новый элемент `Xlsx` в перечислении [SaveFormat](https://reference.aspose.com/words/ru/net/aspose.words/saveformat/). Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words, в XLSX.
 
 В следующем примере кода показано, как сохранить PDF в XLSX:
 
@@ -24,7 +24,7 @@ doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
 
 {{% alert color="primary" %}}
 
-Иногда необходимо указать дополнительные параметры, которые могут повлиять на результат сохранения документа в формате XLSX. Эти параметры можно указать с помощью класса [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/), содержащего свойства, определяющие способ отображения вывода XLSX.
+Иногда необходимо указать дополнительные параметры, которые могут повлиять на результат сохранения документа в формате XLSX. Эти параметры можно указать с помощью класса [XlsxSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsaveoptions/), содержащего свойства, определяющие способ отображения вывода XLSX.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "BaseConversions.FindReplaceXlsx.xlsx");
 
 ## Укажите уровень сжатия при сохранении в XLSX
 
-Вы также можете указать уровень сжатия при сохранении, используя свойство [CompressionLevel](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/).
+Вы также можете указать уровень сжатия при сохранении, используя свойство [CompressionLevel](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/).
 
 В следующем примере кода показано, как указать уровень сжатия при сохранении в формате XLSX:
 

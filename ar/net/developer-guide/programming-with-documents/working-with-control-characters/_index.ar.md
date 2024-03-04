@@ -13,7 +13,7 @@ url: /ar/net/working-with-control-characters/
 
 في بعض الأحيان قد تحتاج إلى إضافة أو إزالة أحرف من/إلى النص. على سبيل المثال، عند الحصول على نص برمجيًا من المستند، يحتفظ Aspose.Words بمعظم أحرف التحكم، لذلك إذا كنت بحاجة إلى العمل مع هذا النص، فمن المحتمل أن تقوم بإزالة الأحرف أو استبدالها.
 
-تعد فئة [ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar/) مستودعًا للثوابت التي تمثل أحرف التحكم التي غالبًا ما تتم مواجهتها في المستندات. يوفر إصداري char وstring لنفس الثوابت. على سبيل المثال، السلسلة [LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreak/) وchar [LineBreakChar](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreakchar) لها نفس القيمة.
+تعد فئة [ControlChar](https://reference.aspose.com/words/ar/net/aspose.words/controlchar/) مستودعًا للثوابت التي تمثل أحرف التحكم التي غالبًا ما تتم مواجهتها في المستندات. يوفر إصداري char وstring لنفس الثوابت. على سبيل المثال، السلسلة [LineBreak](https://reference.aspose.com/words/ar/net/aspose.words/controlchar/linebreak/) وchar [LineBreakChar](https://reference.aspose.com/words/ar/net/aspose.words/controlchar/linebreakchar) لها نفس القيمة.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخدام أحرف التحكم:
 

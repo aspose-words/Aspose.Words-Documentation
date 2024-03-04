@@ -20,7 +20,7 @@ Beachten Sie, dass die Schriftart im Dokument eine Entität darstellt, z. B. Fam
 
 ## Probleme mit der Manipulation von Schriftarten und der Leistung
 
-Alle verfügbaren Schriftartenmanipulationsmechanismen sind in der [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/)-Klasse enthalten. Diese Klasse ist für das Abrufen von Schriftarten innerhalb definierter Schriftartquellen sowie für den Schriftartersetzungsprozess verantwortlich, wie unten beschrieben.
+Alle verfügbaren Schriftartenmanipulationsmechanismen sind in der [FontSettings](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontsettings/)-Klasse enthalten. Diese Klasse ist für das Abrufen von Schriftarten innerhalb definierter Schriftartquellen sowie für den Schriftartersetzungsprozess verantwortlich, wie unten beschrieben.
 
 Schriftarten werden in mehreren Schritten analysiert:
 
@@ -55,7 +55,7 @@ Ein Text in einem Dokument kann mit verschiedenen Schriftarten formatiert werden
 Es gibt jedoch Situationen, in denen die genaue Schriftart nicht gefunden werden kann und Aspose.Words sie stattdessen durch eine ähnliche Schriftart ersetzen muss. Aspose.Words wählt die Schriftart nach folgendem Verfahren aus:
 1. Aspose.Words versucht unter den verfügbaren Schriftartquellen eine Schriftart mit einem genauen Schriftartnamen zu finden.
 1. Aspose.Words versucht, die benötigte Schriftart unter den im Originaldokument eingebetteten Schriftarten zu finden. Einige Dokumentformate wie DOCX können eingebettete Schriftarten enthalten.
-1. Wenn Aspose.Words die erforderliche Schriftart mit der genauen Namensübereinstimmung und der für diese Schriftart definierten [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/)-Eigenschaft nicht finden kann, findet Aspose.Words die mit **AltName** definierte Schriftart aus der [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/)-Klasse, die die Schriftartinformationen angibt.
+1. Wenn Aspose.Words die erforderliche Schriftart mit der genauen Namensübereinstimmung und der für diese Schriftart definierten [AltName](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontinfo/altname/)-Eigenschaft nicht finden kann, findet Aspose.Words die mit **AltName** definierte Schriftart aus der [FontInfo](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontinfo/)-Klasse, die die Schriftartinformationen angibt.
 1. Wenn Aspose.Words die definierte Schriftart nicht finden kann und **AltName** nicht ebenfalls definiert ist, werden die Schriftartenersetzungsregeln nacheinander wie unten beschrieben angewendet (wenn die entsprechende Ersetzung gefunden wird, stoppt der Schriftartenersetzungsprozess und die nächster Schritt wird nicht ausgeführt):
    1. Zunächst versucht Aspose.Words, den Schriftartnamen zu verarbeiten, um die Ersetzung zu erhalten, insbesondere versucht es, Suffixe mit den Trennzeichen "-" und "" zu entfernen.<br>
       Wenn diese Ersetzungsregel eintritt, wird die Schriftart "&lt;OriginalFont&gt;" nicht gefunden. Stattdessen wird die Schriftart "&lt;SubstitutionFont&gt;" verwendet. Grund: Ersetzung des Schriftartnamens." Warnung erscheint.<br>
@@ -98,7 +98,7 @@ Es gibt jedoch Situationen, in denen die genaue Schriftart nicht gefunden werden
             fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
       {{< /highlight >}}
       Wenn **FontInfo** für die fehlende Schriftart nicht verfügbar ist, wird der Vorgang abgebrochen.<br>
-   1. Die **DefaultFont**-Ersetzungsregel wird angewendet, wenn auch die `FontInfo`-Ersetzung fehlgeschlagen ist. Auch diese Regel ist standardmäßig aktiviert. Gemäß dieser Regel versucht Aspose.Words, die in der [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/)-Eigenschaft angegebene Standardschriftart zu verwenden. Wenn der Benutzer keine eigene Standardschriftart ausgewählt hat, wird "Times New Roman" als Standardschriftart verwendet. Diese Regel kann wie unten gezeigt deaktiviert werden:<br>
+   1. Die **DefaultFont**-Ersetzungsregel wird angewendet, wenn auch die `FontInfo`-Ersetzung fehlgeschlagen ist. Auch diese Regel ist standardmäßig aktiviert. Gemäß dieser Regel versucht Aspose.Words, die in der [DefaultFontName](https://reference.aspose.com/words/de/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/)-Eigenschaft angegebene Standardschriftart zu verwenden. Wenn der Benutzer keine eigene Standardschriftart ausgewählt hat, wird "Times New Roman" als Standardschriftart verwendet. Diese Regel kann wie unten gezeigt deaktiviert werden:<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ Wenn **FontInfo** verfügbar ist, löst die *FontInfo-Ersetzungsregel* immer die
 
 ## So erkennen Sie, dass die Schriftart ersetzt wurde
 
-Manchmal ist unklar, warum sich das Dokumentlayout geändert hat oder warum eine Schriftart nicht wie erwartet aussieht. In solchen Fällen helfen die von der [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/)-Schnittstelle implementierten Warnmeldungen zur Schriftartersetzung. Sie haben den [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/)-Warnungstyp und das Standardbeschreibungstextformat "Schriftart".<OriginalFont> ' wurde nicht gefunden. Mit '<SubstitutionFont> '-Schriftart stattdessen. Grund:<Reason> ", mit folgenden Gründen:
+Manchmal ist unklar, warum sich das Dokumentlayout geändert hat oder warum eine Schriftart nicht wie erwartet aussieht. In solchen Fällen helfen die von der [IWarningCallback](https://reference.aspose.com/words/de/net/aspose.words/iwarningcallback/)-Schnittstelle implementierten Warnmeldungen zur Schriftartersetzung. Sie haben den [FontSubstitution](https://reference.aspose.com/words/de/net/aspose.words/warningtype/)-Warnungstyp und das Standardbeschreibungstextformat "Schriftart".<OriginalFont> ' wurde nicht gefunden. Mit '<SubstitutionFont> '-Schriftart stattdessen. Grund:<Reason> ", mit folgenden Gründen:
 
-- "Alternativer Name aus Dokument" – zur Ersetzung durch [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
+- "Alternativer Name aus Dokument" – zur Ersetzung durch [AltName](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontinfo/properties/altname)
 - "fontconfig substitution" – für die Ersetzung durch die Schriftkonfigurationsregel
 - "Tabellensubstitution" – für die Substitution nach Tabellenregel
 - "Schriftart-Info-Ersetzung" – für die Ersetzung durch die Schrift-Info-Regel
@@ -133,7 +133,7 @@ Manchmal ist unklar, warum sich das Dokumentlayout geändert hat oder warum eine
 
 In Aspose.Words werden zwei verschiedene Mechanismen verwendet: Schriftartersetzung und Schriftarten-Fallback. Die Schriftartersetzung wird verwendet, wenn die im Dokument angegebene Schriftart nicht unter den Schriftartquellen gefunden werden konnte, wie in den obigen Abschnitten beschrieben. Der Font-Fallback-Mechanismus wird verwendet, wenn die Schriftart aufgelöst wird, aber kein bestimmtes Zeichen enthält. In diesem Fall versucht Aspose.Words, eine der Fallback-Schriftarten für das Zeichen zu verwenden.
 
-Es gibt eine [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/)-Methode, die automatisch die Fallback-Einstellungen erstellt, indem sie verfügbare Schriftarten scannt. Da diese Methode möglicherweise zu einer nicht optimalen Fallback-Einstellung führt, können Sie das Schriftart-Fallback-Verhalten mithilfe der Eigenschaften der [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/)-Klasse steuern. Diese Klasse gibt Einstellungen des Font-Fallback-Mechanismus an. Sie können eine Instanz der **FontFallbackSettings**-Klasse wie folgt erhalten:
+Es gibt eine [BuildAutomatic](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/)-Methode, die automatisch die Fallback-Einstellungen erstellt, indem sie verfügbare Schriftarten scannt. Da diese Methode möglicherweise zu einer nicht optimalen Fallback-Einstellung führt, können Sie das Schriftart-Fallback-Verhalten mithilfe der Eigenschaften der [FontFallbackSettings](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontfallbacksettings/)-Klasse steuern. Diese Klasse gibt Einstellungen des Font-Fallback-Mechanismus an. Sie können eine Instanz der **FontFallbackSettings**-Klasse wie folgt erhalten:
 
 **.NET**
 
@@ -195,7 +195,7 @@ Im obigen Codebeispiel wird die folgende XML-Datei verwendet:
 
 ## Vordefinierte Schriftart-FallBack-Einstellungen für Google Noto-Schriftarten
 
-Aspose.Words bietet vordefinierte Schriftart-Fallback-Einstellungen für Google Noto-Schriftarten. Hierbei handelt es sich um kostenlose Schriftarten, die unter der SIL Open Font License lizenziert sind und von Google Noto Fonts heruntergeladen werden können. Die **FontFallbackSettings**-Klasse stellt eine [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)-Methode bereit. Es lädt vordefinierte Fallback-Einstellungen, die Google Noto-Schriftarten verwenden, wie im folgenden Codebeispiel gezeigt:
+Aspose.Words bietet vordefinierte Schriftart-Fallback-Einstellungen für Google Noto-Schriftarten. Hierbei handelt es sich um kostenlose Schriftarten, die unter der SIL Open Font License lizenziert sind und von Google Noto Fonts heruntergeladen werden können. Die **FontFallbackSettings**-Klasse stellt eine [LoadNotoFallbackSettings](https://reference.aspose.com/words/de/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)-Methode bereit. Es lädt vordefinierte Fallback-Einstellungen, die Google Noto-Schriftarten verwenden, wie im folgenden Codebeispiel gezeigt:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

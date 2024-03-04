@@ -17,11 +17,11 @@ En Aspose.Words, un rango es una "ventana plana" en un modelo del documento que 
 
 Si ha trabajado con Microsoft Word Automation, probablemente sepa que una de las principales herramientas para examinar y modificar el contenido de un documento es el objeto **Range**. **Range** es como una "ventana" al contenido y formato del documento.
 
-Aspose.Words también tiene la clase [Range](https://reference.aspose.com/words/net/aspose.words/range/) y está diseñado para verse y actuar de manera similar a **Range** en Microsoft Word. Aunque **Range** no puede cubrir una parte arbitraria de un documento y no tiene **Start** ni **End**, puede acceder al rango cubierto por cualquier nodo de documento, incluido el propio [Document](https://reference.aspose.com/words/net/aspose.words/document/). En otras palabras, cada nodo tiene su propio rango. El objeto **Range** le permite acceder y modificar texto, marcadores y campos de formulario dentro del rango.
+Aspose.Words también tiene la clase [Range](https://reference.aspose.com/words/es/net/aspose.words/range/) y está diseñado para verse y actuar de manera similar a **Range** en Microsoft Word. Aunque **Range** no puede cubrir una parte arbitraria de un documento y no tiene **Start** ni **End**, puede acceder al rango cubierto por cualquier nodo de documento, incluido el propio [Document](https://reference.aspose.com/words/es/net/aspose.words/document/). En otras palabras, cada nodo tiene su propio rango. El objeto **Range** le permite acceder y modificar texto, marcadores y campos de formulario dentro del rango.
 
 ## Recuperar texto sin formato
 
-Utilice la propiedad [Text](https://reference.aspose.com/words/net/aspose.words/range/text/) para recuperar texto sin formato y sin formato del rango.
+Utilice la propiedad [Text](https://reference.aspose.com/words/es/net/aspose.words/range/text/) para recuperar texto sin formato y sin formato del rango.
 
 El siguiente ejemplo de código muestra cómo obtener un texto sin formato y sin formato de un rango:
 
@@ -35,7 +35,7 @@ Puede descargar el archivo de muestra de este ejemplo desde [Aspose.Words GitHub
 
 ## Eliminar texto
 
-Range permite eliminar todos los caracteres del rango llamando a [Delete](https://reference.aspose.com/words/net/aspose.words/range/delete/).
+Range permite eliminar todos los caracteres del rango llamando a [Delete](https://reference.aspose.com/words/es/net/aspose.words/range/delete/).
 
 El siguiente ejemplo de código muestra cómo eliminar todos los caracteres de un rango:
 

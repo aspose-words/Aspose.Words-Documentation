@@ -9,11 +9,11 @@ weight: 15
 url: /ar/net/convert-a-document-to-excel/
 ---
 
-يعد تحويل المستندات من تنسيق إلى آخر الميزة الرئيسية لـ Aspose.Words. يمكنك تحويل المستندات بأي تنسيق [تنسيق التحميل](https://reference.aspose.com/words/net/aspose.words/loadformat/) متاح أيضًا إلى تنسيق XLSX.
+يعد تحويل المستندات من تنسيق إلى آخر الميزة الرئيسية لـ Aspose.Words. يمكنك تحويل المستندات بأي تنسيق [تنسيق التحميل](https://reference.aspose.com/words/ar/net/aspose.words/loadformat/) متاح أيضًا إلى تنسيق XLSX.
 
 ## تحويل مستند إلى XLSX
 
-يعد تحويل مستند إلى XLSX عملية معقدة إلى حد ما. لحفظ مستندك بتنسيق XLSX باستخدام Aspose.Words، استخدم فئة [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) وعنصر `Xlsx` الجديد في تعداد [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/). كما ذكرنا أعلاه، يمكنك حفظ المستند بأي تنسيق تحميل يدعمه Aspose.Words إلى XLSX.
+يعد تحويل مستند إلى XLSX عملية معقدة إلى حد ما. لحفظ مستندك بتنسيق XLSX باستخدام Aspose.Words، استخدم فئة [XlsxSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/xlsxsaveoptions/) وعنصر `Xlsx` الجديد في تعداد [SaveFormat](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/). كما ذكرنا أعلاه، يمكنك حفظ المستند بأي تنسيق تحميل يدعمه Aspose.Words إلى XLSX.
 
 يوضح مثال التعليمات البرمجية التالي كيفية حفظ PDF إلى XLSX:
 
@@ -24,7 +24,7 @@ doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
 
 {{% alert color="primary" %}}
 
-في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ مستند بتنسيق XLSX. يمكن تحديد هذه الخيارات باستخدام فئة [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/)، التي تحتوي على خصائص تحدد كيفية عرض مخرجات XLSX.
+في بعض الأحيان يكون من الضروري تحديد خيارات إضافية، والتي يمكن أن تؤثر على نتيجة حفظ مستند بتنسيق XLSX. يمكن تحديد هذه الخيارات باستخدام فئة [XlsxSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/xlsxsaveoptions/)، التي تحتوي على خصائص تحدد كيفية عرض مخرجات XLSX.
 
 {{% /alert %}}
 
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "BaseConversions.FindReplaceXlsx.xlsx");
 
 ## حدد مستوى الضغط عند الحفظ في XLSX
 
-يمكنك أيضًا تحديد مستوى الضغط عند الحفظ باستخدام خاصية [CompressionLevel](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/).
+يمكنك أيضًا تحديد مستوى الضغط عند الحفظ باستخدام خاصية [CompressionLevel](https://reference.aspose.com/words/ar/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديد مستوى الضغط عند الحفظ بتنسيق XLSX:
 

@@ -19,7 +19,7 @@ Spesso lavorerai con documenti contenenti un sommario (TOC). Utilizzando Aspose.
 
 ## Inserisci il sommario a livello di codice
 
-È possibile inserire un campo `TOC` (sommario) nel documento nella posizione corrente chiamando il metodo [InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/).
+È possibile inserire un campo `TOC` (sommario) nel documento nella posizione corrente chiamando il metodo [InsertTableOfContents](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/inserttableofcontents/).
 
 Un sommario in un documento di Word può essere creato in diversi modi e formattato utilizzando una varietà di opzioni. Il campo passa al metodo per controllare il modo in cui la tabella viene creata e visualizzata nel documento.
 
@@ -43,8 +43,8 @@ Senza i metodi utilizzati nell'esempio, quando apri il documento di output, trov
 
 Aspose.Words ti consente di aggiornare completamente un `TOC` con solo poche righe di codice. Questo può essere fatto per popolare un `TOC` appena inserito o per aggiornare un `TOC` esistente dopo che sono state apportate modifiche al documento. Per aggiornare i campi `TOC` nel documento è necessario utilizzare i due metodi seguenti:
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/it/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/it/net/aspose.words/document/updatepagelayout/)
 
 Tieni presente che questi due metodi di aggiornamento devono essere richiamati in quest'ordine. Se invertito, il sommario verrà popolato ma non verranno visualizzati i numeri di pagina. È possibile aggiornare un numero qualsiasi di TOC diversi. Questi metodi aggiorneranno automaticamente tutti i sommari trovati nel documento.
 
@@ -142,7 +142,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## Inserisci campi TC
 
-È possibile inserire un nuovo campo TC nella posizione corrente del [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) chiamando il metodo [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) e specificando il nome del campo come "TC" insieme a eventuali opzioni necessarie.
+È possibile inserire un nuovo campo TC nella posizione corrente del [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/) chiamando il metodo [InsertField](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertfield/) e specificando il nome del campo come "TC" insieme a eventuali opzioni necessarie.
 
 L'esempio di codice seguente mostra come inserire un campo `TC` nel documento utilizzando **DocumentBuilder**:
 
@@ -156,7 +156,7 @@ Il seguente esempio di codice mostra come trovare e inserire un campo `TC` nel t
 
 ## Modifica il sommario
 
-La formattazione delle voci nel `TOC` non utilizza gli stili originali delle voci contrassegnate, invece ogni livello è formattato utilizzando uno stile `TOC` equivalente. Ad esempio il primo livello nel `TOC` è formattato con lo stile **TOC1**, il secondo livello formattato con lo stile **TOC2** e così via. Ciò significa che per cambiare l'aspetto del `TOC` è necessario modificare questi stili. In Aspose.Words questi stili sono rappresentati dal `StyleIdentifier.TOC1` indipendente dalle impostazioni locali fino a `StyleIdentifier.TOC9` e possono essere recuperati dalla raccolta [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) utilizzando questi identificatori.
+La formattazione delle voci nel `TOC` non utilizza gli stili originali delle voci contrassegnate, invece ogni livello è formattato utilizzando uno stile `TOC` equivalente. Ad esempio il primo livello nel `TOC` è formattato con lo stile **TOC1**, il secondo livello formattato con lo stile **TOC2** e così via. Ciò significa che per cambiare l'aspetto del `TOC` è necessario modificare questi stili. In Aspose.Words questi stili sono rappresentati dal `StyleIdentifier.TOC1` indipendente dalle impostazioni locali fino a `StyleIdentifier.TOC9` e possono essere recuperati dalla raccolta [Styles](https://reference.aspose.com/words/it/net/aspose.words/documentbase/styles/) utilizzando questi identificatori.
 
 Una volta recuperato lo stile appropriato del documento, è possibile modificare la formattazione di questo stile. Qualsiasi modifica a questi stili si rifletterà automaticamente nei sommari del documento.
 
@@ -168,7 +168,7 @@ Il seguente esempio di codice modifica una proprietà di formattazione utilizzat
 
 Puoi anche controllare la formattazione dei separatori utilizzati tra ogni voce e numero di pagina. Per impostazione predefinita si tratta di una linea tratteggiata che si estende lungo la numerazione delle pagine utilizzando un carattere di tabulazione e un punto di tabulazione destro allineato vicino al margine destro.
 
-Utilizzando la classe [Style](https://reference.aspose.com/words/net/aspose.words/style/) recuperata per il particolare livello `TOC` che desideri modificare, puoi anche modificare il modo in cui questi appaiono nel documento. Per modificare il modo in cui appare, è necessario innanzitutto richiamare [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/) per recuperare la formattazione del paragrafo per lo stile. Da questo è possibile recuperare i punti di tabulazione chiamando [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) e modificare il punto di tabulazione appropriato. Utilizzando questa stessa tecnica la scheda stessa può essere spostata o rimossa tutta insieme.
+Utilizzando la classe [Style](https://reference.aspose.com/words/it/net/aspose.words/style/) recuperata per il particolare livello `TOC` che desideri modificare, puoi anche modificare il modo in cui questi appaiono nel documento. Per modificare il modo in cui appare, è necessario innanzitutto richiamare [ParagraphFormat](https://reference.aspose.com/words/it/net/aspose.words/style/paragraphformat/) per recuperare la formattazione del paragrafo per lo stile. Da questo è possibile recuperare i punti di tabulazione chiamando [TabStops](https://reference.aspose.com/words/it/net/aspose.words/paragraphformat/tabstops/) e modificare il punto di tabulazione appropriato. Utilizzando questa stessa tecnica la scheda stessa può essere spostata o rimossa tutta insieme.
 
 Il seguente esempio di codice mostra come modificare la posizione della tabulazione destra nei paragrafi correlati a `TOC`:
 
@@ -176,9 +176,9 @@ Il seguente esempio di codice mostra come modificare la posizione della tabulazi
 
 ## Rimuovere il sommario dal documento
 
-Un sommario può essere rimosso dal documento rimuovendo tutti i nodi trovati tra il nodo `FieldStart` e FieldEnd del campo `TOC`. Il codice seguente lo dimostra. La rimozione del campo `TOC` è più semplice di un campo normale in quanto non teniamo traccia dei campi nidificati. Controlliamo invece che il nodo [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) sia di tipo [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), il che significa che abbiamo incontrato la fine del sommario corrente. Questa tecnica può essere utilizzata in questo caso senza preoccuparsi dei campi nidificati poiché possiamo supporre che qualsiasi documento formato correttamente non avrà un campo `TOC` completamente nidificato all'interno di un altro campo `TOC`.
+Un sommario può essere rimosso dal documento rimuovendo tutti i nodi trovati tra il nodo `FieldStart` e FieldEnd del campo `TOC`. Il codice seguente lo dimostra. La rimozione del campo `TOC` è più semplice di un campo normale in quanto non teniamo traccia dei campi nidificati. Controlliamo invece che il nodo [FieldEnd](https://reference.aspose.com/words/it/net/aspose.words.fields/fieldend/) sia di tipo [FieldType.FieldTOC](https://reference.aspose.com/words/it/net/aspose.words.fields/fieldtype/), il che significa che abbiamo incontrato la fine del sommario corrente. Questa tecnica può essere utilizzata in questo caso senza preoccuparsi dei campi nidificati poiché possiamo supporre che qualsiasi documento formato correttamente non avrà un campo `TOC` completamente nidificato all'interno di un altro campo `TOC`.
 
-Innanzitutto vengono raccolti e archiviati i nodi [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) di ciascun `TOC`. Il `TOC` specificato viene quindi enumerato in modo che tutti i nodi all'interno del campo vengano visitati e archiviati. I nodi vengono quindi rimossi dal documento.
+Innanzitutto vengono raccolti e archiviati i nodi [FieldStart](https://reference.aspose.com/words/it/net/aspose.words.fields/fieldstart/) di ciascun `TOC`. Il `TOC` specificato viene quindi enumerato in modo che tutti i nodi all'interno del campo vengano visitati e archiviati. I nodi vengono quindi rimossi dal documento.
 
 Il seguente esempio di codice mostra come rimuovere un `TOC` specificato da un documento:
 

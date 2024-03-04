@@ -15,7 +15,7 @@ In diesem Artikel besprechen wir das Einfügen eines OLE-Objekts und das Festleg
 
 ## OLE-Objekt einfügen
 
-Wenn Sie ein OLE-Objekt wünschen, rufen Sie die [InsertOleObject](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobject/)-Methode auf und übergeben Sie ihr explizit **ProgId** mit anderen Parametern.
+Wenn Sie ein OLE-Objekt wünschen, rufen Sie die [InsertOleObject](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertoleobject/)-Methode auf und übergeben Sie ihr explizit **ProgId** mit anderen Parametern.
 
 Das folgende Codebeispiel zeigt, wie man ein OLE-Objekt in ein Dokument einfügt:
 
@@ -35,7 +35,7 @@ Das folgende Codebeispiel zeigt, wie der Dateiname, die Erweiterung und der Anze
 
 Benutzer können mithilfe verschiedener Eigenschaften und Methoden der `OleFormat`-Klasse auf OLE-Objektdaten zugreifen. Beispielsweise ist es möglich, die Rohdaten des `OLE`-Objekts oder den Pfad und Namen einer Quelldatei für das verknüpfte OLE-Objekt abzurufen.
 
-Das folgende Codebeispiel zeigt, wie man OLE-Objekt-Rohdaten mithilfe der [GetRawData](https://reference.aspose.com/words/net/aspose.words.drawing/oleformat/getrawdata/)-Methode erhält:
+Das folgende Codebeispiel zeigt, wie man OLE-Objekt-Rohdaten mithilfe der [GetRawData](https://reference.aspose.com/words/de/net/aspose.words.drawing/oleformat/getrawdata/)-Methode erhält:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.cs" >}}
 
@@ -43,7 +43,7 @@ Das folgende Codebeispiel zeigt, wie man OLE-Objekt-Rohdaten mithilfe der [GetRa
 
 OLE-Objekte können auch als Bilder in Dokumente eingefügt werden.
 
-Das folgende Codebeispiel zeigt, wie man ein OLE-Objekt als Symbol einfügt. Zu diesem Zweck stellt die [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)-Klasse die [InsertOleObjectAsIcon](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobjectasicon/)-Methode bereit:
+Das folgende Codebeispiel zeigt, wie man ein OLE-Objekt als Symbol einfügt. Zu diesem Zweck stellt die [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Klasse die [InsertOleObjectAsIcon](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertoleobjectasicon/)-Methode bereit:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
 
@@ -59,9 +59,9 @@ Für die korrekte Anzeige muss die maximale Größe des Symbols 32 x 32 betragen
 
 ## Online Video einfügen
 
-Online Videos können über die Registerkarte *"Einfügen" &gt; "Online Video"* in ein Word-Dokument eingefügt werden. Sie können ein Online Video an der aktuellen Position in ein Dokument einfügen, indem Sie die [InsertOnlineVideo](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertonlinevideo/)-Methode aufrufen.
+Online Videos können über die Registerkarte *"Einfügen" &gt; "Online Video"* in ein Word-Dokument eingefügt werden. Sie können ein Online Video an der aktuellen Position in ein Dokument einfügen, indem Sie die [InsertOnlineVideo](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertonlinevideo/)-Methode aufrufen.
 
-Die [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)-Klasse führt vier Überladungen dieser Methode ein. Der erste funktioniert mit den gängigsten Videoressourcen und verwendet den `URL` des Videos als Parameter. Die erste Überladung unterstützt beispielsweise das einfache Einfügen von Online Videos aus [Youtube](https://www.youtube.com/)- und [Vimeo](https://vimeo.com/)-Ressourcen.
+Die [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/)-Klasse führt vier Überladungen dieser Methode ein. Der erste funktioniert mit den gängigsten Videoressourcen und verwendet den `URL` des Videos als Parameter. Die erste Überladung unterstützt beispielsweise das einfache Einfügen von Online Videos aus [Youtube](https://www.youtube.com/)- und [Vimeo](https://vimeo.com/)-Ressourcen.
 
 Das folgende Codebeispiel zeigt, wie man ein Online Video aus *Vimeo* in ein Dokument einfügt:
 

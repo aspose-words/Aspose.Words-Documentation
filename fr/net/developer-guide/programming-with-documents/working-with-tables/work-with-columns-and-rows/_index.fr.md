@@ -13,7 +13,7 @@ Pour mieux contrôler le fonctionnement des tableaux, découvrez comment manipul
 
 ## Trouver l'index des éléments de table {#find-the-index-of-table-elements}
 
-Les colonnes, lignes et cellules sont gérées en accédant au nœud du document sélectionné par son index. Trouver l'index de n'importe quel nœud implique de rassembler tous les nœuds enfants du type d'élément à partir du nœud parent, puis d'utiliser la méthode [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) pour trouver l'index du nœud souhaité dans la collection.
+Les colonnes, lignes et cellules sont gérées en accédant au nœud du document sélectionné par son index. Trouver l'index de n'importe quel nœud implique de rassembler tous les nœuds enfants du type d'élément à partir du nœud parent, puis d'utiliser la méthode [IndexOf](https://reference.aspose.com/words/fr/net/aspose.words/nodecollection/indexof/) pour trouver l'index du nœud souhaité dans la collection.
 
 ### Rechercher l'index d'une table dans un document {#find-the-index-of-table-in-a-document}
 
@@ -41,7 +41,7 @@ L'exemple de code suivant montre comment récupérer l'index d'une cellule dans 
 
 ## Travailler avec des colonnes {#work-with-columns}
 
-Dans le Aspose.Words Document Object Model (DOM), le nœud [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) est constitué de nœuds [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) puis de nœuds [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/). Ainsi, dans le modèle objet `Document` de Aspose.Words, comme dans les documents Word, il n'y a pas de notion de colonne.
+Dans le Aspose.Words Document Object Model (DOM), le nœud [Table](https://reference.aspose.com/words/fr/net/aspose.words.tables/table/) est constitué de nœuds [Row](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/) puis de nœuds [Cell](https://reference.aspose.com/words/fr/net/aspose.words.tables/cell/). Ainsi, dans le modèle objet `Document` de Aspose.Words, comme dans les documents Word, il n'y a pas de notion de colonne.
 
 De par leur conception, les lignes du tableau dans Microsoft Word et Aspose.Words sont complètement indépendantes et les propriétés et opérations de base sont contenues uniquement dans les lignes et les cellules du tableau. Cela donne aux tables la possibilité d'avoir des attributs intéressants:
 
@@ -65,7 +65,7 @@ L'exemple de code suivant montre comment supprimer une colonne d'une table dans 
 
 ## Spécifier les lignes comme lignes d'en-tête
 
-Vous pouvez choisir de répéter la première ligne du tableau comme ligne d'en-tête uniquement sur la première page ou sur chaque page si le tableau est divisé en plusieurs. Dans Aspose.Words, vous pouvez répéter la ligne d'en-tête sur chaque page à l'aide de la propriété [HeadingFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/headingformat/).
+Vous pouvez choisir de répéter la première ligne du tableau comme ligne d'en-tête uniquement sur la première page ou sur chaque page si le tableau est divisé en plusieurs. Dans Aspose.Words, vous pouvez répéter la ligne d'en-tête sur chaque page à l'aide de la propriété [HeadingFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowformat/headingformat/).
 
 Vous pouvez également marquer plusieurs lignes d'en-tête si ces lignes se trouvent les unes après les autres au début du tableau. Pour ce faire, vous devez appliquer les propriétés **HeadingFormat** à ces lignes.
 
@@ -92,7 +92,7 @@ Par défaut, les propriétés ci-dessus sont désactivées.
 
 ### Empêcher une ligne de se diviser entre les pages {#keep-a-row-from-breaking-across-pages}
 
-Cela implique d'empêcher la répartition du contenu à l'intérieur des cellules d'une ligne sur une page. Dans Microsoft Word, cela se trouve sous Propriétés du tableau sous l'option "Autoriser la séparation des lignes sur plusieurs pages". En Aspose.Words, cela se trouve sous l'objet [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) d'un [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) en tant que propriété [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
+Cela implique d'empêcher la répartition du contenu à l'intérieur des cellules d'une ligne sur une page. Dans Microsoft Word, cela se trouve sous Propriétés du tableau sous l'option "Autoriser la séparation des lignes sur plusieurs pages". En Aspose.Words, cela se trouve sous l'objet [RowFormat](https://reference.aspose.com/words/fr/net/aspose.words.tables/rowformat/) d'un [Row](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/) en tant que propriété [RowFormat.AllowBreakAcrossPages](https://reference.aspose.com/words/fr/net/aspose.words.tables/row/format/properties/allowbreakacrosspages).
 
 L'exemple de code suivant montre comment désactiver la séparation des lignes sur plusieurs pages pour chaque ligne d'un tableau:
 
@@ -108,7 +108,7 @@ Vous pouvez télécharger le fichier exemple de cet exemple à partir de [Aspose
 
 Pour empêcher le tableau de se diviser en plusieurs pages, nous devons spécifier que nous souhaitons que le contenu contenu dans le tableau reste ensemble.
 
-Pour ce faire, Aspose.Words utilise une méthode qui permet aux utilisateurs de sélectionner un tableau et d'activer le paramètre [KeepWithNext](https://reference.aspose.com/words/net/aspose.words/paragraphformat/keepwithnext/) en true pour chaque paragraphe dans les cellules du tableau. L'exception est le dernier paragraphe du tableau, qui doit être défini sur false.
+Pour ce faire, Aspose.Words utilise une méthode qui permet aux utilisateurs de sélectionner un tableau et d'activer le paramètre [KeepWithNext](https://reference.aspose.com/words/fr/net/aspose.words/paragraphformat/keepwithnext/) en true pour chaque paragraphe dans les cellules du tableau. L'exception est le dernier paragraphe du tableau, qui doit être défini sur false.
 
 L'exemple de code suivant montre comment définir une table pour qu'elle reste ensemble sur la même page:
 

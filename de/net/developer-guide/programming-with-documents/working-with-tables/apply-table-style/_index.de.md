@@ -19,7 +19,7 @@ Aspose.Words unterstützt das Anwenden eines Tabellenstils auf eine Tabelle und 
 
 ## Erstellen Sie einen Tabellenstil
 
-Der Benutzer kann einen neuen Stil erstellen und ihn zur Stilsammlung hinzufügen. Die [Add](https://reference.aspose.com/words/net/aspose.words/stylecollection/add/)-Methode wird zum Erstellen eines neuen Tabellenstils verwendet.
+Der Benutzer kann einen neuen Stil erstellen und ihn zur Stilsammlung hinzufügen. Die [Add](https://reference.aspose.com/words/de/net/aspose.words/stylecollection/add/)-Methode wird zum Erstellen eines neuen Tabellenstils verwendet.
 
 Das folgende Codebeispiel zeigt, wie ein neuer benutzerdefinierter Tabellenstil erstellt wird:
 
@@ -37,11 +37,11 @@ Das folgende Codebeispiel zeigt, wie ein Stil aus einem Dokument in ein anderes 
 
 ## Wenden Sie einen vorhandenen Tabellenstil an
 
-Aspose.Words stellt einen von der [Style](https://reference.aspose.com/words/net/aspose.words/style/)-Klasse geerbten [TableStyle](https://reference.aspose.com/words/net/aspose.words/tablestyle/) bereit. **TableStyle** erleichtert dem Benutzer die Anwendung verschiedener Stiloptionen wie Schattierung, Auffüllung, Einrückung, [CellSpacing](https://reference.aspose.com/words/net/aspose.words/tablestyle/cellspacing/) und [Font](https://reference.aspose.com/words/net/aspose.words/style/font/) usw.
+Aspose.Words stellt einen von der [Style](https://reference.aspose.com/words/de/net/aspose.words/style/)-Klasse geerbten [TableStyle](https://reference.aspose.com/words/de/net/aspose.words/tablestyle/) bereit. **TableStyle** erleichtert dem Benutzer die Anwendung verschiedener Stiloptionen wie Schattierung, Auffüllung, Einrückung, [CellSpacing](https://reference.aspose.com/words/de/net/aspose.words/tablestyle/cellspacing/) und [Font](https://reference.aspose.com/words/de/net/aspose.words/style/font/) usw.
 
-Darüber hinaus stellt Aspose.Words die [StyleCollection](https://reference.aspose.com/words/net/aspose.words/stylecollection/)-Klasse und einige Eigenschaften der `Table`-Klasse bereit, um anzugeben, mit welchem Tabellenstil wir arbeiten: [Style](https://reference.aspose.com/words/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/net/aspose.words.tables/table/stylename/) und [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/).
+Darüber hinaus stellt Aspose.Words die [StyleCollection](https://reference.aspose.com/words/de/net/aspose.words/stylecollection/)-Klasse und einige Eigenschaften der `Table`-Klasse bereit, um anzugeben, mit welchem Tabellenstil wir arbeiten: [Style](https://reference.aspose.com/words/de/net/aspose.words.tables/table/style/), [StyleIdentifier](https://reference.aspose.com/words/de/net/aspose.words.tables/table/styleidentifier/), [StyleName](https://reference.aspose.com/words/de/net/aspose.words.tables/table/stylename/) und [StyleOptions](https://reference.aspose.com/words/de/net/aspose.words.tables/table/styleoptions/).
 
-Aspose.Words bietet außerdem eine [ConditionalStyle](https://reference.aspose.com/words/net/aspose.words/conditionalstyle/)-Klasse, die eine spezielle Formatierung darstellt, die auf einen bestimmten Bereich einer Tabelle mit einem zugewiesenen Tabellenstil angewendet wird, sowie [ConditionalStyleCollection](https://reference.aspose.com/words/net/aspose.words/conditionalstylecollection/), das eine Sammlung von **ConditionalStyle**-Objekten darstellt. Diese Sammlung enthält einen permanenten Satz von Elementen, die ein Element für jeden Wert des [ConditionalStyleType](https://reference.aspose.com/words/net/aspose.words/conditionalstyletype/)-Aufzählungstyps darstellen. Die **ConditionalStyleType**-Enumeration definiert alle möglichen Tabellenbereiche, für die eine bedingte Formatierung in einem Tabellenstil definiert werden kann.
+Aspose.Words bietet außerdem eine [ConditionalStyle](https://reference.aspose.com/words/de/net/aspose.words/conditionalstyle/)-Klasse, die eine spezielle Formatierung darstellt, die auf einen bestimmten Bereich einer Tabelle mit einem zugewiesenen Tabellenstil angewendet wird, sowie [ConditionalStyleCollection](https://reference.aspose.com/words/de/net/aspose.words/conditionalstylecollection/), das eine Sammlung von **ConditionalStyle**-Objekten darstellt. Diese Sammlung enthält einen permanenten Satz von Elementen, die ein Element für jeden Wert des [ConditionalStyleType](https://reference.aspose.com/words/de/net/aspose.words/conditionalstyletype/)-Aufzählungstyps darstellen. Die **ConditionalStyleType**-Enumeration definiert alle möglichen Tabellenbereiche, für die eine bedingte Formatierung in einem Tabellenstil definiert werden kann.
 
 In diesem Fall kann eine bedingte Formatierung für alle möglichen Tabellenbereiche definiert werden, die unter dem Aufzählungstyp ConditionalStyleType definiert sind.
 
@@ -49,7 +49,7 @@ Das folgende Codebeispiel zeigt, wie man eine bedingte Formatierung für die Kop
 
 {{< gist "aspose-words-gists" "93b92a7e6f2f4bbfd9177dd7fcecbd8c" "define-conditional-formatting.cs" >}}
 
-Sie können auch auswählen, auf welche Tabellenteile Stile angewendet werden sollen, z. B. erste Spalte, letzte Spalte, gebänderte Zeilen. Sie werden in der [TableStyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/tablestyleoptions/)-Enumeration aufgeführt und über die [StyleOptions](https://reference.aspose.com/words/net/aspose.words.tables/table/styleoptions/)-Eigenschaft angewendet. Die **TableStyleOptions**-Enumeration ermöglicht eine bitweise Kombination dieser Funktionen.
+Sie können auch auswählen, auf welche Tabellenteile Stile angewendet werden sollen, z. B. erste Spalte, letzte Spalte, gebänderte Zeilen. Sie werden in der [TableStyleOptions](https://reference.aspose.com/words/de/net/aspose.words.tables/tablestyleoptions/)-Enumeration aufgeführt und über die [StyleOptions](https://reference.aspose.com/words/de/net/aspose.words.tables/table/styleoptions/)-Eigenschaft angewendet. Die **TableStyleOptions**-Enumeration ermöglicht eine bitweise Kombination dieser Funktionen.
 
 Das folgende Codebeispiel zeigt, wie eine neue Tabelle mit angewendetem Tabellenstil erstellt wird:
 
@@ -61,7 +61,7 @@ Die folgenden Bilder zeigen eine Darstellung des **Table Styles** in Microsoft W
 
 ## Übernehmen Sie die Formatierung aus dem Tabellenstil und wenden Sie sie als direkte Formatierung an
 
-Aspose.Words bietet auch die [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/net/aspose.words/document/expandtablestylestodirectformatting/)-Methode, um die in einem Tabellenstil gefundene Formatierung zu übernehmen und sie als direkte Formatierung auf die Zeilen und Zellen der Tabelle zu erweitern. Versuchen Sie, Formatierung mit Tabellenstil und Zellenstil zu kombinieren.
+Aspose.Words bietet auch die [ExpandTableStylesToDirectFormatting](https://reference.aspose.com/words/de/net/aspose.words/document/expandtablestylestodirectformatting/)-Methode, um die in einem Tabellenstil gefundene Formatierung zu übernehmen und sie als direkte Formatierung auf die Zeilen und Zellen der Tabelle zu erweitern. Versuchen Sie, Formatierung mit Tabellenstil und Zellenstil zu kombinieren.
 
 {{% alert color="primary" %}}
 

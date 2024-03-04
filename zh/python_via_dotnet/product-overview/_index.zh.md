@@ -41,7 +41,7 @@ Aspose.Words for Python via .NET 功能可分为四个主要区域。
 
 轻松可靠地转换文档的能力是 Aspose.Words 的主要功能之一。
 
-带有 [支持的文档格式](/words/zh/python-net/supported-document-formats/) 的综合 [加载、保存和转换](/words/zh/python-net/loading-saving-and-converting/) 允许用户将文档从 [一种流行的格式](https://reference.aspose.com/words/net/aspose.words/loadformat/) 转换为 [another](https://reference.aspose.com/words/net/aspose.words/saveformat/)，例如，从 DOCX 转换为 PDF、JPEG 或 Markdown，或从 PDF 转换为各种 Word 格式。
+带有 [支持的文档格式](/words/zh/python-net/supported-document-formats/) 的综合 [加载、保存和转换](/words/zh/python-net/loading-saving-and-converting/) 允许用户将文档从 [一种流行的格式](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 转换为 [another](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/)，例如，从 DOCX 转换为 PDF、JPEG 或 Markdown，或从 PDF 转换为各种 Word 格式。
 
 #### Document Object Model (DOM)
 

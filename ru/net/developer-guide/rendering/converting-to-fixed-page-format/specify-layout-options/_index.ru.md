@@ -9,16 +9,16 @@ weight: 10
 url: /ru/net/specify-layout-options/
 ---
 
-Aspose.Words позволяет создавать выходные документы с различными макетами в зависимости от параметров, указанных в свойствах класса [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/). Некоторые из этих свойств напоминают некоторые пункты меню пользовательского интерфейса Microsoft Word — они будут описаны в этой статье.
+Aspose.Words позволяет создавать выходные документы с различными макетами в зависимости от параметров, указанных в свойствах класса [LayoutOptions](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/). Некоторые из этих свойств напоминают некоторые пункты меню пользовательского интерфейса Microsoft Word — они будут описаны в этой статье.
 
-Полный список параметров, таких как [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) для расчета номеров страниц в непрерывном разделе, который перезапускает нумерацию страниц, или [IgnorePrinterMetrics](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/) для игнорирования параметра совместимости "Использовать метрики принтера для компоновки документа", см. на странице класса [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/).
+Полный список параметров, таких как [ContinuousSectionPageNumberingRestart](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) для расчета номеров страниц в непрерывном разделе, который перезапускает нумерацию страниц, или [IgnorePrinterMetrics](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/) для игнорирования параметра совместимости "Использовать метрики принтера для компоновки документа", см. на странице класса [LayoutOptions](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/).
 
 ## Форматирование знаков
 
 Aspose.Words позволяет управлять знаками форматирования, используя следующие свойства:
 
-- [ShowHiddenText](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showhiddentext/) – значение `Boolean`, которое определяет, отображается ли скрытый текст.
-- [ShowParagraphMarks](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/showparagraphmarks/) – значение `Boolean`, которое определяет, отображаются ли символы знака абзаца.
+- [ShowHiddenText](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/showhiddentext/) – значение `Boolean`, которое определяет, отображается ли скрытый текст.
+- [ShowParagraphMarks](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/showparagraphmarks/) – значение `Boolean`, которое определяет, отображаются ли символы знака абзаца.
 
 Страница, изображенная в примере ниже, содержит три абзаца. Второй скрыт. Пользователь может изменить параметр **ShowHiddenText**, чтобы отобразить этот скрытый текст на странице. Кроме того, каждый абзац имеет знак абзаца в конце. Знак абзаца обычно не виден, если для его отображения не установлено свойство **ShowParagraphMarks**.
 
@@ -30,15 +30,15 @@ Aspose.Words позволяет управлять знаками формати
 
 ## Комментарии и изменения
 
-С помощью Aspose.Words вы можете отображать комментарии к документу, которые будут выглядеть так же, как в Microsoft Word. Чтобы указать, отображаются ли комментарии, используйте свойство [CommentDisplayMode](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/commentdisplaymode/).
+С помощью Aspose.Words вы можете отображать комментарии к документу, которые будут выглядеть так же, как в Microsoft Word. Чтобы указать, отображаются ли комментарии, используйте свойство [CommentDisplayMode](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/commentdisplaymode/).
 
 В версии Microsoft Word этот параметр задается с помощью диалогового окна "Параметры отслеживания изменений", как показано ниже:
 
 ![specify-layout-options_3](/words/net/specify-layout-options/specify-layout-options-3.jpg)
 
-Кроме того, Aspose.Words позволяет отображать изменения в документе. Используйте свойство [RevisionOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/revisionoptions/) класса **LayoutOptions**, чтобы определить, будут ли отображаться версии документа. Для управления их внешним видом (цветом выделения ревизий, цветом панели ревизий и т.д.) используйте класс [RevisonOptions](https://reference.aspose.com/words/net/aspose.words.layout/revisionoptions/).
+Кроме того, Aspose.Words позволяет отображать изменения в документе. Используйте свойство [RevisionOptions](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/revisionoptions/) класса **LayoutOptions**, чтобы определить, будут ли отображаться версии документа. Для управления их внешним видом (цветом выделения ревизий, цветом панели ревизий и т.д.) используйте класс [RevisonOptions](https://reference.aspose.com/words/ru/net/aspose.words.layout/revisionoptions/).
 
-Вы также можете отображать изменения в виде комментариев к содержимому. Для этого используйте свойство [CommentDisplayMode](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/commentdisplaymode/) и значение [ShowInBalloons](https://reference.aspose.com/words/net/aspose.words.layout/commentdisplaymode/).
+Вы также можете отображать изменения в виде комментариев к содержимому. Для этого используйте свойство [CommentDisplayMode](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/commentdisplaymode/) и значение [ShowInBalloons](https://reference.aspose.com/words/ru/net/aspose.words.layout/commentdisplaymode/).
 
 В следующем примере кода показано, как настроить отображение редакций:
 
@@ -50,7 +50,7 @@ Aspose.Words позволяет управлять знаками формати
 
 ## Text Shaper для расширенного рендеринга типографики
 
-Свойство [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/) позволяет настроить функцию формирования текста, а также поддержку функций `OpenType`.
+Свойство [TextShaperFactory](https://reference.aspose.com/words/ru/net/aspose.words.layout/layoutoptions/textshaperfactory/) позволяет настроить функцию формирования текста, а также поддержку функций `OpenType`.
 
 Формирование текста используют для обработки документов в следующих основных случаях:
 

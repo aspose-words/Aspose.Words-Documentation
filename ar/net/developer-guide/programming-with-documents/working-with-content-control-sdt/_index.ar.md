@@ -67,7 +67,7 @@ url: /ar/net/working-with-content-control-sdt/
 
 ## XMLMapping لنطاق علامات المستند المنظم
 
-يمكنك الحصول على تعيين نطاق علامات المستند المنظم هذا إلى بيانات XML في جزء XML مخصص من المستند الحالي باستخدام **خاصية StructuredDocumentTagRangeStart.XmlMapping**. ومع ذلك، يمكن استخدام أسلوب [SetMapping](https://reference.aspose.com/words/net/aspose.words.markup/xmlmapping/setmapping/) لتعيين نطاق علامات مستند منظم إلى بيانات XML.
+يمكنك الحصول على تعيين نطاق علامات المستند المنظم هذا إلى بيانات XML في جزء XML مخصص من المستند الحالي باستخدام **خاصية StructuredDocumentTagRangeStart.XmlMapping**. ومع ذلك، يمكن استخدام أسلوب [SetMapping](https://reference.aspose.com/words/ar/net/aspose.words.markup/xmlmapping/setmapping/) لتعيين نطاق علامات مستند منظم إلى بيانات XML.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين تعيين XML:
 
@@ -108,7 +108,7 @@ url: /ar/net/working-with-content-control-sdt/
 
 ## العمل مع تكرار التحكم في محتوى القسم
 
-يسمح التحكم في محتوى القسم المكرر بتكرار المحتوى الموجود بداخله. باستخدام Aspose.Words، يمكن إنشاء عقد علامة المستند المنظمة للقسم المتكرر وأنواع عناصر القسم المتكرر ولهذا الغرض، توفر [نوع التعداد SdtType](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/) خاصية **RepeatingSectionItem**.
+يسمح التحكم في محتوى القسم المكرر بتكرار المحتوى الموجود بداخله. باستخدام Aspose.Words، يمكن إنشاء عقد علامة المستند المنظمة للقسم المتكرر وأنواع عناصر القسم المتكرر ولهذا الغرض، توفر [نوع التعداد SdtType](https://reference.aspose.com/words/ar/net/aspose.words.markup/sdttype/) خاصية **RepeatingSectionItem**.
 
 يوضح مثال التعليمات البرمجية التالي كيفية ربط عنصر تحكم محتوى مقطع متكرر بجدول.
 

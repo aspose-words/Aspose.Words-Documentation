@@ -50,7 +50,7 @@ url: /ar/net/web-applications-security-when-loading-external-resources/
 
 ## حلول القضايا الأمنية
 
-لحل المشكلات الموضحة أعلاه ولتحسين أمان تطبيقات الويب، يمكنك التحكم في تحميل الموارد الخارجية أو تعطيله باستخدام [IResourceLoadingCallback](https://reference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback/).
+لحل المشكلات الموضحة أعلاه ولتحسين أمان تطبيقات الويب، يمكنك التحكم في تحميل الموارد الخارجية أو تعطيله باستخدام [IResourceLoadingCallback](https://reference.aspose.com/words/ar/net/aspose.words.loading/iresourceloadingcallback/).
 
 يوضح مثال الكود التالي كيفية تعطيل تحميل الصور الخارجية:
 

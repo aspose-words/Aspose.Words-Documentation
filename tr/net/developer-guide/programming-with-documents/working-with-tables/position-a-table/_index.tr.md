@@ -20,7 +20,7 @@ Bu yazımızda Aspose.Words’in konumlandırma için hangi seçenekleri sunduğ
 
 ## Satır İçi Tablo Konumunu Belirtin
 
-Aspose.Words API ve [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/) özelliğini kullanarak satır içi tablonun konumunu ayarlayabilirsiniz. Böylece tablonun hizalamasını belge sayfasına göre ayarlayabilirsiniz.
+Aspose.Words API ve [Alignment](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/alignment/) özelliğini kullanarak satır içi tablonun konumunu ayarlayabilirsiniz. Böylece tablonun hizalamasını belge sayfasına göre ayarlayabilirsiniz.
 
 Aşağıdaki kod örneği, satır içi tablonun konumunun nasıl ayarlanacağını gösterir:
 
@@ -28,9 +28,9 @@ Aşağıdaki kod örneği, satır içi tablonun konumunun nasıl ayarlanacağın
 
 ## Yüzen Tablo Hizalamasını Alın
 
-Tablo metni kaydırma **Around** olarak ayarlanmışsa, [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) ve [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) özelliklerini kullanarak tablonun yatay ve dikey hizalamasını sağlayabilirsiniz.
+Tablo metni kaydırma **Around** olarak ayarlanmışsa, [RelativeHorizontalAlignment](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/relativehorizontalalignment/) ve [RelativeVerticalAlignment](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/relativeverticalalignment/) özelliklerini kullanarak tablonun yatay ve dikey hizalamasını sağlayabilirsiniz.
 
-**diğer metin sarma türleri** ile [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/) özelliğini kullanarak satır içi tablo hizalaması elde edebilirsiniz.
+**diğer metin sarma türleri** ile [Alignment](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/alignment/) özelliğini kullanarak satır içi tablo hizalaması elde edebilirsiniz.
 
 Aşağıdaki kod örneği, tablonun hizalamasının nasıl alınacağını gösterir:
 
@@ -40,13 +40,13 @@ Aşağıdaki kod örneği, tablonun hizalamasının nasıl alınacağını göst
 
  Kayan tablonun konumu aşağıdaki özellikler kullanılarak belirlenir:
 
-* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – kayan bir tablonun yatay konumunu hesaplamak için bir nesne
-* [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – kayan bir tablonun dikey konumunu hesaplamak için bir nesne
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – mutlak yatay kayan tabla konumu
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – mutlak dikey kayan tabla konumu
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – diğer kayan nesnelerle örtüşmeyi etkinleştirme/devre dışı bırakma seçeneği
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – kayan tablonun göreceli yatay hizalaması.
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) – kayan tablonun göreceli dikey hizalaması.
+* [HorizontalAnchor](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/horizontalanchor/) – kayan bir tablonun yatay konumunu hesaplamak için bir nesne
+* [VerticalAnchor](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/verticalanchor/) – kayan bir tablonun dikey konumunu hesaplamak için bir nesne
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/absolutehorizontaldistance/) – mutlak yatay kayan tabla konumu
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/absoluteverticaldistance/) – mutlak dikey kayan tabla konumu
+* [AllowOverlap](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/allowoverlap/) – diğer kayan nesnelerle örtüşmeyi etkinleştirme/devre dışı bırakma seçeneği
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/relativehorizontalalignment/) – kayan tablonun göreceli yatay hizalaması.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/relativeverticalalignment/) – kayan tablonun göreceli dikey hizalaması.
 
 Aşağıdaki kod örneği, kayan tablonun konumunun nasıl alınacağını gösterir:
 
@@ -66,10 +66,10 @@ Aşağıdaki kod örneği, kayan tablonun konumunun nasıl ayarlanacağını gö
 
 Aspose.Words ayrıca tablolar ve çevresindeki metinler arasındaki mesafeleri bulma fırsatı da sağlar:
 
-- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) – yukarıdan olan mesafenin değeri
-- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/) – algı mesafesinin değeri
-- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) – sağdaki mesafe değeri
-- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) – soldaki mesafe değeri
+- [DistanceTop](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/distancetop/) – yukarıdan olan mesafenin değeri
+- [DistanceBottom](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/distancebottom/) – algı mesafesinin değeri
+- [DistanceRight](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/distanceright/) – sağdaki mesafe değeri
+- [DistanceLeft](https://reference.aspose.com/words/tr/net/aspose.words.tables/table/distanceleft/) – soldaki mesafe değeri
 
 Aşağıdaki kod örneği, bir tablo ile onu çevreleyen metin arasındaki mesafenin nasıl alınacağını gösterir:
 

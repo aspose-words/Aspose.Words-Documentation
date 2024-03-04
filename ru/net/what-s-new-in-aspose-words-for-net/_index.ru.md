@@ -21,7 +21,7 @@ Aspose.Words версии 24.2 расширен Charts API, управление
 
 #### Управление цветом обводки <sup>24.1</sup>
 
-Класс [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) был расширен набором новых общедоступных свойств, связанных с управлением цветами обводки: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) и [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) и [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
+Класс [Stroke](https://reference.aspose.com/words/ru/net/aspose.words.drawing/stroke/) был расширен набором новых общедоступных свойств, связанных с управлением цветами обводки: [ForeThemeColor](https://reference.aspose.com/words/ru/net/aspose.words.drawing/stroke/forethemecolor/) и [BackThemeColor](https://reference.aspose.com/words/ru/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/ru/net/aspose.words.drawing/stroke/foretintandshade/) и [BackTintAndShade](https://reference.aspose.com/words/ru/net/aspose.words.drawing/stroke/backtintandshade/).
 
 #### Расширение DrawingML Charts API <sup>24.2</sup>
 
@@ -31,7 +31,7 @@ Aspose.Words версии 24.2 расширен Charts API, управление
 
 #### Укажите SvgSaveOptions во время рендеринга <sup>24.2</sup>
 
-Возможность указывать [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) во время рендеринга была добавлена с помощью методов [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) и [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/).
+Возможность указывать [SvgSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/svgsaveoptions/) во время рендеринга была добавлена с помощью методов [ShapeRenderer](https://reference.aspose.com/words/ru/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/ru/net/aspose.words.rendering/noderendererbase/save/) и [OfficeMathRenderer](https://reference.aspose.com/words/ru/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/ru/net/aspose.words.rendering/noderendererbase/save/).
 
 #### Сохранять пустые строки при загрузке файлов Markdown <sup>24.2</sup>
 
@@ -39,11 +39,11 @@ Aspose.Words версии 24.2 расширен Charts API, управление
 
 ### Другой
 
-* Возможность изменять текст элемента управления OLE `TextBox` появилась путем добавления нового свойства [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) в новый класс [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
-* Открытый доступ к библиографическим источникам API был реализован посредством добавления нового пространства имен [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также посредством добавления нового свойства [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) в класс [Document](https://reference.aspose.com/words/net/aspose.words/document/). <sup>24.1</sup>
+* Возможность изменять текст элемента управления OLE `TextBox` появилась путем добавления нового свойства [Text](https://reference.aspose.com/words/ru/net/aspose.words.drawing.ole/textboxcontrol/text/) в новый класс [TextBoxControl](https://reference.aspose.com/words/ru/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
+* Открытый доступ к библиографическим источникам API был реализован посредством добавления нового пространства имен [Aspose.Words.Bibliography](https://reference.aspose.com/words/ru/net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также посредством добавления нового свойства [Bibliography](https://reference.aspose.com/words/ru/net/aspose.words/document/bibliography/) в класс [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/). <sup>24.1</sup>
 * Был предоставлен API для ограничения доступа к членам типа с использованием синтаксиса шаблона для механизма отчетов LINQ. <sup>24.1</sup>
-* В класс [Style](https://reference.aspose.com/words/net/aspose.words/style/) добавлены новые общедоступные свойства [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) и [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) для расширенного управления стилями. <sup>24.2</sup>
-* Функциональность получения фактического текста справочной метки для сносок и концевых сносок была расширена за счет свойства [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) и метода [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
+* В класс [Style](https://reference.aspose.com/words/ru/net/aspose.words/style/) добавлены новые общедоступные свойства [Priority](https://reference.aspose.com/words/ru/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/ru/net/aspose.words/style/unhidewhenused/) и [SemiHidden](https://reference.aspose.com/words/ru/net/aspose.words/style/semihidden/) для расширенного управления стилями. <sup>24.2</sup>
+* Функциональность получения фактического текста справочной метки для сносок и концевых сносок была расширена за счет свойства [ActualReferenceMark](https://reference.aspose.com/words/ru/net/aspose.words.notes/footnote/actualreferencemark/) и метода [UpdateActualReferenceMarks](https://reference.aspose.com/words/ru/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 * Включена совместимость с диаграммами `Word 2016` для механизма отчетов `LINQ`. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
@@ -68,54 +68,54 @@ Aspose.Words В версии 23.12 представлены новые свой�
 
 #### Настройка названий осей в диаграммах DrawingML <sup>23.9</sup>
 
-Возможность настраивать заголовки осей в диаграммах DrawingML появилась благодаря реализации нового общедоступного класса [ChartAxisTitle](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxistitle/) и свойства [Title](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/title/).
+Возможность настраивать заголовки осей в диаграммах DrawingML появилась благодаря реализации нового общедоступного класса [ChartAxisTitle](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartaxistitle/) и свойства [Title](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartaxis/title/).
 
 #### Определение вертикального положения шрифтов внутри абзаца <sup>23.9</sup>
 
-Теперь можно определить вертикальное положение шрифтов внутри абзаца, используя новое общедоступное свойство [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/paragraphformat/baselinealignment/) и новое перечисление [BaselineAlignment](https://reference.aspose.com/words/net/aspose.words/baselinealignment/).
+Теперь можно определить вертикальное положение шрифтов внутри абзаца, используя новое общедоступное свойство [BaselineAlignment](https://reference.aspose.com/words/ru/net/aspose.words/paragraphformat/baselinealignment/) и новое перечисление [BaselineAlignment](https://reference.aspose.com/words/ru/net/aspose.words/baselinealignment/).
 
 #### Управление цветом переднего плана <sup>23.10</sup>
 
-Возможность получения цвета переднего плана без модификаторов была добавлена в классы [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) и [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) через свойство **BaseForeColor**.
+Возможность получения цвета переднего плана без модификаторов была добавлена в классы [Fill](https://reference.aspose.com/words/ru/net/aspose.words.drawing/fill/) и [Stroke](https://reference.aspose.com/words/ru/net/aspose.words.drawing/stroke/) через свойство **BaseForeColor**.
 
 #### Расширение функциональности графиков <sup>23.10</sup>
 
-Функциональность классов [ChartDataPointCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) и [ChartFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartformat/) была расширена за счет новых методов и свойств.
+Функциональность классов [ChartDataPointCollection](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartseries/) и [ChartFormat](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartformat/) была расширена за счет новых методов и свойств.
 
 #### Автоматическая настройка и вставка изображения в форму <sup>23.10</sup>
 
-Новый метод [FitImageToShape](https://reference.aspose.com/words/net/aspose.words.drawing/imagedata/fitimagetoshape/) предоставляет простой способ автоматической настройки и размещения изображения в определенной форме.
+Новый метод [FitImageToShape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/imagedata/fitimagetoshape/) предоставляет простой способ автоматической настройки и размещения изображения в определенной форме.
 
 #### Форматирование шрифта по умолчанию для записей легенды диаграммы DrawingML <sup>23.11</sup>
 
-С помощью свойства [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/) добавлена возможность указывать форматирование шрифта по умолчанию для записей легенды диаграмм DrawingML. Эта функция обеспечивает более упорядоченный и единообразный внешний вид элементов диаграммы, улучшая общую эстетику документа.
+С помощью свойства [Font](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartlegend/font/) добавлена возможность указывать форматирование шрифта по умолчанию для записей легенды диаграмм DrawingML. Эта функция обеспечивает более упорядоченный и единообразный внешний вид элементов диаграммы, улучшая общую эстетику документа.
 
 #### Укажите макет страницы при открытии PDF в Reader <sup>23.12</sup>
 
-Возможность указать макет страницы, который будет использоваться при открытии документа в программе чтения PDF, была добавлена благодаря добавлению нового свойства [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) в класс [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) и новому перечислению [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/).
+Возможность указать макет страницы, который будет использоваться при открытии документа в программе чтения PDF, была добавлена благодаря добавлению нового свойства [PageLayout](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/pagelayout/) в класс [PdfSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/) и новому перечислению [PdfPageLayout](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfpagelayout/).
 
 ### Загрузка и сохранение документов
 
 #### Указание имени папки для создания URI изображений в Markdown <sup>23.9</sup>
 
-Класс [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) был расширен за счет включения свойства [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/), которое позволяет указать имя папки, используемой для создания URI изображений, записываемых в документ Markdown.
+Класс [MarkdownSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/markdownsaveoptions/) был расширен за счет включения свойства [ImagesFolderAlias](https://reference.aspose.com/words/ru/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/), которое позволяет указать имя папки, используемой для создания URI изображений, записываемых в документ Markdown.
 
 #### Уменьшить размер вывода PDF <sup>23.10</sup>
 
-Реализованы различные оптимизации рендеринга PDF для уменьшения размера вывода при использовании настроек [OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/).
+Реализованы различные оптимизации рендеринга PDF для уменьшения размера вывода при использовании настроек [OptimizeOutput](https://reference.aspose.com/words/ru/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/).
 
 #### Распознавание гиперссылок при загрузке документов TXT <sup>23.10</sup>
 
-Функция распознавания гиперссылок при загрузке документов TXT реализована путем добавления нового свойства [DetectHyperlinks](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detecthyperlinks/).
+Функция распознавания гиперссылок при загрузке документов TXT реализована путем добавления нового свойства [DetectHyperlinks](https://reference.aspose.com/words/ru/net/aspose.words.loading/txtloadoptions/detecthyperlinks/).
 
 ### Другой
 
-* Реализована эмуляция рендеринга метафайлов для определения размера растеризации, особенно для ширины пера WMF и косметической ширины пера EMF. Для этого свойство **ScaleWmfFontsToMetafileSize** было заменено свойством [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) и добавлено свойство [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/). <sup>23,9</sup>
-* С помощью метода [InsertDocumentInline](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertdocumentinline/) введен упрощенный метод вставки одного документа в другой документ в текущей позиции курсора. <sup>23.10</sup>
-* Возможность доступа к свойствам стиля и их изменения была добавлена благодаря появлению нового свойства [Locked](https://reference.aspose.com/words/net/aspose.words/style/locked/). <sup>23.10</sup>
-* К методам класса [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) добавлен параметр универсального типа. <sup>23.10</sup>
-* Способ управления тем, когда определенная редакция должна быть принята/отклонена или нет, реализован с помощью методов [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) и [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/). Это усовершенствование предоставляет пользователям более точный контроль над процессом редактирования. <sup>23.11</sup>
-* Возможность записи всех разделов документа на один и тот же лист XLSX появилась благодаря новому типу перечисления [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) и новому свойству [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/). <sup>23.11</sup>
+* Реализована эмуляция рендеринга метафайлов для определения размера растеризации, особенно для ширины пера WMF и косметической ширины пера EMF. Для этого свойство **ScaleWmfFontsToMetafileSize** было заменено свойством [EmulateRenderingToSizeOnPage](https://reference.aspose.com/words/ru/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) и добавлено свойство [EmulateRenderingToSizeOnPageResolution](https://reference.aspose.com/words/ru/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/). <sup>23,9</sup>
+* С помощью метода [InsertDocumentInline](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertdocumentinline/) введен упрощенный метод вставки одного документа в другой документ в текущей позиции курсора. <sup>23.10</sup>
+* Возможность доступа к свойствам стиля и их изменения была добавлена благодаря появлению нового свойства [Locked](https://reference.aspose.com/words/ru/net/aspose.words/style/locked/). <sup>23.10</sup>
+* К методам класса [CompositeNode](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/) добавлен параметр универсального типа. <sup>23.10</sup>
+* Способ управления тем, когда определенная редакция должна быть принята/отклонена или нет, реализован с помощью методов [Accept](https://reference.aspose.com/words/ru/net/aspose.words/revisioncollection/accept/) и [Reject](https://reference.aspose.com/words/ru/net/aspose.words/revisioncollection/reject/). Это усовершенствование предоставляет пользователям более точный контроль над процессом редактирования. <sup>23.11</sup>
+* Возможность записи всех разделов документа на один и тот же лист XLSX появилась благодаря новому типу перечисления [XlsxSectionMode](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsectionmode/) и новому свойству [SectionMode](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsaveoptions/sectionmode/). <sup>23.11</sup>
 * Способ управления тем, как расширения формата ZIP64 будут использоваться для документов OOXML, реализован с помощью нового свойства Zip64Mode класса `OoxmlSaveOptions` и нового перечисления Zip64Mode. <sup>23.12</sup>
 * Введена поддержка изображений WebP. Обратите внимание, что эта функция доступна только для версий .NetStandart и .NET6+. <sup>23.12</sup>
 
@@ -149,7 +149,7 @@ Aspose.Words Версия 23.8 расширяет возможности раз�
 ### Новые возможности формата
 
 * Введена функция автоматического создания оглавления (TOC) для документов MOBI. <sup>23,8</sup>
-* Конструктор [PdfEncryptionDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) был расширен за счет [PdfPermissions](https://reference.aspose.com/words/net/aspose.words.saving/pdfpermissions/). <sup>23,8</sup>
+* Конструктор [PdfEncryptionDetails](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/) был расширен за счет [PdfPermissions](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfpermissions/). <sup>23,8</sup>
 * Реализовано формирование вертикального текста для метафайлов EMF. <sup>23,8</sup>
 
 ### Рендеринг и печать
@@ -158,8 +158,8 @@ Aspose.Words Версия 23.8 расширяет возможности раз�
 
 Возможность получения и изменения данных серий диаграмм была реализована путем добавления:
 
-* новые классы: [ChartXValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartmultilevelvalue/)
-* новые типы перечислений: [ChartXValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartyvaluetype/)
+* новые классы: [ChartXValue](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartmultilevelvalue/)
+* новые типы перечислений: [ChartXValueType](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartyvaluetype/)
 
 #### Поддержка расширенной типографики <sup>23.6</sup>
 
@@ -167,7 +167,7 @@ Aspose.Words Версия 23.8 расширяет возможности раз�
 
 #### Цветной контент на странице <sup>23.6</sup>
 
-Было добавлено общедоступное свойство [PageInfo.Colored](https://reference.aspose.com/words/net/aspose.words.rendering/pageinfo/colored/), указывающее, цветная страница или нет.
+Было добавлено общедоступное свойство [PageInfo.Colored](https://reference.aspose.com/words/ru/net/aspose.words.rendering/pageinfo/colored/), указывающее, цветная страница или нет.
 
 #### Форматирование меток данных диаграммы <sup>23.6</sup>
 
@@ -181,7 +181,7 @@ Aspose.Words Версия 23.8 расширяет возможности раз�
 
 #### Mustache Поддержка тегов <sup>23.7</sup>
 
-Теги Mustache теперь поддерживаются в методах [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) и [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
+Теги Mustache теперь поддерживаются в методах [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/ru/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/) и [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/ru/net/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion).
 
 #### Обновления синтаксиса шаблонов системы отчетов LINQ <sup>23.7</sup>
 
@@ -189,7 +189,7 @@ Aspose.Words Версия 23.8 расширяет возможности раз�
 
 #### Указание размера отображаемых изображений <sup>23.8</sup>
 
-Добавлено новое общедоступное свойство [ImageSize](https://reference.aspose.com/words/net/aspose.words.saving/imagesaveoptions/imagesize/) для указания размера отображаемых изображений в пикселях.
+Добавлено новое общедоступное свойство [ImageSize](https://reference.aspose.com/words/ru/net/aspose.words.saving/imagesaveoptions/imagesize/) для указания размера отображаемых изображений в пикселях.
 
 #### Сохранение пробелов для строковых значений JSON – LINQ <sup>23.8</sup>
 
@@ -202,10 +202,10 @@ Aspose.Words Версия 23.8 расширяет возможности раз�
 ### Другой
 
 * Реализована поддержка переноса текста в верхние и нижние колонтитулы. <sup>23,5</sup>
-* Возможность удалять цифровые подписи из документов ODT была добавлена с помощью метода [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23,5</sup>
-* Добавлено общедоступное свойство [PhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/phoneticguide/) для получения базового и Ruby-текста фонетического руководства [Run](https://reference.aspose.com/words/net/aspose.words/run/). <sup>23,5</sup>
-* Возможность получения значения цифровой подписи из документа с цифровой подписью в виде массива байтов была добавлена путем введения нового свойства [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23,7</sup>
-* Классы [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) были расширены новыми общедоступными членами — [Row.NextRow](https://reference.aspose.com/words/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/nextcell/) и [Cell.PreviousCell](https://reference.aspose.com/words/net/aspose.words.tables/cell/previouscell/). <sup>23,7</sup>
+* Возможность удалять цифровые подписи из документов ODT была добавлена с помощью метода [RemoveAllSignatures](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/). <sup>23,5</sup>
+* Добавлено общедоступное свойство [PhoneticGuide](https://reference.aspose.com/words/ru/net/aspose.words/run/phoneticguide/) для получения базового и Ruby-текста фонетического руководства [Run](https://reference.aspose.com/words/ru/net/aspose.words/run/). <sup>23,5</sup>
+* Возможность получения значения цифровой подписи из документа с цифровой подписью в виде массива байтов была добавлена путем введения нового свойства [SignatureValue](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/). <sup>23,7</sup>
+* Классы [Row](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/ru/net/aspose.words.tables/cell/) были расширены новыми общедоступными членами — [Row.NextRow](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/nextrow/), [Row.PreviousRow](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/previousrow/), [Cell.NextCell](https://reference.aspose.com/words/ru/net/aspose.words.tables/cell/nextcell/) и [Cell.PreviousCell](https://reference.aspose.com/words/ru/net/aspose.words.tables/cell/previouscell/). <sup>23,7</sup>
 * Добавлена поддержка полей ЦИТАТА и БИБЛИОГРАФИЯ. <sup>23,8</sup>
 
 {{% alert color="primary" %}}
@@ -258,7 +258,7 @@ Aspose.Words В версии 23.4 улучшен расчет некоторых
 
 #### Управление цветом фона и переднего плана <sup>23.3</sup>
 
-Класс [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) был расширен набором новых общедоступных свойств, связанных с цветами фона и переднего плана: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/forethemecolor/) и [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/foretintandshade/) и [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/fill/backtintandshade/).
+Класс [Fill](https://reference.aspose.com/words/ru/net/aspose.words.drawing/fill/) был расширен набором новых общедоступных свойств, связанных с цветами фона и переднего плана: [ForeThemeColor](https://reference.aspose.com/words/ru/net/aspose.words.drawing/fill/forethemecolor/) и [BackThemeColor](https://reference.aspose.com/words/ru/net/aspose.words.drawing/fill/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/ru/net/aspose.words.drawing/fill/foretintandshade/) и [BackTintAndShade](https://reference.aspose.com/words/ru/net/aspose.words.drawing/fill/backtintandshade/).
 
 #### Радиальные градиенты с помощью встроенного шейдера `SkiaSharp` <sup>23.3</sup>
 
@@ -266,17 +266,17 @@ Aspose.Words В версии 23.4 улучшен расчет некоторых
 
 #### Расстояние между таблицей и окружающим текстом <sup>23.4</sup>
 
-Возможность устанавливать расстояние между таблицей и окружающим текстом была добавлена путем введения новых свойств в класс [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) и [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
+Возможность устанавливать расстояние между таблицей и окружающим текстом была добавлена путем введения новых свойств в класс [Table](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/): [DistanceLeft](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distancetop/) и [DistanceBottom](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distancebottom/).
 
 ### Загрузка и сохранение документов
 
 #### Создать `TOC` для документов AZW3 <sup>23.1</sup>
 
-Возможность создания `TOC` (оглавление) для документов AZW3 была добавлена благодаря использованию свойства [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
+Возможность создания `TOC` (оглавление) для документов AZW3 была добавлена благодаря использованию свойства [NavigationMapLevel](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/).
 
 #### Экспорт элементов списка в Markdown <sup>23.1</sup>
 
-Способ управления экспортом элементов списка в формат Markdown был предоставлен путем добавления свойства [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) в класс [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/).
+Способ управления экспортом элементов списка в формат Markdown был предоставлен путем добавления свойства [ListExportMode](https://reference.aspose.com/words/ru/net/aspose.words.saving/markdownsaveoptions/listexportmode/) в класс [MarkdownSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/markdownsaveoptions/).
 
 #### Уведомления о ходе сохранения документа <sup>23.3</sup>
 
@@ -284,16 +284,16 @@ Aspose.Words В версии 23.4 улучшен расчет некоторых
 
 #### Корректировка интервалов между предложениями и словами <sup>23.3</sup>
 
-Возможность указать, следует ли автоматически регулировать интервал между предложениями и словами при импорте документа, была добавлена путем введения свойства [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
+Возможность указать, следует ли автоматически регулировать интервал между предложениями и словами при импорте документа, была добавлена путем введения свойства [AdjustSentenceAndWordSpacing](https://reference.aspose.com/words/ru/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/).
 
 ### Другой
 
-* Возможность указать настройку межсимвольного интервала в документе была добавлена посредством реализации свойства [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) <sup>23.2.</sup>
-* Способ указания Aspose.Words, включать ли текстовые поля, сноски и концевые сноски в статистику количества слов, был предоставлен путем добавления свойства [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2.</sup>
-* Новая опция для стиля документа, позволяющая указать, будет ли стиль автоматически переопределяться на основе соответствующего значения, была введена через свойство [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup> 
-* Добавлена возможность определить, является ли [Run](https://reference.aspose.com/words/net/aspose.words/run/) запуском фонетического руководства с помощью свойства [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) <sup>23.4.</sup>
-* Реализован простой способ работы с рядами и осями комбинированных диаграмм путем введения класса [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) и свойства [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4.</sup>
-* В класс [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) <sup>23.4</sup> добавлены новые общедоступные свойства, связанные с относительным расположением и размером фигуры
+* Возможность указать настройку межсимвольного интервала в документе была добавлена посредством реализации свойства [JustificationMode](https://reference.aspose.com/words/ru/net/aspose.words/document/justificationmode/) <sup>23.2.</sup>
+* Способ указания Aspose.Words, включать ли текстовые поля, сноски и концевые сноски в статистику количества слов, был предоставлен путем добавления свойства [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/ru/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) <sup>23.2.</sup>
+* Новая опция для стиля документа, позволяющая указать, будет ли стиль автоматически переопределяться на основе соответствующего значения, была введена через свойство [AutomaticallyUpdate](https://reference.aspose.com/words/ru/net/aspose.words/style/automaticallyupdate/) <sup>23.2</sup> 
+* Добавлена возможность определить, является ли [Run](https://reference.aspose.com/words/ru/net/aspose.words/run/) запуском фонетического руководства с помощью свойства [IsPhoneticGuide](https://reference.aspose.com/words/ru/net/aspose.words/run/isphoneticguide/) <sup>23.4.</sup>
+* Реализован простой способ работы с рядами и осями комбинированных диаграмм путем введения класса [ChartAxisCollection](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartaxiscollection/) и свойства [Chart.Axes](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chart/axes/) <sup>23.4.</sup>
+* В класс [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/) <sup>23.4</sup> добавлены новые общедоступные свойства, связанные с относительным расположением и размером фигуры
 * Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста улучшены в соответствии с последними версиями Microsoft Word <sup>23.4.</sup>
 
 {{% alert color="primary" %}}
@@ -326,13 +326,13 @@ Aspose.Words В версии 22.12 расширены возможности р�
 
 #### Печать нецветных страниц на цветном принтере <sup>22.11</sup>
 
-Пользовательский режим цветной/полутоновой печати был реализован путем добавления нового значения **GrayscaleAuto** в перечисление [ColorPrintMode](https://reference.aspose.com/words/net/aspose.words.rendering/colorprintmode/).
+Пользовательский режим цветной/полутоновой печати был реализован путем добавления нового значения **GrayscaleAuto** в перечисление [ColorPrintMode](https://reference.aspose.com/words/ru/net/aspose.words.rendering/colorprintmode/).
 
 Новое свойство печати позволяет пользователям контролировать печать нецветных страниц, если устройство поддерживает цветную печать. Эта функция может быть полезна, если пользователи хотят автоматически печатать нецветные страницы, используя только режим печати в оттенках серого.
 
 #### Новые свойства рендеринга границ <sup>22.12</sup>
 
-Были введены новые общедоступные свойства [ThemeColor](https://reference.aspose.com/words/net/aspose.words/border/themecolor/) и [TintAndShade](https://reference.aspose.com/words/net/aspose.words/border/tintandshade/).
+Были введены новые общедоступные свойства [ThemeColor](https://reference.aspose.com/words/ru/net/aspose.words/border/themecolor/) и [TintAndShade](https://reference.aspose.com/words/ru/net/aspose.words/border/tintandshade/).
 
 #### Формула линейной линии тренда для рендеринга DrawingML <sup>22.12</sup>
 
@@ -350,23 +350,23 @@ Aspose.Words В версии 22.12 расширены возможности р�
 
 #### Автоматическое определение нумерации при загрузке документа <sup>22.9</sup>
 
-Возможность указать свойство [AutoNumberingDetection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) при загрузке текста реализована посредством расширенного класса [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/).
+Возможность указать свойство [AutoNumberingDetection](https://reference.aspose.com/words/ru/net/aspose.words.loading/txtloadoptions/autonumberingdetection/) при загрузке текста реализована посредством расширенного класса [TxtLoadOptions](https://reference.aspose.com/words/ru/net/aspose.words.loading/txtloadoptions/).
 
 #### Указание конкретного типа маржи <sup>22.12</sup>
 
-Реализована возможность указать конкретный тип [Margin](https://reference.aspose.com/words/net/aspose.words/pagesetup/margins/) для данного раздела.
+Реализована возможность указать конкретный тип [Margin](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/margins/) для данного раздела.
 
 ### Поиск и сравнение <sup>22.10</sup>
 
-Возможность игнорировать [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/) при поиске и замене параметров реализована путем добавления нового свойства [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) в класс [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/).
+Возможность игнорировать [StructuredDocumentTag](https://reference.aspose.com/words/ru/net/aspose.words.markup/structureddocumenttag/) при поиске и замене параметров реализована путем добавления нового свойства [IgnoreStructuredDocumentTags](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) в класс [FindReplaceOptions](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/).
 
 ### Другой
 
 * Добавлена новая функция для получения FieldEQ как OfficeMath. <sup>22,9</sup>
 * Разрешено создание тегов структурированного документа типа Group на уровне строки. <sup>22,9</sup>
 * Объекты и элементы управления OLE теперь обрабатываются как изображения метафайлов при преобразовании документа в HTML. <sup>22.10</sup>
-* Новая функция проверки того, что конкретный список был создан на основе того же шаблона, что и сравниваемый список, была добавлена путем введения нового метода [HasSameTemplate](https://reference.aspose.com/words/net/aspose.words.lists/list/hassametemplate/) в класс [List](https://reference.aspose.com/words/net/aspose.words.lists/list/). <sup>22.10</sup>
-* Добавлена возможность создавать новые теги структурированных документов типа [Citation](https://reference.aspose.com/words/net/aspose.words.markup/sdttype/). <sup>22.11</sup>
+* Новая функция проверки того, что конкретный список был создан на основе того же шаблона, что и сравниваемый список, была добавлена путем введения нового метода [HasSameTemplate](https://reference.aspose.com/words/ru/net/aspose.words.lists/list/hassametemplate/) в класс [List](https://reference.aspose.com/words/ru/net/aspose.words.lists/list/). <sup>22.10</sup>
+* Добавлена возможность создавать новые теги структурированных документов типа [Citation](https://reference.aspose.com/words/ru/net/aspose.words.markup/sdttype/). <sup>22.11</sup>
 * Предоставлена возможность отслеживать ход обновления полей. <sup>22.11</sup>
 * Добавлено новое свойство **EmbedAttachments**, которое позволяет пользователям встраивать вложения OLE из исходного документа в выходной PDF-документ. <sup>22.11</sup>
 
@@ -396,14 +396,14 @@ API улучшен для более гибкой и удобной разраб
 
 ### Поддерживаемые форматы
 
-* Добавлена поддержка загрузки документов EPUB и XML путем добавления новых значений в перечисление [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/). Начиная с версии 22.5, можно загружать документы EPUB и XML в модель документа Aspose.Words и конвертировать их в любую модель [поддерживаемые форматы](https://reference.aspose.com/words/net/aspose.words/saveformat/). <sup>22,5</sup>
+* Добавлена поддержка загрузки документов EPUB и XML путем добавления новых значений в перечисление [LoadFormat](https://reference.aspose.com/words/ru/net/aspose.words/loadformat/). Начиная с версии 22.5, можно загружать документы EPUB и XML в модель документа Aspose.Words и конвертировать их в любую модель [поддерживаемые форматы](https://reference.aspose.com/words/ru/net/aspose.words/saveformat/). <sup>22,5</sup>
 * Начиная с версии 22.8, можно сохранять документ в формате AZW3 — Amazon фирменном формате электронных книг Kindle (KF8 — другое название формата). Теперь вы можете не только загружать документы AZW3, но и экспортировать файлы в формат AZW3, который по сути представляет собой скомпилированный EPUB. <sup>22,8</sup>
 
 ### Рендеринг и печать
 
 #### Новый размер печати <sup>22,5</sup>
 
-Поддержка размера страницы для печати "Конверт № 10" была добавлена путем введения нового значения в перечисление [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).
+Поддержка размера страницы для печати "Конверт № 10" была добавлена путем введения нового значения в перечисление [PaperSize](https://reference.aspose.com/words/ru/net/aspose.words/papersize/).
 
 #### Рендеринг формул MathML <sup>22.5</sup>
 
@@ -421,7 +421,7 @@ API улучшен для более гибкой и удобной разраб
 
 #### Установить форматирование тени фигуры <sup>22.7</sup>
 
-Возможность задать форматирование тени объекта фигуры появилась благодаря добавлению нового свойства [ShadowFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/shadowformat/).
+Возможность задать форматирование тени объекта фигуры появилась благодаря добавлению нового свойства [ShadowFormat](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shapebase/shadowformat/).
 
 #### Поддержка интервала между ячейками в таблицах <sup>22.8</sup>
 
@@ -443,7 +443,7 @@ API улучшен для более гибкой и удобной разраб
 
 #### Новый режим импорта HTML <sup>22.7</sup>
 
-Был введен новый режим импорта HTML для элементов уровня блока путем добавления нового значения в перечисление [HtmlInsertOptions](https://reference.aspose.com/words/net/aspose.words/htmlinsertoptions/).
+Был введен новый режим импорта HTML для элементов уровня блока путем добавления нового значения в перечисление [HtmlInsertOptions](https://reference.aspose.com/words/ru/net/aspose.words/htmlinsertoptions/).
 
 #### Преобразование в PDF/UA-1 CS, совместимое с WCAG 2.0 <sup>22,7</sup>
 

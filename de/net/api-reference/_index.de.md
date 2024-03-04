@@ -13,4 +13,4 @@ Aspose.Words f체r .NET ist eine Klassenbibliothek, die es Ihren Anwendungen erm�
 
 Aspose.Words f체r .NET ist vollst채ndig in C# geschrieben, CLS-kompatibel und enth채lt nur sicheren verwalteten Code.
 
-Das neueste API Reference finden Sie bei [Aspose.Words f체r .NET API Reference](https://reference.aspose.com/words/net/).
+Das neueste API Reference finden Sie bei [Aspose.Words f체r .NET API Reference](https://reference.aspose.com/words/de/net/).

@@ -17,7 +17,7 @@ Bu makalede, bir kısıtlama türü seçmek için Aspose.Words'in nasıl kullan�
 
 ## Düzenleme Kısıtlama Türünü Seçin
 
-Aspose.Words, [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/) numaralandırma parametresini kullanarak içeriği kısıtlama şeklinizi kontrol etmenize olanak tanır. Bu, aşağıdaki gibi tam bir koruma türünü seçmenizi sağlayacaktır:
+Aspose.Words, [ProtectionType](https://reference.aspose.com/words/tr/net/aspose.words/protectiontype/) numaralandırma parametresini kullanarak içeriği kısıtlama şeklinizi kontrol etmenize olanak tanır. Bu, aşağıdaki gibi tam bir koruma türünü seçmenizi sağlayacaktır:
 
 *YalnızcaYorumlara İzin Ver
 * AllowOnlyFormFields
@@ -31,7 +31,7 @@ Güvenlik türünü seçerken şifre belirlemediyseniz diğer kullanıcılar bel
 
 {{% alert color="primary" %}}
 
-Ayarlanmakta olan parolanın yalnızca belgedeki bir özellik olduğunu ve belge özelliklerine erişildiğinde kaldırılabileceğini unutmayın. Dolayısıyla böyle bir şifre belge güvenliğinin garantisi değildir. [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/) yöntemi tam da bunu gösteriyor.
+Ayarlanmakta olan parolanın yalnızca belgedeki bir özellik olduğunu ve belge özelliklerine erişildiğinde kaldırılabileceğini unutmayın. Dolayısıyla böyle bir şifre belge güvenliğinin garantisi değildir. [Unprotect](https://reference.aspose.com/words/tr/net/aspose.words/document/unprotect/#unprotect/) yöntemi tam da bunu gösteriyor.
 
 {{% /alert %}}
 
@@ -39,7 +39,7 @@ Ayarlanmakta olan parolanın yalnızca belgedeki bir özellik olduğunu ve belge
 
 Belgenize koruma eklemek basit bir işlemdir; tek yapmanız gereken bu bölümde ayrıntıları verilen koruma yöntemlerinden birini uygulamaktır.
 
-Aspose.Words, [Protect](https://reference.aspose.com/words/net/aspose.words/document/protect/#protect/) yöntemini kullanarak belgelerinizi değişikliklerden korumanıza olanak tanır. Bu yöntem bir güvenlik özelliği değildir ve belgeyi şifrelemez.
+Aspose.Words, [Protect](https://reference.aspose.com/words/tr/net/aspose.words/document/protect/#protect/) yöntemini kullanarak belgelerinizi değişikliklerden korumanıza olanak tanır. Bu yöntem bir güvenlik özelliği değildir ve belgeyi şifrelemez.
 
 {{% alert color="primary" %}}
 
@@ -60,7 +60,7 @@ Aşağıdaki kod örneği, yalnızca form alanlarında düzenlemenin mümkün ol
 
 ## Belge Korumasını Kaldır
 
-Aspose.Words, basit ve doğrudan belge değişikliğiyle bir belgedeki korumayı kaldırmanıza olanak tanır. Gerçek şifreyi bilmeden belge korumasını kaldırabilir veya [Unprotect](https://reference.aspose.com/words/net/aspose.words/document/unprotect/#unprotect/) yöntemini kullanarak belgenin kilidini açmak için doğru şifreyi sağlayabilirsiniz. Her iki çıkarma yönteminin de hiçbir farkı yoktur.
+Aspose.Words, basit ve doğrudan belge değişikliğiyle bir belgedeki korumayı kaldırmanıza olanak tanır. Gerçek şifreyi bilmeden belge korumasını kaldırabilir veya [Unprotect](https://reference.aspose.com/words/tr/net/aspose.words/document/unprotect/#unprotect/) yöntemini kullanarak belgenin kilidini açmak için doğru şifreyi sağlayabilirsiniz. Her iki çıkarma yönteminin de hiçbir farkı yoktur.
 
 Aşağıdaki kod örneği, belgenizdeki korumanın nasıl kaldırılacağını gösterir:
 
@@ -70,7 +70,7 @@ Aşağıdaki kod örneği, belgenizdeki korumanın nasıl kaldırılacağını g
 
 Belgenizin düzenlenmesini kısıtlayabilir ve aynı zamanda belgenin seçilen kısımlarında değişiklik yapılmasına izin verebilirsiniz. Böylece belgenizi açan herkes bu sınırsız kısımlara ulaşabilecek ve içerikte değişiklik yapabilecektir.
 
-Aspose.Words, belgenizde değiştirilebilecek kısımları [StartEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starteditablerange/) ve [EndEditableRange](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/) yöntemlerini kullanarak işaretlemenize olanak sağlar.
+Aspose.Words, belgenizde değiştirilebilecek kısımları [StartEditableRange](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/starteditablerange/) ve [EndEditableRange](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endeditablerange/#endeditablerange/) yöntemlerini kullanarak işaretlemenize olanak sağlar.
 
 Aşağıdaki kod örneği, belgenin tamamının salt okunur olarak nasıl işaretleneceğini ve içinde düzenlenebilir bölgelerin nasıl belirtileceğini gösterir:
 

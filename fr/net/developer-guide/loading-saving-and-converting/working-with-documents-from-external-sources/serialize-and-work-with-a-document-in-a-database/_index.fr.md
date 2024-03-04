@@ -17,9 +17,9 @@ Aspose.Words offre la possibilité de convertir un document en tableau d'octets 
 
 Pour stocker un document dans une base de données ou pour préparer un document à transmettre sur le Web, il est souvent nécessaire de sérialiser le document pour obtenir un tableau d'octets.
 
-Pour sérialiser un objet [Document](https://reference.aspose.com/words/net/aspose.words/document/) dans Aspose.Words:
+Pour sérialiser un objet [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/) dans Aspose.Words:
 
-1. Enregistrez-le dans un **MemoryStream** en utilisant la surcharge de méthode [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) de la classe **Document**.
+1. Enregistrez-le dans un **MemoryStream** en utilisant la surcharge de méthode [Save](https://reference.aspose.com/words/fr/net/aspose.words/document/save/) de la classe **Document**.
 1. Appelez la méthode **ToArray**, qui renvoie un tableau d'octets représentant le document sous forme d'octets.
 
 Les étapes ci-dessus peuvent alors être inversées pour charger à nouveau les octets dans un objet **Document**.

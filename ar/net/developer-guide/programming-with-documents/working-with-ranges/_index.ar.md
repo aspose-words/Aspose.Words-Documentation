@@ -17,11 +17,11 @@ url: /ar/net/working-with-ranges/
 
 إذا كنت قد عملت مع Microsoft Word Automation، فمن المحتمل أنك تعلم أن إحدى الأدوات الرئيسية لفحص محتوى المستند وتعديله هي كائن **Range**. يشبه **Range** "نافذة" في محتوى المستند وتنسيقه.
 
-يحتوي Aspose.Words أيضًا على فئة [Range](https://reference.aspose.com/words/net/aspose.words/range/) وهو مصمم ليبدو ويتصرف بشكل مشابه لـ **Range** في Microsoft Word. على الرغم من أن **Range** لا يمكنه تغطية جزء عشوائي من المستند ولا يحتوي على **Start** و**End**، إلا أنه يمكنك الوصول إلى النطاق الذي تغطيه أي عقدة مستند بما في ذلك ملف [Document](https://reference.aspose.com/words/net/aspose.words/document/) نفسه. بمعنى آخر، كل عقدة لها نطاقها الخاص. يتيح لك كائن **Range** الوصول إلى النص والإشارات المرجعية وحقول النماذج وتعديلها ضمن النطاق.
+يحتوي Aspose.Words أيضًا على فئة [Range](https://reference.aspose.com/words/ar/net/aspose.words/range/) وهو مصمم ليبدو ويتصرف بشكل مشابه لـ **Range** في Microsoft Word. على الرغم من أن **Range** لا يمكنه تغطية جزء عشوائي من المستند ولا يحتوي على **Start** و**End**، إلا أنه يمكنك الوصول إلى النطاق الذي تغطيه أي عقدة مستند بما في ذلك ملف [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) نفسه. بمعنى آخر، كل عقدة لها نطاقها الخاص. يتيح لك كائن **Range** الوصول إلى النص والإشارات المرجعية وحقول النماذج وتعديلها ضمن النطاق.
 
 ## استرداد نص عادي
 
-استخدم خاصية [Text](https://reference.aspose.com/words/net/aspose.words/range/text/) لاسترداد نص عادي غير منسق للنطاق.
+استخدم خاصية [Text](https://reference.aspose.com/words/ar/net/aspose.words/range/text/) لاسترداد نص عادي غير منسق للنطاق.
 
 يوضح مثال التعليمات البرمجية التالي كيفية الحصول على نص عادي غير منسق لنطاق:
 
@@ -35,7 +35,7 @@ url: /ar/net/working-with-ranges/
 
 ## حذف النص
 
-يسمح النطاق بحذف جميع أحرف النطاق عن طريق استدعاء [Delete](https://reference.aspose.com/words/net/aspose.words/range/delete/).
+يسمح النطاق بحذف جميع أحرف النطاق عن طريق استدعاء [Delete](https://reference.aspose.com/words/ar/net/aspose.words/range/delete/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية حذف كافة أحرف النطاق:
 

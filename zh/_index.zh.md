@@ -21,7 +21,7 @@ Aspose.Words 是最流行平台上可用的类库，允许您的应用程序执�
             <li><a href="https://products.aspose.com/words/net/">Aspose.Words for .NET 产品页面</a></li>
             <li><a href="/words/zh/net/product-overview/">产品概述</a></li>
             <li><a href="/words/zh/net/developer-guide/">开发者指南</a></li>
-            <li><a href="https://reference.aspose.com/words/net/">Aspose.Words for .NET – API Reference 指南</a></li>
+            <li><a href="https://reference.aspose.com/words/zh/net/">Aspose.Words for .NET – API Reference 指南</a></li>
             <li><a href="https://releases.aspose.com/words/net/release-notes/">Aspose.Words for .NET 发行说明</a></li>
             <li><a href="https://releases.aspose.com/words/net/">Aspose.Words .NET 下载</a></li>
             <li><a href="https://www.nuget.org/packages/Aspose.Words/">.NET 格式的 Aspose.Words – NuGet Package</a></li>

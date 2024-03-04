@@ -12,7 +12,7 @@ url: /zh/net/convert-a-document-to-markdown/
 
 Markdown 是一种流行的格式，用于标记文本并进一步转换为 HTML、PDF、DOCX 或其他格式。许多开发人员选择这种格式来编写文档、准备在博客上发布的文章、描述项目等。
 
-Markdown 之所以如此受欢迎，是因为它很容易使用这种格式，并且可以非常简单地转换为其他格式。因此，Aspose.Words 提供了将 [任何支持的加载格式](https://reference.aspose.com/words/net/aspose.words/loadformat/) 文档转换为 Markdown 的能力，反之亦然 - Aspose.Words 还支持最流行的 [保存格式](https://reference.aspose.com/words/net/aspose.words/saveformat/)。
+Markdown 之所以如此受欢迎，是因为它很容易使用这种格式，并且可以非常简单地转换为其他格式。因此，Aspose.Words 提供了将 [任何支持的加载格式](https://reference.aspose.com/words/zh/net/aspose.words/loadformat/) 文档转换为 Markdown 的能力，反之亦然 - Aspose.Words 还支持最流行的 [保存格式](https://reference.aspose.com/words/zh/net/aspose.words/saveformat/)。
 
 现在，我们正在积极开发使用 Markdown 格式的功能，以便为您提供更多方便、舒适地处理文档的机会。
 
@@ -25,7 +25,7 @@ Markdown 之所以如此受欢迎，是因为它很容易使用这种格式，�
 **.NET**
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToMarkdown-SaveAsMD.cs" >}}
 
-将文档导出为 Markdown 格式时，您还可以指定要在其中保存图像的物理文件夹。默认情况下，Aspose.Words 将图像保存在保存文档文件的同一文件夹中，但您可以使用 [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolder/) 属性覆盖此行为。
+将文档导出为 Markdown 格式时，您还可以指定要在其中保存图像的物理文件夹。默认情况下，Aspose.Words 将图像保存在保存文档文件的同一文件夹中，但您可以使用 [ImagesFolder](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/imagesfolder/) 属性覆盖此行为。
 
 如果将文档保存到流并且 Aspose.Words 没有用于保存图像的文件夹，则通过 **ImagesFolder** 指定文件夹也很有用。
 
@@ -38,7 +38,7 @@ Markdown 之所以如此受欢迎，是因为它很容易使用这种格式，�
 
 ## 转换为 Markdown 时指定保存选项
 
-Aspose.Words 提供了在将文档保存为 Markdown 格式时使用 [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) 类来处理高级选项的功能。大多数属性都会继承或重载其他 [Aspose.Words.Saving](https://reference.aspose.com/words/net/aspose.words.saving/) 命名空间类中已存在的属性。除此之外，还添加了许多特定于 Markdown 格式的属性。例如，用于控制表中内容对齐方式的 [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) 属性，或用于控制将文档转换为 Markdown 格式时如何保存图像的 [ImageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/) 和 [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/imagesfolder/)。
+Aspose.Words 提供了在将文档保存为 Markdown 格式时使用 [MarkdownSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/) 类来处理高级选项的功能。大多数属性都会继承或重载其他 [Aspose.Words.Saving](https://reference.aspose.com/words/zh/net/aspose.words.saving/) 命名空间类中已存在的属性。除此之外，还添加了许多特定于 Markdown 格式的属性。例如，用于控制表中内容对齐方式的 [TableContentAlignment](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) 属性，或用于控制将文档转换为 Markdown 格式时如何保存图像的 [ImageSavingCallback](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/) 和 [ImagesFolder](https://reference.aspose.com/words/zh/net/aspose.words.saving/markdownsaveoptions/imagesfolder/)。
 
 ## 支持的 Markdown 功能
 

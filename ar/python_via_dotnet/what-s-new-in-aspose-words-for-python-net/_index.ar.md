@@ -251,7 +251,7 @@ Aspose.Words 24.2 واجهة برمجة تطبيقات الرسوم البيان
 
 #### التحكم في لون الخلفية والمقدمة <sup>23.3</sup>
 
-تم توسيع فئة [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) بمجموعة من الخصائص العامة الجديدة المتعلقة بألوان الخلفية والمقدمة: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) و[back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/) و[fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) و[back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
+تم توسيع فئة [Fill](https://reference.aspose.com/words/ar/net/aspose.words.drawing/fill/) بمجموعة من الخصائص العامة الجديدة المتعلقة بألوان الخلفية والمقدمة: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) و[back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/) و[fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) و[back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
 
 #### التدرجات الشعاعية باستخدام `SkiaSharp` Native Shader <sup>23.3</sup>
 

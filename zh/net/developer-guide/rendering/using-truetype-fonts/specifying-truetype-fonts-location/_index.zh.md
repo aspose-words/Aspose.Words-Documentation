@@ -11,23 +11,23 @@ url: /zh/net/specifying-truetype-fonts-location/
 
 本主题介绍 Aspose.Words 在查找 TrueType 字体时的默认行为，包括操作系统特定的差异，并演示如何指定用户字体源。
 
-[FontSourceBase](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/) 类用于指定各种字体源。 **FontSourceBase** 类有多种实现：
+[FontSourceBase](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsourcebase/) 类用于指定各种字体源。 **FontSourceBase** 类有多种实现：
 
-- [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource)
-- [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource)
-- [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource)
-- [FileFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/filefontsource)
-- [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource)
+- [SystemFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/systemfontsource)
+- [FolderFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/folderfontsource)
+- [StreamFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/streamfontsource)
+- [FileFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/filefontsource)
+- [MemoryFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/memoryfontsource)
 
 下面解释了一些类的实现细节。
 
 ## 从系统 {#loading-fonts-from-system} 加载字体
 
-有一个特殊的 [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/) 类始终默认使用。它代表系统上安装的所有 TrueType 字体。因此，可以使用 **SystemFontSource** 和任何其他所需的源创建源列表：
+有一个特殊的 [SystemFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/systemfontsource/) 类始终默认使用。它代表系统上安装的所有 TrueType 字体。因此，可以使用 **SystemFontSource** 和任何其他所需的源创建源列表：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFolders-SetFontsFolders.cs" >}}
 
-默认情况下，在 [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) 中定义 **SystemFontSource** 类的单个实例。在不同的操作系统上，字体可能位于不同的位置。然而，为每个文档使用 **FontSettings** 实例并不是最佳解决方案。在大多数情况下，使用 [DefaultInstance](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/defaultinstance/) 就足够了。
+默认情况下，在 [FontSettings](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/) 中定义 **SystemFontSource** 类的单个实例。在不同的操作系统上，字体可能位于不同的位置。然而，为每个文档使用 **FontSettings** 实例并不是最佳解决方案。在大多数情况下，使用 [DefaultInstance](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/defaultinstance/) 就足够了。
 
 仅当需要对不同文档使用不同字体源时才需要每个文档实例，这种情况很少见。使用多个 **FontSettings** 实例会降低性能，因为它们不共享缓存。
 
@@ -50,7 +50,7 @@ url: /zh/net/specifying-truetype-fonts-location/
 
 ### 非 Windows 系统上的字体
 
-Aspose.Words 将在系统字体文件夹中查找字体。通过 [GetSystemFontFolders](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/) 方法可以看到这些文件夹的列表。如果未找到支持的字体，Aspose.Words 将使用内置默认字体 Fanwood.ttf。
+Aspose.Words 将在系统字体文件夹中查找字体。通过 [GetSystemFontFolders](https://reference.aspose.com/words/zh/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/) 方法可以看到这些文件夹的列表。如果未找到支持的字体，Aspose.Words 将使用内置默认字体 Fanwood.ttf。
 
 由于Windows和非Windows操作系统的字体规格不同，Aspose.Words尽一切可能找到相似的字体并构建与原始相似的布局。然而，这并不总是可能的。在这些情况下，应使用 **FontSettings** 类来添加自定义字体或替换规则。
 
@@ -64,11 +64,11 @@ Aspose.Words 在 /Library/Fonts 文件夹中查找字体，该文件夹是 Mac O
 
 ## 从文件夹 {#loading-fonts-from-folder} 加载字体
 
-如果正在处理的文档包含系统上没有的字体的链接，或者您不想将它们添加到系统文件夹中，或者您缺乏权限，那么最好的解决方案是使用以下命令添加包含您自己的字体的文件夹[SetFontsSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontssources/) 方法。这将允许用用户源替换系统源。 Aspose.Words 将不再在注册表或 Windows\Font 文件夹中查找字体，而是仅扫描指定文件夹中的字体。 [GetFontSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/getfontssources/) 方法将返回相应的值。
+如果正在处理的文档包含系统上没有的字体的链接，或者您不想将它们添加到系统文件夹中，或者您缺乏权限，那么最好的解决方案是使用以下命令添加包含您自己的字体的文件夹[SetFontsSources](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/setfontssources/) 方法。这将允许用用户源替换系统源。 Aspose.Words 将不再在注册表或 Windows\Font 文件夹中查找字体，而是仅扫描指定文件夹中的字体。 [GetFontSources](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/getfontssources/) 方法将返回相应的值。
 
 ### 指定一个或多个字体文件夹
 
-[SetFontsFolder](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/) 和 [SetFontsFolders](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/s) 方法是具有一个或多个 [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource/) 实例的 **SetFontSources** 方法的快捷方式。这些方法用于指示 Aspose.Words 应在何处查找字体。如果文件夹不存在或不可访问，Aspose.Words 将忽略该文件夹。如果忽略所有文件夹（包括字体替换源），Aspose.Words 将使用 Fanwood 字体作为默认字体。
+[SetFontsFolder](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/setfontsfolder/) 和 [SetFontsFolders](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/setfontsfolder/s) 方法是具有一个或多个 [FolderFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/folderfontsource/) 实例的 **SetFontSources** 方法的快捷方式。这些方法用于指示 Aspose.Words 应在何处查找字体。如果文件夹不存在或不可访问，Aspose.Words 将忽略该文件夹。如果忽略所有文件夹（包括字体替换源），Aspose.Words 将使用 Fanwood 字体作为默认字体。
 
 以下示例演示如何设置文件夹或源，Aspose.Words 随后将在渲染或嵌入字体期间使用该文件夹或源来查找 TrueType 字体：
 
@@ -94,23 +94,23 @@ Aspose.Words 在 /Library/Fonts 文件夹中查找字体，该文件夹是 Mac O
 
 ### 优先财产
 
-当不同字体源中存在具有相同系列名称和样式的字体时，将使用 [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) 属性。在这种情况下，Aspose.Words 从具有较高优先级值的源中选择字体。例如，系统文件夹中有旧版本的字体，而客户在自定义文件夹中添加了相同字体的新版本。
+当不同字体源中存在具有相同系列名称和样式的字体时，将使用 [Priority](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsourcebase/priority/) 属性。在这种情况下，Aspose.Words 从具有较高优先级值的源中选择字体。例如，系统文件夹中有旧版本的字体，而客户在自定义文件夹中添加了相同字体的新版本。
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersWithPriority-SetFontsFoldersWithPriority.cs" >}}
 
 ## 从流 {#loading-fonts-from-stream} 加载字体
 
-Aspose.Words 提供 [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/) 类，允许从流加载字体。要使用流字体源，用户需要从 **StreamFontSource** 创建派生类并提供 [OpenFontDataStream](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/openfontdatastream/) 方法的实现。 **OpenFontDataStream** 方法可以被调用多次。第一次，当 Aspose.Words 扫描提供的字体源以获取可用字体列表时，它将被调用。稍后如果文档中使用该字体，则可能会调用它来解析字体数据并将字体数据嵌入到某些输出格式中。 **StreamFontSource** 可能很有用，因为它允许仅在需要时加载字体数据，而不是在 [字体设置](https://fontsettings/) 生命周期内将其存储在内存中。
+Aspose.Words 提供 [StreamFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/streamfontsource/) 类，允许从流加载字体。要使用流字体源，用户需要从 **StreamFontSource** 创建派生类并提供 [OpenFontDataStream](https://reference.aspose.com/words/zh/net/aspose.words.fonts/streamfontsource/openfontdatastream/) 方法的实现。 **OpenFontDataStream** 方法可以被调用多次。第一次，当 Aspose.Words 扫描提供的字体源以获取可用字体列表时，它将被调用。稍后如果文档中使用该字体，则可能会调用它来解析字体数据并将字体数据嵌入到某些输出格式中。 **StreamFontSource** 可能很有用，因为它允许仅在需要时加载字体数据，而不是在 [字体设置](https://fontsettings/) 生命周期内将其存储在内存中。
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-ResourceSteamFontSourceExample-ResourceSteamFontSourceExample.cs" >}}
 
-**StreamFontSource** 是 [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource/) 的替代方案，因为始终可以将流加载到内存并将其传递给 **MemoryFontSource**。不同之处在于，**MemoryFontSource** 始终存储在内存中，而 **StreamFontSource** 则按需加载并立即处理。但如上所述，它可能会被加载多次。在某些情况下，**MemoryFontSource** 更可取，而在其他情况下，**StreamFontSource** 更可取。
+**StreamFontSource** 是 [MemoryFontSource](https://reference.aspose.com/words/zh/net/aspose.words.fonts/memoryfontsource/) 的替代方案，因为始终可以将流加载到内存并将其传递给 **MemoryFontSource**。不同之处在于，**MemoryFontSource** 始终存储在内存中，而 **StreamFontSource** 则按需加载并立即处理。但如上所述，它可能会被加载多次。在某些情况下，**MemoryFontSource** 更可取，而在其他情况下，**StreamFontSource** 更可取。
 
 ## 保存并加载字体搜索缓存
 
 当第一次搜索字体时，Aspose.Words 会迭代用户指定的字体源，并根据这些源中的数据形成字体搜索缓存。因此，缓存将收集有关可用字体的信息：字体系列、样式、完整字体名称等。在后续调用中，Aspose.Words 按字体搜索缓存中的名称搜索所需字体的信息，然后解析指定的文件以使用该字体。
 
-解析所有可用字体文件以初始化缓存的过程非常耗时。 Aspose.Words允许您使用[SaveSearchCache](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/savesearchcache/)方式保存和加载缓存，以解决性能问题。也就是说，用户可以从文件加载先前保存的缓存并跳过解析所有可用字体文件的步骤。
+解析所有可用字体文件以初始化缓存的过程非常耗时。 Aspose.Words允许您使用[SaveSearchCache](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/savesearchcache/)方式保存和加载缓存，以解决性能问题。也就是说，用户可以从文件加载先前保存的缓存并跳过解析所有可用字体文件的步骤。
 
 {{% alert color="primary" %}}
 
@@ -155,6 +155,6 @@ settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, stream
 
 ## 获取可用字体 {#get-a-list-of-available-fonts} 的列表
 
-如果您想要获取可用字体的列表（例如，可用于呈现 PDF 文档），您可以使用 [GetAvailableFonts](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/getavailablefonts/) 方法，如以下代码示例所示。 [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) 类指定有关 Aspose.Words 字体引擎可用的物理字体的信息：
+如果您想要获取可用字体的列表（例如，可用于呈现 PDF 文档），您可以使用 [GetAvailableFonts](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsourcebase/getavailablefonts/) 方法，如以下代码示例所示。 [PhysicalFontInfo](https://reference.aspose.com/words/zh/net/aspose.words.fonts/physicalfontinfo/) 类指定有关 Aspose.Words 字体引擎可用的物理字体的信息：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSources-GetListOfAvailableFonts.cs" >}}

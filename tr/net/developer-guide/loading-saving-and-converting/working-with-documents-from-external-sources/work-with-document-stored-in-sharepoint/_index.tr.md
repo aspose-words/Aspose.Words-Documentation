@@ -267,4 +267,4 @@ Sonuç olarak, "TestDoc.pdf" dosyasının kök iletişim sitesinin "Paylaşılan
 
 - Sabit sayfa ve akış düzeni formatları hakkında daha fazla bilgi için [İşleme](/words/tr/net/rendering/) makalesi
 - Sayfa düzeni hakkında daha fazla bilgi için [Sabit Sayfa Formatına Dönüştürme](/words/net/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) makalesi
-- [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) sınıfını kullanma hakkında daha fazla bilgi için [PDF'ye Dönüştürürken İşleme Seçeneklerini Belirtin](/words/tr/net/specify-rendering-options-when-converting-to-pdf/) makalesi
+- [PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfını kullanma hakkında daha fazla bilgi için [PDF'ye Dönüştürürken İşleme Seçeneklerini Belirtin](/words/tr/net/specify-rendering-options-when-converting-to-pdf/) makalesi

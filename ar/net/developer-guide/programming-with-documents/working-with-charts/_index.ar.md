@@ -9,7 +9,7 @@ weight: 310
 url: /ar/net/working-with-charts/
 ---
 
-تمت إضافة طريقة [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) جديدة إلى فئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). لذلك، دعونا نرى كيفية إدراج مخطط عمودي بسيط في المستند باستخدام طريقة [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/).
+تمت إضافة طريقة [InsertChart](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertchart/) جديدة إلى فئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/). لذلك، دعونا نرى كيفية إدراج مخطط عمودي بسيط في المستند باستخدام طريقة [InsertChart](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertchart/).
 
 ## كيفية إدراج مخطط
 
@@ -78,7 +78,7 @@ url: /ar/net/working-with-charts/
 
 ## كيفية العمل مع مجموعة ChartSeries من الرسم البياني
 
-دعونا نلقي نظرة على مجموعة [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/). جميع سلاسل الرسوم البيانية متاحة من خلال مجموعة [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/)، وهي **IEnumerable**:
+دعونا نلقي نظرة على مجموعة [ChartSeries](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartseries/). جميع سلاسل الرسوم البيانية متاحة من خلال مجموعة [chart.Series](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chart/series/)، وهي **IEnumerable**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
@@ -95,7 +95,7 @@ url: /ar/net/working-with-charts/
 ![line-chart-chartseries-aspose-words-net](/words/net/working-with-charts/working-with-charts-7.png)
 
 
-تحتوي جميع ملفات [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) المنفردة على خيارات [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) افتراضية، يرجى محاولة استخدام الكود التالي لتغييرها:
+تحتوي جميع ملفات [ChartSeries](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartseries/) المنفردة على خيارات [ChartDataPoint](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartdatapoint/) افتراضية، يرجى محاولة استخدام الكود التالي لتغييرها:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
@@ -105,7 +105,7 @@ url: /ar/net/working-with-charts/
 
 ## كيفية العمل مع ChartDataPoint واحد لـ `ChartSeries`
 
-باستخدام [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/)، يمكنك تخصيص تنسيق نقطة بيانات واحدة في سلسلة المخططات:
+باستخدام [ChartDataPoint](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartdatapoint/)، يمكنك تخصيص تنسيق نقطة بيانات واحدة في سلسلة المخططات:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
@@ -115,7 +115,7 @@ url: /ar/net/working-with-charts/
 
 ## كيفية العمل مع ChartDataLabel لسلسلة ChartSeries واحدة
 
-باستخدام [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/)، يمكنك تحديد تنسيق تسمية بيانات واحدة لسلسلة المخططات، مثل إظهار/إخفاء LegendKey وCategoryName وSeriesName وValue وما إلى ذلك:
+باستخدام [ChartDataLabel](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartdatalabel/)، يمكنك تحديد تنسيق تسمية بيانات واحدة لسلسلة المخططات، مثل إظهار/إخفاء LegendKey وCategoryName وSeriesName وValue وما إلى ذلك:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
@@ -125,7 +125,7 @@ url: /ar/net/working-with-charts/
 
 ## كيفية تحديد الخيارات الافتراضية لـ ChartDataLabels في ChartSeries
 
-تحدد فئة [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) الخصائص التي يمكن استخدامها لتعيين الخيارات الافتراضية لـ **ChartDataLabels** لـ Chart **Series**. تتضمن هذه الخصائص ShowCategoryName وShowBubbleSize وShowPercentage وShowSeriesName وShowValue وما إلى ذلك:
+تحدد فئة [ChartDataLabelCollection](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartdatalabelcollection/) الخصائص التي يمكن استخدامها لتعيين الخيارات الافتراضية لـ **ChartDataLabels** لـ Chart **Series**. تتضمن هذه الخصائص ShowCategoryName وShowBubbleSize وShowPercentage وShowSeriesName وShowValue وما إلى ذلك:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
 
@@ -135,7 +135,7 @@ url: /ar/net/working-with-charts/
 
 ## كيفية تنسيق عدد تسمية بيانات المخطط
 
-باستخدام [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/)، يمكنك تحديد تنسيق الأرقام لتسمية بيانات واحدة للمخطط.
+باستخدام [NumberFormat](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartdatalabel/numberformat/)، يمكنك تحديد تنسيق الأرقام لتسمية بيانات واحدة للمخطط.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تنسيق عدد من تسمية البيانات:
 
@@ -143,7 +143,7 @@ url: /ar/net/working-with-charts/
 
 ## كيفية تعيين خصائص محور المخطط
 
-إذا كنت تريد العمل مع محور المخطط ووحدات القياس والعرض لمحور القيمة، فيرجى استخدام فئات [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/) و[AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/) و[AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/).
+إذا كنت تريد العمل مع محور المخطط ووحدات القياس والعرض لمحور القيمة، فيرجى استخدام فئات [ChartAxis](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartaxis/) و[AxisDisplayUnit](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/axisdisplayunit/) و[AxisScaling](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/axisscaling/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعريف خصائص المحور X وY:
 
@@ -185,7 +185,7 @@ url: /ar/net/working-with-charts/
 
 ### كيفية محاذاة تسمية المخطط
 
-إذا كنت تريد تعيين محاذاة النص للتسميات متعددة الأسطر، فيمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة خاصية [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.تنسيق**.
+إذا كنت تريد تعيين محاذاة النص للتسميات متعددة الأسطر، فيمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة خاصية [TickLabels](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.تنسيق**.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديد محاذاة التسمية:
 

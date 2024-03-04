@@ -15,7 +15,7 @@ OLE (ربط الكائنات وتضمينها) هي تقنية يمكن للمس
 
 ## إدراج كائن OLE
 
-إذا كنت تريد كائن OLE، فاتصل بالطريقة [InsertOleObject](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobject/) وقم بتمرير **ProgId** إليه بشكل صريح مع المعلمات الأخرى.
+إذا كنت تريد كائن OLE، فاتصل بالطريقة [InsertOleObject](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertoleobject/) وقم بتمرير **ProgId** إليه بشكل صريح مع المعلمات الأخرى.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج كائن OLE في مستند:
 
@@ -35,7 +35,7 @@ OLE (ربط الكائنات وتضمينها) هي تقنية يمكن للمس
 
 يمكن للمستخدمين الوصول إلى بيانات كائن OLE باستخدام خصائص وأساليب متنوعة لفئة `OleFormat`. على سبيل المثال، من الممكن الحصول على البيانات الأولية لكائن `OLE` أو مسار واسم الملف المصدر لكائن OLE المرتبط.
 
-يوضح مثال التعليمات البرمجية التالي كيفية الحصول على البيانات الأولية لكائن OLE باستخدام طريقة [GetRawData](https://reference.aspose.com/words/net/aspose.words.drawing/oleformat/getrawdata/):
+يوضح مثال التعليمات البرمجية التالي كيفية الحصول على البيانات الأولية لكائن OLE باستخدام طريقة [GetRawData](https://reference.aspose.com/words/ar/net/aspose.words.drawing/oleformat/getrawdata/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-GetAccessToOLEObjectRawData.cs" >}}
 
@@ -43,7 +43,7 @@ OLE (ربط الكائنات وتضمينها) هي تقنية يمكن للمس
 
 يمكن أيضًا إدراج كائنات OLE في المستندات كصور.
 
-يوضح مثال التعليمات البرمجية التالي كيفية إدراج كائن OLE كرمز. لهذا الغرض، تعرض فئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) طريقة [InsertOleObjectAsIcon](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertoleobjectasicon/):
+يوضح مثال التعليمات البرمجية التالي كيفية إدراج كائن OLE كرمز. لهذا الغرض، تعرض فئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) طريقة [InsertOleObjectAsIcon](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertoleobjectasicon/):
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertOLEObjectAsIcon.cs" >}}
 
@@ -59,9 +59,9 @@ OLE (ربط الكائنات وتضمينها) هي تقنية يمكن للمس
 
 ## إدراج فيديو عبر الإنترنت
 
-يمكن إدراج الفيديو عبر الإنترنت في مستند Word من علامة التبويب *"إدراج" &gt; "فيديو عبر الإنترنت"*. يمكنك إدراج مقطع فيديو عبر الإنترنت في مستند في الموقع الحالي عن طريق استدعاء طريقة [InsertOnlineVideo](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertonlinevideo/).
+يمكن إدراج الفيديو عبر الإنترنت في مستند Word من علامة التبويب *"إدراج" &gt; "فيديو عبر الإنترنت"*. يمكنك إدراج مقطع فيديو عبر الإنترنت في مستند في الموقع الحالي عن طريق استدعاء طريقة [InsertOnlineVideo](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertonlinevideo/).
 
-تقدم فئة [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) أربعة حمولات زائدة لهذه الطريقة. يعمل الأول مع موارد الفيديو الأكثر شيوعًا ويأخذ `URL` للفيديو كمعلمة. على سبيل المثال، يدعم التحميل الزائد الأول الإدراج البسيط لمقاطع الفيديو عبر الإنترنت من موارد [موقع YouTube](https://www.youtube.com/) و[فيميو](https://vimeo.com/).
+تقدم فئة [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/) أربعة حمولات زائدة لهذه الطريقة. يعمل الأول مع موارد الفيديو الأكثر شيوعًا ويأخذ `URL` للفيديو كمعلمة. على سبيل المثال، يدعم التحميل الزائد الأول الإدراج البسيط لمقاطع الفيديو عبر الإنترنت من موارد [موقع YouTube](https://www.youtube.com/) و[فيميو](https://vimeo.com/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج مقطع فيديو عبر الإنترنت من *Vimeo* في مستند:
 

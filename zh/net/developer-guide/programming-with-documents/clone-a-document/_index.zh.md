@@ -21,9 +21,9 @@ url: /zh/net/clone-a-document/
 
 ## 创建文档克隆
 
-Aspose.Words 允许您使用 [Clone](https://reference.aspose.com/words/net/aspose.words/document/clone/) 方法克隆文档，该方法执行文档的深层复制并返回它。换句话说，它将获得 DOM 的完整副本。 `Clone` 方法可加快文档生成速度，您只需一行代码即可获取文档的副本。
+Aspose.Words 允许您使用 [Clone](https://reference.aspose.com/words/zh/net/aspose.words/document/clone/) 方法克隆文档，该方法执行文档的深层复制并返回它。换句话说，它将获得 DOM 的完整副本。 `Clone` 方法可加快文档生成速度，您只需一行代码即可获取文档的副本。
 
-克隆会生成一个与原始文档内容相同的新文档，但具有原始文档的每个 [nodes](https://reference.aspose.com/words/net/aspose.words/node/) 的唯一副本。您还可以使用节点 [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) 方法将克隆操作应用于文档节点，该方法允许您复制带有或不带有子节点的复合文档节点。
+克隆会生成一个与原始文档内容相同的新文档，但具有原始文档的每个 [nodes](https://reference.aspose.com/words/zh/net/aspose.words/node/) 的唯一副本。您还可以使用节点 [Clone](https://reference.aspose.com/words/zh/net/aspose.words/node/clone/) 方法将克隆操作应用于文档节点，该方法允许您复制带有或不带有子节点的复合文档节点。
 
 {{% alert color="primary" %}}
 

@@ -13,9 +13,9 @@ Aspose.Words 还提供了一些用于处理脚注和尾注的类、方法和属�
 
 ## 插入尾注并设置编号选项
 
-如果您想在Word文档中插入脚注或尾注，请使用[InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/)方法。此方法将脚注或尾注插入文档中。
+如果您想在Word文档中插入脚注或尾注，请使用[InsertFootnote](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertfootnote/)方法。此方法将脚注或尾注插入文档中。
 
-[EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) 和 [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) 类代表脚注和尾注的编号选项。
+[EndnoteOptions](https://reference.aspose.com/words/zh/net/aspose.words.notes/endnoteoptions/) 和 [FootnoteOptions](https://reference.aspose.com/words/zh/net/aspose.words.notes/footnoteoptions/) 类代表脚注和尾注的编号选项。
 
 以下代码示例演示如何将尾注插入文档并设置其编号选项：
 
@@ -23,7 +23,7 @@ Aspose.Words 还提供了一些用于处理脚注和尾注的类、方法和属�
 
 ## 设置脚注布局列数
 
-您可以使用 [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/) 属性设置脚注布局列数。如果此属性的值为 0，则脚注区域的格式将根据显示页面上的列数设置为列数。
+您可以使用 [Columns](https://reference.aspose.com/words/zh/net/aspose.words.notes/footnoteoptions/columns/) 属性设置脚注布局列数。如果此属性的值为 0，则脚注区域的格式将根据显示页面上的列数设置为列数。
 
 以下代码示例显示如何设置脚注布局的列数：
 

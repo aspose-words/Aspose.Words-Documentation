@@ -14,10 +14,10 @@ keywords: "convert a document c#, convert documents from one format to another c
 
 ## Что такое преобразование документов {#what-is-document-conversion}
 
-Практически любая задача, которую вы хотите выполнить с помощью Aspose.Words, включает загрузку или сохранение документа в каком-либо формате. Как упоминалось в предыдущих разделах, перечисление [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/) определяет все форматы *load* или *import*, поддерживаемые Aspose.Words, а перечисление [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) определяет все форматы *save* или *export*, поддерживаемые Aspose.Words. Таким образом, Aspose.Words может преобразовать документ из любого поддерживаемого формата загрузки в любой поддерживаемый формат сохранения.. Как правило, такое преобразование требует нескольких этапов расчета. Однако с точки зрения пользователя преобразование из одного формата документа в другой само по себе очень просто и может быть выполнено всего за два шага:
+Практически любая задача, которую вы хотите выполнить с помощью Aspose.Words, включает загрузку или сохранение документа в каком-либо формате. Как упоминалось в предыдущих разделах, перечисление [LoadFormat](https://reference.aspose.com/words/ru/net/aspose.words/loadformat/) определяет все форматы *load* или *import*, поддерживаемые Aspose.Words, а перечисление [SaveFormat](https://reference.aspose.com/words/ru/net/aspose.words/saveformat/) определяет все форматы *save* или *export*, поддерживаемые Aspose.Words. Таким образом, Aspose.Words может преобразовать документ из любого поддерживаемого формата загрузки в любой поддерживаемый формат сохранения.. Как правило, такое преобразование требует нескольких этапов расчета. Однако с точки зрения пользователя преобразование из одного формата документа в другой само по себе очень просто и может быть выполнено всего за два шага:
 
-1. Загрузите документ в объект [Document](https://reference.aspose.com/words/net/aspose.words/document/), используя один из его конструкторов.
-1. Вызовите один из методов [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) объекта **Document** и укажите желаемый формат вывода.
+1. Загрузите документ в объект [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/), используя один из его конструкторов.
+1. Вызовите один из методов [Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/#save/) объекта **Document** и укажите желаемый формат вывода.
 
 {{% alert color="primary" %}}
 

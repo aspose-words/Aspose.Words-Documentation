@@ -11,7 +11,7 @@ url: /de/net/working-with-digital-signatures/
 
 Eine digitale Signatur ist eine technologische Implementierung elektronischer Signaturen zum Signieren von Dokumenten und zum Authentifizieren des Unterzeichners, um sicherzustellen, dass ein Dokument seit seiner Signatur nicht verändert wurde. Jede digitale Signatur ist für jeden Unterzeichner einzigartig, da das PKI-Protokoll zur Generierung sowohl öffentlicher als auch privater Schlüssel befolgt wird. Das digitale Signieren eines Dokuments bedeutet, dass eine Signatur mithilfe des privaten Schlüssels des Unterzeichners erstellt wird, wobei ein mathematischer Algorithmus zum Verschlüsseln des generierten Hashs verwendet wird.
 
-Mit Aspose.Words können Sie vorhandene digitale Signaturen erkennen, zählen oder überprüfen und Ihrem Dokument auch eine neue Signatur hinzufügen, um etwaige Manipulationen daran festzustellen. Sie können auch alle digitalen Signaturen aus einem Dokument entfernen. Verwenden Sie die [DigitalSignatureUtil](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/)-Klasse, um mit digitalen Signaturen zu arbeiten.
+Mit Aspose.Words können Sie vorhandene digitale Signaturen erkennen, zählen oder überprüfen und Ihrem Dokument auch eine neue Signatur hinzufügen, um etwaige Manipulationen daran festzustellen. Sie können auch alle digitalen Signaturen aus einem Dokument entfernen. Verwenden Sie die [DigitalSignatureUtil](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/digitalsignatureutil/)-Klasse, um mit digitalen Signaturen zu arbeiten.
 
 In diesem Artikel wird erläutert, wie Sie alle oben genannten Schritte ausführen, um die Authentizität und Integrität eines digitalen Dokuments zu überprüfen.
 
@@ -44,9 +44,9 @@ In der folgenden Tabelle werden einige Einschränkungen beschrieben, die bei der
 
 ## Digitale Signaturen erkennen, zählen und überprüfen
 
-Mit Aspose.Words können Sie mithilfe der [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/)-Methode und der [HasDigitalSignature](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasdigitalsignature/)-Eigenschaft digitale Signaturen in einem Dokument erkennen. Es ist zu beachten, dass bei einer solchen Prüfung nur die Tatsache der Unterschrift festgestellt wird, nicht jedoch deren Gültigkeit.
+Mit Aspose.Words können Sie mithilfe der [DetectFileFormat](https://reference.aspose.com/words/de/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/)-Methode und der [HasDigitalSignature](https://reference.aspose.com/words/de/net/aspose.words/fileformatinfo/hasdigitalsignature/)-Eigenschaft digitale Signaturen in einem Dokument erkennen. Es ist zu beachten, dass bei einer solchen Prüfung nur die Tatsache der Unterschrift festgestellt wird, nicht jedoch deren Gültigkeit.
 
-Ein Dokument kann mehr als einmal signiert werden, und dies kann von verschiedenen Benutzern erfolgen. Um die Gültigkeit digitaler Signaturen zu überprüfen, müssen Sie diese mit der [LoadSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/)-Methode aus dem Dokument laden und die [IsValid](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/)-Eigenschaft verwenden. Mit Aspose.Words können Sie außerdem mithilfe der [Count](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/)-Eigenschaft einen Satz aller digitalen Signaturen in einem Dokument zählen.
+Ein Dokument kann mehr als einmal signiert werden, und dies kann von verschiedenen Benutzern erfolgen. Um die Gültigkeit digitaler Signaturen zu überprüfen, müssen Sie diese mit der [LoadSignatures](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/)-Methode aus dem Dokument laden und die [IsValid](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/)-Eigenschaft verwenden. Mit Aspose.Words können Sie außerdem mithilfe der [Count](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/)-Eigenschaft einen Satz aller digitalen Signaturen in einem Dokument zählen.
 
 All dies bietet eine effiziente und sichere Möglichkeit, ein Dokument vor der Verarbeitung auf Unterschriften zu prüfen.
 
@@ -58,13 +58,13 @@ Das folgende Codebeispiel zeigt, wie Sie das Vorhandensein digitaler Signaturen 
 
 Um eine digitale Signatur zu erstellen, müssen Sie ein Signaturzertifikat laden, das die Identität bestätigt. Wenn Sie ein digital signiertes Dokument senden, senden Sie auch Ihr Zertifikat und Ihren öffentlichen Schlüssel.
 
-Mit Aspose.Words können Sie ein X.509-Zertifikat erstellen, ein digitales Zertifikat, das den international anerkannten X.509-PKI-Standard verwendet, um zu überprüfen, ob ein öffentlicher Schlüssel zum im Zertifikat enthaltenen Unterzeichner gehört. Verwenden Sie dazu die [Create](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/create/)-Methode innerhalb der [CertificateHolder](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/)-Klasse.
+Mit Aspose.Words können Sie ein X.509-Zertifikat erstellen, ein digitales Zertifikat, das den international anerkannten X.509-PKI-Standard verwendet, um zu überprüfen, ob ein öffentlicher Schlüssel zum im Zertifikat enthaltenen Unterzeichner gehört. Verwenden Sie dazu die [Create](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/certificateholder/create/)-Methode innerhalb der [CertificateHolder](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/certificateholder/)-Klasse.
 
 In den nächsten Abschnitten wird erläutert, wie Sie eine digitale Signatur und eine Signaturzeile hinzufügen und ein generiertes PDF-Dokument signieren.
 
 ### Unterschreiben Sie ein Dokument
 
-Mit Aspose.Words können Sie ein DOC-, DOCX-, XPS- oder ODT-Dokument mithilfe der [Sign](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/)-Methode und [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/)-Eigenschaften digital signieren.
+Mit Aspose.Words können Sie ein DOC-, DOCX-, XPS- oder ODT-Dokument mithilfe der [Sign](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/)-Methode und [SignOptions](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/signoptions/)-Eigenschaften digital signieren.
 
 Das folgende Codebeispiel zeigt, wie Sie Dokumente mithilfe eines Zertifikatsinhabers und der Signaturoptionen signieren:
 
@@ -72,7 +72,7 @@ Das folgende Codebeispiel zeigt, wie Sie Dokumente mithilfe eines Zertifikatsinh
 
 ### Fügen Sie eine Signaturzeile hinzu
 
-Eine Signaturzeile ist eine visuelle Darstellung einer digitalen Signatur in einem Dokument. Mit Aspose.Words können Sie eine Signaturzeile mithilfe der [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertsignatureline/)-Methode einfügen. Sie können die Parameter für diese Darstellung auch mithilfe der [SignatureLineOptions](https://reference.aspose.com/words/net/aspose.words/signaturelineoptions/)-Klasse festlegen.
+Eine Signaturzeile ist eine visuelle Darstellung einer digitalen Signatur in einem Dokument. Mit Aspose.Words können Sie eine Signaturzeile mithilfe der [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertsignatureline/)-Methode einfügen. Sie können die Parameter für diese Darstellung auch mithilfe der [SignatureLineOptions](https://reference.aspose.com/words/de/net/aspose.words/signaturelineoptions/)-Klasse festlegen.
 
 Das Bild unten zeigt beispielsweise, wie gültige und ungültige Signaturen angezeigt werden können.
 
@@ -88,7 +88,7 @@ Das folgende Codebeispiel zeigt, wie man ein Dokument mit einem persönlichen Ze
 
 ### Signieren Sie ein generiertes PDF-Dokument {#sign-a-generated-pdf-document}
 
-Mit Aspose.Words können Sie mithilfe der [PdfDigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/)-Eigenschaften ein PDF-Dokument signieren und alle Details abrufen.
+Mit Aspose.Words können Sie mithilfe der [PdfDigitalSignatureDetails](https://reference.aspose.com/words/de/net/aspose.words.saving/pdfdigitalsignaturedetails/)-Eigenschaften ein PDF-Dokument signieren und alle Details abrufen.
 
 Das folgende Codebeispiel zeigt, wie ein generiertes PDF signiert wird:
 
@@ -96,7 +96,7 @@ Das folgende Codebeispiel zeigt, wie ein generiertes PDF signiert wird:
 
 ## Rufen Sie den Wert der digitalen Signatur ab
 
-Aspose.Words bietet außerdem die Möglichkeit, mithilfe der [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/)-Eigenschaft den Wert der digitalen Signatur aus einem digital signierten Dokument als Byte-Array abzurufen.
+Aspose.Words bietet außerdem die Möglichkeit, mithilfe der [SignatureValue](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/)-Eigenschaft den Wert der digitalen Signatur aus einem digital signierten Dokument als Byte-Array abzurufen.
 
 Das folgende Codebeispiel zeigt, wie der Wert der digitalen Signatur als Byte-Array aus einem Dokument abgerufen wird:
 
@@ -104,7 +104,7 @@ Das folgende Codebeispiel zeigt, wie der Wert der digitalen Signatur als Byte-Ar
 
 ## Entfernen Sie digitale Signaturen
 
-Mit Aspose.Words können Sie mithilfe der [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/)-Methode alle digitalen Signaturen aus einem signierten Dokument entfernen.
+Mit Aspose.Words können Sie mithilfe der [RemoveAllSignatures](https://reference.aspose.com/words/de/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/)-Methode alle digitalen Signaturen aus einem signierten Dokument entfernen.
 
 Das folgende Codebeispiel zeigt, wie digitale Signaturen aus einem Dokument geladen und entfernt werden:
 

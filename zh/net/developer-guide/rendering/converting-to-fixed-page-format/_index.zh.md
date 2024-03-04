@@ -49,7 +49,7 @@ Aspose.Words 在内部实现页面布局功能，使其能够生成所有固定�
 
 ![converting-to-fixed-page-format_2](/words/net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-在 Aspose.Words 中，用户可以请求是否构建新的页面布局或更新现有的页面布局。这两者都可以通过 [Document](https://reference.aspose.com/words/net/aspose.words/document/) 类提供的 [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/) 方法来执行。如果页面布局不存在，但需要它（例如，当文档导出为固定页面格式时），Aspose.Words 将自动调用此方法。但是，如果页面布局已经存在，Aspose.Words 将使用现有的页面布局，以避免消耗更新它所需的资源。在这种情况下，用户需要调用 `UpdatePageLayout` 方法，以确保页面布局与文档模型保持同步。
+在 Aspose.Words 中，用户可以请求是否构建新的页面布局或更新现有的页面布局。这两者都可以通过 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 类提供的 [UpdatePageLayout](https://reference.aspose.com/words/zh/net/aspose.words/document/updatepagelayout/) 方法来执行。如果页面布局不存在，但需要它（例如，当文档导出为固定页面格式时），Aspose.Words 将自动调用此方法。但是，如果页面布局已经存在，Aspose.Words 将使用现有的页面布局，以避免消耗更新它所需的资源。在这种情况下，用户需要调用 `UpdatePageLayout` 方法，以确保页面布局与文档模型保持同步。
 
 ### 动态结构
 
@@ -65,22 +65,22 @@ Aspose.Words 在内部实现页面布局功能，使其能够生成所有固定�
 
 考虑 `NUMPAGES` 字段出现在文档首页页脚中的典型场景。该字段的值是总页数。为了在页面上定位字段，应该知道它的值。如果当前仅构建第一页，则尚不知道页面总数。在这种情况下，页面布局必须使用默认值，然后返回该字段并根据实际计算更改其值。然而，更改字段值可能会影响页面上的其他文档内容，并最终导致附加新页面或删除现有页面，从而使计算值过时。这个问题可以通过更新现有的页面布局来解决。
 
-创建布局时，还可以设置影响页面上文档输出的 [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) 属性。
+创建布局时，还可以设置影响页面上文档输出的 [LayoutOptions](https://reference.aspose.com/words/zh/net/aspose.words.layout/layoutoptions/) 属性。
 
 ## 保存为固定页面格式
 
 构建页面布局并计算对象的几何形状及其在页面上的位置后，可以将文档保存为 Aspose.Words 支持的固定页面格式。将文档保存为固定页面格式时，可以使用所有这些格式通用的呈现选项。它们允许控制：
 
-- 输出文档 ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)) 中包含的页数和范围。
-- 逐页文档保存（[PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)）的进度。
-- 一组用于数字渲染的字符 ([NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/))。
-- 图元文件播放器 ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/))。更多详细信息，请参阅 [处理 Windows 图元文件](/words/zh/net/handling-windows-metafiles/) 文章。
-- 重新压缩 JPEG 图像的质量率，其值可能略有不同，具体取决于所选的保存格式 ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/))。
-- 优化 Aspose.Words 输出 ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)) 中的矢量图形。
-- 保存为 Tiff、Png、Bmp、Jpeg、Emf 格式（[UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/)、[UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)）时的图形选项。
-- 以灰度 ([ColorMode](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/colormode/)) 保存文档。
-- 在 DrawingML 形状和后备形状 ([DmlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmlrenderingmode/)) 的渲染之间切换。
-- 在 DML 效果渲染模式 ([DmlEffectsRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)) 之间切换。
+- 输出文档 ([PageCount](https://reference.aspose.com/words/zh/net/aspose.words/document/pagecount/)) 中包含的页数和范围。
+- 逐页文档保存（[PageSavingCallback](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)）的进度。
+- 一组用于数字渲染的字符 ([NumeralFormat](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/))。
+- 图元文件播放器 ([MetafileRenderingOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/))。更多详细信息，请参阅 [处理 Windows 图元文件](/words/zh/net/handling-windows-metafiles/) 文章。
+- 重新压缩 JPEG 图像的质量率，其值可能略有不同，具体取决于所选的保存格式 ([JpegQuality](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/))。
+- 优化 Aspose.Words 输出 ([OptimizeOutput](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)) 中的矢量图形。
+- 保存为 Tiff、Png、Bmp、Jpeg、Emf 格式（[UseAntiAliasing](https://reference.aspose.com/words/zh/net/aspose.words.saving/saveoptions/useantialiasing/)、[UseHighQualityRendering](https://reference.aspose.com/words/zh/net/aspose.words.saving/saveoptions/usehighqualityrendering/)）时的图形选项。
+- 以灰度 ([ColorMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/fixedpagesaveoptions/colormode/)) 保存文档。
+- 在 DrawingML 形状和后备形状 ([DmlRenderingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/saveoptions/dmlrenderingmode/)) 的渲染之间切换。
+- 在 DML 效果渲染模式 ([DmlEffectsRenderingMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)) 之间切换。
 
 下面的示例演示了如何使用 `Save` 方法和渲染选项将文档保存为 JPEG 格式：
 

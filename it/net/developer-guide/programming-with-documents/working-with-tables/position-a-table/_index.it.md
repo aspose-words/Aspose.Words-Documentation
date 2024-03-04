@@ -20,7 +20,7 @@ In questo articolo discuteremo quali opzioni offre Aspose.Words per il posiziona
 
 ## Specificare la posizione della tabella in linea
 
-È possibile impostare la posizione di una tabella in linea utilizzando la proprietà Aspose.Words API e [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/). Pertanto, puoi regolare l'allineamento della tabella rispetto alla pagina del documento.
+È possibile impostare la posizione di una tabella in linea utilizzando la proprietà Aspose.Words API e [Alignment](https://reference.aspose.com/words/it/net/aspose.words.tables/table/alignment/). Pertanto, puoi regolare l'allineamento della tabella rispetto alla pagina del documento.
 
 L'esempio di codice seguente mostra come impostare la posizione di una tabella in linea:
 
@@ -28,9 +28,9 @@ L'esempio di codice seguente mostra come impostare la posizione di una tabella i
 
 ## Ottieni l'allineamento della tabella mobile
 
-Se la disposizione del testo della tabella è impostata su **Around**, puoi ottenere l'allineamento orizzontale e verticale della tabella utilizzando le proprietà [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) e [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/).
+Se la disposizione del testo della tabella è impostata su **Around**, puoi ottenere l'allineamento orizzontale e verticale della tabella utilizzando le proprietà [RelativeHorizontalAlignment](https://reference.aspose.com/words/it/net/aspose.words.tables/table/relativehorizontalalignment/) e [RelativeVerticalAlignment](https://reference.aspose.com/words/it/net/aspose.words.tables/table/relativeverticalalignment/).
 
-Con **altri tipi di disposizione del testo**, puoi ottenere l'allineamento della tabella in linea utilizzando la proprietà [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/).
+Con **altri tipi di disposizione del testo**, puoi ottenere l'allineamento della tabella in linea utilizzando la proprietà [Alignment](https://reference.aspose.com/words/it/net/aspose.words.tables/table/alignment/).
 
 L'esempio di codice seguente mostra come ottenere l'allineamento della tabella:
 
@@ -40,13 +40,13 @@ L'esempio di codice seguente mostra come ottenere l'allineamento della tabella:
 
  La posizione di una tabella mobile viene determinata utilizzando le seguenti proprietà:
 
-* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – un oggetto per calcolare il posizionamento orizzontale di un tavolo mobile
-* [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – un oggetto per calcolare il posizionamento verticale di una tabella mobile
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – posizione assoluta della tabella mobile orizzontale
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – posizione assoluta della tabella mobile verticale
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – opzione per abilitare/disabilitare la sovrapposizione con altri oggetti mobili
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – allineamento orizzontale relativo della tabella mobile.
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) – tabella mobile relativo allineamento verticale.
+* [HorizontalAnchor](https://reference.aspose.com/words/it/net/aspose.words.tables/table/horizontalanchor/) – un oggetto per calcolare il posizionamento orizzontale di un tavolo mobile
+* [VerticalAnchor](https://reference.aspose.com/words/it/net/aspose.words.tables/table/verticalanchor/) – un oggetto per calcolare il posizionamento verticale di una tabella mobile
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/it/net/aspose.words.tables/table/absolutehorizontaldistance/) – posizione assoluta della tabella mobile orizzontale
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/it/net/aspose.words.tables/table/absoluteverticaldistance/) – posizione assoluta della tabella mobile verticale
+* [AllowOverlap](https://reference.aspose.com/words/it/net/aspose.words.tables/table/allowoverlap/) – opzione per abilitare/disabilitare la sovrapposizione con altri oggetti mobili
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/it/net/aspose.words.tables/table/relativehorizontalalignment/) – allineamento orizzontale relativo della tabella mobile.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/it/net/aspose.words.tables/table/relativeverticalalignment/) – tabella mobile relativo allineamento verticale.
 
 L'esempio di codice seguente mostra come ottenere la posizione di una tabella mobile:
 
@@ -66,10 +66,10 @@ L'esempio di codice seguente mostra come impostare la posizione di una tabella m
 
 Aspose.Words offre anche l'opportunità di scoprire le distanze tra le tabelle e i testi circostanti:
 
-- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) – il valore della distanza dall'alto
-- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/) – il valore della distanza di percezione
-- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) – valore della distanza a destra
-- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) – valore della distanza a sinistra
+- [DistanceTop](https://reference.aspose.com/words/it/net/aspose.words.tables/table/distancetop/) – il valore della distanza dall'alto
+- [DistanceBottom](https://reference.aspose.com/words/it/net/aspose.words.tables/table/distancebottom/) – il valore della distanza di percezione
+- [DistanceRight](https://reference.aspose.com/words/it/net/aspose.words.tables/table/distanceright/) – valore della distanza a destra
+- [DistanceLeft](https://reference.aspose.com/words/it/net/aspose.words.tables/table/distanceleft/) – valore della distanza a sinistra
 
 L'esempio di codice seguente mostra come ottenere la distanza tra una tabella e il testo circostante:
 

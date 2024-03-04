@@ -9,11 +9,11 @@ weight: 250
 url: /it/net/working-with-textboxes/
 ---
 
-In Aspose.Words, la classe [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/) viene utilizzata per specificare come viene visualizzato il testo all'interno di una forma. Espone una proprietà pubblica denominata **Parent** per ottenere la forma padre per la casella di testo in modo che il cliente possa trovare il [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) collegato dal **TextBox** associato.
+In Aspose.Words, la classe [TextBox](https://reference.aspose.com/words/it/net/aspose.words.drawing/textbox/) viene utilizzata per specificare come viene visualizzato il testo all'interno di una forma. Espone una proprietà pubblica denominata **Parent** per ottenere la forma padre per la casella di testo in modo che il cliente possa trovare il [Shape](https://reference.aspose.com/words/it/net/aspose.words.drawing/shape/) collegato dal **TextBox** associato.
 
 ## Creazione di un collegamento
 
-La classe **TextBox** fornisce il metodo [IsValidLinkTarget](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/isvalidlinktarget/) per verificare se il **TextBox** può essere collegato all'**Textbox** di destinazione.
+La classe **TextBox** fornisce il metodo [IsValidLinkTarget](https://reference.aspose.com/words/it/net/aspose.words.drawing/textbox/isvalidlinktarget/) per verificare se il **TextBox** può essere collegato all'**Textbox** di destinazione.
 
 Il seguente esempio di codice mostra come verificare se il `TextBox` può essere collegato alla casella di testo di destinazione:
 
@@ -21,7 +21,7 @@ Il seguente esempio di codice mostra come verificare se il `TextBox` può essere
 
 ## Controlla la sequenza delle caselle di testo
 
-Esistono diversi modi per visualizzare il testo in una forma. Il [TextBox](https://reference.aspose.com/words/net/aspose.words.drawing/shape/textbox/) può essere la testa, il centro o la coda di una sequenza.
+Esistono diversi modi per visualizzare il testo in una forma. Il [TextBox](https://reference.aspose.com/words/it/net/aspose.words.drawing/shape/textbox/) può essere la testa, il centro o la coda di una sequenza.
 
 L'esempio di codice seguente mostra come verificare se **TextBox** è Head, Tail o Middle della sequenza:
 
@@ -29,7 +29,7 @@ L'esempio di codice seguente mostra come verificare se **TextBox** è Head, Tail
 
 ## Rompere un collegamento
 
-Utilizzando il metodo [BreakForwardLink](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/breakforwardlink/) è possibile interrompere il collegamento al successivo **TextBox**.
+Utilizzando il metodo [BreakForwardLink](https://reference.aspose.com/words/it/net/aspose.words.drawing/textbox/breakforwardlink/) è possibile interrompere il collegamento al successivo **TextBox**.
 
 Il seguente esempio di codice mostra come interrompere un collegamento per un **TextBox**:
 

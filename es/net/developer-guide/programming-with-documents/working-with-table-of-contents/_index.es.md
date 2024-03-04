@@ -19,7 +19,7 @@ A menudo trabajará con documentos que contienen una tabla de contenido (TOC). U
 
 ## Insertar tabla de contenidos mediante programación
 
-Puede insertar un campo `TOC` (tabla de contenido) en el documento en la posición actual llamando al método [InsertTableOfContents](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttableofcontents/).
+Puede insertar un campo `TOC` (tabla de contenido) en el documento en la posición actual llamando al método [InsertTableOfContents](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/inserttableofcontents/).
 
 Una tabla de contenido en un documento de Word se puede crear de varias maneras y formatear usando una variedad de opciones. Los cambios de campo que pasa al método controlan la forma en que se construye y muestra la tabla en su documento.
 
@@ -43,8 +43,8 @@ Sin los métodos utilizados en el ejemplo, al abrir el documento de salida, enco
 
 Aspose.Words le permite actualizar completamente un `TOC` con sólo unas pocas líneas de código. Esto se puede hacer para completar un `TOC` recién insertado o para actualizar un `TOC` existente después de que se hayan realizado cambios en el documento. Se deben utilizar los dos métodos siguientes para actualizar los campos `TOC` en el documento:
 
-1. [UpdateFields](https://reference.aspose.com/words/net/aspose.words/document/updatefields/)
-1. [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)
+1. [UpdateFields](https://reference.aspose.com/words/es/net/aspose.words/document/updatefields/)
+1. [UpdatePageLayout](https://reference.aspose.com/words/es/net/aspose.words/document/updatepagelayout/)
 
 Tenga en cuenta que es necesario llamar a estos dos métodos de actualización en ese orden. Si se invierte, se completará la tabla de contenidos pero no se mostrarán los números de página. Se puede actualizar cualquier cantidad de TOC diferentes. Estos métodos actualizarán automáticamente todos los TOC que se encuentran en el documento.
 
@@ -142,7 +142,7 @@ p> {   TC \f t }</p><p>{{< /highlight >}}</p>
 
 ## Insertar campos de CT
 
-Puede insertar un nuevo campo TC en la posición actual del [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) llamando al método [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) y especificando el nombre del campo como "TC" junto con los modificadores que sean necesarios.
+Puede insertar un nuevo campo TC en la posición actual del [DocumentBuilder](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/) llamando al método [InsertField](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/insertfield/) y especificando el nombre del campo como "TC" junto con los modificadores que sean necesarios.
 
 El siguiente ejemplo de código muestra cómo insertar un campo `TC` en el documento usando **DocumentBuilder**:
 
@@ -156,7 +156,7 @@ El siguiente ejemplo de código muestra cómo buscar e insertar un campo `TC` en
 
 ## Modificar tabla de contenidos
 
-El formato de las entradas en `TOC` no utiliza los estilos originales de las entradas marcadas, sino que cada nivel se formatea utilizando un estilo `TOC` equivalente. Por ejemplo, el primer nivel del `TOC` está formateado con el estilo **TOC1**, el segundo nivel con el estilo **TOC2**, etc. Esto significa que para cambiar el aspecto del `TOC` se deben modificar estos estilos. En Aspose.Words, estos estilos están representados desde `StyleIdentifier.TOC1` independiente de la configuración regional hasta `StyleIdentifier.TOC9` y se pueden recuperar de la colección [Styles](https://reference.aspose.com/words/net/aspose.words/documentbase/styles/) utilizando estos identificadores.
+El formato de las entradas en `TOC` no utiliza los estilos originales de las entradas marcadas, sino que cada nivel se formatea utilizando un estilo `TOC` equivalente. Por ejemplo, el primer nivel del `TOC` está formateado con el estilo **TOC1**, el segundo nivel con el estilo **TOC2**, etc. Esto significa que para cambiar el aspecto del `TOC` se deben modificar estos estilos. En Aspose.Words, estos estilos están representados desde `StyleIdentifier.TOC1` independiente de la configuración regional hasta `StyleIdentifier.TOC9` y se pueden recuperar de la colección [Styles](https://reference.aspose.com/words/es/net/aspose.words/documentbase/styles/) utilizando estos identificadores.
 
 Una vez que se ha recuperado el estilo apropiado del documento, se puede modificar el formato de este estilo. Cualquier cambio en estos estilos se reflejará automáticamente en los TOC del documento.
 
@@ -168,7 +168,7 @@ También es útil tener en cuenta que cualquier formato directo de un párrafo (
 
 También puede controlar el formato de los separadores utilizados entre cada entrada y número de página. De forma predeterminada, se trata de una línea de puntos que se extiende a lo largo de la numeración de páginas mediante un carácter de tabulación y una tabulación derecha alineada cerca del margen derecho.
 
-Usando la clase [Style](https://reference.aspose.com/words/net/aspose.words/style/) recuperada para el nivel `TOC` particular que desea modificar, también puede modificar cómo aparecen en el documento. Para cambiar cómo aparece esto, primero se debe llamar a [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/style/paragraphformat/) para recuperar el formato de párrafo para el estilo. A partir de aquí, las tabulaciones se pueden recuperar llamando a [TabStops](https://reference.aspose.com/words/net/aspose.words/paragraphformat/tabstops/) y modificando la tabulación adecuada. Usando esta misma técnica, la pestaña se puede mover o quitar por completo.
+Usando la clase [Style](https://reference.aspose.com/words/es/net/aspose.words/style/) recuperada para el nivel `TOC` particular que desea modificar, también puede modificar cómo aparecen en el documento. Para cambiar cómo aparece esto, primero se debe llamar a [ParagraphFormat](https://reference.aspose.com/words/es/net/aspose.words/style/paragraphformat/) para recuperar el formato de párrafo para el estilo. A partir de aquí, las tabulaciones se pueden recuperar llamando a [TabStops](https://reference.aspose.com/words/es/net/aspose.words/paragraphformat/tabstops/) y modificando la tabulación adecuada. Usando esta misma técnica, la pestaña se puede mover o quitar por completo.
 
 El siguiente ejemplo de código muestra cómo modificar la posición de la tabulación derecha en párrafos relacionados con `TOC`:
 
@@ -176,9 +176,9 @@ El siguiente ejemplo de código muestra cómo modificar la posición de la tabul
 
 ## Eliminar tabla de contenido del documento
 
-Se puede eliminar una tabla de contenido del documento eliminando todos los nodos que se encuentran entre el nodo `FieldStart` y FieldEnd del campo `TOC`. El siguiente código demuestra esto. La eliminación del campo `TOC` es más sencilla que un campo normal ya que no realizamos un seguimiento de los campos anidados. En lugar de eso, verificamos que el nodo [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) sea de tipo [FieldType.FieldTOC](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), lo que significa que hemos encontrado el final del TOC actual. Esta técnica se puede utilizar en este caso sin preocuparse por los campos anidados, ya que podemos asumir que cualquier documento formado correctamente no tendrá ningún campo `TOC` completamente anidado dentro de otro campo `TOC`.
+Se puede eliminar una tabla de contenido del documento eliminando todos los nodos que se encuentran entre el nodo `FieldStart` y FieldEnd del campo `TOC`. El siguiente código demuestra esto. La eliminación del campo `TOC` es más sencilla que un campo normal ya que no realizamos un seguimiento de los campos anidados. En lugar de eso, verificamos que el nodo [FieldEnd](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldend/) sea de tipo [FieldType.FieldTOC](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldtype/), lo que significa que hemos encontrado el final del TOC actual. Esta técnica se puede utilizar en este caso sin preocuparse por los campos anidados, ya que podemos asumir que cualquier documento formado correctamente no tendrá ningún campo `TOC` completamente anidado dentro de otro campo `TOC`.
 
-En primer lugar se recopilan y almacenan los nodos [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) de cada `TOC`. Luego, el `TOC` especificado se enumera para que todos los nodos dentro del campo sean visitados y almacenados. Luego, los nodos se eliminan del documento.
+En primer lugar se recopilan y almacenan los nodos [FieldStart](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldstart/) de cada `TOC`. Luego, el `TOC` especificado se enumera para que todos los nodos dentro del campo sean visitados y almacenados. Luego, los nodos se eliminan del documento.
 
 El siguiente ejemplo de código muestra cómo eliminar un `TOC` específico de un documento:
 

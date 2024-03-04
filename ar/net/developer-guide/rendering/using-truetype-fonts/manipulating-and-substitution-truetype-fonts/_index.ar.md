@@ -20,7 +20,7 @@ url: /ar/net/manipulating-and-substitution-truetype-fonts/
 
 ## التلاعب بالخط ومشكلات الأداء
 
-جميع آليات معالجة الخطوط المتوفرة موجودة في فئة [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/). هذه الفئة مسؤولة عن جلب الخطوط ضمن مصادر الخطوط المحددة بالإضافة إلى عملية استبدال الخط، كما هو موضح أدناه.
+جميع آليات معالجة الخطوط المتوفرة موجودة في فئة [FontSettings](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontsettings/). هذه الفئة مسؤولة عن جلب الخطوط ضمن مصادر الخطوط المحددة بالإضافة إلى عملية استبدال الخط، كما هو موضح أدناه.
 
 يتم تحليل الخطوط في عدة خطوات:
 
@@ -55,7 +55,7 @@ url: /ar/net/manipulating-and-substitution-truetype-fonts/
 ومع ذلك، هناك حالات لا يمكن فيها العثور على الخط الدقيق ويجب على Aspose.Words استبداله بخط مماثل بدلاً من ذلك. يقوم Aspose.Words بتحديد الخط وفقًا للعملية التالية:
 1. يحاول Aspose.Words العثور على خط من بين مصادر الخطوط المتاحة باسم الخط الدقيق.
 1. يحاول Aspose.Words العثور على الخط المطلوب بين الخطوط المضمنة في المستند الأصلي. يمكن أن تحتوي بعض تنسيقات المستندات مثل DOCX على خطوط مضمنة.
-1. إذا لم يتمكن Aspose.Words من تحديد موقع الخط المطلوب مع تطابق الاسم تمامًا، وخاصية [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) المحددة لهذا الخط، فسيبحث Aspose.Words عن الخط المحدد باستخدام **AltName** من فئة [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/)، والذي يحدد معلومات الخط.
+1. إذا لم يتمكن Aspose.Words من تحديد موقع الخط المطلوب مع تطابق الاسم تمامًا، وخاصية [AltName](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontinfo/altname/) المحددة لهذا الخط، فسيبحث Aspose.Words عن الخط المحدد باستخدام **AltName** من فئة [FontInfo](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontinfo/)، والذي يحدد معلومات الخط.
 1. إذا لم يتمكن Aspose.Words من تحديد موقع الخط المحدد، ولم يتم تعريف **AltName** أيضًا، فسيتم تطبيق قواعد استبدال الخط واحدة تلو الأخرى، كما هو موضح أدناه (عند العثور على البديل المناسب، تتوقف عملية استبدال الخط وتتوقف عملية استبدال الخط لم يتم تنفيذ الخطوة التالية):
    1. أولاً، يحاول Aspose.Words معالجة اسم الخط للحصول على الاستبدال، خاصة أنه يحاول إزالة اللواحق ذات الفواصل "-" و"".<br>
       إذا تم تطبيق قاعدة الاستبدال هذه، "لم يتم العثور على الخط '&lt;OriginalFont&gt;'. تم استخدام الخط '&lt;SubstitutionFont&gt;' بدلاً من ذلك. السبب: استبدال اسم الخط." يظهر تحذير.<br>
@@ -98,7 +98,7 @@ url: /ar/net/manipulating-and-substitution-truetype-fonts/
             fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
       {{< /highlight >}}
       إذا لم يكن **FontInfo** متاحًا للخط المفقود، فستتوقف العملية.<br>
-   1. سيتم تطبيق قاعدة استبدال **DefaultFont** في حالة فشل استبدال `FontInfo` أيضًا. يتم تمكين هذه القاعدة أيضًا بشكل افتراضي. طبقاً لهذه القاعدة، سيحاول Aspose.Words استخدام الخط الافتراضي المحدد في خاصية [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). إذا لم يقم المستخدم باختيار الخط الافتراضي الخاص به، فسيتم استخدام "Times New Roman" كخط افتراضي. يمكن تعطيل هذه القاعدة كما هو موضح أدناه:<br>
+   1. سيتم تطبيق قاعدة استبدال **DefaultFont** في حالة فشل استبدال `FontInfo` أيضًا. يتم تمكين هذه القاعدة أيضًا بشكل افتراضي. طبقاً لهذه القاعدة، سيحاول Aspose.Words استخدام الخط الافتراضي المحدد في خاصية [DefaultFontName](https://reference.aspose.com/words/ar/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/). إذا لم يقم المستخدم باختيار الخط الافتراضي الخاص به، فسيتم استخدام "Times New Roman" كخط افتراضي. يمكن تعطيل هذه القاعدة كما هو موضح أدناه:<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ url: /ar/net/manipulating-and-substitution-truetype-fonts/
 
 ## كيفية التعرف على أنه تم استبدال الخط
 
-في بعض الأحيان، قد يكون من غير الواضح سبب تغير تخطيط المستند، أو سبب عدم ظهور بعض الخطوط كما هو متوقع. في مثل هذه الحالات، يتم إنقاذ رسائل التحذير لاستبدال الخط التي تنفذها واجهة [IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/). لديهم نوع تحذير [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/) وتنسيق نص الوصف القياسي، "الخط"<OriginalFont> لم يتم العثور عليه. استخدام '<SubstitutionFont> "الخط بدلا من ذلك. سبب:<Reason> "، وذلك للأسباب التالية:
+في بعض الأحيان، قد يكون من غير الواضح سبب تغير تخطيط المستند، أو سبب عدم ظهور بعض الخطوط كما هو متوقع. في مثل هذه الحالات، يتم إنقاذ رسائل التحذير لاستبدال الخط التي تنفذها واجهة [IWarningCallback](https://reference.aspose.com/words/ar/net/aspose.words/iwarningcallback/). لديهم نوع تحذير [FontSubstitution](https://reference.aspose.com/words/ar/net/aspose.words/warningtype/) وتنسيق نص الوصف القياسي، "الخط"<OriginalFont> لم يتم العثور عليه. استخدام '<SubstitutionFont> "الخط بدلا من ذلك. سبب:<Reason> "، وذلك للأسباب التالية:
 
-- "الاسم البديل من المستند" - للاستبدال بواسطة [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname)
+- "الاسم البديل من المستند" - للاستبدال بواسطة [AltName](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontinfo/properties/altname)
 - "استبدال الخط" - للاستبدال بقاعدة تكوين الخط
 - "استبدال الجدول" - للاستبدال بقاعدة الجدول
 - "استبدال معلومات الخط" - للاستبدال بقاعدة معلومات الخط
@@ -133,7 +133,7 @@ url: /ar/net/manipulating-and-substitution-truetype-fonts/
 
 هناك آليتان مختلفتان مستخدمتان في Aspose.Words - استبدال الخط والخط الاحتياطي. يتم استخدام استبدال الخط عندما لا يمكن العثور على الخط المحدد في المستند بين مصادر الخطوط كما هو موضح في الأقسام أعلاه. يتم استخدام آلية الخط الاحتياطي عند حل الخط، لكنه لا يحتوي على حرف محدد. في هذه الحالة، يحاول Aspose.Words استخدام أحد الخطوط الاحتياطية للشخصية.
 
-توجد طريقة [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) تقوم تلقائيًا بإنشاء الإعدادات الاحتياطية عن طريق فحص الخطوط المتاحة. وبما أن هذه الطريقة قد تنتج إعدادًا احتياطيًا غير مثالي، فيمكنك التحكم في سلوك الخط الاحتياطي باستخدام خصائص فئة [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/). تحدد هذه الفئة إعدادات آلية الرجوع للخط. يمكنك الحصول على مثيل لفئة **FontFallbackSettings** كما يلي:
+توجد طريقة [BuildAutomatic](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) تقوم تلقائيًا بإنشاء الإعدادات الاحتياطية عن طريق فحص الخطوط المتاحة. وبما أن هذه الطريقة قد تنتج إعدادًا احتياطيًا غير مثالي، فيمكنك التحكم في سلوك الخط الاحتياطي باستخدام خصائص فئة [FontFallbackSettings](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontfallbacksettings/). تحدد هذه الفئة إعدادات آلية الرجوع للخط. يمكنك الحصول على مثيل لفئة **FontFallbackSettings** كما يلي:
 
 **.NET**
 
@@ -195,7 +195,7 @@ fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 
 ## إعدادات الخط الاحتياطي المحددة مسبقًا لخطوط Google Noto
 
-يوفر Aspose.Words إعدادات احتياطية للخط محددة مسبقًا لخطوط Google Noto. هذه خطوط مجانية مرخصة بموجب ترخيص SIL Open Font، ويمكن تنزيلها من Google Noto Fonts. توفر فئة **FontFallbackSettings** طريقة [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا، والتي تستخدم خطوط Google Noto كما هو موضح في مثال التعليمات البرمجية أدناه:
+يوفر Aspose.Words إعدادات احتياطية للخط محددة مسبقًا لخطوط Google Noto. هذه خطوط مجانية مرخصة بموجب ترخيص SIL Open Font، ويمكن تنزيلها من Google Noto Fonts. توفر فئة **FontFallbackSettings** طريقة [LoadNotoFallbackSettings](https://reference.aspose.com/words/ar/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/). يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا، والتي تستخدم خطوط Google Noto كما هو موضح في مثال التعليمات البرمجية أدناه:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

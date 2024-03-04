@@ -19,9 +19,9 @@ Il est important de savoir que de nombreuses options de chargement sont communes
 
 Pour une liste complète des fonctions, consultez la référence API:
 
-- [options de chargement pour tous les formats](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/)
-- [Options de chargement CHM](https://reference.aspose.com/words/net/aspose.words.loading/chmloadoptions/) pour le format CHM
-- [Options de chargement HTML](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/) pour le format HTML
-- [Options de chargement PDF](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) pour le format PDF
-- [Options de chargement RTF](https://reference.aspose.com/words/net/aspose.words.loading/rtfloadoptions/) pour le format RTF
-- [Options de chargement TXT](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) pour le format TXT
+- [options de chargement pour tous les formats](https://reference.aspose.com/words/fr/net/aspose.words.loading/loadoptions/)
+- [Options de chargement CHM](https://reference.aspose.com/words/fr/net/aspose.words.loading/chmloadoptions/) pour le format CHM
+- [Options de chargement HTML](https://reference.aspose.com/words/fr/net/aspose.words.loading/htmlloadoptions/) pour le format HTML
+- [Options de chargement PDF](https://reference.aspose.com/words/fr/net/aspose.words.loading/pdfloadoptions/) pour le format PDF
+- [Options de chargement RTF](https://reference.aspose.com/words/fr/net/aspose.words.loading/rtfloadoptions/) pour le format RTF
+- [Options de chargement TXT](https://reference.aspose.com/words/fr/net/aspose.words.loading/txtloadoptions/) pour le format TXT

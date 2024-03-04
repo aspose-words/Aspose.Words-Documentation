@@ -15,7 +15,7 @@ Les actions pouvant être effectuées avec les signets à l'aide de Aspose.Words
 
 ## Insérer un signet
 
-Utilisez [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) et [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/) pour créer un signet en marquant respectivement son début et sa fin. N'oubliez pas de transmettre le même nom de signet aux deux méthodes. Les signets d’un document peuvent se chevaucher et s’étendre sur n’importe quelle plage. Les signets mal formés ou les signets avec des noms en double seront ignorés lors de l'enregistrement du document.
+Utilisez [StartBookmark](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/startbookmark/) et [EndBookmark](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/endbookmark/) pour créer un signet en marquant respectivement son début et sa fin. N'oubliez pas de transmettre le même nom de signet aux deux méthodes. Les signets d’un document peuvent se chevaucher et s’étendre sur n’importe quelle plage. Les signets mal formés ou les signets avec des noms en double seront ignorés lors de l'enregistrement du document.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ L'exemple de code suivant montre comment créer un nouveau signet:
 
 ## Obtenir des signets
 
-Parfois, il est nécessaire d'obtenir une collection de signets pour parcourir les signets ou à d'autres fins. Utilisez la propriété [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) exposée par n'importe quel nœud de document qui renvoie un objet [Range](https://reference.aspose.com/words/net/aspose.words/range/) représentant la partie du document contenue dans ce nœud. Utilisez cet objet pour récupérer un [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/), puis utilisez l'indexeur de collection pour obtenir un signet spécifique.
+Parfois, il est nécessaire d'obtenir une collection de signets pour parcourir les signets ou à d'autres fins. Utilisez la propriété [Node.Range](https://reference.aspose.com/words/fr/net/aspose.words/node/range/) exposée par n'importe quel nœud de document qui renvoie un objet [Range](https://reference.aspose.com/words/fr/net/aspose.words/range/) représentant la partie du document contenue dans ce nœud. Utilisez cet objet pour récupérer un [BookmarkCollection](https://reference.aspose.com/words/fr/net/aspose.words/bookmarkcollection/), puis utilisez l'indexeur de collection pour obtenir un signet spécifique.
 
 L'exemple de code suivant montre comment obtenir des signets à partir d'une collection de signets:
 
@@ -66,7 +66,7 @@ L'exemple de code suivant montre comment accéder aux colonnes de la table marqu
 
 ## Déplacer vers un signet
 
-Si vous devez insérer du contenu riche (pas seulement du texte brut) dans un signet, vous devez utiliser [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) pour déplacer le curseur vers le signet, puis utiliser les méthodes et propriétés [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) pour insérer du contenu.
+Si vous devez insérer du contenu riche (pas seulement du texte brut) dans un signet, vous devez utiliser [MoveToBookmark](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/movetobookmark/) pour déplacer le curseur vers le signet, puis utiliser les méthodes et propriétés [DocumentBuilder's](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) pour insérer du contenu.
 
 ## Afficher Masquer le contenu des favoris
 

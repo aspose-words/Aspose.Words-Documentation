@@ -21,9 +21,9 @@ Después de crear un clon de su documento, podrá editarlo y realizar diferentes
 
 ## Crear un clon de documento
 
-Aspose.Words le permite clonar un documento utilizando el método [Clone](https://reference.aspose.com/words/net/aspose.words/document/clone/) que realiza una copia profunda del documento y lo devuelve. En otras palabras, obtendrá una copia completa del DOM. El método `Clone` acelera la generación de documentos y solo necesita una línea de código para obtener una copia de su documento.
+Aspose.Words le permite clonar un documento utilizando el método [Clone](https://reference.aspose.com/words/es/net/aspose.words/document/clone/) que realiza una copia profunda del documento y lo devuelve. En otras palabras, obtendrá una copia completa del DOM. El método `Clone` acelera la generación de documentos y solo necesita una línea de código para obtener una copia de su documento.
 
-La clonación produce un nuevo documento con el mismo contenido que el original, pero con una copia única de cada uno de los [nodes](https://reference.aspose.com/words/net/aspose.words/node/) del documento original. También puede aplicar la operación de clonación a un nodo de documento utilizando el método [Clone](https://reference.aspose.com/words/net/aspose.words/node/clone/) de nodo, que le permite duplicar nodos de documento compuestos con y sin sus nodos secundarios.
+La clonación produce un nuevo documento con el mismo contenido que el original, pero con una copia única de cada uno de los [nodes](https://reference.aspose.com/words/es/net/aspose.words/node/) del documento original. También puede aplicar la operación de clonación a un nodo de documento utilizando el método [Clone](https://reference.aspose.com/words/es/net/aspose.words/node/clone/) de nodo, que le permite duplicar nodos de documento compuestos con y sin sus nodos secundarios.
 
 {{% alert color="primary" %}}
 

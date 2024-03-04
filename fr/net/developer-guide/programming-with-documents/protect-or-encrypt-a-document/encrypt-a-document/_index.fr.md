@@ -19,7 +19,7 @@ Pour chiffrer un document, utilisez la propriété **Password** pour fournir un 
 
 {{% alert color="primary" %}}
 
-Vous pouvez trouver la propriété **Password** appropriée pour le format requis. Chaque format de sauvegarde de document au format [Enregistrement de l'espace de noms](https://reference.aspose.com/words/net/aspose.words.saving/) possède une classe correspondante contenant des options de sauvegarde pour ce format. Par exemple, la propriété [Password](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/password/) dans la classe [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) pour DOC ou la propriété [Password](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/password/) dans la classe [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/) pour DOCX, DOCM, DOTX, DOTM et FlatOpc.
+Vous pouvez trouver la propriété **Password** appropriée pour le format requis. Chaque format de sauvegarde de document au format [Enregistrement de l'espace de noms](https://reference.aspose.com/words/fr/net/aspose.words.saving/) possède une classe correspondante contenant des options de sauvegarde pour ce format. Par exemple, la propriété [Password](https://reference.aspose.com/words/fr/net/aspose.words.saving/docsaveoptions/password/) dans la classe [DocSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/docsaveoptions/) pour DOC ou la propriété [Password](https://reference.aspose.com/words/fr/net/aspose.words.saving/ooxmlsaveoptions/password/) dans la classe [OoxmlSaveOptions](https://reference.aspose.com/words/fr/net/aspose.words.saving/ooxmlsaveoptions/) pour DOCX, DOCM, DOTX, DOTM et FlatOpc.
 
 {{% /alert %}}
 
@@ -46,7 +46,7 @@ L'exemple de code suivant montre comment chiffrer un document avec un mot de pas
 
 Dans certains cas, vous pouvez avoir un document illisible et vouloir être sûr que le document est crypté et non corrompu ou compressé.
 
-Pour détecter si un document est chiffré et si un mot de passe est requis, vous pouvez utiliser la propriété [IsEncrypted](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/isencrypted/) de la classe [FileFormatInfo](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/). Cette propriété vous permettra également d'effectuer certaines actions avant de charger un document, par exemple demander à un utilisateur de fournir un mot de passe.
+Pour détecter si un document est chiffré et si un mot de passe est requis, vous pouvez utiliser la propriété [IsEncrypted](https://reference.aspose.com/words/fr/net/aspose.words/fileformatinfo/isencrypted/) de la classe [FileFormatInfo](https://reference.aspose.com/words/fr/net/aspose.words/fileformatinfo/). Cette propriété vous permettra également d'effectuer certaines actions avant de charger un document, par exemple demander à un utilisateur de fournir un mot de passe.
 
 L'exemple de code suivant montre comment détecter le chiffrement du document:
 

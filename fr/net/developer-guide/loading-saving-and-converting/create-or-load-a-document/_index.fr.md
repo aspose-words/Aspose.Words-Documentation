@@ -10,11 +10,11 @@ keywords: "create a document c#, load a document c#, create a blank document c#,
 weight: 10
 ---
 
-Presque toutes les tâches que vous souhaitez effectuer avec Aspose.Words impliquent le chargement d'un document. La classe `Document` représente un document chargé en mémoire. Le document possède plusieurs constructeurs surchargés permettant de créer un document vierge ou de le charger depuis un fichier ou un flux. Le document peut être chargé dans n'importe quel format de chargement pris en charge par Aspose.Words. Pour obtenir la liste de tous les formats de chargement pris en charge, consultez l'énumération [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/).
+Presque toutes les tâches que vous souhaitez effectuer avec Aspose.Words impliquent le chargement d'un document. La classe `Document` représente un document chargé en mémoire. Le document possède plusieurs constructeurs surchargés permettant de créer un document vierge ou de le charger depuis un fichier ou un flux. Le document peut être chargé dans n'importe quel format de chargement pris en charge par Aspose.Words. Pour obtenir la liste de tous les formats de chargement pris en charge, consultez l'énumération [LoadFormat](https://reference.aspose.com/words/fr/net/aspose.words/loadformat/).
 
 ## Créer un nouveau document {#create-a-new-document}
 
-Nous appellerons le constructeur [Document](https://reference.aspose.com/words/net/aspose.words/document/document/) sans paramètres pour créer un nouveau document vierge. Si vous souhaitez générer un document par programme, le moyen le plus simple consiste à utiliser la classe [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) pour ajouter le contenu du document.
+Nous appellerons le constructeur [Document](https://reference.aspose.com/words/fr/net/aspose.words/document/document/) sans paramètres pour créer un nouveau document vierge. Si vous souhaitez générer un document par programme, le moyen le plus simple consiste à utiliser la classe [DocumentBuilder](https://reference.aspose.com/words/fr/net/aspose.words/documentbuilder/) pour ajouter le contenu du document.
 
 L'exemple de code suivant montre comment créer un document à l'aide du générateur de documents:
 
@@ -25,13 +25,13 @@ L'exemple de code suivant montre comment créer un document à l'aide du génér
 Notez les valeurs par défaut:
 
 - Un document vierge contient une section avec les paramètres par défaut, un paragraphe vide et quelques styles de document. En fait, ce document est le même que le résultat de la création du "Nouveau document" dans Microsoft Word.
-- Le format du papier du document est [PaperSize](https://reference.aspose.com/words/net/aspose.words/papersize/).**Letter**.
+- Le format du papier du document est [PaperSize](https://reference.aspose.com/words/fr/net/aspose.words/papersize/).**Letter**.
 
 {{% /alert %}}
 
 ## Charger un document {#load-a-document}
 
-Pour charger un document existant dans l'un des formats [LoadFormat](https://reference.aspose.com/words/net/aspose.words/loadformat/), transmettez le nom du fichier ou le flux dans l'un des constructeurs de document. Le format du document chargé est automatiquement déterminé par son extension.
+Pour charger un document existant dans l'un des formats [LoadFormat](https://reference.aspose.com/words/fr/net/aspose.words/loadformat/), transmettez le nom du fichier ou le flux dans l'un des constructeurs de document. Le format du document chargé est automatiquement déterminé par son extension.
 
 ### Charger à partir d'un fichier {#load-from-a-file}
 

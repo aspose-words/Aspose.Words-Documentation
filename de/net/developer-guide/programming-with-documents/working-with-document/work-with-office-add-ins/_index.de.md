@@ -26,13 +26,13 @@ Mit Aspose.Words API können Sie beispielsweise ein Aufgabenbereich-Add-In hinzu
 
 Weberweiterungen sind Tools, die die Funktionen von Office-Anwendungen erweitern und mit Office-Dokumentinhalten interagieren. Weberweiterungen bieten Office-Clients zusätzliche Funktionen zur Verbesserung der Benutzererfahrung.
 
-Aspose.Words bietet die Möglichkeit, Weberweiterungen vom Typ "Aufgabenbereich" mithilfe der [WebExtension](https://reference.aspose.com/words/net/aspose.words.webextensions/webextension/)- und [TaskPane](https://reference.aspose.com/words/net/aspose.words.webextensions/taskpane/)-Klassen hinzuzufügen und ermöglicht Ihnen außerdem die Anpassung der Bereichs- und Erweiterungseigenschaften.
+Aspose.Words bietet die Möglichkeit, Weberweiterungen vom Typ "Aufgabenbereich" mithilfe der [WebExtension](https://reference.aspose.com/words/de/net/aspose.words.webextensions/webextension/)- und [TaskPane](https://reference.aspose.com/words/de/net/aspose.words.webextensions/taskpane/)-Klassen hinzuzufügen und ermöglicht Ihnen außerdem die Anpassung der Bereichs- und Erweiterungseigenschaften.
 
 Das folgende Codebeispiel zeigt, wie Sie Aufgabenbereiche erstellen und zu Aufgabenbereichen der Weberweiterung mit grundlegenden Eigenschaften hinzufügen:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-WebExtensions-WorkingWithWebExtension-UsingWebExtensionTaskPanes.cs" >}}
 
-Um eine Liste der Aufgabenbereich-Add-Ins anzuzeigen, verwenden Sie die [WebExtensionTaskPanes](https://reference.aspose.com/words/net/aspose.words/document/webextensiontaskpanes/)-Eigenschaft.
+Um eine Liste der Aufgabenbereich-Add-Ins anzuzeigen, verwenden Sie die [WebExtensionTaskPanes](https://reference.aspose.com/words/de/net/aspose.words/document/webextensiontaskpanes/)-Eigenschaft.
 
 Das folgende Codebeispiel zeigt, wie man eine solche Liste von Add-Ins erhält:
 

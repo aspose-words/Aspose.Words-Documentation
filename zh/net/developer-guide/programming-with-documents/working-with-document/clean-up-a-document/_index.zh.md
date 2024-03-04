@@ -13,13 +13,13 @@ url: /zh/net/clean-up-a-document/
 
 虽然您可以手动查找和删除未使用的数据（例如样式或列表）或重复信息，但使用 Aspose.Words 提供的特性和功能来执行此操作会更加方便。
 
-[CleanupOptions](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/) 类允许您指定文档清理选项。要从文档中删除重复的样式或仅删除未使用的样式或列表，您可以使用 [Cleanup](https://reference.aspose.com/words/net/aspose.words/document/cleanup/) 方法。
+[CleanupOptions](https://reference.aspose.com/words/zh/net/aspose.words/cleanupoptions/) 类允许您指定文档清理选项。要从文档中删除重复的样式或仅删除未使用的样式或列表，您可以使用 [Cleanup](https://reference.aspose.com/words/zh/net/aspose.words/document/cleanup/) 方法。
 
 ## 从文档中删除未使用的信息
 
-您可以使用 [UnusedStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedstyles/) 和 [UnusedBuiltinStyles](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) 属性来检测和删除标记为"未使用"的样式。
+您可以使用 [UnusedStyles](https://reference.aspose.com/words/zh/net/aspose.words/cleanupoptions/unusedstyles/) 和 [UnusedBuiltinStyles](https://reference.aspose.com/words/zh/net/aspose.words/cleanupoptions/unusedbuiltinstyles/) 属性来检测和删除标记为"未使用"的样式。
 
-您可以使用 [UnusedLists](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/unusedlists/) 属性来检测和删除标记为"未使用"的列表和列表定义。
+您可以使用 [UnusedLists](https://reference.aspose.com/words/zh/net/aspose.words/cleanupoptions/unusedlists/) 属性来检测和删除标记为"未使用"的列表和列表定义。
 
 以下代码示例演示如何从文档中仅删除未使用的样式：
 
@@ -27,7 +27,7 @@ url: /zh/net/clean-up-a-document/
 
 ## 从文档中删除重复信息
 
-您还可以使用 [DuplicateStyle](https://reference.aspose.com/words/net/aspose.words/cleanupoptions/duplicatestyle/) 属性将所有重复样式替换为原始样式，并从文档中删除重复项。
+您还可以使用 [DuplicateStyle](https://reference.aspose.com/words/zh/net/aspose.words/cleanupoptions/duplicatestyle/) 属性将所有重复样式替换为原始样式，并从文档中删除重复项。
 
 以下代码示例演示如何从文档中删除重复的样式：
 

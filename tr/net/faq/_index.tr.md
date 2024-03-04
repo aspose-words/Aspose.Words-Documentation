@@ -116,7 +116,7 @@ Bunun nedeni, Microsoft Office geri dönüş ayarlarının varsayılan olarak se
 
 **S: Tay dili veya İbranice gibi karmaşık alfabetik metinler, aksan işaretlerinin yanlış konumu veya hatalı bitişik harfler gibi bazı nedenlerden dolayı neden hatalı bir şekilde görüntülenebilir?**
 
-Bazı karmaşık yazı tiplerinin doğru görüntülenmesi için Gelişmiş Tipografi özelliklerinin işlenmesi gerekir. Gelişmiş Tipografi, Aspose.Words'te varsayılan olarak devre dışıdır. Kullanıcıların [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/) ile Gelişmiş Tipografiyi etkinleştirmesi gerekir.
+Bazı karmaşık yazı tiplerinin doğru görüntülenmesi için Gelişmiş Tipografi özelliklerinin işlenmesi gerekir. Gelişmiş Tipografi, Aspose.Words'te varsayılan olarak devre dışıdır. Kullanıcıların [TextShaperFactory](https://reference.aspose.com/words/tr/net/aspose.words.layout/layoutoptions/textshaperfactory/) ile Gelişmiş Tipografiyi etkinleştirmesi gerekir.
 
 ------
 
@@ -136,14 +136,14 @@ mail merge hakkında daha detaylı bilgiyi [Mail Merge ve Raporlama](/words/net/
 
 Birleştirme alanının orijinal adı, veri kaynağından gerekli verilerle değiştirilmeden aynı kalır, ardından:
 
-* Verilerin tablolara düzgün şekilde yüklendiğini kontrol edin: [TableName](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/tablename/)'i gerekli tüm birincil anahtarlar ve ilişkilerle doğru şekilde ayarlayın.
-* Birleştirme alanlarının doğru şekilde adlandırıldığını kontrol edin. Tüm birleştirme alanı adlarını almak ve şablonunuzdaki birleştirme alanlarının adının veri kaynağınızdaki adla eşleştiğinden emin olmak için [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) yöntemini kullanın.
+* Verilerin tablolara düzgün şekilde yüklendiğini kontrol edin: [TableName](https://reference.aspose.com/words/tr/net/aspose.words.mailmerging/imailmergedatasource/tablename/)'i gerekli tüm birincil anahtarlar ve ilişkilerle doğru şekilde ayarlayın.
+* Birleştirme alanlarının doğru şekilde adlandırıldığını kontrol edin. Tüm birleştirme alanı adlarını almak ve şablonunuzdaki birleştirme alanlarının adının veri kaynağınızdaki adla eşleştiğinden emin olmak için [GetFieldNames](https://reference.aspose.com/words/tr/net/aspose.words.mailmerging/mailmerge/getfieldnames/) yöntemini kullanın.
 
 ------
 
 **S: Neden iç içe birleştirmenin çıktısı, ana tablodaki ilk girişe ilişkin alt tablodaki verileri görüntülemiyor, ancak aslında ona bağlı olmayanlar da dahil olmak üzere üst tablodaki son girişin tüm öğelerini görüntülüyor?**
 
-Bunun nedeni, şablondaki birleştirme bölgelerinin doğru şekilde oluşturulmamasıdır; bu durum, iç içe geçmiş tüm mail merge bölgelerinin herhangi bir şeyi görüntülemeyi durdurmasına neden olabilir. [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) açılış etiketi ve [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) kapanış etiketi eşleşmeli ve aynı satır veya hücrede olmalıdır. Örneğin, birleştirme bölgelerini bir tablonun hücresine yerleştirmeye başlarsanız, birleştirme bölgesini ilk hücreyle aynı satırda sonlandırmanız gerekir.
+Bunun nedeni, şablondaki birleştirme bölgelerinin doğru şekilde oluşturulmamasıdır; bu durum, iç içe geçmiş tüm mail merge bölgelerinin herhangi bir şeyi görüntülemeyi durdurmasına neden olabilir. [StartTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/starttable/) açılış etiketi ve [EndTable](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endtable/) kapanış etiketi eşleşmeli ve aynı satır veya hücrede olmalıdır. Örneğin, birleştirme bölgelerini bir tablonun hücresine yerleştirmeye başlarsanız, birleştirme bölgesini ilk hücreyle aynı satırda sonlandırmanız gerekir.
 
 ------
 
@@ -172,7 +172,7 @@ Dokümanlarla programlama hakkında daha detaylı bilgiyi [Belgelerle Programlam
 
 **S: Bir belgeye eklenen içerik neden aynı sayfada görünmüyor?**
 
-Belgelerin birbirine eklendiği bölümlerin [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) ayarlarındaki farklılık nedeniyle ekleme sonucu ayrı bir sayfada görüntülenir. Dokümanların birbirine eklendiği bölümler için aynı **PageSetup** ayarlarını yapın.
+Belgelerin birbirine eklendiği bölümlerin [PageSetup](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/) ayarlarındaki farklılık nedeniyle ekleme sonucu ayrı bir sayfada görüntülenir. Dokümanların birbirine eklendiği bölümler için aynı **PageSetup** ayarlarını yapın.
 
 ## Belgeyi Dönüştür
 

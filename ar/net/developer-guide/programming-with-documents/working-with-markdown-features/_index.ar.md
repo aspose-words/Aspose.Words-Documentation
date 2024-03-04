@@ -106,7 +106,7 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 ## حدد خيارات حفظ Markdown
 
-يوفر Aspose.Words API فئة [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) لتحديد خيارات إضافية أثناء حفظ المستند بتنسيق Markdown.
+يوفر Aspose.Words API فئة [MarkdownSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/) لتحديد خيارات إضافية أثناء حفظ المستند بتنسيق Markdown.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديد خيارات حفظ Markdown المتنوعة.
 
@@ -114,6 +114,6 @@ We support Horizontal rules (Thematic breaks) in Markdown:
 
 ## كيفية محاذاة المحتوى داخل الجدول أثناء التصدير إلى Markdown
 
-يوفر Aspose.Words API تعداد [TableContentAlignment](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) الذي يحدد اتجاهات المحاذاة لمحاذاة المحتويات في الجداول أثناء التصدير إلى مستند Markdown. يوضح مثال التعليمات البرمجية التالي كيفية محاذاة المحتوى داخل الجدول.
+يوفر Aspose.Words API تعداد [TableContentAlignment](https://reference.aspose.com/words/ar/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/) الذي يحدد اتجاهات المحاذاة لمحاذاة المحتويات في الجداول أثناء التصدير إلى مستند Markdown. يوضح مثال التعليمات البرمجية التالي كيفية محاذاة المحتوى داخل الجدول.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-SpecifyMarkdownSaveOptions-ExportIntoMarkdownWithTableContentAlignment.cs" >}}

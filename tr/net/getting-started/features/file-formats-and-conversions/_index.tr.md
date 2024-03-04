@@ -126,7 +126,7 @@ DOC'dan HTML'ye – yüksek kalitede dönüştürme:
 
 ## Yüksek Ölçeklenebilirlik
 
-Ölçeklenebilir sunucu tarafı senaryoları, temel olarak basit ve temiz tasarımı nedeniyle Aspose.Words'i kullanır; Aspose.Words, çoklu iş parçacığını destekler. [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesneleri birbirinden bağımsızdır ve aynı anda yalnızca bir iş parçacığı bir belgeyi değiştirebildiği sürece (herhangi bir koleksiyon sınıfı için tipik bir gereksinim), birden çok iş parçacığı aynı anda herhangi bir sayıda belgeyi işleyebilir.
+Ölçeklenebilir sunucu tarafı senaryoları, temel olarak basit ve temiz tasarımı nedeniyle Aspose.Words'i kullanır; Aspose.Words, çoklu iş parçacığını destekler. [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesneleri birbirinden bağımsızdır ve aynı anda yalnızca bir iş parçacığı bir belgeyi değiştirebildiği sürece (herhangi bir koleksiyon sınıfı için tipik bir gereksinim), birden çok iş parçacığı aynı anda herhangi bir sayıda belgeyi işleyebilir.
 
 ## Yüksek performans
 

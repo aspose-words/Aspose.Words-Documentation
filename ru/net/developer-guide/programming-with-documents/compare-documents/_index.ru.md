@@ -43,7 +43,7 @@ url: /ru/net/compare-documents/
 
 Когда вы сравниваете документы, отличия последнего документа от первого проявляются в виде изменений в первом. Когда вы изменяете документ, каждое изменение будет иметь свою собственную версию после запуска метода сравнения.
 
-Aspose.Words позволяет выявлять различия документов с помощью метода [Compare](https://reference.aspose.com/words/net/aspose.words/document/compare/#compare/) — это аналогично функции сравнения документов Microsoft Word. Он позволяет вам проверять документы или версии документов на предмет различий и изменений, включая изменения форматирования, такие как изменения шрифта, изменения интервалов, добавление слов и абзацев.
+Aspose.Words позволяет выявлять различия документов с помощью метода [Compare](https://reference.aspose.com/words/ru/net/aspose.words/document/compare/#compare/) — это аналогично функции сравнения документов Microsoft Word. Он позволяет вам проверять документы или версии документов на предмет различий и изменений, включая изменения форматирования, такие как изменения шрифта, изменения интервалов, добавление слов и абзацев.
 
 В результате сравнения документы могут быть определены как равные или не равные. Термин "равные" документы означает, что метод сравнения не может представить изменения как редакции. Это означает, что и текст документа, и форматирование текста одинаковы. Но между документами могут быть и другие различия. Например, Microsoft Word поддерживает только версии формата для стилей, и вы не можете представить вставку/удаление стиля. Таким образом, документы могут иметь другой набор стилей, а метод **Compare** по-прежнему не создает никаких изменений.
 
@@ -57,13 +57,13 @@ Aspose.Words позволяет выявлять различия докумен
 
 ## Укажите дополнительные параметры сравнения {#specify-advanced-comparing-properties}
 
-Существует множество различных свойств класса [CompareOptions](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/), которые вы можете применить, когда хотите сравнить документы.
+Существует множество различных свойств класса [CompareOptions](https://reference.aspose.com/words/ru/net/aspose.words.comparing/compareoptions/), которые вы можете применить, когда хотите сравнить документы.
 
-Например, Aspose.Words позволяет игнорировать изменения, внесенные во время операции сравнения для определенных типов объектов в исходном документе. Вы можете выбрать подходящее свойство для типа объекта, например [IgnoreHeadersAndFooters](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/), [IgnoreFormatting](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreformatting/), [IgnoreComments](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignorecomments/) и другие, установив для них значение "true".
+Например, Aspose.Words позволяет игнорировать изменения, внесенные во время операции сравнения для определенных типов объектов в исходном документе. Вы можете выбрать подходящее свойство для типа объекта, например [IgnoreHeadersAndFooters](https://reference.aspose.com/words/ru/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/), [IgnoreFormatting](https://reference.aspose.com/words/ru/net/aspose.words.comparing/compareoptions/ignoreformatting/), [IgnoreComments](https://reference.aspose.com/words/ru/net/aspose.words.comparing/compareoptions/ignorecomments/) и другие, установив для них значение "true".
 
-Кроме того, Aspose.Words предоставляет свойство [Granularity](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/granularity/), с помощью которого можно указать, следует ли отслеживать изменения по символам или по словам.
+Кроме того, Aspose.Words предоставляет свойство [Granularity](https://reference.aspose.com/words/ru/net/aspose.words.comparing/compareoptions/granularity/), с помощью которого можно указать, следует ли отслеживать изменения по символам или по словам.
 
-Еще одним общим свойством является выбор, в каком документе отображать изменения сравнения. Например, в "Диалоговом окне "Сравнить документы"" в Microsoft Word есть опция "Показать изменения в" — это тоже влияет на результаты сравнения. Aspose.Words предоставляет свойство [Target](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/target/), которое служит этой цели.
+Еще одним общим свойством является выбор, в каком документе отображать изменения сравнения. Например, в "Диалоговом окне "Сравнить документы"" в Microsoft Word есть опция "Показать изменения в" — это тоже влияет на результаты сравнения. Aspose.Words предоставляет свойство [Target](https://reference.aspose.com/words/ru/net/aspose.words.comparing/compareoptions/target/), которое служит этой цели.
 
 В следующем примере кода показано, как установить расширенные свойства сравнения:
 

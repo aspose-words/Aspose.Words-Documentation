@@ -11,7 +11,7 @@ url: /it/net/applying-formatting/
 
 A ogni elemento di una tabella può essere applicata una formattazione diversa. Ad esempio, la formattazione della tabella verrà applicata all'intera tabella, la formattazione delle righe solo a determinate righe e la formattazione delle celle solo a determinate celle.
 
-Aspose.Words fornisce un testo API ricco per recuperare e applicare la formattazione a una tabella. È possibile utilizzare i nodi [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) e [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) per impostare la formattazione.
+Aspose.Words fornisce un testo API ricco per recuperare e applicare la formattazione a una tabella. È possibile utilizzare i nodi [Table](https://reference.aspose.com/words/it/net/aspose.words.tables/table/), [RowFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/rowformat/) e [CellFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/) per impostare la formattazione.
 
 In questo articolo parleremo di come applicare la formattazione a diversi nodi di tabella e di quali impostazioni di formattazione della tabella sono supportate da Aspose.Words.
 
@@ -21,11 +21,11 @@ In questa sezione esamineremo l'applicazione della formattazione a vari nodi del
 
 ### Formattazione a livello di tabella
 
-Per applicare la formattazione a una tabella, puoi utilizzare le proprietà disponibili sul nodo **Table** corrispondente utilizzando le classi [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/) e [TableCollection](https://reference.aspose.com/words/net/aspose.words.tables/tablecollection/).
+Per applicare la formattazione a una tabella, puoi utilizzare le proprietà disponibili sul nodo **Table** corrispondente utilizzando le classi [Table](https://reference.aspose.com/words/it/net/aspose.words.tables/table/), [PreferredWidth](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidth/) e [TableCollection](https://reference.aspose.com/words/it/net/aspose.words.tables/tablecollection/).
 
 {{% alert color="primary" %}}
 
-Tieni presente che la tabella deve avere almeno una riga prima che le proprietà della tabella possano essere applicate. Ciò significa che quando si costruisce una tabella con il [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), questa formattazione deve essere eseguita dopo la prima chiamata a [InsertCell](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcell/), o dopo che la prima riga è stata aggiunta alla tabella, o quando i nodi vengono inseriti direttamente nell'DOM.
+Tieni presente che la tabella deve avere almeno una riga prima che le proprietà della tabella possano essere applicate. Ciò significa che quando si costruisce una tabella con il [DocumentBuilder](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/), questa formattazione deve essere eseguita dopo la prima chiamata a [InsertCell](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertcell/), o dopo che la prima riga è stata aggiunta alla tabella, o quando i nodi vengono inseriti direttamente nell'DOM.
 
 {{% /alert %}}
 
@@ -60,7 +60,7 @@ L'esempio di codice seguente mostra come creare una tabella con tutti i bordi ab
 
 ### Formattazione a livello di riga
 
-La formattazione **A livello di riga** può essere controllata utilizzando le classi [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/) e [RowCollection](https://reference.aspose.com/words/net/aspose.words.tables/rowcollection/).
+La formattazione **A livello di riga** può essere controllata utilizzando le classi [Row](https://reference.aspose.com/words/it/net/aspose.words.tables/row/), [RowFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/rowformat/) e [RowCollection](https://reference.aspose.com/words/it/net/aspose.words.tables/rowcollection/).
 
 {{% alert color="primary" %}}
 
@@ -84,11 +84,11 @@ L'esempio di codice seguente mostra come modificare la formattazione della riga 
 
 ### Formattazione a livello di cella
 
-La formattazione a livello di cella è controllata dalle classi [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/) e [CellCollection](https://reference.aspose.com/words/net/aspose.words.tables/cellcollection/).
+La formattazione a livello di cella è controllata dalle classi [Cell](https://reference.aspose.com/words/it/net/aspose.words.tables/cell/), [CellFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/) e [CellCollection](https://reference.aspose.com/words/it/net/aspose.words.tables/cellcollection/).
 
 {{% alert color="primary" %}}
 
-Tieni presente che un **Cell** può essere solo un nodo figlio di un **Row**. Allo stesso tempo, deve esserci almeno un [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) nel **Cell** in modo che sia possibile applicargli la formattazione.
+Tieni presente che un **Cell** può essere solo un nodo figlio di un **Row**. Allo stesso tempo, deve esserci almeno un [Paragraph](https://reference.aspose.com/words/it/net/aspose.words/paragraph/) nel **Cell** in modo che sia possibile applicargli la formattazione.
 
 Oltre al **Paragraph**, puoi anche inserire un **Table** in un **Cell**.
 
@@ -120,14 +120,14 @@ Il modo più semplice per impostare l'altezza della riga è utilizzare **Documen
 
 In Aspose.Words, l'altezza delle righe della tabella è controllata da:
 
-- la proprietà dell'altezza della riga – [Height](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/height/)
-- la proprietà della regola dell'altezza per la riga specificata – [HeightRule](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/heightrule/)
+- la proprietà dell'altezza della riga – [Height](https://reference.aspose.com/words/it/net/aspose.words.tables/rowformat/height/)
+- la proprietà della regola dell'altezza per la riga specificata – [HeightRule](https://reference.aspose.com/words/it/net/aspose.words.tables/rowformat/heightrule/)
 
 Allo stesso tempo, è possibile impostare un'altezza diversa per ogni riga: ciò consente di controllare ampiamente le impostazioni del tavolo.
 
 {{% alert color="primary" %}}
 
-Le opzioni delle regole per specificare l'altezza di un oggetto possono essere impostate utilizzando l'enumerazione [HeightRule](https://reference.aspose.com/words/net/aspose.words/heightrule/).
+Le opzioni delle regole per specificare l'altezza di un oggetto possono essere impostate utilizzando l'enumerazione [HeightRule](https://reference.aspose.com/words/it/net/aspose.words/heightrule/).
 
 {{% /alert %}}
 
@@ -168,11 +168,11 @@ Tutte le proprietà e i metodi descritti in questo articolo sono correlati al fu
 
 La larghezza desiderata di una tabella o di singole celle viene definita tramite la proprietà larghezza preferita, ovvero la dimensione che un elemento cerca di adattarsi. Cioè, è possibile specificare la larghezza preferita per l'intera tabella o per singole celle. In alcune situazioni potrebbe non essere possibile adattare esattamente questa larghezza, ma nella maggior parte dei casi la larghezza effettiva sarà vicina a questo valore.
 
-Il tipo e il valore di larghezza preferiti appropriati vengono impostati utilizzando i metodi della classe [PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/):
+Il tipo e il valore di larghezza preferiti appropriati vengono impostati utilizzando i metodi della classe [PreferredWidth](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidth/):
 
-* il metodo [Auto](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/auto/) per specificare la larghezza automatica o "nessuna larghezza preferita"
-* il metodo [FromPercent](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompercent/) per specificare una larghezza percentuale
-* il metodo [FromPoints](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/frompoints/) per specificare la larghezza in punti
+* il metodo [Auto](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidth/auto/) per specificare la larghezza automatica o "nessuna larghezza preferita"
+* il metodo [FromPercent](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidth/frompercent/) per specificare una larghezza percentuale
+* il metodo [FromPoints](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidth/frompoints/) per specificare la larghezza in punti
 
 Le immagini seguenti mostrano una rappresentazione delle *funzioni di impostazione della larghezza preferite* in Microsoft Word e le loro proprietà corrispondenti in Aspose.Words.
 
@@ -190,7 +190,7 @@ Prima di poter utilizzare la larghezza preferita in una tabella, è necessario a
 
 #### Specificare la tabella preferita o la larghezza della cella
 
-In Aspose.Words, le larghezze di tabelle e celle vengono impostate utilizzando la proprietà [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) e la proprietà [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/), con le opzioni disponibili nell'enumerazione [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/):
+In Aspose.Words, le larghezze di tabelle e celle vengono impostate utilizzando la proprietà [Table.PreferredWidth](https://reference.aspose.com/words/it/net/aspose.words.tables/table/preferredwidth/) e la proprietà [CellFormat.PreferredWidth](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/preferredwidth/), con le opzioni disponibili nell'enumerazione [PreferredWidthType](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidthtype/):
 
 - **Auto**, che equivale a non impostare alcuna larghezza preferita
 - **Percent**, che adatta l'elemento rispetto allo spazio disponibile nella dimensione della finestra o del contenitore, e ricalcola il valore quando cambia la larghezza disponibile
@@ -202,13 +202,13 @@ Per impostazione predefinita, una tabella può essere descritta come adattata al
 
 {{% /alert %}}
 
-L'utilizzo della proprietà [Table.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/table/preferredwidth/) regolerà la sua larghezza preferita rispetto al suo contenitore: pagina, colonna di testo o cella di tabella esterna se si tratta di una tabella nidificata.
+L'utilizzo della proprietà [Table.PreferredWidth](https://reference.aspose.com/words/it/net/aspose.words.tables/table/preferredwidth/) regolerà la sua larghezza preferita rispetto al suo contenitore: pagina, colonna di testo o cella di tabella esterna se si tratta di una tabella nidificata.
 
 L'esempio di codice seguente mostra come impostare la tabella per l'adattamento automatico al 50% della larghezza della pagina:
 
 {{< gist "aspose-words-gists" "770bf20bd617f3cb80031a74cc6c9b73" "auto-fit-page-width.cs" >}}
 
-L'utilizzo della proprietà [CellFormat.PreferredWidth](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/preferredwidth/) su una determinata cella ne regolerà la larghezza preferita.
+L'utilizzo della proprietà [CellFormat.PreferredWidth](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/preferredwidth/) su una determinata cella ne regolerà la larghezza preferita.
 
 Il seguente esempio di codice mostra come impostare le diverse impostazioni di larghezza preferite:
 
@@ -216,7 +216,7 @@ Il seguente esempio di codice mostra come impostare le diverse impostazioni di l
 
 #### Trova il tipo e il valore di larghezza preferiti
 
-È possibile utilizzare le proprietà [Type](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/type/) e [Value](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidth/value/) per trovare i dettagli della larghezza preferita della tabella o cella desiderata.
+È possibile utilizzare le proprietà [Type](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidth/type/) e [Value](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidth/value/) per trovare i dettagli della larghezza preferita della tabella o cella desiderata.
 
 L'esempio di codice seguente mostra come recuperare il tipo di larghezza preferito di una cella di tabella:
 
@@ -230,7 +230,7 @@ L'esempio di codice seguente mostra come recuperare il tipo di larghezza preferi
 
 ### Come impostare l'adattamento automatico
 
-La proprietà [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) consente alle celle di una tabella di crescere e ridursi in base a un criterio selezionato. Ad esempio, puoi utilizzare l'opzione **Adatta automaticamente alla finestra** per adattare la tabella alla larghezza della pagina e l'opzione **Adattamento automatico al contenuto** per consentire a ciascuna cella di crescere o ridursi in base al suo contenuto.
+La proprietà [AllowAutoFit](https://reference.aspose.com/words/it/net/aspose.words.tables/table/allowautofit/) consente alle celle di una tabella di crescere e ridursi in base a un criterio selezionato. Ad esempio, puoi utilizzare l'opzione **Adatta automaticamente alla finestra** per adattare la tabella alla larghezza della pagina e l'opzione **Adattamento automatico al contenuto** per consentire a ciascuna cella di crescere o ridursi in base al suo contenuto.
 
 {{% alert color="primary" %}}
 
@@ -238,7 +238,7 @@ Inoltre, la proprietà **AllowAutoFit** può essere utilizzata insieme a una lar
 
 {{% /alert %}}
 
-Per impostazione predefinita, Aspose.Words inserisce una nuova tabella utilizzando **Adatta automaticamente alla finestra**. La tabella verrà dimensionata in base alla larghezza della pagina disponibile. Per ridimensionare una tabella, puoi chiamare il metodo [AutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/autofit/). Questo metodo accetta un'enumerazione [AutoFitBehavior](https://reference.aspose.com/words/net/aspose.words.tables/autofitbehavior/) che specifica il tipo di adattamento automatico applicato alla tabella.
+Per impostazione predefinita, Aspose.Words inserisce una nuova tabella utilizzando **Adatta automaticamente alla finestra**. La tabella verrà dimensionata in base alla larghezza della pagina disponibile. Per ridimensionare una tabella, puoi chiamare il metodo [AutoFit](https://reference.aspose.com/words/it/net/aspose.words.tables/table/autofit/). Questo metodo accetta un'enumerazione [AutoFitBehavior](https://reference.aspose.com/words/it/net/aspose.words.tables/autofitbehavior/) che specifica il tipo di adattamento automatico applicato alla tabella.
 
 È importante sapere che il metodo di adattamento automatico è in realtà una scorciatoia che applica contemporaneamente proprietà diverse alla tabella. Queste sono proprietà che effettivamente danno alla tabella il comportamento osservato. Discuteremo queste proprietà per ciascuna opzione di adattamento automatico.
 
@@ -298,7 +298,7 @@ Se in una tabella l'adattamento automatico è disabilitato e vengono utilizzate 
 1. La proprietà **Table.AllowAutoFit** è disabilitata in modo che le colonne non aumentino o si riducano al loro contenuto
 
 2. La larghezza preferita dell'intera tabella viene rimossa da **Table.PreferredWidth**, **CellFormat.PreferredWidth** viene rimosso da tutte le celle della tabella
-3. Il risultato finale è una tabella le cui larghezze delle colonne sono determinate dalla proprietà [CellFormat.Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) e le cui colonne non vengono ridimensionate automaticamente quando l'utente inserisce del testo o quando la pagina viene ridimensionata
+3. Il risultato finale è una tabella le cui larghezze delle colonne sono determinate dalla proprietà [CellFormat.Width](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/width/) e le cui colonne non vengono ridimensionate automaticamente quando l'utente inserisce del testo o quando la pagina viene ridimensionata
 
 {{% alert color="primary" %}}
 
@@ -318,7 +318,7 @@ Il seguente esempio di codice mostra come disabilitare l'adattamento automatico 
 
 ### Ordine di precedenza nel calcolo della larghezza della cella
 
-Aspose.Words consente agli utenti di definire la larghezza di una tabella o cella attraverso più oggetti, incluso [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/): la sua proprietà [Width](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/width/) è per lo più lasciata dalle versioni precedenti, tuttavia è comunque utile per semplificare l'impostazione della larghezza della cella.
+Aspose.Words consente agli utenti di definire la larghezza di una tabella o cella attraverso più oggetti, incluso [CellFormat](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/): la sua proprietà [Width](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/width/) è per lo più lasciata dalle versioni precedenti, tuttavia è comunque utile per semplificare l'impostazione della larghezza della cella.
 
 È importante sapere che la proprietà **CellFormat.Width** funziona in modo diverso a seconda di quale delle altre proprietà di larghezza esiste già nella tabella.
 
@@ -326,9 +326,9 @@ Aspose.Words utilizza il seguente ordine per calcolare la larghezza delle celle:
 
 |  Ordine |  Proprietà |  Descrizione |
 |  -----  |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  1      |  [AllowAutoFit](https://reference.aspose.com/words/net/aspose.words.tables/table/allowautofit/) è determinato |  Se **AutoFit** è abilitato:<br>- la tabella potrebbe crescere oltre la larghezza preferita per accogliere il contenuto; solitamente non si restringe al di sotto della larghezza preferita<br>- qualsiasi modifica al valore **CellFormat.Width** viene ignorata e la cella si adatterà invece al suo contenuto |
-|  2      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) con un valore **Points** o **Percent** |  **CellFormat.Width** viene ignorato |
-|  3      |  [PreferredWidthType](https://reference.aspose.com/words/net/aspose.words.tables/preferredwidthtype/) con un valore **Auto** |  Il valore di **CellFormat.Width** viene copiato e diventa la larghezza preferita della cella (in punti) |
+|  1      |  [AllowAutoFit](https://reference.aspose.com/words/it/net/aspose.words.tables/table/allowautofit/) è determinato |  Se **AutoFit** è abilitato:<br>- la tabella potrebbe crescere oltre la larghezza preferita per accogliere il contenuto; solitamente non si restringe al di sotto della larghezza preferita<br>- qualsiasi modifica al valore **CellFormat.Width** viene ignorata e la cella si adatterà invece al suo contenuto |
+|  2      |  [PreferredWidthType](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidthtype/) con un valore **Points** o **Percent** |  **CellFormat.Width** viene ignorato |
+|  3      |  [PreferredWidthType](https://reference.aspose.com/words/it/net/aspose.words.tables/preferredwidthtype/) con un valore **Auto** |  Il valore di **CellFormat.Width** viene copiato e diventa la larghezza preferita della cella (in punti) |
 
 {{% alert color="primary" %}}
 
@@ -344,7 +344,7 @@ Durante la creazione di un layout di tabella fisso, specificare la larghezza del
 
 ## Consenti spaziatura tra le celle
 
-Puoi ottenere o impostare qualsiasi spazio aggiuntivo tra le celle della tabella in modo simile all'opzione "Spaziatura celle" in Microsoft Word. Questo può essere fatto utilizzando la proprietà [AllowCellSpacing](https://reference.aspose.com/words/net/aspose.words.tables/table/allowcellspacing/).
+Puoi ottenere o impostare qualsiasi spazio aggiuntivo tra le celle della tabella in modo simile all'opzione "Spaziatura celle" in Microsoft Word. Questo può essere fatto utilizzando la proprietà [AllowCellSpacing](https://reference.aspose.com/words/it/net/aspose.words.tables/table/allowcellspacing/).
 
 Un esempio di come queste opzioni vengono applicate a una tabella reale in un documento può essere visto nell'immagine qui sotto.
 
@@ -356,7 +356,7 @@ L'esempio di codice seguente mostra come impostare la spaziatura tra le celle:
 
 ## Applica bordi e ombreggiatura
 
-I bordi e l'ombreggiatura possono essere applicati all'intera tabella utilizzando [Table.SetBorder](https://reference.aspose.com/words/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/net/aspose.words.tables/table/setborders/) e [Table.SetShading](https://reference.aspose.com/words/net/aspose.words.tables/table/setshading/) o solo a celle specifiche utilizzando [CellFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/borders/) e [CellFormat.Shading](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/shading/). Inoltre, i bordi delle righe possono essere impostati utilizzando [RowFormat.Borders](https://reference.aspose.com/words/net/aspose.words.tables/rowformat/borders/), tuttavia non è possibile applicare l'ombreggiatura in questo modo.
+I bordi e l'ombreggiatura possono essere applicati all'intera tabella utilizzando [Table.SetBorder](https://reference.aspose.com/words/it/net/aspose.words.tables/table/setborder/), [Table.SetBorders](https://reference.aspose.com/words/it/net/aspose.words.tables/table/setborders/) e [Table.SetShading](https://reference.aspose.com/words/it/net/aspose.words.tables/table/setshading/) o solo a celle specifiche utilizzando [CellFormat.Borders](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/borders/) e [CellFormat.Shading](https://reference.aspose.com/words/it/net/aspose.words.tables/cellformat/shading/). Inoltre, i bordi delle righe possono essere impostati utilizzando [RowFormat.Borders](https://reference.aspose.com/words/it/net/aspose.words.tables/rowformat/borders/), tuttavia non è possibile applicare l'ombreggiatura in questo modo.
 
 Le immagini sottostanti mostrano le impostazioni del bordo e dell'ombra in Microsoft Word e le loro proprietà corrispondenti in Aspose.Words.
 

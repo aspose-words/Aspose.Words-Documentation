@@ -11,7 +11,7 @@ url: /ar/net/working-with-digital-signatures/
 
 التوقيع الرقمي هو تطبيق تكنولوجي للتوقيعات الإلكترونية لتوقيع المستندات والمصادقة على الموقع لضمان عدم تعديل المستند منذ التوقيع عليه. كل توقيع رقمي فريد لكل موقّع بسبب اتباع بروتوكول PKI لإنشاء المفاتيح العامة والخاصة. يعني توقيع مستند رقميًا إنشاء توقيع باستخدام المفتاح الخاص للموقع حيث يتم استخدام خوارزمية رياضية لتشفير التجزئة التي تم إنشاؤها.
 
-يسمح لك Aspose.Words باكتشاف التوقيعات الرقمية الموجودة أو إحصائها أو التحقق منها، وكذلك إضافة توقيع جديد إلى مستندك لاكتشاف أي تلاعب فيه. يمكنك أيضًا إزالة جميع التوقيعات الرقمية من المستند. استخدم فئة [DigitalSignatureUtil](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/) للعمل مع التوقيعات الرقمية.
+يسمح لك Aspose.Words باكتشاف التوقيعات الرقمية الموجودة أو إحصائها أو التحقق منها، وكذلك إضافة توقيع جديد إلى مستندك لاكتشاف أي تلاعب فيه. يمكنك أيضًا إزالة جميع التوقيعات الرقمية من المستند. استخدم فئة [DigitalSignatureUtil](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/digitalsignatureutil/) للعمل مع التوقيعات الرقمية.
 
 تشرح هذه المقالة كيفية القيام بكل ما سبق للتحقق من صحة وسلامة المستند الرقمي.
 
@@ -44,9 +44,9 @@ url: /ar/net/working-with-digital-signatures/
 
 ## كشف التوقيعات الرقمية وإحصائها والتحقق منها
 
-يتيح لك Aspose.Words اكتشاف التوقيع الرقمي في المستند باستخدام طريقة [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) وخاصية [HasDigitalSignature](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasdigitalsignature/). ومن الجدير بالذكر أن مثل هذا الفحص لن يكشف إلا عن حقيقة التوقيع، وليس عن صحته.
+يتيح لك Aspose.Words اكتشاف التوقيع الرقمي في المستند باستخدام طريقة [DetectFileFormat](https://reference.aspose.com/words/ar/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) وخاصية [HasDigitalSignature](https://reference.aspose.com/words/ar/net/aspose.words/fileformatinfo/hasdigitalsignature/). ومن الجدير بالذكر أن مثل هذا الفحص لن يكشف إلا عن حقيقة التوقيع، وليس عن صحته.
 
-يمكن توقيع المستند أكثر من مرة، ويمكن أن يتم ذلك بواسطة مستخدمين مختلفين. للتحقق من صحة التوقيعات الرقمية، تحتاج إلى تحميلها من المستند باستخدام طريقة [LoadSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) واستخدام خاصية [IsValid](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/). كما يتيح لك Aspose.Words حساب مجموعة من كافة التوقيعات الرقمية داخل المستند باستخدام خاصية [Count](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/).
+يمكن توقيع المستند أكثر من مرة، ويمكن أن يتم ذلك بواسطة مستخدمين مختلفين. للتحقق من صحة التوقيعات الرقمية، تحتاج إلى تحميلها من المستند باستخدام طريقة [LoadSignatures](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) واستخدام خاصية [IsValid](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/). كما يتيح لك Aspose.Words حساب مجموعة من كافة التوقيعات الرقمية داخل المستند باستخدام خاصية [Count](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/).
 
 كل هذا يوفر طريقة فعالة وآمنة للتحقق من التوقيعات في المستند قبل معالجته.
 
@@ -58,13 +58,13 @@ url: /ar/net/working-with-digital-signatures/
 
 لإنشاء توقيع رقمي، سوف تحتاج إلى تحميل شهادة توقيع تؤكد الهوية. عند إرسال مستند موقع رقميًا، فإنك ترسل أيضًا شهادتك ومفتاحك العام.
 
-يسمح لك Aspose.Words بإنشاء شهادة X.509، وهي شهادة رقمية تستخدم معيار X.509 PKI المقبول دوليًا للتحقق من أن المفتاح العام ينتمي إلى المُوقِّع المُدرج داخل الشهادة. للقيام بذلك، استخدم أسلوب [Create](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/create/) ضمن فئة [CertificateHolder](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/).
+يسمح لك Aspose.Words بإنشاء شهادة X.509، وهي شهادة رقمية تستخدم معيار X.509 PKI المقبول دوليًا للتحقق من أن المفتاح العام ينتمي إلى المُوقِّع المُدرج داخل الشهادة. للقيام بذلك، استخدم أسلوب [Create](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/certificateholder/create/) ضمن فئة [CertificateHolder](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/certificateholder/).
 
 تشرح الأقسام التالية كيفية إضافة توقيع رقمي وسطر توقيع وكيفية توقيع مستند PDF تم إنشاؤه.
 
 ### التوقيع على وثيقة
 
-يتيح لك Aspose.Words التوقيع على مستند DOC أو DOCX أو XPS أو ODT رقميًا باستخدام طريقة [Sign](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) وخصائص [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/).
+يتيح لك Aspose.Words التوقيع على مستند DOC أو DOCX أو XPS أو ODT رقميًا باستخدام طريقة [Sign](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) وخصائص [SignOptions](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/signoptions/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية توقيع المستندات باستخدام حامل الشهادة وخيارات التوقيع:
 
@@ -72,7 +72,7 @@ url: /ar/net/working-with-digital-signatures/
 
 ### أضف خط التوقيع
 
-سطر التوقيع هو تمثيل مرئي للتوقيع الرقمي في المستند. يتيح لك Aspose.Words إدراج سطر التوقيع باستخدام طريقة [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertsignatureline/). يمكنك أيضًا تعيين المعلمات لهذا التمثيل باستخدام فئة [SignatureLineOptions](https://reference.aspose.com/words/net/aspose.words/signaturelineoptions/).
+سطر التوقيع هو تمثيل مرئي للتوقيع الرقمي في المستند. يتيح لك Aspose.Words إدراج سطر التوقيع باستخدام طريقة [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertsignatureline/). يمكنك أيضًا تعيين المعلمات لهذا التمثيل باستخدام فئة [SignatureLineOptions](https://reference.aspose.com/words/ar/net/aspose.words/signaturelineoptions/).
 
 على سبيل المثال، الصورة أدناه توضح كيف يمكن عرض التوقيعات الصالحة وغير الصالحة.
 
@@ -88,7 +88,7 @@ url: /ar/net/working-with-digital-signatures/
 
 ### قم بالتوقيع على وثيقة PDF التي تم إنشاؤها {#sign-a-generated-pdf-document}
 
-يتيح لك Aspose.Words التوقيع والحصول على جميع تفاصيل مستند PDF باستخدام خصائص [PdfDigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/).
+يتيح لك Aspose.Words التوقيع والحصول على جميع تفاصيل مستند PDF باستخدام خصائص [PdfDigitalSignatureDetails](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfdigitalsignaturedetails/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية التوقيع على ملف PDF تم إنشاؤه:
 
@@ -96,7 +96,7 @@ url: /ar/net/working-with-digital-signatures/
 
 ## استرداد قيمة التوقيع الرقمي
 
-يوفر Aspose.Words أيضًا القدرة على استرداد قيمة التوقيع الرقمي من مستند موقع رقميًا كمصفوفة بايت باستخدام خاصية [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/).
+يوفر Aspose.Words أيضًا القدرة على استرداد قيمة التوقيع الرقمي من مستند موقع رقميًا كمصفوفة بايت باستخدام خاصية [SignatureValue](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية الحصول على قيمة التوقيع الرقمي كمصفوفة بايت من مستند:
 
@@ -104,7 +104,7 @@ url: /ar/net/working-with-digital-signatures/
 
 ## إزالة التوقيعات الرقمية
 
-يتيح لك Aspose.Words إزالة جميع التوقيعات الرقمية من مستند موقع باستخدام طريقة [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/).
+يتيح لك Aspose.Words إزالة جميع التوقيعات الرقمية من مستند موقع باستخدام طريقة [RemoveAllSignatures](https://reference.aspose.com/words/ar/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/).
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحميل التوقيعات الرقمية وإزالتها من المستند:
 

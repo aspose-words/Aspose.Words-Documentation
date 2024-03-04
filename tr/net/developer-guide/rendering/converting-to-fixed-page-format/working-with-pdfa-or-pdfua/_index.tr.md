@@ -141,7 +141,7 @@ Bir belgede yapay olarak işaretlenmesi gereken başka bir içerik varsa veya ya
 |  PDF/A-2a |   {{< emoticons/tick >}}   |
 |  PDF/UA-1 |   {{< emoticons/tick >}}   |
 
-Microsoft Word belgelerinde metin dili belirtilir. Aspose.Words, belirtilen dili, işaretli içerik dizisine veya Span etiketine eklenen *Lang* özniteliğiyle birlikte bir çıktı PDF'sine aktarır; [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/) özelliği tarafından kontrol edilir. Kullanıcı tarafından Microsoft Word aracılığıyla metin girildiğinde genellikle dil sorunu yaşanmaz. Ancak metnin otomatik olarak oluşturulması durumunda dilin hatalı olma ihtimali vardır.
+Microsoft Word belgelerinde metin dili belirtilir. Aspose.Words, belirtilen dili, işaretli içerik dizisine veya Span etiketine eklenen *Lang* özniteliğiyle birlikte bir çıktı PDF'sine aktarır; [ExportLanguageToSpanTag](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/) özelliği tarafından kontrol edilir. Kullanıcı tarafından Microsoft Word aracılığıyla metin girildiğinde genellikle dil sorunu yaşanmaz. Ancak metnin otomatik olarak oluşturulması durumunda dilin hatalı olma ihtimali vardır.
 
 {{% alert color="secondary" %}}
 <details>

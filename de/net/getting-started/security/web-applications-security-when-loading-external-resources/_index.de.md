@@ -50,7 +50,7 @@ Anhand der Zeitspanne, die der Dienst zur Verarbeitung des Dokuments benötigt, 
 
 ## Lösungen für Sicherheitsprobleme
 
-Um die oben beschriebenen Probleme zu lösen und die Sicherheit von Webanwendungen zu verbessern, können Sie das Laden externer Ressourcen mithilfe von [IResourceLoadingCallback](https://reference.aspose.com/words/net/aspose.words.loading/iresourceloadingcallback/) steuern oder deaktivieren.
+Um die oben beschriebenen Probleme zu lösen und die Sicherheit von Webanwendungen zu verbessern, können Sie das Laden externer Ressourcen mithilfe von [IResourceLoadingCallback](https://reference.aspose.com/words/de/net/aspose.words.loading/iresourceloadingcallback/) steuern oder deaktivieren.
 
 Das folgende Codebeispiel zeigt, wie das Laden externer Bilder deaktiviert wird:
 

@@ -19,7 +19,7 @@ Mit den Rendering-Funktionen von Aspose.Words können Sie Folgendes ausführen:
 - Konvertieren Sie ein Dokument in ein mehrseitiges TIFF-Dokument oder konvertieren Sie eine beliebige Seite in ein Rasterbild und speichern Sie es als BMP, PNG oder JPEG.
 - Konvertieren Sie eine Dokumentseite in ein Scalable Vector Graphics-Bild (SVG) oder konvertieren Sie sie in ein Vektorbild und speichern Sie es als EMF.
 - Rendern (zeichnen) Sie eine Dokumentseite in einer bestimmten Größe oder einem bestimmten Maßstab auf dem .NET-Grafikobjekt, um Miniaturansichten, Bilder in voller Größe oder skalierte Bilder von Dokumentseiten zu erstellen.
-- Rendern Sie ein [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)-Objekt getrennt vom Dokument in ein beliebiges Bildformat oder in ein .NET-Grafikobjekt.
+- Rendern Sie ein [Shape](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/)-Objekt getrennt vom Dokument in ein beliebiges Bildformat oder in ein .NET-Grafikobjekt.
 - Zeigen Sie eine beliebige Seite eines Dokuments in einem Windows-Formular an.
 - Drucken Sie Dokumentseiten mit der standardmäßigen .NET-Druckinfrastruktur oder zeigen Sie eine Vorschau davon an.
 

@@ -9,7 +9,7 @@ weight: 310
 url: /zh/net/working-with-charts/
 ---
 
-新的 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 方法已添加到 [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 类中。那么，让我们看看如何使用 [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) 方法将简单的柱形图插入到文档中。
+新的 [InsertChart](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertchart/) 方法已添加到 [DocumentBuilder](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 类中。那么，让我们看看如何使用 [InsertChart](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertchart/) 方法将简单的柱形图插入到文档中。
 
 ## 如何插入图表
 
@@ -78,7 +78,7 @@ url: /zh/net/working-with-charts/
 
 ## 如何使用 ChartSeries 图表集合
 
-让我们看看 [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) 集合。所有图表系列均可通过 [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/) 集合获取，该集合为 **IEnumerable**：
+让我们看看 [ChartSeries](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartseries/) 集合。所有图表系列均可通过 [chart.Series](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chart/series/) 集合获取，该集合为 **IEnumerable**：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
@@ -95,7 +95,7 @@ url: /zh/net/working-with-charts/
 ![line-chart-chartseries-aspose-words-net](/words/net/working-with-charts/working-with-charts-7.png)
 
 
-所有单个 [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) 都有默认的 [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) 选项，请尝试使用以下代码更改它们：
+所有单个 [ChartSeries](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartseries/) 都有默认的 [ChartDataPoint](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartdatapoint/) 选项，请尝试使用以下代码更改它们：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
@@ -105,7 +105,7 @@ url: /zh/net/working-with-charts/
 
 ## 如何使用 `ChartSeries` 的单个 ChartDataPoint
 
-使用 [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/)，您可以自定义图表系列的单个数据点的格式：
+使用 [ChartDataPoint](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartdatapoint/)，您可以自定义图表系列的单个数据点的格式：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
@@ -115,7 +115,7 @@ url: /zh/net/working-with-charts/
 
 ## 如何使用单个 ChartSeries 的 ChartDataLabel
 
-使用 [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/)，您可以指定图表系列的单个数据标签的格式，例如显示/隐藏 LegendKey、CategoryName、SeriesName、Value 等：
+使用 [ChartDataLabel](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartdatalabel/)，您可以指定图表系列的单个数据标签的格式，例如显示/隐藏 LegendKey、CategoryName、SeriesName、Value 等：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
@@ -125,7 +125,7 @@ url: /zh/net/working-with-charts/
 
 ## 如何定义 ChartSeries 的 ChartDataLabels 的默认选项
 
-[ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) 类定义可用于设置图表 **Series** 的 **ChartDataLabels** 默认选项的属性。这些属性包括 ShowCategoryName、ShowBubbleSize、ShowPercentage、ShowSeriesName、ShowValue 等：
+[ChartDataLabelCollection](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartdatalabelcollection/) 类定义可用于设置图表 **Series** 的 **ChartDataLabels** 默认选项的属性。这些属性包括 ShowCategoryName、ShowBubbleSize、ShowPercentage、ShowSeriesName、ShowValue 等：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
 
@@ -135,7 +135,7 @@ url: /zh/net/working-with-charts/
 
 ## 如何设置图表数据标签数量的格式
 
-使用 [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/)，您可以指定图表的单个数据标签的数字格式。
+使用 [NumberFormat](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartdatalabel/numberformat/)，您可以指定图表的单个数据标签的数字格式。
 
 下面的代码示例展示了如何格式化多个数据标签：
 
@@ -143,7 +143,7 @@ url: /zh/net/working-with-charts/
 
 ## 如何设置图表轴属性
 
-如果您想使用图表轴、缩放比例和值轴的显示单位，请使用 [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/)、[AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/) 和 [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/) 类。
+如果您想使用图表轴、缩放比例和值轴的显示单位，请使用 [ChartAxis](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartaxis/)、[AxisDisplayUnit](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/axisdisplayunit/) 和 [AxisScaling](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/axisscaling/) 类。
 
 以下代码示例显示如何定义 X 轴和 Y 轴属性：
 
@@ -185,7 +185,7 @@ url: /zh/net/working-with-charts/
 
 ### 如何对齐图表标签
 
-如果要设置多行标签的文本对齐方式，只需设置 [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**。结盟** 属性的值即可实现。
+如果要设置多行标签的文本对齐方式，只需设置 [TickLabels](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**。结盟** 属性的值即可实现。
 
 以下代码示例展示了如何勾选标签对齐：
 

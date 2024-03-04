@@ -21,7 +21,7 @@ Bazı basılı çıktılar üreten bir .NET uygulaması geliştirirken, genellik
 
 *System.Drawing.Printing* ad alanındaki sınıfların bir Windows hizmeti veya ASP.NET uygulaması veya hizmeti içinde kullanılması desteklenmez ve bunların kullanılmaya çalışılması hizmet performansının düşmesine, çalışma zamanı istisnalarına ve diğer sorunlara neden olabilir. Windows hizmetlerini oluşturmak için WPF'nin kullanımı da aynı şekilde desteklenmez. WPF bir sunum teknolojisi olduğundan, Windows hizmeti, kullanıcı etkileşimini içeren görsel işlemleri gerçekleştirmek için uygun izinlere ihtiyaç duyar. Windows hizmetinin bu tür izinleri yoksa beklenmeyen sonuçlar ortaya çıkabilir.
 
-Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesnesi, belgeleri yazdırmak için bir [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print/index) yöntemleri ailesi sağlar. Bu yöntemler, *System.Drawing.Printing* ad alanında tanımlanan .NET yazdırma sınıflarını kullanır. Sunucu tarafı uygulamalarında yazdırmak için bunları başarıyla kullanan birçok Aspose.Words müşterisi var. Yine de bu makale, Microsoft'nin önerileriyle uyumlu, alternatif bir yazdırma yöntemi göstermektedir.
+Aspose.Words [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesnesi, belgeleri yazdırmak için bir [Print](https://reference.aspose.com/words/tr/net/aspose.words/document/methods/print/index) yöntemleri ailesi sağlar. Bu yöntemler, *System.Drawing.Printing* ad alanında tanımlanan .NET yazdırma sınıflarını kullanır. Sunucu tarafı uygulamalarında yazdırmak için bunları başarıyla kullanan birçok Aspose.Words müşterisi var. Yine de bu makale, Microsoft'nin önerileriyle uyumlu, alternatif bir yazdırma yöntemi göstermektedir.
 
 ### Server'te Belge Yazdırma Yöntemleri
 
@@ -44,7 +44,7 @@ Aşağıdaki kod örneği, **XpsPrintHelper** sınıfını kullanarak bir belgen
 
 Projeyi çalıştırdığınızda, belirtilen yazıcıda örnek bir belge yazdırılır ve yazdırma sonuçlarını görüntülemek için bir konsol penceresi açılır. Yazdırma işi tamamlandığında veya hata oluştuğunda, sistem bir başarı mesajı veya atılan istisnanın metnini görüntüler.
 
-[PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) sınıfını kullanarak bazı yazdırma ayarlarını da yapabilirsiniz. Örneğin Microsoft Word'de yazıcı tepsileri her bölüm için tanımlanır ve yazıcıya özeldir. Bu nedenle, [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/) ve [OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/otherpagestray/) özellikleri aracılığıyla her bölüm için bu değerleri programlı olarak değiştirebilirsiniz.
+[PageSetup](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/) sınıfını kullanarak bazı yazdırma ayarlarını da yapabilirsiniz. Örneğin Microsoft Word'de yazıcı tepsileri her bölüm için tanımlanır ve yazıcıya özeldir. Bu nedenle, [FirstPageTray](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/firstpagetray/) ve [OtherPagesTray](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/otherpagestray/) özellikleri aracılığıyla her bölüm için bu değerleri programlı olarak değiştirebilirsiniz.
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ Bazı durumlarda bu örneği Aspose.Words olmadan kullanmanız gerekebilir. Örn
 
 {{% /alert %}}
 
-**XpsPrintHelper**.**Print** yönteminin iki aşırı yüklemesi vardır. İlk aşırı yükleme, bir [Document](https://reference.aspose.com/words/net/aspose.words/document/) nesnesini alır ve onu XPS formatında bir `MemoryStream`'e kaydeder. İkinci aşırı yük bir `Stream` nesnesini kabul eder. Akışın XPS biçiminde bir belge içermesi gerekir.
+**XpsPrintHelper**.**Print** yönteminin iki aşırı yüklemesi vardır. İlk aşırı yükleme, bir [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) nesnesini alır ve onu XPS formatında bir `MemoryStream`'e kaydeder. İkinci aşırı yük bir `Stream` nesnesini kabul eder. Akışın XPS biçiminde bir belge içermesi gerekir.
 
 Yöntem aşırı yükleme örneklerini [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip)'ten indirebilirsiniz.
 
@@ -62,7 +62,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 Belgelerle çalışırken genellikle bunları seçilen bir yazıcıya yazdırmak gerekir. Yazdırılan belgenin nasıl görüneceğini görsel olarak incelemek ve ilgili yazdırma seçeneklerini seçmek için bir yazdırma önizleme iletişim kutusunu kullanmak yararlı olacaktır.
 
-Aspose.Words'in yerleşik diyalogları veya formları yoktur ancak .NET **PrintDocument** sınıfını temel alan [AsposeWordsPrintDocument](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/) sınıfını uygular. Bu sınıfın bir örneği, belgenin önizlemesini görmek ve yazdırmak için **PrintPreviewDialog** formuna aktarılabilir. Ayrıca [YazdırmaÖnizleme İletişim Kutusu](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) sınıfı, yazıcıya aktarılacak çıktıyı tanımlar.
+Aspose.Words'in yerleşik diyalogları veya formları yoktur ancak .NET **PrintDocument** sınıfını temel alan [AsposeWordsPrintDocument](https://reference.aspose.com/words/tr/net/aspose.words.rendering/asposewordsprintdocument/) sınıfını uygular. Bu sınıfın bir örneği, belgenin önizlemesini görmek ve yazdırmak için **PrintPreviewDialog** formuna aktarılabilir. Ayrıca [YazdırmaÖnizleme İletişim Kutusu](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) sınıfı, yazıcıya aktarılacak çıktıyı tanımlar.
 
 Aşağıdaki örnek, Baskı önizleme ve Ayarlar iletişim kutuları aracılığıyla Aspose.Words'ten bir belge yazdırmak için bu sınıfların nasıl kullanılacağını gösterir:
 
@@ -92,7 +92,7 @@ Bu kod örneğinin sonucu aşağıda gösterilmiştir:
 
 ## Bir Belgeyi Yazdırırken Yazdırma İlerleme Durumu İletişim Kutusunu Gizleme
 
-Bir belgeyi [Print](https://reference.aspose.com/words/net/aspose.words/document/print/) yöntemiyle yazdırırken Yazdırma İlerleme Durumu İletişim Kutusu görünmüyor. Ancak bu iletişim kutusu başka bir [Print](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/) yöntemiyle yazdırma sırasında görüntülenir. Bu durumda, Yazdırma iletişim kutusunun görünmesini önlemek için, aşağıdaki örnekte gösterildiği gibi, bu yöntemde geçerli yazıcı ayarlarını ve standart bir yazdırma denetleyicisini belirtmelisiniz:
+Bir belgeyi [Print](https://reference.aspose.com/words/tr/net/aspose.words/document/print/) yöntemiyle yazdırırken Yazdırma İlerleme Durumu İletişim Kutusu görünmüyor. Ancak bu iletişim kutusu başka bir [Print](https://reference.aspose.com/words/tr/net/aspose.words.rendering/asposewordsprintdocument/) yöntemiyle yazdırma sırasında görüntülenir. Bu durumda, Yazdırma iletişim kutusunun görünmesini önlemek için, aşağıdaki örnekte gösterildiği gibi, bu yöntemde geçerli yazıcı ayarlarını ve standart bir yazdırma denetleyicisini belirtmelisiniz:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintProgressDialog-PrintProgressDialog.cs" >}}
 
@@ -100,7 +100,7 @@ Bu örneğin örnek dosyasını [Aspose.Words GitHub](https://github.com/aspose-
 
 ## Bir Belgeyi Yazdırmak İçin İlk Aramanın Süresi Nasıl Azaltılır
 
-Aspose.Words, yazdırma süresini azaltmak için **PrinterSettings**'nin bazı alanlarını okur ve önbelleğe alır. Bunu [CachePrinterSettings](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/) yöntemini çağırarak başarabilirsiniz. Bu yöntem, eğer daha önce yürütülmediyse, yazdırma başlamadan önce çağrılır. Bu yöntemin çağrıldığı ve çağrılmadığı toplam yazdırma süresinin neredeyse aynı olduğunu unutmayın. Bu yöntemi kullanmanın amacı, [Print](https://reference.aspose.com/words/net/aspose.words/document/print/) yönteminin ilk çağrılma süresini azaltmaktır. Aşağıdaki kod örneği bu yöntemin nasıl kullanılacağını gösterir:
+Aspose.Words, yazdırma süresini azaltmak için **PrinterSettings**'nin bazı alanlarını okur ve önbelleğe alır. Bunu [CachePrinterSettings](https://reference.aspose.com/words/tr/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/) yöntemini çağırarak başarabilirsiniz. Bu yöntem, eğer daha önce yürütülmediyse, yazdırma başlamadan önce çağrılır. Bu yöntemin çağrıldığı ve çağrılmadığı toplam yazdırma süresinin neredeyse aynı olduğunu unutmayın. Bu yöntemi kullanmanın amacı, [Print](https://reference.aspose.com/words/tr/net/aspose.words/document/print/) yönteminin ilk çağrılma süresini azaltmaktır. Aşağıdaki kod örneği bu yöntemin nasıl kullanılacağını gösterir:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-Print_CachePrinterSettings-CachePrinterSettings.cs" >}}
 

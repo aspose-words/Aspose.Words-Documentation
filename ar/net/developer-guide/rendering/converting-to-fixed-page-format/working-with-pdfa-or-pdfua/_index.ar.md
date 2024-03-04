@@ -141,7 +141,7 @@ url: /ar/net/working-with-pdfa-or-pdfua/
 |  PDF/A-2a |   {{< emoticons/tick >}}   |
 |  قوات الدفاع الشعبي/UA-1 |   {{< emoticons/tick >}}   |
 
-يتم تحديد لغة النص في مستندات Microsoft Word. يقوم Aspose.Words بتصدير اللغة المحددة إلى ملف PDF الناتج مع سمة *Lang* المرفقة بتسلسل محتوى محدد أو علامة Span - ويتم التحكم فيها بواسطة خاصية [ExportLanguageToSpanTag](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). بشكل عام، لا توجد مشكلات لغوية عندما يقوم المستخدم بإدخال النص عبر Microsoft Word. ولكن هناك احتمال أن تكون اللغة غير دقيقة إذا تم إنشاء النص تلقائيًا.
+يتم تحديد لغة النص في مستندات Microsoft Word. يقوم Aspose.Words بتصدير اللغة المحددة إلى ملف PDF الناتج مع سمة *Lang* المرفقة بتسلسل محتوى محدد أو علامة Span - ويتم التحكم فيها بواسطة خاصية [ExportLanguageToSpanTag](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/). بشكل عام، لا توجد مشكلات لغوية عندما يقوم المستخدم بإدخال النص عبر Microsoft Word. ولكن هناك احتمال أن تكون اللغة غير دقيقة إذا تم إنشاء النص تلقائيًا.
 
 {{% alert color="secondary" %}}
 <details>

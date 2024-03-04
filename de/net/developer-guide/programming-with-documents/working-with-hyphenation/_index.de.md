@@ -66,7 +66,7 @@ Sie können die Vorlagendatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 {{% /alert %}}
 
-Alternativ zur Vorregistrierung von Silbentrennungswörterbüchern ist es möglich, nur erforderliche Silbentrennungswörterbücher "auf Anfrage" zu registrieren. Um dies zu erreichen, implementieren Sie die [IHyphenationCallback](https://reference.aspose.com/words/net/aspose.words/ihyphenationcallback/)-Schnittstelle und verwenden Sie den statischen Rückruf [Callback](https://reference.aspose.com/words/net/aspose.words/hyphenation/callback/).
+Alternativ zur Vorregistrierung von Silbentrennungswörterbüchern ist es möglich, nur erforderliche Silbentrennungswörterbücher "auf Anfrage" zu registrieren. Um dies zu erreichen, implementieren Sie die [IHyphenationCallback](https://reference.aspose.com/words/de/net/aspose.words/ihyphenationcallback/)-Schnittstelle und verwenden Sie den statischen Rückruf [Callback](https://reference.aspose.com/words/de/net/aspose.words/hyphenation/callback/).
 
 Das folgende Codebeispiel zeigt, wie die **IHyphenationCallback**-Schnittstelle implementiert wird:
 

@@ -15,7 +15,7 @@ Aspose.Words kullanarak yer imleriyle gerçekleştirebileceğiniz işlemler, Mic
 
 ## Yer İşareti Ekle
 
-Sırasıyla başlangıcını ve bitişini işaretleyerek bir yer imi oluşturmak için [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) ve [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/)'yi kullanın. Her iki yönteme de aynı yer imi adını aktarmayı unutmayın. Bir belgedeki yer imleri herhangi bir aralıkla örtüşebilir ve yayılabilir. Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
+Sırasıyla başlangıcını ve bitişini işaretleyerek bir yer imi oluşturmak için [StartBookmark](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/startbookmark/) ve [EndBookmark](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/endbookmark/)'yi kullanın. Her iki yönteme de aynı yer imi adını aktarmayı unutmayın. Bir belgedeki yer imleri herhangi bir aralıkla örtüşebilir ve yayılabilir. Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ Aşağıdaki kod örneği, yeni bir yer işaretinin nasıl oluşturulacağını 
 
 ## Yer İşaretlerini Alın
 
-Bazen yer imleri arasında geçiş yapmak veya başka amaçlar için bir yer imi koleksiyonu edinmek gerekebilir. Bu düğümde bulunan belgenin bir kısmını temsil eden bir [Range](https://reference.aspose.com/words/net/aspose.words/range/) nesnesi döndüren herhangi bir belge düğümü tarafından sunulan [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) özelliğini kullanın. Bir [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/) almak için bu nesneyi kullanın ve ardından belirli bir yer işaretini almak için koleksiyon dizin oluşturucuyu kullanın.
+Bazen yer imleri arasında geçiş yapmak veya başka amaçlar için bir yer imi koleksiyonu edinmek gerekebilir. Bu düğümde bulunan belgenin bir kısmını temsil eden bir [Range](https://reference.aspose.com/words/tr/net/aspose.words/range/) nesnesi döndüren herhangi bir belge düğümü tarafından sunulan [Node.Range](https://reference.aspose.com/words/tr/net/aspose.words/node/range/) özelliğini kullanın. Bir [BookmarkCollection](https://reference.aspose.com/words/tr/net/aspose.words/bookmarkcollection/) almak için bu nesneyi kullanın ve ardından belirli bir yer işaretini almak için koleksiyon dizin oluşturucuyu kullanın.
 
 Aşağıdaki kod örneği, yer işareti koleksiyonundan yer işaretlerinin nasıl alınacağını gösterir:
 
@@ -66,7 +66,7 @@ Aşağıdaki kod örneği, yer imlerine eklenen tablonun sütunlarına nasıl er
 
 ## Bir Yer İmine Taşı
 
-Bir yer imine zengin içerik (yalnızca düz metin değil) eklemeniz gerekiyorsa, imleci yer imine taşımak için [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/)'i, ardından içerik eklemek için [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) yöntemlerini ve özelliklerini kullanmalısınız.
+Bir yer imine zengin içerik (yalnızca düz metin değil) eklemeniz gerekiyorsa, imleci yer imine taşımak için [MoveToBookmark](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/movetobookmark/)'i, ardından içerik eklemek için [DocumentBuilder's](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/) yöntemlerini ve özelliklerini kullanmalısınız.
 
 ## Göster Yer İşareti İçeriğini Gizle
 

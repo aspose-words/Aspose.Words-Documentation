@@ -13,9 +13,9 @@ url: /ar/net/working-with-footnote-and-endnote/
 
 ## قم بإدراج تعليق ختامي وتعيين خيارات الترقيم
 
-إذا كنت تريد إدراج حاشية سفلية أو تعليق ختامي في مستند Word، فيرجى استخدام طريقة [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/). تقوم هذه الطريقة بإدراج حاشية سفلية أو تعليق ختامي في المستند.
+إذا كنت تريد إدراج حاشية سفلية أو تعليق ختامي في مستند Word، فيرجى استخدام طريقة [InsertFootnote](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertfootnote/). تقوم هذه الطريقة بإدراج حاشية سفلية أو تعليق ختامي في المستند.
 
-تمثل فئتا [EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) و[FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) خيارات ترقيم للحواشي السفلية والتعليقات الختامية.
+تمثل فئتا [EndnoteOptions](https://reference.aspose.com/words/ar/net/aspose.words.notes/endnoteoptions/) و[FootnoteOptions](https://reference.aspose.com/words/ar/net/aspose.words.notes/footnoteoptions/) خيارات ترقيم للحواشي السفلية والتعليقات الختامية.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إدراج تعليق ختامي في المستند وتعيين خيارات الترقيم الخاصة به:
 
@@ -23,7 +23,7 @@ url: /ar/net/working-with-footnote-and-endnote/
 
 ## تعيين عدد أعمدة تخطيط الحواشي السفلية
 
-يمكنك ضبط عدد أعمدة تخطيط الحواشي السفلية باستخدام خاصية [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/). إذا كانت قيمة هذه الخاصية 0، فسيتم تنسيق منطقة الحواشي السفلية بعدد من الأعمدة بناءً على عدد الأعمدة في الصفحة المعروضة.
+يمكنك ضبط عدد أعمدة تخطيط الحواشي السفلية باستخدام خاصية [Columns](https://reference.aspose.com/words/ar/net/aspose.words.notes/footnoteoptions/columns/). إذا كانت قيمة هذه الخاصية 0، فسيتم تنسيق منطقة الحواشي السفلية بعدد من الأعمدة بناءً على عدد الأعمدة في الصفحة المعروضة.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين عدد الأعمدة لتخطيط الحاشية السفلية:
 

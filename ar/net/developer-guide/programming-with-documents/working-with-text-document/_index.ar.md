@@ -13,7 +13,7 @@ url: /ar/net/working-with-text-document/
 
 ## أضف علامات ثنائية الاتجاه
 
-يمكنك استخدام خاصية [AddBidiMarks](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/addbidimarks/) لتحديد ما إذا كنت تريد إضافة علامات ثنائية الاتجاه قبل كل تشغيل BiDi عند التصدير بتنسيق نص عادي. يقوم Aspose.Words بإدراج حرف Unicode "علامة من اليمين إلى اليسار" (U+200F) قبل كل تشغيل ثنائي الاتجاه في النص. يتوافق هذا الخيار مع خيار "إضافة علامات ثنائية الاتجاه" في مربع حوار تحويل ملف MS Word عند التصدير إلى تنسيق نص عادي. لاحظ أنه يظهر في الحوار فقط إذا تمت إضافة أي من لغات التحرير العربية أو العبرية في برنامج MS Word.
+يمكنك استخدام خاصية [AddBidiMarks](https://reference.aspose.com/words/ar/net/aspose.words.saving/txtsaveoptions/addbidimarks/) لتحديد ما إذا كنت تريد إضافة علامات ثنائية الاتجاه قبل كل تشغيل BiDi عند التصدير بتنسيق نص عادي. يقوم Aspose.Words بإدراج حرف Unicode "علامة من اليمين إلى اليسار" (U+200F) قبل كل تشغيل ثنائي الاتجاه في النص. يتوافق هذا الخيار مع خيار "إضافة علامات ثنائية الاتجاه" في مربع حوار تحويل ملف MS Word عند التصدير إلى تنسيق نص عادي. لاحظ أنه يظهر في الحوار فقط إذا تمت إضافة أي من لغات التحرير العربية أو العبرية في برنامج MS Word.
 
 يوضح مثال التعليمات البرمجية التالي كيفية استخدام خاصية **AddBidiMarks**. القيمة الافتراضية لهذه الخاصية هي *false*:
 
@@ -21,7 +21,7 @@ url: /ar/net/working-with-text-document/
 
 ## التعرف على عناصر القائمة أثناء تحميل TXT
 
-يمكن لـ Aspose.Words استيراد عنصر قائمة من ملف نصي كأرقام قائمة أو نص عادي في نموذج كائن المستند الخاص به. تسمح الخاصية [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) بتحديد كيفية التعرف على عناصر القائمة المرقمة عند استيراد مستند من تنسيق نص عادي:
+يمكن لـ Aspose.Words استيراد عنصر قائمة من ملف نصي كأرقام قائمة أو نص عادي في نموذج كائن المستند الخاص به. تسمح الخاصية [DetectNumberingWithWhitespaces](https://reference.aspose.com/words/ar/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/) بتحديد كيفية التعرف على عناصر القائمة المرقمة عند استيراد مستند من تنسيق نص عادي:
 
 * إذا تم تعيين هذا الخيار على *true*، فسيتم استخدام المسافات البيضاء أيضًا كمحددات لأرقام القائمة: تستخدم خوارزمية التعرف على القائمة لترقيم النمط العربي (1.، 1.1.2.) كلاً من المسافات البيضاء ورموز النقطة (".).
 
@@ -41,7 +41,7 @@ url: /ar/net/working-with-text-document/
 
 ## كشف اتجاه نص المستند
 
-يوفر Aspose.Words خاصية [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/documentdirection/) في فئة [TxtLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/txtloadoptions/) لاكتشاف اتجاه النص (RTL / LTR) في المستند. تقوم هذه الخاصية بتعيين أو الحصول على توجيهات نص المستند المتوفرة في تعداد [DocumentDirection](https://reference.aspose.com/words/net/aspose.words.loading/documentdirection/). يتم ترك القيمة الافتراضية لـ *right*.
+يوفر Aspose.Words خاصية [DocumentDirection](https://reference.aspose.com/words/ar/net/aspose.words.loading/txtloadoptions/documentdirection/) في فئة [TxtLoadOptions](https://reference.aspose.com/words/ar/net/aspose.words.loading/txtloadoptions/) لاكتشاف اتجاه النص (RTL / LTR) في المستند. تقوم هذه الخاصية بتعيين أو الحصول على توجيهات نص المستند المتوفرة في تعداد [DocumentDirection](https://reference.aspose.com/words/ar/net/aspose.words.loading/documentdirection/). يتم ترك القيمة الافتراضية لـ *right*.
 
 يوضح مثال التعليمات البرمجية التالي كيفية اكتشاف اتجاه النص للمستند أثناء استيراد ملف TXT:
 
@@ -49,7 +49,7 @@ url: /ar/net/working-with-text-document/
 
 ## تصدير الرأس والتذييل في إخراج TXT
 
-إذا كنت تريد تصدير الرأس والتذييل في مستند TXT الناتج، فيمكنك استخدام خاصية [ExportHeadersFootersMode](https://reference.aspose.com/words/net/aspose.words.saving/exportheadersfootersmode/). تحدد هذه الخاصية طريقة تصدير الرؤوس والتذييلات إلى تنسيق النص العادي.
+إذا كنت تريد تصدير الرأس والتذييل في مستند TXT الناتج، فيمكنك استخدام خاصية [ExportHeadersFootersMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/exportheadersfootersmode/). تحدد هذه الخاصية طريقة تصدير الرؤوس والتذييلات إلى تنسيق النص العادي.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تصدير الرؤوس والتذييلات إلى تنسيق نص عادي:
 
@@ -57,7 +57,7 @@ url: /ar/net/working-with-text-document/
 
 ## تصدير المسافة البادئة لقائمة الإخراج TXT
 
-قدم Aspose.Words فئة [TxtListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtlistindentation/) التي تسمح بتحديد كيفية وضع مسافة بادئة لمستويات القائمة أثناء التصدير إلى تنسيق نص عادي. أثناء العمل مع [TxtSaveOption](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/)، يتم توفير خاصية [ListIndentation](https://reference.aspose.com/words/net/aspose.words.saving/txtsaveoptions/listindentation/) لتحديد الحرف الذي سيتم استخدامه لوضع مسافة بادئة لمستويات القائمة والعدد الذي يحدد عدد الأحرف التي سيتم استخدامها كمسافة بادئة لكل مستوى قائمة واحد.
+قدم Aspose.Words فئة [TxtListIndentation](https://reference.aspose.com/words/ar/net/aspose.words.saving/txtlistindentation/) التي تسمح بتحديد كيفية وضع مسافة بادئة لمستويات القائمة أثناء التصدير إلى تنسيق نص عادي. أثناء العمل مع [TxtSaveOption](https://reference.aspose.com/words/ar/net/aspose.words.saving/txtsaveoptions/)، يتم توفير خاصية [ListIndentation](https://reference.aspose.com/words/ar/net/aspose.words.saving/txtsaveoptions/listindentation/) لتحديد الحرف الذي سيتم استخدامه لوضع مسافة بادئة لمستويات القائمة والعدد الذي يحدد عدد الأحرف التي سيتم استخدامها كمسافة بادئة لكل مستوى قائمة واحد.
 
 القيمة الافتراضية لخاصية الحرف هي '\0' مما يشير إلى عدم وجود مسافة بادئة. بالنسبة لخاصية العد، القيمة الافتراضية هي 0 مما يعني عدم وجود مسافة بادئة.
 

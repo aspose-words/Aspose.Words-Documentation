@@ -10,11 +10,11 @@ weight: 20
 url: /ar/net/save-a-document/
 ---
 
-تتضمن معظم المهام التي تحتاج إلى تنفيذها باستخدام Aspose.Words حفظ مستند. لحفظ مستند، يوفر Aspose.Words طريقة [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) لفئة [Document](https://reference.aspose.com/words/net/aspose.words/document/). هناك حمولات زائدة تسمح بحفظ مستند في ملف أو دفق أو كائن ASP.NET HttpResponse لإرساله إلى متصفح العميل. يمكن حفظ المستند بأي تنسيق حفظ يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات الحفظ المدعومة، راجع تعداد [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/).
+تتضمن معظم المهام التي تحتاج إلى تنفيذها باستخدام Aspose.Words حفظ مستند. لحفظ مستند، يوفر Aspose.Words طريقة [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/) لفئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/). هناك حمولات زائدة تسمح بحفظ مستند في ملف أو دفق أو كائن ASP.NET HttpResponse لإرساله إلى متصفح العميل. يمكن حفظ المستند بأي تنسيق حفظ يدعمه Aspose.Words. للحصول على قائمة بجميع تنسيقات الحفظ المدعومة، راجع تعداد [SaveFormat](https://reference.aspose.com/words/ar/net/aspose.words/saveformat/).
 
 ## حفظ إلى ملف {#save-a-document-to-a-file}
 
-ما عليك سوى استخدام طريقة [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) مع اسم الملف. سيحدد Aspose.Words تنسيق الحفظ من امتداد الملف الذي تحدده.
+ما عليك سوى استخدام طريقة [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/) مع اسم الملف. سيحدد Aspose.Words تنسيق الحفظ من امتداد الملف الذي تحدده.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحميل مستند وحفظه في ملف:
 
@@ -28,7 +28,7 @@ url: /ar/net/save-a-document/
 
 ## حفظ إلى دفق {#save-a-document-to-a-stream}
 
-قم بتمرير كائن دفق إلى طريقة [Save](https://reference.aspose.com/words/net/aspose.words/document/save/). من الضروري تحديد تنسيق الحفظ بشكل صريح عند الحفظ في التدفق.
+قم بتمرير كائن دفق إلى طريقة [Save](https://reference.aspose.com/words/ar/net/aspose.words/document/save/). من الضروري تحديد تنسيق الحفظ بشكل صريح عند الحفظ في التدفق.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحميل مستند وحفظه في الدفق:
 
@@ -42,7 +42,7 @@ url: /ar/net/save-a-document/
 
 ## أرسل مستندًا إلى متصفح العميل {#sending-a-document-to-a-client-browser}
 
-لإرسال مستند إلى متصفح العميل، استخدم تحميلًا زائدًا خاصًا يأخذ أربع معلمات: اسم الملف، وتنسيق الحفظ، ونوع الحفظ، وكائن ASP.NET HttpResponse. يتم تمثيل الطريقة التي سيتم بها تقديم المستند للمستخدم من خلال تعداد [ContentDisposition](https://reference.aspose.com/words/net/aspose.words/contentdisposition/)، الذي يحدد ما إذا كانت الوثيقة المرسلة إلى المتصفح ستوفر خيارًا لفتح نفسها مباشرة في المتصفح أو في التطبيق المرتبط بامتداد الملف.
+لإرسال مستند إلى متصفح العميل، استخدم تحميلًا زائدًا خاصًا يأخذ أربع معلمات: اسم الملف، وتنسيق الحفظ، ونوع الحفظ، وكائن ASP.NET HttpResponse. يتم تمثيل الطريقة التي سيتم بها تقديم المستند للمستخدم من خلال تعداد [ContentDisposition](https://reference.aspose.com/words/ar/net/aspose.words/contentdisposition/)، الذي يحدد ما إذا كانت الوثيقة المرسلة إلى المتصفح ستوفر خيارًا لفتح نفسها مباشرة في المتصفح أو في التطبيق المرتبط بامتداد الملف.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إرسال مستند إلى متصفح العميل من رمز ASP.NET:
 

@@ -17,19 +17,19 @@ Las siguientes secciones describen los niveles lógicos de los nodos en Aspose.W
 
 ## Nivel lógico de documento y sección
 
-Un documento de Word consta de una o más secciones, representadas por la clase [Section](https://reference.aspose.com/words/net/aspose.words/section/) y separadas por saltos de sección. Una sección puede definir su propio tamaño de página, márgenes, orientación, número de columnas de texto y encabezados y pies de página.
+Un documento de Word consta de una o más secciones, representadas por la clase [Section](https://reference.aspose.com/words/es/net/aspose.words/section/) y separadas por saltos de sección. Una sección puede definir su propio tamaño de página, márgenes, orientación, número de columnas de texto y encabezados y pies de página.
 
-Los nodos de nivel [Document](https://reference.aspose.com/words/net/aspose.words/document/) y [Section](https://reference.aspose.com/words/net/aspose.words/section/) tienen la estructura que se muestra en el siguiente diagrama.
+Los nodos de nivel [Document](https://reference.aspose.com/words/es/net/aspose.words/document/) y [Section](https://reference.aspose.com/words/es/net/aspose.words/section/) tienen la estructura que se muestra en el siguiente diagrama.
 
 <img src="/words/net/logical-levels-of-nodes-in-a-document/document-and-section-level.png" alt="documento-y-nivel-de-sección-como-palabras" style="width:700px"/>
 
 Una sección contiene el texto principal, así como encabezados y pies de página de las páginas primera, par e impar. Estos diferentes "flujos" de texto se denominan *stories*.
 
-En Aspose.Words, el nodo **Section** contiene los nodos de historia [Body](https://reference.aspose.com/words/net/aspose.words/body/) y [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/). El objeto **Body** almacena el texto principal. Los objetos **HeaderFooter** almacenan el texto de cada encabezado y pie de página. El texto de cualquier historia consta de párrafos y tablas, representados respectivamente por los objetos **Paragraph** y **Table** del nivel de bloque.
+En Aspose.Words, el nodo **Section** contiene los nodos de historia [Body](https://reference.aspose.com/words/es/net/aspose.words/body/) y [HeaderFooter](https://reference.aspose.com/words/es/net/aspose.words/headerfooter/). El objeto **Body** almacena el texto principal. Los objetos **HeaderFooter** almacenan el texto de cada encabezado y pie de página. El texto de cualquier historia consta de párrafos y tablas, representados respectivamente por los objetos **Paragraph** y **Table** del nivel de bloque.
 
-Además, cada documento de Word puede contener un glosario, que está representado por el nodo [GlossaryDocument](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/) en Aspose.Words. Un documento de glosario contiene entradas [BuildingBlocks](https://reference.aspose.com/words/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/) y [AutoCorrect](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblocktype/).
+Además, cada documento de Word puede contener un glosario, que está representado por el nodo [GlossaryDocument](https://reference.aspose.com/words/es/net/aspose.words.buildingblocks/glossarydocument/) en Aspose.Words. Un documento de glosario contiene entradas [BuildingBlocks](https://reference.aspose.com/words/es/net/aspose.words.buildingblocks/glossarydocument/buildingblocks/), [AutoText](https://reference.aspose.com/words/es/net/aspose.words.buildingblocks/buildingblocktype/) y [AutoCorrect](https://reference.aspose.com/words/es/net/aspose.words.buildingblocks/buildingblocktype/).
 
-**GlossaryDocument** incluye nodos [BuildingBlock](https://reference.aspose.com/words/net/aspose.words.buildingblocks/buildingblock/) que representan diferentes tipos de entradas de documentos del glosario. Cada **BuildingBlock** contiene secciones que se pueden insertar, eliminar y copiar en documentos.
+**GlossaryDocument** incluye nodos [BuildingBlock](https://reference.aspose.com/words/es/net/aspose.words.buildingblocks/buildingblock/) que representan diferentes tipos de entradas de documentos del glosario. Cada **BuildingBlock** contiene secciones que se pueden insertar, eliminar y copiar en documentos.
 
 ## Bloquear nivel lógico
 
@@ -47,9 +47,9 @@ Los nodos a nivel de bloque representan contenedores para contenido y controles 
 
 Los nodos a nivel de bloque están representados por las siguientes clases:
 
-- [Tables](https://reference.aspose.com/words/net/aspose.words.tables/table/) y [Paragraphs](https://reference.aspose.com/words/net/aspose.words/paragraph/), que son los nodos a nivel de bloque más importantes
+- [Tables](https://reference.aspose.com/words/es/net/aspose.words.tables/table/) y [Paragraphs](https://reference.aspose.com/words/es/net/aspose.words/paragraph/), que son los nodos a nivel de bloque más importantes
 - Marcadores, que se producen tanto a nivel de bloque como a nivel de línea
-- [StructuredDocumentTag](https://reference.aspose.com/words/net/aspose.words.markup/structureddocumenttag/), que representa un marcado personalizado y puede contener contenido y controles de contenido.
+- [StructuredDocumentTag](https://reference.aspose.com/words/es/net/aspose.words.markup/structureddocumenttag/), que representa un marcado personalizado y puede contener contenido y controles de contenido.
 
 El siguiente diagrama muestra elementos a nivel de bloque.
 
@@ -60,17 +60,17 @@ El siguiente diagrama muestra elementos a nivel de bloque.
 Los nodos de nivel en línea representan el contenido real del documento y pueden estar contenidos en los siguientes contenedores:
 
 - Párrafo – el contenedor más común
-- [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)
+- [SmartTag](https://reference.aspose.com/words/es/net/aspose.words.markup/smarttag/)
 - Etiqueta de documento estructurado
 
 Los elementos de nivel en línea están representados por las siguientes clases:
 
-- [Run](https://reference.aspose.com/words/net/aspose.words/run/): tiradas de texto con formato diferente
-- [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmarkstart/) y [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmarkend/) representan marcadores
-- [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/net/aspose.words/comment/) y [Footnote](https://reference.aspose.com/words/net/aspose.words.notes/footnote/) representan anotaciones
-- [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) y [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) que representan caracteres de campo y [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) representan campos de Word
-- [SpecialChar](https://reference.aspose.com/words/net/aspose.words/specialchar/) representa caracteres especiales en el documento.
-- [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) y [GroupShape](https://reference.aspose.com/words/net/aspose.words.drawing/groupshape/) representan formas, dibujos, imágenes, etc.
+- [Run](https://reference.aspose.com/words/es/net/aspose.words/run/): tiradas de texto con formato diferente
+- [BookmarkStart](https://reference.aspose.com/words/es/net/aspose.words/bookmarkstart/) y [BookmarkEnd](https://reference.aspose.com/words/es/net/aspose.words/bookmarkend/) representan marcadores
+- [CommentRangeStart](https://reference.aspose.com/words/es/net/aspose.words/commentrangestart/), [CommentRangeEnd](https://reference.aspose.com/words/es/net/aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/es/net/aspose.words/comment/) y [Footnote](https://reference.aspose.com/words/es/net/aspose.words.notes/footnote/) representan anotaciones
+- [FieldStart](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldstart/), [FieldChar](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldseparator/) y [FieldEnd](https://reference.aspose.com/words/es/net/aspose.words.fields/fieldend/) que representan caracteres de campo y [FormField](https://reference.aspose.com/words/es/net/aspose.words.fields/formfield/) representan campos de Word
+- [SpecialChar](https://reference.aspose.com/words/es/net/aspose.words/specialchar/) representa caracteres especiales en el documento.
+- [Shape](https://reference.aspose.com/words/es/net/aspose.words.drawing/shape/) y [GroupShape](https://reference.aspose.com/words/es/net/aspose.words.drawing/groupshape/) representan formas, dibujos, imágenes, etc.
 - SmartTag y StructuredDocumentTag representan marcas personalizadas
 
 El siguiente diagrama muestra la estructura de nodos de nivel en línea.
@@ -95,8 +95,8 @@ Las notas al pie y los comentarios pueden contener texto, por lo tanto, los nodo
 
 La tabla consta de nodos de filas y celdas. Los elementos de la tabla están representados por las siguientes clases:
 
-- [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) representa una fila de la tabla
-- [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) representa una celda de la tabla
+- [Row](https://reference.aspose.com/words/es/net/aspose.words.tables/row/) representa una fila de la tabla
+- [Cell](https://reference.aspose.com/words/es/net/aspose.words.tables/cell/) representa una celda de la tabla
 - StructuredDocumentTag representa un marcado personalizado
 
 El siguiente diagrama muestra las estructuras de nodos de los niveles de tabla, fila y celda.

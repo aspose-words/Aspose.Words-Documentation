@@ -11,7 +11,7 @@ url: /ar/net/remove-fields/
 
 في بعض الأحيان يكون من الضروري إزالة حقل من المستند. قد يحدث هذا عندما يلزم استبداله بنوع حقل مختلف أو عندما لا تكون هناك حاجة إلى الحقل في المستند. على سبيل المثال حقل `TOC` عند الحفظ إلى HTML.
 
-لإزالة حقل تم إدراجه في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/)، استخدم كائن [Field](https://reference.aspose.com/words/net/aspose.words.fields/field/) الذي تم إرجاعه، والذي يوفر طريقة [Remove](https://reference.aspose.com/words/net/aspose.words.fields/field/remove/) ملائمة لإزالة الحقل من المستند بسهولة.
+لإزالة حقل تم إدراجه في مستند باستخدام [DocumentBuilder](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/).[InsertField](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertfield/)، استخدم كائن [Field](https://reference.aspose.com/words/ar/net/aspose.words.fields/field/) الذي تم إرجاعه، والذي يوفر طريقة [Remove](https://reference.aspose.com/words/ar/net/aspose.words.fields/field/remove/) ملائمة لإزالة الحقل من المستند بسهولة.
 
 يوضح مثال التعليمات البرمجية التالي كيفية إزالة حقل من المستند:
 

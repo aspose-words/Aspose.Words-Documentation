@@ -21,7 +21,7 @@ url: /ar/net/print-a-document-programmatically-or-using-dialogs/
 
 الفئات الموجودة في مساحة اسم *System.Drawing.Printing* غير مدعومة للاستخدام داخل خدمة Windows أو تطبيق أو خدمة ASP.NET، وقد تؤدي محاولة استخدامها إلى انخفاض أداء الخدمة، واستثناءات وقت التشغيل، ومشكلات أخرى. كما أن استخدام WPF لإنشاء خدمات Windows غير مدعوم. نظرًا لأن WPF عبارة عن تقنية عرض تقديمي، فإن خدمة Windows تتطلب أذونات مناسبة لإجراء العمليات المرئية التي تتضمن تفاعل المستخدم. إذا لم يكن لدى خدمة Windows مثل هذه الأذونات، فقد تكون هناك نتائج غير متوقعة.
 
-يوفر كائن Aspose.Words [Document](https://reference.aspose.com/words/net/aspose.words/document/) مجموعة من أساليب [Print](https://reference.aspose.com/words/net/aspose.words/document/methods/print/index) لطباعة المستندات. تستخدم هذه الطرق فئات الطباعة .NET المحددة في مساحة اسم *System.Drawing.Printing*. هناك العديد من عملاء Aspose.Words الذين يستخدمونها بنجاح للطباعة في تطبيقاتهم من جانب الخادم. ومع ذلك، توضح هذه المقالة طريقة بديلة للطباعة متوافقة مع توصيات Microsoft.
+يوفر كائن Aspose.Words [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) مجموعة من أساليب [Print](https://reference.aspose.com/words/ar/net/aspose.words/document/methods/print/index) لطباعة المستندات. تستخدم هذه الطرق فئات الطباعة .NET المحددة في مساحة اسم *System.Drawing.Printing*. هناك العديد من عملاء Aspose.Words الذين يستخدمونها بنجاح للطباعة في تطبيقاتهم من جانب الخادم. ومع ذلك، توضح هذه المقالة طريقة بديلة للطباعة متوافقة مع توصيات Microsoft.
 
 ### طرق طباعة مستند على Server
 
@@ -44,7 +44,7 @@ url: /ar/net/print-a-document-programmatically-or-using-dialogs/
 
 عند تشغيل المشروع، يقوم بطباعة مستند نموذجي على الطابعة المحددة ويفتح نافذة وحدة التحكم لعرض نتائج الطباعة. عند اكتمال مهمة الطباعة أو ظهور الأخطاء، سيعرض النظام رسالة نجاح أو نص الاستثناء الذي تم طرحه.
 
-يمكنك أيضًا ضبط بعض إعدادات الطباعة باستخدام فئة [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/). على سبيل المثال، في Microsoft Word، يتم تعريف أدراج الطابعة لكل قسم وتكون خاصة بالطابعة. لذلك، يمكنك تغيير هذه القيم لكل قسم برمجيًا عبر خصائص [FirstPageTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/firstpagetray/) و[OtherPagesTray](https://reference.aspose.com/words/net/aspose.words/pagesetup/otherpagestray/).
+يمكنك أيضًا ضبط بعض إعدادات الطباعة باستخدام فئة [PageSetup](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/). على سبيل المثال، في Microsoft Word، يتم تعريف أدراج الطابعة لكل قسم وتكون خاصة بالطابعة. لذلك، يمكنك تغيير هذه القيم لكل قسم برمجيًا عبر خصائص [FirstPageTray](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/firstpagetray/) و[OtherPagesTray](https://reference.aspose.com/words/ar/net/aspose.words/pagesetup/otherpagestray/).
 
 {{% alert color="primary" %}}
 
@@ -52,7 +52,7 @@ url: /ar/net/print-a-document-programmatically-or-using-dialogs/
 
 {{% /alert %}}
 
-هناك نوعان من عمليات التحميل الزائد للأسلوب **XpsPrintHelper**.**Print**. التحميل الزائد الأول يأخذ كائن [Document](https://reference.aspose.com/words/net/aspose.words/document/) ويحفظه في ملف `MemoryStream` بتنسيق XPS. التحميل الزائد الثاني يقبل كائن `Stream`. يجب أن يحتوي الدفق على مستند بتنسيق XPS.
+هناك نوعان من عمليات التحميل الزائد للأسلوب **XpsPrintHelper**.**Print**. التحميل الزائد الأول يأخذ كائن [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/) ويحفظه في ملف `MemoryStream` بتنسيق XPS. التحميل الزائد الثاني يقبل كائن `Stream`. يجب أن يحتوي الدفق على مستند بتنسيق XPS.
 
 يمكنك تنزيل أمثلة التحميل الزائد للطريقة من [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/releases/download/MissingFeaturesofOpenXMLWordsv1.1/Print.Document.via.XPS.API.zip).
 
@@ -62,7 +62,7 @@ url: /ar/net/print-a-document-programmatically-or-using-dialogs/
 
 عند العمل مع المستندات، غالبًا ما يُطلب طباعتها على الطابعة المحددة. من المفيد استخدام مربع حوار معاينة الطباعة لفحص كيفية ظهور المستند المطبوع بصريًا واختيار خيارات الطباعة ذات الصلة.
 
-لا يحتوي Aspose.Words على مربعات حوار أو نماذج مضمنة ولكنه يطبق فئة [AsposeWordsPrintDocument](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/)، بناءً على فئة .NET **PrintDocument**. يمكن تمرير مثيل لهذه الفئة إلى نموذج **PrintPreviewDialog** لمعاينة المستند وطباعته. كما تحدد فئة [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) الإخراج الذي سيتم إرساله إلى الطابعة.
+لا يحتوي Aspose.Words على مربعات حوار أو نماذج مضمنة ولكنه يطبق فئة [AsposeWordsPrintDocument](https://reference.aspose.com/words/ar/net/aspose.words.rendering/asposewordsprintdocument/)، بناءً على فئة .NET **PrintDocument**. يمكن تمرير مثيل لهذه الفئة إلى نموذج **PrintPreviewDialog** لمعاينة المستند وطباعته. كما تحدد فئة [PrintPreviewDialog](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.printpreviewdialog?view=netframework-4.8) الإخراج الذي سيتم إرساله إلى الطابعة.
 
 يوضح المثال التالي كيفية استخدام هذه الفئات لطباعة مستند من Aspose.Words عبر معاينة الطباعة ومربعات حوار الإعدادات:
 
@@ -92,7 +92,7 @@ url: /ar/net/print-a-document-programmatically-or-using-dialogs/
 
 ## إخفاء مربع حوار تقدم الطباعة عند طباعة مستند
 
-لا يظهر مربع حوار تقدم الطباعة عند طباعة مستند عبر طريقة [Print](https://reference.aspose.com/words/net/aspose.words/document/print/). ومع ذلك، يظهر مربع الحوار هذا أثناء الطباعة باستخدام طريقة [Print](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/) أخرى. في هذه الحالة، لمنع ظهور مربع حوار الطباعة، يجب عليك تحديد إعدادات الطابعة الصالحة ووحدة التحكم القياسية في الطباعة بهذه الطريقة، كما هو موضح في المثال أدناه:
+لا يظهر مربع حوار تقدم الطباعة عند طباعة مستند عبر طريقة [Print](https://reference.aspose.com/words/ar/net/aspose.words/document/print/). ومع ذلك، يظهر مربع الحوار هذا أثناء الطباعة باستخدام طريقة [Print](https://reference.aspose.com/words/ar/net/aspose.words.rendering/asposewordsprintdocument/) أخرى. في هذه الحالة، لمنع ظهور مربع حوار الطباعة، يجب عليك تحديد إعدادات الطابعة الصالحة ووحدة التحكم القياسية في الطباعة بهذه الطريقة، كما هو موضح في المثال أدناه:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-PrintProgressDialog-PrintProgressDialog.cs" >}}
 
@@ -100,7 +100,7 @@ url: /ar/net/print-a-document-programmatically-or-using-dialogs/
 
 ## كيفية تقليل وقت الاستدعاء الأول لطباعة مستند
 
-يقوم Aspose.Words بقراءة بعض حقول **PrinterSettings** وتخزينها مؤقتًا لتقليل وقت الطباعة. يمكنك تحقيق ذلك عن طريق استدعاء أسلوب [CachePrinterSettings](https://reference.aspose.com/words/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/). يتم استدعاء هذه الطريقة قبل بدء الطباعة إذا لم يتم تنفيذها مسبقًا. لاحظ أن إجمالي وقت الطباعة مع وبدون استدعاء هذه الطريقة هو نفسه تقريبًا. الغرض من استخدام هذه الطريقة هو تقليل وقت الاستدعاء الأول لأسلوب [Print](https://reference.aspose.com/words/net/aspose.words/document/print/). يوضح مثال التعليمات البرمجية التالي كيفية استخدام هذه الطريقة:
+يقوم Aspose.Words بقراءة بعض حقول **PrinterSettings** وتخزينها مؤقتًا لتقليل وقت الطباعة. يمكنك تحقيق ذلك عن طريق استدعاء أسلوب [CachePrinterSettings](https://reference.aspose.com/words/ar/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/). يتم استدعاء هذه الطريقة قبل بدء الطباعة إذا لم يتم تنفيذها مسبقًا. لاحظ أن إجمالي وقت الطباعة مع وبدون استدعاء هذه الطريقة هو نفسه تقريبًا. الغرض من استخدام هذه الطريقة هو تقليل وقت الاستدعاء الأول لأسلوب [Print](https://reference.aspose.com/words/ar/net/aspose.words/document/print/). يوضح مثال التعليمات البرمجية التالي كيفية استخدام هذه الطريقة:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-Print_CachePrinterSettings-CachePrinterSettings.cs" >}}
 

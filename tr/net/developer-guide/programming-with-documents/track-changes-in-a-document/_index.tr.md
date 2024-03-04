@@ -23,7 +23,7 @@ Aspose.Words'teki ve Microsoft Word'deki yorum özelliğinin değişiklikleri iz
 
 ## Revizyon Nedir?
 
-Revizyonlara geçmeden önce revizyonların anlamını açıklayalım. [revision](https://reference.aspose.com/words/net/aspose.words/revision/), bir belgenin bir düğümünde meydana gelen bir değişikliktir; [RevisionGroup](https://reference.aspose.com/words/net/aspose.words/revision/group/) sınıfı tarafından temsil edilen bir revizyon grubu ise bir belgenin birçok düğümünde meydana gelen sıralı revizyonların bir grubudur. Temel olarak revizyon, değişiklikleri izlemeye yönelik bir araçtır.
+Revizyonlara geçmeden önce revizyonların anlamını açıklayalım. [revision](https://reference.aspose.com/words/tr/net/aspose.words/revision/), bir belgenin bir düğümünde meydana gelen bir değişikliktir; [RevisionGroup](https://reference.aspose.com/words/tr/net/aspose.words/revision/group/) sınıfı tarafından temsil edilen bir revizyon grubu ise bir belgenin birçok düğümünde meydana gelen sıralı revizyonların bir grubudur. Temel olarak revizyon, değişiklikleri izlemeye yönelik bir araçtır.
 
 Revizyonlar, değişiklikleri izleme özelliğinde ve karşılaştırma sonucunda revizyonların göründüğü belgeleri karşılaştırma özelliğinde kullanılır. Yani değişiklikleri takip etme özelliğindeki revizyonlar, kimin tarafından ve neyin değiştirildiğini gösterir.
 
@@ -33,7 +33,7 @@ Microsoft Word'in bireysel revizyonları görüntülemenize izin vermediğini, y
 
 {{% /alert %}}
 
-Aspose.Words, Microsoft Word'de olduğu gibi Ekleme, Silme, FormatChange, StyleDefinitionChange ve Taşıma gibi farklı revizyon türlerini destekler. Tüm revizyon türleri [RevisionType](https://reference.aspose.com/words/net/aspose.words/revisiontype/) numaralandırmasıyla temsil edilir.
+Aspose.Words, Microsoft Word'de olduğu gibi Ekleme, Silme, FormatChange, StyleDefinitionChange ve Taşıma gibi farklı revizyon türlerini destekler. Tüm revizyon türleri [RevisionType](https://reference.aspose.com/words/tr/net/aspose.words/revisiontype/) numaralandırmasıyla temsil edilir.
 
 {{% alert color="primary" %}}
 
@@ -43,15 +43,15 @@ Revizyonların Microsoft Word'e benzer bir sonuca sahip olduğunu ancak Aspose.W
 
 ## Değişiklikleri İzlemeyi Başlatma ve Durdurma
 
-Bir belgeyi düzenlemek genellikle siz onu izlemeye başlayana kadar revizyon olarak sayılmaz. Aspose.Words, belgenizdeki tüm değişiklikleri basit adımlarla otomatik olarak izlemenize olanak tanır. [StartTrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/starttrackrevisions/#starttrackrevisions/) yöntemini kullanarak değişiklikleri takip etme sürecini kolaylıkla başlatabilirsiniz. Gelecekteki düzenlemelerin revizyon olarak kabul edilmemesi için değişiklikleri izleme sürecini durdurmanız gerekirse, [StopTrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/stoptrackrevisions/) yöntemini kullanmanız gerekecektir.
+Bir belgeyi düzenlemek genellikle siz onu izlemeye başlayana kadar revizyon olarak sayılmaz. Aspose.Words, belgenizdeki tüm değişiklikleri basit adımlarla otomatik olarak izlemenize olanak tanır. [StartTrackRevisions](https://reference.aspose.com/words/tr/net/aspose.words/document/starttrackrevisions/#starttrackrevisions/) yöntemini kullanarak değişiklikleri takip etme sürecini kolaylıkla başlatabilirsiniz. Gelecekteki düzenlemelerin revizyon olarak kabul edilmemesi için değişiklikleri izleme sürecini durdurmanız gerekirse, [StopTrackRevisions](https://reference.aspose.com/words/tr/net/aspose.words/document/stoptrackrevisions/) yöntemini kullanmanız gerekecektir.
 
 {{% alert color="primary" %}}
 
-`StartTrackingRevisions` yönteminin [TrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/trackrevisions/) özelliğinin durumunu değiştirmediğini ve değerini revizyon takibi amacıyla kullanmadığını unutmayın. Ayrıca, izlenen belge içinde bir düğüm bir konumdan diğerine taşınmışsa, buradan taşıma ve aralığa taşıma da dahil olmak üzere taşıma revizyonları oluşturulacaktır.
+`StartTrackingRevisions` yönteminin [TrackRevisions](https://reference.aspose.com/words/tr/net/aspose.words/document/trackrevisions/) özelliğinin durumunu değiştirmediğini ve değerini revizyon takibi amacıyla kullanmadığını unutmayın. Ayrıca, izlenen belge içinde bir düğüm bir konumdan diğerine taşınmışsa, buradan taşıma ve aralığa taşıma da dahil olmak üzere taşıma revizyonları oluşturulacaktır.
 
 {{% /alert %}}
 
-Belgenizdeki değişiklik takibi sürecinin sonunda, tüm düzeltmeleri kabul etme veya belgeyi orijinal haline döndürmek için reddetme olanağına sahip olacaksınız. Bu, [AcceptAllRevisions](https://reference.aspose.com/words/net/aspose.words/document/acceptallrevisions/) veya [RejectAll](https://reference.aspose.com/words/net/aspose.words/revisioncollection/rejectall/) yöntemi kullanılarak gerçekleştirilebilir. Ayrıca [Accept](https://reference.aspose.com/words/net/aspose.words/revision/accept/) veya [Reject](https://reference.aspose.com/words/net/aspose.words/revision/reject/) yöntemini kullanarak her revizyonu ayrı ayrı kabul edebilir veya reddedebilirsiniz.
+Belgenizdeki değişiklik takibi sürecinin sonunda, tüm düzeltmeleri kabul etme veya belgeyi orijinal haline döndürmek için reddetme olanağına sahip olacaksınız. Bu, [AcceptAllRevisions](https://reference.aspose.com/words/tr/net/aspose.words/document/acceptallrevisions/) veya [RejectAll](https://reference.aspose.com/words/tr/net/aspose.words/revisioncollection/rejectall/) yöntemi kullanılarak gerçekleştirilebilir. Ayrıca [Accept](https://reference.aspose.com/words/tr/net/aspose.words/revision/accept/) veya [Reject](https://reference.aspose.com/words/tr/net/aspose.words/revision/reject/) yöntemini kullanarak her revizyonu ayrı ayrı kabul edebilir veya reddedebilirsiniz.
 
 Süreci başlattığınız andan durdurduğunuz ana kadar tüm değişiklikler bir yineleme boyunca izlenecektir. Farklı yinelemeler arasındaki bağlantı şu senaryoyla temsil edilir: izleme işlemini tamamlarsınız, ardından bazı değişiklikler yaparsınız ve değişiklikleri izlemeye yeniden başlarsınız. Bu senaryoda kabul etmediğiniz veya reddetmediğiniz tüm değişiklikler yeniden görüntülenecektir.
 
@@ -71,13 +71,13 @@ Aşağıdaki kod örneği, izlenen bir belgede bir düğüm taşındığında d�
 
 ## Değişiklikleri Revizyon Olarak Yönetin ve Saklayın
 
-Önceki değişiklikleri takip etme özelliği ile belgenizde hangi değişikliklerin yapıldığını ve bu değişiklikleri kimin yaptığını anlayabilirsiniz. [TrackRevisions](https://reference.aspose.com/words/net/aspose.words/document/trackrevisions/) özelliği ile belgenizdeki herhangi bir değişikliğin revizyon olarak saklanmasını zorlarsınız.
+Önceki değişiklikleri takip etme özelliği ile belgenizde hangi değişikliklerin yapıldığını ve bu değişiklikleri kimin yaptığını anlayabilirsiniz. [TrackRevisions](https://reference.aspose.com/words/tr/net/aspose.words/document/trackrevisions/) özelliği ile belgenizdeki herhangi bir değişikliğin revizyon olarak saklanmasını zorlarsınız.
 
-Aspose.Words, [HasRevision](https://reference.aspose.com/words/net/aspose.words/document/hasrevisions/) özelliğini kullanarak bir belgenin revizyonunun olup olmadığını kontrol etmenizi sağlar. Belgenizdeki değişiklikleri StartTrackRevisions ve StopTrackRevisions yöntemleri aracılığıyla otomatik olarak izlemeniz gerekmiyorsa, Microsoft Word'de bir belge düzenlenirken değişikliklerin izlenip izlenmediğini ve revizyon olarak saklanıp saklanmadığını kontrol etmek için `TrackRevisions` özelliğini kullanabilirsiniz.
+Aspose.Words, [HasRevision](https://reference.aspose.com/words/tr/net/aspose.words/document/hasrevisions/) özelliğini kullanarak bir belgenin revizyonunun olup olmadığını kontrol etmenizi sağlar. Belgenizdeki değişiklikleri StartTrackRevisions ve StopTrackRevisions yöntemleri aracılığıyla otomatik olarak izlemeniz gerekmiyorsa, Microsoft Word'de bir belge düzenlenirken değişikliklerin izlenip izlenmediğini ve revizyon olarak saklanıp saklanmadığını kontrol etmek için `TrackRevisions` özelliğini kullanabilirsiniz.
 
 `TrackRevisions` özelliği gerçek DOM değişiklikleri yerine revizyonlar yapar. Ancak revizyonların kendisi ayrıdır. Örneğin, herhangi bir paragrafı silerseniz, Aspose.Words bunu silmek yerine, silme olarak işaretleyerek onu revizyon olarak yapar.
 
-Ayrıca Aspose.Words, [IsDeleteRevision](https://reference.aspose.com/words/net/aspose.words/inline/isdeleterevision/), [IsFormatRevision](https://reference.aspose.com/words/net/aspose.words/inline/isformatrevision/), [IsInsertRevision](https://reference.aspose.com/words/net/aspose.words/inline/isinsertrevision/), [IsMoveFromRevision](https://reference.aspose.com/words/net/aspose.words/inline/ismovefromrevision/) ve [IsMoveToRevision](https://reference.aspose.com/words/net/aspose.words/inline/ismovetorevision/) özelliklerini kullanarak bir nesnenin eklenip eklenmediğini, silinip silinmediğini veya biçimlendirmesinin değiştirilip değiştirilmediğini kontrol etmenize olanak tanır.
+Ayrıca Aspose.Words, [IsDeleteRevision](https://reference.aspose.com/words/tr/net/aspose.words/inline/isdeleterevision/), [IsFormatRevision](https://reference.aspose.com/words/tr/net/aspose.words/inline/isformatrevision/), [IsInsertRevision](https://reference.aspose.com/words/tr/net/aspose.words/inline/isinsertrevision/), [IsMoveFromRevision](https://reference.aspose.com/words/tr/net/aspose.words/inline/ismovefromrevision/) ve [IsMoveToRevision](https://reference.aspose.com/words/tr/net/aspose.words/inline/ismovetorevision/) özelliklerini kullanarak bir nesnenin eklenip eklenmediğini, silinip silinmediğini veya biçimlendirmesinin değiştirilip değiştirilmediğini kontrol etmenize olanak tanır.
 
 {{% alert color="primary" %}}
 

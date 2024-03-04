@@ -15,7 +15,7 @@ EPUB (abreviatura de "Publicación electrónica") es un formato basado en HTML c
 
 ## Convertir un documento
 
-Para una conversión simple a HTML, MHTML o EPUB, se utiliza una de las sobrecargas del método [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/). Puede guardar el documento en un archivo o secuencia y establecer explícitamente el formato de guardado del documento de salida o definirlo a partir de la extensión del nombre del archivo.
+Para una conversión simple a HTML, MHTML o EPUB, se utiliza una de las sobrecargas del método [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/#save/). Puede guardar el documento en un archivo o secuencia y establecer explícitamente el formato de guardado del documento de salida o definirlo a partir de la extensión del nombre del archivo.
 
 El siguiente ejemplo muestra cómo convertir DOCX a HTML especificando un formato de guardado:
 
@@ -34,7 +34,7 @@ Para convertir un documento a MHTML o EPUB, utilice `SaveFormat.Mhtml` o `SaveFo
 
 ## Convertir un documento con información de ida y vuelta
 
-El formato HTML no admite muchas funciones de Microsoft Word y, si necesitamos restaurar un modelo de documento lo más parecido posible al original, debemos guardar información adicional dentro del archivo HTML. Esta información también se denomina "información de ida y vuelta". Para este propósito, Aspose.Words brinda la capacidad de exportar información de ida y vuelta al guardarla en HTML, MHTML o EPUB utilizando la propiedad [ExportRoundtripInformation](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/). Guardar la información de ida y vuelta permite restaurar propiedades del documento como pestañas, comentarios, encabezados y pies de página durante la carga de documentos de los formatos enumerados nuevamente en un objeto **Document**.
+El formato HTML no admite muchas funciones de Microsoft Word y, si necesitamos restaurar un modelo de documento lo más parecido posible al original, debemos guardar información adicional dentro del archivo HTML. Esta información también se denomina "información de ida y vuelta". Para este propósito, Aspose.Words brinda la capacidad de exportar información de ida y vuelta al guardarla en HTML, MHTML o EPUB utilizando la propiedad [ExportRoundtripInformation](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/). Guardar la información de ida y vuelta permite restaurar propiedades del documento como pestañas, comentarios, encabezados y pies de página durante la carga de documentos de los formatos enumerados nuevamente en un objeto **Document**.
 
 El valor predeterminado es **verdadero** para HTML y **FALSO** para MHTML y EPUB:
 
@@ -59,7 +59,7 @@ Aspose.Words permite convertir un documento de Word a HTML utilizando opciones d
 
 Usando Aspose.Words podemos especificar una carpeta física donde se guardan todos los recursos, como imágenes, fuentes y CSS externo, cuando un documento se convierte a HTML. De forma predeterminada, esta es una cadena vacía.
 
-Especificar la propiedad [ResourceFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/resourcefolder/) es la forma más sencilla de configurar la carpeta donde se deben escribir todos los recursos. Podemos usar propiedades individuales, como [FontsFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/fontsfolder/), que guarda las fuentes en la carpeta especificada, y [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/imagesfolder/), que guarda las imágenes en una carpeta especificada. Cuando se especifica una ruta relativa, **FontsFolder** y **ImagesFolder** se refieren a la carpeta donde se encuentra el código ensamblado, **ResourceFolder** y [CssStyleSheetFileName](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) se refieren a la carpeta de salida donde se encuentra el documento HTML.
+Especificar la propiedad [ResourceFolder](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/resourcefolder/) es la forma más sencilla de configurar la carpeta donde se deben escribir todos los recursos. Podemos usar propiedades individuales, como [FontsFolder](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/fontsfolder/), que guarda las fuentes en la carpeta especificada, y [ImagesFolder](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/imagesfolder/), que guarda las imágenes en una carpeta especificada. Cuando se especifica una ruta relativa, **FontsFolder** y **ImagesFolder** se refieren a la carpeta donde se encuentra el código ensamblado, **ResourceFolder** y [CssStyleSheetFileName](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) se refieren a la carpeta de salida donde se encuentra el documento HTML.
 
 En este ejemplo, **ResourceFolder** especifica la ruta relativa. Esta ruta se refiere a la carpeta de salida donde se guarda el documento HTML. El valor de la propiedad **ResourceFolderAlias** se utiliza para crear URL para todos los recursos.
 
@@ -67,7 +67,7 @@ El siguiente ejemplo de código muestra cómo trabajar con estas propiedades:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ExportResourcesUsingHtmlSaveOptions-ExportResourcesUsingHtmlSaveOptions.cs" >}}
 
-Usando la propiedad [ResourceFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/), también podemos especificar el nombre de la carpeta utilizada para construir los URI de todos los recursos escritos en un documento HTML. Esta es la forma más sencilla de especificar cómo se deben generar los URI para todos los archivos de recursos. Se puede especificar la misma información para imágenes y fuentes por separado mediante propiedades [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) y [FontsFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/), respectivamente.
+Usando la propiedad [ResourceFolderAlias](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/), también podemos especificar el nombre de la carpeta utilizada para construir los URI de todos los recursos escritos en un documento HTML. Esta es la forma más sencilla de especificar cómo se deben generar los URI para todos los archivos de recursos. Se puede especificar la misma información para imágenes y fuentes por separado mediante propiedades [ImagesFolderAlias](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) y [FontsFolderAlias](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/), respectivamente.
 
 Sin embargo, no existe una propiedad individual para CSS. El comportamiento de las propiedades **FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** y **CssStyleSheetFileName** no cambia. Tenga en cuenta que la propiedad **CssStyleSheetFileName** se utiliza tanto para especificar el nombre de la carpeta como el nombre del archivo.
 
@@ -76,7 +76,7 @@ Sin embargo, no existe una propiedad individual para CSS. El comportamiento de l
 
 ### Exportar recursos de fuentes de codificación Base64
 
-Aspose.Words ofrece la posibilidad de especificar si los recursos de fuentes deben incrustarse en HTML en codificaciones Base64. Para realizar esto, utilice la propiedad [ExportFontsAsBase64](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/); esta es una extensión de la propiedad [ExportFontResources](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontresources/). De forma predeterminada, su valor es **FALSO** y las fuentes se escriben en archivos separados. Pero si esta opción está configurada en **verdadero**, las fuentes se incrustarán en el CSS del documento en codificación Base64. La propiedad **Exportar fuentes como base64** sólo afecta al formato HTML y no afecta a EPUB ni MHTML.
+Aspose.Words ofrece la posibilidad de especificar si los recursos de fuentes deben incrustarse en HTML en codificaciones Base64. Para realizar esto, utilice la propiedad [ExportFontsAsBase64](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/); esta es una extensión de la propiedad [ExportFontResources](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/exportfontresources/). De forma predeterminada, su valor es **FALSO** y las fuentes se escriben en archivos separados. Pero si esta opción está configurada en **verdadero**, las fuentes se incrustarán en el CSS del documento en codificación Base64. La propiedad **Exportar fuentes como base64** sólo afecta al formato HTML y no afecta a EPUB ni MHTML.
 
 El siguiente ejemplo de código muestra cómo exportar fuentes codificadas en Base64 a HTML:
 
@@ -84,7 +84,7 @@ El siguiente ejemplo de código muestra cómo exportar fuentes codificadas en Ba
 
 ## Especificar opciones de guardado al realizar la conversión a EPUB
 
-Aspose.Words permite convertir un documento de Word a formato EPUB utilizando opciones de guardado predeterminadas o personalizadas. Puede especificar varias opciones pasando una instancia de [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) al método [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/).
+Aspose.Words permite convertir un documento de Word a formato EPUB utilizando opciones de guardado predeterminadas o personalizadas. Puede especificar varias opciones pasando una instancia de [HtmlSaveOptions](https://reference.aspose.com/words/es/net/aspose.words.saving/htmlsaveoptions/) al método [Save](https://reference.aspose.com/words/es/net/aspose.words/document/save/#save/).
 
 El siguiente ejemplo de código muestra cómo convertir un documento de Word a EPUB especificando algunas opciones de guardado personalizadas:
 

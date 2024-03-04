@@ -24,7 +24,7 @@ Aspose.Words artık kullanıcıların PDF/A-1, PDF/A-2 ve PDF/A-4 formatlarını
 * PDF/A-4, revize edilmiş uyumluluk seviyelerini varsayar: normal PDF/A-4 uyumu, önceki sürümlerin U düzeyi uyumluluğuna eşdeğerdir ve A düzeyi uygunluğu kaldırılır
 * PDF/UA-1 içeriği ISO 32000-1: 2008'e göre etiketlenmeli ve standartlaştırılmalıdır
 
-PDF/A, elektronik belgelerin arşivlenmesinde ve uzun süreli saklanmasında kullanılmak üzere tasarlanmış, ISO standardına uygun bir PDF sürümüdür. Aynı zamanda PDF/UA, yardımcı teknoloji kullanan engelli kişiler için erişilebilirlik sağlamak amacıyla tasarlanmış PDF'nin başka bir ISO standartlaştırılmış sürümüdür. PDF standartlarıyla uyumluluk düzeyini belirlemek için [Compliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/compliance/) özelliğini kullanın. Depolama koşulları nedeniyle, PDF/A belgesinin tüm yazı tiplerini yerleştirmesi ve şifrelemeyi devre dışı bırakması gerekirken, PDF/UA'nın yalnızca tüm yazı tiplerini yerleştirmesi gerekir.
+PDF/A, elektronik belgelerin arşivlenmesinde ve uzun süreli saklanmasında kullanılmak üzere tasarlanmış, ISO standardına uygun bir PDF sürümüdür. Aynı zamanda PDF/UA, yardımcı teknoloji kullanan engelli kişiler için erişilebilirlik sağlamak amacıyla tasarlanmış PDF'nin başka bir ISO standartlaştırılmış sürümüdür. PDF standartlarıyla uyumluluk düzeyini belirlemek için [Compliance](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/compliance/) özelliğini kullanın. Depolama koşulları nedeniyle, PDF/A belgesinin tüm yazı tiplerini yerleştirmesi ve şifrelemeyi devre dışı bırakması gerekirken, PDF/UA'nın yalnızca tüm yazı tiplerini yerleştirmesi gerekir.
 
 Bu bölümde PDF/A veya PDF/UA-1 belgeleriyle çalışmaya daha yakından bakacağız.
 

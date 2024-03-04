@@ -13,16 +13,16 @@ Aspose.Words ermöglicht Benutzern ein sehr flexibles Arbeiten mit Bildern. In d
 
 ## So fügen Sie ein {#insert-an-image}-Bild ein
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) bietet mehrere Überladungen der [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/)-Methode, mit denen Sie ein Inline- oder Floating-Bild einfügen können. Wenn es sich bei dem Bild um eine EMF- oder WMF-Metadatei handelt, wird es im Metadateiformat in das Dokument eingefügt. Alle anderen Bilder werden im PNG-Format gespeichert. Die **InsertImage**-Methode kann Bilder aus verschiedenen Quellen verwenden:
+[DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/) bietet mehrere Überladungen der [InsertImage](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertimage/)-Methode, mit denen Sie ein Inline- oder Floating-Bild einfügen können. Wenn es sich bei dem Bild um eine EMF- oder WMF-Metadatei handelt, wird es im Metadateiformat in das Dokument eingefügt. Alle anderen Bilder werden im PNG-Format gespeichert. Die **InsertImage**-Methode kann Bilder aus verschiedenen Quellen verwenden:
 
-- Aus einer Datei oder `URL` durch Übergabe eines `String`-Parameters [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/)
+- Aus einer Datei oder `URL` durch Übergabe eines `String`-Parameters [InsertImage](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertimage/)
 - Aus einem Stream durch Übergabe eines `Stream`-Parameters **InsertImage**
 - Von einem Image-Objekt durch Übergabe eines Image-Parameters **InsertImage**
 - Aus einem Byte-Array durch Übergabe eines Byte-Array-Parameters **InsertImage**
 
 Für jede der **InsertImage**-Methoden gibt es weitere Überladungen, die es Ihnen ermöglichen, ein Bild mit den folgenden Optionen einzufügen:
 - Inline oder schwebend an einer bestimmten Position, zum Beispiel **InsertImage**
-- Prozentskala oder benutzerdefinierte Größe, zum Beispiel **InsertImage**; Darüber hinaus gibt die **InsertImage**-Methode ein [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/)-Objekt zurück, das gerade erstellt und eingefügt wurde, sodass Sie die Eigenschaften der Form weiter ändern können
+- Prozentskala oder benutzerdefinierte Größe, zum Beispiel **InsertImage**; Darüber hinaus gibt die **InsertImage**-Methode ein [Shape](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/)-Objekt zurück, das gerade erstellt und eingefügt wurde, sodass Sie die Eigenschaften der Form weiter ändern können
 
 ### So fügen Sie ein Inline-Bild {#insert-an-inline-image} ein
 
@@ -40,12 +40,12 @@ Das folgende Codebeispiel zeigt, wie man ein schwebendes Bild aus einer Datei od
 
 ## So extrahieren Sie Bilder aus einem {#how-to-extract-images-from-a-document}-Dokument
 
-Alle Bilder werden in **Shape**-Knoten in einem [Document](https://reference.aspose.com/words/net/aspose.words/document/) gespeichert. Gehen Sie folgendermaßen vor, um alle Bilder oder Bilder mit einem bestimmten Typ aus dem Dokument zu extrahieren:
+Alle Bilder werden in **Shape**-Knoten in einem [Document](https://reference.aspose.com/words/de/net/aspose.words/document/) gespeichert. Gehen Sie folgendermaßen vor, um alle Bilder oder Bilder mit einem bestimmten Typ aus dem Dokument zu extrahieren:
 
-- Verwenden Sie die [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/)-Methode, um alle **Shape**-Knoten auszuwählen.
+- Verwenden Sie die [GetChildNodes](https://reference.aspose.com/words/de/net/aspose.words/compositenode/getchildnodes/)-Methode, um alle **Shape**-Knoten auszuwählen.
 – Durchlaufen Sie die resultierenden Knotensammlungen.
-- Überprüfen Sie die boolesche [HasImage](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hasimage/)-Eigenschaft.
-- Extrahieren Sie Bilddaten mithilfe der [ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/imagedata/)-Eigenschaft.
+- Überprüfen Sie die boolesche [HasImage](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/hasimage/)-Eigenschaft.
+- Extrahieren Sie Bilddaten mithilfe der [ImageData](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/imagedata/)-Eigenschaft.
 - Bilddaten in einer Datei speichern.
 
 Das folgende Codebeispiel zeigt, wie man Bilder aus einem Dokument extrahiert und als Dateien speichert:
@@ -70,7 +70,7 @@ Das folgende Codebeispiel zeigt, wie auf jeder Seite eines Dokuments ein Barcode
 
 ## Seitenverhältnis des {#lock-aspect-ratio-of-image}-Bildes sperren
 
-Das Seitenverhältnis einer geometrischen Form ist das Verhältnis ihrer Größen in verschiedenen Dimensionen. Sie können das Seitenverhältnis des Bildes mit [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/) sperren. Der Standardwert des Seitenverhältnisses der Form hängt vom [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype/) ab. Es ist *true* für `ShapeType.Image` und *false* für andere Formtypen.
+Das Seitenverhältnis einer geometrischen Form ist das Verhältnis ihrer Größen in verschiedenen Dimensionen. Sie können das Seitenverhältnis des Bildes mit [AspectRatioLocked](https://reference.aspose.com/words/de/net/aspose.words.drawing/shapebase/aspectratiolocked/) sperren. Der Standardwert des Seitenverhältnisses der Form hängt vom [ShapeType](https://reference.aspose.com/words/de/net/aspose.words.drawing/shapetype/) ab. Es ist *true* für `ShapeType.Image` und *false* für andere Formtypen.
 
 Das folgende Codebeispiel zeigt, wie mit dem Seitenverhältnis gearbeitet wird:
 
@@ -78,7 +78,7 @@ Das folgende Codebeispiel zeigt, wie mit dem Seitenverhältnis gearbeitet wird:
 
 ## So erhalten Sie tatsächliche Formgrenzen in Punkten {#how-to-get-actual-bounds-of-shape-in-points}
 
-Wenn Sie möchten, dass der tatsächliche Begrenzungsrahmen der Form auf der Seite gerendert wird, können Sie dies mithilfe der [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/boundsinpoints/)-Eigenschaft erreichen.
+Wenn Sie möchten, dass der tatsächliche Begrenzungsrahmen der Form auf der Seite gerendert wird, können Sie dies mithilfe der [BoundsInPoints](https://reference.aspose.com/words/de/net/aspose.words.rendering/noderendererbase/boundsinpoints/)-Eigenschaft erreichen.
 
 Das folgende Codebeispiel zeigt, wie diese Eigenschaft verwendet wird:
 

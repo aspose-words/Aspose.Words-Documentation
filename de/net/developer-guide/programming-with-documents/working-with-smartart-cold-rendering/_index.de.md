@@ -20,7 +20,7 @@ Mit Aspose.Words können Sie eine vorgerenderte Zeichnung verwenden oder ein Kal
 
 * Wenn eine vorgerenderte Zeichnung verfügbar ist, verwendet Aspose.Words diese zum Rendern des `SmartArt`-Objekts.
 * Wenn die vorgerenderte Zeichnung fehlt, führt Aspose.Words implizit ein Kaltrendering durch, um das `SmartArt`-Objekt zu rendern.
-* Wenn eine vorgerenderte Zeichnung vorhanden, aber falsch ist, muss das SmartArt-Kaltrendering explizit durch Aufruf der [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/)-Methode durchgeführt werden.
+* Wenn eine vorgerenderte Zeichnung vorhanden, aber falsch ist, muss das SmartArt-Kaltrendering explizit durch Aufruf der [UpdateSmartArtDrawing](https://reference.aspose.com/words/de/net/aspose.words.drawing/shape/updatesmartartdrawing/)-Methode durchgeführt werden.
 
 Das folgende Codebeispiel zeigt, wie Zeichnungen für alle Diagramme im Dokument aktualisiert werden:
 

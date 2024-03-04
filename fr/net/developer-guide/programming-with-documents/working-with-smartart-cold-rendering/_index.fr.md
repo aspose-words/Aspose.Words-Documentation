@@ -20,7 +20,7 @@ Aspose.Words vous permet d'utiliser un dessin pré-rendu ou d'effectuer un rendu
 
 * Si un dessin pré-rendu est disponible, Aspose.Words l'utilise pour restituer l'objet `SmartArt`.
 * Si le dessin pré-rendu est manquant, Aspose.Words effectue implicitement un rendu à froid pour restituer l'objet `SmartArt`.
-* Si un dessin pré-rendu est présent mais est incorrect, il est nécessaire d'effectuer explicitement un rendu à froid SmartArt en appelant la méthode [UpdateSmartArtDrawing](https://reference.aspose.com/words/net/aspose.words.drawing/shape/updatesmartartdrawing/).
+* Si un dessin pré-rendu est présent mais est incorrect, il est nécessaire d'effectuer explicitement un rendu à froid SmartArt en appelant la méthode [UpdateSmartArtDrawing](https://reference.aspose.com/words/fr/net/aspose.words.drawing/shape/updatesmartartdrawing/).
 
 L'exemple de code suivant montre comment mettre à jour les dessins de tous les diagrammes du document:
 

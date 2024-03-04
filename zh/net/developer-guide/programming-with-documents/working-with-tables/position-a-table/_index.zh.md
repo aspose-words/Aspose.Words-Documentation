@@ -20,7 +20,7 @@ url: /zh/net/position-a-table/
 
 ## 指定内联表位置
 
-您可以使用 Aspose.Words API 和 [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/) 属性设置内联表的位置。因此，您可以调整表格相对于文档页面的对齐方式。
+您可以使用 Aspose.Words API 和 [Alignment](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/alignment/) 属性设置内联表的位置。因此，您可以调整表格相对于文档页面的对齐方式。
 
 以下代码示例展示了如何设置内联表的位置：
 
@@ -28,9 +28,9 @@ url: /zh/net/position-a-table/
 
 ## 获取浮动表对齐方式
 
-如果表格文本换行设置为 **Around**，则可以使用 [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) 和 [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) 属性获取表格的水平和垂直对齐方式。
+如果表格文本换行设置为 **Around**，则可以使用 [RelativeHorizontalAlignment](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/relativehorizontalalignment/) 和 [RelativeVerticalAlignment](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/relativeverticalalignment/) 属性获取表格的水平和垂直对齐方式。
 
-通过 **其他类型的文字换行**，您可以使用 [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/) 属性获得内联表对齐方式。
+通过 **其他类型的文字换行**，您可以使用 [Alignment](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/alignment/) 属性获得内联表对齐方式。
 
 以下代码示例展示了如何获取表格的对齐方式：
 
@@ -40,13 +40,13 @@ url: /zh/net/position-a-table/
 
  浮动表的位置是使用以下属性确定的：
 
-* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) – 用于计算浮动桌子水平位置的对象
-* [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) – 用于计算浮动桌子垂直位置的对象
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) – 绝对水平浮动工作台位置
-* [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) – 绝对垂直浮动工作台位置
-* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) – 启用/禁用与其他浮动对象重叠的选项
-* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) – 浮动表相对水平对齐。
-* [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) – 浮动表相对垂直对齐。
+* [HorizontalAnchor](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/horizontalanchor/) – 用于计算浮动桌子水平位置的对象
+* [VerticalAnchor](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/verticalanchor/) – 用于计算浮动桌子垂直位置的对象
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/absolutehorizontaldistance/) – 绝对水平浮动工作台位置
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/absoluteverticaldistance/) – 绝对垂直浮动工作台位置
+* [AllowOverlap](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/allowoverlap/) – 启用/禁用与其他浮动对象重叠的选项
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/relativehorizontalalignment/) – 浮动表相对水平对齐。
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/relativeverticalalignment/) – 浮动表相对垂直对齐。
 
 以下代码示例展示了如何获取浮动表的位置：
 
@@ -66,10 +66,10 @@ url: /zh/net/position-a-table/
 
 Aspose.Words 还提供了找出表格和周围文本之间距离的机会：
 
-- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) – 距上方的距离值
-- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/)--感知距离值
-- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) – 右侧距离值
-- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) – 左侧距离值
+- [DistanceTop](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distancetop/) – 距上方的距离值
+- [DistanceBottom](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distancebottom/)--感知距离值
+- [DistanceRight](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distanceright/) – 右侧距离值
+- [DistanceLeft](https://reference.aspose.com/words/zh/net/aspose.words.tables/table/distanceleft/) – 左侧距离值
 
 以下代码示例演示如何获取表格与其周围文本之间的距离：
 

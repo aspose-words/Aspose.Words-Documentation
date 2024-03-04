@@ -116,7 +116,7 @@ Questo perché le impostazioni di fallback di Microsoft Office sono selezionate 
 
 **D: Perché un testo con caratteri complessi, come il tailandese o l'ebraico, potrebbe essere visualizzato in modo impreciso per qualche motivo, ad esempio nella posizione errata dei segni diacritici o nelle legature imprecise?**
 
-Alcuni caratteri di script complessi richiedono l'elaborazione delle funzionalità di tipografia avanzata per visualizzarli correttamente. La tipografia avanzata è disabilitata in Aspose.Words per impostazione predefinita. Gli utenti devono abilitare la tipografia avanzata con [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/).
+Alcuni caratteri di script complessi richiedono l'elaborazione delle funzionalità di tipografia avanzata per visualizzarli correttamente. La tipografia avanzata è disabilitata in Aspose.Words per impostazione predefinita. Gli utenti devono abilitare la tipografia avanzata con [TextShaperFactory](https://reference.aspose.com/words/it/net/aspose.words.layout/layoutoptions/textshaperfactory/).
 
 ------
 
@@ -136,14 +136,14 @@ Puoi trovare informazioni più dettagliate su mail merge nella sezione documenta
 
 Il nome originale del campo unione rimane lo stesso senza essere sostituito dai dati richiesti dall'origine dati, quindi:
 
-* Controlla che i dati vengano caricati correttamente nelle tabelle: imposta correttamente il [TableName](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/tablename/) con tutte le chiavi primarie e le relazioni richieste.
-* Controlla che i campi di unione abbiano un nome corretto. Utilizza il metodo [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) per ottenere tutti i nomi dei campi unione e assicurati che il nome dei campi unione nel modello corrisponda a quello nell'origine dati.
+* Controlla che i dati vengano caricati correttamente nelle tabelle: imposta correttamente il [TableName](https://reference.aspose.com/words/it/net/aspose.words.mailmerging/imailmergedatasource/tablename/) con tutte le chiavi primarie e le relazioni richieste.
+* Controlla che i campi di unione abbiano un nome corretto. Utilizza il metodo [GetFieldNames](https://reference.aspose.com/words/it/net/aspose.words.mailmerging/mailmerge/getfieldnames/) per ottenere tutti i nomi dei campi unione e assicurati che il nome dei campi unione nel modello corrisponda a quello nell'origine dati.
 
 ------
 
 **D: Perché l'output dell'unione nidificata non visualizza i dati della tabella figlio per la prima voce nella tabella padre ma mostra tutti gli elementi per l'ultima voce nella tabella padre, anche quelli che non sono effettivamente collegati ad essa?**
 
-Questo perché le regioni di unione nel modello non sono formate correttamente, il che può far sì che tutte le regioni mail merge nidificate interrompano la visualizzazione di qualsiasi cosa. Il tag di apertura [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) e il tag di chiusura [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) devono corrispondere ed essere nella stessa riga o cella. Ad esempio, se inizi a nidificare le aree di unione in una cella di una tabella, devi terminare l'area di unione nella stessa riga della prima cella.
+Questo perché le regioni di unione nel modello non sono formate correttamente, il che può far sì che tutte le regioni mail merge nidificate interrompano la visualizzazione di qualsiasi cosa. Il tag di apertura [StartTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/starttable/) e il tag di chiusura [EndTable](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/endtable/) devono corrispondere ed essere nella stessa riga o cella. Ad esempio, se inizi a nidificare le aree di unione in una cella di una tabella, devi terminare l'area di unione nella stessa riga della prima cella.
 
 ------
 
@@ -172,7 +172,7 @@ Informazioni più dettagliate sulla programmazione con documenti si trovano nell
 
 **D: Perché il contenuto aggiunto a un documento non viene visualizzato nella stessa pagina?**
 
-Il risultato dell'aggiunta viene visualizzato su una pagina separata a causa di una differenza nelle impostazioni [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) per le sezioni in cui i documenti vengono aggiunti insieme. Effettua impostazioni **PageSetup** identiche per le sezioni in cui i documenti vengono aggiunti insieme.
+Il risultato dell'aggiunta viene visualizzato su una pagina separata a causa di una differenza nelle impostazioni [PageSetup](https://reference.aspose.com/words/it/net/aspose.words/pagesetup/) per le sezioni in cui i documenti vengono aggiunti insieme. Effettua impostazioni **PageSetup** identiche per le sezioni in cui i documenti vengono aggiunti insieme.
 
 ## Converti un documento
 

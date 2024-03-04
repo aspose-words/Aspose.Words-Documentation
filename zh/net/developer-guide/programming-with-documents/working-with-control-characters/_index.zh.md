@@ -13,7 +13,7 @@ Microsoft Word 文档可能包含各种具有特殊含义的字符。通常它�
 
 有时您可能需要在文本中添加或删除字符。例如，当以编程方式从文档中获取文本时，Aspose.Words 会保留大部分控制字符，因此如果您需要使用此文本，您可能应该删除或替换这些字符。
 
-[ControlChar](https://reference.aspose.com/words/net/aspose.words/controlchar/) 类是常量的存储库，这些常量表示文档中经常遇到的控制字符。它提供相同常量的字符和字符串版本。例如，字符串 [LineBreak](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreak/) 和字符 [LineBreakChar](https://reference.aspose.com/words/net/aspose.words/controlchar/linebreakchar) 具有相同的值。
+[ControlChar](https://reference.aspose.com/words/zh/net/aspose.words/controlchar/) 类是常量的存储库，这些常量表示文档中经常遇到的控制字符。它提供相同常量的字符和字符串版本。例如，字符串 [LineBreak](https://reference.aspose.com/words/zh/net/aspose.words/controlchar/linebreak/) 和字符 [LineBreakChar](https://reference.aspose.com/words/zh/net/aspose.words/controlchar/linebreakchar) 具有相同的值。
 
 以下代码示例展示了如何使用控制字符：
 

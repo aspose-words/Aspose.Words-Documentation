@@ -20,7 +20,7 @@ Aspose.Words 需要 TrueType 字体来执行各种任务，包括将文档渲染
 
 ## 字体操作和性能问题
 
-所有可用的字体操作机制都包含在 [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) 类中。此类负责在定义的字体源中获取字体以及字体替换过程，如下所述。
+所有可用的字体操作机制都包含在 [FontSettings](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontsettings/) 类中。此类负责在定义的字体源中获取字体以及字体替换过程，如下所述。
 
 字体解析分几个步骤：
 
@@ -55,7 +55,7 @@ Aspose.Words 需要 TrueType 字体来执行各种任务，包括将文档渲染
 然而，在某些情况下，无法找到确切的字体，Aspose.Words 必须将其替换为类似的字体。 Aspose.Words按照以下过程选择字体：
 1. Aspose.Words 尝试在可用字体源中查找具有准确字体名称的字体。
 1. Aspose.Words 尝试在原始文档中嵌入的字体中查找所需的字体。某些文档格式（例如 DOCX）可以包含嵌入字体。
-1. 如果 Aspose.Words 无法找到名称完全匹配的所需字体以及为此字体定义的 [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/altname/) 属性，则 Aspose.Words 将从 [FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) 类中查找使用 **AltName** 定义的字体，[FontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/) 类指定了字体信息。
+1. 如果 Aspose.Words 无法找到名称完全匹配的所需字体以及为此字体定义的 [AltName](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontinfo/altname/) 属性，则 Aspose.Words 将从 [FontInfo](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontinfo/) 类中查找使用 **AltName** 定义的字体，[FontInfo](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontinfo/) 类指定了字体信息。
 1. 如果 Aspose.Words 无法找到已定义的字体，并且 **AltName** 也未定义，则将一一应用字体替换规则，如下所述（当找到合适的替换时，字体替换过程将停止，并且下一步不执行）：
    1. 首先，Aspose.Words 尝试处理字体名称以进行替换，特别是尝试删除带有"-"和","分隔符的后缀。<br>
       如果发生此替换规则，则"未找到字体 '&lt;OriginalFont&gt;'。使用 '&lt;SubstitutionFont&gt;' 字体代替。原因：字体名称替换。"出现警告。<br>
@@ -98,7 +98,7 @@ Aspose.Words 需要 TrueType 字体来执行各种任务，包括将文档渲染
             fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
       {{< /highlight >}}
       如果 **FontInfo** 不可用于丢失的字体，则该过程将停止。<br>
-   1. 当`FontInfo`替换也失败的情况下，将应用**DefaultFont**替换规则。该规则也是默认启用的。根据此规则，Aspose.Words 将尝试使用 [DefaultFontName](https://reference.aspose.com/words/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) 属性中指定的默认字体。如果用户没有选择自己的默认字体，那么"Times New Roman"将被用作默认字体。可以禁用该规则，如下所示：<br>
+   1. 当`FontInfo`替换也失败的情况下，将应用**DefaultFont**替换规则。该规则也是默认启用的。根据此规则，Aspose.Words 将尝试使用 [DefaultFontName](https://reference.aspose.com/words/zh/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/) 属性中指定的默认字体。如果用户没有选择自己的默认字体，那么"Times New Roman"将被用作默认字体。可以禁用该规则，如下所示：<br>
       **.NET**<br>
       {{< highlight csharp >}}
       fontSettings.SubstitutionSettings.DefaultFontSubstitution.Enabled = false;
@@ -120,9 +120,9 @@ Aspose.Words 需要 TrueType 字体来执行各种任务，包括将文档渲染
 
 ## 如何识别字体已被替换
 
-有时，可能不清楚为什么文档布局发生了变化，或者为什么某些字体看起来不符合预期。在这种情况下，[IWarningCallback](https://reference.aspose.com/words/net/aspose.words/iwarningcallback/) 接口实现的字体替换警告消息可以发挥作用。它们具有 [FontSubstitution](https://reference.aspose.com/words/net/aspose.words/warningtype/) 警告类型和标准描述文本格式"Font '<OriginalFont> '尚未找到。使用 '<SubstitutionFont> ' 字体代替。原因：<Reason> "，原因如下：
+有时，可能不清楚为什么文档布局发生了变化，或者为什么某些字体看起来不符合预期。在这种情况下，[IWarningCallback](https://reference.aspose.com/words/zh/net/aspose.words/iwarningcallback/) 接口实现的字体替换警告消息可以发挥作用。它们具有 [FontSubstitution](https://reference.aspose.com/words/zh/net/aspose.words/warningtype/) 警告类型和标准描述文本格式"Font '<OriginalFont> '尚未找到。使用 '<SubstitutionFont> ' 字体代替。原因：<Reason> "，原因如下：
 
-- "文档中的替代名称" – 用于 [AltName](https://reference.aspose.com/words/net/aspose.words.fonts/fontinfo/properties/altname) 替换
+- "文档中的替代名称" – 用于 [AltName](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontinfo/properties/altname) 替换
 - "fontconfig replacement" – 用于通过字体配置规则进行替换
 - "表替换" – 按表规则替换
 - "字体信息替换" – 用于按字体信息规则替换
@@ -133,7 +133,7 @@ Aspose.Words 需要 TrueType 字体来执行各种任务，包括将文档渲染
 
 Aspose.Words 使用两种不同的机制--字体替换和字体回退。当在字体源中找不到文档中指定的字体时，将使用字体替换，如上面各节所述。字体回退机制在字体解析时使用，但它不包含特定字符。在这种情况下，Aspose.Words 尝试使用该字符的后备字体之一。
 
-有一种 [BuildAutomatic](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) 方法可以通过扫描可用字体自动构建后备设置。由于此方法可能会产生非最佳回退设置，因此您可以使用 [FontFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/) 类的属性来控制字体回退行为。此类指定字体回退机制的设置。您可以按如下方式获取 **FontFallbackSettings** 类的实例：
+有一种 [BuildAutomatic](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/) 方法可以通过扫描可用字体自动构建后备设置。由于此方法可能会产生非最佳回退设置，因此您可以使用 [FontFallbackSettings](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontfallbacksettings/) 类的属性来控制字体回退行为。此类指定字体回退机制的设置。您可以按如下方式获取 **FontFallbackSettings** 类的实例：
 
 **.NET**
 
@@ -195,7 +195,7 @@ fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 
 ## Google Noto 字体的预定义字体回退设置
 
-Aspose.Words 为 Google Noto 字体提供预定义的字体后备设置。这些是根据 SIL 开放字体许可证获得许可的免费字体，可以从 Google Noto Fonts 下载。 **FontFallbackSettings** 类提供了 [LoadNotoFallbackSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) 方法。它加载预定义的后备设置，该设置使用 Google Noto 字体，如下面的代码示例所示：
+Aspose.Words 为 Google Noto 字体提供预定义的字体后备设置。这些是根据 SIL 开放字体许可证获得许可的免费字体，可以从 Google Noto Fonts 下载。 **FontFallbackSettings** 类提供了 [LoadNotoFallbackSettings](https://reference.aspose.com/words/zh/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/) 方法。它加载预定义的后备设置，该设置使用 Google Noto 字体，如下面的代码示例所示：
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontSettings-SetPredefinedFontFallbackSettings.cs" >}}
 

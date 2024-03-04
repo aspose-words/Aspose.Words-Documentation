@@ -31,7 +31,7 @@ Aspose.Words для .NET выполняется под управлением .N
 
 - Использование объектов COM на вашем языке программирования. См. документацию по языку программирования и разделы, посвященные конкретному языку, далее в этой документации.
 - Работа с объектами COM, предоставляемыми .NET COM Interop. См. [Interop Использование неуправляемого кода](https://learn.microsoft.com/en-us/dotnet/framework/interop/) и [Раскрытие компонентов .NET Framework для COM](https://learn.microsoft.com/en-us/dotnet/framework/interop/exposing-dotnet-components-to-com) в MSDN.
-- Объектная модель Aspose.Words-документа. См. Aspose.Words [Руководство разработчика](/words/ru/net/developer-guide/) и [API Reference](https://reference.aspose.com/words/net/).
+- Объектная модель Aspose.Words-документа. См. Aspose.Words [Руководство разработчика](/words/ru/net/developer-guide/) и [API Reference](https://reference.aspose.com/words/ru/net/).
 
 ## Зарегистрируйте Aspose.Words для .NET с помощью COM Interop
 

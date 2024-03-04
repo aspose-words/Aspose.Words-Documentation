@@ -28,7 +28,7 @@ Bir alan şunlardan oluşur:
 
 ![fields-aspose-words](/words/net/fields-overview/fields-overview-1.png)
 
-Alan kodunu oluşturan içerik, [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) ile [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) arasında [Run](https://reference.aspose.com/words/net/aspose.words/run/) düğümleri olarak depolanır. Alan sonucu **FieldSeparator** ve [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend/) düğümleri arasında depolanır ve çeşitli içerik türlerinden oluşabilir. Normalde alan sonucu yalnızca **Run** düğümlerinden oluşan metni içerir, ancak **FieldEnd** düğümünün tamamen farklı bir paragrafta konumlandırılması ve dolayısıyla alan sonucunun **Table** ve **Paragraph** düğümleri gibi [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](/words/tr/net/logical-levels-of-nodes-in-a-document/)'den oluşması da mümkündür.
+Alan kodunu oluşturan içerik, [FieldStart](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldstart/) ile [FieldSeparator](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldseparator/) arasında [Run](https://reference.aspose.com/words/tr/net/aspose.words/run/) düğümleri olarak depolanır. Alan sonucu **FieldSeparator** ve [FieldEnd](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldend/) düğümleri arasında depolanır ve çeşitli içerik türlerinden oluşabilir. Normalde alan sonucu yalnızca **Run** düğümlerinden oluşan metni içerir, ancak **FieldEnd** düğümünün tamamen farklı bir paragrafta konumlandırılması ve dolayısıyla alan sonucunun **Table** ve **Paragraph** düğümleri gibi [Bir Belgedeki Düğümlerin Mantıksal Düzeyleri](/words/tr/net/logical-levels-of-nodes-in-a-document/)'den oluşması da mümkündür.
 
 Burada, [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer)'de bulunabilen "*DocumentExplorer"* örneğini kullanarak bir alanın Aspose.Words'te nasıl saklandığına dair bir görünüm bulunmaktadır.
 
@@ -36,15 +36,15 @@ Burada, [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/mast
 
 ## Aspose.Words Document Object Model'deki (DOM) alanlar
 
-Bir belge Aspose.Words'e yüklendiğinde, belgenin alanları bir dizi ayrı bileşen (düğüm) olarak [Aspose.Words Document Object Model (DOM)](/words/tr/net/aspose-words-document-object-model/)'ye yüklenir. Tek bir alan, **FieldStart**, **FieldSeparator** ve **FieldEnd** düğümlerinin bir koleksiyonu olarak ve bu düğümler arasındaki içerikle birlikte yüklenir. Bir alanın alan sonucu yoksa **FieldSeparator** düğümü olmayacaktır. Bu düğümlerin tümü her zaman satır içi olarak bulunur ([Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) veya [SmartTag](https://reference.aspose.com/words/net/aspose.words.markup/smarttag/)'nin çocukları olarak).
+Bir belge Aspose.Words'e yüklendiğinde, belgenin alanları bir dizi ayrı bileşen (düğüm) olarak [Aspose.Words Document Object Model (DOM)](/words/tr/net/aspose-words-document-object-model/)'ye yüklenir. Tek bir alan, **FieldStart**, **FieldSeparator** ve **FieldEnd** düğümlerinin bir koleksiyonu olarak ve bu düğümler arasındaki içerikle birlikte yüklenir. Bir alanın alan sonucu yoksa **FieldSeparator** düğümü olmayacaktır. Bu düğümlerin tümü her zaman satır içi olarak bulunur ([Paragraph](https://reference.aspose.com/words/tr/net/aspose.words/paragraph/) veya [SmartTag](https://reference.aspose.com/words/tr/net/aspose.words.markup/smarttag/)'nin çocukları olarak).
 
-Aspose.Words'te **FieldXXX** düğümlerinin her biri [FieldChar](https://reference.aspose.com/words/net/aspose.words.fields/fieldchar/)'den türetilir. Bu sınıf, belirtilen düğüm tarafından temsil edilen alan türünü [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) özelliği aracılığıyla kontrol etmek için bir özellik sağlar. Örneğin **FieldType.FieldMergeField**, belgedeki bir birleştirme alanını temsil eder.
+Aspose.Words'te **FieldXXX** düğümlerinin her biri [FieldChar](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldchar/)'den türetilir. Bu sınıf, belirtilen düğüm tarafından temsil edilen alan türünü [FieldType](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldtype/) özelliği aracılığıyla kontrol etmek için bir özellik sağlar. Örneğin **FieldType.FieldMergeField**, belgedeki bir birleştirme alanını temsil eder.
 
 {{% alert color="primary" %}}
 
-Bir Word belgesinde bulunan ve Aspose.Words'e **FieldXXX** düğümlerinin bir koleksiyonu olarak aktarılmayan bazı belirli alanlar vardır. Örneğin, `LINK` alanı ve `INCLUDEPICTURE` alanı Aspose.Words'e [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) nesnesi olarak aktarılır. Bu nesne, normalde bu alanlarda depolanan görüntü verileriyle çalışacak özellikler sağlar. `INCLUDEPICTURE` alanını **FieldXXX** düğümleri olarak içe aktarmak için [PreserveIncludePictureField](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/preserveincludepicturefield/) seçeneğinin **true** olarak belirtilmesi gerekir.
+Bir Word belgesinde bulunan ve Aspose.Words'e **FieldXXX** düğümlerinin bir koleksiyonu olarak aktarılmayan bazı belirli alanlar vardır. Örneğin, `LINK` alanı ve `INCLUDEPICTURE` alanı Aspose.Words'e [Shape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/) nesnesi olarak aktarılır. Bu nesne, normalde bu alanlarda depolanan görüntü verileriyle çalışacak özellikler sağlar. `INCLUDEPICTURE` alanını **FieldXXX** düğümleri olarak içe aktarmak için [PreserveIncludePictureField](https://reference.aspose.com/words/tr/net/aspose.words.loading/loadoptions/preserveincludepicturefield/) seçeneğinin **true** olarak belirtilmesi gerekir.
 
-Form alanları da Aspose.Words'e kendi özel sınıfları olarak aktarılır. [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) sınıfı, Word belgesindeki bir form alanını temsil eder ve form alanına özel ek yöntemler sağlar.
+Form alanları da Aspose.Words'e kendi özel sınıfları olarak aktarılır. [FormField](https://reference.aspose.com/words/tr/net/aspose.words.fields/formfield/) sınıfı, Word belgesindeki bir form alanını temsil eder ve form alanına özel ek yöntemler sağlar.
 
 {{% /alert %}}
 
@@ -201,10 +201,10 @@ Belgedeki bir alan, elde edilen değerin nasıl biçimlendirilmesi gerektiğini 
 
 ### Alanlarda Date ve Sayı Biçimlendirmesi
 
-Aspose.Words bir alan sonucunu hesapladığında, genellikle bir dizeyi bir sayı veya tarih değerine ayrıştırması ve ayrıca onu tekrar bir dizeye biçimlendirmesi gerekir. Aspose.Words, alan güncellemesi sırasında alan değerlerini hesaplarken varsayılan olarak ayrıştırma ve biçimlendirmeyi gerçekleştirmek için geçerli iş parçacığı kültürünü kullanır. ve mail merge. Alan güncellemesi sırasında hangi kültürün kullanıldığı üzerinde daha fazla kontrole olanak tanıyan [FieldOptions](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/) sınıfı biçiminde sağlanan seçenekler de vardır.
+Aspose.Words bir alan sonucunu hesapladığında, genellikle bir dizeyi bir sayı veya tarih değerine ayrıştırması ve ayrıca onu tekrar bir dizeye biçimlendirmesi gerekir. Aspose.Words, alan güncellemesi sırasında alan değerlerini hesaplarken varsayılan olarak ayrıştırma ve biçimlendirmeyi gerçekleştirmek için geçerli iş parçacığı kültürünü kullanır. ve mail merge. Alan güncellemesi sırasında hangi kültürün kullanıldığı üzerinde daha fazla kontrole olanak tanıyan [FieldOptions](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldoptions/) sınıfı biçiminde sağlanan seçenekler de vardır.
 
-- varsayılan olarak [FieldUpdateCultureSource](https://reference.aspose.com/words/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) özelliği, alanları geçerli iş parçacığı kültürünü kullanarak biçimlendiren [CurrentThread](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/) olarak ayarlanmıştır
-- bu özellik [FieldCode](https://reference.aspose.com/words/net/aspose.words.fields/fieldupdateculturesource/) olarak ayarlanabilir, böylece alanın alan kodundan ayarlanan dil bunun yerine biçimlendirme için kullanılır
+- varsayılan olarak [FieldUpdateCultureSource](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/) özelliği, alanları geçerli iş parçacığı kültürünü kullanarak biçimlendiren [CurrentThread](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldupdateculturesource/) olarak ayarlanmıştır
+- bu özellik [FieldCode](https://reference.aspose.com/words/tr/net/aspose.words.fields/fieldupdateculturesource/) olarak ayarlanabilir, böylece alanın alan kodundan ayarlanan dil bunun yerine biçimlendirme için kullanılır
 
 ### Geçerli Konunun Kültürünü Kullanarak Biçimlendirme
 
@@ -220,7 +220,7 @@ Alanları biçimlendirmek için mevcut kültürün kullanılması, sistemin alan
 
 Öte yandan Microsoft Word, her bir alanı, alanda bulunan metnin diline (özellikle alan kodundaki çalıştırmalara) göre biçimlendirir. Bazen alan güncellemesi sırasında bu istenen davranış olabilir; örneğin, birçok farklı dilden oluşan içerik içeren küreselleştirilmiş belgeleriniz varsa ve her alanın metinde kullanılan yerel ayarı dikkate almasını istiyorsanız. Aspose.Words de bu işlevselliği destekler.
 
-[Document](https://reference.aspose.com/words/net/aspose.words/document/) sınıfı, alanların belge içinde nasıl güncellendiğini kontrol etmek için kullanılabilecek üyeleri içeren bir [FieldOptions](https://reference.aspose.com/words/net/aspose.words/document/fieldoptions/) özelliği sağlar.
+[Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfı, alanların belge içinde nasıl güncellendiğini kontrol etmek için kullanılabilecek üyeleri içeren bir [FieldOptions](https://reference.aspose.com/words/tr/net/aspose.words/document/fieldoptions/) özelliği sağlar.
 
 Aşağıdaki kod örneği, alan güncellemesi sırasında tarih biçimlendirmesi için kullanılan kültürün ve mail merge'in nereden seçileceğinin nasıl belirtileceğini gösterir:
 

@@ -60,7 +60,7 @@ Das Bild oben zeigt, dass das Dokument eine Tabelle mit mehreren Zeilen enthält
 
 Beachten Sie auch, dass zum Trennen zweier aufeinanderfolgender Tabellen in einem Dokument mindestens ein leerer Absatz nach der Tabelle erforderlich ist. Ohne einen solchen Absatz würden aufeinanderfolgende Tabellen zu einer zusammengefügt. Dieses Verhalten ist in Microsoft Word und Aspose.Words identisch.
 
-In Aspose.Words sind alle tabellenbezogenen Klassen und Eigenschaften im [Aspose.Words.Tables](https://reference.aspose.com/words/net/aspose.words.tables/)-Namespace enthalten.
+In Aspose.Words sind alle tabellenbezogenen Klassen und Eigenschaften im [Aspose.Words.Tables](https://reference.aspose.com/words/de/net/aspose.words.tables/)-Namespace enthalten.
 
 ## Siehe auch
 

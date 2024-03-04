@@ -19,13 +19,13 @@ In diesem Artikel wird erläutert, wie Sie mit Abschnitten und Abschnittsumbrüc
 
 ## Was Abschnitt und Abschnittsumbruch ist
 
-Dokumentabschnitte werden durch die Klassen [Section](https://reference.aspose.com/words/net/aspose.words/section/) und [SectionCollection](https://reference.aspose.com/words/net/aspose.words/section/collection) repräsentiert. Abschnittsobjekte sind unmittelbare untergeordnete Elemente des [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Knotens und können über die [Sections](https://reference.aspose.com/words/net/aspose.words/document//properties/sections)-Eigenschaft aufgerufen werden. Sie können diese Knoten mithilfe einiger Methoden wie [Remove](https://reference.aspose.com/words/net/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/) und anderen verwalten.
+Dokumentabschnitte werden durch die Klassen [Section](https://reference.aspose.com/words/de/net/aspose.words/section/) und [SectionCollection](https://reference.aspose.com/words/de/net/aspose.words/section/collection) repräsentiert. Abschnittsobjekte sind unmittelbare untergeordnete Elemente des [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Knotens und können über die [Sections](https://reference.aspose.com/words/de/net/aspose.words/document//properties/sections)-Eigenschaft aufgerufen werden. Sie können diese Knoten mithilfe einiger Methoden wie [Remove](https://reference.aspose.com/words/de/net/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/de/net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/de/net/aspose.words/nodecollection/indexof/) und anderen verwalten.
 
 Abschnittsumbruch ist eine Option, die Dokumentseiten in Abschnitte mit anpassbaren Layouts unterteilt.
 
 ## Arten eines Abschnittsumbruchs
 
-Mit Aspose.Words können Sie Dokumente mithilfe verschiedener Abschnittsumbrüche der [BreakType](https://reference.aspose.com/words/net/aspose.words/breaktype/)-Aufzählung aufteilen und formatieren:
+Mit Aspose.Words können Sie Dokumente mithilfe verschiedener Abschnittsumbrüche der [BreakType](https://reference.aspose.com/words/de/net/aspose.words/breaktype/)-Aufzählung aufteilen und formatieren:
 
 * SectionBreakContinuous
 * SectionBreakNewColumn
@@ -33,7 +33,7 @@ Mit Aspose.Words können Sie Dokumente mithilfe verschiedener Abschnittsumbrüch
 * AbschnittBreakEvenPage
 * SectionBreakOddPage
 
-Sie können die [SectionStart](https://reference.aspose.com/words/net/aspose.words/sectionstart/)-Enumeration auch verwenden, um einen Umbruchtyp auszuwählen, der nur für den ersten Abschnitt gilt, z. B. NewColumn, NewPage, EvenPage und OddPage.
+Sie können die [SectionStart](https://reference.aspose.com/words/de/net/aspose.words/sectionstart/)-Enumeration auch verwenden, um einen Umbruchtyp auszuwählen, der nur für den ersten Abschnitt gilt, z. B. NewColumn, NewPage, EvenPage und OddPage.
 
 ## Verwalten Sie einen Abschnitt
 
@@ -43,13 +43,13 @@ Andererseits können Sie auch `DocumentBuilder` API verwenden, um mit Abschnitte
 
 ## Fügen Sie einen Abschnittsumbruch ein oder entfernen Sie ihn
 
-Mit Aspose.Words können Sie mithilfe der [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/)-Methode einen Abschnittsumbruch in Text einfügen.
+Mit Aspose.Words können Sie mithilfe der [InsertBreak](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/insertbreak/)-Methode einen Abschnittsumbruch in Text einfügen.
 
 Das folgende Codebeispiel zeigt, wie man einen Abschnittsumbruch in ein Dokument einfügt:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "insert-section-breaks.cs" >}}
 
-Verwenden Sie die [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/)-Methode, um einen Abschnittsumbruch zu löschen. Wenn Sie einen bestimmten Abschnittsumbruch nicht entfernen müssen und stattdessen den Inhalt dieses Abschnitts löschen müssen, können Sie die [ClearContent](https://reference.aspose.com/words/net/aspose.words/section/clearcontent/)-Methode verwenden.
+Verwenden Sie die [Remove](https://reference.aspose.com/words/de/net/aspose.words/node/remove/)-Methode, um einen Abschnittsumbruch zu löschen. Wenn Sie einen bestimmten Abschnittsumbruch nicht entfernen müssen und stattdessen den Inhalt dieses Abschnitts löschen müssen, können Sie die [ClearContent](https://reference.aspose.com/words/de/net/aspose.words/section/clearcontent/)-Methode verwenden.
 
 Das folgende Codebeispiel zeigt, wie Abschnittsumbrüche entfernt werden:
 
@@ -63,7 +63,7 @@ Beachten Sie, dass ein Abschnittsumbruch Informationen über den Abschnitt davor
 
 ## Verschieben Sie einen Abschnitt
 
-Wenn Sie einen Abschnitt in Ihrem Dokument von einer Position an eine andere verschieben möchten, müssen Sie den Index dieses Abschnitts abrufen. Mit Aspose.Words können Sie mithilfe der [Item](https://reference.aspose.com/words/net/aspose.words/sectioncollection//properties/item)-Eigenschaft eine Abschnittsposition aus einem [SectionCollection](https://reference.aspose.com/words/net/aspose.words/sectioncollection/) abrufen. Sie können die [Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/)-Eigenschaft verwenden, um alle Abschnitte in Ihrem Dokument abzurufen. Wenn Sie jedoch nur den ersten Abschnitt erhalten möchten, können Sie die [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/)-Eigenschaft verwenden.
+Wenn Sie einen Abschnitt in Ihrem Dokument von einer Position an eine andere verschieben möchten, müssen Sie den Index dieses Abschnitts abrufen. Mit Aspose.Words können Sie mithilfe der [Item](https://reference.aspose.com/words/de/net/aspose.words/sectioncollection//properties/item)-Eigenschaft eine Abschnittsposition aus einem [SectionCollection](https://reference.aspose.com/words/de/net/aspose.words/sectioncollection/) abrufen. Sie können die [Sections](https://reference.aspose.com/words/de/net/aspose.words/document/sections/)-Eigenschaft verwenden, um alle Abschnitte in Ihrem Dokument abzurufen. Wenn Sie jedoch nur den ersten Abschnitt erhalten möchten, können Sie die [FirstSection](https://reference.aspose.com/words/de/net/aspose.words/document/firstsection/)-Eigenschaft verwenden.
 
 Das folgende Codebeispiel zeigt, wie Sie auf den ersten Abschnitt zugreifen und die untergeordneten Elemente eines zusammengesetzten Knotens durchlaufen:
 
@@ -71,7 +71,7 @@ Das folgende Codebeispiel zeigt, wie Sie auf den ersten Abschnitt zugreifen und 
 
 ## Geben Sie ein Abschnittslayout an
 
-Manchmal möchten Sie, dass Ihr Dokument besser aussieht, indem Sie kreative Layouts für verschiedene Dokumentabschnitte erstellen. Wenn Sie den Typ des aktuellen Abschnittsrasters angeben möchten, können Sie mithilfe der [SectionLayoutMode](https://reference.aspose.com/words/net/aspose.words/sectionlayoutmode/)-Enumeration einen Abschnittslayoutmodus auswählen:
+Manchmal möchten Sie, dass Ihr Dokument besser aussieht, indem Sie kreative Layouts für verschiedene Dokumentabschnitte erstellen. Wenn Sie den Typ des aktuellen Abschnittsrasters angeben möchten, können Sie mithilfe der [SectionLayoutMode](https://reference.aspose.com/words/de/net/aspose.words/sectionlayoutmode/)-Enumeration einen Abschnittslayoutmodus auswählen:
 
 * Standard
 * Netz
@@ -84,7 +84,7 @@ Das folgende Codebeispiel zeigt, wie Sie die Anzahl der Zeilen begrenzen können
 
 ## Bearbeiten Sie einen Abschnitt
 
-Wenn Sie Ihrem Dokument einen neuen Abschnitt hinzufügen, gibt es keinen Textkörper oder Absatz, den Sie bearbeiten können. Mit Aspose.Words können Sie mit der [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words/section/ensureminimum/)-Methode garantieren, dass ein Abschnitt einen Hauptteil mit mindestens einem Absatz enthält – es fügt dem Dokument automatisch einen Hauptteilknoten (oder HeaderFooter-Knoten) und anschließend einen Absatz hinzu.
+Wenn Sie Ihrem Dokument einen neuen Abschnitt hinzufügen, gibt es keinen Textkörper oder Absatz, den Sie bearbeiten können. Mit Aspose.Words können Sie mit der [EnsureMinimum](https://reference.aspose.com/words/de/net/aspose.words/section/ensureminimum/)-Methode garantieren, dass ein Abschnitt einen Hauptteil mit mindestens einem Absatz enthält – es fügt dem Dokument automatisch einen Hauptteilknoten (oder HeaderFooter-Knoten) und anschließend einen Absatz hinzu.
 
 Das folgende Codebeispiel zeigt, wie Sie mit **EnsureMinimum** einen neuen Abschnittsknoten vorbereiten:
 
@@ -92,7 +92,7 @@ Das folgende Codebeispiel zeigt, wie Sie mit **EnsureMinimum** einen neuen Absch
 
 ### Inhalte anhängen oder voranstellen
 
-Wenn Sie am Anfang/Ende eines Abschnitts eine Form zeichnen oder Text oder Bild hinzufügen möchten, können Sie die Methoden [AppendContent](https://reference.aspose.com/words/net/aspose.words/section/appendcontent/) und [PrependContent](https://reference.aspose.com/words/net/aspose.words/section/prependcontent/) der [Section](https://reference.aspose.com/words/net/aspose.words/section/)-Klasse verwenden.
+Wenn Sie am Anfang/Ende eines Abschnitts eine Form zeichnen oder Text oder Bild hinzufügen möchten, können Sie die Methoden [AppendContent](https://reference.aspose.com/words/de/net/aspose.words/section/appendcontent/) und [PrependContent](https://reference.aspose.com/words/de/net/aspose.words/section/prependcontent/) der [Section](https://reference.aspose.com/words/de/net/aspose.words/section/)-Klasse verwenden.
 
 Das folgende Codebeispiel zeigt, wie der Inhalt eines vorhandenen Abschnitts angehängt wird:
 
@@ -100,7 +100,7 @@ Das folgende Codebeispiel zeigt, wie der Inhalt eines vorhandenen Abschnitts ang
 
 ### Klonen Sie einen Abschnitt
 
-Mit Aspose.Words können Sie einen Abschnitt duplizieren, indem Sie mit der [Clone](https://reference.aspose.com/words/net/aspose.words/section/clone/)-Methode eine vollständige Kopie davon erstellen.
+Mit Aspose.Words können Sie einen Abschnitt duplizieren, indem Sie mit der [Clone](https://reference.aspose.com/words/de/net/aspose.words/section/clone/)-Methode eine vollständige Kopie davon erstellen.
 
 Das folgende Codebeispiel zeigt, wie Sie den ersten Abschnitt in Ihrem Dokument klonen:
 
@@ -110,7 +110,7 @@ Das folgende Codebeispiel zeigt, wie Sie den ersten Abschnitt in Ihrem Dokument 
 
 In einigen Fällen verfügen Sie möglicherweise über große Dokumente mit vielen Abschnitten und möchten den Inhalt eines Abschnitts von einem Dokument in ein anderes kopieren.
 
-Mit Aspose.Words können Sie Abschnitte zwischen Dokumenten mithilfe der [ImportNode](https://reference.aspose.com/words/net/aspose.words/nodeimporter/importnode/)-Methode kopieren.
+Mit Aspose.Words können Sie Abschnitte zwischen Dokumenten mithilfe der [ImportNode](https://reference.aspose.com/words/de/net/aspose.words/nodeimporter/importnode/)-Methode kopieren.
 
 Das folgende Codebeispiel zeigt, wie Abschnitte zwischen Dokumenten kopiert werden:
 
@@ -127,7 +127,7 @@ Das folgende Codebeispiel zeigt, wie zwei Abschnitte mit unterschiedlichen Über
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
-Wenn Sie den Text von Kopf- und Fußzeilen entfernen möchten, ohne [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/)-Objekte in Ihrem Dokument zu entfernen, können Sie die [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/)-Methode verwenden. Darüber hinaus können Sie mit der [DeleteHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words/section/deleteheaderfootershapes/)-Methode alle Formen aus Kopf- und Fußzeilen in Ihrem Dokument entfernen.
+Wenn Sie den Text von Kopf- und Fußzeilen entfernen möchten, ohne [HeaderFooter](https://reference.aspose.com/words/de/net/aspose.words/headerfooter/)-Objekte in Ihrem Dokument zu entfernen, können Sie die [ClearHeadersFooters](https://reference.aspose.com/words/de/net/aspose.words/section/clearheadersfooters/)-Methode verwenden. Darüber hinaus können Sie mit der [DeleteHeaderFooterShapes](https://reference.aspose.com/words/de/net/aspose.words/section/deleteheaderfootershapes/)-Methode alle Formen aus Kopf- und Fußzeilen in Ihrem Dokument entfernen.
 
 Das folgende Codebeispiel zeigt, wie der Inhalt aller Kopf- und Fußzeilen in einem Abschnitt gelöscht wird:
 
@@ -141,7 +141,7 @@ Das folgende Codebeispiel zeigt, wie alle Formen aus allen Kopf- und Fußzeilen 
 
 Bevor Sie eine Seite oder ein Dokument drucken, möchten Sie möglicherweise die Größe und das Layout einer einzelnen Seite oder des gesamten Dokuments anpassen und ändern. Mit der Seiteneinrichtung können Sie die Einstellungen von Dokumentseiten wie Ränder, Ausrichtung und Größe ändern, um verschiedene erste Seiten oder ungerade Seiten zu drucken.
 
-Mit Aspose.Words können Sie Seiten- und Abschnittseigenschaften mithilfe der [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/)-Klasse anpassen.
+Mit Aspose.Words können Sie Seiten- und Abschnittseigenschaften mithilfe der [PageSetup](https://reference.aspose.com/words/de/net/aspose.words/pagesetup/)-Klasse anpassen.
 
 Das folgende Codebeispiel zeigt, wie Eigenschaften wie Seitengröße und Ausrichtung für den aktuellen Abschnitt festgelegt werden:
 

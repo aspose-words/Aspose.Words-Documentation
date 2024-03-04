@@ -116,7 +116,7 @@ Esto se debe a que la configuración alternativa de Microsoft Office está selec
 
 **P: ¿Por qué un texto en escritura compleja, como el tailandés o el hebreo, puede mostrarse de manera inexacta por algún motivo, como la posición incorrecta de los signos diacríticos o las ligaduras inexactas?**
 
-Algunas fuentes de escritura complejas requieren que se procesen las funciones de tipografía avanzada para poder mostrarlas correctamente. La tipografía avanzada está deshabilitada en Aspose.Words de forma predeterminada. Los usuarios deben habilitar la tipografía avanzada con [TextShaperFactory](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/textshaperfactory/).
+Algunas fuentes de escritura complejas requieren que se procesen las funciones de tipografía avanzada para poder mostrarlas correctamente. La tipografía avanzada está deshabilitada en Aspose.Words de forma predeterminada. Los usuarios deben habilitar la tipografía avanzada con [TextShaperFactory](https://reference.aspose.com/words/es/net/aspose.words.layout/layoutoptions/textshaperfactory/).
 
 ------
 
@@ -136,14 +136,14 @@ Puede encontrar información más detallada sobre la combinación de corresponde
 
 El nombre original del campo de combinación permanece igual sin ser reemplazado por los datos requeridos de la fuente de datos, luego:
 
-* Verifique que los datos se estén cargando correctamente en las tablas: configure el [TableName](https://reference.aspose.com/words/net/aspose.words.mailmerging/imailmergedatasource/tablename/) correctamente con todas las claves primarias y relaciones requeridas.
-* Verifique que los campos de combinación tengan el nombre correcto. Utilice el método [GetFieldNames](https://reference.aspose.com/words/net/aspose.words.mailmerging/mailmerge/getfieldnames/) para obtener todos los nombres de los campos de combinación y asegúrese de que el nombre de los campos de combinación en su plantilla coincida con el de su fuente de datos.
+* Verifique que los datos se estén cargando correctamente en las tablas: configure el [TableName](https://reference.aspose.com/words/es/net/aspose.words.mailmerging/imailmergedatasource/tablename/) correctamente con todas las claves primarias y relaciones requeridas.
+* Verifique que los campos de combinación tengan el nombre correcto. Utilice el método [GetFieldNames](https://reference.aspose.com/words/es/net/aspose.words.mailmerging/mailmerge/getfieldnames/) para obtener todos los nombres de los campos de combinación y asegúrese de que el nombre de los campos de combinación en su plantilla coincida con el de su fuente de datos.
 
 ------
 
 **P: ¿Por qué el resultado de la combinación anidada no muestra datos de la tabla secundaria para la primera entrada de la tabla principal, pero muestra todos los elementos de la última entrada de la tabla principal, incluso aquellos que en realidad no están vinculados a ella?**
 
-Esto se debe a que las regiones de combinación de correspondencia en la plantilla no están formadas correctamente, lo que puede hacer que todas las regiones de combinación de correspondencia anidadas dejen de mostrar nada. La etiqueta de apertura [StartTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/starttable/) y la etiqueta de cierre [EndTable](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endtable/) deben coincidir y estar en la misma fila o celda. Por ejemplo, si comienza a anidar regiones de combinación en una celda de una tabla, debe finalizar la región de combinación en la misma fila que la primera celda.
+Esto se debe a que las regiones de combinación de correspondencia en la plantilla no están formadas correctamente, lo que puede hacer que todas las regiones de combinación de correspondencia anidadas dejen de mostrar nada. La etiqueta de apertura [StartTable](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/starttable/) y la etiqueta de cierre [EndTable](https://reference.aspose.com/words/es/net/aspose.words/documentbuilder/endtable/) deben coincidir y estar en la misma fila o celda. Por ejemplo, si comienza a anidar regiones de combinación en una celda de una tabla, debe finalizar la región de combinación en la misma fila que la primera celda.
 
 ------
 
@@ -172,7 +172,7 @@ Puedes encontrar información más detallada sobre la programación con document
 
 **P: ¿Por qué el contenido agregado a un documento no aparece en la misma página?**
 
-El resultado de agregar aparece en una página separada debido a una diferencia en la configuración [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) para las secciones donde los documentos se agregan juntos. Realice configuraciones **PageSetup** idénticas para las secciones donde se adjuntan los documentos.
+El resultado de agregar aparece en una página separada debido a una diferencia en la configuración [PageSetup](https://reference.aspose.com/words/es/net/aspose.words/pagesetup/) para las secciones donde los documentos se agregan juntos. Realice configuraciones **PageSetup** idénticas para las secciones donde se adjuntan los documentos.
 
 ## Convertir un documento
 

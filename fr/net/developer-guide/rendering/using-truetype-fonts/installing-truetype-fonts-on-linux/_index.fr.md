@@ -22,7 +22,7 @@ Il existe deux manières principales d'obtenir des polices TrueType sur un syst�
 
 ## Copie de polices à partir d'une machine Windows
 
-Un moyen simple et rapide d'obtenir des polices TrueType sur un système Linux consiste à copier les fichiers .TTF et .TTC du répertoire `C:\Windows\Fonts` sur une machine Windows vers un répertoire de votre machine Linux. Vous n'avez en aucun cas besoin d'installer ou d'enregistrer ces polices sur Linux ; il vous suffit de préciser l'emplacement des polices à l'aide de la classe [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/) en Aspose.Words.
+Un moyen simple et rapide d'obtenir des polices TrueType sur un système Linux consiste à copier les fichiers .TTF et .TTC du répertoire `C:\Windows\Fonts` sur une machine Windows vers un répertoire de votre machine Linux. Vous n'avez en aucun cas besoin d'installer ou d'enregistrer ces polices sur Linux ; il vous suffit de préciser l'emplacement des polices à l'aide de la classe [FontSettings](https://reference.aspose.com/words/fr/net/aspose.words.fonts/fontsettings/) en Aspose.Words.
 
 {{% alert color="primary" %}}
 

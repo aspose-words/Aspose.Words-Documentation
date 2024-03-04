@@ -13,16 +13,16 @@ Manchmal erfordern bestimmte Zeilen in einer Tabelle eine Überschrift oder gro�
 
 ## So führen Sie Tabellenzellen zusammen
 
-In Aspose.Words werden zusammengeführte Zellen durch die folgenden Eigenschaften der [CellFormat](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/)-Klasse dargestellt:
+In Aspose.Words werden zusammengeführte Zellen durch die folgenden Eigenschaften der [CellFormat](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/)-Klasse dargestellt:
 
-- [HorizontalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/horizontalmerge/), das beschreibt, ob die Zelle Teil einer horizontalen Zellverschmelzung ist
-- [VerticalMerge](https://reference.aspose.com/words/net/aspose.words.tables/cellformat/verticalmerge/), das beschreibt, ob die Zelle Teil einer vertikalen Zellverschmelzung ist
+- [HorizontalMerge](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/horizontalmerge/), das beschreibt, ob die Zelle Teil einer horizontalen Zellverschmelzung ist
+- [VerticalMerge](https://reference.aspose.com/words/de/net/aspose.words.tables/cellformat/verticalmerge/), das beschreibt, ob die Zelle Teil einer vertikalen Zellverschmelzung ist
 
 Die Werte dieser Eigenschaften bestimmen das Zusammenführungsverhalten von Zellen:
 
-– Die erste Zelle in einer Folge zusammengeführter Zellen verfügt über [CellMerge.First](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Alle später zusammengeführten Zellen verfügen über [CellMerge.Previous](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
-- Eine nicht zusammengeführte Zelle verfügt über [CellMerge.None](https://reference.aspose.com/words/net/aspose.words.tables/cellmerge/)
+– Die erste Zelle in einer Folge zusammengeführter Zellen verfügt über [CellMerge.First](https://reference.aspose.com/words/de/net/aspose.words.tables/cellmerge/)
+- Alle später zusammengeführten Zellen verfügen über [CellMerge.Previous](https://reference.aspose.com/words/de/net/aspose.words.tables/cellmerge/)
+- Eine nicht zusammengeführte Zelle verfügt über [CellMerge.None](https://reference.aspose.com/words/de/net/aspose.words.tables/cellmerge/)
 
 {{% alert color="primary" %}}
 
@@ -46,7 +46,7 @@ Sie können die Beispieldatei dieses Beispiels von [Aspose.Words GitHub](https:/
 
 ## Tabellenzellen bei Verwendung von DocumentBuilder zusammenführen
 
-Um Zellen in einer mit [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) erstellten Tabelle zusammenzuführen, müssen Sie für jede Zelle, in der die Zusammenführung erwartet wird, den entsprechenden Zusammenführungstyp festlegen – zuerst **CellMerge.First** und dann **CellMerge.Previous**.
+Um Zellen in einer mit [DocumentBuilder](https://reference.aspose.com/words/de/net/aspose.words/documentbuilder/) erstellten Tabelle zusammenzuführen, müssen Sie für jede Zelle, in der die Zusammenführung erwartet wird, den entsprechenden Zusammenführungstyp festlegen – zuerst **CellMerge.First** und dann **CellMerge.Previous**.
 
 Denken Sie außerdem daran, die Zusammenführungseinstellung für die Zellen zu löschen, bei denen keine Zusammenführung erforderlich ist. Dies kann erreicht werden, indem Sie die erste nicht zusammengeführte Zelle auf **CellMerge.None** setzen. Geschieht dies nicht, werden alle Zellen der Tabelle zusammengeführt.
 

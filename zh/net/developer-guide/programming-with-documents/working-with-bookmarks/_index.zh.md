@@ -15,7 +15,7 @@ url: /zh/net/working-with-bookmarks/
 
 ## 插入书签
 
-使用 [StartBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/startbookmark/) 和 [EndBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/endbookmark/) 分别通过标记其开始和结束来创建书签。不要忘记将相同的书签名称传递给这两个方法。文档中的书签可以重叠并跨越任何范围。保存文档时，格式错误的书签或名称重复的书签将被忽略。
+使用 [StartBookmark](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/startbookmark/) 和 [EndBookmark](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/endbookmark/) 分别通过标记其开始和结束来创建书签。不要忘记将相同的书签名称传递给这两个方法。文档中的书签可以重叠并跨越任何范围。保存文档时，格式错误的书签或名称重复的书签将被忽略。
 
 {{% alert color="primary" %}}
 
@@ -29,7 +29,7 @@ url: /zh/net/working-with-bookmarks/
 
 ## 获取书签
 
-有时需要获取书签集合以迭代书签或用于其他目的。使用任何文档节点公开的 [Node.Range](https://reference.aspose.com/words/net/aspose.words/node/range/) 属性，该属性返回表示该节点中包含的文档部分的 [Range](https://reference.aspose.com/words/net/aspose.words/range/) 对象。使用此对象检索 [BookmarkCollection](https://reference.aspose.com/words/net/aspose.words/bookmarkcollection/)，然后使用集合索引器获取特定书签。
+有时需要获取书签集合以迭代书签或用于其他目的。使用任何文档节点公开的 [Node.Range](https://reference.aspose.com/words/zh/net/aspose.words/node/range/) 属性，该属性返回表示该节点中包含的文档部分的 [Range](https://reference.aspose.com/words/zh/net/aspose.words/range/) 对象。使用此对象检索 [BookmarkCollection](https://reference.aspose.com/words/zh/net/aspose.words/bookmarkcollection/)，然后使用集合索引器获取特定书签。
 
 以下代码示例演示如何从书签集合中获取书签：
 
@@ -66,7 +66,7 @@ url: /zh/net/working-with-bookmarks/
 
 ## 移至书签
 
-如果需要在书签中插入丰富的内容（不仅仅是纯文本），则应使用 [MoveToBookmark](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetobookmark/) 将光标移动到书签，然后使用 [DocumentBuilder's](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) 方法和属性插入内容。
+如果需要在书签中插入丰富的内容（不仅仅是纯文本），则应使用 [MoveToBookmark](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/movetobookmark/) 将光标移动到书签，然后使用 [DocumentBuilder's](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/) 方法和属性插入内容。
 
 ## 显示隐藏书签内容
 

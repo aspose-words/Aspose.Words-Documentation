@@ -21,11 +21,11 @@ url: /ru/net/open-a-document-read-only/
 
 ## Сделать документ доступным только для чтения
 
-Aspose.Words имеет общедоступный класс [WriteProtection](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/), который определяет настройки защиты от записи для документа. Вы не создаете экземпляры этого класса напрямую.
+Aspose.Words имеет общедоступный класс [WriteProtection](https://reference.aspose.com/words/ru/net/aspose.words.settings/writeprotection/), который определяет настройки защиты от записи для документа. Вы не создаете экземпляры этого класса напрямую.
 
 Защита от записи показывает, рекомендовал ли автор открывать документ только для чтения и/или требовать пароль для изменения документа.
 
-Aspose.Words позволяет сделать документ доступным только для чтения, чтобы ограничить редактирование, используя свойство [ReadOnlyRecommended](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/readonlyrecommended/) и метод [SetPassword](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/setpassword/).
+Aspose.Words позволяет сделать документ доступным только для чтения, чтобы ограничить редактирование, используя свойство [ReadOnlyRecommended](https://reference.aspose.com/words/ru/net/aspose.words.settings/writeprotection/readonlyrecommended/) и метод [SetPassword](https://reference.aspose.com/words/ru/net/aspose.words.settings/writeprotection/setpassword/).
 
 {{% alert color="primary" %}}
 
@@ -38,7 +38,7 @@ Aspose.Words позволяет сделать документ доступны
 
 {{% alert color="primary" %}}
 
-Пользователи также могут ограничить редактирование документа, выбрав [ProtectionType](https://reference.aspose.com/words/net/aspose.words/protectiontype/) вместо **ReadOnly**, но это еще одна функция, обеспечивающая более расширенные возможности защиты. Есть такая функция в Microsoft Word, соответственно она реализована в Aspose.Words.
+Пользователи также могут ограничить редактирование документа, выбрав [ProtectionType](https://reference.aspose.com/words/ru/net/aspose.words/protectiontype/) вместо **ReadOnly**, но это еще одна функция, обеспечивающая более расширенные возможности защиты. Есть такая функция в Microsoft Word, соответственно она реализована в Aspose.Words.
 
 **ProtectionType** будет подробно описан в одной из следующих статей – "Ограничить редактирование документа".
 
@@ -52,7 +52,7 @@ Aspose.Words позволяет сделать документ доступны
 
 {{% /alert %}}
 
-Если вам нужно проверить, имеет ли документ пароль защиты от записи, ограничивающий его редактирование, вы можете использовать свойство [IsWriteProtected](https://reference.aspose.com/words/net/aspose.words.settings/writeprotection/iswriteprotected/).
+Если вам нужно проверить, имеет ли документ пароль защиты от записи, ограничивающий его редактирование, вы можете использовать свойство [IsWriteProtected](https://reference.aspose.com/words/ru/net/aspose.words.settings/writeprotection/iswriteprotected/).
 
 В следующем примере кода показано, как сделать документ доступным только для чтения:
 

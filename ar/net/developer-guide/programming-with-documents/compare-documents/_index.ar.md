@@ -43,7 +43,7 @@ url: /ar/net/compare-documents/
 
 عند مقارنة المستندات، تظهر اختلافات المستند الأخير عن الأول كمراجعات للأول. عندما تقوم بتعديل مستند، سيكون لكل تعديل مراجعته الخاصة بعد تشغيل طريقة المقارنة.
 
-يسمح لك Aspose.Words بتحديد الاختلافات في المستندات باستخدام طريقة [Compare](https://reference.aspose.com/words/net/aspose.words/document/compare/#compare/) - وهذا يشبه ميزة مقارنة مستندات Microsoft Word. يتيح لك فحص المستندات أو إصدارات المستندات للعثور على الاختلافات والتغييرات، بما في ذلك تعديلات التنسيق مثل تغييرات الخط وتغييرات التباعد وإضافة الكلمات والفقرات.
+يسمح لك Aspose.Words بتحديد الاختلافات في المستندات باستخدام طريقة [Compare](https://reference.aspose.com/words/ar/net/aspose.words/document/compare/#compare/) - وهذا يشبه ميزة مقارنة مستندات Microsoft Word. يتيح لك فحص المستندات أو إصدارات المستندات للعثور على الاختلافات والتغييرات، بما في ذلك تعديلات التنسيق مثل تغييرات الخط وتغييرات التباعد وإضافة الكلمات والفقرات.
 
 ونتيجة للمقارنة، يمكن تحديد المستندات على أنها متساوية أو غير متساوية. يعني مصطلح المستندات "المتساوية" أن طريقة المقارنة غير قادرة على تمثيل التغييرات كمراجعات. وهذا يعني أن نص المستند وتنسيق النص متماثلان. ولكن يمكن أن تكون هناك اختلافات أخرى بين الوثائق. على سبيل المثال، يدعم Microsoft Word مراجعات التنسيق للأنماط فقط، ولا يمكنك تمثيل إدراج/حذف النمط. لذلك يمكن أن تحتوي المستندات على مجموعة مختلفة من الأنماط، ولا تزال طريقة **Compare** لا تنتج أي مراجعات.
 
@@ -57,13 +57,13 @@ url: /ar/net/compare-documents/
 
 ## حدد خيارات المقارنة المتقدمة {#specify-advanced-comparing-properties}
 
-هناك العديد من الخصائص المختلفة لفئة [CompareOptions](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/) والتي يمكنك تطبيقها عندما تريد مقارنة المستندات.
+هناك العديد من الخصائص المختلفة لفئة [CompareOptions](https://reference.aspose.com/words/ar/net/aspose.words.comparing/compareoptions/) والتي يمكنك تطبيقها عندما تريد مقارنة المستندات.
 
-على سبيل المثال، يسمح لك Aspose.Words بتجاهل التغييرات التي تم إجراؤها أثناء عملية المقارنة لأنواع معينة من الكائنات داخل المستند الأصلي. يمكنك تحديد الخاصية المناسبة لنوع الكائن، مثل [IgnoreHeadersAndFooters](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/) و[IgnoreFormatting](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignoreformatting/) و[IgnoreComments](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/ignorecomments/) وغيرها عن طريق ضبطها على "true".
+على سبيل المثال، يسمح لك Aspose.Words بتجاهل التغييرات التي تم إجراؤها أثناء عملية المقارنة لأنواع معينة من الكائنات داخل المستند الأصلي. يمكنك تحديد الخاصية المناسبة لنوع الكائن، مثل [IgnoreHeadersAndFooters](https://reference.aspose.com/words/ar/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/) و[IgnoreFormatting](https://reference.aspose.com/words/ar/net/aspose.words.comparing/compareoptions/ignoreformatting/) و[IgnoreComments](https://reference.aspose.com/words/ar/net/aspose.words.comparing/compareoptions/ignorecomments/) وغيرها عن طريق ضبطها على "true".
 
-بالإضافة إلى ذلك، يوفر Aspose.Words خاصية [Granularity](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/granularity/) التي يمكنك من خلالها تحديد ما إذا كنت تريد تتبع التغييرات حسب الحرف أو الكلمة.
+بالإضافة إلى ذلك، يوفر Aspose.Words خاصية [Granularity](https://reference.aspose.com/words/ar/net/aspose.words.comparing/compareoptions/granularity/) التي يمكنك من خلالها تحديد ما إذا كنت تريد تتبع التغييرات حسب الحرف أو الكلمة.
 
-خاصية شائعة أخرى هي اختيار المستند الذي سيتم عرض تغييرات المقارنة فيه. على سبيل المثال، يحتوي "مربع حوار مقارنة المستندات" في Microsoft Word على خيار "إظهار التغييرات في" - وهذا يؤثر أيضًا على نتائج المقارنة. يوفر Aspose.Words خاصية [Target](https://reference.aspose.com/words/net/aspose.words.comparing/compareoptions/target/) التي تخدم هذا الغرض.
+خاصية شائعة أخرى هي اختيار المستند الذي سيتم عرض تغييرات المقارنة فيه. على سبيل المثال، يحتوي "مربع حوار مقارنة المستندات" في Microsoft Word على خيار "إظهار التغييرات في" - وهذا يؤثر أيضًا على نتائج المقارنة. يوفر Aspose.Words خاصية [Target](https://reference.aspose.com/words/ar/net/aspose.words.comparing/compareoptions/target/) التي تخدم هذا الغرض.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تعيين خصائص المقارنة المتقدمة:
 

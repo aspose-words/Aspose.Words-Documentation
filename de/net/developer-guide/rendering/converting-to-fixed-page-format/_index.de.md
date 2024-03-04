@@ -49,7 +49,7 @@ Das Seitenlayout berechnet, wo der Text erscheint und welcher Inhalt dahinter ge
 
 ![converting-to-fixed-page-format_2](/words/net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-In Aspose.Words kann ein Benutzer anfordern, ob er ein neues Seitenlayout erstellen oder ein vorhandenes aktualisieren möchte. Beides kann mit der [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)-Methode durchgeführt werden, die von der [Document](https://reference.aspose.com/words/net/aspose.words/document/)-Klasse bereitgestellt wird. Wenn kein Seitenlayout vorhanden ist, es aber benötigt wird (z. B. wenn das Dokument in ein festes Seitenformat exportiert wird), ruft Aspose.Words diese Methode automatisch auf. Wenn jedoch bereits ein Seitenlayout vorhanden ist, verwendet Aspose.Words das vorhandene, um den Ressourcenverbrauch für die Aktualisierung zu vermeiden. In diesem Fall muss der Benutzer die `UpdatePageLayout`-Methode aufrufen, um sicherzustellen, dass das Seitenlayout dem Dokumentmodell entspricht.
+In Aspose.Words kann ein Benutzer anfordern, ob er ein neues Seitenlayout erstellen oder ein vorhandenes aktualisieren möchte. Beides kann mit der [UpdatePageLayout](https://reference.aspose.com/words/de/net/aspose.words/document/updatepagelayout/)-Methode durchgeführt werden, die von der [Document](https://reference.aspose.com/words/de/net/aspose.words/document/)-Klasse bereitgestellt wird. Wenn kein Seitenlayout vorhanden ist, es aber benötigt wird (z. B. wenn das Dokument in ein festes Seitenformat exportiert wird), ruft Aspose.Words diese Methode automatisch auf. Wenn jedoch bereits ein Seitenlayout vorhanden ist, verwendet Aspose.Words das vorhandene, um den Ressourcenverbrauch für die Aktualisierung zu vermeiden. In diesem Fall muss der Benutzer die `UpdatePageLayout`-Methode aufrufen, um sicherzustellen, dass das Seitenlayout dem Dokumentmodell entspricht.
 
 ### Dynamische Struktur
 
@@ -65,22 +65,22 @@ Beachten Sie, dass es sich beim Seitenlayout um eine dynamische Struktur handelt
 
 Stellen Sie sich das typische Szenario vor, bei dem das `NUMPAGES`-Feld in der Fußzeile der ersten Seite des Dokuments erscheint. Der Wert dieses Feldes ist die Gesamtzahl der Seiten. Um das Feld auf einer Seite zu positionieren, muss sein Wert bekannt sein. Wenn derzeit nur die erste Seite erstellt wird, ist die Gesamtzahl der Seiten noch nicht bekannt. In diesem Fall muss das Seitenlayout den Standardwert verwenden und später zu diesem Feld zurückkehren und seinen Wert entsprechend den tatsächlichen Berechnungen ändern. Das Ändern des Feldwerts kann sich jedoch auf andere Dokumentinhalte auf einer Seite auswirken und letztendlich dazu führen, dass eine neue Seite angehängt oder eine vorhandene Seite entfernt wird, wodurch der berechnete Wert veraltet ist. Dieses Problem kann gelöst werden, indem die Aktualisierung des vorhandenen Seitenlayouts ermöglicht wird.
 
-Beim Erstellen eines Layouts ist es auch möglich, [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/)-Eigenschaften einzurichten, die sich auf die Ausgabe des Dokuments auf Seiten auswirken.
+Beim Erstellen eines Layouts ist es auch möglich, [LayoutOptions](https://reference.aspose.com/words/de/net/aspose.words.layout/layoutoptions/)-Eigenschaften einzurichten, die sich auf die Ausgabe des Dokuments auf Seiten auswirken.
 
 ## Speichern im Festseitenformat
 
 Nachdem das Seitenlayout erstellt und die Geometrie der Objekte sowie ihre Position auf der Seite berechnet wurden, kann das Dokument in einem von Aspose.Words unterstützten Format mit festen Seiten gespeichert werden. Beim Speichern von Dokumenten in Festseitenformaten können die allen diesen Formaten gemeinsamen Rendering-Optionen genutzt werden. Sie ermöglichen die Kontrolle von:
 
-- Die Anzahl und der Umfang der im Ausgabedokument ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)) enthaltenen Seiten.
-- Fortschritt der seitenweisen Dokumentspeicherung ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
-– Eine Reihe von Zeichen, die zum Rendern von Zahlen verwendet werden ([NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
-- Ein Metadatei-Player ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Weitere Einzelheiten finden Sie im [Umgang mit Windows-Metadateien](/words/de/net/handling-windows-metafiles/)-Artikel.
-- Eine Qualitätsrate für die Neukomprimierung von JPEG-Bildern, deren Wert je nach ausgewähltem Speicherformat ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)) geringfügig abweichen kann.
-- Optimierung von Vektorgrafiken in der Aspose.Words-Ausgabe ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
-- Grafikoptionen beim Speichern in den Formaten TIFF, PNG, BMP, Jpeg, EMF ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
-- Speichern des Dokuments in Graustufen ([ColorMode](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
-- Umschalten zwischen der Darstellung von DrawingML-Formen und Fallback-Formen ([DmlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
-- Umschalten zwischen DML-Effekt-Rendering-Modi ([DmlEffectsRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
+- Die Anzahl und der Umfang der im Ausgabedokument ([PageCount](https://reference.aspose.com/words/de/net/aspose.words/document/pagecount/)) enthaltenen Seiten.
+- Fortschritt der seitenweisen Dokumentspeicherung ([PageSavingCallback](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
+– Eine Reihe von Zeichen, die zum Rendern von Zahlen verwendet werden ([NumeralFormat](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
+- Ein Metadatei-Player ([MetafileRenderingOptions](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). Weitere Einzelheiten finden Sie im [Umgang mit Windows-Metadateien](/words/de/net/handling-windows-metafiles/)-Artikel.
+- Eine Qualitätsrate für die Neukomprimierung von JPEG-Bildern, deren Wert je nach ausgewähltem Speicherformat ([JpegQuality](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)) geringfügig abweichen kann.
+- Optimierung von Vektorgrafiken in der Aspose.Words-Ausgabe ([OptimizeOutput](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
+- Grafikoptionen beim Speichern in den Formaten TIFF, PNG, BMP, Jpeg, EMF ([UseAntiAliasing](https://reference.aspose.com/words/de/net/aspose.words.saving/saveoptions/useantialiasing/), [UseHighQualityRendering](https://reference.aspose.com/words/de/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
+- Speichern des Dokuments in Graustufen ([ColorMode](https://reference.aspose.com/words/de/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
+- Umschalten zwischen der Darstellung von DrawingML-Formen und Fallback-Formen ([DmlRenderingMode](https://reference.aspose.com/words/de/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
+- Umschalten zwischen DML-Effekt-Rendering-Modi ([DmlEffectsRenderingMode](https://reference.aspose.com/words/de/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
 
 Das folgende Beispiel zeigt, wie ein Dokument mithilfe der `Save`-Methode und der Rendering-Optionen im JPEG-Format gespeichert wird:
 

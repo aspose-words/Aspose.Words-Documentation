@@ -13,16 +13,16 @@ Aspose.Words, kullanıcıların görüntülerle çok esnek bir şekilde çalış
 
 ## Resim {#insert-an-image} Nasıl Eklenir
 
-[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), satır içi veya kayan bir görüntü eklemenize olanak tanıyan [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/) yönteminin çeşitli aşırı yüklemelerini sağlar. Görüntü bir EMF veya WMF meta dosyasıysa, belgeye meta dosyası biçiminde eklenecektir. Diğer tüm görseller PNG formatında saklanacaktır. **InsertImage** yöntemi farklı kaynaklardan gelen görselleri kullanabilir:
+[DocumentBuilder](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/), satır içi veya kayan bir görüntü eklemenize olanak tanıyan [InsertImage](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertimage/) yönteminin çeşitli aşırı yüklemelerini sağlar. Görüntü bir EMF veya WMF meta dosyasıysa, belgeye meta dosyası biçiminde eklenecektir. Diğer tüm görseller PNG formatında saklanacaktır. **InsertImage** yöntemi farklı kaynaklardan gelen görselleri kullanabilir:
 
-- Bir dosyadan veya `URL`'ten bir `String` parametresi [InsertImage](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertimage/)'i ileterek
+- Bir dosyadan veya `URL`'ten bir `String` parametresi [InsertImage](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertimage/)'i ileterek
 - Bir `Stream` parametresi **InsertImage**'yi ileterek bir akıştan
 - Bir Image parametresi **InsertImage**'i ileterek bir Image nesnesinden
 - Bir bayt dizisinden, bir bayt dizisi parametresi **InsertImage**'i ileterek
 
 **InsertImage** yöntemlerinin her biri için, aşağıdaki seçeneklere sahip bir görüntü eklemenizi sağlayan başka aşırı yüklemeler vardır:
 - **InsertImage** gibi belirli bir konumda satır içi veya kayan
-- Yüzde ölçeği veya özel boyut, örneğin **InsertImage**; ayrıca **InsertImage** yöntemi yeni oluşturulmuş ve eklenen bir [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) nesnesini döndürür, böylece Shape'in özelliklerini daha fazla değiştirebilirsiniz
+- Yüzde ölçeği veya özel boyut, örneğin **InsertImage**; ayrıca **InsertImage** yöntemi yeni oluşturulmuş ve eklenen bir [Shape](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/) nesnesini döndürür, böylece Shape'in özelliklerini daha fazla değiştirebilirsiniz
 
 ### Satır İçi Görüntü {#insert-an-inline-image} Nasıl Eklenir
 
@@ -40,12 +40,12 @@ Aşağıdaki kod örneği, bir dosyadan veya `URL`'ten belirli bir konuma ve boy
 
 ## Bir Belge {#how-to-extract-images-from-a-document}'ten Görüntüler Nasıl Çıkarılır
 
-Tüm görüntüler bir [Document](https://reference.aspose.com/words/net/aspose.words/document/)'deki **Shape** düğümlerinde saklanır. Belgeden tüm görüntüleri veya belirli türdeki görüntüleri çıkarmak için şu adımları izleyin:
+Tüm görüntüler bir [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/)'deki **Shape** düğümlerinde saklanır. Belgeden tüm görüntüleri veya belirli türdeki görüntüleri çıkarmak için şu adımları izleyin:
 
-- Tüm **Shape** düğümlerini seçmek için [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) yöntemini kullanın.
+- Tüm **Shape** düğümlerini seçmek için [GetChildNodes](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/getchildnodes/) yöntemini kullanın.
 - Ortaya çıkan düğüm koleksiyonlarını yineleyin.
-- [HasImage](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hasimage/) boole özelliğini kontrol edin.
-- [ImageData](https://reference.aspose.com/words/net/aspose.words.drawing/shape/imagedata/) özelliğini kullanarak görüntü verilerini çıkarın.
+- [HasImage](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/hasimage/) boole özelliğini kontrol edin.
+- [ImageData](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shape/imagedata/) özelliğini kullanarak görüntü verilerini çıkarın.
 - Görüntü verilerini bir dosyaya kaydedin.
 
 Aşağıdaki kod örneği, bir belgeden görüntülerin nasıl çıkarılacağını ve bunların dosya olarak nasıl kaydedileceğini gösterir:
@@ -70,7 +70,7 @@ Aşağıdaki kod örneği, bir belgenin her sayfasına barkod görüntüsünün 
 
 ## Görüntü {#lock-aspect-ratio-of-image}'in En Boy Oranını Kilitle
 
-Geometrik bir şeklin en boy oranı, farklı boyutlardaki boyutlarının oranıdır. [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/)'i kullanarak görüntünün en boy oranını kilitleyebilirsiniz. Şeklin en boy oranının varsayılan değeri [ShapeType](https://reference.aspose.com/words/net/aspose.words.drawing/shapetype/)'ye bağlıdır. `ShapeType.Image` için *true*, diğer şekil türleri için *false*'dur.
+Geometrik bir şeklin en boy oranı, farklı boyutlardaki boyutlarının oranıdır. [AspectRatioLocked](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shapebase/aspectratiolocked/)'i kullanarak görüntünün en boy oranını kilitleyebilirsiniz. Şeklin en boy oranının varsayılan değeri [ShapeType](https://reference.aspose.com/words/tr/net/aspose.words.drawing/shapetype/)'ye bağlıdır. `ShapeType.Image` için *true*, diğer şekil türleri için *false*'dur.
 
 Aşağıdaki kod örneği en boy oranıyla nasıl çalışılacağını gösterir:
 
@@ -78,7 +78,7 @@ Aşağıdaki kod örneği en boy oranıyla nasıl çalışılacağını gösteri
 
 ## Points {#how-to-get-actual-bounds-of-shape-in-points}'te Gerçek Şekil Sınırları Nasıl Elde Edilir
 
-Şeklin gerçek sınırlayıcı kutusunun sayfada işlendiği şekliyle olmasını istiyorsanız bunu [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/boundsinpoints/) özelliğini kullanarak başarabilirsiniz.
+Şeklin gerçek sınırlayıcı kutusunun sayfada işlendiği şekliyle olmasını istiyorsanız bunu [BoundsInPoints](https://reference.aspose.com/words/tr/net/aspose.words.rendering/noderendererbase/boundsinpoints/) özelliğini kullanarak başarabilirsiniz.
 
 Aşağıdaki kod örneği bu özelliğin nasıl kullanılacağını gösterir:
 

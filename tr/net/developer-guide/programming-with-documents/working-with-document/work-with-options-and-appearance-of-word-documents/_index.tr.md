@@ -13,7 +13,7 @@ Bazen bir belgenin görünümünü değiştirmeniz, örneğin dil tercihlerini v
 
 ## Belge Görüntüleme Seçeneklerini Ayarlama
 
-[ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/) sınıfını kullanarak bir belgenin Microsoft Word'te nasıl görüntüleneceğini kontrol edebilirsiniz. Örneğin, [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/zoompercent/) özelliğini kullanarak belge yakınlaştırma değerini veya [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/viewtype/) özelliğini kullanarak görünüm modunu ayarlayabilirsiniz.
+[ViewOptions](https://reference.aspose.com/words/tr/net/aspose.words.settings/viewoptions/) sınıfını kullanarak bir belgenin Microsoft Word'te nasıl görüntüleneceğini kontrol edebilirsiniz. Örneğin, [ZoomPercent](https://reference.aspose.com/words/tr/net/aspose.words.settings/viewoptions/zoompercent/) özelliğini kullanarak belge yakınlaştırma değerini veya [ViewType](https://reference.aspose.com/words/tr/net/aspose.words.settings/viewoptions/viewtype/) özelliğini kullanarak görünüm modunu ayarlayabilirsiniz.
 
 Aşağıdaki kod örneği, bir belgenin Microsoft Word'te açıldığında %50 oranında görüntülenmesini sağlamanın nasıl sağlanacağını gösterir:
 
@@ -33,7 +33,7 @@ Microsoft Word 2013, bir belgeye herhangi bir yakınlaştırma faktörü yazmıy
 
 ## Sayfa Görüntüleme Seçeneklerini Ayarlayın
 
-Satır başına karakter sayısını ayarlamak istiyorsanız [CharactersPerLine](https://reference.aspose.com/words/net/aspose.words/pagesetup/charactersperline/) özelliğini kullanın. Ayrıca bir Word belgesi için sayfa başına satır sayısını da ayarlayabilirsiniz; belge kılavuzunda sayfa başına satır sayısını almak veya ayarlamak için [LinesPerPage](https://reference.aspose.com/words/net/aspose.words/pagesetup/linesperpage/) özelliğini kullanın.
+Satır başına karakter sayısını ayarlamak istiyorsanız [CharactersPerLine](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/charactersperline/) özelliğini kullanın. Ayrıca bir Word belgesi için sayfa başına satır sayısını da ayarlayabilirsiniz; belge kılavuzunda sayfa başına satır sayısını almak veya ayarlamak için [LinesPerPage](https://reference.aspose.com/words/tr/net/aspose.words/pagesetup/linesperpage/) özelliğini kullanın.
 
 {{% alert color="primary" %}}
 
@@ -49,7 +49,7 @@ Aşağıdaki kod örneği, bir Microsoft Word belgesi için satır başına kara
 
 Bir belgenin Microsoft Word'te görüntülenmesi, bu belge için hangi dillerin varsayılan olarak ayarlandığına bağlıdır. Varsayılanlarda hiçbir dil ayarlanmamışsa Microsoft Word, bilgileri, örneğin Microsoft Word 2019'da "Dosya → Seçenekler → Dil" altında bulunabilen "Ofis Dil Tercihlerini Ayarla" iletişim kutusundan alır.
 
-Aspose.Words ile [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/) sınıfını kullanarak da dil tercihlerini ayarlayabilirsiniz. Ayrıca belgenizin doğru görüntülenmesi için, belge yükleme işleminin eşleşmesi gereken Microsoft Word sürümünü ayarlamanız gerektiğini unutmayın; bu, [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/mswversion/) özelliği kullanılarak yapılabilir.
+Aspose.Words ile [LanguagePreferences](https://reference.aspose.com/words/tr/net/aspose.words.loading/languagepreferences/) sınıfını kullanarak da dil tercihlerini ayarlayabilirsiniz. Ayrıca belgenizin doğru görüntülenmesi için, belge yükleme işleminin eşleşmesi gereken Microsoft Word sürümünü ayarlamanız gerektiğini unutmayın; bu, [MswVersion](https://reference.aspose.com/words/tr/net/aspose.words.loading/loadoptions/mswversion/) özelliği kullanılarak yapılabilir.
 
 {{% alert color="primary" %}}
 
@@ -67,7 +67,7 @@ Aşağıdaki kod örneği, Rusça'nın varsayılan düzenleme dili olarak nasıl
 
 ## Bir Belgeyi Belirli Bir Word Sürümü için Optimize Etme
 
-[OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) yöntemi, belirli bir Microsoft Word sürümü için belge içeriğinin yanı sıra varsayılan Aspose.Words davranışının da optimize edilmesine olanak tanır. Microsoft Word'in belge yüklenirken "Uyumluluk modu" şeridini görüntülemesini önlemek için bu yöntemi kullanabilirsiniz. `Compliance` özelliğini Iso29500_2008_Transitional veya daha yüksek bir değere ayarlamanız gerekebileceğini de unutmayın.
+[OptimizeFor](https://reference.aspose.com/words/tr/net/aspose.words.settings/compatibilityoptions/optimizefor/) yöntemi, belirli bir Microsoft Word sürümü için belge içeriğinin yanı sıra varsayılan Aspose.Words davranışının da optimize edilmesine olanak tanır. Microsoft Word'in belge yüklenirken "Uyumluluk modu" şeridini görüntülemesini önlemek için bu yöntemi kullanabilirsiniz. `Compliance` özelliğini Iso29500_2008_Transitional veya daha yüksek bir değere ayarlamanız gerekebileceğini de unutmayın.
 
 Aşağıdaki kod örneği, Microsoft Word 2016 için belge içeriğinin nasıl optimize edileceğini gösterir:
 

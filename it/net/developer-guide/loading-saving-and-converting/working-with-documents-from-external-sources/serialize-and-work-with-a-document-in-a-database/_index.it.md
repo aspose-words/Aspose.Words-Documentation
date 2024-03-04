@@ -17,9 +17,9 @@ Aspose.Words offre la possibilità di convertire un documento in un array di byt
 
 Per archiviare un documento in un database o per preparare un documento per la trasmissione sul web, è spesso necessario serializzare il documento per ottenere un array di byte.
 
-Per serializzare un oggetto [Document](https://reference.aspose.com/words/net/aspose.words/document/) in Aspose.Words:
+Per serializzare un oggetto [Document](https://reference.aspose.com/words/it/net/aspose.words/document/) in Aspose.Words:
 
-1. Salvarlo in un **MemoryStream** utilizzando l'overload del metodo [Save](https://reference.aspose.com/words/net/aspose.words/document/save/) della classe **Document**.
+1. Salvarlo in un **MemoryStream** utilizzando l'overload del metodo [Save](https://reference.aspose.com/words/it/net/aspose.words/document/save/) della classe **Document**.
 1. Chiamare il metodo **ToArray**, che restituisce un array di byte che rappresenta il documento in formato byte.
 
 I passaggi precedenti possono quindi essere invertiti per caricare nuovamente i byte in un oggetto **Document**.

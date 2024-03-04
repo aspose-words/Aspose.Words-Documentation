@@ -13,8 +13,8 @@ url: /ru/net/replace-fields/
 
 На диаграмме ниже показано, как поле `IF` хранится в документе:
 
-* текст окружен специальными узлами полей – [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/) и [FieldEnd](https://reference.aspose.com/words/net/aspose.words.fields/fieldend)
-* узел [FieldSeparator](https://reference.aspose.com/words/net/aspose.words.fields/fieldseparator/) разделяет текст внутри поля на код поля и результат поля
+* текст окружен специальными узлами полей – [FieldStart](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldstart/) и [FieldEnd](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldend)
+* узел [FieldSeparator](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldseparator/) разделяет текст внутри поля на код поля и результат поля
 * код поля определяет общее поведение поля, в то время как результат поля сохраняет самый последний результат при обновлении этого поля с использованием Microsoft Word или Aspose.Words
 * результат поля — это то, что сохраняется в поле и отображается в документе при просмотре
 
@@ -38,17 +38,17 @@ url: /ru/net/replace-fields/
 
 ## Преобразование определенных типов полей в определенных частях документа
 
-Поскольку метод **ConvertFieldsToStaticText** принимает два параметра — свойства [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) и перечисление [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), в этот метод можно передать любой составной узел. Это позволяет преобразовывать поля в статический текст только в определенных частях документа.
+Поскольку метод **ConvertFieldsToStaticText** принимает два параметра — свойства [CompositeNode](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/) и перечисление [FieldType](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldtype/), в этот метод можно передать любой составной узел. Это позволяет преобразовывать поля в статический текст только в определенных частях документа.
 
-Например, вы можете передать объект [Document](https://reference.aspose.com/words/net/aspose.words/document/) и преобразовать поля указанного типа из всего документа в статический текст или передать объект [Body](https://reference.aspose.com/words/net/aspose.words/body/) раздела и преобразовать только поля, найденные в этом теле.
+Например, вы можете передать объект [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/) и преобразовать поля указанного типа из всего документа в статический текст или передать объект [Body](https://reference.aspose.com/words/ru/net/aspose.words/body/) раздела и преобразовать только поля, найденные в этом теле.
 
 {{% alert color="primary" %}}
 
-При передаче узла уровня блока, такого как [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), имейте в виду, что в некоторых случаях поля могут охватывать несколько абзацев. Если это произойдет, во избежание этого рекомендуется вместо этого передать родительский элемент композита.
+При передаче узла уровня блока, такого как [Paragraph](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/), имейте в виду, что в некоторых случаях поля могут охватывать несколько абзацев. Если это произойдет, во избежание этого рекомендуется вместо этого передать родительский элемент композита.
 
 {{% /alert %}}
 
-Перечисление [FieldType](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/), передаваемое в метод **ConvertFieldsToStaticText**, указывает, какой тип полей следует преобразовать в статический текст. Любой другой тип поля, найденный в документе, останется неизменным.
+Перечисление [FieldType](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldtype/), передаваемое в метод **ConvertFieldsToStaticText**, указывает, какой тип полей следует преобразовать в статический текст. Любой другой тип поля, найденный в документе, останется неизменным.
 
 В следующем примере кода показано, как выбрать поля определенного типа — *targetFieldType* в определенном узле — *compositeNode*, а затем преобразовать их в статический текст:
 

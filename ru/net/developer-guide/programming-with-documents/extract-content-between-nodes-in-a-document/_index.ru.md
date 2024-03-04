@@ -56,10 +56,10 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 Однако если узлы-маркеры являются встроенными (дочерними узлами абзаца), ситуация усложняется, поскольку необходимо разделить абзац на встроенном узле, будь то прогон, поля закладок и т.д. Содержимое в клонированных родительских узлах не присутствующий между маркерами удаляется. Этот процесс используется для того, чтобы гарантировать, что встроенные узлы сохранят форматирование родительского абзаца. Этот метод также будет проверять узлы, переданные в качестве параметров, и выдаст исключение, если какой-либо узел недействителен. Параметры, которые необходимо передать этому методу:
 
-1. **StartNode** и **EndNode**. Первые два параметра — это узлы, которые определяют, где должно начинаться и заканчиваться извлечение контента соответственно. Эти узлы могут быть как блочными ([Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/)), так и встроенными (например, [Run](https://reference.aspose.com/words/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkstart/) и т.д.):
+1. **StartNode** и **EndNode**. Первые два параметра — это узлы, которые определяют, где должно начинаться и заканчиваться извлечение контента соответственно. Эти узлы могут быть как блочными ([Paragraph](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/)), так и встроенными (например, [Run](https://reference.aspose.com/words/ru/net/aspose.words/run/), [FieldStart](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldstart/), [BookmarkStart](https://reference.aspose.com/words/ru/net/aspose.words/bookmark/bookmarkstart/) и т.д.):
   1. Для передачи поля необходимо передать соответствующий объект **FieldStart**
-  1. Для передачи закладок необходимо передать узлы **BookmarkStart** и [BookmarkEnd](https://reference.aspose.com/words/net/aspose.words/bookmark/bookmarkend/)
-  1. Для передачи комментариев следует использовать узлы [CommentRangeStart](https://reference.aspose.com/words/net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/net/aspose.words/commentrangeend/)
+  1. Для передачи закладок необходимо передать узлы **BookmarkStart** и [BookmarkEnd](https://reference.aspose.com/words/ru/net/aspose.words/bookmark/bookmarkend/)
+  1. Для передачи комментариев следует использовать узлы [CommentRangeStart](https://reference.aspose.com/words/ru/net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/ru/net/aspose.words/commentrangeend/)
 1. **IsInclusive**. Определяет, включены ли маркеры в извлечение или нет. Если для этой опции установлено значение false и передается один и тот же узел или последовательные узлы, то будет возвращен пустой список:
   1. Если передается узел **FieldStart**, эта опция определяет, должно ли быть включено или исключено все поле
   1. Если передается узел **BookmarkStart** или **BookmarkEnd**, этот параметр определяет, включена ли закладка или только содержимое между диапазоном закладок.
@@ -77,7 +77,7 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 Это демонстрирует, как использовать описанный выше метод для извлечения содержимого между конкретными абзацами. В данном случае мы хотим извлечь тело письма, найденное в первой половине документа. Можно сказать, что это между 7-м и 11-м абзацем.
 
-Код ниже выполняет эту задачу. Соответствующие абзацы извлекаются с использованием метода [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/) документа и передачи указанных индексов. Затем мы передаем эти узлы методу **ExtractContent** и заявляем, что они должны быть включены в извлечение. Этот метод вернет скопированный контент между этими узлами, который затем будет вставлен в новый документ.
+Код ниже выполняет эту задачу. Соответствующие абзацы извлекаются с использованием метода [GetChild](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/) документа и передачи указанных индексов. Затем мы передаем эти узлы методу **ExtractContent** и заявляем, что они должны быть включены в извлечение. Этот метод вернет скопированный контент между этими узлами, который затем будет вставлен в новый документ.
 
 В следующем примере кода показано, как извлечь содержимое между конкретными абзацами с помощью метода `ExtractContent`, описанного выше:
 
@@ -91,7 +91,7 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Извлечение контента между узлами разных типов
 
-Мы можем извлекать контент между любыми комбинациями блочных или встроенных узлов. В приведенном ниже сценарии мы извлечем содержимое между первым абзацем и таблицей во втором разделе включительно. Мы получаем узлы маркеров, вызывая методы [FirstParagraph](https://reference.aspose.com/words/net/aspose.words/story/firstparagraph/) и [GetChild](https://reference.aspose.com/words/net/aspose.words/compositenode/getchild/) во втором разделе документа, чтобы получить соответствующие узлы **Paragraph** и **Table**. Для небольшого изменения давайте вместо этого продублируем контент и вставим его ниже оригинала.
+Мы можем извлекать контент между любыми комбинациями блочных или встроенных узлов. В приведенном ниже сценарии мы извлечем содержимое между первым абзацем и таблицей во втором разделе включительно. Мы получаем узлы маркеров, вызывая методы [FirstParagraph](https://reference.aspose.com/words/ru/net/aspose.words/story/firstparagraph/) и [GetChild](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/getchild/) во втором разделе документа, чтобы получить соответствующие узлы **Paragraph** и **Table**. Для небольшого изменения давайте вместо этого продублируем контент и вставим его ниже оригинала.
 
 В следующем примере кода показано, как извлечь содержимое между абзацем и таблицей с помощью метода **ExtractContent**:
 
@@ -123,7 +123,7 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Извлечение содержимого между конкретными запусками
 
-Вы также можете извлекать контент между встроенными узлами, такими как [Run](https://reference.aspose.com/words/net/aspose.words/run/). В качестве маркеров можно передавать **Runs** из разных абзацев. Код ниже показывает, как извлечь определенный текст между одним и тем же узлом **Paragraph**.
+Вы также можете извлекать контент между встроенными узлами, такими как [Run](https://reference.aspose.com/words/ru/net/aspose.words/run/). В качестве маркеров можно передавать **Runs** из разных абзацев. Код ниже показывает, как извлечь определенный текст между одним и тем же узлом **Paragraph**.
 
 В следующем примере кода показано, как извлечь содержимое между отдельными запусками одного и того же абзаца с помощью метода **ExtractContent**:
 
@@ -137,7 +137,7 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Извлечение содержимого с помощью поля
 
-Чтобы использовать поле в качестве маркера, необходимо передать узел `FieldStart`. Последний параметр метода `ExtractContent` определяет, следует ли включать все поле или нет. Давайте извлечем содержимое между полем слияния "Полное имя" и абзацем в документе. Мы используем метод [MoveToMergeField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetomergefield/) класса [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/). Это вернет узел **FieldStart** из имени поля слияния, переданного ему.
+Чтобы использовать поле в качестве маркера, необходимо передать узел `FieldStart`. Последний параметр метода `ExtractContent` определяет, следует ли включать все поле или нет. Давайте извлечем содержимое между полем слияния "Полное имя" и абзацем в документе. Мы используем метод [MoveToMergeField](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/movetomergefield/) класса [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/). Это вернет узел **FieldStart** из имени поля слияния, переданного ему.
 
 В нашем случае давайте установим для последнего параметра, переданного методу **ExtractContent**, значение false, чтобы исключить поле из извлечения. Мы преобразуем извлеченный контент в PDF.
 
@@ -169,7 +169,7 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 Комментарий состоит из узлов CommentRangeStart, CommentRangeEnd и Comment. Все эти узлы являются встроенными. Первые два узла инкапсулируют содержимое документа, на который ссылается комментарий, как показано на снимке экрана ниже.
 
-Сам узел **Comment** представляет собой узел [InlineStory](https://reference.aspose.com/words/net/aspose.words/inlinestory/), который может содержать абзацы и фрагменты. Он представляет собой сообщение комментария, отображаемое в виде пузырька комментариев на панели просмотра. Поскольку этот узел является встроенным и является потомком тела, вы также можете извлечь содержимое из этого сообщения.
+Сам узел **Comment** представляет собой узел [InlineStory](https://reference.aspose.com/words/ru/net/aspose.words/inlinestory/), который может содержать абзацы и фрагменты. Он представляет собой сообщение комментария, отображаемое в виде пузырька комментариев на панели просмотра. Поскольку этот узел является встроенным и является потомком тела, вы также можете извлечь содержимое из этого сообщения.
 
 Комментарий инкапсулирует заголовок, первый абзац и таблицу во втором разделе. Давайте извлечем этот комментарий в новый документ. Опция **IsInclusive** определяет, будет ли сам комментарий сохранен или удален.
 
@@ -185,17 +185,17 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 ## Как извлечь контент с помощью DocumentVisitor
 
-Используйте класс [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) для реализации этого сценария использования. Этот класс соответствует известному шаблону проектирования "Посетитель". С помощью **DocumentVisitor** **,** вы можете определять и выполнять пользовательские операции, требующие перебора по дереву документа.
+Используйте класс [DocumentVisitor](https://reference.aspose.com/words/ru/net/aspose.words/documentvisitor/) для реализации этого сценария использования. Этот класс соответствует известному шаблону проектирования "Посетитель". С помощью **DocumentVisitor** **,** вы можете определять и выполнять пользовательские операции, требующие перебора по дереву документа.
 
-**DocumentVisitor** предоставляет набор из **VisitXXX** методов, которые вызываются при обнаружении определенного элемента документа (узла). Например, [VisitParagraphStart](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphstart/) вызывается, когда найдено начало текстового абзаца, а [VisitParagraphEnd](https://reference.aspose.com/words/net/aspose.words/documentvisitor/visitparagraphend/) вызывается, когда найден конец текстового абзаца. Каждый метод **DocumentVisitor.VisitXXX** принимает соответствующий объект, с которым он сталкивается, поэтому вы можете использовать его по мере необходимости (скажем, получить форматирование), например, и **DocumentVisitor.VisitParagraphStart**, и **DocumentVisitor.VisitParagraphEnd** принимают объект [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/).
+**DocumentVisitor** предоставляет набор из **VisitXXX** методов, которые вызываются при обнаружении определенного элемента документа (узла). Например, [VisitParagraphStart](https://reference.aspose.com/words/ru/net/aspose.words/documentvisitor/visitparagraphstart/) вызывается, когда найдено начало текстового абзаца, а [VisitParagraphEnd](https://reference.aspose.com/words/ru/net/aspose.words/documentvisitor/visitparagraphend/) вызывается, когда найден конец текстового абзаца. Каждый метод **DocumentVisitor.VisitXXX** принимает соответствующий объект, с которым он сталкивается, поэтому вы можете использовать его по мере необходимости (скажем, получить форматирование), например, и **DocumentVisitor.VisitParagraphStart**, и **DocumentVisitor.VisitParagraphEnd** принимают объект [Paragraph](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/).
 
-Каждый метод **DocumentVisitor.VisitXXX** возвращает значение [VisitorAction](https://reference.aspose.com/words/net/aspose.words/visitoraction/), которое управляет перечислением узлов. Вы можете запросить либо продолжить перечисление, пропустить текущий узел (но продолжить перечисление), либо остановить перечисление узлов.
+Каждый метод **DocumentVisitor.VisitXXX** возвращает значение [VisitorAction](https://reference.aspose.com/words/ru/net/aspose.words/visitoraction/), которое управляет перечислением узлов. Вы можете запросить либо продолжить перечисление, пропустить текущий узел (но продолжить перечисление), либо остановить перечисление узлов.
 
 Ниже приведены шаги, которые необходимо выполнить для программного определения и извлечения различных частей документа:
 
 - Создайте класс, производный от **DocumentVisitor**
 - Переопределить и предоставить реализации для некоторых или всех методов **DocumentVisitor.VisitXXX** для выполнения некоторых пользовательских операций
-- Позвоните по номеру [Node.Accept](https://reference.aspose.com/words/net/aspose.words/node/accept/) на узле, с которого вы хотите начать перечисление, например, если вы хотите перечислить весь документ, используйте [Document.Accept](https://reference.aspose.com/words/net/aspose.words/document/accept/)
+- Позвоните по номеру [Node.Accept](https://reference.aspose.com/words/ru/net/aspose.words/node/accept/) на узле, с которого вы хотите начать перечисление, например, если вы хотите перечислить весь документ, используйте [Document.Accept](https://reference.aspose.com/words/ru/net/aspose.words/document/accept/)
 
 **DocumentVisitor** предоставляет реализации по умолчанию для всех методов **DocumentVisitor.VisitXXX**. Это упрощает создание новых посетителей документа, поскольку необходимо переопределить только методы, необходимые для конкретного посетителя. Нет необходимости переопределять все методы посетителя.
 
@@ -215,10 +215,10 @@ url: /ru/net/how-to-extract-selected-content-between-nodes-in-a-document/
 
 Способы получения текста из документа:
 
-- Используйте [Document.Save](https://reference.aspose.com/words/net/aspose.words/document/save/) с [SaveFormat.Text](https://reference.aspose.com/words/net/aspose.words/saveformat/) для сохранения в виде обычного текста в файл или поток
-- Используйте [Node.ToString](https://reference.aspose.com/words/net/aspose.words/node/tostring/) и передайте параметр **SaveFormat.Text**. Внутри это вызывает сохранение как текст в поток памяти и возвращает результирующую строку
-- Используйте [Node.GetText](https://reference.aspose.com/words/net/aspose.words/node/gettext/) для получения текста со всеми Microsoft Word управляющими символами, включая коды полей
-- Внедрить собственный [DocumentVisitor](https://reference.aspose.com/words/net/aspose.words/documentvisitor/) для выполнения индивидуального извлечения
+- Используйте [Document.Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/) с [SaveFormat.Text](https://reference.aspose.com/words/ru/net/aspose.words/saveformat/) для сохранения в виде обычного текста в файл или поток
+- Используйте [Node.ToString](https://reference.aspose.com/words/ru/net/aspose.words/node/tostring/) и передайте параметр **SaveFormat.Text**. Внутри это вызывает сохранение как текст в поток памяти и возвращает результирующую строку
+- Используйте [Node.GetText](https://reference.aspose.com/words/ru/net/aspose.words/node/gettext/) для получения текста со всеми Microsoft Word управляющими символами, включая коды полей
+- Внедрить собственный [DocumentVisitor](https://reference.aspose.com/words/ru/net/aspose.words/documentvisitor/) для выполнения индивидуального извлечения
 
 ### Использование `Node.GetText` и `Node.ToString`
 

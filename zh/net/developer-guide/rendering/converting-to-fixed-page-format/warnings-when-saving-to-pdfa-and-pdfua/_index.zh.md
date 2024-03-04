@@ -13,7 +13,7 @@ PDF/A 和 PDF/UA 格式提出了许多与文档内容相关的辅助功能要求
 
 保存为 PDF/A 或 PDF/UA 格式之一并且该问题违反合规性时会发出警告。例如，保存为 PDF/UA 时会发出有关缺少文档标题的警告，而保存为 PDF/A 时则不会发出有关缺少文档标题的警告。
 
-所有警告均为 [WarningType](https://reference.aspose.com/words/net/aspose.words/warningtype/)**.MinorFormattingLoss** 和 [WarningSource](https://reference.aspose.com/words/net/aspose.words/warningsource/)**.pdf**。以下是新的描述警告值的列表：
+所有警告均为 [WarningType](https://reference.aspose.com/words/zh/net/aspose.words/warningtype/)**.MinorFormattingLoss** 和 [WarningSource](https://reference.aspose.com/words/zh/net/aspose.words/warningsource/)**.pdf**。以下是新的描述警告值的列表：
 
 |  说明 警告值 |  PDF/A |  PDF/UA |
 |  ------------------------------------------------------------  |  ----------------------  |  ----------------------  |

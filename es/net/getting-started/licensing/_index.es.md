@@ -70,11 +70,11 @@ Cuando hace referencia a *Aspose.Words.dll* en la aplicación, la biblioteca se 
 
 {{% alert color="primary" %}}
 
-Utilice el método [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/#setlicense) para obtener la licencia de un componente.
+Utilice el método [SetLicense](https://reference.aspose.com/words/es/net/aspose.words/license/setlicense/#setlicense) para obtener la licencia de un componente.
 
 Llamar a **SetLicense** varias veces no es perjudicial, sólo desperdicia tiempo del procesador.
 
-Llamar a [SetMeteredKey](https://reference.aspose.com/words/net/aspose.words/metered/setmeteredkey/) varias veces tampoco es perjudicial, pero sólo desperdicia tiempo del procesador y puede acumular consumo de forma inadecuada.
+Llamar a [SetMeteredKey](https://reference.aspose.com/words/es/net/aspose.words/metered/setmeteredkey/) varias veces tampoco es perjudicial, pero sólo desperdicia tiempo del procesador y puede acumular consumo de forma inadecuada.
 
 {{% /alert %}}
 
@@ -84,7 +84,7 @@ Al desarrollar su aplicación, llame a **SetLicense** en su código de inicio an
 
 ##### Cargar una licencia desde un archivo
 
-Con el método [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/), puede intentar encontrar el archivo de licencia en los recursos integrados o en las carpetas de ensamblaje para su uso posterior.
+Con el método [SetLicense](https://reference.aspose.com/words/es/net/aspose.words/license/setlicense/), puede intentar encontrar el archivo de licencia en los recursos integrados o en las carpetas de ensamblaje para su uso posterior.
 
 El siguiente ejemplo de código muestra cómo inicializar una licencia desde una carpeta:
 
@@ -92,7 +92,7 @@ El siguiente ejemplo de código muestra cómo inicializar una licencia desde una
 
 ##### Cargar una licencia desde un objeto Stream
 
-El siguiente ejemplo de código muestra cómo inicializar una licencia desde una secuencia utilizando otro método [SetLicense](https://reference.aspose.com/words/net/aspose.words/license/setlicense/):
+El siguiente ejemplo de código muestra cómo inicializar una licencia desde una secuencia utilizando otro método [SetLicense](https://reference.aspose.com/words/es/net/aspose.words/license/setlicense/):
 
 {{< gist "aspose-words-gists" "c762ebd027c53ed61fce5bc5ccac1ca7" "apply-license-from-stream.cs" >}}
 
@@ -110,7 +110,7 @@ Aspose.Words permite a los desarrolladores aplicar una clave medida. Se trata de
 
 El nuevo mecanismo de concesión de licencias se utilizará junto con el método de concesión de licencias existente. Aquellos clientes que quieran que se les facture según el uso de las funciones API pueden utilizar la licencia medida.
 
-Después de completar todos los pasos necesarios para obtener este tipo de licencia, recibirá las claves, no el archivo de licencia. Esta clave medida se puede aplicar utilizando la clase [Metered](https://reference.aspose.com/words/net/aspose.words/metered/) especialmente introducida para este propósito.
+Después de completar todos los pasos necesarios para obtener este tipo de licencia, recibirá las claves, no el archivo de licencia. Esta clave medida se puede aplicar utilizando la clase [Metered](https://reference.aspose.com/words/es/net/aspose.words/metered/) especialmente introducida para este propósito.
 
 No llame al método **SetMeteredKey** con frecuencia para que este método de licencia acumule adecuadamente el consumo y nos lo informe. Simplemente cree una instancia de la biblioteca Aspose.Words, llame a **SetMeteredKey** una vez, luego deje la biblioteca creada y reutilícela.
 
@@ -143,4 +143,4 @@ Para resolver el problema, cambie el nombre del archivo para eliminar la extensi
 Si utiliza varios productos Aspose en su aplicación, como Aspose.Words y `Aspose.Cells`, aquí tiene algunos consejos útiles:
 
 * Configure la Licencia para cada producto Aspose por separado. Incluso si tiene un único archivo de licencia para todos los componentes, por ejemplo, "Aspose.Total.lic", aún deberá llamar a **SetLicense** por separado para cada producto Aspose que utilice en su aplicación.
-* Utilice el nombre de clase de licencia totalmente calificado. Cada producto Aspose tiene una clase **License** en su propio espacio de nombres. Por ejemplo, Aspose.Words tiene [Aspose.Words.License](https://reference.aspose.com/words/net/aspose.words/license/) y `Aspose.Cells` tiene la clase `Aspose.Cells`.License. El uso del nombre de clase completo le permite evitar confusiones sobre qué licencia se aplica a qué producto.
+* Utilice el nombre de clase de licencia totalmente calificado. Cada producto Aspose tiene una clase **License** en su propio espacio de nombres. Por ejemplo, Aspose.Words tiene [Aspose.Words.License](https://reference.aspose.com/words/es/net/aspose.words/license/) y `Aspose.Cells` tiene la clase `Aspose.Cells`.License. El uso del nombre de clase completo le permite evitar confusiones sobre qué licencia se aplica a qué producto.

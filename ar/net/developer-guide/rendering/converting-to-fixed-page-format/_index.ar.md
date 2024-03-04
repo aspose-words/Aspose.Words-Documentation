@@ -49,7 +49,7 @@ Microsoft Word هو تطبيق تحرير النصوص الأكثر تقدمًا
 
 ![converting-to-fixed-page-format_2](/words/net/converting-to-fixed-page-format/converting-to-fixed-page-format-2.png)
 
-في Aspose.Words، يمكن للمستخدم أن يطلب ما إذا كان يريد إنشاء تخطيط صفحة جديد، أو تحديث تخطيط موجود. يمكن تنفيذ كلا الأمرين بواسطة طريقة [UpdatePageLayout](https://reference.aspose.com/words/net/aspose.words/document/updatepagelayout/)، التي توفرها فئة [Document](https://reference.aspose.com/words/net/aspose.words/document/). إذا لم يكن تخطيط الصفحة موجودًا، ولكن هناك حاجة إليه (على سبيل المثال، عند تصدير المستند إلى تنسيق صفحة ثابتة)، فسيستدعي Aspose.Words هذه الطريقة تلقائيًا. ومع ذلك، إذا كان تخطيط الصفحة موجودًا بالفعل، فسيستخدم Aspose.Words التخطيط الموجود لتجنب استهلاك الموارد اللازمة لتحديثه. في هذه الحالة، يحتاج المستخدم إلى استدعاء أسلوب `UpdatePageLayout`، للتأكد من أن تخطيط الصفحة محدث مع نموذج المستند.
+في Aspose.Words، يمكن للمستخدم أن يطلب ما إذا كان يريد إنشاء تخطيط صفحة جديد، أو تحديث تخطيط موجود. يمكن تنفيذ كلا الأمرين بواسطة طريقة [UpdatePageLayout](https://reference.aspose.com/words/ar/net/aspose.words/document/updatepagelayout/)، التي توفرها فئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/). إذا لم يكن تخطيط الصفحة موجودًا، ولكن هناك حاجة إليه (على سبيل المثال، عند تصدير المستند إلى تنسيق صفحة ثابتة)، فسيستدعي Aspose.Words هذه الطريقة تلقائيًا. ومع ذلك، إذا كان تخطيط الصفحة موجودًا بالفعل، فسيستخدم Aspose.Words التخطيط الموجود لتجنب استهلاك الموارد اللازمة لتحديثه. في هذه الحالة، يحتاج المستخدم إلى استدعاء أسلوب `UpdatePageLayout`، للتأكد من أن تخطيط الصفحة محدث مع نموذج المستند.
 
 ### الهيكل الديناميكي
 
@@ -65,22 +65,22 @@ Microsoft Word هو تطبيق تحرير النصوص الأكثر تقدمًا
 
 خذ بعين الاعتبار السيناريو النموذجي عندما يظهر حقل `NUMPAGES` في تذييل الصفحة الأولى في المستند. قيمة هذا الحقل هي إجمالي عدد الصفحات. من أجل وضع الحقل على الصفحة، يجب أن تكون قيمته معروفة. إذا كانت الصفحة الأولى فقط قيد الإنشاء حاليًا، فإن العدد الإجمالي للصفحات غير معروف بعد. في هذه الحالة، يجب أن يستخدم تخطيط الصفحة القيمة الافتراضية ثم يعود لاحقًا إلى هذا الحقل ويغير قيمته وفقًا للحسابات الفعلية. ومع ذلك، قد يؤثر تغيير قيمة الحقل على محتوى مستند آخر على الصفحة ويؤدي في النهاية إلى إلحاق صفحة جديدة أو إزالة صفحة موجودة، مما يجعل القيمة المحسوبة قديمة. يمكن حل هذه المشكلة عن طريق تمكين تحديث تخطيط الصفحة الحالي.
 
-عند إنشاء تخطيط، من الممكن أيضًا إعداد خصائص [LayoutOptions](https://reference.aspose.com/words/net/aspose.words.layout/layoutoptions/) التي تؤثر على إخراج المستند على الصفحات.
+عند إنشاء تخطيط، من الممكن أيضًا إعداد خصائص [LayoutOptions](https://reference.aspose.com/words/ar/net/aspose.words.layout/layoutoptions/) التي تؤثر على إخراج المستند على الصفحات.
 
 ## الحفظ في تنسيق الصفحة الثابتة
 
 بعد إنشاء تخطيط الصفحة وحساب هندسة الكائنات وموضعها على الصفحة، يمكن حفظ المستند بتنسيق صفحة ثابتة يدعمه Aspose.Words. عند حفظ المستندات بتنسيقات صفحات ثابتة، يمكن استخدام خيارات العرض المشتركة لكل هذه التنسيقات. أنها تسمح بالتحكم في:
 
-- عدد ونطاق الصفحات الموجودة في المستند الناتج ([PageCount](https://reference.aspose.com/words/net/aspose.words/document/pagecount/)).
-- التقدم المحرز في حفظ المستندات صفحة تلو الأخرى ([PageSavingCallback](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
-- مجموعة من الحروف المستخدمة في عرض الأرقام ([NumeralFormat](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
-- مشغل ملف التعريف ([MetafileRenderingOptions](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). لمزيد من التفاصيل، راجع مقالة [التعامل مع ملفات التعريف Windows](/words/ar/net/handling-windows-metafiles/).
-- معدل جودة لإعادة ضغط صور JPEG، وقد تختلف قيمته قليلاً، اعتمادًا على تنسيق الحفظ المحدد ([JpegQuality](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
-- تحسين الرسومات المتجهة في إخراج Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
-- خيارات الرسومات عند الحفظ بتنسيقات Tiff وPng وBmp وJpeg وEmf ([UseAntiAliasing](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/useantialiasing/) و[UseHighQualityRendering](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
-- حفظ المستند بالتدرج الرمادي ([ColorMode](https://reference.aspose.com/words/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
-- التبديل بين عرض أشكال DrawML والأشكال الاحتياطية ([DmlRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
-- التبديل بين أوضاع عرض تأثيرات DML ([DmlEffectsRenderingMode](https://reference.aspose.com/words/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
+- عدد ونطاق الصفحات الموجودة في المستند الناتج ([PageCount](https://reference.aspose.com/words/ar/net/aspose.words/document/pagecount/)).
+- التقدم المحرز في حفظ المستندات صفحة تلو الأخرى ([PageSavingCallback](https://reference.aspose.com/words/ar/net/aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/)).
+- مجموعة من الحروف المستخدمة في عرض الأرقام ([NumeralFormat](https://reference.aspose.com/words/ar/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/)).
+- مشغل ملف التعريف ([MetafileRenderingOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/)). لمزيد من التفاصيل، راجع مقالة [التعامل مع ملفات التعريف Windows](/words/ar/net/handling-windows-metafiles/).
+- معدل جودة لإعادة ضغط صور JPEG، وقد تختلف قيمته قليلاً، اعتمادًا على تنسيق الحفظ المحدد ([JpegQuality](https://reference.aspose.com/words/ar/net/aspose.words.saving/fixedpagesaveoptions/jpegquality/)).
+- تحسين الرسومات المتجهة في إخراج Aspose.Words ([OptimizeOutput](https://reference.aspose.com/words/ar/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/)).
+- خيارات الرسومات عند الحفظ بتنسيقات Tiff وPng وBmp وJpeg وEmf ([UseAntiAliasing](https://reference.aspose.com/words/ar/net/aspose.words.saving/saveoptions/useantialiasing/) و[UseHighQualityRendering](https://reference.aspose.com/words/ar/net/aspose.words.saving/saveoptions/usehighqualityrendering/)).
+- حفظ المستند بالتدرج الرمادي ([ColorMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/fixedpagesaveoptions/colormode/)).
+- التبديل بين عرض أشكال DrawML والأشكال الاحتياطية ([DmlRenderingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/saveoptions/dmlrenderingmode/)).
+- التبديل بين أوضاع عرض تأثيرات DML ([DmlEffectsRenderingMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/)).
 
 يوضح المثال أدناه كيفية حفظ مستند بتنسيق JPEG باستخدام طريقة `Save` وخيارات العرض:
 

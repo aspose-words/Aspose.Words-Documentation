@@ -11,7 +11,7 @@ url: /it/net/working-with-digital-signatures/
 
 Una firma digitale è un'implementazione tecnologica delle firme elettroniche per firmare documenti e autenticare il firmatario per garantire che un documento non sia stato modificato da quando è stato firmato. Ogni firma digitale è unica per ciascun firmatario perché segue il protocollo PKI per generare sia chiavi pubbliche che private. Firmare digitalmente un documento significa creare una firma utilizzando la chiave privata del firmatario in cui viene utilizzato un algoritmo matematico per crittografare l'hash generato.
 
-Aspose.Words ti consente di rilevare, contare o verificare le firme digitali esistenti e anche aggiungere una nuova firma al tuo documento per scoprire eventuali manomissioni. Puoi anche rimuovere tutte le firme digitali da un documento. Utilizza la classe [DigitalSignatureUtil](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/) per lavorare con le firme digitali.
+Aspose.Words ti consente di rilevare, contare o verificare le firme digitali esistenti e anche aggiungere una nuova firma al tuo documento per scoprire eventuali manomissioni. Puoi anche rimuovere tutte le firme digitali da un documento. Utilizza la classe [DigitalSignatureUtil](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/digitalsignatureutil/) per lavorare con le firme digitali.
 
 Questo articolo spiega come eseguire tutte le operazioni precedenti per convalidare l'autenticità e l'integrità di un documento digitale.
 
@@ -44,9 +44,9 @@ La tabella seguente descrive alcune limitazioni che potresti incontrare mentre l
 
 ## Rileva, conta e verifica le firme digitali
 
-Aspose.Words consente di rilevare la firma digitale in un documento utilizzando il metodo [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) e la proprietà [HasDigitalSignature](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasdigitalsignature/). Vale la pena notare che tale controllo rileverà solo il fatto della firma, ma non la sua validità.
+Aspose.Words consente di rilevare la firma digitale in un documento utilizzando il metodo [DetectFileFormat](https://reference.aspose.com/words/it/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) e la proprietà [HasDigitalSignature](https://reference.aspose.com/words/it/net/aspose.words/fileformatinfo/hasdigitalsignature/). Vale la pena notare che tale controllo rileverà solo il fatto della firma, ma non la sua validità.
 
-Un documento può essere firmato più di una volta e ciò può essere fatto da utenti diversi. Per verificare la validità delle firme digitali è necessario caricarle dal documento utilizzando il metodo [LoadSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) e utilizzare la proprietà [IsValid](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/). Inoltre Aspose.Words consente di contare un insieme di tutte le firme digitali all'interno di un documento utilizzando la proprietà [Count](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/).
+Un documento può essere firmato più di una volta e ciò può essere fatto da utenti diversi. Per verificare la validità delle firme digitali è necessario caricarle dal documento utilizzando il metodo [LoadSignatures](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) e utilizzare la proprietà [IsValid](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/). Inoltre Aspose.Words consente di contare un insieme di tutte le firme digitali all'interno di un documento utilizzando la proprietà [Count](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/).
 
 Tutto ciò fornisce un modo efficiente e sicuro per verificare la presenza di firme in un documento prima di elaborarlo.
 
@@ -58,13 +58,13 @@ L'esempio di codice seguente mostra come rilevare la presenza di firme digitali 
 
 Per creare una firma digitale, dovrai caricare un certificato di firma che confermi l'identità. Quando invii un documento firmato digitalmente, invii anche il certificato e la chiave pubblica.
 
-Aspose.Words consente di creare un certificato X.509, un certificato digitale che utilizza lo standard PKI X.509 accettato a livello internazionale per verificare che una chiave pubblica appartenga al firmatario incluso nel certificato. Per fare ciò, utilizzare il metodo [Create](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/create/) all'interno della classe [CertificateHolder](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/).
+Aspose.Words consente di creare un certificato X.509, un certificato digitale che utilizza lo standard PKI X.509 accettato a livello internazionale per verificare che una chiave pubblica appartenga al firmatario incluso nel certificato. Per fare ciò, utilizzare il metodo [Create](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/certificateholder/create/) all'interno della classe [CertificateHolder](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/certificateholder/).
 
 Le sezioni successive spiegano come aggiungere una firma digitale, una riga della firma e come firmare un documento PDF generato.
 
 ### Firma un documento
 
-Aspose.Words ti consente di firmare digitalmente un documento DOC, DOCX, XPS o ODT utilizzando il metodo [Sign](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) e le proprietà [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/).
+Aspose.Words ti consente di firmare digitalmente un documento DOC, DOCX, XPS o ODT utilizzando il metodo [Sign](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) e le proprietà [SignOptions](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/signoptions/).
 
 Il seguente esempio di codice mostra come firmare documenti utilizzando un titolare del certificato e le opzioni di firma:
 
@@ -72,7 +72,7 @@ Il seguente esempio di codice mostra come firmare documenti utilizzando un titol
 
 ### Aggiungi una riga della firma
 
-Una riga della firma è una rappresentazione visiva di una firma digitale in un documento. Aspose.Words consente di inserire una riga di firma utilizzando il metodo [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertsignatureline/). È inoltre possibile impostare i parametri per questa rappresentazione utilizzando la classe [SignatureLineOptions](https://reference.aspose.com/words/net/aspose.words/signaturelineoptions/).
+Una riga della firma è una rappresentazione visiva di una firma digitale in un documento. Aspose.Words consente di inserire una riga di firma utilizzando il metodo [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/it/net/aspose.words/documentbuilder/insertsignatureline/). È inoltre possibile impostare i parametri per questa rappresentazione utilizzando la classe [SignatureLineOptions](https://reference.aspose.com/words/it/net/aspose.words/signaturelineoptions/).
 
 Ad esempio, l'immagine seguente mostra come possono essere visualizzate le firme valide e non valide.
 
@@ -88,7 +88,7 @@ Il seguente esempio di codice mostra come firmare un documento con un certificat
 
 ### Firma un documento PDF generato {#sign-a-generated-pdf-document}
 
-Aspose.Words ti consente di firmare e ottenere tutti i dettagli di un documento PDF utilizzando le proprietà [PdfDigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/).
+Aspose.Words ti consente di firmare e ottenere tutti i dettagli di un documento PDF utilizzando le proprietà [PdfDigitalSignatureDetails](https://reference.aspose.com/words/it/net/aspose.words.saving/pdfdigitalsignaturedetails/).
 
 Il seguente esempio di codice mostra come firmare un PDF generato:
 
@@ -96,7 +96,7 @@ Il seguente esempio di codice mostra come firmare un PDF generato:
 
 ## Recuperare il valore della firma digitale
 
-Aspose.Words offre inoltre la possibilità di recuperare il valore della firma digitale da un documento firmato digitalmente come array di byte utilizzando la proprietà [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/).
+Aspose.Words offre inoltre la possibilità di recuperare il valore della firma digitale da un documento firmato digitalmente come array di byte utilizzando la proprietà [SignatureValue](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/).
 
 L'esempio di codice seguente mostra come ottenere il valore della firma digitale come array di byte da un documento:
 
@@ -104,7 +104,7 @@ L'esempio di codice seguente mostra come ottenere il valore della firma digitale
 
 ## Rimuovi le firme digitali
 
-Aspose.Words ti consente di rimuovere tutte le firme digitali da un documento firmato utilizzando il metodo [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/).
+Aspose.Words ti consente di rimuovere tutte le firme digitali da un documento firmato utilizzando il metodo [RemoveAllSignatures](https://reference.aspose.com/words/it/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/).
 
 L'esempio di codice seguente mostra come caricare e rimuovere le firme digitali da un documento:
 
