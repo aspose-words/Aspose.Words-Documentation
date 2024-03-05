@@ -185,7 +185,7 @@ L'exemple de code suivant montre comment masquer l'axe Y du graphique:
 
 ### Comment aligner l'étiquette du graphique
 
-Si vous souhaitez définir un alignement de texte pour les étiquettes multilignes, vous pouvez simplement y parvenir en définissant la valeur de la propriété [TickLabels](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignement**.
+Si vous souhaitez définir un alignement de texte pour les étiquettes multilignes, vous pouvez simplement y parvenir en définissant la valeur de la propriété [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignement**.
 
 L'exemple de code suivant montre comment cocher l'alignement des étiquettes:
 

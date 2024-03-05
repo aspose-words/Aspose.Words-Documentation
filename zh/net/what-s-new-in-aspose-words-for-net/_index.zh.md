@@ -21,7 +21,7 @@ Aspose.Words 24.2 扩展了 Charts API、样式管理和 LINQ 选项。 此版�
 
 #### 描边颜色控制 <sup>24.1</sup>
 
-[Stroke](https://reference.aspose.com/words/zh/net/aspose.words.drawing/stroke/) 类已扩展为一组与管理描边颜色相关的新公共属性：[ForeThemeColor](https://reference.aspose.com/words/zh/net/aspose.words.drawing/stroke/forethemecolor/) 和 [BackThemeColor](https://reference.aspose.com/words/zh/net/aspose.words.drawing/stroke/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/zh/net/aspose.words.drawing/stroke/foretintandshade/) 和 [BackTintAndShade](https://reference.aspose.com/words/zh/net/aspose.words.drawing/stroke/backtintandshade/)。
+[Stroke](https://reference.aspose.com/words/zh/net/aspose.words.drawing/stroke/) 类已扩展为一组与管理描边颜色相关的新公共属性：[ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) 和 [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/)、[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) 和 [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/)。
 
 #### DrawingML图表API扩展 <sup>24.2</sup>
 
@@ -39,11 +39,11 @@ Aspose.Words 24.2 扩展了 Charts API、样式管理和 LINQ 选项。 此版�
 
 ### 其他
 
-* 通过向新的 [TextBoxControl](https://reference.aspose.com/words/zh/net/aspose.words.drawing.ole/textboxcontrol/) 类添加新的 [Text](https://reference.aspose.com/words/zh/net/aspose.words.drawing.ole/textboxcontrol/text/) 属性，引入了修改 `TextBox` OLE 控件文本的功能。 <sup>24.1</sup>
-* Bibliography Sources 公共 API 是通过添加新的名称空间 [Aspose.Words.Bibliography](https://reference.aspose.com/words/zh/net/aspose.words.bibliography/) 及其新类和枚举以及通过向 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 类添加新的 [Bibliography](https://reference.aspose.com/words/zh/net/aspose.words/document/bibliography/) 属性来实现的。 <sup>24.1</sup>
+* 通过向新的 [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) 类添加新的 [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) 属性，引入了修改 `TextBox` OLE 控件文本的功能。 <sup>24.1</sup>
+* Bibliography Sources 公共 API 是通过添加新的名称空间 [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) 及其新类和枚举以及通过向 [Document](https://reference.aspose.com/words/zh/net/aspose.words/document/) 类添加新的 [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) 属性来实现的。 <sup>24.1</sup>
 * 提供了一个 API，用于使用 LINQ 报告引擎的模板语法来限制对类型成员的访问。 <sup>24.1</sup>
-* 用于增强样式管理的新公共属性 [Priority](https://reference.aspose.com/words/zh/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/zh/net/aspose.words/style/unhidewhenused/) 和 [SemiHidden](https://reference.aspose.com/words/zh/net/aspose.words/style/semihidden/) 已添加到 [Style](https://reference.aspose.com/words/zh/net/aspose.words/style/) 类中。 <sup>24.2</sup>
-- 通过 [ActualReferenceMark](https://reference.aspose.com/words/zh/net/aspose.words.notes/footnote/actualreferencemark/) 属性和 [UpdateActualReferenceMarks](https://reference.aspose.com/words/zh/net/aspose.words/document/updateactualreferencemarks/) 方法增强了检索脚注和尾注实际引用标记文本的功能。 <sup>24.2</sup>
+* 用于增强样式管理的新公共属性 [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)、[UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) 和 [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) 已添加到 [Style](https://reference.aspose.com/words/zh/net/aspose.words/style/) 类中。 <sup>24.2</sup>
+- 通过 [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) 属性和 [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) 方法增强了检索脚注和尾注实际引用标记文本的功能。 <sup>24.2</sup>
 - 已启用 `LINQ` 报告引擎与 `Word 2016` 图表的兼容性。 <sup>24.2</sup>
 
 {{% alert color="primary" %}}
@@ -88,11 +88,11 @@ Aspose.Words 23.12 引入了用于处理 PDF 和 OOXML 文档的新属性和枚�
 
 #### DrawingML 图表图例条目的默认字体格式<sup>23.11</sup>
 
-通过 [Font](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartlegend/font/) 属性添加了为 DrawingML 图表的图例条目指定默认字体格式的功能。此功能有助于使图表元素的外观更加精简和一致，从而提高整体文档的美观性。
+通过 [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/) 属性添加了为 DrawingML 图表的图例条目指定默认字体格式的功能。此功能有助于使图表元素的外观更加精简和一致，从而提高整体文档的美观性。
 
 #### 在 Reader <sup>23.12</sup>中打开 PDF 时指定页面布局
 
-通过向 [PdfSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/) 类引入新的 [PageLayout](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/pagelayout/) 属性以及引入新的 [PdfPageLayout](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfpagelayout/) 枚举，添加了指定在 PDF 阅读器中打开文档时要使用的页面布局的功能。
+通过向 [PdfSaveOptions](https://reference.aspose.com/words/zh/net/aspose.words.saving/pdfsaveoptions/) 类引入新的 [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) 属性以及引入新的 [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/) 枚举，添加了指定在 PDF 阅读器中打开文档时要使用的页面布局的功能。
 
 ### 加载和保存文档
 
@@ -114,8 +114,8 @@ Aspose.Words 23.12 引入了用于处理 PDF 和 OOXML 文档的新属性和枚�
 * 引入了一种使用 [InsertDocumentInline](https://reference.aspose.com/words/zh/net/aspose.words/documentbuilder/insertdocumentinline/) 方法将一个文档插入到当前光标位置的另一个文档的简化方法。 <sup>23.10</sup>
 * 通过引入新的 [Locked](https://reference.aspose.com/words/zh/net/aspose.words/style/locked/) 属性，添加了访问和修改样式属性的功能。 <sup>23.10</sup>
 * [CompositeNode](https://reference.aspose.com/words/zh/net/aspose.words/compositenode/) 类的方法中添加了通用类型参数。 <sup>23.10</sup>
-* 使用 [Accept](https://reference.aspose.com/words/zh/net/aspose.words/revisioncollection/accept/) 和 [Reject](https://reference.aspose.com/words/zh/net/aspose.words/revisioncollection/reject/) 方法实现了一种控制何时接受/拒绝某个修订的方法。此增强功能使用户能够更好地控制修订过程。 <sup>23.11</sup>
-* 通过新的 [XlsxSectionMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/xlsxsectionmode/) 枚举类型和新的 [SectionMode](https://reference.aspose.com/words/zh/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) 属性提供了将文档的所有部分写入同一 XLSX 工作表的功能。 <sup>23.11</sup>
+* 使用 [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) 和 [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) 方法实现了一种控制何时接受/拒绝某个修订的方法。此增强功能使用户能够更好地控制修订过程。 <sup>23.11</sup>
+* 通过新的 [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) 枚举类型和新的 [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) 属性提供了将文档的所有部分写入同一 XLSX 工作表的功能。 <sup>23.11</sup>
 * 通过 `OoxmlSaveOptions` 类的新 Zip64Mode 属性和新的 Zip64Mode 枚举实现了一种控制 ZIP64 格式扩展如何用于 OOXML 文档的方法。 <sup>23.12</sup>
 * 引入了对 WebP 图像的支持。请注意，此功能仅适用于 .NetStandart 和 .NET6+ 版本。 <sup>23.12</sup>
 

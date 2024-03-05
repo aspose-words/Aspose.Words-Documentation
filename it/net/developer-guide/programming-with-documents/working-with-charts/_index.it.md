@@ -185,7 +185,7 @@ L'esempio di codice seguente mostra come nascondere l'asse Y del grafico:
 
 ### Come allineare l'etichetta del grafico
 
-Se desideri impostare un allineamento del testo per le etichette su più righe, puoi semplicemente farlo impostando il valore della proprietà [TickLabels](https://reference.aspose.com/words/it/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Allineamento**.
+Se desideri impostare un allineamento del testo per le etichette su più righe, puoi semplicemente farlo impostando il valore della proprietà [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Allineamento**.
 
 L'esempio di codice seguente mostra come selezionare l'allineamento dell'etichetta:
 

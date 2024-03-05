@@ -185,7 +185,7 @@ Aşağıdaki kod örneği, grafiğin Y ekseninin nasıl gizleneceğini gösterir
 
 ### Grafik Etiketi Nasıl Hizalanır?
 
-Çok satırlı etiketler için metin hizalamasını ayarlamak istiyorsanız bunu [TickLabels](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment** özelliğinin değerini ayarlayarak kolayca yapabilirsiniz.
+Çok satırlı etiketler için metin hizalamasını ayarlamak istiyorsanız bunu [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment** özelliğinin değerini ayarlayarak kolayca yapabilirsiniz.
 
 Aşağıdaki kod örneği, etiket hizalamasının nasıl işaretleneceğini gösterir:
 

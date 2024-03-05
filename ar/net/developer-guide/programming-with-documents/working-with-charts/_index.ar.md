@@ -185,7 +185,7 @@ url: /ar/net/working-with-charts/
 
 ### كيفية محاذاة تسمية المخطط
 
-إذا كنت تريد تعيين محاذاة النص للتسميات متعددة الأسطر، فيمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة خاصية [TickLabels](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.تنسيق**.
+إذا كنت تريد تعيين محاذاة النص للتسميات متعددة الأسطر، فيمكنك ببساطة تحقيق ذلك عن طريق تعيين قيمة خاصية [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.تنسيق**.
 
 يوضح مثال التعليمات البرمجية التالي كيفية تحديد محاذاة التسمية:
 

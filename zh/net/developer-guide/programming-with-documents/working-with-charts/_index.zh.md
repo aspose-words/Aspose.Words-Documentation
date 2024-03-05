@@ -185,7 +185,7 @@ url: /zh/net/working-with-charts/
 
 ### 如何对齐图表标签
 
-如果要设置多行标签的文本对齐方式，只需设置 [TickLabels](https://reference.aspose.com/words/zh/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**。结盟** 属性的值即可实现。
+如果要设置多行标签的文本对齐方式，只需设置 [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**。结盟** 属性的值即可实现。
 
 以下代码示例展示了如何勾选标签对齐：
 
