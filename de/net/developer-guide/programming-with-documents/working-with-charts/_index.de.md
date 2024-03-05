@@ -185,7 +185,7 @@ Das folgende Codebeispiel zeigt, wie Sie die Y-Achse des Diagramms ausblenden:
 
 ### So richten Sie die Diagrammbeschriftung aus
 
-Wenn Sie eine Textausrichtung für mehrzeilige Beschriftungen festlegen möchten, können Sie dies einfach durch Festlegen des Werts der [TickLabels](https://reference.aspose.com/words/de/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Ausrichtung**-Eigenschaft erreichen.
+Wenn Sie eine Textausrichtung für mehrzeilige Beschriftungen festlegen möchten, können Sie dies einfach durch Festlegen des Werts der [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Ausrichtung**-Eigenschaft erreichen.
 
 Das folgende Codebeispiel zeigt, wie die Beschriftungsausrichtung aktiviert wird:
 

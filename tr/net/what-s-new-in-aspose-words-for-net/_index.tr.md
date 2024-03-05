@@ -21,7 +21,7 @@ Aspose.Words 24.2 genişletilmiş Charts API'si, stil yönetimi ve LINQ seçenek
 
 #### Kontur Renk Kontrolü <sup>24.1</sup>
 
-[Stroke](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: [ForeThemeColor](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/forethemecolor/) ve [BackThemeColor](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/foretintandshade/) ve [BackTintAndShade](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/backtintandshade/).
+[Stroke](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) ve [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) ve [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
 #### DrawingML Charts API Uzantısı <sup>24.2</sup>
 
@@ -39,11 +39,11 @@ Markdown dosyalarını yüklerken boş satırları koruma özelliği eklendi.
 
 ### Diğer
 
-* `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni [TextBoxControl](https://reference.aspose.com/words/tr/net/aspose.words.drawing.ole/textboxcontrol/) sınıfına yeni bir [Text](https://reference.aspose.com/words/tr/net/aspose.words.drawing.ole/textboxcontrol/text/) özelliği eklenerek tanıtıldı. <sup>24.1</sup>
-* Bibliyografya Kaynakları genel API'i, yeni sınıfları ve numaralandırmalarıyla yeni bir [Aspose.Words.Bibliography](https://reference.aspose.com/words/tr/net/aspose.words.bibliography/) ad alanı eklenmesi ve [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfına yeni bir [Bibliography](https://reference.aspose.com/words/tr/net/aspose.words/document/bibliography/) özelliği eklenmesi yoluyla uygulandı. <sup>24.1</sup>
+* `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) sınıfına yeni bir [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) özelliği eklenerek tanıtıldı. <sup>24.1</sup>
+* Bibliyografya Kaynakları genel API'i, yeni sınıfları ve numaralandırmalarıyla yeni bir [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) ad alanı eklenmesi ve [Document](https://reference.aspose.com/words/tr/net/aspose.words/document/) sınıfına yeni bir [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) özelliği eklenmesi yoluyla uygulandı. <sup>24.1</sup>
 * LINQ Raporlama Motoru için şablon söz dizimini kullanarak tür üyelerine erişimi sınırlandıran bir API sağlandı. <sup>24.1</sup>
-* Gelişmiş stil yönetimi için yeni genel özellikler [Priority](https://reference.aspose.com/words/tr/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/tr/net/aspose.words/style/unhidewhenused/) ve [SemiHidden](https://reference.aspose.com/words/tr/net/aspose.words/style/semihidden/), [Style](https://reference.aspose.com/words/tr/net/aspose.words/style/) sınıfına eklendi. <sup>24.2</sup>
-- Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [ActualReferenceMark](https://reference.aspose.com/words/tr/net/aspose.words.notes/footnote/actualreferencemark/) özelliği ve [UpdateActualReferenceMarks](https://reference.aspose.com/words/tr/net/aspose.words/document/updateactualreferencemarks/) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
+* Gelişmiş stil yönetimi için yeni genel özellikler [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) ve [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/), [Style](https://reference.aspose.com/words/tr/net/aspose.words/style/) sınıfına eklendi. <sup>24.2</sup>
+- Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) özelliği ve [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
 - `LINQ Reporting Engine` için `Word 2016` grafikleriyle uyumluluk etkinleştirildi. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
@@ -88,11 +88,11 @@ Yeni [FitImageToShape](https://reference.aspose.com/words/tr/net/aspose.words.dr
 
 #### DrawingML Grafik Açıklaması Girişleri için Varsayılan Yazı Tipi Formatı <sup>23.11</sup>
 
-DrawingML grafiklerinin gösterge girişleri için varsayılan yazı tipi formatını belirtme yeteneği, [Font](https://reference.aspose.com/words/tr/net/aspose.words.drawing.charts/chartlegend/font/) özelliği aracılığıyla eklenmiştir. Bu özellik, grafik öğeleri için daha akıcı ve tutarlı bir görünüm sağlayarak genel belge estetiğini geliştirir.
+DrawingML grafiklerinin gösterge girişleri için varsayılan yazı tipi formatını belirtme yeteneği, [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/) özelliği aracılığıyla eklenmiştir. Bu özellik, grafik öğeleri için daha akıcı ve tutarlı bir görünüm sağlayarak genel belge estetiğini geliştirir.
 
 #### PDF'yi Reader <sup>23.12'de</sup> Açarken Sayfa Düzenini Belirleme
 
-[PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfına yeni bir [PageLayout](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/pagelayout/) özelliğinin eklenmesi ve yeni bir [PdfPageLayout](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfpagelayout/) numaralandırmasının eklenmesiyle, bir belgeyi PDF okuyucuda açarken kullanılacak sayfa düzenini belirtme yeteneği eklenmiştir.
+[PdfSaveOptions](https://reference.aspose.com/words/tr/net/aspose.words.saving/pdfsaveoptions/) sınıfına yeni bir [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) özelliğinin eklenmesi ve yeni bir [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/) numaralandırmasının eklenmesiyle, bir belgeyi PDF okuyucuda açarken kullanılacak sayfa düzenini belirtme yeteneği eklenmiştir.
 
 ### Belgeleri Yükleme ve Kaydetme
 
@@ -114,8 +114,8 @@ TXT belgelerini yüklerken köprüleri tanıma özelliği, yeni bir [DetectHyper
 * [InsertDocumentInline](https://reference.aspose.com/words/tr/net/aspose.words/documentbuilder/insertdocumentinline/) yöntemi kullanılarak, bir belgeyi başka bir belgeye mevcut imleç konumunda eklemek için basitleştirilmiş bir yöntem tanıtıldı. <sup>23.10</sup>
 * Yeni [Locked](https://reference.aspose.com/words/tr/net/aspose.words/style/locked/) özelliğinin tanıtılmasıyla stil özelliklerine erişme ve bunları değiştirme yeteneği eklendi. <sup>23.10</sup>
 * [CompositeNode](https://reference.aspose.com/words/tr/net/aspose.words/compositenode/) sınıfının metodlarına genel tip parametresi eklendi. <sup>23.10</sup>
-* [Accept](https://reference.aspose.com/words/tr/net/aspose.words/revisioncollection/accept/) ve [Reject](https://reference.aspose.com/words/tr/net/aspose.words/revisioncollection/reject/) yöntemleri kullanılarak belirli bir revizyonun ne zaman kabul edilmesi/reddedilmesi veya reddedilmesi gerektiğini kontrol etmenin bir yolu uygulandı. Bu geliştirme, kullanıcılara revizyon süreci üzerinde daha hassas kontrol sağlar. <sup>23.11</sup>
-* Yeni [XlsxSectionMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/xlsxsectionmode/) numaralandırma türü ve yeni [SectionMode](https://reference.aspose.com/words/tr/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) özelliği aracılığıyla bir belgenin tüm bölümlerini aynı XLSX çalışma sayfasına yazabilme yeteneği sağlandı. <sup>23.11</sup>
+* [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) ve [Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/) yöntemleri kullanılarak belirli bir revizyonun ne zaman kabul edilmesi/reddedilmesi veya reddedilmesi gerektiğini kontrol etmenin bir yolu uygulandı. Bu geliştirme, kullanıcılara revizyon süreci üzerinde daha hassas kontrol sağlar. <sup>23.11</sup>
+* Yeni [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) numaralandırma türü ve yeni [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) özelliği aracılığıyla bir belgenin tüm bölümlerini aynı XLSX çalışma sayfasına yazabilme yeteneği sağlandı. <sup>23.11</sup>
 * OOXML belgeleri için ZIP64 formatı uzantılarının nasıl kullanılacağını kontrol etmenin bir yolu, `OoxmlSaveOptions` sınıfının yeni Zip64Mode özelliği ve yeni Zip64Mode numaralandırması aracılığıyla uygulanmıştır. <sup>23.12</sup>
 * WebP imajı desteği getirildi. Lütfen bu özelliğin yalnızca .NetStandart ve .NET6+ sürümlerinde mevcut olduğunu unutmayın. <sup>23.12</sup>
 

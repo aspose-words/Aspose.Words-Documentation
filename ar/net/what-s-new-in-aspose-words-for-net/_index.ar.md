@@ -21,7 +21,7 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 #### التحكم في لون السكتة الدماغية <sup>24.1</sup>
 
-تم توسيع فئة [Stroke](https://reference.aspose.com/words/ar/net/aspose.words.drawing/stroke/) بمجموعة من الخصائص العامة الجديدة المتعلقة بإدارة ألوان الحدود: [ForeThemeColor](https://reference.aspose.com/words/ar/net/aspose.words.drawing/stroke/forethemecolor/) و[BackThemeColor](https://reference.aspose.com/words/ar/net/aspose.words.drawing/stroke/backthemecolor/) و[ForeTintAndShade](https://reference.aspose.com/words/ar/net/aspose.words.drawing/stroke/foretintandshade/) و[BackTintAndShade](https://reference.aspose.com/words/ar/net/aspose.words.drawing/stroke/backtintandshade/).
+تم توسيع فئة [Stroke](https://reference.aspose.com/words/ar/net/aspose.words.drawing/stroke/) بمجموعة من الخصائص العامة الجديدة المتعلقة بإدارة ألوان الحدود: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) و[BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/) و[ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) و[BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
 #### <sup>24.2</sup> DrawingML Charts API ملحق
 
@@ -39,11 +39,11 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 ### آخر
 
-* تم تقديم القدرة على تعديل نص عنصر تحكم `TextBox` OLE عن طريق إضافة خاصية [Text](https://reference.aspose.com/words/ar/net/aspose.words.drawing.ole/textboxcontrol/text/) جديدة إلى فئة [TextBoxControl](https://reference.aspose.com/words/ar/net/aspose.words.drawing.ole/textboxcontrol/) الجديدة.   <sup>24.1</sup>
-* تم تنفيذ API العام لمصادر المراجع من خلال إضافة مساحة اسم جديدة [Aspose.Words.Bibliography](https://reference.aspose.com/words/ar/net/aspose.words.bibliography/) مع فئاتها وتعداداتها الجديدة، ومن خلال إضافة خاصية [Bibliography](https://reference.aspose.com/words/ar/net/aspose.words/document/bibliography/) جديدة إلى فئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/). <sup>24.1</sup>
+* تم تقديم القدرة على تعديل نص عنصر تحكم `TextBox` OLE عن طريق إضافة خاصية [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) جديدة إلى فئة [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/) الجديدة.   <sup>24.1</sup>
+* تم تنفيذ API العام لمصادر المراجع من خلال إضافة مساحة اسم جديدة [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) مع فئاتها وتعداداتها الجديدة، ومن خلال إضافة خاصية [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) جديدة إلى فئة [Document](https://reference.aspose.com/words/ar/net/aspose.words/document/). <sup>24.1</sup>
 * تم توفير API لتقييد الوصول إلى أعضاء الكتابة الذين يستخدمون صيغة القالب لمحرك تقارير LINQ. <sup>24.1</sup>
-* تمت إضافة الخصائص العامة الجديدة [Priority](https://reference.aspose.com/words/ar/net/aspose.words/style/priority/)، [UnhideWhenUsed](https://reference.aspose.com/words/ar/net/aspose.words/style/unhidewhenused/)، و [SemiHidden](https://reference.aspose.com/words/ar/net/aspose.words/style/semihidden/)  لإدارة النمط المحسنة إلى فئة [Style](https://reference.aspose.com/words/ar/net/aspose.words/style/). <sup>24.2</sup>
-* تم تحسين وظيفة استرداد نص العلامة المرجعية الفعلي للحواشي السفلية والتعليقات الختامية باستخدام خاصية [ActualReferenceMark](https://reference.aspose.com/words/ar/net/aspose.words.notes/footnote/actualreferencemark/) وأسلوب [UpdateActualReferenceMarks](https://reference.aspose.com/words/ar/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>  
+* تمت إضافة الخصائص العامة الجديدة [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)، [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/)، و [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/)  لإدارة النمط المحسنة إلى فئة [Style](https://reference.aspose.com/words/ar/net/aspose.words/style/). <sup>24.2</sup>
+* تم تحسين وظيفة استرداد نص العلامة المرجعية الفعلي للحواشي السفلية والتعليقات الختامية باستخدام خاصية [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) وأسلوب [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>  
 * تم تمكين التوافق مع مخططات `Word 2016` لمحرك تقارير LINQ. <sup>24.2</sup>
 
 {{% alert color="primary" %}}
@@ -88,11 +88,11 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 
 #### تنسيق الخط الافتراضي لإدخالات وسيلة إيضاح مخطط DrawML <sup>23.11</sup>
 
-تمت إضافة القدرة على تحديد تنسيق الخط الافتراضي لإدخالات وسيلة الإيضاح لمخططات DrawML عبر خاصية [Font](https://reference.aspose.com/words/ar/net/aspose.words.drawing.charts/chartlegend/font/). تسهل هذه الميزة مظهرًا أكثر انسيابية وتناسقًا لعناصر المخطط، مما يؤدي إلى تحسين جماليات المستند بشكل عام.
+تمت إضافة القدرة على تحديد تنسيق الخط الافتراضي لإدخالات وسيلة الإيضاح لمخططات DrawML عبر خاصية [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/). تسهل هذه الميزة مظهرًا أكثر انسيابية وتناسقًا لعناصر المخطط، مما يؤدي إلى تحسين جماليات المستند بشكل عام.
 
 #### حدد تخطيط الصفحة عند فتح ملف PDF في Reader <sup>23.12</sup>
 
-تمت إضافة القدرة على تحديد تخطيط الصفحة المراد استخدامه عند فتح مستند في قارئ PDF من خلال إدخال خاصية [PageLayout](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/pagelayout/) جديدة إلى فئة [PdfSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/) وإدخال تعداد [PdfPageLayout](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfpagelayout/) جديد.
+تمت إضافة القدرة على تحديد تخطيط الصفحة المراد استخدامه عند فتح مستند في قارئ PDF من خلال إدخال خاصية [PageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/pagelayout/) جديدة إلى فئة [PdfSaveOptions](https://reference.aspose.com/words/ar/net/aspose.words.saving/pdfsaveoptions/) وإدخال تعداد [PdfPageLayout](https://reference.aspose.com/words/net/aspose.words.saving/pdfpagelayout/) جديد.
 
 ### تحميل وحفظ المستندات
 
@@ -114,8 +114,8 @@ url: /ar/net/what-s-new-in-aspose-words-for-net/
 * تم تقديم طريقة مبسطة لإدراج مستند في مستند آخر في موضع المؤشر الحالي باستخدام طريقة [InsertDocumentInline](https://reference.aspose.com/words/ar/net/aspose.words/documentbuilder/insertdocumentinline/). <sup>23.10</sup>
 * تمت إضافة القدرة على الوصول إلى خصائص النمط وتعديلها من خلال تقديم خاصية [Locked](https://reference.aspose.com/words/ar/net/aspose.words/style/locked/) الجديدة. <sup>23.10</sup>
 * تمت إضافة معلمة نوع عامة إلى أساليب فئة [CompositeNode](https://reference.aspose.com/words/ar/net/aspose.words/compositenode/). <sup>23.10</sup>
-* تم تنفيذ طريقة للتحكم في وقت قبول/رفض مراجعة معينة أو عدم تنفيذها باستخدام طريقتي [Accept](https://reference.aspose.com/words/ar/net/aspose.words/revisioncollection/accept/) و[Reject](https://reference.aspose.com/words/ar/net/aspose.words/revisioncollection/reject/). يمنح هذا التحسين المستخدمين تحكمًا أفضل في عملية المراجعة. <sup>23.11</sup>
-* تم توفير القدرة على كتابة جميع أقسام المستند على نفس ورقة عمل XLSX من خلال نوع التعداد [XlsxSectionMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/xlsxsectionmode/) الجديد وخاصية [SectionMode](https://reference.aspose.com/words/ar/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) الجديدة. <sup>23.11</sup>
+* تم تنفيذ طريقة للتحكم في وقت قبول/رفض مراجعة معينة أو عدم تنفيذها باستخدام طريقتي [Accept](https://reference.aspose.com/words/net/aspose.words/revisioncollection/accept/) و[Reject](https://reference.aspose.com/words/net/aspose.words/revisioncollection/reject/). يمنح هذا التحسين المستخدمين تحكمًا أفضل في عملية المراجعة. <sup>23.11</sup>
+* تم توفير القدرة على كتابة جميع أقسام المستند على نفس ورقة عمل XLSX من خلال نوع التعداد [XlsxSectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsectionmode/) الجديد وخاصية [SectionMode](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/sectionmode/) الجديدة. <sup>23.11</sup>
 * تم تنفيذ طريقة للتحكم في كيفية استخدام امتدادات تنسيق ZIP64 لمستندات OOXML من خلال خاصية Zip64Mode الجديدة لفئة `OoxmlSaveOptions` وتعداد Zip64Mode الجديد. <sup>23.12</sup>
 * تم تقديم الدعم لصورة WebP. يرجى ملاحظة أن هذه الميزة متاحة فقط لإصدارات .NetStandart و.NET6+. <sup>23.12</sup>
 
