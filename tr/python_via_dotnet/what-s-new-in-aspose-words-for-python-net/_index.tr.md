@@ -11,19 +11,21 @@ url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## Python via .NET 24.1, 24.2 için Aspose.Words
+## Python via .NET 24.1, 24.2, 24.3 için Aspose.Words
 
 Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
 
 Aspose.Words 24.2 genişletilmiş Charts API'si ve stil yönetimi. Aspose.Words'ün bu sürümü aynı zamanda işleme sırasında SvgSaveOptions'ı belirtme, Markdown dosyalarını yükleme konusunda daha esnek kontrol ve dipnotlar ve sonnotlar için referans metniyle çalışma özelliklerini de tanıttı.
 
+Aspose.Words 24.3, yeni bir TIFF Okuyucu/Yazıcı ve WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesini tanıtıyor. Aspose.Words 24.3 ayrıca Grafikler API'sını genişletmeye devam ediyor.
+
 ### İşleme ve Yazdırma
 
 #### Kontur Renk Kontrolü <sup>24.1</sup>
 
-[Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: **ForeThemeColor** ve **BackThemeColor**, **ForeTintAndShade** ve **BackTintAndShade**.
+[Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) ve [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) ve [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### DrawingML Charts API Uzantısı <sup>24.2</sup>
+#### DrawingML Charts API Uzantısı <sup>24.2 / 24.3</sup>
 
 **DrawingML Charts API** genişletilmeye devam ediyor.
 
@@ -37,18 +39,25 @@ Oluşturma sırasında [SvgSaveOptions](https://reference.aspose.com/words/pytho
 
 Markdown dosyalarını yüklerken boş satırları koruma özelliği eklendi.
 
+#### Yeni bir TIFF Okuyucu/Yazıcı <sup>24.3</sup>
+
+Aspose.Words için yeni bir TIFF okuyucu/yazıcı geliştirildi. Aspose.Words 24.3, JPEG ve Eski JPEG sıkıştırma tipleriyle TIFF görüntülerini okuma desteği ekledi ve okuma ve yazma işlemlerinin kalitesini önemli ölçüde iyileştirdi.
+
 ### Diğer
 
 * `TextBox` OLE kontrolünün metnini değiştirme yeteneği, yeni **TextBoxControl** sınıfına yeni bir **Text** özelliği eklenerek tanıtıldı. <sup>24.1</sup>
 * Bibliyografya Kaynakları genel API'i, yeni sınıfları ve numaralandırmalarıyla yeni bir **Aspose.Words.Bibliography** ad alanı eklenmesi ve **Document** sınıfına yeni bir **Bibliography** özelliği eklenmesi yoluyla uygulandı. <sup>24.1</sup>
 * Gelişmiş stil yönetimi için yeni genel özellikler [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) ve [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/), [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) sınıfına eklendi. <sup>24.2</sup>
 * Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) özelliği ve [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
+* WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesi uygulandı. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 [Python via .NET 24.1 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Python via .NET 24.2 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) hakkında daha fazla bilgi edinin.
+
+[Python via .NET 24.3 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

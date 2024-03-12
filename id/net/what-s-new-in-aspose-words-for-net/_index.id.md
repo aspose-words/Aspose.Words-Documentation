@@ -11,11 +11,13 @@ url: /id/net/what-s-new-in-aspose-words-for-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk .NET 24.1, 24.2
+## Aspose.Words untuk .NET 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 meningkatkan pengalaman dalam mengelola warna guratan, menyempurnakan objek OLE dan pelaporan LINQ, serta memperkenalkan API publik Sumber Bibliografi baru.
 
 Aspose.Words 24.2 memperluas API Charts, manajemen gaya, dan opsi LINQ. Versi Aspose.Words ini juga memperkenalkan kemampuan untuk menentukan SvgSaveOptions selama rendering, kontrol yang lebih fleksibel dalam memuat file Markdown, dan bekerja dengan teks referensi untuk catatan kaki dan catatan akhir.
+
+Aspose.Words 24.3 memperkenalkan pembaca/pemutar TIFF baru dan emulasi operasi raster biner untuk metafile WMF. Aspose.Words 24.3 juga terus memperluas API Grafik.
 
 ### Rendering dan Pencetakan
 
@@ -23,7 +25,7 @@ Aspose.Words 24.2 memperluas API Charts, manajemen gaya, dan opsi LINQ. Versi As
 
 Kelas [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan pengelolaan warna guratan: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) dan [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) dan [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-####Ekstensi DrawingML Charts API <sup>24.2</sup>
+####Ekstensi DrawingML Charts API <sup>24.2 / 24.3</sup>
 
 **DrawingML Charts API** terus diperluas.
 
@@ -37,6 +39,10 @@ Kemampuan untuk menentukan [SvgSaveOptions](https://reference.aspose.com/words/n
 
 Kemampuan untuk mempertahankan baris kosong saat memuat file Markdown telah ditambahkan.
 
+#### Pembaca/Pemutar TIFF Baru <sup>24.3</sup>
+
+Pembaca/pemutar TIFF baru telah dikembangkan untuk Aspose.Words untuk .NET Standard, .NET 6, dan versi selanjutnya. Aspose.Words untuk .NET 24.3 menambahkan dukungan untuk membaca gambar TIFF dengan tipe kompresi JPEG dan Old JPEG, dan juga secara signifikan meningkatkan kualitas operasi baca dan tulis.
+
 ### Lainnya
 
 * Kemampuan untuk memodifikasi teks kontrol `TextBox` OLE telah diperkenalkan dengan menambahkan properti [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) baru ke kelas [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) baru. <sup>24.1</sup>
@@ -45,12 +51,15 @@ Kemampuan untuk mempertahankan baris kosong saat memuat file Markdown telah dita
 * Properti publik baru [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), dan [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) untuk manajemen gaya yang ditingkatkan telah ditambahkan ke kelas [Style](https://reference.aspose.com/words/net/aspose.words/style/). <sup>24.2</sup>
 - Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) dan metode [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 - Kompatibilitas dengan grafik `Word 2016` untuk `LINQ Reporting Engine` telah diaktifkan. <sup>24.2</sup>
+- Emulasi operasi raster biner untuk metafile WMF telah diimplementasikan. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
 {{% /alert %}}
 

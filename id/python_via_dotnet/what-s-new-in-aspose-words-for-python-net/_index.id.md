@@ -11,19 +11,21 @@ url: /id/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk Python via .NET 24.1, 24.2
+## Aspose.Words untuk Python via .NET 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 meningkatkan pengalaman dalam mengelola warna guratan, menyempurnakan objek OLE, serta memperkenalkan API publik Sumber Bibliografi baru.
 
 Aspose.Words 24.2 memperluas API Charts, dan manajemen gaya. Versi Aspose.Words ini juga memperkenalkan kemampuan untuk menentukan SvgSaveOptions selama rendering, kontrol yang lebih fleksibel dalam memuat file Markdown, dan bekerja dengan teks referensi untuk catatan kaki dan catatan akhir.
 
+Aspose.Words 24.3 memperkenalkan pembaca/pemutar TIFF baru dan emulasi operasi raster biner untuk metafile WMF. Aspose.Words 24.3 juga terus memperluas API Grafik.
+
 ### Rendering dan Pencetakan
 
 #### Kontrol Warna Goresan <sup>24.1</sup>
 
-Kelas [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan pengelolaan warna guratan: **ForeThemeColor** dan **BackThemeColor**, **ForeTintAndShade** dan **BackTintAndShade**.
+Kelas [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan pengelolaan warna guratan: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) dan [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) dan [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### Ekstensi DrawingML Charts API <sup>24.2</sup>
+#### Ekstensi DrawingML Charts API <sup>24.2 / 24.3</sup>
 
 **DrawingML Charts API** terus diperluas.
 
@@ -37,18 +39,25 @@ Kemampuan untuk menentukan [SvgSaveOptions](https://reference.aspose.com/words/p
 
 Kemampuan untuk mempertahankan baris kosong saat memuat file Markdown telah ditambahkan.
 
+#### Pembaca/Pemutar TIFF Baru <sup>24.3</sup>
+
+Pembaca/pemutar TIFF baru telah dikembangkan untuk Aspose.Words. Aspose.Words untuk .NET 24.3 menambahkan dukungan untuk membaca gambar TIFF dengan tipe kompresi JPEG dan Old JPEG, dan juga secara signifikan meningkatkan kualitas operasi baca dan tulis.
+
 ### Lainnya
 
 * Kemampuan untuk memodifikasi teks kontrol `TextBox` OLE telah diperkenalkan dengan menambahkan properti **Text** baru ke kelas **TextBoxControl** baru. <sup>24.1</sup>
-* API publik Sumber Bibliografi diimplementasikan melalui penambahan namespace **Aspose.Words.Bibliography** baru dengan kelas dan enumerasi baru, dan melalui penambahan properti **Bibliography** baru ke kelas **Document**. <sup>24.1</sup>
+* API publik Sumber Bibliografi diimplementasikan melalui penambahan namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) baru dengan kelas dan enumerasi baru, dan melalui penambahan properti [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) baru ke kelas [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). <sup>24.1</sup>
 * Properti publik baru [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), dan [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) untuk manajemen gaya yang ditingkatkan telah ditambahkan ke kelas [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
-* Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) dan metode [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default. <sup>24.2</sup>
+* Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) dan metode [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
+* Emulasi operasi raster biner untuk metafile WMF telah diimplementasikan. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
 {{% /alert %}}
 

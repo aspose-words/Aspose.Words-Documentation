@@ -11,19 +11,21 @@ url: /vi/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho Python via .NET 24.1, 24.2
+## Aspose.Words cho Python via .NET 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý màu nét, nâng cao các đối tượng OLE, cũng như giới thiệu API công khai Nguồn thư mục mới.
 
 Aspose.Words 24.2 đã mở rộng API Biểu đồ, quản lý kiểu và các tùy chọn LINQ. Phiên bản Aspose.Words này cũng giới thiệu khả năng chỉ định SvgSaveOptions trong quá trình kết xuất, kiểm soát tải tệp Markdown linh hoạt hơn và làm việc với văn bản tham chiếu cho chú thích cuối trang và chú thích cuối.
 
+Aspose.Words 24.3 giới thiệu một công cụ đọc / ghi TIFF mới và mô phỏng các hoạt động raster nhị phân cho các tệp meta WMF. Aspose.Words 24.3 cũng tiếp tục mở rộng API Biểu đồ.
+
 ### Kết xuất và in ấn
 
 #### Kiểm soát màu nét <sup>24.1</sup>
 
-Lớp [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) đã được mở rộng với một tập hợp các thuộc tính công khai mới liên quan đến việc quản lý màu nét: **ForeThemeColor** và **BackThemeColor**, **ForeTintAndShade** và **BackTintAndShade**.
+Lớp [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) đã được mở rộng với một tập hợp các thuộc tính công khai mới liên quan đến việc quản lý màu nét: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) và [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) và [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### hần mở rộng API biểu đồ DrawML <sup>24.2</sup>
+#### hần mở rộng API biểu đồ DrawML <sup>24.2 / 24.3</sup>
 
 API biểu đồ DrawML tiếp tục được mở rộng.
 
@@ -37,18 +39,25 @@ Khả năng chỉ định [SvgSaveOptions](https://reference.aspose.com/words/py
 
 Khả năng giữ lại các dòng trống khi tải tệp Markdown đã được thêm vào.
 
+#### Một công cụ đọc / ghi TIFF mới  <sup>24.3</sup>
+
+Công cụ đọc/ghi TIFF mới đã được phát triển cho Aspose.Words. Aspose.Words cho .NET 24.3 đã thêm hỗ trợ cho việc đọc hình ảnh TIFF với các loại nén JPEG và Old JPEG, và cũng cải thiện đáng kể chất lượng của các hoạt động đọc và ghi.
+
 ### Khác
 
 * Khả năng sửa đổi văn bản của điều khiển `TextBox` OLE đã được giới thiệu bằng cách thêm thuộc tính **Text** mới vào lớp **TextBoxControl** mới. <sup>24.1</sup>
 * API công khai của Nguồn thư mục được triển khai thông qua việc thêm một không gian tên mới [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) với các lớp và bảng liệt kê mới của nó, đồng thời thông qua việc thêm một thuộc tính [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) mới vào lớp [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). <sup>24.1</sup>
 * Các thuộc tính công khai mới [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) và [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) để quản lý kiểu nâng cao đã được thêm vào lớp [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
 * Chức năng truy xuất văn bản dấu tham chiếu thực tế cho chú thích cuối trang và chú thích cuối đã được cải tiến với thuộc tính [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) và phương thức [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
+* Mô phỏng các hoạt động raster nhị phân cho các tệp meta WMF đã được triển khai. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
 {{% /alert %}}
 

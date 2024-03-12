@@ -11,11 +11,13 @@ url: /ko/net/what-s-new-in-aspose-words-for-net/
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새 Aspose.Words 기능을 설명합니다.
 
-## .NET 24.1, 24.2 용 Aspose.Words
+## .NET 24.1, 24.2, 24.3 용 Aspose.Words
 
 Aspose.Words 24.1은 획 색상 관리 환경을 개선하고, OLE 개체 및 LINQ 보고 기능을 향상시키며, 새로운 참고문헌 소스 공개 API를 도입합니다.
 
 Aspose.Words 24.2는 차트 API, 스타일 관리 및 LINQ 옵션을 확장했습니다. 이 버전의 Aspose.Words에서는 렌더링 중에 SvgSaveOptions를 지정할 수 있는 기능을 도입했으며, Markdown 파일을 더 유연하게 로드하고 각주 및 끝맺음을 위한 참조 텍스트 작업도 가능합니다.
+
+Aspose.Words 24.3은 새로운 TIFF 리더/라이터와 WMF 메타파일의 이진 래스터 작업 에뮬레이션을 소개합니다. Aspose.Words 24.3은 또한 Charts API를 계속 확장하고 있습니다.
 
 ### 렌더링 및 인쇄
 
@@ -23,7 +25,7 @@ Aspose.Words 24.2는 차트 API, 스타일 관리 및 LINQ 옵션을 확장했�
 
 [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) 클래스는 획 색상 관리와 관련된 새로운 공용 속성 세트([ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) 및 [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) 및 [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/))로 확장되었습니다.
 
-#### DrawingML Charts API 확장 <sup>24.2</sup>
+#### DrawingML Charts API 확장 <sup>24.2 / 24.3</sup>
 
 **DrawingML Charts API**가 계속 확장되고 있습니다.
 
@@ -37,6 +39,10 @@ Aspose.Words 24.2는 차트 API, 스타일 관리 및 LINQ 옵션을 확장했�
 
 Markdown 파일을 로드할 때 빈 줄을 유지하는 기능이 추가되었습니다.
 
+#### 새로운 TIFF 리더/라이터 <sup>24.3</sup>
+
+Aspose.Words for .NET Standard, .NET 6 및 이후 버전을 위한 새로운 TIFF 리더/라이터가 개발되었습니다. Aspose.Words for .NET 24.3은 JPEG 및 Old JPEG 압축 유형의 TIFF 이미지를 읽는 기능을 추가하고 읽기 및 쓰기 작업의 품질을 크게 향상시켰습니다.
+
 ### 다른
 
 * 새 [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) 클래스에 새 [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) 속성을 추가하여 `TextBox` OLE 컨트롤의 텍스트를 수정하는 기능이 도입되었습니다. <sup>24.1</sup>
@@ -45,10 +51,15 @@ Markdown 파일을 로드할 때 빈 줄을 유지하는 기능이 추가되었�
 * 증강된 스타일 관리를 위해 [Style](https://reference.aspose.com/words/net/aspose.words/style/) 클래스에 새로운 공용 속성 [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/)이 추가되었습니다. <sup>24.2</sup>
 * 각주 및 끝맺음에 대한 실제 참조 마크 텍스트를 검색하는 기능이 [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) 속성 및 [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) 메서드를 통해 향상되었습니다. <sup>24.2</sup>
 * `Word 2016` 차트와 `LINQ Reporting Engine` 의 호환성이 활성화되었습니다. <sup>24.2</sup>
+* WMF 메타파일에 대한 이진 래스터 작업의 에뮬레이션이 구현되었습니다. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 [.NET 24.1용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/)에 대해 자세히 알아보세요.
+
+[.NET 24.2용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/)에 대해 자세히 알아보세요.
+
+[.NET 24.3용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 
