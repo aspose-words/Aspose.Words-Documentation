@@ -11,11 +11,13 @@ url: /pt/net/what-s-new-in-aspose-words-for-net/
 
 Esta página descreve os novos recursos Aspose.Words mais interessantes introduzidos em versões recentes.
 
-## Aspose.Words para .NET 24.1, 24.2
+## Aspose.Words para .NET 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 melhora a experiência de gerenciamento de cores de traços, aprimora objetos OLE e relatórios LINQ, além de introduzir um novo API público de fontes bibliográficas.
 
 Aspose.Words 24.2 expandiu a API de gráficos, gerenciamento de estilo e opções de LINQ. Esta versão do Aspose.Words também introduziu a capacidade de especificar SvgSaveOptions durante a renderização, controlar de forma mais flexível o carregamento de arquivos Markdown e trabalhar com texto de referência para notas de rodapé e notas finais.
+
+O Aspose.Words 24.3 introduz um novo leitor/escritor TIFF e emulação de operações de raster binário para metaficheiros WMF. O Aspose.Words 24.3 continua a expandir a API de gráficos.
 
 ### Renderização e Impressão
 
@@ -23,7 +25,7 @@ Aspose.Words 24.2 expandiu a API de gráficos, gerenciamento de estilo e opçõe
 
 A classe [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) foi estendida com um conjunto de novas propriedades públicas relacionadas ao gerenciamento de cores de traços: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) e [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) e [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### Extensão da API de gráficos DrawingML <sup>24.2</sup>
+#### Extensão da API de gráficos DrawingML <sup>24.2 / 24.3</sup>
 
 A **DrawingML Charts API** continua a ser expandida.
 
@@ -37,6 +39,10 @@ A capacidade de especificar [SvgSaveOptions](https://reference.aspose.com/words/
 
 Foi adicionada a capacidade de preservar linhas vazias ao carregar arquivos Markdown.
 
+#### Um Novo Leitor/Escritor TIFF <sup>24.3</sup>
+
+Foi desenvolvido um novo leitor/escritor TIFF para o Aspose.Words para .NET Standard, .NET 6 e versões posteriores. O Aspose.Words para .NET 24.3 adicionou suporte para a leitura de imagens TIFF com tipos de compressão JPEG e Old JPEG, e também melhorou significativamente a qualidade das operações de leitura e escrita.
+
 ### Outro
 
 * A capacidade de modificar o texto do controle `TextBox` OLE foi introduzida adicionando uma nova propriedade [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) à nova classe [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
@@ -45,12 +51,15 @@ Foi adicionada a capacidade de preservar linhas vazias ao carregar arquivos Mark
 * Novas propriedades públicas [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) e [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) para gerenciamento aprimorado de estilo foram adicionadas à classe [Style](https://reference.aspose.com/words/net/aspose.words/style/). <sup>24.2</sup>
 - A funcionalidade para recuperar o texto real da marca de referência para notas de rodapé e notas finais foi aprimorada com a propriedade [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) e o método [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 - A compatibilidade com gráficos do `Word 2016` para o `LINQ Reporting Engine` foi habilitada. <sup>24.2</sup>
+- A emulação de operações de raster binário para metaficheiros WMF foi implementada. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 Saiba mais sobre [Notas de versão do Aspose.Words para .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
 Saiba mais sobre [Notas de versão do Aspose.Words para .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
+
+Saiba mais sobre [Notas de versão do Aspose.Words para .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
 {{% /alert %}}
 

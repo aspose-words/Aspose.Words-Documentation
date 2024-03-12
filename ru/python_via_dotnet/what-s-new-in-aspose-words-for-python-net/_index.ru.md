@@ -11,19 +11,21 @@ url: /ru/python-net/what-s-new-in-aspose-words-for-python-net/
 
 На этой странице описаны наиболее интересные новые функции Aspose.Words, представленные в последних выпусках.
 
-## Aspose.Words для Python via .NET 24.1, 24.2
+## Aspose.Words для Python via .NET 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 улучшает управление цветами штрихов, совершенствует объекты OLE, а также представляет новый общедоступный API "Источники библиографии".
 
 Aspose.Words версии 24.2 расширен Charts API и управление стилями. В этой версии Aspose.Words также появилась возможность указывать SvgSaveOptions во время рендеринга, более гибко управлять загрузкой файлов Markdown и работать со ссылочным текстом для сносок и концевых сносок.
 
+Aspose.Words 24.3 представляет новый TIFF Reader/Writer и эмуляцию двоичных растровых операций для WMF метафайлов. Aspose.Words 24.3 также продолжает расширять API диаграмм.
+
 ### Рендеринг и печать
 
 #### Управление цветом обводки <sup>24.1</sup>
 
-Класс [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) был расширен набором новых общедоступных свойств, связанных с управлением цветами обводки: **ForeThemeColor** и **BackThemeColor**, **ForeTintAndShade** и **BackTintAndShade**.
+Класс [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) был расширен набором новых общедоступных свойств, связанных с управлением цветами обводки: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) и [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) и [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### Расширение DrawingML Charts API <sup>24.2</sup>
+#### Расширение DrawingML Charts API <sup>24.2 / 24.3</sup>
 
 **DrawingML Charts API** продолжает расширяться.
 
@@ -37,18 +39,25 @@ Aspose.Words версии 24.2 расширен Charts API и управлени
 
 Добавлена возможность сохранять пустые строки при загрузке файлов Markdown.
 
-### Другой
+#### Новый TIFF Reader/Writer <sup>24.3</sup>
+
+Был разработан новый TIFF Reader/Writer для Aspose.Words. Aspose.Words для .NET 24.3 добавил поддержку чтения изображений TIFF с типами сжатия JPEG и Old JPEG, а также значительно улучшил качество операций чтения и записи.
+
+### Другое
 
 * Возможность изменять текст элемента управления `TextBox` OLE появилась путем добавления нового свойства **Text** в новый класс **TextBoxControl**. <sup>24.1</sup>
 * Открытый API-файл "Источники библиографии" был реализован путем добавления нового пространства имен **Aspose.Words.Bibliography** с его новыми классами и перечислениями, а также путем добавления нового свойства **Bibliography** в класс **Document**. <sup>24.1</sup>
 * В класс [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) добавлены новые общедоступные свойства [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) и [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) для расширенного управления стилями. <sup>24.2</sup>
 * Функциональность получения фактического текста справочной метки для сносок и концевых сносок была расширена за счет свойства [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) и метода [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
+* Реализована эмуляция двоичных растровых операций для WMF метафайлов. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 Узнайте больше о [Aspose.Words для Python via .NET 24.1. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
 
 Узнайте больше о [Aspose.Words для Python via .NET 24.2. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
+
+Узнайте больше о [Aspose.Words для Python via .NET 24.3. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
 {{% /alert %}}
 

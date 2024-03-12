@@ -11,19 +11,21 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words لـ Python via .NET 24.1, 24.2
+## Aspose.Words لـ Python via .NET 24.1, 24.2, 24.3
 
 يعمل Aspose.Words 24.1 على تحسين تجربة إدارة ألوان الحدود، ويعزز كائنات OLE، بالإضافة إلى تقديم مصادر المراجع الببليوغرافية الجديدة API العامة.
 
 Aspose.Words 24.2 واجهة برمجة تطبيقات الرسوم البيانية الموسعة وإدارة الأنماط . يقدم هذا الإصدار من Aspose.Words أيضًا إمكانية تحديد SvgSaveOptions أثناء العرض، وتحكم أكثر مرونة في تحميل ملفات Markdown، والعمل مع النص المرجعي للحواشي السفلية والتعليقات الختامية.
 
+Aspose.Words 24.3 يقدم قارئ / كاتب TIFF جديد ومحاكاة لعمليات الصور النقطية الثنائية لملفات WMF. يواصل Aspose.Words 24.3 أيضًا توسيع واجهة برمجة التطبيقات للرسوم البيانية.
+
 ### التقديم والطباعة
 
 #### التحكم في لون السكتة الدماغية <sup>24.1</sup>
 
-تم توسيع فئة [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) بمجموعة من الخصائص العامة الجديدة المتعلقة بإدارة ألوان الحدود: **ForeThemeColor** و**BackThemeColor** و**ForeTintAndShade** و**BackTintAndShade**.
+تم توسيع فئة [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) بمجموعة من الخصائص العامة الجديدة المتعلقة بإدارة ألوان الحدود: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/)و [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/)و [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/)و [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### <sup>24.2</sup> DrawingML Charts API ملحق
+#### <sup>24.2 / 24.3</sup> DrawingML Charts API ملحق
 
 يستمر توسيع واجهة برمجة تطبيقات **DrawML Charts API**.
 
@@ -37,18 +39,25 @@ Aspose.Words 24.2 واجهة برمجة تطبيقات الرسوم البيان
 
 تمت إضافة القدرة على الحفاظ على الأسطر الفارغة عند تحميل ملفات Markdown.
 
+#### <sup>24.3</sup> قارئ / كاتب TIFF جديد 
+
+تم تطوير قارئ / كاتب TIFF جديد لـ Aspose.Words. أضاف Aspose.Words for .NET 24.3 دعمًا لقراءة صور TIFF بأنواع ضغط JPEG و Old JPEG ، وكما تم تحسين جودة عمليات القراءة والكتابة بشكل كبير.
+
 ### آخر
 
 * تم تقديم القدرة على تعديل نص عنصر تحكم `TextBox` OLE عن طريق إضافة خاصية **Text** جديدة إلى فئة **TextBoxControl** الجديدة. <sup>24.1</sup>
-* تم تنفيذ API العام لمصادر المراجع من خلال إضافة مساحة اسم جديدة **Aspose.Words.Bibliography** مع فئاتها وتعداداتها الجديدة، ومن خلال إضافة خاصية **Bibliography** جديدة إلى فئة **Document**. <sup>24.1</sup>
+* تم تنفيذ API العام لمصادر المراجع من خلال إضافة مساحة اسم جديدة [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) مع فئاتها وتعداداتها الجديدة، ومن خلال إضافة خاصية [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) جديدة إلى فئة [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). <sup>24.1</sup>
 * تمت إضافة الخصائص العامة الجديدة [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/)، [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/)، و [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/)  لإدارة النمط المحسنة إلى فئة [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
 * تم تحسين وظيفة استرداد نص العلامة المرجعية الفعلي للحواشي السفلية والتعليقات الختامية باستخدام خاصية [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) وأسلوب [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
+* تم تنفيذ محاكاة لعمليات الصور النقطية الثنائية لملفات WMF. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 24.1](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
 
 {{% /alert %}}
 

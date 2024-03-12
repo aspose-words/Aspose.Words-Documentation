@@ -11,11 +11,13 @@ url: /fa/net/what-s-new-in-aspose-words-for-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای .NET 24.1, 24.2
+## Aspose.Words برای .NET 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 تجربه مدیریت رنگ‌های ضربه‌ای را بهبود می‌بخشد، اشیاء OLE و گزارش LINQ را بهبود می‌بخشد، و همچنین یک API عمومی منابع کتاب‌شناسی جدید را معرفی می‌کند.
 
 Aspose.Words 24.2 Charts API، مدیریت سبک و گزینه های LINQ را گسترش داد. این نسخه از Aspose.Words همچنین قابلیت تعیین SvgSaveOptions را در حین رندر، کنترل انعطاف‌پذیرتر بارگیری فایل‌های Markdown و کار با متن مرجع برای پاورقی‌ها و یادداشت‌های پایانی را معرفی کرد.
+
+Aspose.Words 24.3 یک خواننده/نویسنده TIFF جدید و شبیه‌سازی عملیات رستر دودویی برای فایل‌های meta WMF معرفی می‌کند. Aspose.Words 24.3 همچنین ادامه دادن به توسعه رابط برنامه‌نویسی نمودارها را داراست.
 
 ### رندر و چاپ
 
@@ -23,7 +25,7 @@ Aspose.Words 24.2 Charts API، مدیریت سبک و گزینه های LINQ ر�
 
 کلاس [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) با مجموعه ای از ویژگی های عمومی جدید مرتبط با مدیریت رنگ های ضربه ای گسترش یافته است: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) و [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/)، [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) و [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### افزونه DrawingML Charts API <sup>24.2</sup>
+#### افزونه DrawingML Charts API <sup>24.2 / 24.3</sup>
 
 **DrawingML Charts API** همچنان در حال گسترش است.
 
@@ -37,6 +39,10 @@ Aspose.Words 24.2 Charts API، مدیریت سبک و گزینه های LINQ ر�
 
 قابلیت حفظ خطوط خالی هنگام بارگذاری فایل های Markdown اضافه شده است.
 
+#### یک خواننده/نویسنده TIFF جدید <sup>24.3</sup>
+
+یک خواننده/نویسنده TIFF جدید برای Aspose.Words برای .NET Standard، .NET 6 و نسخه‌های بعدی توسعه داده شده است. Aspose.Words برای .NET 24.3 پشتیبانی از خواندن تصاویر TIFF با انواع فشرده‌سازی JPEG و Old JPEG را اضافه کرد و همچنین کیفیت عملیات خواندن و نوشتن را به طرز قابل توجهی بهبود بخشید.
+
 ### دیگر
 
 * قابلیت تغییر متن کنترل `TextBox` OLE با افزودن ویژگی [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) جدید به کلاس [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) جدید معرفی شده است. <sup>24.1</sup>
@@ -45,11 +51,15 @@ Aspose.Words 24.2 Charts API، مدیریت سبک و گزینه های LINQ ر�
 * ویژگی های عمومی جدید [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/)، [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) و [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) برای مدیریت سبک پیشرفته به کلاس [Style](https://reference.aspose.com/words/net/aspose.words/style/) اضافه شده است. <sup>24.2</sup>
 - قابلیت بازیابی متن علامت مرجع واقعی برای پاورقی ها و یادداشت های پایانی با ویژگی [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) و روش [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) بهبود یافته است. <sup>24.2</sup>
 - سازگاری با نمودارهای `Word 2016` برای `LINQ Reporting Engine` فعال شده است. <sup>24.2</sup>
+- شبیه‌سازی عملیات رستر دودویی برای فایل‌های meta WMF پیاده‌سازی شده است. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/) بیشتر بدانید.
+
 درباره [یادداشت‌های انتشار Aspose.Words برای .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) بیشتر بدانید.
+
+درباره [یادداشت‌های انتشار Aspose.Words برای .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

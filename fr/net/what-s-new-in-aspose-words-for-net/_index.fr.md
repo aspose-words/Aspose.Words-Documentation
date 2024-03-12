@@ -11,11 +11,13 @@ url: /fr/net/what-s-new-in-aspose-words-for-net/
 
 Cette page décrit les nouvelles fonctionnalités Aspose.Words les plus intéressantes introduites dans les versions récentes.
 
-## Aspose.Words pour .NET 24.1, 24.2
+## Aspose.Words pour .NET 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 améliore l'expérience de gestion des couleurs de trait, améliore les objets OLE et les rapports LINQ, et introduit un nouveau API public de sources bibliographiques.
 
 Aspose.Words 24.2 a étendu les options Charts API, de gestion des styles et LINQ. Cette version d'Aspose.Words a également introduit la possibilité de spécifier des SvgSaveOptions lors du rendu, un contrôle plus flexible du chargement des fichiers Markdown et l'utilisation du texte de référence pour les notes de bas de page et de fin.
+
+Aspose.Words 24.3 introduit un nouveau lecteur/écrivain TIFF et une émulation des opérations binaires raster pour les métafichiers WMF. Aspose.Words 24.3 continue également d'étendre l'API des graphiques.
 
 ### Rendu et impression
 
@@ -23,7 +25,7 @@ Aspose.Words 24.2 a étendu les options Charts API, de gestion des styles et LIN
 
 La classe [Stroke](https://reference.aspose.com/words/fr/net/aspose.words.drawing/stroke/) a été étendue avec un ensemble de nouvelles propriétés publiques liées à la gestion des couleurs de trait: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) et [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) et [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### DrawingML Charts API Extension <sup>24.2</sup>
+#### DrawingML Charts API Extension <sup>24.2 / 24.3</sup>
 
 Le **DrawingML Charts API** continue de s’étoffer.
 
@@ -37,6 +39,10 @@ La possibilité de spécifier des [SvgSaveOptions](https://reference.aspose.com/
 
 La possibilité de conserver les lignes vides lors du chargement des fichiers Markdown a été ajoutée.
 
+#### Un nouveau lecteur/écrivain TIFF <sup>24.3</sup>
+
+Un nouveau lecteur/écrivain TIFF a été développé pour Aspose.Words pour .NET Standard, .NET 6 et les versions ultérieures. Aspose.Words for .NET 24.3 prend en charge la lecture des images TIFF avec les types de compression JPEG et Old JPEG, et améliore également significativement la qualité des opérations de lecture et d'écriture.
+
 ### Autre
 
 * La possibilité de modifier le texte du contrôle OLE `TextBox` a été introduite en ajoutant une nouvelle propriété [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) à la nouvelle classe [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
@@ -45,12 +51,15 @@ La possibilité de conserver les lignes vides lors du chargement des fichiers Ma
 * De nouvelles propriétés publiques [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/) et [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) pour une gestion améliorée des styles ont été ajoutées à la classe [Style](https://reference.aspose.com/words/fr/net/aspose.words/style/). <sup>24.2</sup>
 - La fonctionnalité permettant de récupérer le texte réel de la marque de référence pour les notes de bas de page et les notes de fin a été améliorée avec la propriété [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) et la méthode [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 - La compatibilité avec les graphiques `Word 2016` pour le `LINQ Reporting Engine` a été activée. <sup>24.2</sup>
+- L'émulation des opérations binaires raster pour les métafichiers WMF a été implémentée. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 En savoir plus sur [Notes de version Aspose.Words pour .NET 24.1](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-1-release-notes/).
 
 En savoir plus sur [Notes de version Aspose.Words pour .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
+
+En savoir plus sur [Notes de version Aspose.Words pour .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
 
 {{% /alert %}}
 
@@ -88,7 +97,7 @@ Un moyen simple d'ajuster et d'ajuster automatiquement une image dans une forme 
 
 #### Formatage de police par défaut pour les entrées de légende de graphique DrawingML <sup>23.11</sup>
 
-La possibilité de spécifier le formatage de police par défaut pour les entrées de légende des graphiques DrawingML a été ajoutée via la propriété [Font](https://reference.aspose.com/words/fr/net/aspose.words.drawing.charts/chartlegend/font/). Cette fonctionnalité facilite une apparence plus rationalisée et cohérente des éléments du graphique, améliorant ainsi l’esthétique globale du document.
+La possibilité de spécifier le formatage de police par défaut pour les entrées de légende des graphiques DrawingML a été ajoutée via la propriété [Font](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartlegend/font/). Cette fonctionnalité facilite une apparence plus rationalisée et cohérente des éléments du graphique, améliorant ainsi l’esthétique globale du document.
 
 #### Spécifier la mise en page lors de l'ouverture d'un PDF dans Reader <sup>23.12</sup>
 

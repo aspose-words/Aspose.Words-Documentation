@@ -11,19 +11,21 @@ url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
-## Python via .NET 24.1 用の Aspose.Words
+## Python via .NET 24.1、24.2、24.3 用の Aspose.Words
 
 Aspose.Words 24.1 では、ストローク カラーの管理に関するエクスペリエンスが向上し、OLE オブジェクトが強化され、さらに新しい参考文献ソースのパブリック API が導入されています。
 
 Aspose.Words 24.2 では、Charts API とスタイル管理が拡張されました。 Aspose.Words のこのバージョンでは、レンダリング中に SvgSaveOptions を指定する機能、Markdown ファイルの読み込みをより柔軟に制御する機能、および脚注と文末脚注の参照テキストを操作する機能も導入されました。
 
+Aspose.Words 24.3は、新しいTIFFリーダー/ライターとWMFメタファイルのバイナリラスター操作のエミュレーションを導入します。 Aspose.Words 24.3は、さらにCharts APIの拡張も続けています。
+
 ### レンダリングと印刷
 
 #### ストロークカラーコントロール<sup>24.1</sup>
 
-[Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) クラスは、ストローク カラーの管理に関連する一連の新しいパブリック プロパティ (**ForeThemeColor**、**BackThemeColor**、**ForeTintAndShade**、**BackTintAndShade**) で拡張されました。
+[Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) クラスは、ストローク カラーの管理に関連する一連の新しいパブリック プロパティ ([fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/)、[back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/)、[fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/)、[back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/)) で拡張されました。
 
-#### DrawingML チャート API 拡張機能 <sup>24.2</sup>
+#### DrawingML チャート API 拡張機能 <sup>24.2 / 24.3</sup>
 
 **DrawingML Charts API** は引き続き拡張されています。
 
@@ -37,19 +39,26 @@ Aspose.Words 24.2 では、Charts API とスタイル管理が拡張されまし
 
 Markdown ファイルをロードするときに空行を保持する機能が追加されました。
 
+#### 新しいTIFFリーダー/ライター <sup>24.3</sup>
+
+新しい TIFF リーダー/ライターが Aspose.Words 用に開発されました。Aspose.Words for .NET 24.3は、JPEGおよび古いJPEG圧縮タイプを持つTIFFイメージの読み取りをサポートし、読み取りおよび書き込み操作の品質を大幅に向上させました。
+
 ### 他の
 
 * `TextBox` OLE コントロールのテキストを変更する機能は、新しい **Text** プロパティを新しい **TextBoxControl** クラスに追加することによって導入されました。 <sup>24.1</sup>
-* 参考文献ソースのパブリック API は、新しいクラスと列挙を備えた新しい名前空間 **Aspose.Words.Bibliography** を追加し、**Document** クラスに新しい **Bibliography** プロパティを追加することによって実装されました。 <sup>24.1</sup>
+* 参考文献ソースのパブリック API は、新しいクラスと列挙を備えた新しい名前空間 [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) を追加し、[Document](https://reference.aspose.com/words/python-net/aspose.words/document/) クラスに新しい [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) プロパティを追加することによって実装されました。 <sup>24.1</sup>
 * スタイル管理を強化するための新しいパブリック プロパティ [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/)、[unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/)および [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) が [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) クラスに追加されました。 <sup>24.2</sup>
 
 - 脚注と文末脚注の実際の参照マーク テキストを取得する機能が、[actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) プロパティと [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) メソッドによって強化されました。 <sup>24.2</sup>
+- WMFメタファイルのバイナリラスター操作のエミュレーションが実装されました。 <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 [Aspose.Words for Python via .NET 24.1 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for Python via .NET 24.2 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.3 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 
