@@ -11,11 +11,13 @@ url: /cpp/what-s-new-in-aspose-words-for-cpp/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for C++ 24.1, 24.2
+## Aspose.Words for C++ 24.1, 24.2, 24.3
 
 Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects, as well as introduces a new Bibliography Sources public API.
 
 Aspose.Words 24.2 expanded Charts API and style management. This version of Aspose.Words also introduced the capability to specify SvgSaveOptions during rendering, more flexible control loading Markdown files, and working with reference text for footnotes and endnotes.
+
+Aspose.Words 24.3 introduces Emulation of binary raster operations for WMF metafiles and also continues to expand the Charts API.
 
 ### Rendering and Printing
 
@@ -23,7 +25,7 @@ Aspose.Words 24.2 expanded Charts API and style management. This version of Aspo
 
 The [Stroke](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: [ForeThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_forethemecolor/) and [BackThemeColor](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_foretintandshade/) and [BackTintAndShade](https://reference.aspose.com/words/cpp/aspose.words.drawing/stroke/get_backtintandshade/).
 
-#### DrawingML Charts API Extension <sup>24.2</sup>
+#### DrawingML Charts API Extension <sup>24.2 / 24.3</sup>
 
 The **DrawingML Charts API** continues to be expanded.
 
@@ -43,12 +45,15 @@ The ability to preserve empty lines when loading Markdown files has been added.
 - The Bibliography Sources public API was implemented through the adding a new namespace [Aspose.Words.Bibliography](https://reference.aspose.com/words/cpp/aspose.words.bibliography/) with its new classes and enumerations, and through the adding a new [Bibliography](https://reference.aspose.com/words/cpp/aspose.words/document/get_bibliography/) property to the [Document](https://reference.aspose.com/words/cpp/aspose.words/document/) class. <sup>24.1</sup>
 - New public properties **Priority**, **UnhideWhenUsed**, and **SemiHidden** for enhanced style management have been added to the [Style](https://reference.aspose.com/words/cpp/aspose.words/style/) class. <sup>24.2</sup>
 - The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the **ActualReferenceMark** property and the **UpdateActualReferenceMarks** method. <sup>24.2</sup>
+- Emulation of binary raster operations for WMF metafiles has been implemented. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
 
 Learn more about [Aspose.Words for C++ 24.1 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-1-release-notes/).
 
 Learn more about [Aspose.Words for C++ 24.2 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-2-release-notes/).
+
+Learn more about [Aspose.Words for C++ 24.3 Release Notes](https://releases.aspose.com/words/cpp/release-notes/2024/aspose-words-for-cpp-24-3-release-notes/).
 
 {{% /alert %}}
 
