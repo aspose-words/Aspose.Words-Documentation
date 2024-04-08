@@ -11,7 +11,7 @@ url: /vi/net/what-s-new-in-aspose-words-for-net/
 
 Trang này mô tả các tính năng Aspose.Words mới thú vị nhất được giới thiệu trong các bản phát hành gần đây.
 
-## Aspose.Words cho .NET 24.1, 24.2, 24.3
+## Aspose.Words cho .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 cải thiện trải nghiệm xung quanh việc quản lý màu nét, nâng cao các đối tượng OLE và báo cáo LINQ, cũng như giới thiệu API công khai Nguồn thư mục mới.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 đã mở rộng API Biểu đồ, quản lý kiểu và các 
 
 Aspose.Words 24.3 giới thiệu một công cụ đọc / ghi TIFF mới và mô phỏng các hoạt động raster nhị phân cho các tệp meta WMF. Aspose.Words 24.3 cũng tiếp tục mở rộng API Biểu đồ.
 
+Aspose.Words 24.4 cải tiến việc lưu các định dạng, một số tùy chọn hiển thị, cũng như cải thiện công việc với các chữ ký số.
+
+### Định dạng được hỗ trợ <sup>24.4</sup>
+
+Định dạng hình ảnh **WebP** hiện đại hiện được hỗ trợ trong Aspose.Words cho .NET Framework 4.6.2 và cao hơn. Bây giờ bạn có thể đọc và chèn hình ảnh WebP vào tài liệu, cũng như lưu hình ảnh dưới định dạng WebP.
+
+Xin lưu ý rằng WebP hiện chỉ có sẵn trong .NET Standard và .NET Framework v4.6.2 và cao hơn.
+
 ### Kết xuất và in ấn
 
 #### Kiểm soát màu nét <sup>24.1</sup>
 
 Lớp [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) đã được mở rộng với một tập hợp các thuộc tính công khai mới liên quan đến việc quản lý màu nét: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) và [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) và [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### hần mở rộng API biểu đồ DrawML <sup>24.2 / 24.3</sup>
+#### hần mở rộng API biểu đồ DrawML <sup>24.2 / 24.3 / 24.4</sup>
 
 API biểu đồ DrawML tiếp tục được mở rộng.
+
+#### Nhúng các phông chữ được khai báo trong các quy tắc @font-face <sup>24.4</sup>
+
+Thêm khả năng nhúng các phông chữ được khai báo trong các quy tắc @font-face vào các định nghĩa phông chữ của tài liệu kết quả đã được giới thiệu bằng cách thêm một thuộc tính mới có tên [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/).
+
+#### Làm việc với định dạng sáng và phản chiếu <sup>24.4</sup>
+
+Khả năng làm việc với định dạng sáng và phản chiếu cho một đối tượng vẽ đã được triển khai.
 
 ### Tải và lưu tài liệu
 
@@ -52,6 +68,7 @@ Một công cụ đọc / ghi TIFF mới đã được phát triển cho Aspose.
 * Chức năng truy xuất văn bản dấu tham chiếu thực tế cho chú thích cuối trang và chú thích cuối đã được cải tiến với thuộc tính [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) và phương thức [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 * Đã bật khả năng tương thích với biểu đồ `Word 2016` cho `LINQ Reporting Engine`. <sup>24.2</sup>
 * Mô phỏng các hoạt động raster nhị phân cho các tệp meta WMF đã được triển khai. <sup>24.3</sup>
+* Đã kích hoạt khả năng xác định các tùy chọn chữ ký cho tài liệu trong SaveOptions bằng cách thêm một lớp mới có tên [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) với các thành viên công khai mới, cũng như thêm các thuộc tính mới vào các lớp [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) và [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +77,8 @@ Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.1](https:/
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
 Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
+
+Tìm hiểu thêm về [Ghi chú phát hành Aspose.Words cho .NET 24.4](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 

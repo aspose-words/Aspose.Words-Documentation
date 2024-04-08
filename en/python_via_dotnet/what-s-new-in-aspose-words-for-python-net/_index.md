@@ -11,7 +11,7 @@ url: /python-net/what-s-new-in-aspose-words-for-python-net/
 
 This page describes the most interesting new Aspose.Words features introduced in recent releases.
 
-## Aspose.Words for Python via .NET 24.1, 24.2, 24.3
+## Aspose.Words for Python via .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 improves the experience around managing stroke colors, enhances OLE objects, as well as introduces a new `Bibliography Sources` public API.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 expanded Charts API and style management. This version of Aspo
 
 Aspose.Words 24.3 introduces a new TIFF Reader/Writer and Emulation of binary raster operations for WMF metafiles. Aspose.Words 24.3 also continues to expand the Charts API.
 
+Aspose.Words 24.4 enhances saving formats, some rendering options, as well as improves work with digital signatures.
+
+### Supported Formats <sup>24.4</sup>
+
+The modern **WebP** image format is now supported in Aspose.Words for .NET Framework 4.6.2 and higher. You can now read and insert WebP images into documents, as well as save images in WebP format.
+
+Please note that WebP is currently only available in .NET Standard and .NET Framework v4.6.2 and above.
+
 ### Rendering and Printing
 
 #### Stroke Color Control <sup>24.1</sup>
 
 The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) class has been extended with a set of new public properties related to managing stroke colors: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) and [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) and [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### DrawingML Charts API Extension <sup>24.2 / 24.3</sup>
+#### DrawingML Charts API Extension <sup>24.2 / 24.3 / 24.4</sup>
 
 The **DrawingML Charts API** continues to be expanded.
+
+#### Embed Fonts Declared in @font-face Rules <sup>24.4</sup>
+
+Added an ability to embed fonts declared in @font-face rules into the resulting document’s font definitions has been introduced by adding a new [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/) property.
+
+#### Work with Glow and Reflection Formatting <sup>24.4</sup>
+
+The ability to work with glow and reflection formatting for a drawing object has been implemented.
 
 ### Loading and Saving Documents
 
@@ -50,6 +66,7 @@ A new TIFF reader/writer for Aspose.Words has been developed. Aspose.Words for .
 * New public properties [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), and [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) for enhanced style management have been added to the [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) class. <sup>24.2</sup>
 * The functionality to retrieve the actual reference mark text for footnotes and endnotes has been enhanced with the [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) property and the [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) method. <sup>24.2</sup>
 * Emulation of binary raster operations for WMF metafiles has been implemented. <sup>24.3</sup>
+* The capability to define signature options for documents within **SaveOptions** has been enabled by adding a new [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) class with new public members, as well as adding new properties to the [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) and [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) classes. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -58,6 +75,8 @@ Learn more about [Aspose.Words for Python via .NET 24.1 Release Notes](https://r
 Learn more about [Aspose.Words for Python via .NET 24.2 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 Learn more about [Aspose.Words for Python via .NET 24.3 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
+
+Learn more about [Aspose.Words for Python via .NET 24.4 Release Notes](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
 
 {{% /alert %}}
 

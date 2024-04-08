@@ -11,7 +11,7 @@ url: /zh/python-net/what-s-new-in-aspose-words-for-python-net/
 
 本页描述了最近版本中引入的最有趣的新 Aspose.Words 功能。
 
-## Python via .NET 24.1、24.2、24.3 的 Aspose.Words
+## Python via .NET 24.1、24.2、24.3、24.4 的 Aspose.Words
 
 Aspose.Words 24.1 改进了管理描边颜色的体验，增强了 OLE 对象，并引入了新的书目源公共 API。
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 扩展了图表 API 和样式管理。 此版本的 Aspose.Wor
 
 Aspose.Words 24.3 引入了一个新的TIFF读写器和对WMF元文件的二进制光栅操作模拟。Aspose.Words 24.3 还继续扩展图表API。
 
+Aspose.Words 24.4 增加了保存格式、某些渲染选项的功能，以及改进了与数字签名的处理。
+
+### 支持的格式 <sup>24.4</sup>
+
+现代**WebP**图像格式现已在Aspose.Words .NET Framework 4.6.2及更高版本中得到支持。您现在可以读取和插入WebP图像到文档中，并将图像保存为WebP格式。 
+
+请注意，目前WebP仅在.NET Standard和.NET Framework v4.6.2及以上版本中可用。
+
 ### 渲染和打印
 
 #### 描边颜色控制<sup>24.1</sup>
 
 [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) 类已扩展为一组与管理描边颜色相关的新公共属性：[fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) 和 [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/)、[fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) 和 [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/)。
 
-#### DrawingML图表API扩展 <sup>24.2 / 24.3</sup>
+#### DrawingML图表API扩展 <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** 不断扩展。
+
+#### 嵌入在@font-face规则中声明的字体 <sup>24.4</sup>
+
+通过添加名为[support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/)的新属性，现在可以将在@font-face规则中声明的字体嵌入到生成的文档的字体定义中。
+
+#### 处理发光与反射格式 <sup>24.4</sup>
+
+实现了处理图形对象的发光与反射格式的功能。
 
 ### 加载和保存文档
 
@@ -50,6 +66,7 @@ Aspose.Words 24.3 引入了一个新的TIFF读写器和对WMF元文件的二进�
 * 用于增强样式管理的新公共属性 [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/)、[unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) 和 [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) 已添加到 [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) 类中。 <sup>24.2</sup>
 * 通过 [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) 属性和 [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) 方法增强了检索脚注和尾注实际引用标记文本的功能。 <sup>24.2</sup>
 * 对WMF元文件的二进制光栅操作模拟已实现。 <sup>24.3</sup>
+* 通过添加名为[DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/)的新类，并为[OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words/style/priority/)、[DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/)和[OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/)类添加新属性，启用了在SaveOptions中为文档定义签名选项的功能。 <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -58,6 +75,8 @@ Aspose.Words 24.3 引入了一个新的TIFF读写器和对WMF元文件的二进�
 了解有关 [Aspose.Words for Python via .NET 24.2 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) 的更多信息。
 
 了解有关 [Aspose.Words for Python via .NET 24.3 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/) 的更多信息。
+
+了解有关 [Aspose.Words for Python via .NET 24.4 发行说明](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/) 的更多信息。
 
 {{% /alert %}}
 

@@ -11,7 +11,7 @@ url: /tr/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## Python via .NET 24.1, 24.2, 24.3 için Aspose.Words
+## Python via .NET 24.1, 24.2, 24.3, 24.4 için Aspose.Words
 
 Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 genişletilmiş Charts API'si ve stil yönetimi. Aspose.Words'
 
 Aspose.Words 24.3, yeni bir TIFF Okuyucu/Yazıcı ve WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesini tanıtıyor. Aspose.Words 24.3 ayrıca Grafikler API'sını genişletmeye devam ediyor.
 
+Aspose.Words 24.4, formatları kaydetme, bazı işleme seçeneklerini ve dijital imzalarla çalışmayı iyileştirir.
+
+### Desteklenen Formatlar <sup>24.1</sup>
+
+Modern **WebP** görüntü formatı, Aspose.Words için .NET Framework 4.6.2 ve üzerinde desteklenmektedir. Artık WebP görüntülerini belgelere okuyabilir, yerleştirebilir ve WebP formatında kaydedebilirsiniz.
+
+WebP'nin şu anda yalnızca .NET Standard ve .NET Framework v4.6.2 ve üzerinde mevcut olduğunu lütfen unutmayın.
+
 ### İşleme ve Yazdırma
 
 #### Kontur Renk Kontrolü <sup>24.1</sup>
 
 [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) ve [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) ve [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### DrawingML Charts API Uzantısı <sup>24.2 / 24.3</sup>
+#### DrawingML Charts API Uzantısı <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** genişletilmeye devam ediyor.
+
+#### @font-face Kurallarında Belirtilen Fontları Gömme <sup>24.1</sup>
+
+Sonuç belgesinin yazı tipi tanımları içine @font-face kurallarında belirtilen fontları gömmek için yeni bir [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/) özelliği ekleyerek yeni bir yetenek eklendi.
+
+#### Parlama ve Yansıma Biçimlendirme ile Çalışma <sup>24.1</sup>
+
+Çizim nesnesi için parlama ve yansıma biçimlendirmesiyle çalışma yeteneği uygulandı.
 
 ### Belgeleri Yükleme ve Kaydetme
 
@@ -50,6 +66,7 @@ Aspose.Words için yeni bir TIFF okuyucu/yazıcı geliştirildi. Aspose.Words 24
 * Gelişmiş stil yönetimi için yeni genel özellikler [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) ve [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/), [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) sınıfına eklendi. <sup>24.2</sup>
 * Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) özelliği ve [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
 * WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesi uygulandı. <sup>24.3</sup>
+* **SaveOptions** içindeki belgelere imza seçenekleri tanımlama yeteneği, yeni bir [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) sınıfı eklenerek ve [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) ve [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) sınıflarına yeni özellikler eklenerek etkinleştirildi. <sup>24.1</sup>
 
 {{% alert color="primary" %}}
 
@@ -58,6 +75,8 @@ Aspose.Words için yeni bir TIFF okuyucu/yazıcı geliştirildi. Aspose.Words 24
 [Python via .NET 24.2 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) hakkında daha fazla bilgi edinin.
 
 [Python via .NET 24.3 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/) hakkında daha fazla bilgi edinin.
+
+[Python via .NET 24.4 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 

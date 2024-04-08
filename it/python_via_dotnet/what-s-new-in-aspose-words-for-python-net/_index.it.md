@@ -11,7 +11,7 @@ url: /it/python-net/what-s-new-in-aspose-words-for-python-net/
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle versioni recenti.
 
-## Aspose.Words per Python via .NET 24.1, 24.2, 24.3
+## Aspose.Words per Python via .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 migliora l'esperienza relativa alla gestione dei colori dei tratti, migliora gli oggetti OLE e introduce un nuovo API pubblico delle origini bibliografiche.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 ha ampliato l'API dei grafici e la gestione degli stili. Quest
 
 Aspose.Words 24.3 introduce un nuovo lettore/scrittore TIFF e l'emulazione di operazioni raster binarie per i metafile WMF. Aspose.Words 24.3 continua anche ad espandere l'API dei grafici.
 
+Aspose.Words 24.4 migliora il salvataggio dei formati, alcune opzioni di rendering, nonché migliora il lavoro con le firme digitali.
+
+### Formati supportati <sup>24.4</sup>
+
+Il formato immagine **WebP** moderno è ora supportato in Aspose.Words per .NET Framework 4.6.2 e versioni successive. Ora è possibile leggere e inserire immagini WebP nei documenti, nonché salvare immagini nel formato WebP.
+
+Si prega di notare che attualmente WebP è disponibile solo in .NET Standard e .NET Framework v4.6.2 e versioni successive.
+
 ### Rendering e stampa
 
 #### Controllo colore tratto <sup>24.1</sup>
 
 La classe [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) è stata estesa con una serie di nuove proprietà pubbliche relative alla gestione dei colori del tratto: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) e [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) e [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### Estensione DrawingML Charts API <sup>24.2 / 24.3</sup>
+#### Estensione DrawingML Charts API <sup>24.2 / 24.3 / 24.4</sup>
 
 Dei **DrawingML Charts API** continua ad essere ampliata.
+
+#### Incorpora i font dichiarati nelle regole @font-face <sup>24.4</sup>
+
+È stata aggiunta la possibilità di incorporare i font dichiarati nelle regole @font-face nelle definizioni del font del documento risultante aggiungendo una nuova proprietà chiamata [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/).
+
+#### Lavora con la formattazione effetto glow e riflessione <sup>24.4</sup>
+
+È stata implementata la possibilità di lavorare con la formattazione effetto glow e riflessione per un oggetto di disegno.
 
 ### Caricamento e salvataggio di documenti
 
@@ -50,6 +66,7 @@ Dei **DrawingML Charts API** continua ad essere ampliata.
 * Alla classe [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) sono state aggiunte le nuove proprietà pubbliche [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) e [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) per una gestione migliorata dello stile. <sup>24.2</sup>
 * La funzionalità per recuperare il testo del segno di riferimento effettivo per le note a piè di pagina e le note di chiusura è stata migliorata con la proprietà [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) e il metodo [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
 * È stata implementata l'emulazione di operazioni raster binarie per i metafile WMF. <sup>24.3</sup>
+* È stata abilitata la possibilità di definire opzioni di firma per i documenti all'interno di SaveOptions aggiungendo una nuova classe chiamata [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) con nuovi membri pubblici, nonché aggiungendo nuove proprietà alle classi [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) e [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -58,6 +75,8 @@ Ulteriori informazioni su [Note sulla versione Aspose.Words per Python via .NET 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
+
+Ulteriori informazioni su [Note sulla versione Aspose.Words per Python via .NET 24.4](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
 
 {{% /alert %}}
 

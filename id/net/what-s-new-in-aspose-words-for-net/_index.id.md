@@ -11,7 +11,7 @@ url: /id/net/what-s-new-in-aspose-words-for-net/
 
 Halaman ini menjelaskan fitur-fitur Aspose.Words baru yang paling menarik yang diperkenalkan dalam rilis terbaru.
 
-## Aspose.Words untuk .NET 24.1, 24.2, 24.3
+## Aspose.Words untuk .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 meningkatkan pengalaman dalam mengelola warna guratan, menyempurnakan objek OLE dan pelaporan LINQ, serta memperkenalkan API publik Sumber Bibliografi baru.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 memperluas API Charts, manajemen gaya, dan opsi LINQ. Versi As
 
 Aspose.Words 24.3 memperkenalkan pembaca/pemutar TIFF baru dan emulasi operasi raster biner untuk metafile WMF. Aspose.Words 24.3 juga terus memperluas API Grafik.
 
+Aspose.Words 24.4 meningkatkan penyimpanan format, beberapa opsi rendering, serta meningkatkan kerja dengan tanda tangan digital.
+
+### Format yang Didukung <sup>24.4</sup>
+
+Format gambar WebP modern kini didukung di Aspose.Words untuk .NET Framework 4.6.2 dan yang lebih tinggi. Anda sekarang dapat membaca dan menyisipkan gambar WebP ke dalam dokumen, serta menyimpan gambar dalam format WebP.
+
+Harap dicatat bahwa WebP saat ini hanya tersedia di .NET Standard dan .NET Framework v4.6.2 dan di atasnya.
+
 ### Rendering dan Pencetakan
 
 #### Kontrol Warna Goresan <sup>24.1</sup>
 
 Kelas [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) telah diperluas dengan serangkaian properti publik baru yang terkait dengan pengelolaan warna guratan: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) dan [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) dan [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-####Ekstensi DrawingML Charts API <sup>24.2 / 24.3</sup>
+####Ekstensi DrawingML Charts API <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** terus diperluas.
+
+#### Menyematkan Font yang Dideklarasikan dalam Aturan @font-face <sup>24.4</sup>
+
+Ditambahkan kemampuan untuk menyematkan font yang dideklarasikan dalam aturan @font-face ke dalam definisi font dokumen yang dihasilkan dengan menambahkan properti baru bernama [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/).
+
+#### Bekerja dengan Format Cahaya dan Pantulan <sup>24.4</sup>
+
+Kemampuan untuk bekerja dengan format cahaya dan pantulan untuk objek gambar telah diimplementasikan.
 
 ### Memuat dan Menyimpan Dokumen
 
@@ -52,6 +68,7 @@ Pembaca/pemutar TIFF baru telah dikembangkan untuk Aspose.Words untuk .NET Stand
 - Fungsi untuk mengambil teks tanda referensi sebenarnya untuk catatan kaki dan catatan akhir telah ditingkatkan dengan properti [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) dan metode [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 - Kompatibilitas dengan grafik `Word 2016` untuk `LINQ Reporting Engine` telah diaktifkan. <sup>24.2</sup>
 - Emulasi operasi raster biner untuk metafile WMF telah diimplementasikan. <sup>24.3</sup>
+- Kemampuan untuk menentukan opsi tanda tangan untuk dokumen dalam SaveOptions telah diaktifkan dengan menambahkan kelas baru bernama [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) dengan anggota publik baru, serta menambahkan properti baru ke dalam kelas-kelas [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/), dan [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +77,8 @@ Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.1](https
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
 Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
+
+Pelajari lebih lanjut tentang [Catatan Rilis Aspose.Words untuk .NET 24.4](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 

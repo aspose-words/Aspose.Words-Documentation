@@ -11,7 +11,7 @@ url: /ja/python-net/what-s-new-in-aspose-words-for-python-net/
 
 このページでは、最近のリリースで導入された最も興味深い新しい Aspose.Words 機能について説明します。
 
-## Python via .NET 24.1、24.2、24.3 用の Aspose.Words
+## Python via .NET 24.1、24.2、24.3、24.4 用の Aspose.Words
 
 Aspose.Words 24.1 では、ストローク カラーの管理に関するエクスペリエンスが向上し、OLE オブジェクトが強化され、さらに新しい参考文献ソースのパブリック API が導入されています。
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 では、Charts API とスタイル管理が拡張されまし
 
 Aspose.Words 24.3は、新しいTIFFリーダー/ライターとWMFメタファイルのバイナリラスター操作のエミュレーションを導入します。 Aspose.Words 24.3は、さらにCharts APIの拡張も続けています。
 
+Aspose.Words 24.4は、保存形式、一部のレンダリングオプション、デジタル署名の処理を改善します。
+
+### サポートされる形式 <sup>24.4</sup>
+
+モダンな**WebP**画像形式は、Aspose.Words for .NET Framework 4.6.2以降でサポートされています。WebP画像を文書に読み込み、挿入し、WebP形式で保存することができます。 
+
+なお、WebPは現在、.NET Standardおよび.NET Framework v4.6.2以上でのみ利用可能です。
+
 ### レンダリングと印刷
 
 #### ストロークカラーコントロール<sup>24.1</sup>
 
 [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) クラスは、ストローク カラーの管理に関連する一連の新しいパブリック プロパティ ([fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/)、[back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/)、[fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/)、[back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/)) で拡張されました。
 
-#### DrawingML チャート API 拡張機能 <sup>24.2 / 24.3</sup>
+#### DrawingML チャート API 拡張機能 <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** は引き続き拡張されています。
+
+#### @font-faceルールで宣言されたフォントの埋め込み <sup>24.4</sup>
+
+新しい[support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/)プロパティを追加することで、生成されるドキュメントのフォント定義に@font-faceルールで宣言されたフォントを埋め込む機能が追加されました。
+
+#### グローおよび反射の書式設定の操作 <sup>24.4</sup>
+
+描画オブジェクトのグローおよび反射の書式設定を操作する機能が実装されました。
 
 ### ドキュメントのロードと保存
 
@@ -51,6 +67,7 @@ Markdown ファイルをロードするときに空行を保持する機能が�
 
 - 脚注と文末脚注の実際の参照マーク テキストを取得する機能が、[actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) プロパティと [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) メソッドによって強化されました。 <sup>24.2</sup>
 - WMFメタファイルのバイナリラスター操作のエミュレーションが実装されました。 <sup>24.3</sup>
+- [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/)クラスを追加し、[OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/)、[DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/)、[OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/)クラスに新しいパブリックメンバーを追加することで、**SaveOptions**内でドキュメントの署名オプションを定義する機能が有効になりました。 <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -59,6 +76,8 @@ Markdown ファイルをロードするときに空行を保持する機能が�
 [Aspose.Words for Python via .NET 24.2 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) について詳しくは、こちらをご覧ください。
 
 [Aspose.Words for Python via .NET 24.3 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/) について詳しくは、こちらをご覧ください。
+
+[Aspose.Words for Python via .NET 24.4 リリースノート](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/) について詳しくは、こちらをご覧ください。
 
 {{% /alert %}}
 

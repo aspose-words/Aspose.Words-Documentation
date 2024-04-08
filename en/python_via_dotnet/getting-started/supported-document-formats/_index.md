@@ -62,3 +62,4 @@ The following table indicates the input and output file formats supported by Asp
 |[`EMF`](https://docs.fileformat.com/image/emf/)|Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file| |{{< emoticons/tick >}}| |
 |[`JPEG`](https://docs.fileformat.com/image/jpeg/)|Renders a page of the document and saves it as a JPEG file| |{{< emoticons/tick >}}| |
 |[`GIF`](https://docs.fileformat.com/image/gif/)|Renders a page of the document and saves it as a GIF file| |{{< emoticons/tick >}}| |
+|WebP|Google image compression format| |{{< emoticons/tick >}}| |
