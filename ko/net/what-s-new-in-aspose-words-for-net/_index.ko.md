@@ -11,7 +11,7 @@ url: /ko/net/what-s-new-in-aspose-words-for-net/
 
 이 페이지에서는 최근 릴리스에 도입된 가장 흥미로운 새 Aspose.Words 기능을 설명합니다.
 
-## .NET 24.1, 24.2, 24.3 용 Aspose.Words
+## .NET 24.1, 24.2, 24.3, 24.4 용 Aspose.Words
 
 Aspose.Words 24.1은 획 색상 관리 환경을 개선하고, OLE 개체 및 LINQ 보고 기능을 향상시키며, 새로운 참고문헌 소스 공개 API를 도입합니다.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2는 차트 API, 스타일 관리 및 LINQ 옵션을 확장했�
 
 Aspose.Words 24.3은 새로운 TIFF 리더/라이터와 WMF 메타파일의 이진 래스터 작업 에뮬레이션을 소개합니다. Aspose.Words 24.3은 또한 Charts API를 계속 확장하고 있습니다.
 
+Aspose.Words 24.4은 형식 저장, 일부 렌더링 옵션, 디지털 서명 작업을 개선합니다.
+
+### 지원되는 형식 <sup>24.4</sup>
+
+Aspose.Words .NET Framework 4.6.2 이상에서는 현대적인 **WebP** 이미지 형식을 지원합니다. 이제 WebP 이미지를 문서에 읽고 삽입하며 WebP 형식으로 이미지를 저장할 수 있습니다.
+
+WebP는 현재 .NET Standard 및 .NET Framework v4.6.2 이상에서만 사용할 수 있습니다.
+
 ### 렌더링 및 인쇄
 
 #### 획 색상 제어 <sup>24.1</sup>
 
 [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) 클래스는 획 색상 관리와 관련된 새로운 공용 속성 세트([ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) 및 [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) 및 [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/))로 확장되었습니다.
 
-#### DrawingML Charts API 확장 <sup>24.2 / 24.3</sup>
+#### DrawingML Charts API 확장 <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API**가 계속 확장되고 있습니다.
+
+#### @font-face 규칙에 선언된 글꼴 포함 <sup>24.4</sup>
+
+새로운 [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/) 속성을 추가하여 결과 문서의 글꼴 정의에 @font-face 규칙에 선언된 글꼴을 포함하는 기능이 추가되었습니다.
+
+#### 글로우 및 반사 형식과 작업 <sup>24.4</sup>
+
+도형 객체에 대한 글로우 및 반사 형식 작업 기능이 구현되었습니다.
 
 ### 문서 로드 및 저장
 
@@ -52,6 +68,7 @@ Aspose.Words for .NET Standard, .NET 6 및 이후 버전을 위한 새로운 TIF
 * 각주 및 끝맺음에 대한 실제 참조 마크 텍스트를 검색하는 기능이 [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) 속성 및 [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) 메서드를 통해 향상되었습니다. <sup>24.2</sup>
 * `Word 2016` 차트와 `LINQ Reporting Engine` 의 호환성이 활성화되었습니다. <sup>24.2</sup>
 * WMF 메타파일에 대한 이진 래스터 작업의 에뮬레이션이 구현되었습니다. <sup>24.3</sup>
+* 새로운 [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) 클래스와 [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/), [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) 클래스에 새로운 공용 멤버를 추가함으로써 **SaveOptions** 내에서 문서의 서명 옵션을 정의하는 기능이 활성화되었습니다. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +77,8 @@ Aspose.Words for .NET Standard, .NET 6 및 이후 버전을 위한 새로운 TIF
 [.NET 24.2용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/)에 대해 자세히 알아보세요.
 
 [.NET 24.3용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/)에 대해 자세히 알아보세요.
+
+[.NET 24.4용 Aspose.Words 릴리스 노트](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/)에 대해 자세히 알아보세요.
 
 {{% /alert %}}
 

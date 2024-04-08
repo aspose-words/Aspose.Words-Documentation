@@ -11,7 +11,7 @@ url: /ar/python-net/what-s-new-in-aspose-words-for-python-net/
 
 تصف هذه الصفحة ميزات Aspose.Words الجديدة الأكثر إثارة للاهتمام والتي تم تقديمها في الإصدارات الأخيرة.
 
-## Aspose.Words لـ Python via .NET 24.1, 24.2, 24.3
+## Aspose.Words لـ Python via .NET 24.1, 24.2, 24.3, 24.4
 
 يعمل Aspose.Words 24.1 على تحسين تجربة إدارة ألوان الحدود، ويعزز كائنات OLE، بالإضافة إلى تقديم مصادر المراجع الببليوغرافية الجديدة API العامة.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 واجهة برمجة تطبيقات الرسوم البيان
 
 Aspose.Words 24.3 يقدم قارئ / كاتب TIFF جديد ومحاكاة لعمليات الصور النقطية الثنائية لملفات WMF. يواصل Aspose.Words 24.3 أيضًا توسيع واجهة برمجة التطبيقات للرسوم البيانية.
 
+Aspose.Words 24.4 يعزز حفظ التنسيقات ، بعض خيارات العرض ، وكذلك يحسن العمل مع التواقيع الرقمية.
+
+### تنسيقات مدعومة <sup>24.4</sup>
+
+تم دعم تنسيق الصور الحديث **WebP** الآن في Aspose.Words لـ .NET Framework 4.6.2 والإصدارات الأعلى. يمكنك الآن قراءة وإدراج صور WebP في المستندات ، وكذلك حفظ الصور بتنسيق WebP. 
+
+يرجى ملاحظة أن WebP متاح حاليًا فقط في .NET Standard و .NET Framework v4.6.2 وما فوق.
+
 ### التقديم والطباعة
 
 #### التحكم في لون السكتة الدماغية <sup>24.1</sup>
 
 تم توسيع فئة [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) بمجموعة من الخصائص العامة الجديدة المتعلقة بإدارة ألوان الحدود: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/)و [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/)و [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/)و [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### <sup>24.2 / 24.3</sup> DrawingML Charts API ملحق
+#### <sup>24.2 / 24.3 / 24.4</sup> DrawingML Charts API ملحق
 
 يستمر توسيع واجهة برمجة تطبيقات **DrawML Charts API**.
+
+#### تضمين الخطوط المعلن عنها في قواعد @font-face <sup>24.4</sup>
+
+تمت إضافة القدرة على تضمين الخطوط المعلن عنها في قواعد @font-face في تعريفات الخطوط للمستند الناتج من خلال إضافة خاصية جديدة تسمى [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/).
+
+#### العمل مع تنسيق اللمعان والانعكاس <sup>24.4</sup>
+
+تم تنفيذ القدرة على العمل مع تنسيق اللمعان والانعكاس لكائن الرسم.
 
 ### تحميل وحفظ المستندات
 
@@ -50,6 +66,7 @@ Aspose.Words 24.3 يقدم قارئ / كاتب TIFF جديد ومحاكاة لع
 * تمت إضافة الخصائص العامة الجديدة [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/)، [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/)، و [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/)  لإدارة النمط المحسنة إلى فئة [Style](https://reference.aspose.com/words/python-net/aspose.words/style/). <sup>24.2</sup>
 * تم تحسين وظيفة استرداد نص العلامة المرجعية الفعلي للحواشي السفلية والتعليقات الختامية باستخدام خاصية [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) وأسلوب [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
 * تم تنفيذ محاكاة لعمليات الصور النقطية الثنائية لملفات WMF. <sup>24.3</sup>
+* تمكين تعريف خيارات التوقيع للمستندات ضمن خيارات الحفظ من خلال إضافة فئة جديدة تسمى [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) بأعضاء عامة جديدة ، بالإضافة إلى إضافة خصائص جديدة إلى فئات [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) و [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) و [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -58,6 +75,8 @@ Aspose.Words 24.3 يقدم قارئ / كاتب TIFF جديد ومحاكاة لع
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
+
+تعرف على المزيد حول [ملاحظات إصدار Aspose.Words لـ Python via .NET 24.4](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
 
 {{% /alert %}}
 

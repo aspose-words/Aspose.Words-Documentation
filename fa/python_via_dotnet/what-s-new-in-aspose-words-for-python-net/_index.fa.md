@@ -11,7 +11,7 @@ url: /fa/python-net/what-s-new-in-aspose-words-for-python-net/
 
 این صفحه جالب ترین ویژگی های جدید Aspose.Words معرفی شده در نسخه های اخیر را شرح می دهد.
 
-## Aspose.Words برای Python via .NET 24.1, 24.2, 24.3
+## Aspose.Words برای Python via .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 تجربه مدیریت رنگ‌های ضربه‌ای را بهبود می‌بخشد، اشیاء OLE را بهبود می‌بخشد، و همچنین یک API عمومی منابع کتاب‌شناسی جدید را معرفی می‌کند.
 
@@ -19,15 +19,29 @@ Aspose.Words 24.2 نمودارهای API و مدیریت سبک را گسترش 
 
 Aspose.Words 24.3 یک خواننده/نویسنده TIFF جدید و شبیه‌سازی عملیات رستر دودویی برای فایل‌های meta WMF معرفی می‌کند. Aspose.Words 24.3 همچنین ادامه دادن به توسعه رابط برنامه‌نویسی نمودارها را داراست.
 
+Aspose.Words 24.4 قابلیت‌های ذخیره‌سازی فرمت‌ها، برخی گزینه‌های رندرینگ و همچنین بهبود کار با امضاهای دیجیتال را بهبود می‌بخشد.
+
+### فرمت‌های پشتیبانی شده <sup>24.4</sup>
+
+فرمت تصویر WebP مدرن در حال حاضر در Aspose.Words برای .NET Framework 4.6.2 و بالاتر پشتیبانی می‌شود. شما می‌توانید اکنون تصاویر WebP را در سند‌ها بخوانید و درج کنید، و همچنین تصاویر را به فرمت WebP ذخیره کنید. لطفا توجه داشته باشید که در حال حاضر WebP فقط در .NET Standard و .NET Framework v4.6.2 و بالاتر در دسترس است.
+
 ### رندر و چاپ
 
 #### Stroke Color Control <sup>24.1</sup>
 
 کلاس [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) با مجموعه ای از ویژگی های عمومی جدید مرتبط با مدیریت رنگ های ضربه ای گسترش یافته است: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) و [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/)، [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) و [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### افزونه DrawingML Charts API <sup>24.2 / 24.3</sup>
+#### افزونه DrawingML Charts API <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** همچنان در حال گسترش است.
+
+#### تعبیه فونت‌های اعلان شده در قوانین @font-face <sup>24.4</sup>
+
+قابلیت تعبیه فونت‌های اعلان شده در قوانین @font-face برای تعریف‌های فونت سند نتیجه به وسیله اضافه کردن یک خاصیت جدید به نام [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/) معرفی شده است.
+
+#### کار با فرمت‌بندی درخشش و بازتاب <sup>24.4</sup>
+
+قابلیت کار با فرمت‌بندی درخشش و بازتاب برای یک شیء نقاشی پیاده‌سازی شده است.
 
 ### بارگیری و ذخیره اسناد
 
@@ -50,6 +64,7 @@ Aspose.Words 24.3 یک خواننده/نویسنده TIFF جدید و شبیه�
 * ویژگی های عمومی جدید [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/)، [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) و [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) برای مدیریت سبک پیشرفته به کلاس [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) اضافه شده است. <sup>24.2</sup>
 * قابلیت بازیابی متن علامت مرجع واقعی برای پاورقی ها و یادداشت های پایانی با ویژگی [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) و روش [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) بهبود یافته است. <sup>24.2</sup>
 * شبیه‌سازی عملیات رستر دودویی برای فایل‌های meta WMF پیاده‌سازی شده است. <sup>24.3</sup>
+* با فعال شدن یک کلاس جدید با نام [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) با اعضای عمومی جدید، و همچنین اضافه کردن خصوصیات جدید به کلاس‌های [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/) ، [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) و [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/)، امکان تعریف گزینه‌های امضا برای سند در داخل SaveOptions فراهم شده است. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -58,6 +73,8 @@ Aspose.Words 24.3 یک خواننده/نویسنده TIFF جدید و شبیه�
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.2](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/) بیشتر بدانید.
 
 درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.3](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/) بیشتر بدانید.
+
+درباره [یادداشت‌های انتشار Aspose.Words برای Python via .NET 24.4](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/) بیشتر بدانید.
 
 {{% /alert %}}
 

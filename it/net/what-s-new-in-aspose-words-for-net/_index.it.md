@@ -11,7 +11,7 @@ url: /it/net/what-s-new-in-aspose-words-for-net/
 
 Questa pagina descrive le nuove funzionalità Aspose.Words più interessanti introdotte nelle versioni recenti.
 
-## Aspose.Words per .NET 24.1, 24.2, 24.3
+## Aspose.Words per .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 migliora l'esperienza relativa alla gestione dei colori dei tratti, migliora gli oggetti OLE e il reporting LINQ, oltre a introdurre un nuovo API pubblico delle origini bibliografiche.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 ha ampliato l'API dei grafici, la gestione degli stili e le op
 
 Aspose.Words 24.3 introduce un nuovo lettore/scrittore TIFF e l'emulazione di operazioni raster binarie per i metafile WMF. Aspose.Words 24.3 continua anche ad espandere l'API dei grafici.
 
+Aspose.Words 24.4 migliora il salvataggio dei formati, alcune opzioni di rendering, nonché migliora il lavoro con le firme digitali.
+
+### Formati supportati <sup>24.4</sup>
+
+Il formato immagine **WebP** moderno è ora supportato in Aspose.Words per .NET Framework 4.6.2 e versioni successive. Ora è possibile leggere e inserire immagini WebP nei documenti, nonché salvare immagini nel formato WebP.
+
+Si prega di notare che attualmente WebP è disponibile solo in .NET Standard e .NET Framework v4.6.2 e versioni successive.
+
 ### Rendering e stampa
 
 #### Controllo colore tratto <sup>24.1</sup>
 
 La classe [Stroke](https://reference.aspose.com/words/it/net/aspose.words.drawing/stroke/) è stata estesa con una serie di nuove proprietà pubbliche relative alla gestione dei colori del tratto: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) e [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) e [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### Estensione DrawingML Charts API <sup>24.2 / 24.3</sup>
+#### Estensione DrawingML Charts API <sup>24.2 / 24.3 / 24.4</sup>
 
 Dei **DrawingML Charts API** continua ad essere ampliata.
+
+#### Incorpora i font dichiarati nelle regole @font-face <sup>24.4</sup>
+
+È stata aggiunta la possibilità di incorporare i font dichiarati nelle regole @font-face nelle definizioni del font del documento risultante aggiungendo una nuova proprietà chiamata [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/).
+
+#### Lavora con la formattazione effetto glow e riflessione <sup>24.4</sup>
+
+È stata implementata la possibilità di lavorare con la formattazione effetto glow e riflessione per un oggetto di disegno.
 
 ### Caricamento e salvataggio di documenti
 
@@ -52,6 +68,7 @@ Dei **DrawingML Charts API** continua ad essere ampliata.
 - La funzionalità per recuperare il testo del segno di riferimento effettivo per le note a piè di pagina e le note di chiusura è stata migliorata con la proprietà [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) e il metodo [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/). <sup>24.2</sup>
 - È stata abilitata la compatibilità con i grafici di `Word 2016` per `LINQ Reporting Engine`. <sup>24.2</sup>
 - È stata implementata l'emulazione di operazioni raster binarie per i metafile WMF. <sup>24.3</sup>
+- È stata abilitata la possibilità di definire opzioni di firma per i documenti all'interno di SaveOptions aggiungendo una nuova classe chiamata [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) con nuovi membri pubblici, nonché aggiungendo nuove proprietà alle classi [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) e [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +77,8 @@ Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.1](https
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.2](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
 Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.3](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
+
+Ulteriori informazioni su [Note sulla versione Aspose.Words per .NET 24.4](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 {{% /alert %}}
 

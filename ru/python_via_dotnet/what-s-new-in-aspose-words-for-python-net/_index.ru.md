@@ -11,7 +11,7 @@ url: /ru/python-net/what-s-new-in-aspose-words-for-python-net/
 
 На этой странице описаны наиболее интересные новые функции Aspose.Words, представленные в последних выпусках.
 
-## Aspose.Words для Python via .NET 24.1, 24.2, 24.3
+## Aspose.Words для Python via .NET 24.1, 24.2, 24.3, 24.4
 
 Aspose.Words 24.1 улучшает управление цветами штрихов, совершенствует объекты OLE, а также представляет новый общедоступный API "Источники библиографии".
 
@@ -19,15 +19,31 @@ Aspose.Words версии 24.2 расширен Charts API и управлени
 
 Aspose.Words 24.3 представляет новый TIFF Reader/Writer и эмуляцию двоичных растровых операций для WMF метафайлов. Aspose.Words 24.3 также продолжает расширять API диаграмм.
 
+Aspose.Words 24.4 повышает сохранение форматов, некоторые параметры отображения, а также улучшает работу с цифровыми подписями.
+
+### Поддерживаемые форматы <sup>24.4</sup>
+
+Современный формат изображения **WebP** теперь поддерживается в Aspose.Words для .NET Framework 4.6.2 и выше. Теперь вы можете читать и вставлять изображения WebP в документы, а также сохранять изображения в формате WebP.
+
+Обратите внимание, что в настоящее время WebP доступен только в .NET Standard и .NET Framework v4.6.2 и выше.
+
 ### Рендеринг и печать
 
 #### Управление цветом обводки <sup>24.1</sup>
 
 Класс [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) был расширен набором новых общедоступных свойств, связанных с управлением цветами обводки: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) и [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) и [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
-#### Расширение DrawingML Charts API <sup>24.2 / 24.3</sup>
+#### Расширение DrawingML Charts API <sup>24.2 / 24.3 / 24.3</sup>
 
 **DrawingML Charts API** продолжает расширяться.
+
+#### Встраивание шрифтов, объявленных в правилах @font-face <sup>24.4</sup>
+
+Добавлена возможность встраивать шрифты, объявленные в правилах @font-face, в определения шрифтов полученного документа путем добавления нового свойства с названием [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/).
+
+#### Работа с форматированием свечения и отражения <sup>24.4</sup>
+
+Добавлена возможность работы с форматированием свечения и отражения для рисунков.
 
 ### Загрузка и сохранение документов
 
@@ -50,6 +66,7 @@ Aspose.Words 24.3 представляет новый TIFF Reader/Writer и эм
 * В класс [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) добавлены новые общедоступные свойства [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/) и [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) для расширенного управления стилями. <sup>24.2</sup>
 * Функциональность получения фактического текста справочной метки для сносок и концевых сносок была расширена за счет свойства [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) и метода [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default). <sup>24.2</sup>
 * Реализована эмуляция двоичных растровых операций для WMF метафайлов. <sup>24.3</sup>
+* Добавлена возможность определения параметров подписи для документов внутри **SaveOptions** путем добавления нового класса с названием [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) с новыми открытыми членами, а также добавления новых свойств в классы [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) и [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -58,6 +75,8 @@ Aspose.Words 24.3 представляет новый TIFF Reader/Writer и эм
 Узнайте больше о [Aspose.Words для Python via .NET 24.2. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
 
 Узнайте больше о [Aspose.Words для Python via .NET 24.3. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
+
+Узнайте больше о [Aspose.Words для Python via .NET 24.4. Примечания к выпуску](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
 
 {{% /alert %}}
 

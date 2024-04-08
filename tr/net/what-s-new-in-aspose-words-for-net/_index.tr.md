@@ -11,7 +11,7 @@ url: /tr/net/what-s-new-in-aspose-words-for-net/
 
 Bu sayfada son sürümlerde tanıtılan en ilginç yeni Aspose.Words özellikleri açıklanmaktadır.
 
-## .NET 24.1, 24.2, 24.3 için Aspose.Words
+## .NET 24.1, 24.2, 24.3, 24.4 için Aspose.Words
 
 Aspose.Words 24.1, kontur renklerini yönetme deneyimini geliştirir, OLE nesnelerini ve LINQ raporlamasını geliştirir ve ayrıca yeni bir Bibliyografya Kaynakları genel API'sini sunar.
 
@@ -19,15 +19,31 @@ Aspose.Words 24.2 genişletilmiş Charts API'si, stil yönetimi ve LINQ seçenek
 
 Aspose.Words 24.3, yeni bir TIFF Okuyucu/Yazıcı ve WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesini tanıtıyor. Aspose.Words 24.3 ayrıca Grafikler API'sını genişletmeye devam ediyor.
 
+Aspose.Words 24.4, formatları kaydetme, bazı işleme seçeneklerini ve dijital imzalarla çalışmayı iyileştirir.
+
+### Desteklenen Formatlar <sup>24.4</sup>
+
+Modern **WebP** görüntü formatı, Aspose.Words için .NET Framework 4.6.2 ve üzerinde desteklenmektedir. Artık WebP görüntülerini belgelere okuyabilir, yerleştirebilir ve WebP formatında kaydedebilirsiniz.
+
+WebP'nin şu anda yalnızca .NET Standard ve .NET Framework v4.6.2 ve üzerinde mevcut olduğunu lütfen unutmayın.
+
 ### İşleme ve Yazdırma
 
 #### Kontur Renk Kontrolü <sup>24.1</sup>
 
 [Stroke](https://reference.aspose.com/words/tr/net/aspose.words.drawing/stroke/) sınıfı, kontur renklerinin yönetimiyle ilgili bir dizi yeni genel özellik ile genişletildi: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) ve [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) ve [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-#### DrawingML Charts API Uzantısı <sup>24.2 / 24.3</sup>
+#### DrawingML Charts API Uzantısı <sup>24.2 / 24.3 / 24.4</sup>
 
 **DrawingML Charts API** genişletilmeye devam ediyor.
+
+#### @font-face Kurallarında Belirtilen Fontları Gömme <sup>24.4</sup>
+
+Sonuç belgesinin yazı tipi tanımları içine @font-face kurallarında belirtilen fontları gömmek için yeni bir [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/) özelliği ekleyerek yeni bir yetenek eklendi.
+
+#### Parlama ve Yansıma Biçimlendirme ile Çalışma <sup>24.4</sup>
+
+Çizim nesnesi için parlama ve yansıma biçimlendirmesiyle çalışma yeteneği uygulandı.
 
 ### Belgeleri Yükleme ve Kaydetme
 
@@ -52,6 +68,7 @@ Aspose.Words için .NET Standard, .NET 6 ve sonraki sürümler için yeni bir TI
 - Dipnotlar ve son notlar için gerçek referans işareti metnini alma işlevi, [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) özelliği ve [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) yöntemiyle geliştirilmiştir. <sup>24.2</sup>
 - `LINQ Reporting Engine` için `Word 2016` grafikleriyle uyumluluk etkinleştirildi. <sup>24.2</sup>
 - WMF meta dosyaları için ikili raster işlemlerinin taklit edilmesi uygulandı. <sup>24.3</sup>
+- **SaveOptions** içindeki belgelere imza seçenekleri tanımlama yeteneği, yeni bir [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) sınıfı eklenerek ve [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) ve [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) sınıflarına yeni özellikler eklenerek etkinleştirildi. <sup>24.4</sup>
 
 {{% alert color="primary" %}}
 
@@ -60,6 +77,8 @@ Aspose.Words için .NET Standard, .NET 6 ve sonraki sürümler için yeni bir TI
 [.NET 24.2 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/) hakkında daha fazla bilgi edinin.
 
 [.NET 24.3 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/) hakkında daha fazla bilgi edinin.
+
+[.NET 24.4 Sürüm Notları için Aspose.Words](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/) hakkında daha fazla bilgi edinin.
 
 {{% /alert %}}
 
