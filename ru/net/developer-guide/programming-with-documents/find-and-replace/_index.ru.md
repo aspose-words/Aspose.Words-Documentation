@@ -4,93 +4,93 @@ second_title: Aspose.Words для .NET
 articleTitle: Найти и заменить
 linktitle: Найти и заменить
 type: docs
-description: "Найдите в документе строку или шаблон регулярного выражения и замените его нужным текстом, используя номер C#."
+description: "Найдите строку или шаблон регулярного выражения в вашем документе и замените его текстом, который вы хотите использовать. C#."
 weight: 100
 url: /ru/net/find-and-replace/
 ---
 
-Вы можете легко перемещаться по документу с помощью клавиатуры и мыши, но если вам нужно пролистывать много страниц, поиск определенного текста в длинном документе займет немало времени. Это займет больше времени, если вы захотите заменить определенные символы или слова, которые вы использовали в своем документе. Функционал "Найти и заменить" позволяет найти последовательность символов в документе и заменить ее другой последовательностью символов.
+Вы можете легко перемещаться по документу с помощью клавиатуры и мыши, но если у вас есть много страниц для прокрутки, потребуется довольно много времени, чтобы найти конкретный текст в длинном документе. Это займет больше времени, если вы хотите заменить определенные символы или слова, которые вы использовали в своем документе. Функция "Найти и заменить" позволяет найти последовательность символов в документе и заменить ее другой последовательностью символов.
 
-Aspose.Words позволяет вам найти определенную строку или шаблон регулярного выражения в вашем документе и заменить его альтернативой без установки и использования дополнительных приложений, таких как Microsoft Word. Это ускорит выполнение многих задач по набору текста и форматированию, потенциально сэкономив вам часы работы.
+Aspose.Words позволяет найти определенную строку или шаблон регулярного выражения в документе и заменить его альтернативой без установки и использования дополнительных приложений, таких как: Microsoft Word. Это ускорит многие задачи набора и форматирования, что потенциально сэкономит вам часы работы.
 
-В этой статье объясняется, как применять замену строк и регулярные выражения с поддержкой метасимволов.
+В этой статье объясняется, как применять замену строк и регулярные выражения с поддержкой метахарактеров.
 
 ## Способы найти и заменить {#ways-to-find-and-replace}
 
-Aspose.Words предоставляет два способа применения операций поиска и замены, используя следующее:
+Aspose.Words Предусмотрены два способа применения операции нахождения и замены с использованием следующего:
 
-1. *Простая замена строки* – для поиска и замены определенной строки на другую необходимо указать строку поиска (буквенно-цифровые символы), которая будет заменена по всем вхождениям на другую указанную строку замены. Обе строки не должны содержать символы. Учтите, что сравнение строк может быть чувствительным к регистру, или вы можете быть не уверены в написании или иметь несколько похожих написаний.
-2. *Регулярные выражения* — укажите регулярное выражение, чтобы найти точные совпадения строк и заменить их в соответствии с вашим регулярным выражением. Обратите внимание, что слово определяется как состоящее только из буквенно-цифровых символов. Если замена выполняется только с совпадением целых слов и входная строка содержит символы, то фразы найдены не будут.
+1. *Простая замена строки* - чтобы найти и заменить конкретную строку другой, необходимо указать поисковую строку (альфа-цифровые символы), которая будет заменена в соответствии со всеми событиями другой указанной заменой строки. Обе строки не должны содержать символов. Учтите, что сравнение строк может быть чувствительным к случаю, или вы можете быть не уверены в правописании или иметь несколько похожих правописаний.
+2. *Регулярные выражения * - указать регулярное выражение, чтобы найти точные совпадения строк и заменить их в соответствии с вашим регулярным выражением. Обратите внимание, что слово определяется как состоящее только из буквенно-цифровых символов. Если замена выполняется только целыми словами и строка ввода содержит символы, то фразы не будут найдены.
 
-Кроме того, вы можете использовать специальные метасимволы с простой заменой строк и регулярные выражения, чтобы указать разрывы в операции поиска и замены.
+Кроме того, вы можете использовать специальные метахарактеры с простой заменой строки и регулярными выражениями, чтобы указать перерывы в операции поиска и замены.
 
-Aspose.Words представляет функцию поиска и замены в пространстве имен [Aspose.Words.Replacing](https://reference.aspose.com/words/ru/net/aspose.words.replacing/). Вы можете работать со многими параметрами в процессе поиска и замены, используя класс [FindReplaceOptions](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/).
+Aspose.Words Найти и заменить функциональность на [Aspose.Words.Replacing](https://reference.aspose.com/words/net/aspose.words.replacing/) пространство имен. Вы можете работать со многими вариантами во время процесса поиска и замены. [FindReplaceOptions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) класс.
 
-### Поиск и замена текста с помощью простой замены строк {#find-and-replace-text-using-simple-string-replacement}
+### Найти и заменить текст с помощью простой замены строки {#find-and-replace-text-using-simple-string-replacement}
 
-Вы можете использовать один из [Replace](https://reference.aspose.com/words/ru/net/aspose.words/range/replace/#replace/) методов, чтобы найти или заменить определенную строку и вернуть количество сделанных замен. В этом случае вы можете указать строку, которая будет заменена, строку, которая заменит все ее вхождения, будет ли замена учитывать регистр и будут ли затронуты только отдельные слова.
+Вы можете использовать один из [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/#replace/) Способы поиска или замены конкретной строки и возврата количества произведенных замен. В этом случае вы можете указать строку, которая будет заменена, строку, которая заменит все ее события, является ли замена чувствительной к случаю, и будут ли затронуты только отдельные слова.
 
-В следующем примере кода показано, как найти строку "_CustomerName_" и заменить ее строкой * "Джеймс Бонд"*:
+Следующий пример кода показывает, как найти строку "_CustomerName_" и заменить ее строкой * "James Bond"*:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-ReplaceWithString.cs" >}}
 
 Вы можете заметить разницу между документом перед применением простой замены строки:
 
-<img src="/words/net/find-and-replace/before-simple-string-replacement.png" alt="перед простой заменой строки" style="width:600px"/>
+<img src="/words/net/find-and-replace/before-simple-string-replacement.png" alt="before-simple-string-replacement" style="width:600px"/>
 
-И после применения простой замены строки:
+И после применения простой замены струны:
 
-<img src="/words/net/find-and-replace/after-simple-string-replacement.png" alt="после простой замены строки" style="width:600px"/>
+<img src="/words/net/find-and-replace/after-simple-string-replacement.png" alt="after-simple-string-replacement" style="width:600px"/>
 
-### Поиск и замена текста с помощью регулярных выражений {#find-and-replace-text-using-regular-expressions}
+### Найти и заменить текст с помощью регулярных выражений {#find-and-replace-text-using-regular-expressions}
 
-Регулярное выражение (regex) — это шаблон, описывающий определенную последовательность текста. Предположим, вы хотите заменить все двойные вхождения слова одним вхождением слова. Затем вы можете применить следующее регулярное выражение, чтобы указать шаблон двойного слова: `([a-zA-Z]+) \1`.
+Регулярное выражение (регекс) - это шаблон, описывающий определенную последовательность текста. Допустим, вы хотите заменить все двойные случаи слова на одно слово. Затем вы можете применить следующее регулярное выражение, чтобы указать шаблон с двумя словами: `([a-zA-Z]+) \1`.
 
-Используйте другой метод [Replace](https://reference.aspose.com/words/ru/net/aspose.words/range/replace/) для поиска и замены определенных комбинаций символов, установив параметр `Regex` в качестве шаблона регулярного выражения для поиска совпадений.
+Используйте другой [Replace](https://reference.aspose.com/words/net/aspose.words/range/replace/) метод поиска и замены конкретных комбинаций символов путем установки `Regex` параметр как шаблон регулярного выражения для поиска совпадений.
 
-В следующем примере кода показано, как заменить строки, соответствующие шаблону регулярного выражения, указанной строкой замены:
+Следующий пример кода показывает, как заменить строки, которые соответствуют обычному шаблону выражения, определенной строкой замены:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithRegex-ReplaceWithRegex.cs" >}}
 
-Вы можете заметить разницу между документом перед применением замены строк регулярными выражениями:
+Вы можете заметить разницу между документом перед применением замены строки с регулярными выражениями:
 
-<img src="/words/net/find-and-replace/before-replacement-with-regular-expressions.png" alt="перед заменой регулярными выражениями" style="width:600px"/>
+<img src="/words/net/find-and-replace/before-replacement-with-regular-expressions.png" alt="before-replacement-with-regular-expressions" style="width:600px"/>
 
-И после применения замены строк регулярными выражениями:
+А после нанесения замены строки регулярными выражениями:
 
-<img src="/words/net/find-and-replace/after-replacement-with-regular-expressions.png" alt="после замены регулярными выражениями" style="width:600px"/>
+<img src="/words/net/find-and-replace/after-replacement-with-regular-expressions.png" alt="after-replacement-with-regular-expressions" style="width:600px"/>
 
-### Поиск и замена строки с помощью метасимволов {#find-and-replace-text-using-metacharacters}
+### Найти и заменить струны с помощью метахарактеров {#find-and-replace-text-using-metacharacters}
 
-Вы можете использовать метасимволы в строке поиска или строке замены, если определенный текст или фраза состоит из нескольких абзацев, разделов или страниц. Некоторые из метасимволов включают **&amp;п** для разрыва абзаца, **&amp;б** для разрыва раздела, **&amp;м** для разрыва страницы и **&amp;л** для разрыва строки.
+Вы можете использовать метасимволы в строке поиска или строке замены, если конкретный текст или фраза состоит из нескольких абзацев, разделов или страниц. Некоторые метахарактеры включают **&p** для перерыва в абзаце, **&b** для перерыва в секции, **&м** для перерыва страницы, и **&л** Для перерыва.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что метасимвол **&&** равен **&**. Например, если вам нужно найти текст для **&amp;п**, который не является разрывом абзаца, вы можете использовать **&amp;&amp;п**.
+Обратите внимание, что метахарактер **&&** равным **&**. Например, если вам нужно найти текст для **&p** Это не пункт перерыва, то вы можете использовать **&p&p**.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как заменить текст абзацем и разрывом страницы:
+Следующий пример кода показывает, как заменить текст абзацем и перерывом страницы:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-FindReplaceUsingMetaCharacters-ReplaceTextContaingMetaCharacters.cs" >}}
 
-## Найти и заменить строку в верхнем или нижнем колонтитуле документа {#find-and-replace-string-in-header-or-footer-of-a-document}
+## Найти и заменить строку в заголовке / футере документа {#find-and-replace-string-in-header-or-footer-of-a-document}
 
-Вы можете найти и заменить текст в разделе верхнего и нижнего колонтитула документа Word, используя класс [HeaderFooter](https://reference.aspose.com/words/ru/net/aspose.words/headerfooter/).
+Вы можете найти и заменить текст в разделе заголовка / футера документа Word, используя [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) класс.
 
-В следующем примере кода показано, как заменить текст раздела заголовка в документе:
+Следующий пример кода показывает, как заменить текст раздела заголовка в вашем документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceInHeaderAndFooter-ReplaceTextInFooter.cs" >}}
 
 Вы можете заметить разницу между документом перед применением замены строки заголовка:
 
-<img src="/words/net/find-and-replace/before-applying-header-string-replacement.png" alt="перед применением замены строки заголовка" style="width:600px"/>
+<img src="/words/net/find-and-replace/before-applying-header-string-replacement.png" alt="before-applying-header-string-replacement" style="width:600px"/>
 
-И после применения замены строки заголовка:
+И после применения замены струны заголовка:
 
-<img src="/words/net/find-and-replace/after-applying-header-string-replacement.png" alt="замена строки заголовка после применения" style="width:600px"/>
+<img src="/words/net/find-and-replace/after-applying-header-string-replacement.png" alt="after-applying-header-string-replacement" style="width:600px"/>
 
-Пример кода для замены текста нижнего колонтитула в документе очень похож на предыдущий пример кода заголовка. Все, что вам нужно сделать, это заменить следующие две строки:
+Пример кода для замены текста нижнего колонтитула в вашем документе очень похож на предыдущий пример кода заголовка. Все, что вам нужно сделать, это заменить следующие две строки:
 
 {{< highlight csharp >}}
 HeaderFooter header = headersFooters[HeaderFooterType.HeaderPrimary];
@@ -105,44 +105,44 @@ int currentYear = System.DateTime.Now.Year;
 footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} by Aspose Pty Ltd.", options);
 {{< /highlight >}}
 
-Вы можете заметить разницу между документом перед применением замены строки нижнего колонтитула:
+Вы можете заметить разницу между документом перед применением замены нижнего колонтитула:
 
-<img src="/words/net/find-and-replace/before-applying-footer-string-replacement.png" alt="перед применением замены строки нижнего колонтитула" style="width:600px"/>
+<img src="/words/net/find-and-replace/before-applying-footer-string-replacement.png" alt="before-applying-footer-string-replacement" style="width:600px"/>
 
-И после применения замены строки нижнего колонтитула:
+И после применения замены нижнего колонтитула:
 
-<img src="/words/net/find-and-replace/after-applying-footer-string-replacement.png" alt="замена строки-нижнего колонтитула после применения" style="width:600px"/>
+<img src="/words/net/find-and-replace/after-applying-footer-string-replacement.png" alt="after-applying-footer-string-replacement" style="width:600px"/>
 
 ## Игнорировать текст во время поиска и замены {#ignore-text-during-find-and-replace}
 
-Применяя операцию поиска и замены, вы можете игнорировать определенные сегменты текста. Так, отдельные части текста можно исключить из поиска, а поиск и замену применить только к оставшимся частям.
+Применяя операцию поиска и замены, можно игнорировать определенные сегменты текста. Так, некоторые части текста могут быть исключены из поиска, а найти и заменить можно только оставшиеся части.
 
-Aspose.Words предоставляет множество свойств поиска и замены для игнорирования текста, например [IgnoreDeleted](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/) и [IgnoreInserted](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
+Aspose.Words предоставляет множество свойств поиска и замены для игнорирования текста. [IgnoreDeleted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/), [IgnoreFieldCodes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/), [IgnoreFields](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefields/), [IgnoreFootnotes](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignorefootnotes/), и [IgnoreInserted](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/).
 
-В следующем примере кода показано, как игнорировать текст внутри удаляемых ревизий:
+Следующий пример кода показывает, как игнорировать текст внутри изменений удаления:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-IgnoreText-IgnoreTextInsideDeleteRevisions.cs" >}}
 
-## Настройка операции поиска и замены {#customize-find-and-replace-operation}
+## Настройка и замена операции {#customize-find-and-replace-operation}
 
-Aspose.Words предоставляет множество различных [properties](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/) для поиска и замены текста, например применение определенного формата со свойствами [ApplyFont](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/applyfont/) и [ApplyParagraphFormats](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/), использование замен в шаблонах замены со свойством [UseSubstitutions](https://reference.aspose.com/words/ru/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) и другие.
+Aspose.Words Предоставляет множество различных [properties](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/) находить и заменять тексты, такие как применение определенного формата; [ApplyFont](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyfont/) и [ApplyParagraphFormats](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/) свойств, используя замещения в моделях замены [UseSubstitutions](https://reference.aspose.com/words/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/) собственности и других.
 
-В следующем примере кода показано, как выделить определенное слово в документе:
+Следующий пример кода показывает, как выделить конкретное слово в вашем документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithString-HighlightColor.cs" >}}
 
-Aspose.Words позволяет использовать интерфейс [IReplacingCallback](https://reference.aspose.com/words/ru/net/aspose.words.replacing/ireplacingcallback/) для создания и вызова пользовательского метода во время операции замены. В некоторых случаях вам может потребоваться настроить операцию поиска и замены, например, заменить текст, указанный регулярным выражением, на теги HTML, поэтому в основном вы будете применять замену со вставкой HTML.
+Aspose.Words позволяет использовать [IReplacingCallback](https://reference.aspose.com/words/net/aspose.words.replacing/ireplacingcallback/) интерфейс для создания и вызова пользовательского метода во время операции замены. У вас могут быть некоторые случаи использования, когда вам нужно настроить операцию поиска и замены, например, заменить текст, указанный обычным выражением, тегами HTML, поэтому в основном вы будете применять замену с вставкой HTML.
 
-Если вам нужно заменить строку тегом HTML, примените интерфейс **IReplacingCallback**, чтобы настроить операцию поиска и замены, чтобы сопоставление начиналось в начале выполнения с узлом сопоставления вашего документа. Приведем несколько примеров использования **IReplacingCallback**.
+Если вам нужно заменить строку тегом HTML, примените **IReplacingCallback** Интерфейс для настройки операции поиска и замены, чтобы матч начинался в начале выполнения с узлом соответствия вашего документа. Приведем несколько примеров использования **IReplacingCallback**.
 
-В следующем примере кода показано, как заменить текст, указанный с помощью HTML:
+Следующий пример кода показывает, как заменить текст, указанный в HTML:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-ReplaceWithHtml.cs" >}}
 
-В следующем примере кода показано, как выделить положительные числа зеленым цветом, а отрицательные числа — красным:
+Следующий пример кода показывает, как выделить положительные числа с зеленым цветом и отрицательные числа с красным цветом:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-NumberHighlightCallback.cs" >}}
 
-В следующем примере кода показано, как добавить номер строки к каждой строке:
+Следующий пример кода показывает, как прикрепить номер строки к каждой строке:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Find-Replace-ReplaceWithHTML-LineCounter.cs" >}}

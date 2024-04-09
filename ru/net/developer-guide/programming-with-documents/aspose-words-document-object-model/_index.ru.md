@@ -1,153 +1,153 @@
 ---
-title: Aspose.Words Document Object Model (DOM) в C#
+title: Aspose.Words Document Object Model ()DOMв C#
 second_title: Aspose.Words для .NET
 articleTitle: Aspose.Words Document Object Model (DOM)
 linktitle: Aspose.Words Document Object Model (DOM)
 type: docs
-description: "Document Object Model (DOM) — это представление документа Word в памяти. Чтение, манипулирование и изменение содержимого и форматирования документа Word с помощью C#."
+description: "Document Object Model ()DOM) является представлением в памяти документа Word. Чтение, манипулирование и изменение содержания и форматирования документа Word с использованием C#."
 weight: 10
 url: /ru/net/aspose-words-document-object-model/
 ---
 
-Aspose.Words Document Object Model (DOM) — это представление документа Word в памяти. Aspose.Words DOM позволяет программно читать, манипулировать и изменять содержимое и форматирование документа Word.
+The Aspose.Words Document Object Model ()DOM) является представлением в памяти документа Word. The Aspose.Words DOM Это позволяет программно читать, манипулировать и изменять содержание и форматирование документа Word.
 
-В этом разделе описаны основные классы Aspose.Words DOM и их взаимосвязи. Используя классы Aspose.Words DOM, вы можете получить программный доступ к элементам документа и форматированию.
+В этом разделе описаны основные классы Aspose.Words DOM и их взаимоотношениях. Используя Aspose.Words DOM классы, можно получить программный доступ к элементам документа и форматированию.
 
-## Создайте дерево объектов `Document` {#create-a-document-objects-tree}
+## Создать `Document` Объектное дерево {#create-a-document-objects-tree}
 
-Когда документ считывается в Aspose.Words DOM, строится дерево объектов, и разные типы элементов исходного документа имеют свои собственные DOM объекты дерева с различными свойствами.
+Когда документ прочитывается в Aspose.Words <p notrans="<p notrans=" DOM"=""></p>"> Затем строится объектное дерево и различные типы элементов исходного документа имеют свои собственные. DOM древесные объекты с различными свойствами.
 
-### Построение дерева узлов документа {#build-document-nodes-tree}
+### Строим документальные узлы дерева {#build-document-nodes-tree}
 
-Когда Aspose.Words считывает документ Word в память, он создает объекты разных типов, представляющие различные элементы документа. Каждый фрагмент текста, абзаца, таблицы или раздела является узлом, и даже сам документ является узлом. Aspose.Words определяет класс для каждого типа узла документа.
+Когда Aspose.Words Считывает документ Word в память, создает объекты разного типа, представляющие различные элементы документа. Каждый запуск текста, абзаца, таблицы или раздела является узлом, и даже сам документ является узлом. Aspose.Words Определяет класс для каждого типа узла документа.
 
-Дерево документов в Aspose.Words соответствует шаблону составного проектирования:
+Дерево документов в Aspose.Words Далее следует шаблон композитного дизайна:
 
-- Все классы узлов в конечном итоге происходят от класса [Node](https://reference.aspose.com/words/ru/net/aspose.words/node/), который является базовым классом в Aspose.Words Document Object Model.
-— Узлы, которые могут содержать другие узлы, например, **Section** или **Paragraph**, являются производными от класса [CompositeNode](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/), который, в свою очередь, является производным от класса **Node**.
+- Все классы узлов в конечном итоге происходят от [Node](https://reference.aspose.com/words/net/aspose.words/node/) класс, который является базовым в Aspose.Words Document Object Model.
+- Узлы, которые могут содержать другие узлы, например, **Section** или **Paragraph**, Происходит из [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) Класс, который, в свою очередь, происходит от **Node** класс.
 
-На диаграмме ниже показано наследование между классами узлов Aspose.Words Document Object Model (DOM). Названия абстрактных классов выделены курсивом.
+На приведенной ниже диаграмме показано наследование между классами узлов Aspose.Words Document Object Model ()DOM). Названия абстрактных классов написаны курсивом.
 
-<img src="/words/net/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-слова-дом" style="width:700px"/>
+<img src="/words/net/aspose-words-document-object-model/aspose-words-dom.png" alt="aspose-words-dom" style="width:700px"/>
 
 {{% alert color="primary" %}}
 
-Aspose.Words DOM также содержит классы, не являющиеся узлами, например [Style](https://reference.aspose.com/words/ru/net/aspose.words/style/) или [Font](https://reference.aspose.com/words/ru/net/aspose.words/font/), которые используются для настройки внешнего вида и стилей в документе. Эти классы не показаны на этой диаграмме, поскольку не унаследованы от класса `Node`.
+The Aspose.Words DOM также содержит классы без узлов, такие как [Style](https://reference.aspose.com/words/net/aspose.words/style/) или [Font](https://reference.aspose.com/words/net/aspose.words/font/), которые используются для настройки внешнего вида и стилей в документе. Эти классы не показаны на этой диаграмме как не унаследованные от `Node` класс.
 
 {{% /alert %}}
 
-Давайте посмотрим на пример. На следующем изображении показан документ Microsoft Word с различными типами контента.
+Давайте посмотрим на пример. Следующее изображение показывает Microsoft Word Документы с различными типами контента.
 
-<img src="/words/net/aspose-words-document-object-model/document-example.png" alt="пример-документа-аспонировать-слова" style="width:700px"/>
+<img src="/words/net/aspose-words-document-object-model/document-example.png" alt="document-example-aspose-words" style="width:700px"/>
 
-При чтении вышеуказанного документа в Aspose.Words DOM создается дерево объектов, как показано на схеме ниже.
+При чтении вышеуказанного документа в Aspose.Words DOM, Дерево объектов создается, как показано в схеме ниже.
 
-<img src="/words/net/aspose-words-document-object-model/document-example-dom.png" alt="дом-аспонировать-слова" style="width:700px"/>
+<img src="/words/net/aspose-words-document-object-model/document-example-dom.png" alt="dom-aspose-words" style="width:700px"/>
 
-[Document](https://reference.aspose.com/words/ru/net/aspose.words/document/), [Section](https://reference.aspose.com/words/ru/net/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/), [Run](https://reference.aspose.com/words/ru/net/aspose.words/run/) и все остальные эллипсы на схеме — это объекты Aspose.Words, представляющие элементы документа Word.
+[Document](https://reference.aspose.com/words/net/aspose.words/document/), [Section](https://reference.aspose.com/words/net/aspose.words/section/), [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/), [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/), [Run](https://reference.aspose.com/words/net/aspose.words/run/), и все остальные эллипсы на диаграмме являются Aspose.Words объекты, представляющие элементы документа Word.
 
-### Получите `Node` Тип {#get-a-node-type}
+### Найди `Node` Тип {#get-a-node-type}
 
-Хотя класса [Node](https://reference.aspose.com/words/ru/net/aspose.words/node/) достаточно, чтобы отличать разные узлы друг от друга, Aspose.Words предоставляет перечисление [NodeType](https://reference.aspose.com/words/ru/net/aspose.words/node/nodetype/) для упрощения некоторых задач API, таких как выбор узлов определенного типа.
+Хотя и [Node](https://reference.aspose.com/words/net/aspose.words/node/) класса достаточно, чтобы отличать разные узлы друг от друга; Aspose.Words обеспечивает [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) Перечисление для упрощения некоторых API задачи, такие как выбор узлов определенного типа.
 
-Тип каждого узла можно получить с помощью свойства [NodeType](https://reference.aspose.com/words/ru/net/aspose.words/node/nodetype/). Это свойство возвращает значение перечисления **NodeType**. Например, узел абзаца, представленный классом **Paragraph**, возвращает **NodeType**,**Paragraph**, а узел таблицы, представленный классом **Table**, возвращает **NodeType**,**Table**.
+Тип каждого узла может быть получен с помощью [NodeType](https://reference.aspose.com/words/net/aspose.words/node/nodetype/) собственность. Это свойство возвращает **NodeType** перечислительная стоимость. Например, узел абзаца, представленный **Paragraph** Класс возвращается **NodeType**.**Paragraph**и столовый узел, представленный **Table** Класс возвращается **NodeType**.**Table**.
 
-В следующем примере показано, как получить тип узла с помощью перечисления **NodeType**:
+Следующий пример показывает, как получить тип узла с помощью **NodeType** перечисление:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-UseNodeType.cs" >}}
 
-## Навигация по дереву документов {#document-tree-navigation}
+## Навигация по дереву {#document-tree-navigation}
 
-Aspose.Words представляет документ в виде дерева узлов, что позволяет перемещаться между узлами. В этом разделе описывается, как исследовать и перемещаться по дереву документов в Aspose.Words.
+Aspose.Words представляет собой документ в виде дерева узлов, что позволяет перемещаться между узлами. В этом разделе описывается, как исследовать и перемещаться по дереву документов. Aspose.Words.
 
-Когда вы открываете образец документа, представленный ранее, в Проводнике документов, дерево узлов выглядит точно так, как оно представлено в Aspose.Words.
+Когда вы открываете образец документа, представленный ранее, в проводнике документа, дерево узла появляется точно так же, как оно представлено в документе. Aspose.Words.
 
-<img src="/words/net/aspose-words-document-object-model/document-in-document-explorer.png" alt="проводник документа в документе" style="width:680px"/>
+<img src="/words/net/aspose-words-document-object-model/document-in-document-explorer.png" alt="document-in-document-explorer" style="width:680px"/>
 
 {{% alert color="primary" %}}
 
-Вы можете изучить пример проекта "Document Explorer" на [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
+Вы можете изучить образец проекта "Исследователь документов" на [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/tree/master/Examples/DocsExamples/DocumentExplorer).
 
 {{% /alert %}}
 
-### Отношения узлов документа {#document-nodes-relationships}
+### Документальные отношения Node {#document-nodes-relationships}
 
-Между узлами дерева существуют связи:
+Узлы в дереве имеют отношения между собой:
 
-- Узел, содержащий другой узел, — это *parent.*
-— Узел, содержащийся в родительском узле, — это *child.* дочерних узлов того же родителя — *sibling* узлов.
-- Узел *root* всегда является узлом [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/).
+- Узел, содержащий другой узел, является *parent.*
+- Узел, содержащийся в родительском узле, является *child.* Детские узлы одного родителя *sibling* Узлы.
+- *root* Узел всегда является [Document](https://reference.aspose.com/words/net/aspose.words/document/) Узел.
 
-Узлы, которые могут содержать другие узлы, происходят от класса [CompositeNode](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/), а все узлы в конечном итоге происходят от класса [Node](https://reference.aspose.com/words/ru/net/aspose.words/node/). Эти два базовых класса предоставляют общие методы и свойства для навигации и изменения древовидной структуры.
+Узлы, которые могут содержать другие узлы, происходят из [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) класс, и все узлы в конечном счете происходят от [Node](https://reference.aspose.com/words/net/aspose.words/node/) класс. Эти два базовых класса обеспечивают общие методы и свойства для навигации и модификации структуры дерева.
 
-На следующей диаграмме объектов UML показаны несколько узлов примера документа и их связи друг с другом через родительские, дочерние и одноуровневые свойства:
+Следующая диаграмма объектов UML показывает несколько узлов образца документа и их отношения друг к другу через родительские, детские и родственные свойства:
 
-<img src="/words/net/aspose-words-document-object-model/document-nodes-relationships.png" alt="документы-узлы-отношения-аспонировать-слова" style="width:370px"/>
+<img src="/words/net/aspose-words-document-object-model/document-nodes-relationships.png" alt="document-nodes-relationships-aspose-words" style="width:370px"/>
 
 #### Документ является владельцем узла
 
-Узел всегда принадлежит определенному документу, даже если он был только что создан или удален из дерева, поскольку жизненно важные структуры документа, такие как стили и списки, хранятся в узле **Document**. Например, невозможно иметь **Paragraph** без **Document**, поскольку каждому абзацу присвоен стиль, определенный глобально для документа. Это правило используется при создании любых новых узлов. Для добавления нового **Paragraph** непосредственно к DOM требуется, чтобы объект документа был передан конструктору.
+Узел всегда принадлежит определенному документу, даже если он был только что создан или удален из дерева, потому что в нем хранятся жизненно важные структуры, такие как стили и списки. **Document** Узел. Например, невозможно иметь **Paragraph** без **Document** Каждый пункт имеет определенный стиль, который определяется во всем мире для документа. Это правило используется при создании любых новых узлов. Добавить новый **Paragraph** непосредственно в сторону DOM Требуется документ, переданный конструктору.
 
 {{% alert color="primary" %}}
 
-Свойство [Node.Document](https://reference.aspose.com/words/ru/net/aspose.words/node/document/) возвращает документ, которому принадлежит узел.
+The [Node.Document](https://reference.aspose.com/words/net/aspose.words/node/document/) Собственность возвращает документ, к которому принадлежит узел.
 
 {{% /alert %}}
 
-При создании нового абзаца с использованием [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) у компоновщика всегда есть класс **Document**, связанный с ним через свойство [DocumentBuilder.Document](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/document/).
+При создании нового абзаца с использованием [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/), Строитель всегда имеет **Document** Класс, связанный с ним через [DocumentBuilder.Document](https://reference.aspose.com/words/net/aspose.words/documentbuilder/document/) собственность.
 
-В следующем примере кода показано, что при создании любого узла всегда определяется документ, которому будет принадлежать этот узел:
+Следующий пример кода показывает, что при создании любого узла всегда определяется документ, который будет владеть узлом:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-OwnerDocument.cs" >}}
 
 #### Родительский узел
 
-У каждого узла есть родительский элемент, указанный свойством [ParentNode](https://reference.aspose.com/words/ru/net/aspose.words/node/parentnode/). Узел не имеет родительского узла, то есть **ParentNode** имеет значение null в следующих случаях:
+У каждого узла есть родитель, указанный [ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/) собственность. Узел не имеет родительского узла, то есть **ParentNode** является нулевым в следующих случаях:
 
-- Узел только что создан и еще не добавлен в дерево.
-- Узел удален из дерева.
-— Это корневой узел **Document**, у которого всегда есть нулевой родительский узел.
+- Узел только что был создан и еще не был добавлен к дереву.
+- Узел был удален с дерева.
+- Это корень **Document** Узел, который всегда имеет нулевой родительский узел.
 
-Вы можете удалить узел из его родительского узла, вызвав метод [Remove](https://reference.aspose.com/words/ru/net/aspose.words/node/remove/). В следующем примере кода показано, как получить доступ к родительскому узлу:
+Вы можете удалить узел от его родителя, позвонив [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/) метод. Следующий пример кода показывает, как получить доступ к родительскому узлу:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-GetParentNode.cs" >}}
 
-#### Дочерние узлы
+#### Детские узлы
 
-Самый эффективный способ получить доступ к дочерним узлам [CompositeNode](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/) — через свойства [FirstChild](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/firstchild/) и [LastChild](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/lastchild/), которые возвращают первый и последний дочерние узлы соответственно. Если дочерних узлов нет, эти свойства возвращают *null*.
+Наиболее эффективный способ доступа к детским узлам [CompositeNode](https://reference.aspose.com/words/net/aspose.words/compositenode/) осуществляется через [FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/) и [LastChild](https://reference.aspose.com/words/net/aspose.words/compositenode/lastchild/) Свойства, возвращающие первый и последний детские узлы соответственно. Если нет детских узлов, эти свойства возвращаются *null*.
 
-**CompositeNode** также предоставляет метод [GetChildNodes](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/getchildnodes/), обеспечивающий индексированный или перечислимый доступ к дочерним узлам. Свойство **ChildNodes** представляет собой живую коллекцию узлов. Это означает, что при каждом изменении документа, например при удалении или добавлении узлов, коллекция **ChildNodes** автоматически обновляется.
+**CompositeNode** также обеспечивает [GetChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/getchildnodes/) Способ, позволяющий индексировать или перечислять доступ к узлам ребенка. The **ChildNodes** собственность - это живая коллекция узлов, что означает, что всякий раз, когда документ изменяется, например, когда узлы удаляются или добавляются, **ChildNodes** Коллекция обновляется автоматически.
 
-Если у узла нет дочернего узла, свойство **ChildNodes** возвращает пустую коллекцию. Вы можете проверить, содержит ли **CompositeNode** какие-либо дочерние узлы, используя свойство [HasChildNodes](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/haschildnodes/).
+Если у узла нет ребенка, то **ChildNodes** Имущество возвращает пустую коллекцию. Вы можете проверить, является ли **CompositeNode** содержит любые детские узлы, использующие [HasChildNodes](https://reference.aspose.com/words/net/aspose.words/compositenode/haschildnodes/) собственность.
 
-В следующем примере кода показано, как перечислить непосредственные дочерние узлы `CompositeNode` с помощью перечислителя, предоставленного коллекцией `ChildNodes`:
+Следующий пример кода показывает, как перечислить непосредственные узлы ребенка. `CompositeNode` используя числитель, предоставленный `ChildNodes` коллекция:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-EnumerateChildNodes.cs" >}}
 
-В следующем примере кода показано, как перечислить непосредственные дочерние узлы `CompositeNode` с использованием индексированного доступа:
+Следующий пример кода показывает, как перечислить непосредственные узлы ребенка. `CompositeNode` Использование индексированного доступа:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-IndexChildNodes.cs" >}}
 
 #### Родственные узлы
 
-Вы можете получить узел, который непосредственно предшествует или следует за конкретным узлом, используя свойства [PreviousSibling](https://reference.aspose.com/words/ru/net/aspose.words/node/previoussibling/) и [NextSibling](https://reference.aspose.com/words/ru/net/aspose.words/node/nextsibling/) соответственно. Если узел является последним дочерним элементом своего родителя, то свойство **NextSibling** равно *null*. И наоборот, если узел является первым дочерним элементом своего родителя, свойство **PreviousSibling** равно *null*.
+Вы можете получить узел, который непосредственно предшествует или следует за конкретным узлом, используя [PreviousSibling](https://reference.aspose.com/words/net/aspose.words/node/previoussibling/) и [NextSibling](https://reference.aspose.com/words/net/aspose.words/node/nextsibling/) свойств соответственно. Если узел является последним ребенком своего родителя, то **NextSibling** собственность является *null*. Если же узел является первым ребенком своего родителя, то **PreviousSibling** собственность является *null*.
 
-В следующем примере кода показано, как эффективно посещать все прямые и косвенные дочерние узлы составного узла:
+Следующий пример кода показывает, как эффективно посещать все прямые и косвенные дочерние узлы композитного узла:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-RecurseAllNodes.cs" >}}
 
-### Типизированный доступ к дочерним и родительским узлам {#typed-access-to-child-and-parent-nodes}
+### Типовой доступ к детским и родительским узлам {#typed-access-to-child-and-parent-nodes}
 
-До сих пор мы обсуждали свойства, которые возвращают один из базовых типов — **Node** или **CompositeNode**. Но иногда возникают ситуации, когда вам может потребоваться привести значения к определенному классу узла, например **Run** или **Paragraph**. То есть вы не можете полностью откажитесь от литья при работе с Aspose.Words и DOM, которые являются композитными.
+До сих пор мы обсуждали свойства, возвращающие один из базовых типов. **Node** или **CompositeNode**. Но иногда бывают ситуации, когда вам может потребоваться отбросить значения в определенный класс узлов, например: **Run** или **Paragraph**. То есть вы не можете полностью уйти от кастинга при работе с Aspose.Words DOM, который является составным.
 
-Чтобы уменьшить необходимость приведения типов, большинство классов Aspose.Words предоставляют свойства и коллекции, обеспечивающие строго типизированный доступ. Существует три основных шаблона типизированного доступа:
+Чтобы уменьшить потребность в литье, большинство Aspose.Words Классы предоставляют свойства и коллекции, которые обеспечивают строго типизированный доступ. Существует три основных шаблона типизированного доступа:
 
-— Родительский узел предоставляет типизированные свойства **FirstXXX** и **LastXXX**. Например, у **Document** есть свойства [FirstSection](https://reference.aspose.com/words/ru/net/aspose.words/document/firstsection/) и [LastSection](https://reference.aspose.com/words/ru/net/aspose.words/document/lastsection/). Аналогично, **Table** имеет такие свойства, как [FirstRow](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/firstrow/), [LastRow](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/lastrow/) и другие.
-— Родительский узел предоставляет типизированную коллекцию дочерних узлов, например [Document.Sections](https://reference.aspose.com/words/ru/net/aspose.words/document/sections/), [Body.Paragraphs](https://reference.aspose.com/words/ru/net/aspose.words/story/paragraphs/) и других.
-— Дочерний узел предоставляет типизированный доступ к своему родительскому узлу, например [Run.ParentParagraph](https://reference.aspose.com/words/ru/net/aspose.words/inline/parentparagraph/), [Paragraph.ParentSection](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/parentsection/) и другим.
+- Родительский узел показывает типизированный **FirstXXX** и **LastXXX** свойств. Например, в **Document** иметь [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) и [LastSection](https://reference.aspose.com/words/net/aspose.words/document/lastsection/) свойств. Точно так же **Table** обладает такими свойствами, как [FirstRow](https://reference.aspose.com/words/net/aspose.words.tables/table/firstrow/), [LastRow](https://reference.aspose.com/words/net/aspose.words.tables/table/lastrow/), и другие.
+- Родительский узел раскрывает типизированную коллекцию детских узлов, таких как: [Document.Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/), [Body.Paragraphs](https://reference.aspose.com/words/net/aspose.words/story/paragraphs/), и другие.
+- Детский узел обеспечивает типизированный доступ к своему родителю, например [Run.ParentParagraph](https://reference.aspose.com/words/net/aspose.words/inline/parentparagraph/), [Paragraph.ParentSection](https://reference.aspose.com/words/net/aspose.words/paragraph/parentsection/), и другие.
 
-Типизированные свойства — это просто полезные ярлыки, которые иногда обеспечивают более легкий доступ, чем общие свойства, унаследованные от [Node.ParentNode](https://reference.aspose.com/words/ru/net/aspose.words/node/parentnode/) и [CompositeNode.FirstChild](https://reference.aspose.com/words/ru/net/aspose.words/compositenode/firstchild/).
+Типовые свойства - это просто полезные ярлыки, которые иногда обеспечивают более легкий доступ, чем общие свойства, унаследованные от других типов. [Node.ParentNode](https://reference.aspose.com/words/net/aspose.words/node/parentnode/) и [CompositeNode.FirstChild](https://reference.aspose.com/words/net/aspose.words/compositenode/firstchild/).
 
-В следующем примере кода показано, как использовать типизированные свойства для доступа к узлам дерева документа:
+Следующий пример кода показывает, как использовать типизированные свойства для доступа к узлам дерева документов:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Node-ExNode-TypedAccess.cs" >}}

@@ -3,60 +3,60 @@ title: Вставить поля в C#
 second_title: Aspose.Words для .NET
 articleTitle: Вставить поля
 linktitle: Вставить поля
-description: "Как вставить поля в документ с помощью C# — узнайте разные способы на примерах кода."
+description: "Как вставить поля в документ с помощью C# Изучайте различные способы с примерами кода."
 type: docs
 weight: 20
 url: /ru/net/inserting-fields/
 ---
 
-Существует несколько способов вставки полей в документ:
+Существует несколько способов вставить поля в документ:
 
-* используя [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/)
-* используя [FieldBuilder](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldbuilder/)
-* используя [Aspose.Words Document Object Model (DOM)](/words/ru/net/aspose-words-document-object-model/)
+* использовать [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/)
+* использовать [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/)
+* использовать [Aspose.Words Document Object Model (DOM)](/words/ru/net/aspose-words-document-object-model/)
 
-В этой статье мы рассмотрим каждый способ более подробно и разберем, как вставить те или иные поля с помощью этих вариантов.
+В этой статье мы рассмотрим каждый способ более подробно и проанализируем, как вставить определенные поля, используя эти параметры.
 
 ## Вставка полей в документ с помощью DocumentBuilder
 
-В Aspose.Words метод [InsertField](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertfield/) используется для вставки новых полей в документ. Первый параметр принимает полный код вставляемого поля. Второй параметр является необязательным и позволяет вручную установить результат поля. Если это значение не указано, поле обновляется автоматически. Вы можете передать этому параметру значение null или пустое, чтобы вставить поле с пустым значением поля. Если вы не уверены в синтаксисе кода конкретного поля, сначала создайте поле в Microsoft Word и переключитесь, чтобы увидеть его код поля.
+В Aspose.Words тот [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) Метод используется для вставки новых полей в документ. Первый параметр принимает полный код поля, подлежащего вставке. Второй параметр является необязательным и позволяет задавать результат поля вручную. Если это не предусмотрено, то поле обновляется автоматически. Вы можете передать нуль или пустой к этому параметру, чтобы вставить поле с пустым значением поля. Если вы не уверены в конкретном синтаксисе кода поля, создайте поле в Microsoft Word Сначала переключитесь, чтобы увидеть код поля.
 
 {{% alert color="primary" %}}
 
-Если в коде вашего поля есть параметр, содержащий пробел, его необходимо заключить в речевые знаки. В противном случае поле как в Microsoft Word, так и в Aspose.Words может работать не так, как ожидалось, поскольку оба параметра обрабатываются как усеченные.
+Если ваш полевой код имеет параметр, содержащий пространство, то он должен быть заключен в знаки речи. В противном случае поле в обоих Microsoft Word и Aspose.Words может не работать так, как ожидалось, поскольку параметр рассматривается обоими как усеченный.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как вставить поле слияния в документ с помощью **DocumentBuilder**:
+Следующий пример кода показывает, как вставить поле слияния в документ, используя **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertField-InsertField.cs" >}}
 
-Тот же метод используется для вставки полей, вложенных в другие поля.
+Этот же метод используется для вставки полей, вложенных в другие поля.
 
-В следующем примере кода показано, как вставлять поля, вложенные в другое поле, с помощью **DocumentBuilder**:
+Следующий пример кода показывает, как вставить поля, вложенные в другое поле, используя **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertNestedFields-InsertNestedFields.cs" >}}
 
-### Укажите локаль на уровне поля
+### Укажите местоположение на уровне поля
 
-Идентификатор языка — это стандартное международное числовое сокращение языка в стране или географическом регионе. С помощью Aspose.Words вы можете указать языковой стандарт на уровне поля, используя свойство [LocaleId](https://reference.aspose.com/words/ru/net/aspose.words.fields/field/localeid/), которое получает или устанавливает идентификатор языкового стандарта поля.
+Идентификатор языка является стандартной международной цифровой аббревиатурой языка в стране или географическом регионе. с Aspose.Words, Вы можете указать Locale на уровне поля, используя [LocaleId](https://reference.aspose.com/words/net/aspose.words.fields/field/localeid/) собственность, которая получает или устанавливает локальный идентификатор поля.
 
-В следующем примере кода показано, как использовать эту опцию:
+Следующий пример кода показывает, как использовать эту опцию:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-SpecifylocaleAtFieldlevel-SpecifylocaleAtFieldlevel.cs" >}}
 
-### Вставить нетипизированное/пустое поле
+### Вставить нетипированное/пустое поле
 
-Если вы хотите вставить нетипизированные/пустые поля ({}), как это позволяет Microsoft Word, вы можете использовать метод [InsertField](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertfield/) с параметром [FieldType.FieldNone](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldtype/). Чтобы вставить поле в документ Word, можно нажать комбинацию клавиш "Ctrl+F9".
+Если вы хотите вставить незапечатанные/пустые поля{}) просто как Microsoft Word позволяет, вы можете использовать [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/) метод с помощью [FieldType.FieldNone](https://reference.aspose.com/words/net/aspose.words.fields/fieldtype/) параметр. Чтобы вставить поле в документ Word, можно нажать комбинацию клавиш "Ctrl + F9".
 
-В следующем примере кода показано, как вставить пустое поле в документ:
+Следующий пример кода показывает, как вставить пустое поле в документ:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldNone-InsertFieldNone.cs" >}}
 
 ## Вставка полей в документ с помощью FieldBuilder
-Альтернативным способом вставки полей в Aspose.Words является класс [FieldBuilder](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldbuilder/). Он предоставляет гибкий интерфейс для указания переключателей полей и значений аргументов в виде текста, узлов или даже вложенных полей.
+Альтернативный способ вставить поля в Aspose.Words Это [FieldBuilder](https://reference.aspose.com/words/net/aspose.words.fields/fieldbuilder/) класс. Он обеспечивает свободный интерфейс для указания переключателей полей и значений аргументов в виде текста, узлов или даже вложенных полей.
 
-В следующем примере кода показано, как вставить поле в документ, используя номер **FieldBuilder**:
+Следующий пример кода показывает, как вставить поле в документ, используя **FieldBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertFieldUsingFieldBuilder.cs" >}}
 
@@ -64,128 +64,128 @@ url: /ru/net/inserting-fields/
 
 Вы также можете вставлять различные типы полей, используя [Aspose.Words Document Object Model (DOM)](/words/ru/net/aspose-words-document-object-model/). В этом разделе мы рассмотрим несколько примеров.
 
-### Вставка поля слияния в документ с использованием DOM
+### Включить слияние Поле в документе с использованием DOM
 
-Поле `MERGEFIELD` в документе Word может быть представлено классом [FieldMergeField](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldmergefield/). Вы можете использовать класс **FieldMergeField** для выполнения следующих операций:
+The `MERGEFIELD` поле в документе Word может быть представлено [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/) класс. Вы можете использовать **FieldMergeField** класс для выполнения следующих операций:
 
-- указать имя поля слияния
+- указать название поля слияния
 - указать форматирование поля слияния
-- укажите текст, который находится между разделителем полей и концом поля поля слияния
-- укажите текст, который будет вставлен после поля слияния, если поле не пустое
-- укажите текст, который будет вставлен перед полем слияния, если поле не пустое
+- указать текст, который находится между разделителем поля и концом поля поля слияния поля
+- указать текст, который должен быть вставлен после поля слияния, если поле не является пустым
+- указать текст, который следует вставить перед полем слияния, если поле не является пустым
 
 {{% alert color="primary" %}}
 
-Подробнее см. [FieldMergeField](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldmergefield/) класс API.
+Для более подробной информации смотрите [FieldMergeField](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/) класс API.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить поле `MERGE` с использованием DOM в абзац документа:
+Следующий пример кода показывает, как добавить `MERGE` поле используя DOM к пункту в документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMergeFieldUsingDOM-InsertMergeFieldUsingDOM.cs" >}}
 
-### Вставка поля Mail Merge `ADDRESSBLOCK` в документ с использованием DOM
+### Вставка Mail Merge `ADDRESSBLOCK` поле в документ, использующий DOM
 
-Поле `ADDRESSBLOCK` используется для вставки блока адреса mail merge в документ Word. Поле `ADDRESSBLOCK` в документе Word может быть представлено классом [FieldAddressBlock](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldaddressblock/). Вы можете использовать класс **FieldAddressBlock** для выполнения следующих операций:
+The `ADDRESSBLOCK` поле используется для вставки mail merge Блок адресов в документе Word. `ADDRESSBLOCK` поле в документе Word может быть представлено [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) класс. Вы можете использовать **FieldAddressBlock** класс для выполнения следующих операций:
 
-- укажите, включать ли в поле название страны/региона
-- укажите, форматировать ли адрес в соответствии со страной/регионом получателя, как определено POST*CODE (Universal Postal Union 2006)
-- укажите название исключенной страны/региона
-- указать имя и формат адреса
+- указать, следует ли включать название страны/региона в поле;
+- указать, форматировать ли адрес в соответствии со страной/регионом получателя, как определено POST*CODE (Universal Postal Union 2006)
+- указать название исключенной страны/региона
+- указать название и формат адреса
 - указать идентификатор языка, используемый для форматирования адреса
 
 {{% alert color="primary" %}}
 
-Более подробную информацию см. в классе [FieldAddressBlock](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldaddressblock/) API.
+Для более подробной информации смотрите [FieldAddressBlock](https://reference.aspose.com/words/net/aspose.words.fields/fieldaddressblock/) класс API.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить поле Mail Merge `ADDRESSBLOCK` с использованием DOM в абзац документа:
+Следующий пример кода показывает, как добавить Mail Merge `ADDRESSBLOCK` Полевое использование DOM к пункту в документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertMailMergeAddressBlockFieldUsingDOM-InsertMailMergeAddressBlockFieldUsingDOM.cs" >}}
 
-### Вставка поля `ADVANCE` в документ без использования DocumentBuilder
+### Вставка `ADVANCE` полей в Документ без использования DocumentBuilder
 
-Поле `ADVANCE` используется для смещения последующего текста внутри строки влево, вправо, вверх или вниз. Поле `ADVANCE` в документе Word может быть представлено классом [FieldAdvance](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldadvance/). Вы можете использовать класс **FieldAdvance** для выполнения следующих операций:
+The `ADVANCE` Поле используется для смещения последующего текста в строке слева, справа, вверх или вниз. The `ADVANCE` поле в документе Word может быть представлено [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/) класс. Вы можете использовать **FieldAdvance** класс для выполнения следующих операций:
 
-- укажите количество пунктов, на которое текст, следующий за полем, должен быть сдвинут по вертикали от верхнего края страницы
-- укажите количество пунктов, на которое текст, следующий за полем, должен перемещаться по горизонтали от левого края столбца, фрейма или текстового поля
-- укажите количество пунктов, на которое текст, следующий за полем, должен перемещаться влево, вправо, вверх или вниз
+- указать количество точек, по которым текст, следующий за полем, должен быть перемещен вертикально с верхнего края страницы;
+- указать количество точек, по которым текст, следующий за полем, должен перемещаться горизонтально с левого края колонки, рамки или текстового ящика;
+- указать количество точек, по которым текст, следующий за полем, должен быть перемещен влево, вправо, вверх или вниз;
 
 {{% alert color="primary" %}}
 
-Более подробную информацию см. в классе [FieldAdvance](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldadvance/) API.
+Для более подробной информации смотрите [FieldAdvance](https://reference.aspose.com/words/net/aspose.words.fields/fieldadvance/) класс API.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить поле `ADVANCE` с использованием DOM в абзац документа:
+Следующий пример кода показывает, как добавить `ADVANCE` Полевое использование DOM к пункту в документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAdvanceFieldWithOutDocumentBuilder-InsertAdvanceFieldWithOutDocumentBuilder.cs" >}}
 
-### Вставка поля `ASK` в документ без использования DocumentBuilder
+### Вставка `ASK` полей в Документ без использования DocumentBuilder
 
-Поле `ASK` используется для запроса у пользователя текста, который можно назначить закладке в документе Word. Поле `ASK` в документе Word может быть представлено классом [FieldAsk](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldask/). Вы можете использовать класс **FieldAsk** для выполнения следующих операций:
+The `ASK` Поле используется для того, чтобы побудить пользователя присвоить текст закладке в документе Word. `ASK` поле в документе Word может быть представлено [FieldAsk](https://reference.aspose.com/words/net/aspose.words.fields/fieldask/) класс. Вы можете использовать **FieldAsk** класс для выполнения следующих операций:
 
 - указать название закладки
-- указать ответ пользователя по умолчанию (начальное значение, содержащееся в окне подсказки)
-- указать, следует ли получать ответ пользователя один раз за операцию mail merge
-- указать текст подсказки (заголовок окна подсказки)
+- указать ответ пользователя по умолчанию (первоначальное значение, содержащееся в окне подсказки)
+- указать, должен ли ответ пользователя быть получен один раз за mail merge операция
+- указать текст запроса (заголовок окна запроса)
 
 {{% alert color="primary" %}}
 
-Более подробную информацию см. в классе [FieldAsk](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldask/) API.
+Для более подробной информации смотрите [FieldAsk](https://reference.aspose.com/words/net/aspose.words.fields/fieldask/) класс API.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить поле `ASK` с помощью DOM в абзац документа:
+Следующий пример кода показывает, как добавить `ASK` Полевое использование DOM к пункту в документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertASKFieldWithOutDocumentBuilder-InsertASKFieldWithOutDocumentBuilder.cs" >}}
 
-### Вставка поля `AUTHOR` в документ без использования DocumentBuilder
+### Вставка `AUTHOR` полей в Документ без использования DocumentBuilder
 
-Поле `AUTHOR` используется для указания имени автора документа из свойств `Document`. Поле `AUTHOR` в документе Word может быть представлено классом [FieldAuthor](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldauthor/). Вы можете использовать класс **FieldAuthor** для выполнения следующих операций:
+The `AUTHOR` поле используется для указания имени автора документа из `Document` свойств. The `AUTHOR` поле в документе Word может быть представлено [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/) класс. Вы можете использовать **FieldAuthor** класс для выполнения следующих операций:
 
 - указать имя автора документа
 
 {{% alert color="primary" %}}
 
-Более подробную информацию см. в классе [FieldAuthor](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldauthor/) API.
+Для более подробной информации смотрите [FieldAuthor](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/) класс API.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить поле `AUTHOR` с помощью DOM в абзац документа:
+Следующий пример кода показывает, как добавить `AUTHOR` Полевое использование DOM к пункту в документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertAuthorField-InsertAuthorField.cs" >}}
 
-### Вставка поля `INCLUDETEXT` в документ без использования DocumentBuilder
+### Вставка `INCLUDETEXT` полей в Документ без использования DocumentBuilder
 
-Поле `INCLUDETEXT` вставляет текст и графику, содержащиеся в документе, указанном в коде поля. Вы можете вставить весь документ или его часть, на которую указывает закладка. Это поле в документе Word представлено INCLUDETEXT. Вы можете использовать класс [FieldIncludeText](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldincludetext/) для выполнения следующих операций:
+The `INCLUDETEXT` поле вставляет текст и графику, содержащиеся в документе, названном в коде поля. Вы можете вставить весь документ или часть документа, на которую ссылается закладка. Это поле в документе Word представлено INCLUDETEXT. Вы можете использовать [FieldIncludeText](https://reference.aspose.com/words/net/aspose.words.fields/fieldincludetext/) класс для выполнения следующих операций:
 
-- указать имя закладки включаемого документа
+- указать название закладки включенного документа
 - указать местонахождение документа
 
 {{% alert color="primary" %}}
 
-Подробнее см. [FieldIncludeText](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldincludetext/) класс API.
+Для более подробной информации смотрите [FieldIncludeText](https://reference.aspose.com/words/net/aspose.words.fields/fieldincludetext/) класс API.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить поле `INCLUDETEXT`, используя DOM, в абзац документа:
+Следующий пример кода показывает, как добавить `INCLUDETEXT` поле используя DOM к пункту в документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertIncludeFieldWithoutDocumentBuilder-InsertFieldIncludeTextWithoutDocumentBuilder.cs" >}}
 
-### Вставка поля `TOA` в документ без использования DocumentBuilder
+### Вставка `TOA` полей в Документ без использования DocumentBuilder
 
-Поле `TOA` (*Таблица полномочий*) создает и вставляет таблицу полномочий. Поле `TOA` собирает записи, отмеченные полями `TA` (*Таблица записей органов*). Microsoft Office Word вставляет поле `TOA`, когда вы нажимаете *Вставить таблицу полномочий* в группе **Таблица полномочий** на вкладке **References**. Когда вы просматриваете поле `TOA` в документе, синтаксис выглядит следующим образом:
+The `TOA` (* Таблица полномочий*) поле строит и вставляет таблицу полномочий. The `TOA` поле собирает записи, отмеченные `TA` (*Table of Authorities Entry*) поля. Microsoft Office Word вставляет `TOA` поле, когда вы нажимаете *Вставить таблицу полномочий* в **Таблица полномочий** группа на **References** вкладка. Когда вы смотрите на `TOA` Поле в вашем документе, синтаксис выглядит так:
 
 { `TOA` [Switches ] }
 
 {{% alert color="primary" %}}
 
-Подробнее см. [FieldToa](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldtoa/) класс API.
+Для более подробной информации смотрите [FieldToa](https://reference.aspose.com/words/net/aspose.words.fields/fieldtoa/) класс API.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить поле `TOA` с использованием DOM в абзац документа:
+Следующий пример кода показывает, как добавить `TOA` поле используя DOM к пункту в документе:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-InsertTOAFieldWithoutDocumentBuilder-InsertTOAFieldWithoutDocumentBuilder.cs" >}}

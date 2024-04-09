@@ -1,22 +1,22 @@
 ---
-title: Создайте или загрузите документ в Python
+title: Создать или загрузить документ в Python
 second_title: Aspose.Words для Python via .NET
 articleTitle: Создать или загрузить документ
 linktitle: Создать или загрузить документ
 type: docs
 url: /ru/python-net/create-or-load-a-document/
-description: "Создайте пустой документ или загрузите его из файла или потока, используя Python."
+description: "Создать пустой документ или загрузить его из файла или потока с помощью Python."
 keywords: "create a document python, load a document python, create a blank document python, load a document from file python, load a document from stream python, create a document Aspose python, load a document Aspose python, load formats supported by Aspose.Words python"
 weight: 10
 ---
 
-Практически любая задача, которую вы хотите выполнить с помощью Aspose.Words, предполагает загрузку документа. Класс [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) представляет документ, загруженный в память. Документ имеет несколько перегруженных конструкторов, позволяющих создать пустой документ или загрузить его из файла или потока. Документ можно загрузить в любом формате загрузки, поддерживаемом Aspose.Words. Список всех поддерживаемых форматов загрузки см. в перечислении [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/).
+Почти любая задача, которую вы хотите выполнить Aspose.Words Речь идет о загрузке документа. The [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Класс представляет собой документ, загруженный в память. В документе есть несколько перегруженных конструкторов, позволяющих создать пустой документ или загрузить его из файла или потока. Документ может быть загружен в любом формате загрузки, поддерживаемом Aspose.Words. Для списка всех поддерживаемых форматов загрузки см. [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) перечисление.
 
 ## Создать новый документ
 
-Мы вызовем конструктор [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) без параметров, чтобы создать новый пустой документ. Если вы хотите сгенерировать документ программным способом, самый простой способ — использовать класс [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) для добавления содержимого документа.
+Мы будем называть [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Конструктор без параметров для создания нового документа. Если вы хотите сгенерировать документ программно, самый простой способ - использовать его. [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) Класс для добавления содержимого документа.
 
-В следующем примере кода показано, как создать документ с помощью построителя документов:
+Следующий пример кода показывает, как создать документ с помощью конструктора документов:
 
 {{< highlight python >}}
 doc = aw.Document()
@@ -31,35 +31,35 @@ doc.save(docs_base.artifacts_dir + "out.docx")
 
 Обратите внимание на значения по умолчанию:
 
-- Пустой документ содержит один раздел с параметрами по умолчанию, один пустой абзац, несколько стилей документа. Фактически этот документ идентичен результату создания "Нового документа" в Microsoft Word.
-- Размер бумаги документа — [PaperSize.LETTER](https://reference.aspose.com/words/python-net/aspose.words/papersize/#letter).
+- пустой документ содержит один раздел с параметрами по умолчанию, один пустой абзац, некоторые стили документов. Фактически этот документ является тем же результатом, что и результат создания "Нового документа". Microsoft Word.
+- Размер документа является [PaperSize.LETTER](https://reference.aspose.com/words/python-net/aspose.words/papersize/#letter).
 
 {{% /alert %}}
 
-## Загрузите документ
+## Загрузить документ
 
-Чтобы загрузить существующий документ в любом из форматов [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/), передайте имя файла или поток в один из конструкторов [Document](https://reference.aspose.com/words/python-net/aspose.words/document/). Формат загружаемого документа автоматически определяется по его расширению.
+Загрузить существующий документ в любой из [LoadFormat](https://reference.aspose.com/words/python-net/aspose.words/loadformat/) форматы, передайте имя файла или поток в один из [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Конструкторы. Формат загруженного документа автоматически определяется его расширением.
 
-### Загрузить из файла
+### Загрузка из файла
 
-Передайте имя файла в виде строки конструктору [Document](https://reference.aspose.com/words/python-net/aspose.words/document/), чтобы открыть существующий документ из файла.
+Передайте имя файла как строку в [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Конструктор открывает существующий документ из файла.
 
-В следующем примере кода показано, как открыть документ из файла:
+Следующий пример кода показывает, как открыть документ из файла:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-OpenDocument.py" >}}
 
-Вы можете скачать файл шаблона этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 ### Загрузка из потока
 
-Чтобы открыть документ из потока, просто передайте объект потока, содержащий документ, в конструктор [Document](https://reference.aspose.com/words/python-net/aspose.words/document/).
+Чтобы открыть документ из потока, просто передайте объект потока, который содержит документ в поток. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Конструктор.
 
-В следующем примере кода показано, как открыть документ из потока:
+Следующий пример кода показывает, как открыть документ из потока:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-base_conversions-OpeningFromStream.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}

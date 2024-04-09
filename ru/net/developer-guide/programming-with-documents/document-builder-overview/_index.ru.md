@@ -1,71 +1,71 @@
 ---
-title: Обзор конструктора документов в C#
+title: Строитель документов Обзор в C#
 second_title: Aspose.Words для .NET
-articleTitle: Обзор конструктора документов
-linktitle: Обзор конструктора документов
+articleTitle: Обсуждение Document Builder
+linktitle: Обсуждение Document Builder
 type: docs
-description: "DocumentBuilder позволяет создавать динамические документы с нуля или добавлять новые элементы к существующим, используя C#. DocumentBuilder предоставляет методы для вставки текста, флажков, таблиц, изображений и других элементов контента в .NET."
+description: "DocumentBuilder позволяет создавать динамические документы с нуля или добавлять новые элементы к уже существующим. C#. DocumentBuilder предоставляет способы вставки текста, флажков, таблиц, изображений и других элементов контента в .NET."
 weight: 30
 url: /ru/net/document-builder-overview/
 ---
 
-[DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) — это мощный класс, который связан с [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/) и позволяет создавать динамические документы с нуля или добавлять новые элементы к существующему.
+[DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) Это мощный класс, который ассоциируется с [Document](https://reference.aspose.com/words/net/aspose.words/document/) Это позволяет создавать динамические документы с нуля или добавлять новые элементы к уже существующим.
 
-**DocumentBuilder** предоставляет методы для вставки текста, флажков, старых объектов, абзацев, списков, таблиц, изображений и других элементов контента. Он позволяет указывать шрифты, форматирование абзацев или разделов и выполнять другие операции.
+**DocumentBuilder** предоставляет методы для вставки текста, флажков, ole объектов, параграфов, списков, таблиц, изображений и других элементов контента. Он позволяет указывать шрифты, форматирование абзаца или раздела, а также выполнять другие операции.
 
-## Создатель документов или Aspose.Words DOM
+## Строитель документов или Aspose.Words DOM
 
-**DocumentBuilder** дополняет классы и методы, доступные в Aspose.Words Document Object Model (DOM), чтобы упростить наиболее распространенные задачи создания документов. То есть создавать и изменять содержимое документов можно как через Aspose.Words DOM, что требует хорошего понимания древовидной структуры, так и с помощью DocumentBuilder. `DocumentBuilder` — это "фасад" сложной структуры **Document**, который позволяет быстро и легко вставлять контент и форматировать.
+**DocumentBuilder** классы и методы, доступные в Aspose.Words Document Object Model ()DOM) для упрощения наиболее распространенных задач по созданию документов. То есть, вы можете создавать и изменять содержание документов как через Aspose.Words DOM, что требует хорошего понимания структуры дерева и использования документа. The `DocumentBuilder` Это "фасад" для комплекса. **Document** Структура, которая позволяет быстро и легко вставлять контент и форматирование.
 
-Операции, которые возможны с **DocumentBuilder**, также возможны при непосредственном использовании классов Aspose.Words DOM. Однако для прямого использования классов Aspose.Words DOM обычно требуется больше строк кода, чем для использования **DocumentBuilder**.
+Операции, которые возможны при **DocumentBuilder** Это возможно и при использовании классов Aspose.Words DOM напрямую. Однако, используя Aspose.Words DOM Классы напрямую обычно требуют больше строк кода, чем использование **DocumentBuilder**.
 
-## Навигация по документу
+## Навигация документов
 
-Навигация по документу основана на концепции виртуального курсора, с помощью которого вы можете перемещаться в другое место документа, используя различные методы **DocumentBuilder.MoveToXXX**, такие как [MoveToDocumentStart](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/movetodocumentstart/) и [MoveToField](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/movetofield/). Этот виртуальный курсор указывает, куда будет вставлен текст при вызове методов [Write](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/write/), [Writeln](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/write/ln/index)., [InsertBreak](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertbreak/) и другие. Дополнительную информацию о виртуальном курсоре см. в следующей статье "Навигация с помощью курсора".
+Навигация по документам основана на понятии виртуального курсора, с помощью которого можно перемещаться в другое место документа с помощью различных **DocumentBuilder.MoveToXXX** Такие методы, как [MoveToDocumentStart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetodocumentstart/) и [MoveToField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/movetofield/). Этот виртуальный курсор указывает, где текст будет вставлен при вызове методов. [Write](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/), [Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/write/ln/index), [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/), и другие. Смотрите следующую статью "Навигация с курсором", чтобы узнать больше о виртуальном курсоре.
 
-В следующем примере кода показано, как перейти к закладке:
+Следующий пример кода показывает, как перейти к закладке:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderMovingCursor-DocumentBuilderMoveToBookmarkEnd.cs" >}}
 
 ## Создание и изменение документов
 
-Aspose.Words API предоставляет несколько классов, отвечающих за форматирование различных элементов документа. Каждый из классов инкапсулирует свойства форматирования, относящиеся к определенному элементу документа, например тексту, абзацу, разделу и другим. Например, класс [Font](https://reference.aspose.com/words/ru/net/aspose.words/font/) представляет свойства форматирования символов, класс [ParagraphFormat](https://reference.aspose.com/words/ru/net/aspose.words/paragraphformat/) представляет свойства форматирования абзацев и т.д. Объекты этих классов возвращаются соответствующими свойствами **DocumentBuilder**, имеющими те же имена, что и классы. Таким образом, вы можете получить к ним доступ и установить желаемое форматирование во время сборки документа.
+Aspose.Words API Предоставляет несколько классов, которые отвечают за форматирование различных элементов документа. Каждый из классов инкапсулирует свойства форматирования, связанные с конкретным элементом документа, таким как текст, абзац, раздел и другие. Например, в [Font](https://reference.aspose.com/words/net/aspose.words/font/) класс представляет свойства форматирования символов, [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) Класс представляет свойства форматирования абзацев и так далее. Объекты этих классов возвращаются соответствующими **DocumentBuilder** Свойства, имеющие те же названия, что и классы. Таким образом, вы можете получить к ним доступ и установить желаемое форматирование во время сборки документа.
 
-Вы также можете вставлять текст, флажок, объект ole, изображения, закладки, поля формы и другие элементы документа в позицию курсора, используя метод `Write` или любой из методов **DocumentBuilder.InsertXXX**, таких как [InsertField](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertfield/#insertfield/), [InsertHtml](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/inserthtml/#inserthtml/) и подобные методы.
+Вы также можете вставить текст, флажок, оле-объект, изображения, закладки, поля форм и другие элементы документа в положение курсора, используя `Write` метод или любой из **DocumentBuilder.InsertXXX** методов, таких как [InsertField](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfield/#insertfield/), [InsertHtml](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthtml/#inserthtml/), и аналогичных методов.
 
-Давайте посмотрим, как создать простой документ, используя код **DocumentBuilder**.
+Рассмотрим, как создать простой документ, используя **DocumentBuilder**.
 
-### Создайте документ с помощью DocumentBuilder
+### Создание документа с помощью DocumentBuilder
 
-Для начала вам нужно создать **DocumentBuilder** и связать его с объектом **Document**. Вы создаете новый экземпляр **DocumentBuilder**, вызывая его конструктор, и передаете его объекту **Document** для присоединения к сборщику.
+Для начала вам нужно создать **DocumentBuilder** и связать его с **Document** объект. Вы создаете новый пример **DocumentBuilder** Позвонив своему конструктору и передав его **Document** объект для крепления к строителю.
 
-Чтобы вставить текст, передайте текстовую строку, которую необходимо вставить в документ, методу **Write**.
+Чтобы вставить текст, передайте строку текста, которую вам нужно вставить в документ, на **Write** метод.
 
-В следующем примере кода показано, как создать простой документ с помощью построителя документов.
+Следующий пример кода показывает, как создать простой документ с помощью конструктора документов.
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Quick-Start-HelloWorld-HelloWorld.cs" >}}
 
-### Укажите форматирование документа
+### Укажите формат документа
 
-Свойство [Font](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/font/) определяет форматирование текста. Этот объект содержит различные атрибуты шрифта (имя шрифта, размер шрифта, цвет и т.д.). Некоторые важные атрибуты шрифта также представлены **DocumentBuilder** свойствами, что позволяет вам получить к ним прямой доступ. Это логические свойства [Font.Bold](https://reference.aspose.com/words/ru/net/aspose.words/font/bold/), [Font.Italic](https://reference.aspose.com/words/ru/net/aspose.words/font/italic/) и [Font.Underline](https://reference.aspose.com/words/ru/net/aspose.words/font/underline/).
+The [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) Собственность определяет форматирование текста. Этот объект содержит различные атрибуты шрифта (имя шрифта, размер шрифта, цвет и так далее). Некоторые важные атрибуты шрифта также представлены **DocumentBuilder** Свойства, позволяющие получить к ним прямой доступ. Они являются [Font.Bold](https://reference.aspose.com/words/net/aspose.words/font/bold/), [Font.Italic](https://reference.aspose.com/words/net/aspose.words/font/italic/), и [Font.Underline](https://reference.aspose.com/words/net/aspose.words/font/underline/) Булевы свойства.
 
-В следующем примере кода показано, как вставить форматированный текст с помощью **DocumentBuilder**:
+Следующий пример кода показывает, как вставить отформатированный текст с помощью **DocumentBuilder**:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cs" >}}
 
 {{% alert color="primary" %}}
 
-- [Font](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/font/) определяет форматирование символов, которое будет применяться ко всему тексту, вставленному начиная с текущей позиции в документе.
-- [ParagraphFormat](https://reference.aspose.com/words/ru/net/aspose.words/paragraphformat/) определяет форматирование текущего абзаца и всех абзацев, которые будут вставлены.
-- [PageSetup](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/) указывает свойства страницы и раздела для текущего раздела и всего раздела, который будет вставлен.
-— [CellFormat](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/cellformat/) и [RowFormat](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/rowformat/) определяют свойства форматирования, которые будут применяться к ячейкам и строкам таблицы, начиная с текущей позиции в документе.
+- [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) определяет форматирование символов, которое будет применяться ко всему тексту, вставленному с текущей позиции в документе.
+- [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) определяет форматирование абзаца для текущего и всех абзацев, подлежащих вставке.
+- [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) Укажите свойства страницы и раздела для текущего раздела и всего раздела, который будет вставлен.
+- [CellFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/cellformat/) и [RowFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/rowformat/) указать свойства форматирования, которые будут применяться к ячейкам таблиц и строкам из текущего положения в документе и далее.
 
-В этой ситуации "текущий" означает позицию, абзац, раздел, ячейку или строку, в которой находится курсор.
+В этой ситуации "ток" означает положение, абзац, секцию, ячейку или строку, в которой находится курсор.
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что свойства **Font**, **ParagraphFormat** и **PageSetup** обновляются всякий раз, когда вы переходите в другое место в документе, чтобы отразить свойства форматирования этого места.
+Обратите внимание, что **Font**, **ParagraphFormat**, и **PageSetup** Свойства обновляются всякий раз, когда вы переходите в другое место в документе, чтобы отразить свойства форматирования этого места.
 
 {{% /alert %}}

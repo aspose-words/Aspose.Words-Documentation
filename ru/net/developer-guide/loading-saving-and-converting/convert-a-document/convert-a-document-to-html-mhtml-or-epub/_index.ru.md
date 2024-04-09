@@ -1,23 +1,23 @@
 ---
-title: Преобразование документа в HTML, MHTML или EPUB в C#
+title: Преобразовать документ в HTML, MHTML или EPUB C#
 second_title: Aspose.Words для .NET
 articleTitle: Преобразование документа в HTML, MHTML или EPUB
 linktitle: Преобразование документа в HTML, MHTML или EPUB
-description: "Конвертируйте документ практически из любого формата в HTML или MHTML, а также в формат EPUB с помощью C#. Вы также можете указать параметры сохранения для управления выходным документом."
+description: "Преобразование документа практически из любого формата в HTML или MHTML, а также в формат EPUB с использованием C#. Вы также можете указать варианты сохранения для управления выходным документом."
 type: docs
 weight: 20
 url: /ru/net/convert-a-document-to-html-mhtml-or-epub/
 ---
 
-Документы в форматах потоковой компоновки HTML и MHTML также очень популярны и могут использоваться на любой веб-платформе. По этой причине преобразование документов в HTML и MHTML является важной функцией Aspose.Words.
+Документы в форматах HTML и MHTML также очень популярны и могут использоваться на любой веб-платформе. По этой причине преобразование документов в HTML и MHTML является важной особенностью. Aspose.Words.
 
-EPUB (сокращение от "Электронная публикация") — это формат на основе HTML, обычно используемый для распространения электронных книг. Этот формат полностью поддерживается в Aspose.Words для экспорта электронных книг, совместимых с большинством устройств чтения.
+EPUB (сокращение от "Электронная публикация") - это формат на основе HTML, обычно используемый для распространения электронных книг. Данный формат полностью поддерживается в Aspose.Words Экспорт электронных книг, совместимых с большинством устройств чтения.
 
-## Преобразование документа
+## Преобразовать документ
 
-Для простого преобразования в HTML, MHTML или EPUB используется одна из перегрузок метода [Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/#save/). Вы можете сохранить документ в файл или поток и явно указать формат сохранения выходного документа или определить его по расширению имени файла.
+Для простого преобразования в HTML, MHTML или EPUB [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) Используется метод перегрузок. Вы можете сохранить документ в файл или поток и явно установить формат сохранения выходного документа или определить его из расширения имени файла.
 
-В следующем примере показано, как преобразовать DOCX в HTML с указанием формата сохранения:
+Следующий пример показывает, как конвертировать DOCX в HTML с указанием формата сохранения:
 
 **.NET**
 
@@ -30,72 +30,72 @@ Document doc = new Document(dataDir + "Test File.docx");
 doc.Save(dataDir + "Document", SaveFormat.Html);
 {{< /highlight >}}
 
-Чтобы преобразовать документ в MHTML или EPUB, используйте `SaveFormat.Mhtml` или `SaveFormat.Epub` соответственно.
+Чтобы конвертировать документ в MHTML или EPUB, используйте `SaveFormat.Mhtml` или `SaveFormat.Epub` соответственно.
 
-## Преобразование документа с двусторонней информацией
+## Преобразуйте документ с информацией о кругосветном пути
 
-Формат HTML не поддерживает многие функции Microsoft Word, и если нам нужно восстановить модель документа как можно ближе к оригиналу, нам необходимо сохранить некоторую дополнительную информацию в файле HTML. Такую информацию также называют "информацией туда и обратно". Для этой цели Aspose.Words предоставляет возможность экспортировать информацию туда и обратно при сохранении в HTML, MHTML или EPUB с использованием свойства [ExportRoundtripInformation](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/). Сохранение двусторонней информации позволяет восстановить свойства документа, такие как вкладки, комментарии, верхние и нижние колонтитулы, во время загрузки документов перечисленных форматов обратно в объект **Document**.
+HTML-формат не поддерживает многих Microsoft Word Если нам нужно восстановить модель документа как можно ближе к оригиналу, нам нужно сохранить дополнительную информацию в HTML-файле. Такую информацию еще называют "информацией круглого пути". Для этой цели, Aspose.Words предоставляет возможность экспортировать информацию в оба конца при сохранении в HTML, MHTML или EPUB с использованием [ExportRoundtripInformation](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/) собственность. Сохранение информации в оба конца позволяет восстановить свойства документа, такие как вкладки, комментарии, заголовки и нижние колонтитулы во время загрузки документов перечисленных форматов обратно в **Document** объект.
 
-Значение по умолчанию — **истинный** для HTML и **ЛОЖЬ** для MHTML и EPUB:
+Значение по умолчанию является **true** для HTML и **false** для MHTML и EPUB:
 
-- Если **истинный**, информация туда и обратно экспортируется как - aw - * свойства CSS соответствующих элементов HTML
-- Если **ЛОЖЬ**, нет никакой информации о двустороннем пути для вывода в создаваемые файлы
+- Когда **true**, информация в оба конца экспортируется как - aw - * CSS свойства соответствующих элементов HTML
+- Когда **false**, нет информации о кругообороте, которая должна быть выведена в созданные файлы
 
-В следующем примере кода показано, как экспортировать двустороннюю информацию при преобразовании документа из DOCX в HTML:
+Следующий пример кода показывает, как экспортировать информацию в оба конца при преобразовании документа из DOCX в HTML:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToHtmlWithRoundtrip-ConvertDocumentToHtmlWithRoundtrip.cs" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## Укажите параметры сохранения при преобразовании в HTML
+## Укажите параметры сохранения при конвертации в HTML
 
-Aspose.Words позволяет конвертировать документ Word в HTML, используя параметры сохранения по умолчанию или пользовательские. Ниже описаны несколько примеров пользовательских вариантов сохранения.
+Aspose.Words позволяет конвертировать документ Word в HTML, используя опции сохранения по умолчанию или на заказ. Несколько примеров пользовательских вариантов сохранения описаны ниже.
 
-### Укажите папку для сохранения ресурсов
+### Укажите папку для экономии ресурсов
 
-Используя Aspose.Words, мы можем указать физическую папку, в которой все ресурсы, такие как изображения, шрифты и внешний CSS, сохраняются при преобразовании документа в HTML. По умолчанию это пустая строка.
+Использовать Aspose.Words Мы можем указать физическую папку, где все ресурсы, такие как изображения, шрифты и внешний CSS, сохраняются при преобразовании документа в HTML. По умолчанию это пустая строка.
 
-Указание свойства [ResourceFolder](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/resourcefolder/) — это самый простой способ указать папку, в которую должны быть записаны все ресурсы. Мы можем использовать отдельные свойства, например [FontsFolder](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/fontsfolder/), который сохраняет шрифты в указанную папку, и [ImagesFolder](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/imagesfolder/), который сохраняет изображения в указанную папку. Если указан относительный путь, **FontsFolder** и **ImagesFolder** относятся к папке, в которой находится сборка кода, **ResourceFolder** и [CssStyleSheetFileName](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) относятся к выходной папке, в которой находится HTML-документ.
+Определяя [ResourceFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/resourcefolder/) Собственность - это самый простой способ установить папку, где должны быть написаны все ресурсы. Можно использовать индивидуальные свойства, такие как: [FontsFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/fontsfolder/) который сохраняет шрифты в указанной папке и [ImagesFolder](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/imagesfolder/) который сохраняет изображения в указанную папку. Когда определен относительный путь, **FontsFolder** и **ImagesFolder** ссылаться на папку, где находится сборка кода, **ResourceFolder** и [CssStyleSheetFileName](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/) Обратитесь к выходной папке, где находится HTML-документ.
 
-В этом примере **ResourceFolder** указывает относительный путь. Этот путь относится к выходной папке, в которой сохраняется HTML-документ. Значение свойства **ResourceFolderAlias** используется для создания URL-адресов для всех ресурсов.
+В этом примере, **ResourceFolder** Укажите относительный путь. Этот путь относится к выходной папке, где сохраняется HTML-документ. Значение этого **ResourceFolderAlias** Собственность используется для создания URL-адресов для всех ресурсов.
 
-В следующем примере кода показано, как работать с этими свойствами:
+Следующий пример кода показывает, как работать с этими свойствами:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ExportResourcesUsingHtmlSaveOptions-ExportResourcesUsingHtmlSaveOptions.cs" >}}
 
-Используя свойство [ResourceFolderAlias](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/), мы также можем указать имя папки, используемой для создания URI всех ресурсов, записанных в HTML-документ. Это самый простой способ указать, как URI должны генерироваться для всех файлов ресурсов. Эту же информацию можно указать для изображений и шрифтов отдельно через свойства [ImagesFolderAlias](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) и [FontsFolderAlias](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/) соответственно.
+Используя [ResourceFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/) Собственность, мы также можем указать название папки, используемой для построения URI всех ресурсов, записанных в HTML-документ. Это самый простой способ определить, как должны быть созданы URI для всех файлов ресурсов. Та же информация может быть указана для изображений и шрифтов отдельно. [ImagesFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/) и [FontsFolderAlias](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/) свойств соответственно.
 
-Однако для CSS не существует отдельного свойства. Поведение свойств **FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** и **CssStyleSheetFileName** не изменилось. Обратите внимание, что свойство **CssStyleSheetFileName** используется как для указания имени папки, так и имени файла.
+Отдельного имущества для CSS нет. Поведение этого **FontsFolder**, **FontsFolderAlias**, **ImagesFolder**, **ImagesFolderAlias** и **CssStyleSheetFileName** Свойства не меняются. Обратите внимание, что **CssStyleSheetFileName** Собственность используется как для указания имени папки, так и имени файла.
 
-- **ResourceFolder** имеет более низкий приоритет, чем папки, указанные в **FontsFolder**, **ImagesFolder** и **CssStyleSheetFileName**. Если папка, указанная в **ResourceFolder**, не существует, она будет создана автоматически.
-— **ResourceFolderAlias** имеет более низкий приоритет, чем **FontsFolderAlias** и **ImagesFolderAlias**. Если **ResourceFolderAlias** пусто, значение свойства **ResourceFolder** будет использоваться для создания URI ресурсов. Если для **ResourceFolderAlias** установлено значение "." (точка), URI ресурсов будут содержать только имена файлов без указания пути.
+- **ResourceFolder** имеет меньший приоритет, чем папки, указанные через **FontsFolder**, **ImagesFolder**, и **CssStyleSheetFileName**. Если папка указана в **ResourceFolder** Не существует, он будет создан автоматически.
+- **ResourceFolderAlias** имеет более низкий приоритет, чем **FontsFolderAlias** и **ImagesFolderAlias**. Если **ResourceFolderAlias** Он пуст, ценность его **ResourceFolder** Собственность будет использоваться для создания ресурса URI. Если **ResourceFolderAlias** Настроен на "." (точка), ресурс URI будет содержать только имена файлов без указания пути.
 
-### Экспорт ресурсов шрифтов с кодировкой Base64
+### Экспортная база 64 Ресурсы кодирования шрифтов
 
-Aspose.Words предоставляет возможность указать, следует ли встраивать ресурсы шрифтов в HTML в кодировках Base64. Для этого используйте свойство [ExportFontsAsBase64](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/) — это расширение свойства [ExportFontResources](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/exportfontresources/). По умолчанию его значение — **ЛОЖЬ**, а шрифты записываются в отдельные файлы. Но если для этого параметра установлено значение **истинный**, шрифты будут встроены в CSS документа в кодировке Base64. Свойство **Экспорт шрифтовAsBase64** влияет только на формат HTML и не влияет на EPUB и MHTML.
+Aspose.Words Это дает возможность определить, должны ли ресурсы шрифта быть встроены в HTML в кодировке Base64. Чтобы сделать это, используйте [ExportFontsAsBase64](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/) Собственность – это расширение [ExportFontResources](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/exportfontresources/) собственность. По умолчанию его ценность **false**, Шрифты пишутся в отдельные файлы. Но если этот вариант будет **true**, Шрифты будут встроены в CSS документа в кодировке Base64. The **ЭкспортФонтАсБаза64** Свойство влияет только на формат HTML и не влияет на EPUB и MHTML.
 
-В следующем примере кода показано, как экспортировать шрифты в кодировке Base64 в HTML:
+Следующий пример кода показывает, как экспортировать шрифты с кодом Base64 в HTML:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ExportFontsAsBase64-ExportFontsAsBase64.cs" >}}
 
-## Укажите параметры сохранения при преобразовании в EPUB
+## Укажите параметры сохранения при конвертации в EPUB
 
-Aspose.Words позволяет конвертировать документ Word в формат EPUB, используя параметры сохранения по умолчанию или пользовательские. Вы можете указать несколько параметров, передав экземпляр [HtmlSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/htmlsaveoptions/) методу [Save](https://reference.aspose.com/words/ru/net/aspose.words/document/save/#save/).
+Aspose.Words позволяет конвертировать документ Word в формат EPUB с использованием опций сохранения по умолчанию или на заказ. Вы можете указать несколько вариантов, передав пример [HtmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/) к [Save](https://reference.aspose.com/words/net/aspose.words/document/save/#save/) метод.
 
-В следующем примере кода показано, как преобразовать документ Word в EPUB с указанием некоторых пользовательских параметров сохранения:
+Следующий пример кода показывает, как конвертировать документ Word в EPUB с указанием некоторых пользовательских опций сохранения:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-ConvertDocumentToEPUB-ConvertDocumentToEPUB.cs" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
 ## Смотрите также
 
-- [Как экспортировать информацию о поездке туда и обратно при сохранении в HTML](/words/net/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/)
+- [Как экспортировать информацию в оба конца при сохранении в HTML](/words/net/custom-styles-used-for-proper-aspose-words-html-aspose-words-roundtrip/)

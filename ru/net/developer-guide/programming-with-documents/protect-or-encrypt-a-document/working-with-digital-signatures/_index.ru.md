@@ -3,21 +3,21 @@ title: Работа с цифровыми подписями в C#
 second_title: Aspose.Words для .NET
 articleTitle: Работа с цифровыми подписями
 linktitle: Работа с цифровыми подписями
-description: "Подписывайте документы цифровой подписью, а также обнаруживайте, подсчитывайте, проверяйте и удаляйте существующие цифровые подписи с помощью C#."
+description: "Цифровая подпись документов и обнаружение, подсчет, проверка и удаление существующих цифровых подписей с использованием C#."
 type: docs
 weight: 40
 url: /ru/net/working-with-digital-signatures/
 ---
 
-Цифровая подпись — это технологическая реализация электронных подписей для подписания документов и аутентификации подписавшего, чтобы гарантировать, что документ не был изменен с момента его подписания. Каждая цифровая подпись уникальна для каждого подписывающего лица, поскольку используется протокол PKI для генерации как открытых, так и закрытых ключей. Подписание документа в цифровом виде означает создание подписи с использованием закрытого ключа подписывающего лица, где математический алгоритм используется для шифрования сгенерированного хеша.
+Цифровая подпись - это технологическая реализация электронных подписей для подписания документов и аутентификации подписавшего, чтобы гарантировать, что документ не был изменен с момента его подписания. Каждая цифровая подпись уникальна для каждого подписавшего из-за следования протоколу PKI для создания как открытых, так и закрытых ключей. Подписание документа в цифровом виде означает создание подписи с использованием закрытого ключа подписавшего, где математический алгоритм используется для шифрования генерируемого хеша.
 
-Aspose.Words позволяет обнаруживать, подсчитывать или проверять существующие цифровые подписи, а также добавлять в документ новую подпись, чтобы обнаружить любые попытки ее подделки. Вы также можете удалить все цифровые подписи из документа. Используйте класс [DigitalSignatureUtil](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignatureutil/) для работы с цифровыми подписями.
+Aspose.Words Позволяет обнаруживать, подсчитывать или проверять существующие цифровые подписи, а также добавлять новую подпись в документ, чтобы выяснить любое вмешательство в него. Вы также можете удалить все цифровые подписи из документа. Используйте [DigitalSignatureUtil](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/) Класс для работы с цифровыми подписями.
 
-В этой статье объясняется, как сделать все вышеперечисленное, чтобы проверить подлинность и целостность цифрового документа.
+В этой статье объясняется, как сделать все вышеперечисленное, чтобы подтвердить подлинность и целостность цифрового документа.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что вы можете получить доступ к цифровым подписям вашего документа только при использовании версии .NET Framework 2.0 и выше.
+Обратите внимание, что вы можете получить доступ к цифровым подписям вашего документа только при запуске .NET Framework Версия 2.0 и выше.
 
 {{% /alert %}}
 
@@ -25,93 +25,93 @@ Aspose.Words позволяет обнаруживать, подсчитыват
 
 **Попробуйте онлайн**
 
-Вы можете попробовать эту функциональность с нашим [Бесплатная онлайн-подпись](https://products.aspose.app/words/signature).
+Вы можете попробовать эту функцию с нашей [Бесплатная онлайн подпись](https://products.aspose.app/words/signature).
 
 {{% /alert %}}
 
 ## Поддерживаемые форматы
 
-Aspose.Words позволяет работать с цифровыми подписями в документах DOC, OOXML и ODT и подписывать созданный документ в формате PDF или XPS.
+Aspose.Words позволяет работать с цифровыми подписями на документах DOC, OOXML и ODT и подписывать сгенерированный документ в формате PDF или XPS Формат.
 
 ## Ограничения цифровых подписей
 
-В таблице ниже описаны некоторые ограничения, с которыми вы можете столкнуться при работе с ЭЦП через Aspose.Words, а также некоторые альтернативные варианты.
+В таблице ниже описаны некоторые ограничения, с которыми вы можете столкнуться при работе с цифровыми подписями. Aspose.Words, А также некоторые альтернативные варианты.
 
-|  Ограничение |  Альтернативный вариант |
+|  ограничение |  Альтернативный вариант |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  Потеря цифровой подписи документа после его загрузки и сохранения. Таким образом, обработка документа на сервере может привести к потере всех цифровых подписей без предварительного уведомления |  Проверьте, есть ли на документе цифровые подписи, и при их обнаружении примите соответствующие меры. Например, отправьте клиентам предупреждение о том, что загружаемый ими документ содержит цифровые подписи, которые будут потеряны при его обработке |
-|  Aspose.Words поддерживает работу с макросами в документе. Но Aspose.Words пока не поддерживает цифровую подпись на макросах |  Экспортируйте документ обратно в любой формат Word и используйте Microsoft Word, чтобы добавить цифровую подпись к макросам |
+|  Потеря цифровых подписей на документе после загрузки и сохранения. Поэтому обработка документа на сервер может привести к потере всех цифровых подписей без уведомления |  Проверьте, есть ли в документе цифровые подписи, и при обнаружении их примите соответствующие меры. Например, отправьте уведомление клиентам, сообщив им, что документ, который они загружают, содержит цифровые подписи, которые будут потеряны, если он будет обработан |
+|  Aspose.Words Поддерживает работу с макросами в документе. Но Aspose.Words Пока не поддерживает цифровые подписи на макросах |  Экспортировать документ в любой формат Word и использовать его. Microsoft Word Добавить цифровую подпись в макросы |
 
 ## Обнаружение, подсчет и проверка цифровых подписей
 
-Aspose.Words позволяет обнаружить цифровую подпись в документе с помощью метода [DetectFileFormat](https://reference.aspose.com/words/ru/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) и свойства [HasDigitalSignature](https://reference.aspose.com/words/ru/net/aspose.words/fileformatinfo/hasdigitalsignature/). Стоит отметить, что такая проверка выявит лишь факт наличия подписи, но не ее достоверность.
+Aspose.Words позволяет обнаружить цифровую подпись в документе, используя [DetectFileFormat](https://reference.aspose.com/words/net/aspose.words/fileformatutil/detectfileformat/#detectfileformat/) метод и его [HasDigitalSignature](https://reference.aspose.com/words/net/aspose.words/fileformatinfo/hasdigitalsignature/) собственность. Стоит отметить, что такая проверка позволит лишь выявить факт подписи, но не ее действительность.
 
-Документ может быть подписан несколько раз, причем это могут делать разные пользователи. Чтобы проверить достоверность ЭЦП, необходимо загрузить их из документа методом [LoadSignatures](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) и использовать свойство [IsValid](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/). Также Aspose.Words позволяет подсчитать набор всех цифровых подписей в документе, используя свойство [Count](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/).
+Документ может быть подписан не один раз, и это могут сделать разные пользователи. Чтобы проверить действительность цифровых подписей, необходимо загрузить их из документа с помощью [LoadSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures/) Метод и использование [IsValid](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) собственность. Также Aspose.Words позволяет подсчитать набор всех цифровых подписей в документе, используя [Count](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/) собственность.
 
-Все это обеспечивает эффективный и безопасный способ проверки документа на наличие подписей перед его обработкой.
+Все это обеспечивает эффективный и безопасный способ проверки документа на подпись перед его обработкой.
 
-В следующем примере кода показано, как обнаружить наличие цифровых подписей и проверить их:
+Следующий пример кода показывает, как обнаружить наличие цифровых подписей и проверить их:
 
 {{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "detect-document-signatures.cs" >}}
 
-## Создать цифровую подпись {#create-a-digital-signature}
+## Создайте цифровую подпись {#create-a-digital-signature}
 
-Для создания цифровой подписи вам потребуется загрузить сертификат подписи, подтверждающий личность. Когда вы отправляете документ с цифровой подписью, вы также отправляете свой сертификат и открытый ключ.
+Чтобы создать цифровую подпись, вам потребуется загрузить сертификат подписи, который подтверждает личность. Когда вы отправляете документ с цифровой подписью, вы также отправляете сертификат и открытый ключ.
 
-Aspose.Words позволяет создать сертификат X.509 — цифровой сертификат, который использует международно признанный стандарт X.509 PKI для проверки принадлежности открытого ключа подписавшему лицу, включенному в сертификат. Для этого используйте метод [Create](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/certificateholder/create/) в классе [CertificateHolder](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/certificateholder/).
+Aspose.Words Это позволяет создать сертификат X.509, цифровой сертификат, который использует международно признанный стандарт X.509 PKI для проверки того, что открытый ключ принадлежит подписывающему лицу, включенному в сертификат. Чтобы сделать это, используйте [Create](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/create/) Метод в пределах [CertificateHolder](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/certificateholder/) класс.
 
-В следующих разделах объясняется, как добавить цифровую подпись, строку подписи и как подписать созданный документ PDF.
+В следующих разделах объясняется, как добавить цифровую подпись, строку подписи и как подписать сгенерированный документ PDF.
 
 ### Подписать документ
 
-Aspose.Words позволяет подписывать документы DOC, DOCX, XPS или ODT в цифровой форме, используя метод [Sign](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) и свойства [SignOptions](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/signoptions/).
+Aspose.Words позволяет подписать DOC, DOCX, XPS, или документ ODT в цифровом виде с использованием [Sign](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign/) метод и [SignOptions](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/signoptions/) свойств.
 
-В следующем примере кода показано, как подписывать документы с помощью владельца сертификата и параметров подписи:
+Следующий пример кода показывает, как подписывать документы с использованием держателя сертификата и опций подписи:
 
 {{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "sign-document.cs" >}}
 
 ### Добавить строку подписи
 
-Строка подписи — это визуальное представление цифровой подписи в документе. Aspose.Words позволяет вставить строку подписи методом [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertsignatureline/). Вы также можете установить параметры этого представления, используя класс [SignatureLineOptions](https://reference.aspose.com/words/ru/net/aspose.words/signaturelineoptions/).
+Линия подписи - это визуальное представление цифровой подписи в документе. Aspose.Words позволяет вставить строку подписи с помощью [DocumentBuilder.InsertSignatureLine](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertsignatureline/) метод. Вы также можете установить параметры для этого представления, используя [SignatureLineOptions](https://reference.aspose.com/words/net/aspose.words/signaturelineoptions/) класс.
 
 Например, на рисунке ниже показано, как могут отображаться действительные и недействительные подписи.
 
-<img src="/words/net/working-with-digital-signatures/valid.png" alt="рисунок" style="width:300px"/>
+<img src="/words/net/working-with-digital-signatures/valid.png" alt="drawing" style="width:300px"/>
 
-<img src="/words/net/working-with-digital-signatures/invalid.png" alt="рисунок" style="width:300px"/>
+<img src="/words/net/working-with-digital-signatures/invalid.png" alt="drawing" style="width:300px"/>
 
-Кроме того, если документ содержит строку подписи и не имеет цифровой подписи, существует функция, предлагающая пользователю добавить подпись.
+Кроме того, если документ содержит строку подписи и нет цифровой подписи, есть функция, чтобы попросить пользователя добавить подпись.
 
-В следующем примере кода показано, как подписать документ с помощью личного сертификата и определенной строки подписи:
+Следующий пример кода показывает, как подписать документ с личным сертификатом и конкретной строкой подписи:
 
 {{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "create-new-signature-line-and-set-provider-id.cs" >}}
 
-### Подпишите созданный PDF-документ {#sign-a-generated-pdf-document}
+### Подпишите генерируемый PDF-документ {#sign-a-generated-pdf-document}
 
-Aspose.Words позволяет подписывать и получать всю информацию о PDF-документе, используя свойства [PdfDigitalSignatureDetails](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfdigitalsignaturedetails/).
+Aspose.Words позволяет вам подписать и получить все детали PDF-документа, используя [PdfDigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/pdfdigitalsignaturedetails/) свойств.
 
-В следующем примере кода показано, как подписать созданный PDF-файл:
+Следующий пример кода показывает, как подписать сгенерированный PDF:
 
 {{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "digitally-signed-pdf-using-certificate-holder.cs" >}}
 
-## Получить значение цифровой подписи
+## Восстановление ценности цифровой подписи
 
-Aspose.Words также предоставляет возможность получить значение цифровой подписи из документа с цифровой подписью в виде массива байтов с помощью свойства [SignatureValue](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/).
+Aspose.Words также обеспечивает возможность извлечения значения цифровой подписи из документа с цифровой подписью в виде байтового массива с использованием [SignatureValue](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/) собственность.
 
-В следующем примере кода показано, как получить значение цифровой подписи в виде массива байтов из документа:
+Следующий пример кода показывает, как получить значение цифровой подписи в виде байтового массива из документа:
 
 {{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "signature-value.cs" >}}
 
 ## Удалить цифровые подписи
 
-Aspose.Words позволяет удалить все цифровые подписи из подписанного документа методом [RemoveAllSignatures](https://reference.aspose.com/words/ru/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/).
+Aspose.Words позволяет удалить все цифровые подписи из подписанного документа с помощью [RemoveAllSignatures](https://reference.aspose.com/words/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures/) метод.
 
-В следующем примере кода показано, как загружать и удалять цифровые подписи из документа:
+Следующий пример кода показывает, как загрузить и удалить цифровые подписи из документа:
 
 {{< gist "aspose-words-gists" "bdc15a6de6b25d9d4e66f2ce918fc01b" "remove-signatures.cs" >}}
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что вы не можете удалить только одну цифровую подпись в документе.
+Обратите внимание, что вы не можете удалить только одну цифровую подпись в своем документе.
 
 {{% /alert %}}

@@ -1,36 +1,36 @@
 ---
-title: Работа с текстовыми полями в Python
+title: Работа с текстовыми ящиками в Python
 second_title: Aspose.Words для Python via .NET
-articleTitle: Работа с текстовыми полями
-linktitle: Работа с текстовыми полями
-description: "Работайте с текстовыми полями в документе, используя номер Python."
+articleTitle: Работа с TextBoxs
+linktitle: Работа с TextBoxs
+description: "Работа с текстовыми ящиками в документе с использованием Python."
 type: docs
 weight: 250
 url: /ru/python-net/working-with-textboxes/
 ---
 
-В версии Aspose.Words класс [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) используется для указания способа отображения текста внутри фигуры. Он предоставляет общедоступное свойство с именем [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/), чтобы получить родительскую форму для текстового поля, чтобы клиент мог найти ссылку [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) из ссылки [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).
+В Aspose.Words, [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) Класс используется для определения того, как текст отображается внутри формы. Предоставляет государственную собственность под названием [parent](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/parent/) чтобы получить родительскую форму для текстового поля, чтобы клиент мог найти связанную [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) связанный [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/).
 
 ## Создание ссылки
 
-Класс [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) предоставляет метод [is_valid_link_target](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/is_valid_link_target/), чтобы проверить, можно ли связать [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) с целевым текстовым полем.
+[TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) Класс предоставляет [is_valid_link_target](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/is_valid_link_target/) метод, чтобы проверить, является ли [TextBox](https://reference.aspose.com/words/python-net/aspose.words.drawing/textbox/) Он может быть связан с целевым текстовым ящиком.
 
-В следующем примере кода показано, как проверить, можно ли связать `TextBox` с целевым текстовым полем:
+Следующий пример кода показывает, как проверить `TextBox` Можно связать с целевым текстовым ящиком:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CreateALink.py" >}}
 
-## Проверить последовательность текстового поля
+## Проверьте текст Коробочная последовательность
 
-Существует несколько способов отображения текста в фигуре. [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) может быть началом, серединой или хвостом последовательности.
+Существует несколько способов отображения текста в форме. The [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) Это может быть голова, средний или хвост последовательности.
 
-В следующем примере кода показано, как проверить, является ли **TextBox** началом, хвостом или серединой последовательности:
+Следующий пример показывает, как проверить, **TextBox** Это голова, хвост или середина последовательности:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-CheckSequence.py" >}}
 
-## Разрыв ссылки
+## Разорвать связь
 
-Используя метод [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/), вы можете разорвать ссылку на следующий **TextBox**.
+Используя [text_box](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/text_box/) Способ, которым вы можете разорвать ссылку на следующий **TextBox**.
 
-В следующем примере кода показано, как разорвать ссылку для **TextBox**:
+Следующий пример кода показывает, как разорвать ссылку для **TextBox**:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_textboxes-BreakALink.py" >}}

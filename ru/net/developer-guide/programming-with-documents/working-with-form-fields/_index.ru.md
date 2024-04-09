@@ -1,84 +1,84 @@
 ---
 title: Работа с полями формы в C#
 second_title: Aspose.Words для .NET
-articleTitle: Работа с полями формы
-linktitle: Работа с полями формы
-description: "Понимание функции полей формы, работа с полями формы с использованием C#."
+articleTitle: Работа с полями форм
+linktitle: Работа с полями форм
+description: "Понимание особенностей полей форм, работа с полями форм с использованием C#."
 type: docs
 weight: 380
 url: /ru/net/working-with-form-fields/
 ---
 
-Документ, содержащий пробелы (поля) для заполнения, называется формой. Например, вы можете создать регистрационную форму в Microsoft Word, в которой используются раскрывающиеся списки, из которых пользователи могут выбирать записи. Поле `Form` — это место, где хранятся данные определенного типа, например имя или адрес. Поля формы в Microsoft Word включают ввод текста, поле со списком и флажок.
+Документ, содержащий заполненные бланки (поля), называется формой. Например, можно создать регистрационную форму в Microsoft Word использует выпадающие списки, из которых пользователи могут выбирать записи. The `Form` Поле - это место, где хранится определенный тип данных, таких как имя или адрес. Форма поля в Microsoft Word Включает в себя текстовый ввод, комбокс и чекбокс.
 
-Вы можете использовать поля формы в своем проекте для "общения" с пользователями. Например, вы создаете документ, содержимое которого защищено, но редактировать можно только поля формы. Пользователи могут ввести данные в поля формы и отправить документ. Ваше приложение, использующее Aspose.Words, может извлекать данные из полей формы и обрабатывать их.
+Вы можете использовать поля формы в вашем проекте, чтобы "общаться" с вашими пользователями. Например, вы создаете документ, содержание которого защищено, но редактируются только поля форм. Пользователи могут ввести данные в поля формы и представить документ. Ваше приложение, которое использует Aspose.Words Он может извлекать данные из полей форм и обрабатывать их.
 
-Разместить поля формы в документе с помощью кода очень просто. [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) имеет специальные методы для их вставки, по одному для каждого типа поля формы. Каждый из методов принимает строковый параметр, представляющий имя поля формы. Имя может быть пустой строкой. Однако если вы укажете имя для поля формы, то автоматически создастся закладка с тем же именем.
+Размещение полей формы в документе с помощью кода легко. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) Имеет специальные способы их вставки, по одному для каждого типа поля формы. Каждый из методов принимает параметр строки, представляющий имя поля формы. Название может быть пустой строкой. Если, однако, вы указываете имя поля формы, закладка автоматически создается с тем же именем.
 
-## Вставка полей формы
+## Вставить поля формы
 
-Поля формы — это частный случай полей Word, который позволяет "взаимодействовать" с пользователем. Поля формы в Microsoft Word включают текстовое поле, поле со списком и флажок.
+Поля Формы - это особый случай полей Word, который позволяет "взаимодействовать" с пользователем. Форма поля в Microsoft Word К ним относятся текстовый ящик, комбо-бокс и чекбокс.
 
-**DocumentBuilder** предоставляет специальные методы для вставки каждого типа поля формы в документ: [InsertTextInput](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/inserttextinput/), [InsertCheckBox](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertcheckbox/) и [InsertComboBox](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertcombobox/). Обратите внимание, что если вы укажете имя для поля формы, то автоматически создастся закладка с тем же именем.
+**DocumentBuilder** Предусмотрены специальные методы включения каждого вида поля формы в документ: [InsertTextInput](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserttextinput/) , [InsertCheckBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcheckbox/), и [InsertComboBox](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertcombobox/). Обратите внимание, что если указать имя поля формы, то закладка автоматически создается с таким же названием.
 
-В следующем примере кода показано, как вставить поле формы со списком в документ:
+Следующий пример кода показывает, как вставить поле формы комбобокса в документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-InsertFormFields-InsertFormFields.cs" >}}
 
-### Вставка текстового ввода
+### Включить ввод текста
 
-Используйте метод **InsertTextInput**, чтобы вставить текстовое поле в документ.
+Используйте **InsertTextInput** Способ вставки текстового ящика в документ.
 
-В следующем примере кода показано, как вставить поле формы ввода текста в документ:
+Следующий пример кода показывает, как вставить поле формы ввода текста в документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertTextInputFormField.cs" >}}
 
-### Вставьте флажок
+### Вставьте галочку
 
-Позвоните по номеру **InsertCheckBox**, чтобы вставить флажок в документ.
+Звони. **InsertCheckBox** Вставить в документ чекбокс.
 
-В следующем примере кода показано, как вставить поле формы флажка в документ:
+Следующий пример кода показывает, как вставить поле формы флажка в документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertCheckBoxFormField.cs" >}}
 
-### Вставить поле со списком
+### Вставьте комбо-бокс
 
-Позвоните по номеру **InsertComboBox**, чтобы вставить в документ поле со списком.
+Звони. **InsertComboBox** Вставить в документ комбобокс.
 
-В следующем примере кода показано, как вставить поле формы Combobox в документ:
+Следующий пример кода показывает, как вставить поле формы Combobox в документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertElements-DocumentBuilderInsertComboBoxFormField.cs" >}}
 
 ## Получить поля формы
 
-Коллекция полей формы представлена классом [FormFieldCollection](https://reference.aspose.com/words/ru/net/aspose.words.fields/formfieldcollection/), который можно получить с помощью свойства [FormFields](https://reference.aspose.com/words/ru/net/aspose.words/range/formfields/). Это означает, что вы можете получить поля формы, содержащиеся в любом узле документа, включая сам документ.
+Коллекция полей форм представлена [FormFieldCollection](https://reference.aspose.com/words/net/aspose.words.fields/formfieldcollection/) класс, который можно восстановить с помощью [FormFields](https://reference.aspose.com/words/net/aspose.words/range/formfields/) собственность. Это означает, что вы можете получить поля формы, содержащиеся в любом узле документа, включая сам документ.
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла следующих примеров по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
+Вы можете скачать образец файла следующих примеров из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Form%20fields.docx).
 
 {{% /alert %}}
 
-В следующем примере кода показано, как получить коллекцию полей формы:
+Следующий пример кода показывает, как получить набор полей формы:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetFormFieldsCollection-FormFieldsGetFormFieldsCollection.cs" >}}
 
-Вы можете получить определенное поле формы по его индексу или имени.
+Вы можете получить определенное поле формы по его индексу или названию.
 
-В следующем примере кода показано, как получить доступ к полям формы:
+Следующий пример кода показывает, как получить доступ к полям форм:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsGetByName-FormFieldsGetByName.cs" >}}
 
-Свойства **FormField** позволяют работать с именем, типом и результатом поля формы.
+The **FormField** Свойства позволяют работать с именем поля формы, типом и результатом.
 
-В следующем примере кода показано, как работать с именем, типом и результатом поля формы:
+Следующий пример кода показывает, как работать с именем поля формы, типом и результатом:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsWorkWithProperties-FormFieldsWorkWithProperties.cs" >}}
 
-## Форматирование полей формы
+## Форма формата поля
 
-Свойство [Font](https://reference.aspose.com/words/ru/net/aspose.words/inline/font/) объекта [FormField](https://reference.aspose.com/words/ru/net/aspose.words.fields/formfield/) позволяет применять форматирование шрифта к **FormField** в целом, включая значение поля.
+The [Font](https://reference.aspose.com/words/net/aspose.words/inline/font/) имущество [FormField](https://reference.aspose.com/words/net/aspose.words.fields/formfield/) позволяет применять форматирование шрифтов к **FormField** В целом, включая стоимость поля.
 
-В следующем примере кода показано, как применить форматирование шрифта к **FormField**:
+Следующий пример кода показывает, как применять форматирование шрифта к **FormField**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Fields-FormFieldsFontFormatting-FormFieldsFontFormatting.cs" >}}

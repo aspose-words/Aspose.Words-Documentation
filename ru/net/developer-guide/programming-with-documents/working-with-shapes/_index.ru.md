@@ -1,94 +1,94 @@
 ---
-title: Работа с фигурами в C#
+title: Работа с формами в C#
 second_title: Aspose.Words для .NET
-articleTitle: Работа с фигурами
-linktitle: Работа с фигурами
-description: "Знакомство с языком разметки фигур, создание фигур разных типов с помощью C#."
+articleTitle: Работа с формами
+linktitle: Работа с формами
+description: "Введение в язык разметки формы, создание форм разных типов с использованием C#."
 type: docs
 weight: 280
 url: /ru/net/working-with-shapes/
 ---
 
-В этом разделе обсуждается, как программно работать с фигурами, используя Aspose.Words.
+Эта тема обсуждает, как программно работать с формами, используя Aspose.Words.
 
-Фигуры в Aspose.Words представляют объект в слое рисования, например автофигуру, текстовое поле, произвольную форму, объект OLE, элемент управления ActiveX или изображение. Документ Word может содержать одну или несколько различных фигур. Фигуры из Aspose.Words представлены классом [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/).
+Формы в Aspose.Words представляют собой объект в слое рисунка, такой как AutoShape, текстовый ящик, свободная форма, объект OLE, управление ActiveX или изображение. Документ Word может содержать одну или несколько различных форм. Формы в Aspose.Words представлены в виде [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) класс.
 
-## Вставка фигур с помощью Document Builder
+## Вставка форм с помощью конструктора документов
 
-Вы можете вставить в документ встроенную фигуру указанного типа и размера, а также свободно плавающую фигуру с указанным положением, размером и типом переноса текста, используя метод [InsertShape](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertshape/). Метод **InsertShape** позволяет вставлять форму DML в модель документа. Документ должен быть сохранен в формате, поддерживающем формы DML, иначе при сохранении документа такие узлы будут преобразованы в форму VML.
+Вы можете вставить встроенную форму с указанным типом и размером и свободно плавающую форму с указанным положением, размером и типом текстовой обертки в документ, используя [InsertShape](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertshape/) метод. The **InsertShape** Способ позволяет вставить форму DML в модель документа. Документ должен быть сохранен в формате, который поддерживает формы DML, в противном случае такие узлы будут преобразованы в форму VML, при этом сохраняется документ.
 
-В следующем примере кода показано, как вставить фигуры этих типов в документ:
+Следующий пример кода показывает, как вставить эти типы фигур в документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-InsertShapeUsingDocumentBuilder.cs" >}}
 
-## Установить соотношение сторон заблокировано
+## Установить соотношение заперто
 
-Используя Aspose.Words, вы можете указать, заблокировано ли соотношение сторон фигуры с помощью свойства [AspectRatioLocked](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shapebase/aspectratiolocked/).
+Использовать Aspose.Words, Вы можете указать, заблокировано ли соотношение сторон формы через [AspectRatioLocked](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/aspectratiolocked/) собственность.
 
-В следующем примере кода показано, как работать со свойством **AspectRatioLocked**:
+Следующий пример показывает, как работать с **AspectRatioLocked** имущество:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetAspectRatioLocked.cs" >}}
 
-## Установить макет фигуры в ячейке
+## Настройка формы Layout in Cell
 
-Вы также можете указать, будет ли фигура отображаться внутри таблицы или за ее пределами, используя свойство [IsLayoutInCell](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shapebase/islayoutincell/).
+Вы также можете указать, отображается ли форма внутри стола или снаружи стола. [IsLayoutInCell](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/islayoutincell/) собственность.
 
-В следующем примере кода показано, как работать со свойством **IsLayoutInCell**:
+Следующий пример показывает, как работать с **IsLayoutInCell** имущество:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SetShapeLayoutInCell.cs" >}}
 
-## Создать прямоугольник с отрезанным углом
+## Создайте прямоугольник Snip Corner
 
-Вы можете создать прямоугольник с отрезанным углом, используя Aspose.Words. Типы фигур: *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded* и *DiagonalCornersRounded.*
+Вы можете создать угловой прямоугольник с помощью Aspose.Words. Типы фигур: *SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped, TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, * и *DiagonalCornersRounded.*
 
-Форма DML создается с использованием метода **InsertShape** с использованием этих типов фигур. Эти типы нельзя использовать для создания фигур VML. Попытка создать фигуру с помощью открытого конструктора класса Shape вызывает исключение NotSupportedException.
+Форма DML создается с использованием **InsertShape** Метод с этими типами форм. Эти типы не могут быть использованы для создания форм VML. Попытка создать форму с помощью общественного конструктора класса "Форма" поднимает исключение "Неподдерживаемый Исключение".
 
-В следующем примере кода показано, как вставить фигуры такого типа в документ:
+Следующий пример кода показывает, как вставить эти типы фигур в документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-AddCornersSnipped.cs" >}}
 
-## Получите фактические точки границ формы
+## Получите реальные точки соприкосновения формы
 
-Используя Aspose.Words API, вы можете получить местоположение и размер фигуры, содержащей блок, в точках относительно привязки самой верхней фигуры. Для этого используйте свойство [BoundsInPoints](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shapebase/boundsinpoints/).
+Использовать Aspose.Words API, Вы можете получить расположение и размер формы, содержащей блок в точках, относительно якоря самой верхней формы. Чтобы сделать это, используйте [BoundsInPoints](https://reference.aspose.com/words/net/aspose.words.drawing/shapebase/boundsinpoints/) собственность.
 
-В следующем примере кода показано, как работать со свойством **BoundsInPoints**:
+Следующий пример показывает, как работать с **BoundsInPoints** имущество:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-GetActualShapeBoundsPoints.cs" >}}
 
-## Укажите вертикальную привязку
+## Укажите вертикальный якорь
 
-Вы можете указать вертикальное выравнивание текста внутри фигуры, используя свойство [VerticalAnchor](https://reference.aspose.com/words/ru/net/aspose.words.drawing/textbox/verticalanchor/).
+Вы можете указать вертикальное выравнивание текста в форме, используя [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.drawing/textbox/verticalanchor/) собственность.
 
-В следующем примере кода показано, как работать со свойством **VerticalAnchor**:
+Следующий пример показывает, как работать с **VerticalAnchor** имущество:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-SpecifyVerticalAnchor.cs" >}}
 
-## Обнаружение формы SmartArt
+## Обнаружение Smart Форма искусства
 
-Aspose.Words также позволяет определить, есть ли в Shape объект `SmartArt`. Для этого используйте свойство [HasSmartArt](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/hassmartart/).
+Aspose.Words Также можно определить, имеет ли форма `SmartArt` объект. Чтобы сделать это, используйте [HasSmartArt](https://reference.aspose.com/words/net/aspose.words.drawing/shape/hassmartart/) собственность.
 
-В следующем примере кода показано, как работать со свойством **HasSmartArt**:
+Следующий пример показывает, как работать с **HasSmartArt** имущество:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Shapes-WorkingWithShapes-DetectSmartArtShape.cs" >}}
 
-## Вставьте горизонтальное правило в документ
+## Включить горизонтальный Правило в документе
 
-Вы можете вставить фигуру горизонтальной линейки в документ, используя метод [InsertHorizontalRule](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/inserthorizontalrule/).
+Вы можете вставить горизонтальную форму правила в документ, используя [InsertHorizontalRule](https://reference.aspose.com/words/net/aspose.words/documentbuilder/inserthorizontalrule/) метод.
 
-В следующем примере кода показано, как это сделать:
+Следующий пример кода показывает, как это сделать:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertHorizontalRule-DocumentBuilderInsertHorizontalRule.cs" >}}
 
-Aspose.Words API предоставляет свойство [HorizontalRuleFormat](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/horizontalruleformat/) для доступа к свойствам формы горизонтальной линейки. Класс [HorizontalRuleFormat](https://reference.aspose.com/words/ru/net/aspose.words.drawing/horizontalruleformat/) предоставляет базовые свойства, такие как высота, цвет, отсутствие тени и т.д., для форматирования горизонтальной линейки.
+Aspose.Words API обеспечивает [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/shape/horizontalruleformat/) свойство доступа к свойствам горизонтальной формы правила. The [HorizontalRuleFormat](https://reference.aspose.com/words/net/aspose.words.drawing/horizontalruleformat/) Класс раскрывает основные свойства, такие как высота, цвет, NoShade и т.д. для форматирования горизонтального правила.
 
-В следующем примере кода показано, как установить **HorizontalRuleFormat**:
+Следующий пример кода показывает, как установить **HorizontalRuleFormat**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderHorizontalRule-DocumentBuilderHorizontalRuleFormat.cs" >}}
 
-## Импортируйте фигуры с помощью Math XML как фигуры в DOM
+## Импорт форм с помощью Math XML в виде форм DOM
 
-Вы можете использовать свойство [ConvertShapeToOfficeMath](https://reference.aspose.com/words/ru/net/aspose.words.loading/loadoptions/convertshapetoofficemath/) для преобразования фигур с помощью EquationXML в объекты Office Math. Значение этого свойства по умолчанию соответствует поведению Microsoft Word, т. е. фигуры с XML-уравнениями не преобразуются в математические объекты Office.
+Вы можете использовать [ConvertShapeToOfficeMath](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/convertshapetoofficemath/) свойство преобразовывать формы с помощью EquationXML в объекты Office Math. По умолчанию стоимость этого имущества соответствует Microsoft Word Формы с уравнением XML не преобразуются в объекты Office.
 
-В следующем примере кода показано, как преобразовать фигуры в объекты Office Math:
+Следующий пример кода показывает, как конвертировать формы в объекты Office Math:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Loading-and-Saving-Load_Options-ConvertShapeToOfficeMath.cs" >}}
