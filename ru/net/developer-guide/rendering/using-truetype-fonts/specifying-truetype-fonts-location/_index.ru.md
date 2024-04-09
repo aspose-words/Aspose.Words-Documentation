@@ -1,124 +1,124 @@
 ---
-title: Укажите расположение шрифтов TrueType в C#
+title: Укажите истинное Тип шрифтов Расположение в C#
 second_title: Aspose.Words для .NET
-articleTitle: Укажите расположение шрифтов TrueType
-linktitle: Укажите расположение шрифтов TrueType
-description: "Укажите различные источники шрифтов TrueType: системную папку, пользовательские источники, загрузку шрифтов из потока, файловую систему или память, используя C#."
+articleTitle: Укажите истинное Тип расположения шрифтов
+linktitle: Укажите истинное Тип расположения шрифтов
+description: "Укажите различные Правда Источники шрифтов типа: системная папка, источники пользователей, загрузка шрифтов из потока, файловая система или память с использованием C#."
 type: docs
 weight: 30
 url: /ru/net/specifying-truetype-fonts-location/
 ---
 
-В этом разделе описывается поведение Aspose.Words по умолчанию при поиске шрифтов TrueType, включая различия, специфичные для операционной системы, и демонстрируется, как указать источники пользовательских шрифтов.
+Эта тема описывает поведение по умолчанию Aspose.Words когда он ищет шрифты TrueType, включая специфические отличия операционной системы, и демонстрирует, как указать источники шрифтов пользователя.
 
-Класс [FontSourceBase](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsourcebase/) используется для указания различных источников шрифтов. Существует несколько реализаций класса **FontSourceBase**:
+The [FontSourceBase](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/) Класс используется для указания различных источников шрифтов. Существует несколько реализаций **FontSourceBase** класс:
 
-- [SystemFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/systemfontsource)
-- [FolderFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/folderfontsource)
-- [StreamFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/streamfontsource)
-- [FileFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/filefontsource)
-- [MemoryFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/memoryfontsource)
+- [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource)
+- [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource)
+- [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource)
+- [FileFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/filefontsource)
+- [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource)
 
-Подробности реализации для некоторых классов описаны ниже.
+Подробная информация о реализации некоторых классов объясняется ниже.
 
 ## Загрузка шрифтов из системы {#loading-fonts-from-system}
 
-Существует специальный класс [SystemFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/systemfontsource/), который всегда используется по умолчанию. Он представляет все шрифты TrueType, установленные в системе. Таким образом, можно создать список источников с номером **SystemFontSource** и любыми другими необходимыми источниками:
+Есть особая [SystemFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/) Класс, который всегда используется по умолчанию. Он представляет все шрифты TrueType, установленные в системе. Таким образом, можно создать список источников с **SystemFontSource** и любые другие необходимые источники:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFolders-SetFontsFolders.cs" >}}
 
-Один экземпляр класса **SystemFontSource** по умолчанию определен в [FontSettings](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/). В разных операционных системах шрифты могут располагаться в разных местах. Однако использование экземпляра **FontSettings** для каждого документа не является оптимальным решением. В большинстве случаев использования [DefaultInstance](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/defaultinstance/) должно быть достаточно.
+Один экземпляр из **SystemFontSource** Класс определяется по умолчанию в [FontSettings](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/). На разных операционных системах шрифты могут располагаться в разных местах. Однако, используя a **FontSettings** Пример для каждого документа не является оптимальным решением. В большинстве случаев, используя [DefaultInstance](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/defaultinstance/) Должно быть достаточно.
 
-Экземпляры для каждого документа необходимы только в том случае, если требуется использовать разные источники шрифтов для разных документов, что является редким случаем. Использование нескольких экземпляров **FontSettings** снижает производительность, поскольку они не используют общий кеш.
+Инстанции для каждого документа нужны только в том случае, если для разных документов требуется использовать разные источники шрифтов, что является редким случаем. Использование нескольких **FontSettings** Примеры снижают производительность, потому что они не разделяют кэш.
 
-### Где Aspose.Words ищет шрифты TrueType на Windows
+### Где? Aspose.Words Ищите шрифты TrueType Windows
 
-В большинстве случаев пользователи Windows не сталкиваются с существенными проблемами с пропущенными шрифтами или неправильной раскладкой. Обычно Aspose.Words просматривает документ и, встречая ссылку на шрифт, успешно извлекает данные шрифта из системной папки.
+В большинстве случаев, Windows Пользователи не сталкиваются со значительными проблемами с пропущенными шрифтами или неправильными макетами. Как правило, Aspose.Words проходит через документ и, когда он сталкивается со ссылкой шрифта, успешно извлекает данные шрифта из системной папки.
 
-На Windows Aspose.Words сначала берет все доступные шрифты из папки _%windir%\Fonts. Этот параметр будет работать для вас большую часть времени. Вы указываете свои собственные папки со шрифтами только в случае необходимости. Aspose.Words для .NET также ищет дополнительные шрифты, зарегистрированные в разделе реестра HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts. Кроме того, Windows 10 разрешает установку шрифтов для текущего пользователя. Шрифты помещаются в папку %userprofile%\AppData\Local\Microsoft\Windows\Fonts, а также указываются в реестре HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts, где Aspose.Words будет искать эти шрифты.
+На <p notrans="<p notrans=" Windows"=""></p>"> Aspose.Words Сначала берет все доступные шрифты из _%windir% Папка шрифтов. Эта настройка будет работать для вас большую часть времени. Вы указываете только свои собственные папки шрифтов, если это необходимо. Aspose.Words для .NET Ищите дополнительные шрифты, зарегистрированные в HKEY_ LOCAL_MACHINE\SOFTWAREMicrosoft\Windows NT\CurrentVersion\ Ключ реестра шрифтов. Кроме того, Windows 10 позволяет устанавливать шрифты для текущего пользователя. Шрифты помещаются в %userprofile%\ AppData\LocalMicrosoft\Windows\ Папка шрифтов, а также указанная в HKEY_ Current_USER\SoftwareMicrosoft\Windows NT\CurrentVersion\ Реестр шрифтов, где Aspose.Words Будем искать эти шрифты.
 
-Если документ содержит встроенные шрифты, Aspose.Words может прочитать соответствующие данные шрифта из документа и использовать их для создания макета документа. Документы также могут содержать ссылки на шрифты, которых нет в системных папках, в этом случае срабатывают следующие сценарии:
+Если документ содержит встроенные шрифты, Aspose.Words Вы можете прочитать соответствующие данные шрифта из документа и использовать их для создания макета документа. Документы также могут содержать ссылки на шрифты, которых нет в системных папках, и в этом случае работают следующие сценарии:
 
-- Пользователи могут настраивать новые источники шрифтов с помощью класса **FontSettings**
-- Aspose.Words может попробовать заменить пропущенный шрифт на аналогичный
+- Пользователи могут создавать новые источники шрифтов через **FontSettings** класс
+- Aspose.Words можно попытаться заменить пропущенный шрифт на аналогичный
 
 {{% alert color="primary" %}}
 
-Рендеринг Aspose.Words на сервере обычно не работает с приложением ASP.NET, настроенным для работы на уровне среднего доверия, поскольку оно запрещает доступ к реестру и ограничивает доступ к файловой системе.
+Aspose.Words рендеринг на сервере обычно не работает с ASP.NET Приложение сконфигурировано для работы на уровне Medium Trust, поскольку запрещает доступ к реестру и ограничивает доступ к файловой системе.
 
 {{% /alert %}}
 
-### Шрифты в системах, отличных от Windows
+### Фонты на Non-Windows Системы
 
-Aspose.Words будет искать шрифты в системных папках шрифтов. Список этих папок можно просмотреть методом [GetSystemFontFolders](https://reference.aspose.com/words/ru/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/). Если поддерживаемые шрифты не найдены, Aspose.Words будет использовать встроенный шрифт по умолчанию Fanwood.ttf.
+Aspose.Words будет искать шрифты в системных папках шрифтов. Список этих папок можно увидеть по [GetSystemFontFolders](https://reference.aspose.com/words/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/) метод. Если не найдено поддерживаемых шрифтов, Aspose.Words Используется встроенный по умолчанию шрифт Fanwood.ttf.
 
-Поскольку метрики шрифтов ОС Windows и не-Windows разные, Aspose.Words делает все возможное, чтобы найти похожий шрифт и построить макет, аналогичный оригиналу. Однако, это не всегда возможно. В этих случаях для добавления пользовательских шрифтов или правил замены следует использовать класс **FontSettings**.
+Поскольку метрики шрифтов Windows и не-Windows OS отличается, Aspose.Words делает все возможное, чтобы найти похожий шрифт и построить макет, похожий на оригинал. Однако это не всегда возможно. В этих случаях, **FontSettings** Класс должен использоваться для добавления пользовательских шрифтов или правил замены.
 
-#### Где Aspose.Words ищет шрифты TrueType на Linux
+#### Где? Aspose.Words Ищите шрифты TrueType Linux
 
-В разных дистрибутивах Linux шрифты могут храниться в разных папках. Aspose.Words ищет шрифты в нескольких местах. По умолчанию Aspose.Words ищет шрифты во всех следующих папках: * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts Это поведение по умолчанию будет работать для большинства дистрибутивов Linux., но не гарантируется, что он будет работать постоянно, и в этом случае вам может потребоваться явно указать расположение шрифтов истинного типа. Для этого вам необходимо знать, где в вашем дистрибутиве Linux установлены шрифты TrueType.
+Различный Linux Дистрибутивы могут хранить шрифты в разных папках. Aspose.Words Ищите шрифты в нескольких местах. По умолчанию, Aspose.Words * /usr/share/fonts* /usr/local/share/fonts* /usr/X11R6/lib/X11/fonts Это поведение по умолчанию будет работать для большинства Linux дистрибутивы, но это не гарантируется работать все время, в этом случае вам может потребоваться указать местоположение true шрифтов явно. Для этого вам нужно знать, где на вашем устройстве установлены шрифты TrueType. Linux распределения.
 
-#### Где Aspose.Words ищет шрифты TrueType в Mac OS X
+#### Где? Aspose.Words Поиск шрифтов TrueType на Mac OS X
 
-Aspose.Words ищет шрифты в папке /Library/Fonts, которая является стандартным расположением шрифтов TrueType в Mac OS X. Хотя этот параметр будет работать в большинстве случаев, вам может потребоваться указать собственные папки шрифтов в том случае, если вам нужно.
+Aspose.Words Поиск шрифтов в папке /Library/Fonts, которая является стандартным расположением шрифтов TrueType на Mac OS X. Хотя этот параметр будет работать для вас большую часть времени, вам может потребоваться указать свои собственные папки шрифтов в случае, когда вам нужно.
 
-## Загрузить шрифты из папки {#loading-fonts-from-folder}
+## Загрузка шрифтов из папки {#loading-fonts-from-folder}
 
-Если обрабатываемый документ содержит ссылки на шрифты, которых нет в системе, или вы не хотите добавлять их в системную папку, или у вас нет прав, то лучшим решением будет добавить папку со своими шрифтами с помощью метод [SetFontsSources](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/setfontssources/). Это позволит заменить системный источник на пользовательский. Aspose.Words больше не будет искать шрифты в реестре или папке Windows\Font, а будет сканировать шрифты только в указанных папках. Метод [GetFontSources](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/getfontssources/) вернет соответствующие значения.
+Если обрабатываемый документ содержит ссылки на шрифты, которых нет в системе, или вы не хотите добавлять их в системную папку, или вам не хватает разрешений, то лучшим решением будет добавить папку со своими собственными шрифтами с помощью системы. [SetFontsSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontssources/) метод. Это позволит заменить системный источник на пользовательский. Aspose.Words больше не будет искать шрифты в реестре или Windows\ Папка шрифта и вместо этого только сканирование шрифтов в указанной папке (ах). The [GetFontSources](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/getfontssources/) Метод возвращает соответствующие значения.
 
-### Укажите одну или несколько папок шрифтов
+### Укажите одну или несколько папок шрифта
 
-Методы [SetFontsFolder](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/setfontsfolder/) и [SetFontsFolders](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/setfontsfolder/s) являются ярлыками метода **SetFontSources** с одним или несколькими экземплярами [FolderFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/folderfontsource/). Эти методы используются для указания того, где Aspose.Words следует искать шрифты. Если папка не существует или недоступна, Aspose.Words просто игнорирует эту папку. Если все папки, включая источники подмены шрифтов, были проигнорированы, то Aspose.Words будет использовать шрифт Fanwood по умолчанию.
+The [SetFontsFolder](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/) и [SetFontsFolders](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/setfontsfolder/s) Методы являются короткими для **SetFontSources** Способ с одним или несколькими [FolderFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/folderfontsource/) Примеры. Эти методы используются для определения того, где Aspose.Words Нужно искать шрифты. Если папка отсутствует или недоступна, Aspose.Words Просто игнорирует эту папку. Если все папки, включая источники для замены шрифта, были проигнорированы, Aspose.Words По умолчанию будет использоваться шрифт Fanwood.
 
-В следующем примере показано, как задать папку или источник, который Aspose.Words впоследствии будет использовать для поиска шрифтов TrueType во время рендеринга или внедрения шрифтов:
+Следующий пример показывает, как установить папку или источник, который Aspose.Words Впоследствии будет использоваться для поиска шрифтов TrueType при рендеринге или встраивании шрифтов:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetTrueTypeFontsFolder-SetTrueTypeFontsFolder.cs" >}}
 
-Вы можете скачать файл шаблона этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
-Дополнительный логический параметр определяет, будут ли шрифты сканироваться рекурсивно во всех папках, следовательно, сканируются все дочерние папки указанной папки. В следующем примере показано, как настроить Aspose.Words для поиска шрифтов TrueType в нескольких папках при рендеринге или внедрении шрифтов:
+Дополнительный булевой параметр контролирует, сканируются ли шрифты рекурсивно через все папки, следовательно, сканируют все детские папки указанной папки. Следующий пример показывает, как установить Aspose.Words искать в нескольких папках шрифты TrueType при рендеринге или встраивании шрифтов:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersMultipleFolders-SetFontsFoldersMultipleFolders.cs" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера по номеру [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Обратите внимание на приоритеты. Если в разных источниках шрифтов есть шрифты с одинаковым названием и стилем, то Aspose.Words выберет шрифт из источника с более высоким приоритетом. См. описание поля "Приоритет" ниже.
+Обратите внимание на приоритеты. Если есть шрифты с одинаковым фамилией и стилем в разных источниках шрифтов, то Aspose.Words Выберите шрифт из источника с более высоким приоритетом. См. описание поля "Приоритет" ниже.
 
-Если вы вообще не хотите использовать системные шрифты, Aspose.Words позволяет игнорировать их и использовать только свои собственные шрифты:
+Если вы не хотите использовать системные шрифты, Aspose.Words Позволяет игнорировать их и использовать только собственные шрифты:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersDefaultInstance-SetFontsFoldersDefaultInstance.cs" >}}
 
-### Приоритетная недвижимость
+### Приоритетное имущество
 
-Свойство [Priority](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsourcebase/priority/) используется, когда в разных источниках шрифтов имеются шрифты с одинаковым названием и стилем. В этом случае Aspose.Words выбирает шрифт из источника с более высоким значением приоритета. Например, в системной папке есть старая версия шрифта, и клиент добавил новую версию того же шрифта в пользовательскую папку.
+The [Priority](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/priority/) Собственность используется, когда есть шрифты с одинаковым именем и стилем в разных источниках шрифтов. В этом случае Aspose.Words Выберите шрифт из источника с более высоким приоритетным значением. Например, есть старая версия шрифта в системной папке, и клиент добавил новую версию того же шрифта в пользовательскую папку.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-SetFontsFoldersWithPriority-SetFontsFoldersWithPriority.cs" >}}
 
-## Загрузка шрифтов из потока {#loading-fonts-from-stream}
+## Загрузка шрифтов от Stream {#loading-fonts-from-stream}
 
-Aspose.Words предоставляет класс [StreamFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/streamfontsource/), который позволяет загружать шрифты из потока. Чтобы использовать источник потокового шрифта, пользователю необходимо создать производный класс от **StreamFontSource** и предоставить реализацию метода [OpenFontDataStream](https://reference.aspose.com/words/ru/net/aspose.words.fonts/streamfontsource/openfontdatastream/). Метод **OpenFontDataStream** можно было вызывать несколько раз. Впервые он будет вызван, когда Aspose.Words просканирует предоставленные источники шрифтов, чтобы получить список доступных шрифтов. Позже его можно вызвать, если шрифт используется в документе для анализа данных шрифта и встраивания данных шрифта в некоторые выходные форматы. **StreamFontSource** может быть полезен, поскольку позволяет загружать данные шрифта только тогда, когда это необходимо, а не хранить их в памяти на время жизни [Настройки шрифта](https://fontsettings/).
+Aspose.Words обеспечивает [StreamFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/) класс, который позволяет загружать шрифты из потока. Для использования источника потокового шрифта пользователю необходимо создать производный класс из **StreamFontSource** и обеспечить осуществление [OpenFontDataStream](https://reference.aspose.com/words/net/aspose.words.fonts/streamfontsource/openfontdatastream/) метод. The **OpenFontDataStream** Метод можно назвать несколько раз. Впервые он будет называться Aspose.Words сканирует предоставленные источники шрифтов, чтобы получить список доступных шрифтов. Позже его можно назвать, если шрифт используется в документе для разбора данных шрифта и встраивания данных шрифта в некоторые выходные форматы. **StreamFontSource** может быть полезным, поскольку позволяет загружать данные шрифта только тогда, когда это необходимо, и не хранить их в памяти для [Настройки шрифтов](https://fontsettings/) пожизненно.
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-ResourceSteamFontSourceExample-ResourceSteamFontSourceExample.cs" >}}
 
-**StreamFontSource** является альтернативой [MemoryFontSource](https://reference.aspose.com/words/ru/net/aspose.words.fonts/memoryfontsource/), поскольку всегда можно загрузить поток в память и передать его **MemoryFontSource**. Разница в том, что **MemoryFontSource** хранится в памяти постоянно, а **StreamFontSource** загружается по требованию и удаляется сразу. Но его можно загрузить несколько раз, как описано выше. В некоторых случаях предпочтительнее **MemoryFontSource**, а в других **StreamFontSource**.
+**StreamFontSource** является альтернативой [MemoryFontSource](https://reference.aspose.com/words/net/aspose.words.fonts/memoryfontsource/) Поскольку всегда можно загрузить поток в память и передать его в **MemoryFontSource**. Разница заключается в том, что **MemoryFontSource** хранится в памяти постоянно, и **StreamFontSource** Загружен по требованию и утилизирован сразу. Но он может быть загружен несколько раз, как описано выше. В некоторых случаях **MemoryFontSource** предпочтительнее, а в других **StreamFontSource**.
 
-## Сохранение и загрузка кэша поиска шрифтов
+## Сохраните и загрузите кэш поиска шрифта
 
-При первом поиске шрифта Aspose.Words перебирает указанные пользователем источники шрифтов и формирует кэш поиска шрифтов на основе данных из этих источников. Таким образом, в кэше будет собрана информация о доступных шрифтах: семействе шрифтов, стиле, полном названии шрифта и других. При последующих вызовах Aspose.Words ищет информацию о нужном шрифте по его названию в кэше поиска шрифтов, после чего анализирует указанные файлы для использования шрифта.
+При первом поиске шрифта, Aspose.Words Итерирует по источникам шрифта, указанным пользователем, и формирует кэш поиска шрифта на основе данных из этих источников. Таким образом, кэш будет собирать информацию о доступных шрифтах: семействе шрифтов, стиле, полном названии шрифта и других. Последующие звонки, Aspose.Words осуществляет поиск информации о желаемом шрифте по его названию в кэше поиска шрифта, после чего анализирует указанные файлы для использования шрифта.
 
-Процедура разбора всех доступных файлов шрифтов для инициализации кэша занимает достаточно много времени. Aspose.Words позволяет сохранять и загружать кеш с помощью метода [SaveSearchCache](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsettings/savesearchcache/) для решения проблемы с производительностью. То есть пользователь может загрузить ранее сохраненный кеш из файла и пропустить этап разбора всех доступных файлов шрифтов.
+Процедура анализа всех доступных файлов шрифтов для инициализации кэша занимает довольно много времени. Aspose.Words позволяет сохранять и загружать кэш с помощью [SaveSearchCache](https://reference.aspose.com/words/net/aspose.words.fonts/fontsettings/savesearchcache/) Способ решения проблемы производительности. То есть пользователь может загрузить ранее сохраненный кэш из файла и пропустить этап разбора всех доступных файлов шрифтов.
 
 {{% alert color="primary" %}}
 
-Используйте тот же метод **SaveSearchCache** для обновления кеша.
+Используйте тот же **SaveSearchCache** Способ обновления кэша.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как заранее подготовить источники шрифтов и создать кэш поиска шрифтов:
+Следующий пример кода показывает, как заранее подготовить источники шрифтов и создать кэш поиска шрифтов:
 
 {{< highlight csharp >}}
 // Prepare font sources and generate font search cache beforehand.
@@ -132,7 +132,7 @@ settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, stream
 settings.SaveSearchCache(cacheOutputStream);
 {{< /highlight >}}
 
-В следующем примере кода показано, как установить источники шрифтов и загрузить кэш поиска перед обработкой документов:
+Следующий пример кода показывает, как установить источники шрифтов и загрузить кэш поиска перед обработкой документов:
 
 {{< highlight csharp >}}
 // Set font sources and load search cache before processing documents. Note that sources should be the same as when saving font search cache.
@@ -147,14 +147,14 @@ settings.SetFontsSources(new FontSourceBase[] { fileSource, memorySource, stream
 
 {{% alert color="primary" %}}
 
-Кэш поиска шрифтов отлично подходит для интеграции Aspose.Words в AWS Lambda из-за ряда ограничений. Например, от размера основного контейнера и, как следствие, от количества шрифтов.
+Поисковый кэш отлично подходит для Aspose.Words интеграция в AWS Lambda из-за ряда ограничений. Например, на основной размер контейнера и, как следствие, на количество шрифтов.
 
-Кэш также подходит для других сценариев, когда шрифты загружаются по сети. Или для сценариев, когда нет возможности сохранить экземпляр `FontSettings` с загруженным кешем.
+Кэш также подходит для других сценариев, когда шрифты загружаются по сети. Или для сценариев, когда нет возможности хранить `FontSettings` Пример с загруженным кэшем.
 
 {{% /alert %}}
 
-## Получить список доступных шрифтов {#get-a-list-of-available-fonts}
+## Получите список доступных шрифтов {#get-a-list-of-available-fonts}
 
-Если вы хотите получить список доступных шрифтов, которые, например, можно использовать для рендеринга PDF-документа, вы можете использовать метод [GetAvailableFonts](https://reference.aspose.com/words/ru/net/aspose.words.fonts/fontsourcebase/getavailablefonts/), как показано в следующем примере кода. Класс [PhysicalFontInfo](https://reference.aspose.com/words/ru/net/aspose.words.fonts/physicalfontinfo/) указывает информацию о физическом шрифте, доступном для механизма шрифтов Aspose.Words:
+Если вы хотите получить список доступных шрифтов, которые, например, могут быть использованы для рендеринга PDF-документа, вы можете использовать [GetAvailableFonts](https://reference.aspose.com/words/net/aspose.words.fonts/fontsourcebase/getavailablefonts/) Способ, как показано в следующем примере кода. The [PhysicalFontInfo](https://reference.aspose.com/words/net/aspose.words.fonts/physicalfontinfo/) класс указывает информацию о физическом шрифте, доступном для Aspose.Words Двигатель шрифта:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithFontSources-GetListOfAvailableFonts.cs" >}}

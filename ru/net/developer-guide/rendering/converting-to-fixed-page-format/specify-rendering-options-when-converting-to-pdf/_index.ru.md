@@ -1,93 +1,93 @@
 ---
-title: Параметры при конвертации в PDF
+title: Варианты при конвертации в PDF
 second_title: Aspose.Words для .NET
-articleTitle: Укажите параметры рендеринга при преобразовании в PDF
-linktitle: Укажите параметры рендеринга при преобразовании в PDF
-description: "Преобразуйте документ в PDF с расширенными параметрами с помощью C#. Преобразуйте формы DOCX в PDF C#. Используйте PdfSaveOptions, чтобы изменить результат сохранения документа в PDF."
+articleTitle: Укажите параметры рендеринга при конвертации в PDF
+linktitle: Укажите параметры рендеринга при конвертации в PDF
+description: "Преобразование документа в PDF с использованием расширенных опций C#. Преобразовать формы DOCX в PDF C#. Используйте PdfSaveOptions, чтобы изменить результат сохранения документа в PDF."
 type: docs
 weight: 20
 url: /ru/net/specify-rendering-options-when-converting-to-pdf/
 ---
 
-Формат PDF — это формат с фиксированной страницей, который очень популярен среди пользователей и широко поддерживается различными приложениями, поскольку документ PDF выглядит одинаково на любом устройстве. По этой причине преобразование в PDF является важной функцией Aspose.Words.
+Формат PDF - это формат фиксированной страницы, который очень популярен среди пользователей и широко поддерживается различными приложениями, потому что документ PDF выглядит одинаково на любом устройстве. По этой причине преобразование в PDF является важной особенностью Aspose.Words.
 
-PDF — сложный формат. В процессе конвертации документа в PDF требуется несколько этапов расчетов, включая расчет макета. Поскольку эти этапы включают сложные вычисления, они требуют много времени. Кроме того, формат PDF сам по себе довольно сложен. Он имеет определенную файловую структуру, графическую модель и встраивание шрифтов. Более того, он имеет некоторые сложные функции вывода, такие как теги структуры документа, шифрование, цифровые подписи и редактируемые формы.
+PDF является сложным форматом. В процессе преобразования документа в PDF требуется несколько этапов вычислений, включая расчет макета. Поскольку эти этапы включают в себя сложные вычисления, они занимают много времени. Формат PDF сам по себе довольно сложен. Он имеет определенную файловую структуру, графическую модель и встраивание шрифта. Кроме того, он имеет некоторые сложные функции вывода, такие как теги структуры документа, шифрование, цифровые подписи и редактируемые формы.
 
-Механизм компоновки Aspose.Words имитирует работу механизма компоновки страниц Microsoft Word. Таким образом, Aspose.Words делает выходные документы PDF максимально приближенными к тому, что вы можете видеть в Microsoft Word. Иногда необходимо указать дополнительные параметры, которые могут повлиять на результат сохранения документа в формате PDF. Эти параметры можно указать с помощью класса [PdfSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/), содержащего свойства, определяющие способ отображения вывода PDF.
+Aspose.Words Двигатель компоновки имитирует способ Microsoft WordДвижок макета страницы работает. Поэтому, Aspose.Words PDF-документы выглядят как можно ближе к тому, что вы видите Microsoft Word. Иногда необходимо указать дополнительные опции, которые могут повлиять на результат сохранения документа в формате PDF. Эти варианты могут быть определены с помощью [PdfSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/) класс, содержащий свойства, которые определяют, как будет отображаться выход PDF.
 
-Некоторые примеры использования **PdfSaveOptions** приведены ниже.
+Некоторые примеры использования **PdfSaveOptions** Они представлены ниже.
 
 {{% alert color="primary" %}}
 
-В настоящее время вы можете сохранять файлы в форматах PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u и PDF/UA-1. Используйте перечисление [PdfCompliance](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfcompliance/), чтобы установить уровень соответствия стандартам PDF. Обратите внимание, что в формате PDF/A размер выходного файла больше, чем обычный размер файла PDF.
+В настоящее время можно сохранять в форматах PDF 1.7, PDF 2.0, PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2u и PDF/UA-1. Используйте [PdfCompliance](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) Перечисление для определения уровня соответствия стандартам PDF. Обратите внимание, что в формате PDF / A размер выходного файла больше, чем обычный размер файла PDF.
 
-[PdfCompliance.PdfA1a](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfcompliance/) и [PdfCompliance.PdfA1b](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfcompliance/) помечены как устаревшие.
+[PdfCompliance.PdfA1a](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) и [PdfCompliance.PdfA1b](https://reference.aspose.com/words/net/aspose.words.saving/pdfcompliance/) Они обозначены как устаревшие.
 
-Дополнительную информацию о PDF/A см. в следующей статье "Особенности преобразования в PDF/A".
+Для получения дополнительной информации о PDF/A см. следующую статью "Изучите особенности преобразования в PDF/A".
 
 {{% /alert %}}
 
-## Создание PDF-документа с заполняемыми формами
+## Создание PDF Документ с заполняемыми формами
 
-Также можно экспортировать заполняемые формы из документа Microsoft Word в выходной PDF-файл, в котором вместо обычного текста имеются заполняемые формы. Используйте свойство [PreserveFormFields](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/preserveformfields/), чтобы сохранить документ в формате PDF с заполняемыми формами.
+Также можно экспортировать заполняемые формы из Microsoft Word документ на выходе PDF, который имеет заполняемые формы вместо простого текста. Используйте [PreserveFormFields](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/preserveformfields/) свойство сохранять документ в формате PDF с заполняемыми формами.
 
-Обратите внимание, что в отличие от Microsoft Word формат PDF имеет ограниченное количество опций для редактируемых форм, таких как текстовое поле, поле со списком и флажок. Microsoft Word имеет больше типов форм, например, выбор даты в календаре. Как правило, невозможно полностью имитировать поведение Microsoft Word в PDF. Поэтому в некоторых сложных случаях вывод PDF может отличаться от того, что вы видите в Microsoft Word.
+Отметим, что в отличие от <p notrans="<p notrans=" Microsoft Word"=""></p>"> Формат PDF имеет ограниченное количество опций для редактируемых форм, таких как текстовый ящик, комбобокс и чекбокс. Microsoft Word Имеет больше видов форм, например, календарный датчик. Как правило, полностью имитировать невозможно. Microsoft Word Поведение в PDF. Таким образом, в некоторых сложных случаях выход PDF может отличаться от того, что вы видите. Microsoft Word.
 
-В приведенном ниже примере кода показано, как сохранить документ в формате PDF с заполняемыми формами с указанным сжатием и качеством Jpeg:
+Приведенный ниже пример кода показывает, как сохранить документ в формате PDF с заполняемыми формами с заданным сжатием и качеством Jpeg:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Save Options-Working with PdfSaveOptions-PdfImageCompression.cs" >}}
 
-## Экспорт структуры документа и пользовательских свойств
+## Экспорт структуры документов и пользовательских свойств
 
-Свойство [https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/properties/exportdocumentstructure) позволяет экспортировать структуру документа в PDF-файл.
+Свойство [https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/properties/exportdocumentstructure] позволяет экспортировать структуру документа на выход PDF.
 
-Средства логической структуры PDF предоставляют механизм включения информации, касающейся структуры содержимого документа, в файл PDF. Aspose.Words сохраняет информацию о структуре документа Microsoft Word, такую как абзацы, списки, таблицы, сноски/концевые сноски и т.д.
+Средства логической структуры PDF обеспечивают механизм включения информации о структуре содержимого документа в файл PDF. Aspose.Words сохраняет информацию о структуре из Microsoft Word документ, такой как пункты, списки, таблицы, сноски/сноски и т.д.
 
-В следующем примере показано, как сохранить документ в формате PDF с сохранением структуры документа:
+Следующий пример показывает, как сохранить документ в формате PDF, сохранив структуру документа:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportDocumentStructure.cs" >}}
 
-Aspose.Words также позволяет экспортировать пользовательские свойства документа в PDF, что демонстрируется в следующем примере:
+Aspose.Words Позволяет также экспортировать в PDF документ пользовательские свойства, что подтверждается следующим примером:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-CustomPropertiesExport.cs" >}}
 
-## Экспорт контуров из закладок и заголовков в выходной PDF-файл
+## Экспорт закладок и заголовков в Output PDF
 
-Если вы хотите экспортировать закладки в виде контуров в выходной PDF-файл, вы можете использовать свойство [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/ru/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/). Это свойство определяет уровень по умолчанию в структуре документа, на котором отображается Microsoft Word закладка. Если документ содержит закладки в верхнем или нижнем колонтитуле документа, вы можете установить для свойства [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) значение [First](https://reference.aspose.com/words/ru/net/aspose.words.saving/headerfooterbookmarksexportmode/) или [All](https://reference.aspose.com/words/ru/net/aspose.words.saving/headerfooterbookmarksexportmode/), чтобы указать, как они экспортируются в выходной PDF-файл. Закладки в верхних и нижних колонтитулах не экспортируются, если значение **HeaderFooterBookmarksExportMode** равно [None](https://reference.aspose.com/words/ru/net/aspose.words.saving/headerfooterbookmarksexportmode/).
+Если вы хотите экспортировать закладки в виде контуров в выходном PDF, вы можете использовать [DefaultBookmarksOutlineLevel](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) собственность. Это свойство определяет уровень по умолчанию в схеме документа, при котором Microsoft Word Отображаются закладки. Если документ содержит закладки в заголовке / футере документа, вы можете установить [HeaderFooterBookmarksExportMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/) имущество [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) или [All](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) Для того, чтобы указать, как они экспортируются в выходной PDF. Закладки в заголовках / футерах не экспортируются, когда стоимость **HeaderFooterBookmarksExportMode** это [None](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/).
 
-В примере кода ниже показано, как экспортировать закладки из первого верхнего или нижнего колонтитула раздела:
+Приведенный ниже пример кода показывает, как экспортировать закладки из первого заголовка / футера раздела:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-ExportHeaderFooterBookmarks.cs" >}}
 
-Выходной PDF-файл этого примера показан ниже:
+Вывод PDF этого примера показан ниже:
 
 ![specify-rendering-options-when-converting-to-pdf_1](/words/net/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-1.png)
 
-Если для **HeaderFooterBookmarksExportMode** установлено значение [First](https://reference.aspose.com/words/ru/net/aspose.words.saving/headerfooterbookmarksexportmode/) и документ имеет четные и нечетные верхние/нижние колонтитулы или другой верхний/нижний колонтитул первой страницы, закладки экспортируются для первых уникальных верхних/нижних колонтитулов в разделе.
+Когда **HeaderFooterBookmarksExportMode** устанавливается [First](https://reference.aspose.com/words/net/aspose.words.saving/headerfooterbookmarksexportmode/) и документ имеет четные и нечетные заголовки / футеры или другой заголовок / футер первой страницы, закладки экспортируются для первых уникальных заголовков / футеров в разделе.
 
-Вы также можете экспортировать заголовки в выходной PDF-файл, используя свойство [HeadingsOutlineLevels](https://reference.aspose.com/words/ru/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/). Это свойство определяет, сколько уровней заголовков включено в структуру документа.
+Вы также можете экспортировать заголовки в выходном PDF, используя [HeadingsOutlineLevels](https://reference.aspose.com/words/net/aspose.words.saving/outlineoptions/headingsoutlinelevels/) собственность. Это свойство определяет, сколько уровней заголовков включено в схему документа.
 
-В примере кода ниже показано, как экспортировать заголовки с тремя уровнями:
+Приведенный ниже пример кода показывает, как экспортировать товарные позиции с тремя уровнями:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-SaveToPdfWithOutline.cs" >}}
 
-Выходной PDF-файл этого примера показан ниже:
+Вывод PDF этого примера изображен ниже:
 
 ![specify-rendering-options-when-converting-to-pdf_2](/words/net/specify-rendering-options-when-converting-to-pdf/specify-rendering-options-when-converting-to-pdf-2.png)
 
 {{% alert color="primary" %}}
 
-Закладка или заголовок навигации могут выглядеть по-разному в различных программах просмотра PDF-файлов. Более того, в некоторых приложениях в пользовательском интерфейсе недоступны закладки и навигация по заголовкам.
+Навигация по закладкам или заголовкам может иметь разные виды в различных просмотрах PDF. Кроме того, в некоторых приложениях закладки и навигация по заголовкам недоступны в пользовательском интерфейсе.
 
 {{% /alert %}}
 
-## Понижение разрешения изображений для уменьшения размера документа
+## Сокращение выборки изображений для уменьшения размера документа
 
-Aspose.Words предоставляет возможность понижать разрешение изображений, чтобы уменьшить размер выходного PDF-файла, используя свойство [DownsampleOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/). Понижение разрешения включено по умолчанию в свойстве [DownsampleImages](https://reference.aspose.com/words/ru/net/aspose.words.saving/downsampleoptions/downsampleimages/).
+Aspose.Words предоставляет возможность понижать выборку изображений, чтобы уменьшить размер выходного PDF, используя [DownsampleOptions](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/) собственность. Downsampling включен по умолчанию в [DownsampleImages](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/downsampleimages/) собственность.
 
-Обратите внимание, что также можно установить определенное разрешение в свойстве [Resolution](https://reference.aspose.com/words/ru/net/aspose.words.saving/downsampleoptions/resolution/) или порог разрешения в свойстве [ResolutionThreshold](https://reference.aspose.com/words/ru/net/aspose.words.saving/downsampleoptions/resolution/threshold). Во втором случае, если разрешение изображения меньше порогового значения, то понижающая дискретизация не будет применяться.
+Отметим, что также можно установить конкретное разрешение в [Resolution](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/) собственность или порог разрешения в [ResolutionThreshold](https://reference.aspose.com/words/net/aspose.words.saving/downsampleoptions/resolution/threshold) собственность. Во втором случае, если разрешение изображения меньше порогового значения, то нисходящая выборка не будет применяться.
 
-В примере кода ниже показано, как изменить разрешение изображений в выходном PDF-документе:
+Приведенный ниже пример кода показывает, как изменить разрешение изображений в выходном документе PDF:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-WorkingWithPdfSaveOptions-DownsamplingImages.cs" >}}
 
@@ -95,90 +95,91 @@ Aspose.Words предоставляет возможность понижать 
 
 ## Встраивание шрифтов в формат Adobe PDF
 
-Aspose.Words также позволяет вам контролировать встраивание шрифтов в полученные PDF-документы. Шрифты должны быть встроены в любой документ Adobe PDF, чтобы документ можно было правильно отобразить на любом компьютере (более подробную информацию о рендеринге шрифтов см. в разделе [Использование шрифтов TrueType](/words/ru/net/using-truetype-fonts/)). По умолчанию Aspose.Words встраивает подмножество шрифтов, используемых в документе, в созданный PDF-файл. В этом случае в PDF сохраняются только глифы (символы), используемые в документе.
+Aspose.Words Это также позволяет контролировать, как шрифты встраиваются в полученные PDF-документы. Шрифты должны быть встроены в любой документ Adobe PDF, чтобы гарантировать, что документ может быть правильно визуализирован на любом компьютере (более подробную информацию о рендеринге шрифтов см. в разделе). [Использование True Тип шрифтов](/words/ru/net/using-truetype-fonts/)). По умолчанию, Aspose.Words Встраивает подмножество шрифтов, используемых в документе, в сгенерированный PDF. В данном случае только glyphs (символы), используемые в документе, сохраняются в PDF.
 
-### Когда использовать полные шрифты, а когда — подмножества
+### Когда использовать полные шрифты и когда подставлять
 
-Существует способ указать для Aspose.Words возможность встраивания полных шрифтов. Более подробная информация, а также некоторые преимущества и недостатки каждой настройки описаны в таблице ниже.
+Есть способ указать вариант для Aspose.Words Вставить полные шрифты. Более подробная информация, а также некоторые преимущества и недостатки каждой настройки описаны в таблице ниже.
 
-| Режим "Встроить шрифты" |  Преимущества | Недостатки |
+| Режим Embed Fonts |  Преимущества | Недостатки |
 |  :-  |  :-  |  :-  |
-|  `Full`  | Полезно, если вы хотите позже отредактировать полученный PDF-файл, добавив или изменив текст. Включены все шрифты, следовательно, присутствуют все глифы. | Поскольку некоторые шрифты имеют большой размер (несколько мегабайт), встраивание их без подмножества может привести к получению больших выходных файлов. |
-|  `Subset`  | Подмножество полезно, если вы хотите уменьшить размер выходного файла. | <p>Пользователь не может полностью добавлять или редактировать текст, используя поднабор шрифта, в выходном PDF-документе. Это связано с тем, что присутствуют не все символы шрифта.</p>
+|  `Full`  | Полезно, когда вы хотите отредактировать полученный PDF позже, добавив или изменив текст. Все шрифты включены, следовательно, все glyphs присутствуют. | Поскольку некоторые шрифты большие (несколько мегабайт), их встраивание без поднастройки может привести к большим выходным файлам. |
+|  `Subset`  | Поднастройка полезна, если вы хотите уменьшить размер выходного файла. | <p>Пользователь не может полностью добавлять или редактировать текст, используя заданный шрифт в выходном документе PDF. Это потому, что не все glyphs шрифта присутствуют.</p>
 
-<p>Если несколько PDF-файлов сохраняются с подмножествами шрифтов и собираются вместе, объединенный PDF-документ может содержать шрифт, содержащий множество ненужных поднаборов.</p> |
+<p>Если несколько PDF-файлов сохранены с помощью поднастроенных шрифтов и собраны вместе, то объединенный PDF-документ может иметь шрифт, содержащий много ненужных поднаборов.</p>
+ |
 
 ### Встраивание полных шрифтов в PDF
 
-Свойство [EmbedFullFonts](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) позволяет указать, как Aspose.Words встраивает шрифты в выходной PDF-документ.
+The [EmbedFullFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/) Имущество позволяет вам определить, как Aspose.Words Встраивает шрифты в выходной документ PDF.
 
-- Чтобы встроить полные шрифты в выходной PDF-документ, установите для **EmbedFullFonts** значение true
-- Чтобы подмножество шрифтов при сохранении в PDF, установите для **EmbedFullFonts** значение false
+- Чтобы встроить полные шрифты в выходной документ PDF, установите **EmbedFullFonts** то true
+- Чтобы подмножить шрифты при сохранении в PDF, установите **EmbedFullFonts** то false
 
-В следующем примере показано, как встроить полные шрифты в выходной PDF-документ:
+Следующий пример показывает, как встроить полные шрифты в выходной документ PDF:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddAllFonts.cs" >}}
 
-В следующем примере показано, как установить Aspose.Words для подмножества шрифтов в выходном PDF-файле:
+Следующий пример показывает, как установить Aspose.Words для подмножества шрифтов на выходе PDF:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-EmbeddSubsetFonts.cs" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона для этих примеров по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона для этих примеров из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-## Как управлять внедрением основных шрифтов и стандартных шрифтов Windows
+## Как контролировать встраивание основных шрифтов и Windows Стандартные шрифты
 
-Базовые шрифты и стандартные шрифты Windows — это "стандартные" наборы шрифтов, которые обычно присутствуют на целевом компьютере или предоставляются программой чтения документов, поэтому их не нужно встраивать в выходной PDF-файл. Не встраивая эти шрифты, вы можете уменьшить размер отображаемых PDF-документов, сохранив при этом переносимость.
+Основные шрифты и Windows Стандартные шрифты - это "стандартные" наборы шрифтов, которые обычно присутствуют на целевой машине или предоставляются считывателем документов, поэтому их не нужно встраивать в вывод PDF. Не встраивая эти шрифты, вы можете уменьшить размер отображаемых PDF-документов и при этом поддерживать переносимость.
 
-Aspose.Words предоставляет возможность выбрать способ экспорта шрифтов в PDF. Вы можете либо встроить основные и стандартные шрифты в выходной PDF-файл, либо пропустить их встраивание и вместо этого использовать стандартные основные шрифты PDF или системные шрифты на целевом компьютере. Использование любого из этих параметров обычно приводит к значительному уменьшению размера файла PDF-документа, созданного Aspose.Words.
+Aspose.Words Предоставляет варианты выбора способа экспорта шрифтов в PDF. Вы можете выбрать либо встроить основные и стандартные шрифты в выходной PDF, либо пропустить их встраивание и вместо этого использовать стандартные основные шрифты PDF или системные шрифты на целевой машине. Использование любого из этих вариантов обычно приводит к значительному уменьшению размера файла для PDF-документов. Aspose.Words.
 
-- Поскольку эти варианты являются взаимоисключающими, вам следует выбирать только по одному.
-- При сохранении в формате PDF/A-1 все используемые шрифты должны быть встроены в PDF-документ. При сохранении с учетом этого соответствия для свойства [UseCoreFonts](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) должно быть установлено значение false, а для свойства [FontEmbeddingMode](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) должно быть установлено значение [EmbedAll](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdffontembeddingmode/).
+- Поскольку эти варианты являются взаимоисключающими, вы должны выбирать только один за раз.
+- При сохранении с соблюдением PDF/A-1 все используемые шрифты должны быть встроены в документ PDF. При сохранении этого соответствия, [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) собственность должна быть установлена false и [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) собственность должна быть установлена [EmbedAll](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/).
 
 ### Встраивание основных шрифтов
 
-Возможность внедрения основных шрифтов можно включить или отключить с помощью свойства [UseCoreFonts](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/usecorefonts/). Если для него установлено значение true, следующие наиболее популярные шрифты True Type (шрифты Base 14) не внедряются в выходной PDF-документ:
+Возможность встраивания основных шрифтов может быть включена или отключена с помощью [UseCoreFonts](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/usecorefonts/) собственность. Когда устанавливается true, Следующие наиболее популярные шрифты "True Type" (14 шрифтов) не встроены в выходной документ PDF:
 
 - `Arial`
 - `Times New Roman`
 - `Courier New`
 - `Symbol`
 
-Эти шрифты заменяются соответствующими базовыми шрифтами Type 1, которые предоставляются программой чтения при открытии PDF-файла.
+Эти шрифты заменяются соответствующими основными шрифтами типа 1, которые предоставляются считывателем при открытии PDF.
 
-В приведенном ниже примере показано, как установить Aspose.Words, чтобы избежать внедрения основных шрифтов и позволить читателю заменить их шрифтами PDF Type 1:
+Приведенный ниже пример показывает, как установить Aspose.Words Чтобы избежать встраивания основных шрифтов и позволить читателю заменить их PDF. Шрифты типа 1:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddingWindowsStandardFonts-AvoidEmbeddingCoreFonts.cs" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона для этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона для этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Поскольку средства просмотра PDF-файлов предоставляют основные шрифты на любой поддерживаемой платформе, этот параметр также полезен, когда требуется большая мобильность документа. Однако основные шрифты могут отличаться от системных шрифтов.
+Поскольку PDF-зрители предоставляют основные шрифты на любой поддерживаемой платформе, эта опция также полезна, когда требуется большая переносимость документа. Однако основные шрифты могут отличаться от системных.
 
 {{% alert color="primary" %}}
 
-Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Для записи текста, отличного от ANSI, в PDF всегда потребуется встроить соответствующие шрифты.
+Этот параметр работает только для ANSI.Windows-1252) кодирующий текст. Написание не-ANSI текста в PDF всегда требует встраивания соответствующих шрифтов.
 
 {{% /alert %}}
 
 ### Встраивание системных шрифтов
 
-Эту опцию можно включить или отключить с помощью свойства [FontEmbeddingMode](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/). Если для этого свойства установлено значение [EmbedNonstandard](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdffontembeddingmode/), шрифты истинного типа "Arial" и "Times New Roman" не внедряются в PDF-документ. В этом случае клиентское средство просмотра использует шрифты, установленные в операционной системе клиента. Если для свойства **FontEmbeddingMode** установлено значение [EmbedNone](https://reference.aspose.com/words/ru/net/aspose.words.saving/pdffontembeddingmode/), Aspose.Words не встраивает никакие шрифты.
+Эта опция может быть включена или отключена с помощью [FontEmbeddingMode](https://reference.aspose.com/words/net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/) собственность. Когда это свойство устанавливается [EmbedNonstandard](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/), "Ариал" и "Новый Роман времени" true Шрифты типа не встроены в документ PDF. При этом зритель клиента опирается на шрифты, которые установлены на операционной системе клиента. Когда **FontEmbeddingMode** имущество устанавливается [EmbedNone](https://reference.aspose.com/words/net/aspose.words.saving/pdffontembeddingmode/), Aspose.Words Не вставляйте никаких шрифтов.
 
-В приведенном ниже примере показано, как настроить Aspose.Words, чтобы пропустить встраивание шрифтов Arial и Times New Roman в PDF-документ:
+Приведенный ниже пример показывает, как установить Aspose.Words Чтобы пропустить встраивание шрифтов Arial и Times New Roman в документ PDF:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Rendering-Printing-EmbeddedFontsInPDF-SetFontEmbeddingMode.cs" >}}
 
-Этот режим наиболее полезен, когда вы хотите просматривать свои документы на той же платформе, сохраняя точный внешний вид шрифтов в выходном PDF-файле.
+Этот режим наиболее полезен, когда вы хотите просматривать свои документы на одной платформе, сохраняя точный внешний вид шрифтов на выходе PDF.
 
 {{% alert color="primary" %}}
 
-Этот параметр работает только для текста в кодировке ANSI (Windows-1252). Для записи текста, отличного от ANSI, в PDF необходимо встроить соответствующий шрифт.
+Этот параметр работает только для ANSI.Windows-1252) кодирующий текст. Написание не-ANSI текста в PDF требует встраивания соответствующего шрифта.
 
 {{% /alert %}}

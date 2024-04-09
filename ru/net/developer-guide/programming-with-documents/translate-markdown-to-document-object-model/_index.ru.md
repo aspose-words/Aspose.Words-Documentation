@@ -1,45 +1,45 @@
 ---
-title: Перевести Markdown на DOM
+title: Переводить Markdown то DOM
 second_title: Aspose.Words для .NET
-articleTitle: Перевести Markdown на Document Object Model (DOM)
-linktitle: Перевести Markdown на Document Object Model (DOM)
+articleTitle: Переводить Markdown то Document Object Model ()DOM)
+linktitle: Переводить Markdown то Document Object Model ()DOM)
 type: docs
-description: "Переведите документ Markdown в Document Object Model и обратно, используя C#. Таким образом, вы можете работать со сложным существующим Markdown и программно создавать документ Markdown с нуля."
+description: "Переводить Markdown документировать Document Object Model и обратно с использованием C#. Вы можете работать со сложными существующими Markdown программным путем создать Markdown Документ с нуля."
 weight: 20
 url: /ru/net/translate-markdown-to-document-object-model/
 ---
 
-Чтобы программно читать, манипулировать и изменять содержимое и форматирование документа, вам необходимо перевести его в Aspose.Words Document Object Model (DOM).
+Чтобы программно читать, манипулировать и изменять содержание и форматирование документа, вам нужно перевести его на веб-сайт. Aspose.Words Document Object Model ()DOM).
 
-В отличие от документов Word, Markdown не соответствует DOM, описанному в статье [Aspose.Words Document Object Model (DOM)](/words/ru/net/aspose-words-document-object-model/). Однако Aspose.Words предоставляет собственный механизм перевода Markdown документов в DOM и обратно, чтобы мы могли успешно работать с их элементами, такими как форматирование текста, таблицы, заголовки и другие.
+В отличие от текстов, Markdown не соответствует требованиям DOM описанный в [Aspose.Words Document Object Model (DOM)](/words/ru/net/aspose-words-document-object-model/) Статья. Однако, Aspose.Words Создает собственный механизм перевода Markdown документы для DOM и обратно, чтобы мы могли успешно работать с их элементами, такими как форматирование текста, таблицы, заголовки и другие.
 
-В этой статье объясняется, как различные функции markdown можно преобразовать в формат Aspose.Words DOM и обратно в формат Markdown.
+В этой статье объясняется, как различные markdown Функции могут быть переведены в Aspose.Words DOM и обратно в Markdown Формат.
 
-## Сложность перевода Markdown – DOM – Markdown
+## Сложность перевода Markdown - DOM - Markdown
 
-Основная сложность этого механизма заключается не только в том, чтобы перевести Markdown в DOM, но и сделать обратное преобразование — сохранить документ обратно в формат Markdown с минимальными потерями. Есть элементы, например многоуровневые котировки, для которых обратное преобразование не является тривиальным.
+Основная сложность этого механизма заключается не только в переводе. Markdown то DOM, но и сделать обратную трансформацию – сохранить документ обратно в исходное состояние. Markdown Формат с минимальными потерями. Есть элементы, такие как многоуровневые котировки, для которых обратное преобразование не тривиально.
 
-Наш механизм перевода позволяет пользователям не только работать со сложными элементами существующего документа Markdown, но и создавать с нуля собственный документ в формате Markdown с оригинальной структурой. Для создания различных элементов необходимо использовать стили с определенными именами по определенным правилам, описанным далее в этой статье. Такие стили можно создавать программно.
+Наш движок перевода позволяет пользователям не только работать со сложными элементами в существующем Markdown документ, а также для создания собственного документа в Markdown Формат с оригинальной структурой с нуля. Для создания различных элементов необходимо использовать стили с конкретными названиями по определенным правилам, описанным ниже в этой статье. Такие стили можно создавать программно.
 
-## Общие принципы перевода
+## Общий перевод Принципы
 
-Мы используем форматирование [Font](https://reference.aspose.com/words/ru/net/aspose.words/font/) для строковых блоков. Если нет прямого соответствия функции Markdown в Aspose.Words DOM, мы используем стиль символов с именем, которое начинается с некоторых специальных слов.
+Мы используем [Font](https://reference.aspose.com/words/net/aspose.words/font/) Форматирование для встроенных блоков. Если нет прямой корреспонденции для Markdown свойство Aspose.Words DOM, Мы используем стиль персонажа с именем, которое начинается с некоторых специальных слов.
 
-Для блоков-контейнеров мы используем наследование стилей для обозначения Markdown вложенных функций. В этом случае, даже если вложенных функций нет, мы также используем стили абзацев с именем, начинающимся с некоторых специальных слов.
+Для контейнерных блоков мы используем наследование стиля для обозначения вложенных Markdown особенности. В этом случае, даже когда нет вложенных функций, мы также используем стили абзацев с именем, которое начинается с некоторых специальных слов.
 
-Маркированные и упорядоченные списки также являются блоками-контейнерами в Markdown. Их вложенность представлена в DOM так же, как и для всех остальных блоков-контейнеров с использованием наследования стилей. Однако, кроме того, списки в DOM имеют соответствующее числовое форматирование либо в стиле списка, либо в формате абзаца.
+Бюллетени и упорядоченные списки представляют собой контейнерные блоки. Markdown И тоже. Их гнездование представлено в DOM Так же, как и для всех остальных контейнерных блоков, использующих стиль наследования. Кроме того, списки в DOM соответствовали форматированию номеров в стиле списка или в формате абзаца.
 
 ## Встроенные блоки
 
-Мы используем форматирование [Font](https://reference.aspose.com/words/ru/net/aspose.words/font/) при переводе **Bold**, *Italic* или ~~Зачеркивание~~ встроенных функций markdown.
+Мы используем [Font](https://reference.aspose.com/words/net/aspose.words/font/) Форматирование при переводе **Bold**, *Italic* или ~~Strikethrough~~inline markdown особенности.
 
-|  Markdown функция |   Aspose.Words        |
+|  Markdown особенность |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
-|  **Bold**<br /> `{1}` |  `Font.Bold = true`  |
+|  **Bold**<br/>`{1}` |  `Font.Bold = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BoldText.cs" >}}  ||
-|  **Italic**<br /> `*italic text*` |  `Font.Italic = true`  |
+|  **Italic**<br/>`*italic text*` |  `Font.Italic = true`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-ItalicText.cs" >}}  ||
-|  **Strikethrough**<br /> `~Strikethrough text~` |  `Font.StrikeThrough = true`  |
+|  **Strikethrough**<br/>`~Strikethrough text~` |  `Font.StrikeThrough = true`  |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
@@ -47,34 +47,34 @@ DocumentBuilder builder = new DocumentBuilder();
 builder.Font.Strikethrough = true;
 builder.Writeln("This text will be Strikethrough");{{< /highlight >}} ||
 
-Мы используем стиль символов с именем, которое начинается со слова `InlineCode`, за которым следует необязательная точка `(.)` и несколько обратных кавычек ```(`)``` для функции `InlineCode`. Если пропущено несколько обратных кавычек, по умолчанию будет использоваться один обратный кавычек.
+Мы используем стиль персонажа с именем, начинающимся от слова. <p notrans="<p notrans=" `InlineCode`"=""></p>"> с последующей факультативной точкой `(.)` и несколько задних ходов ```(`)``` для `InlineCode` особенность. Если пропущено несколько бэктиков, то по умолчанию будет использоваться один бэктик.
 
-|  Markdown функция |   Aspose.Words        |
+|  Markdown особенность |   Aspose.Words        |
 |  -----------------------------  |  ------------------  |
-|  **InlineCode**<br /> `{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
+|  **InlineCode**<br/>`{1}` |  `Font.StyleName = “InlineCode[.][N]”`  |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-InlineCode.cs" >}}  ||
-|  **Autolink**<br /> `<scheme://domain.com>`<br /> `<email@domain.com>` |  Класс [FieldHyperlink](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldhyperlink/) |
+|  **Autolink**<br/>`<scheme://domain.com>`<br/>`<email@domain.com>` |  The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) класс |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Autolink.cs" >}}  ||
-|  **Link**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  Класс [FieldHyperlink](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldhyperlink/) |
+|  **Link**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  The [FieldHyperlink](https://reference.aspose.com/words/net/aspose.words.fields/fieldhyperlink/) класс |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Link.cs" >}}  ||
-|  **Image**<br /> `{1}`<br /> `{2}`<br /> `{3}`<br /> `{4})` |  Выпуск [Shape](https://reference.aspose.com/words/ru/net/aspose.words.drawing/shape/) года |
+|  **Image**<br/>`{1}`<br/>`{2}`<br/>`{3}`<br/>`{4})` |  The [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) класс |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Image.cs" >}}  ||
 
 ## Контейнерные блоки
 
-Документ представляет собой последовательность блоков-контейнеров, таких как заголовки, абзацы, списки, цитаты и другие. Блоки-контейнеры можно разделить на 2 класса: листовые блоки и сложные контейнеры. Листовые блоки могут содержать только встроенный контент. Сложные контейнеры, в свою очередь, могут содержать другие блоки-контейнеры, включая блоки Leaf.
+Документ представляет собой последовательность контейнерных блоков, таких как заголовки, абзацы, списки, цитаты и другие. Блоки контейнеров можно разделить на 2 класса: Блоки листьев и сложные контейнеры. Блоки листьев могут содержать только встроенный контент. Сложные контейнеры, в свою очередь, могут содержать другие контейнерные блоки, в том числе блоки Leaf.
 
-### Листовые блоки
+### Блоки листьев
 
-В таблице ниже приведены примеры использования блоков Leaf Markdown в Aspose.Words:
+В приведенной ниже таблице приведены примеры использования Markdown Листья блокируют Aspose.Words:
 
-|  Markdown функция |   Aspose.Words                                                  |
+|  Markdown особенность |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  **HorizontalRule**<br /> `-----` |  Это простой абзац с соответствующей формой HorizontalRule:<br /> `DocumentBuilder.InsertHorizontalRule()` |
+|  **HorizontalRule**<br/>`-----` |  Это простой абзац с соответствующей формой горизонтального правила:<br/>`DocumentBuilder.InsertHorizontalRule()` |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-HorizontalRule.cs" >}}  |                                                                |
-|  **ATX Heading**<br /> `# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, где (1&lt;= N &lt;= 9).<br /> Он переводится во встроенный стиль и должен точно соответствовать указанному шаблону (суффиксы и префиксы не допускаются).<br /> В противном случае это будет обычный абзац с соответствующим стилем |
+|  **ATX Heading**<br/>`# H1, ## H2, ### H3…` |  `ParagraphFormat.StyleName = “Heading N”`, где (1<= N <= 9).<br/>Это переводится во встроенный стиль и должно быть именно указанного шаблона (никаких суффиксов или префиксов не допускается).<br/>В противном случае это будет обычный абзац с соответствующим стилем |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-Heading.cs" >}}  |                                                                |
-|  **Setext Heading**<br /> `===` (если уровень заголовка 1),<br /> `---` (если уровень заголовка 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, на основе стиля `“Heading N”`.<br /> Если (N &gt;= 2), то будет использоваться `“Heading 2”`, иначе `“Heading 1”`.<br /> Допускается любой суффикс, но импортер Aspose.Words использует цифры "1" и "2" соответственно |
+|  **Setext Heading**<br/>`===` (если уровень 1),<br/>`---` (если уровень 2) |  `ParagraphFormat.StyleName = “SetextHeading[some suffix]”`, основанный на `“Heading N”` стиль.<br/>Если (N > 2), то `“Heading 2”` будет использоваться, в противном случае `“Heading 1”`.<br/>Допускается любой суффикс, но Aspose.Words Импортер использует цифры "1" и "2" соответственно |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
@@ -105,20 +105,20 @@ builder.Document.Styles["SetextHeading2"].BaseStyleName = "Heading 3";
 builder.Writeln("Setext Heading level 2");{{< /highlight >}} |
 |   **Indented Code**                                             |  `ParagraphFormat.StyleName = “IndentedCode[some suffix]”`     |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-IndentedCode.cs" >}}  |                                                                |
-|  **Fenced Code**<br /> {{< highlight csharp >}}``` c#
+|  **Fenced Code**<br/>{{< highlight csharp >}}``` c#
 if ()
 then
 else
-```{{< /highlight >}} |  `ParagraphFormat.StyleName = “FencedCode[.][info string]”`<br /> `[.]` и `[info string]` являются дополнительными |
+```{{< /highlight >}} |  `ParagraphFormat.StyleName = “FencedCode[.][info string]”`<br/>The `[.]` и `[info string]` необязательно |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-FencedCode.cs" >}}   |                                                                |
 
-### Сложные контейнеры
+### Комплексные контейнеры
 
-В таблице ниже показаны примеры использования сложных контейнеров Markdown в Aspose.Words:
+В приведенной ниже таблице приведены примеры использования Markdown Сложные контейнеры в Aspose.Words:
 
-|  Markdown функция |   Aspose.Words                                                  |
+|  Markdown особенность |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  **Quote**<br /> `> quote,`<br /> `>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br /> Суффикс в названии стиля не является обязательным, но импортер Aspose.Words использует заказанные номера 1, 2, 3,…. в случае вложенных кавычек.<br /> Вложенность определяется через унаследованные стили |
+|  **Quote**<br/>`> quote,`<br/>`>> nested quote` |  `ParagraphFormat.StyleName = “Quote[some suffix]”`<br/>Суффикс в названии стиля необязателен, но Aspose.Words Импортер использует упорядоченные номера 1, 2, 3, .... в случае вложенных котировок.<br/>Гнездо определяется через унаследованные стили |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
@@ -131,9 +131,9 @@ Style quoteLevel2 = builder.Document.Styles.Add(StyleType.Paragraph, "Quote1");
 builder.ParagraphFormat.Style = quoteLevel2;
 builder.Document.Styles["Quote1"].BaseStyleName = "Quote";
 builder.Writeln("1. Nested blockquote");{{< /highlight >}} |
-|  **BulletedList**<br /> `- Item 1`<br /> `- Item 2`<br /> `   - Item 2a`<br /> `   - Item 2b` |  Маркированные списки представляются с использованием нумерации абзацев:<br /> `ListFormat.ApplyBulletDefault()`<br /> Маркированные списки могут быть трех типов. Они отличаются только форматом нумерации самого первого уровня. Это: `‘-’`, `‘+’` или `‘*’` соответственно |
+|  **BulletedList**<br/>`- Item 1`<br/>`- Item 2`<br/> `   - Item 2a`<br/> `   - Item 2b` |  Бюллетени представлены с использованием нумерации пунктов:<br/>`ListFormat.ApplyBulletDefault()`<br/>Могут быть 3 типа списков. Они диффундируют только в нумерационном формате самого первого уровня. Это: `‘-’`, `‘+’` или `‘*’` соответственно |
 |   {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Markdown-BulletedList.cs" >}}  |                                                                |
-|  **OrderedList**<br /> `1. Item 1`<br /> `2. Item 2`<br /> `1) Item 2a`<br /> `2) Item 2b` |  Упорядоченные списки представляются с использованием нумерации абзацев:<br /> `ListFormat.ApplyNumberDefault()`<br /> Может быть два маркера числового формата: '.' и ')'. Маркер по умолчанию — "." |
+|  **OrderedList**<br/>`1. Item 1`<br/>`2. Item 2`<br/> `1) Item 2a`<br/> `2) Item 2b` |  Упорядоченные списки представлены с использованием нумерации пунктов:<br/>`ListFormat.ApplyNumberDefault()`<br/>Может быть 2 символа формата: "." и "." Маркер по умолчанию - "..." |
 |  {{< highlight csharp >}}Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -151,11 +151,11 @@ builder.Writeln("Item 2b");{{< /highlight >}} |                                 
 
 ### Таблицы
 
-Aspose.Words также позволяет преобразовывать таблицы в DOM, как показано ниже:
+Aspose.Words позволяет переводить таблицы в DOM, Как показано ниже:
 
-|  Markdown функция |   Aspose.Words                                                  |
+|  Markdown особенность |   Aspose.Words                                                  |
 |  ------------------------------------------------------------  |  ------------------------------------------------------------  |
-|  `Table`<br /> `а | b`<br />`- | -`<br />`c | д` |  Классы [Table](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/ru/net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/ru/net/aspose.words.tables/cell/) |
+|  `Table`<br/>а) | b`<br />`- | -`<br />`c | d пункт |  [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/), [Row](https://reference.aspose.com/words/net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/net/aspose.words.tables/cell/) классы |
 |  {{< highlight csharp >}}// Use a document builder to add content to the document.
 DocumentBuilder builder = new DocumentBuilder();
 
@@ -173,5 +173,5 @@ builder.Writeln("d");{{< /highlight >}} |                                       
 
 ## Смотрите также
 
-* [Работа с функциями Markdown](/words/ru/net/working-with-markdown-features/)
+* [Работать с Markdown Особенности](/words/ru/net/working-with-markdown-features/)
 

@@ -3,54 +3,54 @@ title: Работа со списками в C#
 second_title: Aspose.Words для .NET
 articleTitle: Работа со списками
 linktitle: Работа со списками
-description: "Знакомство с функцией форматирования нумерации в Aspose.Words для .NET."
+description: "Введение в функцию форматирования нумерации в Aspose.Words для .NET."
 type: docs
 weight: 200
 url: /ru/net/working-with-lists/
 ---
 
-Список в документе Microsoft Word представляет собой набор свойств форматирования абзаца. Списки можно использовать в документах для структурирования, упорядочения и выделения текста. Списки — отличный способ организовать данные в документах таким образом, чтобы читателям было легче усваивать и понимать ключевые моменты.
+Список в a Microsoft Word Документ представляет собой набор свойств форматирования абзаца. Списки могут использоваться в документах для структурирования, организации и выделения текста. Списки - отличный способ организовать данные в документах таким образом, чтобы читателям было легко усвоить и понять ключевые моменты.
 
-Каждый список может иметь до 9 уровней, а свойства форматирования, такие как стиль номера, начальное значение, отступ, положение табуляции и другие, определяются отдельно для каждого уровня.
+Каждый список может иметь до 9 уровней, и свойства форматирования, такие как стиль числа, начальное значение, отступ, положение вкладки и другие, определяются отдельно для каждого уровня.
 
-В Aspose.Words работа со списками представлена пространством имен [Lists](https://reference.aspose.com/words/ru/net/aspose.words.lists/). Однако объект [List](https://reference.aspose.com/words/ru/net/aspose.words.lists/list/) всегда принадлежит объекту [ListCollection](https://reference.aspose.com/words/ru/net/aspose.words.lists/listcollection/).
+В Aspose.Words, Работа со списками представлена [Lists](https://reference.aspose.com/words/net/aspose.words.lists/) пространство имен. Однако, [List](https://reference.aspose.com/words/net/aspose.words.lists/list/) Объект всегда принадлежит [ListCollection](https://reference.aspose.com/words/net/aspose.words.lists/listcollection/).
 
 В этой статье описывается программная работа со списками с использованием Aspose.Words.
 
-## Создание списков с применением форматирования списка
+## Создание списков путем применения форматирования списков
 
-Aspose.Words позволяет легко создавать списки, применяя форматирование списков. [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) предоставляет свойство [ListFormat](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/listformat/), которое возвращает объект **ListFormat**. Этот объект имеет несколько методов для начала и завершения списка, а также для увеличения/уменьшения отступа. В Microsoft Word есть два основных типа списков: маркированные и нумерованные:
+Aspose.Words Это позволяет легко создавать списки, применяя форматирование списков. [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) обеспечивает [ListFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/listformat/) Имущество, которое возвращает **ListFormat** объект. Этот объект имеет несколько способов начать и закончить список и увеличить / уменьшить отступ. Существует два основных типа списков в Microsoft Word: пронумеровано и пронумеровано:
 
-- Чтобы начать маркированный список, позвоните по номеру [ApplyBulletDefault](https://reference.aspose.com/words/ru/net/aspose.words.lists/listformat/applybulletdefault/)
-- Чтобы начать нумерованный список, позвоните по номеру [ApplyNumberDefault](https://reference.aspose.com/words/ru/net/aspose.words.lists/listformat/applynumberdefault/)
+- Чтобы начать список, звоните. [ApplyBulletDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applybulletdefault/)
+- Чтобы начать пронумерованный список, позвоните [ApplyNumberDefault](https://reference.aspose.com/words/net/aspose.words.lists/listformat/applynumberdefault/)
 
-Маркер или номер и форматирование добавляются к текущему абзацу, а все последующие абзацы, созданные с использованием **DocumentBuilder**, до тех пор, пока не будет вызван [RemoveNumbers](https://reference.aspose.com/words/ru/net/aspose.words.lists/listformat/removenumbers/), чтобы остановить форматирование маркированного списка.
+Пуля или номер и форматирование добавляются к текущему абзацу и всем последующим абзацам, созданным с использованием **DocumentBuilder** до [RemoveNumbers](https://reference.aspose.com/words/net/aspose.words.lists/listformat/removenumbers/) Он призван остановить форматирование списка.
 
-В документах Word списки могут состоять из девяти уровней. Форматирование списка для каждого уровня определяет, какой маркер или номер используется, отступ слева, расстояние между маркером и текстом и т.д. Следующие методы изменяют уровень списка и применяют свойства форматирования нового уровня:
+В документах Word списки могут состоять до девяти уровней. Форматирование списка для каждого уровня определяет, какая пуля или номер используется, левый отступ, пространство между пулей и текстом и т.д. Следующие методы изменяют уровень списка и применяют свойства форматирования нового уровня:
 
-- Чтобы повысить уровень списка текущего параграфа на один уровень, позвоните по номеру [ListIndent](https://reference.aspose.com/words/ru/net/aspose.words.lists/listformat/listindent/)
-- Для уменьшения уровня списка текущего абзаца на один уровень позвоните по номеру [ListOutdent](https://reference.aspose.com/words/ru/net/aspose.words.lists/listformat/listoutdent/)
+- Чтобы повысить уровень списка текущего пункта на один уровень, звоните [ListIndent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listindent/)
+- Чтобы понизить уровень списка текущего абзаца на один уровень, звоните [ListOutdent](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listoutdent/)
 
-Вы также можете использовать свойство [ListLevelNumber](https://reference.aspose.com/words/ru/net/aspose.words.lists/listformat/listlevelnumber/), чтобы получить или установить уровень списка для абзаца.
+Вы также можете использовать [ListLevelNumber](https://reference.aspose.com/words/net/aspose.words.lists/listformat/listlevelnumber/) собственности, чтобы получить или установить уровень списка для пункта.
 
 {{% alert color="primary" %}}
 
-Уровни списка пронумерованы от 0 до 8.
+Уровни списка нумеруются от 0 до 8.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как создать многоуровневый список:
+Следующий пример кода показывает, как построить многоуровневый список:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetMultilevelListFormatting.cs" >}}
 
 ## Укажите форматирование для уровня списка
 
-Объекты уровня списка создаются автоматически при создании списка. Используйте свойства и методы класса [ListLevel](https://reference.aspose.com/words/ru/net/aspose.words.lists/listlevel/) для управления форматированием отдельных уровней списка.
+Объекты уровня списка создаются автоматически при создании списка. Используйте свойства и методы [ListLevel](https://reference.aspose.com/words/net/aspose.words.lists/listlevel/) класс для управления форматированием отдельных уровней списка.
 
-## Список перезапуска для каждого раздела
+## Перезагрузить список для каждого раздела
 
-Вы можете перезапустить список для каждого раздела, используя свойство [IsRestartAtEachSection](https://reference.aspose.com/words/ru/net/aspose.words.lists/list/isrestartateachsection/). Обратите внимание, что этот параметр поддерживается только в форматах документов RTF, DOC и DOCX. Эта опция будет записана в DOCX только в том случае, если значение OoxmlCompliance выше, чем Ecma376.
+Вы можете перезапустить список для каждого раздела, используя [IsRestartAtEachSection](https://reference.aspose.com/words/net/aspose.words.lists/list/isrestartateachsection/) собственность. Обратите внимание, что эта опция поддерживается только в форматах документов RTF, DOC и DOCX. Этот вариант будет записан на DOCX только в том случае, если OoxmlCompliance выше, чем Ecma376.
 
-В следующем примере кода показано, как создать список и перезапустить его для каждого раздела:
+Следующий пример кода показывает, как создать список и перезапустить его для каждого раздела:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-List-WorkingWithList-SetRestartAtEachSection.cs" >}}

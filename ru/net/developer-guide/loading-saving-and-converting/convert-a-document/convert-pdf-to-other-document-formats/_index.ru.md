@@ -1,70 +1,70 @@
 ---
-title: Конвертируйте PDF в другие форматы документов в C#
+title: Преобразование PDF в другие форматы документов C#
 second_title: Aspose.Words для .NET
-articleTitle: Конвертируйте PDF в другие форматы документов
-linktitle: Конвертируйте PDF в другие форматы документов
+articleTitle: Преобразование PDF в другие форматы документов
+linktitle: Преобразование PDF в другие форматы документов
 type: docs
-description: "Преобразуйте PDF в форматы Word, такие как DOCX, DOC, форматы изображений, такие как JPG или PNG, или любые другие форматы, поддерживаемые Aspose.Words, с помощью C#."
+description: "Преобразование PDF в форматы Word, такие как DOCX, DOC, форматы изображений, такие как JPG или PNG, или любые другие форматы, поддерживаемые Aspose.Words использовать C#."
 keywords: convert pdf to other formats c#
 weight: 45
 url: /ru/net/convert-pdf-to-other-document-formats/
 ---
 
-Aspose.Words может загрузить даже такой сложный формат, как PDF. Это открывает новые возможности: можно конвертировать PDF в Word или другие форматы, что выводит пользователей далеко вперед в решении многих прикладных задач.
+Aspose.Words Можно загрузить даже такой сложный формат, как PDF. Это открывает новые возможности: можно конвертировать PDF в Word или другие форматы, которые значительно опережают пользователей в решении многих прикладных задач.
 
-## Предварительные условия
+## Предпосылки
 
-* Добавлена ссылка на пакет Aspose.Words ***ИЛИ*** в Aspose.Words.Pdf2Word.dll.
-* Минимум .NET Framework 4.6.1 или .NET Standard 2.0. Такие цели, как .NET Core 2.x или 3.0, .NET 5 и Xamarin, также поддерживаются благодаря совместимости с .NET Standard.
+* Добавлена ссылка на Aspose.Words пакет ***ИЛИ***для Aspose.Words.Pdf2Word.dll
+* По крайней мере .NET Framework 4.6.1 или .NET Standard 2.0. Цели как .NET Core 2.x или 3.0, .NET 5 и Xamarin Также поддерживается совместимость с .NET Standard.
 
-## Конвертируйте PDF в различные форматы {#convert-pdf-to-other-formats}
+## Преобразование PDF в различные форматы {#convert-pdf-to-other-formats}
 
-Наиболее популярное преобразование из PDF — это преобразование в форматы Microsoft Word, такие как DOCX, DOC, а также в форматы изображений, такие как JPG или PNG. При этом преобразование документа из одного формата в другой выполняется привычным способом.
+Наиболее популярным преобразованием из PDF является преобразование в Microsoft Word форматы, такие как DOCX, DOC, а также форматы изображений, такие как JPG или PNG. При этом преобразование документа из одного формата в другой выполняется знакомым образом.
 
-В следующем примере кода показано, как преобразовать документ из PDF в DOCX:
+Следующий пример кода показывает, как конвертировать документ из PDF в DOCX:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Base conversions-PdfToDocx.cs" >}}
 
 ## Укажите параметры загрузки при импорте PDF {#specify-load-options-when-importing-pdf}
 
-Aspose.Words предоставляет вам класс [PdfLoadOptions](https://reference.aspose.com/words/ru/net/aspose.words.loading/pdfloadoptions/), который позволяет более точно контролировать загрузку PDF-документов.
+Aspose.Words Предоставляет вам [PdfLoadOptions](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/) Класс, который позволяет более точно контролировать загрузку PDF-документов.
 
-Большинство свойств наследуют или перегружают свойства, которые уже существуют в классе `LoadOptions`. Помимо них для формата PDF указан ряд свойств. Например, вы можете использовать свойства [PageCount](https://reference.aspose.com/words/ru/net/aspose.words.loading/pdfloadoptions/pagecount/) и [PageIndex](https://reference.aspose.com/words/ru/net/aspose.words.loading/pdfloadoptions/pageindex/), чтобы определить диапазон страниц, которые будут загружаться из документа PDF, а свойства [SkipPdfImages](https://reference.aspose.com/words/ru/net/aspose.words.loading/pdfloadoptions/skippdfimages/), чтобы контролировать, следует ли пропускать изображения при загрузке PDF. Другой поддерживаемый параметр — [Password](https://reference.aspose.com/words/ru/net/aspose.words.loading/loadoptions/password/), который необходимо указать для [документы, защищенные паролем](/words/net/protect-documents-and-parts-of-documents/).
+Большинство свойств наследуют или перегружают свойства, которые уже существуют. `LoadOptions` класс. Помимо них, для формата PDF указан ряд свойств. Например, вы можете использовать [PageCount](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/pagecount/) и [PageIndex](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/pageindex/) свойства для определения диапазона страниц, загружаемых из документа PDF, и [SkipPdfImages](https://reference.aspose.com/words/net/aspose.words.loading/pdfloadoptions/skippdfimages/) Свойства для контроля того, следует ли пропускать изображения при загрузке PDF. Другим поддерживаемым параметром является [Password](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/password/), которые должны быть предусмотрены [защищенные паролем документы](/words/net/protect-documents-and-parts-of-documents/).
 
-## Поддерживаемый PDF-контент {#supported-pdf-content}
+## Поддерживаемый PDF Контент {#supported-pdf-content}
 
-Плагин PDF2Word на данный момент поддерживает следующие типы данных:
+Плагин PDF2Word поддерживает следующие типы данных:
 
 * Текстовые абзацы
-* Изображений
+* Изображения
 * Таблицы
 * Списки
-* Заголовки и колонтитулы
+* Заголовки и футеры
 * Сноски
-* Номера страниц
-* Текст справа налево (с некоторыми ограничениями)
-* PDF-файлы с возможностью поиска (передние изображения будут удалены в пользу фонового текста)
+* Номер страницы
+* Право-левый текст (с некоторыми ограничениями)
+* Поисковые PDF-файлы (передние изображения будут удалены в пользу фонового текста)
 
-## Будущие возможности {#planned-features}
+## Будущие особенности {#planned-features}
 
-Некоторые функции все еще находятся на ранней стадии разработки или включены в план разработки:
+Некоторые функции все еще находятся на ранней стадии разработки или включены в дорожную карту развития:
 
-* Оглавление
-* OCR для PDF-файлов с возможностью поиска и без него
-* Отчет о ходе работы
-* Многоколоночный текст
+* Таблица содержимого
+* OCR для поисковых и непоисковых PDF-файлов
+* Доклад о ходе работы
+* Многоколонный текст
 * Математические формулы
-* Больше автоматических полей (кроме `PAGE` и NUMPAGES)
+* Больше автоматических полей (кроме) `PAGE` и цифры
 
-## Исключения загрузки PDF-файлов
+## PDF Исключения из нагрузки
 
-Во время преобразования PDF-документа может произойти одно из следующих исключений:
+Во время конвертации PDF-документа может произойти одно из следующих исключений:
 
 |  Исключение |  Описание |
 |  --------------------------------  |  ------------------------------------------------------------  |
-|  `FileLoadException`               |  По какой-то причине PDF-файл не может быть обработан.<br /> {{% alert color="primary" %}}Вы можете сообщить о проблеме команде разработчиков для детального изучения, используя номер [Техническая поддержка](/words/ru/net/technical-support/).{{% /alert %}} |
-|  `DrmProtectedFileException`       |  PDF-файл защищен Adobe DRM и не может быть декодирован с помощью Pdf2Word |
-|  `PasswordProtectedFileException`  |  Для PDF-файла, защищенного паролем, необходимо указать правильный пароль |
+|  `FileLoadException`               |  PDF-файл не может быть обработан по какой-либо причине.<br/>{{% alert color="primary" %}}Вы можете сообщить об этом команде разработчиков для детального расследования, используя [Техническая поддержка](/words/ru/net/technical-support/).{{% /alert %}} |
+|  `DrmProtectedFileException`       |  PDF-файл защищен Adobe DRM и не может быть декодирован Pdf2Word |
+|  `PasswordProtectedFileException`  |  Правильный пароль должен быть предоставлен для защищенного паролем PDF |
 
 ## Смотрите также
 

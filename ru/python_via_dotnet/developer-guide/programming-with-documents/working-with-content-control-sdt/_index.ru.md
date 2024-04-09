@@ -1,25 +1,25 @@
 ---
-title: Работа с SDT для управления контентом
-second_title: Aspose.Words за Python via .NET
-articleTitle: Работа с SDT для управления контентом
-linktitle: Работа с SDT для управления контентом
-description: "Используя Python, вы можете встраивать в документ определяемую пользователем семантику, а также ее поведение и внешний вид."
+title: Работа с Content Control SDT
+second_title: Aspose.Words для Python via .NET
+articleTitle: Работа с Content Control SDT
+linktitle: Работа с Content Control SDT
+description: "Используя python, вы можете встроить семантику, определяемую клиентом, а также его поведение и внешний вид в документ."
 type: docs
 weight: 390
 url: /ru/python-net/working-with-content-control-sdt/
 ---
 
-В Microsoft Word вы можете создать форму, начав с шаблона и добавив элементы управления содержимым, включая флажки, текстовые поля, средства выбора дат и раскрывающиеся списки. В Aspose.Words тег структурированного документа или элемент управления содержимым из любого документа, загруженного в Aspose.Words, импортируется как узел [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/). Структурированные теги документов (SDT или элементы управления контентом) позволяют встраивать в документ определяемую клиентом семантику, а также ее поведение и внешний вид. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) может встречаться в документе в следующих местах:
+В Microsoft Word, Вы можете создать форму, начав с шаблона и добавив элементы управления контентом, включая галочки, текстовые поля, датчики и выпадающие списки. в <p notrans="<p notrans=" Aspose.Words"=""></p>"> Тег структурированного документа или управление контентом из любого документа, загруженного в Aspose.Words импортируется как [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) Узел. Теги структурированных документов (SDT или контент-контроль) позволяют встраивать в документ определенную клиентом семантику, а также ее поведение и внешний вид. [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) может происходить в документе в следующих местах:
 
-- На уровне блока - среди абзацев и таблиц, как дочерний элемент узла [Body](https://reference.aspose.com/words/python-net/aspose.words/body/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/), [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) или [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/)
-- Уровень строки - среди строк таблицы, как дочерний элемент узла [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/)
-- На уровне ячейки — среди ячеек в строке таблицы, как дочерний элемент узла [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/)
-- Встроенный уровень - Среди встроенного содержимого внутри, как дочерний элемент [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/)
-- Вложен в другой [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/)
+- Уровень блока - Среди абзацев и таблиц, как ребенок [Body](https://reference.aspose.com/words/python-net/aspose.words/body/), [HeaderFooter](https://reference.aspose.com/words/python-net/aspose.words/headerfooter/), [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/), [Footnote](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/) или [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) узел
+- Row-level - Среди строк в таблице, как ребенок [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) узел
+- Уровень клеток - Среди клеток в строке таблицы, как ребенок [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) узел
+- Inline-level - Среди встроенного контента внутри, как ребенок [Paragraph](https://reference.aspose.com/words/python-net/aspose.words/paragraph/)
+- Находится внутри другого [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/)
 
-## Вставка элементов управления содержимым в документ
+## Включение контроля контента в документ
 
-В этой версии Aspose.Words могут быть созданы следующие типы SDT или контроля контента:
+В этой версии Aspose.Words, Могут быть созданы следующие типы SDT или контроля контента:
 
 - Checkbox
 - DropDownList
@@ -31,89 +31,89 @@ url: /ru/python-net/working-with-content-control-sdt/
 - RichText
 - PlainText
 
-В следующем примере кода показано, как создать флажок типа элемента управления содержимым.
+Следующий пример кода показывает, как создать контроль содержимого контрольного ящика типа.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-CheckBoxTypeContentControl.py" >}}
 
-В следующем примере кода показано, как создать элемент управления содержимым поля форматированного текста.
+Следующий пример кода демонстрирует, как создать управление контентом в текстовом поле.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-RichTextBoxContentControl.py" >}}
 
-В следующем примере кода показано, как создать элемент управления содержимым поля со списком типа.
+Следующий пример кода показывает, как создать управление содержимым комбинированной коробки типа.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-ComboBoxContentControl.py" >}}
 
-## Как обновить элементы управления контентом
+## Как обновить контроль контента
 
-В этом разделе объясняется, как программно обновить значения SDT или управления содержимым
+В этом разделе объясняется, как программно обновлять значения SDT или управления контентом
 
-В следующем примере кода показано, как установить текущее состояние флажка:
+Следующий пример кода показывает, как установить текущее состояние чекбокса:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-SetCurrentStateOfCheckBox.py" >}}
 
-В следующем примере кода показано, как изменить элементы управления содержимым типа простое текстовое поле, раскрывающийся список и изображение:
+Следующий пример кода показывает, как изменить элементы управления контентом в виде простого текстового поля, выпадающего списка и изображения:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-ModifyContentControls.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этих примеров по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Structured%20document%20tags.docx).
+Вы можете скачать образец файла этих примеров из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Structured%20document%20tags.docx).
 
 {{% /alert %}}
 
-## Привязка управления содержимым к пользовательским частям XML
+## Обязательный контроль контента для пользовательских частей XML
 
-Вы можете связать элементы управления содержимым с данными XML (*пользовательская часть XML*) в документах Word.
+Вы можете связать элементы управления контентом с данными XML (*обычная часть XML*) в документах Word.
 
-В следующем примере кода показано, как привязать элемент управления содержимым к пользовательским частям XML:
+Следующий пример кода показывает, как привязать управление контентом к пользовательским частям XML:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-BindSDTtoCustomXmlPart.py" >}}
 
-## XML-сопоставление диапазона тегов структурированного документа
+## XML-картирование тегов структурированных документов
 
-Вы можете получить сопоставление этого диапазона тегов структурированного документа с данными XML в пользовательской части XML текущего документа, используя свойство [StructuredDocumentTagRangeStart.xml_mapping](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/xml_mapping/). Однако метод [set_mapping](https://reference.aspose.com/words/python-net/aspose.words.markup/xmlmapping/set_mapping/) можно использовать для сопоставления диапазона тегов структурированного документа с данными XML.
+Вы можете получить отображение этого структурированного диапазона тегов документа на данные XML в пользовательской XML-части текущего документа, используя [StructuredDocumentTagRangeStart.xml_mapping](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttagrangestart/xml_mapping/) собственность. Однако, [set_mapping](https://reference.aspose.com/words/python-net/aspose.words.markup/xmlmapping/set_mapping/) Способ может быть использован для отображения диапазона структурированных тегов документа на данные XML.
 
-В следующем примере кода показано, как настроить сопоставление XML:
+Следующий пример кода показывает, как настроить отображение XML:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-StructuredDocumentTagRangeStartXmlMapping.py" >}}
 
-## Очистить содержимое элемента управления содержимым
+## Четкое содержание контроля контента
 
-Вы можете очистить содержимое элемента управления содержимым, отобразив заполнитель. Метод [StructuredDocumentTag.clear](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/clear/) очищает содержимое этого тега структурированного документа и отображает заполнитель, если он определен. Однако невозможно очистить содержимое элемента управления содержимым, если у него есть изменения. Если элемент управления содержимым не имеет заполнителя, вставляются пять пробелов, как в MS Word (кроме повторяющихся разделов, повторяющихся элементов разделов, групп, флажков, цитат). Если элемент управления содержимым сопоставлен с пользовательским XML, указанный узел XML очищается.
+Вы можете очистить содержимое управления контентом с отображением заполнителя. [StructuredDocumentTag.clear](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/clear/) метод очищает содержимое этого структурированного тега документа и отображает заполнитель, если он определен. Однако, Невозможно очистить содержимое контроля содержимого, если оно имеет изменения. Если контент-контроль не имеет заполнителя, в MS Word вставляются пять пробелов (кроме повторяющихся разделов, повторяющихся элементов раздела, групп, чекбоксов, цитат). Если управление контентом отображается на пользовательский XML, ссылающийся узел XML очищается.
 
-В следующем примере кода показано, как очистить содержимое элемента управления содержимым:
+Следующий пример кода показывает, как очистить содержимое контроля содержимого:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-ClearContentsControl.py" >}}
 
-## Изменение цвета фона и границ элемента управления содержимым
+## Изменение фона управления контентом и цвета границ
 
-Свойство [StructuredDocumentTag.color](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/color/) позволяет получить или установить цвет элемента управления содержимым. Цвет влияет на управление контентом в двух ситуациях:
+The [StructuredDocumentTag.color](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/color/) Собственность позволяет получить или установить цвет управления контентом. Цвет влияет на контроль контента в двух ситуациях:
 
-1. MS Word выделяет фон элемента управления содержимым, когда указатель мыши наводится на элемент управления содержимым. Это помогает идентифицировать элемент управления контентом. Цвет подсветки немного "мягче", чем у *color*. Например, MS Word подсвечивает фон розовым цветом, тогда как *color* красный.
-2. Когда вы взаимодействуете (редактируете, выбираете и т.д.) с элементом управления содержимым, граница элемента управления содержимым окрашивается в цвет *color*.
+1. MS Word выделяет фон управления контентом, когда мышь перемещается по управлению контентом. Это помогает определить контроль контента. Цвет выделения немного "мягче", чем у *color*. Например, MS Word выделяет фон розовым цветом, когда *color* Красный.
+2. Когда вы взаимодействуете (редактирование, выбор и т.д.) с контролем контента, граница контроля контента окрашена в цвет. *color*.
 
-В следующем примере кода показано, как изменить цвет элемента управления содержимым:
+Следующий пример кода показывает, как изменить цвет управления контентом:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-SetContentControlColor.py" >}}
 
-## Как установить стиль для форматирования текста, введенного в элемент управления содержимым
+## Как настроить стиль для форматирования текста, введённого в контент-контроль
 
-Если вы хотите установить стиль управления содержимым, вы можете использовать свойства [StructuredDocumentTag.style](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style/) или [StructuredDocumentTag.style_name](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style_name/). Когда вы вводите текст в элемент управления содержимым выходного документа, набранный текст будет иметь стиль "Цитата".
+Если вы хотите установить стиль управления контентом, вы можете использовать [StructuredDocumentTag.style](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style/) или [StructuredDocumentTag.style_name](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/style_name/) свойств. Когда вы вводите текст в управление контентом в выходном документе, типизированный текст будет иметь стиль "цитата".
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что для управления содержимым можно применять только стили "Связь" и "Символ". Исключение ("Невозможно применить этот стиль к SDT") выдается, когда применяется стиль, который существует, но не является стилем "Связь" или "Символ".
+Обратите внимание, что к контролю контента могут применяться только стили Linked и Character. Исключение ("Не применять этот стиль к SDT") бросается, когда стиль, который существует, но не связан или стиль персонажа применяется.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как установить стиль управления содержимым:
+Следующий пример кода показывает, как установить стиль управления контентом:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-SetContentControlStyle.py" >}}
 
-## Работа с контролем содержимого повторяющегося раздела
+## Работа с повторным контролем контента раздела
 
-Элемент управления содержимым повторяющегося раздела позволяет повторять содержимое, содержащееся в нем. Используя Aspose.Words, можно создать узлы тегов структурированного документа повторяющегося раздела и типы элементов повторяющегося раздела, и для этой цели тип перечисления [SdtType](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) предоставляет свойство [REPEATING_SECTION_ITEM](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/#repeating_section_item).
+Контроль содержимого повторяющегося раздела позволяет повторять содержимое, содержащееся в нем. использовать Aspose.Words, узлы структурированных тегов документа повторяющегося раздела и повторяющихся типов элементов раздела могут быть созданы и для этой цели; [SdtType](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) Тип перечисления обеспечивает [REPEATING_SECTION_ITEM](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/#repeating_section_item) собственность.
 
-В следующем примере кода показано, как привязать элемент управления содержимым повторяющегося раздела к таблице:
+Следующий пример кода показывает, как привязать повторяющийся раздел управления контентом к таблице:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Contents Management-working_with_sdt-CreatingTableRepeatingSectionMappedToCustomXmlPart.py" >}}

@@ -1,23 +1,23 @@
 ---
-title: Работа с диаграммами в C#
+title: Работа с картами в C#
 second_title: Aspose.Words для .NET
 articleTitle: Работа с диаграммами
 linktitle: Работа с диаграммами
-description: "Введение в функцию диаграммы, как создавать диаграммы и управлять ими с помощью C#."
+description: "Введение в функцию Chart, как создавать и манипулировать диаграммами с помощью C#."
 type: docs
 weight: 310
 url: /ru/net/working-with-charts/
 ---
 
-В класс [DocumentBuilder](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/) добавлен новый метод [InsertChart](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertchart/). Итак, давайте посмотрим, как вставить в документ простую гистограмму методом [InsertChart](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertchart/).
+Новый [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) Метод был добавлен в [DocumentBuilder](https://reference.aspose.com/words/net/aspose.words/documentbuilder/) класс. Итак, давайте посмотрим, как вставить простую таблицу столбцов в документ, используя [InsertChart](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertchart/) метод.
 
-## Как вставить диаграмму
+## Как вставить карту
 
-В этом разделе мы научимся вставлять диаграмму в документ.
+В этом разделе мы узнаем, как вставить карту в документ.
 
-### Вставить столбчатую диаграмму
+### Включить диаграмму колонок
 
-В следующем примере кода показано, как вставить гистограмму:
+Следующий пример кода показывает, как вставить столбцовую диаграмму:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertSimpleColumnChart.cs" >}}
 
@@ -26,7 +26,7 @@ url: /ru/net/working-with-charts/
 ![create-column-chart-aspose-words-net](/words/net/working-with-charts/working-with-charts-1.png)
 
 
-Существует четыре различных перегрузки метода Add серии, который охватывает все возможные варианты источников данных для всех типов диаграмм:
+Существует четыре различных перегрузки для серии. Добавить метод, который был подвержен охвату всех возможных вариантов источников данных для всех типов диаграмм:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-InsertColumnChart.cs" >}}
 
@@ -34,9 +34,9 @@ url: /ru/net/working-with-charts/
 
 ![create-column-chart-from-datasource-aspose-words-net](/words/net/working-with-charts/working-with-charts-2.png)
 
-### Вставить точечную диаграмму
+### Включить рассеяние Чарт
 
-В следующем примере кода показано, как вставить точечную диаграмму:
+Следующий пример кода показывает, как вставить диаграмму рассеяния:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertScatterChart-InsertScatterChart.cs" >}}
 
@@ -44,9 +44,9 @@ url: /ru/net/working-with-charts/
 
 ![scatter-chart-aspose-words-net](/words/net/working-with-charts/working-with-charts-3.png)
 
-### Вставить диаграмму площади
+### Включить зону Чарт
 
-В следующем примере кода показано, как вставить диаграмму с областями:
+Следующий пример кода показывает, как вставить диаграмму области:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertAreaChart-InsertAreaChart.cs" >}}
 
@@ -54,9 +54,9 @@ url: /ru/net/working-with-charts/
 
 ![area-chart-aspose-words-net](/words/net/working-with-charts/working-with-charts-4.png)
 
-### Вставить пузырьковую диаграмму
+### Включить Bubble Chart
 
-В следующем примере кода показано, как вставить пузырьковую диаграмму:
+Следующий пример кода показывает, как вставить пузырьковую диаграмму:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-InsertBubbleChart-InsertBubbleChart.cs" >}}
 
@@ -64,11 +64,11 @@ url: /ru/net/working-with-charts/
 
 ![bubble-chart-aspose-words-net](/words/net/working-with-charts/working-with-charts-5.png)
 
-## Работа с графиками через объект `Shape.Chart`
+## Работа с картами через `Shape.Chart` Объект
 
-После того как диаграмма была вставлена и заполнена данными, вы можете изменить ее внешний вид. Свойство `Shape.Chart` содержит все параметры, связанные с диаграммами, доступные через общедоступный API.
+После того, как график был вставлен и заполнен данными, вы можете изменить его внешний вид. `Shape.Chart` собственность содержит все варианты, связанные с диаграммами, доступные через общественность API.
 
-Например, давайте изменим заголовок диаграммы или поведение легенды:
+Например, давайте изменим Название диаграммы или поведение легенды:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateChartUsingShape-CreateChartUsingShape.cs" >}}
 
@@ -76,132 +76,132 @@ url: /ru/net/working-with-charts/
 
 ![line-chart-aspose-words-net](/words/net/working-with-charts/working-with-charts-6.png)
 
-## Как работать с ChartSeriesCollection of Chart
+## Как работать с ChartSeriesСборник диаграмм
 
-Давайте посмотрим на коллекцию [ChartSeries](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartseries/). Все серии диаграмм доступны в коллекции [chart.Series](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chart/series/), то есть **IEnumerable**:
+Давайте посмотрим на [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) Коллекция. Все серии карт доступны через [chart.Series](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/series/) Коллекция, которая является **IEnumerable**:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-CreateColumnChart-ChartSeriesCollection.cs" >}}
 
-Вы можете удалять серии по одной или очищать их все, а также при необходимости добавлять новые. Недавно вставленная диаграмма содержит некоторые серии по умолчанию, добавленные в эту коллекцию. Чтобы их удалить нужно вызвать метод **диаграмма.Серия.Очистить()**.
+Вы можете удалить серию по одной или очистить все из них, а также добавить новую, если это необходимо. Недавно вставленный график имеет некоторые серии по умолчанию, добавленные в эту коллекцию. Чтобы удалить их, вам нужно позвонить в **Скриншоты из игры Series.Clear()** метод.
 
-## Работа с одним классом ChartSeries
+## Работа с Single ChartSeries Class
 
 Вот как работать с конкретной серией:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-WorkWithSingleChartSeries.cs" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![line-chart-chartseries-aspose-words-net](/words/net/working-with-charts/working-with-charts-7.png)
 
 
-Все одиночные [ChartSeries](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartseries/) имеют параметры по умолчанию [ChartDataPoint](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartdatapoint/). Попробуйте использовать следующий код, чтобы изменить их:
+Все одинокие [ChartSeries](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartseries/) иметь дефолт [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) Пожалуйста, попробуйте использовать следующий код, чтобы изменить их:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartSeries-ChartDataPoint.cs" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![line-chart-chartdatapoint-aspose-words-net](/words/net/working-with-charts/working-with-charts-8.png)
 
-## Как работать с одним ChartDataPoint `ChartSeries`
+## Как работать с Single ChartDataPoint `ChartSeries`
 
-Используя [ChartDataPoint](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartdatapoint/), вы можете настроить форматирование отдельной точки данных серии диаграмм:
+Использовать [ChartDataPoint](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatapoint/) Вы можете настроить форматирование одной точки данных серии диаграмм:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithSingleChartDataPoint-WorkWithSingleChartDataPoint.cs" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![line-chart-datapoint-aspose-words-net](/words/net/working-with-charts/working-with-charts-9.png)
 
-## Как работать с ChartDataLabel одной серии ChartSeries
+## Как работать с ChartDataLabel одной серии
 
-Используя [ChartDataLabel](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartdatalabel/), вы можете указать форматирование одной метки данных серии диаграмм, например показать/скрыть LegendKey, CategoryName, SeriesName, Value и т.д.:
+Использовать [ChartDataLabel](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/) Вы можете указать форматирование одной метки данных серии диаграмм, такой как show/hide LegendKey, CategoryName, SeriesName, Стоимость и т.д
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-WorkWithChartDataLabel.cs" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![bar-chart-aspose-words-net](/words/net/working-with-charts/working-with-charts-10.png)
 
 ## Как определить параметры по умолчанию для ChartDataLabels ChartSeries
 
-Класс [ChartDataLabelCollection](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartdatalabelcollection/) определяет свойства, которые можно использовать для установки параметров по умолчанию для **ChartDataLabels** для диаграммы **Series**. К этим свойствам относятся ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, ShowValue и т.д.:
+The [ChartDataLabelCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabelcollection/) класс определяет свойства, которые могут использоваться для установки опций по умолчанию для **ChartDataLabels** для диаграммы **Series**. Эти свойства включают ShowCategoryName, ShowBubbleSize, ShowPercentage, ShowSeriesName, Show Стоимость и т.д
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkWithChartDataLabels-DefaultOptionsForDataLabels.cs" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![pie-chart-aspose-words-net](/words/net/working-with-charts/working-with-charts-11.png)
 
-## Как отформатировать метку номера диаграммы
+## Как форматировать номер таблички с данными
 
-Используя [NumberFormat](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartdatalabel/numberformat/), вы можете указать форматирование чисел для одной метки данных диаграммы.
+Использовать [NumberFormat](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartdatalabel/numberformat/) Вы можете указать форматирование номера одной метки данных диаграммы.
 
-В следующем примере кода показано, как отформатировать число метки данных:
+Следующий пример кода показывает, как форматировать номер метки данных:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-ChartNumberFormat-FormatNumberofDataLabel.cs" >}}
 
-## Как установить свойства оси диаграммы
+## Как установить свойства Chart Axis
 
-Если вы хотите работать с осью диаграммы, масштабированием и единицами отображения для оси значений, используйте классы [ChartAxis](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/axisdisplayunit/) и [AxisScaling](https://reference.aspose.com/words/ru/net/aspose.words.drawing.charts/axisscaling/).
+Если вы хотите работать с осью диаграмм, масштабированием и отображением блоков для оси значений, пожалуйста, используйте [ChartAxis](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisdisplayunit/), и [AxisScaling](https://reference.aspose.com/words/net/aspose.words.drawing.charts/axisscaling/) классы.
 
-В следующем примере кода показано, как определить свойства осей X и Y:
+Следующий пример кода показывает, как определить свойства оси X и Y:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-DefineXYAxisProperties.cs" >}}
 
-### Как установить значение времени Date оси
+### Как установить Date Временное значение оси
 
-В следующем примере кода показано, как установить значения даты и времени для свойств оси:
+Следующий пример кода показывает, как установить значения даты/времени на свойства оси:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetDateTimeValuesToAxis.cs" >}}
 
-### Как отформатировать числовое значение оси
+### Как определить значение числа оси
 
-В следующем примере кода показано, как изменить формат чисел на оси значений:
+Следующий пример кода показывает, как изменить формат чисел на оси значений:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetNumberFormatForAxis.cs" >}}
 
 ### Как установить границы оси
 
-Класс `AxisBound` представляет минимальную или максимальную границу значений оси. Привязка может быть указана как числовое значение, значение даты и времени или специальное "автоматическое" значение.
+The `AxisBound` Класс представляет собой минимальный или максимальный предел значений оси. Связь может быть указана как цифровое, дата-время или специальное "авто" значение.
 
-В следующем примере кода показано, как установить границы оси:
+Следующий пример кода показывает, как установить границы оси:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetboundsOfAxis.cs" >}}
 
-### Как установить единицу интервала между метками
+### Как установить интервал между ярлыками
 
-В следующем примере кода показано, как установить единицу интервала между метками на оси:
+Следующий пример кода показывает, как установить интервал между ярлыками на оси:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-SetIntervalUnitBetweenLabelsOnAxis.cs" >}}
 
 ### Как скрыть ось диаграммы
 
-Если вы хотите показать или скрыть ось диаграммы, вы можете просто добиться этого, установив значение свойства `ChartAxis.Hidden`.
+Если вы хотите показать или скрыть ось диаграммы, вы можете просто достичь этого, установив значение `ChartAxis.Hidden` собственность.
 
-В следующем примере кода показано, как скрыть ось Y диаграммы:
+Следующий пример кода показывает, как скрыть Y-ось диаграммы:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-HideChartAxis.cs" >}}
 
-### Как выровнять метку диаграммы
+### Как выровнять Chart Label
 
-Если вы хотите настроить выравнивание текста для многострочных меток, вы можете просто добиться этого, установив значение свойства [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Alignment**.
+Если вы хотите установить текстовое выравнивание для многострочных меток, вы можете просто достичь этого, установив значение [TickLabels](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxis/ticklabels/)**.Выравнивание** собственность.
 
-В следующем примере кода показано, как отметить выравнивание меток:
+Следующий пример кода показывает, как выравнивать этикетку:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Charts-WorkingWithChartAxis-TickMultiLineLabelAlignment.cs" >}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word по умолчанию выравнивает метку диаграммы по центру.
+Microsoft Word выравнивание Графическая этикетка в центр по умолчанию.
 
 {{% /alert %}}
 
-## Как установить форматирование заливки и обводки
+## Как установить наполнение и форматирование инсульта
 
-Форматирование заливки и обводки можно настроить для серий диаграмм, точек данных и маркеров. Для этого необходимо использовать свойства типа **ChartFormat** в классах **ChartSeries**, **ChartDataPoint** и **ChartMarker**, а также псевдонимы некоторых свойств, например ForeColor, BackColor, Visible и Transparency в классе `Stroke`.
+Форматирование заполнения и хода может быть установлено для серий диаграмм, точек данных и маркеров. Для этого нужно использовать свойства **ChartFormat** тип в котором **ChartSeries**, **ChartDataPoint**, и **ChartMarker** классы, а также псевдонимы для некоторых свойств, таких как ForeColor, BackColor, Visible и Transparency `Stroke` класс.
 
-В следующем примере кода показано, как установить цвет серии:
+Следующий пример кода показывает, как установить цвет серии:
 
 {{< highlight csharp >}}
 
@@ -232,7 +232,7 @@ series3.Format.Fill.ForeColor = Color.Blue;
 doc.Save(dir + "ColumnColor.docx");
 {{< /highlight >}}
 
-В следующем примере кода показано, как установить цвет и толщину линии:
+Следующий пример кода показывает, как установить цвет линии и вес:
 
 {{< highlight csharp >}}
 

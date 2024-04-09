@@ -1,78 +1,78 @@
 ---
 title: Работа с абзацами в C#
 second_title: Aspose.Words для .NET
-articleTitle: Работа с абзацами
-linktitle: Работа с абзацами
-description: "Вставьте абзац в документ C#. Установите стили абзаца в C#. Работайте с разделителем стилей абзаца C#. Управляйте узлом абзаца, используя C#."
+articleTitle: Работа с пунктами
+linktitle: Работа с пунктами
+description: "Включить пункт в документ C#. Установите стили абзаца в C#. Работа с разделителем стиля параграфа C#. Манипулирование узлом абзаца с помощью C#."
 type: docs
 weight: 210
 url: /ru/net/working-with-paragraphs/
 ---
 
-Абзац — это набор символов, объединенный в логический блок и заканчивающийся специальным символом — *разрывом абзаца*. В Aspose.Words абзац представлен классом [Paragraph](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/).
+Параграф - это набор символов, объединенных в логический блок и заканчивающихся специальным персонажем - разрывом параграфа. в Aspose.Words, пункт представлен в виде [Paragraph](https://reference.aspose.com/words/net/aspose.words/paragraph/) класс.
 
-## Вставить абзац
+## Включить пункт
 
-Фактически, чтобы вставить в документ новый абзац, в него нужно вставить символ разрыва абзаца. [DocumentBuilder.Writeln](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/writeln/) вставляет в документ не только строку текста, но и добавляет разрыв абзаца.
+Чтобы вставить в документ новый абзац, на самом деле нужно вставить в него пункт разбивки. [DocumentBuilder.Writeln](https://reference.aspose.com/words/net/aspose.words/documentbuilder/writeln/) Вставляет в документ не только строку текста, но и добавляет абзац перерыва.
 
-Текущее форматирование шрифта также определяется свойством [Font](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/font/), а текущее форматирование абзаца определяется свойством [ParagraphFormat](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/paragraphformat/). В следующем разделе мы более подробно остановимся на форматировании абзацев.
+Текущее форматирование шрифта также определяется [Font](https://reference.aspose.com/words/net/aspose.words/documentbuilder/font/) свойство, а форматирование текущего абзаца определяется [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/paragraphformat/) собственность. В следующем разделе мы рассмотрим более подробно форматирование абзаца.
 
-В следующем примере кода показано, как вставить абзац в документ:
+Следующий пример кода показывает, как вставить абзац в документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderInsertParagraph-DocumentBuilderInsertParagraph.cs" >}}
 
-## Форматировать абзац
+## Пункт формата
 
-Текущее форматирование абзаца представлено объектом [ParagraphFormat](https://reference.aspose.com/words/ru/net/aspose.words/paragraphformat/), который возвращается свойством [ParagraphFormat](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/paragraphformat/). Этот объект инкапсулирует различные свойства форматирования абзаца, доступные в Microsoft Word. Вы можете легко сбросить форматирование абзаца до значения по умолчанию — обычный стиль, выравнивание по левому краю, без отступов, без интервалов, без границ, без заливки — позвонив по номеру [ClearFormatting](https://reference.aspose.com/words/ru/net/aspose.words/paragraphformat/clearformatting/).
+Текущее форматирование абзаца представлено [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/paragraphformat/) объект, который возвращается [ParagraphFormat](https://reference.aspose.com/words/net/aspose.words/documentbuilder/paragraphformat/) собственность. Этот объект инкапсулирует различные свойства форматирования абзаца, доступные в Microsoft Word. Вы можете легко сбросить форматирование абзаца до его по умолчанию - Нормальный стиль, выровненный слева, без отступов, без интервалов, без границ, без затенения - позвонив [ClearFormatting](https://reference.aspose.com/words/net/aspose.words/paragraphformat/clearformatting/).
 
-В следующем примере кода показано, как задать форматирование абзаца:
+Следующий пример кода показывает, как установить форматирование абзаца:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderSetParagraphFormatting.cs" >}}
 
-## Применить стиль абзаца
+## Применяйте стиль параграфа
 
-Некоторые объекты форматирования, например **Font** или **ParagraphFormat**, поддерживают стили. Один встроенный или определяемый пользователем стиль представлен объектом [Style](https://reference.aspose.com/words/ru/net/aspose.words/style/), который содержит соответствующие свойства стиля, такие как имя, базовый стиль, шрифт, форматирование абзаца стиля и т.д.
+Некоторые форматирующие объекты, такие как **Font** или **ParagraphFormat**, Стили поддержки. Один встроенный или определяемый пользователем стиль представлен [Style](https://reference.aspose.com/words/net/aspose.words/style/) объект, который содержит соответствующие свойства стиля, такие как имя, базовый стиль, шрифт, форматирование абзаца стиля и так далее.
 
-Кроме того, объект **Style** предоставляет свойство [StyleIdentifier](https://reference.aspose.com/words/ru/net/aspose.words/style/styleidentifier/), которое возвращает независимый от локали идентификатор стиля, представленный значением перечисления [StyleIdentifier](https://reference.aspose.com/words/ru/net/aspose.words/styleidentifier/). Дело в том, что названия встроенных стилей в Microsoft Word локализованы для разных языков. Используя идентификатор стиля, вы можете найти правильный стиль независимо от языка документа. Значения перечисления соответствуют встроенным стилям Microsoft Word, таким как *Normal*, *Заголовок 1*, *Заголовок 2* и т.д. Для всех пользовательских стилей установлено значение перечисления **StyleIdentifier.User**.
+Кроме того, **Style** Объект раскрывает [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words/style/styleidentifier/) свойство, возвращающее локально-независимый идентификатор стиля, представленный [StyleIdentifier](https://reference.aspose.com/words/net/aspose.words/styleidentifier/) перечислительная стоимость. Дело в том, что названия встроенных стилей в Microsoft Word Они локализованы для разных языков. С помощью идентификатора стиля можно найти правильный стиль независимо от языка документа. Значения перечня соответствуют встроенным Microsoft Word стилей, таких как *Normal*, *Голова 1*, *Голова 2* и так далее. Все пользовательские стили устанавливаются на **StyleIdentifier.User** перечислительная стоимость.
 
-В следующем примере кода показано, как применить стиль абзаца:
+Следующий пример кода показывает, как применять стиль абзаца:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyParagraphStyle.cs" >}}
 
-### Вставьте разделитель стилей для размещения разных стилей абзацев
+### Вставить разделитель стилей, чтобы поместить различные стили абзацев
 
-Разделитель стилей можно добавить в конец абзаца с помощью сочетания клавиш Ctrl+Alt+Enter в Microsoft Word. Эта функция позволяет использовать два разных стиля абзаца в одном логическом печатном абзаце. Если вы хотите, чтобы некоторый текст из начала определенного заголовка отображался в оглавлении, но не хотите, чтобы весь заголовок отображался в оглавлении, вы можете использовать эту функцию.
+Сепаратор стилей может быть добавлен в конец абзаца с помощью сочетания клавиш Ctrl + Alt + Enter in Microsoft Word. Эта функция позволяет использовать два разных стиля абзацев в одном и том же логическом печатном абзаце. Если вы хотите, чтобы какой-то текст с начала конкретного заголовка появлялся в таблице содержимого, но не хотите, чтобы весь заголовок отображался в таблице содержимого, вы можете использовать эту функцию.
 
-В следующем примере кода показано, как вставить разделитель стилей для соответствия различным стилям абзацев:
+Следующий пример кода показывает, как вставить разделитель стилей для размещения различных стилей абзацев:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Styles-InsertStyleSeparator-ParagraphInsertStyleSeparator.cs" >}}
 
-### Определить разделитель стилей абзацев
+### Определить пункт Разделитель стилей
 
-Aspose.Words предоставляет общедоступное свойство [BreakIsStyleSeparator](https://reference.aspose.com/words/ru/net/aspose.words/paragraph/breakisstyleseparator/) класса `Paragraph` для идентификации абзаца с разделителем стилей, как показано в примере ниже:
+Aspose.Words разоблачает [BreakIsStyleSeparator](https://reference.aspose.com/words/net/aspose.words/paragraph/breakisstyleseparator/) государственной собственности на `Paragraph` класс для идентификации абзаца с разделителем стилей, как показано в примере ниже:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-ParagraphStyleSeparator-ParagraphStyleSeparator.cs" >}}
 
-## Применение границ и заливки к абзацу
+## Применять границы и переход к абзацу
 
-Границы в Aspose.Words представлены классом [BorderCollection](https://reference.aspose.com/words/ru/net/aspose.words/bordercollection/) — это коллекция из [Border](https://reference.aspose.com/words/ru/net/aspose.words/border/) объектов, доступ к которым осуществляется по индексу или по типу границы. Тип границы, в свою очередь, представлен перечислением [BorderType](https://reference.aspose.com/words/ru/net/aspose.words/bordertype/). Некоторые значения перечисления применяются к нескольким или только одному элементу документа. Например, **BorderType.Bottom** применяется к абзацу или ячейке таблицы, а **BorderType.DiagonalDown** определяет диагональную границу только в ячейке таблицы.
+Границы в Aspose.Words представлены в виде [BorderCollection](https://reference.aspose.com/words/net/aspose.words/bordercollection/) Класс – это коллекция [Border](https://reference.aspose.com/words/net/aspose.words/border/) объекты, к которым осуществляется доступ по индексу или по пограничному типу. Граница, в свою очередь, представлена [BorderType](https://reference.aspose.com/words/net/aspose.words/bordertype/) перечисление. Некоторые значения перечисления относятся к множеству или только к одному элементу документа. Например, **BorderType.Bottom** относится к абзацу или столовой ячейке, в то время как **BorderType.DiagonalDown** Указывает диагональную границу только в столовой ячейке.
 
-И коллекция границ, и каждая отдельная граница имеют схожие атрибуты, такие как цвет, стиль линии, ширина линии, расстояние от текста и необязательная тень. Они представлены одноименными свойствами. Вы можете получить разные типы границ, комбинируя значения свойств. Кроме того, объекты **BorderCollection** и **Border** позволяют сбросить эти значения к значениям по умолчанию, вызвав метод [ClearFormatting](https://reference.aspose.com/words/ru/net/aspose.words/border/clearformatting/).
+И пограничная коллекция, и каждая отдельная граница имеют схожие атрибуты, такие как цвет, стиль линии, ширина линии, расстояние от текста и дополнительная тень. Они представлены свойствами того же названия. Вы можете получить различные типы границ, объединив стоимость недвижимости. Кроме того, **BorderCollection** и **Border** объекты позволяют вам сбросить эти значения до их значений по умолчанию, вызывая [ClearFormatting](https://reference.aspose.com/words/net/aspose.words/border/clearformatting/) метод.
 
 {{% alert color="primary" %}}
 
-Обратите внимание: когда свойства границы сбрасываются до значений по умолчанию, граница становится невидимой.
+Обратите внимание, что когда пограничные свойства сбрасываются до значений по умолчанию, граница становится невидимой.
 
 {{% /alert %}}
 
-Aspose.Words также имеет класс [Shading](https://reference.aspose.com/words/ru/net/aspose.words/shading/), который содержит атрибуты затенения для элементов документа. Вы можете установить желаемую текстуру затенения и цвета, которые применяются к фону и переднему плану элемента, используя значение перечисления [TextureIndex](https://reference.aspose.com/words/ru/net/aspose.words/textureindex/). **TextureIndex** также позволяет применять к объекту **Shading** различные узоры. Например, чтобы установить цвет фона для элемента документа, используйте значение **TextureIndex.TextureSolid** и установите соответствующий цвет заливки переднего плана.
+Aspose.Words также имеет [Shading](https://reference.aspose.com/words/net/aspose.words/shading/) класс, который содержит затеняющие атрибуты для элементов документа. Вы можете установить желаемую текстуру затенения и цвета, которые наносятся на фон и передний план элемента, используя [TextureIndex](https://reference.aspose.com/words/net/aspose.words/textureindex/) перечислительная стоимость. **TextureIndex** Также позволяет применять различные шаблоны к **Shading** объект. Например, чтобы установить цвет фона для элемента документа, используйте **TextureIndex.TextureSolid** Значение и установить передний план затенения цвета, как это уместно.
 
-В следующем примере кода показано, как применить границы и заливку к абзацу:
+Следующий пример кода показывает, как применять границы и затенение к абзацу:
 
 {{< gist "aspose-words" "9a306a41bb6aea8adfcabf5a575c5718" "Examples-CSharp-Programming-Documents-Document-DocumentBuilderSetFormatting-DocumentBuilderApplyBordersAndShadingToParagraph.cs" >}}
 
-## Подсчитайте строки абзаца
+## Пункты графа
 
-Если вы хотите подсчитать количество строк в абзаце любого документа Word, можно использовать следующий пример кода:
+Если вы хотите подсчитать количество строк в абзаце для любого документа Word, можно использовать следующий образец кода:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-CountLinesInParagraphs-CountLinesInParagraph.cs" >}}

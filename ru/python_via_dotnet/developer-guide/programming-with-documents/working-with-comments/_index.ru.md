@@ -3,7 +3,7 @@ title: Работа с комментариями в Python
 second_title: Aspose.Words для Python via .NET
 articleTitle: Работа с комментариями
 linktitle: Работа с комментариями
-description: "Как добавлять, удалять или манипулировать комментариями в документе с помощью Python."
+description: "Как добавлять, удалять или манипулировать комментариями в документе Python."
 type: docs
 weight: 260
 url: /ru/python-net/working-with-comments/
@@ -13,102 +13,102 @@ url: /ru/python-net/working-with-comments/
 
 **Попробуйте онлайн**
 
-Вы можете попробовать эту функциональность с нашим [Бесплатное онлайн-удаление аннотаций](https://products.aspose.app/words/annotation).
+Вы можете попробовать эту функцию с нашей [Бесплатно онлайн удалить аннотации](https://products.aspose.app/words/annotation).
 
 {{% /alert %}}
 
-Aspose.Words позволяет пользователям работать с комментариями — комментарии в документе в Aspose.Words представлены классом [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/). Также используйте классы [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/), чтобы указать область текста, которая должна быть связана с комментарием.
+Aspose.Words позволяет пользователям работать с комментариями - комментариями в документе Aspose.Words представлены в виде [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) класс. Также используйте [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/) классы для указания области текста, которая должна быть связана с комментарием.
 
 ## Добавить комментарий
 
 Aspose.Words позволяет добавлять комментарии несколькими способами:
 
-1. Использование класса [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/)
-2. Использование классов [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/)
+1. Используя [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) класс
+2. Используя [CommentRangeStart](https://reference.aspose.com/words/python-net/aspose.words/commentrangestart/) и [CommentRangeEnd](https://reference.aspose.com/words/python-net/aspose.words/commentrangeend/) классы
 
-В следующем примере кода показано, как добавить комментарий к абзацу с помощью класса **Comment**:
+Следующий пример кода показывает, как добавить комментарий к абзацу, используя **Comment** класс:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AddComments.py" >}}
 
-В следующем примере кода показано, как добавить комментарий к абзацу, используя область текста и классы **CommentRangeStart** и **CommentRangeEnd**:
+Следующий пример кода показывает, как добавить комментарий к абзацу, используя область текста и **CommentRangeStart** и **CommentRangeEnd** классы:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AnchorComment.py" >}}
 
 ## Извлечение или удаление комментариев
 
-Использование комментариев в документе Word (помимо функции отслеживания изменений) — обычная практика при рецензировании документов, особенно если рецензентов несколько. Бывают ситуации, когда единственное, что вам нужно от документа, — это комментарии. Предположим, вы хотите создать список результатов проверки или, возможно, вы собрали всю полезную информацию из документа и просто хотите удалить ненужные комментарии. Возможно, вы захотите просмотреть или удалить комментарии конкретного рецензента.
+Использование комментариев в документе Word (в дополнение к изменениям трека) является обычной практикой при рассмотрении документов, особенно когда есть несколько рецензентов. Могут быть ситуации, когда единственное, что вам нужно от документа, это комментарии. Скажем, вы хотите создать список результатов обзора, или, возможно, вы собрали всю полезную информацию из документа, и вы просто хотите удалить ненужные комментарии. Вы можете просмотреть или удалить комментарии конкретного рецензента.
 
-В этом примере мы рассмотрим несколько простых методов как для сбора информации из комментариев внутри документа, так и для удаления комментариев из документа. В частности, мы расскажем, как:
+В этой выборке мы рассмотрим некоторые простые методы как для сбора информации из комментариев в документе, так и для удаления комментариев из документа. В частности, мы рассмотрим, как:
 
 - Извлеките все комментарии из документа или только те, которые сделаны конкретным автором.
-- Удалить все комментарии к документу или только от конкретного автора.
+- Удалить все комментарии из документа или только от конкретного автора.
 
 ### Как извлечь или удалить комментарии
 
-Код в этом примере на самом деле довольно прост, и все методы основаны на одном и том же подходе. Комментарий в документе Word представлен объектом [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) в объектной модели документа Aspose.Words. Чтобы собрать все комментарии в документе, используйте метод [get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) с первым параметром, равным [NodeType.COMMENT](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#comment). Убедитесь, что для второго параметра метода **get_child_nodes** установлено значение true: это заставляет **get_child_nodes** рекурсивно выбирать из всех дочерних узлов, а не только собирая ближайших детей.
+Код в этой выборке на самом деле довольно прост, и все методы основаны на одном и том же подходе. Комментарий в документе Word представляет собой [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) объект в Aspose.Words Модель объекта документа. Чтобы собрать все комментарии в документе, используйте [get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) Метод с первым параметром, установленным для [NodeType.COMMENT](https://reference.aspose.com/words/python-net/aspose.words/nodetype/#comment). Убедитесь, что второй параметр **Get_child_nodes** метод устанавливается trueЭто заставляет **Get_child_nodes** Рекурсивно выбирать из всех узлов ребенка, а не только собирать детей.
 
-Чтобы проиллюстрировать, как извлекать и удалять комментарии из документа, мы выполним следующие шаги:
+Чтобы проиллюстрировать, как извлечь и удалить комментарии из документа, мы рассмотрим следующие шаги:
 
-1. Откройте документ Word, используя класс [Document](https://reference.aspose.com/words/python-net/aspose.words/document/)
-1. Собрать все комментарии из документа в коллекцию
+1. Откройте документ Word, используя [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) класс
+1. Получить все комментарии из документа в сборник
 1. Чтобы извлечь комментарии:
-  1. Просмотрите коллекцию с помощью оператора foreach
-  1. Извлеките и перечислите имя автора, дату и время, а также текст всех комментариев
-  1. Извлеките и перечислите имя автора, дату и время, а также текст комментариев, написанных конкретным автором, в данном случае автором "ks"
+   1.Пройти сбор с помощью оператора foreach
+   1.Извлеките и перечислите имя автора, дату и время и текст всех комментариев
+   1. Извлеките и перечислите имя автора, дату и время и текст комментариев, написанных конкретным автором, в этом случае автор "k"
 1. Чтобы удалить комментарии:
-  1. Перейдите по коллекции назад, используя оператор for
-  1. Удаление комментариев
-1. Сохраните изменения
+   1.Перейти назад через сбор с помощью оператора
+   1. Удалить комментарии
+1. Сохранить изменения
 
 ### Как извлечь все комментарии
 
-Метод [get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) очень полезен, и вы можете использовать его каждый раз, когда вам нужно получить список узлов документа любого типа. Полученная коллекция не создает немедленных издержек, поскольку узлы выбираются в эту коллекцию только тогда, когда вы перечисляете или получаете доступ к ее элементам.
+The [get_child_nodes](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child_nodes/) Метод очень полезен, и вы можете использовать его каждый раз, когда вам нужно получить список узлов документов любого типа. Полученная коллекция не создает непосредственных накладных расходов, потому что узлы выбираются в эту коллекцию только тогда, когда вы перечисляете или получаете доступ к элементам в ней.
 
-В следующем примере кода показано, как извлечь имя автора, дату и время, а также текст всех комментариев в документе:
+Следующий пример кода показывает, как извлечь имя автора, дату и время и текст всех комментариев в документе:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-ExtractComments.py" >}}
 
-### Как извлечь комментарии указанного автора
+### Как извлечь комментарии конкретного автора
 
-После того, как вы выбрали в коллекцию [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) узлов, все, что вам нужно сделать, это извлечь необходимую информацию. В этом примере инициалы автора, дата, время и простой текст комментария объединяются в одну строку; вместо этого вы можете сохранить его каким-либо другим способом.
+После того, как вы выбрали [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) Все, что вам нужно сделать, это извлечь необходимую информацию. В этом образце инициалы автора, дата, время и простой текст комментария объединены в одну строку; вместо этого вы можете сохранить его другими способами.
 
-Перегруженный метод, извлекающий комментарии конкретного автора, практически такой же, он просто проверяет имя автора перед добавлением информации в массив.
+Перегруженный метод, который извлекает комментарии от конкретного автора, почти такой же, он просто проверяет имя автора, прежде чем добавлять информацию в массив.
 
-В следующем примере кода показано, как извлечь имя автора, дату и время, а также текст комментариев указанного автора:
+Следующий пример кода показывает, как извлечь имя автора, дату и время и текст комментариев указанного автора:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-ExtractCommentsByAuthor.py" >}}
 
 ### Как удалить комментарии
 
-Если вы удаляете все комментарии, нет необходимости перемещаться по коллекции, удаляя комментарии один за другим; вы можете удалить их, позвонив по номеру [clear](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/clear/) в службу сбора комментариев.
+Если вы удаляете все комментарии, нет необходимости перемещаться по коллекции, удаляя комментарии один за другим; вы можете удалить их, позвонив по телефону. [clear](https://reference.aspose.com/words/python-net/aspose.words/nodecollection/clear/) Сборник комментариев.
 
-В следующем примере кода показано, как удалить все комментарии в документе:
+Следующий пример кода показывает, как удалить все комментарии в документе:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-RemoveComments.py" >}}
 
-Когда вам нужно выборочно удалить комментарии, процесс становится более похожим на код, который мы использовали для извлечения комментариев.
+Когда вам нужно выборочно удалять комментарии, процесс становится более похожим на код, который мы использовали для извлечения комментариев.
 
-В следующем примере кода показано, как удалить комментарии указанного автора:
+Следующий пример кода показывает, как удалить комментарии указанного автора:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-RemoveCommentsByAuthor.py" >}}
 
-Здесь следует особо подчеркнуть использование оператора for. В отличие от простого извлечения, здесь вы хотите удалить комментарий. Подходящий трюк — перебрать коллекцию назад от последнего [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) к первому. Причина этого: если вы начинаете с конца и двигаетесь назад, индекс предыдущих элементов остается неизменным, и вы можете вернуться к первому элементу в коллекции.
+Главным моментом здесь является использование оператора. В отличие от простого извлечения, здесь вы хотите удалить комментарий. Подходящим трюком является итерация коллекции назад от последнего. [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) к первому. Причина этого, если вы начинаете с конца и двигаетесь назад, индекс предыдущих пунктов остается неизменным, и вы можете вернуться к первому пункту в коллекции.
 
-В следующем примере кода показаны методы извлечения и удаления комментариев:
+Следующий пример кода показывает методы извлечения и удаления комментариев:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-ProcessComments.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Comments.docx).
+Вы можете скачать образец файла этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Comments.docx).
 
 {{% /alert %}}
 
 ### Как удалить комментарий между CommentRangeStart и CommentRangeEnd
 
-Используя Aspose.Words, вы также можете удалять комментарии между узлами **CommentRangeStart** и **CommentRangeEnd**.
+Использовать Aspose.Words Вы также можете удалить комментарии между **CommentRangeStart** и **CommentRangeEnd** Узлы.
 
-В следующем примере кода показано, как удалить текст между **CommentRangeStart** и **CommentRangeEnd**:
+Следующий пример кода показывает, как удалить текст между **CommentRangeStart** и **CommentRangeEnd**:
 
 {{< highlight python >}}
 # Open the document.
@@ -131,20 +131,20 @@ while (currentNode != None and isRemoving) :
 doc.save(docs_base.artifacts_dir + "WorkingWithComments.remove_region_text.docx")
 {{< /highlight >}}
 
-## Добавить или удалить ответ на комментарий
+## Добавить или удалить комментарий
 
-Метод [add_reply](https://reference.aspose.com/words/python-net/aspose.words/comment/add_reply/) добавляет ответ на этот комментарий. Обратите внимание, что из-за существующих ограничений Office Microsoft в документе разрешен только 1 уровень ответов. Исключение типа **InvalidOperationException** будет вызвано, если этот метод вызывается для существующего комментария ответа.
+The [add_reply](https://reference.aspose.com/words/python-net/aspose.words/comment/add_reply/) Метод добавляет ответ на этот комментарий. Обратите внимание, что благодаря существующему Microsoft В документе допускается ограничение только на 1 уровень ответов. Исключение из вида **InvalidOperationException** будет поднято, если этот метод будет вызван существующим комментарием Ответ.
 
-Вы можете использовать метод [remove_reply](https://reference.aspose.com/words/python-net/aspose.words/comment/remove_reply/), чтобы удалить указанный ответ на этот комментарий.
+Вы можете использовать [remove_reply](https://reference.aspose.com/words/python-net/aspose.words/comment/remove_reply/) Способ удаления указанного ответа на данный комментарий.
 
-В следующем примере кода показано, как добавить ответ на комментарий и удалить ответ на комментарий:
+Следующий пример кода показывает, как добавить ответ на комментарий и удалить ответ комментария:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-AddRemoveCommentReply.py" >}}
 
-## Прочитать ответ на комментарий
+## Read Comment's Ответ
 
-Свойство [replies](https://reference.aspose.com/words/python-net/aspose.words/comment/replies/) возвращает коллекцию из [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) объектов, которые являются непосредственными дочерними элементами указанного комментария.
+The [replies](https://reference.aspose.com/words/python-net/aspose.words/comment/replies/) Имущество возвращает коллекцию [Comment](https://reference.aspose.com/words/python-net/aspose.words/comment/) объекты, являющиеся непосредственными детьми указанного комментария.
 
-В следующем примере кода показано, как перебирать ответы на комментарии и разрешать их:
+Следующий пример кода показывает, как повторить ответы комментария и решить их:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_comments-CommentResolvedandReplies.py" >}}

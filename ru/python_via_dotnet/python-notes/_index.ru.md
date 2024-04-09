@@ -1,31 +1,31 @@
 ---
-title: Различия версий Python и .NET
-second_title: Aspose.Words за Python via .NET
-articleTitle: Различия версий Python и .NET
-linktitle: Различия версий Python и .NET
-description: "Aspose.Words для Python via .NET — это оболочка Aspose.Words для .NET. На этой странице описаны различия в функциях и API этих двух продуктов."
+title: Python и .NET Различия версий
+second_title: Aspose.Words для Python via .NET
+articleTitle: Python и .NET Различия версий
+linktitle: Python и .NET Различия версий
+description: "Aspose.Words для Python via .NET Является оберткой Aspose.Words для .NET, Эта страница описывает различия в функциях и API из этих двух продуктов."
 type: docs
 weight: 15
 url: /ru/python-net/python-notes/
 ---
 
-Aspose.Words для Python via .NET является оболочкой Aspose.Words для .NET, поэтому эти два продукта имеют практически одинаковый набор функций. Тем не менее, есть некоторые нюансы работы и различия в функциях и API, которые описаны на этой странице.
+Aspose.Words для Python via .NET Является оберткой Aspose.Words для .NET, Именно поэтому оба продукта имеют практически одинаковый набор функций. Тем не менее, есть некоторые нюансы работы и различия в особенностях и API, которые описаны на этой странице.
 
-## Отличия функций
+## Особенности различий
 
-Из-за процесса упаковки некоторые функции недоступны в версии Python. Ниже приведен список наиболее примечательных функций, которые в настоящее время недоступны в версии Python.
-* Реализация интерфейсов пока не поддерживается, поэтому невозможно использовать обратные вызовы типа [IWarningCallback](https://reference.aspose.com/words/python-net/aspose.words/iwarningcallback/), [IReplacingCallback](https://reference.aspose.com/words/python-net/aspose.words.replacing/ireplacingcallback/), [IFieldUpdatingCallback](https://reference.aspose.com/words/python-net/aspose.words.fields/ifieldupdatingcallback/), [IFieldMergingCallback](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/ifieldmergingcallback/) и т.д.
-* Функция печати недоступна, поскольку .NET Standard версия 2.0 Aspose.Words используется в качестве серверной части версии Python, которая также не обеспечивает эту функциональность.
-* Предоставляется только простая функциональность Mail Merge с массивами имен полей и значений полей в качестве источника данных.
-* Реализация [DocumentVisitor](https://reference.aspose.com/words/python-net/aspose.words/documentvisitor/) в настоящее время невозможна из кода Python.
+Из-за процесса обертывания есть некоторые функции, которые не доступны в Python Версия. Вот список наиболее заметных функций, которые в настоящее время не доступны. Python Версия.
+* Реализация интерфейсов еще не поддерживается, поэтому невозможно использовать обратные вызовы, такие как: [IWarningCallback](https://reference.aspose.com/words/python-net/aspose.words/iwarningcallback/), [IReplacingCallback](https://reference.aspose.com/words/python-net/aspose.words.replacing/ireplacingcallback/), [IFieldUpdatingCallback](https://reference.aspose.com/words/python-net/aspose.words.fields/ifieldupdatingcallback/), [IFieldMergingCallback](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/ifieldmergingcallback/) и т.д.
+* Функция печати недоступна, потому что .NET Standard Версия 2.0 Aspose.Words Используется в качестве бэкэнда python-версии, которая также не обеспечивает эту функциональность.
+* Только простой Mail Merge Функциональность обеспечивается массивами имен полей и значений полей в качестве источника данных.
+* [DocumentVisitor](https://reference.aspose.com/words/python-net/aspose.words/documentvisitor/) В настоящее время это невозможно из Python Код.
 
-## Приведение объектов Aspose.Words в Python
+## Кастинг Aspose.Words Объекты в Python
 
-Хотя приведение типов не является естественным для разработчиков Python, некоторые задачи невозможно выполнить без приведения узлов или полей документов к конкретному типу. Aspose.Words для Python via .NET предоставляет специальные методы, позволяющие приводить объекты там, где это необходимо.
+Хотя тип литья не является естественным для Python Некоторые задачи не могут быть выполнены без литья документов узлов или полей на конкретный тип. Aspose.Words для Python via .NET Предоставляет специальные методы, позволяющие лить предметы там, где это необходимо.
 
-### Литье узлов
+### Узлы литья
 
-Базовым классом для всех узлов документа в Aspose.Words DOM является класс [Node](https://reference.aspose.com/words/python-net/aspose.words/node/). Например, возвращает метод [get_child](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child/) и экземпляр класса [Node](https://reference.aspose.com/words/python-net/aspose.words/node/), но если вам нужно изменить возвращаемый узел, в большинстве случаев вам следует привести его к конкретному типу. Следующий код демонстрирует, как изменить цвет шрифта первого [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) в документе:
+Базовый класс для всех узлов документов в Aspose.Words DOM это [Node](https://reference.aspose.com/words/python-net/aspose.words/node/) класс. Например, [get_child](https://reference.aspose.com/words/python-net/aspose.words/compositenode/get_child/) Способ возврата и пример [Node](https://reference.aspose.com/words/python-net/aspose.words/node/) класс, но если нужно модифицировать возвращенный узел, в большинстве случаев следует отлить его на конкретный тип. Следующий код демонстрирует, как изменить цвет шрифта первого [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) в документе:
 
 {{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "Document.docx")
@@ -40,7 +40,7 @@ run.font.color = drawing.Color.red
 doc.save(docs_base.artifacts_dir + "WorkingWithNode.change_run_color.docx")
 {{< /highlight >}}
 
-Приведение типов также может потребоваться при использовании метода [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/):
+Литье также может потребоваться, когда [clone](https://reference.aspose.com/words/python-net/aspose.words/document/clone/) Используется метод:
 
 {{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "Document.docx")
@@ -49,7 +49,7 @@ clone = doc.clone().as_document()
 clone.save(docs_base.artifacts_dir + "CloneAndCombineDocuments.cloning_document.docx")
 {{< /highlight >}}
 
-Как вы могли заметить, где в коде C# вы должны использовать `(Paragraph)node` для приведения, в Python вам нужно использовать метод `node.as_paragraph()`. В версии Python класса Aspose.Words [Node](https://reference.aspose.com/words/python-net/aspose.words/node/) представлена следующая ссылка на методы `as_xxx`:
+Как вы могли заметить, где C# Код, который вы будете использовать `(Paragraph)node` для литья, в Python Вы должны использовать `node.as_paragraph()` метод. В этом Python версия Aspose.Words [Node](https://reference.aspose.com/words/python-net/aspose.words/node/) Класс вводит следующую ссылку `as_xxx` методы:
 
 * [as_document()](https://reference.aspose.com/words/python-net/aspose.words/node/as_document/)
 * [as_section()](https://reference.aspose.com/words/python-net/aspose.words/node/as_section/)
@@ -85,12 +85,12 @@ clone.save(docs_base.artifacts_dir + "CloneAndCombineDocuments.cloning_document.
 * [as_sub_document()](https://reference.aspose.com/words/python-net/aspose.words/node/as_sub_document/)
 * [as_composite_node()](https://reference.aspose.com/words/python-net/aspose.words/node/as_composite_node/)
 
-Метод `as_xxx` вызывает `RuntimeError` с сообщением, подобным следующему, если узел не может быть привязан к указанному типу:
+The `as_xxx` метод повышения `RuntimeError` с сообщением, подобным следующему, если узел не может быть отнесен к указанному типу:
 
 > RuntimeError: Proxy error(InvalidCastException): Unable to cast object of type 'Aspose.Words.XXX' to type 'Aspose.Words.Drawing.YYY'.
 
 ### Кастинговые поля
-Та же ситуация и с полями. В следующем примере кода показано, как заменить ссылки гиперссылки:
+То же самое относится и к полям. Следующий пример кода показывает, как заменить гиперссылки:
 
 {{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "Hyperlinks.docx")
@@ -111,7 +111,7 @@ for field in doc.range.fields :
 doc.save(docs_base.artifacts_dir + "WorkingWithFields.replace_hyperlinks.docx")
 {{< /highlight >}}
 
-Как вы могли заметить, объект [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) также предоставляет набор методов `as_xxx`, которые перечислены ниже:
+Как вы могли заметить [Field](https://reference.aspose.com/words/python-net/aspose.words.fields/field/) Объект также содержит набор `as_xxx` методы, которые перечислены ниже:
 
 * [as_field_unknown()](https://reference.aspose.com/words/python-net/aspose.words.fields/field/as_field_unknown/)
 * [as_field_merge_barcode()](https://reference.aspose.com/words/python-net/aspose.words.fields/field/as_field_merge_barcode/)
@@ -209,7 +209,7 @@ doc.save(docs_base.artifacts_dir + "WorkingWithFields.replace_hyperlinks.docx")
 * [as_field_form_text()](https://reference.aspose.com/words/python-net/aspose.words.fields/field/as_field_form_text/)
 
 ### Стили кастинга
-Кастинг также необходим для работы со стилями таблиц:
+Кастинг также необходим для работы со стилями столов:
 {{< highlight python >}}
 doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
@@ -238,8 +238,8 @@ table.style = tableStyle
 doc.save(docs_base.artifacts_dir + "WorkingWithTableStylesAndFormatting.create_table_style.docx")
 {{< /highlight >}}
 
-### Кастинг Ole Controls
-В следующем примере кода показано, как читать свойства элемента управления ActiveX:
+### Системные требования Ole Controls
+Следующий пример кода показывает, как читать свойства управления ActiveX:
 {{< highlight python >}}
 doc = aw.Document(docs_base.my_dir + "ActiveX controls.docx")
 
@@ -269,9 +269,9 @@ properties = properties + "\nTotal ActiveX Controls found: " + str(doc.get_child
 print("\n" + properties)
 {{< /highlight >}}
 
-### Кастинг источников шрифтов
+### Источники Casting Font
 
-Класс [FontSourceBase](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/) предоставляет набор методов `as_xxx`, которые перечислены ниже:
+[FontSourceBase](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/) Класс обеспечивает набор `as_xxx` методы, которые перечислены ниже:
 
 * [as_file_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_file_font_source/)
 * [as_folder_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_folder_font_source/)
@@ -279,36 +279,36 @@ print("\n" + properties)
 * [as_stream_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_stream_font_source/)
 * [as_system_font_source()](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/as_system_font_source/)
 
-## Доступ к свойствам индексатора
-Aspose.Words для Python допускает свойства индексатора только по типу *int*, однако в .NET можно использовать и другие типы, например строки. Чтобы восполнить этот пробел, в следующих классах есть дополнительные методы:
+## Доступ к свойствам индекса
+Aspose.Words для Python Позволяет индексировать только *int* Тип, в .NET Однако можно использовать и другие типы, например струны. Чтобы заполнить этот пробел, следующие классы имеют дополнительные методы:
 
 * [FormFieldCollection](https://reference.aspose.com/words/python-net/aspose.words.fields/formfieldcollection/)
-* [get_by_name(bookmark_name)](https://reference.aspose.com/words/python-net/aspose.words.fields/formfieldcollection/get_by_name/#str)
+		* [get_by_name(bookmark_name)](https://reference.aspose.com/words/python-net/aspose.words.fields/formfieldcollection/get_by_name/#str)
 * [FontInfoCollection](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfocollection/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfocollection/get_by_name/#str)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontinfocollection/get_by_name/#str)
 * [CustomXmlPartCollection](https://reference.aspose.com/words/python-net/aspose.words.markup/customxmlpartcollection/)
-* [get_by_id(id)](https://reference.aspose.com/words/python-net/aspose.words.markup/customxmlpartcollection/get_by_id/#str)
+		* [get_by_id(id)](https://reference.aspose.com/words/python-net/aspose.words.markup/customxmlpartcollection/get_by_id/#str)
 * [CustomXmlPropertyCollection](https://reference.aspose.com/words/python-net/aspose.words.markup/customxmlpropertycollection/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.markup/customxmlpropertycollection/get_by_name/#str)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.markup/customxmlpropertycollection/get_by_name/#str)
 * [BuiltInDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/builtindocumentproperties/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/get_by_name/#str)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/get_by_name/#str)
 * [CustomDocumentProperties](https://reference.aspose.com/words/python-net/aspose.words.properties/customdocumentproperties/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/get_by_name/#str)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.properties/documentpropertycollection/get_by_name/#str)
 * [BookmarksOutlineLevelCollection](https://reference.aspose.com/words/python-net/aspose.words.saving/bookmarksoutlinelevelcollection/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.saving/bookmarksoutlinelevelcollection/get_by_name/#str)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.saving/bookmarksoutlinelevelcollection/get_by_name/#str)
 * [VbaModuleCollection](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodulecollection/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodulecollection/get_by_name/#str)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words.vba/vbamodulecollection/get_by_name/#str)
 * [BookmarkCollection](https://reference.aspose.com/words/python-net/aspose.words/bookmarkcollection/)
-* [get_by_name(bookmark_name)](https://reference.aspose.com/words/python-net/aspose.words/bookmarkcollection/get_by_name/#str)
+		* [get_by_name(bookmark_name)](https://reference.aspose.com/words/python-net/aspose.words/bookmarkcollection/get_by_name/#str)
 * [BorderCollection](https://reference.aspose.com/words/python-net/aspose.words/bordercollection/)
-* [get_by_border_type(border_type)](https://reference.aspose.com/words/python-net/aspose.words/bordercollection/get_by_border_type/#bordertype)
+		* [get_by_border_type(border_type)](https://reference.aspose.com/words/python-net/aspose.words/bordercollection/get_by_border_type/#bordertype)
 * [HeaderFooterCollection](https://reference.aspose.com/words/python-net/aspose.words/headerfootercollection/)
-* [get_by_header_footer_type(header_footer_type)](https://reference.aspose.com/words/python-net/aspose.words/headerfootercollection/get_by_header_footer_type/#headerfootertype)
+		* [get_by_header_footer_type(header_footer_type)](https://reference.aspose.com/words/python-net/aspose.words/headerfootercollection/get_by_header_footer_type/#headerfootertype)
 * [StyleCollection](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/get_by_name/#str)
-* [get_by_style_identifier(sti)](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/get_by_style_identifier/#styleidentifier)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/get_by_name/#str)
+		* [get_by_style_identifier(sti)](https://reference.aspose.com/words/python-net/aspose.words/stylecollection/get_by_style_identifier/#styleidentifier)
 * [VariableCollection](https://reference.aspose.com/words/python-net/aspose.words/variablecollection/)
-* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words/variablecollection/get_by_name/#str)
+		* [get_by_name(name)](https://reference.aspose.com/words/python-net/aspose.words/variablecollection/get_by_name/#str)
 
-## API Именование участников
-Чтобы быть ближе к миру Python, члены API из Aspose.Words для Python via .NET используют стиль питонической змеи, однако в большинстве случаев они имеют один к одному аналог в Aspose.Words для .NET API. Вы можете найти эти аналоги в [XML-файл](/words/python-net/python-notes/wrapper.zip).
+## API Наименование членов
+Быть ближе к Python Мир, API члены Aspose.Words для Python via .NET использует стиль питоновой змеи, однако в большинстве случаев они имеют один-один аналог в Aspose.Words для .NET API. Вы можете найти этот аналог в [xml файл](/words/python-net/python-notes/wrapper.zip).

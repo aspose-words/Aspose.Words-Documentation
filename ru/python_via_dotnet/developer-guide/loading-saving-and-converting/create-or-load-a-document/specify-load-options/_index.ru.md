@@ -1,62 +1,62 @@
 ---
-title: Укажите параметры загрузки в Python
+title: Укажите варианты загрузки в Python
 second_title: Aspose.Words для Python via .NET
-articleTitle: Укажите параметры загрузки
-linktitle: Укажите параметры загрузки
-description: "Более точно контролируйте процесс загрузки с помощью Python."
+articleTitle: Укажите варианты загрузки
+linktitle: Укажите варианты загрузки
+description: "Более точно контролировать процесс нагрузки с помощью Python."
 type: docs
 weight: 10
 url: /ru/python-net/specify-load-options/
 ---
 
-При загрузке документа вы можете установить некоторые дополнительные свойства. Aspose.Words предоставляет вам класс [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/), который позволяет более точно контролировать процесс загрузки. Некоторые форматы загрузки имеют соответствующий класс, который содержит параметры загрузки для этого формата загрузки, например, существует [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) для загрузки в формат PDF или [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) для загрузки в TXT. В данной статье приведены примеры работы с опциями класса [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/).
+При загрузке документа вы можете установить некоторые расширенные свойства. Aspose.Words Предоставляет вам [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) класс, что позволяет более точно контролировать процесс нагрузки. Некоторые форматы нагрузки имеют соответствующий класс, который содержит параметры нагрузки для этого формата нагрузки, например, есть [PdfLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/pdfloadoptions/) для загрузки в формат PDF или [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) для загрузки в TXT. В этой статье приведены примеры работы с вариантами [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) класс.
 
-## Установите версию Microsoft Word, чтобы изменить внешний вид
+## Настройка Microsoft Word Версия для изменения внешнего вида
 
-В разных версиях приложения Microsoft Word документы могут отображаться по-разному. Например, существует хорошо известная проблема с документами OOXML, такими как DOCX или DOTX, созданными с помощью WPS Office. В таком случае важные элементы разметки документа могут отсутствовать или могут интерпретироваться по-другому, в результате чего Microsoft Word 2019 отображает такой документ иначе, чем Microsoft Word 2010.
+Различные версии Microsoft Word Приложение может отображать документы по-разному. Например, существует хорошо известная проблема с документами OOXML, такими как DOCX. DOTX производится с использованием WPS Office. В этом случае существенные элементы разметки документа могут отсутствовать или могут быть истолкованы по-разному. Microsoft Word 2019 год покажет такой документ по-другому Microsoft Word 2010.
 
-По умолчанию Aspose.Words открывает документы, используя правила Microsoft Word 2019. Если вам нужно, чтобы загрузка документа выглядела так, как это происходило в одной из предыдущих версий приложения Microsoft Word, вам следует явно указать нужную версию, используя свойство [msw_version](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/msw_version/) класса [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/).
+По умолчанию Aspose.Words Открытие документов с использованием Microsoft Word Правила 2019 года. Если вам нужно сделать загрузку документа такой, как это произошло бы в одном из предыдущих Microsoft Word версии приложения, вы должны явно указать желаемую версию, используя [msw_version](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/msw_version/) имуществом, [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) класс.
 
-В следующем примере кода показано, как установить версию Microsoft Word с параметрами загрузки:
+Следующий пример кода показывает, как установить Microsoft Word Версия с опциями загрузки:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-SetMSWordVersion.py" >}}
 
-## Установите языковые настройки, чтобы изменить внешний вид
+## Установите языковые предпочтения для изменения внешнего вида
 
-Детали отображения документа в Microsoft Word зависят не только от версии приложения и значения свойства [msw_version](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/msw_version/), но и от языковых настроек. Microsoft Word может отображать документы по-разному в зависимости от настроек диалогового окна "Языковые настройки Office", которые можно найти в "Файл → Параметры → Язык". С помощью этого диалогового окна пользователь может выбрать, например, основной язык, языки проверки, языки отображения и т.д. Aspose.Words предоставляет свойство [language_preferences](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/language_preferences/) как эквивалент этого диалогового окна. Если выходные данные Aspose.Words отличаются от выходных данных Microsoft Word, установите соответствующее значение для [EditingLanguage](https://reference.aspose.com/words/python-net/aspose.words.loading/editinglanguage/) — это может улучшить выходной документ.
+Подробности отображения документа в Microsoft Word зависит не только от версии приложения, но и от [msw_version](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/msw_version/) Значение свойств, но и на языковых настройках. Microsoft Word Документы могут отображаться по-разному в зависимости от настроек диалога "Офисные языковые предпочтения", которые можно найти в "Файл → Варианты → Лангуаге". Используя этот диалог, пользователь может выбрать, например, основной язык, языки проверки, языки отображения и так далее. Aspose.Words обеспечивает [language_preferences](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/language_preferences/) Свойство как эквивалент этого диалога. Если Aspose.Words выход отличается от Microsoft Word на выходе, установить соответствующее значение для [EditingLanguage](https://reference.aspose.com/words/python-net/aspose.words.loading/editinglanguage/) Это может улучшить выходной документ.
 
-В следующем примере кода показано, как установить японский номер [EditingLanguage](https://reference.aspose.com/words/python-net/aspose.words.loading/editinglanguage/):
+Следующий пример кода показывает, как установить японский язык как [EditingLanguage](https://reference.aspose.com/words/python-net/aspose.words.loading/editinglanguage/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_document_options_and_settings-AddJapaneseAsEditinglanguages.py" >}}
 
 ## Используйте TempFolder, чтобы избежать исключения памяти
 
-Aspose.Words поддерживает чрезвычайно большие документы, содержащие тысячи страниц с богатым содержимым. Загрузка таких документов может потребовать много оперативной памяти. В процессе загрузки Aspose.Words требуется еще больше памяти для хранения временных структур, используемых для анализа документа.
+Aspose.Words Поддерживает очень большие документы, которые имеют тысячи страниц с богатым содержанием. Загрузка таких документов может потребовать много оперативной памяти. В процессе загрузки, Aspose.Words Для хранения временных структур, используемых для разбора документа, требуется еще больше памяти.
 
-Если у вас возникла проблема с исключением "Недостаточно памяти" при загрузке документа, попробуйте использовать свойство [temp_folder](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/temp_folder/). В этом случае Aspose.Words будет хранить некоторые данные во временных файлах вместо памяти, и это может помочь избежать такого исключения.
+Если у вас есть проблема с исключением из памяти при загрузке документа, попробуйте использовать [temp_folder](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/temp_folder/) собственность. В этом случае, Aspose.Words Некоторые данные будут храниться во временных файлах вместо памяти, и это может помочь избежать такого исключения.
 
-В следующем примере кода показано, как установить [temp_folder](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/temp_folder/):
+Следующий пример кода показывает, как установить [temp_folder](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/temp_folder/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-UseTempFolder.py" >}}
 
-## Установите кодировку явно
+## Настройка кодирования эксплицитно
 
-Большинство современных форматов документов хранят свое содержимое в Юникоде и не требуют специальной обработки. С другой стороны, все еще существует множество документов, в которых используется кодировка, предшествующая Unicode, и иногда либо отсутствует информация о кодировке, либо даже не поддерживается информация о кодировке по своей природе. Aspose.Words пытается автоматически определить подходящую кодировку по умолчанию, но в редких случаях вам может потребоваться использовать кодировку, отличную от той, которая определяется нашим алгоритмом распознавания кодировки. В этом случае используйте свойство [encoding](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/encoding/), чтобы получить или установить кодировку.
+Большинство современных форматов документов хранят свой контент в Unicode и не требуют специальной обработки. С другой стороны, есть еще много документов, которые используют некоторое предварительное кодирование Unicode и иногда либо пропускают информацию кодирования, либо даже не поддерживают информацию кодирования по своей природе. Aspose.Words Он пытается автоматически обнаружить соответствующее кодирование по умолчанию, но в редких случаях вам может потребоваться использовать кодирование, отличное от того, которое обнаружено нашим алгоритмом распознавания кодирования. В этом случае используйте [encoding](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/encoding/) свойство получать или устанавливать кодировку.
 
-В следующем примере кода показано, как установить кодировку для переопределения автоматически выбранной кодировки:
+Следующий пример кода показывает, как установить кодирование, чтобы переопределить автоматически выбранное кодирование:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-LoadWithEncoding.py" >}}
 
-## Загрузить зашифрованные документы
+## Зашифрованные документы Load
 
-Вы можете загружать документы Word, зашифрованные паролем. Для этого используйте специальную перегрузку конструктора, принимающую объект [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/). Этот объект содержит свойство [password](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/password/), которое определяет строку пароля.
+Вы можете загрузить Документы Word зашифрованы паролем. Для этого используют специальный конструктор перегрузки, который принимает [LoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/) объект. Этот объект содержит [password](https://reference.aspose.com/words/python-net/aspose.words.loading/loadoptions/password/) свойство, которое определяет строку пароля.
 
-В следующем примере кода показано, как загрузить документ, зашифрованный паролем:
+Следующий пример кода показывает, как загрузить документ, зашифрованный паролем:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-Load Options-working_with_load_options-OpenEncryptedDocument.py" >}}
 
-Если вы заранее не знаете, зашифрован ли файл, вы можете использовать класс [FileFormatUtil](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/), который предоставляет служебные методы для работы с форматами файлов, такие как определение формата файла или преобразование расширений файлов в перечисления форматов файлов или из них. Чтобы определить, зашифрован ли документ и для его открытия требуется пароль, используйте свойство [is_encrypted](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/is_encrypted/).
+Если вы не знаете заранее, зашифрован ли файл, вы можете использовать [FileFormatUtil](https://reference.aspose.com/words/python-net/aspose.words/fileformatutil/) класс, который предоставляет утилиты для работы с форматами файлов, такими как обнаружение формата файла или преобразование расширений файла в/из перечислений формата файла. Чтобы определить, зашифрован ли документ и требуется ли пароль для его открытия, используйте [is_encrypted](https://reference.aspose.com/words/python-net/aspose.words/fileformatinfo/is_encrypted/) собственность.
 
-В следующем примере кода показано, как проверить, зашифрован ли документ или нет:
+Следующий пример кода показывает, как проверить документ, зашифрован он или нет:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-File Formats and Conversions-working_with_file_format-VerifyEncryptedDocument.py" >}}

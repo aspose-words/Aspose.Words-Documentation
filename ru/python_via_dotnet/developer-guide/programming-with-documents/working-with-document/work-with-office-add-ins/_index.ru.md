@@ -1,39 +1,39 @@
 ---
-title: Работа с надстройками Office в Python
+title: Работа с Office Addins в Python
 second_title: Aspose.Words для Python via .NET
-articleTitle: Работа с надстройками Office
-linktitle: Работа с надстройками Office
-description: "Aspose.Words для Python via .NET предоставляет различные классы для работы с надстройками Office. Вы можете добавить панель задач через веб-расширение и настроить свойства панели и расширения."
+articleTitle: Работа с Office Addins
+linktitle: Работа с Office Addins
+description: "Aspose.Words для Python via .NET Предоставляет различные классы для работы с Office Add-ins. Вы можете добавить панель задач через веб-расширение и настроить свойства панели и расширения."
 type: docs
 weight: 50
 url: /ru/python-net/work-with-office-add-ins/
 ---
 
-Иногда вам может потребоваться предоставить доступ к элементам управления интерфейса, которые запускают код для изменения документов. Aspose.Words API предоставляет модуль [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/), который предоставляет различные классы для настройки элементов и атрибутов, расширяющих словарь XML для представления надстроек Office.
+Иногда вы можете предоставить доступ к элементам управления интерфейсом, которые запускают код для изменения документов. Aspose.Words API обеспечивает [webextensions](https://reference.aspose.com/words/python-net/aspose.words.webextensions/) модуль, который предоставляет различные классы для настройки элементов и атрибутов, расширяя словарь XML для представления Office Add-ins.
 
-Пространство имен WebExtensions можно условно разделить на:
+Пространство имен WebExtensions условно можно разделить на:
 
 * Объекты для работы с панелью задач
 * Объекты для работы с веб-расширениями
 
 ## Использование панелей задач
 
-Панели задач представляют собой поверхности интерфейса, которые отображаются в правой части окна в Microsoft Word. Панель задач позволяет пользователям получать доступ к элементам управления интерфейса, которые могут запускать код для изменения документов.
+Панели задач представляют собой интерфейсные поверхности, которые отображаются на правой стороне окна в Microsoft Word. Панель задач позволяет пользователям получать доступ к элементам управления интерфейсом, которые могут запускать код для изменения документов.
 
-Например, с помощью Aspose.Words API вы можете добавить надстройку области задач и настроить ее внешний вид.
+Например, используя Aspose.Words API, Вы можете добавить панель задач и настроить ее внешний вид.
 
 ## Использование веб-расширений
 
-Веб-расширения — это инструменты, которые расширяют возможности приложений Office и взаимодействуют с содержимым документов Office. Веб-расширения предоставляют клиентам Office дополнительные функции для улучшения пользовательского опыта.
+Web Extensions - это инструменты, расширяющие возможности приложений Office и взаимодействующие с содержимым документов Office. Web Extensions предоставляет дополнительные функциональные возможности клиентам Office для улучшения пользовательского опыта.
 
-Aspose.Words предоставляет возможность добавлять веб-расширения типа "Панель задач" с помощью классов [WebExtension](https://reference.aspose.com/words/python-net/aspose.words.webextensions/webextension/) и [TaskPane](https://reference.aspose.com/words/python-net/aspose.words.webextensions/taskpane/), а также позволяет настраивать свойства панели и расширения.
+Aspose.Words обеспечивает возможность добавления веб-расширений типа панели задач с помощью [WebExtension](https://reference.aspose.com/words/python-net/aspose.words.webextensions/webextension/) и [TaskPane](https://reference.aspose.com/words/python-net/aspose.words.webextensions/taskpane/) классы, а также позволяет настроить свойства панелей и расширений.
 
-В следующем примере кода показано, как создавать панели задач и добавлять их к панелям задач веб-расширения с базовыми свойствами:
+Следующий пример кода показывает, как создавать панели задач и добавлять в панели задач веб-расширения с основными свойствами:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_web_extension-UsingWebExtensionTaskPanes.py" >}}
 
-Чтобы просмотреть список надстроек области задач, используйте свойство [web_extension_task_panes](https://reference.aspose.com/words/python-net/aspose.words/document/web_extension_task_panes/).
+Чтобы увидеть список дополнений панели задач, используйте [web_extension_task_panes](https://reference.aspose.com/words/python-net/aspose.words/document/web_extension_task_panes/) собственность.
 
-В следующем примере кода показано, как получить такой список надстроек:
+Следующий пример кода показывает, как получить такой список дополнений:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Document-working_with_web_extension-GetListOfAddins.py" >}}
