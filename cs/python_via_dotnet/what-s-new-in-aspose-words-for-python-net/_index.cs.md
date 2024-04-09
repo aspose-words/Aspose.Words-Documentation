@@ -1,0 +1,580 @@
+---
+title: Co je nového?
+second_title: Aspose.Words místo Python via .NET
+articleTitle: Co je nového v Aspose.Words místo Python via .NET
+linktitle: Co je nového v Aspose.Words místo Python via .NET
+type: docs
+description: "Aspose.Words místo Python via .NET denně rozšiřuje a zvyšuje. Na této stránce se můžete dozvědět o obrovských a nejzajímavějších rysech produktu."
+weight: 10
+url: /cs/python-net/what-s-new-in-aspose-words-for-python-net/
+---
+
+Tato stránka popisuje nejzajímavější nový Aspose.Words funkce zavedené v nedávných vydáních.
+
+## Aspose.Words místo Python via .NET 24, 1; 24, 2; 24, 3; 24, 4
+
+Aspose.Words 24.1 zlepšuje zkušenosti s řízením barev zdvihu, zvyšuje OLE objekty a přináší nový `Bibliography Sources` veřejný API.
+
+Aspose.Words 24,2 rozšířených grafů API a řízení stylu. Tato verze Aspose.Words také představil schopnost určit SvgSaveOptions při vykreslování, pružnější ovládání zatížení Markdown soubory a práce s referenčním textem pro poznámky pod čarou a poznámky pod čarou.
+
+Aspose.Words 24.3 zavádí nový TIFF Reader/Writer a Emulaci binárních rastrových operací pro WMF metafily. Aspose.Words 24.3 i nadále rozšiřuje grafy API.
+
+Aspose.Words 24.4 zvyšuje ukládání formátů, některé možnosti vykreslování a zlepšuje práci s digitálními podpisy.
+
+### Podporované formáty <sup>24, 4</sup>
+
+Moderní **WebP** formát obrázku je nyní podporován v Aspose.Words místo .NET Framework 4.6.2 a vyšší. Nyní můžete číst a vkládat WebP obrázky do dokumentů, stejně jako uložit obrázky v WebP formát.
+
+Vezměte prosím na vědomí, že WebP je v současné době k dispozici pouze v .NET Standard a .NET Framework V4.6.2.
+
+### Renderování a tisk
+
+#### Kontrola barev tahu <sup>24, 1</sup>
+
+• [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) třída byla rozšířena o soubor nových veřejných nemovitostí souvisejících s řízením barvy zdvihu: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) a [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) a [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
+
+#### Grafy kresleníML API Rozšíření <sup>24, 2 / 24, 3 / 24, 4</sup>
+
+• **DrawingML Charts API** i nadále se rozšiřuje.
+
+#### Vložit písma Vyhlášení v@font-face Rules <sup>24, 4</sup>
+
+Přidána možnost vložit písma deklarovaná v @font-face pravidla do výsledného dokumentu definice písma byla zavedena přidáním nového [support_font_face_rules](https://reference.aspose.com/words/python-net/aspose.words.loading/htmlloadoptions/support_font_face_rules/) majetek.
+
+#### Práce s formátováním záře a reflexe <sup>24, 4</sup>
+
+Byla implementována schopnost pracovat s formátováním světla a odrazu pro kreslící objekt.
+
+### Načítání a ukládání dokumentů
+
+#### Zadejte SvgSaveOptions Během renderování <sup>24, 2</sup>
+
+Schopnost určit [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) během vykreslení bylo přidáno pomocí [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) a [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) metody.
+
+#### Zachovat prázdné linky při načítání Markdown soubory <sup>24, 2</sup>
+
+Schopnost zachovat prázdné linky při nakládání Markdown byly přidány soubory.
+
+#### Nový TIFF čtečka / autor <sup>24, 3</sup>
+
+Nový TIFF čtečka / spisovatel pro Aspose.Words byl vyvinut. Aspose.Words místo .NET 24.3 dodal podporu pro čtení TIFF obrázků s JPEG a Old JPEG kompresní typy, a také výrazně zlepšil kvalitu čtecích a zápis operací.
+
+### Ostatní
+
+* Schopnost změnit text `TextBox` Kontrola OLE byla zavedena přidáním nového **Text** vlastnictví nového **TextBoxControl** třída. <sup>24, 1</sup>
+* Bibliografie Zdroje veřejnosti API byla provedena přidáním nového jmenného prostoru [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) s novými třídami a výčty, a přidáním nové [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) majetek [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) třída. <sup>24, 1</sup>
+* Nové veřejné nemovitosti [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), a [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) pro vylepšené řízení stylu byly přidány do [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) třída. <sup>24, 2</sup>
+* Funkce pro získání skutečného textu referenční značky pro poznámky pod čarou a poznámky k ní byla posílena o [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) majetek a [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) metoda. <sup>24, 2</sup>
+* Impulace binárních rastrových operací pro WMF metafily byla provedena. <sup>24, 3</sup>
+* Schopnost definovat možnosti podpisu dokumentů v rámci **SaveOptions** byla povolena přidáním nového [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) třída s novými veřejnými členy, stejně jako přidání nových nemovitostí do [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) a [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) třídy. <sup>24, 4</sup>
+
+{{% alert color="primary" %}}
+
+Více informací o [Aspose.Words místo Python via .NET 24.1 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-1-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 24.2 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-2-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 24.3 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-3-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 24.4 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2024/aspose-words-for-python-via-dotnet-24-4-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words místo Python via .NET 23.9, 23.10, 23.11, 23.12
+
+Aspose.Words 23.9 rozšiřuje možnosti vykreslování, emulace metafilů a markdown Uložit možnosti.
+
+Aspose.Words 23.10 zlepšuje vykreslování, rozšiřuje možnosti načítání a ukládání dokumentů a umožňuje uživatelům sloučit dokumenty novými způsoby.
+
+Aspose.Words 23.11 zvyšuje práci s revizemi, formátem XLSX a písmy na legendě grafu s dalšími možnostmi.
+
+Aspose.Words 23.12 představuje nové vlastnosti a výčty pro práci s PDF a OOXML dokumenty, stejně jako podporu pro WebP obrázky.
+
+### Renderování a tisk
+
+#### Přizpůsobení titulů seker v kresleníML Grafy <sup>23, 9</sup>
+
+Schopnost přizpůsobit názvy os v grafech DrawingML byla zavedena implementací nové veřejné třídy [ChartAxisTitle](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxistitle/) a [title](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/title/) majetek.
+
+####  Určení vertikální polohy písem v odstavci <sup>23, 9</sup>
+
+Nyní je možné definovat vertikální polohu písem v odstavci pomocí nové veřejnosti [baseline_alignment](https://reference.aspose.com/words/python-net/aspose.words/paragraphformat/baseline_alignment/) majetek a nový [BaselineAlignment](https://reference.aspose.com/words/python-net/aspose.words/baselinealignment/) výčtu.
+
+#### Ovládání barev před zemí <sup>Ostatní, o tloušťce</sup>
+
+Schopnost získat barvu popředí bez modifikátorů byla přidána do [Fill](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/) a [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) třídy prostřednictvím **BaseForeColor** majetek.
+
+#### Rozšíření funkčnosti grafů <sup>Ostatní, o tloušťce</sup>
+
+Funkce [ChartDataPointCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapointcollection/), [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/), a [ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/) třídy byly rozšířeny o nové metody a vlastnosti.
+
+#### Automaticky nastavit a nastavit obrázek do tvaru <sup>Ostatní, o tloušťce</sup>
+
+Jednoduchý způsob automatického nastavení a uložení obrazu do určitého tvaru byl poskytnut prostřednictvím nového [fit_image_to_shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/imagedata/fit_image_to_shape/#default) metoda.
+
+#### Výchozí formátování písma pro kreslení ML Údaje o legendách grafu <sup>23, 11</sup>
+
+Schopnost určit výchozí formátování písma pro legendární záznamy grafů DrawingML byla přidána prostřednictvím [font](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartlegend/font/) majetek. Tato funkce usnadňuje efektivnější a konzistentnější vzhled grafových prvků, zlepšuje celkovou estetiku dokumentu.
+
+#### Upřesnit rozložení stránky při otevření PDF v čtečce <sup>23, 12</sup>
+
+Možnost určit rozložení stránky, která má být použita při otevření dokumentu v PDF čtečce byla přidána zavedením nového [page_layout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/page_layout/) majetek [PdfSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfsaveoptions/) třída a zavedení nového [PdfPageLayout](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfpagelayout/) výčtu.
+
+### Načítání a ukládání dokumentů
+
+#### Zadání názvu složky pro vytvoření URI obrázků v Markdown <sup>23, 9</sup>
+
+• [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) třída byla rozšířena o včetně [images_folder_alias](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/images_folder_alias/) vlastnost, která umožňuje určit název složky použité pro sestavení obrázku URI napsané do Markdown dokument.
+
+#### Snížit PDF Velikost výstupu <sup>Ostatní, o tloušťce</sup>
+
+Různé PDF vykreslování optimalizace pro snížení velikosti výstupu při využití [optimize_output](https://reference.aspose.com/words/python-net/aspose.words.saving/fixedpagesaveoptions/optimize_output/) byla provedena nastavení.
+
+#### Poznejte hypertextové odkazy při načítání TXT dokumentů <sup>Ostatní, o tloušťce</sup>
+
+Funkce rozpoznat hypertextové odkazy při načítání TXT dokumentů byla implementována přidáním nového [detect_hyperlinks](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/detect_hyperlinks/) majetek.
+
+### Ostatní
+
+- Metafile vykreslování emulace pro stanovení velikosti rastrizace byla provedena, zejména pro šířku WMF pera a EMF kosmetické pero šířky. Abychom toho dosáhli, **ScaleWmfFontsToMetafileSize** nemovitost byla nahrazena [emulate_rendering_to_size_on_page](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page/) majetek a [emulate_rendering_to_size_on_page_resolution](https://reference.aspose.com/words/python-net/aspose.words.saving/metafilerenderingoptions/emulate_rendering_to_size_on_page_resolution/) byl přidán majetek. <sup>23, 9</sup>
+- V současné poloze kurzoru byla zavedena zjednodušená metoda pro vložení jednoho dokumentu do jiného dokumentu [insert_document_inline](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_document_inline/#document_importformatmode_importformatoptions) metoda. <sup>Ostatní, o tloušťce</sup>
+- Možnost přístupu a modifikace vlastností stylu byla přidána zavedením nového [locked](https://reference.aspose.com/words/python-net/aspose.words/style/locked/) majetek. <sup>Ostatní, o tloušťce</sup>
+- Do metod byl přidán obecný parametr typu [CompositeNode](https://reference.aspose.com/words/python-net/aspose.words/compositenode/) třída. <sup>Ostatní, o tloušťce</sup>
+- Schopnost zapsat všechny části dokumentu na stejný pracovní list XLSX byla poskytnuta prostřednictvím nového [XlsxSectionMode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsectionmode/) typ výčtu a nový [section_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/xlsxsaveoptions/section_mode/) majetek. <sup>23, 11</sup>
+* Způsob, jak kontrolovat, jak budou použita rozšíření formátu ZIP64 pro OOXML dokumenty, byl implementován prostřednictvím nové vlastnosti Zip64Mode `OoxmlSaveOptions` třída a nový Zip64Mode počet. <sup>23, 12</sup>
+* Podpora pro WebP byl představen obrázek. Upozorňujeme, že tato funkce je dostupná pouze pro .NetStandart a .NET6+ verze. <sup>23, 12</sup>
+
+{{% alert color="primary" %}}
+
+Více informací o [Aspose.Words místo Python via .NET 23.9 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-9-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23.10 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-10-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23.11 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-11-release-notes/).
+
+Více informací o [Aspose.Words místo .NET 23.12 Poznámky k vydání](https://releases.aspose.com/words/python/release-notes/2023/aspose-words-for-python-via-dotnet-23-12-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words místo Python via .NET 23, 5; 23, 6; 23, 7; 23, 8
+
+Aspose.Words 23.5 zvyšuje schopnost pracovat s daty ze série grafů a schopnost pracovat s dokumenty ODT, jakož i zlepšit hlavičky/nohy a jejich textové obaly.
+
+Aspose.Words 23.6 rozšiřuje možnosti renderování, přidává nový exportní formát, zlepšuje LINQ reporting a LowCode nářadí.
+
+Aspose.Words 23,7 zvyšuje možnosti podávání zpráv, přidává nový formát exportu a zavádí změny v práci s tabulkami a digitálními podpisy.
+
+Aspose.Words 23.8 rozšiřuje možnosti různých formátů, zlepšuje vykreslování a přidává nové možnosti pro práci s poli
+
+### Podporované formáty
+
+* Počínaje verzí 23.6, lze uložit dokument ve formátu XLSX. Nyní můžete převést své dokumenty do formátu Excel. <sup>23, 6</sup>
+
+* Začínáme verzí 23.7, lze uložit stránku dokumentu nebo tvar ve formátu EPS. <sup>23, 7</sup>
+
+### Funkce nového formátu
+
+- Byla zavedena funkce pro automatické generování obsahu (TOC) dokumentů MOBI. <sup>23, 8</sup>
+- The [PdfEncryptionDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions) Konstruktor byl rozšířen o [PdfPermissions](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfencryptiondetails/__init__/#str_str_pdfpermissions). <sup>23, 8</sup>
+- Byla provedena úprava vertikálního textu pro EMF metafily. <sup>23, 8</sup>
+
+### Renderování
+
+#### Získat a upravit Údaje ze série grafů <sup>23, 5</sup>
+
+Funkce pro získání a úpravu dat ze série grafů byla poskytnuta přidáním:
+
+- nové třídy: [ChartXValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvalue/), [ChartYValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvalue/), [ChartXValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluecollection/), [ChartYValueCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluecollection/), [BubbleSizeCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/bubblesizecollection/), [ChartMultilevelValue](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmultilevelvalue/)
+- nové typy enum: [ChartXValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartxvaluetype/), [ChartYValueType](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartyvaluetype/)
+
+#### Podpora pokročilé typografie <sup>23, 6</sup>
+
+Byla přidána podpora pokročilé typografie v provedení WMF, EMF a EMF+.
+
+#### Barevný obsah na stránce <sup>23, 6</sup>
+
+Veřejný majetek [PageInfo.colored](https://reference.aspose.com/words/python-net/aspose.words.rendering/pageinfo/colored/), bylo přidáno uvedení, zda je stránka barevná nebo ne.
+
+#### Formátování znaků grafu <sup>23, 6</sup>
+
+Byla implementována schopnost nastavit formátování vyplňování, zdvihu a calloutu pro popisky grafů.
+
+### Mail Merge a podávání zpráv
+
+#### Dynamic HTML Vložení pro LINQ Reporting Engine <sup>23, 6</sup>
+
+Byl přidán nový způsob dynamického HTML vložení pro LINQ Reporting Engine.
+
+#### Mustache Podpora značek <sup>23, 7</sup>
+
+Mustache Tagy jsou nyní podporovány v [MailMerge.GetRegionsHierarchy](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_regions_hierarchy/) a [MailMerge.GetFieldNamesForRegion](https://reference.aspose.com/words/python-net/aspose.words.mailmerging/mailmerge/get_field_names_for_region/) metody.
+
+#### Upřesnění velikosti renderovaných obrázků <sup>23, 8</sup>
+
+Nový veřejný majetek [image_size](https://reference.aspose.com/words/python-net/aspose.words.saving/imagesaveoptions/image_size/) pro upřesnění velikosti vykreslených obrázků v pixelu byla zavedena.
+
+#### Zachovat Whitespace pro JSON smyčcové hodnoty LINQ <sup>23, 8</sup>
+
+Do LINQ Reporting Engine byla přidána možnost zachovat Whitespace pro hodnoty řetězce JSON.
+
+### LowCode <sup>23, 6</sup>
+
+Nový LowCode byly přidány metody pro sloučení různých typů dokumentů do jediného výstupního dokumentu.
+
+### Ostatní
+
+- Byla zavedena podpora pro textové balení hlaviček/noh. <sup>23, 5</sup>
+- Schopnost odstranit digitální podpisy z dokumentů ODT byla přidána prostřednictvím [RemoveAllSignatures](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignatureutil/remove_all_signatures/#str_str) metoda. <sup>23, 5</sup>
+- Veřejný majetek [phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/phonetic_guide/) získat základní a rubínový text fonetického průvodce [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) bylo přidáno. <sup>23, 5</sup>
+- Schopnost získat hodnotu digitálního podpisu z digitálně podepsaného dokumentu jako pole byte byla přidána zavedením nového [signature_value](https://reference.aspose.com/words/python-net/aspose.words.digitalsignatures/digitalsignature/signature_value/) majetek. <sup>23, 7</sup>
+- The [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) a [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) třídy byly rozšířeny o nové členy veřejné správy [Row.next_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/next_row/), [Row.previous_row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/previous_row/), [Cell.next_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/next_cell/), a [Cell.previous_cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/previous_cell/). <sup>23, 7</sup>
+
+{{% alert color="primary" %}}
+
+Více informací o [Aspose.Words místo Python via .NET 23.5 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-5-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23.6 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-6-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23,7 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-7-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23.8 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-8-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words místo Python via .NET 23.1, 23.2, 23.3, 23.4
+
+Aspose.Words 23.1 zlepšuje výkon emulace rastrového provozu a zvyšuje kvalitu exportu a zobrazování dokumentů.
+
+Aspose.Words 23.2 zavádí uložení dokumentů ve formátu MOBI, zlepšuje vykreslování grafu a provádí významné změny v detailech vzhledu dokumentu.
+
+Aspose.Words 23.3 zvyšuje import a úsporu dokumentů s novými vlastnostmi a také zlepšuje kvalitu práce s pozadím a barvami popředí a radiálním gradientem.
+
+Aspose.Words 23.4 zlepšuje výpočet některých parametrů a umístění tabulky a okolního textu.
+
+### Zlepšení výkonnosti
+
+#### Emulace rastrových operací <sup>23, 1</sup>
+
+Výkon a kvalita emulace rastrových operací s metafily byly významně zlepšeny.
+
+### Podporované formáty
+
+#### Vývoz do MOBI <sup>23, 2</sup>
+
+Počínaje verzí 23.2, je možné uložit dokument ve formátu MOBI (také nazývaný ČLR, AZW ÁZ Amazon Kindle vlastní formát souboru e-knihy). Nyní můžete nejen načíst MOBI dokumenty, ale také exportovat své soubory do formátu MOBI.
+
+### Renderování
+
+#### Práce se Shading Téma Barvy <sup>23, 1</sup>
+
+Schopnost pracovat s tematikou stínování barev byla provedena.
+
+#### Podpora R-čtvercového koeficientu v DML grafech <sup>23, 1</sup>
+
+Podpora R-čtvercového koeficientu v DML grafových trendových etiketách při renderování byla přidána.
+
+#### Vylepšení grafu <sup>23, 2</sup>
+
+Od 23.2 se grafové vykreslování výrazně zlepšilo.
+
+#### Pozadí a přední kontrola barev <sup>23, 3</sup>
+
+• [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) třída byla rozšířena o soubor nových veřejných nemovitostí souvisejících s pozadím a barvy popředí: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_theme_color/) a [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/fore_tint_and_shade/) a [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/fill/back_tint_and_shade/).
+
+#### Radiální radiátory s `SkiaSharp` Indián Shader <sup>23, 3</sup>
+
+Renderování radiálních gradientů `SkiaSharp` nativní odstín pro .NET Standard bylo provedeno.
+
+#### Vzdálenost mezi tabulkou a okolním textem <sup>23, 4</sup>
+
+Schopnost nastavit vzdálenost mezi tabulkou a okolním textem byla přidána zavedením nových vlastností do [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) třída: [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), a [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
+
+### Načítání a ukládání dokumentů
+
+#### Generovat `TOC` pro AZW3 Dokumenty <sup>23, 1</sup>
+
+Schopnost generovat `TOC` (obsah) pro dokumenty AZW3 bylo přidáno pomocí [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) majetek.
+
+#### Exportovat položky seznamu do Markdown <sup>23, 1</sup>
+
+Způsob kontroly vývozu položek seznamu do Markdown formát byl poskytnut přidáním [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) majetek [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) třída.
+
+#### Dokument šetří oznámení o pokroku <sup>23, 3</sup>
+
+Byla provedena úspora oznámení o pokroku pro formáty MOBI a AZW3.
+
+#### Věta a přizpůsobení slov <sup>23, 3</sup>
+
+Možnost určit, zda při importu dokumentu automaticky upravit věty a rozestup slov byla přidána zavedením [adjust_sentence_and_word_spacing](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/adjust_sentence_and_word_spacing/) majetek.
+
+### Ostatní
+
+- Schopnost určit nastavení odstupu znaků dokumentu byla přidána prostřednictvím [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) provádění majetku <sup>23, 2</sup>
+- Způsob, jak poučovat Aspose.Words zda zahrnout textboxy, poznámky pod čarou a poznámky ke slovům statistiky počítání bylo poskytnuto přidáním [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) majetek <sup>23, 2</sup>
+- Nová volba pro styl dokumentu, která umožňuje určit, zda je styl automaticky nastaven na základě příslušné hodnoty, byla zavedena prostřednictvím [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) majetek <sup>23, 2</sup>
+- Schopnost určit, zda [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) je fonetická příručka byla přidána pomocí [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) majetek <sup>23, 4</sup>
+- Jednoduchý způsob práce se sériemi a osami kombo grafů byl realizován zavedením [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) třída a přidání [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) majetek <sup>23, 4</sup>
+- Nové veřejné vlastnosti spojené s tvarem relativní polohy a velikosti byly přidány do [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) třída <sup>23, 4</sup>
+- Přesnost a výkon výpočtu jasu barev pro automatické rozlišení barev textu byl vylepšen v souladu s nejnovějšími verzemi Microsoft Word <sup>23, 4</sup>
+
+{{% alert color="primary" %}}
+
+Více informací o [Aspose.Words místo Python via .NET 23.1 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-1-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23.2 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-2-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23.3 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-3-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 23.4 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-23-4-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words místo Python via .NET 22.9, 22.10, 22.11, 22.12
+
+Aspose.Words 22.9 rozšiřuje možnosti načítání a ukládání dokumentů a zlepšení interakce s některými dalšími možnostmi.
+
+Aspose.Words 22.10 zlepšuje hledání a výměnu možností, zvyšuje OLE objekty a rozšiřuje funkci seznamu.
+
+Aspose.Words 22.11 rozšiřuje svou funkčnost o nové možnosti pro pohodlnější práci s již známými objekty: OLE a strukturované značky dokumentů.
+
+Aspose.Words 22.12 zvyšuje možnosti vykreslování a zavádí možnosti práce s okraji při načítání / ukládání dokumentu.
+
+### Zlepšení výkonnosti <sup>22, 12</sup>
+
+Byla zavedena optimalizace, která výrazně snižuje hloubku grafického stavu hnízdění při zobrazování do PDF, aby byla zachována shoda specifikace.
+
+### Renderování a tisk
+
+#### Nové vlastnosti pro úpravu hranic <sup>22, 12</sup>
+
+Nové veřejné vlastnictví [theme_color](https://reference.aspose.com/words/python-net/aspose.words/border/theme_color/) a [tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words/border/tint_and_shade/) byly představeny.
+
+#### Linear Trendline Formule pro kresleníML Rendering <sup>22, 12</sup>
+
+Renderování lineárních trendů pro grafy kresleníML bylo implementováno.
+
+#### Nastavení Font Fallback pro Google Noto Písma <sup>22, 12</sup>
+
+Předdefinované nastavení zálohování písma pro Google Noto byla aktualizována písma.
+
+### Načítání a ukládání dokumentů
+
+#### Cache hlavička nebo zápatí tvary ke snížení velikosti PDF <sup>22, 9</sup>
+
+Schopnost cache hlavičky / tvary nohy ke snížení velikosti výstupního PDF souboru byla implementována přidáním nového **CacheHeaderFooterShapes** majetek.
+
+#### Automatická detekce čísel při načtení dokumentu <sup>22, 9</sup>
+
+Schopnost určit [auto_numbering_detection](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/auto_numbering_detection/) majetek při načítání textu byl realizován prostřednictvím rozšíření [TxtLoadOptions](https://reference.aspose.com/words/python-net/aspose.words.loading/txtloadoptions/) třída.
+
+#### Upřesnění konkrétního Typ marže <sup>22, 12</sup>
+
+Schopnost určit konkrétní **Margin** typ pro daný oddíl byl implementován.
+
+### Hledat a porovnat <sup>O tloušťce převyšující 0,2 mm</sup>
+
+Schopnost ignorovat [StructuredDocumentTag](https://reference.aspose.com/words/python-net/aspose.words.markup/structureddocumenttag/) při hledání a nahrazení možností byla provedena přidáním nového [ignore_structured_document_tags](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/) majetek [FindReplaceOptions](https://reference.aspose.com/words/python-net/aspose.words.replacing/findreplaceoptions/) třída.
+
+### Ostatní
+
+- Byla přidána nová funkce pro získání FieldEQ jako OfficeMath. <sup>22, 9</sup>
+- Vytvoření strukturovaných značek dokumentů Group typ na úrovni řádku byl povolen. <sup>22, 9</sup>
+- OLE objekty a ovládací prvky jsou nyní považovány za metafilní obrázky při konverzi dokumentu na HTML. <sup>O tloušťce převyšující 0,2 mm</sup>
+- Nová funkce pro kontrolu, že konkrétní seznam byl vytvořen ze stejné šablony jako srovnávací seznam byl doplněn zavedením nového **HasSameTemplate** metoda do [List](https://reference.aspose.com/words/python-net/aspose.words.lists/list/) třída. <sup>O tloušťce převyšující 0,2 mm</sup>
+- Schopnost vytvořit nové strukturované značky dokumentů [Citation](https://reference.aspose.com/words/python-net/aspose.words.markup/sdttype/) typ byl přidán. <sup>22, 11</sup>
+- Nový. **EmbedAttachments** byla zavedena vlastnost, která uživatelům umožňuje vložit OLE přílohy ze zdrojového dokumentu do výstupního PDF dokumentu. <sup>22, 11</sup>
+
+{{% alert color="primary" %}}
+
+Více informací o [Aspose.Words místo Python via .NET 22.9 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-9-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 22.10 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-10-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 22.11 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-11-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 22.12 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-12-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words místo Python via .NET 22, 5; 22, 6; 22, 7; 22, 8
+
+Aspose.Words 22.5 zavádí podporu pro nové formáty načítání a novou velikost tiskové stránky a zlepšuje některé možnosti vykreslování.
+
+Aspose.Words 22.6 rozšiřuje možnosti převodu PDF do jiných formátů, stejně jako zlepšuje práci s kreslenímML a solidní text vyplnit efekt.
+
+Aspose.Words 22.7 zvyšuje možnosti práce s funkcemi renderování a také přidává nové funkce pro práci s HTML importem a exportem do PDF.
+
+Aspose.Words 22.8 zavádí nový exportní formát a zlepšuje různé renderovací algoritmy.
+
+• API je posílen pro pružnější a pohodlnější rozvoj.
+
+### Podporované formáty
+
+* Podpora načítání dokumentů EPUB a XML byla zavedena přidáním nových hodnot do **LoadFormat** vyjmenování. Od verze 22.5 je možné načíst EPUB a XML dokumenty do Aspose.Words vzor dokumentu a převést je na jakýkoli [Podporované formáty dokumentů](/words/cs/python-net/supported-document-formats/). <sup>22, 5</sup>
+* Od verze 22.8 je možné uložit dokument ve formátu AZW3 Amazon Proprietární formát souboru Kindle e-book (KF8 je jiný název formátu). Nyní můžete nejen načíst AZW3 dokumenty, ale také exportovat své soubory do formátu AZW3, což je v podstatě kompilovaný EPUB. <sup>22, 8</sup>
+
+### Renderování a tisk
+
+#### Nová velikost tisku <sup>22, 5</sup>
+
+Podpora pro tiskovou stránku Envelope č. 10 [PaperSize](https://reference.aspose.com/words/python-net/aspose.words/papersize/) výčtu.
+
+#### Rendering MathML vzorce <sup>22, 5</sup>
+
+Vykreslování pole kolem matematických vzorců a detekce fontů při vykreslování znaků pro tyto vzorce bylo vylepšeno.
+
+#### DML Zlepšení grafu <sup>22, 6</sup>
+
+DrawingML grafy veřejné API byla rozšířena na podporu gradientu, textury a vzorových náplní.
+
+#### Glyph Outlines Parsing for OpenType <sup>22, 7</sup>
+
+Aspose.Words vlastní glyph byly implementovány osnovy pro písma OpenType (CFF).
+
+V minulých dílech... glyph parsing pro písma OpenType (CFF) byl proveden prostřednictvím GDI+. Takže teď to funguje v případech, kdy GDI+ není k dispozici Java, .NET Standard nástupiště, Linux, macOS atd. Glyph obrysy parsing je nutné v konkrétních případech, jako je WordArt, textové efekty, některé funkce Office Math, a další.
+
+#### Nastavit formát stínu <sup>22, 7</sup>
+
+Schopnost nastavit stín formátování tvarového objektu byla poskytnuta přidáním nového [shadow_format](https://reference.aspose.com/words/python-net/aspose.words.drawing/shapebase/shadow_format/) majetek.
+
+#### Podpora buněčného rozložení v tabulkách <sup>22, 8</sup>
+
+Nyní se výrazně zlepšuje uspořádání motoru: byl implementován velmi složitý mechanismus roztečení buněk v tabulkách.
+
+#### Substituce písma pro symboly <sup>22, 8</sup>
+
+Byla zlepšena náhrada písem za symboly.
+
+#### Algoritmus rotace značky Chart Axis <sup>22, 8</sup>
+
+Zlepšil se algoritmus otáčení štítků os grafu.
+
+### Načítání a ukládání dokumentů
+
+#### Načíst a převést PDF do pevné stránky Formát bez rozvržení modelu <sup>22, 6</sup>
+
+Byla implementována schopnost načíst a převést PDF dokumenty na pevné formáty stránek s vysokou věrností a výkonem.
+
+#### Nový HTML importní režim <sup>22, 7</sup>
+
+Nový HTML importní režim pro prvky na úrovni bloku byl zaveden přidáním nové hodnoty do [HtmlInsertOptions](https://reference.aspose.com/words/python-net/aspose.words/htmlinsertoptions/) výčtu.
+
+#### Převést na PDF/UA-1 Compliant s WCAG 2.0 <sup>22, 7</sup>
+
+Byla přidána podpora pro převod dokumentu do formátu PDF/UA-1 v souladu s WCAG 2.0,
+
+Takže, pokud zákazník má přístupný Word dokument a převádí jej na PDF / UA-1 prostřednictvím Aspose.Words uvedení konverzí specifika, pak výstup bude kompatibilní WCAG 2.0.
+
+WCAG nebo přístupnost webového obsahu Pokyny jsou souborem pokynů vypracovaných W3C ve spolupráci s jednotlivci a organizacemi po celém světě. Teď s Aspose.Words můžete svůj dokument převést na výstupní formát PDF/UA-1, který je vhodný pro sestavení dokumentů WCAG 2.0 vyhovujících PDF.
+
+Stojí za zmínku, že WCAG 2.0 má dva dodatečné požadavky, které nejsou uvedeny ve specifikaci PDF/UA-1:
+
+- kontrastní požadavky
+- požadavky na označování multimediálního obsahu
+
+Ale oba požadavky nejsou relevantní pro náš případ konverze z Word do PDF.
+
+### Ostatní
+
+Výjimkou zdědění solidní text vyplnit efekt, který napodobuje MS Word chování byla provedena. <sup>22, 6</sup>
+
+{{% alert color="primary" %}}
+
+Více informací o [Aspose.Words místo Python via .NET 22.5 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-5-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 22.6 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-6-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 22.7 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-7-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 22.8 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-8-release-notes/).
+
+{{% /alert %}}
+
+## Aspose.Words místo Python via .NET 22, 3; 22, 4
+
+Aspose.Words 22.3 rozšiřuje možnosti práce s formáty PDF a TXT a zlepšuje práci některých stávajících algoritmů a motorů.
+
+Aspose.Words 22,4 zvyšuje možnosti PDF nyní můžete uložit soubor ve formátu PDF/A-4 a získat řadu dalších vylepšení v výstupu PDF. Zároveň, Aspose.Words 22.4 poskytuje další schopnosti pracovat s DML grafy, číst metadata Photoshop a importovat HTML prvky na úrovni bloku.
+
+• API je posílen pro pružnější a pohodlnější rozvoj.
+
+### Podporované funkce
+
+Začneme s Aspose.Words 22.4, podpora Python 3.10.
+
+### Zlepšení výkonnosti
+
+Načítání dříve uložené vyhledávací cache písma, aby se urychlil proces inicializace font cache při vykreslování byl implementován. Vaše řešení budou fungovat ještě rychleji.
+
+### Podporované formáty
+
+Přidán byl dokument ve formátu AZW3 (KF8 je další název formátu). Nyní můžete načíst AZW3 dokument a převést jej do jiných podporovaných formátů.
+
+### Renderování
+
+#### Rendering MathML vzorce
+
+Vykreslování operátorů ve vzorcích MathML bylo vylepšeno.
+
+#### DML Zlepšení grafu
+
+Byly provedeny následující vylepšení DML grafů:
+
+* Algoritmus škálování osy DML byl vylepšen tak, aby byl stejný jako v MS Word
+
+* Schopnost manipulovat s legendárními záznamy kresleníML grafu byla poskytnuta, aby se náš graf API stále komplexnější
+* Schopnost určit název souboru xls/xlsx, ke kterému je připojen graf DrawingML
+
+#### Předání PDF s dodržováním PDF/A-4
+
+Přidáním nových hodnot do PDF s dodržováním PDF/A-4 bylo přidáno [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) počet [PDF_A4](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/#pdf_a4). Tato volba předpokládá revidované úrovně konformance: pravidelná shoda PDF/A-4 odpovídá úrovni konformance U předchozích verzí a odstraní se úroveň A.
+
+#### Čtení rozlišení metadat Photoshopu v JPEG
+
+Čtení Rozlišení metadat Photoshopu v JPEG obrazech bylo implementováno tak, aby se vyřešil zajímavý problém s nesprávným škálováním obrázků při renderování.
+
+#### Dovolit latinskému textu zabalit uprostřed slova
+
+Podpora pro "Allow latinsky text zabalit uprostřed slova" funkce byla provedena tak, aby naše latinská podpora ještě lepší při vykreslování.
+
+### Načítání a ukládání dokumentů
+
+#### Řízení stylového chování Při načítání dokumentu
+
+Nová možnost [force_copy_styles](https://reference.aspose.com/words/python-net/aspose.words/importformatoptions/force_copy_styles/) byl zaveden pro kontrolu chování protichůdných stylů při importu dokumentů.
+
+#### Převést tvary na SVG Při vývozu
+
+Schopnost převést tvary na SVG obrázky při exportu do HTML, MHTML, nebo EPUB byla poskytnuta přidáním [export_shapes_as_svg](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/) majetek.
+
+#### Úspora na PDF 2.0 a zlepšení v PDF výstupu
+
+Schopnost uložit dokument jako PDF 2.0 přidáním nové hodnoty do [PdfCompliance](https://reference.aspose.com/words/python-net/aspose.words.saving/pdfcompliance/) Byla zavedena i řada dalších požadovaných vylepšení výstupu PDF.
+
+#### Nový HTML importní režim
+
+Byl implementován nový importní režim pro prvky na úrovni HTML bloku Microsoft Word chování.
+
+### Ostatní
+
+* Byla zavedena schopnost získat OOXML ovládání obsahu a uložit jej do řetězce.
+* Bylo přidáno uznání nestandardních poznámek pod čarou v dokumentech PDF o dovozu.
+* Byla přidána schopnost získat vlastní údaje o poli, které jsou spojeny s polem.
+* Tabulka porovnávající algoritmus závislý na hluboké analýze Microsoft Word Zlepšil se mechanismus srovnání.
+* Byla poskytnuta syntaxe připomínek v motoru LINQ Reporting.
+
+{{% alert color="primary" %}}
+
+Více informací o [Aspose.Words místo Python via .NET 22.3 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-3-release-notes/).
+
+Více informací o [Aspose.Words místo Python via .NET 22.4 Poznámky k vydání](/words/python-net/aspose-words-for-python-via-dotnet-22-4-release-notes/).
+
+{{% /alert %}}
+
+## Viz také
+
+{{% alert color="primary" %}}
+
+Tato stránka obsahuje nejnovější zprávy o vydání za poslední 2 roky. Podrobnosti o dřívějších vydáních viz [Poznámky k vydání '](/words/python-net/release-notes/) stránky v příslušných oddílech.
+
+{{% /alert %}}
