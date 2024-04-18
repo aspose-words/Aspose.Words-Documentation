@@ -3,19 +3,19 @@ title: Введение и создание таблиц
 second_title: Aspose.Words для Python via .NET
 articleTitle: Введение и создание таблиц
 linktitle: Введение и создание таблиц
-description: "Создавайте таблицы в документе и управляйте ими с помощью Python."
+description: "Создание и управление таблицами в документе с использованием Python."
 type: docs
 weight: 10
 url: /ru/python-net/create-a-table/
 ---
 
-Aspose.Words позволяет пользователям создавать таблицы в документе с нуля и предоставляет для этого несколько различных методов. В этой статье представлены подробности о том, как добавить форматированные таблицы в документ с помощью каждого метода, а также сравнение каждого метода в конце статьи.
+Aspose.Words Это позволяет пользователям создавать таблицы в документе с нуля и предоставляет несколько различных методов для этого. В этой статье представлена подробная информация о том, как добавить отформатированные таблицы в ваш документ с использованием каждого метода, а также сравнение каждого метода в конце статьи.
 
-## Стили таблиц по умолчанию
+## По умолчанию Table Styles
 
-Вновь созданной таблице присваиваются значения по умолчанию, аналогичные тем, которые использовались в Microsoft Word:
+Вновь созданной таблице приведены значения по умолчанию, аналогичные тем, которые используются в Microsoft Word:
 
-| Свойство таблицы | По умолчанию в Aspose.Words |
+| Настольная собственность | Дефолт в Aspose.Words |
 |  :-  |  :-  |
 | `Border Style` |  `Single`  |
 | `Border Width` | `1/2 pt` |
@@ -25,114 +25,114 @@ Aspose.Words позволяет пользователям создавать т
 | `Allow AutoFit` |  `True`  |
 {{% alert color="primary" %}}
 
-Таблица может быть встроенной, если она плотно расположена, или плавающей, если ее можно разместить в любом месте страницы. По умолчанию Aspose.Words всегда создает встроенные таблицы.
+Таблица может быть встроенной, если она плотно расположена, или плавающей, если она может быть размещена в любом месте на странице. По умолчанию, Aspose.Words Всегда создает таблицы.
 
 {{% /alert %}}
 
-## Создайте таблицу с помощью DocumentBuilder
+## Создайте таблицу с документостроителем
 
-В Aspose.Words пользователи могут создавать таблицы в документе с помощью [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Основной алгоритм создания таблицы следующий:
+В Aspose.Words, Пользователи могут создать таблицу в документе, используя [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/). Основной алгоритм создания таблицы выглядит следующим образом:
 
-1. Начните таблицу с [StartTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/)
-2. Добавьте ячейку в таблицу, используя номер [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/) — при этом автоматически начинается новая строка
-3. При необходимости используйте свойство [CellFormat](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/cell_format/), чтобы указать форматирование ячейки
-4. Вставьте содержимое ячейки, используя соответствующие методы **DocumentBuilder**, такие как [Writeln](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/writeln/#str), [InsertImage](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/#str) и другие
-5. Повторяйте шаги 2–4, пока ряд не завершится
-6. Позвоните по номеру [EndRow](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/), чтобы завершить текущую строку
-7. При необходимости используйте свойство [RowFormat](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/row_format/), чтобы указать форматирование строки
-8. Повторяйте шаги 2–7, пока таблица не будет заполнена
-9. Позвоните по номеру [EndTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/), чтобы закончить сборку таблицы
+1. Начните стол с [StartTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/)
+2. Добавьте ячейку в стол, используя [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/) Это автоматически запускает новый ряд
+3. По желанию используйте [CellFormat](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/cell_format/) свойство определять форматирование ячеек
+4. Вставьте содержимое ячейки, используя соответствующую **DocumentBuilder** Такие методы, как [Writeln](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/writeln/#str), [InsertImage](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_image/#str), и другие
+5. Повторять шаги 2-4 до завершения строки
+6. Звони. [EndRow](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) Чтобы закончить текущий ряд
+7. По желанию используйте [RowFormat](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/row_format/) свойство указывать форматирование строк
+8. Повторите шаги 2-7, пока таблица не будет завершена
+9. Звони. [EndTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) Чтобы закончить строительство стола
 
 {{% alert color="primary" %}}
 
 Важные детали:
 
-- [StartTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/) также можно вызвать внутри ячейки, и в этом случае он запускает создание вложенной таблицы внутри ячейки.
-— После вызова [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/) создается новая ячейка, и любой контент, который вы добавляете с помощью других методов класса [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/), будет добавлен в текущую ячейку. Чтобы создать новую ячейку в той же строке, снова позвоните по номеру **InsertCell**.
-- Если **InsertCell** вызывается сразу после [EndRow](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) и конца строки, таблица продолжится с новой строки.
-— Метод [EndTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) для завершения таблицы следует вызывать только один раз после вызова **EndRow**. Вызов **EndTable** перемещает курсор из текущей ячейки в позицию сразу после таблицы.
+- [StartTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/start_table/) Его также можно назвать внутри клетки, и в этом случае он начинает создание вложенного стола внутри клетки.
+- После звонка [InsertCell](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_cell/), создается новая ячейка и любой контент, который вы добавляете, используя другие методы [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) Класс будет добавлен к текущей ячейке. Чтобы создать новую ячейку в том же ряду, позвоните **InsertCell** Опять.
+- Если **InsertCell** Называется сразу после [EndRow](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_row/) В конце строки стол продолжится на новой строке.
+- [EndTable](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/end_table/) Способ окончания таблицы следует вызывать только один раз после вызова **EndRow**. Звонить **EndTable** перемещает курсор из текущей ячейки в положение сразу после стола.
 
 {{% /alert %}}
 
-Процесс создания таблицы наглядно можно увидеть на следующей картинке:
+Процесс создания таблицы можно четко увидеть на следующей картинке:
 
-<img src="/words/python-net/create-a-table/creating-table-process.jpg" alt="процесс создания таблицы" style="zoom:50%;" />
+<img src="/words/python-net/create-a-table/creating-table-process.jpg" alt="creating-table-process" style="zoom:50%;" />
 
-В следующем примере кода показано, как создать простую таблицу с использованием **DocumentBuilder** и форматированием по умолчанию:
+Следующий пример кода показывает, как создать простую таблицу. **DocumentBuilder** с форматированием по умолчанию:
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "create-simple-table.py" >}}
 
-В следующем примере кода показано, как создать форматированную таблицу с помощью DocumentBuilder:
+Следующий пример кода показывает, как создать отформатированную таблицу с помощью DocumentBuilder:
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "formatted-table.py" >}}
 
-В следующем примере кода показано, как вставить вложенную таблицу с помощью DocumentBuilder:
+Следующий пример кода показывает, как вставить вложенную таблицу с помощью DocumentBuilder:
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "nested-table.py" >}}
 
-## Создайте таблицу через DOM (Document Object Model)
+## Создайте стол через DOM ()Document Object Model)
 
-Вы можете вставлять таблицы непосредственно в DOM, добавив новый узел [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) в определенную позицию.
+Вы можете вставлять таблицы непосредственно в DOM Добавляя новый [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) Узел в определенной позиции.
 
-Обратите внимание, что сразу после создания узла таблицы сама таблица будет совершенно пустой, то есть еще не содержит строк и ячеек. Чтобы вставить строки и ячейки в таблицу, добавьте соответствующие дочерние узлы [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) к DOM.
+Обратите внимание, что сразу после создания столового узла сам стол будет полностью пустым, то есть он еще не содержит строк и ячеек. Чтобы вставить строки и ячейки в таблицу, добавьте соответствующие [Row](https://reference.aspose.com/words/python-net/aspose.words.tables/row/) и [Cell](https://reference.aspose.com/words/python-net/aspose.words.tables/cell/) Детские узлы в DOM.
 
 {{% alert color="primary" %}}
 
-Этот метод создания таблицы использует те же настройки таблицы по умолчанию, что и при использовании **DocumentBuilder**.
+Этот метод создания таблицы использует те же по умолчанию таблицы, что и при использовании таблицы. **DocumentBuilder**.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как создать новую таблицу с нуля, добавив соответствующие дочерние узлы в дерево документа:
+Следующий пример кода показывает, как построить новую таблицу с нуля, добавив соответствующие узлы ребенка в дерево документов:
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "insert-table-directly.py" >}}
 
 ##Create Таблица из HTML
 
-Aspose.Words поддерживает вставку содержимого в документ из источника HTML с помощью метода [InsertHtml](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/). Входные данные могут представлять собой полную HTML-страницу или только ее частичный фрагмент.
+Aspose.Words поддерживает вставку контента в документ из источника HTML с использованием [InsertHtml](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_html/) метод. Ввод может быть полной HTML-страницей или просто частичным фрагментом.
 
-Используя метод **InsertHtml**, пользователи могут вставлять таблицы в документ с помощью тегов таблиц, таких как `<table>`, `<tr>`, `<td>`.
+Используя **InsertHtml** метод, пользователи могут вставлять таблицы в документ с помощью тегов таблицы, таких как `<table>`, `<tr>`, `<td>`.
 
-В следующем примере кода показано, как вставить таблицу в документ из строки, содержащей теги HTML:
+Следующий пример кода показывает, как вставить таблицу в документ из строки, содержащей теги HTML:
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "insert-table-from-html.py" >}}
 
-## Вставка копии существующей таблицы
+## Вставить копию существующего стола
 
-Часто бывают случаи, когда вам нужно создать таблицу на основе уже существующей таблицы в документе. Самый простой способ дублировать таблицу с сохранением всего форматирования — клонировать узел Таблица с помощью метода [Clone](https://reference.aspose.com/words/python-net/aspose.words/node/clone/).
+Нередко возникает необходимость создания таблицы на основе уже существующей таблицы в документе. Самый простой способ дублировать таблицу, сохраняя при этом все форматирование, - это клонировать узел таблицы с помощью [Clone](https://reference.aspose.com/words/python-net/aspose.words/node/clone/) метод.
 
-Тот же метод можно использовать для добавления в таблицу копий существующей строки или ячейки.
+Этот же метод можно использовать для добавления копий существующей строки или ячейки в таблицу.
 
-В следующем примере кода показано, как дублировать таблицу с помощью конструкторов узлов:
+Следующий пример кода показывает, как дублировать таблицу с помощью конструкторов узлов:
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "clone-complete-table.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+Вы можете скачать образец файла этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-В следующем примере кода показано, как клонировать последнюю строку таблицы и добавить ее в таблицу:
+Следующий пример кода показывает, как клонировать последнюю строку таблицы и добавить ее к таблице:
 
 {{< gist "aspose-words-gists" "daa15d229a9e8b9015aa87ff6893f387" "clone-last-row.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать образец файла этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
+Вы можете скачать образец файла этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Tables.docx).
 
 {{% /alert %}}
 
-Если вы хотите создать в документе таблицы, которые будут динамически расширяться с каждой записью из вашего источника данных, то описанный выше метод не рекомендуется. Вместо этого желаемый результат легче достичь, используя Mail merge с регионами.
+Если вы смотрите на создание таблиц в документе, которые динамически растут с каждой записью из вашего источника данных, то вышеупомянутый метод не рекомендуется. Вместо этого желаемый результат легче достигается с помощью Mail merge с регионами.
 
 ## Сравните способы создания таблицы
 
-Aspose.Words предоставляет несколько методов для создания новых таблиц в документе. Каждый метод имеет свои преимущества и недостатки, поэтому выбор того, какой из них использовать, зачастую зависит от конкретной ситуации.
+Aspose.Words Предоставляет несколько способов создания новых таблиц в документе. Каждый метод имеет свои преимущества и недостатки, поэтому выбор того, какой из них использовать, часто зависит от конкретной ситуации.
 
-Давайте подробнее рассмотрим эти способы создания таблиц и сравним их плюсы и минусы:
+Давайте более подробно рассмотрим эти способы создания таблиц и сравним их плюсы и минусы:
 
-|  Метод | Преимущества |  Недостатки |
+|  метод | Преимущества |  Недостатки |
 |  :-  |  :-  |  :-  |
-| Через DocumentBuilder | Стандартный метод вставки таблиц и другого содержимого документа | Иногда сложно создать множество разновидностей таблиц одновременно с помощью одного и того же экземпляра построителя |
-| Через DOM |  Лучше сочетается с окружающим кодом, который создает и вставляет узлы непосредственно в DOM без использования **DocumentBuilder** | Таблица создается "пустой": перед выполнением большинства операций необходимо позвонить по номеру [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/), чтобы создать недостающие дочерние узлы |
-| Из HTML | Можно создать новую таблицу из источника HTML, используя такие теги, как `<table>`, `<tr>`, `<td>` | Не все возможные форматы таблиц Microsoft Word можно применить к HTML |
-| Клонирование существующей таблицы | Вы можете создать копию существующей таблицы, сохранив при этом форматирование всех строк и ячеек | Соответствующие дочерние узлы необходимо удалить, прежде чем таблица будет готова к использованию |
+| С помощью DocumentBuilder | Стандартный метод вставки таблиц и другого содержания документов | Иногда трудно создать много разновидностей таблиц одновременно с одним и тем же экземпляром конструктора |
+| Виа DOM |  Лучше подходит с окружающим кодом, который создает и вставляет узлы непосредственно в DOM Без использования a **DocumentBuilder** | Таблица создается "пустой": перед выполнением большинства операций необходимо позвонить [EnsureMinimum](https://reference.aspose.com/words/python-net/aspose.words.tables/table/ensure_minimum/) Создание любых недостающих узлов ребенка |
+| Из HTML | Может создать новую таблицу из HTML-источника с помощью тегов, таких как: `<table>`, `<tr>`, `<td>` | Не все возможно Microsoft Word Форматы таблиц могут быть применены к HTML |
+| Клонирование существующего стола | Вы можете создать копию существующей таблицы, сохраняя при этом форматирование всех строк и ячеек | Соответствующие детские узлы должны быть удалены до того, как стол будет готов к использованию |

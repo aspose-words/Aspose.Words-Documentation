@@ -1,86 +1,86 @@
 ---
-title: Разделить документ в Python
+title: Разделить документ на Python
 second_title: Aspose.Words для Python via .NET
 articleTitle: Разделить документ
 linktitle: Разделить документ
-description: "Разделите документ на несколько файлов с помощью Python. Используйте функцию разделения, чтобы эффективно разделить документ по заголовкам или разделам, а также по страницам или по диапазонам страниц."
+description: "Разделите документ на несколько файлов, используя Python. Используйте функцию разделения для эффективного разделения документа по заголовкам или разделам, а также по страницам или диапазонам страниц."
 type: docs
 weight: 90
 url: /ru/python-net/split-a-document/
 ---
 
-*Splitting* или *разделить документ* — это процесс разбиения большого документа на большее количество файлов меньшего размера. Существуют различные причины для разделения файла. Например, вам нужны только несколько страниц конкретного документа, а не весь. Или из соображений конфиденциальности вы хотите поделиться с другими только некоторыми частями документа. Благодаря функции разделения вы сможете получить только нужные части документа и проделать с ними необходимые действия, например, разметить, сохранить или отправить.
+*Splitting* Разделение документа - это процесс разбиения большого документа на большее количество меньших файлов. Существует несколько причин для разделения файла. Например, вам нужны только некоторые страницы из определенного документа, а не весь. Или по соображениям конфиденциальности вы хотите поделиться только некоторыми частями документа с другими. С помощью функции расщепления можно получить только необходимые части документа и сделать с ними необходимые действия, например, разметить, сохранить или отправить.
 
-Aspose.Words предоставляет вам эффективный способ разделить один документ на несколько документов по заголовкам или разделам. Вы также можете разделить документ по страницам или по диапазонам страниц. Оба варианта разделения будут описаны в этой статье.
+Aspose.Words Это эффективный способ разделить один документ на несколько документов по заголовкам или разделам. Вы также можете разделить документ по страницам или по диапазонам страниц. Оба варианта разделения будут описаны в этой статье.
 
-Чтобы разделить документ на файлы меньшего размера с помощью Aspose.Words, вам необходимо выполнить следующие действия:
+Разделить документ на более мелкие файлы с помощью Aspose.Words, Вы должны следовать этим шагам:
 
 1. Загрузите документ в любом поддерживаемом формате.
 1. Разделите документ.
 1. Сохраните выходные документы.
 
-После разделения документа вы сможете открыть все выходные документы, которые начнутся с необходимых страниц, текста и т.д.
+После того, как вы разделите документ, вы сможете открыть все выходные документы, которые начнутся с необходимых страниц, текста и т.д.
 
 {{% alert color="primary" %}}
 
 **Попробуйте онлайн**
 
-Вы можете попробовать эту функциональность с нашим [Бесплатный онлайн-разделитель документов](https://products.aspose.app/words/splitter).
+Вы можете попробовать эту функцию с нашей [Бесплатный онлайн сплиттер документов](https://products.aspose.app/words/splitter).
 
 {{% /alert %}}
 
-## Разделение документа по разным критериям {#split-a-document-using-different-criteria}
+## Разделите документ, используя разные критерии {#split-a-document-using-different-criteria}
 
-Aspose.Words позволяет разбивать документы EPUB или HTML на главы по различным критериям. При этом стиль и макет исходного документа сохраняются для выходных документов.
+Aspose.Words Это позволяет разделить документы EPUB или HTML на главы в соответствии с различными критериями. При этом стиль и расположение исходного документа сохраняются для выходных документов.
 
-Вы можете указать критерии, используя перечисление [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/). Таким образом, вы можете разделить документ на главы, используя один из следующих критериев, или объединить несколько критериев вместе:
+Вы можете указать критерии, используя [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/) перечисление. Таким образом, вы можете разделить документ на главы, используя один из следующих критериев или объединить несколько критериев вместе:
 
-- заголовок абзаца,
-- разрыв раздела,
-- разрыв столбца,
-- разрыв страницы.
+- пункт заголовка,
+- перерыв в секции,
+- разрыв колонны,
+- Перерыв страницы.
 
-При сохранении вывода в HTML Aspose.Words сохраняет каждую отдельную главу как отдельный файл HTML. В результате документ будет разделен на несколько HTML-файлов. При сохранении вывода в EPUB Aspose.Words сохраняет результат в одном файле EPUB независимо от использованного вами значения [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/). Таким образом, использование [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/) для документов EPUB влияет только на внешний вид их содержимого в приложениях для чтения: контент будет разделен на главы, и документ больше не будет выглядеть непрерывным.
+При сохранении вывода в HTML, Aspose.Words Сохраните каждую отдельную главу в виде отдельного HTML-файла. В результате документ будет разделен на несколько HTML-файлов. При сохранении выхода в EPUB, Aspose.Words сохранить результат в одном файле EPUB независимо от [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/) ценность, которую вы использовали. Таким образом, используя [DocumentSplitCriteria](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/) Документы EPUB влияют только на внешний вид их содержания в приложениях для чтения: содержание будет разделено на главы и документ больше не будет казаться непрерывным.
 
 {{% alert color="primary" %}}
 
-Вы не можете разделить документ с помощью свойства [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/) при сохранении в формате MHTML.
+Вы не можете разделить документ, используя [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/) свойство при сохранении в формат MHTML.
 
 {{% /alert %}}
 
-В этом разделе мы рассмотрим лишь некоторые из возможных критериев разделения.
+В этом разделе мы рассмотрим только некоторые из возможных критериев разделения.
 
 ### Разделить документ по заголовкам {#split-a-document-by-headings}
 
-Чтобы разбить документ на главы по заголовкам, используйте значение [HEADING_PARAGRAPH](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/#HEADING_PARAGRAPH) свойства [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/).
+Чтобы разделить документ на главы по заголовкам, используйте [HEADING_PARAGRAPH](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/#HEADING_PARAGRAPH) ценность [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/) собственность.
 
-Если вам нужно разделить документ по абзацам заголовков определенного уровня, например, по заголовкам 1, 2 и 3, используйте также свойство [document_split_heading_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_heading_level/). Вывод будет разделен на абзацы, отформатированные с указанным уровнем заголовка.
+Если вам нужно разделить документ на определенный уровень абзацев заголовков, таких как заголовки 1, 2 и 3, используйте также [document_split_heading_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_heading_level/) собственность. Результат будет разделен на пункты, отформатированные с указанным уровнем заголовка.
 
-В следующем примере кода показано, как разделить документ на более мелкие части по заголовку:
+Следующий пример кода показывает, как разделить документ на более мелкие части по заголовку:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentByHeadingsHtml.py" >}}
 
-Обратите внимание, что для этого критерия Aspose.Words поддерживает сохранение только в формате HTML при разделении.
+Обратите внимание, что по этим критериям Aspose.Words Поддерживает только сохранение в формате HTML при разделении.
 
-При сохранении в EPUB документ не разбивается на несколько файлов, и выходной файл будет только один.
+При сохранении в EPUB документ не разбивается на несколько файлов, и будет только один выходной файл.
 
 ### Разделить документ по разделам {#split-a-document-by-sections}
 
-Aspose.Words также позволяет использовать разрывы разделов для разделения документов и сохранения их в формате HTML. Для этого используйте [SECTION_BREAK](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/#section_break) вместо [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/):
+Aspose.Words Вы также можете использовать перерывы в разделах для разделения документов и сохранения их в HTML. Для этой цели используют [SECTION_BREAK](https://reference.aspose.com/words/python-net/aspose.words.saving/documentsplitcriteria/#section_break) как [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/):
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySectionsHtml.py" >}}
 
-Существует еще один способ разделить исходный документ на несколько выходных документов, и вы можете выбрать любой выходной формат, поддерживаемый Aspose.Words.
+Существует еще один способ разделить исходный документ на несколько выходных документов, и вы можете выбрать любой формат вывода, поддерживаемый Aspose.Words.
 
-В следующем примере кода показано, как разделить документ на более мелкие части по разрывам разделов (без использования свойства [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/)):
+Следующий пример кода показывает, как разделить документ на более мелкие части с разбивкой по разделам (без использования [document_split_criteria](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/) имущество:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentBySections.py" >}}
 
 ## Разделение по страницам {#splitting-by-pages}
 
-Вы также можете разделить документ постранично, по диапазонам страниц или начиная с указанных номеров страниц. В таком случае метод [extract_pages](https://reference.aspose.com/words/python-net/aspose.words/document/extract_pages/) может выполнить эту работу.
+Вы также можете разделить страницу документа по странице, по диапазонам страниц или начать с указанных номеров страниц. В таком случае [extract_pages](https://reference.aspose.com/words/python-net/aspose.words/document/extract_pages/) Метод может сделать работу.
 
-В этом разделе описываются несколько вариантов использования разделения документов по страницам с использованием класса [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) и метода [extract_pages](https://reference.aspose.com/words/python-net/aspose.words/document/extract_pages/).
+В этом разделе описаны несколько случаев использования разделительных документов, размещенных на странице с использованием [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) класса и [extract_pages](https://reference.aspose.com/words/python-net/aspose.words/document/extract_pages/) метод.
 
 {{% alert color="primary" %}}
 
@@ -90,30 +90,30 @@ Aspose.Words также позволяет использовать разрыв
 
 {{% alert color="primary" %}}
 
-Из-за множества нюансов, появляющихся при уменьшении количества страниц, полное совпадение с макетом Microsoft Word является достаточно сложной задачей. Поэтому, в зависимости от сложности документа, макет итогового документа может немного отличаться от исходного документа.
+Из-за множества нюансов, появляющихся при сокращении количества страниц, полное соответствие с Microsoft Word Макет - довольно сложная задача. Поэтому, в зависимости от сложности документа, могут быть небольшие различия в итоговой компоновке документа от исходного документа.
 
 {{% /alert %}}
 
-### Разделить страницу документа по страницам {#split-a-document-page-by-page}
+### Разделите страницу документа по странице {#split-a-document-page-by-page}
 
-Aspose.Words позволяет разделить многостраничный документ постранично.
+Aspose.Words Позволяет разделить многостраничный документ по страницам.
 
-В следующем примере кода показано, как разделить документ и сохранить каждую страницу как отдельный документ:
+Следующий пример кода показывает, как разделить документ и сохранить каждую страницу в виде отдельного документа:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentPageByPage.py" >}}
 
 ### Разделить документ по диапазонам страниц {#split-a-document-by-page-ranges}
 
-Aspose.Words позволяет разбивать многостраничный документ по диапазонам страниц. Вы можете разделить один файл на несколько файлов с различными диапазонами страниц или просто выбрать один диапазон и сохранить только эту часть исходного документа. Обратите внимание, что вы можете выбрать диапазон страниц в соответствии с максимальным и минимальным количеством страниц документа.
+Aspose.Words позволяет разделить многостраничный документ по диапазонам страниц. Вы можете разделить один файл на несколько файлов с различными диапазонами страниц или просто выбрать один диапазон и сохранить только эту часть исходного документа. Обратите внимание, что вы можете выбрать диапазон страниц в соответствии с максимальным и минимальным номером страницы документа.
 
-В следующем примере кода показано, как разделить документ на более мелкие части по диапазону страниц с определенными начальными и конечными индексами:
+Следующий пример кода показывает, как разделить документ на более мелкие части по диапазону страниц с определенными начальными и конечными индексами:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-SplitDocumentByPageRange.py" >}}
 
-## Объединить разделенный документ с другим файлом {#merge-the-split-document-with-another-file}
+## Слить раздельный документ с другим файлом {#merge-the-split-document-with-another-file}
 
-Aspose.Words позволяет объединить выходной разделенный документ с другим документом, чтобы сформировать новый документ. Это можно назвать объединением документов.
+Aspose.Words Позволяет объединить выделенный документ с другим документом, чтобы сформировать новый документ. Это можно назвать слиянием документов.
 
-В следующем примере кода показано, как объединить разделенный документ с другим документом:
+Следующий пример кода показывает, как объединить разделенный документ с другим документом:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Split Documents-split_document-MergeSplitDocuments.py" >}}

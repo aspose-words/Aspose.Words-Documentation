@@ -1,28 +1,28 @@
 ---
-title: Настройте свойства поля в C#
+title: Настройка полевых свойств в C#
 second_title: Aspose.Words для .NET
-articleTitle: Настройка свойств поля
-linktitle: Настройка свойств поля
-description: "Узнайте, как настроить свойства полей в C#. Переименуйте поля слияния или получите результаты для полей без узла-разделителя в .NET."
+articleTitle: Настройка полевых свойств
+linktitle: Настройка полевых свойств
+description: "Узнайте, как настроить свойства поля в C#. Переименовать поля слияния или получить результаты для полей без узла сепаратора .NET."
 type: docs
 weight: 27
 url: /ru/net/customize-field-properties/
 ---
 
-Aspose.Words предоставляет возможность программного взаимодействия с различными свойствами полей. В этой статье мы рассмотрим пару примеров, чтобы вы поняли основной принцип работы со свойствами полей. Полный список свойств для каждого типа поля вы можете увидеть в соответствующем классе в файле [Пространство имен полей](https://reference.aspose.com/words/ru/net/aspose.words.fields/).
+Aspose.Words обеспечивает возможность программно взаимодействовать с различными свойствами поля. В этой статье мы рассмотрим несколько примеров, чтобы вы поняли основной принцип работы со свойствами поля. Вы можете увидеть полный список свойств для каждого типа поля в соответствующем классе. [Пространство имён полей](https://reference.aspose.com/words/net/aspose.words.fields/).
 
-## Обновление свойств поля
+## Обновление Field Property Update
 
-Иногда пользователям необходимо изменить значение свойства поля. Например, обновите свойство [AuthorName](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldauthor/authorname/) поля `AUTHOR` или измените свойство [FieldName](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldmergefield/fieldname/) поля `MERGEFIELD`.
+Иногда пользователям необходимо изменить стоимость недвижимости. Например, обновить [AuthorName](https://reference.aspose.com/words/net/aspose.words.fields/fieldauthor/authorname/) имуществом, `AUTHOR` Поле или изменить [FieldName](https://reference.aspose.com/words/net/aspose.words.fields/fieldmergefield/fieldname/) имуществом, `MERGEFIELD` поле.
 
-В следующем примере кода показано, как переименовать поля слияния в документе Word:
+Следующий пример кода показывает, как переименовать поля слияния в документ Word:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-RenameMergeFields-RenameMergeFields.cs" >}}
 
-## Результат отображения поля
+## Результат Field Display
 
-Aspose.Words предоставляет свойство для получения результата поля для полей, у которых нет узла-разделителя полей. Мы называем это "фальшивым результатом" или отображаемым результатом; MS Word отображает его в документе, вычисляя значение поля на лету, но в модели документа такого значения нет.
+Aspose.Words обеспечивает свойство получения результата поля для полей, не имеющих узла разделителя поля. Мы называем это "фальшивым результатом" или результатом отображения; MS Word отображает его в документе, вычисляя значение поля на лету, но такого значения в модели документа нет.
 
-В следующем примере кода показано использование свойства [DisplayResult](https://reference.aspose.com/words/ru/net/aspose.words.fields/field/displayresult/):
+Следующий пример кода показывает использование [DisplayResult](https://reference.aspose.com/words/net/aspose.words.fields/field/displayresult/) имущество:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldDisplayResults-FieldDisplayResults.cs" >}}

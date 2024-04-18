@@ -1,9 +1,9 @@
 ---
-title: Форматы файлов и преобразования
+title: Форматы файлов и конверсии
 second_title: Aspose.Words для Python via .NET
-articleTitle: Форматы файлов и преобразования
-linktitle: Форматы файлов и преобразования
-description: "Конвертируйте документы из любой поддерживаемой загрузки и сохраняйте формат с помощью всего двух строк кода Python. Он обеспечивает высококачественную конверсию."
+articleTitle: Форматы файлов и конверсии
+linktitle: Форматы файлов и конверсии
+description: "Преобразование документов из любой поддерживаемой нагрузки в формат сохранения всего двумя строками Python Код. Обеспечивает качественную конверсию."
 type: docs
 weight: 40
 url: /ru/python-net/file-formats-and-conversions/
@@ -13,123 +13,123 @@ url: /ru/python-net/file-formats-and-conversions/
 
 **Попробуйте онлайн**
 
-Вы можете попробовать функцию преобразования, используя наш инструмент [Бесплатный онлайн-конвертер](https://products.aspose.app/words/conversion).
+Вы можете попробовать функциональность преобразования, используя наш [Бесплатный онлайн конвертер](https://products.aspose.app/words/conversion) инструмент.
 
 {{% /alert %}}
 
-Способность быстро и надежно конвертировать различные форматы документов с высокой степенью точности — флагманская функция Aspose.Words. Часто это достаточно веская причина выбрать Aspose.Words вместо Python via .NET.
+Возможность быстро и надежно конвертировать различные форматы документов с высокой степенью точности Aspose.WordsФлагманская особенность. Часто это достаточно веская причина для выбора. Aspose.Words для Python via .NET.
 
-С помощью Aspose.Words вы можете конвертировать документы из любого поддерживаемого формата загрузки в любой поддерживаемый формат сохранения, используя всего две строки кода:
+С Aspose.Words Вы можете конвертировать документы из любого поддерживаемого формата загрузки в любой поддерживаемый формат сохранения, используя только две строки кода:
 
 1. Загрузите документ из файла или потока
 2. Сохраните его в любом поддерживаемом формате
 
-В следующем примере кода показано, как преобразовать документ:
+Следующий пример кода показывает, как конвертировать документ:
 
 {{< gist "aspose-words-gists" "36a49a29062268dc5e6d3134163f8d99" "docx-to-pdf.py" >}}
 
-Подробнее о загрузке, конвертации и сохранении документов смотрите в разделе [Загрузка, сохранение и конвертация](/words/ru/python-net/loading-saving-and-converting/).
+Для более подробной информации о загрузке, конвертации и сохранении документов см. [Погрузка, экономия и конвертация](/words/ru/python-net/loading-saving-and-converting/) Раздел.
 
-## Высокая точность
+## Высокая верность
 
-Одной из основных целей Aspose.Words является обеспечение высококачественного преобразования между форматами документов. Мы используем слово "высокая точность" для описания преобразований, при которых выходной документ сохраняет все содержимое и форматирование оригинала.
+Одна из главных целей Aspose.Words Обеспечить высокоточную конверсию между форматами документов. Мы используем слово "высокая точность" для описания конверсий, в которых выходной документ сохраняет все содержимое и форматирование оригинала.
 
-Современные форматы текстовых документов сложны и включают в себя сотни функций. Иногда, когда поставщик заявляет, что его решение поддерживает определенный формат документа, это означает, что поддерживаются только основные функции формата. Например, документы Microsoft Word имеют расширенные функции, такие как сноски, текстовые поля, автофигуры, объекты OLE, поля и расширенные атрибуты форматирования. Многие из этих элементов часто игнорируются в библиотеках обработки документов, но не в Aspose.Words.
+Современные форматы текстовых документов сложны и включают в себя сотни функций. Иногда, когда поставщик утверждает, что его решение поддерживает определенный формат документа, это означает, что поддерживаются только основные функции формата. Например, Microsoft Word Документы имеют расширенные функции, такие как сноски, текстовые поля, автоформы, объекты OLE, поля и расширенные атрибуты форматирования. Многие из этих элементов часто игнорируются в библиотеках обработки документов. Aspose.Words.
 
-### Расширенная поддержка форматов
+### Увеличение объема поддержки формата
 
-Неоспоримым преимуществом Aspose.Words является широкая поддержка большинства известных форматов. Трудно или невозможно найти такой же уровень поддержки многих важных функций где-либо еще.
+Бесспорное преимущество Aspose.Words Это большая поддержка большинства известных форматов. Трудно или невозможно найти такой же уровень поддержки для многих важных функций в другом месте.
 
-Приобретая решение с поддержкой того или иного формата, узнайте об уровне поддержки возможностей этого формата. Для проверки создайте сложный файл и прогоните его через предложенное решение. Часто вы обнаружите, что многие элементы документа и форматирование теряются. Например, для формата DOC обычно страдают фигуры, текстовые поля, поля, столбцы, объекты OLE, ревизии, текст с написанием справа налево.
+При покупке решения, поддерживающего тот или иной формат, узнайте об уровне, на котором поддерживаются особенности этого формата. Для тестирования создайте сложный файл и запустите его через предлагаемое решение. Вы часто обнаружите, что многие элементы и форматирование документов будут потеряны. Например, для формата DOC обычно страдают формы, текстовые ящики, поля, столбцы, объекты OLE, доработки, право-левый текст.
 
-Aspose.Words Document Object Model (DOM) был разработан с учетом форматов документов Microsoft Word. Поэтому наш уровень поддержки таких форматов, как DOC, DOCX, RTF или WordprocessingML, является беспрецедентным. Преобразование в любом направлении между этими форматами осуществляется с высокой точностью.
+Aspose.Words Document Object Model ()DOMбыл разработан с Microsoft Word Форматы документов в виду. Поэтому наш уровень поддержки таких форматов, как DOC, DOCX, RTF или WordprocessingML, является беспрецедентным. Конверсия в любом направлении между этими форматами отличается высокой точностью.
 
-Прогоняя сложный документ через Aspose.Words, наслаждайтесь непревзойденной полнотой реализации формата.
+При выполнении сложного документа через Aspose.Words, Наслаждайтесь непревзойденной полнотой реализации формата.
 
 ### Примеры конвертации между популярными форматами
 
-Ниже приведены примеры преобразований между некоторыми популярными форматами. Вы можете оценить, насколько точно Aspose.Words справляется с поставленной задачей.
+Ниже приведены примеры конверсий между некоторыми популярными форматами. Вы можете оценить, насколько точно Aspose.Words Справляется с задачей.
 
 ---
 
-*DOC в RTF – высококачественное преобразование:*
+*DOC to RTF - конверсия высокой точности: *
 
-<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-rtf-aspose-words-net-1" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-2.png" alt="doc-to-rtf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
-
----
-
-*DOC в PDF – высококачественное преобразование:*
-
-<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-pdf-aspose-words-net-1" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-3.png" alt="doc-to-pdf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
-
-<img src="/words/python-net/file-formats-and-conversions/adobe-portable-document-format-pdf-2.png" alt="doc-to-pdf-aspose-words-net-3" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/adobe-portable-document-format-pdf-3.png" alt="doc-to-pdf-aspose-words-net-4" style="width:500px; vertical-align: top"/>
+<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-rtf-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-2.png" alt="doc-to-rtf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC в ODT – высококачественное преобразование:*
+*DOC to PDF - конверсия высокой точности: *
 
-<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-odt-aspose-words-net-1" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-4.png" alt="doc-to-odt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-pdf-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-3.png" alt="doc-to-pdf-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
----
-
-*DOC в XPS – преобразование высокой точности:*
-
-<img src="/words/python-net/file-formats-and-conversions/xml-paper-specification-xps-2.png" alt="doc-to-xps-aspose-words-net-1" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/xml-paper-specification-xps-3.png" alt="doc-to-xps-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="/words/python-net/file-formats-and-conversions/adobe-portable-document-format-pdf-2.png" alt="doc-to-pdf-aspose-words-net-3" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/adobe-portable-document-format-pdf-3.png" alt="doc-to-pdf-aspose-words-net-4" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC в PostScript – высококачественное преобразование:*
+*DOC to ODT - конверсия высокой точности: *
 
-<img src="/words/python-net/file-formats-and-conversions/postscript-2.png" alt="doc-to-postscript-aspose-words-net-1" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/postscript-3.png" alt="doc-to-postscript-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-odt-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-4.png" alt="doc-to-odt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-*DOC в JPEG – высококачественное преобразование:*
+*DOC для XPS Преобразование высокой точности: *
+
+<img src="/words/python-net/file-formats-and-conversions/xml-paper-specification-xps-2.png" alt="doc-to-xps-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/xml-paper-specification-xps-3.png" alt="doc-to-xps-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+
+---
+
+*DOC to PostScript - конверсия высокой точности: *
+
+<img src="/words/python-net/file-formats-and-conversions/postscript-2.png" alt="doc-to-postscript-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/postscript-3.png" alt="doc-to-postscript-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+
+---
+
+*DOC to JPEG - конверсия высокой точности: *
 
 <img src="/words/python-net/file-formats-and-conversions/image-formats-tiff-png-bmp-emf-jpeg-gif-9.png" alt="doc-to-jpeg-aspose-words-net-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
-*DOC в GIF – преобразование высокого качества:*
+*DOC to GIF - конверсия высокой точности: *
 
 <img src="/words/python-net/file-formats-and-conversions/image-formats-tiff-png-bmp-emf-jpeg-gif-11.png" alt="doc-to-gif-aspose-words-net-1" style="width:1000px; vertical-align: top"/>
 
 ---
 
-*RTF в TXT – преобразование высокой точности:*
+*RTF to TXT - конверсия высокой точности: *
 
-<img src="/words/python-net/file-formats-and-conversions/plain-text-txt-2.png" alt="rtf-to-txt-aspose-words-net-1" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/plain-text-txt-3.png" alt="rtf-to-txt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="/words/python-net/file-formats-and-conversions/plain-text-txt-2.png" alt="rtf-to-txt-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/plain-text-txt-3.png" alt="rtf-to-txt-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
 ---
 
-Хотя все конвертеры в Aspose.Words великолепны, иногда вам не удастся добиться одинакового внешнего вида документов в разных форматах.
+Хотя все преобразователи в Aspose.Words Отлично, иногда вы не сможете получить одинаковый внешний вид для документов в разных форматах.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что в таких ситуациях конвертация Aspose.Words имеет пометку "высокая точность", и выходной документ будет таким же, как и после конвертации через Microsoft Word.
+Обратите внимание, что в таких ситуациях Aspose.Words имеет преобразование с пометкой "высокая точность", и выходной документ будет таким же, как после преобразования через Microsoft Word.
 
 {{% /alert %}}
 
-Например, не существует простого однозначного соответствия между всеми функциями HTML и документами Microsoft Word. В HTML нет верхних и нижних колонтитулов, разделов, полей и вкладок. И наоборот, не все атрибуты и правила CSS можно сопоставить с документом Microsoft Word.
+Например, не существует простого соответствия между всеми функциями HTML и HTML. Microsoft Word Документы. В HTML нет заголовков / шагов, разделов, полей и вкладок. И наоборот, не все атрибуты и правила CSS могут быть отображены на Microsoft Word Документ.
 
-Ниже приведен пример преобразования из DOC в HTML.
+Ниже приведен пример конверсий из DOC в HTML.
 
 ---
 
-DOC в HTML – высококачественное преобразование:
+DOC to HTML - конверсия высокой точности
 
-<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-html-aspose-words-net-1" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-5.png" alt="doc-to-html-aspose-words-net-2" style="width:500px; vertical-align: top"/>
+<img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-1.png" alt="doc-to-html-aspose-words-net-1" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/high-quality-conversions-5.png" alt="doc-to-html-aspose-words-net-2" style="width:500px; vertical-align: top"/>
 
-<img src="/words/python-net/file-formats-and-conversions/html-xhtml-and-mhtml-4.png" alt="doc-to-html-aspose-words-net-3" style="width:500px; vertical-align: top"/><img src="/words/python-net/file-formats-and-conversions/html-xhtml-and-mhtml-5.png" alt="doc-to-html-aspose-words-net-4" style="width:500px; vertical-align: top"/>
+<img src="/words/python-net/file-formats-and-conversions/html-xhtml-and-mhtml-4.png" alt="doc-to-html-aspose-words-net-3" style="width:500px; vertical-align: top"/> <img src="/words/python-net/file-formats-and-conversions/html-xhtml-and-mhtml-5.png" alt="doc-to-html-aspose-words-net-4" style="width:500px; vertical-align: top"/>
 
 ---
 
 ## Высокая масштабируемость
 
-Масштабируемые сценарии на стороне сервера используют Aspose.Words главным образом из-за его простого и понятного дизайна — Aspose.Words поддерживает многопоточность. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) объектов независимы друг от друга, и пока только один поток может изменять документ одновременно (типичное требование для любого класса коллекции), несколько потоков могут обрабатывать любое количество документов одновременно.
+Масштабируемые серверные сценарии Aspose.Words В основном из-за простого и чистого дизайна. Aspose.Words Поддерживает многопоточность. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) Объекты независимы друг от друга, и пока только один поток может изменять документ за раз (типичное требование для любого класса сбора), несколько потоков могут обрабатывать любое количество документов одновременно.
 
 ## Высокая производительность
 
-Aspose.Words демонстрирует высокую производительность при загрузке и сохранении документов. При тестировании файл DOC размером более 5 МБ загружался менее чем за 1 секунду, а затем сохранялся менее чем за 1 секунду на компьютере P4 3 ГГц. Файлы меньшего размера могут обрабатываться со скоростью тысячи в минуту.
+Aspose.Words демонстрирует высокую производительность при загрузке и сохранении документов. При тестировании DOC-файл размером более 5 Мбит загружался менее чем за 1 секунду, а затем сохранялся менее чем за 1 секунду на машине с частотой P4 3 ГГц. Меньшие файлы могут обрабатываться с тысячами в минуту.
 
-Несколько раз наши клиенты сообщали нам, что не могли поверить в скорость Aspose.Words. Они перешагнули строку кода, загружающую огромный документ в отладчик, и это было настолько мгновенно, что они не могли поверить, что файл был загружен в объект [Document](https://reference.aspose.com/words/python-net/aspose.words/document/).
+Несколько раз наши клиенты сообщали нам, что они не могут поверить в скорость. Aspose.Words. Они перешагнули линию кода, которая загружала огромный документ в отладчик, и это было настолько мгновенно, что они не могли поверить, что файл был загружен в отладчик. [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) объект.

@@ -3,156 +3,156 @@ title: Работа с разделами в C#
 second_title: Aspose.Words для .NET
 articleTitle: Работа с разделами
 linktitle: Работа с разделами
-description: "Понимание концепций разделов документа и методов манипулирования с использованием C#. Вставьте раздел в документ C#. Удалите раздел C#. Копируйте разделы между документами."
+description: "Понимание концепций раздела документа и методов манипуляции с использованием C#. Включить раздел в документ C#. Удалить раздел C#. Разделы копирования между документами."
 type: docs
 weight: 120
 url: /ru/net/working-with-sections/
 ---
 
-Иногда вам нужен документ, который не имеет одинакового форматирования на всех страницах. Например, вам может потребоваться изменить формат номеров страниц, изменить размер и ориентацию страницы или использовать первую страницу документа в качестве титульной страницы без нумерации. Вы можете добиться этого с помощью разделов.
+Иногда вам нужен документ, который не имеет одинакового форматирования на всех страницах. Например, вам может потребоваться изменить форматы номеров страниц, иметь различный размер страницы и ориентацию или иметь первую страницу документа в качестве обложки без какой-либо нумерации. Это можно сделать с помощью разделов.
 
-Разделы — это узлы уровня, которые управляют верхними и нижними колонтитулами, ориентацией, столбцами, полями, форматированием номеров страниц и т.д.
+Секции - это узлы уровня, которые контролируют заголовки и нижние колонки, ориентацию, столбцы, поля, форматирование номеров страниц и другие.
 
-Aspose.Words позволяет управлять разделами, разделять документ на разделы и вносить изменения форматирования, применимые только к определенному разделу. Aspose.Words хранит информацию о форматировании раздела, такую как верхние и нижние колонтитулы, настройки страницы и настройки столбцов в разрыве раздела.
+Aspose.Words позволяет управлять разделами, разделять документ на разделы и вносить изменения форматирования, которые относятся только к конкретному разделу. Aspose.Words сохраняет информацию о форматировании раздела, такую как заголовки и нижние колонки, настройка страницы и настройки колонки в перерыве раздела.
 
-В этой статье объясняется, как работать с разделами и разрывами разделов.
+В этой статье объясняется, как работать с разделами и разделами перерывов.
 
-## Что такое раздел и разрыв раздела
+## Что такое секция и секционный перерыв
 
-Разделы документа представлены классами [Section](https://reference.aspose.com/words/ru/net/aspose.words/section/) и [SectionCollection](https://reference.aspose.com/words/ru/net/aspose.words/section/collection). Объекты раздела являются непосредственными дочерними элементами узла [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/), и доступ к ним можно получить через свойство [Sections](https://reference.aspose.com/words/ru/net/aspose.words/document//properties/sections). Вы можете управлять этими узлами, используя некоторые методы, такие как [Remove](https://reference.aspose.com/words/ru/net/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/ru/net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/ru/net/aspose.words/nodecollection/indexof/) и другие.
+Разделы документов представлены [Section](https://reference.aspose.com/words/net/aspose.words/section/) и [SectionCollection](https://reference.aspose.com/words/net/aspose.words/section/collection) классы. Объекты секции являются непосредственными детьми [Document](https://reference.aspose.com/words/net/aspose.words/document/) Узел и может быть доступен через [Sections](https://reference.aspose.com/words/net/aspose.words/document//properties/sections) собственность. Вы можете управлять этими узлами, используя некоторые методы, такие как: [Remove](https://reference.aspose.com/words/net/aspose.words/nodecollection/remove/), [Add](https://reference.aspose.com/words/net/aspose.words/nodecollection/add/), [IndexOf](https://reference.aspose.com/words/net/aspose.words/nodecollection/indexof/), и другие.
 
-Разрыв раздела — это опция, которая делит страницы документа на разделы с настраиваемым макетом.
+Раздельный перерыв - это опция, которая делит страницы документов на разделы с настраиваемыми макетами.
 
-## Виды разрыва раздела
+## Типы разрыва раздела
 
-Aspose.Words позволяет разделять и форматировать документы, используя разные разрывы разделов перечисления [BreakType](https://reference.aspose.com/words/ru/net/aspose.words/breaktype/):
+Aspose.Words позволяет разделять и форматировать документы с использованием различных разделов [BreakType](https://reference.aspose.com/words/net/aspose.words/breaktype/) перечисление:
 
-* РазделBreakContinous
-* РазделBreakNewColumn
-* РазделBreakNewPage
-* РазделBreakEvenPage
-* РазделBreakOddPage
+* Непрерывный сечение
+* Обсуждение BreakNewColumn
+* Секция BreakNewPage
+* Скачать SectionBreakEvenPage
+* Секция BreakOddPage
 
-Вы также можете использовать перечисление [SectionStart](https://reference.aspose.com/words/ru/net/aspose.words/sectionstart/), чтобы выбрать тип разрыва, который применяется только для первого раздела, например NewColumn, NewPage, EvenPage и OddPage.
+Вы также можете использовать [SectionStart](https://reference.aspose.com/words/net/aspose.words/sectionstart/) Перечисление для выбора типа перерыва, который применяется только для первого раздела, такого как NewColumn, NewPage, EvenPage и OddPage.
 
-## Управление разделом
+## Управлять секцией
 
-Поскольку раздел является обычным составным узлом, всю манипуляцию с узлом API можно использовать для манипулирования разделами: для добавления, удаления и других операций над разделами. Подробнее об узлах вы можете прочитать в статье [Aspose.Words Document Object Model (DOM)](/words/ru/net/aspose-words-document-object-model/).
+Поскольку секция является обычным составным узлом, вся манипуляция узлом API Может использоваться для манипулирования секциями: для добавления, удаления и других операций на секциях. Подробнее о узлах можно прочитать в статье [Aspose.Words Document Object Model (DOM)](/words/ru/net/aspose-words-document-object-model/).
 
-С другой стороны, для работы с разделами также можно использовать `DocumentBuilder` API. В этой статье мы сосредоточимся именно на этом способе работы с разделами.
+С другой стороны, вы также можете использовать `DocumentBuilder` API Работать с разделами. В этой статье мы сосредоточимся на этом конкретном способе работы с разделами.
 
-## Вставка или удаление разрыва раздела
+## Вставить или удалить раздел Break
 
-Aspose.Words позволяет вставлять разрыв раздела в текст с помощью метода [InsertBreak](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertbreak/).
+Aspose.Words позволяет вставить разбивку раздела в текст с помощью [InsertBreak](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertbreak/) метод.
 
-В следующем примере кода показано, как вставить разрыв раздела в документ:
+Следующий пример кода показывает, как вставить разрыв раздела в документ:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "insert-section-breaks.cs" >}}
 
-Используйте метод [Remove](https://reference.aspose.com/words/ru/net/aspose.words/node/remove/), чтобы удалить разрыв раздела. Если вам не нужно удалять разрыв определенного раздела и вместо этого удалить содержимое этого раздела, вы можете использовать метод [ClearContent](https://reference.aspose.com/words/ru/net/aspose.words/section/clearcontent/).
+Используйте [Remove](https://reference.aspose.com/words/net/aspose.words/node/remove/) Способ удаления разрыва раздела. Если вам не нужно удалять определенный разрыв раздела и вместо этого удалять содержимое этого раздела, вы можете использовать [ClearContent](https://reference.aspose.com/words/net/aspose.words/section/clearcontent/) метод.
 
-В следующем примере кода показано, как удалить разрывы разделов:
+Следующий пример кода показывает, как удалить разрывы разделов:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "remove-section-breaks.cs" >}}
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что разрыв раздела содержит информацию о разделе, который идет перед ним, а не о разделе, который идет после него. Таким образом, если вы удалите разрыв раздела, текст перед удаленным разрывом получит свойства следующего за ним разрыва раздела. Это может привести к тому, что весь документ станет альбомным, а верхние и нижние колонтитулы изменятся или полностью исчезнут.
+Обратите внимание, что в перерыве раздела есть информация о разделе, который идет до него, а не о разделе, который идет после него. Таким образом, если вы удалите разрыв раздела, текст перед удаленным разрывом получит свойства разрыва раздела после него. Это может привести к тому, что весь документ станет ландшафтом, или заголовки и нижние колонтитулы изменятся или полностью исчезнут.
 
 {{% /alert %}}
 
 ## Переместить раздел
 
-Если вы хотите переместить раздел из одной позиции в документе в другую, вам необходимо получить индекс этого раздела. Aspose.Words позволяет получить позицию раздела из [SectionCollection](https://reference.aspose.com/words/ru/net/aspose.words/sectioncollection/), используя свойство [Item](https://reference.aspose.com/words/ru/net/aspose.words/sectioncollection//properties/item). Вы можете использовать свойство [Sections](https://reference.aspose.com/words/ru/net/aspose.words/document/sections/), чтобы получить все разделы вашего документа. Но если вы хотите получить только первый раздел, вы можете использовать свойство [FirstSection](https://reference.aspose.com/words/ru/net/aspose.words/document/firstsection/).
+Если вы хотите перенести раздел из одной позиции в другую в своем документе, вам нужно получить индекс этого раздела. Aspose.Words позволяет получить позицию раздела из [SectionCollection](https://reference.aspose.com/words/net/aspose.words/sectioncollection/) используя [Item](https://reference.aspose.com/words/net/aspose.words/sectioncollection//properties/item) собственность. Вы можете использовать [Sections](https://reference.aspose.com/words/net/aspose.words/document/sections/) Имущество, чтобы получить все разделы в вашем документе. Но если вы хотите получить только первый раздел, вы можете использовать [FirstSection](https://reference.aspose.com/words/net/aspose.words/document/firstsection/) собственность.
 
-В следующем примере кода показано, как получить доступ к первому разделу и перебрать дочерние элементы составного узла:
+Следующий пример кода показывает, как получить доступ к первому разделу и повторить через детей композитного узла:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "section-child-nodes.cs" >}}
 
-## Укажите макет раздела
+## Укажите план раздела
 
-Иногда вы хотите, чтобы ваш документ выглядел лучше, создав креативные макеты для разных разделов документа. Если вы хотите указать тип текущей сетки раздела, вы можете выбрать режим макета раздела, используя перечисление [SectionLayoutMode](https://reference.aspose.com/words/ru/net/aspose.words/sectionlayoutmode/):
+Иногда вы хотите, чтобы ваш документ выглядел лучше, создавая креативные макеты для различных разделов документов. Если вы хотите указать тип сетки текущего раздела, вы можете выбрать режим макета раздела, используя [SectionLayoutMode](https://reference.aspose.com/words/net/aspose.words/sectionlayoutmode/) перечисление:
 
-* По умолчанию
+* Дефолт
 * Сетка
-* Линейная сетка
+* LineGrid
 * SnapToChars
 
-В следующем примере кода показано, как ограничить количество строк, которые может иметь каждая страница:
+Следующий пример кода показывает, как ограничить количество строк, которые может иметь каждая страница:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "line-grid-section-layout-mode.cs" >}}
 
 ## Редактировать раздел
 
-Когда вы добавляете в документ новый раздел, в нем не будет ни основной части, ни абзаца, которые можно было бы редактировать. Aspose.Words позволяет гарантировать, что раздел содержит тело хотя бы с одним абзацем, используя метод [EnsureMinimum](https://reference.aspose.com/words/ru/net/aspose.words/section/ensureminimum/) — он автоматически добавит узел Body (или HeaderFooter) в документ, а затем добавит к нему абзац.
+Когда вы добавляете новый раздел в свой документ, не будет никакого текста или абзаца, который вы можете отредактировать. Aspose.Words позволяет гарантировать, что раздел содержит тело с по меньшей мере одним абзацем, используя [EnsureMinimum](https://reference.aspose.com/words/net/aspose.words/section/ensureminimum/) метод - он автоматически добавит в документ узел Body (или HeaderFooter), а затем добавит в него Параграф.
 
-В следующем примере кода показано, как подготовить новый узел раздела с использованием **EnsureMinimum**:
+Следующий пример кода показывает, как подготовить новый узел раздела с помощью **EnsureMinimum**:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "ensure-minimum.cs" >}}
 
-### Добавить или добавить контент в начало
+### Добавить или подготовить контент
 
-Если вы хотите нарисовать какую-либо фигуру или добавить текст или изображение в начале/конце раздела, вы можете использовать методы [AppendContent](https://reference.aspose.com/words/ru/net/aspose.words/section/appendcontent/) и [PrependContent](https://reference.aspose.com/words/ru/net/aspose.words/section/prependcontent/) класса [Section](https://reference.aspose.com/words/ru/net/aspose.words/section/).
+Если вы хотите нарисовать какую-либо форму или добавить текст или изображение в начале / конце раздела, вы можете использовать [AppendContent](https://reference.aspose.com/words/net/aspose.words/section/appendcontent/) и [PrependContent](https://reference.aspose.com/words/net/aspose.words/section/prependcontent/) методов [Section](https://reference.aspose.com/words/net/aspose.words/section/) класс.
 
-В следующем примере кода показано, как добавить содержимое существующего раздела:
+Следующий пример кода показывает, как добавить содержимое существующего раздела:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "append-section-content.cs" >}}
 
-### Клонировать раздел
+### Клонировать секцию
 
-Aspose.Words позволяет дублировать раздел, создав его полную копию методом [Clone](https://reference.aspose.com/words/ru/net/aspose.words/section/clone/).
+Aspose.Words позволяет дублировать раздел, создавая его полную копию с помощью [Clone](https://reference.aspose.com/words/net/aspose.words/section/clone/) метод.
 
-В следующем примере кода показано, как клонировать первый раздел документа:
+Следующий пример кода показывает, как клонировать первый раздел в вашем документе:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "clone-section.cs" >}}
 
-### Копирование разделов между документами
+### Разделы копирования между документами
 
-В некоторых случаях у вас могут быть большие документы с множеством разделов, и вы хотите скопировать содержимое раздела из одного документа в другой.
+В некоторых случаях у вас могут быть большие документы со многими разделами, и вы хотите скопировать содержание раздела из одного документа в другой.
 
-Aspose.Words позволяет копировать разделы между документами методом [ImportNode](https://reference.aspose.com/words/ru/net/aspose.words/nodeimporter/importnode/).
+Aspose.Words позволяет копировать разделы между документами, используя [ImportNode](https://reference.aspose.com/words/net/aspose.words/nodeimporter/importnode/) метод.
 
-В следующем примере кода показано, как копировать разделы между документами:
+Следующий пример кода показывает, как копировать разделы между документами:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "copy-section.cs" >}}
 
-### Работа с заголовком и подвалом раздела
+### Работа с заголовком раздела и фойе
 
-Основные правила отображения хедера или футера каждого раздела довольно просты:
+Основные правила отображения заголовка или футера для каждого раздела довольно просты:
 
-1. Если в разделе нет своих колонтитулов определенного типа, то он берется из предыдущего раздела.
-2. Тип верхнего/подвала, отображаемого на странице, определяется настройками разделов "Разная первая страница" и "Разные четные и нечетные страницы" — если они отключены, то собственные заголовки разделов игнорируются.
+1. Если раздел не имеет собственных заголовков/футов определенного типа, то он взят из предыдущего раздела.
+2. Тип заголовка / футера, отображаемого на странице, контролируется настройками разделов "Разные первые страницы" и "Разные странные и даже страницы" - если они отключены, то собственные заголовки раздела игнорируются.
 
-В следующем примере кода показано, как создать 2 раздела с разными заголовками:
+Следующий пример кода показывает, как создать 2 раздела с разными заголовками:
 
 {{< gist "aspose-words-gists" "84cab3a22008f041ee6c1e959da09949" "link-to-previous-header-footer.cs" >}}
 
-Если вы хотите удалить текст верхних и нижних колонтитулов, не удаляя [HeaderFooter](https://reference.aspose.com/words/ru/net/aspose.words/headerfooter/) объекта в документе, вы можете использовать метод [ClearHeadersFooters](https://reference.aspose.com/words/ru/net/aspose.words/section/clearheadersfooters/). Кроме того, вы можете использовать метод [DeleteHeaderFooterShapes](https://reference.aspose.com/words/ru/net/aspose.words/section/deleteheaderfootershapes/), чтобы удалить все фигуры из верхних и нижних колонтитулов вашего документа.
+Если вы хотите удалить текст заголовков и футеров без удаления [HeaderFooter](https://reference.aspose.com/words/net/aspose.words/headerfooter/) объекты в вашем документе, вы можете использовать [ClearHeadersFooters](https://reference.aspose.com/words/net/aspose.words/section/clearheadersfooters/) метод. Кроме того, вы можете использовать [DeleteHeaderFooterShapes](https://reference.aspose.com/words/net/aspose.words/section/deleteheaderfootershapes/) Способ удаления всех форм из заголовков и нижних колонок в вашем документе.
 
-В следующем примере кода показано, как очистить содержимое всех верхних и нижних колонтитулов в разделе:
+Следующий пример кода показывает, как очистить содержимое всех заголовков и нижних колонок в разделе:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "delete-header-footer-content.cs" >}}
 
-В следующем примере кода показано, как удалить все фигуры из всех верхних и нижних колонтитулов раздела:
+Следующий пример кода, как удалить все формы из всех нижних колонтитулов в разделе:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "delete-header-footer-shapes.cs" >}}
 
 ## Настройка свойств страницы в разделе
 
-Перед печатью страницы или документа вы можете настроить и изменить размер и макет отдельной страницы или всего документа. С помощью настройки страницы вы можете изменить настройки страниц документа, такие как поля, ориентация и размер, для печати разных первых страниц или нечетных страниц.
+Перед печатью страницы или документа вы можете настроить и изменить размер и макет одной страницы или всего документа. При настройке страницы вы можете изменить настройки страниц документа, такие как поля, ориентация и размер для печати разных первых страниц или нечетных страниц.
 
-Aspose.Words позволяет настраивать свойства страниц и разделов с помощью класса [PageSetup](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/).
+Aspose.Words позволяет настраивать свойства страниц и разделов с помощью [PageSetup](https://reference.aspose.com/words/net/aspose.words/pagesetup/) класс.
 
-В следующем примере кода показано, как задать такие свойства, как размер и ориентация страницы, для текущего раздела:
+Следующий пример кода показывает, как установить такие свойства, как размер страницы и ориентация для текущего раздела:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "page-setup-and-section-formatting.cs" >}}
 
-В следующем примере кода показано, как изменить свойства страницы во всех разделах:
+Следующий пример кода показывает, как изменить свойства страницы во всех разделах:
 
 {{< gist "aspose-words-gists" "1afca4d3da7cb4240fb91c3d93d8c30d" "modify-page-setup-in-all-sections.cs" >}}
 
 ## Смотрите также
 
 * [Логические уровни узлов в документе](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/#document-and-section-logical-level)
-* [Вставка и добавление документов](/words/ru/net/insert-and-append-documents/)
+* [Включить и добавить документы](/words/ru/net/insert-and-append-documents/)
 

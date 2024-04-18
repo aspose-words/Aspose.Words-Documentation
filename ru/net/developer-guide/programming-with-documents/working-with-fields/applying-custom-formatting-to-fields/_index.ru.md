@@ -1,41 +1,41 @@
 ---
-title: Применить произвольное форматирование к полям в C#
+title: Применять таможенное форматирование к полям в C#
 second_title: Aspose.Words для .NET
-articleTitle: Применить произвольное форматирование к полям
-linktitle: Применить произвольное форматирование к полям
-description: "Отформатируйте и оцените результат полей, используя C#."
+articleTitle: Применять пользовательский формат для полей
+linktitle: Применять пользовательский формат для полей
+description: "Формат и оценка результатов полей с использованием C#."
 type: docs
 weight: 40
 url: /ru/net/applying-custom-formatting-to-fields/
 ---
 
-Иногда пользователям необходимо применить к полям собственное форматирование. В этой статье мы рассмотрим пару примеров того, как это можно сделать.
+Иногда пользователям приходится применять настраиваемое форматирование полей. В этой статье мы рассмотрим несколько примеров того, как это можно сделать.
 
-Чтобы узнать больше о параметрах, см. полный список свойств для каждого типа поля в соответствующем классе в [Пространство имен полей](https://reference.aspose.com/words/ru/net/aspose.words.fields/).
+Чтобы узнать больше вариантов, см. полный список свойств для каждого типа поля в соответствующем классе. [Пространство имён полей](https://reference.aspose.com/words/net/aspose.words.fields/).
 
-## Как применить пользовательское форматирование к результату поля
+## Как применить индивидуальное форматирование к результату поля
 
-Aspose.Words предоставляет API для пользовательского форматирования результата поля. Вы можете реализовать интерфейс [IFieldResultFormatter](https://reference.aspose.com/words/ru/net/aspose.words.fields/ifieldresultformatter/) для управления форматированием результата поля. Вы можете применить переключатель числового формата, т.е. \# "#.##", переключение формата даты/времени, т.е. \@ "дд.ММ.гггг", и переключение числового формата, т.е. \* Порядковый номер.
+Aspose.Words обеспечивает API для пользовательского форматирования результата поля. Вы можете реализовать [IFieldResultFormatter](https://reference.aspose.com/words/net/aspose.words.fields/ifieldresultformatter/) интерфейс для управления форматированием результата поля. Вы можете применить численный переключатель формата, т.е. \# "#.##", переключатель формата даты/времени, т.е. \@ "dd.MM.yyyyy", и переключатель формата номера, т.е. \* Ordinal.
 
-В следующем примере кода показано, как применить пользовательское форматирование к результату поля:
+Следующий пример кода показывает, как применять пользовательское форматирование для результата поля:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FormatFieldResult-FormatFieldResult.cs" >}}
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FormatFieldResult-FieldResultFormatter.cs" >}}
 
-## Как оценить состояние `IF`
+## Как оценить `IF` состояние
 
-Если вы хотите оценить условие `IF` после mail merge, вы можете использовать метод [EvaluateCondition](https://reference.aspose.com/words/ru/net/aspose.words.fields/fieldif/evaluatecondition/), который немедленно возвращает результат оценки выражения.
+Если вы хотите оценить `IF` состояние после mail merge, Вы можете использовать [EvaluateCondition](https://reference.aspose.com/words/net/aspose.words.fields/fieldif/evaluatecondition/) метод, который немедленно возвращает результат оценки выражения.
 
-В следующем примере кода показано, как использовать этот метод:
+Следующий пример кода показывает, как использовать этот метод:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-EvaluateIFCondition-EvaluateIFCondition.cs" >}}
 
-## Как применить пользовательское форматирование к полю времени
+## Как применить индивидуальное форматирование в поле времени
 
-По умолчанию Aspose.Words обновляет поле `TIME` текущим кратким форматом культуры. Мы разобрались, что есть разница между форматированием Microsoft Word и форматированием .NET/Windows, а также между разными версиями .NET Framework. Если вы хотите отформатировать поле `TIME` в соответствии с вашими требованиями, вы можете добиться этого, реализовав интерфейс [IFieldUpdateCultureProvider](https://reference.aspose.com/words/ru/net/aspose.words.fields/ifieldupdatecultureprovider/).
+По умолчанию Aspose.Words обновления `TIME` поле с текущей культурой короткого временного формата. Мы поняли, что есть разница между Microsoft Word форматирование и .NET/Windows форматирование, а также между различными .NET Framework версии. Если вы хотите отформатировать `TIME` Поле в соответствии с вашим требованием, вы можете достичь этого, реализовав [IFieldUpdateCultureProvider](https://reference.aspose.com/words/net/aspose.words.fields/ifieldupdatecultureprovider/) интерфейс.
 
-В следующих примерах кода показано, как применить пользовательское форматирование к полю `TIME`:
+Следующие примеры кода показывают, как применять пользовательское форматирование к `TIME` поле:
 
 {{< gist "aspose-words-gists" "eacc4fc7407a98d683f3084bb86d58f7" "Examples-CSharp-Programming-Documents-Fields-FieldUpdateCulture-FieldUpdateCultureProvider.cs" >}}
 

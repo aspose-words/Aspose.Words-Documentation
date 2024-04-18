@@ -1,90 +1,90 @@
 ---
-title: Отслеживать изменения в документе
+title: Отслеживание изменений в документе
 second_title: Aspose.Words для Python via .NET
-articleTitle: Отслеживать изменения в документе
-linktitle: Отслеживать изменения в документе
-description: "Отслеживайте изменения в содержимом и форматировании, внесенные вами или другими лицами с помощью Python. Получайте доступ к отдельным редакциям документа и применяйте к ним различные свойства."
+articleTitle: Отслеживание изменений в документе
+linktitle: Отслеживание изменений в документе
+description: "Отслеживать изменения в контенте и форматировании, сделанные вами или другими пользователями Python. Доступ к отдельным изменениям в документе и применение к ним различных свойств."
 type: docs
 weight: 270
 url: /ru/python-net/track-changes-in-a-document/
 ---
 
-Функция отслеживания изменений, также известная как просмотр, позволяет отслеживать изменения контента и форматирования, внесенные вами или другими пользователями. Эта функция отслеживания изменений с Aspose.Words поддерживает отслеживание изменений в Microsoft Word. Благодаря этой функции вы можете получить доступ к отдельным редакциям вашего документа и применить к ним различные свойства.
+Функциональность отслеживания изменений, также известная как просмотр, позволяет отслеживать изменения в контенте и форматировании, сделанные вами или другими пользователями. Этот трек меняет функцию с Aspose.Words Поддерживает отслеживание изменений Microsoft Word. С помощью этой функции вы можете получить доступ к отдельным изменениям в вашем документе и применить к ним различные свойства.
 
-Когда вы включаете функцию отслеживания изменений, все вставленные, удаленные и измененные элементы документа будут визуально выделены с информацией о том, кем, когда и что было изменено. Объекты, несущие информацию о том, что было изменено, называются "отслеживающими изменениями". Например, предположим, что вы хотите просмотреть документ и внести важные изменения — это может означать, что вам необходимо внести изменения. Также вам может потребоваться вставить комментарии для обсуждения некоторых изменений. Вот тут-то и пригодится отслеживание изменений в документах.
+При включении функции изменения трека все вставленные, удаленные и измененные элементы документа будут визуально выделены информацией о том, кем, когда и что было изменено. Объекты, несущие информацию о том, что было изменено, называются "отслеживанием изменений". Например, предположим, что вы хотите просмотреть документ и внести важные изменения - это может означать, что вам нужно внести изменения. Кроме того, вам может потребоваться добавить комментарии, чтобы обсудить некоторые изменения. Именно здесь отслеживаются изменения в документах.
 
-В этой статье объясняется, как управлять и отслеживать изменения, созданные многими рецензентами в одном документе, а также свойства для отслеживания изменений.
-
-{{% alert color="primary" %}}
-
-Обратите внимание, что функция комментариев в Aspose.Words, как и в Microsoft Word, может быть связана с отслеживанием изменений. Однако помните, что комментарии совершенно не зависят от отслеживания изменений.
-
-{{% /alert %}}
-
-## Что такое ревизия
-
-Прежде чем углубиться в ревизии, давайте объясним значение ревизий. [Revision](https://reference.aspose.com/words/python-net/aspose.words/revision/) — это изменение, которое происходит в одном узле документа, а группа редакций, представленная классом [RevisionGroup](https://reference.aspose.com/words/python-net/aspose.words/revisiongroup/), представляет собой группу последовательных редакций, которые происходят во многих узлах документа. По сути, ревизия — это инструмент отслеживания изменений.
-
-Редакции используются в функции отслеживания изменений и в функции сравнения документов, где редакции появляются в результате сравнения. Таким образом, изменения в функции отслеживания изменений показывают, кем и что было изменено.
+В этой статье объясняется, как управлять и отслеживать изменения, созданные многими рецензентами на одном документе, а также свойства для отслеживания изменений.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что Microsoft Word не позволяет просматривать отдельные версии, а только позволяет просматривать последовательные версии как единый объект. Но Aspose.Words решает это ограничение с помощью класса [RevisionGroup](https://reference.aspose.com/words/python-net/aspose.words/revisiongroup/).
+Обратите внимание, что комментарий содержит Aspose.Words, а также в Microsoft Word, Это может быть связано с отслеживанием изменений. Однако помните, что комментарии полностью независимы от отслеживания изменений.
 
 {{% /alert %}}
 
-Aspose.Words поддерживает различные типы изменений, как и Microsoft Word, такие как вставка, удаление, FormatChange, StyleDefinitionChange и Moving. Все типы ревизий представлены перечислением [RevisionType](https://reference.aspose.com/words/python-net/aspose.words/revisiontype/).
+## Что такое пересмотр
+
+Прежде чем погрузиться в ревизии, давайте объясним смысл ревизий. А. [Revision](https://reference.aspose.com/words/python-net/aspose.words/revision/) изменение, которое происходит в одном узле документа, в то время как группа пересмотра, представленная [RevisionGroup](https://reference.aspose.com/words/python-net/aspose.words/revisiongroup/) Класс - это группа последовательных изменений, которые происходят во многих узлах документа. Редактирование является инструментом для отслеживания изменений.
+
+Пересмотры используются в функции отслеживания изменений и в функции сравнения документов, где изменения появляются в результате сравнения. Таким образом, изменения в функции отслеживания изменений показывают, кем и что было изменено.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что версии имеют результат, аналогичный Microsoft Word, но Aspose.Words не обнаруживает форматирование во время отслеживания изменений.
+Заметьте, что Microsoft Word Он не позволяет просматривать отдельные изменения, он позволяет просматривать последовательные изменения только как единое целое. Но Aspose.Words Устраняет это ограничение с помощью [RevisionGroup](https://reference.aspose.com/words/python-net/aspose.words/revisiongroup/) класс.
 
 {{% /alert %}}
 
-## Запуск и остановка отслеживания изменений
-
-Редактирование документа обычно не считается исправлением, пока вы не начнете его отслеживать. Aspose.Words позволяет автоматически отслеживать все изменения в документе с помощью простых шагов. Вы можете легко начать процесс отслеживания изменений, воспользовавшись методом [start_track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/start_track_revisions/). Если вам необходимо остановить процесс отслеживания изменений, чтобы любые будущие правки не считались ревизиями, вам нужно будет использовать метод [stop_track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/stop_track_revisions/).
+Aspose.Words поддерживает различные типы пересмотра, а также в Microsoft Word, такие как вставка, удаление, формат Изменение, StyleDefinition Меняться и двигаться. Все типы пересмотра представлены в [RevisionType](https://reference.aspose.com/words/python-net/aspose.words/revisiontype/) перечисление.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что метод [start_track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/start_track_revisions/) не меняет состояние свойства [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) и не использует его значение для отслеживания изменений. Кроме того, если узел был перемещен из одного места в другое внутри отслеживаемого документа, будут созданы изменения перемещения, включая диапазон перемещения из и перемещения.
+Обратите внимание, что изменения имеют результат, аналогичный Microsoft Word но Aspose.Words Не обнаруживает форматирование при отслеживании изменений.
 
 {{% /alert %}}
 
-В конце процесса отслеживания изменений в вашем документе у вас будет возможность даже принять все изменения или отклонить их, чтобы вернуть документ в исходную форму. Этого можно добиться, используя метод [accept_all_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/accept_all_revisions/) или [reject_all](https://reference.aspose.com/words/python-net/aspose.words/revisioncollection/reject_all/). Кроме того, вы можете принять или отклонить каждую редакцию отдельно, используя метод [accept](https://reference.aspose.com/words/python-net/aspose.words/revision/accept/) или [reject](https://reference.aspose.com/words/python-net/aspose.words/revision/reject/).
+## Начать и прекратить отслеживать изменения
 
-Все изменения будут отслеживаться за одну итерацию с момента запуска процесса до момента его остановки. Связь между различными итерациями представляется в виде следующего сценария: вы завершаете процесс отслеживания, затем вносите некоторые изменения и снова начинаете отслеживать изменения. В этом сценарии все изменения, которые вы не приняли или отклонили, будут отображены снова.
+Редактирование документа обычно не считается пересмотром, пока вы не начнете его отслеживать. Aspose.Words Это позволяет автоматически отслеживать все изменения в вашем документе с помощью простых шагов. Вы можете легко начать процесс отслеживания изменений, используя [start_track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/start_track_revisions/) метод. Если вам нужно остановить процесс отслеживания изменений, чтобы любые будущие изменения не рассматривались как изменения, вам нужно будет использовать [stop_track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/stop_track_revisions/) метод.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что метод [accept_all_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/accept_all_revisions/) аналогичен методу "Принять все изменения" в Microsoft Word.
+Обратите внимание, что [start_track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/start_track_revisions/) Метод не меняет статус [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) имущество и не использует его стоимость с целью отслеживания изменений. Кроме того, если узел был перемещен из одного места в другое внутри отслеживаемого документа, то будут созданы изменения перемещения, включая переход из и переход в диапазон.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как работать с отслеживанием изменений:
+В конце процесса отслеживания изменений в вашем документе у вас будет возможность даже принять все изменения или отклонить их, чтобы вернуть документ в его первоначальную форму. Этого можно достичь, используя [accept_all_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/accept_all_revisions/) или [reject_all](https://reference.aspose.com/words/python-net/aspose.words/revisioncollection/reject_all/) метод. Кроме того, вы можете принять или отклонить каждый пересмотр отдельно, используя [accept](https://reference.aspose.com/words/python-net/aspose.words/revision/accept/) или [reject](https://reference.aspose.com/words/python-net/aspose.words/revision/reject/) метод.
+
+Все изменения будут отслеживаться для одной итерации с момента запуска процесса до момента его остановки. Связь между различными итерациями представлена следующим сценарием: вы завершаете процесс отслеживания, затем вносите некоторые изменения и снова начинаете отслеживать изменения. При этом сценарии все изменения, которые вы не приняли или отвергли, будут отображаться снова.
+
+{{% alert color="primary" %}}
+
+Обратите внимание, что [accept_all_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/accept_all_revisions/) Метод похож на "Принять все изменения". Microsoft Word.
+
+{{% /alert %}}
+
+Следующий пример кода показывает, как работать с отслеживанием изменений:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-AcceptAllRevisions.py" >}}
 
-В следующем примере кода показано, как генерируются версии при перемещении узла внутри отслеживаемого документа:
+Следующий пример кода показывает, как создаются изменения, когда узел перемещается в отслеживаемом документе:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-MoveNodeInTrackedDocument.py" >}}
 
-## Управляйте изменениями и сохраняйте их как версии
+## Управлять и хранить изменения как изменения
 
-С помощью предыдущей функции отслеживания изменений вы можете понять, какие изменения были внесены в ваш документ и кто внес эти изменения. Используя функцию [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/), вы принудительно сохраняете любые изменения в документе как версии.
+С помощью предыдущей функции отслеживания изменений вы можете понять, какие изменения были внесены в ваш документ и кто внес эти изменения. В то время как с [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) Функция, вы заставляете любые изменения в вашем документе храниться в виде изменений.
 
-Aspose.Words позволяет вам проверить, есть ли у документа редакция, используя свойство [has_revision](https://reference.aspose.com/words/python-net/aspose.words/document/has_revisions/). Если вам не нужно автоматически отслеживать изменения в вашем документе через методы start_track_revisions и stop_track_revisions, то вы можете использовать свойство [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/), чтобы проверить, отслеживаются ли изменения при редактировании документа в Microsoft Word и сохраняются ли они как ревизии.
+Aspose.Words позволяет проверить, имеет ли документ пересмотр или нет, используя [has_revision](https://reference.aspose.com/words/python-net/aspose.words/document/has_revisions/) собственность. Если вам не нужно автоматически отслеживать изменения в вашем документе с помощью методов start_track_revisions и stop_track_revisions, то вы можете использовать [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) свойство проверять, отслеживаются ли изменения при редактировании документа в Microsoft Word Сохраняется как ревизия.
 
-Функция [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) вносит изменения вместо реальных DOM изменений. Но сами ревизии отдельные. Например, если вы удалите какой-либо абзац, Aspose.Words сделает его исправленным, пометив его как удаленный, а не удалив.
+The [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) Функция делает изменения вместо реальных DOM изменения. Но сами пересмотры являются отдельными. Например, Если вы удалите какой-либо абзац, Aspose.Words сделать его пересмотром, пометив его как удаление, вместо того, чтобы удалять его.
 
-Кроме того, Aspose.Words позволяет проверить, был ли объект вставлен, удален или изменено форматирование, используя свойства [is_delete_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_delete_revision/), [is_format_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_format_revision/), [is_insert_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_insert_revision/), [is_move_from_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_move_from_revision/) и [is_move_to_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_move_to_revision/).
+Кроме того, Aspose.Words позволяет проверить, был ли объект вставлен, удален или изменен форматирование с помощью [is_delete_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_delete_revision/), [is_format_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_format_revision/), [is_insert_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_insert_revision/), [is_move_from_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_move_from_revision/), и [is_move_to_revision](https://reference.aspose.com/words/python-net/aspose.words/inline/is_move_to_revision/) свойств.
 
 {{% alert color="primary" %}}
 
-Обратите внимание, что между самими редакциями и свойством [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) нет никакой связи. Кроме того, вы можете принимать/отклонять изменения независимо от функции отслеживания изменений.
+Следует отметить, что между самими изменениями и [track_revisions](https://reference.aspose.com/words/python-net/aspose.words/document/track_revisions/) собственность. Кроме того, вы можете принимать/отклонять изменения независимо от функции отслеживания изменений.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как применять различные свойства с редакциями:
+Следующий пример кода показывает, как применять различные свойства с изменениями:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_revisions-ShapeRevision.py" >}}

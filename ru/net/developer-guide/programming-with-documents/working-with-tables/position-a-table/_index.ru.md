@@ -1,76 +1,76 @@
 ---
-title: Позиция таблицы в C#
+title: Положение стола в C#
 second_title: Aspose.Words для .NET
-articleTitle: Разместите таблицу
-linktitle: Разместите таблицу
-description: "Укажите положение таблицы в C#. Получите выравнивание таблицы, получите и установите плавающую позицию таблицы, используя C#."
+articleTitle: Поставьте стол
+linktitle: Поставьте стол
+description: "Укажите положение таблицы в C#. Получите выравнивание таблицы, получите и установите положение плавающего стола с помощью C#."
 type: docs
 weight: 50
 url: /ru/net/position-a-table/
 ---
 
-Существуют плавающие таблицы и встроенные таблицы:
+Есть плавающие таблицы и встроенные таблицы:
 
-* **Встроенные таблицы** размещаются на том же слое, что и текст, и размещаются в потоке текста, который окружает только таблицу сверху и снизу. Встроенные таблицы всегда будут появляться между абзацами, в которые вы их поместили.
-* **Плавающие таблицы** накладываются поверх текста, а положение таблицы относительно абзаца определяется привязкой таблицы. Из-за этого на положение плавающей таблицы в документе влияют настройки вертикального и горизонтального позиционирования.
+* **Вводные таблицы** Они располагаются на том же уровне, что и текст, и помещаются в поток текста, который окружает таблицу выше и ниже. Встроенные таблицы всегда будут отображаться между абзацами, где вы их разместили.
+* **Плавающие столы** наложены на текст, а положение таблицы относительно абзаца определяется якорем таблицы. Из-за этого на положение плавающей таблицы в документе влияют настройки вертикального и горизонтального позиционирования.
 
-Иногда вам необходимо расположить таблицу в документе определенным образом. Для этого вам необходимо воспользоваться инструментами выравнивания и установить отступы между таблицей и окружающим текстом.
+Иногда нужно поместить таблицу в документ определенным образом. Для этого нужно использовать инструменты выравнивания и установить отступы между таблицей и окружающим текстом.
 
-В этой статье мы обсудим, какие параметры позиционирования предоставляет Aspose.Words.
+В этой статье мы обсудим, какие варианты Aspose.Words Предусматривается позиционирование.
 
-## Укажите положение встроенной таблицы
+## Укажите позицию Inline Table
 
-Вы можете установить положение встроенной таблицы, используя свойства Aspose.Words API и [Alignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/alignment/). Таким образом, вы можете настроить выравнивание таблицы относительно страницы документа.
+Вы можете установить положение встроенной таблицы, используя Aspose.Words API и [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/) собственность. Таким образом, можно настроить выравнивание таблицы относительно страницы документа.
 
-В следующем примере кода показано, как установить положение встроенной таблицы:
+Следующий пример кода показывает, как установить положение встроенной таблицы:
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "inline-table-position.cs" >}}
 
-## Получить выравнивание плавающей таблицы
+## Выравнивание плавающего стола
 
-Если для переноса текста таблицы установлено значение **Around**, вы можете получить горизонтальное и вертикальное выравнивание таблицы, используя свойства [RelativeHorizontalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativehorizontalalignment/) и [RelativeVerticalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativeverticalalignment/).
+Если обертка текста таблицы установлена **Around**, Вы можете получить горизонтальное и вертикальное выравнивание таблицы, используя [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) и [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) свойств.
 
-С помощью **другие виды переноса текста** вы можете получить встроенное выравнивание таблицы, используя свойство [Alignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/alignment/).
+С **Другие типы текстовой обертки**, Вы можете получить выравнивание таблицы, используя [Alignment](https://reference.aspose.com/words/net/aspose.words.tables/table/alignment/) собственность.
 
-В следующем примере кода показано, как добиться выравнивания таблицы:
+Следующий пример кода показывает, как получить выравнивание таблицы:
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "get-table-position.cs" >}}
 
-## Получить плавающую позицию таблицы
+## Позиция плавающего стола
 
-Положение плавающей таблицы определяется с помощью следующих свойств:
+ Положение плавающего стола определяется с использованием следующих свойств:
 
-*[HorizontalAnchor](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/horizontalanchor/) – объект для расчета горизонтального положения плавающей таблицы
-*[VerticalAnchor](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/verticalanchor/) – объект для расчета вертикального положения плавающей таблицы
-* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/absolutehorizontaldistance/) – абсолютное горизонтальное плавающее положение таблицы
-*[AbsoluteVerticalDistance](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/absoluteverticaldistance/) – абсолютное вертикальное плавающее положение таблицы
-* [AllowOverlap](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/allowoverlap/) – опция включения/выключения перекрытия с другими плавающими объектами
-*[RelativeHorizontalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativehorizontalalignment/) – плавающее относительное горизонтальное выравнивание таблицы.
-*[RelativeVerticalAlignment](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/relativeverticalalignment/) – относительное вертикальное выравнивание плавающей таблицы.
+* [HorizontalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/horizontalanchor/) Объект для вычисления горизонтального положения плавучей таблицы
+* [VerticalAnchor](https://reference.aspose.com/words/net/aspose.words.tables/table/verticalanchor/) Объект для вычисления вертикального положения плавучей таблицы
+* [AbsoluteHorizontalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absolutehorizontaldistance/) абсолютное горизонтальное положение плавающего стола
+* [AbsoluteVerticalDistance](https://reference.aspose.com/words/net/aspose.words.tables/table/absoluteverticaldistance/) абсолютное вертикальное положение плавающего стола
+* [AllowOverlap](https://reference.aspose.com/words/net/aspose.words.tables/table/allowoverlap/) - возможность включить/отключить перекрытие с другими плавающими объектами
+* [RelativeHorizontalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativehorizontalalignment/) - относительное горизонтальное выравнивание плавающего стола.
+* [RelativeVerticalAlignment](https://reference.aspose.com/words/net/aspose.words.tables/table/relativeverticalalignment/) - относительное вертикальное выравнивание плавающего стола.
 
-В следующем примере кода показано, как получить позицию плавающей таблицы:
+Следующий пример кода показывает, как получить положение плавающей таблицы:
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "get-floating-table-position.cs" >}}
 
-## Установить положение плавающей таблицы
+## Установите положение плавающего стола
 
-Так же, как и при получении, вы можете установить положение плавающей таблицы, используя тот же Aspose.Words API.
+Как и получить, вы можете установить положение плавающего стола, используя то же самое. Aspose.Words API.
 
-Важно знать, что выравнивание, а также расстояние по горизонтали и вертикали — это комбинированные свойства, и одно можно сбросить другое. Например, установка **RelativeHorizontalAlignment** приведет к сбросу **AbsoluteHorizontalDistance** к значению по умолчанию и наоборот. То же самое справедливо и для вертикального расположения.
+Важно знать, что выравнивание и горизонтальное и вертикальное расстояние являются комбинированными свойствами, и одно может сбросить другое. Например, установить **RelativeHorizontalAlignment** Сбросит ли он **AbsoluteHorizontalDistance** по умолчанию и наоборот. То же самое true для вертикального расположения.
 
-В следующем примере кода показано, как установить положение плавающей таблицы:
+Следующий пример кода показывает, как установить положение плавающей таблицы:
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "floating-table-position.cs" >}}
 
-## Получить расстояние между таблицей и окружающим текстом
+## Расстояние между столом и окружающим текстом
 
-Aspose.Words также дает возможность узнать расстояния между таблицами и окружающим текстом:
+Aspose.Words Также предоставляется возможность узнать расстояния между таблицами и окружающими текстами:
 
-- [DistanceTop](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distancetop/) – значение расстояния сверху
-- [DistanceBottom](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distancebottom/) – значение дальности восприятия
-- [DistanceRight](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distanceright/) – значение расстояния справа
-- [DistanceLeft](https://reference.aspose.com/words/ru/net/aspose.words.tables/table/distanceleft/) – значение расстояния слева
+- [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/) Значение расстояния сверху
+- [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/) Значение расстояния восприятия
+- [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/) - значение расстояния справа
+- [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/) Значение расстояния слева
 
-В следующем примере кода показано, как получить расстояние между таблицей и окружающим ее текстом:
+Следующий пример кода показывает, как получить расстояние между таблицей и окружающим ее текстом:
 
 {{< gist "aspose-words-gists" "8df1ad0825619cab7c80b571c6e6ba99" "distance-between-table-surrounding-text.cs" >}}

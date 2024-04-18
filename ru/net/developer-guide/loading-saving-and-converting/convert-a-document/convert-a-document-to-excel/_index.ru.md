@@ -1,21 +1,21 @@
 ---
-title: Конвертировать Word в Excel в C#
-second_title: Aspose.Words на .NET
-articleTitle: Преобразование документа в Excel
-linktitle: Преобразование документа в Excel
-description: "Конвертируйте PDF в Excel, XML в Excel, DOCX в Excel C#. Сохраните документ в различных форматах в XLSX, используя C#."
+title: Преобразование Word в Excel C#
+second_title: Aspose.Words для .NET
+articleTitle: Преобразовать документ в Excel
+linktitle: Преобразовать документ в Excel
+description: "Преобразование PDF в Excel, XML в Excel, DOCX в Excel C#. Сохранить документ в различных форматах для XLSX C#."
 type: docs
 weight: 15
 url: /ru/net/convert-a-document-to-excel/
 ---
 
-Преобразование документов из одного формата в другой — флагманская функция Aspose.Words. Вы можете конвертировать документы любого доступного формата [формат загрузки](https://reference.aspose.com/words/ru/net/aspose.words/loadformat/), а также в формат XLSX.
+Преобразование документов из одного формата в другой является флагманской особенностью Aspose.Words. Вы можете конвертировать документы в любой доступный [формат загрузки](https://reference.aspose.com/words/net/aspose.words/loadformat/) Также в формате XLSX.
 
 ## Преобразование документа в XLSX
 
-Преобразование документа в XLSX — довольно сложный процесс. Чтобы сохранить документ в формате XLSX с использованием Aspose.Words, используйте класс [XlsxSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsaveoptions/) и новый элемент `Xlsx` в перечислении [SaveFormat](https://reference.aspose.com/words/ru/net/aspose.words/saveformat/). Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words, в XLSX.
+Преобразование документа в XLSX является довольно сложным процессом. Сохранить документ в формате XLSX <p notrans="<p notrans=" Aspose.Words"=""></p>"> использовать [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) Класс и новый `Xlsx` элемент в [SaveFormat](https://reference.aspose.com/words/net/aspose.words/saveformat/) перечисление. Как упоминалось выше, вы можете сохранить документ в любом формате загрузки, поддерживаемом Aspose.Words для XLSX.
 
-В следующем примере кода показано, как сохранить PDF в XLSX:
+Следующий пример кода показывает, как сохранить PDF в XLSX:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Pdf Document.pdf");
@@ -24,15 +24,15 @@ doc.Save(ArtifactsDir + "BaseConversions.PdfToXlsx.xlsx")
 
 {{% alert color="primary" %}}
 
-Иногда необходимо указать дополнительные параметры, которые могут повлиять на результат сохранения документа в формате XLSX. Эти параметры можно указать с помощью класса [XlsxSaveOptions](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsaveoptions/), содержащего свойства, определяющие способ отображения вывода XLSX.
+Иногда необходимо указать дополнительные опции, которые могут повлиять на результат сохранения документа в виде XLSX. Эти варианты могут быть определены с помощью [XlsxSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/) класс, содержащий свойства, определяющие, как будет отображаться выход XLSX.
 
 {{% /alert %}}
 
-## Найти и заменить при сохранении в XLSX
+## Найти и заменить при экономии на XLSX
 
-Также с помощью Aspose.Words вы можете найти в документе определенную строку или регулярное выражение и заменить ее на нужную вам. Затем вы также можете сохранить результат в формате XLSX.
+Также использовать Aspose.Words, Вы можете найти определенную строку или регулярное выражение в вашем документе и заменить его соответствующей строкой. Вы также можете сохранить результат в формате XLSX.
 
-В следующем примере кода показано, как выполнить операцию поиска и замены и сохранить результат в формате XLSX:
+Следующий пример кода показывает, как выполнить поиск и замену операции и сохранить результат в XLSX:
 
 {{< highlight csharp >}}
 Document doc = new Document();
@@ -50,11 +50,11 @@ doc.Range.Replace("Ruby", "Jade", options);
 doc.Save(ArtifactsDir + "BaseConversions.FindReplaceXlsx.xlsx");
 {{< /highlight >}}
 
-## Укажите уровень сжатия при сохранении в XLSX
+## Укажите уровень сжатия при экономии на XLSX
 
-Вы также можете указать уровень сжатия при сохранении, используя свойство [CompressionLevel](https://reference.aspose.com/words/ru/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/).
+Вы также можете указать уровень сжатия при сохранении с помощью [CompressionLevel](https://reference.aspose.com/words/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/) собственность.
 
-В следующем примере кода показано, как указать уровень сжатия при сохранении в формате XLSX:
+Следующий пример кода показывает, как указать уровень сжатия при сохранении в формате XLSX:
 
 {{< highlight csharp >}}
 Document doc = new Document(MyDir + "Document.docx");
@@ -67,5 +67,5 @@ doc.Save(ArtifactsDir + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Смотрите также
 
-- Раздел документации [Защитите или зашифруйте документ](/words/ru/net/protect-or-encrypt-a-document/) для получения дополнительной информации о защите и шифровании документа
-- Статья [Найти и заменить](/words/ru/net/find-and-replace/) для получения дополнительной информации о поиске и замене нужного контента
+- Раздел документации [Защитить или зашифровать документ](/words/ru/net/protect-or-encrypt-a-document/) для получения дополнительной информации о защите и шифровании документа
+- Статья [Найти и заменить](/words/ru/net/find-and-replace/) для получения дополнительной информации о поиске и замене контента, который вы хотите

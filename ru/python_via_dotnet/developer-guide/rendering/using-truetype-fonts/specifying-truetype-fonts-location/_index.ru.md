@@ -1,17 +1,17 @@
 ---
-title: Укажите расположение шрифтов TrueType
+title: Укажите истинное Тип расположения шрифтов
 second_title: Aspose.Words для Python via .NET
-articleTitle: Укажите расположение шрифтов TrueType
-linktitle: Укажите расположение шрифтов TrueType
-description: "Укажите различные источники шрифтов TrueType: системную папку, пользовательские источники, загрузку шрифтов из потока, файловую систему или память, используя Python."
+articleTitle: Укажите истинное Тип расположения шрифтов
+linktitle: Укажите истинное Тип расположения шрифтов
+description: "Укажите различные Правда Источники шрифтов типа: системная папка, источники пользователей, загрузка шрифтов из потока, файловая система или память с использованием Python."
 type: docs
 weight: 30
 url: /ru/python-net/specifying-truetype-fonts-location/
 ---
 
-В этом разделе описывается поведение Aspose.Words по умолчанию при поиске шрифтов TrueType, включая различия, специфичные для операционной системы, и демонстрируется, как указать источники пользовательских шрифтов.
+Эта тема описывает поведение по умолчанию Aspose.Words когда он ищет шрифты TrueType, включая специфические отличия операционной системы, и демонстрирует, как указать источники шрифтов пользователя.
 
-Класс [FontSourceBase](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/) используется для указания различных источников шрифтов. Существует несколько реализаций класса [FontSourceBase](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/):
+The [FontSourceBase](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/) Класс используется для указания различных источников шрифтов. Существует несколько реализаций [FontSourceBase](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/) класс:
 
 - [SystemFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/)
 - [FolderFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/folderfontsource/)
@@ -19,82 +19,82 @@ url: /ru/python-net/specifying-truetype-fonts-location/
 - [FileFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/filefontsource/)
 - [MemoryFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/memoryfontsource/)
 
-Подробности реализации для некоторых классов описаны ниже.
+Подробная информация о реализации некоторых классов объясняется ниже.
 
 ## Загрузка шрифтов из системы
 
-Существует специальный класс [SystemFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/), который всегда используется по умолчанию. Он представляет все шрифты TrueType, установленные в системе. Таким образом, можно создать список источников с номером [SystemFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/) и любыми другими необходимыми источниками:
+Есть особая [SystemFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/) Класс, который всегда используется по умолчанию. Он представляет все шрифты TrueType, установленные в системе. Таким образом, можно создать список источников с [SystemFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/) и любые другие необходимые источники:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFolders.py" >}}
 
-По умолчанию в [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) определен один экземпляр класса [SystemFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/). В разных операционных системах шрифты могут располагаться в разных местах. Однако использование экземпляра [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) для каждого документа не является оптимальным решением. В большинстве случаев использования [default_instance](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/default_instance/) должно быть достаточно.
+Один экземпляр из [SystemFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/) Класс определяется по умолчанию в [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/). На разных операционных системах шрифты могут располагаться в разных местах. Однако, используя a [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) Пример для каждого документа не является оптимальным решением. В большинстве случаев, используя [default_instance](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/default_instance/) Должно быть достаточно.
 
-Экземпляры для каждого документа необходимы только в том случае, если требуется использовать разные источники шрифтов для разных документов, что является редким случаем. Использование нескольких экземпляров [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) снижает производительность, поскольку они не используют общий кэш.
+Инстанции для каждого документа нужны только в том случае, если для разных документов требуется использовать разные источники шрифтов, что является редким случаем. Использование нескольких [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) Примеры снижают производительность, потому что они не разделяют кэш.
 
-### Где Aspose.Words ищет шрифты TrueType на Windows
+### Где? Aspose.Words Ищите шрифты TrueType Windows
 
-В большинстве случаев пользователи Windows не сталкиваются с существенными проблемами, связанными с пропущенными шрифтами или неправильной раскладкой. Обычно Aspose.Words просматривает документ и, встречая ссылку на шрифт, успешно извлекает данные шрифта из системной папки.
+В большинстве случаев, Windows Пользователи не сталкиваются со значительными проблемами с пропущенными шрифтами или неправильными макетами. Как правило, Aspose.Words проходит через документ и, когда он сталкивается со ссылкой шрифта, успешно извлекает данные шрифта из системной папки.
 
-На Windows Aspose.Words сначала берет все доступные шрифты из папки _%windir%\Fonts. Этот параметр будет работать для вас большую часть времени. Вы указываете свои собственные папки со шрифтами только в случае необходимости. Aspose.Words для .NET также ищет дополнительные шрифты, зарегистрированные в ключе реестра *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts*. Кроме того, Windows 10 разрешает установку шрифтов для текущего пользователя. Шрифты помещаются в папку *%userprofile%\AppData\Local\Microsoft\Windows\Fonts*, а также указываются в реестре *HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Fonts*, где Aspose.Words будет искать эти шрифты.
+На <p notrans="<p notrans=" Windows"=""></p>"> Aspose.Words Сначала берет все доступные шрифты из _%windir% Папка шрифтов. Эта настройка будет работать для вас большую часть времени. Вы указываете только свои собственные папки шрифтов, если это необходимо. Aspose.Words для .NET Также ищите дополнительные шрифты, зарегистрированные в *HKEY_LOCAL_ MACHINE\SOFTWAREMicrosoft\Windows NT\CurrentVersion\Fonts* Регистрационный ключ. Кроме того, Windows 10 позволяет устанавливать шрифты для текущего пользователя. Шрифты помещаются в *%userprofile%\ AppData\LocalMicrosoft\Windows\Fonts* folder and also specified in the *HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\ Реестр шрифтов*, где Aspose.Words Будем искать эти шрифты.
 
-Если документ содержит встроенные шрифты, Aspose.Words может прочитать соответствующие данные шрифта из документа и использовать их для создания макета документа. Документы также могут содержать ссылки на шрифты, которых нет в системных папках, в этом случае срабатывают следующие сценарии:
+Если документ содержит встроенные шрифты, Aspose.Words Вы можете прочитать соответствующие данные шрифта из документа и использовать их для создания макета документа. Документы также могут содержать ссылки на шрифты, которых нет в системных папках, и в этом случае работают следующие сценарии:
 
-- Пользователи могут настраивать новые источники шрифтов с помощью класса [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/)
-- Aspose.Words может попробовать заменить пропущенный шрифт на аналогичный
+- Пользователи могут создавать новые источники шрифтов через [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) класс
+- Aspose.Words можно попытаться заменить пропущенный шрифт на аналогичный
 
 
-### Шрифты в системах, отличных от Windows
+### Фонты на Non-Windows Системы
 
-Aspose.Words будет искать шрифты в системных папках шрифтов. Список этих папок можно просмотреть методом [SystemFontSource.get_system_font_folders](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/get_system_font_folders/). Если поддерживаемые шрифты не найдены, Aspose.Words будет использовать встроенный шрифт по умолчанию Fanwood.ttf.
+Aspose.Words будет искать шрифты в системных папках шрифтов. Список этих папок можно увидеть по [SystemFontSource.get_system_font_folders](https://reference.aspose.com/words/python-net/aspose.words.fonts/systemfontsource/get_system_font_folders/) метод. Если не найдено поддерживаемых шрифтов, Aspose.Words Используется встроенный по умолчанию шрифт Fanwood.ttf.
 
-Поскольку метрики шрифтов ОС Windows и не Windows разные, Aspose.Words делает все возможное, чтобы найти похожий шрифт и построить макет, аналогичный оригиналу. Однако, это не всегда возможно. В этих случаях для добавления пользовательских шрифтов или правил замены следует использовать класс [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/).
+Поскольку метрики шрифтов Windows и не-Windows OS отличается, Aspose.Words делает все возможное, чтобы найти похожий шрифт и построить макет, похожий на оригинал. Однако это не всегда возможно. В этих случаях, [FontSettings](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/) Класс должен использоваться для добавления пользовательских шрифтов или правил замены.
 
-#### Где Aspose.Words ищет шрифты TrueType на Linux
+#### Где? Aspose.Words Ищите шрифты TrueType Linux
 
-В разных дистрибутивах Linux шрифты могут храниться в разных папках. Aspose.Words ищет шрифты в нескольких местах. По умолчанию Aspose.Words ищет шрифты во всех следующих папках: */usr/share/fonts* */usr/local/share/fonts* */usr/X11R6/lib/X11/fonts*. Это поведение по умолчанию будет работать для большинства дистрибутивов Linux, но не гарантируется, что оно будет работать постоянно, и в этом случае вам может потребоваться явно указать расположение шрифтов истинного типа. Для этого вам необходимо знать, где в вашем дистрибутиве Linux установлены шрифты TrueType.
+Различный Linux Дистрибутивы могут хранить шрифты в разных папках. Aspose.Words Ищите шрифты в нескольких местах. По умолчанию, Aspose.Words */usr/share/fonts**/usr/local/share/fonts**/usr/X11R6/lib/X11/fonts*. Это поведение по умолчанию будет работать для большинства Linux дистрибутивы, но это не гарантируется работать все время, в этом случае вам может потребоваться указать местоположение true шрифтов явно. Для этого вам нужно знать, где на вашем устройстве установлены шрифты TrueType. Linux распределения.
 
-#### Где Aspose.Words ищет шрифты TrueType в Mac OS X
+#### Где? Aspose.Words Поиск шрифтов TrueType на Mac OS X
 
-Aspose.Words ищет шрифты в папке */Library/Fonts*, которая является стандартным расположением шрифтов TrueType в Mac OS X. Хотя этот параметр будет работать в большинстве случаев, вам может потребоваться указать собственные папки шрифтов в папке случай, когда вам это нужно.
+Aspose.Words Ищите шрифты в папке */Library/Fonts*, которая является стандартным местом для шрифтов TrueType на Mac OS X. Хотя этот параметр будет работать для вас большую часть времени, вам может потребоваться указать свои собственные папки шрифтов в случае, когда вам нужно.
 
 ## Загрузка шрифтов из папки
 
-Если обрабатываемый документ содержит ссылки на шрифты, которых нет в системе, или вы не хотите добавлять их в системную папку, или у вас нет прав, то лучшим решением будет добавить папку со своими шрифтами с помощью метод [FontSettings.set_fonts_sources](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_sources/). Это позволит заменить системный источник на пользовательский. Aspose.Words больше не будет искать шрифты в реестре или папке Windows\Font, а вместо этого сканирует шрифты только в указанных папках. Метод [FontSettings.get_font_sources](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/get_fonts_sources/) вернет соответствующие значения.
+Если обрабатываемый документ содержит ссылки на шрифты, которых нет в системе, или вы не хотите добавлять их в системную папку, или вам не хватает разрешений, то лучшим решением будет добавить папку со своими собственными шрифтами с помощью системы. [FontSettings.set_fonts_sources](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_sources/) метод. Это позволит заменить системный источник на пользовательский. Aspose.Words больше не будет искать шрифты в реестре или Windows\ Папка шрифта и вместо этого только сканирование шрифтов в указанной папке (ах). The [FontSettings.get_font_sources](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/get_fonts_sources/) Метод возвращает соответствующие значения.
 
-### Указание одной или нескольких папок шрифтов
+### Определение одной или нескольких папок шрифта
 
-Методы [FontSettings.set_fonts_folder](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_folder/) и [FontSettings.set_fonts_folders](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_folders/) являются ярлыками метода [FontSettings.set_font_sources](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_sources/) с одним или несколькими экземплярами [FolderFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/folderfontsource/). Эти методы используются для указания того, где Aspose.Words следует искать шрифты. Если папка не существует или недоступна, Aspose.Words просто игнорирует эту папку. Если все папки, включая источники подмены шрифтов, были проигнорированы, то Aspose.Words будет использовать шрифт Fanwood по умолчанию.
+The [FontSettings.set_fonts_folder](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_folder/) и [FontSettings.set_fonts_folders](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_folders/) Методы являются короткими для [FontSettings.set_font_sources](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsettings/set_fonts_sources/) Способ с одним или несколькими [FolderFontSource](https://reference.aspose.com/words/python-net/aspose.words.fonts/folderfontsource/) Примеры. Эти методы используются для определения того, где Aspose.Words Нужно искать шрифты. Если папка отсутствует или недоступна, Aspose.Words Просто игнорирует эту папку. Если все папки, включая источники для замены шрифта, были проигнорированы, Aspose.Words По умолчанию будет использоваться шрифт Fanwood.
 
-В следующем примере показано, как задать папку или источник, который Aspose.Words впоследствии будет использовать для поиска шрифтов TrueType во время рендеринга или внедрения шрифтов:
+Следующий пример показывает, как установить папку или источник, который Aspose.Words Впоследствии будет использоваться для поиска шрифтов TrueType при рендеринге или встраивании шрифтов:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetTrueTypeFontsFolder.py" >}}
 
-Вы можете скачать файл шаблона этого примера по номеру [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
-Дополнительный логический параметр определяет, будут ли шрифты сканироваться рекурсивно во всех папках, следовательно, сканируются все дочерние папки указанной папки. В следующем примере показано, как настроить Aspose.Words для поиска шрифтов TrueType в нескольких папках при рендеринге или внедрении шрифтов:
+Дополнительный булевой параметр контролирует, сканируются ли шрифты рекурсивно через все папки, следовательно, сканируют все детские папки указанной папки. Следующий пример показывает, как установить Aspose.Words искать в нескольких папках шрифты TrueType при рендеринге или встраивании шрифтов:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFoldersMultipleFolders.py" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
+Вы можете скачать файл шаблона этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Examples/Data/Rendering.docx).
 
 {{% /alert %}}
 
-Обратите внимание на приоритеты. Если в разных источниках шрифтов есть шрифты с одинаковым названием и стилем, то Aspose.Words выберет шрифт из источника с более высоким приоритетом. См. описание поля "приоритет" ниже.
+Обратите внимание на приоритеты. Если есть шрифты с одинаковым фамилией и стилем в разных источниках шрифтов, то Aspose.Words Выберите шрифт из источника с более высоким приоритетом. См. описание поля "приоритет" ниже.
 
-Если вы вообще не хотите использовать системные шрифты, Aspose.Words позволяет вам игнорировать их и использовать только свои собственные шрифты:
+Если вы не хотите использовать системные шрифты, Aspose.Words Позволяет игнорировать их и использовать только собственные шрифты:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFoldersDefaultInstance.py" >}}
 
-### Приоритетная недвижимость
+### Приоритетное имущество
 
-Свойство **приоритет** используется, когда в разных источниках шрифтов имеются шрифты с одинаковым названием и стилем. В этом случае Aspose.Words выбирает шрифт из источника с более высоким значением приоритета. Например, в системной папке есть старая версия шрифта, и клиент добавил новую версию того же шрифта в пользовательскую папку.
+The **приоритет** Собственность используется, когда есть шрифты с одинаковым именем и стилем в разных источниках шрифтов. В этом случае Aspose.Words Выберите шрифт из источника с более высоким приоритетным значением. Например, есть старая версия шрифта в системной папке, и клиент добавил новую версию того же шрифта в пользовательскую папку.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-SetFontsFoldersWithPriority.py" >}}
 
-## Получение списка доступных шрифтов
+## Получить список доступных шрифтов
 
-Если вы хотите получить список доступных шрифтов, которые, например, можно использовать для рендеринга PDF-документа, вы можете использовать метод [get_available_fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/get_available_fonts/), как показано в следующем примере кода. Класс [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) указывает информацию о физическом шрифте, доступном для механизма шрифтов Aspose.Words:
+Если вы хотите получить список доступных шрифтов, которые, например, могут быть использованы для рендеринга PDF-документа, вы можете использовать [get_available_fonts](https://reference.aspose.com/words/python-net/aspose.words.fonts/fontsourcebase/get_available_fonts/) Способ, как показано в следующем примере кода. The [PhysicalFontInfo](https://reference.aspose.com/words/python-net/aspose.words.fonts/physicalfontinfo/) класс указывает информацию о физическом шрифте, доступном для Aspose.Words Двигатель шрифта:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-working_with_fonts-GetListOfAvailableFonts.py" >}}

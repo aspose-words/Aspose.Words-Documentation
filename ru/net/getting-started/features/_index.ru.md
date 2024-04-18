@@ -1,140 +1,140 @@
 ---
-title: Функции
+title: Особенности
 second_title: Aspose.Words для .NET
 articleTitle: Поддерживаемые функции
 linktitle: Поддерживаемые функции
-description: "Aspose.Words для .NET предоставляет пользователям широкий спектр функций: от простого преобразования и изменения документов до создания структурированных и визуально привлекательных документов или автоматизации отчетов с использованием C#."
+description: "Aspose.Words для .NET предоставляет пользователям широкий спектр функций от простого преобразования и изменения документов до создания структурированных и визуально привлекательных документов или автоматизации отчетности с использованием C#."
 type: docs
 weight: 40
 url: /ru/net/features/
 ---
 
-Aspose.Words предоставляет пользователям широкий спектр возможностей. Пользователи могут выполнять огромное количество задач, связанных с документами: от простого преобразования документов из одного поддерживаемого формата в другой и изменения этих документов в процессе преобразования до бизнес-задач, таких как создание структурированных и визуально привлекательных документов или автоматизация отчетности.
+Aspose.Words предоставляет пользователям широкий спектр функций. Пользователи могут выполнять огромное количество задач, связанных с документами - от простого преобразования документов из одного поддерживаемого формата в другой и изменения этих документов в процессе преобразования до бизнес-задач, таких как создание структурированных и визуально привлекательных документов или автоматизация отчетности.
 
-Современные форматы и стандарты документов сложны, и когда вам требуется преобразование документов или другие функции обработки документов в вашем проекте, единственным практическим решением часто является использование стороннего компонента, который реализует желаемую функциональность. Но использование стороннего компонента всегда несет в себе некоторый риск. Одним из уникальных рисков при обработке документов является вопрос о том, насколько полно и правильно библиотека реализует тот или иной формат документа или стандарт.
+Современные форматы и стандарты документов сложны, и когда вам требуется конвертация документов или другие функции обработки документов в вашем проекте, единственным практическим решением часто является использование стороннего компонента, который реализует желаемую функциональность. Но использование стороннего компонента всегда сопряжено с определенным риском. Одним из уникальных рисков при обработке документов является вопрос о том, насколько полно и правильно библиотека реализует тот или иной формат документа или стандарт.
 
-Aspose стремится предоставлять наиболее полную и точную реализацию форматов и стандартов документов. Команда Aspose.Words демонстрирует свою приверженность обеспечению совместимости, предоставляя подробные примечания по реализации поддерживаемых форматов документов на нескольких платформах.
+Aspose стремится обеспечить наиболее полное и точное внедрение форматов документов и стандартов. The Aspose.Words Команда демонстрирует свою приверженность взаимодействию, предоставляя подробные заметки о реализации поддерживаемых форматов документов на нескольких платформах.
 
-В таблицах ниже суммируются и сравниваются возможности Aspose.Words для .NET, а также приведены ссылки на подробные описания функций.
+Приведенные ниже таблицы суммируют и сопоставляют наличие Aspose.Words для .NET функции и предоставлять ссылки на подробные описания функций.
 
 ## Обзор платформ
 
-Платформы, с которыми можно использовать Aspose.Words для .NET, перечислены ниже. Если вам нужна поддержка большего количества платформ, найдите Aspose.Words-код продукта-близнеца для Java.
+Платформы Aspose.Words для .NET Можно использовать с перечисленными ниже. Если вам нужна поддержка большего количества платформ, ищите продукт "Брат-близнец". Aspose.Words для Java.
 
 |  Особенность | Описание |
 |  :-  |  :-  |
-| [.NET Framework](/words/net/supported-platforms/#net-framework) | Используйте Aspose.Words для .NET для создания ASP.NET, веб-служб, WinForms или любого другого типа приложений для любых .NET Framework версий 2.0 или более поздних версий, включая версии профиля клиента. Полная поддержка 32-битных и 64-битных версий. |
-| [.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20) | Папки netstandard2.0 и netstandard2.0_AuthenticodeSigned содержат сборки для использования с платформами, реализующими .NET Standard 2.0, такими как .NET Core 2.0/2.1/2.2/3.0/3.1. Последняя версия Aspose.Words API также поддерживает .NET 5.0 и .NET 6.0. |
-| [Xamarin.Android](/words/net/supported-platforms/#xamarinandroid) | Используйте Aspose.Words для .NET в собственных приложениях Android. |
-| [Xamarin.iOS](/words/net/supported-platforms/#xamarinios) | Используйте Aspose.Words для .NET в собственных приложениях iOS. |
-| [Xamarin.Мак](/words/net/supported-platforms/#xamarinmac) | Используйте Aspose.Words для .NET в своих собственных приложениях Mac. |
-| [COM](/words/net/supported-platforms/#com) | Может оказаться спасением, если вам приходится разрабатывать с использованием технологий, предшествующих .NET. |
-| [Mono](/words/net/supported-platforms/#mono) | Вы можете использовать Aspose.Words для .NET для создания приложений с помощью Mono. |
-| [Windows Azure](/words/net/supported-platforms/#windows-azure) | Да, Aspose.Words для .NET работает на Windows Azure. |
+| [.NET Framework](/words/net/supported-platforms/#net-framework) | Использовать Aspose.Words для .NET строить ASP.NET, Веб-сервисы, WinForms или любой другой тип приложения для любого .NET Framework версии 2.0 или более поздней версии, включая профили клиентов. Полная поддержка 32-битных и 64-битных. |
+| [.NET Standard 2.0](/words/net/supported-platforms/#net-standard-20) | Папки "netstandard2.0" и "netstandard2.0_AuthenticodeSigned" содержат сборки для использования с фреймворками, которые реализуют .NET Standard 2,0 такие как .NET Core 2.0/2.1/2.2/3.0/3.1. Последняя версия Aspose.Words API также поддерживает .NET 5.0 и .NET 6.0. |
+| [Xamarin.Android](/words/net/supported-platforms/#xamarinandroid) | Использовать Aspose.Words для .NET в родном Android приложения. |
+| [Xamarin.iOS](/words/net/supported-platforms/#xamarinios) | Использовать Aspose.Words для .NET в родном iOS приложения. |
+| [Xamarin. Мак](/words/net/supported-platforms/#xamarinmac) | Использовать Aspose.Words для .NET В родных приложениях Mac. |
+| [COM](/words/net/supported-platforms/#com) | Может быть спасителем, если вы должны развиваться с помощью пред- .NET технологий. |
+| [Mono](/words/net/supported-platforms/#mono) | Вы можете использовать Aspose.Words для .NET создавать приложения с Mono. |
+| [Windows Azure](/words/net/supported-platforms/#windows-azure) | Да, Aspose.Words для .NET бежит Windows Azure. |
 
-## Форматы файлов и преобразования
+## Форматы файлов и конверсии
 
-Многие клиенты по всему миру полагаются на широкие возможности импорта и экспорта документов, предоставляемые Aspose.Words.
+Многие клиенты по всему миру полагаются на подробные функции импорта и экспорта документов. Aspose.Words.
 
-|  Особенность | Описание | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
+|  Особенность | Описание | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Мак |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| [`Microsoft Word - DOC`](/words/ru/net/file-formats-and-conversions/) | Самая быстрая и полная реализация формата DOC, которую вы можете найти. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`WordprocessingML - DOCX and XML`](/words/ru/net/file-formats-and-conversions/) | Aspose.Words обеспечивает полную поддержку OOXML, Flat OPC, а также Word 2003 XML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`Rich Text Format - RTF`](/words/ru/net/file-formats-and-conversions/) | Комплексная поддержка формата RTF для взаимодействия с различными приложениями. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`HTML, XHTML and MHTML`](/words/ru/net/file-formats-and-conversions/) | Загрузите и сохраните HTML/XHTML для еще большей совместимости. Также доступно сохранение в формате MHTML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`OpenDocument - ODT`](/words/ru/net/file-formats-and-conversions/) | Aspose.Words может загружать и сохранять документы в текстовом формате `OpenDocument` (.odt). | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`Adobe Portable Document Format - PDF`](/words/ru/net/file-formats-and-conversions/) | Конвертируйте любой документ в PDF с высокой точностью. PDF/A поддерживается. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`XML Paper Specification - XPS`](/words/ru/net/file-formats-and-conversions/) | Преобразуйте любой документ в XPS с высокой точностью. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`Plain Text - TXT`](/words/ru/net/file-formats-and-conversions/) | Легко извлекайте текст, сохраняя его в `plain text` формате. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`Digital Publishing EPUB`](/words/ru/net/file-formats-and-conversions/) | EPUB — популярный формат электронных книг. Вы можете конвертировать любой документ из Aspose.Words в формат IDPF EPUB. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| [`Printer Command Language (PCL)`](/words/ru/net/file-formats-and-conversions/) | Aspose.Words для .NET обеспечивает поддержку сохранения документа в формате PCL. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Самый быстрый и полный формат DOC, который вы можете найти. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Aspose.Words Обеспечивает исчерпывающую поддержку OOXML, Flat OPC и Word 2003 XML. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Комплексная поддержка формата RTF для взаимодействия с различными приложениями. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Загрузите и сохраните HTML/XHTML для еще большей совместимости. Сохранить как MHTML также доступно. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Aspose.Words может загружать и сохранять документы в `OpenDocument` Текстовый (.odt) формат. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Преобразуйте любой документ в PDF с высокой точностью. Поддерживается PDF/A. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Преобразовать любой документ в XPS с высокой точностью. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Легко извлекать текст, сохраняя в `plain text` Формат. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | EPUB является популярным форматом для электронных книг. Вы можете конвертировать любой документ из Aspose.Words Формат IDPF EPUB. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| [Форматы файлов и конверсии](/words/ru/net/file-formats-and-conversions/) | Aspose.Words для .NET Поддержка сохранения документа в формате PCL. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-## Рендеринг и печать
+## Чтение и печать
 
-Aspose.Words теперь обеспечивает высококачественную визуализацию страниц документа.
+Aspose.Words Теперь обеспечивает высокую точность рендеринга страниц документов.
 
-|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
+|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Мак |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Размещайте документ на страницах с высокой точностью (точно так же, как это делает Microsoft Word®) во всех приведенных ниже форматах. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Преобразуйте отдельные страницы или целые документы в PDF или XPS. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Преобразование страниц документа в изображения BMP | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} |
-| Преобразование страниц документа в изображения (PNG, EMF, JPEG, GIF). | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Преобразуйте отдельные фигуры из документа в растровые или векторные изображения. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Укажите разрешение изображения, качество, сжатие и другие параметры. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Отображение страниц или фигур в графическом объекте .NET с помощью преобразований до определенного размера. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Печатайте страницы документов, используя инфраструктуру печати .NET. | {{< emoticons/tick >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} |
-| Обновите `TOC`, номера страниц и другие поля перед рендерингом или печатью. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Раскладывайте документ на страницы с высокой точностью (точно так же, как и в других случаях). Microsoft Word® будет делать это) для всех форматов ниже. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Отправить отдельные страницы или полные документы в PDF или XPS. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Передача страниц документов на изображения BMP | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} |
+| Передача страниц документов на изображения (PNG, EMF, JPEG, GIF). | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Оформление отдельных форм из документа в растровые или векторные изображения. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Укажите разрешение изображения, качество, сжатие и другие варианты. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Передавать страницы или формы в .NET Графический объект с преобразованиями, до определенного размера. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Печать страниц документов с использованием .NET Печатная инфраструктура. | {{< emoticons/tick >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} | {{< emoticons/cross >}} |
+| Обновление `TOC`, номера страниц и другие поля перед рендерингом или печатью. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-## Особенности содержания документа
+## Особенности содержания документов
 
-Aspose.Words предоставляет богатую объектную модель, состоящую из более чем 100 общедоступных классов, которые позволяют программно генерировать, комбинировать, изменять, анализировать или иным образом проверять загруженные документы.
+Aspose.Words Предоставляет богатую объектную модель, которая состоит из более чем 100 общественных классов, которые позволяют программно генерировать, комбинировать, изменять, анализировать или иным образом изучать загруженные документы.
 
-|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
+|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Мак |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
 | Доступ, создание и изменение абзацев и текста. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ, создание и изменение изображений, текстовых полей и фигур. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ, создание и изменение изображений, текстовых ящиков и форм. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Доступ, создание и изменение таблиц, строк и ячеек. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ, создание и изменение полей, полей форм, гиперссылок и закладок. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ, создание и изменение разделов документа, верхних и нижних колонтитулов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ, создание и изменение сносок, концевых сносок и комментариев. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ, создание и изменение пользовательских XML, смарт-тегов и тегов структурированных документов (элементы управления контентом). | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ и изменение всех элементов документа с помощью **XmlDocument**-подобных классов и методов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Обновляйте результаты полей в `IF`, формулах и других популярных типах полей. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Перестраивайте и обновляйте поля оглавления (TOC) точно так же, как это делает Microsoft Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Копируйте и перемещайте элементы документа между документами. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Объединение и разделение документов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Получайте и устанавливайте встроенные и настраиваемые свойства документа. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Укажите защиту документа, откройте защищенные и зашифрованные документы. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Находите и заменяйте текст, перебирайте содержимое документа. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Примите все изменения в документе. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Сохраняйте или извлекайте из документа объекты OLE и элементы управления ActiveX. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Сохраните или удалите макросы VBA из документа. Сохраняйте цифровую подпись макросов VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ, создание и изменение полей, форм полей, гиперссылок и закладок. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ, создание и изменение разделов документов, заголовков и нижних колонок. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ, создание и изменение сносок, сносок и комментариев. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ, создание и изменение пользовательских XML, SmartTags и тегов структурированных документов (контроль контента). | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ и изменение всех элементов документа с использованием **XmlDocument** Как классы и методы. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Обновление полевых результатов `IF`, Формулы и другие популярные типы полей. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Восстановление и обновление полей Table of Contents (TOC) Microsoft Word Сделай это. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Копирование и перемещение элементов документа между документами. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Присоединяйтесь и разделите документы. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Получите и установите встроенные и пользовательские свойства документов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Укажите защиту документов, открытых защищенных и зашифрованных документов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Найти и заменить текст, перечислить содержание документа. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Принять все изменения в документе. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Сохранить или извлечь из документа объекты OLE и элементы управления ActiveX. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Сохранить или удалить макросы VBA из документа. Сохранение цифровой подписи VBA. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Обнаружение и проверка цифровых подписей в документах. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Вставьте HTML-текст. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Извлеките макросы VBA из документа Word. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
+| Вставьте HTML текст. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Экстракт VBA Макрос из Word Document. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | | | |
 
-## Особенности форматирования документа
+## Особенности форматирования документов
 
-Aspose.Words обеспечивает подробный программный доступ к свойствам форматирования всех элементов документа.
+Aspose.Words обеспечивает детальный программный доступ к свойствам форматирования всех элементов документа.
 
-|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
+|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Мак |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Доступ и изменение всего форматирования символов, включая шрифты, цвета, эффекты, границы и затенение. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ и изменение всего форматирования абзацев, включая отступы, интервалы, границы и заливку, позиции табуляции. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ и изменение форматирования всех маркированных и нумерованных списков, включая нумерацию и уровни. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ и изменение форматирования таблицы, включая выравнивание, ориентацию, границы и заливку. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ и изменение всех форматов символов, включая шрифты, цвета, эффекты, границы и затенение. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ и изменение форматирования всех абзацев, включая отступы, интервалы, границы и затенение, остановки вкладки. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ и изменение всех пронумерованных и пронумерованных списков, включая нумерацию и уровни. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ и изменение форматирования таблиц, включая выравнивание, ориентацию, границы и затенение. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Доступ и изменение всех свойств раздела, включая размер бумаги, поля и ориентацию. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Доступ, создание и изменение стилей документов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Доступ и изменение объектов рисования, включая положение, размер, свойства линий и заливки, байты изображения. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Доступ и изменение объектов рисования, включая положение, размер, линии и свойства заполнения, байты изображения. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-## Возможности Mail Merge
+## Mail Merge Особенности
 
-Вы можете использовать Aspose.Words как самостоятельное решение для создания отчетов. Создавайте свои отчеты в формате Microsoft Word, а затем заполняйте Aspose.Words-документы данными из различных источников данных.
+Вы можете использовать Aspose.Words как самостоятельное решение проблемы. Создавайте свои отчеты в Microsoft Word а затем иметь Aspose.Words заполняют документы данными из различных источников данных.
 
-|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
+|  Особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Мак |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Используйте в своих отчетах все стандартные поля Microsoft Word mail merge, включая `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, GREETINGLINE. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Выполняйте mail merge для документов, содержащих даже самые сложные и вложенные поля и формулы `IF`. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Заполняйте и динамически увеличивайте таблицы или фрагменты документа из источника данных, используя регионы mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Легко создавайте отчеты, содержащие данные "основной-подробный" (родительский-дочерний), например Order/OrderDetails. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Заполните документы данными из любого источника данных .NET, такого как DataSet, DataTable, DataView, DataReader или ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Заполняйте документы из любого источника данных, например запроса LINQ, XML-файла или бизнес-объектов, реализуя интерфейс **IMailMergeDataSource**. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Получите точный контроль, например форматирование чисел, над тем, как ваши данные объединяются с помощью событий. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Вставка изображений в mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Программно создайте или измените источник данных Microsoft Word mail merge для документа. Сохраните настройки mail merge и источники данных. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Получить имена полей mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Используйте все стандартные Microsoft Word mail merge в своих отчетах, в том числе `MERGEFIELD`, `NEXT`, `NEXTIF`, `ADDRESSBLOCK`, Приветствую. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Казнить mail merge для документов, содержащих даже самые сложные и вложенные `IF` Поля и формулы. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Населяйте и динамически выращивайте таблицы или фрагменты в документе из вашего источника данных с помощью mail merge регионов. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Легко генерировать отчеты, которые содержат основные данные (родитель-ребенок), такие как Заказ / Детали заказа. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Населенные документы с данными из любых .NET Источник данных, такой как DataSet, DataTable, DataView, DataReader или ADO Recordset. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Заполните документы из любого источника данных, такого как запрос LINQ, XML-файл или бизнес-объекты, реализуя **IMailMergeDataSource** интерфейс. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Возьмите точный контроль, такой как форматирование чисел, над тем, как ваши данные объединяются с помощью событий. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Вставить изображения во время mail merge. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Программно создавать или изменять Microsoft Word mail merge Источник данных для документа. сохранять mail merge Настройки и источники данных. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Ретрив mail merge Названия полей. | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 
-## Функции отчетности
+## Особенности отчетности
 
-LINQ Reporting Engine — это расширенный инструмент создания отчетов, позволяющий создавать документы на основе шаблонных документов и данных, полученных из различных источников, включая базы данных, XML, JSON, OData, объекты пользовательских типов CLR, внешние документы и многое другое.
+Линк Reporting Engine - это продвинутый инструмент отчетности, позволяющий создавать документы на основе шаблонных документов и данных, полученных из различных источников, включая базы данных, XML, JSON, OData, объекты пользовательских типов CLR, внешние документы и многое другое.
 
-| Ключевая особенность | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin.Mac |
+| Ключевые особенности | .NET | .NET Standard 2.0 | Xamarin.Android | Xamarin.iOS | Xamarin. Мак |
 |  :-  |  :-  |  :-  |  :-  |  :-  |  :-  |
-| Поддержка синтаксиса C# и методов расширения LINQ непосредственно в шаблонах (даже для источников данных `ADO.NET`) | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Поддержка повторяющихся и условных блоков документов (циклов и условий) для таблиц, списков и общего контента | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Поддержка динамически генерируемых диаграмм и изображений | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Поддержка вставки внешних документов и блоков HTML в документ | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Поддержка нескольких источников данных (в том числе разных типов) для формирования одного документа | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Поддержка C# методы синтаксиса и расширения LINQ непосредственно в шаблонах (даже для `ADO.NET` источники данных) | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Поддержка повторяемых и условных блоков документов (лупы и условия) для таблиц, списков и общего контента | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Поддержка динамически генерируемых графиков и изображений | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Поддержка вставки внешних документов и HTML-блоков в документ | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Поддержка нескольких источников данных (в том числе различных типов) для создания единого документа | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | Встроенная поддержка отношений данных (мастер-деталь) | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
-| Комплексная поддержка различных манипуляций с данными, таких как группировка, сортировка, фильтрация и другие, непосредственно в шаблонах | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
+| Комплексная поддержка различных манипуляций с данными, таких как группирование, сортировка, фильтрация и другие, непосредственно в шаблонах | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |
 | WYSIWYG: сгенерированный документ сохраняет то же форматирование своих элементов, что и соответствующий шаблон | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} | {{< emoticons/tick >}} |

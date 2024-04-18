@@ -1,74 +1,74 @@
 ---
-title: Параметры и внешний вид документа Word
+title: Варианты и внешний вид Word Document
 second_title: Aspose.Words для .NET
-articleTitle: Работа с параметрами и внешним видом документов Word
-linktitle: Работа с параметрами и внешним видом документов Word
-description: "Управляйте внешним видом документов Word, учитывая разницу между различными версиями Microsoft Word, используя C#."
+articleTitle: Работа с вариантами и появлением текстовых документов
+linktitle: Работа с вариантами и появлением текстовых документов
+description: "Контроль внешнего вида документов Word с учетом разницы между различными Microsoft Word версии, использующие C#."
 type: docs
 weight: 40
 url: /ru/net/work-with-word-document-options-and-appearance/
 ---
 
-Иногда может потребоваться изменить внешний вид документа, например, установить языковые настройки или количество строк на странице. Aspose.Words предоставляет возможность контролировать способ отображения документа, а также некоторые дополнительные параметры. В этой статье описаны такие возможности.
+Иногда может потребоваться изменить внешний вид документа, например, установить языковые предпочтения или количество строк на странице.Aspose.Words Предоставляет возможность контролировать, как будет отображаться документ, а также некоторые дополнительные опции. В этой статье описаны такие возможности.
 
-## Установите параметры отображения документа
+## Установите опции отображения документов
 
-Вы можете управлять тем, как документ будет отображаться в Microsoft Word, используя класс [ViewOptions](https://reference.aspose.com/words/ru/net/aspose.words.settings/viewoptions/). Например, вы можете установить значение масштабирования документа, используя свойство [ZoomPercent](https://reference.aspose.com/words/ru/net/aspose.words.settings/viewoptions/zoompercent/), или режим просмотра, используя свойство [ViewType](https://reference.aspose.com/words/ru/net/aspose.words.settings/viewoptions/viewtype/).
+Вы можете контролировать, как документ будет отображаться в Microsoft Word используя [ViewOptions](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/) класс. Например, вы можете установить значение зума документа, используя [ZoomPercent](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/zoompercent/) свойство или режим просмотра с использованием [ViewType](https://reference.aspose.com/words/net/aspose.words.settings/viewoptions/viewtype/) собственность.
 
-В следующем примере кода показано, как обеспечить отображение документа на 50 % при открытии в Microsoft Word:
+Следующий пример кода показывает, как обеспечить, чтобы документ отображался на 50% при открытии. Microsoft Word:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SetViewOption-SetViewOption.cs" >}}
 
 {{% alert color="primary" %}}
 
-Вы можете скачать файл шаблона для этого примера по адресу [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
+Вы можете скачать файл шаблона для этого примера из [Aspose.Words GitHub](https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Document.docx).
 
 {{% /alert %}}
 
 {{% alert color="primary" %}}
 
-Microsoft Word 2013 не записывает в документ какой-либо коэффициент масштабирования и больше не устанавливает масштаб по умолчанию на основе значения, записанного в документ; вместо этого, похоже, используется коэффициент масштабирования последнего открытого документа.
+Microsoft Word 2013 не записывает какой-либо фактор масштабирования в документ и больше не устанавливает зум по умолчанию от значения, записанного в документ, вместо этого, похоже, используется фактор масштабирования последнего открытого документа.
 
 {{% /alert %}}
 
-## Установить параметры отображения страницы
+## Настройка опций Page Display
 
-Если вы хотите установить количество символов в строке, используйте свойство [CharactersPerLine](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/charactersperline/). Вы также можете установить количество строк на страницу для документа Word — используйте свойство [LinesPerPage](https://reference.aspose.com/words/ru/net/aspose.words/pagesetup/linesperpage/), чтобы получить или установить количество строк на страницу в сетке документа.
+Если вы хотите установить количество символов в строке, используйте [CharactersPerLine](https://reference.aspose.com/words/net/aspose.words/pagesetup/charactersperline/) собственность. Вы также можете установить количество строк на странице для документа Word. [LinesPerPage](https://reference.aspose.com/words/net/aspose.words/pagesetup/linesperpage/) свойство получать или устанавливать количество строк на странице в сетке документов.
 
 {{% alert color="primary" %}}
 
-В Microsoft Word эти же параметры можно задать с помощью вкладки "Сетка документа" в диалоговом окне "Параметры страницы" только при установленной поддержке азиатских языков.
+В Microsoft Word, Вы можете установить те же параметры, используя вкладку "Сетка документов" в диалоговом окне "Настройка страницы" только при установке поддержки азиатского языка.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как установить количество символов в строке и количество строк на странице для документа Microsoft Word:
+Следующий пример кода показывает, как установить количество символов на строку и количество строк на странице для Microsoft Word документ:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-DocumentPageSetup-DocumentPageSetup.cs" >}}
 
-## Установить языковые настройки
+## Установите языковые предпочтения
 
-Отображение документа в Microsoft Word зависит от того, какие языки установлены по умолчанию для этого документа. Если по умолчанию языки не установлены, Microsoft Word берет информацию из диалогового окна "Установить языковые настройки Office", которое, например, можно найти в разделе "Файл → Параметры → Язык" в Microsoft Word 2019.
+Отображение документа в Microsoft Word Зависит от того, какие языки установлены по умолчанию для данного документа. Если языки не установлены по умолчанию, Microsoft Word берет информацию из диалогового окна "Настройка языковых предпочтений Office", которое, например, можно найти в разделе "Файл → Варианты → Язык" Microsoft Word 2019.
 
-С помощью Aspose.Words вы также можете настроить языковые предпочтения, используя класс [LanguagePreferences](https://reference.aspose.com/words/ru/net/aspose.words.loading/languagepreferences/). Также обратите внимание, что для корректного отображения вашего документа необходимо установить версию Microsoft Word, которой должен соответствовать процесс загрузки документа – это можно сделать с помощью свойства [MswVersion](https://reference.aspose.com/words/ru/net/aspose.words.loading/loadoptions/mswversion/).
+С Aspose.Words, Вы также можете настроить языковые предпочтения, используя [LanguagePreferences](https://reference.aspose.com/words/net/aspose.words.loading/languagepreferences/) класс. Также обратите внимание, что для правильного отображения вашего документа необходимо установить Microsoft Word версия о том, что процесс загрузки документа должен совпадать – это можно сделать с помощью [MswVersion](https://reference.aspose.com/words/net/aspose.words.loading/loadoptions/mswversion/) собственность.
 
 {{% alert color="primary" %}}
 
-Если созданный вами документ Aspose.Words выглядит не так, как ожидалось, проверьте значения **LanguagePreferences** и **MswVersion** и при необходимости откорректируйте их, чтобы они соответствовали настройкам вашей версии Microsoft Word.
+Если вы Aspose.Words Созданный документ выглядит не так, как ожидалось, проверьте **LanguagePreferences** и **MswVersion** Значения и настройте их, если это необходимо, чтобы соответствовать настройкам для вашего Microsoft Word Версия.
 
 {{% /alert %}}
 
-В следующем примере кода показано, как добавить японский язык к языкам редактирования:
+Следующий пример кода показывает, как добавить японский в языки редактирования:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-Setuplanguagepreferences-AddJapaneseAsEditinglanguages.cs" >}}
 
-В следующем примере кода показано, как установить русский язык в качестве языка редактирования по умолчанию:
+Следующий пример кода показывает, как установить русский язык редактирования по умолчанию:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-Setuplanguagepreferences-SetRussianAsDefaultEditingLanguage.cs" >}}
 
-## Оптимизация документа для конкретной версии Word
+## Оптимизируйте документ для конкретного Версия Word
 
-Метод [OptimizeFor](https://reference.aspose.com/words/ru/net/aspose.words.settings/compatibilityoptions/optimizefor/) позволяет оптимизировать содержимое документа, а также поведение Aspose.Words по умолчанию для конкретной версии Microsoft Word. Вы можете использовать этот метод, чтобы запретить Microsoft Word отображать ленту "Режим совместимости" при загрузке документа. Обратите внимание, что вам также может потребоваться установить для свойства `Compliance` значение Iso29500_2008_Transitional или выше.
+The [OptimizeFor](https://reference.aspose.com/words/net/aspose.words.settings/compatibilityoptions/optimizefor/) Способ позволяет оптимизировать содержание документа, а также по умолчанию Aspose.Words Поведение для конкретной версии Microsoft Word. Вы можете использовать этот метод для предотвращения Microsoft Word от отображения ленты "Режим совместимости" при загрузке документа. Обратите внимание, что вам также может потребоваться установить `Compliance` Iso29500_2008_Переходный или выше.
 
-В следующем примере кода показано, как оптимизировать содержимое документа для Microsoft Word 2016 г.:
+Следующий пример кода показывает, как оптимизировать содержание документа для: Microsoft Word 2016:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-SetCompatibilityOptions-OptimizeFor.cs" >}}

@@ -1,38 +1,38 @@
 ---
-title: Работа со сносками и концевыми сносками в C#
+title: Работа с Footnote и Endnote в C#
 second_title: Aspose.Words для .NET
-articleTitle: Работа со сносками и концевыми сносками
-linktitle: Работа со сносками и концевыми сносками
-description: "Как манипулировать сносками и концевыми сносками с помощью C#."
+articleTitle: Работа с Footnote и Endnote
+linktitle: Работа с Footnote и Endnote
+description: "Как манипулировать сносками и энднотами с помощью C#."
 type: docs
 weight: 160
 url: /ru/net/working-with-footnote-and-endnote/
 ---
 
-Aspose.Words также предоставляет некоторые классы, методы и свойства для работы со сносками и концевыми сносками.
+Aspose.Words Также предусмотрены некоторые классы, методы и свойства для работы со сносками и энднотами.
 
-## Вставка концевой сноски и установка параметров нумерации
+## Включить Endnote и Set Numbering Options
 
-Если вы хотите вставить сноску или концевую сноску в документ Word, используйте метод [InsertFootnote](https://reference.aspose.com/words/ru/net/aspose.words/documentbuilder/insertfootnote/). Этот метод вставляет в документ сноску или концевую сноску.
+Если вы хотите вставить сноску или примечание в документ Word, пожалуйста, используйте [InsertFootnote](https://reference.aspose.com/words/net/aspose.words/documentbuilder/insertfootnote/) метод. Этот метод вставляет сноску или сноску в документ.
 
-Классы [EndnoteOptions](https://reference.aspose.com/words/ru/net/aspose.words.notes/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/ru/net/aspose.words.notes/footnoteoptions/) представляют варианты нумерации сносок и концевых сносок.
+[EndnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/endnoteoptions/) и [FootnoteOptions](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/) Классы представляют собой варианты нумерации для сноски и сноски.
 
-В следующем примере кода показано, как вставить концевую сноску в документ и установить параметры нумерации:
+Следующий пример кода показывает, как вставить примечание в документ и установить его параметры нумерации:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetEndnoteOptions.cs" >}}
 
-## Установить количество столбцов макета сноски
+## Установить количество колонок сносок
 
-Вы можете установить количество столбцов макета сносок, используя свойство [Columns](https://reference.aspose.com/words/ru/net/aspose.words.notes/footnoteoptions/columns/). Если это свойство имеет значение 0, область сносок форматируется с использованием количества столбцов в зависимости от количества столбцов на отображаемой странице.
+Вы можете установить количество колонок макета сноски, используя [Columns](https://reference.aspose.com/words/net/aspose.words.notes/footnoteoptions/columns/) собственность. Если это свойство имеет значение 0, область сносок отформатирована рядом столбцов на основе количества столбцов на отображаемой странице.
 
-В следующем примере кода показано, как задать количество столбцов для макета сноски:
+Следующий пример кода показывает, как установить количество столбцов для макета сноски:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetFootNoteColumns.cs" >}}
 
-## Установите положение сноски и EndNote
+## Установите позицию сноски и конечного примечания
 
-Положение сноски может находиться внизу каждой страницы или под текстом на каждой странице. Позиция концевой сноски может находиться в конце раздела или в конце документа.
+Положение сноски может быть в нижней части каждой страницы или под текстом на каждой странице. Положение примечания может быть в конце раздела или в конце документа.
 
-В следующем примере кода показано, как установить положение сноски и концевой сноски:
+Следующий пример кода показывает, как установить положение сноски и сноски:
 
 {{< gist "aspose-com-gists" "0b968ac8900f80c11e109dffb105f3da" "Examples-CSharp-Programming-Documents-Document-WorkingWithFootnote-SetFootnoteOptions.cs" >}}

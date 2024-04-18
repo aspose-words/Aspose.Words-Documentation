@@ -1,23 +1,23 @@
 ---
-title: Работа с диаграммами в Python
-second_title: Aspose.Words за Python via .NET
+title: Работа с картами в Python
+second_title: Aspose.Words для Python via .NET
 articleTitle: Работа с диаграммами
 linktitle: Работа с диаграммами
-description: "Создавайте и изменяйте диаграммы различных типов в документе с помощью Python."
+description: "Создание и изменение диаграмм различных типов в документе с использованием Python."
 type: docs
 weight: 310
 url: /ru/python-net/working-with-charts/
 ---
 
-В класс [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) добавлен новый метод [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/). Итак, давайте посмотрим, как вставить в документ простую гистограмму методом [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/):
+Новый [insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) Метод был добавлен в [DocumentBuilder](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/) класс. Итак, давайте посмотрим, как вставить простую таблицу столбцов в документ с помощью [DocumentBuilder.insert_chart](https://reference.aspose.com/words/python-net/aspose.words/documentbuilder/insert_chart/) метод:
 
-### Как вставить диаграмму
+### Как вставить карту
 
-В этом разделе мы научимся вставлять диаграмму в документ.
+В этом разделе мы узнаем, как вставить карту в документ.
 
-### Вставить столбчатую диаграмму
+### Включить диаграмму колонок
 
-В следующем примере кода показано, как вставить гистограмму:
+Следующий пример кода показывает, как вставить столбцовую диаграмму:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertSimpleColumnChart.py" >}}
 
@@ -26,7 +26,7 @@ url: /ru/python-net/working-with-charts/
 ![create-column-chart-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-1.png)
 
 
-Существуют методы [add](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/add/), [add_double](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/add_double/) и [add_date](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/add_date/), которые призваны охватить все возможные варианты источников данных для всех типов диаграмм:
+Существуют [add](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/add/), [add_double](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/add_double/) и [add_date](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/add_date/) Методы, которые были подвергнуты воздействию, охватывают все возможные варианты источников данных для всех типов диаграмм:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertColumnChart.py" >}}
 
@@ -34,9 +34,9 @@ url: /ru/python-net/working-with-charts/
 
 ![create-column-chart-from-datasource-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-2.png)
 
-### Вставить точечную диаграмму
+### Включить рассеяние Чарт
 
-В примере ниже показано, как вставить точечную диаграмму.
+Ниже пример показывает, как вставить диаграмму рассеяния.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertScatterChart.py" >}}
 
@@ -44,9 +44,9 @@ url: /ru/python-net/working-with-charts/
 
 ![scatter-chart-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-3.png)
 
-### Вставить диаграмму площади
+### Включить зону Чарт
 
-В следующем примере кода показано, как вставить диаграмму с областями:
+Следующий пример кода показывает, как вставить диаграмму области:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertAreaChart.py" >}}
 
@@ -54,9 +54,9 @@ url: /ru/python-net/working-with-charts/
 
 ![area-chart-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-4.png)
 
-### Вставить пузырьковую диаграмму
+### Включить Bubble Chart
 
-В следующем примере кода показано, как вставить пузырьковую диаграмму:
+Следующий пример кода показывает, как вставить пузырьковую диаграмму:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-InsertBubbleChart.py" >}}
 
@@ -64,11 +64,11 @@ url: /ru/python-net/working-with-charts/
 
 ![bubble-chart-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-5.png)
 
-## Работа с диаграммами через объект Shape.chart
+## Работа с графиками через Shape.chart Object
 
-После того как диаграмма была вставлена и заполнена данными, вы можете изменить ее внешний вид. Свойство [Shape.chart](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/chart/) содержит все параметры, связанные с диаграммами, доступные через общедоступный API.
+После того, как график был вставлен и заполнен данными, вы можете изменить его внешний вид. [Shape.chart](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/chart/) собственность содержит все варианты, связанные с диаграммами, доступные через общественность API.
 
-Например, давайте изменим поведение заголовка или легенды [Chart](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/):
+Например, давайте изменим [Chart](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/) Заголовок или поведение легенды:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-CreateChartUsingShape.py" >}}
 
@@ -76,132 +76,132 @@ url: /ru/python-net/working-with-charts/
 
 ![line-chart-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-6.png)
 
-## Как работать с ChartSeriesCollection of Chart
+## Как работать с ChartSeriesСборник диаграмм
 
-Давайте посмотрим на коллекцию [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/). Все серии диаграмм доступны в коллекции [Chart.series](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series/):
+Давайте посмотрим на [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/) Коллекция. Все серии карт доступны через [Chart.series](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/series/) коллекция:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-ChartSeriesCollection.py" >}}
 
-Вы можете удалять серии по одной или очищать их все, а также при необходимости добавлять новые. Недавно вставленная диаграмма содержит некоторые серии по умолчанию, добавленные в эту коллекцию. Чтобы их удалить, нужно вызвать метод [chart.series.clear()](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/clear/).
+Вы можете удалить серию по одной или очистить все из них, а также добавить новую, если это необходимо. Недавно вставленный график имеет некоторые серии по умолчанию, добавленные в эту коллекцию. Чтобы удалить их, вам нужно позвонить [chart.series.clear()](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseriescollection/clear/) метод.
 
-## Работа с одним классом ChartSeries
+## Работа с Single ChartSeries Class
 
-Вот как работать с конкретной серией.
+Вот как работать с определенной серией.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-WorkWithSingleChartSeries.py" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![line-chart-chartseries-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-7.png)
 
 
-Все одиночные [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/) имеют параметры по умолчанию [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/). Попробуйте использовать следующий код, чтобы изменить их:
+Все одинокие [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/) иметь дефолт [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/) Пожалуйста, попробуйте использовать следующий код, чтобы изменить их:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-ChartDataPoint.py" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![line-chart-chartdatapoint-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-8.png)
 
-## Как работать с одной точкой ChartDataPoint `ChartSeries`
+## Как работать с Single ChartDataPoint `ChartSeries`
 
-Используя [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/), вы можете настроить форматирование отдельной точки данных серии диаграмм:
+Использовать [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/) Вы можете настроить форматирование одной точки данных серии диаграмм:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-WorkWithSingleChartDataPoint.py" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![line-chart-datapoint-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-9.png)
 
-## Как работать с ChartDataLabel одной серии ChartSeries
+## Как работать с ChartDataLabel одной серии
 
-Используя [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/), вы можете указать форматирование одной метки данных серии диаграмм, например показать/скрыть LegendKey, CategoryName, SeriesName, Value и т.д.
+Использовать [ChartDataLabel](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) Вы можете указать форматирование одной метки данных серии диаграмм, такой как show/hide LegendKey, CategoryName, SeriesName, Value и т.д.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-WorkWithChartDataLabel.py" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![bar-chart-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-10.png)
 
 ## Как определить параметры по умолчанию для ChartDataLabels ChartSeries
 
-Класс [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/) определяет свойства, которые можно использовать для установки параметров по умолчанию для [ChartDataLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) для серий диаграмм. К этим свойствам относятся [show_category_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_category_name/), [show_bubble_size](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_bubble_size/), [show_percentage](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_percentage/), [show_series_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_series_name/), [show_value](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_value/) и т.д.
+The [ChartDataLabelCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/) класс определяет свойства, которые могут использоваться для установки опций по умолчанию для [ChartDataLabels](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/) Серия карт. Эти свойства включают [show_category_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_category_name/), [show_bubble_size](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_bubble_size/), [show_percentage](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_percentage/), [show_series_name](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_series_name/), [show_value](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_value/) и т.д.
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-DefaultOptionsForDataLabels.py" >}}
 
-Пожалуйста, посмотрите результат ниже:
+Пожалуйста, смотрите результат ниже:
 
 ![pie-chart-aspose-words-net](/words/python-net/working-with-charts/working-with-charts-11.png)
 
-## Как отформатировать метку номера диаграммы
+## Как форматировать номер таблички с данными
 
-Используя [ChartDataLabel.number_format](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/number_format/), вы можете указать форматирование чисел для одной метки данных диаграммы.
+Использовать [ChartDataLabel.number_format](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatalabel/number_format/) Вы можете указать форматирование номера одной метки данных диаграммы.
 
-В следующем примере кода показано, как отформатировать число метки данных:
+Следующий пример кода показывает, как форматировать номер метки данных:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-FormatNumberOfDataLabel.py" >}}
 
-## Как установить свойства оси диаграммы
+## Как установить свойства Chart Axis
 
-Если вы хотите работать с осью диаграммы, масштабированием и единицами отображения для оси значений, используйте классы [ChartAxis](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisdisplayunit/) и [AxisScaling](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisscaling/).
+Если вы хотите работать с осью диаграмм, масштабированием и отображением блоков для оси значений, пожалуйста, используйте [ChartAxis](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/), [AxisDisplayUnit](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisdisplayunit/), и [AxisScaling](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisscaling/) классы.
 
-В следующем примере кода показано, как определить свойства осей X и Y:
+Следующий пример кода показывает, как определить свойства оси X и Y:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-DefineXYAxisProperties.py" >}}
 
 ### Как установить Date Временное значение оси
 
-В следующем примере кода показано, как установить значения даты и времени для свойств оси:
+Следующий пример кода показывает, как установить значения даты/времени на свойства оси:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetDateTimeValuesToAxis.py" >}}
 
-### Как отформатировать числовое значение оси
+### Как определить значение числа оси
 
-В следующем примере кода показано, как изменить формат чисел на оси значений:
+Следующий пример кода показывает, как изменить формат чисел на оси значений:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetNumberFormatForAxis.py" >}}
 
 ### Как установить границы оси
 
-Класс [AxisBound](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisbound/) представляет минимальную или максимальную границу значений оси. Привязка может быть указана как числовое значение, значение даты и времени или специальное "автоматическое" значение.
+The [AxisBound](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/axisbound/) Класс представляет собой минимальный или максимальный предел значений оси. Связь может быть указана как цифровое, дата-время или специальное "авто" значение.
 
-В следующем примере кода показано, как установить границы оси:
+Следующий пример кода показывает, как установить границы оси:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetboundsOfAxis.py" >}}
 
-### Как установить единицу интервала между метками
+### Как установить интервал между ярлыками
 
-В следующем примере кода показано, как установить единицу интервала между метками на оси:
+Следующий пример кода показывает, как установить интервал между ярлыками на оси:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-SetIntervalUnitBetweenLabelsOnAxis.py" >}}
 
 ### Как скрыть ось диаграммы
 
-Если вы хотите отобразить или скрыть ось диаграммы, вы можете просто добиться этого, установив значение свойства [ChartAxis.hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/hidden/).
+Если вы хотите показать или скрыть ось диаграммы, вы можете просто достичь этого, установив значение [ChartAxis.hidden](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/hidden/) собственность.
 
-В следующем примере кода показано, как скрыть ось Y диаграммы:
+Следующий пример кода показывает, как скрыть Y-ось диаграммы:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-HideChartAxis.py" >}}
 
-### Как выровнять метку диаграммы
+### Как выровнять Chart Label
 
-Если вы хотите настроить выравнивание текста для многострочных меток, вы можете просто добиться этого, установив значение свойства [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/).
+Если вы хотите установить текстовое выравнивание для многострочных меток, вы можете просто достичь этого, установив значение [ChartAxis.tick_label_alignment](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/) собственность.
 
-В следующем примере кода показано, как отметить выравнивание меток:
+Следующий пример кода показывает, как выравнивать этикетку:
 
 {{< gist "aspose-words-gists" "e9d8f984dac599756ccb4a64b8c79768" "Examples-DocsExamples-DocsExamples-Programming with Documents-Working with Graphic Elements-working_with_charts-TickMultiLineLabelAlignment.py" >}}
 
 {{% alert color="primary" %}}
 
-MS Word по умолчанию выравнивает метку диаграммы по центру.
+MS Word по умолчанию выравнивает Chart Label в центр.
 
 {{% /alert %}}
 
-## Как установить форматирование заливки и обводки
+## Как установить наполнение и форматирование инсульта
 
-Форматирование заливки и обводки можно настроить для серий диаграмм, точек данных и маркеров. Для этого необходимо использовать свойства типа [ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/) в классах [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/), [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/) и [ChartMarker](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmarker/), а также псевдонимы некоторых свойств, например [fore_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_color/), [back_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_color/), [visible](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/visible/) и [transparency](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/transparency/) в классе [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/).
+Форматирование заполнения и хода может быть установлено для серий диаграмм, точек данных и маркеров. Для этого нужно использовать свойства [ChartFormat](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartformat/) тип в котором [ChartSeries](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartseries/), [ChartDataPoint](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartdatapoint/), и [ChartMarker](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartmarker/) классы, а также псевдонимы для некоторых свойств, таких как [fore_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_color/), [back_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_color/), [visible](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/visible/), и [transparency](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/transparency/) в [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) класс.
 
-В следующем примере кода показано, как установить цвет серии:
+Следующий пример кода показывает, как установить цвет серии:
 
 {{< highlight python >}}
 doc = aw.Document()
@@ -231,7 +231,7 @@ series3.format.fill.fore_color = drawing.Color.blue
 doc.save(docs_base.artifacts_dir + "WorkingWithCharts.set_series_color.docx")
 {{< /highlight >}}
 
-В следующем примере кода показано, как установить цвет и толщину линии:
+Следующий пример кода показывает, как установить цвет линии и вес:
 
 {{< highlight python >}}
 doc = aw.Document()

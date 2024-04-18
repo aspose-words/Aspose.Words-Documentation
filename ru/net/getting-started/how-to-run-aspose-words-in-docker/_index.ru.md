@@ -1,50 +1,50 @@
 ---
-title: Как запустить Aspose.Words в Docker
+title: Как бегать Aspose.Words в Docker
 second_title: Aspose.Words для .NET
-articleTitle: Как запустить Aspose.Words в Docker
-linktitle: Как запустить Aspose.Words в Docker
+articleTitle: Как бегать Aspose.Words в Docker
+linktitle: Как бегать Aspose.Words в Docker
 type: docs
-description: "Интегрируйте функциональность Aspose.Words в свое приложение, используя Docker, независимо от того, какая технология используется в вашем стеке разработки. Узнайте, как использовать Aspose .Words в контейнере Docker в формате C#."
+description: "Интегрировать Aspose.Words Функционал в вашем приложении с использованием Docker Независимо от того, какие технологии находятся в вашем стеке разработки. Узнайте, как использовать Aspose. Слова в a Docker контейнер в C#."
 weight: 120
 url: /ru/net/how-to-run-aspose-words-in-docker/
 ---
 
-Микросервисы в сочетании с контейнеризацией позволяют легко комбинировать технологии. Docker позволяет легко интегрировать функциональность Aspose.Words в ваше приложение независимо от того, какая технология используется в вашем стеке разработки.
+Микросервисы в сочетании с контейнеризацией позволяют легко комбинировать технологии. Docker позволяет легко интегрировать Aspose.Words Функциональность в вашем приложении, независимо от того, какие технологии находятся в вашем стеке разработки.
 
-Если вы ориентируетесь на микросервисы или если основной технологией в вашем стеке не является .NET, C++ или Java, но вам нужна функциональность Aspose.Words, или если вы уже используете Docker в своем стеке, вас может заинтересовать использование Aspose.Words в Docker. контейнер.
+Если вы ориентируетесь на микросервисы или если основная технология в вашем стеке не работает. .NET, C++ или Java, Но вам нужно Aspose.Words функциональности или если вы уже используете Docker В вашем стеке, то вы можете быть заинтересованы в использовании Aspose.Words в Docker контейнер.
 
-## Предварительные условия
+## Предпосылки
 
-- Docker должен быть установлен в вашей системе. Информацию о том, как установить Docker на Windows или Mac, можно найти по ссылкам в разделе "См. также".
+- Docker Они должны быть установлены в вашей системе. Информация о том, как установить Docker на Windows или Mac, обратитесь к ссылкам в разделе "См. также".
 
-- Также обратите внимание, что в примере, приведенном ниже, используется Visual Studio 2017, .NET Core 2.2 SDK.
+- Кроме того, обратите внимание, что Visual Studio 2017, .NET Core 2.2.2 SDK используется в примере, приведенном ниже.
 
 
-## Приложение "Привет, мир"
+## Приложение Hello World
 
-В этом примере вы создаете простое консольное приложение Hello World, которое создает команду "Hello World!" документ и сохраняет его во всех поддерживаемых форматах сохранения. Затем приложение можно построить и запустить в формате Docker.
+В этом примере вы создаете простое консольное приложение Hello World, которое делает документ "Hello World!" и сохраняет его во всех поддерживаемых форматах сохранения. Затем приложение может быть построено и запущено в Docker.
 
-### Создание консольного приложения
+### Создание консоли приложения
 
 Чтобы создать программу Hello World, выполните следующие действия:
-1. После установки Docker убедитесь, что он использует контейнеры Linux (по умолчанию). При необходимости выберите параметр "Переключиться на контейнеры Linux" в меню "Рабочие столы Docker".
-1. В Visual Studio создайте консольное приложение .NET Core.<br>
-![net-console-application](https://lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
-1. Установите последнюю версию Aspose.Words из NuGet. SkiaSharp будет установлен как зависимость Aspose.Words.<br>
-![skiasharp-dependency](https://lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
-1. Поскольку приложение будет работать на Linux, необходимо установить соответствующие собственные ресурсы Linux. Начните с базового образа Debian и установите `SkiaSharp.NativeAssets`.Linux.
-1. Когда все необходимые зависимости будут добавлены, напишите простую программу, создающую сообщение "Hello World!" документ и сохраняет его во всех поддерживаемых форматах сохранения:<br>
+1. Однажды Docker установлен, убедитесь, что он использует Linux Контейнеры (по умолчанию). При необходимости выберите Switch для Linux Контейнерный вариант из Docker Меню рабочего стола.
+1. в Visual Studio, создавать .NET Core Консольное приложение.<br/>
+![net-console-application](/lh5.googleusercontent.com/PArWoC8_leOnhtaF-5BMb3b4jHwI3G03WoyMK3bXZpsQKN50YzvEQBwoRniyCWKIcdR0EZGuwn3S8Z0ZK6FQ4cjMSWgH3CwSqReW4bMt-3OjZjrdt9yuWbkMdhyNjwwaaYPC5Ylr)<br>
+1. Установите последнюю Aspose.Words Версия из NuGet. Ски Sharp будет устанавливаться как зависимость от Aspose.Words.<br/>
+![skiasharp-dependency](/lh3.googleusercontent.com/zWpvB5TLahC_OpJrHDML2131Vj_VK1vryTZBd_C3ZeOBdoUOc2vF_axEvwu9tytaL1maJv3qA2KoyP5fn7ae4_3cL23sXyoLoVysjgu8XEp6l0B2w5hgR9teh95_9mFd9X-4DGNN)<br>
+1. Поскольку приложение будет работать на <p notrans="<p notrans=" Linux"=""></p>"> подходящий родной Linux Активы должны быть установлены. Начнем с того, что Debian Базовое изображение и установка `SkiaSharp.NativeAssets`.Linux.
+1. При добавлении всех необходимых зависимостей напишите простую программу, которая создает документ "Hello World!" и сохраняет его во всех поддерживаемых форматах сохранения:<br/>
 
 {{< gist "aspose-words-gists" "47e15ad749897be465deebc2ff3e76dd" "aspose-words-docker.cs" >}}
 
-Обратите внимание, что папка "TestOut" указана как выходная папка для сохранения выходных документов. При запуске приложения в Docker папка на хост-компьютере будет подключена к этой папке в контейнере. Это позволит вам легко просматривать выходные данные, созданные в формате Aspose.Words, в контейнере Docker.
+Обратите внимание, что папка "TestOut" указана как выходная папка для сохранения выходных документов. При запуске приложения в <p notrans="<p notrans=" Docker"=""></p>"> папка на хост-машине будет установлена на эту папку в контейнере. Это позволит вам легко просматривать результат, генерируемый Aspose.Words в Docker контейнер.
 
-### Настройка Dockerfile
+### Конфигурирование a Dockerfile
 
 Следующим шагом является создание и настройка Dockerfile.
 
-1. Создайте Dockerfile и поместите его рядом с файлом решения вашего приложения. Сохраните это имя файла без расширения (по умолчанию).
-1. В Dockerfile укажите:
+1. создавать Dockerfile Поместите его рядом с файлом решения вашего приложения. Сохраните имя файла без расширения (по умолчанию).
+1. В этом Dockerfile, указать:
 
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2
@@ -55,22 +55,22 @@ RUN dotnet publish -c Release -o out
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample/out/Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
 
-Выше приведен простой Dockerfile-код, который содержит следующие инструкции:
+Вышеприведенное является простым Dockerfile, который содержит следующие инструкции:
 
-- SDK-изображение, которое будет использоваться. Вот изображение .NET Core SDK 2.2. Docker загрузит его при запуске сборки. Версия SDK указывается в виде тега.
-- Рабочий каталог, указанный в следующей строке.
-— В контейнере запускается команда установки libfontconfig1. Это требуется для SkiaSharp.
-— Команда скопировать все в контейнер, опубликовать приложение и указать точку входа.
+- SDK Изображение для использования. Вот оно, это .NET Core SDK 2.2 Изображение. Docker Загрузите его, когда сборка будет запущена. Версия для SDK указывается как тег.
+- Рабочий каталог, который указан в следующей строке.
+- Команда установки libfontconfig1 выполняется в контейнере. Этого требует SkiaSharp.
+- Команда скопировать все в контейнер, опубликовать заявку и указать точку входа.
 
-### Сборка и запуск приложения в Docker
+### Создание и запуск приложения в Docker
 
-Теперь приложение можно построить и запустить в формате Docker. Откройте любимую командную строку, перейдите в папку с приложением (папку, в которой находятся файл решения и Dockerfile) и выполните следующую команду:
+Теперь приложение можно построить и запустить в Docker. Откройте любимую командную строку, измените каталог в папку с приложением (папку, где находится файл решения и папка). Dockerfile Они расположены) и выполняют следующую команду:
 
 {{< highlight plain >}}
 docker build -t awtest .
 {{< /highlight >}}
 
-При первом выполнении этой команды это может занять больше времени, поскольку Docker необходимо загрузить необходимые изображения. После завершения предыдущей команды выполните следующую команду:
+В первый раз выполнение этой команды может занять больше времени, так как Docker Необходимо загрузить необходимые изображения. После завершения предыдущей команды выполните следующую команду:
 
 {{< highlight plain >}}
 docker run --mount type=bind,source=C:\Temp,target=/TestOut --rm awtest from Docker
@@ -78,50 +78,50 @@ docker run --mount type=bind,source=C:\Temp,target=/TestOut --rm awtest from Doc
 
 {{% alert color="primary" %}}
 
-Обратите внимание на аргумент mount, поскольку, как упоминалось ранее, папка на хост-машине монтируется в папку контейнера, чтобы можно было легко увидеть результаты выполнения приложения. Пути в Linux чувствительны к регистру.
+Обратите внимание на аргумент крепления, потому что, как упоминалось ранее, папка на хост-машине вмонтирована в папку контейнера, чтобы легко увидеть результаты выполнения приложения. Пути внутрь Linux Это чувствительный случай.
 
 {{% /alert %}}
 
-## Изображения, поддерживающие Aspose.Words
+## Поддерживающие изображения Aspose.Words
 
-Aspose.Words доступен как для .NET Framework, так и для .NET Core. Изображения .NET Core намного меньше по размеру, чем изображения .NET Framework, что делает .NET Core лучшим выбором для создания микросервисов и использования в контейнерах. Приложения можно развертывать в контейнерах Linux Docker (для кросс-платформенного развертывания), которые легче контейнеров Windows.
+Aspose.Words Доступен для обоих .NET Framework и .NET Core. The .NET Core изображения намного меньше по размеру, чем .NET Framework Изображения, которые делают .NET Core лучший выбор для создания микросервисов и использования в контейнерах. Возможно развертывание приложений для Linux Docker контейнеры (для кроссплатформенного развертывания), которые легче Windows контейнеры.
 
-Официальные изображения для .NET Core SDK предоставляются для:
+Официальные изображения для .NET Core SDK Предусматривается:
 
 - Debian 9 и 10
 - Ubuntu 18.04 и 19.04
 - Alpine 3.7 и 3.9
-- Windows-нано-сервер
+- Windows Нано Server
 
-Для работы с графикой Aspose.Words для .NET Standard зависит от SkiaSharp. Это ограничивает возможности запуска изображений в Aspose.Words следующим образом:
+Для работы с графикой, Aspose.Words для .NET Standard Это зависит от SkiaSharp. Это ограничивает изображения Aspose.Words Можно перейти к следующему:
 
 - Debian 9 и 10
 - Ubuntu 18.04 и 19.04
 - Alpine 3.9
 
-SkiaSharp не работает на Windows Nano Server из-за отсутствия некоторых встроенных зависимостей, [ это известная проблема в SkiaSharp](https://github.com/mono/SkiaSharp/issues/676). Проблема будет решена в версии SkiaSharp 1.68.1.1. Если вам нужно запустить Aspose.Words в контейнере Windows, используйте базовое изображение .NET Framework с версией Aspose.Words .NET Framework, которая не зависит от SkiaSharp.
+SkiaSharp не работает Windows Нано Server из-за отсутствия некоторых зависимостей,[ Что известно в SkiaSharp](https://github.com/mono/SkiaSharp/issues/676). Вопрос будет решен в версии 1.68.1.1 SkiaSharp. Если вам нужно бежать Aspose.Words в Windows контейнер, использовать .NET Framework Базовое изображение с помощью .NET Framework версия Aspose.WordsЭто не зависит от SkiaSharp.
 
-SkiaSharp — это оболочка собственной библиотеки Skia. В NuGet-пакете SkiaSharp предусмотрены следующие среды выполнения:
+SkiaSharp - это обертка вокруг родной библиотеки Skia. В SkiaSharp предусмотрены следующие периоды выполнения NuGet упаковка:
 
-- osx
-- тизен-армель
+- Оскс
+- кольчуга
 - tizen-x86
 - win10-arm
-- Win10-x64
-- Win10-x86
+- win10-x64
+- win10-x86
 - win-x64
 - win-x86
 
-Чтобы запустить его в Linux, вам следует использовать дополнительные пакеты NuGet с соответствующими собственными ресурсами, например собственные сборки библиотеки Skia, перечисленные ниже:
+Чтобы запустить его в Linux, Вы должны использовать дополнительные NuGet пакеты с соответствующими нативными активами, такими как нативные сборки библиотеки Skia, перечисленные ниже:
 
-- *SkiaSharp.NativeAssets.Linux* – предоставляет встроенную сборку Skia для дистрибутивов Linux на основе x64 Debian.
-- *SkiaSharp.NativeAssets.Linux.NoDependencies* – пакет предназначен для использования в дистрибутивах Linux, не имеющих зависимости от libfontconfig. Протестировано на RHEL 7 (x64).
-- *Goelze.SkiaSharp.NativeAssets.AlpineLinux* – предоставляет встроенную сборку Skia для x64 Alpine Linux 3.9.
-- *Jellyfin.SkiaSharp.NativeAssets.LinuxArm* – предоставляет встроенную сборку Skia для дистрибутивов Linux на основе Arm32 и Arm64 Debian.
+- *SkiaSharp.NativeAssets.Linux* - Обеспечивает родную сборку Skia для x64 Debian основанный на Linux распределения.
+- *SkiaSharp.NativeAssets.Linux.NoDependencies* Упаковка предназначена для использования в Linux дистрибутивы, не имеющие зависимости от libfontconfig. Проверено на RHEL 7 (x64).
+- *Goelze.SkiaSharp.NativeAssets.AlpineLinux* - Обеспечивает родную сборку Skia для x64 Alpine Linux 3.9.
+- *Jellyfin.SkiaSharp.NativeAssets.LinuxArm* - Обеспечивает родную сборку Skia для arm32 и arm64 Debian основанный на Linux распределения.
 
 ## Больше примеров
 
-1. В приведенном выше примере приложение запускалось в образе SDK. SDK-изображения тяжелее, чем изображения времени выполнения. В приведенном ниже примере показано, как следует изменить файл Docker, чтобы использовать образ SDK для создания приложения и образ времени выполнения для его запуска:<br>
+1. В приведенном выше примере приложение было запущено в SDK Изображение. SDK Изображения тяжелее, чем изображения во время выполнения. Приведенный ниже пример показывает, как Docker файл должен быть изменен для использования SDK Изображение для создания приложения и изображение времени выполнения для его запуска:<br/>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2 AS build
 WORKDIR /app
@@ -143,7 +143,7 @@ RUN apt install libharfbuzz-icu0
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
-1. Для запуска приложения в Ubuntu 18.04 формат Dockerfile остается практически прежним (меняется только тег):<br>
+1. Чтобы запустить приложение в Ubuntu 18.04, то есть Dockerfile остается практически неизменным (изменяется только тег):<br/>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-bionic AS build
 WORKDIR /app
@@ -165,7 +165,7 @@ RUN apt install libharfbuzz-icu0
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
-1. Чтобы запустить приложение в формате Alpine Linux, необходимо добавить собственные ресурсы SkiaSharp и использовать следующий Dockerfile:<br>
+1. Чтобы запустить приложение в Alpine Linux, необходимо добавить собственные активы SkiaSharp и использовать следующие Dockerfile:<br/>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.2-alpine3.9 AS build
 WORKDIR /app
@@ -186,7 +186,7 @@ RUN apk update && apk upgrade && apk add fontconfig && apk add harfbuzz
 COPY --from=build /app/Aspose.Words.Docker.Sample/out ./
 ENTRYPOINT ["dotnet", "Aspose.Words.Docker.Sample.dll"]
 {{< /highlight >}}
-1. Чтобы запустить приложение в RHEL 7, необходимо добавить собственные ресурсы SkiaSharp и использовать следующий Dockerfile:<br>
+1. Чтобы запустить приложение в RHEL 7, необходимо добавить собственные активы SkiaSharp и использовать следующее: Dockerfile:<br/>
 {{< highlight plain >}}
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1 AS build
 WORKDIR /app
@@ -208,11 +208,11 @@ ENTRYPOINT ["/opt/rh/rh-dotnet21/root/usr/bin/dotnet", "Aspose.Words.Docker.Samp
 
 ## Смотрите также
 
-- [Установите рабочий стол Docker на Windows](https://docs.docker.com/docker-for-windows/install/)
-- [Установите Docker Desktop на Mac](https://docs.docker.com/docker-for-mac/install/)
+- [Устанавливать Docker На рабочем столе Windows](https://docs.docker.com/docker-for-windows/install/)
+- [Устанавливать Docker Desktop для Mac](https://docs.docker.com/docker-for-mac/install/)
 - [Visual Studio 2017, .NET Core 2.2 SDK](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore22#dependencies)
-- опция [Переключиться на контейнеры Linux](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers)
+- [Переключаться на Linux контейнеры](https://docs.docker.com/docker-for-windows/#switch-between-windows-and-linux-containers) вариант
 - Установить [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux)
-- Дополнительная информация по [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)
-- Используйте дополнительные пакеты NuGet: [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux), [SkiaSharp.NativeAssets.Linux.NoDependencys](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies), [Goelze.SkiaSharp.NativeAssets.AlpineLinux](https://www.nuget.org/packages/Goelze.SkiaSharp.NativeAssets.AlpineLinux), [Jellyfin.SkiaSharp.NativeAssets.LinuxArm](https://www.nuget.org/packages/Jellyfin.SkiaSharp.NativeAssets.LinuxArm)
-- [RHEL 7 (х64)](https://hub.docker.com/r/kkamberta/dotnet-21-rhel7)
+- Дополнительная информация о [.NET Core SDK](https://hub.docker.com/_/microsoft-dotnet-sdk)
+- Используйте дополнительно NuGet пакеты: [SkiaSharp.NativeAssets.Linux](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux), [SkiaSharp.NativeAssets.Linux.Независимость](https://www.nuget.org/packages/SkiaSharp.NativeAssets.Linux.NoDependencies), [Goelze.SkiaSharp.NativeAssets.AlpineLinux](https://www.nuget.org/packages/Goelze.SkiaSharp.NativeAssets.AlpineLinux), [Jellyfin.SkiaSharp.NativeAssets.LinuxАрмия](https://www.nuget.org/packages/Jellyfin.SkiaSharp.NativeAssets.LinuxArm)
+- [RHEL 7 (x64)](https://hub.docker.com/r/kkamberta/dotnet-21-rhel7)
