@@ -19,8 +19,7 @@ Aspose.Words 24.2 Расширенные диаграммы API, Управле�
 
 Aspose.Words 24.3 представляет новый TIFF Reader/Writer и эмуляцию операций с бинарными растрами для метафайлов WMF. Aspose.Words 24.3 также продолжает расширять диаграммы API.
 
-<<<<<<< HEAD
-Aspose.Words 24.4 повышает сохранение форматов, некоторые параметры отображения, а также улучшает работу с цифровыми подписями.
+Aspose.Words 24.4 улучшает форматы сохранения, некоторые опции рендеринга, а также улучшает работу с цифровыми подписями.
 
 ### Поддерживаемые форматы <sup>24.4</sup>
 
@@ -29,23 +28,14 @@ Aspose.Words 24.4 повышает сохранение форматов, нек
 Обратите внимание, что в настоящее время WebP доступен только в .NET Standard и .NET Framework v4.6.2 и выше.
 
 ### Рендеринг и печать
-=======
-Aspose.Words 24.4 улучшает форматы сохранения, некоторые опции рендеринга, а также улучшает работу с цифровыми подписями.
->>>>>>> master
 
-### Поддерживаемые форматы <sup>24.4.4</sup>
+#### Контроль цвета Stroke <sup>24.1</sup>
 
-Современный **WebP** Формат изображения теперь поддерживается в Aspose.Words для .NET Framework 4.6.2 и выше. Теперь вы можете читать и вставлять изображения WebP в документы, а также сохранять изображения в формате WebP.
+The [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) Класс был расширен с набором новых публичных свойств, связанных с управлением цветами хода: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) и [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) и [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
-<<<<<<< HEAD
 #### Расширение DrawingML Charts API <sup>24.2 / 24.3 / 24.4</sup>
-=======
-Обратите внимание, что в настоящее время WebP доступен только в .NET Standard и .NET Framework v4.6.2 и выше.
->>>>>>> master
+The **DrawingML Charts API** продолжает расширяться.
 
-### Чтение и печать
-
-<<<<<<< HEAD
 #### Встраивание шрифтов, объявленных в правилах @font-face <sup>24.4</sup>
 
 Добавлена возможность встраивать шрифты, объявленные в правилах @font-face, в определения шрифтов полученного документа путем добавления нового свойства с названием [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/).
@@ -55,31 +45,12 @@ Aspose.Words 24.4 улучшает форматы сохранения, неко
 Добавлена возможность работы с форматированием свечения и отражения для рисунков.
 
 ### Загрузка и сохранение документов
-=======
-#### Контроль цвета Stroke <sup>24.1.1</sup>
->>>>>>> master
 
-The [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) Класс был расширен с набором новых публичных свойств, связанных с управлением цветами хода: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) и [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) и [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
-
-#### Чарты DrawingML API Продление <sup>24.2 / 24.3 / 24.4</sup>
-
-The **DrawingML Charts API** продолжает расширяться.
-
-#### Встроенные шрифты, объявленные в правилах @font-face <sup>24.4.4</sup>
-
-Добавлена возможность встраивания шрифтов, объявленных в правилах @font-face, в определения шрифтов полученного документа путем добавления нового [SupportFontFaceRules](https://reference.aspose.com/words/net/aspose.words.loading/htmlloadoptions/supportfontfacerules/) собственность.
-
-#### Работа с форматированием сияния и отражения <sup>24.4.4</sup>
-
-Реализована возможность работы с форматированием свечения и отражения для объекта рисования.
-
-### Погрузка и экономия документов
-
-#### Укажите SvgSaveOptions во время рендеринга <sup>24.2.2</sup>
+#### Укажите SvgSaveOptions во время рендеринга <sup>24.2</sup>
 
 Возможность конкретизировать [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) во время рендеринга был добавлен с использованием [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) и [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) методы.
 
-#### Сохранить пустые линии при загрузке Markdown файлы <sup>24.2.2</sup>
+#### Сохранить пустые линии при загрузке Markdown файлы <sup>24.2</sup>
 
 Возможность сохранения пустых линий при загрузке Markdown Добавлены файлы.
 
@@ -89,7 +60,6 @@ The **DrawingML Charts API** продолжает расширяться.
 
 ### Другой
 
-<<<<<<< HEAD
 * Возможность изменять текст элемента управления OLE `TextBox` появилась путем добавления нового свойства [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) в новый класс [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/). <sup>24.1</sup>
 * Открытый доступ к библиографическим источникам API был реализован посредством добавления нового пространства имен [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также посредством добавления нового свойства [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) в класс [Document](https://reference.aspose.com/words/ru/net/aspose.words/document/). <sup>24.1</sup>
 * Был предоставлен API для ограничения доступа к членам типа с использованием синтаксиса шаблона для механизма отчетов LINQ. <sup>24.1</sup>
@@ -98,16 +68,6 @@ The **DrawingML Charts API** продолжает расширяться.
 * Включена совместимость с диаграммами `Word 2016` для механизма отчетов `LINQ`. <sup>24.2</sup>
 * Реализована эмуляция двоичных растровых операций для WMF метафайлов. <sup>24.3</sup>
 * Добавлена возможность определения параметров подписи для документов внутри **SaveOptions** путем добавления нового класса с названием [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) с новыми открытыми членами, а также добавления новых свойств в классы [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) и [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/). <sup>24.4</sup>
-=======
-* Возможность изменять текст `TextBox` Контроль OLE был введен путем добавления нового [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) собственность на новый [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) класс. <sup>24.1.1</sup>
-* Источники библиографии Public API Он был реализован путем добавления нового пространства имен. [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также путем добавления нового [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) собственности на [Document](https://reference.aspose.com/words/net/aspose.words/document/) класс. <sup>24.1.1</sup>
-* API ограничение доступа к членам типа с использованием синтаксиса шаблона для `LINQ Reporting Engine` было предоставлено. <sup>24.1.1</sup>
-* Новые общественные объекты [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), и [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) Для улучшения управления стилем были добавлены [Style](https://reference.aspose.com/words/net/aspose.words/style/) класс. <sup>24.2.2</sup>
-* Функциональность извлечения фактического текста ссылочного знака для сносок и сносок была улучшена с помощью [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) собственности и [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) метод. <sup>24.2.2</sup>
-* Совместимость с `Word 2016` диаграммы для `LINQ Reporting Engine` Это было разрешено. <sup>24.2.2</sup>
-* Реализована эмуляция операций бинарного растра для метафайлов WMF. <sup>24.3</sup>
-* Возможность определения вариантов подписи документов в рамках **SaveOptions** Это стало возможным благодаря добавлению нового [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) класс с новыми публичными членами, а также добавление новых свойств к [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) и [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) классы. <sup>24.4.4</sup>
->>>>>>> master
 
 {{% alert color="primary" %}}
 
@@ -116,8 +76,6 @@ The **DrawingML Charts API** продолжает расширяться.
 Узнайте больше о [Aspose.Words для .NET 24.2 Заметки о выпуске](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-2-release-notes/).
 
 Узнайте больше о [Aspose.Words для .NET 24.3 Выпускные примечания](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-3-release-notes/).
-
-Узнайте больше о [Aspose.Words для .NET 24.4 Выпуск заметок](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
 Узнайте больше о [Aspose.Words для .NET 24.4 Примечания к выпуску](https://releases.aspose.com/words/net/release-notes/2024/aspose-words-for-net-24-4-release-notes/).
 
