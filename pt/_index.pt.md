@@ -3,7 +3,7 @@ title: Família de produtos Aspose.Words
 linktitle: PT - Família de produtos Aspose.Words
 description: "Aspose.Words é uma biblioteca de classes que pode ser usada por desenvolvedores em diversas plataformas para diversas tarefas de processamento de documentos."
 type: docs
-weight: 80
+weight: 87
 url: /pt/
 ---
 

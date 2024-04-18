@@ -3,7 +3,7 @@ title: Aspose.Words משפחת מוצר
 linktitle: HE - Aspose.Words משפחת מוצר
 description: "Aspose.Words היא ספרייה בכיתה שניתן להשתמש בה על ידי מפתחים עבור פלטפורמות שונות עבור מגוון של משימות עיבוד מסמכים."
 type: docs
-weight: 10
+weight: 55
 url: /he/
 ---
 
