@@ -29,7 +29,7 @@ The platforms Aspose.Words for Python via .NET can be used on Windows x64 or x86
 - For Python 3.5-3.7: The `pymalloc` build of Python is needed. The `--with-pymalloc` Python build option is enabled by default. Typically, the `pymalloc` build of Python is marked with `m` suffix in the filename.
 - `libpython` shared Python library. The `--enable-shared` Python build option is disabled by default, some Python distributions do not contain the `libpython` shared library. For some linux platforms, the `libpython` shared library can be installed using the package manager, for example: `sudo apt-get install libpython3.7`. The common issue is that `libpython` library is installed in a different location than the standard system location for shared libraries. The issue can be fixed by using the Python build options to set alternate library paths when compiling Python, or fixed by creating a symbolic link to the `libpython` library file in the system standard location for shared libraries. Typically, the `libpython` shared library file name is `libpythonX.Ym.so.1.0` for Python 3.5-3.7, or libpythonX.Y.so.1.0 for Python 3.8 or later (for example: `libpython3.7m.so.1.0`, `libpython3.9.so.1.0`).
 
-If you need support for more platforms, look for the "twin brother" products Aspose.Words for .NET or Aspose.Words for Java.
+Supported Linux configurations are presented in [Aspose.Words-for-Python-via-.NET/Dockerfile](https://github.com/aspose-words/Aspose.Words-for-Python-via-.NET/blob/master/Dockerfile). If you need support for more platforms, look for the "twin brother" products Aspose.Words for .NET or Aspose.Words for Java.
 
 ## File Formats and Conversions
 
