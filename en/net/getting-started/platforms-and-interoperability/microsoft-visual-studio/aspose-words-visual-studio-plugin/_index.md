@@ -47,7 +47,7 @@ Please feel free to contact us if you find any issues in installing or using thi
 
 You can download Aspose Visual Studio Plugin from one of the following locations
 
-- [Visual Studio Gallery ](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
+- [Visual Studio Gallery](https://marketplace.visualstudio.com/search?term=Aspose.Words&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-.NET/releases)
 
 

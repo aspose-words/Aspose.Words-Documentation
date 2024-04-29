@@ -71,7 +71,7 @@ If you have opted to download [Examples Source Codes](https://github.com/aspose-
 
 ### Using Aspose.Words Examples Wizard
 
-To create/copy [Examples Source Codes ](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)into the project using **Aspose.Words Examples Wizard**, you need to first download the examples by opting  "Also Download Examples Source Code" on [Aspose.Words Maven Project Wizard.](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard)
+To create/copy [Examples Source Codes](https://github.com/aspose-words/Aspose.Words-for-Java/tree/master/Examples)into the project using **Aspose.Words Examples Wizard**, you need to first download the examples by opting  "Also Download Examples Source Code" on [Aspose.Words Maven Project Wizard.](/words/java/installing-and-using-aspose-words-java-for-eclipse-maven/#installingandusingaspose-wordsjavaforeclipse-maven-aspose-wordsmavenproject-wizard)
 
 Then follow the steps below on IntelliJ IDEA:
 
