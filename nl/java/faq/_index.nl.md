@@ -39,7 +39,7 @@ Aspose.Words voor Java hoeft geen toepassingen van derden of extra softwarepakke
 
 Aspose.Words voor Java omvat de meeste populaire ontwikkelingsomgevingen en implementatieplatforms. Zijn API kan worden gebruikt om toepassingen te ontwikkelen voor een breed scala aan besturingssystemen zoals Windows, Linux, en Mac OS, en verschillende platforms.
 
-Zie voor nadere bijzonderheden de [Productoverzicht](/words/nl/java/product-overview/) blz. [Platforms nl Interoperabiliteit](/words/java/platforms-and-interoperability/) Section.
+Zie voor nadere bijzonderheden de [Productoverzicht](/words/nl/java/product-overview/) blz. [Platformen nl Interoperabiliteit](/words/java/platforms-and-interoperability/) Section.
 
 ------
 

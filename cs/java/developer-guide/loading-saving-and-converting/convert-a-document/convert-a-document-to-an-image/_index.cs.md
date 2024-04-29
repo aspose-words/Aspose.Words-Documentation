@@ -9,7 +9,7 @@ weight: 35
 url: /cs/java/convert-a-document-to-an-image/
 ---
 
-Někdy je třeba získat obraz místo dokumentů v jiných formátech, jako je DOCX nebo PDF. Například je třeba přidat náhled jakékoliv stránky dokumentu na vaše webové stránky nebo aplikaci nebo vytvořit "scan" dokumentu pro zaslání faktury. To je, kdy můžete potřebovat převést dokument v každém [podporovaný formát zakázaní](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) k obrazu, opět, v každém [podporovaný formalář zařazení](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
+Někdy je třeba získat obraz místo dokumentů v jiných formátech, jako je DOCX nebo PDF. Například je třeba přidat náhled jakékoliv stránky dokumentu na vaše webové stránky nebo aplikaci nebo vytvořit "scan" dokumentu pro zaslání faktury. To je, kdy můžete potřebovat převést dokument v každém [podporovaný formát zakazování](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) k obrazu, opět, v každém [podporovaný formalář zařazení](https://reference.aspose.com/words/java/com.aspose.words/saveformat/).
 
 ## Převést na formát obrázku
 

@@ -24,7 +24,7 @@ url: /uk/java/programming-with-documents/
 - [Робота з секціями](/words/uk/java/working-with-sections/)
 - [Робота з діапазонами](/words/uk/java/working-with-ranges/)
 - [Робота з заголовками та ногами](/words/uk/java/working-with-headers-and-footers/)
-- [Робота з джинсом та Endnote](/words/uk/java/working-with-footnote-and-endnote/)
+- [Робота з джинсовим та ендононім](/words/uk/java/working-with-footnote-and-endnote/)
 - [Робота з Змістом](/words/uk/java/working-with-table-of-contents/)
 - [Робота з закладками](/words/uk/java/working-with-bookmarks/)
 - [Робота з таблицями](/words/uk/java/working-with-tables/)

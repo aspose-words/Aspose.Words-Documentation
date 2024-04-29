@@ -120,7 +120,7 @@ private static class DisableRemoteResourcesHandler implements IResourceLoadingCa
 
 {{% alert color="primary" %}}
 
-Dit artikel is gebaseerd op het adviesbureau Onafhankelijke Security Evaluatoren [samenvatting](/words/java/web-applications-security-when-loading-external-resources/ise-aspose-report.pdf).
+Dit artikel is gebaseerd op het adviesbureau Onafhankelijke Security Evaluatoren [samenvating](/words/java/web-applications-security-when-loading-external-resources/ise-aspose-report.pdf).
 
 {{% /alert %}}
 

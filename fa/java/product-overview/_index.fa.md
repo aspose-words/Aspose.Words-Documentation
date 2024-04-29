@@ -59,7 +59,7 @@ Aspose.Words برای Java ویژگی ها را می توان به چهار حو
 
 #### گزارش
 
-اسناد یا گزارش ها از ابتدا یا با پر کردن قالب ها با داده ها از منابع داده یا اشیاء تجاری. برای اطلاعات بیشتر در مورد گزارش و جمع آوری اطلاعات از پایگاه داده، ببینید [Mail Merge گزارش](/words/java/mail-merge-and-reporting/) و [دانلود موسیقی متن بازی The Punch دانلود بازی Punch LINQAIL](/words/java/linq-reporting-engine/) بخش ها
+اسناد یا گزارش ها از ابتدا یا با پر کردن قالب ها با داده ها از منابع داده یا اشیاء تجاری. برای اطلاعات بیشتر در مورد گزارش و جمع آوری اطلاعات از پایگاه داده، ببینید [Mail Merge گزارش](/words/java/mail-merge-and-reporting/) و [دانلود موسیقی متن بازی The Punch بازی Punch Punch LINQAIL](/words/java/linq-reporting-engine/) بخش ها
 
 ### پلتفرم استقلال
 

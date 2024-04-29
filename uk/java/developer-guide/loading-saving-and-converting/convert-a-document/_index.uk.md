@@ -47,7 +47,7 @@ description: "Легко конвертуйте документи з одног
 		<h2>Перетворення зображень в PDF</h2>
 			<ul>
 				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">JPG в PDF</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Перемога TIFF в PDF</a></li>
+				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Перемога ТМКФ в PDF</a></li>
 				<li>та інші</li>
 			</ul>
 		<h2>Конвертувати веб-формати в PDF</h2>
@@ -81,7 +81,7 @@ description: "Легко конвертуйте документи з одног
 			</ul>
 		<h2>Перетворення документа в HTML</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">JavaScript licenses API Веб-сайт</a></li>
+				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-html-mhtml-or-epub/#convert-a-document">JavaРеєстрація API Веб-сайт</a></li>
 				<li>Конвертер Markdown до HTML</li>
 				<li>Перетворення Mobi в EPUB</li>
 				<li>та інші</li>

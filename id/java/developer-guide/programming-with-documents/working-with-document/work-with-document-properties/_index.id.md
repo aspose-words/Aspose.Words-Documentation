@@ -14,7 +14,7 @@ Sifat dokumen memungkinkan menyimpan beberapa informasi yang berguna tentang dok
 * Sistem atau built-in yang mengandung nilai seperti judul dokumen, nama penulis, statistik dokumen, dan lain-lain.
 * Sitemap Didefinisikan pengguna atau kustom, disediakan sebagai pasangan nama di mana pengguna dapat mendefinisikan nama dan nilai.
 
-Hal ini berguna untuk mengetahui bahwa informasi tentang API dan Nomor Versi secara langsung ditulis ke dokumen output. Sebagai contoh, setelah mengkonversi dokumen ke PDF, Aspose.Words mengisi kolom "Aplikasi" dengan "Aspose.Words", dan "Produser PDF" bidang dengan "Aspose.Words Sitemap Java YY.M.N *YY.M.N* adalah versi Aspose.Words digunakan untuk konversi. Untuk detail lebih lanjut, lihat [Nama Generator atau Sampler dalam Dokumen Output](/words/id/java/generator-or-producer-name-included-in-output-documents/)Sitemap
+Hal ini berguna untuk mengetahui bahwa informasi tentang API dan Nomor Versi secara langsung ditulis ke dokumen output. Sebagai contoh, setelah mengkonversi dokumen ke PDF, Aspose.Words mengisi kolom "Aplikasi" dengan "Aspose.Words", dan "Produser PDF" bidang dengan "Aspose.Words Sitemap Java YY.M.N *YY.M.N* adalah versi Aspose.Words digunakan untuk konversi. Untuk detail lebih lanjut, lihat [Nama Generator atau Sampler dalam Output Dokumen](/words/id/java/generator-or-producer-name-included-in-output-documents/)Sitemap
 
 {{% alert color="primary" %}}
 

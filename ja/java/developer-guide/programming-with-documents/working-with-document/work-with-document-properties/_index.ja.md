@@ -34,7 +34,7 @@ url: /ja/java/work-with-document-properties/
 
 **BuiltInDocumentProperties** さらに、適切なタイプの値を返す入力されたプロパティのセットを介してドキュメントプロパティへのアクセスを提供します。 **CustomDocumentProperties** ドキュメントプロパティを追加または削除することができます。
 
-ザ・オブ・ザ・ [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) class では、ドキュメントプロパティの名前、値、種類を取得できます。 [値]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value????????????????? {0} お問い合わせ {1}[フルーツ]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) そして、 **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), 適切なタイプの値を取得する
+ザ・オブ・ザ・ [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) class では、ドキュメントプロパティの名前、値、種類を取得できます。 [値]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value????????????? {0} お問い合わせ {1}[フルーツ]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) そして、 **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), 適切なタイプの値を取得する
 
 次のコードの例では、すべての組み込みおよびカスタムプロパティをドキュメントに列挙する方法を示します。
 

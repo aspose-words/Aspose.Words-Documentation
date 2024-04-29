@@ -34,7 +34,7 @@ url: /ar/java/work-with-document-properties/
 
 **BuiltInDocumentProperties** وبالإضافة إلى ذلك، تتيح إمكانية الحصول على ممتلكات الوثائق من خلال مجموعة من الممتلكات المُدخلة التي تعيد القيم من النوع المناسب. **CustomDocumentProperties** يمكنك أن تضيف أو تزيل ممتلكات الوثائق من وثيقة
 
-The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) الصف يسمح لك بالحصول على الاسم، القيمة، ونوع ملكية الوثائق. [Value]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. وبعد ذلك، لم يحدث أي تغيير {0} على سبيل المثال {1}[يتبع]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) و **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), للحصول على قيمة النوع المناسب.
+The [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) الصف يسمح لك بالحصول على الاسم، القيمة، ونوع ملكية الوثائق. [Value]https://reference.aspose.com/words/java/com.aspose.words/documentproperty#Value) returns an object, but there is a set of methods allowing you to get the property value converted to a specific type. وبعد ذلك، لم يحدث أي تغيير {0} على سبيل المثال {1}[البعثة]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) و **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), للحصول على قيمة النوع المناسب.
 
 ويبيّن المثال الرمزي التالي كيف يُعدّد جميع الممتلكات المبنيّة والعادية في وثيقة:
 

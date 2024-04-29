@@ -34,7 +34,7 @@ url: /uk/java/work-with-document-properties/
 
 **BuiltInDocumentProperties** Додатково надає доступ до властивостей документів за допомогою набору введених властивостей, що повертає значення відповідного типу. **CustomDocumentProperties** увімкніть додавання або видалення властивостей документів з документа.
 
-Про нас [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) клас дозволяє отримати ім'я, значення та тип майна документа. [JavaScript licenses API Веб-сайт Go1.13.8 Так само, як ви, так і ви можете, ви можете зробити це з {0} й {1}[Настроювання]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) і **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), отримувати значення відповідного типу.
+Про нас [DocumentProperty](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/) клас дозволяє отримати ім'я, значення та тип майна документа. [JavaРеєстрація API Веб-сайт Go1.13.8 Так, як ви, так і ви можете, ви можете зробити це з Java й API[Налаштування]](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toString) і **DocumentProperty.**[ToInt](https://reference.aspose.com/words/java/com.aspose.words/documentproperty/#toInt), отримувати значення відповідного типу.
 
 Приклад коду показує, як об'єднати всі вбудовані та спеціальні властивості в документі:
 

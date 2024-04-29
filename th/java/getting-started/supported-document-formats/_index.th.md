@@ -11,7 +11,7 @@ url: /th/java/supported-document-formats/
 
 {{% alert color="primary" %}}
 
-ดู [2013i.8krisia language language (loth): ส. ส/ikrias language. 2013iiicrayas language language languageggy 20 พ, p.ศ](https://docs.fileformat.com/) สําหรับรายละเอียดเพิ่มเติมเกี่ยวกับรูปแบบแฟ้มแต่ละรูปแบบ
+ดู [2013.8krisia language language (loth): 2013. สืบค้นเมื่อ พ.ศ. 2013 ภาษาอิตาลี 20 ก. พ.ศ](https://docs.fileformat.com/) สําหรับรายละเอียดเพิ่มเติมเกี่ยวกับรูปแบบแฟ้มแต่ละรูปแบบ
 
 {{% /alert %}}
 

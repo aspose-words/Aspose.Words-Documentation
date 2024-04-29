@@ -20,8 +20,8 @@ Aspose.Words อนุญาตให้ผู้ใช้ทํางานก�
 สําหรับรายการของฟังก์ชันที่สมบูรณ์ ดู API อ้างอิง:
 
 - [ตัวเลือกต่าง ๆ ของการโหลดรูปแบบต่าง ๆ](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
-- [2013/iikias access access. สืบค้นเมื่อ 20 July 2015](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) สําหรับรูปแบบของ CHM
-- [2013 ภาษาไทย aii.8kriia (loth): ภาษาไทย ส/ikrias. 2013/ii.8kias language lansons lansoniggegeg (20 พฤษภาคม พ.ศ](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) ฟอร์แมต HTML
-- [2013-48. 87/i. ส/i. บ/i. บ/i. บ/บ/บ/บ. ส/้/i. ส/i/i/i/i/i/i. น น น น น น น น น น า ส ส ค น น น พ พ พ ศ ศ ศ](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) รูปแบบ PDF
+- [2013/iikias เข้าถึง. 2013/ii.8kias language language language, 20 กรกฎาคม 2015](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) สําหรับรูปแบบของ CHM
+- [2013 563838383838383838ท a aii.8kria (loth): ภ. ภ aca. ภ/ikrias. 2013/i/i.8kias lansons lansonogiegegeg (20พ, ฤ,2007acas mp](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) ฟอร์แมต HTML
+- [2013-48. 87/i. ส/i.i. 8/48/48/48. ส/a/i. Episode/i/i/i/i/i. น น น น น น น น น น น น น น น/i/i/i/i/i/i. น น น พ พ พ พ พ พ ศ ศ ศ ศ ศ ศ ศ ศ ศ ศ ศ ศ ศ ศ ศ ศ](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) รูปแบบ PDF
 - [สืบค้นเมื่อ:](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) สําหรับรูปแบบ RTF
 - [สืบค้นเมื่อ:](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) สําหรับรูปแบบ TXT

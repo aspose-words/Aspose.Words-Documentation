@@ -54,7 +54,7 @@ Met Aspose.Words voor Java, u documenten kunt genereren, wijzigen, converteren, 
 			<p>LEREN</p>
 			<ul>
 				<li><a href="/words/nl/java/how-to-run-the-examples/">Hoe de Voorbeelden uitvoerden</a></li>
-				<li><a href="/words/nl/java/security/">Vervoersnota's</a></li>
+				<li><a href="/words/nl/java/security/">Vervoernota's</a></li>
 			</ul>
 	</div>
 	<div class="col-md-4">

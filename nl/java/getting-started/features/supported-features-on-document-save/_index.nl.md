@@ -19,7 +19,7 @@ Het is belangrijk om te weten dat veel opties op te slaan zijn gemeenschappelijk
 
 Voor een volledige lijst van functies, zie de API Referentie:
 
-- [opties opslaan voor alle indelingen](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
+- [opties opslaan voor alle beoordelingen](https://reference.aspose.com/words/java/com.aspose.words/saveoptions/)
 - [vaste pagina opslaan opties](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) voor [Omzetten naar Fixed-Pagina Format](/words/nl/java/converting-to-fixed-page-format/)PDF, XPS, afbeeldingen en andere
 - [PDF-opslaan opties](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) voor PDF-formaat
 - [OOXML-opslaanopties](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) voor DOCX, DOCM, DOTX, DOTM- of FlatOpc-formaten
@@ -33,7 +33,7 @@ Voor een volledige lijst van functies, zie de API Referentie:
 - [ODT-opslaanopties](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) voor ODT- en OTT-formaten
 - [PCL-opslaanopties](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/) voor PCL-formaat
 - [PS-opslaan opties](https://reference.aspose.com/words/java/com.aspose.words/pssaveoptions/) voor PS-formaat
-- [WordML 2003 kiest opslaan](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/) voor WordML-formaat
+- [WordML 2003 beste opslaan](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/) voor WordML-formaat
 - [HtmlFixed opties voor opslaan](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) voor HtmlFixed formaat
 - [XamlFixed opties voor opslaan](https://reference.aspose.com/words/java/com.aspose.words/xamlfixedsaveoptions/) voor XamlFixed formaat
 - [XamlVolg opties voor opslaan](https://reference.aspose.com/words/java/com.aspose.words/xamlflowsaveoptions/) voor XamlFlow of XamlFlowPack-formaten

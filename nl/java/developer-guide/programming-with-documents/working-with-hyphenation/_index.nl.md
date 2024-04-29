@@ -35,14 +35,14 @@ Als Microsoft Word gebruikt woordenboeken anders dan OpenOffice woordenboeken om
 
 ## Hyfenatiealgoritme
 
-Aspose.Words werktuigen [het TeX kompletekenalgoritme](https://github.com/hunspell/hyphen/blob/master/README.hyphen) en kan OpenOffice koppelwoordenboeken hergebruiken.
+Aspose.Words werktuigen [het TeX komplekenalgoritme](https://github.com/hunspell/hyphen/blob/master/README.hyphen) en kan OpenOffice koppelwoordenboeken hergebruiken.
 
 De volgende kenmerken van Aspose.Words Er moet rekening worden gehouden met:
 
 * Hyphenation distance parameters (LEFTHYPHENMIN, RIGHYPHENMIN, COMPOUNDLFTHYPHENMIN, COMPOUNDRIGHTHYPHENMIN) zoals gespecificeerd in het woordenboek worden genegeerd. Aspose.Words gebruikt zijn eigen reeks afstandsparameters afhankelijk van de documentcompatibiliteitsmodus.
-* Het koppelingsalgoritme in Aspose.Words ondersteuning [samengestelde kopling](https://github.com/hunspell/hyphen/blob/master/README.compound). Echter, Aspose.Words splitst karaktersequenties met gemengde alfabetische en niet-alfabetische tekens in alfabetische-alleen delen (woorden) en koppelt ze apart.
+* Het koppelingsalgoritme in Aspose.Words ondersteuning [songestelde kopling](https://github.com/hunspell/hyphen/blob/master/README.compound). Echter, Aspose.Words splitst karaktersequenties met gemengde alfabetische en niet-alfabetische tekens in alfabetische-alleen delen (woorden) en koppelt ze apart.
   Merk op dat Microsoft Word logica van koppeltekening van samengestelde woorden hangt af van documentcompatibiliteitsmodus.
-* Het koppelingsalgoritme in Aspose.Words implementeert niet de [niet-standard kopppeltekening](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). Niet-standaard patronen worden genegeerd.
+* Het koppelingsalgoritme in Aspose.Words implementeert niet de [niet-standaard kopppeltekening](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf). Niet-standaard patronen worden genegeerd.
 
 ## Hyphenation woordenboeken laden
 
@@ -87,5 +87,5 @@ Aspose.Words implementeert zijn eigen H&J algoritme dat hetzelfde resultaat geef
 ## Zie ook
 
 * [Hyfen](https://github.com/hunspell/hyphen/blob/master/README)
-* [Niet-standard kappeltekening](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
-* [Automatische niet-standard kopling in Open Office](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)
+* [Niet-standaard kappeltekening](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
+* [Automatische niet-standaard kopling in Open Office](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)

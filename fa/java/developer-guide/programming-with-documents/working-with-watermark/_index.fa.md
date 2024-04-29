@@ -21,7 +21,7 @@ url: /fa/java/working-with-watermark/
 
 ## اضافه کردن یک علامت به یک سند
 
-In In In Microsoft Word, علامت آب به راحتی می تواند در یک سند با استفاده از دستور Insert Watermark قرار گیرد. Aspose.Words فراهم می کند [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) کلاس اضافه کردن یا حذف علامت در اسناد Aspose.Words فراهم می کند [دانلود بازی کامپیوتر Punch Punch Punch Punch](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)تکرار سه نوع احتمالی علامت های آب (Text، Image و None) را برای کار با آن تعریف می کند
+In In In Microsoft Word, علامت آب به راحتی می تواند در یک سند با استفاده از دستور Insert Watermark قرار گیرد. Aspose.Words فراهم می کند [watermark](https://reference.aspose.com/words/java/com.aspose.words/watermark/) کلاس اضافه کردن یا حذف علامت در اسناد Aspose.Words فراهم می کند [دانلود موسیقی متن بازی The Punch Punch Punch Punch Punch](https://reference.aspose.com/words/java/com.aspose.words/watermarktype/)تکرار سه نوع احتمالی علامت های آب (Text، Image و None) را برای کار با آن تعریف می کند
 
 ### اضافه کردن Text Watermark
 
