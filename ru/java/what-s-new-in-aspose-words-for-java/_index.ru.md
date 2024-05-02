@@ -21,7 +21,7 @@ Aspose.Words 24.3 представляет новый TIFF Reader/Writer и эм
 
 ### Рендеринг и печать
 
-#### Контроль цвета Stroke <sup>24.1.1</sup>
+#### Контроль цвета Stroke <sup>24.1</sup>
 
 The [Stroke](https://reference.aspose.com/words/java/com.aspose.words/stroke/) Класс был расширен с набором новых публичных свойств, связанных с управлением цветами штриха: [ForeThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeThemeColor) и [BackThemeColor](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackThemeColor), [ForeTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getForeTintAndShade) и [BackTintAndShade](https://reference.aspose.com/words/java/com.aspose.words/stroke/#getBackTintAndShade).
 
@@ -31,7 +31,7 @@ The **DrawingML Charts API** продолжает расширяться.
 
 ### Погрузка и экономия документов
 
-#### Укажите SvgSaveOptions во время рендеринга <sup>24.2.2</sup>
+#### Укажите SvgSaveOptions во время рендеринга <sup>24.2</sup>
 
 Возможность конкретизировать [SvgSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) во время рендеринга был добавлен с использованием [ShapeRenderer](https://reference.aspose.com/words/java/com.aspose.words/shaperenderer/).[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) и [OfficeMathRenderer](https://reference.aspose.com/words/java/com.aspose.words/officemathrenderer/).[Save](https://reference.aspose.com/words/java/com.aspose.words/noderendererbase/#save-java.io.OutputStream-com.aspose.words.SvgSaveOptions) методы.
 
@@ -45,12 +45,12 @@ The **DrawingML Charts API** продолжает расширяться.
 
 ### Другой
 
-* Возможность изменять текст `TextBox` Контроль OLE был введен путем добавления нового [Text](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/#getText) собственность на новый [TextBoxControl](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/) класс. 24.1.1 <sup>24.1.1</sup>
-* Источники библиографии Public API Он был реализован путем добавления нескольких новых [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) и [Person](https://reference.aspose.com/words/java/com.aspose.words/person/) классы и а [SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/) Перечисление, а также добавление нового [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography) собственности на [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) класс. <sup>24.1.1</sup>
-* API Предусмотрено ограничение доступа к членам типов с использованием синтаксиса шаблонов для системы отчетности LINQ. <sup>24.1.1</sup>
-* Новые общественные объекты [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), и [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) Для улучшения управления стилем были добавлены [Style](https://reference.aspose.com/words/net/aspose.words/style/) класс. <sup>24.2.2</sup>
-* Функциональность извлечения фактического текста ссылочного знака для сносок и сносок была улучшена с помощью [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) собственности и [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) метод. <sup>24.2.2</sup>
-* Совместимость с `Word 2016` диаграммы для `LINQ Reporting Engine` Это было разрешено. <sup>24.2.2</sup>
+* Возможность изменять текст `TextBox` Контроль OLE был введен путем добавления нового [Text](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/#getText) собственность на новый [TextBoxControl](https://reference.aspose.com/words/java/com.aspose.words/textboxcontrol/) класс. 24.1 <sup>24.1</sup>
+* Источники библиографии Public API Он был реализован путем добавления нескольких новых [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/bibliography/), [Source](https://reference.aspose.com/words/java/com.aspose.words/source/), [ContributorCollection](https://reference.aspose.com/words/java/com.aspose.words/contributorcollection/), [Contributor](https://reference.aspose.com/words/java/com.aspose.words/contributor/), [Corporate](https://reference.aspose.com/words/java/com.aspose.words/corporate/), [PersonCollection](https://reference.aspose.com/words/java/com.aspose.words/personcollection/) и [Person](https://reference.aspose.com/words/java/com.aspose.words/person/) классы и а [SourceType](https://reference.aspose.com/words/java/com.aspose.words/sourcetype/) Перечисление, а также добавление нового [Bibliography](https://reference.aspose.com/words/java/com.aspose.words/document/#getBibliography) собственности на [Document](https://reference.aspose.com/words/java/com.aspose.words/document/) класс. <sup>24.1</sup>
+* API Предусмотрено ограничение доступа к членам типов с использованием синтаксиса шаблонов для системы отчетности LINQ. <sup>24.1</sup>
+* Новые общественные объекты [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), и [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) Для улучшения управления стилем были добавлены [Style](https://reference.aspose.com/words/net/aspose.words/style/) класс. <sup>24.2</sup>
+* Функциональность извлечения фактического текста ссылочного знака для сносок и сносок была улучшена с помощью [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) собственности и [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) метод. <sup>24.2</sup>
+* Совместимость с `Word 2016` диаграммы для `LINQ Reporting Engine` Это было разрешено. <sup>24.2</sup>
 * Реализована эмуляция операций бинарного растра для метафайлов WMF. <sup>24.3</sup>
 
 {{% alert color="primary" %}}
@@ -241,27 +241,27 @@ Aspose.Words 23.4 улучшает расчет некоторых параме�
 
 ### Повышение производительности
 
-#### Эмуляция растровых операций <sup>23.1.1</sup>
+#### Эмуляция растровых операций <sup>23.1</sup>
 
 Значительно улучшены производительность и качество эмуляции растровых операций метафилами.
 
 ### Поддерживаемые форматы
 
-#### Экспорт в MOBI <sup>23.2.2</sup>
+#### Экспорт в MOBI <sup>23.2</sup>
 
 Начиная с версии 23.2, можно сохранить документ в формате MOBI (также называемый PRC, AZW - MOBI). Amazon Формат файла электронной книги Kindle. Теперь можно не только загружать документы MOBI, но и экспортировать файлы в формат MOBI.
 
 ### Рендеринг
 
-#### Работа с Shading Theme Colors <sup>23.1.1</sup>
+#### Работа с Shading Theme Colors <sup>23.1</sup>
 
 Реализована возможность работы с затенением цветов темы.
 
-#### Поддержка коэффициента R-квадратов в диаграммах DML <sup>23.1.1</sup>
+#### Поддержка коэффициента R-квадратов в диаграммах DML <sup>23.1</sup>
 
 Поддержка R-квадратного коэффициента в DML графике трендовых линий при добавлении рендеринга.
 
-#### Chart Rendering Улучшения <sup>23.2.2</sup>
+#### Chart Rendering Улучшения <sup>23.2</sup>
 
 С 23.2 рендеринг диаграмм значительно улучшился.
 
@@ -273,17 +273,17 @@ The [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) Кл�
 
 Обработка радиальных градиентов с помощью `SkiaSharp` родной шейдер для .NET Standard была реализована.
 
-#### Расстояние между столом и окружающим текстом <sup>23.4.4</sup>
+#### Расстояние между столом и окружающим текстом <sup>23.4</sup>
 
 Способность устанавливать расстояние между таблицей и окружающим текстом была добавлена путем введения новых свойств. [Table](https://reference.aspose.com/words/java/com.aspose.words/table/) класс: [DistanceLeft](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceLeft), [DistanceRight](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceRight), [DistanceTop](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceTop), и [DistanceBottom](https://reference.aspose.com/words/java/com.aspose.words/table/#getDistanceBottom).
 
 ### Погрузка и экономия документов
 
-#### Генерировать `TOC` AZW3 Документы <sup>23.1.1</sup>
+#### Генерировать `TOC` AZW3 Документы <sup>23.1</sup>
 
 Способность генерировать `TOC` (таблица содержания) для документов AZW3 была добавлена посредством использования [EpubNavigationMapLevel](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/#getEpubNavigationMapLevel) собственность.
 
-#### Перечень экспортных товаров на Markdown <sup>23.1.1</sup>
+#### Перечень экспортных товаров на Markdown <sup>23.1</sup>
 
 Способ контроля за экспортом перечней на Markdown Формат обеспечивается путем добавления [ListExportMode](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/#getListExportMode) собственности на [MarkdownSaveOptions](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) класс.
 
@@ -297,13 +297,13 @@ The [Fill](https://reference.aspose.com/words/java/com.aspose.words/fill/) Кл�
 
 ### Другой
 
-- Возможность конкретизировать корректировку интервала символа документа была добавлена через [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) имущественная реализация <sup>23.2.2</sup>
-- Способ инструктировать Aspose.Words включение текстовых ящиков, сносок и сносок в статистику подсчета слов было обеспечено путем добавления [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) собственность <sup>23.2.2</sup>
-- Новый вариант для стиля документа, который позволяет определить, является ли стиль автоматически переопределен на основе соответствующего значения, был введен через [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) собственность <sup>23.2.2</sup>
-- Способность определять, [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) Это фонетический прогон, добавленный с использованием **IsPhoneticGuide** собственность <sup>23.4.4</sup>
-- Простой способ работы с сериями и осями комбинированных диаграмм был реализован путем введения **ChartAxisCollection** Класс и добавление **Chart.Axes** собственность <sup>23.4.4</sup>
-- Новые публичные свойства, связанные с формой относительного позиционирования и размера, были добавлены к [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) класс <sup>23.4.4</sup>
-- Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста была улучшена в соответствии с последними версиями Microsoft Word <sup>23.4.4</sup>
+- Возможность конкретизировать корректировку интервала символа документа была добавлена через [JustificationMode](https://reference.aspose.com/words/java/com.aspose.words/document/#getJustificationMode) имущественная реализация <sup>23.2</sup>
+- Способ инструктировать Aspose.Words включение текстовых ящиков, сносок и сносок в статистику подсчета слов было обеспечено путем добавления [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/java/com.aspose.words/document/#getIncludeTextboxesFootnotesEndnotesInStat) собственность <sup>23.2</sup>
+- Новый вариант для стиля документа, который позволяет определить, является ли стиль автоматически переопределен на основе соответствующего значения, был введен через [AutomaticallyUpdate](https://reference.aspose.com/words/java/com.aspose.words/style/#getAutomaticallyUpdate) собственность <sup>23.2</sup>
+- Способность определять, [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) Это фонетический прогон, добавленный с использованием **IsPhoneticGuide** собственность <sup>23.4</sup>
+- Простой способ работы с сериями и осями комбинированных диаграмм был реализован путем введения **ChartAxisCollection** Класс и добавление **Chart.Axes** собственность <sup>23.4</sup>
+- Новые публичные свойства, связанные с формой относительного позиционирования и размера, были добавлены к [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) класс <sup>23.4</sup>
+- Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста была улучшена в соответствии с последними версиями Microsoft Word <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 
