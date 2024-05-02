@@ -29,7 +29,7 @@ Aspose.Words 24.4 улучшает форматы сохранения, неко
 
 ### Чтение и печать
 
-#### Контроль цвета Stroke <sup>24.1.1</sup>
+#### Контроль цвета Stroke <sup>24.1</sup>
 
 The [Stroke](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/) Класс был расширен с набором новых публичных свойств, связанных с управлением цветами хода: [fore_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_theme_color/) и [back_theme_color](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_theme_color/), [fore_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/fore_tint_and_shade/) и [back_tint_and_shade](https://reference.aspose.com/words/python-net/aspose.words.drawing/stroke/back_tint_and_shade/).
 
@@ -47,7 +47,7 @@ The **DrawingML Charts API** продолжает расширяться.
 
 ### Погрузка и экономия документов
 
-#### Укажите SvgSaveOptions во время рендеринга <sup>24.2.2</sup>
+#### Укажите SvgSaveOptions во время рендеринга <sup>24.2</sup>
 
 Возможность конкретизировать [SvgSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/svgsaveoptions/) во время рендеринга был добавлен с использованием [ShapeRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/shaperenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) и [OfficeMathRenderer](https://reference.aspose.com/words/python-net/aspose.words.rendering/officemathrenderer/).[save](https://reference.aspose.com/words/python-net/aspose.words.rendering/noderendererbase/save/#bytesio_svgsaveoptions) методы.
 
@@ -61,10 +61,10 @@ The **DrawingML Charts API** продолжает расширяться.
 
 ### Другой
 
-* Возможность изменять текст `TextBox` Контроль OLE был введен путем добавления нового **Text** собственность на новый **TextBoxControl** класс. <sup>24.1.1</sup>
-* Источники библиографии Public API Он был реализован путем добавления нового пространства имен. [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также путем добавления нового [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) собственности на [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) класс. <sup>24.1.1</sup>
-* Новые общественные объекты [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), и [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) Для улучшения управления стилем были добавлены [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) класс. <sup>24.2.2</sup>
-* Функциональность извлечения фактического текста ссылочного знака для сносок и сносок была улучшена с помощью [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) собственности и [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) метод. <sup>24.2.2</sup>
+* Возможность изменять текст `TextBox` Контроль OLE был введен путем добавления нового **Text** собственность на новый **TextBoxControl** класс. <sup>24.1</sup>
+* Источники библиографии Public API Он был реализован путем добавления нового пространства имен. [Aspose.Words.Bibliography](https://reference.aspose.com/words/python-net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также путем добавления нового [bibliography](https://reference.aspose.com/words/python-net/aspose.words/document/bibliography/) собственности на [Document](https://reference.aspose.com/words/python-net/aspose.words/document/) класс. <sup>24.1</sup>
+* Новые общественные объекты [priority](https://reference.aspose.com/words/python-net/aspose.words/style/priority/), [unhide_when_used](https://reference.aspose.com/words/python-net/aspose.words/style/unhide_when_used/), и [semi_hidden](https://reference.aspose.com/words/python-net/aspose.words/style/semi_hidden/) Для улучшения управления стилем были добавлены [Style](https://reference.aspose.com/words/python-net/aspose.words/style/) класс. <sup>24.2</sup>
+* Функциональность извлечения фактического текста ссылочного знака для сносок и сносок была улучшена с помощью [actual_reference_mark](https://reference.aspose.com/words/python-net/aspose.words.notes/footnote/actual_reference_mark/) собственности и [update_actual_reference_marks](https://reference.aspose.com/words/python-net/aspose.words/document/update_actual_reference_marks/#default) метод. <sup>24.2</sup>
 * Реализована эмуляция операций бинарного растра для метафайлов WMF. <sup>24.3</sup>
 * Возможность определения вариантов подписи документов в рамках **SaveOptions** Это стало возможным благодаря добавлению нового [DigitalSignatureDetails](https://reference.aspose.com/words/python-net/aspose.words.saving/digitalsignaturedetails/) класс с новыми публичными членами, а также добавление новых свойств к [OoxmlSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/docsaveoptions/) и [OdtSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/odtsaveoptions/) классы. <sup>24.4.4</sup>
 
@@ -253,27 +253,27 @@ Aspose.Words 23.4 улучшает расчет некоторых параме�
 
 ### Повышение производительности
 
-#### Эмуляция растровых операций <sup>23.1.1</sup>
+#### Эмуляция растровых операций <sup>23.1</sup>
 
 Значительно улучшены производительность и качество эмуляции растровых операций метафилами.
 
 ### Поддерживаемые форматы
 
-#### Экспорт в MOBI <sup>23.2.2</sup>
+#### Экспорт в MOBI <sup>23.2</sup>
 
 Начиная с версии 23.2, можно сохранить документ в формате MOBI (также называемый PRC, AZW - MOBI). Amazon Формат файла электронной книги Kindle. Теперь можно не только загружать документы MOBI, но и экспортировать файлы в формат MOBI.
 
 ### Рендеринг
 
-#### Работа с Shading Theme Colors <sup>23.1.1</sup>
+#### Работа с Shading Theme Colors <sup>23.1</sup>
 
 Реализована возможность работы с затенением цветов темы.
 
-#### Поддержка коэффициента R-квадратов в диаграммах DML <sup>23.1.1</sup>
+#### Поддержка коэффициента R-квадратов в диаграммах DML <sup>23.1</sup>
 
 Поддержка R-квадратного коэффициента в DML графике трендовых линий при добавлении рендеринга.
 
-#### Chart Rendering Улучшения <sup>23.2.2</sup>
+#### Chart Rendering Улучшения <sup>23.2</sup>
 
 С 23.2 рендеринг диаграммы был значительно улучшен.
 
@@ -285,17 +285,17 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) К
 
 Обработка радиальных градиентов с помощью `SkiaSharp` родной шейдер для .NET Standard была осуществлена.
 
-#### Расстояние между столом и окружающим текстом <sup>23.4.4</sup>
+#### Расстояние между столом и окружающим текстом <sup>23.4</sup>
 
 Способность устанавливать расстояние между таблицей и окружающим текстом была добавлена путем введения новых свойств. [Table](https://reference.aspose.com/words/python-net/aspose.words.tables/table/) класс: [distance_left](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_left/), [distance_right](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_right/), [distance_top](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_top/), и [distance_bottom](https://reference.aspose.com/words/python-net/aspose.words.tables/table/distance_bottom/).
 
 ### Погрузка и экономия документов
 
-#### Генерировать `TOC` AZW3 Документы <sup>23.1.1</sup>
+#### Генерировать `TOC` AZW3 Документы <sup>23.1</sup>
 
 Способность генерировать `TOC` (таблица содержания) для документов AZW3 была добавлена посредством использования [epub_navigation_map_level](https://reference.aspose.com/words/python-net/aspose.words.saving/htmlsaveoptions/epub_navigation_map_level/) собственность.
 
-#### Перечень экспортных товаров на Markdown <sup>23.1.1</sup>
+#### Перечень экспортных товаров на Markdown <sup>23.1</sup>
 
 Способ контроля за экспортом списков товаров в Markdown Формат обеспечивается путем добавления [list_export_mode](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/list_export_mode/) собственности на [MarkdownSaveOptions](https://reference.aspose.com/words/python-net/aspose.words.saving/markdownsaveoptions/) класс.
 
@@ -309,13 +309,13 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) К
 
 ### Другой
 
-- Возможность конкретизировать корректировку интервала символа документа была добавлена через [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) имущественная реализация <sup>23.2.2</sup>
-- Способ инструктировать Aspose.Words включение текстовых ящиков, сносок и сносок в статистику подсчета слов было обеспечено путем добавления [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) собственность <sup>23.2.2</sup>
-- Введена новая опция для стиля документа, которая позволяет определить, является ли стиль автоматически переопределяемым на основе соответствующего значения. [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) собственность <sup>23.2.2</sup>
-- Способность определять, [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) является фонетический прогон был добавлен с использованием [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) собственность <sup>23.4.4</sup>
-- Простой способ работы с сериями и осями комбинированных диаграмм был реализован путем введения [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) Класс и добавление [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) собственность <sup>23.4.4</sup>
-- Новые публичные свойства, связанные с формой относительного позиционирования и размера, были добавлены к [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) класс <sup>23.4.4</sup>
-- Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста были улучшены в соответствии с последними версиями Microsoft Word <sup>23.4.4</sup>
+- Возможность конкретизировать корректировку интервала символа документа была добавлена через [justification_mode](https://reference.aspose.com/words/python-net/aspose.words/document/justification_mode/) имущественная реализация <sup>23.2</sup>
+- Способ инструктировать Aspose.Words включение текстовых ящиков, сносок и сносок в статистику подсчета слов было обеспечено путем добавления [include_textboxes_footnotes_endnotes_in_stat](https://reference.aspose.com/words/python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/) собственность <sup>23.2</sup>
+- Введена новая опция для стиля документа, которая позволяет определить, является ли стиль автоматически переопределяемым на основе соответствующего значения. [automatically_update](https://reference.aspose.com/words/python-net/aspose.words/style/automatically_update/) собственность <sup>23.2</sup>
+- Способность определять, [Run](https://reference.aspose.com/words/python-net/aspose.words/run/) является фонетический прогон был добавлен с использованием [is_phonetic_guide](https://reference.aspose.com/words/python-net/aspose.words/run/is_phonetic_guide/) собственность <sup>23.4</sup>
+- Простой способ работы с сериями и осями комбинированных диаграмм был реализован путем введения [ChartAxisCollection](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chartaxiscollection/) Класс и добавление [Chart.axes](https://reference.aspose.com/words/python-net/aspose.words.drawing.charts/chart/axes/) собственность <sup>23.4</sup>
+- Новые публичные свойства, связанные с формой относительного позиционирования и размера, были добавлены к [Shape](https://reference.aspose.com/words/python-net/aspose.words.drawing/shape/) класс <sup>23.4</sup>
+- Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста были улучшены в соответствии с последними версиями Microsoft Word <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 

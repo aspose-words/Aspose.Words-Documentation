@@ -29,7 +29,7 @@ Aspose.Words 24.4 улучшает форматы сохранения, неко
 
 ### Чтение и печать
 
-#### Контроль цвета Stroke <sup>24.1.1</sup>
+#### Контроль цвета Stroke <sup>24.1</sup>
 
 The [Stroke](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/) Класс был расширен с набором новых публичных свойств, связанных с управлением цветами хода: [ForeThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/forethemecolor/) и [BackThemeColor](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backthemecolor/), [ForeTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/foretintandshade/) и [BackTintAndShade](https://reference.aspose.com/words/net/aspose.words.drawing/stroke/backtintandshade/).
 
@@ -47,7 +47,7 @@ The **DrawingML Charts API** продолжает расширяться.
 
 ### Погрузка и экономия документов
 
-#### Укажите SvgSaveOptions во время рендеринга <sup>24.2.2</sup>
+#### Укажите SvgSaveOptions во время рендеринга <sup>24.2</sup>
 
 Возможность конкретизировать [SvgSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/svgsaveoptions/) во время рендеринга был добавлен с использованием [ShapeRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/shaperenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) и [OfficeMathRenderer](https://reference.aspose.com/words/net/aspose.words.rendering/officemathrenderer/).[Save](https://reference.aspose.com/words/net/aspose.words.rendering/noderendererbase/save/) методы.
 
@@ -61,12 +61,12 @@ The **DrawingML Charts API** продолжает расширяться.
 
 ### Другой
 
-* Возможность изменять текст `TextBox` Контроль OLE был введен путем добавления нового [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) собственность на новый [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) класс. <sup>24.1.1</sup>
-* Источники библиографии Public API Он был реализован путем добавления нового пространства имен. [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также путем добавления нового [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) собственности на [Document](https://reference.aspose.com/words/net/aspose.words/document/) класс. <sup>24.1.1</sup>
-* API ограничение доступа к членам типа с использованием синтаксиса шаблона для `LINQ Reporting Engine` было предоставлено. <sup>24.1.1</sup>
-* Новые общественные объекты [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), и [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) Для улучшения управления стилем были добавлены [Style](https://reference.aspose.com/words/net/aspose.words/style/) класс. <sup>24.2.2</sup>
-* Функциональность извлечения фактического текста ссылочного знака для сносок и сносок была улучшена с помощью [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) собственности и [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) метод. <sup>24.2.2</sup>
-* Совместимость с `Word 2016` диаграммы для `LINQ Reporting Engine` Это было разрешено. <sup>24.2.2</sup>
+* Возможность изменять текст `TextBox` Контроль OLE был введен путем добавления нового [Text](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/text/) собственность на новый [TextBoxControl](https://reference.aspose.com/words/net/aspose.words.drawing.ole/textboxcontrol/) класс. <sup>24.1</sup>
+* Источники библиографии Public API Он был реализован путем добавления нового пространства имен. [Aspose.Words.Bibliography](https://reference.aspose.com/words/net/aspose.words.bibliography/) с его новыми классами и перечислениями, а также путем добавления нового [Bibliography](https://reference.aspose.com/words/net/aspose.words/document/bibliography/) собственности на [Document](https://reference.aspose.com/words/net/aspose.words/document/) класс. <sup>24.1</sup>
+* API ограничение доступа к членам типа с использованием синтаксиса шаблона для `LINQ Reporting Engine` было предоставлено. <sup>24.1</sup>
+* Новые общественные объекты [Priority](https://reference.aspose.com/words/net/aspose.words/style/priority/), [UnhideWhenUsed](https://reference.aspose.com/words/net/aspose.words/style/unhidewhenused/), и [SemiHidden](https://reference.aspose.com/words/net/aspose.words/style/semihidden/) Для улучшения управления стилем были добавлены [Style](https://reference.aspose.com/words/net/aspose.words/style/) класс. <sup>24.2</sup>
+* Функциональность извлечения фактического текста ссылочного знака для сносок и сносок была улучшена с помощью [ActualReferenceMark](https://reference.aspose.com/words/net/aspose.words.notes/footnote/actualreferencemark/) собственности и [UpdateActualReferenceMarks](https://reference.aspose.com/words/net/aspose.words/document/updateactualreferencemarks/) метод. <sup>24.2</sup>
+* Совместимость с `Word 2016` диаграммы для `LINQ Reporting Engine` Это было разрешено. <sup>24.2</sup>
 * Реализована эмуляция операций бинарного растра для метафайлов WMF. <sup>24.3</sup>
 * Возможность определения вариантов подписи документов в рамках **SaveOptions** Это стало возможным благодаря добавлению нового [DigitalSignatureDetails](https://reference.aspose.com/words/net/aspose.words.saving/digitalsignaturedetails/) класс с новыми публичными членами, а также добавление новых свойств к [OoxmlSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/ooxmlsaveoptions/), [DocSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/docsaveoptions/) и [OdtSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/odtsaveoptions/) классы. <sup>24.4.4</sup>
 
@@ -260,27 +260,27 @@ Aspose.Words 23.4 улучшает расчет некоторых параме�
 
 ### Повышение производительности
 
-#### Эмуляция растровых операций <sup>23.1.1</sup>
+#### Эмуляция растровых операций <sup>23.1</sup>
 
 Значительно улучшены производительность и качество эмуляции растровых операций метафилами.
 
 ### Поддерживаемые форматы
 
-#### Экспорт в MOBI <sup>23.2.2</sup>
+#### Экспорт в MOBI <sup>23.2</sup>
 
 Начиная с версии 23.2, можно сохранить документ в формате MOBI (также называемый PRC, AZW - MOBI). Amazon Формат файла электронной книги Kindle. Теперь можно не только загружать документы MOBI, но и экспортировать файлы в формат MOBI.
 
 ### Рендеринг
 
-#### Работа с Shading Theme Colors <sup>23.1.1</sup>
+#### Работа с Shading Theme Colors <sup>23.1</sup>
 
 Реализована возможность работы с затенением цветов темы.
 
-#### Поддержка коэффициента R-квадратов в диаграммах DML <sup>23.1.1</sup>
+#### Поддержка коэффициента R-квадратов в диаграммах DML <sup>23.1</sup>
 
 Поддержка R-квадратного коэффициента в DML графике трендовых линий при добавлении рендеринга.
 
-#### Chart Rendering Улучшения <sup>23.2.2</sup>
+#### Chart Rendering Улучшения <sup>23.2</sup>
 
 С 23.2 рендеринг диаграммы был значительно улучшен.
 
@@ -292,17 +292,17 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) К
 
 Обработка радиальных градиентов с помощью `SkiaSharp` родной шейдер для .NET Standard была осуществлена.
 
-#### Расстояние между столом и окружающим текстом <sup>23.4.4</sup>
+#### Расстояние между столом и окружающим текстом <sup>23.4</sup>
 
 Способность устанавливать расстояние между таблицей и окружающим текстом была добавлена путем введения новых свойств. [Table](https://reference.aspose.com/words/net/aspose.words.tables/table/) класс: [DistanceLeft](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceleft/), [DistanceRight](https://reference.aspose.com/words/net/aspose.words.tables/table/distanceright/), [DistanceTop](https://reference.aspose.com/words/net/aspose.words.tables/table/distancetop/), и [DistanceBottom](https://reference.aspose.com/words/net/aspose.words.tables/table/distancebottom/).
 
 ### Погрузка и экономия документов
 
-#### Генерировать `TOC` AZW3 Документы <sup>23.1.1</sup>
+#### Генерировать `TOC` AZW3 Документы <sup>23.1</sup>
 
 Способность генерировать `TOC` (таблица содержания) для документов AZW3 была добавлена посредством использования [NavigationMapLevel](https://reference.aspose.com/words/net/aspose.words.saving/htmlsaveoptions/navigationmaplevel/) собственность.
 
-#### Перечень экспортных товаров на Markdown <sup>23.1.1</sup>
+#### Перечень экспортных товаров на Markdown <sup>23.1</sup>
 
 Способ контроля за экспортом списков товаров в Markdown Формат обеспечивается путем добавления [ListExportMode](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/listexportmode/) собственности на [MarkdownSaveOptions](https://reference.aspose.com/words/net/aspose.words.saving/markdownsaveoptions/) класс.
 
@@ -316,13 +316,13 @@ The [Fill](https://reference.aspose.com/words/net/aspose.words.drawing/fill/) К
 
 ### Другой
 
-* Возможность конкретизировать корректировку интервала символа документа была добавлена через [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) имущественная реализация <sup>23.2.2</sup>
-* Способ инструктировать Aspose.Words включение текстовых ящиков, сносок и сносок в статистику подсчета слов было обеспечено путем добавления [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) собственность <sup>23.2.2</sup>
-* Введена новая опция для стиля документа, которая позволяет определить, является ли стиль автоматически переопределяемым на основе соответствующего значения. [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) собственность <sup>23.2.2</sup>
-* Способность определять, [Run](https://reference.aspose.com/words/net/aspose.words/run/) является фонетический прогон был добавлен с использованием [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) собственность <sup>23.4.4</sup>
-* Простой способ работы с сериями и осями комбинированных графиков был реализован путем введения [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) Класс и добавление [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) собственность <sup>23.4.4</sup>
-* Новые публичные свойства, связанные с формой относительного позиционирования и размера, были добавлены к [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) класс <sup>23.4.4</sup>
-* Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста были улучшены в соответствии с последними версиями Microsoft Word <sup>23.4.4</sup>
+* Возможность конкретизировать корректировку интервала символа документа была добавлена через [JustificationMode](https://reference.aspose.com/words/net/aspose.words/document/justificationmode/) имущественная реализация <sup>23.2</sup>
+* Способ инструктировать Aspose.Words включение текстовых ящиков, сносок и сносок в статистику подсчета слов было обеспечено путем добавления [IncludeTextboxesFootnotesEndnotesInStat](https://reference.aspose.com/words/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/) собственность <sup>23.2</sup>
+* Введена новая опция для стиля документа, которая позволяет определить, является ли стиль автоматически переопределяемым на основе соответствующего значения. [AutomaticallyUpdate](https://reference.aspose.com/words/net/aspose.words/style/automaticallyupdate/) собственность <sup>23.2</sup>
+* Способность определять, [Run](https://reference.aspose.com/words/net/aspose.words/run/) является фонетический прогон был добавлен с использованием [IsPhoneticGuide](https://reference.aspose.com/words/net/aspose.words/run/isphoneticguide/) собственность <sup>23.4</sup>
+* Простой способ работы с сериями и осями комбинированных графиков был реализован путем введения [ChartAxisCollection](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chartaxiscollection/) Класс и добавление [Chart.Axes](https://reference.aspose.com/words/net/aspose.words.drawing.charts/chart/axes/) собственность <sup>23.4</sup>
+* Новые публичные свойства, связанные с формой относительного позиционирования и размера, были добавлены к [Shape](https://reference.aspose.com/words/net/aspose.words.drawing/shape/) класс <sup>23.4</sup>
+* Точность и производительность расчета яркости цвета для автоматического разрешения цвета текста были улучшены в соответствии с последними версиями Microsoft Word <sup>23.4</sup>
 
 {{% alert color="primary" %}}
 

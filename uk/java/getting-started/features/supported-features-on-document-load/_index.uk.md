@@ -20,8 +20,8 @@ Aspose.Words дозволяє користувачам працювати з д�
 Для повного переліку функцій див. API посилання:
 
 - [Параметри завантаження для всіх форматів](https://reference.aspose.com/words/java/com.aspose.words/loadoptions/)
-- до [JavaScript licenses API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) у форматі CHM
+- до [JavaРеєстрація API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/chmloadoptions/) у форматі CHM
 - до [Налаштування Українська](https://reference.aspose.com/words/java/com.aspose.words/htmlloadoptions/) у форматі HTML
 - до [Налаштування PDF](https://reference.aspose.com/words/java/com.aspose.words/pdfloadoptions/) у форматі PDF
-- до [JavaScript licenses API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) для формату RTF
-- до [JavaScript licenses API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) для формату TXT
+- до [JavaРеєстрація API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/rtfloadoptions/) для формату RTF
+- до [JavaРеєстрація API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/txtloadoptions/) для формату TXT

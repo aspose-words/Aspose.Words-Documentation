@@ -21,5 +21,5 @@ Meer weten over Aspose.Words, selecteer de juiste sectie:
 - [Licentie en abonnement](/words/nl/java/licensing/) Geeft informatie over het toepassen van een licentie en het gebruik van meerdere Aspose producten
 - [Waarom? Aspose.Words](https://docs.aspose.com/words/java/aspose-words-or-other-solutions/) De redenen waarom Aspose componenten veel beter zijn dan Microsoft Office Automation
 - [Systeemeisen](/words/nl/java/system-requirements/)
-- [Vervoersnota's](/words/nl/java/security/)
+- [Vervoernota's](/words/nl/java/security/)
 - [Hoe de Voorbeelden uitvoerden](/words/nl/java/how-to-run-the-examples/)

@@ -13,7 +13,7 @@ url: /uk/java/install-aspose-words-for-android-via-java/
 
 З 2017 версія версії Aspose.Words для Android Зареєструватися Java Відповідальність Aspose.Words для Javaй
 
-[JavaРеєстрація API Веб-сайт Go1.13.8](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
+[Javaдоля API Веб-сайт Go1.13.8](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
 
 {{% /alert %}}
 

@@ -89,11 +89,11 @@ Więcej szczegółowych informacji na temat renderowania można znaleźć w [Ren
 
 **Q: Dlaczego układ i czcionki w dokumencie wyjściowym różnią się od oryginału?**
 
-Czcionka może nie być dostępna lub format czcionki jest obsługiwany przez Microsoft Word ale nie obsługiwane przez Aspose.Words. Aspose.Words wykona [Manipuluj i złóż czapki prawa. Przewoźnice](/words/pl/java/manipulate-and-substitute-truetype-fonts/).
+Czcionka może nie być dostępna lub format czcionki jest obsługiwany przez Microsoft Word ale nie obsługiwane przez Aspose.Words. Aspose.Words wykona [Manipuluj i złóż czapki prawa. Przewoznice](/words/pl/java/manipulate-and-substitute-truetype-fonts/).
 
 Aby sprawdzić, czy brakuje czcionki:
 
-- In Aspose.Words w sekcji "Jak rozpoznać, że czcionka została zastąpiona" [Manipuluj i złóż czapki prawa. Przewoźnice](/words/pl/java/manipulate-and-substitute-truetype-fonts/) Artykuł).
+- In Aspose.Words w sekcji "Jak rozpoznać, że czcionka została zastąpiona" [Manipuluj i złóż czapki prawa. Przewoznice](/words/pl/java/manipulate-and-substitute-truetype-fonts/) Artykuł).
 - In Microsoft Word Otwórz okno dialogowe "Substitution Font" (Plik → Opcje → Zaawansowane → Substitution Font).
 
 ------

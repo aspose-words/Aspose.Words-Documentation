@@ -65,7 +65,7 @@ Aspose.Words для Java опори Java 7 і новачок. Якщо ви зм
    У момент написання лише 32-розрядна версія інсталятора доступна, тому якщо ви використовуєте JDK для завантаження [Яй-1_1_3-lib-windows-i586-jdk.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jdk.exe) і якщо ви використовуєте JRE, вам потрібно завантажити [Яй-1_1_3-lib-windows-i586-jre.exe](https://download.java.net/media/jai/builds/release/1_1_3/jai-1_1_3-lib-windows-i586-jre.exe)й
 1,1 км Запустіть інсталятор і вказуйте його до каталогу, де встановлюється JDK/JRE.
 1. Завантажити **JAI Зображення I / O 1.1**й
-   У момент написання лише 32-розрядна версія інсталятора доступна, тому якщо ви використовуєте JDK для завантаження [JavaРеєстрація API Веб-сайт Go1.13.8](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe) і якщо ви використовуєте JRE, вам потрібно завантажити [jai_imageio-1_1-lib-windows-i586-jre.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
+   У момент написання лише 32-розрядна версія інсталятора доступна, тому якщо ви використовуєте JDK для завантаження [Javaдоля API Веб-сайт Go1.13.8](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jdk.exe) і якщо ви використовуєте JRE, вам потрібно завантажити [jai_imageio-1_1-lib-windows-i586-jre.exe](https://download.java.net/media/jai-imageio/builds/release/1.1/jai_imageio-1_1-lib-windows-i586-jre.exe)
 1,1 км Запустіть інсталятор і вказуйте його до каталогу, де встановлюється JDK/JRE.
 
 ### Як встановити JAI на Linux

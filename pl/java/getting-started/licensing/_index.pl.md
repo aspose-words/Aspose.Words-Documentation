@@ -60,7 +60,7 @@ Informacje o cenach można znaleźć na stronie internetowej: [Informacje o cena
 
 ### Ochrona licencji zakupionej
 
-Po zakupie licencji, należy uważnie przeczytać informacje na stronie [Ochrona licencjjjjji zakopionej](https://purchase.aspose.com/orders/protecting-your-license-file) do ochrony akt licencji. Należy pamiętać, że ta strona jest dostępna do oglądania tylko jeśli masz licencję płatną.
+Po zakupie licencji, należy uważnie przeczytać informacje na stronie [Ochrona licencjjjjjji zakopionej](https://purchase.aspose.com/orders/protecting-your-license-file) do ochrony akt licencji. Należy pamiętać, że ta strona jest dostępna do oglądania tylko jeśli masz licencję płatną.
 
 ### Opcje korzystania z licencji
 

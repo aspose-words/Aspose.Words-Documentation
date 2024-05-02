@@ -86,6 +86,6 @@ Aspose.Words впроваджує власний алгоритм H&J, який 
 
 ## Дивитися ще
 
-* [EnglishEspañol中文РусскийУкраїнськаPolskiItalianoEspañol汉语Bahasa Indonesiaहिन्दीPortuguês日本語DeutschFrançaisภาษาไทยελληνικά اللغة العربية Індонезійська АнглійськаDeutschDeutschEnglishEspañolFrançaisItalianoDeutschРусскийNederlandsTürkçePortuguês日本語中文(简体)한국어العربية](https://github.com/hunspell/hyphen/blob/master/README)
+* [EnglishEspañol中文РусскийУкраїнськаPolskiItalianoEspañol汉语Bahasa Indonesiaहिन्दीPortuguês日本語DeutschFrançaisภาษาไทยελληνικά اللغة العربية EnglishDeutschPусский简体中文中國傳統EspañolالعربيةFrançaisελληνικάDanskАнглійскаябългарскиCatalàČeskýEestiSuomiGaeilgeहिन्दीHrvatskiMagyarIndonesiaIcelandicItalianoעברי日本の한국의LietuvosLatvijasмакедонскиMalayMaltiNederlandsNorskPolskiPortuguêsRomânescSlovenskýSlovenskiShqiptarCрпскиSvenskaไทยTürkçeYкраїнськийTiếng việtייִדישKiswahili EnglishDeutschPусский简体中文中國傳統EspañolالعربيةFrançaisελληνικάDanskАнглійская](https://github.com/hunspell/hyphen/blob/master/README)
 * [Нестандартне гіфенування](https://github.com/hunspell/hyphen/blob/master/README.nonstandard)
-* [Türkçe, English, Українська.](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)
+* [Українська, Русский, Беларуская](https://github.com/hunspell/hyphen/blob/master/doc/tb87nemeth.pdf)

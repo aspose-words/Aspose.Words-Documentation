@@ -40,14 +40,14 @@ description: "แปลงเอกสารอย่างง่าย ๆ จ�
 	<div class="col-md-6">
 		<h2>แปลงคําเป็น PDF</h2>
 			<ul>
+				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">PDF ของ CATOP (พ.ศ</a></li>
 				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">CATOP PDF (พ.ศ</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#converting-doc-or-docx-to-pdf">CATOP PDF PDF (พ.ศ</a></li>
 				<li>และคนอื่นๆ</li>
 			</ul>
 		<h2>แปลงภาพเป็น PDF</h2>
 			<ul>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TH 07 Proup Proup (in อังกฤษ) (พ.ศ</a></li>
-				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Taid Tain สืบค้นเมื่อ December 2015 PDF</a></li>
+				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">TH 07 Proup Proup (in อ382828-30) (พ.ศ</a></li>
+				<li><a href="https://docs.aspose.com/words/java/convert-a-document-to-pdf/#convert-an-image-to-pdf">Taid Taiin. ส/i.ikias language language ธันวาคม 2015 PDF</a></li>
 				<li>และคนอื่นๆ</li>
 			</ul>
 		<h2>แปลงรูปแบบเว็บไปเป็น PDF</h2>

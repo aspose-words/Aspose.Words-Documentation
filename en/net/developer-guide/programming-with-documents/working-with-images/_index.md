@@ -98,7 +98,7 @@ The following code example shows how to achieve this using Aspose.Words API:
 
 ## Save Images as WMF {#save-images-as-wmf}
 
-Aspose.Words provides functionality to save all the available images in a document to [WMF ](https://docs.fileformat.com/image/wmf/)format while converting DOCX to RTF.
+Aspose.Words provides functionality to save all the available images in a document to [WMF](https://docs.fileformat.com/image/wmf/)format while converting DOCX to RTF.
 
 The following code example shows how to save images as WMF with RTF save options:
 

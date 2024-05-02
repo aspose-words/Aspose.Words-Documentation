@@ -405,7 +405,7 @@ De API is verbeterd voor meer flexibele en handige ontwikkeling.
 
 ### Ondersteunde formaten
 
-* Ondersteuning voor het laden van EPUB en XML documenten is ingevoerd door het toevoegen van nieuwe waarden aan de [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Samenvatting. Vanaf versie 22.5, is het mogelijk om EPUB en XML documenten te laden in Aspose.Words document model en converteren naar elke [verdere indelingen](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22,5</sup>
+* Ondersteuning voor het laden van EPUB en XML documenten is ingevoerd door het toevoegen van nieuwe waarden aan de [LoadFormat](https://reference.aspose.com/words/java/com.aspose.words/loadformat/) Samenvatting. Vanaf versie 22.5, is het mogelijk om EPUB en XML documenten te laden in Aspose.Words document model en converteren naar elke [verdere beoordelingen](https://reference.aspose.com/words/java/com.aspose.words/saveformat/). <sup>22,5</sup>
 * Vanaf versie 22.8, is het mogelijk om een document op te slaan in AZW3 formaat. Amazon Kindle's eigen e-book bestandsformaat (KF8 is een andere naam voor het formaat). Nu kunt u niet alleen AZW3-documenten laden, maar ook uw bestanden exporteren naar AZW3-formaat, wat in wezen een samengesteld EPUB is. <sup>22,8</sup>
 
 ### Renderen en afdrukken

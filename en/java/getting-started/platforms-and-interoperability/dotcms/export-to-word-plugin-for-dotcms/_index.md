@@ -25,7 +25,7 @@ Please feel free to contact us if you wish to install this plugin on older versi
 
 You can download Export to Word plugin from one of the following locations
 
-- [dotCMS Plugins Repository ](https://github.com/dotcms-plugins)
+- [dotCMS Plugins Repository](https://github.com/dotcms-plugins)
 - [Github](https://github.com/aspose-words/Aspose.Words-for-Java/releases/tag/Aspose-dotCMS-Export-To-Word-v1.0.0)
 
 ## Installing

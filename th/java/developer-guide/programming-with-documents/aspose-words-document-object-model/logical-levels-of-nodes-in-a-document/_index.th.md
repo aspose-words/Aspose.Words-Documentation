@@ -67,7 +67,7 @@ A เอกสารคําประกอบด้วยหนึ่งส่
 
 - [Run](https://reference.aspose.com/words/java/com.aspose.words/run/) - ฉบับที่แตกต่างกัน
 - [BookmarkStart](https://reference.aspose.com/words/java/com.aspose.words/bookmarkstart/) ถึง [BookmarkEnd](https://reference.aspose.com/words/java/com.aspose.words/bookmarkend/) แสดงที่คั่นหน้า
-- [2013i. สืบค้นเมื่อ 25 July 2013.](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) ถึง [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) แสดงหมายเหตุประกอบ
+- [2013i. สืบค้นเมื่อ 1515/18.8 กม. น น น น น น (พ.ศ.](https://reference.aspose.com/words/java/com.aspose.words/commentrangeend/), [Comment](https://reference.aspose.com/words/java/com.aspose.words/comment/) ถึง [Footnote](https://reference.aspose.com/words/java/com.aspose.words/footnote/) แสดงหมายเหตุประกอบ
 - [FieldStart](https://reference.aspose.com/words/java/com.aspose.words/fieldstart/), [FieldChar](https://reference.aspose.com/words/java/com.aspose.words/fieldchar/), [FieldSeparator](https://reference.aspose.com/words/java/com.aspose.words/fieldseparator/) ถึง [FieldEnd](https://reference.aspose.com/words/java/com.aspose.words/fieldend/) ที่เป็นตัวแทนของตัวละครภาคสนาม และ [FormField](https://reference.aspose.com/words/java/com.aspose.words/formfield/) แสดง ช่องข้อมูลข้อความ
 - [SpecialChar](https://reference.aspose.com/words/java/com.aspose.words/specialchar/) แสดงอักขระพิเศษในเอกสาร
 - [Shape](https://reference.aspose.com/words/java/com.aspose.words/shape/) ถึง [GroupShape](https://reference.aspose.com/words/java/com.aspose.words/groupshape/) แสดงรูปร่าง ภาพวาด ภาพ เป็นต้น

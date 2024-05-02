@@ -82,4 +82,4 @@ Aspose.Words فراهم می کند [PdfCompliace](https://reference.aspose.com/
 
 - مقاله [ارائه دهنده](/words/fa/java/rendering/) برای اطلاعات بیشتر در مورد فرمت های ثابت صفحه و جریان
 - مقاله [تبدیل به فرمت ثابت صفحه](/words/java/converting-to-fixed-page-format/#convertingtofixed-pageformat-whatisapagelayout) برای اطلاعات بیشتر در طرح صفحه
-- مقاله [دانلود موسیقی متن بازی The Punch Punch Punch Punch](/words/fa/java/specify-rendering-options-when-converting-to-pdf/) اطلاعات بیشتر در مورد استفاده از `PdfSaveOptions` کلاس
+- مقاله [دانلود موسیقی متن بازی The Punch بازی Punch Punch Punch](/words/fa/java/specify-rendering-options-when-converting-to-pdf/) اطلاعات بیشتر در مورد استفاده از `PdfSaveOptions` کلاس

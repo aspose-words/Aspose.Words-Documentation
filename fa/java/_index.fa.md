@@ -49,7 +49,7 @@ Aspose.Words پشتیبانی از اکثر فرمت های سند محبوب م
 				<li><a href="/words/fa/java/features/">ویژگی های پشتیبانی</a></li>
 				<li><a href="/words/fa/java/system-requirements/">الزامات سیستم</a></li>
 				<li><a href="/words/fa/java/installation/">نصب نصب</a></li>
-				<li><a href="https://repository.aspose.com/words/">دانلود بازی Punch Aspose.Words دانلود موسیقی متن بازی The Punch Britney Punch Java دانلود موسیقی متن بازی The Punch دانلود بازی The Punch Punch Maven دانلود زیرنویس فارسی فیلم The Punch Punch A</a></li>
+				<li><a href="https://repository.aspose.com/words/">دانلود بازی Punch Aspose.Words دانلود موسیقی متن بازی The Punch دانلود بازی Britney Punch Java دانلود موسیقی متن بازی The Punch دانلود بازی The Punch Punch Maven دانلود موسیقی متن فیلم Punch بازی Punch A</a></li>
 			</ul>
 			<p>آموزش</p>
 			<ul>
@@ -64,7 +64,7 @@ Aspose.Words پشتیبانی از اکثر فرمت های سند محبوب م
 				<li><a href="/words/fa/java/loading-saving-and-converting/">بارگذاری، پس انداز و تبدیل</a></li>
 				<li><a href="/words/fa/java/rendering/">ارائه دهنده</a></li>
 				<li><a href="https://docs.aspose.com/words/java/mail-merge-and-reporting/">Mail Merge گزارش</a></li>
-				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">دانلود موسیقی متن بازی The Punch دانلود بازی Punch LINQAIL</a></li>
+				<li><a href="https://docs.aspose.com/words/java/linq-reporting-engine/">دانلود موسیقی متن بازی The Punch بازی Punch Punch LINQAIL</a></li>
 				<li><a href="/words/fa/java/print-a-document-programmatically-or-using-dialogs/">دانلود موسیقی متن بازی The Punch بازی Punch Dialogs</a></li>
 				<li><a href="/words/fa/java/programming-with-documents/">برنامه نویسی با اسناد</a></li>
 				<li><a href="https://reference.aspose.com/words/java">Aspose.Words برای Java API Reference راهنمای راهنما</a></li>
@@ -72,11 +72,11 @@ Aspose.Words پشتیبانی از اکثر فرمت های سند محبوب م
 			<p>آموزش</p>
 			<ul>
 				<li><a href="https://releases.aspose.com/words/java/release-notes/">Aspose.Words برای Java یادداشت های آزاد</a></li>
-				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-words/">Aspose.Words دانلود موسیقی متن بازی The Punch Britney Punch Java Maven Repo</a></li>
+				<li><a href="https://releases.aspose.com/java/repo/com/aspose/aspose-words/">Aspose.Words دانلود موسیقی متن بازی The Punch دانلود بازی Britney Punch Java Maven Repo</a></li>
 			</ul>
 			<p>تکنولوژی SUPPORT</p>
 			<ul>
-				<li><a href="https://forum.aspose.com/c/words/8">Aspose.Words دانلود موسیقی متن بازی The Punch Britney Punch Java Free Support Forum</a></li>
+				<li><a href="https://forum.aspose.com/c/words/8">Aspose.Words دانلود موسیقی متن بازی The Punch دانلود بازی Britney Punch Java Free Support Forum</a></li>
 			</ul>
 	</div>
 </div>

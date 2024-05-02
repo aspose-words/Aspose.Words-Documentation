@@ -23,18 +23,18 @@ Aspose.Words дозволяє користувачам працювати з д�
 - до [виправлені параметри збереження сторінок](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) для [Перетворення у формат Фіксованого сторінки](/words/uk/java/converting-to-fixed-page-format/): PDF, XPS, зображення та інші
 - до [Налаштування PDF](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) у форматі PDF
 - до [Налаштування ООКСМЛ](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) для DOCX, DOCM, DOTР, DOTM, або FlatOpc формати
-- до [JavaScript licenses API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) для DOC і DOT Контакти
+- до [JavaРеєстрація API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) для DOC і DOT Контакти
 - до [Параметри збереження зображень](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) для форматів TIFF, PNG, BMP, EMF, JPEG або SVG
 - до [СВГ-КСНУМКС](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) для SVG формат
 - до [Налаштування Українська](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) JavaScript licenses API Веб-сайт Go1.13.8
 - до [Markdown Варіанти збереження](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) для Markdown Головна
 - до [РФТ](https://reference.aspose.com/words/java/com.aspose.words/rtfsaveoptions/) для формату RTF
-- до [Налаштування TXT](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/) для формату TXT
+- до [Модель TXT](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/) для формату TXT
 - до [ОДТ](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) для форматів ODT та OTT
 - до [浜у 涓 蹇](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/) для формату PCL
-- до [Налаштування PS](https://reference.aspose.com/words/java/com.aspose.words/pssaveoptions/) для PS формат
-- до [JavaScript licenses API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/) у форматі WordML
+- до [Пакети PS](https://reference.aspose.com/words/java/com.aspose.words/pssaveoptions/) для PS формат
+- до [JavaРеєстрація API Веб-сайт](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/) у форматі WordML
 - до [ХтмлФікс](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) для HtmlFixed формат
-- до [XamlFix, аби](https://reference.aspose.com/words/java/com.aspose.words/xamlfixedsaveoptions/) для XamlFixed формат
+- до [XamlFix, оголена](https://reference.aspose.com/words/java/com.aspose.words/xamlfixedsaveoptions/) для XamlFixed формат
 - до [XamlFlows відгуки](https://reference.aspose.com/words/java/com.aspose.words/xamlflowsaveoptions/) для форматів XamlFlow або XamlFlowPack
 - до [XPS Варіанти збереження](https://reference.aspose.com/words/java/com.aspose.words/xpssaveoptions/) для XPS Головна

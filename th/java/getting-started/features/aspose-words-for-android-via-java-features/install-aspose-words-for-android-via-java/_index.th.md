@@ -13,7 +13,7 @@ url: /th/java/install-aspose-words-for-android-via-java/
 
 ตั้งแต่ปี 2017 รุ่นของ Aspose.Words สําหรับ Android ผ่าน Java คอมโพเน็นต์ Aspose.Words สําหรับ Java
 
-[Asposives 20.2-CASESEESESEESEESESEESE2020NTHNTHNMIMES. สืบค้นเมื่อ 28 พฤษภาคม พ.ศ](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
+[Asposives 20.2-CAESEESEESE20NMIMEES. 2013/ii.8kias language lanthy language. สืบค้นเมื่อ 20 พฤษภาคม พ.ศ](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-words/20.2/aspose-words-20.2-android.via.java.jar)
 
 {{% /alert %}}
 

@@ -95,7 +95,7 @@ Fungsi fungsi [ChartDataPointCollection](https://reference.aspose.com/words/java
 
 Cara sederhana untuk secara otomatis menyesuaikan dan sesuaikan gambar dalam bentuk tertentu telah disediakan melalui yang baru [FitImageToShape](https://reference.aspose.com/words/java/com.aspose.words/imagedata/#fitImageToShape) Login
 
-#### Format Font Default untuk Menggambar Login Grafik Legenda Entries <sup>23.11.11</sup>
+#### Format Font Default untuk Menggambar Login Grafik Legenda Entries <sup>23.11</sup>
 
 Kemampuan untuk menentukan format font default untuk entri legenda grafik DrawingML telah ditambahkan melalui **Font** Login Fitur ini memfasilitasi penampilan yang lebih ramping dan konsisten untuk elemen grafik, meningkatkan estetika dokumen secara keseluruhan.
 
@@ -123,8 +123,8 @@ Fitur untuk mengenali hyperlink ketika memuat dokumen TXT telah diterapkan denga
 - Metode yang disederhanakan untuk memasukkan satu dokumen ke dokumen lain pada posisi kursor saat ini telah diperkenalkan menggunakan [InsertDocumentInline](https://reference.aspose.com/words/java/com.aspose.words/documentbuilder/#insertDocumentInline-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) Login <sup>18.10 g</sup>
 - Login Kemampuan untuk mengakses dan memodifikasi sifat gaya telah ditambahkan melalui pengenalan baru [Locked](https://reference.aspose.com/words/java/com.aspose.words/style/#getLocked) Login <sup>18.10 g</sup>
 - Parameter tipe generik telah ditambahkan ke metode [CompositeNode](https://reference.aspose.com/words/java/com.aspose.words/compositenode/) Sitemap <sup>18.10 g</sup>
-- Cara untuk mengontrol ketika revisi tertentu harus diterima / disuntikkan atau tidak diimplementasikan dengan menggunakan [Accept](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#accept-com.aspose.words.IRevisionCriteria) Login [Reject](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#reject-com.aspose.words.IRevisionCriteria) Login Peningkatan ini memberi pengguna kontrol yang lebih halus atas proses revisi. <sup>23.11.11</sup>
-- Login Kemampuan untuk menulis semua bagian dokumen ke lembar kerja XLSX yang sama telah disediakan melalui yang baru [XlsxSectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsectionmode/) jenis enumerasi dan jenis baru [SectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/#getSectionMode) Login <sup>23.11.11</sup>
+- Cara untuk mengontrol ketika revisi tertentu harus diterima / disuntikkan atau tidak diimplementasikan dengan menggunakan [Accept](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#accept-com.aspose.words.IRevisionCriteria) Login [Reject](https://reference.aspose.com/words/java/com.aspose.words/revisioncollection/#reject-com.aspose.words.IRevisionCriteria) Login Peningkatan ini memberi pengguna kontrol yang lebih halus atas proses revisi. <sup>23.11</sup>
+- Login Kemampuan untuk menulis semua bagian dokumen ke lembar kerja XLSX yang sama telah disediakan melalui yang baru [XlsxSectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsectionmode/) jenis enumerasi dan jenis baru [SectionMode](https://reference.aspose.com/words/java/com.aspose.words/xlsxsaveoptions/#getSectionMode) Login <sup>23.11</sup>
 - Sitemap WebP gambar telah diperkenalkan. Harap dicatat bahwa fitur ini hanya tersedia untuk .NetLogin .NET6+ versi. <sup>12.12.12</sup>
 
 {{% alert color="primary" %}}

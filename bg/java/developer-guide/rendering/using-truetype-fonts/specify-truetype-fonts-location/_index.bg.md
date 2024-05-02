@@ -67,7 +67,7 @@ Aspose.Words търси шрифтове в папката /Библиотека
 - SANS_ SERIF
 - SERIF
 
-Например, според Android. [Хeфтoв. xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) frig файл, гон. време е принадлежи към семейство, така че NotoSerif-Regular.ttf ще се използва, когато се изисква:
+Например, според Android. [Хефтов. xml](https://androidxref.com/9.0.0_r3/xref/frameworks/base/data/fonts/fonts.xml) frig файл, гон. време е принадлежи към семейство, така че NotoSerif-Regular.ttf ще се използва, когато се изисква:
 
 **Шрифтове.xml**
 

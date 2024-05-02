@@ -43,7 +43,7 @@ Aby dowiedzieć się więcej o różnych standardach PDF, sprawdź następujące
 
 * [Jak edytować tagi struktury dokumentu w Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html)
 * [Jak rozłożyć lub edytować jeden tekst w Microsoft Word](https://support.microsoft.com/en-us/office/check-spelling-and-grammar-in-a-different-language-667ba67a-a202-42fd-8596-edc1fa320e00)
-* [Jak zmniejsze dwie dal w Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)
+* [Jak zmniejsze dnie dal w Adobe Acrobat](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags)
 * [Jak dodać tekst alternatny do kształtu, obrazu, wykresu, grafiki Intelegentne Art lub innego obiektu w Microsoft Word](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
 * [Jak dodać alternatny tekst i informacje dotyczące wyników do znaczników](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html) (lub przeczytać te same informacje w [Adobe Acrobat Przewoźnicy dla użytkowników](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html#add_alternate_text_and_supplementary_information_to_tags))
 * [Jak skonfiguroować wpis ActualText dla projektu](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html), sekcja "Dodaj rzeczywisty tekst dla skróconego terminu, wzoru lub symbolu Non-Unicode"

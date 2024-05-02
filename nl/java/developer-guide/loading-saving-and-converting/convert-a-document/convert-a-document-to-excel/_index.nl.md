@@ -66,5 +66,5 @@ doc.save(getArtifactsDir() + "BaseConversions.CompressXlsx.xlsx", saveOptions);
 
 ## Zie ook
 
-- Documentatie [Een document beschermt of verkoopt](/words/nl/java/protect-or-encrypt-a-document/) voor meer informatie over het beschermen en versleutelen van een document
+- Documentatie [Een document beschermd door verkoop](/words/nl/java/protect-or-encrypt-a-document/) voor meer informatie over het beschermen en versleutelen van een document
 - Het artikel [Zoeken en ontvangen](/words/nl/java/find-and-replace/) voor meer informatie over het vinden en vervangen van de inhoud die u wilt

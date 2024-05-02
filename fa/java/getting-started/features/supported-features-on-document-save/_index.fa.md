@@ -23,7 +23,7 @@ Aspose.Words به کاربران اجازه می دهد تا با اسناد د�
 - [صفحه ثابت گزینه ها را ذخیره می کند](https://reference.aspose.com/words/java/com.aspose.words/fixedpagesaveoptions/) برای [تبدیل به فرمت ثابت صفحه](/words/fa/java/converting-to-fixed-page-format/)PDF، XPS, تصاویر و دیگران
 - [بایگانی برچسب ها](https://reference.aspose.com/words/java/com.aspose.words/pdfsaveoptions/) فرمت PDF
 - [دانلود موسیقی متن بازی The Punch دانلود بازی Punch OOXML Crush](https://reference.aspose.com/words/java/com.aspose.words/ooxmlsaveoptions/) برای DOCX، DOCM DOTX، DOTفرمت های M یا FlatOpc
-- [دانلود زیرنویس فارسی فیلم Punch DOCAIL LEAAILS](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) برای DOC و DOT فرمت ها
+- [دانلود موسیقی متن فیلم Punch بازی Punch DOCAIL LEAAILS](https://reference.aspose.com/words/java/com.aspose.words/docsaveoptions/) برای DOC و DOT فرمت ها
 - [دانلود موسیقی متن بازی The Punch دانلود بازی PunchSave](https://reference.aspose.com/words/java/com.aspose.words/imagesaveoptions/) برای TIFF، PNG، BMP، EMF، JPEG یا SVG فرمت
 - [دانلود موسیقی متن بازی The Punch بازی Punch Punch Punch SVG](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) فرمت SVG
 - [Leave Leave Leave Leave](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) برای HTML، MHTML، EPUB یا فرمت های Azw3
@@ -31,7 +31,7 @@ Aspose.Words به کاربران اجازه می دهد تا با اسناد د�
 - [RTF](https://reference.aspose.com/words/java/com.aspose.words/rtfsaveoptions/) فرمت RTF
 - [دانلود موسیقی متن بازی The Punch بازی Punch Punch Ricoh TXT](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/) فرمت TXT
 - [دانلود بازی Ricoh ODT](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) فرمت های ODT و OTT
-- [دانلود موسیقی متن بازی The Punch دانلود بازی Punch HDL Punch](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/) فرمت PCL
+- [دانلود موسیقی متن بازی The Punch بازی Punch Punch HDL Punch](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/) فرمت PCL
 - [PS](https://reference.aspose.com/words/java/com.aspose.words/pssaveoptions/) فرمت PS
 - [دانلود بازی Britney WordML 2003](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/) فرمت WordML
 - [دانلود موسیقی متن فیلم Punch Punch Html](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) فرمت HtmlFixed

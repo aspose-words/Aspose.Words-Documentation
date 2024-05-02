@@ -28,10 +28,10 @@ Aspose.Words позволява на потребителите да работ�
 - [Опции за извор на SVG](https://reference.aspose.com/words/java/com.aspose.words/svgsaveoptions/) за SVG формат
 - [HTML визмози за употреба](https://reference.aspose.com/words/java/com.aspose.words/htmlsaveoptions/) за HTML, MHTML, EPUB или Azw3 формати
 - [Markdown Запис на опции](https://reference.aspose.com/words/java/com.aspose.words/markdownsaveoptions/) вместо Markdown формат
-- [Опции за начало на RTF](https://reference.aspose.com/words/java/com.aspose.words/rtfsaveoptions/) за RTF формат
-- [Опции за пекат TXT](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/) за TXT формат
+- [Опции за начоло на RTF](https://reference.aspose.com/words/java/com.aspose.words/rtfsaveoptions/) за RTF формат
+- [Опции за TXT](https://reference.aspose.com/words/java/com.aspose.words/txtsaveoptions/) за TXT формат
 - [Опции за запис OTT](https://reference.aspose.com/words/java/com.aspose.words/odtsaveoptions/) за ODT и OTT формати
-- [Опции за начало на PCL](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/) за формат PCL
+- [Опции за начоло на PCL](https://reference.aspose.com/words/java/com.aspose.words/pclsaveoptions/) за формат PCL
 - [Опции за PS pica](https://reference.aspose.com/words/java/com.aspose.words/pssaveoptions/) за PS формат
 - [WordML 2003 forpazeni optsi](https://reference.aspose.com/words/java/com.aspose.words/wordml2003saveoptions/) за WordML формат
 - [HtmlFixed opssi for uspis](https://reference.aspose.com/words/java/com.aspose.words/htmlfixedsaveoptions/) за HtmlFixed формат
